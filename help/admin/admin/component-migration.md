@@ -2,11 +2,9 @@
 description: Verklaart hoe te om componenten en projecten van Adobe Analytics aan Customer Journey Analytics te migreren.
 title: Componenten en projecten migreren van Adobe Analytics naar Customer Journey Analytics
 feature: Admin Tools
-hide: true
-hidefromtoc: true
-source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
+source-git-commit: e32b239fd64eea4516bc73b934b10346832f2bab
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '2051'
 ht-degree: 1%
 
 ---
@@ -53,13 +51,15 @@ In de volgende tabellen wordt aangegeven welke elementen van een project en comp
 
 #### Componentelementen die worden gemigreerd
 
+Dimensionen en maateenheden worden gemigreerd als onderdeel van het toewijzingsproces dat wordt beschreven in [Adobe Analytics-projecten migreren naar Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics), terwijl segmenten en datumbereiken opnieuw worden gemaakt in Customer Journey Analytics op basis van de
+
 |  | Gegigreerd |
 |---------|---------|
-| **[Eigenaar](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) |
-| **[Delen](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Nee |
-| **[Beschrijvingen](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
-| **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Nee |
-| **[Attributie (op afmetingen)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
+| **[Eigenaar](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimensionen en maatstaven: Nee<p>Segmenten en datumbereiken: ![vinkje](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[Delen](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionen en maatstaven: Nee<p>Segmenten en datumbereiken: Nee</p> |
+| **[Beschrijvingen](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimensionen en maatstaven: Nee<p>Segmenten en datumbereiken: ![vinkje](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionen en maatstaven: Nee<p>Segmenten en datumbereiken: Nee</p> |
+| **[Attributie (op afmetingen)](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimensionen en maatstaven: Nee<p>Segmenten en datumbereiken: Nee</p> |
 
 {style="table-layout:auto"}
 
@@ -76,17 +76,16 @@ In de volgende tabellen wordt aangegeven welke elementen van een project en comp
 | **[Visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) |
 | **[Eigenaar](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) Gedefinieerd door gebruiker die de migratie uitvoert |
 | **[Curation](/help/analyze/analysis-workspace/curate-share/curate.md)** | Nee |
-| **[Delen (projectrollen)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Nee |
-| **[Delen (delen met een willekeurige koppeling)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[Delen (projectrollen)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Nee <!-- Add info on Share with Anyone? Is it the same?--> |
 | **[Annotaties](/help/analyze/analysis-workspace/components/annotations/overview.md)** | Nee |
 | **[Mapstructuur](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | Nee |
 | **[Beschrijvingen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) |
 | **[Tags](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | Nee |
 | **[Planningen](/help/components/scheduled-projects-manager.md)** | Nee |
-| **[Anomaliedetectie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
-| **[Favorieten](/help/analyze/landing.md)** | ? |
 
 {style="table-layout:auto"}
+
+<!-- What about Anomaly Detection and Favorites? -->
 
 ### Niet-ondersteunde elementen begrijpen die fouten veroorzaken
 
@@ -116,7 +115,7 @@ Verwijder deze elementen uit het Adobe Analytics-project voordat u het project n
 
 * [Waarschuwingen](/help/components/c-alerts/intellligent-alerts.md)
 
-### Bepaal als organisatie hoe u niet-ondersteunde componenten in kaart brengt
+### Besluit als organisatie hoe u componenten in kaart zult brengen
 
 >[!IMPORTANT]
 >
@@ -129,7 +128,7 @@ Verwijder deze elementen uit het Adobe Analytics-project voordat u het project n
 >Hier volgt een lijst met afmetingen en metriek die u handmatig moet toewijzen als deze in uw project bestaan. We raden u aan deze lijst vóór uw migratie te herzien. Als om het even welk van deze componenten in uw project bestaan, besluit nu welke componenten van de Customer Journey Analytics u hen aan in kaart zult brengen.
 
 
-#### Niet-ondersteunde afmetingen
+#### Dimensionen die handmatig moeten worden toegewezen
 
 * averagepagetime
 * pagetimeseconds
@@ -163,7 +162,7 @@ Verwijder deze elementen uit het Adobe Analytics-project voordat u het project n
 * doelwit
 
 
-#### Niet-ondersteunde metriek
+#### Metrisch die handmatig moeten worden toegewezen
 
 * timespentbezoek
 * timespentbezoeker
