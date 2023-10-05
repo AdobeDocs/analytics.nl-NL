@@ -3,9 +3,9 @@ description: Waarschuwingen beheren.
 title: Overzicht van Waarschuwingsbeheer
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: cfae0661dfa9c61daea33c3a52204793ce3d35c1
+source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,6 @@ De zichtbare kolommen configureren in het Alarmbeheer:
    | Tags | Hier ziet u tags die zijn toegepast op de waarschuwing, door u of door personen die de waarschuwing met u hebben gedeeld. |
    | Gedeeld met | Hiermee geeft u personen of groepen (alleen beheerder) of Alle personen (alleen beheerder) weer waarmee u de waarschuwing hebt gedeeld. |
    | Datum gewijzigd | Geeft de datum aan waarop de waarschuwing voor het laatst is gewijzigd. |
-   | Laatst gebruikt | Geeft de datum weer waarop de waarschuwing voor het laatst is gebruikt. <p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd.</p><p>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</p> |
+   | Laatst gebruikt | Geeft de datum weer waarop de waarschuwing voor het laatst is gebruikt. <p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd.</p><p>Houd rekening met het volgende wanneer u deze kolom weergeeft:</p><ul><li>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</li><li>Voor sommige componenten bevat deze kolom mogelijk geen gegevens als de component voor het laatst is gebruikt vóór september 2023.</li></ul> |
 
    {style="table-layout:auto"}
