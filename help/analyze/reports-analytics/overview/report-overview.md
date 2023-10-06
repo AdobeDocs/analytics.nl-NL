@@ -5,9 +5,9 @@ uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '308'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,6 @@ ht-degree: 1%
 Een inleiding op de eigenschappen van een rapport, met inbegrip van de toolbar, kalender, en detaillijst.
 
 In dit voorbeeld wordt een [!UICONTROL Pages Report]. De configuratieopties kunnen variëren, afhankelijk van het rapport dat u in werking stelt. In plaats van bijvoorbeeld Trended of Ranked te selecteren in een [!UICONTROL Site Content] rapport, zou u granulariteit en paginanaam voor een kunnen specificeren [!UICONTROL Site Metrics] verslag.
-
->[!IMPORTANT]
->Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die de rapporten &amp; Analytics van de macht niet meer aan de technologienormen van Adobe voldoen. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 
 ## Voorbeeld van paginapport {#section_288CC85536684C2DB184141358481EF0}
 
@@ -51,9 +48,9 @@ Geef de datum op door op de kalenderknop te klikken en een datumbereik te select
 
 ![](assets/calendar_large.png){width="672px"}
 
-Zie [Een datum- of datumbereik selecteren](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) en [Vergelijkingsdatums](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Zie [Een datum- of datumbereik selecteren](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) en [Datums vergelijken](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
-## Type grafiek {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
+## Grafiektype {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
 Selecteer het type grafiek of grafiek dat u wilt zien:
 

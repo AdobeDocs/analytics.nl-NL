@@ -5,9 +5,9 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '760'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,6 @@ ht-degree: 1%
 {{ra-eol}}
 
 Een overzicht van het menu Rapporten in Rapporten &amp; Analytics.
-
->[!IMPORTANT]
->Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en onderliggende technologie die de macht meldt &amp; Analytics niet meer aan de normen van de Adobe voldoet. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 
 Het menu Rapporten bevat:
 
@@ -36,7 +33,7 @@ In rapporten wordt via een hiërarchische kolomweergave genavigeerd. Klikken **[
 
 ![](assets/reports-landing.png){width="672px"}
 
-Zie voor meer informatie over afzonderlijke rapporten [Dimension](/help/components/dimensions/overview.md).
+Zie voor meer informatie over afzonderlijke rapporten [Dimensionen](/help/components/dimensions/overview.md).
 
 ## Zoeken naar rapporten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -44,7 +41,7 @@ Het menu Rapporten biedt een verbeterde zoekervaring. Klikken **[!UICONTROL View
 
 ![](assets/menu-search.png)
 
-Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. Druk op de toets Escape om de zoekopdracht te sluiten zonder het huidige rapport te wijzigen of druk op Enter om het geselecteerde rapport te laden.
+Druk op Tab of op Pijl-omlaag (?) navigeren door de lijst met rapporten. Druk op de toets Escape om de zoekopdracht te sluiten zonder het huidige rapport te wijzigen of druk op Enter om het geselecteerde rapport te laden.
 
 >[!NOTE]
 >
@@ -61,8 +58,8 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Menu Experience Cloud-oplossingen <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="15px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Als u op dit pictogram klikt, wordt het menu Experience Cloud uitgebreid, zodat u toegang hebt tot andere oplossingen van marketingmogelijkheden. </td> 
+   <td colname="col1">Menu Oplossingen Experience Cloud <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="15px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col2"> Als u op dit pictogram klikt, wordt het menu Experience Cloud uitgebreid, zodat u toegang hebt tot andere oplossingen voor marketingmogelijkheden. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Menu Rapporten in-/uitschakelen <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="15px" /> </td> 
@@ -102,7 +99,7 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Verzenden</span> </td> 
-   <td colname="col2">Hiermee kunt u het rapport direct per e-mail verzenden of de e-mail plannen op een eenmalige of terugkerende basis. Indelingsopties zijn onder andere PDF, CSV, Excel, HTML, Word of Mobile (alleen tekst).</td> 
+   <td colname="col2">Hiermee kunt u het rapport direct per e-mail verzenden of de e-mail plannen op een eenmalige of terugkerende basis. Indelingsopties zijn PDF, CSV, Excel, HTML, Word of Mobile (alleen tekst).</td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Bladwijzer...</span> </td> 
@@ -114,7 +111,7 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Meer...</span> </td> 
-   <td colname="col2"> Hiermee kunt u alle of sommige van de volgende handelingen uitvoeren: druk het, haal gegevens uit het, voeg een alarm aan het toe, creeer een douanerapport, kopieer een grafiek, verbinding aan dit rapport, en open een nieuw venster. </td> 
+   <td colname="col2"> Hiermee kunt u een of meer van de volgende handelingen uitvoeren: afdrukken, er gegevens uit halen, er een waarschuwing aan toevoegen, een aangepast rapport maken, een grafiek kopiëren, een koppeling naar dit rapport maken en een nieuw venster openen. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Kiezer voor rapportsuite <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg" width="15px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
@@ -129,4 +126,4 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
 
 ## Het menu Alle rapporten aanpassen {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Beheerders kunnen de rapporten in het menu Rapporten wijzigen. Zie [Menu aanpassen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) in de Help bij Admin.
+Beheerders kunnen de rapporten in het menu Rapporten wijzigen. Zie [Menu aanpassen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) in Admin Help.

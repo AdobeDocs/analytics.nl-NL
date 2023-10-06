@@ -4,7 +4,7 @@ title: Overzicht van realtimerapportage
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 ---
 
 # Overzicht van realtimerapportage
+
+{{ra-eol}}
 
 Real-time rapporten tonen het verkeer van de Web-pagina en rangschikken paginameningen in echt - tijd. Verstrekt activeerbare gegevens om uw bedrijfsbesluiten op te baseren.
 
@@ -36,10 +38,10 @@ Als beheerder kunt u
 * Gebruik een aangepaste gebeurtenis, winkelwagentje of een andere instantie.
 * U kunt maximaal 2 uur historische realtime gegevens weergeven en deze instelling wijzigen:
 
-   * Laatste 15 minuten: Korreligheid van 1 minuut
-   * Laatste 30 minuten: Korreligheid van 1 minuut
-   * Laatste 1 uur: Korreligheid van 2 minuten
-   * Laatste 2 uur: Korreligheid van 4 minuten
+   * Afgelopen 15 minuten: granulariteit van 1 minuut
+   * Laatste 30 minuten: 1 minuut granulariteit
+   * Laatste 1 uur: 2 minuten granulariteit
+   * Afgelopen 2 uur: korreligheid van 4 minuten
 
 * Vergelijk bijvoorbeeld de waarden van vorige week met de waarden van vorig jaar (en met het totaal van vandaag).
 

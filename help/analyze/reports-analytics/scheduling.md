@@ -6,29 +6,28 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1612'
 ht-degree: 1%
 
 ---
 
 # Rapport Planning en distributie
 
-Informatie over het plannen, downloaden en verspreiden van rapporten.
+{{ra-eol}}
 
->[!IMPORTANT]
->Op 21 april 2022 hebben we aangekondigd dat verschillende functies die specifiek zijn voor geplande rapporten, zullen worden vervangen ter voorbereiding op het eerder aangekondigde einde van de levensduur van Reports &amp; Analytics. Deze functies omvatten de mogelijkheid om nieuwe rapporten en nieuwe gegevensextracten te plannen. In antwoord op verzoeken van klanten die een uitbreiding willen en om de overgang van Rapporten &amp; Analytics te vergemakkelijken, hebben wij besloten om de toegang tot deze eigenschappen tot 31 januari 2023 te verlengen. Houd er rekening mee dat de vervaltijden voor zowel rapporten als gegevensextracten beperkt blijven tot negen maanden. aan het einde van deze periode wordt de levering van rapporten en gegevensuittreksels gepauzeerd , tenzij het schema opnieuw wordt geactiveerd . [Meer informatie](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+Informatie over het plannen, downloaden en verspreiden van rapporten.
 
 Wanneer u een rapport voor levering in een toepassing van Adobe Analytics plant, kunt u de Plannende en hulpmiddelen van de Distributie gebruiken om te bekijken welke dossiers automatisch zijn verzonden en de leveringen te wijzigen of te eindigen.
 
 Vanwege verschillen in verwerkingsmechanismen en platforms hebben de verschillende typen downloadbare en geplande rapporten die beschikbaar zijn in Adobe Analytics, verschillende beperkingen met betrekking tot het maximumaantal rijen dat ze in één aanvraag kunnen verwerken. Hier zijn de limieten van elk:
 
 * Word, CSV, Excel, HTML en PDF: Het zelfde aantal rijen zichtbaar in het rapport. Deze limiet is standaard ingesteld op 50 rijen, maar kan worden verhoogd tot 200. Uitsplitsingsrapporten hebben een harde limiet van 50 rijen.
-* Gegevens extraheren: 50.000 rijen
+* Gegevensuittreksels: 50.000 rijen
 * Data Warehouse: Onbeperkt
 
-Deze beperkingen gelden voor afzonderlijke geplande en gedownloade rapporten; dashboards zijn beperkt tot de hoeveelheid ruimte beschikbaar binnen een rapport.
+Deze beperkingen gelden voor afzonderlijke geplande en gedownloade rapporten; dashboards zijn beperkt tot de hoeveelheid ruimte die beschikbaar is in een rapport.
 
 ## Leveringstijd versus verwerkingstijd
 
@@ -36,7 +35,7 @@ De &quot;Tijd van de Levering&quot;of &quot;Tijd van Dag&quot;ingegaan door de g
 
 Bovendien zijn er een aantal andere factoren die de vertraging nog kunnen vergroten voordat het verslag daadwerkelijk wordt uitgebracht:
 
-* **Vele verschillende programma&#39;s van het zelfde type tezelfdertijd in werking stellen** (bijvoorbeeld veel dashboards enz.) kan het systeem overladen. Het planningssysteem staat slechts een paar (5-10) rapporten van om het even welk één type toe om gelijktijdig te lopen. Wanneer meer dan 5-10 allen in één keer gepland zijn, zullen sommigen in lijn op andere rapporten moeten wachten te beëindigen alvorens zij met verwerking kunnen beginnen. Deze kwestie kan worden verlicht door de rapporten van een bedrijf op gestaffelde tijden door dag of uur, eerder dan gelijktijdig te plannen.
+* **Vele verschillende programma&#39;s van hetzelfde type tegelijk uitvoeren** (bijvoorbeeld veel dashboards enz.) kan het systeem overladen. Het planningssysteem staat slechts een paar (5-10) rapporten van om het even welk één type toe om gelijktijdig te lopen. Wanneer meer dan 5-10 allen in één keer gepland zijn, zullen sommigen in lijn op andere rapporten moeten wachten om te beëindigen alvorens zij met verwerking kunnen beginnen. Deze kwestie kan worden verlicht door de rapporten van een bedrijf op gestaffelde tijden door dag of uur, eerder dan gelijktijdig te plannen.
 * Naast het specifieke rapporttype (dashboards, enz.), zullen de rapporten ook in lijn wachten als het bedrijf heeft **meer dan 15-20 van om het even welk type van rapport dat tegelijkertijd (over alle verschillende rapporttypes) wordt gepland**. Dit kan worden verlicht door onthutsende planningstijden in plaats van vele tezelfdertijd te hebben lopen.
 * **Problemen bij downstreamdiensten** dat de Planner zich op baseert ook levering van rapporten kan beïnvloeden. Bijvoorbeeld, als u onafhankelijk APIs gebruikt om rapporten in werking te stellen en de API verzoekrij te vullen, dan kunnen uw geplande rapporten langzaam leveren terwijl u voor die bron concurreert.
 * **Vertraging rapportsuite** (een vertraging in het verzamelen van gegevens) kan sommige geplande rapporten ook vertragen.
@@ -61,10 +60,10 @@ Om rapporten in een verscheidenheid van formaten te downloaden en te e-mailen en
 | Optie | Beschrijving |
 | --- |--- |
 | Rapportbestandsnaam | Specificeert de naam van het rapport. De standaardindeling is `<report name> for <suite> - <report date range>`. Als u een aangepaste naam wilt opgeven, selecteert u [!UICONTROL Custom]. |
-| Rapportindeling | Hier kunt u de indelingen PDF, CSV, Excel, HTML, Word of Mobiel opgeven voor levering. Als u CSV selecteert, kunt u ook de codering voor CSV opgeven:<ul><li>Shift-JIS: Japanse tekencodering.</li><li>EUC-JP: Uitgebreide Unix-code, voornamelijk voor Japans, Koreaans en Vereenvoudigd Chinees.</li></ul> |
-| Rapportinhoud | <ul><li>Aantal rijen in de tabel: Hiermee geeft u het aantal rijen op dat zichtbaar moet zijn in de tabel van het rapport dat u verzendt.</li><li>Taal voor kop- en voettekst: Hier geeft u de taal van de kop- en voettekst op.</li><li>Opmerkingen: Geeft de tekst aan die aan het begin van het rapport wordt weergegeven.</li></ul> |
-| Digitale handtekeningbestand verzenden | Wanneer u een rapport opvraagt, zoals een rapport met bladwijzer of verzoeken om een Data Warehouse, kunt u een gegevenshandtekening aanvragen. De Adobe beperkt de toegang tot de gegevens niet, maar het doel van het Digitale Dossier van de Handtekening (.sig) is de geldigheid van het geleverde rapportdossier te verifiëren. Met de digitale handtekening kunnen rapportontvangers controleren of het bestand afkomstig is van Adobe en niet is gewijzigd. |
-| Doel rapporteren | <ul><li>E-mail: Hiermee kunt u instellingen voor e-mailadressen, de onderwerpregel en notities configureren.</li><li>FTP: Hiermee kunt u FTP-instellingen configureren, waaronder de host, poort, map, gebruikersnaam en wachtwoord.</li></ul> |
+| Rapportindeling | Hier kunt u de indelingen PDF, CSV, Excel, HTML, Word of Mobiel opgeven voor levering. Als u CSV selecteert, kunt u ook de codering voor CSV opgeven:<ul><li>Shift-JIS: Japanse tekencodering.</li><li>EUC-JP: Uitgebreide Unix Code, hoofdzakelijk voor Japans, Koreaans, en Vereenvoudigd Chinees.</li></ul> |
+| Rapportinhoud | <ul><li>Aantal rijen in de tabel: geeft het aantal rijen op dat zichtbaar moet zijn in de tabel van het rapport dat u verzendt.</li><li>Taal voor kop- en voettekst: geeft de taal van de kop- en voettekst op.</li><li>Opmerkingen: geeft de tekst op die aan het begin van het rapport wordt weergegeven.</li></ul> |
+| Digitale handtekeningbestand verzenden | Wanneer u een rapport opvraagt, zoals een rapport met bladwijzer of verzoeken om een Data Warehouse, kunt u een gegevenshandtekening aanvragen. De digitale handtekening van de Adobe beperkt niet wie toegang tot de gegevens heeft, maar het doel van het Digitale Dossier van de Handtekening (.sig) is de geldigheid van het geleverde rapportdossier te verifiëren. Met de digitale handtekening kunnen rapportontvangers controleren of het bestand afkomstig is van de Adobe en niet is gewijzigd. |
+| Doel rapporteren | <ul><li>E-mail: Hiermee kunt u instellingen voor e-mailadressen, de onderwerpregel en notities configureren.</li><li>FTP: hiermee kunt u FTP-instellingen configureren, waaronder de host, poort, map, gebruikersnaam en wachtwoord.</li></ul> |
 
 1. Klik op **[!UICONTROL Scheduling Options]**.
 
@@ -72,9 +71,9 @@ Om rapporten in een verscheidenheid van formaten te downloaden en te e-mailen en
 |--- |--- |
 | Rapport nu verzenden | Verzendt het rapport onmiddellijk. |
 | Plan voor later | Geeft opties weer om een tijdframe en leveringsopties op te geven. |
-| Tijdschema rapport | **Vast**: Voorkomt dat de datum vooruit gaat naarmate de tijd verstrijkt. **Rollen**: Hiermee kan de datum worden vervroegd in de tijd. Enkele overwegingen:<ul><li>Als u Rolling voor zowel de begin als einddata selecteert, en u een dagrapport voor de vorige dag selecteert, ontvangt u elke dag een e-mail met een rapport voor de vorige dag.</li><li>Als u Vast voor de beginnende dag selecteert, en het rollen voor de einddag, ontvangt u op de eerste dag een rapport voor de vorige dag. De tweede dag ontvangt u een rapport voor de vorige twee dagen, en op de derde dag ontvangt u een rapport voor de vorige drie dagen, etc.</li><li>Als u Vast hebt geselecteerd voor zowel de begin- als de einddatum, ontvangt u elke dag een identiek rapport voor de opgegeven dagen.</li><li>U kunt geen schuivende begindatum en een vaste einddatum selecteren.</li></ul> |
-| Leveringsfrequentie | <ul><li>**Uur**: Levert e-mail elk uur, om het even welk ander uur, of een ander interval van uren.</li><li>**Dagelijks**: Verzendt de e-mail elke dag, elke andere dag, elke derde dag, of om het even welk ander interval van dagen. U kunt het ook elke weekdag laten verzenden.</li><li>**Wekelijks**: Verzendt het e-mailbericht elke week, andere week, elke derde week of elk ander interval van weken. U kunt ook opgeven welke dag van de week het wordt verzonden.</li><li>**Maandelijks**: Hiermee geeft u het interval op in een aantal maanden en u kunt ook de dag van de maand selecteren waarop de gegevens worden verzonden, of de dag van de week in een bepaalde week van de maand.</li><li>**Jaarlijks**: Hier geeft u de dag op van het jaar waarin het rapport wordt verzonden. U kunt dit ook doen op een bepaalde dag van de week in een willekeurige week van het jaar.</li><li>**Dag**: Is op de tijdzone van toepassing verbonden aan de geselecteerde rapportreeks.</li></ul> |
-| Opties voor eindaflevering | <ul><li>**Nooit einde**: Geeft geen einde aan.</li><li>**Einde na `value` voorkomen**: Hier geeft u het aantal exemplaren op voordat de levering wordt beëindigd.</li><li>**Eindigen op**: Hier kunt u een specifieke datum opgeven. Als u de gegevens op de zelfde datum wilt verwerken zoals de rapportgegevens, bevat het rapport slechts gegevens die in het gegevensbestand op het tijdstip zijn gezet het rapport wordt verzonden. Omdat de volledige verwerking voor een dag tot 24 uren kan vergen, zouden de volledige gegevens niet op het tijdstip kunnen beschikbaar zijn het rapport wordt verzonden. Voor volledige gegevens stelt u altijd de verwerkingstijd in gedurende 24 uur na het einde van de verslagperiode.</li></ul> |
+| Tijdschema rapport | **Vast**: Hiermee voorkomt u dat de datum vooruit gaat in de tijd. **Rollen**: Hiermee staat u toe dat de datum vooruit gaat in de tijd. Enkele overwegingen:<ul><li>Als u Rolling voor zowel de begin als einddata selecteert, en u een dagrapport voor de vorige dag selecteert, ontvangt u elke dag een e-mail met een rapport voor de vorige dag.</li><li>Als u Vast voor de beginnende dag selecteert, en het rollen voor de einddag, ontvangt u op de eerste dag een rapport voor de vorige dag. De tweede dag ontvangt u een rapport voor de vorige twee dagen, en op de derde dag ontvangt u een rapport voor de vorige drie dagen, etc.</li><li>Als u Vast selecteert voor zowel de begin als einddatum, ontvangt u elke dag een identiek rapport voor de dagen die u hebt opgegeven.</li><li>U kunt geen schuivende begindatum en een vaste einddatum selecteren.</li></ul> |
+| Leveringsfrequentie | <ul><li>**Uur**: Levert de e-mail elk uur, om het even welk ander uur, of een ander interval van uren.</li><li>**Dagelijks**: verzendt het e-mailbericht elke dag, elke andere dag, elke derde dag of om het even welk ander tijdsinterval. U kunt het ook elke weekdag laten verzenden.</li><li>**Wekelijks**: verzendt het e-mailbericht elke week, elke andere week, elke derde week of elk ander interval van weken. U kunt ook opgeven welke dag van de week het wordt verzonden.</li><li>**Maandelijks**: Hiermee geeft u het interval op in een aantal maanden en u kunt ook de dag van de maand selecteren waarop deze wordt verzonden, of de dag van de week in een specifieke week van de maand.</li><li>**Jaarlijks**: Geeft de dag van het jaar aan waarop het rapport wordt verzonden, of u kunt het rapport op een bepaalde dag van de week in een willekeurige week van het jaar verzenden.</li><li>**Dag**: Is van toepassing op de tijdzone in bijlage aan de geselecteerde rapportreeks.</li></ul> |
+| Opties voor eindaflevering | <ul><li>**Nooit einde**: geeft aan dat er geen einde is.</li><li>**Einde na `value` voorkomen**: Geeft het aantal exemplaren aan voordat de levering wordt beëindigd.</li><li>**Eindigen op**: Hiermee kunt u een specifieke datum opgeven. Als u de gegevens op de zelfde datum wilt verwerken zoals de rapportgegevens, bevat het rapport slechts gegevens die in het gegevensbestand op het tijdstip zijn gezet het rapport wordt verzonden. Omdat de volledige verwerking voor een dag tot 24 uren kan vergen, zouden de volledige gegevens niet op het tijdstip kunnen beschikbaar zijn het rapport wordt verzonden. Voor volledige gegevens stelt u altijd de verwerkingstijd in gedurende 24 uur na het einde van de verslagperiode.</li></ul> |
 
 ## Een rapport afdrukken {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
@@ -94,9 +93,9 @@ Download gedetailleerde informatie over een specifiek rapport in de indelingen P
 
 1. Selecteer het gewenste formaat voor het rapport:
 
-   * **[!UICONTROL PDF]**: Specificeert dat het rapport in Adobe PDF zal worden gedownload, wat u het rapport met anderen laat delen, ongeacht welk computersysteem de ontvanger loopt.
+   * **[!UICONTROL PDF]**: Geeft aan dat het rapport wordt gedownload in Adobe PDF, zodat u het rapport kunt delen met anderen, ongeacht welk computersysteem de ontvanger uitvoert.
    * **[!UICONTROL CSV]**: Geeft aan dat het rapport wordt gedownload in [!DNL .csv] (indeling met door komma&#39;s gescheiden waarden).
-   * **[!UICONTROL Excel]**: Specificeert dat het rapport in het formaat van Microsoft Excel zal worden gedownload, dat u het rapport met anderen laat delen die het in een spreadsheetprogramma kunnen openen.
+   * **[!UICONTROL Excel]**: Geeft aan dat het rapport wordt gedownload in de Microsoft Excel-indeling, zodat u het rapport kunt delen met anderen die het kunnen openen in een spreadsheetprogramma.
    * **[!UICONTROL Word]**: Geeft op dat het rapport wordt gedownload in de Microsoft Word-indeling.
 
    >[!NOTE]
@@ -140,7 +139,7 @@ Abonnement op een gepland rapport opzeggen:
 
 1. Klik op de knop **[!UICONTROL click here]** koppeling naast **[!UICONTROL To cancel automatic delivery of this report]**.
 
-1. Bevestig dat u de levering van het rapport wilt annuleren.
+1. Bevestig dat u de rapportlevering wilt annuleren.
 
    >[!NOTE]
    >

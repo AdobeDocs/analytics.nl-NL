@@ -3,7 +3,7 @@ description: Administratieve stappen voor vestiging real-time rapporten.
 title: Realtimerapporten configureren
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Realtimerapporten configureren
+
+{{ra-eol}}
 
 Administratieve stappen voor vestiging real-time rapporten.
 
@@ -35,7 +37,7 @@ Real-time rapporten instellen binnen [!UICONTROL Reports & Analytics] bestaat ui
 
    ![](assets/real_time_admin.png)
 
-   Voor informatie over ondersteunde realtime metriek en dimensies raadpleegt u [Ondersteunde Dimension en metriek](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
+   Voor informatie over ondersteunde realtime metriek en dimensies raadpleegt u [Ondersteunde maateenheden en Dimensionen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Als u classificaties hebt gemaakt, worden deze ingesprongen weergegeven onder de dimensie waarvoor ze zijn gedefinieerd:
 
@@ -45,11 +47,11 @@ Real-time rapporten instellen binnen [!UICONTROL Reports & Analytics] bestaat ui
    >
    >Voor één enkel rapport Real-Time, steunen wij momenteel niet toelatend dubbele dimensies, zelfs als een verschillende classificatie voor elke dimensie wordt geselecteerd.
 
-   Voor meer informatie over classificaties raadpleegt u [Over classificaties](/help/components/classifications/c-classifications.md).
+   Zie voor meer informatie over classificaties [Over classificaties](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
-   >Sommige dimensies, zoals &#39;Trefwoord zoeken&#39; of &#39;Product&#39;, blijven niet in real-time behouden, zoals elders in Adobe Analytics. Wanneer u een niet-permanente metrische waarde selecteert, wordt de volgende waarschuwing weergegeven:
+   >Sommige dimensies, zoals &#39;Trefwoord zoeken&#39; of &#39;Product&#39;, blijven niet in real-time behouden, zoals ze elders in Adobe Analytics doen. Wanneer u een niet-permanente metrische waarde selecteert, wordt de volgende waarschuwing weergegeven:
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
