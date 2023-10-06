@@ -2,9 +2,10 @@
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
+source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
 workflow-type: tm+mt
-source-wordcount: '2081'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -78,7 +79,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -90,7 +91,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -106,7 +107,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -120,7 +121,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-mail
 
@@ -147,7 +148,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -160,7 +161,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -173,7 +174,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -187,7 +188,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-      +++
++++
 
    1. Selecteren [!UICONTROL **Opslaan**].
 
@@ -209,14 +210,59 @@ Gegevens van het gegevenspakhuis kunnen aan een Adobe of klant-ontvangen plaats 
 
 Gebruik de volgende informatie wanneer u de beschikbare velden invult:
 
-* [!UICONTROL **Host**]: Voer de gewenste FTP-doel-URL in. Bijvoorbeeld, `ftp://ftp.omniture.com`.
-* [!UICONTROL **Pad**]: kan leeg worden gelaten
+#### Accountvelden
+
+* [!UICONTROL **Accountnaam**]: De naam van de FTP-account.
+
+* [!UICONTROL **Accountbeschrijving**]: Een beschrijving van de FTP-account.
+
+* [!UICONTROL **Hostnaam**]: Voer de gewenste FTP-doel-URL in. Bijvoorbeeld, `ftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  Niet opnemen `ftp://` aan het begin van de URL.
+
 * [!UICONTROL **Gebruikersnaam**]: Voer de gebruikersnaam in die u wilt aanmelden bij de FTP-site.
+
 * [!UICONTROL **Wachtwoord en wachtwoord bevestigen**]: Voer het wachtwoord in om u aan te melden bij de FTP-site.
+
+#### Locatievelden
+
+* [!UICONTROL **Locatienaam**]: De naam van de locatie op de FTP-account waarnaar u bestanden wilt verzenden.
+
+* [!UICONTROL **Locatiebeschrijving**]: Een beschrijving van de locatie op de FTP-account.
+
+* [!UICONTROL **Directorypad**]: Het pad naar de locatie op de FTP-account.
 
 ### SFTP
 
 SFTP-ondersteuning voor gegevenspakhuis is beschikbaar. Vereist een gastheer SFTP, gebruikersbenaming, en de bestemmingsplaats om een geldige RSA of DSA openbare sleutel te bevatten. U kunt de aangewezen openbare sleutel downloaden wanneer het creëren van de bestemming van het gegevenspakhuis.
+
+Gebruik de volgende informatie wanneer u de beschikbare velden invult:
+
+#### Accountvelden
+
+* [!UICONTROL **Accountnaam**]: De naam van de FTP-account.
+
+* [!UICONTROL **Accountbeschrijving**]: Een beschrijving van de FTP-account.
+
+* [!UICONTROL **Hostnaam**]: Voer de gewenste doel-URL voor SFTP in. Bijvoorbeeld, `sftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  Niet opnemen `sftp://` aan het begin van de URL.
+
+* [!UICONTROL **Gebruikersnaam**]: Voer de gebruikersnaam in die u wilt aanmelden bij de SFTP-site.
+
+* [!UICONTROL **Openbare sleutels**]: Download de juiste openbare sleutel wanneer u de bestemming van het gegevenspakhuis maakt.
+
+#### Locatievelden
+
+* [!UICONTROL **Locatienaam**]: De naam van de locatie op de SFTP-account waarnaar u bestanden wilt verzenden.
+
+* [!UICONTROL **Locatiebeschrijving**]: Een beschrijving van de locatie op de SFTP-account.
+
+* [!UICONTROL **Directorypad**]: Het pad naar de locatie op de SFTP-account.
 
 ### S3
 
