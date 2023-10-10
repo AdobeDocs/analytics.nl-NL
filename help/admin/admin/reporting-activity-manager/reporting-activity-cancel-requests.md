@@ -2,9 +2,9 @@
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 title: Rapportageverzoeken annuleren in de Manager van de Activiteit van de Rapportering
 feature: Admin Tools
-source-git-commit: dc09510ea1d97c39d00df309faf85f90003b50fa
+source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
 ## Specifieke verzoeken annuleren
 
-U kunt specifieke verzoeken kiezen die u wilt annuleren.
+U kunt individuele verzoeken annuleren die een grote hoeveelheid rapporteringscapaciteit verbruiken.
 
 1. Ga in Adobe Analytics naar **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
@@ -41,7 +41,7 @@ U kunt specifieke verzoeken kiezen die u wilt annuleren.
 
 1. Selecteren [!UICONTROL **Aanvragen annuleren**].
 
-   De [!UICONTROL **Aanvragen voor x-rapporten annuleren**] wordt weergegeven.
+   De [!UICONTROL **Annuleren _x_ verzoeken om rapportage**] wordt weergegeven.
 
 1. In het veld Bericht van annulering wordt het bericht weergegeven dat aan gebruikers wordt weergegeven wanneer hun aanvragen worden geannuleerd. Er wordt een standaardbericht weergegeven. U kunt het standaardbericht bijwerken voor meer informatie.
 
@@ -76,7 +76,7 @@ U kunt alle aanvragen annuleren die aan een of meer gebruikers zijn gekoppeld.
 
 1. Selecteren [!UICONTROL **Aanvragen annuleren**].
 
-   De [!UICONTROL **Aanvragen van x-rapporten door x-gebruikers annuleren**] wordt weergegeven.
+   De [!UICONTROL **Annuleren _x_ rapporteert verzoeken van x gebruikers**] wordt weergegeven.
 
 1. In het veld Bericht van annulering wordt het bericht weergegeven dat aan gebruikers wordt weergegeven wanneer hun aanvragen worden geannuleerd. Er wordt een standaardbericht weergegeven. U kunt het standaardbericht bijwerken voor meer informatie.
 
@@ -111,7 +111,7 @@ U kunt alle verzoeken annuleren die aan één of meerdere projecten worden geass
 
 1. Selecteren [!UICONTROL **Aanvragen annuleren**].
 
-   De [!UICONTROL **Aanvragen van x-rapporten annuleren vanuit x-projecten**] wordt weergegeven.
+   De [!UICONTROL **Annuleren _x_ rapporteert verzoeken van x projecten**] wordt weergegeven.
 
 1. In het veld Bericht van annulering wordt het bericht weergegeven dat aan gebruikers wordt weergegeven wanneer hun aanvragen worden geannuleerd. Er wordt een standaardbericht weergegeven. U kunt het standaardbericht bijwerken voor meer informatie.
 
@@ -132,6 +132,6 @@ U kunt alle verzoeken annuleren die aan één of meerdere projecten worden geass
 
 ## Ervaring wanneer de gebruikers tot een geannuleerd rapport toegang hebben
 
-In Analysis Workspace zien gebruikers die proberen toegang te krijgen tot een rapport dat is geannuleerd, het volgende bericht:
+In Analysis Workspace, zien de gebruikers het volgende bericht wanneer zij proberen om tot een rapport toegang te hebben dat door een beheerder werd geannuleerd:
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
