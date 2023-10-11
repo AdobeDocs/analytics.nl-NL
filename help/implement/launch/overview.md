@@ -3,26 +3,26 @@ title: Adobe Analytics implementeren met de extensie Analytics
 description: Leer hoe u Adobe Analytics implementeert met tags en de extensie Analytics
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 4%
+source-wordcount: '389'
+ht-degree: 3%
 
 ---
 
 # Adobe Analytics implementeren met de extensie Analytics
 
-Tijdens de levensduur van Adobe Analytics heeft Adobe verschillende methoden aangeboden om code op uw site te implementeren voor gegevensverzameling. Aanbevolen Adobe is door tags in Adobe Experience Platform.
+Tijdens de levensduur van Adobe Analytics heeft Adobe verschillende methoden aangeboden om code op uw site te implementeren voor gegevensverzameling. De Adobe raadt u momenteel aan de tags in Adobe Experience Platform te gebruiken.
 
 Tags in Adobe Experience Platform zijn een oplossing voor tagbeheer waarmee u naast andere coderingsvereisten ook analytische code kunt implementeren. Adobe biedt integratie met andere oplossingen en producten aan, en laat u douanecode opstellen. Al deze taken kunnen worden uitgevoerd zonder dat ontwikkelingsteams in uw organisatie code op uw site hoeven bij te werken.
 
-Alle klanten met een actief Adobe Experience Cloud-contract kunnen tags gebruiken. Als u niet zeker bent als u toegang hebt, contacteer één van de het systeembeheerders van Experience Cloud van uw organisatie.
+Alle klanten met een actief Adobe Experience Cloud-contract kunnen tags gebruiken. Als u niet zeker bent als u toegang hebt, contacteer één van de het systeembeheerders van het Experience Cloud van uw organisatie.
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
 
 
-![Adobe Analytics implementeren met behulp van de analyseworkflow, zoals beschreven in deze sectie.](../assets/analytics-extension-annotated.png)
+![Adobe Analytics implementeren met behulp van de analyseextensieworkflow, zoals beschreven in deze sectie.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -63,16 +63,16 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 <tr>
 <td>6</td> 
-<td><b>Valideren en publiceren naar productie</b>. Voeg de eigenschap tag toe aan uw website. Dan gebruik gegevenselementen, regels, etc., om uw implementatie aan te passen.</td>
-<td><a href="./validate-publish-prod.md">Een ontwikkelimplementatie valideren en publiceren naar productie</a></td>
+<td><b>Valideren en publiceren naar productie</b>. Sluit code in om de eigenschap tag op te nemen in de websitepagina's. Dan gebruik gegevenselementen, regels, etc., om uw implementatie aan te passen.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Code insluiten</a><br/><a href="./validate-publish-prod.md">Een ontwikkelimplementatie valideren en publiceren naar productie</a></td>
 </tr>
 
 </table>
 
 ## Aanvullende bronnen
 
-Tags kunnen in hoge mate worden aangepast. Meer informatie over hoe u optimaal kunt profiteren van Adobe Analytics door de juiste gegevens op te nemen in uw implementatie.
+Tags kunnen zeer aangepast worden. Meer informatie over hoe u optimaal kunt profiteren van Adobe Analytics door de juiste gegevens op te nemen in uw implementatie.
 
 - [Documentatie over tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): Leer hoe de interface werkt en welke extensies beschikbaar zijn.
 
-- [Implementatievariabelen](../vars/overview.md): Bepaal welke variabelen u naar de servers van de gegevensinzameling wilt verzenden.
+- [Uitvoeringsvariabelen](../vars/overview.md): Bepaal welke variabelen u naar de servers van de gegevensinzameling wilt verzenden.

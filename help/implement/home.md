@@ -3,9 +3,9 @@ title: Adobe Analytics implementeren
 description: Implementeer Adobe Analytics op uw website, eigenschap of applicatie.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '931'
 ht-degree: 27%
 
 ---
@@ -19,10 +19,10 @@ Voor Adobe is code op uw site of applicatie vereist om data naar de servers voor
 1. Wanneer een bezoeker naar uw site komt, wordt een aanvraag ingediend bij uw webserver.
 2. De webserver van uw site verzendt de paginacodegegevens en de pagina wordt weergegeven in de browser.
 3. De pagina wordt geladen en de Analytics JavaScript-code wordt uitgevoerd.
-De JavaScript-code verzendt een verzoek om een afbeelding naar Adobe-gegevensverzamelingsservers. De paginadata die u in uw implementatie hebt gedefinieerd, worden verzonden als onderdeel van een querytekenreeks in deze afbeeldingsaanvraag.
+De code JavaScript verzendt een beeldverzoek naar de servers van de Adobe van de gegevensinzameling. De paginadata die u in uw implementatie hebt gedefinieerd, worden verzonden als onderdeel van een querytekenreeks in deze afbeeldingsaanvraag.
 
 4. Adobe retourneert een transparante pixelafbeelding.
-5. Adobe-servers slaan verzamelde gegevens op in een of meer *rapportsuites*.
+5. Adobe servers slaan verzamelde gegevens op in een of meer *rapportsuites*.
 6. De data van de rapportsuite worden ingevuld in rapporten die u in een webbrowser kunt openen.
 
 Het uitvoeren van de JavaScript-code gebeurt snel en heeft geen merkbare invloed op de laadtijden van de pagina. Op deze manier kunt u de pagina&#39;s tellen die worden weergegeven wanneer een bezoeker op **[!UICONTROL Reload]** of **[!UICONTROL Back]** klikt om naar een pagina te gaan, omdat de JavaScript-code ook wordt uitgevoerd wanneer de pagina uit de cache wordt opgehaald.
@@ -33,16 +33,16 @@ Voor Adobe Analytics is code binnen uw website, mobiele app of andere applicatie
 
 Voor uw **website** zijn de volgende uitvoeringsmethoden beschikbaar:
 
-* **Web SDK-extensie**: De gestandaardiseerde en aanbevolen methode voor het implementeren van Adobe Analytics voor nieuwe klanten. Installeer de **Adobe Experience Platform Web SDK-extensie** in Adobe Experience Platform Data Collection **Tags**, gebruikt u een loader-tag op elke pagina en verzendt gegevens naar Adobe Experience Platform **Edge Network** in een voor uw organisatie geschikte indeling. Het Edge Network stuurt inkomende gegevens door naar Adobe Analytics in de juiste indeling.
+* **Web SDK-extensie**: De gestandaardiseerde en aanbevolen methode voor het implementeren van Adobe Analytics voor nieuwe klanten. Installeer de **Adobe Experience Platform Web SDK-extensie** in Adobe Experience Platform Data Collection **Tags**, plaatst u een insluitcode (een Javascript-loader-tag) op elke pagina en verzendt u gegevens naar Adobe Experience Platform **Edge Network** in een voor uw organisatie geschikte indeling. Het Edge Network stuurt inkomende gegevens door naar Adobe Analytics in de juiste indeling.
   ![Web SDK-extensie](./assets/websdk-extension-implementation.png)
 Zie [Hoe te om Adobe Analytics uit te voeren gebruikend de uitbreiding van SDK van het Web van Adobe Experience Platform.](./aep-edge/overview.md) voor meer informatie .
 
-* **Web SDK**: U kunt de bibliotheken van SDK van het Web op uw plaats manueel laden als u geen de Inzameling van Gegevens van Adobe Experience Platform wilt gebruiken. Verwijs naar de bibliotheek van SDK van het Web (`alloy.js`) op elke pagina en de gewenste trackingaanroepen naar de Adobe Experience Platform **Edge Network** in een voor uw organisatie geschikte indeling. Het Edge Network stuurt inkomende gegevens door naar Adobe Analytics in de juiste indeling.
+* **Web SDK**: U kunt de bibliotheken van SDK van het Web op uw plaats manueel laden als u geen de Inzameling van Gegevens van Adobe Experience Platform wilt gebruiken. Verwijs naar de bibliotheek van SDK van het Web (`alloy.js`) op elke pagina en de gewenste trackingaanroepen naar de Adobe Experience Platform verzenden **Edge Network** in een voor uw organisatie geschikte indeling. Het Edge Network stuurt inkomende gegevens door naar Adobe Analytics in de juiste indeling.
   ![Web SDK](./assets/websdk-implementation.png)
 Zie [Adobe Analytics implementeren met de Adobe Experience Platform Web SDK](./aep-edge/overview.md) voor meer informatie .
 
 
-* **Extensie Analytics**: Installeer de **Adobe Analytics-extensie** in Adobe Experience Platform Data Collection **Tags**. Plaats een ladertag op elke pagina en gebruik de Adobe Analytics-extensie om te bepalen hoe elke variabele wordt gedefinieerd. Gebruik deze implementatiemethode als u wel het gemak van tags wilt gebruiken, maar de Edge Network-infrastructuur niet wilt gebruiken.
+* **Extensie Analytics**: Installeer de **Adobe Analytics-extensie** in Adobe Experience Platform Data Collection **Tags**. Plaats een insluitcode (een Javascript-loader-tag) op elke pagina en gebruik de Adobe Analytics-extensie om te bepalen hoe elke variabele wordt gedefinieerd. Gebruik deze implementatiemethode als u wel het gemak van tags wilt gebruiken, maar de Edge Network-infrastructuur niet wilt gebruiken.
   ![Adobe Analytics-extensie](./assets/analytics-extension-implementation.png)
 Zie [Adobe Analytics implementeren met de extensie Analytics](launch/overview.md) voor meer informatie .
 
@@ -71,18 +71,18 @@ De volgende beslissingsstroom kan u helpen een implementatiemethode te selectere
 
 >[!TIP]
 >
->Neem contact op met Adobe voor advies en aanbevolen procedures voor de keuze van de implementatie op basis van uw huidige situatie.
+>Neem contact op met de Adobe voor advies en tips en trucs voor de implementatie die u wilt kiezen op basis van uw huidige situatie.
 
 ## Implementatiemethoden voor mobiele apps
 
 Voor uw **mobiele app** zijn de volgende uitvoeringsmethoden beschikbaar:
 
-* **Mobile SDK-extensie**: De gestandaardiseerde en aanbevolen methode voor het implementeren van Adobe Analytics in uw mobiele app. Gebruik speciale bibliotheken om gegevens vanuit uw mobiele app gemakkelijk naar Adobe te verzenden. Installeer de **Adobe Experience Platform Mobile SDK-extensie** in Adobe Experience Platform Data Collection **Tags** en implementeer de juiste code in uw app om bibliotheken te importeren, extensies te registreren en de tagconfiguratie te laden. Hiermee worden gegevens naar Adobe Experience Platform verzonden **Edge Network** in een voor uw organisatie geschikte indeling. Experience Edge stuurt binnenkomende gegevens door naar Adobe Analytics in de juiste indeling.
+* **Mobile SDK-extensie**: De gestandaardiseerde en aanbevolen methode voor het implementeren van Adobe Analytics in uw mobiele app. Gebruik speciale bibliotheken om gegevens gemakkelijk vanuit uw mobiele app naar de Adobe te verzenden. Installeer de **Adobe Experience Platform Mobile SDK-extensie** in Adobe Experience Platform Data Collection **Tags** en implementeer de juiste code in uw app om bibliotheken te importeren, extensies te registreren en de tagconfiguratie te laden. Hiermee worden gegevens naar Adobe Experience Platform verzonden **Edge Network** in een voor uw organisatie geschikte indeling. Experience Edge stuurt binnenkomende gegevens door naar Adobe Analytics in de juiste indeling.
   ![Mobile SDK-extensie](./assets/mobilesdk-extension.png)
 
   Zie [Adobe Analytics implementeren met de Adobe Experience Platform Mobile SDK](../implement/aep-edge/mobile-sdk/overview.md) voor meer informatie .
 
-* **Extensie Analytics**: Installeer de **Adobe Analytics-extensie** in Adobe Experience Platform Data Collection **Tags**en implementeer de juiste code in uw toepassing om bibliotheken te importeren, extensies te registreren en de tagconfiguratie te laden. Gebruik de extensie Analytics om te bepalen hoe elke variabele wordt gedefinieerd. Gebruik deze implementatiemethode als u wel het gemak van de Gegevensverzameling van Adobe Experience Platform wilt gebruiken, maar niet de netwerkinfrastructuur van de Rand van het Adobe wilt gebruiken.
+* **Extensie Analytics**: Installeer de **Adobe Analytics-extensie** in Adobe Experience Platform Data Collection **Tags**en implementeer de juiste code in uw toepassing om bibliotheken te importeren, extensies te registreren en de tagconfiguratie te laden. Gebruik de extensie Analytics om te bepalen hoe elke variabele wordt gedefinieerd. Gebruik deze implementatiemethode als u het gemak van de Gegevensinzameling van Adobe Experience Platform wilt, maar niet de het netwerkinfrastructuur van de Rand van de Experience Platform van de Adobe wilt gebruiken.
   ![Extensie Analytics](./assets/mobilesdk-analytics-extension.png)
 
   Zie [Adobe Analytics implementeren met de extensie Analytics](../implement/aep-edge/mobile-sdk/overview.md) voor meer informatie .
@@ -96,7 +96,7 @@ Voor uw **mobiele app** zijn de volgende uitvoeringsmethoden beschikbaar:
 
 * [Een bestaande Adobe Analytics-implementatie op zich nemen](/help/implement/prepare/existing-implementation.md)
 * [Adobe-foutopsporing](validate/debugger.md)
-* [Een tag-eigenschap maken in Experience Platform](launch/create-analytics-property.md)
+* [Een tag-eigenschap maken in het Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement-updates](appmeasurement-updates.md)
 
 ## Meer Analytics-gebruikershandleidingen
