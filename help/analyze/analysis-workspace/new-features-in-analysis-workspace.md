@@ -5,9 +5,9 @@ title: Nieuwe functies in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '8155'
+source-wordcount: '8156'
 ht-degree: 86%
 
 ---
@@ -23,7 +23,7 @@ Zie [Opmerkingen bij de release van Adobe Experience Cloud](https://experiencele
 
 | Functie | Doeldatum | Beschrijving |
 | --- | --- | --- |
-| [!UICONTROL Components] > [!UICONTROL User preferences] | 25 maart 2021 | De [!UICONTROL Components] > [!UICONTROL User preferences] pagina laat u toe leiden [!UICONTROL Analysis Workspace] instellingen en de bijbehorende componenten voor uw gebruiker. [!UICONTROL User preferences] van toepassing op alle nieuwe projecten en panels. <br>**Opmerking:** de volgende instellingen zijn verplaatst naar de [!UICONTROL User preferences] pagina:<ul><li>Rapportinstellingen: Scheidingsteken voor duizendtallen (nu _Getalnotatie_)</li><li>Rapportinstellingen: CSV-scheidingsteken</li><li>Werkruimteprojecten: Help > Tips inschakelen</li><li>Werkruimteprojecten: Leeg deelvenster _Nieuwe projecten starten met dit deelvenster_ option</li></ul> |
+| [!UICONTROL Components] > [!UICONTROL User preferences] | 25 maart 2021 | De [!UICONTROL Components] > [!UICONTROL User preferences] pagina laat u toe leiden [!UICONTROL Analysis Workspace] instellingen en de bijbehorende componenten voor uw gebruiker. [!UICONTROL User preferences] van toepassing op alle nieuwe projecten en panels. <br>**Opmerking:** de volgende instellingen zijn verplaatst naar de [!UICONTROL User preferences] pagina:<ul><li>Rapportinstellingen: scheidingsteken voor duizendtallen (nu wel genoemd) _Getalnotatie_)</li><li>Rapportinstellingen: CSV-scheidingsteken</li><li>Werkruimteprojecten: Help > Tips inschakelen</li><li>Werkruimteprojecten: Leeg deelvenster _Nieuwe projecten starten met dit deelvenster_ option</li></ul> |
 | [!UICONTROL Histogram Smart Bucket Prediction] | 25 maart 2021 | [!UICONTROL Histogram Smart Bucket Prediction] biedt hulp bij histogrammen met hoge cardinaliteit door automatisch de juiste breedte en het juiste aantal emmers voor de gegevensspread te identificeren. Voor metingen met lage cardinaliteit gedraagt de visualisatie zich op dezelfde manier als voorheen. |
 
 ## Februari 2021
@@ -52,7 +52,7 @@ Zie [Opmerkingen bij de release van Adobe Experience Cloud](https://experiencele
 | --- | --- |
 | [Download 50 kB items voor één dimensie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | U kunt nu 50.000 items downloaden voor één dimensie in een vrije-vormtabel, met toegepaste segmenten en filters. Hierdoor hebt u toegang tot meer dan de 400 rijen gegevens buiten Analysis Workspace. |
 | [Verbeteringen voor lijnvisualisatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>U kunt de x-as en de y-as van om het even welk tonen of verbergen [!UICONTROL Line] visualisatie. Dit kan vooral handig zijn als uw [!UICONTROL Line] visualisaties zijn compacter.</li><li>U kunt een minimum- en maximumwaardelabel bedekken op elke Lijnvisualisatie om de pieken en dalen snel in metrische vorm te markeren.</li><li>U kunt verschillende regressietendellijnen op om het even welke Lijn visualisatie bedekken om de trend in de gegevens gemakkelijker te zien. Opties omvatten [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] en [!UICONTROL Quadratic].</li></ul> |
-| Nieuwe datumbereiken | We hebben vijf nieuwe datumbereiken toegevoegd, zodat u kunt kiezen uit datumbereiken die geen gegevens van vandaag voor een gedeeltelijke dag bevatten: Laatste 7 volledige dagen, Laatste 14 volledige dagen, Laatste 30 volledige dagen, Laatste 60 volledige dagen, Laatste 90 volledige dagen |
+| Nieuwe datumbereiken | We hebben vijf nieuwe datumbereiken toegevoegd, zodat u kunt kiezen uit datumbereiken die geen gegevens van een gedeeltelijke dag van vandaag bevatten: Laatste 7 volledige dagen, Laatste 14 volledige dagen, Laatste 30 volledige dagen, Laatste 60 volledige dagen, Laatste 90 volledige dagen |
 
 ## Augustus 2020
 
@@ -80,7 +80,7 @@ Nieuwe functies uitgebracht op 18 juni 2020.
 | Bijgewerkt leeg deelvenster | Het lege deelvenster bevat nu deelvensters en visualisaties, zodat u naadloos de analyseworkflow kunt kiezen die het beste voor u werkt. |
 | Deelvenster Snelle inzichten (25 juni 2020) | Quick Insights biedt richtlijnen voor niet-analisten en nieuwe gebruikers van Analysis Workspace hoe ze zakelijke vragen snel en eenvoudig kunnen beantwoorden. [Meer informatie...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Deelvenster Analytics for Target in Workspace (25 juni 2020) | Met het deelvenster Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace met lift en vertrouwen analyseren. [Meer informatie...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
-| Pagina Werkruimte | De pagina Info Workspace biedt informatie over uw Analysis Workspace-omgeving, over uw Adobe Analytics-beheerders (als u ondersteuning nodig hebt) en een manier om feedback in het product te geven. U vindt deze in Workspace > Help > Info over Werkruimte. |
+| Info over Werkruimte | De pagina Info Workspace biedt informatie over uw Analysis Workspace-omgeving, over uw Adobe Analytics-beheerders (als u ondersteuning nodig hebt) en een manier om feedback in het product te geven. U vindt deze in Workspace > Help > Info over Werkruimte. |
 
 ## Mei 2020
 
@@ -88,7 +88,7 @@ Nieuwe functies uitgebracht op 21 mei 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Automatisch Freeform-tabellen maken op basis van een leeg frame | Eerder kon u componenten niet direct in een leeg project of leeg paneel laten vallen; u moest eerst een Lijst Freeform toevoegen. U kunt componenten nu rechtstreeks in een leeg project of deelvenster neerzetten en een tabel voor vrije vorm wordt automatisch voor u gemaakt in een aanbevolen indeling. Bovendien zijn er verbeteringen toegevoegd in de manier waarop gemengde onderdeeltypen (zoals dimensies en cijfers) wanneer deze samen in een lege vrije-vormtabel worden neergezet. |
+| Automatisch Freeform-tabellen maken op basis van een leeg frame | Eerder kon u geen componenten direct in een leeg project of leeg paneel laten vallen; u moest eerst een Lijst Freeform toevoegen. U kunt componenten nu rechtstreeks in een leeg project of deelvenster neerzetten en een tabel voor vrije vorm wordt automatisch voor u gemaakt in een aanbevolen indeling. Bovendien zijn er verbeteringen toegevoegd in de manier waarop gemengde onderdeeltypen (zoals dimensies en cijfers) wanneer deze samen in een lege vrije-vormtabel worden neergezet. |
 | Toegankelijkheidsverbeteringen | Het Adobe Analytics-team heeft verschillende toegankelijkheidsverbeteringen doorgevoerd in Analysis Workspace, waaronder verbeterde toetsenbordnavigatie, kleurcontrast en ondersteuning voor schermlezers. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## April 2020
@@ -196,7 +196,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 1 november 2018.
 
 | Functie | Beschrijving |
 |--- |--- |
-| [VRS- en projectcurering: verbeteringen](/help/analyze/analysis-workspace/curate-share/curate.md) | Deze wijzigingen zijn in oktober 2018 ingevoerd. Er zijn wijzigingen aangebracht in welke componenten door beheerders en niet-beheerders kunnen worden bekeken in gecureerde Workspace-projecten en gecureerde virtuele rapportsuites (VRS&#39;s). <br> Voorheen kon iedereen niet-gecureerde componenten zien door te klikken op &#39;Show all Components&#39; (Alle componenten weergeven). Met de bijgewerkte cureringsfunctie kunt u tot in detail bepalen welke componenten zichtbaar zijn.</br> |
+| [Virtuele rapportsuite en projectcursus - verbeteringen](/help/analyze/analysis-workspace/curate-share/curate.md) | Deze wijzigingen zijn in oktober 2018 ingevoerd. Er zijn wijzigingen aangebracht in welke componenten door beheerders en niet-beheerders kunnen worden bekeken in gecureerde Workspace-projecten en gecureerde virtuele rapportsuites. <br> Voorheen kon iedereen niet-gecureerde componenten zien door te klikken op &#39;Show all Components&#39; (Alle componenten weergeven). Met de bijgewerkte cureringsfunctie kunt u tot in detail bepalen welke componenten zichtbaar zijn.</br> |
 
 ## Oktober 2018
 
@@ -220,7 +220,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 13 september 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b>Vervolgkeuzelijsten voor deelvensters</b> </p> </td>
+   <td colname="col1"> <p><b>Vervolgkeuzelijsten deelvenster</b> </p> </td>
    <td colname="col2"> <p>De neerzetzone van het deelvenster heeft nu vervolgkeuzemogelijkheden. Met vervolgkeuzelijsten kunnen eindgebruikers op een gecontroleerde manier werken met projectdata. Voorbeeld: stel dat verscheidene versies van een project hebt om landspecifieke rapporten te verstrekken. U kunt deze projecten nu samenvouwen tot één project en een vervolgkeuzelijst met landen toevoegen. </p> </td>
   </tr>
   <tr>
@@ -419,7 +419,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 8 maart 2018.
    <td colname="col2"> <p>Voor de onlangs uitgebrachte aangepaste sjablonen hebben we het volgende veranderd: </p>
     <ul id="ul_787F48253F454163B99F6DD50F199FE2">
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">Bovenaan het project (bij de titel) is een sjabloonpictogram toegevoegd om de modus Sjabloon bewerken beter te onderscheiden van het gebruik van een sjabloon als beginpunt voor een project. </li>
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">U kunt niet-beheerders toestaan om Workspace-projectsjablonen te maken (opslaan als) en te bewerken, op voorwaarde dat ze beschikken over de machtiging Projecten maken/cureren in Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol"> Beheer </span>  &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer </span>  &gt; <span class="uicontrol"> Groepen </span>  &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span>  &gt; <span class="uicontrol"> Analyseprogramma's aanpassen </span>  &gt; <span class="uicontrol"> Projecten maken/krullen in Analysis Workspace </span> </span>). </li>
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">U kunt niet-beheerders toestaan om Workspace-projectsjablonen te maken (opslaan als) en te bewerken, op voorwaarde dat ze beschikken over de machtiging Projecten maken/cureren in Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol"> Beheerder </span>  &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer </span>  &gt; <span class="uicontrol"> Groepen </span>  &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span>  &gt; <span class="uicontrol"> Analyseprogramma's aanpassen </span>  &gt; <span class="uicontrol"> Projecten maken/krullen in Analysis Workspace </span> </span>). </li>
     </ul> </td>
   </tr>
  </tbody>
@@ -529,7 +529,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
   </tr>
   <tr>
    <td colname="col1"> <p>Bijdrage-analyse: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > melding voor tokens </a> </p> </td>
-   <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens voor bijdrage-analyse heeft, wordt nu een melding weergegeven in de Analysis Workspace-interface wanneer u een token opgebruikt. Zo weet u precies hoeveel tokens u nog hebt. </p> <p>(Beheerder-gebruikers: door de groepstoestemmingen te bewerken kunt u aangeven wie deze tokens wel en niet kan gebruiken. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analyse </span> &gt; <span class="uicontrol"> Beheer </span> &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer </span>&gt; <span class="uicontrol"> Groepen bewerken </span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span> &gt; <span class="uicontrol"> De rapportsuite-gereedschappen aanpassen </span> &gt; <span class="uicontrol"> Gereedschappen en rapporten </span>. ) </p> </td>
+   <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens voor bijdrage-analyse heeft, wordt nu een melding weergegeven in de Analysis Workspace-interface wanneer u een token opgebruikt. Zo weet u precies hoeveel tokens u nog hebt. </p> <p>(Beheerder-gebruikers: door de groepstoestemmingen te bewerken kunt u aangeven wie deze tokens wel en niet kan gebruiken. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analyse </span> &gt; <span class="uicontrol"> Beheerder </span> &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer </span>&gt; <span class="uicontrol"> Groepen bewerken </span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span> &gt; <span class="uicontrol"> De rapportsuite-gereedschappen aanpassen </span> &gt; <span class="uicontrol"> Gereedschappen en rapporten </span>. ) </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>CSV-bestanden met multi-bytetekens </p> </td>
@@ -537,7 +537,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
   </tr>
   <tr>
    <td colname="col1"> <p>Wijzigingen in event#, eVar# en prop# </p> </td>
-   <td colname="col2"> <p>Event#, eVar# en prop# werden in 2017 toegevoegd aan dimensienamen in de linkerrail. Deze verschijnen alleen wanneer u <b>naar de component zoekt</b>. </p> <p>(Ook van toepassing op de Virtual Report Suite-builder.) </p> </td>
+   <td colname="col2"> <p>Event#, eVar# en prop# werden in 2017 toegevoegd aan dimensienamen in de linkerrail. Deze verschijnen alleen wanneer u <b>naar de component zoekt</b>. </p> <p>(Dit is ook van toepassing op builder van virtuele rapportsuite.) </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>Wijzigingen in Geen/Niet-opgegeven </p> </td>

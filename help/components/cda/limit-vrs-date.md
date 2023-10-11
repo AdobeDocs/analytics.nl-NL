@@ -1,28 +1,28 @@
 ---
-title: Een vrijwillige VUT-regeling beperken tot bepaalde datums
-description: Begrijp hoe te om een VRS datumwaaier te beperken om zich op stitched slechts gegevens te concentreren.
+title: Beperk een Virtuele rapportreeks tot bepaalde data
+description: Begrijp hoe te om een Virtuele waaier van de rapportreeks te beperken om zich op stitched slechts gegevens te concentreren.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# Een vrijwillige VUT-regeling beperken tot bepaalde datums
+# Beperk een Virtuele rapportreeks tot bepaalde data
 
-Wanneer we stitching inschakelen, begint de stitching op een bepaalde datum. Laten we ervan uitgaan dat de datum 1 juni is. De vrijwillige VUT-regeling van de CDA zal vóór 1 juni onaangekondigde gegevens bevatten. U kunt om het even welke gegevens in het VRS vóór 1 Juni willen verbergen zodat uw analyse zich op datumwaaiers kan concentreren nadat het stitching begon.
+Wanneer we stitching inschakelen, begint de stitching op een bepaalde datum. Laten we ervan uitgaan dat de datum 1 juni is. De CDA Virtual Report suite bevat niet-opgeslagen gegevens voor 1 juni. U kunt om het even welke gegevens in de Virtuele rapportreeks vóór 1 Juni willen verbergen zodat uw analyse zich op datumwaaiers kan concentreren nadat het stitching begon.
 
-U kunt de VRS-gegevens als volgt beperken tot bepaalde datums:
+U kunt de gegevens van de Virtuele rapportreeks tot bepaalde data beperken door het volgende te doen:
 
-## Stap 1: VRS maken met een datumbereik dat dagelijks wordt verschoven
+## Stap 1: Creëer Virtuele rapportreeks met een het rollen-dagelijkse datumwaaier
 
-Als u de vrijwillige VUT-regeling instelt, voegt u onder Componenten een datumbereik toe met een vaste start, met een doorlopend-dagelijks datumbereik. De vaste start zou de dag moeten zijn waarop stitching begon.
+Wanneer u de Virtuele rapportreeks, onder Componenten opstelt, voeg in een datumwaaier toe die een vaste begin, met een het rollen-dagdatumwaaier heeft. De vaste start zou de dag moeten zijn waarop stitching begon.
 
 ![](assets/rolling-daily.png)
 
-## Stap 2: Een segment voor uitsluiten maken
+## Stap 2: Maak een &quot;exclude-segment&quot;
 
 Vervolgens maakt u een raaksegment dat het datumbereik in een container voor uitsluiten in een andere container voor uitsluiten plaatst. Het is een &quot;uitsluiting&quot;.
 
@@ -30,7 +30,7 @@ De reden voor &quot;sluit uit&quot;is dat de datumwaaiers bedoeld zijn om de dat
 
 ![](assets/exclude-exclude.png)
 
-## Stap 3: Dit segment toepassen op uw CDA VRS
+## Stap 3: Pas dit segment toe op uw Virtual Report-suite voor analysemogelijkheden tussen apparaten
 
 ![](assets/apply-segment.png)
 

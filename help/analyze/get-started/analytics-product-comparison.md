@@ -3,9 +3,9 @@ description: Systeemvereisten en een vergelijking van Analysis Workspace, Report
 title: Analytics-productvergelijking en -vereisten
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0579715d33db28f1741eed2b1aa1520d3beb757b
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '432'
 ht-degree: 37%
 
 ---
@@ -34,8 +34,8 @@ Voor informatie over welk Adobe Analytics-product u moet gebruiken, raadpleegt u
 | **Cohortanalyse** | [Ja](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Nee | Nee | Nee | Ja | Nee | Nee |
 | **Attributie** | Ja, met [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Beperkt | Beperkt | Nee | Ja | Nee | Ja, met [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Functies van Virtual Analyst** <br> [Meer informatie](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Ja | Nee | Nee | Nee | Nee | Nee | Ja |
-| **Kromming** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja - Project en vrijwillige VUT | Nee | Nee | Nee | Nee | Nee | Ja - alleen VRS |
+| **Kromming** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja - Project en Virtual Report Suite | Nee | Nee | Nee | Nee | Nee | Ja - alleen Virtual Report Suite |
 | **Projectdeling** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Ja, met projectrollen | Ja | Ja | Nee | Ja | Nee | Nee |
 | **Geplande levering** | Ja | Ja | Ja | Ja | Nee | Ja | Nee |
 | **Leveringsbestemmingen** | E-mail | E-mail | E-mail, FTP, SFTP [publiceren naar Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC en Email | - | Amazon S3, Azure RBAC, Azure SAS en Google Cloud Platform | - |
-| **Tijdverwerking van VRS-rapport** <br> [Meer informatie](/help/components/vrs/vrs-report-time-processing.md) | Ja | Nee | Nee | Nee | Nee | Nee | Ja |
+| **Rapporttijdverwerking van virtuele rapportsuite** <br> [Meer informatie](/help/components/vrs/vrs-report-time-processing.md) | Ja | Nee | Nee | Nee | Nee | Nee | Ja |

@@ -1,16 +1,16 @@
 ---
 description: Virtuele rapportsuites kunnen worden gebogen om components.in Analysis Workspace op te nemen en uit te sluiten.
-title: Onderdeelselectie voor virtuele rapportsuites
+title: Samengestelde cursus virtuele rapportsuite
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 9%
+source-wordcount: '391'
+ht-degree: 7%
 
 ---
 
-# Onderdeelselectie voor virtuele rapportsuites
+# Samengestelde cursus virtuele rapportsuite
 
 Virtuele rapportsuites kunnen worden gebogen om components.in Analysis Workspace op te nemen en uit te sluiten.
 
@@ -20,14 +20,14 @@ Hier volgt een video over componentcuratie:
 
 >[!NOTE]
 >
->Er zijn wijzigingen aangebracht in welke componenten door beheerders en niet-beheerders kunnen worden bekeken in gecureerde Workspace-projecten en gecureerde virtuele rapportsuites (VRS&#39;s). Eerder kon iedereen de niet-gebogen componenten zien door te klikken **[!UICONTROL Show all Components]**. De [bijgewerkte cursus](/help/analyze/analysis-workspace/curate-share/curate.md) biedt meer fijnkorrelige controle over welke componenten zichtbaar zijn.
+>Er zijn wijzigingen aangebracht in welke componenten door beheerders en niet-beheerders kunnen worden bekeken in gecureerde Workspace-projecten en gecureerde virtuele rapportsuites. Eerder kon iedereen de niet-gebogen componenten zien door te klikken **[!UICONTROL Show all Components]**. De [bijgewerkte cursus](/help/analyze/analysis-workspace/curate-share/curate.md) biedt meer fijnkorrelige controle over welke componenten zichtbaar zijn.
 
 U kunt als volgt componentcuratie inschakelen:
 
-1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
+1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]** > **[!UICONTROL Create new virtual report suite]**.
 1. Na het bepalen van **[!UICONTROL Settings]** klikt u op de knop **[!UICONTROL Components]** tab.
 
-1. Selecteren met het selectievakje **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
+1. Selecteren met het selectievakje **[!UICONTROL Enable Customization of Virtual report suite components]**:
 
    ![](assets/vrs-enable.png)
 
@@ -40,7 +40,6 @@ U kunt als volgt componentcuratie inschakelen:
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
    >* Analytics Rapportage-API
-
 
    Zodra gecontroleerd, kunt u de componenten toevoegen u in de virtuele rapportreeks zou willen worden omvat door de toepasselijke componenten van de &quot;uitgesloten componenten&quot;kolom aan de &quot;inbegrepen componenten&quot;kolom te slepen. De onderdelen die kunnen worden opgenomen en uitgesloten zijn:
 
@@ -59,7 +58,7 @@ U kunt als volgt componentcuratie inschakelen:
 
 ## Naam van componenten wijzigen {#section_0F7CD9F684FE4765BC00A2AFED56550E}
 
-U kunt de vertoningsnamen van inbegrepen componenten veranderen specifiek voor de virtuele rapportreeks. Als u bijvoorbeeld de paginanaam in de virtuele rapportsuite wilt opnemen maar de naam wilt wijzigen in een meer mobiele context, kunt u deze wijzigen in App Screens. De nieuwe naam wordt weergegeven in Analysis Workspace wanneer deze virtuele rapportsuite wordt gebruikt.
+U kunt de vertoningsnamen van inbegrepen componenten veranderen specifiek voor de virtuele rapportreeks. Als u bijvoorbeeld de paginanaam in de virtuele rapportsuite wilt opnemen, maar de naam wilt wijzigen in een meer mobiele context, kunt u deze wijzigen in App Screens. De nieuwe naam wordt weergegeven in Analysis Workspace wanneer deze virtuele rapportsuite wordt gebruikt.
 
 ![](assets/vrs-rename-component.png)
 
@@ -75,4 +74,4 @@ Gebruik componentengroepen om bulkcomponenttoevoegingen aan uw virtuele rapportr
 
 ## Werking werkruimte {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Voor meer informatie over cursus in Analysis Workspace raadpleegt u [Een project krullen en delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Zie voor meer informatie over cursus in Analysis Workspace [Een project krullen en delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).

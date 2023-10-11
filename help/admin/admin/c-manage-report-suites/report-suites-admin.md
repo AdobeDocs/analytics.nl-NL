@@ -3,7 +3,7 @@ description: Een rapportsuite definieert de volledige, onafhankelijke rapportage
 title: Rapportsuitebeheer
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 3%
@@ -30,7 +30,7 @@ Een rapportsuite openen:
 
 >[!NOTE]
 >
->Virtuele rapportsets worden beheerd via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Raadpleeg de [Documentatie van Virtual Report Suite](/help/components/vrs/vrs-about.md).
+>Virtuele rapportsuites worden beheerd via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**. Raadpleeg de [Documentatie over virtuele rapportsuite](/help/components/vrs/vrs-about.md).
 
 ## Beschrijvingen van rapportmanager {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 

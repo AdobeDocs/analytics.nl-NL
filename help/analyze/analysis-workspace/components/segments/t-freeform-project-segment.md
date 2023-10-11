@@ -4,9 +4,9 @@ title: Segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -18,10 +18,10 @@ U kunt verschillende typen segmenten maken in Workspace, afhankelijk van hoe com
 
 | Segmenttype | Waar gemaakt? | Waar van toepassing? | Wanneer gebruiken |
 | --- | --- | --- | --- |
-| Segment op lijst met componenten | Klik +, wat u aan [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | Al uw projecten van de Werkruimte | Voor complexere segmenten, opeenvolgende segmenten |
+| Segment op lijst met componenten | Klik +, wat u aan [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | Alle werkruimteprojecten | Voor complexere segmenten, opeenvolgende segmenten |
 | Snel segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Kan worden gebruikt voor ad-hocsegmenten met één regel (met slepen en neerzetten) of om meerdere regels toe te voegen/te bewerken (door op het pictogram Segment te klikken) |
 | Op cijfers gebaseerd segment | [Berekende metrische builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Op berekende individuele metrieke waarde | Segment/s toepassen binnen uw metrische definitie |
-| Op VRS gebaseerd segment | [Samenstellen van virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Naar afzonderlijke virtuele rapportsuite | Segment/s toepassen binnen uw VRS-definitie |
+| Op suite gebaseerd segment van virtueel rapport | [Constructor van virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Naar afzonderlijke virtuele rapportsuite | Segment/segmenten toepassen binnen de definitie van uw virtuele rapportsuite |
 
 ## Video&#39;s
 
@@ -48,11 +48,11 @@ In Analysis Workspace kunt u verschillende typen segmenten maken:
 
 De segmentrail onder het menu Componenten toont
 * Segmenten die u of uw bedrijf heeft gemaakt
-* Segmentsjablonen, zoals aangegeven door het Adobe-pictogram:
+* Segmentsjablonen, zoals aangegeven door het pictogram Adobe:
 
 ![](assets/segment_icons.png)
 
-Als u een segment van dit type wilt maken, hebt u twee opties. Beide nemen je naar de [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) in Adobe Analytics, waar u verdere instructies kunt vinden.
+Als u een segment van dit type wilt maken, hebt u twee opties. Beide nemen je mee naar de [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) in Adobe Analytics, waar u verdere instructies kunt vinden.
 
 * Klik in de linkertrack op het plusteken (+) naast [!UICONTROL Segments]:
 
@@ -71,10 +71,10 @@ Er bestaan verschillende andere methoden voor het toepassen van segmenten op een
 
 | Handeling | Beschrijving |
 |--- |--- |
-| Segment maken van selectie | Maak een inline-segment. Dit segment is alleen van toepassing op het geopende project en wordt niet opgeslagen als een analysesegment. 1. Selecteer rijen.  2. Klik met de rechtermuisknop op de selectie.  3. Klikken *Segment maken van selectie*. |
+| Segment maken van selectie | Maak een inline-segment. Dit segment is alleen van toepassing op het geopende project en wordt niet opgeslagen als een analysesegment. 1. Selecteer rijen.  2. Klik met de rechtermuisknop op de selectie.  3. Klik *Segment maken van selectie*. |
 | Componenten > Nieuw segment | Toont de Bouwer van het Segment. Zie [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) voor meer informatie over segmentatie. |
 | Delen > Project delen of Delen > Projectgegevens krommen | In [Curven en delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)leert u hoe de segmenten die u op het project toepast, beschikbaar zijn in een gedeelde analyse voor de ontvanger. |
-| Segmenten gebruiken als Dimension | Video: [Segmenten gebruiken als Dimension in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html) |
+| Segmenten gebruiken als Dimensionen | Video: [Segmenten gebruiken als Dimensionen in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html) |
 
 ## Segment-IQ
 

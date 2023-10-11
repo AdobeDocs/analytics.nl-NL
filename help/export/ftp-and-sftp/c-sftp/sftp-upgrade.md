@@ -3,7 +3,7 @@ title: Upgrade van SFTP-services - Veelgestelde vragen
 description: Veelgestelde vragen over de geplande SFTP-services-upgrade.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -42,15 +42,15 @@ Hieronder volgt een gedetailleerde lijst met verbindingen en algoritmen die word
 
 * Mac-algoritmen voor SFTP-protocol:
 
-   * Wij zullen niet langer steun verlenen aan: hmac-md5, hmac-md5-96, hmac-ripemd160, hmacripemd160@openssh.com, hmac-sha1, hmac-sha1-96, hmac-sha1-etm@openssh.com, umac-64-etm@openssh.com, umac-64@openssh.com
+   * Wij zullen niet langer steunen: hmac-md5, hmac-md5-96, hmac-ripemd160, hmacripemd160@openssh.com, hmac-sha1, hmac-sha1-96, hmac-sha1-etm@openssh.com, umac-64-etm@openssh.com, umac-64@openssh.com
 
-   * Wij zullen alleen maar steun geven aan: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512, hmacsha2-256, umac-128@openssh.com
+   * We zullen alleen ondersteuning bieden: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512, macsha2-256, umac-128@openssh.com
 
 * Cphers-algoritme SFTP-protocol:
 
-   * Wij zullen niet langer steun verlenen aan: 3des-cbc, aes128-cbc, aes128-gcm@openssh.com, aes192-cbc, aes256-cbc, aes256-gcm@openssh.com, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc, rijndael-cbc@lysator.liu.se
+   * We zullen niet langer steun verlenen: 3des-cbc, aes128-cbc, aes128-gcm@openssh.com, aes192-cbc, aes256-cbc, aes256-gcm@openssh.com, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc, rijndael-cbc@lysator.liu.se
 
-   * Wij zullen alleen maar steun geven aan: aes128-ctr, aes192-ctr, aes256-ctr
+   * Wij zullen alleen steun verlenen: aes128-ctr, aes192-ctr, aes256-ctr
 
 * Ondersteunde verbindingen voor SFTP-protocol:
 

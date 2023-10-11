@@ -5,7 +5,7 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 2%
@@ -25,10 +25,10 @@ Open het deelvenster Instellingen Activity Map dat u wilt openen door op het tan
 | Instelling | Beschrijving |
 | --- | --- |
 | **[!UICONTROL Companies]** | Selecteer het toepasselijke login bedrijf. |
-| **[!UICONTROL Report Suite]** | De lijst met rapportsuites die voor u toegankelijk zijn, is niet meer beperkt tot de rapportsuites die zijn gedefinieerd in de webpaginatag. U kunt de geselecteerde rapportsuite (die overeenkomt met een van de tags op de pagina) nu vervangen door een andere rapportsuite. Deze nieuwe rapportsuite hoeft niet te worden gekoppeld aan een tag op de pagina. Als u de geselecteerde rapportsuite wijzigt in de Activity Map-instellingen, worden alle desbetreffende analyserapporten vernieuwd tijdens het opslagproces.<br>**Belangrijk**: [!UICONTROL Virtual Report Suites] niet verenigbaar zijn met [!UICONTROL Live Mode], alleen met [!UICONTROL Standard Mode]. Als u binnen [!UICONTROL Live Mode] voor een Standard Report Suite, maar selecteer een [!UICONTROL Virtual Report Suite] in dit dialoogvenster klikt u op **[!UICONTROL OK]** Hier wordt de Standaardmodus weergegeven. Bovendien wordt de controle van de Kalender opnieuw geïnitialiseerd om het de kalendertype van de rapportreeks (Gregorian, kleinhandel, douane...) aan te passen. |
+| **[!UICONTROL Report Suite]** | De lijst met rapportsuites die voor u toegankelijk zijn, is niet meer beperkt tot de rapportsuites die zijn gedefinieerd in de webpaginatag. U kunt de geselecteerde rapportsuite (die overeenkomt met een van de tags op de pagina) nu vervangen door een andere rapportsuite. Deze nieuwe rapportsuite hoeft niet te worden gekoppeld aan een tag op de pagina. Als u de geselecteerde rapportsuite wijzigt in de Activity Map-instellingen, worden alle desbetreffende analyserapporten vernieuwd tijdens het opslagproces.<br>**Belangrijk**: [!UICONTROL Virtual report suites] niet verenigbaar zijn met [!UICONTROL Live Mode], alleen met [!UICONTROL Standard Mode]. Als u binnen [!UICONTROL Live Mode] voor een Standard Report Suite, maar selecteer een [!UICONTROL Virtual report suite] in dit dialoogvenster klikt u op **[!UICONTROL OK]** Hier wordt de Standaardmodus weergegeven. Bovendien wordt de controle van de Kalender opnieuw geïnitialiseerd om het de kalendertype van de rapportreeks (Gregorian, kleinhandel, douane...) aan te passen. |
 | **[!UICONTROL Page Name]** | De pagina waarop deze instellingen van toepassing zijn. |
 | **[!UICONTROL Language]** | De selectie komt overeen met de talen die voor Adobe Analytics worden aangeboden. |
-| **[!UICONTROL Label Overlays With]** | <ul><li>**[!UICONTROL No Label]**: alleen van toepassing op de verloopbedekking. In dit geval geeft de kleur van de overlay een idee voor de rangschikking van de koppeling</li><li>**[!UICONTROL Value]**: het onbewerkte metrische totaal voor die koppeling</li><li>**[!UICONTROL Percent]**: percentage van metrisch voor deze verbinding op totale metrisch voor de pagina.</li><li>**[!UICONTROL Rank]**: rang van deze koppeling voor alle koppelingen die zich op de weergegeven pagina bevinden</li></ul> |
+| **[!UICONTROL Label Overlays With]** | <ul><li>**[!UICONTROL No Label]**: alleen van toepassing op de verloopbedekking. In dit geval geeft de kleur van de overlay een idee voor de rangschikking van de koppeling</li><li>**[!UICONTROL Value]**: het onbewerkte metrische totaal voor die koppeling</li><li>**[!UICONTROL Percent]**: percentage van metrisch voor deze verbinding op totale metrisch voor de pagina.</li><li>**[!UICONTROL Rank]**: rang van deze koppeling in alle koppelingen die zich op de weergegeven pagina bevinden</li></ul> |
 | **[!UICONTROL Label Font Size]** | Hiermee kunt u de tekengrootte van het bedekkingslabel met een schuifregelaar vergroten/verkleinen voor betere leesbaarheid. |
 | **[!UICONTROL Gradient/Bubble Color]** | Als u overlaykoppelingsclassificaties voor de visualisaties van verloop- of bubbelbedekkingen wilt weergeven, selecteert u een van de kleuren. |
 | **[!UICONTROL Color Gradient Based On]** | <ul><li>**[!UICONTROL Top 30 Rankings]**: De kleurintensiteit wordt genormaliseerd voor de bovenste 30 waarden.</li><li>**[!UICONTROL Absolute Metric Value]**: De kleurintensiteit is een functie van de absolute metrische waarde.</li></ul> |
@@ -36,7 +36,7 @@ Open het deelvenster Instellingen Activity Map dat u wilt openen door op het tan
 
 ## Standaardinstellingen {#section_24DB95376E1A448494ECF3F57743FC19}
 
-Deze instellingen zijn van toepassing op de standaardmodusbedekking.
+Deze instellingen gelden voor de standaardmodusbedekking.
 
 ![](assets/settings_standard.png)
 

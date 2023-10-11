@@ -3,9 +3,9 @@ title: Specifieke datums in de analyse uitsluiten
 description: Tips voor het uitsluiten van datums of datumbereiken als u deze niet wilt opnemen in rapporten.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 feature: Event, Segmentation
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '565'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,9 @@ Maak een segment dat de betrokken dag of het betrokken datumbereik isoleert. Dit
 >
 >Als u de instructie OR wilt wijzigen in een instructie AND, klikt u op de pijl omlaag naast OR en selecteert u AND.
 
-Adobe raadt u aan om de dimensie van de oranje dimensie te gebruiken in plaats van de component van het paarse datumbereik. Als u componenten van het paarse datumbereik gebruikt, overschrijven deze het kalenderbereik van het project:
+Adobe raadt u aan de dimensiecomponenten van de oranje dimensie te gebruiken, en niet de componenten van het paarse datumbereik. Als u componenten van het paarse datumbereik gebruikt, overschrijven deze het kalenderbereik van het project:
 
-![Segmenttype uitsluiten](assets/exclude_segment_day_type.jpg)
+![Segmentdagtype uitsluiten](assets/exclude_segment_day_type.jpg)
 
 ## Betrokken dagen uitsluiten {#exclude}
 
@@ -73,7 +73,7 @@ U kunt het segment &#39;Betrokken dagen uitsluiten&#39; toepassen op een Workspa
 
 ### Gebruik het sluit segment in een virtuele rapportreeks uit {#use-vrs}
 
-U kunt het segment in een [virtuele rapportsuite](/help/components/vrs/vrs-about.md) om de gegevens gemakkelijker uit te sluiten. Deze optie is ideaal in zoverre dat u niet moet herinneren om het segment voor elk rapport toe te passen dat de beïnvloede datumwaaier omvat. Als u reeds virtuele rapportreeksen als uw primaire bron van gegevens gebruikt, kunt u het segment aan bestaande VRS toevoegen.
+U kunt het segment in een [virtuele rapportsuite](/help/components/vrs/vrs-about.md) om de gegevens gemakkelijker uit te sluiten. Deze optie is ideaal in zoverre dat u niet moet herinneren om het segment voor elk rapport toe te passen dat de beïnvloede datumwaaier omvat. Als u reeds virtuele rapportreeksen als uw primaire bron van gegevens gebruikt, kunt u het segment aan een bestaande Virtuele rapportreeksen toevoegen.
 
 1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
 2. Klik op **[!UICONTROL Add]**.
@@ -81,4 +81,4 @@ U kunt het segment in een [virtuele rapportsuite](/help/components/vrs/vrs-about
 4. Sleep het uitsluitingssegment naar het gebied met het label **[!UICONTROL Add segment]**.
 5. Klikken **[!UICONTROL Continue]** in de rechterbovenhoek klikt u op **[!UICONTROL Save]**.
 
-![Segment toegepast op VRS](assets/exclude_segment_vrs.png)
+![Segment toegepast op Virtual Report Suite](assets/exclude_segment_vrs.png)

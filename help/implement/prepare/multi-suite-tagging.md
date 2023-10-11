@@ -1,16 +1,16 @@
 ---
 description: Leer hoe u tagging met meerdere suite implementeert om een verzoek om een image naar meerdere rapportsuite te verzenden.
-title: Tags implementeren met meerdere suite
+title: Labelen met meerdere suite's implementeren
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
-# Tags implementeren met meerdere suite
+# Labelen met meerdere suite&#39;s implementeren
 
 [Tags toevoegen met meerdere suite](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) staat u toe om beeldverzoeken niet alleen naar een globale rapportreeks maar ook naar individuele de reeksen van het kindrapport te verzenden zodat u ondergroepen van de globale gegevens van de rapportreeks van uw bedrijf aan verschillende eind kunt verstrekken - gebruikers.
 
@@ -26,7 +26,7 @@ Om multi-suite het etiketteren uit te voeren, moet u identiteitskaart van de Ree
 >
 > De beste praktijken moeten de globale rapportreeks of rapportreeks ID eerst een lijst maken.
 
-Tags voor meerdere suite leiden tot meerdere serveraanroepen voor elke aanvraag voor een image: een primaire vraag aan de globale rapportreeks en een secundaire vraag voor elke reeks van het kindrapport.
+Het etiketteren van meerdere reeksen komt veelvoudige servervraag voor elke beeldverzoek in werking: een primaire vraag aan de globale rapportreeks en een secundaire vraag voor elke reeks van het kindrapport.
 
 >[!NOTE]
 >
@@ -36,4 +36,4 @@ Tags voor meerdere suite leiden tot meerdere serveraanroepen voor elke aanvraag 
 
 Het gebruik van virtuele rapportsuites in plaats van multi-suite het etiketteren is vaak een beste praktijk, maar uw bedrijfsbehoeften bepalen de beste benadering van de rapportsuite voor uw organisatie.
 
-Om te begrijpen of zijn de virtuele rapportsuites uw beste benadering, zie &quot;[Virtuele rapportreeksen en tagging met meerdere suite-overwegingen](/help/components/vrs/vrs-considerations.md).&quot; Zie ook &quot;[Virtuele rapportsuite versus meerdere suite-tags](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; voor een vergelijking van de multi-suite-tagging en de functionaliteit van de virtuele rapportsuite.
+Om te begrijpen of zijn de virtuele rapportsuites uw beste benadering, zie &quot;[Virtuele rapportreeksen en tagging met meerdere suite](/help/components/vrs/vrs-considerations.md).&quot; Zie ook &quot;[Virtuele rapportsuites versus, multi-suite-tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; voor een vergelijking van de multi-suite-tagging en de functionaliteit van de virtuele rapportsuite.

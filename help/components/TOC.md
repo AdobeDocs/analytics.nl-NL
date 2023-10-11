@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 42%
+source-wordcount: '758'
+ht-degree: 40%
 
 ---
 
@@ -219,9 +219,9 @@ ht-degree: 42%
    + [Contextbewuste sessies](vrs/vrs-mobile-visit-processing.md)
    + [Verwerking rapportduur](vrs/vrs-report-time-processing.md)
    + [A4T-overwegingen](vrs/vrs-a4t.md)
-   + [Veelgestelde vragen over VRS](vrs/vrs-faq.md)
-   + [Overwegingen bij labels voor VRS en globale/multi-suites](vrs/vrs-considerations.md)
-   + VRS-workflow {#vrs-workflow}
+   + [Veelgestelde vragen over virtuele rapportsuites](vrs/vrs-faq.md)
+   + [Virtuele rapportsuites en globale/multi-suite tagging overwegingen](vrs/vrs-considerations.md)
+   + Workflow voor virtuele rapportsuites {#vrs-workflow}
       + [Workflow voor virtuele rapportsuites](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Virtuele rapportsuites maken](vrs/c-workflow-vrs/vrs-create.md)
       + [Virtuele rapportsuites beheren](vrs/c-workflow-vrs/vrs-manage.md)
@@ -233,7 +233,7 @@ ht-degree: 42%
    + [Apparaatanalyse instellen](cda/setup.md)
    + [Hoe herspeelt u?](cda/replay.md)
    + [CDA Workspace-sjabloon](cda/workspace-template.md)
-   + [Een vrijwillige VUT-regeling beperken tot bepaalde datums](cda/limit-vrs-date.md)
+   + [Beperk een Virtuele rapportreeks tot bepaalde data](cda/limit-vrs-date.md)
    + [Veelgestelde vragen over Cross-device Analytics](cda/faq.md)
 + Waarschuwingen {#alerts}
    + [Intelligente waarschuwingen](c-alerts/intellligent-alerts.md)

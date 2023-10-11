@@ -3,7 +3,7 @@ title: Bot verwijderen in Adobe Analytics
 description: Bommen verwijderen in Adobe Analytics
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Filtermethoden voor zowel standaard als aangepaste bot worden ondersteund in **[
 
 | Type regel | Beschrijving |
 |--- |--- |
-| Standaardregels voor IAB-bot | Selecteren **[!UICONTROL Enable IAB Bot Filtering Rules]** gebruikt de [IAB&#39;s](https://www.iab.com/) (International Advertising Bureau) International Spiders &amp; Bots List om beide verkeer te verwijderen. De meeste klanten selecteren deze optie op een minimum. |
+| Standaardregels voor IAB-bot | Selecteren **[!UICONTROL Enable IAB Bot Filtering Rules]** gebruikt de [IAB](https://www.iab.com/) (International Advertising Bureau) International Spiders &amp; Bots List om beide verkeer te verwijderen. De meeste klanten selecteren deze optie op een minimum. |
 | Aangepaste botregels | U kunt de regels van de douanebot bepalen en toevoegen die op gebruikersagenten, IP adressen, of IP waaiers worden gebaseerd. |
 
 Zie voor meer informatie [Overzicht van beide regels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
@@ -34,11 +34,11 @@ Deze plug-in voert twee controles uit:
 * Eerst, bepaalt het of het apparaat een Desktop of een mobiel apparaat gebruikend de navigator.UserAgent variabele is. Mobiele apparaten worden genegeerd.
 * Als het een desktopapparaat is, wordt er een gebeurtenislistener toegevoegd voor muisbewegingen.
 
-Zie voor meer informatie de [Adobe Analytics-implementatiehandleiding](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html).
+Zie de klasse [Adobe Analytics-implementatiehandleiding](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html).
 
 ## Een combinatie van Adobe-gereedschappen gebruiken
 
-Bovendien biedt Adobe, aangezien bots snel morferen, verschillende andere krachtige functies die, wanneer ze op een correcte manier en op regelmatige basis worden gecombineerd, kunnen helpen om deze vijanden van gegevenskwaliteit te verwijderen. Deze functies zijn: De Dienst van identiteitskaart van Experience Cloud, Segmentatie, Data Warehouse, de Attributen van de Klant, en Virtuele Reeksen van het Rapport. Hier volgt een overzicht van hoe u deze gereedschappen kunt gebruiken.
+Bovendien biedt Adobe, aangezien bots snel morferen, verschillende andere krachtige functies die, wanneer ze op een juiste manier en op regelmatige basis worden gecombineerd, kunnen helpen om deze vijanden van gegevenskwaliteit te verwijderen. Die eigenschappen zijn: de dienst van identiteitskaart van het Experience Cloud, segmentatie, Data Warehouse, klantenattributen, en virtuele rapportsuites. Hier volgt een overzicht van hoe u deze gereedschappen kunt gebruiken.
 
 ### Stap 1: Geef de Experience Cloud-id van uw bezoekers door in een nieuwe gedeclareerde id
 
@@ -52,9 +52,9 @@ Hieronder wordt beschreven hoe deze id kan worden vastgelegd via het gegevensele
 
 Nadat dit gegevenselement is ingesteld, volgt u [deze instructies](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) om gedeclareerde id&#39;s door te geven aan het ECID-hulpprogramma met tags in Adobe Experience Platform.
 
-### Stap 2: Segmentatie gebruiken om vlekken te identificeren
+### Stap 2: segmentatie gebruiken om vlekken te identificeren
 
-Nu de ECID van uw bezoeker is doorgegeven aan een gedeclareerde id, kunt u [segmentering in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) om bezoekers te identificeren die zich als bots gedragen. Bots worden vaak gedefinieerd door hun gedrag: één toegangsbezoek, ongebruikelijke gebruikersagenten, onbekende apparaat/browser informatie, geen referentie, nieuwe bezoekers, ongebruikelijke landingspagina&#39;s, enz. Gebruik de bevoegdheden van de boor-downs van de Werkruimte en segmentatie om de bots te identificeren die het filtreren IAB en uw de boomregels van de rapportsuite hebben omzeild. Hier ziet u bijvoorbeeld een schermafbeelding van een segment dat u kunt gebruiken:
+Nu de ECID van uw bezoeker is doorgegeven aan een gedeclareerde id, kunt u [segmentering in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) om bezoekers te identificeren die zich als bots gedragen. Bots worden vaak gedefinieerd door hun gedrag: enkele toegangsbezoeken, ongebruikelijke gebruikersagenten, onbekende apparaat-/browserinformatie, geen referentie, nieuwe bezoekers, ongebruikelijke landingspagina&#39;s, enz. Gebruik de bevoegdheden van de boor-downs van de Werkruimte en segmentatie om de bots te identificeren die het filtreren IAB en uw de boomregels van de rapportsuite hebben omzeild. Hier ziet u bijvoorbeeld een schermafbeelding van een segment dat u kunt gebruiken:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-filter-seg1.png)
 
@@ -64,32 +64,32 @@ Nu u de bots gebruikend segmenten hebt geïdentificeerd, is de volgende stap Dat
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-dwh-3.png)
 
-Vergeet niet Experience Cloud Visitor-id te gebruiken als uw dimensie en het segment Bots toe te passen.
+Vergeet niet om Experience Cloud Visitor-id te gebruiken als uw dimensie en het segment &#39;Bots&#39; toe te passen.
 
-### Stap 4: Geef deze lijst terug naar Adobe als Attribuut van de Klant
+### Stap 4: Ga deze lijst terug naar Adobe als attribuut van de Klant
 
 Zodra het rapport van de Data Warehouse aankomt, hebt u een lijst van ECIDs die van historische gegevens moet worden gefiltreerd. Kopieer en plak deze ECID&#39;s in een leeg CSV-bestand met slechts twee kolommen, ECID en Bot-vlag.
 
 * **ECID**: Zorg ervoor dat deze kolomkop overeenkomt met de naam die u aan de bovenstaande nieuwe gedeclareerde id hebt gegeven.
-* **Bot-vlag**: Voeg &#39;Bot Flag&#39; toe als schemadimensie van kenmerk van klant.
+* **Bodt Flag**: Voeg &#39;Bot Flag&#39; toe als schemadimensie van kenmerk Klant.
 
-Gebruik dit .CSV-bestand als het importbestand voor klantkenmerken en abonneer vervolgens uw rapportsuite(s) op het kenmerk Klant zoals beschreven in deze [blogbericht](https://theblog.adobe.com/link-digital-behavior-customers).
+Gebruik dit .CSV-bestand als het importbestand voor klantkenmerken en abonneer uw rapportsuite(s) op het kenmerk Klant zoals beschreven in dit [blogbericht](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
-### Stap 5: Creeer een segment dat hefboomwerkingen de nieuwe Attributen van de Klant
+### Stap 5: Creeer een segment dat hefboomwerkingen de nieuwe attributen van de Klant
 
 Als uw gegevensset eenmaal is verwerkt en geïntegreerd in Analysis Workspace, maakt u nog een segment dat gebruikmaakt van de nieuwe klantkenmerkdimensie &quot;Bot Flag&quot; en een [!UICONTROL Exclude] container:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-filter-seg2.png)
 
-### Stap 6: Dit segment gebruiken als het filter Virtuele rapportsuite
+### Stap 6: Gebruik dit segment als het filter van de virtuele rapportsuite
 
 Tot slot creeer een [Virtuele rapportsuite](/help/components/vrs/vrs-about.md) die dit segment gebruikt om de geïdentificeerde bots uit te filteren:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 
-Deze nieuwe gesegmenteerde Virtual Report Suite zal nu leiden tot een schonere set gegevens, waarbij de geïdentificeerde &#39;bots&#39; zijn verwijderd.
+Deze nieuwe gesegmenteerde virtuele rapportsuite zal nu leiden tot een schonere gegevensset, waarbij de geïdentificeerde &#39;bots&#39; zijn verwijderd.
 
 ### Stap 7: Herhaal stap 2, 3 en 4 regelmatig
 

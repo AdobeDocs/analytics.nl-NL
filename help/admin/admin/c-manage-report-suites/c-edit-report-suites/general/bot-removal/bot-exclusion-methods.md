@@ -3,10 +3,10 @@ title: Vergelijking van verschillende uitsluitingsmethoden
 description: Hiermee kunt u verschillende methoden vergelijken om bots uit te sluiten.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
 feature: Bot Removal
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,6 @@ In de volgende tabel ziet u verschillende methoden om bots uit te sluiten en hoe
 | &#x200B;**Zorgt u voor kosten van serveroproepen voor bots?** | Ja | Ja | Ja | Ja | Ja | Nee | Ja |
 | **Bot data available in data feeds?** | Nee | Nee | Ja | Ja | Ja | Nee | Ja |
 | **Kan rapport over beide verkeer &#x200B; alsof zij daadwerkelijke servervraag zijn?** | Nee | Nee | Ja | Ja | Ja | Nee | Nee |
-| **Kan gegevens met terugwerkende kracht uit een gegevensset verwijderen?** | Nee | Nee | &#x200B; Ja, zodra gedeclareerde id&#39;s zijn geïmplementeerd | Ja | Ja, zodra scores zijn geïmplementeerd | Nee | Nee |
+| **Kan gegevens met terugwerkende kracht uit een gegevensset verwijderen?** | Nee | Nee | &#x200B; Ja, zodra opgegeven id&#39;s zijn geïmplementeerd | Ja | Ja, zodra scores zijn geïmplementeerd | Nee | Nee |
 | **Is er sprake van Uniques-limieten in criteria?** | Nee | Nee | Nee | Ja | Nee | Nee | Nee |
 | **Is er &#x200B; sprake van extra kosten?** | Nee | Nee | &#x200B; mogelijk, afhankelijk van Analytics SKU | Nee | Ja | Nee | &#x200B; Ja - kosten voor de implementatie en handhaving van een VISTA-regel |
