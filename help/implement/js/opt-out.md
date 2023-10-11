@@ -3,22 +3,24 @@ title: Koppelingen uitschakelen
 description: Leer hoe u de optie om te weigeren koppelingen maakt voor bezoekers van uw site.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
 
 # Opt-outkoppelingen implementeren
 
+*Deze Help-pagina biedt Adobe Analytics-klanten de mogelijkheid om hun gebruikers de mogelijkheid te bieden zich af te melden. Als u geen Adobe Analytics-klant bent, raadpleegt u [Privacykeuzen Adobe](https://www.adobe.com/privacy/opt-out.html) om te bepalen hoe de Adobe uw informatie gebruikt.*
+
 >[!IMPORTANT]
 >
->Adobe beveelt aan de opt-in-dienst te gebruiken, met name voor organisaties die zich bezighouden met de GDPR-regelgeving. Zie [Overzicht van de service voor aanmelden](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) in de gebruikershandleiding van de Experience Cloud Identity Service.
+>Adobe beveelt aan gebruik te maken van de opt-in-dienst, met name voor organisaties die betrokken zijn bij de GDPR-regelgeving. Zie [Overzicht van de service voor aanmelden](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) in de gebruikershandleiding van de Experience Cloud Identity Service.
 
-Sommige bezoekers van uw website hebben liever geen informatie over het bladeren in uw gegevensset. Adobe biedt bezoekers van uw website de mogelijkheid om te weigeren dat hun gegevens worden verzameld. Aan alle implementatietypen wordt tegemoetgekomen; uw organisatie is verantwoordelijk voor uw eigen privacybeleid en voor het naleven van uw ondertekende voorwaarden.
+Sommige bezoekers van uw website hebben liever geen informatie over het bladeren in uw gegevensset. Adobe biedt de mogelijkheid om bezoekers van uw website de mogelijkheid te bieden zich af te melden van de gegevens die worden verzameld. Alle implementatietypen zijn inbegrepen; uw organisatie is verantwoordelijk voor uw eigen privacybeleid en voor het naleven van uw ondertekende voorwaarden.
 
-Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelcookie te installeren. Als een gebruiker ervoor kiest om niet te worden gevolgd en een uitschakelcookie wordt ingesteld, worden de gegevens in het JavaScript-bestand nog steeds naar de Adobe-servers verzonden. Deze gegevens worden echter niet verwerkt of opgenomen in rapporten.
+Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelcookie te installeren. Als een gebruiker ervoor kiest om niet te worden gevolgd en een uitschakelcookie wordt ingesteld, worden de gegevens in het JavaScript-bestand nog steeds naar Adobe servers verzonden. Deze gegevens worden echter niet verwerkt of opgenomen in rapporten.
 
 >[!TIP]
 >
@@ -38,9 +40,9 @@ De pagina om te weigeren voor uw organisatie is afhankelijk van de [`trackingSer
    1. Open op uw webserver het bestand AppMeasurement.js dat op uw site wordt gebruikt, in een code- of teksteditor.
    1. Noteer de `trackingServer` variabele waarde.
 
-* Met de [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html):
+* Met de [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Navigeer naar uw site met de Chrome-browser.
-   1. Open de Experience Cloud Debugger en ga naar de [!UICONTROL Network tab].
+   1. Open het Experience Cloud Debugger en ga naar de [!UICONTROL Network tab].
    1. Noteer de [!UICONTROL Request URL - Hostname] waarde.
 
 Zodra u de `trackingServer` domein, pad toevoegen `/optout.html` tot het einde toe. Bijvoorbeeld:
