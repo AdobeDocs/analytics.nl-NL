@@ -4,9 +4,9 @@ title: Verzoeken in Data Warehouse beheren
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
+source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,19 @@ U kunt de geschiedenis weergeven van rapporten die zijn uitgevoerd.
    ![Een aanvraag beheren](assets/dw-manage-request.png)
 
 1. Selecteren [!UICONTROL **Historie weergeven**].
+
+   De [!UICONTROL **Aanvraag Data Warehouse weergeven**] De pagina toont een lijst van individuele rapportleveringen.
+
+   ![Historiepagina aanvragen](assets/dw-request-history.png)
+
+1. Selecteer een rapportlevering en selecteer vervolgens een van de volgende opties:
+
+   | Optie | -functie |
+   |---------|----------|
+   | [!UICONTROL **Doelgegevens**] | Hiermee geeft u de account- en locatiegegevens weer die aan de aanvraag zijn gekoppeld. Dit is de rekening en de plaats die vroeger werden gevormd, zoals die in wordt beschreven [Vorm een rapportbestemming voor een verzoek van de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Rapport annuleren**] | Hiermee annuleert u het rapport. U kunt rapporten met de status [!UICONTROL **Voltooid**] of [!UICONTROL **Geannuleerd**]. |
+   | [!UICONTROL **Verslag-Rerun**] | Voert het rapport opnieuw met de gegevens in werking zoals het was toen het oorspronkelijk werd verzonden. U kunt een rapport met een van de volgende statussen opnieuw uitvoeren: [!UICONTROL **Geannuleerd**], [!UICONTROL **Voltooid**], [!UICONTROL **Fout - verwerking**], of [!UICONTROL **Fout - Verzenden mislukt**]. |
+   | [!UICONTROL **Rapport opnieuw verzenden**] | Hiermee stuurt u het eerder gegenereerde rapportbestand opnieuw. U kunt een rapport opnieuw verzenden met een van de volgende statussen: [!UICONTROL **Voltooid**] of [!UICONTROL **Fout - Verzenden mislukt**]. |
 
 ## Aanvragen kopiëren
 

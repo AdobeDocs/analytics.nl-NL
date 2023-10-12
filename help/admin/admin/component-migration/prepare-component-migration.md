@@ -2,9 +2,10 @@
 description: Verklaart de noodzakelijke voorbereidingen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics voor te bereiden.
 title: Migratie van onderdelen en projecten van Adobe Analytics naar Customer Journey Analytics voorbereiden
 feature: Admin Tools
-source-git-commit: cbd991821dc1eefa458ec5d92b75f9b4dfcc9fa0
+exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
+source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '939'
 ht-degree: 2%
 
 ---
@@ -54,7 +55,9 @@ In de volgende tabellen wordt aangegeven welke elementen van een project en comp
 
 ### Componentelementen die worden gemigreerd
 
-Dimensionen en maateenheden worden gemigreerd als onderdeel van het toewijzingsproces dat wordt beschreven in [Adobe Analytics-projecten migreren naar Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics), terwijl segmenten en datumbereiken opnieuw worden gemaakt in Customer Journey Analytics op basis van de
+Dimensionen en maateenheden worden gemigreerd als onderdeel van het toewijzingsproces dat wordt beschreven in [Adobe Analytics-projecten migreren naar Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+
+De segmenten, de datumwaaiers, en de berekende metriek die niet reeds in Customer Journey Analytics bestaan worden daar opnieuw gecreeerd gebaseerd op de afmetingen en de metriek die in kaart worden gebracht.
 
 |  | Gegigreerd |
 |---------|---------|
@@ -92,7 +95,7 @@ Dimensionen en maateenheden worden gemigreerd als onderdeel van het toewijzingsp
 
 ## Niet-ondersteunde elementen begrijpen die fouten veroorzaken
 
-De volgende visualisaties, deelvensters en functies worden niet ondersteund in Customer Journey Analytics. Wanneer deze elementen in een project vóór migratie zijn opgenomen, kunnen ze ervoor zorgen dat de migratie mislukt of dat er fouten optreden nadat het project is gemigreerd.
+De volgende visualisaties en deelvensters worden niet ondersteund in Customer Journey Analytics. Wanneer deze elementen in een project vóór migratie zijn opgenomen, kunnen ze ervoor zorgen dat de migratie mislukt of dat er fouten optreden nadat het project is gemigreerd.
 
 Verwijder deze elementen uit het Adobe Analytics-project voordat u het project naar de Customer Journey Analytics migreert. Als een migratie mislukt, verwijdert u deze elementen voordat u de migratie opnieuw probeert.
 
@@ -112,11 +115,7 @@ Verwijder deze elementen uit het Adobe Analytics-project voordat u het project n
 
 * [Overzicht van pagina](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-### Niet-ondersteunde functies
-
 * [Contributieanalyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-
-* [Waarschuwingen](/help/components/c-alerts/intellligent-alerts.md)
 
 ## Besluit als organisatie hoe u componenten in kaart zult brengen
 

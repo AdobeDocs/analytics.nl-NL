@@ -3,9 +3,9 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2301'
 ht-degree: 0%
 
 ---
@@ -254,6 +254,8 @@ Gebruik de volgende informatie wanneer u de beschikbare velden invult:
 
 * [!UICONTROL **Gebruikersnaam**]: Voer de gebruikersnaam in die u wilt aanmelden bij de SFTP-site.
 
+* [!UICONTROL **Tijdelijke bestandsextensies gebruiken tijdens het uploaden**]: Als deze optie is ingeschakeld, wordt de `.part` bestandsextensie wordt gebruikt tijdens het uploadproces. Laat deze optie ingeschakeld tenzij de bestandsnamen op uw SFTP-server na het uploaden niet kunnen worden gewijzigd.
+
 * [!UICONTROL **Openbare sleutels**]: Download de juiste openbare sleutel wanneer u de bestemming van het gegevenspakhuis maakt.
 
 #### Locatievelden
@@ -263,6 +265,8 @@ Gebruik de volgende informatie wanneer u de beschikbare velden invult:
 * [!UICONTROL **Locatiebeschrijving**]: Een beschrijving van de locatie op de SFTP-account.
 
 * [!UICONTROL **Directorypad**]: Het pad naar de locatie op de SFTP-account.
+
+Voor extra informatie over configuratie SFTP, zie [Data Warehouse-aanvragen naar SFTP-servers verzenden](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 

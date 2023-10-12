@@ -3,9 +3,9 @@ title: Een gegevensfeed maken
 description: Leer hoe u een gegevensfeed maakt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3159'
 ht-degree: 1%
 
 ---
@@ -117,9 +117,9 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
    +++Azure RBAC
 
-   Met RBAC-verificatie kunt u feeds rechtstreeks naar een Azure-container verzenden. Dit bestemmingstype vereist een naam van het Emmertje, een identiteitskaart van de Toepassing, identiteitskaart van de Aannemer, en een Geheime Sleutel.
+   Met RBAC-verificatie kunt u feeds rechtstreeks naar een Azure-container verzenden. Dit bestemmingstype vereist een identiteitskaart van de Toepassing, identiteitskaart van de Aannemer, en Geheim.
 
-   Om een Azure RBAC bucket als bestemming voor een gegevensvoer te vormen:
+   Een Azure RBAC-account configureren als de bestemming voor een gegevensfeed:
 
    1. Als u nog geen Azure-toepassing hebt, maakt u een Azure-toepassing die Adobe Analytics voor verificatie kan gebruiken en verleent u vervolgens toegangsmachtigingen in toegangsbeheer (IAM).
 
@@ -177,9 +177,9 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
    +++Azure SAS
 
-   Met SAS-verificatie kunt u feeds rechtstreeks naar een Azure-container verzenden. Dit doeltype vereist een naam van het Emmertje, een toepassings-id, een huurnummer-id, de sleutelvault-URI, de geheime naam van de sleutelkluis en een geheime sleutel.
+   Met SAS-verificatie kunt u feeds rechtstreeks naar een Azure-container verzenden. Voor dit doeltype is een toepassings-id, een id voor de huurder, de sleutelvault-URI, de geheime naam van de sleutelkluis en een geheim vereist.
 
-   Om een Azure SAS bucket als bestemming voor een gegevensvoer te vormen:
+   Om Azure SAS als bestemming voor een gegevensvoer te vormen:
 
    1. Als u dat nog niet hebt gedaan, maakt u een Azure-toepassing die Adobe Analytics voor verificatie kan gebruiken.
 
@@ -210,7 +210,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
          | Veld | -functie |
          |---------|----------|
          | [!UICONTROL **Accountnaam**] | Een naam voor de Azure SAS-account. Deze naam wordt weergegeven in het dialoogvenster [!UICONTROL **Account selecteren**] en kan elke gewenste naam hebben. |
-         | [!UICONTROL **Afschrijving van account**] | Een beschrijving voor de Azure SAS-account. Deze beschrijving wordt weergegeven in het dialoogvenster [!UICONTROL **Account selecteren**] en kan elke gewenste naam hebben. |
+         | [!UICONTROL **Accountbeschrijving**] | Een beschrijving voor de Azure SAS-account. Deze beschrijving wordt weergegeven in het dialoogvenster [!UICONTROL **Account selecteren**] en kan elke gewenste naam hebben. |
          | [!UICONTROL **Toepassings-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Tenant-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **URI sleutelvault**] | <p>Het pad naar het SAS-token in Azure Key Vault.  Om Azure SAS te configureren, moet u een SAS-token opslaan als een geheim met Azure Key Vault. Zie voor meer informatie de [Microsoft Azure-documentatie over het instellen en ophalen van een geheim bij Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nadat de sleutelvault-URI is gemaakt, voegt u een toegangsbeleid toe aan de Key Vault om toestemming te verlenen aan de Azure-toepassing die u hebt gemaakt. Zie voor meer informatie de [Microsoft Azure-documentatie over het toewijzen van een beleid voor toegang tot Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
