@@ -3,9 +3,9 @@ title: visitorID
 description: Gebruik een aangepaste bezoeker-id.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
+source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -43,4 +43,8 @@ s.visitorID = "abc123";
 
 >[!CAUTION]
 >
->Een ongeldige implementatie van aangepaste gebruikers-id&#39;s voor bezoekers kan leiden tot onjuiste gegevens en slechte rapportprestaties. Als deze variabele een standaardwaarde bevat (zoals `"0"` of `"NULL"`), behandelt Adobe deze treffers alsof ze dezelfde bezoeker zijn. Deze situatie resulteert in onjuiste gegevens, met lage aantallen bezoekers en bezoekersniveausegmenten niet zoals verwacht. De onjuist geïmplementeerde aangepaste bezoeker-id&#39;s zorgen ook voor een zware belasting op de verwerkingsservers, waardoor de [latentie](/help/technotes/latency.md) en afnemende rapportprestaties.
+>Een ongeldige implementatie van aangepaste gebruikers-id&#39;s voor bezoekers kan leiden tot onjuiste gegevens en slechte rapportprestaties. Als deze variabele een standaardwaarde bevat (zoals `"0"` of `"NULL"`), behandelt de Adobe deze treffers alsof zij de zelfde bezoeker zijn. Deze situatie resulteert in onjuiste gegevens, met lage aantallen bezoekers en bezoekersniveausegmenten niet zoals verwacht. De onjuist geïmplementeerde aangepaste bezoeker-id&#39;s zorgen ook voor een zware belasting op de verwerkingsservers, waardoor de [latentie](/help/technotes/latency.md) en afnemende rapportprestaties.
+
+## Bezoeker-id met de Web SDK en Experience Edge
+
+Met Experience Edge kunt u meerdere id&#39;s opgeven met XDM&#39;s [Identiteitskaart](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). Elke identiteit in een identiteitskaart heeft een verschillende namespace. U kunt opgeven welke naamruimte moet worden gebruikt voor Bezoeker-id als onderdeel van [datastream-configuratie](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). Zodra dit wordt gevormd, wanneer u een gebeurtenis met een waarde verzendt die voor dit namespace wordt gespecificeerd, zal het automatisch als identiteitskaart van de Bezoeker in Analytics worden gebruikt.
