@@ -4,9 +4,9 @@ title: Verzoeken in Data Warehouse beheren
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
+source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '1259'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Een geplande aanvraag bewerken:
 
 ## De geschiedenis van een verzoek weergeven
 
-U kunt de geschiedenis weergeven van rapporten die zijn uitgevoerd.
+U kunt de geschiedenis van om het even welke verzoeken van de Data Warehouse bekijken u hebt gemaakt.
 
 1. Selecteer in Adobe Analytics [!UICONTROL **Gereedschappen**] > [!UICONTROL **Data Warehouse**].
 
@@ -74,9 +74,26 @@ U kunt de geschiedenis weergeven van rapporten die zijn uitgevoerd.
 
 1. Selecteren [!UICONTROL **Historie weergeven**].
 
-   De [!UICONTROL **Aanvraag Data Warehouse weergeven**] De pagina toont een lijst van individuele rapportleveringen.
+   De [!UICONTROL **Aanvraag Data Warehouse weergeven**] De pagina toont een lijst van individuele rapportleveringen die met het verzoek worden geassocieerd.
+
+   Selecteer de **Kolom configureren** pictogram ![Kolompictogram configureren](assets/configure-column-icon.png) om kolommen te verbergen of kolommen te tonen die niet door gebrek worden getoond.
 
    ![Historiepagina aanvragen](assets/dw-request-history.png)
+
+   De volgende kolommen zijn beschikbaar:
+
+   | Kolom | Beschrijving |
+   |---------|----------|
+   | [!UICONTROL **Gemaakt op**] | De datum en tijd waarop het rapport is gemaakt.<p>Dit wordt getoond in de tijdzone van de gebruiker die het verzoek in werking stelde.</p> |
+   | [!UICONTROL **Begindatum**] | De datum en het tijdstip waarop het rapport is gestart.<p>Dit wordt getoond in de tijdzone van de gebruiker die het verzoek in werking stelde.</p> |
+   | [!UICONTROL **Datum voltooid**] | De datum en het tijdstip waarop het rapport is voltooid.<p>Dit wordt getoond in de tijdzone van de gebruiker die het verzoek in werking stelde.</p> |
+   | [!UICONTROL **Datum bijgewerkt**] | De datum en tijd waarop het rapport voor het laatst is bijgewerkt.<p>Dit wordt getoond in de tijdzone van de gebruiker die het verzoek in werking stelde.</p> |
+   | [!UICONTROL **Status**] | De status van de rapportlevering. Mogelijke statussen zijn:<ul><li>[!UICONTROL **Gemaakt**]: Het verslag is opgesteld, maar is nog niet verwerkt.</li><li>[!UICONTROL **In behandeling**]: Het verslag wacht op behandeling.</li><li>[!UICONTROL **Verwerking**]: Het verslag wordt momenteel behandeld.</li><li>[!UICONTROL **Voltooid**]: Het verslag is voltooid en is nu beschikbaar.</li><li>[!UICONTROL **Gepland**]: Het rapport is gepland, maar is nog niet begonnen.</li><li>[!UICONTROL **Geannuleerd**]: Het rapport is geannuleerd door de gebruiker.</li><li>[!UICONTROL **Fout - verwerking**:] Er is tijdens de verwerking een fout opgetreden in het rapport. Voer het rapport opnieuw uit om het opnieuw te proberen.</li><li>[!UICONTROL **Fout - Verzenden mislukt**]: Het rapport is gegenereerd, maar kon niet worden afgeleverd. Controleer de [configuratie van uw bestemming](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)en vervolgens het verslag opnieuw indienen.</li></ul>. |
+   | [!UICONTROL **Van**] | De begindatum van het algemene tijdkader inbegrepen in het rapport.<p>Dit wordt getoond in de tijdzone van de rapportreeks.</p> |
+   | [!UICONTROL **Naar**] | De einddatum van het algemene tijdkader inbegrepen in het rapport. <p>Dit wordt getoond in de tijdzone van de rapportreeks.</p> |
+   | [!UICONTROL **Verouderde aanvraag-id**] | Identiteitskaart die wordt gebruikt om een rapport in de interface van de erfenisData Warehouse te identificeren. Deze id kan nodig zijn wanneer u contact opneemt met de klantenservice van de Adobe. |
+   | [!UICONTROL **Rapport-id**] | Identiteitskaart die wordt gebruikt om een rapport in de huidige interface van de Data Warehouse te identificeren. Deze id kan nodig zijn wanneer u contact opneemt met de klantenservice van de Adobe. |
+
 
 1. Selecteer een rapportlevering en selecteer vervolgens een van de volgende opties:
 
