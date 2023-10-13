@@ -4,9 +4,9 @@ title: Verzoeken in Data Warehouse beheren
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
+source-git-commit: 02e743892d3e476a5614d9ad912523ce6315fe62
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1255'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ U kunt de geschiedenis van om het even welke verzoeken van de Data Warehouse bek
    | [!UICONTROL **Begindatum**] | De datum en het tijdstip waarop het rapport is gestart.<p>Dit wordt getoond in de tijdzone van de gebruiker die het verzoek in werking stelde.</p> |
    | [!UICONTROL **Datum voltooid**] | De datum en het tijdstip waarop het rapport is voltooid.<p>Dit wordt getoond in de tijdzone van de gebruiker die het verzoek in werking stelde.</p> |
    | [!UICONTROL **Datum bijgewerkt**] | De datum en tijd waarop het rapport voor het laatst is bijgewerkt.<p>Dit wordt getoond in de tijdzone van de gebruiker die het verzoek in werking stelde.</p> |
-   | [!UICONTROL **Status**] | De status van de rapportlevering. Mogelijke statussen zijn:<ul><li>[!UICONTROL **Gemaakt**]: Het verslag is opgesteld, maar is nog niet verwerkt.</li><li>[!UICONTROL **In behandeling**]: Het verslag wacht op behandeling.</li><li>[!UICONTROL **Verwerking**]: Het verslag wordt momenteel behandeld.</li><li>[!UICONTROL **Voltooid**]: Het verslag is voltooid en is nu beschikbaar.</li><li>[!UICONTROL **Gepland**]: Het rapport is gepland, maar is nog niet begonnen.</li><li>[!UICONTROL **Geannuleerd**]: Het rapport is geannuleerd door de gebruiker.</li><li>[!UICONTROL **Fout - verwerking**:] Er is tijdens de verwerking een fout opgetreden in het rapport. Voer het rapport opnieuw uit om het opnieuw te proberen.</li><li>[!UICONTROL **Fout - Verzenden mislukt**]: Het rapport is gegenereerd, maar kon niet worden afgeleverd. Controleer de [configuratie van uw bestemming](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)en vervolgens het verslag opnieuw indienen.</li></ul>. |
+   | [!UICONTROL **Status**] | De status van de rapportlevering. Mogelijke statussen zijn:<ul><li>[!UICONTROL **Gemaakt**]: Het verslag is opgesteld, maar is nog niet verwerkt.</li><li>[!UICONTROL **In behandeling**]: Het verslag wacht op behandeling.</li><li>[!UICONTROL **Verwerking**]: Het verslag wordt momenteel behandeld.</li><li>[!UICONTROL **Voltooid**]: Het verslag is voltooid en is nu beschikbaar.</li><li>[!UICONTROL **Gepland**]: Het rapport is gepland, maar is nog niet begonnen.</li><li>[!UICONTROL **Geannuleerd**]: Het rapport is geannuleerd door de gebruiker.</li><li>[!UICONTROL **Fout - verwerking**:] Het rapport heeft een fout aangetroffen en kan niet worden verwerkt.</li><li>[!UICONTROL **Fout - Verzenden mislukt**]: Het rapport is gegenereerd, maar kon niet worden afgeleverd. Controleer de [configuratie van uw bestemming](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)en vervolgens het verslag opnieuw indienen.</li></ul>. |
    | [!UICONTROL **Van**] | De begindatum van het algemene tijdkader inbegrepen in het rapport.<p>Dit wordt getoond in de tijdzone van de rapportreeks.</p> |
    | [!UICONTROL **Naar**] | De einddatum van het algemene tijdkader inbegrepen in het rapport. <p>Dit wordt getoond in de tijdzone van de rapportreeks.</p> |
    | [!UICONTROL **Verouderde aanvraag-id**] | Identiteitskaart die wordt gebruikt om een rapport in de interface van de erfenisData Warehouse te identificeren. Deze id kan nodig zijn wanneer u contact opneemt met de klantenservice van de Adobe. |
