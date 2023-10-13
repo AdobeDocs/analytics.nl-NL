@@ -4,9 +4,9 @@ title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
+source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1732'
 ht-degree: 1%
 
 ---
@@ -96,31 +96,27 @@ Houd de cursor boven het diagram om punten in de tijd te bekijken waar het maxim
 
   ![Afzonderlijke gebruikersgrafiek](assets/distinct-users-graph.png)
 
-<!--
+#### Verzoeken om grafiek
 
-#### Requests graph
+De grafiek van Verzoeken toont het aantal verwerkte en voltooide verzoeken voor de geselecteerde rapportreeks over de laatste twee uren.
 
-The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+Houd de cursor boven het diagram om punten in de tijd weer te geven waar het maximale aantal aanvragen het hoogst was voor die minuut.
 
-Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+* **X-as**: Het aantal verwerkte en voltooide verzoeken over het laatste 2 uurtijdkader.
+* **Y-as**: Het aantal verwerkte aanvragen (in paars) en ingevulde aanvragen (in groen), per minuut.
 
-* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
-* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
+  ![Afzonderlijke gebruikersgrafiek](assets/requests-graph.png)
 
-   ![Distinct Users graph](assets/requests-graph.png)
+#### Grafiek in wachtrij
 
-#### Queueing graph
+De het Een rij vormen grafiek toont de gemiddelde rij wachttijd (in seconden) voor het melden van verzoeken voor de geselecteerde rapportreeks over de laatste 2 uren.
 
-The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+Houd de cursor boven het diagram om punten in de tijd te bekijken waar de maximale gemiddelde wachttijd het hoogst was voor die minuut.
 
-Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+* **X-as**: De gemiddelde rij wacht tijd op het melden van verzoeken over het laatste 2 uurtijdkader.
+* **Y-as**: De gemiddelde wachttijd (in seconden).
 
-* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
-* **Y-axis**: The average wait time (in seconds).
-
-   ![Distinct Users graph](assets/queueing-graph.png)
-
--->
+  ![Afzonderlijke gebruikersgrafiek](assets/queueing-graph.png)
 
 ### Tabel weergeven {#view-table}
 
