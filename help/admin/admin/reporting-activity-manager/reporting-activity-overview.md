@@ -2,9 +2,9 @@
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 title: Overzicht van Activity Manager rapporteren
 feature: Admin Tools
-source-git-commit: fbb652c7f96197776cdb721c21b60e338a06f65d
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '288'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Het melden van de Manager van de Activiteit biedt de volgende voordelen:
 
 * Hiermee kunt u de rapportcapaciteit voor elke rapportsuite in uw organisatie controleren en beheren.
 * Hiermee kunt u in real-time op de hoogte worden gebracht van uw huidige rapporteringscapaciteit voor alle rapportsuite.
-* Verstrekt gedetailleerde informatie van de rapportvraag over huidige rapporteringsverzoeken, of een rij gevormd of lopend.
+* Verstrekt gedetailleerde rapportinformatie over huidige rapporteringsverzoeken, of een rij gevormd of lopend.
 * Hiermee kunt u de rapportwachtrij optimaliseren door een aantal prioriteiten toe te wijzen en andere rapportageaanvragen te annuleren om capaciteit vrij te maken. Het beantwoordt vragen als: is dit verslag op dit moment nodig of kan ik het intrekken ten gunste van meer urgente verslagen?
 * Hiermee kunt u toekomstige aanvragen voor een bepaalde periode beperken. U kunt specifieke verzoeken beperken, of u kunt alle verzoeken van een specifieke gebruiker of verzoeken beperken die met een specifiek project worden geassocieerd.
 
