@@ -2,10 +2,10 @@
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 title: Overzicht van Activity Manager rapporteren
 feature: Admin Tools
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 2%
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
@@ -41,10 +41,3 @@ Voor informatie over het bekijken van rapportactiviteit in de Manager van de Act
 
 Voor informatie over het annuleren van rapporteringsverzoeken in de Manager van de Activiteit van de Rapportering, zie [Rapportageverzoeken annuleren in de Manager van de Activiteit van de Rapportering](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## Veelgestelde vragen {#faq}
-
-| Vraag | Antwoord |
-| --- | --- |
-| Kan ik extra rapporteringscapaciteit kopen? | Deze mogelijkheid zal in de nabije toekomst beschikbaar zijn. |
-
-{style="table-layout:auto"}
