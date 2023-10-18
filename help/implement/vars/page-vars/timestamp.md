@@ -3,9 +3,9 @@ title: timestamp
 description: Stel handmatig de tijdstempel van de hit in.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
+source-git-commit: 4f9af1b3a1337b0e24b718362a502ff3f0acb5ef
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De `timestamp` Met variabele wordt handmatig de tijdstempel van de hit ingesteld
 
 >[!WARNING]
 >
->Gebruik deze variabele niet als uw rapportsuite niet expliciet is geconfigureerd voor het accepteren van treffers met een tijdstempel. AppMeasurement stelt automatisch de tijd van een hit voor rapportsuites in die timestamped klappen niet steunen. Als u een hit met deze variabele naar een rapportsuite verzendt die geen tijdstempels ondersteunt, gaan die gegevens permanent verloren.
+>Gebruik deze variabele niet als uw rapportsuite niet expliciet is geconfigureerd voor het accepteren van treffers met een tijdstempel. AppMeasurement stelt automatisch de tijd van een hit in voor rapportsuites die geen ondersteuning bieden voor treffers met tijdstempels. Als u een hit met deze variabele naar een rapportsuite verzendt die geen tijdstempels ondersteunt, gaan die gegevens permanent verloren.
 
 ## Tijdstempel met de SDK van het web
 
@@ -24,11 +24,11 @@ Tijdstempel is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.
 
 ## Tijdstempel met Adobe Analytics-extensie
 
-Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
 
-## s.timestamp in AppMeasurement en de de coderedacteur van de de uitbreiding van de Analyse van de douanecode
+## s.timestamp in AppMeasurement en de de uitbreidingsredacteur van de douanecode van de Analyse
 
-De `s.timestamp` variabele is een tekenreeks die de datum en tijd van de hit bevat. Geldige tijdstempelindelingen zijn [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) en [Unix time](https://en.wikipedia.org/wiki/Unix_time).
+De `s.timestamp` variabele is een tekenreeks die de datum en tijd van de hit bevat. Geldige tijdstempelindelingen zijn [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) en [Unix time](https://en.wikipedia.org/wiki/Unix_time) in seconden.
 
 ```js
 // Timestamp using ISO 8601
@@ -48,8 +48,8 @@ s.timestamp = new Date().toISOString();
 
 Datum en tijd uitgedrukt in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) kan verschillende vormen aannemen. Adobe ondersteunt niet alle functies in ISO 8601.
 
-* Zowel de datum als de tijd moeten worden opgegeven, gescheiden door `T`.
-* uren en minuten zijn vereist; seconden zijn optioneel, maar aanbevolen.
+* De datum en tijd moeten worden opgegeven, gescheiden door `T`.
+* Uren en minuten zijn vereist; seconden zijn optioneel, maar aanbevolen.
 * Weekdatums en rangteldatums worden niet ondersteund.
 * De datum kan in het standaard of uitgebreide formaat zijn. Bijvoorbeeld: `2020-01-01T00:00:00Z` en `20200101T000000Z` zijn beide geldig.
 * Fractionele minuten en seconden zijn technisch geldig, maar de breuken worden genegeerd door Adobe.
