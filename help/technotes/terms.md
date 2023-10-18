@@ -3,9 +3,9 @@ title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2577'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Clickstream-gegevensinvoer:** Zie Gegevensinvoer.
 * **Cohort:** Een groep mensen die gemeenschappelijke kenmerken delen over een bepaalde periode. Zie [Wat is Cohort Analysis?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in de gebruikershandleiding Analyseren.
 * **Verzamelingsserver:** Zie Gegevensverzamelingsserver.
+* **Component:** Componenten in Analysis Workspace bestaan uit afmetingen, metriek, segmenten en datumbereiken die u naar een project kunt slepen en neerzetten. Zie [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) in de gebruikershandleiding Analyseren.
 * **Contextgegevensvariabelen:** Tijdelijke variabelen die uitsluitend in verwerkingsregels worden gebruikt. De veranderlijke waarden van contextgegevens worden permanent verloren als een verwerkingsregel hen niet aan een omzetting of verkeersvariabele kopieert. Zie [Contextgegevensvariabelen](../implement/vars/page-vars/contextdata.md) in de gebruikershandleiding Implementeren.
 * **Conversievariabele** Ook bekend als eVars. Slaat een douanewaarde op, en bewaart de veranderlijke waarde tot het verloopt. Zie de [eVar](/help/components/dimensions/evar.md) in de gebruikershandleiding van Componenten.
 * **Correlatie:** Niet langer gebruikt als een term; vervangen door uitsplitsingen naar dimensie. In eerdere versies van Adobe Analytics bood correlations de mogelijkheid om verkeersvariabelen op te splitsen. Zie [Afmetingen onderverdelingen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in de gebruikershandleiding Analyseren.
