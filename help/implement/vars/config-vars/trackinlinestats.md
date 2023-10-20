@@ -1,41 +1,43 @@
 ---
 title: trackInlineStats
-description: Activiteitenoverzicht in uw implementatie in- of uitschakelen.
-keywords: activiteitenoverzicht uitschakelen
+description: Schakel ClickMapen in uw implementatie in of uit.
+keywords: klikmap uitschakelen
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a3df69f7de45ba3694e1212e5c16a10bb4602cd6
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 0%
+source-wordcount: '178'
+ht-degree: 1%
 
 ---
 
 # trackInlineStats
 
-Activiteitenoverzicht is een functie in Adobe Analytics die gegevens verzamelt over waar bezoekers klikken en waarop ze klikken. U kunt deze gegevens weergeven in analyserapporten of met een browserextensieoverlay. Schakel deze variabele in als u Activiteitenoverzicht wilt gebruiken.
+>[!IMPORTANT]
+>
+>Deze variabele wordt uitgeschakeld. Zie [Activity Map inschakelen](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) in plaats daarvan.
 
-Wanneer toegelaten, verzamelt AppMeturement informatie over de verbinding en verzendt die gegevens in het volgende beeldverzoek. De informatie van elke klik wordt opgeslagen in een gekoeld geëtiketteerd `s_sq`.
+ClickMap is een gepensioneerde functie in Adobe Analytics die gegevens verzamelt over waar bezoekers klikken en waarop ze klikken. De functie is vervangen door [Activity Map](/help/analyze/activity-map/activity-map.md).
 
-## Activity Map die SDK van het Web gebruikt
+Wanneer toegelaten, verzamelt het AppMeasurement informatie over de verbinding en verzendt die gegevens in het volgende beeldverzoek. De informatie van elke klik wordt opgeslagen in een koekje geëtiketteerd `s_sq`.
 
-De SDK van het Web ondersteunt nog niet de gegevensverzameling van de Activity Map.
+## ClickMap inschakelen met de Adobe Analytics-extensie
 
-## Klikmap inschakelen met de Adobe Analytics-extensie
-
-[!UICONTROL Enable Clickmap] is een selectievakje onder [!UICONTROL Link Tracking] accordeon bij het configureren van de Adobe Analytics-extensie.
+[!UICONTROL Enable ClickMap] is een selectievakje onder [!UICONTROL Link Tracking] accordeon bij het configureren van de Adobe Analytics-extensie.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
-4. Breid uit [!UICONTROL Link Tracking] accordion, die de [!UICONTROL Enable Clickmap] selectievakje.
+4. Breid uit [!UICONTROL Link Tracking] accordion, die de [!UICONTROL Enable ClickMap] selectievakje.
 
-Klik op het selectievakje om Activiteit maps bijhouden in te schakelen.
+>[!NOTE]
+>
+>Dit selectievakje is anders dan het selectievakje [!UICONTROL Use Activity Map] selectievakje, dat zich onder de [!UICONTROL Library management] accordeon.
 
 ## s.trackInlineStats in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
-De `s.trackInlineStats` is een Booleaanse waarde die het bijhouden van activiteitenkaarten in- of uitschakelt. De standaardwaarde is `false`. Deze waarde instellen op `true` als u de gegevensinzameling van de kaart van de Activiteit wilt toelaten.
+De `s.trackInlineStats` is een booleaanse waarde die het bijhouden van ClickMapen in- of uitschakelt. Aangezien de functie is uitgeschakeld, wordt het niet aangeraden deze variabele in te stellen door Adobe. De standaardwaarde is `false`.
 
 ```js
-s.trackInlineStats = true;
+s.trackInlineStats = false;
 ```
