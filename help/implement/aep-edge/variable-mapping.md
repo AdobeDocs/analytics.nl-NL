@@ -3,7 +3,7 @@ title: Variabeletoewijzing analyseren in Adobe Experience Edge
 description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen aan analytische variabelen.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 0%
@@ -106,8 +106,8 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | `media.mediaTimed.thirdQuartiles.value` | Metrisch voor Media Analytics [Voortgangsmarkering van 75 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#seventy-five-progress-marker). |
 | `media.mediaTimed.timePlayed.value` | Metrisch voor Media Analytics [Tijd van inhoud besteed](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-time-spent). |
 | `media.mediaTimed.totalTimePlayed.value` | Metrisch voor Media Analytics [Tijd besteed aan media](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-time-spent). |
-| `placeContext.geo.latitude` | De mobiele afmeting Latitude. |
-| `placeContext.geo.longitude` | De mobiele afmetingslengte. |
+| `placeContext.geo._schema.latitude` | De mobiele afmeting Latitude. |
+| `placeContext.geo._schema.longitude` | De mobiele afmetingslengte. |
 | `placeContext.geo.postalCode` | De [Postcode](../../components/dimensions/zip-code.md) dimensie. |
 | `placeContext.geo.stateProvince` | De [VS](../../components/dimensions/us-states.md) dimensie. |
 | `placeContext.localTime` | Helpt vullen [Tijdzones](/help/analyze/reports-analytics/reports.md) in Report &amp; Analytics. Verschijnt als `t_time_info` in [Gegevensfeeds](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
