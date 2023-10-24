@@ -2,7 +2,7 @@
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 title: Overzicht van Activity Manager rapporteren
 feature: Admin Tools
-source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -10,8 +10,6 @@ ht-degree: 0%
 ---
 
 # Overzicht van Activity Manager rapporteren
-
-{{release-limited-testing}}
 
 De [!UICONTROL Reporting Activity Manager] is beschikbaar voor beheerders.
 
