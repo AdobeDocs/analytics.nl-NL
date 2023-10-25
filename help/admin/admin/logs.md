@@ -3,9 +3,9 @@ description: Logbestanden waarmee u kunt zien wanneer gebruikers zich aanmelden,
 title: Logboeken
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
@@ -26,13 +26,13 @@ De [!UICONTROL Usage and Access Log] Hiermee kunt u het rapportgebruik op gebrui
 
 | Element | Beschrijving |
 |---|---|
-| Datumbereik | Geef een filter voor het datumbereik op. U kunt een datum handmatig invoeren in de notatie JJJJ-MM-DD of op het kalenderpictogram klikken om een datum te selecteren. |
+| Datumbereik | Geef een datumbereikfilter op. U kunt een datum handmatig invoeren in de notatie JJJJ-MM-DD of op het kalenderpictogram klikken om een datum te selecteren. |
 | Aanmelden | Filter het logbestand op gebruikersnaam. |
 | IP | Filter het logboek door een IP adres. |
 | Rapportsuite | Filter het logboek door een specifieke identiteitskaart van de rapportreeks. |
 | Type gebeurtenis | Filter het logbestand op een gebeurtenistype. Selecteer een gebeurtenistype in de vervolgkeuzelijst. Zie de volledige lijst met gebeurtenistypen hieronder. |
 | Gebeurtenis | Filter het logbestand op een woord of woordgroep in de gebeurtenisbeschrijving. |
-| Rapport downloaden | Hiermee exporteert u de inhoud van het dialoogvenster [!UICONTROL Usage & Access Log] aan een door tabs gescheiden bestand. |
+| Rapport downloaden | Hiermee exporteert u de inhoud van de [!UICONTROL Usage & Access Log] aan een door tabs gescheiden bestand. |
 
 ### Gebeurtenistypen
 
@@ -41,14 +41,14 @@ De [!UICONTROL Usage and Access Log] Hiermee kunt u het rapportgebruik op gebrui
 | Geen categorie | Kan elk gebeurtenistype zijn. |
 | Aanmelden mislukt | Aanmeldingsproces gebruiker is mislukt. |
 | Aanmelden gelukt | Gebruiker is aangemeld. |
-| Handeling Admin | Er is een beheeractie opgetreden, zoals het bewerken van een rapportsuite, het wijzigen van de bedrijfsinstellingen, het maken van een gebruiker, enzovoort. |
+| Handeling Admin | Er heeft zich een beheeractie voorgedaan, zoals het bewerken van een rapportsuite, het wijzigen van de bedrijfsinstellingen, het maken van een gebruiker, het annuleren van een rapportageaanvraag, enzovoort. |
 | Wijziging van beveiligingsinstelling | Er is een beveiligingsinstelling gewijzigd. |
-| Bekeken rapport | Er is een rapport met rapporten en analyses weergegeven. |
+| Bekeken rapport | Er is een rapport van Rapporten en Analytics weergegeven. |
 | Gedownload rapport | Er is een rapport met rapporten en analyses gedownload. |
 | Waarschuwing verzonden | Er is een waarschuwing verzonden. |
 | Handeling van gebruiker | Gebruikersgegevens zijn bewerkt. |
 | Gereedschap weergegeven | Er is een gereedschap weergegeven. |
-| Omniture-actie | Adobe heeft een handeling uitgevoerd. |
+| Omniture-actie | Een actie is uitgevoerd door Adobe. |
 | Herstel van wachtwoord | Er is een wachtwoord hersteld. |
 | BookMarks | Er is een bladwijzer beheerd. |
 | Dashboards | Er is een dashboard beheerd. |
@@ -82,9 +82,9 @@ Hulpmiddelen die een rapportreeks van buiten kunnen wijzigen [!UICONTROL Admin T
 
 | Element | Beschrijving |
 |---|---|
-| Datumbereik | Geef een filter voor het datumbereik op. U kunt een datum handmatig invoeren in de notatie JJJJ-MM-DD of op het kalenderpictogram klikken om een datum te selecteren. |
+| Datumbereik | Geef een datumbereikfilter op. U kunt een datum handmatig invoeren in de notatie JJJJ-MM-DD of op het kalenderpictogram klikken om een datum te selecteren. |
 | Bedrijf | Filter het logboek door bedrijfsnaam. |
 | Aanmelden | Filter het logbestand op gebruikersnaam. |
 | IP | Filter het logboek door een IP adres. |
 | Gebeurtenis | Filter het logbestand op een woord of woordgroep in de gebeurtenisbeschrijving. |
-| Rapport downloaden | Hiermee exporteert u de inhoud van het dialoogvenster [!UICONTROL Usage & Access Log] aan een door tabs gescheiden bestand. |
+| Rapport downloaden | Hiermee exporteert u de inhoud van de [!UICONTROL Usage & Access Log] aan een door tabs gescheiden bestand. |

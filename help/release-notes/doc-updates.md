@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '5067'
+source-wordcount: '5096'
 ht-degree: 25%
 
 ---
@@ -25,6 +25,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Oktober 2023** | |
+| Toegevoegde logboekinformatie aan de Manager van de Activiteit van de Rapportering | Informatie toegevoegd die [annuleringen en latere beperkingen van de rapportageactiviteiten](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) in de Manager van de Activiteit van de Rapportering wordt gevangen in [Logboeken](/help/admin/admin/logs.md). |
 | **September 2023** | |
 | Bijgewerkte structuur van artikelen voor het deelvenster Afspeeltijd van media | De map met de naam Media Playback Time Spent is verwijderd en de inhoud van de map is in één artikel gecombineerd: [Media afspelen tijd besteed, deelvenster](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Deze wijziging komt meer overeen met de documentatie voor andere deelvensters.</p> |
 | Aan de slag met inhoudverbeteringen | Toegevoegde informatie waarin belangrijke aan de slag zijnde taken en bronnen voor beheerders, analisten, eindgebruikers en ontwikkelaars worden beschreven. De volgende nieuwe artikelen zijn nu beschikbaar: <ul><li>[Aan de slag (op rol)](/help/analyze/get-started/get-started-by-role.md)</li><li>[De interface Analytics begrijpen](/help/analyze/get-started/analytics-interface.md)<li>[Gebruik hoofdletters](/help/analyze/get-started/use-cases.md)</li></ul> |

@@ -2,9 +2,9 @@
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 title: Rapportageverzoeken annuleren in de Manager van de Activiteit van de Rapportering
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ Overweeg het volgende wanneer het annuleren van rapporteringsverzoeken:
 
 * U kunt specifieke verzoeken annuleren, alle verzoeken van een specifieke gebruiker annuleren of alle verzoeken met betrekking tot een specifiek project annuleren.
 
+  Wanneer u een verzoek annuleert, wordt de actie opgenomen in [Logboeken](/help/admin/admin/logs.md). De [!UICONTROL **Type gebeurtenis**] kolommen worden weergegeven als [!UICONTROL **Handeling Admin**], en een beschrijving van de annulering is beschikbaar in de [!UICONTROL **Gebeurtenis**] kolom.
+
 * Wanneer u verzoeken annuleert, kunt u ook verkiezen om verdere verzoeken voor een bepaalde tijdspanne te beperken.
+
+  Wanneer u een volgend verzoek beperkt, wordt de handeling opgenomen in het dialoogvenster [Logboeken](/help/admin/admin/logs.md). De [!UICONTROL **Type gebeurtenis**] kolommen worden weergegeven als [!UICONTROL **Handeling Admin**] en een beschrijving van de beperking is beschikbaar in de [!UICONTROL **Gebeurtenis**] kolom.
 
 * U kunt een aanvraag niet annuleren als de [!UICONTROL **Gebruiker**] de kolom van een verzoek toont zoals [!UICONTROL **Niet herkend**]. Wanneer dit voorkomt, betekent het dat de gebruiker in een login bedrijf is waar u geen administratieve toestemmingen hebt.
 
