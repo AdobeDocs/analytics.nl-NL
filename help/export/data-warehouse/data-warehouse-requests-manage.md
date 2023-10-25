@@ -4,9 +4,9 @@ title: Verzoeken in Data Warehouse beheren
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >Als uw organisatie nog niet de nieuwe ervaring van de Data Warehouse heeft, die spoedig voor alle klanten beschikbaar zal zijn, gebruik de informatie in [Aanvragen voor Data Warehouse beheren (oude ervaring)](#manage-data-warehouse-requests-old-experience) onder aan deze pagina.
 
 
-U kunt de verzoeken van de Data Warehouse bekijken en beheren die u hebt gemaakt. Alleen beheerders kunnen aanvragen weergeven en beheren die zijn ingediend door andere gebruikers in de organisatie waar ze beheerrechten hebben.
+U kunt de verzoeken van de Data Warehouse bekijken en beheren die u hebt gemaakt. Alleen beheerders kunnen aanvragen van andere gebruikers in hun organisatie weergeven en beheren.
 
 De volgende secties beschrijven activiteiten u kunt uitvoeren wanneer het beheren van verzoeken.
 
@@ -47,6 +47,8 @@ Houd rekening met het volgende wanneer u verzoeken bewerkt:
 * Slechts kunnen de verzoeken die worden gevormd om op een programma in werking te stellen worden uitgegeven.
 
 * Niet alle velden die aan de aanvraag zijn gekoppeld, kunnen worden bewerkt. Velden die niet kunnen worden bewerkt, worden grijs weergegeven.
+
+* Beheerders die de aanvraag van een andere gebruiker bewerken, moeten een nieuw account en een nieuwe locatie kiezen waartoe ze toegang hebben.
 
 Een geplande aanvraag bewerken:
 
