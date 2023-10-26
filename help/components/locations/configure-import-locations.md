@@ -3,9 +3,10 @@ description: De cloud-importaccount configureren en de locatie waar classificati
 keywords: Analysis Workspace
 title: Cloudimportlocaties configureren
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '542'
 ht-degree: 1%
 
 ---
@@ -38,7 +39,7 @@ Een locatie voor cloudimport configureren:
 
    | Veld | -functie |
    |---------|----------|
-   | [!UICONTROL **Naam van emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat de gebruiker-ARN die door Adobe is geleverd, toegang heeft om bestanden te uploaden naar dit emmertje. |
+   | [!UICONTROL **Naam van emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. |
    | [!UICONTROL **Voorvoegsel toets**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
 
    {style="table-layout:auto"}
@@ -47,7 +48,7 @@ Een locatie voor cloudimport configureren:
 
    +++Google Cloud Platform
 
-   Geef de volgende informatie op om een locatie voor een Google Cloud-Platform te configureren:
+   Geef de volgende informatie op om een locatie voor een Google Cloud Platform te configureren:
 
    | Veld | -functie |
    |---------|----------|

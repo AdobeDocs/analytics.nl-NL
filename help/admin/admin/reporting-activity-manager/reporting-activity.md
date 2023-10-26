@@ -4,7 +4,7 @@ title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -140,7 +140,7 @@ Wanneer u [!UICONTROL **Verzoek**] de volgende kolommen zijn beschikbaar in de t
 
 | Kolom | Beschrijving |
 | --- | --- |
-| [!UICONTROL **Aanvraag-id**] | Een unieke id die kan worden gebruikt voor probleemoplossingsdoeleinden. Als u de id wilt kopiëren, selecteert u de aanvraag en selecteert u de optie. [!UICONTROL **Aanvraag-id kopiëren**]. |
+| [!UICONTROL **Aanvraag-id**] | Een unieke id die kan worden gebruikt voor probleemoplossingsdoeleinden. Als u de id wilt kopiëren, selecteert u de aanvraag en selecteert u de optie. [!UICONTROL **Aanvraag-id&#39;s kopiëren**]. |
 | [!UICONTROL **Tijdsduur**] | Hoe lang de aanvraag is uitgevoerd. |
 | [!UICONTROL **Begintijd**] | Wanneer de aanvraag is begonnen met de verwerking (op basis van de lokale tijd van de beheerder). |
 | [!UICONTROL **Wacht op tijd**] | Hoe lang het verzoek heeft gewacht alvorens wordt verwerkt. Deze waarde staat doorgaans op &quot;0&quot; wanneer er voldoende capaciteit is. |
