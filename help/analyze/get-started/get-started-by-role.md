@@ -1,11 +1,12 @@
 ---
-description: Algemene overzichtsinformatie over Adobe Analytics, met inbegrip van informatie over de interface van Analytics evenals begonnen informatie voor beheerders, analisten, gebruikers, en ontwikkelaars.
+description: Algemene overzichtsinformatie over Adobe Analytics, inclusief informatie over de interface van Analytics en om aan de slag te gaan voor beheerders, analisten, gebruikers en ontwikkelaars.
 title: Aan de slag voor beheerders, analisten, eindgebruikers en ontwikkelaars
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
+exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
-source-wordcount: '1901'
-ht-degree: 4%
+source-wordcount: '1891'
+ht-degree: 5%
 
 ---
 
@@ -69,7 +70,7 @@ Analysebeheerders moeten de volgende taken uitvoeren voordat ze Adobe Analytics 
 | Taak | Beoogd gebruik | Meer informatie |
 |---------|----------|---------|
 | Beheerdersrollen definiëren | Adobe Analytics ondersteunt verschillende typen beheerders | [Beheerdersrollen in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/admin-roles-in-analytics.html?lang=en) |
-| Machtigingen definiëren | Analysebeheerders moeten productprofielen toewijzen in de Admin Console voor Adobe Analytics, Report Suite Tools en Analytics Tools. | [Machtigingen voor analyse in de Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en) |
+| Machtigingen definiëren | Analysebeheerders moeten productprofielen toewijzen in de Admin Console voor Adobe Analytics, Report Suite Tools en Analytics Tools. | [Machtigingen voor analyse in de Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) |
 | Stel rapportsuites in en definieer instellingen voor uw bedrijf | Een rapportenreeks is een silo van gegevens die Adobe Analytics gebruikt om rapporten te produceren.<p>Beheerders kunnen ook [virtuele rapportsuites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en) voor verdere segmentgegevens.</p> | <ul><li>[Een rapportsuite maken](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=en)</li><li>[Overzicht van bedrijfsinstellingen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en)</li></ul> |
 | Gegevens importeren | Met Adobe Analytics-gegevensbronnen kunt u extra online- of offlinegegevens importeren voor rapportage. | [Overzicht van gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
 | Gegevens classificeren met classificaties | Met classificaties kunt u gegevens classificeren om beter gebruik te maken van variabelen, zodat u meer inhoud in één variabele kunt opnemen. | [Overzicht van classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=en) |

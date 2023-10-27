@@ -4,9 +4,9 @@ title: Snelle segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Houd rekening met het volgende wanneer u snelle segmenten maakt:
 
 * De snelle segmenten zijn slechts op het project van toepassing waar zij werden gecreeerd. Ze zijn niet beschikbaar in andere projecten en kunnen niet worden gedeeld met andere gebruikers.
 * Er zijn maximaal drie regels toegestaan.
-* Geneste containers of sequentiële regels worden niet ondersteund.
+* Geneste containers of opeenvolgende regels worden niet ondersteund.
 
 In de volgende video ziet u hoe u snelle segmenten kunt gebruiken:
 
@@ -35,20 +35,19 @@ Een snel segment maken:
 
    * **Ad hoc (slepen en neerzetten):** Sleep een component van de linkerspoorstaaf naar de neerzetzone naast de **Segment** in de koptekst van het deelvenster en selecteert u vervolgens het pictogram **Bewerken** pictogram om het segment aan te passen.
 
-      ![Ad-hocsegment bewerken](assets/filter-adhoc-edit.png)
+     ![Ad-hocsegment bewerken](assets/filter-adhoc-edit.png)
 
-      >[!NOTE]
-      >
-      > Houd rekening met het volgende wanneer u een snel segment ad hoc maakt (slepen en neerzetten):
-      > * De volgende componenttypen worden niet ondersteund: berekende metriek en afmetingen, evenals metriek waarvan u geen segmenten kunt bouwen.
-      > * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;bestaande&#39; raaksegmenten. Voorbeelden: `Hit where eVar1 exists` of `Hit where event1 exists`.
-      > * Als &quot;niet gespecificeerd&quot;of &quot;niets&quot;in de sectie van de segmentdaling wordt gelaten vallen, wordt het automatisch omgezet in een &quot;bestaat niet&quot;segment zodat het correct in segmenten wordt behandeld.
-
+     >[!NOTE]
+     >
+     > Houd rekening met het volgende wanneer u een snel segment ad hoc maakt (slepen en neerzetten):
+     > * De volgende componenttypen worden niet ondersteund: berekende metriek en dimensies, evenals metriek waaruit u geen segmenten kunt bouwen.
+     > * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;bestaande&#39; raaksegmenten. Voorbeelden: `Hit where eVar1 exists` of `Hit where event1 exists`.
+     > * Als &quot;niet gespecificeerd&quot;of &quot;niets&quot;in de sectie van de segmentdaling wordt gelaten vallen, wordt het automatisch omgezet in een &quot;bestaat niet&quot;segment zodat het correct in segmenten wordt behandeld.
 
 
    * **Het segmentpictogram gebruiken:** Selecteer in een tabel met vrije vorm de optie **Segment** in de koptekst van het deelvenster.
 
-      ![Segment, filter](assets/quick-seg1.png)
+     ![Segment, filter](assets/quick-seg1.png)
 
 1. Pas een van de volgende instellingen aan:
 
@@ -62,7 +61,7 @@ Een snel segment maken:
    | plusteken (+) | Een andere regel toevoegen |
    | EN/OF kwalificatietekens | U kunt &quot;EN&quot;of &quot;OF&quot;bepalende eigenschappen aan de regels toevoegen, maar u kunt &quot;EN&quot;en &quot;OF&quot;in één enkele segmentdefinitie niet mengen. |
    | [!UICONTROL Apply] | Pas dit segment toe op het deelvenster. Als het segment geen gegevens bevat, wordt u gevraagd of u wilt doorgaan. |
-   | [!UICONTROL Open builder] | Opent de Segment Builder. Nadat u sparen of het segment in de Bouwer van het Segment toepast, wordt het niet meer beschouwd als een &quot;snel segment&quot;. Het wordt deel van de component-lijst segmentbibliotheek. <p>Als u de component beschikbaar wilt maken voor al uw projecten en in het linkerspoor, selecteert u de optie [!UICONTROL **Maak dit segment beschikbaar aan al uw projecten en voeg het aan uw componentenlijst toe**].</p><p>Zie de sectie voor meer informatie [Snel segment opslaan als een segment met een lijst met componenten](#save-a-quick-segment-as-a-component-list-segment) in dit artikel.</p><p>**Opmerking:** Alleen gebruikers met de machtiging Segment maken in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) U kunt de Segment Builder openen.</p> |
+   | [!UICONTROL Open builder] | Opent de Segment Builder. Nadat u sparen of het segment in de Bouwer van het Segment toepast, wordt het niet meer beschouwd als een &quot;snel segment&quot;. Het wordt deel van de component-lijst segmentbibliotheek. <p>Als u de component beschikbaar wilt maken voor al uw projecten en in het linkerspoor, selecteert u de optie [!UICONTROL **Maak dit segment beschikbaar aan al uw projecten en voeg het aan uw componentenlijst toe**].</p><p>Zie de sectie voor meer informatie [Snel segment opslaan als een segment met een lijst met componenten](#save-a-quick-segment-as-a-component-list-segment) in dit artikel.</p><p>**Opmerking:** Alleen gebruikers met de machtiging Segment maken in het dialoogvenster [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) U kunt de Segment Builder openen.</p> |
    | [!UICONTROL Cancel] | Annuleer dit snelle segment (pas het niet toe). |
    | [!UICONTROL Date range] | De validator gebruikt het datumbereik van het deelvenster voor het opzoeken van de gegevens. Maar elk datumbereik dat in een snel segment wordt toegepast, overschrijft het datumbereik van het deelvenster boven in het deelvenster. |
    | Voorvertoning (rechtsboven) | Hiermee kunt u zien of u een geldig segment hebt en hoe breed het segment is. Geeft de uitsplitsing aan van de gegevensset die u kunt verwachten wanneer u dit segment toepast. U zou een bericht kunnen krijgen dat erop wijst dat dit segment geen gegevens heeft. In dit geval kunt u doorgaan of de segmentdefinitie wijzigen. |
@@ -85,10 +84,9 @@ Een snel segment maken:
 >
 > Houd rekening met het volgende wanneer u een snel segment opslaat:
 > 
-> * Als u een snel segment wilt opslaan, hebt u de machtiging Segment maken nodig in het dialoogvenster [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools).
+> * Als u een snel segment wilt opslaan, hebt u de machtiging Segment maken nodig in het dialoogvenster [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md).
 > 
-> * Nadat u sparen of het segment toepast, kan het niet meer in de snelle segmentbouwer worden uitgegeven. In plaats daarvan, moet u de regelmatige Bouwer van het Segment gebruiken.
-
+> * Nadat u sparen of het segment toepast, kan het niet meer in de snelle segmentbouwer worden uitgegeven. In plaats daarvan moet u de gewone Segment Builder gebruiken.
 
 U kunt snelle segmenten opslaan als een lijst met componenten. De voordelen van component-lijst segmenten omvatten:
 
@@ -129,7 +127,7 @@ Nadat u het segment toepast, kunt u verkiezen om het aan uw lijst van de segment
 1. Selecteren **[!UICONTROL Save]**.
 
    Het segment verschijnt nu in uw lijst van de segmentcomponent voor al uw projecten.
-U kunt ook [delen in het segment](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6) met andere mensen in uw organisatie.
+U kunt [delen in het segment](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6) met andere mensen in uw organisatie.
 
 ## Voorbeeld van snel segment
 
