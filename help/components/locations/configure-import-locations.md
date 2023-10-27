@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloudimportlocaties configureren
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -88,4 +88,11 @@ Een locatie voor cloudimport configureren:
 
 1. Selecteren [!UICONTROL **Opslaan**].
 
-   U kunt nu gegevens importeren naar de account en locatie die u hebt geconfigureerd.
+   U kunt nu gegevens importeren van de account en locatie die u hebt geconfigureerd.
+
+   Gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
+
+   >[!NOTE]
+   >
+   >   Als u eerder [FTP voor het importeren van classificaties](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) naar Adobe Analytics, moet u een FIN-bestand uploaden. Dit FIN-bestand is niet nodig bij het importeren van accounts in de cloud.
+

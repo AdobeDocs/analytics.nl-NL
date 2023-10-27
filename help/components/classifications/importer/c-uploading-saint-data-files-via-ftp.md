@@ -3,7 +3,7 @@ description: Gegevensbestanden uploaden via FTP.
 title: FTP-import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 >
 >FTP wordt niet aanbevolen omdat het een niet-gecodeerde methode is voor het delen van bestanden, wat betekent dat iedereen de bestandsinhoud en de gebruikersnaam en het wachtwoord voor de account kan onderscheppen.
 >
->In plaats daarvan configureert u een cloudaccount zoals beschreven in [Cloudimportlocaties configureren](/help/components/locations/configure-import-accounts.md).
+>In plaats daarvan configureert u een cloudaccount zoals beschreven in [Cloud-importaccounts configureren](/help/components/locations/configure-import-accounts.md).
 
 Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 
@@ -36,7 +36,7 @@ De volgende aanbevolen limieten zijn belangrijk.
 
 De eerste setup vult de classificatiedatabase met een grote set oorspronkelijke gegevens, of herstructureert de classificaties in plaats van een paar rijen opnieuw te classificeren of rijen toe te voegen.
 
-Na een eerste upload in een rapportsuite (voor een bepaalde variabele of rapport), raadt Adobe aan alleen nieuwe en bijgewerkte rijen te uploaden in volgende importbewerkingen. Rijen die niet worden gewijzigd, moeten worden weggelaten uit toekomstige uploads.
+Na een eerste upload in een rapportsuite (voor een bepaalde variabele of een bepaald rapport) raadt Adobe aan alleen nieuwe en bijgewerkte rijen te uploaden in volgende importbewerkingen. Rijen die niet worden gewijzigd, moeten worden weggelaten uit toekomstige uploads.
 
 Elke nieuwe sleutelwaarde die u uploadt, telt mee voor uw unieke waarden voor die variabele voor de maand.
 
@@ -44,13 +44,13 @@ Als u uw uniques voor de maand hebt overschreden, zult u de overeenkomstige clas
 
 >[!NOTE]
 >
->De tijd die nodig is om een bestand met classificatiegegevens te verwerken, is afhankelijk van de grootte van het bestand en het huidige aantal bestanden dat al wordt verwerkt door Adobe. De verwerking van gegevensbestanden duurt gewoonlijk niet langer dan 72 uur.
+>De tijd die nodig is om een bestand met classificatiegegevens te verwerken, is afhankelijk van de grootte van het bestand en het huidige aantal bestanden dat al door de servers van de Adobe wordt verwerkt. De verwerking van gegevensbestanden duurt gewoonlijk niet langer dan 72 uur.
 
 ## Een FTP-account maken
 
 Maak een FTP-account voordat u gegevens uploadt via FTP. >
 
-Zie [FTP en sFTP](/help/export/ftp-and-sftp/ftp-overview.md) voor meer informatie over Adobe FTP-servers.
+Zie [FTP en sFTP](/help/export/ftp-and-sftp/ftp-overview.md) voor meer informatie over FTP-servers van de Adobe.
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klikken **[!UICONTROL Import File]** en klik vervolgens op **[!UICONTROL FTP Import]**.
@@ -88,8 +88,8 @@ Classificaties importeren via FTP:
 1. Het gegevensbestand uploaden ( `.tab` of `.txt`) naar de FTP-server.
 1. Na het uploaden van het gegevensbestand, upload een FIN dossier dat erop wijst het dossier klaar is te verwerken.
 
-   Het FIN-bestand is een leeg bestand met dezelfde naam als het gegevensbestand, met een `.fin` bestandsnaamextensie. Als het gegevensbestand bijvoorbeeld `classdata1.tab`, de FIN-bestandsnaam is `classdata1.fin`.
+   Het FIN-bestand is een leeg bestand met dezelfde naam als het gegevensbestand, met een `.fin` extensie van bestandsnaam. Als het gegevensbestand bijvoorbeeld `classdata1.tab`, de FIN-bestandsnaam is `classdata1.fin`.
 
-Met regelmatige intervallen haalt Adobe geüploade gegevensbestanden op waaraan een FIN-bestand is gekoppeld. Adobe importeert ze in de rapportsuite en gegevenssets die zijn opgegeven in de FTP-accountconfiguratie.
+Met regelmatige tussenpozen haalt Adobe geüploade gegevensbestanden op waaraan een FIN-bestand is gekoppeld. De Adobe voert hen in de rapportreeksen en gegevensreeksen in die in de de rekeningsconfiguratie van FTP worden gespecificeerd.
 
 Nadat Adobe Analytics bestanden heeft gelezen en verwerkt die in de FTP-map zijn geüpload, worden de bestanden automatisch van de FTP-site verwijderd.
