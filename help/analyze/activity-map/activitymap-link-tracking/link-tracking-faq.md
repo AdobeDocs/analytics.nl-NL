@@ -5,7 +5,7 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: a0b8f61c3728c5867640ce20768614c8d79ca657
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Hier zijn enkele bekende gevallen waarin PII-gegevens kunnen worden verzameld me
 
 * `Mailto` koppelingen. Een mailto-koppeling is een type HTML-koppeling waarmee de standaardmailclient op de computer wordt geactiveerd voor het verzenden van een e-mail.
 * `User ID` koppelingen die worden weergegeven in de kop- of voettekst van een website nadat de gebruiker zich heeft aangemeld.
-* Voor financiële instellingen kan het rekeningnummer als link worden weergegeven. Als u erop klikt, wordt de tekst van de koppeling verzameld.
+* Voor financiële instellingen kan het rekeningnummer als een link worden weergegeven. Als u erop klikt, wordt de tekst van de koppeling verzameld.
 * Op websites voor gezondheidszorg kunnen ook PII-gegevens als koppelingen worden weergegeven. Als u op deze koppelingen klikt, wordt de tekst van de koppeling verzameld en worden er dus PII-gegevens verzameld.
 
 ## Wanneer vindt het bijhouden van koppelingen plaats?
@@ -33,7 +33,7 @@ Koppeling naar Activity Map en regio-identificatie treedt op wanneer gebruikers 
 
 ## Wat wordt standaard bijgehouden?
 
-Als een klikgebeurtenis op een element voorkomt, moet het element sommige controles overgaan om te bepalen als AppMeasurement het als verbinding zal behandelen. Dit zijn de controles:
+Als een klikgebeurtenis op een element voorkomt, moet het element sommige controles overgaan om te bepalen als het AppMeasurement het als verbinding zal behandelen. Dit zijn de controles:
 
 * Is dit `A` of `AREA` tag met een `href` eigenschap?
 * Is er een `onclick` kenmerk dat een `s_objectID` variabele?
@@ -49,7 +49,7 @@ Als het antwoord op om het even welke bovenstaande vragen ja is, dan wordt het e
 
 >[!IMPORTANT]
 >
->Een ankertag met een &quot;href&quot; die begint met &quot;#&quot; wordt door AppMeasurement beschouwd als een interne doellocatie, niet als een koppeling (omdat u de pagina niet verlaat). Deze interne doellocaties worden standaard niet bijgehouden door Activity Map. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert.
+>Een ankertag met een &quot;href&quot; die begint met &quot;#&quot; wordt per AppMeasurement beschouwd als een interne doellocatie, niet als een koppeling (omdat u de pagina niet verlaat). Standaard houdt Activity Map deze interne doellocaties niet bij. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert.
 
 ## Hoe houdt Activity Map andere visuele HTML-elementen bij?
 
@@ -81,7 +81,7 @@ b. Via de `s_objectID` variabele. Voorbeeld:
 ### Voorbeeld 1
 
 ```
-  <a hef="/home>Home</a>
+  <a href="/home>Home</a>
 ```
 
 ### Voorbeeld 2
@@ -116,10 +116,10 @@ b. Via de `s_objectID` variabele. Voorbeeld:
 
 ## Kunt u mij enkele voorbeelden geven van koppelingen die NIET worden bijgehouden?
 
-1. Reden: Ankertag heeft geen geldige `href`:
+1. Reden: ankertag heeft geen geldige waarde `href`:
    `<a name="innerAnchor">Section header</a>`
 
-1. Reden: Geen `s_ObjectID` noch `s.tl()` aanwezig:
+1. Reden: Geen van beide `s_ObjectID` noch `s.tl()` aanwezig:
 
    ```
    <p onclick="showPanel('market rates')">
@@ -128,7 +128,7 @@ b. Via de `s_objectID` variabele. Voorbeeld:
    </p>
    ```
 
-1. Reden: Geen `s_ObjectID` noch `s.tl()` aanwezig:
+1. Reden: Geen van beide `s_ObjectID` noch `s.tl()` aanwezig:
 
    ``` 
    <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
@@ -137,7 +137,7 @@ b. Via de `s_objectID` variabele. Voorbeeld:
    
    ```  
    
-1. Reden: In de eigenschap &quot;src&quot; ontbreekt een formulierinvoerelement:
+1. Reden: er ontbreekt een formulierinvoerelement in de eigenschap &quot;src&quot;:
 
    `<input type="image"/>`
 
