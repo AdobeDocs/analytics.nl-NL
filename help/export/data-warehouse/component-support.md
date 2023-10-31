@@ -3,10 +3,10 @@ title: Componentondersteuning in Data Warehouse
 description: Leer welke extra afmetingen en metriek in Data Warehouse beschikbaar zijn en wat niet wordt gesteund.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 4%
+source-wordcount: '402'
+ht-degree: 3%
 
 ---
 
@@ -40,17 +40,7 @@ Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
 
 ### Dimensionen worden niet ondersteund
 
-* Sommige op tijd gebaseerde afmetingen, zoals:
-   * AM/PM
-   * Dag van Maand
-   * Weekdag
-   * Dag van het Jaar
-   * Uur van de dag
-   * Minute
-   * Maand van jaar
-   * Kwartaal van jaar
-   * Weekdag/Weekend
-   * Jaar
+* AM/PM
 * Sommige op paden gebaseerde afmetingen, waaronder:
    * Alle invoerafmetingen, met uitzondering van invoerpagina
    * Alle afmetingen bij afsluiten, behalve Pagina afsluiten en Koppeling afsluiten
@@ -59,7 +49,6 @@ Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
    * Tijd voorafgaand aan gebeurtenis
    * Tijd besteed op pagina - Emmerd
    * Tijd besteed per bezoek - Emmerd
-   * Diepte bezoeken
 * Alle zoekpaginanummers
 * Hiërarchievariabelen
 * Type hit
@@ -78,4 +67,16 @@ Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
    * Opnieuw geladen
    * Eenmalige toegang
    * Metrische waarden voor &#39;tijd besteed&#39;
+* Deelnemings-metriek (zoals beschreven in [Een &quot;Deelname&quot;-metrisch maken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
+### Dimensionen die op een andere manier worden ondersteund
+
+De volgende op tijd gebaseerde afmetingen worden ondersteund. De uitvoer van datums is echter niet standaard wanneer deze afmetingen worden gebruikt. Het jaar wordt met name gecompenseerd door 1900 en de maanden zijn op nul gebaseerd.
+
+* Jaar
+* Kwart
+* Maand
+* Week
+* Dag
+* Uur
+* Minute

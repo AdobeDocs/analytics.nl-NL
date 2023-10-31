@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '5096'
-ht-degree: 25%
+source-wordcount: '5227'
+ht-degree: 24%
 
 ---
 
@@ -27,6 +27,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | --- | --- |
 | **Oktober 2023** | |
 | Toegevoegde logboekinformatie aan de Manager van de Activiteit van de Rapportering | Informatie toegevoegd die [annuleringen en latere beperkingen van de rapportageactiviteiten](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) in de Manager van de Activiteit van de Rapportering wordt gevangen in [Logboeken](/help/admin/admin/logs.md). |
+| Updates voor ondersteuning van Data Warehouse-componenten | Toegevoegde beschikbaarheid voor sommige componenten en verwijderde beschikbaarheid voor anderen voor Data Warehouse. Deze wijzigingen worden weerspiegeld in [Componentondersteuning in Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>Toegevoegde ondersteuning voor de dimensie Diepte van bezoek (visumdiepte is verwijderd uit de lijst met dimensies die niet worden ondersteund)</li><li>Ondersteuning voor participatiemetriek is verwijderd (deelname aan de lijst met metriek wordt niet ondersteund)</li><li>Toegevoegde ondersteuning voor de volgende op tijd gebaseerde afmetingen: Jaar, Kwart, Maand, Week, Dag, Uur en Minuut (deze afmetingen zijn verwijderd uit de lijst met afmetingen die niet worden ondersteund) <p>Eerder, steunde de Data Warehouse deze dimensies slechts in de eerste kolom van een lijst Freeform toen Korreligheid werd geselecteerd. Deze afmetingen worden nu altijd ondersteund.</p><p>De uitvoer van datums is echter niet standaard wanneer deze afmetingen worden gebruikt. Het jaar wordt met 1900 gecompenseerd en de maanden zijn op nul gebaseerd.</li></ul> |
 | **September 2023** | |
 | Bijgewerkte structuur van artikelen voor het deelvenster Afspeeltijd van media | De map met de naam Media Playback Time Spent is verwijderd en de inhoud van de map is in één artikel gecombineerd: [Media afspelen tijd besteed, deelvenster](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Deze wijziging komt meer overeen met de documentatie voor andere deelvensters.</p> |
 | Aan de slag met inhoudverbeteringen | Toegevoegde informatie waarin belangrijke aan de slag zijnde taken en bronnen voor beheerders, analisten, eindgebruikers en ontwikkelaars worden beschreven. De volgende nieuwe artikelen zijn nu beschikbaar: <ul><li>[Aan de slag (op rol)](/help/analyze/get-started/get-started-by-role.md)</li><li>[De interface Analytics begrijpen](/help/analyze/get-started/analytics-interface.md)<li>[Gebruik hoofdletters](/help/analyze/get-started/use-cases.md)</li></ul> |
