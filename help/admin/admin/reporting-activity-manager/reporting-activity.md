@@ -4,9 +4,9 @@ title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1892'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. De gebruiksinformatie van de mening over elke rapportreeks. U kunt een kolomkop selecteren om de tabel op die kolom te sorteren.
+1. De gebruiksinformatie van de mening over elke rapportreeks. De gegevens die in de lijst worden getoond vertegenwoordigen de rapporteringsactiviteit voor de rapportreeks op het tijdstip dat de pagina het laatst werd geladen.
 
    De volgende kolommen zijn beschikbaar:
 
@@ -46,7 +46,7 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
    | **[!UICONTROL Capacity utilization]** | Het percentage van de rapporteringscapaciteit van de rapportreeks die, in echt - tijd wordt gebruikt. <p>**Opmerking** Een gebruikscapaciteit die 100% is, suggereert niet noodzakelijk dat u onmiddellijk begint rapporteringsverzoeken te annuleren. De gebruikscapaciteit van 100% kan gezond zijn als de gemiddelde wachttijd redelijk is. Anderzijds zou 100% van de gebruikscapaciteit een probleem kunnen suggereren als het aantal verzoeken in de wachtrij ook toeneemt.</p> |
    | **[!UICONTROL Queued requests]** | Het aantal verzoeken dat moet worden verwerkt. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | De gemiddelde wachttijd alvorens de verzoeken beginnen te verwerken. <!-- ???? --> |
-   | **[!UICONTROL Status]** | De mogelijke statussen zijn: <ul><li>[!UICONTROL **Actief**] (blauw): de rapporten zijn in werking gesteld op de rapportreeks en het wordt gecontroleerd op activiteit.</li><li>[!UICONTROL **Inactief**] (grijs): er zijn nooit rapporten uitgevoerd over de rapportsuite. Deze status wordt alleen weergegeven wanneer de rapportsuites voor het eerst worden gemaakt.</li></ul> |
+   | **[!UICONTROL Status]** | De mogelijke statussen zijn: <ul><li>[!UICONTROL **Actief**] (blauw): in de afgelopen twee uur zijn rapporten uitgevoerd over de rapportsuite. De gegevens die in de tabel worden weergegeven, vertegenwoordigen de rapportcapaciteit voor de rapportsuite op het moment dat de pagina voor het laatst werd geladen.</li><li>[!UICONTROL **Inactief**] (grijs): er zijn geen rapporten uitgevoerd over de rapportsuite in de afgelopen 2 uur, zodat er geen gegevens worden weergegeven voor de rapportsuite.</li></ul> |
 
    {style="table-layout:auto"}
 
