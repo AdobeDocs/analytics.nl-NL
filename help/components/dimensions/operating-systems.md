@@ -3,9 +3,9 @@ title: Besturingssysteem
 description: Het besturingssysteem van de bezoeker.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 24972ec79cb42224a97dda6b073b517b301113ba
+source-git-commit: 9c3e65392d6e5929ce1ecefbc460c1fd5576aed8
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,8 @@ Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaa
 
 ## Dimension-items
 
-Dimension-items omvatten besturingssystemen die bezoekers gebruiken. Voorbeelden zijn `"Windows 10"`, `"OS X 10.15"`, en `"Android 9"`.
+Dimension-items omvatten besturingssystemen die bezoekers gebruiken. Voorbeelden zijn `"Windows 10"`, `"OS X 10.15.7"`, en `"Android 9"`.
 
-## Wijzigingen in etikettering en definitie
+## Nauwkeurige versies van besturingssystemen bijhouden
 
-Hieronder volgt een lijst met specifieke problemen met de manier waarop het besturingssysteem is vertegenwoordigd in de gebruikersagent en in Adobe Analytics-rapportage.
-
-### Overschakelen op granulariteit van besturingssysteem
-
-Op 2 maart 2023 hebben we onze rapportage bijgewerkt om meer details in het besturingssysteem op te nemen. Na deze datum nemen we de patchversie van het besturingssysteem op. Een gebruiker met OS X 10.15.7 zou bijvoorbeeld vóór 2 maart zijn weergegeven als &quot;OS X 10.15&quot;. Na 2 maart worden deze weergegeven als &quot;OS X 10.15.7&quot;.
-
-### Wijzigen in naamgevingsconventie voor Apple-besturingssysteem:
-
-Vanaf versie 11 gebruiken we MacOS in plaats van OS X om naar het Apple-besturingssysteem te verwijzen.
-
-Voorbeelden:
-
-* &quot;OS X 10.15&quot; (zie opmerking hieronder over versie 10.15.7 over representatie in UA-tekenreeksen).
-* &quot;MacOS 11.0.0
-
-### Mac OS-versie is onjuist in de gebruikersagent na versie 10.15.7 
-
-De gebruikersagent op Apple-computers geeft de versie van het besturingssysteem weer als 10.15.7, zelfs voor nieuwere versies. Dit is gebeurd omdat het opnemen van versie 11 in de UA blijkbaar problemen heeft veroorzaakt met sommige websites. Dit geldt voor *alle browsers* en heeft geen betrekking op het &#39;bevriezen&#39; van de gebruikersagent in Chromium-browsers door de Google.
-
-Clienthints bevatten de juiste versie in de hint van de platformversie (&quot;Sec-CH-UA-Platform-Version&quot;). Dit is een hoge entropiehint, zodat deze niet automatisch door Adobe wordt verzameld. Zie de [Veelgestelde vragen over Adobe Analytics Hints](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) voor meer informatie over het verzamelen van hoge entropiehints.
-
-### De versie van Windows is onjuist in de gebruikersagent die begint met Windows 11
-
-Vanaf januari 2023 wordt in alle browsers Windows 11 weergegeven als Windows 10.
-
-Clienthints bevatten de juiste versie in de hint van de platformversie (&quot;Sec-CH-UA-Platform-Version&quot;). Dit is een hoge entropiehint, zodat deze niet automatisch door Adobe wordt verzameld. Zie de [Veelgestelde vragen over Adobe Analytics Hints](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) voor meer informatie over het verzamelen van hoge entropiehints.
+Naarmate de branche zich ontwikkelt in de richting van de tips van de klant, kunnen sommige versies van besturingssystemen worden verward. Bijvoorbeeld, &quot;Vensters 10&quot;en &quot;Vensters 11&quot;kunnen allebei onder &quot;Vensters 10&quot;worden gegroepeerd als u geen high-entropy cliëntwenken verzamelt. Zie [Clienttips](/help/technotes/client-hints.md) in de TechNotes-handleiding voor meer informatie.
