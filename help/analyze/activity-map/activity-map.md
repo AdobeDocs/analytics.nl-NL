@@ -4,16 +4,16 @@ title: Wat is Activity Map?
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 2d207c76ad40522adec10cde5044b43acbb7f711
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '575'
 ht-degree: 12%
 
 ---
 
 # Overzicht van Activity Map
 
-Adobe Analytics Activity Map is een functie in Adobe Analytics die een visuele weergave biedt van de betrokkenheid van gebruikers bij webpagina&#39;s en mobiele apps. Hiermee kunnen marketers en analisten gebruikersinteracties zoals klikken, aanwijzen en schuiven volgen en analyseren. Activity Map genereert hittekaarten en overlayrapporten die de populariteit en effectiviteit van verschillende elementen op een webpagina illustreren, zodat organisaties hun digitale ervaringen kunnen optimaliseren en hogere conversies kunnen aansturen.
+Adobe Analytics Activity Map is een functie in Adobe Analytics die een visuele weergave biedt van de betrokkenheid van gebruikers bij webpagina&#39;s en mobiele apps. Hiermee kunnen marketers en analisten gebruikersinteracties zoals klikken, aanwijzen en schuiven volgen en analyseren. Activity Map genereert warmtekaarten en overlayrapporten die de populariteit en doeltreffendheid van verschillende elementen op een webpagina illustreren, zodat organisaties hun digitale ervaringen kunnen optimaliseren en hogere omzettingen kunnen stimuleren.
 
 ## Functies en voordelen
 
@@ -35,16 +35,11 @@ Adobe Analytics Activity Map is een functie in Adobe Analytics die een visuele w
 
 * Optimalisatie van mobiele toepassingen: de Adobe Analytics-Activity Map is niet beperkt tot websites, maar breidt ook de functionaliteit ervan uit tot mobiele toepassingen. Bedrijven kunnen inzicht krijgen in gebruikersinteracties binnen apps, waardoor ze de bruikbaarheid kunnen verbeteren, de navigatie kunnen verbeteren en functies voor een naadloze mobiele ervaring kunnen verfijnen.
 
-## Aan de slag voor beheerders
+## Aan de slag
 
-* [Activity Map inschakelen](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-* [Code voor voorbeeldimplementatie](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-* Activity Map inschakelen met Web SDK
-
-## Aan de slag voor gebruikers
-
-* [Browserplug-ins voor Activity Map installeren](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-* [Activity Map starten](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+* [Activity Map activeren en inschakelen](activitymap-getting-started/activitymap-enable.md)
+* [Browserplug-ins voor Activity Map installeren](activitymap-getting-started/activitymap-install.md)
+* [Activity Map starten](activitymap-getting-started/activitymap-launch.md)
 
 ## Activity Mappen
 

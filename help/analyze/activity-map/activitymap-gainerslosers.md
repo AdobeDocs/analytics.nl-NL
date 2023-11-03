@@ -1,11 +1,10 @@
 ---
 description: Met bedekkingen kunt u op meerdere manieren gegevensvisualisatie configureren, zodat u de populariteit van koppelingen op een pagina gemakkelijk kunt zien en begrijpen.
 title: Aanpasbare overlays
-uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +23,7 @@ Activity Map biedt drie typen overlays:
 * Bubble Overlay
 * Bedekking voor tussenruimten en Losers
 
-U kunt ook configureren [bedekking renderen voor dynamische inhoud](/help/analyze/activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md).
+U kunt ook [bedekking renderen voor dynamische inhoud](/help/analyze/activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md).
 
 Als u overlays wilt wijzigen, opent u het dialoogvenster [Deelvenster Overlay-instellingen](/help/analyze/activity-map/activitymap-overlay-settings.md) en bewerk de beschikbare opties.
 
@@ -34,7 +33,7 @@ Als u de bedekking boven een bedekking plaatst, wordt de bijbehorende [details](
 
 Met de verloopbedekking is de kleurintensiteit gebaseerd op de populariteit van de koppeling. Deze intensiteit kan worden genormaliseerd voor de bovenste 30 waarderingen, of een functie van de absolute metrische waarde.
 
-Deze meetgegevens worden boven op de pagina-koppelingen geplaatst als een soort &#39;warmtekaart&#39; voor het beantwoorden van kritieke vragen, zoals:
+Deze meetgegevens worden boven op de pagina-koppelingen geplaatst als een soort &#39;warmtekaart&#39; voor het beantwoorden van kritieke vragen, waaronder de volgende:
 
 * Wat is de waarde van een afzonderlijke pagina?
 * Wat is de waarde van een afzonderlijk element op een pagina?

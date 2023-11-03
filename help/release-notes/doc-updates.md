@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
 source-wordcount: '5227'
 ht-degree: 24%
@@ -68,7 +68,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Projectsegmenten (ad-hocsegmenten en snelle segmenten) | Gestroomlijnde documentatie over projectsegmenten en verwijderde gedupliceerde informatie. De stappen voor het maken van ad-hocsegmenten worden nu gecombineerd met de stappen voor [snelsegmenten maken](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Dynamische zoekopdrachten | Aanvullende informatie rond [Dynamische zoekopdrachten](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) wordt toegevoegd. Voorheen bestond informatie alleen voor mobiele kenmerken, een van de vele dynamische zoekopdrachten. |
 | **maart 2023** | |
-| Web SDK steun voor Activity Map | Bijgewerkt [Adobe Analytics implementeren](/help/implement/home.md) en [Activity Map inschakelen](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
+| Web SDK steun voor Activity Map | Bijgewerkt [Adobe Analytics implementeren](/help/implement/home.md) en [Activity Map inschakelen](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md). |
 | Overzicht van verkeersvariabelen (props) | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. De samengevoegde inhoud van een artikel getiteld, &quot;laat de rapporten van de verkeersvariabele&quot;toe en verwijderde dat artikel. Zie [Overzicht van verkeersvariabelen (props)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Interne URL-filters | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. Zie [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Gegevensartikelen maken in mobiele scorecards | A [gegevensartikel](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) is een inzameling van het steunen van gegevenspunten, bedrijfscontext, en verwante metriek die rond een centraal thema of metrisch worden gebouwd. |

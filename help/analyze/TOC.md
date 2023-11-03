@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
+source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1094'
 ht-degree: 78%
 
 ---
@@ -280,12 +280,9 @@ ht-degree: 78%
 + Activity Map {#activity-map}
    + [Overzicht van Activity Map](activity-map/activity-map.md)
    + Aan de slag {#getting-started}
-      + Aan de slag voor beheerders {#get-started-admins}
-         + [Activity Map inschakelen](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Activity Map implementeren](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + Aan de slag voor gebruikers {#get-started-users}
-         + [Browserplug-ins voor Activity Map installeren](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Activity Map starten](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+      + [Activity Map inschakelen](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Browserplug-ins voor Activity Map installeren](activity-map/activitymap-getting-started/activitymap-install.md)
+      + [Activity Map starten](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [Robuuste link tracking](activity-map/lnk-tracking-overview.md)
    + Link tracking {#link-tracking}
       + [Methode voor link tracking](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
