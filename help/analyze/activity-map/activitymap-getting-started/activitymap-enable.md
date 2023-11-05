@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: bb9ba0400116aff3aea5307c48c6ac560603995e
+source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '407'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,9 @@ Navigeer in Adobe Experience Platform-tags naar de eigenschap waarvoor u Analyti
 
 +++AppMeasurement
 
-Download de nieuwste JavaScript-bibliotheek, afhankelijk van het feit of u AppMeasurement of Web SDK gebruikt.
-Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** en [uitvoeren](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
+1. Download de nieuwste JavaScript-bibliotheek voor AppMeasurement.
+Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
+1. Implementeren door het volgende uit te voeren [deze instructies](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
 
 +++
 

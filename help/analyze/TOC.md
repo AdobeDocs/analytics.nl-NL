@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 78%
+source-wordcount: '1096'
+ht-degree: 77%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 78%
 + Activity Map {#activity-map}
    + [Overzicht van Activity Map](activity-map/activity-map.md)
    + Aan de slag {#getting-started}
-      + [Activity Map inschakelen](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Activity Map activeren en inschakelen](activity-map/activitymap-getting-started/activitymap-enable.md)
       + [Browserplug-ins voor Activity Map installeren](activity-map/activitymap-getting-started/activitymap-install.md)
       + [Activity Map starten](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [Robuuste link tracking](activity-map/lnk-tracking-overview.md)
