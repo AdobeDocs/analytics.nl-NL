@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
+source-git-commit: ab1a7736d59d082c7fabc01ffed43215b0e11339
 workflow-type: tm+mt
-source-wordcount: '5227'
+source-wordcount: '5257'
 ht-degree: 24%
 
 ---
@@ -25,6 +25,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **November 2023** | |
+| Updates voor het onderwerp Activity Map-activering | Toegevoegd [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (zowel handmatig als via Adobe Experience Platform-tagextensie) inhoud. |
 | **Oktober 2023** | |
 | Toegevoegde logboekinformatie aan de Manager van de Activiteit van de Rapportering | Informatie toegevoegd die [annuleringen en latere beperkingen van de rapportageactiviteiten](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) in de Manager van de Activiteit van de Rapportering wordt gevangen in [Logboeken](/help/admin/admin/logs.md). |
 | Updates voor ondersteuning van Data Warehouse-componenten | Toegevoegde beschikbaarheid voor sommige componenten en verwijderde beschikbaarheid voor anderen voor Data Warehouse. Deze wijzigingen worden weerspiegeld in [Componentondersteuning in Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>Toegevoegde ondersteuning voor de dimensie Diepte van bezoek (visumdiepte is verwijderd uit de lijst met dimensies die niet worden ondersteund)</li><li>Ondersteuning voor participatiemetriek is verwijderd (deelname aan de lijst met metriek wordt niet ondersteund)</li><li>Toegevoegde ondersteuning voor de volgende op tijd gebaseerde afmetingen: Jaar, Kwart, Maand, Week, Dag, Uur en Minuut (deze afmetingen zijn verwijderd uit de lijst met afmetingen die niet worden ondersteund) <p>Eerder, steunde de Data Warehouse deze dimensies slechts in de eerste kolom van een lijst Freeform toen Korreligheid werd geselecteerd. Deze afmetingen worden nu altijd ondersteund.</p><p>De uitvoer van datums is echter niet standaard wanneer deze afmetingen worden gebruikt. Het jaar wordt met 1900 gecompenseerd en de maanden zijn op nul gebaseerd.</li></ul> |
