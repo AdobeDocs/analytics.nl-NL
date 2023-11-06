@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
+source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Verklaart de stappen de Admin van Analytics moet voltooien om de inzameling van 
 
 De module van de Activity Map maakt deel uit van AppMeasurement.js, de markeringen van Adobe Experience Platform, en het Web SDK (alloy.js). Gegevens over Activity Mappen kunnen alleen worden verzameld als u de update naar **Web SDK versie 2.15.0** of hoger, **Adobe Analytics-tagextensie v1.90** of hoger, **AppMeasurement versie 1.6** of hoger.
 
-+++Web SDK (extensie Tags)
++++Web SDK (Adobe Experience Platform-tagextensie)
 
 Navigeer in Adobe Experience Platform-tags naar de eigenschap waarvoor u Analytics implementeert. Onder [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], selecteert u **[!UICONTROL Enable click data collection]** zoals hieronder gemarkeerd. Vervolgens maakt u de bibliotheek met de wijzigingen en publiceert u de bibliotheek naar de productie.
 
@@ -57,7 +57,7 @@ Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All 
 
 ## Stap 2. Rapporten Activity Map inschakelen {#enable}
 
-Eerst, moet u Activity Map rapporten op het rapport-reeks niveau toelaten.
+U moet de rapporten van de Activity Map op rapport-reeks niveau toelaten.
 
 1. Meld u aan bij Adobe Analytics en ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
 
