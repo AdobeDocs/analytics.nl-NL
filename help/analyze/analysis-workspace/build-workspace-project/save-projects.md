@@ -4,7 +4,7 @@ title: Projecten opslaan
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
+source-git-commit: a6f49d0c66ff92eff850a330c35e4979275e3c92
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -27,10 +27,10 @@ Een project handmatig opslaan:
 
    | Handeling | Beschrijving |
    |---|---| 
-   | **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) tags toe te voegen. |
+   | **[!UICONTROL Save]** | Wijzigingen in uw project opslaan. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) tags toe te voegen. |
    | **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar aan alle redacteurs onder [!UICONTROL Project] > [!UICONTROL Open previous version]. |
    | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
-   | **[!UICONTROL Save as template]** | Uw project opslaan als een [aangepaste sjabloon](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar komt voor uw organisatie onder **[!UICONTROL Project > New]** |
+   | **[!UICONTROL Save as company report]** | Uw project opslaan als een [bedrijfsrapport](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar komt voor uw organisatie onder **[!UICONTROL Project > New]** |
 
 ## Automatisch opslaan {#Autosave}
 
@@ -38,9 +38,9 @@ Alle projecten in Analysis Workspace worden automatisch elke 2 minuten opgeslage
 
 * **Nieuwe projecten:** Hoewel nieuwe projecten automatisch worden opgeslagen, moet u elk nieuw project de eerste keer handmatig opslaan. Analysis Workspace vraagt u om nieuwe projecten handmatig op te slaan wanneer u overschakelt naar een ander project, het browsertabblad sluit enzovoort.
 
-   Als u om het even welke reden onverwachts toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, wordt een terugwinningsversie van uw project bewaard op de Analysis Workspace landende pagina in een omslag genoemd `Recovered Projects (Last 7 Days)`. U moet het herstelde project herstellen en het handmatig op de gewenste locatie opslaan.
+  Als u om het even welke reden onverwachts toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, wordt een terugwinningsversie van uw project bewaard op de Analysis Workspace landende pagina in een omslag genoemd `Recovered Projects (Last 7 Days)`. U moet het herstelde project herstellen en het handmatig op de gewenste locatie opslaan.
 
-   Een hersteld project herstellen:
+  Een hersteld project herstellen:
 
    1. Ga naar de [!UICONTROL **Herstelde projecten**] op de bestemmingspagina van Analysis Workspace.
 
@@ -50,7 +50,7 @@ Alle projecten in Analysis Workspace worden automatisch elke 2 minuten opgeslage
 
 * **Bestaande projecten:** Als u om het even welke reden een project met veranderingen verlaat die nog niet auto-bewaarde zijn, of Analysis Workspace vraagt u om uw veranderingen te bewaren of een waarschuwingsbericht verstrekt.
 
-   Hier volgen enkele veelvoorkomende scenario&#39;s:
+  Hier volgen enkele veelvoorkomende scenario&#39;s:
 
 ### Een ander project openen
 
@@ -93,6 +93,6 @@ Een vorige versie van een project openen:
    ![](assets/previous-versions.png)
 
 1. Controleer de lijst met eerdere beschikbare versies.
-   [!UICONTROL Timestamp] en [!UICONTROL Editor] worden weergegeven naast [!UICONTROL Notes] als deze bij de [!UICONTROL Editor] opgeslagen. Versies zonder aantekeningen worden gedurende 90 dagen opgeslagen; versies met notities worden gedurende 1 jaar opgeslagen .
+   [!UICONTROL Timestamp] en [!UICONTROL Editor] worden weergegeven, naast [!UICONTROL Notes] als deze bij de [!UICONTROL Editor] opgeslagen. Versies zonder notities worden gedurende 90 dagen opgeslagen; versies met notities worden gedurende 1 jaar opgeslagen.
 1. Selecteer een vorige versie en klik op **[!UICONTROL Load]**.
 De vorige versie wordt vervolgens geladen met een melding. De vorige versie wordt pas de huidige opgeslagen versie van het project als u op **[!UICONTROL Save]**. Als u bij de geladen versie vandaan navigeert, ziet u bij het retourneren de laatst opgeslagen versie van het project.
