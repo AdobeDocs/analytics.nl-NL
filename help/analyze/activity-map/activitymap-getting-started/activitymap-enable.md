@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '590'
 ht-degree: 1%
 
 ---
@@ -23,19 +23,52 @@ De module van de Activity Map maakt deel uit van AppMeasurement.js, de markering
 
 +++Web SDK (Adobe Experience Platform-tagextensie)
 
-Navigeer in Adobe Experience Platform-tags naar de eigenschap waarvoor u Analytics implementeert. Onder [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], selecteert u **[!UICONTROL Enable click data collection]** zoals hieronder gemarkeerd. Vervolgens maakt u de bibliotheek met de wijzigingen en publiceert u de bibliotheek naar de productie.
+1. Navigeer in Adobe Experience Platform-tags naar de eigenschap waarvoor u Analytics implementeert. Onder [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], selecteert u **[!UICONTROL Enable click data collection]** zoals hieronder gemarkeerd.
+1. Maak de bibliotheek met de wijzigingen.
+1. Publiceer de bibliotheek naar productie.
 
 ![](assets/web_sdk.png)
+
+**Validatie**
+
+Interactie vraag gebruikend het Lusje van het Netwerk van de Console van de Ontwikkelaar:
+
+1. Laad het manuscript van de Lancering van de Ontwikkeling op de plaats.
+1. Bij klikken op elementen zoekt u naar &#39;/ee&#39; op het tabblad Netwerk
+
+   ![](assets/validation1.png)
+
+Adobe Experience Platform Debugger:
+
+1. Download en installeer de [Adobe Experience Platform debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. Ga naar [!UICONTROL Logs] > [!UICONTROL Edge] > [!UICONTROL Connect to Edge].
+
+   ![](assets/validation2.jpg)
+
+**Veelgestelde vragen**
+
+* **De interactieve vraag vuurt niet in het lusje van het Netwerk.**
+De klikgegevensinzameling in een inzamelingsvraag, moeten wij met of &quot;/ee&quot;of &quot;verzamelen?&quot;filtreren
+
+* **Er is geen weergave voor Payload voor de verzamelvraag.**
+De verzamelvraag wordt ontworpen op dusdanige wijze dat het volgen niet navigatie aan andere plaatsen zou moeten beïnvloeden, zodat is de eigenschap van het document unload toepasselijk voor de inzamelingsvraag. Dit heeft geen invloed op uw gegevensverzameling, maar als u op pagina moet valideren, voegt u target = &quot;_blank&quot; toe aan het desbetreffende element. Vervolgens wordt de koppeling geopend op een nieuw tabblad.
+
+* **Hoe negeer ik de inzameling van PII?**
+Voeg de respectievelijke voorwaarden toe in&lt;&lt; op alvorens de verbinding klikt verzendt callback>> en keert vals terug om die waarden te negeren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en)
+
+  Voorbeeldcode:
+
+  ![](assets/sample-code.png)
 
 +++
 
 +++Handmatige Web SDK-implementatie
 
-Zie [Koppelingen bijhouden](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) voor informatie over hoe te om verbinding het volgen uit te voeren en hoe te om Activiteitstoewijzing toe te laten door het vangen van `region` van het aangeklikte HTML-element.
+Zie [Koppelingen bijhouden](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) voor informatie over hoe te om verbinding het volgen uit te voeren en hoe te om Activity Map toe te laten door te vangen `region` van het aangeklikte HTML-element.
 
 >[!NOTE]
 >
->Het toelaten van verbinding het volgen met Web SDK verzendt momenteel verbindingsgebeurtenissen wanneer een klant van één pagina aan volgende navigeert. Dit is anders dan hoe AppMeasurement werkt en kan mogelijk leiden tot extra factureerbare hits die naar de Adobe worden verzonden.
+>Het toelaten van verbinding het volgen met SDK van het Web verzendt momenteel verbindingsgebeurtenissen wanneer een klant van één pagina aan volgende navigeert. Dit is anders dan hoe AppMeasurement werkt en kan mogelijk leiden tot extra factureerbare hits die naar de Adobe worden verzonden.
 
 +++
 
