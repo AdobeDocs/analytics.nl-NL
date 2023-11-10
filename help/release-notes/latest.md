@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
+source-git-commit: dfb3750edabed3fd9aef758d2ea1625fc3fb6a96
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1119'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 23 oktober 2023 tot 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Verbeteringen voor Activity Manager rapporteren** | De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke rapportreeks in uw organisatie zien.  Het biedt beheerders gedetailleerde zichtbaarheid bij het melden van het verbruik om capaciteitsproblemen tijdens piekrapportagetijden eenvoudig te kunnen vaststellen en verhelpen. Hieronder vindt u een aantal verbeteringen die nu beschikbaar zijn in Rapportagentenbeheer: <ul><li>Verdere verzoeken beperken: naast het annuleren van huidige aanvragen kunnen beheerders nu verzoeken voor een bepaalde periode beperken. De beheerders kunnen verzoeken door Verzoek, Project, en Gebruiker beperken.</li><li>Naast de metriek van het Gebruik en van de Capaciteit, omvat de Manager van de Activiteit van de Rapportering nu meer gegevens over het melden van activiteit: de kolom van de Complexiteit, de kolom van de Gebruiker, en de kolom van de Verbinding.</li><li>Alle annuleringen en beperkingen die in de manager van de Activiteit van de Rapportering worden aangebracht zijn nu zichtbaar in het Logboek van de Controle. Beheerders kunnen het auditlogboek gebruiken om te bekijken wat momenteel is geannuleerd. Annuleringen kunnen niet worden teruggedraaid in de Manager van de Activiteit van de Rapportering of in het Logboek van de Controle.</li></ul><p>Zie voor meer informatie [Overzicht van Activity Manager rapporteren](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 17 oktober 2023 | 24 oktober 2023 |
-| **Verbeteringen voor Data Warehouse** | Wanneer het creëren van een verzoek van de Data Warehouse, kunt u een wolkenrekening nu vormen om als rapportbestemming te gebruiken. De volgende typen cloudaccounts zijn beschikbaar voor het verzenden van gegevens:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-mail (deze optie was voorheen beschikbaar)</li></ul>FTP, SFTP, Azure Blob, en S3 zijn nog beschikbaar als rapportbestemmingen, maar worden niet meer geadviseerd.<p>De gebruikerservaring bij het maken en beheren van verzoeken om Data Warehouse is ook verbeterd. Zie voor meer informatie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md) en [Aanvragen voor Data Warehouse beheren](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | 12 september 2023 | Op of vóór 8 november 2023 |
+| **Verbeteringen voor Data Warehouse** | Wanneer het creëren van een verzoek van de Data Warehouse, kunt u een wolkenrekening nu vormen om als rapportbestemming te gebruiken. De volgende typen cloudaccounts zijn beschikbaar voor het verzenden van gegevens:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-mail (deze optie was voorheen beschikbaar)</li></ul>FTP, SFTP, Azure Blob, en S3 zijn nog beschikbaar als rapportbestemmingen, maar worden niet meer geadviseerd.<p>De gebruikerservaring bij het maken en beheren van verzoeken om Data Warehouse is ook verbeterd. Zie voor meer informatie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md) en [Aanvragen voor Data Warehouse beheren](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | 12 september 2023 | TBD |
 
 {style="table-layout:auto"}
 
