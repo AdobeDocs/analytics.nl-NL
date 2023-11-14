@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ Bovendien, nadat u een werkboekprogramma in Report Builder creeert, kunt u het p
 | Aanpassen | Hiermee kunt u de datumnotatie aanpassen. |
 | Naar | Toont uw Boek van het Adres van Vooruitzichten, als toepasselijk. |
 | Verzenden naar: E-mail | De e-mailontvanger van het werkboek. |
-| Verzenden naar: Publicatielijst | Toont een lijst van beschikbare distributielijsten voor dit bedrijf. |
 | Power BI | Zie [Werkboek publiceren naar Microsoft-Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) voor meer informatie . |
 | Onderwerp | Een door de gebruiker gedefinieerde beschrijving. |
 | Planning | Hier kunt u opgeven wanneer het werkboek moet worden verzonden. (Direct, uur, dag, week, maand, en jaarlijks.) |
