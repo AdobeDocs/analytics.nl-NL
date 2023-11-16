@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
+source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1097'
 ht-degree: 77%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 77%
             + [Kolominstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rij-instellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische versus statische items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Tabellen filteren en sorteren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Vrije-vormtabellen filteren en sorteren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Workspace-totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
          + [Wat is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
