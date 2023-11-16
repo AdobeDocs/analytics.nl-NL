@@ -4,10 +4,10 @@ title: Vrije-vormtabellen filteren en sorteren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 2%
+source-wordcount: '915'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ U kunt verschillende methoden gebruiken om rijen vanuit een vrije-vormtabel te f
 - Tabelfilters
 - Segmentatie
 
-Zorg ervoor dat u leest wat de invloed van elke methode is [Tabeltotalen voor vrije vorm](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+Zorg ervoor dat u leest wat de invloed van elke methode is [Tabeltotalen voor vrije vorm](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Snel specifieke rijen uitsluiten van een tabel
 
@@ -89,7 +89,7 @@ Gegevens filteren in Freeform-tabellen:
 
 ### Segmentatie
 
-Zie onze [Segmenteringsdocumentatie](https://docs.adobe.com/help/en/analytics/components/segmentation/seg-home.html) voor meer informatie .
+Zie onze [Segmenteringsdocumentatie](/help/components/segmentation/seg-home.md) voor meer informatie .
 
 ## Tabellen sorteren
 
