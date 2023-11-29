@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '5258'
+source-wordcount: '5254'
 ht-degree: 24%
 
 ---
@@ -202,8 +202,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | **Juni 2020** | |
 | 25 juni 2020 | Nieuwe documentatie voor [Deelvenster Snelle inzichten](/help/analyze/analysis-workspace/c-panels/quickinsight.md) in Workspace. Het biedt niet-analisten en nieuwe gebruikers van Analysis Workspace hulp bij het snel en eenvoudig beantwoorden van zakelijke vragen. |
 | 25 juni 2020 | Nieuwe documentatie voor [Analyses voor venster Doel](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) in Workspace. Hiermee kunt u uw Adobe Target-activiteiten en -ervaringen analyseren, met lippendienst en vertrouwen. |
-| 18 juni 2020 | Nieuwe documentatie over [Attribution IQ: Algorithmic Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| 18 juni 2020 | Nieuwe documentatie over [Attribution IQ: aangepaste terugzoekvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| 18 juni 2020 | Nieuwe documentatie over [Attributie: Algorithmic Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| 18 juni 2020 | Nieuwe documentatie over [Attributie: aangepaste terugzoekvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 18 juni 2020 | Nieuwe documentatie voor [Projectrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) voor gedeelde werkruimteprojecten. Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. |
 | 18 juni 2020 | Nieuwe documentatie over [Werkruimteprojecten &quot;Alleen weergeven&quot;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html). Projecten kunnen aan gebruikers worden gedeeld omdat alleen &quot;Kan bekijken&quot;. Wanneer een ontvanger voor Weergaven het gedeelde project opent, ontvangt hij/zij een beperktere projectervaring zonder linkerrail en met beperkte interactie. |
 | 18 juni 2020 | Nieuwe documentatie over [Projectrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) voor gedeelde werkruimteprojecten. Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. |
@@ -276,4 +276,4 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 1 februari 2019 | Belangrijke update van de implementatieplug-in [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 januari 2019 | [Cohortanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - Met de belangrijkste verbeteringen in Cohort Analysis kunt u:<ul><li>Afzonderlijk een segment insluiten en metrics retourneren. </li><li>De uitval weergeven in plaats van de retentie.</li><li>Latentietabellen tonen (de tijd die is verstreken voor en na een insluitingsgebeurtenis).</li><li>Een cohortdimensie op maat maken (om bezoekers te groeperen op basis van een eVar en niet alleen op tijd).</li><li>Een doorlopende cohortberekening uitvoeren: de retentie of de uitval berekenen op basis van de voorafgaande periode, niet op basis van het oorspronkelijke cohort. </li><li>Meerdere metrics toevoegen aan insluitings- en retourvelden, en segmenten toepassen. (Berekende standaarden worden niet ondersteund)</li></ul> |
 | 17 januari 2019 | [Dichtheid weergeven](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Met deze nieuwe instelling kunt u meer data op één scherm weergeven door de verticale opvulling van de linkerrail, vrije-vormtabellen en cohortabellen te verminderen. Toegankelijk via Project > Projectinfo en instellingen. |
-| 17 januari 2019 | [Ondersteuning voor variabelen met meerdere waarden in Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). Sommige dimensies in Analytics bevatten meerdere waarden voor een enkele &#39;hit&#39;, zoals listVars, de productvariabele, lijstprops of merchandising eVars. In Analysis Workspace kunt u Attribution IQ nu op elk van deze typen variabelen toepassen op hitniveau. |
+| 17 januari 2019 | [Ondersteuning voor variabelen met meerdere waarden in Attribution](/help/analyze/analysis-workspace/attribution/overview.md). Sommige dimensies in Analytics bevatten meerdere waarden voor een enkele &#39;hit&#39;, zoals listVars, de productvariabele, lijstprops of merchandising eVars. In Analysis Workspace kunt u Attribution nu op elk van deze typen variabelen toepassen op hitniveau. |

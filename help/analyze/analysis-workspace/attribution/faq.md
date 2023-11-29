@@ -4,9 +4,9 @@ description: Antwoorden op veelgestelde vragen over attributie.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1212'
 ht-degree: 1%
 
 ---
@@ -108,9 +108,9 @@ Ja, de meeste gegevensbronnen worden ondersteund. Attributie is niet mogelijk me
 
 Transactie-id-gegevensbronnen worden op dezelfde manier behandeld als elke andere hit. De gegevensbronnen van identiteitskaart van de transactie gebruiken niet de speciale verwerking die normaal in traditionele rapportering wordt gebruikt. Met andere woorden, wanneer het gebruiken van de verwerking van de rapporttijd, zullen de treffers van identiteitskaart van de Transactie eVar waarden hebben die van hits worden verspreid die dichtbij de timestamp van de treffer van identiteitskaart van de Transactie voorkomen. De waarden worden niet doorgegeven uit treffers die zijn opgetreden vlak bij de oorspronkelijke transactie.
 
-Waar mogelijk, baseert de attributie IQ zich op de MID kolomwaarde die binnen een gebeurtenis in de gegevensbron wordt verzonden, eerder dan een persisted waarde. Het attributiemodel wordt toegepast op de kolomwaarden MID in de gegevensbron, ter plekke. Wanneer u bijvoorbeeld de kenmerk &quot;Laatste aanraking&quot; gebruikt, begint het model bij elke instantie van een metrische waarde en loopt het achterwaarts in de reeks totdat de laatste waarde in de kolom MID is bereikt.
+Waar mogelijk, baseert de attributie zich op de MID kolomwaarde die binnen een gebeurtenis in de gegevensbron wordt verzonden, eerder dan een persisted waarde. Het attributiemodel wordt toegepast op de kolomwaarden MID in de gegevensbron, ter plekke. Wanneer u bijvoorbeeld de kenmerk &quot;Laatste aanraking&quot; gebruikt, begint het model bij elke instantie van een metrische waarde en loopt het achterwaarts in de reeks totdat de laatste waarde in de kolom MID is bereikt.
 
-Indien niet mogelijk gebruikt attributie-IQ de MID-waarde in de &#39;eerdere record&#39; in de gegevensbron voor evaluatie. Deze eerdere record wordt mogelijk niet opeenvolgend met een tijdstempel geordend, aangezien AA geen ondersteuning biedt voor gegevens buiten de bestelling.
+Wanneer dit niet mogelijk is, wordt voor toewijzing de MID-waarde in de &#39;eerdere record&#39; in de gegevensbron gebruikt voor evaluatie. Deze eerdere record wordt mogelijk niet opeenvolgend met een tijdstempel geordend, aangezien AA geen ondersteuning biedt voor gegevens buiten de bestelling.
 
 Omdat de records niet opeenvolgend worden geordend, kunnen de verwachte waarden van het toepassen van persistentie van invloed zijn op de hoeveelheid tijd die tussen de opgegeven tijdstempel voor de transactie-id en de oorspronkelijke transactie bestaat.
 

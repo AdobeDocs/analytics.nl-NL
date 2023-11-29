@@ -4,9 +4,9 @@ title: Bekende beperkingen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -50,12 +50,12 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 
 ## Componenten > Virtuele rapporten
 
-* Wanneer de verwerking van de rapporttijd wordt toegelaten, worden bepaalde componenten niet gesteund. Voor een volledige lijst raadpleegt u [Tijdverwerking rapporteren](/help/components/vrs/vrs-report-time-processing.md).
+* Wanneer de verwerking van de rapporttijd wordt toegelaten, worden bepaalde componenten niet gesteund. Zie voor een volledige lijst [Tijdverwerking rapporteren](/help/components/vrs/vrs-report-time-processing.md).
 
 ## Componenten > Alle componenten > Rapportinstellingen
 
 * Enkele instellingen in het dialoogvenster [!UICONTROL Report Settings] is niet van toepassing. Analysis Workspace gebruikt alleen de [!UICONTROL Language/Currency/Encoding] instellingen onderaan: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], en [!UICONTROL CSV Separator Character].
 
-## Attribution IQ
+## Attributie
 
-* Een subset van metriek wordt niet ondersteund in [!UICONTROL Attribution IQ]. Voor een volledige lijst raadpleegt u de [Veelgestelde vragen over Attribution IQ](../attribution/faq.md).
+* Een subset van metriek wordt niet ondersteund in [!UICONTROL Attribution]. Voor een volledige lijst raadpleegt u de [Veelgestelde vragen over kenmerken](/help/analyze/analysis-workspace/attribution/faq.md).

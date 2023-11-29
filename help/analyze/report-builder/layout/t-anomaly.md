@@ -5,7 +5,7 @@ uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Een aanvraag voor anomaliedetectie configureren
 
-Een verzoek voor afwijkingsdetectie maken in Report Builder:
+Een verzoek voor afwijkingsdetectie in Report Builder maken:
 
 1. Selecteer een trended-rapport, zoals een **[!UICONTROL Site Metrics]** > **[!UICONTROL Traffic]** verslag.
 1. In de [!UICONTROL Apply Granularity] menu, selecteert u **[!UICONTROL Day]**.
@@ -38,4 +38,4 @@ Een verzoek voor afwijkingsdetectie maken in Report Builder:
    Als u een van deze opties selecteert, maakt het systeem een kopie van de originele metrische waarde voor de anomaly-detectie. Voor de metrische weergave Bezoek wordt bijvoorbeeld een metrische waarde voor Boundbezoek toegevoegd aan de metrische waarde [!UICONTROL Metric] groep.
 1. Klikken **[!UICONTROL Finish]** en selecteer de cel voor uitvoer naar Excel.
 
-   Zie [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) voor definities.
+   Zie [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) voor definities.

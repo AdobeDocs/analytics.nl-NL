@@ -4,9 +4,9 @@ description: Het concept om krediet van een succesgebeurtenis toe te wijzen aan 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '461'
 ht-degree: 47%
 
 ---
@@ -20,11 +20,11 @@ Attributie geeft analisten de mogelijkheid om aan te passen hoe dimensie-items k
 
 In sommige rapporten wilt u mogelijk de volgorde toewijzen aan Geavanceerd zoeken. In andere rapporten, zou u de orde aan Sociaal kunnen willen worden toegeschreven. Met kenmerk kunt u dit aspect van rapportage beheren. Het is beschikbaar voor alle organisaties op Adobe Analytics Ultimate, Premier, Select en Foundation. Als u niet zeker bent welk type van contract u met Adobe hebt, contacteer het Team van de Rekening van de Adobe van uw organisatie.
 
-## Waarde van Attribution IQ
+## Waarde van kenmerk
 
 Klanttrajecten zijn bijna nooit lineair en vaak onvoorspelbaar. Elke klant werkt in zijn eigen tempo, komt vaak terug op een eerder ingeslagen pad, loopt soms vast en begint opnieuw, en vertoont ander niet-lineair gedrag. Door deze organische handelingen is het moeilijk om de impact van marketinginspanningen op het klanttraject goed in te schatten. Ook wordt het hierdoor lastig om meerdere datakanalen aan elkaar te koppelen.
 
-![Attribution IQ-probleem](assets/attribution_iq_problem.png)
+![Attributieprobleem](assets/attribution_iq_problem.png)
 
 Adobe Analytics verbetert de attributie doordat u de volgende punten naar eigen inzicht kunt invullen:
 
@@ -39,31 +39,31 @@ Adobe Analytics verbetert de attributie doordat u de volgende punten naar eigen 
 
 ## Functies
 
-Attribution IQ biedt de volgende kenmerken:
+Attribution biedt de volgende kenmerken:
 
-* [Kenmerk, deelvenster](../c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
-* [Kenmerken toepassen op metrisch](../visualizations/freeform-table/column-row-settings/column-settings.md): Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
-* [Toewijzing op een uitsplitsing toepassen](../components/dimensions/t-breakdown-fa.md): Gebruik een niet-wanbetalingskenmerk voor een uitsplitsing.
-* [Kenmerkingsmodellen vergelijken](../components/apply-create-metrics.md): Zie snel hoe verschillende attributiemodellen bij elke meting worden vergeleken.
+* [Kenmerk, deelvenster](../c-panels/attribution.md): Neem een willekeurige dimensie en metrisch en vergelijk deze snel met verschillende attributiemodellen.
+* [Kenmerken toepassen op metrisch](../visualizations/freeform-table/column-row-settings/column-settings.md): Gebruik een niet-standaardattributie op metrisch niveau in een project.
+* [Toewijzing op een uitsplitsing toepassen](../components/dimensions/t-breakdown-fa.md): Gebruik een niet-standaardtoewijzing op een uitsplitsing.
+* [Kenmerkingsmodellen vergelijken](../components/apply-create-metrics.md): Bekijk snel hoe verschillende attributiemodellen bij elke meting worden vergeleken.
 
 ## Video&#39;s
 
-Attribution IQ in Freeform-tabellen:
+Attributie in Freeform-tabellen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-Attribution IQ in berekende metriek
+Attributie in berekende metriek
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Het deelvenster Attribution IQ gebruiken:
+Het deelvenster Attributie gebruiken:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Naast elkaar vergelijkingen van Attribution IQ modellen toevoegen:
+Naast elkaar vergelijkingen van Attributiemodellen toevoegen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Adobe Analytics-gereedschappen die geen ondersteuning bieden voor Attribution IQ
+## Adobe Analytics-gereedschappen die Attributie niet ondersteunen
 
-Gereedschappen die geen ondersteuning bieden voor de API Analytics 2.0, zoals Report Builder, bieden geen ondersteuning voor Attribution IQ.
+Alle gereedschappen die geen ondersteuning bieden voor de API Analytics 2.0, zoals Report Builder, ondersteunen Attribution niet.

@@ -3,7 +3,7 @@ title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
    * De beheerconsole van de Adobe, waar de producttoegang wordt voorzien en de gebruikerstoestemmingen worden beheerd. Zie [Admin Console](/help/admin/admin-console/home.md) in de handleiding voor Admin-gebruikers.
 * **Toewijzing:** Als een conversievariabele tijdens een bezoek meer dan één waarde aantreft, bepaalt de toewijzingsinstelling van de variabele welke waarde wordt behouden. Zie [Conversievariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de handleiding voor Admin-gebruikers.
 * **Analysis Workspace:** Browser oplossing voor het bouwen van robuuste, aangepaste analyseprojecten en het democratiseren van inzichten. Biedt meer rapportflexibiliteit dan Reports and Analytics.
-* **Anomaly:** Gedetecteerd met behulp van statistische modellering om automatisch onverwachte trends in gegevens te vinden. Het model analyseert metriek en bepaalt een ondergrens, bovengrens, en verwachte waaier van waarden. Zie [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) in de gebruikershandleiding Analyseren.
+* **Anomaly:** Gedetecteerd met behulp van statistische modellering om automatisch onverwachte trends in gegevens te vinden. Het model analyseert metriek en bepaalt een ondergrens, bovengrens, en verwachte waaier van waarden. Zie [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) in de gebruikershandleiding Analyseren.
 * **AppMeasurement:** De codebibliotheek die wordt gebruikt om gegevens te verzamelen en het naar Adobe te verzenden. Zie de [Homepage](/help/implement/home.md) van de gebruikershandleiding Implementeren.
 * **ASI-sleuf:** Niet meer bestaat. In vorige versies van Adobe Analytics, verstrekte de groeven van ASI een tijdelijke container van de rapportreeks om gesegmenteerde gegevens te bekijken. In de huidige versie van Adobe Analytics, kunnen de segmenten onmiddellijk op om het even welk rapport worden toegepast.
 * **Indeling:** Hiermee kunt u een dimensie bekijken binnen de context van een andere dimensie. Zie [Afmetingen onderverdelingen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in de gebruikershandleiding Analyseren.

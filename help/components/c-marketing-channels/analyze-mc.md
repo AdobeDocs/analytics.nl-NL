@@ -3,9 +3,9 @@ title: Marketingkanalen analyseren
 description: Leer hoe u de dimensies Marketingkanalen in Workspace gebruikt.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Om de doeltreffendheid van de Marketing Kanalen voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Om de doeltreffendheid van de Kanalen van de Marketing voor Attributie en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Analysebeheerders kunnen marketingkanalen voor hun organisaties beheren, zoals beschreven in [Marketingkanalen beheren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
@@ -24,7 +24,7 @@ U wilt waarschijnlijk weten welke van uw marketingkanalen het meest effectief is
 
 | Dimension/metrisch | Definitie |
 | --- | --- |
-| Marketingkanaal | Dit is de geadviseerde dimensie van de Kanalen van de Marketing aan gebruik. Attribution IQ-modellen kunnen tijdens runtime hierop worden toegepast. Deze dimensie gedraagt zich als laatste de dimensie van het Kanaal van de Aanraking, maar verschillend geëtiketteerd om verwarring te verhinderen wanneer het gebruiken van het met een verschillend attributiemodel. |
+| Marketingkanaal | Dit is de geadviseerde dimensie van de Kanalen van de Marketing aan gebruik. Attributiemodellen kunnen hierop worden toegepast tijdens runtime. Deze dimensie gedraagt zich als laatste de dimensie van het Kanaal van de Aanraking, maar verschillend geëtiketteerd om verwarring te verhinderen wanneer het gebruiken van het met een verschillend attributiemodel. |
 | Laatste aanraakkanaal | Verouderde dimensie, met het laatste aanraakattributiemodel vooraf toegepast en onveranderbaar. |
 | Eerste aanraakkanaal | Verouderde dimensie, met het eerste aanraakattributiemodel vooraf toegepast en onveranderbaar. |
 | Marketing Channel-instanties | Deze metrische meting meet het aantal tijden een marketing kanaal in een beeldverzoek, met inbegrip van standaardpaginameningen en douaneverbindingsvraag werd bepaald. Bevat geen aaneengesloten waarden. |
@@ -40,7 +40,7 @@ Hier ziet u de Online Orders en Online-inkomsten van elk marketingkanaal in een 
 
 ![](assets/mc-viz2.png)
 
-Dit diagram van Lijn toont trends in Online Orders voor diverse kanalen in tijd:
+Dit diagram van Lijn toont tendensen in Online Orden voor diverse kanalen in tijd:
 
 ![](assets/mc-viz3.png)
 
@@ -52,7 +52,7 @@ De Details van de Kanalen van de marketing duiken dieper in elk kanaal om u spec
 
 ## Kenmerkingsmodellen toepassen
 
-U kunt [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) verschillende toerekeningsmodellen onmiddellijk toepassen:
+U kunt [Attributie](/help/analyze/analysis-workspace/attribution/overview.md) verschillende toerekeningsmodellen tegelijk toe te passen:
 
 ![](assets/mc-viz5.png)
 

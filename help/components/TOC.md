@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '757'
 ht-degree: 40%
 
 ---
@@ -289,7 +289,7 @@ ht-degree: 40%
    + [Ondersteunde cijfers en en dimensies in real time](c-real-time-reporting/realtime-metrics.md)
 + Marketingkanalen {#marketing-channels}
    + [Aan de slag met marketingkanalen](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Attribution IQ met marketingkanalen](c-marketing-channels/mchannel-best-practices.md)
+   + [Attributie met marketingkanalen](c-marketing-channels/mchannel-best-practices.md)
    + [Marketingkanalen analyseren](c-marketing-channels/analyze-mc.md)
    + [Machtigingen voor marketingkanalen](c-marketing-channels/c-channel-report-access.md)
    + [Veelgestelde vragen en voorbeelden voor marketingkanalen](c-marketing-channels/c-faq.md)

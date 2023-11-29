@@ -3,10 +3,10 @@ description: Systeemvereisten en een vergelijking van Analysis Workspace, Report
 title: Analytics-productvergelijking en -vereisten
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 37%
+source-wordcount: '416'
+ht-degree: 36%
 
 ---
 
@@ -29,11 +29,10 @@ Voor informatie over welk Adobe Analytics-product u moet gebruiken, raadpleegt u
 | **Meerdere rapportsuites** | [Ja](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Ja, met beperkingen | Ja | Nee | Ja | Nee | Ja |
 | **Aantal uitsplitsingen** | Onbeperkt | Maximaal 2 | Maximaal 2 | Onbeperkt | Onbeperkt | Onbeperkt | Onbeperkt, uitvoeren op meerdere query&#39;s |
 | **Segmentatie** <br> [Meer informatie](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Ja | Ja | Ja | Ja, met [beperkingen](/help/components/segmentation/seg-reference/seg-compatibility.md) | Ja | Nee | Ja |
-| **Berekende standaarden** <br> [Meer informatie](/help/components/c-calcmetrics/cm-overview.md) | Ja, met [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Ja | Ja | Nee | Ja | Nee | Ja, met [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Berekende standaarden** <br> [Meer informatie](/help/components/c-calcmetrics/cm-overview.md) | Ja, met [Attributie](/help/analyze/analysis-workspace/attribution/overview.md) | Ja | Ja | Nee | Ja | Nee | Ja, met [Attributie](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Marketingkanalen** <br> [Meer informatie](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Ja | Ja | Ja | Ja | Ja | Ja - [va_finder, va_near](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Ja |
 | **Cohortanalyse** | [Ja](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Nee | Nee | Nee | Ja | Nee | Nee |
-| **Attributie** | Ja, met [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Beperkt | Beperkt | Nee | Ja | Nee | Ja, met [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
-| **Functies van Virtual Analyst** <br> [Meer informatie](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Ja | Nee | Nee | Nee | Nee | Nee | Ja |
+| **Attributie** | Ja, met [Attributie](/help/analyze/analysis-workspace/attribution/overview.md) | Beperkt | Beperkt | Nee | Ja | Nee | Ja, met [Attributie](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Kromming** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja - Project en Virtual Report Suite | Nee | Nee | Nee | Nee | Nee | Ja - alleen Virtual Report Suite |
 | **Projectdeling** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Ja, met projectrollen | Ja | Ja | Nee | Ja | Nee | Nee |
 | **Geplande levering** | Ja | Ja | Ja | Ja | Nee | Ja | Nee |

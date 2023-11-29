@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1080'
 ht-degree: 77%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 77%
       + [Alleen-weergeven -projecten](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
       + [Projecten plannen](analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution IQ {#attribution}
+   + Attributie {#attribution}
       + [Overzicht van attributie](analysis-workspace/attribution/overview.md)
       + [Attributiemodellen en terugzoekvensters](analysis-workspace/attribution/models.md)
       + [Algoritmische attributie](analysis-workspace/attribution/algorithmic.md)
@@ -141,17 +141,12 @@ ht-degree: 77%
       + [Veelgestelde vragen](analysis-workspace/attribution/faq.md)
    + [Reis-IQ](analysis-workspace/journey-iq.md)
    + [Segment-IQ](analysis-workspace/segment-iq.md)
-   + Virtual Analyst {#virtual-analyst}
-      + [Overzicht van Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
-      + Anomaliedetectie {#anomaly-detection}
-         + [Overzicht van anomaliedetectie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [Anomalieën weergeven in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [Anomaliedetectie uitschakelen](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
-         + [Statistische technieken voor anomaliedetectie](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-      + Bijdrageanalyse {#contribution-analysis}
-         + [Overzicht van bijdrageanalyse](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-         + [Bijdrageanalyse uitvoeren](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
-         + [Statistische technieken in bijdrageanalyse](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
+   + Anomaliedetectie {#anomaly-detection}
+      + [Overzicht van anomaliedetectie](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Anomalieën weergeven in Analysis Workspace](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [Anomaliedetectie uitschakelen](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
+      + [Bijdrageanalyse uitvoeren](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [Statistische technieken voor anomaliedetectie](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + Intelligente waarschuwingen {#intelligent-alerts}
          + [Overzicht van intelligente waarschuwingen](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)

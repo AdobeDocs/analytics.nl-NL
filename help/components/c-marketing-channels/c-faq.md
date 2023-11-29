@@ -3,9 +3,9 @@ title: Veelgestelde vragen over marketingkanalen
 description: Veelgestelde vragen over marketingkanalen.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om de doeltreffendheid van de Marketing Kanalen voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Om de doeltreffendheid van de Kanalen van de Marketing voor Attributie en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Analysebeheerders kunnen marketingkanalen voor hun organisaties beheren, zoals beschreven in [Marketingkanalen beheren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
@@ -41,7 +41,7 @@ U hebt een regel die intern verkeer aanpast. Houd er rekening mee dat deze regel
 
 ## Hoe zuivert ik verkeer dat in Geen Kanaal wordt getoond die op het rapport wordt geïdentificeerd?
 
-Regels worden op volgorde verwerkt. Als er geen specifieke criteria zijn gevonden, worden treffers ingedeeld in een van de drie categorieën:
+Regels worden op volgorde verwerkt. Als er geen specifieke criteria zijn gevonden, vallen treffers onder een van de drie categorieën:
 
 1. Geen referentie (een rechtstreeks bezoek).
 
@@ -69,7 +69,7 @@ De doorsnede waar de eerste staat gelijk aan de laatste aanraking is de diagonaa
 
 ## Redenen voor Geen kanaal geïdentificeerd {#no-channel-identified}
 
-Wanneer uw regels geen gegevens vangen, of als de regels niet correct worden gevormd, toont het rapport de gegevens in [!UICONTROL No Channel Identified] rij over het rapport. U kunt een regelset maken met de naam *Overige* Aan het einde van uw verwerkingsbestelling bijvoorbeeld geeft dit ook het interne verkeer aan.
+Wanneer uw regels geen gegevens vangen, of als de regels niet correct worden gevormd, toont het rapport de gegevens in [!UICONTROL No Channel Identified] rij over het rapport. U kunt een regelset maken die *Overige* Aan het einde van uw verwerkingsbestelling bijvoorbeeld geeft dit ook het interne verkeer aan.
 
 ![](assets/example_other.png)
 
@@ -77,49 +77,49 @@ Dit soort regel dient als catch-all om ervoor te zorgen dat het kanaalverkeer al
 
 >[!NOTE]
 >
->Er zou nog één of ander kanaalverkeer kunnen zijn dat in de Geen Geïdentificeerde categorie van het Kanaal kan vallen. Bijvoorbeeld: Een bezoeker komt naar de site en bladwijzers op een pagina en tijdens hetzelfde bezoek komt de pagina via de bladwijzer terug. Aangezien dit niet de eerste pagina van het bezoek is, zal het noch in het directe kanaal noch in het andere kanaal gaan omdat er geen verwijzend domein is.
+>Er zou nog één of ander kanaalverkeer kunnen zijn dat in de Geen Geïdentificeerde categorie van het Kanaal kan vallen. Bijvoorbeeld: een bezoeker komt naar de site en bladwijzers op een pagina en tijdens hetzelfde bezoek komt de pagina via de bladwijzer terug. Aangezien dit niet de eerste pagina van het bezoek is, zal het noch in het Directe kanaal noch in het Andere kanaal gaan omdat er geen verwijzend domein is.
 
 ## Redenen voor intern (Sessie vernieuwen) {#internal}
 
-Interne laatste aanraking (Sessie vernieuwen) kan alleen optreden als dit ook de eerste aanraking was. Zie &quot;Verhouding tussen eerste en laatste aanraking&quot; hierboven. In de onderstaande scenario&#39;s wordt uitgelegd hoe Zitting vernieuwen een eersteklas kanaal kan zijn.
+Interne laatste aanraking (Sessie vernieuwen) kan alleen optreden als dit ook de eerste aanraking was. Zie &quot;Relatie tussen eerste en laatste aanraking&quot; hierboven. In de onderstaande scenario&#39;s wordt uitgelegd hoe Zitting vernieuwen een eersteklas kanaal kan zijn.
 
 * **Time-out sessie**: Een bezoeker komt naar de website en laat het tabblad vervolgens open in zijn browser om op een latere datum te gebruiken. De periode van de betrokkenheid van de bezoeker verloopt (of ze verwijderen hun cookies vrijwillig) en ze gebruiken het tabblad Openen om de website opnieuw te bezoeken. Aangezien de verwijzende URL een intern domein is, wordt het bezoek geclassificeerd als Sessie vernieuwen.
 
-* **Niet alle sitepagina&#39;s zijn gelabeld**: Een bezoeker landt op pagina A die niet is getagd en gaat vervolgens naar pagina B die is gelabeld. Pagina A wordt beschouwd als de interne referentie en het bezoek wordt geclassificeerd als Sessie vernieuwen.
+* **Niet alle sitepagina&#39;s zijn gelabeld**: Een bezoeker landt op pagina A die niet is gecodeerd en gaat vervolgens naar pagina B die is gecodeerd. Pagina A wordt beschouwd als de interne referentie en het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-* **Omleiding**: Als een omleiding niet is ingesteld om verwijzingsgegevens door te geven aan de nieuwe landingspagina, gaan de werkelijke gegevens van de invoerverwijzende verwijzing verloren en wordt nu de omleidingspagina (waarschijnlijk een interne pagina) weergegeven als verwijzend domein. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
+* **Omleiding**: Als een omleiding niet is ingesteld om verwijzingsgegevens door te geven aan de nieuwe landingspagina, gaan de werkelijke gegevens van de invoerverwijzende verwijzing verloren en wordt nu de omleidingspagina (waarschijnlijk een interne pagina) weergegeven als het verwijzende domein. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-* **Domeinoverschrijdend verkeer**: Een bezoeker beweegt zich van één domein dat aan Reeks A, aan een tweede domein in brand steekt dat aan Reeks B. Als de interne URL-filters in Suite B het eerste domein bevatten, wordt het bezoek in Suite B geregistreerd als Intern, omdat Marketing Channels het als een nieuw bezoek in de tweede suite zien. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
+* **Domeinoverschrijdend verkeer**: Een bezoeker gaat van het ene domein dat wordt geactiveerd naar Suite A, naar het andere domein dat wordt geactiveerd naar Suite B. Als de interne URL-filters in Suite B het eerste domein bevatten, wordt het bezoek in Suite B geregistreerd als Intern, omdat Marketing Channels het als een nieuw bezoek in de tweede suite zien. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-* **Lange laadtijden van invoerpagina**: Een bezoeker landt op pagina A die zwaar is op inhoud, en de code van Adobe Analytics wordt gevestigd bij de bodem van de pagina. Voordat alle inhoud (inclusief Adobe Analytics-afbeeldingsaanvraag) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B activeert de Adobe Analytics-afbeeldingsaanvraag. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, met Pagina A als de referentie. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
+* **Lange laadtijden van invoerpagina&#39;s**: Een bezoeker landt op pagina A met veel inhoud en de Adobe Analytics-code bevindt zich onder aan de pagina. Voordat alle inhoud (inclusief Adobe Analytics-verzoek om afbeelding) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B wordt de Adobe Analytics-aanvraag voor een afbeelding geactiveerd. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, met Pagina A als de referentie. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-* **Cookies wissen halverwege de site**: Een bezoeker komt naar de site en halverwege de sessie worden de cookies gewist. Zowel eerste als laatste aanraakkanalen worden opnieuw ingesteld en het bezoek wordt geclassificeerd als Sessie vernieuwen (omdat de referentie intern zou zijn).
+* **Cookies wissen halverwege de site**: Een bezoeker komt naar de site en halverwege de sessie worden de cookies gewist. Zowel eerste als laatste-aanraakkanalen worden opnieuw ingesteld en het bezoek wordt geclassificeerd als Sessie vernieuwen (omdat de referentie intern zou zijn).
 
 Hieronder ziet u een voorbeeld van de instelling Interne (verfrissen van sessie) voor zowel eerste als laatste aanraakkanalen:
 
-* Dag 1: Gebruiker komt naar de site op Weergave. Het eerste en laatste aanraakkanaal worden ingesteld op Weergave.
-* Dag 2: Gebruiker komt naar de site voor natuurlijk zoeken. First-touch blijft Display en Last touch is ingesteld op Natuurlijk zoeken.
-* Dag 35: De gebruiker is niet in 33 dagen naar de site geweest en komt terug met het tabblad dat hij of zij in de browser had geopend. Ervan uitgaande dat het venster 30 dagen lang geldig is, zou het venster gesloten zijn en zouden de marketingkanaalcookies verlopen zijn. Het eerste aanraak- en laatste aanraakkanaal wordt opnieuw ingesteld en wordt ingesteld op Sessie vernieuwen nadat de gebruiker van een interne URL is gekomen.
+* Dag 1: de gebruiker komt naar de site op het scherm. Het eerste en laatste aanraakkanaal worden ingesteld op Weergave.
+* Dag 2: De gebruiker komt naar de site voor natuurlijk zoeken. First-touch blijft Display en Last touch is ingesteld op Natuurlijk zoeken.
+* Dag 35: De gebruiker is niet in 33 dagen naar de site geweest en komt terug gebruikend het lusje dat zij in hun browser open hadden. Ervan uitgaande dat het venster 30 dagen lang geldig is, zou het venster gesloten zijn en zouden de marketingkanaalcookies verlopen zijn. Het eerste aanraak- en laatste aanraakkanaal wordt opnieuw ingesteld en wordt ingesteld op Sessie vernieuwen nadat de gebruiker van een interne URL is gekomen.
 
 ## Waarom zijn sommige kanalen onveranderd na het veranderen van de regels van de kanaalverwerking van de Marketing?
 
 Soms worden de de verwerkingsregels van het Kanaal van de Marketing verkeerd opstelling, die het noodzakelijk maken om verwerkingsregels te veranderen. Nadat u de wijzigingen hebt toegepast, kunt u bepaalde metrische gegevens van kenmerken weergeven op een onjuist kanaal. Er zijn verschillende zaken die in overweging moeten worden genomen:
 
-* **Marketing Channel-gegevens worden verzameld in realtime**: De het kanaalgegevens van de marketing worden verwerkt bij gegevensinzameling, en is 100% permanent. Het wijzigen van de verwerkingsregels heeft geen invloed op gegevens met terugwerkende kracht.
+* **Marketing Channel-gegevens worden verzameld in realtime**: Gegevens van marketingkanalen worden verwerkt na gegevensverzameling en zijn 100% permanent. Het wijzigen van de verwerkingsregels heeft geen invloed op gegevens met terugwerkende kracht.
 * **Wijzigingen in verwerkingsregels hebben niet onmiddellijk invloed op First Touch-gegevens**: Bijvoorbeeld:
    1. Een gebruiker komt binnen door uw e-mailkanaal omdat het verkeerd opstelling was, dan verlaat uw plaats.
    2. De volgende dag wijzigt u de verwerkingsregel voor e-mail om deze te corrigeren.
    3. Die gebruiker komt een paar dagen later terug door middel van natuurlijke zoekopdracht en koopt een aankoop.
    4. Het e-mailkanaal krijgt First Touch-krediet en natuurlijke zoekopdrachten krijgt Last Touch-creditering.
 
-   Zelfs enkele dagen nadat u de verwerkingsregels hebt gewijzigd, kunnen gegevens nog steeds worden verzameld in het verkeerde First Touch-kanaal. De eerste aanraakgegevens worden voortdurend in het onjuiste kanaal verzameld totdat de betrokkenheid van alle gebruikers verloopt.
+  Zelfs enkele dagen nadat u de verwerkingsregels hebt gewijzigd, kunnen gegevens nog steeds worden verzameld in het verkeerde First Touch-kanaal. De eerste aanraakgegevens worden voortdurend in het onjuiste kanaal verzameld totdat de betrokkenheid van alle gebruikers verloopt.
 
 De beste manier om deze discrepanties te corrigeren is het doen van een of beide van de volgende maatregelen:
 
-* **Handmatig alle werkingsperioden voor bezoekers verlopen**: Deze instelling vervalt ogenblikkelijk alle eerste en laatste aanraakkanalen voor alle bezoekers:
+* **Handmatig alle werkingsperioden voor bezoekers verlopen**: Met deze instelling verloopt direct alle eerste en laatste aanraakkanalen door alle bezoekers:
    1. Ga naar Admin Tools > Report Suites.
    2. Houd de muisaanwijzer boven Beeldbewerkingsinstellingen > Marketingkanalen > Vervaldatum betrokkenheid bezoeker
    3. Klik op Alles vervallen.
    4. Klik op OK in het pop-upvenster met waarschuwingen om te bevestigen dat u begrijpt wat het gaat doen.
 
-* **Alleen de metriek Last Touch weergeven vanaf het moment dat u de regels hebt gecorrigeerd**: Metrische gegevens voor laatste aanraking volgen altijd de huidige regels. Wanneer u de tijd vanaf het moment waarop u de verwerkingsregels hebt gewijzigd, bekijkt, worden de meest actuele verwerkingsregels correct weergegeven.
+* **Alleen de metriek Last Touch weergeven vanaf het moment dat u de regels hebt gecorrigeerd**: De maateenheden voor laatste aanraking volgen altijd de huidige regelset. Wanneer u de tijd vanaf het moment waarop u de verwerkingsregels hebt gewijzigd, bekijkt, worden de meest actuele verwerkingsregels correct weergegeven.

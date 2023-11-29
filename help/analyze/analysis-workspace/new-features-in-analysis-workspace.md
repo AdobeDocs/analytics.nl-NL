@@ -5,9 +5,9 @@ title: Nieuwe functies in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: tm+mt
-source-wordcount: '8156'
+source-wordcount: '8149'
 ht-degree: 86%
 
 ---
@@ -72,8 +72,8 @@ Nieuwe functies uitgebracht op 18 juni 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Attribution IQ: algorithmische attributie | Het Algorithmic Attribution model in Analysis Workspace gebruikt statistische technieken om dynamisch de optimale allocatie van krediet voor de geselecteerde metrische waarde te bepalen. Beschikbaar voor klanten van Adobe Analytics Ultimate. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| Attribution IQ: aangepaste terugblikvensters | U kunt nu elk attributiemodel in Attribution IQ zo configureren dat er aanraakpunten aanwezig zijn van maximaal 90 dagen vóór de periode van de rapporttijd. Dit verhoogt doorgaans de attributienauwkeurigheid voor gebeurtenissen die zich vroegtijdig in de verslagperiode voordoen, door interacties die in de voorafgaande maand(en) hebben plaatsgevonden, te verklaren. Beschikbaar voor klanten van Adobe Analytics Foundation, Select, Premium, Premium, Premium Attribution, Premium Complete en Ultimate. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Attributie: Algorithmic Attribution | Het Algorithmic Attribution model in Analysis Workspace gebruikt statistische technieken om dynamisch de optimale allocatie van krediet voor de geselecteerde metrische waarde te bepalen. Beschikbaar voor klanten van Adobe Analytics Ultimate. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attributie: aangepaste terugzoekvensters | U kunt nu elk attributiemodel in Attributie configureren om aanraakpunten op te nemen vanaf maximaal 90 dagen vóór de rapportageperiode. Dit verhoogt doorgaans de attributienauwkeurigheid voor gebeurtenissen die zich vroegtijdig in de verslagperiode voordoen, door interacties die in de voorafgaande maand(en) hebben plaatsgevonden, te verklaren. Beschikbaar voor klanten van Adobe Analytics Foundation, Select, Premium, Premium, Premium Attribution, Premium Complete en Ultimate. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | Projectrollen voor gedeelde Workspace-projecten | Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Workspace-projecten voor alleen-weergeven | Werkruimteprojecten kunnen aan gebruikers worden gedeeld als &quot;Alleen kan bekijken&quot;. Wanneer een ontvanger voor Weergaven het gedeelde project opent, ontvangt hij/zij een beperktere projectervaring zonder linkerrail en met beperkte interactie. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Mogelijkheid om Workspace-projecten gezamenlijk te bewerken | Ontvangers die aan de rol &quot;Kan uitgeven&quot;worden toegevoegd kunnen over een project bewaren dat aan hen is gedeeld. Dit geldt zowel voor beheerders als niet-beheerders. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
@@ -187,7 +187,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 17 januari 2019.
 |--- |--- |
 | [Cohortanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Met de belangrijkste verbeteringen in cohortanalyse kunt u:<ul><li>Afzonderlijk een segment insluiten en metrics retourneren. </li><li>De uitval weergeven in plaats van de retentie.</li><li>Latentietabellen tonen (de tijd die is verstreken voor en na een insluitingsgebeurtenis).</li><li>Een cohortdimensie op maat maken (om bezoekers te groeperen op basis van een eVar en niet alleen op tijd).</li><li>Een doorlopende cohortberekening uitvoeren: de retentie of de uitval berekenen op basis van de voorafgaande periode, niet op basis van het oorspronkelijke cohort. </li><li>Meerdere metrics toevoegen aan insluitings- en retourvelden, en segmenten toepassen. (Berekende standaarden worden niet ondersteund)</li></ul> |
 | [Dichtheid weergeven](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Met deze nieuwe instelling kunt u meer data op één scherm weergeven door de verticale opvulling van de linkerrail, vrije-vormtabellen en cohortabellen te verminderen. Toegankelijk via Project > Projectinfo en instellingen. |
-| [Ondersteuning voor variabelen met meerdere waarden in Attribution IQ](attribution/overview.md) | Sommige dimensies in Analytics bevatten meerdere waarden voor een enkele &#39;hit&#39;, zoals listVars, de productvariabele, lijstprops of merchandising eVars. In Analysis Workspace kunt u Attribution IQ nu op elk van deze typen variabelen toepassen op hitniveau. |
+| [Ondersteuning voor variabelen met meerdere waarden in Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Sommige dimensies in Analytics bevatten meerdere waarden voor een enkele &#39;hit&#39;, zoals listVars, de productvariabele, lijstprops of merchandising eVars. In Analysis Workspace kunt u Attribution nu op elk van deze typen variabelen toepassen op hitniveau. |
 | Betere prestaties | Snellere uitsplitsing van visualisaties; projecten met veel uitsplitsingen worden sneller geladen. |
 
 ## November 2018
@@ -270,8 +270,8 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 19 juli 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > Attribution IQ </a> </b> </p> </td>
-   <td colname="col2"> <p>Met Attribution IQ kunt u geavanceerde en slimme analyses uitvoeren op het gebied van marketingprestaties. De nieuwe attributiemodellen kunnen worden toegepast op metrics in Analysis Workspace (op elke tabel of elke uitsplitsing), alsook voor berekende standaarden. Een nieuw attributiedeelvenster biedt een betere visualisaties en vergelijkingen. </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attributie </a> </b> </p> </td>
+   <td colname="col2"> <p>Met Attribution kunt u geavanceerde en slimme analyses uitvoeren op het gebied van marketingprestaties. De nieuwe attributiemodellen kunnen worden toegepast op metrics in Analysis Workspace (op elke tabel of elke uitsplitsing), alsook voor berekende standaarden. Een nieuw attributiedeelvenster biedt een betere visualisaties en vergelijkingen. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> Verbeteringen aan de linkerrail </b> </p> </td>
@@ -348,7 +348,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 10 mei 2018.
    <td colname="col2"> <p>U kunt nu omhoog en omlaag schuiven wanneer u componenten naar een nieuwe locatie sleept. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b>Aanvullende informatie over <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalieën </a></b> </p> </td>
+   <td colname="col1"> <p><b>Aanvullende informatie over <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > anomalieën </a></b> </p> </td>
    <td colname="col2"> <p>Als u de muis boven een anomalie in een lijndiagram houdt, worden nu de datum en de onbewerkte waarde van de anomalie weergegeven. </p> </td>
   </tr>
  </tbody>
@@ -379,7 +379,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 12 april 2018.
    <td colname="col2"> <p>Met de nieuwe visualisatie-instelling voor gestapelde vlakken, staaf- en horizontale staafdiagrammen kunt u het diagram omzetten in een '100% gestapelde' visualisatie, zodat u de relatieve verhoudingen kunt meten. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > Anomaliedetectie en bijdrage-analyses</a> zijn nu alleen beschikbaar via Analysis Workspace </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > Anomaliedetectie en bijdrage-analyses</a> zijn nu alleen beschikbaar via Analysis Workspace </p> </td>
    <td colname="col2"> <p>Anomaliedetectie en bijdrage-analyses zijn verwijderd uit de functieset met rapporten en analytics, en nu dus alleen beschikbaar via Analysis Workspace. </p> <p>Klanten van Adobe Analytics Select en Adobe Analytics Foundation hebben voortaan alleen via Workspace toegang tot anomaliedetectie voor dagelijkse granulariteit. </p> </td>
   </tr>
  </tbody>
@@ -610,7 +610,7 @@ Nieuwe functies uitgebracht op 26 oktober 2017.
     </ul> <p>Als u bijvoorbeeld 'Uur van dag' in een tabel plaatst, wordt de tabel gesorteerd van 12.00 tot 23.00 uur. U kunt de tabel nog steeds sorteren op een kolom met metrics. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Optie om betrouwbaarheidsinterval toe te staan bij het opnieuw schalen van een grafiek </a> </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > Optie om betrouwbaarheidsinterval toe te staan bij het opnieuw schalen van een grafiek </a> </p> </td>
    <td colname="col2"> <p>Bij het vertrouwensinterval voor anomaliedetectie wordt de y-as van een visualisatie niet automatisch geschaald om de grafiek beter leesbaar te maken. </p> <p>U kunt het betrouwbaarheidsinterval nu toestaan om de grafiek te schalen. </p> </td>
   </tr>
   <tr>
@@ -671,7 +671,7 @@ Nieuwe functies uitgebracht op 21 september 2017.
    <td colname="col1"> <p> <span class="uicontrol"> Alles wissen</span>-knop voor de configuratie van de segmentvergelijking en de bijdrage-analyse </p> </td>
    <td colname="col2"> <p>In plaats van elk element handmatig te verwijderen, kunt u nu alle elementen in de volgende Workspace-gebieden wissen: </p>
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3">
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > Uitgesloten componenten voor bijdrage-analyse </a> </li>
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > Uitgesloten componenten voor bijdrage-analyse </a> </li>
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> Uitgesloten componenten voor segmentvergelijking </a> </li>
     </ul> </td>
   </tr>
@@ -754,7 +754,7 @@ Nieuwe functies uitgebracht op 20 juli 2017.
    <td colname="col2"> <p>De beheermethode voor databronnen (de krachtbron achter visualisaties) is volledig nieuw ontworpen. Er zijn geen afzonderlijke, verborgen tabellen meer wanneer u de databron aan een tabel koppelt. </p> <p>In plaats daarvan blijft de visualisatie gekoppeld aan de tabel waaruit u de visualisatie hebt gemaakt. Dit is ook de oplossing voor een softwareprobleem waarbij u de granulariteit verandert, maar deze terugkeert naar de oude granulariteit bij de volgende projectlading. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > Mogelijkheid om een specifieke anomalie te markeren </a></b> </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > Mogelijkheid om een specifieke anomalie te markeren </a></b> </p> </td>
    <td colname="col2"> <p>Anomalieën worden nu in bijdrage-analyses gemarkeerd met een blauwe stip en met de intelligente waarschuwingsprojecten eraan gekoppeld. Dit geeft een duidelijkere indicatie van hoe de anomalie wordt geanalyseerd. </p> </td>
   </tr>
   <tr>
@@ -986,7 +986,7 @@ Nieuwe functies uitgebracht op 20 oktober 2016:
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > Anomaliedetectie en bijdrage-analyse</a></b> </td>
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > Anomaliedetectie en bijdrage-analyse</a></b> </td>
    <td colname="col2"> <p>Hiermee kunt u zien of een wijziging in trenddata significant is en wat de oorzaak ervan is. </p> <p>Zowel anomaliedetectie als bijdrage-analyse zijn nu kernworkflows van Analysis Workspace. </p> <p>Belangrijk: bijdrage-analyse is alleen beschikbaar voor klanten van Adobe Analytics Premium. </p> <p>U kunt: </p> <p> </p>
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6">
      <li id="li_787236BB5EA545B8833B311C06C24337">Automatisch statistisch significante anomalieën in uw data detecteren. </li>

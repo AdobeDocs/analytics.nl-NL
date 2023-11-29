@@ -3,7 +3,7 @@ title: Verwerkingsregels voor marketingkanalen
 description: De de verwerkingsregels van het Kanaal van de marketing bepalen als een bezoeker voldoet aan de criteria die aan een kanaal worden toegewezen. De regels verwerken elke hit die een bezoeker op uw site aanbrengt. Wanneer een regel niet aan de criteria voor een kanaal voldoet, of als de regels niet correct worden gevormd, wijst het systeem de slag aan Geen Geïdentificeerd Kanaal toe.
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Aanvullende opmerkingen over de verwerking:
 
 * Bekijk de conceptuele informatie in [Aan de slag met marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Maak een of meer kanalen zodat u er regels aan kunt toewijzen. Zie [Marketingkanalen toevoegen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Bekijk de beste praktijken voor het gebruiken [!UICONTROL Marketing Channels] with [!UICONTROL Attribution IQ].
+* Bekijk de beste praktijken voor het gebruiken [!UICONTROL Marketing Channels] with [!UICONTROL Attribution].
 
 ## Verwerkingsregels voor marketingkanalen maken
 
