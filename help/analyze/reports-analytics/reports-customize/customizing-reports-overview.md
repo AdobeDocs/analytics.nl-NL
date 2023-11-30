@@ -5,43 +5,16 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: cf0c15c1b81a243e35fbdcf32b43a6ef4ada9649
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 3%
+source-wordcount: '642'
+ht-degree: 4%
 
 ---
 
-# Overzicht van rapporten aanpassen
-
-{{ra-eol}}
+# Rapporten aanpassen
 
 Nadat u een rapport hebt uitgevoerd, kunt u het rapport aanpassen om de gegevens naar wens weer te geven en te analyseren. U kunt rapportgegevens filteren, wijzigen hoe gegevens grafisch worden weergegeven, granulariteit van datums wijzigen, enzovoort.
-
-## Een aangepast rapport maken {#task_BA6EACA3039C40AEA5605E1D8C76E646}
-
-U kunt de huidige configuratie van een rapport als nieuw douanerapport voor alle gebruikers opslaan om te zien.
-
-<!-- 
-
-t_reports_custom.xml
-
- -->
-
-Alleen beheerders kunnen een aangepast rapport maken. Wanneer u een douanerapport creeert, wordt het toegevoegd aan het belangrijkste rapporteringsmenu naast het rapport waarop het is gebaseerd.
-
-Een aangepast rapport maken:
-
-1. Stel een rapport in werking en vorm het zonodig.
-1. Klik op **[!UICONTROL More]** > **[!UICONTROL Create Custom Report]**.
-1. Geef het rapport een naam en klik vervolgens op **[!UICONTROL Save.]**
-
-   Zorg ervoor dat u geen bestaande rapportnaam dupliceert.
-
->[!MORELIKETHIS]
->
->* [Menu aanpassen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
-
 
 ## Selecteer een datum of een datumbereik {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
@@ -55,7 +28,7 @@ t_reports_select_date.xml
 
 U kunt specifieke dagen, weken, maanden of jaren selecteren. U kunt ook vergelijkingsrapporten uitvoeren.
 
-Wanneer u een dashboard opent met rapporten met verschillende datumbereiken, kunt u een nieuw datumbereik kiezen in de kalender. De wijzigingen gelden voor alle rapporten in het dashboard.
+Wanneer u een dashboard opent met rapporten die verschillende datumwaaiers hebben, kunt u een nieuw datumwaaier in de kalender kiezen. De wijzigingen gelden voor alle rapporten in het dashboard.
 
 Een datumbereik selecteren:
 
@@ -90,13 +63,17 @@ U kunt geen datums vergelijken tussen trended-rapporten.
 >
 >Als u een datumvergelijking wilt uitvoeren op belangrijke metriek in een dashboard, kunt u de gegevens trekken [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) twee afzonderlijke verzoeken gebruiken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
 
-Datums vergelijken tussen gerangschikte rapporten in rapporten en analyses:
+<!-- delete this procedure, but what about this entire "Compare dates" section?
 
-1. Voer een rapport uit.
-1. Klik op de kalender rechtsboven.
-1. Klik op **[!UICONTROL Compare Dates]**.
-1. Selecteer de datums die u wilt gebruiken.
-1. Klik op **[!UICONTROL Run Report]**.
+To compare dates between ranked reports in Reports & analytics: 
+
+1. Run a report.
+1. Click the calendar at the top right.
+1. Click **[!UICONTROL Compare Dates]**.
+1. Select the dates you want to use.
+1. Click **[!UICONTROL Run Report]**.
+
+-->
 
 ## Een percentage weergeven als grafiek {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -179,7 +156,7 @@ Rapportsuites vergelijken:
 1. Zoek de rapportsuite.
 1. Klik op **[!UICONTROL OK.]**
 
-## Geef de granulariteit van het rapport op {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
+## Rapportgranulariteit opgeven {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
 U kunt de totalen van rapporten weergeven op uurbasis, dagelijks, wekelijks, maandelijks, driemaandelijks of jaarlijks basis.
 
@@ -212,19 +189,3 @@ Een dagrapport uitvoeren:
 
 1. Voer een trended-rapport uit over een opgegeven datumbereik.
 1. Klik op de knop **[!UICONTROL Day of Week]** Klik op een dag.
-
-## Knop &#39;Uitproberen in werkruimte&#39; {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
-
-Klik op de knop **[!UICONTROL Try In Workspace]** knoop bij de bovenkant van een rapport zal het zelfde rapport in Analysis Workspace laden.
-
-<!-- 
-
-try_in_workspace.xml
-
- -->
-
-De meeste rapporten in Rapporten &amp; Analytics omvatten nu de knoop van het &quot;Proberen in Werkruimte&quot;om u toe te staan om de huidige mening in Analysis Workspace voor verdere aanpassing te reproduceren.
-
-De knop is momenteel alleen beschikbaar als je gebruikersnaam volledige rechten heeft op Analysis Workspace.
-
-Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) hulplijn.

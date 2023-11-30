@@ -1,7 +1,7 @@
 ---
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: d857d1cf9f4aa23d7fd60c19bb6533090d956086
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1139'
 ht-degree: 1%
 
 ---
@@ -11,7 +11,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Effectief **31 december 2023**, is de Adobe voornemens de verslagen en analyses en de bijbehorende verslagen en kenmerken te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die energierapporten &amp; analyses niet meer voldoen aan de technologienormen van de Adobe. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
+>Effectief **31 december 2023**, is de Adobe voornemens de verslagen en analyses en de bijbehorende verslagen en kenmerken te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die energierapporten &amp; analyses niet meer voldoen aan de technologienormen van de Adobe. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Voor informatie over het gebruik van rapporten in Analysis Workspace raadpleegt u [Vooraf samengestelde rapporten gebruiken](/help/analyze/analysis-workspace/reports/use-reports.md).
+> 
+>Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 >
 >Meer informatie over rapporten en analyses [Aankondiging einde levensduur](https://www.adobe.com/go/analytics_rnaeol_en).
 

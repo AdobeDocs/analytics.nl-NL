@@ -1,12 +1,12 @@
 ---
-description: Bladwijzers geven u toegang tot de rapporten die u het meest gebruikt. De bladwijzers die u maakt, worden toegevoegd aan de Experience Cloud en zijn beschikbaar in geïntegreerde functies zoals gegevensconnectors.
+description: Met bladwijzers hebt u toegang tot de rapporten die u het meest gebruikt. De bladwijzers die u maakt, worden toegevoegd aan het Experience Cloud en zijn beschikbaar in geïntegreerde functies zoals gegevensconnectors.
 subtopic: Bookmarks
 title: Bladwijzerbeheer
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 2%
@@ -15,9 +15,7 @@ ht-degree: 2%
 
 # Bladwijzerbeheer
 
-{{ra-eol}}
-
-Bladwijzers geven u toegang tot de rapporten die u het meest gebruikt. De bladwijzers die u maakt, worden toegevoegd aan de Experience Cloud en zijn beschikbaar in geïntegreerde functies zoals gegevensconnectors.
+Met bladwijzers hebt u toegang tot de rapporten die u het meest gebruikt. De bladwijzers die u maakt, worden toegevoegd aan het Experience Cloud en zijn beschikbaar in geïntegreerde functies zoals gegevensconnectors.
 
 ## Een bladwijzer maken {#task_305BDB470E374026AD48F19D11A387A6}
 
@@ -69,7 +67,7 @@ t_bookmarks_managing.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/bookmark_sort.png" id="image_8B4BE31182004357890B6532CCE5B2C2"> </img> </p> </td> 
-   <td colname="col2"> <p> Hiermee wordt een bladwijzermap gesorteerd. </p> </td> 
+   <td colname="col2"> <p> Sorteert een bladwijzermap. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/icon_edit_VideoSharing.png" id="image_5B8C0321ED5848ECBE3AF65514AD9A44"> </img> </p> </td> 
@@ -110,11 +108,11 @@ t_bookmarks_managing.xml
   </tr> 
   <tr> 
    <td colname="col1"> Info/Bewerken </td> 
-   <td colname="col2"> <p>Hiermee bewerkt u de naam van de bladwijzer. </p> </td> 
+   <td colname="col2"> <p>Hiermee bewerkt u de bladwijzernaam. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Persoonlijk maken </td> 
-   <td colname="col2"> <p>Maakt een openbare bladwijzer privé. </p> </td> 
+   <td colname="col2"> <p>Hiermee maakt u een openbare bladwijzer privé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

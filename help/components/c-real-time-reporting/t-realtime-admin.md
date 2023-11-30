@@ -3,32 +3,32 @@ description: Administratieve stappen voor vestiging real-time rapporten.
 title: Realtimerapporten configureren
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '276'
 ht-degree: 2%
 
 ---
 
 # Realtimerapporten configureren
 
-{{ra-eol}}
+De volgende informatie bevat administratieve stappen voor vestiging real-time rapporten.
 
-Administratieve stappen voor vestiging real-time rapporten.
-
-Real-time rapporten instellen binnen [!UICONTROL Reports & Analytics] bestaat uit het selecteren van de rapportreeks en het vormen van maximaal drie rapporten voor het.
+Dit bestaat uit het selecteren van de rapportsuite en het configureren van maximaal drie rapporten voor deze suite.
 
 1. Selecteer de rapportsuite waarvoor u realtime rapporten wilt inschakelen.
 
-   Navigeren naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** en selecteer de rapportreeks van drop-down bij de bovenkant:
+   1. Selecteer in Analysis Workspace de optie [!UICONTROL **Werkruimte**] tab, dan selecteren [!UICONTROL **Rapporten**] > [!UICONTROL **Betrokkenheid**] > **[!UICONTROL Real-Time]**.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+   1. Selecteer de rapportreeks van drop-down bij de bovenkant:
 
-   Als u probeert om rapporten in real time voor een rapportreeks te bekijken die niet opstelling voor rapportering in real time is, een berichtvertoningen die u aan opstelling de rapportreeks toelaat.
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+      Als u probeert om rapporten in real time voor een rapportreeks te bekijken die niet opstelling voor rapportering in real time is, een berichtvertoningen die u aan opstelling de rapportreeks toelaat.
 
-1. Klikken **[!UICONTROL Configure]** (tandwielpictogram) om het [!UICONTROL Report Suite Manager].
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+
+1. Selecteren **[!UICONTROL Configure]** om de [!UICONTROL Report Suite Manager].
 
    (Ook beschikbaar onder **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**.)
 
@@ -55,7 +55,7 @@ Real-time rapporten instellen binnen [!UICONTROL Reports & Analytics] bestaat ui
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Klikken **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]**.
+1. Selecteren **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]**.
 
    Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van Real-Time rapporten, zie [Een real-time rapport uitvoeren](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
 

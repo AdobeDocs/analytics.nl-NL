@@ -4,16 +4,14 @@ title: Overzicht van realtimerapportage
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
 
 # Overzicht van realtimerapportage
-
-{{ra-eol}}
 
 Real-time rapporten tonen het verkeer van de Web-pagina en rangschikken paginameningen in echt - tijd. Verstrekt activeerbare gegevens om uw bedrijfsbesluiten op te baseren.
 
@@ -21,7 +19,13 @@ Real-time rapporten tonen het verkeer van de Web-pagina en rangschikken paginame
 >
 >Voor het Real-Time Report is geen aanvullende implementatie of codering vereist. Het gebruikt uw bestaande implementatie van Adobe Analytics. Om rapporten in real time te vormen, zie [Configuratie van realtime rapporten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-**[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
+## Heb toegang tot Echt - tijd rapportering
+
+1. Selecteer in Analysis Workspace de optie [!UICONTROL **Werkruimte**] tab.
+
+1. Selecteren [!UICONTROL **Rapporten**] > [!UICONTROL **Betrokkenheid**] > **[!UICONTROL Real-Time]**.
+
+## Real-Time rapportage begrijpen
 
 Real-Time beantwoordt de volgende vragen: Wat is trending op mijn plaats, en waarom? Hiermee kunt u als markeerteken snel reageren op en actief de prestaties van uw marketinginhoud en -campagnes beheren. De gegevens in real time die worden gerapporteerd zijn minder dan twee minuten latent en auto-updates op een minuut-door-minuut basis.
 
@@ -55,7 +59,7 @@ Nadat de integratie A4T in Adobe wordt toegelaten [!DNL Target], krijgt u een ex
 
 Deze toename wordt weerspiegeld in alle Adobe Analytics-services en -gereedschappen, inclusief de live stream en real-time rapportage, en is van toepassing in de volgende scenario&#39;s:
 
-* Voor live stream, real-time rapporten en API-aanvragen en huidige gegevens voor verkeersvariabelen worden alleen hits met een aanvullende gegevens-id vertraagd.
+* Voor live stream, real-time rapporten en API-aanvragen, en huidige gegevens voor verkeersvariabelen, worden alleen hits met een aanvullende gegevens-id vertraagd.
 * Voor huidige gegevens over conversiemetriek, voltooide gegevens, en gegevensvoer, worden alle klappen een extra 5-7 minuten vertraagd.
 
 Houd er rekening mee dat de latentieverhoging begint nadat u de Identity Service hebt geïmplementeerd, zelfs als u deze integratie niet volledig hebt geïmplementeerd.

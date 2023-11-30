@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
+source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 77%
+source-wordcount: '1087'
+ht-degree: 76%
 
 ---
 
@@ -44,6 +44,9 @@ ht-degree: 77%
       + [Hotkeys (sneltoetsen)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Kleurpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Dichtheid weergeven](analysis-workspace/build-workspace-project/view-density.md)
+   + Rapporten {#reports}
+      + [Vooraf samengestelde rapporten gebruiken](analysis-workspace/reports/use-reports.md)
+      + [Bedrijfsrapporten maken en beheren](analysis-workspace/reports/create-company-reports.md)
    + Onderdelen {#components}
       + [Overzicht van onderdelen](analysis-workspace/components/analysis-workspace-components.md)
       + [Componentbeschrijvingen toevoegen](analysis-workspace/components/add-component-descriptions.md)
@@ -307,7 +310,6 @@ ht-degree: 77%
       + [Over dataverzameling](reports-analytics/overview/overview-data-collection.md)
       + [Menu Rapporten](reports-analytics/overview/reports-menu.md)
       + [Rapportfuncties](reports-analytics/overview/report-overview.md)
-      + [Algemene voorwaarden](reports-analytics/overview/overview-common-terms.md)
    + [Rapport Weergave-instellingen en navigatie](reports-analytics/report-settings.md)
    + [Rapport Planning en distributie](reports-analytics/scheduling.md)
    + [Aankondiging van einde van de levensduur voor geplande rapporten](reports-analytics/scheduled-reports-eol.md)

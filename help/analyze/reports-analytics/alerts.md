@@ -6,20 +6,18 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '833'
 ht-degree: 6%
 
 ---
 
 # Waarschuwingen
 
-{{ra-eol}}
-
 ## Waarschuwingen {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Met Intelligente waarschuwingen kunt u, net als met het nieuwe waarschuwingssysteem voor Adobe Analytics, waarschuwingen maken en beheren, compleet met een voorvertoning van waarschuwingen en een bijdrage van de regel. U kunt
+Met Intelligente waarschuwingen kunt u, net als met het waarschuwingssysteem voor Adobe Analytics, waarschuwingen maken en beheren en tegelijkertijd functies voor voorvertoning van waarschuwingen en regelbijdragen bieden. U kunt
 
 * Meldingen opstellen op basis van anomalieën (met drempelwaarden van 90%, 95% of 99%); wijzigingspercentage; hoger dan/lager dan).
 * Een voorvertoning bekijken van het aantal keren dat een melding is geactiveerd.
@@ -114,7 +112,7 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Maandelijkse waarschuwingen voor aangepaste kalenderrapporten </p> </td> 
-   <td colname="col2"> <p>Dit is alleen van toepassing op klanten met waarschuwingen die zijn ingesteld voor rapportsuites die <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > aangepaste begindatums voor maanden </a> (Nationale detailhandelsfederatie/NRF en de types van Kalender van de Douane). </p> <p>Het heeft geen invloed op waarschuwingen over Gregoriaanse of Gewijzigde Gregoriaanse kalenderrapportsuites. Eerder werden deze waarschuwingen verzonden op de eerste dag van de Gregoriaanse maand (bijvoorbeeld 1 januari, 1 februari enz.). Dit werkt niet met het nieuwe onderdeel Anomaly Detection van waarschuwingen, dat bij het opsporen van anomalieën rekening houdt met gegevens van vorige maanden. In de toekomst, zullen wij steun aan ons het plannen systeem voor douanecalendars toevoegen zodat zowel Alarm als Geplande Projecten kunnen worden gepland om op de eerste dag van de maand van de douanekalender in plaats van enkel de eerste dag van de Gregoriaanse maand te verzenden. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Dit is alleen van toepassing op klanten met waarschuwingen die zijn ingesteld voor rapportsuites die <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > Aangepaste begindatums voor maanden </a> (Nationale detailhandelsfederatie/NRF en de types van Kalender van de Douane). </p> <p>Het heeft geen invloed op waarschuwingen over Gregoriaanse of Gewijzigde Gregoriaanse kalenderrapportsuites. Eerder werden deze waarschuwingen verzonden op de eerste dag van de Gregoriaanse maand (bijvoorbeeld 1 januari, 1 februari enz.). Dit werkt niet met het nieuwe onderdeel Anomaly Detection van waarschuwingen, dat bij het opsporen van anomalieën rekening houdt met gegevens van vorige maanden. In de toekomst, zullen wij steun aan ons het plannen systeem voor douanecalendars toevoegen zodat zowel Alarm als Geplande Projecten kunnen worden gepland om op de eerste dag van de maand van de douanekalender in plaats van enkel de eerste dag van de Gregoriaanse maand te verzenden. </p> <p> </p> </td> 
    <td colname="col3"> <p>Nog niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
