@@ -3,9 +3,9 @@ title: Bot verwijderen in Adobe Analytics
 description: Bommen verwijderen in Adobe Analytics
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Zodra het rapport van de Data Warehouse aankomt, hebt u een lijst van ECIDs die 
 * **ECID**: Zorg ervoor dat deze kolomkop overeenkomt met de naam die u aan de bovenstaande nieuwe gedeclareerde id hebt gegeven.
 * **Bodt Flag**: Voeg &#39;Bot Flag&#39; toe als schemadimensie van kenmerk Klant.
 
-Gebruik dit .CSV-bestand als het importbestand voor klantkenmerken en abonneer uw rapportsuite(s) op het kenmerk Klant zoals beschreven in dit [blogbericht](https://theblog.adobe.com/link-digital-behavior-customers).
+Gebruik dit .CSV-bestand als het importbestand voor klantkenmerken en abonneer uw rapportsuite(s) op het kenmerk Klant zoals beschreven in dit [blogbericht](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 

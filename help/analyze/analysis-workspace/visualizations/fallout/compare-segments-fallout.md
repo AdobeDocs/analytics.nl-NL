@@ -5,9 +5,9 @@ title: Segmenten toepassen in een uitvalanalyse
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
@@ -48,18 +48,18 @@ U kunt ook een AND-aanraakpunt maken door het Amerikaanse gebruikerssegment naar
 
 ## Segmenten vergelijken bij uitvallen {#section_E0B761A69B1545908B52E05379277B56}
 
-U kunt een onbeperkt aantal segmenten vergelijken in de Fallout-visualisatie.
+U kunt een onbeperkt aantal segmenten vergelijken in de Fallout-visualisatie. (In de onderstaande video staat dat u maximaal drie segmenten kunt vergelijken. Dit is onjuist.)
 
 Hier volgt een video over het vergelijken van segmenten in de uitval:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
-1. Selecteer de segmenten die u wilt vergelijken in het dialoogvenster [!UICONTROL Segments] spoorstaaf links. In ons voorbeeld hebben we twee segmenten geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
+1. Selecteer de segmenten die u wilt vergelijken in het dialoogvenster [!UICONTROL Segments] spoorstaaf links. In ons voorbeeld hebben we twee segmenten geselecteerd: US Users en Non-US Users.
 1. Sleep ze naar de neerzetzone Segment bovenaan.
 
    ![](assets/segment-drop.png)
 
-1. Optioneel: U kunt &quot;Alle Bezoekopdrachten&quot; als de standaardcontainer behouden of verwijderen.
+1. Optioneel: u kunt &quot;Alle bezoeken&quot; behouden als de standaardcontainer of deze verwijderen.
 
    ![](assets/seg-compare.png)
 
