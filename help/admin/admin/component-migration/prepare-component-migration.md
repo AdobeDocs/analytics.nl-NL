@@ -3,7 +3,7 @@ description: Verklaart de noodzakelijke voorbereidingen om componenten en projec
 title: Migratie van onderdelen en projecten van Adobe Analytics naar Customer Journey Analytics voorbereiden
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: cc7267cc7f6d0223d151fb6378fce149742258d7
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 2%
@@ -51,7 +51,7 @@ Voordat uw projecten en de bijbehorende componenten kunnen worden gemigreerd, mo
 
 ## Begrijpen wat er in een migratie is opgenomen
 
-In de volgende tabellen wordt aangegeven welke elementen van een project en component zijn opgenomen in een migratie:
+In de volgende tabellen wordt aangegeven welke elementen van een project en component in een migratie zijn opgenomen:
 
 ### Componentelementen die worden gemigreerd
 
