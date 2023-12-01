@@ -4,9 +4,9 @@ title: Projecten opslaan
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: a6f49d0c66ff92eff850a330c35e4979275e3c92
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Een project handmatig opslaan:
    | **[!UICONTROL Save]** | Wijzigingen in uw project opslaan. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) tags toe te voegen. |
    | **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar aan alle redacteurs onder [!UICONTROL Project] > [!UICONTROL Open previous version]. |
    | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
-   | **[!UICONTROL Save as company report]** | Uw project opslaan als een [bedrijfsrapport](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar komt voor uw organisatie onder **[!UICONTROL Project > New]** |
+   | **[!UICONTROL Save as company report]** | Uw project opslaan als een [bedrijfsrapport](/help/analyze/analysis-workspace/reports/create-company-reports.md) die beschikbaar komt voor uw organisatie onder **[!UICONTROL Project > New]** |
 
 ## Automatisch opslaan {#Autosave}
 

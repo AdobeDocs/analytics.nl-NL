@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '5254'
+source-wordcount: '5355'
 ht-degree: 24%
 
 ---
@@ -25,6 +25,10 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **december 2023** | |
+| Nieuwe sectie Rapporten | Een nieuwe sectie Rapporten toegevoegd met informatie over [het gebruiken van prebuilt rapporten](/help/analyze/analysis-workspace/reports/use-reports.md) en [bedrijfsrapporten maken en beheren](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| Updates van de documentatie van de analyse van de Anomaly Detection and Contribution Analysis | De documentatie voor de Analyse van de Detectie en van de Bijdrage van Anomaly werd eerder gevestigd in een sectie over Virtuele Analyst. De volgende wijzigingen zijn aangebracht: <ul><li>De term Virtual Analyst is uit de documentatie verwijderd.</li><li>De sectie over [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) is direct onder de sectie Analysis Workspace geplaatst.</li><li>De documentatie van de Analyse van de Bijdrage werd samengevoegd in de documentatie van de Detectie van de Anomaly.</li></ul> |
+| &quot;Attribution IQ &quot; gewijzigd in &quot;Attribution&quot; | Alle instanties van &quot;Attribution IQ&quot; zijn gewijzigd in &quot;[Attributie](/help/analyze/analysis-workspace/attribution/overview.md)&quot; in de documentatie. |
 | **November 2023** | |
 | Updates voor het onderwerp activering/activering van Activity Map | Toegevoegd [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (zowel handmatig als via Adobe Experience Platform-tagextensie) inhoud. |
 | **Oktober 2023** | |
