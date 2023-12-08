@@ -3,30 +3,30 @@ title: Volledige revisie
 description: Herzie uw implementatie om de 6 maanden om verdere aanpassing aan bedrijfsbehoeften en KPIs te verzekeren.
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # Volledige controle (voor het tweemaal per jaar controleren van uw implementatie)
 
-Waarom zou u uw implementatie om de 6 maanden moeten herzien? Omdat u moet ervoor zorgen dat uw implementatie op uw bedrijfsbehoeften afgestemd blijft! U wilt ook elk probleem met de gegevenskwaliteit aanpakken terwijl het klein is en voordat het zich uitbreidt tot belangrijke gegevensproblemen die het vertrouwen van de belanghebbenden kunnen ondermijnen. Naast deze Volledige Revisies om de 6 maanden moet u ook [Gerichte revisies](/help/implement/review/focused-review.md), na elke release van de website.
+Waarom zou u uw implementatie om de 6 maanden moeten herzien? Omdat u moet ervoor zorgen dat uw implementatie op uw bedrijfsbehoeften afgestemd blijft! U wilt ook om het even welke kwesties met gegevenskwaliteit behandelen terwijl zij klein zijn en alvorens zij tot belangrijke gegevenskwesties groeien die het vertrouwen van belanghebbenden zouden kunnen eroderen. Naast deze Volledige Revisies om de 6 maanden moet u ook [Gerichte revisies](/help/implement/review/focused-review.md), na elke websiterelease.
 
 ## 1. Zorg ervoor dat uw implementatie nog steeds volledig is afgestemd op onze bedrijfsbehoeften
 
 Ontmoet met de bedrijfseigenaar en/of analisten om de veranderende bedrijfsbehoeften te herzien. Voor om het even welke behoeften of metingskansen die momenteel niet door uw implementatie worden vervuld, bepaal hoe te om uw KPIs en metingsplannen bij te werken. Vergeet niet uw wijzigingen op te nemen in uw [BRD en SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
-## 2. Zorg ervoor dat uw metriek en variabelen nog goed functioneren
+## 2. Zorg ervoor dat de cijfers en variabelen nog steeds goed functioneren
 
 Bekijk kort al uw metriek en variabelen, in volgorde van belang voor de zaken, om ervoor te zorgen dat de gegevens correct verzamelen. Begin met uw belangrijkste metriek en variabelen - degenen verbonden aan uw [top 5 KPI&#39;s](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review). Dit doet u als volgt:
 
-* Maak dashboards om maandelijkse trended weergaven van uw metriek en variabelen weer te geven (of stel deze in) [intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) voor elke gegevens) om ervoor te zorgen dat u de gegevens krijgt die u verwacht en dat de gegevens correct zijn. Als u om het even welke discrepanties vindt, onderzoek uw gegevenslaag, de regels van de markeringsmanager, en verwerkingsregels om te weten te komen waarom.
+* Maak dashboards om maandelijkse trended weergaven van uw metriek en variabelen weer te geven (of stel deze in) [intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) voor elk) om ervoor te zorgen dat u de gegevens krijgt u verwacht, en de gegevens correct zijn. Als u om het even welke discrepanties vindt, onderzoek uw gegevenslaag, de regels van de markeringsmanager, en verwerkingsregels om te weten te komen waarom.
 * Voer de [Health Dashboard van Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) om brede tendensen van uw metriek en variabelen te controleren.
 
-Laat uw implementatie niet opgeblazen raken met maatstaven en variabelen die u niet nodig hebt. Schakel metriek of variabelen uit die het bedrijf niet meer nodig heeft of gebruikt. U kunt ze later verwijderen of opnieuw gebruiken.
+Sta niet uw implementatie toe om met metriek en variabelen worden opgeblazen u niet nodig hebt. Schakel metriek of variabelen uit die het bedrijf niet meer nodig heeft of gebruikt. U kunt ze later verwijderen of opnieuw gebruiken.
 
-## 3. KPI&#39;s vernieuwen
+## 3. Vernieuw uw KPI&#39;s
 
 Nu u een vernieuwde mening van de bedrijfsdoelstellingen hebt, herbeoordeelt of u inderdaad 5 hebt gekozen *meest* belangrijke prestatiekernindicatoren (KPI&#39;s). Je kunt er maar 5 hebben! Deze KPIs kan metriek zoals opbrengst, of berekende metriek zoals opbrengst per bezoek zijn, en de metriek kan ook variabelen hebben. Zie [De bovenste 5 KPI&#39;s definiëren](/help/implement/review/define-kpis.md) voor meer informatie .

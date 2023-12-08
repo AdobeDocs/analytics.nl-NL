@@ -3,10 +3,10 @@ title: Een ontwikkelimplementatie valideren en publiceren naar productie
 description: Leer hoe u Adobe Experience Platform-tags kunt gebruiken om Adobe Analytics in uw productieomgeving te implementeren.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 2%
+source-wordcount: '599'
+ht-degree: 0%
 
 ---
 
@@ -16,18 +16,18 @@ Zodra uw tagbibliotheek aan productie wordt geduwd, kan uw organisatie beginnen 
 
 ## Vereisten
 
-[Implementeer uw analytische implementatie in uw ontwikkelomgeving](deploy-dev.md): Er moet een analytische implementatie naar uw ontwikkelomgeving worden gepubliceerd om deze pagina te kunnen volgen.
+[Implementeer uw analytische implementatie in uw ontwikkelomgeving](deploy-dev.md): Er moet een analytische implementatie worden gepubliceerd naar uw ontwikkelomgeving om deze pagina te kunnen volgen.
 
-## Valideer uw dev implementatie gebruikend debugger van de Experience Cloud
+## Valideer uw dev implementatie gebruikend debugger van het Experience Cloud
 
-Foutopsporing Experience Cloud is een extensie die alle Experience Cloud-tags op een pagina weergeeft.
+Foutopsporing in Experience Cloud is een extensie die alle Experience Cloud-tags op een pagina weergeeft.
 
-1. Installeer de extensie voor een van de [Chroom](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) of [Firefox](https://addons.mozilla.org/nl/firefox/addon/adobe-experience-platform-dbg/).
+1. Installeer de extensie voor een van de [Chroom](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) of Firefox.
 2. Navigeer naar uw ontwikkelingswebsite waarop u tags hebt geïmplementeerd.
 3. Klik op het Adobe Experience Cloud-foutopsporingspictogram in uw browser.
 4. Als alles correct is geïmplementeerd, ziet u de inhoud in Adobe Analytics, tags en de Adobe Experience Cloud Visitor ID-service.
 
-## Implementeer uw dev-implementatie in stappen/vooruit
+## Implementeer uw ontwikkelimplementatie in stappen/vooruit
 
 Nadat u hebt bevestigd dat u gegevens ziet, kunt u uw implementatie naar de live versie van uw site duwen.
 
@@ -38,11 +38,11 @@ Nadat u hebt bevestigd dat u gegevens ziet, kunt u uw implementatie naar de live
 1. Klik nogmaals op de vervolgkeuzelijst van de bibliotheek (nu in de kolom Verzenden) en selecteer **[!UICONTROL Build for Staging]**.
 1. Na enkele ogenblikken wordt het geel gekleurde licht op de bibliotheek groen, wat aangeeft dat het is gemaakt.
 1. Klik nogmaals op de vervolgkeuzelijst van de bibliotheek en selecteer **[!UICONTROL Approve for Publishing]**.
-1. Klik nogmaals op de vervolgkeuzelijst van de bibliotheek (nu in het dialoogvenster [!UICONTROL Approved] kolom) en selecteer **[!UICONTROL Build and Publish to Production]**.
+1. Klik nogmaals op de vervolgkeuzelijst van de bibliotheek (nu in het dialoogvenster [!UICONTROL Approved] kolom) en selecteert u **[!UICONTROL Build and Publish to Production]**.
 1. Ga naar het tabblad Omgevingen en klik op **[!UICONTROL Production Environment]**.
 1. Kopieer de installatiecode voor de productie en geef deze door aan de eigenaars van uw website. Vraag of zij deze code in de productieomgeving van uw site willen implementeren.
 
-## De productieimplementatie valideren
+## Productie-implementatie valideren
 
 Bevestig dat u gegevens op de live versie van uw site ziet en dat u met de officiële gegevensverzameling voor Adobe Analytics begint.
 
@@ -51,18 +51,18 @@ Bevestig dat u gegevens op de live versie van uw site ziet en dat u met de offic
 
 ## Problemen oplossen
 
-**Er worden geen gegevens weergegeven in het foutopsporingsprogramma.**
+**Er worden geen gegevens weergegeven in de foutopsporing.**
 
 Open op uw site de ontwikkelaarsconsole van de browser (doorgaans F12). Bekijk de broncode van de pagina en zorg ervoor het volgende wordt voldaan:
 
 * De console bevat geen JavaScript-fouten. Werk samen met de eigenaars van uw website om ervoor te zorgen dat alle JS-fouten worden opgelost.
-* Koptekstcode is correct geïmplementeerd: Zorg ervoor dat de koptekstcode zich in de `<head>` en of het bestand bestaat.
-* De bibliotheek AppMeasurement bestaat: Navigeer rechtstreeks naar de JS-bron om ervoor te zorgen dat het JS-bestand code bevat. Als dit niet het geval is, moet u ervoor zorgen dat elke omgeving is gemaakt en dat de bibliotheek naar de desbetreffende omgeving wordt gepubliceerd.
-* Bezig met interfereren met extensies: Sommige extensies, zoals advertentieverblokkers, kunnen voorkomen dat verzoeken om afbeeldingen worden afgebroken. Schakel extensies uit die kunnen voorkomen dat gegevens naar Adobe worden verzonden.
+* De koptekstcode is correct geïmplementeerd: zorg ervoor dat de koptekstcode zich in de `<head>` en of het bestand bestaat.
+* Bibliotheek van AppMeasurement bestaat: ga rechtstreeks naar de JS-bron om te controleren of het JS-bestand code bevat. Als dit niet het geval is, moet u ervoor zorgen dat elke omgeving is gemaakt en dat de bibliotheek naar de desbetreffende omgeving wordt gepubliceerd.
+* Bezig met interfereren met extensies: sommige extensies, zoals ad-blockers, kunnen voorkomen dat afbeeldingsaanvragen worden afgebroken. Schakel extensies uit die kunnen voorkomen dat gegevens naar de Adobe worden verzonden.
 
 ## Volgende stappen
 
 Nu een basisimplementatie is ingesteld, kan uw rol binnen uw organisatie van invloed zijn op welk pad u meer wilt weten over:
 
 * [Een document voor het ontwerp van een oplossing maken](../prepare/solution-design.md): Maak een plan voor hoe u douanevariabelen wilt gebruiken, dan hen opnemen in uw implementatie
-* [Ga aan de slag met Analysis Workspace](/help/analyze/analysis-workspace/home.md): Ga naar Adobe Analytics met de vlaggenschipfunctie van het gereedschap.
+* [Ga aan de slag met Analysis Workspace](/help/analyze/analysis-workspace/home.md): Rand direct naar Adobe Analytics met behulp van de vlaggenschipfunctie van het gereedschap.
