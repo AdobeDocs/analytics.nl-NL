@@ -3,9 +3,9 @@ description: Opeenvolgende segmenten worden gemaakt met behulp van de operator T
 title: Opeenvolgende segmenten maken
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
 workflow-type: tm+mt
-source-wordcount: '3658'
+source-wordcount: '3710'
 ht-degree: 1%
 
 ---
@@ -37,12 +37,12 @@ Wanneer u een segment maakt waarin Inclusief iedereen is ingesteld, identificeer
 
 De opties **[!UICONTROL Only Before Sequence]** en **[!UICONTROL Only After Sequence]** filtert het segment aan een ondergroep van gegevens vóór of na de gespecificeerde opeenvolging.
 
-* **Alleen voor reeks**: Bevat alle treffers vóór een reeks + de eerste treffer van de reeks zelf (zie voorbeeld 1, 3). Als een reeks meerdere keren in een pad wordt weergegeven, bevat &quot;Alleen voor reeks&quot; de eerste treffer van de laatste instantie van de reeks en alle vorige treffers (zie voorbeeld 2).
+* **Alleen voor reeks**: Hiermee worden alle treffers vóór een reeks + de eerste treffer van de reeks zelf opgenomen (zie voorbeeld 1, 3). Als een reeks meerdere keren in een pad wordt weergegeven, bevat &quot;Alleen voor reeks&quot; de eerste treffer van de laatste instantie van de reeks en alle vorige treffers (zie voorbeeld 2).
 * **Alleen na reeks**: Bevat alle treffers na een reeks + de laatste treffer van de reeks zelf (zie voorbeeld 1, 3). Als een reeks meerdere keren in een pad wordt weergegeven, bevat &quot;Alleen na&quot; de laatste hit van de eerste instantie van de reeks en alle volgende treffers (zie voorbeeld 2).
 
 Neem bijvoorbeeld de volgorde B -> D. De drie filters zouden klappen als volgt identificeren:
 
-**Voorbeeld 1: B en D worden één keer weergegeven**
+**Voorbeeld 1: B en D verschijnen eenmaal**
 
 | Voorbeeld | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
@@ -50,7 +50,7 @@ Neem bijvoorbeeld de volgorde B -> D. De drie filters zouden klappen als volgt i
 | Alleen voor reeks | A | B |  |  |  |  |
 | Alleen na reeks |  |  |  | D | E | F |
 
-**Voorbeeld 2: B en D worden meerdere keren weergegeven**
+**Voorbeeld 2: B dan D wordt meerdere keren weergegeven**
 
 | Voorbeeld | A | B | C | D | B | C | D | E |
 |---|---|---|---|---|---|---|---|---|
@@ -64,7 +64,7 @@ Laten we dit concept ook omringen met de dimensie van de Diepte van het Actief.
 
 ![](assets/hit-depth.png)
 
-## Dimension-restricties {#section_EAFD755F8E674F32BCE9B642F7F909DB}
+## Beperkingen Dimension {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
 In een &quot;binnen&quot;clausule, binnen tussen VEREN verklaringen, kunt u, bijvoorbeeld, &quot;binnen 1 onderzoek sleutelwoordinstantie&quot;toevoegen, &quot;binnen 1 eVar 47 instantie&quot;. Dit beperkt het segment tot binnen één instantie van een dimensie.
 
@@ -77,7 +77,7 @@ Door een component &#39;Binnen Dimension&#39; tussen regels in te stellen, kan e
 | Overeenkomsten | A then B |
 | Komt niet overeen | A then C then B (omdat B zich niet binnen 1 pagina van A bevond)<br>**Opmerking:**  Als de afmetingsbeperking wordt geschrapt, &quot;A toen B&quot;en &quot;A toen C dan B&quot;allebei aanpast. |
 
-## Eenvoudige weergavevolgorde van pagina&#39;s
+## Eenvoudige paginaweergavevolgorde
 
 Geef bezoekers op die een pagina hebben weergegeven en bekijk vervolgens een andere pagina. De gegevens op hit-level gegevens zullen deze opeenvolging ongeacht vorige, afgelopen, of tussentijdse bezoeken zittingen of de tijd of het aantal paginameningen filtreren die tussen voorkomen.
 
@@ -92,7 +92,7 @@ Hieronder ziet u voorbeelden van hoe het segment kan worden gebruikt.
 
 **Dit segment maken**
 
-U negeert twee paginalijnen binnen een bovenste niveau [!UICONTROL Visitor] container en reeks de pagina-treffers met behulp van de [!UICONTROL THEN] operator.
+U negeert twee paginalijnen binnen een bovenste regel [!UICONTROL Visitor] container en reeks de pagina-treffers met behulp van de [!UICONTROL THEN] operator.
 
 ![](assets/segment_sequential_1.png)
 
@@ -151,7 +151,7 @@ Hieronder volgen voorbeelden van de manier waarop dit type segment kan worden ge
 
 **Dit segment maken**
 
-1. Selecteer [!UICONTROL Visitor] container als container op hoofdniveau.
+1. Selecteer de [!UICONTROL Visitor] container als container op hoofdniveau.
 1. Twee toevoegen [!UICONTROL Hit]-level container-een afmeting met een aangewezen numerieke afmeting die bij het zelfde wordt aangesloten [!UICONTROL Hit] door de [!UICONTROL AND] en [!UICONTROL OR] operator.
 1. Binnen de [!UICONTROL Visit] container toevoegen [!UICONTROL Hit] container en nesten twee extra [!UICONTROL Hit] containers verbonden met een [!UICONTROL OR] of [!UICONTROL AND] operator.
 
@@ -177,7 +177,7 @@ Door controlepunten op beide plaatsen te plaatsen [!UICONTROL Visit] en [!UICONT
 
 ## hits uitsluiten
 
-De segmentregels bevatten alle gegevens, tenzij u deze specifiek uitsluit [!UICONTROL Visitor], [!UICONTROL Visit], of [!UICONTROL Hit] gegevens die [!UICONTROL Exclude] regel. Hiermee kunt u algemene gegevens negeren en segmenten met meer focus maken. U kunt ook segmenten maken, met uitzondering van gevonden groepen, om de resterende gegevensset te identificeren, zoals het maken van een regel die succesvolle bezoekers die bestellingen hebben geplaatst bevat en vervolgens het uitsluiten van deze groepen om &quot;niet-kopers&quot; te identificeren. In de meeste gevallen is het echter beter om regels te maken die brede waarden uitsluiten in plaats van te proberen de [!UICONTROL Exclude] regel om specifieke waarden te richten omvat waarden.
+De segmentregels bevatten alle gegevens, tenzij u deze specifiek uitsluit [!UICONTROL Visitor], [!UICONTROL Visit], of [!UICONTROL Hit] gegevens die de [!UICONTROL Exclude] regel. Hiermee kunt u algemene gegevens negeren en segmenten met meer focus maken. U kunt ook segmenten maken, met uitzondering van gevonden groepen, om de resterende gegevensset te identificeren, zoals het maken van een regel die succesvolle bezoekers die bestellingen hebben geplaatst bevat en vervolgens het uitsluiten van deze groepen om &quot;niet-kopers&quot; te identificeren. In de meeste gevallen is het echter beter om regels te maken die brede waarden uitsluiten in plaats van te proberen de [!UICONTROL Exclude] regel om specifieke waarden te richten omvat waarden.
 
 Bijvoorbeeld:
 
@@ -210,7 +210,7 @@ Creeer een segment zoals u voor een eenvoudig, gemengd niveau, of genestelde ope
 
 Als het uitsluit controlepunt aan het begin van een opeenvolgend segment is, dan zorgt het ervoor dat een uitgesloten paginamening niet vóór de eerste niet-uitgesloten slag voorkwam.
 
-Een restaurant wil bijvoorbeeld onvindbare gebruikers zien die de hoofdbestemmingspagina vermijden en rechtstreeks naar de pagina Bestellen uit gaan. Dit voorbeeld kan voor een bezoeker worden vereenvoudigd, waarbij bezoekende pagina A wordt vermeden en rechtstreeks naar pagina B wordt gegaan.
+Een restaurant wil bijvoorbeeld gebruikers zien die de hoofdbestemmingspagina vaak niet hoeven te gebruiken en rechtstreeks naar de pagina Bestellen uit gaan. U kunt deze gegevens weergeven door hits naar de bestemmingspagina uit te sluiten en door resultaten naar de pagina Bestellen uit op te nemen in een opeenvolgend segment.
 
 **Dit segment maken**
 
@@ -241,7 +241,7 @@ De [!UICONTROL Logic Group] container is ontworpen voor behandeling *meerdere co
 
 | Containerhiërarchie | Illustratie | Definitie |
 |---|---|---|
-| Standaard containerhiërarchie | ![](assets/nesting_container.png) | Binnen de [!UICONTROL Visitor] de [!UICONTROL Visit] en [!UICONTROL Hit] containers worden op volgorde genest om segmenten te extraheren op basis van hits, het aantal bezoeken en de bezoeker. |
+| Standaard containerhiërarchie | ![](assets/nesting_container.png) | Binnen de [!UICONTROL Visitor] container, de [!UICONTROL Visit] en [!UICONTROL Hit] containers worden op volgorde genest om segmenten te extraheren op basis van hits, het aantal bezoeken en de bezoeker. |
 | Logische containerhiërarchie | ![](assets/logic_group_hierarchy.png) | De standaardcontainerhiërarchie is ook vereist buiten de [!UICONTROL Logic Group] container. Maar in de [!UICONTROL Logic Group] voor de controlepunten is er geen vaste volgorde of hiërarchie vereist. De bezoeker moet in willekeurige volgorde aan deze controlepunten voldoen. |
 
 Logische groepen lijken ontmoedigend. Hier volgen enkele aanbevolen procedures voor het gebruik ervan:
@@ -272,7 +272,7 @@ Zoals andere containers, [!UICONTROL Logic Group] containers kunnen op meerdere 
 1. Sleep afmetingen, gebeurtenissen of segmenten vanuit de linkerdeelvensters.
 1. De bovenste container wijzigen in een [!UICONTROL Visitor] container.
 1. Wijzig de [!UICONTROL AND] of [!UICONTROL OR] operator die standaard wordt ingevoegd door de operator THEN.
-1. Selecteer [!UICONTROL Hit] containers (de Dimension, de Gebeurtenis, of het Punt) en klik **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**.
+1. Selecteer de [!UICONTROL Hit] containers (het Dimension, de Gebeurtenis, of het Punt) en klik **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**.
 1. Klik op het containerpictogram en selecteer **[!UICONTROL Logic Group]**.  ![](assets/logic_group_checkpoints.png)
 1. U kunt nu de [!UICONTROL Hit] binnen de [!UICONTROL Logic Group] container zonder rekening te houden met hiërarchie.
 
@@ -284,7 +284,7 @@ Met de [!UICONTROL Logic Group] Hiermee kunt u voldoen aan voorwaarden binnen di
 
 **Dit segment maken**
 
-Pagina B en C zijn genest in een [!UICONTROL Logic Group] container in de buitenzijde [!UICONTROL Visitor] container. De [!UICONTROL Hit] container voor A wordt gevolgd door [!UICONTROL Logic Group] container met B en C geïdentificeerd met behulp van [!UICONTROL AND] operator. Omdat het in [!UICONTROL Logic Group]De volgorde is echter niet gedefinieerd en als u pagina B en C aanslaat, wordt het argument waar.
+Pagina B en C zijn genest in een [!UICONTROL Logic Group] container in de buitenzijde [!UICONTROL Visitor] container. De [!UICONTROL Hit] container voor A wordt gevolgd door [!UICONTROL Logic Group] container met B en C, geïdentificeerd met behulp van [!UICONTROL AND] operator. Omdat het in [!UICONTROL Logic Group]De volgorde is echter niet gedefinieerd en als u pagina B en C aanslaat, wordt het argument waar.
 
 ![](assets/logic_group_any_order2.png)
 
@@ -298,7 +298,7 @@ Het segment moet op lease-basis overeenkomen met een van de controlepunten van d
 
 Met de [!UICONTROL Logic Group] Hiermee kunt u voldoen aan voorwaarden binnen die groep die buiten de reeks vallen. In dit ongeordende eerste overeenkomende segment, [!UICONTROL Logic Group] De regels worden eerst aangeduid als een paginaweergave van pagina B of pagina C en daarna als de vereiste weergave van pagina A.
 
-**Voorbeeld**: Bezoekers die pagina B of pagina C hebben bezocht, bezochten vervolgens pagina A.
+**Voorbeeld**: Bezoekers die pagina B of pagina C hebben bezocht en vervolgens pagina A hebben bezocht.
 
 **Dit segment maken**
 
@@ -310,11 +310,11 @@ Pagina B en pagina C worden gegroepeerd in een [!UICONTROL Logic Group] containe
 
 Segmenten samenstellen met de opdracht [!UICONTROL Logic Group] waarin meerdere paginaweergaven worden samengevoegd om te bepalen welke pagina&#39;s moesten worden gevonden terwijl andere pagina&#39;s specifiek werden overgeslagen. ****
 
-**Voorbeeld**: Bezoeker heeft pagina A bezocht en heeft vervolgens expliciet pagina B of C niet bezocht, maar pagina D gevonden.
+**Voorbeeld**: Bezoeker heeft pagina A bezocht, heeft pagina B of C dan expliciet niet bezocht, maar pagina D gevonden.
 
 **Dit segment maken**
 
-Bouw dit segment door Dimension, Gebeurtenissen, en pre-gebouwde Segmenten van de linkerruiten te slepen. Zie [Een segment voor een logische groep maken](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+Bouw dit segment door Dimensionen, Gebeurtenissen, en pre-gebouwde Segmenten van de linkerruiten te slepen. Zie [Een segment voor een logische groep maken](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 Na het nesten van de waarden binnen [!UICONTROL Logic Group]klikt u op de knop **[!UICONTROL Exclude]** in de [!UICONTROL Logic Group] container.
 
@@ -330,7 +330,7 @@ Segmenten samenstellen met de opdracht [!UICONTROL Logic Group] waarin meerdere 
 
 De eerste B- en C-pagina&#39;s worden in een [!UICONTROL Logic Group] container die is uitgesloten en vervolgens door de bezoeker op pagina A wordt geraakt.
 
-Bouw dit segment door Dimension, Gebeurtenissen, en pre-gebouwde Segmenten van de linkerruiten te slepen.
+Bouw dit segment door Dimensionen, Gebeurtenissen, en pre-gebouwde Segmenten van de linkerruiten te slepen.
 
 Na het nesten van de waarden binnen [!UICONTROL Logic Group]klikt u op de knop **[!UICONTROL Exclude]** in de [!UICONTROL Logic Group] container.
 
@@ -342,7 +342,7 @@ Gebruik de [!UICONTROL Within] en [!UICONTROL After] operatoren die zijn ingebou
 
 ![](assets/then_within_operators.png)
 
-U kunt de overeenkomst beperken tot een bepaalde tijdsduur door de [!UICONTROL Within] en [!UICONTROL After] containers en geeft een granulariteit en aantal op. De [!UICONTROL Within] wordt gebruikt om een maximale tijdlimiet op te geven tussen twee controlepunten. De [!UICONTROL After] wordt gebruikt om een minimumlimiet op te geven voor de tijd tussen twee controlepunten.
+U kunt de overeenkomst beperken tot een bepaalde tijdsduur door de [!UICONTROL Within] en [!UICONTROL After] containers en geeft een granulariteit en aantal op. De [!UICONTROL Within] wordt gebruikt om een maximumlimiet op te geven voor de hoeveelheid tijd tussen twee controlepunten. De [!UICONTROL After] wordt gebruikt om een minimumlimiet op te geven voor de tijd tussen twee controlepunten.
 
 ### Operatoren voor na en binnen {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
@@ -363,7 +363,7 @@ De duur wordt opgegeven met één hoofdletter die de granulariteit vertegenwoord
 * De tijd na laat u door jaar, maand, dag, uur, en minuut volgen om bezoeken aan te passen.
 * Tijd na kan slechts op worden toegepast [!UICONTROL Hit] container, omdat dit het enige niveau is waarvoor een dergelijke fijne korreligheid wordt gedefinieerd.
 
-**Voorbeeld**: Bezoekers die pagina A bezochten, bezochten pagina B pas na 2 weken.****
+**Voorbeeld**: Bezoekers die pagina A bezochten, bezochten pagina B pas na twee weken.****
 
 ![](assets/time_between_after_operator.png)
 
@@ -377,7 +377,7 @@ Als op 1 juni 2019, om 00:01, een hit naar pagina A wordt weergegeven als &quot;
 
 | Druk op A | Hit B | Overeenkomend |
 |--- |--- |--- |
-| **A** hit: 1 juni 2019 00:01 | **B** hit: 15 jun. 2019 00:01 | **Overeenkomsten:** Deze tijdbeperking komt overeen omdat deze na 1 juni 2019 (twee weken) is. |
+| **A** hit: 1 juni 2019 00:01 | **B** hit: 15 juni 2019 00:01 | **Overeenkomsten:** Deze tijdbeperking komt overeen omdat deze na 1 juni 2019 (twee weken) is. |
 | **A** hit: 1 juni 2019 00:01 | **B** hit: 8 juni 2019 00:01 B hit: 15 juni 2019 00:01 | **Komt niet overeen:** De eerste treffer op pagina B komt niet overeen, omdat deze in strijd is met de vereiste beperking na twee weken. |
 
 ### De operator Within gebruiken
@@ -389,11 +389,11 @@ Als op 1 juni 2019, om 00:01, een hit naar pagina A wordt weergegeven als &quot;
 >
 >In een &quot;binnen&quot;clausule, binnen tussen VEREN verklaringen, kunt u, bijvoorbeeld, &quot;binnen 1 onderzoek sleutelwoordinstantie&quot;toevoegen, &quot;binnen 1 eVar 47 instantie&quot;. Dit beperkt het segment tot binnen één instantie van een dimensie.
 
-**Voorbeeld**: Bezoekers die pagina A bezochten, bezochten vervolgens pagina B binnen 5 minuten.
+**Voorbeeld**: Bezoekers die pagina A hebben bezocht, hebben pagina B binnen 5 minuten bezocht.
 
 ![](assets/time_between_within_operator.png)
 
-**Het segment maken**: Dit segment wordt gemaakt door een [!UICONTROL Visitor] container, vervolgens slepen met twee [!UICONTROL Hit] containers. U kunt vervolgens de [!UICONTROL THEN] en opent u de [!UICONTROL AFTER] daling onderaan van exploitant en plaats het interval: hits, paginaweergaven, bezoeken, minuten, uren, dagen, weken, maanden, kwartalen of jaren.
+**Het segment maken**: Dit segment wordt gemaakt door een [!UICONTROL Visitor] container, vervolgens slepen met twee [!UICONTROL Hit] containers. U kunt vervolgens de [!UICONTROL THEN] en opent u de [!UICONTROL AFTER] de exploitant laat vallen neer en bepaalt het interval: klappen, paginameningen, bezoeken, notulen, uren, dagen, weken, maanden, kwartalen, of jaren.
 
 ![](assets/within_operator.png)
 
@@ -405,7 +405,7 @@ De overeenkomsten moeten binnen de tijdslimiet voorkomen. Als een bezoeker pagin
 
 Gebruiken [!UICONTROL Within] en [!UICONTROL After] om een maximum en minimumeindpunt op beide einden van een segment te verstrekken.
 
-**Voorbeeld**: Bezoekers die pagina A bezochten, bezochten pagina B na twee weken maar binnen één maand.
+**Voorbeeld**: Bezoekers die pagina A bezochten, bezochten pagina B na 2 weken maar binnen 1 maand.
 
 ![](assets/time_between_using_both_operators.png)
 
