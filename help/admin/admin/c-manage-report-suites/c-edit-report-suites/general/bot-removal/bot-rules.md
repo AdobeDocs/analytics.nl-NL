@@ -1,43 +1,68 @@
 ---
 description: Met beide regels kunt u verkeer verwijderen dat wordt gegenereerd door bekende spinnen en bots uit uw rapportsuite. Door beide verkeer te verwijderen, kunt u de gebruikersactiviteit op uw website nauwkeuriger meten.
-title: Bot Rules - overzicht
+title: Begrijp en vorm beide regels
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 7813900a7c104acdb9b1a3ebfadf597a5070a3e7
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
 
-# Bot Rules - overzicht
+# Begrijp en vorm beide regels
 
 Met beide regels kunt u verkeer verwijderen uit uw rapportsuite die wordt gegenereerd door bekende spinnen en bots. Door beide verkeer te verwijderen, kunt u de gebruikersactiviteit op uw website nauwkeuriger meten.
 
-Hier is een video over het configureren van beide regels:
+Nadat beide regels zijn gedefinieerd, wordt al het inkomende verkeer vergeleken met de gedefinieerde regels. Het verkeer dat om het even welk van deze regels aanpast wordt niet verzameld in de rapportreeks en is niet inbegrepen in verkeersmetriek.
+
+Het verwijderen van beide verkeer vermindert typisch het volume van verkeer en omzettingsmetriek. Vele klanten vinden dat het verwijderen van beide verkeer in verhoogde omzettingspercentages en verhogingen van andere bruikbaarheidsmetriek resulteert.
+
+Beide verkeersgegevens worden opgeslagen in een aparte gegevensopslagruimte die kan worden weergegeven in de rapporten Bots en Bot Pages.
+
+## Beide regels bijwerken of uploaden
+
+>[!IMPORTANT]
+>
+>Alvorens beide verkeer te verwijderen, moet u met de belanghebbenden communiceren om ervoor te zorgen dat zij als gevolg van deze wijziging de noodzakelijke aanpassingen kunnen aanbrengen in de belangrijkste prestatie-indicatoren. Indien mogelijk, adviseren wij eerst verwijderend beide verkeer van een kleine rapportreeks om de potentiële impact te schatten.
+
+In de volgende video ziet u hoe u beide regels configureert:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
 
-Nadat beide regels zijn gedefinieerd, wordt al het inkomende verkeer vergeleken met de gedefinieerde regels. Het verkeer dat om het even welk van deze regels aanpast wordt niet verzameld in de rapportreeks en is niet inbegrepen in verkeersmetriek.
+Om beide regels bij te werken of te uploaden:
 
-Als u beide regels wilt bijwerken of uploaden, navigeert u naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. Selecteer de juiste rapportsuite en ga naar **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
+1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-Het verwijderen van beide verkeer vermindert typisch het volume van verkeer en omzettingsmetriek. Vele klanten vinden dat het verwijderen van beide verkeer in verhoogde omzettingspercentages en verhogingen van andere bruikbaarheidsmetriek resulteert. Alvorens beide verkeer te verwijderen, moet u met de belanghebbenden communiceren om ervoor te zorgen dat zij als gevolg van deze wijziging de noodzakelijke aanpassingen kunnen aanbrengen in de belangrijkste prestatie-indicatoren. Indien mogelijk, adviseren wij eerst verwijderend beide verkeer van een kleine rapportreeks om de potentiële impact te schatten.
+1. Selecteer de rapportsuite waar u beide regels wilt bijwerken en selecteer vervolgens **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
 
-Beide verkeersgegevens worden opgeslagen in een aparte gegevensopslagruimte die kan worden weergegeven in de rapporten Bots en Bot Pages. Er zijn twee opties om beide filters in te schakelen:
+1. Gebruik een van de volgende opties om beide regels voor de rapportsuite bij te werken of te uploaden:
 
-| Type regel | Beschrijving |
-|--- |--- |
-| Standaardregels voor IAB-bot | Selecteren [!UICONTROL Enable IAB Bot Filtering Rules] gebruikt de [IAB&#39;s](https://www.iab.com) (International Advertising Bureau) International Spiders &amp; Bots List om beide verkeer te verwijderen. De meeste klanten selecteren deze optie op een minimum. |
-| Aangepaste botregels | U kunt de regels van de douanebot bepalen en toevoegen die op gebruikersagenten, IP adressen of IP waaiers worden gebaseerd. |
+   * Selecteren [!UICONTROL **IAB-regels voor beide filters inschakelen**] om bots te verwijderen uit de International Spiders &amp; Bots List van IAB (International Advertising Bureau) om beide verkeer te verwijderen.
+
+     We raden u aan deze optie minimaal te selecteren.
+
+     Zie de volgende sectie voor meer informatie: [Standaardregels voor IAB-bot](#standard-iab-bot-rules).
+
+   * Selecteren [!UICONTROL **Regel toevoegen**] om de regels van de douanebot te bepalen en toe te voegen die op gebruikersagenten, IP adressen of IP waaiers worden gebaseerd.
+
+     Zie de volgende sectie voor meer informatie: [Aangepaste botregels](#custom-bot-rules).
+
+   * Naast de [!UICONTROL **Selecteer CSV Bot-bestand om te importeren**] gebied, selecteren [!UICONTROL **Bestand kiezen**] Selecteer vervolgens het CSV-bestand dat de beide regels definieert.
+
+     Zie de volgende sectie voor meer informatie: [Boterregels uploaden](#upload-bot-rules).
+
+1. Selecteren [!UICONTROL **Opslaan**].
 
 ## Standaardregels voor IAB-bot
 
-Standaard IAB-botregels kunnen worden ingeschakeld door de [!UICONTROL Enable IAB Bot Filtering Rules] selectievakje. Deze selectie zal bots verwijderen uit de International Spiders &amp; Bots List van IAB (International Advertising Bureau) om beide verkeer te verwijderen. Adobe werkt deze lijst van IAB maandelijks bij.
+Standaard IAB-botregels kunnen worden ingeschakeld door de [!UICONTROL Enable IAB Bot Filtering Rules] selectievakje. Deze selectie zal bots verwijderen uit de International Spiders &amp; Bots List van IAB (International Advertising Bureau) om beide verkeer te verwijderen. Adobe werkt deze lijst van de IAB maandelijks bij.
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-iab-checkbox.png)
 
-Adobe kan de gedetailleerde IAB-bonenlijst niet aan klanten aanbieden, maar u kunt het Bots-rapport gebruiken om een lijst weer te geven met bots die toegang hebben tot uw site. Als u een beide naar de IAB-lijst wilt verzenden, gaat u naar [IAB](https://www.iab.com).
+De Adobe kan de gedetailleerde IAB-lijst niet aan klanten verstrekken, hoewel u het Bots-rapport kunt gebruiken om een lijst met bots te bekijken die toegang hebben tot uw site. Als u een beide naar de IAB-lijst wilt verzenden, gaat u naar [IAB](https://www.iab.com).
+
+Voor informatie over hoe te om standaardIAB bot regels in een rapportreeks toe te laten, zie [Beide regels bijwerken of uploaden](#update-or-upload-bot-rules).
 
 ## Aangepaste botregels
 
@@ -45,7 +70,7 @@ Adobe kan de gedetailleerde IAB-bonenlijst niet aan klanten aanbieden, maar u ku
 >
 >In de gebruikersinterface kunnen 500 regels handmatig worden gedefinieerd. Nadat deze limiet is bereikt, moeten de regels bulksgewijs worden beheerd via de opties voor het importeren van bestanden en het exporteren van regels.
 
-Met aangepaste botregels kunt u op verkeer gebaseerde voorwaarden die u definieert, filteren.
+Met aangepaste botregels kunt u op verkeer gebaseerde voorwaarden die u definieert, filteren. Als u wilt beginnen met het inschakelen van aangepaste botregels in een rapportenpakket, raadpleegt u [Beide regels bijwerken of uploaden](#update-or-upload-bot-rules).
 
 De regels voor aangepaste bones worden gedefinieerd met behulp van de volgende voorwaardetypen:
 
@@ -65,7 +90,7 @@ De **[!UICONTROL contains]** veld mag maximaal 100 tekens bevatten. De lijst bev
 
 ### IP Adres (met inbegrip van vervangingsgelijken)
 
-Komt overeen met een IP-adres of meerdere adressen in hetzelfde blok met jokertekens (&#42;). Geef de numerieke waarden op van het IP-adres dat u wilt afstemmen. Vervangend &#42; voor alle waarden die u met een jokerteken wilt laten overeenkomen. De volgende lijst bevat voorbeelden van IP het koord van de adresgelijke:
+Komt een IP adres of veelvoudige adressen in het zelfde blok met vervangingen (&#42;). Geef de numerieke waarden op van het IP-adres dat u wilt afstemmen. Vervangend &#42; voor alle waarden die u met een jokerteken wilt laten overeenkomen. De volgende lijst bevat voorbeelden van IP het koord van de adresgelijke:
 
 ```
 10.10.10.1
@@ -82,41 +107,56 @@ Verstrek de begin en eindwaaiers van de IP adressen om aan te passen. Vervangend
 1. Klikken **[!UICONTROL Add Rule]** en definieert u een of meer voorwaarden.
 1. Klik op **[!UICONTROL Save]**. De wijziging moet binnen 30 minuten van kracht worden.
 
-## Regels voor het uploaden van boten
+## Boterregels uploaden
 
 Als u beide regels voor bulkimport wilt opgeven, kunt u een CSV-bestand uploaden dat de regels definieert.
 
-Maak een CSV-bestand met de volgende kolommen in de aangegeven volgorde:
+1. Als u wilt beginnen met het uploaden van beide regels naar een rapportsuite, raadpleegt u [Beide regels bijwerken of uploaden](#update-or-upload-bot-rules).
 
-| Kolom 1 | Kolom 2 | Kolom 3 | Kolom 4 | Kolom 5 |
-|--- |--- |---|---|---|
-| Bot-naam | IP-begin | IP-einde | Agent Match-regel<br>(bevat of begint met)</br> | Agent Exclude<br>(Maximaal 255 tekens)</br> |
+1. Maak een CSV-bestand met de volgende kolommen in rij 1 van het werkblad en in de aangegeven volgorde:
 
-U kunt drie soorten beide regels definiëren:
+   | Kolom 1, rij 1 | Kolom 2, rij 1 | Kolom 3, rij 1 | Kolom 4, rij 1 | Kolom 5, rij 1 | Kolom 6, rij 1 |
+   |--- |--- |---|---|---|---|
+   | Bot-naam | Beginnen met IP | IP-einde | Regel<br>(bevat of begint met)</br> | Gebruikersagent opnemen | Uitsluiting gebruikersagent<br>(Maximaal 255 tekens)</br> |
 
-* Gebruikersagent bevat of begint met
-* Enig IP adres of vervangingsgelijke
-* IP-bereik
+   U kunt drie soorten beide regels definiëren:
 
-Elke rij in het importbestand kan slechts een van de volgende twee definities bevatten:
+   * Gebruikersagent bevat of begint met
+   * Enkel IP-adres of jokerteken
+   * IP-bereik
 
-* **Gebruikersagent bevat of begint met**: Verstrek één enkel koord van de gebruikersagent om in de Agent te passen omvat kolom. Geef het type overeenkomst op dat u wilt uitvoeren door *contains* of *begint met* in het gebied van de Regel van de Overeenkomst van de Agent. Een facultatieve waarde kan in de kolom van de Uitsluiting van de Agent omvatten die één of meerdere door buizen-afgebakende ( `|` ) die de Agent niet bevat. Tekenreeksovereenkomsten zijn niet hoofdlettergevoelig. Zowel moeten de IP kolommen van het Begin als IP van het Eind leeg zijn.
+   Elke rij in het importbestand kan slechts een van de volgende twee definities bevatten:
 
-* **Enig IP adres of vervangingsgelijke**: Eén IP-adres ( `10.10.10.1`) of IP-adres met jokerteken ( `10.10.*.*`), plaats de zelfde waarde in zowel de IP kolommen van het Begin als van het IP Eind. De Regel van de gelijke, Agent omvat, en de Uitsluiting van de Agent moet leeg zijn.
+   >[!NOTE]
+   >
+   >   Om een bot aan te passen die een combinatie regels gebruikt die met OF (bijvoorbeeld, gebruikersagent of IP adres) worden verbonden, verstrek een identieke naam voor alle regels die u op het gebied van de beide naam wilt combineren. EN overeenkomsten worden niet ondersteund.
 
-* **IP-bereik**: Bepaal een waaier van IP adressen gebruikend de IP kolommen van het Begin en IP Eind. Jokertekens kunnen bijvoorbeeld worden gebruikt om IP-bereiken aan te passen `10.10.10.*` tot `10.10.20.*`. De Regel van de gelijke, Agent omvat, en de Uitsluiting van de Agent moet leeg zijn.
 
-### Meerdere regels gecombineerd met OF
+   * **Gebruikersagent bevat of begint met**: Verstrek één enkel koord van de gebruikersagent om in de Agent te passen omvat kolom. Geef het gewenste type overeenkomst op door *contains* of *begint met* in het gebied van de Regel van de Overeenkomst van de Agent. Een facultatieve waarde kan in de kolom van de Uitsluiting van de Agent omvatten die één of meerdere door buizen-afgebakende ( `|` ) die de Agent niet bevat. Tekenreeksovereenkomsten zijn niet hoofdlettergevoelig. Zowel moeten de IP kolommen van het Begin als IP van het Eind leeg zijn.
 
-Om een bot aan te passen die een combinatie regels gebruikt die met OF (bijvoorbeeld, gebruikersagent of IP adres) worden verbonden, verstrek een identieke naam voor alle regels die u op het gebied van de beide naam wilt combineren. EN overeenkomsten worden niet ondersteund.
+   * **Enkel IP-adres of jokerteken**: Eén IP-adres zoeken ( `10.10.10.1`) of IP-adres met jokerteken ( `10.10.*.*`), plaats de zelfde waarde in zowel de IP kolommen van het Begin als van het IP Eind. De Regel van de gelijke, Agent omvat, en de Uitsluiting van de Agent moet leeg zijn.
 
-### Alle regels overschrijven met een geüpload bestand
+   * **IP-bereik**: Bepaal een waaier van IP adressen gebruikend de IP kolommen van het Begin en IP Eind. Jokertekens kunnen bijvoorbeeld worden gebruikt om IP-bereiken aan te passen `10.10.10.*` tot `10.10.20.*`. De Regel van de gelijke, Agent omvat, en de Uitsluiting van de Agent moet leeg zijn.
 
-Selecteer **[!UICONTROL Overwrite existing rules]** Schakel het selectievakje in om alle bestaande regels te verwijderen en deze te vervangen door de regels die zijn gedefinieerd in het uploadbestand.
+1. Op de pagina Bot Rules in Report Suite Manager, naast de pagina [!UICONTROL **Selecteer CSV Bot-bestand om te importeren**] gebied, selecteren [!UICONTROL **Bestand kiezen**] Selecteer vervolgens het CSV-bestand waarin de beide regels worden gedefinieerd die u wilt importeren.
 
-### Exportregels
+1. (Optioneel) Selecteer de optie **[!UICONTROL Overwrite existing rules]** Schakel het selectievakje in om alle bestaande regels te verwijderen en deze te vervangen door de regels die zijn gedefinieerd in het uploadbestand.
 
-De **[!UICONTROL Export Uploaded Bot File]** exporteert alle regels die in de gebruikersinterface zijn gedefinieerd in een CSV-indeling.
+1. Selecteren [!UICONTROL **Bestand importeren**].
+
+1. In de [!UICONTROL **Regelsets**] te controleren.
+
+1. Selecteren [!UICONTROL **Opslaan**].
+
+## Boterbouwregels exporteren
+
+Alle regels die in de gebruikersinterface zijn gedefinieerd, exporteren in een CSV-indeling:
+
+1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+
+1. Selecteer de rapportsuite die de beide regels bevat die u wilt exporteren en selecteer vervolgens **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
+
+1. Selecteren **[!UICONTROL Export Bot Rules]** Sla het CSV-bestand vervolgens op in uw bestandssysteem.
 
 ## Gevolgen van beide regels voor gegevensverzameling {#section_F01A3130E7A04A9993371CF26F6586F2}
 

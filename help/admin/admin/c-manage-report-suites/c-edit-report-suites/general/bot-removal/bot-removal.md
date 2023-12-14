@@ -3,16 +3,16 @@ title: Bot verwijderen in Adobe Analytics
 description: Bommen verwijderen in Adobe Analytics
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # Bot verwijderen in Adobe Analytics
 
-In Adobe Analytics hebt u meerdere opties om beide verkeer uit de rapportage te verwijderen:
+Adobe Analytics biedt meerdere opties om beide verkeer uit de rapportage te verwijderen:
 
 ## Bot-regels gebruiken
 
@@ -23,7 +23,7 @@ Filtermethoden voor zowel standaard als aangepaste bot worden ondersteund in **[
 | Standaardregels voor IAB-bot | Selecteren **[!UICONTROL Enable IAB Bot Filtering Rules]** gebruikt de [IAB](https://www.iab.com/) (International Advertising Bureau) International Spiders &amp; Bots List om beide verkeer te verwijderen. De meeste klanten selecteren deze optie op een minimum. |
 | Aangepaste botregels | U kunt de regels van de douanebot bepalen en toevoegen die op gebruikersagenten, IP adressen, of IP waaiers worden gebaseerd. |
 
-Zie voor meer informatie [Overzicht van beide regels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+Zie voor meer informatie [Begrijp en vorm beide regels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## Gebruik de [!UICONTROL websiteBot] insteekmodule voor het identificeren van bots
 
