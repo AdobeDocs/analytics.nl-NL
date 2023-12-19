@@ -3,9 +3,9 @@ description: Opeenvolgende segmenten worden gemaakt met behulp van de operator T
 title: Opeenvolgende segmenten maken
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
+source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
 workflow-type: tm+mt
-source-wordcount: '3710'
+source-wordcount: '3765'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,7 @@ Hier is een video over sequentiële segmentatie:
 Wanneer u een segment maakt waarin Inclusief iedereen is ingesteld, identificeert het segment paden die overeenkomen met het opgegeven patroon als geheel. Dit is een voorbeeld van een standaardsequentiesegment dat op zoek is naar een hit (pagina A) gevolgd door een andere hit (pagina B) die dezelfde bezoeker heeft bezocht. Het segment is ingesteld op Inclusief iedereen.
 
 ![](/help/admin/admin/assets/filter.png)
+![875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
 
 | Indien resultaat... | Reeks |
 |--- |--- |
@@ -343,6 +344,16 @@ Gebruik de [!UICONTROL Within] en [!UICONTROL After] operatoren die zijn ingebou
 ![](assets/then_within_operators.png)
 
 U kunt de overeenkomst beperken tot een bepaalde tijdsduur door de [!UICONTROL Within] en [!UICONTROL After] containers en geeft een granulariteit en aantal op. De [!UICONTROL Within] wordt gebruikt om een maximumlimiet op te geven voor de hoeveelheid tijd tussen twee controlepunten. De [!UICONTROL After] wordt gebruikt om een minimumlimiet op te geven voor de tijd tussen twee controlepunten.
+
+>[!NOTE]
+>
+>Er zijn verschillen in evaluatie tussen elementen met een vergelijkbare naam, zoals **Dag(en)** of **Dag**. Voor op tijd gebaseerde definities van Binnen en na, gebruik de opties die eerst in popup venster worden vermeld:
+>
+>![image](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>
+>Gebruik voor op dimensies gebaseerde definities van Binnen en Na de opties onder het submenu *Overige Dimensionen*:
+>
+>![image](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 
 ### Operatoren voor na en binnen {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
