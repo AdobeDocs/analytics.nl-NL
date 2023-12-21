@@ -2,22 +2,15 @@
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
 title: Configureer rapportopties voor een Data Warehouse-verzoek
 feature: Data Warehouse
-source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
+exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
 # Configureer rapportopties voor een Data Warehouse-verzoek
-
->[!AVAILABILITY]
->
->Sommige functies voor Data Warehouse die in dit artikel worden beschreven (en andere artikelen voor Data Warehouse in deze sectie) zijn alleen beschikbaar in de beperkte testfase van de release en zijn mogelijk nog niet beschikbaar in uw omgeving.
->
->Voor informatie over welke functies nog niet voor alle klanten beschikbaar zijn, en voor informatie over de releasetijdlijn van deze functies, raadpleegt u de [releaseopmerkingen](/help/release-notes/latest.md).
->
->Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
 
 Er zijn diverse configuratieopties beschikbaar wanneer het creëren van een verzoek van de Data Warehouse. De volgende informatie beschrijft hoe te om rapportopties voor het verzoek te vormen.
 
@@ -35,9 +28,9 @@ Om rapportopties voor een verzoek van de Data Warehouse te vormen:
 
 1. Vul de volgende velden in:
 
-   | Optie | -functie |
+   | Optie | Functie |
    |---------|----------|
-   | [!UICONTROL **Bestandsnaam**] | Identificeert het rapport. <p>Als een van de volgende speciale tekens in de bestandsnaam wordt gebruikt, kan de aanvraag niet worden opgeslagen: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>Het teken % mag alleen worden gebruikt als het wordt gevolgd door &quot;R&quot;, &quot;rsid&quot; of &quot;id&quot;, als volgt: <code>%R</code>, <code>%rsid</code>, en <code>%id</code>.</p> |
+   | [!UICONTROL **Bestandsnaam**] | Identificeert het rapport. <p>Als een van de volgende speciale tekens in de bestandsnaam wordt gebruikt, kan de aanvraag niet worden opgeslagen: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>Het teken % mag alleen worden gebruikt als het wordt gevolgd door &quot;R&quot;, &quot;rsid&quot; of &quot;id&quot;, als volgt: <code>%R</code>, <code>%rsid</code>, en <code>%id</code>.</p> |
    | [!UICONTROL **Datumbereik van rapport toevoegen aan bestandsnaam**] | Hiermee voegt u het datumbereik toe aan de naam van het rapportbestand. <p>Als u bijvoorbeeld gegevens aanvraagt van 1 mei 2024 tot en met 7 mei 2024, bevat de bestandsnaam het datumbereik 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Levert rapporten in een CSV-bestandsindeling voor het weergeven van gegevens in een spreadsheet. |
    | [!UICONTROL **Tableau (TDE)**] | Levert rapporten in een het dossierformaat van de Uitvoer van Gegevens van Tableau (TDE), dat kan worden gebruikt om gegevens en laag in extra gegevens binnen Tableau te visualiseren. |

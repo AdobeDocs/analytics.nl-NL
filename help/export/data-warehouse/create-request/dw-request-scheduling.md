@@ -2,22 +2,15 @@
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 1%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
 # Configureer de planningsopties voor een Data Warehouse-verzoek
-
->[!AVAILABILITY]
->
->Sommige functies voor Data Warehouse die in dit artikel worden beschreven (en andere artikelen voor Data Warehouse in deze sectie) zijn alleen beschikbaar in de beperkte testfase van de release en zijn mogelijk nog niet beschikbaar in uw omgeving.
->
->Voor informatie over welke functies nog niet voor alle klanten beschikbaar zijn, en voor informatie over de releasetijdlijn van deze functies, raadpleegt u de [releaseopmerkingen](/help/release-notes/latest.md).
->
->Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
 
 Er zijn diverse configuratieopties beschikbaar wanneer het creëren van een verzoek van de Data Warehouse. De volgende informatie beschrijft hoe te om het plannen opties voor het verzoek te vormen.
 
@@ -35,7 +28,7 @@ Om het plannen opties voor een verzoek van de Data Warehouse te vormen:
 
 1. Vul de volgende velden in:
 
-   | Optie | -functie |
+   | Optie | Functie |
    |---------|----------|
    | [!UICONTROL **Rapport nu verzenden**] | Verzendt het rapport als een eenmalig rapport. Als deze optie is geselecteerd, worden alle planningsopties verborgen. |
    | [!UICONTROL **Plan voor later**] | Verstrekt opties voor het plannen van rapportlevering. Alle opties worden hieronder beschreven. |
@@ -47,4 +40,3 @@ Om het plannen opties voor een verzoek van de Data Warehouse te vormen:
    {style="table-layout:auto"}
 
 1. Ga door met het configureren van uw verzoek voor Data Warehouse op de [!UICONTROL **Bericht**] tab. Zie voor meer informatie [Een e-mailbericht configureren voor een aanvraag van een Data Warehouse](/help/export/data-warehouse/create-request/dw-request-email.md).
-

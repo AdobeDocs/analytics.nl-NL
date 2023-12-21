@@ -1,24 +1,17 @@
 ---
 description: Met Aanvraagbeheer kunt u aanvragen weergeven, dupliceren en opnieuw de prioriteit geven.
-title: Verzoeken in Data Warehouse beheren
+title: Aanvragen voor Data Warehouse beheren
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 1%
+source-wordcount: '1088'
+ht-degree: 0%
 
 ---
 
-# Verzoeken in Data Warehouse beheren
-
-{{release-limited-testing}}
-
->[!NOTE]
->
->Als uw organisatie nog niet de nieuwe ervaring van de Data Warehouse heeft, die spoedig voor alle klanten beschikbaar zal zijn, gebruik de informatie in [Aanvragen voor Data Warehouse beheren (oude ervaring)](#manage-data-warehouse-requests-old-experience) onder aan deze pagina.
-
+# Aanvragen voor Data Warehouse beheren
 
 U kunt de verzoeken van de Data Warehouse bekijken en beheren die u hebt gemaakt. Alleen beheerders kunnen aanvragen van andere gebruikers in hun organisatie weergeven en beheren.
 
@@ -101,14 +94,14 @@ U kunt de geschiedenis van om het even welke verzoeken van de Data Warehouse bek
 
 1. Selecteer een rapportlevering en selecteer vervolgens een van de volgende opties:
 
-   | Optie | -functie |
+   | Optie | Functie |
    |---------|----------|
    | [!UICONTROL **Doelgegevens**] | Hiermee geeft u de account- en locatiegegevens weer die aan de aanvraag zijn gekoppeld. Dit is de rekening en de plaats die vroeger werden gevormd, zoals die in wordt beschreven [Vorm een rapportbestemming voor een verzoek van de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **Rapport annuleren**] | Hiermee annuleert u het rapport. U kunt rapporten met de status [!UICONTROL **Voltooid**] of [!UICONTROL **Geannuleerd**]. |
    | [!UICONTROL **Verslag-Rerun**] | Voert het rapport opnieuw met de gegevens in werking zoals het was toen het oorspronkelijk werd verzonden. U kunt een rapport met een van de volgende statussen opnieuw uitvoeren: [!UICONTROL **Geannuleerd**], [!UICONTROL **Voltooid**], [!UICONTROL **Fout - verwerking**], of [!UICONTROL **Fout - Verzenden mislukt**]. |
    | [!UICONTROL **Rapport opnieuw verzenden**] | Hiermee stuurt u het eerder gegenereerde rapportbestand opnieuw. U kunt een rapport opnieuw verzenden met een van de volgende statussen: [!UICONTROL **Voltooid**] of [!UICONTROL **Fout - Verzenden mislukt**]. |
 
-## Aanvragen kopiëren
+## Verzoeken kopiëren
 
 Wanneer u een verzoek kopieert, worden alle configuratieopties gekopieerd van het originele verzoek.
 
@@ -179,31 +172,3 @@ U kunt vormen welke informatie voor elk verzoek wordt getoond door kolommen toe 
 1. Geef in het zoekveld boven aan de pagina Data Warehouse de aanvraagnaam op die u wilt weergeven.
 
    Verzoeken worden tijdens het typen gefilterd.
-
-## Aanvragen voor Data Warehouse beheren (oude ervaring)
-
->[!NOTE]
->
->De volgende informatie is alleen van toepassing als uw organisatie nog niet beschikt over de nieuwe Data Warehouse-ervaring, die binnenkort beschikbaar zal zijn voor alle klanten van Analytics.
-
-
-Met Aanvraagbeheer kunt u aanvragen weergeven, dupliceren en opnieuw de prioriteit geven.
-
-Selecteer in Data Warehouse de optie **[!UICONTROL Request Manager]** tab.
-
-Door te werken op dit tabblad kunt u
-
-* Bekijk recente rapportverzoeken door rapportnaam, toegepast segment, aanvrager, aanvraagdatum en status.
-* Dubbele aanvragen. Klikken **[!UICONTROL Duplicate]** naast de aanvraag.
-
-  >[!NOTE]
-  >
-  >Deze actie dupliceert slechts het verzoek, niet het programma of de leveringsdetails.
-
-* Zoek naar rapporten door rapportnaam of door de login naam van de aanvrager.
-* Geef opnieuw prioriteit aan rapporten door hen aan een nieuwe plaats binnen de rij te slepen en te laten vallen.
-* Als u wilt zien wanneer een aanvraag wordt verwerkt, klikt u op een geplande aanvraag-id en controleert u de pop-up die wordt geopend.
-
-Klik op een taak om afzonderlijke aanvragen voor die taak weer te geven.
-
-* Beperkt tarief: Uw organisatie heeft teveel Data Warehouse verzoeken lopend. Het verzoek wordt gepauzeerd tot andere gegevensverzoeken volledig zijn.

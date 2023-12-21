@@ -1,24 +1,16 @@
 ---
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
-title: Een verzoek voor een Data Warehouse maken
+title: Een Data Warehouse-aanvraag maken
 feature: Data Warehouse
 exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 4%
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
-# Een verzoek voor een Data Warehouse maken
-
->[!AVAILABILITY]
->
->Sommige functies voor Data Warehouse die in dit artikel worden beschreven (en andere artikelen voor Data Warehouse in deze sectie) zijn alleen beschikbaar in de beperkte testfase van de release en zijn mogelijk nog niet beschikbaar in uw omgeving.
->
->Voor informatie over welke functies nog niet voor alle klanten beschikbaar zijn, en voor informatie over de releasetijdlijn van deze functies, raadpleegt u de [releaseopmerkingen](/help/release-notes/latest.md).
->
->Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
+# Een Data Warehouse-aanvraag maken
 
 Er zijn diverse configuratieopties beschikbaar wanneer het creëren van een verzoek van de Data Warehouse. De volgende informatie beschrijft hoe te beginnen met het creëren van een verzoek, dan verstrekt verbindingen aan meer gedetailleerde informatie om het verzoek te voltooien.
 

@@ -3,22 +3,14 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
 
 # Vorm een rapportbestemming voor een verzoek van de Data Warehouse
-
->[!AVAILABILITY]
->
->Sommige functies voor Data Warehouse die in dit artikel worden beschreven (en andere artikelen voor Data Warehouse in deze sectie) zijn alleen beschikbaar in de beperkte testfase van de release en zijn mogelijk nog niet beschikbaar in uw omgeving.
->
->Voor informatie over welke functies nog niet voor alle klanten beschikbaar zijn, en voor informatie over de releasetijdlijn van deze functies, raadpleegt u de [releaseopmerkingen](/help/release-notes/latest.md).
->
->Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
 
 Er zijn diverse configuratieopties beschikbaar wanneer het creëren van een verzoek van de Data Warehouse. De volgende informatie beschrijft hoe te om een rapportbestemming voor het verzoek te vormen.
 
@@ -58,7 +50,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
    1. Selecteren [!UICONTROL **Account toevoegen**] en geeft u de volgende informatie op:
 
-      | Veld | -functie |
+      | Veld | Functie |
       |---------|----------|
       | [!UICONTROL **Accounttype**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account. <p>Nadat u een accounttype hebt gekozen, worden de velden weergegeven die specifiek zijn voor dat accounttype. </p> |
       | [!UICONTROL **Accountnaam**] | Geef een naam op voor de account. Deze naam wordt weergegeven wanneer u een locatie maakt. <!-- true? --> |
@@ -72,7 +64,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       Geef de volgende informatie op om een Amazon S3 Role ARN-account te configureren:
 
-      | Veld | -functie |
+      | Veld | Functie |
       |---------|----------|
       | [!UICONTROL **Rol ARN**] | U moet een Rol ARN (de Naam van het Middel van Amazon) verstrekken die de Adobe kan gebruiken om toegang tot de rekening van Amazon S3 te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Zie voor specifieke informatie [deze AWS-documentatie](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>Raadpleeg het artikel voor informatie over het instellen van de machtigingen voor het emmertje [Hoe kan ik dwars-rekeningstoegang tot voorwerpen verlenen die in Amazon S3 emmers zijn?](https://repost.aws/knowledge-center/cross-account-access-s3) in het Amazon-kenniscentrum. |
       | [!UICONTROL **ARN gebruiker**] | De Gebruiker ARN (de Naam van het Middel van Amazon) wordt verstrekt door Adobe. U moet deze gebruiker aan het beleid vastmaken u creeerde. |
@@ -85,7 +77,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       Geef de volgende informatie op om een Google Cloud Platform-account te configureren:
 
-      | Veld | -functie |
+      | Veld | Functie |
       |---------|----------|
       | [!UICONTROL **Project-id**] | Uw Google Cloud-project-id. Zie de [Google Cloud-documentatie over het ophalen van een project-id](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
 
@@ -97,7 +89,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       Geef de volgende informatie op om een Azure SAS-account te configureren:
 
-      | Veld | -functie |
+      | Veld | Functie |
       |---------|----------|
       | [!UICONTROL **Toepassings-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **Tenant-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
@@ -113,7 +105,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       Geef de volgende informatie op om een Azure RBAC-account te configureren:
 
-      | Veld | -functie |
+      | Veld | Functie |
       |---------|----------|
       | [!UICONTROL **Toepassings-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **Tenant-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
@@ -127,7 +119,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       Geef de volgende informatie op om een e-mailaccount te configureren:
 
-      | Veld | -functie |
+      | Veld | Functie |
       |---------|----------|
       | [!UICONTROL **Ontvangers**] | E-mailmeldingen kunnen naar specifieke gebruikers worden verzonden wanneer het rapport wordt verzonden. Geef één e-mailadres of een lijst met e-mailadressen door komma&#39;s gescheiden op. <!-- How does this differ from the Notification email tab? --> |
 
@@ -141,7 +133,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       Geef de volgende informatie op om een Amazon S3-locatie te configureren:
 
-      | Veld | -functie |
+      | Veld | Functie |
       |---------|----------|
       | [!UICONTROL **Naam van emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, toegang heeft om bestanden naar dit emmertje te uploaden. |
       | [!UICONTROL **Voorvoegsel toets**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
@@ -154,7 +146,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       Geef de volgende informatie op om een locatie voor een Google Cloud Platform te configureren:
 
-      | Veld | -functie |
+      | Veld | Functie |
       |---------|----------|
       | [!UICONTROL **Naam van emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. Zorg ervoor dat u aan Opdrachtgever toestemming hebt verleend die door Adobe wordt verstrekt om dossiers aan dit emmertje te uploaden. Zie voor informatie over het verlenen van machtigingen [Voeg een hoofd aan een beleid op het niveau van de emmertje toe](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de Google Cloud-documentatie. |
       | [!UICONTROL **Voorvoegsel toets**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
@@ -167,10 +159,10 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       Geef de volgende informatie op om een Azure SAS-locatie te configureren:
 
-      | Veld | -functie |
+      | Veld | Functie |
       |---------|----------|
       | [!UICONTROL **Containernaam**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. |
-      | [!UICONTROL **Voorvoegsel toets**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+      | [!UICONTROL **Voorvoegsel toets**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
 
       {style="table-layout:auto"}
 
@@ -180,10 +172,10 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       Geef de volgende informatie op om een Azure RBAC-locatie te configureren:
 
-      | Veld | -functie |
+      | Veld | Functie |
       |---------|----------|
       | [!UICONTROL **Containernaam**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat u machtigingen verleent om bestanden te uploaden naar de Azure-toepassing die u eerder hebt gemaakt. |
-      | [!UICONTROL **Voorvoegsel toets**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+      | [!UICONTROL **Voorvoegsel toets**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
       | [!UICONTROL **Accountnaam**] | De Azure-opslagaccount. |
 
       {style="table-layout:auto"}
@@ -216,7 +208,7 @@ Gebruik de volgende informatie wanneer u de beschikbare velden invult:
 
 * [!UICONTROL **Accountbeschrijving**]: Een beschrijving van de FTP-account.
 
-* [!UICONTROL **Hostnaam**]: Voer de gewenste FTP-doel-URL in. Bijvoorbeeld, `ftp.company.com`.
+* [!UICONTROL **Hostnaam**]: Voer de gewenste FTP-doel-URL in. Bijvoorbeeld: `ftp.company.com`.
 
   >[!NOTE]
   >
@@ -246,7 +238,7 @@ Gebruik de volgende informatie wanneer u de beschikbare velden invult:
 
 * [!UICONTROL **Accountbeschrijving**]: Een beschrijving van de FTP-account.
 
-* [!UICONTROL **Hostnaam**]: Voer de gewenste doel-URL voor SFTP in. Bijvoorbeeld, `sftp.company.com`.
+* [!UICONTROL **Hostnaam**]: Voer de gewenste doel-URL voor SFTP in. Bijvoorbeeld: `sftp.company.com`.
 
   >[!NOTE]
   >
