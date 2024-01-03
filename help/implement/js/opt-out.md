@@ -3,24 +3,24 @@ title: Koppelingen uitschakelen
 description: Leer hoe u de optie om te weigeren koppelingen maakt voor bezoekers van uw site.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
 
-# Opt-outkoppelingen implementeren
-
-*Deze Help-pagina biedt Adobe Analytics-klanten de mogelijkheid om hun gebruikers de mogelijkheid te bieden zich af te melden. Als u geen Adobe Analytics-klant bent, raadpleegt u [Privacykeuzen Adobe](https://www.adobe.com/privacy/opt-out.html) om te bepalen hoe de Adobe uw informatie gebruikt.*
+# Optie-out-koppelingen implementeren
 
 >[!IMPORTANT]
 >
->Adobe beveelt aan gebruik te maken van de opt-in-dienst, met name voor organisaties die betrokken zijn bij de GDPR-regelgeving. Zie [Overzicht van de service voor aanmelden](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) in de gebruikershandleiding van de Experience Cloud Identity Service.
+> **Deze Help-pagina biedt Adobe Analytics-klanten de mogelijkheid om hun gebruikers de mogelijkheid te bieden zich af te melden. Als u geen Adobe Analytics-klant bent, raadpleegt u [Privacykeuzen Adobe](https://www.adobe.com/privacy/opt-out.html) om te bepalen hoe de Adobe uw informatie gebruikt.**
 
-Sommige bezoekers van uw website hebben liever geen informatie over het bladeren in uw gegevensset. Adobe biedt de mogelijkheid om bezoekers van uw website de mogelijkheid te bieden zich af te melden van de gegevens die worden verzameld. Alle implementatietypen zijn inbegrepen; uw organisatie is verantwoordelijk voor uw eigen privacybeleid en voor het naleven van uw ondertekende voorwaarden.
+Sommige bezoekers van uw website hebben liever geen informatie over het bladeren in uw gegevensset. Adobe biedt de mogelijkheid om bezoekers van uw website de mogelijkheid te bieden zich af te melden voor de analyse van hun gegevens.
 
-Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelcookie te installeren. Als een gebruiker ervoor kiest om niet te worden gevolgd en een uitschakelcookie wordt ingesteld, worden de gegevens in het JavaScript-bestand nog steeds naar Adobe servers verzonden. Deze gegevens worden echter niet verwerkt of opgenomen in rapporten.
+Koppelingen met de optie om te weigeren zijn een manier waarop bezoekers van uw website hun gegevens kunnen weglaten uit de rapportage Analytics. Deze koppelingen zijn beperkt tot implementaties van AppMeasurementen; Adobe raadt aan de [Adobe Experience Cloud Inschakelen-service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) in plaats daarvan. De open-in dienst is robuuster en werkt over veelvoudige producten van Adobe Experience Cloud, met inbegrip van Adobe Analytics en AppMeasurement.
+
+Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelcookie te installeren. Als een gebruiker ervoor kiest om niet te worden gevolgd en een uitschakelcookie wordt ingesteld, worden de gegevens door het AppMeasurement nog steeds naar de Adobe verzonden. Deze gegevens worden echter niet verwerkt of opgenomen in rapporten.
 
 >[!TIP]
 >
@@ -58,34 +58,30 @@ Er zijn instellingen die u automatisch op deze pagina kunt laden met querytekenr
 
 Schakel automatisch de taal van de optiepagina uit door de `locale` querytekenreeksparameter. Wijs deze parameter van het vraagkoord één van de volgende waarden toe:
 
-* nl_NL (Engels, standaard)
-* bg_BG (Bulgaars)
-* zh_CN (Vereenvoudigd Chinees)
-* zh_TW (Traditioneel Chinees)
-* cs_CZ (Tsjechisch)
-* da_NK (Deens)
-* nl_NL (Nederlands)
-* et_EE (Ests)
-* fi_FI (Fins)
-* fr_FR (Frans)
-* de_DE (Duits)
-* el_GR (Grieks)
-* it_IT (Italiaans)
-* jp_JP (Japans)
-* ko_KR (Koreaans)
-* lv_LV (Lets)
-* lt_LT (Litouws)
-* nb_NO (Noors)
-* pl_PL (Pools)
-* pt_BR (Portugees)
-* sk_SK (Slowaaks)
-* es_ES (Spaans)
+* `en_US` (Engels, standaard)
+* `bg_BG` (Bulgaars)
+* `zh_CN` (Vereenvoudigd Chinees)
+* `zh_TW` (Traditioneel Chinees)
+* `cs_CZ` (Tsjechisch)
+* `da_NK` (Deens)
+* `nl_NL` (Nederlands)
+* `et_EE` (Ests)
+* `fi_FI` (Fins)
+* `fr_FR` (Frans)
+* `de_DE` (Duits)
+* `el_GR` (Grieks)
+* `it_IT` (Italiaans)
+* `jp_JP` (Japans)
+* `ko_KR` (Koreaans)
+* `lv_LV` (Lets)
+* `lt_LT` (Litouws)
+* `nb_NO` (Noors)
+* `pl_PL` (Pools)
+* `pt_BR` (Portugees)
+* `sk_SK` (Slowaaks)
+* `es_ES` (Spaans)
 
 Bijvoorbeeld: `https://example.data.adobedc.net/optout.html?locale=ko_KR` laadt de pagina voor niet-deelname in het Koreaans.
-
->[!TIP]
->
->De `en_US` de waarde van het vraagkoord wordt niet vereist, aangezien de pagina in het Engels door gebrek laadt.
 
 ### Popup
 

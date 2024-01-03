@@ -3,9 +3,9 @@ title: Gebeurtenissen van Page
 description: Het aantal acties voor het bijhouden van koppelingen dat wordt geactiveerd.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a7434f72159a575f9ad7bf29644cb17777382df7
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De gebeurtenissen &#39;Page&#39; [metrisch](overview.md) toont het aantal tijden
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische tellingen allen [Aanroepen voor het bijhouden van koppelingen (`tl()`)](/help/implement/vars/functions/tl-method.md) in een rapportenpakket. Alle typen koppelingen zijn opgenomen (aangepaste koppelingen, downloadkoppelingen en afsluitkoppelingen). Het omvat niet: [Aanroepen voor bijhouden van paginaweergave (`t()`)](/help/implement/vars/functions/t-method.md).
+Deze metrische tellingen allen [Aanroepen voor het bijhouden van koppelingen (`tl()`)](/help/implement/vars/functions/tl-method.md) in een rapportenpakket. Alle verbindingstypes zijn inbegrepen in dit metrisch, specifiek [Aangepaste koppelingen](../dimensions/custom-link.md), [Koppelingen downloaden](../dimensions/download-link.md), en [Koppelingen afsluiten](../dimensions/exit-link.md). Het omvat niet: [Aanroepen voor bijhouden van paginaweergave (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Vergelijken met vergelijkbare cijfers
 
