@@ -3,25 +3,24 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 835b7b07e46de4aa5dc0ae27bc9dee9c083660ad
+source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
 
-# Opmerkingen bij de huidige Adobe Analytics-release (oktober/november 2023)
+# Huidige Adobe Analytics-releaseopmerkingen (januari 2024)
 
 **Laatste update**: 8 januari 2024
 
-Deze opmerkingen hebben betrekking op de releaseperiode van 23 oktober 2023 tot medio januari 2024. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+Deze opmerkingen hebben betrekking op de releaseperiode van januari 2024. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 ## Nieuwe of verbeterde functies {#features}
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Verbeteringen voor Activity Manager rapporteren** | De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke rapportreeks in uw organisatie zien.  Het biedt beheerders gedetailleerde zichtbaarheid bij het melden van het verbruik om capaciteitsproblemen tijdens piekrapportagetijden eenvoudig te kunnen vaststellen en verhelpen. Hieronder vindt u een aantal verbeteringen die nu beschikbaar zijn in Rapportagentenbeheer: <ul><li>Verdere verzoeken beperken: naast het annuleren van huidige aanvragen kunnen beheerders nu verzoeken voor een bepaalde periode beperken. De beheerders kunnen verzoeken door Verzoek, Project, en Gebruiker beperken.</li><li>Naast de metriek van het Gebruik en van de Capaciteit, omvat de Manager van de Activiteit van de Rapportering nu meer gegevens over het melden van activiteit: de kolom van de Complexiteit, de kolom van de Gebruiker, en de kolom van de Verbinding.</li><li>Alle annuleringen en beperkingen die in de manager van de Activiteit van de Rapportering worden aangebracht zijn nu zichtbaar in het Logboek van de Controle. Beheerders kunnen het auditlogboek gebruiken om te bekijken wat momenteel is geannuleerd. Annuleringen kunnen niet worden teruggedraaid in de Manager van de Activiteit van de Rapportering of in het Logboek van de Controle.</li></ul><p>Zie voor meer informatie [Overzicht van Activity Manager rapporteren](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | woensdag 17 oktober 2023 | woensdag 24 oktober 2023 |
-| **Verbeteringen voor Data Warehouse** | Wanneer het creëren van een verzoek van de Data Warehouse, kunt u een wolkenrekening nu vormen om als rapportbestemming te gebruiken. De volgende typen cloudaccounts zijn beschikbaar voor het verzenden van gegevens:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-mail (deze optie was voorheen beschikbaar)</li></ul>FTP, SFTP, Azure Blob, en S3 zijn nog beschikbaar als rapportbestemmingen, maar worden niet meer geadviseerd.<p>De gebruikerservaring bij het maken en beheren van verzoeken om Data Warehouse is ook verbeterd. Zie voor meer informatie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md) en [Aanvragen voor Data Warehouse beheren](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | woensdag 12 september 2023 | 15 december 2023 |
+| **Data Warehouse-updates** | De volgende verbeteringen voor de Data Warehouse zijn nu beschikbaar:<ul><li>Wanneer het creëren van een verzoek van de Data Warehouse, kunnen de gebruikers verzoeken ter beschikking stellen aan alle gebruikers in de organisatie door de nieuwe geroepen knevel toe te laten [!UICONTROL **Beschikbaar maken voor gebruikers in uw organisatie**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Wanneer het creëren van of het leiden van het rapportbestemmingen van de Data Warehouse, kunnen de systeembeheerders rekeningen en plaatsen nu tonen die door gebruikers in de organisatie door de geroepen knevel toe te laten werden gecreeerd [!UICONTROL **Alle doelen tonen**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | N.v.t. | donderdag 10 januari 2024 |
 
 {style="table-layout:auto"}
 

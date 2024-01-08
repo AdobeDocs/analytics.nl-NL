@@ -4,9 +4,9 @@ title: Aanvragen voor Data Warehouse beheren
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ U kunt vormen welke informatie voor elk verzoek wordt getoond door kolommen toe 
    | Rapportsuite | De rapportsuite die aan de aanvraag is gekoppeld. |
    | Gevraagd door | De gebruiker die de aanvraag heeft gemaakt. |
    | Aanvraagdatum | De datum waarop het verzoek is ingediend. |
-   | Status | De volgende statussen zijn beschikbaar:<ul><li><p>**Voltooid**: De aanvraag is uitgevoerd.</p></li><li><p>**Geannuleerd**: De aanvraag is geannuleerd door de gebruiker.</p></li><li><p>**Gepland**: Het verzoek wordt gevormd om op een programma te lopen.</p></li><!-- Are there other statuses? Failed? --> |
+   | Status | De volgende statussen zijn beschikbaar:<ul><li><p>**Voltooid**: De aanvraag is uitgevoerd.</p></li><li><p>**Geannuleerd**: De aanvraag is geannuleerd door de gebruiker.</p></li><li><p>**Gepland**: Het verzoek wordt gevormd om op een programma te lopen.</p></li><li><p>**Mislukt**: De aanvraag kan niet worden voltooid. Neem contact op met de Klantenondersteuning als het verzoek blijft mislukken.</p></li></ul> |
 
    {style="table-layout:auto"}
 

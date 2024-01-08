@@ -3,9 +3,9 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2164'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
    ![Tabblad Doel rapporteren](assets/dw-report-destination.png)
 
-1. (Voorwaardelijk) als u eerder een rekening (en een bestemming op die rekening) vormde die u als uw rapportbestemming wilt gebruiken:
+1. (Voorwaardelijk) als een rekening (en een bestemming op die rekening) reeds is gevormd die u als uw rapportbestemming wilt gebruiken:
+
+   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
 
    1. Selecteer de account in het menu [!UICONTROL **Account selecteren**] vervolgkeuzelijst.
 
@@ -123,7 +125,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
       |---------|----------|
       | [!UICONTROL **Ontvangers**] | E-mailmeldingen kunnen naar specifieke gebruikers worden verzonden wanneer het rapport wordt verzonden. Geef één e-mailadres of een lijst met e-mailadressen door komma&#39;s gescheiden op. <!-- How does this differ from the Notification email tab? --> |
 
-   1. Selecteren [!UICONTROL **Locatie toevoegen**] en geeft u de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de rekening om deze te kunnen onderscheiden van andere rekeningen van hetzelfde type. | | [!UICONTROL **Locatieaccount**] | Selecteer de locatie-account waarin u hebt gemaakt [Een account toevoegen](#add-an-account). |
+   1. Selecteren [!UICONTROL **Locatie toevoegen**] en geeft u de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Locatieaccount**] | Selecteer de locatieaccount die u hebt gemaakt in [Een account toevoegen](#add-an-account). |
 
    1. In de [!UICONTROL **Locatie-eigenschappen**] in, geeft u specifieke informatie op over het accounttype van uw locatieaccount.
 
