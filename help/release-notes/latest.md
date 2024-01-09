@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '990'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van januari 2024. Adobe 
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Warehouse-updates** | De volgende verbeteringen voor de Data Warehouse zijn nu beschikbaar:<ul><li>Wanneer het creëren van een verzoek van de Data Warehouse, kunnen de gebruikers verzoeken ter beschikking stellen aan alle gebruikers in de organisatie door de nieuwe geroepen knevel toe te laten [!UICONTROL **Beschikbaar maken voor gebruikers in uw organisatie**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Wanneer het creëren van of het leiden van het rapportbestemmingen van de Data Warehouse, kunnen de systeembeheerders rekeningen en plaatsen nu tonen die door gebruikers in de organisatie door de geroepen knevel toe te laten werden gecreeerd [!UICONTROL **Alle doelen tonen**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | N.v.t. | donderdag 10 januari 2024 |
+| **Data Warehouse-updates** | De volgende verbeteringen voor de Data Warehouse zijn nu beschikbaar:<ul><li>Wanneer het creëren van een verzoek van de Data Warehouse, kunnen de gebruikers verzoeken ter beschikking stellen aan alle gebruikers in de organisatie door de nieuwe geroepen knevel toe te laten [!UICONTROL **Beschikbaar maken voor gebruikers in uw organisatie**].<p>Zie voor meer informatie [Algemene instellingen voor verzoek om Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Wanneer het creëren van of het leiden van het rapportbestemmingen van de Data Warehouse, kunnen de systeembeheerders rekeningen en plaatsen nu tonen die door gebruikers in de organisatie door de geroepen knevel toe te laten werden gecreeerd [!UICONTROL **Alle doelen tonen**].<p>Zie voor meer informatie [Vorm een rapportbestemming voor een verzoek van de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | N.v.t. | donderdag 10 januari 2024 |
 
 {style="table-layout:auto"}
 

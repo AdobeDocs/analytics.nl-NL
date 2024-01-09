@@ -3,9 +3,9 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2201'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
 1. (Voorwaardelijk) als een rekening (en een bestemming op die rekening) reeds is gevormd die u als uw rapportbestemming wilt gebruiken:
 
-   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
+   1. (Optioneel) Als u systeembeheerder bent, [!UICONTROL **Alle doelen tonen**] is beschikbaar. Schakel deze optie in als u toegang wilt hebben tot alle accounts en locaties die door een gebruiker in de organisatie zijn gemaakt.
 
    1. Selecteer de account in het menu [!UICONTROL **Account selecteren**] vervolgkeuzelijst.
 
