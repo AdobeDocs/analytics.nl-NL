@@ -3,55 +3,57 @@ title: getPageLoadTime
 description: Houd bij hoeveel tijd een pagina nodig heeft om te laden.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: dd9046bbb8d640d7392cddfab7ce34c4310e6eb7
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: getPageLoadTime
+# Adobe-insteekmodule: getPageLoadTime
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Deze plug-in wordt niet meer ondersteund. Zijn code gebruikt de performance.timing methode, die (volgens MDN) is geweest [verouderd](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming).
 
-De `getPageLoadTime` de insteekmodule gebruikt het JavaScript-prestatieobject zodat u kunt meten hoeveel tijd het duurt voordat een pagina volledig is geladen. Adobe raadt u aan deze plug-in te gebruiken als u wilt meten hoelang het duurt om pagina&#39;s te laden.
+<!-- The `getPageLoadTime` plug-in uses the JavaScript performance object to allow you to measure the amount of time a page takes to completely load. Adobe recommends using this plug-in if you want to measure how long pages take to load.
 
->OPMERKING/WAARSCHUWING: Als u deze insteekmodule vanaf een vorige versie upgradet, moet u waarschijnlijk ook de code wijzigen die deze functie ook aanroept.  Controleer uw implementatie en test het grondig voordat u gaat implementeren naar productie
+>NOTE/WARNING: If you are upgrading this plugin from a previous version, you will most likely need to change the code that calls this function as well.  Please check your implementation and test thoroughly before deploying to production.
 
-## De insteekmodule installeren met de extensie Web SDK of Web SDK
+## Install the plug-in using the Web SDK or Web SDK extension
 
-Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
+This plug-in is supported for use within the Web SDK.
 
-## De insteekmodule installeren met de Adobe Analytics-extensie
+## Install the plug-in using the Adobe Analytics extension
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
-1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
-1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
-   * Type handeling: Initialize getPageLoadTime
-1. Sla de wijzigingen in de regel op en publiceer deze.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getPageLoadTime
+1. Save and publish the changes to the rule.
 
-## Plug-in installeren met aangepaste code-editor
+## Install the plug-in using custom code editor
 
-Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
-1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
-1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click on the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
+1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
+1. Save and publish the changes to the Analytics extension.
 
-## Plug-in installeren met AppMeasurement
+## Install the plug-in using AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,22 +62,22 @@ Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het 
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## De plug-in gebruiken
+## Use the plug-in
 
-De `getPercentPageViewed` function gebruikt de volgende argumenten:
+The `getPercentPageViewed` function uses the following arguments:
 
-* **`pv`** (optioneel, tekenreeks): De dimensie waarmee de laadtijd van de pagina moet worden gecorreleerd.  Deze waarde moet gelijk zijn aan een waarde die de pagina zelf identificeert. Wanneer deze niet is ingesteld, wordt voor dit argument standaard de Adobe AppMeasurement pageName-variabele (d.w.z. s.pageName) gebruikt of de URL wanneer s.pageName niet is ingesteld
+* **`pv`** (optional, string):  The dimension to correlate the page load time with.  This value should be equal to a value that identifies the page itself. When not set, this argument defaults to the Adobe AppMeasurement pageName variable (i.e. s.pageName) or the URL when s.pageName is not set 
 
-Het aanroepen van deze functie retourneert niets; in plaats daarvan worden de volgende variabelen ingesteld :
+Calling this function returns nothing; instead, it sets the following variables:
 
-* `window._pltPreviousPage`: De waarde van de vorige pagina (d.w.z. wat is doorgegeven aan het argument pv)
-* `window._pltLoadTime`: De tijd in seconden die de vorige pagina nodig had om te laden
+* `window._pltPreviousPage`: The value of the previous page (i.e. what was passed into the pv argument)
+* `window._pltLoadTime`: The time in seconds that the previous page took to load
 
-Met de insteekmodule getPageLoadTime wordt één cookie van de eerste fabrikant gemaakt:
+The getPageLoadTime plug-in creates one first-party cookie:
 
-* `s_plt`: De tijd, in seconden, die de vorige pagina nam om te laden.  Bevat ook de waarde van wat in het pv-argument werd overgegaan.  Verloopt aan het einde van de browsersessie.
+* `s_plt`: The time, in seconds, that the previous page took to load.  Also contains the value of what was passed into the pv argument.  Expires at the end of the browser session.
 
-## Voorbeeld
+## Example
 
 ```js
 // 1. Run the getPageLoadTime function if the pageName variable is set
@@ -92,23 +94,23 @@ if(window._pltPreviousPage)
 }
 ```
 
-## Versiehistorie
+## Version History
 
-### 3.0 (6 december 2022)
+### 3.0 (December 6, 2022)
 
-* Volledige herschrijving van de plug-in om deze oplossing-agnostisch te maken.  Dit is nu bijvoorbeeld compatibel met de SDK van Adobe Experience Platform Web
-* Hiermee maakt u de `_pltPreviousPage` en `_pltLoadTime` variabelen in het vensterobject (in plaats van in het object AppMeasurement)
-* Hiermee wordt de noodzaak van het s_pltp-cookie verwijderd. Alles wordt nu alleen in het s_plt-cookie opgeslagen
-* Omvat de functie getVersion om met het oplossen van problemen te helpen
+* Complete rewrite of plugin to make it solution-agnostic.  For instance, this is now compatible with the Adobe Experience Platform Web SDK.
+* Creates the `_pltPreviousPage` and `_pltLoadTime` variables in the window object (rather than in the AppMeasurement s object)
+* Removes the need for the s_pltp cookie - everything is now stored in only the s_plt cookie
+* Includes the getVersion function to help with troubleshooting
 
-### 2.0.1 (26 maart 2021)
+### 2.0.1 (March 26, 2021)
 
-* Correctie van het probleem waarbij de insteekmodule de waarden voor het s-object niet correct instelde.
+* Fixed issue where plugin was not correctly setting values on the s object.
 
-### 2.0 (19 maart 2021)
+### 2.0 (March 19, 2021)
 
-* Versienummer toegevoegd als contextgegevens.
+* Added version number as context data.
 
-### 1.0 (22 mei 2018)
+### 1.0 (May 22, 2018)
 
-* Eerste release.
+* Initial release.-->
