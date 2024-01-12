@@ -3,9 +3,9 @@ title: Stuitpercentage
 description: De verhouding tussen bezoeken met exact één hit boven berichten.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: b9073cdb6e47358c4f60922dcbed798cd955c29e
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ Hier is een voorbeeld: laten we zeggen dat de homepage van een website 500 bezoe
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische waarde wordt berekend met behulp van de formule [`Bounces`](bounces.md) `divided by` [`Entries`](entries.md).
+Deze metrische waarde wordt berekend met behulp van de formule [Bounces](bounces.md) gedeeld door [Berichten](entries.md).
