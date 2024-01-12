@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 52631b840ed04856480a2c9dae365ae46c844a97
+source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
 workflow-type: tm+mt
-source-wordcount: '4890'
+source-wordcount: '4925'
 ht-degree: 23%
 
 ---
@@ -20,6 +20,13 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 * Voor informatie over Adobe Media Analytics raadpleegt u [Audio en video meten in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details over belangrijke documentatie-updates
+
+### 2024 {#24}
+
+| Functie | Beschrijving |
+| --- | --- |
+| **Januari 2024** | |
+| Updates voor de documentatie van het gemiddelde minipubliek van media | Bijgewerkte informatie in [Deelvenster Gemiddeld aantal minuten voor publiek](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) ter verbetering van de duidelijkheid.<p>Tot de verbeteringen behoren:</p> <ul><li>Verbeterde organisatie van de informatie</li><li>Toegevoegde stappen om op taak-gebaseerde informatie te wijzen</li></ul> |
 
 ### 2023 {#23}
 
