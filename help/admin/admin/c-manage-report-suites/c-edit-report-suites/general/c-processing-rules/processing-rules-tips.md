@@ -3,11 +3,12 @@ description: Deze sectie bevat richtlijnen voor het testen van verwerkingsregels
 subtopic: Processing rules
 title: Tips en trucs voor verwerkingsregels
 feature: Processing Rules
+role: Admin
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 1%
+source-wordcount: '612'
+ht-degree: 0%
 
 ---
 

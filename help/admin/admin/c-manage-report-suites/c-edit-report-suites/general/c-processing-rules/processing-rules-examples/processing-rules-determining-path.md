@@ -1,18 +1,18 @@
 ---
 description: U kunt de waarde van een eVar naar een hulpmiddel kopiëren om het plakken toe te laten.
 subtopic: Processing rules
-title: Een pad bepalen door een eVar-waarde naar een prop te kopiëren
+title: Een pad bepalen door een eVar-waarde naar een profiel te kopiëren
 feature: Admin Tools
-uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
+role: Admin
 exl-id: 23c978b9-a159-4364-9214-561a255d23e4
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 18%
+ht-degree: 1%
 
 ---
 
-# Een pad bepalen door een eVar-waarde naar een prop te kopiëren
+# Een pad bepalen door een eVar-waarde naar een profiel te kopiëren
 
 U kunt de waarde van een eVar naar een hulpmiddel kopiëren om het plakken toe te laten.
 

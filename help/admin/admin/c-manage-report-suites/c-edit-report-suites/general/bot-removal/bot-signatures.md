@@ -2,10 +2,11 @@
 title: Handtekeningen van gewone bot
 description: Herken de gemeenschappelijke herkenningstekens van bots.
 feature: Bot Removal
+role: Admin
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -28,9 +29,9 @@ Bots gebruiken vaak aangepaste gebruikersagents die niet zijn geclassificeerd in
 
 ## Linux- of &quot;Niet-opgegeven&quot; besturingssystemen
 
-We willen het grote open-source Linux-besturingssysteem niet in diskrediet brengen, maar blijkbaar willen ze het als hun besturingssysteem instellen. Wees echter voorzichtig met het uitsluiten van legitieme verkeer van Linux-gebruikers. Bots willen ook geen besturingssysteem instellen, dat kan worden gesegmenteerd als `Operating System &#x200B;equals Not Specified`.
+We willen het grote open-source Linux-besturingssysteem niet in diskrediet brengen, maar blijkbaar willen ze het als hun besturingssysteem instellen. Wees echter voorzichtig met het uitsluiten van legitiem verkeer van Linux-gebruikers. Bots willen ook geen besturingssysteem instellen, dat kan worden gesegmenteerd als `Operating System &#x200B;equals Not Specified`.
 
-## Paginaweergaven = Bezoekopdrachten = Unieke Bezoekers
+## Paginaweergaven = Bezoekopdrachten = Unieke bezoekers
 
 Dit is met name op het rapport van de gebruikersagent van toepassing. Zoals u in de onderstaande schermafbeelding kunt zien, heeft de &quot;onbekende versie&quot; van deze browsers bijna hetzelfde aantal bezoekers als unieke bezoekers (en bijna hetzelfde aantal paginaweergaven). Dit kan in segmentatie worden geïsoleerd door een [!UICONTROL Include] container voor `Single Page Visits equals Enabled` of `Hit Depth is less than 2`.
 

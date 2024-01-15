@@ -1,22 +1,22 @@
 ---
 description: De verwerkingsregels kunnen gebeurtenissen teweegbrengen die op de variabelen van de Gegevens van de Context worden gebaseerd.
 subtopic: Processing rules
-title: Een gebeurtenis instellen met een contextdatavariabele
+title: Een gebeurtenis instellen met een variabele van een contextgegevens
 feature: Admin Tools
-uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
+role: Admin
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 11%
+source-wordcount: '149'
+ht-degree: 1%
 
 ---
 
-# Een gebeurtenis instellen met een contextdatavariabele
+# Een gebeurtenis instellen met een variabele van een contextgegevens
 
 De verwerkingsregels kunnen gebeurtenissen teweegbrengen die op de variabelen van de Gegevens van de Context worden gebaseerd.
 
-De variabelen van contextgegevens worden gespecificeerd in AppMeasurement in het volgende formaat:
+Contextgegevensvariabelen worden in AppMeasurement in de volgende indeling opgegeven:
 
 ```
  s.contextData['search_term']

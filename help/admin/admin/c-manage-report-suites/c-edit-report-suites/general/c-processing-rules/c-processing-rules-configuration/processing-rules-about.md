@@ -3,11 +3,12 @@ description: Met verwerkingsregels kunt u gegevens wijzigen op basis van gedefin
 subtopic: Processing rules
 title: De werking van verwerkingsregels
 feature: Processing Rules
+role: Admin
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 2%
+source-wordcount: '696'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 Met verwerkingsregels kunt u gegevens wijzigen op basis van gedefinieerde voorwaarden. Wanneer kenmerken of waarden overeenkomen met gedefinieerde voorwaarden, kunnen waarden worden ingesteld en verwijderd en kunnen gebeurtenissen worden ingesteld.
 
-De verwerkingsregels worden toegepast op gegevens aangezien het wordt verzameld, en de regels worden toegepast op alle gegevens die door de bibliotheken AppMeasurement en door de Invoeging API van Gegevens komen. De verwerkingsregels zijn ook van toepassing op de volledige gegevensbronnen en de loggegevens. Deze bronnen bevatten gegevens die een *`hit`* of een handeling die een gebruiker uitvoert. De verwerkingsregels zijn niet van toepassing op andere gegevensbronnen.
+De verwerkingsregels worden toegepast op gegevens aangezien het wordt verzameld, en de regels worden toegepast op alle gegevens die door de bibliotheken van het AppMeasurement en door de Invoeging API van Gegevens komen. De verwerkingsregels zijn ook van toepassing op de volledige gegevensbronnen en de logbestanden. Deze bronnen bevatten gegevens die een *`hit`* of een handeling die een gebruiker uitvoert. De verwerkingsregels zijn niet van toepassing op andere gegevensbronnen.
 
 ## Belangrijke concepten {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -31,7 +32,7 @@ De volgende lijst bevat zeer belangrijke concepten u moet begrijpen wanneer het 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>De regels zijn op één enkele rapportreeks van toepassing. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> Verwerkingsregels kopiëren naar een andere rapportsuite </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> De verwerkingsregels van het exemplaar aan een andere rapportreeks </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De verwerkingsregels worden toegepast in de weergegeven volgorde. </p> </td> 
@@ -62,12 +63,12 @@ De volgende lijst bevat zeer belangrijke concepten u moet begrijpen wanneer het 
    <td colname="col2"> <p>De zoekopdracht voor mobiele apparaten vindt plaats vóór de verwerkingsregels, maar kenmerken zijn niet beschikbaar in de verwerkingsregels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Parameters van queryreeksen kunnen niet worden gelezen na de eerste 255 tekens van een URL als u JavaScript AppMeasurement H.25.2 of eerder uitvoert. JavaScript AppMeasurement H.25.3 en hoger bevatten de volledige URL inclusief alle parameters van de queryreeks voor verwerkingsregels. </p> </td> 
+   <td colname="col1"> <p>Parameters van queryreeksen kunnen niet worden gelezen na de eerste 255 tekens van een URL als u JavaScript-AppMeasurement H.25.2 of eerder uitvoert. JavaScript AppMeasurement H.25.3 en hoger verstrekken volledige URL met inbegrip van alle parameters van het vraagkoord aan verwerkingsregels. </p> </td> 
    <td colname="col2"> <p>Voer een upgrade uit naar H.25.3 of hoger of lees parameters voor queryreeksen van lange URL's, client-side en store-waarden in variabelen voor contextgegevens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De het koordwaarden van de vraag moeten in Unicode of UTF-8 worden gecodeerd om door verwerkingsregels te worden gelezen. </p> </td> 
-   <td colname="col2"> <p>Dit kan van invloed zijn op multibyte-tekens die worden doorgegeven met behulp van querytekenreeksen. </p> </td> 
+   <td colname="col2"> <p>Dit kan van invloed zijn op multibyte-tekens die worden doorgegeven met querytekenreeksen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>U bent beperkt tot 150 regels met 30 voorwaarden elk voor elke rapportreeks. </p> </td> 
@@ -98,7 +99,7 @@ De voorwaarden controleren paginariabelen voor een passende waarde of als een wa
 
 U kunt een regel zonder voorwaarden maken om gedefinieerde handelingen altijd uit te voeren.
 
-Variabelen worden niet automatisch gecontroleerd op waarden voordat handelingen worden uitgevoerd. Bijvoorbeeld, bevat Prop1 een waarde van &quot;iets&quot;, en eVar1 is leeg. Als u Prop1 instelt op gelijk aan eVar1, zijn beide waarden leeg. Als u dit moet vermijden, voegt u een voorwaarde toe om de aanwezigheid van een waarde te controleren.
+Variabelen worden niet automatisch gecontroleerd op waarden voordat handelingen worden uitgevoerd. Bijvoorbeeld, bevat Prop1 een waarde van &quot;iets&quot;, en eVar1 is leeg. Als u Prop1 op gelijke eVar1 plaatst zullen beide waarden leeg zijn. Als u dit moet vermijden, voegt u een voorwaarde toe om de aanwezigheid van een waarde te controleren.
 
 ## Handelingen voor regelverwerking {#section_E2285C9D008442C7BF136E52A9A4CC06}
 

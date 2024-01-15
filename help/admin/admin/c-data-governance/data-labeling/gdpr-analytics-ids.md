@@ -2,11 +2,12 @@
 description: Begrijp de id's die zijn vastgelegd in de analysegegevens en bepaal welke u wilt gebruiken voor de aanvragen voor gegevensprivacy.
 title: Best practices voor labelen
 feature: Data Governance
+role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: a1cf20c0e38bf6938dcb379a57f639f9cc43d81b
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '2695'
-ht-degree: 79%
+source-wordcount: '2676'
+ht-degree: 78%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->Herinner dat het etiketteren moet worden herzien telkens als een nieuwe rapportreeks wordt gecreeerd of wanneer de nieuwe variabele binnen een bestaande rapportreeks wordt toegelaten. U dient de labeling mogelijk ook te herzien wanneer integraties van nieuwe oplossingen worden ingeschakeld, omdat deze nieuwe variabelen kunnen laten zien waarvoor een label nodig is. Een herimplementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, waardoor eveneens updates van labels nodig kunnen zijn.
+>Herinner dat het etiketteren moet worden herzien telkens als een nieuwe rapportreeks wordt gecreeerd of wanneer een nieuwe variabele binnen een bestaande rapportreeks wordt toegelaten. U dient de labeling mogelijk ook te herzien wanneer integraties van nieuwe oplossingen worden ingeschakeld, omdat deze nieuwe variabelen kunnen laten zien waarvoor een label nodig is. Een herimplementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, waardoor eveneens updates van labels nodig kunnen zijn.
 
 ## Direct of indirect identificeerbare id&#39;s {#direct-vs-indirect}
 
@@ -23,7 +24,7 @@ Voordat u kunt achterhalen welke labels op welke variabelen/velden moeten worden
 * **Een rechtstreeks identificeerbare id (I1)**: noemt de persoon bij naam of biedt een directe methode om contact op te nemen. Voorbeelden zijn de iemands naam (zelfs een algemene naam zoals John Smith die door honderden personen kan worden gedeeld), een van zijn of haar e-mailadressen of telefoonnummers, enz. Een postadres zonder naam kan als rechtstreeks identificeerbaar worden beschouwd, ook al identificeert het alleen een huishouden of bedrijf in plaats van een bepaalde persoon binnen dat huishouden of bedrijf.
 * **Een indirect identificeerbare id (I2)**: kan een persoon niet zelf identificeren, maar kan worden gecombineerd met andere informatie (die al dan niet in uw bezit is) om iemand te identificeren. De voorbeelden van indirect identificeerbare identiteitskaart omvatten een aantal van de klantenloyaliteit, of identiteitskaart die door het systeem van CRM van een bedrijf wordt gebruikt dat voor elk van hun klanten uniek is. Onder Data Privacy kunnen de anonieme id&#39;s die zijn opgeslagen in de door Analytics gebruikte trackingcookies, worden beschouwd als indirect identificerend, ook al kunnen ze alleen een apparaat identificeren en geen individu; op een gedeeld apparaat kunnen deze cookies geen onderscheid maken tussen verschillende gebruikers van het systeem. Het cookie kan bijvoorbeeld niet worden gebruikt om een computer met het cookie te vinden, maar als iemand toegang tot de computer heeft en het cookie opzoekt, kunnen de Analytics-cookiedata vervolgens wel weer aan de computer worden gekoppeld.
 
-   Een IP adres wordt ook beschouwd als indirect identificeerbaar, omdat het op om het even welk bepaald ogenblik slechts aan één enkel apparaat zou kunnen worden toegewezen. Maar ISP’s kunnen de IP-adressen van de meeste gebruikers regelmatig veranderen en dat doen ze ook, zodat in de loop van de tijd een IP-adres door elk van hun gebruikers kan zijn gebruikt. Het is ook niet ongewoon dat vele klanten van een ISP of meerdere medewerkers binnen een bedrijf op hetzelfde intranet hetzelfde externe IP-adres delen. Daarom biedt Adobe geen ondersteuning voor het gebruik van een IP-adres als de id voor een privacyaanvraag voor gegevens. Wanneer echter een id die wij accepteren, wordt gebruikt als onderdeel van een verwijderingsaanvraag, zullen we de IP-adressen die bij deze id zijn voorgekomen, eveneens wissen. U moet beslissen of er andere verzamelde id&#39;s bestaan die in deze categorie kunnen vallen, van I1 of I2, maar die niet geschikt zijn voor gebruik als onderscheidende ID voor verzoeken om privacy van gegevens.
+  Een IP adres wordt ook beschouwd als indirect identificeerbaar, omdat het op om het even welk bepaald ogenblik slechts aan één enkel apparaat zou kunnen worden toegewezen. Maar ISP’s kunnen de IP-adressen van de meeste gebruikers regelmatig veranderen en dat doen ze ook, zodat in de loop van de tijd een IP-adres door elk van hun gebruikers kan zijn gebruikt. Het is ook niet ongewoon dat vele klanten van een ISP of meerdere medewerkers binnen een bedrijf op hetzelfde intranet hetzelfde externe IP-adres delen. Daarom biedt Adobe geen ondersteuning voor het gebruik van een IP-adres als de id voor een verzoek om gegevensprivacy. Nochtans, wanneer identiteitskaart die wij goedkeuren als deel van een schrappingsverzoek wordt gebruikt, zullen wij de IP adressen ook ontruimen die met die identiteitskaart voorkwamen. U moet beslissen of er andere verzamelde id&#39;s bestaan die in deze categorie kunnen vallen, van I1 of I2, maar die niet geschikt zijn voor gebruik als onderscheidende ID voor verzoeken om privacy van gegevens.
 
 Zelfs als uw bedrijf binnen uw Analytics-data veel verschillende id&#39;s verzamelt, kunt u ervoor kiezen om uitsluitend een subset van deze id&#39;s te gebruiken voor Data Privacy-aanvragen. Dit kan de volgende redenen hebben:
 
@@ -72,7 +73,7 @@ Gebruik deze tabel om te bepalen welke soorten id&#39;s u gaat gebruiken wanneer
 
 >[!NOTE]
 >
->Props zijn altijd niet-hoofdlettergevoelig. eVars zijn standaard niet-hoofdlettergevoelig, maar kunnen via de klantenservice van Adobe worden geconfigureerd om wel hoofdlettergevoelig te zijn. Als u een hoofdlettergevoelige eVar hebt met een id, is het uw verantwoordelijkheid om de juiste hoofd- en/of kleine letters te gebruiken bij het verzenden van een Data Privacy-aanvraag, zodat de gebruikte letters in de aanvraag overeenkomen met de letters in de treffers voor deze id&#39;s.
+>Props zijn altijd niet hoofdlettergevoelig. eVars zijn standaard niet-hoofdlettergevoelig, maar kunnen via de klantenservice van Adobe worden geconfigureerd om wel hoofdlettergevoelig te zijn. Als u een hoofdlettergevoelige eVar hebt met een id, is het uw verantwoordelijkheid om de juiste hoofd- en/of kleine letters te gebruiken bij het verzenden van een Data Privacy-aanvraag, zodat de gebruikte letters in de aanvraag overeenkomen met de letters in de treffers voor deze id&#39;s.
 
 De verwijderingslabels DEL-DEVICE en DEL-PERSON moeten spaarzaam worden gebruikt. Wanneer ze worden toegepast op een variabele die geen id bevat die als deel van de Data Privacy-aanvraag is gebruikt, zullen de tellingen (cijfers) in historische rapporten van Analytics bijna altijd veranderen.
 
@@ -86,7 +87,7 @@ De verwijderingslabels DEL-DEVICE en DEL-PERSON moeten spaarzaam worden gebruikt
 * Als u niet het gebruik van de Uitbreiding van identiteitskaart specificeert, maar een mengeling apparaat en persoon IDs voor verschillende verzoeken zal gebruiken, dan kunt u zowel DEL-DEVICE als DEL-PERSON etiketten voor variabelen willen specificeren die zouden moeten worden geschrapt wanneer één van beide type van identiteitskaart wordt gebruikt.
 * Bedenk dat, als een DEL-DEVICE- of DEL-PERSON-label wordt opgegeven voor elke variabele die niet ook wordt gebruikt als id voor deze aanvraag (inclusief een uitgebreide id), dan zullen unieke waarden in deze variabele alleen worden geanonimiseerd bij treffers waar een opgegeven (of uitgebreide) id voorkomt. Als andere treffers dezelfde waarde bevatten, wordt dit niet op deze andere plaatsen bijgewerkt. Dit kan ertoe leiden dat tellingen (cijfers) veranderen.
 
-   Als u bijvoorbeeld drie treffers hebt met de waarde “foo” in eVar7, maar slechts één daarvan ook een id in een andere variabele bevat die een match heeft voor verwijdering, wordt “foo” in deze treffer gewijzigd in een waarde als “Data Privacy-123456789”, terwijl deze waarde in de andere twee treffers ongewijzigd blijft. Een rapport met het aantal unieke waarden voor eVar7 toont nu één unieke waarde meer dan daarvoor. Een rapport dat de hoogste waarden voor eVars toont, kan “foo” met slechts twee instanties bevatten (in plaats van 3, zoals vroeger), en de nieuwe waarde zal ook worden getoond, met één instantie.
+  Als u bijvoorbeeld drie treffers hebt met de waarde “foo” in eVar7, maar slechts één daarvan ook een id in een andere variabele bevat die een match heeft voor verwijdering, wordt “foo” in deze treffer gewijzigd in een waarde als “Data Privacy-123456789”, terwijl deze waarde in de andere twee treffers ongewijzigd blijft. Een rapport met het aantal unieke waarden voor eVar7 toont nu één unieke waarde meer dan daarvoor. Een rapport dat de hoogste waarden voor eVars toont, kan “foo” met slechts twee instanties bevatten (in plaats van 3, zoals vroeger), en de nieuwe waarde zal ook worden getoond, met één instantie.
 
 ## Beste praktijken voor het plaatsen van de etiketten van de Toegang {#best-practices-access}
 

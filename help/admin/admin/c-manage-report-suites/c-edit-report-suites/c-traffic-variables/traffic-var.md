@@ -1,22 +1,23 @@
 ---
 description: Met Custom Insight Traffic Variables (of props) kunt u aangepaste gegevens koppelen aan specifieke gebeurtenissen die betrekking hebben op het verkeer. De propvariabelen worden ingesloten in de implementatiecode op elke pagina van uw website.
-title: Overzicht traffic variabele (prop)
+title: Overzicht verkeersvariabele (prop)
 feature: Admin Tools
+role: Admin
 exl-id: b05dbd33-b298-41a0-9474-e015ba5bc23c
-source-git-commit: 507e669f798cf8a451f0383eb8bcb18b1f793e35
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Overzicht van verkeersvariabelen
+# Overzicht van verkeersvariabelen (props)
 
 Met Custom Insight Traffic Variables (of props) kunt u aangepaste gegevens koppelen aan specifieke gebeurtenissen die betrekking hebben op het verkeer. De propvariabelen worden ingesloten in de implementatiecode op elke pagina van uw website.
 
 >[!TIP]
 >
->Adobe raadt u aan [eVars](/help/implement/vars/page-vars/evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. Adobe heeft de eVars echter in die mate verbeterd dat ze nu bijna alle gevallen van gebruik voor props vervullen.
+>Adobe raadt u aan [eVars](/help/implement/vars/page-vars/evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. De Adobe heeft de eVars echter zodanig verbeterd dat ze nu bijna alle gevallen van gebruik voor props vervullen.
 
 U kunt verkeersveranderlijke rapporten toevoegen en toelaten. U kunt bestaande rapporten van de verkeersvariabele ook onbruikbaar maken of anders noemen.
 

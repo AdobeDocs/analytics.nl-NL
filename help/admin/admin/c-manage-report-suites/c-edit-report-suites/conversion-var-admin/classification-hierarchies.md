@@ -3,11 +3,12 @@ description: Met de pagina Classificatiehiërarchie kunt u classificatiehiërarc
 subtopic: Classifications
 title: Classificatiehiërarchieën
 feature: Classifications
+role: Admin
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -31,8 +32,8 @@ Maak de classificaties voordat u ze toevoegt aan een hiërarchie.
 
 ## Een classificatiehiërarchie maken {#task_3805EBCACC844261A7125D63D772CCDF}
 
-1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Een rapportsuite selecteren.
+1. Klikken **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Selecteer een rapportsuite.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Classification Hierarchies]**.
 1. Van de **[!UICONTROL Build Hierarchy For]** vervolgkeuzelijst, selecteert u de variabele waar u een classificatiehiërarchie wilt maken.
 

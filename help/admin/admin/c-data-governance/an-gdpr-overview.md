@@ -2,11 +2,12 @@
 description: In dit document wordt beschreven wat u in Adobe Analytics moet doen om de GDPR-toegangs- en verwijderingsrechten van uw geregistreerde personen te ondersteunen.
 title: Adobe Analytics en GDPR
 feature: Data Governance
+role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 96%
+source-wordcount: '581'
+ht-degree: 86%
 
 ---
 
@@ -28,13 +29,13 @@ Als datacontroller bepaalt u welke persoonlijke data Adobe namens u verwerkt en 
 
 ![](assets/privacy_ready.png)
 
-## Hoe Adobe omgaat met GDPR-data {#section_A20BCC08A80B410D97601BFB1CAF83F1}
+## Hoe Adobe omgaat met GDPR-gegevens {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
 Het Adobe Cloud Platform (ACP) biedt een geïntegreerde oplossing waarmee de infrastructuur van de data-governance van uw merk wordt gekoppeld aan de Adobe-tools die worden gebruikt om klantervaringen te maken en te beheren. Met de functies voor data-governance van het Adobe Cloud Platform kunt u een rechtstreekse koppeling maken tussen het data-governancebeleid en het datagebruik.
 
 Maak u vertrouwd met [Hoe Adobe Analytics omgaat met GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html), waarin de stappen voor GDPR-gereedheid en de integratie met de Adobe Experience Cloud GDPR-API worden besproken.
 
-## GDPR-gereedheid en uw Adobe Analytics-data {#section_9A47CDCD614C42238F6E05CFF0180195}
+## GDPR-gereedheid en uw Adobe Analytics-gegevens {#section_9A47CDCD614C42238F6E05CFF0180195}
 
 Adobe beseft dat u zelf de aangepaste data in uw rapportensuites het best kent, en we bieden u de mogelijkheid om de instellingen en voorkeuren voor uw data-governance te definiëren.
 
@@ -48,9 +49,9 @@ Zie [Rapportsuitedata labelen](/help/admin/admin/c-data-governance/data-labeling
 * Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
 * Stel voor elke rapportsuite een dataretentiebeleid in, zodat GDPR-verwijderings- en toegangsaanvragen kunnen worden gehonoreerd.
 
-   >[!NOTE]
-   >
-   >Adobe Analytics kan u niet helpen bij het verwerken van aanvragen bij de GDPR-API, dat wil zeggen, het verwerken van toegangs- of verwijderingsaanvragen die u van uw eindgebruikers ontvangt, als de dataretentieperiode niet is ingesteld in Adobe Analytics. Neem contact op met uw Adobe-accountteam om de periode voor het bewaren van gegevens in te stellen.
+  >[!NOTE]
+  >
+  >Adobe Analytics kan u niet helpen met het verwerken van aanvragen voor de GDPR API, dat wil zeggen, het verwerken van verzoeken om toegang of verwijdering die u van uw eindgebruikers ontvangt, als de bewaartermijn voor gegevens niet is ingesteld in Adobe Analytics. Neem contact op met het accountteam van de Adobe om de periode voor het bewaren van gegevens in te stellen.
 
 * Controleer uw toestemmingen: als u de Data Governance-beheerinterface van Adobe Analytics wilt gebruiken, moet u een Adobe Analytics-beheerder zijn.
 

@@ -1,18 +1,18 @@
 ---
 description: Gebeurtenissen kunnen worden ingesteld op basis van paginawaarden of op basis van specifieke waarden in een variabele.
 subtopic: Processing rules
-title: Productweergavegebeurtenis instellen op basis van de productoverzichtspagina
+title: De gebeurtenis voor de productweergave instellen op de pagina met productoverzicht
 feature: Admin Tools
-uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
+role: Admin
 exl-id: 63e139e1-d325-4650-9d2a-19ab3f91818e
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 29%
+source-wordcount: '75'
+ht-degree: 2%
 
 ---
 
-# Productweergavegebeurtenis instellen op basis van de productoverzichtspagina
+# De gebeurtenis voor de productweergave instellen op de pagina met productoverzicht
 
 Gebeurtenissen kunnen worden ingesteld op basis van paginawaarden of op basis van specifieke waarden in een variabele.
 

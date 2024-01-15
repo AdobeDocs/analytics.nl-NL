@@ -2,8 +2,9 @@
 description: Data Warehouse biedt een functie waarmee u een lijst met bezoekers-id's kunt uitnemen. Deze id's zijn geen cookie-id's, maar id's die u vastlegt in een van uw conversievariabelen. Hoewel er andere manieren om bij deze informatie te krijgen zijn, is het volgende voorbeeld een kortere weg aan het produceren van een verzoek van de Data Warehouse.
 title: Hoofdletters gebruiken - Bezoeker-id's uitnemen
 feature: Admin Tools
+role: Admin
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
@@ -24,4 +25,4 @@ Door deze in te stellen in conversievariabelen (eVars) kunt u zien hoe elke e-ma
 
 Stel dat u deze id&#39;s vastlegt. De meeste marketeers willen hun websitegedrag segmenteren en dan zien of kunnen zij aan hen opnieuw in de handel brengen die aan bepaalde criteria voldoen. U kunt bijvoorbeeld een e-mailbericht voor het opnieuw in de handel brengen verzenden naar alle e-mailontvangers die vanuit de e-mail naar uw site zijn gekomen en een websiteformulier hebben bekeken (of voltooid). Hiervoor zoekt u een manier om de e-MAILcontact-id&#39;s te identificeren van de personen die het specifieke formulier invullen.
 
-Dit kunt u doen door een Subrelatierapport voor conversie te gebruiken om de waarde voor de eVar Formulier-id op te delen door de eVar E-MAIL-contact-id. Er is echter een vooraf gebouwde functie beschikbaar om dit met Data Warehouse te doen. Met deze functie kunt u zien welke eVar unieke gebruikers-id&#39;s (in dit geval E-MAIL-contact-id) zijn opgeslagen en kunt u deze id&#39;s gemakkelijk extraheren via het gegevensopslagsysteem. Door deze eigenschap te gebruiken, kunt u een verzoek van het gegevenspakhuis automatisch tot stand brengen dat Unieke Bezoeker IDs trekt waarvoor u geinteresseerd bent.
+Dit kunt u doen door een Subrelatierapport voor conversie te gebruiken om de waarde Formulier-id-eVar op te delen door de eVar E-MAIL-contact-id. Er is echter een vooraf gebouwde functie beschikbaar om dit met Data Warehouse te doen. Met deze functie kunt u zien welke eVar uw unieke gebruikersnaam opslaat (in dit geval de E-MAIL-contact-id) en kunt u deze id&#39;s gemakkelijk extraheren met behulp van een gegevensopslagruimte. Door deze eigenschap te gebruiken, kunt u een verzoek van het gegevenspakhuis automatisch tot stand brengen dat Unieke Bezoeker IDs trekt waarvoor u geinteresseerd bent.

@@ -2,11 +2,12 @@
 description: Elke id die u wilt kunnen zoeken, krijgt een naamruimte toegewezen, een aangepaste tekenreeks die deze id identificeert in elke variabele waarin deze wordt gebruikt in al uw rapportsuites.
 title: Naamruimten
 feature: Data Governance
+role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 92%
+source-wordcount: '881'
+ht-degree: 83%
 
 ---
 
@@ -38,7 +39,7 @@ De waarde moet worden opgegeven als twee hexadecimale getallen, gescheiden door 
 
 Het is ook acceptabel om `"namespaceId": 10` te gebruiken in plaats van of in aanvulling op `"namespace": "AAID"`, en het kan zijn dat sommige andere Adobe-producten dit formulier gebruiken.
 
-## Cookie voor het bijhouden van oude analyses: verouderd formulier
+## Verouderde cookie voor analyse bijhouden: verouderd formulier
 
 ```
 {
@@ -52,7 +53,7 @@ Afgeschaft formulier:
 
 De waarde moet worden opgegeven als twee hexadecimale getallen van 16 cijfers, of als twee decimale getallen van 19 cijfers. De getallen moeten worden gescheiden door een streepje, onderstrepingsteken of dubbele punt. Er moeten voorloopnullen worden toegevoegd als een van beide getallen onvoldoende cijfers heeft.
 
-## Identity Service cookie
+## Cookie Identiteitsservice
 
 ```
 {
@@ -68,7 +69,7 @@ Het is ook acceptabel om `"namespaceId": 4` te gebruiken in plaats van of in aan
 
 >[!NOTE]
 >
->De Experience Cloud ID (ECID) werd vroeger de Marketing Cloud-id (MCID) genoemd en wordt nog steeds bij die naam genoemd in een deel van de bestaande documentatie.
+>De Experience Cloud-id (ECID) werd voorheen de Marketing Cloud-id (MCID) genoemd en wordt nog steeds door die naam genoemd in een aantal bestaande documentatie.
 >
 >Deze id&#39;s zijn de enige id&#39;s die door Analytics worden ondersteund en die een andere “type”-waarde dan “analytics” gebruiken.
 
@@ -110,10 +111,10 @@ U kunt ook naamruimten zien die u eerder voor andere variabelen of rapportsuites
 
 >[!TIP]
 >
->Vermijd het gebruik van de friendly name van een variabele (de naam die wordt weergegeven in de rapportagegebruikersinterface) of het nummer van de variabele (zoals eVar12) wanneer u de naamruimte opgeeft in de Data Privacy-API, tenzij deze naamruimte is opgegeven bij het toepassen van het label ID-DEVICE of ID-PERSON. Door een naamruimte te gebruiken in plaats van een friendly name kan hetzelfde gebruikersidentiteitsblok de juiste variabele opgeven voor meerdere rapportsuites. Als de id bijvoorbeeld in sommige rapportsuites in verschillende eVars voorkomt, of als de friendly names niet overeenkomen (bijvoorbeeld wanneer de friendly name is gelokaliseerd voor een bepaalde rapportsuite).
+>Vermijd het gebruik van de vriendelijke naam van een variabele (de naam die wordt weergegeven in de rapportage-UI) of het nummer van de variabele (zoals eVar12) bij het opgeven van de naamruimte op de Data Privacy API, tenzij dit de naamruimte is die is opgegeven bij het toepassen van het label ID-DEVICE of ID-PERSON. Door een naamruimte te gebruiken in plaats van een friendly name kan hetzelfde gebruikersidentiteitsblok de juiste variabele opgeven voor meerdere rapportsuites. Als de id bijvoorbeeld in sommige rapportsuites in verschillende eVars voorkomt, of als de friendly names niet overeenkomen (bijvoorbeeld wanneer de friendly name is gelokaliseerd voor een bepaalde rapportsuite).
 
 >[!CAUTION]
 >
->De naamruimten “visitorId” en “customVisitorId” zijn gereserveerd voor het identificeren van het verouderde Analytics-trackingcookie en de bezoekers-id van de Analytics-klant. Gebruik deze naamruimten niet voor variabelen voor aangepaste traffic of conversie.
+>De naamruimten &quot;bezoekerId&quot; en &quot;customVisitorId&quot; zijn gereserveerd voor het identificeren van het verouderde cookie voor bijhouden van analysemogelijkheden en de bezoeker-id van de Analytics-klant. Gebruik deze naamruimten niet voor variabelen voor aangepaste traffic of conversie.
 
 Zie [Een naamruimte opgeven wanneer u een variabele labelt als ID-DEVICE of ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

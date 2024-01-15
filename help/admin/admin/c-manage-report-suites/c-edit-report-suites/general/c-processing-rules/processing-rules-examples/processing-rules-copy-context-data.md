@@ -1,18 +1,18 @@
 ---
 description: Verwerkingsregels worden gebruikt om waarden van variabelen van de Gegevens van de Context naar steunen en eVars te bewegen.
 subtopic: Processing rules
-title: Een contextdatavariabele kopiëren naar een eVar
+title: Een variabele met contextgegevens kopiëren naar een eVar
 feature: Admin Tools
-uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
+role: Admin
 exl-id: f52c2c6c-da3d-43d6-be13-92d0820c93b4
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 7%
+source-wordcount: '224'
+ht-degree: 0%
 
 ---
 
-# Een contextdatavariabele kopiëren naar een eVar
+# Een variabele met contextgegevens kopiëren naar een eVar
 
 De verwerkingsregels worden gebruikt om waarden van de variabelen van contextgegevens naar steunen en eVars te bewegen. Zonder verwerkingsregels hebben contextgegevensvariabelen geen betekenis en vullen ze geen rapporten in Analytics.
 
@@ -26,7 +26,7 @@ In het volgende voorbeeld wordt het `search_term` context gegevensvariabele en p
 
 Het bovenstaande voorbeeld werkt prima als er slechts een paar eVars zijn om te vullen. Als uw organisatie honderden variabelen van contextgegevens heeft die elk hun eigen eVar nodig hebben, kunt u voorwaardelijke verklaringen gebruiken. Tientallen voorwaardelijke instructies passen binnen één verwerkingsregel, zodat uw organisatie alle eVars in een rapportsuite kan vullen zonder dat de verwerkingsregellimiet van 150 regels wordt overschreden.
 
-In het volgende voorbeeld wordt het bestand gevuld `prop7` met de variabele contextgegevens `testhierarchy`, maar alleen `testhierarchy` is ingesteld:
+In het volgende voorbeeld wordt het bestand gevuld `prop7` met de variabele contextgegevens `testhierarchy`, maar alleen als `testhierarchy` is ingesteld:
 
 ![Voorwaardelijk](assets/add-conditional.png)
 

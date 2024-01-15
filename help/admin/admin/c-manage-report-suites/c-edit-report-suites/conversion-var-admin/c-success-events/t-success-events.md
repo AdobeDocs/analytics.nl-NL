@@ -2,11 +2,12 @@
 description: Stappen die beschrijven hoe te om succesgebeurtenissen te vormen.
 title: Succesgebeurtenissen configureren
 feature: Event
+role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 10%
+source-wordcount: '239'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 10%
 Succesgebeurtenissen configureren:
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Een rapportsuite selecteren.
+1. Selecteer een rapportsuite.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**.
 
    ![Stap Resultaat](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/assets/success_event_page.png)
@@ -32,7 +33,7 @@ Succesgebeurtenissen configureren:
 1. In de **[!UICONTROL Polarity]** kolom, specificeer of een stijgende trend voor deze metrisch goed of slecht is.
 1. In de **[!UICONTROL Visibility]** kolom, kunt u standaardmetriek (ingebouwde), douanegebeurtenissen, en ingebouwde gebeurtenissen in het Menu, Metrische Kiezers, Berekende Bouwer van Metriek, en de Bouwer van het Segment verbergen.
 
-   Deze instelling heeft geen invloed op de gegevensverzameling voor die metrische waarde of gebeurtenis; het beïnvloedt slechts zijn zichtbaarheid in het gebruikersinterface, als volgt:
+   Deze instelling heeft geen invloed op de gegevensverzameling voor die metrische waarde of gebeurtenis; deze instelling heeft alleen invloed op de zichtbaarheid in de gebruikersinterface, als volgt:
 
 
    | Instelling | Zichtbaar in | Niet zichtbaar in |

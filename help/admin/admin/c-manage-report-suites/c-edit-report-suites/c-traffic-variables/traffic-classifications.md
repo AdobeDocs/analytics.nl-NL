@@ -1,21 +1,22 @@
 ---
 description: Verkeersclassificaties maken het mogelijk verkeersvariabelen (props) te classificeren. Verkeersclassificaties kunnen alleen tekstclassificaties gebruiken.
 subtopic: Classifications
-title: Traffic-classificaties
+title: Verkeersclassificaties
 feature: Admin Tools
+role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 7%
+ht-degree: 1%
 
 ---
 
-# Traffic-classificaties
+# Verkeersclassificaties
 
 Verkeersclassificaties maken het mogelijk verkeersvariabelen (props) te classificeren. Verkeersclassificaties kunnen alleen tekstclassificaties gebruiken.
 
-## Traffic-classificaties {#concept_028079B29A9C412AA68910A87E11176F}
+## Verkeersclassificaties {#concept_028079B29A9C412AA68910A87E11176F}
 
 Verkeersclassificaties maken het mogelijk verkeersvariabelen (props) te classificeren. Verkeersclassificaties kunnen alleen tekstclassificaties gebruiken.
 
@@ -34,7 +35,7 @@ t_classification_add_traffic.xml
 Classificaties voor de geselecteerde rapportsuites toevoegen of bewerken:
 
 1. Klikken **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** in de koptekst van de Suite.
-1. Een rapportsuite selecteren.
+1. Selecteer een rapportsuite.
 1. In de **[!UICONTROL Select Classification Type]** selecteert u de variabele waaraan u een classificatie wilt toevoegen.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]**.
 

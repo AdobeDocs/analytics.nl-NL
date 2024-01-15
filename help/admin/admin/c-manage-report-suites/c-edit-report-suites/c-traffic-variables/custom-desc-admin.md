@@ -2,10 +2,11 @@
 description: U kunt aangepaste rapportbeschrijvingen opgeven voor eVars, profielen, classificaties en gebeurtenissen. De beschrijvingen zijn zichtbaar voor al uw eindgebruikers.
 title: Aangepaste rapportbeschrijvingen
 feature: Admin Tools
+role: Admin
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 U kunt aangepaste rapportbeschrijvingen opgeven voor eVars, profielen, classificaties en gebeurtenissen. De beschrijvingen zijn zichtbaar voor al uw eindgebruikers.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL *variabele *]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL *variabel *]**
 
 >[!NOTE]
 >
@@ -29,8 +30,8 @@ De beschrijving is op twee plaatsen zichtbaar:
 
 * In de titelbalk van dat rapport:
 
-   ![](/help/admin/admin/assets/report_description_2.png)
+  ![](/help/admin/admin/assets/report_description_2.png)
 
 * Als tooltip wanneer u over het rapport in de linkernavigatie beweegt:
 
-   ![](/help/admin/admin/assets/report_description_3.png)
+  ![](/help/admin/admin/assets/report_description_3.png)

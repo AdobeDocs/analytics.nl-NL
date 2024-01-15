@@ -2,11 +2,12 @@
 description: Toont voorbeelden op hoe te om gegevens voor raakgegevens, toegangsverzoeken, schrappingsverzoeken te etiketteren
 title: Voorbeelden van labels
 feature: Data Governance
+role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 62%
+source-wordcount: '862'
+ht-degree: 54%
 
 ---
 
@@ -20,17 +21,17 @@ Stel dat u de volgende treffersdata hebt:
 * De tweede rij is de naam van de variabele. Als er een id-label is, bevat deze de toegewezen naamruimte tussen haakjes.
 * De treffersdata beginnen op de derde rij.
 
-| Labels | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
+| Labels | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-APPARAAT <br> DEL-APPARAAT <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-APPARAAT <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-APPARAAT <br> DEL-APPARAAT <br> ACC-ALL |
 |---|---|---|---|---|---|
-| **Naam variabele** <br> **(Namespace)** | **MyProp1** <br> **(gebruiker)** | **Bezoekers-id** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
+| **Naam variabele** <br> **(Namespace)** | **MyProp1** <br> **(gebruiker)** | **Bezoeker-id** <br> **(STEUN)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | Treffersdata | Moniek | 77 | A | M | X |
-|  | Moniek | 88 | B | N | Y |
-|  | Moniek | 99 | C | O | Z |
-|  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
-|  | John | 44 | F | Q | V |
-|  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | Z |
+| | Moniek | 88 | B | N | Y |
+| | Moniek | 99 | C | O | Z |
+| | John | 77 | D | P | W |
+| | John | 88 | E | N | U |
+| | John | 44 | F | Q | V |
+| | John | 55 | G | R | X |
+| | Alice | 66 | A | N | Z |
 
 ## Voorbeeld van toegangsaanvraag {#access}
 
@@ -40,7 +41,7 @@ Als ik een toegangsverzoek indient, bevat het samenvattingsbestand de waarden di
   <tr>
     <th colspan="2" style="text-align:center">API-waarden</th>
     <th rowspan="2">Geretourneerd<br>Bestandstype</th>
-    <th colspan="5" style="text-align:center">Data in Overzichtstoegangsbestand</th>
+    <th colspan="5" style="text-align:center">Gegevens in toegangsbestand overzicht</th>
   </tr>
   <tr>
     <th>Naamruimte/id</th>
@@ -151,7 +152,7 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
   </tr>
   <tr>
     <th>MyProp1</th>
-    <th>AAID</th>
+    <th>STEUN</th>
     <th>MyEvar1</th>
     <th>MyEvar2</th>
     <th>MyEvar3</th>
@@ -216,15 +217,15 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
 
 >[!NOTE]
 >
->Alleen cellen op rijen met AAID=77 en een DEL-DEVICE-label worden beïnvloed.
+>Alleen cellen op rijen met AID = 77 en een DEL-DEVICE-label worden beïnvloed.
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Moniek<br>expandIDs=false</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=false</th>
   </tr>
   <tr>
     <th>MyProp1</th>
-    <th>AAID</th>
+    <th>STEUN</th>
     <th>MyEvar1</th>
     <th>MyEvar2</th>
     <th>MyEvar3</th>
@@ -289,15 +290,15 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
 
 >[!NOTE]
 >
->Alleen cellen op rijen met user=Moniek en een DEL-PERSON-label worden beïnvloed. In de praktijk zou de variabele die A_ID bevat waarschijnlijk ook een prop of een eVar zijn. Zijn vervangingswaarde zou een koord zijn dat met &quot;Privacy-&quot;begint, door een willekeurig aantal (GUID) wordt gevolgd, eerder dan het vervangen van de numerieke waarde met een verschillende, willekeurige numerieke waarde die.
+>Alleen cellen op rijen met user=Mary en een DEL-PERSON-label worden beïnvloed. In de praktijk zou de variabele die A_ID bevat waarschijnlijk ook een proxy of een eVar zijn. Zijn vervangingswaarde zou een koord zijn dat met &quot;Privacy-&quot;begint, door een willekeurig aantal (GUID) wordt gevolgd, eerder dan het vervangen van de numerieke waarde met een verschillende, willekeurige numerieke waarde die.
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Moniek<br>expandIDs=true</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=true</th>
   </tr>
   <tr>
     <th>MyProp1</th>
-    <th>AAID</th>
+    <th>STEUN</th>
     <th>MyEvar1</th>
     <th>MyEvar2</th>
     <th>MyEvar3</th>
@@ -364,7 +365,7 @@ Let op het volgende:
 
 * Cellen op rijen die `user=Mary` en `DEL-PERSON` het label wordt beïnvloed.
 * Vanwege ID-uitbreiding bevatten cellen op rijen die `AAID=77`, `AAID=88` of `AAID=99` (Dit zijn de waarden van de STEUN op rijen die `user=Mary`) en `DEL-DEVICE` het label wordt beïnvloed. Dit omvat cellen met een `DEL-DEVICE` label op rijen waar `user=Mary`. Dit veroorzaakt cellen in rijen 4 en 5 (evenals rijen 1-3) met `DEL-DEVICE` labels (AID, MyEvar2 en MyEvar3) die u wilt verduisteren.
-* De instelling expandIDs breidt zich niet uit naar de aanroep om waarden op te nemen die aanwezig zijn in MyEvar3 (`X`, `Y` en `Z`), dat een ID-DEVICE-label heeft, wanneer `user=Mary`. ExpandIDs breidt zich slechts uit om Bezoeker IDs (HULPs in dit voorbeeld, maar ook ECID) op rijen te omvatten waar `user=Mary`. De laatste twee rijen die MyEvar3-waarden bevatten van `X` en `Z` geen invloed hebben.
+* De instelling expandIDs wordt niet uitgebreid naar de aanroep om waarden op te nemen die zich in MyEvar3 (`X`, `Y` en `Z`), dat een ID-DEVICE-label heeft, wanneer `user=Mary`. ExpandIDs breidt zich slechts uit om Bezoeker IDs (HULPs in dit voorbeeld, maar ook ECID) op rijen te omvatten waar `user=Mary`. De laatste twee rijen die MyEvar3-waarden bevatten van `X` en `Z` geen invloed hebben.
 * `MyEvar2` in de vierde en vijfde rij worden bijgewerkt omdat deze rijen dezelfde waarden voor de bezoeker-id bevatten (`77` en `88`) als op de eerste en de tweede rij. Dientengevolge, omvat de uitbreiding van identiteitskaart hen voor apparaat-vlakke schrappingen.
 * De waarden van `MyEvar2` in de rijen twee en vijf komen zowel voor als na de schrapping overeen. Na het verwijderen komen ze echter niet meer overeen met de waarde `N` die in de laatste rij voorkomt, omdat die rij niet als deel van het schrappingsverzoek werd bijgewerkt.
 * `MyEvar3` gedraagt zich heel anders dan zonder de id-uitbreiding, omdat zonder id-uitbreiding geen `ID-DEVICES` overeenkwam. Nu, `AAID` komt overeen met de eerste vijf rijen.
