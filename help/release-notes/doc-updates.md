@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
 source-wordcount: '4925'
 ht-degree: 23%
@@ -142,7 +142,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Adobe Analytics-bestemmingspagina-updates | [Updates](/help/analyze/landing.md) naar de gemeenschappelijke bestemmingspagina van Workspace/Reports &amp; Analytics die bruikbaarheid en gemak van navigatie verbetert. |
 | [!UICONTROL Next item] of [!UICONTROL Previous item] Deelvenster Werkruimte | In dit deelvenster kunt u items verkennen die een dimensie-item van uw keuze volgen of er aan voorafgaan. |
 | [!UICONTROL Page Summary] Deelvenster Werkruimte | Dit deelvenster biedt een diepgaande analyse van de pagina die u kiest. |
-| Nieuw onderwerp bij het pauzeren van oudere geplande rapporten | Effectief **15 april 2022** is de Adobe voornemens [onderbreek alle geplande rapporten met een aanmaakdatum van meer dan twee jaar](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| Nieuw onderwerp bij het pauzeren van oudere geplande rapporten | Effectief **15 april 2022**, is de Adobe voornemens alle geplande rapporten met een aanmaakdatum van meer dan twee jaar te onderbreken |
 | **Februari 2022** |
 | Modus voor voorvertoning van mobiel scorecard-project | De [voorbeeldmodus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#preview) kunt u een voorvertoning van de ervaring weergeven voordat u een scorecard opslaat en deelt. |
 | API-projecteindpunt | Analysis Workspace-projecten toevoegen, bewerken of verwijderen met de API. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |

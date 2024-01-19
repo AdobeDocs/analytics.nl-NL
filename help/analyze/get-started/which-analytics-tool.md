@@ -1,16 +1,16 @@
 ---
 description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe Analytics-hulpprogramma. De hulpmiddelen zouden in de orde moeten worden overwogen zij worden vermeld. Als een bepaald hulpmiddel niet aan de behoefte voldoet, ga naar volgende voor overweging.
-title: Welke Adobe Analytics-tool moet ik gebruiken?
+title: Welk Adobe Analytics-gereedschap moet ik gebruiken?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 2%
+source-wordcount: '1106'
+ht-degree: 1%
 
 ---
 
-# Welke Adobe Analytics-tool moet ik gebruiken?
+# Welk Adobe Analytics-gereedschap moet ik gebruiken?
 
 Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe Analytics-hulpprogramma. De hulpmiddelen zouden in de orde moeten worden overwogen zij worden vermeld. Als een bepaald hulpmiddel niet aan de behoefte voldoet, ga naar volgende voor overweging.
 
@@ -24,28 +24,9 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** moet de gebruikersinterface zijn voor al uw rapportage- en analysebehoeften. Adobe blijft in dit product investeren en maandelijks updates uitbrengen. Als er een taak is die u niet kunt uitvoeren in Analysis Workspace, kunt u de andere interfaces hieronder overwegen.**
 
-**[Rapporten en analyses](/help/analyze/reports-analytics/overview/report-overview.md)** dienen te worden gebruikt:
+**[Report Builder](/help/analyze/report-builder/home.md)** is een invoegtoepassing voor Microsoft Excel. Hiermee kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens, die u kunt invoegen in uw Excel-werkbladen. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft.
 
-* Door beginnergebruikers die toegang tot vooraf gebouwde rapportering nodig hebben die gemakkelijker is te navigeren.
-* Toegang krijgen tot realtime gegevens in de gebruikersinterface.
-* Kalendergebeurtenissen instellen.
-* Doelstellingen instellen.
-* U krijgt toegang tot unieke videovisualisaties van Video Daypart en Viewer Drop-off.
-
->[!IMPORTANT]
->
->Effectief **31 december 2023**, is de Adobe voornemens de verslagen en analyses en de bijbehorende verslagen en kenmerken te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die energierapporten &amp; analyses niet meer voldoen aan de technologienormen van de Adobe. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
-
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** dienen te worden gebruikt:
-
-* Voor voorspellende, statistische modellering (prospectie, clustering, correlaties, enz.).
-* Voor Latentie-analyse (tijd voor / sinds een gebeurtenis).
-* Voor de identificatie en uitvoer van complexe segmenten in Adobe Experience Cloud.
-
->[!IMPORTANT]
->
->Meer informatie over Data Workbench [Aankondiging einde levensduur](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
-
+**[Adobe Analytics-dashboards](/help/analyze/mobile-app/home.md)** biedt gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. De mobiele app wordt ondersteund op zowel iOS- als Android-besturingssystemen.
 
 ## Gegevens importeren in Adobe Analytics {#import}
 
@@ -74,7 +55,7 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 
 * Wanneer u gegevens naar Adobe Analytics moet uploaden en u kunt de Adobe AppMeasurement- of mobiele SDK-code niet gebruiken.
 
-**[API voor data-invoer in bulk](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+**[API voor het invoegen van bulkgegevens](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
 * API voor gegevensinvoeging en API voor bulkgegevensinvoeging zijn beide methoden om verzamelingsgegevens op de server naar Adobe Analytics te verzenden. API-aanroepen voor het invoegen van gegevens worden één gebeurtenis tegelijk uitgevoerd. De API voor het invoegen van bulkgegevens accepteert CSV-bestanden met gebeurtenisgegevens, één gebeurtenis per rij. Als u aan een nieuwe implementatie van server-zijinzameling werkt, adviseren wij gebruikend de Invoeging API van de Gegevens van het Bulk.
 

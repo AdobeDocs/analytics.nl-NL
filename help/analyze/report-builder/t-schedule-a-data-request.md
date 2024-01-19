@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 U kunt werkboeken plannen, geavanceerde leveringsopties specificeren, ontvangers specificeren, en de planningsgeschiedenis bekijken. Met de geavanceerde leveringsopties kunt u werkboeken configureren die u op een bepaald tijdstip of met intervallen wilt verzenden. U kunt het dossierformaat ook specificeren waarin om het werkboek te verzenden.
 
 U kunt bijvoorbeeld plannen dat werkboeken direct of volgens een terugkerend schema worden geleverd en de bestandsindeling opgeven in [!DNL Advanced Delivery Options]. De grens van de dossiergrootte is 5 MB voor een werkboek uploadt.
-
-Bovendien, nadat u een werkboekprogramma in Report Builder creeert, kunt u het programma in bekijken en uitgeven **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (Zie [Rapportschema en distributie](/help/analyze/reports-analytics/scheduling.md) in de Help bij Rapporten en Analytics.)
 
 >[!NOTE]
 >
@@ -34,7 +32,7 @@ Bovendien, nadat u een werkboekprogramma in Report Builder creeert, kunt u het p
 > * **Problemen bij downstreamdiensten** dat de Planner zich op baseert ook levering van werkboeken kan beïnvloeden. Bijvoorbeeld, als u onafhankelijk APIs gebruikt om werkboeken in werking te stellen en de API verzoekrij te vullen, dan kunnen uw geplande werkboeken langzaam leveren terwijl u voor die bron concurreert.
 > * **Vertraging rapportsuite** (een vertraging in gegevensinzameling) kan sommige geplande werkboeken ook vertragen.
 
-## Een werkmap plannen
+## Een werkboek plannen
 
 1. Genereer en sla een werkboek op.
 1. Klik op de werkbalk Report Builder op **[!UICONTROL Schedule]**.

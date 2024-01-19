@@ -3,9 +3,9 @@ title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2535'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Contextgegevensvariabelen:** Tijdelijke variabelen die uitsluitend in verwerkingsregels worden gebruikt. De veranderlijke waarden van contextgegevens worden permanent verloren als een verwerkingsregel hen niet aan een omzetting of verkeersvariabele kopieert. Zie [Contextgegevensvariabelen](../implement/vars/page-vars/contextdata.md) in de gebruikershandleiding Implementeren.
 * **Conversievariabele** Ook bekend als eVars. Slaat een douanewaarde op, en bewaart de veranderlijke waarde tot het verloopt. Zie de [eVar](/help/components/dimensions/evar.md) in de gebruikershandleiding van Componenten.
 * **Correlatie:** Niet langer gebruikt als een term; vervangen door uitsplitsingen naar dimensie. In eerdere versies van Adobe Analytics bood correlations de mogelijkheid om verkeersvariabelen op te splitsen. Zie [Afmetingen onderverdelingen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in de gebruikershandleiding Analyseren.
-* **Huidige gegevens:** Een optie in sommige rapporten die de opname van onlangs verzamelde gegevens toestaat die nog niet volledig verwerkt hebben. Zie [Huidige gegevens](/help/analyze/reports-analytics/current-data.md) in de gebruikershandleiding Analyseren.
 * **Aangepaste koppeling:** Een type hit dat niet-paginaweergavegegevens bevat. Zie de [s.tl() functie](../implement/vars/functions/tl-method.md) in de gebruikershandleiding Implementeren. Zie ook Actief.
 * **Klantkenmerken:** An Experience Cloud feature that allows the upload of attribute data. Zie [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in de gebruikershandleiding voor Core Services.
 * **Vertegenwoordiger van klantenondersteuning:** Een aangewezen gebruiker die gemachtigd is rechtstreeks met de klantenservice van de Adobe te communiceren. Zie [Delegaties voor klantenondersteuning](https://helpx.adobe.com/experience-cloud/supported-users.html) in de Knowledgebase van het Experience Cloud.

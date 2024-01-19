@@ -3,9 +3,9 @@ title: Variabeletoewijzing analyseren in Adobe Experience Edge
 description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen aan analytische variabelen.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | `placeContext.geo._schema.longitude` | De mobiele afmetingslengte. |
 | `placeContext.geo.postalCode` | De [Postcode](../../components/dimensions/zip-code.md) dimensie. |
 | `placeContext.geo.stateProvince` | De [VS](../../components/dimensions/us-states.md) dimensie. |
-| `placeContext.localTime` | Helpt vullen [Tijdzones](/help/analyze/reports-analytics/reports.md) in Report &amp; Analytics. Verschijnt als `t_time_info` in [Gegevensfeeds](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
+| `placeContext.localTime` | Verschijnt als `t_time_info` in [Gegevensfeeds](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Toepassingen [productsyntaxis](../vars/page-vars/products.md) verhandelen naar Vars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Toepassingen [productsyntaxis](../vars/page-vars/products.md) verhandelen naar gebeurtenissen. |
 | `productListItems[].productCategories[].categoryID` | De [Categorie](../../components/dimensions/category.md) dimensie. Zie ook de [producten](../vars/page-vars/products.md) paginavariabele. |
