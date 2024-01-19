@@ -4,16 +4,16 @@ title: Volgend of vorig deelvenster met items
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: c289f4aa1e49e428182fed9a871a1f90dd1f5c42
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 1%
+source-wordcount: '409'
+ht-degree: 0%
 
 ---
 
 # Volgend of vorig deelvenster met items
 
-De [!UICONTROL Next or previous item] deelvenster dat is gestart als een rapport in Rapporten en Analytics, onder [!UICONTROL Reports] > [!UICONTROL Most popular] > [!UICONTROL Next page/Previous page]. Het is nu ook een deelvenster Werkruimte. Dit paneel bevat een aantal lijsten en visualisaties om het volgende of vorige afmetingspunt voor een specifieke afmeting gemakkelijk te identificeren. U kunt bijvoorbeeld bekijken naar welke pagina&#39;s klanten het vaakst zijn gegaan nadat ze de startpagina hebben bezocht.
+Dit paneel bevat een aantal lijsten en visualisaties om het volgende of vorige afmetingspunt voor een specifieke afmeting gemakkelijk te identificeren. U kunt bijvoorbeeld bekijken naar welke pagina&#39;s klanten het vaakst zijn gegaan nadat ze de startpagina hebben bezocht.
 
 ## Het deelvenster openen
 
@@ -35,7 +35,7 @@ U kunt de [!UICONTROL Next or previous item] met deze invoerinstellingen:
 | Segment (of andere component) dropzone | U kunt segmenten of andere componenten slepen en neerzetten om de resultaten van het deelvenster verder te filteren. |
 | Dimension | De dimensie waarvoor u volgende of vorige punten wilt onderzoeken. |
 | Dimension-item | Het specifieke item in het midden van uw volgende/vorige vraag. |
-| Richting | Geef op of u op zoek bent naar [!UICONTROL Next] of de [!UICONTROL Previous] dimensie-item. |
+| Richting | Geef op of u naar de [!UICONTROL Next] of de [!UICONTROL Previous] dimensie-item. |
 | Container | [!UICONTROL Visit] of [!UICONTROL Visitor] (gebrek) bepaalt het werkingsgebied van uw vraag. |
 
 {style="table-layout:auto"}
@@ -54,6 +54,6 @@ De [!UICONTROL Next or previous item] retourneert een uitgebreide set gegevens e
 | --- | --- |
 | Horizontale balk | Hiermee geeft u de volgende (of vorige) items weer op basis van het gekozen dimensie-item. Als u de cursor boven een afzonderlijke balk houdt, wordt het bijbehorende item in de tabel Vrije vorm gemarkeerd. |
 | Samenvattingsnummer | Samenvattingsaantal op hoog niveau van alle volgende of vorige instanties van afmetingspunten voor de huidige maand (tot nu toe). |
-| Vrije-vormentabel | Hiermee geeft u de volgende (of vorige) items weer op basis van het gekozen dimensie-item in een tabelindeling. Dit waren bijvoorbeeld de populairste pagina&#39;s (op voorvallen) die mensen na (of vóór) de startpagina of de werkruimtenpagina hebben weergegeven. |
+| Vrije-vormtabel | Hiermee geeft u de volgende (of vorige) items weer op basis van het gekozen dimensie-item in een tabelindeling. Dit waren bijvoorbeeld de populairste pagina&#39;s (op voorvallen) die mensen na (of vóór) de startpagina of de werkruimtenpagina hebben weergegeven. |
 
 {style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: Machtigingen voor productprofielen voor Analytics Tools
 description: Gebruik de machtigingsitems Analytics Tools om toegang te verlenen tot functies in Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '368'
 ht-degree: 2%
 
 ---
@@ -18,14 +18,13 @@ Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Ana
 |----|----|
 | [!UICONTROL Activity Map] | Hiermee krijgt u toegang tot Gereedschappen > Activity Map. Hiermee kan de gebruiker de extensie Activity Map gebruiken. |
 | [!UICONTROL Advertising Analytics Management] | Hiermee kunnen gebruikers zoekaccounts voor advertenties instellen/bewerken/weergeven. |
-| [!UICONTROL Analysis Workspace Access] | Biedt toegang tot Analysis Workspace. Gebruikers moeten tot deze groep (voorkeur) of Rapporten &amp; Toegang Analytics behoren om Adobe Analytics te kunnen gebruiken. |
+| [!UICONTROL Analysis Workspace Access] | Biedt toegang tot Analysis Workspace. |
 | [!UICONTROL Analysis Workspace: Save As Template] | Hiermee krijgt u toegang tot Project > Opslaan als sjabloon in Analysis Workspace. |
 | [!UICONTROL Annotation Creation] | Hiermee kunt u annotaties maken. |
 | [!UICONTROL Calculated Metric Creation] | Biedt de mogelijkheid berekende metriek te maken voor alle analysemogelijkheden. |
 | [!UICONTROL Co-Branding] | Niet gebruikt |
 | [!UICONTROL Code Manager] | Bewaren voor oudere doeleinden. Hiermee krijgt u toegang tot Beheer > Alle beheerders > Codebeheer. In de meeste gevallen gebruikt u in plaats daarvan de bibliotheken in de Adobe Analytics-extensie in de Adobe Experience Platform-gegevensverzameling. |
 | [!UICONTROL Code Manager - Web Services] | Hiermee krijgt u toegang tot de codecontrole via de 1.4-API. |
-| [!UICONTROL Current Data] | Hiermee schakelt u de optie in om de huidige gegevens in rapporten en analyses weer te geven. |
 | [!UICONTROL Excel License Users] | Niet gebruikt. |
 | [!UICONTROL Hide Report Suites] | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Rapportsets verbergen. Biedt de mogelijkheid om een rapportsuite in de organisatie te verbergen, ongeacht de toegang tot de rapportsuite. |
 | [!UICONTROL Integrations (Create)] | Niet gebruikt. Data Connectors is aan het einde van zijn levensduur. |
@@ -38,7 +37,6 @@ Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Ana
 | [!UICONTROL Pending Actions] | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Handelingen in behandeling. |
 | [!UICONTROL Preferences] | Niet gebruikt |
 | [!UICONTROL Report Builder] | Hiermee schakelt u de downloadknop in onder Opties > Report Builder en kan de gebruiker in Microsoft Excel verifiëren. |
-| [!UICONTROL Reports & Analytics Access] | Hiermee krijgt u toegang tot rapporten en analyses. Gebruikers moeten tot deze groep of Analysis Workspace Access (voorkeur) behoren om Adobe Analytics te kunnen gebruiken. |
 | [!UICONTROL Security] | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Beveiligingsbeheer. |
 | [!UICONTROL Segment Creation] | Biedt de mogelijkheid om segmenten te maken en te delen met alle analysemogelijkheden. |
 | [!UICONTROL Segment Publishing] | Biedt de mogelijkheid om van een segment een publiek in het Experience Cloud te maken wanneer u een segment maakt of bewerkt. |

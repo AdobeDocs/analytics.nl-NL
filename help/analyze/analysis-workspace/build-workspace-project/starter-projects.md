@@ -4,16 +4,16 @@ title: Sjablonen
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
 # Sjablonen (*nu Rapporten genoemd*)
 
-Sjablonen worden niet meer gebruikt als een term voor vooraf gebouwde werkruimteprojecten. Rapporten verwijzen naar alles wat vooraf door de Adobe is samengesteld, zoals rapporten in Rapporten &amp; Analytics en vooraf samengestelde rapporten in Workspace. De term *sjablonen* wordt soms gebruikt om naar malplaatjes of rapporten te verwijzen uw bedrijf creeerde. Aangepaste sjablonen worden ook wel *aangepaste bedrijfsrapporten*.
+Sjablonen worden niet meer gebruikt als een term voor vooraf gebouwde werkruimteprojecten. Rapporten verwijzen naar alles wat vooraf door de Adobe is samengesteld, zoals rapporten in Rapporten &amp; Analytics (end-of-lifed) en vooraf gebouwde rapporten in Workspace. De term *sjablonen* wordt soms gebruikt om naar malplaatjes of rapporten te verwijzen uw bedrijf creeerde. Aangepaste sjablonen worden ook wel *aangepaste bedrijfsrapporten*.
 
 Raadpleeg de volgende documentatie voor informatie over het maken van werkruimterapporten en het maken van aangepaste bedrijfsrapporten:
 

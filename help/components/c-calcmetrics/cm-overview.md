@@ -4,10 +4,10 @@ keywords: Berekende metriek;Afgeleide Metriek;Geavanceerde Berekende Metriek
 title: Berekende en geavanceerde berekende (afgeleide) cijfers
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 6%
+source-wordcount: '543'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijz
 
 Hier is een vergelijking van berekende metriek en geavanceerde berekende metriekmogelijkheden:
 
-| Builder-opties | Berekende standaarden | Geavanceerde berekende (afgeleide) metriek |
+| Builder-opties | Berekende cijfers | Geavanceerde berekende (afgeleide) metriek |
 |---|---|---|
 | [Indelingstypen (decimaal, tijd, percentage, valuta)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Ja | Ja |
 | [Wijzigingen in het kenmerk (standaard, lineair, deelname, enz.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Ja | Ja |
@@ -38,7 +38,7 @@ Hier is een vergelijking van berekende metriek en geavanceerde berekende metriek
 
 U kunt
 
-* Metrische gegevens maken over [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], en [!UICONTROL Contribution Analysis].
+* Metrische gegevens maken over [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], en [!UICONTROL Contribution Analysis].
 * Creeer gesegmenteerde metriek die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op segmenten.
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
@@ -54,7 +54,6 @@ U kunt
 
 Sommige [!DNL Analytics] Met functies kunt u wel gebeurtenissen gebruiken, maar niet berekende meetwaarden:
 
-* [!UICONTROL Funnels] in [!UICONTROL Reports & Analytics]
 * [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace]
 * [!UICONTROL Cohort Analysis] in Analysis Workspace
 * [!UICONTROL Data Warehouse]
@@ -63,7 +62,7 @@ Sommige [!DNL Analytics] Met functies kunt u wel gebeurtenissen gebruiken, maar 
 * [!UICONTROL Current Data] rapporten
 * [!DNL Analytics] for [!DNL Target]
 
-## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
+## Gereedschappen {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
 Hier volgt een kort overzicht van het [!UICONTROL Calculated metrics] gereedschappen:
 
@@ -91,7 +90,7 @@ Hier volgt een kort overzicht van het [!UICONTROL Calculated metrics] gereedscha
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Berekende standaard-beheer</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Berekend metrisch beheer</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
      <li id="li_E0B216BA1478406EB6212263DF71D85B">Deel metriek met anderen. </li> 

@@ -4,10 +4,10 @@ title: Succesgebeurtenissen configureren
 feature: Event
 role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 6%
+source-wordcount: '221'
+ht-degree: 7%
 
 ---
 
@@ -38,9 +38,9 @@ Succesgebeurtenissen configureren:
 
    | Instelling | Zichtbaar in | Niet zichtbaar in |
    |---------|----------|---------|
-   | [!UICONTROL **Overal zichtbaar**] | <ul><li>Rapporten en analyse (menu en metriekenselectie)</li><li>Analysis Workspace</li><li>Segment Builder</li><li>Berekende metrische bouwer</li></ul> | N.v.t. |
-   | [!UICONTROL **Opbouwmachines**] | <ul><li>Segment Builder</li><li>Berekende metrische bouwer</li></ul> | <ul><li>Rapporten en analyse (menu en metriekenselectie)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Overal verborgen**] | N.v.t. | <ul><li>Rapporten en analyse (menu en metriekenselectie)</li><li>Analysis Workspace</li><li>Segment Builder</li><li>Berekende metrische bouwer</li></ul> |
+   | [!UICONTROL **Overal zichtbaar**] | <ul><li>Analysis Workspace</li><li>Segment Builder</li><li>Berekende metrische bouwer</li></ul> | N.v.t. |
+   | [!UICONTROL **Opbouwmachines**] | <ul><li>Segment Builder</li><li>Berekende metrische bouwer</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Overal verborgen**] | N.v.t. | <ul><li>Analysis Workspace</li><li>Segment Builder</li><li>Berekende metrische bouwer</li></ul> |
 
 1. Geef een beschrijving op.
 1. Controleer of u de gebeurtenis altijd wilt opnemen.

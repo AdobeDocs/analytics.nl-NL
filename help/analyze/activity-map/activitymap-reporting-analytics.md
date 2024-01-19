@@ -1,17 +1,17 @@
 ---
 description: Beschrijft hoe te om toestemmingen te plaatsen en welke afmetingen in Analytics beschikbaar zijn.
-title: Activity Map-rapportage in Analytics
+title: Rapportage van Activity Mappen in Analytics
 feature: Activity Map
 role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 5%
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
-# Activity Map-rapportage in Analytics
+# Rapportage van Activity Mappen in Analytics
 
 Beschrijft hoe te om toestemmingen te plaatsen en welke afmetingen in Analytics beschikbaar zijn.
 
@@ -34,6 +34,6 @@ U kunt [gebruikerstoegang aanpassen aan dimensies](https://experienceleague.adob
 | Koppelingen en regio Activity Mappen | Hiermee geeft u alle verzamelde koppelingen met hun regio op de hele website weer. |
 | Activity Map XY | Ongebruikt |
 
-* Deze dimensies moeten beschikbaar zijn in Analysis Workspace, Reports &amp; Analytics en Report Builder, op voorwaarde dat uw Analytics-implementatie [ingeschakeld voor Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
-* Navigeer in Rapporten &amp; Analytics naar **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map]**.
+* Deze afmetingen moeten beschikbaar zijn in Analysis Workspace en Report Builder, op voorwaarde dat uw analytische implementatie [ingeschakeld voor Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
+* In Analysis Workspace, trek de Activiteitenkaart-verwante dimensies in een rapport.
 * Als u een koppeling en een gebied voor een specifieke pagina wilt bekijken, hoeft u alleen maar een onderverdeling te maken van de gewenste pagina voor Activity Map naar de Activity Map Koppelingen en regio.

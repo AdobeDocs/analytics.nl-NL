@@ -3,9 +3,9 @@ description: Beschrijvingen van de types van rapportsuite en vergelijking van gl
 title: Methoden van rapportsuite
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,7 @@ Het gebruik van virtuele-rapportsuites in plaats van taggen met meerdere suite i
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] is het enige hulpmiddel dat rolluprapporten steunt, en de Adobe adviseert niet meer het gebruiken van rollups. Overweeg in plaats daarvan een algemene rapportsuite met tags voor meerdere suite of virtuele rapportensuites.
-
-Een rolluprapport is een eenvoudige samenvoeging van gegevens uit meerdere rapportageopes, zonder deduplicatie of een segment of gegevensuitsplitsingen. Rollups vereisen geen code-implementatie. Rolluprapporten gebruiken [gebruik maken van een kinderrapport](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) en vervolgens [combineren in een rolluprapport](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) gebruiken [!UICONTROL Admin Tools].
-
-Rollup-rapporten zijn gratis: de suites van het kindrapport worden aangeroepen door de server, maar de rollup wordt niet aangeroepen. Rollups zijn een oudere functie en hebben vele beperkingen.
+>[!DNL Reports & Analytics] is het enige hulpmiddel dat rollup rapporten steunde. Rapporten en analyses zijn op 17 januari 2024 beëindigd.
 
 ### Beperkingen van rolluprapporten {#limitations-rollups}
 
@@ -80,6 +76,6 @@ Rollup-rapporten zijn gratis: de suites van het kindrapport worden aangeroepen d
 
 **Rapporten**: Global report suites verschaffen gegevens over alle dimensies; rollups verschaffen geaggregeerde gegevens over alleen rapporten op hoog niveau.
 
-**Ondersteunde producten**: Rollups kunnen alleen worden gebruikt in Rapporten en Analytics. Ze worden niet ondersteund in Analysis Workspace of Data Warehouse. Globale rapportsuites kunnen over alle producten worden gebruikt.
+**Ondersteunde producten**: Rollups kan alleen worden gebruikt in Rapporten en Analyse. Ze worden niet ondersteund in Analysis Workspace of Data Warehouse. Globale rapportsuites kunnen over alle producten worden gebruikt.
 
 **Aantal samengevoegde rapportreeksen**: Rollups bieden alleen ondersteuning voor maximaal 40 suites voor kinderrapporten. Algemene rapportsuites kunnen worden geïmplementeerd op elk aantal domeinen of apps die u hebt.

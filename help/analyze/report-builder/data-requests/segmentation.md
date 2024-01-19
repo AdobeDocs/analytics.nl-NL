@@ -4,9 +4,9 @@ title: Segmenten beheren (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,9 @@ U kunt specifieke combinaties rapportdimensies hebben die u in een segment zou w
 1. Ga terug naar Report Builder en klik het Refresh pictogram om de lijst van segmenten te verfrissen.
 1. U bent nu klaar om dit segment toe te passen.
 
-## Segmenten zoeken en toepassen {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## Segmenten zoeken en toepassen {#search}
 
-Om het even welke segmenten die in Rapporten &amp; Analytics, Report Builder, of Data Warehouse werden gecreeerd verschijnen in deze segmentlijst. Klik op het pictogram Vernieuwen om de lijst te vernieuwen ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Om het even welke segmenten die in Rapporten &amp; Analytics (nu eind-van-opgeheven), Report Builder, of Data Warehouse werden gecreeerd verschijnen in deze segmentlijst. Klik op het pictogram Vernieuwen om de lijst te vernieuwen ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepassen. Dit omvat opeenvolgende segmenten.
 
@@ -64,9 +64,9 @@ U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepas
 
 >[!NOTE]
 >
->Of u nu Admin of niet-Admin bent, in Report Builder kunt u alleen die segmenten zien die u bezit en die welke met u zijn gedeeld. (In de gebruikersinterface Marketing Reports &amp; Analytics kan de Admin alle segmenten in de organisatie zien.)
+>Of u nu Admin of niet-Admin bent, in Report Builder kunt u alleen die segmenten zien die u bezit en die welke met u zijn gedeeld.
 
-## Segmenten filteren {#section_376E986D3E684999A7CDB08E53854159}
+## Filtersegmenten {#filter}
 
 **Filter** segmenten door op het pictogram Filter te klikken:  ![Filterpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
@@ -76,13 +76,13 @@ Beschikbare filters zijn:
 |---|---|
 | Tags | Hiermee kunt u filteren op segmenten met specifieke tags. Merk op dat de filters van de Markering de exploitant EN gebruiken. Als u twee labels controleert, ziet u in het rechterdeelvenster segmenten die zijn gecodeerd **beide** -tags. |
 | Eigenaars | Hiermee kunt u segmenten filteren op eigenaar. Merk op dat eigenaarfilters de operator OR gebruiken. Als u twee eigenaars controleert, toont de juiste ruit segmenten die door worden bezeten **ofwel** eigenaar. |
-| Overige filters > Alleen *naam rapportsuite* | Als u de optie Alleen *naam rapportsuite*&quot;, filter in de Bouwer van het Segment in [!DNL marketing reports & analytics]en geeft u vervolgens het geavanceerde filter weer in [!DNL Report Builder], zal de Geavanceerde filter het segment voor de geselecteerde rapportreeks slechts tonen. |
+| Overige filters > Alleen *naam rapportsuite* | Als u de optie Alleen *naam rapportsuite*&quot;, filter in de Bouwer van het Segment in Adobe Analytics, en toon dan de Geavanceerde Filter in [!DNL Report Builder], zal de Geavanceerde filter het segment voor de geselecteerde rapportreeks slechts tonen. |
 | Overige filters > Mine | Toont alle segmenten die u bezit. |
 | Overige filters > Met mij gedeeld | Toont alle segmenten die anderen met u deelden. |
 | Overige filters > Favorieten | Hiermee worden alle segmenten weergegeven die u als Favorieten hebt gemarkeerd. |
 | Overige filters > Goedgekeurd | Toont alle officieel goedgekeurde segmenten. |
 
-## Voeg een segmentcontrole aan een werkboek toe {#section_E3E5149A8464441FA5445A98DBD520AC}
+## Voeg een segmentcontrole aan een werkboek toe {#segment-control}
 
 Het toevoegen van een segmentcontrole laat u segmenten van binnen een werkboek in plaats van het moeten in de Tovenaar van het Verzoek gaan.
 
@@ -103,11 +103,11 @@ Het toevoegen van een segmentcontrole laat u segmenten van binnen een werkboek i
 
    ![Schermopname met het vervolgkeuzeveld Segment kiezen.](assets/seg_control2.png)
 
-## Lijst met segmenten vernieuwen {#section_22E4A86789444B4A998532396B476EFB}
+## Lijst met segmenten vernieuwen {#refresh}
 
 Als u een nieuw segment toevoegt of een bestaand segment bewerkt, klikt u op het pictogram Vernieuwen ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) om de caching lijst van segmenten te verfrissen.
 
-## Segmenten in verschillende verzoeken beheren {#section_C3D63FCBE1A94369A319243313B03C93}
+## Segmenten in verschillende verzoeken beheren {#manage}
 
 Voorafgaand aan v5.4, laat de Report Builder gebruikers segmenten op veelvoudige verzoeken veranderen. Dit proces heeft echter altijd de bestaande segmenten vervangen. De gebruikers die één nieuw segment aan elk verzoek wilden toevoegen konden dit niet doen, aangezien het toevoegen van het segment de vorige reeks segmenten zou verwijderen die reeds aan elk verzoek wordt toegewezen.
 

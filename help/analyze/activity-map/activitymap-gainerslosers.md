@@ -4,10 +4,10 @@ title: Aanpasbare overlays
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 1%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Met bedekkingen kunt u op meerdere manieren gegevensvisualisatie configureren, zodat u de populariteit van koppelingen op een pagina gemakkelijk kunt zien en begrijpen.
 
-Met bedekkingen kunt u rechtstreeks op de pagina op gegevens klikken. Dit is wat een visueel analysehulpmiddel zoals Activity Map van en vooral tabelvormige en grafische hulpmiddelen zoals Rapporten &amp; Analytics scheidt.
+Met bedekkingen kunt u rechtstreeks op de pagina op gegevens klikken.
 
 Activity Map biedt drie typen overlays:
 

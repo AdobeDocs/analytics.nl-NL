@@ -1,23 +1,21 @@
 ---
 description: Beschrijft hoe te om wegrapporten met vooraf bepaalde filters tot stand te brengen.
-title: Padrapporten filteren door afhankelijke aanvragen toe te voegen
+title: Padrapporten filteren door afhankelijke verzoeken toe te voegen
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 7%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
-# Padrapporten filteren door afhankelijke aanvragen toe te voegen
+# Padrapporten filteren door afhankelijke verzoeken toe te voegen
 
 Beschrijft hoe te om wegrapporten met vooraf bepaalde filters tot stand te brengen.
 
-Marketing Reports &amp; Analytics biedt een aantal standalone rapporten die de belangrijkste padrapporten met vooraf gedefinieerde filters zijn, zoals [!UICONTROL Next] en [!UICONTROL Previous Site Section] rapporten, toegang en [!UICONTROL Exit Site Section] verslagen, en [!UICONTROL Single Site Section] verslag.
-
-Report Builder biedt deze niet aan als zelfstandige rapporten, maar u kunt ze maken via de **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** contextmenu&#39;s. De volgende rapporten zijn beschikbaar:
+Report Builder biedt padrapporten niet als zelfstandige rapporten, maar u kunt ze maken via de **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** contextmenu&#39;s. De volgende rapporten zijn beschikbaar:
 
 * Pad > Pagina-uitval
 * Pad > Pad naar item

@@ -4,10 +4,10 @@ title: Analyses voor venster Doel (A4T)
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 32dfab4b10d3637aba53081f747d2650fc33a8f0
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 0%
+source-wordcount: '979'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ Elke vrije-vormlijst toont de volgende metrische kolommen:
 | Conversiepercentage | Metrisch/Normaliserend met succes |
 | Optillen | Vergelijkt de omrekeningskoers voor elke ervaring met controle. Opmerking: Lift is een &#39;vergrendelde metrische methode&#39; voor het bepalen van de ervaring. Lift kan niet worden afgebroken of worden gebruikt met andere afmetingen. |
 | Lift (onder) | Vertegenwoordigt de slechtste lift die een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben.<br>Zie [Statistische berekeningen](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) en [Complete betrouwbaarheidscalculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel-bestand voor meer informatie. |
-| Lift (middellang) | Vertegenwoordigt de middelpuntlift een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben. Dit is &quot;optillen&quot;in Rapporten &amp; Analytics.<br>Zie [Statistische berekeningen](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) en [Complete betrouwbaarheidscalculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel-bestand voor meer informatie. |
+| Lift (middellang) | Vertegenwoordigt de middelpuntlift een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben. <br>Zie [Statistische berekeningen](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) en [Complete betrouwbaarheidscalculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel-bestand voor meer informatie. |
 | Lift (boven) | Vertegenwoordigt de beste hefervaring een variant over de controle, met een 95% betrouwbaarheidsinterval kon hebben.<br>Zie [Statistische berekeningen](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) en [Complete betrouwbaarheidscalculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel-bestand voor meer informatie. |
 | Vertrouwen | De studenten t-test berekent het betrouwbaarheidsniveau, dat op de waarschijnlijkheid wijst dat de resultaten zouden worden gedupliceerd als de test opnieuw in werking werd gesteld. Een vast voorwaardelijk opmaakbereik van 75%/85%/95% is toegepast op de metrische waarde. Deze opmaak kan indien nodig worden aangepast onder Kolominstellingen. Opmerking: Vertrouwen is een &#39;vergrendelde metrische waarde&#39; die wordt gebruikt voor de doelervaring. Vertrouwen kan niet worden afgebroken of met andere dimensies worden gebruikt.<br>Zie [Statistische berekeningen](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) en [Complete betrouwbaarheidscalculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel-bestand voor meer informatie. |
 

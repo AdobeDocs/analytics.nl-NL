@@ -3,9 +3,9 @@ description: Logbestanden waarmee u kunt zien wanneer gebruikers zich aanmelden,
 title: Logboeken
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '570'
 ht-degree: 2%
 
 ---
@@ -43,18 +43,16 @@ De [!UICONTROL Usage and Access Log] Hiermee kunt u het rapportgebruik op gebrui
 | Aanmelden gelukt | Gebruiker is aangemeld. |
 | Handeling Admin | Er heeft zich een beheeractie voorgedaan, zoals het bewerken van een rapportsuite, het wijzigen van de bedrijfsinstellingen, het maken van een gebruiker, het annuleren van een rapportageaanvraag, enzovoort. |
 | Wijziging van beveiligingsinstelling | Er is een beveiligingsinstelling gewijzigd. |
-| Bekeken rapport | Er is een rapport van Rapporten en Analytics weergegeven. |
-| Gedownload rapport | Er is een rapport met rapporten en analyses gedownload. |
 | Waarschuwing verzonden | Er is een waarschuwing verzonden. |
 | Handeling van gebruiker | Gebruikersgegevens zijn bewerkt. |
 | Gereedschap weergegeven | Er is een gereedschap weergegeven. |
 | Omniture-actie | Een actie is uitgevoerd door Adobe. |
 | Herstel van wachtwoord | Er is een wachtwoord hersteld. |
-| BookMarks | Er is een bladwijzer beheerd. |
+| Bladwijzers | Er is een bladwijzer beheerd. |
 | Dashboards | Er is een dashboard beheerd. |
 | Waarschuwingen | Er is een waarschuwing beheerd. |
 | Kalendergebeurtenissen | Er is een kalendergebeurtenis beheerd. |
-| Targets | Er is een doel beheerd. |
+| Doelen | Er is een doel beheerd. |
 | Rapportinstellingen | Er is een rapportinstelling beheerd. |
 | Geplande rapporten | Een gepland rapport is beheerd. |
 | Uitsluiten door IP | IP-instelling gewijzigd. |

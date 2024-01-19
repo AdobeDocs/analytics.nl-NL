@@ -3,9 +3,9 @@ description: Het systeem van de Intelligente Alarm staat voor meer korrelige con
 title: Intelligente waarschuwingen
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '519'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ Met intelligente waarschuwingen kunt u
 
 De componenten van het waakzame systeem omvatten: De Bouwer van de alarm, Manager van de Alarm, Voorproef van de Alarm, en betere in-context toegang tot het creëren van alarm. De oude gebruikersinterface van het waarschuwingssysteem is niet meer beschikbaar, maar de waarschuwingen worden gemigreerd. Enkele oude waarschuwingsfuncties [zijn niet meer beschikbaar](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html).
 
-Er zijn vier manieren om naar de Waarschuwingsbouwer te gaan:
+Er zijn drie manieren om naar de Waarschuwingsbouwer te gaan:
 
 * Met de volgende sneltoets in Analysis Workspace:
 
@@ -43,11 +43,8 @@ Er zijn vier manieren om naar de Waarschuwingsbouwer te gaan:
 
   ![](assets/create-alert-from-selection.png)
 
-* Van binnen een [!UICONTROL Reports & Analytics] rapport, door  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Dit zal nieuwe Bouwer van de Waarschuwing openen en zal de bouwer met de aangewezen metriek en de filters pre-bevolken die van het rapport worden toegepast. U kunt de waarschuwing vervolgens bewerken, indien nodig.
 
-  ![](assets/add-alert.png)
-
-## Veelgestelde vragen: Hoe waarschuwingen worden berekend en geactiveerd {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
+## Veelgestelde vragen: Hoe waarschuwingen worden berekend en geactiveerd {#trigger}
 
 De procentuele drempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen en 99% = 3 standaardafwijkingen. Afhankelijk van de tijdsgranulariteit die u kiest, [verschillende modellen](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) worden gebruikt om te berekenen hoe ver weg (hoeveel standaardafwijkingen) elk gegevenspunt van de norm is. Als u een lagere drempel instelt (bijvoorbeeld 90%), krijgt u meer anomalieën dan wanneer u een hogere drempel instelt (99%). 99,75% &amp; 99,99% drempels werden ingevoerd specifiek voor de uurgranulariteit zodat het niet zoveel anomalieën zou veroorzaken.
 

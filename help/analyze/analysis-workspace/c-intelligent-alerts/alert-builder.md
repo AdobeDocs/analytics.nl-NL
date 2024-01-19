@@ -4,9 +4,9 @@ title: Alert Builder (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,9 @@ U kunt de waarschuwingsfunctie op vier manieren openen:
 
 * Met de volgende sneltoets in Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
 * Door een of meer vrije regelitems voor tabellen te selecteren, klikt u met de rechtermuisknop en selecteert u **[!UICONTROL Create Alert from Selection]**.
-* Vanuit een rapport Rapporten &amp; Analytics gaat u naar **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 ## Waarschuwingen samenstellen
 
@@ -42,7 +41,7 @@ Geef een naam op voor de waarschuwing. De waakzame naam zou de naam van het rapp
 
 **Tijdgranulatie**
 
-Geef op wanneer u de metrische waarde wilt controleren: Uur, Dagelijks, Wekelijks, of Maandelijks.
+Geef op wanneer u de metrische waarde wilt controleren: Uur, Dagelijks, Wekelijks of Maandelijks.
 
 >[!NOTE]
 >
@@ -54,7 +53,7 @@ Geef op waar de waarschuwing kan worden verzonden. Een waarschuwing kan naar een
 
 >[!IMPORTANT]
 >
->Het telefoonnummer moet worden voorafgegaan door een plusteken (+) en een [landcode](https://countrycode.org/).
+>Het telefoonnummer moet worden voorafgegaan door een &quot;+&quot; en een [landcode](https://countrycode.org/).
 
 De e-mail die een gebruiker zou ontvangen zodra een alarm is teweeggebracht kijkt gelijkaardig aan dit:
 
@@ -70,18 +69,18 @@ Stel de vervaldatum van de waarschuwing in.
 
 * Sleep metriek naar het canvas waar triggers worden toegevoegd.
 
-   An **&quot;incompatibele componenten&quot;** Het bericht verschijnt als niet alle componenten (metriek/afmetingen/segmenten) in het alarm compatibel zijn met de momenteel geselecteerde rapportreeks.
+  An **&quot;incompatibele componenten&quot;** Het bericht verschijnt als niet alle componenten (metriek/afmetingen/segmenten) in het alarm compatibel zijn met de momenteel geselecteerde rapportreeks.
 * Bepaal de drempel die metrisch moet overschrijden alvorens een alarm wordt geplaatst. U kunt deze waarde instellen op een drempel en vervolgens op een van de volgende voorwaarden:
 
-   * abnormaal
+   * anomalie bestaat
    * anomalie is groter dan verwacht
    * anomalie is minder dan verwacht
-   * boven of gelijk aan
-   * lager is dan of gelijk is
+   * is boven of gelijk aan
+   * is lager of gelijk aan
    * wijzigingen door
    * U kunt een drempel instellen van 90%, 95%, 99%, 99,75% en 99,9%.
 
-   U kunt ook berekende metriek gebruiken.
+  U kunt ook berekende metriek gebruiken.
 
 *... Met deze filters*
 

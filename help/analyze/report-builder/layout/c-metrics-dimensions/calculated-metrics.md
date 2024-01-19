@@ -1,17 +1,17 @@
 ---
 description: 'Report Builder 5.2 steunt Adobe Analytics Verenigde Berekende Metriek. Naast andere innovaties hebben alle berekende standaarden nu een globale id: ze zijn niet meer beperkt tot één rapportsuite.'
-title: Berekende standaarden
+title: Berekende cijfers
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 12%
+source-wordcount: '398'
+ht-degree: 11%
 
 ---
 
-# Berekende standaarden
+# Berekende cijfers
 
 Report Builder 5.2 ondersteunt Adobe Analytics verenigde berekende meetgegevens. Naast andere innovaties hebben alle berekende standaarden nu een globale id: ze zijn niet meer beperkt tot één rapportsuite.
 
@@ -36,7 +36,7 @@ Beschikbare filters zijn:
 | Filternaam | Beschrijving |
 |---|---|
 | Tags | Hiermee kunt u filteren op berekende metriek met specifieke tags. Merk op dat de filters van de Markering de exploitant EN gebruiken. Als u twee labels controleert, ziet u in het rechterdeelvenster de maateenheden die zijn getagd **beide** -tags. |
-| Rapportsuites | Als u de optie Alleen *naam rapportsuite*&quot; in de Berekende Metrische Bouwer in [!DNL Reports & Analytics]en geeft u vervolgens het geavanceerde filter weer in [!DNL Report Builder], zal het Geavanceerde filter de berekende metriek voor de geselecteerde rapportreeks slechts tonen. |
+| Rapportsuites | Als u de optie Alleen *naam rapportsuite*&quot; in de Berekende Metrische Bouwer in [!DNL Adobe Analytics]en geeft u vervolgens het geavanceerde filter weer in [!DNL Report Builder], zal het Geavanceerde filter de berekende metriek voor de geselecteerde rapportreeks slechts tonen. |
 | Eigenaars | Hiermee kunt u metingen filteren op eigenaar. Merk op dat eigenaarfilters de operator OR gebruiken. Als u twee eigenaars controleert, toont de juiste ruit metriek die door wordt bezeten **ofwel** eigenaar. |
 | Overige filters > Goedgekeurd | Toont alle officieel goedgekeurde metriek. |
 | Overige filters > Favorieten | Hiermee worden alle metrische gegevens weergegeven die u als Favorieten hebt gemarkeerd. |

@@ -1,17 +1,17 @@
 ---
 description: Alle bookmarked rapporten en dashboardrapporten zijn nu vermeld als dimensies in Stap 1 van de Tovenaar van het Verzoek en kunnen als verzoeken van de Report Builder worden ingevoerd.
-title: Gebookmarkte rapporten en dashboardrapporten importeren
+title: Gekoppelde rapporten en dashboardrapporten importeren
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 3%
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
-# Gebookmarkte rapporten en dashboardrapporten importeren
+# Gekoppelde rapporten en dashboardrapporten importeren
 
 Alle bookmarked rapporten en dashboardrapporten zijn nu vermeld als dimensies in Stap 1 van de Tovenaar van het Verzoek en kunnen als verzoeken van de Report Builder worden ingevoerd.
 
@@ -25,16 +25,7 @@ Wanneer u op **[!UICONTROL Retrieve your Dashboards]** of **[!UICONTROL Retrieve
 
 >[!NOTE]
 >
->In Report Builder, is de lijst van beschikbare dashboards en referenties beperkt tot de gebruiker maar ook tot degenen die op de rapportreeks van toepassing zijn u in Stap 1 van de tovenaar selecteerde. In marketingrapporten en -analyses hebt u daarentegen toegang tot alle bladwijzers en dashboards die voor u toegankelijk zijn, ongeacht de rapportsuites die deze dashboard en bladwijzers gebruiken.
-
->[!NOTE]
->
 >Alleen gegevens worden geïmporteerd, dus als de bladwijzer een grafiek bevat of als het dashboardrapport alleen uit een grafiek bestaat, worden alleen de gegevens geïmporteerd die worden gebruikt om de grafiek te vullen.
 
 Zodra u een verzoek door een dashboardrapport (of een referentie) in te voeren hebt gecreeerd, zal het verzoek dan aan de primaire dimensie van het rapport (of van de referentie) worden geassocieerd. Als u de aanvraag bewerkt, wordt in de structuurweergave het knooppunt voor de boomstructuurweergave in het dashboard-rapport (of bladwijzerknooppunt) niet meer geselecteerd: in plaats daarvan wordt de primaire dimensie geselecteerd.
 
-De geïmporteerde bladwijzerplaat zal de rapportsuite, het geselecteerde segment, de dimensie en de geselecteerde metriek op de juiste wijze instellen voor dezelfde parameters die in de bladwijzer Rapporten &amp; analyse worden weergegeven.
-
->[!IMPORTANT]
->
->Het datumbereik wordt ingesteld op hetzelfde datumbereik, maar als een statisch datumbereik, zelfs als dit datumbereik een verschuivingsdatumbereik is in de bladwijzer Rapporten en analyse.

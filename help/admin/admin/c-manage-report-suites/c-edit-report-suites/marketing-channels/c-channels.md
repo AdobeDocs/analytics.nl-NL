@@ -1,17 +1,17 @@
 ---
 description: Voeg of laat marketing kanalen in de Manager van het Kanaal van de Marketing toe. Voor rapportsuites die geen marketing kanalen hebben, laat een automatische opstelling u verscheidene kanalen voor u, samen met hun regels tot stand brengen. U kunt vooraf gedefinieerde kanalen naar wens bewerken of uw eigen kanalen maken (maximaal 25).
 subtopic: Marketing channels
-title: Marketingkanalen beheren
+title: Verkoopkanalen beheren
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 1%
+source-wordcount: '702'
+ht-degree: 0%
 
 ---
 
-# Marketingkanalen beheren
+# Verkoopkanalen beheren
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Voeg marketingkanalen toe in de Marketing Channel Manager.
 
    Deze optie is niet beschikbaar als er 25 kanalen zijn gedefinieerd.
 
-1. Klik op **[!UICONTROL Save.]**
+1. Klikken **[!UICONTROL Save.]**
 1. Om regels voor het kanaal te vormen, klik **[!UICONTROL Marketing Channel Processing Rules]**.
 
    Zie [Verwerkingsregels voor marketingkanalen maken](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
@@ -77,7 +77,6 @@ Er zijn verschillende instellingen die op elk kanaal op het [!UICONTROL Marketin
 | Laatste aanraakkanaal overschrijven | Hiermee kunt u kiezen of u een bestaand, blijvend laatste aanraakkanaal wilt overschrijven met het geselecteerde kanaal. Als u dit selectievakje inschakelt, overschrijft elk kanaal (inclusief Direct en Intern) een bestaand laatste aanraakkanaal. Het resultaat is dat conversie wordt toegeschreven aan een kanaal dat geen krediet verdient. Met deze optie kunt u er bijvoorbeeld voor zorgen dat het Direct-kanaal geen conversiekrediet ontvangt als de gebruiker eerder via het Natural Search-kanaal was aangeschaft. |
 | Kanaaluitsplitsing | Hiermee kunt u een kanaal opsplitsen op basis van deze waarde. U kunt mogelijke kanaalstoringen (subkanalen) toevoegen tijdens het maken van [classificaties van marketingkanalen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md). |
 | Type | Hiermee geeft u op hoe de gebruiker naar uw site is gekomen. U kunt Online of Offline selecteren. Gebruik online kanalen voor bezoekers die via een zoekmachine of e-mailcampagne komen. Offlinekanalen zijn van toepassing op bezoekers die uw site hebben gevonden via krantencoupons of advertenties in tijdschriften. De off-line kanalen omvatten gewoonlijk gegevens die door het melden van Gegevensbronnen worden ingevoerd. Zie [Gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html). Zie [Offline gegevens toevoegen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Kleur | Alleen rapporten en analyses: de kleur die aan dit marketingkanaal is gekoppeld. Deze kleur vertegenwoordigt het kanaal in het rapport van het Kanaal van de Marketing. |
 
 ### Beste werkwijzen overschrijven
 

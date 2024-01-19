@@ -3,9 +3,9 @@ title: Productprofielmachtigingen voor Report Suite Tools in Adobe Admin Console
 description: Begrijp elk toestemmingspunt onder de Hulpmiddelen van de Reeks van het Rapport.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '439'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,6 @@ Gebruik deze pagina om elk machtigingsitem onder Report Suite Tools in Adobe Adm
 | [!UICONTROL Account Summary] | Hiermee krijgt u toegang tot Algemeen > Algemene accountinstellingen in Report Suite Manager. |
 | [!UICONTROL Advertising Analytics Configuration] | Hiermee kunnen gebruikers rapportsuites configureren die moeten worden ingericht voor Advertising Analytics. |
 | [!UICONTROL Anomaly Detection] | Biedt toegang tot Anomaly Detection in Analysis Workspace. |
-| [!UICONTROL Bot Pages] | Hiermee krijgt u toegang tot Metrische gegevens van site > Bots > Rapport Bodempagina&#39;s in rapporten en analyses. |
-| [!UICONTROL Bots] | Hiermee krijgt u toegang tot Sitemetriek > Bots > Bots-rapport in Rapporten en Analytics. |
-| [!UICONTROL Channel Report] | Hiermee krijgt u toegang tot het rapport Kanaaloverzicht in Rapporten en Analyses via de marketingkanalen. |
 | [!UICONTROL Channels] | Biedt toegang tot marketingkanalen, waaronder Marketing Channel Manager, Marketing Channel Processing Rules en Marketing Channel Expiration in Report Suite Manager. |
 | [!UICONTROL Classifications] | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer. Dit machtigingsitem omvat: <br>Verkeer > Verkeersclassificaties<br>Conversie > Conversie-classificaties<br>Conversie > Classificatiehiërarchieën<br>Marketing Channels > Marketing Channel Classifications<br>Toepassingsbeheer > Toepassingsclassificaties<br>Media Management > Media Classifications<br>AEM > AEM Assets Classifications<br>Adobe Campaign > Adobe classificaties |
 | [!UICONTROL Costs] | Biedt toegang tot marketingkanalen > Kosten marketingkanaal in Report Suite Manager. |
@@ -38,12 +35,9 @@ Gebruik deze pagina om elk machtigingsitem onder Report Suite Tools in Adobe Adm
 | [!UICONTROL Finding Methods] | Hiermee krijgt u toegang tot Conversie > Methoden zoeken in Report Suite Manager. |
 | [!UICONTROL List Variables] | Hiermee krijgt u toegang tot Conversie > Variabelen weergeven in Report Suite Manager. |
 | [!UICONTROL Menu Customization] | Hiermee krijgt u toegang tot Algemeen > Menu&#39;s aanpassen in Report Suite Manager. |
-| [!UICONTROL My Recommended Reports] | Hiermee krijgt u toegang tot Sitemetriek > Mijn aanbevolen rapporten in Rapporten en Analyse. |
 | [!UICONTROL Paid Search] | Hiermee krijgt u toegang tot Algemeen > Betaalde zoekopdracht in Rapportbeheer. |
 | [!UICONTROL Processing Rules] | Geeft toegang tot Algemeen > de Regels van de Verwerking en Algemeen > de Regels van de Bot in de Manager van de Reeks van het Rapport. |
-| [!UICONTROL RealTime Report] | Hiermee krijgt u toegang tot Sitemetriek > Real-time in Rapporten en Analytics. Gebruik het toestemmingspunt &quot;Echt - de Configuratie van het tijdRapport&quot;om toegang tot opstelling te verlenen dit rapport. |
 | [!UICONTROL Real Time Report Configuration] | Verleent toegang tot Echt - tijd in de Manager van de Reeks van het Rapport. Gebruik het toestemmingspunt &quot;Rapport RealTime&quot;om toegang tot het rapport zelf te verlenen. |
-| [!UICONTROL Return Visits] | Hiermee krijgt u toegang tot Bezoekersbewaring > Bezoekopdrachten in Rapporten en Analyse. |
 | [!UICONTROL Reporting Activity Manager Admins] | Niet gebruikt |
 | [!UICONTROL Reporting Activity Manager Access] | Niet gebruikt |
 | [!UICONTROL Report Suite Mgmt] | Hiermee krijgt u toegang tot Rapportsuite Manager, maar wijzigingen zijn niet toegestaan. |

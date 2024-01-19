@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 3%
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
@@ -21,10 +21,6 @@ Hiermee kunt u:
 * De reis van de klant door uw website of toepassing visualiseren
 * Analyseren waar klanten voor en na opgegeven controlepunten gaan, zoals ingang, een specifieke afmeting, of uitgang
 * Segmenten maken door een specifiek punt op te geven in een gekozen pad
-
->[!NOTE]
->
->Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics zouden kunnen verschillen, zie [Segmentatie als een basis voor stroom en uitval](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 Hier volgt een videozelfstudie over stroomvisualisatie:
 
