@@ -4,9 +4,9 @@ keywords: Berekende metriek;Afgeleide Metriek;Geavanceerde Berekende Metriek
 title: Berekende en geavanceerde berekende (afgeleide) cijfers
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '524'
 ht-degree: 2%
 
 ---
@@ -58,55 +58,15 @@ Sommige [!DNL Analytics] Met functies kunt u wel gebeurtenissen gebruiken, maar 
 * [!UICONTROL Cohort Analysis] in Analysis Workspace
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL Segments]
-* [!UICONTROL Real-Time] rapporten
-* [!UICONTROL Current Data] rapporten
 * [!DNL Analytics] for [!DNL Target]
 
 ## Gereedschappen {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
 Hier volgt een kort overzicht van het [!UICONTROL Calculated metrics] gereedschappen:
 
-<table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Gereedschap </th> 
-   <th colname="col2" class="entry"> Mogelijkheden </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  > Berekende metrische bouwer</a> </td> 
-   <td colname="col2"> 
-    <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
-     <li id="li_A4A6E716374243A190C539A3F4A41C0C">Creeer berekende en geavanceerde berekende metriek gebruikend geavanceerde toewijzingsmodellen. </li> 
-     <li id="li_C8C97BA4E227463E98077ABA5818FFC6">Voeg segmenten inline toe aan metrische formules. </li> 
-     <li id="li_8503D9E06A3C46569B5CDB4B90F72446">Vergelijk segmenten in het zelfde rapport. Vergelijk bijvoorbeeld lokale bezoekers met internationale bezoekers. </li> 
-     <li id="li_4B528FDE1F96400DBA0D3276408FF919">Gebruik statistische functies. </li> 
-     <li id="li_C1162B1EA6784B8189A8A87E2B0DA79A">Geef gedetailleerde metrische beschrijvingen op (toon wat het doet, waar het moet worden gebruikt, waar NIET). </li> 
-     <li id="li_DEA13F5E8BF94AF1B311C467FE6E2A74">Kopieer definities naar nieuwe metriek. </li> 
-     <li id="li_8C21F55015D44910904202D2BF74221C">Geef een inline metrische voorvertoning op. </li> 
-     <li id="li_3704F66C321C477F9D4F52E068C231BD">Metrische polariteit instellen die aangeeft of het goed of slecht is als een bepaalde aangepaste gebeurtenis (metrisch) wordt verhoogd. </li> 
-     <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">Metrische waarden van tags. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Berekend metrisch beheer</a> </td> 
-   <td colname="col2"> 
-    <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
-     <li id="li_E0B216BA1478406EB6212263DF71D85B">Deel metriek met anderen. </li> 
-     <li id="li_96EB16FAF3454211AAEF78EA5B08927F">Metriek goedkeuren en krullen. </li> 
-     <li id="li_3ADBD2428EAC4B0AA61222D87C3AF2B7">Organiseer uw gegevens (tag) zodat mensen ze kunnen vinden. </li> 
-     <li id="li_726F3C3390744E49BA63606FE196880E">Metrische gegevens verwijderen. </li> 
-     <li id="li_F306BA4FA8AF4A6E987BA62634659A2F">Wijzig de naam van metriek. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Metrische kiezer </td> 
-   <td colname="col2"> <p>Vervangt de <span class="uicontrol"> Metrisch tonen</span> popup in <span class="uicontrol"> Rapporten en analyses</span>. </p> <p>Het laat u naar het rapport zoeken en metriek toevoegen/toepassen. U kunt ook de <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sorteren</a> volgorde (opties zijn: alfabetisch, aanbevolen, vaak gebruikt, onlangs gebruikt.) Bovendien kunt u op de Reeksen van het Rapport filtreren om slechts metriek te tonen die in een specifieke rapportreeks wordt gecreeerd. </p> <p>Klik op het pictogram Metriek voor toegang tot deze metrische kiezer <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> links van een rapport. Zo ziet de metrische kiezer eruit: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API voor Berekende waarden</a> </td> 
-   <td colname="col2"> <p>Deel van de Adobe Analytics 2.0 API-set. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Gereedschap | Mogelijkheden |
+|--- |--- |
+| Berekende metrische bouwer | <ul><li>Creeer berekende en geavanceerde berekende metriek gebruikend geavanceerde toewijzingsmodellen.</li><li>Segmenten inline toevoegen aan metrische formules</li><li>Vergelijk segmenten in het zelfde rapport. Vergelijk bijvoorbeeld lokale bezoekers met internationale bezoekers.</li><li>statistische functies gebruiken</li><li>Geef gedetailleerde metrische beschrijvingen (toon wat het doet, waar het gebruikt, waar NIET om het te gebruiken)</li><li>Definities kopiëren naar nieuwe metriek</li><li>Een inline metrische voorvertoning opgeven</li><li>Metrische polariteit instellen. Dit geeft aan of het goed of slecht is als een bepaalde aangepaste gebeurtenis (metrisch) omhoog gaat</li><li>Metrische codes</li></ul> |
+| Berekend metrisch beheer | <ul><li>Metriek delen met anderen&lt;/li><li>Metrische gegevens goedkeuren en curven</li><li>Uw gegevens ordenen (labelen) zodat mensen ze kunnen vinden</li><li>Metrisch verwijderen</li><li>Naam van metriek wijzigen</li></ul> |
+| Metrische kiezer | Hiermee kunt u metriek zoeken en toevoegen aan of toepassen op het rapport. U kunt ook de sorteervolgorde wijzigen (opties zijn alfabetisch, aanbevolen, vaak gebruikt, onlangs gebruikt). Bovendien kunt u op de Reeksen van het Rapport filtreren om slechts metriek te tonen die in een specifieke rapportreeks wordt gecreeerd.  Klik op het pictogram Metrisch links van een rapport om deze metrische kiezer te openen. |
+| API voor Berekende waarden | Deel van de Adobe Analytics 2.0 API-set. |

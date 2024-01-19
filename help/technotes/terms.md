@@ -3,10 +3,10 @@ title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2535'
-ht-degree: 1%
+source-wordcount: '2541'
+ht-degree: 0%
 
 ---
 
@@ -91,7 +91,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **In real time:** Hiermee geeft u geconfigureerde variabelen weer zodra deze met weinig tot geen latentie zijn verzameld. Zie [Real-time rapporten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) in de handleiding voor Admin-gebruikers.
 * **Report Builder:** Een Microsoft Excel-invoegtoepassing waarmee u aangepaste aanvragen kunt maken van Adobe Analytics-gegevens.
 * **Rapportsuite:** Een overkoepelende container waarnaar u gegevens verzendt. Alle rapporten in Adobe Analytics verwijzen naar een rapportsuite.
-* **Rapporten en analyses:** Vroeger bekend als SiteCatalyst. Browseroplossing voor rapportage en analyse. Startertool in het Analytics-pakket.
+* **Rapporten en analyses:** Vroeger bekend als SiteCatalyst. Browseroplossing voor rapportage en analyse. Starter in het pakket Analytics. Dit gereedschap is [einde-van-lifed](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
 * **Roldatum bereik:** Een type relatief datumbereik dat verandert als de tijd doorgaat. Een rapport dat de laatste 7 dagen weergeeft, kan bijvoorbeeld worden beschouwd als een doorlopend datumbereik. Zie ook het statische datumbereik.
 * **RSID:** Afkorting van rapportsuite-id. Een rapportsuite heeft zowel een vriendelijke naam als een rapportsuite-id.
 * **s.t():** De naam van de functie in een bibliotheek van het AppMeasurement die een verzoek van het paginameningsbeeld verzendt. Sommige bibliotheken met AppMeasurementen gebruiken `s.track()` in plaats daarvan. Zie [t](../implement/vars/functions/t-method.md) in de gebruikershandleiding Implementeren.

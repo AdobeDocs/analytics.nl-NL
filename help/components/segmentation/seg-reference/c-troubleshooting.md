@@ -1,16 +1,16 @@
 ---
 description: Los en los kwesties met betrekking tot segmenten problemen op.
-title: Segmentproblemen oplossen
+title: Probleemoplossing voor segmentering
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
-# Segmentproblemen oplossen
+# Probleemoplossing voor segmentering
 
 ## Fout: &quot;Niet-compatibele elementen in dit segment&quot; {#incompatible}
 
@@ -23,7 +23,7 @@ Deze fout treedt op wanneer u een segment probeert op te slaan in de map Data Wa
 
 Mogelijke redenen:
 
-* Omgekeerd nesten - bijvoorbeeld het nesten van een Visitor-container onder een Visit-container.
+* Omgekeerd nesten - bijvoorbeeld het nesten van een bezoekercontainer onder een Visit-container.
 * Het rapport ondersteunt segmentatie niet.
 * Er zijn geen gegevens die overeenkomen met de segmenteringscriteria.
 
@@ -32,7 +32,6 @@ Mogelijke redenen:
 Mogelijke redenen:
 
 * Sommige afmetingen zijn alleen beschikbaar in Data Warehouse en niet in Segmentbeheer.
-* Segment is niet compatibel met Rapporten &amp; Analytics.
 * Het segment wordt gecontroleerd slechts voor een specifieke rapportreeks.
 * Een gedeeld segment kan door een andere gebruiker zijn verwijderd.
 * Segmenten konden niet worden geladen vanwege een probleem met het datacenter of de browsercache.

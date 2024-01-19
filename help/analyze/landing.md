@@ -4,9 +4,9 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Beheerders kunnen het tabblad Rapporten verbergen voor alle gebruikers binnen hu
 | --- | --- |
 | Waar zijn de malplaatjes die ik aan binnen gewend ben te zien [!UICONTROL Workspace]? | Deze sjablonen worden gegroepeerd onder de [!UICONTROL Reports] tab. |
 | Wordt het werk dat ik doe in de interface van het bètaprogramma overgedragen naar de productie? [!UICONTROL Workspace] ervaring? | Ja, al het werk dat in de bètaversie wordt verricht, gaat over naar het oude/huidige [!UICONTROL Workspace] ervaring. |
-| Zijn mijn vorige [!DNL Reports & Analytics] de overgedragen gunsten? | Nee, ze worden NIET overgedragen. Alle [!UICONTROL Workspace] de projectvoordelen worden overgedragen . |
+| Zijn mijn eerdere verslagen en analytische favorieten nog steeds overgebleven? | Nee, ze worden NIET overgedragen. Alle [!UICONTROL Workspace] de projectvoordelen worden overgedragen . |
 | Is er een maximum aantal projecten dat ik kan vastzetten? | Nee, er is geen limiet voor het aantal projecten dat u kunt vastzetten. |
 | Kunnen beheerders deze bestemmingspagina voor hun gebruikers aanwijzen? | Nee, beheerders kunnen de landingspagina niet aanwijzen namens gebruikers. Individuele gebruikers moeten de schakeloptie zelf inschakelen. |
 | Zijn alle rapporten waarin [!DNL Reports & Analytics] nog steeds beschikbaar? | Nee, de volgende rapporten werden geleidelijk afgeschaft, op basis van algemene gebruiksgegevens: <ul><li>Alle aangepaste eVars/props/events/classificaties<li>Mijn aanbevolen rapporten</li><li>Uur/Dagelijks/Wekelijks/Maandelijks/Driemaandelijks/Jaarlijks unieke bezoekers</li><li>DagelijksWekelijks/Maandelijks/Driemaandelijks/Jaarlijks unieke klanten</li><li>Naamdiepte van handeling</li><li>Overzicht van handelsnaam</li><li>Dashboard toevoegen</li><li>Leeftijd</li><li>Audioondersteuning</li><li>Factureringsgegevens</li><li>Klikt op pagina</li><li>Kleurdiepte</li><li>Cookie-ondersteuning</li><li>Cookies</li><li>Verbindingstypen</li><li>Creatieve elementen</li><li>Type creditcard</li><li>Crosssell</li><li>Aangepaste gebeurtenissengordens</li><li>Aangepaste koppelingen</li><li>Klant-id</li><li>Dag van de week</li><li>Naam van handeling item</li><li>Handelingsnaam afsluiten</li><li>Koppelingen afsluiten</li><li>Fallout</li><li>Bestanden downloaden</li><li>Zoeken in winkel</li><li>Volledige paden</li><li>Geslacht</li><li>Hit type VISTA-regel</li><li>Ondersteuning van afbeeldingen</li><li>Java</li><li>JavaScript</li><li>JavaScript-versie</li><li>Bladwijzers beheren</li><li>Dashboards beheren</li><li>Kleurdiepte van monitor</li><li>Monitorresoluties</li><li>Nieuwsbrieven</li><li>Naam van volgende handeling</li><li>Volgende actienaam doorloop</li><li>Null-zoekopdrachten</li><li>Besturingssysteem</li><li>Ordercontrole</li><li>Pagina van dag</li><li>Pagina&#39;s niet gevonden</li><li>Pathfinder</li><li>Padlengte</li><li>Vorige handelsnaam</li><li>Vorige handelsnaam</li><li>Productactiviteit</li><li>Productkosten</li><li>Productafdeling</li><li>Productcategorie</li><li>Productnaam</li><li>Productbeoordelingen</li><li>Productseizoen</li><li>Productaandelen</li><li>Productzoomen</li><li>Opnieuw laden</li><li>Zoekopdrachten</li><li>Servers</li><li>Eén pagina bezoeken</li><li>Verzendgegevens</li><li>Sitehiërarchie</li><li>Sociale opmerkingen</li><li>Tijd van dag</li><li>Tijd besteed aan actienaam</li><li>Video-ondersteuning</li><li>Bezoekerstatus</li></ul> |

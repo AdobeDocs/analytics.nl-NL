@@ -3,20 +3,20 @@ description: Ontdek alles wat u met Advertising Analytics kunt doen in deze gede
 title: Een gids voor Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 91%
+source-wordcount: '1212'
+ht-degree: 88%
 
 ---
 
 # Een gids voor Advertising Analytics
 
-Met Advertising Analytics kunt u alle data van Google en Bing paid search naast elkaar weergeven in Adobe Analytics. Vroeger moesten alle data van Google AdWords/DFA of Microsoft Bing Ads worden weergegeven in Adobe Advertising Cloud (AMO) of in Google/Bing. U kunt nu de volgende gegevens ophalen in Adobe Analytics: Impressies, klikken, Kosten gegevens van direct van de onderzoeksmotoren evenals een Instanties van identiteitskaart van AMO (klik Instanties). Kwaliteitsscore en gemiddelde posities worden niet meer verzameld omdat Google deze cijfers in september 2019 heeft vervangen.
+Met Advertising Analytics kunt u alle data van Google en Bing paid search naast elkaar weergeven in Adobe Analytics. Vroeger moesten alle data van Google AdWords/DFA of Microsoft Bing Ads worden weergegeven in Adobe Advertising Cloud (AMO) of in Google/Bing. U kunt nu de volgende gegevens ophalen in Adobe Analytics: Impressies, klikken, Kostengegevens rechtstreeks vanuit de zoekmachines en een AMO ID-instantie (klik op Instanties). Kwaliteitsscore en gemiddelde posities worden niet meer verzameld omdat Google deze cijfers in september 2019 heeft vervangen.
 
 >[!NOTE]
 >
->Yahoo Gemini werd in Microsoft Bing opgenomen op 31 maart 2019. Als gevolg hiervan is de optie voor een Yahoo Gemini-advertentieaccount niet meer beschikbaar.
+>Yahoo Gemini werd op 31 maart 2019 door Microsoft Bing geabsorbeerd. Als gevolg hiervan is de optie voor een Yahoo Gemini-advertentieaccount niet meer beschikbaar.
 
 Door de data van deze zoekprogramma&#39;s samen te brengen in Adobe Analytics, kunt u dezelfde data analyseren met de kracht van Analysis Workspace. Deze analyse wordt mogelijk gemaakt door een nieuwe sjabloon voor [paid search-prestaties](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) in Workspace.
 
@@ -56,21 +56,21 @@ Analytics heeft twee machtigingen die automatisch worden verleend aan Analytics-
   <tr> 
    <td colname="col1"> <p>Advertising Analytics-beheer </p> </td> 
    <td colname="col2"> <p>Hiermee kunnen gebruikers zoekaccounts voor advertenties instellen/bewerken/weergeven. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt; <span class="uicontrol"> Groepen</span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken</span> &gt; <span class="uicontrol"> Analyseprogramma's aanpassen</span> &gt; <span class="uicontrol"> Advertising Analytics Management</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Beheerder</span> &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt; <span class="uicontrol"> Groepen</span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken</span> &gt; <span class="uicontrol"> Analyseprogramma's aanpassen</span> &gt; <span class="uicontrol"> Advertising Analytics Management</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Aanmelden bij adminconsole.adobe.com</span> &gt; <span class="uicontrol"> Producten</span> &gt; <span class="uicontrol"> Productprofiel</span> &gt; <span class="uicontrol"> Tabblad Toestemmingen</span> &gt; <span class="uicontrol"> Analytics-tools</span> &gt; <span class="uicontrol"> Advertising Analytics-beheer</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics-configuratie </p> </td> 
    <td colname="col2"> <p>Hiermee kunnen gebruikers rapportsuites configureren die moeten worden ingericht voor Advertising Analytics. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt; <span class="uicontrol"> Groepen</span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken</span> &gt; <span class="uicontrol"> De rapportsuite-gereedschappen aanpassen</span> &gt; <span class="uicontrol"> Advertising Analytics-configuratie</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Beheerder</span> &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt; <span class="uicontrol"> Groepen</span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken</span> &gt; <span class="uicontrol"> De rapportsuite-gereedschappen aanpassen</span> &gt; <span class="uicontrol"> Advertising Analytics-configuratie</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Aanmelden bij adminconsole.adobe.com</span> &gt; <span class="uicontrol"> Producten</span> &gt; <span class="uicontrol"> Productprofiel</span> &gt; <span class="uicontrol"> Tabblad Toestemmingen</span> &gt; <span class="uicontrol"> Rapportsuite-tools</span> &gt; <span class="uicontrol"> Advertising Analytics-configuratie</span></span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Dimensies en cijfers van Advertising Analytics {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
+## Advertising Analytics-Dimensionen en -cijfers {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
-Advertising Analytics voegt de volgende dimensies en cijfers toe aan Analysis Workspace, Reports &amp; Analytics, Report Builder en de Analytics Rapportage-API.
+Advertising Analytics voegt de volgende dimensies en metriek aan Analysis Workspace, Report Builder, en Analytics toe meldend API.
 
 **Dimensies**
 

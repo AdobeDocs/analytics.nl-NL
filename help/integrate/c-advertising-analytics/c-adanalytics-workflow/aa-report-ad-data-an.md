@@ -1,24 +1,24 @@
 ---
-description: Gegevens over de Analysis Workspace-sjabloon en rapportage in Rapporten & Analytics en Report Builder.
-title: Rapporteren over advertentiedata in Adobe Analytics
+description: Gegevens over de Analysis Workspace-template en rapportage in Report Builder.
+title: Verslag over reclamegegevens in Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 5%
+source-wordcount: '356'
+ht-degree: 1%
 
 ---
 
-# Rapporteren over advertentiedata in Adobe Analytics
+# Verslag over reclamegegevens in Adobe Analytics
 
-Gegevens over de Analysis Workspace-sjabloon en rapportage in Rapporten &amp; Analytics en Report Builder.
+Gegevens over de Analysis Workspace-template en rapportage in Report Builder.
 
 >[!NOTE]
 >
 >U moet ten minste 24 uur wachten voordat de zoekprogrammagegevens worden ingevuld in de analyserapporten. Bij Analytics-rapportage worden geen gegevens voor korreligheid per uur geretourneerd, omdat de AMO-gegevens geen ondersteuning bieden voor korreligheid per uur.
 
-## Analysis Workspace: Zoekmachines {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+## Analysis Workspace: zoekmachines {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
 Met deze sjabloon kan iedereen die deze integratie met de zoekmachine implementeert, toegang krijgen tot copieuze zoekprogrammagegevens in Analytics. U hebt toegang tot dit bestand via **[!UICONTROL Workspace]** > **[!UICONTROL Templates]** > **[!UICONTROL Advertising]** > **[!UICONTROL Search Engines.]**
 
@@ -31,24 +31,18 @@ Met deze sjabloon kan iedereen die deze integratie met de zoekmachine implemente
 | Tabel/Visualisatie | Beschrijving |
 |--- |--- |
 | Reclametrends | Dagelijks trended-overzicht voor AMO-indrukkingen, AMO-klikken en AMO-kosten. |
-| Platforms toevoegen | Donut-grafiek voor kosten van top 2 platforms (Google, Bing). |
-| Totalen Platform toevoegen | De tabel met vrije vormen van de topplatforms, uitgesplitst naar AMO-indrukkingen, AMO-klikken, AMO-kosten, AMO Avg. Positie, AMO Avg. kwaliteitsscore. |
+| Ad-platforms | Donut-grafiek voor kosten van top 2 platforms (Google, Bing). |
+| Platformtotalen toevoegen | De tabel met vrije vormen van de topplatforms, uitgesplitst naar AMO-indrukkingen, AMO-klikken, AMO-kosten, AMO Avg. Positie, AMO Avg. kwaliteitsscore. |
 | Accounts | Gestapeld kostengebied. |
-| Totaal account | De lijst van de Freeform van de hoogste rekeningen die door de bijbehorende metriek worden uitgesplitst. |
+| Accountotalen | De lijst van de Freeform van de hoogste rekeningen die door de bijbehorende metriek worden uitgesplitst. |
 | Campagnes | Staafdiagram met campagnekosten. |
 | Totalen campagne | De lijst van Freeform van de hoogste campagnes die door de bijbehorende metriek worden verdeeld. |
-| Groepen | Overzicht van kosten. |
+| Groepen | Boomoverzicht van kosten. |
 | Totalen groeperen | Vrije-vormentabel van de belangrijkste reclamegroepen, uitgesplitst naar de bijbehorende cijfers. |
 | Adds | Horizontale staafgrafiek van beelden, klikken, en kosten. |
 | Totaal toevoegen | De tabel met vrije vorm van de bovenste advertenties, uitgesplitst naar de bijbehorende metriek. |
 | Trefwoorden | Spreidingsgrafiek van beelden, klikken, en kosten voor alle sleutelwoord/gelijketypecombinaties. |
 | Trefwoordtotalen | De lijst van Freeform van de hoogste sleutelwoord/gelijke typecombinaties die door de bijbehorende metriek worden verdeeld. |
-
-## Rapporten en analyses {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
-
-Zodra u een Advertising Analytics-account hebt ingesteld, wordt het Advertising Analytics-rapport beschikbaar gesteld.
-
-![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

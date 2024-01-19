@@ -3,9 +3,9 @@ title: Tijd die per bezoek is doorgebracht (afmetingen)
 description: De totale duur van het bezoek.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,6 @@ Deze dimensies werken uit de doos voor alle implementaties. Als een rapportsuite
 Er zijn meerdere afmetingen voor de tijd die per bezoek wordt doorgebracht:
 
 * **Tijd doorgebracht per bezoek - ingekapseld**: De hoeveelheid tijd wordt overgeslagen. Dimensionen kunnen variëren van `"Less than 1 minute"` tot `"More than 15 hours"`. Bezoekingen duren gewoonlijk niet langer dan 12 uur, maar bezoekers kunnen langer zijn dan 12 uur als gebruik wordt gemaakt van tijdstempels of gegevensbronnen.
-* **Tijd besteed per bezoek - korrelig**: Elk aantal seconden is een uniek dimensie-item. Deze dimensie is niet beschikbaar in Rapporten &amp; Analytics of Data Warehouse.
+* **Tijd besteed per bezoek - korrelig**: Elk aantal seconden is een uniek dimensie-item. Deze dimensie is niet beschikbaar in de Data Warehouse.
 
 Zie [Overzicht van de tijd](../metrics/time-spent.md) voor meer algemene informatie over de bestede tijd.

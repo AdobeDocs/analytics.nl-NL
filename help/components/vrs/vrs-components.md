@@ -3,10 +3,10 @@ description: Virtuele rapportsuites kunnen worden gebogen om components.in Analy
 title: Samengestelde cursus virtuele rapportsuite
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 7%
+source-wordcount: '384'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Hier volgt een video over componentcuratie:
 
 >[!NOTE]
 >
->Er zijn wijzigingen aangebracht in welke componenten door beheerders en niet-beheerders kunnen worden bekeken in gecureerde Workspace-projecten en gecureerde virtuele rapportsuites. Eerder kon iedereen de niet-gebogen componenten zien door te klikken **[!UICONTROL Show all Components]**. De [bijgewerkte cursus](/help/analyze/analysis-workspace/curate-share/curate.md) biedt meer fijnkorrelige controle over welke componenten zichtbaar zijn.
+>Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in samengevoegde Workspace-projecten en samengevoegde virtuele rapporten. Eerder kon iedereen de niet-gebogen componenten zien door te klikken **[!UICONTROL Show all Components]**. De [bijgewerkte cursus](/help/analyze/analysis-workspace/curate-share/curate.md) biedt meer fijnkorrelige controle over welke componenten zichtbaar zijn.
 
 U kunt als volgt componentcuratie inschakelen:
 
@@ -35,11 +35,10 @@ U kunt als volgt componentcuratie inschakelen:
    >
    >Als de componentenaanpassing wordt toegelaten, is de virtuele rapportreeks toegankelijk **alleen in Analysis Workspace** en niet toegankelijk is in de volgende gevallen:
    >
-   >* [!UICONTROL Reports & Analytics]
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
-   >* Analytics Rapportage-API
+   >* API voor analyserapportage
 
    Zodra gecontroleerd, kunt u de componenten toevoegen u in de virtuele rapportreeks zou willen worden omvat door de toepasselijke componenten van de &quot;uitgesloten componenten&quot;kolom aan de &quot;inbegrepen componenten&quot;kolom te slepen. De onderdelen die kunnen worden opgenomen en uitgesloten zijn:
 

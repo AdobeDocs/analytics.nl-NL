@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 1%
+source-wordcount: '662'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Om de paar seconden scant de Activity Map de webpagina, waarbij wordt gezocht na
 
 * Activity Map controleert of de zichtbaarheid van koppelingen die het kent, is gewijzigd. Als een wijziging in de zichtbaarheid wordt gevonden, wordt de kolom Aanwezigheid van koppelingen in de paginatabel voor die koppeling bijgewerkt met [!UICONTROL Displayed] of [!UICONTROL Hidden].
 
-* Wanneer gebruikersinteractie tot nieuwe inhoud leidt, zullen om het even welke nieuwe elementen die door AppMeasurement om als verbinding worden gevonden worden toegevoegd aan [!UICONTROL Links On Page] tabel. De Activity Map verzendt een nieuw gegevensverzoek dat deze nieuwe verbindingen omvat. De nieuwe koppelingen moeten worden weergegeven in het dialoogvenster [!UICONTROL Links On Page] lijst wanneer het gegevensverzoek door UI wordt behandeld.
+* Wanneer gebruikersinteractie tot nieuwe inhoud leidt, zullen om het even welke nieuwe elementen die door AppMeasurement als verbinding worden gevonden worden toegevoegd aan [!UICONTROL Links On Page] tabel. De Activity Map verzendt een nieuw gegevensverzoek dat deze nieuwe verbindingen omvat. De nieuwe koppelingen moeten worden weergegeven in het dialoogvenster [!UICONTROL Links On Page] lijst wanneer het gegevensverzoek door UI wordt behandeld.
 +++
 
 +++Verstrekt de Activity Map gegevens over &quot;meningen&quot;?
@@ -41,16 +41,16 @@ Activity Map verzendt geen servervraag door zich. In plaats daarvan worden Activ
 +++
 
 +++Waarom ontbreken sommige gerangschikte itemoverlays?
-Bepaalde gerangschikte koppelingen, zoals submenukoppelingen, worden niet op de pagina weergegeven. Daarom worden de bijbehorende koppelingsoverlays niet weergegeven. Rank wordt berekend voor alle koppelingen op de pagina, inclusief verborgen koppelingen.
+Bepaalde gerangschikte koppelingen, zoals submenukoppelingen, worden niet op de pagina weergegeven. Als gevolg hiervan worden de bijbehorende koppelingsoverlays niet weergegeven. Rank wordt berekend voor alle koppelingen op de pagina, inclusief verborgen koppelingen.
 +++
 
 +++Hoe wordt de rangorde van koppelingen bepaald in het rapport Alle koppelingen?**
-* **In de modus Verloop en Bubbel**: Rang wordt bepaald door de metrische kolom. Voor verbindingen met zelfde metrische waarde, is de rang verder gebaseerd op verbinding ID alfabetische orde.
+* **In de modus Verloop en Bubbel**: Rank wordt bepaald door de metrische kolom. Voor verbindingen met zelfde metrische waarde, is de rang verder gebaseerd op verbinding ID alfabetische orde.
 * **In de modus Gainer &amp; Loser**: Rank wordt voornamelijk bepaald door de kolom % verbreding. Voor koppelingen met dezelfde versterking is de rangorde verder gebaseerd op de alfabetische volgorde van de koppelings-id.
 +++
 
 +++Hoe werkt de Activity Map met pagina&#39;s die veelvoudige rapportreeksen gebruiken?
-Standaard gebruikt Activity Map de rapportsuite die is gekoppeld aan de eerste tag die door de pagina wordt verzonden. U kunt een andere gelabelde rapportsuite selecteren via het dialoogvenster **[!UICONTROL Activity Map Settings]** > **[!UICONTROL Others]** tab.
+Standaard gebruikt Activity Map de rapportsuite die is gekoppeld aan de eerste tag die door de pagina wordt verzonden. U kunt een andere gelabelde rapportsuite selecteren via de **[!UICONTROL Activity Map Settings]** > **[!UICONTROL Others]** tab.
 +++
 
 +++Hoe lang wordt de Activity Map gescand op Adobe Analytics op de pagina?
@@ -76,11 +76,11 @@ Ja. De [Gegevenskolommen](/help/export/analytics-data-feed/c-df-contents/datafee
 +++
 
 +++Werken de segmenten in de live modus?
-Nee, segmenten werken niet in de live modus. De functionaliteit is gelijk aan die van rapportering in real time in Rapporten &amp; Analytics, die geen segmentatie steunen.
+Nee, segmenten werken niet in de live modus.
 +++
 
-+++Is Activity Map compatibel met virtuele rapportsuites?
-Ja. Vanwege beperkingen van de virtuele rapportsuite is de live modus van de Activity Map echter niet compatibel met virtuele rapportsuites.
++++Is de Activity Map compatibel met virtuele rapportsuites?
+Ja. Vanwege beperkingen van de virtuele rapportsuite is de live modus van Activity Map echter niet compatibel met virtuele rapportsuites.
 +++
 
 +++Hoe kan ik Activity Map onbruikbaar maken?
@@ -89,9 +89,9 @@ U hebt drie opties:
 * Verwijder de `AppMeasurement_Module_ActivityMap` functie uit het JS-bestand
 * Voeg aangepaste code toe die de bovenstaande functie herschrijft met een lege hoofdtekst, bijvoorbeeld:
 
-   ```js
-   function AppMeasurement_Module_ActivityMap() {}
-   ```
+  ```js
+  function AppMeasurement_Module_ActivityMap() {}
+  ```
 
-* AppMeasurement configureren door het instellen `s.trackClickMap` en `s.trackInlineStats` tot `false`
+* AppMeasurement configureren door instellen `s.trackClickMap` en `s.trackInlineStats` tot `false`
 +++

@@ -3,10 +3,10 @@ description: Meer informatie over
 title: Type en attributie metrisch
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 1%
+source-wordcount: '383'
+ht-degree: 0%
 
 ---
 
@@ -39,16 +39,10 @@ In het volgende voorbeeld wordt getoond hoe berekende metriek met lineaire toewi
 
 | | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 | Hit 6 | Hit 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| Gegevens verzonden in | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
-| EVar met laatste aanraking | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
-| EVar eerste aanraking | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
-| Voorbeeld | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+| Gegevens verzonden in | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $ 10 |
+| EVar met laatste aanraking | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $ 10 |
+| EVar eerste aanraking | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $ 10 |
+| Voorbeeld | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $ 10 |
 
 In dit voorbeeld werden de waarden A, B, en C naar een variabele gestuurd bij hits 1, 3, 4 en 6 voordat een aankoop van 10 dollar werd gedaan bij hit 7. In de tweede rij blijven deze waarden bij alle treffers op een laatste aanraakbezoek aanwezig. De derde rij illustreert de persistentie van een eerste aanraakbezoek. Tot slot illustreert de laatste rij hoe gegevens zouden worden geregistreerd voor een eigenschap die niet persistentie heeft.
 
-## Verschillen in hoe lineaire toewijzing werkt in Rapporten &amp; Analytics versus Werkruimte
-
-Er zijn enkele verschillen in de manier waarop lineaire toewijzing werkt tussen deze twee gereedschappen:
-
-* In Rapporten &amp; Analytics, (verwerkte) lineaire attributie is altijd bezoek gebaseerd, terwijl in Werkruimte, het bezoek of bezoeker kan zijn gebaseerd.
-* Als in Rapporten &amp; Analytics geen waarde werd doorgegeven bij de eerste treffer van een bezoek, blijft de (initiële) waarde behouden bij het vorige bezoek. Dit is NIET het geval in Workspace (Attribution). Als er geen waarde wordt doorgegeven bij de eerste aanraking van een bezoek, is Geen de beginwaarde.

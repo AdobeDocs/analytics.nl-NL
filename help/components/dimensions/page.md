@@ -3,9 +3,9 @@ title: Pagina
 description: De naam van de pagina.
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -28,4 +28,4 @@ Items van Dimensionen bevatten de namen van pagina&#39;s op uw site. Uw organisa
 
 >[!NOTE]
 >
->In Rapporten &amp; Analytics, gebruiken de omzettingsmetriek lineaire attributie voor deze afmeting. De inkomsten worden bijvoorbeeld gesplitst tussen alle pagina&#39;s die vóór een bezoek worden weergegeven `purchase` gebeurtenis. Analysis Workspace gebruikt standaard de laatste toewijzing, met de optie om een willekeurig toewijzingsmodel te gebruiken.
+>Analysis Workspace gebruikt standaard de laatste toewijzing, met de optie om een willekeurig toewijzingsmodel te gebruiken.

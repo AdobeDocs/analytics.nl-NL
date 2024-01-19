@@ -3,10 +3,10 @@ title: Compatibiliteit met analytische Dimensionen
 description: Referentie voor analytische afmetingen en rapporten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 8%
+source-wordcount: '887'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 >
 >Namen, classificaties en kenmerken van aangepaste variabelen worden in deze lijst weggelaten. Deze dimensiepunten zijn specifiek voor individuele rapportreeksen.
 
->[!NOTE]
->
->Er zijn enkele overlappingen waarbij de analysefuncties verschillende termen gebruiken voor vergelijkbare afmetingen. Rapporten en analyses gebruiken bijvoorbeeld `browserwidth` terwijl Analysis Workspace gebruikt `browserwidthbucketed`.
-
-## Dimensionen die zowel in Rapporten &amp; Analytics als Analysis Workspace worden ondersteund
+## Dimensionen ondersteund in Analysis Workspace
 
 | Naam Dimension (zichtbaar in de gebruikersinterface voor analyse) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |---|---|
@@ -36,7 +32,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Verbindingstype | `connectiontype` |
 | Cookie-ondersteuning | `cookie` |
 | Landen | `geocountry` |
-| Klantloyaliteit | `customerloyalty` |
+| Loyalty van klant | `customerloyalty` |
 | Aangepaste conversievars | `evar1`, `evar2`, enz. |
 | Custom Insight Vars | `prop1`, `prop2`, enz. |
 | Aangepaste koppeling | `customlink` |
@@ -56,7 +52,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Variabelen weergeven | `listvariables` |
 | Marketingkanaal | `marketingchannel` |
 | Ondersteuning voor mobiele audio | `mobileaudiosupport` |
-| Mobiele aanbieder | `mobilecarrier` |
+| Mobiele vervoerder | `mobilecarrier` |
 | Kleurdiepte mobiel | `mobilecolordepth` |
 | Ondersteuning voor mobiele cookies | `mobilecookiesupport` |
 | Mobiel apparaat | `mobiledevicename` |
@@ -76,11 +72,11 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Pagina | `page` |
 | Pagina&#39;s niet gevonden | `pagesnotfound` |
 | Product | `product` |
-| Referrer | `referrer` |
-| Type referrer | `referrertype` |
+| Referenter | `referrer` |
+| Type referentie | `referrertype` |
 | Referentiedomein | `referringdomain` |
 | Regio&#39;s | `georegion` |
-| Retourfrequentie | `returnfrequency` |
+| Geretourneerde frequentie | `returnfrequency` |
 | SC-TnT | `tntbase` |
 | Zoekmachine | `searchengine` |
 | Trefwoord zoeken | `searchenginekeyword` |
@@ -99,13 +95,8 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Tijd voorafgaand aan gebeurtenis | `timeprior` |
 | Tijd besteed per bezoek - Emmerd | `timespent` |
 | Diepte bezoeken | `pathlength` |
-| Bezoeknummer | `visitnumber` |
+| Bezoek nummer | `visitnumber` |
 | Postcode | `zip` |
-
-## Dimensionen die alleen in Analysis Workspace worden ondersteund
-
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
-|--- |--- |
 | AM/PM | `timepartampm` |
 | Browserhoogte - Emmerd | `browserheightbucketed` |
 | Browserbreedte - Emmerd | `browserwidthbucketed` |
@@ -164,24 +155,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Nielsen Channel Asset | `nielsenchannelasset` |
 | Nielsen-inhoudstype | `nielsencontenttype` |
 
-## Dimensionen die alleen worden ondersteund in rapporten en analyses
-
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
-|--- |--- |
-| Browserhoogte | `browserheight` |
-| Browserbreedte | `browserwidth` |
-| Dagelijkse unieke klanten | `dailyuniquecustomers` |
-| JavaScript | `javascriptsupport` |
-| JavaScript-versie | `javascriptversion` |
-| Maandelijkse unieke klanten | `monthlyuniquecustomers` |
-| Driemaandelijkse unieke klanten | `quarterlyuniquecustomers` |
-| Tijdzones | `timezone` |
-| Domeinen op hoogste niveau | `topleveldomain` |
-| Bezoekende staat | `legacystate` |
-| Wekelijks unieke klanten | `weeklyuniquecustomers` |
-| Jaarlijkse unieke klanten | `yearlyuniquecustomers` |
-
-## Afmetingen waarbij de inhoud behouden blijft, worden ondersteund door zowel Rapporten als Analytics en Analysis Workspace
+## Afmetingen waarbij de inhoud behouden blijft, ondersteund door Analysis Workspace
 
 ### Video (Media Analytics)
 
@@ -305,7 +279,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 |--- |--- |
 | Koppeling Activity Mappen per regio | `clickmaplinkbyregion` |
 | Activity Map | `clickmapregion` |
-| Activity Map-koppeling | `clickmaplink` |
+| Koppeling Activity Mappen | `clickmaplink` |
 | Activity Map-pagina | `clickmappage` |
 
 ### Nielsen Integration

@@ -3,10 +3,10 @@ title: Unieke bezoekers
 description: Het aantal unieke bezoeker-id's.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 1%
 
 ---
 
@@ -17,8 +17,6 @@ De &#39;Unieke bezoekers&#39; [metrisch](overview.md) toont het aantal bezoeker-
 Als u [Apparaatanalyse](../cda/overview.md), wordt deze norm vervangen door de [Unieke apparaten](unique-devices.md) metrisch.
 
 ## Dagelijkse, wekelijkse, maandelijkse, driemaandelijkse en jaarlijkse unieke bezoekers
-
-Rapporten en analyses bieden opties voor unieke bezoekers per dag, week, maand, kwartaal en jaar. In plaats van één unieke bezoeker te tellen voor de volledige tijdsperiode, tellen de unieke bezoekers gebaseerd op geselecteerde metrisch. U wilt bijvoorbeeld naar dagelijkse unieke bezoekers voor uw site kijken. Als een bezoeker &#39;s ochtends en &#39;s avonds weer naar uw site komt, telt hij als één enkele unieke dagelijkse bezoeker. Als een bezoeker maandag en dinsdag weer naar uw site komt, telt hij als twee unieke bezoekers per dag.
 
 Analysis Workspace behandelt unieke bezoekers op basis van de granulariteit van het rapport. Als u bijvoorbeeld de opdracht [Dag](../dimensions/day.md) dimensie, zult u dagelijkse unieke bezoekers voor elk afmetingspunt zien. Nochtans, voor het rapporttotaal, wordt het gededupliceerde unieke bezoekers voor de de datumwaaier van de vrije lijst van de vorm.
 

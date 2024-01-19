@@ -1,15 +1,15 @@
 ---
 description: Stappen om kalendergebeurtenissen toe te voegen en gedeelde gebeurtenissen te beheren.
-title: Kalendergebeurtenissen overzicht
+title: Overzicht van kalendergebeurtenissen
 feature: Reports & Analytics Basics
-uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 86%
+source-wordcount: '308'
+ht-degree: 76%
 
 ---
+
 
 # Kalendergebeurtenissen
 
@@ -17,7 +17,7 @@ Stappen om kalendergebeurtenissen toe te voegen en gedeelde gebeurtenissen te be
 
 >[!NOTE]
 >
->Voor optimale rapportageprestaties worden de 20 recentste kalendergebeurtenissen weergegeven op grafieken met trends en tijdverloop.
+>Voor optimale rapportprestaties worden de 20 meest recente kalendergebeurtenissen weergegeven op trended- en overtijdgrafieken.
 
 Voor rapporten met trends in de loop van de tijd kunt u gebeurtenissen grafisch weergeven en zien of campagnes of andere gebeurtenissen uw siteverkeer, omzet, of een ander cijfer hebben beïnvloed. Het instellen van een agendagebeurtenis omvat de naamgeving van de gebeurtenis, het instellen van de datums, het toevoegen van notities en het instellen van een pictogram. Als u bijvoorbeeld Social gebruikt, kunt u een kalendergebeurtenis maken om aan te tonen dat er een correlatie was tussen een toename van het siteverkeer en de vermelding van een product door een beroemdheid op Twitter.
 

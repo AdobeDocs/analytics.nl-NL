@@ -3,10 +3,10 @@ description: Beschrijft hoe te om het rapport van het Kanaal van de Marketing in
 title: Machtigingen voor marketingkanalen
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,6 @@ Hier zijn de toestemmingen van de Hulpmiddelen van de Reeks van het Rapport nodi
 |---|---|---|
 | Rapportsuite-gereedschappen | Kanalen | Biedt toegang tot marketingkanalen, waaronder Marketing Channel Manager, Marketing Channel Processing Rules en Marketing Channel Expiration in Report Suite Manager. |
 | Rapportsuite-gereedschappen | Kosten | Biedt toegang tot marketingkanalen > Kosten marketingkanaal in Report Suite Manager. |
-| Rapportsuite-gereedschappen | Kanaalrapport | Hiermee krijgt u toegang tot het rapport Kanaaloverzicht in Rapporten en Analyses via de marketingkanalen. |
 | Rapportsuite-gereedschappen | Classificaties | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer, waaronder Marketingkanalen > Classificaties van marketingkanalen. |
 | Analysegereedschappen | Analysis Workspace Access | Biedt toegang tot Analysis Workspace. Gebruikers moeten tot deze groep (voorkeur) of Rapporten &amp;en Toegang Analytics behoren om de dimensies van de Kanalen van de Marketing in Werkruimte te gebruiken. |
 | Analysegereedschappen | Reports and Analytics Access | Biedt toegang tot Reports and Analytics. Gebruikers moeten tot deze groep of Analysis Workspace Access (voorkeur) behoren om Adobe Analytics te kunnen gebruiken. |

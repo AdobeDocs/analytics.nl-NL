@@ -3,10 +3,10 @@ title: Communiceren met gevolgen voor gebruikers
 description: Leer effectieve manieren om het effect van een gebeurtenis in uw organisatie te communiceren.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 1%
+source-wordcount: '339'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Voor elke trendvisualisatie in Workspace, kunt u in een reeks toevoegen die uw b
 
    ![Titel en beschrijving](assets/calcmetric_title_description.png)
 
-1. Voeg in een vrije-vormlijst de dimensie &#39;Dag&#39; toe. Voeg &#39;Bezoeken&#39; toe en de berekende maateenheid als kolommen naast elkaar.
+1. Voeg in een vrije-vormlijst de dimensie &#39;Dag&#39; toe. Voeg &#39;Bezoeken&#39; toe en de berekende metrische waarde als kolommen naast elkaar.
 
    ![Vrije-vormentabel](assets/calcmetric_freeform.png)
 
@@ -57,12 +57,3 @@ Voor elke trendvisualisatie in Workspace, kunt u in een reeks toevoegen die uw b
 
    ![Info, pictogram](assets/calcmetric_infoicon.png)
 
-## Een agendagebeurtenis gebruiken in Rapporten en Analyses
-
-Als u Rapporten &amp; Analytics gebruikt, kunt u een [agendagebeurtenis](/help/components/t-calendar-event.md) om de betrokken dagen in een vervolg rapport te benadrukken. Deze methode is niet van toepassing op Analysis Workspace.
-
-1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Calendar events]**.
-2. Voer de gewenste titel, het gewenste datumbereik en de notitietekst in.
-3. Klik op **[!UICONTROL Save]**.
-
-![Agenda, gebeurtenis](assets/exclude_calendar_event.png)

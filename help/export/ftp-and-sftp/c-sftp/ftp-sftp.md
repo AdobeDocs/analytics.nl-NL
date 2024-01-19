@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Secure File Transfer Protocol - overzicht
 feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: 04ece4265ff270cc221a79def9494a95d0fdbb0e
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 9%
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
@@ -21,11 +21,7 @@ Dit betekent dat de servers van de Adobe het bestand naar uw servers &quot;duwen
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) en [Gegevensfeed Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) gegevens via SFTP kunnen verzenden.
 
-De volgende analysefuncties **kan** pushgegevens via SFTP:
-
-* Rapporten en analyses
-* Ad Hoc Analysis
-* Report Builder
+Report Builder **kan** pushgegevens via SFTP.
 
 ## Volledige aflevering {#section_FA29FAEF02FE40B8B32452146A036F48}
 

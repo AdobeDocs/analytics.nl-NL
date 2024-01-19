@@ -3,9 +3,9 @@ description: Gebruik waarschuwingen in Analysis Workspace.
 title: Overzicht van Alert Builder
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -14,16 +14,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Intelligente waarschuwingen zijn beschikbaar voor Adobe [!DNL Analytics] Primair en Adobe [!DNL Analytics] Alleen ultieme klanten.
+>Intelligente waarschuwingen zijn beschikbaar voor Adobe [!DNL Analytics] Eerste en Adobe [!DNL Analytics] Alleen ultieme klanten.
 
-U kunt de waarschuwingsfunctie op vier manieren openen:
+U kunt de waarschuwingsfunctie op drie manieren openen:
 
 * Met de volgende sneltoets in Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
 * Door een of meer vrije regelitems voor tabellen te selecteren, klikt u met de rechtermuisknop en selecteert u **[!UICONTROL Create Alert from Selection]**.
-* Van binnen een [!UICONTROL Reports & Analytics] rapport, door **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 De interface van de Bouwer van de Alarm is vertrouwd aan degenen die ingebouwde segmenten of berekende metriek in hebben [!DNL Analytics]:
 
@@ -35,7 +34,7 @@ Geef een naam op voor de waarschuwing. De waakzame naam zou de naam van het rapp
 
 **Tijdgranulatie**
 
-Geef op wanneer u de metrische waarde wilt controleren: Uur, Dagelijks, Wekelijks, of Maandelijks.
+Geef op wanneer u de metrische waarde wilt controleren: Uur, Dagelijks, Wekelijks of Maandelijks.
 
 >[!NOTE]
 >
@@ -47,7 +46,7 @@ Geef op waar de waarschuwing kan worden verzonden. Een waarschuwing kan naar een
 
 >[!IMPORTANT]
 >
->Het telefoonnummer moet worden voorafgegaan door een plusteken (+) en een [landcode](https://countrycode.org/).
+>Het telefoonnummer moet worden voorafgegaan door een &quot;+&quot; en een [landcode](https://countrycode.org/).
 
 **Vervaldatum**
 
@@ -59,16 +58,16 @@ Stel de vervaldatum van de waarschuwing in.
 
 * Sleep metriek naar het canvas waar triggers worden toegevoegd.
 
-   Let erop dat een **&quot;incompatibele componenten&quot;** Het bericht verschijnt als niet alle componenten (metriek/afmetingen/segmenten) in het alarm compatibel zijn met de momenteel geselecteerde rapportreeks.
+  Let erop dat een **&quot;incompatibele componenten&quot;** Het bericht verschijnt als niet alle componenten (metriek/afmetingen/segmenten) in het alarm compatibel zijn met de momenteel geselecteerde rapportreeks.
 
 * Bepaal de drempel die metrisch moet overschrijden alvorens een alarm wordt geplaatst. U kunt deze waarde instellen op een drempel en vervolgens op een van de volgende voorwaarden:
 
-   * abnormaal
+   * anomalie bestaat
    * anomalie is groter dan verwacht
    * anomalie is minder dan verwacht
    * anomalie overschrijdt
-   * boven of gelijk aan
-   * lager is dan of gelijk is
+   * is boven of gelijk aan
+   * is lager of gelijk aan
    * wijzigingen door
 
 * &quot;Anomaly overschrijdt&quot; is een nieuwe voorwaarde die de bestaande (statische) drempels overschrijdt. Het trekt in Anomaly Detection algoritmen die dynamisch de trekker bepalen. U kunt een drempel instellen van 90%, 95%, 99%, 99,75% en 99,9%.

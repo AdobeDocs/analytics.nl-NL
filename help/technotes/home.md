@@ -2,11 +2,11 @@
 title: Technische notities voor Analytics
 description: Deze handleiding biedt nuttige informatie over onderwerpen die niet tot een specifieke analysetool of onderdeel behoren.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-feature: Attribution, Visualizations, Reports & Analytics Basics, Segmentation, Real-time
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+feature: Attribution, Visualizations, Segmentation, Real-time
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 20%
+source-wordcount: '419'
+ht-degree: 16%
 
 ---
 
@@ -20,17 +20,17 @@ Het platform gebruikt een verscheidenheid van gegevensbronnen, met inbegrip van 
 
 Enkele van de belangrijkste functies van Adobe Analytics zijn:
 
-* Gegevens in realtime: Adobe Analytics biedt realtime inzichten in het gedrag van klanten, zodat bedrijven snel kunnen reageren op wijzigingen in de voorkeuren van klanten of markttrends.
+* In real time gegevens: Adobe Analytics verstrekt inzicht in real time in klantengedrag, toelatend ondernemingen om snel op veranderingen in klantenvoorkeur of markttendensen te reageren.
 
-* Segmentatie: Het platform staat ondernemingen toe om hun klantenbasis door demografie, gedrag, plaats, en andere factoren te segmenteren, die het gemakkelijker maken om kansen te identificeren en specifieke klantengroepen met gepersonaliseerde marketing campagnes te richten.
+* Segmentatie: Het platform staat ondernemingen toe om hun klantenbasis door demografie, gedrag, plaats, en andere factoren te segmenteren, die het gemakkelijker maken om kansen en doelspecifieke klantengroepen met gepersonaliseerde marketing campagnes te identificeren.
 
-* Gegevensvisualisatie: Adobe Analytics beschikt over een aantal gereedschappen voor gegevensvisualisatie, met name grafieken en grafieken in Analysis Workspace- en analytische dashboards, waarmee complexe gegevenssets eenvoudig kunnen worden geïnterpreteerd en trends kunnen worden geïdentificeerd.
+* Gegevensvisualisatie: Adobe Analytics beschikt over een aantal gereedschappen voor gegevensvisualisatie, met name grafieken en grafieken in Analysis Workspace- en analysedashboards, waarmee complexe gegevenssets eenvoudig kunnen worden geïnterpreteerd en trends kunnen worden geïdentificeerd.
 
-* Geavanceerde analyses: Het platform biedt geavanceerde analysemogelijkheden, zoals voorspellende analyses, machine het leren, en AI-aangedreven inzichten, die ondernemingen toelaten om verborgen patronen te ontdekken en een dieper inzicht in klantengedrag te krijgen.
+* Geavanceerde analysemogelijkheden: het platform biedt geavanceerde analysemogelijkheden, waaronder voorspellende analyses, machinaal leren en door AI aangedreven inzichten, die bedrijven in staat stellen verborgen patronen te ontdekken en een beter inzicht te krijgen in het gedrag van klanten.
 
-* Attributie: Adobe Analytics beschikt over tools voor het maken van toewijzingsmodellen waarmee bedrijven de impact van hun marketingcampagnes op verschillende kanalen en aanraakpunten kunnen begrijpen, zodat ze hun marketinguitgaven kunnen optimaliseren en hun investeringsrendement kunnen verbeteren.
+* Attributie: Adobe Analytics beschikt over tools voor het maken van attributiemodellen waarmee bedrijven de impact van hun marketingcampagnes op verschillende kanalen en aanraakpunten kunnen begrijpen, zodat ze hun marketinguitgaven kunnen optimaliseren en hun investeringsrendement kunnen verbeteren.
 
-* Rapportage: Het platform biedt een reeks rapportageopties, waaronder geplande rapporten, ad-hocrapporten en aanpasbare dashboards, die bedrijven in staat stellen inzichten met belanghebbenden te delen en samen te werken aan gegevensgestuurde besluitvorming.
+* Rapportage: het platform biedt een reeks rapportopties, waaronder geplande rapporten, ad-hocrapporten en aanpasbare dashboards, die bedrijven in staat stellen inzicht te delen met belanghebbenden en samen te werken aan gegevensgestuurde besluitvorming.
 
 Samenvattend, is Adobe Analytics een krachtige oplossing van de Webanalyse die ondernemingen van de hulpmiddelen voorziet die zij moeten meten, analyseren en optimaliseren hun digitale marketing activiteiten. Met gegevens in real time, geavanceerde analyses, en attributiemodellering, kunnen de ondernemingen gegevens-gedreven besluiten nemen die digitale transformatie drijven en ROI verbeteren.
 
@@ -41,7 +41,7 @@ Hier volgt een video-overzicht van Adobe Analytics:
 ## Belangrijke artikelen over technische notities
 
 * [Overstappen van een extern analyseplatform naar Adobe Analytics](ga-to-aa/home.md)
-* [Regionale dataverzameling](/help/technotes/rdc/regional-data-collection.md)
+* [Regionale gegevensverzameling](/help/technotes/rdc/regional-data-collection.md)
 
 ## Meer Analytics-gebruikershandleidingen
 

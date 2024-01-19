@@ -4,9 +4,9 @@ title: Overzicht van intelligente waarschuwingen
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Hier volgt een videozelfstudie [Intelligente waarschuwingen](https://experiencel
 
 ## Overzicht
 
-De nieuwe Alert Builder en de Manager van de Waarschuwing in Analysis Workspace vervangen de waakzame functionaliteit in Rapporten &amp; Analytics, die eind-van-opgeheven is. Met intelligente waarschuwingen kunt u:
+Met intelligente waarschuwingen kunt u:
 
 * Waarschuwingen opbouwen op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempels; procentuele wijziging; boven/onder))
 * Voorbeeld van hoe vaak een waarschuwing wordt geactiveerd

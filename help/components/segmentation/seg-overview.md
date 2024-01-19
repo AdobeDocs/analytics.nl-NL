@@ -3,9 +3,9 @@ description: Met segmenten kunt u subsets bezoekers identificeren op basis van k
 title: Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1128'
 ht-degree: 1%
 
 ---
@@ -270,7 +270,7 @@ Toegang tot Segmentbeheer via:
 
 +++
 
-## Toestemmingen {#section_648DFA3A882146C485A84ED014EEC707}
+## Machtigingen {#section_648DFA3A882146C485A84ED014EEC707}
 
 +++ **Welke rechten en voorrechten moet ik gebruiken, creëren, en segmenten beheren?**
 
@@ -282,7 +282,7 @@ Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met ied
 
 +++ **Kan ik alle segmenten in mijn bedrijf zien?**
 
-Ja, beheerders kunnen alle segmenten binnen de [!DNL Analysis Workspace] en [!DNL Reports & Analytics] gebruikersinterfaces.
+Ja, beheerders kunnen alle segmenten binnen de [!DNL Analysis Workspace] gebruikersinterface.
 
 De Report Builder toont segmenten die u bezit en segmenten die met u worden gedeeld.
 
@@ -292,7 +292,7 @@ De Report Builder toont segmenten die u bezit en segmenten die met u worden gede
 
 Ja, kunnen alle segmenten worden beheerd in de Manager van het Segment. De Manager van het segment toont segmenten die aan de eigenaar (gebruiker zichtbaar zijn die het segment) creeerde, gedeelde gebruikers, en admin gebruikers. De segmentkiezer geeft segmenten weer die eigendom zijn van en gedeeld worden met de gebruiker.
 
-Beheerders kunnen alle segmenten in de Analysis Workspace en [!DNL Reports & Analytics] gebruikersinterfaces.
+Beheerders kunnen alle segmenten in de Analysis Workspace-gebruikersinterface zien.
 
 Report Builder geeft alleen segmenten weer die door u zijn gemaakt of segmenten die specifiek met u zijn gedeeld.
 
