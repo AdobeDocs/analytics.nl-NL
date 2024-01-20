@@ -1,11 +1,11 @@
 ---
 title: Taggegevenselementen toewijzen aan analytische variabelen
 description: Wijs gegevenselementen toe aan variabelen van de Analyse zodat u hen als afmetingen in Analysis Workspace kunt gebruiken.
-feature: Launch Implementation
+feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Als u een opslagplaats hebt met taggegevenselementen, kunt u deze toewijzen aan 
 
 ## Vereisten
 
-[Gegevenslaagobjecten toewijzen aan gegevenselementen](layer-to-elements.md): Zorg ervoor dat u de elementen van de markeringsgegevens begrijpt, en dat u verscheidene hebt om met te werken.
+[Gegevenslaagobjecten toewijzen aan gegevenselementen](layer-to-elements.md): Zorg ervoor dat u de elementen van taggegevens begrijpt en dat u er meerdere kunt bewerken.
 
-[Een document voor het ontwerp van een oplossing maken](../prepare/solution-design.md): Een document van het oplossingsontwerp is essentieel om georganiseerd te blijven. Na uw document van het oplossingsontwerp vereenvoudigt de toewijzing van gegevenselementen aan variabelen van de Analyse.
+[Een document voor het ontwerp van een oplossing maken](../prepare/solution-design.md): Een document voor het ontwerp van een oplossing is van essentieel belang om te blijven georganiseerd. Na uw document van het oplossingsontwerp vereenvoudigt de toewijzing van gegevenselementen aan variabelen van de Analyse.
 
 ## Gegevenselementen toewijzen aan analytische variabelen
 
@@ -49,7 +49,7 @@ Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op el
 
 >[!TIP]
 >
->U kunt gegevenselementen in dezelfde variabele samenvoegen. Als u bijvoorbeeld een gegevenselement &#39;Hostname&#39; en een gegevenselement &#39;Pathname&#39; hebt, kunt u beide elementen combineren in één variabele met `%Hostname%%Pathname%`.
+>U kunt gegevenselementen in dezelfde variabele aaneenschakelen. Als u bijvoorbeeld een gegevenselement &#39;Hostname&#39; en een gegevenselement &#39;Pathname&#39; hebt, kunt u beide elementen combineren in één variabele met `%Hostname%%Pathname%`.
 
 ## Volgende stappen
 

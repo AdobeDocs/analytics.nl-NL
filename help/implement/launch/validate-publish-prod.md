@@ -1,9 +1,9 @@
 ---
 title: Een ontwikkelimplementatie valideren en publiceren naar productie
 description: Leer hoe u Adobe Experience Platform-tags kunt gebruiken om Adobe Analytics in uw productieomgeving te implementeren.
-feature: Launch Implementation
+feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%

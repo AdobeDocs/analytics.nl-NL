@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics implementeren in een ontwikkelomgeving
 description: Leer hoe u tags kunt gebruiken om Adobe Analytics in uw ontwikkelomgeving te implementeren.
-feature: Launch Implementation
+feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ De markeringen passen vele organisatorische werkschema&#39;s in het opstellen va
 3. Klikken **[!UICONTROL Hosts]** en klik vervolgens op **[!UICONTROL Add Host]**.
 4. Naam geven `"Adobe managed"`en selecteert u **[!UICONTROL Managed by Adobe]** in de vervolgkeuzelijst Type. Klik op Opslaan.
 5. Navigeren naar **[!UICONTROL Environments]** en klik vervolgens op **[!UICONTROL Add Environment]**.
-6. Selecteren **[!UICONTROL Development]**, noem deze `"Dev Environment"`en selecteer vervolgens de door Adobe beheerde host in de vervolgkeuzelijst. Klik op **[!UICONTROL Save]**.
-7. Er wordt een modaal venster weergegeven met daarin de instructies voor het installeren van een web. We zullen later terugkeren naar dit venster. klikken **[!UICONTROL Close]** voorlopig .
-8. Klikken **[!UICONTROL Add Environment]**, selecteert u **[!UICONTROL Staging]**, noem deze `"Staging Environment"`en selecteer vervolgens de door Adobe beheerde host. Klikken **[!UICONTROL Create]** Sluit vervolgens het modale venster voor installatie-instructies.
-9. Klikken **[!UICONTROL Add Environment]** nogmaals, selecteert u **[!UICONTROL Production]**, noem deze `"Production Environment"`en selecteer vervolgens de door Adobe beheerde host. Klikken **[!UICONTROL Create]** Sluit vervolgens het modale venster voor installatie-instructies.
+6. Selecteren **[!UICONTROL Development]**, noem deze `"Dev Environment"`Selecteer vervolgens de Adobe beheerde host in de vervolgkeuzelijst. Klik op **[!UICONTROL Save]**.
+7. Er wordt een modaal venster weergegeven met daarin de instructies voor het installeren van een web. We gaan later terug naar dit venster. Klik op **[!UICONTROL Close]** voorlopig .
+8. Klikken **[!UICONTROL Add Environment]**, selecteert u **[!UICONTROL Staging]**, noem deze `"Staging Environment"`en selecteert u vervolgens de Adobe managed host. Klikken **[!UICONTROL Create]** Sluit vervolgens het modale venster voor installatie-instructies.
+9. Klikken **[!UICONTROL Add Environment]** nogmaals, selecteert u **[!UICONTROL Production]**, noem deze `"Production Environment"`en selecteert u vervolgens de Adobe managed host. Klikken **[!UICONTROL Create]** Sluit vervolgens het modale venster voor installatie-instructies.
 
-## Een ontwikkelbibliotheek maken
+## Een dev-bibliotheek maken
 
 Ondanks alle tot dusver aangebrachte wijzigingen en configuraties is er geen code gepubliceerd. Als u een bibliotheek maakt die ruwweg is vertaald als een verzameling wijzigingen, kunt u code publiceren die op uw site wordt gebruikt.
 
@@ -51,7 +51,7 @@ Ondanks alle tot dusver aangebrachte wijzigingen en configuraties is er geen cod
 Implementeer elk codeblok op de respectievelijke locatie als u de code van uw website beheert:
 
 * De hoofdtag behoort tot de `<head>` -tag op uw site.
-* Als u ervoor kiest om labels synchroon te laden, moet u ook een tweede codeblok invoegen net onder het afsluitende codeblok `</body>` -tag op uw site. U kunt ervoor kiezen om bibliotheektags synchroon te laden door de **[!UICONTROL Load Library Asynchronously]** in de Web installeert Instructies.
+* Als u ervoor kiest om labels synchroon te laden, moet u ook een tweede codeblok invoegen net onder het afsluitende codeblok `</body>` -tag op uw site. U kunt bibliotheektags synchroon laden door de **[!UICONTROL Load Library Asynchronously]** in de Web installeert Instructies.
 
 De code van de markering wordt typisch geplaatst in het overkoepelende malplaatje van de plaats. Een lege pagina die alleen implementatiecode bevat, ziet er als volgt uit:
 

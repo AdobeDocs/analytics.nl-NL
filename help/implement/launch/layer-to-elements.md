@@ -1,22 +1,22 @@
 ---
-title: Datalaagobjecten toewijzen aan data-elementen
+title: Gegevenslaagobjecten toewijzen aan gegevenselementen
 description: Configureer codes die u van uw gegevenslaag wilt lezen.
-feature: Launch Implementation
+feature: Tags
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 6%
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
-# Datalaagobjecten toewijzen aan data-elementen
+# Gegevenslaagobjecten toewijzen aan gegevenselementen
 
 Als uw organisatie een gegevenslaag op uw site heeft gemaakt en geïmplementeerd, kunt u gegevenslaagobjecten toewijzen aan gegevenselementen binnen tags.
 
 ## Vereisten
 
-[Een gegevenslaag maken](../prepare/data-layer.md): Zorg ervoor dat er een gegevenslaag op uw site staat. Hoewel u technisch alle JavaScript-objecten kunt toewijzen of CSS-elementen rechtstreeks van de pagina kunt verwijderen, raadt Adobe deze praktijk aan als laatste redmiddel. Als de lay-out van uw site verandert, werken de CSS-kiezers die in tags worden gebruikt niet meer, waardoor gegevens verloren gaan.
+[Een gegevenslaag maken](../prepare/data-layer.md): Zorg ervoor dat er een gegevenslaag op uw site staat. Hoewel u technisch alle JavaScript-objecten kunt toewijzen of CSS-elementen rechtstreeks van de pagina kunt verwijderen, raadt de Adobe deze praktijk aan als laatste redmiddel. Als de lay-out van uw site verandert, werken de CSS-kiezers die in tags worden gebruikt niet meer, waardoor gegevens verloren gaan.
 
 ## Tags gebruiken om gegevenselementen te maken
 
@@ -31,7 +31,7 @@ Als uw organisatie een gegevenslaag op uw site heeft gemaakt en geïmplementeerd
 1. Voer een naam in voor het gegevenselement. Het kan een eenvoudig label zijn dat overeenkomt met een JavaScript-variabele in uw gegevenslaag die u wilt bijhouden.
 1. Onder de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Core]**.
 1. Onder de **[!UICONTROL Data Element Type]** vervolgkeuzelijst, selecteert u **[!UICONTROL JavaScript Variable]**. Rechts wordt een tekstveld weergegeven waarin u de JavaScript-variabele kunt invoeren om aan dit gegevenselement toe te wijzen.
-1. Voer de gewenste JavaScript-variabele in, meestal in de gegevenslaag. Als de gegevenslaag van uw organisatie bijvoorbeeld vrijwel overeenkomt met de aanbevolen Adobe, kan een waarde `digitalData.page.pageInfo.pageName`. U kunt de browserconsole gebruiken om de syntaxis en waarden van JavaScript-variabelen te valideren.
+1. Voer de gewenste JavaScript-variabele in, meestal in de gegevenslaag. Bijvoorbeeld, als de gegevenslaag van uw organisatie dicht de geadviseerde praktijk van de Adobe aanpast, kon een waarde zijn `digitalData.page.pageInfo.pageName`. Met de browserconsole kunt u de syntaxis en waarden van JavaScript-variabelen valideren.
 1. Klik op **[!UICONTROL Save]**.
 
 ## Volgende stappen
