@@ -3,10 +3,10 @@ title: Instanties
 description: Het aantal treffers dat een variabele is ingesteld (en niet wordt herhaald).
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 813d209980ad02c412970a698c282c1358921ed6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 1%
+source-wordcount: '263'
+ht-degree: 0%
 
 ---
 
@@ -20,4 +20,9 @@ Van alle klappen in een rapportreeks, omvat slechts tochten die uitdrukkelijk ee
 
 Een bezoeker arriveert bijvoorbeeld op uw site en gebruikt interne zoekopdracht. U volgt interne zoekopdracht in eVar1. Nadat ze eenmaal een interne zoekopdracht hebben uitgevoerd, bezoeken ze nog vijf pagina&#39;s voordat ze vertrekken.
 
-Als u een rapport weergeeft in Workspace, ziet u één eVar1-instantie en zes instanties. Het ene exemplaar dat op de pagina met zoekresultaten wordt geactiveerd, terwijl het voorval zowel de beginwaarde als de blijvend waarden heeft geteld.
+Als u een rapport weergeeft in Workspace, ziet u één eVar1-instantie en zes instanties. Eén instantie telt op de pagina met zoekresultaten, terwijl de metrische waarde van het voorkomen de beginwaarde en de daaropvolgende waarden telt.
+
+## Vergelijken met vergelijkbare cijfers
+
+* **Instanties vs. [Voorval](occurrences.md)**: Instanties bevatten geen resultaten wanneer een dimensie-item aanwezig blijft. Komt tellingsklappen voor waar een afmetingspunt werd geplaatst of voortgeduurd.
+* **Instanties vs. [Paginaweergaven](page-views.md)**: Instanties omvatten alle typen hit, inclusief aanroepen voor het bijhouden van paginaweergaven ([`t()`](/help/implement/vars/functions/t-method.md)), verbinding het volgen vraag ([`tl()`](/help/implement/vars/functions/tl-method.md)) en gegevens uit samenvatting [Gegevensbronnen](/help/import/data-sources/overview.md). Metrische paginaweergaven bevatten alleen aanroepen voor het bijhouden van paginaweergaven, exclusief aanroepen voor het bijhouden van koppelingen en samenvattingsgegevensbronnen.
