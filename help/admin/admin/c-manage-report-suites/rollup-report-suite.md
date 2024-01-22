@@ -3,9 +3,9 @@ description: Beschrijvingen van de types van rapportsuite en vergelijking van gl
 title: Methoden van rapportsuite
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -44,38 +44,38 @@ Het gebruik van virtuele-rapportsuites in plaats van taggen met meerdere suite i
 >
 >[!DNL Reports & Analytics] is het enige hulpmiddel dat rollup rapporten steunde. Rapporten en analyses zijn op 17 januari 2024 beëindigd.
 
-### Beperkingen van rolluprapporten {#limitations-rollups}
+<!---### Limitations of Rollup Reports {#limitations-rollups}
 
-* Rollups verschaffen totale gegevens, maar rapporteren geen afzonderlijke waarden in rapporten. EVar1-waarden worden bijvoorbeeld niet opgenomen, maar het totale totaal kan wel.
-* De gegevens worden niet gededupliceerd wanneer de rollup gegevens over rapportreeksen combineert.
-* Rollups worden elke avond om middernacht uitgevoerd.
-* Wanneer u een rapportsuite toevoegt aan een bestaande rollup, worden historische gegevens niet opgenomen in de rollup.
-* Alle reeksen van het kindrapport moeten gegevens in hen hebben om een rollup te functioneren. Als nieuwe rapportsuites in een rollup worden omvat, zorg ervoor om minstens één paginamening naar elk van die rapportsuites te verzenden.
-* Rollup-rapportreeksen kunnen maximaal 40 kindrapportsuites bevatten.
-* Rollup-rapportsuites kunnen maximaal 100 gebeurtenissen bevatten.
-* Gegevens in de reeksen van het rolluprapport ondersteunen geen onderverdelingen of segmenten.
-* Het rapport Pagina&#39;s wordt vervangen door het rapport Popular Sites, dat metriek op het kind-suite niveau rapporteert.
+* Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
+* Data is not deduplicated when the rollup combines data across report suites.
+* Rollups run nightly at midnight.
+* When you add a report suite to an existing rollup, historical data is not included in the rollup.
+* All child report suites must have data in them for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to each of those report suites.
+* Rollup report suites can include a maximum of 40 child report suites.
+* Rollup report suites can include a maximum of 100 events.
+* Data contained in rollup report suites does not support breakdowns or segments.
+* The Pages report is replaced with the Most Popular Sites report, which reports on metrics at the child-suite level.
 
-## Vergelijking van de rapportfuncties Global Report Suite en Rollup
+## Comparison of Global Report Suite and Rollup Report  Features
 
-**Tweede serveraanroepen**: Rollups doen geen extra serveraanroepen meer dan een enkele rapportsuite verzamelt. Als uw organisatie multi-suite markering gebruikt, worden secundaire serveraanroepen gedaan voor elke extra rapportsuite die in een beeldverzoek is opgenomen.
+**Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
 
 >[!TIP]
 >
->Als u alleen een algemene rapportsuite gebruikt met [virtuele rapportsuites](/help/components/vrs/vrs-considerations.md), zijn geen secundaire servervraag nodig.
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
-**Wijzigingen in implementatie**: Rollups vereisen geen implementatiewijzigingen, terwijl voor algemene rapportsuites u de id van de algemene rapportsuite in uw implementatie moet opnemen.
+**Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 
-**Duplicatie**: Globale rapportsuites dedupliceren unieke bezoekers, terwijl rollups dat niet doen. Als een gebruiker bijvoorbeeld drie van uw domeinen op dezelfde dag bezoekt, tellen de rollups drie dagelijkse unieke bezoekers. Globale rapportsuites zouden één unieke bezoeker registreren.
+**Duplication**: Global report suites deduplicate unique visitors, while rollups do not. For example, if a user visits three of your domains in the same day, rollups would count three daily unique visitors. Global report suites would record one unique visitor.
 
-**Tijdskader**: Rollups worden alleen elke nacht om middernacht verwerkt, terwijl algemene rapportsuites gegevens met standaardlatentie rapporteren.
+**Time frame**: Rollups are only processed at midnight each night, while global report suites report data with standard latency.
 
-**Breedte**: Rollups kunnen niet communiceren tussen rapportsuites. Globale rapportsuites kunnen krediet aan omzettingsvariabelen tussen rapportsuites en verstrekken het schilderen over rapportsuites.
+**Breadth**: Rollups have no way to communicate between report suites. Global report suites can attribute credit to conversion variables between report suites and provide pathing across report suites.
 
-**Historische gegevens**: Rollups kunnen historische gegevens samenvoegen, terwijl globale rapportsuites alleen gegevens rapporteren vanaf het punt waarop ze zijn geïmplementeerd.
+**Historical data**: Rollups can aggregate historical data, while global report suites only report data from the point they were implemented.
 
-**Rapporten**: Global report suites verschaffen gegevens over alle dimensies; rollups verschaffen geaggregeerde gegevens over alleen rapporten op hoog niveau.
+**Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**Ondersteunde producten**: Rollups kan alleen worden gebruikt in Rapporten en Analyse. Ze worden niet ondersteund in Analysis Workspace of Data Warehouse. Globale rapportsuites kunnen over alle producten worden gebruikt.
+**Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Aantal samengevoegde rapportreeksen**: Rollups bieden alleen ondersteuning voor maximaal 40 suites voor kinderrapporten. Algemene rapportsuites kunnen worden geïmplementeerd op elk aantal domeinen of apps die u hebt.
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->

@@ -3,9 +3,9 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe A
 title: Welk Adobe Analytics-gereedschap moet ik gebruiken?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -24,9 +24,11 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** moet de gebruikersinterface zijn voor al uw rapportage- en analysebehoeften. Adobe blijft in dit product investeren en maandelijks updates uitbrengen. Als er een taak is die u niet kunt uitvoeren in Analysis Workspace, kunt u de andere interfaces hieronder overwegen.**
 
+**[Adobe Analytics-dashboards](/help/analyze/mobile-app/home.md)** biedt gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. De mobiele app wordt ondersteund op zowel iOS- als Android-besturingssystemen.
+
 **[Report Builder](/help/analyze/report-builder/home.md)** is een invoegtoepassing voor Microsoft Excel. Hiermee kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens, die u kunt invoegen in uw Excel-werkbladen. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft.
 
-**[Adobe Analytics-dashboards](/help/analyze/mobile-app/home.md)** biedt gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. De mobiele app wordt ondersteund op zowel iOS- als Android-besturingssystemen.
+**[Activity Map](/help/analyze/activity-map/activity-map.md)** is een functie in Adobe Analytics die een visuele weergave biedt van de betrokkenheid van gebruikers bij webpagina&#39;s en mobiele apps. Hiermee kunnen marketers en analisten gebruikersinteracties zoals klikken, aanwijzen en schuiven volgen en analyseren.
 
 ## Gegevens importeren in Adobe Analytics {#import}
 

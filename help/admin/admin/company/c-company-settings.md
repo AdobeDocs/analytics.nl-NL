@@ -3,10 +3,10 @@ description: De pagina van het overzicht voor het vormen montages die op alle ra
 title: Overzicht van bedrijfsinstellingen
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: 09f44ce0b89acf70499e2bcdaa31307028d2fe92
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 43%
+source-wordcount: '54'
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,8 @@ De [!UICONTROL Company Settings] de pagina laat u montages vormen die op alle ra
 
 + [Toegangsniveaus voor functies](feature-access-levels.md)
 + [Webservices](web-services-admin.md)
-+ [Report Builder-rapporten](report-builder-reports-admin.md)
-+ [Eenmalige aanmelding](single-signon-admin.md)
-+ [In behandeling zijnde handelingen](pending-actions-admin.md)
-+ [Co-branding](co-branding-admin.md)
-+ [Rapportsuites verbergen](c-hide-report-suites.md)
-+ [Security Manager](security-manager.md)
++ [Report Builder](report-builder-reports-admin.md)
++ [Single Sign-On](single-signon-admin.md)
++ [Handelingen in behandeling](pending-actions-admin.md)
++ [Rapportagesuites verbergen](c-hide-report-suites.md)
++ [Beveiligingsbeheer](security-manager.md)

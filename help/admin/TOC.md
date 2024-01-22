@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 13%
+source-wordcount: '633'
+ht-degree: 14%
 
 ---
 
@@ -46,7 +46,6 @@ ht-degree: 13%
             + Detectie van betaalde zoekopdracht {#paid-search-detection}
                + [Overzicht van betaalde zoekdetectie](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Betaalde zoekdetectie configureren](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [Menu&#39;s aanpassen](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + Verwerkingsregels {#c-processing-rules}
                + [Overzicht van verwerkingsregels](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + Verwerkingsregels {#c-processing-rules-configuration}
@@ -133,7 +132,6 @@ ht-degree: 13%
       + [Rapportinstellingen downloaden](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Nieuwe rapportsuite {#c-new-report-suite}
          + [Een rapportsuite maken](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Een rollop-rapportsuite maken](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [Een groep rapportsuite maken](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [Nieuwe rapportsuite - instellingen](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [Instellingen niet gekopieerd uit een bronrapportsuite](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -153,7 +151,6 @@ ht-degree: 13%
       + [Webservices](admin/company/web-services-admin.md)
       + [Report Builder](admin/company/report-builder-reports-admin.md)
       + [Single Sign-On](admin/company/single-signon-admin.md)
-      + [Co-branding](admin/company/co-branding-admin.md)
       + [Rapportagesuites verbergen](admin/company/c-hide-report-suites.md)
       + [Voorkeursbeheer](admin/company/preferences-manager.md)
       + [Handelingen in behandeling](admin/company/pending-actions-admin.md)
