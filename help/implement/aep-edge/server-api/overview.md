@@ -3,10 +3,10 @@ title: Adobe Analytics implementeren met de Adobe Experience Platform Edge Netwo
 description: Gebruik de Adobe Experience Platform Edge Network Server-API om gegevens naar Adobe Analytics te verzenden.
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
-source-git-commit: 5a57f4d2d73f16a72fbe8b198b1609a8bffc38b6
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 2%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
@@ -29,13 +29,13 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>1</td>
 <td>Zorg ervoor dat u <b>een rapportsuite gedefinieerd</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Rapportsuitebeheer</a></td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
 <td>2</td>
-<td><b>Installatieschema's en gegevenssets</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van de interface Schemas</a> en <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Overzicht van de gebruikersinterface voor gegevensbestanden</a></td>
+<td><b>Installatieschema's</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van de interface Schemas</a></td>
 </tr>
 
 <tr>

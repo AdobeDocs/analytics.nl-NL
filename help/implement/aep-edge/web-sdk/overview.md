@@ -3,10 +3,10 @@ title: Adobe Analytics implementeren met de Adobe Experience Platform Web SDK
 description: Gebruik de uitbreiding van SDK van het Web in de Inzameling van Gegevens van Adobe Experience Platform om gegevens naar Adobe Analytics te verzenden.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 4%
+source-wordcount: '648'
+ht-degree: 3%
 
 ---
 
@@ -31,19 +31,19 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>1</td>
 <td>Zorg ervoor dat u <b>een rapportsuite gedefinieerd</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Rapportsuitebeheer</a></td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
 <td>2</td>
-<td><b>Installatieschema's en gegevenssets</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van de interface Schemas</a> en <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Overzicht van de gebruikersinterface voor gegevensbestanden</a></td>
+<td><b>Installatieschema's</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van de interface Schemas</a></td>
 </tr>
 
 <tr>
 <td>3</td>
 <td><b>Een gegevenslaag maken</b> om het bijhouden van de gegevens op uw website te beheren.</td>
-<td><a href="../../prepare/data-layer.md">Een datalaag maken</a></td>
+<td><a href="../../prepare/data-layer.md">Een gegevenslaag maken</a></td>
 </tr>
 
 <tr>
@@ -97,19 +97,19 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>1</td>
 <td>Zorg ervoor dat u <b>een rapportsuite gedefinieerd</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Rapportsuitebeheer</a></td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
 <td>2</td>
-<td><b>Installatieschema's en gegevenssets</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van de interface Schemas</a> en <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Overzicht van de gebruikersinterface voor gegevensbestanden</a></td>
+<td><b>Installatieschema's</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van de interface Schemas</a></td>
 </tr>
 
 <tr>
 <td>3</td>
 <td><b>Een gegevenslaag maken</b> om het bijhouden van de gegevens op uw website te beheren.</td>
-<td><a href="../../prepare/data-layer.md">Een datalaag maken</a></td>
+<td><a href="../../prepare/data-layer.md">Een gegevenslaag maken</a></td>
 </tr>
 
 <tr>

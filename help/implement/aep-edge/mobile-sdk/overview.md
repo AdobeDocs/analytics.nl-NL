@@ -3,22 +3,22 @@ title: Adobe Analytics implementeren met de Adobe Experience Platform Mobile SDK
 description: Gebruik de extensie Mobile SDK in Adobe Experience Platform Data Collection om gegevens naar Adobe Analytics te verzenden.
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 4%
+source-wordcount: '527'
+ht-degree: 3%
 
 ---
 
 # Adobe Analytics implementeren met de Adobe Experience Platform Mobile SDK
 
-De Adobe Experience Platform Mobile SDK helpt Adobe Experience Cloud-oplossingen en -services aan te schaffen in uw mobiele apps. Deze functie is beschikbaar voor Android™, iOS en verschillende platformonafhankelijke ontwikkelframeworks. De configuratie wordt behandeld door de Inzameling van Gegevens van Adobe Experience Platform.
+De Adobe Experience Platform Mobile SDK helpt de oplossingen en services van de Adobe voor Experiencen Cloud in uw mobiele apps te ondersteunen. Deze functie is beschikbaar voor Android™, iOS en verschillende ontwikkelframeworks voor verschillende platforms. De configuratie wordt behandeld door de Inzameling van Gegevens van Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
 >Een Adobe Analytics-extensie is ook beschikbaar in Adobe Experience Platform Data Collection. Als u deze extensie installeert, profiteert u niet van XDM of Edge Network.
 
-## Adobe Experience Platform SDK
+## ADOBE EXPERIENCE PLATFORM SDK
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
@@ -33,13 +33,13 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>1</td>
 <td>Zorg ervoor dat u <b>een rapportsuite gedefinieerd</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Rapportsuitebeheer</a></td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
 <td>2</td>
-<td><b>Installatieschema's en gegevenssets</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van schema's</a> en <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Overzicht van de gebruikersinterface voor gegevensbestanden</a></td>
+<td><b>Installatieschema's.</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van de interface Schemas</a></td>
 </tr>
 
 <tr>
@@ -67,7 +67,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>7</td>
 <td><b>Code in uw app gebruiken</b> om de benodigde extensies te registreren en de tagconfiguratie te laden.</td>
-<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Configuratie instellen</a></td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">De configuratie instellen</a></td>
 </tr>
 
 <tr>
@@ -85,7 +85,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 </table>
 
 
-## Adobe Analytics-extensie.
+## Adobe Analytics-extensie
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
@@ -100,13 +100,13 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>1</td>
 <td>Zorg ervoor dat u <b>een rapportsuite gedefinieerd</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Rapportsuitebeheer</a></td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
 <td>2</td>
-<td><b>Installatieschema's en gegevenssets</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van schema's</a> en <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Overzicht van de gebruikersinterface voor gegevensbestanden</a></td>
+<td><b>Installatieschema's en gegevenssets</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van de interface Schemas</a> en <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Overzicht van de gebruikersinterface voor gegevensbestanden</a></td>
 </tr>
 
 <tr>
@@ -118,7 +118,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>4</td>
 <td><b>Code in uw app gebruiken</b> om de benodigde extensies te registreren en de tagconfiguratie te laden.</td>
-<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Configuratie instellen</a></td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">De configuratie instellen</a></td>
 </tr>
 
 <tr>
