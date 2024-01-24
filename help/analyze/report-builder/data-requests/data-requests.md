@@ -1,17 +1,17 @@
 ---
 description: De eerste stap bij het maken van een aanvraag in Report Builder.
-title: Data-aanvragen - stap 1 van de wizard Aanvragen
+title: Gegevensverzoeken - stap 1 van de wizard Verzoek
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: 244af34b463ea5df55eaca31f3b2df4ada552b5d
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 3%
+source-wordcount: '379'
+ht-degree: 0%
 
 ---
 
-# Data-aanvragen - stap 1 van de wizard Aanvragen
+# Gegevensverzoeken - stap 1 van de wizard Verzoek
 
 Voor de Tovenaar van het Verzoek: Stap 1 vorm, selecteert u de rapportreeks, rapporttype, segmenten, en vormt data.
 
@@ -24,6 +24,8 @@ Voor de Tovenaar van het Verzoek: Stap 1 vorm, selecteert u de rapportreeks, rap
 1. **Segment**: Segmenten zijn aangepaste subsets van gegevens of gegevens die zijn gefilterd door regels die u maakt. Segmenten zijn gebaseerd op hits, bezoeken en bezoekers. Zie de [Handleiding voor analysegmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie over segmenten.
 
    U kunt bijvoorbeeld een [!UICONTROL Pages Report]en past u vervolgens een segment voor eerste bezoeken toe.
+
+1. **Overschrijven van publicatielijst toestaan**: Publicatielijsten waren een functie in Rapporten en Analyse, die [einde-van-lifed](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
 
 1. **Rapporttype**: Geeft het basisrapport op dat u in de gegevensaanvraag wilt uitvoeren. U stelt één rapport per verzoek in werking, en dat rapport kan één-aan-vele dimensies en één-aan-vele metriek hebben. De metriek en de afmetingen voor een rapporttype worden getoond op [!UICONTROL Request Wizard; Step 2] interface. Zie [Rapporttypen selecteren](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 
@@ -39,7 +41,7 @@ Soms verschijnt de aanvraagwizard buiten het scherm, vooral voor gebruikers die 
 
 Als u de wizard Aanvragen weer op het scherm plaatst, wordt dit probleem opgelost.
 
-1. Open Microsoft Excel en meld u aan bij Report Builder.
+1. Open Microsoft Excel en meld u aan bij de Report Builder.
 2. Klikken [!UICONTROL Create], die de aanvraagwizard buiten het scherm opent.
 3. Druk `[Alt]` + `[Space]`.
 4. Druk `[M]`.
