@@ -3,9 +3,9 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
+source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2232'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen
 >
 >* We raden u aan een cloudaccount of e-mailbericht te gebruiken voor uw rapportbestemming. Oudere FTP- en SFTP-accounts zijn beschikbaar, maar worden niet aanbevolen.
 >
->* Cloud-accounts zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Andere gebruikers kunnen geen cloudaccounts gebruiken of weergeven die u configureert.
+>* Aanvragen voor Data Warehouse zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Door gebrek, kunnen andere gebruikers niet de verzoeken gebruiken of bekijken die u vormt. U kunt verzoeken van de Data Warehouse ter beschikking stellen van andere gebruikers in uw organisatie door **Alle doelen tonen** schakelen, zoals beschreven in [Algemene instellingen voor verzoek om Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).
 >
 >* Alle cloudaccounts die u eerder hebt gemaakt [geconfigureerd voor gegevensfeeds](/help/export/analytics-data-feed/create-feed.md) zijn beschikbaar voor gebruik voor Data Warehouse.
 >
