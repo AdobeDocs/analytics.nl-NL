@@ -1,20 +1,20 @@
 ---
 description: Administratieve stappen voor vestiging real-time rapporten.
-title: Configuratie van realtimerapporten
+title: Configuratie van realtime rapporten
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 2%
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
-# Configuratie van realtimerapporten
+# Configuratie van realtime rapporten
 
 Administratieve stappen voor vestiging real-time rapporten.
 
-Het opzetten van rapporten in real time binnen Rapporten &amp; Analytics bestaat uit het selecteren van de rapportreeks en het vormen van tot drie rapporten voor het.
+Het instellen van realtime rapporten in Adobe Analytics bestaat uit het selecteren van de rapportsuite en het configureren van maximaal drie rapporten voor deze suite.
 
 1. Selecteer de rapportsuite waarvoor u realtime rapporten wilt inschakelen.
 
@@ -35,7 +35,7 @@ Het opzetten van rapporten in real time binnen Rapporten &amp; Analytics bestaat
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
-   Voor informatie over ondersteunde realtime metriek en dimensies raadpleegt u [Ondersteunde Dimension en metriek](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
+   Voor informatie over ondersteunde realtime metriek en dimensies raadpleegt u [Ondersteunde maateenheden en Dimensionen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Als u classificaties hebt gemaakt, worden deze ingesprongen weergegeven onder de dimensie waarvoor ze zijn gedefinieerd:
 
@@ -45,16 +45,16 @@ Het opzetten van rapporten in real time binnen Rapporten &amp; Analytics bestaat
    >
    >Voor één enkel rapport Real-Time, steunen wij momenteel niet toelatend dubbele dimensies, zelfs als een verschillende classificatie voor elke dimensie wordt geselecteerd.
 
-   Voor meer informatie over classificaties raadpleegt u [Over classificaties](/help/components/classifications/c-classifications.md).
+   Zie voor meer informatie over classificaties [Over classificaties](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
-   >Sommige dimensies, zoals &#39;Trefwoord zoeken&#39; of &#39;Product&#39;, blijven niet in real-time behouden, zoals elders in Adobe Analytics. Wanneer u een niet-permanente metrische waarde selecteert, wordt de volgende waarschuwing weergegeven:
+   >Sommige dimensies, zoals &#39;Trefwoord zoeken&#39; of &#39;Product&#39;, blijven niet in real-time behouden, zoals ze elders in Adobe Analytics doen. Wanneer u een niet-permanente metrische waarde selecteert, wordt de volgende waarschuwing weergegeven:
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
 1. Klikken **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]**.
 
-   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van Real-Time rapporten, zie [Een real-time rapport uitvoeren](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar.
 
 1. Door gebrek, hebben alle gebruikers toegang tot Echt - tijd rapporten.

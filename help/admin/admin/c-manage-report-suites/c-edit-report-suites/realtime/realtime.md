@@ -1,18 +1,20 @@
 ---
 description: Hiermee geeft u webpaginaverkeer weer en geeft u paginaweergaven in real-time weer. Verstrekt activeerbare gegevens om uw bedrijfsbesluiten op te baseren.
-title: Realtimerapporten
+title: Real-time rapporten
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
-# Realtimerapporten
+# Real-time rapporten
 
 Hiermee geeft u webpaginaverkeer weer en geeft u paginaweergaven in real-time weer. Verstrekt activeerbare gegevens om uw bedrijfsbesluiten op te baseren.
+
+
 
 >[!NOTE]
 >
@@ -39,10 +41,10 @@ Als beheerder kunt u
 * Gebruik een aangepaste gebeurtenis, winkelwagentje of een andere instantie.
 * U kunt maximaal 2 uur historische realtime gegevens weergeven en deze instelling wijzigen:
 
-   * Laatste 15 minuten: Korreligheid van 1 minuut
-   * Laatste 30 minuten: Korreligheid van 1 minuut
-   * Laatste 1 uur: Korreligheid van 2 minuten
-   * Laatste 2 uur: Korreligheid van 4 minuten
+   * Afgelopen 15 minuten: granulariteit van 1 minuut
+   * Laatste 30 minuten: 1 minuut granulariteit
+   * Laatste 1 uur: 2 minuten granulariteit
+   * Afgelopen 2 uur: korreligheid van 4 minuten
 
 * Vergelijk bijvoorbeeld de waarden van vorige week met de waarden van vorig jaar (en met het totaal van vandaag).
 

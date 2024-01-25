@@ -3,10 +3,11 @@ title: Classificaties in marketingkanalen
 description: Gebruik classificaties om waarden in verwante groepen te categoriseren en op groepsniveau te rapporteren. U kunt bijvoorbeeld alle campagnes voor betaald zoeken classificeren in een categorie zoals videokaarten. Dan kunt u over het succes van die categorie met betrekking tot metriek zoals Instanties (of klik-door) rapporteren.
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 

@@ -3,7 +3,7 @@ description: Met Betaalde zoekdetectie wordt onderscheid gemaakt tussen betaling
 title: Detectie van betaalde zoekopdracht
 feature: Admin Tools
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 [!UICONTROL Paid Search Detection] onderscheidt betaalde van natuurlijke zoekopdrachten in de [!UICONTROL Search Engines] en [!UICONTROL Search Keywords] rapporten. U kunt de zoekmachines opgeven waar u betaalde advertenties gebruikt en een tekenreeks opgeven die u kunt vinden in de URL van een bezoek van een betaalde advertentie.
 
-## Configuratieopties {#section_0C2CFA0AF77B47098BE37CB024665D0D}
+## Configuratieopties {#configuration}
 
 In de volgende tabel worden de velden en opties beschreven waarmee u [betaalbaar zoeken configureren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md).
 

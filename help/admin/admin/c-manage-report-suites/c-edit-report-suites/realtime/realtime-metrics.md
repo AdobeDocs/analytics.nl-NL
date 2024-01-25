@@ -1,34 +1,34 @@
 ---
-description: Maakt een lijst van metriek en dimensies die door rapporten in real time worden gesteund. Classificaties worden ook ondersteund als u ze hebt gedefinieerd.
+description: Maakt een lijst van metriek en dimensies die door rapporten in real time worden gesteund. Classificaties worden ook ondersteund, als u ze hebt gedefinieerd.
 title: Ondersteunde realtime metriek en dimensies (beheer)
 feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 18%
+source-wordcount: '111'
+ht-degree: 1%
 
 ---
 
-# Ondersteunde cijfers en en dimensies in real time
+# Ondersteunde metriek en afmetingen in real time
 
-Maakt een lijst van metriek en dimensies die door rapporten in real time worden gesteund. Classificaties worden ook ondersteund als u ze hebt gedefinieerd.
+Maakt een lijst van metriek en dimensies die door rapporten in real time worden gesteund. Classificaties worden ook ondersteund, als u ze hebt gedefinieerd.
 
-## Ondersteunde metriek {#section_514ED8B382494C47BFC0657894D1AF94}
+## Ondersteunde metriek {#metrics}
 
-* Omzet
+* Ontvangsten
 * Orders
 * Eenheden
 * Houtskaarten
-* Weergaven winkelwagen
-* Betalingen
-* Toevoegingen aan winkelwagen
-* Verwijderingen uit winkelwagen
+* Kleuraweergaven
+* Afbeeldingen
+* Extra winkelwagentjes
+* Winkelwagentjes
 * Instanties
 * Aangepaste gebeurtenissen 1-100 (indien ingeschakeld in de rapportsuite)
 
-## Ondersteunde Dimension {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Ondersteunde Dimensionen {#dimensions}
 
 * Pagina
 * Trefwoord zoeken

@@ -4,10 +4,11 @@ title: Tijdstempels optioneel
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 1%
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 Combineer zowel tijdstempelgegevens als gegevens zonder tijdstempel in één rapportsuite.
 
-Met Tijdstempels optioneel kunt u:
+Tijdstempels optioneel:
 
 * Combineer tijdstempels en niet-tijdstempels gegevens in de zelfde globale rapportreeks.
 * Verzend tijdstempelgegevens van een mobiele app naar een algemene rapportsuite.
@@ -23,7 +24,7 @@ Met Tijdstempels optioneel kunt u:
 
 >[!WARNING]
 >
->Als u Tijdstempels optioneel gebruikt, moet u deze niet instellen [s.bezoekerID](/help/implement/vars/config-vars/visitorid.md) voor gegevens die al een tijdstempel hebben. Dit kan leiden tot gegevens buiten de bestelling en een negatief effect hebben op tijdberekeningen (zoals waarden voor de tijd die is besteed), attributie (persistentie van de eVar), het aantal bezoekers/bezoekers en tekenrapporten.
+>Als u Tijdstempels optioneel gebruikt, moet u deze niet instellen [s.bezoekerID](/help/implement/vars/config-vars/visitorid.md) voor gegevens die al een tijdstempel hebben. Dit kan leiden tot gegevens buiten de bestelling en een negatief effect hebben op tijdberekeningen (zoals waarden voor de tijd die is besteed), attributie (persistentie van eVar), het aantal bezoekers/bezoekers en tekenrapporten.
 
 >[!NOTE]
 >
@@ -33,7 +34,7 @@ Met Tijdstempels optioneel kunt u:
 
 * Indien gecreeerd van een malplaatje, blijft een nieuwe rapportreeks aan Facultatieve Tijdstempels in gebreke.
 
-   (U kunt een nieuwe rapportreeks van een malplaatje tot stand brengen bij **Admin > Report Suite > Create New > Report Suite**.)
+  (U kunt een nieuwe rapportreeks van een malplaatje tot stand brengen bij **Admin > Report Suite > Create New > Report Suite**.)
 * Indien gekopieerd uit een bestaande rapportsuite, neemt de nieuwe rapportsuite de tijdstempelinstelling over van het origineel, waaronder:
 
    * **Tijdstempels niet toegestaan** (instelling wordt ondersteund voor s.bezoekerID)
@@ -43,10 +44,10 @@ Met Tijdstempels optioneel kunt u:
 ## Bestaande rapportsuites wijzigen in Tijdstempels Optioneel {#section_40BCD3B4639241DEA716F7640ED33E72}
 
 1. Ga naar **Beheer > Rapportageopties > Instellingen bewerken > Algemeen > Configuratie tijdstempel**.
-1. Selecteer **Geselecteerde rapportsuites converteren naar tijdstempels optioneel** doos.
+1. Selecteer de **Geselecteerde rapportsuites converteren naar tijdstempels optioneel** doos.
 
    Hiermee wijzigt u uw rapportsuite in Tijdstempels optioneel.
 
 >[!NOTE]
 >
->Als een rapportsuite is ingesteld op **Tijdstempels optioneel** Neem contact op met de Adobe Client Care als u deze instelling wilt wijzigen in een andere instelling.
+>Als een rapportsuite is ingesteld op **Tijdstempels optioneel**, neemt u contact op met de Adobe Client Care als u dit wilt wijzigen in een andere instelling.

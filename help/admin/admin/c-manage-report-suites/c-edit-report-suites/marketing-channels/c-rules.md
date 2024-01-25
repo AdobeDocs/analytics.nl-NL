@@ -1,16 +1,17 @@
 ---
-title: Verwerkingsregels voor marketingkanalen
+title: Verwerkingsregels voor distributiekanalen
 description: De de verwerkingsregels van het Kanaal van de marketing bepalen als een bezoeker voldoet aan de criteria die aan een kanaal worden toegewezen. De regels verwerken elke hit die een bezoeker op uw site aanbrengt. Wanneer een regel niet aan de criteria voor een kanaal voldoet, of als de regels niet correct worden gevormd, wijst het systeem de slag aan Geen Geïdentificeerd Kanaal toe.
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '1827'
-ht-degree: 1%
+source-wordcount: '1822'
+ht-degree: 0%
 
 ---
 
-# Verwerkingsregels voor marketingkanalen
+# Verwerkingsregels voor distributiekanalen
 
 Regels voor de verwerking van marketingkanalen bepalen of een bezoeker voldoet aan de criteria die aan een kanaal zijn toegewezen door elke hit die een bezoeker op uw site maakt, te verwerken. De regels worden verwerkt in de volgorde die u opgeeft en wanneer aan een regel wordt voldaan, stopt het systeem met het verwerken van de resterende regels.
 
@@ -37,7 +38,7 @@ Aanvullende opmerkingen over de verwerking:
 Maak verwerkingsregels voor marketingkanalen die bepalen of een bezoeker voldoet aan de criteria die aan een kanaal zijn toegewezen.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-2. Een rapportsuite selecteren.
+2. Selecteer een rapportsuite.
 
    Als er in uw rapportsuite geen kanalen zijn gedefinieerd, worden de [!UICONTROL Marketing Channels: Auto Setup] wordt weergegeven.
 
@@ -53,7 +54,7 @@ Maak verwerkingsregels voor marketingkanalen die bepalen of een bezoeker voldoet
 
 5. Als u regels wilt blijven maken, klikt u op **[!UICONTROL Add New Rule SetRule]**.
 6. Als u regels een prioriteit wilt geven, sleept u ze naar de gewenste positie.
-7. Klik op **[!UICONTROL Save.]**
+7. Klikken **[!UICONTROL Save.]**
 
 ### De waarde van het marketingkanaal instellen
 
@@ -89,7 +90,7 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 | Pagina-URL | De URL van een webpagina op uw site. |
 | Referentiedomein | De [Verwijzen naar domein](/help/components/dimensions/referring-domain.md) dimensie |
 | Parameter querytekenreeks | Gebruik een individuele parameter van het vraagkoord. U kunt slechts één parameter van het vraagkoord per criterium specificeren. Om extra parameters van het vraagkoord toe te voegen, gebruik `ANY` als uw exploitant, dan voeg vraagkoordparameters aan de regel toe. |
-| Referrer | De locatie van de webpagina (volledige URL) waar uw bezoekers zich bevonden voordat ze naar uw site kwamen. Er bestaat een verwijzing buiten het gedefinieerde domein. |
+| Referenter | De locatie van de webpagina (volledige URL) waar uw bezoekers zich bevonden voordat ze naar uw site kwamen. Er bestaat een verwijzing buiten het gedefinieerde domein. |
 | Refererend Domein en Weg | Een aaneenschakeling van het Verwijzende Domein en weg URL. Voorbeelden zijn:    `www.example.com/products/id/12345` of `ad.example.com/foo` |
 | Verwijzen naar parameter | Een parameter van het vraagkoord op referentie URL. Stel dat uw bezoekers afkomstig zijn van `example.com/?page=12345&cat=1`En dan zijn pagina en kat de verwijzende parameters. |
 | Refererend hoofddomein | Het hoofddomein van de referentie. Er bestaat een verwijzing buiten het gedefinieerde domein. |
@@ -108,7 +109,7 @@ Hieronder ziet u de aanbevolen volgorde voor kanaalregels en voorbeelddefinities
 
 Betaalde zoekopdracht is een woord of uitdrukking dat u betaalt voor plaatsing in zoekresultaten. Dit kanaal wordt typisch bepaald gebaseerd op de parameter van het vraagkoord (zie het kanaalvoorbeeld van de Vertoning) of betaalde onderzoeksdetectieregels.
 
-#### Paid search-detectie
+#### Betaalde zoekdetectie
 
 Om de betaalde regels van de onderzoeksopsporing aan te passen, gebruikt het marketing kanaal montages die op worden gevormd [!UICONTROL Paid Search Detection] pagina. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). De doel-URL komt overeen met de bestaande regel voor betaalde zoekdetectie voor dat zoekprogramma.
 
