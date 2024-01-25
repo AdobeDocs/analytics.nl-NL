@@ -3,9 +3,9 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
+source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,10 @@ Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen
 >
 >* We raden u aan een cloudaccount of e-mailbericht te gebruiken voor uw rapportbestemming. Oudere FTP- en SFTP-accounts zijn beschikbaar, maar worden niet aanbevolen.
 >
->* Aanvragen voor Data Warehouse zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Door gebrek, kunnen andere gebruikers niet de verzoeken gebruiken of bekijken die u vormt. U kunt verzoeken van de Data Warehouse ter beschikking stellen van andere gebruikers in uw organisatie door **Alle doelen tonen** schakelen, zoals beschreven in [Algemene instellingen voor verzoek om Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).
+>* Alle cloudaccounts waarvoor u eerder hebt geconfigureerd [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md) of voor [Adobe Analytics-classificatiegegevens importeren](/help/components/locations/locations-manager.md) zijn beschikbaar voor gebruik voor Data Warehouse. Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt.
 >
->* Alle cloudaccounts die u eerder hebt gemaakt [geconfigureerd voor gegevensfeeds](/help/export/analytics-data-feed/create-feed.md) zijn beschikbaar voor gebruik voor Data Warehouse.
+>* Cloud-accounts zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Andere gebruikers kunnen geen cloudaccounts gebruiken of weergeven die u configureert.
 >
->* Cloud-accounts die zijn geconfigureerd voor [Adobe Analytics-classificatiegegevens importeren](/help/components/locations/locations-manager.md) van een wolkenbestemming kan worden gebruikt wanneer het vormen van een rapportbestemming. Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt.
 
 Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzonden:
 
