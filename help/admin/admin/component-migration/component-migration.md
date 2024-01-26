@@ -3,9 +3,9 @@ description: Verklaart hoe te om componenten en projecten van Adobe Analytics aa
 title: Componenten en projecten migreren van Adobe Analytics naar Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 31487111111575e267306d5f68eede23276e79a8
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Voordat u projecten migreert naar Customer Journey Analytics, moet u meer weten 
 >
 >Voordat u projecten migreert naar Customer Journey Analytics, zoals wordt beschreven in deze sectie, moet u meer weten over migrerende projecten in het deelvenster [Migratie van onderdelen en projecten van Adobe Analytics naar Customer Journey Analytics voorbereiden](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->Alle dimensies of metriek die u toewijst, zijn permanent, zowel voor dit project als voor alle toekomstige projecten die door uw volledige organisatie worden gemigreerd. Toewijzingen die u maakt, kunnen niet worden gewijzigd nadat de migratie is voltooid.
+>Alle dimensies of metriek die u toewijst, zijn permanent, zowel voor dit project als voor alle toekomstige projecten die door uw volledige IMS org worden gemigreerd. Toewijzingen die u maakt, kunnen niet worden gewijzigd nadat de migratie is voltooid.
 
 1. Selecteer in Adobe Analytics de optie [!UICONTROL **Beheerder**] tab, dan selecteren [!UICONTROL **Alle beheerders**].
 

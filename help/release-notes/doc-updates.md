@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '4978'
 ht-degree: 23%
 
 ---
@@ -26,6 +26,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **Januari 2024** | |
+| Componentmigratie is van toepassing op afzonderlijke IMS-organen | Verduidelijkt dat [componentmigratie](/help/admin/admin/component-migration/component-migration.md) biedt geen ondersteuning voor cross-IMS org-migratie. |
+| Verduidelijkt dat bepaalde informatie slechts aan beheerders beschikbaar is | Toegevoegde informatie waarin staat dat de kolommen &quot;Laatst gebruikt&quot; en &quot;Gebruikt in&quot; die worden beschreven in [Het berekende manager van metriek](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) en [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-manage.md) zijn alleen beschikbaar voor systeembeheerders. |
 | Updates voor de documentatie van het gemiddelde minipubliek van media | Bijgewerkte informatie in [Deelvenster Gemiddeld aantal minuten voor publiek](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) ter verbetering van de duidelijkheid.<p>Tot de verbeteringen behoren:</p> <ul><li>Verbeterde organisatie van de informatie</li><li>Toegevoegde stappen om op taak-gebaseerde informatie te wijzen</li></ul> |
 
 ### 2023 {#23}
