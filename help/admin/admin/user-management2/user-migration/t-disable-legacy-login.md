@@ -3,18 +3,19 @@ description: Leer hoe u oude aanmeldingsgegevens voor Analytics-gebruikers uitsc
 title: Verouderde logins uitschakelen
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# Verouderde logins uitschakelen{#disable-legacy-logins}
+# Verouderde logins uitschakelen
 
 Leer hoe u oude aanmeldingsgegevens voor Analytics-gebruikers uitschakelt.
 
-Nadat uw gebruikers zijn gemigreerd van het verouderde Analytics-gebruikersbeheersysteem naar de Adobe Admin Console, kunt u hun oude aanmeldingsgegevens uitschakelen. Als u oude aanmeldingspogingen uitschakelt, worden gebruikers omgeleid naar de Experience Cloud-aanmelding als ze de oude aanmelding proberen te gebruiken.
+Nadat uw gebruikers zijn gemigreerd van het verouderde Analytics-gebruikersbeheersysteem naar de Adobe Admin Console, kunt u hun oude aanmeldingsgegevens uitschakelen. Als u oude aanmeldingsgegevens uitschakelt, worden gebruikers omgeleid naar de aanmelding bij het Experience Cloud als ze de oude aanmeldingsgegevens proberen te gebruiken.
 
 1. Het migratiehulpprogramma openen in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
 1. In de [!DNL User Information] , zoekt u het domein met de gebruikers waarmee u wilt werken, en klikt u op **[!UICONTROL Select Users]**.
@@ -27,4 +28,4 @@ Nadat uw gebruikers zijn gemigreerd van het verouderde Analytics-gebruikersbehee
 
    Schakel Oudere aanmelding uit om aan te geven welke gebruikers hun bestaande versie kunnen blijven gebruiken [!DNL my.omniture.com] gebruikersnaam en wachtwoord.
 
-   U kunt oudere aanmeldingen niet uitschakelen voor een gebruiker die nog moet worden gemigreerd. Als de Experience Cloud-id eenmaal is uitgeschakeld, moet de gebruiker zich aanmelden en toegang krijgen tot Analytics.
+   U kunt oudere aanmeldingen niet uitschakelen voor een gebruiker die nog moet worden gemigreerd. Als deze optie is uitgeschakeld, moet de gebruiker de Experience Cloud-id gebruiken om zich aan te melden en toegang te krijgen tot Analytics.

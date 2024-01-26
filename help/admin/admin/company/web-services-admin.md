@@ -3,10 +3,11 @@ description: De API's van de webservices bieden programmatische toegang tot mark
 title: Webservices
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 67%
+source-wordcount: '280'
+ht-degree: 61%
 
 ---
 
@@ -19,13 +20,13 @@ De API&#39;s van de webservices bieden programmatische toegang tot marketingrapp
 
 ## API&#39;s voor Analytics 2.0
 
-Om tot Analytics 2.0 APIs toegang te hebben, hebt u globale bedrijfsidentiteitskaart van uw Bedrijf Analytics nodig. U kunt de globale bedrijfs-id vinden in **vet** boven aan het dialoogvenster [!UICONTROL API Access] sectie. Hier volgt een voorbeeld: &quot;De globale bedrijfsidentiteitskaart voor het Bedrijf van Analytics u momenteel wordt geregistreerd in is **adobe1234**.&quot;
+Om tot Analytics 2.0 APIs toegang te hebben, hebt u globale bedrijfsidentiteitskaart van uw Bedrijf Analytics nodig. U kunt de globale bedrijfs-id vinden in **vet** boven aan het dialoogvenster [!UICONTROL API Access] sectie. Hier is een voorbeeld: &quot;De globale bedrijfs-id voor het Analytics Company waar u momenteel bent aangemeld, is **adobe1234**.&quot;
 
 ## Verouderde webservices beheren (afgekeurd)
 
 In de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) u kunt de toestemmingen bijwerken om die gebruikers te omvatten die toegang tot de Diensten APIs van het Web nodig hebben.
 
-## WSDL: Download de Webservices-API WSDL voor Webservices-ontwikkelaars
+## WSDL: Download de Web Services API WSDL voor webservices-ontwikkelaars
 
 Bezoek [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), die documentatie, steekproefcode, en forums verwant met de Diensten APIs van het Web verstrekt. Klik op Overzicht van de Webservices-API&#39;s voor meer informatie.
 

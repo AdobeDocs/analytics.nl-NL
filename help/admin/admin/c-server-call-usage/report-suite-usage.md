@@ -1,16 +1,17 @@
 ---
 description: Het lusje van het Gebruik van de Reeks van het Rapport verstrekt de gegevens van het servergebruik voor elke rapportreeks in alle Login bedrijven verbonden aan uw Facturerend bedrijf, voor de huidige gebruiksperiode.
-title: Gebruik van rapportsuites weergeven
+title: Gebruik van rapportsuite weergeven
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 2%
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
-# Gebruik van rapportsuites weergeven
+# Gebruik van rapportsuite weergeven
 
 Het lusje van het Gebruik van de Reeks van het Rapport verstrekt de gegevens van het servergebruik voor elke rapportreeks in alle Login bedrijven verbonden aan uw Facturerend bedrijf, voor de huidige gebruiksperiode.
 
@@ -18,17 +19,19 @@ Het lusje van het Gebruik van de Reeks van het Rapport verstrekt de gegevens van
 
 >[!IMPORTANT]
 >
->Als een rapportsuite niet is gekoppeld aan een Experience Cloud-organisatie, worden de gebruiksgegevens niet weergegeven in dit dashboard. Een facturerings-id kan ook aan meerdere Experience Cloud Orgs zijn gekoppeld. er is niet altijd een 1:1-relatie tussen een org en een facturerings-id.
+>Als een rapportsuite niet is gekoppeld aan een organisatie van Experiencen Cloud, worden de gebruiksgegevens niet weergegeven in dit dashboard. Een facturerings-id kan ook worden gekoppeld aan meerdere Experience Cloud-Orgs; er is niet altijd een 1:1-relatie tussen een org en een facturerings-id.
 
 Het dashboard Gebruik rapportsuite
 
-* Toont het servervraaggebruik van de huidige gebruiksperiode van de gebruiksperiode (Alle Vraag, Primair, Secundair, Mobiel Primair, Secundair Mobiel) voor elke rapportreeks in uw organisatie van Experience Cloud.
+* Toont het servervraaggebruik van de huidige gebruiksperiode van de gebruiksperiode (Alle Vraag, Primair, Secundair, Mobiel Primair, Secundair Mobiel) voor elke rapportreeks in uw organisatie van het Experience Cloud.
 * Toont percentage van algemeen gebruik per categorie van de servervraag.
 * Wordt dagelijks bijgewerkt.
 * Kan worden gedownload.
 * Hiermee krijgt u toegang tot de **[!UICONTROL Manage Alerts]** UI.
 
 ![](/help/admin/admin/c-server-call-usage/assets/report-suite-usage.png)
+
+## Dashboardinstellingen {#settings}
 
 | Kolom | Definitie |
 |--- |--- |
@@ -39,8 +42,9 @@ Het dashboard Gebruik rapportsuite
 | Primaire mobiele telefoon (%) | Alle mobiele primaire serveraanroepen (en hun percentage van het totaal) die in de huidige gebruiksperiode zijn gedaan. |
 | Secundair mobiel (%) | Alle mobiele secundaire serveraanroepen (en hun percentage van het totaal) die in de huidige gebruiksperiode zijn gemaakt. |
 
+{style="table-layout:auto"}
 
-## Gebruiksrapport downloaden {#section_D7345660B5E043CD8850954216509A3D}
+## Gebruiksrapport downloaden {#download}
 
 Met deze optie kunt u huidige gebruiksgegevens en gegevens downloaden uit tijdsperioden voorafgaand aan de huidige gebruiksperiode (van januari 2015). Het rapport wordt gedownload als een CSV-bestand.
 
@@ -51,10 +55,12 @@ Met deze optie kunt u huidige gebruiksgegevens en gegevens downloaden uit tijdsp
 
 | Rapportelement | Beschrijving |
 |--- |--- |
-| Bestandsnaam | Hardcoded naam: Gebruiksrapport `day and time of report creation.csv` |
+| Bestandsnaam | Gecodeerde naam: Gebruiksrapport `day and time of report creation.csv` |
 | Opgenomen rapportageopties | Om het even welke rapportreeksen u op de pagina van het Gebruik van de Server van het Rapport selecteerde zijn inbegrepen in deze lijst. |
-| Opgenomen vraagtypes | Geef een willekeurige combinatie van deze opties op: Alle Vraag (Gebrek), Primair, Secundair, Mobiel Primair, Secundair Mobiel. |
+| Inclusief vraagtypes | Specificeer om het even welke combinatie van deze: Alle Vraag (Gebrek), Primair, Secundair, Mobiel Primair, Secundair Mobiel. |
 | Tijdbereik | U kunt de huidige gebruiksperiode kiezen of een aangepast bereik opgeven.  Voor een douanewaaier, specificeer het Begin van de Waaier en het Eind van de Waaier. <br>**Opmerking:** U kunt vóór januari 2015 geen gebruiksgegevens downloaden </br>. |
+
+{style="table-layout:auto"}
 
 1. Klik op **[!UICONTROL Download]**.
 

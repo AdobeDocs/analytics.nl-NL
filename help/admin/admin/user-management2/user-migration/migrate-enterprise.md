@@ -1,16 +1,17 @@
 ---
 description: Hoe u accounts van analysegebruikers als Enterprise- of federatieve id's naar de Adobe Admin Console migreert.
-title: Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren
+title: Analytische gebruikersaccounts migreren voor bedrijfs- en federatieve id's
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 3%
+source-wordcount: '681'
+ht-degree: 0%
 
 ---
 
-# Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# Analytische gebruikersaccounts migreren voor bedrijfs- en federatieve id&#39;s
 
 Hoe u accounts van analysegebruikers als Enterprise- of federatieve id&#39;s naar de Adobe Admin Console migreert.
 
@@ -58,7 +59,7 @@ Als u bestaande Adobe ID-gebruikersaccounts naar een Enterprise ID of Federated 
 
       ![Stapinfo](/help/admin/admin/user-management2/user-migration/assets/export-csv-migrate.png)
 
-   1. De gedownloade bestanden openen [!DNL User List.csv] in Excel.
+   1. Gedownloade bestanden openen [!DNL User List.csv] in Excel.
 
       voorbereid zijn om de *`Email`*, *`First Name`*, en *`Last Name`* waarden aan een [!DNL sample.csv] bestand (beschreven in de volgende stap).
 
@@ -76,11 +77,11 @@ Als u bestaande Adobe ID-gebruikersaccounts naar een Enterprise ID of Federated 
 
       ![](/help/admin/admin/user-management2/user-migration/assets/export-csv.png)
 
-   1. Vergelijk de twee bestanden: de bestaande Adobe Admin Console-gebruikers in het geëxporteerde [!DNL .csv] file ( [!DNL sample.csv], in dit voorbeeld) met de gebruikers in de Analyse [!DNL User Logins List.csv] bestand.
+   1. Vergelijk de twee bestanden: de bestaande Adobe Admin Console-gebruikers in het geëxporteerde bestand [!DNL .csv] file ( [!DNL sample.csv], in dit voorbeeld) met de gebruikers in de Analyse [!DNL User Logins List.csv] bestand.
 
       >[!IMPORTANT]
       >
-      >Als u duplicaten vindt, verwijdert u deze uit Analytics [!DNL User Logins List.csv] bestand. Deze stap helpt te voorkomen dat bestaande Experience Cloud-gebruikersmachtigingen in de Adobe Admin Console worden overschreven en geeft u een lijst met accounts die u wilt migreren.
+      >Als u duplicaten vindt, verwijdert u deze uit Analytics [!DNL User Logins List.csv] bestand. Deze stap helpt te voorkomen dat bestaande gebruikersmachtigingen voor Experiencen Cloud in de Adobe Admin Console worden overschreven en geeft u een lijst met te migreren accounts.
 
 1. Download de CSV-sjabloon van de Adobe Admin Console:
    1. Klik op het tabblad Gebruikers op **[!UICONTROL Add users by CSV]** vervolgens **[!UICONTROL Download CSV Template]**.
@@ -93,7 +94,7 @@ Als u bestaande Adobe ID-gebruikersaccounts naar een Enterprise ID of Federated 
 
       ![](/help/admin/admin/user-management2/user-migration/assets/download-csv-template.png)
 
-1. Kopieer de *`Email`*, *`First Name`*, en *`Last Name`* kolomwaarden uit [!DNL User Logins List.tab] op de corresponderende kolommen in de [!DNL sample.csv] sjabloon.
+1. De *`Email`*, *`First Name`*, en *`Last Name`* kolomwaarden uit [!DNL User Logins List.tab] op de overeenkomstige kolommen in de [!DNL sample.csv] sjabloon.
 
    **Voorbeeld van sjabloonbestand**
 
@@ -144,12 +145,12 @@ Voor meer informatie over de velden in het dialoogvenster [!DNL .csv] bestand, z
 
 1. Upload het sjabloonbestand op het tabblad Gebruikers in de Adobe Admin Console door op **[!UICONTROL Add users by CSV]** (zoals weergegeven in Stap 3.)
 1. Voer in Analytics het migratiehulpprogramma uit (zoals beschreven in [Gebruikersaccounts voor Analyse migreren](/help/admin/admin/user-management2/user-migration/t-migrate-users.md).
-1. Klik op **[!UICONTROL Migrate]** > **[!UICONTROL Migrate as Enterprise IDs]**.
+1. Klikken **[!UICONTROL Migrate]** > **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![Stapinfo](/help/admin/admin/user-management2/user-migration/assets/migrate-as-enterprise.png)
 
-   Wanneer u op **[!UICONTROL Migrate]**, wordt de gebruiker gekoppeld aan de Enterprise ID/Federated ID-account in Adobe Admin Console. De machtigingen voor het verouderde gebruikersaccount in Analytics komen overeen met de machtigingen die zijn verleend aan de Enterprise/Federated ID-aanmelding in **[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL Product Profiles]**. De gebruikers-id wordt weergegeven in het emmertje voor migratie voltooid. U kunt hun nalatenschap uitschakelen [!DNL my.omniture.com] toegang.
+   Wanneer u op **[!UICONTROL Migrate]**, wordt de gebruiker gekoppeld aan de Enterprise ID/Federated ID-account in Adobe Admin Console. De machtigingen voor het verouderde gebruikersaccount in Analytics komen overeen met de machtigingen die zijn verleend aan de Enterprise/Federated ID-aanmelding in **[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL Product Profiles]**. De gebruikers-id wordt weergegeven in het emmertje voor migratie voltooid. U kunt de bestaande versie uitschakelen [!DNL my.omniture.com] toegang.
 
-   Na het migreren van gebruikers verandert de status onder de kolom van de Status van de Migratie van **[!UICONTROL Not Initiated]** tot **[!UICONTROL Migrated]**.
+   Na het migreren van gebruikers, verandert de status onder de kolom van de Status van de Migratie van **[!UICONTROL Not Initiated]** tot **[!UICONTROL Migrated]**.
 
-   Adobe ID-gebruikers die in het migratiehulpprogramma worden weergegeven, kunnen ook in dit proces worden gemigreerd. Ze moeten zich nog steeds aanmelden bij hun Adobe ID totdat er een identiteitsschakelaar wordt uitgevoerd. Neem contact op met de klantenservice van Adobe voor hulp bij een identiteitsschakelaar.
+   Adobe ID-gebruikers die in het migratiehulpprogramma worden weergegeven, kunnen ook in dit proces worden gemigreerd. Ze moeten zich nog steeds aanmelden bij hun Adobe ID totdat er een identiteitsschakelaar wordt uitgevoerd. Neem contact op met de klantenservice van de Adobe voor hulp bij een identiteitsschakelaar.

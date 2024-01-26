@@ -1,22 +1,17 @@
 ---
-description: Beschrijvingen van de types van rapportsuite en vergelijking van globale rapportsuites en rollup rapportsuites.
-title: Methoden van rapportsuite
+description: Beschrijvingen van globale rapportsuites
+title: Globale rapportsuites
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
 
-# Methoden van rapportsuite
-
-<!-- change filename since page name changed? -->
-
-U kunt uw rapportreeksen als één van beide vormen *algemene rapportensuites* of *rollup-rapportsuites*.
-
-## Globale rapportsuites
+# Globale rapportsuites
 
 Een algemene rapportsuite verzamelt gegevens van alle domeinen en apps die eigendom zijn van uw organisatie. De implementatie vereist om alle verzoeken om images naar één rapportsuite te verzenden.
 
@@ -38,13 +33,13 @@ Met de *taggen met meerdere suite* en *virtuele rapportsuite* benaderingen:
 
 Het gebruik van virtuele-rapportsuites in plaats van taggen met meerdere suite is vaak de beste manier, maar virtuele-rapportsuites hebben een aantal beperkingen. Zie &quot;[Virtuele rapportreeksen en tagging met meerdere suite](/help/components/vrs/vrs-considerations.md)&quot; om te bepalen welke rapportsuite-benadering de beste keuze is voor uw bedrijfsbehoeften. Voor een diepgaande vergelijking van virtuele rapportsuites en multi-suite het etiketteren functionaliteit, zie &quot;[Virtuele rapportsuite versus tagging met meerdere suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
-## Rolluprapporten
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] is het enige hulpmiddel dat rollup rapporten steunde. Rapporten en analyses zijn op 17 januari 2024 beëindigd.
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

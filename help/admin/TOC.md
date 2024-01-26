@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '631'
 ht-degree: 14%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 14%
             + [Configuratie van realtime rapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Ondersteunde metriek en afmetingen in real time](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
       + [Rapportsuites beheren](admin/c-manage-report-suites/report-suites-admin.md)
-      + [Rollup- en algemene rapportensuites](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Globale rapportsuites](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Een zoekopdracht in een rapportsuite opslaan](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [Rapportinstellingen downloaden](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Nieuwe rapportsuite {#c-new-report-suite}

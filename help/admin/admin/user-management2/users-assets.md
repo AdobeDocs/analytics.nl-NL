@@ -2,13 +2,14 @@
 description: Gebruikers van Analytics en hun middelen beheren in de Adobe Admin Console.
 title: Gebruikers en middelen voor Analyse beheren
 feature: Admin Tools
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 1%
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
-
 
 # Gebruikerselementen overdragen of verlopen van account instellen
 
@@ -16,13 +17,13 @@ De meeste functies voor gebruikers- en productbeheer zijn verplaatst naar de [Ad
 
 Hoewel de meeste functies voor gebruikers- en productbeheer nu alleen beschikbaar zijn in de Adobe Admin Console, zijn de op deze pagina beschreven beheerfuncties alleen beschikbaar in het gebied Adobe Analytics Admin.
 
-## Elementen overbrengen van de ene analysegebruiker naar een andere
+## Elementen overbrengen van de ene analysegebruiker naar een andere {#transfer}
 
-1. Ga naar **Beheer** > [!UICONTROL **Analysegebruikers en middelen**].
+1. Ga naar **Beheerder** > [!UICONTROL **Analysegebruikers en middelen**].
 De pagina Gebruikers wordt weergegeven.
 1. (Optioneel) Gebruik een van de volgende opties om gemakkelijker gebruikers te vinden die u zoekt:
    * Typ in het zoekveld de naam van de gebruiker voor wie u een vervaldatum van een account wilt instellen.
-   * Selecteer **Filter** pictogram ![Filterpictogram](assets/filter-users-page.png) om de filterinstellingen weer te geven of te verbergen. U kunt filteren op migratiestatus of oudere aanmeldingsstatus.
+   * Selecteer de **Filter** pictogram ![Filterpictogram](assets/filter-users-page.png) om de filterinstellingen weer te geven of te verbergen. U kunt filteren op migratiestatus of oudere aanmeldingsstatus.
 1. Selecteer de gebruiker van wie elementen u wilt overbrengen.
    ![Vervaldatum instellen voor gebruikersaccount](assets/manage-user-assets.png)
 1. Selecteren [!UICONTROL **Overdrachtsmiddelen**].
@@ -32,13 +33,13 @@ De pagina Gebruikers wordt weergegeven.
    Alle elementen die u hebt geselecteerd, worden overgebracht naar de aangewezen gebruiker.
 
 
-## Een vervaldatum instellen voor een gebruikersaccount
+## Een vervaldatum instellen voor een gebruikersaccount {#expiration}
 
-1. Ga naar **Beheer** > [!UICONTROL **Analysegebruikers en middelen**].
+1. Ga naar **Beheerder** > [!UICONTROL **Analysegebruikers en middelen**].
 De pagina Gebruikers wordt weergegeven.
 (Optioneel) Gebruik een van de volgende opties om gemakkelijker gebruikers te vinden die u zoekt:
    * Typ in het zoekveld de naam van de gebruiker voor wie u een vervaldatum van een account wilt instellen.
-   * Selecteer **Filter** pictogram ![Filterpictogram](assets/filter-users-page.png) om de filterinstellingen weer te geven of te verbergen. U kunt filteren op migratiestatus of oudere aanmeldingsstatus.
+   * Selecteer de **Filter** pictogram ![Filterpictogram](assets/filter-users-page.png) om de filterinstellingen weer te geven of te verbergen. U kunt filteren op migratiestatus of oudere aanmeldingsstatus.
 1. Selecteer de gebruiker voor wie u een vervaldatum van een account wilt instellen.
    ![Vervaldatum instellen voor gebruikersaccount](assets/manage-user-assets.png)
 1. Selecteren [!UICONTROL **Vervaldatum instellen**].

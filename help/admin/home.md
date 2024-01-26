@@ -3,9 +3,10 @@ title: Analytics Admin-handleiding
 description: Help bij beheer voor Adobe Analytics-beheerders, inclusief gebruikers- en productbeheer in de Admin Console, voor het instellen van rapportsuites, variabelen, classificaties en dataverzameling.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '306'
 ht-degree: 85%
 
 ---
@@ -23,7 +24,7 @@ Hier volgt een video-overzicht van Adobe Analytics:
 Adobe Analytics heeft momenteel twee gedeelten voor beheerders:
 
 * Adobe Admin Console: Gebruik dit gebied voor de inrichting van Experience Cloud-tools en voor het beheer van gebruikerstoestemmingen. Dit gebied bevindt zich op [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Hulpprogramma&#39;s voor Analysebeheer: Gebruik dit gebied voor rapportreeks en veranderlijk beheer. U kunt deze openen door op [!UICONTROL Admin] in de bovenste header van Adobe Analytics.
+* Hulpmiddelen van Admin van Analytics: Gebruik dit gebied voor rapportreeks en veranderlijk beheer. U kunt deze openen door op [!UICONTROL Admin] in de bovenste header van Adobe Analytics.
 
 Deze handleiding behandelt het volgende:
 

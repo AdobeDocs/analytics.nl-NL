@@ -3,10 +3,11 @@ title: Analyses in de Adobe Admin Console
 description: Leer de Adobe Admin Console te gebruiken om analyseproducten en -gebruikers te beheren.
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 feature: Admin Tools
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 6%
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +17,7 @@ Gebruik de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/adm
 
 In dit hoofdstuk worden de concepten uitgelegd die u moet begrijpen voor productprofielen en -machtigingen die specifiek zijn voor Analytics in de Adobe Admin Console.
 
-* Toestemmingen
+* Machtigingen
 
    * [Productprofielen voor Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
    * [Machtigingen voor productprofielen voor rapportsuite](/help/admin/admin-console/permissions/report-suite-tools.md)

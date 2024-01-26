@@ -3,9 +3,10 @@ title: Exclusief door IP Adres
 description: Voorkomen dat gegevens die door bepaalde IP-adressen worden gegenereerd, in rapporten worden weergegeven.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---

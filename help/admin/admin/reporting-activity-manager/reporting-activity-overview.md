@@ -2,7 +2,9 @@
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 title: Overzicht van Activity Manager rapporteren
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -25,7 +27,7 @@ Het melden van de Manager van de Activiteit biedt de volgende voordelen:
 * Hiermee kunt u de rapportwachtrij optimaliseren door een aantal prioriteiten toe te wijzen en andere rapportageaanvragen te annuleren om capaciteit vrij te maken. Het beantwoordt vragen als: is dit verslag op dit moment nodig of kan ik het intrekken ten gunste van meer urgente verslagen?
 * Hiermee kunt u toekomstige aanvragen voor een bepaalde periode beperken. U kunt specifieke verzoeken beperken, of u kunt alle verzoeken van een specifieke gebruiker of verzoeken beperken die met een specifiek project worden geassocieerd.
 
-## Toestemmingen
+## Machtigingen
 
 Voor het beheren van rapportageactiviteiten hebt u de toestemming van de productbeheerder voor Analytics in Adobe Admin Console nodig.
 
@@ -38,4 +40,3 @@ Voor informatie over het bekijken van rapportactiviteit in de Manager van de Act
 ## Rapportageverzoeken annuleren
 
 Voor informatie over het annuleren van rapporteringsverzoeken in de Manager van de Activiteit van de Rapportering, zie [Rapportageverzoeken annuleren in de Manager van de Activiteit van de Rapportering](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
-

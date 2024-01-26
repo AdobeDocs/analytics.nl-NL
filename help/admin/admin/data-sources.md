@@ -3,12 +3,14 @@ description: Met de functie Gegevensbronnen kunt u gegevens uit offlinebronnen i
 title: Gegevensbronnen voor beheerders
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '161'
 ht-degree: 1%
 
 ---
+
 
 # Databronnen
 
@@ -17,9 +19,9 @@ Met de functie Gegevensbronnen kunt u gegevens uit offlinebronnen importeren naa
 Gegevensbronnen gebruiken om:
 
 * Offline gegevens integreren met gegevens die van uw website worden verzameld.
-* Gegevens verzamelen van webservers, callcenters of andere systemen. Importeer het vervolgens in de Experience Cloud om de conversie vanaf alle locaties van uw organisatie te bekijken.
+* Gegevens verzamelen van webservers, callcenters of andere systemen. Importeer het vervolgens in het Experience Cloud om de conversie vanaf alle platformen van uw organisatie te bekijken.
 * Optimaliseer het beheer van trefwoordbiedingen op basis van afspelen offline via SearchCenter.
 
-Wanneer de Gegevensbronnen op een rapportreeks worden geactiveerd, wordt een plaats van FTP verstrekt zodat kunt u dossiers uploaden die in rapportering moeten worden geïntegreerd. Na het uploaden verwerken de Adobe-servers de gegevens automatisch en integreren deze in uw rapportsuite.
+Wanneer de Gegevensbronnen op een rapportreeks worden geactiveerd, wordt een plaats van FTP verstrekt zodat kunt u dossiers uploaden die in rapportering moeten worden geïntegreerd. Zodra geüpload, verwerken de servers van de Adobe automatisch de gegevens en integreren het in uw rapportreeks.
 
-Zie [Help Gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html).
+Zie [Help bij Gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html).
