@@ -3,14 +3,15 @@ title: rfl
 description: Verwijder een specifieke waarde uit een tekenreeks met een teken als scheidingsteken.
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: rfl (verwijderen uit lijst)
+# Adobe-insteekmodule: rfl (Verwijderen uit lijst)
 
 {{plug-in}}
 
@@ -27,17 +28,17 @@ Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Extensie: veelgebruikte plug-ins voor Analytics
    * Type handeling: RFP initialiseren (verwijderen uit lijst)
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -52,9 +53,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -67,13 +68,13 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 
 De `rfl` function gebruikt de volgende argumenten:
 
-* **`lv`** (vereist, tekenreeks): Een variabele (of tekenreeks) die een lijst met gescheiden waarden bevat
-* **`vr`** (vereist, tekenreeks): De waarde die u uit het dialoogvenster `lv` argument. Adobe raadt u af meerdere waarden tijdens één stap te verwijderen `rfl` vraag.
-* **`d1`** (optioneel, tekenreeks): Het scheidingsteken dat de `lv` argument gebruikt. Heeft als standaardwaarde een komma (`,`).
-* **`d2`** (optioneel, tekenreeks): Het scheidingsteken dat u de retourtekenreeks wilt gebruiken. Heeft als standaardwaarde dezelfde waarde als de `d1` argument.
-* **`df`** (optioneel, Booleaans): Indien `true`, slechts dubbele instanties van `vr` argument van de `lv` in plaats van alle instanties. Standaardwaarden: `false` wanneer niet ingesteld.
+* **`lv`** (vereist, tekenreeks): een variabele (of tekenreeks) die een lijst met gescheiden waarden bevat
+* **`vr`** (vereist, tekenreeks): de waarde die u uit het dialoogvenster wilt verwijderen `lv` argument. Adobe raadt u af meerdere waarden tijdens één bewerking te verwijderen `rfl` vraag.
+* **`d1`** (optioneel, tekenreeks): het scheidingsteken dat de `lv` argument gebruikt. Heeft als standaardwaarde een komma (`,`).
+* **`d2`** (optioneel, tekenreeks): het scheidingsteken dat u wilt gebruiken voor de geretourneerde tekenreeks. Heeft als standaardwaarde dezelfde waarde als de `d1` argument.
+* **`df`** (optioneel, Boolean): Indien `true`, dwingt alleen dubbele instanties van de `vr` argument van de `lv` in plaats van alle instanties. Standaardwaarden: `false` wanneer niet ingesteld.
 
-Als deze functie wordt aangeroepen, wordt een gewijzigde tekenreeks geretourneerd die de `lv` -argument, maar zonder instanties (of dubbele instanties) van de waarde die is opgegeven in het dialoogvenster `vr` argument.
+Als deze functie wordt aangeroepen, wordt een gewijzigde tekenreeks geretourneerd die de `lv` , maar zonder instanties (of dubbele instanties) van de waarde die is opgegeven in het dialoogvenster `vr` argument.
 
 ## Voorbeelden van aanroepen
 
@@ -85,13 +86,13 @@ Indien...
 s.events = "event22,event24,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events,"event24");
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "event22,event25";
@@ -105,13 +106,13 @@ Indien...
 s.events = "event22,event24,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events,"event26");
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "event22,event24,event25";
@@ -127,19 +128,19 @@ Indien...
 s.events = "event22,event24,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events);
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "";
 ```
 
-Indien `lv` argument of `vr` argument is leeg in een `rfl` roept, dan keert de stop-binnen niets terug.
+Als een van de `lv` argument of `vr` argument is leeg in een `rfl` en retourneert de plug-in niets.
 
 ### Voorbeeld 4
 
@@ -149,7 +150,7 @@ Indien...
 s.prop4 = "hello|people|today";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.eVar5 = rfl(s.prop4,"people","|");
@@ -161,13 +162,13 @@ s.eVar5 = rfl(s.prop4,"people","|");
 s.prop4 = "hello|people|today";
 ```
 
-...maar de uiteindelijke waarde van s.eVar5 is :
+...maar de uiteindelijke waarde van s.eVar5 is:
 
 ```js
 s.eVar5 = "hello|today";
 ```
 
-Houd er rekening mee dat de insteekmodule alleen een waarde retourneert. de variabele die wordt doorgegeven via het dialoogvenster `lv` argument.
+Houd er rekening mee dat de insteekmodule alleen een waarde retourneert; de variabele die door de `lv` argument.
 
 ### Voorbeeld 5
 
@@ -177,7 +178,7 @@ Indien...
 s.prop4 = "hello|people|today";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.prop4 = rfl(s.prop4,"people");
@@ -199,13 +200,13 @@ Indien...
 s.events = "event22,event23,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events,"EVenT23");
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "event22,event23,event25";
@@ -221,13 +222,13 @@ Indien...
 s.events = "event22,event23:12345,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events,"event23");
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "event22,event25";
@@ -241,13 +242,13 @@ Indien...
 s.events = "event22,event23:12345,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events,"event23:12345");
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "event22,event23:12345,event25";
@@ -263,13 +264,13 @@ Indien...
 s.events = "event22,event23,event23,event23,event24,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events,"event23");
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "event22,event24,event25");
@@ -283,19 +284,19 @@ Indien...
 s.events = "event22,event23,event23,event23,event24,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events,"event23", "", "",true);
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "event22,event23,event24,event25");
 ```
 
-### Voorbeeld 11
+### Voorbeeld #11
 
 Indien...
 
@@ -303,13 +304,13 @@ Indien...
 s.events = "event22,event23,event23,event23,event24,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events,"event23", "", "|",true);
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "event22|event23|event24|event25");
@@ -323,13 +324,13 @@ Indien...
 s.events = "event22,event23,event24,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events,"event23,event24");
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "event22,event23,event24,event25";
@@ -345,14 +346,14 @@ Indien...
 s.events = "event22,event23,event24,event25";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.events = rfl(s.events,"event23");
 s.events = rfl(s.events,"event24");
 ```
 
-...de uiteindelijke waarde van s.events zal zijn :
+...de uiteindelijke waarde van s.events is:
 
 ```js
 s.events = "event22,event25");
@@ -368,19 +369,19 @@ Indien...
 s.linkTrackVars = "events,eVar1,eVar2,eVar3";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 ```
 
-...de uiteindelijke waarde van s.linkTrackVars is:
+...de definitieve waarde van s.linkTrackVars zal zijn:
 
 ```js
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-De laatste drie argumenten (d.w.z. &quot;,&quot;,&quot;,&quot;, false) aan het einde van dit dialoogvenster `rfl` de vraag is niet noodzakelijk maar ook &quot; doet niets pijn &quot; door daar te zijn aangezien zij de standaardmontages aanpassen.
+De laatste drie argumenten (d.w.z. &quot;,&quot;,&quot;,&quot;, false) aan het einde van dit `rfl` de vraag is niet noodzakelijk maar ook &quot; doet niets pijn &quot; door daar te zijn aangezien zij de standaardmontages aanpassen.
 
 ### Voorbeeld 15
 
@@ -390,7 +391,7 @@ Indien...
 s.events = "event22,event23,event24";
 ```
 
-...en de volgende code wordt uitgevoerd...
+...en de volgende code loopt..
 
 ```js
 rfl(s.events,"event23");
@@ -402,7 +403,7 @@ rfl(s.events,"event23");
 s.events = "event22,event23,event24";
 ```
 
-Vergeet ook niet dat de insteekmodule alleen een waarde retourneert. de variabele die wordt doorgegeven via het dialoogvenster `lv` argument.
+Onthoud nogmaals dat de insteekmodule alleen een waarde retourneert; de variabele die door de `lv` argument.
 
 ## Versiehistorie
 
@@ -414,7 +415,7 @@ Vergeet ook niet dat de insteekmodule alleen een waarde retourneert. de variabel
 
 * Kleine bug-correctie voor de standaardwaarde van het scheidingsteken
 
-### 2.0 (16 april 2018)
+### 2.0 april 2018
 
 * Puntrelease (opnieuw gecompileerd, kleiner codeformaat).
 * De noodzaak van de `join` insteekmodule.

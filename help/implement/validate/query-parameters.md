@@ -1,23 +1,24 @@
 ---
-title: Queryparameters voor dataverzameling
+title: Query-parameters voor gegevensverzameling
 description: Vermeldt alle parameters van het vraagkoord die in beeldverzoeken worden gebruikt.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 5%
+source-wordcount: '722'
+ht-degree: 4%
 
 ---
 
-# Queryparameters voor dataverzameling
+# Query-parameters voor gegevensverzameling
 
-De volgende lijst maakt een lijst van alle parameters van het vraagkoord Adobe gebruikt in beeldverzoeken. Deze informatie kan worden gebruikt bij foutopsporing met [Pakketanalysatoren](packet-monitor.md), wanneer [hardwarematige afbeeldingsverzoeken](../other/hardcoded.md)of bij gebruik [Dynamische variabelen](../vars/page-vars/dynamic-variables.md).
+De volgende tabel bevat een lijst met alle parameters voor queryreeksen die door de Adobe worden gebruikt in afbeeldingsaanvragen. Deze informatie kan worden gebruikt bij foutopsporing met [Pakketanalysatoren](packet-monitor.md), wanneer [hardwarematige afbeeldingsverzoeken](../other/hardcoded.md)of bij gebruik [Dynamische variabelen](../vars/page-vars/dynamic-variables.md).
 
 | Parameter | Variabele voor analytische implementatie | Beschrijving |
 | --- | --- | --- |
-| `aamlh` | Geen | Tip voor locatie van Audience Manager. Wordt gebruikt bij de Experience Cloud-integratie van gedeeld profiel. |
-| `aamb` | Geen | Audience Manager blob. Wordt gebruikt bij de Experience Cloud-integratie van gedeeld profiel. |
+| `aamlh` | Geen | Tip voor locatie van Audience Manager. Wordt gebruikt bij de integratie van Experience Cloud Shared Profile. |
+| `aamb` | Geen | Audience Manager. Wordt gebruikt bij de integratie van Experience Cloud Shared Profile. |
 | `aid` | Geen | Analytische bezoeker-id. |
 | `AQB` | Geen | Geeft het begin van een queryreeks voor een afbeeldingsaanvraag aan. |
 | `AQE` | Geen | Geeft het einde van een afbeeldingsaanvraag aan, wat betekent dat de aanvraag niet is afgekapt. |
@@ -46,10 +47,10 @@ De volgende lijst maakt een lijst van alle parameters van het vraagkoord Adobe g
 | `hp` | Geen | Niet meer gebruikt. In vorige versies van Adobe Analytics, bepaalde als huidige URL de homepage van browser was. |
 | `j` | Geen | De JavaScript-versie die in de browser is geïnstalleerd. |
 | `k` | Geen | Gebruikt in de [Cookie-ondersteuning](/help/components/dimensions/cookie-support.md) dimensie. |
-| `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | Lijstvariabelen. |
+| `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | Variabelen weergeven. |
 | `lrt` | Geen | De &quot;laatste verzoektiming,&quot;die de roundtrip tijd voor het laatste verzoek, in milliseconden is. Deze wordt alleen verzonden wanneer meerdere aanvragen van een pagina worden verzonden of wanneer de pagina een toepassing van één pagina is (SPA). |
-| `mid` | Geen | Experience Cloud bezoeker-id. |
-| `ndh` | Geen | Markering die aangeeft of de afbeeldingsaanvraag afkomstig is van AppMeasurement. |
+| `mid` | Geen | Experience Cloud-bezoeker-id. |
+| `ndh` | Geen | Markering die aangeeft of de afbeeldingsaanvraag afkomstig is van een AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Hiermee kunt u bepalen waar cookies worden ingesteld. |
 | `oid` | [`s_objectID`](../vars/page-vars/s-objectid.md) | Object-id voor de laatste pagina. Wordt gebruikt in de Activity Map. |
 | `ot` | Geen | Objectnaam voor de laatste pagina. Wordt gebruikt in vorige versies van Activity Map. |
@@ -60,8 +61,8 @@ De volgende lijst maakt een lijst van alle parameters van het vraagkoord Adobe g
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Bepaalt het type aangepaste koppeling. Vereist voor [Aangepaste koppelingen](/help/components/dimensions/custom-link.md), [Koppelingen downloaden](/help/components/dimensions/download-link.md), en [Koppelingen afsluiten](/help/components/dimensions/exit-link.md). |
 | `pev1` | Geen | De URL waarop de aangepaste koppeling is opgetreden. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Aangepaste naam voor koppelingsvriendelijk. |
-| `pev3` | Geen | Niet meer gebruikt. Bijgehouden mijlpalen in vorige versies van videoverslag. |
-| `pf` | Geen | markering van het Platform; uitsluitend voor gebruik door Adobe. Niet wijzigen. |
+| `pev3` | Geen | Niet meer gebruikt. Bijgehouden mijlpalen in vorige versies van videorapportage. |
+| `pf` | Geen | Perronmarkering; alleen voor gebruik door de Adobe. Niet wijzigen. |
 | `pid` | Geen | Pagina-id voor laatste pagina. Wordt gebruikt in vorige versies van Activity Map. |
 | `pidt` | Geen | Type pagina-id voor laatste pagina. Wordt gebruikt in vorige versies van Activity Map. |
 | `pl` | [`products`](../vars/page-vars/products.md) | Shorthand voor de `products` queryreeks. |

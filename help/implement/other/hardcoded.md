@@ -3,16 +3,17 @@ title: Implementeren met hardwarematige verzoeken voor afbeeldingen
 description: Adobe Analytics implementeren met een HTML-afbeeldingstag (aanvraag voor een hardcoded afbeelding)
 feature: Implementation Basics
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
 # Implementeren met hardwarematige verzoeken voor afbeeldingen
 
-AppMeasurement-bibliotheken die door Adobe worden aangeboden, compileren variabelen die op de pagina aanwezig zijn en verzenden deze vervolgens als een afbeeldingsaanvraag naar Adobe. U kunt AppMeasurement-bibliotheken volledig overslaan en handmatig een afbeeldingsaanvraag naar Adobe verzenden. Deze methode vereist dat u de afbeeldingsaanvraag en queryreeks handmatig formuleert.
+De bibliotheken van het AppMeasurement die door Adobe worden verstrekt compileren variabelen aanwezig op de pagina, dan verzenden hen als beeldverzoek aan Adobe. U kunt de bibliotheken van het AppMeasurement volledig overslaan en manueel een beeldverzoek naar Adobe verzenden. Deze methode vereist dat u de afbeeldingsaanvraag en queryreeks handmatig formuleert.
 
 Deze implementatiemethode kan worden gebruikt op elk platform waarop afbeeldingen van externe bronnen worden weergegeven. Er wordt helemaal geen gebruik gemaakt van JavaScript.
 
@@ -30,9 +31,9 @@ Hier volgt een voorbeeld van een hardcoded afbeeldingsaanvraag met gebruik van H
 
 * `https://` wijst het protocol aan. Pas het protocol dat in het beeldverzoek wordt gebruikt aan het protocol aan dat de rest van uw plaats gebruikt.
 * `example.data.adobedc.net` is de waarde in de [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variabele.
-* `/b/ss/` wordt opgenomen in alle verzoeken om afbeeldingen. Het maakt deel uit van de bestandsstructuur voor afbeeldingen die zijn opgeslagen op Adobe-gegevensverzamelingsservers.
+* `/b/ss/` wordt opgenomen in alle verzoeken om afbeeldingen. Het maakt deel uit van de bestandsstructuur voor afbeeldingen die zijn opgeslagen op Adobe gegevensverzamelingsservers.
 * `examplersid` is de rapportsuite-id waarnaar u gegevens wilt verzenden. Voor veelvoudige rapportreeksen, scheidt identiteitskaart met komma&#39;s en geen ruimten (zoals `examplersid1,examplersid2` enzovoort).
-* `/1/` is de aanraakbron. Zie `hit_source` krachtens [Referentie gegevenskolom](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) in de gebruikershandleiding bij Exporteren. Hiermee bepaalt u de volgorde die cookies en andere methoden gebruiken om bezoekers te identificeren.
+* `/1/` is de aanraakbron. Zie `hit_source` krachtens [Referentie gegevenskolom](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) in de gebruikershandleiding voor exporteren. Hiermee bepaalt u de volgorde die cookies en andere methoden gebruiken om bezoekers te identificeren.
 * `/s234234238479` (`"s"` + een willekeurig getal) voorkomt dat de browser de afbeeldingsaanvraag in de cache plaatst.
 * Alles na het scheidingsteken voor de queryreeks (`?`) is gegevens die u wilt opnemen in rapporten. Zie [Query-parameters voor gegevensverzameling](../validate/query-parameters.md) voor de volledige lijst van parameters u in een beeldverzoek kunt omvatten.
 
@@ -46,7 +47,7 @@ Aangezien de meeste e-mails op HTML zijn gebaseerd, is het mogelijk om geopende 
 Een Outlook-e-mailbericht samenstellen dat een verzoek om een afbeelding bevat:
 
 1. Open een HTML-editor. Als er geen HTML-editor beschikbaar is, werkt ook een normale teksteditor.
-2. Voeg in een nieuw HTML-bestand een aanvraag voor een gecodeerde afbeelding in `<img>` tag verpakt in een `<body>` tag.
+2. Voeg in een nieuw HTML-bestand een aanvraag voor een gecodeerde afbeelding in `<img>` tag verpakt in een `<body>` -tag.
 3. Sla het HTML-bestand op.
 4. Open Microsoft Outlook en stel een e-mailbericht samen.
 5. Ga naar het tabblad Invoegen en klik op **Bestand bijvoegen**. Selecteer het HTML-bestand voor de aanvraag voor een afbeelding.
@@ -70,4 +71,4 @@ Zie [HTML URL-coderingsverwijzing](https://www.w3schools.com/tags/ref_urlencode.
 
 ### Wat is het maximum aantal tekens dat één waarde kan bevatten?
 
-Elke variabele heeft een andere maximumlengte. De meeste verkeersvariabelen houden tot 100 bytes, terwijl de meeste omzettingsvariabelen tot 255 bytes houden. Wanneer een afbeeldingsaanvraag gegevensverzamelingsservers bereikt, verlaagt Adobe deze waarden automatisch tot de maximale lengte.
+Elke variabele heeft een andere maximumlengte. De meeste verkeersvariabelen houden tot 100 bytes, terwijl de meeste omzettingsvariabelen tot 255 bytes houden. Wanneer een afbeeldingsaanvraag gegevensverzamelingsservers bereikt, worden deze waarden door de Adobe automatisch tot de maximale lengte ingekort.

@@ -3,10 +3,11 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '2362'
-ht-degree: 2%
+source-wordcount: '2614'
+ht-degree: 5%
 
 ---
 
@@ -95,7 +96,7 @@ Releasedatum: **13 februari 2020**
 
 ## Versie 2.17.0
 
-Releasedatum: **23 augustus 2019**
+Releasedatum: **zaterdag 23 augustus 2019**
 
 * Toegevoegde ondersteuning voor herschikking van Baidu-queryreeks. (AN-182483)
 * Probleem verholpen dat storende bezoekerswaarden veroorzaakte in hits die in de wachtrij stonden terwijl werd gewacht op aanmelden. (AN-184391)
@@ -195,7 +196,7 @@ Rebundle Visitor API 3.1.0 (AN-159524), die de hotfixes bevat: (CORE-11390, CORE
 
 ## Versie 2.7.0
 
-Releasedatum: **18 januari 2018**
+Releasedatum: **vrijdag 18 januari 2018**
 
 * Ondersteuning voor IE 6 tot en met 9
 * Opname van de Bezoeker-API v3.0.0
@@ -203,41 +204,41 @@ Releasedatum: **18 januari 2018**
 
 ## Versie 2.6.0
 
-Releasedatum: **9 november 2017**
+Releasedatum: **vrijdag 9 november 2017**
 
 Probleem verholpen waarbij [!DNL AppMeasurement] de bibliotheek plaatst niet altijd de correcte rekeningscombinatie wanneer s_gl wordt geroepen. (AN-152153)
 
 ## Versie 2.5.0
 
-Releasedatum: **21 september 2017**
+Releasedatum: **vrijdag 21 september 2017**
 
 * Opname van [!DNL dil.js 6.12] ( [!DNL Audience Manager] module)
 * Opname van de Bezoeker-API 2.5.0.
 
 ## Versie 2.4.0
 
-Releasedatum: **17 augustus 2017**
+Releasedatum: **vrijdag 17 augustus 2017**
 
 * Inclusief dil.js v6.11
 * Inclusief bezoeker-API 2.4.0
 
 ## Versie 2.3.0
 
-Releasedatum: **20 juli 2017**
+Releasedatum: **vrijdag 20 juli 2017**
 
 * Vaste bug waarbij `s.Util.getQueryParam` vastgelegd `#`
 * Toegevoegd v6.10 van `dil.js` (AN-145701)
 
 ## Versie 2.2.0
 
-Releasedatum: **8 juni 2017**
+Releasedatum: **vrijdag 8 juni 2017**
 
 * Extra ondersteuning voor meerdere [!DNL AppMeasurement] instantiatievolgorde. (AN-138237)
 * Opname van versie 2.2.0 Bezoeker-API. (AN-144042)
 
 ## Versie 2.1.0
 
-Releasedatum: **20 april 2017**
+Releasedatum: **vrijdag 20 april 2017**
 
 * Meest recente versie van `dil.js` (AN-140396)
 * Extra ondersteuning voor `adobe_mc_ref` parameter die de paginaverwijzing overschrijft. (AN-131920)
@@ -247,14 +248,14 @@ Releasedatum: **20 april 2017**
 
 ## Versie 2.0.0
 
-Releasedatum: **9 maart 2017**
+Releasedatum: **vrijdag 9 maart 2017**
 
 * Verplaatst naar een nieuw bouwstijlproces dat een update van het versieaantal aan 2.0.0 vereist. (AN-137878)
 * Verplaatst mboxMCSDID behandeling in de correcte sectieplaats waar de volgende vraag wordt gemaakt. (AN-138483)
 
 ## Versie 1.8.0
 
-Releasedatum: **19 januari 2017**
+Releasedatum: **vrijdag 19 januari 2017**
 
 * Include VisitorAPI 2.0.0
 * Herhaalde functieaanroepen en controles zodat SDID wordt verbruikt nadat de afbreekcontrole is voltooid. (AN-134364)
@@ -262,7 +263,7 @@ Releasedatum: **19 januari 2017**
 
 ## Versie 1.7.0
 
-Bijgewerkt: **11 november 2016**
+Bijgewerkt: **zaterdag 11 november 2016**
 
 * Inclusief Bezoeker-API 1.10.1.
 * Bijwerken [!DNL Audience Manager] met Demdex Integration Library (DIL) 6.6. (AN-132065)
@@ -272,7 +273,7 @@ Bijgewerkt: **11 november 2016**
 
 ## Versie 1.6.4
 
-Bijgewerkt: **18 augustus 2016**
+Bijgewerkt: **vrijdag 18 augustus 2016**
 
 * Bijgewerkt [!DNL AppMeasurement] voor het lezen en schrijven van AMCV-cookies. (AN-127098)
 * Opname van de Bezoeker-API 1.7.0.
@@ -283,7 +284,7 @@ Bijgewerkt: **18 augustus 2016**
 
 ## Versie 1.6.3
 
-Bijgewerkt: **4 augustus 2016**
+Bijgewerkt: **vrijdag 4 augustus 2016**
 
 * Probleem verholpen waarbij [!DNL AppMeasurement] vroegtijdig beëindigde verzoekverbindingen. (AN-126448)
 
@@ -301,7 +302,7 @@ Releasedatum: **21 juli 2016**
 
 ## Versie 1.6.1
 
-Releasedatum: **16 juni 2016**
+Releasedatum: **vrijdag 16 juni 2016**
 
 * Opname van de Bezoeker-API 1.5.7.
 * Probleem verholpen met het volgen van koppelingen in Firefox die de gebeurtenis complete niet hebben geactiveerd.

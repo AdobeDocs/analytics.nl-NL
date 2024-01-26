@@ -3,14 +3,15 @@ title: getValOnce
 description: Voorkomen dat een variabele Analytics tweemaal achter elkaar op dezelfde waarde wordt ingesteld.
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: getValOnce
+# Adobe-insteekmodule: getValOnce
 
 {{plug-in}}
 
@@ -18,7 +19,7 @@ De `getValOnce` voorkomt dat een variabele meerdere keren op dezelfde waarde wor
 
 ## De plug-in installeren met de extensie Web SDK
 
-Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
+De Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
@@ -26,7 +27,7 @@ Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte s
 1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
 1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
 1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
-   * Extensie: Algemene insteekmodules voor Web SDK
+   * Extension: Common Web SDK-plug-ins
    * Gegevenselement: `getValOnce`
 1. Stel de gewenste parameters rechts in.
 1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
@@ -37,18 +38,18 @@ Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige imp
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
-   * Type handeling: getValOnce initialiseren
+   * Extensie: veelgebruikte plug-ins voor Analytics
+   * Type handeling: Initialize getValOnce
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
 ## Plug-in installeren met aangepaste code-editor
@@ -62,9 +63,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -77,10 +78,10 @@ function getValOnce(vtc,cn,et,ep){var e=vtc,i=cn,t=et,n=ep;  if(arguments&&"-v"=
 
 De `getValOnce` function gebruikt de volgende argumenten:
 
-* **`vtc`** (vereist, tekenreeks): De variabele die moet worden gecontroleerd en gecontroleerd of deze eerder is ingesteld op een identieke waarde
+* **`vtc`** (vereist, tekenreeks): De variabele die gecontroleerd moet worden en controleert of deze eerder is ingesteld op een identieke waarde
 * **`cn`** (optioneel, tekenreeks): De naam van het cookie dat de te controleren waarde bevat. Standaardwaarden: `"s_gvo"`
 * **`et`** (optioneel, geheel getal): De vervaldatum van de cookie in dagen (of minuten, afhankelijk van de `ep` argument). Standaardwaarden: `0`, die aan het einde van de browsersessie verloopt
-* **`ep`** (optioneel, tekenreeks): Stel dit argument alleen in als de `et` argument is ook ingesteld. Stel dit argument in op `"m"` als u de `et` argument om in minuten in plaats van dagen te verlopen. Standaardwaarden: `"d"`, waarin de `et` argument in dagen.
+* **`ep`** (optioneel, tekenreeks): stel dit argument alleen in als de `et` argument is ook ingesteld. Stel dit argument in op `"m"` als u de `et` argument om in minuten in plaats van dagen te verlopen. Standaardwaarden: `"d"`, waarin de `et` argument in dagen.
 
 Als de `vtc` argument- en cookie-waarde komen overeen, deze functie retourneert een lege tekenreeks. Als de `vtc` argument- en cookie-waarde komen niet overeen, de functie retourneert de waarde `vtc` argument als tekenreeks.
 
@@ -107,15 +108,15 @@ s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 
 * Versienummer toegevoegd als contextgegevens.
 
-### 2.01
+### 2,01
 
-* Probleem verholpen met het schrijven van cookies.
+* Probleem met schrijven van cookies is opgelost.
 
-### 2.0
+### 2,0
 
 * Puntrelease (opnieuw gecompileerd, kleiner codeformaat).
 
-### 1.1
+### 1,1
 
 * De optie voor het kiezen van minuten of dagen voor het verlopen via de optie `t` parameter.
 * De reikwijdte van de `k` de variabele die wordt gebruikt om het tot stop-binnen slechts te beperken. Deze wijziging voorkomt mogelijke interferentie met andere code op de pagina.

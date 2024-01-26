@@ -1,16 +1,17 @@
 ---
-title: visitorID
+title: bezoekerID
 description: Gebruik een aangepaste bezoeker-id.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
-# visitorID
+# bezoekerID
 
 Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. De `visitorID` variabele heeft voorrang op alle andere methoden voor bezoekersidentificatie.
 

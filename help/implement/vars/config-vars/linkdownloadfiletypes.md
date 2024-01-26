@@ -3,16 +3,17 @@ title: linkDownloadFileTypes
 description: Bestandsextensies bepalen die automatisch worden bijgehouden als downloadkoppelingen.
 feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # linkDownloadFileTypes
 
-Wanneer [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) of [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) is ingeschakeld en een bezoeker klikt op een koppeling, controleert AppMeturement de URL van de koppeling op bestandstypeextensies. Als de koppeling-URL een bijbehorend bestandstype bevat, wordt automatisch een aanvraag voor een downloadkoppeling naar de afbeelding verzonden.
+Wanneer [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) of [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) is ingeschakeld en een bezoeker klikt op een koppeling, controleert het AppMeasurement de URL van de koppeling op bestandsextensies. Als de koppeling-URL een bijbehorend bestandstype bevat, wordt automatisch een aanvraag voor een downloadkoppeling naar de afbeelding verzonden.
 
 Gebruiken `linkDownloadFileTypes` om aan te passen welke bestandsextensies u wilt tellen als downloadkoppelingen.
 
@@ -59,7 +60,7 @@ Extensies downloaden is een lijst met bestandsextensies die een veld hebben om m
 
 Bestandsextensies aan de lijst toevoegen door tekst in te voeren in het veld en te klikken **[!UICONTROL Add]**. Bestandsextensies uit de lijst verwijderen door op de respectievelijke extensies te klikken **&#39;X&#39;** pictogram.
 
-## s.linkDownloadFileTypes in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
+## s.linkDownloadFileTypes in AppMeasurement en de de uitbreiding van de Analyse redacteur van de douanecode
 
 De `s.linkDownloadFileTypes` variabele is een tekenreeks met door komma&#39;s gescheiden bestandsextensies. Gebruik geen spaties.
 

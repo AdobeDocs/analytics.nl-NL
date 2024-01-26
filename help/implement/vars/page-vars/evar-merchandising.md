@@ -4,14 +4,15 @@ description: Aangepaste variabelen die aan afzonderlijke producten zijn gekoppel
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
-# eVar (Merchandising)
+# eVar (merchandising)
 
 *Deze Help-pagina beschrijft hoe u handelsversies van eVars kunt implementeren. Voor informatie over hoe het verhandelen van eVars als dimensie werkt, zie [eVars (Merchandising-dimensie)](/help/components/dimensions/evar-merchandising.md) in de gebruikershandleiding van Componenten.*
 
@@ -40,7 +41,7 @@ s.products = "Example category;Example product;1;5.99;event1=1;eVar1=Turtles";
 s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2;550;;eVar1=love birds";
 ```
 
-De waarde voor `eVar1` wordt toegewezen aan het product. Alle volgende succesgebeurtenissen die betrekking hebben op dit product, worden aan de waarde van de eVar gecrediteerd.
+De waarde voor `eVar1` wordt toegewezen aan het product. Alle volgende succesgebeurtenissen die betrekking hebben op dit product, worden aan de waarde eVar gecrediteerd.
 
 ### Productsyntaxis met de Web SDK
 
@@ -88,9 +89,9 @@ Het bovenstaande voorbeeldobject wordt naar Adobe Analytics verzonden als `";Bah
 
 ## Implementeren met syntaxis van conversievariabelen
 
-Conversievariabele Syntaxis wordt gebruikt wanneer de waarde van de eVar niet beschikbaar is om in te stellen in het dialoogvenster `products` variabele. Dit scenario betekent doorgaans dat de pagina geen context heeft van het kanaal voor handelsdoeleinden of de zoekmethode. In deze gevallen stelt u de variabele merchandising in voordat u de productpagina bereikt. De waarde blijft bestaan totdat de gebeurtenis binding plaatsvindt.
+De Syntaxis van de Veranderlijke van de Omzetting wordt gebruikt wanneer de waarde van de eVar niet beschikbaar aan reeks in `products` variabele. Dit scenario betekent doorgaans dat de pagina geen context heeft van het kanaal voor handelsdoeleinden of de zoekmethode. In deze gevallen stelt u de variabele merchandising in voordat u de productpagina bereikt. De waarde blijft bestaan totdat de gebeurtenis binding plaatsvindt.
 
-Wanneer de bindingsgebeurtenis die tijdens configuratie wordt geselecteerd voorkomt, wordt de persistente waarde van de eVar gekoppeld aan het product. Als `prodView` wordt opgegeven als de bindingsgebeurtenis, is de categorie Verkoop alleen gekoppeld aan de huidige productlijst op het moment dat de gebeurtenis plaatsvindt. Alleen volgende bindingsgebeurtenissen kunnen een eVar bijwerken die al aan een product is toegewezen.
+Wanneer de bindingsgebeurtenis die tijdens configuratie wordt geselecteerd voorkomt, wordt de persisted waarde van de eVar geassocieerd met het product. Als `prodView` wordt opgegeven als de bindingsgebeurtenis, is de categorie Verkoop alleen gekoppeld aan de huidige productlijst op het moment dat de gebeurtenis plaatsvindt. Alleen volgende bindingsgebeurtenissen kunnen een eVar bijwerken die al aan een product is toegewezen.
 
 ```js
 // Place on the same or previous page before the binding event:
@@ -101,10 +102,10 @@ s.events = "prodView";
 s.products = ";Canary";
 ```
 
-De waarde `"Aviary"` for `eVar1` is toegewezen aan het product `"Canary"`. Alle volgende succesgebeurtenissen die betrekking hebben op dit product, worden gecrediteerd aan `"Canary"`. Bovendien is de huidige waarde van de variabele koophandel aan alle volgende producten gebonden totdat aan een van de volgende voorwaarden is voldaan:
+De waarde `"Aviary"` for `eVar1` is toegewezen aan het product `"Canary"`. Alle volgende succesgebeurtenissen die betrekking hebben op dit product, worden gecrediteerd aan `"Canary"`. Bovendien is de huidige waarde van de variabele voor handelsdoeleinden aan alle volgende producten gekoppeld totdat aan een van de volgende voorwaarden is voldaan:
 
 * De eVar verloopt (op basis van de instelling &#39;Verlopen na&#39;)
-* De eVar wordt overschreven door een nieuwe waarde.
+* De eVar voor handelswaar wordt overschreven door een nieuwe waarde.
 
 ### De veranderlijke syntaxis van de omzetting gebruikend Web SDK
 

@@ -1,16 +1,17 @@
 ---
 title: getTimeToComplete
-description: Meet de tijd die u nodig hebt om een taak te voltooien.
+description: Meet de hoeveelheid tijd die u nodig hebt om een taak te voltooien.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: getTimeToComplete
+# Adobe-insteekmodule: getTimeToComplete
 
 {{plug-in}}
 
@@ -22,18 +23,18 @@ Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
-   * Type handeling: getTimeToComplete initialiseren
+   * Extensie: veelgebruikte plug-ins voor Analytics
+   * Type handeling: Initialize getTimeToComplete
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
 ## Plug-in installeren met aangepaste code-editor
@@ -47,9 +48,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,9 +64,9 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 De `getTimeToComplete` function gebruikt de volgende argumenten:
 
 * **`sos`** (optioneel, tekenreeks): Instellen op `"start"` wanneer u de timer wilt starten. Instellen op `"stop"` wanneer u de timer wilt stoppen. Standaardwaarden: `"start"`.
-* **`cn`** (optioneel, tekenreeks): De naam van het cookie waarin de begintijd wordt opgeslagen. Standaardwaarden: `"s_gttc"`.
-* **`exp`** (optioneel, geheel getal): Het aantal seconden, uren of dagen (afhankelijk van de `tp` time-parting argument) dat het koekje (en tijdopnemer) verloopt. Wordt standaard ingesteld op 30 minuten.
-* **`tp`** (optioneel, tekenreeks): De time-parting-tekenreeks die de cookie (en timer) vervalt en die wordt gebruikt met de `exp` argument. Stel in op &quot;d&quot; voor dagen, &quot;h&quot; voor uren of &quot;s&quot; voor seconden. Als deze niet is ingesteld, wordt de vervaldatum van het cookie (en de timer) standaard ingesteld op 30 minuten, ongeacht wat de waarde `exp` argument is ingesteld op.
+* **`cn`** (optioneel, tekenreeks): De naam van het cookie dat de begintijd moet opslaan. Standaardwaarden: `"s_gttc"`.
+* **`exp`** (optioneel, geheel getal): Het aantal seconden, uren of dagen (afhankelijk van het `tp` time-parting argument) dat het koekje (en tijdopnemer) verloopt. Wordt standaard ingesteld op 30 minuten.
+* **`tp`** (optioneel, tekenreeks): de tijdparterende tekenreeks die de cookie (en timer) vervalt en die wordt gebruikt met de `exp` argument. Stel in op &quot;d&quot; voor dagen, &quot;h&quot; voor uren of &quot;s&quot; voor seconden. Als deze niet is ingesteld, wordt de vervaldatum van het cookie (en de timer) standaard ingesteld op 30 minuten, ongeacht wat de waarde `exp` argument is ingesteld op.
 
 Als deze functie wordt aangeroepen, wordt een tekenreeks geretourneerd die het aantal dagen, uren, minuten en/of seconden bevat dat nodig was tussen de `"start"` en `"stop"` handeling.
 
@@ -105,7 +106,7 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 ### 3.0 (17 april 2018)
 
 * Puntrelease (opnieuw gecompileerd, kleiner codeformaat).
-* Kleine correcties.
+* Kleine oplossingen voor problemen.
 
 ### (2 juni 2016)
 

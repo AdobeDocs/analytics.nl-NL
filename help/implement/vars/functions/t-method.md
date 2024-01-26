@@ -1,18 +1,19 @@
 ---
 title: t
-description: Verzend een vraag van de paginamening het volgen aan Adobe.
+description: Verzend een pagina mening het volgen vraag aan Adobe.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
 # t()
 
-De `t()` Deze methode is een belangrijk kernonderdeel van Adobe Analytics. Het neemt alle variabelen die van Analytics op de pagina worden bepaald, compileert hen in een beeldverzoek, en verzendt die gegevens naar de servers van de Adobe- gegevensinzameling.
+De `t()` Deze methode is een belangrijk kernonderdeel van Adobe Analytics. Het neemt alle variabelen die van Analytics op de pagina worden bepaald, compileert hen in een beeldverzoek, en verzendt die gegevens naar de servers van de de gegevensinzameling van de Adobe.
 
 Neem bijvoorbeeld de volgende JavaScript-code:
 
@@ -34,7 +35,7 @@ De `t()` Alle gedefinieerde variabelen voor Analytics worden gebruikt en op basi
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 ```
 
-Adobe ontvangt het beeldverzoek, dan ontleedt de verzoekkopbal, URL, en de parameters van het vraagkoord. Servers voor gegevensverzameling retourneren vervolgens een transparante afbeelding van 1 x 1 pixels, die onzichtbaar op uw site wordt weergegeven.
+De Adobe ontvangt het beeldverzoek, dan ontleedt de verzoekkopbal, URL, en de parameters van het vraagkoord. Servers voor gegevensverzameling retourneren vervolgens een transparante afbeelding van 1 x 1 pixels, die onzichtbaar op uw site wordt weergegeven.
 
 ## Gebeurtenis verzenden met de Web SDK-extensie
 
@@ -48,7 +49,7 @@ Gebruik een handeling om het verzenden van XDM-gebeurtenisgegevens naar Adobe te
 
 ## Gebeurtenis handmatig verzenden met implementatie van de Web SDK
 
-Gebruik de `sendEvent` gebruiken om gegevens naar Adobe te verzenden. De DataStream ontvangt deze gegevens, past om het even welke gevormde afbeeldingen toe, en door:sturen die gegevens aan Adobe Analytics als het de toegevoegde dienst aan die DataStream is.
+Gebruik de `sendEvent` gebruiken om gegevens naar de Adobe te verzenden. De DataStream ontvangt deze gegevens, past om het even welke gevormde afbeeldingen toe, en door:sturen die gegevens aan Adobe Analytics als het de toegevoegde dienst aan die DataStream is.
 
 ```js
 alloy("sendEvent", {

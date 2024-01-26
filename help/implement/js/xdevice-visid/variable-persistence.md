@@ -4,9 +4,10 @@ keywords: Analyseimplementatie
 title: Toewijzing en persistentie
 feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Wanneer bezoekersprofielen worden samengevoegd nadat ze zijn gekoppeld aan dezelfde variabele voor de bezoekersidentiteitskaart, wordt de toewijzing niet gewijzigd in de historische gegevensset.
 
-* Wanneer de variabele `s.visitorID` wordt ingesteld en verzonden bij een treffer, controleert Adobe of er andere bezoekersprofielen zijn die een overeenkomende bezoeker-id hebben.
+* Wanneer de variabele `s.visitorID` wordt ingesteld en verzonden bij een treffer, controleert de Adobe of er andere bezoekersprofielen zijn die een overeenkomende bezoeker-id hebben.
 * Als er een profiel bestaat, wordt het bezoekersprofiel dat al in het systeem is, vanaf dat punt gebruikt en wordt het vorige bezoekersprofiel niet meer gebruikt.
 * Als er geen overeenkomende bezoeker-id wordt gevonden, wordt een nieuw profiel gemaakt.
 
@@ -30,18 +31,18 @@ Wanneer een niet-geverifieerde klant voor het eerst op uw site arriveert, wordt 
 In het onderstaande voorbeeld ziet u hoe gegevens naar Adobe Analytics worden verzonden wanneer een klant voor het eerst op het eerste apparaat verifieert:
 
 * `eVar16` heeft een vervaldatum van 1 dag en `evar17` verloopt tijdens het bezoek.
-* De `post_visitor_id` de kolom staat voor het profiel dat door Adobe Analytics wordt onderhouden. Post-kolommen worden doorgaans weergegeven in gegevensfeeds. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding bij Exporteren.
+* De `post_visitor_id` de kolom staat voor het profiel dat door Adobe Analytics wordt onderhouden. Post-kolommen worden doorgaans weergegeven in gegevensfeeds. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding voor exporteren.
 * De `post_evar16` en `post_evar17` uit de kolommen blijkt dat eVars blijven bestaan.
-* `cust_visid` vertegenwoordigt een waarde die is ingesteld in `s.visitorID`.
+* `cust_visid` vertegenwoordigt een waarde ingesteld in `s.visitorID`.
 * Elke rij is één &#39;hit&#39;, één aanvraag die naar Adobe Analytics-servers voor gegevensverzameling wordt verzonden.
 
 ![Voorbeeld 1 van een ander apparaat](assets/xdevice_first.jpg)
 
-Bij de eerste gegevensverbinding met een eerder niet-herkende verbinding `s.visitorID` value (`u999` hierboven), wordt een nieuw profiel gemaakt. Persistente waarden uit het vorige profiel worden overgebracht naar het nieuwe profiel.
+Bij de eerste gegevensverbinding met een eerder niet-herkende `s.visitorID` value (`u999` hierboven), wordt een nieuw profiel gemaakt. Persistente waarden uit het vorige profiel worden overgebracht naar het nieuwe profiel.
 
 * Vars die tijdens het bezoek verlopen, worden niet naar het geverifieerde profiel gekopieerd. De waarde noteren `car` bovenstaande is niet blijvend.
 * Waarden die door andere maatregelen vervallen, worden naar het geverifieerde profiel gekopieerd. De waarde noteren `apple` blijft bestaan.
-* Voor de eVars die worden voortgeduurd, wordt geen metrische instantie geregistreerd. Dit betekent wanneer het gebruiken van de identificatie van de dwars-apparatenbezoeker, het mogelijk is om rapporten te zien waar de Unieke metrische Bezoek voor een waarde van eVar groter is dan metrische Instantie.
+* Voor de eVars die worden voortgeduurd, wordt geen metrische instantie geregistreerd. Dit betekent wanneer het gebruiken van de identificatie van de dwars-apparatenbezoeker, het mogelijk is om rapporten te zien waar de Unieke metrische bezoeken voor een waarde van eVar groter is dan metrisch van de Instantie.
 
 >[!NOTE]
 >

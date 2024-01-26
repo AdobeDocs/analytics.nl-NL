@@ -3,24 +3,25 @@ title: getQueryParam
 description: Haal de waarde van de parameter van het vraagkoord van een URL uit.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: getQueryParam
+# Adobe plug-in: getQueryParam
 
 {{plug-in}}
 
 De `getQueryParam` Met de insteekmodule kunt u de waarde extraheren van elke parameter voor queryreeksen in een URL. Het is nuttig om campagnecodes, zowel intern als extern, uit het landen van pagina URLs te halen. Het is ook nuttig wanneer het halen van onderzoekstermijnen of andere parameters van het vraagkoord.
 
-Deze plug-in biedt robuuste functies voor het parseren van complexe URL&#39;s, waaronder hashes en URL&#39;s die meerdere parameters voor queryreeksen bevatten. Als u slechts eenvoudige de parameterbehoeften van het vraagkoord hebt, adviseert Adobe het gebruiken van de URL parametereigenschappen gebruikend het Web SDK of de uitbreiding van Adobe Analytics of [`Util.getQueryParam()`](../functions/util-getqueryparam.md) methode die is opgenomen in AppMeasurement.
+Deze plug-in biedt robuuste functies voor het parseren van complexe URL&#39;s, waaronder hashes en URL&#39;s die meerdere parameters voor queryreeksen bevatten. Als u slechts eenvoudige de parameterbehoeften van het vraagkoord hebt, adviseert de Adobe het gebruiken van de URL parametereigenschappen gebruikend het Web SDK of de uitbreiding van Adobe Analytics of [`Util.getQueryParam()`](../functions/util-getqueryparam.md) in het AppMeasurement.
 
 ## De plug-in installeren met de extensie Web SDK
 
-Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
+De Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
@@ -28,7 +29,7 @@ Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte s
 1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
 1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
 1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
-   * Extensie: Algemene insteekmodules voor Web SDK
+   * Extension: Common Web SDK-plug-ins
    * Gegevenselement: `getQueryParam`
 1. Stel de gewenste parameters rechts in.
 1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
@@ -39,17 +40,17 @@ Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige imp
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Extensie: veelgebruikte plug-ins voor Analytics
    * Type handeling: getQueryParam initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -75,8 +76,8 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 De `getQueryParam` function gebruikt de volgende argumenten:
 
-* **`qsp`** (vereist): Een door komma&#39;s gescheiden lijst met parameters voor queryreeksen die moet worden gezocht binnen de URL. Het is niet hoofdlettergevoelig.
-* **`de`** (optioneel): Het scheidingsteken dat moet worden gebruikt als meerdere parameters van queryreeksen overeenkomen. Heeft als standaardwaarde een lege tekenreeks.
+* **`qsp`** (vereist): Een door komma&#39;s gescheiden lijst met parameters voor queryreeksen die binnen de URL moet worden gezocht. Het is niet hoofdlettergevoelig.
+* **`de`** (optioneel): Het scheidingsteken dat moet worden gebruikt als meerdere parameters van de queryreeks overeenkomen. Heeft als standaardwaarde een lege tekenreeks.
 * **`url`** (optioneel): Een aangepaste URL, tekenreeks of variabele waaruit de parameterwaarden voor de queryreeks moeten worden geëxtraheerd. Standaardwaarden: `window.location`.
 
 Als deze functie wordt aangeroepen, wordt een waarde geretourneerd die afhankelijk is van de bovenstaande argumenten en de URL:
@@ -159,18 +160,18 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 * Compatibel met zowel H-code als AppMeasurement (vereist `s.pt` met AppMeasurement).
 
-### 2.4
+### 2,4
 
 * De `h` parameter, waardoor de code kan zoeken naar parameters van queryreeksen die na de hash (`#`) teken
 
-### 2.3
+### 2,3
 
 * Probleem verholpen waarbij de insteekmodule alleen werkte toen de hash aanwezig was na de trackingcode. Dit probleem is nu opgelost.
 
-### 2.2
+### 2,2
 
 * Verwijdert nu hash-tekens (en alles daarna) uit de geretourneerde waarde
 
-### 2.1
+### 2,1
 
 * Compatibel met H.10-code

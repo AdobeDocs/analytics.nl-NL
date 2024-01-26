@@ -3,10 +3,11 @@ title: linkTrackVars
 description: Geef op welke variabelen u wilt opnemen in aanvragen voor het bijhouden van koppelingen.
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 2%
+source-wordcount: '331'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +23,7 @@ De SDK van het Web sluit bepaalde gebieden voor verbinding het volgen vraag niet
 
 ## Variabelen in koppelingsvolgaanroepen met de Adobe Analytics-extensie
 
-Deze variabele wordt automatisch ingevuld op de achtergrond op basis van variabelen die in de interface zijn ingesteld. De variabele wordt dus altijd ingesteld in implementaties met de Adobe Analytics-extensie.
+Deze variabele wordt automatisch ingevuld op de achtergrond op basis van variabelen die zijn ingesteld in de interface. De variabele wordt dus altijd ingesteld in implementaties met de Adobe Analytics-extensie.
 
 >[!IMPORTANT]
 >
@@ -32,14 +33,14 @@ Deze variabele wordt automatisch ingevuld op de achtergrond op basis van variabe
 
 De `s.linkTrackVars` variabele is een tekenreeks met een door komma&#39;s gescheiden lijst met variabelen die u wilt opnemen in aanvragen voor het bijhouden van koppelingen (`tl()` methode). Aan beide volgende criteria moet worden voldaan om afmetingen op te nemen in het volgen van koppelingen:
 
-* Stel de gewenste variabelewaarde in. Bijvoorbeeld, `s.eVar1 = "Example value";`.
-* Stel de gewenste variabele in het dialoogvenster `linkTrackVars` variabele. Bijvoorbeeld, `s.linkTrackVars = "eVar1";`.
+* Stel de gewenste variabelewaarde in. Bijvoorbeeld: `s.eVar1 = "Example value";`.
+* Stel de gewenste variabele in het dialoogvenster `linkTrackVars` variabele. Bijvoorbeeld: `s.linkTrackVars = "eVar1";`.
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 ```
 
-De standaardwaarde voor deze variabele is een lege tekenreeks. Nochtans, verstrekte Adobe code AppMeasurement in de Manager van de Code waar deze variabele aan wordt geplaatst `"None"`. Geldige waarden zijn variabelen op paginaniveau die een dimensie vullen.
+De standaardwaarde voor deze variabele is een lege tekenreeks. Nochtans, verstrekte de Adobe code van het AppMeasurement in de Manager van de Code waar deze variabele aan wordt geplaatst `"None"`. Geldige waarden zijn variabelen op paginaniveau die een dimensie vullen.
 
 * Als deze variabele niet is gedefinieerd of op een lege tekenreeks is ingesteld, *alles* variabelen zijn opgenomen in aanvragen voor afbeeldingen voor het bijhouden van koppelingen.
 * Als deze variabele is ingesteld op `"None"`, *nee* variabelen zijn opgenomen in aanvragen voor afbeeldingen voor het bijhouden van koppelingen.
@@ -50,7 +51,7 @@ De standaardwaarde voor deze variabele is een lege tekenreeks. Nochtans, verstre
 
 ## Voorbeeld
 
-De volgende functie voor het bijhouden van koppelingen bevat alleen `eVar1` (niet `eVar2`) in de afbeeldingsaanvraag die naar Adobe wordt verzonden:
+De volgende functie voor het bijhouden van koppelingen bevat alleen `eVar1` (niet `eVar2`) in de afbeeldingsaanvraag die naar de Adobe wordt verzonden:
 
 ```js
 s.eVar1 = "Example value 1";

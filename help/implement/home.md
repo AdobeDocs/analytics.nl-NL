@@ -3,10 +3,11 @@ title: Adobe Analytics implementeren
 description: Implementeer Adobe Analytics op uw website, eigenschap of applicatie.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: b157674adf67fa6ef0f2e75775d0ec888cff3cba
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 30%
+source-wordcount: '827'
+ht-degree: 29%
 
 ---
 
@@ -80,7 +81,7 @@ Voor uw **mobiele app** zijn de volgende uitvoeringsmethoden beschikbaar:
 ## Belangrijke artikelen voor de implementatie van Analytics
 
 * [Een bestaande Adobe Analytics-implementatie op zich nemen](/help/implement/prepare/existing-implementation.md)
-* [Adobe-foutopsporing](validate/debugger.md)
+* [Adobe Debugger](validate/debugger.md)
 * [Een tag-eigenschap maken in het Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement-updates](appmeasurement-updates.md)
 

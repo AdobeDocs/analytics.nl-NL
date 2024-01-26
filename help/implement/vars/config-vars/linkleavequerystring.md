@@ -3,18 +3,19 @@ title: linkLeaveQueryString
 description: Staat het behoud van vraagkoorden in verbinding het volgen dimensies toe.
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
 
 # linkLeaveQueryString
 
-AppMeasurement strips vraagt tekenreeksen van verbinding het volgen URLs door gebrek. Gebruik de `linkLeaveQueryString` variabele om vraagkoorden in verbinding het volgen dimensies te bewaren.
+Het AppMeasurement strips vraagkoorden van verbinding het volgen URLs door gebrek. Gebruik de `linkLeaveQueryString` variabele om vraagkoorden in verbinding het volgen dimensies te bewaren.
 
-Bij sommige afsluitkoppelingen en downloadkoppelingen kan het belangrijke gedeelte van de URL zich in de queryreeks bevinden. Bijvoorbeeld een downloadkoppeling, zoals `https://example.com/download.asp?filename=myfile.exe` bevat belangrijke koppelingsinformatie in het vraagkoord.
+Bij sommige afsluitkoppelingen en downloadkoppelingen kan het belangrijke gedeelte van de URL zich in de queryreeks bevinden. Een downloadkoppeling, zoals `https://example.com/download.asp?filename=myfile.exe` bevat belangrijke koppelingsinformatie in het vraagkoord.
 
 Als de informatie van het verbinden niet in URLs op uw plaats is, is het gebruiken van deze variabele niet noodzakelijk. Door querytekenreeksen te verwijderen uit URL&#39;s die koppelingen bijhouden, beperkt u het aantal unieke waarden dat de dimensie bevat.
 

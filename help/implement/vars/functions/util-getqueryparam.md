@@ -3,9 +3,10 @@ title: Util.getQueryParam
 description: Retourneert de waarde van een querytekenreeksparameter.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ De parameterwaarde van het vraagkoord wordt opgeslagen in het gegevenselement. U
 
 ## s.Util.getQueryParam() in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
-Roep de `s.Util.getQueryParam()` methode om een waarde van het vraagkoord van browser URL terug te winnen. Het tekenreeksargument met een querytekenreeksparameter is vereist. Deze methode retourneert een tekenreeks die u kunt toewijzen aan variabelen van Analytics:
+Roep de `s.Util.getQueryParam()` methode om een waarde van het vraagkoord van browser URL terug te winnen. Het tekenreeksargument dat een parameter voor een queryreeks bevat, is vereist. Deze methode retourneert een tekenreeks die u kunt toewijzen aan variabelen van Analytics:
 
 ```js
 s.eVar1 = s.Util.getQueryParam("cid");
@@ -55,4 +56,4 @@ s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 
 >[!TIP]
 >
->Een soortgelijke plug-in met de naam [`s.getQueryParam`](../plugins/getqueryparam.md) is beschikbaar. Deze plug-in bevat meer geavanceerde functies, maar is ook complexer en wordt standaard niet in AppMeasurement opgenomen.
+>Een soortgelijke plug-in met de naam [`s.getQueryParam`](../plugins/getqueryparam.md) is beschikbaar. Deze plug-in bevat meer geavanceerde functies, maar is ook complexer en wordt standaard niet in het AppMeasurement opgenomen.

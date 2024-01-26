@@ -1,16 +1,17 @@
 ---
-title: Overschrijvingen van variabelen
-description: Met overschrijvingen van variabelen kunt u een variabele waarde wijzigen voor één track- of trackkoppelingsaanroep.
+title: Variabele overschrijvingen
+description: Met overschrijvingen van variabelen kunt u een variabele waarde wijzigen voor één track of koppeling.
 feature: Implementation Basics
 exl-id: e297ef94-c5f7-42b1-a9d0-57e073f0d1a9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# Overschrijvingen van variabelen
+# Variabele overschrijvingen
 
 Met overschrijvingen van variabelen kunt u de analysewaarden voor een enkele hit wijzigen zonder dat dit van invloed is op bestaande variabelen op de pagina.
 

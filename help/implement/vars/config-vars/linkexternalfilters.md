@@ -3,18 +3,19 @@ title: linkExternalFilters
 description: Gebruik de variabele linkExternalFilters om het automatisch volgen van de afsluitverbinding te helpen.
 feature: Variables
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
 
 # linkExternalFilters
 
-AppMeasurement biedt de capaciteit om verbindingen automatisch te volgen die buiten uw plaats richten. Indien [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) of [`clickCollectionEnabled`](trackexternallinks.md) (Web SDK) is ingeschakeld, wordt een verzoek om een afbeelding naar de rechterkant van de Adobe verzonden wanneer een bezoeker op een koppeling klikt om uw site te verlaten. De `linkExternalFilters` en [`linkInternalFilters`](linkinternalfilters.md) variabelen bepalen welke koppelingen als intern/extern worden beschouwd.
+AppMeasurement biedt de mogelijkheid om koppelingen die buiten uw site wijzen automatisch bij te houden. Indien [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) of [`clickCollectionEnabled`](trackexternallinks.md) (Web SDK) is ingeschakeld, wordt een verzoek om een afbeelding naar de rechterkant van de Adobe verzonden wanneer een bezoeker op een koppeling klikt om uw site te verlaten. De `linkExternalFilters` en [`linkInternalFilters`](linkinternalfilters.md) variabelen bepalen welke koppelingen als intern/extern worden beschouwd.
 
-Als deze variabele een waarde bevat, gedraagt het automatisch volgen van de uitgangsverbinding zich als een lijst van gewenste personen. Als een koppeling niet overeenkomt met een koppeling `linkExternalFilters` waarden, wordt het niet beschouwd als een exit link. De volledige URL wordt op basis van deze variabele gecontroleerd. Indien [`linkLeaveQueryString`](linkleavequerystring.md) wordt toegelaten, wordt het vraagkoord ook onderzocht.
+Als deze variabele een waarde bevat, gedraagt het automatisch volgen van de uitgangsverbinding zich als een lijst van gewenste personen. Als een koppeling niet overeenkomt met een `linkExternalFilters` waarden, wordt het niet beschouwd als een exit link. De volledige URL wordt op basis van deze variabele gecontroleerd. Indien [`linkLeaveQueryString`](linkleavequerystring.md) wordt toegelaten, wordt het vraagkoord ook onderzocht.
 
 >[!TIP]
 >

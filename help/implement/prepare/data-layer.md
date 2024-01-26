@@ -1,16 +1,17 @@
 ---
-title: Een datalaag maken
+title: Een gegevenslaag maken
 description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 2%
+source-wordcount: '460'
+ht-degree: 0%
 
 ---
 
-# Een datalaag maken
+# Een gegevenslaag maken
 
 Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site die de variabelenwaarden bevatten die worden gebruikt in uw analytische implementatie. Het staat grotere controle en gemakkelijker onderhoud toe wanneer het toewijzen van waarden aan de variabelen van de Analyse.
 
@@ -22,24 +23,24 @@ Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site die de varia
 
 Bij het implementeren van Adobe Analytics met een gegevenslaag worden doorgaans de volgende stappen uitgevoerd:
 
-1. **Werk met uw team van de plaatsontwikkeling om een gegevenslaag uit te voeren**: Uw team van de plaatsontwikkeling is hoofdzakelijk verantwoordelijk voor het ervoor zorgen van het voorwerp van de gegevenslaag bevolkt met correcte waarden. Controleer deze pagina met uw team van de plaatsontwikkeling om ervoor te zorgen de verwachtingen tussen teams worden gericht.
+1. **Werk met uw team voor siteontwikkeling om een gegevenslaag te implementeren**: Het ontwikkelingsteam van uw site is primair verantwoordelijk voor het controleren of het gegevenslaagobject correct wordt gevuld. Controleer deze pagina met uw team van de plaatsontwikkeling om ervoor te zorgen de verwachtingen tussen teams worden gericht.
 
    >[!NOTE]
    >
-   >De volgende Adobe aanbevolen gegevenslaagspecificaties is optioneel. Als u reeds een gegevenslaag hebt, of anders verkiest om Adobe geen specificaties te volgen, zorg ervoor dat uw organisatie zich op welke specificatie richt te volgen.
+   >Aanbevolen specificaties voor gegevenslagen van Adobe zijn optioneel. Als u reeds een gegevenslaag hebt, of anders verkiest om de specificaties van de Adobe niet te volgen, zorg ervoor dat uw organisatie zich op welke te volgen specificatie richt.
 
-1. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend `F12` toets. Een waarde van een voorbeeldvariabele zou `adobeDataLayer.page.title`.
+1. **Valideer uw gegevenslaag met een browserconsole**: Nadat een gegevenslaag is gemaakt, kunt u controleren of deze werkt met de ontwikkelaarsconsole van een browser. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend `F12` toets. Een waarde van een voorbeeldvariabele zou `adobeDataLayer.page.title`.
 1. **Adobe Experience Platform-gegevensverzameling gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Deze stap is afhankelijk van de implementatiemethode van uw organisatie:
    * **Als het gebruiken van SDK van het Web**: Wijs de gewenste gegevenslaagobjecten toe aan de gewenste XDM-velden in Adobe Experience Platform Edge. Zie [Variabeletoewijzing Analyse](../aep-edge/variable-mapping.md) om de gewenste afbeelding van de gegevenslaag te bepalen.
-   * **Indien de extensie Analytics wordt gebruikt**: Maak gegevenselementen onder Tags in de gegevensverzameling van Adobe Experience Platform en wijs deze toe aan de gewenste gegevenslaagobjecten. Wijs vervolgens binnen de extensie Analytics elk gegevenselement toe aan de juiste variabele Analytics.
+   * **Indien de extensie Analytics wordt gebruikt**: Maak gegevenselementen onder Tags in Adobe Experience Platform-gegevensverzameling en wijs deze toe aan de gewenste gegevenslaagobjecten. Wijs vervolgens binnen de extensie Analytics elk gegevenselement toe aan de juiste variabele Analytics.
 
 ## Specificaties
 
-Adobe raadt u aan de [Gegevenslaag Adobe-client](https://github.com/adobe/adobe-client-data-layer/wiki) voor nieuwe of geherstructureerde implementaties.
+Adobe raadt u aan de [Gegevenslaag client-Adobe](https://github.com/adobe/adobe-client-data-layer/wiki) voor nieuwe of geherstructureerde implementaties.
 
 Uw organisatie is vrij om andere specificaties van de gegevenslaag te gebruiken, zoals [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf)of een andere aangepaste specificatie. Het is van het grootste belang dat de lagen worden uitgelijnd op een consistente gegevenslaag die voldoet aan de behoeften van uw organisatie.
 
-Gegevenslagen zijn uitbreidbaar; als u specifieke vereisten voor uw organisatie hebt, kunt u voorwerpen in uw gegevenslaag omvatten om die behoeften aan te passen.
+Gegevenslagen zijn uitbreidbaar; als u specifieke vereisten voor uw organisatie hebt, kunt u objecten in uw gegevenslaag opnemen om aan die behoeften te voldoen.
 
 ## Waarden voor gegevenslagen instellen
 

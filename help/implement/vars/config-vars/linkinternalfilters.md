@@ -3,22 +3,23 @@ title: linkInternalFilters
 description: Gebruik de variabele linkInternalFilters om het automatisch volgen van de uitgangsverbinding te helpen.
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
 # linkInternalFilters
 
-AppMeasurement biedt de capaciteit om verbindingen automatisch te volgen die buiten uw plaats richten. Indien [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) of [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) is ingeschakeld, wordt een verzoek om een afbeelding naar de rechterkant van de Adobe verzonden wanneer een bezoeker op een koppeling klikt om uw site te verlaten. De [`linkExternalFilters`](linkexternalfilters.md) en `linkInternalFilters` variabelen bepalen welke koppelingen als intern/extern worden beschouwd.
+AppMeasurement biedt de mogelijkheid om koppelingen die buiten uw site wijzen automatisch bij te houden. Indien [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) of [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) is ingeschakeld, wordt een verzoek om een afbeelding naar de rechterkant van de Adobe verzonden wanneer een bezoeker op een koppeling klikt om uw site te verlaten. De [`linkExternalFilters`](linkexternalfilters.md) en `linkInternalFilters` variabelen bepalen welke koppelingen als intern/extern worden beschouwd.
 
-Als deze variabele een waarde bevat, gedraagt het automatisch volgen van de uitgangsverbinding zich als een lijst van gewezen personen. Als een koppeling niet overeenkomt met een koppeling `linkInternalFilters` waarden, wordt het beschouwd als een uitgangsverbinding. De volledige URL wordt op basis van deze variabele gecontroleerd. Indien [`linkLeaveQueryString`](linkleavequerystring.md) wordt toegelaten, wordt het vraagkoord ook onderzocht.
+Als deze variabele een waarde bevat, gedraagt het automatisch volgen van de uitgangsverbinding zich als een lijst van gewezen personen. Als een koppeling niet overeenkomt met een `linkInternalFilters` waarden, wordt het beschouwd als een uitgangsverbinding. De volledige URL wordt op basis van deze variabele gecontroleerd. Indien [`linkLeaveQueryString`](linkleavequerystring.md) wordt toegelaten, wordt het vraagkoord ook onderzocht.
 
 Als u beide `linkInternalFilters` en `linkExternalFilters` tegelijkertijd, moet de geklikte verbinding aanpassen `linkExternalFilters` **en** niet overeenkomen `linkInternalFilters` te worden beschouwd als een exitkoppeling. Als een geklikte koppeling overeenkomt met zowel de afsluitings- als de downloadkoppelingscriteria, heeft het type downloadkoppeling prioriteit.
 
-De kaart van de activiteit gebruikt deze variabele helpen bepalen welke verbindingen intern aan uw plaats zijn. Adobe raadt u aan deze variabele in te stellen voor implementaties die een activiteitenoverzicht gebruiken.
+De kaart van de activiteit gebruikt deze variabele helpen bepalen welke verbindingen intern aan uw plaats zijn. Adobe raadt aan deze variabele in te stellen voor implementaties die een activiteitenoverzicht gebruiken.
 
 >[!NOTE]
 >
@@ -41,7 +42,7 @@ Het veld Nooit bijhouden is een door komma&#39;s gescheiden lijst met filters (m
 
 Plaats filters die u nooit als uitgangsverbindingen in dit gebied wilt worden gevolgd. Scheid meerdere domeinen met een komma zonder spatie.
 
-## s.linkInternalFilters in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
+## s.linkInternalFilters in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
 
 De `s.linkInternalFilters` variabele is een tekenreeks met filters (zoals domeinen) die u als intern voor uw site beschouwt. Scheid meerdere filters met een komma zonder spaties.
 

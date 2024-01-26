@@ -2,9 +2,11 @@
 title: bufferRequests
 description: Verbeter de betrouwbaarheid van het vastleggen van aanvragen voor het bijhouden van koppelingen voor browsers die de pagina direct verwijderen.
 feature: Variables
-source-git-commit: 58a82151a8cbc80318e4f4ab4186fcabef3f35ab
+exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---

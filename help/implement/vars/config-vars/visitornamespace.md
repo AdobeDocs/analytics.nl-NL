@@ -3,20 +3,21 @@ title: bezoekerNameSpace
 description: Variabele in ruste die het cookie domein heeft bepaald.
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# visitorNamespace
+# bezoekerNamespace
 
 >[!IMPORTANT]
 >
 >Deze variabele wordt uitgeschakeld. Gebruiken [`trackingServer`](trackingserver.md) in plaats daarvan.
 
-In eerdere versies van Adobe Analytics gebruikte AppMeturement de `visitorNameSpace` variabele om het subdomein van te helpen bepalen `2o7.net` waar bezoekerscookies worden opgeslagen. De toenemende privacy praktijken in moderne browsers maken derdekoekjes minder betrouwbaar. Met de invoering van de `trackingServer` en [`trackingServerSecure`](trackingserversecure.md) variabelen, `visitorNameSpace` is niet meer nodig.
+In eerdere versies van Adobe Analytics gebruikte AppMeasurement de `visitorNameSpace` variabele om het subdomein van te helpen bepalen `2o7.net` waar bezoekerscookies worden opgeslagen. De toenemende privacy praktijken in moderne browsers maken derdekoekjes minder betrouwbaar. Met de invoering van de `trackingServer` en [`trackingServerSecure`](trackingserversecure.md) variabelen, `visitorNameSpace` is niet meer nodig.
 
 >[!TIP]
 >
@@ -33,9 +34,9 @@ In eerdere versies van Adobe Analytics gebruikte AppMeturement de `visitorNameSp
 
 Adobe raadt u af dit veld te gebruiken. Gebruiken `trackingServer` en `trackingServerSecure` in plaats daarvan.
 
-## s.bezoekorNamespace in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
+## s.bezoekorNamespace in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
 
-De `s.visitorNamespace` variabele is een tekenreeks die een unieke waarde per organisatie bevat. Oude AppMeturement-bibliotheken hebben deze unieke waarde automatisch opgenomen wanneer ze zijn gedownload van eerdere versies van Adobe Analytics. De huidige bibliotheken AppMeasurement gebruiken deze variabele niet tenzij `trackingServer` en `trackingServerSecure` niet ingesteld.
+De `s.visitorNamespace` variabele is een tekenreeks die een unieke waarde per organisatie bevat. Deze unieke waarde wordt automatisch opgenomen in oude bibliotheken met AppMeasurementen die u hebt gedownload van eerdere versies van Adobe Analytics. In bibliotheken met huidige AppMeasurementen wordt deze variabele alleen gebruikt `trackingServer` en `trackingServerSecure` niet ingesteld.
 
 Als deze variabele nog steeds door uw organisatie wordt vereist, kiest u een waarde die uw organisatie vertegenwoordigt. U kunt deze waarde opslaan in een [document ontwerp oplossing](../../prepare/solution-design.md).
 

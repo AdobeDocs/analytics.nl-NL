@@ -3,14 +3,15 @@ title: getTimeParting
 description: Meet het tijdstip waarop een specifieke actie plaatsvindt.
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: getTimeParting
+# Adobe plug-in: getTimeParting
 
 {{plug-in}}
 
@@ -20,11 +21,11 @@ Analysis Workspace biedt vergelijkbare, kant-en-klare afmetingen die iets anders
 
 >[!IMPORTANT]
 >
->Versie 4.0+ van deze plug-in wijkt sterk af van eerdere versies. Adobe raadt u ten zeerste aan deze plug-in volledig te implementeren. Code die verwijst naar de insteekmodule vóór versie 4.0 is niet compatibel met de huidige versie van deze insteekmodule.
+>Versie 4.0+ van deze plug-in wijkt sterk af van eerdere versies. Adobe raadt u ten zeerste aan deze insteekmodule helemaal vanaf het begin te implementeren. Code die verwijst naar de insteekmodule vóór versie 4.0 is niet compatibel met de huidige versie van deze insteekmodule.
 
 ## De plug-in installeren met de extensie Web SDK
 
-Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
+De Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
@@ -32,7 +33,7 @@ Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte s
 1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
 1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
 1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
-   * Extensie: Algemene insteekmodules voor Web SDK
+   * Extension: Common Web SDK-plug-ins
    * Gegevenselement: `getTimeParting`
 1. Stel de `Time Zone` parameter aan de rechterkant.
 1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
@@ -43,17 +44,17 @@ Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige imp
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Extensie: veelgebruikte plug-ins voor Analytics
    * Type handeling: getTimeParting initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -68,9 +69,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -83,11 +84,11 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 De `getTimeParting` function gebruikt het volgende argument:
 
-**`t`** (Optioneel maar aanbevolen, tekenreeks): De naam van de tijdzone waarnaar de lokale tijd van de bezoeker moet worden omgezet.  Wordt standaard ingesteld op UTC/GMT-tijd. Zie [Lijst met tijdzones van TZ-databases](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) op Wikipedia voor een volledige lijst van geldige waarden.
+**`t`** (Optioneel, maar aanbevolen, tekenreeks): de naam van de tijdzone waarnaar de lokale tijd van de bezoeker moet worden omgezet.  Wordt standaard ingesteld op UTC/GMT. Zie [Lijst met tijdzones van TZ-databases](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) op Wikipedia voor een volledige lijst van geldige waarden.
 
 Veelvoorkomende geldige waarden zijn:
 
-* `"America/New_York"` voor Oost Tijd
+* `"America/New_York"` voor Oost-Tijd
 * `"America/Chicago"` voor Central Time
 * `"America/Denver"` voor Mountain Time
 * `"America/Los_Angeles"` voor Pacific Time
@@ -157,7 +158,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->In eerdere versies van deze plug-in konden niet alle jaren in de toekomst worden opgenomen. Als u een vorige versie van deze plug-in gebruikt, raadt Adobe u ten zeerste aan om de upgrade naar de nieuwste versie uit te voeren om JavaScript-fouten en gegevensverlies te voorkomen. Als het bijwerken van deze plug-in niet mogelijk is, controleert u of de `s._tpdst` bevat in de plug-incode de desbetreffende jaren in de toekomst.
+>In eerdere versies van deze plug-in konden niet alle jaren in de toekomst worden opgenomen. Als u een vorige versie van deze plug-in gebruikt, wordt u door Adobe ten zeerste aangeraden de nieuwste versie te gebruiken om JavaScript-fouten en gegevensverlies te voorkomen. Als het bijwerken van deze plug-in niet mogelijk is, controleert u of de `s._tpdst` bevat in de plug-incode de desbetreffende jaren in de toekomst.
 
 ### 4.0 (22 augustus 2016)
 

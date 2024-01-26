@@ -3,9 +3,10 @@ title: s_objectID
 description: De Activity Map van de hulp identificeert unieke verbindingen op uw plaats.
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 De `s_objectID` De variabele verstrekt een uniek herkenningsteken voor een verbinding. Hiermee kunt u rapporten maken in [Activity Map](/help/analyze/activity-map/activity-map.md) nauwkeuriger. Als er koppelingen op een pagina staan die vaak worden gewijzigd, kunt u de opdracht `s_objectID` variabele om de Activity Map van een unieke koppelingsplaats te vertellen zodat kan het gegevens correct groeperen zoals gewenst.
 
-Als de nauwkeurigheid van de Activity Map van cruciaal belang is voor uw organisatie, raadt Adobe aan de `s_objectID` in de `onClick` gebeurtenis van koppelingen op uw site. Zie [Gebruiksgevallen voor het bijhouden van koppelingen Activity Mappen](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md) in de gebruikershandleiding Analyseren voor meer informatie.
+Als de nauwkeurigheid van de Activity Map van cruciaal belang is voor uw organisatie, raadt de Adobe aan om de `s_objectID` in de `onClick` gebeurtenis van koppelingen op uw site. Zie [Gebruiksgevallen voor het bijhouden van koppelingen Activity Mappen](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md) in de gebruikershandleiding Analyseren voor meer informatie.
 
 ## Object-id met Adobe Analytics-extensie
 
-Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
 
-## s_objectID in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
+## s_objectID in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
 
 De `s_objectID` variable is a global variable (variabele die onafhankelijk van het object Analytics tracking werkt) (`s` standaard). Geldige waarden voor deze variabele kunnen elke willekeurige tekenreeks met een lengte tot 100 bytes zijn. Als deze variabele niet is gedefinieerd, gebruikt de Activity Map de koppelings-URL als de id voor de koppeling.
 

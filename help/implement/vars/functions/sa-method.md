@@ -3,9 +3,10 @@ title: sa
 description: Wijzig de rapportsuite op elk gewenst moment in de implementatie.
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ De SDK van het Web werkt door gegevens naar een specifieke DataStream te verzend
 1. Voer de gewenste rapportsuite-id in. Als u dezelfde gegevens naar meerdere rapportsets wilt verzenden, klikt u op **[!UICONTROL Add Report Suite]**.
 1. Zodra alle gewenste rapportsuites zijn ingegaan, klik **[!UICONTROL Save]**.
 
-## Plaats de gewenste Datasstream gebruikend de uitbreiding van SDK van het Web
+## Stel de gewenste gegevensstroom in met de extensie Web SDK
 
 De uitbreiding van SDK van het Web verstrekt een drop-down lijst DataStream voor elk milieu. U kunt ook handmatig de DataStream-id invoeren.
 
@@ -49,11 +50,11 @@ Zie [De SDK van het web configureren](https://experienceleague.adobe.com/docs/ex
 
 ## Rapportsuite wijzigen met de Adobe Analytics-extensie
 
-Er is geen flexibele manier om rapportsuite in de interface te wijzigen. U kunt de rapportsuite instellen onder de [!UICONTROL Library Management] accordeon bij het configureren van de Adobe Analytics-extensie. U kunt de rapportsuite echter niet wijzigen of bijwerken met regels. Als u de waarden van de rapportsuite wilt bijwerken nadat deze zijn ingesteld, gebruikt u de aangepaste code-editor volgens de syntaxis van AppMeasurement.
+Er is geen flexibele manier om rapportsuite in de interface te wijzigen. U kunt de rapportsuite instellen onder de [!UICONTROL Library Management] accordeon bij het configureren van de Adobe Analytics-extensie. U kunt de rapportsuite echter niet wijzigen of bijwerken met regels. Als u de waarden van de rapportsuite wilt bijwerken nadat deze zijn ingesteld, gebruikt u de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
 
 ## s.sa() in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
-Roep de `s.sa()` methode om de reeks van het bestemmingsrapport te veranderen. Zijn enige argument is een koord dat een identiteitskaart van de rapportreeks, of veelvoudige rapportreeks IDs bevat die door een komma wordt afgebakend. Het argument van ID van de rapportsuite is vereist. Gebruik geen spaties in het tekenreeksargument.
+Roep de `s.sa()` methode om de reeks van het bestemmingsrapport te veranderen. Zijn enige argument is een koord dat een identiteitskaart van de rapportreeks, of veelvoudige rapportreeks IDs bevat die door een komma wordt afgebakend. Het argument van ID van de rapportsuite is vereist. Gebruik geen spaties in het argument string.
 
 ```js
 s.sa("examplersid");

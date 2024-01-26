@@ -3,9 +3,10 @@ title: eVar (variabele)
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -26,22 +27,22 @@ Alvorens eVars in uw implementatie te gebruiken, zorg ervoor dat u elke eVar in 
 
 eVars zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.eVars.eVar1` tot `_experience.analytics.customDimensions.eVars.eVar250`.
 
-## Vars met Adobe Analytics-extensie
+## Vars met de Adobe Analytics-extensie
 
 U kunt eVars instellen tijdens het configureren van de extensie Analytics (globale variabelen) of onder regels.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
-4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
+4. Onder [!UICONTROL Actions], klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar Adobe Analytics en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL eVars] sectie.
 
 U kunt een eVar instellen op een waarde of een gegevenselement. U kunt de waarde ook uit een andere variabele Analytics kopiëren.
 
-## s.eVar1 - s.eVar250 in AppMeasurement en de de coderedacteur van de de uitbreidingsuitbreiding van de Analyse
+## s.eVar1 - s.eVar250 in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
-Elke eVar is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. De maximale lengte is 255 bytes. waarden die langer zijn dan 255 bytes, worden automatisch afgekapt wanneer ze naar Adobe worden verzonden.
+Elke eVar is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. De maximale lengte is 255 bytes. De waarden langer dan 255 bytes worden automatisch afgebroken wanneer ze naar de Adobe worden verzonden.
 
 ```js
 s.eVar1 = "Example custom value";
@@ -59,7 +60,7 @@ s.eVar1 = "+1";
 s.eVar1 = "+12.49";
 ```
 
-Wanneer meer dan twee decimalen zijn opgegeven, wordt de eVar teller afgerond tot twee decimalen. Een eVar-teller mag geen negatieve getallen bevatten.
+Als er meer dan twee decimalen zijn opgegeven, wordt de eVar-teller afgerond tot twee decimalen. Een eVar-teller mag geen negatieve getallen bevatten.
 
 >[!IMPORTANT]
 >

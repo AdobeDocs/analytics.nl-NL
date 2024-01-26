@@ -3,14 +3,15 @@ title: manageVars
 description: Wijzig de waarden van meerdere analytische variabelen tegelijk.
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: manageVars
+# Adobe-insteekmodule: manageVars
 
 {{plug-in}}
 
@@ -22,18 +23,18 @@ Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
-   * Type handeling: ManageVars initialiseren
+   * Extensie: veelgebruikte plug-ins voor Analytics
+   * Type handeling: manageVars initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
 ## Plug-in installeren met aangepaste code-editor
@@ -47,9 +48,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -62,8 +63,8 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 De `manageVars` function gebruikt de volgende argumenten:
 
-* **`cb`** (vereist, tekenreeks): De naam van een callback-functie die de plug-in gebruikt om de variabelen Analytics te manipuleren. U kunt de functie Adobe gebruiken zoals `cleanStr` of uw eigen aangepaste functie.
-* **`l`** (optioneel, tekenreeks): Een door komma&#39;s gescheiden lijst met variabelen van Analytics die u wilt manipuleren. De standaardwaarde is ALLE Adobe Analytics-variabelen indien deze niet zijn ingesteld, waaronder:
+* **`cb`** (vereist, tekenreeks): de naam van een callback-functie die de insteekmodule gebruikt om de variabelen Analytics te manipuleren. U kunt een Adobe-functie gebruiken zoals `cleanStr` of uw eigen aangepaste functie.
+* **`l`** (optioneel, tekenreeks): een door komma&#39;s gescheiden lijst met analytische variabelen die u wilt bewerken. De standaardwaarde is ALLE Adobe Analytics-variabelen indien deze niet zijn ingesteld, waaronder:
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -80,7 +81,7 @@ De `manageVars` function gebruikt de volgende argumenten:
    * Alle hiërarchievariabelen
    * Alle lijstvariabelen
    * Alle contextgegevensvariabelen
-* **`Il`** (optioneel, Booleaans): Instellen op `false` als u wilt *uitsluiten* de lijst van de in het `l` in plaats van ze op te nemen. Standaardwaarden: `true`.
+* **`Il`** (optioneel, Boolean): Instellen op `false` als u *uitsluiten* de lijst van de in het `l` in plaats van ze op te nemen. Standaardwaarden: `true`.
 
 Het aanroepen van deze functie retourneert niets. In plaats daarvan worden de waarden van de variabelen van de Analyse veranderd die op de gewenste callback functie worden gebaseerd.
 
@@ -94,7 +95,7 @@ De volgende code...
 manageVars("lowerCaseVars");
 ```
 
-...Hiermee wijzigt u de waarden van alle hierboven beschreven variabelen in lagere versies.  De enige uitzondering hierop zijn de gebeurtenisvariabele, zoals sommige gebeurtenissen (bijvoorbeeld scAdd, scCheckout, enz.) zijn hoofdlettergevoelig en mogen niet worden verlaagd
+...wijzigt de waarden van alle hierboven beschreven variabelen in lagere versies.  De enige uitzondering hierop zijn de gebeurtenisvariabele, zoals sommige gebeurtenissen (bijvoorbeeld scAdd, scCheckout, enz.) zijn hoofdlettergevoelig en mogen niet worden verlaagd
 
 ### Voorbeeld 2
 
@@ -124,7 +125,7 @@ De volgende code...
 manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
-...wijzigt (bijvoorbeeld in kleine letters) de waarden van alle hierboven beschreven variabelen, behalve voor eVar1, eVar2, eVar3 en list2
+...de waarden van alle hierboven beschreven variabelen (bijv. kleine letters) wijzigen, behalve voor eVar1, eVar2, eVar3 en lijst2
 
 ### Voorbeeld 5
 

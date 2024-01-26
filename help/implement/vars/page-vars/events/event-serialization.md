@@ -1,11 +1,12 @@
 ---
-title: Gebeurtenisserialisatie
+title: Serienummering voor gebeurtenissen
 description: Help metrische gegevens op uw site te dupliceren.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ De rangschikking van gebeurtenissen is het proces om maatregelen uit te voeren o
 
 ## Gebeurtenisserienummering instellen
 
-U moet eerst een gebeurtenis instellen [!UICONTROL Unique Event Recording] tot [!UICONTROL Use Event ID] in de instellingen van de rapportsuite. Zie [Gebeurtenissen geslaagd](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in de handleiding voor Admin-gebruikers.
+U moet eerst een gebeurtenis instellen [!UICONTROL Unique Event Recording] tot [!UICONTROL Use Event ID] in rapportsuite-instellingen. Zie [Gebeurtenissen geslaagd](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in de handleiding voor Admin-gebruikers.
 
 Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niveaus:
 
@@ -30,7 +31,7 @@ Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niv
 
 >[!TIP]
 >
->Als u de duplicatie van de [`purchase`](event-purchase.md) -gebeurtenis, gebruik de [`purchaseID`](../purchaseid.md) in plaats daarvan variabele.
+>Als u de duplicatie van de [`purchase`](event-purchase.md) -gebeurtenis, gebruikt u de [`purchaseID`](../purchaseid.md) in plaats daarvan variabele.
 
 ## Gebeurtenis-id&#39;s gebruiken met de Web SDK
 
@@ -45,7 +46,7 @@ U kunt het veld voor de gebeurtenis-id instellen tijdens het configureren van de
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
-4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
+4. Onder [!UICONTROL Actions], klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar Adobe Analytics en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Events] , waarin elke gebeurtenis een [!UICONTROL Event ID] veld.
 

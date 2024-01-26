@@ -3,14 +3,15 @@ title: getTimeSinceLastVisit
 description: Meet de hoeveelheid tijd die tussen twee bezoeken is verstreken.
 feature: Variables
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 1%
+source-wordcount: '565'
+ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: getTimeSinceLastVisit
+# Adobe-insteekmodule: getTimeSinceLastVisit
 
 {{plug-in}}
 
@@ -18,7 +19,7 @@ De `getTimeSinceLastVisit` kunt u bijhouden hoelang een bezoeker na zijn laatste
 
 ## De plug-in installeren met de extensie Web SDK
 
-Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
+De Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
@@ -26,7 +27,7 @@ Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte s
 1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
 1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
 1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
-   * Extensie: Algemene insteekmodules voor Web SDK
+   * Extension: Common Web SDK-plug-ins
    * Gegevenselement: `getTimeSinceLastVisit`
 1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
 
@@ -36,18 +37,18 @@ Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige imp
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
-   * Type handeling: getTimeSinceLastVisit initialiseren
+   * Extensie: veelgebruikte plug-ins voor Analytics
+   * Type handeling: Initialize getTimeSinceLastVisit
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
 ## Plug-in installeren met aangepaste code-editor
@@ -61,9 +62,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -76,16 +77,16 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 De `getTimeSinceLastVisit` gebruiken geen argumenten. Het retourneert de hoeveelheid tijd die is verstreken sinds de bezoeker voor het laatst naar de site is gekomen. Deze tijd wordt als volgt geplakt:
 
-* De tijd tussen 30 minuten en een uur sinds het laatste bezoek is ingesteld op de dichtstbijzijnde halftijdse benchmark. Bijvoorbeeld, `"30.5 minutes"`, `"53 minutes"`
-* De tijd tussen een uur en een dag wordt afgerond aan de dichtstbijzijnde benchmark van kwartier. Bijvoorbeeld, `"2.25 hours"`, `"7.5 hours"`
-* Tijd langer dan een dag wordt afgerond naar de dichtstbijzijnde dagbenchmark. Bijvoorbeeld, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
+* De tijd tussen 30 minuten en een uur sinds het laatste bezoek is ingesteld op de dichtstbijzijnde halftijdse benchmark. Bijvoorbeeld: `"30.5 minutes"`, `"53 minutes"`
+* De tijd tussen een uur en een dag wordt afgerond aan de dichtstbijzijnde benchmark van kwartier. Bijvoorbeeld: `"2.25 hours"`, `"7.5 hours"`
+* Tijd langer dan een dag wordt afgerond naar de dichtstbijzijnde dagbenchmark. Bijvoorbeeld: `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
 * Als een bezoeker niet eerder is bezocht of de verstreken tijd langer is dan twee jaar, wordt de waarde ingesteld op `"New Visitor"`.
 
 >[!NOTE]
 >
 >Deze insteekmodule retourneert alleen een waarde bij de eerste aanraking van een bezoek.
 
-Met deze plug-in maakt u een cookie van de eerste fabrikant, genaamd `"s_tslv"` ingesteld op een Unix-tijdstempel van de huidige tijd. Het cookie verloopt na twee jaar inactiviteit.
+Met deze plug-in maakt u een cookie van de eerste fabrikant, genaamd `"s_tslv"` ingesteld op Unix timestamp van de huidige tijd. Het cookie verloopt na twee jaar inactiviteit.
 
 ## Voorbeelden
 

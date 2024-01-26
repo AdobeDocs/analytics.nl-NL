@@ -3,18 +3,19 @@ title: pt
 description: Hiermee wordt een functie uitgevoerd op een lijst met variabelen.
 feature: Variables
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: pt
+# Adobe-insteekmodule: pt
 
 {{plug-in}}
 
-De `pt` Hiermee wordt een functie of methode uitgevoerd in een lijst met analytische variabelen. U kunt bijvoorbeeld selectief de opdracht [`clearVars`](../functions/clearvars.md) op verschillende variabelen worden uitgevoerd zonder de functie telkens handmatig aan te roepen. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
+De `pt` een functie of methode uit in een lijst met analytische variabelen. U kunt bijvoorbeeld selectief de opdracht [`clearVars`](../functions/clearvars.md) op verschillende variabelen worden uitgevoerd zonder de functie telkens handmatig aan te roepen. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
 
 ## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
@@ -22,17 +23,17 @@ Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Extensie: veelgebruikte plug-ins voor Analytics
    * Type handeling: pt initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -47,9 +48,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -62,9 +63,9 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 De `pt` function gebruikt de volgende argumenten:
 
-* **`l`** (vereist, tekenreeks): Een lijst met variabelen die de functie bevat in de `cf` argument kan worden uitgevoerd tegen.
-* **`de`** (optioneel, tekenreeks): Het scheidingsteken dat de lijst met variabelen in het dialoogvenster `l` argument. Heeft als standaardwaarde een komma (`,`).
-* **`cf`** (vereist, tekenreeks): De naam van de callback functie in het voorwerp AppMeasurement die tegen elk van de variabelen in moet worden geroepen `l` argument.
+* **`l`** (required, string): Een lijst met variabelen die de functie bevat in de `cf` argument kan worden uitgevoerd tegen.
+* **`de`** (optioneel, tekenreeks): het scheidingsteken tussen de lijst met variabelen in het dialoogvenster `l` argument. Heeft als standaardwaarde een komma (`,`).
+* **`cf`** (vereist, tekenreeks): De naam van de callback-functie in het object AppMeasurement die moet worden aangeroepen voor elk van de variabelen in het dialoogvenster `l` argument.
 * **`fa`** (optioneel, tekenreeks): Als de functie in de `cf` Deze argumenten vragen om aanvullende argumenten wanneer deze worden uitgevoerd. Standaardwaarden: `undefined`.
 
 Als deze functie wordt aangeroepen, wordt een waarde geretourneerd als de callback-functie (in het gedeelte `cf` argument) retourneert een waarde.
@@ -102,7 +103,7 @@ for(var i = 0; i < parametersLength; i++)
 
 * Kleine wijzigingen in code om de totale grootte te verkleinen
 
-### 2.0 (17 april 2018)
+### 2.0 april 2018
 
 * Puntrelease (opnieuw gecompileerd, kleiner codeformaat).
 * Toegevoegde ondersteuning voor zowel H-code als AppMeasurement.

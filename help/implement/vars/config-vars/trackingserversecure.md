@@ -3,9 +3,10 @@ title: trackingServerSecure
 description: Bepaal de locatie waar afbeeldingsaanvragen worden verzonden op HTTPS-pagina's.
 feature: Variables
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Adobe verzamelt gegevens op uw site door een afbeeldingsaanvraag te ontvangen di
 
 >[!WARNING]
 >
->Als u deze waarde wijzigt, zoekt AppMeasurement naar cookies op een andere locatie. Het unieke aantal bezoekers kan tijdelijk in de rapportage springen, omdat bezoekerscookies op de nieuwe locatie worden ingesteld.
+>Als u deze waarde wijzigt, zoekt het AppMeasurement naar cookies op een andere locatie. Het unieke aantal bezoekers kan tijdelijk in de rapportage springen, omdat bezoekerscookies op de nieuwe locatie worden ingesteld.
 
 ## Het domein van de rand die de uitbreiding van SDK van het Web gebruikt
 
@@ -31,9 +32,9 @@ Zie [De extensie Adobe Experience Platform Web SDK configureren](https://experie
 
 >[!TIP]
 >
->Als uw organisatie zich van een AppMeasurement of de uitbreiding van Analytics aan SDK van het Web beweegt, kan dit gebied de zelfde waarde gebruiken bevat `trackingServerSecure` (of `trackingServer`).
+>Als uw organisatie zich van een AppMeasurement of de de uitbreidingsimplementatie van Analytics aan SDK van het Web beweegt, kan dit gebied de zelfde waarde gebruiken bevat in `trackingServerSecure` (of `trackingServer`).
 
-## Het domein van de rand voert manueel het Web SDK uit
+## Het domein van de rand voert manueel de SDK van het Web uit
 
 De SDK configureren met [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html). Het veld is een tekenreeks die het domein bepaalt waarnaar gegevens moeten worden verzonden.
 
@@ -58,7 +59,7 @@ Als dit veld niet wordt ingevuld, wordt standaard de waarde in het dialoogvenste
 
 De `s.trackingServerSecure` variabele is een tekenreeks die de locatie bevat waar verzoeken om afbeeldingen moeten worden verzonden. Het is bijna altijd een subdomein van uw site. De moderne privacy praktijken in browsers maken over het algemeen derde koekjes onbetrouwbaar. Als deze variabele leeg is, wordt de waarde in het dialoogvenster `s.trackingServer` variabele.
 
-De waarde voor deze variabele is bijna altijd een domein van de eerste partij, zoals `data.example.com`. Zie [Eerste cookies in de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) in de de gebruikersgids van de Diensten van de Kern voor meer informatie over het eerste-partijkoekjesproces.
+De waarde voor deze variabele is bijna altijd een domein van de eerste partij, zoals `data.example.com`. Zie [Eerste cookies in het Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) in de de gebruikersgids van de Diensten van de Kern voor meer informatie over het eerste-partijkoekjesproces.
 
 De individu die aanvankelijk de first-party koekjesimplementatie vormt bepaalt ook het domein en subdomain gebruikte. Bijvoorbeeld:
 

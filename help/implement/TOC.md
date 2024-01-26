@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: 44830c4e68c4d6f9cace620e81d7adeda1de3563
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 73%
+source-wordcount: '402'
+ht-degree: 17%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 73%
 # Adobe Analytics-implementatiehandleiding {#implementation}
 
 + [Adobe Analytics implementeren](home.md)
-+ [Aanvullende informatie voor Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
-+ [Releaseopmerkingen bij AppMeasurement](appmeasurement-updates.md)
++ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Opmerkingen bij de release AppMeasurement](appmeasurement-updates.md)
 + Variabelen, functies en methoden van Analytics {#vars}
    + [Overzicht](vars/overview.md)
    + Configuratievariabelen {#config-vars}
       + [Overzicht van configuratievariabelen](vars/config-vars/configuration-variables.md)
-      + [abort](vars/config-vars/abort.md)
+      + [afbreken](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
       + [charSet](vars/config-vars/charset.md)
       + [collectHighEntropyUserAgentHints](vars/config-vars/collecthighentropyuseragenthints.md)
@@ -50,34 +50,34 @@ ht-degree: 73%
       + [useBeacon](vars/config-vars/usebeacon.md)
       + [useLinkTrackSessionStorage](vars/config-vars/uselinktracksessionstorage.md)
       + [usePlugins](vars/config-vars/useplugins.md)
-      + [visitorID](vars/config-vars/visitorid.md)
-      + [visitorNamespace](vars/config-vars/visitornamespace.md)
+      + [bezoekerID](vars/config-vars/visitorid.md)
+      + [bezoekerNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Paginariabelen {#page-vars}
-      + [Overzicht van paginavariabelen](vars/page-vars/page-variables.md)
-      + [campaign](vars/page-vars/campaign.md)
-      + [channel](vars/page-vars/channel.md)
+      + [Overzicht van paginariabelen](vars/page-vars/page-variables.md)
+      + [campagne](vars/page-vars/campaign.md)
+      + [kanaal](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Dynamische variabelen](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
+      + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Overzicht van gebeurtenissen](vars/page-vars/events/events-overview.md)
          + [Aankoopgebeurtenis](vars/page-vars/events/event-purchase.md)
-         + [Gebeurtenisserialisatie](vars/page-vars/events/event-serialization.md)
-      + [hier](vars/page-vars/hier.md)
+         + [Serienummering voor gebeurtenissen](vars/page-vars/events/event-serialization.md)
+      + [kassier](vars/page-vars/hier.md)
       + [list](vars/page-vars/list.md)
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
       + [pageURL](vars/page-vars/pageurl.md)
-      + [products](vars/page-vars/products.md)
+      + [producten](vars/page-vars/products.md)
       + [prop](vars/page-vars/prop.md)
       + [purchaseID](vars/page-vars/purchaseid.md)
-      + [referrer](vars/page-vars/referrer.md)
+      + [verwijzende](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [server](vars/page-vars/server.md)
       + [state](vars/page-vars/state.md)
-      + [timestamp](vars/page-vars/timestamp.md)
+      + [tijdstempel](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
    + Functies en methoden {#functions}
@@ -128,9 +128,9 @@ ht-degree: 73%
       + [websiteBot](vars/plugins/websitebot.md)
    + [Module integreren](vars/integrate.md)
 + Implementatie van Adobe Analytics voorbereiden {#prepare}
-   + [Een datalaag maken](prepare/data-layer.md)
+   + [Een gegevenslaag maken](prepare/data-layer.md)
    + [Implementatiemethoden vergelijken](prepare/comparison.md)
-   + [Overwegingen voor algemene rapportsuites](prepare/global-rs.md)
+   + [Overwegingen voor algemene rapporten](prepare/global-rs.md)
    + [Labelen met meerdere suite&#39;s implementeren](prepare/multi-suite-tagging.md)
    + [Een document voor het ontwerp van een oplossing maken](prepare/solution-design.md)
    + [Een bestaande Adobe Analytics-implementatie op zich nemen](prepare/existing-implementation.md)
@@ -139,7 +139,7 @@ ht-degree: 73%
    + [Variabele toewijzen](aep-edge/variable-mapping.md)
    + Web SDK {#web-sdk}
       + [Overzicht van Web SDK](aep-edge/web-sdk/overview.md)
-   + Mobiele SDK {#mobile-sdk}
+   + Mobile SDK {#mobile-sdk}
       + [Overzicht van Mobile SDK](aep-edge/mobile-sdk/overview.md)
    + Server-API {#server-api}
       + [Overzicht van de server-API](aep-edge/server-api/overview.md)
@@ -148,12 +148,12 @@ ht-degree: 73%
    + [Een Adobe Analytics-tageigenschap maken](launch/create-analytics-property.md)
    + [Distribueren naar een ontwikkelomgeving](launch/deploy-dev.md)
    + [Valideren en publiceren naar productie](launch/validate-publish-prod.md)
-   + [Datalaagobjecten toewijzen aan data-elementen](launch/layer-to-elements.md)
+   + [Gegevenslaagobjecten toewijzen aan gegevenselementen](launch/layer-to-elements.md)
    + [Taggegevenselementen toewijzen aan analytische variabelen](launch/elements-to-variable.md)
 + Analytics implementeren met JavaScript {#js}
    + [JavaScript-overzicht](js/overview.md)
-   + [Opt-outkoppelingen implementeren](js/opt-out.md)
-   + [Overschrijvingen van variabelen](js/overrides.md)
+   + [Optie-out-koppelingen implementeren](js/opt-out.md)
+   + [Variabele overschrijvingen](js/overrides.md)
    + [Migreren vanuit H-code](js/migrate-from-hcode.md)
    + H-code {#h-code}
       + [H Code-overzicht](js/h-code/overview.md)
@@ -162,29 +162,28 @@ ht-degree: 73%
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
-      + [Problemen met H-code oplossen](js/h-code/troubleshooting.md)
+      + [H-code oplossen](js/h-code/troubleshooting.md)
    + Verouderde cross-device identificatie {#xdevice-visid}
-      + [Overzicht van het verbinden van gebruikers via verschillende apparaten](js/xdevice-visid/xdevice-connecting.md)
-      + [Persistentie van variabelen](js/xdevice-visid/variable-persistence.md)
+      + [Overzicht van het verbinden van gebruikers met verschillende apparaten](js/xdevice-visid/xdevice-connecting.md)
+      + [Variabele persistentie](js/xdevice-visid/variable-persistence.md)
       + [Voorbeeld van bezoek](js/xdevice-visid/visit-example.md)
-      + [Veelgestelde vragen over verouderde cross-device](js/xdevice-visid/xdevice-faq.md)
-   + [Problemen met AppMeasurement oplossen](js/troubleshooting.md)
+      + [Veelgestelde vragen over verouderde apparaten](js/xdevice-visid/xdevice-faq.md)
+   + [AppMeasurement oplossen](js/troubleshooting.md)
 + Analytics implementeren op andere platforms {#other}
-   + [Analytics implementeren met behulp van hardwarematige afbeeldingsaanvragen](other/hardcoded.md)
-   + [Analytics implementeren met DTM](other/dtm-implementation-overview.md)
-   + [Analytics implementeren op Ajax](other/ajax.md)
-   + [Analytics implementeren op AMP](other/amp.md)
-   + [Analytics implementeren op digitale assistenten](other/digital-assistants.md)
-   + [Analytics implementeren op Facebook Instant Articles](other/fb-instant-articles.md)
-+ [Analytics implementeren op mobiele apparaten](mobile-device-sdk.md)
+   + [Analyses implementeren met behulp van hardwarematige afbeeldingsaanvragen](other/hardcoded.md)
+   + [Analyses implementeren op Ajax](other/ajax.md)
+   + [Analyses implementeren op AMP](other/amp.md)
+   + [Analyses implementeren op digitale assistenten](other/digital-assistants.md)
+   + [Analyses implementeren op Facebook Instant Artikelen](other/fb-instant-articles.md)
++ [Analyses implementeren op mobiele apparaten](mobile-device-sdk.md)
 + Gebruiksscenario&#39;s implementeren {#use-cases}
    + [AppMeasurement gebruiken met iFrames](use-cases/iframe.md)
-   + [Verschillende implementatietypen bijhouden](use-cases/cross-type-implementation.md)
+   + [Houd verschillende implementatietypen bij](use-cases/cross-type-implementation.md)
    + [Workflow voor bijhouden van campagnes](use-cases/campaign-tracking.md)
 + Uw implementatie valideren {#validate}
-   + [Verouderde Adobe Experience Cloud-foutopsporing](validate/debugger.md)
-   + [Queryparameters voor dataverzameling](validate/query-parameters.md)
-   + [Pakketbewaking](validate/packet-monitor.md)
+   + [Legacy Adobe Experience Cloud debugger](validate/debugger.md)
+   + [Query-parameters voor gegevensverzameling](validate/query-parameters.md)
+   + [Pakketmonitoren](validate/packet-monitor.md)
    + [Hash-botsingen](validate/hash-collisions.md)
 + [Veelgestelde vragen](faq.md)
 + Uw implementatie controleren {#review}

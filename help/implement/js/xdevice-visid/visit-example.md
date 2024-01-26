@@ -5,10 +5,11 @@ subtopic: Visitors
 title: Voorbeeld van de identificatie van bezoekers tussen apparaten
 feature: Implementation Basics
 exl-id: c68bb745-29de-48e3-8731-d714503a2447
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 11%
+source-wordcount: '380'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 11%
 
 In het volgende voorbeeld wordt getoond hoe bezoekersidentificatie op verschillende apparaten werkt met behulp van een voorbeeld van serveraanroepen die in een algemene klantinteractie worden verzonden.
 
-| Serveroproep | Handeling | Cookie bezoeker-id | Variabele voor bezoekersidentiteitskaart | Effectieve bezoeker-id | Paginanummer bezoeken | Bezoeknummer |
+| Serveroproep | Handeling | Cookie voor bezoekersidentiteitskaart | Variabele voor bezoekersidentiteitskaart | Effectieve bezoeker-id | Paginanummer bezoeken | Bezoek nummer |
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Een bezoeker klikt op een koppeling in een marketingbericht en bezoekt uw site vanaf de thuiscomputer. Deze bezoeker heeft uw site in het verleden nog zeven keer bezocht. | 1 | - | 1 | 1 | 8 |
 | 2-8 | Bezoek 7 extra pagina&#39;s op uw site. | 1 | - | 1 | 2-8 | 8 |
@@ -34,15 +35,15 @@ In het volgende voorbeeld wordt getoond hoe bezoekersidentificatie op verschille
 
 Analytics telt een bezoek telkens wanneer een hit wordt weergegeven met een bezoekpaginanummer gelijk aan 1.
 
-Aan de hand van de bovenstaande tabel werd een nieuw bezoek vier keer geteld: bij treffers 1, 9, 11 en 12.
+Aan de hand van de bovenstaande tabel werd een nieuw bezoek vier keer geteld: bij hits 1, 9, 11 en 12.
 
 ## Aantal bezoekers
 
 Analytics telt elke unieke effectieve bezoeker-id als een unieke bezoeker.
 
-Aan de hand van de bovenstaande tabel is een nieuwe bezoeker drie keer meegeteld: bij treffers 1, 9 en 10.
+Met behulp van de bovenstaande tabel werd een nieuwe bezoeker drie keer geteld: bij hits 1, 9 en 10.
 
-Wanneer u bezoekersidentificatie voor meerdere apparaten gebruikt, kan het aantal unieke bezoekers dat u ziet toenemen. De bezoeker kan tweemaal op hetzelfde bezoek worden geteld: voor het eerste bezoek en opnieuw nadat de gebruiker is geverifieerd.
+Wanneer u bezoekersidentificatie voor meerdere apparaten gebruikt, kan het aantal unieke bezoekers dat u ziet toenemen. De bezoeker kan twee keer bij hetzelfde bezoek worden geteld: eenmaal voor het eerste bezoek en opnieuw nadat de gebruiker is geverifieerd.
 
 ![](assets/visitors.png)
 

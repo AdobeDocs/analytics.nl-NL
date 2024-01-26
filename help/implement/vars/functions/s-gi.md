@@ -1,22 +1,23 @@
 ---
 title: s_gi()
-description: Creeer en spoor instanties van AppMeasurement.
+description: Instanties van AppMeasurement maken en bijhouden.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # s_gi
 
-De `s_gi()` de functie concretiseert of vindt een geval van AppMeasurement door identiteitskaart van de rapportreeks. AppMeasurement houdt elke gemaakte instantie bij, en `s_gi()` retourneert de bestaande instantie voor een rapportsuite als deze bestaat. Wanneer een instantie niet bestaat, wordt een nieuwe instantie gemaakt.
+De `s_gi()` de functie concretiseert of vindt een geval van AppMeasurement door rapportreeks ID. AppMeasurement houdt elke gemaakte instantie bij, en `s_gi()` retourneert de bestaande instantie voor een rapportsuite als deze bestaat. Wanneer een instantie niet bestaat, wordt een nieuwe instantie gemaakt.
 
 ## Instantieer een volgende voorwerp gebruikend de uitbreiding van SDK van het Web
 
-De extensie Web SDK instantieert en beheert het volgende object voor u. U kunt de naam van het volgende object echter aanpassen in de extensie-instellingen:
+De uitbreiding van SDK van het Web concretiseert en beheert het volgende voorwerp voor u. U kunt de naam van het volgende object echter aanpassen in de extensie-instellingen:
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
@@ -56,7 +57,7 @@ Roep de `s_gi()` gebruiken om een trackingobject te instantiëren. Zijn enige ar
 
 >[!TIP]
 >
->Adobe raadt u aan de `s` variabele als een volgend object. Adobe gebruikt `s` in de documentatie, implementatievoorbeelden en plug-ins. U kunt echter elke variabele gebruiken zolang u op de hele site consistent bent.
+>Adobe raadt u aan de `s` variabele als een tekstspatiëringsobject. Adobe gebruikt `s` in de documentatie, implementatievoorbeelden en plug-ins. U kunt echter elke variabele gebruiken zolang u op de hele site consistent bent.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -90,7 +91,7 @@ s.t();
 z.t();
 ```
 
-## AppMeasurement-variabelen herstellen na het overschrijven van het s-object
+## Variabelen van AppMeasurement herstellen na overschrijven van object s
 
 Sommige gereedschappen van derden gebruiken mogelijk ook JavaScript `s` object. Als u per ongeluk de `s` -object op uw site kunt aanroepen `s_gi` met hetzelfde RSID-tekenreeksargument om alle overschreven variabelen en methoden te herstellen.
 

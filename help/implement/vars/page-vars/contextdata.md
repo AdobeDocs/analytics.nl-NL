@@ -3,9 +3,10 @@ title: contextData
 description: Met contextgegevensvariabelen kunt u aangepaste variabelen definiëren op elke pagina die door verwerkingsregels kan worden gelezen.
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Met contextgegevensvariabelen kunt u aangepaste variabelen definiëren op elke pagina die door verwerkingsregels kan worden gelezen. In plaats van expliciet waarden toe te wijzen aan analytische variabelen in uw code, kunt u gegevens verzenden in contextgegevensvariabelen. De verwerkingsregels nemen dan de veranderlijke waarden van contextgegevens en gaan hen in respectieve variabelen van de Analyse over. Zie [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in de handleiding voor Admin-gebruikers.
 
-Contextgegevensvariabelen zijn handig voor ontwikkelingsteams om gegevens te verzamelen in benoemde elementen in plaats van genummerde variabelen. In plaats van ontwikkelingsteams bijvoorbeeld te vragen, wijst u de auteur van de pagina toe aan `eVar10`, kunt u vragen dat ze deze toewijzen aan `s.contextData["author"]` in plaats daarvan. Een beheerder van Analytics in uw organisatie kan dan verwerkingsregels tot stand brengen om de variabelen van de contextgegevens in analytische variabelen voor het melden in kaart te brengen. Ontwikkelingsteams zouden zich uiteindelijk alleen zorgen maken over de variabelen van de contextgegevens in plaats van over de vele paginabereiken die Adobe aanbiedt.
+Contextgegevensvariabelen zijn handig voor ontwikkelingsteams om gegevens te verzamelen in benoemde elementen in plaats van genummerde variabelen. In plaats van ontwikkelingsteams bijvoorbeeld te vragen, wijst u de auteur van de pagina toe aan `eVar10`, kunt u vragen dat ze deze toewijzen aan `s.contextData["author"]` in plaats daarvan. Een beheerder van Analytics in uw organisatie kan dan verwerkingsregels tot stand brengen om de variabelen van de contextgegevens in analytische variabelen voor het melden in kaart te brengen. Ontwikkelingsteams zouden zich uiteindelijk alleen zorgen maken over de variabelen van de contextgegevens in plaats van over de vele Adoben die de pagina aanbiedt.
 
 ## Contextgegevensvariabelen die de SDK van het Web gebruiken
 
@@ -24,9 +25,9 @@ Terwijl het beste praktijken is om gegevens aan de correcte gebieden XDM in de D
 
 ## Contextgegevensvariabelen die de extensie Adobe Analytics gebruiken
 
-Adobe Experience Platform-gegevensverzameling heeft geen specifieke locatie voor het instellen van contextgegevensvariabelen. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Adobe Experience Platform-gegevensverzameling heeft geen specifieke locatie voor het instellen van contextgegevensvariabelen. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
 
-## s.contextData in AppMeturement en de de coderedacteur van de de uitbreidingsuitbreiding van de Analyse
+## s.contextData in AppMeasurement en de de uitbreidingsredacteur van de douanecode van de Analyse
 
 De `s.contextData` De variabele neemt niet direct een waarde. Stel in plaats daarvan de eigenschappen van deze variabele in op een tekenreeks.
 
@@ -36,7 +37,7 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * Geldige contextgegevensvariabelen bevatten alleen alfanumerieke tekens, onderstrepingstekens en punten. Adobe garandeert geen gegevensverzameling in verwerkingsregels als u andere tekens, zoals afbreekstreepjes, opneemt.
-* Geen variabelen voor contextgegevens starten met `"a."`. Dit voorvoegsel is gereserveerd en wordt gebruikt door Adobe. Niet gebruiken `s.contextData["a.InstallEvent"]`.
+* Geen variabelen voor contextgegevens starten met `"a."`. Dit voorvoegsel is gereserveerd en wordt gebruikt door Adobe. Gebruik bijvoorbeeld niet `s.contextData["a.InstallEvent"]`.
 * Contextgegevensvariabelen zijn niet hoofdlettergevoelig. De variabelen `s.contextData["example"]` en `s.contextData["EXAMPLE"]` identiek zijn.
 
 ## De verwerkingsregels van het gebruik om analysevariabelen te bevolken
@@ -45,7 +46,7 @@ s.contextData["example_variable"] = "Example value";
 >
 >Contextgegevensvariabelen worden verwijderd nadat de verwerkingsregels zijn uitgevoerd. Als u geen verwerkingsregels hebt die waarden in variabelen plaatsen, worden die gegevens permanent verloren!
 
-1. Werk uw implementatie bij om namen en waarden voor de variabele van de contextgegevens in te stellen.
+1. Werk uw implementatie bij om namen en waarden van variabelen voor de contextgegevens in te stellen.
 2. Meld u aan bij Adobe Analytics en ga naar Beheer > Suites rapporteren.
 3. Selecteer de gewenste rapportsuite en ga naar Instellingen > Algemeen > Verwerkingsregels bewerken.
 4. Creeer een verwerkingsregel die een variabele Analytics aan de veranderlijke waarde van contextgegevens plaatst.

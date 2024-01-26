@@ -1,24 +1,25 @@
 ---
 title: getVisitDuration
-description: Houd bij hoeveel tijd een bezoeker tot dusver op de site is geweest.
+description: Houd bij hoeveel tijd een bezoeker tot nu toe op de site is geweest.
 feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: getVisitDuration
+# Adobe-insteekmodule: getVisitDuration
 
 {{plug-in}}
 
-De `getVisitDuration` de insteekmodule houdt de hoeveelheid tijd in minuten bij die de bezoeker tot dat moment op de site is geweest. Adobe raadt u aan deze plug-in te gebruiken als u de cumulatieve tijd op de site tot dat moment wilt bijhouden of als u wilt bijhouden hoeveel tijd het kost om een activiteit uit te voeren. Deze plug-in houdt de hoeveelheid tijd tussen gebeurtenissen niet bij; Als deze functionaliteit gewenst is, gebruikt u de [`getTimeBetweenEvents`](gettimebetweenevents.md) insteekmodule.
+De `getVisitDuration` de insteekmodule houdt de hoeveelheid tijd in minuten bij die de bezoeker tot dat moment op de site is geweest. Adobe raadt u aan deze plug-in te gebruiken als u de cumulatieve tijd op de site tot dat moment wilt bijhouden of als u wilt bijhouden hoeveel tijd het kost om een activiteit uit te voeren. Deze insteekmodule registreert niet hoeveel tijd er tussen de gebeurtenissen is; als u deze functionaliteit wilt gebruiken, gebruikt u de optie [`getTimeBetweenEvents`](gettimebetweenevents.md) insteekmodule.
 
 ## De plug-in installeren met de extensie Web SDK
 
-Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
+De Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
@@ -26,7 +27,7 @@ Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte s
 1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
 1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
 1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
-   * Extensie: Algemene insteekmodules voor Web SDK
+   * Extension: Common Web SDK-plug-ins
    * Gegevenselement: `getVisitDuration`
 1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
 
@@ -36,17 +37,17 @@ Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige imp
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Extensie: veelgebruikte plug-ins voor Analytics
    * Type handeling: getVisitDuration initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -61,9 +62,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

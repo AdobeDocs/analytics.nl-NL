@@ -3,14 +3,15 @@ title: getTimeBetweenEvents
 description: Meet de hoeveelheid tijd tussen twee gebeurtenissen.
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: getTimeBetweenEvents
+# Adobe-insteekmodule: getTimeBetweenEvents
 
 {{plug-in}}
 
@@ -22,18 +23,18 @@ Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
-   * Type handeling: getTimeBetweenEvents initialiseren
+   * Extensie: veelgebruikte plug-ins voor Analytics
+   * Type handeling: initialiseren getTimeBetweenEvents
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
 ## Plug-in installeren met aangepaste code-editor
@@ -47,9 +48,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /* Adobe Consulting Plugin: getTimeBetweenEvents v3.0 (AppMeasurement highly recommended) */
@@ -62,27 +63,27 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 De `getTimeBetweenEvents` function gebruikt de volgende argumenten:
 
 * **`ste`** (vereist, tekenreeks): Start timergebeurtenissen. Een door komma&#39;s gescheiden tekenreeks van Analytics-gebeurtenissen naar &quot;start de timer&quot;.
-* **`rt`** (vereist, Booleaans): Optie timer opnieuw starten. Instellen op `true` als u de timer elke keer opnieuw wilt starten `events` variable contains a start timer event. Instellen op `false` als u niet wilt dat de timer opnieuw wordt gestart wanneer deze een start timer-gebeurtenis ziet.
-* **`stp`** (vereist, tekenreeks): Stop timergebeurtenissen. Een door komma&#39;s gescheiden tekenreeks van Analytics-gebeurtenissen die de timer &#39;stoppen&#39;.
-* **`res`** (vereist, Booleaans): Optie timer opnieuw instellen. Instellen op `true` als u de tijd wilt registreren sinds de tijdopnemer begon EN de tijdopnemer terugstelt nadat het houdt. Instellen op `false` als u de tijd wilt opnemen maar de timer niet wilt stoppen. Indien ingesteld op `false`, blijft de timer uitvoeren nadat de gebeurtenisvariabele een stopgebeurtenis vastlegt.
+* **`rt`** (vereist, Boolean): timeroptie opnieuw starten. Instellen op `true` als u de timer elke keer opnieuw wilt starten `events` variable contains a start timer event. Instellen op `false` als u niet wilt dat de timer opnieuw wordt gestart wanneer deze een start timer-gebeurtenis ziet.
+* **`stp`** (required, string): Stop timergebeurtenissen. Een door komma&#39;s gescheiden tekenreeks van Analytics-gebeurtenissen die de timer &#39;stoppen&#39;.
+* **`res`** (vereist, Booleaans): timeroptie opnieuw instellen. Instellen op `true` als u de tijd wilt registreren sinds de tijdopnemer begon EN de tijdopnemer terugstelt nadat het houdt. Instellen op `false` als u de tijd wilt opnemen maar de timer niet wilt stoppen. Indien ingesteld op `false`, blijft de timer uitvoeren nadat de gebeurtenisvariabele een stopgebeurtenis vastlegt.
 
-   >[!TIP]
-   >
-   >Als u dit argument instelt op `false`, de instelling `rte` hieronder wordt sterk aanbevolen.
-* **`cn`** (optioneel, tekenreeks): De cookienaam waar de tijd van de eerste gebeurtenis wordt opgeslagen. Standaardwaarden: `"s_tbe"`.
+  >[!TIP]
+  >
+  >Als u dit argument instelt op `false`, de instelling `rte` hieronder wordt sterk aanbevolen.
+* **`cn`** (optioneel, tekenreeks): De cookienaam waarin het tijdstip van de eerste gebeurtenis is opgeslagen. Standaardwaarden: `"s_tbe"`.
 * **`etd`** (optioneel, geheel getal): De vervaltijd voor de cookie in dagen. Instellen op `0` verlopen aan het einde van de browsersessie. Wordt standaard ingesteld op 1 dag.
-* **`fmt`** (optioneel, tekenreeks): De notatie van de tijd waarin het aantal seconden wordt geretourneerd (standaardinstellingen op niets)
+* **`fmt`** (optioneel, tekenreeks): De notatie van de tijd waarin het aantal seconden wordt geretourneerd (standaardwaarde)
    * `"s"` voor seconden
    * `"m"` voor minuten
    * `"h"` voor uren
    * `"d"` dagen
    * Wanneer niet geplaatst, is het formaat van de terugkeerwaarde gebaseerd op de volgende regels:
-      * Iets minder dan een minuut wordt afgerond naar de dichtstbijzijnde benchmark van 5 seconden. Bijvoorbeeld, 10 seconden, 15 seconden
-      * Alles tussen een minuut en een uur wordt afgerond naar de dichtstbijzijnde benchmark van 1/2 minuten. Bijvoorbeeld 30,5 minuten, 31 minuten
+      * Iets minder dan een minuut wordt afgerond naar de dichtstbijzijnde benchmark van 5 seconden. 10 seconden, 15 seconden
+      * Alles tussen een minuut en een uur wordt afgerond naar de dichtstbijzijnde benchmark van 1/2 minuten. 30,5 minuten, 31 minuten
       * Om het even wat tussen een uur en een dag wordt afgerond aan het dichtstbijzijnde kwartier benchmark. Bijvoorbeeld 2,25 uur, 3,5 uur
       * Alles wat groter is dan een dag, wordt afgerond naar de dichtstbijzijnde benchmark voor de dag. Bijvoorbeeld 1 dagen, 3 dagen, 9 dagen
-* **`bml`** (optioneel, nummer): De lengte van de afrondingsbenchmark volgens het formaat van de `fmt` argument. Als de `fmt` argument is `"s"` en dit argument is `2`De rendementswaarde wordt afgerond naar de dichtstbijzijnde 2-secondenbenchmark. Indien `fmt` argument is `"m"` en dit argument is `0.5`De rendementswaarde wordt afgerond naar de dichtstbijzijnde halftijdse benchmark.
-* **`rte`** (optioneel, tekenreeks): Door komma&#39;s gescheiden tekenreeks van gebeurtenissen Analytics die de timer verwijderen of verwijderen. Heeft als standaardwaarde niets.
+* **`bml`** (facultatief, nummer): de lengte van de afrondingsbenchmark volgens het formaat van de `fmt` argument. Als de `fmt` argument is `"s"` en dit argument is `2`De rendementswaarde wordt afgerond naar de dichtstbijzijnde 2-secondenbenchmark. Indien `fmt` argument is `"m"` en dit argument is `0.5`De rendementswaarde wordt afgerond naar de dichtstbijzijnde halftijdse benchmark.
+* **`rte`** (optioneel, tekenreeks): door komma&#39;s gescheiden tekenreeks van gebeurtenissen Analytics die de timer verwijderen of verwijderen. Heeft als standaardwaarde niets.
 
 Als deze functie wordt aangeroepen, wordt een geheel getal geretourneerd dat de hoeveelheid tijd vertegenwoordigt tussen de gebeurtenis start timer en de gebeurtenis stop timer in de gewenste indeling.
 
@@ -117,6 +118,6 @@ s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
 
 * Hiermee worden wijzigingen aangebracht in de nieuwe versie van het dialoogvenster `formatTime` insteekmodule.
 
-### 2.0 (6 april 2018)
+### 2.0 april 2018
 
 * Volledige herschrijven/opnieuw analyseren van plug-in.

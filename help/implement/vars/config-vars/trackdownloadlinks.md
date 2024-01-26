@@ -3,9 +3,10 @@ title: trackDownloadLinks
 description: Schakel het automatisch bijhouden van koppelingen voor downloadkoppelingen in of uit.
 feature: Variables
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Adobe biedt de mogelijkheid downloadkoppelingen te volgen zonder handmatig de [`tl()`](../functions/tl-method.md) methode voor elke downloadkoppeling. Schakel deze variabele in als u koppelingen automatisch wilt bijhouden voor downloadkoppelingen.
 
-Wanneer deze optie is ingeschakeld, vergelijkt AppMeasurement elke aangeklikte koppeling-URL met waarden in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Als er een overeenkomst is, wordt automatisch een aanroep voor het bijhouden van de downloadkoppeling geactiveerd.
+Wanneer deze optie is ingeschakeld, vergelijkt het AppMeasurement de URL van geklikte koppelingen met de waarden in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Als er een overeenkomst is, wordt automatisch een aanroep voor het bijhouden van de downloadkoppeling geactiveerd.
 
 ## Klikverzameling inschakelen of uitschakelen met de extensie Web SDK
 
@@ -27,7 +28,7 @@ Gebruik de [!UICONTROL Enable click data collection] checkbox wanneer het vormen
 
 ## Laat of maak klikinzameling toe onbruikbaar manueel uitvoerend de SDK van het Web
 
-De SDK configureren met [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Het veld is een Booleaanse waarde die bepaalt of gegevens die aan koppelingsklikken zijn gekoppeld, automatisch worden verzameld. De standaardwaarde is `true`. Deze waarde instellen op `false` als u het automatisch bijhouden van koppelingen wilt uitschakelen. Met deze instelling wordt het automatisch bijhouden van koppelingen verwerkt voor zowel download- als afsluitkoppelingen.
+De SDK configureren met [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Het veld is een Booleaanse waarde die bepaalt of gegevens die aan koppelingsklikken zijn gekoppeld, automatisch worden verzameld. De standaardwaarde is `true`. Deze waarde instellen op `false` als u automatische koppeling bijhouden wilt uitschakelen. Met deze instelling wordt het automatisch bijhouden van koppelingen verwerkt voor zowel download- als afsluitkoppelingen.
 
 ```json
 alloy("configure", {
@@ -46,7 +47,7 @@ Downloadkoppelingen bijhouden is een selectievakje onder [!UICONTROL Link Tracki
 
 Klik op het selectievakje om het automatisch bijhouden van downloadkoppelingen in te schakelen.
 
-## s.trackDownloadLinks in AppMeturement en de de coderedacteur van de de uitbreidingsuitbreiding van de Analyse
+## s.trackDownloadLinks in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
 
 De `s.trackDownloadLinks` is een Booleaanse waarde die het automatisch bijhouden van downloadkoppelingen in- of uitschakelt. Als u downloadkoppelingen niet wilt bijhouden of liever handmatig `tl()` methode om downloads te volgen, plaats deze variabele aan `false`.
 

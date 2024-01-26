@@ -3,16 +3,17 @@ title: Configuratievariabelen
 description: Gebruik configuratievariabelen om te bepalen hoe gegevens worden verzameld.
 feature: Variables
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 4%
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
 # Overzicht van configuratievariabelen
 
-De variabelen van de configuratie controleren de manier gegevens in rapportering wordt gevangen en verwerkt. Ze bevatten doorgaans geen afmetingen of metrische waarden.
+De variabelen van de configuratie controleren de manier de gegevens in rapportering worden gevangen en worden verwerkt. Ze bevatten doorgaans geen afmetingen of metrische waarden.
 
 ## Configuratievariabelen instellen
 

@@ -3,14 +3,15 @@ title: addProductEvent
 description: Voegt aangepaste gebeurtenissen toe aan de variabele producten en gebeurtenissen.
 feature: Variables
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: addProductEvent
+# Adobe-insteekmodule: addProductEvent
 
 {{plug-in}}
 
@@ -22,18 +23,18 @@ Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
-   * Type handeling: AddProductEvent initialiseren
+   * Extensie: veelgebruikte plug-ins voor Analytics
+   * Type handeling: addProductEvent initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
 ## Plug-in installeren met aangepaste code-editor
@@ -47,9 +48,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,8 +64,8 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 De `addProductEvent` function gebruikt de volgende argumenten:
 
 * **`en`** (vereist, tekenreeks): De gebeurtenis die moet worden toegevoegd aan de laatste vermelding in het dialoogvenster `products` variabele. Als de `products` De variabele is leeg en er wordt een &quot;leeg&quot; product-item gemaakt waaraan de gebeurtenis (en de waarde ervan) is gekoppeld.
-* **`ev`** (vereist, tekenreeks): De waarde die is toegewezen aan de gebeurtenis nummeren of Valuta in het dialoogvenster `en` argument.  Standaardwaarden: `1` wanneer niet ingesteld. Getallen die niet in tekenreeksaanhalingstekens zijn opgenomen, zijn ook geldig.
-* **`ap`** (optioneel, Booleaans): Als de productvariabele momenteel meer dan één productitem bevat, is een waarde van `true` (of `1`) voegt de gebeurtenis toe aan alle ingangen van het product.  Standaardwaarden: `false` wanneer niet ingesteld.
+* **`ev`** (vereist, tekenreeks): De waarde die is toegewezen aan de gebeurtenis numeric of currency in het dialoogvenster `en` argument.  Standaardwaarden: `1` wanneer niet ingesteld. Getallen die niet in tekenreeksaanhalingstekens zijn opgenomen, zijn ook geldig.
+* **`ap`** (facultatief, Boolean): indien de productvariabele momenteel meer dan één productitem bevat, een waarde van `true` (of `1`) voegt de gebeurtenis toe aan alle ingangen van het product.  Standaardwaarden: `false` wanneer niet ingesteld.
 
 De `addProductEvent` retourneert niets. In plaats daarvan worden de gebeurtenis en de waarde ervan toegevoegd aan de `products` variabele. De insteekmodule voegt de gebeurtenis ook automatisch toe aan de [`events`](../page-vars/events/events-overview.md) variabel, aangezien het daar ook verplicht is.
 

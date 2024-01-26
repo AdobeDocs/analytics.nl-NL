@@ -3,14 +3,15 @@ title: getResponsiveLayout
 description: Bepaal welke lay-out van een website momenteel wordt weergegeven.
 feature: Variables
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: getResponsiveLayout
+# Adobe-insteekmodule: getResponsiveLayout
 
 {{plug-in}}
 
@@ -22,17 +23,17 @@ Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Extensie: veelgebruikte plug-ins voor Analytics
    * Type handeling: getResponsiveLayout initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -47,9 +48,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -62,9 +63,9 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 De `getResponsiveLayout` function gebruikt de volgende argumenten:
 
-* **`ppw`** (vereist, geheel getal): De maximumbreedte van pixels die een browservenster kan hebben voordat de pagina overschakelt van de staande lay-out Telefoon naar een liggende lay-out voor de telefoon
-* **`plw`** (vereist, geheel getal): De maximale breedte van pixels die een browservenster kan hebben voordat de pagina overschakelt van een liggende lay-out voor de telefoon naar een lay-out op basis van tablets
-* **`tw`** (vereist, geheel getal): De maximale breedte van pixels die een browservenster kan hebben voordat de pagina overschakelt van een tabletlay-out naar een op het bureaublad gebaseerde lay-out
+* **`ppw`** (vereist, geheel getal): de maximale breedte van pixels die een browservenster kan hebben voordat de pagina overschakelt van een staande lay-out Telefoon naar een liggende lay-out Telefoon
+* **`plw`** (vereist, geheel getal): de maximale breedte van pixels die een browservenster kan hebben voordat de pagina overschakelt van een liggende lay-out voor de telefoon naar een op tablets gebaseerde lay-out
+* **`tw`** (vereist, geheel getal): de maximale breedte van pixels die een browservenster kan hebben voordat de pagina overschakelt van een tabletlay-out naar een op het bureaublad gebaseerde lay-out
 
 Als deze functie wordt aangeroepen, wordt een tekenreeks geretourneerd met twee delen die zijn gescheiden door een dubbele punt (`:`). Het eerste deel van de tekenreeks bevat een van de volgende waarden, afhankelijk van de breedte van de browser en de bovenstaande argumenten:
 
@@ -74,7 +75,7 @@ Als deze functie wordt aangeroepen, wordt een tekenreeks geretourneerd met twee 
 * `"tablet layout"`
 * `"desktop layout"`
 
-Het tweede deel van de geretourneerde tekenreeks is de breedte en hoogte van de browser. Bijvoorbeeld, `"desktop layout:1243x700"`.
+Het tweede deel van de geretourneerde tekenreeks is de breedte en hoogte van de browser. Bijvoorbeeld: `"desktop layout:1243x700"`.
 
 ## Voorbeelden
 

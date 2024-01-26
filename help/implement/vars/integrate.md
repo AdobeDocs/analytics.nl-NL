@@ -1,33 +1,34 @@
 ---
 title: Module integreren
-description: De integrate Module staat de partners van Adobe toe om hun inspanningen van de gegevensinzameling met uw organisatie te integreren.
+description: De integrate Module staat de partners van de Adobe toe om hun inspanningen van de gegevensinzameling met uw organisatie te integreren.
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '878'
 ht-degree: 2%
 
 ---
 
 # Module integreren
 
-De integrate Module staat de partners van Adobe toe om hun inspanningen van de gegevensinzameling met uw organisatie te integreren. Deze integratie biedt de mogelijkheid voor een gegevensverbinding in twee richtingen. Typisch, wordt het gebruik van de Integrate Module aangedreven door een partner van Adobe.
+De integrate Module staat de partners van de Adobe toe om hun inspanningen van de gegevensinzameling met uw organisatie te integreren. Deze integratie biedt de mogelijkheid voor een gegevensverbinding in twee richtingen. Typisch, wordt het gebruik van de Integrate Module gedreven door een partner van de Adobe.
 
 >[!NOTE]
 >
->Het verzoeken van partnergegevens in uw implementatie kan vertragingen tussen paginading en gegevens verhogen die naar de servers van de Adobe gegevensinzameling worden verzonden. Als een bezoeker een nieuwe pagina laadt voordat gegevens worden verzonden, wordt die pagina niet opgenomen.
+>Het verzoeken van partnergegevens in uw implementatie kan vertragingen tussen paginading en gegevens verhogen die naar de servers van de de gegevensinzameling van de Adobe worden verzonden. Als een bezoeker een nieuwe pagina laadt voordat gegevens worden verzonden, wordt die pagina niet opgenomen.
 
 ## Workflow voor geïntegreerde module
 
 1. Een bezoeker van uw site laadt een pagina die een `get` verzoek om partnergegevens.
 2. De partner van de Adobe ontvangt `get` de juiste variabelen in een JSON-object opvragen en in pakketten plaatsen. Het JSON-object wordt geretourneerd.
 3. Uw site ontvangt het JSON-object en roept `setVars` om de informatie in het JSON-object toe te wijzen aan Adobe Analytics-variabelen
-4. Een beeldverzoek wordt verzonden naar de servers van de Adobe- gegevensinzameling.
+4. Een beeldverzoek wordt verzonden naar de servers van de de gegevensinzameling van de Adobe.
 
 ## Integrate Module-implementatie
 
-Een organisatie die met een partner van Adobe werkt kan deze stappen gebruiken met succes beginnen gebruikend de Integrate Module.
+Een organisatie die met een partner van de Adobe werkt kan deze stappen gebruiken met succes beginnen gebruikend de Integrate Module.
 
 ### Code integrale module verkrijgen
 
@@ -36,7 +37,7 @@ Voor het verkrijgen van modulecode moet een gebruiker toegang hebben tot product
 1. Meld u met uw Adobe ID aan bij [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 1. Klik op het pictogram met 9 vierkantjes rechtsboven in het venster en klik vervolgens op het gekleurde Analytics-logo.
 1. Klik in de bovenste navigatie op **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
-1. Download de nieuwste JavaScript AppMeasurement-bibliotheek.
+1. Download de nieuwste bibliotheek met JavaScript-AppMeasurementen.
 1. Nadat het bestand is gedownload, decomprimeert u het bestand en zoekt u `AppMeasurement_Module_Integrate.js`.
 
 ### Plaats de module Integreren in uw implementatie
@@ -51,7 +52,7 @@ Voor de implementatie van de integrate-module op uw site hebt u toegang tot de A
 
 ## Modulemethoden integreren
 
-Zodra de Integrate Module is uitgevoerd, gebruik deze methodes om het te vormen om gegevens van de gewenste partner van Adobe te verzenden en te ontvangen.
+Zodra de Integrate Module is uitgevoerd, gebruik deze methodes om het te vormen om gegevens van de gewenste partner van de Adobe te verzenden en te ontvangen.
 
 ### toevoegen
 
@@ -61,21 +62,21 @@ De `add` de methode concretiseert een partnervoorwerp, dat als tussenopslag van 
 s.Integrate.add("<partner_name>");
 ```
 
-Uw organisatie werkt typisch met een partner van Adobe om de waarde voor partnernaam te bepalen.
+Uw organisatie werkt typisch met een partner van de Adobe om de waarde voor partnernaam te bepalen.
 
 ### baken
 
-De `beacon` maakt een afbeeldingsaanvraag en wijst deze naar de opgegeven URL. Deze verzoeken om afbeeldingen verschillen van standaardverzoeken om afbeeldingen. De bakkenmethode verzendt typisch gegevens naar de partner van Adobe in plaats van de servers van de Adobe- gegevensinzameling.
+De `beacon` maakt een afbeeldingsaanvraag en wijst deze naar de opgegeven URL. Deze verzoeken om afbeeldingen verschillen van standaardverzoeken om afbeeldingen. De bakkenmethode verzendt typisch gegevens naar de partner van de Adobe in plaats van de servers van de gegevensinzameling van de Adobe.
 
 ```JavaScript
 p.beacon("<partner_url>/track?qs1=value1&qs2=value2");
 ```
 
-Uw organisatie werkt typisch met de partner van Adobe om de waarde voor partnernaam te bepalen. De koorden van de vraag inbegrepen in URL zijn facultatief, en afhankelijk van partner. De module Integeren bevat automatisch een queryreeks met een willekeurig getal om te voorkomen dat de browser in cache wordt geplaatst.
+Uw organisatie werkt typisch met de partner van de Adobe om de waarde voor partnernaam te bepalen. De koorden van de vraag inbegrepen in URL zijn facultatief, en afhankelijk van partner. De module Integeren bevat automatisch een queryreeks met een willekeurig getal om te voorkomen dat de browser in cache wordt geplaatst.
 
 ### vertragen
 
-Adobe werkt intern met teams om deze methode gedocumenteerd te krijgen.
+De Adobe werkt intern met teams om deze methode gedocumenteerd te krijgen.
 
 ### get
 
@@ -85,19 +86,19 @@ De `get` de methode laat een cliënt partnervariabelen invoeren en hen opslaan i
 s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 ```
 
-* **Naam partner:** Uw organisatie werkt typisch met de partner van Adobe om de waarde voor partnernaam te bepalen.
+* **Naam partner:** Uw organisatie werkt typisch met de partner van de Adobe om de waarde voor partnernaam te bepalen.
 * **URL naar JSON-object:** De URL naar een JSON-object dat de partnervariabelen bevat die in een afbeeldingsaanvraag moeten worden opgenomen.
-* **Parameter(s) voor queryreeks:** De rekeningsinformatie van de partner die uw organisatie in het systeem van de partner identificeert. De partner van Adobe gebruikt deze informatie om uw gegevensreeks te identificeren.
+* **Parameter(s) voor queryreeks:** De rekeningsinformatie van de partner die uw organisatie in het systeem van de partner identificeert. De partner van de Adobe gebruikt deze informatie om uw gegevensreeks te identificeren.
 
 De module Integeren voegt automatisch meer querytekenreeksen toe aan de URL. Een var vraagkoord specificeert de naam van het voorwerp JSON de module terug van de partner verwacht. Er wordt ook een willekeurig getal toegevoegd om te voorkomen dat de browser in cache wordt geplaatst.
 
 ### klaar
 
-Adobe werkt intern met teams om deze methode gedocumenteerd te krijgen.
+De Adobe werkt intern met teams om deze methode gedocumenteerd te krijgen.
 
 ### useVars
 
-De `useVars` de methode laat de cliënt veranderlijke waarden met een partner van Adobe delen.
+De `useVars` de methode laat de cliënt veranderlijke waarden met een partner van de Adobe delen.
 
 ```JavaScript
 s.Integrate.<partner_name>.useVars = function (s,p) {
@@ -106,7 +107,7 @@ s.Integrate.<partner_name>.useVars = function (s,p) {
 }
 ```
 
-Uw organisatie werkt typisch met een partner van Adobe om de waarden voor partnernaam en de variabelen te bepalen die de partner gebruikt.
+Uw organisatie werkt typisch met een partner van de Adobe om de waarden voor partnernaam en de variabelen te bepalen die de partner gebruikt.
 
 ### setVars
 
@@ -119,14 +120,14 @@ s.Integrate.<partner_name>.setVars = function (s,p) {
 }
 ```
 
-Uw organisatie werkt typisch met een partner van Adobe om de waarden voor partnernaam en de variabelen te bepalen die de partner gebruikt.
+Uw organisatie werkt typisch met een partner van de Adobe om de waarden voor partnernaam en de variabelen te bepalen die de partner gebruikt.
 
 ### script
 
-De `script` de methode laat een partner van Adobe om extra JavaScript van de partnerplaats te roepen als bepaalde voorwaarden (bijvoorbeeld, als de campagnevariabele wordt geplaatst) worden vervuld.
+De `script` De methode laat een partner van de Adobe om extra JavaScript van de partnerplaats te roepen als bepaalde voorwaarden (bijvoorbeeld, als de campagnevariabele wordt geplaatst) worden vervuld.
 
 ```JavaScript
 p.script("<partner_url>/script?qs1=value1&qs2=value2");
 ```
 
-Uw organisatie werkt typisch met de partner van Adobe om de waarde voor partnernaam te bepalen. De koorden van de vraag inbegrepen in URL zijn facultatief, en afhankelijk van partner. De module Integeren bevat automatisch een queryreeks met een willekeurig getal om te voorkomen dat de browser in cache wordt geplaatst.
+Uw organisatie werkt typisch met de partner van de Adobe om de waarde voor partnernaam te bepalen. De koorden van de vraag inbegrepen in URL zijn facultatief, en afhankelijk van partner. De module Integeren bevat automatisch een queryreeks met een willekeurig getal om te voorkomen dat de browser in cache wordt geplaatst.

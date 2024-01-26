@@ -1,18 +1,19 @@
 ---
 title: charSet
-description: De charSet-variabele bepaalt welke codering Adobe gebruikt om uw afbeeldingsverzoek te parseren.
+description: De variabele charSet bepaalt welke coderingsAdobe gebruikt om uw afbeeldingsverzoek te parseren.
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
 
 # charSet
 
-De `charSet` de variabele wordt gebruikt door Adobe om inkomende gegevens in UTF-8 voor opslag en rapportering door Analytics om te zetten. De meeste sites hoeven deze variabele niet in te stellen.
+De `charSet` Adobe gebruikt variabele om inkomende gegevens om te zetten in UTF-8 voor opslag en rapportage door Analytics. De meeste sites hoeven deze variabele niet in te stellen.
 
 Stel deze variabele alleen in als u onjuiste waarden ziet ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) in verslagen. U kunt deze variabele per pagina instellen als uw site verschillende coderingen op verschillende pagina&#39;s gebruikt.
 
@@ -31,9 +32,9 @@ Tekenset is een veld onder de [!UICONTROL General] accordeon bij het configurere
 
 U kunt een vooraf ingestelde tekenset of een aangepaste tekenset gebruiken. Wijzig de waarde niet vanuit `UTF-8` tenzij u onjuiste waarden in rapporten ziet.
 
-## s.charSet in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
+## s.charSet in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
-De `charSet` variable is a string. Als u in Adobe Analytics onjuiste waarden hebt ingevoerd, stelt u deze variabele in op dezelfde waarde als de `<meta charset="">` HTML-tag op uw site.
+De `charSet` variable is a string. Als u waarden in Adobe Analytics niet juist hebt ingesteld, stelt u deze variabele in op dezelfde waarde als de `<meta charset="">` HTML-tag op uw site.
 
 ```js
 s.charSet = "UTF-8";

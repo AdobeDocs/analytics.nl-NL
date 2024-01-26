@@ -3,7 +3,8 @@ title: Taggegevenselementen toewijzen aan analytische variabelen
 description: Wijs gegevenselementen toe aan variabelen van de Analyse zodat u hen als afmetingen in Analysis Workspace kunt gebruiken.
 feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%

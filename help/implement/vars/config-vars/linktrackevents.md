@@ -3,10 +3,11 @@ title: linkTrackEvents
 description: Bepaal welke gebeurtenissen moeten worden opgenomen in aanvragen voor het bijhouden van koppelingen.
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +33,9 @@ Als u geen aangepaste code gebruikt, worden in Adobe Experience Platform automat
 
 De `s.linkTrackEvents` variabele is een tekenreeks met een door komma&#39;s gescheiden lijst met gebeurtenissen die u wilt opnemen in aanvragen voor het bijhouden van koppelingen (`tl()` methode). Aan de volgende drie criteria moet worden voldaan om meetgegevens op te nemen in treffers voor het bijhouden van koppelingen:
 
-* Stel de gewenste gebeurtenis in de [`events`](../page-vars/events/events-overview.md) variabele. Bijvoorbeeld, `s.events = "event1";`.
-* Stel de `events` variabele in `linkTrackVars`. Bijvoorbeeld, `s.linkTrackVars = "events";`.
-* Stel de gewenste gebeurtenis in de `linkTrackEvents` variabele. Bijvoorbeeld, `s.linkTrackEvents = "event1";`.
+* Stel de gewenste gebeurtenis in de [`events`](../page-vars/events/events-overview.md) variabele. Bijvoorbeeld: `s.events = "event1";`.
+* Stel de `events` variabele in `linkTrackVars`. Bijvoorbeeld: `s.linkTrackVars = "events";`.
+* Stel de gewenste gebeurtenis in de `linkTrackEvents` variabele. Bijvoorbeeld: `s.linkTrackEvents = "event1";`.
 
 ```js
 s.linkTrackEvents = "event1,event2,event3,purchase";
@@ -48,7 +49,7 @@ De standaardwaarde voor deze variabele is een lege tekenreeks. Als deze variabel
 
 ## Voorbeeld
 
-De volgende functie voor het bijhouden van koppelingen bevat alleen `event1` (niet `event2`) in de afbeeldingsaanvraag die naar Adobe wordt verzonden:
+De volgende functie voor het bijhouden van koppelingen bevat alleen `event1` (niet `event2`) in de afbeeldingsaanvraag die naar de Adobe wordt verzonden:
 
 ```js
 s.events = "event1,event2";

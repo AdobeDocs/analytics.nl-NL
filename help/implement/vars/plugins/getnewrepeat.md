@@ -3,14 +3,15 @@ title: getNewRepeat
 description: Traceeractiviteiten van nieuwe versus herhaalde bezoekers.
 feature: Variables
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: getNewRepeat
+# Adobe-insteekmodule: getNewRepeat
 
 {{plug-in}}
 
@@ -18,7 +19,7 @@ De `getNewRepeat` kunt u binnen een gewenst aantal dagen bepalen of een bezoeker
 
 ## De plug-in installeren met de extensie Web SDK
 
-Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
+De Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
@@ -26,7 +27,7 @@ Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte s
 1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
 1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
 1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
-   * Extensie: Algemene insteekmodules voor Web SDK
+   * Extension: Common Web SDK-plug-ins
    * Gegevenselement: `getNewRepeat`
 1. Stel de `daysBeforeReset` parameter aan de rechterkant.
 1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
@@ -37,18 +38,18 @@ Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige imp
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
-   * Type handeling: getNewRepeat initialiseren
+   * Extensie: veelgebruikte plug-ins voor Analytics
+   * Type handeling: Initialize getNewRepeat
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
 ## Plug-in installeren met aangepaste code-editor
@@ -62,9 +63,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -77,7 +78,7 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 De `getNewRepeat` function gebruikt de volgende argumenten:
 
-* **`d`** (geheel getal, optioneel): Het minimumaantal dagen tussen bezoeken die bezoekers terugbrengen naar `"New"`. Als dit argument niet is ingesteld, wordt het standaard ingesteld op 30 dagen.
+* **`d`** (geheel getal, optioneel): Het minimumaantal dagen dat is vereist tussen bezoeken waarbij bezoekers terugkeren naar `"New"`. Als dit argument niet is ingesteld, wordt het standaard ingesteld op 30 dagen.
 
 Deze functie retourneert de waarde van `"New"` als de cookie die door de plug-in is ingesteld, niet bestaat of is verlopen. De waarde van `"Repeat"` als de cookie die door de plug-in is ingesteld, bestaat en de tijd sinds de huidige hit en de tijd die in de cookie is ingesteld, langer is dan 30 minuten. Deze functie retourneert dezelfde waarde voor een volledig bezoek.
 
@@ -103,7 +104,7 @@ s.eVar2 = getNewRepeat(365);
 
 * Herschikking van JavaScript-logica om de grootte van insteekmodules te verkleinen
 
-### 2.0 (16 april 2018)
+### 2.0 april 2018
 
 * Opnieuw gecompileerd met kleinere codegrootte
 * De mogelijkheid om de cookie een naam te geven, is verwijderd. De insteekmodule krijgt nu dynamisch de naam van het cookie op basis van de waarde die aan het `d` argument.

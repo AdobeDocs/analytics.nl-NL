@@ -1,18 +1,19 @@
 ---
-title: abort
-description: De abortvariabele is een booleaanse waarde die voorkomt dat een hit wordt verzonden naar Adobe-gegevensverzamelingsservers.
+title: afbreken
+description: De abortvariabele is een booleaanse waarde die voorkomt dat een hit wordt verzonden naar Adobe gegevensverzamelingsservers.
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
-# abort
+# afbreken
 
-De `abort` De variabele is een booleaanse waarde die kan verhinderen dat de volgende volgende volgvraag naar Adobe wordt verzonden. Er bestaat een vergelijkbare functionaliteit in de SDK van het web waarmee u kunt terugkeren `false` voordat een XDM-gebeurtenis wordt verzonden.
+De `abort` de variabele is een booleaanse waarde die kan verhinderen dat de volgende volgende volgende volgende vraag naar Adobe wordt verzonden. Er bestaat een vergelijkbare functionaliteit in de SDK van het web waarmee u kunt terugkeren `false` voordat een XDM-gebeurtenis wordt verzonden.
 
 ## Het verzenden van een gebeurtenis annuleren met de Web SDK-extensie
 
@@ -42,13 +43,13 @@ alloy("configure"), {
 
 ## De abortvariabele gebruiken in de Adobe Analytics-extensie
 
-Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
 
-## s.abort in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
+## s.abort in AppMeasurement en de de uitbreidingsredacteur van de douanecode van de Analyse
 
 De `s.abort` variable is a boolean. De standaardwaarde is `false`.
 
-* Indien ingesteld op `true`, de volgende volgende volgende volgende volgvraag ([`t()`](../functions/t-method.md) of [`tl()`](../functions/tl-method.md)) verzendt geen gegevens naar Adobe.
+* Indien ingesteld op `true`, de volgende volgende volgende volgende volgvraag ([`t()`](../functions/t-method.md) of [`tl()`](../functions/tl-method.md)) geen gegevens naar de Adobe verzendt.
 * Indien ingesteld op `false` of niet gedefinieerd, heeft deze variabele geen effect.
 
 ```js
@@ -59,7 +60,7 @@ s.abort = true;
 >
 >De `abort` variabele herstelt naar `false` na elke volgende vraag. Als u volgende het volgen vraag op de zelfde pagina moet afbreken, plaats `abort` tot `true` opnieuw.
 
-De `abort` kan worden ingesteld in het dialoogvenster [`doPlugins()`](../functions/doplugins.md) -functie. Dit is de laatste functie die wordt uitgevoerd voordat een afbeeldingsaanvraag naar Adobe wordt verzonden. Dit voorbeeld werkt op dezelfde manier als het `onBeforeEventSend` callback die SDK van het Web gebruikt.
+Bijvoorbeeld de `abort` kan worden ingesteld in het dialoogvenster [`doPlugins()`](../functions/doplugins.md) -functie. Dit is de laatste functie die wordt uitgevoerd voordat een afbeeldingsaanvraag naar de Adobe wordt verzonden. Dit voorbeeld werkt op dezelfde manier als het `onBeforeEventSend` callback die SDK van het Web gebruikt.
 
 ```js
 s.doPlugins = function(s) {

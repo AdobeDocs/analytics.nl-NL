@@ -1,16 +1,17 @@
 ---
-title: hier
+title: kassier
 description: Hiërarchievariabelen implementeren in Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
 
-# hier
+# kassier
 
 >[!IMPORTANT]
 >
@@ -33,15 +34,15 @@ U kunt hiërarchieën instellen tijdens het configureren van de extensie Analyti
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
-4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
+4. Onder [!UICONTROL Actions], klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar Adobe Analytics en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Hierarchy] sectie.
 
 U kunt een hiërarchische waarde instellen op een statische tekenreeks of verwijzen naar een gegevenselement. U kunt ook het gewenste scheidingsteken instellen. Zorg ervoor dat het scheidingsteken dat u hier instelt, overeenkomt met het scheidingsteken dat is ingesteld in de instellingen van de rapportsuite.
 
-## s.hier1 - s.hier5 in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
+## s.hier1 - s.hier5 in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
 
-Elke hiërarchie is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. De maximale lengte is 255 bytes. waarden die langer zijn dan 255 bytes, worden automatisch afgekapt wanneer ze naar Adobe worden verzonden.
+Elke hiërarchie is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. De maximale lengte is 255 bytes. De waarden langer dan 255 bytes worden automatisch afgebroken wanneer ze naar de Adobe worden verzonden.
 
 Zorg ervoor dat geen van uw sectienamen het scheidingsteken heeft. Als bijvoorbeeld een van uw secties wordt aangeroepen `Coach Griffin, Jim`kiest u een ander scheidingsteken dan een komma. De totale variabelelimiet is 255 bytes. Scheidingstekens kunnen uit meerdere tekens bestaan, zoals `||` of `/|\`, die minder waarschijnlijk in veranderlijke waarden zullen verschijnen.
 

@@ -3,9 +3,10 @@ title: list
 description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 De variabelen van de lijst zijn douanevariabelen die u kunt gebruiken hoe u zou willen. Ze werken op dezelfde manier als Vars, maar ze kunnen meerdere waarden in dezelfde hit bevatten. Lijstvariabelen hebben geen tekenlimiet.
 
-Zorg ervoor dat u opneemt hoe u elke lijstvariabele en de bijbehorende logica gebruikt in uw [document ontwerp oplossing](../../prepare/solution-design.md).
+Zorg ervoor dat u opneemt hoe u elke lijstvariabele en hun logica in uw [document ontwerp oplossing](../../prepare/solution-design.md).
 
 >[!NOTE]
 >
@@ -26,31 +27,31 @@ Zorg ervoor dat u elke lijstvariabele in de montages van de rapportreeks vormt a
 
 ## Variabelen weergeven die de SDK van het web gebruiken
 
-Lijstvariabelen zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.lists.list1.list[]` tot `_experience.analytics.customDimensions.lists.list3.list[]`. Elk arrayelement bevat een `"value"` object dat elke tekenreeks bevat. Er hoeft geen scheidingsteken te worden vastgesteld. wordt automatisch opgenomen met de waarde die is opgegeven in [Instellingen van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Als een komma (&#39;`,`&#39;) is geconfigureerd als scheidingsteken voor lijstvariabele 1, wordt het volgende XDM-object gevuld met de `list1` variabele met `"Example value 1,Example value 2,Example value 3"`.
+Lijstvariabelen zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.lists.list1.list[]` tot `_experience.analytics.customDimensions.lists.list3.list[]`. Elk arrayelement bevat een `"value"` object dat elke tekenreeks bevat. Het is niet nodig een scheidingsteken op te geven; het wordt automatisch opgenomen met de waarde die is opgegeven in [Instellingen van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Als bijvoorbeeld een komma (&#39;`,`&#39;) is geconfigureerd als scheidingsteken voor lijstvariabele 1, wordt het volgende XDM-object gevuld met de `list1` variabele met `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
-    "_experience": {
-        "analytics": {
-            "customDimensions": {
-                "lists": {
-                    "list1": {
-                        "list": [
-                            {
-                                "value": "Example value 1"
-                            },
-                            {
-                                "value": "Example value 2"
-                            },
-                            {
-                                "value": "Example value 3"
-                            }
-                        ]
-                    }
-                }
-            }
+  "_experience": {
+    "analytics": {
+      "customDimensions": {
+        "lists": {
+          "list1": {
+            "list": [
+              {
+                "value": "Example value 1"
+              },
+              {
+                "value": "Example value 2"
+              },
+              {
+                "value": "Example value 3"
+              }
+            ]
+          }
         }
+      }
     }
+  }
 }
 ```
 
@@ -60,11 +61,11 @@ Lijstvariabelen zijn [toegewezen voor Adobe Analytics](https://experienceleague.
 
 ## Variabelen weergeven die de extensie Adobe Analytics gebruiken
 
-Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
 
 ## s.list1 - s.list3 in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
-Elke lijstvariabele is een koord dat douanewaarden specifiek voor uw organisatie bevat. Zij hebben geen maximum aantal bytes; elke individuele waarde heeft echter een maximum van 255 bytes. Het scheidingsteken dat u gebruikt, wordt bepaald wanneer u de variabele instelt in [Instellingen van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Gebruik geen spaties bij het scheiden van meerdere items.
+Elke lijstvariabele is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. Ze hebben geen maximum aantal bytes. Elke individuele waarde heeft echter een maximum van 255 bytes. Het scheidingsteken dat u gebruikt, wordt bepaald wanneer u de variabele instelt in [Instellingen van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Gebruik geen spaties bij het scheiden van meerdere items.
 
 ```js
 // A list variable configured with a comma as a delimiter
@@ -73,11 +74,11 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
->Als u dubbele waarden instelt in dezelfde hit, worden alle instanties van die waarden door Adobe gedupliceerd. Als u bijvoorbeeld `s.list1 = "Brick,Brick";`, wordt één exemplaar geteld in rapporten.
+>Als u dubbele waarden instelt in dezelfde hit, worden met Adobe alle instanties van die waarden gedupliceerd. Als u bijvoorbeeld `s.list1 = "Brick,Brick";`, wordt één exemplaar geteld in rapporten.
 
 ## Lijsproeven met lijstvariabelen vergelijken
 
-De steunen van de lijst en lijstvariabelen kunnen allebei veelvoudige waarden in de zelfde slag bevatten. Er zijn echter verschillende belangrijke verschillen tussen deze twee typen variabelen.
+De steunen van de lijst en lijstvariabelen kunnen allebei veelvoudige waarden in de zelfde slag bevatten. Er zijn echter verschillende belangrijke verschillen tussen deze twee variabeletypen.
 
 * Elke eigenschap kan een lijst-eigenschap worden. U kunt in feite maximaal 75 lijstprofielen hebben, als elke eigenschap een lijst-eigenschap is. Er zijn slechts drie keuzelijsten beschikbaar.
 * Keuzerondjes voor lijsten hebben een limiet van 100 bytes voor de gehele variabele. Lijstvariabelen hebben een limiet van 255 bytes per waarde en geen limiet voor het totale aantal bytes.

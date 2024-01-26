@@ -3,9 +3,10 @@ title: Implementeren met Facebook Instant Artikelen
 description: Adobe Analytics implementeren op Facebook Instant Article-pagina's.
 feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ U kunt Adobe Analytics insluiten in Facebook Instant-artikelen om het gedrag van
 
 ## Workflow
 
-De volgende overkoepelende workflow voor het implementeren van Adobe Analytics:
+De overkoepelende workflow voor het implementeren van Adobe Analytics is als volgt:
 
 1. Een `stats.html` pagina. Code deze pagina om de parameters van het vraagkoord van URL te trekken en elke parameter aan een variabele van de Analyse toe te wijzen
 1. De gastheer van `stats.html` pagina op uw webserver
@@ -27,7 +28,7 @@ De volgende overkoepelende workflow voor het implementeren van Adobe Analytics:
 
 ### Stap 1: Een `stats.html` page
 
-U kunt de onderstaande voorbeeldweergave HTML gebruiken om stats van de instant-artikelen vast te leggen. Dit bestand wordt doorgaans gehost op een van de webservers van uw bedrijf. Elke keer dat een InstantArticle wordt geladen, wordt het bestand in een iframe geladen, waardoor gegevens naar Adobe worden verzonden.
+U kunt de onderstaande voorbeeldweergave HTML gebruiken om stats van de instant-artikelen vast te leggen. Dit bestand wordt doorgaans gehost op een van de webservers van uw bedrijf. Elke keer dat een InstantArticle wordt geladen, wordt het bestand in een iframe geladen, waardoor gegevens naar de Adobe worden verzonden.
 
 ```html
 <html>
@@ -61,11 +62,11 @@ U kunt de onderstaande voorbeeldweergave HTML gebruiken om stats van de instant-
 </html>
 ```
 
-### Stap 2: De gastheer van `stats.html` pagina op uw webserver
+### Stap 2: Gastheer de `stats.html` pagina op uw webserver
 
-Adobe raadt u aan uw `stats.html` pagina naast de laatste versie van `AppMeasurement.js` en `VisitorAPI.js`. Werk met de juiste engineeringteams in uw organisatie om dit bestand op de juiste locatie te hosten.
+Adobe raadt u aan uw `stats.html` pagina naast de laatste versie van `AppMeasurement.js` en `VisitorAPI.js`. Werk met de juiste technische teams in uw organisatie om dit bestand op de juiste locatie te hosten.
 
-### Stap 3: Referentie `stats.html` op elke Facebook Instant Article-pagina
+### Stap 3: Verwijzing `stats.html` op elke Facebook Instant Article-pagina
 
 Wanneer u Facebook Instant Article-inhoud maakt, sluit u de inhoud van de analytics HTML in een iframe in. Bijvoorbeeld:
 
@@ -73,14 +74,14 @@ Wanneer u Facebook Instant Article-inhoud maakt, sluit u de inhoud van de analyt
 <iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>
 ```
 
-### Stap 4: Aangepaste variabelen en gebeurtenissen bijhouden instellen
+### Stap 4: Aangepaste variabele en gebeurtenis-tracking instellen
 
 Aangepaste variabelen en gebeurtenissen kunnen binnen de analytische HTML worden bijgehouden via twee verschillende methoden:
 
 * Waarden en gebeurtenissen van variabelen rechtstreeks opnemen in het dialoogvenster `stats.html` pagina. Variabelen die hier worden gedefinieerd, zijn het meest geschikt voor waarden die doorgaans hetzelfde zijn voor alle Facebook Instant-artikelen.
 * Mogelijke waarden opnemen als onderdeel van een queryreeks die verwijst naar het iframe. Met deze methode kunt u variabelewaarden vanuit het Facebook Instant Article verzenden naar het iframe dat als host fungeert voor de Analytics-code.
 
-In het volgende voorbeeld worden verschillende aangepaste variabelen in een queryreeks getoond. JavaScript in `stats.html` zou dan de queryreeks controleren met `s.Util.getQueryParam()`.
+In het volgende voorbeeld worden verschillende aangepaste variabelen in een queryreeks getoond. Het JavaScript in `stats.html` zou dan de queryreeks controleren met `s.Util.getQueryParam()`.
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
@@ -92,4 +93,4 @@ In het volgende voorbeeld worden verschillende aangepaste variabelen in een quer
 
 ## Facebook Instant Artikelen en privacy
 
-Zolang de pagina Analytics HTML wordt gehost op uw webserver, ondersteunt Adobe uw bestaande privacybeleid voor alle Facebook Instant-artikelen. Als een gebruiker op uw primaire site niet meer wil volgen, kan hij of zij ook niet meer op al uw Facebook Instant-artikelen volgen. De nutspagina steunt ook de Dienst van de Identiteit van Adobe Experience Cloud zodat u de gegevens van het Artikel van Facebook Instant met de rest van de Experience Cloud kunt integreren.
+Zolang de pagina Analytics HTML wordt gehost op uw webserver, biedt Adobe ondersteuning voor uw bestaande privacybeleid voor alle Facebook Instant-artikelen. Als een gebruiker op uw primaire site niet meer wil volgen, kan hij of zij ook niet meer op al uw Facebook Instant-artikelen volgen. De nutspagina steunt ook de Dienst van de Identiteit van Adobe Experience Cloud zodat u de gegevens van het Artikel van Facebook Instant met de rest van het Experience Cloud kunt integreren.

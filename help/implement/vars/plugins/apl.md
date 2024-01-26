@@ -3,18 +3,19 @@ title: apl (appendToList)
 description: Voeg waarden toe aan variabelen die meerdere waarden ondersteunen.
 feature: Variables
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# Adobe-plug-in: apl (appendToList)
+# Adobe-insteekmodule: apl (appendToList)
 
 {{plug-in}}
 
-De `apl` kunt u veilig nieuwe waarden toevoegen aan door lijsten gescheiden variabelen, zoals [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md)en andere.
+De `apl` Met plug-in kunt u veilig nieuwe waarden toevoegen aan door lijsten gescheiden variabelen, zoals [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md)en andere.
 
 * Als de waarde die u wilt toevoegen niet in de variabele bestaat, voegt de code de waarde aan het einde van de tekenreeks toe.
 * Als de waarde die u wilt toevoegen al in de variabele bestaat, wijzigt deze plug-in de waarde niet. Hierdoor kan uw implementatie dubbele waarden voorkomen.
@@ -28,17 +29,17 @@ Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Installeer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+   * Voorwaarde: geen
+   * Event: Core - bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Extensie: veelgebruikte plug-ins voor Analytics
    * Type handeling: APL initialiseren (toevoegen aan lijst)
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -53,9 +54,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -68,13 +69,13 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 De `apl` function gebruikt de volgende argumenten:
 
-* **`lv`** (vereist, tekenreeks): De variabele die een lijst met gescheiden items bevat waaraan een nieuwe waarde moet worden toegevoegd
-* **`vta`** (vereist, tekenreeks): Een door komma&#39;s gescheiden lijst met de nieuwe waarden die aan de `lv` waarde van het argument.
-* **`d1`** (optioneel, tekenreeks): Het scheidingsteken dat wordt gebruikt om de afzonderlijke waarden te scheiden die al in het dialoogvenster `lv` argument.  Heeft als standaardwaarde een komma (`,`) wanneer niet ingesteld.
-* **`d2`** (optioneel, tekenreeks): Het uitvoerscheidingsteken. Heeft standaard dezelfde waarde als `d1` wanneer niet ingesteld.
-* **`cc`** (optioneel, Booleaans): Een markering die aangeeft of een hoofdlettergevoelige controle wordt gebruikt. Indien `true`De duplicatiecontrole is hoofdlettergevoelig. Indien `false` of niet ingesteld, is de duplicatiecontrole niet hoofdlettergevoelig. Standaardwaarden: `false`.
+* **`lv`** (vereist, tekenreeks): De variabele die een gescheiden lijst met items bevat waaraan een nieuwe waarde moet worden toegevoegd
+* **`vta`** (vereist, tekenreeks): Een door komma&#39;s gescheiden lijst met de nieuwe waarden die aan het object moeten worden toegevoegd `lv` waarde van het argument.
+* **`d1`** (optioneel, tekenreeks): het scheidingsteken dat wordt gebruikt voor het scheiden van de afzonderlijke waarden die al in het dialoogvenster `lv` argument.  Heeft als standaardwaarde een komma (`,`) wanneer niet ingesteld.
+* **`d2`** (optioneel, tekenreeks): het uitvoerscheidingsteken. Heeft standaard dezelfde waarde als `d1` wanneer niet ingesteld.
+* **`cc`** (optioneel, Boolean): een markering die aangeeft of een hoofdlettergevoelige controle wordt gebruikt. Indien `true`De duplicatiecontrole is hoofdlettergevoelig. Indien `false` of niet ingesteld, is de duplicatiecontrole niet hoofdlettergevoelig. Standaardwaarden: `false`.
 
-De `apl` functie retourneert de waarde van de `lv` plus eventuele niet-gedupliceerde waarden in het dialoogvenster `vta` argument.
+De `apl` functie retourneert de waarde van de `lv` plus eventuele niet-dubbele waarden in het dialoogvenster `vta` argument.
 
 ## Voorbeelden
 
