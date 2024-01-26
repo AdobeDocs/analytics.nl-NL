@@ -3,9 +3,9 @@ description: Administratieve stappen voor vestiging real-time rapporten.
 title: Configuratie van realtime rapporten
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Administratieve stappen voor vestiging real-time rapporten.
 
-Het instellen van realtime rapporten in Adobe Analytics bestaat uit het selecteren van de rapportsuite en het configureren van maximaal drie rapporten voor deze suite.
+Het instellen van realtime rapporten in Adobe Analytics bestaat uit het selecteren van de rapportsuite en het configureren van maximaal drie rapporten voor deze suite. Door gebrek, hebben alle gebruikers toegang tot Echt - tijd rapporten.
 
 1. Selecteer de rapportsuite waarvoor u realtime rapporten wilt inschakelen.
 
@@ -53,8 +53,11 @@ Het instellen van realtime rapporten in Adobe Analytics bestaat uit het selecter
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Klikken **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]**.
+1. Klik op **[!UICONTROL Save]**.
 
    Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar.
 
-1. Door gebrek, hebben alle gebruikers toegang tot Echt - tijd rapporten.
+1. Navigeer naar:
+
+   **[!UICONTROL Workspace]** > **[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**.
+
