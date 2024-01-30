@@ -4,9 +4,9 @@ keywords: Virtuele rapportsuite
 title: Virtuele rapportreeksen en tagging met meerdere suite
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 6e9ea48df286b2bde6a071ab3d0f29a764382c6d
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Het delen van segmenten naar Adobe Experience Cloud wordt niet ondersteund voor 
 
 Segmenten kunnen nog niet naar Adobe Experience Cloud worden gepubliceerd vanuit een virtuele rapportsuite voor personalisatie en doelgerichtheid. Alle gebruikers die segmenten publiceren hebben hiervoor toegang tot de bronrapportsuite nodig. U wilt bijvoorbeeld dat gebruikers alleen toegang hebben tot gegevens voor hun geografische regio&#39;s, maar dat ze segmenten van Adobe Analytics naar Adobe Experience Cloud kunnen maken en delen voor Adobe Target. In dit geval raadt Adobe aan tags toe te wijzen met meerdere suite. Als u gebruikers die toegang tot de globale rapportreeks hebben of u niet segmenten voor gebruik in andere oplossingen moet publiceren, kunnen de virtuele rapportreeksen worden gebruikt.
 
-### Unieke limieten
+### Unieke (lage) grenzen
 
 Als u een globaal rapportpakket hebt dat een groot aantal plaatsen samen combineert, is het mogelijk dat u in [met laag verkeer](/help/technotes/low-traffic.md) lijstitem vaak. Als u multi-suite markering gebruikt, is dit slechts een kwestie voor de globale rapportsuite (individuele rapportsuites zullen minder vaak weinig verkeer zien). Als u virtuele rapportsuites gebruikt, worden de unieke grenzen gedeeld, veroorzakend individuele rapportsuites ook laag-verkeer tonen. U kunt overwegen tags toe te voegen aan meerdere suite als u wilt voorkomen dat gegevens in laag verkeer worden opgenomen.
 
-Een grote mediaorganisatie heeft bijvoorbeeld 100 wegeigenschappen. Elke eigenschap publiceert maandelijks een paar duizend nieuwsartikelen, naast het hosten van alle artikelen uit voorgaande maanden. Deze organisatie gebruikt een globaal rapportenpakket waar eVar1 &quot;Artikelnaam&quot;is. In dit rapport zijn er elke maand ongeveer 4 miljoen unieke artikelnamen van de verschillende eigenschappen samen. Als het gebruiken van een virtuele rapportreeks, zijn de hoogste 500.000 waarden die uit het grootste deel van het verkeer bestaan inbegrepen in virtuele rapportreeksen; de resterende 3.5 miljoen zijn inbegrepen onder laag-verkeer. Als taggen met meerdere suite&#39;s wordt gebruikt, kan elke afzonderlijke rapportsuite zijn eigen hoogste waarden van 500 k zien. De unieke limieten van de algemene rapportsuite zijn hetzelfde tussen het gebruik van tags met meerdere suite en virtuele rapportensuites.
+Een grote mediaorganisatie heeft bijvoorbeeld 100 wegeigenschappen. Elke eigenschap publiceert maandelijks een paar duizend nieuwsartikelen, naast het hosten van alle artikelen uit voorgaande maanden. Deze organisatie gebruikt een globaal rapportenpakket waar eVar1 &quot;Artikelnaam&quot;is. In dit rapport wordt verondersteld dat er elke maand ongeveer 5 miljoen unieke artikelnamen zijn van de verschillende eigenschappen samen. Als het gebruiken van een virtueel rapportreeks, slechts zal een deel van de 5 miljoen waarden in de virtuele rapportreeks worden omvat. De overige zijn opgenomen onder laag verkeer. Als taggen met meerdere suite wordt gebruikt, kan elke afzonderlijke rapportsuite een eigen set unieke waarden zien.
 
-De Zorg van de Klant van de Adobe kan unieke waardegrenzen voor een klein aantal dimensies verhogen, die dit probleem volledig kunnen elimineren. Raadpleeg het accountteam en de klantenservice voor meer informatie.
+De Zorg van de Klant van de Adobe kan unieke waardegrenzen voor een klein aantal dimensies soms verhogen, die dit probleem volledig kunnen elimineren. Raadpleeg het accountteam en de klantenservice voor meer informatie.
 
 ### Gedeelde variabelen over rapportsuites
 
