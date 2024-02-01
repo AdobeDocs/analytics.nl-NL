@@ -4,7 +4,7 @@ title: Bijdrageanalyse uitvoeren
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 [Bijdrage-analyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) is een intensief machinaal leerproces dat is ontworpen om contribuanten aan een waargenomen anomalie in Adobe Analytics aan het licht te brengen. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
 
-## Bijdrageanalyse uitvoeren {#section_7D2C5E48A5664727941DF4C90976D9DC}
+## Bijdrageanalyse uitvoeren {#run}
 
 Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een project:
 
@@ -31,7 +31,7 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
   ![](assets/contribution-analysis.png)
 
-1. (Optioneel) Nadat u hebt geklikt **[!UICONTROL Run Contribution Analysis]** in of de lijngrafiek of een lijst, kunt u het werkingsgebied van (en zo versnellen) de analyse door [exclusief afmetingen](#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Optioneel) Nadat u hebt geklikt **[!UICONTROL Run Contribution Analysis]** in of de lijngrafiek of een lijst, kunt u het werkingsgebied van (en zo versnellen) de analyse door [exclusief afmetingen](#exclude).
 
 1. Wacht terwijl de analyse van uw bijdrage wordt geladen. Dit kan veel tijd in beslag nemen, afhankelijk van de grootte van uw rapportenpakket en het aantal dimensies. De analyse van de bijdrage voert analyse op de hoogste 50.000 punten per dimensie uit.
 1. Analysis Workspace laadt vervolgens een nieuw deelvenster voor de analyse van bijdragen rechtstreeks in dit project.
@@ -56,7 +56,7 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 >
 >We benadrukken de anomalie die wordt geanalyseerd met een blauwe stip in de bijdrageanalyse en de projecten voor intelligente waarschuwingen die eraan gekoppeld zijn. Dit geeft een duidelijkere indicatie van hoe de anomalie wordt geanalyseerd.
 
-## Afmetingen uitsluiten van bijdrageanalyse {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## Afmetingen uitsluiten van bijdrageanalyse {#exclude}
 
 Het kan voorkomen dat u bepaalde dimensies wilt uitsluiten van de Contribute-analyse. Het kan bijvoorbeeld zijn dat u helemaal niets aan uw browser of hardware kunt schelen en dat u de analyse wilt versnellen door deze te verwijderen.
 

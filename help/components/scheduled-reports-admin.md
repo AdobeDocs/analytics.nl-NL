@@ -4,10 +4,11 @@ title: Wachtrij voor geplande rapporten
 feature: Admin Tools
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 2%
+source-wordcount: '292'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +20,7 @@ Laat Admin-vlakke gebruikers geplande rapporten over de organisatie zien en behe
 
 De functies op beheerniveau in het Geplande Manager van Rapporten omvatten:
 
-* De optie [Alle geplande rapporten weergeven](/help/components/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) in uw organisatie.
+* De optie om [Alle geplande rapporten weergeven](/help/components/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) in uw organisatie.
 * [Geavanceerde filtermogelijkheden](/help/components/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) in uw organisatie.
 * De nieuwe [Wachtrij rapporteren](/help/components/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) tabblad waarin alle rapporten worden weergegeven die in de wachtrij worden geplaatst voor uitvoering op rapportservers.
 * De [Plan-id](/help/components/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) in de interface van de Rij van het Rapport.
@@ -50,6 +51,6 @@ De Rij van het Rapport geeft u ook de capaciteit om &quot;een gepland rapport ee
 
 ## Plan-id {#section_568B70F4228C4229977CB85D2DCD53A1}
 
-De **[!UICONTROL Schedule ID]** blootgesteld in de interface van de Rij van het Rapport helpt wanneer u de Zorg van de Cliënt van Adobe voor de resolutie van een geplande rapportkwestie moet contacteren.
+De **[!UICONTROL Schedule ID]** blootgesteld in de de interfacehulp van de Rij van het Rapport wanneer u de Zorg van de Cliënt van de Adobe voor resolutie van een geplande rapportkwestie moet contacteren.
 
 ![](assets/schedule_id.png)

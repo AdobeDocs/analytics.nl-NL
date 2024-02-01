@@ -1,21 +1,22 @@
 ---
-title: Hoe herspeelt u
+title: Hoe herspeelt u?
 description: Begrijp het concept "replay"in Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
 
-# Hoe herspeelt u
+# Hoe herspeelt u?
 
 Analytics voor verschillende apparaten maakt twee gegevenscontroles in een virtuele rapportsuite:
 
 * **Levend stitching**: CDA probeert elke hit te stikken terwijl hij binnenkomt. Netto nieuwe apparaten aan de rapportreeks die nooit het programma hebben geopend worden typisch niet vastgemaakt op dit niveau. Apparaten die al zijn herkend, worden direct vastgezet.
-* **Opnieuw afspelen**: Ongeveer eens per week, &quot;herspeelt&quot;CDA gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. In dit stadium worden nieuwe apparaten aan de rapportsuite vastgezet.
+* **Opnieuw afspelen**: Ongeveer eenmaal per week worden CDA gegevens opnieuw afgespeeld op basis van unieke id&#39;s die het heeft geleerd. In dit stadium worden nieuwe apparaten aan de rapportsuite vastgezet.
 
 ## Voorbeeldtabel
 
@@ -27,10 +28,10 @@ Zodra een treffer is verzameld, probeert de CDA deze aan bekende apparaten te he
 
 *Gegevens zoals deze worden weergegeven op de dag waarop ze worden verzameld:*
 
-| Tijdstempel | ECID | eVar1 of CustomerID | Toelichting bij treffer | Metrische personen (cumulatief) die de Grafiek van het Apparaat gebruiken | Metrische personen (cumulatief) die op veld gebaseerde stitching gebruiken |
+| Tijdstempel | ECID | eVar1 of CustomerID | Toelichting bij treffer | Metrische personen (cumulatief) met apparaatgrafiek | Metrische personen (cumulatief) die op veld gebaseerde stitching gebruiken |
 | --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | Bob op zijn desktopcomputer, niet geverifieerd | `1` (246) | `1` (246) |
-| `2` | `246` | `Bob` | Bob meldt zich aan op zijn bureaublad | `1` (246) | `2` (246 en Bob) |
+| `1` | `246` | - | Bob op zijn desktopcomputer, niet geverifieerd | `1` 246 | `1` 246 |
+| `2` | `246` | `Bob` | Bob meldt zich aan op zijn bureaublad | `1` 246 | `2` (246 en Bob) |
 | `3` | `3579` | - | Bob op zijn mobiele apparaat, niet geverifieerd | `2` (246 en 3579) | `3` (246, Bob en 3579) |
 | `4` | `3579` | `Bob` | Bob meldt zich aan op mobile | `2` (246 en 3579) | `3` (246, Bob en 3579) |
 | `5` | `246` | - | Bob benadert uw site opnieuw op het bureaublad, zonder verificatie | `2` (246 en 3579) | `3` (246, Bob en 3579) |
@@ -64,7 +65,7 @@ Als een apparaat aanvankelijk gegevens verzendt terwijl niet voor authentiek ver
 
 *Dezelfde gegevens na afspelen:*
 
-| Tijdstempel | ECID | eVar1 of CustomerID | Toelichting bij treffer | Metrische personen (cumulatief) die de Grafiek van het Apparaat gebruiken | Metrische personen (cumulatief) die op veld gebaseerde stitching gebruiken |
+| Tijdstempel | ECID | eVar1 of CustomerID | Toelichting bij treffer | Metrische personen (cumulatief) met apparaatgrafiek | Metrische personen (cumulatief) die op veld gebaseerde stitching gebruiken |
 | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob op zijn desktopcomputer, niet geverifieerd | `1` (Cluster1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob meldt zich aan op zijn bureaublad | `1` (Cluster1) | `1` (Bob) |

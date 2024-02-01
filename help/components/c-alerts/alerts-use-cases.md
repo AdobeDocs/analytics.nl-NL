@@ -1,28 +1,22 @@
 ---
 description: Gebruik gevallen voor het maken en beheren van intelligente waarschuwingen.
-title: Intelligente waarschuwingen - gebruiksscenario's
+title: Intelligente waarschuwingen - gebruiksgevallen
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
-# Intelligente waarschuwingen - gebruiksscenario&#39;s
+# Intelligente waarschuwingen - gebruiksgevallen
 
-## Eenvoudige waarschuwing maken, gefilterd door twee segmenten {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
-
-<!-- 
-
-Update screenshots for better readability.
-
- -->
+## Eenvoudige waarschuwing maken die door twee segmenten wordt gefilterd {#filter}
 
 ![](assets/alerts_example1.png)
 
-## Een waarschuwing maken op basis van een tabelselectie {#section_AE6D42E1255D498D908A2FA60370A419}
+## Een waarschuwing maken op basis van een tabelselectie {#from-selection}
 
 In de Lijsten van de Vrije Vorm, kunt u binnen-context alarm nu tot stand brengen door een lijstrij met de rechtermuisknop aan te klikken en te selecteren **[!UICONTROL Create Alert from Selection]**.
 
@@ -32,7 +26,7 @@ Dit vult onmiddellijk de Waakzame Bouwer vooraf in om een alarm met correcte met
 
 ![](assets/prepopulated_alert.png)
 
-## Consolideer waarschuwingen (stapel) in plaats van meerdere waarschuwingen te maken {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Consolideer waarschuwingen (stapel) in plaats van meerdere waarschuwingen te maken {#stacking}
 
 Het stapelen alarm zorgt ervoor dat de alarm wordt gecombineerd en u krijgt geen aantal afzonderlijke alarm.
 

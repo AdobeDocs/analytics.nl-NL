@@ -3,9 +3,10 @@ title: Apparaatanalyse instellen
 description: Configureer een virtuele rapportsuite om CDA in te schakelen.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Als aan alle voorwaarden is voldaan, voert u de volgende stappen uit om Apparaat
 >
 >Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie de [overzichtspagina](overview.md) en de gewenste methode ([Veldgebaseerde stitching](field-based-stitching.md) of [Apparaatgrafiek](device-graph.md), respectievelijk) voor voorwaarden en beperkingen.
 
-## Open een ticket met de klantenservice om CDA beschikbaar te stellen op uw rapportenpakket voor alle apparaten
+## 1. Open een ticket met de klantenservice om CDA te laten voorzien op uw rapportenpakket voor andere apparaten
 
 CDA is provisioned op uw cross-device rapportsuite door Adobe engineering. Neem contact op met de klantenservice om dit proces te starten en bereid te zijn de volgende informatie te verstrekken:
 
@@ -31,7 +32,7 @@ De standaardinstelling is wekelijks opnieuw afspelen met een terugkijkvenster va
 
 Zodra u de klantenservice deze informatie verschaft, werken zij samen met Adobe Engineering om uw gekozen rapportenpakket in te schakelen voor CDA-verwerking.
 
-## Maak een virtuele-rapportsuite voor meerdere apparaten om de apparaatweergave te bekijken
+## 2. Maak een virtueel rapportenpakket voor alle apparaten om de apparaatweergave te bekijken
 
 Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen als volgt virtuele CDA-rapportensuites maken:
 

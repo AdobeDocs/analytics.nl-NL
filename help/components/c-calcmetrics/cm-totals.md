@@ -3,14 +3,14 @@ title: Berekende totalen van metriek
 description: Meer informatie over berekende totalen in Analysis Workspace
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
-# Berekende totalen van metriek [!DNL Analysis Workspace]
+# Berekende totalen van metriek in Analysis Workspace
 
 Wanneer u gegevens in Analysis Workspace bekijkt, worden de berekende metrische totalen in de meeste gevallen getoond. In sommige gevallen is het niet mogelijk een totaal op te geven, bijvoorbeeld wanneer de rijen van het rapport een gemengd formaat hebben (bijvoorbeeld decimaal en valuta).
 

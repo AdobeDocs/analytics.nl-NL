@@ -3,9 +3,9 @@ description: Het systeem van de Intelligente Alarm staat voor meer korrelige con
 title: Intelligente waarschuwingen
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '512'
 ht-degree: 6%
 
 ---
@@ -44,39 +44,37 @@ Er zijn drie manieren om naar de Waarschuwingsbouwer te gaan:
   ![](assets/create-alert-from-selection.png)
 
 
-## Veelgestelde vragen: Hoe waarschuwingen worden berekend en geactiveerd {#trigger}
+## Veelgestelde vragen: hoe waarschuwingen worden berekend en geactiveerd {#trigger}
 
 De procentuele drempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen en 99% = 3 standaardafwijkingen. Afhankelijk van de tijdsgranulariteit die u kiest, [verschillende modellen](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) worden gebruikt om te berekenen hoe ver weg (hoeveel standaardafwijkingen) elk gegevenspunt van de norm is. Als u een lagere drempel instelt (bijvoorbeeld 90%), krijgt u meer anomalieën dan wanneer u een hogere drempel instelt (99%). 99,75% &amp; 99,99% drempels werden ingevoerd specifiek voor de uurgranulariteit zodat het niet zoveel anomalieën zou veroorzaken.
 
-<table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Vraag </th> 
-   <th colname="col2" class="entry"> Antwoord </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Q: Hoe ver gaat de anomalieopsporing van de alarm om gegevensanomalieën te bepalen?</b> </p> </td> 
-   <td colname="col2"> <p>De trainingsperiode is afhankelijk van de geselecteerde korreligheid. Zie Statistische technieken gebruikt in <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> voor meer details. Hier volgt een overzicht: </p> 
-    <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
-     <li id="li_E246091A3F1E484C8444AF4052FCA784">Maandelijks = 15 maanden + zelfde marge vorig jaar </li> 
-     <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Wekelijks = 15 weken + zelfde marge vorig jaar </li> 
-     <li id="li_2517EE2097534324BE9C1B54CD181A62">Dagelijks = 35 dagen + zelfde waaier vorig jaar </li> 
-     <li id="li_710BC8B009354542AA4962A59A646099">Uur = 336 uur </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q: Als ik slechts aan een dip in gedrag of slechts een piek in gedrag wil worden gealarmeerd, kan ik de anomalieeigenschap gebruiken of moet ik absolute waarde gebruiken?</b> </p> </td> 
-   <td colname="col2"> <p>Het gebruiken van absolute waarde zou alarm op dips evenals pieken nog teweegbrengen. U kunt waarschuwingen niet isoleren voor alleen dips of alleen pieken. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q: Kan ik alarm vormen om slechts tijdens bepaalde uren van de dag (zoals kantooruren vs. niet-bedrijfsuren) teweeg te brengen? </b> </p> </td> 
-   <td colname="col2"> <p>Op dit moment, nee. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q: Kan ik een lijst krijgen van de "verwachte waarden"die uit de stippellijn bestaan, of één of andere soort output van wat die waarden zijn? </b> </p> </td> 
-   <td colname="col2"> <p>Niet in Workspace, maar in Report Builder (zie deze video op <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  > Anomaly Detection in Report Builder </a>). </p> <p>Houd er rekening mee dat Report Builder minder geavanceerde afwijkingsdetectiemethoden gebruikt. Het gebruikt een vaste opleidingsperiode van 30 dagen, vaste 95% interval. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Hoe ver gaat de anomaliedetectie van de waarschuwing om anomalieën in de gegevens vast te stellen?
+
+De trainingsperiode is afhankelijk van de geselecteerde korreligheid. Zie Statistische technieken gebruikt in <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> voor meer details. Hier volgt een overzicht:
+
+* Maandelijks = 15 maanden + zelfde marge vorig jaar
+* Wekelijks = 15 weken + zelfde marge vorig jaar
+* Dagelijks = 35 dagen + zelfde waaier vorig jaar
+* Uur = 336 uur
+
++++
+
++++ Mag ik de functie voor anomalie gebruiken of moet ik een absolute waarde gebruiken om alleen te worden gewaarschuwd voor een dip in gedrag of alleen voor een piek in gedrag?
+
+Het gebruiken van de absolute waarde zou alarm op dips evenals pieken nog teweegbrengen. U kunt waarschuwingen niet isoleren voor alleen dips of alleen pieken.
+
++++
+
++++ Kan ik alarm vormen om slechts tijdens bepaalde uren van de dag (zoals kantooruren vs. niet-bedrijfsuren) teweeg te brengen?
+
+Op dit moment, nee.
+
++++
+
++++ Kan ik een tabel krijgen van de &quot;verwachte waarden&quot; die de stippellijn vormen, of een soort output van wat die waarden zijn?
+
+Niet in Workspace, maar in Report Builder. Zie [deze video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html) over Anomaly Detection in Report Builder.
+
+Houd er rekening mee dat Report Builder minder geavanceerde afwijkingsdetectiemethoden gebruikt. Het gebruikt een vaste opleidingsperiode van 30 dagen, vaste 95% interval.
+
++++

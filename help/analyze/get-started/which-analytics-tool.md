@@ -3,9 +3,9 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe A
 title: Welk Adobe Analytics-gereedschap moet ik gebruiken?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1155'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 
 **[API voor gegevensinvoer](/help/import/c-data-insertion-api/c-data-insertion-api.md)** dienen te worden gebruikt:
 
-* Wanneer u gegevens naar Adobe Analytics moet uploaden en u kunt de Adobe AppMeasurement- of mobiele SDK-code niet gebruiken.
+* Wanneer u gegevens naar Adobe Analytics moet uploaden en u kunt de Adobe AppMeasurement- of mobiele SDK-code niet gebruiken. We raden u aan de API voor het invoegen van gegevens in bulk te gebruiken (zie hieronder).
 
 **[API voor het invoegen van bulkgegevens](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
