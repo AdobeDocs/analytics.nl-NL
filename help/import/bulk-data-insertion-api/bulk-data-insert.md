@@ -1,13 +1,14 @@
 ---
 title: API voor data-invoer in bulk
-description: BDIA (Bulk Data Insertion API) is een Adobe Analytics-functie waarmee u gegevens van serveroproepen in batches bestanden kunt uploaden in plaats van bibliotheken op de client, zoals AppMeasurement. De serveraanroepen in deze batchbestanden kunnen actuele (live) gegevens of historische gegevens zijn. Het is een meer schaalbare opvolger van de API voor het invoegen van gegevens in eerdere versies van de Adobe Analytics API.
+description: BDIA (Bulk Data Insertion API) is een Adobe Analytics-functie waarmee u gegevens van serveroproepen in batches bestanden kunt uploaden in plaats van bibliotheken op de client, zoals AppMeasurement.
 solution: Analytics
 feature: API
 exl-id: c9d23fae-2800-42bb-8f8d-adf915cadc62
-source-git-commit: b1ebf6e3548ef73217ffff1cbfb66af82e38fb8f
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 8%
+source-wordcount: '186'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +18,7 @@ De toevoeging van bulkgegevens lost verscheidene gebruiksgevallen op, zoals:
 
 * Historische gegevens uit een vorig analysesysteem verzamelen
 
-* Een intern analysesysteem dat het onuitvoerbaar maakt om AppMeasurement te gebruiken. Met de ETL-processen (Extract-Transform-Load) kunt u gegevens in batchbestanden plaatsen. Vervolgens gebruikt u BDIA om deze te uploaden naar Adobe Analytics.
+* Een intern analysesysteem dat het gebruik van AppMeasurement onmogelijk maakt. Met de ETL-processen (Extract-Transform-Load) kunt u gegevens in batchbestanden plaatsen. Vervolgens gebruikt u BDIA om deze te uploaden naar Adobe Analytics.
 
 * Gegevensverzameling van apparaten die slechts intermitterende connectiviteit met internet hebben. Deze apparaten slaan de interacties op tot zij een verbinding ontvangen. Het apparaat kan de gegevens vervolgens allemaal tegelijk uploaden via BDIA.
 

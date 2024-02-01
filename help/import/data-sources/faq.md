@@ -3,9 +3,10 @@ title: Veelgestelde vragen over gegevensbronnen
 description: Veelgestelde vragen over gegevensbronnen.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Gegevensbronnen maken geen kosten en tellen ook niet voor het gebruik van server
 +++
 
 +++Hoe beïnvloeden gegevensbronnen attributie en vervaldatum voor eVars?
-Als een transactieID tussen een gegevensbron en een online hit aanpast, nemen de bijbehorende eVar de zelfde attributie en de vervaldatum aan alsof zij op de online slag werden geplaatst.
+Als een transactieID tussen een gegevensbron en een online treffer aanpast, veronderstellen de bijbehorende waarden van eVar de zelfde attributie en de vervaldatum alsof zij op de online slag werden geplaatst.
 
 Alle andere gegevens die via gegevensbronnen zijn geüpload, hebben geen kenmerk of vervaldatum.
 +++
@@ -30,7 +31,7 @@ Gegevens die via gegevensbronnen zijn geüpload, hebben geen invloed op [Paginaw
 
 +++Kan ik gegevens verwijderen die met gegevensbronnen zijn geïmporteerd?
 
-**Nee.** Gegevens die met behulp van gegevensbronnen in rapporten zijn geüpload, zijn **permanent**. Het kan niet worden verwijderd, zelfs niet door Adobe, zodra het is geïmporteerd. Adobe raadt u ten zeerste aan gegevensbronnen te uploaden naar een testrapportsuite voordat u deze uploadt naar een productierapportsuite.
+**Nee.** Gegevens die met behulp van gegevensbronnen in rapporten zijn geüpload, zijn **permanent**. Het kan niet worden verwijderd, zelfs niet door Adobe, zodra het is ingevoerd. Adobe raadt sterk aan gegevensbronnen te uploaden naar een testrapportsuite voordat deze in een productierapportsuite wordt geüpload.
 +++
 
 +++Hoeveel gegevens kan ik tegelijkertijd importeren?
@@ -51,6 +52,6 @@ Ja. Bestanden met een extensie van `.TXT` of `.FIN` niet worden verwerkt. Zorg e
 U kunt zo veel kolommen aan een gegevensbrondossier omvatten aangezien u zou willen, als zij alle geldige kolommen zijn. Zie [Bestandsindeling](file-format.md) voor een lijst met geldige namen van variabelen en kolommen.
 +++
 
-+++Kan ik gegevensbronnen gebruiken zonder de door Adobe verschafte FTP-locatie te gebruiken?
-U kunt de [API voor gegevensbronnen](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), waarmee u API-aanroepen rechtstreeks naar Adobe kunt verzenden. Deze API-aanroepen bevatten een `UploadData` methode, waarmee u gegevens kunt verzenden via een JSON-objectlading.
++++Kan ik gegevensbronnen gebruiken zonder de door de Adobe verschafte FTP-locatie te gebruiken?
+U kunt de [API voor gegevensbronnen](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), waarmee u API-aanroepen rechtstreeks naar de Adobe kunt verzenden. Deze API-aanroepen bevatten een `UploadData` methode, waarmee u gegevens kunt verzenden via een JSON-objectlading.
 +++

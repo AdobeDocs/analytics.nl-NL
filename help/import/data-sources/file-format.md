@@ -3,9 +3,10 @@ title: Bestandsindeling gegevensbron
 description: U moet een bestand op de juiste manier genereren voor gebruik in gegevensbronnen.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 3%
 
 ---
@@ -25,10 +26,10 @@ Gegevensbronbestanden hebben de volgende eigenschappen:
 
 Elke rij die begint met &#39;`#`&#39; is een opmerking. Bij het downloaden van een gegevensbronsjabloonbestand zijn de eerste twee regels opmerkingen.
 
-* De eerste opmerking geeft het type sjabloon aan dat u hebt geconfigureerd voor de gegevensbron, de achterste gebruikersnaam die de gegevensbron heeft gemaakt en de gegevensbron-id.
+* De eerste opmerking geeft het type sjabloon aan dat u hebt geconfigureerd voor de gegevensbron, de achterste gebruiker-id die de gegevensbron heeft gemaakt en de gegevensbron-id.
 * De tweede opmerking bevat vriendelijke namen voor elk van de kopteksten die in het sjabloonbestand zijn opgenomen.
 
-Alle rijen met opmerkingen worden door Adobe genegeerd wanneer het bestand wordt verwerkt. U kunt dus de sjabloonopmerkingen verwijderen of uw eigen opmerkingen in het hele bestand toevoegen. Alleen volledige rijen kunnen worden becommentarieerd. u kunt afzonderlijke velden of gedeeltelijke rijen niet uitsluiten.
+Alle rijen met opmerkingen worden door de Adobe genegeerd wanneer het bestand wordt verwerkt, zodat u de sjabloonopmerkingen kunt verwijderen of uw eigen opmerkingen in het hele bestand kunt toevoegen. U kunt alleen opmerkingen toevoegen aan volledige rijen. U kunt geen opmerkingen toevoegen aan afzonderlijke velden of gedeeltelijke rijen.
 
 ## Kopteksten
 
@@ -36,7 +37,7 @@ Bij het uploaden van gegevensbronbestanden zijn kolomkoppen vereist. Deze kolomk
 
 >[!TIP]
 >
->U kunt een bestand met gegevensbronnen helemaal opnieuw maken als u de juiste koppen in het gegevensbronbestand opneemt. Het aantal kopteksten dat u in één bestand kunt opnemen, is onbeperkt. nochtans, kan elke rij slechts een maximum van 4096 bytes hebben.
+>U kunt een bestand met gegevensbronnen helemaal opnieuw maken als u de juiste koppen in het gegevensbronbestand opneemt. Er is geen limiet aan het aantal kopteksten dat u in één bestand kunt opnemen. Elke rij kan echter maximaal 4096 bytes bevatten.
 
 | Dimension | Koptekst gegevensbron |
 | --- | --- |
@@ -51,7 +52,7 @@ Bij het uploaden van gegevensbronbestanden zijn kolomkoppen vereist. Deze kolomk
 
 {style="table-layout:auto"}
 
-Dimension en metriek komen in dezelfde koptekstrij.
+Dimensionen en metriek komen in dezelfde koptekstrij.
 
 | Metrisch | Koptekst gegevensbron |
 | --- | --- |
@@ -76,16 +77,16 @@ De eerste waarde in elke rij **moet** de datum zijn. De datumnotatie moet een va
 * **`MM/DD/YY/HH/mm/SS`**
 * **`MM/DD/YY`**
 
-Als u de uren/minuten/seconden weglaat, wordt de tijdstempel automatisch voor die dag ingesteld op 12 uur &#39;s middags.
+Als u de uren/minuten/seconden weglaat, wordt de tijdstempel automatisch ingesteld op 12 uur voor die dag.
 
 Eén gegevensbronbestand ondersteunt maximaal 90 unieke dagen. Als u meer dan 90 unieke dagen wilt opnemen in een upload, splitst u de gegevens in meerdere bestanden.
 
 ## Dimension- en metrische gegevens
 
-De volgende waarden na de datum in elke rij bevatten de gegevens die u wilt uploaden. Elke rij komt overeen met die tijdstempel. Controleer of op elke rij hetzelfde aantal tabbladen voorkomt. Kolommen kunnen in willekeurige volgorde worden geplaatst; Zorg ervoor dat de gegevens in elke rij worden uitgelijnd met de koppen bovenaan. De maximale hoeveelheid gegevens die één rij kan bevatten, is 4096 bytes.
+De volgende waarden na de datum in elke rij bevatten de gegevens die u wilt uploaden. Elke rij komt overeen met die tijdstempel. Zorg ervoor dat op elke rij hetzelfde aantal tabbladen voorkomt. De kolommen kunnen in om het even welke orde zijn; zorg ervoor dat de gegevens in elke rij op de kopballen bij de bovenkant richten. De maximale hoeveelheid gegevens die één rij kan bevatten, is 4096 bytes.
 
-Dimension-gegevens mogen geen puntkomma&#39;s bevatten (`;`). Rijen met puntkomma&#39;s worden overgeslagen.
+Gegevens van Dimension mogen geen puntkomma&#39;s bevatten (`;`). Rijen met puntkomma&#39;s worden overgeslagen.
 
 ## Volgende stappen
 
-[Bestand uploaden](file-upload.md): Leer het proces om een dossier van gegevensbronnen voor opname door Adobe te uploaden.
+[Bestand uploaden](file-upload.md): Leer het uploaden van een gegevensbronbestand voor inname door Adobe.
