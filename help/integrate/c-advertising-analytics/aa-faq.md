@@ -3,130 +3,161 @@ description: Veelgestelde vragen over Advertising Analytics.
 title: Veelgestelde vragen voor reclameanalyses
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 2%
+source-wordcount: '1307'
+ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen
 
-## Toegang/rechten {#section_5F558C5981F747F0AF375A9E4B75C93C}
+## Toegang/rechten {#access}
 
-<table id="table_6713C3B0B6734F768370F974EB5AC5E8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Vraag </th> 
-   <th colname="col2" class="entry"> Antwoord </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Q: Moet ik een <b>Adobe Advertising Cloud- of Adobe Advertising Cloud-klant (AMO)</b> toegang te krijgen tot deze functionaliteit? </p> </td> 
-   <td colname="col2"> <p>A: Nee, deze functionaliteit is beschikbaar voor niet-Advertising Cloud- en niet-AMO-klanten. </p> <p>AMO-klanten kunnen gebruikmaken van de bestaande integratie tussen Analytics en AMO; ze kunnen Ad Analytics niet gebruiken. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: welke <b>Adobe Analytics SKU's</b> Je het recht geven om Advertising Analytics te gebruiken? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics is beschikbaar voor Adobe Analytics <a href="https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html"  > Selecteren </a>, <a href="https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html"  > Eerste </a>, en <a href="https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html"  > Ultieme </a> SKU's. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Moeten we <b>betaal extra</b> om Advertising Analytics te gebruiken? </p> </td> 
-   <td colname="col2"> <p>A: Nee, buiten de juiste SKU-provisioning maakt Advertising Analytics geen extra kosten. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Zal Advertising Analytics tellen voor mijn <b>serveroproepgebruik</b>? </p> </td> 
-   <td colname="col2"> <p>A: Neen, Advertising Analytics gebruikt een speciaal gegevensbrontype dat geen kosten van de servervraag veroorzaakt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Als I <b>Advertising Cloud/AMO wordt al gebruikt</b>, kan ik nog steeds de Advertising Analytics-functionaliteit gebruiken? </p> </td> 
-   <td colname="col2"> <p>A: Alle compatibele accounts van zoekprogramma's worden doorgegeven naar Advertising Analytics en worden weergegeven als alleen-lezen. Alle bewerkingen of updates moeten worden verwerkt in Advertising Cloud/AMO. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Ik bezit de juiste SKU, maar ik <b>heeft geen toegang</b> Advertising Analytics, waarom is dat? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics is alleen beschikbaar voor Adobe Analytics-beheerders; beheerders kunnen echter toegang verlenen aan niet-beheerders. Neem contact op met uw beheerder voor toegangsrechten. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Moet ik Adobe Advertising Cloud of Adobe Advertising Cloud (AMO) klant zijn om toegang te krijgen tot deze functionaliteit?
 
-## Advertising Analytics gebruiken {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+Nee, deze functionaliteit is beschikbaar voor niet-Advertising Cloud- en niet-AMO-klanten. </p> <p>AMO-klanten kunnen gebruikmaken van de bestaande integratie tussen Analytics en AMO; ze kunnen Ad Analytics niet gebruiken.
 
-<table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
- <thead> 
-  <tr> 
-   <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> Vraag </th> 
-   <th colname="col2" class="entry"> Antwoord </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Q: welke <b>zoekprogrammaaccounts</b> zijn ze opgenomen in Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>A: Zoekmachinerekeningen bevatten Google AdWords en Microsoft Bing. </p> <p>Opmerking: Yahoo Gemini werd op 31 maart 2019 door Microsoft Bing geabsorbeerd. Als gevolg hiervan is de optie voor een Yahoo Gemini-advertentieaccount niet meer beschikbaar. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Waar ga ik naar <b>toegang</b> Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>A: Navigeer na het aanmelden naar Adobe Analytics naar de <span class="uicontrol"> Beheerder </span> -menu. Selecteer vervolgens de nieuwe menuoptie <span class="uicontrol"> Advertising Analytics </span> om je zoekprogrammaaccounts toe te voegen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Hoe is het? <b>gegevens verzameld en doorgegeven aan Analytics</b>? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics gebruikt een reeks aangepaste API's om gegevens van zoekmachines via de Adobe Advertising Cloud door te geven aan Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>V: Wat <b>zoekgegevens</b> kom ik bij deze integratie? </p> </td> 
-   <td colname="col2"> <p>A: U krijgt 1) indrukkingen, 2) klikken, 3) kosten, 4) Kwaliteitsscore en 5) Gemiddelde positie rechtstreeks vanuit de zoekmachines en 6) AMO ID-instanties (klik op Exemplaren). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>V: Mag ik <b>Advertising Analytics-gegevens onderbreken</b> door andere analytische gegevens (metriek/afmetingen)? </p> </td> 
-   <td colname="col2"> <p>A: Neen, de ruwe onderzoeksgegevens zullen binnen als onafhankelijke gegevensreeks komen. Nochtans, is er een versie van Instanties van de klikgegevens die door andere gegevens van Analytics kunnen worden verdeeld. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Wat is de definitie van de verschillende <b>statusindicatoren</b> voor mijn accounts (In behandeling, Actief, Gepauzeerd, enzovoort)? </p> </td> 
-   <td colname="col2"> <p>A: Elk van deze statusindicatoren identificeert de levenscyclusfase van elke rekening van de onderzoeksmotor. </p> 
-    <ul id="ul_F68AD377B2F04A47B20355B2FF4CF345"> 
-     <li id="li_05F8D7C6D00E4742A65373BE6FAA0448"><b>In behandeling</b> betekent dat de account is ingesteld, maar dat de gegevens nog niet zijn opgehaald. </li> 
-     <li id="li_42B1557A8AEC41008B85AF6E3F625CAB"><b>Gepauzeerd</b> betekent dat de rekening eerder is ingesteld, maar niet is geactiveerd. </li> 
-     <li id="li_30B72CC171874F308A2B8CE552EA6930"><b>Actief</b> betekent dat de rekening volledig is opgezet en aan zoekgegevens voldoet. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Ik probeer <b>Mijn Advertising Analytics-accounts toewijzen aan een specifieke rapportsuite</b>, maar deze optie is niet beschikbaar in de rapportsuite modal. Waarom? </p> </td> 
-   <td colname="col2"> <p>A: Voordat u een rapportsuite aan een Advertising Analytics-account kunt toewijzen, moet de gewenste rapportsuite <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > voorzien voor Advertising Analytics-rapportage </a>. </p> <p>Dit gebeurt via een aparte beheerpagina die toegankelijk is via: <span class="ignoretag"> <span class="uicontrol"> Beheerder </span>  &gt; <span class="uicontrol"> Rapportageopties </span>  &gt; <span class="uicontrol"> [selecteer Experience Cloud-toegelaten rapportreeks] </span>  &gt; <span class="uicontrol"> Instellingen bewerken </span>  &gt; <span class="uicontrol"> Advertising Analytics-configuratie </span> </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Is het mogelijk een <b>virtuele rapportsuite</b> op een Advertising Analytics-account? </p> </td> 
-   <td colname="col2"> <p>A: Met virtuele rapportsuite worden geen gegevens verzameld, zodat u een Advertising Analytics-account niet rechtstreeks kunt toewijzen aan een Virtual Report-suite. </p> <p>U kunt de Advertising Analytics-account echter toewijzen aan de bovenliggende rapportsuite van de Virtual Report Suite waarin u gegevens wilt zien. </p> <p>De metriek van de Motor van het Onderzoek (klik/kosten/impressies) kunnen niet in de Virtuele rapportreeks verschijnen tenzij u een "of"voorwaarde in uw segmentlogica opneemt die op AMO ID (of zijn classificatie) wordt gebaseerd. Voorbeeld: het toevoegen van "alle treffers waar AMO ID bestaat" zou de metriek van de onderzoeksmotor in het segment omvatten. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Zijn Advertising Analytics-meetgegevens te rapporteren in de <b>Marketingkanalen</b> rapporteren? </p> </td> 
-   <td colname="col2"> <p>A: Nr, zij zijn niet inbegrepen in het rapport van de Kanalen van de Marketing. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>V: <b>Wanneer</b> worden de zoekgegevens naar Analytics opgehaald? </p> </td> 
-   <td colname="col2"> <p>A: De zoekgegevens worden rond 6.00 uur (06.00 uur) uit de zoekmachines gehaald in de tijdzone van het datacenter Analytics. Dit is wanneer de gegevens van AMO worden verzameld en in de rapportreeks opgenomen. Het wordt dan omgezet in de tijdzone van de rapportreeks als deel van het opnemen van de gegevens in Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Wat kan er gebeuren? <b>vastgelegd voor klik</b>? Zien we indrukken, kosten, gemiddelde positie, enzovoort? zelfs zonder klik ? </p> </td> 
-   <td colname="col2"> <p>A: De AMO-id legt de metriek van de zoekmachine vast: Impressies, Kosten, Klikken, Gemiddelde positie en Gemiddelde kwaliteitsscore. Als er geen kliks zijn, maar er indrukken zijn, dan zullen de beeld/positie/kwaliteitsscore gegevens nog naar Analytics worden verzonden. Doorgaans zijn er ook geen kosten verbonden als er niet wordt geklikt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>V: Op welk niveau worden deze gegevens vastgelegd? <b>Bezoeker? Hit?</b> </p> </td> 
-   <td colname="col2"> <p>A: De meetgegevens van de zoekmachine worden vastgelegd op raakniveau en aangesloten op de AMO-id (en de classificaties). Dit zijn gegevens op overzichtsniveau die geen verband houden met bezoeken/bezoekers. Als zodanig kunnen de metriek van de zoekmachine slechts in segmenten worden gebruikt die bereik op raakniveau zijn en op AMO-id (of zijn classificaties) gebaseerd zijn. </p> <p>De AMO-id wordt ook vastgelegd op de bestemmingspagina in de hit voor die pagina (die de id verbindt met het bezoek/de bezoeker) en zal verderop in de stroom blijven staan om krediet te krijgen voor andere analytische gegevens (totdat deze verlopen of door een nieuwe AMO-id wordt overschreven). Net als elke andere eVar wordt het volledig in de gegevensset opgenomen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: vangen wij slechts google.com of <b>landversies</b> (zoals google.co.uk, google.it, google.fr, of google.de) eveneens? </p> </td> 
-   <td colname="col2"> <p>A: De classificatie van het Platform van de Advertentie vangt deze waarden: "Google Adwords", en "Bing Ads". </p> <p>De beste praktijk is om de landcode op te nemen in de naamgeving van campagnes. Vervolgens kunt u naar beneden of naar een segment filteren (bijvoorbeeld als alle campagnes beginnen met landcode_ en u vervolgens een segment maakt waarin Campagnes (AMO ID) beginnen met "UK_", zodat u alleen gegevens voor het Verenigd Koninkrijk krijgt). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: De metrische "AMO Cost" is de kosten die voor elk trefwoord/advertentie worden betaald, zoals opgegeven door het zoekprogramma. Zijn dit nettokosten of brutokosten? </p> </td> 
-   <td colname="col2"> <p>A: "AMO-kosten" zijn alleen de kosten die aan de zoekmachines worden betaald. Hieronder vallen geen kosten voor het optimaliseren van de zoekopdracht of het beheerplatform. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Zijn er plannen om andere reclamekanalen op te nemen, zoals <b>Weergave</b> of <b>Sociaal</b>? </p> </td> 
-   <td colname="col2"> <p>A: Nee, we hebben momenteel geen plannen voor deze andere kanalen op de routekaart. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++
+
++++ Welke Adobe Analytics SKU&#39;s geven u het recht om Advertising Analytics te gebruiken?
+
+Advertising Analytics is beschikbaar voor Adobe Analytics
+
+* [Selecteren](https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html)
+
+* [Eerste](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html)
+
+* [Ultieme](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html)
+
++++
+
++++ Moet ik extra betalen om Advertising Analytics te gebruiken?
+
+Nee, buiten de juiste SKU-provisioning maakt Advertising Analytics geen extra kosten.
+
++++
+
++++ Telt Advertising Analytics op mijn gebruik van de servervraag
+
+Nee, Advertising Analytics gebruikt een speciaal gegevensbrontype dat geen kosten veroorzaakt voor serveraanroepen.
+
++++
+
++++ Als ik Advertising Cloud/AMO al gebruik, kan ik dan nog steeds de Advertising Analytics-functionaliteit gebruiken?
+
+Elk compatibel account voor zoekmachines wordt doorgegeven aan Advertising Analytics en wordt weergegeven als alleen-lezen. Alle bewerkingen of updates moeten worden verwerkt in Advertising Cloud/AMO.
+
++++
+
++++ Ik bezit de juiste SKU, maar ik heb geen toegang tot Advertising Analytics, waarom is dat?
+
+Advertising Analytics is alleen beschikbaar voor Adobe Analytics-beheerders; beheerders kunnen echter toegang verlenen aan niet-beheerders. Neem contact op met uw beheerder voor toegangsrechten.
+
++++
+
+## Advertising Analytics gebruiken {#using}
+
++++ Welke rekeningen van zoekprogramma&#39;s zijn opgenomen in Advertising Analytics?
+
+Motoraccounts bevatten Google AdWords en Microsoft Bing.
+
++++
+
++++ Waar ga ik naar Advertising Analytics?
+
+Na het aanmelden bij Adobe Analytics navigeert u naar de [!UICONTROL Admin]. Selecteer vervolgens [!UICONTROL Advertising Analytics] om je zoekprogrammaaccounts toe te voegen.
+
++++
+
++++ Hoe worden de gegevens verzameld en doorgegeven aan Analytics?
+
+Advertising Analytics gebruikt een reeks aangepaste API&#39;s om gegevens van zoekmachines via de Adobe Advertising Cloud door te geven aan Analytics.
+
++++
+
++++ Welke zoekgegevens krijg ik met deze integratie?
+
+U krijgt
+
+* Impressies
+* Klikken
+* Kosten
+* Kwaliteitsscore
+* Gemiddelde positie rechtstreeks vanuit de zoekmachines, en
+* Instanties van AMO-id (klik op Instanties).
+
++++
+
++++ Kan ik mijn Advertising Analytics-gegevens onderbreken door andere Analytics-gegevens (metriek/afmetingen)?
+
+Nee, de onbewerkte zoekgegevens worden opgenomen als een onafhankelijke gegevensset. Nochtans, is er een versie van Instanties van de klikgegevens die door andere gegevens van Analytics kunnen worden verdeeld.
+
++++ Wat is de definitie van de verschillende statusindicatoren voor mijn accounts (in behandeling, actief, gepauzeerd, enz.)? Elk van deze statusindicatoren identificeert de levenscyclusfase van elk onderzoek motorrekening.
+
+* [!UICONTROL Pending]
+* [!UICONTROL Paused] betekent dat de rekening eerder is ingesteld, maar niet is geactiveerd.
+* [!UICONTROL Active] betekent dat de rekening volledig is opgezet en aan zoekgegevens voldoet.
+
++++
+
++++ Ik probeer mijn Advertising Analytics-accounts toe te wijzen aan een specifieke rapportsuite, maar deze is niet beschikbaar in het modaal rapportenpakket. Waarom?
+
+Voordat u een rapportsuite aan een Advertising Analytics-account kunt toewijzen, moet de gewenste rapportsuite [voorzien voor Advertising Analytics-rapportage](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Dit gebeurt via een aparte beheerpagina die u kunt vinden op: Beheer > Rapportageopties > [rapportsuite selecteren] > Instellingen bewerken > Advertising Analytics-configuratie.
+
++++
+
++++ Is het mogelijk om een virtuele rapportsuite aan een Advertising Analytics-account toe te wijzen?
+
+Met virtuele rapportsets worden geen gegevens verzameld, zodat u een Advertising Analytics-account niet rechtstreeks kunt toewijzen aan een Virtual Report-suite. U kunt de Advertising Analytics-account echter toewijzen aan de bovenliggende rapportsuite van de Virtual Report Suite waarin u gegevens wilt zien. De metriek van de Motor van het Onderzoek (klik/kosten/impressies) kunnen niet in de Virtuele rapportreeks verschijnen tenzij u een &quot;of&quot;voorwaarde in uw segmentlogica opneemt die op AMO ID (of zijn classificatie) wordt gebaseerd. Voorbeeld: het toevoegen van &quot;alle treffers waar AMO ID bestaat&quot; zou de metriek van de onderzoeksmotor in het segment omvatten.
+
++++
+
++++ Zijn Advertising Analytics-meetgegevens die in de <b>Marketingkanalen</b> rapporteren?
+
+Nr, zijn zij niet inbegrepen in het rapport van de Kanalen van de Marketing.
+
++++
+
++++ Wanneer worden de zoekgegevens naar Analytics gehaald?
+
+De zoekgegevens worden uit de zoekmachines gehaald rond 6AM (06:00) in de tijdzone van uw datacenter Analytics. Dit is wanneer de gegevens van AMO worden verzameld en in de rapportreeks opgenomen. Het wordt dan omgezet in de tijdzone van de rapportreeks als deel van het opnemen van de gegevens in Analytics.
+
++++
+
++++ Wat kan er gebeuren? <b>vastgelegd voor klik</b>? Zien we indrukken, kosten, gemiddelde positie, enzovoort? zelfs zonder klik ? </p> </td>
+
+De AMO-id legt de maatstaven van de zoekmachine vast: Impressies, Kosten, Klikken, Gemiddelde positie en Gemiddelde kwaliteitsscore. Als er geen kliks zijn, maar er indrukken zijn, dan zullen de beeld/positie/kwaliteitsscore gegevens nog naar Analytics worden verzonden. Doorgaans zijn er ook geen kosten verbonden als er niet wordt geklikt.
+
++++
+
++++ Op welk niveau worden deze gegevens vastgelegd? <b>Bezoeker? Hit?</b>
+
+De metriek van de motor van het Onderzoek wordt gevangen op het raakniveau en met AMO identiteitskaart (en zijn classificaties) verbonden. Dit zijn gegevens op overzichtsniveau die geen verband houden met bezoeken/bezoekers. Als zodanig kunnen de metriek van de zoekmachine slechts in segmenten worden gebruikt die bereik op raakniveau zijn en op AMO-id (of zijn classificaties) gebaseerd zijn.
+
+De AMO-id wordt ook vastgelegd op de bestemmingspagina in de hit voor die pagina (die de id verbindt met het bezoek/de bezoeker) en zal verderop in de stroom blijven staan om krediet te krijgen voor andere analytische gegevens (totdat deze verlopen of door een nieuwe AMO-id wordt overschreven). Net als elke andere eVar wordt het volledig in de gegevensset opgenomen.
+
++++
+
++++ Wordt alleen google.com vastgelegd of <b>landversies</b> (zoals google.co.uk, google.it, google.fr, of google.de) eveneens?
+
+De classificatie van het Platform van de Advertentie vangt deze waarden: &quot;Adwords van Google&quot;, en &quot;Bing Adds&quot;. De beste praktijk is om de landcode op te nemen in de naamgeving van campagnes. Vervolgens kunt u naar beneden of naar een segment filteren (bijvoorbeeld als alle campagnes beginnen met landcode_ en u vervolgens een segment maakt waarin Campagnes (AMO ID) beginnen met &quot;UK_&quot;, zodat u alleen gegevens voor het Verenigd Koninkrijk krijgt).
+
++++
+
++++ De metrische &quot;Kosten AMO&quot;is de kosten die voor elk sleutelwoord/elke advertentie worden betaald zoals die door het onderzoeksmotor worden gemeld. Zijn dit nettokosten of brutokosten?
+
+&quot;AMO-kosten&quot; zijn alleen de kosten die aan de zoekmachines worden betaald. Hieronder vallen geen kosten voor het optimaliseren van de zoekopdracht of het beheerplatform.
+
++++
+
++++ Zijn er plannen om andere reclamekanalen op te nemen, zoals <b>Weergave</b> of <b>Sociaal</b>?
+
+Nee, op dit moment hebben we geen plannen voor deze andere kanalen op de routekaart.
+
++++
+
 
 ## Automatisch versus handmatig bijhouden {#section_7437C4698A6D482EB7ED94A948390119}
 

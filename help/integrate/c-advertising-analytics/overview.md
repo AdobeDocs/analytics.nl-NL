@@ -1,16 +1,16 @@
 ---
-description: Ontdek alles wat u met Advertising Analytics kunt doen in deze gedetailleerde handleiding, inclusief de vereiste machtigingen, en de beschikbare afmetingen en metriek.
-title: Een gids voor Advertising Analytics
+description: Ontdek alles wat u met Advertising Analytics kunt doen, inclusief de vereiste machtigingen en de beschikbare afmetingen en metriek.
+title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1170'
 ht-degree: 88%
 
 ---
 
-# Een gids voor Advertising Analytics
+# Advertising Analytics
 
 Met Advertising Analytics kunt u alle data van Google en Bing paid search naast elkaar weergeven in Adobe Analytics. Vroeger moesten alle data van Google AdWords/DFA of Microsoft Bing Ads worden weergegeven in Adobe Advertising Cloud (AMO) of in Google/Bing. U kunt nu de volgende gegevens ophalen in Adobe Analytics: Impressies, klikken, Kostengegevens rechtstreeks vanuit de zoekmachines en een AMO ID-instantie (klik op Instanties). Kwaliteitsscore en gemiddelde posities worden niet meer verzameld omdat Google deze cijfers in september 2019 heeft vervangen.
 
@@ -27,19 +27,16 @@ Deze integratie is gericht op de volgende doelgroepen:
 * De **analist** die prestatierapporten moet verzamelen voor de paid search-marketeer.
 * De **paid search-marketeer** die antwoorden op deze vragen wil: Hoeveel verkeer verzend ik naar onze site, en zijn klanten aan het converteren? Welke van mijn advertentiecampagnes zijn rendabel?
 
-## Vereisten {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
+## Vereisten {#prerequisites}
 
 * Advertising Analytics is alleen beschikbaar voor Adobe Analytics [Select](https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html) en [Ultimate](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html) SKU&#39;s.
-
 * Deze functionaliteit is beschikbaar voor klanten die geen advertenties maken in de cloud of in een andere indeling dan AMO.
-* U moet een Adobe Analytics-beheerder zijn om toegang te hebben tot Advertising Analytics. Vervolgens kunt u [toegang verlenen](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) aan niet-beheerders.
+* U moet een Adobe Analytics-beheerder zijn om toegang te hebben tot Advertising Analytics. Vervolgens kunt u [toegang verlenen](/help/integrate/c-advertising-analytics/overview.md#permissions) aan niet-beheerders.
 * Voor elke rapportsuite waarin u de zoekdata van Google/Bing wilt weergeven, moet u [deze rapportsuite(s) inschakelen voor Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
-
 * U hebt aanmeldingsgegevens nodig voor een gebruiker met bewerkingsmachtiging voor de zoekaccount(s) die u wilt integreren met Adobe Analytics, zoals een account-id en wachtwoord-id van Google.
 * In het geval van Bing Ads hebt u ook de Bing-klant-id nodig.
-* Als u Internet Explorer 11 (of eerder) gebruikt, kunt u voor geen van deze drie zoekprogramma&#39;s een [advertentieaccount instellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Gebruik in plaats hiervan andere webbrowsers.
 
-## Advertising Analytics-machtigingen {#section_FCC58EB635954A32990D4E67B52B4369}
+## Advertising Analytics-machtigingen {#permissions}
 
 Analytics heeft twee machtigingen die automatisch worden verleend aan Analytics-beheerders. Beheerders kunnen deze machtigingen vervolgens aan niet-beheerders verlenen.
 
@@ -68,11 +65,11 @@ Analytics heeft twee machtigingen die automatisch worden verleend aan Analytics-
  </tbody> 
 </table>
 
-## Advertising Analytics-Dimensionen en -cijfers {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
+## Advertising Analytics-Dimensionen en -cijfers {#dimensions-metrics}
 
 Advertising Analytics voegt de volgende dimensies en metriek aan Analysis Workspace, Report Builder, en Analytics toe meldend API.
 
-**Dimensies**
+### Dimensies
 
 >[!IMPORTANT]
 >
@@ -101,7 +98,7 @@ Advertising Analytics voegt de volgende dimensies en metriek aan Analysis Worksp
 | Optimalisatie (AMO-id) | Dit wordt niet gebruikt door Advertising Analytics. Het wordt alleen gebruikt door Advertising Cloud-klanten. |
 | Apparaat (AMO-id) | Momenteel niet in gebruik. Plaatsaanduiding voor mogelijke toekomstige productverbetering naar aangewezen doelapparaattype (bv. mobiel, desktop) van de advertentie (niet het werkelijke apparaat van de bezoeker). |
 
-**Cijfers**
+### Metrics
 
 >[!IMPORTANT]
 >

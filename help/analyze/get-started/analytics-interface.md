@@ -3,9 +3,9 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: De interface Analytics begrijpen
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
 workflow-type: tm+mt
-source-wordcount: '2097'
+source-wordcount: '2062'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,6 @@ De [!UICONTROL Components] bevat functies die u helpen uw gegevensanalyse af te 
    | Datumbereiken | Analysis Workspace bevat een lijst met standaarddatumbereiken die gebruikers kunnen gebruiken bij het samenstellen van analyses. Bovendien kunt u aangepaste datumbereiken maken en deze beschikbaar maken voor gebruikers in Analysis Workspace. | [Aangepaste datumbereiken maken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=en) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Virtuele rapportsuites | De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analytics zodat kunt u toegang tot elk segment controleren. | [Overzicht van virtuele rapportsuites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en) |
    | Waarschuwingen | Intelligente waarschuwingen maken een gedetailleerdere controle mogelijk op waarschuwingen en integreren de detectie van anomalieën met het waarschuwingssysteem. | [Intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=en) |
-   | Kalendergebeurtenissen | Voor rapporten die in tijd trended, staan de kalendergebeurtenissen u toe om gebeurtenissen grafisch te tonen en te zien of de campagnes of andere gebeurtenissen uw plaatsverkeer, opbrengst, of een andere metrisch hebben beïnvloed. | [Kalendergebeurtenissen](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=en) |
    | Annotaties | Met annotaties in Workspace kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met deze sjablonen kunt u kalendergebeurtenissen koppelen aan specifieke dimensies en metriek. | [Annotaties beheren](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=en) |
    | Classificatiesets | Classificatiesets bieden één interface voor het beheer van classificaties en regels. <p>Een classificatie is een manier om de veranderlijke gegevens van Analytics te categoriseren, dan tonend de gegevens op verschillende manieren wanneer u rapporten produceert. U brengt een relatie tot stand tussen een variabele waarde en metagegevens die betrekking hebben op die waarde. Classificaties kunnen worden gebruikt voor de meeste aangepaste afmetingen, zoals trackingcode, proefdrukken en eVars.</p> | [Overzicht van classificatiesets](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) |
    | Locaties | Als u Adobe Analytics-classificatiegegevens wilt importeren van een cloudbestemming, moet u eerst de locatie toevoegen en configureren waar u de classificatiegegevens wilt verzamelen. U kunt locaties maken, bewerken of verwijderen. | [Locatiebeheer](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=en) |
