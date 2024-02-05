@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: De publieksgegevens in Analytics gebruiken
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 U kunt de afmetingen van het publiek van Adobe Audience Manager door Analytics gebruiken. De geïntegreerde segmenten zijn nieuwe dimensies van Analytics genoemd identiteitskaart van het publiek en de Naam van het publiek, en kunnen enkel als een andere dimensie worden gebruikt die Analytics verzamelt. In Gegevensfeeds worden de publiek-id&#39;s opgeslagen in de kolom &quot;mc_audiences&quot;. Deze afmetingen zijn momenteel niet beschikbaar in Data Workbench of LiveStream. Enkele voorbeelden van de manier waarop de dimensies van het publiek kunnen worden benut zijn:
 
-## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
+## Analysis Workspace {#workspace}
 
 In Analysis Workspace worden de Adobe Audience Manager-segmenten weergegeven als twee dimensies.
 
@@ -24,7 +24,7 @@ In Analysis Workspace worden de Adobe Audience Manager-segmenten weergegeven als
 
    ![](assets/aw-mcaudiences.png)
 
-## Segmentvergelijking {#section_E72B80B6470C42D4B9B19BE90E6070A2}
+## Segmentvergelijking {#compare}
 
 [Segmentvergelijking](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Dimension op twee manieren worden gebruikt: 1) als 2 segmenten die worden vergeleken, en 2) als punten in de &quot;Hoogste Punten van het &quot;lijst.
 
@@ -41,7 +41,7 @@ In Analysis Workspace worden de Adobe Audience Manager-segmenten weergegeven als
 
    ![](assets/aud-segcompare.png)
 
-## Klantenreis (Flow) in Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Klantenreis (Flow) in Analysis Workspace {#flow}
 
 Adobe Audience Manager-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en geven het lidmaatschap van het publiek weer voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;) en later in aanmerking kan komen voor een meer gekwalificeerd segment (bijvoorbeeld &quot;Bewustmaking&quot;). U kunt [Stroom](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace om de reis die een bezoeker maakt tussen het publiek zichtbaar te maken.
 
@@ -55,7 +55,7 @@ Adobe Audience Manager-segmentgegevens worden via hit-by-hit doorgegeven aan Ana
 
 Soorten publiek kan ook worden gebruikt in [Afvalvisualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
-## Venn Visualization in Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Venn Visualization in Analysis Workspace {#venn}
 
 [Venn-visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html) Geef de overlapping tussen maximaal 3 segmenten weer.
 
@@ -69,7 +69,7 @@ Soorten publiek kan ook worden gebruikt in [Afvalvisualisaties](https://experien
 
 ![](assets/venn-viz.png)
 
-## Segment Builder {#section_2AA81852A1404AB894472CA8959461B6}
+## Segment Builder {#builder}
 
 U kunt de dimensies Soorten publiek opnemen in Analytics [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md), samen met de gedragsinformatie die Analytics verzamelt.
 

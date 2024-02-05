@@ -3,9 +3,9 @@ description: Veelgestelde vragen over Advertising Analytics.
 title: Veelgestelde vragen voor reclameanalyses
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -161,29 +161,18 @@ Nee, op dit moment hebben we geen plannen voor deze andere kanalen op de routeka
 
 ## Automatisch versus handmatig bijhouden {#section_7437C4698A6D482EB7ED94A948390119}
 
-<table id="table_9738FF8459574ED2937A860A665BE739"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Vraag </th> 
-   <th colname="col2" class="entry"> Antwoord </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Q: Bij het instellen van mijn advertentieaccount staat het volgende:<b> Automatisch bijhouden</b> kan leiden tot onbedoelde gevolgen. Welke gevolgen kunnen zich voordoen? </p> </td> 
-   <td colname="col2"> <p>A: 
-     <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
-      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">In de modus Automatisch wordt geprobeerd URL-parameters toe te voegen aan het einde van de volgende sjablonen/doel-URL's in de juiste indeling. <b>Het is echter uw verantwoordelijkheid om ervoor te zorgen dat de toegevoegde URL-parameters correct blijven op de laatste bestemmingspagina. </b> </li> 
-      <li id="li_1202FE1FC88342378A60E8FE65E5426B">In de modus Automatisch kunnen sleutelwoorden worden ingevoegd in de bestemmings-URL en het is mogelijk dat uw webserver geen trefwoorden met speciale tekens ondersteunt. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: Als ik eerst handmatig of automatisch bijhouden heb ingesteld, <b>kan ik schakelen</b> op de andere volgmodus later? Wat zijn de gevolgen? </p> </td> 
-   <td colname="col2"> <p>A: Ja u kunt schakelen, maar u zult de oude volgende logica moeten verwijderen alvorens de schakelaar te maken. Dit kan in wat onderbreking van het volgen op de dag resulteren de schakelaar wordt gemaakt (vooral als zich van hand aan automatisch beweegt). Daarom wordt aanbevolen niet over te schakelen, tenzij dit absoluut noodzakelijk is. </p> 
-    <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
-     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>Overschakelen van Handmatig naar Automatisch</b>: Verwijder de handmatige toevoegingen aan de volgsjablonen en schakel de schakeloptie in de gebruikersinterface van Advertising Analytics van handmatig naar Automatisch in en sla de instelling op. Het kan tot x uur duren voordat het systeem de automatische trackingcodes heeft ingevuld. </li> 
-     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>Schakelen van Automatisch naar Handmatig</b>: Werk de schakeloptie van handmatig naar automatisch bij in de Advertising Analytics-instellingsinterface en implementeer de handmatige volgcodes zo snel mogelijk. Als u tijdens de implementatie van de handmatige volgcodes de automatische volgcodes in de sjablonen voor zoekprogramma's ziet, verwijdert u deze. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Bij het instellen van mijn advertentieaccount staat het volgende:<b> Automatisch bijhouden</b> kan leiden tot onbedoelde gevolgen. Welke gevolgen kunnen zich voordoen?
+
+In de modus Automatisch wordt geprobeerd URL-parameters toe te voegen aan het einde van de volgende sjablonen/doel-URL&#39;s in de juiste indeling. <b>Het is echter uw verantwoordelijkheid om ervoor te zorgen dat de toegevoegde URL-parameters correct blijven op de laatste bestemmingspagina. In de modus Automatisch kunnen sleutelwoorden worden ingevoegd in de bestemmings-URL en het is mogelijk dat uw webserver geen trefwoorden met speciale tekens ondersteunt.
+
++++
+
++++ Als ik eerst Handmatig of Automatisch bijhouden heb ingesteld, kan ik dan later overschakelen op de andere modus voor bijhouden? Wat zijn de gevolgen?
+
+Ja kunt u overschakelen naar een andere modus voor bijhouden, maar u moet de oude logica voor bijhouden verwijderen voordat u de overstap maakt. Dit kan in wat onderbreking van het volgen op de dag resulteren de schakelaar wordt gemaakt (vooral als zich van hand aan automatisch beweegt). Daarom adviseren wij niet te schakelen tenzij absoluut noodzakelijk.
+
+* Overschakelen van Handmatig naar Automatisch: verwijder de handmatige toevoegingen aan de trackingsjablonen en schakel vervolgens de schakeloptie in de gebruikersinterface van Advertising Analytics van handmatig naar Automatisch in en sla de instelling op. Het kan enkele uren duren voordat het systeem de automatische trackingcodes heeft ingevuld.
+
+* Overschakelen van Automatisch naar Handmatig: Werk de schakeloptie van handmatig naar automatisch bij in de Advertising Analytics-instellingsinterface en implementeer de handmatige volgcodes zo snel mogelijk. Als u tijdens de implementatie van de handmatige volgcodes de automatische volgcodes in de sjablonen voor zoekprogramma&#39;s ziet, verwijdert u deze.
+
++++
