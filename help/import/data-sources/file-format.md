@@ -4,7 +4,7 @@ description: U moet een bestand op de juiste manier genereren voor gebruik in ge
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cc25fe304d9cab3db3fa2ddd306338ff3bb88a55
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 3%
@@ -74,8 +74,8 @@ Adobe ondersteunt geen gegevensbronnen voor andere dimensies of metriek. Als and
 
 De eerste waarde in elke rij **moet** de datum zijn. De datumnotatie moet een van de volgende notaties hebben:
 
-* **`MM/DD/YY/HH/mm/SS`**
-* **`MM/DD/YY`**
+* **`MM/DD/YYYY/HH/mm/SS`**
+* **`MM/DD/YYYY`**
 
 Als u de uren/minuten/seconden weglaat, wordt de tijdstempel automatisch ingesteld op 12 uur voor die dag.
 
