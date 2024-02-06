@@ -3,10 +3,11 @@ description: Administratieve stappen voor het inschakelen van AEM Assets-rapport
 title: Over AEM Assets rapporteren in Adobe Analytics
 feature: AEM Assets Reporting
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +17,11 @@ Administratieve stappen voor het inschakelen van AEM Assets-rapportage in Analyt
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets Reporting]**
 
-Hiermee schakelt Analytics afbeeldingen in en klikt u op [!UICONTROL Assets] opgespoord door AEM Asset Insights. Deze integratie
+Hiermee kunnen analyses afbeeldingen verzamelen en op [!UICONTROL Assets] opgespoord door AEM Asset Insights. Deze integratie
 
 * Hiermee wordt rapportage ingeschakeld in Analytics.
-* Hiermee worden nieuwe dimensies toegevoegd aan de elementvariabelen in Analysis Workspace: Id van element, bron van element en geklikt element-id
-* Hiermee voegt u nieuwe afmetingen toe aan gebeurtenissen Asset: Asset Clicks en Asset Impressions
+* Hiermee voegt u nieuwe dimensies toe aan de elementvariabelen in Analysis Workspace: Element-id, Asset Source en Clickted Asset-id
+* Hiermee voegt u nieuwe afmetingen toe aan gebeurtenissen Asset: klik op elementen en impressie van middelen
 
 Voor gegevens die moeten worden gevuld, raadpleegt u de [Documentatie voor informatie over middelen AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html) voor volledige implementatieinstructies.
 

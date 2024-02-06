@@ -3,19 +3,21 @@ description: Meer informatie over het inschakelen van Adobe Campaign Standard-ra
 title: Hoe integreer ik Adobe Campaign Standard Reporting in Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 69%
+source-wordcount: '465'
+ht-degree: 65%
 
 ---
+
 
 # Adobe Campaign Standard-rapportage
 
 Raadpleeg de [Adobe Campaign-documentatie](https://helpx.adobe.com/nl/campaign/standard/integrating/using/about-campaign-analytics-integration.html) voor meer informatie over het configureren van deze integratie.
 
 >[!IMPORTANT]
->Dit artikel is van toepassing op Adobe Campaign **Standaard** alleen rapporteren. Zie [hier](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) voor toevoegen van Adobe Campaign **Klassiek** rapportage.
+>Dit artikel geldt voor Adobe Campaign **Standaard** alleen rapporteren. Zie [hier](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) voor toevoegen van Adobe Campaign **Klassiek** rapportage.
 
 Deze integratie tussen Adobe Analytics en Adobe Campaign Standard:
 
@@ -29,7 +31,7 @@ Deze integratie tussen Adobe Analytics en Adobe Campaign Standard:
 
 ## Stap 1. Adobe Campaign Standard-rapportage inschakelen {#section_C685EF10505045708A6536BB13F6CD58}
 
-Als u Campaign Standard-gegevens wilt weergeven in Analytics, moet u eerst Campagne-rapportage inschakelen in Report Suite Manager.
+Als u de gegevens van Campaigns Standard wilt weergeven in Analytics, moet u eerst Campagne-rapportage inschakelen in Report Suite Manager.
 
 1. Ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]**.
 1. Klik op **[!UICONTROL Enable Campaign Reporting]**.
@@ -40,7 +42,7 @@ Als u Campaign Standard-gegevens wilt weergeven in Analytics, moet u eerst Campa
 
 De integratie tussen Adobe Campaign Standard en Adobe Analytics voegt het volgende rapport toe onder **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**
 
-* **[!UICONTROL Adobe Campaign Executed Delivery ID]**: Toont data die zijn geïmporteerd uit Adobe Campaign over e-mailberichten die vanuit Adobe Campaign zijn verzonden. |
+* **[!UICONTROL Adobe Campaign Executed Delivery ID]**: geeft gegevens weer die uit Adobe Campaign zijn geïmporteerd over e-mailberichten die vanuit Adobe Campaign zijn verzonden. |
 
 ## Stap 3. Adobe Campaign-classificaties gebruiken {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 

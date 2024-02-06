@@ -3,10 +3,11 @@ title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 1%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +17,11 @@ Clienttips zijn afzonderlijke informatie over het apparaat van een gebruiker. De
 
 ## Tips voor client met lage entropie en hoge entropie
 
-Google verdeelt gebruikers-Agent-clienttips in twee categorieën: een lage entropie en hoge entropiehints.
+Google verdeelt de gebruiker-Agent cliëntwenken in twee categorieën: laag-entropie en high-entropy wenken.
 
 * **Hints met lage entropie** bevat meer generieke informatie over apparaten. Deze tips worden automatisch door Chromium-browsers geleverd.
 
-* **Hoge entropie** de wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op aanvraag beschikbaar. Zowel AppMeasurement als Web SDK kunnen worden gevormd om high-entropy wenken te verzoeken. Beide bibliotheken doen dit standaard **niet** vragen om tips voor hoge entropie.
+* **Hoge entropie** de wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op verzoek beschikbaar. Zowel AppMeasurement als Web SDK kunnen worden gevormd om high-entropy wenken te verzoeken. Beide bibliotheken doen dit standaard **niet** vragen om tips voor hoge entropie.
 
 Vanaf oktober 2022 zijn nieuwe versies van Chromium-browsers begonnen met het &#39;bevriezen&#39; van de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
 
@@ -66,12 +67,12 @@ In de onderstaande tabel worden de tips voor cliënten vanaf oktober 2022 beschr
 | --- | --- | --- | --- | 
 | Sec-CH-UA | Browser en significante versie | Laag | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Mobiel apparaat (true of false) | Laag | `true` |
-| Sec-CH-UA-Platform | Besturingssysteem/Platform | Laag | `"Android"` |
+| Sec-CH-UA-Platform | Besturingssysteem/platform | Laag | `"Android"` |
 | architectuur | Architectuur van de site | Hoog | `"arm"` |
-| bittheid | Stijlbitheid | Hoog | `"64"` |
+| bittheid | Bitsheid van architectuur | Hoog | `"64"` |
 | fullVersionList | Lijst van merken met hun versie | Hoog | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
 | model | Apparaatmodel | Hoog | `"Pixel 3"` |
-| platformVersion | Versie besturingssysteem/Platform | Hoog | `"10"` |
+| platformVersion | Besturingssysteem/platformversie | Hoog | `"10"` |
 
 * Hints met lage entropie worden verzameld via de aanvraagkoptekst.
 * Hoog-entropiewenken worden verzameld door JavaScript en door de parameterwaarden van het vraagkoord overgegaan. De parameters van het vraagkoord gebruiken `h.` als voorvoegsel in de afbeeldingsaanvraag. fullVersionList wordt momenteel niet verzameld omdat de hoofdversie van de browser wordt vastgelegd als een lage entropiehint.
@@ -104,7 +105,7 @@ Zie de [tijdlijn gepubliceerd door Google](https://blog.chromium.org/2021/09/use
 
 +++
 
-+++**Op welke manieren hangt Analytics van de Agent van de Gebruiker af?**
++++**Op welke manieren is Analytics afhankelijk van de Gebruikersagent?**
 
 Apparaatinformatie in rapportage wordt afgeleid van de gebruikersagent. Wij hebben onze processen bijgewerkt om zowel de Agent van de Gebruiker als cliëntwenken te gebruiken waar beschikbaar.
 
@@ -120,15 +121,15 @@ Zie de [tijdlijn gepubliceerd door Google](https://blog.chromium.org/2021/09/use
 
 +++
 
-+++**Hoe zal Adobe cliëntwenken gebruiken om apparateninformatie af te leiden?**
++++**Hoe zal de Adobe cliëntwenken gebruiken om apparateninformatie af te leiden?**
 
-Adobe gebruikt een derde, de Atlas van het Apparaat, die zowel cliëntwenken als gebruiker-Agent zal gebruiken om apparateninformatie af te leiden.
+De Adobe gebruikt een derde, Atlas van het Apparaat, die zowel cliëntwenken als gebruiker-Agent zal gebruiken om apparateninformatie af te leiden.
 
 +++
 
 +++**Welke browsers worden beïnvloed door cliëntwenken?**
 
-Clienttips zijn alleen van toepassing op chroombrowsers zoals Google Chrome en Microsoft Edge. Er is geen wijziging in de gegevens van andere browsers of mobiele apps.
+Clienttips zijn alleen van toepassing op Chromium-browsers zoals Google Chrome en Microsoft Edge. Er is geen wijziging in de gegevens van andere browsers of mobiele apps.
 
 +++
 
@@ -138,15 +139,15 @@ Nee. Clienttips kunnen alleen worden verzameld via een beveiligde HTTP-verbindin
 
 +++
 
-+++**Hoe kan ik gegevens voor clienttips opnemen wanneer ik API-verzending gebruik?**
++++**Hoe kan ik gegevens voor clienttips opnemen bij het gebruik van API-verzending?**
 
 Zie documentatie voor het opnemen van deze via [API voor het invoegen van bulkgegevens](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
 
 +++
 
-+++**Zijn de cliëntwenken beschikbaar in gegevens die naar Adobe Experience Platform en Customer Journey Analytics via de Bron van de Adobe worden verzonden schakelaar?**
++++**Zijn de cliëntwenken beschikbaar in gegevens die naar Adobe Experience Platform en Customer Journey Analytics via de Bron van de Adobe schakelaar worden verzonden?**
 
-Adobe is van plan om cliëntwenken in gegevens via de Schakelaar van de Bron van de Adobe in de eerste helft van 2023 te omvatten.
+De Adobe is van plan om cliëntwenken in gegevens via de Schakelaar van de Bron van de Adobe in de eerste helft van 2023 te omvatten.
 
 +++
 
@@ -156,7 +157,7 @@ Zie de [schemadocumentatie](https://github.com/adobe/xdm/blob/master/components/
 
 +++
 
-+++**Zal Adobe Audience Manager server-kant door:sturen cliëntwenken steunen?**
++++**Zal Adobe Audience Manager server-kant het door:sturen cliëntwenken steunen?**
 
 Ja. Clienttips worden opgenomen in de gegevens die naar Adobe Audience Manager worden doorgestuurd. Adobe Audience Manager vereist dat hips met hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [server-kant door:sturen aan Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) dan kunt u inzameling van high-entropy wenken willen toelaten.
 

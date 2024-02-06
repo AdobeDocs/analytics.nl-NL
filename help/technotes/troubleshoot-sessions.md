@@ -3,9 +3,9 @@ title: Sessies in Adobe Analytics oplossen
 description: Leer hoe u problemen kunt oplossen wanneer u zich afmeldt bij Adobe Analytics.
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ Deze pagina gaat over het oplossen van problemensessies, wat betekent dat u zich
 
 Bijna alle op zitting-gebaseerde kwesties komen uit het aangepaste collectieve netwerk van een organisatie voort. Als u zich bij Adobe Analytics kunt aanmelden maar problemen hebt met het aanmelden, gebruikt u dit artikel om de oorzaak te achterhalen.
 
-## Bepaal of de kwestie aan het netwerk van uw organisatie toe te schrijven is
+## Bepaal of de kwestie aan het netwerk van uw organisatie toe te schrijven is {#network}
 
 Vele organisaties stellen extra netwerkeigenschappen op om veiligheid, zoals volmachtsservers of firewalls te verbeteren. Deze aanpassingen kunnen soms de mogelijkheid verstoren om een actieve sessie in Adobe Analytics te behouden.
 
 Om te bepalen als het collectieve netwerk u met wordt verbonden problemen met het gebruiken van Adobe Analytics veroorzaakt, gebruik uw login van het Experience Cloud geloofsbrieven op een apparaat buiten uw collectief netwerk. De voorbeelden van apparaten kunnen door uw huisnetwerk of het gegevensplan van een mobiel apparaat zijn. Als u van pagina aan pagina met succes kunt bewegen zonder het programma worden geopend, is het netwerk van uw organisatie waarschijnlijk de reden waarom u uit Adobe Analytics wordt geregistreerd.
 
-## Problemen door proxy
+## Problemen door proxy {#proxy}
 
 De Adobe gebruikt een vergunningskopbal wanneer het doen van verzoeken aan Adobe. Sommige volmachten, zoals de Veilige Gateway van het Web van Edge (vroeger het Vervagen ecoat), de informatie van de strippen kritieke vergunningskopbal die door Adobe Analytics wordt gebruikt. Wanneer de Adobe de vergunningskopbal niet ziet, verloopt de zitting.
 

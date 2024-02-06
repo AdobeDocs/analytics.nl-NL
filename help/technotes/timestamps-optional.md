@@ -1,18 +1,18 @@
 ---
 description: Meer informatie over de voordelen en beperkingen van het gebruik van de optie Tijdstempels optioneel.
 keywords: Analyseimplementatie
-title: Tijdstempels optioneel gebruiken
+title: Tijdstempels optioneel
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
-# Tijdstempels optioneel gebruiken
+# Tijdstempels optioneel
 
 Meer informatie over de voordelen en beperkingen van het gebruik van de optie Tijdstempels optioneel.
 
@@ -32,12 +32,12 @@ Tijdstempels optioneel is de standaardinstelling voor alle nieuwe rapportsuites.
 
 Zie [Tijdstempels optioneel](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) voor extra opstellingsinformatie.
 
-## Tijdstempels optioneel: Gegevens met tijdstempel en zonder tijdstempel integreren {#section_BF17CB593044462B993FD0D28EA56518}
+## Tijdstempels optioneel: tijdstempelgegevens en niet-tijdstempelgegevens integreren {#integrate}
 
 Met de functie Tijdstempels optioneel kunt u gegevens zonder tijdstempel combineren met gegevens met een tijdstempel zonder dat er gegevensverlies optreedt. Offlinegegevens met tijdstempels die op een mobiel apparaat worden gegenereerd, kunnen worden gecombineerd met live, niet-tijdstempelgegevens van een webpagina, of worden geïntegreerd met gegevens van elk platform via een tijdstempelaanroep aan de clientzijde.
 
-* **Tijdstempelgegevens**. Tijdstempelgegevens aan de clientzijde worden vastgelegd en rechtstreeks verzonden met de apparaatgegevens met gebruik van tijdstempelvariabelen aan de clientzijde: JavaScript op een webpagina of met een mobiele SDK-aanroep ( [!DNL offlineEnabled=true]) in een mobiele app.
-* **Niet-tijdstempelgegevens**. Adobe plaatst een timestamp op niet timestamped gegevens in een rapportreeks wanneer de gegevens de inzamelingsservers raken.
+* **Tijdstempelgegevens**. Tijdstempelgegevens aan de clientzijde worden vastgelegd en rechtstreeks verzonden met de apparaatgegevens met gebruik van tijdstempelvariabelen aan de clientzijde: Javascript op een webpagina of een mobiele SDK-aanroep ( [!DNL offlineEnabled=true]) in een mobiele app.
+* **Niet-tijdstempelgegevens**. Met Adobe wordt een tijdstempel ingesteld op gegevens zonder tijdstempel in een rapportsuite wanneer de gegevens op de verzamelingsservers worden geplaatst.
 
 Een rapportsuite kan een van de volgende tijdstempelinstellingen hebben:
 
@@ -45,7 +45,7 @@ Een rapportsuite kan een van de volgende tijdstempelinstellingen hebben:
 * Vereiste tijdstempels (instellen van bezoeker-id wordt niet ondersteund)
 * Tijdstempels optioneel (instelling van bezoeker-id wordt ondersteund, maar niet bij treffers met tijdstempels)
 
-## Informatie over optionele tijdstempels {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## Informatie over Tijdstempels Optionele functies {#features}
 
 Met Tijdstempels optioneel kunt u meerdere rapportsuites integreren en rapporteren, met of zonder tijdstempels aan de clientzijde. Met Tijdstempels optioneel kunt u uw app bijwerken en tijdstempels gebruiken terwijl u nog steeds niet-tijdstempelde gegevens uit de vorige app gebruikt.
 
@@ -55,7 +55,7 @@ Met Tijdstempels optioneel kunt u meerdere rapportsuites integreren en rapporter
 
 **Met Tijdstempels optioneel**, kunt u niet-tijdstempelgegevens van een live website integreren met offlinegegevens van mobiele apparaten, of uw niet-tijdstempelapp bijwerken naar een app met een tijdstempel.
 
-## Gegevens combineren in een Global Report Suite {#section_5BE3BDF56007402BB1F5C3144D5FE1E0}
+## Gegevens combineren in een Global Report Suite {#combine}
 
 Het combineren van gegevens in een globale rapportreeks kan op veelvoudige manieren, met inbegrip van multi-suite het etiketteren, de regels van Vista, en ingevoerde partijdossiers uit off-line bronnen worden gedaan.
 
@@ -63,16 +63,16 @@ Het combineren van gegevens in een globale rapportreeks kan op veelvoudige manie
 >
 >Plan zorgvuldig het ontwerp voor elke reeks componentengegevens zodat de combinatie in een globale rapportreeks steek houdt.
 
-## Aanbevolen procedures bij gebruik van tijdstempels {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
+## Aanbevolen procedures bij het gebruik van tijdstempels {#best-pratices}
 
 Hieronder vindt u best practices en een aantal vereisten en beperkingen die u in acht moet nemen wanneer u tijdstempels met gegevens zonder tijdstempel integreert.
 
-* Over het algemeen moeten tijdstempels voor een bepaalde bezoeker of bezoeker in de juiste chronologische volgorde bij Adobe aankomen.
+* Over het algemeen moeten tijdstempels voor een bepaalde bezoeker of een bepaald bezoek in chronologische volgorde bij de Adobe aankomen.
 
-   Gegevens die niet op volgorde staan, kunnen gegevens bevatten die te laat aankomen bij het verzamelen van offlinegegevens en laat aankomen, of uit-of-synchronisatieklokken op mobiele offlineapparaten. Buiten-de-ordegegevens kunnen tijdberekeningen (zoals tijd bestede waarden), attributie (persistentie van de eVar), het aantal van het bezoek/bezoek tellingen, en het kleven rapporten negatief beïnvloeden.
+  Gegevens die niet op volgorde staan, kunnen gegevens bevatten die te laat aankomen bij het verzamelen van offlinegegevens en laat aankomen, of uit-of-synchronisatieklokken op mobiele offlineapparaten. Buiten-de-ordegegevens kunnen tijdberekeningen (zoals tijd bestede waarden), attributie (eVar persistence), bezoekaantal/bezoek tellingen, en het kleven rapporten negatief beïnvloeden.
 
-* Tijdstempels gebruiken bij het instellen van een [s.bezoekerID](/help/implement/vars/config-vars/visitorid.md) wordt niet aanbevolen. Dit kan leiden tot gegevens die niet op volgorde staan.
+* Tijdstempels gebruiken wanneer u een [s.bezoekerID](/help/implement/vars/config-vars/visitorid.md) wordt niet aanbevolen. Dit kan leiden tot gegevens die niet op volgorde staan.
 
 * Hybride apps die bestaan uit een app (tijdstempeling, offlinegegevens) die een webbrowser opent (niet-tijdstempels, live gegevens), mogen geen tijdstempels gebruiken. Dit leidt tot een onjuiste rapportage van de sessie.
 
-   Bovendien mogen hybride apps geen bezoekers-id instellen.
+  Bovendien mogen hybride apps geen bezoekers-id instellen.
