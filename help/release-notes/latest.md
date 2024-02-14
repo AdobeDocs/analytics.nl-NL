@@ -3,48 +3,48 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 55c08fd64b2fbac0e21af10896773c2530fa64a8
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 2%
+source-wordcount: '716'
+ht-degree: 1%
 
 ---
 
-# Huidige Adobe Analytics-releaseopmerkingen (januari 2024)
+# Opmerkingen bij de huidige Adobe Analytics-release (februari 2024)
 
-**Laatste update**: 10 januari 2024
+**Laatste update**: 14 februari 2024
 
-Deze releaseopmerkingen hebben betrekking op de periode van januari 2024 tot en met 13 februari 2024. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+Deze opmerkingen hebben betrekking op de releaseperiode van 14 februari 2024 tot 11 maart 2024. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 ## Nieuwe of verbeterde functies {#features}
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Warehouse-updates** | De volgende verbeteringen voor de Data Warehouse zijn nu beschikbaar:<ul><li>Wanneer het creëren van een verzoek van de Data Warehouse, kunnen de gebruikers verzoeken ter beschikking stellen aan alle gebruikers in de organisatie door de nieuwe geroepen knevel toe te laten [!UICONTROL **Beschikbaar maken voor gebruikers in uw organisatie**].<p>Zie voor meer informatie [Algemene instellingen voor verzoek om Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Wanneer het creëren van of het leiden van het rapportbestemmingen van de Data Warehouse, kunnen de systeembeheerders rekeningen en plaatsen nu tonen die door gebruikers in de organisatie door de geroepen knevel toe te laten werden gecreeerd [!UICONTROL **Alle doelen tonen**].<p>Zie voor meer informatie [Vorm een rapportbestemming voor een verzoek van de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | N.v.t. | donderdag 10 januari 2024 |
-| **Updates voor de visualisatie van het overzicht van belangrijke metingen** | Als u de visualisatie Metrische hoofdoverzicht gebruikt, kan het datumbereik van Vergelijking nu automatisch worden bijgewerkt, afhankelijk van het feit of de gekozen optie voor het datumbereik van Vergelijking relatief is ten opzichte van het primaire datumbereik of vast is. [Meer informatie](/help/analyze/analysis-workspace/visualizations/key-metric.md). | N.v.t. | donderdag 17 januari 2024 |
+| **Activity Map voor Web SDK zonder extra kosten** | Op dit moment worden koppelingsgebeurtenissen voor Activity Mappen als hun eigen gebeurtenissen geteld en extra kosten met zich meegebracht. Deze verbetering neemt sommige verbindingsgebeurtenissen en verpakt hen in de volgende slag, gelijkend op hoe de gebeurtenissen door AppMeasurement worden behandeld. |  | donderdag 14 februari 2024 |
+| **Toename in standaard laag-verkeersdrempels** | In **medio april 2024**, zal de Adobe beginnen verhogend de standaardrapportreeks laag-verkeersdrempels als volgt: ![laagverkeersdrempels](assets/thresholds.png) Dit zal alleen gevolgen hebben voor variabelen die momenteel onder de nieuwe drempelwaarden liggen. Deze veranderingen zullen geleidelijk worden doorgevoerd en wij verwachten dat het werk door de **eind mei**. Aangezien deze verhogingen worden uitgerold, kunt u veranderingen voor high-cardinality variabelen opmerken:<ul><li>Er kunnen meer waarden van dimensies beschikbaar zijn voor rapportage.</li><li>Segmenten en berekende metriek kunnen meer gegevens bevatten.</li><li>Virtuele rapportsuites die op segmenten worden gebaseerd kunnen meer gegevens omvatten.</li></ul> | medio april 2024 | Eind mei 2024 |
 
 {style="table-layout:auto"}
 
 ## Oplossingen in Adobe Analytics
 
-* Correctie van de volgende classificatieproblemen: AN-314821; AN-326839; AN-332079; AN-332704; AN-332812; AN-332902; AN-329 AN-3333300; AN-333023; AN-333033; AN-333174; AN-333910; AN-334097; AN-33420 AN-334373; AN-334439; AN-334698; AN-334838; AN-334848; AN-334987; AN-33504 AN-335082; AN-335202; AN-335203; AN-335254; AN-335322; AN-335552; AN-335591; 335603; AN-335610; AN-335617; AN-335699; AN-335891; AN-335901; AN-336063; AN-3 36072; AN-336193; AN-336479; AN-336684; AN-336801; AN-337370; AN-337398
-* Oplossing voor de volgende problemen in verband met classificatieregel Builder: AN-332390; AN-332573; AN-332718; AN-332927; AN-333248; AN-33953; AN-34 AN-334736; AN-334910; AN-335642; AN-335683; AN-335811; AN-336033; AN-3365 AN-336852; AN-336875; AN-336902; AN-337190;
-* Oplossing voor de volgende A4T-problemen: AN-334564; AN-336178;
-* Oplossing voor de volgende problemen met het gebruik van servergesprekken: AN-332568; AN-333105; AN-333167; AN-333983; AN-334209; AN-334278
-* De volgende problemen met betrekking tot Data Warehouse zijn opgelost: AN-333010; AN-333076; AN-330227; AN-331580; AN-333350; AN-334291; AN-342 AN-334287; AN-334301; AN-334385; AN-334453; AN-334977; AN-335079; AN-33517 AN-335245; AN-335426; AN-335680; AN-335818; AN-336087; AN-337308;
-* Correctie van de volgende gegevensfeeds: AN-332241; AN-332366; AN-332617; AN-332654; AN-332702; AN-332723; AN-33 014; AN-333166; AN-334037; AN-334125; AN-334211; AN-334216; AN-334235; AN-349 76; AN-335158; AN-335368; AN-335408; AN-335468; AN-335471; AN-335528; AN-3359 AN-335662; AN-335733; AN-335883; AN-335894; AN-335968; AN-336098; AN-336192; AN-336243; AN-336659; AN-336977; AN-337117; AN-337219; AN-337262; AN-337393; AN 337462; AN-337854
-* De volgende problemen met betrekking tot de Report Builder zijn opgelost: AN-335246; AN-336311;
-* De volgende Analysis Workspace-kwesties zijn opgelost: AN-323760; AN-324191; AN-324913; AN-330126; AN-332808; AN-333168; AN-333 337043; AN-336040; AN-337043;
+* Oplossing voor de volgende problemen in verband met classificaties: AN-319515; AN-337559; AN-338149; AN-338702; AN-338769; AN-33891; AN-393 AN-339649; AN-339668; AN-339669; AN-339776; AN-339822; AN-340017; AN-34020 2; AN-340476;
+* Oplossing voor de volgende problemen met betrekking tot de classificatieregel Builder: AN-338385; AN-338399; AN-338592; AN-338810; AN-338893; AN-339 340201; AN-340309;
+* De volgende A4T-kwesties zijn opgelost: AN-334830; AN-336194; AN-338309; AN-338650;
+* Probleem met gegevensverzameling verholpen: AN-339323
+* De volgende problemen met betrekking tot de Data Warehouse zijn opgelost: AN-335542; AN-331425; AN-337215; AN-338445; AN-338643; AN-3394 340066; AN-340207; AN-340460
+* Probleem verholpen met gegevensfeeds: AN-335952; AN-338653; AN-339508; AN-339681; AN-340418
+* Probleem met gegevensbronnen opgelost: AN-338648
+* De volgende Analysis Workspace-kwesties zijn opgelost: AN-326509; AN-336186; AN-336190; AN-336309; AN-337922; AN-338094; AN-383 23; AN-338556; AN-339600; AN-340445
 
-### Andere oplossingen
+### Andere correcties voor analysemogelijkheden
 
-AN-323975; AN-325383; AN-325809; AN-326787; AN-331611; AN-331818; AN-332124; AN-3 332272; AN-332911; AN-333070; AN-333302; AN-333377; AN-333904; AN-333928 33968; AN-334056; AN-334099; AN-334191; AN-334207; AN-334776; AN-335206; AN-33 5294; AN-335320; AN-335394; AN-335443; AN-335967; AN-336099; AN-337452; AN-37 463
+AN-328239; AN-332908; AN-335449; AN-335517; AN-336075; AN-336100; AN-336128; AN 338088; AN-338270; AN-338393; AN-338494; AN-339326; AN-339742; AN-33983; AN-3 40419
 
 ## Belangrijke kennisgevingen voor Adobe Analytics-beheerders {#admin}
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
-| Adobe API-objectlidtoevoegingen | donderdag 17 januari 2024 | Adobe kan optionele aanvraag- en antwoordleden (naam/waardeparen) toevoegen aan bestaande API-objecten zonder kennisgeving of wijzigingen in versiebeheer. Dergelijke toevoegingen zouden vaste veranderingen voor uw implementatie moeten zijn. De Adobe raadt u aan de API-documentatie te raadplegen van alle hulpprogramma&#39;s van derden die u met onze API&#39;s integreert, zodat dergelijke toevoegingen bij de verwerking worden genegeerd als ze niet worden begrepen. De Adobe zal geen parameters verwijderen of vereiste parameters toevoegen zonder standaardbericht door versienota&#39;s eerst te verstrekken. |
+| Adobe API-objectlidtoevoegingen | donderdag 17 januari 2024 | Adobe kan optionele aanvraag- en antwoordleden (naam/waardeparen) op elk gewenst moment en zonder kennisgeving of wijzigingen in versiebeheer toevoegen aan bestaande API-objecten. De Adobe raadt u aan de API-documentatie te raadplegen van alle hulpprogramma&#39;s van derden die u met onze API&#39;s integreert, zodat dergelijke toevoegingen tijdens de verwerking worden genegeerd, als ze niet worden begrepen. Als deze toevoegingen correct zijn geïmplementeerd, zijn ze vaste wijzigingen voor uw implementatie. De Adobe zal geen parameters verwijderen of vereiste parameters toevoegen zonder standaardbericht door versienota&#39;s eerst te verstrekken. |
 | `getPageLoadTime` insteekmodule vervangen | donderdag 10 januari 2024 | Deze plug-in wordt niet meer ondersteund. Zijn code gebruikt de performance.timing methode, die (volgens MDN) is geweest [verouderd](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). Het werk aan een bijgewerkte plug-in is begonnen. |
 
 {style="table-layout:auto"}
@@ -53,9 +53,6 @@ AN-323975; AN-325383; AN-325809; AN-326787; AN-331611; AN-331818; AN-332124; AN-
 
 | EOL-product of -functie | Datum toegevoegd of bijgewerkt | Beschrijving |
 | --- | --- | --- |
-| **EOL voor[!DNL Reports & Analytics]** | donderdag 10 januari 2024 | Effectief **17 januari 2024**, Adobe stopgezet [!DNL Reports & Analytics] en de bijbehorende verslagen en kenmerken. De rapporten, visualisaties en onderliggende technologie die macht [!DNL Reports & Analytics] niet langer aan de technologienormen van de Adobe voldoet. Meeste [!DNL Reports & Analytics] functies zijn beschikbaar in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Sinds de release van Analysis Workspace in 2015, [!DNL Reports & Analytics] functionaliteit en mogelijkheden zijn verplaatst naar Analysis Workspace en er is een drempel voor pariteit van de workflow bereikt. [Dit bericht](https://spark.adobe.com/page/6WnF8JK6IRDhf/) legt het einde van het levensproces uit.<p>Op 17 januari 2024 hebben we veel van de bijbehorende functies Rapporten en Analytics beëindigd, waaronder, maar niet beperkt tot: Geplande rapporten, Gegevensextracten en DL-rapporten. Na 17 januari 2024 werden alle geplande rapporten niet meer verzonden. Bovendien kun je toekomstige rapporten niet meer plannen vanaf 17 januari 2024. |
-| **EOL van [!UICONTROL Publishing Lists] functie** | donderdag 10 januari 2024 | In het kader van de regeling exportgerichte bedrijven voor rapporten en analyses: [!UICONTROL Publishing Lists] bereikt einde van levensduur **17 januari 2024**. U kunt geen nieuwe of bestaande [!UICONTROL Publishing Lists] naar verzenden of plannen [!UICONTROL Analysis Workspace] projecten. |
-| **EOL voor Data Workbench** | woensdag 2 januari 2024 | Adobe einde-van-lifed Data Workbench effectief **31 december 2023**. Zie [Aankondiging einde levensduur Data Workbench](https://express.adobe.com/page/GSu6oKOD88GAj/) voor meer informatie. Neem contact op met de accountmanager van de Adobe van uw organisatie voor vragen. |
 | **Migratie naar Adobe I/O OAuth Server-aan-Server geloofsbrieven** | vrijdag 11 mei 2023 | Adobe Analytics API- en Livestream-klanten die Adobe I/O JWT-gebruikersgegevens gebruiken, moeten naar Adobe I/O OAuth Server-to-Server-gebruikersgegevens migreren door **1 januari 2025**. Adobe I/O staat niet toe dat vanaf 1 mei 2024 nieuwe JWT-referenties worden gemaakt. Klanten die JWT gebruiken moeten een nieuwe Server-aan-Server referentie OAuth tot stand brengen of hun bestaande JWT-referentie migreren naar een OAuth Server-aan-Server referentie. Klanten moeten ook hun clienttoepassingen bijwerken om de nieuwe OAuth Server-to-Server referenties te kunnen gebruiken. <ul><li>[Migreren van JWT-gebruikersgegevens (Service Account)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Implementatiehandleiding voor nieuwe en oude toepassingen met OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[De nieuwe OAuth Server-to-Server-referenties gebruiken](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Veelgestelde vragen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 {style="table-layout:auto"}
