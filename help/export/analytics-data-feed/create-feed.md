@@ -3,10 +3,10 @@ title: Een gegevensfeed maken
 description: Leer hoe u een gegevensfeed maakt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 1%
+source-wordcount: '3211'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
    Er wordt een pagina weergegeven met drie hoofdcategorieën: [!UICONTROL **Diervoederinformatie**], [!UICONTROL **Doel**], en [!UICONTROL **Definities gegevenskolom**].
 1. In de [!UICONTROL **Diervoederinformatie**] in, vult u de volgende velden in:
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Naam**] | De naam van de gegevensinvoer. Moet uniek zijn binnen de geselecteerde rapportreeks, en kan tot 255 karakters in lengte zijn. |
    | [!UICONTROL **Rapportsuite**] | De rapportsuite waarop de gegevensinvoer is gebaseerd. Als de veelvoudige gegevensvoer voor de zelfde rapportreeks wordt gecreeerd, moeten zij verschillende kolomdefinities hebben. Alleen bronrapportsuites ondersteunen gegevensfeeds; virtuele rapportsuites worden niet ondersteund. |
@@ -89,7 +89,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       1. Selecteren [!UICONTROL **Account toevoegen**] en geeft u de volgende informatie op:
 
-         | Veld | -functie |
+         | Veld | Functie |
          |---------|----------|
          | [!UICONTROL **Accountnaam**] | Een naam voor de account. Dit kan elke gewenste naam zijn. |
          | [!UICONTROL **Accountbeschrijving**] | Een beschrijving voor de account. |
@@ -98,14 +98,14 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
          {style="table-layout:auto"}
 
-         1. Selecteren [!UICONTROL **Locatie toevoegen**] en geeft u de volgende informatie op:
+      1. Selecteren [!UICONTROL **Locatie toevoegen**] en geeft u de volgende informatie op:
 
-         | Veld | -functie |
+         | Veld | Functie |
          |---------|----------|
          | [!UICONTROL **Naam**] | Een naam voor de account. |
          | [!UICONTROL **Beschrijving**] | Een beschrijving voor de account. |
-         | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, toegang heeft om bestanden naar dit emmertje te uploaden. |
-         | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+         | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, de `S3:PutObject` toestemming om bestanden naar dit emmertje te uploaden. Met deze machtiging kan de ARN-gebruiker initiële bestanden uploaden en bestanden overschrijven voor volgende uploads.</p> |
+         | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -147,7 +147,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       1. Selecteren [!UICONTROL **Account toevoegen**] en geeft u de volgende informatie op:
 
-         | Veld | -functie |
+         | Veld | Functie |
          |---------|----------|
          | [!UICONTROL **Accountnaam**] | Een naam voor de Azure RBAC-account. Deze naam wordt weergegeven in het dialoogvenster [!UICONTROL **Account selecteren**] en kan elke gewenste naam hebben. |
          | [!UICONTROL **Accountbeschrijving**] | Een beschrijving voor de Azure RBAC-account. Deze beschrijving wordt weergegeven in het dialoogvenster [!UICONTROL **Account selecteren**] en kan elke gewenste naam hebben. |
@@ -159,13 +159,13 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       1. Selecteren [!UICONTROL **Locatie toevoegen**] en geeft u de volgende informatie op:
 
-         | Veld | -functie |
+         | Veld | Functie |
          |---------|----------|
          | [!UICONTROL **Naam**] | Een naam voor de locatie. Deze naam wordt weergegeven in het dialoogvenster [!UICONTROL **Locatie selecteren**] en kan elke gewenste naam hebben. |
          | [!UICONTROL **Beschrijving**] | Een beschrijving voor de locatie. Deze beschrijving wordt weergegeven in het dialoogvenster [!UICONTROL **Locatie selecteren**] en kan elke gewenste naam hebben. |
          | [!UICONTROL **Account**] | De Azure-opslagaccount. |
          | [!UICONTROL **Container**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat u machtigingen verleent om bestanden te uploaden naar de Azure-toepassing die u eerder hebt gemaakt. |
-         | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+         | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -207,7 +207,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       1. Selecteren [!UICONTROL **Account toevoegen**] en geeft u de volgende informatie op:
 
-         | Veld | -functie |
+         | Veld | Functie |
          |---------|----------|
          | [!UICONTROL **Accountnaam**] | Een naam voor de Azure SAS-account. Deze naam wordt weergegeven in het dialoogvenster [!UICONTROL **Account selecteren**] en kan elke gewenste naam hebben. |
          | [!UICONTROL **Accountbeschrijving**] | Een beschrijving voor de Azure SAS-account. Deze beschrijving wordt weergegeven in het dialoogvenster [!UICONTROL **Account selecteren**] en kan elke gewenste naam hebben. |
@@ -221,12 +221,12 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       1. Selecteren [!UICONTROL **Locatie toevoegen**] en geeft u de volgende informatie op:
 
-         | Veld | -functie |
+         | Veld | Functie |
          |---------|----------|
          | [!UICONTROL **Naam**] | Een naam voor de locatie. Deze naam wordt weergegeven in het dialoogvenster [!UICONTROL **Locatie selecteren**] en kan elke gewenste naam hebben. |
          | [!UICONTROL **Beschrijving**] | Een beschrijving voor de locatie. Deze beschrijving wordt weergegeven in het dialoogvenster [!UICONTROL **Locatie selecteren**] en kan elke gewenste naam hebben. |
          | [!UICONTROL **Container**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. |
-         | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+         | [!UICONTROL **Voorvoegsel**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       1. Selecteren [!UICONTROL **Account toevoegen**] en geeft u de volgende informatie op:
 
-         | Veld | -functie |
+         | Veld | Functie |
          |---------|----------|
          | [!UICONTROL **Accountnaam**] | Een naam voor de account. Dit kan elke gewenste naam zijn. |
          | [!UICONTROL **Accountbeschrijving**] | Een beschrijving voor de account. |
@@ -274,15 +274,15 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
          {style="table-layout:auto"}
 
-         1. Selecteren [!UICONTROL **Locatie toevoegen**] en geeft u de volgende informatie op:
+      1. Selecteren [!UICONTROL **Locatie toevoegen**] en geeft u de volgende informatie op:
 
-         | Veld | -functie |
+         | Veld | Functie |
          |---------|----------|
          | [!UICONTROL **Opdrachtgever**] | De Opdrachtgever wordt door Adobe verstrekt. U moet toestemming verlenen om voer naar dit hoofd te ontvangen. |
          | [!UICONTROL **Naam**] | Een naam voor de account. |
          | [!UICONTROL **Beschrijving**] | Een beschrijving voor de account. |
-         | [!UICONTROL **Emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. Zorg ervoor dat u aan Opdrachtgever toestemming hebt verleend die door Adobe wordt verstrekt om dossiers aan dit emmertje te uploaden. |
-         | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+         | [!UICONTROL **Emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. <p>Zorg ervoor dat u één van beide volgende toestemmingen aan Opdrachtgever hebt verleend die door Adobe wordt verstrekt:<ul><li>`roles/storage.objectCreator`: Gebruik deze machtiging als u Opdrachtgever wilt beperken tot het maken van alleen bestanden in uw GCP-account. </br>**Belangrijk:** Als u deze toestemming met geplande rapportering gebruikt, moet u een uniek dossier - naam voor elke nieuwe geplande uitvoer gebruiken. Anders, zal de rapportgeneratie ontbreken omdat Principal geen toegang heeft om bestaande dossiers te overschrijven.</li><li>(Aanbevolen) `roles/storage.objectUser`: Gebruik deze machtiging als u wilt dat de Opdrachtgever toegang heeft tot bestanden in uw GCP-account, deze bestanden kan weergeven, bijwerken en verwijderen.</br>Met deze machtiging kan de Opdrachtgever bestaande bestanden overschrijven voor volgende uploads, zonder dat automatisch unieke bestandsnamen moeten worden gegenereerd voor elke nieuwe geplande export.</li></ul><p>Zie voor informatie over het verlenen van machtigingen [Voeg een hoofd aan een beleid op het niveau van de emmertje toe](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de Google Cloud-documentatie.</p> |
+         | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -294,7 +294,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
 1. In de  [!UICONTROL **Definities gegevenskolom**] sectie selecteert u de meest recente [!UICONTROL **Alle Adobe Columns**] in het vervolgkeuzemenu en vul vervolgens de volgende velden in:
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Te verwijderen tekens verwijderen**] | Bij het verzamelen van gegevens kunnen sommige tekens (zoals nieuwe regels) problemen veroorzaken. Schakel dit selectievakje in als u deze tekens uit feed-bestanden wilt verwijderen. |
    | [!UICONTROL **Compressie-indeling**] | Het type compressie dat wordt gebruikt. **Gzip** Hiermee worden bestanden uitgevoerd in `.tar.gz` gebruiken. **Postcode** Hiermee worden bestanden uitgevoerd in `.zip` gebruiken. |
@@ -326,7 +326,7 @@ Gegevens over gegevenstoevoer kunnen naar een door de Adobe of klant gehoste FTP
 
 Gebruik de volgende informatie wanneer u de beschikbare velden invult:
 
-* [!UICONTROL **Host**]: Voer de gewenste FTP-doel-URL in. Bijvoorbeeld, `ftp://ftp.omniture.com`.
+* [!UICONTROL **Host**]: Voer de gewenste FTP-doel-URL in. Bijvoorbeeld: `ftp://ftp.omniture.com`.
 * [!UICONTROL **Pad**]: kan leeg worden gelaten
 * [!UICONTROL **Gebruikersnaam**]: Voer de gebruikersnaam in die u wilt aanmelden bij de FTP-site.
 * [!UICONTROL **Wachtwoord en wachtwoord bevestigen**]: Voer het wachtwoord in om u aan te melden bij de FTP-site.

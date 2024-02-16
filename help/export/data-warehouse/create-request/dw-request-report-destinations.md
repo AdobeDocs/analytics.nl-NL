@@ -3,9 +3,9 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Naam van emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, toegang heeft om bestanden naar dit emmertje te uploaden. |
+      | [!UICONTROL **Naam van emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, de `S3:PutObject` toestemming om bestanden naar dit emmertje te uploaden. Met deze machtiging kan de ARN-gebruiker initiële bestanden uploaden en bestanden overschrijven voor volgende uploads.</p> |
       | [!UICONTROL **Voorvoegsel toets**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
 
       {style="table-layout:auto"}
@@ -149,7 +149,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Naam van emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. Zorg ervoor dat u aan Opdrachtgever toestemming hebt verleend die door Adobe wordt verstrekt om dossiers aan dit emmertje te uploaden. Zie voor informatie over het verlenen van machtigingen [Voeg een hoofd aan een beleid op het niveau van de emmertje toe](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de Google Cloud-documentatie. |
+      | [!UICONTROL **Naam van emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. <p>Zorg ervoor dat u één van beide volgende toestemmingen aan Opdrachtgever hebt verleend die door Adobe wordt verstrekt:<ul><li>`roles/storage.objectCreator`: Gebruik deze machtiging als u Opdrachtgever wilt beperken tot het maken van alleen bestanden in uw GCP-account. </br>**Belangrijk:** Als u deze toestemming met geplande rapportering gebruikt, moet u een uniek dossier - naam voor elke nieuwe geplande uitvoer gebruiken. Anders, zal de rapportgeneratie ontbreken omdat Principal geen toegang heeft om bestaande dossiers te overschrijven.</li><li>`roles/storage.objectUser`: Gebruik deze machtiging als u wilt dat de Opdrachtgever toegang heeft tot bestanden in uw GCP-account, deze bestanden kan weergeven, bijwerken en verwijderen.</br>Met deze machtiging kan de Opdrachtgever bestaande bestanden overschrijven voor volgende uploads, zonder dat automatisch unieke bestandsnamen moeten worden gegenereerd voor elke nieuwe geplande export.</li></ul><p>Zie voor informatie over het verlenen van machtigingen [Voeg een hoofd aan een beleid op het niveau van de emmertje toe](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de Google Cloud-documentatie.</p> |
       | [!UICONTROL **Voorvoegsel toets**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
 
       {style="table-layout:auto"}
