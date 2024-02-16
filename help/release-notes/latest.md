@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d52e4d41ac0fc6ce6db04e491fc33bac2284f040
+source-git-commit: e9abbc03cf01abecab4ea0627624b5272b503d5c
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 14 februari 2024 tot
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Activity Map voor Web SDK zonder extra kosten** | Op dit moment worden koppelingsgebeurtenissen voor Activity Mappen als hun eigen gebeurtenissen geteld en extra kosten met zich meegebracht. Deze verbetering neemt sommige verbindingsgebeurtenissen en verpakt hen in de volgende slag, gelijkend op hoe de gebeurtenissen door AppMeasurement worden behandeld. |  | donderdag 6 maart 2024 |
-| **Toename in standaard laag-verkeersdrempels** | In **medio april 2024**, zal de Adobe beginnen verhogend de standaardrapportreeks laag-verkeersdrempels als volgt: ![laagverkeersdrempels](assets/thresholds.png) Dit zal alleen gevolgen hebben voor variabelen die momenteel onder de nieuwe drempelwaarden liggen. Deze veranderingen zullen geleidelijk worden doorgevoerd en wij verwachten dat het werk door de **eind mei**. Aangezien deze verhogingen worden uitgerold, kunt u veranderingen voor high-cardinality variabelen opmerken:<ul><li>Er kunnen meer waarden van dimensies beschikbaar zijn voor rapportage.</li><li>Segmenten en berekende metriek kunnen meer gegevens bevatten.</li><li>Virtuele rapportsuites die op segmenten worden gebaseerd kunnen meer gegevens omvatten.</li></ul> | medio april 2024 | Eind mei 2024 |
+| **Toename in standaard laag-verkeersdrempels** | In **medio april 2024**, zal de Adobe beginnen verhogend de standaardrapportreeks laag-verkeersdrempels als volgt: ![laagverkeersdrempels](assets/thresholds.png) Dit zal alleen gevolgen hebben voor variabelen die momenteel onder de nieuwe drempelwaarden liggen. Deze veranderingen zullen geleidelijk worden doorgevoerd en wij verwachten dat het werk door de **eind mei**. Aangezien deze verhogingen worden uitgerold, kunt u veranderingen voor high-cardinality variabelen opmerken:<ul><li>Er kunnen meer waarden van dimensies beschikbaar zijn voor rapportage.</li><li>Segmenten en berekende metriek kunnen meer gegevens bevatten.</li><li>Virtuele rapportsuites die op segmenten worden gebaseerd kunnen meer gegevens omvatten.</li><li>De indeling van de uitvoer kan meer gegevens bevatten.</li></ul> | medio april 2024 | Eind mei 2024 |
 
 {style="table-layout:auto"}
 
