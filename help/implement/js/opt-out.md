@@ -4,9 +4,9 @@ description: Leer hoe u de optie om te weigeren koppelingen maakt voor bezoekers
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 role: Developer
-source-git-commit: e196e94e891ca7a6b4b1f50482cb342f2339ea8f
+source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Dit artikel biedt **Adobe Analytics-klanten die Adobe Analytics willen implementeren** op hun website instructies te geven over hoe gebruikers van de websites kunnen kiezen voor een opt-out-koppeling. <p><p>
-> Als u **bezoeken van een website die Adobe Analytics heeft geïmplementeerd** en u wilt de optie Weigeren kiezen, **<span style="color:red">dit artikel is NIET voor u</span>**. Zie [Privacykeuzen Adobe](https://www.adobe.com/privacy/opt-out.html) om te bepalen hoe de Adobe uw informatie gebruikt.
+> Dit artikel biedt **Adobe Analytics-klanten die Adobe Analytics willen implementeren** op hun website instructies te geven over hoe gebruikers van websites kunnen kiezen voor de optie om te weigeren. <p><p>
+> Als u **bezoeken van een website die Adobe Analytics heeft geïmplementeerd** en wilt u weigeren, **<span style="color:red">dit artikel is NIET voor u</span>**. Zie [Privacykeuzen Adobe](https://www.adobe.com/privacy/opt-out.html) om te bepalen hoe de Adobe uw informatie gebruikt.
 
 Sommige bezoekers van uw website hebben liever geen informatie over het bladeren in uw gegevensset. Adobe biedt de mogelijkheid om bezoekers van uw website de mogelijkheid te bieden zich af te melden voor de analyse van hun gegevens.
 
