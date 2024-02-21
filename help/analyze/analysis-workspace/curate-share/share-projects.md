@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: c779035b4f1bfbde6da90b2bc6aa2864bb6353f0
+source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1844'
 ht-degree: 0%
 
 ---
@@ -55,16 +55,28 @@ Wanneer het delen van een specifieke projectrol met gebruikers en groepen in uw 
 
 * Een gebruiker die in veelvoudige rollen wordt geplaatst krijgt altijd de hoogste ervaring. Dit kan voorkomen als een gebruiker zowel als individu als deel van een groep wordt toegevoegd. Als een gebruiker bijvoorbeeld de opdracht **[!UICONTROL Edit original]** als individu en **[!UICONTROL Read only]** als lid van een groep ontvangen zij een **[!UICONTROL Edit original]** ervaring met projecten.
 
-* Beheerders die in het dialoogvenster **[!UICONTROL Edit copy]** of **[!UICONTROL Read only]** de rol krijgt die beperkte ervaring wanneer zij een project openen . Een beheerder kan zijn rol wijzigen in **[!UICONTROL Edit original]** door het project met zichzelf te delen en de rol Edit toe te kennen, zoals beschreven in de volgende procedure.
+* Beheerders die in het dialoogvenster **[!UICONTROL Edit copy]** of **[!UICONTROL Read only]** de rol krijgt die beperkte ervaring wanneer zij een project openen . Een beheerder kan zijn rol wijzigen in **[!UICONTROL Edit original]** door het project met elkaar te delen en de **Bewerken** rol, zoals beschreven in de volgende procedure.
+
+* Als de veelvoudige projecten worden geselecteerd om worden gedeeld, zullen de ontvangers aan de bestaande lijst van ontvangers voor elk project worden toegevoegd.
+
+  Project A wordt bijvoorbeeld al gedeeld met ontvangers 1, 2 en 3, terwijl Project B al wordt gedeeld met ontvangers 4, 5 en 6.
+
+  De projecten A en B worden dan gedeeld met ontvangers 4 en 7. De nieuwe aandelenlijst voor Project A is nu 1, 2, 3, 4, en 7, terwijl de nieuwe aandeellijst voor Project B 4, 5, 6, en 7 is.
 
 Een specifieke projectrol delen met gebruikers of groepen in uw organisatie:
 
-1. Ga naar het project dat u wilt delen, dan klik **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
+1. Selecteer in Adobe Analytics de optie [!UICONTROL **Werkruimte**] tab, dan selecteren [!UICONTROL **Projecten**] in het linkerspoor.
+
+1. Schakel het selectievakje naast een of meer projecten die u wilt delen in en selecteer vervolgens [!UICONTROL **Delen**].
+
+   of
+
+   Als u alleen een afzonderlijk project wilt delen, opent u het project dat u wilt delen en selecteert u **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
 Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te slaan.
 
-   ![](assets/share-proj-modal.png)
+   Het dialoogvenster Project delen wordt weergegeven. De [!UICONTROL **Delen via koppeling**] en [!UICONTROL **Instellingen**] delen van het dialoogvenster zijn alleen zichtbaar wanneer u één project deelt.
 
-   Voor informatie over hoe te om veelvoudige projecten gelijktijdig te delen, zie [Projecten delen in de projectmanager](#share-projects-in-the-project-manager).
+   ![](assets/share-proj-modal.png)
 
 1. Voeg ontvangers of groepen ontvangers toe aan een van de opgegeven rolvelden:
 
@@ -74,17 +86,17 @@ Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te
 
    **Alleen-lezen:** Ontvangers kunnen niet **[!UICONTROL Save]** of **[!UICONTROL Save as]** en hebben geen toegang tot de linkerspoorstaaf. De interactie tussen projecten is ook beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die minder vertrouwd met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen zijn. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken. Meer informatie over de [Alleen-lezen ervaring met een project](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
 
-1. Geef op of u de volgende opties wilt inschakelen bij het delen van het project:
+1. (Voorwaardelijk) Als u één project deelt, kies of om de volgende opties toe te laten wanneer het delen van het project:
 
    * **Ingesloten projectcomponenten delen:** Deelt segmenten, berekende metriek, en datumwaaiers met alle ontvangers. Nadat deze componenten worden gedeeld, zullen deze in de drop-down Componenten van de Werkruimte van de ontvanger verschijnen. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
 
    * **Instellen als bestemmingspagina voor ontvangers:** Hiermee stelt u deze pagina in als de bestemmingspagina voor ontvangers. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
 
-1. Klik op **[!UICONTROL Share]**. (Als het project al is gedeeld, klikt u op [!UICONTROL **Bijwerken**].)
+1. Selecteren **[!UICONTROL Share]**. (Als het project al is gedeeld, selecteert u [!UICONTROL **Bijwerken**].)
 
    of
 
-   Klikken **[!UICONTROL Curate and Share]** om automatisch projectcuratie toe te passen. (Als het project al is gedeeld, klikt u op **[!UICONTROL Curate & Update]**.) Meer informatie over [projectcursus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+   Selecteren **[!UICONTROL Curate and Share]** om automatisch projectcuratie toe te passen. (Als het project al is gedeeld, selecteert u **[!UICONTROL Curate & Update]**.) Meer informatie over [projectcursus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
 
 ## Een koppeling naar een project delen
 
@@ -134,7 +146,7 @@ Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adob
 
 1. Open het Analysis Workspace-project dat u wilt delen.
 
-1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Share with anyone]**.
+1. Klikken **[!UICONTROL Share]** > **[!UICONTROL Share with anyone]**.
 
    Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd uw project op te slaan.
 
@@ -156,7 +168,7 @@ Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adob
 
       * Als deze optie niet zichtbaar is, heeft de beheerder van Analytics deze functie niet ingeschakeld.
 
-      * Als deze optie is ingeschakeld en gedimd, vereist de beheerder van Analytics Experience Cloud-verificatie voor iedereen die Analysis Workspace-projecten opent.
+      * Als deze optie is ingeschakeld en gedimd, vereist de beheerder van Analytics verificatie van het Experience Cloud voor iedereen die Analysis Workspace-projecten opent.
 
 1. Naast de **[!UICONTROL Share with anyone (no login required)]** veld, klikt u op de knop **Koppeling kopiëren** pictogram ![Koppelingspictogram kopiëren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) om de koppeling naar het systeemklembord te kopiëren.
 
@@ -168,21 +180,11 @@ Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adob
 
 1. Selecteren **[!UICONTROL Close]** om het dialoogvenster Delen te sluiten. Uw wijzigingen worden automatisch opgeslagen.
 
-## Projecten delen in de projectmanager {#Manager}
+## Projecten weergeven die met u worden gedeeld
 
-Projecten kunnen ook worden gedeeld vanuit **[!UICONTROL Components]>[!UICONTROL Projects]**. U kunt één project delen door dezelfde stappen hierboven uit te voeren.  Als de veelvoudige projecten worden geselecteerd om worden gedeeld, zullen de ontvangers aan de bestaande lijst van ontvangers voor elk project worden toegevoegd.
+Wanneer iemand een project met u deelt door [delen van een specifieke projectrol](#share-a-specific-project-role), kunt u de gedeelde projecten openen vanuit de [Het tabblad Projecten van de landingspagina Analytics](/help/analyze/landing.md#navigate-the-projects-tab).
 
-Bijvoorbeeld:
-
-* Project A wordt gedeeld aan ontvangers 1, 2, 3
-* Project B wordt gedeeld aan ontvangers 4, 5, 6
-
-Als Project A en B zijn geselecteerd, worden ontvangers 4 en 7 toegevoegd aan de aandelenlijsten. De nieuwe lijst van het aandeel voor elk project is nu:
-
-* Project A:
-* Project B: 4, 5, 6, 7
-
-![](assets/mult-proj-sharing.png)
+Wanneer iemand een project met u deelt door een koppeling te delen (van de [Tabblad Project delen](#share-a-link-to-a-project) of met een [delen met iedereen](#share-a-project-with-anyone-no-login-required) (koppeling), moet u de koppeling gebruiken die met u is gedeeld om toegang te krijgen tot het project. De koppeling kan bijvoorbeeld zijn gedeeld in een e-mail, op een interne website, enzovoort.
 
 ## Ingesloten componenten delen
 
