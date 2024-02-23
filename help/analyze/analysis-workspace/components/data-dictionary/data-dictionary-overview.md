@@ -4,9 +4,9 @@ title: Overzicht van gegevenswoordenboek
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
+source-git-commit: 48e75fc4e9cc60bfd6865f7e80060c07ecf25ad8
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Hieronder vindt u een aantal manieren waarop analysebeheerders het gegevenswoord
 
 * Werk componentenbeschrijvingen rechtstreeks bij in Analysis Workspace. Om het even welke die updates aan componentenbeschrijvingen in het Woordenboek van Gegevens worden aangebracht worden weerspiegeld in de Reeks van het Rapport.
 
-   Zo ook worden updates van componentenbeschrijvingen in de Reeks van het Rapport weerspiegeld in Analysis Workspace.
+  Zo ook worden updates van componentenbeschrijvingen in de Reeks van het Rapport weerspiegeld in Analysis Workspace.
 
-   Voor meer informatie over het toevoegen van componentenbeschrijvingen in of Analysis Workspace of in een Reeks van het Rapport, zie [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+  Voor meer informatie over het toevoegen van componentenbeschrijvingen in of Analysis Workspace of in een Reeks van het Rapport, zie [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
 
 ## Het gegevenswoordenboek openen
 
@@ -59,14 +59,12 @@ U kunt het gegevenswoordenboek op de volgende manieren openen in Analysis Worksp
 
 * Van de **Gegevenswoordenboek** in de linkerspoorstaaf.
 
-   ![Pictogram Gegevenswoordenboek in linkerraster](assets/data-dictionary-access-icon.png)
+  ![Pictogram Gegevenswoordenboek in linkerraster](assets/data-dictionary-access-icon.png)
 
 * Van de **Gegevenswoordenboek** in de info-pop-up van een component.
 
-   ![Pictogram Gegevenswoordenboek in info-pop-up](assets/data-dictionary-access-infopopover.png)
-   <!--update screenshot; this was taken from a mock-->
-
-* Vanuit het menu: [!UICONTROL **Help**] > [!UICONTROL **Gegevenswoordenboek**].
+  ![Pictogram Gegevenswoordenboek in info-pop-up](assets/data-dictionary-access-infopopover.png)
+  <!--update screenshot; this was taken from a mock-->
 
 Zie voor meer informatie over de verschillende opties in het gegevenswoordenboek [Componentinformatie weergeven in gegevenswoordenboek](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
@@ -74,7 +72,7 @@ Zie voor meer informatie over de verschillende opties in het gegevenswoordenboek
 
 Analysebeheerders zijn verantwoordelijk voor het onderhoud van een gezond gegevenswoordenboek voor hun organisatie, zoals beschreven in [Gezondheid gegevenswoordenboek controleren](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
 
-Als onderdeel van dit proces kunnen analysebeheerders informatie over elke component in het gegevenswoordenboek bewerken, zoals wordt beschreven in [Onderdeelitems in gegevenswoordenboek bewerken](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+Als onderdeel van dit proces kunnen analysebeheerders informatie over elke component in het gegevenswoordenboek bewerken, zoals wordt beschreven in [Onderdeelitems bewerken in het gegevenswoordenboek](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Het gegevenswoordenboek verplaatsen, minimaliseren of sluiten
 
@@ -84,12 +82,12 @@ U kunt het venster Gegevenswoordenboek op de volgende manieren bewerken:
 
 * Sleep het naar een willekeurig gebied in Analysis Workspace
 
-   Als u Analysis Workspace sluit en weer opent, blijft het venster Gegevenswoordenboek op de locatie staan waar u het als laatste hebt verplaatst. <!--True?-->
+  Als u Analysis Workspace sluit en weer opent, blijft het venster Gegevenswoordenboek op de locatie staan waar u het als laatste hebt verplaatst. <!--True?-->
 
 * Minimaliseren
 
-   Als deze optie is geminimaliseerd, wordt het gegevenswoordenboek weergegeven als een blauw tabblad in de rechterbenedenhoek van Analysis Workspace.
+  Als deze optie is geminimaliseerd, wordt het gegevenswoordenboek weergegeven als een blauw tabblad in de rechterbenedenhoek van Analysis Workspace.
 
-   Wanneer u het blauwe tabblad selecteert, wordt het gegevenswoordenboek geopend voor de component die u het laatst hebt weergegeven.
+  Wanneer u het blauwe tabblad selecteert, wordt het gegevenswoordenboek geopend voor de component die u het laatst hebt weergegeven.
 
 * Sluiten
