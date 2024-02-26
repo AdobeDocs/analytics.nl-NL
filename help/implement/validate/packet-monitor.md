@@ -5,7 +5,7 @@ keywords: packet sniffer, http status, 200, 302, charles
 feature: Validation
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Hoewel Adobe geen officiële pakketmonitor biedt, zijn er een groot aantal van d
 |---|---|---|---|
 | [Punt waarnemen](https://www.observepoint.com/product#plugin) (tagviewer) | [HttpWatch](https://www.httpwatch.com/) | [Punt waarnemen](https://www.observepoint.com/product#plugin) (tagviewer) | [Charles](https://www.charlesproxy.com/) |
 | [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tampergegevens](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [Wireshark](https://www.wireshark.org/) |
+| [Tampergegevens](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chromewebstore.google.com/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
