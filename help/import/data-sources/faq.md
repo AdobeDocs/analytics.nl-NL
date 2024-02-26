@@ -4,9 +4,9 @@ description: Veelgestelde vragen over gegevensbronnen.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Gegevens die via gegevensbronnen zijn geüpload, hebben geen invloed op [Paginaw
 
 +++Kan ik gegevens verwijderen die met gegevensbronnen zijn geïmporteerd?
 
-**Nee.** Gegevens die met behulp van gegevensbronnen in rapporten zijn geüpload, zijn **permanent**. Het kan niet worden verwijderd, zelfs niet door Adobe, zodra het is ingevoerd. Adobe raadt sterk aan gegevensbronnen te uploaden naar een testrapportsuite voordat deze in een productierapportsuite wordt geüpload.
+Ja. U kunt deze gegevens verwijderen met de [API voor gegevensherstel](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Bovendien beveelt de Adobe ten zeerste aan gegevensbronnen te uploaden naar een testrapportsuite voordat deze in een productierapportsuite wordt geüpload.
 +++
 
 +++Hoeveel gegevens kan ik tegelijkertijd importeren?
