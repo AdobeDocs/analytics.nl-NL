@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Gegevenskolomverwijzing
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: dfec68a0ecdf691ab1005919fa3df01158a9cec9
 workflow-type: tm+mt
-source-wordcount: '3897'
+source-wordcount: '3899'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`clickmaplinkbyregion`** | Activity Map per regio | varchar(255) |
 | **`clickmappage`** | Activity Map pagina | varchar(255) |
 | **`clickmapregion`** | Activity Map | varchar(255) |
-| **`code_ver`** | De versie van de Bibliotheek van het AppMeasurement die wordt gebruikt om het beeldverzoek te compileren en te verzenden. | teken(16) |
+| **`code_ver`** | API- of client-SDK-versie die wordt gebruikt om de afbeeldingsaanvraag te compileren en te verzenden. | teken(16) |
 | **`color`** | ID kleurdiepte gebaseerd op de waarde van de `c_color` kolom. Verwijst naar de `color_depth.tsv` opzoektabel. | small int zonder teken |
 | **`connection_type`** | Numerieke id die het verbindingstype vertegenwoordigt. Variabele gebruikt in de [Verbindingstype](/help/components/dimensions/connection-type.md) dimensie. Verwijst naar de `connection_type.tsv` opzoektabel. | tinyint zonder teken |
 | **`cookies`** | Variabele gebruikt in de [Cookie-ondersteuning](/help/components/dimensions/cookie-support.md) dimensie.<br>Y: Enabled<br>N: Uitgeschakeld<br>U: Onbekend | teken(1) |
