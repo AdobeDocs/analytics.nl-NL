@@ -3,9 +3,9 @@ description: Veelgestelde vragen over Advertising Analytics.
 title: Veelgestelde vragen voor reclameanalyses
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 +++ Moet ik Adobe Advertising Cloud of Adobe Advertising Cloud (AMO) klant zijn om toegang te krijgen tot deze functionaliteit?
 
-Nee, deze functionaliteit is beschikbaar voor niet-Advertising Cloud- en niet-AMO-klanten. </p> <p>AMO-klanten kunnen gebruikmaken van de bestaande integratie tussen Analytics en AMO; ze kunnen Ad Analytics niet gebruiken.
+Nee, deze functionaliteit is beschikbaar voor niet-Advertising Cloud- en niet-AMO-klanten.
+
+AMO-klanten kunnen gebruikmaken van de bestaande integratie tussen Analytics en AMO; ze kunnen Ad Analytics niet gebruiken.
 
 +++
 
@@ -104,7 +106,7 @@ Nee, de onbewerkte zoekgegevens worden opgenomen als een onafhankelijke gegevens
 +++ Ik probeer mijn Advertising Analytics-accounts toe te wijzen aan een specifieke rapportsuite, maar deze is niet beschikbaar in het modaal rapportenpakket. Waarom?
 
 Voordat u een rapportsuite aan een Advertising Analytics-account kunt toewijzen, moet de gewenste rapportsuite [voorzien voor Advertising Analytics-rapportage](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
-Dit gebeurt via een aparte beheerpagina die u kunt vinden op: Beheer > Rapportageopties > [rapportsuite selecteren] > Instellingen bewerken > Advertising Analytics-configuratie.
+Dit gebeurt via een aparte beheerpagina die u kunt vinden op: Beheer > Rapportageopties > `[select report suite]` > Instellingen bewerken > Advertising Analytics-configuratie.
 
 +++
 
@@ -114,7 +116,7 @@ Met virtuele rapportsets worden geen gegevens verzameld, zodat u een Advertising
 
 +++
 
-+++ Zijn Advertising Analytics-meetgegevens die in de <b>Marketingkanalen</b> rapporteren?
++++ Zijn Advertising Analytics-meetgegevens die in de *Marketingkanalen* rapporteren?
 
 Nr, zijn zij niet inbegrepen in het rapport van de Kanalen van de Marketing.
 
@@ -126,13 +128,13 @@ De zoekgegevens worden uit de zoekmachines gehaald rond 6AM (06:00) in de tijdzo
 
 +++
 
-+++ Wat kan er gebeuren? <b>vastgelegd voor klik</b>? Zien we indrukken, kosten, gemiddelde positie, enzovoort? zelfs zonder klik ? </p> </td>
++++ Wat kan er gebeuren? *vastgelegd voor klik*? Zien we indrukken, kosten, gemiddelde positie, enzovoort? zelfs zonder klik ?
 
 De AMO-id legt de maatstaven van de zoekmachine vast: Impressies, Kosten, Klikken, Gemiddelde positie en Gemiddelde kwaliteitsscore. Als er geen kliks zijn, maar er indrukken zijn, dan zullen de beeld/positie/kwaliteitsscore gegevens nog naar Analytics worden verzonden. Doorgaans zijn er ook geen kosten verbonden als er niet wordt geklikt.
 
 +++
 
-+++ Op welk niveau worden deze gegevens vastgelegd? <b>Bezoeker? Hit?</b>
++++ Op welk niveau worden deze gegevens vastgelegd? *Bezoeker? Hit?*
 
 De metriek van de motor van het Onderzoek wordt gevangen op het raakniveau en met AMO identiteitskaart (en zijn classificaties) verbonden. Dit zijn gegevens op overzichtsniveau die geen verband houden met bezoeken/bezoekers. Als zodanig kunnen de metriek van de zoekmachine slechts in segmenten worden gebruikt die bereik op raakniveau zijn en op AMO-id (of zijn classificaties) gebaseerd zijn.
 
@@ -140,7 +142,7 @@ De AMO-id wordt ook vastgelegd op de bestemmingspagina in de hit voor die pagina
 
 +++
 
-+++ Wordt alleen google.com vastgelegd of <b>landversies</b> (zoals google.co.uk, google.it, google.fr, of google.de) eveneens?
++++ Wordt alleen google.com vastgelegd of *landversies* (zoals google.co.uk, google.it, google.fr, of google.de) eveneens?
 
 De classificatie van het Platform van de Advertentie vangt deze waarden: &quot;Adwords van Google&quot;, en &quot;Bing Adds&quot;. De beste praktijk is om de landcode op te nemen in de naamgeving van campagnes. Vervolgens kunt u naar beneden of naar een segment filteren (bijvoorbeeld als alle campagnes beginnen met landcode_ en u vervolgens een segment maakt waarin Campagnes (AMO ID) beginnen met &quot;UK_&quot;, zodat u alleen gegevens voor het Verenigd Koninkrijk krijgt).
 
@@ -152,7 +154,7 @@ De classificatie van het Platform van de Advertentie vangt deze waarden: &quot;A
 
 +++
 
-+++ Zijn er plannen om andere reclamekanalen op te nemen, zoals <b>Weergave</b> of <b>Sociaal</b>?
++++ Zijn er plannen om andere reclamekanalen op te nemen, zoals *Weergave* of *Sociaal*?
 
 Nee, op dit moment hebben we geen plannen voor deze andere kanalen op de routekaart.
 
@@ -161,9 +163,9 @@ Nee, op dit moment hebben we geen plannen voor deze andere kanalen op de routeka
 
 ## Automatisch versus handmatig bijhouden {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Bij het instellen van mijn advertentieaccount staat het volgende:<b> Automatisch bijhouden</b> kan leiden tot onbedoelde gevolgen. Welke gevolgen kunnen zich voordoen?
++++ Bij het instellen van mijn advertentieaccount staat het volgende: *Automatisch bijhouden* kan leiden tot onbedoelde gevolgen. Welke gevolgen kunnen zich voordoen?
 
-In de modus Automatisch wordt geprobeerd URL-parameters toe te voegen aan het einde van de volgende sjablonen/doel-URL&#39;s in de juiste indeling. <b>Het is echter uw verantwoordelijkheid om ervoor te zorgen dat de toegevoegde URL-parameters correct blijven op de laatste bestemmingspagina. In de modus Automatisch kunnen sleutelwoorden worden ingevoegd in de bestemmings-URL en het is mogelijk dat uw webserver geen trefwoorden met speciale tekens ondersteunt.
+In de modus Automatisch wordt geprobeerd URL-parameters toe te voegen aan het einde van de volgende sjablonen/doel-URL&#39;s in de juiste indeling. Het is echter uw verantwoordelijkheid om ervoor te zorgen dat de toegevoegde URL-parameters correct blijven op de laatste bestemmingspagina. In de modus Automatisch kunnen sleutelwoorden worden ingevoegd in de bestemmings-URL en het is mogelijk dat uw webserver geen trefwoorden met speciale tekens ondersteunt.
 
 +++
 
