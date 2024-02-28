@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '5092'
+source-wordcount: '5117'
 ht-degree: 23%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **Februari 2024** | |
+| Updates voor informatie over het beheer van verzoeken van Data Warehouse | Verduidelijkt dat, door gebrek, gebruikers slechts de verzoeken kunnen bekijken die zij wanneer creëren [het beheren van verzoeken van de Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | Updates voor documentatie voor het delen van projecten | Extra informatie over hoe te [gedeelde projecten weergeven](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Ook gestroomlijnde informatie over [het delen van individuele of veelvoudige projecten](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Toegevoegde machtigingsvereisten voor het uploaden van bestanden naar Azure SAS en Azure RBAC in Data Warehouse- en gegevensfeeds | Exacte machtigingsvereisten toegevoegd voor het uploaden van bestanden naar Azure SAS en Azure RBAC wanneer [het vormen bestemmingen voor Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) en [wanneer het vormen van bestemmingen voor de Diervoeders van Gegevens](/help/export/analytics-data-feed/create-feed.md). |
 | Toegevoegde machtigingsvereisten voor het uploaden van bestanden naar Amazon S3 en GCP buckets in Data Warehouse- en gegevensfeeds | Er zijn exacte machtigingsvereisten toegevoegd voor het uploaden van bestanden naar Amazon S3 en Google Cloud Platform buckets wanneer [het vormen bestemmingen voor Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) en [wanneer het vormen van bestemmingen voor de Diervoeders van Gegevens](/help/export/analytics-data-feed/create-feed.md). |

@@ -4,9 +4,9 @@ title: Aanvragen voor Data Warehouse beheren
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,17 @@ ht-degree: 0%
 
 U kunt de verzoeken van de Data Warehouse bekijken en beheren die u hebt gemaakt. Alleen beheerders kunnen aanvragen van andere gebruikers in hun organisatie weergeven en beheren.
 
-De volgende secties beschrijven activiteiten u kunt uitvoeren wanneer het beheren van verzoeken.
+De volgende secties beschrijven activiteiten die u kunt uitvoeren wanneer het beheren van verzoeken.
 
 ## Verzoeken weergeven
 
+Standaard kunt u alleen de aanvragen weergeven die u maakt, tenzij gebruikers ervoor hebben gekozen hun aanvragen zichtbaar te maken voor anderen in de organisatie (zoals beschreven in [Algemene instellingen voor verzoek om Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md)). Systeembeheerders kunnen alle aanvragen weergeven.
+
+Om de verzoeken van de Data Warehouse te bekijken:
+
 1. Selecteer in Adobe Analytics [!UICONTROL **Gereedschappen**] > [!UICONTROL **Data Warehouse**].
 
-   Op de pagina Data Warehouse worden alle verzoeken weergegeven die u hebt gedaan. <!-- just those you have made? -->Gegevens worden in elke kolom weergegeven. U kunt [configureren welke kolommen](#configure-columns) zijn zichtbaar.
+   Op de pagina Data Warehouse worden alle aanvragen weergegeven die u hebt gemaakt. Gegevens worden in elke kolom weergegeven. U kunt [configureren welke kolommen](#configure-columns) zijn zichtbaar.
 
    <!-- add screenshot of main page -->
 
