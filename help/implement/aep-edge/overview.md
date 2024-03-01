@@ -4,9 +4,9 @@ description: Overzicht van het gebruik van XDM-gegevens van Experience Platform 
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -40,3 +40,4 @@ Om paginameningen en verbindingsgebeurtenissen behoorlijk te behandelen, wordt d
 
 {style="table-layout:auto"}
 
+Zie de [Adobe Analytics ExperienceEvent Volledige extensieschema, veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) voor meer informatie .

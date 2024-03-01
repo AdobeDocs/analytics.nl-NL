@@ -4,9 +4,9 @@ description: Gebruik de uitbreiding van SDK van het Web in de Inzameling van Geg
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '676'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 U kunt de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html) om gegevens naar Adobe Analytics te verzenden. Deze implementatiemethode werkt door de [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) in een indeling die wordt gebruikt door Analytics.
 
-U kunt gegevens naar de Rand van de Ervaring direct verzenden gebruikend het Web SDK, of door de uitbreiding van SDK van het Web in Markeringen.
+U kunt gegevens rechtstreeks naar Experience Edge verzenden met de [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)of via de Web SDK-extensie in Tags.
 
 ## Web SDK
 
@@ -60,14 +60,14 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 </tr>
 
 <td>6</td>
-<td><b>Een Adobe Analytics-service toevoegen</b> naar uw gegevensstroom. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden.</td>
+<td><b>Een Adobe Analytics-service toevoegen</b> naar uw gegevensstroom. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden en naar welke rapportsuite(s) specifiek.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics">Adobe Analytics-service toevoegen aan een gegevensstroom</a></td>
 </tr>
 
 <tr>
 <td>7</td>
-<td><b>De SDK van het web configureren</b>. Controleer of de bibliotheek die u in stap 4 hebt geïnstalleerd, correct is geconfigureerd met de gegevensstroom-id (voorheen bekend als edge configuration id (<code>edgeConfigId</code>), organisatie-id (<code>orgId</code>) en andere beschikbare opties.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en">De SDK van het web configureren</a></td>
+<td><b>De SDK van het web configureren</b>. Controleer of de bibliotheek die u in stap 4 hebt geïnstalleerd, correct is geconfigureerd met de gegevensstroom-id (voorheen bekend als edge configuration id (<code>edgeConfigId</code>), organisatie-id (<code>orgId</code>) en andere beschikbare opties. Zorgen voor juiste toewijzing van variabelen. </td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en">De SDK van het web configureren</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Variabeletoewijzing Analyse</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Variabelen handmatig toewijzen</a></td>
 </tr>
 
 <tr>
@@ -121,7 +121,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 <tr>
 <td>5</td> 
-<td><b>Een Adobe Analytics-service toevoegen</b> naar uw gegevensstroom. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden.</td>
+<td><b>Een Adobe Analytics-service toevoegen</b> naar uw gegevensstroom. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden en naar welke rapportsuite(s) specifiek.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics">Adobe Analytics-service toevoegen aan een gegevensstroom</a></td>
 </tr>
 

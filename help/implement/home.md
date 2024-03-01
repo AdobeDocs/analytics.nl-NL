@@ -4,10 +4,10 @@ description: Implementeer Adobe Analytics op uw website, eigenschap of applicati
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e033f32fb3394bb9e2a9ec47766febfbe8d5bfd7
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 29%
+source-wordcount: '752'
+ht-degree: 10%
 
 ---
 
@@ -15,24 +15,13 @@ ht-degree: 29%
 
 ![Banner](../../assets/doc_banner_implement.png)
 
-Voor Adobe is code op uw site of applicatie vereist om data naar de servers voor dataverzameling van Adobe te verzenden. De volgende stappen geven aan hoe een normale implementatie werkt.
-
-1. Wanneer een bezoeker naar uw site komt, wordt een aanvraag ingediend bij uw webserver.
-2. De webserver van uw site verzendt de paginacodegegevens en de pagina wordt weergegeven in de browser.
-3. De pagina wordt geladen en de Analytics JavaScript-code wordt uitgevoerd.
-De code JavaScript verzendt een beeldverzoek naar de servers van de Adobe van de gegevensinzameling. De paginadata die u in uw implementatie hebt gedefinieerd, worden verzonden als onderdeel van een querytekenreeks in deze afbeeldingsaanvraag.
-
-4. Adobe retourneert een transparante pixelafbeelding.
-5. Adobe servers slaan verzamelde gegevens op in een of meer *rapportsuites*.
-6. De data van de rapportsuite worden ingevuld in rapporten die u in een webbrowser kunt openen.
-
-Het uitvoeren van de JavaScript-code gebeurt snel en heeft geen merkbare invloed op de laadtijden van de pagina. Op deze manier kunt u de pagina&#39;s tellen die worden weergegeven wanneer een bezoeker op **[!UICONTROL Reload]** of **[!UICONTROL Back]** klikt om naar een pagina te gaan, omdat de JavaScript-code ook wordt uitgevoerd wanneer de pagina uit de cache wordt opgehaald.
-
 Voor Adobe Analytics is code binnen uw website, mobiele app of andere applicatie vereist om data naar servers voor dataverzameling te verzenden. Er zijn verschillende methoden om deze code te implementeren, afhankelijk van het platform en de behoeften van uw organisatie.
 
 ## Implementatiemethoden voor websites
 
 Voor uw **website** zijn de volgende uitvoeringsmethoden beschikbaar:
+
+### Client-kant
 
 * **Web SDK-extensie**: De gestandaardiseerde en aanbevolen methode voor het implementeren van Adobe Analytics voor nieuwe klanten. Voeg de **Adobe Experience Platform Web SDK-extensie** in Adobe Experience Platform Data Collection **Tags** plaatst u vervolgens een ladertag op elke pagina. De tag verzendt gegevens naar de Adobe Experience Platform **Edge Network**, die deze gegevens doorgeeft aan Adobe Analytics.
   ![Web SDK-extensie](./assets/websdk-extension-implementation.png)
@@ -50,7 +39,7 @@ Zie [Adobe Analytics implementeren met de extensie Analytics](launch/overview.md
   ![Adobe Analytics implementeren met gebruik van verouderde JavaScript](./assets/appmeasurement-implementation.png)
 Deze implementatiemethode kan handig zijn voor implementaties met behulp van aangepaste code en is ideaal voor implementatietypen die niet elders worden aangeboden, zoals voor [AMP-pagina&#39;s](other/amp.md).
 
-De volgende beslissingsstroom kan u helpen een implementatiemethode te selecteren:
+De volgende beslissingsstroom kan u helpen een client-side implementatiemethode selecteren:
 
 ![Een beslissingsstructuur voor het selecteren van een implementatiemethode, zoals beschreven in deze sectie.](./assets/decision-tree.png)
 
@@ -58,6 +47,18 @@ De volgende beslissingsstroom kan u helpen een implementatiemethode te selectere
 >[!TIP]
 >
 >Neem contact op met het accountteam van de Adobe voor advies en aanbevolen procedures voor de keuze van de implementatie op basis van uw huidige situatie.
+
+### Server-kant
+
+Voor het implementeren van de Adobe Analytics-server hebt u de volgende opties:
+
+* **Edge Server-API**: U implementeert code op de server die de Adobe Experience Platform Edge Server-API gebruikt om te communiceren met Adobe Analytics via een gegevensstroom.
+  ![Implementatie op de server](assets/edge-network-server-api.svg)
+Zie [Adobe Analytics implementeren met de Adobe Experience Platform Edge Network Server-API](/help/implement/aep-edge/server-api/overview.md) voor meer informatie .
+
+* **(Bulk) API voor gegevensinvoer**: Met de API&#39;s voor gegevensinvoeging in Adobe Analytics (Bulk) kunt u gegevensservers rechtstreeks in Adobe Analytics verzamelen.
+  ![API&#39;s voor gegevensinvoeging](assets/analytics-apis.png)
+Zie [API voor gegevensinvoer](../import/c-data-insertion-api/c-data-insertion-api.md) voor meer informatie .
 
 ## Implementatiemethoden voor mobiele apps
 
@@ -76,7 +77,7 @@ Voor uw **mobiele app** zijn de volgende uitvoeringsmethoden beschikbaar:
 
 >[!CAUTION]
 >
->Ondersteuning voor versie 4 Mobile SDK&#39;s is beëindigd op 31 augustus 2021. Zie [Veelgestelde vragen over beëindiging van de ondersteuning van Mobiele SDK’s versie 4](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/v4-faq/) voor meer informatie.
+>Zie voor ondersteuning voor oudere versies van de mobiele SDK&#39;s van Adobe de [Aankondigingen aan het einde van de ondersteuning van SDK](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/).
 
 ## Belangrijke artikelen voor de implementatie van Analytics
 
@@ -84,13 +85,13 @@ Voor uw **mobiele app** zijn de volgende uitvoeringsmethoden beschikbaar:
 * [Adobe Debugger](validate/debugger.md)
 * [Een tag-eigenschap maken in het Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement-updates](appmeasurement-updates.md)
+* [Zelfstudie Adobe Analytics instellen met Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
+* [Zelfstudie Adobe Experience Cloud implementeren in mobiele apps](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
 
-## Meer Analytics-gebruikershandleidingen
-
-[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Belangrijke bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
 * [Analytics-forum](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
+* [Opmerkingen bij de laatste release](../release-notes/latest.md)

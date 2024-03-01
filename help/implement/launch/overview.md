@@ -4,16 +4,16 @@ description: Leer hoe u Adobe Analytics implementeert met tags en de extensie An
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '365'
 ht-degree: 3%
 
 ---
 
 # Adobe Analytics implementeren met de extensie Analytics
 
-Tijdens de levensduur van Adobe Analytics heeft Adobe verschillende methoden aangeboden om code op uw site te implementeren voor gegevensverzameling. De Adobe raadt u momenteel aan de tags in Adobe Experience Platform te gebruiken.
+Tijdens de levensduur van Adobe Analytics heeft Adobe verschillende methoden aangeboden om code op uw site te implementeren voor gegevensverzameling. De huidige aanbevolen methode van Adobe is [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) in Adobe Experience Platform.
 
 Tags in Adobe Experience Platform zijn een oplossing voor tagbeheer waarmee u naast andere coderingsvereisten ook analytische code kunt implementeren. Adobe biedt integratie met andere oplossingen en producten aan, en laat u douanecode opstellen. Al deze taken kunnen worden uitgevoerd zonder dat ontwikkelingsteams in uw organisatie code op uw site hoeven bij te werken.
 
@@ -48,7 +48,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>3</td>
 <td><b><b>Een tag-eigenschap maken</b>. Eigenschappen zijn overkoepelende containers die worden gebruikt om te verwijzen naar tagbeheergegevens.</td>
-<td><a ref="../launch/create-analytics-property.md">Een Adobe Analytics-tageigenschap maken</a></td>
+<td><a href="../launch/create-analytics-property.md">Een Adobe Analytics-tageigenschap maken</a></td>
 </tr>
 
 <tr>

@@ -4,22 +4,22 @@ description: Gebruik de Adobe Experience Platform Edge Network Server-API om geg
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
 
 # Adobe Analytics implementeren met de Adobe Experience Platform Edge Network Server-API
 
-U gebruikt typisch de Server API van het Netwerk van de Rand van het Experience Platform om gegevens van apparaten zoals apparaten IoT, reeks-hoogste dozen, Desktoptoepassingen te verzamelen. Stuur die gegevens vervolgens naar het Edge-netwerk en naar services zoals Adobe Analytics.
+U gebruikt typisch de Server API van het Netwerk van de Rand van het Experience Platform om gegevens server-kant eerder dan cliënt-kant te verzamelen en wanneer het verzamelen van gegevens van apparaten zoals apparaten IoT, reeks-top dozen, Desktoptoepassingen. Vervolgens verzendt u die gegevens naar het Edge-netwerk en naar services zoals Adobe Analytics.
 
 Overweeg ook de Edge Network Server-API wanneer u wilt dat vertrouwelijke gegevens veilig worden verzameld en geverifieerd in het netwerk. Zie [Verificatie](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) voor meer informatie .
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
-![Adobe Analytics die de uitbreidingsworkflow voor Analytics gebruikt](../../assets/edge-network-server-api.png)
+![Adobe Analytics die de uitbreidingsworkflow voor Analytics gebruikt](../../assets/edge-network-server-api-annotated.png)
 
 <table style="width:100%">
 
