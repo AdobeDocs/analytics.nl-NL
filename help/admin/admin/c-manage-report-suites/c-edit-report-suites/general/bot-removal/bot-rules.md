@@ -4,9 +4,9 @@ title: Begrijp en vorm beide regels
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ Nadat beide regels zijn gedefinieerd, wordt al het inkomende verkeer vergeleken 
 Het verwijderen van beide verkeer vermindert typisch het volume van verkeer en omzettingsmetriek. Vele klanten vinden dat het verwijderen van beide verkeer in verhoogde omzettingspercentages en verhogingen van andere bruikbaarheidsmetriek resulteert.
 
 Beide verkeersgegevens worden opgeslagen in een aparte gegevensopslagruimte die kan worden weergegeven in de rapporten Bots en Bot Pages.
+
+>[!NOTE]
+>
+>Adobe Experience Edge biedt een [botdetectiedienst](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) die etiketten aantreffen waarvan is vastgesteld dat ze van bots zijn. Adobe Analytics&#39;s beide detectieproces is hiervan gescheiden en verwijst niet naar de beide scores die zijn opgenomen bij gegevens die via Experience Edge aankomen. De twee systemen maken gebruik van dezelfde IAB-bot-lijst, wat in dat opzicht hetzelfde gedrag moet hebben.
 
 ## Beide regels bijwerken of uploaden
 
