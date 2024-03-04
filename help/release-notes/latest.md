@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
+source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '897'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,9 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 14 februari 2024 tot
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **AppMeasurement bijwerken** | [release van AppMeasurement v2.26.0](/help/implement/appmeasurement-updates.md) is beschikbaar. | | dinsdag 4 maart 2024 |
+| **Data Warehouse-updates** | De volgende verbeteringen voor de Data Warehouse zijn nu beschikbaar:<ul><li>Wanneer het creëren van een verzoek van de Data Warehouse, kunnen de gebruikers verzoeken ter beschikking stellen aan alle gebruikers in de organisatie door de nieuwe geroepen knevel toe te laten [!UICONTROL **Beschikbaar maken voor gebruikers in uw organisatie**].<p>Zie voor meer informatie [Algemene instellingen voor verzoek om Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Wanneer het creëren van of het leiden van het rapportbestemmingen van de Data Warehouse, kunnen de systeembeheerders rekeningen en plaatsen nu tonen die door gebruikers in de organisatie door de geroepen knevel toe te laten werden gecreeerd [!UICONTROL **Alle doelen tonen**].<p>Zie voor meer informatie [Vorm een rapportbestemming voor een verzoek van de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | N.v.t. | donderdag 10 januari 2024 |
+| **Updates voor de visualisatie van het overzicht van belangrijke metingen** | Als u de visualisatie Metrische hoofdoverzicht gebruikt, kan het datumbereik van Vergelijking nu automatisch worden bijgewerkt, afhankelijk van het feit of de gekozen optie voor het datumbereik van Vergelijking relatief is ten opzichte van het primaire datumbereik of vast is. [Meer informatie](/help/analyze/analysis-workspace/visualizations/key-metric.md). | N.v.t. | donderdag 17 januari 2024 |
 | **Data Warehouse API-documentatie** | Raadpleeg de [Adobe Analytics Data Warehouse API 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) voor meer informatie . Ga naar [!UICONTROL Select a definition] en selecteert u [!UICONTROL Data Warehouse APIs]. | | dinsdag 19 februari 2024 |
 | **Activity Map voor Web SDK zonder extra kosten** | Op dit moment worden koppelingsgebeurtenissen voor Activity Mappen als hun eigen gebeurtenissen geteld en extra kosten met zich meegebracht. Deze verbetering neemt sommige verbindingsgebeurtenissen en verpakt hen in de volgende slag, gelijkend op hoe de gebeurtenissen door AppMeasurement worden behandeld. |  | donderdag 6 maart 2024 |
 | **Toename in standaard laag-verkeersdrempels** | In **medio april 2024**, zal de Adobe beginnen verhogend de standaardrapportreeks laag-verkeersdrempels als volgt: ![laagverkeersdrempels](assets/thresholds.png) Dit zal alleen gevolgen hebben voor variabelen die momenteel onder de nieuwe drempelwaarden liggen. Deze veranderingen zullen geleidelijk worden doorgevoerd en wij verwachten dat het werk door de **eind mei**. Aangezien deze verhogingen worden uitgerold, kunt u veranderingen voor high-cardinality variabelen opmerken:<ul><li>Er kunnen meer waarden van dimensies beschikbaar zijn voor rapportage.</li><li>Segmenten en berekende metriek kunnen meer gegevens bevatten.</li><li>Virtuele rapportsuites die op segmenten worden gebaseerd kunnen meer gegevens omvatten.</li><li>De indeling van de uitvoer kan meer gegevens bevatten.</li></ul> | medio april 2024 | Eind mei 2024 |

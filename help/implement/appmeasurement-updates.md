@@ -4,9 +4,9 @@ description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: f397aaba5b32ad226e930e983f4b087d29c16b89
 workflow-type: tm+mt
-source-wordcount: '2614'
+source-wordcount: '2666'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,13 @@ Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 U kunt de nieuwste versie van het AppMeasurement downloaden van [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Versie 2.26.0
+
+Releasedatum: **4 maart 2024**
+
+* AppMeasurement herkent en gebruikt automatisch het worteldomein voor top-level domeinen van de landcode, die eerder specifieke configuraties van het koekjesdomein vereiste. Bijwerken kan gevolgen hebben vanwege deze automatische herkenning. Zie [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) voor meer informatie .
+* De distributie omvat de Bibliotheek van de Dienst van de Identiteit 5.5.0 en Data Integration Library 9.6.
 
 ## Versie 2.25.0
 
