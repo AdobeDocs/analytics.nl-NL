@@ -3,9 +3,9 @@ title: Hoe Tijd besteed wordt berekend in Adobe Analytics
 description: Een geaggregeerde pagina van de gebruikte afmetingen en metriek in de tijd.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1612'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ Diversen [!UICONTROL 'time spent'] [cijfers](overview.md) en dimensies worden aa
 | [!UICONTROL Time spent per visitor] (Seconden) | Ongeveer *Totaal aantal gebruikte seconden / unieke bezoeker*<br> Geeft de gemiddelde hoeveelheid tijd aan dat bezoekers interageren met een specifiek dimensie-item over het leven van de bezoeker (duur van hun cookie). **Opmerking**: Deze metrische waarde kan niet onafhankelijk worden berekend omdat de noemer van deze functie een interne metrische waarde is. | Analysis Workspace |
 | [!UICONTROL Time Spent/User (State)] | Ongeveer *Totaal aantal seconden mobiele app besteed/unieke bezoekers van mobiele apps*<br> Geeft de gemiddelde hoeveelheid tijd aan dat mobiele App-bezoekers communiceren met een specifiek dimensie-item tijdens de levensduur van de bezoeker (de duur van hun cookie). **Opmerking**: Deze metrische waarde kan niet onafhankelijk worden berekend omdat de noemer van deze functie een interne metrische waarde is. | Analysis Workspace |
 | [!UICONTROL Average time spent on site] (Seconden) | Vertegenwoordigt de totale hoeveelheid tijd bezoekers met een specifiek afmetingspunt, per opeenvolging met een afmetingspunt in wisselwerking staan. Het is niet alleen beperkt tot &quot;site&quot;-gemiddelden, zoals de naam suggereert. Zie de sectie &#39;Hoe tijd besteed wordt&#39; voor meer informatie over reeksen.<br>**Opmerking**: Deze maatstaf verschilt zeer waarschijnlijk van &#39;Tijd per bezoek&#39; op het niveau van dimensiepunten als gevolg van de verschillen in de noemer in de berekening. | Analysis Workspace, Report Builder (weergegeven in minuten) |
-| [!UICONTROL Average time on site] | Dit is zelfde metrisch zoals *Gemiddelde tijd die ter plaatse is doorgebracht (seconden)*, behalve opgemaakt als Tijd (uu:mm:ss) | Analysis Workspace |
+| [!UICONTROL Average time on site] | Dit is zelfde metrisch zoals *Gemiddelde tijd die ter plaatse is doorgebracht (seconden)*, behalve opgemaakt als Tijd (`hh:mm:ss`) | Analysis Workspace |
 | [!UICONTROL Average time spent on page] | Vervangen metrisch.<br> In plaats daarvan, adviseren wij dat u &quot;Gemiddelde tijd die aan plaats wordt doorgebracht&quot;gebruikt als de gemiddelde tijd voor een afmetingspunt wordt vereist. | Report Builder (wanneer een dimensie in het verzoek is) |
 | [!UICONTROL Total session length], ook bekend als [!UICONTROL Previous session length] | Alleen mobiele App SDK. <br>De volgende keer dat de app wordt gestart, is bepaald voor de vorige sessie. Deze maateenheid wordt berekend in seconden en telt niet wanneer de toepassing op de achtergrond wordt uitgevoerd, alleen wanneer deze wordt gebruikt. Dit is metrisch op sessieniveau.<br>Voorbeeld: we installeren app ABC en starten de toepassing gedurende 2 minuten en sluiten de app. Over deze sessietijd worden geen gegevens verzonden. De volgende keer dat we de app starten, [!UICONTROL Previous Session Length] wordt verzonden met een waarde van 120. | Gebruikersinterface voor Analysis Workspace, Report Builder, mobiele services |
 | [!UICONTROL Average session length] (mobiel) | *Totale sessieduur / (Starten - eerste starten)*<br> Alleen mobiele App SDK. Dit is metrisch op sessieniveau. | Report Builder, gebruikersinterface voor mobiele services |

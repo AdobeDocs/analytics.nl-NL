@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Veelgestelde vragen voor Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -105,7 +105,7 @@ U hebt waarschijnlijk conflicterende Adobe Audience Manager-privacybesturingsele
 
 +++
 
-+++ Waarom zie ik &quot;Audience limit Rebage&quot; in mijn Analytics-rapport? (Opmerking: dit wordt ook weergegeven als Audience ID = -1 en &quot;::max_audiences_exceeded::&quot; in Data Warehouse)
++++ Waarom zie ik &quot;Audience limit Rebage&quot; in mijn Analytics-rapport? (Opmerking: dit wordt ook weergegeven als Audience ID = -1 en `::max_audiences_exceeded::` in Data Warehouse)
 
 Door gebrek, verzendt de Audience Analytics integratie voor Adobe Audience Manager alle segmenten die een bezoeker voor, op een per-raakbasis, aan Analytics kwalificeert. Als een bezoeker tot meer dan 150 segmenten van Adobe Audience Manager op één hit behoort, **150 meest recente gekwalificeerde segmenten** worden verzonden naar Analytics, terwijl de resterende lijst wordt afgekapt. Een extra vlag wordt verzonden naar Analytics die erop wijst dat de segmentlijst werd beknot, en vertoningen zoals &quot;de grens van het publiek bereikte&quot;in de dimensie van de Naam van het Publiek en &quot;-1&quot;in de dimensie van identiteitskaart van het Publiek.
 

@@ -3,10 +3,10 @@ description: De classificatieregels kijken regelmatig naar niet-geclassificeerde
 title: Classificatieregels
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 1%
+source-wordcount: '1940'
+ht-degree: 0%
 
 ---
 
@@ -16,14 +16,14 @@ De classificatieregels kijken regelmatig naar niet-geclassificeerde termen. Als 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-De Bouwer van de Regel laat u tot stand brengen *classificatieregel*, dat een lijst is van *classificatieregels*. Een regel komt overeen met criteria die u opgeeft en voert vervolgens een handeling uit.
+De Bouwer van de Regel laat u tot een *classificatieregel*, dat een lijst is van *classificatieregels*. Een regel komt overeen met criteria die u opgeeft en voert vervolgens een handeling uit.
 
 Classificatieregels zijn handig voor:
 
 * **E-mail** en **Advertenties weergeven**: Maak classificatieregels voor het groeperen van afzonderlijke weergave- en advertentiecampagnes, zodat u kunt zien hoe de weergavecampagnes worden uitgevoerd op basis van e-mailcampagnes.
 
-* **Trackingcodes**: Maak classificatieregels om toetswaarden die zijn afgeleid van tekenreeksen in volgcodes, te categoriseren en deze aan te passen aan specifieke criteria die u definieert.
-* **Zoektermen**: Gebruiken [reguliere expressies](/help/components/classifications/crb/classification-quickstart-rules.md) en jokertekens om de classificatie van zoektermen te vereenvoudigen. Een zoekterm bevat bijvoorbeeld *`baseball`* kunt u een *`Sports League`* classificatie *`MLB`*.
+* **Trackingcodes**: Maak classificatieregels om toetswaarden te categoriseren die zijn afgeleid van tekenreeksen in volgcodes, en breng deze aan specifieke criteria aan die u definieert.
+* **Zoektermen**: Gebruik [reguliere expressies](/help/components/classifications/crb/classification-quickstart-rules.md) en jokertekens om de classificatie van zoektermen te vereenvoudigen. Een zoekterm bevat bijvoorbeeld *`baseball`* kunt u een *`Sports League`* indeling naar *`MLB`*.
 
 Stel bijvoorbeeld dat een code voor bijhouden van een e-mailcampagne-id:
 
@@ -61,16 +61,16 @@ about_classification_rules.xml
 
 * **Reguliere expressies**: Help is beschikbaar onder [Regelmatige expressies in classificatieregels](/help/components/classifications/crb/classification-quickstart-rules.md).
 
-* **Reeksen rapporteren**: U kunt geen classificatie kiezen tot minstens één rapportreeks wordt geselecteerd. U kunt niet de rapportreeks toepassen tot u de regelreeks hebt gecreeerd en een variabele toegewezen.
+* **Reeksen rapporteren**: U kunt pas een classificatie kiezen als ten minste één rapportsuite is geselecteerd. U kunt niet de rapportreeks toepassen tot u de regelreeks hebt gecreeerd en een variabele toegewezen.
 
-   Wanneer u de regelreeks test, gebruik sleutels (de variabele die) van het rapport wordt geclassificeerd om te zien hoe zij door de regelreeks zullen worden beïnvloed. (De [key](/help/components/classifications/importer/c-saint-data-files.md) is de variabele die wordt geclassificeerd, of de eerste kolom in de tabel voor het uploaden naar classificatie.)
+  Wanneer u de regelreeks test, gebruik sleutels (de variabele die) van het rapport wordt geclassificeerd om te zien hoe zij door de regelreeks zullen worden beïnvloed. (De [key](/help/components/classifications/importer/c-saint-data-files.md) is de variabele die wordt geclassificeerd, of de eerste kolom in de tabel voor het uploaden naar classificatie.)
 
 * **Prioriteit regel**: Als een sleutel overeenkomt met meerdere regels die dezelfde classificatie instellen (in het dialoogvenster [!UICONTROL Set Classification] kolom), wordt de laatste regel gebruikt die overeenkomt met de classificatie. Zie [Info over Prioriteit regel](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Grenswaarden voor het aantal regels**: Er bestaat geen setlimiet voor het aantal regels dat u kunt maken. Een groot aantal regels kan echter van invloed zijn op de prestaties van de browser.
 * **Verwerking**: Regels worden regelmatig verwerkt, afhankelijk van uw volume van aan classificatie gerelateerd verkeer.
 
-   De actieve regelverwerking om de vier uur, die classificatiegegevens onderzoeken die typisch één maand teruggaan. De regels controleren automatisch op nieuwe waarden en uploaden de classificaties gebruikend de importeur.
+  De actieve regelverwerking om de vier uur, die classificatiegegevens onderzoeken die typisch één maand teruggaan. De regels controleren automatisch op nieuwe waarden en uploaden de classificaties gebruikend de importeur.
 
 * **Bestaande classificaties overschrijven**: Zie [Wanneer classificeren de regels sleutels niet?](/help/components/classifications/crb/classification-quickstart-rules.md) Indien nodig kunt u bestaande classificaties verwijderen of verwijderen met de importer.
 
@@ -80,14 +80,14 @@ Wanneer u regels activeert, kunt u bestaande classificaties overschrijven. In de
 
 * De sleutel is al geclassificeerd en u selecteert [Classificaties overschrijven](/help/components/classifications/crb/classification-rule-definitions.md).
 
-   U kunt classificaties overschrijven wanneer [toevoegen en activeren](/help/components/classifications/crb/classification-quickstart-rules.md) een regel, en wanneer het activeren van een integratie van gegevensschakelaars. (Voor gegevensschakelaars, worden de regels gecreeerd door partners in het Dev Centrum en getoond in [!UICONTROL Classification Rule Builder].)
+  U kunt classificaties overschrijven wanneer [toevoegen en activeren](/help/components/classifications/crb/classification-quickstart-rules.md) een regel, en wanneer het activeren van een integratie van gegevensschakelaars. (Voor gegevensschakelaars, worden de regels gecreeerd door partners in het Dev Centrum en getoond in [!UICONTROL Classification Rule Builder].)
 
 * Een geclassificeerde sleutel is niet meer in de gegevens weergegeven na een opgegeven tijdsperiode bij het overschrijven van een sleutel, zelfs nadat u [Classificaties overschrijven](/help/components/classifications/crb/classification-rule-definitions.md).
 * De sleutel wordt niet geclassificeerd en de sleutel wordt nooit doorgegeven [!DNL Adobe Analytics] na het tijdsbestek dat ongeveer een maand geleden is begonnen.
 
-   >[!NOTE]
-   >
-   >In rapporten zijn classificaties van toepassing op elk opgegeven tijdkader, telkens wanneer een sleutel bestaat. Het datumbereik van een rapport heeft geen invloed op de rapportage.
+  >[!NOTE]
+  >
+  >In rapporten zijn classificaties van toepassing op elk opgegeven tijdkader, telkens wanneer een sleutel bestaat. Het datumbereik van een rapport heeft geen invloed op de rapportage.
 
 ![](assets/overwrite_keys.png)
 
@@ -133,11 +133,11 @@ Hoe de reguliere expressie correleert met de campagne-id:
 
 ![](assets/regex.png)
 
-[!UICONTROL Match Groups]: Toont hoe de reguliere expressie overeenkomt met de campagne-id-tekens, zodat u een positie in de campagne-id kunt classificeren.
+[!UICONTROL Match Groups]: Hiermee wordt getoond hoe de reguliere expressie overeenkomt met de campagne-id-tekens, zodat u een positie in de campagne-id kunt classificeren.
 
 ![](assets/regex_tracking_code.png)
 
-In dit voorbeeld wordt de regel getoond dat de datum van de campagne `20140601` staat bij de derde groep `(.+)`, geïdentificeerd door `$3`.
+In dit voorbeeld wordt de regel getoond dat de datum van de campagne `20140601` bevindt zich bij de derde groep `(.+)`, geïdentificeerd door `$3`.
 
 **[!UICONTROL Rule Builder]**
 
@@ -145,14 +145,14 @@ In de [!UICONTROL Rule Builder]Configureer de regel als volgt:
 
 | Regeltype selecteren | Overeenkomstcriteria invoeren | Classificatie instellen | Naar |
 |---|---|---|---|
-| Gewone uitdrukking | &amp;Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $3 |
+| Gewone uitdrukking | &amp;Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $ 3 |
 
 **Syntaxis**
 
 | Gewone uitdrukking | Tekenreeks of resultaat afstemmen | Overeenkomende overeenkomende groepen |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
-| De syntaxis maken | `^` = begint de lijn () = groepeert karakters en laat u passende karakters tussen de haakjes halen.  `(.+)` = legt één vast ( . ) en ( + ) nog \ = begin van een tekenreeks.  `$` = geeft aan dat het voorgaande teken (of de vorige tekengroep) de laatste op de regel is. |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601`  `$1`: em  `$2`: JuneSale  `$3`20130601 |
+| De syntaxis maken | `^` = start de regel () = groepeert tekens en laat u overeenkomende tekens tussen haakjes extraheren.  `(.+)` = legt één vast ( . ) en ( + ) nog \ = begin van een tekenreeks.  `$` = geeft aan dat het voorgaande teken (of de vorige tekengroep) de laatste op de regel is. |
 
 Zie [Reguliere expressies - referentietabel](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) voor informatie over wat de tekens in een reguliere expressie betekenen.
 
@@ -173,7 +173,7 @@ In de [!UICONTROL Rule Builder]Configureer de regel als volgt:
 
 | Regeltype selecteren | Overeenkomstcriteria invoeren | Classificatie instellen | Naar |
 |--- |--- |--- |--- |
-| Gewone uitdrukking | `^.(s).*$` | Merk en motor | `$0` (Hiermee legt u de eerste twee tekens vast voor de merknaam en het zoekprogramma.) |
+| Gewone uitdrukking | `^.(s).*$` | Merk en motor | `$0` (De eerste twee tekens worden vastgelegd voor de merknaam en het zoekprogramma.) |
 | Gewone uitdrukking | `^.(s).*$` | Zoekmachine | `$1` (Hiermee legt u het tweede teken voor Google vast.) |
 
 ## Reguliere expressies - overeenstemmende volgcodes van variabele lengte {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
@@ -198,12 +198,12 @@ In de [!UICONTROL Rule Builder]Configureer de regel als volgt:
 
 | Regeltype selecteren | Overeenkomstcriteria invoeren | Classificatie instellen | Naar |
 |--- |--- |--- |--- |
-| Gewone expressie voor overeenkomende tekenreeks a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Gewone expressie voor overeenkomende tekenreeks a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Gewone expressie voor overeenkomende tekenreeks a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Gewone expressie voor overeenkomende tekenreeks a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Gewone expressie voor overeenkomende tekenreeks a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Gewone expressie voor overeenkomende tekenreeks a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Gewone expressie voor overeenkomende tekenreeks `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Gewone expressie voor overeenkomende tekenreeks `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Gewone expressie voor overeenkomende tekenreeks `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Gewone expressie voor overeenkomende tekenreeks `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Gewone expressie voor overeenkomende tekenreeks `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Gewone expressie voor overeenkomende tekenreeks `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Reguliere expressies - voorbeeld &quot;Bevat niet&quot; {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -213,7 +213,7 @@ Reguliere expressie:
 
 `^(?!.*13.*).*$`
 
-Tekenreeksen testen:
+Testen:
 
 ```
 a:b:
@@ -260,14 +260,14 @@ In dit resultaat `a:b:1313` geeft geen overeenkomst aan.
 | `a*` | Nul of meer van een |
 | `a+` | Een of meer van een |
 | `a{3}` | Precies 3 van a |
-| `a{3,}` | 3 of meer van een |
+| `a{3,}` | 3 of meer van |
 | `a{3,6}` | Tussen 3 en 6 van een |
 
 Een goede bron voor het testen van de geldigheid van reguliere expressies is [https://rubular.com/](https://rubular.com/).
 
 ## Info over Prioriteit regel
 
-Als een sleutel aan veelvoudige regels wordt aangepast en het de zelfde classificatiekolom plaatst die in [!UICONTROL Set Classification] wordt de laatste regel gebruikt. Als dusdanig, zou u het belangrijkste laatste in uw regelreeks kunnen willen rangschikken.
+Als een sleutel aan veelvoudige regels wordt aangepast en het de zelfde classificatiekolom plaatst die in [!UICONTROL Set Classification] kolom, wordt de laatste regel gebruikt. Als dusdanig, zou u het belangrijkste laatste in uw regelreeks kunnen willen rangschikken.
 
 <!-- 
 
@@ -326,11 +326,10 @@ Een classificatieregel toevoegen of bewerken:
    >De suites van het rapport tonen op deze pagina *alleen* wanneer aan de volgende voorwaarden is voldaan:
    >
    >* Voor de rapportsuite is ten minste één classificatie voor die variabele gedefinieerd in [!UICONTROL Admin Tools].
-      >
-      >   (Zie *Variabele* in [Classificatiereeksen](/help/components/classifications/crb/classification-rule-set.md) voor een toelichting op deze voorwaarde.)
+   >
+   >   (Zie *Variabele* in [Classificatiereeksen](/help/components/classifications/crb/classification-rule-set.md) voor een toelichting op deze voorwaarde.)
    >
    >* U hebt de rapportsuite geselecteerd in het dialoogvenster **[!UICONTROL Available Report Suites]** pagina, die wordt weergegeven nadat u hebt geklikt [Regelset toevoegen](/help/components/classifications/crb/classification-rule-set.md) om de regelset te maken.
-
 
 1. Geef op of bestaande waarden moeten worden overschreven:
 
@@ -349,7 +348,7 @@ Een classificatieregel toevoegen of bewerken:
    >Als een sleutel overeenkomt met meerdere regels die dezelfde classificatie instellen (in de kolom Indeling instellen), wordt de laatste regel gebruikt die overeenkomt met de classificatie. Zie **Info over Prioriteit regel** voor meer informatie over sorteerregels.
 
 1. [Uw regelset testen](/help/components/classifications/crb/classification-quickstart-rules.md).
-1. Na het testen klikt u op **[!UICONTROL Active]** om de regel te valideren en te activeren.
+1. Klik op **[!UICONTROL Active]** om de regel te valideren en te activeren.
 
    Als u een regel activeert, wordt het bestand automatisch samengesteld en voor u geüpload.
 

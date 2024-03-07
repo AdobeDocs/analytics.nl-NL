@@ -4,9 +4,9 @@ description: Het deelvenster Media Playback Time Spent in Analysis Workspace geb
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 95f28d537e6e7538133ebd04d185ebcfd28a13d4
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ U kunt het deelvenster Tijd voor afspelen van media configureren met de volgende
 | Granulariteit | De standaardwaarde voor granulariteit is Minute.<br>Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau). Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
 | Samenvattingsnummers deelvenster | Er is een samenvattingsnummer beschikbaar om datum- of tijdgegevens voor de afspeeltijd te zien. Bij Maximaal worden details voor de piekfrequentie weergegeven. Bij Minimum worden details voor de dal weergegeven. De som verhoogt de totale playbacktijd die voor de selectie wordt doorgebracht. De paneelstandaard toont slechts Maximum, maar u kunt het veranderen om Minimum, Som, of om het even welke combinatie drie te tonen.<br>Als u onderverdelingen gebruikt, wordt een samenvattingsaantal getoond voor elk. |
 | Uitsplitsing naar serie | U kunt desgewenst de visualisatie opsplitsen in segmenten, dimensies, dimensiepunten of datumbereiken.<p>- U kunt maximaal 10 regels tegelijk weergeven. Uitsplitsingen zijn beperkt tot één niveau.</p><p>- Wanneer u een dimensie sleept, worden de bovenste dimensie-items automatisch geselecteerd op basis van het geselecteerde datumbereik van het deelvenster.</p>- Als u datumbereiken wilt vergelijken, sleept u twee of meer datumbereiken naar het filter voor reeksindeling. |
-| Tijdnotatie | U kunt de afspeeltijd in een van beide uren weergeven:Minutes:Seconden (standaardwaarde) of in minuten (die in gehele getallen wordt weergegeven, naar boven afgerond op 0,5). |
+| Tijdnotatie | U kunt de afspeeltijd in een van beide bekijken `Hours:Minutes:Seconds` (standaardwaarde) of in `Minutes` (wordt in gehele getallen weergegeven, naar boven afgerond op 0,5). |
 | Weergave datumvolgorde | Als u minstens twee segmenten van het datumbereik als reeksonderverdelingen hebt geplaatst, zult u de optie zien om of bedekking (gebrek) of opeenvolgend te selecteren. Met overlay worden de lijnen weergegeven met een gemeenschappelijke beginpunt op de x-as, zodat deze parallel lopen, terwijl bij sequentieel de lijnen met hun specifieke beginpunt op de x-as worden weergegeven. Als de gegevenslijnen omhoog (bijvoorbeeld, eind segment 1 bij 8:44 pm en segment 2 begint bij 8:45 pm), dan zullen de lijnen in opeenvolging tonen. |
 
 ## Standaardweergave
@@ -71,7 +71,7 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, is Afspeel
 
 | Metrisch | Beschrijving |
 |---|---|
-| Afspeeltijd besteed | Totaal aantal uren:minutes:seconden (of minuten) van de inhoud die tijdens de geselecteerde granulariteit wordt weergegeven, inclusief pauze, buffer en begintijd. |
+| Afspeeltijd besteed | Totaal `hours:minutes:seconds` (of `minutes`) van inhoud die wordt weergegeven tijdens de geselecteerde granulariteit, zoals pauzeren, buffer en begintijd. |
 
 ## Veelgestelde vragen
 

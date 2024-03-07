@@ -4,10 +4,10 @@ title: Data Privacy-labels voor Analytics-variabelen
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '3539'
-ht-degree: 63%
+source-wordcount: '3532'
+ht-degree: 62%
 
 ---
 
@@ -262,4 +262,4 @@ Er zijn vijf standaardvariabelen die tijdstempels bevatten:
 
 Voor de code voor het genereren van de bestanden die voor Data Privacy-toegangsaanvragen worden geretourneerd, moet minstens één van de eerste drie tijdstempelvariabelen in de toegangsaanvraag zijn opgenomen (een ACC-label hebben dat van toepassing is op het type aanvraag). Als geen van deze zijn opgenomen, wordt Aangepaste tijdstip treffer in UTC worden behandeld alsof het een ACC-ALL-label heeft.
 
-Het CSV-bestand op raakniveau dat wordt geretourneerd voor verzoeken om toegang tot gegevensprivacy converteert de waarden in deze velden van unieke tijdstempels naar datum-/tijdvelden met de notatie YYYY-MM-DD HH:MM:SS (bijvoorbeeld 2018-05-01 13):49:22). In het HTML-overzichtsbestand worden deze tijdstempelwaarden afgekapt waardoor ze alleen de datum JJJJ-MM-DD bevatten, om het aantal unieke waarden te beperken dat voor deze velden kan voorkomen.
+Het CSV-bestand op raakniveau dat wordt geretourneerd voor verzoeken om toegang tot gegevensprivacy converteert de waarden in deze velden van unieke tijdstempels naar datum-/tijdvelden in de indeling `YYYY-MM-DD HH:MM:SS` (bijvoorbeeld `2018-05-01 13:49:22`). In het summiere dossier van de HTML, zullen deze timestamp waarden worden beknot om slechts de datum te omvatten, `YYYY-MM-DD`om het aantal unieke waarden te verminderen dat voor deze velden optreedt.
