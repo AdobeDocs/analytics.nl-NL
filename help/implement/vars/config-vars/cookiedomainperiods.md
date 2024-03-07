@@ -4,7 +4,7 @@ description: Help het AppMeasurement te begrijpen welk domein cookies moeten wor
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: fe33da47c109adacb8162c7165ad4c63bd65c08d
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -51,7 +51,7 @@ De volgende tabel illustreert vier mogelijke scenario&#39;s.
 >
 >Tijdens het correct configureren `cookieDomainPeriods` Hiermee verbetert u het AppMeasurement en de analysefunctie. U wordt aangeraden na te gaan of de wijzigingen die u hebt aangebracht als gevolg van de upgrade van uw AppMeasurement.
 >
-> Zie [Analysecookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) voor meer informatie over het gebruik van cookies door het AppMeasurement.
+> Zie [Analysecookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html) voor meer informatie over het gebruik van cookies door het AppMeasurement.
 
 ## Domeinperioden cookie maken met de SDK van het web
 

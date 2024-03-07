@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '407'
 ht-degree: 17%
 
 ---
@@ -134,9 +134,9 @@ ht-degree: 17%
    + [Labelen met meerdere suite&#39;s implementeren](prepare/multi-suite-tagging.md)
    + [Een document voor het ontwerp van een oplossing maken](prepare/solution-design.md)
    + [Een bestaande Adobe Analytics-implementatie op zich nemen](prepare/existing-implementation.md)
-+ Analyses implementeren met gebruik van Experience Platform Edge {#aep-edge}
-   + [Overzicht van Experience Edge](aep-edge/overview.md)
-   + [Variabele toewijzen](aep-edge/variable-mapping.md)
++ Analyses implementeren met het Adobe Experience Platform Edge Network {#aep-edge}
+   + [Overzicht van Edge Network](aep-edge/overview.md)
+   + [XML-objectvariabele toewijzen](aep-edge/variable-mapping.md)
    + Web SDK {#web-sdk}
       + [Overzicht van Web SDK](aep-edge/web-sdk/overview.md)
    + Mobile SDK {#mobile-sdk}

@@ -4,7 +4,7 @@ description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Google verdeelt de gebruiker-Agent cliëntwenken in twee categorieën: laag-entr
 
 Vanaf oktober 2022 zijn nieuwe versies van Chromium-browsers begonnen met het &#39;bevriezen&#39; van de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
 
-De wenken van de cliënt zullen in het proces van de het apparatenraadpleging van Analytics van 27 februari 2023 en die op 2 maart 2023 worden opgenomen. Zowel AppMeasurement als Web SDK steunen momenteel inzameling van wenkengegevens maar het zal niet in apparatenraadpleging tot medio februari worden gebruikt. Zoals hieronder vermeld, werd de versie van het besturingssysteem vanaf oktober bevroren, maar dit was toe te schrijven aan een geleidelijke implementatie en het feit dat veel Gebruikersagenten al een bevroren versie van het besturingssysteem leveren (zie meer [hier](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)), schatten wij dat dit &lt;3% van de bezoekers van Chrome zal beïnvloeden.
+De wenken van de cliënt zullen in het proces van de het apparatenraadpleging van Analytics van 27 februari 2023 en die op 2 maart 2023 worden opgenomen. Zowel AppMeasurement als Web SDK steunen momenteel inzameling van wenkengegevens maar het zal niet in apparatenraadpleging tot medio februari worden gebruikt. Zoals hieronder vermeld, werd de versie van het besturingssysteem vanaf oktober bevroren, maar dit was toe te schrijven aan een geleidelijke implementatie en het feit dat veel Gebruikersagenten al een bevroren versie van het besturingssysteem leveren (zie meer [hier](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)), schatten wij dat dit &lt;3% van de bezoekers van Chrome zal beïnvloeden.
 
 >[!NOTE]
 >
-> Vanaf januari 2023 worden sommige versies van Mac- en Windows-besturingssystemen onjuist weergegeven in de gebruikersagent, maar correct weergegeven in clienthints met hoge entropie. Zie [Besturingssysteem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) voor meer informatie .
+> Vanaf januari 2023 worden sommige versies van Mac- en Windows-besturingssystemen onjuist weergegeven in de gebruikersagent, maar correct weergegeven in clienthints met hoge entropie. Zie [Besturingssysteem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html) voor meer informatie .
 
 Adobe Audience Manager vereist dat hips met hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [server-kant door:sturen aan Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) dan kunt u inzameling van high-entropy wenken willen toelaten.
 
@@ -47,7 +47,7 @@ Tips voor lage entropie worden automatisch door de browser opgegeven en worden o
 
 Voor beide bibliotheken is het verzamelen van hoge entropiehints **standaard uitgeschakeld**.
 
-Voor gegevens die via API worden verzonden, bijvoorbeeld via [API voor gegevensinvoer](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) of [API voor het invoegen van bulkgegevens](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), moeten tips expliciet in de lading worden opgenomen. Zie de desbetreffende documentatie voor meer informatie.
+Voor gegevens die via API worden verzonden, bijvoorbeeld via [API voor gegevensinvoer](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) of [API voor het invoegen van bulkgegevens](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html), moeten tips expliciet in de lading worden opgenomen. Zie de desbetreffende documentatie voor meer informatie.
 
 +++
 
@@ -109,7 +109,7 @@ Zie de [tijdlijn gepubliceerd door Google](https://blog.chromium.org/2021/09/use
 
 Apparaatinformatie in rapportage wordt afgeleid van de gebruikersagent. Wij hebben onze processen bijgewerkt om zowel de Agent van de Gebruiker als cliëntwenken te gebruiken waar beschikbaar.
 
-De fallback-id ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) wordt afgeleid uit de Agent van de Gebruiker en IP Adres. Deze id wordt alleen gebruikt als een cookie niet kan worden ingesteld en daarom niet op grote schaal wordt gebruikt
+De fallback-id ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html)) wordt afgeleid uit de Agent van de Gebruiker en IP Adres. Deze id wordt alleen gebruikt als een cookie niet kan worden ingesteld en daarom niet op grote schaal wordt gebruikt
 
 +++
 

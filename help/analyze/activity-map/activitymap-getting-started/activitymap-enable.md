@@ -5,7 +5,7 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -54,7 +54,7 @@ De klikgegevensinzameling in een inzamelingsvraag, moeten wij met of &quot;/ee&q
 De verzamelvraag wordt ontworpen op dusdanige wijze dat het volgen niet navigatie aan andere plaatsen zou moeten beïnvloeden, zodat is de eigenschap van het document unload toepasselijk voor de inzamelingsvraag. Dit heeft geen invloed op uw gegevensverzameling, maar als u op pagina moet valideren, voegt u target = &quot;_blank&quot; toe aan het desbetreffende element. Vervolgens wordt de koppeling geopend op een nieuw tabblad.
 
 * **Hoe negeer ik de inzameling van PII?**
-Voeg de respectievelijke voorwaarden toe in&lt;&lt; op alvorens de verbinding klikt verzendt callback>> en keert vals terug om die waarden te negeren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en)
+Voeg de respectievelijke voorwaarden toe in&lt;&lt; op alvorens de verbinding klikt verzendt callback>> en keert vals terug om die waarden te negeren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)
 
   Voorbeeldcode:
 

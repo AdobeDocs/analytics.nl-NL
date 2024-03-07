@@ -3,9 +3,10 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 short-description: Ontdek belangrijke functies, veelvoorkomende gebruiksscenario’s en eerste stappen voor analisten, eindgebruikers en beheerders.
 title: Adobe Analytics-overzicht
 feature: Analytics Basics
-source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
+exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '447'
 ht-degree: 11%
 
 ---
@@ -19,7 +20,7 @@ Adobe Analytics stelt organisaties in staat gegevens te verzamelen en actioneerb
 Gebruik de volgende bronnen om de grondbeginselen van Adobe Analytics te leren:
 
 
-| Documentatiebron | -functie |
+| Documentatiebron | Functie |
 |---------|----------|
 | [Aan de slag (op rol)](/help/analyze/get-started/get-started-by-role.md) | Verstrekt gedetailleerde informatie die zeer belangrijke eigenschappen en taken verklaren u zich van moet bewust zijn, of u een beheerder, een analist, een eindgebruiker, of een ontwikkelaar bent. |
 | [De interface Analytics begrijpen](/help/analyze/get-started/analytics-interface.md) | Hiermee worden de belangrijkste gebieden van de interface Analytics beschreven. |
@@ -50,5 +51,4 @@ Hier volgen enkele voordelen van Customer Journey Analytics ten opzichte van Ado
 
 * **Gegevens uit meerdere rapporten**: Bestaande implementaties van meerdere datasets kunnen worden gecombineerd in Platform.
 
-Zie voor meer informatie [Overzicht van Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en).
-
+Zie voor meer informatie [Overzicht van Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html).

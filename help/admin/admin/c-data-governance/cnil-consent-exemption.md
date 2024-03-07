@@ -4,7 +4,7 @@ title: Wat zijn de CNIL-richtlijnen voor toestemming van de gebruiker en cookies
 feature: Data Governance
 role: Admin
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -23,7 +23,7 @@ De richtsnoeren voorzien in een beperkte vrijstelling van de toestemmingsvereist
 * Beperkte reikwijdte. Het bereik van de cookie moet beperkt zijn tot één site of toepassing. [Browsercookies](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#third-party-cookie-limitations)
 * Anonymiisatie. Anonymize het laatste octet van het IP Adres. [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 * ID bezoeker verbergen in rapportage.  De bezoeker-id&#39;s zijn standaard niet zichtbaar in de Adobe-werkruimte en de Adobe-Reports and Analytics.  Bezoeker-id&#39;s zijn beschikbaar in Gegevensfeeds en Data Warehouse.  De toegang tot gegevensfeeds en Data Warehouse kan worden beperkt door [Toegangsmachtigingen in Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) en [Referentie gegevensfeed-kolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html#columns%2C-descriptions%2C-and-data-types)
-* Geolocatie-parameters. Geolocatie kan niet preciezer zijn dan het niveau van de postcode. [Zip-optie](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=en) en [Algemene accountinstellingen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
+* Geolocatie-parameters. Geolocatie kan niet preciezer zijn dan het niveau van de postcode. [Zip-optie](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html) en [Algemene accountinstellingen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
 * Stel opties voor aanmelden in.  Met de aanmeldingsservice kunt u bezoekersprotocollen instellen om te bepalen of u een cookie op het apparaat of de browser van de gebruiker kunt instellen wanneer u uw site bezoekt. [Inschakelen van service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
 * Gegevensdeling voorkomen.  Als u gegevensdeling naar Adobe Audience Manager wilt voorkomen, gebruikt u de opdracht `opt.dmp` contextvariabele voor [Privacyrapportage](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) om te voorkomen dat hits worden gedeeld.
 * Toegang tot en verwijderbaarheid. Gebruik de Privacy Service voor toegang en schrap verzoeken. [Analyse en Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html)

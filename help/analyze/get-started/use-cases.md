@@ -1,11 +1,12 @@
 ---
-description: Algemene overzichtsinformatie over Adobe Analytics, met inbegrip van informatie over de interface van Analytics evenals begonnen informatie voor beheerders, analisten, gebruikers, en ontwikkelaars.
+description: Algemene overzichtsinformatie over Adobe Analytics, inclusief informatie over de interface van Analytics en om aan de slag te gaan voor beheerders, analisten, gebruikers en ontwikkelaars.
 title: Gebruiksscenario's voor analyse
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
+exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 1%
+source-wordcount: '264'
+ht-degree: 9%
 
 ---
 
@@ -32,9 +33,9 @@ Adobe Analytics helpt organisaties te begrijpen waar klanten met hun merken in w
 
 De volgende belangrijke functies in Adobe Analytics bieden de volgende marketingmogelijkheden:
 
-* [Multikanaalgegevensverzameling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=en)
+* [Multikanaalgegevensverzameling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
 
-* [Offline gegevensintegratie](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
+* [Offline gegevensintegratie](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
 
 * [Ad-hocanalyse in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 

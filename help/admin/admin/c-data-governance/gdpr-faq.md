@@ -4,7 +4,7 @@ title: Veelgestelde vragen over gegevensbeheer
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 38%
@@ -85,7 +85,7 @@ Als Data Controller bent u verantwoordelijk voor het verkrijgen van uitdrukkelij
 
 Persoonsgegevens mogen in het algemeen niet langer worden bewaard dan nodig is om het doel waarvoor zij zijn verzameld te bereiken. De Algemene Voorwaarden van de Adobe passen een standaard 25-maands gegevensbewaaringsplan toe, tenzij contractueel een andere bewaartermijn wordt overeengekomen. Klanten moeten hun beleid voor het bewaren van gegevens instellen voordat de Adobe een verzoek om privacy van gegevens kan verwerken.
 
-Het huidige dataretentiebeleid van elke rapportsuite wordt weergegeven in de nieuwe Data Governance-beheergebruikersinterface. Klanten moeten contact opnemen met hun Adobe als ze hun beleid voor het bewaren van gegevens moeten aanpassen. Zie [Veelgestelde vragen over Adobe Analytics-gegevensbewaring](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=en).
+Het huidige dataretentiebeleid van elke rapportsuite wordt weergegeven in de nieuwe Data Governance-beheergebruikersinterface. Klanten moeten contact opnemen met hun Adobe als ze hun beleid voor het bewaren van gegevens moeten aanpassen. Zie [Veelgestelde vragen over Adobe Analytics-gegevensbewaring](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html).
 
 +++
 

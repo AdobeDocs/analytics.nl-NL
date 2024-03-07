@@ -4,7 +4,7 @@ description: Leer hoe u Adobe Analytics implementeert met tags en de extensie An
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Adobe Analytics implementeren met de extensie Analytics
 
-Tijdens de levensduur van Adobe Analytics heeft Adobe verschillende methoden aangeboden om code op uw site te implementeren voor gegevensverzameling. De huidige aanbevolen methode van Adobe is [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) in Adobe Experience Platform.
+Tijdens de levensduur van Adobe Analytics heeft Adobe verschillende methoden aangeboden om code op uw site te implementeren voor gegevensverzameling. De huidige aanbevolen methode van Adobe is [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) in Adobe Experience Platform.
 
 Tags in Adobe Experience Platform zijn een oplossing voor tagbeheer waarmee u naast andere coderingsvereisten ook analytische code kunt implementeren. Adobe biedt integratie met andere oplossingen en producten aan, en laat u douanecode opstellen. Al deze taken kunnen worden uitgevoerd zonder dat ontwikkelingsteams in uw organisatie code op uw site hoeven bij te werken.
 
@@ -53,7 +53,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 <tr>
 <td>4</td><td><b>De extensie Analytics installeren</b> in de eigenschap tag. Configureer de extensie Analytics om gegevens naar Adobe Analytics te verzenden.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Overzicht Adobe Analytics-extensie</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html">Overzicht Adobe Analytics-extensie</a></td>
 </tr>
 
 <tr>
@@ -65,7 +65,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>6</td> 
 <td><b>Valideren en publiceren naar productie</b>. Sluit code in om de eigenschap tag op te nemen in de websitepagina's. Dan gebruik gegevenselementen, regels, etc., om uw implementatie aan te passen.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Code insluiten</a><br/><a href="./validate-publish-prod.md">Een ontwikkelimplementatie valideren en publiceren naar productie</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Code insluiten</a><br/><a href="./validate-publish-prod.md">Een ontwikkelimplementatie valideren en publiceren naar productie</a></td>
 </tr>
 
 </table>

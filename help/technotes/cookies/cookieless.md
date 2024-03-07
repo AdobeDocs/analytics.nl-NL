@@ -4,7 +4,7 @@ description: Leer hoe u het effect van browsercookiebeperkingen kunt beperken om
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -35,7 +35,7 @@ U kunt gegevens naar de analytische server verzenden met de [API voor gegevensin
 
 ## FPID (First Party Device ID) met Web SDK
 
-Met de Adobe Experience Platform Web SDK kunt u ervoor kiezen om uw eigen apparaat-id&#39;s in te stellen en te beheren in plaats van de door de Adobe gegenereerde Experience Cloud-id&#39;s (ECID&#39;s). Deze worden ook wel FPID&#39;s (First-Party Device ID&#39;s) genoemd. Meer informatie [hier](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=en).
+Met de Adobe Experience Platform Web SDK kunt u ervoor kiezen om uw eigen apparaat-id&#39;s in te stellen en te beheren in plaats van de door de Adobe gegenereerde Experience Cloud-id&#39;s (ECID&#39;s). Deze worden ook wel FPID&#39;s (First-Party Device ID&#39;s) genoemd. Meer informatie [hier](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html).
 
 ## Meer informatie
 

@@ -4,7 +4,7 @@ description: Gebruik de Adobe Experience Platform Edge Network Server-API om geg
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 U gebruikt typisch de Server API van het Netwerk van de Rand van het Experience Platform om gegevens server-kant eerder dan cliënt-kant te verzamelen en wanneer het verzamelen van gegevens van apparaten zoals apparaten IoT, reeks-top dozen, Desktoptoepassingen. Vervolgens verzendt u die gegevens naar het Edge-netwerk en naar services zoals Adobe Analytics.
 
-Overweeg ook de Edge Network Server-API wanneer u wilt dat vertrouwelijke gegevens veilig worden verzameld en geverifieerd in het netwerk. Zie [Verificatie](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) voor meer informatie .
+Overweeg ook de Edge Network Server-API wanneer u wilt dat vertrouwelijke gegevens veilig worden verzameld en geverifieerd in het netwerk. Zie [Verificatie](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) voor meer informatie .
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
@@ -36,24 +36,24 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>2</td>
 <td><b>Installatieschema's</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van de interface Schemas</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html">Overzicht van de interface Schemas</a></td>
 </tr>
 
 <tr>
 <td>3</td>
 <td><b>Een gegevensstroom configureren</b>. Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het gebruiken van API's van het Netwerk van Adobe Experience Platform Edge API.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en">Een gegevensstroom configureren<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">Een gegevensstroom configureren<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
 <td><b>Gegevensverzameling implementeren en testen</b> met de API's voor het verzamelen van gegevens voor Single-event en Batch-gebeurtenissen.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en">Gegevensverzameling voor één gebeurtenis</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=en">Batch-gebeurtenisgegevensverzameling</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">Gegevensverzameling voor één gebeurtenis</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Batch-gebeurtenisgegevensverzameling</a>
 </tr>
 
 <td>5</td>
 <td><b>Een Adobe Analytics-service toevoegen</b> naar uw gegevensstroom. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=ens">Interactie met Adobe Analytics</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.htmls">Interactie met Adobe Analytics</a></td>
 </tr>
 
 
