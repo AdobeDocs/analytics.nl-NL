@@ -4,9 +4,9 @@ description: Haal het percentage op van de pagina die de bezoeker heeft weergege
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,11 @@ Wanneer deze functie wordt aangeroepen, wordt niets geretourneerd; in plaats daa
 
 Wijs één of meerdere van deze variabelen aan eVars toe om afmetingsgegevens in rapporten te zien.
 
-Met deze plug-in maakt u een cookie van de eerste fabrikant, genaamd `s_ppv` die de bovenstaande waarden bevat. Deze verloopt aan het einde van de browsersessie.
+Deze plug-in maakt drie cookies van de eerste fabrikant die aan het einde van een browsersessie verlopen:
+
+* `s_ppv`: slaat elk van de waarden op die door de functie aan te roepen worden blootgesteld
+* `s_tp`: Hiermee slaat u de totale pixelhoogte van de vorige pagina op
+* `s_ips`: Hiermee wordt het aanvankelijke percentage opgeslagen dat van de vorige pagina is geschoven
 
 ## Voorbeelden
 
