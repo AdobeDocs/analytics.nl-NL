@@ -4,9 +4,9 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: a75c807c1f54676e359cf502781ba1de5fd6c51c
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '1745'
 ht-degree: 0%
 
 ---
@@ -17,44 +17,51 @@ De landingspagina van Adobe Analytics bevat beide [!DNL Analysis Workspace] en [
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## Nieuwe functies voor openingspagina {#new-features}
+De Adobe Analytics-landingspagina bestaat uit de volgende subtabbladen: Projecten, Rapporten en Leren.
 
-| Functie | Beschrijving | Schermafbeelding |
-| --- | --- | --- |
-| Uitbreiden [!UICONTROL Projects] tabel naar volledig scherm | Klik op het hamburger-menupictogram om de tabel uit te vouwen. Deze actie zal de linker-spoorlusjes doen ineenstorten. | ![Tabel uitbreiden](assets/landing-collapse2.png) |
-| Kolombreedte aanpassen | Eerder was de kolombreedte vast. Nu kunt u het aanpassen door het kolomscheidingsteken te slepen. | ![Kolombreedte](assets/column-width.png) |
-| Vastgezette items opnieuw ordenen | Als u vastgezette items omhoog en omlaag wilt verplaatsen, klikt u op de ellips naast het vastgezette item en selecteert u **[!UICONTROL Move up]** of **[!UICONTROL Move down]**. | ![Vastgezette items verplaatsen](assets/move-up-down.png) |
-| Nieuwe tabelkolommen | Klik op de knop [!UICONTROL Customize table] aan de rechterbovenhoek van de tabel. De nieuwe tabelkolommen omvatten: <ul><li>**[!UICONTROL Scheduled]**: Instellen op [!UICONTROL On] wanneer een project gepland is of [!UICONTROL Off] wanneer dat niet het geval is. Klik op de knop [!UICONTROL On] de verbinding laat u informatie over het geplande project zien. U kunt [de projectplanning bewerken](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) als u de eigenaar van het project bent.</li><li>**[!UICONTROL Project ID]**: Projectidentiteitskaart kan voor het zuiveren projecten worden gebruikt.</li><li>**[!UICONTROL Longest Date Range]**: Met langere datumbereiken wordt het project complexer en kunnen de verwerkings- en laadtijden langer worden. </li><li>**[!UICONTROL Number of Queries]**: Het totale aantal verzoeken dat aan Analytics wordt gedaan wanneer het project laadt. Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen. Deze gegevens zijn alleen beschikbaar nadat een project is geladen of een gepland project is verzonden. </li></ul> | ![Nieuwe kolommen](assets/new-columns.png) |
-| Eén klik om een rapport te openen | Eerder moest u dubbelklikken. |  |
-| Nieuwe koppelingen naar **[!UICONTROL Reports & Analytics]** rapporten | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bot Pages]**<li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**</li></ul> | ![Nieuwe koppelingen](assets/report-links.png) |
-| Nieuwe out-of-the-box rapporten | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Next page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Previous page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Page analysis]** > **[!UICONTROL Page summary]**</li></ul>Deze rapporten zijn opgenomen in [!UICONTROL Workspace] formatteren en vereisen configuratie en bouwstijl. De uitvoer bestaat uit een deelvenster met meetgegevens op hoog niveau, trendgegevens, [!UICONTROL Flow] visualisatie en meer. U kunt deze rapporten wijzigen en dimensies, dimensie-items, enz. wijzigen. Deze rapporten zijn ook beschikbaar als deelvensters onder Workspace-deelvensters. | ![Volgende pagina](assets/next-page.png) |
-| **[!UICONTROL Create Project]** modal is back | Wanneer u op **[!UICONTROL Create Project]** in Workspace hebt u opnieuw de keuze tussen een [!UICONTROL Blank project] en [!UICONTROL Blank mobile scorecard]. U kunt ook kiezen uit sjablonen die uw bedrijf heeft gemaakt. | ![Nieuw maken](assets/create-new.png) |
-| Ook beschikbaar in Customer Journey Analytics | Deze openingspagina, in een gewijzigde vorm, is ook beschikbaar in Customer Journey Analytics. |  |
+**[!UICONTROL Projects]** zijn aangepaste ontwerpen die gegevenscomponenten, lijsten, en visualisaties combineren die u bouwde of die iemand anders bouwde en met u deelde. [!UICONTROL Projects] verwijst ook naar lege projecten en lege mobiele scorecards.
 
-{style="table-layout:auto"}
+**[!UICONTROL Reports]** verwijst naar alles wat vooraf is opgebouwd door Adobe, zoals sjablonen in Workspace.
 
-## Structuur van het bovenste menu {#top-menu}
-
-![Menu Boven](assets/top-menus.png)
-
-* Menu Analyse boven: de meeste rapporten staan nu in het dialoogvenster [!UICONTROL Reports] in de linkerspoorstaaf.
-* De linkerspoorstaaf heeft drie tabbladen: [!UICONTROL Projects], [!UICONTROL Reports], en [!UICONTROL Learning].
-
-### Terminologie
-
-* **[!UICONTROL Projects]** zijn aangepaste ontwerpen die gegevenscomponenten, lijsten, en visualisaties combineren die u bouwde of die iemand anders bouwde en met u deelde. [!UICONTROL Projects] verwijst ook naar lege projecten en lege mobiele scorecards.
-* **[!UICONTROL Reports]** verwijst naar alles wat vooraf is opgebouwd door Adobe, zoals sjablonen in Workspace.
-* **[!UICONTROL Templates]** wordt niet meer gebruikt als een term voor vooraf gebouwde projecten van de Adobe van de Werkruimte. Ze zijn nu onder [!UICONTROL Reports]. De term [!UICONTROL Templates] wordt nog steeds gebruikt voor sjablonen die uw bedrijf heeft gemaakt.
+De **[!UICONTROL Learning]** bevat praktische videoverleidingen, zelfstudies en koppelingen naar documentatie.
 
 ## Navigeren door de [!UICONTROL Projects] tab {#navigate-projects}
 
-[!UICONTROL Projects] dient als [!UICONTROL Workspace] homepage. Het lusje van Projecten toont de omslag van het Bedrijf, om het even welke persoonlijke omslagen u, uw projecten, en Mobiele scorecards creeerde. Met deze pagina kunt u mappen, projecten en mobiele scorecards weergeven, maken en wijzigen. Zie voor meer informatie [Over mappen in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+De [!UICONTROL Projects] tab fungeert als de [!UICONTROL Workspace] homepage. Het toont de omslag van het Bedrijf, om het even welke persoonlijke omslagen u creeerde, uw projecten, en Mobiele scorecards. Met deze pagina kunt u mappen, projecten en mobiele scorecards weergeven, maken en wijzigen. Zie voor meer informatie [Over mappen in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Alles aanlanden](assets/landing-all2.png)
 
 >[!NOTE]
 >
 >Verschillende van de volgende instellingen blijven aanwezig tijdens de sessie en tijdens verschillende sessies. Het geselecteerde tabblad, de geselecteerde filters, de geselecteerde kolommen en de sorteerrichting van de kolom. De zoekresultaten zijn niet blijvend.
+
+### Tabelkolommen aanpassen
+
+Als u kolombreedten wilt aanpassen, sleept u de verticale balk die elke kolom scheidt.
+
+Als u kolommen wilt toevoegen aan of verwijderen uit de lijst met projecten, klikt u op het kolompictogram (![Alles aanlanden](/help/analyze/assets/select-column.png) ) in de rechterbovenhoek selecteert of deselecteert u kolomtitels.
+
+De beschikbare kolommen zijn:
+
+| Kolomnaam | Beschrijving |
+|---------|----------|
+| [!UICONTROL **Naam**] | Identificeert de naam van het project. |
+| [!UICONTROL **Type**] | Wijst erop of dit type een project van de Werkruimte, een Mobiele scorecard, of een omslag is. |
+| [!UICONTROL **Tags**] | Hiermee worden projecten gecodeerd om ze in groepen te ordenen. |
+| [!UICONTROL **Gepland**] | Instellen op [!UICONTROL On] wanneer een project gepland is of [!UICONTROL Off] wanneer dat niet het geval is. Klik op de knop [!UICONTROL On] de verbinding laat u informatie over het geplande project zien. U kunt [de projectplanning bewerken](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) als u de eigenaar van het project bent. |
+| [!UICONTROL **Projectrol**] | Identificeert de projectrollen: of u de projecteigenaar bent en of u toestemmingen hebt om het project uit te geven of te dupliceren. |
+| [!UICONTROL **Rapportsuite**] | Identificeert de Reeksen van het Rapport die met het project worden geassocieerd.<br>Tabellen en visualisaties in een deelvenster leiden gegevens af van de rapportsuite die rechtsboven in het deelvenster is geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of vele rapportreeksen gebruiken afhankelijk van uw analysegereedschappen. De lijst van rapportsuites wordt gesorteerd op relevantie. Adobe definieert relevantie op basis van hoe recent en vaak de suite door de huidige gebruiker is gebruikt en hoe vaak de suite binnen de organisatie wordt gebruikt. |
+| [!UICONTROL **Eigenaar**] | Identificeert de persoon die het project creeerde. |
+| [!UICONTROL **Gedeeld met**] | Toont met wie het project momenteel wordt gedeeld. |
+| [!UICONTROL **Laatst gewijzigd**] | De datum en het tijdstip waarop het project voor het laatst is gewijzigd. |
+| [!UICONTROL **Laatst geopend**] | Identificeert de datum dat een project het laatst werd geopend door de gebruiker die momenteel de pagina van Projecten bekijkt. |
+| [!UICONTROL **Laatst gebruikt**] | Helpt te bepalen of een project voor gebruikers in uw organisatie waardevol is door de datum en de tijd te tonen waarop het project het laatst door om het even welke gebruiker binnen de organisatie werd geopend.<p>Deze kolom is alleen beschikbaar voor systeembeheerders.</p> |
+| [!UICONTROL **Project-id**] | Kan voor het zuiveren projecten worden gebruikt. |
+| [!UICONTROL **Langste datumbereik**] | De langere datumwaaiers verhogen projectingewikkeldheid en kunnen verwerking en ladingstijden verhogen. |
+| [!UICONTROL **Aantal vragen**] | Het totale aantal verzoeken dat aan Analytics wordt gedaan wanneer het project laadt. Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen. Deze gegevens zijn alleen beschikbaar nadat een project is geladen of een gepland project is verzonden. |
+| [!UICONTROL **Locatie**] | Toont de omslag waar het project wordt gevestigd. |
+
+### Andere elementen UI op de pagina van Projecten
 
 | UI-element | Definitie |
 | --- | --- |
@@ -73,31 +80,8 @@ De landingspagina van Adobe Analytics bevat beide [!DNL Analysis Workspace] en [
 | Pictogram Vastzetten | Hiermee worden items vastgezet, zodat ze altijd boven aan de lijst worden weergegeven, maar u kunt de volgorde wijzigen door ze omhoog of omlaag in de volgorde te verplaatsen. Het optiemenu voor ovaal gebruiken en **Omhoog** of **Omlaag verplaatsen** in de lijst. |
 | Info (i), pictogram | Toont de volgende informatie over een project: Type, de Rol van het Project, Eigenaar, Beschrijving, en wie het met wordt gedeeld. Het geeft ook aan wie kan [bewerken of dupliceren](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) dit project. |
 | Ovaal (...) | Toont de acties van het projectbeheer u kunt uitvoeren: **Verwijderen**, **Delen**, **Naam wijzigen**, **Kopiëren**, **Ongedaan maken**, **Omhoog**, **Omlaag**, **Tag**, **Goedkeuren**, **CSV exporteren**, en **Verplaatsen naar**. U hebt mogelijk geen machtigingen om alle vermelde handelingen uit te voeren. |
-| [!UICONTROL Type] | Wijst erop of dit type een project van de Werkruimte, een Mobiele scorecard, of een omslag is. |
-| [!UICONTROL Tags] | Hiermee worden projecten gecodeerd om ze in groepen te ordenen. |
-| [!UICONTROL Project Role] | Identificeert de projectrollen: of u de projecteigenaar bent en of u toestemmingen hebt om het project uit te geven of te dupliceren. |
-| [!UICONTROL Report Suite] | Identificeert de Reeksen van het Rapport die met het project worden geassocieerd.<br>Tabellen en visualisaties in een deelvenster leiden gegevens af van de rapportsuite die rechtsboven in het deelvenster is geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of vele rapportreeksen gebruiken afhankelijk van uw analysegereedschappen. De lijst van rapportsuites wordt gesorteerd op relevantie. Adobe definieert relevantie op basis van hoe recent en vaak de suite door de huidige gebruiker is gebruikt en hoe vaak de suite binnen de organisatie wordt gebruikt. |
-| [!UICONTROL Owner] | Identificeert de persoon die het project creeerde. |
-| [!UICONTROL Last opened] | Identificeert de datum u het project het laatst opende. |
-| Tabelpictogram aanpassen | Hiermee selecteert u welke kolommen u in de tabel wilt weergeven. Als u kolommen wilt toevoegen aan of verwijderen uit de lijst met projecten, klikt u op het kolompictogram (![Alles aanlanden](/help/analyze/assets/select-column.png) ) in de rechterbovenhoek selecteert of deselecteert u kolomtitels. |
 | TONEN: Mappen en projecten voor alle projecten | Hiermee wijzigt u de weergave-instelling in de tabel om mappen en projecten weer te geven volgens uw maporganisatie **of** toon al uw projecten in een ongeorganiseerde lijst. |
 | &lt; (Terug) | Keert u aan uw meest recente het landen paginaconfiguratie in een project van de Werkruimte of een rapport terug. De paginasonfiguratie die u had toen u de openingspagina verliet, blijft bestaan wanneer u terugkeert. |
-
-### Verdringing van de pagina Projectmanager {#deprecate-pm-page}
-
-Met de versie van de nieuwe het landen pagina, verwierpen wij de Manager van het Project zoals die onder de Manager van Componenten wordt vermeld. De nieuwe het landen pagina behandelt alle functionaliteit van de oude pagina van de Manager van het Project en meer.
-
-Één gemeenschappelijk gebruiksgeval voor de pagina van de Manager van het Project was al uw projecten te bekijken.
-
-Als u alle projecten op de nieuwe bestemmingspagina wilt weergeven met de filterrail, selecteert u **ANDERE FILTERS** en selecteer vervolgens **Alles tonen**.
-
-![Alle projecten tonen](assets/show-all-fIlter.png)
-
-Als u in de mening van &quot;Omslagen &amp; van Projecten&quot;bent, zal een modaal pop-up vragend of wilt u op de mening van &quot;Alle projecten&quot;schakelen die het gemakkelijker maakt om al uw projecten buiten om het even welke omslagen te bekijken die zij kunnen worden georganiseerd.   Selecteren **Overschakelen naar de weergave Alle projecten** om beter alle projecten te bekijken u tot toegang hebt.
-
-![Overschakelen naar alle projecten](assets/switch-all-projects-view.png)
-
-Een ander gebruiksgeval voor Admins moet bedrijfsrapporten beheren om rapporten te schrappen, anders te noemen, te etiketteren of goed te keuren. Voor informatie over het beheren van rapporten, zie [Bedrijfsrapporten beheren](#manage-company-reports).
 
 ## Navigeren door de [!UICONTROL Reports] tab {#navigate-reports}
 
