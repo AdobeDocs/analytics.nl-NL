@@ -3,9 +3,9 @@ description: Wanneer een rapport vele unieke waarden heeft, gebruikt de Adobe he
 title: Lage verkeerswaarde in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: d3a959d128f4740fd98ff40e5b92a3ea983d3c05
+source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Wanneer een rapport vele unieke waarden heeft, verstrekt de Adobe functionalitei
 * Adobe Analytics gebruikt twee drempels om te bepalen welke unieke waarden in rapporten elke maand worden getoond: A **[!UICONTROL low threshold]** en **[!UICONTROL high threshold]**. Deze drempelwaarden kunnen van tijd tot tijd met Adobe worden aangepast. De huidige drempelwaarden zijn:
    * **[!UICONTROL Low threshold]**: >500.000 unieke waarden gedurende de maand.
    * **[!UICONTROL High threshold]**: >1.000.000 unieke waarden gedurende de maand.
+* In **medio april 2024**, zal de Adobe beginnen verhogend de standaardrapportreeks laag-verkeersdrempels als volgt: ![laagverkeersdrempels](assets/thresholds.png)
+Dit zal alleen gevolgen hebben voor variabelen die momenteel onder de nieuwe drempelwaarden liggen. Deze veranderingen zullen geleidelijk worden doorgevoerd en wij verwachten dat het werk door de **eind mei**. Aangezien deze verhogingen worden uitgerold, kunt u veranderingen voor high-cardinality variabelen opmerken:<ul><li>Er kunnen meer waarden van dimensies beschikbaar zijn voor rapportage.</li><li>Segmenten en berekende metriek kunnen meer gegevens bevatten.</li><li>Virtuele rapportsuites die op segmenten worden gebaseerd kunnen meer gegevens omvatten.</li><li>De indeling van de uitvoer kan meer gegevens bevatten.</li></ul>
 * De rapportage wordt niet beïnvloed als de variabele de lage drempel in een bepaalde maand niet bereikt.
 * Wanneer een variabele de lage drempel bereikt, beginnen de gegevens onder te worden ingesloten [!UICONTROL Low-Traffic]. Elke waarde boven deze drempel doorloopt de volgende logica:
    * Als er al een waarde wordt weergegeven in rapporten, voegt u deze waarde op de gebruikelijke manier toe.
@@ -35,7 +37,7 @@ Merk op dat de laag-verkeerslogica hierboven wordt beschreven het best met varia
 
 ## Unieke limietdrempels wijzigen
 
-Drempelwaarden kunnen soms per variabele worden gewijzigd. Neem contact op met de klantenservice van de Adobe of met het accountteam van de Adobe om deze wijziging aan te vragen. De mate waarin de drempelwaarden kunnen worden verhoogd, hangt af van meerdere factoren en de Adobe kan in alle gevallen niet in staat zijn de drempelverhogingen te verwerken. Neem bij het aanvragen van een wijziging de volgende gegevens op:
+Drempelwaarden kunnen soms per variabele worden gewijzigd. Neem contact op met de klantenservice van de Adobe of met het accountteam van de Adobe om deze wijziging aan te vragen. De mate waarin de drempelwaarden kunnen worden verhoogd, hangt af van meerdere factoren en de Adobe kan in niet alle gevallen rekening houden met de drempelverhogingen. Neem bij het aanvragen van een wijziging de volgende gegevens op:
 
 * De rapportsuite-id
 * De variabele waarvoor u de drempel wilt verhogen
