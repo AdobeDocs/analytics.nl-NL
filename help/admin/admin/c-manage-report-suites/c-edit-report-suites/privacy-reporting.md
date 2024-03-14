@@ -3,10 +3,10 @@ description: Afmetingen van contentbeheer inschakelen.
 title: Privacyrapportage
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
+source-git-commit: f3a37319811299dde255235b31e2874bc2681cfb
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 3%
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Deze pagina openen:
 
    ![Instellingen bewerken](assets/rsm-privacy-select.png)
 
-1. Klik op de knop **[!UICONTROL Enable Data Privacy Reports]**.
+1. Klik op **[!UICONTROL Enable Data Privacy Reports]**.
 
    >[!NOTE]
    >
