@@ -3,9 +3,9 @@ description: Afmetingen van contentbeheer inschakelen.
 title: Privacyrapportage
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: f3a37319811299dde255235b31e2874bc2681cfb
+source-git-commit: a102242b98967d578918f358166e13d90f06e070
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '99'
 ht-degree: 1%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 1%
 # Privacy-rapportage
 
 Met privacyrapportage kunt u [Inschakelen voor beheer van toestemming](/help/components/dimensions/cm-opt-in.md), [Afmelden voor beheer van toestemming](/help/components/dimensions/cm-opt-out.md) en [Advertentie](/help/components//dimensions/ad-consent.md) afmetingen voor rapportage.
+
+>[!NOTE]
+>
+>Onlangs hebben we een nieuwe markering voor goedkeuring van advertentieplatform toegevoegd. U moet de Rapporten van de Privacy van Gegevens re-toelaten als u deze nieuwe variabele wilt van kracht worden.
 
 Deze pagina openen:
 
