@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
-source-wordcount: '5138'
+source-wordcount: '5174'
 ht-degree: 22%
 
 ---
@@ -27,6 +27,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | --- | --- |
 | **maart 2024** | |
 | AppMeasurement bijwerken | [Opmerkingen bij de release](/help/implement/appmeasurement-updates.md) op AppMeasurement update v2.26.0.<br/>Omvat verwijzing naar en update van [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) documentatie van configuratievariabele. |
+| Gebruiksinformatie met betrekking tot de kolom &quot;Gebruikt in&quot; is pas beschikbaar vanaf september 2023. | Verduidelijkt die gebruiksinformatie betreffende **Gebruikt in** kolom op de [bestemmingspagina](/help/analyze/landing.md) gaat slechts terug tot september 2023. |
 | **Februari 2024** | |
 | Updates voor informatie over het beheer van verzoeken van Data Warehouse | Verduidelijkt dat, door gebrek, gebruikers slechts de verzoeken kunnen bekijken die zij wanneer creëren [het beheren van verzoeken van de Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | Updates voor documentatie voor het delen van projecten | Extra informatie over hoe te [gedeelde projecten weergeven](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Ook gestroomlijnde informatie over [het delen van individuele of veelvoudige projecten](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |

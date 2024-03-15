@@ -4,9 +4,9 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: a75c807c1f54676e359cf502781ba1de5fd6c51c
+source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1760'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ De beschikbare kolommen zijn:
 | [!UICONTROL **Gedeeld met**] | Toont met wie het project momenteel wordt gedeeld. |
 | [!UICONTROL **Laatst gewijzigd**] | De datum en het tijdstip waarop het project voor het laatst is gewijzigd. |
 | [!UICONTROL **Laatst geopend**] | Identificeert de datum dat een project het laatst werd geopend door de gebruiker die momenteel de pagina van Projecten bekijkt. |
-| [!UICONTROL **Laatst gebruikt**] | Helpt te bepalen of een project voor gebruikers in uw organisatie waardevol is door de datum en de tijd te tonen waarop het project het laatst door om het even welke gebruiker binnen de organisatie werd geopend.<p>Deze kolom is alleen beschikbaar voor systeembeheerders.</p> |
+| [!UICONTROL **Laatst gebruikt**] | Helpt te bepalen of een project voor gebruikers in uw organisatie waardevol is door de datum en de tijd te tonen waarop het project het laatst door om het even welke gebruiker binnen de organisatie werd geopend.<p>Houd rekening met het volgende wanneer u deze kolom weergeeft:</p><ul><li>Gebruiksgegevens zijn beschikbaar vanaf september 2023.</li><li>Deze kolom is alleen beschikbaar voor systeembeheerders.</li></ul> |
 | [!UICONTROL **Project-id**] | Kan voor het zuiveren projecten worden gebruikt. |
 | [!UICONTROL **Langste datumbereik**] | De langere datumwaaiers verhogen projectingewikkeldheid en kunnen verwerking en ladingstijden verhogen. |
 | [!UICONTROL **Aantal vragen**] | Het totale aantal verzoeken dat aan Analytics wordt gedaan wanneer het project laadt. Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen. Deze gegevens zijn alleen beschikbaar nadat een project is geladen of een gepland project is verzonden. |
