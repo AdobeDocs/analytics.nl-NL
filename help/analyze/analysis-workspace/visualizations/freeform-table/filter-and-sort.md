@@ -4,9 +4,9 @@ title: Vrije-vormtabellen filteren en sorteren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
+source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ U kunt verschillende methoden gebruiken om rijen vanuit een vrije-vormtabel te f
 - Klik op de X in de rij
 - Klik met de rechtermuisknop > Geselecteerde rijen verwijderen
 - Tabelfilters
-- Segmentatie
+- Segmentering
 
 Zorg ervoor dat u leest wat de invloed van elke methode is [Tabeltotalen voor vrije vorm](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -48,12 +48,14 @@ Om specifieke rijen van een lijst van de Vrije vorm snel uit te sluiten:
 
    Houd Shift ingedrukt om een reeks rijen te selecteren of houd Command (in Mac) of Ctrl (in Windows) ingedrukt om meerdere rijen te selecteren.
 
-### Klik met de rechtermuisknop > Geselecteerde rijen verwijderen
+<!--### Right-click > Delete selected rows
 
-1. Selecteer 1 of meer rijen.
-1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Delete Selected Rows]**.
+Note: this option does not seem to work. AN-338422
 
-   Met deze actie verwijdert u de rijen uit de tabel en past u een tabelfilter toe.
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
 
 ### Een eenvoudig of geavanceerd filter toepassen op een tabel
 
@@ -67,7 +69,7 @@ Gegevens filteren in Freeform-tabellen:
 
    De volgende opties zijn beschikbaar:
 
-   | Optie | -functie |
+   | Optie | Functie |
    |---------|----------|
    | [!UICONTROL **Woord of woordgroep zoeken**] | Geef een woord of woordgroep op waarop u wilt filteren. Alleen rijen die het opgegeven woord of de exacte woordgroep bevatten, worden weergegeven. |
    | [!UICONTROL **Inclusief niet-opgegeven (geen)**] | Selecteer deze optie om gegevens in de tabel weer te geven die niet in een van de afmetingen van de tabel vallen. <!--what is this?--> |
@@ -76,7 +78,7 @@ Gegevens filteren in Freeform-tabellen:
 
    De volgende geavanceerde filteropties zijn beschikbaar:
 
-   | Optie | -functie |
+   | Optie | Functie |
    |---------|----------|
    | [!UICONTROL **Inclusief niet-opgegeven (geen)**] | Selecteer deze optie om gegevens in de tabel weer te geven die niet in een van de afmetingen van de tabel vallen. <!--what is this?--> |
    | [!UICONTROL **Overeenkomst**] | <p>Kies [!UICONTROL **Als aan alle criteria is voldaan**] om alleen gegevens weer te geven die voldoen aan alle criteria die u opgeeft. Deze optie resulteert doorgaans in meer verfijnde gegevens.</p> <p>Kies [!UICONTROL **Als aan bepaalde criteria is voldaan**] om gegevens weer te geven die voldoen aan een van de filtercriteria die u opgeeft. Deze optie resulteert doorgaans in minder verfijnde gegevens.</p> |
@@ -87,7 +89,7 @@ Gegevens filteren in Freeform-tabellen:
 
    De **Filter** pictogram ![Blauw filterpictogram gefilterde tabel](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) wordt blauw wanneer een filter op de lijst wordt toegepast.
 
-### Segmentatie
+### Segmentering
 
 Zie onze [Segmenteringsdocumentatie](/help/components/segmentation/seg-home.md) voor meer informatie .
 
