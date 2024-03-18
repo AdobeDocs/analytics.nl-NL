@@ -4,9 +4,9 @@ description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ Alvorens eVars in uw implementatie te gebruiken, zorg ervoor dat u elke eVar in 
 
 ## Vars die SDK van het Web gebruiken
 
-eVars zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.eVars.eVar1` tot `_experience.analytics.customDimensions.eVars.eVar250`.
+eVars worden toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` tot `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` tot `data.__adobe.analytics.eVar250`; of `data.__adobe.analytics.v1` tot `data.__adobe.analytics.v250`
 
 ## Vars met de Adobe Analytics-extensie
 

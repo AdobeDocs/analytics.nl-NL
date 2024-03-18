@@ -4,9 +4,9 @@ description: De naam van de pagina op uw site.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,12 @@ Als deze variabele niet op een bepaalde pagina volgende vraag wordt bepaald, [`p
 >
 >De servers van de gegevensinzameling van de Adobe verwijderen deze afmeting van allen [koppeling bijhouden](/help/implement/vars/functions/tl-method.md) verzoeken om afbeeldingen. Als u deze dimensie wilt weergeven in het bijhouden van koppelingen, kunt u deze dimensie kopiëren naar een [eVar](evar.md).
 
-## Paginanaam met de Web SDK
+## De naam van de pagina die SDK van het Web gebruikt
 
-Pagina is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `web.webPageDetails.name`.
+De paginanaam wordt toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.name`
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageName`
 
 ## Paginanaam met de Adobe Analytics-extensie
 

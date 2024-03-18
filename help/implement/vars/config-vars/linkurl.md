@@ -4,9 +4,9 @@ description: Hef het automatisch gegenereerde gebruik van het URL-AppMeasurement
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,10 @@ Wanneer een verbinding het volgen vraag naar Adobe wordt verzonden, ontdekken de
 
 ## URL koppelen met de SDK van het Web
 
-URL koppeling is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `web.webInteraction.URL`.
+De koppeling-URL wordt toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` of `data.__adobe.analytics.pev1`
 
 ## URL koppelen met de Adobe Analytics-extensie
 

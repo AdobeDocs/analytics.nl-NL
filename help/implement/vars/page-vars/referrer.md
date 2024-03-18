@@ -4,9 +4,9 @@ description: Overschrijf de automatisch verzamelde verwijzer voor een klap.
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,12 @@ De `referrer` de variabele treedt automatisch verzamelde verwijzer in rapporten 
 
 ## Referrer die SDK van het Web gebruikt
 
-Referrer is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `web.webReferrer.URL`.
+Referrer wordt toegewezen aan de volgende variabelen:
 
-De SDK van het Web omvat deze afmeting op elke gebeurtenishit.
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
+
+De Web SDK omvat automatisch `web.webReferrer.URL` op elke verzonden gebeurtenis, indien beschikbaar.
 
 ## Referrer die de extensie Adobe Analytics gebruikt
 

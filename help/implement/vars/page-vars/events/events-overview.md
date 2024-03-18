@@ -4,9 +4,9 @@ description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw s
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,24 +19,26 @@ Alvorens gebeurtenissen uit te voeren, zorg ervoor dat u creeert en hen vormt on
 
 ## Gebeurtenissen die de SDK van het Web gebruiken
 
-Aangepaste gebeurtenissen zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de volgende XDM-velden:
+Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md) Voor aangepaste gebeurtenissen worden de volgende XDM-velden gebruikt:
 
-* Aangepaste gebeurtenissen 1-100 worden toegewezen aan `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
-* Aangepaste gebeurtenissen 101-200 worden toegewezen aan `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Dit patroon herhaalt elke 100 gebeurtenissen naar `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` wordt gebruikt om het te verhogen bedrag te specificeren. `eventx.id` wordt gebruikt voor [serialisatie](event-serialization.md).
-* Bestellingen worden toegewezen aan `commerce.purchases.value`.
+* Aangepaste gebeurtenissen 1-100 worden toegewezen aan `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`.
+* Aangepaste gebeurtenissen 101-200 worden toegewezen aan `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`.
+* Dit patroon herhaalt elke 100 gebeurtenissen naar `xdm._experience.analytics.event901to1000.event901` - `xdm._experience.analytics.event901to1000.event1000`. `eventx.value` wordt gebruikt om het te verhogen bedrag te specificeren. `eventx.id` wordt gebruikt voor [serialisatie](event-serialization.md).
+* Bestellingen worden toegewezen aan `xdm.commerce.purchases.value`.
 * Eenheden worden toegewezen aan de som van alle eenheden `productListItems[].quantity` velden.
 * Opbrengsten worden toegewezen aan de som van alle `productListItems[].priceTotal` velden.
-* Productweergaven worden toegewezen aan `commerce.productListViews.value`.
-* Karretjes worden toegewezen aan `commerce.productListOpens.value`.
-* Extra winkelwagentjes worden toegewezen aan `commerce.productListAdds.value`.
-* Winkelwagentjes worden toegewezen aan `commerce.productListRemovals.value`.
-* Wisselweergaven worden toegewezen aan `commerce.productListViews.value`.
-* Afbeeldingen worden toegewezen aan `commerce.checkouts.value`.
+* Productweergaven worden toegewezen aan `xdm.commerce.productListViews.value`.
+* Karretjes worden toegewezen aan `xdm.commerce.productListOpens.value`.
+* Extra winkelwagentjes worden toegewezen aan `xdm.commerce.productListAdds.value`.
+* Winkelwagentjes worden toegewezen aan `xdm.commerce.productListRemovals.value`.
+* Wisselweergaven worden toegewezen aan `xdm.commerce.productListViews.value`.
+* Afbeeldingen worden toegewezen aan `xdm.commerce.checkouts.value`.
 
 >[!NOTE]
 >
 >Als een gebeurtenis is ingesteld onder `productListItems` (bijvoorbeeld `productListItems._experience.analytics.event1.value`) en die gebeurtenis zich nog niet in dit veld bevindt, wordt die gebeurtenis automatisch toegevoegd aan dit veld.
+
+Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md), alle gebeurtenissen gebruiken `data.__adobe.analytics.events`, volgens tekenreekssyntaxis van AppMeasurement. Als u dit veld instelt, worden gebeurtenissen die in het XDM-object zijn ingesteld, overschreven en niet naar Adobe Analytics verzonden.
 
 ## Gebeurtenissen die de extensie Adobe Analytics gebruiken
 

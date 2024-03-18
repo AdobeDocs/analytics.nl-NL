@@ -4,9 +4,9 @@ description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ Als u een [document ontwerp oplossing](/help/implement/prepare/solution-design.m
 
 ## Proefpersonen die de SDK van het Web gebruiken
 
-Props zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.props.prop1` tot `_experience.analytics.customDimensions.props.prop75`. Lijstprofielen worden opgegeven in een aparte set velden.
+Props worden toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - list props worden gespecificeerd in a [afzonderlijke set velden](#list-props-web-sdk).
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; of `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - bevat de lijst props in deze velden.
 
 ## Wordt gebruikt met de Adobe Analytics-extensie
 
@@ -60,9 +63,11 @@ Lijsteigenschappen inschakelen in [verkeersvariabelen](/help/admin/admin/c-manag
 >
 >In implementaties worden vaak scheidingstekens gebruikt (`,`), dubbele punt (`:`), puntkomma (`;`), of pijp (`|`). U kunt elk niet-uitgebreid ASCII-scheidingsteken gebruiken dat het beste bij uw implementatie past.
 
-### Lijsteigenschappen instellen met de SDK van het web
+### Lijsteigenschappen instellen met de SDK van het web {#list-props-web-sdk}
 
-Zodra u lijstproeven in de montages van de rapportreeks met het gewenste afbakeningsteken vormt, zijn de lijststeunen in kaart gebracht voor Adobe Analytics onder `_experience.analytics.customDimensions.listProps.prop1.values[]` tot `_experience.analytics.customDimensions.listProps.prop75.values[]`. De SDK van het Web gebruikt automatisch het correcte scheidingsteken dat onder de montages van de rapportreeks wordt vermeld. Als u het scheidingsteken instelt in het XDM-veld (bijvoorbeeld `_experience.analytics.customDimensions.props.prop1.delimiter`), dat het scheidingsteken met voeten treedt dat automatisch uit de montages van de rapportreeks wordt teruggewonnen en tot onjuist het ontleden van het lijstpro koord kan leiden.
+Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md), lijsteigenschappen worden toegewezen aan `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. De SDK van het Web gebruikt automatisch het correcte scheidingsteken dat onder de montages van de rapportreeks wordt vermeld. Als u het scheidingsteken instelt in het XDM-veld (bijvoorbeeld `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), dat het scheidingsteken met voeten treedt dat automatisch uit de montages van de rapportreeks wordt teruggewonnen en tot onjuist het ontleden van het lijstpro koord kan leiden.
+
+Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md) gebruiken props voor lijsten dezelfde velden als standaardprops en volgen de syntaxis van het AppMeasurement.
 
 ### Lijsteigenschappen instellen met de Adobe Analytics-extensie en het-AppMeasurement
 

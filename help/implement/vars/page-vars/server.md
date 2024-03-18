@@ -4,7 +4,7 @@ description: Vul de dimensie 'Servers' in.
 feature: Variables
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -17,7 +17,10 @@ De `server` de variabele slaat typisch hostname van uw plaats op. Het wordt alge
 
 ## Server die de SDK van het Web gebruikt
 
-Server is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `web.webPageDetails.server`.
+Server wordt toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.server`
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.server`
 
 ## Server met Adobe Analytics-extensie
 

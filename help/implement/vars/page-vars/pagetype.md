@@ -4,9 +4,9 @@ description: Bepaal of de huidige pagina een fout van 404 is.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,10 @@ De `pageType` variabele is een vlag die wordt gebruikt om foutenpagina&#39;s op 
 
 ## Paginatype met de Web SDK
 
-Paginatype is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `web.webPageDetails.isErrorPage`. Dit XDM-veld is een Booleaanse waarde; stel het in op `true` om deze te markeren als een foutpagina, of `false` als het geen foutpagina is. Adobe zet de Booleaanse waarde automatisch om in de tekenreekswaarde `errorPage` wanneer deze naar een analytische rapportsuite wordt verzonden.
+Kanaal wordt toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - dit XDM-veld is een Booleaanse waarde; stel het in op `true` om deze te markeren als een foutpagina, of `false` als het geen foutpagina is.
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - dit gegevensobjectveld is een tekenreeks; stel het in op `"errorPage"` om het als zodanig te markeren.
 
 ## Paginatype met Adobe Analytics-extensie
 

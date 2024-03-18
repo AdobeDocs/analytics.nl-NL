@@ -4,7 +4,7 @@ description: Gebruik de uitbreiding van SDK van het Web in de Inzameling van Geg
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
+source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 3%
@@ -65,7 +65,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>7</td>
 <td><b>De SDK van het web configureren</b>. Controleer of de bibliotheek die u in stap 4 hebt geïnstalleerd, correct is geconfigureerd met de gegevensstroom-id (voorheen bekend als edge configuration id (<code>edgeConfigId</code>), organisatie-id (<code>orgId</code>) en andere beschikbare opties. Zorgen voor juiste toewijzing van variabelen. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">De SDK van het web configureren</a><br/><a href="../variable-mapping.md">XML-objectvariabele toewijzen</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">De SDK van het web configureren</a><br/><a href="../xdm-var-mapping.md">XML-objectvariabele toewijzen</a></td>
 </tr>
 
 <tr>

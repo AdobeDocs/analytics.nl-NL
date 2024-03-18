@@ -4,9 +4,9 @@ description: Verzend een verbinding het volgen vraag aan Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,13 @@ Indien [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) of [`trackEx
 
 ## Koppelingen bijhouden met de SDK van het web
 
-SDK van het Web maakt geen onderscheid tussen vraag van de paginamening en verbinding het volgen vraag; allebei gebruiken `sendEvent` gebruiken. Als u wilt dat Adobe Analytics een bepaalde XDM-gebeurtenis telt als een aanroep voor het bijhouden van koppelingen, moet u ervoor zorgen dat uw XDM-gegevens worden opgenomen in of toegewezen aan `web.webInteraction.name`, `web.webInteraction.URL`, en `web.webInteraction.type`.
+SDK van het Web maakt geen onderscheid tussen vraag van de paginamening en verbinding het volgen vraag; allebei gebruiken `sendEvent` gebruiken.
 
-* Koppelingsnaam verwijst naar `web.webInteraction.name`.
-* URL-koppelingen koppelen naar `web.webInteraction.URL`.
-* Typekaarten koppelen aan `web.webInteraction.type`. Geldige waarden zijn `other` (Aangepaste koppelingen), `download` (Koppelingen downloaden) en `exit` (Koppelingen afsluiten).
+Als u een XDM-object gebruikt en Adobe Analytics een bepaalde gebeurtenis wilt tellen als een aanroep voor het bijhouden van koppelingen, moet u ervoor zorgen dat uw XDM-gegevens:
+
+* Koppelingsnaam: toegewezen aan `xdm.web.webInteraction.name`.
+* Koppeling-URL: toegewezen aan `xdm.web.webInteraction.URL`.
+* Koppelingstype: toegewezen aan `xdm.web.webInteraction.type`. Geldige waarden zijn `other` (Aangepaste koppelingen), `download` (Koppelingen downloaden) en `exit` (Koppelingen afsluiten).
 
 ```js
 alloy("sendEvent", {
@@ -33,6 +35,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+Als u een gegevensobject gebruikt en Adobe Analytics een bepaalde gebeurtenis wilt laten tellen als een aanroep voor het bijhouden van koppelingen, moet u ervoor zorgen dat het gegevensobject de volgende gegevens bevat:
+
+* Koppelingsnaam: toegewezen aan `data.__adobe.analytics.linkName`.
+* Koppeling-URL: toegewezen aan `data.__adobe.analytics.linkURL`.
+* Koppelingstype: toegewezen aan `data.__adobe.analytics.linkType`. Geldige waarden zijn `o` (Aangepaste koppelingen), `d` (Koppelingen downloaden) en `e` (Koppelingen afsluiten).
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

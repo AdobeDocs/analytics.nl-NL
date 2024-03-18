@@ -4,9 +4,9 @@ description: Gegevens verzenden over het product of de producten die worden weer
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,20 @@ De `products` met variabele tracks kunt u producten en eigenschappen bijhouden d
 
 ## Producten die SDK van het Web gebruiken
 
-Producten zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder verschillende XDM-velden:
+Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md), worden de producten aan de volgende variabelen toegewezen:
 
-* Categorie is toegewezen aan `productListItems[].productCategories[].categoryID`. Het gebruikt het eerste item in de `productCategories[]` array. `lineItemId` ook kaarten correct, maar wij adviseren `categoryID` omdat dit standaard XDM is. Als beide XDM-velden aanwezig zijn `lineItemId` heeft voorrang.
-* Product is toegewezen aan `productListItems[].SKU` of `productListItems[].name`. Als beide XDM-velden aanwezig zijn, `productListItems[].SKU` wordt gebruikt.
-* Aantal is toegewezen aan `productListItems[].quantity`.
-* Prijs is toegewezen aan `productListItems[].priceTotal`.
-* Merchandising eVars worden toegewezen aan `productListItems._experience.analytics.customDimensions.eVars.eVar1` tot `productListItems._experience.analytics.customDimensions.eVars.eVar250`, afhankelijk van welke eVar u aan een product wilt binden.
-* Merchandising-gebeurtenissen worden toegewezen aan `productListItems[]._experience.analytics.event1to100.event1.value` tot `productListItems._experience.analytics.event901to1000.event1000.value`, afhankelijk van welke gebeurtenis u aan een product wilt binden. Als u een gebeurtenis instelt in een van deze velden, wordt deze automatisch opgenomen in het dialoogvenster [event](events/events-overview.md) tekenreeks verzonden naar Adobe Analytics.
+* Categorie is toegewezen aan `xdm.productListItems[].productCategories[].categoryID`. Het gebruikt het eerste item in de `productCategories[]` array. `lineItemId` worden ook correct toegewezen, maar de Adobe beveelt aan `categoryID` omdat het standaard XDM is. Als beide XDM-velden aanwezig zijn, `lineItemId` heeft voorrang.
+* Product is toegewezen aan `xdm.productListItems[].SKU` of `xdm.productListItems[].name`. Als beide XDM-velden aanwezig zijn, `xdm.productListItems[].SKU` wordt gebruikt.
+* Aantal is toegewezen aan `xdm.productListItems[].quantity`.
+* Prijs is toegewezen aan `xdm.productListItems[].priceTotal`.
+* Merchandising eVars worden toegewezen aan `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` tot `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, afhankelijk van welke eVar u aan een product wilt binden.
+* Merchandising-gebeurtenissen worden toegewezen aan `xdm.productListItems[]._experience.analytics.event1to100.event1.value` tot `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, afhankelijk van welke gebeurtenis u aan een product wilt binden. Als u een gebeurtenis instelt in een van deze velden, wordt deze automatisch opgenomen in het dialoogvenster [event](events/events-overview.md) tekenreeks verzonden naar Adobe Analytics.
 
 >[!NOTE]
 >
 >`lineItemId` moet worden toegevoegd als een aangepast veld omdat dit nog geen deel uitmaakt van het standaardschema voor analysegebeurtenissen. De Adobe is van plan in de toekomst een speciaal veld &#39;Categorie&#39; toe te voegen.
+
+Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md), de productvariabele `data.__adobe.analytics.products` volgende AppMeasurement syntaxis. Als u dit veld instelt, worden alle producten die in het XDM-object zijn ingesteld, overschreven en niet verzonden naar Adobe Analytics.
 
 ## Producten die de extensie Adobe Analytics gebruiken
 

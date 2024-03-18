@@ -4,9 +4,9 @@ description: Met contextgegevensvariabelen kunt u aangepaste variabelen definië
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,26 @@ Contextgegevensvariabelen zijn handig voor ontwikkelingsteams om gegevens te ver
 
 ## Contextgegevensvariabelen die de SDK van het Web gebruiken
 
-Als een XDM-veld niet [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), wordt het automatisch opgenomen als variabele van contextgegevens. U kunt vervolgens [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) om de variabele van contextgegevens aan de gewenste variabele Analytics toe te wijzen.
+Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md) Alle velden die niet zijn toegewezen aan een Adobe Analytics-variabele worden automatisch opgenomen als een contextgegevensvariabele. U kunt vervolgens [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) om de variabele van contextgegevens aan de gewenste variabele Analytics toe te wijzen.
 
-Terwijl het beste praktijken is om gegevens aan de correcte gebieden XDM in de Datstream in kaart te brengen, bereikt deze methode gelijkaardige resultaten.
+Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md) alle variabelen van de contextgegevens zich binnen `data.__adobe.analytics.contextData` als sleutel-waardeparen:
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "contextData": {
+          "example_variable": "Example value",
+          "second_example": "Another value"
+        }
+      }
+    }
+  }
+});
+```
+
+De [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) interface zou tonen `c.example_variable` en `c.second_example` in de toepasselijke vervolgkeuzemenu&#39;s.
 
 ## Contextgegevensvariabelen die de extensie Adobe Analytics gebruiken
 

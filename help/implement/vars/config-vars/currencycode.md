@@ -4,9 +4,9 @@ description: Voor eCommerce-sites stelt de valuta in waarin de pagina handelt.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,10 @@ Een periode **moet** worden gebruikt als valutascheidingsteken voor alle valuta&
 
 ## Valutacode die Web SDK gebruikt
 
-Valuta is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `commerce.order.currencyCode`.
+Valutacode wordt toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` of `data.__adobe.analytics.cc`
 
 ## Valutacode die de extensie Adobe Analytics gebruikt
 

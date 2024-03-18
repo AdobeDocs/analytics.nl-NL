@@ -4,9 +4,9 @@ description: Hiermee kunt u de tekenreeks aanpassen die dynamische variabelen id
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ Dynamische variabelen gebruiken standaard het voorvoegsel `D=`. De `dynamicVaria
 ## Dynamisch veranderlijke prefix die de SDK van het Web gebruikt
 
 De SDK van het Web gebruikt geen dynamische variabele het formatteren. In plaats daarvan kunt u DataStream-toewijzing gebruiken om meerdere doelvelden te vullen met één bronveld. Zie [Dynamische variabelen met de SDK van het Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) voor meer informatie .
+
+Als u gegevens rechtstreeks naar Adobe Analytics verzendt zonder zich aan een schema te houden, gebruikt het de volgende variabele:
+
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
 
 ## Dynamische variabele voorvoegsel met Adobe Analytics-extensie
 

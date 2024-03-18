@@ -4,9 +4,9 @@ description: Hef de automatisch verzamelde pagina-URL op uw site op.
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,10 @@ AppMeasurement verzamelt automatisch de pagina-URL in elke hit. Als u de pagina-
 
 ## Pagina-URL met de Web SDK
 
-Pagina-URL is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `web.webPageDetails.URL`.
+Pagina-URL wordt toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` of `data.__adobe.analytics.g`
 
 ## Pagina-URL met de Adobe Analytics-extensie
 

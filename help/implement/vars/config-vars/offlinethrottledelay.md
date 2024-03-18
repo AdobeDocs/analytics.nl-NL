@@ -4,9 +4,9 @@ description: Hiermee bepaalt u de frequentie van treffers wanneer een apparaat w
 feature: Variables
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ Offline bijhouden is een optionele manier om gegevens te verzamelen in Adobe Ana
 
 Wanneer een apparaat online terugkomt, worden alle treffers die op het apparaat worden opgeslagen verzonden naar de servers van de de gegevensinzameling van de Adobe. Een groot aantal resultaten in de wachtrij kan mogelijk van invloed zijn op de prestaties van oudere apparaten. Gebruik de `offlineThrottleDelay` variabele om te bepalen hoe vaak de een rij gevormde klappen naar Adobe worden verzonden.
 
-## Offline Throttle Delay met Adobe Analytics-extensie
+## Offlinevertragingstijd met de SDK van het Web
+
+De SDK van het Web ondersteunt offline bijhouden niet.
+
+## Offlinevertragingstijd met Adobe Analytics-extensie
 
 Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
 

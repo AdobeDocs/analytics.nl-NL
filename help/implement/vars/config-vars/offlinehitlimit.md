@@ -4,9 +4,9 @@ description: Bepaal het maximumaantal controles aan rij voor off-line het volgen
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ Offline bijhouden is een optionele manier om gegevens te verzamelen in Adobe Ana
 
 De `offlineHitLimit` Met variabele wordt een uiteinde geplaatst op het aantal hits dat lokaal op het apparaat wordt opgeslagen. Deze variabele werkt alleen als [`trackOffline`](trackoffline.md) is ingeschakeld.
 
-## Off line limiet voor Actief met Adobe Analytics-extensie
+## Offline aanraaklimiet met de Web SDK
+
+De SDK van het Web ondersteunt offline bijhouden niet.
+
+## Offline aanraaklimiet met Adobe Analytics-extensie
 
 Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
 

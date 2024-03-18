@@ -4,9 +4,9 @@ description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe 
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Bij het implementeren van Adobe Analytics met een gegevenslaag worden doorgaans 
 
 1. **Valideer uw gegevenslaag met een browserconsole**: Nadat een gegevenslaag is gemaakt, kunt u controleren of deze werkt met de ontwikkelaarsconsole van een browser. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend `F12` toets. Een waarde van een voorbeeldvariabele zou `adobeDataLayer.page.title`.
 1. **Adobe Experience Platform-gegevensverzameling gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Deze stap is afhankelijk van de implementatiemethode van uw organisatie:
-   * **Als het gebruiken van SDK van het Web**: Wijs de gewenste gegevenslaagobjecten toe aan de gewenste XDM-velden in Adobe Experience Platform Edge. Zie [Variabeletoewijzing Analyse](../aep-edge/variable-mapping.md) om de gewenste afbeelding van de gegevenslaag te bepalen.
+   * **Als het gebruiken van SDK van het Web**: Wijs de gewenste gegevenslaagobjecten toe aan de gewenste XDM-velden in Adobe Experience Platform Edge. Zie [Analytics XDM variable mapping](../aep-edge/xdm-var-mapping.md) om de gewenste afbeelding van de gegevenslaag te bepalen.
    * **Indien de extensie Analytics wordt gebruikt**: Maak gegevenselementen onder Tags in Adobe Experience Platform-gegevensverzameling en wijs deze toe aan de gewenste gegevenslaagobjecten. Wijs vervolgens binnen de extensie Analytics elk gegevenselement toe aan de juiste variabele Analytics.
 
 ## Specificaties

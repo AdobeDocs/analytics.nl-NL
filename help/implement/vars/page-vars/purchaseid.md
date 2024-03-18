@@ -4,7 +4,7 @@ description: Gededupliceerde hits op basis van een unieke aankoop-id.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -21,7 +21,10 @@ De aankoop-id&#39;s gelden voor alle bezoekers en verlopen na 37 maanden. Als ee
 
 ## Aankoop-id met de web SDK
 
-Aankoop-id is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `commerce.order.purchaseID`.
+De aankoop-id wordt toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## Aankoop-id met Adobe Analytics-extensie
 

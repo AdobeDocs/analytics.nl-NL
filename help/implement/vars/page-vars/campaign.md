@@ -4,9 +4,9 @@ description: Vul de dimensie 'Code bijhouden' in.
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,10 @@ Deze variabele vult de [Trackingcode](/help/components/dimensions/tracking-code.
 
 ## Campagne die de SDK van het Web gebruikt
 
-Campagne is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `marketing.trackingCode`.
+De campagne wordt toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` of `data.__adobe.analytics.v0`
 
 ## Campagne met de Adobe Analytics-extensie
 

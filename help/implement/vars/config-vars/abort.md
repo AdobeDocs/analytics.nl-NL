@@ -4,9 +4,9 @@ description: De abortvariabele is een booleaanse waarde die voorkomt dat een hit
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->De `abort` variabele herstelt naar `false` na elke volgende vraag. Als u volgende het volgen vraag op de zelfde pagina moet afbreken, plaats `abort` tot `true` opnieuw.
+>De `abort` variabele herstelt naar `false` na elke volgende vraag. Als u volgende volgvraag op de zelfde pagina wilt afbreken, plaats `abort` tot `true` opnieuw.
 
-Bijvoorbeeld de `abort` kan worden ingesteld in het dialoogvenster [`doPlugins()`](../functions/doplugins.md) -functie. Dit is de laatste functie die wordt uitgevoerd voordat een afbeeldingsaanvraag naar de Adobe wordt verzonden. Dit voorbeeld werkt op dezelfde manier als het `onBeforeEventSend` callback die SDK van het Web gebruikt.
+De `abort` kan worden ingesteld in het dialoogvenster [`doPlugins()`](../functions/doplugins.md) -functie. Dit is de laatste functie die wordt uitgevoerd voordat een afbeeldingsaanvraag naar de Adobe wordt verzonden. Dit voorbeeld werkt op dezelfde manier als het `onBeforeEventSend` callback die SDK van het Web gebruikt.
 
 ```js
 s.doPlugins = function(s) {

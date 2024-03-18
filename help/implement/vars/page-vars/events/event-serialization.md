@@ -4,9 +4,9 @@ description: Help metrische gegevens op uw site te dupliceren.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,11 @@ Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niv
 
 ## Gebeurtenis-id&#39;s gebruiken met de Web SDK
 
-Serienummering voor gebeurtenissen is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de gewenste XDM-gebeurtenis `id`. Het volledige XDM-pad is afhankelijk van de gebeurtenis die u wilt serialiseren.
+Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md), gebruikt de gebeurtenisrangschikking het gewenste XDM gebied van de gebeurtenis `id`. Het volledige XDM-pad is afhankelijk van de gebeurtenis die u wilt serialiseren.
 
-Als u bijvoorbeeld de metrisch met de kunsttoevoegingen wilt serialiseren, stelt u de optie `commerce.productListAdds.id` XDM gebied aan de gewenste rangschikkingswaarde. Als u Aangepaste gebeurtenis 20 wilt serialiseren, stelt u de optie `_experience.analytics.event1to100.event20` XDM gebied aan de gewenste rangschikkingswaarde.
+Als u bijvoorbeeld de metrische waarde voor toevoeging van winkelwagentjes wilt serialiseren, stelt u `xdm.commerce.productListAdds.id` naar de gewenste serienummeringswaarde. Als u Aangepaste gebeurtenis 20 wilt serialiseren, stelt u `xdm._experience.analytics.event1to100.event20` naar de gewenste serienummeringswaarde.
+
+Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md), gebruik van gebeurtenisserialisatie `data.__adobe.analytics.events`, volgens tekenreekssyntaxis van AppMeasurement.
 
 ## Gebeurtenis-id&#39;s gebruiken met de Adobe Analytics-extensie
 

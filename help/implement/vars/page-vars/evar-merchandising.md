@@ -5,9 +5,9 @@ feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,10 @@ De waarde voor `eVar1` wordt toegewezen aan het product. Alle volgende succesgeb
 
 ### Productsyntaxis met de Web SDK
 
-Productsyntaxishandelsvariabelen zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder verschillende XDM-velden.
+Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md) Handelsvariabelen voor productsyntaxis gebruiken de volgende XDM-velden:
 
-* ProductsyntaxisbewerkingseVars worden toegewezen onder `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` tot `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* Handelsgerelateerde gebeurtenissen in de productsyntaxis worden toegewezen onder `productListItems[]._experience.analytics.event1to100.event1.value` tot `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Serienummering voor gebeurtenissen](events/event-serialization.md) XDM-velden worden toegewezen onder `productListItems[]._experience.analytics.event1to100.event1.id` tot `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* ProductsyntaxisbewerkingseVars worden toegewezen onder `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` tot `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
+* Handelsgerelateerde gebeurtenissen in de productsyntaxis worden toegewezen onder `xdm.productListItems[]._experience.analytics.event1to100.event1.value` tot `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value`. [Serienummering voor gebeurtenissen](events/event-serialization.md) XDM-velden worden toegewezen onder `xdm.productListItems[]._experience.analytics.event1to100.event1.id` tot `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`.
 
 >[!NOTE]
 >
@@ -56,36 +56,38 @@ Productsyntaxishandelsvariabelen zijn [toegewezen voor Adobe Analytics](https://
 
 In het volgende voorbeeld wordt één [product](products.md) het gebruik van meerdere handelsstromen en gebeurtenissen:
 
-```js
+```json
 "productListItems": [
-    {
-        "name": "Bahama Shirt",
-        "priceTotal": "12.99",
-        "quantity": 3,
-        "_experience": {
-            "analytics": {
-                "customDimensions" : {
-                    "eVars" : {
-                        "eVar10" : "green",
-                        "eVar33" : "large"
-                    }
-                },
-                "event1to100" : {
-                    "event4" : {
-                        "value" : 1
-                    },
-                    "event10" : {
-                        "value" : 2,
-                        "id" : "abcd"
-                    }
-                }
-            }
+  {
+    "name": "Bahama Shirt",
+    "priceTotal": "12.99",
+    "quantity": 3,
+    "_experience": {
+      "analytics": {
+        "customDimensions" : {
+          "eVars" : {
+            "eVar10" : "green",
+            "eVar33" : "large"
+          }
+        },
+        "event1to100" : {
+          "event4" : {
+            "value" : 1
+          },
+          "event10" : {
+            "value" : 2,
+            "id" : "abcd"
+          }
         }
+      }
     }
+  }
 ]
 ```
 
 Het bovenstaande voorbeeldobject wordt naar Adobe Analytics verzonden als `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+
+Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md), gebruik van eVar `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` volgende AppMeasurement syntaxis.
 
 ## Implementeren met syntaxis van conversievariabelen
 
@@ -109,33 +111,60 @@ De waarde `"Aviary"` for `eVar1` is toegewezen aan het product `"Canary"`. Alle 
 
 ### De veranderlijke syntaxis van de omzetting gebruikend Web SDK
 
-De syntaxis van de conversievariabele met de SDK van het Web werkt op dezelfde manier als het implementeren van andere [eVars](evar.md) en [gebeurtenissen](events/events-overview.md). XDM die het voorbeeld hierboven weerspiegelt zou als het volgende kijken:
+Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md), werkt de syntaxis op dezelfde manier als bij het implementeren van andere [eVars](evar.md) en [gebeurtenissen](events/events-overview.md). XDM die het voorbeeld hierboven weerspiegelt zou als het volgende kijken:
 
 Stel de eVar in op dezelfde of vorige gebeurtenisaanroep:
 
-```js
+```json
 "_experience": {
-    "analytics": {
-        "customDimensions": {
-            "eVars": {
-                "eVar1" : "Aviary"
-            }
-        }
+  "analytics": {
+    "customDimensions": {
+      "eVars": {
+        "eVar1" : "Aviary"
+      }
     }
+  }
 }
 ```
 
 Stel de bindingsgebeurtenis en -waarden voor de productreeks in:
 
-```js
+```json
 "commerce": {
-    "productViews" : {
-        "value" : 1
-    }
+  "productViews" : {
+    "value" : 1
+  }
 },
 "productListItems": [
-    {
-        "name": "Canary"
-    }
+  {
+    "name": "Canary"
+  }
 ]
+```
+
+Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md) De gegevensobjecten die het bovenstaande voorbeeld weerspiegelen, zien er als volgt uit:
+
+Stel de eVar in op dezelfde of vorige gebeurtenisaanroep:
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "eVar1": "Aviary"
+    }
+  }
+}
+```
+
+Stel de bindingsgebeurtenis en -waarden voor de productreeks in:
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "events": "prodView",
+      "products": ";Canary"
+    }
+  }
+}
 ```

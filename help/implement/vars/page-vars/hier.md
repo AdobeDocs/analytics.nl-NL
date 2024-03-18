@@ -4,9 +4,9 @@ description: Hiërarchievariabelen implementeren in Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Alvorens hiërarchieën in uw implementatie te gebruiken, zorg ervoor dat u elke
 
 ## Hiërarchieën die SDK van het Web gebruiken
 
-Hiërarchieën zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.hierarchies.hier1` tot `_experience.analytics.customDimensions.hierarchies.hier5`.
+Hiërarchieën zijn [toegewezen voor Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) onder de XDM-velden `xdm._experience.analytics.customDimensions.hierarchies.hier1` tot `xdm._experience.analytics.customDimensions.hierarchies.hier5`.
 
 ## Hiërarchieën die de Adobe Analytics-extensie gebruiken
 

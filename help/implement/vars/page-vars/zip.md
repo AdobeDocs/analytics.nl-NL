@@ -4,9 +4,9 @@ description: Vul handmatig de dimensie 'Postcode' in als de instellingen van de 
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ De `zip` met variabele kunt u de dimensie &#39;Postcode&#39; handmatig vullen al
 
 >[!IMPORTANT]
 >
->Zorg ervoor dat de [!UICONTROL Zip Option] in rapportsuite worden de instellingen ingesteld op de gewenste waarde. U kunt deze variabele niet gebruiken als [!UICONTROL geo zip] wordt altijd gebruikt. Zie [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de gebruikershandleiding voor Admin voor meer informatie.
+>Zorg ervoor dat de [!UICONTROL Zip Option] in rapportsuite worden de instellingen ingesteld op de gewenste waarde. U kunt deze variabele niet gebruiken als [!UICONTROL Geo zip] wordt altijd gebruikt. Zie [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de gebruikershandleiding voor Admin voor meer informatie.
+
+## Postcode die de Web SDK gebruikt
+
+Postcode wordt toegewezen aan de volgende variabelen:
+
+* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
+* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
 
 ## Postcode met Adobe Analytics-extensie
 
-U kunt Postcode instellen tijdens het configureren van de extensie Analytics (globale variabelen) of onder regels.
+U kunt Postcode instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste tageigenschap.

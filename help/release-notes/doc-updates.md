@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5174'
 ht-degree: 22%
@@ -141,7 +141,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Bijgewerkte documentatie voor stroomvisualisatie | Op basis van de [nieuwe interface](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentatie over het delen van annotaties in mobiele scorecards | U kunt [annotaties die zijn gemaakt in Workspace, in Mobile Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Mei 2022** | |
-| Vul de afmetingen en metriek van de levenscyclus door het Netwerk van de Rand | Gegevens over de mobiele levenscyclus die naar het Edge-netwerk worden verzonden, worden nu weergegeven in Analytics-rapportage. Zie [Variabeletoewijzing Analyse](/help/implement/aep-edge/variable-mapping.md) voor meer informatie over welke XDM-velden worden toegewezen aan de bestaande rapportage van de mobiele levenscyclus. |
+| Vul de afmetingen en metriek van de levenscyclus door het Netwerk van de Rand | Gegevens over de mobiele levenscyclus die naar het Edge-netwerk worden verzonden, worden nu weergegeven in Analytics-rapportage. Zie [Variabeletoewijzing Analyse](/help/implement/aep-edge/xdm-var-mapping.md) voor meer informatie over welke XDM-velden worden toegewezen aan de bestaande rapportage van de mobiele levenscyclus. |
 | **April 2022** | |
 | Adobe Analytics-bestemmingspagina-updates | Updates van de gemeenschappelijke [De landingspagina Werkruimte/Rapporten &amp; Analyse](/help/analyze/landing.md) dat de bruikbaarheid en het gemak van navigatie verbetert. |
 | Nieuw onderwerp over [!UICONTROL Page Summary] deelvenster | [Het deelvenster Paginaoverzicht](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
