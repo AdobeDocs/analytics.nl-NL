@@ -1,17 +1,17 @@
 ---
-title: Advertentie
+title: Advertentieplatform
 description: Zie de configuratie voor het geven van toestemming voor advertenties voor derden en providers.
 feature: Dimensions
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
-# Advertentie
+# Advertentieplatform
 
-De &#39;AD-instemming&#39; [dimensie](overview.md) geeft aan of toestemming is verzameld voor het verzenden van gegevens naar andere reclamebureaus, zoals Google, Meta en anderen.
+De &#39;AD Platform Consent&#39; [dimensie](overview.md) geeft aan of toestemming is verzameld voor het verzenden van gegevens naar andere reclamebureaus, zoals Google, Meta en anderen.
 
 Deze dimensie wordt momenteel alleen voor Google gebruikt. Op grond van de Europese privacywetgeving, de Digital Markets Act (DMA), eist Google dat gegevens die naar hun servers worden verzonden en in Europa worden verzameld, aangeven of toestemming wordt verzameld. Sommige klanten van Analytics verzenden gebeurtenisgegevens via Adobe Advertising als omzettingsgebeurtenissen naar Google.
 
@@ -52,7 +52,6 @@ U kunt de verzamelde gegevens en toestemmingsgegevens gebruiken:
 
 * Gegevensfeeds: de gegevens over de toestemming voor de advertentie zijn beschikbaar via de `dataprivacydmaconsent` [kolom](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Rapporten van Data Warehouse: de gegevens over de toestemming voor de advertentie zijn beschikbaar via de **[!UICONTROL Ad Platform Consent]** dimensie.
-
 
 Uw organisatie bepaalt de logica om deze variabele van contextgegevens uit te voeren. De waarde blijft niet behouden na de treffer waarop deze is ingesteld, dus u moet de variabele met de contextgegevens op elke pagina instellen.
 

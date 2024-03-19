@@ -3,16 +3,16 @@ description: Afmetingen van contentbeheer inschakelen.
 title: Privacyrapportage
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: d7e2667bc232435881107f31d25843ef224a96b2
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 1%
 
 ---
 
 # Privacy-rapportage
 
-Met privacyrapportage kunt u [Inschakelen voor beheer van toestemming](/help/components/dimensions/cm-opt-in.md), [Afmelden voor beheer van toestemming](/help/components/dimensions/cm-opt-out.md) en [Advertentie](/help/components//dimensions/ad-consent.md) afmetingen voor rapportage.
+Met privacyrapportage kunt u [Inschakelen voor beheer van toestemming](/help/components/dimensions/cm-opt-in.md), [Afmelden voor beheer van toestemming](/help/components/dimensions/cm-opt-out.md) en [Advertentieplatform](/help/components//dimensions/ad-consent.md) afmetingen voor rapportage.
 
 >[!NOTE]
 >
@@ -36,7 +36,3 @@ Deze pagina openen:
 1. Als deze optie is ingeschakeld, wordt een bevestigingsbericht weergegeven. De afmetingen zijn beschikbaar in rapporten.
 
    ![Rapport](assets/consent-management.png)
-
-## Dimensie advertentietoestemming
-
-De [Dimensie advertentietoestemming](/help/components/dimensions/ad-consent.md) geeft aan of toestemming is verzameld voor het verzenden van gegevens naar andere reclamebureaus, zoals Google, Meta en anderen.

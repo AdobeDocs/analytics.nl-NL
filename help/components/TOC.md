@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 5887202603b10d7058ef82a7ced28517bc1a7efa
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 + Dimensies {#dimensions}
    + [Overzicht van Dimensionen](dimensions/overview.md)
    + [Compatibiliteit van Dimensionen](dimensions/compatibility.md)
-   + [Advertentie](dimensions/ad-consent.md)
+   + [Advertentieplatform](dimensions/ad-consent.md)
    + [Alle zoekpaginanummers](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
    + [Bot-naam](dimensions/bot-name.md)
