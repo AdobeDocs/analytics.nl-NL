@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9636b8e4e8596449cb37bbab9bc46d660fac4a4b
+source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -50,6 +50,7 @@ AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN 
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
+| **13 maanden verlopen van opgeslagen`cust_visids`** | donderdag 20 maart 2024 | Een aanstaande versie van de Analytics Hit-verwerkingsengine, bedoeld voor april of mei, zal een 13 maanden durende vervaldatum van opgeslagen `cust_visids`. Als de rapportsuite &#39;Enable Visitor Stitching&#39; heeft ingeschakeld, wordt deze instelling gebruikt voor het zoeken van de `cust_visid` voor een `visid_high/visid_low value` zonder `cust_visid` op de hit. Er is momenteel geen vervaldatum voor de toewijzing van een `cust_visid` voor een `visid_high/visid_low`. Met deze release, als er sinds 13 maanden of meer verstreken zijn `visid_high/visid_low` heeft een `cust_visid` bij een hit zal de mapping verlopen . |
 | **Adobe API-objectlidtoevoegingen** | donderdag 17 januari 2024 | Adobe kan optionele aanvraag- en antwoordleden (naam/waardeparen) op elk gewenst moment en zonder kennisgeving of wijzigingen in versiebeheer toevoegen aan bestaande API-objecten. De Adobe raadt u aan de API-documentatie te raadplegen van alle hulpprogramma&#39;s van derden die u met onze API&#39;s integreert, zodat dergelijke toevoegingen tijdens de verwerking worden genegeerd, als ze niet worden begrepen. Als deze toevoegingen correct zijn geïmplementeerd, zijn ze vaste wijzigingen voor uw implementatie. De Adobe zal geen parameters verwijderen of vereiste parameters toevoegen zonder standaardbericht door versienota&#39;s eerst te verstrekken. |
 | **`getPageLoadTime`insteekmodule vervangen** | donderdag 10 januari 2024 | Deze plug-in wordt niet meer ondersteund. Zijn code gebruikt de performance.timing methode, die (volgens MDN) is geweest [verouderd](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). Het werk aan een bijgewerkte plug-in is begonnen. |
 
