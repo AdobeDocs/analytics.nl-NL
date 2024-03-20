@@ -2,9 +2,9 @@
 title: Advertentieplatform
 description: Zie de configuratie voor het geven van toestemming voor advertenties voor derden en providers.
 feature: Dimensions
-source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
+source-git-commit: ba892374710bc24c379e0c53e5fd00ff4c39d906
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ De &#39;AD Platform Consent&#39; [dimensie](overview.md) geeft aan of toestemmin
 
 Deze dimensie wordt momenteel alleen voor Google gebruikt. Op grond van de Europese privacywetgeving, de Digital Markets Act (DMA), eist Google dat gegevens die naar hun servers worden verzonden en in Europa worden verzameld, aangeven of toestemming wordt verzameld. Sommige klanten van Analytics verzenden gebeurtenisgegevens via Adobe Advertising als omzettingsgebeurtenissen naar Google.
 
-In de toekomst kan deze dimensie worden gebruikt ter ondersteuning van het coderen van aanvullende toestemmingsinformatie voor andere externe reclamebureaus.
+In de toekomst kan deze dimensie worden gebruikt ter ondersteuning van de codering van aanvullende toestemmingsinformatie voor andere derde reclamebureaus.
 
 ## Deze dimensie vullen met gegevens
 
