@@ -3,7 +3,7 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
+source-git-commit: b5d274b6b529737b2ad1d135599fe0b0dcf4bf2a
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Opmerkingen bij de huidige Adobe Analytics-release (maart 2024)
 
-**Laatste update**: 20 maart 2024
+**Laatste update**: 21 maart 2024
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 12 maart 2024 tot en met april 2024. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -26,7 +26,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 12 maart 2024 tot en
 | **Het gebruik van de Report Builder inbegrepen in de &quot;Gebruikte in&quot;kolom in het Berekende manager van metriek en de Manager van Segmenten** | Wanneer u de **Gebruikt in** in het Berekende metriesmanager of Segmentmanager, zijn de gebruiksgegevens nu beschikbaar voor de Report Builder.<p>Eerder, waren de gebruiksgegevens in de manager van Segmenten beschikbaar slechts voor Alarm, Projecten, Geplande Projecten en Berekende metriek; terwijl de gebruiksgegevens in de Berekende manager van metriek beschikbaar slechts voor Alarm, Projecten, en Geplande Projecten waren.</p> |  | Late maart of begin april |
 | **Dezelfde cloud-accounts gebruiken voor gegevensfeeds, -Data Warehouse en -classificatiesets** | Cloud-accounts en -locaties die u maakt, kunnen nu worden gebruikt voor het exporteren van gegevens (met gegevensfeeds en -Data Warehouse) en het importeren van gegevens (met classificatiesets).<p> **Wijzigingen bij het configureren van accounts:** Gebruikers kunnen cloudimport- en -exportaccounts configureren en cloudimport- en -exportlocaties configureren die voor de volgende doeleinden kunnen worden gebruikt:<ul><li>Gegevens importeren met classificatiesets</li><li>Gegevens exporteren met gegevensfeeds</li><li>Gegevens exporteren met Data Warehouse.</li></ul><p>**Wijzigingen bij het beheren van accounts**: Gebruikers kunnen de pagina Locaties (onder Componenten > Locaties) gebruiken om alle accounts en locaties die ze maken weer te geven en te beheren, ongeacht waar ze zijn gemaakt. <p>Eerder werd de pagina Locaties alleen toegepast op accounts die zijn gemaakt voor het importeren van gegevens met classificatiesets.</p> | | April 2024 |
 | **Beheerders kunnen alle locaties en accounts in hun organisatie beheren** | Met een nieuwe optie op het tabblad Locaties (op de pagina Componenten > Locaties) kunnen beheerders alle locaties in de organisatie weergeven en beheren.<p>Met een nieuwe optie op het tabblad Locatieaccounts (op de pagina Componenten > Locaties) kunnen beheerders alle accounts in de organisatie weergeven en beheren.</p> <p>Eerder konden beheerders alleen de locaties en accounts weergeven en beheren die ze hadden gemaakt.</p> |  | April 2024 |
-| **Activity Map gebruikt minder servervraag voor Web SDK** | Op dit moment worden koppelingsgebeurtenissen voor Activity Mappen als hun eigen gebeurtenissen geteld en extra kosten met zich meegebracht. <p>Deze verbetering neemt sommige verbindingsgebeurtenissen en verpakt hen in de volgende slag, gelijkend op hoe de gebeurtenissen door AppMeasurement worden behandeld.</p> |  | donderdag 3 april 2024 |
+| **Activity Map gebruikt minder servervraag voor Web SDK** | Op dit moment worden koppelingsgebeurtenissen voor Activity Mappen als hun eigen gebeurtenissen geteld en extra kosten met zich meegebracht. <p>Deze verbetering neemt sommige verbindingsgebeurtenissen en verpakt hen in de volgende slag, gelijkend op hoe de gebeurtenissen door AppMeasurement worden behandeld.</p> |  | woensdag 30 april 2024 |
 | **Toename in standaard laag-verkeersdrempels** | In **medio april 2024**, zal de Adobe beginnen verhogend de standaardrapportreeks laag-verkeersdrempels als volgt: ![laagverkeersdrempels](assets/thresholds.png) Dit zal alleen gevolgen hebben voor variabelen die momenteel onder de nieuwe drempelwaarden liggen. Deze veranderingen zullen geleidelijk worden doorgevoerd en wij verwachten dat het werk door de **eind mei**. Aangezien deze verhogingen worden uitgerold, kunt u veranderingen voor high-cardinality variabelen opmerken:<ul><li>Er kunnen meer waarden van dimensies beschikbaar zijn voor rapportage.</li><li>Segmenten en berekende metriek kunnen meer gegevens bevatten.</li><li>Virtuele rapportsuites die op segmenten worden gebaseerd kunnen meer gegevens omvatten.</li><li>De indeling van de uitvoer kan meer gegevens bevatten.</li></ul> | | medio april 2024 |
 
 {style="table-layout:auto"}
