@@ -4,9 +4,9 @@ title: Vrije-vormtabellen filteren en sorteren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
+source-git-commit: 398d4ae264ce108c16a03cef086ae2614b442a2b
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Met filters in Analysis Workspace kunt u de belangrijkste informatie doornemen.
 U kunt verschillende methoden gebruiken om rijen vanuit een vrije-vormtabel te filteren. 
 
 - Klik op de X in de rij
-- Klik met de rechtermuisknop > Geselecteerde rijen verwijderen
 - Tabelfilters
 - Segmentering
 
