@@ -3,9 +3,9 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Configureer rapportopties voor een Data Warehouse-verzoek
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen
 
 Om rapportopties voor een verzoek van de Data Warehouse te vormen:
 
-1. Begin met het maken van een aanvraag in Adobe Analytics door **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Toevoegen**].
+1. Als je nog geen aanvraag hebt ingediend, kun je een aanvraag maken in Adobe Analytics door **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Toevoegen**].
 
    Zie voor meer informatie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 

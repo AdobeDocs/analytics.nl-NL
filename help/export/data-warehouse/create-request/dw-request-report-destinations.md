@@ -3,9 +3,9 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '2438'
+source-wordcount: '2427'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen
 
 Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzonden:
 
-1. Begin met het maken van een aanvraag in Adobe Analytics door **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Toevoegen**].
+1. Als je nog geen aanvraag hebt ingediend, kun je een aanvraag maken in Adobe Analytics door **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Toevoegen**].
 
    Zie voor meer informatie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
@@ -182,10 +182,6 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
       {style="table-layout:auto"}
 
 +++
-
-   1. Selecteren [!UICONTROL **Opslaan**].
-
-      U kunt nu gegevens importeren naar de account en locatie die u hebt geconfigureerd.
 
 1. Ga door met het configureren van uw verzoek voor Data Warehouse op de [!UICONTROL **Rapportopties**] tab. Zie voor meer informatie [Configureer rapportopties voor een Data Warehouse-verzoek](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
