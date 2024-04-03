@@ -3,7 +3,7 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b3f2f503cabd45aebd3bc200c8f9abaeb033d419
+source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 12 maart 2024 tot en
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Wijzigen in verwijderingsprotocol voor Workspace-projecten** | Eerder werden verwijderde projecten nooit uit het systeem verwijderd. Na 180 dagen beginnen we verwijderde projecten te verwijderen. Tijdens de 180 dagen na schrapping, kunnen de gebruikers tot een project via de interface van het Web nog toegang hebben als zij een URL aan het directe project hebben. | | vrijdag 14 maart 2024 |
+| **Wijzigen in verwijderingsprotocol voor Workspace-projecten** | Eerder werden verwijderde projecten nooit uit het systeem verwijderd. Na 180 dagen beginnen we verwijderde projecten te verwijderen. Tijdens de 180 dagen na schrapping, kunnen de gebruikers tot een geschrapt project via de interface van het Web nog toegang hebben als zij een URL aan het project hebben. | | vrijdag 14 maart 2024 |
 | **AppMeasurement bijwerken** | [release van AppMeasurement v2.26.0](/help/implement/appmeasurement-updates.md) is beschikbaar. | | dinsdag 4 maart 2024 |
 | **Nieuwe kolom beschikbaar op de het landende pagina van Projecten** | De **[!UICONTROL Last used]** de kolom is nu beschikbaar wanneer het bekijken van het lusje van Projecten op [Adobe Analytics-landingspagina](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html). <p>Deze informatie kan u helpen bepalen of een project voor gebruikers in uw organisatie waardevol is door de datum en de tijd te tonen toen het project het laatst werd geopend.</p> <p>Eerder **[!UICONTROL Last used]** de kolom was beschikbaar slechts in het Berekende manager van metriek, de manager van Segmenten, en de manager van Alarm.</p> |  | donderdag 13 maart 2024 |
 | **Ondersteuning voor analyses van toestemmingsvlaggen die door Google voor DMA worden vereist** | Door de nieuwe Europese privacyregels eist Google dat gegevens die in Europa worden verzameld en aan hen zijn toegezonden, aangeven of twee specifieke soorten toestemming zijn verleend. **Vanaf 6 maart**, zal Google geen gegevens van gebeurtenissen meer accepteren die niet aangeven dat de desbetreffende toestemming is verleend. Adobe Analytics heeft ondersteuning beschikbaar gesteld voor het vastleggen van deze gegevens via een nieuwe adConsent-variabele. U kunt de nieuwe variabele zien die in [Gebruikersinterface voor privacyrapportage](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md). Als u dit wilt activeren en de privacy al ingeschakeld hebt voor de vorige toestemmingsvariabelen, moet u de privacy opnieuw inschakelen.<p>De [Dimensie platforminstemming toevoegen](/help/components/dimensions/ad-consent.md) geeft aan of er toestemming is verzameld om gegevens naar derde reclamebureaus zoals Google te sturen. |  | donderdag 13 maart 2024 |
