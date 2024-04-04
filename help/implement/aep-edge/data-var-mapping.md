@@ -1,11 +1,12 @@
 ---
 title: Gegevensobjectvariabele toewijzen aan Adobe Analytics
-description: Geef aan welke gegevensobjectvelden door Edge automatisch worden toegewezen aan analytische variabelen.
+description: Geef aan welke gegevensobjectvelden Experience Platform Edge automatisch wordt toegewezen aan analytische variabelen.
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
+source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 In de volgende tabel staan de gegevensobjectvariabelen die het Adobe Experience Platform Edge Network automatisch toewijst aan Adobe Analytics. Als u deze paden voor gegevensobjectvelden gebruikt, is er geen extra configuratie nodig om gegevens naar Adobe Analytics te verzenden.
 
-U wordt aangeraden deze velden te gebruiken als u in de toekomst Customer Journey Analytics wilt gebruiken. Deze implementatiemethode staat uw organisatie toe om gegevens naar Adobe te verzenden gebruikend het Web SDK zonder zich aan een XDM schema in overeenstemming te brengen. Als uw organisatie klaar is om gegevens naar Adobe Experience Platform te verzenden, kunt u [DataStream-toewijzing](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) om gegevensobjectvelden te wijzen naar hun respectievelijke XDM-velden.
+U wordt aangeraden deze velden te gebruiken als u in de toekomst Customer Journey Analytics wilt gebruiken. Deze implementatiemethode staat uw organisatie toe om gegevens naar Adobe te verzenden gebruikend het Web SDK zonder zich aan een schema XDM in overeenstemming te brengen. Als uw organisatie klaar is om gegevens naar Adobe Experience Platform te verzenden, kunt u [DataStream-toewijzing](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) om gegevensobjectvelden te wijzen naar hun respectievelijke XDM-velden.
 
 ## Waardeprioriteiten
 
