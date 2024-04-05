@@ -4,9 +4,9 @@ description: Geef aan welke gegevensobjectvelden Experience Platform Edge automa
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
+source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,6 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | `data.__adobe.analytics.referrer` | De [Referenter](/help/components/dimensions/referrer.md) dimensie. |
 | `data.__adobe.analytics.resolution` | De [Monitorresolutie](../../components/dimensions/monitor-resolution.md) dimensie. Het stenoveld `data.__adobe.analytics.s` wordt ook ondersteund. |
 | `data.__adobe.analytics.server` | De [Server](/help/components/dimensions/server.md) dimensie. |
-| `data.__adobe.analytics.tnta` | Wordt gebruikt in A4T-integratie. |
 | `data.__adobe.analytics.transactionID` | De [`transactionID`](../vars/page-vars/transactionid.md) uitvoeringsvariabele. Het stenoveld `data.__adobe.analytics.xact` wordt ook ondersteund. |
 | `data.__adobe.analytics.zip` | De [Postcode](../../components/dimensions/zip-code.md) dimensie. |
 
