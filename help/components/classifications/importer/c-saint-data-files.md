@@ -3,9 +3,9 @@ description: Met de importer kunt u classificatiegegevens bulksgewijs uploaden n
 title: Classificatiegegevensbestanden
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: eb6703dc4079678020954984905ee210cbcbbf8f
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Een gegevensbestand moet aan de volgende structuurregels voldoen:
 
 * Classificaties kunnen geen invoegpunt (^) bevatten omdat dit teken wordt gebruikt om een subclassificatie aan te duiden.
 * Wees voorzichtig met het gebruik van een afbreekstreepje. Als u bijvoorbeeld een afbreekstreepje (-) gebruikt in een sociale term, wordt het afbreekstreepje herkend als een [!DNL Not] operator (het minteken). Als u bijvoorbeeld *`fragrance-free`* Als term die de invoer gebruikt, erkent Social de term als geurstof *`minus`* gratis en verzamelt publicaties die *`fragrance`*, maar niet *`free`*.
-* De grenzen van het karakter worden afgedwongen om rapportgegevens te classificeren. Als u bijvoorbeeld een tekstbestand voor classificaties uploadt voor producten ( *`s.products`*) met productnamen van meer dan 100 tekens (bytes), worden de producten niet weergegeven in de rapportage. Met volgcodes en alle aangepaste conversievariabelen (eVars) zijn 255 bytes mogelijk.
+* De grenzen van het karakter worden afgedwongen om rapportgegevens te classificeren. Als u bijvoorbeeld een tekstbestand voor classificaties uploadt voor producten ( *`s.products`*) met productnamen van meer dan 100 tekens (bytes), worden de producten niet weergegeven in de rapportage. Met volgcodes en alle aangepaste conversievariabelen (eVars) zijn 255 bytes mogelijk. Dit beleid strekt zich ook tot classificatie en sub-classificatie kolomwaarden uit, die aan de zelfde 255 bytelimiet onderworpen zijn.
 * Door tabs gescheiden gegevensbestand (maak het sjabloonbestand met een spreadsheettoepassing of teksteditor).
 * Ofwel [!DNL .tab] of [!DNL .txt] bestandsextensie.
 * Een hekje (#) identificeert de lijn als gebruikerscommentaar. Adobe negeert om het even welke lijn die met # begint.
