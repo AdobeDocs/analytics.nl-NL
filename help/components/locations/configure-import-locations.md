@@ -1,43 +1,52 @@
 ---
 description: De cloud-importaccount configureren en de locatie waar classificatiegegevens kunnen worden geüpload
 keywords: Analysis Workspace
-title: Cloudimportlocaties configureren
+title: Locaties voor het importeren en exporteren van cloud configureren
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
+source-git-commit: c81f0b8dffe07789fce1dda6efcb5ce17406be71
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 1%
+source-wordcount: '1117'
+ht-degree: 0%
 
 ---
 
-# Cloudimportlocaties configureren
+# Locaties voor het importeren en exporteren van cloud configureren
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-Voordat u Adobe Analytics-classificatiegegevens kunt importeren vanuit een cloudbestemming, moet u de account en de locatie binnen die account toevoegen en configureren waar u de classificatiegegevens wilt verzamelen.
+U kunt een cloudaccount (en een locatie op dat account) configureren. Eén locatie kan worden gebruikt voor elk van de volgende doeleinden (een enkele locatie kan niet worden gekoppeld aan meerdere doelen, zoals Gegevensfeeds en Data Warhouse, of Data Warehouse- en classificatiesets):
 
-Dit proces bestaat uit het toevoegen en configureren van de account (zoals Amazon S3 Role ARN, Google Cloud Platform enzovoort) en de locatie binnen de account (zoals een map binnen de account).
+* Bestanden exporteren met [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md)
+* Rapporten exporteren met [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Schema&#39;s importeren met [Classificatiesets](/help/components/classifications/sets/overview.md)
 
-Een locatie voor cloudimport configureren:
+U moet Adobe Analytics configureren met de benodigde informatie voor toegang tot uw cloud-account. Dit proces bestaat uit het toevoegen en configureren van de account (zoals Amazon S3 Role ARN, Google Cloud Platform enzovoort) zoals beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md)en vervolgens de locatie binnen die account toevoegen en configureren (zoals beschreven in dit artikel).
 
-1. U moet een account toevoegen voordat u een locatie kunt toevoegen. Voeg een account toe zoals beschreven in [Cloud-importaccounts configureren](/help/components/locations/configure-import-accounts.md).
+Een nieuwe locatie voor het importeren of exporteren van wolken configureren of een bestaande locatie bewerken:
+
 1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Locaties**].
 1. Op de [!UICONTROL Locations] pagina, selecteert u de [!UICONTROL **Locaties**] tab.
-1. Selecteren [!UICONTROL **Locatie toevoegen**]. <!-- add screenshot? -->
+1. Als u een nieuwe locatie wilt maken, selecteert u [!UICONTROL **Locatie toevoegen**]. (Als u nog geen account hebt toegevoegd, voegt u een account toe zoals beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md).)
 
-   Het dialoogvenster Locatie wordt weergegeven.
-1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de rekening om deze te kunnen onderscheiden van andere rekeningen van hetzelfde type. | | [!UICONTROL **Locatieaccount**] | Selecteer de locatie-account waarin u hebt gemaakt [Een account toevoegen](#add-an-account). |
+   of
+
+   Als u een bestaande locatie wilt bewerken, selecteert u het menu met drie punten in het dialoogvenster [!UICONTROL **Locatienaam**] kolom voor de locatie die u wilt bewerken, selecteert u [!UICONTROL **Bewerken**].
+Het dialoogvenster Locatie wordt weergegeven.
+
+1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Gebruiken met**] | Selecteer of u deze locatie wilt gebruiken met [!UICONTROL **Gegevensfeeds**], [!UICONTROL **Data Warehouse**], of [!UICONTROL **Classificatiesets**]. <p>Houd rekening met het volgende wanneer u een selectie maakt:</p><ul><li>Eén locatie kan niet voor meerdere doeleinden worden gebruikt. Een locatie die bijvoorbeeld wordt gebruikt voor gegevensfeeds, kan niet ook worden gebruikt voor Data Warehouse- of classificatiesets.</li><li>Wijzig de waarde van de optie [!UICONTROL **Gebruiken met**] veld nadat de locatie is gebruikt.</li></ul> | | [!UICONTROL **Locatieaccount**] | Selecteer de locatie waar u deze locatie wilt maken. Voor informatie over het maken van een account raadpleegt u [Een account toevoegen](#add-an-account). |
 
 1. In de [!UICONTROL **Locatie-eigenschappen**] in, geeft u specifieke informatie op over het accounttype van uw locatieaccount.
 
-   Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met het accounttype dat u in het dialoogvenster [!UICONTROL **Locatieaccounts**] veld.
+   Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met het accounttype dat u in het dialoogvenster [!UICONTROL **Locatieaccounts**] veld. (Aanvullende oudere accounttypen zijn ook beschikbaar, maar worden niet aanbevolen.)
+
+   **Accounttypen**
 
    +++Amazon S3 Role ARN
 
    Geef de volgende informatie op om een ARN-locatie voor Amazon S3 Role te configureren:
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Naam van emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. |
    | [!UICONTROL **Voorvoegsel toets**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
@@ -48,9 +57,9 @@ Een locatie voor cloudimport configureren:
 
    +++Google Cloud Platform
 
-   Geef de volgende informatie op om een locatie voor een Google Cloud Platform te configureren:
+   Geef de volgende informatie op om een locatie voor een Google Cloud-platform te configureren:
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Naam van emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. Zorg ervoor dat u aan Opdrachtgever toestemming hebt verleend die door Adobe wordt verstrekt om dossiers aan dit emmertje te uploaden. |
    | [!UICONTROL **Voorvoegsel toets**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
@@ -63,10 +72,10 @@ Een locatie voor cloudimport configureren:
 
    Geef de volgende informatie op om een Azure SAS-locatie te configureren:
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Containernaam**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. |
-   | [!UICONTROL **Voorvoegsel toets**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+   | [!UICONTROL **Voorvoegsel toets**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -76,21 +85,94 @@ Een locatie voor cloudimport configureren:
 
    Geef de volgende informatie op om een Azure RBAC-locatie te configureren:
 
-   | Veld | -functie |
+   | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Containernaam**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat u machtigingen verleent om bestanden te uploaden naar de Azure-toepassing die u eerder hebt gemaakt. |
-   | [!UICONTROL **Voorvoegsel toets**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
+   | [!UICONTROL **Voorvoegsel toets**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
    | [!UICONTROL **Accountnaam**] | De Azure-opslagaccount. |
 
    {style="table-layout:auto"}
 
 +++
 
+   **Oudere accounttypen**
+
+   Deze oudere accounttypen zijn alleen beschikbaar wanneer u gegevens exporteert met [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md) en [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Deze opties zijn niet beschikbaar wanneer u gegevens importeert met [Classificatiesets](/help/components/classifications/sets/manage/schema.md).
+
+   +++FTP
+
+   Gegevens over gegevenstoevoer kunnen naar een door de Adobe of klant gehoste FTP-locatie worden verzonden. Geef de map op. Gebruik het veld Pad om feed-bestanden in een map te plaatsen.
+
+   | Veld | Functie |
+   |---------|----------|
+   | [!UICONTROL **Directorypad**] | Voer het pad naar de map op de FTP-server in. Mappen moeten al bestaan; feeds genereren een fout als het opgegeven pad niet bestaat. </br>Bijvoorbeeld: `/folder_name/folder_name`. |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++SFTP
+
+   Gegevens over gegevenstoevoer kunnen worden geleverd aan een Adobe of door de klant gehoste SFTP-locatie. De bestemmingsplaats moet een geldige RSA of DSA openbare sleutel bevatten. U kunt de juiste openbare sleutel downloaden wanneer u de feed maakt.
+
+   | Veld | Functie |
+   |---------|----------|
+   | [!UICONTROL **Directorypad**] | Voer het pad naar de map op de FTP-server in. Mappen moeten al bestaan; feeds genereren een fout als het opgegeven pad niet bestaat. </br>Bijvoorbeeld: `/folder_name/folder_name`. |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++S3
+
+   U kunt opslaggegevens rechtstreeks naar Amazon S3 emmers verzenden. Dit bestemmingstype vereist een naam van het Emmertje, een Zeer belangrijke identiteitskaart van de Toegang, en een Geheime Sleutel. Zie [Amazon S3-vereisten voor emmernaamgeving](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in de Amazon S3-documenten voor meer informatie.
+
+   De gebruiker u voor het uploaden gegevens van het gegevenspakhuis verstrekt moet het volgende hebben: [machtigingen](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+   * s3:GetObject
+   * s3:PutObject
+   * s3:PutObjectAcl
+
+   De volgende 16 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het juiste handtekeningalgoritme wordt gebruikt):
+
+   * us-East-2
+   * us-oost-1
+   * us-west-1
+   * us-west-2
+   * ap-zuid-1
+   * ap-northeast-2
+   * ap-zuidoost-1
+   * ap-zuidoost-2
+   * ap-northeast-1
+   * ca-centraal-1
+   * EU-centraal-1
+   * EU-west-1
+   * EU-west-2
+   * eu-west-3
+   * eu-noord-1
+   * sa-Oost-1
+
+   >[!NOTE]
+   >
+   >De regio cn-North-1 wordt niet ondersteund.
+
++++
+
+   +++Azure Blob
+
+   De steun van het pakhuis van gegevens Azure Blob bestemmingen. Hiervoor is een container, account en sleutel vereist. Amazon versleutelt de gegevens automatisch in rust. Wanneer u de gegevens downloadt, worden deze automatisch gedecodeerd. Zie [Een opslagaccount maken](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in de Microsoft Azure-documenten voor meer informatie.
+
+   >[!NOTE]
+   >
+   >U moet uw eigen proces uitvoeren om schijfruimte op de bestemming van het gegevenspakhuis te beheren. Adobe verwijdert geen gegevens van de server.
+
++++
+
 1. Selecteren [!UICONTROL **Opslaan**].
 
-   U kunt nu gegevens importeren van de account en locatie die u hebt geconfigureerd.
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd.
 
-   Gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
+   Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
    >[!NOTE]
    >

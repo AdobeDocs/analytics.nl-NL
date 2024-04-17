@@ -3,9 +3,9 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: b960aaa60569d65cb8501cf041341a3a132929b1
 workflow-type: tm+mt
-source-wordcount: '2427'
+source-wordcount: '2581'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,19 @@ Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen
 >
 >Overweeg het volgende wanneer het vormen van een rapportbestemming:
 >
->* We raden u aan een cloudaccount of e-mailbericht te gebruiken voor uw rapportbestemming. Oudere FTP- en SFTP-accounts zijn beschikbaar, maar worden niet aanbevolen.
+>* We raden u aan een cloudaccount of e-mailbericht te gebruiken voor uw rapportbestemming. [Oudere FTP- en SFTP-accounts](#legacy-destinations) zijn beschikbaar, maar worden niet aanbevolen.
 >
->* Alle cloudaccounts waarvoor u eerder hebt geconfigureerd [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md) of voor [Adobe Analytics-classificatiegegevens importeren](/help/components/locations/locations-manager.md) zijn beschikbaar voor gebruik voor Data Warehouse. Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt.
+>* Alle cloudaccounts die u eerder hebt geconfigureerd, kunnen voor Data Warehouse worden gebruikt. U kunt cloudaccounts op de volgende manieren configureren:
+>
+>   * Bij configureren [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md)
+>   
+>   * Wanneer [Adobe Analytics-classificatiegegevens importeren](/help/components/locations/locations-manager.md) (Accounts kunnen worden gebruikt, maar elke locatie die op die accounts is geconfigureerd, kan niet worden gebruikt.)
+>   
+>   * Vanuit het Locatiebeheer, in [Componenten > Locaties](/help/components/locations/configure-import-accounts.md).
 >
 >* Cloud-accounts zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Andere gebruikers kunnen geen cloudaccounts gebruiken of weergeven die u configureert.
 >
+>* U kunt alle locaties bewerken die u maakt met Locatiebeheer in [Componenten > Locaties](/help/components/locations/configure-import-accounts.md)
 
 Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzonden:
 
@@ -37,17 +44,27 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
    ![Tabblad Doel rapporteren](assets/dw-report-destination.png)
 
-1. (Voorwaardelijk) als een rekening (en een bestemming op die rekening) reeds is gevormd die u als uw rapportbestemming wilt gebruiken:
+1. (Voorwaardelijk) als een cloudaccount (en een bestemming voor die account) al in Adobe Analytics is geconfigureerd, kunt u dit als uw rapportbestemming gebruiken:
 
-   1. (Optioneel) Als u systeembeheerder bent, [!UICONTROL **Alle doelen tonen**] is beschikbaar. Schakel deze optie in als u toegang wilt hebben tot alle accounts en locaties die door een gebruiker in de organisatie zijn gemaakt.
+   >[!NOTE]
+   >
+   >De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie werden gedeeld u een deel van bent.
+   >
+   >Als u systeembeheerder bent, [!UICONTROL **Alle doelen tonen**] is beschikbaar. Schakel deze optie in als u toegang wilt hebben tot alle accounts en locaties die door een gebruiker in de organisatie zijn gemaakt.
 
    1. Selecteer de account in het menu [!UICONTROL **Account selecteren**] vervolgkeuzelijst.
 
-      Willekeurige wolkenaccounts waarvoor u hebt geconfigureerd [Adobe Analytics-classificatiegegevens importeren](/help/components/locations/locations-manager.md) vanuit een wolkenbestemming wordt hier weergegeven en kan worden gebruikt. Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
+      Alle cloudaccounts die u hebt geconfigureerd in een van de volgende Adobe Analytics-domeinen kunnen worden gebruikt:
+
+      * Bij het importeren van Adobe Analytics-classificatiegegevens, zoals beschreven in [Schema](/help/components/classifications/sets/manage/schema.md).
+
+        Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
+
+      * Bij het configureren van accounts en locaties in het gebied Locaties, zoals wordt beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md) en [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
 
    1. Selecteer in het menu van het menu [!UICONTROL **Doel selecteren**] vervolgkeuzelijst. <!-- Is this correct? -->
 
-1. (Voorwaardelijk) Als u nog geen account hebt geconfigureerd:
+1. (Voorwaardelijk) Als u geen toegang hebt tot een cloudaccount die al in Adobe Analytics is geconfigureerd, kunt u een account configureren:
 
    1. Selecteren [!UICONTROL **Account toevoegen**] en geeft u de volgende informatie op:
 
@@ -136,7 +153,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Naam van emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, de `S3:PutObject` toestemming om bestanden naar dit emmertje te uploaden. Met deze machtiging kan de ARN-gebruiker initiële bestanden uploaden en bestanden overschrijven voor volgende uploads.</p> |
+      | [!UICONTROL **Naam van emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, de `S3:PutObject` toestemming om bestanden naar dit emmertje te uploaden. Met deze machtiging kan de ARN-gebruiker initiële bestanden uploaden en bestanden overschrijven voor volgende uploads.</p><p>Emmernamen moeten voldoen aan specifieke naamgevingsregels. Ze moeten bijvoorbeeld tussen 3 en 63 tekens lang zijn, ze mogen alleen bestaan uit kleine letters, cijfers, puntjes (.) en afbreekstreepjes (-) en ze moeten beginnen en eindigen met een letter of getal. [Een volledige lijst met naamgevingsregels is beschikbaar in de documentatie van AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **Voorvoegsel toets**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
 
       {style="table-layout:auto"}
@@ -145,7 +162,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       +++Google Cloud Platform
 
-      Geef de volgende informatie op om een locatie voor een Google Cloud Platform te configureren:
+      Geef de volgende informatie op om een locatie voor een Google Cloud-platform te configureren:
 
       | Veld | Functie |
       |---------|----------|

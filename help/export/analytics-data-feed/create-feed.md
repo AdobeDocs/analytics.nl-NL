@@ -3,9 +3,9 @@ title: Een gegevensfeed maken
 description: Leer hoe u een gegevensfeed maakt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
+source-git-commit: 0cd9f21771acd634ad8389882c2cc48c9a7fce6f
 workflow-type: tm+mt
-source-wordcount: '3344'
+source-wordcount: '4039'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
 >[!NOTE]
 >
->Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van gegevensvoer te hebben en ervoor te zorgen dat u aan alle noodzakelijke voorwaarden voldoet. Zie voor meer informatie [Overzicht van gegevensfeeds](data-feed-overview.md).
+>Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van gegevensvoer te hebben en ervoor te zorgen dat u aan alle voorwaarden voldoet. Zie voor meer informatie [Overzicht van gegevensfeeds](data-feed-overview.md).
 
 ## Een gegevensfeed maken en configureren
 
@@ -39,7 +39,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
    | [!UICONTROL **Naam**] | De naam van de gegevensinvoer. Moet uniek zijn binnen de geselecteerde rapportreeks, en kan tot 255 karakters in lengte zijn. |
    | [!UICONTROL **Rapportsuite**] | De rapportsuite waarop de gegevensinvoer is gebaseerd. Als de veelvoudige gegevensvoer voor de zelfde rapportreeks wordt gecreeerd, moeten zij verschillende kolomdefinities hebben. Alleen bronrapportsuites ondersteunen gegevensfeeds; virtuele rapportsuites worden niet ondersteund. |
    | [!UICONTROL **E-mail indien voltooid**] | Het e-mailadres dat moet worden gemeld wanneer een feed de verwerking heeft voltooid. Het e-mailadres moet correct zijn opgemaakt. |
-   | [!UICONTROL **Feed-interval**] | Selecteren **Dagelijks** voor back-up of historische gegevens. De dagelijkse voer bevat een volledige waarde van de dag van gegevens, van middernacht aan middernacht in de tijdzone van de rapportreeks.  Selecteren **Uur** voor doorlopende gegevens (Daily is ook beschikbaar voor doorlopende feeds, indien gewenst). Uurfeeds bevatten gegevens van één uur. |
+   | [!UICONTROL **Feed-interval**] | Selecteren **Dagelijks** voor back-up of historische gegevens. De dagelijkse voer bevat een volledige waarde van de dag van gegevens, van middernacht aan middernacht in de tijdzone van de rapportreeks. Selecteren **Uur** voor doorlopende gegevens (Daily is ook beschikbaar voor doorlopende feeds, indien gewenst). Uurfeeds bevatten gegevens van één uur. |
    | [!UICONTROL **Vertraging bij verwerking**] | Wacht een bepaalde hoeveelheid tijd alvorens een dossier van de gegevensvoer te verwerken. Een vertraging kan handig zijn om mobiele implementaties de mogelijkheid te geven om offlineapparaten online te komen en gegevens te verzenden. Het kan ook worden gebruikt om de server-zijprocessen van uw organisatie in het beheren van eerder verwerkte dossiers aan te passen. In de meeste gevallen is geen uitstel nodig. Een diervoeder kan maximaal 120 minuten worden uitgesteld. |
    | [!UICONTROL **Begin- en einddatum**] | De begindatum geeft de datum aan waarop de gegevensinvoer moet beginnen. Als u onmiddellijk wilt beginnen met het verwerken van gegevensfeeds voor historische gegevens, stelt u deze datum in op een datum in het verleden waarop gegevens worden verzameld. De begin en einddata zijn gebaseerd op de tijdzone van de rapportreeks. |
    | [!UICONTROL **Doorlopende diervoeders**] | Met dit selectievakje wordt de einddatum verwijderd, zodat een feed voor onbepaalde tijd kan worden uitgevoerd. Als een feed de verwerking van historische gegevens heeft voltooid, wacht een feed tot de gegevens een bepaald uur of een bepaalde dag zijn verzameld. Zodra het huidige uur of de dag eindigt, begint de verwerking na de gespecificeerde vertraging. |
@@ -51,9 +51,17 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
    >Overweeg het volgende wanneer het vormen van een rapportbestemming:
    >
    >* We raden u aan een cloudaccount te gebruiken voor uw rapportbestemming. [Oudere FTP- en SFTP-accounts](#legacy-destinations) zijn beschikbaar, maar worden niet aanbevolen.
+   >* Alle cloudaccounts die u eerder hebt geconfigureerd, kunnen worden gebruikt voor gegevensfeeds. U kunt cloudaccounts op de volgende manieren configureren:
+   >
+   >   * Bij het configureren van cloudaccounts voor [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+   >   
+   >   * Wanneer [Adobe Analytics-classificatiegegevens importeren](/help/components/locations/locations-manager.md) (Om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd kunnen niet worden gebruikt.)
+   >   
+   >   * Vanuit het Locatiebeheer, in [Componenten > Locaties](/help/components/locations/configure-import-accounts.md)
    >
    >* Cloud-accounts zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Andere gebruikers kunnen geen cloudaccounts gebruiken of weergeven die u configureert.
    >
+   >* U kunt alle locaties bewerken die u maakt met Locatiebeheer in [Componenten > Locaties](/help/components/locations/configure-import-accounts.md)
 
    ![Vervolgkeuzemenu bestemming gegevenstoevoer](assets/datafeed-destinations-dropdown.png)
 
@@ -67,7 +75,9 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
    Een Amazon S3 emmertje als bestemming voor een gegevensvoer vormen:
 
-   1. In de Adobe Analytics-beheerconsole, in de [!UICONTROL **Doel**] sectie, selecteert u [!UICONTROL **Amazon S3**].
+   1. Beginnen met het maken van een gegevensfeed zoals beschreven in [Een gegevensfeed maken en configureren](#create-and-configure-a-data-feed).
+
+   1. In de [!UICONTROL **Doel**] in de [!UICONTROL **Type**] vervolgkeuzelijst, selecteert u [!UICONTROL **Amazon S3**].
 
       ![Amazon S3-bestemming](assets/datafeed-destination-amazons3.png)
 
@@ -75,15 +85,27 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       De pagina Amazon S3 Exportlocaties wordt weergegeven.
 
-   1. (Voorwaardelijk) Als u eerder een Amazon S3-account en -locatie hebt toegevoegd:
+   1. (Voorwaardelijk) Als er al een Amazon S3-account (en een locatie op die account) is geconfigureerd in Adobe Analytics, kunt u deze gebruiken als de bestemming van de gegevensfeed:
+
+      >[!NOTE]
+      >
+      >De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie werden gedeeld u een deel van bent.
 
       1. Selecteer de account in het menu [!UICONTROL **Account selecteren**] vervolgkeuzelijst.
+
+         Alle cloudaccounts die zijn geconfigureerd in een van de volgende Adobe Analytics-domeinen kunnen worden gebruikt:
+
+         * Bij het importeren van Adobe Analytics-classificatiegegevens, zoals beschreven in [Schema](/help/components/classifications/sets/manage/schema.md).
+
+           Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
+
+         * Bij het configureren van accounts en locaties in het gebied Locaties, zoals wordt beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md) en [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
 
       1. Selecteer de locatie in het menu [!UICONTROL **Locatie selecteren**] vervolgkeuzelijst.
 
       1. Selecteren [!UICONTROL **Opslaan**] > [!UICONTROL **Opslaan**].
 
-         De bestemming wordt nu gevormd om gegevens naar de Amazon S3 plaats te verzenden die u specificeerde.
+      De bestemming wordt nu gevormd om gegevens naar de Amazon S3 plaats te verzenden die u specificeerde.
 
    1. (Voorwaardelijk) Als u nog geen Amazon S3-account hebt toegevoegd:
 
@@ -104,7 +126,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
          |---------|----------|
          | [!UICONTROL **Naam**] | Een naam voor de account. |
          | [!UICONTROL **Beschrijving**] | Een beschrijving voor de account. |
-         | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, de `S3:PutObject` toestemming om bestanden naar dit emmertje te uploaden. Met deze machtiging kan de ARN-gebruiker initiële bestanden uploaden en bestanden overschrijven voor volgende uploads.</p> |
+         | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, de `S3:PutObject` toestemming om bestanden naar dit emmertje te uploaden. Met deze machtiging kan de ARN-gebruiker initiële bestanden uploaden en bestanden overschrijven voor volgende uploads.</p><p>Emmernamen moeten voldoen aan specifieke naamgevingsregels. Ze moeten bijvoorbeeld tussen 3 en 63 tekens lang zijn, ze mogen alleen bestaan uit kleine letters, cijfers, puntjes (.) en afbreekstreepjes (-) en ze moeten beginnen en eindigen met een letter of getal. [Een volledige lijst met naamgevingsregels is beschikbaar in de documentatie van AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
          | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
 
          {style="table-layout:auto"}
@@ -112,6 +134,8 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
       1. Selecteren [!UICONTROL **Maken**] > [!UICONTROL **Opslaan**].
 
          De bestemming wordt nu gevormd om gegevens naar de Amazon S3 plaats te verzenden die u specificeerde.
+
+      1. (Voorwaardelijk) Als u de bestemming (account en locatie) moet beheren die u net hebt gemaakt, is deze beschikbaar in het dialoogvenster [Locatiebeheer](/help/components/locations/locations-manager.md).
 
 +++
 
@@ -125,7 +149,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       Raadpleeg voor meer informatie de [Microsoft Azure-documentatie over het maken van een Azure Active Directory-toepassing](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
-   1. In de Adobe Analytics-beheerconsole, in de [!UICONTROL **Doel**] sectie, selecteert u [!UICONTROL **Azure RBAC**].
+   1. In de Adobe Analytics-beheerconsole, in de [!UICONTROL **Doel**] in de [!UICONTROL **Type**] vervolgkeuzelijst, selecteert u [!UICONTROL **Azure RBAC**].
 
       ![Azure RBAC-bestemming](assets/datafeed-destination-azurerbac.png)
 
@@ -133,9 +157,21 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       De pagina Azure RBAC Export Locations wordt weergegeven.
 
-   1. (Voorwaardelijk) Als u eerder een Azure RBAC-account en -locatie hebt toegevoegd:
+   1. (Voorwaardelijk) Als er al een Azure RBAC-account (en een locatie op die account) is geconfigureerd in Adobe Analytics, kunt u deze gebruiken als bestemming voor de gegevensinvoer:
+
+      >[!NOTE]
+      >
+      >De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie werden gedeeld u een deel van bent.
 
       1. Selecteer de account in het menu [!UICONTROL **Account selecteren**] vervolgkeuzelijst.
+
+      Alle cloudaccounts die u hebt geconfigureerd in een van de volgende Adobe Analytics-domeinen kunnen worden gebruikt:
+
+      * Bij het importeren van Adobe Analytics-classificatiegegevens, zoals beschreven in [Schema](/help/components/classifications/sets/manage/schema.md).
+
+        Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
+
+      * Bij het configureren van accounts en locaties in het gebied Locaties, zoals wordt beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md) en [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
 
       1. Selecteer de locatie in het menu [!UICONTROL **Locatie selecteren**] vervolgkeuzelijst.
 
@@ -173,6 +209,8 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
          De bestemming wordt nu gevormd om gegevens naar de Azure plaats te verzenden RBAC die u specificeerde.
 
+      1. (Voorwaardelijk) Als u de bestemming (account en locatie) moet beheren die u net hebt gemaakt, is deze beschikbaar in het dialoogvenster [Locatiebeheer](/help/components/locations/locations-manager.md).
+
 +++
 
    +++Azure SAS
@@ -193,9 +231,21 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       De Azure SAS Export Locations-pagina wordt weergegeven.
 
-   1. (Voorwaardelijk) Als u eerder een Azure SAS-account en -locatie hebt toegevoegd:
+   1. (Voorwaardelijk) Als er al een Azure SAS-account (en een locatie op die account) is geconfigureerd in Adobe Analytics, kunt u dit gebruiken als de bestemming van de gegevensfeed:
+
+      >[!NOTE]
+      >
+      >De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie werden gedeeld u een deel van bent.
 
       1. Selecteer de account in het menu [!UICONTROL **Account selecteren**] vervolgkeuzelijst.
+
+         Alle cloudaccounts die u hebt geconfigureerd in een van de volgende Adobe Analytics-domeinen kunnen worden gebruikt:
+
+         * Bij het importeren van Adobe Analytics-classificatiegegevens, zoals beschreven in [Schema](/help/components/classifications/sets/manage/schema.md).
+
+           Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
+
+         * Bij het configureren van accounts en locaties in het gebied Locaties, zoals wordt beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md) en [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
 
       1. Selecteer de locatie in het menu [!UICONTROL **Locatie selecteren**] vervolgkeuzelijst.
 
@@ -234,6 +284,8 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
          De bestemming is nu geconfigureerd voor het verzenden van gegevens naar de door u opgegeven Azure SAS-locatie.
 
+      1. (Voorwaardelijk) Als u de bestemming (account en locatie) moet beheren die u net hebt gemaakt, is deze beschikbaar in het dialoogvenster [Locatiebeheer](/help/components/locations/locations-manager.md).
+
 +++
 
    +++Google Cloud Platform
@@ -252,15 +304,27 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
       De pagina GCP-exportlocaties wordt weergegeven.
 
-   1. (Voorwaardelijk) Als u eerder een GCP-account en -locatie hebt toegevoegd:
+   1. (Voorwaardelijk) Als er al een Google Cloud Platform-account (en een locatie op dat account) is geconfigureerd in Adobe Analytics, kunt u dit gebruiken als de bestemming van de gegevensfeed:
+
+      >[!NOTE]
+      >
+      >De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie werden gedeeld u een deel van bent.
 
       1. Selecteer de account in het menu [!UICONTROL **Account selecteren**] vervolgkeuzelijst.
+
+         Alle cloudaccounts die u hebt geconfigureerd in een van de volgende Adobe Analytics-domeinen kunnen worden gebruikt:
+
+         * Bij het importeren van Adobe Analytics-classificatiegegevens, zoals beschreven in [Schema](/help/components/classifications/sets/manage/schema.md).
+
+           Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
+
+         * Bij het configureren van accounts en locaties in het gebied Locaties, zoals wordt beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md) en [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
 
       1. Selecteer de locatie in het menu [!UICONTROL **Locatie selecteren**] vervolgkeuzelijst.
 
       1. Selecteren [!UICONTROL **Opslaan**] > [!UICONTROL **Opslaan**].
 
-         De bestemming wordt nu gevormd om gegevens naar de plaats te verzenden GCP die u specificeerde.
+         De bestemming is nu geconfigureerd voor het verzenden van gegevens naar de locatie van het Google Cloud Platform die u hebt opgegeven.
 
    1. (Voorwaardelijk) Als u nog geen GCP-account hebt toegevoegd:
 
@@ -290,6 +354,8 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
          De bestemming wordt nu gevormd om gegevens naar de plaats te verzenden GCP die u specificeerde.
 
+      1. (Voorwaardelijk) Als u de bestemming (account en locatie) moet beheren die u net hebt gemaakt, is deze beschikbaar in het dialoogvenster [Locatiebeheer](/help/components/locations/locations-manager.md).
+
 +++
 
 1. In de  [!UICONTROL **Definities gegevenskolom**] sectie selecteert u de meest recente [!UICONTROL **Alle Adobe Columns**] in het vervolgkeuzemenu en vul vervolgens de volgende velden in:
@@ -298,8 +364,8 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
    |---------|----------|
    | [!UICONTROL **Te verwijderen tekens verwijderen**] | Bij het verzamelen van gegevens kunnen sommige tekens (zoals nieuwe regels) problemen veroorzaken. Schakel dit selectievakje in als u deze tekens uit feed-bestanden wilt verwijderen. |
    | [!UICONTROL **Compressie-indeling**] | Het type compressie dat wordt gebruikt. **Gzip** Hiermee worden bestanden uitgevoerd in `.tar.gz` gebruiken. **Postcode** Hiermee worden bestanden uitgevoerd in `.zip` gebruiken. |
-   | [!UICONTROL **Verpakkingstype**] | Selecteren **Meerdere bestanden** voor de meeste gegevensfeeds. Met deze optie worden uw gegevens gepagineerd in ongecomprimeerde 2GB-blokken. (Als er meerdere bestanden zijn geselecteerd en de niet-gecomprimeerde gegevens voor het rapportagevenster kleiner zijn dan 2 GB, wordt er één bestand verzonden.) Selecteren **Eén bestand** output de `hit_data.tsv` bestand in één, potentieel omvangrijk bestand. |
-   | [!UICONTROL **Manifest**] | Of Adobe een [manifestbestand](c-df-contents/datafeeds-contents.md#feed-manifest) naar de bestemming wanneer geen gegevens voor een voederinterval worden verzameld. Als u **Manifest File** ontvangt u een manifestbestand dat lijkt op het volgende wanneer er geen gegevens worden verzameld:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **Verpakkingstype**] | Selecteren [!UICONTROL **Meerdere bestanden**] voor de meeste gegevensfeeds. Met deze optie worden uw gegevens gepagineerd in ongecomprimeerde 2GB-blokken. (Als de [!UICONTROL **Meerdere bestanden**] is geselecteerd en niet-gecomprimeerde gegevens voor het rapportagevenster zijn kleiner dan 2 GB, er wordt één bestand verzonden.) Selecteren **Eén bestand** output de `hit_data.tsv` bestand in één, potentieel omvangrijk bestand. |
+   | [!UICONTROL **Manifest**] | Hiermee wordt bepaald of Adobe een [manifestbestand](c-df-contents/datafeeds-contents.md#feed-manifest) naar de bestemming wanneer geen gegevens voor een voederinterval worden verzameld. Als u **Manifest File** ontvangt u een manifestbestand dat lijkt op het volgende wanneer er geen gegevens worden verzameld:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Kolomsjablonen**] | Bij het maken van veel gegevensfeeds raadt de Adobe u aan een kolomsjabloon te maken. Als u een kolomsjabloon selecteert, worden automatisch de opgegeven kolommen in de sjabloon opgenomen. Adobe biedt standaard ook diverse sjablonen. |
    | [!UICONTROL **Beschikbare kolommen**] | Alle beschikbare gegevenskolommen in Adobe Analytics. Klikken [!UICONTROL Add all] om alle kolommen in een gegevenstoevoer op te nemen. |
    | [!UICONTROL **Opgenomen kolommen**] | De kolommen die in een gegevensfeed moeten worden opgenomen. Klikken [!UICONTROL Remove all] om alle kolommen uit een gegevensvoer te verwijderen. |
@@ -347,7 +413,7 @@ De gebruiker die u opgeeft voor het uploaden van gegevensfeeds, moet het volgend
 
   >[!NOTE]
   >
-  >Voor elke upload naar een Amazon S3 emmertje, [!DNL Analytics] voegt de emmereigenaar aan BucketOwnerFullControl ACL toe, al dan niet het emmertje een beleid heeft dat het vereist. Zie voor meer informatie &quot;[Wat is de instelling BucketOwnerFullControl voor Amazon S3-gegevensfeeds?](df-faq.md#BucketOwnerFullControl)&quot;
+  >Voor elke upload naar een Amazon S3 emmertje, [!DNL Analytics] voegt de emmereigenaar aan BucketOwnerFullControl ACL toe, ongeacht of het emmertje een beleid heeft dat het vereist. Zie voor meer informatie &quot;[Wat is de instelling BucketOwnerFullControl voor Amazon S3-gegevensfeeds?](df-faq.md#BucketOwnerFullControl)&quot;
 
 De volgende 16 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het juiste handtekeningalgoritme wordt gebruikt):
 

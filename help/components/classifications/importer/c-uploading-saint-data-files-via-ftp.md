@@ -1,16 +1,16 @@
 ---
 description: Gegevensbestanden uploaden via FTP.
-title: FTP-import
+title: FTP importeren
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
+source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 1%
+source-wordcount: '701'
+ht-degree: 0%
 
 ---
 
-# FTP-import
+# FTP importeren
 
 >[!IMPORTANT]
 >
@@ -18,11 +18,11 @@ ht-degree: 1%
 >
 >FTP wordt niet aanbevolen omdat het een niet-gecodeerde methode is voor het delen van bestanden, wat betekent dat iedereen de bestandsinhoud en de gebruikersnaam en het wachtwoord voor de account kan onderscheppen.
 >
->In plaats daarvan configureert u een cloudaccount zoals beschreven in [Cloud-importaccounts configureren](/help/components/locations/configure-import-accounts.md).
+>In plaats daarvan configureert u een cloudaccount zoals beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md).
 
 Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 
-## FTP-import {#concept_2F965BE873254546A61FB755F25299FD}
+## FTP importeren {#concept_2F965BE873254546A61FB755F25299FD}
 
 Gegevensbestanden uploaden via FTP:
 
@@ -52,7 +52,7 @@ Maak een FTP-account voordat u gegevens uploadt via FTP. >
 
 Zie [FTP en sFTP](/help/export/ftp-and-sftp/ftp-overview.md) voor meer informatie over FTP-servers van de Adobe.
 
-1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Klikken **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klikken **[!UICONTROL Import File]** en klik vervolgens op **[!UICONTROL FTP Import]**.
 1. Op de **[!UICONTROL Import File]** tabblad, klikt u op **[!UICONTROL Add New]**.
 1. Geef de FTP-accountgegevens op:
@@ -81,7 +81,7 @@ U kunt een FTP-account gebruiken om classificaties te importeren in Adobe Analyt
 
 Classificaties importeren via FTP:
 
-1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Klikken **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klikken **[!UICONTROL Import File]** en klik vervolgens op **[!UICONTROL FTP Import]**.
 1. Klik naast de FTP-account die u wilt gebruiken op **[!UICONTROL View]**.
 1. Gebruik de FTP-toegangsgegevens (Host, Aanmelden, Wachtwoord) om toegang te krijgen tot de FTP-server via een door u gekozen FTP-client.
