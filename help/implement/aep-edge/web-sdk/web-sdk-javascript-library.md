@@ -1,9 +1,8 @@
 ---
 title: Gegevens naar Adobe Analytics verzenden met de Web SDK JavaScript-bibliotheek
 description: Begin met een schone implementatie van SDK van het Web om gegevens naar Adobe Analytics te verzenden gebruikend de bibliotheek JavaScript.
-hide: true
-hidefromtoc: true
-source-git-commit: d6c16d8841110e3382248f4c9ce3c2f2e32fe454
+exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
+source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 0%
@@ -26,7 +25,7 @@ Het gebruik van de Web SDK JavaScript bibliotheek om gegevens naar Adobe Analyti
 | --- | --- |
 | <ul><li>**Directe benadering**: Dit implementatiepad is eenvoudiger dan benaderingen waarmee bestaande Adobe Analytics-implementaties worden verplaatst. Als u geen huidige implementatie van Adobe Analytics om zich over ongerust te maken hebt, bevolk de toepasselijke gebieden van SDK van het Web XDM.</li><li>**Vooraf gedefinieerd schema**: Als uw organisatie geen behoefte aan uw eigen schema heeft, kunt u eenvoudig het schema gebruiken dat aan Adobe Analytics wordt gericht. Dit concept is zelfs van toepassing als u naar Customer Journey Analytics gaat. Het concept &#39;props&#39; en &#39;eVars&#39; zijn niet van toepassing op Customer Journey Analytics, maar u kunt &#39;props&#39; en &#39;eVars&#39; blijven gebruiken als eenvoudige aangepaste afmetingen.</li></ul> | <ul><li>**Implementatiewijzigingen vereisen ingrijpen van de ontwikkelaar**: Als u veranderingen in uw implementatie van SDK van het Web wilt aanbrengen, moet u met uw ontwikkelingsteam werken om de code op uw plaats uit te geven. De methode die gebruikmaakt van de [Web SDK-tagextensie](web-sdk-tag-extension.md) voorkomt dit nadeel.</li><li>**Vergrendeld in een specifiek schema**: Wanneer uw organisatie naar Customer Journey Analytics gaat, moet u het Adobe Analytics-schema blijven gebruiken of naar het schema van uw eigen organisatie migreren (wat een aparte gegevensset zou zijn). Als uw organisatie zowel het Adobe Analytics-schema als de migratie naar een aparte gegevensset bij de overgang naar de Customer Journey Analytics wil vermijden, raadt Adobe een van de volgende twee methoden aan:</li><ul><li>Gebruik de `data` object: Het `data` kunt u gegevens naar Adobe Analytics verzenden zonder aan een XDM-schema te voldoen. Zodra het schema van uw organisatie wordt gecreeerd, kunt u gegevenstoewijzing aan kaart gebruiken `data` objectvelden naar XDM. Beide [De uitbreiding van de Analyse aan de uitbreiding van SDK van het Web](analytics-extension-to-web-sdk.md) en [AppMeasurement naar Web SDK JavaScript-bibliotheek](appmeasurement-to-web-sdk.md) gebruiken `data` object.</li><li>Adobe Analytics volledig overslaan: als u de SDK van het Web implementeert, kunt u die gegevens naar een dataset in Adobe Experience Platform verzenden voor gebruik in Customer Journey Analytics. U kunt elk schema gebruiken dat u bevalt. Adobe Analytics is helemaal niet betrokken bij deze workflow en vereist daarom niet de Adobe Analytics ExperienceEvent-veldgroep. Deze methode leidt tot het minste bedrag aan technische schulden, maar laat Adobe Analytics ook volledig buiten beeld.</li></ul></ul> |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Deze implementatiemethode vereist dat u een schema gebruikt dat voor Adobe Analytics is geconfigureerd. Als uw organisatie van plan is om uw eigen schema met Customer Journey Analytics in de toekomst te gebruiken, kan het gebruik van het schema van Adobe Analytics tot verwarring voor gegevensbeheerders of architecten leiden. Er zijn verschillende opties om dit probleem op te lossen:
 >
