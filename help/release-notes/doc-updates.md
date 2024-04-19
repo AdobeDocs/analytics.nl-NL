@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
+source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
 workflow-type: tm+mt
-source-wordcount: '5174'
+source-wordcount: '5204'
 ht-degree: 22%
 
 ---
@@ -25,6 +25,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **April 2024** | |
+| Opvouwbare secties in documentatie over het configureren van cloudimport- en exportlocaties zijn verwijderd | Opvouwbare secties uit de sectie verwijderd [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md) voor meer informatie over de typen cloudaccounts. |
 | **maart 2024** | |
 | AppMeasurement bijwerken | [Opmerkingen bij de release](/help/implement/appmeasurement-updates.md) op AppMeasurement update v2.26.0.<br/>Omvat verwijzing naar en update van [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) documentatie van configuratievariabele. |
 | Gebruiksinformatie met betrekking tot de kolom &quot;Gebruikt in&quot; is pas beschikbaar vanaf september 2023. | Verduidelijkt die gebruiksinformatie betreffende **Gebruikt in** kolom op de [bestemmingspagina](/help/analyze/landing.md) gaat slechts terug tot september 2023. |
@@ -58,7 +60,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Verbeteringen in de documentatie van de rapportage van mediafanalen | Enkele inhoud in het gedeelte Rapportage van de gids voor streamingmedia is opnieuw ingedeeld, waaronder het consolideren van de API-documentatie in een eigen sectie en het aanpassen van de volgorde van sommige artikelen. <p>De naam van het artikel Sjablonen voor werkruimten van media is gewijzigd in [Mediarapporten in Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html) om beter uit te lijnen met het in-product noemen. </p> |
 | **augustus 2023** | |
 | Verduidelijking van gegevensinvoer | Bijgewerkt [de definitie van begin- en einddatum](/help/export/analytics-data-feed/create-feed.md) om te verduidelijken dat wanneer het verwerken van gegevensvoer voor historische gegevens, u de begindatum kunt plaatsen aan om het even welke datum in het verleden wanneer de gegevens worden verzameld. |
-| Adobe Experience Platform Edge Network - gegevensverwerking | Inhoud toegevoegd rondom hoe Adobe Analytics [handvatten gegevens van het Netwerk van de Rand](../implement/aep-edge/overview.md). |
+| Adobe Experience Platform Edge Network gegevensverwerking | Inhoud toegevoegd rondom hoe Adobe Analytics [verwerkt gegevens van de Edge Network](../implement/aep-edge/overview.md). |
 | Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) de leesbaarheid verbeteren. |
 | Verplaatste inhoud over het beheren van geplande projecten | Er is een nieuw artikel gemaakt in de handleiding Analytics Components (Analytische componenten), genaamd [Geplande projecten](/help/components/scheduled-projects-manager.md). Deze inhoud bevindt zich eerder in het dialoogvenster [Projecten plannen](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) artikel in de handleiding Analytics Tools. |
 | Implementatiemethoden vergelijken | Bijgewerkte documentatie waarin verschillende implementatiemethoden worden vergeleken. [Meer informatie](../implement/prepare/comparison.md) |
@@ -141,7 +143,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Bijgewerkte documentatie voor stroomvisualisatie | Op basis van de [nieuwe interface](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentatie over het delen van annotaties in mobiele scorecards | U kunt [annotaties die zijn gemaakt in Workspace, in Mobile Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Mei 2022** | |
-| Vul de afmetingen en metriek van de levenscyclus door het Netwerk van de Rand | Gegevens over de mobiele levenscyclus die naar het Edge-netwerk worden verzonden, worden nu weergegeven in Analytics-rapportage. Zie [Variabeletoewijzing Analyse](/help/implement/aep-edge/xdm-var-mapping.md) voor meer informatie over welke XDM-velden worden toegewezen aan de bestaande rapportage van de mobiele levenscyclus. |
+| De afmetingen en afmetingen van de levenscyclus door de Edge Network vullen | Gegevens over de mobiele levenscyclus die naar de Edge Network worden verzonden, worden nu weergegeven in Analytics-rapportage. Zie [Variabeletoewijzing Analyse](/help/implement/aep-edge/xdm-var-mapping.md) voor meer informatie over welke XDM-velden worden toegewezen aan de bestaande rapportage van de mobiele levenscyclus. |
 | **April 2022** | |
 | Adobe Analytics-bestemmingspagina-updates | Updates van de gemeenschappelijke [De landingspagina Werkruimte/Rapporten &amp; Analyse](/help/analyze/landing.md) dat de bruikbaarheid en het gemak van navigatie verbetert. |
 | Nieuw onderwerp over [!UICONTROL Page Summary] deelvenster | [Het deelvenster Paginaoverzicht](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
@@ -286,7 +288,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 22 juli 2019 | Magento: Marketing- en Commerce-sjabloon toegevoegd aan de documentatie over [Analysis Workspace-sjablonen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18 juli 2019 | Bijgewerkte [Cohorttabel-instellingen](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
 | 18 juli 2019 | In het linkerspoor in Workspace hebben gebruikers nu de mogelijkheid om _Objecten van afgelopen 18 maanden weergeven_. De maximale periode was eerder zes maanden. Hierdoor kunnen pagina&#39;s of campagnes van het afgelopen jaar tot 18 maanden terug met elkaar worden vergeleken. |
-| 18 juli 2019 | Documentatie over een nieuwe werkruimtemalplaatje genoemd [&quot;Magento: Marketing en handel&quot;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) naar Analysis Workspace. De sjabloon is specifiek ontworpen voor klanten van Magento e-commerce, maar elke retailer kan de sjabloon gebruiken voor unieke inzichten in hun bedrijfsactiviteiten. |
+| 18 juli 2019 | Documentatie over een nieuwe werkruimtemalplaatje genoemd [&quot;Magento: Marketing en Commerce&quot;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) naar Analysis Workspace. De sjabloon is specifiek ontworpen voor klanten van Magento e-commerce, maar elke retailer kan de sjabloon gebruiken voor unieke inzichten in hun bedrijfsactiviteiten. |
 | vrijdag 13 juni 2019 | Nieuwe filters uit de doos aan het linkerspooronderzoek in Workspace toegevoegd. Naast de al beschikbare filters (Dimensies, Metrics, Goedgekeurd, enz.) zijn nu ook nieuwe filters, zoals voor berekende standaarden, klantkenmerken, eVars, props, video, enzovoorts. toegevoegd zodat u snel en gemakkelijk de gewenste componenten kunt vinden. |
 | 4 juni 2019 | Nieuwe handleiding getiteld [Overgang van een analyseplatform van derden naar Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30 mei 2019 | Herziening van de [Datafeed-kolomverwijzing](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
