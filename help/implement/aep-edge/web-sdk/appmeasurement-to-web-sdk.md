@@ -1,7 +1,8 @@
 ---
 title: Migreren van AppMeasurement naar de Web SDK
 description: Werk uw Adobe Analytics-implementatie van de AppMeasurement JavaScript-bibliotheek bij naar de Web SDK JavaScript-bibliotheek.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Maak een gegevensstroom in de gegevensverzameling van Adobe Experience Platform.
 1. Selecteer in het vervolgkeuzemenu Service de optie **[!UICONTROL Adobe Analytics]**.
 1. Voer dezelfde rapportsuite-id in als de site waarnaar u momenteel analysegegevens verzendt. Klik op **[!UICONTROL Save]**.
 
-![Adobe Analytics-service toevoegen](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Adobe Analytics-service toevoegen](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 Uw gegevensstroom is nu klaar om gegevens te ontvangen en door te geven aan Adobe Analytics. Noteer de gegevensstroom-id, aangezien deze id vereist is voor het configureren van de Web SDK in code.
 

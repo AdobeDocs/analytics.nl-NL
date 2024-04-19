@@ -4,10 +4,10 @@ description: Vermeldt alle parameters van het vraagkoord die in beeldverzoeken w
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 4%
+source-wordcount: '721'
+ht-degree: 3%
 
 ---
 
@@ -59,7 +59,7 @@ De volgende tabel bevat een lijst met alle parameters voor queryreeksen die door
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Gebruikt in de [Pagina&#39;s niet gevonden](/help/components/dimensions/pages-not-found.md) dimensie. |
 | `pccr` | Geen | Alleen ingesteld voor nieuwe bezoekers en altijd ingesteld op `true`. Hiermee voorkomt u een oneindige omleiding als een bezoeker cookies weigert. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Bepaalt het type aangepaste koppeling. Vereist voor [Aangepaste koppelingen](/help/components/dimensions/custom-link.md), [Koppelingen downloaden](/help/components/dimensions/download-link.md), en [Koppelingen afsluiten](/help/components/dimensions/exit-link.md). |
-| `pev1` | Geen | De URL waarop de aangepaste koppeling is opgetreden. |
+| `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | De URL waarop de aangepaste koppeling is opgetreden. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Aangepaste naam voor koppelingsvriendelijk. |
 | `pev3` | Geen | Niet meer gebruikt. Bijgehouden mijlpalen in vorige versies van videorapportage. |
 | `pf` | Geen | Perronmarkering; alleen voor gebruik door de Adobe. Niet wijzigen. |

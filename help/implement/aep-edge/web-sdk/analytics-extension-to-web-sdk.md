@@ -1,7 +1,8 @@
 ---
 title: Migreren van de Adobe Analytics-tagextensie naar de Web SDK-tagextensie
 description: Werk uw implementatie Analytics op de markeringen van de Inzameling van Gegevens van Adobe Experience Platform bij om de uitbreiding van SDK van het Web te gebruiken.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Maak een gegevensstroom in de gegevensverzameling van Adobe Experience Platform.
 1. Selecteer in het vervolgkeuzemenu Service de optie **[!UICONTROL Adobe Analytics]**.
 1. Voer dezelfde rapportsuite-id in als de site waarnaar u momenteel analysegegevens verzendt. Klik op **[!UICONTROL Save]**.
 
-![Adobe Analytics-service toevoegen](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Adobe Analytics-service toevoegen](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 Uw gegevensstroom is nu klaar om gegevens te ontvangen en door te geven aan Adobe Analytics.
 
@@ -62,11 +63,11 @@ Deze sectie bereidt uw markering voor het grootste deel van de migratieinspannin
 1. Selecteren **[!UICONTROL Catalog]** boven aan het scherm ziet u een lijst met alle beschikbare extensies.
 1. Zoeken naar en selecteren de **[!UICONTROL Adobe Experience Platform Web SDK]** extensie, en klik vervolgens op **[!UICONTROL Install]** rechts.
 
-   ![Catalogus](assets/catalog.png) {style="border:1px solid gray"}
+   ![Catalogus](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. De instellingen voor de extensieconfiguratie worden weergegeven. Zoek de sectie Gegevensstromen en selecteer de gegevensstroom die u in de vorige stap hebt gemaakt.
 
-   ![Gegevensstroom selecteren](assets/datastream-select.png) {style="border:1px solid gray"}
+   ![Gegevensstroom selecteren](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. Selecteren **[!UICONTROL Save]**.
 
@@ -83,14 +84,14 @@ Het gegevenselement van gegevensobjecten verstrekt een intuïtief kader om een n
 1. Geef het gegevenselement de volgende instellingen:
    * [!UICONTROL Name]: Alles wat u wilt, zoals &quot;Gegevenslaag&quot; of &quot;Gegevensobject&quot;
    * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL Variable]: [!UICONTROL Variable]
+   * [!UICONTROL Data Element Type]: [!UICONTROL Variable]
    * Selectievakjes kunnen ongewijzigd blijven
 1. Selecteer rechts de volgende instellingen:
    * Keuzerondje eigenschap: [!UICONTROL Data]
    * Oplossing: [!UICONTROL Adobe Analytics]
 1. Selecteren **[!UICONTROL Save]**.
 
-![Gegevenselement maken](assets/create-data-element.png) {style="border:1px solid gray"}
+![Gegevenselement maken](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 Uw markeringsbezit heeft nu alles nodig om elke regel bij te werken.
 
@@ -103,7 +104,7 @@ Deze stap bevat het grootste deel van de inspanning die wordt vereist om aan het
 1. Selecteer in de linkernavigatie van de taginterface de optie **[!UICONTROL Rules]**.
 1. Selecteer een regel die u wilt bewerken.
 1. Selecteer de handeling **[!UICONTROL Adobe Analytics - Set Variables]**
-1. Noteer alle variabelen van Analytics die binnen deze regel worden ingesteld. Noteer zowel de variabelen die zijn ingesteld in de vervolgkeuzemenu&#39;s als de variabelen die zijn ingesteld in de aangepaste code.
+1. Noteer alle variabelen van Analytics die binnen deze regel worden ingesteld. Neem zowel variabelen op die zijn ingesteld in de vervolgkeuzemenu&#39;s als variabelen die zijn ingesteld in de aangepaste code.
 1. Wijzig de [!UICONTROL Action Configuration] naar de volgende instellingen:
    * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL Action type]: variabele bijwerken
@@ -146,7 +147,7 @@ Het publiceren van bijgewerkte regels volgt de zelfde werkschema zoals om het ev
 1. Test uw veranderingen in uw ontwikkelomgeving om ervoor te zorgen dat alle regels behoorlijk vuren, en dat het gegevensvoorwerp met verwachte waarden bevolkt is.
 1. Als u klaar bent, dient u de bibliotheek ter goedkeuring in, bouwt u de bibliotheek naar de testfase, keurt u de bibliotheek goed en publiceert u de bibliotheek naar de productie.
 
-![Publicatiestroom](assets/publishing-flow.png) {style="border:1px solid gray"}
+![Publicatiestroom](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 

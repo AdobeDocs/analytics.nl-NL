@@ -4,9 +4,9 @@ description: Hef het automatisch gegenereerde gebruik van het URL-AppMeasurement
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # linkURL
 
 Wanneer een verbinding het volgen vraag naar Adobe wordt verzonden, ontdekken de servers van de gegevensinzameling automatisch URL. Gebruik de `linkURL` variabele om de gedetecteerde URL te overschrijven.
+
+Er zijn geen dimensies in Analysis Workspace die rapporteren over deze variabele. Het vult de `page_event_var1` kolom in [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## URL koppelen met de SDK van het Web
 
