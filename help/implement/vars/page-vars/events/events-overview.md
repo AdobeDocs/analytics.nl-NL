@@ -4,7 +4,7 @@ description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw s
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
+source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Alvorens gebeurtenissen uit te voeren, zorg ervoor dat u creeert en hen vormt on
 
 ## Gebeurtenissen die de SDK van het Web gebruiken
 
-Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md) Voor aangepaste gebeurtenissen worden de volgende XDM-velden gebruikt:
+Als u de [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md)Voor aangepaste gebeurtenissen worden de volgende XDM-velden gebruikt:
 
 * Aangepaste gebeurtenissen 1-100 worden toegewezen aan `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`.
 * Aangepaste gebeurtenissen 101-200 worden toegewezen aan `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`.
