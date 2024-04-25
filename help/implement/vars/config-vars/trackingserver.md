@@ -4,9 +4,9 @@ description: Bepaal de locatie waarnaar verzoeken voor de afbeelding worden verz
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,14 @@ Als dit veld niet wordt ingevuld, wordt standaard ingesteld op `[rsid].data.adob
 
 De `s.trackingServer` variable is a string that contains the location to send data.
 
-## De waarde bepalen voor `trackingServer`
+## Overwegingen bij het bepalen van de waarde voor `trackingServer`
 
-De waarde voor deze variabele is afhankelijk van het gebruik van cookies van andere bedrijven of van cookies van andere bedrijven. Adobe raadt u ten zeerste aan cookies van de eerste fabrikant in uw implementatie te gebruiken.
+U kunt ervoor kiezen de volgende serverdomeinen van de Adobe te gebruiken (bijvoorbeeld `adobedc.net`) of u kunt een speciaal proces doorlopen om een trackingserver in te stellen die overeenkomt met uw sitedomein (bijvoorbeeld `data.mydomain.com`), ook bekend als implementatie CNAME. Een trackingserver die overeenkomt met uw sitedomein kan voordelen hebben, afhankelijk van andere aspecten van uw implementatie. Wanneer de trackingserver niet overeenkomt met het domein van de huidige pagina, moeten cookies die door het AppMeasurement zijn ingesteld, als derde worden ingesteld. Als de browser geen cookies van derden ondersteunt, kan dit probleem problemen opleveren met bepaalde analysefuncties:
+
+- Instellende herkenningstekens: Als u de Dienst van de Identiteit van het Experience Cloud gebruikt heeft de volgende server geen invloed op hoe de koekjes worden geplaatst. Als u echter oude id&#39;s voor Analytics gebruikt (ook wel `s_vi` cookie) en de verzamelingsserver komt niet overeen met het huidige domein, en cookies moeten dan als derde worden ingesteld. Als cookies van derden in dit geval door de browser worden geblokkeerd, stelt Analytics een fallback-id van de eerste fabrikant in (`s_fid`) in plaats van de norm `s_vi` cookie.
+- Koppelingen bijhouden werkt niet voor interne koppelingen.
+- Activity Map werkt niet voor interne koppelingen.
+- Koekjescontrole.
 
 ### Cookies van eerste bedrijven
 
@@ -73,7 +78,7 @@ De individu die aanvankelijk de first-party koekjesimplementatie vormt bepaalt o
 s.trackingServer = "data.example.com";
 ```
 
-### Cookies van andere bedrijven
+### Trackingserver van derden
 
 >[!TIP]
 >
