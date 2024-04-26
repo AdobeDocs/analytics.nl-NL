@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 75d50a5b2cd31aa11df22fa6a271f7ab937a770c
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '633'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,10 @@ De module van de Activity Map maakt deel uit van AppMeasurement.js, de markering
 
 +++Web SDK (Adobe Experience Platform-tagextensie)
 
-1. Navigeer in Adobe Experience Platform-tags naar de eigenschap waarvoor u Analytics implementeert. Onder [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], selecteert u **[!UICONTROL Enable click data collection]** zoals hieronder gemarkeerd.
+NOTA: SDK van het Web verzamelt momenteel de informatie van de Activity Map door afzonderlijke verbindingsklikgebeurtenissen te registreren. Dit verschilt van AppMeasurement dat Activity Map-informatie voor interne koppelingen vastlegt door die informatie op te nemen in het volgende laden van de pagina. Wegens dit, resulteert de inzameling van SDK van het Web in extra servervraag. Een toekomstige versie van Web SDK zal het mogelijk maken om Web SDK te vormen om de informatie van de Activity Map over verdere klappen te verpakken, hoofdzakelijk aanpassend het gedrag van AppMeasurement.
+
+1. Navigeer in Adobe Experience Platform-tags naar de eigenschap waarvoor u Analytics implementeert.
+1. Onder [!UICONTROL Extensions] > [!UICONTROL Adobe Experience Platform Web SDK], selecteert u **[!UICONTROL Enable click data collection]** zoals hieronder gemarkeerd.
 1. Maak de bibliotheek met de wijzigingen.
 1. Publiceer de bibliotheek naar productie.
 
