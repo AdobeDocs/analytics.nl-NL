@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
 workflow-type: tm+mt
-source-wordcount: '5204'
+source-wordcount: '5246'
 ht-degree: 22%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **April 2024** | |
+| Verwijderde documentatie met betrekking tot &quot;Eigenaar&quot; in classificatiesets | Het filter &quot;Eigenaar&quot; en de kolom zijn uit het bestand verwijderd [Indelingssetmanager](/help/components/classifications/sets/manage/set-manager.md) en het veld Eigenaar is verwijderd uit het veld [Instellingen voor classificatieset](/help/components/classifications/sets/manage/settings.md). <p>De documentatie is bijgewerkt om dit filter, deze kolom en dit veld te verwijderen.</p> |
 | Opvouwbare secties in documentatie over het configureren van cloudimport- en exportlocaties zijn verwijderd | Opvouwbare secties uit de sectie verwijderd [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md) voor meer informatie over de typen cloudaccounts. |
 | **maart 2024** | |
 | AppMeasurement bijwerken | [Opmerkingen bij de release](/help/implement/appmeasurement-updates.md) op AppMeasurement update v2.26.0.<br/>Omvat verwijzing naar en update van [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) documentatie van configuratievariabele. |

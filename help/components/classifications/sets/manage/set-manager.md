@@ -3,9 +3,9 @@ title: Indelingssetmanager
 description: Classificatiesets beheren in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Indelingssets bestaan uit **Abonnementen** (rapportsuite en dimensiecombinaties)
 
 ## Filterclassificatiesets
 
-De linkerkant van het beheer van classificatiesets biedt filterinstellingen om de gewenste classificatieset te vinden. Door op het filterpictogram te klikken schakelt u de zichtbaarheid van de filterinstellingen in of uit. U kunt classificatiesets filteren op **[!UICONTROL Tags]**, **[!UICONTROL Report suite]**, of **[!UICONTROL Owner]**.
+De linkerkant van het beheer van classificatiesets biedt filterinstellingen om de gewenste classificatieset te vinden. Door op het filterpictogram te klikken schakelt u de zichtbaarheid van de filterinstellingen in of uit. U kunt classificatiesets filteren op **[!UICONTROL Tags]** of **[!UICONTROL Report suite]**.
 
 ![Classificatiesetfilters](../../assets/classification-set-filters.png)
 
@@ -30,10 +30,9 @@ De volgende kolommen zijn beschikbaar in de het reeksmanager van de Classificati
 
 * **[!UICONTROL Classification set]**: De naam van de classificatieset. Op de naam van een classificatieset klikken [bewerkt de instellingen](settings.md).
 * **[!UICONTROL Subscriptions]**: Het aantal abonnementen waarop deze classificatieset van toepassing is.
-* **[!UICONTROL Owner]**: De eigenaar van het classificatieset.
 * **[!UICONTROL Classifications]**: Het aantal classificatieafmetingen dat het classificatieset bevat.
-* **[!UICONTROL Automated]**: Hiermee wordt bepaald of de classificatieset is geconfigureerd voor het automatisch importeren van gegevens uit een cloudlocatie. Automatisering kan worden geconfigureerd in de classificatieset [schema](schema.md).
-* **[!UICONTROL Last Modified]**: De datum en het tijdstip waarop het classificatieset voor het laatst is gewijzigd.
+* **[!UICONTROL Automated]**: hiermee wordt bepaald of de classificatieset is geconfigureerd voor het automatisch importeren van gegevens uit een cloudlocatie. Automatisering kan worden geconfigureerd in de classificatieset [schema](schema.md).
+* **[!UICONTROL Last Modified]**: De datum en tijd waarop het classificatieset voor het laatst is gewijzigd.
 
 ## Opties maken of bewerken
 
@@ -41,12 +40,12 @@ De volgende knoppen zijn beschikbaar in het venster Indelingssetbeheer:
 
 * **[!UICONTROL Add]**: [Maken](create.md) een classificatieset.
 * **[!UICONTROL Search by title]**: Zoeken naar classificatiesets op naam.
-* **[!UICONTROL Load more]**: In eerste instantie worden maximaal 1000 classificatiesets weergegeven door de classificatiesetmanager. Met deze knop worden 1000 andere classificatiesets geladen.
-* **Kolommen tonen/verbergen**: Zichtbaarheid van elke kolom in-/uitschakelen [!UICONTROL Classification set].
+* **[!UICONTROL Load more]**: In eerste instantie worden maximaal 1000 classificatiesets weergegeven door de indelingssetmanager. Met deze knop worden 1000 andere classificatiesets geladen.
+* **Kolommen tonen/verbergen**: Zichtbaarheid in-/uitschakelen voor elke kolom naast [!UICONTROL Classification set].
 
 Selecteer een of meer classificatiesets door op het selectievakje naast de gewenste classificatieset te klikken. Als u een classificatieset selecteert, worden de volgende opties weergegeven:
 
 * **[!UICONTROL Tag]**: Voeg een of meer tags toe aan de geselecteerde classificatiesets, zodat u classificatiesets kunt ordenen of groeperen, zodat u deze in de toekomst gemakkelijker kunt vinden.
-* **[!UICONTROL Delete]**: Hiermee verwijdert u de classificatieset. Indelingsafmetingen op basis van deze classificatieset zijn niet meer beschikbaar. Geplande projecten die de geschrapte classificatiereeks gebruiken blijven het gebruiken van afhankelijke dimensies tot u het geplande project opnieuw opslaat.
-* **[!UICONTROL Consolidate]**: Een nieuwe [consolidatie](../consolidations/process.md).
+* **[!UICONTROL Delete]**: verwijdert de classificatieset. Indelingsafmetingen op basis van deze classificatieset zijn niet meer beschikbaar. Geplande projecten die de geschrapte classificatiereeks gebruiken blijven het gebruiken van afhankelijke dimensies tot u het geplande project opnieuw opslaat.
+* **[!UICONTROL Consolidate]**: Een nieuwe toepassing starten [consolidatie](../consolidations/process.md).
 * **[!UICONTROL Rename]**: Wijzig de naam van de geselecteerde classificatieset.
