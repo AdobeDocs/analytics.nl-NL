@@ -4,9 +4,9 @@ description: Gebruik de aankoopgebeurtenis om gegevens te verzamelen voor de met
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,34 @@ Wanneer u een aankoopgebeurtenis instelt, heeft dit invloed op de volgende metri
 Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md) Voor de aankoopgebeurtenis worden de volgende XDM-velden gebruikt:
 
 * Bestellingen worden toegewezen aan `xdm.commerce.purchases.value`.
-* Eenheden worden toegewezen aan de som van alle eenheden `xdm.productListItems[].quantity` velden.
+* Eenheden worden toegewezen aan de som van alle eenheden `xdm.productListItems[].quantity` velden. Zie [`products`](../products.md) voor meer informatie .
 * Opbrengsten worden toegewezen aan de som van alle `xdm.productListItems[].priceTotal` velden.
 
+```json
+{
+  "xdm": {
+    "commerce": {
+      "purchases": {
+        "value": 1
+      }
+    }
+  }
+}
+```
+
 Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md), de aankoopgebeurtenis gebruikt `data.__adobe.analytics.events`, volgens tekenreekssyntaxis van AppMeasurement.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "events": "purchase"
+      }
+    }
+  }
+}
+```
 
 ## De aankoopgebeurtenis instellen met de extensie Adobe Analytics
 

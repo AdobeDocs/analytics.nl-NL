@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
 source-wordcount: '5246'
 ht-degree: 22%
@@ -150,7 +150,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Nieuw onderwerp over [!UICONTROL Page Summary] deelvenster | [Het deelvenster Paginaoverzicht](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Nieuw onderwerp over [!UICONTROL Next/Previous item] deelvenster | [Deelvenster Volgende/vorige dimensie-item](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **maart 2022** | |
-| Nieuw onderwerp op ondersteunde HTTPS-versleutelingsalgoritmen | [Ondersteunde HTTPS-versleutelingsalgoritmen](/help/technotes/rdc/encryption-algos.md) voor klanten met het niveau van de cipher veiligheid die aan &quot;Hoog&quot;wordt geplaatst. |
+| Nieuw onderwerp op ondersteunde HTTPS-versleutelingsalgoritmen | Ondersteunde HTTPS-versleutelingsalgoritmen voor klanten met een beveiligingsniveau voor versleuteling ingesteld op Hoog. |
 | Nieuwe documentatie over annotaties in werkruimte | [Annotaties in werkruimte](/help/analyze/analysis-workspace/components/annotations/overview.md) stelt u in staat om contextuele gegevensnuances en inzichten effectief aan uw organisatie mee te delen. |
 | Adobe Analytics-bestemmingspagina-updates | [Updates](/help/analyze/landing.md) naar de gemeenschappelijke bestemmingspagina van Workspace/Reports &amp; Analytics die bruikbaarheid en gemak van navigatie verbetert. |
 | [!UICONTROL Next item] of [!UICONTROL Previous item] Deelvenster Werkruimte | In dit deelvenster kunt u items verkennen die een dimensie-item van uw keuze volgen of er aan voorafgaan. |
@@ -296,7 +296,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | vrijdag 9 mei 2019 | Er is een nieuwe instelling toegevoegd aan de instellingen voor stroomvisualisatie: Inclusief herhalingsinstanties. Zie [Stroominstellingen](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 11 april 2019 | Verbeteringen voor best practices voor optimalisatie werkruimte: [Prestaties optimaliseren](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11 april 2019 | Updates van [Workspace-prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
-| 14 maart 2019 | Belangrijke update van [Regionale Data Collection](/help/technotes/rdc/regional-data-collection.md). |
+| 14 maart 2019 | Belangrijke update voor regionale gegevensverzameling. |
 | 7 februari 2019 | Kleine update van “Laatste last van IP-adressen vervangen door 0” en de instellingen voor “IP onzichtbaar maken” in [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1 februari 2019 | Belangrijke update van de implementatieplug-in [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 januari 2019 | [Cohortanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - Met de belangrijkste verbeteringen in Cohort Analysis kunt u:<ul><li>Afzonderlijk een segment insluiten en metrics retourneren. </li><li>De uitval weergeven in plaats van de retentie.</li><li>Latentietabellen tonen (de tijd die is verstreken voor en na een insluitingsgebeurtenis).</li><li>Een cohortdimensie op maat maken (om bezoekers te groeperen op basis van een eVar en niet alleen op tijd).</li><li>Een doorlopende cohortberekening uitvoeren: de retentie of de uitval berekenen op basis van de voorafgaande periode, niet op basis van het oorspronkelijke cohort. </li><li>Meerdere metrics toevoegen aan insluitings- en retourvelden, en segmenten toepassen. (Berekende standaarden worden niet ondersteund)</li></ul> |

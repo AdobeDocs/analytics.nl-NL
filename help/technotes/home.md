@@ -3,10 +3,10 @@ title: Technische notities voor Analytics
 description: Deze handleiding biedt nuttige informatie over onderwerpen die niet tot een specifieke analysetool of onderdeel behoren.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 16%
+source-wordcount: '416'
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,6 @@ Hier volgt een video-overzicht van Adobe Analytics:
 ## Belangrijke artikelen over technische notities
 
 * [Overstappen van een extern analyseplatform naar Adobe Analytics](ga-to-aa/home.md)
-* [Regionale gegevensverzameling](/help/technotes/rdc/regional-data-collection.md)
 
 ## Meer Analytics-gebruikershandleidingen
 

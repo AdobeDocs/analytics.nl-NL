@@ -4,9 +4,9 @@ description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Zorg ervoor dat u opneemt hoe u elke lijstvariabele en hun logica in uw [documen
 
 >[!NOTE]
 >
->In lijstvariabelen worden de meest recente 250 waarden per bezoeker opgeslagen. Als er voor een bepaalde bezoeker meer dan 250 unieke waarden zijn, worden de oudste waarden niet aan metriek toegewezen.
+>In lijstvariabelen worden de meest recente waarden per bezoeker opgeslagen op basis van de [!UICONTROL Max values] instellen in [Instellingen van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Er worden maximaal 250 waarden ondersteund. Als er meer unieke waarden zijn dan de [!UICONTROL Max values] Met de instelling allow, worden de oudste waarden niet aan metriek toegewezen.
 
 ## Lijstvariabelen instellen in de instellingen van de rapportsuite
 
@@ -77,7 +77,7 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 
 ## s.list1 - s.list3 in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
-Elke lijstvariabele is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. Ze hebben geen maximum aantal bytes. Elke individuele waarde heeft echter een maximum van 255 bytes. Het scheidingsteken dat u gebruikt, wordt bepaald wanneer u de variabele instelt in [Instellingen van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Gebruik geen spaties bij het scheiden van meerdere items.
+Elke lijstvariabele is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. Deze variabele heeft geen maximum aantal bytes. Elke individuele waarde heeft echter een maximum aantal van 255 bytes. Het scheidingsteken dat u gebruikt, wordt bepaald wanneer u de variabele instelt in [Instellingen van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Gebruik geen spaties bij het scheiden van meerdere items.
 
 ```js
 // A list variable configured with a comma as a delimiter

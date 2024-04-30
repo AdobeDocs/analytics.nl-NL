@@ -4,9 +4,9 @@ description: Leer hoe de preventiemaatregelen voor het bijhouden van fouten invl
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Het standaardgedrag in deze browserversies is dat cookies worden behandeld die n
 
 Voor klanten die de Dienst van identiteitskaart van de Bezoeker gebruiken, hebben de koekjes de eigenschappen `SameSite=None` en `secure` standaard ingesteld, zodat deze cookies door andere gebruikers kunnen worden gebruikt.
 
-Voor klanten die oude id&#39;s voor Analytics (&quot;s_vi&quot; en &quot;s_fid&quot; cookies) gebruiken, zijn cookies ook ingesteld om gebruik door derden mogelijk te maken in standaardverzamelingsdomeinen: adobedc.net, 2o7.net en omtrdc.net. Voor klanten die een implementatie CNAME gebruiken, de reeksen van Analytics `SameSite=Lax`.
+Voor klanten die Analytics gebruiken erfenisherkenningstekens (`s_vi` en `s_fid` cookies), worden cookies ook ingesteld om te zorgen dat gebruikers van andere leveranciers gebruik kunnen maken van standaardverzamelingsdomeinen: `adobedc.net`, `2o7.net`, en `omtrdc.net`. Voor klanten die een implementatie CNAME gebruiken, de reeksen van Analytics `SameSite=Lax`.
 
 >[!NOTE]
 >

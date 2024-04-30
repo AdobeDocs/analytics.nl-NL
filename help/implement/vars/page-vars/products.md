@@ -4,9 +4,9 @@ description: Gegevens verzenden over het product of de producten die worden weer
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,42 @@ Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md), worden d
 * Merchandising eVars worden toegewezen aan `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` tot `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, afhankelijk van welke eVar u aan een product wilt binden.
 * Merchandising-gebeurtenissen worden toegewezen aan `xdm.productListItems[]._experience.analytics.event1to100.event1.value` tot `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, afhankelijk van welke gebeurtenis u aan een product wilt binden. Als u een gebeurtenis instelt in een van deze velden, wordt deze automatisch opgenomen in het dialoogvenster [event](events/events-overview.md) tekenreeks verzonden naar Adobe Analytics.
 
->[!NOTE]
->
->`lineItemId` moet worden toegevoegd als een aangepast veld omdat dit nog geen deel uitmaakt van het standaardschema voor analysegebeurtenissen. De Adobe is van plan in de toekomst een speciaal veld &#39;Categorie&#39; toe te voegen.
+```json
+{
+  "xdm": {
+    "productListItems": [{
+      "productCategories": [{
+        "categoryID": "Men's"
+      }],
+      "name": "Hiking boot",
+      "quantity": 1,
+      "priceTotal": 49.99
+    },
+    {
+      "productCategories": [{
+        "categoryID": "Camping"
+      }],
+      "name": "Hunting blind",
+      "quantity": 3,
+      "priceTotal": 699.69
+    }]
+  }
+}
+```
 
 Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md), de productvariabele `data.__adobe.analytics.products` volgende AppMeasurement syntaxis. Als u dit veld instelt, worden alle producten die in het XDM-object zijn ingesteld, overschreven en niet verzonden naar Adobe Analytics.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "products": "Archery;Fletched arrow;12;159.99"
+      }
+    }
+  }
+}
+```
 
 ## Producten die de extensie Adobe Analytics gebruiken
 
