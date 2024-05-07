@@ -1,11 +1,11 @@
 ---
 title: Dynamische zoekopdrachten
 description: Leer hoe u dynamische zoekopdrachten kunt gebruiken en hoe u deze kunt inschakelen. Omvat dragers, mobiele attributen, en werkend systeemtypes.
-exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Als u de vermelde opzoekbestanden wilt ontvangen, moet u aan alle volgende voorw
    * Voor `carrier.tsv`, moet u `carrier`.
    * Voor `mobile_attributes.tsv`, moet u `mobile_id`.
    * Voor `operating_system_type.tsv`, moet u `os`.
-* De volgende kolommen moeten **uitgesloten**. Als om het even welk van deze kolommen in de gegevensvoer inbegrepen zijn, zijn de extra raadplegingslijsten niet inbegrepen.
+* De volgende kolommen moeten **uitgesloten**. Als een van deze kolommen is opgenomen in de gegevensinvoer, wordt de `mobile_attributes.tsv` dynamische zoekopdracht is niet opgenomen.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`

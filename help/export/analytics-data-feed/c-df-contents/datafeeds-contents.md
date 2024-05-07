@@ -1,13 +1,13 @@
 ---
-description: In deze sectie worden de bestanden beschreven die in een levering van de gegevensfeed zijn gevonden.
+description: In deze sectie worden de bestanden beschreven die worden gevonden in een levering van de gegevensfeed.
 keywords: Gegevensfeed;taak;inhoud;manifest;bestand;opzoeken;raakgegevens;inhoud van levering
 subtopic: data feeds
 title: Inhoud van gegevensfeed - overzicht
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ De inhoud van een gegevensfeed openen:
 
 1. Meld u aan bij de doelsite van de gegevensfeed.
 
-   Dit is de doelsite die u instelt bij het maken van de gegevensfeed, zoals een Amazon S3- of Google Cloud-Platform emmertje.
+   Dit is de doelsite die u instelt bij het maken van de gegevensinvoer, zoals een Amazon S3- of Google Cloud Platform bucket.
 
 1. Download het gecomprimeerde gegevensbestand naar uw lokale computer.
 
-1. Het gecomprimeerde bestand decomprimeren met een programma dat ondersteuning biedt `.tar.gz` bestandsextensies.
+1. Pak het gecomprimeerde bestand uit met een programma dat ondersteuning biedt `.tar.gz` bestandsextensies.
 
 1. Open de `hit_data.tsv` in uw spreadsheet of databasetoepassing van keuze om onbewerkte gegevens voor die dag weer te geven. —>
 
@@ -67,13 +67,13 @@ Datafeed-Manifest-Version: 1.0
 
 Elk manifestbestand bevat een koptekst die het totale aantal opzoekbestanden, gegevensbestanden en het totale aantal records in alle gegevensbestanden aangeeft. Deze koptekst wordt gevolgd door meerdere secties met informatie voor elk bestand dat is opgenomen in de gegevensdoorvoerlevering.
 
-Sommige feeds zijn geconfigureerd om een `.fin` bestand in plaats van `.txt` manifest. De `.fin` geeft aan dat het uploaden is voltooid, maar dat het geen metagegevens over het uploaden bevat.
+Sommige feeds zijn geconfigureerd om een `.fin` bestand in plaats van een `.txt` manifest. De `.fin` geeft aan dat het uploaden is voltooid, maar dat de metagegevens in het uploaden een oudere indeling hebben.
 
 ## Bestanden opzoeken
 
 Sommige gegevensinvoerkolommen voeren een getal uit dat overeenkomt met de werkelijke waarde. Opzoekbestanden worden gebruikt om een getal uit een kolom met gegevensinvoer af te stemmen op een werkelijke waarde. De waarde &quot;497&quot; in het dialoogvenster `browser` De kolom met de aanraakgegevens geeft aan dat de aanraakactie afkomstig is uit &quot;Microsoft Internet Explorer 8&quot; als u in `browser.tsv`.
 
-De `column_headers.tsv` en `event_list.tsv` zijn specifiek voor de gegevensinvoer en rapportreeks. Andere bestanden, zoals `browser.tsv`, zijn generiek.
+Let erop dat de `column_headers.tsv` en `event_list.tsv` zijn specifiek voor de gegevensinvoer en rapportreeks. Andere bestanden, zoals `browser.tsv`, zijn generiek.
 
 De opzoekbestanden worden samen geleverd in een gecomprimeerd ZIP-bestand met de volgende naam:
 
@@ -81,20 +81,20 @@ De opzoekbestanden worden samen geleverd in een gecomprimeerd ZIP-bestand met de
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**: Eén rij met de kolomkoppen voor `hit_data.tsv`.
-* **`browser.tsv`**: Wijst browser ID (toe `browser` voederkolom) aan de browser vriendschappelijke naam.
-* **`browser_type.tsv`**: Wijst browser ID (toe `browser` voederkolom) aan het browser type.
+* **`column_headers.tsv`**: Een enkele rij met de kolomkoppen voor `hit_data.tsv`.
+* **`browser.tsv`**: Hiermee wordt de browser-id toegewezen (de `browser` voederkolom) aan de browser vriendschappelijke naam.
+* **`browser_type.tsv`**: Hiermee wordt de browser-id toegewezen (de `browser` voederkolom) aan het browser type.
 * **`color_depth.tsv`**: Hiermee wordt de kleurdiepte-id toegewezen (de `color` voederkolom) aan kleurdiepte.
-* **`connection_type.tsv`**: Hiermee wordt de id van het verbindingstype toegewezen (de `connection_type` voederkolom) aan het verbindingstype.
-* **`country.tsv`**: Wijst de land-id (de `country` voederkolom) aan de naam van het land.
-* **`javascript_version.tsv`**: Wijst de versie-id van JavaScript toe (de `javascript` voederkolom) aan de versie JavaScript.
+* **`connection_type.tsv`**: Hiermee wordt de verbindingstype-id toegewezen (de `connection_type` voederkolom) aan het verbindingstype.
+* **`country.tsv`**: Wijst de land-id toe (de `country` voederkolom) aan de naam van het land.
+* **`javascript_version.tsv`**: Hiermee wordt de JavaScript-versie-id toegewezen (de `javascript` voederkolom) aan de versie JavaScript.
 * **`languages.tsv`**: Wijst de taal-id (de `language` voederkolom) aan taal.
-* **`operating_systems.tsv`**: Wijst de id van het besturingssysteem toe (de `os` voederkolom) aan de naam van het werkende systeem.
+* **`operating_systems.tsv`**: Hiermee wordt de id van het besturingssysteem toegewezen (de `os` voederkolom) aan de naam van het werkende systeem.
 * **`plugins.tsv`**: Wijst de insteekmodule-id&#39;s toe (de `plugin` voederkolom) aan elke respectieve plug-in naam.
 * **`resolution.tsv`**: Wijst de resolutie-id (de `resolution` voederkolom) aan de monitorresolutie.
 * **`referrer_type.tsv`**: Hiermee wordt de id van het verwijzingstype toegewezen (de `ref_type` voederkolom) aan het referentietype.
 * **`search_engines.tsv`**: Wijst de zoekmachine-id (de `search_engine` voederkolom) aan de naam van het onderzoeksmotor.
-* **`event.tsv`**: Wijst elke gebeurtenis-id (de `event_list` voederkolom) aan zijn respectieve gebeurtenisnaam.
+* **`event.tsv`**: Hiermee wordt elke gebeurtenis-id toegewezen (de `event_list` voederkolom) aan zijn respectieve gebeurtenisnaam.
 
 ## Gegevensbestanden verbergen
 
@@ -107,6 +107,7 @@ De dossiers die door Adobe worden geleverd variëren gebaseerd op het type van g
 * `[YYYY-mm-dd]` verwijst naar de begindag waarop de gegevensinvoer wordt bedoeld.
 * `[HHMMSS]` wordt alleen gebruikt in uurvoer en verwijst naar het beginuur waarvoor de gegevensinvoer bestemd is.
 * `[compression_suffix]` verwijst naar het type compressie dat wordt gebruikt. Doorgaans worden gegevensfeeds gecomprimeerd tot `tar.gz` of `zip` bestanden.
+* `[format_suffix]` verwijst naar het bestandstype. De bestandsindeling van de gegevensfeed is doorgaans `.tsv`.
 
 ### Dagelijks, één bestand
 
@@ -114,7 +115,7 @@ Nadat de gegevens voor een dag worden verzameld, ontvangt u één enkel gecompri
 
 `[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Wanneer het gegevensbestand wordt geëxtraheerd, bevat het één bestand `hit_data.tsv` met alle gegevens voor die dag, evenals raadplegingsdossiers voor om het even welke vereiste kolommen.
+Bij uitname bevat het gegevensbestand één bestand `hit_data.tsv` met alle gegevens voor die dag, evenals raadplegingsdossiers voor om het even welke vereiste kolommen.
 
 ### Dagelijks, meerdere bestanden
 
@@ -122,7 +123,7 @@ Nadat de gegevens voor een dag worden verzameld, ontvangt u één of meerdere sa
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Bij uitname bevat elk gegevensbestand één bestand `hit_data.tsv` die ongeveer 2 GB van niet samengeperste gegevens, evenals raadplegingsdossiers voor om het even welke vereiste kolommen bevat.
+Bij uitname bevat elk gegevensbestand één bestand `[index]-[rsid]_[YYYY-mm-dd].[format_suffix]` die ongeveer 2 GB van niet samengeperste gegevens, evenals raadplegingsdossiers voor om het even welke vereiste kolommen bevat.
 
 ### Uur, één bestand
 
@@ -130,15 +131,15 @@ Nadat de gegevens een uur lang zijn verzameld, ontvangt u één gecomprimeerd ge
 
 `[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
-Wanneer het gegevensbestand wordt geëxtraheerd, bevat het één bestand `hit_data.tsv` bestand met alle gegevens voor dat uur en opzoekbestanden voor vereiste kolommen.
+Bij uitname bevat het gegevensbestand één bestand `hit_data.tsv` bestand met alle gegevens voor dat uur en opzoekbestanden voor vereiste kolommen.
 
 ### Uur, meerdere bestanden
 
-Nadat de gegevens een uur lang zijn verzameld, ontvangt u een of meer gecomprimeerde gegevensbestanden en een manifestbestand. Het gegevensbestand heeft de naam:
+Nadat de gegevens een uur lang zijn verzameld, ontvangt u een of meer gecomprimeerde gegevensbestanden en een manifestbestand. De gegevensbestanden krijgen de volgende naam:
 
-`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Bij uitname bevat elk gegevensbestand één bestand `hit_data.tsv` die ongeveer 2 GB van niet samengeperste gegevens, evenals raadplegingsdossiers voor om het even welke vereiste kolommen bevat.
+Bij uitname bevat elk gegevensbestand één bestand `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` bestand dat ongeveer 2 GB niet-gecomprimeerde gegevens bevat, en opzoekbestanden voor vereiste kolommen.
 
 ## Gegevensbestandsgrootte
 
