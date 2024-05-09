@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
 workflow-type: tm+mt
-source-wordcount: '5246'
-ht-degree: 22%
+source-wordcount: '5379'
+ht-degree: 21%
 
 ---
 
@@ -25,6 +25,9 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Mei 2024** | |
+| Nieuwe documentatie voor upgrade van Adobe Analytics naar Customer Journey Analytics | Voor organisaties die van Adobe Analytics aan Customer Journey Analytics bevorderen, zijn er veelvoudige verbeteringsopties en vele overwegingen om in mening te houden gebaseerd op de huidige implementatie van Adobe Analytics van een organisatie en langetermijndoelstellingen.<p>De nieuwe documentatiebronnen zijn nu beschikbaar om u te helpen beter begrijpen:</p><ul><li>De verschillende upgradepaden die bestaan</li><li>Welke verbeteringspaden beschikbaar zijn op basis van de huidige Adobe Analytics-implementatie van een organisatie</li><li>De voor- en nadelen van elk upgradepad</li><li>Stapsgewijze begeleiding voor elk verbeteringspad</li><li>Overwegingen bij de verwerking van historische gegevens</li><li>En meer!</li></ul><p>[Aan de slag met de upgrade naar Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Bijgewerkte documentatie over aangepaste datumbereiken | Bijgewerkte screenshots en procedures in verband met [aangepaste datumbereiken maken](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) in overeenstemming met de huidige productkenmerken en het huidige ontwerp. |
 | **April 2024** | |
 | Verwijderde documentatie met betrekking tot &quot;Eigenaar&quot; in classificatiesets | Het filter &quot;Eigenaar&quot; en de kolom zijn uit het bestand verwijderd [Indelingssetmanager](/help/components/classifications/sets/manage/set-manager.md) en het veld Eigenaar is verwijderd uit het veld [Instellingen voor classificatieset](/help/components/classifications/sets/manage/settings.md). <p>De documentatie is bijgewerkt om dit filter, deze kolom en dit veld te verwijderen.</p> |
 | Opvouwbare secties in documentatie over het configureren van cloudimport- en exportlocaties zijn verwijderd | Opvouwbare secties uit de sectie verwijderd [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md) voor meer informatie over de typen cloudaccounts. |
