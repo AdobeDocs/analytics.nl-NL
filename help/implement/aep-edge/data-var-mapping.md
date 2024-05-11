@@ -4,28 +4,28 @@ description: Geef aan welke gegevensobjectvelden Experience Platform Edge automa
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
+source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # Gegevensobjectvariabele toewijzen aan Adobe Analytics
 
-In de volgende tabel staan de gegevensobjectvariabelen die het Adobe Experience Platform Edge Network automatisch toewijst aan Adobe Analytics. Als u deze paden voor gegevensobjectvelden gebruikt, is er geen extra configuratie nodig om gegevens naar Adobe Analytics te verzenden.
+In de volgende tabel worden de gegevensobjectvariabelen weergegeven die de Adobe Experience Platform-Edge Network automatisch toewijst aan Adobe Analytics. Als u deze paden voor gegevensobjectvelden gebruikt, is er geen extra configuratie nodig om gegevens naar Adobe Analytics te verzenden.
 
-U wordt aangeraden deze velden te gebruiken als u in de toekomst Customer Journey Analytics wilt gebruiken. Deze implementatiemethode staat uw organisatie toe om gegevens naar Adobe te verzenden gebruikend het Web SDK zonder zich aan een schema XDM in overeenstemming te brengen. Als uw organisatie klaar is om gegevens naar Adobe Experience Platform te verzenden, kunt u [DataStream-toewijzing](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) om gegevensobjectvelden te wijzen naar hun respectievelijke XDM-velden.
+U wordt aangeraden deze velden te gebruiken als u in de toekomst Customer Journey Analytics wilt gebruiken. Deze implementatiemethode staat uw organisatie toe om gegevens naar Adobe te verzenden gebruikend het Web SDK zonder zich aan een schema XDM in overeenstemming te brengen. Als uw organisatie klaar is om gegevens naar Adobe Experience Platform te verzenden, kunt u [DataStream-toewijzing](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) om gegevensobjectvelden te wijzen naar hun respectievelijke XDM-velden.
 
 ## Waardeprioriteiten
 
-De meeste gegevensobjectvelden in deze tabel komen overeen met een [toegewezen XDM-veld](xdm-var-mapping.md). Als u beide opties instelt `data` objectveld en het bijbehorende XDM-veld krijgt het gegevensobjectveld prioriteit. Als u zowel het XDM-objectveld als het gegevensobjectveld gebruikt, raadt de Adobe aan aangepaste gebeurtenissen in te stellen met behulp van het gegevensobjectveld. Als het veld `data.__adobe.analytics.events` is aanwezig, overschrijft het alle XDM objecten gebieden met betrekking tot handel en douanegebeurtenissen.
+De meeste gegevensobjectvelden in deze tabel komen overeen met een [toegewezen XDM-veld](xdm-var-mapping.md). Als u zowel een bepaald gegevensobjectveld als het bijbehorende XDM-veld instelt, krijgt het gegevensobjectveld prioriteit. Als het veld `data.__adobe.analytics.events` is aanwezig, worden alle aan gebeurtenissen gerelateerde XDM-objectvelden overschreven.
 
 Sommige gegevensobjectvelden ondersteunen ook hun respectievelijke [Parameterwaarde voor query](../validate/query-parameters.md) als stenorwaarden. U kunt standaardobjectvelden en velden voor steno-gegevensobjecten onderling verwisselbaar gebruiken, zolang ze beide voor unieke variabelen zijn. Stel niet tegelijkertijd zowel een standaard gegevensobjectveld als het desbetreffende stenogegevensobjectveld in. Adobe kan niet garanderen welk terrein prioriteit heeft.
 
 ## Gegevensobjectveldtoewijzing
 
-U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md).
+U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Net als bij AppMeasurement-variabelen zijn in alle gegevensobjectvelden hoofdlettergevoelig.
 
 | Gegevensobjectveldpad | Variabele en beschrijving voor analyse |
 | --- | --- |
