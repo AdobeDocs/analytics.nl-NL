@@ -1,20 +1,20 @@
 ---
 description: Accounts beheren in Advertising Analytics.
-title: Advertentieaccounts beheren
+title: Reclameaccounts beheren
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 7%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
-# Advertentieaccounts beheren
+# Reclameaccounts beheren
 
 U kunt tot Beheer UI toegang hebben door te navigeren aan **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 
-![](assets/manage_ad_accounts.png)
+![Advertentierekeningen](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -26,11 +26,11 @@ U kunt tot Beheer UI toegang hebben door te navigeren aan **[!UICONTROL Admin]**
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Handelingen</b> </p> </td> 
-   <td colname="col2"> <p><b>Opmerking: Handelingen worden alleen weergegeven als u ten minste één advertentieaccount hebt geselecteerd. </b> </p> </td> 
+   <td colname="col2"> <p><b>Opmerking: acties worden alleen weergegeven als u ten minste één advertentieaccount hebt geselecteerd. </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Toevoegen </p> </td> 
-   <td colname="col2"> <p>Hiermee gaat u naar de <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Advertentieaccount instellen</a> UI. </p> </td> 
+   <td colname="col2"> <p>Hiermee gaat u naar de <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >Advertentieaccount instellen</a> UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Naam wijzigen </p> </td> 
@@ -42,7 +42,7 @@ U kunt tot Beheer UI toegang hebben door te navigeren aan **[!UICONTROL Admin]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pauzeren </p> </td> 
-   <td colname="col2"> <p>Hiermee deactiveert u de account. Klik op <span class="uicontrol"> Activeren</span>. </p> </td> 
+   <td colname="col2"> <p>Hiermee deactiveert u de account. Selecteer <span class="uicontrol">Activeren</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Kolomkoppen</b> </p> </td> 
@@ -54,11 +54,11 @@ U kunt tot Beheer UI toegang hebben door te navigeren aan **[!UICONTROL Admin]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapportsuites </p> </td> 
-   <td colname="col2"> <p>De rapportsuite(s) die is/zijn toegewezen aan dit advertentieaccount. </p> </td> 
+   <td colname="col2"> <p>Het rapport bevat een uitsplitsing naar deze advertentierekening. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p>Momenteel ondersteunen we slechts één type: Zoeken. </p> </td> 
+   <td colname="col2"> <p>Er wordt slechts één type ondersteund: Zoeken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Account </p> </td> 
@@ -74,7 +74,7 @@ U kunt tot Beheer UI toegang hebben door te navigeren aan **[!UICONTROL Admin]**
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Filters</b> </p> </td> 
-   <td colname="col2"> <p>(Linkermarge) U kunt advertentierekeningen filteren op de Reeks, het Type, en de Status van het Rapport. </p> </td> 
+   <td colname="col2"> <p>(Linkermarge) U kunt advertentierekeningen filtreren door de Reeks van het Rapport, Type, en Status. </p> </td> 
   </tr> 
  </tbody> 
 </table>

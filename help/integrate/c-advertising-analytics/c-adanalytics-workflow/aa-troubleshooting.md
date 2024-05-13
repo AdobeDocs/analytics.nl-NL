@@ -3,10 +3,10 @@ description: Problemen met Advertising Analytics oplossen en oplossen.
 title: Problemen met Advertising Analytics oplossen
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 4%
+source-wordcount: '170'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Ik zie mijn rapportsuite niet in de sectie Toewijzing {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-U probeert [Een nieuwe advertentieaccount instellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) en u ziet uw rapportsuite niet in de **[!UICONTROL Select Report Suite]** vervolgkeuzelijst. Hiervoor zijn twee mogelijke redenen:
+U probeert [Een nieuwe advertentieaccount instellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) en u ziet uw rapportsuite niet in de **[!UICONTROL Mapped report suites]** vervolgkeuzelijst. Hiervoor zijn twee mogelijke redenen:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -28,7 +28,7 @@ U probeert [Een nieuwe advertentieaccount instellen](/help/integrate/c-advertisi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. De rapportsuite wordt niet toegewezen aan de Experience Cloud Org-id van de aanmeldingsgebruiker. </p> </td> 
+   <td colname="col1"> <p>1. De rapportsuite wordt niet toegewezen aan de Experience Cloud Org-id van de aanmeldgebruiker. </p> </td> 
    <td colname="col2"> <p>Neem contact op met de klantenservice om de rapportsuite toe te wijzen aan een organisatie-id.</p> </td> 
   </tr> 
   <tr> 
