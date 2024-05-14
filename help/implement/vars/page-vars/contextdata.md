@@ -4,9 +4,9 @@ description: Met contextgegevensvariabelen kunt u aangepaste variabelen definië
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 831df50a9c73522493ed60ce5df51192b6933480
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Contextgegevensvariabelen zijn handig voor ontwikkelingsteams om gegevens te ver
 
 ## Contextgegevensvariabelen die de SDK van het Web gebruiken
 
-Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md) Alle velden die niet zijn toegewezen aan een Adobe Analytics-variabele worden automatisch opgenomen als een contextgegevensvariabele. U kunt vervolgens [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) om de variabele van contextgegevens aan de gewenste variabele Analytics toe te wijzen.
+Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md) Alle velden die niet zijn toegewezen aan een Adobe Analytics-variabele worden automatisch opgenomen als een contextgegevensvariabele. U kunt ook contextgegevens met het XDM-object op expliciete wijze instellen. U kunt vervolgens [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) om de variabele van contextgegevens aan de gewenste variabele Analytics toe te wijzen.  Zie [Andere XDM-velden toewijzen aan analytische variabelen](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) voor meer informatie .
 
 Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md) alle variabelen van de contextgegevens zich binnen `data.__adobe.analytics.contextData` als sleutel-waardeparen:
 
@@ -64,8 +64,8 @@ s.contextData["example_variable"] = "Example value";
 >Contextgegevensvariabelen worden verwijderd nadat de verwerkingsregels zijn uitgevoerd. Als u geen verwerkingsregels hebt die waarden in variabelen plaatsen, worden die gegevens permanent verloren!
 
 1. Werk uw implementatie bij om namen en waarden van variabelen voor de contextgegevens in te stellen.
-2. Meld u aan bij Adobe Analytics en ga naar Beheer > Suites rapporteren.
-3. Selecteer de gewenste rapportsuite en ga naar Instellingen > Algemeen > Verwerkingsregels bewerken.
+2. Meld u aan bij Adobe Analytics en ga naar **[!UICONTROL Admin]** > **[!UICONTROL Report]** Suites.
+3. Selecteer de gewenste rapportsuite en ga naar **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
 4. Creeer een verwerkingsregel die een variabele Analytics aan de veranderlijke waarde van contextgegevens plaatst.
 5. Wijzigingen opslaan.
 
