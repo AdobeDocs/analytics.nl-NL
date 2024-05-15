@@ -4,9 +4,9 @@ description: Gebruik de extensie Mobile SDK in Adobe Experience Platform Data Co
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
+source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '454'
 ht-degree: 3%
 
 ---
@@ -39,46 +39,40 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 <tr>
 <td>2</td>
-<td><b>Installatieschema's.</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html">Overzicht van de interface Schemas</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>Een gegevensstroom configureren</b>. Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web SDK van Adobe Experience Platform.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">Een gegevensstroom configureren<a></td> 
 </tr>
 
-<td>4</td>
+<td>3</td>
 <td><b>Een Adobe Analytics-service toevoegen</b> naar uw gegevensstroom. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adobe Analytics-service toevoegen aan een gegevensstroom</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>Een mobiele eigenschap maken</b>. Een eigenschap is een container die u vult met extensies, regels, gegevenselementen en bibliotheken.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">Een mobiele eigenschap instellen</a></tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>De extensie Adobe Experience Platform Edge Network installeren</b> in de eigenschap mobile tag en configureer de datastream in de extensie.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Adobe Experience Platform Edge Network</a>
 </tr>
 
 <tr>
-<td>7</td>
+<td>6</td>
 <td><b>Code in uw app gebruiken</b> om de benodigde extensies te registreren en de tagconfiguratie te laden.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">De configuratie instellen</a></td>
 </tr>
 
 <tr>
-<td>8</td>
+<td>7</td>
 <td><b>Functies implementeren en testen</b> met een combinatie van de gegevenselementen, regels, extra extensies en API-aanroepen van de tag in uw app. Inspect, validate, en foutopsporing gegevensverzameling en ervaringen voor uw mobiele toepassing.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">De voorbeeldtoepassing gebruiken</a>
 </tr>
 
 <tr>
-<td>9</td>
+<td>8</td>
 <td><b>De implementatie van uw mobiele app uitbreiden en valideren</b> voordat het naar de productie wordt verplaatst.</td>
 <td></td> 
 </tr>
