@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
 workflow-type: tm+mt
-source-wordcount: '5379'
+source-wordcount: '5402'
 ht-degree: 21%
 
 ---
@@ -21,11 +21,12 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 ## Details over belangrijke documentatie-updates
 
-### 2024 {#24}
+### 2024 {#year2024}
 
 | Functie | Beschrijving |
 | --- | --- |
 | **Mei 2024** | |
+| XDM-objectvariabelen expliciet toewijzen aan contextgegevensvariabelen | Gedocumenteerd de capaciteit aan [expliciet variabelen voor contextgegevens instellen met XDM-objectvariabele toewijzen](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Nieuwe documentatie voor upgrade van Adobe Analytics naar Customer Journey Analytics | Voor organisaties die van Adobe Analytics aan Customer Journey Analytics bevorderen, zijn er veelvoudige verbeteringsopties en vele overwegingen om in mening te houden gebaseerd op de huidige implementatie van Adobe Analytics van een organisatie en langetermijndoelstellingen.<p>De nieuwe documentatiebronnen zijn nu beschikbaar om u te helpen beter begrijpen:</p><ul><li>De verschillende upgradepaden die bestaan</li><li>Welke verbeteringspaden beschikbaar zijn op basis van de huidige Adobe Analytics-implementatie van een organisatie</li><li>De voor- en nadelen van elk upgradepad</li><li>Stapsgewijze begeleiding voor elk verbeteringspad</li><li>Overwegingen bij de verwerking van historische gegevens</li><li>En meer!</li></ul><p>[Aan de slag met de upgrade naar Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Bijgewerkte documentatie over aangepaste datumbereiken | Bijgewerkte screenshots en procedures in verband met [aangepaste datumbereiken maken](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) in overeenstemming met de huidige productkenmerken en het huidige ontwerp. |
 | **April 2024** | |
@@ -44,7 +45,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Verduidelijkt dat bepaalde informatie slechts aan beheerders beschikbaar is | Toegevoegde informatie waarin staat dat de kolommen &quot;Laatst gebruikt&quot; en &quot;Gebruikt in&quot; die worden beschreven in [Het berekende manager van metriek](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) en [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-manage.md) zijn alleen beschikbaar voor systeembeheerders. |
 | Updates voor de documentatie van het gemiddelde minipubliek van media | Bijgewerkte informatie in [Deelvenster Gemiddeld aantal minuten voor publiek](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) ter verbetering van de duidelijkheid.<p>Tot de verbeteringen behoren:</p> <ul><li>Verbeterde organisatie van de informatie</li><li>Toegevoegde stappen om op taak-gebaseerde informatie te wijzen</li></ul> |
 
-### 2023 {#23}
+### 2023 {#year2023}
 
 | Functie | Beschrijving |
 | --- | --- |
@@ -118,7 +119,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Automatisch opslaan voor projecten | Bijgewerkte inhoud waarin automatisch opgeslagen functies zijn opgenomen [Projecten opslaan](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
 | Openingspagina | Nieuw [updates van bestemmingspagina](/help/analyze/landing.md) |
 
-### 2022 {#22}
+### 2022 {#year22}
 
 | Functie | Beschrijving |
 | --- | --- |
@@ -139,13 +140,13 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Tips voor client met hoge entropie | Nieuw onderwerp over hoe Adobe gebruikt [clienthints](/help/technotes/client-hints.md) naast Gebruiker-Agent om apparateninformatie te bepalen. |
 | Verwerkingsopdracht | Verschillende Help-pagina&#39;s zijn samengevoegd om één Help-onderwerp te bieden over [Verwerkingsopdracht](/help/technotes/processing-order.md). |
 | **augustus 2022** | |
-| Ondersteuning voor lijstvariabelen in XDM for Edge Collection | Laat klanten toe die gegevens verzamelen gebruikend het Web SDK om XDM te gebruiken om de inhoud van de lijstvariabele te specificeren. [Meer informatie](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | vrijdag 18 augustus 2022 |
+| Ondersteuning voor lijstvariabelen in XDM for Edge Collection | Laat klanten toe die gegevens verzamelen gebruikend het Web SDK om XDM te gebruiken om de inhoud van de lijstvariabele te specificeren. [Meer informatie](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
 | Gebruik van het gebied van SKU in XDM voor de Inzameling van de Rand wanneer het plaatsen van de Variabelen van het productkoord | Laat klanten toe die gegevens verzamelen gebruikend het Web SDK om de waarde van SKU te gebruiken om het productgebied in de productvariabele te plaatsen. [Meer informatie](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **Juni 2022** |  |
 | Merchandising variables in XDM for Edge Collection | Documentatie over [ondersteuning voor Merchandising-variabelen in XDM for Edge Collection](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge-documentatie | Nieuwe artikelen over Adobe Analytics-implementatie via [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md), en [Edge-API](/help/implement/aep-edge/server-api/overview.md). |
 | Bijgewerkte documentatie voor stroomvisualisatie | Op basis van de [nieuwe interface](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| Documentatie over het delen van annotaties in mobiele scorecards | U kunt [annotaties die zijn gemaakt in Workspace, in Mobile Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
+| Documentatie over het delen van annotaties in mobiele scorecards | U kunt [annotaties die zijn gemaakt in Workspace in Mobile-scènes](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Mei 2022** | |
 | De afmetingen en afmetingen van de levenscyclus door de Edge Network vullen | Gegevens over de mobiele levenscyclus die naar de Edge Network worden verzonden, worden nu weergegeven in Analytics-rapportage. Zie [Variabeletoewijzing Analyse](/help/implement/aep-edge/xdm-var-mapping.md) voor meer informatie over welke XDM-velden worden toegewezen aan de bestaande rapportage van de mobiele levenscyclus. |
 | **April 2022** | |
@@ -159,12 +160,12 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | [!UICONTROL Next item] of [!UICONTROL Previous item] Deelvenster Werkruimte | In dit deelvenster kunt u items verkennen die een dimensie-item van uw keuze volgen of er aan voorafgaan. |
 | [!UICONTROL Page Summary] Deelvenster Werkruimte | Dit deelvenster biedt een diepgaande analyse van de pagina die u kiest. |
 | Nieuw onderwerp bij het pauzeren van oudere geplande rapporten | Effectief **15 april 2022**, is de Adobe voornemens alle geplande rapporten met een aanmaakdatum van meer dan twee jaar te onderbreken |
-| **Februari 2022** |
+| **Februari 2022** | |
 | Modus voor voorvertoning van mobiel scorecard-project | De [voorbeeldmodus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#preview) kunt u een voorvertoning van de ervaring weergeven voordat u een scorecard opslaat en deelt. |
 | API-projecteindpunt | Analysis Workspace-projecten toevoegen, bewerken of verwijderen met de API. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | Bijgewerkt onderwerp bij het pauzeren van oudere geplande Report Builder taken | **15 april 2022** is de Adobe voornemens [pauzeren alle geplande Report Builder taken die meer dan twee jaar geleden werden gecreeerd](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 
-### 2021 {#21}
+### 2021 {#year2021}
 
 | Functie | Beschrijving |
 | --- | --- |
@@ -200,7 +201,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | vrijdag 14 januari 2021 | Toegevoegde documentatie over hoe u beelden aan de projecten van de Werkruimte kunt toevoegen door naar een openbare beeld URL te verwijzen. |
 | vrijdag 14 januari 2021 | Gecombineerde bron- en instellingenbeheer voor werkruimtevisualisatie: De [!UICONTROL Data Source] Beheer (punt) en instellingenbeheer (versnelling) voor visualisatie zijn gecombineerd tot één pop-up, zodat u de bron en instellingen eenvoudig vanaf dezelfde locatie kunt beheren. |
 
-### 2020 {#20}
+### 2020 {#year2020}
 
 | Functie | Beschrijving |
 | --- | --- |
@@ -267,7 +268,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 13 januari 2020 | [Adobe Analytics en browsercookies](/help/technotes/cookies/cookies.md) toegevoegd. |
 | 13 januari 2020 | Gewijzigd [Welke Adobe Analytics Tool moet ik gebruiken?](/help/analyze/get-started/which-analytics-tool.md) pagina. |
 
-### 2019 {#19}
+### 2019 {#year2019}
 
 | Functie | Beschrijving |
 | --- | --- |
@@ -287,7 +288,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 12 september 2019 | Bijwerken [Berekende totalen van metriek](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) document. |
 | 28 augustus 2019 | Nieuw artikel over [Progressieve Web Apps (PWA’s) voor Analytics](/help/technotes/pwa.md). |
 | 8 augustus 2019 | Nieuw artikel over [Berekende standaarden - totalen](/help/components/c-calcmetrics/cm-totals.md). |
-| 8 augustus 2019 | Verduidelijking over [sessiedata met tijdstempels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8 augustus 2019 | In Werkruimte, verhoogde de Adobe de grens van punten die in een statische drop-down filter van 50 tot 200 kunnen worden geplaatst. Deze verbetering is nuttig voor een groot aantal gebruikssituaties, zoals het toevoegen van alle landen (195) aan een filter, of alle staten en provincies in de VS (52). |
+| 8 augustus 2019 | Verduidelijking over [sessiedata met tijdstempels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). |
+| 8 augustus 2019 | In Werkruimte, verhoogde de Adobe de grens van punten die in een statische drop-down filter van 50 tot 200 kunnen worden geplaatst. Deze verbetering is nuttig voor een groot aantal gebruikssituaties, zoals het toevoegen van alle landen (195) aan een filter, of alle staten en provincies in de VS (52). |
 | 2 augustus 2019 | Belangrijke update van de [Analytics-woordenlijst](/help/technotes/terms.md). |
 | 22 juli 2019 | Magento: Marketing- en Commerce-sjabloon toegevoegd aan de documentatie over [Analysis Workspace-sjablonen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18 juli 2019 | Bijgewerkte [Cohorttabel-instellingen](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
