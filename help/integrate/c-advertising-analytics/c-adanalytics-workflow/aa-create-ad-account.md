@@ -3,7 +3,7 @@ title: Een advertentieaccount instellen in Advertising Analytics
 description: In dit artikel wordt uitgelegd hoe u nieuwe advertentierekeningen maakt en meerdere accounts toewijst aan meerdere rapportensuites.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Beheerders kunnen ook [toegang verlenen aan niet-beheerders](/help/integrate/c-a
 1. Navigeer in Adobe Analytics naar **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 1. (Alleen voor de eerste keer) Accepteer de voorwaarden van de licentieovereenkomst voor eindgebruikers.
 1. Selecteren **[!UICONTROL + Add]**.
-1. De [!UICONTROL New search engine setting] wordt weergegeven:
+1. De [!UICONTROL New search engine setting] wordt weergegeven.
 
    ![](assets/aa-new-se-account.png)
 
