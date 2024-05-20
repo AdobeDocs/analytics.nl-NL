@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
+source-git-commit: 556f2131de980362094c691e8de61c6b077b5c15
 workflow-type: tm+mt
-source-wordcount: '5402'
+source-wordcount: '5419'
 ht-degree: 21%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **Mei 2024** | |
+| Bijgewerkte Advertising Analytics-documentatie | Bijgewerkte documentatie in overeenstemming met de updates aan [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) gebruikersinterface. |
 | XDM-objectvariabelen expliciet toewijzen aan contextgegevensvariabelen | Gedocumenteerd de capaciteit aan [expliciet variabelen voor contextgegevens instellen met XDM-objectvariabele toewijzen](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Nieuwe documentatie voor upgrade van Adobe Analytics naar Customer Journey Analytics | Voor organisaties die van Adobe Analytics aan Customer Journey Analytics bevorderen, zijn er veelvoudige verbeteringsopties en vele overwegingen om in mening te houden gebaseerd op de huidige implementatie van Adobe Analytics van een organisatie en langetermijndoelstellingen.<p>De nieuwe documentatiebronnen zijn nu beschikbaar om u te helpen beter begrijpen:</p><ul><li>De verschillende upgradepaden die bestaan</li><li>Welke verbeteringspaden beschikbaar zijn op basis van de huidige Adobe Analytics-implementatie van een organisatie</li><li>De voor- en nadelen van elk upgradepad</li><li>Stapsgewijze begeleiding voor elk verbeteringspad</li><li>Overwegingen bij de verwerking van historische gegevens</li><li>En meer!</li></ul><p>[Aan de slag met de upgrade naar Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Bijgewerkte documentatie over aangepaste datumbereiken | Bijgewerkte screenshots en procedures in verband met [aangepaste datumbereiken maken](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) in overeenstemming met de huidige productkenmerken en het huidige ontwerp. |
