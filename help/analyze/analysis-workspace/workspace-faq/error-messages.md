@@ -4,9 +4,9 @@ title: Algemene foutberichten in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: b844fb354c16a80e4044e3bae8cb47aa042a0d59
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ Er kunnen fouten optreden bij de interactie met Analysis Workspace die ook van i
 
 | Foutbericht | Waarom gebeurt dit? | Optimalisatie |
 | --- | --- | --- |
+| [!UICONTROL The report suite is currently exceeding its reporting capacity. Please simplify the request or try again later.] | Uw rapportageaanvraag is te complex en moet worden vereenvoudigd. | Verfijn uw rapportcriteria en probeer het verzoek opnieuw. |
 | [!UICONTROL A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.] | Adobe heeft te maken met een probleem dat moet worden opgelost. | Stuur de foutcode naar de klantenservice. |
 | [!UICONTROL An unexpected error has occurred; try refreshing your project again. If the problem persists, please submit this error ID to Adobe Customer Care for further diagnosis.] | Adobe heeft te maken met een probleem dat moet worden opgelost. | Vernieuw uw project en als het probleem zich blijft voordoen, dient u de foutcode in bij de klantenservice. |
 | [!UICONTROL Error 500: Failed to load page] | De kwesties met uw lokaal netwerk, zoals bedrijf [firewallinstellingen](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html), een factor die aan deze fout bijdraagt. Bovendien kan Adobe een probleem ervaren dat moet worden opgelost. | Meld u na enkele minuten opnieuw aan. Als het probleem zich blijft voordoen, dient u de EIM-ID-code van de instantie in bij de klantenservice. |
