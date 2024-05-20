@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
+source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 12%
+source-wordcount: '1007'
+ht-degree: 11%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 12%
 + [Openingspagina](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Overzicht van Analysis Workspace](analysis-workspace/home.md)
-   + [Nieuwe functies in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Projecten {#build-workspace-project}
       + [Overzicht van projecten](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten maken](analysis-workspace/build-workspace-project/create-projects.md)
@@ -49,6 +48,7 @@ ht-degree: 12%
       + [Bedrijfsrapporten maken en beheren](analysis-workspace/reports/create-company-reports.md)
    + Onderdelen {#components}
       + [Overzicht van componenten](analysis-workspace/components/analysis-workspace-components.md)
+      + [Componenten in werkruimte gebruiken](analysis-workspace/components/use-components-in-workspace.md)
       + [Componentbeschrijvingen toevoegen](analysis-workspace/components/add-component-descriptions.md)
       + Annotaties {#annotations}
          + [Overzicht van annotaties](analysis-workspace/components/annotations/overview.md)

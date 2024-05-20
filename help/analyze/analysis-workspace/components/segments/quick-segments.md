@@ -4,9 +4,9 @@ title: Snelle segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+source-git-commit: 0610cb263f2c5e7cc337b9a8f8df5766736f4fb8
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,11 @@ Een snel segment maken:
 
 1. Kies een van de volgende methoden om het snelsegment te maken:
 
-   * **Ad hoc (slepen en neerzetten):** Sleep een component van de linkerspoorstaaf naar de neerzetzone naast de **Segment** in de koptekst van het deelvenster en selecteert u vervolgens het pictogram **Bewerken** pictogram om het segment aan te passen.
+   * **Ad hoc (slepen en neerzetten):** Sleep een component vanuit de linkerrail naar de neerzetzone van het segment in de koptekst van het deelvenster.
 
-     ![Ad-hocsegment bewerken](assets/filter-adhoc-edit.png)
+     ![een segment neerzetten in de neerzetzone](assets/segment-dropzone.png)
+
+     U kunt het segment bewerken zoals beschreven in [Snel segmenten bewerken](#edit-quick-segments).
 
      >[!NOTE]
      >

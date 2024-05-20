@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 556f2131de980362094c691e8de61c6b077b5c15
+source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
 workflow-type: tm+mt
-source-wordcount: '5419'
+source-wordcount: '5442'
 ht-degree: 21%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **Mei 2024** | |
+| Documentatie over het toevoegen van componenten aan projecten | Algemene informatie toegevoegd over hoe [de verschillende soorten componenten toevoegen aan projecten in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Bijgewerkte Advertising Analytics-documentatie | Bijgewerkte documentatie in overeenstemming met de updates aan [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) gebruikersinterface. |
 | XDM-objectvariabelen expliciet toewijzen aan contextgegevensvariabelen | Gedocumenteerd de capaciteit aan [expliciet variabelen voor contextgegevens instellen met XDM-objectvariabele toewijzen](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Nieuwe documentatie voor upgrade van Adobe Analytics naar Customer Journey Analytics | Voor organisaties die van Adobe Analytics aan Customer Journey Analytics bevorderen, zijn er veelvoudige verbeteringsopties en vele overwegingen om in mening te houden gebaseerd op de huidige implementatie van Adobe Analytics van een organisatie en langetermijndoelstellingen.<p>De nieuwe documentatiebronnen zijn nu beschikbaar om u te helpen beter begrijpen:</p><ul><li>De verschillende upgradepaden die bestaan</li><li>Welke verbeteringspaden beschikbaar zijn op basis van de huidige Adobe Analytics-implementatie van een organisatie</li><li>De voor- en nadelen van elk upgradepad</li><li>Stapsgewijze begeleiding voor elk verbeteringspad</li><li>Overwegingen bij de verwerking van historische gegevens</li><li>En meer!</li></ul><p>[Aan de slag met de upgrade naar Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
@@ -300,7 +301,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 4 juni 2019 | Nieuwe handleiding getiteld [Overgang van een analyseplatform van derden naar Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30 mei 2019 | Herziening van de [Datafeed-kolomverwijzing](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | vrijdag 9 mei 2019 | Er is een nieuwe instelling toegevoegd aan de instellingen voor stroomvisualisatie: Inclusief herhalingsinstanties. Zie [Stroominstellingen](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| 11 april 2019 | Verbeteringen voor best practices voor optimalisatie werkruimte: [Prestaties optimaliseren](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
+| 11 april 2019 | Verbeteringen voor beste werkruimtenoptimalisatie: Prestaties optimaliseren |
 | 11 april 2019 | Updates van [Workspace-prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 maart 2019 | Belangrijke update voor regionale gegevensverzameling. |
 | 7 februari 2019 | Kleine update van “Laatste last van IP-adressen vervangen door 0” en de instellingen voor “IP onzichtbaar maken” in [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |

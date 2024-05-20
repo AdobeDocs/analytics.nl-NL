@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Locatiebeheer
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -73,13 +73,15 @@ Zie voor informatie over het bewerken van een locatie [Locaties voor het importe
 >
 >Als u een locatie verwijdert, moet u [uw gegevensfeeds bewerken](/help/export/analytics-data-feed/create-feed.md), [Rapporten Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), en [Schema&#39;s voor classificatiesets](/help/components/classifications/sets/manage/schema.md) om een functionerende locatie te gebruiken.
 
-Een locatie verwijderen:
+Een locatie verwijderen in Locations Manager in Adobe Analytics:
+
+1. Selecteren **[!UICONTROL Components]** > **[!UICONTROL Locations]** en selecteert u vervolgens de [!UICONTROL **Locaties**] tab.
 
 1. Selecteer het menu met drie punten in het dialoogvenster [!UICONTROL **Locatienaam**] kolom voor de locatie die u wilt verwijderen.
 
 1. Selecteren [!UICONTROL **Verwijderen**].
 
-## Accounts bewerken
+## Een account bewerken
 
 1. Als u accounts wilt bewerken in Locations Manager in Adobe Analytics, selecteert u **[!UICONTROL Components]** > **[!UICONTROL Locations]** en selecteert u vervolgens de [!UICONTROL **Locatieaccounts**] tab.
 
@@ -100,7 +102,7 @@ Aan menings sleutels verbonden aan een de uitvoerrekening:
 
 1. Selecteer het pictogram met drie punten op de account die u wilt bewerken en selecteer vervolgens [!UICONTROL **Accountsleutels**].
 
-## Accounts verwijderen
+## Een account verwijderen
 
 1. Selecteer in Adobe Analytics **[!UICONTROL Components]** > **[!UICONTROL Locations]** en selecteert u vervolgens de [!UICONTROL **Locatieaccounts**] tab.
 

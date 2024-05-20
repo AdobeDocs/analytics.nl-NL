@@ -3,10 +3,10 @@ description: Leer de basisbeginselen van het maken van een project in Analysis W
 title: Projecten maken
 feature: Workspace Basics
 role: User, Admin
-exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
-source-git-commit: fabe043264e4567d54dc497897fff0aaad77eaaf
+exl-id: 24193013-1361-43fc-b129-c44f207d9101
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
       * **Leeg project** als u van plan bent om uw analyse van browser te delen
       * [**Lege mobiele scorecard**](/help/analyze/mobile-app/curator.md) als u uw analyse wilt delen via de mobiele app voor Adobe Analytics-dashboards.
 
-   1. Selecteer [!UICONTROL **Maken**].
+   1. Selecteren [!UICONTROL **Maken**].
 
 +++
 
@@ -98,13 +98,21 @@ Een visualisatie toevoegen:
 >
 >Voor informatie over elke component, selecteer het pictogram van Info naast de naam van een component in de linkerspoorstaaf, of zie [Handleiding Analytics Components](/help/components/home.md).
 
-Een component toevoegen:
+Hier volgt basisinformatie over het toevoegen van een component aan een project in Analysis Workspace. Voor meer gedetailleerde informatie over het toevoegen van de diverse soorten componenten (afmetingen, metriek, segmenten, en datumwaaiers), zie [Componenten in Analysis Workspace gebruiken](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+
+Een component toevoegen aan een project in Analysis Workspace:
 
 1. Selecteer de **[!UICONTROL Components]** in de linkerspoorstaaf.
 
    ![](assets/build-components.png)
 
-1. Zoek naar de component u wilt toevoegen. Wanneer het in de linkerspoorstaaf verschijnt, sleep het aan een paneel of visualisatie binnen uw project.
+1. Blader naar of zoek naar de component die u wilt toevoegen en sleep deze naar een deelvenster of een visualisatie in uw project.
+
+   U kunt bijvoorbeeld een segment naar de neerzetzone van het segment in een deelvensterkop slepen.
+
+   ![een segment neerzetten in de neerzetzone](assets/segment-dropzone.png)
+
+   Voor meer informatie over het toevoegen van componenten aan projecten, zie [Componenten in Analysis Workspace gebruiken](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 1. (Optioneel) Deel het project zoals beschreven in [Het project opslaan en delen](#save-and-share-the-project).
 
