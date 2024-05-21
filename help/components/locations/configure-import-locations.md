@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Locaties voor het importeren en exporteren van cloud configureren
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 5bf6ed9b71a87d79fec960b6618667238019ac7f
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,15 @@ U kunt een cloudaccount (en een locatie op dat account) configureren. Eén locat
 
 U moet Adobe Analytics configureren met de benodigde informatie voor toegang tot uw cloud-account. Dit proces bestaat uit het toevoegen en configureren van de account (zoals Amazon S3 Role ARN, Google Cloud Platform enzovoort) zoals beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md)en vervolgens de locatie binnen die account toevoegen en configureren (zoals beschreven in dit artikel).
 
-## Beginnen met het maken of bewerken van een exportlocatie voor een cloud
+Voor informatie over hoe u bestaande locaties kunt beheren, zoals het weergeven, bewerken en verwijderen van locaties, raadpleegt u [Locatiebeheer](/help/components/locations/locations-manager.md).
+
+## Beginnen met het maken van een exportlocatie voor de cloud
 
 1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Locaties**].
 1. Op de [!UICONTROL Locations] pagina, selecteert u de [!UICONTROL **Locaties**] tab.
-1. Als u een nieuwe locatie wilt maken, selecteert u [!UICONTROL **Locatie toevoegen**]. (Als u nog geen account hebt toegevoegd, voegt u een account toe zoals beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md).)
+1. Selecteren [!UICONTROL **Locatie toevoegen**]. (Als u nog geen account hebt toegevoegd, voegt u een account toe zoals beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md).)
 
-   of
-
-   Als u een bestaande locatie wilt bewerken, selecteert u het menu met drie punten in het dialoogvenster [!UICONTROL **Locatienaam**] kolom voor de locatie die u wilt bewerken, selecteert u [!UICONTROL **Bewerken**].
-Het dialoogvenster Locatie wordt weergegeven.
+   Het dialoogvenster Locatie wordt weergegeven.
 
 1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Gebruiken met**] | Selecteer of u deze locatie wilt gebruiken met [!UICONTROL **Gegevensfeeds**], [!UICONTROL **Data Warehouse**], of [!UICONTROL **Classificatiesets**]. <p>Houd rekening met het volgende wanneer u een selectie maakt:</p><ul><li>Eén locatie kan niet voor meerdere doeleinden worden gebruikt. Een locatie die bijvoorbeeld wordt gebruikt voor gegevensfeeds, kan niet ook worden gebruikt voor Data Warehouse- of classificatiesets.</li><li>Wijzig de waarde van de optie [!UICONTROL **Gebruiken met**] veld nadat de locatie is gebruikt.</li></ul> | | [!UICONTROL **Locatieaccount**] | Selecteer de locatie waar u deze locatie wilt maken. Voor informatie over het maken van een account raadpleegt u [Een account toevoegen](#add-an-account). |
 

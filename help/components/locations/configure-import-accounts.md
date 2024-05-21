@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloud-import- en exportaccounts configureren
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,15 @@ U kunt een cloudaccount configureren die wordt gebruikt voor een of meer van de 
 
 U moet Adobe Analytics configureren met de benodigde informatie voor toegang tot uw cloud-account. Dit proces bestaat uit het toevoegen en configureren van de account (zoals Amazon S3 Role ARN, Google Cloud Platform enzovoort) zoals beschreven in dit artikel, en het toevoegen en configureren van de locatie binnen die account (zoals een map binnen de account) zoals beschreven in [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
 
+Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven, bewerken en verwijderen van accounts naar [Locatiebeheer](/help/components/locations/locations-manager.md).
+
 Een cloudimport- of -exportaccount configureren:
 
 1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Locaties**].
 1. Op de [!UICONTROL Locations] pagina, selecteert u de [!UICONTROL **Locatieaccounts**] tab.
-1. Als u een nieuwe account wilt maken, selecteert u [!UICONTROL **Account toevoegen**].
+1. Selecteren [!UICONTROL **Account toevoegen**].
 
    Het dialoogvenster Account toevoegen wordt weergegeven.
-
-   of
-
-   Als u een bestaande account wilt bewerken, selecteert u [!UICONTROL **Details weergeven**] in de tegel die het account weergeeft dat u wilt bewerken.
-Het dialoogvenster Locatie wordt weergegeven.
-
-   Het dialoogvenster Locatieaccountgegevens wordt weergegeven
-
 
 1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam van locatieaccount**] | De naam van het locatieaccount. Deze naam wordt weergegeven wanneer u een locatie maakt | | [!UICONTROL **Beschrijving van locatieaccount**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Accounttype**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account. |
 1. In de [!UICONTROL **Accounteigenschappen**] in, geeft u specifieke informatie op over het accounttype dat u hebt geselecteerd.
