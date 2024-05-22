@@ -3,16 +3,16 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9821150194e6bc89a5a2dec15a7957aaa177948e
+source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
 
 # Huidige Adobe Analytics-releaseopmerkingen (mei 2024)
 
-**Laatste update**: 21 mei 2024
+**Laatste update**: 22 mei 2024
 
 Deze releaseopmerkingen hebben betrekking op de releaseperiode van 15 mei 2024 tot en met juni. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -48,8 +48,8 @@ AN-327749; AN-332949; AN-342881; AN-343171; AN-343708; AN-344034; AN-34559; AN 3
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
+| **13 maanden verlopen van opgeslagen`cust_visids`** | donderdag 22 mei 2024 | Een volgende release van de Analytics Hit-verwerkingsengine. **gericht voor juli 2024**, wordt een 13 maanden durende vervaldatum van opgeslagen `cust_visids`. Als de rapportsuite &#39;Enable Visitor Stitching&#39; heeft ingeschakeld, wordt deze instelling gebruikt voor het zoeken van de `cust_visid` voor een `visid_high/visid_low value` zonder `cust_visid` op de hit. Er is momenteel geen vervaldatum voor de toewijzing van een `cust_visid` voor een `visid_high/visid_low`. Met deze release, als er sinds 13 maanden of meer verstreken zijn `visid_high/visid_low` heeft een `cust_visid` bij een hit verloopt de toewijzing. |
 | **Updates van ISO-regio** | zaterdag 10 mei 2024 | Adobe voert op 7 juni 2024 updates voor de ISO-regio uit voor 2024. Verwacht dat er na deze release kleine geo-informatie (regio) updates worden weergegeven. |
-| **13 maanden verlopen van opgeslagen`cust_visids`** | donderdag 20 maart 2024 | Een aanstaande versie van de Analytics Hit-verwerkingsengine, bedoeld voor april of mei, zal een 13 maanden durende vervaldatum van opgeslagen `cust_visids`. Als de rapportsuite &#39;Enable Visitor Stitching&#39; heeft ingeschakeld, wordt deze instelling gebruikt voor het zoeken van de `cust_visid` voor een `visid_high/visid_low value` zonder `cust_visid` op de hit. Er is momenteel geen vervaldatum voor de toewijzing van een `cust_visid` voor een `visid_high/visid_low`. Met deze release, als er sinds 13 maanden of meer verstreken zijn `visid_high/visid_low` heeft een `cust_visid` bij een hit verloopt de toewijzing. |
 
 {style="table-layout:auto"}
 
