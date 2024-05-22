@@ -4,7 +4,7 @@ title: Data Privacy-labels voor Analytics-variabelen
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
 source-wordcount: '3532'
 ht-degree: 62%
@@ -93,9 +93,9 @@ Wanneer u een variabele als ID-DEVICE of ID-PERSON labelt, wordt u gevraagd om e
 Als u eerder een id-label hebt toegewezen aan andere variabelen in een van de rapportsuites in uw aanmeldingsbedrijf, kunt u één van deze bestaande naamruimten selecteren. U moet de naamruimte opnieuw gebruiken als deze variabele hetzelfde soort id&#39;s bevat als andere variabelen die al zijn gelabeld met deze naamruimte, en als u alle variabelen wilt doorzoeken bij het verzenden van een aanvraag.
 
 1. Klik op **[!UICONTROL Select Namespace]** en selecteer een van de bestaande naamruimten.
+   ![](assets/namespace.png)
 1. Klik op **[!UICONTROL Apply]**.
 
-![](assets/namespace.png)
 
 ### Een nieuwe naamruimte definiëren
 
@@ -218,7 +218,7 @@ In de volgende tabel wordt beschreven hoe verschillende variabelen worden “ver
 
 | Variabelen | Verwijderingsmethode |
 | --- | --- |
-| <ul><li>Verkeersvariabelen (profielen)</li><li>Handelsvariabelen (eVars)</li></ul> | Bestaande waarde wordt vervangen door een nieuwe waarde in de vorm &quot;Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482&quot;, waarbij de hexadecimale waarde van 32 cijfers na het voorvoegsel &quot;Data Privacy-&quot; een cryptografisch sterk 128-bits pseudorandom getal is.<p>Omdat het in wezen door een willekeurig koord wordt vervangen, is er geen manier om de originele waarde van deze nieuwe waarde te bepalen, en geen manier om de nieuwe waarde af te leiden wetend de originele waarde.  Als voor een bepaalde variabele de identieke waarde als de vervangen waarde optreedt in andere treffers die eveneens worden verwijderd als deel van dezelfde Data Privacy-aanvraag, worden alle instanties van deze waarde vervangen door dezelfde nieuwe waarde.<p>Als sommige instanties van een waarde worden vervangen door één verwijderingsaanvraag, en een latere aanvraag andere (nieuwe) instanties van de oorspronkelijke waarde verwijdert, is de nieuwe vervangende waarde anders dan de oorspronkelijke vervangende waarde. |
+| <ul><li>Verkeersvariabelen (profielen)</li><li>Commerce-variabelen (eVars)</li></ul> | Bestaande waarde wordt vervangen door een nieuwe waarde in de vorm &quot;Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482&quot;, waarbij de hexadecimale waarde van 32 cijfers na het voorvoegsel &quot;Data Privacy-&quot; een cryptografisch sterk 128-bits pseudorandom getal is.<p>Omdat het in wezen door een willekeurig koord wordt vervangen, is er geen manier om de originele waarde van deze nieuwe waarde te bepalen, en geen manier om de nieuwe waarde af te leiden wetend de originele waarde.  Als voor een bepaalde variabele de identieke waarde als de vervangen waarde optreedt in andere treffers die eveneens worden verwijderd als deel van dezelfde Data Privacy-aanvraag, worden alle instanties van deze waarde vervangen door dezelfde nieuwe waarde.<p>Als sommige instanties van een waarde worden vervangen door één verwijderingsaanvraag, en een latere aanvraag andere (nieuwe) instanties van de oorspronkelijke waarde verwijdert, is de nieuwe vervangende waarde anders dan de oorspronkelijke vervangende waarde. |
 | Aankoop-id | De bestaande waarde wordt vervangen door een nieuwe waarde met de vorm “G-7588FCD8642718EC50”, waarbij de hexadecimale waarde van 18 cijfers na het voorvoegsel “G-” de eerste 18 cijfers zijn van een cryptografisch sterk 128-bits pseudorandomgetal. Alle opmerkingen die gelden voor verwijdering van traffic- en commerce-variabelen, gelden hier ook.<p>De aankoop-id is een transactie-id die als belangrijkste doel heeft ervoor te zorgen dat een aankoop niet tweemaal in rekening wordt gebracht, bijvoorbeeld wanneer iemand de pagina met de aankoopbevestiging vernieuwt. De id zelf kan de aankoop koppelen aan een rij in uw eigen database waarin de aankoop is vastgelegd. In de meeste gevallen is het niet nodig deze id te verwijderen, zodat deze niet standaard wordt verwijderd.<p>Als u de aankoop na de Data Provacy-verwijderingsaanvraag van uw eigen data nog steeds aan een gebruiker kunt koppelen, moet u dit veld mogelijk verwijderen, zodat de Analytics-data voor deze bezoeker niet aan de koper kunnen worden gekoppeld. |
 | Bezoekers-id | Waarde is een 128-bits geheel getal en wordt vervangen door een cryptografisch sterke pseudorandomwaarde van 128 bits. |
 | <ul><li>MCID</li><li>Aangepaste bezoekers-id</li><li>IP-adres</li><li>IP-adres 2 | Waarde wordt gewist (ingesteld op de lege tekenreeks of op 0, afhankelijk van het type variabele). |

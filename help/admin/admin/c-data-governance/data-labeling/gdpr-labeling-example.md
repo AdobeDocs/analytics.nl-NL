@@ -4,10 +4,10 @@ title: Voorbeelden van labels
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 54%
+source-wordcount: '932'
+ht-degree: 46%
 
 ---
 
@@ -35,12 +35,14 @@ Stel dat u de volgende treffersdata hebt:
 
 ## Voorbeeld van toegangsaanvraag {#access}
 
-Als ik een toegangsverzoek indient, bevat het samenvattingsbestand de waarden die in de onderstaande tabel worden vermeld. Een aanvraag kan alleen een apparaatbestand, alleen een persoonsbestand, of één van beide retourneren. Twee overzichtsbestanden worden alleen geretourneerd als een persoons-id wordt gebruikt en expandIds waar is.
+Als u een toegangsverzoek indient, ontvangt u twee bestanden die u naar de betrokkene kunt terugsturen. Eén bestand is een CSV-bestand dat één rij bevat voor elke treffer die voor de betrokkene is ontvangen en een kolom voor elke variabele met het juiste toegangslabel. Het andere bestand is een summiere HTML-bestand waarin elke variabele wordt vermeld, gevolgd door alle unieke waarden die voor die variabele voor de betrokkene worden gezien en het aantal keren dat elke unieke waarde werd gezien.
+
+Het samenvattingsbestand bevat bijvoorbeeld de waarden die in de onderstaande tabel worden aangegeven. Een aanvraag kan alleen een apparaatbestand, alleen een persoonsbestand, of één van beide retourneren. Twee samenvattingsbestanden worden alleen geretourneerd als een persoon-id wordt gebruikt en `expandIds` is waar.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API-waarden</th>
-    <th rowspan="2">Geretourneerd<br>Bestandstype</th>
+    <th rowspan="2">Samenvatting<br/>bestandstype<br/>geretourneerd</th>
     <th colspan="5" style="text-align:center">Gegevens in toegangsbestand overzicht</th>
   </tr>
   <tr>
@@ -140,7 +142,7 @@ Als ik een toegangsverzoek indient, bevat het samenvattingsbestand de waarden di
   </tr>
 </table>
 
-Bedenk dat de instelling voor expandIDs niet uitmaakt voor de uitvoer wanneer een cookie-id wordt gebruikt.
+De instelling voor `expandIDs` heeft geen invloed op de uitvoer wanneer een cookie-id wordt gebruikt.
 
 ## Voorbeeld verzoeken verwijderen {#delete}
 
@@ -217,7 +219,7 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
 
 >[!NOTE]
 >
->Alleen cellen op rijen met AID = 77 en een DEL-DEVICE-label worden beïnvloed.
+>Alleen kolommen op rijen die `AAID=77` en `DEL-DEVICE` het label wordt beïnvloed.
 
 <table>
   <tr>
@@ -290,7 +292,7 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
 
 >[!NOTE]
 >
->Alleen cellen op rijen met user=Mary en een DEL-PERSON-label worden beïnvloed. In de praktijk zou de variabele die A_ID bevat waarschijnlijk ook een proxy of een eVar zijn. Zijn vervangingswaarde zou een koord zijn dat met &quot;Privacy-&quot;begint, door een willekeurig aantal (GUID) wordt gevolgd, eerder dan het vervangen van de numerieke waarde met een verschillende, willekeurige numerieke waarde die.
+>Alleen celcolumnslets op rijen die `user=Mary` en `DEL-PERSON` het label wordt beïnvloed. In de praktijk bevat de variabele `A_ID` zou waarschijnlijk een prop of een eVar zijn. De vervangingswaarde zou een tekenreeks zijn die begint met `Privacy-`gevolgd door een willekeurig getal (GUID) in plaats van de numerieke waarde te vervangen door een andere willekeurige numerieke waarde.
 
 <table>
   <tr>

@@ -4,10 +4,10 @@ title: Best practices voor labelen
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
 workflow-type: tm+mt
-source-wordcount: '2676'
-ht-degree: 78%
+source-wordcount: '2692'
+ht-degree: 75%
 
 ---
 
@@ -103,15 +103,15 @@ Hoewel heel weinig velden een van de andere labels hebben, komt het vaak voor da
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Alleen apparaat-id's </p> </td> 
-   <td colname="col2"> <p>Als de enige id's die u gebruikt, cookie-id's zijn, of id's met een ID-DEVICE-label, moet u alleen het ACC-ALL-label gebruiken. </p> <p>U zult één paar dossiers voor elke toegangsverzoek krijgen, één die een rij voor elke passende klap met alle gespecificeerde ACC-ALLE gebieden en andere bevat een samenvatting van deze gegevens bevat. </p> </td> 
+   <td colname="col2"> <p>Als de enige id's die u gebruikt, cookie-id's zijn, of id's met een ID-DEVICE-label, moet u alleen het ACC-ALL-label gebruiken. </p> <p>Voor elke toegangsaanvraag krijgt u één paar bestanden: één bestand met een rij voor elke overeenkomende hit met alle opgegeven ACC-ALL-velden en een samenvattingsbestand met een samenvatting van deze gegevens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Persoons-id's zonder id-uitbreiding </p> </td> 
-   <td colname="col2"> <p>Als u alleen aangepaste id's gebruikt met het label ID-PERSON die geen id-uitbreiding hebben, moet u ACC-PERSON-labels gebruiken. U hoeft echter niet de standaard ACC-ALL-labels te wijzigen; deze velden worden automatisch opgenomen in de toegangsaanvraag. </p> <p>U krijgt één paar bestanden voor elke toegangsaanvraag, één met een rij voor elke overeenkomende treffer met alle gespecificeerde ACC-DEVICE- en ACC-PERSON-velden, en een tweede met een overzicht van deze data. </p> </td> 
+   <td colname="col2"> <p>Als u alleen aangepaste id's gebruikt met het label ID-PERSON die geen id-uitbreiding hebben, moet u ACC-PERSON-labels gebruiken. U hoeft echter niet de standaard ACC-ALL-labels te wijzigen; deze velden worden automatisch opgenomen in de toegangsaanvraag. </p> <p>Voor elke toegangsaanvraag krijgt u één paar bestanden: één bestand met een rij voor elke overeenkomende hit met alle opgegeven ACC-DEVICE- en ACC-PERSON-velden en een samenvattingsbestand met een overzicht van deze gegevens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gemengde id's en/of id-uitbreiding </p> </td> 
-   <td colname="col2"> <p>Als u in Data Privacy-aanvragen zowel apparaat- als persoons-id’s opneemt, of als u aangepaste id's gebruikt (aangepaste bezoekers-id of een id in een prop of eVar), moet u opletten welke ACC-labels u gebruikt. Elk toegangsverzoek zal twee paren gegevensdossiers terugkeren, één paar die gegevens van klappen bevatten die een overeenkomende persoonsidentiteitskaart bevatten en andere die gegevens van klappen bevatten die geen persoonsidentiteitskaart aanvielen, maar een apparatenidentiteitskaart aanpaste. </p> <p>De bestanden met persoons-id bevatten data van alle treffers die overeenkomen met de persoons-id's met alle velden met een ACC-PERSON- of een ACC-ALL-label (één bestand met alle overeenkomende treffers en het andere als overzicht). </p> <p>Het bestandspaar met apparaat-id bevat alleen velden met een ACC-ALL-label en bevat alleen treffers die geen overeenkomende persoons-id bevatten. Deze bestanden kunnen gegevens bevatten die zijn gegenereerd door andere gebruikers van een gedeeld apparaat. Denk daarom zorgvuldig na over de set velden die het ACC-ALL-label bevatten. Bij de standaardlabeling in Analytics wordt dit label uitsluitend toegepast op generieke informatievelden die met het apparaat te maken hebben (apparaattype, besturingssysteem, browser, enzovoort.) plus de datum/tijd van elke treffer. </p> <p>U kunt ervoor kiezen om zowel de apparaatbestandsreeksen als de persoonsbestandsreeksen van Adobe te ontvangen en vervolgens alleen de persoonsbestanden te delen, zodat data die mogelijk door andere gebruikers van een gedeeld apparaat zijn gegenereerd, niet worden gedeeld. Of u wilt gegevens uit een of beide sets combineren met andere informatie die u over het onderwerp kent en deze in uw eigen indeling retourneren. </p> </td> 
+   <td colname="col2"> <p>Als u in Data Privacy-aanvragen zowel apparaat- als persoons-id’s opneemt, of als u aangepaste id's gebruikt (aangepaste bezoekers-id of een id in een prop of eVar), moet u opletten welke ACC-labels u gebruikt. Elk toegangsverzoek zal twee paren gegevensdossiers terugkeren. <p>Een paar bestanden met een bestand met gegevens uit treffers die een overeenkomende persoon-id bevatten en een ander bestand met gegevens uit treffers die niet overeenkomen met een persoon-id, maar wel met een apparaat-id. </p> <p>Het andere paar ("persoon ID"dossiers) bevat gegevens over alle treffers die de persoon IDs met alle gebieden aanpassen die of ACC-PERSON of en ACC-ALL etiket hebben. Eén bestand met alle overeenkomende resultaten en een ander samenvattingsbestand met een overzicht van deze gegevens. </p> <p>Het bestandspaar met apparaat-id bevat alleen velden met een ACC-ALL-label en bevat alleen treffers die geen overeenkomende persoons-id bevatten. Deze bestanden kunnen gegevens bevatten die zijn gegenereerd door andere gebruikers van een gedeeld apparaat. Denk daarom zorgvuldig na over de set velden die het ACC-ALL-label bevatten. Bij de standaardlabeling in Analytics wordt dit label uitsluitend toegepast op generieke informatievelden die met het apparaat te maken hebben (apparaattype, besturingssysteem, browser, enzovoort.) plus de datum/tijd van elke treffer. </p> <p>U kunt ervoor kiezen om zowel de apparaatbestandsreeksen als de persoonsbestandsreeksen van Adobe te ontvangen en vervolgens alleen de persoonsbestanden te delen, zodat data die mogelijk door andere gebruikers van een gedeeld apparaat zijn gegenereerd, niet worden gedeeld. Of u wilt gegevens uit een of beide sets combineren met andere informatie die u over het onderwerp kent en deze in uw eigen indeling retourneren. </p> </td> 
   </tr> 
  </tbody> 
 </table>

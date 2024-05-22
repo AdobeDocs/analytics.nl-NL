@@ -4,10 +4,10 @@ title: Adobe Analytics en CCPA
 feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 94%
+source-wordcount: '593'
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ Als datacontroller bepaalt u welke persoonlijke data Adobe namens u verwerkt en 
 
 ## Hoe Adobe omgaat met CCPA-data
 
-Het Adobe Cloud Platform (ACP) biedt een geïntegreerde oplossing waarmee de infrastructuur van de data-governance van uw merk wordt gekoppeld aan de Adobe-tools die worden gebruikt om klantervaringen te maken en te beheren. Met de functies voor data-governance van het Adobe Cloud Platform kunt u een rechtstreekse koppeling maken tussen het data-governancebeleid en het datagebruik.
+De Adobe Experience Cloud biedt een geïntegreerde oplossing die de gegevensbeheerinfrastructuur van uw merk koppelt aan de Adobe-instrumenten die het gebruikt om consumentenervaringen te creëren en te beheren. Dankzij de functies voor gegevensbeheer van de Adobe Experience Cloud kan het beleid inzake gegevensbeheer rechtstreeks worden gekoppeld aan het gebruik van gegevens.
 
 Maak u vertrouwd met [Hoe Adobe Analytics omgaat met GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html), waarin de stappen voor privacygereedheid en de integratie met de Adobe Experience Cloud Privacy Service-API worden besproken.
 

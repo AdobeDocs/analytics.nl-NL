@@ -4,10 +4,10 @@ title: Naamruimten
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 83%
+source-wordcount: '896'
+ht-degree: 80%
 
 ---
 
@@ -21,17 +21,17 @@ De naamruimtetekenreeks wordt gebruikt om velden te identificeren die u wilt doo
 * Een typeveld dat voor de meeste Adobe Analytics-aanvragen de waarde “analytics” bevat.
 * Een “value”-veld met de id waarnaar Analytics moet zoeken in de gekoppelde naamruimtevariabelen van al uw rapportsuites.
 
-Raadpleeg de [Experience Cloud Data Privacy API-documentatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) voor meer informatie.
+Zie de [Experience Cloud Data Privacy API-documentatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) voor meer informatie en een [lijst met standaardnaamruimten](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Zie [Een toegangs-/verwijdertaak maken](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) voor een voorbeeldaanvraag.
 
 ## Cookie-id
 
 Verouderd Analytics-trackingcookie, ook wel Adobe Analytics-id (AAID) genoemd:
 
-```
+```json
 {
-   namespace: "AAID",
-   type: "standard",
-   value: "2CCEEAE88503384F-1188000089CA"
+   "namespace": "AAID",
+   "type": "standard",
+   "value": "2CCEEAE88503384F-1188000089CA"
 }
 ```
 
@@ -41,25 +41,23 @@ Het is ook acceptabel om `"namespaceId": 10` te gebruiken in plaats van of in aa
 
 ## Verouderde cookie voor analyse bijhouden: verouderd formulier
 
-```
+```json
 {
-   "namespace": "visitorId",
-   "type": "analytics",
+   "namespace": "visitorId",
+   "type": "analytics",
    "value": "2cceeae88503384f-00001188000089ca"
 }
 ```
-
-Afgeschaft formulier:
 
 De waarde moet worden opgegeven als twee hexadecimale getallen van 16 cijfers, of als twee decimale getallen van 19 cijfers. De getallen moeten worden gescheiden door een streepje, onderstrepingsteken of dubbele punt. Er moeten voorloopnullen worden toegevoegd als een van beide getallen onvoldoende cijfers heeft.
 
 ## Cookie Identiteitsservice
 
-```
+```json
 {
-    namespace: "ECID",
-    type: "standard",
-    value: "00497781304058976192356650736267671594"
+   "namespace": "ECID",
+   "type": "standard",
+   "value": "00497781304058976192356650736267671594"
 }
 ```
 
@@ -81,11 +79,11 @@ Deze JavaScript-code vult de JSON in met andere code/waardeparen naast de bovenv
 
 ## Aangepaste bezoekers-id
 
-```
+```json
 {
-     namespace: "customVisitorID",
-     type: "analytics",
-     value: "<ID>"
+    "namespace": "customVisitorID",
+    "type": "analytics",
+    "value": "<ID>"
 }
 ```
 
@@ -93,15 +91,16 @@ De naamruimte is ook vooraf gedefinieerd voor de aangepaste bezoekers-id.
 
 ## ID&#39;s in aangepaste variabelen
 
-```
+```json
 {
-    namespace: "Email Address",
-    type: "analytics", 
-    value: "john@xyz.com" }, 
+"namespace":"Email Address",
+"type": "analytics", 
+"value": "john@xyz.com" 
+}, 
 {
-    namespace: "CRM ID", 
-    type: "analytics", 
-    value: "123456-ABCD" 
+    "namespace": "CRM ID", 
+    "type": "analytics",
+    "value": "123456-ABCD" 
 }
 ```
 
@@ -115,6 +114,6 @@ U kunt ook naamruimten zien die u eerder voor andere variabelen of rapportsuites
 
 >[!CAUTION]
 >
->De naamruimten &quot;bezoekerId&quot; en &quot;customVisitorId&quot; zijn gereserveerd voor het identificeren van het verouderde cookie voor bijhouden van analysemogelijkheden en de bezoeker-id van de Analytics-klant. Gebruik deze naamruimten niet voor variabelen voor aangepaste traffic of conversie.
+>De naamruimten `visitorId` en `customVisitorId` zijn gereserveerd voor het identificeren van het oude traceringscookie van Analytics en de klantbezoeker-id van Analytics. Gebruik deze naamruimten niet voor variabelen voor aangepaste traffic of conversie.
 
 Zie [Een naamruimte opgeven wanneer u een variabele labelt als ID-DEVICE of ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)
