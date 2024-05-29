@@ -4,9 +4,9 @@ description: Begrijp hoe te beginnen met Adobe Analytics, algemene roltypes, en 
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: a7cc0efe42ff7dc4aacc841156e25e3cab6b82f4
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,9 @@ Houd rekening met de volgende sleutelrollen bij het gebruik van Adobe Analytics:
 
 * **Volledige Adobe Analytics-beheerders:** Deze gebruikers hebben volledige toegang tot alles in Adobe Analytics, inclusief instellingen voor rapportsuite en gebruikersmachtigingen. Afhankelijk van de structuur van uw organisatie kunnen verschillende personen of teams verantwoordelijk zijn voor verschillende facetten van het analysebeheer. Eén persoon is bijvoorbeeld verantwoordelijk voor de aanwijzing van de variabelen die in een implementatie moeten worden gebruikt. Een andere persoon kan voor het toelaten van gebruikers verantwoordelijk zijn om rapporten correct te trekken door iedereen te verzekeren heeft de correcte toestemmingen. Identificeer minstens één gebruiker die voor de montages en gebruikerstoestemmingen van het het rapportpakket van de Analyse kan verantwoordelijk zijn, en zij kunnen andere beheerders van Analytics van daar uitnodigen.
 * **Beheerders van gegevensverzameling:** Deze gebruikers hebben volledige toegang tot alles in de Gegevensverzameling van Adobe Experience Platform, met inbegrip van het publiceren toestemmingen, het creëren van containers, en gebruikerstoestemmingen. Deze gebruikers zijn niet noodzakelijkerwijs programmeurs, maar het is nuttig om ten minste een beginner op de hoogte te hebben van HTML, CSS en JavaScript. Ze zijn verantwoordelijk voor het werken met de eigenaars van uw website om tags op uw site te laten implementeren. Identificeer minstens één gebruiker die voor de implementatie van uw organisatie verantwoordelijk is, en zij kunnen andere beheerders van de gegevensinzameling van daar uitnodigen.
+* **Productbeheerder:** Een productbeheerder beheert een product in de Admin Console en kan rechten van de gebruiker op dat product instellen.
 * **Beheerders van productprofiel:** Deze gebruikers kunnen gebruikers toevoegen aan of verwijderen uit een productprofiel, machtigingsitems in hun productprofiel aanpassen en productprofielen toewijzen aan of verwijderen uit gebruikersgroepen. Beheerders van productprofielen hebben geen volledige toegang tot Adobe Analytics. Zij zijn echter ideaal voor teamleiders of managers die toegang tot Adobe Analytics voor hun team moeten verlenen en beheren. Zie voor meer informatie over productprofielen [Productprofielen voor Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md).
-* **Ondersteuningsafgevaardigden**: Deze gebruikers worden ook wel ondersteunde gebruikers genoemd en hebben geen extra bevoegdheden in de interface Analytics. In plaats daarvan krijgen ze extra privileges wanneer ze communiceren met de klantenservice van de Adobe. Deze gebruikers zijn bijna altijd ook Analytics-beheerders, omdat dit de klantenservice helpt problemen met hen op te lossen. Identificeer minstens één Analytics-beheerder die verantwoordelijk is voor het faciliteren van interacties tussen eindgebruikers en de Adobe van de Klantenservice.
+* **Ondersteuningsbeheerder**: Deze gebruikers worden ook wel ondersteunde gebruikers genoemd en hebben geen extra bevoegdheden in de interface Analytics. In plaats daarvan krijgen ze extra privileges wanneer ze communiceren met de klantenservice van de Adobe. Deze gebruikers zijn bijna altijd ook Analytics-beheerders, omdat dit de klantenservice helpt problemen met hen op te lossen. Identificeer minstens één Analytics-beheerder die verantwoordelijk is voor het faciliteren van interacties tussen eindgebruikers en de Adobe van de Klantenservice.
 * **Eigenaars van websites:** Deze personen of teams zijn verantwoordelijk voor de codering en ontwikkeling van uw website. Ze hebben geen accounts nodig, maar ze willen samenwerken met beheerders voor gegevensverzameling om de tagcode op uw website te plaatsen en te implementeren.
 * **Eindgebruikers:** deze gebruikers bekijken typisch rapporten en zoeken antwoorden op bedrijfsvragen. Analysebeheerders verlenen deze gebruikers machtigingen om in het product te werken.
 
