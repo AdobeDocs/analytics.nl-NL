@@ -3,9 +3,9 @@ description: Wanneer een rapport vele unieke waarden heeft, gebruikt de Adobe he
 title: Lage verkeerswaarde in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
+source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,8 @@ Wanneer een rapport vele unieke waarden heeft, verstrekt de Adobe functionalitei
 ## Hoe [!UICONTROL Low-Traffic] werken
 
 * Adobe Analytics gebruikt twee drempels om te bepalen welke unieke waarden in rapporten elke maand worden getoond: A **[!UICONTROL low threshold]** en **[!UICONTROL high threshold]**. Deze drempelwaarden kunnen van tijd tot tijd met Adobe worden aangepast. De huidige drempelwaarden zijn:
-   * **[!UICONTROL Low threshold]**: >500.000 unieke waarden gedurende de maand.
-   * **[!UICONTROL High threshold]**: >1.000.000 unieke waarden gedurende de maand.
-* In **medio april 2024**, zal de Adobe beginnen verhogend de standaardrapportreeks laag-verkeersdrempels als volgt: ![laagverkeersdrempels](assets/thresholds.png)
-Dit zal alleen gevolgen hebben voor variabelen die momenteel onder de nieuwe drempelwaarden liggen. Deze veranderingen zullen geleidelijk worden doorgevoerd en wij verwachten dat het werk door de **eind mei**. Aangezien deze verhogingen worden uitgerold, kunt u veranderingen voor high-cardinality variabelen opmerken:<ul><li>Er kunnen meer waarden van dimensies beschikbaar zijn voor rapportage.</li><li>Segmenten en berekende metriek kunnen meer gegevens bevatten.</li><li>Virtuele rapportsuites die op segmenten worden gebaseerd kunnen meer gegevens omvatten.</li><li>De indeling van de uitvoer kan meer gegevens bevatten.</li></ul>
+   * **[!UICONTROL Low threshold]**: >2.000.000 unieke waarden gedurende de maand.
+   * **[!UICONTROL High threshold]**: >2.100.000 unieke waarden gedurende de maand.
 * De rapportage wordt niet beïnvloed als de variabele de lage drempel in een bepaalde maand niet bereikt.
 * Wanneer een variabele de lage drempel bereikt, beginnen de gegevens onder te worden ingesloten [!UICONTROL Low-Traffic]. Elke waarde boven deze drempel doorloopt de volgende logica:
    * Als er al een waarde wordt weergegeven in rapporten, voegt u deze waarde op de gebruikelijke manier toe.
