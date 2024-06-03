@@ -3,16 +3,16 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 47893ea714f0a0baaccce66578c9f9175c59511f
+source-git-commit: 258ef488f5bcf2ea2057ad3da605679f9e3438b6
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1145'
 ht-degree: 2%
 
 ---
 
 # Huidige Adobe Analytics-releaseopmerkingen (mei 2024)
 
-**Laatste update**: 22 mei 2024
+**Laatste update**: 3 juni 2024
 
 Deze releaseopmerkingen hebben betrekking op de releaseperiode van 15 mei 2024 tot en met juni. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -27,7 +27,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van 15 mei 2024 t
 | **Toename in standaard laag-verkeersdrempels** | In **medio april 2024**, zal de Adobe beginnen verhogend de standaardrapportreeks laag-verkeersdrempels als volgt: ![laagverkeersdrempels](assets/thresholds.png) Dit zal alleen gevolgen hebben voor variabelen die momenteel onder de nieuwe drempelwaarden liggen. Deze veranderingen zullen geleidelijk worden doorgevoerd en wij verwachten dat het werk door de **eind mei**. Aangezien deze verhogingen worden uitgerold, kunt u veranderingen voor high-cardinality variabelen opmerken:<ul><li>Er kunnen meer waarden van dimensies beschikbaar zijn voor rapportage.</li><li>Segmenten en berekende metriek kunnen meer gegevens bevatten.</li><li>Virtuele rapportsuites die op segmenten worden gebaseerd kunnen meer gegevens omvatten.</li><li>De indeling van de uitvoer kan meer gegevens bevatten.</li></ul> | medio april 2024 | zaterdag 31 mei 2024 |
 | **Beheerdersinstellingen om de accounts en locaties te beheren die worden gebruikt voor exporteren en importeren** | Een nieuw tabblad &quot;Admin settings&quot; in Locations Manager geeft beheerders controle over de vraag of gebruikers accounts en locaties kunnen maken en bewerken. Deze instellingen zijn van toepassing wanneer gebruikers cloudimport- en -exportaccounts configureren en cloudimport- en exportlocaties configureren. <p>Beheerders kunnen ook de typen accounts beperken (Google Cloud Platform, Azure RBAC, Amazon S3 enzovoort) die gebruikers kunnen maken en gebruiken.</p><p>Eerder kon elke gebruiker accounts en locaties maken, bewerken en gebruiken voor elk type account.</p><p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> | donderdag 12 juni 2024 | maandag 30 juni 2024 |
 | **Accounts en locaties delen die worden gebruikt voor exporteren en importeren** | Gebruikers kunnen de accounts en locaties die ze maken nu beschikbaar maken voor alle gebruikers in hun organisatie. Alleen account- en locatie-eigenaars en systeembeheerders kunnen accounts en locaties bewerken en verwijderen.<p>Eerder konden accounts en locaties alleen worden gebruikt door de gebruiker die ze heeft gemaakt.</p><p>Deze instellingen zijn beschikbaar wanneer gebruikers cloudimport- en -exportaccounts configureren en cloudimport- en exportlocaties configureren. </p> <p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> | donderdag 12 juni 2024 | maandag 30 juni 2024 |
-| **Activity Map om minder servervraag voor Web SDK te gebruiken** | Op dit moment worden koppelingsgebeurtenissen voor Activity Mappen als hun eigen gebeurtenissen geteld en extra kosten met zich meegebracht. Deze verbetering neemt sommige verbindingsgebeurtenissen en verpakt hen in de volgende slag, gelijkend op hoe de gebeurtenissen door AppMeasurement worden behandeld. <p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> | Beta start op 31 mei 2024 | TBD |
+| **Activity Map om minder servervraag voor Web SDK te gebruiken** | Op dit moment worden koppelingsgebeurtenissen voor Activity Mappen als hun eigen gebeurtenissen geteld en extra kosten met zich meegebracht. Deze verbetering neemt sommige verbindingsgebeurtenissen en verpakt hen in de volgende slag, gelijkend op hoe de gebeurtenissen door AppMeasurement worden behandeld. <p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> | Openingsbètaversie begint op 19 juni 2024 | TBD |
 
 {style="table-layout:auto"}
 
