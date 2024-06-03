@@ -3,16 +3,16 @@ title: Gemiddelde tijd op de site
 description: De gemiddelde hoeveelheid tijd bestond een bepaald afmetingspunt tussen treffers.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 9e140a6be5ab151d7a4e88e317c59eafea4d6e1d
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Gemiddelde tijd op de site
 
-De &#39;Gemiddelde tijd op locatie&#39; [metrisch](overview.md) toon de hoeveelheid tijd die tussen klappen voor een bepaald afmetingspunt overging. Dit metrisch is nuttig wanneer u gemiddelde tijd wilt zien die voor specifieke afmetingspunten wordt doorgebracht. U kunt metrisch in tijd ook trenderen om te zien hoe de algemene tijd bestede veranderingen. Deze metrische weergave wordt weergegeven in `HH:MM:SS` gebruiken.
+De &#39;Gemiddelde tijd op locatie&#39; [metrisch](overview.md) toont de hoeveelheid tijd die tussen klappen voor een bepaald afmetingspunt overging. Dit metrisch is nuttig wanneer u gemiddelde tijd wilt zien die voor specifieke afmetingspunten wordt doorgebracht. U kunt metrisch in tijd ook trenderen om te zien hoe de algemene tijd bestede veranderingen. Deze metrische weergave wordt weergegeven in `HH:MM:SS` gebruiken.
 
 Deze metrische waarde is gerelateerd aan de [Tijd besteed per bezoek](../dimensions/time-spent-per-visit.md) dimensie.
 
@@ -40,7 +40,7 @@ Als u een gemiddelde tijd op plaats voor het afmetingspunt wilt `Product page A`
 * **12:04:20 - 12:05:30** - 1 minuut 10 seconden
 * **12:05:30 - 12:07:00** - 1 minuut 30 seconden
 * **12:07:40 - 12:08:10** - 30 seconden
-* **12:25:40 - ?** - Niet inbegrepen
+* **12:25:40 . ?** - Niet inbegrepen
 
 De totale hoeveelheid tijd die is besteed voor `Product page A` is `00:03:10`. Er waren twee reeksen in dit bezoek; de eerste opeenvolging voor de twee opeenvolgende waarden, en de tweede voorafgaand aan controle. Het laatste resultaat van het bezoek is geen opeenvolging, aangezien er geen eindtimestamp is.
 
@@ -74,13 +74,13 @@ Gemiddelde tijd op locatie berekenen voor het dimensie-item `Home` zou de volgen
 Als u een onderverdeling toepast met behulp van [Site-secties](../dimensions/site-section.md) afmeting, wordt de volgende berekening gebruikt:
 
 ```text
-(30 + 10) / 1 = 40 seconds average time on site
+(30 + 100 + 10) / 1 = 140 seconds (2 minutes 20 seconds) average time on site
 ```
 
 Aangezien er één sequentie in de afsplitsingsdimensie was, gebruikt deze een andere noemer dan de bovenliggende dimensie. Deze meetgegevens leveren doorgaans vergelijkbare resultaten op bezoekniveau op, maar kunnen verschillen op raakniveau.
 
 ## Percentage boven 100%
 
-Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de gemiddelde tijd van de volledige afmeting ter plaatse, en de teller is de gemiddelde tijd van het afmetingspunt op plaats. Als de gemiddelde tijd van de volledige afmeting op plaats lager is dan de gemiddelde tijd van een bepaald afmetingspunt op plaats, zult u percentages boven 100% zien. Door gerangschikte rapporten te sorteren op deze metrische waarde wordt een afwijkende gemiddelde tijd op plaatswaarden getoond, die typisch niet waardevol is. Adobe beveelt sorteren met een andere metrische waarde aan, zoals [Bezoeken](visits.md), in gerangschikte verslagen.
+Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de gemiddelde tijd van de volledige afmeting ter plaatse, en de teller is de gemiddelde tijd van het afmetingspunt op plaats. Als de gemiddelde tijd van de volledige afmeting op plaats lager is dan de gemiddelde tijd van een bepaald afmetingspunt op plaats, ziet u percentages boven 100%. Door gerangschikte rapporten te sorteren op deze metrische waarde wordt een afwijkende gemiddelde tijd op plaatswaarden getoond, die typisch niet waardevol is. Adobe beveelt sorteren met een andere metrische waarde aan, zoals [Bezoeken](visits.md), in gerangschikte verslagen.
 
 Zie [Overzicht van de tijd](time-spent.md) voor meer algemene informatie over de bestede tijd.
