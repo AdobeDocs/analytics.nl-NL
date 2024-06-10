@@ -4,9 +4,9 @@ description: Gededupliceerde hits op basis van een unieke aankoop-id.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,16 @@ De aankoop-id wordt toegewezen aan de volgende variabelen:
 
 ## Aankoop-id met Adobe Analytics-extensie
 
-Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
+U kunt de aankoop-id instellen tijdens het configureren van de extensie Analytics (globale variabelen) of onder regels.
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
+3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
+4. Onder [!UICONTROL Actions], klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
+5. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar Adobe Analytics en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
+6. Zoek de [!UICONTROL Purchase ID] sectie.
+
+U kunt de aankoop-id instellen op een waarde of een gegevenselement. U kunt de waarde ook uit een andere variabele Analytics kopiëren.
 
 ## s.purchaseID in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
 

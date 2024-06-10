@@ -4,9 +4,9 @@ description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen a
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | --- | --- |
 | `xdm.application.isClose` | Helpt de metrische mobiele levenscyclus te bepalen [Crashes](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isInstall` | Hiermee bepaalt u wanneer de metrische waarde van de mobiele levenscyclus moet worden verhoogd [Eerste keer starten](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isLaunch` | Hiermee bepaalt u wanneer de metrische waarde van de mobiele levenscyclus moet worden verhoogd [Eerste keer starten](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.closeType` | Hiermee wordt bepaald of een close-gebeurtenis vastloopt of niet. Geldige waarden zijn `close` (Een levenscyclussessie eindigt en er is een pauze-gebeurtenis ontvangen voor de vorige sessie) en `unknown` (Een levenscyclussessie eindigt zonder pauze-gebeurtenis). Helpt de metrische waarde van de mobiele levenscyclus in te stellen [Crashes](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) metrisch. |
 | `xdm.application.isInstall` | De metrische waarde van de mobiele levenscyclus [Installaties](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isLaunch` | De metrische waarde van de mobiele levenscyclus [Starten](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |

@@ -4,9 +4,9 @@ keywords: Gegevensfeed;taak;metriek;pre-kolom;post kolom;bots;datum filteren;geb
 title: Metrische gegevens berekenen
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,18 @@ Beschrijft hoe te om gemeenschappelijke metriek te berekenen gebruikend gegevens
 
 1. Telt het aantal rijen waarin een waarde zich bevindt `post_pagename` of `post_page_url`.
 
+## Voorvallen
+
+1. Telt het totale aantal rijen.
+
 ## Bezoeken
 
 1. Samenvoegen `post_visid_high`, `post_visid_low`, `visit_num`, en `visit_start_time_gmt`.
 1. Telt het unieke aantal waarden.
 
->[!NOTE]
+>[!TIP]
 >
->Onregelmatigheden op internet, systeemonregelmatigheden of het gebruik van aangepaste bezoeker-id&#39;s kunnen zelden hetzelfde gebruiken `visit_num` waarden voor verschillende bezoeken. Gebruiken `visit_start_time_gmt` bij het tellen van bezoeken om ervoor te zorgen dat deze bezoeken worden geteld.
+>Onregelmatigheden op internet, systeemonregelmatigheden of het gebruik van aangepaste bezoeker-id&#39;s kunnen zelden hetzelfde gebruiken `visit_num` waarden voor verschillende bezoeken. Gebruik terwijl optioneel `visit_start_time_gmt` bij het tellen van bezoeken om ervoor te zorgen dat deze bezoeken worden geteld.
 
 ## Bezoekers
 
@@ -70,5 +74,5 @@ Als een hit `currency` De waarde komt niet overeen met de valuta van een rapport
 3. Parseren `post_product_list` kolom om alle prijsgegevens te extraheren. De `post_product_list` kolom is op dezelfde manier opgemaakt als de kolom `s.products` variabele.
 4. Bereken de gewenste metrische waarde:
    * Aantal rijen tellen om Orden te berekenen
-   * Som het aantal van `quantity` in de productreeks om Eenheden te berekenen
-   * Som het aantal van `price` in de productreeks om opbrengst te berekenen
+   * Aantal getallen `quantity` in de producttekenreeks om eenheden te berekenen
+   * Aantal getallen `price` in de productreeks om opbrengst te berekenen
