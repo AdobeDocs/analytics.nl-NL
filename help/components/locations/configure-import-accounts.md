@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloud-import- en exportaccounts configureren
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Cloud-import- en exportaccounts configureren
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
+
+>[!NOTE]
+>
+>Houd rekening met het volgende wanneer u accounts maakt en bewerkt: <ul><li>Systeembeheerders kunnen voorkomen dat gebruikers accounts maken, zoals wordt beschreven in [Configureren of gebruikers accounts kunnen maken](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Als u geen rekeningen kunt tot stand brengen zoals die in deze sectie worden beschreven, contacteer uw systeembeheerder.</li><li>Een account kan alleen worden bewerkt door de gebruiker die het heeft gemaakt of door een systeembeheerder.</li></ul>
 
 U kunt een cloudaccount configureren die wordt gebruikt voor een of meer van de volgende doeleinden:
 
@@ -23,17 +27,25 @@ U kunt een cloudaccount configureren die wordt gebruikt voor een of meer van de 
 
 U moet Adobe Analytics configureren met de benodigde informatie voor toegang tot uw cloud-account. Dit proces bestaat uit het toevoegen en configureren van de account (zoals Amazon S3 Role ARN, Google Cloud Platform enzovoort) zoals beschreven in dit artikel, en het toevoegen en configureren van de locatie binnen die account (zoals een map binnen de account) zoals beschreven in [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
 
-Ga voor informatie over het beheren van bestaande accounts, zoals het weergeven, bewerken en verwijderen van accounts naar [Locatiebeheer](/help/components/locations/locations-manager.md).
+Zie voor informatie over het weergeven en verwijderen van bestaande accounts [Locatiebeheer](/help/components/locations/locations-manager.md).
 
 Een cloudimport- of -exportaccount configureren:
 
 1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Locaties**].
 1. Op de [!UICONTROL Locations] pagina, selecteert u de [!UICONTROL **Locatieaccounts**] tab.
-1. Selecteren [!UICONTROL **Account toevoegen**].
+1. (Voorwaardelijk) Als u een systeembeheerder bent, kunt u de [!UICONTROL **Accounts weergeven voor alle gebruikers**] om accounts weer te geven die door alle gebruikers in uw organisatie zijn gemaakt.
+   ![accounts weergeven voor alle gebruikers](assets/accounts-all-users.png)
+1. Als u een nieuwe account wilt maken, selecteert u [!UICONTROL **Account toevoegen**].
 
-   Het dialoogvenster Account toevoegen wordt weergegeven.
+   De [!UICONTROL **Locatierekeninggegevens**] wordt weergegeven.
 
-1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam van locatieaccount**] | De naam van het locatieaccount. Deze naam wordt weergegeven wanneer u een locatie maakt | | [!UICONTROL **Beschrijving van locatieaccount**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Accounttype**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account. |
+   of
+
+   Als u een bestaand account wilt bewerken, zoekt u het account dat u wilt bewerken en selecteert u vervolgens het [!UICONTROL **Details bewerken**] knop.
+
+   De [!UICONTROL **Account toevoegen**] wordt weergegeven.
+
+1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam van locatieaccount**] | De naam van het locatieaccount. Deze naam wordt weergegeven wanneer u een locatie maakt | | [!UICONTROL **Beschrijving van locatieaccount**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Account ter beschikking stellen van alle gebruikers in uw organisatie**] | **Opmerking:** Deze functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md). <p>Schakel deze optie in als u wilt dat andere gebruikers in uw organisatie de account kunnen gebruiken.</p> <p>Houd rekening met het volgende wanneer u accounts deelt:</p><ul><li>Accounts die u deelt, kunnen niet worden verwijderd.</li><li>Gedeelde accounts kunnen alleen door de eigenaar van de account worden bewerkt.</li><li>Iedereen kan een locatie voor de gedeelde account maken.</li></ul> | | [!UICONTROL **Accounttype**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account.<p>Systeembeheerders kunnen de accounttypen beperken die gebruikers kunnen maken, zoals wordt beschreven in [Configureren of gebruikers accounts kunnen maken](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Als u geen rekeningen kunt tot stand brengen zoals die in deze sectie worden beschreven, contacteer uw systeembeheerder.</p> |
 1. In de [!UICONTROL **Accounteigenschappen**] in, geeft u specifieke informatie op over het accounttype dat u hebt geselecteerd.
 
    Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met de [!UICONTROL **Accounttype**] die u hebt geselecteerd. (Aanvullende oudere accounttypen zijn ook beschikbaar, maar worden niet aanbevolen.)
@@ -89,6 +101,22 @@ Een cloudimport- of -exportaccount configureren:
    | [!UICONTROL **Toepassings-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **Tenant-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **Locatierekeninggeheim**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Certificaten en geheimen** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++E-mail
+
+   >[!NOTE]
+   >
+   >E-mailaccounts kunnen alleen worden gebruikt met [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md). (E-mailaccounts worden niet ondersteund met [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) of [Classificatiesets](/help/components/classifications/sets/overview.md)).
+
+   Geef de volgende informatie op om een Azure RBAC-account te configureren:
+
+   | Veld | Functie |
+   |---------|----------|
+   | [!UICONTROL **Ontvangers**] | E-mailmeldingen kunnen naar specifieke gebruikers worden verzonden wanneer het rapport wordt verzonden. Geef één e-mailadres of een lijst met e-mailadressen door komma&#39;s gescheiden op. |
 
    {style="table-layout:auto"}
 
