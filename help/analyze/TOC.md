@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1005'
 ht-degree: 11%
 
 ---
@@ -152,9 +152,9 @@ ht-degree: 11%
       + [Statistische technieken voor de opsporing van anomalieën](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + Intelligente waarschuwingen {#intelligent-alerts}
          + [Overzicht van intelligente waarschuwingen](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-         + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [Waarschuwingsbeheer](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-         + [Intelligente waarschuwingen - gebruiksgevallen](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+         + [Waarschuwingen maken](analysis-workspace/c-intelligent-alerts/alert-builder.md)
+         + [Waarschuwingen beheren](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+         + [Gebruik hoofdletters](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Gebruikersvoorkeuren](analysis-workspace/user-preferences.md)
    + Veelgestelde vragen over Workspace {#workspace-faq}
       + [Veelgestelde vragen](analysis-workspace/workspace-faq/faq.md)

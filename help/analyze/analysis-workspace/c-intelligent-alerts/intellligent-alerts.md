@@ -4,20 +4,18 @@ title: Overzicht van intelligente waarschuwingen
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Overzicht van intelligente waarschuwingen
 
-Intelligente waarschuwingen zorgen voor meer korrelige controle over waarschuwingen en integreren anomaliedetectie met het waarschuwingssysteem.
+Met intelligente waarschuwingen (of alleen &#39;waarschuwingen&#39;) in Adobe Analytics kunt u direct op de hoogte worden gesteld wanneer zich abnormale gebeurtenissen in uw gegevens voordoen.
 
-Hier volgt een videozelfstudie [Intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
-
-## Overzicht
+U kunt waarschuwingen instellen die moeten worden geactiveerd op basis van afwijkende drempelwaarden, gewijzigde percentages of specifieke gegevenspunten. Alarm verstrekt korrelige controles die met integreren [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), activeren wanneer je ze het meest nodig hebt.
 
 Met intelligente waarschuwingen kunt u:
 
@@ -26,19 +24,7 @@ Met intelligente waarschuwingen kunt u:
 * Waarschuwingen verzenden via e-mail of SMS met koppelingen naar automatisch gegenereerde Analysis Workspace-projecten
 * &quot;gestapelde&quot; waarschuwingen maken die meerdere meetgegevens vastleggen in één waarschuwing
 
-Er zijn drie manieren om naar de Waarschuwingsbouwer te gaan:
-
-| Methode | Details |
-| --- | --- |
-| Ga rechtstreeks naar de Waarschuwingsbouwer | **[!UICONTROL Components]** > **[!UICONTROL Alerts]** |
-| De sneltoets in Workspace gebruiken | `Ctrl + Shift + A` (Windows) of `Cmd + Shift + A` (Mac) |
-| Selecteer een of meer vrije regelitems voor tabellen | Klik met de rechtermuisknop en selecteer **[!UICONTROL Create Alert from Selection]**. Hierdoor wordt het [!UICONTROL Alert Builder] en vult de juiste maateenheden en filters die uit de tabel zijn toegepast vooraf in. U kunt de waarschuwing desgewenst bewerken. ![Berichtgeving maken van selectie](assets/create-alert-from-selection.png) |
-
-De percentagedrempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen en 99% = 3 standaardafwijkingen. Afhankelijk van de tijdsgranulariteit die u kiest, [verschillende modellen](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) worden gebruikt om te berekenen hoe ver weg (hoeveel standaardafwijkingen) elk gegevenspunt van de norm is. Als u een lagere drempel instelt (bijvoorbeeld 90%), krijgt u meer anomalieën dan wanneer u een hogere drempel instelt (99,75%).
-
->[!IMPORTANT]
->
->Het gebruik van tijdstempelgegevens voor het maken van waarschuwingen kan ervoor zorgen dat waarschuwingen onjuist worden afgespeeld. Adobe raadt u aan om niet-tijdstempelgegevens te gebruiken voor intelligente waarschuwingen.
+De volgende videozelfstudie biedt een eenvoudig overzicht van waarschuwingen: [Intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Anomalische zoekopdracht voor waarschuwingen
 
@@ -49,4 +35,18 @@ Als een waarschuwing afwijkende detectie gebruikt, varieert de trainingsperiode 
 * Dagelijkse granulariteit: 35 dagen + zelfde bereik vorig jaar
 * Urogranulariteit: 336 uur
 
-Zie [Statistische technieken voor anomalische detectie](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) voor meer informatie .
+Zie voor meer informatie [Statistische technieken voor anomalische detectie](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+
+## Waarschuwingen maken
+
+Voor informatie over het maken van waarschuwingen in Adobe Analytics raadpleegt u [Waarschuwingen maken](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+
+>[!IMPORTANT]
+>
+>Het gebruik van tijdstempelgegevens voor het maken van waarschuwingen kan ervoor zorgen dat waarschuwingen onjuist worden afgespeeld. Adobe raadt u aan om niet-tijdstempelgegevens te gebruiken voor intelligente waarschuwingen.
+
+## Waarschuwingen beheren
+
+U kunt bestaande waarschuwingen beheren in het venster Waarschuwingen. U kunt verschillende beheertaken uitvoeren voor waarschuwingen, zoals labelen, hernoemen, verwijderen en meer.
+
+Ga voor meer informatie over het beheren van bestaande waarschuwingen in Adobe Analytics naar [Waarschuwingen beheren](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).

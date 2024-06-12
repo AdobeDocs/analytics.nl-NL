@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '5493'
+source-wordcount: '5517'
 ht-degree: 21%
 
 ---
@@ -25,6 +25,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Juni 2024** | |
+| Verbeterde documentatie voor intelligente waarschuwingen | Bijgewerkte en verbeterde documentatie over waarschuwingen. Deze updates bevatten informatie over [waarschuwingen maken](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [waarschuwingen beheren](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), en [overzichtsinformatie](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | **Mei 2024** | |
 | Vereiste informatie wanneer het gebruiken van de beperkingen van het organisatiebeleid met het Platform van Google Cloud in Gegevensvoer en Data Warehouse | De Adobe Cloud Platform-organisatie-id is toegevoegd aan de [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md) en [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) documentatie. <p>Deze informatie is alleen vereist voor organisaties die [Beleidsbeperkingen van de organisatie](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform.</p> |
 | Documentatie over het toevoegen van componenten aan projecten | Algemene informatie toegevoegd over hoe [de verschillende soorten componenten toevoegen aan projecten in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |

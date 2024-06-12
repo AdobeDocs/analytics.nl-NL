@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
+source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '969'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van 12 juni 2024 
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Meerdere filters selecteren wanneer deze beschikbaar zijn in het keuzemenu in een vrije-vormentabel** | Wanneer meerdere filters als vervolgkeuzemenu aan een vrije-vormlijst zijn toegevoegd, kunnen gebruikers van de vrije-vormlijst nu meer dan één filter tegelijk selecteren. De vrije-vormlijst wordt gefiltreerd om het even welke geselecteerde filters te omvatten. Eerder konden gebruikers slechts één filter tegelijk selecteren in een filterkeuzemenu.<p>(Koppeling met documentatie die moet worden gevolgd.) |  | donderdag 19 juni 2024 |
+| **Meerdere velden in een vervolgkeuzemenu selecteren** | Wanneer meerdere velden zijn toegevoegd aan een vervolgkeuzefilter, kunnen gebruikers nu meerdere velden tegelijk selecteren. Het deelvenster wordt gefilterd en bevat een van de geselecteerde velden. <p>Eerder konden gebruikers slechts één veld tegelijk selecteren in een vervolgkeuzemenu.</p><p>(Koppeling met documentatie die moet worden gevolgd.)</p> |  | donderdag 19 juni 2024 |
 | **Inhoudsopgave voor werkruimteprojecten** | Er is nu een nieuwe inhoudsopgave beschikbaar voor projecten. De inhoudsopgave bevat koppelingen waarmee gebruikers snel naar deelvensters en visualisaties in het project kunnen gaan. De inhoudsopgave kan worden ingeschakeld voor afzonderlijke projecten of voor alle projecten voor een bepaalde gebruiker.<p>(Koppeling met documentatie die moet worden gevolgd.) |  | donderdag 19 juni 2024 |
 | **Hyperlinks maken voor dimensie-items in een vrije-vormtabel** | U kunt hyperlinks maken voor een of meer dimensie-items, zodat hierop kan worden geklikt in een vrije-vormtabel in Analysis Workspace. <p>U kunt hyperlinks maken voor dimensie-items die URL-waarden hebben, of u kunt aangepaste URL&#39;s maken voor dimensie-items die geen URL-waarden hebben.</p><p>U kunt dynamische aangepaste URL&#39;s maken voor meerdere dimensie-items met behulp van variabelen. Variabelen kunnen verwijzen naar de waarde van een dimensie-item of naar de uitsplitsingsdimensie.</p><p>(Koppeling met documentatie die moet worden gevolgd.)<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | donderdag 19 juni 2024 |
 | **Beheerdersinstellingen om de accounts en locaties te beheren die worden gebruikt voor exporteren en importeren** | Een nieuwe [Het tabblad &quot;Admin settings&quot; in Locatiebeheer](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) geeft beheerders controle over of de gebruikers rekeningen en plaatsen kunnen tot stand brengen en uitgeven. Deze instellingen zijn van toepassing wanneer gebruikers [cloud-import- en -exportaccounts configureren](/help/components/locations/configure-import-accounts.md) en [cloudimport- en exportlocaties configureren](/help/components/locations/configure-import-locations.md). <p>Beheerders kunnen ook de typen accounts beperken (Google Cloud Platform, Azure RBAC, Amazon S3 enzovoort) die gebruikers kunnen maken en gebruiken.</p><p>Eerder kon elke gebruiker accounts en locaties maken, bewerken en gebruiken voor elk type account.</p> | donderdag 12 juni 2024 | maandag 30 juni 2024 |
