@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Locatiebeheer
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
+source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,8 @@ Een account verwijderen:
 {{release-limited-testing-section}}
 
 Systeembeheerders kunnen gebruikers beperken bij het maken van accounts en locaties, of ze kunnen de typen accounts beperken die gebruikers kunnen maken en gebruiken.
+
+![Tabblad Beheerinstellingen](assets/locations-admin-settings.png)
 
 ### Configureren of gebruikers accounts kunnen maken en bewerken
 
