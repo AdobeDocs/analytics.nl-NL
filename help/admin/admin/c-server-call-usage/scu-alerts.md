@@ -4,18 +4,18 @@ title: Gebruikswaarschuwingen voor serveroproep
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
 
-# Gebruikswaarschuwingen voor serveroproep
+# Gebruikswaarschuwingen voor serveroproepen
 
 Wanneer u opstelling een alarm, het op alle rapportsuites in alle login bedrijven van een het facturerings bedrijf van toepassing is.
 
-Een nieuwe waarschuwingscategorie genaamd **[!UICONTROL Server Calls Usage Alert]** maakt deel uit van de bestaande [Waarschuwingsbeheer](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) gebruikersinterface.
+De Alarm van het Gebruik van de Vraag van de server maakt deel uit van [Waarschuwingen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) gebruikersinterface.
 
 Het is vooraf gevuld met **1 standaardwaarschuwing** dat binnen om het even welk login bedrijf verschijnt dat toegang tot de eigenschap van het Gebruik van de Vraag van de Server heeft. Dit alarm brengt een bericht teweeg dat aan alle beheerders van het login bedrijf wordt gericht als één van de volgende criteria wordt voldaan:
 
@@ -30,7 +30,7 @@ U kunt tot het gebruiksalarm van de servervraag op twee manieren toegang hebben:
 * Klikken **[!UICONTROL Manage Alerts]** in de rechterbovenhoek op het tabblad Huidig gebruik of het tabblad Gebruik van de rapportsuite, of
 * Navigeren naar **[!UICONTROL Components]** > **[!UICONTROL Alerts]** in Adobe Analytics.
 
-## Waarschuwingen voor serveroproepgebruik maken {#create}
+## Gebruikswaarschuwingen voor serveroproepen maken {#create}
 
 Als u aanvullende waarschuwingen wilt maken,
 

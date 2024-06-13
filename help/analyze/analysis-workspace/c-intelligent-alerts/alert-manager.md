@@ -4,9 +4,9 @@ title: Waarschuwingsbeheer (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: d6d42b079a013eb5608ad85ae311d8bf0f7a5d21
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,22 @@ Waarschuwingen maken via het Alarmbeheer:
 
 1. Selecteren [!UICONTROL **Toevoegen**] (of [!UICONTROL **Nieuwe waarschuwing maken**] als u geen bestaande waarschuwingen hebt).
 
-1. Doorgaan met [Waarschuwingen maken](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) voor meer informatie over het maken van waarschuwingen.
+1. Selecteer het type waarschuwing dat overeenkomt met de waarschuwing die u wilt maken:
+
+   * [!UICONTROL **Waarschuwing over analysegegevens**]: Een waarschuwing om u op de hoogte te brengen wanneer zich abnormale gebeurtenissen in uw gegevens voordoen.
+
+     Als u deze optie selecteert, gaat u verder met [Waarschuwingen maken](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) voor meer informatie over het maken van waarschuwingen.
+
+   * [!UICONTROL **Gebruikswaarschuwing voor serveroproepen**]: Een waarschuwing om u op de hoogte te stellen van het risico of het optreden van een overage in de gegevens van het serveraanroepverbruik en de betrokkenheid.
+
+     Als u deze optie selecteert, gaat u verder met [Gebruikswaarschuwingen voor serveroproepen](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >U moet een beheerder van de Analyse of een gebruiker met de toestemming van het de vraaggebruik van de Server zijn om toegang tot het gebruik van de servervraag te hebben.
+
+
+
 
 ## Bestaande waarschuwingen beheren
 

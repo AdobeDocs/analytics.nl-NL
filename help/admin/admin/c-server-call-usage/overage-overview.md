@@ -4,35 +4,33 @@ title: Overzicht van serveroproepgebruik
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '993'
 ht-degree: 1%
 
 ---
 
-# Gebruik van serveroproep
+# Gebruik van serveroproepen
 
-Het gebruik van de Vraag van de Server van Adobe Analytics richt uw verzoeken om transparantie in zowel browser als mobiele gegevens van het de vraaggebruik van de server. U hebt hiermee toegang tot:
+Met het gebruik van Adobe Analytics-serveroproepen worden uw verzoeken om transparantie verwerkt in de gebruikersgegevens van zowel de browser als de mobiele server. U hebt hiermee toegang tot:
 
-* Een dashboard van het Gebruik van de Vraag van de Server dat uw gegevens van het de vraagverbruik van de server volgt en het met uw contractuele grens vergelijkt. (**[!UICONTROL Analytics > Admin > Server Call Usage]**)
-* Een het waakzame type van het Gebruik van de Vraag van de Server in Waakzame Bouwer dat u opstellingsalarm laat om overzichten te verhinderen (**[!UICONTROL Analytics > Components >Alerts]**)
+* Een dashboard van het het gebruiksdashboard van de servervraag dat uw gegevens van het servervraagverbruik volgt en het met uw contractuele grens vergelijkt. (In Adobe Analytics selecteert u > [!UICONTROL **Beheerder**] > [!UICONTROL **Gebruik van serveroproepen**])
+* Een waarschuwingstype voor het gebruik van een serveraanroep in de waarschuwingsbuilder waarmee u waarschuwingen kunt instellen om overgangen te voorkomen (selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Waarschuwingen**])
 
-De belangrijkste voordelen van het Gebruik van de Vraag van de Server omvatten:
+De belangrijkste voordelen van servervraaggebruik omvatten:
 
 * **Zichtbaarheid** in uw gegevens van het de vraagverbruik en van de verbinding van de server, met inbegrip van mobiel gebruik tegenover uw contractuele het gebruiksgrens van de servervraag.
 * **Waarschuwingen** om u op de hoogte te stellen van het risico of het optreden van een overschrijding en om de mogelijkheid van overschrijding voor te bereiden of te beïnvloeden.
 
-Eerder, terwijl u tot maandelijkse gegevens van het de vraagverbruik van de server kon toegang hebben onder  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Billing]** Deze gegevens werden pas 6 dagen nadat de facturering voor die maand was afgesloten, bijgewerkt. Bovendien omvatten de gegevens geen mobiel verbruik. Deze functie vervangt ook de huidige **[!UICONTROL Billing Information]** verslag krachtens  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** .
-
 ## Vereisten {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Rechten:** Om tot het Dashboard van het Gebruik van de Vraag van de Server en Alert Builder/Manager toegang te hebben, moet u een Beheerder van Adobe Analytics zijn.
-* **Rechten:** Beheerders kunnen toegang verlenen aan niet-beheerders: de machtiging wordt aangeroepen **[!UICONTROL Server Call Usage]**. Zie [Machtiging voor serveroproepgebruik](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **Rechten:** Als u toegang wilt tot het gebruiksdashboard voor de serveraanroep en de builder of waakzame manager, moet u een Adobe Analytics-beheerder zijn.
+* **Rechten:** Beheerders kunnen toegang verlenen aan niet-beheerders: de machtiging wordt aangeroepen **[!UICONTROL Server call usage]**. Zie [Machtiging voor oproepgebruik van server](#server-call-usage-permission).
 
 ## Belangrijke terminologie {#terminology}
 
-Hier is een korte inleiding op essentiële terminologie voor het Gebruik van de Vraag van de Server:
+De volgende termijnen zijn belangrijk in het begrip van het gebruik van de servervraag:
 
 <table id="table_4E97F85F13344A2C962FA4FA5A51642E"> 
  <thead> 
@@ -65,7 +63,7 @@ Hier is een korte inleiding op essentiële terminologie voor het Gebruik van de 
    <td colname="col2"> <p>Een organisatie is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en om enig teken-binnen in het Experience Cloud te controleren. De organisatie werkt als een login bedrijf dat alle producten en oplossingen van de Experience Cloud overspant. </p> <p>Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Verbinding serveroproep </p> </td> 
+   <td colname="col1"> <p>Verbinding met serveroproep </p> </td> 
    <td colname="col2"> <p>Wanneer uw bedrijf een contract met Adobe ondertekent, identificeert het team van de Verkoop van de Adobe met u, de klant, de types (Primair, Secundair, Mobiel Primair, Secundair Mobiel) en het geschatte aantal servervraag die u verwacht te zullen veroorzaken over de loop van de contractperiode. Dit is uw totale verplichting van de servervraag. </p> </td> 
   </tr> 
   <tr> 
@@ -79,13 +77,13 @@ Hier is een korte inleiding op essentiële terminologie voor het Gebruik van de 
  </tbody> 
 </table>
 
-## Machtiging voor serveroproepgebruik {#permission}
+## Machtiging voor oproepgebruik van server {#permission}
 
-De toestemming van het Gebruik van de Vraag van de Server wordt automatisch verleend aan Admins van Analytics. Gebruikers kunnen het dashboard bekijken en waarschuwingen voor serveroproepen maken. Beheerders kunnen deze machtiging aan niet-beheerders verlenen.
+De toestemming van het het vraaggebruik van de Server wordt automatisch verleend aan Admins van Analytics. Gebruikers kunnen het dashboard bekijken en waarschuwingen voor serveroproepen maken. Beheerders kunnen deze machtiging aan niet-beheerders verlenen.
 
 >[!NOTE]
 >
->Uw bedrijf kan kiezen welke login bedrijven toegang tot het Gebruik van de Vraag van de Server hebben.
+>Uw bedrijf kan kiezen welke login bedrijven toegang tot het vraaggebruik van de Server hebben.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
@@ -97,17 +95,17 @@ De toestemming van het Gebruik van de Vraag van de Server wordt automatisch verl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gebruik van serveroproep </p> </td> 
+   <td colname="col1"> <p>Gebruik van serveroproepen </p> </td> 
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Meld u aan bij Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigeren naar <span class="ignoretag"> <span class="uicontrol"> Beheerder </span>  &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer </span>  &gt; <span class="uicontrol"> Groepen </span>  &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span>  &gt; <span class="uicontrol"> Analysegereedschappen </span>  &gt; <span class="uicontrol"> Aanpassen </span>  &gt; <span class="uicontrol"> Gebruik van serveroproep </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigeren naar <span class="ignoretag"> <span class="uicontrol"> Beheerder </span>  &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer </span>  &gt; <span class="uicontrol"> Groepen </span>  &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span>  &gt; <span class="uicontrol"> Analysegereedschappen </span>  &gt; <span class="uicontrol"> Aanpassen </span>  &gt; <span class="uicontrol"> serveroproepgebruik </span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Log in bij login.experiencecloud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Klikken <span class="uicontrol"> Analyse </span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navigeren naar <span class="ignoretag"> <span class="uicontrol"> Producten </span>  &gt; <span class="uicontrol"> Productprofiel </span>  &gt; <span class="uicontrol"> Machtigingen </span>  &gt; <span class="uicontrol"> Analysegereedschappen </span>  &gt; <span class="uicontrol"> Gebruik van serveroproep </span> </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navigeren naar <span class="ignoretag"> <span class="uicontrol"> Producten </span>  &gt; <span class="uicontrol"> Productprofiel </span>  &gt; <span class="uicontrol"> Machtigingen </span>  &gt; <span class="uicontrol"> Analysegereedschappen </span>  &gt; <span class="uicontrol"> serveroproepgebruik </span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

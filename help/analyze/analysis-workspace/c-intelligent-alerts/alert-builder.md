@@ -4,9 +4,9 @@ title: Alert Builder (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 >
 >Intelligente waarschuwingen zijn alleen beschikbaar voor klanten van Adobe Analytics Prime en Adobe Analytics Ultimate.
 
-Met intelligente waarschuwingen (of alleen &#39;waarschuwingen&#39;) in Adobe Analytics kunt u direct op de hoogte worden gesteld wanneer zich abnormale gebeurtenissen in uw gegevens voordoen.
+Met intelligente waarschuwingen (of alleen &#39;waarschuwingen&#39;) in Adobe Analytics kunt u direct op de hoogte worden gesteld wanneer zich abnormale gebeurtenissen in uw gegevens voordoen. (Het alarm van het het vraaggebruik van de Server is een verschillend soort alarm dat slechts aan de beheerders van Analytics beschikbaar is. Deze waarschuwingen stellen u op de hoogte van het risico of het voorkomen van een overage in de gegevens van het servervraagverbruik en de verplichting. Zie voor meer informatie [Gebruikswaarschuwingen voor serveroproepen](/help/admin/admin/c-server-call-usage/scu-alerts.md).)
 
 Voor meer gedetailleerde overzichtsinformatie over Intelligente Alarm, zie [Overzicht van intelligente waarschuwingen](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-Een waarschuwing maken:
+Een intelligente waarschuwing maken:
 
 1. Begin met het maken van een waarschuwing door toegang te krijgen tot de waarschuwingsbuilder. U kunt tot de waakzame bouwer op om het even welke volgende manieren toegang hebben:
 
@@ -32,7 +32,7 @@ Een waarschuwing maken:
    * Open een project in Analysis Workspace, selecteer één of meerdere lijnpunten in een vrije vormlijst, dan klik met de rechtermuisknop aan en selecteer **[!UICONTROL Create alert from selection]**.
 
      Dit vult onmiddellijk de waakzame bouwer vooraf in om een alarm met de correcte metriek en de filters tot stand te brengen.
-   * Selecteer in Adobe Analytics **[!UICONTROL Components]** > [!UICONTROL **Waarschuwingen**] > **[!UICONTROL Create new alert]**.
+   * Een waarschuwing maken [van de alarmmanager](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#create-alerts).
 
    De waakzame bouwer toont. Deze interface is vertrouwd aan degenen die gebouwde segmenten of berekende metriek in Analytics hebben:
 
