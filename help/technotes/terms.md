@@ -3,7 +3,7 @@ title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '2541'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
    * De variabele Kanaal, die de dimensie van de Secties van de Plaats bevolkt. Zie [Paginariabelen](/help/implement/vars/page-vars/page-variables.md) in de gebruikershandleiding Implementeren.
    * Marketingkanalen, een onderdeel dat helpt te begrijpen hoe gebruikers op uw site aankomen. Zie [Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) in de gebruikershandleiding van Componenten.
 * **Classificatie:** Een functie in Adobe Analytics die het groeperen van dimensie-items toestaat. Zie [Classificaties](/help/components/classifications/c-classifications.md) in de gebruikershandleiding van Componenten.
-* **Klikmap:** Niet meer gebruikt. Een verouderde browserplug-in die aangeeft op welke gebieden op uw site het meest is geklikt. Dit gereedschap is teruggedraaid in de plaats van Activiteitenkaart.
+* **Klikmap:** Niet meer gebruikt. Een verouderde browserplug-in die aangeeft op welke gebieden op uw site het meest is geklikt. Dit instrument is ingetrokken ten gunste van Activity Map.
 * **Clickstream-gegevensinvoer:** Zie Gegevensinvoer.
 * **Cohort:** Een groep mensen die gemeenschappelijke kenmerken delen over een bepaalde periode. Zie [Wat is Cohort Analysis?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in de gebruikershandleiding Analyseren.
 * **Verzamelingsserver:** Zie Gegevensverzamelingsserver.

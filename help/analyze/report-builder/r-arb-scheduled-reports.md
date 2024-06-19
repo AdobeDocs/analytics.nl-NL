@@ -4,14 +4,14 @@ title: Ongeveer de Geplande Manager van de Taak
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
 
-# Gepland Taakbeheer
+# Geplande Taakmanager
 
 De [!UICONTROL Scheduled Task Manager] laat u een lijst van bestaande geplande rapporten, samen met hun ontvangers, planningsdetails, en dossierformaten zien. Ook kunt u geplande werkboeken die niet zijn uitgevoerd opnieuw activeren.
 
@@ -21,7 +21,7 @@ Op 21 april 2022 hebben we in Report Builder wijzigingen doorgevoerd in de gepla
 
 U kunt Report Builder-taken per uur blijven plannen en deze na maximaal 99 exemplaren laten beëindigen. De rollback is alleen van toepassing op taken per uur. De &quot;end after x occurrences&quot; blijft niet beschikbaar voor alle andere leveringsintervallen (dagelijks, wekelijks, maandelijks en jaarlijks).
 
-Deze optie wordt afgekeurd op 31 januari 2023.
+Deze optie wordt per 31 januari 2023 ingetrokken.
 Neem voor meer vragen of ondersteuning contact op met de klantenservice van de Adobe.
 
 Deze pauze is specifiek van toepassing op **alle taken die vóór 31 januari 2020 zijn gemaakt**. Er worden geen taken, werkboeken of gegevens verwijderd. Taken die ouder zijn dan twee jaar, worden onderbroken en er worden geen extra geplande taken verzonden.

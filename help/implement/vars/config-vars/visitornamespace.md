@@ -1,10 +1,10 @@
 ---
 title: bezoekerNameSpace
-description: Variabele in ruste die het cookie domein heeft bepaald.
+description: (In ruste) Hiermee kunt u het cookie-domein van derden bepalen.
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

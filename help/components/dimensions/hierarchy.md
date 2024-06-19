@@ -1,12 +1,12 @@
 ---
 title: Hiërarchie
-description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
+description: (In ruste) Een aangepaste dimensie die u kunt gebruiken voor rapportage.
 feature: Dimensions
 exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 1%
+source-wordcount: '167'
+ht-degree: 0%
 
 ---
 

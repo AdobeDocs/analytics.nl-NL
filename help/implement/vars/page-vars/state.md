@@ -1,12 +1,12 @@
 ---
 title: state
-description: Vul het "Bezoekersstatusrapport" in Reports and Analytics.
+description: (In ruste) Bevolkt het "Bezoekersrapport", dat niet meer beschikbaar is.
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze variabele wordt gepensioneerd en geen beschikbare dimensie in Analysis Workspace. Gebruik in plaats hiervan de dimensie &#39;US States&#39;, die AppMeasurement automatisch verzamelt op basis van de locatie van de bezoeker.
+>Deze variabele wordt gepensioneerd en geen beschikbare dimensie in Analysis Workspace. Gebruik de [VS](/help/components/dimensions/us-states.md) in plaats daarvan, welk AppMeasurement automatisch verzamelt gebaseerd op de plaats van de bezoeker.
 
 In eerdere versies van Adobe Analytics `state` de variabele werd gebruikt wanneer bezoekers verzendinformatie op retailsites invulden . Deze is functioneel identiek aan een proxy, maar is niet beschikbaar in Analysis Workspace.
 

@@ -4,9 +4,9 @@ title: Analyse van gebruikersmigratie naar de Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '3081'
+source-wordcount: '3078'
 ht-degree: 0%
 
 ---
@@ -269,7 +269,7 @@ Belangrijke informatie over het migratieproces en de invloed ervan op het huidig
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Aanmelden als </p> </td> 
-   <td colname="col2"> <p> Beheerders die naar de Adobe Admin Console migreren, kunnen de functie Aanmelden als niet-beheerdersaccounts die naar de Adobe Admin Console zijn gemigreerd, niet meer gebruiken. Deze functie is vervangen door Analytics. </p> </td> 
+   <td colname="col2"> <p> Beheerders die naar de Adobe Admin Console migreren, kunnen de functie Aanmelden als niet-beheerdersaccounts die naar de Adobe Admin Console zijn gemigreerd, niet meer gebruiken. Deze functie is uitgeschakeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vervaldatum gebruiker en overdracht van middelen </p> </td> 

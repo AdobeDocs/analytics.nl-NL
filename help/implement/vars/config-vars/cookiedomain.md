@@ -1,12 +1,12 @@
 ---
 title: cookieDomain
-description: De cookieDomain-variabele helpt het domein te bepalen waarop cookies moeten worden ingesteld.
+description: (In ruste) Hiermee kunt u het domein bepalen waarop cookies moeten worden ingesteld.
 feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,6 @@ ht-degree: 0%
 # cookieDomain
 
 >[!IMPORTANT]
->
 >Deze variabele wordt uitgeschakeld. Gebruiken [`trackingServer`](trackingserver.md) in plaats daarvan.
 
 De `cookieDomain` variable bepaalt het domein waar het AppMeasurement koekjes plaatst. U kunt deze variabele gebruiken om het cookiedomein uitdrukkelijk te plaatsen in plaats van het gebruiken van [`cookieDomainPeriods`](cookiedomainperiods.md) variabele.

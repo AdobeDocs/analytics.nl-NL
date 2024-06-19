@@ -1,12 +1,12 @@
 ---
 title: account
-description: Gebruik de accountvariabele om de rapportsuite te bepalen waarnaar gegevens worden verzonden.
+description: (In ruste) Bepaal de rapportsuite waarnaar gegevens worden verzonden.
 feature: Variables
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---

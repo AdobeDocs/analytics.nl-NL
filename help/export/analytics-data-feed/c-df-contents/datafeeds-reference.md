@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '3928'
 ht-degree: 0%
@@ -167,7 +167,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`page_event_var2`** | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De aangepaste naam (indien opgegeven) van de koppeling. | varchar(100) |
 | **`page_event_var3`** | Niet meer gebruikt. Gegevens van de module Beoordeling en Media. Bevolkt oudere videoverslagen in vorige versies van Adobe Analytics. | text |
 | **`page_type`** | Wordt gebruikt om de [Pagina&#39;s niet gevonden](/help/components/dimensions/pages-not-found.md) dimensie. Wordt uitsluitend gebruikt voor 404 pagina&#39;s. Deze variabele moet leeg zijn of de waarde bevatten `ErrorPage`. | char (20) |
-| **`page_url`** | De URL van de hit. Opmerking: deze `post_page_url` optie is gestript voor aanvragen voor het bijhouden van koppelingen en gebruikt het gegevenstype varchar(255). | Tekst |
+| **`page_url`** | De URL van de hit. Opmerking: deze `post_page_url` optie is gestript voor aanvragen voor het bijhouden van koppelingen en gebruikt het gegevenstype varchar(255). | Sms |
 | **`pagename`** | Wordt gebruikt om de [paginadimensie](/help/components/dimensions/page.md) in te vullen. Als de [`pagename`](/help/implement/vars/page-vars/pagename.md) variabele leeg is, wordt in plaats daarvan Analytics gebruikt `page_url` . | varchar(100) |
 | **`pagename_no_url`** | Vergelijkbaar met `pagename`, behalve dat het niet terugvalt naar `page_url`. Alleen de `post` is beschikbaar. | varchar(100) |
 | **`paid_search`** | Markering die wordt ingesteld als de treffer overeenkomt met de detectie van betaalde zoekopdrachten. | tinyint zonder teken |
@@ -211,10 +211,10 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`sourceid`** | Bron-id | int zonder teken |
 | **`state`** | Staatvariabele. | Varchar(50) |
 | **`stats_server`** | Niet gebruiken. Adobe interne server die de hit heeft verwerkt. | teken(30) |
-| **`survey`** | Niet meer gebruikt. Adobe Survey-variabele. Alleen de `post` is beschikbaar. | Tekst |
+| **`survey`** | Niet meer gebruikt. Adobe Survey-variabele. Alleen de `post` is beschikbaar. | Sms |
 | **`survey_instances`** | Niet meer gebruikt. Variabele voor Adobe Survey-instanties. | text |
 | **`t_time_info`** | Lokale tijd voor de bezoeker. Indeling is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| **`tnt`** | Gebruikt in Adobe Target-integraties. Dit zijn alle tests waarvoor ze momenteel in aanmerking komen. De indeling is: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | Tekst |
+| **`tnt`** | Gebruikt in Adobe Target-integraties. Dit zijn alle tests waarvoor ze momenteel in aanmerking komen. De indeling is: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | Sms |
 | **`tnt_action`** | Gebruikt in Adobe Target-integraties. Dit vertegenwoordigt alle tests waarvoor de hit in aanmerking komt. | text |
 | **`tnt_instances`** | Wordt gebruikt in Adobe Target-integratie. Variabele voor doelinstanties. | text |
 | **`tnt_post_vista`** | Niet meer gebruikt. Gebruiken `post_tnt` in plaats daarvan. | text |
@@ -223,7 +223,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`ua_color`** | Niet meer gebruikt. Eerder gebruikt als fallback voor kleurdiepte. | teken(20) |
 | **`ua_os`** | Niet meer gebruikt. Voorheen gebruikt als fallback voor besturingssysteem. | teken(80) |
 | **`ua_pixels`** | Niet meer gebruikt. Vroeger gebruikt als fallback voor browserhoogte en -breedte. | teken(20) |
-| **`user_agent`** | user agent string sent in the HTTP header of the image request. | Tekst |
+| **`user_agent`** | user agent string sent in the HTTP header of the image request. | Sms |
 | **`user_hash`** | Niet van gebruik. Hash op de rapportsuite-id. Gebruik `username` in plaats daarvan. | niet ondertekend |
 | **`user_server`** | Gebruikt in de [Server](/help/components/dimensions/server.md) dimensie. | varchar(100) |
 | **`userid`** | Niet gebruiken. De numerieke id voor de rapportsuite-id. Gebruiken `username` in plaats daarvan. | int zonder teken |
