@@ -4,10 +4,10 @@ title: Overzicht van deelvensters
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 1%
+source-wordcount: '1539'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace:
 | [Leeg deelvenster](blank-panel.md) | Kies uit de beschikbare deelvensters en visualisaties om uw analyse te starten. |
 | [Deelvenster Snelle inzichten](quickinsight.md) | Snel een vrije-vormlijst en een bijbehorende visualisatie bouwen om inzichten sneller te analyseren en te ontdekken. |
 | [Analyses voor venster Doel](a4t-panel.md) | Doelactiviteiten en ervaringen in Analysis Workspace analyseren. |
-| [Deelvenster voor attributie](attribution.md) | Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch. |
+| [Kenmerk, deelvenster](attribution.md) | Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch. |
 | [Deelvenster Vrije vorm](freeform-panel.md) | Voer onbeperkte vergelijkingen en onderverdelingen uit, dan voeg visualisaties toe om een rijk gegevensverhaal te vertellen. |
 | [Deelvenster Gemiddelde media - geluid](average-minute-audience-panel.md) | Analyseer het gemiddelde aantal minuten in de loop der tijd, met details over piekweergaven en de mogelijkheid om af te breken en te vergelijken. |
 | [Deelvenster voor gelijktijdige mediaviewers](media-concurrent-viewers.md) | Analyseer gelijktijdige viewers in de loop van de tijd met details over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. |
@@ -58,13 +58,13 @@ U kunt een datumbereik op minaniveau toepassen onder de geavanceerde instellinge
 
 ## Valzone {#dropzone}
 
-Met de dropzone van het deelvenster kunt u segment- en vervolgkeuzefilters toepassen op alle tabellen en visualisaties in een deelvenster. U kunt een of meerdere filters toepassen op een deelvenster. U kunt de titel boven elk filter wijzigen door op het bewerkingspenlood te klikken. U kunt ook met de rechtermuisknop klikken om het filter helemaal te verwijderen.
+Met de dropzone van het deelvenster kunt u segment- en vervolgkeuzefilters toepassen op alle tabellen en visualisaties in een deelvenster. U kunt een of meerdere filters toepassen op een deelvenster.
 
 ### Segmentfilters
 
-Sleep een segment van de linkerspoorstaaf naar de neerzetzone van het deelvenster om het deelvenster te filteren.
+Sleep segmenten van de linkerspoorstaaf naar de neerzetzone van het deelvenster om het deelvenster te filteren. Herhaal dit proces om extra filters aan het paneel toe te voegen. Filters worden naast elkaar boven in het deelvenster weergegeven.
 
-![Filter](/help/admin/admin/assets/filter.png)
+![Filter](assets/segment-filter.png)
 
 ### Ad-hocsegmentfilters
 
@@ -74,45 +74,60 @@ Ad hoc segmenten zijn een type van snel segment, en zijn lokaal aan het project.
 
 Zie voor meer informatie [Snelle segmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
-### Statische vervolgkeuzefilters
+### Statische drop-down segmenten
 
-Met vervolgkeuzefilters kunt u op een gecontroleerde manier met de gegevens werken. U kunt bijvoorbeeld een vervolgkeuzefilter toevoegen voor mobiele apparaattypen, zodat u het deelvenster kunt segmenteren op tablet, mobiele telefoon of bureaublad.
+De statische drop-down segmenten laten u toe om met de gegevens op een gecontroleerde manier in wisselwerking te staan. U kunt bijvoorbeeld een vervolgkeuzesegment toevoegen voor mobiele apparaattypen, zodat u het deelvenster kunt segmenteren op tablet, mobiele telefoon of bureaublad.
 
-Vervolgkeuzefilters kunnen worden gebruikt om ook vele projecten in één te consolideren. Bijvoorbeeld, als u vele versies van het zelfde project met verschillende toegepaste segmenten van het Land hebt, kunt u alle versies in één enkel project consolideren en een drop-down filter van het Land toevoegen.
+De statische drop-down segmenten kunnen ook worden gebruikt om vele projecten in te consolideren. Bijvoorbeeld, als u vele versies van het zelfde project met verschillende toegepaste segmenten van het Land hebt, kunt u alle versies in één enkel project consolideren en een drop-down segment van het Land toevoegen.
 
 ![](assets/dropdown-filter-intro.png)
 
-Een statisch vervolgkeuzemenu maken:
+#### Statische vervolgkeuzelijsten maken
 
-* Voor vervolgkeuzefilters die afmetingsitems gebruiken, klikt u op het pijlpictogram naar rechts naast de gewenste afmeting in de linkertrack. Deze actie stelt alle beschikbare afmetingspunten bloot. Meerdere dimensie-items in deze lijst selecteren met `[Shift + Click]` of `[Ctrl + Click]`en zet ze vervolgens neer in de dropzone van het deelvenster **terwijl u`[Shift]`**.
-* Voor drop-down filters die andere componenten zoals metriek, segmenten, of datumwaaiers gebruiken, selecteer veelvoudige componenten gebruikend `[Shift + Click]` of `[Ctrl + Click]`. De selectie neerzetten in de dropzone van het deelvenster **terwijl u`[Shift]`**. Alle componenttypen worden in deze context als segmenten behandeld.
-* Een enkele vervolgkeuzelijst kan slechts één type component bevatten. Als u meerdere componenttypen in uw selectie opneemt, wordt per componenttype een aparte vervolgkeuzelijst gemaakt. Als u bijvoorbeeld zowel metriek- als dimensie-items in uw selectie opneemt, worden twee aparte vervolgkeuzefilters gemaakt. Eén vervolgkeuzemenu bevat dimensie-items en het andere filter bevat maateenheden.
+* Voor drop-down segmenten die afmetingspunten gebruiken, selecteer één enkele afmeting van het linkerspoor en laat vallen het in paneeldropzone **terwijl u`[Shift]`**. Dit leidt tot een drop-down segment met alle afmetingspunten die met die afmeting worden geassocieerd.
 
-Selecteer een van de opties in de vervolgkeuzelijst om de gegevens in het deelvenster te wijzigen. U kunt er ook voor kiezen om geen filters in de deelvenstergegevens in te voeren door **[!UICONTROL No filter]**.
+  Of als u wilt dat het vervolgkeuzesegment alleen bepaalde dimensies bevat die aan een dimensie zijn gekoppeld, klikt u op het pijlpictogram naar rechts naast de gewenste dimensie in het linkerspoor. Deze actie stelt alle beschikbare afmetingspunten bloot. Meerdere dimensie-items in deze lijst selecteren met `[Shift + Click]` of `[Ctrl + Click]`en zet ze vervolgens neer in de dropzone van het deelvenster **terwijl u** `[Shift]`.
 
-![](assets/create-dropdown.png)
+* Voor drop-down segmenten die één enkel componenttype gebruiken (bijvoorbeeld slechts dimensies, of slechts segmenten, of slechts metriek), selecteer veelvoudige punten van het zelfde type in de linkerspoorstaaf gebruikend `[Shift + Click]` of `[Ctrl + Click]`en zet ze vervolgens neer in de dropzone van het deelvenster **terwijl u`[Shift]`**.
 
-Als u met de rechtermuisknop op een vervolgkeuzefilter klikt, kunt u uit de volgende opties kiezen:
+  Er wordt één vervolgkeuzesegment gemaakt met componenten die u hebt geselecteerd.
 
-* **[!UICONTROL Add label]**: Wanneer u een vervolgkeuzefilter toevoegt aan een project, wordt automatisch een label ingesteld op de naam van de component. Als u het label verwijdert, kunt u het opnieuw toevoegen met deze optie.
-* **[!UICONTROL Delete label]**: Verwijder de tekst boven een vervolgkeuzefilter.
-* **[!UICONTROL Delete drop-down filter]**: Hiermee verwijdert u het vervolgkeuzefilter uit het deelvenster.
+* Voor drop-down segmenten die een mengeling van componenttypes (zoals 2 metriek en 3 filters) gebruiken, selecteer veelvoudige componenten gebruikend `[Shift + Click]` of `[Ctrl + Click]`. De selectie neerzetten in de dropzone van het deelvenster **terwijl u`[Shift]`**. In dit verband worden alle componenttypen behandeld als afzonderlijke vervolgkeuzelijsten. Bijvoorbeeld, als u zowel metriek als afmetingspunten in uw selectie omvat, worden twee afzonderlijke drop-down segmenten gecreeerd: één drop-down segmenten omvat afmetingspunten, en andere omvat metriek.
+
+  ![Het venster van het Comité met het Mobiele het segmentgebied van de Klant beschikbaar om een statisch drop-down segment te laten vallen. ](assets/create-dropdown.png)
+
+Als u met de rechtermuisknop op een vervolgkeuzesegment klikt, hebt u de volgende opties:
+
+* **[!UICONTROL Delete drop-down]**: Hiermee verwijdert u het vervolgkeuzesegment uit het deelvenster.
+* **[!UICONTROL Delete label]**: Verwijder de tekst boven een vervolgkeuzesegment. Als u het label wilt wijzigen, selecteert u het potloodpictogram.
+* **[!UICONTROL Add label]**: Wanneer u een drop-down segment aan een project toevoegt, wordt een etiket automatisch geplaatst aan de componentennaam. Als u het label verwijdert, kunt u het opnieuw toevoegen met deze optie.
+* **[!UICONTROL Require selection]**: Hiervoor moet een segment in het deelvenster zijn ingesteld.
 
 [De video bekijken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
 
-### Dynamische vervolgkeuzefilters
+#### Statische drop-down segmenten gebruiken
 
-Met dynamische vervolgkeuzefilters kunt u beschikbare waarden bepalen op basis van gegevens binnen het rapportagebereik van het deelvenster en waarden in andere vervolgkeuzefilters. U kunt bijvoorbeeld twee dynamische vervolgkeuzelijsten maken met de opdracht [Landen](/help/components/dimensions/countries.md) dimensie en [Plaatsen](/help/components/dimensions/cities.md) dimensie. Wanneer u een land selecteert in het menu [!UICONTROL Countries] vervolgkeuzelijst, de [!UICONTROL Cities] De vervolgkeuzelijst wordt dynamisch aangepast om alleen de steden in dat land weer te geven.
+Gebruikers kunnen het vervolgkeuzemenu voor segmenten op een van de volgende manieren gebruiken om het deelvenster te filteren:
 
-Dit concept is van toepassing op alle dimensies. Alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde filters zijn zichtbaar. Items die in statische vervolgkeuzefilters zijn geselecteerd, beïnvloeden de beschikbare waarden in dynamische vervolgkeuzefilters. Het omgekeerde is echter niet waar. Dimension-items die zijn geselecteerd in dynamische vervolgkeuzefilters hebben geen invloed op de beschikbare waarden in statische vervolgkeuzefilters.
+* Pas één segment op het paneel toe door het segment van het drop-down menu te selecteren.
 
-Handmatige selectie van dimensie-items is beschikbaar als u verwacht dat een bepaald dimensie-item in de toekomst wordt verzameld. U kunt ook een dynamisch vervolgkeuzefilter wissen, zodat het geen waarde bevat, zodat andere dynamische vervolgkeuzefilters meer waarden kunnen bevatten. Selecteren **[!UICONTROL Reset all]** om de selectie uit alle vervolgkeuzefilters voor dat deelvenster te verwijderen.
+* U kunt meerdere segmenten op het deelvenster toepassen door meerdere segmenten in het keuzemenu te selecteren. Het deelvenster wordt gefilterd en bevat alle geselecteerde segmenten.
 
-Een dynamisch vervolgkeuzemenu maken:
+  ![Meerdere segmenten selecteren](assets/dropdown-filter-multiselect.png)
+
+### Dynamische vervolgkeuzelijsten
+
+Met dynamische vervolgkeuzelijsten kunt u beschikbare waarden bepalen op basis van gegevens binnen het rapportagebereik van het deelvenster en waarden in andere vervolgkeuzelijsten. U kunt bijvoorbeeld twee dynamische vervolgkeuzelijsten maken met de opdracht [Landen](/help/components/dimensions/countries.md) dimensie en [Plaatsen](/help/components/dimensions/cities.md) dimensie. Wanneer u een land selecteert in het menu [!UICONTROL Countries] vervolgkeuzelijst, de [!UICONTROL Cities] De vervolgkeuzelijst wordt dynamisch aangepast om alleen de steden in dat land weer te geven.
+
+Dit concept is van toepassing op alle dimensies. Alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde segmenten zijn zichtbaar. De punten van het Dimension die in statische drop-down segmenten worden geselecteerd beïnvloeden beschikbare waarden in dynamische drop-down segmenten. Omgekeerd is echter niet waar. Dimension-items die zijn geselecteerd in dynamische vervolgkeuzelijsten hebben geen invloed op de beschikbare waarden in statische vervolgkeuzelijsten.
+
+Handmatige selectie van dimensie-items is beschikbaar als u verwacht dat een bepaald dimensie-item in de toekomst wordt verzameld. U kunt een dynamisch drop-down segment ook ontruimen zodat het geen waarde bevat, toestaand andere dynamische drop-down segmenten om meer waarden te bevatten. Selecteren **[!UICONTROL Reset all]** om de selectie uit alle drop-down segmenten voor dat paneel te ontruimen.
+
+Een dynamisch vervolgkeuzesegment maken:
 
 * Eén dimensie naar de dropzone van het deelvenster slepen **terwijl u`[Shift]`**.
-* Dynamische vervolgkeuzefilters zijn niet beschikbaar voor metriek, segmenten of datumbereiken.
-* Klik met de rechtermuisknop op een vervolgkeuzefilter en selecteer **[!UICONTROL Delete filter]** om deze te verwijderen.
+* Dynamische drop-down segmenten zijn niet beschikbaar voor metriek, segmenten, of datumwaaiers.
+* Klik met de rechtermuisknop op een vervolgkeuzesegment en selecteer **[!UICONTROL Delete dropdown]** om deze te verwijderen.
 
 Als u met de rechtermuisknop op een dynamisch vervolgkeuzefilter klikt, hebt u dezelfde opties als statische vervolgkeuzefilters.
 
