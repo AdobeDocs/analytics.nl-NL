@@ -4,9 +4,9 @@ description: (Verouderd) Help AppMeasurement bepalen waar cookies moeten worden 
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: c7e525b68898a6663f3b40e2293f959d4bd129b2
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,13 @@ ht-degree: 0%
 # cookieDomainPeriods
 
 >[!IMPORTANT]
->Deze variabele is vervangen. Als u AppMeasurement v2.26.x of later gebruikt, of de uitbreiding van Adobe Analytics v1.9.4 of later, ontdekt de bibliotheek automatisch het domein om koekjes te plaatsen.
+>Deze variabele is vervangen. Als u een van de volgende methoden gebruikt:
+>
+>* AppMeasurement v2.26.x of hoger
+>* Adobe Analytics-extensie v1.9.4 of hoger
+>* Adobe Experience Cloud ID-service
+>
+>Deze variabele doet niets, aangezien de toepasselijke bibliotheek automatisch het domein ontdekt om koekjes te plaatsen.
 
 De `cookieDomainPeriods` De variabele hielp AppMeasurement bepalen waar te om de koekjes van Analytics te plaatsen door erop te wijzen dat het top-level domein een extra periode in het had. Deze variabele stond AppMeasurement toe om de extra periode in het top-level domein aan te passen en koekjes in de correcte plaats te plaatsen. Als het domein op hoofdniveau van uw website geen extra periode bevat, is deze variabele niet vereist.
 
