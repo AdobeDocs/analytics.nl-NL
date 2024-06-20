@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Locatiebeheer
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%
@@ -128,8 +128,6 @@ Een account verwijderen:
 1. Selecteer het pictogram met drie punten op de account die u wilt bewerken en selecteer vervolgens [!UICONTROL **Account verwijderen**]
 
 ## Bedrijfsbrede instellingen configureren (alleen beheerders)
-
-{{release-limited-testing-section}}
 
 Systeembeheerders kunnen gebruikers beperken bij het maken van accounts en locaties, of ze kunnen de typen accounts beperken die gebruikers kunnen maken en gebruiken.
 

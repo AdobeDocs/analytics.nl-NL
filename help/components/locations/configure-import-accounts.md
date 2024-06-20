@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloud-import- en exportaccounts configureren
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Een cloudimport- of -exportaccount configureren:
 
    De [!UICONTROL **Account toevoegen**] wordt weergegeven.
 
-1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam van locatieaccount**] | De naam van het locatieaccount. Deze naam wordt weergegeven wanneer u een locatie maakt | | [!UICONTROL **Beschrijving van locatieaccount**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Account ter beschikking stellen van alle gebruikers in uw organisatie**] | **Opmerking:** Deze functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md). <p>Schakel deze optie in als u wilt dat andere gebruikers in uw organisatie de account kunnen gebruiken.</p> <p>Houd rekening met het volgende wanneer u accounts deelt:</p><ul><li>Accounts die u deelt, kunnen niet worden verwijderd.</li><li>Gedeelde accounts kunnen alleen door de eigenaar van de account worden bewerkt.</li><li>Iedereen kan een locatie voor de gedeelde account maken.</li></ul> | | [!UICONTROL **Accounttype**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account.<p>Systeembeheerders kunnen de accounttypen beperken die gebruikers kunnen maken, zoals wordt beschreven in [Configureren of gebruikers accounts kunnen maken](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Als u geen rekeningen kunt tot stand brengen zoals die in deze sectie worden beschreven, contacteer uw systeembeheerder.</p> |
+1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam van locatieaccount**] | De naam van het locatieaccount. Deze naam wordt weergegeven wanneer u een locatie maakt | | [!UICONTROL **Beschrijving van locatieaccount**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Account ter beschikking stellen van alle gebruikers in uw organisatie**] | Schakel deze optie in als u wilt dat andere gebruikers in uw organisatie de account kunnen gebruiken.<p>Houd rekening met het volgende wanneer u accounts deelt:</p><ul><li>Accounts die u deelt, kunnen niet worden verwijderd.</li><li>Gedeelde accounts kunnen alleen door de eigenaar van de account worden bewerkt.</li><li>Iedereen kan een locatie voor de gedeelde account maken.</li></ul> | | [!UICONTROL **Accounttype**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account.<p>Systeembeheerders kunnen de accounttypen beperken die gebruikers kunnen maken, zoals wordt beschreven in [Configureren of gebruikers accounts kunnen maken](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Als u geen rekeningen kunt tot stand brengen zoals die in deze sectie worden beschreven, contacteer uw systeembeheerder.</p> |
 1. In de [!UICONTROL **Accounteigenschappen**] in, geeft u specifieke informatie op over het accounttype dat u hebt geselecteerd.
 
    Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met de [!UICONTROL **Accounttype**] die u hebt geselecteerd. (Aanvullende oudere accounttypen zijn ook beschikbaar, maar worden niet aanbevolen.)
