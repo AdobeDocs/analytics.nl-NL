@@ -3,16 +3,16 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 54be0400a76b1f8dbbf2aab99ed8d771d67e5bc3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 2%
+source-wordcount: '1051'
+ht-degree: 1%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (juni 2024)
 
-**Laatste update**: 13 juni 2024
+**Laatste update**: 20 juni 2024
 
 Deze releaseopmerkingen hebben betrekking op de releaseperiode van 12 juni 2024 tot en met juli. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -26,6 +26,8 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van 12 juni 2024 
 | **Beheerdersinstellingen om de accounts en locaties te beheren die worden gebruikt voor exporteren en importeren** | Een nieuwe [Het tabblad &quot;Admin settings&quot; in Locatiebeheer](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) geeft beheerders controle over of de gebruikers rekeningen en plaatsen kunnen tot stand brengen en uitgeven. Deze instellingen zijn van toepassing wanneer gebruikers [cloud-import- en -exportaccounts configureren](/help/components/locations/configure-import-accounts.md) en [cloudimport- en exportlocaties configureren](/help/components/locations/configure-import-locations.md). <p>Beheerders kunnen ook de typen accounts beperken (Google Cloud Platform, Azure RBAC, Amazon S3 enzovoort) die gebruikers kunnen maken en gebruiken.</p><p>Eerder kon elke gebruiker accounts en locaties maken, bewerken en gebruiken voor elk type account.</p> | donderdag 12 juni 2024 | vrijdag 20 juni 2024 |
 | **Accounts en locaties delen die worden gebruikt voor exporteren en importeren** | Gebruikers kunnen de accounts en locaties die ze maken nu beschikbaar maken voor alle gebruikers in hun organisatie. Alleen account- en locatie-eigenaars en systeembeheerders kunnen accounts en locaties bewerken en verwijderen.<p>Eerder konden accounts en locaties alleen worden gebruikt door de gebruiker die ze heeft gemaakt.</p><p>Deze instellingen zijn beschikbaar wanneer gebruikers [cloud-import- en -exportaccounts configureren](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) en [cloudimport- en exportlocaties configureren](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations). </p> | donderdag 12 juni 2024 | vrijdag 20 juni 2024 |
 | **Activity Map om minder servervraag voor Web SDK te gebruiken** | Op dit moment worden koppelingsgebeurtenissen voor Activity Mappen als hun eigen gebeurtenissen geteld en extra kosten met zich meegebracht. Deze verbetering neemt sommige verbindingsgebeurtenissen en verpakt hen in de volgende slag, gelijkend op hoe de gebeurtenissen door AppMeasurement worden behandeld. <p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> | Openingsbètaversie begint op 19 juni 2024 | TBD |
+| **Nieuwe API-handleiding voor gegevensbronnen** | De [Adobe Analytics 2.0 Data Sources API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) eindpunten verstrekken methodes om, te creëren te bekijken, te schrappen en, aan de rekeningen van Gegevensbronnen te uploaden. |  | Nu beschikbaar |
+| **Nieuwe methoden in de API Guide voor classificaties** | Er zijn twee nieuwe methoden voor het ophalen van bestandspartities toegevoegd aan de API Guide voor classificaties.<ul><li>[Bestandsindeling voor classificatietaak ophalen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[Indelen van indelingstaakbestand voor exporteren ophalen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | Nu beschikbaar |
 
 {style="table-layout:auto"}
 
