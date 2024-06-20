@@ -4,10 +4,10 @@ title: PDF- of CSV-bestanden downloaden
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 99f9a1d1fa6238918c1566f64df41418cd13fa0e
+source-git-commit: 830d9cd13db1a0767cce4e3d2574a120d00a9ac8
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 1%
+source-wordcount: '1001'
+ht-degree: 0%
 
 ---
 
@@ -19,27 +19,33 @@ Geëxporteerde gegevens kunnen de vorm hebben van gekopieerde gegevens, CSV- of 
 
 ## Een project downloaden als CSV of PDF {#download-project}
 
+Houd rekening met het volgende wanneer u projecten downloadt:
+
+* Wanneer het downloaden van projecten als CSV of PDF, kan het project worden bewaard of unsaved wanneer u om een projectdownload verzoekt. Alleen opgeslagen projecten kunnen echter worden [gepland](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md).
+
+* Bij het downloaden van projecten als een PDF:
+   * Het exporteren van downloads kan enkele minuten in beslag nemen, omdat het project opnieuw wordt uitgevoerd op Adobe-servers voordat het wordt gerenderd in PDF-indeling. We raden u aan het project pas te laten nadat de PDF in uw browser is gedownload. U kunt echter wijzigingen in het project blijven aanbrengen terwijl u wacht. Als een PDF langer dan 5 minuten duurt om te renderen, wordt u gevraagd om het te e-mailen.
+   * Downloads worden weergegeven als één pagina zonder paginering.
+   * PDF-weergaven bevatten wat er op de pagina in Workspace staat. Als een project visualisaties en deelvensters van aangepaste grootte heeft, moet u deze wijzigen om automatisch van grootte te zijn (knop in de rechterbovenhoek), zodat er geen afgekapte inhoud is.
+   * Alle [hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) die in vrije-vormlijsten bestaan zijn niet functioneel in de gedownloade PDF.
+
+Een project downloaden als een CSV- of PDF-bestand:
+
 1. Voer een van de volgende twee handelingen uit, afhankelijk van de indeling waarin u het project wilt downloaden:
 
    * **PDF:** Selecteren **[!UICONTROL Project]** > **[!UICONTROL Download PDF]**.
 
-      Kies deze optie als het gedownloade bestand alle weergegeven (zichtbare) tabellen en visualisaties in het project moet bevatten.
+     Kies deze optie als het gedownloade bestand alle weergegeven (zichtbare) tabellen en visualisaties in het project moet bevatten.
 
    * **CSV:** Selecteren **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
 
-      Kies deze optie als u gegevens in onbewerkte tekst wilt.
+     Kies deze optie als u gegevens in onbewerkte tekst wilt.
+
    ![](assets/download-project.png)
 
 1. (Voorwaardelijk) als u verkoos om een PDF te downloaden, wordt een bericht getoond nadat het project klaar is om te worden gedownload. Klikken [!UICONTROL **Downloaden**].
 
-Houd bij het downloaden van projecten rekening met:
-
-* Het project kan worden opgeslagen of niet opgeslagen wanneer u een projectdownload aanvraagt. Alleen opgeslagen projecten kunnen echter worden [gepland](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
-* PDF die in de browser worden gedownload, kunnen enkele minuten in beslag nemen om te worden geëxporteerd, omdat het project opnieuw wordt uitgevoerd op Adobe-servers voordat het wordt gerenderd in de PDF-indeling. We raden u aan het project pas te laten nadat de PDF in uw browser is gedownload. U kunt echter wijzigingen in het project blijven aanbrengen terwijl u wacht. Als een PDF langer dan 5 minuten duurt om te renderen, wordt u gevraagd om het te e-mailen.
-* PDF-downloads worden weergegeven als één pagina zonder paginering.
-* Wanneer een project aan PDF wordt teruggegeven, geven wij terug wat op de pagina is. Als een project visualisaties en deelvensters van aangepaste grootte heeft, moet u deze wijzigen om automatisch van grootte te zijn (knop in de rechterbovenhoek), zodat er geen afgekapte inhoud is.
-
-## Gegevens kopiëren naar klembord (hotkey: Ctrl+C) {#copy-data}
+## Gegevens kopiëren naar klembord (sneltoets: Ctrl+C) {#copy-data}
 
 De optie Klikken met rechtermuisknop **[!UICONTROL Copy to clipboard]** Hiermee kunt u snel gegevens uit Workspace kopiëren en in een hulpprogramma van derden plakken.
 
@@ -58,9 +64,9 @@ De optie Klikken met rechtermuisknop **[!UICONTROL Download data as CSV]** kunt 
 
 * Klik in de koptekst van een tabel of visualisatie met de rechtermuisknop en kies **[!UICONTROL Download data as CSV]**. Dit downloadt de getoonde gegevens in de lijst of de onderliggende gegevensbron voor visualisatie als CSV.
 
-   >[!NOTE]
-   >
-   >  Opmerking: Deze optie wordt niet ondersteund door de Kaartweergave.
+  >[!NOTE]
+  >
+  >  Opmerking: deze optie wordt niet ondersteund door de Kaartweergave.
 
 * Klik in een tabel met de rechtermuisknop en kies **[!UICONTROL Download selection as CSV]**. Alleen de selectie wordt met deze optie gedownload, in tegenstelling tot de volledige weergegeven tabel.
 
@@ -106,4 +112,4 @@ Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elk
 | --- | --- |
 | Waarom is mijn gedownloade PDF één pagina? | De gedownloade PDF worden momenteel niet gepagineerd door de werkruimte. |
 | Kan ik meer dan 50.000 items exporteren met de optie Items downloaden als CSV? | Terwijl elke download tot 50.000 afmetingspunten kan bevatten, kunt u het soort van uw lijst veranderen om langere eindpunten terug te winnen, of een filter toepassen om specifiekere punten te downloaden. |
-| Wat doet **[!UICONTROL Copy visualization]** doen? | Anders [!UICONTROL **Gegevens naar klembord kopiëren**] of [!UICONTROL **Selectie naar klembord kopiëren**] de **[!UICONTROL Copy visualization]** De optie voor klikken met de rechtermuisknop is geen exportoptie. Hiermee kunt u een visualisatie of een deelvenster van de ene plaats in Workspace naar de andere kopiëren. Bijvoorbeeld, van één paneel aan een andere in het zelfde project, of van één project aan een ander project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
+| Wat doet **[!UICONTROL Copy visualization]** doen? | Anders [!UICONTROL **Gegevens naar klembord kopiëren**] of [!UICONTROL **Selectie naar klembord kopiëren**] de **[!UICONTROL Copy visualization]** De optie voor klikken met de rechtermuisknop is geen exportoptie. Hiermee kunt u een visualisatie of een deelvenster van de ene plaats in Workspace naar de andere kopiëren. Bijvoorbeeld van het ene naar het andere deelvenster in hetzelfde project of van het ene naar het andere project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
