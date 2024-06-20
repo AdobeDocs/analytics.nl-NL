@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1017'
 ht-degree: 11%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 11%
       + [Overzicht van projecten](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten maken](analysis-workspace/build-workspace-project/create-projects.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
+      + [Inhoudsopgave van project](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Mappen in werkruimte {#workspace-folders}
          + [Mappen in werkruimte](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Mappen en submappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -78,6 +79,7 @@ ht-degree: 11%
       + [Gegevensbronnen beheren](analysis-workspace/visualizations/t-sync-visualization.md)
       + Vrije-vormtabel {#freeform-table}
          + [Vrije-vormtabel](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Hyperlinks maken voor afmetingen in een vrije-vormtabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
             + [Kolominstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rijinstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)

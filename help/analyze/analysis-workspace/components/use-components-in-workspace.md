@@ -3,9 +3,10 @@ description: Leer hoe u componenten aan een project kunt toevoegen in Analysis W
 title: Componenten in Analysis Workspace gebruiken
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,11 @@ Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [O
 
 1. Blader naar of zoek naar de component die u wilt toevoegen en sleep deze naar een deelvenster of een visualisatie in uw project.
 
-   U kunt bijvoorbeeld een segment naar de neerzetzone van het segment in een deelvensterkop slepen.
+1. (Optioneel) Sleep een component naar de neerzetzone van het segment in een deelvensterkop.
+
+   Segmenten worden toegepast op alle inhoud in het deelvenster.
+
+   Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te filtreren, zie [Valzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Overzicht van deelvensters](/help/analyze/analysis-workspace/c-panels/panels.md).
 
    ![een segment neerzetten in de neerzetzone](assets/segment-dropzone.png)
 
@@ -64,6 +69,10 @@ Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [O
 
      ![een segment neerzetten in de neerzetzone](assets/segment-dropzone.png)
 
+1. (Optioneel) U kunt dimensies en dimensies in Analysis Workspace opsplitsen met andere componenten.
+
+   Zie voor meer informatie [Afmetingen onderverdelingen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+
 Ga voor meer informatie over het gebruik van dimensies in Analysis Workspace naar [Voorvertoningsafmetingen](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Afmetingen onderverdelingen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), en [Afmetingen van tijd tot tijd](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
 ## Metriek toevoegen aan een project
@@ -92,31 +101,23 @@ Ga voor meer informatie over het gebruik van metriek in Analysis Workspace naar 
 
 [Segmenten](/help/components/segmentation/seg-overview.md) kunt u subsets van bezoekers identificeren op basis van kenmerken of specifieke interacties.
 
-Een segment toevoegen aan een project in Analysis Workspace:
+U kunt segmenten in Analysis Workspace op de volgende manieren gebruiken:
 
-1. Beginnen met het toevoegen van een segment aan uw project in Analysis Workspace, zoals beschreven in [Beginnen met het toevoegen van componenten aan een project](#begin-adding-components-to-a-project).
+### Segmenten toevoegen aan een deelvenster
 
-1. Kies een van de volgende methoden om het deelvenster te filteren:
+Wanneer u segmenten toevoegt aan een deelvenster, worden de segmenten toegepast op alle inhoud in het deelvenster.
 
-   * Sleep een afzonderlijk segment van de linkerspoorstaaf naar de neerzetzone van het segment.
+Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te filtreren, zie [Valzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Overzicht van deelvensters](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-     ![een segment neerzetten in de neerzetzone](assets/segment-dropzone.png)
+### Segmenten toevoegen aan een kolom in een vrije-vormtabel
 
-   * Houd Shift of Ctrl ingedrukt als u meerdere segmenten in de linkertrack wilt selecteren en houd Shift ingedrukt terwijl u ze op de neerzetzone van het segment neerzet.
+Wanneer u segmenten aan een kolom in een vrije-vormlijst toevoegt, zijn de segmenten op alle inhoud binnen de lijstkolom van toepassing.
 
-     ![meerdere segmenten in de neerzetzone neerzetten](assets/segment-dropzoone-multiple.png)
+### Segmenten gebruiken bij het maken van berekende metriek
 
-     Hiermee maakt u een vervolgkeuzemenu waarin gebruikers van het deelvenster het filter kunnen kiezen dat zij willen toepassen. Het vervolgkeuzemenu bevat een [!UICONTROL **Geen filter**] die gebruikers kunnen selecteren, zodat het deelvenster ongefilterd blijft.
+In de Berekende metrische bouwer, kunt u segmenten binnen uw metrische definitie toepassen.
 
-     U kunt de (x) selecteren om het even welke optie uit het drop-down menu te verwijderen. Als u de [!UICONTROL **Geen filter**] en is een filter vereist.
-
-   * Maak ad-hocsegmenten door niet-segmentcomponenten naar de neerzetzone te slepen. Dit kan u de tijd en moeite besparen om naar de Bouwer van het Segment te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als raaksegmenten. Deze definitie kan worden gewijzigd door op het informatiepictogram (i) naast het segment te klikken, vervolgens op het pictogram voor het bewerken van de vorm van een potlood te klikken en dit te bewerken in de Segment Builder.
-
-     Ad hoc segmenten zijn een type van snel segment, en zijn lokaal aan het project. Ze komen niet in de linkerspoorstaaf voor als je ze niet openbaar maakt.
-
-     Zie voor meer informatie [Snelle segmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
-
-Voor meer informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te filtreren, zie [Valzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Overzicht van deelvensters](/help/analyze/analysis-workspace/c-panels/panels.md).
+Zie voor meer informatie [Gesegmenteerde metriek](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Datumbereiken toevoegen aan een project
 
