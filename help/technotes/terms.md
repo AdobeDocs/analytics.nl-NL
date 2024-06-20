@@ -3,9 +3,9 @@ title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
 workflow-type: tm+mt
-source-wordcount: '2541'
+source-wordcount: '2528'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Klantkenmerken:** An Experience Cloud feature that allows the upload of attribute data. Zie [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in de gebruikershandleiding voor Core Services.
 * **Vertegenwoordiger van klantenondersteuning:** Een aangewezen gebruiker die gemachtigd is rechtstreeks met de klantenservice van de Adobe te communiceren. Zie [Delegaties voor klantenondersteuning](https://helpx.adobe.com/experience-cloud/supported-users.html) in de Knowledgebase van het Experience Cloud.
 * **Gegevensverzamelingsserver:** Servers die eigendom zijn van de Adobe en die gegevens ontvangen en verwerken. De verzoeken van het beeld worden verzonden naar de servers van de gegevensinzameling van de Adobe voor gebruik in rapportering.
-* **Gegevensconnectors:** Een volledige ontwikkelingsoplossing waarmee een derde het uploaden van gegevens naar Adobe Analytics kan automatiseren. De klanten van die derde kunnen een gegevensschakelaar gebruiken om hun gegevens in Adobe Analytics te verrijken. De meeste gegevensschakelaars gebruiken een gelijkaardige werkschema dat in Gegevensbronnen wordt gebruikt. Zie [Data Connectors](/help/import/data-connectors/data-connectors-eol.md) in de gebruikershandleiding voor importeren.
+* **Gegevensconnectors:** Een gepensioneerde ontwikkelingsoplossing waarmee een derde het uploaden van gegevens naar Adobe Analytics kan automatiseren. De klanten van die derde kunnen een gegevensschakelaar gebruiken om hun gegevens in Adobe Analytics te verrijken. Vervangen door de Adobe Exchange Marketplace.
 * **Gegevensinvoer:** Een onbewerkte gegevensexport waarin elke hit als een rij wordt weergegeven en variabelen als afzonderlijke kolommen. Meestal gebruikt voor het exporteren van Adobe Analytics-gegevens naar een database van derden. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding voor exporteren.
 * **Gegevensbronnen:** Hiermee kan een gebruiker gegevens uit een bestand uploaden naar Adobe Analytics. Het bestand wordt doorgaans uit een FTP-site opgehaald. Zie [Gegevensbronnen](/help/import/data-sources/overview.md) in de gebruikershandleiding voor importeren.
 * **Data Warehouse:** Een functie in Adobe Analytics waarmee u grotere rapporten kunt aanvragen. Zie [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) in de gebruikershandleiding voor exporteren.

@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 9a44c2df3cb65a23c0e38a8af3892d045a279818
 workflow-type: tm+mt
-source-wordcount: '5517'
+source-wordcount: '5548'
 ht-degree: 21%
 
 ---
@@ -27,6 +27,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | --- | --- |
 | **Juni 2024** | |
 | Verbeterde documentatie voor intelligente waarschuwingen | Bijgewerkte en verbeterde documentatie over waarschuwingen. Deze updates bevatten informatie over [waarschuwingen maken](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [waarschuwingen beheren](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), en [overzichtsinformatie](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| Vervangen `cookieDomainPeriods` | Nu dat AppMeasurement automatisch het juiste domein detecteert om cookies in te stellen, wordt het [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) variabele is afgekeurd. |
+| Retire Data Connectors-documentatie | De Data Connectors-pagina voor einde levensduur is verplaatst naar [Afgezette producten](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
 | **Mei 2024** | |
 | Vereiste informatie wanneer het gebruiken van de beperkingen van het organisatiebeleid met het Platform van Google Cloud in Gegevensvoer en Data Warehouse | De Adobe Cloud Platform-organisatie-id is toegevoegd aan de [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md) en [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) documentatie. <p>Deze informatie is alleen vereist voor organisaties die [Beleidsbeperkingen van de organisatie](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform.</p> |
 | Documentatie over het toevoegen van componenten aan projecten | Algemene informatie toegevoegd over hoe [de verschillende soorten componenten toevoegen aan projecten in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
