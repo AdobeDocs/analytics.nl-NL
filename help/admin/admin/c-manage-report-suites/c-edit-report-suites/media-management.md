@@ -4,9 +4,9 @@ title: Mediabeheer
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ De volgende opties voor mediabeheer zijn beschikbaar wanneer u een rapportsuite 
 
 * [!UICONTROL **Mediarapportage**]
 
-  Rapporten specifiek voor het stromen van Media zijn beschikbaar op de Media die pagina melden. Voor meer informatie over Media die melden, zie [Media-rapporten inschakelen](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
+  De rapporten specifiek voor de Streaming Invoegsel van de Inzameling van Media zijn beschikbaar op de Media die pagina melden. Voor meer informatie over Media die melden, zie [Media-rapporten inschakelen](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
 
 * [!UICONTROL **Mediaclassificaties**]
 
-  Classificaties die specifiek zijn voor Streaming Media zijn beschikbaar op de pagina Mediaclassificaties. Zie voor informatie over classificaties [Conversieclassificaties](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Classificaties die specifiek zijn voor de invoegtoepassing voor het streamen van media zijn beschikbaar op de pagina Mediaclassificaties. Zie voor informatie over classificaties [Conversieclassificaties](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
 
-Voor algemene informatie over het stromen van Media Analytics, zie [Adobe Analytics para medios de streaming-gids](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+Zie voor algemene informatie over het opnemen van streaming-mediagegevens in Adobe Analytics de [Invoeggids voor streaming media Collection](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).

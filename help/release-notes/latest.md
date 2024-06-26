@@ -3,10 +3,10 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: fc5855991cc2294e9c797d9507cdcaca4f98a2d8
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -71,5 +71,5 @@ Voor de meest recente updates over releases van AppMeasurementen (versie 2.26.0)
 
 * [Opmerkingen bij de vorige release voor 2024](/help/release-notes/2024.md)
 * [Opmerkingen bij de release Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
-* [Opmerkingen bij de release Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Opmerkingen bij de release voor het ophalen van streaming media](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * De nieuwste release-updates voor [Adobe Experience Cloud-producten](https://business.adobe.com/products/adobe-experience-cloud-products.html)

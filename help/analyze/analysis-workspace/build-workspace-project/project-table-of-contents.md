@@ -5,16 +5,20 @@ title: Inhoudsopgave van project
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: e0b3ebf03fb1c37835a5580a7277cb81d9e3138b
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Inhoudsopgave van project
 
 U kunt een inhoudstafel binnen elk project in Analysis Workspace bekijken, toestaand u om zich tussen om het even welke panelen en visualisaties snel te bewegen die in het project bestaan. Dit is vooral nuttig wanneer het bekijken van grotere projecten die vele panelen en visualisaties bevatten.
+
+Hier volgt een videodemonstratie van deze functie:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
 
 De inhoudsopgave van een project weergeven:
 

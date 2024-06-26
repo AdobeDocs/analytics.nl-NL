@@ -1,23 +1,23 @@
 ---
-title: Deelvenster voor gelijktijdige mediaviewers
+title: Deelvenster Mediagelijktijdige viewers
 description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Deelvenster voor gelijktijdige mediaviewers
+# Deelvenster Mediagelijktijdige viewers
 
-Klanten van Media Analytics kunnen gelijktijdige viewers analyseren om te begrijpen waar de piekgelijktijdige optreden plaatsvond of waar drop-outs waardevolle inzichten in de kwaliteit van de betrokkenheid van de inhoud en de kijker gaven, en om te helpen bij het oplossen van problemen of het plannen van volume of schaal.
+Klanten die de invoegtoepassing voor de verzameling van streamingmedia hebben aangeschaft, kunnen gelijktijdige viewers analyseren om te begrijpen waar de meeste gelijktijdige aanvallen hebben plaatsgevonden of waar drop-outs waardevolle inzichten hebben opgeleverd in de kwaliteit van de betrokkenheid van inhoud en viewers, en om hulp te bieden bij het oplossen van problemen of het plannen van volumes of schaal.
 
 In Analysis Workspace is Gelijktijdige viewers het aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.
 
-Met het deelvenster Mediagelijktijdige viewers kunt u in de loop van de tijd gelijktijdige viewers analyseren, met details over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.  Navigeer naar een rapportsuite met Media Analytics-componenten ingeschakeld om het deelvenster Mediagelijktijdige viewers te openen. Klik vervolgens op het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
+Met het deelvenster Mediagelijktijdige viewers kunt u in de loop van de tijd gelijktijdige viewers analyseren, met details over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.  Navigeer naar een rapportsuite met streaming-mediacomponenten om het deelvenster Mediagelijktijdige viewers te openen. Klik vervolgens op het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
 
 Hier volgt een video-overzicht van dit deelvenster:
 
@@ -53,13 +53,13 @@ Als u reeksindeling hebt geselecteerd, worden een regel in het lijndiagram en ee
 
 ![gelijktijdige viewer-uitvoer](assets/concurrent-viewers-output.png)
 
-### Gegevensbron
+### Data Source
 
 De enige metrische waarde die in dit deelvenster kan worden gebruikt, zijn Gelijktijdige viewers:
 
 | Metrisch | Beschrijving |
 |---|---|
-| Gelijktijdige viewers | Aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Unieke bezoekersaccounts gebruiken voor het verwijderen van ongewenste &quot;pieken&quot; bij showgrenzen (waar sessies tegelijkertijd eindigen en starten). |
+| Gelijktijdige viewers | Aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Unieke bezoekersaccounts gebruiken voor het verwijderen van ongewenste &#39;spikes&#39; bij showgrenzen (waar sessies tegelijkertijd eindigen en starten). |
 
 In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbron wilt weergeven, klikt u met de rechtermuisknop op het lijndiagram en downloadt u dit als een CSV-bestand.  Uitsplitsingen naar reeksen worden opgenomen.
 
@@ -72,7 +72,7 @@ In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbr
 |---|---|
 | Waar is de tabel voor vrije vorm? Hoe kan ik de gegevensbron zien? | De tabel Freeform is niet beschikbaar in deze weergave.  U kunt de gegevensbron downloaden door met de rechtermuisknop op het lijndiagram te klikken en het CSV-bestand te downloaden. |
 | Waarom veranderde mijn granulariteit? | Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau).  Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken.<br><br>Wanneer u van een groter datumbereik overschakelt op een kleiner datumbereik, wordt de granulariteit bijgewerkt naar het laagste detailniveau dat is toegestaan nadat het datumbereik is gewijzigd. Als u een hogere granulariteit wilt weergeven, bewerkt u het deelvenster en maakt u het opnieuw. |
-| Hoe vergelijk ik videonamen, segmenten, inhoudstypen, enzovoort? | Om deze in één enkele visualisatie te vergelijken, sleep segmenten, dimensies, of specifieke afmetingspunten in de filter van de reeksafbraak.<br><br>De weergave is beperkt tot 10 uitsplitsingen.  Als u meer dan 10 wilt weergeven, moet u meerdere deelvensters gebruiken. |
+| Hoe vergelijk ik videonamen, segmenten, inhoudstypen, enzovoort? | Om deze in één enkele visualisatie te vergelijken, sleep segmenten, dimensies, of specifieke afmetingspunten in de filter van de reeksafbraak.<br><br>De weergave is beperkt tot tien uitsplitsingen.  Als u meer dan 10 wilt weergeven, moet u meerdere deelvensters gebruiken. |
 | Hoe vergelijk ik datumbereiken? | Om datumwaaiers in één enkele visualisatie te vergelijken, gebruik de reeksonderverdelingen door 2 of meer datumwaaiers te slepen.  Deze datumbereiken overschrijven het datumbereik van het deelvenster. |
 | Hoe kan ik het visualisatietype wijzigen? | In dit deelvenster kunt u alleen de lijnen voor de tijdreeks visualiseren. |
 | Kan ik anomaliedetectie uitvoeren? | Nee.  Anomaly-detectie is niet beschikbaar voor dit deelvenster. |

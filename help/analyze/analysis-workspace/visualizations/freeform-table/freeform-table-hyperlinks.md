@@ -4,9 +4,9 @@ description: Leer hoe u hyperlinks maakt voor dimensie-items in een vrije-vormta
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: 00a0288616401045585f70c768a20fc122e584c9
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Deze functionaliteit is vooral handig bij het maken van hyperlinks voor de volge
 * Items van een Dimension die onderverdelingen bevatten met URL-waarden waarnaar u wilt koppelen (bijvoorbeeld een pagina-naamdimensie met een indeling van een pagina-URL-dimensie)
 
 * Items of uitsplitsingen in Dimensionen met waarden die onderdeel zijn van een URL waarnaar u een koppeling wilt maken (bijvoorbeeld een paginanaam die deel uitmaakt van een URL)
+
+Hier volgt een videodemonstratie van deze functie:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
 
 ## Hyperlinks maken voor een of meer afmetingsitems
 

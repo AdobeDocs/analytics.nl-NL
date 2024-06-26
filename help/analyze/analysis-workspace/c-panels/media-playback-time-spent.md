@@ -4,9 +4,9 @@ description: Het deelvenster Media Playback Time Spent in Analysis Workspace geb
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ In Analysis Workspace is Afspeeltijd de hoeveelheid tijd die is besteed aan het 
 
 Met het deelvenster Tijd voor afspelen van media kunt u het afspelen in de loop van de tijd analyseren, waarbij u details kunt vinden over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.
 
-Klanten van Media Analytics kunnen de afspeeltijd analyseren die zij besteden om waardevolle inzichten in de kwaliteit van de inhoud en de betrokkenheid van de viewer te krijgen, en om te helpen bij het oplossen van problemen of het plannen van plannen voor volume of schaal.
+Klanten die de invoegtoepassing voor de verzameling van streaming media hebben aangeschaft, kunnen de afspeeltijd analyseren om waardevolle inzichten in de kwaliteit van de inhoud en de betrokkenheid van de viewer te krijgen en om hulp te bieden bij het oplossen van problemen of het plannen van volumes of schaal.
 
 Met de tijd die u hebt besteed voor afspelen kunt u het volgende begrijpen:
 
@@ -31,7 +31,7 @@ Hieronder volgt een video-overzicht van dit deelvenster:
 
 ## Het deelvenster Afspeeltijd van media gebruiken
 
-1. Ga naar een rapportsuite met ingeschakelde componenten Media Analytics.
+1. Ga naar een rapportsuite met ingeschakelde streamingmedia-componenten.
 1. Selecteer het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
 1. Ga verder met de volgende secties om het deelvenster Afspeeltijd van media aan te passen
 
@@ -65,7 +65,7 @@ Als u reeksindeling hebt geselecteerd, worden een regel in het lijndiagram en ee
 
 ![media playback tijd bestede output](assets/mpts_outputs1.png)
 
-### Gegevensbron
+### Data Source
 
 De enige metrische waarde die in dit deelvenster kan worden gebruikt, is Afspeeltijd.
 

@@ -3,10 +3,10 @@ title: Compatibiliteit met analytische Dimensionen
 description: Referentie voor analytische afmetingen en rapporten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -157,7 +157,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 
 ## Afmetingen waarbij de inhoud behouden blijft, ondersteund door Analysis Workspace
 
-### Video (Media Analytics)
+### Video (de invoegtoepassing voor het streamen van media-verzamelingen)
 
 | Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
@@ -218,7 +218,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Breedtegraad/lengtegraad | `sociallatlong` |
 | Codes voor het bijhouden van elementen | `socialassettrackingcode` |
 | Eigendom van sociale eigenschappen | `socialaccountandappids` |
-| ID&#39;s van eigenlijke berichten | `socialownedpostids` |
+| Post-id&#39;s in eigendom | `socialownedpostids` |
 | Eigendom van sociale definities | `socialinteractiontype` |
 | Eigenschap-id&#39;s | `socialownedpropertyid` |
 | Eigendom van eigenschap versus toepassing | `socialownedpropertypropertyvsapp` |
@@ -310,7 +310,7 @@ Zie voor meer informatie over het implementeren van deze integratie de [Nielsen 
 | Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Element-id | `aemassetid` |
-| Middelbron | `aemassetsource` |
+| Source-element | `aemassetsource` |
 | Id van geklikt element | `aemclickedassetid` |
 | Item-id | `entryaemassetid` |
 | Element-id afsluiten | `exitaemassetid` |

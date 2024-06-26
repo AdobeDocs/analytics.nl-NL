@@ -3,10 +3,10 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: Aan de slag voor beheerders, analisten, eindgebruikers en ontwikkelaars
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ Voor informatie over elke beschikbare methode raadpleegt u [Adobe Analytics impl
 
 | | Implementatiemethoden |
 |---------|---------|
-| **Websites** | <ul><li>Web SDK-extensie (aanbevolen)</li><li>Web SDK</li><li>Extensie Analytics</li><li>Verouderd JavaScript</li></ul> |
+| **Websites** | <ul><li>Web SDK-extensie (aanbevolen)</li><li>Web SDK</li><li>Extensie Analytics</li><li>Legacy JavaScript</li></ul> |
 | **Mobiele apps** | <ul><li>Mobile SDK-extensie (aanbevolen)</li><li>Extensie Analytics</li></ul> |
 
 {style="table-layout:auto"}
@@ -78,8 +78,8 @@ Analysebeheerders moeten de volgende taken uitvoeren voordat ze Adobe Analytics 
 | Anomalische detectie | Anomaly Detection biedt een statistische methode om te bepalen hoe een bepaalde metrische waarde is gewijzigd ten opzichte van eerdere gegevens. | [Overzicht van anomaliedetectie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | Bijdrage-analyse | De Analyse van de bijdrage ontdekt verborgen patronen binnen uw gegevens om statistische anomalieën te verklaren en correlaties achter onverwachte klantenacties, uit-van-verbindende waarden, en plotselinge pieken of vallen voor geselecteerde metriek over convergent publiekssegmenten te identificeren. | [Overzicht van bijdrageanalyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Segmentatie van analyse | Hiermee kunt u krachtige, doelgerichte publiekssegmenten maken, beheren, delen en toepassen op uw rapporten met behulp van de analysemogelijkheden, de Adobe Experience Cloud, Adobe Target en andere producten voor geïntegreerde Adobe. | [Analytics-segmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
-| Soorten publiek publiceren naar Audience Manager | Adobe Audience Manager is een krachtig platform voor gegevensbeheer waarmee u unieke publieksprofielen kunt maken van de integratie van gegevens van eerste, tweede (partner) en andere bedrijven. | [Overzicht van Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
-| Integraties | U kunt informatie uit andere toepassingen in Adobe Analytics oppervlakken. <p>Hieronder vindt u een aantal algemene integraties:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html">Analyses voor doel</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html">Media Analytics</a></li> | [Analytics Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html) |
+| Publish-publiek naar Audience Manager | Adobe Audience Manager is een krachtig platform voor gegevensbeheer waarmee u unieke publieksprofielen kunt maken van de integratie van gegevens van eerste, tweede (partner) en andere bedrijven. | [Overzicht van Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
+| Integraties | U kunt informatie uit andere toepassingen in Adobe Analytics oppervlakken. <p>Hieronder vindt u een aantal algemene integraties:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html">Analyses voor doel</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html">De invoegtoepassing voor het streamen van media-verzamelingen</a></li> | [Analytics Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html) |
 
 {style="table-layout:auto"}
 
