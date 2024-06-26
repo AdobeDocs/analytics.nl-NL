@@ -4,9 +4,9 @@ title: Overzicht van deelvensters
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
+source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -107,11 +107,13 @@ Als u met de rechtermuisknop op een vervolgkeuzesegment klikt, hebt u de volgend
 
 #### Statische drop-down segmenten gebruiken
 
-Gebruikers kunnen het vervolgkeuzemenu voor segmenten op een van de volgende manieren gebruiken om het deelvenster te filteren:
+Gebruik het vervolgkeuzemenu voor segmenten op een van de volgende manieren om het deelvenster te filteren:
 
 * Pas één segment op het paneel toe door het segment van het drop-down menu te selecteren.
 
 * U kunt meerdere segmenten op het deelvenster toepassen door meerdere segmenten in het keuzemenu te selecteren. Het deelvenster wordt gefilterd en bevat alle geselecteerde segmenten.
+
+  Als u een segment uit de lijst wilt verwijderen, selecteert u het opnieuw in de vervolgkeuzelijst.
 
   ![Meerdere segmenten selecteren](assets/dropdown-filter-multiselect.png)
 
