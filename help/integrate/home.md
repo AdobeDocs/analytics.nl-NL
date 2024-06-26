@@ -1,16 +1,16 @@
 ---
-title: Analytics Integration
+title: Analyseintegratie
 description: Leer hoe u gegevens van andere locaties kunt integreren in Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 61%
+source-wordcount: '165'
+ht-degree: 54%
 
 ---
 
-# Analytics Integration
+# Analyseintegratie
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
@@ -41,6 +41,6 @@ Hier volgt een video-overzicht van Adobe Analytics:
 ## Belangrijke bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
-* [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

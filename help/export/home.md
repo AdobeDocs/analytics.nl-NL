@@ -3,10 +3,10 @@ title: Handleiding voor exporteren van analysemogelijkheden
 description: In deze handleiding worden manieren beschreven om gegevens uit Adobe Analytics op te halen met behulp van gegevensfeeds en Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 76%
+source-wordcount: '162'
+ht-degree: 68%
 
 ---
 
@@ -37,6 +37,6 @@ Hier volgt een video-overzicht van Adobe Analytics:
 ## Belangrijke bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
-* [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

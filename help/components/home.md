@@ -3,10 +3,10 @@ title: Analytics Components-handleiding
 description: Meer informatie over de verschillende componenten die Adobe Analytics biedt.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 76%
+source-wordcount: '211'
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 Met Analytics Components kunt u de analyse van uw data verfijnen en versterken. Components bevat:
 
-* **Dimension:** Referentie voor afmetingen die bruikbaar zijn in Adobe Analytics.
+* **Dimensionen:** Referentie voor afmetingen die bruikbaar zijn in Adobe Analytics.
 * **Metrisch:** Referentie voor metriek bruikbaar in Adobe Analytics.
 * **Segmentatie:** Focus op een subset van uw data.
 * **Berekende standaard:** Gebruik eenvoudige formules om cijfers te combineren, of geavanceerde functies voor statistische analyse.
@@ -43,6 +43,6 @@ Hier volgt een video-overzicht van Adobe Analytics:
 ## Belangrijke bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
-* [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
