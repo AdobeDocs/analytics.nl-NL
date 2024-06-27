@@ -1,13 +1,13 @@
 ---
-description: Veelgestelde vragen over werkruimte
-title: Veelgestelde vragen en werkruimte voor probleemoplossing
+description: Veelgestelde vragen over Workspace
+title: Veelgestelde vragen en probleemoplossing voor Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 25%
+source-wordcount: '542'
+ht-degree: 24%
 
 ---
 
@@ -33,10 +33,6 @@ U kunt nu projecten in Analysis Workspace maken met gegevens van meer [meerdere 
 Er is geen speciale implementatie vereist. Analysis Workspace is beschikbaar voor alle bedrijven met Analytics Standard of Premium. Nochtans, zijn de standaardtoestemmingen op inhoud (zoals rapportsuites en projectcomponenten) van toepassing, en voor het leiden en het delen van projecten. Zie [Beheer- en toegangseisen](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
-+++Wijzigt Analysis Workspace vooraf geconfigureerde rapporten in Adobe Analytics?
-Nee. Omdat dit een afzonderlijke omgeving is, zijn er geen wijzigingen in uw bestaande of vooraf geconfigureerde rapporten in Adobe Analytics. Met Analysis Workspace kunt u nog steeds standaardrapporten voor Reporten Builder gebruiken.
-+++
-
 +++Kan ik Analysis Workspace voor Data Warehouse gebruiken?
 Analysis Workspace wordt niet aanbevolen voor het exporteren van bulkgegevens. Het is een visualisatiewerkruimte die dashboardachtige analyseprojecten maakt.
 +++
@@ -52,7 +48,7 @@ Bekijk deze video:
 
 +++
 
-+++ Hoe kan ik het gebruik van de werkruimte bijhouden?
++++ Hoe kan ik het gebruik van Workspace bijhouden?
 
 Bekijk deze video over het bijhouden van gebruikerslogboeken voor Analysis Workspace:
 
@@ -71,4 +67,8 @@ Als u een werkruimterapport hebt gemaakt maar er geen gegevens zijn, kunt u een 
 * Als u een segment in uw rapport toepaste, zouden de segmentcriteria geen gegevens kunnen aanpassen. Verwijder het segment of pas de segmentdefinitie aan.
 * Controleer de datumwaaier in de hogere juiste hoek en zorg ervoor het aan een waarde wordt geplaatst die u zou verwachten.
 * Ga naar uw website en gebruik de [Foutopsporing](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) om te controleren of er gegevens worden verzameld.
++++
+
++++Als alleen-lezen gebruiker, welke acties kan ik in Analysis Workspace uitvoeren?
+Wanneer een project alleen-lezen wordt gedeeld, zijn alle bewerkingsfuncties en -functies volledig uitgeschakeld en kunnen ontvangers het vervolgkeuzemenu alleen wijzigen en een filter op een vooraf gedefinieerde manier op het deelvenster toepassen.
 +++
