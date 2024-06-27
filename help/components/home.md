@@ -3,7 +3,7 @@ title: Analytics Components-handleiding
 description: Meer informatie over de verschillende componenten die Adobe Analytics biedt.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 73%
@@ -44,5 +44,5 @@ Hier volgt een video-overzicht van Adobe Analytics:
 
 * [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
 * [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

@@ -3,7 +3,7 @@ title: Handleiding voor importeren van analysemogelijkheden
 description: Deze gids verklaart hoe te om gegevens in Analytics te krijgen gebruikend Gegevensbronnen en de Invoeging APIs van Gegevens.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 52%
@@ -33,5 +33,5 @@ Hier volgt een video-overzicht van Adobe Analytics:
 
 * [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
 * [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)
