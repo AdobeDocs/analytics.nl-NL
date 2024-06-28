@@ -4,9 +4,9 @@ description: Hiermee geeft u de invoerafmetingen en het gebruik ervan weer.
 keywords: entry page, entry site section, entry server, entry custom understanding
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,9 @@ ht-degree: 0%
 *Deze Help-pagina beschrijft hoe items werken als een [dimensie](overview.md). Voor informatie over hoe de ingangen als metrisch werken, zie [Berichten](../metrics/entries.md) metrisch.*
 
 De afmetingen van het item zijn [op bezoek](../metrics/visits.md). Zij registreren het eerste afmetingspunt, en stellen het voor de volledige duur van dat bezoek voort. Invoerafmetingen zijn beschikbaar voor alle variabelen waarbij tekenen is ingeschakeld onder [verkeersvariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in de instellingen van de rapportsuite.
+
+>[!TIP]
+>Als u gegevens wilt zien op basis van de eerste treffer van een bezoek in plaats van de eerste waarde die tijdens een bezoek wordt getoond, kunt u een [segment](/help/components/segmentation/seg-overview.md). Gebruik een raakcontainer op de plaats waar [Hoogte](hit-depth.md) is gelijk aan 1, dan gebruik dat segment met de gewenste variabele.
 
 ## Itemafmetingen vullen met gegevens
 

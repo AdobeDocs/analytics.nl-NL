@@ -3,9 +3,9 @@ title: Overzicht van classificatiesets
 description: Classificatiesets gebruiken om classificatiegegevens te beheren.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,15 @@ Classificatiesets bieden één interface voor het beheer van classificaties en r
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
 
+U moet een productbeheerder zijn of behoren tot een productprofiel dat het machtigingsitem bevat [!UICONTROL Report Suite Tools] > [!UICONTROL Classifications] om dit menu-item weer te geven. Merk op dat terwijl vorige classificatiebeheerinterfaces onder zijn [!UICONTROL Admin] menu&#39;s, classificatiesets vallen onder de [!UICONTROL Components] -menu.
+
+## Verbeteringen
+
 De backend architectuur die met de reeksen van de Classificatie wordt vrijgegeven bevat verscheidene opmerkelijke verbeteringen:
 
 * Lagere verwerkingstijd (72 uur → 24 uur)
-* De mogelijkheid om de interface voor classificatiesets te gebruiken
-* De optie om classificatiegegevens in Adobe Experience Platform in de toekomst via de [Adobe Analytics-bronconnector voor classificatiegegevens](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
+* Een vernieuwde interface voor het beheren van classificaties
+* De optie om classificatiegegevens in Adobe Experience Platform in de toekomst via de [Adobe Analytics-bronconnector voor classificatiegegevens](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
 De backend architectuur die met de reeksen van de Classificatie wordt vrijgegeven bevat verscheidene opmerkelijke veranderingen:
 
