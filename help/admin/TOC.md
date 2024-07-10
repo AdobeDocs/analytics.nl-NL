@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 14%
@@ -175,7 +175,7 @@ ht-degree: 14%
       + [Veelgestelde vragen over servergebruik](admin/c-server-call-usage/overage-faq.md)
    + User en Product Management (verouderd) {#user-product-management}
       + [Gebruiker- en productbeheer (verouderd)](admin/user-management2/user-management.md)
-      + [Gebruikerselementen overdragen of verlopen van account instellen](admin/user-management2/users-assets.md)
+      + [Oudere gebruikersaccounts, middelen en vervaltijden beheren](admin/user-management2/users-assets.md)
       + Gebruikers migreren naar Adobe Admin Console {#migrate-users}
          + [Analyse van gebruikersmigratie naar de Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Gebruikersaccounts voor Analyse migreren voor Adobe-id&#39;s](admin/user-management2/user-migration/t-migrate-users.md)
