@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: b60a25d7b9ff28b7b9f0488acaa4380c4093d78f
 workflow-type: tm+mt
-source-wordcount: '5626'
+source-wordcount: '5640'
 ht-degree: 20%
 
 ---
@@ -25,6 +25,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **juli 2024** | |
+| Algemene foutberichten zijn bijgewerkt | Kleine wijzigingen aangebracht in de [algemene foutberichten](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juni 2024** | |
 | Bijgewerkte productnaam die verwijst naar functies voor streaming media | Vervangen exemplaren van &quot;Media Analytics&quot; en &quot;Streaming Media&quot; met de naam &quot;Streaming Media Collection Add-on&quot; bij verwijzing naar de set streaming media-functies die streaming mediagegevens verzamelen en deze in Analysis Workspace laten overlopen. <p>Deze updates zijn beschikbaar in de documentatie van Adobe Analytics en in de [Invoegdocumentatie voor streaming media Collection](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
 | Verbeterde documentatie voor intelligente waarschuwingen | Bijgewerkte en verbeterde documentatie over waarschuwingen. Deze updates bevatten informatie over [waarschuwingen maken](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [waarschuwingen beheren](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), en [overzichtsinformatie](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
