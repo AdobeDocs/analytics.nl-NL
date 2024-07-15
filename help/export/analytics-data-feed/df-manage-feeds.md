@@ -3,9 +3,9 @@ title: Gebruikersinterface voor gegevensinvoer
 description: Leer hoe te om de interface van de gegevensvoer te navigeren.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: 3916115169f526bb91442d251e6159496efd547f
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,9 @@ Met de knop [!UICONTROL Add] kunt u een nieuwe feed maken. Zie [ een gegevensvoe
 
    Wanneer het bijwerken van de [!UICONTROL **sectie van de Bestemming**] voor een gegevensvoer die u uitgeeft, kunt u een verschillende rekening en een plaats kiezen voor de nieuwe gegevensvoer in de [!UICONTROL **Rekening**] en [!UICONTROL **plaats**] drop-down gebieden te gebruiken.
 
-   Als u de rekening en de plaats voor alle gegevensvoer wilt uitgeven waar zij worden gebruikt, kunt u de rekeningen en de plaatsen direct uitgeven, zoals die in [ worden beschreven vormt wolkinvoer en de uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md) en [ vormen wolkeninvoer en uitvoerplaatsen ](/help/components/locations/configure-import-locations.md). Niet-cloud accounts en locaties kunnen niet worden bewerkt.
+   De rekeningen en de plaatsen kunnen worden uitgegeven zoals die in [ wordt beschreven vormen de invoer en de uitvoerrekeningen van de wolk ](/help/components/locations/configure-import-accounts.md) en [ vormen wolkeninvoer en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md). Het bewerken van een account of locatie heeft invloed op alle items die aan dat account of die locatie zijn gekoppeld.
+
+   Met eerdere versies van de gegevensfeeds Manager kon u FTP-, SFTP-, S3- en Azure-blokdoelen maken. Doelen die in deze eerdere versies van het gegevensfeeds-beheer zijn gemaakt, kunnen niet worden bewerkt of gekopieerd.
 
 1. Selecteer [!UICONTROL **sparen**].
 
@@ -84,7 +86,9 @@ Met de knop [!UICONTROL Add] kunt u een nieuwe feed maken. Zie [ een gegevensvoe
 
    Wanneer het bijwerken van de [!UICONTROL **sectie van de Bestemming**] voor een gegevensvoer die u kopieert, kunt u een verschillende rekening en een plaats kiezen voor de nieuwe gegevensvoer in de [!UICONTROL **Rekening**] en [!UICONTROL **drop-down gebieden van de Plaats**] te gebruiken.
 
-   Als u de rekening en de plaats voor alle gegevensvoer wilt uitgeven waar zij worden gebruikt, kunt u de rekeningen en de plaatsen direct uitgeven, zoals die in [ worden beschreven vormt wolkinvoer en de uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md) en [ vormen wolkeninvoer en uitvoerplaatsen ](/help/components/locations/configure-import-locations.md). Niet-cloud accounts en locaties kunnen niet worden bewerkt.
+   De rekeningen en de plaatsen kunnen worden uitgegeven zoals die in [ wordt beschreven vormen de invoer en de uitvoerrekeningen van de wolk ](/help/components/locations/configure-import-accounts.md) en [ vormen wolkeninvoer en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md). Het bewerken van een account of locatie heeft invloed op alle items die aan dat account of die locatie zijn gekoppeld.
+
+   Met eerdere versies van de gegevensfeeds Manager kon u FTP-, SFTP-, S3- en Azure-blokdoelen maken. Doelen die in deze eerdere versies van het gegevensfeeds-beheer zijn gemaakt, kunnen niet worden bewerkt of gekopieerd.
 
 ## Een gegevensfeed pauzeren
 
