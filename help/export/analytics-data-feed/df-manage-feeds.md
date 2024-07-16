@@ -3,9 +3,9 @@ title: Gebruikersinterface voor gegevensinvoer
 description: Leer hoe te om de interface van de gegevensvoer te navigeren.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 3916115169f526bb91442d251e6159496efd547f
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,9 @@ Een gegevensfeed activeren:
 
 ## Een gegevensfeed verwijderen
 
-Wanneer u een gegevensfeed verwijdert, wordt de status ingesteld op [!UICONTROL Deleted] .
+Wanneer u een gegevensfeed verwijdert, wordt de status ingesteld op [!UICONTROL Deleted] . Gegevensfeeds moeten de status Actief hebben voordat ze kunnen worden verwijderd.
+
+Een gegevensfeed verwijderen:
 
 1. In Adobe Analytics, uitgezochte [!UICONTROL **Admin**] > [!UICONTROL **het voer van Gegevens**].
 

@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '5702'
+source-wordcount: '5719'
 ht-degree: 20%
 
 ---
@@ -26,7 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **Juli 2024** | |
-| Bijgewerkte documentatie voor het beheren van gegevensfeeds | De bijgewerkte informatie in [ beheert gegevensvoer ](/help/export/analytics-data-feed/df-manage-feeds.md) om duidelijkheid te verbeteren. <p>Updates zijn:</p><ul><li>Er zijn aparte secties gemaakt voor verschillende taken om de informatie gemakkelijker te kunnen scannen en gebruiken.</li><li>Informatie toegevoegd over wijzigingen in het gedrag van opnieuw geactiveerde live feeds. Deze veranderingen zijn momenteel in Beperkte Beschikbaarheid en zijn nog niet beschikbaar aan alle klanten.</li> |
+| Bijgewerkte documentatie voor het beheren van gegevensfeeds | De bijgewerkte informatie in [ beheert gegevensvoer ](/help/export/analytics-data-feed/df-manage-feeds.md) om duidelijkheid te verbeteren. <p>Updates zijn:</p><ul><li>Er zijn aparte secties gemaakt voor verschillende taken om de informatie gemakkelijker te kunnen scannen en gebruiken.</li><li>Informatie toegevoegd over wijzigingen in het gedrag van opnieuw geactiveerde live feeds. Deze veranderingen zijn momenteel in Beperkte Beschikbaarheid en zijn nog niet beschikbaar aan alle klanten.</li><li>Toegevoegde informatie waarin staat dat gegevensfeeds de status Actief moeten hebben voordat ze kunnen worden verwijderd.</li> |
 | Algemene foutberichten zijn bijgewerkt | Gemaakte minder belangrijke updates aan de [ gemeenschappelijke foutenmeldingen ](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juni 2024** | |
 | Bijgewerkte productnaam die verwijst naar functies voor streaming media | Vervangen exemplaren van &quot;Media Analytics&quot; en &quot;Streaming Media&quot; met de naam &quot;Streaming Media Collection Add-on&quot; bij verwijzing naar de set streaming media-functies die streaming mediagegevens verzamelen en deze in Analysis Workspace laten overlopen. <p>Deze updates zijn beschikbaar door de documentatie van Adobe Analytics evenals [ het Streamen Invoegtoepassing van de Inzameling van Media van de Inzameling ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
