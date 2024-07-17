@@ -3,54 +3,44 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: cb0eab15dac6d679e9f912010045e6be2e47df4a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '732'
+ht-degree: 1%
 
 ---
 
-# Opmerkingen bij de huidige Adobe Analytics-release (juni 2024)
+# Opmerkingen bij de huidige Adobe Analytics-release (juli 2024)
 
-**Laatste update**: 26 juni 2024
+**Laatste update**: 17 juli 2024
 
-Deze releaseopmerkingen hebben betrekking op de releaseperiode van 12 juni 2024 tot en met juli. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+Deze releaseopmerkingen hebben betrekking op de periode van 17 juli 2024 tot en met augustus 2024. De versies van Adobe Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 ## Nieuwe of verbeterde functies {#features}
 
-| Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
+| Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Meerdere velden in een vervolgkeuzemenu selecteren** | Wanneer meerdere velden zijn toegevoegd aan een vervolgkeuzefilter, kunnen gebruikers nu meerdere velden tegelijk selecteren. Het deelvenster wordt gefilterd en bevat een van de geselecteerde velden. <p>Eerder konden gebruikers slechts één veld tegelijk selecteren in een vervolgkeuzemenu.</p><p>Zie voor meer informatie [Statische drop-down segmenten](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments) in [Overzicht van deelvensters](/help/analyze/analysis-workspace/c-panels/panels.md).</p><p>[Een videodemonstratie van deze functie weergeven](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/use-multi-select-drop-down-filters).</p> |  | donderdag 19 juni 2024 |
-| **Inhoudsopgave voor Workspace-projecten** | Er is nu een nieuwe inhoudsopgave beschikbaar voor projecten. De inhoudsopgave bevat koppelingen waarmee gebruikers snel naar deelvensters en visualisaties in het project kunnen gaan. De inhoudsopgave kan worden ingeschakeld voor afzonderlijke projecten of voor alle projecten voor een bepaalde gebruiker.<p>Zie voor meer informatie [Inhoudsopgave van project](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md).</p><p>[Een videodemonstratie van deze functie weergeven](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace).</p> |  | donderdag 19 juni 2024 |
-| **Hyperlinks maken voor dimensie-items in een vrije-vormtabel** | U kunt hyperlinks maken voor een of meer dimensie-items, zodat hierop kan worden geklikt in een vrije-vormtabel in Analysis Workspace. <p>U kunt hyperlinks maken voor dimensie-items die URL-waarden hebben, of u kunt aangepaste URL&#39;s maken voor dimensie-items die geen URL-waarden hebben.</p><p>U kunt dynamische aangepaste URL&#39;s maken voor meerdere dimensie-items met behulp van variabelen. Variabelen kunnen verwijzen naar de waarde van een dimensie-item of naar de uitsplitsingsdimensie.</p><p>Zie voor meer informatie [Hyperlinks maken voor afmetingen in een vrije-vormtabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p><p>[Een videodemonstratie van deze functie weergeven](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables).</p> |  | donderdag 19 juni 2024 |
-| **Beheerdersinstellingen om de accounts en locaties te beheren die worden gebruikt voor exporteren en importeren** | Een nieuwe [Het tabblad &quot;Admin settings&quot; in Locatiebeheer](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) geeft beheerders controle over of de gebruikers rekeningen en plaatsen kunnen tot stand brengen en uitgeven. Deze instellingen zijn van toepassing wanneer gebruikers [cloud-import- en -exportaccounts configureren](/help/components/locations/configure-import-accounts.md) en [cloudimport- en exportlocaties configureren](/help/components/locations/configure-import-locations.md). <p>Beheerders kunnen ook de typen accounts beperken (Google Cloud Platform, Azure RBAC, Amazon S3 enzovoort) die gebruikers kunnen maken en gebruiken.</p><p>Eerder kon elke gebruiker accounts en locaties maken, bewerken en gebruiken voor elk type account.</p> | donderdag 12 juni 2024 | vrijdag 20 juni 2024 |
-| **Accounts en locaties delen die worden gebruikt voor exporteren en importeren** | Gebruikers kunnen de accounts en locaties die ze maken nu beschikbaar maken voor alle gebruikers in hun organisatie. Alleen account- en locatie-eigenaars en systeembeheerders kunnen accounts en locaties bewerken en verwijderen.<p>Eerder konden accounts en locaties alleen worden gebruikt door de gebruiker die ze heeft gemaakt.</p><p>Deze instellingen zijn beschikbaar wanneer gebruikers [cloud-import- en -exportaccounts configureren](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) en [cloudimport- en exportlocaties configureren](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations). </p> | donderdag 12 juni 2024 | vrijdag 20 juni 2024 |
-| **Activity Map om minder servervraag voor Web SDK te gebruiken** | Op dit moment worden koppelingsgebeurtenissen voor Activity Mappen als hun eigen gebeurtenissen geteld en extra kosten met zich meegebracht. Deze verbetering neemt sommige verbindingsgebeurtenissen en verpakt hen in de volgende slag, gelijkend op hoe de gebeurtenissen door AppMeasurement worden behandeld. <p>(Bijgewerkte documentatiekoppeling die moet worden gevolgd)</p> | Beta openen, 10 juli 2024 | TBD |
-| **Nieuwe API-handleiding voor gegevensbronnen** | De [Adobe Analytics 2.0 Data Sources API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) eindpunten verstrekken methodes om, te creëren te bekijken, te schrappen en, aan de rekeningen van Gegevensbronnen te uploaden. |  | Nu beschikbaar |
-| **Nieuwe methoden in de API Guide voor classificaties** | Er zijn twee nieuwe methoden voor het ophalen van bestandspartities toegevoegd aan de API Guide voor classificaties.<ul><li>[Bestandsindeling voor classificatietaak ophalen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[Indelen van indelingstaakbestand voor exporteren ophalen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | Nu beschikbaar |
+| **de verbeteringen van SDK van het Web voor verbinding het volgen** | Verschillende opmerkelijke verbeteringen zijn beschikbaar in de nieuwste versie van de SDK van het Web voor het bijhouden van koppelingen, wat de Activity Map rechtstreeks ten goede komt. Deze nieuwe eigenschappen zijn beschikbaar in zowel de bibliotheek van SDK van het Web JavaScript als de de markeringsuitbreiding van SDK van het Web.<ul><li>Gebeurtenisgroepering: wanneer een bezoeker op een interne koppeling klikt, kunt u ervoor kiezen om gebeurtenisgegevens op de volgende pagina te groeperen in plaats van een aparte gebeurtenisaanroep voor het bijhouden van koppelingen te activeren. Deze verbetering vermindert het aantal gebeurtenissen die SDK van het Web tegen uw contractuele grens gebruikt.</li><li>Filter klikt eigenschappen: een nieuwe callback die `OnBeforeLinkClickSend` vervangt. U kunt deze callback aan filter gebruiken of verduisteren verbinding-verwante gegevens alvorens het naar Adobe te verzenden.</li></ul><p>Zie [ clickCollection ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection) in de de gebruikersgids van SDK van het Web voor meer informatie.</p> | Beta openen, 10 juli 2024 | TBD |
 
 {style="table-layout:auto"}
 
 ## Oplossingen in Adobe Analytics
 
-* Correctie van de volgende classificatieproblemen: AN-347682; AN-348396; AN-348625; AN-348668; AN-348926; AN-348936; AN-3490 349697; AN-349758; AN-349862; AN-35005 AN-350054; AN-350208; AN-350497; AN-350525; AN-351067
-* De volgende problemen met betrekking tot Data Warehouse zijn opgelost: AN-346862; AN-349409; AN-349926; AN-350629; AN-350996
-* Correctie van de volgende gegevensfeeds: AN-346727; AN-348282; AN-348334; AN-348725; AN-348726; AN-348823; AN-349 349710; AN-349729; AN-349307; AN-349539; AN-349710; AN-349729; AN-3498 78; AN-349943; AN-350527;
-* Probleem met gegevensbronnen opgelost: AN-350038
-* De volgende Analysis Workspace-kwesties zijn opgelost: AN-342953; AN-346346; AN-349590; AN-349717; AN-350057; AN-350697; AN-3509 04
-* De volgende problemen in verband met de Report Builder zijn opgelost: AN-348903; AN-350691
-* De volgende A4T-problemen verholpen: AN-347690; AN-350853
+* Probleem verholpen waarbij gebruikers zich niet konden aanmelden bij de interface voor analyse (AN-352953)
+* Probleem opgelost waarbij gebruikers zich niet konden aanmelden bij de mobiele app Analytics (AN-352463)
+* Probleem opgelost waarbij het downloaden van het project als een PDF werd voorkomen (AN-352680)
+* Probleem opgelost waarbij classificaties niet werden geïmporteerd (AN-352178)
 
 ### Andere correcties voor analysemogelijkheden
 
-AN-346470; AN-346850; AN-347227; AN-348145; AN-348564; AN-349001; AN-349008; AN 349211; AN-349719; AN-350523;
+AN-352905; AN-352902; AN-352693; AN-352659; AN-352619;
+AN-352577; AN-352575; AN-352572; AN-352571; AN-352549; AN-352501; AN-35249; AN-3 352478; AN-352466; AN-352437; AN-352378; AN-352355; AN-352341; AN-352318; AN-3 52297; AN-352272; AN-352267; AN-352263; AN-352088; AN-352019; AN-352018; AN-35 1978; AN-351908; AN-351809; AN-351750; AN-351689; AN-351624; AN-351564; AN-351 351414; AN-351405; AN-351299; AN-351283; AN-351405; AN-351299; AN-3512 31; AN-350710; AN-349912; AN-349786; AN-348300; AN-348061; AN-347865; AN-3476 AN-347478; AN-343611; AN-343114; AN-334124
 
 ## Belangrijke kennisgevingen voor Adobe Analytics-beheerders {#admin}
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
-| **13 maanden verlopen van opgeslagen`cust_visids`** | donderdag 22 mei 2024 | Een volgende release van de Analytics Hit-verwerkingsengine. **gericht voor juli 2024**, wordt een 13 maanden durende vervaldatum van opgeslagen `cust_visids`. Als de rapportsuite &#39;Enable Visitor Stitching&#39; heeft ingeschakeld, wordt deze instelling gebruikt voor het zoeken van de `cust_visid` voor een `visid_high/visid_low value` zonder `cust_visid` op de hit. Er is momenteel geen vervaldatum voor de toewijzing van een `cust_visid` voor een `visid_high/visid_low`. Met deze release, als er sinds 13 maanden of meer verstreken zijn `visid_high/visid_low` heeft een `cust_visid` bij een hit verloopt de toewijzing. |
-| **Updates van ISO-regio** | zaterdag 10 mei 2024 | Adobe voert op 7 juni 2024 updates voor de ISO-regio uit voor 2024. Verwacht dat er na deze release kleine geo-informatie (regio) updates worden weergegeven. |
+| **13 maanden verlopen van opgeslagen`cust_visids`** | donderdag 22 mei 2024 | Een aanstaande versie van de de verwerkingsmotor van de Hit van Analytics, **voor Juli 2024** wordt gericht, zal beginnen afdwingend een 13 maandenvervaldatum van bewaard `cust_visids`. Als de rapportsuite &#39;Enable Visitor Stitching&#39; heeft ingeschakeld, wordt deze instelling gebruikt om de `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` te vinden op de hit. Er is momenteel geen vervaldatum voor de toewijzing van een `cust_visid` for een `visid_high/visid_low` . Als in deze release 13 maanden of meer zijn verstreken sinds `visid_high/visid_low` een `cust_visid` -resultaat heeft gehad, verloopt de toewijzing. |
 
 {style="table-layout:auto"}
 
@@ -58,18 +48,19 @@ AN-346470; AN-346850; AN-347227; AN-348145; AN-348564; AN-349001; AN-349008; AN 
 
 | EOL-product of -functie | Datum toegevoegd of bijgewerkt | Beschrijving |
 | --- | --- | --- |
-| **Migratie naar Adobe I/O OAuth Server-aan-Server geloofsbrieven** | vrijdag 11 mei 2023 | Adobe Analytics API- en Livestream-klanten die Adobe I/O JWT-gebruikersgegevens gebruiken, moeten naar Adobe I/O OAuth Server-to-Server-gebruikersgegevens migreren door **1 januari 2025**. Adobe I/O staat niet toe dat vanaf 1 mei 2024 nieuwe JWT-referenties worden gemaakt. Klanten die JWT gebruiken moeten een nieuwe Server-aan-Server referentie OAuth tot stand brengen of hun bestaande JWT-referentie migreren naar een OAuth Server-aan-Server referentie. Klanten moeten ook hun clienttoepassingen bijwerken om de nieuwe OAuth Server-to-Server referenties te kunnen gebruiken. <ul><li>[Migreren van JWT-gebruikersgegevens (Service Account)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Implementatiehandleiding voor nieuwe en oude toepassingen met OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[De nieuwe OAuth Server-to-Server-referenties gebruiken](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Veelgestelde vragen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
+| **EOL voor Adobe Analytics API (versie 1.4)** | donderdag 17 juli 2024 | Op **12 augustus, 2026**, zullen de volgende Analytics Verouderde API diensten hun eind-van-leven bereiken en zullen worden gesloten, en de huidige integratie die gebruikend deze diensten wordt gebouwd zal ophouden werkend:<ul><li>Adobe Analytics API (versie 1.4)</li><li>Adobe Analytics WSSE-verificatie</li></ul><p>De integratie die Adobe Analytics API (versie 1.4) gebruiken moet aan [ Adobe Analytics 2.0 API ](https://developer.adobe.com/analytics-apis/docs/2.0/) migreren, terwijl de integratie WSSE aan een op OAuth-Gebaseerd authentificatieprotocol in [ Adobe Developer Console ](https://developer.adobe.com/console) moet migreren.</p><p>Zie [ Adobe Analytics 1.4 API EOL FAQ ](/help/admin/c-admin-api/c-admin-14-api-eol.md) voor antwoorden op gemeenschappelijke vragen en verdere begeleiding.</p> |
+| **Migratie aan Adobe I/O OAuth Server-aan-Server geloofsbrieven** | vrijdag 11 mei 2023 | Adobe Analytics API en Livestream klanten die de geloofsbrieven van Adobe I/O JWT gebruiken moeten aan de geloofsbrieven van Adobe I/O OAuth Server-aan-Server door **Januari 1, 2025** migreren. Adobe I/O staat niet toe dat vanaf 1 mei 2024 nieuwe JWT-referenties worden gemaakt. Klanten die JWT gebruiken moeten een nieuwe Server-aan-Server referentie OAuth tot stand brengen of hun bestaande JWT-referentie migreren naar een OAuth Server-aan-Server referentie. Klanten moeten ook hun clienttoepassingen bijwerken om de nieuwe OAuth Server-to-Server referenties te kunnen gebruiken. <ul><li>[ migrerend van de Rekening van de Dienst (JWT) geloofsbrieven ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[ gids van de Implementatie voor nieuwe en oude toepassingen met OAuth ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[ Gebruikend de nieuwe Server-aan-Server geloofsbrieven OAuth ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[ FAQs ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 {style="table-layout:auto"}
 
 ## AppMeasurement
 
-Voor de meest recente updates over releases van AppMeasurementen (versie 2.26.0) raadpleegt u [AppMeasurement voor JavaScript-releaseopmerkingen](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
+Voor de recentste updates op de versies van het AppMeasurement (Versie 2.26.0), gelieve te verwijzen naar [ AppMeasurement voor de versienota&#39;s van JavaScript ](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
 
 
 ## Gerelateerde bronnen
 
 * [Opmerkingen bij de vorige release voor 2024](/help/release-notes/2024.md)
-* [Opmerkingen bij de release Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
-* [Opmerkingen bij de release voor het ophalen van streaming media](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
-* De nieuwste release-updates voor [Adobe Experience Cloud-producten](https://business.adobe.com/products/adobe-experience-cloud-products.html)
+* [ de versienota&#39;s van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [ het stromen toe:voegen-op versienota&#39;s van de Inzameling van Media ](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* De recentste versie werkt voor [ producten van Adobe Experience Cloud ](https://business.adobe.com/products/adobe-experience-cloud-products.html) bij

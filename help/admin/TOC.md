@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
+source-git-commit: 8bb879b86126c59b7d22505657ecdb46106822e8
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 14%
+source-wordcount: '637'
+ht-degree: 13%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 14%
 # Adobe Analytics Admin Guide {#admin}
 
 + [Analytics Admin-handleiding](home.md)
-+ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe-beheerconsole {#admin-console}
    + [Overzicht](admin-console/home.md)
    + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
    + [Beheerdersrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-   + Overzicht van analysehulpmiddelen {#permissions}
+   + Overzicht van analysehulpmiddelen en machtigingen {#permissions}
       + [Productprofielen voor Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Machtigingen voor productprofielen voor rapportsuite](admin-console/permissions/report-suite-tools.md)
       + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
@@ -37,13 +37,13 @@ ht-degree: 14%
    + Componentmigratie {#component-migration}
       + [Voorbereiden op migratie](admin/component-migration/prepare-component-migration.md)
       + [Migratieworkflow](admin/component-migration/component-migration.md)
-   + Report Suite Manager {#manage-report-suites}
+   + Rapportbeheer {#manage-report-suites}
       + Instellingen van een rapportsuite bewerken {#edit-report-suite}
          + Algemeen {#report-suite-general}
             + [Algemene accountinstellingen](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [Interne URL-filters](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [Kalender aanpassen](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-            + Detectie van betaalde zoekopdracht {#paid-search-detection}
+            + Detectie betaalde zoekopdracht {#paid-search-detection}
                + [Overzicht van betaalde zoekdetectie](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Betaalde zoekdetectie configureren](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + Verwerkingsregels {#c-processing-rules}
@@ -75,7 +75,7 @@ ht-degree: 14%
                + [Methoden voor botteling](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Privacy-instellingen](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
             + [Configuratie tijdstempels](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-            + Server-kant doorsturen {#server-side-forwarding}
+            + Server-Side Forwarding {#server-side-forwarding}
                + [Server-kant door:sturen overzicht](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [GDPR/ePrivacy compliance en server-side forward](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
                + [Vereisten voor server-side door:sturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
@@ -108,7 +108,7 @@ ht-degree: 14%
          + Traffic-beheer {#traffic-management}
             + [Overzicht](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Spike plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-            + [Permanent verkeer](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+            + [ Permanent Verkeer ](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Standaardwaarden](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + Toepassingsbeheer {#app-management}
             + [Toepassingsrapportage](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
@@ -122,7 +122,7 @@ ht-degree: 14%
             + [Document Cloud configureren met Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
             + [Rapportage van Documenten Cloud configureren](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Advertising Analytics-configuratie](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
-         + Real-time {#real-time-reports}
+         + Real-Time {#real-time-reports}
             + [Overzicht van realtime rapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuratie van realtime rapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Ondersteunde metriek en afmetingen in real time](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
@@ -158,7 +158,7 @@ ht-degree: 14%
    + Privacy-etikettering voor gegevensbeheer {#data-governance}
       + [Workflow Adobe Analytics Data Privacy](admin/c-data-governance/an-gdpr-workflow.md)
       + [Veelgestelde vragen](admin/c-data-governance/gdpr-faq.md)
-      + Gegevensetikettering {#data-labels}
+      + Gegevenslabels {#data-labels}
          + [Privacy-labels voor gegevens voor componenten Analytics](admin/c-data-governance/data-labeling/gdpr-labels.md)
          + [Rapportsuitedata labelen](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
          + [De privacylabels van de rapportsuite weergeven/beheren](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
@@ -183,4 +183,5 @@ ht-degree: 14%
          + [Verouderde logins uitschakelen](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [API&#39;s die door de migratie worden beïnvloed](admin/user-management2/user-migration/developer.md)
 + [Admin-API](c-admin-api/c-admin-api.md)
++ [Adobe Analytics 1.4 API EOL - Veelgestelde vragen](c-admin-api/c-admin-14-api-eol.md)
 
