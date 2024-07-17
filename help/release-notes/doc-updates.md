@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
-source-wordcount: '5719'
+source-wordcount: '5742'
 ht-degree: 20%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **Juli 2024** | |
+| threads.net toegevoegd aan de dimensie &#39;Type referentie&#39; | Toegevoegd threads.net aan de lijst van sociale netwerken die in [ &quot;het type van Referteur&quot;dimensie ](/help/components/dimensions/referrer-type.md) worden gebruikt. |
 | Bijgewerkte documentatie voor het beheren van gegevensfeeds | De bijgewerkte informatie in [ beheert gegevensvoer ](/help/export/analytics-data-feed/df-manage-feeds.md) om duidelijkheid te verbeteren. <p>Updates zijn:</p><ul><li>Er zijn aparte secties gemaakt voor verschillende taken om de informatie gemakkelijker te kunnen scannen en gebruiken.</li><li>Informatie toegevoegd over wijzigingen in het gedrag van opnieuw geactiveerde live feeds. Deze veranderingen zijn momenteel in Beperkte Beschikbaarheid en zijn nog niet beschikbaar aan alle klanten.</li><li>Toegevoegde informatie waarin staat dat gegevensfeeds de status Actief moeten hebben voordat ze kunnen worden verwijderd.</li> |
 | Algemene foutberichten zijn bijgewerkt | Gemaakte minder belangrijke updates aan de [ gemeenschappelijke foutenmeldingen ](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juni 2024** | |
