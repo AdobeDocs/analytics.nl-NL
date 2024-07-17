@@ -5,9 +5,9 @@ title: Deelbare koppelingen maken
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 9349883dc827eb73ee59e852d054091ade70999c
+source-git-commit: 5d38c97dd24ae36605242720fc31a6cc6f67b1c1
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -18,31 +18,23 @@ Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen
 
 ## Een projectkoppeling ophalen om te delen met andere Workspace-gebruikers {#project-link}
 
-Als u een koppeling naar een project wilt delen, gaat u naar het project dat u wilt delen en selecteert u Ga naar [!UICONTROL **Delen**] > [!UICONTROL **Delen met Workspace-gebruikers**] > [!UICONTROL **Delen via koppeling**]. Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
+Om een verbinding aan een project te delen, ga naar het project u wilt delen, dan selecteren ga **]>[!UICONTROL ** Aandeel met de gebruikers van Workspace **]>[!UICONTROL ** Aandeel door verbinding **].[!UICONTROL ** Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
 
-Als aan de ontvanger van de koppeling geen [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)ontvangen **[!UICONTROL Edit original]** en niet-beheerders ontvangen **[!UICONTROL Edit copy]** ervaringen.
+Als de ontvanger van de verbinding niet a [ projectrol ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) is toegewezen, ontvangen de beheerders **[!UICONTROL Edit original]** en niet-admins ontvangen **[!UICONTROL Edit copy]** ervaringen.
 
 ## Een alleen-lezen koppeling ophalen om met iedereen te delen
 
 U kunt een alleen-lezen koppeling naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. Gebruikers met wie u de koppeling deelt, hoeven zich niet aan te melden.
 
-Voor meer informatie, zie &quot;een project met iedereen (geen vereiste login)&quot;in het artikel delen [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Voor meer informatie, zie &quot;een project met iedereen (geen vereiste login)&quot;in het artikel [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md) delen.
 
 ## Deelvenster of visualisatiekoppeling ophalen {#panel-link}
 
 U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoals een deelvenster of een afzonderlijke visualisatie. Dit wordt soms ook wel intra-linking genoemd. Dit kan nuttig zijn om de aandacht van uw gebruikers op zeer belangrijke inzichten binnen het project te vestigen.
 
-* Klik met de rechtermuisknop in een willekeurige koptekst in het deelvenster **[!UICONTROL Get panel link]**
-* Van om het even welke lijst of visualisatiekopbal, klik met de rechtermuisknop aan **[!UICONTROL Get visualization link]**
+* Klik met de rechtermuisknop **[!UICONTROL Get panel link]** in een willekeurige koptekst in het deelvenster.
+* Klik met de rechtermuisknop **[!UICONTROL Get visualization link]** vanuit een tabel- of visualisatiekop
 
-[De video bekijken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) op hoe te om verbindingen tot stand te brengen en hen te gebruiken om ontvangers aan specifieke delen van uw project te drijven.
+[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) op hoe te om verbindingen tot stand te brengen en hen te gebruiken om ontvangers aan specifieke delen van uw project te drijven.
 
 ![](assets/get-viz-link.png)
-
-## Koppelingen in een inhoudsopgave gebruiken {#TOC}
-
-Één uiteinde voor het leveraging van de diverse verbindingsopties moet altijd een inhoudstafel bij de bovenkant van uw project van de Werkruimte omvatten. In de inhoudsopgave kunt u een koppeling maken naar andere relevante projecten, specifieke panels en specifieke visualisaties. Hierdoor kan de ontvanger van het project gemakkelijker navigeren.
-
-[De video bekijken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) op hoe te om een inhoudstafel te construeren gebruikend verbindingen en de rijke tekstredacteur van de Werkruimte.
-
-![](assets/toc.png)
