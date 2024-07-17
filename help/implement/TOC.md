@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: 8727d6167a2c161ba646ae2217b0a6e7c4656dd1
+source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '435'
 ht-degree: 16%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 16%
 # Adobe Analytics-implementatiehandleiding {#implementation}
 
 + [Adobe Analytics implementeren](home.md)
-+ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [Opmerkingen bij de release AppMeasurement](appmeasurement-updates.md)
 + Variabelen, functies en methoden van Analytics {#vars}
    + [Overzicht](vars/overview.md)
@@ -53,8 +53,11 @@ ht-degree: 16%
       + [bezoekerID](vars/config-vars/visitorid.md)
       + [bezoekerNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-   + Paginariabelen {#page-vars}
+   + Paginabariabelen {#page-vars}
       + [Overzicht van paginariabelen](vars/page-vars/page-variables.md)
+      + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
+      + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
+      + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
       + [campagne](vars/page-vars/campaign.md)
       + [kanaal](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
@@ -85,6 +88,8 @@ ht-degree: 16%
       + [s_gi](vars/functions/s-gi.md)
       + [t](vars/functions/t-method.md)
       + [tl](vars/functions/tl-method.md)
+      + [ActivityMap.link](vars/functions/activitymap-link.md)
+      + [ActivityMap.region](vars/functions/activitymap-region.md)
       + [bufferRequests](vars/functions/bufferrequests.md)
       + [clearVars](vars/functions/clearvars.md)
       + [doPlugins](vars/functions/doplugins.md)
@@ -134,7 +139,7 @@ ht-degree: 16%
    + [Labelen met meerdere suite&#39;s implementeren](prepare/multi-suite-tagging.md)
    + [Een document voor het ontwerp van een oplossing maken](prepare/solution-design.md)
    + [Een bestaande Adobe Analytics-implementatie op zich nemen](prepare/existing-implementation.md)
-+ Analyses implementeren met gebruik van Experience Platform Edge {#aep-edge}
++ Analyses implementeren met Experience Platform Edge {#aep-edge}
    + [Overzicht van Experience Edge](aep-edge/overview.md)
    + [Variabele voor gegevensobject toewijzen](aep-edge/data-var-mapping.md)
    + [XML-objectvariabele toewijzen](aep-edge/xdm-var-mapping.md)
@@ -148,7 +153,7 @@ ht-degree: 16%
       + [Overzicht van Mobile SDK](aep-edge/mobile-sdk/overview.md)
    + Server-API {#server-api}
       + [Overzicht van de server-API](aep-edge/server-api/overview.md)
-+ Analyses implementeren met de extensie Adobe Analytics {#launch}
++ Analyses implementeren met de Adobe Analytics-extensie {#launch}
    + [Overzicht van codes](launch/overview.md)
    + [Een Adobe Analytics-tageigenschap maken](launch/create-analytics-property.md)
    + [Distribueren naar een ontwikkelomgeving](launch/deploy-dev.md)

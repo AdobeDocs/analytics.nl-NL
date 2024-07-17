@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
+source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
-source-wordcount: '5742'
+source-wordcount: '5737'
 ht-degree: 20%
 
 ---
@@ -67,7 +67,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Updates van de documentatie van de analyse van de Anomaly Detection and Contribution Analysis | De documentatie voor de Analyse van de Detectie en van de Bijdrage van Anomaly werd eerder gevestigd in een sectie over Virtuele Analyst. De volgende wijzigingen zijn aangebracht: <ul><li>De term Virtual Analyst is uit de documentatie verwijderd.</li><li>De sectie over [ Anomaly Detection ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) werd direct bewogen onder de sectie van Analysis Workspace.</li><li>De documentatie van de Analyse van de Bijdrage werd samengevoegd in de documentatie van de Detectie van de Anomaly.</li></ul> |
 | &quot;Attribution IQ &quot; gewijzigd in &quot;Attribution&quot; | Veranderde alle instanties van &quot;Attribution IQ&quot;in &quot;[ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md)&quot;door de documentatie. |
 | **November 2023** | |
-| Updates voor het onderwerp activering/activering van Activity Map | Toegevoegde [ Web SDK ](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html) (zowel hand als via de markeringsuitbreiding van Adobe Experience Platform) inhoud. |
+| Updates voor het onderwerp activering/activering van Activity Map | Toegevoegde [ Web SDK ](/help/analyze/activity-map/getting-started.md) (zowel hand als via de markeringsuitbreiding van Adobe Experience Platform) inhoud. |
 | **Oktober 2023** | |
 | Toegevoegde logboekinformatie aan de Manager van de Activiteit van de Rapportering | Toegevoegde informatie dat om het even welke [ annuleringen en verdere beperkingen van het melden van activiteit ](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) in de Manager van de Activiteit van de Rapportering in de [ Logboeken ](/help/admin/admin/logs.md) worden gevangen. |
 | Updates voor ondersteuning van Data Warehouse-componenten | Toegevoegde beschikbaarheid voor sommige componenten en verwijderde beschikbaarheid voor anderen voor Data Warehouse. Deze veranderingen worden weerspiegeld in [ steun van de Component in Data Warehouse ](/help/export/data-warehouse/component-support.md). <ul><li>Toegevoegde ondersteuning voor de dimensie Diepte van bezoek (visumdiepte is verwijderd uit de lijst met dimensies die niet worden ondersteund)</li><li>Ondersteuning voor participatiemetriek is verwijderd (deelname aan de lijst met metriek wordt niet ondersteund)</li><li>Toegevoegde ondersteuning voor de volgende op tijd gebaseerde afmetingen: Jaar, Kwart, Maand, Week, Dag, Uur en Minuut (deze afmetingen zijn verwijderd uit de lijst met afmetingen die niet worden ondersteund) <p>Eerder, steunde de Data Warehouse deze dimensies slechts in de eerste kolom van een lijst Freeform toen Korreligheid werd geselecteerd. Deze afmetingen worden nu altijd ondersteund.</p><p>De uitvoer van datums is echter niet standaard wanneer deze afmetingen worden gebruikt. Het jaar wordt met 1900 gecompenseerd en de maanden zijn op nul gebaseerd.</li></ul> |
@@ -111,7 +111,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Projectsegmenten (ad-hocsegmenten en snelle segmenten) | Gestroomlijnde documentatie over projectsegmenten en verwijderde gedupliceerde informatie. De stappen voor het creëren van ad hoc segmenten worden nu gecombineerd met de stappen voor [ het creëren van snelle segmenten ](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Dynamische zoekopdrachten | De extra informatie rond [ Dynamische raadplegingen ](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) wordt toegevoegd. Voorheen bestond informatie alleen voor mobiele kenmerken, een van de vele dynamische zoekopdrachten. |
 | **Maart 2023** | |
-| Web SDK steun voor Activity Map | Bijgewerkte [ voert Adobe Analytics ](/help/implement/home.md) uit en [ laat Activity Map ](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) toe. |
+| Web SDK steun voor Activity Map | Bijgewerkte [ voert Adobe Analytics ](/help/implement/home.md) uit. |
 | Overzicht van verkeersvariabelen (props) | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. De samengevoegde inhoud van een artikel getiteld, &quot;laat de rapporten van de verkeersvariabele&quot;toe en verwijderde dat artikel. Zie [ variabelen van het Verkeer (steunen) overzicht ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Interne URL-filters | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. Zie [ Interne filters URL ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Gegevensartikelen maken in mobiele scorecards | A [ gegevensverhaal ](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) is een inzameling van het steunen van gegevenspunten, bedrijfscontext, en verwante metriek die rond een centraal thema of metrisch worden gebouwd. |

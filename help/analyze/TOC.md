@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 11%
+source-wordcount: '930'
+ht-degree: 12%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 11%
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -32,8 +32,8 @@ ht-degree: 11%
       + [Projecten maken](analysis-workspace/build-workspace-project/create-projects.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
       + [Inhoudsopgave van project](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
-      + Mappen in werkruimte {#workspace-folders}
-         + [Mappen in werkruimte](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + Mappen in Workspace {#workspace-folders}
+         + [Over mappen in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Mappen en submappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Mappen verwijderen](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Projecten toevoegen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -49,7 +49,7 @@ ht-degree: 11%
       + [Bedrijfsrapporten maken en beheren](analysis-workspace/reports/create-company-reports.md)
    + Onderdelen {#components}
       + [Overzicht van componenten](analysis-workspace/components/analysis-workspace-components.md)
-      + [Componenten in werkruimte gebruiken](analysis-workspace/components/use-components-in-workspace.md)
+      + [Componenten in Workspace gebruiken](analysis-workspace/components/use-components-in-workspace.md)
       + [Componentbeschrijvingen toevoegen](analysis-workspace/components/add-component-descriptions.md)
       + Annotaties {#annotations}
          + [Overzicht van annotaties](analysis-workspace/components/annotations/overview.md)
@@ -77,7 +77,7 @@ ht-degree: 11%
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gegevensbronnen beheren](analysis-workspace/visualizations/t-sync-visualization.md)
-      + Vrije-vormtabel {#freeform-table}
+      + Vrije-vormentabel {#freeform-table}
          + [Vrije-vormtabel](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Hyperlinks maken voor afmetingen in een vrije-vormtabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
@@ -85,7 +85,7 @@ ht-degree: 11%
             + [Rijinstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische versus statische items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Vrije-vormtabellen filteren en sorteren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totalen werkruimte](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Workspace Totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
          + [Wat is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Een rapport Cohortanalyse configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -126,11 +126,11 @@ ht-degree: 11%
       + [Volgend of vorig deelvenster met items](analysis-workspace/c-panels/next-previous.md)
       + [Het deelvenster Paginaoverzicht](analysis-workspace/c-panels/page-summary.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
-      + Het vergelijkingspaneel Segment {#segment-comparison}
+      + Deelvenster Segmentvergelijking {#segment-comparison}
          + [Overzicht van de segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Gebruiksgevallen voor vergelijking van segmenten](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests gebruikt bij de vergelijking van segmenten](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + De projecten van de cursus, van het Aandeel, en van het Programma {#curate-share}
+   + Projecten cureren, delen en plannen {#curate-share}
       + [Menu Delen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
       + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
@@ -267,7 +267,7 @@ ht-degree: 11%
       + [Werkboeken vergrendelen/ontgrendelen](report-builder/workbook-library/protect-wb.md)
       + [Macro-ingeschakelde werkboeken plannen](report-builder/workbook-library/schedule-macro-wb.md)
    + Publiceren naar Power BI met Report Builder 5.5 {#publish-powerbi}
-      + [Publiceren naar Power BI - Overzicht](report-builder/c-publish-power-bi/power-bi.md)
+      + [Publish naar Power BI - Overzicht](report-builder/c-publish-power-bi/power-bi.md)
       + [Beperkingen en specificaties](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Gegevens handmatig importeren in Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [Gepubliceerde middelen ophalen in Power BI Desktop](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
@@ -278,34 +278,14 @@ ht-degree: 11%
    + [Problemen met Report Builder oplossen](report-builder/troubleshoot.md)
    + [Veelgestelde vragen over Report Builder](report-builder/faq.md)
 + Activity Map {#activity-map}
-   + [Overzicht van Activity Map](activity-map/activity-map.md)
-   + Aan de slag {#getting-started}
-      + [Activity Map activeren en inschakelen](activity-map/activitymap-getting-started/activitymap-enable.md)
-      + [Plug-ins voor Activity Map browser installeren](activity-map/activitymap-getting-started/activitymap-install.md)
-      + [Activity Map starten](activity-map/activitymap-getting-started/activitymap-launch.md)
-   + [Robuuste koppeling bijhouden](activity-map/lnk-tracking-overview.md)
-   + Link tracking {#link-tracking}
-      + [Methode voor het bijhouden van koppelingen](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [Veelgestelde vragen over het bijhouden van koppelingen](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [Verschillende koppelingen die verwijzen naar dezelfde koppelings-id en -regio](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [Koppelingen bijhouden stoppen](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [De functie s.tl() gebruiken](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
-   + [Standaardmodus versus actieve modus](activity-map/activitymap-standard-live.md)
-   + [Koppelingsrapport](activity-map/activitymap-links-report.md)
-   + [Paginagegevens](activity-map/activitymap-page-flow.md)
-   + [Volledige set metriek](activity-map/activitymap-complete-metrics.md)
-   + [Analyse van real-time (Live) pagina](activity-map/activitymap-realtime.md)
-   + [Klantsegmentering](activity-map/activitymap-multiple-segments.md)
-   + [Aanpasbare overlays](activity-map/activitymap-gainerslosers.md)
-   + [Details van bedekking](activity-map/activitymap-overlay-details.md)
-   + [Exporteren naar CSV-bestand](activity-map/activitymap-csv.md)
-   + [Ondersteunde systemen en vereisten](activity-map/activitymap-sysreqs.md)
-   + [Veelgestelde vragen over Activity Map](activity-map/activitymap-faq.md)
-   + [Activity Map-instellingen configureren](activity-map/activitymap-overlay-settings.md)
-   + [Gebruikersinterface Activity Map](activity-map/activitymap-user-interface.md)
-   + [Rapportage van Activity Mappen in Analytics](activity-map/activitymap-reporting-analytics.md)
-   + [Browserextensie problemen oplossen](activity-map/troubleshooting-browser-extensions.md)
-   + [Gegevensverzameling oplossen](activity-map/troubleshoot-data-collection.md)
+   + [Overzicht](activity-map/overview.md)
+   + [Aan de slag](activity-map/getting-started.md)
+   + Bedekking {#overlay}
+      + [Overzicht van extensies](activity-map/overlay/overview.md)
+      + [Extensie starten](activity-map/overlay/launch.md)
+      + [Extensie-instellingen](activity-map/overlay/settings.md)
+   + [Problemen oplossen](activity-map/troubleshooting.md)
+   + [Veelgestelde vragen](activity-map/faq.md)
 + Adobe Analytics-dashboards {#mobapp}
    + [Adobe Analytics-dashboards - overzicht](mobile-app/home.md)
    + [Curatorintro](mobile-app/curator.md)

@@ -4,21 +4,25 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
+source-git-commit: 11e98d35ba52fb777a08f950725b0e8dbb99fa22
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 7%
+source-wordcount: '766'
+ht-degree: 8%
 
 ---
 
 
-# [!DNL Adobe Analytics] Hulplijn voor onderdelen {#components}
+# [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Analytics Components-handleiding](home.md)
-+ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensies {#dimensions}
    + [Overzicht van Dimensionen](dimensions/overview.md)
    + [Compatibiliteit van Dimensionen](dimensions/compatibility.md)
+   + [Koppeling Activity Mappen](dimensions/activity-map-link.md)
+   + [Koppeling Activity Mappen per regio](dimensions/activity-map-link-by-region.md)
+   + [Activity Map-pagina](dimensions/activity-map-page.md)
+   + [Activity Map](dimensions/activity-map-region.md)
    + [Advertentieplatform](dimensions/ad-consent.md)
    + [Alle zoekpaginanummers](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
@@ -171,7 +175,7 @@ ht-degree: 7%
       + [Tagsegmenten](segmentation/segmentation-workflow/seg-tag.md)
       + [Segmenten goedkeuren](segmentation/segmentation-workflow/seg-approve.md)
       + [Segmenten delen](segmentation/segmentation-workflow/t-seg-share.md)
-      + [Segmenten publiceren naar het Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Publish-segmenten naar het Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Segmenten selecteren en toepassen](segmentation/segmentation-workflow/t-seg-apply.md)
       + [Filtersegmenten](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Segmenten markeren als favorieten](segmentation/segmentation-workflow/t-seg-favorite.md)
@@ -252,7 +256,7 @@ ht-degree: 7%
          + [Schema voor classificatieset](classifications/sets/manage/schema.md)
          + [Classificatieregels](classifications/sets/manage/rules.md)
       + [Taakmanager voor classificatie](classifications/sets/job-manager.md)
-      + Consolidatie van classificatiesets {#consolidations}
+      + Consolidaties van classificatiesets {#consolidations}
          + [Consolidatiebeheer voor classificatiesets](classifications/sets/consolidations/manage.md)
          + [Consolidatieproces van classificatiesets](classifications/sets/consolidations/process.md)
    + Builder voor classificatieregels {#classifications-rulebuilder}
