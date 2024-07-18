@@ -3,9 +3,9 @@ description: Koppeling naar Adobe Analytics Admin API op github.
 title: Adobe Analytics 1.4 API EOL - Veelgestelde vragen
 feature: Admin Tools
 role: Admin
-source-git-commit: 0aaeb60528f8ff1b1067f059710c9d9fa8e1886f
+source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,11 @@ De [ migrerend aan Adobe Analytics 2.0 APIs ](https://developer.adobe.com/analyt
 
 Q: **beïnvloedt deze gegevensinzameling?**
 
-A: Adobe Analytics 1.4 EOL heeft geen invloed op uw coderingsoplossingen, zoals Tags (voorheen Adobe Launch), WebSDK of AppMeasurement.js. Als u echter de 1.4-API&#39;s voor gegevensbronnen, gegevensinvoeging of classificaties gebruikt om uw gegevens te verzamelen of te verbeteren, moet u deze workflows migreren naar de Adobe Analytics 2.0-API&#39;s. Gelieve te verwijzen naar de [ 2.0 API eindpuntgids ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) voor meer details.
+A: Adobe Analytics 1.4 EOL heeft geen invloed op uw coderingsoplossingen, zoals Tags (voorheen Adobe Launch), WebSDK of AppMeasurement.js. Als u echter de 1.4-API&#39;s voor gegevensbronnen of classificaties gebruikt om uw gegevens te verzamelen of te verbeteren, moet u deze workflows migreren naar de Adobe Analytics 2.0-API&#39;s. Gelieve te verwijzen naar de [ 2.0 API eindpuntgids ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) voor meer details.
+
+Q: **wordt de Invoeging API van Gegevens beïnvloed?**
+
+A: Nee, de API voor het invoegen van gegevens wordt niet beïnvloed door de Adobe Analytics 1.4 EOL.
 
 Q: **wat doe ik als mijn vraag niet in dit FAQ werd beantwoord?**
 
