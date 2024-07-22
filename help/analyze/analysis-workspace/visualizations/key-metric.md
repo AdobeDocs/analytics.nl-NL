@@ -4,22 +4,22 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
 # Samenvatting van metrische sleutel
 
-De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metrische waarde binnen één tijdsbestek trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
+Met de [!UICONTROL Key metric summary] -visualisatie kunt u zien hoe een belangrijke metrische waarde binnen één tijdlijn trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
 
-* **[!UICONTROL Line]** visualisaties die tonen hoe metrisch voor de primaire en vergelijkingsdatumwaaiers trendt
+* **[!UICONTROL Line]** visualisaties die tonen hoe metrisch voor de primaire en vergelijkingsdatumwaaiers trending is
 
-* **[!UICONTROL Summary percent change]** die de metrische verhoging of daling tussen primaire en vergelijkingsdatumwaaiers toont
+* **[!UICONTROL Summary percent change]** die de metrische toename of daling tussen de primaire en vergelijkingsdatumwaaiers toont
 
-* Huidige totale waarde ([!UICONTROL **overzichtsnummer**]) voor de metrische
+* Huidige totale waarde ([!UICONTROL **summiere aantal**]) voor metrisch
 
 ## Gebruik hoofdletters
 
@@ -33,7 +33,7 @@ Deze visualisatie heeft betrekking op een aantal veelvoorkomende gebruiksgevalle
 
 ## Vorm de Belangrijkste metrische samenvatting
 
-1. Sleep de **[!UICONTROL Key metric summary]** visualisatie van de **[!UICONTROL Visualizations]** in de linkerspoorstaaf in een paneel.
+1. Sleep de **[!UICONTROL Key metric summary]** visualisatie van het **[!UICONTROL Visualizations]** menu in de linkerspoorstaaf in een paneel.
 
 1. Vorm visualisatie door metrisch, een primaire datumwaaier, en een waaier van de vergelijkingsdatum en een segment (indien gewenst) te selecteren:
 
@@ -51,6 +51,8 @@ Deze visualisatie heeft betrekking op een aantal veelvoorkomende gebruiksgevalle
 1. Klik op **[!UICONTROL Build]**.
 
 ## De uitvoer weergeven
+
+De optout-visualisatie moet er ongeveer als volgt uitzien:
 
 ![](assets/key-metric-output.png)
 
@@ -77,7 +79,7 @@ De Belangrijkste metrische samenvatting biedt veelvoudige flexibele montages aan
 | **[!UICONTROL Legend visible]** | De legenda onder aan de visualisatie weergeven of verbergen |
 | **[!UICONTROL Show annotations]** | Annotaties die zijn toegevoegd door een beheerder tonen of verbergen |
 | **[!UICONTROL Show sparklines]** | Lijngrafieken onder aan het diagram weergeven of verbergen. Als de legenda is verborgen, wordt deze niet langer visueel doorverwezen naar de regels |
-| **[!UICONTROL Show min and max on sparklines]** | Minimum- en maximumwaarden tonen of verbergen in primaire diagrammen en vergelijkingslijngrafieken |
+| **[!UICONTROL Show min and max on sparklines]** | Minimum- en maximumwaarden tonen of verbergen in primaire en vergelijkingslijngrafieken |
 | **[!UICONTROL Show comparison]** | Vergelijkingsgegevens tonen of verbergen. Wanneer deze optie is verborgen, worden zowel het vergelijkingsregeldiagram als de summiere wijzigingsobjecten verborgen. |
 | **[!UICONTROL Show total number]** | Samenvattingsnummer tonen of verbergen |
 | **[!UICONTROL Show raw difference]** | Onbewerkt verschil tonen of verbergen tussen de totale waarde van de metrische waarde in het primaire datumbereik en het secundaire datumbereik |
