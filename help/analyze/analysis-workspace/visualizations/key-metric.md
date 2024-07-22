@@ -4,9 +4,9 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
+source-git-commit: 0bf1b06af8a89c47e74807d14c31075f181cb946
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Deze visualisatie heeft betrekking op een aantal veelvoorkomende gebruiksgevalle
 
 ## De uitvoer weergeven
 
-De optout-visualisatie moet er ongeveer als volgt uitzien:
+De uitvoer moet er ongeveer als volgt uitzien:
 
 ![](assets/key-metric-output.png)
 
