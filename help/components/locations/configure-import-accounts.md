@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Cloud-import- en exportaccounts configureren
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 6cf277667230a56da9793deb550df1980f1d33b0
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 0%
@@ -17,40 +17,48 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Houd rekening met het volgende wanneer u accounts maakt en bewerkt: <ul><li>Systeembeheerders kunnen voorkomen dat gebruikers accounts maken, zoals wordt beschreven in [Configureren of gebruikers accounts kunnen maken](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Als u geen rekeningen kunt tot stand brengen zoals die in deze sectie worden beschreven, contacteer uw systeembeheerder.</li><li>Een account kan alleen worden bewerkt door de gebruiker die het heeft gemaakt of door een systeembeheerder.</li></ul>
+>Houd rekening met het volgende wanneer u accounts maakt en bewerkt: <ul><li>De beheerders van het systeem kunnen gebruikers van het creëren van rekeningen beperken, zoals die in [ wordt beschreven vormen of de gebruikers rekeningen ](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) kunnen tot stand brengen. Als u geen rekeningen kunt tot stand brengen zoals die in deze sectie worden beschreven, contacteer uw systeembeheerder.</li><li>Een account kan alleen worden bewerkt door de gebruiker die het heeft gemaakt of door een systeembeheerder.</li></ul>
 
 U kunt een cloudaccount configureren die wordt gebruikt voor een of meer van de volgende doeleinden:
 
-* Bestanden exporteren met [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md)
-* Rapporten exporteren met [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Schema&#39;s importeren met [Classificatiesets](/help/components/classifications/sets/overview.md)
+* Het uitvoeren van dossiers gebruikend [ Diefstal van Gegevens ](/help/export/analytics-data-feed/create-feed.md)
+* Het uitvoeren van rapporten gebruikend [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Het invoeren van schema&#39;s gebruikend [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md)
 
-U moet Adobe Analytics configureren met de benodigde informatie voor toegang tot uw cloud-account. Dit proces bestaat uit het toevoegen en configureren van de account (zoals Amazon S3 Role ARN, Google Cloud Platform enzovoort) zoals beschreven in dit artikel, en het toevoegen en configureren van de locatie binnen die account (zoals een map binnen de account) zoals beschreven in [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
+U moet Adobe Analytics configureren met de benodigde informatie voor toegang tot uw cloud-account. Dit proces bestaat uit het toevoegen van en het vormen van de rekening (zoals Amazon S3 Rol ARN, het Platform van de Wolk van Google, etc.) zoals die in dit artikel wordt beschreven, en dan het toevoegen van en het vormen van de plaats binnen die rekening (zoals een omslag binnen de rekening) zoals die in [ wordt beschreven vormt de wolkinvoer en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md).
 
-Zie voor informatie over het weergeven en verwijderen van bestaande accounts [Locatiebeheer](/help/components/locations/locations-manager.md).
+Voor informatie over hoe te om bestaande rekeningen te bekijken en te schrappen, zie [ manager van Plaatsen ](/help/components/locations/locations-manager.md).
 
 Een cloudimport- of -exportaccount configureren:
 
-1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Locaties**].
-1. Op de [!UICONTROL Locations] pagina, selecteert u de [!UICONTROL **Locatieaccounts**] tab.
-1. (Voorwaardelijk) Als u een systeembeheerder bent, kunt u de [!UICONTROL **Accounts weergeven voor alle gebruikers**] om accounts weer te geven die door alle gebruikers in uw organisatie zijn gemaakt.
-   ![accounts weergeven voor alle gebruikers](assets/accounts-all-users.png)
-1. Als u een nieuwe account wilt maken, selecteert u [!UICONTROL **Account toevoegen**].
+1. In Adobe Analytics, uitgezochte [!UICONTROL **Componenten**] > [!UICONTROL **Plaatsen**].
+1. Voor de [!UICONTROL Locations] pagina, selecteer de [!UICONTROL **rekeningen van de Plaats**] tabel.
+1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **rekeningen van de Mening voor alle gebruikers**] optie toelaten om rekeningen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
+   ![ meningsrekeningen voor alle gebruikers ](assets/accounts-all-users.png)
+1. Om een nieuwe rekening tot stand te brengen, [!UICONTROL **voeg rekening**] toe.
 
-   De [!UICONTROL **Locatierekeninggegevens**] wordt weergegeven.
+   De [!UICONTROL **de rekeningsdetails van de Plaats**] vertoningen van de dialoog.
 
    of
 
-   Als u een bestaand account wilt bewerken, zoekt u het account dat u wilt bewerken en selecteert u vervolgens het [!UICONTROL **Details bewerken**] knop.
+   Om een bestaande rekening uit te geven, bepaal de plaats van de rekening die u wilt uitgeven, dan selecteren [!UICONTROL **details**] knoop uitgeven.
 
-   De [!UICONTROL **Account toevoegen**] wordt weergegeven.
+   [!UICONTROL **voegt de vertoningen van de rekening**] dialoog toe.
 
-1. Geef de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam van locatieaccount**] | De naam van het locatieaccount. Deze naam wordt weergegeven wanneer u een locatie maakt | | [!UICONTROL **Beschrijving van locatieaccount**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Account ter beschikking stellen van alle gebruikers in uw organisatie**] | Schakel deze optie in als u wilt dat andere gebruikers in uw organisatie de account kunnen gebruiken.<p>Houd rekening met het volgende wanneer u accounts deelt:</p><ul><li>Accounts die u deelt, kunnen niet worden verwijderd.</li><li>Gedeelde accounts kunnen alleen door de eigenaar van de account worden bewerkt.</li><li>Iedereen kan een locatie voor de gedeelde account maken.</li></ul> | | [!UICONTROL **Accounttype**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account.<p>Systeembeheerders kunnen de accounttypen beperken die gebruikers kunnen maken, zoals wordt beschreven in [Configureren of gebruikers accounts kunnen maken](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Als u geen rekeningen kunt tot stand brengen zoals die in deze sectie worden beschreven, contacteer uw systeembeheerder.</p> |
-1. In de [!UICONTROL **Accounteigenschappen**] in, geeft u specifieke informatie op over het accounttype dat u hebt geselecteerd.
+1. Geef de volgende informatie op:
 
-   Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met de [!UICONTROL **Accounttype**] die u hebt geselecteerd. (Aanvullende oudere accounttypen zijn ook beschikbaar, maar worden niet aanbevolen.)
+   | Veld | Functie |
+   |---------|----------|
+   | [!UICONTROL **de rekeningsnaam van de Plaats**] | De naam van het locatieaccount. Deze naam wordt weergegeven wanneer u een locatie maakt |
+   | [!UICONTROL **de rekeningsbeschrijving van de Plaats**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. |
+   | [!UICONTROL **maak rekening beschikbaar aan alle gebruikers in uw organisatie**] | Schakel deze optie in als u wilt dat andere gebruikers in uw organisatie de account kunnen gebruiken.<p>Houd rekening met het volgende wanneer u accounts deelt:</p><ul><li>Accounts die u deelt, kunnen niet worden verwijderd.</li><li>Gedeelde accounts kunnen alleen door de eigenaar van de account worden bewerkt.</li><li>Iedereen kan een locatie voor de gedeelde account maken.</li></ul> |
+   | [!UICONTROL **Type van Rekening**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account.<p>De beheerders van het systeem kunnen de accounttypes beperken die de gebruikers kunnen tot stand brengen, zoals die in [ wordt beschreven vormen of de gebruikers rekeningen ](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) kunnen tot stand brengen. Als u geen rekeningen kunt tot stand brengen zoals die in deze sectie worden beschreven, contacteer uw systeembeheerder.</p> |
 
-   **Accounttypen**
+1. In de [!UICONTROL **eigenschappen van de Rekening**] sectie, specificeer informatie specifiek voor het accounttype dat u selecteerde.
+
+   Voor configuratieinstructies, breid de sectie onder uit die aan het [!UICONTROL **type van Rekening**] beantwoordt dat u selecteerde. (Aanvullende oudere accounttypen zijn ook beschikbaar, maar worden niet aanbevolen.)
+
+   **de types van Rekening**
 
    +++Amazon S3 Role ARN
 
@@ -58,7 +66,7 @@ Een cloudimport- of -exportaccount configureren:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Rol ARN**] | U moet een Rol ARN (de Naam van het Middel van Amazon) verstrekken die de Adobe kan gebruiken om toegang tot de rekening van Amazon S3 te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Zie voor specifieke informatie [deze AWS-documentatie](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+   | [!UICONTROL **ARN van de Rol**] | U moet een Rol ARN (de Naam van het Middel van Amazon) verstrekken die de Adobe kan gebruiken om toegang tot de rekening van Amazon S3 te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Voor specifieke informatie, zie [ deze documentatie van AWS ](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
 
    {style="table-layout:auto"}
 
@@ -70,7 +78,7 @@ Een cloudimport- of -exportaccount configureren:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Project-id**] | Uw Google Cloud-project-id. Zie de [Google Cloud-documentatie over het ophalen van een project-id](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
+   | [!UICONTROL **identiteitskaart van het Project**] | Uw Google Cloud-project-id. Zie de [ documentatie van de Wolk van Google over het krijgen van een project identiteitskaart ](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
 
    {style="table-layout:auto"}
 
@@ -82,11 +90,11 @@ Een cloudimport- of -exportaccount configureren:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Toepassings-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **Tenant-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **URI sleutelvault**] | <p>Het pad naar het SAS-token in Azure Key Vault.  Om Azure SAS te configureren, moet u een SAS-token opslaan als een geheim met Azure Key Vault. Zie voor meer informatie de [Microsoft Azure-documentatie over het instellen en ophalen van een geheim bij Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nadat de sleutelvault-URI is gemaakt, voegt u een toegangsbeleid toe op de Key Vault om toestemming te verlenen aan de Azure-toepassing die u hebt gemaakt. Zie voor meer informatie de [Microsoft Azure-documentatie over het toewijzen van een beleid voor toegang tot Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-   | [!UICONTROL **geheime naam sleutelvault**] | De geheime naam die u hebt gemaakt toen u het geheim toevoegde aan Azure Key Vault. In Microsoft Azure vindt u deze informatie in de Key Vault die u hebt gemaakt, op de **Key Vault** instellingenpagina. Zie voor meer informatie de [Microsoft Azure-documentatie over het instellen en ophalen van een geheim bij Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-   | [!UICONTROL **Locatierekeninggeheim**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Certificaten en geheimen** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+   | [!UICONTROL **identiteitskaart van de Toepassing**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
+   | [!UICONTROL **identiteitskaart van de HTENT**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
+   | [!UICONTROL **Zeer belangrijke vault URI**] | <p>Het pad naar het SAS-token in Azure Key Vault.  Om Azure SAS te configureren, moet u een SAS-token opslaan als een geheim met Azure Key Vault. Voor informatie, zie de [ Microsoft Azure documentatie over hoe te om een geheim van Azure Key Vault ](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations) te plaatsen en terug te winnen.</p><p>Nadat de sleutelvault-URI is gemaakt, voegt u een toegangsbeleid toe op de Key Vault om toestemming te verlenen aan de Azure-toepassing die u hebt gemaakt. Voor informatie, zie [ Microsoft Azure documentatie over hoe te om een Zeer belangrijk de toegangsbeleid van de Vault toe te wijzen ](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+   | [!UICONTROL **Zeer belangrijke geheime naam van de kluis**] | De geheime naam die u hebt gemaakt toen u het geheim toevoegde aan Azure Key Vault. In Microsoft Azure, wordt deze informatie gevestigd in de Belangrijkste Vault u, op de **Zeer belangrijke de montagespagina van de Vault** creeerde. Voor informatie, zie de [ Microsoft Azure documentatie over hoe te om een geheim van Azure Key Vault ](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations) te plaatsen en terug te winnen. |
+   | [!UICONTROL **het rekeningsgeheim van de Plaats**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Certificaten &amp; geheimen** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
 
    {style="table-layout:auto"}
 
@@ -98,9 +106,9 @@ Een cloudimport- of -exportaccount configureren:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Toepassings-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **Tenant-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **Locatierekeninggeheim**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Certificaten en geheimen** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+   | [!UICONTROL **identiteitskaart van de Toepassing**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
+   | [!UICONTROL **identiteitskaart van de HTENT**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
+   | [!UICONTROL **het rekeningsgeheim van de Plaats**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Certificaten &amp; geheimen** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
 
    {style="table-layout:auto"}
 
@@ -110,7 +118,7 @@ Een cloudimport- of -exportaccount configureren:
 
    >[!NOTE]
    >
-   >E-mailaccounts kunnen alleen worden gebruikt met [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md). (E-mailaccounts worden niet ondersteund met [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) of [Classificatiesets](/help/components/classifications/sets/overview.md)).
+   >De e-mailrekeningen kunnen slechts met [ Diefstal van Gegevens ](/help/export/analytics-data-feed/create-feed.md) worden gebruikt. (E-mailrekeningen worden niet gesteund met [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) of [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md)).
 
    Geef de volgende informatie op om een Azure RBAC-account te configureren:
 
@@ -122,9 +130,9 @@ Een cloudimport- of -exportaccount configureren:
 
 +++
 
-   **Oudere accounttypen**
+   **Verouderde rekeningstypes**
 
-   Deze oudere accounttypen zijn alleen beschikbaar wanneer u gegevens exporteert met [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md) en [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Deze opties zijn niet beschikbaar wanneer u gegevens importeert met [Classificatiesets](/help/components/classifications/sets/manage/schema.md).
+   Deze types van erfenisrekening zijn beschikbaar slechts wanneer het uitvoeren van gegevens met [ de Eigen van Gegevens ](/help/export/analytics-data-feed/create-feed.md) en [ Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md). Deze opties zijn niet beschikbaar wanneer het invoeren van gegevens met [ de reeksen van de Classificatie ](/help/components/classifications/sets/manage/schema.md).
 
    +++FTP
 
@@ -132,10 +140,10 @@ Een cloudimport- of -exportaccount configureren:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Host**] | Voer de gewenste FTP-doel-URL in. Bijvoorbeeld: `ftp://ftp.omniture.com`. |
-   | [!UICONTROL **Pad**] | Kan leeg blijven. |
+   | [!UICONTROL **Gastheer**] | Voer de gewenste FTP-doel-URL in. Bijvoorbeeld `ftp://ftp.omniture.com` . |
+   | [!UICONTROL **Weg**] | Kan leeg blijven. |
    | [!UICONTROL **Gebruikersnaam**] | Voer de gebruikersnaam in die u wilt aanmelden bij de FTP-site. |
-   | [!UICONTROL **Wachtwoord en wachtwoord bevestigen**] | Voer het wachtwoord in om u aan te melden bij de FTP-site. |
+   | [!UICONTROL **Wachtwoord en bevestig wachtwoord**] | Voer het wachtwoord in om u aan te melden bij de FTP-site. |
 
    {style="table-layout:auto"}
 
@@ -149,9 +157,9 @@ Een cloudimport- of -exportaccount configureren:
 
    +++S3
 
-   U kunt opslaggegevens rechtstreeks naar Amazon S3 emmers verzenden. Dit bestemmingstype vereist een naam van het Emmertje, een Zeer belangrijke identiteitskaart van de Toegang, en een Geheime Sleutel. Zie [Amazon S3-vereisten voor emmernaamgeving](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in de Amazon S3-documenten voor meer informatie.
+   U kunt opslaggegevens rechtstreeks naar Amazon S3 emmers verzenden. Dit bestemmingstype vereist een naam van het Emmertje, een Zeer belangrijke identiteitskaart van de Toegang, en een Geheime Sleutel. Zie [ Amazon S3 emmer noemende vereisten ](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) binnen Amazon S3 docs voor meer informatie.
 
-   De gebruiker u voor het uploaden gegevens van het gegevenspakhuis verstrekt moet het volgende hebben: [machtigingen](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+   De gebruiker u voor het uploaden van gegevens van het gegevenspakhuis verstrekt moet de volgende [ toestemmingen ](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) hebben:
 
    * s3:GetObject
    * s3:PutObject
@@ -184,7 +192,7 @@ Een cloudimport- of -exportaccount configureren:
 
    +++Azure Blob
 
-   Het pakhuis van gegevens steunt de bestemmingen van Azure Blob. Hiervoor is een container, account en sleutel vereist. Amazon versleutelt de gegevens automatisch in rust. Wanneer u de gegevens downloadt, worden deze automatisch gedecodeerd. Zie [Een opslagaccount maken](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in de Microsoft Azure-documenten voor meer informatie.
+   Het pakhuis van gegevens steunt de bestemmingen van Azure Blob. Hiervoor is een container, account en sleutel vereist. Amazon versleutelt de gegevens automatisch in rust. Wanneer u de gegevens downloadt, worden deze automatisch gedecodeerd. Zie [ een opslagrekening ](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) binnen Microsoft Azure documenten voor meer informatie creëren.
 
    >[!NOTE]
    >
@@ -192,6 +200,6 @@ Een cloudimport- of -exportaccount configureren:
 
 +++
 
-1. Selecteren [!UICONTROL **Opslaan**].
+1. Selecteer [!UICONTROL **sparen**].
 
-1. Doorgaan met [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
+1. Ga met [ verder vormen wolkeninvoer en uitvoerplaatsen ](/help/components/locations/configure-import-locations.md).
