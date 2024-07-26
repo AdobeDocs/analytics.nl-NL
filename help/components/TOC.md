@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 11e98d35ba52fb777a08f950725b0e8dbb99fa22
+source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 8%
+source-wordcount: '809'
+ht-degree: 7%
 
 ---
 
@@ -98,6 +98,12 @@ ht-degree: 8%
    + [Server](dimensions/server.md)
    + [Eén pagina bezoeken](dimensions/single-page-visits.md)
    + [Sectie Site](dimensions/site-section.md)
+   + [Streaming media core-afmetingen](dimensions/sm-core.md)
+   + [Streaming media-advertenties](dimensions/sm-ads.md)
+   + [Streaming media-hoofdstukken](dimensions/sm-chapters.md)
+   + [Streaming mediakwaliteit](dimensions/sm-quality.md)
+   + [Metagegevens over streaming media](dimensions/sm-audio-metadata.md)
+   + [Metagegevens van video voor streaming media](dimensions/sm-video-metadata.md)
    + [Tijd vóór de gebeurtenis](dimensions/time-prior-to-event.md)
    + [Tijd besteed aan pagina](dimensions/time-spent-on-page.md)
    + [Tijd besteed per bezoek](dimensions/time-spent-per-visit.md)
@@ -151,6 +157,12 @@ ht-degree: 8%
    + [Zoekopdrachten](metrics/searches.md)
    + [Enkelvoudige toegang](metrics/single-access.md)
    + [Eén pagina bezoeken](metrics/single-page-visits.md)
+   + [Streaming media core metrics](metrics/sm-core.md)
+   + [Streaming media-advertenties](metrics/sm-ads.md)
+   + [Streaming media-hoofdstukken](metrics/sm-chapters.md)
+   + [Status van de streaming mediaspeler bijhouden](metrics/sm-player-state.md)
+   + [Streaming mediakwaliteit](metrics/sm-quality.md)
+   + [Metagegevens van video voor streaming media](metrics/sm-video-metadata.md)
    + [Tijd besteed per bezoek](metrics/time-spent-per-visit.md)
    + [Tijd doorgebracht per bezoeker](metrics/time-spent-per-visitor.md)
    + [Overzicht van de tijd](metrics/time-spent.md)

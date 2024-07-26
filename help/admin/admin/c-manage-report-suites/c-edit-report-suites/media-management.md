@@ -4,27 +4,40 @@ title: Mediabeheer
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
 # Mediabeheer
 
-U kunt media in Analytics toelaten om een speciale reeks Variabelen van de Oplossing van Media voor gebruik in meting en rapportering te reserveren. Deze variabelen gedragen zich als Gebeurtenissen van de Douane, Gebeurtenissen, en Props, maar tellen niet tegen uw veranderlijke grenzen. Nadat ze zijn ingeschakeld, zien uw gebruikers een nieuwe set Media-rapporten in de menu&#39;s Analytics.
+U kunt deze interface gebruiken om variabelen te reserveren voor gebruik in media meting en rapportering. Wanneer deze variabelen zich op dezelfde manier gedragen als Vars, props en events, maar niet tellen bij een variabele limiet. Nadat ze zijn ingeschakeld, zien uw gebruikers een nieuwe set Media-rapporten in de menu&#39;s Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Media Management]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Media Management]**
 
 De volgende opties voor mediabeheer zijn beschikbaar wanneer u een rapportsuite bewerkt:
 
-* [!UICONTROL **Mediarapportage**]
+* [!UICONTROL **Media die**] melden
 
-  De rapporten specifiek voor de Streaming Invoegsel van de Inzameling van Media zijn beschikbaar op de Media die pagina melden. Voor meer informatie over Media die melden, zie [Media-rapporten inschakelen](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
+  Gebruik deze selectievakjes om afmetingen en metriek in te schakelen die specifiek zijn voor de invoegtoepassing voor het streamen van media-verzamelingen.
 
-* [!UICONTROL **Mediaclassificaties**]
+   * [Dimensies van mediacore](/help/components/dimensions/sm-core.md)
+   * [Metrische gegevens van mediacore](/help/components/metrics/sm-core.md)
+   * [Media en afmetingen](/help/components/dimensions/sm-ads.md)
+   * [Media en metriek](/help/components/metrics/sm-ads.md)
+   * [Dimensies van mediapunten](/help/components/dimensions/sm-chapters.md)
+   * [Metingen van media-hoofdstukken](/help/components/metrics/sm-chapters.md)
+   * [Afmetingen van de mediakwaliteit](/help/components/dimensions/sm-quality.md)
+   * [Metingen voor mediakwaliteit](/help/components/metrics/sm-quality.md)
+   * [Afmetingen van videometagegevens](/help/components/dimensions/sm-video-metadata.md)
+   * [Metrische videogegevens](/help/components/metrics/sm-video-metadata.md)
+   * [Afmetingen van metagegevens van audio](/help/components/dimensions/sm-audio-metadata.md)
+   * [Metingen voor bijhouden van spelerstatus](/help/components/metrics/sm-player-state.md)
 
-  Classificaties die specifiek zijn voor de invoegtoepassing voor het streamen van media zijn beschikbaar op de pagina Mediaclassificaties. Zie voor informatie over classificaties [Conversieclassificaties](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+* [!UICONTROL **Classificaties van Media**]
 
-Zie voor algemene informatie over het opnemen van streaming-mediagegevens in Adobe Analytics de [Invoeggids voor streaming media Collection](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+  Classificaties die specifiek zijn voor de invoegtoepassingen voor streaming media-verzamelingen, zijn beschikbaar op de pagina [!UICONTROL Media Classifications] . Zij werken zo gelijkaardig aan [ classificaties van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) beschikbaar voor omzettingsvariabelen. Als u bepaalde componenten onder [!UICONTROL Media Reporting] inschakelt, worden er automatisch classificatiedimensies voor u gemaakt. U kunt deze interface gebruiken om uw eigen classificatieafmetingen te maken of classificatiegegevens te uploaden.
+
+Voor algemene informatie over het opnemen van het stromen media gegevens in Adobe Analytics, zie de [ Streaming de Invoegtoepassing van de Inzameling van Media van de Inzameling ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
