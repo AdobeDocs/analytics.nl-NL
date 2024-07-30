@@ -1,220 +1,99 @@
 ---
-description: De afmetingen die u kunt lezen en schrijven (tenzij anders vermeld) gebruikend verwerkingsregels.
+description: De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend verwerkingsregels.
 subtopic: Processing rules
 title: Dimensionen waarover verwerkingsvoorschriften kunnen worden toegepast
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
 
-# Dimensionen waarover verwerkingsvoorschriften kunnen worden toegepast
+# Dimensionen en maatstaven die beschikbaar zijn voor verwerkingsregels
 
-De afmetingen die u kunt lezen en schrijven (tenzij anders vermeld) gebruikend verwerkingsregels.
+De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend verwerkingsregels.
 
-## Aangepaste waarden en contextgegevens {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## Aangepaste waarden en contextgegevens
 
-<table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Waarde </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Aangepaste waarde </p> </td> 
-   <td colname="col2"> <p>Aangepaste tekst of waarden die rechtstreeks in een verwerkingsregel worden getypt. Deze waarden zijn beschikbaar in volgende voorwaarden en regels. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Samengevoegde waarde </p> </td> 
-   <td colname="col2"> <p>Waarden die worden gemaakt door twee waarden te combineren. U kunt bijvoorbeeld de categorie en de paginanaam combineren om een subcategorie te maken. Deze waarden zijn beschikbaar in volgende voorwaarden en regels. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Gewijzigde waarden </p> </td> 
-   <td colname="col2"> <p>Als een veranderlijke waarde gebruikend verwerkingsregels wordt veranderd, wordt de veranderde waarde gebruikt in verdere voorwaarden en regels. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Contextgegevensvariabelen </p> </td> 
-   <td colname="col2"> <p>Benoemde variabelen die met een hit worden verzonden. </p> <p>Nota: Om het even welke gegevens in een Variabele van de Gegevens van de Context moeten aan een rapporteringsvariabele worden gekopieerd om in een rapport te verschijnen. De Variabelen van de Gegevens van de context zijn niet viewable in om het even welke rapporteringsinterface, met inbegrip van de Gegevensvoer ClickStream. </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Een contextgegevensvariabele naar een eVar kopiëren </a> </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Een gebeurtenis instellen met een Context Data-variabele </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Contextgegevensvariabelen</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Waarde | Status lezen/schrijven | Beschrijving |
+| --- | --- | --- |
+| Aangepaste waarde | Alleen-lezen | Aangepaste tekst of waarden die rechtstreeks in een verwerkingsregel worden getypt. |
+| Samengevoegde waarde | Alleen-lezen | Waarden die worden gemaakt door twee waarden te combineren. U kunt bijvoorbeeld kanaal- en paginanaam combineren om een subcategorie te maken. |
 
-## verkeersvariabelen {#section_225156106F8B41F8BC1E68D58DDC2652}
+{style="table-layout:auto"}
 
-<table id="table_575F618C59DC4933BC77F935518EAE39"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variabele </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>prop 1-75 </p> </td> 
-   <td colname="col2"> <p> <code> prop1 - prop75</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Hiërarchie 1-5 </p> </td> 
-   <td colname="col2"> <p> <code> hier1 - hier5</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Sectie Site </p> </td> 
-   <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Server </p> </td> 
-   <td colname="col2"> <p> <code> s.server </code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Aanraakkenmerken
 
-## Kenmerken Actief {#section_07E69A86A47741A083FD84F112EB80D0}
+| Kenmerk | Status lezen/schrijven | Beschrijving |
+| --- | --- | --- |
+| Pagina-URL | Lezen + schrijven | De [ pagina URL ](/help/components/dimensions/page-url.md) afmeting. Het volgen van de verbinding overtreft deze dimensie alvorens verwerkingsregels te bereiken. Als u een pagina URL waarde gebruikend verwerkingsregels opnieuw opneemt, wordt de klap beschouwd als a [ mening van de Pagina ](/help/components/metrics/page-views.md) in plaats van de gebeurtenis van de a [ Pagina ](/help/components/metrics/page-events.md). Adobe raadt u aan te controleren op een waarde in de pagina-dimensie voordat u deze wijzigt. |
+| Paginanaam | Lezen + schrijven | De [ dimensie van de Pagina ](/help/components/dimensions/page.md). Het volgen van de verbinding overtreft deze dimensie alvorens verwerkingsregels te bereiken. Als u een paginawaarde opnieuw opneemt gebruikend verwerkingsregels, wordt de klap beschouwd als a [ mening van de Pagina ](/help/components/metrics/page-views.md) in plaats van de gebeurtenis van de a [ Pagina ](/help/components/metrics/page-events.md). Adobe raadt u aan te controleren op een waarde in de pagina-dimensie voordat u deze wijzigt. |
+| Reeks-id rapporteren | Alleen-lezen | De rapportsuite waarop de verwerkingsregel wordt uitgevoerd. Deze rapportsuite kan een andere zijn dan de rapportsuite die oorspronkelijk via het AppMeasurement is verzonden, bijvoorbeeld bij het gebruik van de VISTA-regels. |
+| Versie van AppMeasurement | Alleen-lezen | De versie van de bibliotheek van het AppMeasurement die wordt gebruikt om het beeldverzoek te produceren. |
+| IP-adres | Alleen-lezen | Het IP-adres van de bezoeker. |
+| Gebruikersagent | Alleen-lezen | De gebruikersagent van de bezoeker. |
+| Referenter | Alleen-lezen | De [ dimensie van de Verwijzer ](/help/components/dimensions/referrer.md). |
+| Tekenreeksparameter van query | Alleen-lezen | De waarde van een opgegeven parameter voor een querytekenreeks in de huidige URL. |
+| Verwijzen naar parameter querytekenreeks | Alleen-lezen | De waarde van een opgegeven parameter voor een querytekenreeks in de verwijzende URL of een lege tekenreeks als er geen bestaat. |
+| Verwijzen naar domein | Alleen-lezen | Het paginadomein van de verwijzende URL, inclusief subdomeinen. |
+| Verwijzen naar hoofddomein | Alleen-lezen | Het paginadomein van de verwijzende URL, met uitzondering van subdomeinen. |
+| Tekenreeks voor paginaquery | Alleen-lezen | Alle parameters van het vraagkoord en hun waarden in huidige URL. |
+| Verwijzen naar queryreeks | Alleen-lezen | Alle parameters van het vraagkoord en hun waarden in verwijzende URL. |
+| Paginapad | Alleen-lezen | Het paginapad van de huidige URL. Paginapad bevat geen parameters voor protocol-, domein- of queryreeksen. |
+| Paginadomein | Alleen-lezen | Het paginadomein van de huidige URL, inclusief subdomeinen. Paginadomein bevat geen parameters voor paginapad of queryreeks. |
+| Hoofddomein van pagina | Alleen-lezen | Het paginadomein van de huidige URL, exclusief subdomeinen. |
+| Klantperspectief | Lezen + schrijven | Een markering die bepaalt of de treffer een mobiele achtergrondhit is. |
 
-<table id="table_9011B1FA462B4DBBAA58FC2D6D638DA1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Kenmerk </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>ID rapportsuite (alleen-lezen) </p> </td> 
-   <td colname="col2"> <p>De rapportsuite waarop de verwerkingsregel wordt uitgevoerd, is mogelijk niet de oorspronkelijke rapportsuite die in het AppMeasurement is opgegeven. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Paginanaam </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Nota: De verbinding die vraag volgt ontdoet <code>pageName</code> variabel voordat zij verwerkingsregels bereiken. Als u een waarde van de paginanaam opnieuw opneemt gebruikend verwerkingsregels, wordt de klap beschouwd als een paginamening in plaats van een verbinding die vraag volgt. Adobe raadt aan te controleren of de paginanaam al is ingesteld voordat u deze wijzigt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Pagina-URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> of de URL van de huidige pagina als <code> s.pageURL</code> is niet opgegeven. <p>Nota: De verbinding die vraag volgt ontdoet <code>pageURL</code> variabel voordat zij verwerkingsregels bereiken. Als u een pagina-URL-waarde opnieuw invoegt met verwerkingsregels, wordt de treffer beschouwd als een paginaweergave in plaats van een aanroep voor het bijhouden van koppelingen. Adobe raadt aan te controleren of de pagina-URL al is ingesteld voordat u deze wijzigt. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Parameter querytekenreeks </p> </td> 
-   <td colname="col2"> <p>De waarde van een opgegeven parameter voor een querytekenreeks in de huidige URL of null als er geen parameter bestaat. Voor de URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, de waarde van de Parameter van het Koord van de Vraag <span class="syntax codeph"> cid</span> is <b>ad1</b>, en de waarde van de Parameter van het Koord van de Vraag <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>Als u JavaScript AppMeasurement H.25.2 of eerder uitvoert, kan de pagina-URL na 255 tekens worden afgekapt. JavaScript AppMeasurement H.25.3 (uitgebracht in januari 2013) en hoger bieden de volledige URL aan verwerkingsregels. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Pad naar pagina </p> </td> 
-   <td colname="col2"> <p>Het pad van de pagina-URL. Het pad van de URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Paginadomein </p> </td> 
-   <td colname="col2"> <p>De volledige hostnaam, opgegeven in de URL. https://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Hoofddomein van pagina </p> </td> 
-   <td colname="col2"> <p>De laatste twee secties van hostname van de pagina. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Tekenreeks paginaquery </p> </td> 
-   <td colname="col2"> <p>De volledige queryreeks van de URL. https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Referrer* (alleen-lezen) </p> </td> 
-   <td colname="col2"> <p>HTTP-referentie. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Refering Query String Parameter (alleen-lezen) </p> </td> 
-   <td colname="col2"> <p>De waarde van een opgegeven parameter voor een querytekenreeks in de verwijzende URL of null als er geen parameter bestaat. Voor de URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, de waarde van de Parameter van het Koord van de Vraag <span class="syntax codeph"> cid</span> is <b>ad1</b>, en de waarde van de Parameter van het Koord van de Vraag <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>Als u JavaScript AppMeasurement H.25.2 of eerder uitvoert, kan de pagina-URL na 255 tekens worden afgekapt. JavaScript AppMeasurement H.25.3 (uitgebracht in januari 2013) en hoger bieden de volledige URL aan verwerkingsregels. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Refering Domain (alleen-lezen) </p> </td> 
-   <td colname="col2"> <p>De volledige hostnaam van de verwijzende. https://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Refering Root Domain (alleen-lezen) </p> </td> 
-   <td colname="col2"> <p>De laatste twee secties van hostname van de verwijzende. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Verwijzen naar queryreeks (alleen-lezen) </p> </td> 
-   <td colname="col2"> <p>Parameters van de queryreeks in de verwijzende URL. https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>IP-adres (alleen-lezen) </p> </td> 
-   <td colname="col2"> <p>IP-adres zoals opgegeven door de browser. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Gebruikersagent (alleen-lezen) </p> </td> 
-   <td colname="col2"> <p>Gebruikersagent zoals gemeld door de browser. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Versie van de Code van het AppMeasurement (read-only) </p> </td> 
-   <td colname="col2"> <p>De versie van de appMeturement-bibliotheek die is gebruikt om de aanvraag in te dienen. Wanneer u beacons voor afbeeldingen gebruikt, kunt u deze vullen met een aangepaste waarde die wordt gelezen met behulp van verwerkingsregels. Deze waarde wordt op de volgende locatie in de URL weergegeven: </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+{style="table-layout:auto"}
 
-## Conversievariabelen {#section_311856B21B3B49DBAA0539CFA06C409F}
+## Conversievariabelen
 
-<table id="table_E28729026EDA485989178A3B887B5983"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variabele </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Code voor bijhouden campagne </p> </td> 
-   <td colname="col2"> <p> <code> s.campaign</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Valuta </p> </td> 
-   <td colname="col2"> <p> <code> s.currencyCode</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Variabelen1-3 weergeven </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Aankoop-id </p> </td> 
-   <td colname="col2"> <p> <code> s.purchaseID</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Transactie-id </p> </td> 
-   <td colname="col2"> <p> <code> s.transactionID </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Bezoekende staat </p> </td> 
-   <td colname="col2"> <p> <code> s.state</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Postcode bezoeker </p> </td> 
-   <td colname="col2"> <p> <code> s.zip</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variabele | Statusbeschrijving lezen/schrijven |
+| --- | --- | --- |
+| eVar 1-250 | Lezen + schrijven | [ eVar ](/help/components/dimensions/evar.md) afmetingen. |
+| Campaign | Lezen + schrijven | De [ het Volgen code ](/help/components/dimensions/tracking-code.md) dimensie. |
+| Aankoop-id | Lezen + schrijven | De implementatievariabele [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) . |
+| Staat | Lezen + schrijven | De implementatievariabele [`state`](/help/implement/vars/page-vars/state.md) wordt uitgeschakeld. |
+| Postcode | Lezen + schrijven | De [ dimensie van het Postcode ](/help/components/dimensions/zip-code.md). |
+| Valutacode | Lezen + schrijven | De implementatievariabele [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) . BELANGRIJK: als u deze variabele op een ongeldige waarde instelt, wordt de hit genegeerd. |
+| Transactie-id | Lezen + schrijven | De implementatievariabele [`transactionID`](/help/import/data-sources/transactionid.md) . |
 
-## Gebeurtenissen geslaagd {#section_C1946FEB64FC4F579671EC5E0D06AE8A}
+{style="table-layout:auto"}
 
-Met verwerkingsregels kunnen gebeurtenissen worden ingesteld, maar deze kunnen niet als voorwaarden worden gelezen.
+>[!NOTE]
+>Adobe ondersteunt het instellen van de implementatievariabele [`products`](/help/implement/vars/page-vars/products.md) met behulp van verwerkingsregels niet.
 
-<table id="table_926ED12B58CA4FB685D799DC6EE567C0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Gebeurtenis </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Gebeurtenis 1-1000 </p> <p>(Voor klanten van de SiteCatalyst 15, gebeurtenis 1-100.) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>aankoop, scView, scAdd, en andere kartgebeurtenissen </p> </td> 
-   <td colname="col2"> <p>Vooraf gedefinieerde gebeurtenissen. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## verkeersvariabelen
+
+| Variabele | Status lezen/schrijven | Beschrijving |
+| --- | --- | --- |
+| Prop 1-75 | Lezen + schrijven | ](/help/components/dimensions/prop.md) afmetingen van 0} Prop {.[ |
+| Hiërarchie 1-5 | Lezen + schrijven | ](/help/components/dimensions/hierarchy.md) dimensies van 0} Hiërarchie {.[ |
+| Server | Lezen + schrijven | De [ dimensie van de Server ](/help/components/dimensions/server.md). |
+| Kanaal | Lezen + schrijven | De [ sectie van de Plaats ](/help/components/dimensions/site-section.md) dimensie. |
+
+{style="table-layout:auto"}
+
+## Contextvariabelen
+
+Alle [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contextdata.md) die deze rapportreeks in vorige beeldverzoeken heeft gezien. Als de verwerkingsregels contextgegevens niet in een andere variabele plaatsen, worden die gegevens permanent verloren. Zie [ exemplaar een variabele van contextgegevens aan een eVar ](processing-rules-examples/processing-rules-copy-context-data.md) en [ plaats een gebeurtenis gebruikend een variabele van contextgegevens ](processing-rules-examples/processing-rules-copy-context-data-event.md) voor gebruiksvoorbeelden.
+
+## Gebeurtenissen met succes
+
+Met verwerkingsregels kunnen gebeurtenissen worden ingesteld, maar deze kunnen niet als voorwaarden worden gelezen. Stel het vervolgkeuzemenu Handeling regel in op **[!UICONTROL Set event]** om de beschikbare metriek op stap weer te geven.
+
+| Variabele | Status lezen/schrijven | Beschrijving |
+| --- | --- | --- |
+| Orders | Alleen schrijven | De [ orden ](/help/components/metrics/orders.md) metrisch. |
+| Houtskaarten | Alleen schrijven | De [ metrische Havens ](/help/components/metrics/carts.md). |
+| Winkelweergaven | Alleen schrijven | De [ metrische meningen van het Kart ](/help/components/metrics/cart-views.md). |
+| Afbeeldingen | Alleen schrijven | De [ metrische controles ](/help/components/metrics/checkouts.md). |
+| Extra winkelwagentjes | Alleen schrijven | De [ metrische toevoegingen van de Kar ](/help/components/metrics/cart-additions.md). |
+| Winkelwagentjes | Alleen schrijven | De [ verwijdering van de Kar ](/help/components/metrics/cart-removals.md) metrisch. |
+| Gebeurtenis 1-1000 | Alleen schrijven | [ de gebeurtenissen van de Douane ](/help/components/metrics/custom-events.md). |
+| Productweergaven | Alleen schrijven | De [ metrische meningen van het Product ](/help/components/metrics/product-views.md). |
+
+{style="table-layout:auto"}
