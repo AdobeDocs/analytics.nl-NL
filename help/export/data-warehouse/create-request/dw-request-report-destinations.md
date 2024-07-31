@@ -3,7 +3,7 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '2612'
 ht-degree: 0%
@@ -14,35 +14,35 @@ ht-degree: 0%
 
 Er zijn diverse configuratieopties beschikbaar wanneer het creëren van een verzoek van de Data Warehouse. De volgende informatie beschrijft hoe te om een rapportbestemming voor het verzoek te vormen.
 
-Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [ een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 >[!NOTE]
 >
 >Overweeg het volgende wanneer het vormen van een rapportbestemming:
 >
->* We raden u aan een cloudaccount of e-mailbericht te gebruiken voor uw rapportbestemming. [Oudere FTP- en SFTP-accounts](#legacy-destinations) zijn beschikbaar, maar worden niet aanbevolen.
+>* We raden u aan een cloudaccount of e-mailbericht te gebruiken voor uw rapportbestemming. [ Verouderde FTP en de rekeningen van SFTP ](#legacy-destinations) zijn beschikbaar maar niet geadviseerd.
 >
 >* Alle cloudaccounts die u eerder hebt geconfigureerd, kunnen voor Data Warehouse worden gebruikt. U kunt cloudaccounts op de volgende manieren configureren:
 >
->   * Bij configureren [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md)
+>   * Wanneer het vormen van [ de Diefstal van Gegevens ](/help/export/analytics-data-feed/create-feed.md)
 >   
->   * Wanneer [Adobe Analytics-classificatiegegevens importeren](/help/components/locations/locations-manager.md) (Accounts kunnen worden gebruikt, maar elke locatie die op die accounts is geconfigureerd, kan niet worden gebruikt.)
+>   * Wanneer [ het invoeren van de classificatiegegevens van Adobe Analytics ](/help/components/locations/locations-manager.md) (De Rekeningen kunnen worden gebruikt, maar om het even welke plaatsen die op die rekeningen worden gevormd kunnen niet zijn.)
 >   
->   * Vanuit het Locatiebeheer, in [Componenten > Locaties](/help/components/locations/configure-import-accounts.md).
+>   * Van de manager van Plaatsen, in [ Componenten > Plaatsen ](/help/components/locations/configure-import-accounts.md).
 >
 >* Cloud-accounts zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Andere gebruikers kunnen geen cloudaccounts gebruiken of weergeven die u configureert.
 >
->* U kunt alle locaties bewerken die u maakt met Locatiebeheer in [Componenten > Locaties](/help/components/locations/configure-import-accounts.md)
+>* U kunt om het even welke plaatsen uitgeven die u van de manager van Plaatsen in [ Componenten > Plaatsen ](/help/components/locations/configure-import-accounts.md) creeert
 
 Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzonden:
 
-1. Als je nog geen aanvraag hebt ingediend, kun je een aanvraag maken in Adobe Analytics door **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Toevoegen**].
+1. Als u niet reeds hebt, begin creërend een verzoek in Adobe Analytics door te selecteren **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **voeg**] toe.
 
-   Zie voor meer informatie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Voor extra details, zie [ een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
-1. Selecteer op de aanvraagpagina Nieuwe Data Warehouse de optie [!UICONTROL **Doel van rapport**] tab.
+1. Voor de Nieuwe pagina van het de verzoekverzoek van de Data Warehouse, selecteer de [!UICONTROL **bestemming van het Rapport**] tabel.
 
-   ![Tabblad Doel rapporteren](assets/dw-report-destination.png)
+   ![ de bestemmingslusje van het Rapport ](assets/dw-report-destination.png)
 
 1. (Voorwaardelijk) als een cloudaccount (en een bestemming voor die account) al in Adobe Analytics is geconfigureerd, kunt u dit als uw rapportbestemming gebruiken:
 
@@ -50,33 +50,33 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
    >
    >De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie werden gedeeld u een deel van bent.
    >
-   >Als u systeembeheerder bent, [!UICONTROL **Alle doelen tonen**] is beschikbaar. Schakel deze optie in als u toegang wilt hebben tot alle accounts en locaties die door een gebruiker in de organisatie zijn gemaakt.
+   >Als u een systeembeheerder bent, [!UICONTROL **toon alle bestemmingen**] optie is beschikbaar. Schakel deze optie in als u toegang wilt hebben tot alle accounts en locaties die door een gebruiker in de organisatie zijn gemaakt.
 
-   1. Selecteer de account in het menu [!UICONTROL **Account selecteren**] vervolgkeuzelijst.
+   1. Selecteer de rekening van [!UICONTROL **Uitgezochte rekening**] drop-down menu.
 
       Alle cloudaccounts die u hebt geconfigureerd in een van de volgende Adobe Analytics-domeinen kunnen worden gebruikt:
 
-      * Bij het importeren van Adobe Analytics-classificatiegegevens, zoals beschreven in [Schema](/help/components/classifications/sets/manage/schema.md).
+      * Wanneer het invoeren van de classificatiegegevens van Adobe Analytics, zoals die in [ Schema ](/help/components/classifications/sets/manage/schema.md) worden beschreven.
 
         Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
 
-      * Bij het configureren van accounts en locaties in het gebied Locaties, zoals wordt beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md) en [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
+      * Wanneer het vormen van rekeningen en plaatsen in het gebied van Plaatsen, zoals die in [ worden beschreven vorm wolk invoer en de uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md) en [ vorm wolk invoer en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md).
 
-   1. Selecteer in het menu van het menu [!UICONTROL **Doel selecteren**] vervolgkeuzelijst. <!-- Is this correct? -->
+   1. Selecteer de bestemming verbonden aan de rekening van [!UICONTROL **Uitgezochte bestemming**] drop-down menu. <!-- Is this correct? -->
 
 1. (Voorwaardelijk) Als u geen toegang hebt tot een cloudaccount die al in Adobe Analytics is geconfigureerd, kunt u een account configureren:
 
-   1. Selecteren [!UICONTROL **Account toevoegen**] en geeft u de volgende informatie op:
+   1. Selecteer [!UICONTROL **toevoegen rekening**], dan specificeer de volgende informatie:
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Accounttype**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account. <p>Nadat u een accounttype hebt gekozen, worden de velden weergegeven die specifiek zijn voor dat accounttype. </p> |
-      | [!UICONTROL **Accountnaam**] | Geef een naam op voor de account. Deze naam wordt weergegeven wanneer u een locatie maakt. <!-- true? --> |
-      | [!UICONTROL **Accountbeschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. |
+      | [!UICONTROL **Type van Rekening**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account. <p>Nadat u een accounttype hebt gekozen, worden de velden weergegeven die specifiek zijn voor dat accounttype. </p> |
+      | [!UICONTROL **de naam van de Rekening**] | Geef een naam op voor de account. Deze naam wordt weergegeven wanneer u een locatie maakt. <!-- true? --> |
+      | [!UICONTROL **beschrijving van de Rekening**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. |
 
-      Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met de [!UICONTROL **Accounttype**] die u hebt geselecteerd.
+      Voor configuratieinstructies, breid de sectie onder uit die aan het [!UICONTROL **type van Rekening**] beantwoordt dat u selecteerde.
 
-      Gebruik om het even welke volgende rekeningtypes wanneer het vormen van een rapportbestemming. Vouw voor configuratieinstructies het accounttype uit. (Extra [verouderde doelen](#legacy-destinations) zijn ook beschikbaar, maar worden niet aanbevolen.)
+      Gebruik om het even welke volgende rekeningtypes wanneer het vormen van een rapportbestemming. Vouw voor configuratieinstructies het accounttype uit. (De extra [ erfenisbestemmingen ](#legacy-destinations) zijn ook beschikbaar, maar niet geadviseerd.)
 
       +++Amazon S3
 
@@ -84,8 +84,8 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Rol ARN**] | U moet een Rol ARN (de Naam van het Middel van Amazon) verstrekken die de Adobe kan gebruiken om toegang tot de rekening van Amazon S3 te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Zie voor specifieke informatie [deze AWS-documentatie](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>Raadpleeg het artikel voor informatie over het instellen van de machtigingen voor het emmertje [Hoe kan ik dwars-rekeningstoegang tot voorwerpen verlenen die in Amazon S3 emmers zijn?](https://repost.aws/knowledge-center/cross-account-access-s3) in het Amazon-kenniscentrum. |
-      | [!UICONTROL **ARN gebruiker**] | De Gebruiker ARN (de Naam van het Middel van Amazon) wordt verstrekt door Adobe. U moet deze gebruiker aan het beleid vastmaken u creeerde. |
+      | [!UICONTROL **ARN van de Rol**] | U moet een Rol ARN (de Naam van het Middel van Amazon) verstrekken die de Adobe kan gebruiken om toegang tot de rekening van Amazon S3 te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Voor specifieke informatie, zie [ deze documentatie van AWS ](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>Voor informatie over hoe te opstelling ziet de toestemming van het emmertje, het artikel [ hoe ik dwars-rekeningstoegang tot voorwerpen kan verlenen die in Amazon S3 emmers zijn?](https://repost.aws/knowledge-center/cross-account-access-s3) in het Amazon-kenniscentrum. |
+      | [!UICONTROL **ARN VAN DE Gebruiker**] | De Gebruiker ARN (de Naam van het Middel van Amazon) wordt verstrekt door Adobe. U moet deze gebruiker aan het beleid vastmaken u creeerde. |
 
       {style="table-layout:auto"}
 
@@ -97,7 +97,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Project-id**] | Uw Google Cloud-project-id. Zie de [Google Cloud-documentatie over het ophalen van een project-id](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
+      | [!UICONTROL **identiteitskaart van het Project**] | Uw Google Cloud-project-id. Zie de [ documentatie van de Wolk van Google over het krijgen van een project identiteitskaart ](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
 
       {style="table-layout:auto"}
 
@@ -109,11 +109,11 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Toepassings-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **Tenant-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **URI sleutelvault**] | <p>Het pad naar de SAS URI in Azure Key Vault.  Om Azure SAS te configureren, moet u een SAS-URI opslaan als een geheim met Azure Key Vault. Zie voor meer informatie de [Microsoft Azure-documentatie over het instellen en ophalen van een geheim bij Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nadat de sleutelvault-URI is gemaakt:<ul><li>Voeg een toegangsbeleid op de Zeer belangrijke vault toe om toestemming aan de Azure toepassing te verlenen die u creeerde.</li><li>Controleer of de toepassings-id is toegekend aan de `Key Vault Certificate User` ingebouwde rol om tot de belangrijkste vault URI toegang te hebben.</br><p>Zie voor meer informatie [Azure ingebouwde rollen](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Zie voor meer informatie de [Microsoft Azure-documentatie over het toewijzen van een beleid voor toegang tot Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-      | [!UICONTROL **geheime naam sleutelvault**] | De geheime naam die u hebt gemaakt toen u het geheim toevoegde aan Azure Key Vault. In Microsoft Azure vindt u deze informatie in de Key Vault die u hebt gemaakt, op de **Key Vault** instellingenpagina&#39;s. Zie voor meer informatie de [Microsoft Azure-documentatie over het instellen en ophalen van een geheim bij Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-      | [!UICONTROL **Geheim**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Certificaten en geheimen** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+      | [!UICONTROL **identiteitskaart van de Toepassing**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
+      | [!UICONTROL **identiteitskaart van de HTENT**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
+      | [!UICONTROL **Zeer belangrijke vault URI**] | <p>Het pad naar de SAS URI in Azure Key Vault.  Om Azure SAS te configureren, moet u een SAS-URI opslaan als een geheim met Azure Key Vault. Voor informatie, zie de [ Microsoft Azure documentatie over hoe te om een geheim van Azure Key Vault ](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations) te plaatsen en terug te winnen.</p><p>Nadat de sleutelvault-URI is gemaakt:<ul><li>Voeg een toegangsbeleid op de Zeer belangrijke vault toe om toestemming aan de Azure toepassing te verlenen die u creeerde.</li><li>Zorg ervoor dat de toepassings-id de `Key Vault Certificate User` ingebouwde rol heeft gekregen om toegang te krijgen tot de sleutelvault URI.</br><p>Voor meer informatie, zie [ Azure ingebouwde rollen ](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Voor informatie, zie [ Microsoft Azure documentatie over hoe te om een Zeer belangrijk de toegangsbeleid van de Vault toe te wijzen ](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+      | [!UICONTROL **Zeer belangrijke geheime naam van de kluis**] | De geheime naam die u hebt gemaakt toen u het geheim toevoegde aan Azure Key Vault. In Microsoft Azure, wordt deze informatie gevestigd in de Belangrijkste Vault u, op de **Zeer belangrijke de montagespagina&#39;s van de Uitvault** creeerde. Voor informatie, zie de [ Microsoft Azure documentatie over hoe te om een geheim van Azure Key Vault ](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations) te plaatsen en terug te winnen. |
+      | [!UICONTROL **Geheim**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Certificaten &amp; geheimen** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
 
       {style="table-layout:auto"}
 
@@ -125,9 +125,9 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Toepassings-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **Tenant-id**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Overzicht** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **Geheim**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure bevindt deze informatie zich op de **Certificaten en geheimen** in uw toepassing. Zie de klasse [Microsoft Azure-documentatie over het registreren van een toepassing bij het Microsoft Identity-platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+      | [!UICONTROL **identiteitskaart van de Toepassing**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
+      | [!UICONTROL **identiteitskaart van de HTENT**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
+      | [!UICONTROL **Geheim**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Certificaten &amp; geheimen** lusje binnen uw toepassing. Voor meer informatie, zie [ Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft ](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
 
       {style="table-layout:auto"}
 
@@ -141,11 +141,17 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
       |---------|----------|
       | [!UICONTROL **Ontvangers**] | E-mailmeldingen kunnen naar specifieke gebruikers worden verzonden wanneer het rapport wordt verzonden. Geef één e-mailadres of een lijst met e-mailadressen door komma&#39;s gescheiden op. <!-- How does this differ from the Notification email tab? --> |
 
-   1. Selecteren [!UICONTROL **Locatie toevoegen**] en geeft u de volgende informatie op: |Veld | Functie | |—|—| | [!UICONTROL **Naam**] | De naam van de locatie.  | | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. | | [!UICONTROL **Locatieaccount**] | Selecteer de locatieaccount die u hebt gemaakt in [Een account toevoegen](#add-an-account). |
+   1. Selecteer [!UICONTROL **plaats**] toevoegen, dan specificeer de volgende informatie:
 
-   1. In de [!UICONTROL **Locatie-eigenschappen**] in, geeft u specifieke informatie op over het accounttype van uw locatieaccount.
+      | Veld | Functie |
+      |---------|----------|
+      | [!UICONTROL **Naam**] | De naam van de locatie. |
+      | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. |
+      | [!UICONTROL **de rekening van de Plaats**] | Selecteer de plaatsrekening die u in [ creeerde voeg een rekening ](#add-an-account) toe. |
 
-      Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met de [!UICONTROL **Accounttype**] die u eerder hebt geselecteerd.
+   1. In de [!UICONTROL **eigenschappen van de Plaats**] sectie, specificeer informatie specifiek voor het accounttype van uw plaatsrekening.
+
+      Voor configuratieinstructies, breid de sectie onder uit die aan het [!UICONTROL **type van Rekening**] beantwoordt dat u eerder selecteerde.
 
       +++Amazon S3
 
@@ -153,8 +159,8 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Naam van emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, de `S3:PutObject` toestemming om bestanden naar dit emmertje te uploaden. Met deze machtiging kan de ARN-gebruiker initiële bestanden uploaden en bestanden overschrijven voor volgende uploads.</p><p>Emmernamen moeten voldoen aan specifieke naamgevingsregels. Ze moeten bijvoorbeeld tussen 3 en 63 tekens lang zijn, ze mogen alleen bestaan uit kleine letters, cijfers, puntjes (.) en afbreekstreepjes (-) en ze moeten beginnen en eindigen met een letter of getal. [Een volledige lijst met naamgevingsregels is beschikbaar in de documentatie van AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
-      | [!UICONTROL **Voorvoegsel toets**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
+      | [!UICONTROL **naam van het Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de Gebruiker ARN die door Adobe werd verstrekt de `S3:PutObject` toestemming heeft om dossiers aan dit emmertje te uploaden. Met deze machtiging kan de ARN-gebruiker initiële bestanden uploaden en bestanden overschrijven voor volgende uploads.</p><p>Emmernamen moeten voldoen aan specifieke naamgevingsregels. Ze moeten bijvoorbeeld tussen 3 en 63 tekens lang zijn, ze mogen alleen bestaan uit kleine letters, cijfers, puntjes (.) en afbreekstreepjes (-) en ze moeten beginnen en eindigen met een letter of getal. [ A volledige lijst van het noemen van regels is beschikbaar in de documentatie van AWS ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+      | [!UICONTROL **Zeer belangrijke prefix**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
 
       {style="table-layout:auto"}
 
@@ -166,8 +172,8 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Naam van emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. <p>Zorg ervoor dat u een van de volgende machtigingen hebt verleend aan Opdrachtgever die door de Adobe wordt verschaft: (Voor informatie over het verlenen van machtigingen raadpleegt u [Voeg een hoofd aan een beleid op het niveau van de emmertje toe](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de Google Cloud-documentatie.)<ul><li>`roles/storage.objectCreator`: Gebruik deze machtiging als u Opdrachtgever wilt beperken tot het maken van alleen bestanden in uw GCP-account. </br>**Belangrijk:** Als u deze toestemming met geplande rapportering gebruikt, moet u een uniek dossier - naam voor elke nieuwe geplande uitvoer gebruiken. Anders, zal de rapportgeneratie ontbreken omdat Principal geen toegang heeft om bestaande dossiers te overschrijven.</li><li>`roles/storage.objectUser`: Gebruik deze machtiging als u wilt dat de Opdrachtgever toegang heeft tot bestanden in uw GCP-account, deze bestanden kan weergeven, bijwerken en verwijderen.</br>Met deze machtiging kan de Opdrachtgever bestaande bestanden overschrijven voor volgende uploads, zonder dat automatisch unieke bestandsnamen moeten worden gegenereerd voor elke nieuwe geplande export.</li></ul><p>Als uw organisatie [Beleidsbeperkingen van de organisatie](https://cloud.google.com/storage/docs/org-policy-constraints) Als u alleen de Google Cloud Platform-account in uw lijst van gewenste personen wilt toestaan, hebt u de volgende Google Cloud Platform-organisatie-id nodig die eigendom is van de Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
-      | [!UICONTROL **Voorvoegsel toets**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
+      | [!UICONTROL **naam van het Emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. <p>Zorg ervoor dat u één van beiden van de volgende toestemmingen aan Principal hebt verleend die door Adobe wordt verstrekt: (Voor informatie over het verlenen van toestemmingen, zie [ een hoofd aan een emmertje-vlakke beleid ](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de documentatie van de Wolk van Google toevoegen.)<ul><li>`roles/storage.objectCreator`: Gebruik deze machtiging als u Opdrachtgever wilt beperken tot het maken van alleen bestanden in uw GCP-account. </br>**Belangrijk:** als u deze toestemming met geplande rapportering gebruikt, moet u een uniek dossier - naam voor elke nieuwe geplande uitvoer gebruiken. Anders, zal de rapportgeneratie ontbreken omdat Principal geen toegang heeft om bestaande dossiers te overschrijven.</li><li>`roles/storage.objectUser`: Gebruik deze machtiging als u wilt dat de Opdrachtgever toegang heeft tot de bestanden in uw GCP-account, deze bestanden kan weergeven, bijwerken en verwijderen.</br> Deze toestemming staat Principal toe om bestaande dossiers voor verdere uploads, zonder de behoefte te beschrijven om unieke dossiernamen voor elke nieuwe geplande uitvoer automatisch te produceren.</li></ul><p>Als uw organisatie [ het beleidsbeperkingen van de Organisatie ](https://cloud.google.com/storage/docs/org-policy-constraints) gebruikt om slechts de rekening van het Platform van de Wolk van Google in uw lijst van gewenste personen toe te staan, hebt u de volgende Adobe-Bezit de organisatieidentiteitskaart van het Platform van Google Cloud nodig: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+      | [!UICONTROL **Zeer belangrijke prefix**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
 
       {style="table-layout:auto"}
 
@@ -179,8 +185,8 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Containernaam**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. |
-      | [!UICONTROL **Voorvoegsel toets**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/`<p>Zorg ervoor dat de opslag in SAS URI die u hebt opgegeven in het geheime naamveld Key Vault bij de configuratie van de Azure SAS-account, de `Write` toestemming. Hierdoor kan de SAS URI bestanden in uw Azure-container maken. <p>Als u wilt dat de SAS-URI ook bestanden overschrijft, zorgt u ervoor dat de SAS-URI-winkel de `Delete` toestemming.</p><p>Zie voor meer informatie [Bronnen voor blokopslag](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) in de Azure Blob Storage-documentatie.</p> |
+      | [!UICONTROL **naam van de Container**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. |
+      | [!UICONTROL **Zeer belangrijke prefix**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/`<p>Zorg ervoor dat de opslag van SAS URI die u in het geheime naamveld Key Vault hebt opgegeven bij de configuratie van de Azure SAS-account, de `Write` -machtiging heeft. Hierdoor kan de SAS URI bestanden in uw Azure-container maken. <p>Als u wilt dat de SAS-URI ook bestanden overschrijft, controleert u of de SAS-URI-opslag de machtiging `Delete` heeft.</p><p>Voor meer informatie, zie [ de opslagmiddelen van de Blob ](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) in de Azure documentatie van de Opslag van Blob.</p> |
 
       {style="table-layout:auto"}
 
@@ -192,15 +198,15 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **Containernaam**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat u machtigingen verleent om bestanden te uploaden naar de Azure-toepassing die u eerder hebt gemaakt. |
-      | [!UICONTROL **Voorvoegsel toets**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/`<p>Zorg ervoor dat de toepassings-id die u hebt opgegeven bij het configureren van de Azure RBAC-account, is toegewezen aan de `Storage Blob Data Contributor` rol om tot de container (omslag) toegang te hebben.</p> <p>Zie voor meer informatie [Azure ingebouwde rollen](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
-      | [!UICONTROL **Accountnaam**] | De Azure-opslagaccount. |
+      | [!UICONTROL **naam van de Container**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat u machtigingen verleent om bestanden te uploaden naar de Azure-toepassing die u eerder hebt gemaakt. |
+      | [!UICONTROL **Zeer belangrijke prefix**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/`<p>Controleer of de toepassings-id die u hebt opgegeven bij het configureren van de Azure RBAC-account, de rol `Storage Blob Data Contributor` heeft gekregen voor toegang tot de container (map).</p> <p>Voor meer informatie, zie [ Azure ingebouwde rollen ](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
+      | [!UICONTROL **de naam van de Rekening**] | De   Azure-opslagaccount. |
 
       {style="table-layout:auto"}
 
 +++
 
-1. Ga door met het configureren van uw verzoek voor Data Warehouse op de [!UICONTROL **Rapportopties**] tab. Zie voor meer informatie [Configureer rapportopties voor een Data Warehouse-verzoek](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+1. Ga door het vormen van uw verzoek van de Data Warehouse op het [!UICONTROL **opties van het Rapport**] tabel. Voor meer informatie, zie [ rapportopties voor een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-options.md) vormen.
 
 ## Oudere bestemmingen
 
@@ -218,27 +224,27 @@ Gebruik de volgende informatie wanneer u de beschikbare velden invult:
 
 #### Accountvelden
 
-* [!UICONTROL **Accountnaam**]: De naam van de FTP-account.
+* [!UICONTROL **naam van de Rekening**]: De naam van de rekening van FTP.
 
-* [!UICONTROL **Accountbeschrijving**]: Een beschrijving van de FTP-account.
+* [!UICONTROL **beschrijving van de Rekening**]: Een beschrijving van de rekening van FTP.
 
-* [!UICONTROL **Hostnaam**]: Voer de gewenste FTP-doel-URL in. Bijvoorbeeld: `ftp.company.com`.
+* [!UICONTROL **Hostname**]: Ga de gewenste bestemming URL van FTP in. Bijvoorbeeld `ftp.company.com` .
 
   >[!NOTE]
   >
-  >  Niet opnemen `ftp://` aan het begin van de URL.
+  >  Neem `ftp://` niet op aan het begin van de URL.
 
-* [!UICONTROL **Gebruikersnaam**]: Voer de gebruikersnaam in die u wilt aanmelden bij de FTP-site.
+* [!UICONTROL **Gebruikersnaam**]: Ga de gebruikersbenaming in aan login aan de plaats van FTP.
 
-* [!UICONTROL **Wachtwoord en wachtwoord bevestigen**]: Voer het wachtwoord in om u aan te melden bij de FTP-site.
+* [!UICONTROL **Wachtwoord en bevestig wachtwoord**]: Ga het wachtwoord in om aan login aan de plaats van FTP.
 
 #### Locatievelden
 
-* [!UICONTROL **Locatienaam**]: De naam van de locatie op de FTP-account waarnaar u bestanden wilt verzenden.
+* [!UICONTROL **naam van de Plaats**]: De naam van de plaats op de rekening van FTP waar u verzonden dossiers wilt.
 
-* [!UICONTROL **Locatiebeschrijving**]: Een beschrijving van de locatie op de FTP-account.
+* [!UICONTROL **beschrijving van de Plaats**]: Een beschrijving van de plaats op de rekening van FTP.
 
-* [!UICONTROL **Directorypad**]: Het pad naar de locatie op de FTP-account.
+* [!UICONTROL **weg van de Folder**]: De weg aan de plaats op de rekening van FTP.
 
 ### SFTP
 
@@ -248,37 +254,37 @@ Gebruik de volgende informatie wanneer u de beschikbare velden invult:
 
 #### Accountvelden
 
-* [!UICONTROL **Accountnaam**]: De naam van de FTP-account.
+* [!UICONTROL **naam van de Rekening**]: De naam van de rekening van FTP.
 
-* [!UICONTROL **Accountbeschrijving**]: Een beschrijving van de FTP-account.
+* [!UICONTROL **beschrijving van de Rekening**]: Een beschrijving van de rekening van FTP.
 
-* [!UICONTROL **Hostnaam**]: Voer de gewenste doel-URL voor SFTP in. Bijvoorbeeld: `sftp.company.com`.
+* [!UICONTROL **Hostname**]: Ga de gewenste bestemmingURL van SFTP in. Bijvoorbeeld `sftp.company.com` .
 
   >[!NOTE]
   >
-  >  Niet opnemen `sftp://` aan het begin van de URL.
+  >  Neem `sftp://` niet op aan het begin van de URL.
 
-* [!UICONTROL **Gebruikersnaam**]: Voer de gebruikersnaam in die u wilt aanmelden bij de SFTP-site.
+* [!UICONTROL **Gebruikersnaam**]: Ga de gebruikersbenaming in aan login aan de plaats van SFTP.
 
-* [!UICONTROL **Tijdelijke bestandsextensies gebruiken tijdens het uploaden**]: Als deze optie is ingeschakeld, wordt de `.part` bestandsextensie wordt gebruikt tijdens het uploadproces. Laat deze optie ingeschakeld tenzij de bestandsnamen op uw SFTP-server na het uploaden niet kunnen worden gewijzigd.
+* [!UICONTROL **de tijdelijke dossieruitbreidingen van het Gebruik tijdens upload**]: Wanneer toegelaten, wordt de `.part` dossieruitbreiding gebruikt tijdens het uploadproces. Laat deze optie ingeschakeld tenzij de bestandsnamen op uw SFTP-server na het uploaden niet kunnen worden gewijzigd.
 
-* [!UICONTROL **Openbare sleutels**]: Download de juiste openbare sleutel wanneer u de bestemming van het gegevenspakhuis maakt.
+* [!UICONTROL **Openbare sleutels**]: Download de aangewezen openbare sleutel wanneer het creëren van de bestemming van het gegevenspakhuis.
 
 #### Locatievelden
 
-* [!UICONTROL **Locatienaam**]: De naam van de locatie op de SFTP-account waarnaar u bestanden wilt verzenden.
+* [!UICONTROL **naam van de Plaats**]: De naam van de plaats op de rekening SFTP waar u verzonden dossiers wilt.
 
-* [!UICONTROL **Locatiebeschrijving**]: Een beschrijving van de locatie op de SFTP-account.
+* [!UICONTROL **beschrijving van de Plaats**]: Een beschrijving van de plaats op de rekening SFTP.
 
-* [!UICONTROL **Directorypad**]: Het pad naar de locatie op de SFTP-account.
+* [!UICONTROL **de weg van de Folder**]: De weg aan de plaats op de rekening SFTP.
 
-Voor extra informatie over configuratie SFTP, zie [Data Warehouse-aanvragen naar SFTP-servers verzenden](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
+Voor extra informatie over configuratie SFTP, zie [ verzoeken van de Data Warehouse naar servers SFTP verzenden ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 
-U kunt opslaggegevens rechtstreeks naar Amazon S3 emmers verzenden. Dit bestemmingstype vereist een naam van het Emmertje, een Zeer belangrijke identiteitskaart van de Toegang, en een Geheime Sleutel. Zie [Amazon S3-vereisten voor emmernaamgeving](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in de Amazon S3-documenten voor meer informatie.
+U kunt opslaggegevens rechtstreeks naar Amazon S3 emmers verzenden. Dit bestemmingstype vereist een naam van het Emmertje, een Zeer belangrijke identiteitskaart van de Toegang, en een Geheime Sleutel. Zie [ Amazon S3 emmer noemende vereisten ](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) binnen Amazon S3 docs voor meer informatie.
 
-De gebruiker u voor het uploaden gegevens van het gegevenspakhuis verstrekt moet het volgende hebben: [machtigingen](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+De gebruiker u voor het uploaden van gegevens van het gegevenspakhuis verstrekt moet de volgende [ toestemmingen ](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) hebben:
 
 * s3:GetObject
 * s3:PutObject
@@ -309,7 +315,7 @@ De volgende 16 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het j
 
 ### Azure Blob
 
-De steun van het pakhuis van gegevens Azure Blob bestemmingen. Hiervoor is een container, account en sleutel vereist. Amazon versleutelt de gegevens automatisch in rust. Wanneer u de gegevens downloadt, worden deze automatisch gedecodeerd. Zie [Een opslagaccount maken](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in de Microsoft Azure-documenten voor meer informatie.
+De steun van het pakhuis van gegevens Azure Blob bestemmingen. Hiervoor is een container, account en sleutel vereist. Amazon versleutelt de gegevens automatisch in rust. Wanneer u de gegevens downloadt, worden deze automatisch gedecodeerd. Zie [ een opslagrekening ](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) binnen Microsoft Azure documenten voor meer informatie creëren.
 
 >[!NOTE]
 >
