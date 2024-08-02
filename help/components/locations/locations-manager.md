@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Locatiebeheer
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -15,38 +15,38 @@ ht-degree: 0%
 
 Met Locations Manager kunt u accounts en locaties weergeven, maken, bewerken of verwijderen. Deze kunnen voor elk van de volgende doeleinden worden gebruikt:
 
-* Bestanden exporteren met [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md)
-* Rapporten exporteren met [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Schema&#39;s importeren met [Classificatiesets](/help/components/classifications/sets/overview.md)
+* Het uitvoeren van dossiers gebruikend [ Diefstal van Gegevens ](/help/export/analytics-data-feed/create-feed.md)
+* Het uitvoeren van rapporten gebruikend [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Het invoeren van schema&#39;s gebruikend [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md)
 
 ## Locaties weergeven, filteren en zoeken
 
 De manager van de Plaats staat u toe om het even welke plaatsen te bekijken die u creeerde of om het even welke die met de organisatie worden gedeeld. Systeembeheerders kunnen locaties weergeven die door alle gebruikers zijn gemaakt, ongeacht of ze worden gedeeld.
 
-1. Als u Locations Manager wilt openen in Adobe Analytics, selecteert u **[!UICONTROL Components]** > **[!UICONTROL Locations]**.
+1. Selecteer **[!UICONTROL Components]** > **[!UICONTROL Locations]** om Locations Manager te openen in Adobe Analytics.
 
-1. (Voorwaardelijk) Als u een systeembeheerder bent, kunt u de [!UICONTROL **Locaties voor alle gebruikers weergeven**] om locaties weer te geven die door alle gebruikers in uw organisatie zijn gemaakt. <!-- Maybe add a screenshot? This is new functionality -->
+1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **plaatsen van de Mening voor alle gebruikers**] optie toelaten om plaatsen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd. <!-- Maybe add a screenshot? This is new functionality -->
 
 1. Filter of zoek in de lijst met locaties:
 
-   * **Filter:** Selecteer het pictogram Filter om de lijst met locaties te filteren.
+   * **Filter:** selecteer het pictogram van de Filter om de lijst van plaatsen te filtreren.
 
-     U kunt locaties filteren op **[!UICONTROL Location Type]**, **[!UICONTROL Account]**, of **[!UICONTROL Created By]**.
+     U kunt locaties filteren op **[!UICONTROL Location Type]** , **[!UICONTROL Account]** of **[!UICONTROL Created By]** .
 
-     ![Locatiefilters](assets/locations-filters.png)
+     ![ de filters van Plaatsen ](assets/locations-filters.png)
 
-   * **Zoeken:** Typ in het zoekveld de naam van de locatie die u wilt weergeven. De resultaten worden gefilterd terwijl u typt. De volgende kolommen worden doorzocht: **Locatienaam**, **Locatietype**, **Account**, en **Gemaakt door**.
+   * **Onderzoek:** op het onderzoeksgebied, begin typend de naam van de plaats u wilt bekijken. De resultaten worden gefilterd terwijl u typt. De volgende kolommen worden gezocht: **Naam van de Plaats**, **Type van Plaats**, **Rekening**, en **die door** wordt gecreeerd.
 
-1. (Optioneel) Als u meer dan 1000 locaties hebt, is alleen het eerste beeldscherm van 1000 pixels beschikbaar. Selecteren [!UICONTROL **Meer laden**] om 1.000 meer plaatsen te laden.
+1. (Optioneel) Als u meer dan 1000 locaties hebt, is alleen het eerste beeldscherm van 1000 pixels beschikbaar. Selecteer [!UICONTROL **Lading meer**] om 1.000 meer plaatsen te laden.
 
 ## Kolommen configureren in Locatiebeheer
 
-De volgende kolommen zijn beschikbaar in Locations Manager. Als u de kolommen wilt aanpassen die in de tabel worden weergegeven, selecteert u de optie **Tabel aanpassen** pictogram ![Tabelpictogram aanpassen](assets/customize-table-icon.png).
+De volgende kolommen zijn beschikbaar in Locations Manager. Om de kolommen aan te passen die in de lijst worden getoond, selecteer **aanpassen lijst** pictogram ![ aanpassen lijstpictogram ](assets/customize-table-icon.png).
 
-* **[!UICONTROL Location name]**: De naam van de locatie. Selecteer het menu met drie punten naast een locatienaam om [de locatie bewerken](/help/components/locations/configure-import-locations.md) of verwijder het.
+* **[!UICONTROL Location name]**: De naam van de locatie. Selecteer het 3 punt menu naast een plaatsnaam om of [ de plaats ](/help/components/locations/configure-import-locations.md) uit te geven of het te schrappen.
 * **[!UICONTROL Location type]**: Het type account dat aan de locatie is gekoppeld.
 * **[!UICONTROL Account]**: De specifieke account die aan de locatie is gekoppeld.
-* **Toepassing**: Het type toepassing waarmee de locatie kan worden gebruikt (zoals Gegevensfeeds, Data Warehouse of Classificatiesets).
+* **Toepassing**: Het type van toepassing dat de plaats kan worden gebruikt met (zoals de Diefenen van Gegevens, Data Warehouse, of de reeksen van de Classificatie).
 * **[!UICONTROL Last used]**: De datum waarop de locatie voor het laatst is gebruikt.
 * **[!UICONTROL Created by]**: De gebruiker die de locatie heeft gemaakt.
 * **[!UICONTROL Date created]**: De datum waarop de locatie is gemaakt.
@@ -57,7 +57,7 @@ U kunt locaties maken, bewerken en verwijderen.
 
 ### Een locatie maken
 
-Voor informatie over het maken van een locatie raadpleegt u [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
+Voor informatie over hoe te om een plaats tot stand te brengen, zie [ de invoer van de wolk en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md) vormen.
 
 <!-- Do I need to add some steps here about how to create a location and then assign that location to be used with DF, DW, or Classifications sets? Need to hear back from Ron and team whether we are including this functionality -->
 
@@ -65,7 +65,7 @@ Voor informatie over het maken van een locatie raadpleegt u [Locaties voor het i
 
 Een locatie kan alleen worden bewerkt door de gebruiker die de locatie heeft gemaakt of door een systeembeheerder.
 
-Zie voor informatie over het bewerken van een locatie [Locaties voor het importeren en exporteren van cloud configureren](/help/components/locations/configure-import-locations.md).
+Voor informatie over hoe te om een plaats uit te geven, zie [ de invoer van de wolk en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md) vormen.
 
 ### Een locatie verwijderen
 
@@ -73,17 +73,17 @@ Zie voor informatie over het bewerken van een locatie [Locaties voor het importe
 >
 >Als een plaats wordt geschrapt, zullen om het even welke dossiers van de Invoer van Gegevens, rapporten van de Data Warehouse, of de schema&#39;s van de classificatiereeksen die met de geschrapte plaats worden geassocieerd de volgende tijd ontbreken zij worden gebruikt.
 >
->Als u een locatie verwijdert, moet u [uw gegevensfeeds bewerken](/help/export/analytics-data-feed/create-feed.md), [Rapporten Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), en [Schema&#39;s voor classificatiesets](/help/components/classifications/sets/manage/schema.md) om een functionerende locatie te gebruiken.
+>Als u een plaats schrapt, zou u [ uw Diefen van Gegevens ](/help/export/analytics-data-feed/create-feed.md) moeten uitgeven, [ rapporten van de Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), en [ de plaatsingsschema&#39;s van de Classificatie ](/help/components/classifications/sets/manage/schema.md) om een werkende plaats te gebruiken.
 
 Een locatie kan alleen worden verwijderd door de gebruiker die de locatie heeft gemaakt of door een systeembeheerder.
 
 Een locatie verwijderen in Locations Manager in Adobe Analytics:
 
-1. Selecteren **[!UICONTROL Components]** > **[!UICONTROL Locations]** en selecteert u vervolgens de [!UICONTROL **Locaties**] tab.
+1. Selecteer **[!UICONTROL Components]** > **[!UICONTROL Locations]**, dan selecteren de [!UICONTROL **Plaatsen**] tabel.
 
-1. Selecteer het menu met drie punten in het dialoogvenster [!UICONTROL **Locatienaam**] kolom voor de locatie die u wilt verwijderen.
+1. Selecteer het 3 puntmenu in de [!UICONTROL **naam van de Plaats**] kolom voor de plaats die u wilt schrappen.
 
-1. Selecteren [!UICONTROL **Verwijderen**].
+1. Selecteer [!UICONTROL **Schrapping**].
 
 ## Accounts maken en beheren
 
@@ -91,87 +91,87 @@ U kunt accounts maken, bewerken en verwijderen.
 
 ### Een account maken
 
-Voor informatie over het maken van een account raadpleegt u [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md).
+Voor informatie over hoe te om een rekening tot stand te brengen, zie [ de invoer van de wolk en de uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md) vormen.
 
 ### Een account bewerken
 
 Een account kan alleen worden bewerkt door de gebruiker die het heeft gemaakt of door een systeembeheerder.
 
-Voor informatie over het bewerken van een account raadpleegt u [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md).
+Voor informatie over hoe te om een rekening uit te geven, zie [ de invoer van de wolk en de uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md) vormen.
 
 ### Accountsleutels weergeven
 
-Nadat u een account hebt gemaakt, kunt u de accountsleutels voor dat account bekijken. Mogelijk moet u deze informatie weergeven als u de account niet hebt geconfigureerd bij uw cloud provider wanneer u [oorspronkelijk geconfigureerd voor de account](/help/components/locations/configure-import-accounts.md).
+Nadat u een account hebt gemaakt, kunt u de accountsleutels voor dat account bekijken. U zou deze informatie kunnen moeten bekijken als u niet klaar was met het vormen van de rekening met uw wolkenleverancier toen u [ oorspronkelijk de rekening ](/help/components/locations/configure-import-accounts.md) vormde.
 
 Aan menings sleutels verbonden aan een de uitvoerrekening:
 
-1. Selecteer in Adobe Analytics **[!UICONTROL Components]** > **[!UICONTROL Locations]** en selecteert u vervolgens de [!UICONTROL **Locatieaccounts**] tab.
+1. In Adobe Analytics, selecteer **[!UICONTROL Components]** > **[!UICONTROL Locations]**, dan selecteren de [!UICONTROL **rekeningen van de Plaats**] tabel.
 
-1. (Voorwaardelijk) Als u een systeembeheerder bent, kunt u de [!UICONTROL **Locaties voor alle gebruikers weergeven**] om locaties weer te geven die door alle gebruikers in uw organisatie zijn gemaakt. <!-- Maybe add a screenshot? This is new functionality -->
+1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **plaatsen van de Mening voor alle gebruikers**] optie toelaten om plaatsen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd. <!-- Maybe add a screenshot? This is new functionality -->
 
-1. Selecteer het pictogram met drie punten op de account die u wilt bewerken en selecteer vervolgens [!UICONTROL **Accountsleutels**].
+1. Selecteer het pictogram met drie punten op de rekening die u wilt uitgeven, dan selecteren [!UICONTROL **sleutels van de Rekening**].
 
 ### Een account verwijderen
 
 >[!IMPORTANT]
 >
->Accounts kunnen alleen worden verwijderd als er geen locaties zijn die deze gebruiken. Voordat u een account verwijdert, moet u eerst alle locaties op de account verwijderen, zoals beschreven in [Een locatie verwijderen](#delete-a-location).
+>Accounts kunnen alleen worden verwijderd als er geen locaties zijn die deze gebruiken. Alvorens u een rekening schrapt, moet u om het even welke plaatsen op de rekening eerst schrappen, zoals die in [ wordt beschreven een plaats ](#delete-a-location) schrappen.
 
 Een account kan alleen worden verwijderd door de gebruiker die het heeft gemaakt of door een systeembeheerder.
 
 Een account verwijderen:
 
-1. Selecteer in Adobe Analytics **[!UICONTROL Components]** > **[!UICONTROL Locations]** en selecteert u vervolgens de [!UICONTROL **Locatieaccounts**] tab.
+1. In Adobe Analytics, selecteer **[!UICONTROL Components]** > **[!UICONTROL Locations]**, dan selecteren de [!UICONTROL **rekeningen van de Plaats**] tabel.
 
-1. (Voorwaardelijk) Als u een systeembeheerder bent, kunt u de [!UICONTROL **Accounts weergeven voor alle gebruikers**] om locaties weer te geven die door alle gebruikers in uw organisatie zijn gemaakt.
+1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **rekeningen van de Mening voor alle gebruikers**] optie toelaten om plaatsen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
 
-1. Selecteer het pictogram met drie punten op de account die u wilt bewerken en selecteer vervolgens [!UICONTROL **Account verwijderen**]
+1. Selecteer het pictogram met drie punten op de rekening die u wilt uitgeven, dan selecteren [!UICONTROL **rekening van de Schrapping**]
 
 ## Bedrijfsbrede instellingen configureren (alleen beheerders)
 
 Systeembeheerders kunnen gebruikers beperken bij het maken van accounts en locaties, of ze kunnen de typen accounts beperken die gebruikers kunnen maken en gebruiken.
 
-![Tabblad Beheerinstellingen](assets/locations-admin-settings.png)
+![ Admin montages tabel ](assets/locations-admin-settings.png)
 
 ### Configureren of gebruikers accounts kunnen maken en bewerken
 
-Standaard kunnen alle gebruikers in de organisatie accounts maken en bewerken die ze in uw Adobe Analytics-omgeving maken, zoals wordt beschreven in [cloud-import- en -exportaccounts configureren](/help/components/locations/configure-import-accounts.md).
+Door gebrek, kunnen alle gebruikers in de organisatie rekeningen tot stand brengen en rekeningen uitgeven die zij in uw milieu van Adobe Analytics creëren, zoals die in [ wordt beschreven vormt wolkinvoer en de uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md).
 
-U kunt voorkomen dat gebruikers accounts maken. Wanneer u dat doet, kunnen gebruikers nog steeds accounts gebruiken die ze al hebben gemaakt, maar ze kunnen ze niet meer bewerken. U kunt accounts verwijderen die gebruikers hebben gemaakt, zoals wordt beschreven in [Een account verwijderen](#delete-an-account).
+U kunt voorkomen dat gebruikers accounts maken. Wanneer u dat doet, kunnen gebruikers nog steeds accounts gebruiken die ze al hebben gemaakt, maar ze kunnen ze niet meer bewerken. U kunt rekeningen schrappen die de gebruikers hebben gecreeerd, zoals die in [ wordt beschreven een rekening ](#delete-an-account) schrappen.
 
 Alle gebruikers beperken in het maken en bewerken van accounts:
 
-1. Selecteer in Adobe Analytics **[!UICONTROL Components]** > **[!UICONTROL Locations]** en selecteert u vervolgens de [!UICONTROL **Beheerinstellingen**] tab.
+1. In Adobe Analytics, selecteer **[!UICONTROL Components]** > **[!UICONTROL Locations]**, dan selecteren de [!UICONTROL **montages Admin**] tabel.
 
-1. In de [!UICONTROL **Locatierekeningen**] de optie uit, [!UICONTROL **Gebruikers toestaan om locatierekeningen te maken en te beheren**].
+1. In de [!UICONTROL **rekeningen van Plaatsen**] sectie, schrap de optie, [!UICONTROL **staat gebruikers toe om plaatsrekeningen**] tot stand te brengen en te beheren.
 
-1. Selecteren [!UICONTROL **Opslaan**].
+1. Selecteer [!UICONTROL **sparen**].
 
-1. (Optioneel) Verwijder alle accounts die gebruikers hebben gemaakt en die u niet langer wilt gebruiken, zoals beschreven in [Een account verwijderen](#delete-an-account).
+1. (Facultatief) Schrap om het even welke rekeningen die de gebruikers hebben gecreeerd die u hen niet meer wilt gebruiken, zoals die in [ wordt beschreven een rekening ](#delete-an-account) schrappen.
 
 ### Configureren of gebruikers locaties kunnen maken en bewerken
 
-Standaard kunnen alle gebruikers in de organisatie locaties maken en hun locaties bewerken in uw Adobe Analytics-omgeving, zoals wordt beschreven in [cloudimport- en exportlocaties configureren](/help/components/locations/configure-import-locations.md).
+Door gebrek, kunnen alle gebruikers in de organisatie plaatsen tot stand brengen en plaatsen uitgeven zij in uw milieu van Adobe Analytics creëren, zoals die in [ wordt beschreven vormt wolkinvoer en uitvoerplaatsen ](/help/components/locations/configure-import-locations.md).
 
-U kunt voorkomen dat gebruikers locaties maken. Wanneer u dat doet, kunnen gebruikers nog steeds alle locaties gebruiken die ze al hebben gemaakt, maar kunnen ze ze niet meer bewerken. U kunt locaties verwijderen die gebruikers hebben gemaakt, zoals wordt beschreven in [Locaties verwijderen](#delete-a-location).
+U kunt voorkomen dat gebruikers locaties maken. Wanneer u dat doet, kunnen gebruikers nog steeds alle locaties gebruiken die ze al hebben gemaakt, maar kunnen ze ze niet meer bewerken. U kunt plaatsen schrappen die de gebruikers hebben gecreeerd, zoals die in [ worden beschreven plaats van de Schrapping ](#delete-a-location).
 
 Alle gebruikers beperken van het maken en bewerken van locaties:
 
-1. Selecteer in Adobe Analytics **[!UICONTROL Components]** > **[!UICONTROL Locations]** en selecteert u vervolgens de [!UICONTROL **Beheerinstellingen**] tab.
+1. In Adobe Analytics, selecteer **[!UICONTROL Components]** > **[!UICONTROL Locations]**, dan selecteren de [!UICONTROL **montages Admin**] tabel.
 
-1. In de [!UICONTROL **Locaties**] de optie uit, [!UICONTROL **Gebruikers toestaan locaties te maken en te beheren**].
+1. In de [!UICONTROL **sectie van Plaats**], schrap de optie, [!UICONTROL **staat gebruikers toe om plaatsen**] tot stand te brengen en te leiden.
 
-1. Selecteren [!UICONTROL **Opslaan**].
+1. Selecteer [!UICONTROL **sparen**].
 
-1. (Optioneel) Verwijder alle locaties die gebruikers hebben gemaakt en die u niet langer wilt gebruiken, zoals beschreven in [Een locatie verwijderen](#delete-a-location).
+1. (Facultatief) Schrap om het even welke plaatsen die de gebruikers hebben gecreeerd die u hen niet meer wilt gebruiken, zoals die in [ wordt beschreven Schrap een plaats ](#delete-a-location).
 
 ### Beperken welke accounttypen gebruikers kunnen maken en gebruiken
 
 U kunt de accounttypen beperken die gebruikers zien in de volgende omstandigheden:
 
-* Wanneer [nieuwe accounts maken](/help/components/locations/configure-import-accounts.md).
+* Wanneer [ het creëren van nieuwe rekeningen ](/help/components/locations/configure-import-accounts.md).
 
-* Wanneer u kiest welke accounts moeten worden gebruikt bij het exporteren van bestanden met [Gegevensfeeds](/help/export/analytics-data-feed/create-feed.md), rapporten exporteren met [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)of schema&#39;s importeren met [Classificatiesets](/help/components/classifications/sets/overview.md).
+* Wanneer het kiezen van welke rekeningen om te gebruiken wanneer het uitvoeren van dossiers die [ de Eigen van Gegevens ](/help/export/analytics-data-feed/create-feed.md) gebruiken, het uitvoeren van rapporten gebruikend [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), of het invoeren van schema&#39;s gebruikend [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
 Wanneer u accounttypen beperkt zoals beschreven in deze sectie, zijn accounts van het type dat u beperkt, niet meer zichtbaar voor gebruikers. Dit betekent dat er geen nieuwe accounts van dat type kunnen worden gemaakt en dat bestaande accounts van dat type niet kunnen worden gebruikt bij het maken van gegevensfeeds, Data Warehouse of classificatiesets.
 
@@ -183,27 +183,29 @@ Wanneer u accounttypen beperkt, worden bestaande accounts verborgen en niet verw
 
 Als de programma&#39;s reeds worden gevormd om gegevens naar een rekening te verzenden die van het type is dat u beperkt, zullen de programma&#39;s blijven lopen zelfs nadat u het accounttype beperkt, en de gegevens zullen blijven worden verzonden naar de rekening.  Als bijvoorbeeld een gegevensfeed is gepland voor het verzenden van gegevens naar een accounttype dat u beperkt, wordt het schema voortgezet.
 
-Als u ervoor moet zorgen dat accounts van een bepaald type niet worden gebruikt in geplande exportbewerkingen, kunt u de accounts verwijderen voordat u [accounttypen beperken](#limit-the-account-types-that-are-available-to-users).
+Als u moet ervoor zorgen dat de rekeningen van een bepaald type niet in geplande uitvoer worden gebruikt, kunt u de rekeningen schrappen alvorens u [ de accounttypes ](#limit-the-account-types-that-are-available-to-users) beperkt.
 
 Accounts verwijderen:
 
 1. Zoek de accounts van het accounttype dat u wilt beperken. Deze worden gebruikt voor geplande exportbewerkingen.
 
-1. De accounts verwijderen zoals wordt beschreven in [Een account verwijderen](#delete-an-account).
+1. Schrap de rekeningen, zoals die in [ worden beschreven Schrap een rekening ](#delete-an-account).
 
-1. Ga verder met de volgende sectie: [De accounttypen beperken die beschikbaar zijn voor gebruikers](#limit-the-account-types-that-are-available-to-users).
+1. Ga met de volgende sectie verder, [ Beperk de rekeningstypes die aan gebruikers ](#limit-the-account-types-that-are-available-to-users) beschikbaar zijn.
 
 #### De accounttypen beperken die beschikbaar zijn voor gebruikers
 
 U kunt als volgt de accounttypen beperken die beschikbaar zijn voor gebruikers bij het maken en gebruiken van accounts:
 
-1. Selecteer in Adobe Analytics **[!UICONTROL Components]** > **[!UICONTROL Locations]** en selecteert u vervolgens de [!UICONTROL **Beheerinstellingen**] tab.
+1. In Adobe Analytics, selecteer **[!UICONTROL Components]** > **[!UICONTROL Locations]**, dan selecteren de [!UICONTROL **montages Admin**] tabel.
 
-1. Zoek de [!UICONTROL **Toegestane accounttypen**] sectie.
+1. Bepaal de plaats van [!UICONTROL **Toegelaten accounttypes**] sectie.
 
    De volgende accounttypen zijn standaard beschikbaar voor gebruikers. Schakel een van deze accounttypen uit die u gebruikers wilt beperken.
 
-   * [!UICONTROL **Amazon S3 Role ARN**]
+   Er moet ten minste één accounttype zijn geselecteerd.
+
+   * [!UICONTROL **Amazon S3 Rol ARN**]
 
    * [!UICONTROL **Google Cloud Platform**]
 
@@ -213,8 +215,8 @@ U kunt als volgt de accounttypen beperken die beschikbaar zijn voor gebruikers b
 
    * [!UICONTROL **E-mail**]
 
-   * Oudere accounttypen, waaronder [!UICONTROL **Amazon S3**], [!UICONTROL **Azure**], [!UICONTROL **FTP**], en [!UICONTROL **SFTP**]
+   * Verouderde rekeningstypes, met inbegrip van [!UICONTROL **Amazon S3**], [!UICONTROL **Azure**], [!UICONTROL **FTP**], en [!UICONTROL **SFTP**]
 
-1. Selecteren [!UICONTROL **Opslaan**].
+1. Selecteer [!UICONTROL **sparen**].
 
 
