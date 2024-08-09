@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Cloud-import- en exportaccounts configureren
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 6cf277667230a56da9793deb550df1980f1d33b0
+source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 0%
@@ -140,7 +140,7 @@ Een cloudimport- of -exportaccount configureren:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Gastheer**] | Voer de gewenste FTP-doel-URL in. Bijvoorbeeld `ftp://ftp.omniture.com` . |
+   | [!UICONTROL **Gastheer**] | Voer de gewenste FTP-doel-URL in. Bijvoorbeeld `ftp.adobe.com` . |
    | [!UICONTROL **Weg**] | Kan leeg blijven. |
    | [!UICONTROL **Gebruikersnaam**] | Voer de gebruikersnaam in die u wilt aanmelden bij de FTP-site. |
    | [!UICONTROL **Wachtwoord en bevestig wachtwoord**] | Voer het wachtwoord in om u aan te melden bij de FTP-site. |
