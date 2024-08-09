@@ -3,20 +3,20 @@ title: Betaalde zoekgegevens importeren
 description: Stappen om Adobe Analytics te configureren voor het bijhouden van uw betaalde zoekgegevens (bijvoorbeeld Google AdWords, MSN, Yahoo, enz.) gegevensbronnen gebruiken.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
 
-# Importeren [!UICONTROL Paid Search] meetgegevens gebruiken [!UICONTROL Data Sources]
+# [!UICONTROL Paid Search] metriek importeren met [!UICONTROL Data Sources]
 
-Voor veel marketingorganisaties is betaalde zoekopdrachten een van de meest waardevolle en betrouwbare manieren &#x200B; nieuwe klanten te bereiken en bestaande klanten te behouden. De [!UICONTROL Data Sources] in Adobe Analytics is het gemakkelijk om geavanceerde betaalde zoekgegevens te importeren van digitale advertentieplatforms zoals Google AdWords. U kunt het met de rest van uw marketing gegevens, naast het gedrag en de gegevens van de klantenattributen ter plaatse integreren, om u betere inzichten in de betaalde onderzoeksinspanningen van uw organisatie toe te staan.
+Voor veel marketingorganisaties is betaalde zoekopdrachten een van de meest waardevolle en betrouwbare manieren &#x200B; nieuwe klanten te bereiken en bestaande klanten te behouden. Met de [!UICONTROL Data Sources] -functie in Adobe Analytics kunt u eenvoudig geavanceerde, betaalde zoekgegevens importeren van digitale advertentieplatforms zoals Google AdWords. U kunt het met de rest van uw marketing gegevens, naast het gedrag en de gegevens van de klantenattributen ter plaatse integreren, om u betere inzichten in de betaalde onderzoeksinspanningen van uw organisatie toe te staan.
 
 Deze stappen tonen u hoe te om een integratie met AdWords te vormen om sleutelwoordgegevens evenals metriek zoals impressies, kliks, kosten per klik, en meer in te voeren.
 
-In de stappen wordt uitgelegd hoe u een eenmalige import van gegevens met een pay-per-click instelt. Maar [!UICONTROL Data Sources] Hiermee kunt u gegevens blijven importeren in de bestandsindeling die hier wordt beschreven. Afhankelijk van uw betaalde zoekplatform kunt u mogelijk periodieke exportbewerkingen (dagelijks, maandelijks, enz.) plannen, geautomatiseerde processen instellen om deze exportbewerkingen om te zetten in de bestandsindeling die Adobe Analytics nodig heeft, en deze bestanden uploaden naar Adobe Analytics voor de rapportage van betaalde zoekintegratie.
+In de stappen wordt uitgelegd hoe u een eenmalige import van gegevens met een pay-per-click instelt. In [!UICONTROL Data Sources] kunt u echter gegevens blijven importeren in de bestandsindeling die hier wordt beschreven. Afhankelijk van uw betaalde zoekplatform kunt u mogelijk periodieke exportbewerkingen (dagelijks, maandelijks, enz.) plannen, geautomatiseerde processen instellen om deze exportbewerkingen om te zetten in de bestandsindeling die Adobe Analytics nodig heeft, en deze bestanden uploaden naar Adobe Analytics voor de rapportage van betaalde zoekintegratie.
 
 ## Vereisten
 
@@ -28,56 +28,57 @@ In de stappen wordt uitgelegd hoe u een eenmalige import van gegevens met een pa
 
 Onze eerste stap is om Adobe Analytics voor te bereiden op het ontvangen van de cijfers. Hiervoor moet u een aantal succesgebeurtenissen instellen.
 
-[!UICONTROL Success events] zijn handelingen die kunnen worden bijgehouden. U bepaalt wat een [!UICONTROL success event] is. Voor het bijhouden van gegevens [!UICONTROL paid search] metriek, willen wij opstelling [!UICONTROL success events] rond [!UICONTROL clicks], [!UICONTROL impressions], [!UICONTROL total cost] en[!UICONTROL tracking codes].
+[!UICONTROL Success events] zijn handelingen die kunnen worden bijgehouden. U bepaalt wat een [!UICONTROL success event] is. Voor het bijhouden van [!UICONTROL paid search] -metriek willen we [!UICONTROL success events] rondom [!UICONTROL clicks] , [!UICONTROL impressions] [!UICONTROL total cost] instellen en [!UICONTROL tracking codes] inschakelen.
 
-1. Ga naar **[!UICONTROL Adobe Analytics > Admin > Report Suites]**.
+1. Ga naar **[!UICONTROL Adobe Analytics > Admin > Report Suites]** .
 1. Selecteer een rapportsuite.
 1. Klik op **[!UICONTROL Edit Settings > Conversion > Success Events]**.
 
-   ![Gebeurtenissen geslaagd](assets/success-events.png)
+   ![ Gebeurtenissen van het Succes ](assets/success-events.png)
 
-1. Gebruik onder Gebeurtenissen van Aangepast succes **[!UICONTROL Add New]** om 3 aangepaste succesgebeurtenissen te maken: [!UICONTROL Clicks] (Teller), [!UICONTROL Impressions] (Teller) en [!UICONTROL Total Cost] (Valuta).
+1. Gebruik **[!UICONTROL Add New]** onder Aangepaste succesgebeurtenissen om 3 aangepaste succesgebeurtenissen te maken: [!UICONTROL Clicks] (Teller), [!UICONTROL Impressions] (Teller) en [!UICONTROL Total Cost] (Valuta).
 
-   ![Nieuwe succesgebeurtenis](assets/new-success-events.png)
+   ![ Nieuwe succesgebeurtenis ](assets/new-success-events.png)
 
 1. Klik op Opslaan.
 Je ontvangt een bericht dat je bespaart is goedgekeurd.
-1. Navigeren naar **[!UICONTROL Admin > Report Suites > Edit Settings > Conversion > Conversion Variables]**.
-1. Trackingcodes inschakelen door het selectievakje naast **[!UICONTROL Tracking Code]** krachtens **[!UICONTROL Campaign > Campaign Variable]**.
+1. Navigeer naar **[!UICONTROL Admin > Report Suites > Edit Settings > Conversion > Conversion Variables]** .
+1. Schakel volgcodes in door het selectievakje naast **[!UICONTROL Tracking Code]** onder **[!UICONTROL Campaign > Campaign Variable]** in te schakelen.
 
-   ![Campagne-variabele](assets/campaign-variable.png)
+   ![ variabele van de Campagne ](assets/campaign-variable.png)
 
 ## Gegevensbronnen instellen
 
-[!UICONTROL Data Sources] kunt u niet-klikstreamgegevens delen met Adobe Analytics. In dit geval gebruiken we Adobe Analytics om betaalde zoekgegevens bij te houden. We gebruiken de trackingcode als onze sleutel om de twee stukken gegevens - betaalde zoekgegevens en Adobe Analytics-meetgegevens - samen te voegen.
+Met [!UICONTROL Data Sources] kunt u niet-klikstreamgegevens delen met Adobe Analytics. In dit geval gebruiken we Adobe Analytics om betaalde zoekgegevens bij te houden. We gebruiken de trackingcode als onze sleutel om de twee stukken gegevens - betaalde zoekgegevens en Adobe Analytics-meetgegevens - samen te voegen.
 
-1. Navigeren naar **[!UICONTROL Adobe Analytics > Admin > All admin > Data sources]**.
-1. Selecteer de **[!UICONTROL Create]** gebruiken om nieuwe gegevensbronnen te activeren.
-1. Onder **[!UICONTROL Select Category]**, selecteert u **[!UICONTROL Ad Campaign]**.
+1. Navigeer naar **[!UICONTROL Adobe Analytics > Admin > All admin > Data sources]** .
+1. Selecteer het tabblad **[!UICONTROL Create]** om nieuwe gegevensbronnen te activeren.
+1. Selecteer onder **[!UICONTROL Select Category]** de optie **[!UICONTROL Ad Campaign]** .
 
    ![Databronnen](assets/data-sources.png)
 
-1. Onder **[!UICONTROL Select Type]**, selecteert u **[!UICONTROL Generic Pay-Per-Click Service]**.
-1. Klikken **[!UICONTROL Activate]**.
-De [!UICONTROL Data Source Activation Wizard] weergaven:
+1. Selecteer onder **[!UICONTROL Select Type]** de optie **[!UICONTROL Generic Pay-Per-Click Service]** .
+1. Klik op **[!UICONTROL Activate]** .
+In [!UICONTROL Data Source Activation Wizard] wordt het volgende weergegeven:
 
-   ![Wizard Activering](assets/ds-activation-wizard.png)
+   ![ Tovenaar van de Activering ](assets/ds-activation-wizard.png)
 
-1. Klikken **[!UICONTROL Next]** en geef uw gegevensbron een naam. Deze naam wordt weergegeven in Gegevensbronbeheer.
-1. Accepteer de serviceovereenkomst en klik op **[!UICONTROL Next]**.
-1. Selecteer de drie standaardmetriek: [!UICONTROL Impressions], [!UICONTROL Clicks] en [!UICONTROL Total Cost] en klik op **[!UICONTROL Next]**.
-1. Nu &quot;kaart&quot;deze nieuwe gegevensbron aan de douanegebeurtenissen die wij binnen creeerden [Succesgebeurtenissen configureren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
+1. Klik op **[!UICONTROL Next]** en geef de gegevensbron een naam. Deze naam wordt weergegeven in Data Source Manager.
+1. Accepteer de serviceovereenkomst en klik op **[!UICONTROL Next]** .
+1. Selecteer de drie standaardmetriek: [!UICONTROL Impressions] , [!UICONTROL Clicks] en [!UICONTROL Total Cost] en klik op **[!UICONTROL Next]** .
+1. Nu &quot;kaart&quot;deze nieuwe gegevensbron aan de douanegebeurtenissen die wij in [ gebeurtenissen van het Succes ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) creeerden.
 
-   ![Toewijzing](assets/data-source-mapping.png)
+   ![ Toewijzing ](assets/data-source-mapping.png)
 
-1. Kies gegevensafmetingen Het selectievakje naast Bijgehouden codes en klik op **[!UICONTROL Next]**.
+1. Gegevensafmetingen kiezen
+Schakel het vakje naast Bijkomende codes in en klik op **[!UICONTROL Next]** .
 1. Dimensionen met kaartgegevens.
-Wijs de geïmporteerde gegevensdimensie (kenmerk) toe aan het Adobe Analytics-kenmerk waarin u het wilt opslaan. Dit kan een standaardafmeting of een eVar zijn. Nadat u op **[!UICONTROL Next]**, worden de resulterende toewijzingen weergegeven in het overzicht:
+Wijs de geïmporteerde gegevensdimensie (kenmerk) toe aan het Adobe Analytics-kenmerk waarin u het wilt opslaan. Dit kan een standaardafmeting of een eVar zijn. Nadat u op **[!UICONTROL Next]** hebt geklikt, worden de resulterende toewijzingen weergegeven in het overzicht:
 
-   ![Samenvatting](assets/data-source-summary.png)
+   ![ Samenvatting ](assets/data-source-summary.png)
 
 1. Klik op **[!UICONTROL Save]**.
-1. Klikken **[!UICONTROL Download]** het sjabloonbestand voor deze gegevensbron downloaden.
+1. Klik op **[!UICONTROL Download]** om het sjabloonbestand voor deze gegevensbron te downloaden.
 De bestandsnaam komt overeen met het type gegevensbron dat u oorspronkelijk hebt opgegeven, in dit geval &quot;Algemene Pay-per-Click service template.txt&quot;.
 1. Open de sjabloon in uw favoriete teksteditor.
 Het bestand is al gevuld met de meetwaarden en afmetingen en de bijbehorende toewijzingen.
@@ -90,17 +91,18 @@ Stappen gelijkend op dit werk voor Google Adwords, MSN, Yahoo, en andere rekenin
 
 1. Meld u aan bij uw PPC-account en maak een nieuw rapport of exporteer het bestand.
 Zorg ervoor dat het exporteren de volgende velden bevat: datum, doel-URL (bestemmingspagina), afbeeldingen, klikken en kosten. Het exporteren kan andere velden bevatten, maar u verwijdert deze door de onderstaande stappen te volgen.
-1. Sla indien mogelijk het rapport op als een `.csv` of door tabs gescheiden bestand. Hierdoor wordt het gemakkelijker om met de volgende stappen te werken.
+1. Sla indien mogelijk het rapport op als een `.csv` - of tabgescheiden bestand. Hierdoor wordt het gemakkelijker om met de volgende stappen te werken.
 1. Open het bestand in Microsoft Excel.
 
 ### Het bestand bewerken in Microsoft Excel
 
 1. Verwijder in Microsoft Excel alle andere kolommen dan de hierboven vermelde.
 1. Verwijder eventuele extra rijen bovenaan.
-1. Om de volgcodes van bestemmingsURLs te isoleren: a. kopieer en deeg gegevens van alle kolommen.
-b. Klik **[!UICONTROL Data > Text to Columns]**.
-c. Controleer in Stap 1 van de wizard of **[!UICONTROL Delimited]** is geselecteerd en klikt u op **[!UICONTROL Next]**.
-d. Geef in Stap 2 van de wizard het scheidingsteken op, afhankelijk van de manier waarop u de URL&#39;s hebt gemaakt (of ? of &amp;) en klik op **[!UICONTROL Next]**.
+1. De volgende codes isoleren van de doel-URL&#39;s:
+a. Kopieer en plak gegevens uit alle kolommen.
+b. Klik op **[!UICONTROL Data > Text to Columns]** .
+c. Controleer of in Stap 1 van de wizard **[!UICONTROL Delimited]** is geselecteerd en klik op **[!UICONTROL Next]** .
+d. Geef in Stap 2 van de wizard het scheidingsteken op, afhankelijk van de manier waarop u de URL&#39;s hebt gemaakt (of ? of &amp;) en klik op **[!UICONTROL Next]** .
 e. In Stap 3 van de tovenaar, voorproef uw gegevens en zorg ervoor dat één van de kolommen &quot;trackingcodename=trackingcode&quot;is. Herhaal deze stappen (met &amp; als scheidingsteken) als u aanvullende variabelen hebt.
 f. Verwijder alle kolommen, behalve voor trackingcodes, afbeeldingen, klikken en kosten. Voeg een nieuwe kolom toe genoemd Datum en organiseer uw kolommen in de volgende orde: Datum:: het Volgen code::: Impressies:: Klik: Kosten.
 1. Voeg deze gegevens aan het malplaatje toe u in de &quot;van de Instelling Gegevensbronnen&quot;sectie hierboven downloadde.
@@ -108,15 +110,15 @@ U kunt het bestand nu uploaden.
 
 ### Bestand uploaden naar Adobe Analytics via FTP
 
-Ga terug naar de wizard Gegevensbron voor instructies en upload het bestand via FTP:
+Ga terug naar de wizard Data Source voor instructies en upload het bestand via FTP:
 
-![FTP uploaden](assets/upload-ftp.png)
+![ uploadt FTP ](assets/upload-ftp.png)
 
 ## Berekende waarden maken
 
 Het toevoegen van berekende metriek zal nuttig zijn wanneer het maken van loon-per-klikbesluiten.
 
-U kunt deze bijvoorbeeld toevoegen [berekende meetwaarden](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics):
+Bijvoorbeeld, kon u deze [ berekende metriek ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics) toevoegen:
 
 | Naam | Formule | Metrisch type | Beschrijving |
 | --- | --- | --- | --- |
@@ -132,8 +134,8 @@ U kunt deze bijvoorbeeld toevoegen [berekende meetwaarden](https://experiencelea
 
 De laatste stap is de gegevensbronmetriek en om het even welke berekende metriek aan het Volgen rapport van de Code toe te voegen en neer in een campagne te boren om een directe mening van te krijgen hoe elke Advertentiegroep presteert.
 
-1. In **[!UICONTROL Adobe Analytics > Reports]** selecteert u de rapportsuite waarin u gegevensbronnen hebt geïmporteerd.
-1. Navigeren naar **[!UICONTROL Reports > Campaigns > Tracking Code > Tracking Code]**.
+1. Selecteer in **[!UICONTROL Adobe Analytics > Reports]** de rapportsuite waarin u gegevensbronnen hebt geïmporteerd.
+1. Navigeer naar **[!UICONTROL Reports > Campaigns > Tracking Code > Tracking Code]** .
 1. Selecteer het datumbereik.
-1. Klikken **[!UICONTROL Metrics > Add]** en voeg uw gegevensbronmetriek (klik, Indruk, Totale Kosten) van de lijst van Standaard Metriek toe.
+1. Klik op **[!UICONTROL Metrics > Add]** en voeg de afmetingen van uw gegevensbron (klikken, Impressies, Totale kosten) toe uit de lijst Standaardstatistieken.
 1. Doe het zelfde voor om het even welke berekende metriek u kunt hebben toegevoegd. Het rapport wordt bijgewerkt terwijl u metriek toevoegt.
