@@ -3,10 +3,10 @@ title: Handleiding voor exporteren van analysemogelijkheden
 description: In deze handleiding worden manieren beschreven om gegevens uit Adobe Analytics op te halen met behulp van gegevensfeeds en Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 62cb13c7eaa61153783ff4323180b549f727e68e
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 67%
+source-wordcount: '178'
+ht-degree: 46%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 67%
 
 In deze handleiding worden manieren beschreven waarop u gegevens uit Adobe Analytics kunt ophalen. Het omvat:
 
-* **Gegevensfeeds:** Een uurs- of dagelijkse export van onbewerkte gegevens ontvangen. Elke rij is een individuele klap, en elke kolom is een variabele. Gegevensfeeds worden doorgaans naar FTP-sites verzonden.
-* **Data Warehouse:** Gebruik een aanvraagwizard om een spreadsheetuitvoer van gegevens op te halen. Het Data Warehouse gebruikt een verschillende verwerkingsarchitectuur om het even welk aantal rijen en om het even welk aantal unieke waarden toe te staan.
-* **FTP en SFTP:** Aanbevolen procedures voor het gebruik van FTP en SFTP met Adobe
+* **Gegevensfeeds:** Een uurs- of dagelijkse export van onbewerkte gegevens ontvangen. Elke rij is een individuele klap, en elke kolom is een variabele. De voer van gegevens wordt typisch verzonden naar [ wolkenbestemmingen ](/help/export/analytics-data-feed/create-feed.md).
+* **Data Warehouse:** Gebruik een aanvraagwizard om een spreadsheetuitvoer van gegevens op te halen. De Data Warehouse gebruikt een verschillende verwerkingsarchitectuur om het even welk aantal rijen en om het even welk aantal unieke waarden toe te staan. De verzoeken van het entrepot van gegevens worden typisch verzonden naar [ wolkenbestemmingen ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* **FTP en SFTP:** FTP en SFTP worden gesteund, maar niet meer geadviseerd. In plaats daarvan exporteert u gegevens naar wolkdoelen.
 
 Hier volgt een video-overzicht van Adobe Analytics:
 
@@ -37,6 +37,6 @@ Hier volgt een video-overzicht van Adobe Analytics:
 ## Belangrijke bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
-* [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [ Gemeenschap van Adobe Analytics op Experience League ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)
