@@ -3,10 +3,10 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ff5067a1f7d500c11737ddae507b431b875a44d9
+source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 14 augustus 2024 tot
 
 | Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **de verbeteringen van SDK van het Web voor verbinding het volgen** | Verschillende opmerkelijke verbeteringen zijn beschikbaar in de nieuwste versie van de SDK van het Web voor het bijhouden van koppelingen, wat de Activity Map rechtstreeks ten goede komt. Deze nieuwe eigenschappen zijn beschikbaar in zowel de bibliotheek van SDK van het Web JavaScript als de de markeringsuitbreiding van SDK van het Web.<ul><li>Gebeurtenisgroepering: wanneer een bezoeker op een interne koppeling klikt, kunt u ervoor kiezen om gebeurtenisgegevens op de volgende pagina te groeperen in plaats van een aparte gebeurtenisaanroep voor het bijhouden van koppelingen te activeren. Deze verbetering vermindert het aantal gebeurtenissen die SDK van het Web tegen uw contractuele grens gebruikt.</li><li>Filter klikt eigenschappen: een nieuwe callback die `OnBeforeLinkClickSend` vervangt. U kunt deze callback aan filter gebruiken of verduisteren verbinding-verwante gegevens alvorens het naar Adobe te verzenden.</li></ul><p>Zie [ clickCollection ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection) in de de gebruikersgids van SDK van het Web voor meer informatie.</p> | Beta openen, 10 juli 2024 | TBD |
+| **de verbeteringen van SDK van het Web voor verbinding het volgen** | Verschillende opmerkelijke verbeteringen zijn beschikbaar in de nieuwste versie van de SDK van het Web voor het bijhouden van koppelingen, wat de Activity Map rechtstreeks ten goede komt. Deze nieuwe eigenschappen zijn beschikbaar in zowel de bibliotheek van SDK van het Web JavaScript als de de markeringsuitbreiding van SDK van het Web.<ul><li>Gebeurtenisgroepering: wanneer een bezoeker op een interne koppeling klikt, kunt u ervoor kiezen om gebeurtenisgegevens op de volgende pagina te groeperen in plaats van een aparte gebeurtenisaanroep voor het bijhouden van koppelingen te activeren. Deze verbetering vermindert het aantal gebeurtenissen die SDK van het Web tegen uw contractuele grens gebruikt.</li><li>Filter klikt eigenschappen: een nieuwe callback die `OnBeforeLinkClickSend` vervangt. U kunt deze callback aan filter gebruiken of verduisteren verbinding-verwante gegevens alvorens het naar Adobe te verzenden.</li></ul><p>Zie [ clickCollection ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection) in de de gebruikersgids van SDK van het Web voor meer informatie.</p> | Beta openen, 10 juli 2024 | vrijdag 18 juli 2024 |
 
 {style="table-layout:auto"}
 
