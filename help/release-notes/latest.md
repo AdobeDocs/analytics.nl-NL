@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
+source-git-commit: f7d36ac8de37633ccbe725865dbaeecee532f47e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '719'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN 
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
-| **13 maanden verlopen van opgeslagen`cust_visids`** | donderdag 22 mei 2024 | Een aanstaande versie van de de verwerkingsmotor van de Hit van Analytics, **voor Juli 2024** wordt gericht, zal beginnen afdwingend een 13 maandenvervaldatum van bewaard `cust_visids`. Als de rapportsuite &#39;Enable Visitor Stitching&#39; heeft ingeschakeld, wordt deze instelling gebruikt om de `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` te vinden op de hit. Er is momenteel geen vervaldatum voor de toewijzing van een `cust_visid` for een `visid_high/visid_low` . Als in deze release 13 maanden of meer zijn verstreken sinds `visid_high/visid_low` een `cust_visid` -resultaat heeft gehad, verloopt de toewijzing. |
+| **13 maanden verlopen van opgeslagen`cust_visids`** | woensdag 20 augustus 2024 | **Augustus 20, 2024**, versie van de de verwerkingsmotor van het Bewerkingsmechanisme van het Bezit van de Analyse dwingt een 13 maanden vervaldatum van bewaard `cust_visids` af. Als de rapportsuite &#39;Enable Visitor Stitching&#39; heeft ingeschakeld, wordt deze instelling gebruikt om de `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` te vinden op de hit. Eerder was er geen vervaldatum van de toewijzing van een `cust_visid` voor een `visid_high/visid_low` . Als in deze release 13 maanden of meer zijn verstreken sinds `visid_high/visid_low` een `cust_visid` -resultaat heeft gehad, verloopt de toewijzing. |
 
 {style="table-layout:auto"}
 
