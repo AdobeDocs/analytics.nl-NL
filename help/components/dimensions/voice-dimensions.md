@@ -2,22 +2,25 @@
 title: De afmetingen van de Steekanalyse
 description: De afmetingen van de Steekanalyse
 feature: Dimensions
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
+source-git-commit: 6a229439c455389b88d5fe96a0366b8888809c02
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 2%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
 # De afmetingen van de Steekanalyse
 
+Wanneer u [!UICONTROL Voice and Chatbots] op [[!UICONTROL Application reporting]](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md) toelaat, worden de volgende afmetingen (en [ metriek ](../metrics/voice-metrics.md)) gecreeerd. U kunt [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contextdata.md) gebruiken om hen aan de gewenste koordwaarde te plaatsen. Wanneer toegelaten in de montages van de rapportreeks, [ worden de regels van de Verwerking ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) automatisch gecreeerd die de dimensies van de stemanalyse van de kaart aan hun bijbehorende variabele van contextgegevens.
+
 | Naam Dimension | Beschrijving | Variabele van contextgegevens |
 | --- | --- | --- |
-| Type spraakfout | | TBD |
-| Spraaktaal | | TBD |
-| Spraakintentie | | TBD |
-| Reactie van Voice-app | | TBD |
-| Spraakverificatie | | TBD |
-| Interesten-ID | | TBD |
+| Type spraakfout | Het type fout dat is aangetroffen. | `a.voiceerrortype` |
+| Spraaktaal | De taal die de gebruiker met uw stem app in wisselwerking staat. | `a.voicelanguage` |
+| Spraakintentie | De opdracht die de gebruiker wil uitvoeren. | `a.voiceintent` |
+| Reactie van Voice-app | De reactie die de stem-app aan de gebruiker heeft geretourneerd. | `a.voiceappresponse` |
+| Spraakverificatie | De voor authentiek verklaarde staat van de gebruiker wanneer het in wisselwerking staan met stem app. | `a.voiceauthentication` |
+| Interesten-ID | De id van het punt van interesse. | `a.loc.poi.id` |
 
 {style="table-layout:auto"}
