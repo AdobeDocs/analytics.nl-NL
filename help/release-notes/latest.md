@@ -3,7 +3,7 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f7d36ac8de37633ccbe725865dbaeecee532f47e
+source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Huidige Adobe Analytics-releaseopmerkingen (augustus 2024)
 
-**Laatste update**: 14 augustus 2024
+**Laatste update**: 20 augustus 2024
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 14 augustus 2024 tot en met september 2024. De versies van Adobe Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
