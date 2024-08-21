@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5903'
 ht-degree: 20%
 
 ---
@@ -25,6 +25,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Augustus 2024** | |
+| Waarschuwingenbeheer | Gestroomlijnde documentatie over de [ manager van Alarm ](/help/components/c-alerts/alert-manager.md). Ter verduidelijking en nauwkeurigheid bijgewerkt. |
 | **Juli 2024** | |
 | Gebeurtenissen met succes | Gestroomlijnde documentatie over [ succesgebeurtenissen ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md). Ter verduidelijking en nauwkeurigheid bijgewerkt. |
 | Bij het beheren van locaties moet ten minste één accounttype zijn geselecteerd | Verduidelijkt dat wanneer de beheerders [ de rekeningstypes beperken die voor de uitvoer en de invoer ](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users) worden gebruikt, minstens één accounttype moet worden geselecteerd. |
@@ -34,7 +36,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Algemene foutberichten zijn bijgewerkt | Gemaakte minder belangrijke updates aan de [ gemeenschappelijke foutenmeldingen ](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juni 2024** | |
 | Bijgewerkte productnaam die verwijst naar functies voor streaming media | Vervangen exemplaren van &quot;Media Analytics&quot; en &quot;Streaming Media&quot; met de naam &quot;Streaming Media Collection Add-on&quot; bij verwijzing naar de set streaming media-functies die streaming mediagegevens verzamelen en deze in Analysis Workspace laten overlopen. <p>Deze updates zijn beschikbaar door de documentatie van Adobe Analytics evenals [ het Streamen Invoegtoepassing van de Inzameling van Media van de Inzameling ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
-| Verbeterde documentatie voor intelligente waarschuwingen | Bijgewerkte en verbeterde documentatie over waarschuwingen. Deze updates omvatten informatie over [ het creëren van alarm ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [ het beheren van alarm ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), en [ overzichtsinformatie ](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| Verbeterde documentatie voor intelligente waarschuwingen | Bijgewerkte en verbeterde documentatie over waarschuwingen. Deze updates omvatten informatie over [ het creëren van alarm ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [ het beheren van alarm ](/help/components/c-alerts/alert-manager.md), en [ overzichtsinformatie ](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | Vervangen `cookieDomainPeriods` | Nu dat AppMeasurement automatisch het juiste domein detecteert om cookies in te stellen, wordt de variabele [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) afgekeurd. |
 | Retire Data Connectors-documentatie | Verplaatste de eind-van-leven van Data Connectors pagina naar [ Geëindigde producten ](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
 | **Mei 2024** | |
