@@ -4,7 +4,7 @@ description: Begrijp hoe te om een Virtuele waaier van de rapportreeks te beperk
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Beperk een Virtuele rapportreeks tot bepaalde data
+
+{{available-existing-customers}}
 
 Wanneer we stitching inschakelen, begint de stitching op een bepaalde datum. Laten we ervan uitgaan dat de datum 1 juni is. De CDA Virtual Report suite bevat niet-opgeslagen gegevens voor 1 juni. U kunt om het even welke gegevens in de Virtuele rapportreeks vóór 1 Juni willen verbergen zodat uw analyse zich op datumwaaiers kan concentreren nadat het stitching begon.
 

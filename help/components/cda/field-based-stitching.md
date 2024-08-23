@@ -4,7 +4,7 @@ description: Begrijp de eerste vereisten en de beperkingen van het stitching van
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 # Veldgebaseerde stitching
 
-Cross-Device Analytics biedt twee verschillende methoden om gegevens aan elkaar te koppelen. Deze methode is gebaseerd op een variabele Analytics, zoals een [prop](/help/implement/vars/page-vars/prop.md) of [eVar](/help/implement/vars/page-vars/evar.md), om een persoon-id te bevatten. Het gebruikt die variabele als basis om apparaten samen te verbinden. De Adobe beveelt deze optie aan om bezoekers transparanter en voorspelbaarder te maken.
+{{available-existing-customers}}
+
+Cross-Device Analytics biedt twee verschillende methoden om gegevens aan elkaar te koppelen. Deze methode baseert zich op een variabele Analytics, zoals a [ pro ](/help/implement/vars/page-vars/prop.md) of [ eVar ](/help/implement/vars/page-vars/evar.md), om een persoonsidentificatie te bevatten. Het gebruikt die variabele als basis om apparaten samen te verbinden. De Adobe beveelt deze optie aan om bezoekers transparanter en voorspelbaarder te maken.
 
 ## Vereisten die specifiek zijn voor veldomstandigheden
 
@@ -23,7 +25,7 @@ Als u Cross-Device Analytics wilt implementeren met behulp van op het veld gebas
 >
 >Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
 
-* Alle voorwaarden die worden vermeld op de [overzichtspagina](overview.md).
+* Alle eerste vereisten die op de [ overzichtspagina ](overview.md) worden vermeld.
 * In uw implementatie moet een proxy of eVar worden ingesteld die een individu waar mogelijk op unieke wijze identificeert, bijvoorbeeld wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Wijs geen standaardwaarde toe aan de proxy of eVar.
 * Deel de gewenste identificerende variabele aan uw Team van de Rekening van de Adobe mee wanneer provisioned voor op gebied-gebaseerd het stitching.
 
@@ -40,4 +42,4 @@ Als u Cross-Device Analytics wilt implementeren met behulp van op het veld gebas
 
 ## Volgende stappen
 
-Zodra uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u beginnen [Apparaatanalyse instellen](setup.md).
+Zodra uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u [ Opstelling Analytics van het Apparaat ](setup.md) beginnen.

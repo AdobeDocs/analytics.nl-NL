@@ -4,18 +4,21 @@ description: Veelgestelde vragen over apparaatanalyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 0%
 
 ---
 
+
 # Veelgestelde vragen
+
+{{available-existing-customers}}
 
 +++ Hoe kan ik CDA gebruiken om te zien hoe mensen zich van één apparatentype aan een ander bewegen?
 
-U kunt een [!UICONTROL Flow] visualisatie met de dimensie Type mobiel apparaat.
+U kunt een [!UICONTROL Flow] -visualisatie gebruiken met de dimensie Mobiel apparaattype.
 
 1. Meld u aan bij Adobe Analytics en maak een nieuw leeg Workspace-project.
 2. Klik op het tabblad Visualisatie aan de linkerkant en sleep een stroomvisualisatie naar het canvas aan de rechterkant.
@@ -38,7 +41,7 @@ De cross-device stitching van CDA vindt plaats in twee gelijktijdige processen.
 
 * Het tweede proces wordt &#39;replay&#39; genoemd. Tijdens replay, gaat CDA achterwaarts in tijd en herstelt historische gegevens, waar mogelijk, binnen een gespecificeerd terugkijkvenster. Dit terugkijkvenster is of 1 dag of 7 dagen, afhankelijk van hoe u CDA vroeg om worden gevormd. Tijdens het afspelen probeert CDA hits opnieuw te verklaren waar de persoon voordien onbekend was.
 
-* **Als u een apparaatgrafiek gebruikt** Met Adobe worden apparaatgrafiektoewijzingen ongeveer 6 maanden bewaard. Een ECID die langer dan zes maanden geen activiteit heeft, wordt uit de grafiek verwijderd. De gegevens die reeds in de CDA zijn vermeld, worden niet beïnvloed; latere treffers voor die ECID worden als een nieuwe persoon behandeld.
+* **als het gebruiken van een apparatengrafiek**, houdt de Adobe de afbeeldingen van de Grafiek van het Apparaat voor ongeveer 6 maanden. Een ECID die langer dan zes maanden geen activiteit heeft, wordt uit de grafiek verwijderd. De gegevens die reeds in de CDA zijn vermeld, worden niet beïnvloed; latere treffers voor die ECID worden als een nieuwe persoon behandeld.
 
 +++
 
@@ -50,15 +53,15 @@ De Adobe behandelt timestamped hits alsof zij op het tijdstip van de timestamp w
 
 +++ Hoe vergelijk CDA met aangepaste bezoeker-id&#39;s?
 
-Het gebruik van een aangepaste bezoeker-id is een oudere methode om [gebruikers verbinden over apparaten](/help/implement/js/xdevice-visid/xdevice-connecting.md). Met een aangepaste bezoeker-id gebruikt u de opdracht [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variabele om expliciet de id in te stellen die voor bezoekerslogica wordt gebruikt. De `visitorID` variabele heeft voorrang op op cookies gebaseerde id&#39;s die aanwezig zijn.
+Het gebruiken van een identiteitskaart van de douanebezoeker is een erfenismethode om [ gebruikers over apparaten ](/help/implement/js/xdevice-visid/xdevice-connecting.md) te verbinden. Met een aangepaste bezoeker-id gebruikt u de variabele [`visitorID`](/help/implement/vars/config-vars/visitorid.md) om expliciet de id in te stellen die wordt gebruikt voor de logica van de bezoeker. De variabele `visitorID` negeert op cookies gebaseerde id&#39;s die aanwezig zijn.
 
-Aangepaste bezoeker-id&#39;s hebben verschillende bijwerkingen die CDA overneemt of minimaliseert. De aangepaste ID-methode van de bezoeker heeft bijvoorbeeld geen [replay](replay.md) mogelijkheden. Als een gebruiker tijdens een bezoek voor authentiek verklaart, associeert het eerste deel van het bezoek met een verschillende bezoekersidentiteitskaart dan het laatste deel van het bezoek. De afzonderlijke bezoeker-id&#39;s resulteren in een bezoek en een inflatie van de bezoeker. CDA herstelt historische gegevens zodat ongeoorloofde treffers bij de juiste persoon horen.
+Aangepaste bezoeker-id&#39;s hebben verschillende bijwerkingen die CDA overneemt of minimaliseert. Bijvoorbeeld, heeft de methodologie van identiteitskaart van de douanebezoeker geen [ replay ](replay.md) mogelijkheden. Als een gebruiker tijdens een bezoek voor authentiek verklaart, associeert het eerste deel van het bezoek met een verschillende bezoekersidentiteitskaart dan het laatste deel van het bezoek. De afzonderlijke bezoeker-id&#39;s resulteren in een bezoek en een inflatie van de bezoeker. CDA herstelt historische gegevens zodat ongeoorloofde treffers bij de juiste persoon horen.
 
 +++
 
 +++ Kan ik een upgrade uitvoeren van Aangepaste bezoeker-id naar CDA?
 
-Klanten die al een aangepaste bezoeker-id gebruiken, kunnen een upgrade uitvoeren naar CDA zonder wijzigingen in de implementatie. De `visitorID` variable wordt nog gebruikt in de bron rapportreeks. De CDA negeert echter de `visitorID` variabele in de virtuele rapportreeks als een gebruiker voor authentiek verklaart.
+Klanten die al een aangepaste bezoeker-id gebruiken, kunnen een upgrade uitvoeren naar CDA zonder wijzigingen in de implementatie. De variabele `visitorID` wordt nog steeds gebruikt in de bronrapportsuite. Nochtans, negeert CDA de `visitorID` variabele in de virtuele rapportreeks als een gebruiker voor authentiek verklaart.
 
 +++
 
@@ -66,8 +69,8 @@ Klanten die al een aangepaste bezoeker-id gebruiken, kunnen een upgrade uitvoere
 
 In sommige situaties is het mogelijk dat meerdere personen zich aanmelden bij hetzelfde apparaat. De voorbeelden omvatten een gedeeld apparaat thuis, gedeelde PCs in een bibliotheek, of een kiosk in een detailhandelsafzet.
 
-* **Als u een apparaatgrafiek gebruikt** De mogelijkheid om gedeelde apparaten af te handelen, is beperkt. De apparaatgrafiek gebruikt een algoritme om de eigendom van een &quot;cluster&quot;te bepalen, en kan elke keer veranderen dat de cluster wordt gepubliceerd. Gebruikers van het gedeelde apparaat zijn afhankelijk van de cluster waartoe zij behoren.
-* **Als u op het veld gebaseerde stitching gebruikt**, vervangt de eigenschap of de eVar die u kiest om aangemelde gebruikers te helpen identificeren andere herkenningstekens. Gedeelde apparaten worden beschouwd als afzonderlijke personen, zelfs als ze van hetzelfde apparaat afkomstig zijn.
+* **als het gebruiken van een apparatengrafiek**, is de capaciteit om gedeelde apparaten te behandelen beperkt. De apparaatgrafiek gebruikt een algoritme om de eigendom van een &quot;cluster&quot;te bepalen, en kan elke keer veranderen dat de cluster wordt gepubliceerd. Gebruikers van het gedeelde apparaat zijn afhankelijk van de cluster waartoe zij behoren.
+* **als het gebruiken van op gebied-gebaseerd het stitching**, prop of eVar die u verkiest te helpen het programma geopende gebruikers identificeren treedt andere herkenningstekens met voeten. Gedeelde apparaten worden beschouwd als afzonderlijke personen, zelfs als ze van hetzelfde apparaat afkomstig zijn.
 
 +++
 
@@ -75,14 +78,14 @@ In sommige situaties is het mogelijk dat meerdere personen zich aanmelden bij he
 
 In sommige situaties kan een individuele gebruiker een groot aantal ECID&#39;s koppelen. Dit kan voorkomen als de individu veel browsers of apps gebruikt, en kan worden verergerd als zij vaak koekjes ontruimen of de privé browser of incognito het doorbladeren wijze gebruiken.
 
-* **Als u een apparaatgrafiek gebruikt**, beperkt CDA het aantal ECID&#39;s dat aan een bepaalde gebruikers-id is gekoppeld tot 50. Als een gebruikers-id aan te veel ECID&#39;s is gekoppeld, wordt in de apparaatgrafiek aangenomen dat de gebruikers-id ongeldig is en wordt de cluster die aan die gebruikers-id is gekoppeld, verwijderd. De gebruikersnaam wordt vervolgens toegevoegd aan een lijst van gewezen personen om te voorkomen dat deze in de toekomst aan clusters wordt toegevoegd. Het resultaat van de rapportage is dat de gebruikers-id niet op alle apparaten is aangesloten.
-* **Als u op het veld gebaseerde stitching gebruikt**, is het aantal apparaten irrelevant ten gunste van de prop/eVar die u kiest om aangemelde gebruikers te helpen identificeren. Eén gebruiker kan tot elk aantal apparaten behoren zonder dat dit invloed heeft op de mogelijkheid van CDA om apparaten te verstevigen.
+* **Als het gebruiken van een apparatengrafiek**, CDA kapt het aantal ECIDs dat aan een bepaalde gebruikeridentiteitskaart aan 50 verbindt. Als een gebruikers-id aan te veel ECID&#39;s is gekoppeld, wordt in de apparaatgrafiek aangenomen dat de gebruikers-id ongeldig is en wordt de cluster die aan die gebruikers-id is gekoppeld, verwijderd. De gebruikersnaam wordt vervolgens toegevoegd aan een lijst van gewezen personen om te voorkomen dat deze in de toekomst aan clusters wordt toegevoegd. Het resultaat van de rapportage is dat de gebruikers-id niet op alle apparaten is aangesloten.
+* **als het gebruiken van op gebied-gebaseerde het stitching**, is het aantal apparaten irrelevant ten gunste van prop/eVar u verkiest om het programma geopende gebruikers te helpen identificeren. Eén gebruiker kan tot elk aantal apparaten behoren zonder dat dit invloed heeft op de mogelijkheid van CDA om apparaten te verstevigen.
 
 +++
 
 +++ Wat is het verschil tussen de norm Mensen in CDA en de norm van de Unieke Bezoekers buiten CDA?
 
-Beide [Mensen](/help/components/metrics/people.md) en [Unieke bezoekers](/help/components/metrics/unique-visitors.md) meetgegevens hebben tot doel verschillende bezoekers ( personen ) te tellen . Houd er echter rekening mee dat twee verschillende apparaten bij dezelfde persoon kunnen horen. CDA wijst de twee apparaten toe aan dezelfde persoon, terwijl de twee apparaten worden geregistreerd als twee afzonderlijke &#39;Unieke bezoekers&#39; buiten CDA.
+Zowel [ Mensen ](/help/components/metrics/people.md) als [ Unieke Bezoekers ](/help/components/metrics/unique-visitors.md) metriek richten zich op het tellen van verschillende bezoekers (individuen). Houd er echter rekening mee dat twee verschillende apparaten bij dezelfde persoon kunnen horen. CDA wijst de twee apparaten toe aan dezelfde persoon, terwijl de twee apparaten worden geregistreerd als twee afzonderlijke &#39;Unieke bezoekers&#39; buiten CDA.
 
 +++
 
@@ -93,7 +96,7 @@ Deze twee metriek zijn ruwweg gelijkwaardig aan elkaar. De verschillen tussen de
 * Een gedeeld apparaat wordt toegewezen aan meerdere personen. In dit scenario wordt 1 unieke bezoeker geteld, terwijl meerdere unieke apparaten worden geteld.
 * Een apparaat heeft zowel niet-vastgezet als vastgezet verkeer van de zelfde bezoeker. Bijvoorbeeld, produceerde browser geïdentificeerde gestippeld verkeer + historisch anonieme verkeer dat niet werd vastgemaakt. In dit geval wordt 1 unieke bezoeker geteld, terwijl 2 unieke apparaten worden geteld.
 
-Zie [Unieke apparaten](/help/components/metrics/unique-devices.md) voor meer voorbeelden en details over hoe het werkt.
+Zie [ Unieke Apparaten ](/help/components/metrics/unique-devices.md) voor meer voorbeelden en details rond hoe het werkt.
 
 +++
 
@@ -101,7 +104,7 @@ Zie [Unieke apparaten](/help/components/metrics/unique-devices.md) voor meer voo
 
 Ja. Analysis Workspace gebruikt de 2.0 API om gegevens van de servers van de Adobe aan te vragen, en u kunt API vraag bekijken Adobe gebruikt om uw eigen rapporten te maken:
 
-1. Ga bij het aanmelden bij Analysis Workspace naar [!UICONTROL Help] > [!UICONTROL Enable debugger].
+1. Ga bij het aanmelden bij Analysis Workspace naar [!UICONTROL Help] > [!UICONTROL Enable debugger] .
 2. Klik op het pictogram voor foutopsporing in het gewenste deelvenster en selecteer de gewenste visualisatie en tijd voor de aanvraag.
 3. Zoek de JSON-aanvraag die u kunt gebruiken in uw API-aanroep naar Adobe.
 
@@ -115,22 +118,22 @@ Ja. Als een individu hits verzendt van twee aparte apparaten binnen de time-out 
 
 +++ Wat is de ultieme bezoekersidentiteitskaart die CDA gebruikt? Kan ik het uit Adobe Analytics exporteren?
 
-* **Als u een apparaatgrafiek gebruikt**, is een aangepaste id op basis van hun cluster de primaire id.
-* **Als u op het veld gebaseerde stitching gebruikt**, is een aangepaste id op basis van de gekozen prop/eVar de primaire id.
+* **als het gebruiken van een apparatengrafiek**, een douaneidentiteitskaart die op hun cluster wordt gebaseerd is het primaire herkenningsteken.
+* **als het gebruiken van op gebied-gebaseerde het stitching**, een douanidentiteitskaart die op de eigenschap wordt gebaseerd/de eVar u kiest is het primaire herkenningsteken.
 
-Beide herkenningstekens worden berekend door Adobe op het tijdstip dat het rapport in werking wordt gesteld, ook gekend als [Verwerking bij rapporttijd](../vrs/vrs-report-time-processing.md). De aard van de verwerking van het Rapport-tijd betekent dat het niet compatibel is met Data Warehouse, gegevensvoer, of andere de uitvoereigenschappen die de Adobe aanbiedt.
+Beide herkenningstekens worden berekend door Adobe op het tijdstip dat het rapport in werking wordt gesteld, ook gekend als [ rapport-tijd verwerking ](../vrs/vrs-report-time-processing.md). De aard van de verwerking van het Rapport-tijd betekent dat het niet compatibel is met Data Warehouse, gegevensvoer, of andere de uitvoereigenschappen die de Adobe aanbiedt.
 
 +++
 
 +++ Hoe kan ik van de apparatengrafiek naar op gebied-gebaseerde het stitching bewegen, of vice versa?
 
-Via de klantenservice kan worden gevraagd om van apparaatgrafiek naar op het veld gebaseerde stitching te schakelen of andersom. Het maken van een dergelijke omschakeling kan echter een paar weken of langer duren en *historische gegevens van de vorige methode gaan verloren.*
+Via de klantenservice kan worden gevraagd om van apparaatgrafiek naar op het veld gebaseerde stitching te schakelen of andersom. Nochtans, kan het maken van zulk een schakelaar een paar weken of meer nemen om te voltooien en *historische gestaafde gegevens van de vorige methode wordt verloren.*
 
 +++
 
 +++ Hoe hanteert Adobe unieke limieten voor een prop of eVar die wordt gebruikt bij veldomstandigheden?
 
-CDA haalt de elementen van de identificatievariabele dimensies voordat deze zijn geoptimaliseerd voor rapportage. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u probeerde gebruikend die steun of eVar in een project van de Werkruimte, kunt u nog zien [(Laag verkeer)](/help/technotes/low-traffic.md) dimensie-item.
+CDA haalt de elementen van de identificatievariabele dimensies voordat deze zijn geoptimaliseerd voor rapportage. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u probeerde gebruikend die steun of eVar in een project van Workspace, kunt u nog [ (Laag-verkeer) ](/help/technotes/low-traffic.md) afmetingspunt zien.
 
 +++
 
@@ -168,14 +171,14 @@ CDA gebruikt een complexe parallelle verwerkingspijpleiding, met veelvoudige afh
 
 +++ Waarom wordt de metrische waarde &#39;Identified People&#39; opgevoerd?
 
-Het getal van de metrische waarde &#39;Identified People&#39; kan iets hoger zijn als de waarde van de id prop/eVar in een [hash-botsing](/help/implement/validate/hash-collisions.md).
+Het aantal van metrische &quot;Identified Mensen&quot;kan lichtjes hoger zijn als de herkenningstekenwinst/de waarde van eVar in de botsing van de a [ knoeiboel ](/help/implement/validate/hash-collisions.md) loopt.
 
-Voor op veld gebaseerde stitching is de aangepaste id-variabele hoofdlettergevoelig. Het aantal van metrische waarden &quot;Identified People&quot;kan beduidend hoger zijn als de herkenningswaarden niet geval aanpassen. Als `bob` en `Bob` worden verzonden en naar verwachting dezelfde persoon zijn, interpreteert CDA deze twee waarden als verschillend.
+Voor op veld gebaseerde stitching is de aangepaste id-variabele hoofdlettergevoelig. Het aantal van metrische waarden &quot;Identified People&quot;kan beduidend hoger zijn als de herkenningswaarden niet geval aanpassen. Als `bob` en `Bob` bijvoorbeeld worden verzonden en dezelfde persoon worden verwacht, interpreteert CDA deze twee waarden als afzonderlijk.
 
 +++
 
 +++ Waarom zie ik bij het bekijken van de id prop/eVar niet-nul waarden voor de &#39;Niet-geïdentificeerde Mensen&#39; metrische waarde?
 
-Deze situatie komt gewoonlijk voor wanneer een bezoeker zowel voor authentiek verklaarde als niet voor authentiek verklaarde klusjes in het rapporteringsvenster produceert. De bezoeker behoort tot zowel &#39;Niet-geïdentificeerd&#39; als &#39;Geïdentificeerd&#39; in het dialoogvenster [Geïdentificeerde staat](/help/components/dimensions/identified-state.md) dimensie, die een attributie van niet-geïdentificeerde treffers aan een herkenningsteken veroorzaakt. Dit scenario kan na [Opnieuw afspelen](replay.md) wordt uitgevoerd, afhankelijk van de herhalingsfrequentie en de successnelheid.
+Deze situatie komt gewoonlijk voor wanneer een bezoeker zowel voor authentiek verklaarde als niet voor authentiek verklaarde klusjes in het rapporteringsvenster produceert. De bezoeker behoort tot zowel &quot;Unidentified&quot;als &quot;Identified&quot;in de [ Verkende dimensie van de Staat ](/help/components/dimensions/identified-state.md), veroorzakend een attributie van niet geïdentificeerde hits aan een herkenningsteken. Dit scenario kan veranderen na [ Replay ](replay.md) looppas, afhankelijk van replay frequentie en succestarief.
 
 +++

@@ -4,14 +4,17 @@ description: Begrijp de eerste vereisten en de beperkingen van het stitching van
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
 
 ---
 
+
 # Apparaatgrafiek
+
+{{available-existing-customers}}
 
 Analytics voor verschillende apparaten kan de persoonlijke grafiek gebruiken om gegevens aan elkaar te koppelen. De privégrafiek is een opslagplaats van hashed apparaat-id&#39;s die specifiek is voor uw organisatie. CDA communiceert regelmatig met de apparatengrafiek om apparaten samen te verbinden.
 
@@ -22,11 +25,12 @@ Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat,
 >[!WARNING]
 >
 >Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
+>
 
-* Alle voorwaarden die worden vermeld op de [overzichtspagina](overview.md).
-* Uw organisatie moet de [Adobe Experience Platform Identity Service Private Graph](https://business.adobe.com/products/experience-platform/identity-service.html). Zie ook de [Startpagina](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl) in de gebruikershandleiding voor Identiteitsservice.
-* Uw implementatie moet de nieuwste versie van de Experience Cloud-id-service (ECID) gebruiken. Zie de [Startpagina](https://experienceleague.adobe.com/docs/id-service/using/home.html) in de gebruikershandleiding voor de id-service. De meeste implementaties gebruiken [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) in Adobe Experience Platform is ID Service waarschijnlijk al geïmplementeerd.
-* Uw implementatie moet de `setCustomerIDs` functie (of SDK-equivalent) wanneer een individu kan worden geïdentificeerd, bijvoorbeeld wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Zie [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) in de gebruikershandleiding voor de id-service.
+* Alle eerste vereisten die op de [ overzichtspagina ](overview.md) worden vermeld.
+* Uw organisatie moet de [ Persoonlijke Grafiek van de Dienst van de Identiteit van Adobe Experience Platform gebruiken ](https://business.adobe.com/products/experience-platform/identity-service.html). Zie ook de [ Pagina van het Huis ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl) in de de gebruikersgids van de Dienst van de Identiteit.
+* Uw implementatie moet de nieuwste versie van de Experience Cloud-id-service (ECID) gebruiken. Zie de [ Pagina van het Huis ](https://experienceleague.adobe.com/docs/id-service/using/home.html) in de de gebruikersgids van de Dienst van identiteitskaart De meeste implementaties die [ Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) gebruiken in Adobe Experience Platform hebben waarschijnlijk reeds de Dienst van identiteitskaart opgesteld.
+* Uw implementatie moet de functie `setCustomerIDs` (of het equivalent van SDK) aanroepen wanneer een individu kan worden geïdentificeerd, zoals wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Zie [`setCustomerIDs` ](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) in de de gebruikersgids van de Dienst van identiteitskaart
 
 ## Specifieke beperkingen voor de apparaatgrafiek
 
@@ -36,4 +40,4 @@ Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat,
 
 ## Volgende stappen
 
-Zodra uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u beginnen [Apparaatanalyse instellen](setup.md).
+Zodra uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u [ Opstelling Analytics van het Apparaat ](setup.md) beginnen.
