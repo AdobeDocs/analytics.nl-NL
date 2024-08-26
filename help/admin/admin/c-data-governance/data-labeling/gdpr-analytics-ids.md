@@ -4,18 +4,18 @@ title: Best practices voor labelen
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 75%
+source-wordcount: '2830'
+ht-degree: 71%
 
 ---
 
 # Best practices voor labelen
 
->[!NOTE]
->
->Herinner dat het etiketteren moet worden herzien telkens als een nieuwe rapportreeks wordt gecreeerd of wanneer een nieuwe variabele binnen een bestaande rapportreeks wordt toegelaten. U dient de labeling mogelijk ook te herzien wanneer integraties van nieuwe oplossingen worden ingeschakeld, omdat deze nieuwe variabelen kunnen laten zien waarvoor een label nodig is. Een herimplementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, waardoor eveneens updates van labels nodig kunnen zijn.
+De etikettering moet worden herzien telkens als een nieuwe rapportreeks wordt gecreeerd of wanneer een nieuwe variabele binnen een bestaande rapportreeks wordt toegelaten. U dient de labeling mogelijk ook te herzien wanneer integraties van nieuwe oplossingen worden ingeschakeld, omdat deze nieuwe variabelen kunnen laten zien waarvoor een label nodig is. Een herimplementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, waardoor eveneens updates van labels nodig kunnen zijn.
+
+De labels I1, I2, S1 en S2 hebben dezelfde betekenis als de overeenkomstige labels DULE in Adobe Experience Platform. Ze worden echter voor heel andere doeleinden gebruikt. In Adobe Analytics worden deze labels gebruikt om velden te identificeren die moeten worden geanonimiseerd als gevolg van een verzoek om Privacy Service. In Adobe Experience Platform worden ze gebruikt voor toegangscontrole, toestemmingsbeheer en voor het afdwingen van marketingbeperkingen op gelabelde velden. Adobe Experience Platform ondersteunt veel extra labels die niet worden gebruikt door Adobe Analytics. Als u de Verbinding van Gegevens van Analytics gebruikt om uw gegevens van Adobe Analytics in Adobe Experience Platform in te voeren, zou u ervoor moeten zorgen dat om het even welke I1, I2, S1 en S2 etiketten die u binnen Adobe Analytics hebt toegepast ook op de schema&#39;s in Adobe Experience Platform worden toegepast die door de ingevoerde rapportreeksen worden gebruikt.
 
 ## Direct of indirect identificeerbare id&#39;s {#direct-vs-indirect}
 
@@ -24,7 +24,7 @@ Voordat u kunt achterhalen welke labels op welke variabelen/velden moeten worden
 * **Een rechtstreeks identificeerbare id (I1)**: noemt de persoon bij naam of biedt een directe methode om contact op te nemen. Voorbeelden zijn de iemands naam (zelfs een algemene naam zoals John Smith die door honderden personen kan worden gedeeld), een van zijn of haar e-mailadressen of telefoonnummers, enz. Een postadres zonder naam kan als rechtstreeks identificeerbaar worden beschouwd, ook al identificeert het alleen een huishouden of bedrijf in plaats van een bepaalde persoon binnen dat huishouden of bedrijf.
 * **Een indirect identificeerbare id (I2)**: kan een persoon niet zelf identificeren, maar kan worden gecombineerd met andere informatie (die al dan niet in uw bezit is) om iemand te identificeren. De voorbeelden van indirect identificeerbare identiteitskaart omvatten een aantal van de klantenloyaliteit, of identiteitskaart die door het systeem van CRM van een bedrijf wordt gebruikt dat voor elk van hun klanten uniek is. Onder Data Privacy kunnen de anonieme id&#39;s die zijn opgeslagen in de door Analytics gebruikte trackingcookies, worden beschouwd als indirect identificerend, ook al kunnen ze alleen een apparaat identificeren en geen individu; op een gedeeld apparaat kunnen deze cookies geen onderscheid maken tussen verschillende gebruikers van het systeem. Het cookie kan bijvoorbeeld niet worden gebruikt om een computer met het cookie te vinden, maar als iemand toegang tot de computer heeft en het cookie opzoekt, kunnen de Analytics-cookiedata vervolgens wel weer aan de computer worden gekoppeld.
 
-  Een IP adres wordt ook beschouwd als indirect identificeerbaar, omdat het op om het even welk bepaald ogenblik slechts aan één enkel apparaat zou kunnen worden toegewezen. Maar ISP’s kunnen de IP-adressen van de meeste gebruikers regelmatig veranderen en dat doen ze ook, zodat in de loop van de tijd een IP-adres door elk van hun gebruikers kan zijn gebruikt. Het is ook niet ongewoon dat vele klanten van een ISP of meerdere medewerkers binnen een bedrijf op hetzelfde intranet hetzelfde externe IP-adres delen. Daarom biedt Adobe geen ondersteuning voor het gebruik van een IP-adres als de id voor een verzoek om gegevensprivacy. Nochtans, wanneer identiteitskaart die wij goedkeuren als deel van een schrappingsverzoek wordt gebruikt, zullen wij de IP adressen ook ontruimen die met die identiteitskaart voorkwamen. U moet beslissen of er andere verzamelde id&#39;s bestaan die in deze categorie kunnen vallen, van I1 of I2, maar die niet geschikt zijn voor gebruik als onderscheidende ID voor verzoeken om privacy van gegevens.
+Een IP adres wordt ook beschouwd als indirect identificeerbaar, omdat het op om het even welk bepaald ogenblik slechts aan één enkel apparaat zou kunnen worden toegewezen. Maar ISP’s kunnen de IP-adressen van de meeste gebruikers regelmatig veranderen en dat doen ze ook, zodat in de loop van de tijd een IP-adres door elk van hun gebruikers kan zijn gebruikt. Het is ook niet ongewoon dat vele klanten van een ISP of meerdere medewerkers binnen een bedrijf op hetzelfde intranet hetzelfde externe IP-adres delen. Daarom biedt Adobe geen ondersteuning voor het gebruik van een IP-adres als de id voor een verzoek om gegevensprivacy. Nochtans, wanneer identiteitskaart die wij goedkeuren als deel van een schrappingsverzoek wordt gebruikt, zullen wij de IP adressen ook ontruimen die met die identiteitskaart voorkwamen. U moet beslissen of er andere verzamelde id&#39;s bestaan die in deze categorie kunnen vallen, van I1 of I2, maar die niet geschikt zijn voor gebruik als onderscheidende ID voor verzoeken om privacy van gegevens.
 
 Zelfs als uw bedrijf binnen uw Analytics-data veel verschillende id&#39;s verzamelt, kunt u ervoor kiezen om uitsluitend een subset van deze id&#39;s te gebruiken voor Data Privacy-aanvragen. Dit kan de volgende redenen hebben:
 
