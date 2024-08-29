@@ -1,14 +1,14 @@
 ---
 description: Gebruik het Summiere Aantal en de visualisaties van de Verandering om belangrijke gegevenspunten in een project te tonen.
-title: Cijferoverzicht en Wijzigingsoverzicht
+title: Samenvattingsnummer en Samenvattingswijziging
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 8f63211c3fd9070b1ef47ad409364507b7a9c4b4
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 2%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -20,14 +20,14 @@ Hier is een video over deze twee visualisaties:
 
 ## [!UICONTROL Summary Number] visualisatie {#summary-number}
 
-Gebruik de [!UICONTROL Summary Number] visualisatie om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie werkt op de volgende manieren:
+Gebruik de visualisatie van [!UICONTROL Summary Number] om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie werkt op de volgende manieren:
 
 * Hiermee selecteert u het totaal van de kolom als er geen cel is geselecteerd.
 * Als er één cel is geselecteerd, wordt het overzicht voor die cel weergegeven.
 * Als er meer dan één cel is geselecteerd, wordt de eerste geselecteerde cel weergegeven.
 * Als de kolom is geselecteerd, wordt de eerste celwaarde in de kolom gekozen.
 
-Klik op de knop **Visualisatie-instellingen** tandwieltje in de rechterbovenhoek om de Summiere montages van het Aantal te vormen:
+Klik de **montages van de Visualisatie** binnen binnen aan het hoogste recht om de Summiere montages van het Aantal te vormen:
 
 | Instelling | Definitie |
 |--- |--- |
@@ -38,14 +38,14 @@ Klik op de knop **Visualisatie-instellingen** tandwieltje in de rechterbovenhoek
 
 ## [!UICONTROL Summary Change] visualisatie {#summary-change}
 
-Gebruik de [!UICONTROL Summary Change] visualisatie om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de [!UICONTROL Summary Change] kan worden gecontroleerd door [polariteit aangepaste gebeurtenis](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) of een berekende metrieke waarde [Toon Opwaartse trend als](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) optie.
+Gebruik [!UICONTROL Summary Change] visualisatie om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van [!UICONTROL Summary Change] kan door [ polariteit van de douanegebeurtenis ](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) of de berekende metrische [ tonen de Naar vorenTrend als ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) optie worden gecontroleerd.
 
 Deze visualisatie werkt op de volgende manieren:
 
 * Als er geen cel is geselecteerd, worden de eerste twee celwaarden in de kolom vergeleken.
 * Als er één cel is geselecteerd, wordt 0 weergegeven, omdat de celwaarde dan met zichzelf wordt vergeleken.
 * Als twee cellen zijn geselecteerd, wordt de eerste geselecteerde cel als teller en de tweede als noemer genomen.
-* Als er meer dan twee cellen zijn geselecteerd, worden alleen de eerste twee ter vergelijking in aanmerking genomen.
+* Als er meer dan twee cellen zijn geselecteerd, worden alleen de eerste twee ter vergelijking gebruikt.
 * Als een bereik cellen is geselecteerd, wordt het eerste veld vergeleken met de laatste cellen in het bereik.
 * Als de kolom wordt geselecteerd, vergelijkt het de eerste waarde met zich, die een verandering van 0 toont.
 
@@ -53,7 +53,7 @@ Deze visualisatie werkt op de volgende manieren:
 ![](assets/summary-change.png)
 
 
-Klik op de knop **Visualisatie-instellingen** Wijs in het hoogste recht aan om de Summiere montages van de Verandering te vormen:
+Klik de **montages van de Visualisatie** binnen binnen binnen aan het hoogste recht om de Summiere montages van de Verandering te vormen:
 
 | Instelling | Definitie |
 | --- | --- |

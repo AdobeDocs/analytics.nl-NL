@@ -2,7 +2,7 @@
 title: Migreren van AppMeasurement naar de Web SDK
 description: Werk uw Adobe Analytics-implementatie bij van de AppMeasurement JavaScript-bibliotheek naar de Web SDK JavaScript-bibliotheek.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
+source-git-commit: 05690cc8c1ea0364cbab86f35666df1cc1b13e69
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Verwijs naar de recentste versie van `alloy.js` zodat kan zijn methodevraag word
 
 Opstelling uw implementatie om aan de datastream te richten die in de vorige stap wordt gecreeerd door het Web SDK [`configure` te gebruiken ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) bevel. De opdracht `configure` moet op elke pagina worden ingesteld, zodat u deze naast de installatiecode van de bibliotheek kunt plaatsen.
 
-Gebruik de eigenschappen [`datastreamId` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamId) en [`orgId` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) binnen het bevel van SDK van het Web `configure`:
+Gebruik de eigenschappen [`datastreamId` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) en [`orgId` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) binnen het bevel van SDK van het Web `configure`:
 
 * Stel de `datastreamId` in op de gegevensstroom-id die u uit de vorige stap hebt opgehaald.
 * Stel de `orgId` in op IMS org van uw organisatie.
