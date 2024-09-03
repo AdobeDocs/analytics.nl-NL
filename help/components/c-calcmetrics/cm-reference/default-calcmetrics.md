@@ -3,9 +3,9 @@ description: De Adobe verstrekt diverse berekende metriek die u kunt gebruiken. 
 title: Berekende standaardwaarden
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,9 @@ Hieronder volgt een lijst van elke berekende metrische waarde die door Adobe wor
 >Naast de standaard berekende metriek die op deze pagina wordt beschreven, kunt u extra berekende metriek aan een rapportreeks ook toevoegen.
 >
 >U kunt:
-> * Voeg standaard berekende metriek voor de het Stromen Invoegsel van de Inzameling van Media toe, zoals die in wordt beschreven [Berekende cijfers](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * Aangepaste berekende metriek maken van bestaande metriek, zoals beschreven in [Berekende en geavanceerde berekende (afgeleide) meetwaarden](/help/components/c-calcmetrics/cm-overview.md).
+>
+> * Voeg standaard berekende metriek voor de Streaming Invoegtoepassing van de Inzameling van Media toe, zoals die in [ wordt beschreven Berekende metriek ](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
+> * Creeer douane berekende metriek van bestaande Metriek, zoals die in [ wordt beschreven Berekende en geavanceerde berekende metriek ](/help/components/c-calcmetrics/cm-overview.md).
 
 
 | Metrische naam berekend | Functie | Formule |
@@ -37,7 +38,7 @@ Hieronder volgt een lijst van elke berekende metrische waarde die door Adobe wor
 | Inhoudssnelheid | De snelheid waarmee nieuwe inhoud wordt gemaakt en gepubliceerd op de site en hoe snel de betrokkenheid van de gebruiker wordt gegenereerd. | `[Page Views] / [Visits]` |
 | Conversiesnelheid | Het percentage bezoekers dat de gewenste actie heeft uitgevoerd, zoals een aankoop. | `[Orders] / [Visits]` |
 | Invoersnelheid | Het percentage bezoekers dat de site op een bepaalde pagina is binnengekomen, in vergelijking met het totale aantal sessies op de site. | `[Entries] / [Visits]` |
-| Geschatte unieke bezoekers (ITP 2.1) | Voor ITP-bezoekers (gebruikers in Safari-browsers) verdeelt u Unieke bezoekers met 2 of minder. Deze berekende metrisch veronderstelt dat u koekjes gebruikend cliënt-kant JavaScript (het gebruiken van geen implementatie CNAME) plaatst. Implementaties die cookies instellen met client-side JavaScript werden beïnvloed vanaf ITP 2.1. Zie [Intelligente tracering](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) voor meer informatie. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| Geschatte unieke bezoekers (ITP 2.1) | Voor ITP-bezoekers (gebruikers in Safari-browsers) verdeelt u Unieke bezoekers met 2 of minder. Deze berekende metrisch veronderstelt dat u koekjes gebruikend cliënt-kant JavaScript (het gebruiken van geen implementatie CNAME) plaatst. Implementaties die cookies instellen met client-side JavaScript werden beïnvloed vanaf ITP 2.1. Zie [ Intelligente het volgen preventie ](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) voor details. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud-id-dekking | Het percentage bezoekers met een Experience Cloud-id. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Afsluitingsfrequentie | Het percentage bezoekers dat de site verlaat na weergave van een bepaalde pagina. | `[Exits] / [Visits]` |
 | ITP 2.1 Unieke bezoekers / Unieke bezoekers | Het percentage unieke bezoekers dat een browser gebruikt die wordt beïnvloed door de cookiebeperkingen van ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |

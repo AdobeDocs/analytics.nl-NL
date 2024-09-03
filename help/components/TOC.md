@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '808'
 ht-degree: 7%
 
 ---
@@ -202,7 +202,7 @@ ht-degree: 7%
    + [Veelgestelde vragen over het beheer van verouderde segmenten](segmentation/seg-transition.md)
    + [Aanbevolen procedures](segmentation/best-practices.md)
 + Berekende cijfers {#calculated-metrics}
-   + [Berekende en Geavanceerde berekende (Afgeleide) metriek](c-calcmetrics/cm-overview.md)
+   + [Berekende en geavanceerde berekende meetgegevens](c-calcmetrics/cm-overview.md)
    + [Hoe kan ik-video&#39;s](c-calcmetrics/cm-videos.md)
    + Workflow voor berekende metriek {#calcmetric-workflow}
       + [Workflow voor berekende metriek](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
