@@ -3,16 +3,16 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
+source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Huidige Adobe Analytics-releaseopmerkingen (augustus 2024)
 
-**Laatste update**: 20 augustus 2024
+**Laatste update**: 9 september, 2024
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 14 augustus 2024 tot en met september 2024. De versies van Adobe Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,6 +20,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 14 augustus 2024 tot
 
 | Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Aanvullende informatie in de &quot;Gebruikte in&quot;kolom in de berekende metrische manager en segmentmanager** | De kolom &quot;Gebruikt in&quot;in de berekende metrische manager en segmentmanager bevat de volgende nieuwe rapporteringsgebieden:<ul><li>**Report Builder:** toont het aantal berekende metriek of segmenten die in de Report Builder worden gebruikt.</li><li>**Ad hoc componenten:** toont het aantal ad hoc berekende metriek of ad hoc segmenten die in projecten worden gebruikt. Deze ad hoc berekende metriek en segmenten (anders genoemd geworden &quot;snelle berekende metriek&quot;en &quot;snelle segmenten&quot;) kunnen slechts in het project worden gebruikt waar zij werden gecreeerd, zodat zij afzonderlijk van het &quot;Project&quot;rapporteringsgebied in &quot;Gebruikt in&quot;kolom worden gerapporteerd.</li></ul><p>(Bijgewerkte documentatiekoppelingen die moeten worden gevolgd.)</p> | N.v.t. | donderdag 11 september 2024 |
 | **de verbeteringen van SDK van het Web voor verbinding het volgen** | Verschillende opmerkelijke verbeteringen zijn beschikbaar in de nieuwste versie van de SDK van het Web voor het bijhouden van koppelingen, wat de Activity Map rechtstreeks ten goede komt. Deze nieuwe eigenschappen zijn beschikbaar in zowel de bibliotheek van SDK van het Web JavaScript als de de markeringsuitbreiding van SDK van het Web.<ul><li>Gebeurtenisgroepering: wanneer een bezoeker op een interne koppeling klikt, kunt u ervoor kiezen om gebeurtenisgegevens op de volgende pagina te groeperen in plaats van een aparte gebeurtenisaanroep voor het bijhouden van koppelingen te activeren. Deze verbetering vermindert het aantal gebeurtenissen die SDK van het Web tegen uw contractuele grens gebruikt.</li><li>Filter klikt eigenschappen: een nieuwe callback die `OnBeforeLinkClickSend` vervangt. U kunt deze callback aan filter gebruiken of verduisteren verbinding-verwante gegevens alvorens het naar Adobe te verzenden.</li></ul><p>Zie [ clickCollection ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection) in de de gebruikersgids van SDK van het Web voor meer informatie.</p> | Beta openen, 10 juli 2024 | vrijdag 18 juli 2024 |
 
 {style="table-layout:auto"}
