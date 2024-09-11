@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
+source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '747'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Deze releaseopmerkingen betreffen de releaseperiode van 11 september 2024 tot be
 
 | Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 |--- | --- | --- | --- |
-| **Aanvullende informatie in de &quot;Gebruikte in&quot;kolom in de berekende metrische manager en segmentmanager** | De kolom &quot;Gebruikt in&quot;in de berekende metrische manager en segmentmanager bevat de volgende nieuwe rapporteringsgebieden:<ul><li>**Report Builder**: Toont het aantal berekende metriek of segmenten die in de Report Builder worden gebruikt.</li><li>**Ad hoc componenten**: Toont het aantal ad hoc berekende metriek of ad hoc segmenten die in projecten worden gebruikt. Deze ad hoc berekende metriek en segmenten (anders genoemd geworden &quot;snelle berekende metriek&quot;en &quot;snelle segmenten&quot;) kunnen slechts in het project worden gebruikt waar zij werden gecreeerd, zodat zij afzonderlijk van het &quot;Project&quot;rapporteringsgebied in &quot;Gebruikt in&quot;kolom worden gerapporteerd.</li></ul> |  | 11 sep. 2024 |
+| **Aanvullende informatie in de &quot;Gebruikte in&quot;kolom in de berekende metrische manager en segmentmanager** | De kolom &quot;Gebruikt in&quot;in de berekende metrische manager en segmentmanager bevat de volgende nieuwe rapporteringsgebieden:<ul><li>**Report Builder**: Toont het aantal berekende metriek of segmenten die in de Report Builder worden gebruikt.</li><li>**Ad hoc componenten**: Toont het aantal ad hoc berekende metriek of ad hoc segmenten die in projecten worden gebruikt. Deze ad hoc berekende metriek en segmenten (anders genoemd geworden &quot;snelle berekende metriek&quot;en &quot;snelle segmenten&quot;) kunnen slechts in het project worden gebruikt waar zij werden gecreeerd, zodat zij afzonderlijk van het &quot;Project&quot;rapporteringsgebied in &quot;Gebruikt in&quot;kolom worden gerapporteerd.</li></ul>Voor meer informatie, zie [ Berekende metriekmanager ](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) en [ de manager van het Segment ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11 sep. 2024 |
 | **Activity Map v3 uitbreiding** | De extensie Activity Map v3 is nu beschikbaar. Als u de v2-extensie hebt geïnstalleerd, verwijdert u deze voordat u de v3-extensie installeert. Navigeer naar **[!UICONTROL Tools]** > **[!UICONTROL Activity Map]** voor de nieuwste versie van de extensie. |  | 3 sep. 2024 |
 
 
