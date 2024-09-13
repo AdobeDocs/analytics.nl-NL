@@ -3,9 +3,9 @@ description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse
 title: Bouw een rapport voor een verzoek van de Data Warehouse
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -14,21 +14,27 @@ ht-degree: 0%
 
 Er zijn diverse configuratieopties beschikbaar wanneer het creëren van een verzoek van de Data Warehouse. De volgende informatie beschrijft hoe te om een rapport voor het verzoek te bouwen.
 
-Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [ een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 Om een rapport voor een verzoek van de Data Warehouse te bouwen:
 
-1. Als je nog geen aanvraag hebt ingediend, kun je een aanvraag maken in Adobe Analytics door **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Toevoegen**].
+1. Als u niet reeds hebt, begin creërend een verzoek in Adobe Analytics door te selecteren **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **voeg**] toe.
 
-   Zie voor meer informatie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Voor extra details, zie [ een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
-1. Selecteer op de aanvraagpagina Nieuwe Data Warehouse de optie [!UICONTROL **Uw rapport samenstellen**] tab.
+1. Voor de Nieuwe pagina van het de verzoekverzoek van de Data Warehouse, selecteer [!UICONTROL **Bouw uw rapport**] tabel.
 
-   ![Rapport samenstellen, tabblad](assets/build-report.png)
+   ![ bouwt rapportlusje ](assets/build-report.png)
+
+1. Kies in de linkerbovenhoek de rapportsuite die u wilt gebruiken bij het samenstellen van het rapport van de Data Warehouse.
+
+   Niet zijn alle segmenten die in de Bouwer van het Segment worden gecreeerd compatibel met Data Warehouse. Er wordt een fout weergegeven als u een virtuele rapportsuite met incompatibele segmenten kiest.
+
+   Voor een lijst van gesteunde functies binnen een segment, zie {de verenigbaarheid van het 0} Data Warehouse segment ](/help/components/segmentation/seg-reference/seg-compatibility.md).[
 
 1. Sleep om het even welke segmenten, metriek, en afmetingen in de bouwer. Het rapport u bouwt bepaalt welke gegevens in het verzoek van de Data Warehouse inbegrepen zijn.
 
-1. Ga door met het configureren van uw verzoek voor Data Warehouse op de [!UICONTROL **Doel van rapport**] tab. Zie voor meer informatie [Vorm een rapportbestemming voor een verzoek van de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. Ga verder het vormen van uw verzoek van de Data Warehouse op het [!UICONTROL **doel van het Rapport**] lusje. Voor meer informatie, zie [ een rapportbestemming voor een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) vormen.
 
 <!--
 
