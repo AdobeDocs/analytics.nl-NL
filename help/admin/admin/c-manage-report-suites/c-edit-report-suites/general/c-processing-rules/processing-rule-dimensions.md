@@ -5,7 +5,7 @@ title: Dimensionen waarover verwerkingsvoorschriften kunnen worden toegepast
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
+source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 1%
@@ -22,8 +22,6 @@ De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend ve
 | --- | --- | --- |
 | Aangepaste waarde | Alleen-lezen | Aangepaste tekst of waarden die rechtstreeks in een verwerkingsregel worden getypt. |
 | Samengevoegde waarde | Alleen-lezen | Waarden die worden gemaakt door twee waarden te combineren. U kunt bijvoorbeeld kanaal- en paginanaam combineren om een subcategorie te maken. |
-
-{style="table-layout:auto"}
 
 ## Aanraakkenmerken
 
@@ -47,11 +45,9 @@ De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend ve
 | Hoofddomein van pagina | Alleen-lezen | Het paginadomein van de huidige URL, exclusief subdomeinen. |
 | Klantperspectief | Lezen + schrijven | Een markering die bepaalt of de treffer een mobiele achtergrondhit is. |
 
-{style="table-layout:auto"}
-
 ## Conversievariabelen
 
-| Variabele | Statusbeschrijving lezen/schrijven |
+| Variabele | Status lezen/schrijven | Beschrijving |
 | --- | --- | --- |
 | eVar 1-250 | Lezen + schrijven | [ eVar ](/help/components/dimensions/evar.md) afmetingen. |
 | Campaign | Lezen + schrijven | De [ het Volgen code ](/help/components/dimensions/tracking-code.md) dimensie. |
@@ -60,8 +56,6 @@ De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend ve
 | Postcode | Lezen + schrijven | De [ dimensie van het Postcode ](/help/components/dimensions/zip-code.md). |
 | Valutacode | Lezen + schrijven | De implementatievariabele [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) . BELANGRIJK: als u deze variabele op een ongeldige waarde instelt, wordt de hit genegeerd. |
 | Transactie-id | Lezen + schrijven | De implementatievariabele [`transactionID`](/help/import/data-sources/transactionid.md) . |
-
-{style="table-layout:auto"}
 
 >[!NOTE]
 >Adobe ondersteunt het instellen van de implementatievariabele [`products`](/help/implement/vars/page-vars/products.md) met behulp van verwerkingsregels niet.
@@ -74,8 +68,6 @@ De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend ve
 | Hiërarchie 1-5 | Lezen + schrijven | ](/help/components/dimensions/hierarchy.md) dimensies van 0} Hiërarchie {.[ |
 | Server | Lezen + schrijven | De [ dimensie van de Server ](/help/components/dimensions/server.md). |
 | Kanaal | Lezen + schrijven | De [ sectie van de Plaats ](/help/components/dimensions/site-section.md) dimensie. |
-
-{style="table-layout:auto"}
 
 ## Contextvariabelen
 
@@ -96,4 +88,3 @@ Met verwerkingsregels kunnen gebeurtenissen worden ingesteld, maar deze kunnen n
 | Gebeurtenis 1-1000 | Alleen schrijven | [ de gebeurtenissen van de Douane ](/help/components/metrics/custom-events.md). |
 | Productweergaven | Alleen schrijven | De [ metrische meningen van het Product ](/help/components/metrics/product-views.md). |
 
-{style="table-layout:auto"}
