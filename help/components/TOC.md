@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '803'
 ht-degree: 7%
 
 ---
@@ -253,10 +253,10 @@ ht-degree: 7%
    + [Beperk een Virtuele rapportreeks tot bepaalde data](cda/limit-vrs-date.md)
    + [Veelgestelde vragen over cross-device analyse](cda/faq.md)
 + Waarschuwingen {#alerts}
-   + [Intelligente waarschuwingen](c-alerts/intellligent-alerts.md)
-   + [Alert Builder](c-alerts/alert-builder.md)
-   + [Waarschuwingsbeheer](c-alerts/alert-manager.md)
-   + [Intelligente waarschuwingen - gebruiksgevallen](c-alerts/alerts-use-cases.md)
+   + [Overzicht](c-alerts/intellligent-alerts.md)
+   + [Maken](c-alerts/alert-builder.md)
+   + [Beheren](c-alerts/alert-manager.md)
+   + [Gebruik hoofdletters](c-alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
    + [Overzicht van classificaties](classifications/c-classifications.md)
    + Classificatiesets {#sets}

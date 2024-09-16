@@ -3,93 +3,50 @@ description: Gebruik waarschuwingen in Analysis Workspace.
 title: Overzicht van Alert Builder
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
 
-# Alert Builder
-
->[!IMPORTANT]
->
->Intelligente waarschuwingen zijn beschikbaar voor Adobe [!DNL Analytics] Eerste en Adobe [!DNL Analytics] Alleen ultieme klanten.
-
-U kunt de waarschuwingsfunctie op drie manieren openen:
-
-* Met de volgende sneltoets in Analysis Workspace:
-
-  `ctrl (or cmd) + shift + a`
-* Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
-* Door een of meer vrije regelitems voor tabellen te selecteren, klikt u met de rechtermuisknop en selecteert u **[!UICONTROL Create Alert from Selection]**.
-
-De interface van de Bouwer van de Alarm is vertrouwd aan degenen die ingebouwde segmenten of berekende metriek in hebben [!DNL Analytics]:
-
-![](assets/alert_builder.png)
-
-**Waarschuwingsnaam**
-
-Geef een naam op voor de waarschuwing. De waakzame naam zou de naam van het rapport of de metriedrempel kunnen bevatten.
-
-**Tijdgranulatie**
-
-Geef op wanneer u de metrische waarde wilt controleren: Uur, Dagelijks, Wekelijks of Maandelijks.
+# Waarschuwingen maken
 
 >[!NOTE]
 >
->Voor rapportsuites met een aangepaste kalender ondersteunen we geen maandelijkse granulariteit in de Waarschuwingsbouwer.
+>Intelligente waarschuwingen zijn alleen beschikbaar voor klanten van Adobe Analytics Prime en Adobe Analytics Ultimate.
 
-**Ontvangers**
+Met intelligente waarschuwingen (of alleen &#39;waarschuwingen&#39;) in Adobe Analytics kunt u direct op de hoogte worden gesteld wanneer zich abnormale gebeurtenissen in uw gegevens voordoen. (Het alarm van het het vraaggebruik van de Server is een verschillend soort alarm dat slechts aan de beheerders van Analytics beschikbaar is. Deze waarschuwingen stellen u op de hoogte van het risico of het voorkomen van een overage in de gegevens van het servervraagverbruik en de verplichting. Voor meer informatie, zie {het alarm van het de vraaggebruik van de Server 1}.)[](/help/admin/admin/c-server-call-usage/scu-alerts.md)
 
-Geef op waar de waarschuwing kan worden verzonden. Een waarschuwing kan naar een [!DNL Analytics] gebruiker, en [!DNL Analytics] groep, een onbewerkt e-mailadres of een telefoonnummer.
+Voor meer gedetailleerde overzichtsinformatie over Intelligente Alarm, zie [ het Intelligente overzicht van Alarm ](/help/components/c-alerts/intellligent-alerts.md).
 
->[!IMPORTANT]
->
->Het telefoonnummer moet worden voorafgegaan door een &quot;+&quot; en een [landcode](https://countrycode.org/).
+Een intelligente waarschuwing maken:
 
-**Vervaldatum**
+1. Begin met het maken van een waarschuwing door toegang te krijgen tot de waarschuwingsbuilder. U kunt tot de waakzame bouwer op om het even welke volgende manieren toegang hebben:
 
-Stel de vervaldatum van de waarschuwing in.
+   * Open een project in Analysis Workspace en selecteer vervolgens **[!UICONTROL Components]** > **[!UICONTROL Create alert]** .
+   * Open een project in Analysis Workspace en gebruik vervolgens de volgende sneltoets:
 
-**Een waarschuwing verzenden wanneer...**
+     `ctrl (or cmd) + shift + a`
+   * Open een project in Analysis Workspace, selecteer één of meerdere lijnpunten in een vrije vormlijst, dan klik met de rechtermuisknop aan en selecteer **[!UICONTROL Create alert from selection]**.
 
-*... Een van deze metrische trigger*
+     Dit vult onmiddellijk de waakzame bouwer vooraf in om een alarm met de correcte metriek en de filters tot stand te brengen.
+   * Creeer een alarm [ van waakzame manager ](/help/components/c-alerts/alert-manager.md#create-alerts).
 
-* Sleep metriek naar het canvas waar triggers worden toegevoegd.
+   De waakzame bouwer toont. Deze interface is vertrouwd aan degenen die gebouwde segmenten of berekende metriek in Analytics hebben:
 
-  Let erop dat een **&quot;incompatibele componenten&quot;** Het bericht verschijnt als niet alle componenten (metriek/afmetingen/segmenten) in het alarm compatibel zijn met de momenteel geselecteerde rapportreeks.
+   ![](assets/alert-builder.png)
 
-* Bepaal de drempel die metrisch moet overschrijden alvorens een alarm wordt geplaatst. U kunt deze waarde instellen op een drempel en vervolgens op een van de volgende voorwaarden:
+1. Geef de volgende opties op om de waarschuwing te configureren:
 
-   * anomalie bestaat
-   * anomalie is groter dan verwacht
-   * anomalie is minder dan verwacht
-   * anomalie overschrijdt
-   * is boven of gelijk aan
-   * is lager of gelijk aan
-   * wijzigingen door
+   | Optie | Beschrijving |
+   |---------|----------|
+   | [!UICONTROL **Titel**] | Geef een naam op voor de waarschuwing. De waakzame naam zou de naam van het rapport of de metriedrempel kunnen bevatten. |
+   | [!UICONTROL **Beschrijving (facultatief)**] | Geef een beschrijving voor de waarschuwing op. |
+   | [!UICONTROL **granulariteit van de Tijd**] | Selecteer hoe vaak u de metrische waarde wilt controleren: Dagelijks, Wekelijks of Maandelijks.<p><b> Nota:</b> voor gegevensmeningen met een douanekalender, steunen wij geen maandelijkse granulariteit in de Waakzame Bouwer.<!--true?--></p> |
+   | [!UICONTROL **Ontvangers**] | Geef op waar de waarschuwing kan worden verzonden. Een waarschuwing kan naar een gebruiker van de Analyse, een groep van Analytics, een onbewerkt e-mailadres, of naar een telefoonaantal worden verzonden.<p><b> Belangrijk:</b> het telefoonaantal moet door a &quot;+&quot;en a [ landcode ](https://countrycode.org/) worden voorafgegaan.</p><p>De e-mail die een gebruiker zou ontvangen zodra een alarm is teweeggebracht kijkt gelijkaardig aan dit:</p><p>![](assets/alerts-email.PNG)</p> |
+   | [!UICONTROL **Vervaldatum**] | Stel de datum en tijd in waarop de waarschuwing moet verlopen. |
+   | [!UICONTROL **verzend een alarm wanneer**] | [!UICONTROL **om het even welk van deze metrieke trekker**]: Sleep en dalingsmetriek (met inbegrip van berekende metriek) hier om trekkers voor het alarm tot stand te brengen.<p>Een **&quot;incompatibele componenten&quot;** bericht verschijnt als niet alle metriek, dimensies, of segmenten in de alarm compatibel zijn met de momenteel geselecteerde gegevensmening.</p><p>Bepaal de drempel die metrisch moet overschrijden alvorens een alarm wordt geplaatst. U kunt deze waarde instellen op een drempel en vervolgens op een van de volgende voorwaarden:</p><ul><li>anomalie bestaat</li><li>anomalie is groter dan verwacht</li><li>anomalie is minder dan verwacht</li><li>is boven of gelijk aan</li><li>is lager of gelijk aan</li><li>wijzigingen door</li><li>U kunt een drempel instellen van 90%, 95%, 99%, 99,75% en 99,9%.</li></ul><p>[!UICONTROL **met elk van deze filters**]: Sleep en dalingssegmenten of dimensies om filters toe te voegen. Als u bijvoorbeeld een segment &quot;Alleen mobiele apparaten&quot; toevoegt, betekent dit dat de regel alleen voor mobiele apparaten wordt geactiveerd. U kunt extra filters toevoegen door een EN verklaring te gebruiken. U kunt EN of OF regels toevoegen door het tandwielpictogram te klikken.</p><p>Zie [ Intelligente Alarm - gebruiksgevallen ](/help/components/c-alerts/alerts-use-cases.md) bijvoorbeeld gebruiksgevallen.</p> |
+   | [!UICONTROL **Voorproef**] | De interactieve waarschuwingsvoorvertoning laat zien hoe vaak, ongeveer, een waarschuwing wordt geactiveerd op basis van eerdere ervaringen.<p>Als u bijvoorbeeld de tijdsgranulariteit instelt op dagelijks, kan de voorvertoning u vertellen dat de waarschuwing gedurende een bepaalde metrische x-maal in de afgelopen 30 of 31 dagen zou zijn geactiveerd.</p><p>Als u vindt dat teveel alarm zou teweeggebracht zijn, kunt u de drempel in de [ Waakzame Manager ](/help/components/c-alerts/alert-manager.md) aanpassen.</p><p>![](assets/alert_preview.png)</p> |
 
-* &quot;Anomaly overschrijdt&quot; is een nieuwe voorwaarde die de bestaande (statische) drempels overschrijdt. Het trekt in Anomaly Detection algoritmen die dynamisch de trekker bepalen. U kunt een drempel instellen van 90%, 95%, 99%, 99,75% en 99,9%.
-* Uurgranulariteiten worden vastgesteld op een drempel van 99,75% en dagelijkse granulariteiten op 99%.
-* U kunt ook berekende metriek gebruiken.
-
-*... Met deze filters*
-
-Sleep segmenten of dimensies om filters toe te voegen. Als u bijvoorbeeld een segment &quot;Alleen mobiele apparaten&quot; toevoegt, betekent dit dat de regel alleen voor mobiele apparaten wordt geactiveerd.
-
-Aanvullende filters worden toegevoegd met behulp van de instructie AND.
-
-**Een regel toevoegen**
-
-U kunt EN of OF regels toevoegen door het tandwielpictogram te klikken.
-
-## Waarschuwingsvoorvertoning {#section_10D75BA7B77E4C5FAF58A719C082E070}
-
-De interactieve waarschuwingsvoorvertoning laat zien hoe vaak, ongeveer, een waarschuwing wordt geactiveerd op basis van eerdere ervaringen.
-
-Als u bijvoorbeeld de tijdsgranulariteit instelt op dagelijks, kan de voorvertoning u vertellen dat de waarschuwing gedurende een bepaalde metrische x-maal in de afgelopen 30 of 31 dagen zou zijn geactiveerd.
-
-Als u vindt dat te veel waarschuwingen zijn geactiveerd, kunt u de drempel in het dialoogvenster [Waarschuwingsbeheer](/help/components/c-alerts/alert-manager.md).
-
-![](assets/alert_preview.png)
+1. Selecteer [!UICONTROL **sparen**].

@@ -3,7 +3,7 @@ description: Waarschuwingen beheren.
 title: Overzicht van Waarschuwingsbeheer
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Waarschuwingen maken via het Alarmbeheer:
 
    * [!UICONTROL **de gegevensalarm van Analytics**]: Een alarm om u op de hoogte te brengen wanneer de abnormale gebeurtenissen in uw gegevens voorkomen.
 
-     Als u deze optie selecteert, ga met [ voort creeer alarm ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) voor meer details over het creëren van alarm.
+     Als u deze optie selecteert, ga met [ voort creeer alarm ](/help/components/c-alerts/alert-builder.md) voor meer details over het creëren van alarm.
 
    * [!UICONTROL **het gebruiksalarm van de de vraag van de Server**]: Een alarm om u van het risico of het voorkomen van een overschrijding in uw de consumptie en verplichtingsgegevens van de servervraag op de hoogte te brengen.
 
