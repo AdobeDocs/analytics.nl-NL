@@ -5,9 +5,9 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 8f63211c3fd9070b1ef47ad409364507b7a9c4b4
+source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Klik de **montages van de Visualisatie** binnen binnen aan het hoogste recht om 
 
 ## [!UICONTROL Summary Change] visualisatie {#summary-change}
 
-Gebruik [!UICONTROL Summary Change] visualisatie om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van [!UICONTROL Summary Change] kan door [ polariteit van de douanegebeurtenis ](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) of de berekende metrische [ tonen de Naar vorenTrend als ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) optie worden gecontroleerd.
+Gebruik [!UICONTROL Summary Change] visualisatie om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van [!UICONTROL Summary Change] kan door [ polariteit van de douanegebeurtenis ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) of de berekende metrische [ tonen de Naar vorenTrend als ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) optie worden gecontroleerd.
 
 Deze visualisatie werkt op de volgende manieren:
 
