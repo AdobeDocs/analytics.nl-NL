@@ -3,9 +3,9 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: Gebruiksscenario's voor analyse
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 9%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 Hieronder volgen enkele belangrijke manieren waarop Adobe Analytics organisaties kan helpen om kritische inzichten te verwerven om hun klanten beter te kunnen dienen.
 
-Zie voor meer informatie over de voordelen die Adobe Analytics biedt de [Adobe Analytics-productpagina](https://business.adobe.com/products/analytics/adobe-analytics.html).
+Voor extra details over de voordelen die Adobe Analytics verstrekt, zie de [ het productpagina van Adobe Analytics ](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
 ## Webanalyse
 
@@ -24,7 +24,7 @@ Adobe Analytics biedt de volgende complexe segmentatie en voorspellende hulpmidd
 
 * [Stroomanalyse](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [Geavanceerde segmentering](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+* [ Geavanceerde segmentatie ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
 
 
 ## Marketing Analytics
@@ -33,9 +33,9 @@ Adobe Analytics helpt organisaties te begrijpen waar klanten met hun merken in w
 
 De volgende belangrijke functies in Adobe Analytics bieden de volgende marketingmogelijkheden:
 
-* [Multikanaalgegevensverzameling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
+* [ Multikanaalgegevensinzameling ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
 
-* [Offline gegevensintegratie](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
+* [ Offlinegegevensintegratie ](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
 
 * [Ad-hocanalyse in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
@@ -43,7 +43,7 @@ De volgende belangrijke functies in Adobe Analytics bieden de volgende marketing
 
 De attributie laat organisaties zien hoe de verschillende interactie door de klantenreis omzetting beïnvloedt. Naast meer traditionele attributieopties, zoals Lineair of First Touch-modellen, gebruikt Attribution in Adobe Analytics ook machinaal leren en geavanceerde statistische modellen om de precieze impact van elke aanraking te begrijpen.
 
-Zie voor meer informatie [Attributiemodellen en terugzoekvensters](/help/analyze/analysis-workspace/attribution/models.md).
+Voor meer informatie, zie [ modellen van de Attributie en raadplegingsvensters ](/help/analyze/analysis-workspace/attribution/models.md).
 
 ## Predictieve analyse
 
@@ -51,8 +51,8 @@ Voor voorspellende analyses wordt gebruikgemaakt van machinaal leren en geavance
 
 De volgende belangrijke functies in Adobe Analytics bieden deze voorspellende mogelijkheden:
 
-* [Anomalische detectie](#anomaly-detection)
+* [Anomalische detectie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)
 
-* [Bijdrage-analyse](#contribution-analysis)
+* [Bijdrage-analyse](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [Intelligente waarschuwingen](#intelligent-alerts)
+* [Waarschuwingen](/help/components/c-alerts/intellligent-alerts.md)

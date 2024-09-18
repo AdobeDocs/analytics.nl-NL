@@ -3,9 +3,9 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: De interface Analytics begrijpen
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2060'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ Het tabblad [!UICONTROL Components] bevat functies die u helpen uw gegevensanaly
    | Berekende cijfers | Berekende en Geavanceerde berekende (of Afgeleide) metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.  Zij staan marketers, productmanagers, en analisten toe om vragen van de gegevens te stellen zonder het moeten de implementatie van Analytics veranderen. | [ Berekende en Geavanceerde Berekende metriek ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
    | Datumbereiken | Analysis Workspace bevat een lijst met standaarddatumbereiken die gebruikers kunnen gebruiken bij het samenstellen van analyses. Bovendien kunt u aangepaste datumbereiken maken en deze beschikbaar maken voor gebruikers in Analysis Workspace. | [ creeer de waaiers van de douanedatum ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Virtuele rapportsuites | De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analytics zodat kunt u toegang tot elk segment controleren. | [Overzicht van virtuele rapportsuites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html) |
-   | Waarschuwingen | Intelligente waarschuwingen maken een gedetailleerdere controle mogelijk op waarschuwingen en integreren de detectie van anomalieën met het waarschuwingssysteem. | [Intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
+   | Waarschuwingen | Alarm maakt meer korrelige controle mogelijk over waarschuwingen en integreert anomaliedetectie met het waarschuwingssysteem. | [ overzicht van het alarm ](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
    | Annotaties | Met annotaties in Workspace kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie doorgeven. Met deze sjablonen kunt u kalendergebeurtenissen koppelen aan specifieke dimensies en metriek. | [ beheert annotaties ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html) |
    | Classificatiesets | Classificatiesets bieden één interface voor het beheer van classificaties en regels. <p>Een classificatie is een manier om de veranderlijke gegevens van Analytics te categoriseren, dan tonend de gegevens op verschillende manieren wanneer u rapporten produceert. U brengt een relatie tot stand tussen een variabele waarde en metagegevens die betrekking hebben op die waarde. Classificaties kunnen worden gebruikt voor de meeste aangepaste afmetingen, zoals trackingcode, proefdrukken en eVars.</p> | [ overzicht van de reeksen van de Classificatie ](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html) |
    | Locaties | Als u Adobe Analytics-classificatiegegevens wilt importeren van een cloudbestemming, moet u eerst de locatie toevoegen en configureren waar u de classificatiegegevens wilt verzamelen. U kunt locaties maken, bewerken of verwijderen. | [ de manager van Plaatsen ](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html) |

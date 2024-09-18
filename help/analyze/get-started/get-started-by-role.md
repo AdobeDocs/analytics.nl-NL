@@ -3,9 +3,9 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: Aan de slag voor beheerders, analisten, eindgebruikers en ontwikkelaars
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1692'
 ht-degree: 4%
 
 ---
@@ -109,7 +109,7 @@ Hier volgen enkele belangrijke taken en functies waarmee analisten vertrouwd moe
 | Attributie | De analisten kunnen aanpassen hoe de afmetingspunten krediet voor succesgebeurtenissen door diverse attributiemodellen en terugkijkvensters in Analysis Workspace te gebruiken krijgen.<p>Lineaire-attributiemodellen geven hetzelfde krediet aan elk aanraakpunt voorafgaand aan een conversie, terwijl First Touch het eerste aanraakpunt volledig crediteert. Er zijn veel andere toewijzingsmodellen beschikbaar, waaronder het Algorithmic-model, dat statistische technieken gebruikt om de optimale allocatie van krediet dynamisch te bepalen. </p> | [ modellen van de Attributie en raadplegingsvensters ](/help/analyze/analysis-workspace/attribution/models.md) |
 | Anomalische detectie | Statistische modellering in Analysis Workspace vindt automatisch onverwachte tendensen in uw gegevens door metriek te analyseren en een ondergrens, bovengrens, en verwachte waaier van waarden te bepalen. Wanneer een onverwachte punt of daling voorkomt, alarmeert het systeem u in het rapport. | [Overzicht van anomaliedetectie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Bijdrage-analyse | Gebruik Analysis Workspace om verborgen patronen in uw gegevens te ontdekken om statistische anomalieën te verklaren en correlaties achter onverwachte klantenacties, uit-van-gebonden waarden, en plotselinge pieken of vallen voor metriek over publiekssegmenten te identificeren. | [ Analyse van de Bijdrage ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) in [ Anomaly Overzicht van de Opsporing ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| Intelligente waarschuwingen | Maak en beheer waarschuwingen op basis van gegevensanomalieën en &#39;gestapelde&#39; waarschuwingen die meerdere metriek in één waarschuwing vastleggen. | [Overzicht van intelligente waarschuwingen](/help/components/c-alerts/intellligent-alerts.md) |
+| Waarschuwingen | Maak en beheer waarschuwingen op basis van gegevensanomalieën en &#39;gestapelde&#39; waarschuwingen die meerdere metriek in één waarschuwing vastleggen. | [ overzicht van het alarm ](/help/components/c-alerts/intellligent-alerts.md) |
 | Gegevens exporteren | Met Data Warehouse- en gegevensfeeds kunt u gegevens exporteren naar verschillende cloudinstellingen, zoals Google Cloud Platform, Azure RBAC, Azure SAS en Amazon S3. | [ Gids van de Uitvoer van Analytics ](https://experienceleague.adobe.com/docs/analytics/export/home.html) |
 | Activiteitenoverzicht | Activity Map is een Adobe Analytics-toepassing die is ontworpen om linkactiviteiten met behulp van visuele overlays te rangschikken en die een dashboard van realtime analyses biedt om de betrokkenheid van het publiek van uw webpagina&#39;s te controleren.<p>Met Activity Map kunt u verschillende weergaven instellen om visueel de versnelling van klantactiviteiten te identificeren, marketinginitiatieven te kwantificeren en op de behoeften en het gedrag van het publiek in te spelen.</p> | [ Activity Map ](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
 | Report Builder | Report Builder is een add-in voor Microsoft Excel. Met Report Builder kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens die in uw Excel-werkbladen worden ingevoegd. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft. | [ Report Builder ](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |

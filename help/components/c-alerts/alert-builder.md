@@ -3,9 +3,9 @@ description: Gebruik waarschuwingen in Analysis Workspace.
 title: Overzicht van Alert Builder
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Intelligente waarschuwingen zijn alleen beschikbaar voor klanten van Adobe Analytics Prime en Adobe Analytics Ultimate.
+>Het gebruiken van alarm met anomalieopsporing (die ook als _Intelligente Alarm_ wordt bekend) is beschikbaar slechts aan organisaties met een Uitgezochte Adobe Analytics, Primair, of Ultimate pakket.
 
-Met intelligente waarschuwingen (of alleen &#39;waarschuwingen&#39;) in Adobe Analytics kunt u direct op de hoogte worden gesteld wanneer zich abnormale gebeurtenissen in uw gegevens voordoen. (Het alarm van het het vraaggebruik van de Server is een verschillend soort alarm dat slechts aan de beheerders van Analytics beschikbaar is. Deze waarschuwingen stellen u op de hoogte van het risico of het voorkomen van een overage in de gegevens van het servervraagverbruik en de verplichting. Voor meer informatie, zie {het alarm van het de vraaggebruik van de Server 1}.)[](/help/admin/admin/c-server-call-usage/scu-alerts.md)
+Met waarschuwingen in Adobe Analytics kunt u op basis van gewijzigde percentages of specifieke gegevenspunten op de hoogte worden gesteld. Afhankelijk van het Adobe Analytics-pakket kunt u ook waarschuwingen gebruiken die op basis van afwijkende drempelwaarden moeten worden geactiveerd. (Het alarm van het het vraaggebruik van de Server is een verschillend soort alarm dat slechts aan de beheerders van Analytics beschikbaar is. Deze waarschuwingen stellen u op de hoogte van het risico of het voorkomen van een overage in de gegevens van het servervraagverbruik en de verplichting. Voor meer informatie, zie {het alarm van het de vraaggebruik van de Server 1}.)[](/help/admin/admin/c-server-call-usage/scu-alerts.md)
 
-Voor meer gedetailleerde overzichtsinformatie over Intelligente Alarm, zie [ het Intelligente overzicht van Alarm ](/help/components/c-alerts/intellligent-alerts.md).
+Voor meer gedetailleerde overzichtsinformatie over alarm, zie [ het overzicht van Alarm ](/help/components/c-alerts/intellligent-alerts.md).
 
-Een intelligente waarschuwing maken:
+Een waarschuwing maken:
 
 1. Begin met het maken van een waarschuwing door toegang te krijgen tot de waarschuwingsbuilder. U kunt tot de waakzame bouwer op om het even welke volgende manieren toegang hebben:
 
@@ -46,7 +46,7 @@ Een intelligente waarschuwing maken:
    | [!UICONTROL **granulariteit van de Tijd**] | Selecteer hoe vaak u de metrische waarde wilt controleren: Dagelijks, Wekelijks of Maandelijks.<p><b> Nota:</b> voor gegevensmeningen met een douanekalender, steunen wij geen maandelijkse granulariteit in de Waakzame Bouwer.<!--true?--></p> |
    | [!UICONTROL **Ontvangers**] | Geef op waar de waarschuwing kan worden verzonden. Een waarschuwing kan naar een gebruiker van de Analyse, een groep van Analytics, een onbewerkt e-mailadres, of naar een telefoonaantal worden verzonden.<p><b> Belangrijk:</b> het telefoonaantal moet door a &quot;+&quot;en a [ landcode ](https://countrycode.org/) worden voorafgegaan.</p><p>De e-mail die een gebruiker zou ontvangen zodra een alarm is teweeggebracht kijkt gelijkaardig aan dit:</p><p>![](assets/alerts-email.PNG)</p> |
    | [!UICONTROL **Vervaldatum**] | Stel de datum en tijd in waarop de waarschuwing moet verlopen. |
-   | [!UICONTROL **verzend een alarm wanneer**] | [!UICONTROL **om het even welk van deze metrieke trekker**]: Sleep en dalingsmetriek (met inbegrip van berekende metriek) hier om trekkers voor het alarm tot stand te brengen.<p>Een **&quot;incompatibele componenten&quot;** bericht verschijnt als niet alle metriek, dimensies, of segmenten in de alarm compatibel zijn met de momenteel geselecteerde gegevensmening.</p><p>Bepaal de drempel die metrisch moet overschrijden alvorens een alarm wordt geplaatst. U kunt deze waarde instellen op een drempel en vervolgens op een van de volgende voorwaarden:</p><ul><li>anomalie bestaat</li><li>anomalie is groter dan verwacht</li><li>anomalie is minder dan verwacht</li><li>is boven of gelijk aan</li><li>is lager of gelijk aan</li><li>wijzigingen door</li><li>U kunt een drempel instellen van 90%, 95%, 99%, 99,75% en 99,9%.</li></ul><p>[!UICONTROL **met elk van deze filters**]: Sleep en dalingssegmenten of dimensies om filters toe te voegen. Als u bijvoorbeeld een segment &quot;Alleen mobiele apparaten&quot; toevoegt, betekent dit dat de regel alleen voor mobiele apparaten wordt geactiveerd. U kunt extra filters toevoegen door een EN verklaring te gebruiken. U kunt EN of OF regels toevoegen door het tandwielpictogram te klikken.</p><p>Zie [ Intelligente Alarm - gebruiksgevallen ](/help/components/c-alerts/alerts-use-cases.md) bijvoorbeeld gebruiksgevallen.</p> |
+   | [!UICONTROL **verzend een alarm wanneer**] | [!UICONTROL **om het even welk van deze metrieke trekker**]: Sleep en dalingsmetriek (met inbegrip van berekende metriek) hier om trekkers voor het alarm tot stand te brengen.<p>Een **&quot;incompatibele componenten&quot;** bericht verschijnt als niet alle metriek, dimensies, of segmenten in de alarm compatibel zijn met de momenteel geselecteerde gegevensmening.</p><p>Bepaal de drempel die metrisch moet overschrijden alvorens een alarm wordt geplaatst. U kunt deze waarde instellen op een drempel en vervolgens op een van de volgende voorwaarden:</p><ul><li>anomalie bestaat</li><li>anomalie is groter dan verwacht</li><li>anomalie is minder dan verwacht</li><li>is boven of gelijk aan</li><li>is lager of gelijk aan</li><li>wijzigingen door</li><li>U kunt een drempel instellen van 90%, 95%, 99%, 99,75% en 99,9%.</li></ul><p>[!UICONTROL **met elk van deze filters**]: Sleep en dalingssegmenten of dimensies om filters toe te voegen. Als u bijvoorbeeld een segment &quot;Alleen mobiele apparaten&quot; toevoegt, betekent dit dat de regel alleen voor mobiele apparaten wordt geactiveerd. U kunt extra filters toevoegen door een EN verklaring te gebruiken. U kunt EN of OF regels toevoegen door het tandwielpictogram te klikken.</p><p>Zie [ Alarm - gebruiksgevallen ](/help/components/c-alerts/alerts-use-cases.md) bijvoorbeeld gebruiksgevallen.</p> |
    | [!UICONTROL **Voorproef**] | De interactieve waarschuwingsvoorvertoning laat zien hoe vaak, ongeveer, een waarschuwing wordt geactiveerd op basis van eerdere ervaringen.<p>Als u bijvoorbeeld de tijdsgranulariteit instelt op dagelijks, kan de voorvertoning u vertellen dat de waarschuwing gedurende een bepaalde metrische x-maal in de afgelopen 30 of 31 dagen zou zijn geactiveerd.</p><p>Als u vindt dat teveel alarm zou teweeggebracht zijn, kunt u de drempel in de [ Waakzame Manager ](/help/components/c-alerts/alert-manager.md) aanpassen.</p><p>![](assets/alert_preview.png)</p> |
 
 1. Selecteer [!UICONTROL **sparen**].

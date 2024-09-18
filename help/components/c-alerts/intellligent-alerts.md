@@ -1,31 +1,35 @@
 ---
-description: Het systeem van de Intelligente Alarm staat voor meer korrelige controle over alarm toe en integreert anomalieopsporing met het waakzame systeem.
-title: Intelligente waarschuwingen
+description: Alarm maakt korrelige controle over meldingen mogelijk, en integratie met anomaliedetectie.
+title: Overzicht van waarschuwingen
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# Overzicht van intelligente waarschuwingen
+# Overzicht van waarschuwingen
 
-Met intelligente waarschuwingen (of alleen &#39;waarschuwingen&#39;) in Adobe Analytics kunt u direct op de hoogte worden gesteld wanneer zich abnormale gebeurtenissen in uw gegevens voordoen.
+Met waarschuwingen in Adobe Analytics kunt u op basis van gewijzigde percentages of specifieke gegevenspunten op de hoogte worden gesteld.
 
-U kunt waarschuwingen instellen die moeten worden geactiveerd op basis van afwijkende drempelwaarden, gewijzigde percentages of specifieke gegevenspunten. Het alarm verstrekt korrelige controles die met [ Anomaly Detectie ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) integreren, die teweegbrengen wanneer u hen het meest nodig hebt.
+Afhankelijk van het Adobe Analytics-pakket kunt u ook waarschuwingen gebruiken die op basis van afwijkende drempelwaarden moeten worden geactiveerd. Deze alarm (die ook als &quot;Intelligente Alarm&quot;wordt bekend), verstrekt korrelige controles die met [ Anomaly Detectie ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) integreren, die teweegbrengen wanneer u hen het meest nodig hebt.
 
-Met intelligente waarschuwingen kunt u:
+Met waarschuwingen kunt u:
 
-* Waarschuwingen opbouwen op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempels; procentuele wijziging; boven/onder))
 * Voorbeeld van hoe vaak een waarschuwing wordt geactiveerd
 * Waarschuwingen verzenden via e-mail of SMS met koppelingen naar automatisch gegenereerde Analysis Workspace-projecten
 * &quot;gestapelde&quot; waarschuwingen maken die meerdere meetgegevens vastleggen in één waarschuwing
+* Berichten maken op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempelwaarden; % wijziging; boven/onder) (Alleen beschikbaar voor Adobe Analytics-klanten met een Select-, Premier- of Ultimate-pakket)
 
-Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Intelligente Alarm ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Alarm ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Anomalische zoekopdracht voor waarschuwingen
+
+>[!NOTE]
+>
+>Het gebruiken van alarm met anomalieopsporing (die ook als _Intelligente Alarm_ wordt bekend) is beschikbaar slechts aan organisaties met een Uitgezochte Adobe Analytics, Primair, of Ultimate pakket.
 
 Als een waarschuwing afwijkende detectie gebruikt, varieert de trainingsperiode op basis van de voor de waarschuwing geselecteerde granulariteit.
 
@@ -42,7 +46,7 @@ Voor informatie over hoe te om alarm in Adobe Analytics tot stand te brengen, zi
 
 >[!IMPORTANT]
 >
->Het gebruik van tijdstempelgegevens voor het maken van waarschuwingen kan ervoor zorgen dat waarschuwingen onjuist worden afgespeeld. Adobe raadt u aan om niet-tijdstempelgegevens te gebruiken voor intelligente waarschuwingen.
+>Het gebruik van tijdstempelgegevens voor het maken van waarschuwingen kan ervoor zorgen dat waarschuwingen onjuist worden afgespeeld. Adobe raadt aan om niet-tijdstempelgegevens te gebruiken voor waarschuwingen.
 
 ## Waarschuwingen beheren
 
