@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6a534c13e1a3a54eba62733cf4802acc40f77f46
+source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3570'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | **`mobileresolution`** | Resolutie van het mobiele apparaat. `[Width] x [Height]` in pixels. | varchar(255) |
 | **`monthly_visitor`** | Een markering die bepaalt of de bezoeker uniek is voor de huidige maand. | tinyint zonder teken |
 | **`mvvar1`** - `mvvar3` | [ de veranderlijke ](/help/implement/vars/page-vars/list.md) waarden van de Lijst. Bevat een lijst met gescheiden waarden, afhankelijk van de implementatie. De kolommen `post_mvvar1` - `post_mvvar3` vervangen het oorspronkelijke scheidingsteken door `--**--` . | text |
-| **`mvvar1_instances`** - `mvvar3_instances` | De waarden van de lijstvariabele die op de huidige treffer werden geplaatst. Hiermee vervangt u het oorspronkelijke scheidingsteken door `--**--` . Heeft geen `post` -kolom. | text |
+| **`mvvar1_instances`** - `mvvar3_instances` | De waarden van de lijstvariabele die op de huidige treffer werden geplaatst. Hiermee vervangt u het oorspronkelijke scheidingsteken door `--**--` . De kolommen `post` bevatten doorgaans geen gegevens. | text |
 | **`new_visit`** | Een vlag die bepaalt als de huidige slag een nieuw bezoek is. Wordt ingesteld door Adobe na 30 minuten inactiviteit van het bezoek. | tinyint zonder teken |
 | **`os`** | Een numerieke id die het besturingssysteem van de bezoeker vertegenwoordigt. Gebaseerd op de kolom `user_agent` . De zeer belangrijke waarde voor `operating_system.tsv` standaardraadpleging en `operating_system_type.tsv` [ Dynamische raadpleging ](dynamic-lookups.md). | int zonder teken |
 | **`page_event`** | Het type hit dat wordt verzonden in de aanvraag voor de afbeelding (standaardhit, downloadkoppeling, aangepaste koppeling, afsluitkoppeling). Zie [ de gebeurtenisraadpleging van de Pagina ](datafeeds-page-event.md). | tinyint zonder teken |
