@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Cloud-import- en exportaccounts configureren
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
+source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Een cloudimport- of -exportaccount configureren:
 
    >[!NOTE]
    >
-   >De e-mailrekeningen kunnen slechts met [ Diefstal van Gegevens ](/help/export/analytics-data-feed/create-feed.md) worden gebruikt. (E-mailrekeningen worden niet gesteund met [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) of [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md)).
+   >De e-mailrekeningen kunnen slechts met [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) worden gebruikt. (De e-mailrekeningen worden niet gesteund met [ de Reeksen van de Diervoeders van Gegevens ](/help/export/analytics-data-feed/create-feed.md) of [ Indeling ](/help/components/classifications/sets/overview.md)).
 
    Geef de volgende informatie op om een Azure RBAC-account te configureren:
 
