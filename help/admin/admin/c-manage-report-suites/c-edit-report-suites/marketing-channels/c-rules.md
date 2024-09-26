@@ -4,9 +4,9 @@ description: De de verwerkingsregels van het Kanaal van de marketing bepalen als
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
@@ -15,23 +15,23 @@ ht-degree: 0%
 
 Regels voor de verwerking van marketingkanalen bepalen of een bezoeker voldoet aan de criteria die aan een kanaal zijn toegewezen door elke hit die een bezoeker op uw site maakt, te verwerken. De regels worden verwerkt in de volgorde die u opgeeft en wanneer aan een regel wordt voldaan, stopt het systeem met het verwerken van de resterende regels.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]** .
 
 ![](assets/buckets_2.png)
 
 Aanvullende opmerkingen over de verwerking:
 
-* De gegevens die met deze regels worden verzameld, zijn permanent. Regels die na gegevensverzameling worden gewijzigd, zijn niet met terugwerkende kracht. Adobe raadt u ten zeerste aan alle omstandigheden te bekijken en in overweging te nemen voordat u het bestand opslaat [!UICONTROL Marketing Channel Processing Rules] om gegevens te beperken die in onjuiste kanalen worden verzameld.
+* De gegevens die met deze regels worden verzameld, zijn permanent. Regels die na gegevensverzameling worden gewijzigd, zijn niet met terugwerkende kracht. Adobe raadt u ten zeerste aan alle omstandigheden te bekijken en te overwegen voordat u [!UICONTROL Marketing Channel Processing Rules] opslaat om te voorkomen dat gegevens die op onjuiste kanalen worden verzameld, worden verzameld.
 * U kunt maximaal 25 afzonderlijke marketingkanalen configureren.
 * De regels kunnen tot variabelen toegang hebben die VISTA heeft geplaatst, maar kunnen tot geen gegevens toegang hebben die VISTA heeft geschrapt.
 * Twee marketingkanalen krijgen nooit krediet voor dezelfde gebeurtenis (zoals aankopen of klikken). Op deze manier verschillen de afzetkanalen van eVars (waar twee eVars kredieten voor dezelfde gebeurtenis kunnen ontvangen).
-* Als er een hiaatdekking van uw regels is, kunt u zien [Geen kanaal geïdentificeerd.](/help/components/c-marketing-channels/c-faq.md)
+* Als er een hiaatdekking van uw regels is, kunt u [ Geen Geïdentificeerd Kanaal zien.](/help/components/c-marketing-channels/c-faq.md)
 
 ## Vereisten
 
-* Bekijk de conceptuele informatie in [Aan de slag met marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-* Maak een of meer kanalen zodat u er regels aan kunt toewijzen. Zie [Marketingkanalen toevoegen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Bekijk de beste praktijken voor het gebruiken [!UICONTROL Marketing Channels] with [!UICONTROL Attribution].
+* Herzie de conceptuele informatie in [ Begonnen het Worden met de Kanalen van de Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+* Maak een of meer kanalen zodat u er regels aan kunt toewijzen. Zie [ marketing kanalen ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) toevoegen.
+* Bekijk de aanbevolen procedures voor het gebruik van [!UICONTROL Marketing Channels] met [!UICONTROL Attribution] .
 
 ## Verwerkingsregels voor marketingkanalen maken
 
@@ -40,19 +40,19 @@ Maak verwerkingsregels voor marketingkanalen die bepalen of een bezoeker voldoet
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 2. Selecteer een rapportsuite.
 
-   Als er in uw rapportsuite geen kanalen zijn gedefinieerd, worden de [!UICONTROL Marketing Channels: Auto Setup] wordt weergegeven.
+   Als in uw rapportsuite geen kanalen zijn gedefinieerd, wordt de pagina [!UICONTROL Marketing Channels: Auto Setup] weergegeven.
 
-   Zie [Automatische installatie uitvoeren](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Zie [ in werking stellen de Automatische Opstelling ](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 3. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**. Als u de automatische opstelling in werking stelde, werden een reeks kanaal en regels automatisch bepaald voor u.
 
    ![Stap Resultaat](assets/marketing_channel_rules.png)
 
-4. Als u een regel wilt toevoegen, selecteert u een regel in het menu **[!UICONTROL Add New Rule Set]** -menu. Als u een kanaal selecteert, krijgt u een regelmalplaatje en als u Douane selecteert, begint u van een lege plaats. Met beide opties kunt u de regelset naar wens wijzigen.
+4. Als u een regel wilt toevoegen, selecteert u deze in het menu **[!UICONTROL Add New Rule Set]** . Als u een kanaal selecteert, krijgt u een regelmalplaatje en als u Douane selecteert, begint u van een lege plaats. Met beide opties kunt u de regelset naar wens wijzigen.
 
    ![Stap Resultaat](assets/example_email.png)
 
-5. Als u regels wilt blijven maken, klikt u op **[!UICONTROL Add New Rule SetRule]**.
+5. Klik op **[!UICONTROL Add New Rule SetRule]** om door te gaan met het maken van regels.
 6. Als u regels een prioriteit wilt geven, sleept u ze naar de gewenste positie.
 7. Klikken **[!UICONTROL Save.]**
 
@@ -66,16 +66,16 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 
 >[!NOTE]
 >
->Elk tekstveld dat u definieert, zoals een querytekenreeksparameter of lijsten met waarden die u wilt vergelijken, worden geëvalueerd als **hoofdlettergevoelig** waarden. Bijvoorbeeld, als u een regel hebt waar de parameter van het vraagkoord `cmp = abc123`, alle variaties in hoofdletters en kleine letters van beide `cmp` en `abc123` match.
+>Om het even welk tekstgebied dat u, zoals de parameter van het vraagkoord of lijsten van waarden bepaalt om tegen aan te passen, wordt geëvalueerd als **case-insensitive** waarden. Als u bijvoorbeeld een regel hebt waarin de parameter van de querytekenreeks `cmp = abc123` voorkomt, komen alle verschillen tussen hoofdletters en kleine letters van zowel `cmp` als `abc123` overeen.
 
 | Term | Definitie |
 |--- |--- |
 | Alle | Activeert dit kanaal slechts wanneer alle criteria in de regel waar zijn. |
 | Alle | Activeert dit kanaal wanneer om het even welke criteria in de regel waar zijn. Deze optie is alleen beschikbaar als de regel meer dan één criterium bevat. |
-| AMO-id | De primaire volgcode die wordt gebruikt door de Advertising Cloud- en Advertising Analytics-integratie. Wanneer een van deze integraties is ingeschakeld, kunt u het voorvoegsel van de trackingcode gebruiken om specifieke Advertising Cloud-kanalen te identificeren. Gebruik &#39;AMO-id&#39; om te beginnen met &#39;AL&#39; voor zoeken, &#39;AC&#39; voor weergave of &#39;AO&#39; voor sociaal. Wanneer de AMO-id wordt gebruikt in marketingkanalen, kunnen de maatstaven voor klikken/kosten/indruk worden toegewezen aan het juiste kanaal (wanneer deze niet zijn geconfigureerd, gaan deze meetgegevens naar Direct of Geen). |
-| AMO-ID | De code voor secundaire tracering die door Advertising Cloud wordt gebruikt. Het belangrijkste doel van deze volgcode is als sleutel te dienen voor het terugsturen van gegevens naar Ad Cloud. Het kan echter ook worden gebruikt om vertoning ClickThroughs vs. display ViewThroughs te identificeren als u deze als twee afzonderlijke marketing kanalen wilt zien. Dit kan worden gedaan door de logica voor het marketingkanaal voor &quot;AMO EF ID&quot;-einden in te stellen met `:d` voor Display ClickThroughs of &quot;AMO EF ID&quot; eindigt met `:i` voor weergaveweergaven. Als u Weergave niet in twee kanalen wilt splitsen, gebruikt u in plaats daarvan de dimensie AMO-id. |
+| AMO-id | De primaire volgcode die wordt gebruikt door de Adobe Advertising- en Advertising Analytics-integratie. Wanneer een van deze integraties is ingeschakeld, kunt u het voorvoegsel van de trackingcode gebruiken om specifieke Advertising-kanalen te identificeren. Gebruik een &#39;AMO-id&#39; die begint met &#39;AL&#39; voor zoeken en sociaal zoeken of &#39;AC&#39; voor weergave. Wanneer de AMO-id wordt gebruikt in marketingkanalen, kunnen de maatstaven voor klikken/kosten/indruk worden toegewezen aan het juiste kanaal. Als de AMO-id niet is geconfigureerd, gaan deze meetgegevens naar Direct of Geen. |
+| AMO EF-ID | De secundaire die volgcode door Adobe Advertising wordt gebruikt. Het belangrijkste doel van deze volgcode is als sleutel te dienen voor het terugsturen van gegevens naar Advertising. Het kan, echter, ook worden gebruikt om DisplayClickThroughs en DisplayThroughs als twee afzonderlijke marketing kanalen te identificeren. Hiervoor stelt u de logica voor het marketingkanaal in voor &#39;AMO EF-id&#39; die eindigt met `:d` voor het weergeven van doorklikbewerkingen of voor &#39;AMO EF-id&#39; die eindigt met `:i` voor Display ViewThroughs. Als u Weergave niet in twee kanalen wilt splitsen, gebruikt u in plaats daarvan de dimensie AMO-id. |
 | Conversievariabelen | Bestaat uit eVars die voor deze rapportsuite zijn ingeschakeld en alleen van toepassing zijn wanneer deze variabelen via de code van de Adobe op de pagina zijn ingesteld. |
-| Exists | Er zijn verschillende selecties beschikbaar, waaronder:<ul><li>**Bestaat niet**: Geeft op dat het kenmerk hit niet bestaat in de aanvraag. Als de gebruiker bijvoorbeeld in een verwijzend domein een URL typt of op een bladwijzer klikt, bestaat het kenmerk van het verwijzende domein niet.</li><li>**Is leeg**: Geeft op dat er een aanraakkenmerk bestaat, meestal een eVar- of querytekenreeksparameter, maar er is geen waarde gekoppeld aan het aanraakkenmerk.</li><li>**Bevat niet**: Hiermee kunt u bijvoorbeeld opgeven dat een verwijzend domein geen specifieke waarde bevat (in tegenstelling tot het gebruik van de selectie &quot;Bevat&quot;.)</li></ul> |
+| Exists | Er zijn verschillende selecties beschikbaar, waaronder:<ul><li>**bestaat niet**: Specificeert dat het slagattribuut niet op het verzoek bestaat. Als de gebruiker bijvoorbeeld in een verwijzend domein een URL typt of op een bladwijzer klikt, bestaat het kenmerk van het verwijzende domein niet.</li><li>**is Leeg**: Specificeert dat een klapattribuut bestaat, gewoonlijk een eVar of vraagkoordparameter, maar er is geen waarde verbonden aan de klapattributen.</li><li>**bevat niet**: Laat u specificeren, bijvoorbeeld, dat een verwijzend domein geen specifieke waarde bevat (in tegenstelling tot het gebruiken van de selectie &quot;bevat&quot;.)</li></ul> |
 | Het kanaal identificeren als | Koppelt de regel aan een marketingkanaal dat u aan de pagina Kanaalbeheer voor marketing hebt toegevoegd. |
 | Komt overeen met regels voor betaalde zoekdetectie | Een betaalde zoekopdracht gevonden door de Adobe. Betaalde zoekopdrachten worden uitgevoerd wanneer bedrijven kosten betalen voor de zoekfunctie om hun site te kunnen aanbieden. Betaalde zoekopdrachten worden meestal boven of rechts in de zoekresultaten weergegeven. |
 | Overeenkomsten met de regels voor natuurlijke zoekdetectie | Een niet-betaalde zoekopdracht die wordt gedetecteerd door de rapportage van de Adobe. |
@@ -83,21 +83,21 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 | Referrer komt niet overeen met interne URL-filters | De verwijzende URL komt niet overeen met een intern URL-filter, zoals gedefinieerd voor de rapportsuite in Admin Tools. U kunt deze instelling gebruiken met de URL van de pagina en bestaat om een algemene regel voor alle vangsten in te stellen, zodat geen van de bezoeken wordt aangeland in de sectie Geen kanaal geïdentificeerd van het rapport. |
 | Sluiten negeren die overeenkomen met interne URL-filters | (Voor referentie) Tracks komen alleen van extern genoemde sites. Laat deze instelling meestal ingeschakeld, tenzij u intern verkeer wilt opnemen. |
 | Is de eerste bezoekpagina | De eerste pagina van een bezoek die wordt gedetecteerd door Adobe-rapportage. |
-| Pagina | De [Pagina](/help/components/dimensions/page.md) dimensie. |
-| Paginadomein | Het domein van de pagina waarop de bezoeker landt, zoals `products.example.com`. |
+| Pagina | De [ dimensie van de Pagina ](/help/components/dimensions/page.md). |
+| Paginadomein | Het domein van de pagina waarop de bezoeker landt, zoals `products.example.com` . |
 | Paginadomein en pad | Het domein en pad, zoals `products.example.com/mens/pants/overview.html` . |
 | Hoofddomein van pagina (TLD+1) | Het hoofddomein van de pagina waarop de bezoeker landt, zoals example.co.uk. |
 | Pagina-URL | De URL van een webpagina op uw site. |
-| Referentiedomein | De [Verwijzen naar domein](/help/components/dimensions/referring-domain.md) dimensie |
-| Parameter querytekenreeks | Gebruik een individuele parameter van het vraagkoord. U kunt slechts één parameter van het vraagkoord per criterium specificeren. Om extra parameters van het vraagkoord toe te voegen, gebruik `ANY` als uw exploitant, dan voeg vraagkoordparameters aan de regel toe. |
+| Referentiedomein | De [ Verwijzende domein ](/help/components/dimensions/referring-domain.md) dimensie |
+| Parameter querytekenreeks | Gebruik een individuele parameter van het vraagkoord. U kunt slechts één parameter van het vraagkoord per criterium specificeren. Als u aanvullende parameters voor queryreeksen wilt toevoegen, gebruikt u `ANY` als uw operator en voegt u vervolgens parameters voor queryreeksen aan de regel toe. |
 | Referenter | De locatie van de webpagina (volledige URL) waar uw bezoekers zich bevonden voordat ze naar uw site kwamen. Er bestaat een verwijzing buiten het gedefinieerde domein. |
 | Refererend Domein en Weg | Een aaneenschakeling van het Verwijzende Domein en weg URL. Voorbeelden zijn:    `www.example.com/products/id/12345` of `ad.example.com/foo` |
-| Verwijzen naar parameter | Een parameter van het vraagkoord op referentie URL. Stel dat uw bezoekers afkomstig zijn van `example.com/?page=12345&cat=1`En dan zijn pagina en kat de verwijzende parameters. |
+| Verwijzen naar parameter | Een parameter van het vraagkoord op referentie URL. Als uw bezoekers bijvoorbeeld uit `example.com/?page=12345&cat=1` komen, zijn pagina en kat de verwijzende parameters. |
 | Refererend hoofddomein | Het hoofddomein van de referentie. Er bestaat een verwijzing buiten het gedefinieerde domein. |
 | Zoekmachine | Een zoekmachine zoals Google of Yahoo! die bezoekers naar uw site bracht. |
 | Trefwoorden zoeken | Een woord dat wordt gebruikt om een zoekopdracht uit te voeren met een zoekmachine. |
-| Zoekmachine + trefwoorden | Een samenvoeging van het Sleutelwoord van het Onderzoek en de Motor van het Onderzoek om de onderzoeksmotor uniek te identificeren. Als u bijvoorbeeld naar de tekstcomputer zoekt, worden het zoekprogramma en het trefwoord als volgt geïdentificeerd: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Opmerking:** n = natuurlijk; p = betaald |
-| De waarde van het kanaal instellen op | Hiermee stelt u de [Detail marketingkanaal](/help/components/dimensions/marketing-detail.md) dimensie. U bepaalt welke waarde het beste zou zijn in de context van de regel. Voorbeelden zijn banneradvertentie-id, zoektrefwoord of e-mailcampagne. |
+| Zoekmachine + trefwoorden | Een samenvoeging van het Sleutelwoord van het Onderzoek en de Motor van het Onderzoek om de onderzoeksmotor uniek te identificeren. Bijvoorbeeld, als u naar de woordcomputer zoekt, worden de onderzoeksmotor en het sleutelwoord geïdentificeerd als volgt: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Nota:** n = natuurlijk; p = betaald |
+| De waarde van het kanaal instellen op | Plaatst de [ dimensie van het Detail van het Kanaal van de Marketing ](/help/components/dimensions/marketing-detail.md). U bepaalt welke waarde het beste zou zijn in de context van de regel. Voorbeelden zijn banneradvertentie-id, zoektrefwoord of e-mailcampagne. |
 
 ## Regelvolgorde en definities van marketingkanalen {#channel-rules}
 
@@ -111,19 +111,19 @@ Betaalde zoekopdracht is een woord of uitdrukking dat u betaalt voor plaatsing i
 
 #### Betaalde zoekdetectie
 
-Om de betaalde regels van de onderzoeksopsporing aan te passen, gebruikt het marketing kanaal montages die op worden gevormd [!UICONTROL Paid Search Detection] pagina. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). De doel-URL komt overeen met de bestaande regel voor betaalde zoekdetectie voor dat zoekprogramma.
+Voor de detectie van betaalde zoekopdrachten gebruikt het marketingkanaal instellingen die op de pagina [!UICONTROL Paid Search Detection] zijn geconfigureerd. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]** ). De doel-URL komt overeen met de bestaande regel voor betaalde zoekdetectie voor dat zoekprogramma.
 
-Voor de regel betreffende het marketingkanaal [!UICONTROL Paid Search] de instellingen zijn als volgt :
+Voor de marketingkanaalregel zijn de [!UICONTROL Paid Search] -instellingen als volgt:
 
 ![](assets/example_paid_search.png)
 
-Zie [Detectie van betaalde zoekopdracht](../general/paid-search-detection/paid-search-detection.md) voor meer informatie .
+Zie [ Betaalde Opsporing van het Onderzoek ](../general/paid-search-detection/paid-search-detection.md) voor meer informatie.
 
 ### Natuurlijk zoeken {#natural-search}
 
 Natuurlijk zoeken is wanneer bezoekers uw website vinden via een zoekprogramma en het zoekprogramma heeft uw site gerangschikt zonder dat u voor de aanbieding betaalt.
 
-Adobe bepaalt onderzoeksverkeer dat op een interne raadpleging van onderzoeksmotoren wordt gebaseerd. Als een verwijzer criteria voor een onderzoeksmotor aanpast, bepaalt het dan of het betaald of natuurlijk gebruikend [Detectie van betaalde zoekopdracht](../general/paid-search-detection/paid-search-detection.md) regels die u hebt gevormd. Een hit wordt als een natuurlijke zoekopdracht beschouwd wanneer deze niet overeenkomt met een betaalde zoekdetectieregels.
+Adobe bepaalt onderzoeksverkeer dat op een interne raadpleging van onderzoeksmotoren wordt gebaseerd. Als een verwijzer criteria voor een onderzoeksmotor aanpast, bepaalt het dan als het of natuurlijk gebruikend [ Betaalde regels van de Opsporing van het Onderzoek ](../general/paid-search-detection/paid-search-detection.md) wordt betaald die u hebt gevormd. Een hit wordt als een natuurlijke zoekopdracht beschouwd wanneer deze niet overeenkomt met een betaalde zoekdetectieregels.
 
 Voor de regel voor marketingkanalen gelden de volgende instellingen voor Natuurlijk zoeken:
 
@@ -131,13 +131,13 @@ Voor de regel voor marketingkanalen gelden de volgende instellingen voor Natuurl
 
 ### Weergave {#display}
 
-Deze regel identificeert bezoekers die afkomstig zijn van banneradvertenties. Het wordt geïdentificeerd door een parameter van het vraagkoord in bestemmingsURL, in dit geval *`Ad_01`*. De de koordparameter van de vraag en de waarden het zoekt worden geëvalueerd als case-insensitive waarden.
+Deze regel identificeert bezoekers die afkomstig zijn van banneradvertenties. Deze wordt in dit geval geïdentificeerd door een parameter voor een querytekenreeks in de doel-URL *`Ad_01`* . De de koordparameter van de vraag en de waarden het zoekt worden geëvalueerd als case-insensitive waarden.
 
 ![](assets/example_display.png)
 
 ### E-mail {#email}
 
-Deze regel identificeert bezoekers die afkomstig zijn van e-mailcampagnes. Het wordt geïdentificeerd door een parameter van het vraagkoord in bestemmingsURL, in dit geval *`eml`*:
+Deze regel identificeert bezoekers die afkomstig zijn van e-mailcampagnes. Deze wordt in dit geval door een parameter van een querytekenreeks in de doel-URL geïdentificeerd: *`eml`*
 
 ![](assets/example_email.png)
 
@@ -165,7 +165,7 @@ Deze regel geldt voor bezoekers waarbij hun verwijzings-URL overeenkomt met de i
 
 ![](assets/int-channel1.png)
 
-Zie [Redenen voor intern (Sessie vernieuwen)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal) voor meer informatie over waarom dit kanaal voorkomt.
+Zie [ Redenen voor Intern (Zitting verfrist zich) ](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal) voor meer informatie over waarom dit kanaal voorkomt.
 
 ### Direct {#direct}
 
