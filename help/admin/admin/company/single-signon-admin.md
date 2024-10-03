@@ -4,7 +4,7 @@ title: Single Sign-On
 feature: Company Settings
 exl-id: d317d85d-46bc-4857-82d8-3fe3b3fc154e
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 32926f46a134207d6bdb8520295e2855d8d31f2a
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 0%
@@ -15,4 +15,4 @@ ht-degree: 0%
 
 Single Sign-On in de Adobe Experience Cloud wordt geïmplementeerd via de Admin Console.
 
-Zie [Gebruikershandleiding voor beheer](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html) voor hulp.
+Zie {de Gids van de Gebruiker van het 0} Beleid ](https://www.adobe.com/go/analytics_sso_en) voor hulp.[
