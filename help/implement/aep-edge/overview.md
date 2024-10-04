@@ -4,9 +4,9 @@ description: Overzicht van het gebruik van XDM-gegevens van Experience Platform 
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 4453c2aa2ea70ef4d00b2bc657285287f3250c65
+source-git-commit: c7fd66e99fd7d6c474682621a3c18bf41d541a96
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,17 @@ De Edge Network gebruikt de volgende logica om Adobe Analytics paginaweergaven e
 | XDM-lading bevat... | Adobe Analytics... |
 |---|---|
 | `xdm.web.webPageDetails.name` of `xdm.web.webPageDetails.URL` en no `xdm.web.webInteraction.type` | overweegt lading a **paginamening** |
+| `xdm.eventType = web.webPageDetails.pageViews` | overweegt lading a **paginamening** |
 | `xdm.web.webInteraction.type` en (`xdm.web.webInteraction.name` of `xdm.web.webInteraction.url`) | overweegt lading a **verbindingsgebeurtenis** |
-| `web.webInteraction.type` en (`web.webPageDetails.name` of `web.webPageDetails.url`) | overweegt lading a **verbindingsgebeurtenis** <br/>`web.webPageDetails.name` en `web.webPageDetails.URL` wordt geplaatst aan `null` |
-| no `web.webInteraction.type` en (no `webPageDetails.name` en no `web.webPageDetails.URL` ) | Hiermee wordt de lading verwijderd en worden de gegevens genegeerd |
+| `xdm.web.webInteraction.type` en (`xdm.web.webPageDetails.name` of `xdm.web.webPageDetails.url`) | overweegt lading a **verbindingsgebeurtenis** <br/> ook reeksen `xdm.web.webPageDetails.name` en `xdm.web.webPageDetails.URL` aan `null` |
+| no `xdm.web.webInteraction.type` en (no `xdm.webPageDetails.name` en no `xdm.web.webPageDetails.URL` ) | Hiermee wordt de lading verwijderd en worden de gegevens genegeerd |
+
+{style="table-layout:auto"}
+
+Naast het onderscheiden van paginaweergaven en het klikken van koppelingen, is de volgende logica op zijn plaats die bepaalt als bepaalde gebeurtenissen als A4T worden gecategoriseerd of worden verworpen.
+
+| XDM-lading bevat... | Adobe Analytics... |
+| --- | --- |
 | `xdm.eventType = display` of <br/>`xdm.eventType = decisioning.propositionDisplay` of <br/>`xdm.eventType = personalization.request` of <br/>`xdm.eventType = decisioning.propositionFetch` en `xdm._experience.decisioning` | overweegt nuttige lading en **A4T** vraag. |
 | `xdm.eventType = display` of <br/>`xdm.eventType = decisioning.propositionDisplay` of <br/>`xdm.eventType = personalization.request` of <br/>`xdm.eventType = decisioning.propositionFetch` en geen `xdm._experience.decisioning` | Hiermee wordt de lading verwijderd en worden de gegevens genegeerd |
 | `xdm.eventType = click` of `xdm.eventType = decisioning.propositionInteract` and `xdm._experience.decisioning` en no `web.webInteraction.type` | overweegt nuttige lading en **A4T** vraag. |
