@@ -1,27 +1,27 @@
 ---
 title: Bezoeken
-description: Een reeks paginaweergaven tijdens een sessie.
+description: Een reeks paginaweergaven in een vergadering.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 1%
+source-wordcount: '672'
+ht-degree: 0%
 
 ---
 
 # Bezoeken
 
-De &quot;bezoeken&quot; [metrisch](overview.md) geeft het aantal sessies weer voor alle bezoekers op uw site.
+De metrische &quot;bezoeken&quot; [ ](overview.md) toont het aantal zittingen over alle bezoekers op uw plaats.
 
 ## Hoe deze metrische waarde wordt berekend
 
 Een bezoek is altijd gekoppeld aan een tijdsperiode, dus u weet of u een nieuw bezoek wilt tellen als dezelfde persoon naar uw site terugkeert. Een bezoek begint wanneer de gebruiker voor het eerst op uw site arriveert. Een bezoek eindigt wanneer zij aan om het even welke volgende criteria voldoen:
 
-* **30 minuten inactiviteit**: Bijna alle sessies eindigen op deze manier. Als er meer dan 30 minuten tussen de treffers verlopen, wordt een nieuw bezoek gestart.
-* **12 uur activiteit**: Als een gebruiker afbeeldingsaanvragen gedurende meer dan 12 uur consistent brandt zonder tussenruimten van 30 minuten, wordt automatisch een nieuw bezoek gestart.
-* **2500 hits**: Als een gebruiker een groot aantal hits genereert zonder een nieuwe sessie te starten, wordt een nieuw bezoek geteld na 2500 afbeeldingsaanvragen.
-* **100 treffers in 100 seconden**: Als een bezoek meer dan 100 hits heeft die in de eerste 100 seconden van het bezoek optreden, wordt het bezoek automatisch beëindigd. Dit gedrag wijst typisch op beide activiteit, en deze beperking wordt afgedwongen om rapportprestaties te helpen verbeteren.
+* **30 minuten van inactiviteit**: Bijna alle zittingen beëindigen op deze manier. Als er meer dan 30 minuten tussen de treffers verlopen, wordt een nieuw bezoek gestart.
+* **12 uren van activiteit**: Als een gebruiker constant beeldverzoeken zonder enige 30 minieme hiaten voor meer dan 12 uren in brand steekt, begint een nieuw bezoek automatisch.
+* **2500 treffers**: Als een gebruiker een groot aantal treffers produceert zonder een nieuwe zitting te beginnen, wordt een nieuw bezoek geteld na 2500 beeldverzoeken.
+* **100 hits in 100 seconden**: Als een bezoek meer dan 100 hits heeft die in de eerste 100 seconden van het bezoek voorkomen, beëindigt het bezoek automatisch. Dit gedrag wijst typisch op beide activiteit, en deze beperking wordt afgedwongen om rapportprestaties te helpen verbeteren.
 
 Een bezoek valt niet noodzakelijk samen met een browsersessie vanwege de bovenstaande criteria. Een van de meest voorkomende verschillen is de plaats waar een bezoeker naar uw site navigeert, het tabblad langer dan 30 minuten open laat en het bladeren hervat. Hoewel deze actie technisch gezien deel uitmaakt van dezelfde sessie, beschouwt de Adobe deze actie als twee aparte bezoeken.
 
@@ -29,12 +29,12 @@ Een bezoek valt niet noodzakelijk samen met een browsersessie vanwege de bovenst
 
 Als een bezoeker een van deze handelingen uitvoert, wordt een nieuw bezoek gestart:
 
-* Wist de cache halverwege de sessie en gaat verder met bladeren door uw site
+* Hiermee verwijdert u de cookies halverwege de sessie en gaat u door met het bladeren door uw site
 * Laat uw site langer dan 30 minuten open op een tabblad en vervolgt het bladeren
 * Opent een andere browser en navigeert naar uw site op dezelfde computer
 * Dezelfde persoon die op verschillende apparaten door uw site bladert
 
-Als een bezoeker een van deze handelingen uitvoert, wordt tijdens een nieuw bezoek **niet** beginnen zolang er minder dan 30 minuten zijn tussen opeenvolgende treffers:
+Als een bezoeker om het even welk van deze acties uitvoert, begint een nieuw bezoek **niet** zolang er minder dan 30 minuten tussen opeenvolgende treffers is:
 
 * Sluit hun browser en navigeer vervolgens opnieuw naar uw site
 * Start de computer opnieuw op, opent dezelfde browser en navigeert opnieuw naar uw site
@@ -45,7 +45,7 @@ Als een bezoeker een van deze handelingen uitvoert, wordt tijdens een nieuw bezo
 
 U kunt de definitie van een bezoek wijzigen in een andere tijd dan 30 minuten.
 
-* Voor [Virtuele rapportsuites](../vrs/vrs-about.md), kunt u de time-out van het bezoek wijzigen met de opdracht [!UICONTROL Visit timeout] vervolgkeuzelijst. U kunt de time-out voor een bezoek wijzigen in een redelijke waarde.
+* Voor [ Virtuele rapportreeksen ](../vrs/vrs-about.md), kunt u de bezoekonderbreking veranderen gebruikend de [!UICONTROL Visit timeout] drop-down lijst. U kunt de time-out voor een bezoek wijzigen in een redelijke waarde.
 * Voor standaardrapportreeksen kunt u contact opnemen met de klantenservice om te verzoeken dat de duur van het bezoek wordt verkort voor een bepaalde rapportsuite. De lengte van het bezoek voor standaard rapportreeksen kan niet 30 minuten overschrijden, zodat kunt u het slechts verkorten.
 
 ## Bezoeken die een datumgrens omspannen
@@ -54,7 +54,7 @@ Een bezoek telt voor elke betrokken periode. Als u bijvoorbeeld een bezoeker heb
 
 ## Bezoeken op dimensie versus totale bezoeken
 
-Bezoeken in het kader van een dimensie (bijvoorbeeld [Marketingkanaal](../dimensions/marketing-channel.md)) het aantal bezoeken dat op enig moment een bepaald onderdeel van de dimensie bevatte. Items met meerdere dimensies bestaan vaak bij verschillende treffers tijdens hetzelfde bezoek. Het is doorgaans niet zinvol om te proberen om bezoeken die over dimensie-items rapporteren, samen te vatten.
+De bezoeken in context van een afmeting (bijvoorbeeld, [ Marketing kanaal ](../dimensions/marketing-channel.md)) tonen het aantal bezoeken dat een bepaald afmetingspunt op elk ogenblik bevatte. Items met meerdere dimensies bestaan vaak bij verschillende treffers tijdens hetzelfde bezoek. Het is doorgaans niet zinvol om te proberen om bezoeken die over dimensie-items rapporteren, samen te vatten.
 
 ## Bezoek alle bezoekers in Data Warehouse
 
