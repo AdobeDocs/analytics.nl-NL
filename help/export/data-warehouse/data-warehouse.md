@@ -4,10 +4,10 @@ title: Overzicht van Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '339'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ De rapporten van de Data Warehouse kunnen geavanceerde gegevensverhoudingen van 
 
 >[!IMPORTANT]
 >
->Bij segmentering op geclassificeerde waarden behandelen Analysis Workspace en Data Warehouse &#39;ongespecificeerde&#39; waarden anders. &#39;Niet opgegeven&#39; in Workspace verwijst naar waarden die niet zijn geclassificeerd, terwijl &#39;Niet opgegeven&#39; in Data Warehouse verwijst naar waarden die u hebt geclassificeerd als &#39;Niet opgegeven&#39;.
+>Bij segmentering op geclassificeerde waarden behandelen Analysis Workspace en Data Warehouse &#39;ongespecificeerde&#39; waarden anders. &#39;Niet gespecificeerd&#39; in Workspace verwijst naar waarden die niet zijn geclassificeerd, terwijl &#39;Niet opgegeven&#39; in Data Warehouse verwijst naar waarden die u als &#39;Niet opgegeven&#39; hebt geclassificeerd.
 
 ## Overzicht van levering
 
@@ -37,16 +37,13 @@ In Data Warehouse wordt elk bestand dat groter is dan 1 MB, automatisch gecompri
 
 De Adobe laat Data Warehouse voor beheerder-vlakke gebruikers slechts, voor specifieke rapportreeksen toe. (Het kan voor globale en kindrapportsuites worden toegelaten, maar niet voor rollup rapportsuites.) De beheerder kan een groep tot stand brengen die toegang tot Data Warehouse heeft, en dan gebruikers niet-beheerderniveau aan die groep associëren.
 
-Zie [Machtigingen voor Data Warehouse beheren](/help/export/data-warehouse/t-dw-group.md).
+Zie [ de toestemmingen van de Data Warehouse beheren ](/help/export/data-warehouse/t-dw-group.md).
 
-## Een verzoek voor een Data Warehouse maken
+## Een Data Warehouse-aanvraag maken
 
-Voor informatie over hoe te om een verzoek van de Data Warehouse tot stand te brengen, zie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Voor informatie over hoe te om een verzoek van de Data Warehouse tot stand te brengen, zie [ een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
-## Verzoeken in Data Warehouse beheren
+## Aanvragen voor Data Warehouse beheren
 
-Voor informatie over hoe te om de verzoeken van de Data Warehouse te beheren, zie [Aanvragen voor Data Warehouse beheren](/help/export/data-warehouse/data-warehouse-requests-manage.md).
+Voor informatie over hoe te om de verzoeken van de Data Warehouse te beheren, zie [ verzoeken van de Data Warehouse beheren ](/help/export/data-warehouse/data-warehouse-requests-manage.md).
 
-## Veelgestelde vragen
-
-Zie voor een lijst met veelgestelde vragen [Veelgestelde vragen over Data Warehouse](/help/export/data-warehouse/faq.md).

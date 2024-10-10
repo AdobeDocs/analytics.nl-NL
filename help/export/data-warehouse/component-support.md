@@ -3,10 +3,10 @@ title: Componentondersteuning in Data Warehouse
 description: Leer welke extra afmetingen en metriek in Data Warehouse beschikbaar zijn en wat niet wordt gesteund.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 3%
+source-wordcount: '444'
+ht-degree: 0%
 
 ---
 
@@ -20,15 +20,15 @@ Sommige dimensies en metriek die in Data Warehouse kunnen worden gebruikt zijn n
 
 ### Uitsluitend ondersteunde Dimensionen
 
-* **Experience Cloud-id**: Voor implementaties die de Dienst van identiteitskaart van het Experience Cloud (ECID) gebruiken, een aantal met 128 bits dat uit twee samengevoegde aantallen bestaat met 64 bits die aan 19 cijfers worden toegevoegd.
-* **Pagina-URL**: De pagina-URL waarop de treffer is opgetreden.
-* **Aankoop-id&#39;s**: Unieke id voor een aankoop, ingesteld met de variabele purchaseID.
-* **Bezoeker-id**: Hiermee wordt de unieke id voor de bezoeker opgegeven. Deze waarde is gelijk aan de samengevoegde waarde van `visid_high` en `visid_low` kolommen in gegevensfeeds. Zie [Referentie gegevenskolom](../analytics-data-feed/c-df-contents/datafeeds-reference.md) onder Gegevensfeeds voor meer informatie.
+* **identiteitskaart van het Experience Cloud**: Voor implementaties die de Dienst van identiteitskaart van het Experience Cloud (ECID) gebruiken, een aantal met 128 bits dat uit twee samengevoegde aantallen bestaat met 64 bits die aan 19 cijfers worden toegevoegd.
+* **pagina URL**: De pagina URL de slag voorkwam op.
+* **Inkoop IDs**: Unieke herkenningsteken voor een aankoop, die gebruikend de purchaseID variabele wordt geplaatst.
+* **identiteitskaart van de Bezoeker**: Verstrekt het unieke herkenningsteken voor de bezoeker. Deze waarde is gelijk aan de samengevoegde waarde van `visid_high` en `visid_low` kolommen in gegevensfeeds. Zie [ de kolomverwijzing van Gegevens ](../analytics-data-feed/c-df-contents/datafeeds-reference.md) onder de Diersen van Gegevens voor meer informatie.
 
 ### Uitsluitend ondersteunde cijfers
 
-* **Bezoeken**: In deze meetmethode in het kader van de Data Warehouse worden niet-permanente cookiebezoeken uitgesloten.
-* **Bezoeken - Alle bezoekers**: Deze metrische waarde in het kader van Data Warehouse heeft een grotere pariteit met de bezoeken metrisch in andere hulpmiddelen binnen Adobe Analytics.
+* **bezoeken**: Deze metrisch in de context van Data Warehouse sluit niet-blijvende koekjesbezoeken uit.
+* **bezoeken - Alle Bezoekers**: Dit metrisch in context van Data Warehouse heeft nauwere pariteit met de bezoeken metrisch in andere hulpmiddelen binnen Adobe Analytics.
 
 ## Componenten niet ondersteund in Data Warehouse
 
@@ -45,7 +45,7 @@ Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
    * Alle invoerafmetingen, met uitzondering van invoerpagina
    * Alle afmetingen bij afsluiten, behalve Pagina afsluiten en Koppeling afsluiten
    * Hoogte
-   * Retourfrequentie
+   * Geretourneerde frequentie
    * Tijd voorafgaand aan gebeurtenis
    * Tijd besteed op pagina - Emmerd
    * Tijd besteed per bezoek - Emmerd
@@ -62,12 +62,12 @@ Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
 
 * Sommige op plakken gebaseerde metriek, die omvatten:
    * Bounces
-   * Geopend
-   * Gesloten
-   * Opnieuw geladen
-   * Eenmalige toegang
+   * Berichten
+   * Afsluiten
+   * Opnieuw laden
+   * Enkelvoudige toegang
    * Metrische waarden voor &#39;tijd besteed&#39;
-* Deelnemings-metriek (zoals beschreven in [Een &quot;Deelname&quot;-metrisch maken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* De metriek van de participatie (zoals die in [ wordt beschreven bouwt metrische &quot;Deelname&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
 ### Dimensionen die op een andere manier worden ondersteund
 
@@ -80,3 +80,10 @@ De volgende op tijd gebaseerde afmetingen worden ondersteund. De uitvoer van dat
 * Dag
 * Uur
 * Minute
+
+## Segmenten als afmetingen in Data Warehouse
+
+Wanneer u een segment als een afmeting in Data Warehouse gebruikt, keert het rapport een kolom terug die `"0"` of `"1"` bevat:
+
+* **`"0"`**: Het dimensie-item voldoet niet aan de criteria van het segment.
+* **`"1"`**: Het dimensie-item voldoet aan de criteria van het segment.

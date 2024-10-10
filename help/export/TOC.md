@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Handleiding exporteren
 user-guide-description: Leer meer over het gebruik van datafeeds om onbewerkte gegevens te exporteren en Data Warehouse om een spreadsheetuitvoer van gegevens op te halen. Meer informatie over FTP en SFTP gebruiken om bestanden over te dragen.
-source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 23%
 
 ---
@@ -49,7 +49,6 @@ ht-degree: 23%
    + [Sorteren op metrisch](data-warehouse/sorting-by-metric.md)
    + [Aanvragen voor Data Warehouse beheren](data-warehouse/data-warehouse-requests-manage.md)
    + [Componenten die worden ondersteund in Data Warehouse](data-warehouse/component-support.md)
-   + [Veelgestelde vragen over Data Warehouse](data-warehouse/faq.md)
    + [Aanbevolen werkwijzen voor Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP en SFTP {#ftp-and-sftp}
    + [FTP en SFTP gebruiken met de Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
