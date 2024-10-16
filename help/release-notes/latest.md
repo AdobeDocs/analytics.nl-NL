@@ -3,16 +3,16 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d9dd297a510b2f5056429f5938154c59f0a53cfa
+source-git-commit: 29b799eb778dda4d5c529249f1898e92607e51aa
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 4%
+source-wordcount: '510'
+ht-degree: 3%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (oktober 2024)
 
-**Laatste update**: 2 Oktober, 2024
+**Laatste update**: 16 oktober 2024
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 2 oktober 2024 tot en met 22 oktober 2024. De versies van Adobe Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,9 +20,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 2 oktober 2024 tot e
 
 | Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| N.v.t. | N.v.t. | N.v.t. | N.v.t. |
-
-
+| Nieuwe Report Builder voor Adobe Analytics | De nieuwe Report Builder-toepassing biedt Adobe Analytics bijgewerkte functies, zoals verbeterde prestaties, gestroomlijnde gebruikersinterface, 2.0 API-ondersteuning en ondersteuning voor Microsoft Excel in Mac-, Windows- en webbrowsers. [ de verbinding van de Documentatie te volgen ] |  | donderdag 16 oktober 2024 |
 
 ## Oplossingen in Adobe Analytics
 
