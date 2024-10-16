@@ -3,10 +3,10 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe A
 title: Welk Adobe Analytics-gereedschap moet ik gebruiken?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 1%
+source-wordcount: '1215'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,9 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 
 **[Adobe Analytics dashboards](/help/analyze/mobile-app/home.md)** staat gebruikers mobiele toegang tot intuïtieve scorecards toe. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. De mobiele app wordt ondersteund op zowel iOS- als Android-besturingssystemen.
 
-**[Report Builder](/help/analyze/report-builder/home.md)** is toe:voegen-binnen voor Microsoft Excel. Hiermee kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens, die u kunt invoegen in uw Excel-werkbladen. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft.
+**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** is toe:voegen-binnen voor Microsoft Excel die op Mac, Vensters, en Webbrowsers loopt. Hiermee kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens, die u kunt invoegen in uw Excel-werkbladen. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft.
+
+**[Verouderde Report Builder](/help/analyze/legacy-report-builder/home.md)** is toe:voegen-binnen voor Microsoft Excel die op Vensters slechts loopt. Hiermee kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens, die u kunt invoegen in uw Excel-werkbladen. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft.
 
 **[Activity Map](/help/analyze/activity-map/overview.md)** is een eigenschap binnen Adobe Analytics die een visuele vertegenwoordiging van gebruikersbetrokkenheid op Web-pagina&#39;s en mobiele apps verstrekt. Hiermee kunnen marketers en analisten gebruikersinteracties zoals klikken, aanwijzen en schuiven volgen en analyseren.
 
@@ -73,7 +75,7 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 
 ## Gegevens exporteren uit Adobe Analytics {#export}
 
-**[Report Builder](/help/analyze/report-builder/home.md)** zou moeten worden gebruikt:
+**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** zou moeten worden gebruikt:
 
 * Als de aangepaste lay-outopties van Workspace worden beperkt (alles is mogelijk in Report Builder, binnen de grenzen van Excel).
 * In gebruikersinvoer of offlinegegevensbronnen (impressies, kosten) losjes koppelen aan Adobe gegevens. De duurdere oplossing voor het verbinden in gegevens is Gegevensbronnen (zie het Importeren van Gegevens aan Analytics).

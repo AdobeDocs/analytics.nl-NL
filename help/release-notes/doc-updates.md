@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
 workflow-type: tm+mt
 source-wordcount: '5902'
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -180,7 +180,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | **Februari 2022** | |
 | Modus voor voorvertoning van mobiel scorecard-project | De [ voorproefwijze ](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#preview) staat u toe om de ervaring voor te vertonen alvorens u sparen en een scorecard deelt. |
 | API-projecteindpunt | Analysis Workspace-projecten toevoegen, bewerken of verwijderen met de API. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| Bijgewerkt onderwerp bij het pauzeren van oudere geplande Report Builder taken | **Van kracht 15 april 2022**, is de Adobe van plan om [ alle geplande Report Builder taken te pauzeren die meer dan twee jaar geleden ](/help/analyze/report-builder/r-arb-scheduled-reports.md) werden gecreeerd. |
+| Bijgewerkt onderwerp bij het pauzeren van oudere geplande Report Builder taken | **Van kracht 15 april 2022**, is de Adobe van plan om [ alle geplande Report Builder taken te pauzeren die meer dan twee jaar geleden ](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md) werden gecreeerd. |
 
 ### 2021 {#year2021}
 
