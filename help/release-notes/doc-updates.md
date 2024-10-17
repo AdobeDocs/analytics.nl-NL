@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: 23282c1a2793a7113117c62ce195f9714ab5a7f2
 workflow-type: tm+mt
-source-wordcount: '5902'
+source-wordcount: '5925'
 ht-degree: 19%
 
 ---
@@ -25,6 +25,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Oktober 2024** |  |
+| Nieuwe Report Builder | [ Nieuwe documentatie ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) voor de gestroomlijnde Report Builder toe:voegen-binnen die op Mac, Vensters, en Webbrowsers wordt gesteund. |
 | **Augustus 2024** | |
 | Waarschuwingenbeheer | Gestroomlijnde documentatie over de [ manager van Alarm ](/help/components/c-alerts/alert-manager.md). Ter verduidelijking en nauwkeurigheid bijgewerkt. |
 | **Juli 2024** | |

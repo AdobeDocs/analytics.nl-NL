@@ -5,7 +5,7 @@ uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Classificaties
+
+{{legacy-arb}}
 
 Indelingsuitsplitsingen worden gebruikt om analyses toe te wijzen die gegevens rapporteren aan gerelateerde eigenschappen. Classificaties kunnen voor verschillende doeleinden worden gebruikt, maar worden meestal gebruikt voor de classificatie van codes voor het bijhouden van campagnes, zowel interne als externe, en product-id&#39;s.
 

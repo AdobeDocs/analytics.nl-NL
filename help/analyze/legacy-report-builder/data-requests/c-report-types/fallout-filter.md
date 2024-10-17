@@ -4,7 +4,7 @@ title: Filter een Fallout-rapport met de wizard Verzoek
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Filter een Fallout-rapport met de wizard Verzoek
+
+{{legacy-arb}}
 
 Beschrijft de stappen betrokken bij het toepassen van filters op een reserverapport.
 

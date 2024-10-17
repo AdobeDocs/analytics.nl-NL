@@ -4,7 +4,7 @@ title: Gegevens handmatig importeren in Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: f5685653-ed31-4183-a6d9-b36bdfecd85c
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Gegevens handmatig importeren in Power BI
+
+{{legacy-arb}}
 
 Volg deze instructies als u de analysegegevens handmatig wilt importeren via Power BI.
 

@@ -4,7 +4,7 @@ title: Pad- en paduitvalrapporten in Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Pad- en paduitvalrapporten in Report Builder
+
+{{legacy-arb}}
 
 Beschrijft hoe de Report Builder het kleven en de valkenrapporten steunt en hoe de implementatie van Rapporten &amp; Analytics (nu eind-van-tiled) verschilt.
 

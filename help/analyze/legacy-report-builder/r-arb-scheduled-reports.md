@@ -4,7 +4,7 @@ title: Ongeveer de Geplande Manager van de Taak
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Geplande Taakmanager
+
+{{legacy-arb}}
 
 Met [!UICONTROL Scheduled Task Manager] kunt u een lijst met bestaande geplande rapporten weergeven, samen met de ontvangers, planningsdetails en bestandsindelingen. Ook kunt u geplande werkboeken die niet zijn uitgevoerd opnieuw activeren.
 

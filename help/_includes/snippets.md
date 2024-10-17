@@ -1,11 +1,18 @@
 ---
-source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
 # Fragmenten
+
+## Oudere Report Builder {#legacy-arb}
+
+>[!IMPORTANT]
+>
+>Een nieuwe en gestroomlijnde [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) werd vrijgegeven op 16 oktober, 2024. Deze functie wordt ondersteund in Mac-, Windows- en webbrowsers.
+>Deze verouderde invoegtoepassing voor Reporten Builder werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in de nieuwe Report Builder omzetten.
 
 ## Rapporten &amp; Analytics-aankondiging aan het einde van de levensduur {#ra-eol}
 

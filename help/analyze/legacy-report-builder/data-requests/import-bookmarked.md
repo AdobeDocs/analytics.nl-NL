@@ -4,7 +4,7 @@ title: Gekoppelde rapporten en dashboardrapporten importeren
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Gekoppelde rapporten en dashboardrapporten importeren
+
+{{legacy-arb}}
 
 Alle bookmarked rapporten en dashboardrapporten zijn nu vermeld als dimensies in Stap 1 van de Tovenaar van het Verzoek en kunnen als verzoeken van de Report Builder worden ingevoerd.
 

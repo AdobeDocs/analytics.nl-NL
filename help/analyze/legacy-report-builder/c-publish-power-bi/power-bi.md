@@ -4,7 +4,7 @@ title: Publish naar Power BI - Overzicht
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 5%
@@ -12,6 +12,8 @@ ht-degree: 5%
 ---
 
 # Publish naar Power BI - Overzicht
+
+{{legacy-arb}}
 
 Microsoft Power BI is een suite van bedrijfsanalytische dashboards om data te analyseren en inzichten te delen. Dankzij de integratie van Adobe Analytics met Power BI kunt u de analytische data van Report Builder visualiseren in Microsoft Power BI en deze eenvoudig delen in uw organisatie.
 

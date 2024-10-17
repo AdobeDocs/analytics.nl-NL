@@ -5,7 +5,7 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Workbooks plannen
+
+{{legacy-arb}}
 
 U kunt werkboeken plannen, geavanceerde leveringsopties specificeren, ontvangers specificeren, en de planningsgeschiedenis bekijken. Met de geavanceerde leveringsopties kunt u werkboeken configureren die u op een bepaald tijdstip of met intervallen wilt verzenden. U kunt het dossierformaat ook specificeren waarin om het werkboek te verzenden.
 

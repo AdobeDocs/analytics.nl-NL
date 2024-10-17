@@ -5,7 +5,7 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
@@ -14,8 +14,12 @@ ht-degree: 0%
 
 # Verzoeken en werkbladen kopiëren tussen werkboeken
 
+{{legacy-arb}}
+
 Kopieer een volledig spreadsheet in een bronwerkboek aan een spreadsheet in één of meerdere doelwerkboeken. Om dit te doen, moet u minstens twee werkboeken hebben die in het zelfde geval van Excel worden geopend:
+
 * Het eerste bronwerkboek bevat een spreadsheet (aantekenvel) met verzoeken in kaart gebracht aan cellen.
+
 * De extra doelwerkboeken zijn de bestemmingen. Voor elk nieuw doelwerkboek, zou u aan de zelfde rapportreeks zoals het bronwerkboek moeten login alvorens u spreadsheets kunt kleven die verzoeken bevatten.
 
 >[!NOTE]

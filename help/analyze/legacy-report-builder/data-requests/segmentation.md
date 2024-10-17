@@ -4,7 +4,7 @@ title: Segmenten beheren (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Segmenten beheren
+
+{{legacy-arb}}
 
 Adobe Analytics-segmenten toevoegen, bewerken, toepassen en filteren in Report Builder.
 

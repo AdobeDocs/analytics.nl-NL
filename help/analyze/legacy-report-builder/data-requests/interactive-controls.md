@@ -4,7 +4,7 @@ title: Interactieve besturingselementen
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Interactieve besturingselementen
+
+{{legacy-arb}}
 
 De interactieve Controles staan u toe om segmenten en datumwaaiers voor één of meerdere verzoeken direct van het aantekenvel uit te geven. Dit geeft u meer flexibiliteit wanneer het bijwerken van verzoeken van de Report Builder.
 

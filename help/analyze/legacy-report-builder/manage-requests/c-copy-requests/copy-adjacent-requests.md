@@ -5,7 +5,7 @@ uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
 role: User, Admin
 exl-id: 99476ec5-f1f0-49f5-a2d8-354cec63c6b1
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Aangrenzende aanvragen kopiëren
+
+{{legacy-arb}}
 
 Net zoals u aanvragen kopieert en plakt, kunt u aanvragen ook naar een ander deel van het werkblad verplaatsen door [!UICONTROL Cut Request] in het snelmenu te selecteren.
 

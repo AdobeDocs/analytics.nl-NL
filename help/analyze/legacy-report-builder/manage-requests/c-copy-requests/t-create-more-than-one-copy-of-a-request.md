@@ -5,7 +5,7 @@ uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 feature: Report Builder
 role: User, Admin
 exl-id: 5b929821-e7ca-48e4-9196-0a6734a9566e
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Meer dan één kopie van een aanvraag maken
+
+{{legacy-arb}}
 
 U kunt meer dan één kopie van een origineel verzoek maken door een geselecteerd gebied cellen te vullen met zoveel kopieën van het verzoek dat past.
 

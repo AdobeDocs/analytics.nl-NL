@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 7%
@@ -13,6 +13,8 @@ ht-degree: 7%
 ---
 
 # Overzicht van filterafmetingen
+
+{{legacy-arb}}
 
 U kunt filteren op afmetingen die u toevoegt aan het raster Rijlabels. Filters beperken de gegevens die door aanvragen worden geretourneerd en kunnen worden toegepast vanuit de indelingen Draaien of Aangepast. Wanneer u dimensie het filtreren van de Lay-out van de Draaiende vormt, kunt u het aantal ingangen van cel extra specificeren.
 

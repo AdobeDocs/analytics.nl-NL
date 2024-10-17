@@ -5,7 +5,7 @@ uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Werkboeken vergrendelen en ontgrendelen
+
+{{legacy-arb}}
 
 U kunt alle verzoeken in een werkboek tegen het toevoegen van en het uitgeven van verzoeken beschermen door het werkboek te sluiten. Dit laat off-line het uitgeven van werkboeken toe door alle rapportverzoeken voor efficiënter het uitgeven te pauzeren.
 

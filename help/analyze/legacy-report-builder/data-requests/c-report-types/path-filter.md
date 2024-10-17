@@ -4,7 +4,7 @@ title: Een padrapport filteren met de wizard Verzoek
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Een padrapport filteren met de wizard Verzoek
+
+{{legacy-arb}}
 
 Beschrijft de stappen betrokken bij het toepassen van filters op een het knippen rapport.
 

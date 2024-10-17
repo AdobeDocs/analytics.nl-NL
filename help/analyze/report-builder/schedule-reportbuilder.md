@@ -5,14 +5,18 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
 
 # Workbooks plannen
+
+>[!NOTE]
+>
+>Het werkboek dat voor deze versie van de Report Builder op Adobe Analytics wordt gepland, is nog niet vrijgegeven maar zal begin 2025 beschikbaar zijn. U kunt nu aan de slag gaan met werkboeken waarvoor geen planning nodig is.
 
 Nadat u uw werkboek en voltooide uw analyse bewaarde, kunt u uw werkboek met anderen op uw team gemakkelijk delen gebruikend de het plannen eigenschap. De eigenschap van het Programma staat u toe om een programma tot stand te brengen dat automatisch de gegevens in het werkboek vernieuwt en het dossier van het werkboek van Excel .xlsx als gehechtheid aan uw gespecificeerd publiek op een specifieke datum en een tijd e-mailt. Als u een schema instelt, krijgen ontvangers automatisch regelmatig updates. U kunt de planningseigenschap ook gebruiken om het werkboek eens uit te sturen zonder automatische updates te plannen.
 
