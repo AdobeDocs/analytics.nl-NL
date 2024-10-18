@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 23282c1a2793a7113117c62ce195f9714ab5a7f2
+source-git-commit: bae719223ffa642434ab9559c1e48ebd76d003a0
 workflow-type: tm+mt
-source-wordcount: '5925'
+source-wordcount: '5959'
 ht-degree: 19%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **Oktober 2024** |  |
+| Nieuwe informatie over Request-factoren in Analysis Workspace Performance | Een nieuwe [ sectie van de Factoren van het Verzoek ](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) in [ optimaliseert de prestaties van Analysis Workspace ](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) artikel verklaart hoe de verzoeken worden verwerkt en de diverse factoren die verwerkingstijden beïnvloeden. |
 | Nieuwe Report Builder | [ Nieuwe documentatie ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) voor de gestroomlijnde Report Builder toe:voegen-binnen die op Mac, Vensters, en Webbrowsers wordt gesteund. |
 | **Augustus 2024** | |
 | Waarschuwingenbeheer | Gestroomlijnde documentatie over de [ manager van Alarm ](/help/components/c-alerts/alert-manager.md). Ter verduidelijking en nauwkeurigheid bijgewerkt. |
