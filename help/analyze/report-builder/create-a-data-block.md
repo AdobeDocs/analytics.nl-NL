@@ -5,9 +5,9 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -20,25 +20,25 @@ A *gegevensblok* is de lijst van gegevens die door één enkel gegevensverzoek w
 
 Vorm de aanvankelijke parameters van het gegevensblok voor de het blokplaats van Gegevens, rapportreeksen, en een waaier van de Datum.
 
-1. Klik **creëren gegevensblok**.
+1. Klik op **[!UICONTROL Create data block]** .
 
    ![ Schermafbeelding die de Create optie van het gegevensblok toont.](./assets/create_db.png)
 
-1. Plaats de **plaats van het blok van Gegevens**.
+1. Stel de **[!UICONTROL Data block location]** in.
 
    De optie voor gegevensbloklocatie definieert de werkbladlocatie waar de rapportbuilder de gegevens aan uw werkblad toevoegt.
 
    Als u de locatie van het gegevensblok wilt opgeven, selecteert u één cel in het werkblad of voert u een celadres in, zoals a3, \\\$a3, a\\$3 of sheet1!a2. De opgegeven cel wordt de linkerbovenhoek van het gegevensblok wanneer de gegevens worden opgehaald.
 
-1. Kies de **rapportsuites**.
+1. Kies de Reeks van het a **Rapport**.
 
    Met de optie voor rapportsuites kunt u een rapportsuite kiezen in een vervolgkeuzemenu of naar een rapportsuite verwijzen vanuit een cellocatie.
 
-1. Plaats de **waaier van de Datum**.
+1. Stel de **[!UICONTROL Date range]** in.
 
    Met de optie Datumbereik kunt u een datumbereik kiezen. Datumbereiken kunnen vast zijn of doorlopen. Voor informatie over de opties van de gegevenswaaier, zie [ Selecteer een Waaier van de Datum ](select-date-range.md).
 
-1. Klik **daarna**.
+1. Klik op **[!UICONTROL Next]** .
 
    ![ Schermafbeelding die de optie van de datumwaaier en de actieve Volgende knoop tonen.](./assets/choose_date_data_view3.png)
 
