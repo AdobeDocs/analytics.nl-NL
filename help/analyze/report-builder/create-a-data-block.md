@@ -5,7 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 0%
@@ -18,9 +18,9 @@ A *gegevensblok* is de lijst van gegevens die door één enkel gegevensverzoek w
 
 ## Het gegevensblok configureren
 
-Vorm de aanvankelijke parameters van het gegevensblok voor de het blokplaats van Gegevens, rapportreeksen, en een waaier van de Datum.
+Configureer de initiële gegevensblokparameters voor de locatie van het gegevensblok, de rapportsuite en een datumbereik.
 
-1. Klik op **[!UICONTROL Create data block]** .
+1. Klik op **[!UICONTROL Create data block]**.
 
    ![ Schermafbeelding die de Create optie van het gegevensblok toont.](./assets/create_db.png)
 
@@ -38,7 +38,7 @@ Vorm de aanvankelijke parameters van het gegevensblok voor de het blokplaats van
 
    Met de optie Datumbereik kunt u een datumbereik kiezen. Datumbereiken kunnen vast zijn of doorlopen. Voor informatie over de opties van de gegevenswaaier, zie [ Selecteer een Waaier van de Datum ](select-date-range.md).
 
-1. Klik op **[!UICONTROL Next]** .
+1. Klik op **[!UICONTROL Next]**.
 
    ![ Schermafbeelding die de optie van de datumwaaier en de actieve Volgende knoop tonen.](./assets/choose_date_data_view3.png)
 

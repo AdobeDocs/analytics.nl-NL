@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u analysefuncties kunt gebruiken, zoals Analysis Workspace, Analytics Dashboards, Report Builder en Report Builder van verouderde media en Activity Map.
-source-git-commit: 227a9d2b10db737ad255c2f9f65bab0ede691f20
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 9%
@@ -166,7 +166,7 @@ ht-degree: 9%
    + [Oudere aanvragen converteren](report-builder/convert-workbooks.md)
    + [Een gegevensblok maken](report-builder/create-a-data-block.md)
    + [Report Builder Hub](report-builder/report-builder-hub.md)
-   + [Een gegevensweergave selecteren](report-builder/select-report-suite.md)
+   + [Selecteer een rapportsuite](report-builder/select-report-suite.md)
    + [Een datumbereik selecteren](report-builder/select-date-range.md)
    + [Werken met segmenten](report-builder/work-with-segments.md)
    + [Dimensionen filteren](report-builder/filter-dimensions.md)
