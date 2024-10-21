@@ -5,9 +5,9 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
+source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ A *gegevensblok* is de lijst van gegevens die door één enkel gegevensverzoek w
 
 Configureer de initiële gegevensblokparameters voor de locatie van het gegevensblok, de rapportsuite en een datumbereik.
 
-1. Klik op **[!UICONTROL Create data block]**.
+1. Klik op **[!UICONTROL Create]**.
 
    ![ Schermafbeelding die de Create optie van het gegevensblok toont.](./assets/create_db.png)
 
@@ -28,7 +28,7 @@ Configureer de initiële gegevensblokparameters voor de locatie van het gegevens
 
    De optie voor gegevensbloklocatie definieert de werkbladlocatie waar de rapportbuilder de gegevens aan uw werkblad toevoegt.
 
-   Als u de locatie van het gegevensblok wilt opgeven, selecteert u één cel in het werkblad of voert u een celadres in, zoals a3, \\\$a3, a\\$3 of sheet1!a2. De opgegeven cel wordt de linkerbovenhoek van het gegevensblok wanneer de gegevens worden opgehaald.
+   Als u de locatie van het gegevensblok wilt opgeven, selecteert u één cel in het werkblad of voert u een celadres in, zoals a3, \\\$a3, a\\$3 of sheet1!a2. De opgegeven cel markeert de linkerbovenhoek van het gegevensblok wanneer de gegevens worden opgehaald.
 
 1. Kies de Reeks van het a **Rapport**.
 
@@ -50,7 +50,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
 1. Voeg Dimensionen, Metriek, en Filters toe.
 
-   Schuif de componentenlijsten of gebruik het **onderzoek** gebied om van componenten de plaats te bepalen. Sleep componenten naar het deelvenster Tabel of dubbelklik op een componentnaam in de lijst om de component automatisch toe te voegen aan het deelvenster Tabel.
+   Blader door de componentlijsten of gebruik het veld **[!UICONTROL Search]** om componenten te zoeken. Sleep componenten naar het deelvenster Tabel of dubbelklik op een componentnaam in de lijst om de component automatisch toe te voegen aan het deelvenster Tabel.
 
    Dubbelklik op een component om deze toe te voegen aan een standaardsectie van de tabel.
 
@@ -60,7 +60,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    **begindatum als Dimension**
 
-   Stel de begindatum in als een dimensie om de begindatum van uw gegevensblok duidelijk te identificeren. Dit is nuttig als u een regelmatig gepland rapport hebt dat een het rollen datumwaaier heeft of als u een onconventioneel datumwaaier hebt en u van de begindatum moet duidelijk zijn.
+   Stel de **[!UICONTROL Start date]** in als een dimensie om de begindatum van uw gegevensblok duidelijk te identificeren. Dit is nuttig als u een regelmatig gepland rapport hebt dat een het rollen datumwaaier heeft of als u een onconventioneel datumwaaier hebt en u op de begindatum duidelijk moet zijn.
 
    ![ het Schermafbeelding die de datum van het Begin in de lijst van dimensies toont.](./assets/start-date-dimension.png){width="30%"}
 
@@ -74,7 +74,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    **Vertoning of verbergt rij en kolomkopballen**
 
-1. Klik het **de montagespictogram van de Lijst**.
+1. Klik op het pictogram **[!UICONTROL Table settings]** .
 
    ![ Schermafbeelding die de de montagesoptie van de Lijst toont.](./assets/table-settings.png){width="35%"}
 
@@ -88,7 +88,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
 1. Klik op Verbergen of Tonen om de dimensielabels of kolomkoppen in en uit te schakelen. Alle labels worden standaard weergegeven.
 
-1. Klik **Afwerking**.
+1. Klik op **[!UICONTROL Finish]**.
 
    Er wordt een verwerkingsbericht weergegeven terwijl de analysegegevens worden opgehaald.
 
