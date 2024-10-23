@@ -3,7 +3,7 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
+source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 2%
@@ -21,7 +21,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van 16 oktober 20
 | Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Nieuwe Report Builder voor Adobe Analytics** | De nieuwe Report Builder-toepassing brengt Adobe Analytics een belangrijke update met zich mee, waaronder verbeterde prestaties, gestroomlijnde gebruikersinterface, 2.0 API-ondersteuning en ondersteuning voor Microsoft Excel in Mac, Windows en webbrowsers. Deze toepassing kan samen met de oudere toepassing worden gebruikt, maar niet op hetzelfde bestand. Een verbeteringseigenschap wordt verstrekt om erfeniswerkboeken aan de nieuwe toepassing te bevorderen. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | donderdag 16 oktober 2024 |
-| **de Uitvoer JSON voor het migreren van markeringsimplementatie aan de markeringen van SDK van het Web** | Deze update van de extensie Analytics heeft betrekking op de migratie naar de SDK van Web. U kunt deze update naar de Adobe Analytics-extensie gebruiken als onderdeel van uw workflow om extensieconfiguraties opnieuw te maken met de Web SDK-extensie. In de uitbreiding met Adobe Analytics-tags kunt u Vars, props en gebeurtenissen weergeven als JSON, die kan worden geëxporteerd voor bewerking en kan worden opgenomen in de Web SDK-extensie. |  | donderdag 23 oktober 2024 |
+| **de Uitvoer JSON voor het migreren van markeringsimplementatie aan de markeringen van SDK van het Web** | Deze update van de extensie Analytics heeft betrekking op de migratie naar de SDK van Web. U kunt deze update naar de Adobe Analytics-extensie gebruiken als onderdeel van uw workflow om extensieconfiguraties opnieuw te maken met de Web SDK-extensie. In de uitbreiding met Adobe Analytics-tags kunt u Vars, props en gebeurtenissen weergeven als JSON, die kan worden geëxporteerd voor bewerking en kan worden opgenomen in de Web SDK-extensie. |  | vrijdag 31 oktober 2024 |
 
 ## Oplossingen in Adobe Analytics
 
