@@ -3,15 +3,14 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
+source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 2%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (23 oktober 2024)
-
 
 **Laatste update**: 23 oktober 2024
 
@@ -38,12 +37,11 @@ Gegevensbronnen: AN-359290
 Data Warehouse: AN-359820
 Overlopende waarschuwingen: AN-358132
 
-
 ## Belangrijke kennisgevingen voor Adobe Analytics-beheerders {#admin}
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
-| **niet-Campagneklanten zullen toegang tot Triggers verliezen** | donderdag 16 oktober 2024 | Op 30 Januari, 2025, zullen de klanten van Adobe Analytics die geen vergunning van Adobe Campaign hebben toegang tot de capaciteit verliezen om [ Triggers ](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) te vormen en te verbruiken. Klanten moeten campagne aanschaffen of het gebruik van Triggers stopzetten of andere Adoben die Triggers-mogelijkheden bieden, bekijken. |
+| **niet-Campagneklanten zullen toegang tot Triggers verliezen** | dinsdag 16 oktober 2023 | Op 30 januari 2025 verliezen Adobe Analytics-klanten die geen Adobe Campaign-licentie hebben, de toegang tot het configureren en gebruiken van Triggers. Klanten moeten campagne aanschaffen of het gebruik van Triggers stopzetten of andere Adoben die Triggers-mogelijkheden bieden, bekijken. |
 | **de Extra gebieden XDM van het implementatiedetail automatisch in kaart gebracht** | donderdag 11 september 2024 | Als u de Adobe Experience Platform-Edge Network gebruikt om gegevens naar Adobe Analytics te verzenden, worden de XDM-velden `xdm.implementationdetails.name` en `xdm.implementationdetails.environment` nu altijd toegewezen aan contextgegevensvariabelen `c.a.x.implementationdetails.name` en `c.a.x.implementationdetails.environment` . Voorheen konden deze waarden in sommige scenario&#39;s niet worden gevuld. Pas de relevante verwerkingsregels aan om rekening te houden met de beschikbaarheid van deze waarden. |
 
 ## Aankondigingen van einde levensduur (EOL) {#eol}
