@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
+source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '767'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van 16 oktober 20
 | ----------- | ---------- | ------- | ---- |
 | **Nieuwe Report Builder voor Adobe Analytics** | De nieuwe Report Builder-toepassing brengt Adobe Analytics een belangrijke update met zich mee, waaronder verbeterde prestaties, gestroomlijnde gebruikersinterface, 2.0 API-ondersteuning en ondersteuning voor Microsoft Excel in Mac, Windows en webbrowsers. Deze toepassing kan samen met de oudere toepassing worden gebruikt, maar niet op hetzelfde bestand. Een verbeteringseigenschap wordt verstrekt om erfeniswerkboeken aan de nieuwe toepassing te bevorderen. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | donderdag 16 oktober 2024 |
 | **de Uitvoer JSON voor het migreren van markeringsimplementatie aan de markeringen van SDK van het Web** | Deze update van de extensie Analytics heeft betrekking op de migratie naar de SDK van Web. U kunt deze update naar de Adobe Analytics-extensie gebruiken als onderdeel van uw workflow om extensieconfiguraties opnieuw te maken met de Web SDK-extensie. In de uitbreiding met Adobe Analytics-tags kunt u Vars, props en gebeurtenissen weergeven als JSON, die kan worden geëxporteerd voor bewerking en kan worden opgenomen in de Web SDK-extensie. |  | vrijdag 31 oktober 2024 |
+| **Nieuwe informatie over de factoren van het Verzoek in de Prestaties van Analysis Workspace** | Er is nu een nieuwe sectie &#39;Aanvraagfactoren&#39; beschikbaar voor het analyseren van de prestaties in Analysis Workspace. Meer over leren hoe de verzoeken worden verwerkt en de diverse factoren die verwerkingstijden beïnvloeden, zie &quot;de factoren van het Verzoek&quot;in [ optimaliseren de prestaties van Analysis Workspace ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | woensdag 1 oktober 2024 |
 
 ## Oplossingen in Adobe Analytics
 

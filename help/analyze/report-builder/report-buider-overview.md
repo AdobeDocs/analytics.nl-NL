@@ -5,7 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
+source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 1%
@@ -75,4 +75,4 @@ Bij het vergelijken van de functionaliteit van verouderde Report Builder met de 
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
-U kunt Report Builder van de [ Opslag van Microsoft ](https://www.microsoft.com/en-us/store/apps/windows) downloaden.
+U kunt Report Builder van de [ Opslag van Microsoft ](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview) downloaden.
