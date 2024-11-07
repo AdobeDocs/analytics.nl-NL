@@ -3,7 +3,7 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: Aan de slag voor beheerders, analisten, eindgebruikers en ontwikkelaars
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '1692'
 ht-degree: 4%
@@ -112,9 +112,7 @@ Hier volgen enkele belangrijke taken en functies waarmee analisten vertrouwd moe
 | Waarschuwingen | Maak en beheer waarschuwingen op basis van gegevensanomalieën en &#39;gestapelde&#39; waarschuwingen die meerdere metriek in één waarschuwing vastleggen. | [ overzicht van het alarm ](/help/components/c-alerts/intellligent-alerts.md) |
 | Gegevens exporteren | Met Data Warehouse- en gegevensfeeds kunt u gegevens exporteren naar verschillende cloudinstellingen, zoals Google Cloud Platform, Azure RBAC, Azure SAS en Amazon S3. | [ Gids van de Uitvoer van Analytics ](https://experienceleague.adobe.com/docs/analytics/export/home.html) |
 | Activiteitenoverzicht | Activity Map is een Adobe Analytics-toepassing die is ontworpen om linkactiviteiten met behulp van visuele overlays te rangschikken en die een dashboard van realtime analyses biedt om de betrokkenheid van het publiek van uw webpagina&#39;s te controleren.<p>Met Activity Map kunt u verschillende weergaven instellen om visueel de versnelling van klantactiviteiten te identificeren, marketinginitiatieven te kwantificeren en op de behoeften en het gedrag van het publiek in te spelen.</p> | [ Activity Map ](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
-| Report Builder | Report Builder is een add-in voor Microsoft Excel. Met Report Builder kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens die in uw Excel-werkbladen worden ingevoegd. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft. | [ Report Builder ](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |
-
-{style="table-layout:auto"}
+| Report Builder | Report Builder is een add-in voor Microsoft Excel. Met Report Builder kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens die in uw Excel-werkbladen worden ingevoegd. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft. | [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |
 
 <!-- * Realtime reporting? -->
 

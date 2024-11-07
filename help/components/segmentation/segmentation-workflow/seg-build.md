@@ -3,7 +3,7 @@ description: De segmentbouwer verstrekt een canvas om Metrische Dimensionen, Seg
 title: Segmenten maken
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '1872'
 ht-degree: 1%
@@ -18,7 +18,7 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 
 * **Analytics hoogste navigatie**: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: klik op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** , open een project en klik op **[!UICONTROL + New]** > **[!UICONTROL Create Segment]** .
-* **[!UICONTROL Report Builder]**: [ voeg of geef segmenten in Report Builder ](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html) toe uit.
+* **[!UICONTROL Report Builder]**: [ voeg of geef segmenten in Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments) toe uit.
 
 ## Builder-criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 

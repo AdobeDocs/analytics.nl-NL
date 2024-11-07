@@ -3,7 +3,7 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: De interface Analytics begrijpen
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '2060'
 ht-degree: 6%
@@ -79,7 +79,7 @@ Het tabblad [!UICONTROL Components] bevat functies die u helpen uw gegevensanaly
    | Zoeken en promoten | Deze functie wordt niet meer ondersteund. |  |
    | Mobiele services | Deze functie wordt niet meer ondersteund. |  |
    | Analysedashboards (mobiele app) | De Adobe Analytics-app voor dashboards biedt altijd en overal inzicht vanuit Adobe Analytics. Via de app kunnen gebruikers intuïtieve scoreborden weergeven die u maakt met de gebruikersinterface van Adobe Analytics-desktops. | De Adobe Analytics-dashboards-app in de iOS App Store- of Google Play-winkel |
-   | Report Builder | Adobe Report Builder is een invoegtoepassing voor Microsoft Excel. Hiermee kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens, die u kunt invoegen in uw Excel-werkbladen. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft. | [ wat is Report Builder?](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |
+   | Report Builder | Adobe Report Builder is een invoegtoepassing voor Microsoft Excel. Hiermee kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens, die u kunt invoegen in uw Excel-werkbladen. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft. | [ wat is Report Builder?](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |
 
    {style="table-layout:auto"}
 
