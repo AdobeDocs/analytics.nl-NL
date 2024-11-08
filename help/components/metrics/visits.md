@@ -3,9 +3,9 @@ title: Bezoeken
 description: Een reeks paginaweergaven in een vergadering.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
+source-git-commit: 59582c9fa910c789b44798eae21566aa6fd99124
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,8 @@ Als een bezoeker om het even welk van deze acties uitvoert, begint een nieuw bez
 
 U kunt de definitie van een bezoek wijzigen in een andere tijd dan 30 minuten.
 
-* Voor [ Virtuele rapportreeksen ](../vrs/vrs-about.md), kunt u de bezoekonderbreking veranderen gebruikend de [!UICONTROL Visit timeout] drop-down lijst. U kunt de time-out voor een bezoek wijzigen in een redelijke waarde.
-* Voor standaardrapportreeksen kunt u contact opnemen met de klantenservice om te verzoeken dat de duur van het bezoek wordt verkort voor een bepaalde rapportsuite. De lengte van het bezoek voor standaard rapportreeksen kan niet 30 minuten overschrijden, zodat kunt u het slechts verkorten.
+* Voor [ Virtuele rapportreeksen ](../vrs/vrs-about.md), kunt u de bezoekonderbreking (tijd tussen treffers veranderen die een nieuw bezoek om veroorzaakt te beginnen) gebruiken [!UICONTROL Visit timeout] drop-down lijst. U kunt de time-out voor een bezoek wijzigen in een redelijke waarde.
+* Voor standaardrapportreeksen kunt u contact opnemen met de klantenservice om een time-out van het bezoek aan te vragen (tijd tussen treffers waardoor een nieuw bezoek begint). U kunt de tijd voor een bepaalde rapportsuite verkorten. De time-out van het bezoek voor standaardrapportsuites mag niet langer zijn dan 30 minuten, dus u kunt deze alleen verkorten.
 
 ## Bezoeken die een datumgrens omspannen
 
