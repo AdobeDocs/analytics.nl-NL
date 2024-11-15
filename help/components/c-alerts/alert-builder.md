@@ -3,9 +3,9 @@ description: Gebruik waarschuwingen in Analysis Workspace.
 title: Overzicht van Alert Builder
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: a71c3c6911ed2c2eb9202c8f149a44d6364017b8
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Een waarschuwing maken:
    |---------|----------|
    | [!UICONTROL **Titel**] | Geef een naam op voor de waarschuwing. De waakzame naam zou de naam van het rapport of de metriedrempel kunnen bevatten. |
    | [!UICONTROL **Beschrijving (facultatief)**] | Geef een beschrijving voor de waarschuwing op. |
-   | [!UICONTROL **granulariteit van de Tijd**] | Selecteer hoe vaak u de metrische waarde wilt controleren: Dagelijks, Wekelijks of Maandelijks.<p><b> Nota:</b> voor gegevensmeningen met een douanekalender, steunen wij geen maandelijkse granulariteit in de Waakzame Bouwer.<!--true?--></p> |
+   | [!UICONTROL **granulariteit van de Tijd**] | Selecteer hoe vaak u metrisch wilt controleren: Uur, Dagelijks, Wekelijks, of Maandelijks.<p><b> Nota:</b> voor gegevensmeningen met een douanekalender, steunen wij geen maandelijkse granulariteit in de Waakzame Bouwer.<!--true?--></p> |
    | [!UICONTROL **Ontvangers**] | Geef op waar de waarschuwing kan worden verzonden. Een waarschuwing kan naar een gebruiker van de Analyse, een groep van Analytics, een onbewerkt e-mailadres, of naar een telefoonaantal worden verzonden.<p><b> Belangrijk:</b> het telefoonaantal moet door a &quot;+&quot;en a [ landcode ](https://countrycode.org/) worden voorafgegaan.</p><p>De e-mail die een gebruiker zou ontvangen zodra een alarm is teweeggebracht kijkt gelijkaardig aan dit:</p><p>![](assets/alerts-email.PNG)</p> |
    | [!UICONTROL **Vervaldatum**] | Stel de datum en tijd in waarop de waarschuwing moet verlopen. |
    | [!UICONTROL **verzend een alarm wanneer**] | [!UICONTROL **om het even welk van deze metrieke trekker**]: Sleep en dalingsmetriek (met inbegrip van berekende metriek) hier om trekkers voor het alarm tot stand te brengen.<p>Een **&quot;incompatibele componenten&quot;** bericht verschijnt als niet alle metriek, dimensies, of segmenten in de alarm compatibel zijn met de momenteel geselecteerde gegevensmening.</p><p>Bepaal de drempel die metrisch moet overschrijden alvorens een alarm wordt geplaatst. U kunt deze waarde instellen op een drempel en vervolgens op een van de volgende voorwaarden:</p><ul><li>anomalie bestaat</li><li>anomalie is groter dan verwacht</li><li>anomalie is minder dan verwacht</li><li>is boven of gelijk aan</li><li>is lager of gelijk aan</li><li>wijzigingen door</li><li>U kunt een drempel instellen van 90%, 95%, 99%, 99,75% en 99,9%.</li></ul><p>[!UICONTROL **met elk van deze filters**]: Sleep en dalingssegmenten of dimensies om filters toe te voegen. Als u bijvoorbeeld een segment &quot;Alleen mobiele apparaten&quot; toevoegt, betekent dit dat de regel alleen voor mobiele apparaten wordt geactiveerd. U kunt extra filters toevoegen door een EN verklaring te gebruiken. U kunt EN of OF regels toevoegen door het tandwielpictogram te klikken.</p><p>Zie [ Alarm - gebruiksgevallen ](/help/components/c-alerts/alerts-use-cases.md) bijvoorbeeld gebruiksgevallen.</p> |
