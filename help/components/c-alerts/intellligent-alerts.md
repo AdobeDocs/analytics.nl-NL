@@ -3,9 +3,9 @@ description: Alarm maakt korrelige controle over meldingen mogelijk, en integrat
 title: Overzicht van waarschuwingen
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Alarm 
 
 >[!NOTE]
 >
->Het gebruiken van alarm met anomalieopsporing (die ook als _Intelligente Alarm_ wordt bekend) is beschikbaar slechts aan organisaties met een Uitgezochte Adobe Analytics, Primair, of Ultimate pakket.
+>Het gebruiken van alarm met anomalieopsporing (die ook als _Intelligente Alarm_ wordt bekend) is beschikbaar slechts aan organisaties met een Adobe Analytics Prime of een Ultimate pakket.
 
 Als een waarschuwing afwijkende detectie gebruikt, varieert de trainingsperiode op basis van de voor de waarschuwing geselecteerde granulariteit.
 
