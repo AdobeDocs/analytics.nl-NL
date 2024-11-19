@@ -5,9 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
+exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
+source-git-commit: c35d5bdc29ce80f0c9357339b04fd2d656cfbe52
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,9 @@ Configureer de initiële gegevensblokparameters voor de locatie van het gegevens
 
    De optie voor gegevensbloklocatie definieert de werkbladlocatie waar de rapportbuilder de gegevens aan uw werkblad toevoegt.
 
-   Als u de locatie van het gegevensblok wilt opgeven, selecteert u één cel in het werkblad of voert u een celadres in, zoals a3, \\\$a3, a\\$3 of sheet1!a2. De opgegeven cel markeert de linkerbovenhoek van het gegevensblok wanneer de gegevens worden opgehaald.
+   Als u de locatie van het gegevensblok wilt opgeven, selecteert u één cel in het werkblad en klikt u op het pictogram naast **[!UICONTROL Data block location]** :
+
+   U kunt ook een celadres invoeren, zoals a3, \\\$a3, a\\$3 of sheet1!a2. De opgegeven cel markeert de linkerbovenhoek van het gegevensblok wanneer de gegevens worden opgehaald.
 
 1. Kies de Reeks van het a **Rapport**.
 
@@ -40,7 +43,7 @@ Configureer de initiële gegevensblokparameters voor de locatie van het gegevens
 
 1. Klik op **[!UICONTROL Next]**.
 
-   ![ Schermafbeelding die de optie van de datumwaaier en de actieve Volgende knoop tonen.](./assets/choose_date_data_view3.png)
+   ![ Schermafbeelding die de optie van de datumwaaier en de actieve Volgende knoop tonen.](./assets/choose_date_report_suite.png)
 
    Nadat u het gegevensblok vormt, kunt u afmetingen, metriek, en segmenten selecteren om uw gegevensblok te bouwen. De tabbladen Dimensionen, Metriek en Filters worden boven het deelvenster Tabelbouwer weergegeven.
 
@@ -48,7 +51,7 @@ Configureer de initiële gegevensblokparameters voor de locatie van het gegevens
 
 Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-out aan.
 
-1. Voeg Dimensionen, Metriek, en Filters toe.
+1. Voeg Dimensionen, Metriek, en Segmenten toe.
 
    Blader door de componentlijsten of gebruik het veld **[!UICONTROL Search]** om componenten te zoeken. Sleep componenten naar het deelvenster Tabel of dubbelklik op een componentnaam in de lijst om de component automatisch toe te voegen aan het deelvenster Tabel.
 
@@ -56,7 +59,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    - De componenten van het Dimension worden toegevoegd aan de sectie van de Rij of aan de sectie van de Kolom als u een afmeting reeds in de kolommen hebt.
    - Datumcomponenten worden toegevoegd aan de sectie Kolom.
-   - Filtercomponenten worden toegevoegd aan de sectie Filters.
+   - De componenten van het segment worden toegevoegd aan de sectie van Segmenten.
 
    **begindatum als Dimension**
 
@@ -91,8 +94,6 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 1. Klik op **[!UICONTROL Finish]**.
 
    Er wordt een verwerkingsbericht weergegeven terwijl de analysegegevens worden opgehaald.
-
-   ![ Het verwerkingsbericht.](./assets/image11.png)
 
    De Report Builder wint de gegevens terug en toont het voltooide gegevensblok in het aantekenvel.
 
