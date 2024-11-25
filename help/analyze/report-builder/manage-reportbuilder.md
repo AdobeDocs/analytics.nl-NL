@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
-source-git-commit: 3d1a26b960988020391e75b3d01af0f9b806d33b
+source-git-commit: 8c863329e385c7e3fe15d85c07e1a1d541296acb
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,8 @@ Een gegevensblok dat niet is vernieuwd, geeft een waarschuwingspictogram weer: <
 
 ## Een gegevensblok verwijderen
 
-Klik op het prullenbakpictogram om een geselecteerd gegevensblok te verwijderen.
+1. Selecteer een gegevensblok in de Manager van het Blok van Gegevens.
+1. Klik op het prullenbakpictogram om het geselecteerde gegevensblok te verwijderen.
 
 ## Gegevensblokken groeperen
 
