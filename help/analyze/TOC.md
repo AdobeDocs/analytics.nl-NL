@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
+source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '971'
 ht-degree: 11%
 
 ---
@@ -47,6 +47,9 @@ ht-degree: 11%
    + Rapporten {#reports}
       + [Vooraf samengestelde rapporten gebruiken](analysis-workspace/reports/use-reports.md)
       + [Bedrijfsrapporten maken en beheren](analysis-workspace/reports/create-company-reports.md)
+   + Sjablonen {#templates}
+      + [Sjablonen gebruiken](analysis-workspace/templates/use-templates.md)
+      + [Sjablonen maken](analysis-workspace/templates/create-templates.md)
    + Onderdelen {#components}
       + [Overzicht van componenten](analysis-workspace/components/analysis-workspace-components.md)
       + [Componenten in Workspace gebruiken](analysis-workspace/components/use-components-in-workspace.md)
