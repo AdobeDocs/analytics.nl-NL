@@ -5,9 +5,10 @@ feature: Analysis Workspace
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e98458a96e9950ffab40876b80a9e799a9182e6a
+exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
+source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
 workflow-type: tm+mt
-source-wordcount: '18028'
+source-wordcount: '18027'
 ht-degree: 0%
 
 ---
@@ -34,13 +35,13 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
    <!--update screenshot -->
 
-   ![ het lusje van Rapporten ](assets/view-prebuilt-reports.png)
+   ![ het lusje van Rapporten ](assets/view-prebuilt-templates.png)
 
 1. In de [!UICONTROL **sectie van Malplaatjes**], selecteer één van beiden van de volgende lusjes:
 
    * **[!UICONTROL Adobe templates]**: geeft alle sjablonen weer die door de Adobe worden aangeboden.
 
-   * **[!UICONTROL _login_company_name _malplaatjes]**: Toont alle bedrijfmalplaatjes die voor in uw organisatie zijn gecreeerd.
+   * **[!UICONTROL _login_company_name _malplaatjes]**: Toont alle bedrijfmalplaatjes die voor uw organisatie zijn gecreeerd.
 
      De malplaatjes van het bedrijf kunnen slechts door een beheerder worden gecreeerd. Voor meer informatie over hoe te om een bedrijfmalplaatje tot stand te brengen, zie [ malplaatjes ](/help/analyze/analysis-workspace/reports/create-company-reports.md) creëren en beheren.
 

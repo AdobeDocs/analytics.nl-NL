@@ -5,58 +5,101 @@ feature: Analysis Workspace
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 6da9326feec005489e06bb7124b1ff3722830308
+exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
+source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
 
-# Bedrijfssjablonen maken en beheren
+# Sjablonen maken en beheren
 
-U kunt aangepaste rapporten maken en deze opslaan zodat anderen deze kunnen gebruiken in uw aanmeldingsbedrijf. De malplaatjes van het bedrijf zijn beschikbaar om te kiezen wanneer het creëren van een project, zoals die in [ wordt beschreven een project van een leeg project of een rapport ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) in het artikel creëren, [ projecten in Analysis Workspace ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) creëren.
+Beheerders kunnen sjablonen maken en deze opslaan voor gebruik door anderen in hun aanmeldingsbedrijf.
 
-## Een aangepaste bedrijfssjabloon maken
+De mensen in het login bedrijf kunnen deze bedrijfmalplaatjes gebruiken zoals die in [ worden beschreven malplaatjes van het Gebruik ] (/help/analyze/analysis-workspace/templates/use-templates.md.
 
-Een nieuwe bedrijfssjabloon maken:
+## Een sjabloon maken
 
-1. Bouw een project in Analysis Workspace aan uw gewenste staat.
-1. Selecteer [!UICONTROL **Project**] > **[!UICONTROL Save as company template...]**.
+Om een nieuw malplaatje tot stand te brengen dat door mensen in uw login bedrijf kan worden gebruikt:
 
-   ![ het rapport van het Bedrijf ](assets/company-report.png)
+1. In Analysis Workspace, bouw een project aan uw gewenste staat.
 
-1. Werk de naam van het rapport bij, voeg een beschrijving toe, en voeg om het even welke markeringen toe, dan uitgezocht [!UICONTROL **sparen als bedrijfmalplaatje**].
+1. Selecteer [!UICONTROL **Project**] > **[!UICONTROL Save as template…]**.
 
-   Het malplaatje wordt toegevoegd aan de lijst van de malplaatjes van het Bedrijf in Create Project modaal en is beschikbaar aan gebruikers in uw login bedrijf.
+   ![ malplaatje van het Bedrijf ](assets/company-template-save.png)
 
-   Voor meer informatie over hoe de gebruikers een project kunnen tot stand brengen dat op een bedrijfmalplaatje wordt gebaseerd, zie &quot;een project van een leeg project of een rapport&quot;in [ creëren projecten ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+1. Geef de volgende informatie op in het dialoogvenster [!UICONTROL Save as template] :
 
-## Bedrijfssjablonen beheren
+   | Veld | Beschrijving |
+   |---------|----------|
+   | **[!UICONTROL Name]** | Geef een beschrijvende naam op voor de sjabloon. |
+   | **[!UICONTROL Description]** | Geef een korte beschrijving voor de sjabloon waarin het beoogde gebruik wordt beschreven. |
+   | **[!UICONTROL Why use this template]** | Geef een korte uitleg om mensen in de organisatie te informeren over de manier waarop deze sjabloon kan worden gebruikt. |
+   | **[!UICONTROL Channels]** | Kies de kanalen die van toepassing zijn op deze sjabloon. U kunt meerdere kanalen selecteren: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** en **[!UICONTROL In-store]** .<p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
+   | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]** , **[!UICONTROL Conversion]** , **[!UICONTROL Audience]** en **[!UICONTROL Acquisition]** . <p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
+   | **[!UICONTROL Tags]** | Geef de tags op die u op de sjabloon wilt toepassen. Mensen kunnen de lijst met sjablonen filteren op de tags die u toevoegt. |
 
-Beheerders kunnen de projectlijst filteren om bedrijfssjablonen weer te geven en te beheren. De vastgezette punten blijven vastgezet gevolgd door de lijst van bedrijfmalplaatjes die door het rapportpictogram ![ rapportpictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) worden geïdentificeerd. In deze weergave kunt u een of meer rapporten verwijderen, hernoemen, labelen of goedkeuren.
+1. Selecteer [!UICONTROL **sparen als malplaatje**].
 
-Zo kunt u bedrijfssjablonen weergeven en beheren:
+Voor informatie over hoe de gebruikers een project kunnen tot stand brengen dat op een malplaatje wordt gebaseerd, zie [ een project creëren dat op een malplaatje ](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) wordt gebaseerd in [ malplaatjes van het Gebruik ](/help/analyze/analysis-workspace/templates/use-templates.md).
+
+## Sjablonen bewerken of verwijderen
+
+Beheerders kunnen bedrijfssjablonen bewerken of verwijderen.
+
+1. In Analysis Workspace, selecteer het [!UICONTROL **Workspace**] lusje, dan uitgezochte **[!UICONTROL _login_company_name _malplaatjes]**.
+
+1. Als u malplaatjes in een pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) bekijkt:
+
+   1. Ga naar de sjabloon die u wilt bewerken of verwijderen, selecteer het informatiepictogram naast de sjabloonnaam.
+
+      ![ het malplaatjeinfo van het Bedrijf ](assets/company-template-info.png)
+
+   1. Selecteer **[!UICONTROL Preview]** .
+
+   1. Selecteer het pictogram Meer en selecteer vervolgens **[!UICONTROL Edit]** of **[!UICONTROL Delete]** .
+
+      ![ geef of schrap malplaatje ](assets/company-template-edit-delete.png) uit
+
+1. Als u malplaatjes in een pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png) bekijkt:
+
+   1. Zoek de sjabloon die u wilt bewerken of verwijderen.
+
+      ![ de kaartmening van het het malplaatje van het Bedrijf ](assets/company-template-cards.png)
+
+   1. Selecteer het pictogram Meer en selecteer vervolgens **[!UICONTROL Edit]** of **[!UICONTROL Delete]** .
+
+      ![ de malplaatjekaart van het Bedrijf geeft uit of schrapt ](assets/company-template-card-edit-delete.png)
+
+## Sjablonen hernoemen, labelen of goedkeuren
+
+Beheerders kunnen bedrijfssjablonen hernoemen, labelen en goedkeuren.
+
+1. In Analysis Workspace, selecteer het [!UICONTROL **Workspace**] lusje, dan selecteer **[!UICONTROL Projects tab]** in het linkerspoor.
+
+1. Selecteer het filterpictogram om de lijst met projecten te filteren.
 
 1. In het filterspoor, uitgezochte **ANDERE FILTERS** en selecteer dan **de malplaatjes van het Bedrijf**.
 
    Er wordt een lijst met bedrijfssjablonen weergegeven. Alle gewone projecten worden niet weergegeven, tenzij ze vastgezet zijn.
 
-   ![ het bedrijf van de Vertoning rapporteert filters ](assets/company-reports-filter.png)
+   De malplaatjes van het bedrijf kunnen door het ![ malplaatjepictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) worden geïdentificeerd die de malplaatjenaam voorafgaat.
 
-   Als bedrijfssjablonen worden weergegeven, kunnen beheerders het rapport verwijderen, hernoemen, toevoegen of goedkeuren.
+   ![ het bedrijf van de vertoning malplaatjes filters ](assets/company-templates-filter.png)
 
-1. Selecteer één rapport in de rapportlijst of selecteer meerdere rapporten.
+1. Klik op het pictogram **...** elilpsis naast een sjabloon om de beschikbare opties weer te geven.
 
-1. Klik op het pictogram **..** elilpsis naast een rapport om de beschikbare opties weer te geven (Verwijderen, Naam wijzigen, Tags toevoegen en Goedkeuren).
+   ![ de malplaatjeacties van het Bedrijf ](assets/company-templates-actions.png)
 
-   ![ het rapportacties van het Bedrijf ](assets/company-reports-actions.png)
+1. Selecteer **[!UICONTROL Rename]**, **[!UICONTROL Tag]** of **[!UICONTROL Approve]** .
 
-1. Selecteer een optie (Verwijderen, Naam wijzigen, Label en Goedkeuren).
+   U kunt een malplaatje ook schrappen, of u kunt een malplaatje schrappen zoals die in [ wordt beschreven uitgeven of malplaatjes ](#edit-or-delete-templates) schrappen.
 
-1. Om op de regelmatige mening terug te keren wanneer uw gedaan, in filterspoor, uncheck de optie van de malplaatjes van het Bedrijf opnieuw.
+1. (Optioneel) Schakel **[!UICONTROL Company templates]** uit als u wilt terugkeren naar de standaardweergave in de filterrail.
 
-### Een bedrijfssjabloon verwijderen
+## Toegang tot een bedrijfssjabloon
 
-Admins kunnen een rapport schrappen gebruikend de hierboven beschreven de lijstoptie van het Bedrijf malplaatjes of een rapport schrappen van Create project modaal.
+Net als met sjablonen die door Adobe worden verschaft, kunnen gebruikers in de organisatie toegang krijgen tot sjablonen die beheerders maken.
 
-![ Andere filters ](assets/delete-fr-create-project-modal.png)
+Voor informatie over hoe te om tot een bedrijfmalplaatje toegang te hebben, zie [ Toegang en stel een malplaatje ](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [ malplaatjes van het Gebruik ](/help/analyze/analysis-workspace/templates/use-templates.md) in werking.
