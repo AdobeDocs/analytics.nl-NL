@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '18027'
+source-wordcount: '18021'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,11 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
      De malplaatjes van het bedrijf kunnen slechts door een beheerder worden gecreeerd. Voor meer informatie over hoe te om een bedrijfmalplaatje tot stand te brengen, zie [ malplaatjes ](/help/analyze/analysis-workspace/reports/create-company-reports.md) creëren en beheren.
 
-1. Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of het pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) of het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png) te selecteren.
+1. Gebruik een van de volgende opties om de weergave van de beschikbare sjablonen te wijzigen:
+
+   * Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of het pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) of het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png) te selecteren.
+
+   * Wanneer het gebruiken van het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png), kies van de volgende soortorden: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
 
 1. Typ in het zoekveld de naam van de sjabloon die u wilt zoeken en selecteer deze in de lijst met sjablonen. U kunt de sjabloonlijst ook doorzoeken op basis van eigenschap, eVar en gebeurtenisnummer. <!-- still true? -->
 
@@ -58,8 +62,6 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
    >Als u met de pijltoetsen door het menu wilt navigeren, drukt u op de toets Volgende schuine streep (/) en vervolgens op de toets Pijl-omlaag. Druk op Enter om de geselecteerde sjabloon te laden.
 
    Voor een lijst van malplaatjes die beschikbaar zijn, zie de [ Beschikbare malplaatjes ](#available-reports) hieronder sectie.
-
-1. (Optioneel) Sjablonen weergeven en gebruiken die componenten bevatten die niet beschikbaar zijn in uw rapportsuite. (Standaard worden alleen sjablonen weergegeven die componenten gebruiken die beschikbaar zijn in uw rapportsuite.) <!--does this apply to AA? -->
 
 ## Een project maken op basis van een sjabloon {#use-reports}
 
