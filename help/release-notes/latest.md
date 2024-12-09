@@ -3,16 +3,16 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
+source-git-commit: 2a766fc06cab81c2b1d4b8a4de2c88dae42bf907
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '807'
 ht-degree: 2%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (23 oktober 2024)
 
-**Laatste update**: 23 oktober 2024
+**Laatste update**: 9 December, 2024
 
 Deze releaseopmerkingen hebben betrekking op de releaseperiode van 16 oktober 2024 tot eind 2024. De versies van Adobe Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -23,6 +23,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van 16 oktober 20
 | **Nieuwe Report Builder voor Adobe Analytics** | De nieuwe Report Builder-toepassing brengt Adobe Analytics een belangrijke update met zich mee, waaronder verbeterde prestaties, gestroomlijnde gebruikersinterface, 2.0 API-ondersteuning en ondersteuning voor Microsoft Excel in Mac, Windows en webbrowsers. Deze toepassing kan samen met de oudere toepassing worden gebruikt, maar niet op hetzelfde bestand. Een verbeteringseigenschap wordt verstrekt om erfeniswerkboeken aan de nieuwe toepassing te bevorderen. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | donderdag 16 oktober 2024 |
 | **de Uitvoer JSON voor het migreren van markeringsimplementatie aan de markeringen van SDK van het Web** | Deze update van de extensie Analytics heeft betrekking op de migratie naar de SDK van Web. U kunt deze update naar de Adobe Analytics-extensie gebruiken als onderdeel van uw workflow om extensieconfiguraties opnieuw te maken met de Web SDK-extensie. In de uitbreiding met Adobe Analytics-tags kunt u Vars, props en gebeurtenissen weergeven als JSON, die kan worden geëxporteerd voor bewerking en kan worden opgenomen in de Web SDK-extensie. |  | vrijdag 31 oktober 2024 |
 | **Nieuwe informatie over de factoren van het Verzoek in de Prestaties van Analysis Workspace** | Er is nu een nieuwe sectie &#39;Aanvraagfactoren&#39; beschikbaar voor het analyseren van de prestaties in Analysis Workspace. Meer over leren hoe de verzoeken worden verwerkt en de diverse factoren die verwerkingstijden beïnvloeden, zie &quot;de factoren van het Verzoek&quot;in [ optimaliseren de prestaties van Analysis Workspace ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | woensdag 1 oktober 2024 |
+| **het bewaartermijn van identiteitskaart van de Transactie** | De `transactionID` variabele identificeert uniek een transactie zodat kan de slag aan gegevens verbinden die door Gegevensbronnen worden geupload. De standaardretentieperiode van 90 dagen van de ID wordt verlengd tot 25 maanden in januari 2025. |  | donderdag 22 januari 2025 |
 
 ## Oplossingen in Adobe Analytics
 
