@@ -1,13 +1,13 @@
 ---
-description: Gegevens die worden verzameld op websites, mobiele apps of die worden geüpload met behulp van webservice-API's of gegevensbronnen, worden verwerkt en opgeslagen in Adobe Data Warehouse. Deze onbewerkte klikstreamgegevens vormen de gegevensset die door Adobe Analytics wordt gebruikt.
+description: Leer hoe u gegevensfeeds kunt gebruiken om onbewerkte gegevens uit Adobe Analytics te halen. Kom de eerste vereisten voor het gebruiken van gegevensvoer te weten wat te doen daarna.
 keywords: clickStream;data feed;datafeed;Data Feed
-title: Overzicht van gegevensinvoer voor analyse
+title: Overzicht van gegevensfeed voor analyse
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 0%
+source-wordcount: '299'
+ht-degree: 1%
 
 ---
 
@@ -19,20 +19,20 @@ Gegevensfeeds zijn een krachtige manier om onbewerkte gegevens uit Adobe Analyti
 
 Zorg ervoor dat u aan alle volgende vereisten voldoet voordat u gegevensfeeds gebruikt.
 
-* Een werkende implementatie die gegevens naar de servers van de Adobe- gegevensinzameling verzendt. Zie [Een implementatie valideren en publiceren](/help/implement/launch/validate-publish-prod.md) in de handleiding voor de implementatie.
+* Een werkende implementatie die gegevens naar de servers van de de gegevensinzameling van de Adobe verzendt. Zie [ bevestigen en een implementatie ](/help/implement/launch/validate-publish-prod.md) in de gids van de Implementatie publiceren.
 * Uw account is een productbeheerder voor Analytics of uw account behoort tot een productprofiel met toegang tot gegevensfeeds.
 * Een emmertje geconfigureerd op Amazon S3, Google Cloud Platform, Azure RBAC of Azure SAS.
-* (Verouderd: Alleen vereist voor verouderde FTP- en SFTP-doeltypen) Heb een FTP-site en aanmeldingsgegevens (FTP-gegevens verstrekt door uw organisatie).
+* (Verouderd: alleen vereist voor verouderde FTP- en SFTP-doeltypen) U kunt kiezen voor een FTP-site en gebruikersgegevens (FTP-referenties die door uw organisatie worden geleverd).
 
 ## Volgende stappen
 
 Met de volgende bronnen krijgt u inzicht in de basisworkflow voor het verkrijgen van gegevensfeeds. Nadat u de basisworkflow hebt begrepen, kunt u met teams binnen uw organisatie werken om onbewerkte gegevens in een database op te slaan of in te voeren.
 
-* [Aanbevolen werkwijzen voor gegevensinvoer](/help/export/analytics-data-feed/data-feeds-best-practices.md): Aanbevolen procedures voor het maken en beheren van gegevensfeeds.
-* [Een gegevensfeed maken](create-feed.md): Technische details voor het maken van een gegevensfeed, waarbij afzonderlijke velden gedetailleerder worden uitgelegd
-* [Gegevensfeeds beheren](df-manage-feeds.md): Meer informatie over navigeren in de interface voor gegevensinvoer
-* [Inhoud gegevensfeed](c-df-contents/datafeeds-contents.md): Begrijp wat binnen het samengeperste dossier is <!-- Is this still the output users can download from the destination? I aske Jun. -->
-* [Definities gegevenskolom](c-df-contents/datafeeds-reference.md): Een uitgebreide lijst van alle beschikbare kolommen.
+* [ voer van Gegevens beste praktijken ](/help/export/analytics-data-feed/data-feeds-best-practices.md): Beste praktijken voor het creëren van en het beheren van gegevensvoer.
+* [ creeer een gegevensvoer ](create-feed.md): De technische details voor het creëren van een gegevensvoer, die individuele gebieden in meer detail verklaren
+* [ beheert gegevensvoer ](df-manage-feeds.md): Leer meer over het navigeren van de interface van de gegevensvoer
+* [ de voederinhoud van Gegevens ](c-df-contents/datafeeds-contents.md): Begrijp wat binnen het samengedrukte dossier <!-- Is this still the output users can download from the destination? I aske Jun. --> is
+* [ de kolomdefinities van Gegevens ](c-df-contents/datafeeds-reference.md): Een uitvoerige lijst van alle beschikbare kolommen.
 * Video navigating the data feed interface:
 
   >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)

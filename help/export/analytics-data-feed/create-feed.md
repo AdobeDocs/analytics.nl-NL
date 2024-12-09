@@ -1,11 +1,11 @@
 ---
 title: Een gegevensfeed maken
-description: Leer hoe u een gegevensfeed maakt.
+description: Leer hoe u een gegevensfeed maakt en informatie over de bestandsgegevens die aan de Adobe moeten worden verstrekt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 8e8f59f747ddacc5462cbc177d199a5e0e91908a
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '4115'
+source-wordcount: '4124'
 ht-degree: 0%
 
 ---

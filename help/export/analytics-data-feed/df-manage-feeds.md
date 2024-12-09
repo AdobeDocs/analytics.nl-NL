@@ -1,11 +1,11 @@
 ---
-title: Gebruikersinterface voor gegevensinvoer
-description: Leer hoe te om de interface van de gegevensvoer te navigeren.
+title: Gegevensfeeds beheren
+description: Leer hoe te om de interface van de gegevensvoer te navigeren. Ontdek hoe u een gegevensfeed kunt maken, bewerken en weergeven.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---

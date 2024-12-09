@@ -1,12 +1,12 @@
 ---
-description: Veelgestelde vragen over gegevensfeeds
+description: Antwoorden op veelgestelde vragen over gegevensfeeds in Adobe Analytics.
 keywords: Gegevensfeed;taak;vóór kolom;na kolom;hoofdlettergevoeligheid
 title: Veelgestelde vragen over gegevensfeeds
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ Als u een feed probeert te maken terwijl een andere feed met dezelfde bestandsna
 
 ## Wanneer worden gegevens verwerkt? {#processed}
 
-Vóór de verwerking van uur of daggegevens, wacht de gegevensvoer tot alle klappen die gegevensinzameling binnen het tijdsbestek (dag of uur) zijn ingegaan uit zijn geschreven aan gegevenspakhuis. Daarna, verzamelen de gegevensvoer de gegevens met tijdstempels die binnen het tijdskader vallen, het comprimeert, en verzendt het via FTP. Voor uurvoer worden de dossiers typisch geschreven aan gegevenspakhuis binnen 15-30 min na het uur, maar er is geen vastgestelde tijdspanne. Als er geen gegevens zijn met tijdstempels die binnen de tijdlijn vallen, probeert het proces het volgende tijdkader opnieuw. Het huidige gegevensinvoerproces gebruikt de `date_time` om te bepalen welke treffers tot het uur behoren. Dit gebied is gebaseerd op de tijdzone van de rapportreeks.
+Vóór de verwerking van uur of daggegevens, wacht de gegevensvoer tot alle klappen die gegevensinzameling binnen het tijdsbestek (dag of uur) zijn ingegaan uit zijn geschreven aan gegevenspakhuis. Daarna, verzamelen de gegevensvoer de gegevens met tijdstempels die binnen het tijdskader vallen, het comprimeert, en verzendt het via FTP. Voor uurvoer worden de dossiers typisch geschreven aan gegevenspakhuis binnen 15-30 min na het uur, maar er is geen vastgestelde tijdspanne. Als er geen gegevens zijn met tijdstempels die binnen de tijdlijn vallen, probeert het proces het volgende tijdkader opnieuw. Het huidige gegevensinvoerproces gebruikt het veld `date_time` om te bepalen welke resultaten tot het uur behoren. Dit gebied is gebaseerd op de tijdzone van de rapportreeks.
 
-## Wat is het verschil tussen kolommen met een `post_` prefix en kolommen zonder a `post_` voorvoegsel? {#post}
+## Wat is het verschil tussen kolommen met een voorvoegsel `post_` en kolommen zonder voorvoegsel `post_` ? {#post}
 
-Kolommen zonder de `post_` bevatten precies dezelfde gegevens als die naar de gegevensverzameling zijn verzonden. Kolommen met een `post_` bevat na verwerking de waarde. De voorbeelden die een waarde kunnen veranderen zijn veranderlijke persistentie, verwerkingsregels, de regels van VISTA, muntomzetting, of andere server-zijlogica Adobe van toepassing. Adobe raadt u aan de `post_` versie van een kolom indien mogelijk.
+Kolommen zonder het voorvoegsel `post_` bevatten precies dezelfde gegevens als die naar de gegevensverzameling zijn verzonden. Kolommen met een voorvoegsel `post_` bevatten de waarde na verwerking. De voorbeelden die een waarde kunnen veranderen zijn veranderlijke persistentie, verwerkingsregels, de regels van VISTA, muntomzetting, of andere server-zijlogische Adobe van toepassing. Adobe raadt aan waar mogelijk de `post_` -versie van een kolom te gebruiken.
 
-Als een kolom geen `post_` versie (bijvoorbeeld `visit_num`), kan de kolom als een postkolom worden beschouwd.
+Als een kolom geen versie `post_` bevat (bijvoorbeeld `visit_num` ), kan de kolom worden beschouwd als een postkolom.
 
 ## Hoe verwerken gegevensfeeds hoofdlettergevoeligheid? {#case}
 
@@ -43,17 +43,17 @@ Als u verschillende variaties ziet van dezelfde waarde tussen kolommen die niet 
 
 ## Worden bots gefilterd door de regels van de Admin console bot inbegrepen in gegevensvoer? {#bots}
 
-Gegevensfeeds omvatten geen bommen gefilterd door [Regels voor bot in de beheerconsole](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html).
+De voer van gegevens omvat geen bots die door [ worden gefiltreerd Admin consolebot regels ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html).
 
-## Waarom zie ik meerdere `000` waarden in de `event_list` of `post_event_list` kolom voor gegevensinvoer? {#values}
+## Waarom zie ik meerdere `000` waarden in de kolom `event_list` of `post_event_list` gegevensinvoer? {#values}
 
-Sommige spreadsheeteditors, met name Microsoft Excel, laten grote aantallen automatisch rond. De `event_list` de kolom bevat vele komma-afgebakende aantallen, soms veroorzakend Excel om het als groot aantal te behandelen. Hiermee worden de laatste verschillende cijfers afgerond op `000`.
+Sommige spreadsheeteditors, met name Microsoft Excel, laten grote aantallen automatisch rond. De kolom `event_list` bevat vele komma-afgebakende aantallen, soms veroorzakend Excel om het als groot aantal te behandelen. De laatste cijfers worden afgerond op `000` .
 
-Adobe raadt u aan het bestand niet automatisch te openen `hit_data.tsv` bestanden in Microsoft Excel. Gebruik in plaats daarvan het dialoogvenster Gegevens importeren van Excel en zorg ervoor dat alle velden worden behandeld als tekst.
+Adobe raadt u aan `hit_data.tsv` -bestanden niet automatisch te openen in Microsoft Excel. Gebruik in plaats daarvan het dialoogvenster Gegevens importeren van Excel en zorg ervoor dat alle velden worden behandeld als tekst.
 
-## Kolommen zijn als `hitid_high`, `hitid_low`, `visid_high`, en `visid_low` gegarandeerd uniek zijn voor de hit of het bezoek? {#hitid}
+## Zijn kolommen als `hitid_high`, `hitid_low`, `visid_high` en `visid_low` gegarandeerd uniek voor de hit of het bezoek? {#hitid}
 
-In bijna alle gevallen is de samenvoeging van `hitid_high` en `hitid_low` een treffer op unieke wijze identificeren. Hetzelfde concept geldt voor de samenvoeging van `visid_high` en `visid_low` voor bezoeken. Nochtans, kunnen de verwerkingsanomalieën slechts zelden twee klusjes veroorzaken om het zelfde raakidentiteitskaart te delen. Adobe raadt u aan geen workflows voor gegevensinvoer te maken die onflexibel zijn als elke hit uniek is.
+In bijna alle gevallen identificeert de samenvoeging van `hitid_high` en `hitid_low` een treffer op unieke wijze. Hetzelfde concept geldt voor het samenvoegen van `visid_high` en `visid_low` voor bezoeken. Nochtans, kunnen de verwerkingsanomalieën slechts zelden twee klusjes veroorzaken om het zelfde raakidentiteitskaart te delen. Adobe raadt u aan geen workflows voor gegevensinvoer te maken die onflexibel zijn als elke hit uniek is.
 
 ## Waarom ontbreekt informatie van de domeinkolom voor sommige dragers? {#domain}
 
@@ -63,7 +63,7 @@ Sommige mobiele dragers (zoals T-Mobile en O1) verstrekken geen domeininfo voor 
 
 Voor gegevens die ouder zijn dan 7 dagen, worden de &quot;Uur&quot;dossiers van een dag gecombineerd in één enkel &quot;Dagelijks&quot;dossier.
 
-Voorbeeld: Op 9 maart 2021 wordt een nieuwe gegevensfeed gemaakt en de gegevens van 1 januari 2021 tot en met 9 maart worden als &quot;Uur&quot; geleverd. De &quot;Uurly&quot;-bestanden vóór 2 maart 2021 worden echter gecombineerd tot één &quot;Dagelijks&quot; bestand. U kunt alleen &#39;Uurly&#39;-bestanden extraheren uit gegevens die jonger zijn dan 7 dagen na de aanmaakdatum. In dit geval, van 2 maart tot en met 9 maart.
+Voorbeeld: Op 9 maart 2021 wordt een nieuwe gegevensfeed gemaakt en de gegevens van 1 januari 2021 tot 9 maart worden als &quot;Uur&quot; geleverd. De &quot;Uurly&quot;-bestanden vóór 2 maart 2021 worden echter gecombineerd tot één &quot;Dagelijks&quot; bestand. U kunt alleen &#39;Uurly&#39;-bestanden extraheren uit gegevens die jonger zijn dan 7 dagen na de aanmaakdatum. In dit geval, van 2 maart tot en met 9 maart.
 
 ## Wat is de impact van de zomertijd op de uurgegevens? {#dst}
 
@@ -75,11 +75,11 @@ Bij het maken van DST -> STD-overgangen (&quot;Terugvallen&quot;) krijgt de klan
 
 ## Hoe behandelt Analytics de mislukte FTP-overdracht? {#ftp-failure}
 
-Als een FTP-overdracht mislukt (als gevolg van een afgewezen aanmelding, een verbroken verbinding, een quotafout of een andere uitgave), probeert Adobe automatisch verbinding te maken en de gegevens maximaal drie keer te verzenden. Als de fouten aanhouden, wordt de feed gemarkeerd als mislukt en wordt een e-mailmelding verzonden.
+Als een FTP-overdracht mislukt (als gevolg van een afgewezen aanmelding, een verbroken verbinding, een quotafout of een andere uitgave), probeert de Adobe automatisch verbinding te maken en de gegevens maximaal drie keer te verzenden. Als de fouten aanhouden, wordt de feed gemarkeerd als mislukt en wordt een e-mailmelding verzonden.
 
 Als een overdracht mislukt, kunt u een taak opnieuw uitvoeren totdat deze is gelukt.
 
-Als er problemen optreden bij het weergeven van een gegevensfeed op uw FTP-site, raadpleegt u [Problemen met gegevensfeeds oplossen](troubleshooting.md).
+Als u kwesties hebt die een gegevensvoer krijgen om op uw plaats van FTP te verschijnen, zie [ problemen oplossen gegevensvoer ](troubleshooting.md).
 
 ## Hoe kan ik een baan opnieuw sturen? {#resend}
 
@@ -87,7 +87,7 @@ Nadat u het leveringsprobleem hebt geverifieerd/gecorrigeerd, voert u de taak op
 
 ## Wat is de instelling BucketOwnerFullControl voor Amazon S3-gegevensfeeds? {#BucketOwnerFullControl}
 
-**BucketOwnerFullControl** biedt rechten voor meerdere accounts om objecten te maken in andere emmers.
+**BucketOwnerFullControl** verstrekt dwars-rekeningsrechten om voorwerpen in andere emmers tot stand te brengen.
 
 Het algemene gebruiksgeval voor Amazon S3 is dat de Amazon Web Services (AWS) accounteigenaar een emmer maakt en vervolgens een gebruiker maakt die toestemming heeft om objecten in dat emmertje te maken en vervolgens referenties voor die gebruiker verschaft. In dit geval behoren de objecten van een gebruiker tot dezelfde account en heeft de rekeninghouder impliciet volledige controle over het object (lezen, verwijderen, enzovoort). Dit proces is vergelijkbaar met de manier waarop FTP-levering werkt.
 
@@ -97,5 +97,5 @@ Objecten nemen echter geen rechten over van het bovenliggende emmertje. Daarom a
 
 >[!NOTE]
 >
->Adobe Analytics bepaalt niet of het emmertje een beleid heeft dat het geven van volledige controle van nieuwe voorwerpen vereist, of zelfs als de emmereigenaar in een verschillende rekening is dan de gebruiker die de gegevens schrijft. In plaats daarvan voegt Analytics automatisch de eigenaar van het emmertje toe aan de `BucketOwnerFullControl` ACL met elke voer uploadt.
+>Adobe Analytics bepaalt niet of het emmertje een beleid heeft dat het geven van volledige controle van nieuwe voorwerpen vereist, of zelfs als de emmereigenaar in een verschillende rekening is dan de gebruiker die de gegevens schrijft. In plaats daarvan, voegt de Analytics automatisch de emmereigenaar aan `BucketOwnerFullControl` ACL met elke voer toe uploadt.
 
