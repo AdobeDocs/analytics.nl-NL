@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 65c934f56a580f921fa7baad6d5dd03c85e320e6
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van 16 oktober 20
 | Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Nieuwe Report Builder voor Adobe Analytics** | De nieuwe Report Builder-toepassing brengt Adobe Analytics een belangrijke update met zich mee, waaronder verbeterde prestaties, gestroomlijnde gebruikersinterface, 2.0 API-ondersteuning en ondersteuning voor Microsoft Excel in Mac, Windows en webbrowsers. Deze toepassing kan samen met de oudere toepassing worden gebruikt, maar niet op hetzelfde bestand. Een verbeteringseigenschap wordt verstrekt om erfeniswerkboeken aan de nieuwe toepassing te bevorderen. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | donderdag 16 oktober 2024 |
-| **de Uitvoer JSON voor het migreren van markeringsimplementatie aan de markeringen van SDK van het Web** | Deze update van de extensie Analytics heeft betrekking op de migratie naar de SDK van Web. U kunt deze update naar de Adobe Analytics-extensie gebruiken als onderdeel van uw workflow om extensieconfiguraties opnieuw te maken met de Web SDK-extensie. In de uitbreiding met Adobe Analytics-tags kunt u Vars, props en gebeurtenissen weergeven als JSON, die kan worden geëxporteerd voor bewerking en kan worden opgenomen in de Web SDK-extensie. |  | vrijdag 31 oktober 2024 |
+| **de Uitvoer JSON voor het migreren van markeringsimplementatie aan de markeringen van SDK van het Web** | Deze update van de extensie Analytics heeft betrekking op de migratie naar Web SDK. U kunt deze update naar de Adobe Analytics-extensie gebruiken als onderdeel van uw workflow om extensieconfiguraties opnieuw te maken met de Web SDK-extensie. In de Adobe Analytics-tagextensie kunt u Vars, props en gebeurtenissen als JSON weergeven. Deze kunnen worden geëxporteerd voor bewerking en kunnen worden opgenomen in de Web SDK-extensie. |  | vrijdag 31 oktober 2024 |
 | **Nieuwe informatie over de factoren van het Verzoek in de Prestaties van Analysis Workspace** | Er is nu een nieuwe sectie &#39;Aanvraagfactoren&#39; beschikbaar voor het analyseren van de prestaties in Analysis Workspace. Meer over leren hoe de verzoeken worden verwerkt en de diverse factoren die verwerkingstijden beïnvloeden, zie &quot;de factoren van het Verzoek&quot;in [ optimaliseren de prestaties van Analysis Workspace ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | woensdag 1 oktober 2024 |
 | **het bewaartermijn van identiteitskaart van de Transactie** | De bewaarperiode van de transactie-id van 90 dagen wordt verlengd tot 25 maanden in januari 2025. De `transactionID` variabele identificeert uniek een transactie zodat kan de slag aan gegevens verbinden die door Gegevensbronnen worden geupload. |  | donderdag 22 januari 2025 |
 
@@ -63,5 +63,5 @@ Voor de recentste updates op de versies van het AppMeasurement (Versie 2.26.0), 
 
 * [Opmerkingen bij de vorige release voor 2024](/help/release-notes/2024.md)
 * [ de versienota&#39;s van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
-* [ het stromen toe:voegen-op versienota&#39;s van de Inzameling van Media ](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [ het stromen de versienota&#39;s van de Inzameling van Media ](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * De recentste versie werkt voor [ producten van Adobe Experience Cloud ](https://business.adobe.com/products/adobe-experience-cloud-products.html) bij

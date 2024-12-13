@@ -3,9 +3,9 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: Aan de slag voor beheerders, analisten, eindgebruikers en ontwikkelaars
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1691'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,7 @@ Analysebeheerders moeten de volgende taken uitvoeren voordat ze Adobe Analytics 
 | Bijdrage-analyse | De Analyse van de bijdrage ontdekt verborgen patronen binnen uw gegevens om statistische anomalieën te verklaren en correlaties achter onverwachte klantenacties, uit-van-verbindende waarden, en plotselinge pieken of vallen voor geselecteerde metriek over convergent publiekssegmenten te identificeren. | [Overzicht van bijdrageanalyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Segmentatie van analyse | Hiermee kunt u krachtige, doelgerichte publiekssegmenten maken, beheren, delen en toepassen op uw rapporten met behulp van de analysemogelijkheden, de Adobe Experience Cloud, Adobe Target en andere producten voor geïntegreerde Adobe. | [Analytics-segmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
 | Publish-publiek naar Audience Manager | Adobe Audience Manager is een krachtig platform voor gegevensbeheer waarmee u unieke publieksprofielen kunt maken van de integratie van gegevens van eerste, tweede (partner) en andere bedrijven. | [Overzicht van Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
-| Integraties | U kunt informatie uit andere toepassingen in Adobe Analytics oppervlakken. <p>Hieronder vindt u een aantal algemene integraties:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html"> Analytics voor Doel </a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html"> het Streamen toe:voegen-op van de Inzameling van Media </a></li> | [Analytics Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html) |
+| Integraties | U kunt informatie uit andere toepassingen in Adobe Analytics oppervlakken. <p>Hieronder vindt u een aantal algemene integraties:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html"> Analytics voor Doel </a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html"> de het stromen Inzameling van Media </a></li> | [Analytics Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html) |
 
 {style="table-layout:auto"}
 

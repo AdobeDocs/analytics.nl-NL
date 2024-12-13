@@ -2,7 +2,8 @@
 title: Metrische waarden voor de stroomkwaliteit van media
 description: De beschikbare metriek wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat.
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Deze pagina beschrijft de beschikbare metriek wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat. Zie [ het stromen de kwaliteitsdimensies van Media ](../dimensions/sm-quality.md) voor beschikbare dimensies.*
 
-De metriek van de kwaliteit van de Media van het stromen verstrekt extra rapporteringsfunctionaliteit aan gegevensinzameling door de bibliotheken van de de inzamelingsmedia van het stromen. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Streaming Media Collection Add-on]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+De metriek van de kwaliteit van de Media van het stromen verstrekt extra rapporteringsfunctionaliteit aan gegevensinzameling door de bibliotheken van de de inzamelingsmedia van het stromen. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Quality]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
 

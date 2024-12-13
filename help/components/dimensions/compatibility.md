@@ -3,16 +3,16 @@ title: Compatibiliteit met analytische Dimensionen
 description: Referentie voor analytische afmetingen en rapporten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '889'
+ht-degree: 2%
 
 ---
 
 # Compatibiliteit met analytische Dimensionen
 
-Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectieve analysemogelijkheden.
+Deze pagina maakt een lijst van [ dimensies ](overview.md) die in hun respectieve mogelijkheden van Analytics worden gesteund.
 
 >[!NOTE]
 >
@@ -33,8 +33,8 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Cookie-ondersteuning | `cookie` |
 | Landen | `geocountry` |
 | Loyalty van klant | `customerloyalty` |
-| Aangepaste conversievars | `evar1`, `evar2`, enz. |
-| Custom Insight Vars | `prop1`, `prop2`, enz. |
+| Aangepaste conversievars | `evar1` , `evar2` , enzovoort. |
+| Custom Insight Vars | `prop1` , `prop2` , enzovoort. |
 | Aangepaste koppeling | `customlink` |
 | Dagen vóór eerste aankoop | `daysbeforefirstpurchase` |
 | Dagen sinds laatste aankoop | `dayssincelastpurchase` |
@@ -157,7 +157,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 
 ## Afmetingen waarbij de inhoud behouden blijft, ondersteund door Analysis Workspace
 
-### Video (de invoegtoepassing voor het streamen van media-verzamelingen)
+### Video (de streamingmedia-verzameling)
 
 | Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
@@ -195,15 +195,15 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Campagne-id | `videoadcampaign` |
 | Genre | `videogenre` |
 | Type stream | `videostreamtype` |
-| Fout-id&#39;s van speler-SDK | `videoqoeplayersdkerrors` |
+| SDK-fout-id&#39;s van speler | `videoqoeplayersdkerrors` |
 | Externe fout-id&#39;s | `videoqoeextneralerrors` |
 | Type mediafeed | `videofeedtype` |
 | Pad naar instapmedium | `entryvideopath` |
 | Mediapad afsluiten | `exitvideopath` |
 | Genre item | `entryvideogenre` |
 | Exit Genre | `exitvideogenre` |
-| Invoer Player SDK-foutmeldingen | `entryvideoqoeplayersdkerrors` |
-| Fout-id&#39;s van speler-SDK afsluiten | `exitvideoqoeplayersdkerrors` |
+| SDK-fout-id&#39;s voor Entry Player | `entryvideoqoeplayersdkerrors` |
+| SDK-fout-id&#39;s voor speler afsluiten | `exitvideoqoeplayersdkerrors` |
 | Externe fout-id&#39;s invoeren | `entryvideoqoeextneralerrors` |
 | Externe fout-id&#39;s afsluiten | `exitvideoqoeextneralerrors` |
 
@@ -218,7 +218,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Breedtegraad/lengtegraad | `sociallatlong` |
 | Codes voor het bijhouden van elementen | `socialassettrackingcode` |
 | Eigendom van sociale eigenschappen | `socialaccountandappids` |
-| Post-id&#39;s in eigendom | `socialownedpostids` |
+| ID&#39;s van eigenlijke berichten | `socialownedpostids` |
 | Eigendom van sociale definities | `socialinteractiontype` |
 | Eigenschap-id&#39;s | `socialownedpropertyid` |
 | Eigendom van eigenschap versus toepassing | `socialownedpropertypropertyvsapp` |
@@ -229,7 +229,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Eigen definitiemetrisch | `socialowneddefinitionmetric` |
 | Element | `socialmediaid` |
 
-### Mobiele SDK
+### Mobile SDK
 
 | Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
@@ -238,7 +238,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 | Startnummer | `mobilelaunchnumber` |
 | Dagen sinds eerste gebruik | `mobiledayssincefirstuse` |
 | Dagen sinds laatste gebruik | `mobiledayssincelastuse` |
-| Uur van de Dag (SDK) | `mobilehourofday` |
+| Uur van de dag (SDK) | `mobilehourofday` |
 | Dag van de week (SDK) | `mobiledayofweek` |
 | Besturingssysteem (SDK) | `mobileosenvironment` |
 | Dagen sinds laatste upgrade | `mobiledayssincelastupgrade` |
@@ -284,7 +284,7 @@ Deze paginalijsten [afmetingen](overview.md) worden ondersteund in hun respectie
 
 ### Nielsen Integration
 
-Zie voor meer informatie over het implementeren van deze integratie de [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html).
+Voor meer informatie over hoe te om deze integratie uit te voeren, zie de [ Uitbreiding Nielsen ](https://exchange.adobe.com/experiencecloud.details.101361.html).
 
 | Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |

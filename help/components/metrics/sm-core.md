@@ -2,7 +2,8 @@
 title: Streaming Media Core-meetgegevens
 description: De beschikbare metriek wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat.
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Deze pagina beschrijft de beschikbare metriek wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat. Zie [ Streaming de kernafmetingen van Media ](../dimensions/sm-core.md) voor beschikbare afmetingen.*
 
-Streaming Media core-meetgegevens bieden basisrapportfunctionaliteit voor gegevens die via streaming media collection-bibliotheken zijn verzameld. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Streaming Media Collection Add-on]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+Streaming Media core-meetgegevens bieden basisrapportfunctionaliteit voor gegevens die via streaming media collection-bibliotheken zijn verzameld. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Core]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
 

@@ -2,7 +2,8 @@
 title: Hoofdstukafmetingen van streamingmedia
 description: Beschikbare afmetingen wanneer u [!UICONTROL Media Chapters] inschakelt voor een rapportsuite.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Chapters] voor een rapportreeks toelaat. Zie [ het stromen het hoofdstukmetriek van Media ](../metrics/sm-chapters.md) voor beschikbare metriek.*
 
-De het hoofdstukdimensies van Media van het stromen verstrekken extra rapporteringsfunctionaliteit aan gegevensinzameling door de bibliotheken van de de inzamelingsmedia van het stromen. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Streaming Media Collection Add-on]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+De het hoofdstukdimensies van Media van het stromen verstrekken extra rapporteringsfunctionaliteit aan gegevensinzameling door de bibliotheken van de de inzamelingsmedia van het stromen. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Chapters]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, is de volgende afmeting beschikbaar:
 

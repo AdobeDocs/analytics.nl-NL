@@ -2,7 +2,8 @@
 title: Afmetingen van de stroomkwaliteit van media
 description: Beschikbare afmetingen wanneer u [!UICONTROL Media Quality] inschakelt voor een rapportsuite.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: e3794d8c-3c03-425d-850c-a735b579324b
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat. Zie {de kwaliteitsmetriek van Media 0} Streaming ](../metrics/sm-quality.md) voor beschikbare metriek.*[
 
-De afmetingen voor de streamingmedia zorgen voor rapportage over de kwaliteit van de inhoud die de bezoeker gebruikt. Voor het gebruik van deze afmetingen is de instructie [!UICONTROL Adobe Streaming Media Collection add-on] vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+De afmetingen voor de streamingmedia zorgen voor rapportage over de kwaliteit van de inhoud die de bezoeker gebruikt. Voor het gebruik van deze afmetingen is de instructie [!UICONTROL Adobe Streaming Media Collection] vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Quality]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
@@ -26,7 +27,7 @@ Wanneer u **[!UICONTROL Media Quality]** onder [ Media die ](/help/admin/admin/c
 | Gedropte frames | Het totale aantal gedropte frames dat tijdens een afspeelsessie is opgetreden. | Media sluiten | `a.media.qoe.droppedFrameCount` |
 | Fouten | Het totale aantal fouten dat tijdens een afspeelsessie is opgetreden. | Media sluiten | `a.media.qoe.errorCount` |
 | Externe fout-id&#39;s | Alle unieke fout-id&#39;s van externe bronnen, zoals CDN-fouten. U moet de gewenste foutcodes of id&#39;s opgeven. Er zijn meerdere fout-id&#39;s toegestaan. | Media sluiten | `a.media.qoe.externalErrors` |
-| Player SDK fout-id&#39;s | Alle unieke fout-id&#39;s die worden gegenereerd door de inhoudsspeler SDK. U moet de gewenste foutcodes of id&#39;s opgeven. Er zijn meerdere fout-id&#39;s toegestaan. | Media sluiten | `a.media.qoe.playerSdkErrors` |
+| Player SDK-fout-id&#39;s | Alle unieke fout-id&#39;s die door de SDK van de inhoudsspeler worden gegenereerd. U moet de gewenste foutcodes of id&#39;s opgeven. Er zijn meerdere fout-id&#39;s toegestaan. | Media sluiten | `a.media.qoe.playerSdkErrors` |
 | Begintijd | Deze waarde wordt standaard ingesteld op `0` als deze niet is ingesteld via het object QoSObject. Stel de waarde in milliseconden in. Analysis Workspace rapporteert deze dimensie in seconden. | Media starten, Media sluiten | `a.media.qoe.timeToStart` |
 
 {style="table-layout:auto"}

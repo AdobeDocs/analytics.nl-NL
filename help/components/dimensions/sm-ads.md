@@ -2,7 +2,8 @@
 title: Streaming media en afmetingen
 description: Beschikbare afmetingen wanneer u [!UICONTROL Media Ads] inschakelt voor een rapportsuite.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Ads] voor een rapportreeks toelaat. Zie [ Streaming Media en metriek ](../metrics/sm-ads.md) voor beschikbare metriek.*
 
-Streaming media en dimensies bieden extra rapportagefunctionaliteit voor gegevensverzameling via bibliotheken voor het streamen van media. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Streaming Media Collection Add-on]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+Streaming media en dimensies bieden extra rapportagefunctionaliteit voor gegevensverzameling via bibliotheken voor het streamen van media. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Ads]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 

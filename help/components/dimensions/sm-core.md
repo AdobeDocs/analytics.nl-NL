@@ -2,7 +2,8 @@
 title: Streaming media core-afmetingen
 description: Beschikbare afmetingen wanneer u [!UICONTROL Media Core] inschakelt voor een rapportsuite.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat. Zie [ Streaming de kernmetriek van Media ](../metrics/sm-core.md) voor beschikbare metriek.*
 
-Streaming Media core-afmetingen bieden basisrapportfunctionaliteit voor gegevens die via streaming media collection libraries zijn verzameld. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Streaming Media Collection Add-on]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+Streaming Media core-afmetingen bieden basisrapportfunctionaliteit voor gegevens die via streaming media collection libraries zijn verzameld. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Core]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
