@@ -3,9 +3,9 @@ description: Waarschuwingen beheren.
 title: Overzicht van Waarschuwingsbeheer
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -85,11 +85,13 @@ Een bestaande waarschuwing bewerken:
    Hier volgen enkele voorbeelden van wat u kunt doen wanneer u een waarschuwing bewerkt:
 
    * Waarschuwingen toevoegen aan andere rapportsuites
-   * De eigenaar wijzigen
-   * Filters bijwerken
-   * De vervaldatum bijwerken
+   * De beschrijving toevoegen of wijzigen
+   * De tijdsgranulariteit wijzigen
+   * Ontvangers wijzigen
+   * De vervaldatum wijzigen
+   * Metriek en filters wijzigen
 
-1. Bewerk het alarm, dan uitgezocht [!UICONTROL **sparen**].
+1. Selecteer [!UICONTROL **sparen**].
 
 ## Kolommen configureren
 
