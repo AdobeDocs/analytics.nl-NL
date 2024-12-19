@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 0%
+source-wordcount: '519'
+ht-degree: 1%
 
 ---
 
@@ -66,8 +66,8 @@ Om de rapportreeks te veranderen, selecteer een nieuwe rapportreeks van het drop
 
 ### Datumbereik
 
-**[!UICONTROL Date range]** geeft het datumbereik voor de geselecteerde gegevensblokken weer. Als de veelvoudige gegevensblokken met veelvoudige datumwaaiers worden geselecteerd, **[!UICONTROL Date range]** verbindingsvertoningen *Veelvoud*.
+**[!UICONTROL Date range]** geeft het datumbereik voor de geselecteerde gegevensblokken weer. Als de veelvoudige gegevensblokken met veelvoudige datumwaaiers worden geselecteerd, **[!UICONTROL Date range]** verbindingsvertoningen *Veelvoud*. [Meer informatie](/help/analyze/report-builder/select-date-range.md)
 
 ### Segmenten
 
-De **verbinding van Segmenten** toont een summiere lijst van de segmenten die door de geselecteerde gegevensblokken worden gebruikt. Als de veelvoudige gegevensblokken met veelvoudige toegepaste segmenten worden geselecteerd, de **verbindingsvertoningen van segmenten *Veelvoudig*.**
+De **verbinding van Segmenten** toont een summiere lijst van de segmenten die door de geselecteerde gegevensblokken worden gebruikt. Als de veelvoudige gegevensblokken met veelvoudige toegepaste segmenten worden geselecteerd, de **verbindingsvertoningen van segmenten *Veelvoudig*.** [Meer informatie](/help/analyze/report-builder/work-with-segments.md)
