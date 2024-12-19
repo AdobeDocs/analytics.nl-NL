@@ -5,9 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
+source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Gebruik de hub van de Report Builder om, gegevensblokken tot stand te brengen bij te werken te schrappen en te beheren.
 
-Het knooppunt Report Builder bevat de knoppen Maken en Beheren, de lijst OPDRACHTEN en de deelvensters SNEL BEWERKEN.
+Het knooppunt Report Builder bevat de knoppen Maken, Beheren en Planning, het deelvenster OPDRACHTEN en het deelvenster SNEL BEWERKEN.
 
 <img src="./assets/hub51.png" alt="Report Builder Hub"/>
 
@@ -24,6 +25,10 @@ Het knooppunt Report Builder bevat de knoppen Maken en Beheren, de lijst OPDRACH
 ## Knoppen Maken, Beheren en Schema
 
 Met de knoppen Maken, Beheren en Schema kunt u nieuwe gegevensblokken maken, bestaande gegevensblokken beheren of gegevensblokken plannen.
+
+>[!NOTE]
+>
+>Het werkboek dat voor deze versie van de Report Builder op Adobe Analytics wordt gepland, is nog niet vrijgegeven maar zal begin 2025 beschikbaar zijn. U kunt nu aan de slag gaan met werkboeken waarvoor geen planning nodig is.
 
 ## Deelvenster OPDRACHTEN
 
@@ -33,12 +38,12 @@ Gebruik het deelvenster OPDRACHTEN voor toegang tot opdrachten die compatibel zi
 
 | Weergegeven opdrachten | Beschikbaar als... | Doel |
 |------|------------------|--------|
-| Gegevensblok maken | Één of meerdere cellen wordt geselecteerd in het werkboek. | Wordt gebruikt om een gegevensblok te maken |
 | Gegevensblok bewerken | De geselecteerde cel of het geselecteerde celbereik maakt slechts deel uit van één gegevensblok. | Wordt gebruikt om een gegevensblok te bewerken |
-| Gegevensblok vernieuwen | De selectie bevat ten minste één gegevensblok. De opdracht vernieuwt alleen de gegevensblokken in de selectie. | Wordt gebruikt om een of meer gegevensblokken te vernieuwen |
+| Gegevensblok vernieuwen | De selectie bevat ten minste één gegevensblok. Met deze opdracht vernieuwt u alleen de gegevensblokken in de selectie. | Wordt gebruikt om een of meer gegevensblokken te vernieuwen |
 | Alle gegevensblokken vernieuwen | Het werkboek bevat één of meerdere gegevensblokken. | Gebruikt om ALLE gegevensblokken in het werkboek te verfrissen |
 | Werkmap verzenden |   | Verzend een werkboek op een programma. |
 | Gegevensblok kopiëren | De geselecteerde cel of het geselecteerde celbereik maakt deel uit van een of meer gegevensblokken. | Wordt gebruikt om een gegevensblok te kopiëren |
+| Gegevensblok knippen |   | Wordt gebruikt om een gegevensblok te knippen |
 | Gegevensblok verwijderen | De geselecteerde cel of het geselecteerde celbereik maakt slechts deel uit van één gegevensblok. | Wordt gebruikt om een gegevensblok te verwijderen |
 
 ## Deelvenster SNEL BEWERKEN
@@ -63,6 +68,6 @@ Om de rapportreeks te veranderen, selecteer een nieuwe rapportreeks van het drop
 
 **[!UICONTROL Date range]** geeft het datumbereik voor de geselecteerde gegevensblokken weer. Als de veelvoudige gegevensblokken met veelvoudige datumwaaiers worden geselecteerd, **[!UICONTROL Date range]** verbindingsvertoningen *Veelvoud*.
 
-### Filters
+### Segmenten
 
-De **verbindingen van Filters** toont een summiere lijst van de filters die door de geselecteerde gegevensblokken worden gebruikt. Als de veelvoudige gegevensblokken met veelvoudige toegepaste filters worden geselecteerd, de **verbindingsvertoningen van Filters *Veelvoud*.**
+De **verbinding van Segmenten** toont een summiere lijst van de segmenten die door de geselecteerde gegevensblokken worden gebruikt. Als de veelvoudige gegevensblokken met veelvoudige toegepaste segmenten worden geselecteerd, de **verbindingsvertoningen van segmenten *Veelvoudig*.**
