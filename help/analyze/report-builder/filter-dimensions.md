@@ -5,9 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '962'
 ht-degree: 1%
 
 ---
@@ -95,7 +96,7 @@ Filtercriteria instellen
 
 1. Voer een waarde in het zoekveld in.
 
-1. Klik op Rij toevoegen om de selectie te bevestigen en nog een item voor criteria toe te voegen.
+1. Klik op **[!UICONTROL Add row]** om de selectie te bevestigen en nog een item voor de criteria toe te voegen.
 
 1. Klik op het pictogram Verwijderen om een item met criteria te verwijderen.
 
@@ -118,15 +119,15 @@ Om metrisch te veranderen die wordt gebruikt om het gegevensblok te filtreren en
 
 ## Specifieke filtering
 
-Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke dimensie. Gebruik het **Specifieke** filtrerende type om de nauwkeurige afmetingspunten te specificeren in uw filter te omvatten. U kunt items in een lijst of uit een reeks cellen selecteren.
+Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke dimensie. Gebruik het filtertype **[!UICONTROL Specific]** om de exacte afmetingen op te geven die u in het filter wilt opnemen. U kunt items in een lijst of uit een reeks cellen selecteren.
 
 ![ de Specifieke opties en de geselecteerde punten.](./assets/image32.png)
 
 ### Van lijst
 
-1. Selecteer **van lijst** optie om afmetingspunten te zoeken en te selecteren.
+1. Selecteer de optie **[!UICONTROL From list]** om te zoeken naar dimensie-items en deze te selecteren.
 
-   Wanneer u **van lijst** optie selecteert, is de lijst bevolkt met afmetingspunten met de meeste gebeurtenissen eerst.
+   Wanneer u de optie **[!UICONTROL From list]** selecteert, wordt de lijst eerst gevuld met dimensie-items met de meeste gebeurtenissen.
 
    ![ Van lijstoptie en beschikbare punten.](./assets/image33.png)
 
@@ -142,7 +143,7 @@ Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke
 
 1. Selecteer een dimensie-item.
 
-   De geselecteerde afmetingspunten worden automatisch toegevoegd aan de **Geselecteerde punten** lijst.
+   Geselecteerde dimensie-items worden automatisch toegevoegd aan de lijst **[!UICONTROL Selected items]** .
 
    ![](./assets/image35.png)
 
@@ -176,4 +177,4 @@ Klik op het tabblad **[!UICONTROL Dimensions]** op het pictogram naast de naam v
 
 ![ het lusje van Dimensionen en de lijst van dimensies.](./assets/dimensions_chevron.png)
 
-U kunt punten op de **Lijst** slepen en laten vallen of een puntnaam tweemaal klikken om het aan de **Bouwer van de Lijst** toe te voegen.
+U kunt items naar de **[!UICONTROL Table]** slepen of dubbelklikken op de naam van een item om deze toe te voegen aan de **[!UICONTROL Table]** -builder.

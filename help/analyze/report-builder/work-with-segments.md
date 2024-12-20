@@ -5,9 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Als u een segment wilt toepassen op het volledige gegevensblok, dubbelklikt u op
 
 ## Segmenten toepassen op afzonderlijke metriek
 
-Als u segmenten wilt toepassen op afzonderlijke metrische elementen, sleept u een segment naar een metrische waarde in de tabel. U kunt **ook klikken...** pictogram aan het recht van metrisch in de ruit van de Lijst en dan selecteren **metrisch segment**. Als u toegepaste segmenten wilt weergeven, plaatst u de muisaanwijzer boven of selecteert u een metrische waarde in het deelvenster Tabel. De metriek met toegepaste segmenten tonen een filterpictogram.
+Als u segmenten wilt toepassen op afzonderlijke metrische elementen, sleept u een segment naar een metrische waarde in de tabel. U kunt ook op het pictogram **...** rechts van een metrische waarde in het deelvenster Tabel klikken en vervolgens **[!UICONTROL Segment metric]** selecteren. Als u toegepaste segmenten wilt weergeven, plaatst u de muisaanwijzer boven of selecteert u een metrische waarde in het deelvenster Tabel. De metriek met toegepaste segmenten tonen een filterpictogram.
 
 ![ het lusje van Segmenten die metriek tonen.](./assets/filter_by.png)
 
@@ -30,7 +31,7 @@ Als u segmenten wilt toepassen op afzonderlijke metrische elementen, sleept u ee
 
 Met het deelvenster Snel bewerken kunt u segmenten voor bestaande gegevensblokken toevoegen, verwijderen of vervangen.
 
-Wanneer u een waaier van cellen in spreadsheet selecteert, de **verbinding van Segmenten** in Snel uitgeeft paneel toont een summiere lijst van de segmenten die door de gegevensblokken in die selectie worden gebruikt.
+Wanneer u een bereik cellen in het werkblad selecteert, wordt met de koppeling **[!UICONTROL Segments]** in het deelvenster Snel bewerken een overzicht weergegeven van de segmenten die worden gebruikt door de gegevensblokken in die selectie.
 
 Segmenten bewerken met het deelvenster Snel bewerken
 
@@ -38,7 +39,7 @@ Segmenten bewerken met het deelvenster Snel bewerken
 
    ![ Snel geef segmentpaneel uit die segmentopties voor rapportsuites, datumwaaier, en segmenten tonen.](./assets/select_multiple_dbs.png)
 
-1. Klik op de koppeling Segmenten om het deelvenster Snel bewerken - Filters te starten.
+1. Klik op de koppeling onder **[!UICONTROL Segments]** om het deelvenster Snel bewerken - Filters te starten.
 
    ![ het paneel van Segmenten die het Add gebied van Segmenten en Toegepaste Segmenten tonen lijsten.](./assets/quick_edit_filters.png)
 
@@ -46,23 +47,23 @@ Segmenten bewerken met het deelvenster Snel bewerken
 
 U kunt segmenten toevoegen of verwijderen met de opties Toevoegen/Verwijderen.
 
-1. Selecteer **toevoegen/verwijderen** lusje in Snel geef-segmenten paneel uit.
+1. Selecteer de tab **[!UICONTROL Add/Remove]** in het deelvenster Snel bewerkingssegmenten.
 
-   Alle segmenten die zijn toegepast op de geselecteerde gegevensblokken, worden weergegeven in het deelvenster Snel bewerken-segmenten. De segmenten die op alle gegevensblokken in de selectie worden toegepast worden vermeld onder **op alle geselecteerde gegevensblokken** rubriek worden toegepast. De segmenten die op sommige maar niet alle gegevensblokken worden toegepast zijn vermeld onder **op 1 of meer geselecteerde gegevensblokken** rubriek worden toegepast.
+   Alle segmenten die zijn toegepast op de geselecteerde gegevensblokken, worden weergegeven in het deelvenster Snel bewerken-segmenten. Segmenten die worden toegepast op alle gegevensblokken in de selectie, worden weergegeven onder de kop **[!UICONTROL Applied to all selected data blocks]** . Segmenten die op enkele maar niet alle gegevensblokken zijn toegepast, worden onder de kop **[!UICONTROL Applied to 1 or more selected data blocks]** weergegeven.
 
-   Wanneer de veelvoudige segmenten in de geselecteerde gegevensblokken aanwezig zijn, kunt u naar specifieke segmenten zoeken gebruikend **toevoegen het onderzoeksgebied van de Filter**.
+   Wanneer de geselecteerde gegevensblokken meerdere segmenten bevatten, kunt u met het zoekveld **[!UICONTROL Add Filter]** naar specifieke segmenten zoeken.
 
    ![ het Add gebied van Segmenten.](./assets/add_filter.png)
 
-1. Voeg segmenten toe door segmenten van **te selecteren voeg segment** drop-down menu toe.
+1. Voeg segmenten toe door segmenten te selecteren in het keuzemenu **[!UICONTROL Add segment]** .
 
    De lijst van doorzoekbare segmenten omvat alle segmenten die voor de rapportreeksen toegankelijk zijn die in één of meerdere geselecteerde gegevensblokken evenals alle segmenten aanwezig zijn die globaal in de organisatie beschikbaar zijn.
 
    Als u een segment toevoegt, wordt het segment toegepast op alle gegevensblokken in de selectie.
 
-1. Om segmenten te verwijderen, klik het schrappingspictogram **x** rechts van segmenten in de **toegepaste Segmenten** lijst.
+1. Om segmenten te verwijderen, klik het schrappingspictogram **x** rechts van segmenten in de **[!UICONTROL Segments applied]** lijst.
 
-1. Klik **toepassen** om veranderingen te bewaren en aan het hubpaneel terug te keren.
+1. Klik op **[!UICONTROL Apply]** om de wijzigingen op te slaan en terug te keren naar het deelvenster met knooppunten.
 
    De Report Builder toont een bericht om de toegepaste segmentveranderingen te bevestigen.
 
@@ -70,21 +71,21 @@ U kunt segmenten toevoegen of verwijderen met de opties Toevoegen/Verwijderen.
 
 U kunt een bestaand segment vervangen door een ander segment om te wijzigen hoe de gegevens worden gesegmenteerd.
 
-1. Selecteer **vervangen** lusje in Snel uitgeven-segment paneel.
+1. Selecteer de tab **[!UICONTROL Replace]** in het deelvenster Snel bewerken van segment.
 
    ![ selecteer Replace tabel.](./assets/replace_filter.png)
 
-1. Gebruik het **de lijst van het Onderzoek** onderzoeksgebied om van specifieke segmenten de plaats te bepalen.
+1. Gebruik het zoekveld **[!UICONTROL Search list]** om specifieke segmenten te zoeken.
 
 1. Kies een of meer segmenten die u wilt vervangen.
 
 1. Zoeken naar een of meer segmenten in het veld Vervangen door.
 
-   Het selecteren van een filter voegt het aan **toe vervangt met**... lijst.
+   Als u een filter selecteert, wordt dit toegevoegd aan de lijst **[!UICONTROL Replace with]** ...
 
    ![ het Replace lusje met de Mensen op App geselecteerde gegevensblok en Replace met lijst die Personen op Herziene App tonen.](./assets/replace_screen_new.png)
 
-1. Klik **toepassen**.
+1. Klik op **[!UICONTROL Apply]**.
 
    De Report Builder werkt de lijst van segmenten bij om op de vervanging te wijzen.
 
@@ -95,8 +96,8 @@ Gegevensblokken kunnen verwijzen naar segmenten uit een cel. De veelvoudige gege
 Segmenten uit een cel toepassen
 
 1. Navigeer naar stap 2 in het maken of bewerken van gegevensblokken. Zie [ een Blok van Gegevens ](./create-a-data-block.md) creëren.
-1. Klik het **lusje van Segmenten** om filters te bepalen.
-1. Klik **creeer segment van cel**.
+1. Klik op het tabblad **[!UICONTROL Segments]** om filters te definiëren.
+1. Klik op **[!UICONTROL Create segment from cell]**.
 
    ![ creeer segment van celpictogram.](./assets/create-filter-from-cell.png)
 
@@ -108,13 +109,13 @@ Segmenten uit een cel toepassen
 
    ![ voegt segment van celvenster toe die de inbegrepen Filters tonen.](./assets/select-filters.png)
 
-1. Klik **toepassen** om de verwijzingscel tot stand te brengen.
+1. Klik op **[!UICONTROL Apply]** om de referentiecel te maken.
 
-1. Van het **lusje van Segmenten**, voeg de pas gecreëerde segmenten van de verwijzingscel aan uw gegevensblok toe.
+1. Voeg vanaf het tabblad **[!UICONTROL Segments]** de zojuist gemaakte referentiecelsegmenten toe aan uw gegevensblok.
 
    ![ het lusje van Segmenten die Sheet1 tonen!J1 (Alle Gegevens) segment aan de lijst wordt toegevoegd.](./assets/reference-cell-filter.png)
 
-1. Klik **Afwerking**.
+1. Klik op **[!UICONTROL Finish]**.
 
    Nu kan naar deze cel worden verwezen door andere gegevensblokken in hun segmenten. Als u de referentiecel als een segment wilt toepassen op andere gegevensblokken, voegt u vanuit het tabblad Segmenten de celverwijzing naar de desbetreffende segmenten toe.
 
@@ -122,7 +123,7 @@ Segmenten uit een cel toepassen
 
 1. Selecteer de referentiecel in het werkblad.
 
-1. Klik de verbinding onder **Segmenten van Cel** in Snel uitgeven menu.
+1. Klik op de koppeling onder **[!UICONTROL Segments from Cell]** in het menu Snel bewerken.
 
    ![ Segmenten van celverbinding die Sheet1 tonen!J1 (Alle Gegevens) ](./assets/filters-from-cell-link.png)
 
@@ -130,4 +131,4 @@ Segmenten uit een cel toepassen
 
    ![ de daling van Segmenten onderaan menu ](./assets/filter-drop-down.png)
 
-1. Klik **toepassen**.
+1. Klik op **[!UICONTROL Apply]**.
