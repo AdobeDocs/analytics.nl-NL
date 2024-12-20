@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 2cb8f72a37699aa45135c9d26686f93ee20f20d7
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,6 @@ U kunt een bestaand segment vervangen door een ander segment om te wijzigen hoe 
 
    Als u een filter selecteert, wordt dit toegevoegd aan de lijst **[!UICONTROL Replace with]** ...
 
-   ![ het Replace lusje met de Mensen op App geselecteerde gegevensblok en Replace met lijst die Personen op Herziene App tonen.](./assets/replace_screen_new.png)
-
 1. Klik op **[!UICONTROL Apply]**.
 
    De Report Builder werkt de lijst van segmenten bij om op de vervanging te wijzen.
@@ -103,7 +101,7 @@ Segmenten uit een cel toepassen
 
 1. Selecteer de cel waaruit u wilt dat de gegevensblokken naar een segment verwijzen.
 
-1. Voeg de segmentkeuze toe die u aan de cel wilt toevoegen door te dubbelklikken op het segment of door deze te slepen naar de sectie Segmenten inclusief.
+1. Voeg de gewenste segmentkeuze toe aan de cel door te dubbelklikken op het segment of door het segment naar de sectie **[!UICONTROL Segments Included]** te slepen.
 
    Opmerking: Er kan slechts één keuze voor de desbetreffende cel tegelijk worden geselecteerd.
 
