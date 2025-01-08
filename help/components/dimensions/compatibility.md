@@ -3,10 +3,10 @@ title: Compatibiliteit met analytische Dimensionen
 description: Referentie voor analytische afmetingen en rapporten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 2%
+source-wordcount: '897'
+ht-degree: 6%
 
 ---
 
@@ -24,125 +24,125 @@ Deze pagina maakt een lijst van [ dimensies ](overview.md) die in hun respectiev
 |---|---|
 | Analyses voor doel | `targetraw` |
 | Soorten publiek-id | `mcaudiences` |
-| Browser | `browser` |
-| Browsertype | `browsertype` |
-| Categorie | `category` |
-| Plaatsen | `geocity` |
-| Kleurdiepte | `colordepth` |
-| Verbindingstype | `connectiontype` |
-| Cookie-ondersteuning | `cookie` |
-| Landen | `geocountry` |
-| Loyalty van klant | `customerloyalty` |
-| Aangepaste conversievars | `evar1` , `evar2` , enzovoort. |
-| Custom Insight Vars | `prop1` , `prop2` , enzovoort. |
-| Aangepaste koppeling | `customlink` |
-| Dagen vóór eerste aankoop | `daysbeforefirstpurchase` |
-| Dagen sinds laatste aankoop | `dayssincelastpurchase` |
-| Domein | `filtereddomain` |
-| Koppeling downloaden | `downloadlink` |
-| Itempagina | `entrypage` |
-| Origineel van invoerpagina | `entrypageoriginal` |
-| Koppeling afsluiten | `exitlink` |
-| Eerste aanraakkanaal | `firsttouchchannel` |
-| Details eerste aanraakkanaal | `firsttouchchanneldetail` |
-| Java ingeschakeld | `javaenabled` |
-| Taal | `language` |
-| Laatste aanraakkanaal | `lasttouchchannel` |
-| Details laatste aanraakkanaal | `lasttouchchanneldetail` |
+| [Browser](browser.md) | `browser` |
+| [ Browser Type ](browser-type.md) | `browsertype` |
+| [Categorie](category.md) | `category` |
+| [ Steden ](cities.md) | `geocity` |
+| [Kleurdiepte](color-depth.md) | `colordepth` |
+| [Verbindingstype](connection-type.md) | `connectiontype` |
+| [ Steun van het Koekje ](cookie-support.md) | `cookie` |
+| [ Landen ](countries.md) | `geocountry` |
+| [Klantloyaliteit](customer-loyalty.md) | `customerloyalty` |
+| [ de Omzetting Vars van de Douane van de Omzetting ](evar.md) | `evar1` , `evar2` , enzovoort. |
+| [ Custom Insight Vars ](prop.md) | `prop1` , `prop2` , enzovoort. |
+| [Aangepaste koppeling](custom-link.md) | `customlink` |
+| [Dagen vóór eerste aankoop](days-before-first-purchase.md) | `daysbeforefirstpurchase` |
+| [Dagen sinds laatste aankoop](days-since-last-purchase.md) | `dayssincelastpurchase` |
+| [ Domein ](domain.md) | `filtereddomain` |
+| [ Verbinding van de Download ](download-link.md) | `downloadlink` |
+| [ Pagina van de Ingang ](entry-dimensions.md) | `entrypage` |
+| [ Origineel van de Pagina van de Ingang van de Ingang ](entry-dimensions.md) | `entrypageoriginal` |
+| [ Verbinding van de uitgang ](exit-link.md) | `exitlink` |
+| [ Eerste Aanraakkanaal ](first-touch-channel.md) | `firsttouchchannel` |
+| [ Eerste het Detail van het Kanaal van de Aanraak ](first-touch-detail.md) | `firsttouchchanneldetail` |
+| [ toegelaten Java ](java-enabled.md) | `javaenabled` |
+| [Taal](language.md) | `language` |
+| [ het Laatste Kanaal van de Aanraking ](last-touch-channel.md) | `lasttouchchannel` |
+| [ het Laatste Detail van het Kanaal van de Aanraak ](last-touch-detail.md) | `lasttouchchanneldetail` |
 | Variabelen weergeven | `listvariables` |
-| Marketingkanaal | `marketingchannel` |
-| Ondersteuning voor mobiele audio | `mobileaudiosupport` |
-| Mobiele vervoerder | `mobilecarrier` |
-| Kleurdiepte mobiel | `mobilecolordepth` |
-| Ondersteuning voor mobiele cookies | `mobilecookiesupport` |
-| Mobiel apparaat | `mobiledevicename` |
-| Type mobiel apparaat | `mobiledevicetype` |
-| Maximale e-maillengte voor mobiele apparaten | `mobileemaillength` |
-| Ondersteuning voor mobiele images | `mobileimagesupport` |
-| Mobiele fabrikant | `mobilemanufacturer` |
-| Mobiel besturingssysteem (afgekeurd) | `mobileos` |
-| Hoogte mobiel scherm | `mobilescreenheight` |
-| Grootte mobiel scherm | `mobilescreensize` |
-| Breedte mobiel scherm | `mobilescreenwidth` |
-| Maximale URL browser voor mobiel | `mobileurllength` |
-| Ondersteuning voor mobiele video | `mobilevideosupport` |
-| Monitorresolutie | `monitorresolution` |
-| Besturingssystemen | `operatingsystem` |
-| Origineel verwijzingsdomein | `referringdomainoriginal` |
-| Pagina | `page` |
-| Pagina&#39;s niet gevonden | `pagesnotfound` |
-| Product | `product` |
-| Referenter | `referrer` |
-| Type referentie | `referrertype` |
-| Referentiedomein | `referringdomain` |
-| Regio&#39;s | `georegion` |
-| Geretourneerde frequentie | `returnfrequency` |
+| [ het Marketing Kanaal ](marketing-channel.md) | `marketingchannel` |
+| [ Mobiele AudioSteun ](mobile-dimensions.md) | `mobileaudiosupport` |
+| [Mobiele aanbieder](mobile-dimensions.md) | `mobilecarrier` |
+| [ Mobiele Diepte van de Kleur ](mobile-dimensions.md) | `mobilecolordepth` |
+| [ Mobiele Steun van het Koekje ](mobile-dimensions.md) | `mobilecookiesupport` |
+| [ Mobiel Apparaat ](mobile-dimensions.md) | `mobiledevicename` |
+| [ Mobiel Type van Apparaat ](mobile-dimensions.md) | `mobiledevicetype` |
+| [ Mobiele Maximum E-maillengte ](mobile-dimensions.md) | `mobileemaillength` |
+| [ Mobiele Steun van het Beeld ](mobile-dimensions.md) | `mobileimagesupport` |
+| [ Mobiele Fabrikant ](mobile-dimensions.md) | `mobilemanufacturer` |
+| [ Mobiel Werkende Systeem (afgekeurd) ](mobile-dimensions.md) | `mobileos` |
+| [ Mobiele Hoogte van het Scherm ](mobile-dimensions.md) | `mobilescreenheight` |
+| [ Mobiele Grootte van het Scherm ](mobile-dimensions.md) | `mobilescreensize` |
+| [ Mobiele Breedte van het Scherm ](mobile-dimensions.md) | `mobilescreenwidth` |
+| [ Mobiele Maximum Browser URL Lengte ](mobile-dimensions.md) | `mobileurllength` |
+| [ Mobiele VideoSteun ](mobile-dimensions.md) | `mobilevideosupport` |
+| [ Resolutie van de Monitor ](monitor-resolution.md) | `monitorresolution` |
+| [Besturingssystemen](operating-systems.md) | `operatingsystem` |
+| [ Origineel Verwijzend Domein ](original-referring-domain.md) | `referringdomainoriginal` |
+| [ Pagina ](page.md) | `page` |
+| [Pagina&#39;s niet gevonden](pages-not-found.md) | `pagesnotfound` |
+| [ Product ](product.md) | `product` |
+| [ Referrer ](referrer.md) | `referrer` |
+| [Type referrer](referrer-type.md) | `referrertype` |
+| [ Verwijzend Domein ](referring-domain.md) | `referringdomain` |
+| [ Gebieden ](regions.md) | `georegion` |
+| [Retourfrequentie](return-frequency.md) | `returnfrequency` |
 | SC-TnT | `tntbase` |
-| Zoekmachine | `searchengine` |
-| Trefwoord zoeken | `searchenginekeyword` |
-| Zoekmachine - Natuurlijk | `searchenginenatural` |
-| Zoekmachine - Betaald | `searchenginepaid` |
-| Trefwoord zoeken - Natuurlijk | `searchenginenaturalkeyword` |
-| Trefwoord zoeken - Betaald | `searchenginepaidkeyword` |
-| Alle zoekpaginanummers | `searchenginepagerank` |
-| Server | `server` |
-| Bezoeken van één pagina | `singlepagevisits` |
-| Sectie Site | `sitesections` |
-| Tijd besteed per bezoek - korrelig | `sitetime` |
-| Trackingcode | `campaign` |
-| US DMA | `geodma` |
-| VS | `state` |
-| Tijd voorafgaand aan gebeurtenis | `timeprior` |
-| Tijd besteed per bezoek - Emmerd | `timespent` |
-| Diepte bezoeken | `pathlength` |
-| Bezoek nummer | `visitnumber` |
-| Postcode | `zip` |
-| AM/PM | `timepartampm` |
-| Browserhoogte - Emmerd | `browserheightbucketed` |
-| Browserbreedte - Emmerd | `browserwidthbucketed` |
-| Dag | `daterangeday` |
-| Dag van Maand | `timepartdayofmonth` |
-| Weekdag | `dayofweek` |
-| Weekdag | `timepartdayofweek` |
-| Dag van het Jaar | `timepartdayofyear` |
-| Dagen sinds laatste bezoek | `dayssincelastvisit` |
-| Aangepaste informatie invoeren | `entryprops` |
-| Itemlijstvariabelen | `entrylistvariables` |
-| Entry-server | `entryserver` |
-| Sectie voor invoersite | `entrysitesections` |
-| Aangepaste inzichten afsluiten | `exitprops` |
-| Lijstvariabelen afsluiten | `exitlistvariables` |
-| Pagina afsluiten | `exitpage` |
-| Server afsluiten | `exitserver` |
-| Site-sectie afsluiten | `exitsitesections` |
-| Hoogte | `hitdepth` |
-| Type hit | `hittype` |
-| Uur | `daterangehour` |
-| Uur van de dag | `timeparthourofday` |
-| Detail marketingkanaal | `marketingchanneldetail` |
-| Minute | `daterangeminute` |
-| Maximale bladwijzerlengte voor mobiel | `mobilebookmarklength` |
-| Mobiel apparaatnummer | `mobiledevicenumber` |
-| Mobiele DRM | `mobiledrm` |
-| Mobiele informatiediensten | `mobileinformationservices` |
-| Mobile Java VM | `mobilejavavm` |
-| Decoratie van mobiele e-mail | `mobilemaildecoration` |
-| Mobiele netprotocollen | `mobilenetprotocols` |
-| Mobiel pushbericht om te spreken | `mobilepushtotalk` |
-| Maand | `daterangemonth` |
-| Maand van jaar | `timepartmonthofyear` |
-| Typen besturingssystemen | `operatingsystemgroup` |
-| Betaalde zoekopdracht | `paidsearch` |
-| Ondersteuning voor continue cookies | `persistentcookie` |
-| Kwart | `daterangequarter` |
-| Kwartaal van jaar | `timepartquarterofyear` |
+| [ Motor van het Onderzoek ](search-engine.md) | `searchengine` |
+| [ Sleutelwoord van het Onderzoek ](search-keyword.md) | `searchenginekeyword` |
+| [ Motor van het Onderzoek - Natuurlijk ](search-engine.md) | `searchenginenatural` |
+| [ Motor van het Onderzoek - Betaalde ](search-engine.md) | `searchenginepaid` |
+| [ het Trefwoord van het Onderzoek - Natuurlijk ](search-keyword.md) | `searchenginenaturalkeyword` |
+| [ het Trefwoord van het Onderzoek - Betaalde ](search-keyword.md) | `searchenginepaidkeyword` |
+| [ Al Rang van de Pagina van het Onderzoek ](all-search-page-rank.md) | `searchenginepagerank` |
+| [ Server ](server.md) | `server` |
+| [ Enige Bezoeken van de Pagina ](single-page-visits.md) | `singlepagevisits` |
+| [ Sectie van de Plaats ](site-section.md) | `sitesections` |
+| [ Tijd die per Bezoek - Granulair wordt uitgegeven ](time-spent-per-visit.md) | `sitetime` |
+| [ het Volgen Code ](tracking-code.md) | `campaign` |
+| [ DMA van de V.S. ](us-dma.md) | `geodma` |
+| [ Staten van de V.S. ](us-states.md) | `state` |
+| [Tijd voorafgaand aan gebeurtenis](time-prior-to-event.md) | `timeprior` |
+| [ Tijd die per Bezoek wordt uitgegeven - Emmerde ](time-spent-per-visit.md) | `timespent` |
+| [ Diepte van het Bezoek ](visit-depth.md) | `pathlength` |
+| [Bezoeknummer](visit-number.md) | `visitnumber` |
+| [ Postcode ](zip-code.md) | `zip` |
+| [ AM / PM ](am-pm.md) | `timepartampm` |
+| [ Browser Hoogte - Gesloten ](browser-height.md) | `browserheightbucketed` |
+| [ Browser Breedte - Gesloten ](browser-width.md) | `browserwidthbucketed` |
+| [ Dag ](day.md) | `daterangeday` |
+| [ Dag van Maand ](day-of-month.md) | `timepartdayofmonth` |
+| [ Dag van Week ](day-of-week.md) | `dayofweek` |
+| [ Dag van Week ](day-of-week.md) | `timepartdayofweek` |
+| [ Dag van Jaar ](day-of-year.md) | `timepartdayofyear` |
+| [Dagen sinds laatste bezoek](days-since-last-visit.md) | `dayssincelastvisit` |
+| [ Ingang de Inzicht van de Douane ](entry-dimensions.md) | `entryprops` |
+| [ Variabelen van de Lijst van de Ingang ](entry-dimensions.md) | `entrylistvariables` |
+| [ Server van de Ingang ](entry-dimensions.md) | `entryserver` |
+| [ Sectie van de Plaats van de Ingang ](entry-dimensions.md) | `entrysitesections` |
+| [ de Inzichten van de Douane van de uitgang ](exit-dimensions.md) | `exitprops` |
+| [ Uitgang de Variabelen van de Lijst ](exit-dimensions.md) | `exitlistvariables` |
+| [ de Pagina van de uitgang ](exit-dimensions.md) | `exitpage` |
+| [ de Server van de uitgang ](exit-dimensions.md) | `exitserver` |
+| [ sectie van de Plaats van de uitgang ](exit-dimensions.md) | `exitsitesections` |
+| [ Diepte van het Actief ](hit-depth.md) | `hitdepth` |
+| [Type hit](hit-type.md) | `hittype` |
+| [ Uur ](hour.md) | `daterangehour` |
+| [ Uur van Dag ](hour-of-day.md) | `timeparthourofday` |
+| [ het Detail van het Kanaal van de Marketing ](marketing-detail.md) | `marketingchanneldetail` |
+| [ Minuut ](minute.md) | `daterangeminute` |
+| [ Mobiele Maximum Lengte van de Referentie ](mobile-dimensions.md) | `mobilebookmarklength` |
+| [ Mobiel Aantal van het Apparaat ](mobile-dimensions.md) | `mobiledevicenumber` |
+| [ Mobiele DRM ](mobile-dimensions.md) | `mobiledrm` |
+| [ Mobiele Diensten van de Informatie ](mobile-dimensions.md) | `mobileinformationservices` |
+| [ Mobiele VM van Java ](mobile-dimensions.md) | `mobilejavavm` |
+| [ Mobiele Decoratie van de Post ](mobile-dimensions.md) | `mobilemaildecoration` |
+| [ Mobiele Netto Protocollen ](mobile-dimensions.md) | `mobilenetprotocols` |
+| [ Mobiel duw om te spreken ](mobile-dimensions.md) | `mobilepushtotalk` |
+| [ Maand ](month.md) | `daterangemonth` |
+| [ Maand van Jaar ](month-of-year.md) | `timepartmonthofyear` |
+| [Typen besturingssystemen](operating-system-types.md) | `operatingsystemgroup` |
+| [ Betaald Onderzoek ](paid-search.md) | `paidsearch` |
+| [ Blijvende Steun van het Koekje ](persistent-cookie-support.md) | `persistentcookie` |
+| [ Kwartaal ](quarter.md) | `daterangequarter` |
+| [ Kwartaal van Jaar ](quarter-of-year.md) | `timepartquarterofyear` |
 | Enquête | `surveybase` |
-| Tijd besteed op pagina - Emmerd | `averagepagetime` |
-| Tijd besteed op pagina - korrelig | `pagetimeseconds` |
-| Reden voor reeksspatiëring | `optoutreason` |
-| Weekdag/Weekend | `timepartweekdayweekend` |
-| Week | `daterangeweek` |
-| Jaar | `daterangeyear` |
+| [ Tijd die op Pagina wordt besteed - Gesloten ](time-spent-on-page.md) | `averagepagetime` |
+| [ Tijd die op Pagina wordt besteed - korrelig ](time-spent-on-page.md) | `pagetimeseconds` |
+| [ het Volgen Opt-out Reden ](tracking-opt-out-reason.md) | `optoutreason` |
+| [ Weekdag/Weekend ](weekday-weekend.md) | `timepartweekdayweekend` |
+| [ Week ](week.md) | `daterangeweek` |
+| [ Jaar ](year.md) | `daterangeyear` |
 
 ## Afmetingen met behoud van inhoud worden alleen ondersteund in Analysis Workspace
 
@@ -161,53 +161,55 @@ Deze pagina maakt een lijst van [ dimensies ](overview.md) die in hun respectiev
 
 | Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
-| Inhoud | `video` |
-| Segment Inhoud | `videosegment` |
-| Inhoudstype | `videocontenttype` |
-| Naam van advertentiespeler | `videoadplayername` |
-| Positie advertentie in pod | `videoadinpod` |
-| Gedropte frames | `videoqoedroppedframecountevar` |
-| Fouten | `videoqoeerrorcountevar` |
-| Gemiddelde bitsnelheid | `videoqoebitrateaverageevar` |
-| Wijzigingen in bitsnelheid | `videoqoebitratechangecountevar` |
-| Totale bufferduur | `videoqoebuffertimeevar` |
-| Buffergebeurtenissen | `videoqoebuffercountevar` |
-| Te starten tijd | `videoqoetimetostartevar` |
-| Advertentiepod | `videoadpod` |
-| Mediapad | `videopath` |
-| Advertentie | `videoad` |
-| Naam van inhoudspeler | `videoplayername` |
-| Content Channel | `videochannel` |
-| Hoofdstuk | `videochapter` |
-| Inhoudsnaam (variabele) | `videoname` |
-| Content Length (variable) | `videolength` |
-| Advertentienaam (variabele) | `videoadname` |
-| Ad Length (variabel) | `videoadlength` |
-| Tonen | `videoshow` |
-| Seizoen | `videoseason` |
-| Episode | `videoepisode` |
-| Netwerk | `videonetwork` |
-| Tekst tonen | `videoshowtype` |
-| Advertentieladingen | `videoadload` |
-| MVPD | `videomvpd` |
-| Dagdeel | `videodaypart` |
-| Adverteerder | `videoadadvertiser` |
-| Campagne-id | `videoadcampaign` |
-| Genre | `videogenre` |
-| Type stream | `videostreamtype` |
-| SDK-fout-id&#39;s van speler | `videoqoeplayersdkerrors` |
-| Externe fout-id&#39;s | `videoqoeextneralerrors` |
-| Type mediafeed | `videofeedtype` |
-| Pad naar instapmedium | `entryvideopath` |
-| Mediapad afsluiten | `exitvideopath` |
-| Genre item | `entryvideogenre` |
-| Exit Genre | `exitvideogenre` |
-| SDK-fout-id&#39;s voor Entry Player | `entryvideoqoeplayersdkerrors` |
-| SDK-fout-id&#39;s voor speler afsluiten | `exitvideoqoeplayersdkerrors` |
-| Externe fout-id&#39;s invoeren | `entryvideoqoeextneralerrors` |
-| Externe fout-id&#39;s afsluiten | `exitvideoqoeextneralerrors` |
+| [ Inhoud ](sm-core.md) | `video` |
+| [ Segment van de Inhoud ](sm-core.md) | `videosegment` |
+| [ Type van Inhoud ](sm-core.md) | `videocontenttype` |
+| [ Add Player Name ](sm-ads.md) | `videoadplayername` |
+| [ Advertentie in Podpositie ](sm-ads.md) | `videoadinpod` |
+| [ gelaten vallen Kaders ](sm-quality.md) | `videoqoedroppedframecountevar` |
+| [ Fouten ](sm-quality.md) | `videoqoeerrorcountevar` |
+| [ Gemiddelde Bitsnelheid ](sm-quality.md) | `videoqoebitrateaverageevar` |
+| [ Veranderingen van de Bitsnelheid ](sm-quality.md) | `videoqoebitratechangecountevar` |
+| [ Totale Duur van de Buffer ](sm-quality.md) | `videoqoebuffertimeevar` |
+| [ Gebeurtenissen van de Buffer ](sm-quality.md) | `videoqoebuffercountevar` |
+| [ Tijd aan Begin ](sm-quality.md) | `videoqoetimetostartevar` |
+| [ Advertentiepod ](sm-ads.md) | `videoadpod` |
+| [ Weg van Media ](sm-core.md) | `videopath` |
+| [ Advertentie ](sm-ads.md) | `videoad` |
+| [ Naam van de Speler van de Inhoud ](sm-core.md) | `videoplayername` |
+| [ Kanaal van de Inhoud ](sm-core.md) | `videochannel` |
+| [ Hoofdstuk ](sm-chapters.md) | `videochapter` |
+| [ Naam van de Inhoud (veranderlijk) ](sm-core.md) | `videoname` |
+| [ Lengte van de Inhoud (veranderlijk) ](sm-core.md) | `videolength` |
+| [ Add Naam (veranderlijk) ](sm-ads.md) | `videoadname` |
+| [ Add Length (veranderlijk) ](sm-ads.md) | `videoadlength` |
+| [ tonen ](sm-video-metadata.md) | `videoshow` |
+| [ Seizoen ](sm-video-metadata.md) | `videoseason` |
+| [ Episode ](sm-video-metadata.md) | `videoepisode` |
+| [ Netwerk ](sm-video-metadata.md) | `videonetwork` |
+| [ toon Type ](sm-video-metadata.md) | `videoshowtype` |
+| [ Advertentie laadt ](sm-ads.md) | `videoadload` |
+| [ MVPD ](sm-video-metadata.md) | `videomvpd` |
+| [ Deel van de Dag ](sm-video-metadata.md) | `videodaypart` |
+| [ Advertiser ](sm-ads.md) | `videoadadvertiser` |
+| [ identiteitskaart van de Campagne ](sm-ads.md) | `videoadcampaign` |
+| [ Genre ](sm-video-metadata.md) | `videogenre` |
+| [ Type van Stroom ](sm-core.md) | `videostreamtype` |
+| [ De Fout IDs van de Fout van de Speler SDK ](sm-quality.md) | `videoqoeplayersdkerrors` |
+| [ Externe Fout IDs ](sm-quality.md) | `videoqoeextneralerrors` |
+| [ Type van Diervoeders van Media ](sm-video-metadata.md) | `videofeedtype` |
+| [ Pad van de Media van de Ingang ](entry-dimensions.md) | `entryvideopath` |
+| [ Uitgang de Weg van Media ](exit-dimensions.md) | `exitvideopath` |
+| [ Genre van de Ingang ](entry-dimensions.md) | `entryvideogenre` |
+| [ Uitgang Genre ](exit-dimensions.md) | `exitvideogenre` |
+| [ De Fout IDs van de Speler van de Ingang SDK ](entry-dimensions.md) | `entryvideoqoeplayersdkerrors` |
+| [ de Fout IDs van de Speler van de Afgang SDK ](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
+| [ De Externe van de Ingang identiteitskaarts van de Fout ](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
+| [ Uitgang Externe Fout IDs ](exit-dimensions.md) | `exitvideoqoeextneralerrors` |
 
 ### Adobe Social
+
+Adobe Social is met pensioen.
 
 | Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
@@ -233,38 +235,38 @@ Deze pagina maakt een lijst van [ dimensies ](overview.md) die in hun respectiev
 
 | Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
-| Eerste startdatum | `mobileinstalldate` |
-| Toepassings-id | `mobileappid` |
-| Startnummer | `mobilelaunchnumber` |
-| Dagen sinds eerste gebruik | `mobiledayssincefirstuse` |
-| Dagen sinds laatste gebruik | `mobiledayssincelastuse` |
-| Uur van de dag (SDK) | `mobilehourofday` |
-| Dag van de week (SDK) | `mobiledayofweek` |
-| Besturingssysteem (SDK) | `mobileosenvironment` |
-| Dagen sinds laatste upgrade | `mobiledayssincelastupgrade` |
-| Starten vanaf laatste upgrade | `mobilelaunchessincelastupgrade` |
-| Apparaatnaam (SDK) | `mobiledevice` |
-| Versie besturingssysteem (SDK) | `mobileosversion` |
-| Beacon Major | `mobilebeaconmajor` |
-| Beacon Minor | `mobilebeaconminor` |
-| Beacon UUID | `mobilebeaconuuid` |
-| Beacon-nabijheid | `mobilebeaconproximity` |
-| Locatie (tot 10 km) | `latlon1` |
-| Locatie (tot 100 m) | `latlon23` |
-| Locatie (tot 1 m) | `latlon45` |
-| Naam van belangenpunt | `pointofinterest` |
-| Afstand tot belangencentrum | `pointofinterestdistance` |
-| Nauwkeurigheid van locatie | `mobileplaceaccuracy` |
-| Categorie plaatsen | `mobileplacecategory` |
-| Id plaatsen | `mobileplaceid` |
-| Entry Beacon Major | `entrymobilebeaconmajor` |
-| Bandbakenmais afsluiten | `exitmobilebeaconmajor` |
-| Invoerbaken, klein | `entrymobilebeaconminor` |
-| Minder baken afsluiten | `exitmobilebeaconminor` |
-| Entry Beacon UUID | `entrymobilebeaconuuid` |
-| UUID van Beacon afsluiten | `exitmobilebeaconuuid` |
-| Nabijheid van baken op item | `entrymobilebeaconproximity` |
-| Nabijheid van baken afsluiten | `exitmobilebeaconproximity` |
+| [ Eerste Datum van de Lancering ](lifecycle-dimensions.md) | `mobileinstalldate` |
+| [ toepassings identiteitskaart ](lifecycle-dimensions.md) | `mobileappid` |
+| [ Aantal van de Lancering ](lifecycle-dimensions.md) | `mobilelaunchnumber` |
+| [ dagen sinds eerste gebruik ](lifecycle-dimensions.md) | `mobiledayssincefirstuse` |
+| [ dagen sinds laatste Gebruik ](lifecycle-dimensions.md) | `mobiledayssincelastuse` |
+| [ Uur van Dag (SDK) ](lifecycle-dimensions.md) | `mobilehourofday` |
+| [ Dag van Week (SDK) ](lifecycle-dimensions.md) | `mobiledayofweek` |
+| [ Werkend Systeem (SDK) ](lifecycle-dimensions.md) | `mobileosenvironment` |
+| [ dagen sinds laatste verbetering ](lifecycle-dimensions.md) | `mobiledayssincelastupgrade` |
+| [ Lanceringen sinds laatste verbetering ](lifecycle-dimensions.md) | `mobilelaunchessincelastupgrade` |
+| [ Naam van het Apparaat (SDK) ](lifecycle-dimensions.md) | `mobiledevice` |
+| [ Versie van het Werkende Systeem (SDK) ](lifecycle-dimensions.md) | `mobileosversion` |
+| [ Belangrijkste baken ](lifecycle-dimensions.md) | `mobilebeaconmajor` |
+| [ Kleine baken Minder ](lifecycle-dimensions.md) | `mobilebeaconminor` |
+| [ het baken UUID ](lifecycle-dimensions.md) | `mobilebeaconuuid` |
+| [ Beacon Proximity ](lifecycle-dimensions.md) | `mobilebeaconproximity` |
+| [ Plaats (neer aan 10 km) ](lifecycle-dimensions.md) | `latlon1` |
+| [ Plaats (neer aan 100 m) ](lifecycle-dimensions.md) | `latlon23` |
+| [ Plaats (neer aan 1 m) ](lifecycle-dimensions.md) | `latlon45` |
+| [ Punt van de Naam van het Intern ](lifecycle-dimensions.md) | `pointofinterest` |
+| [ Afstand aan Punt van het Centrum van de Rente ](lifecycle-dimensions.md) | `pointofinterestdistance` |
+| [ Nauwkeurigheid van de Plaats ](lifecycle-dimensions.md) | `mobileplaceaccuracy` |
+| [ Plaats Categorie ](lifecycle-dimensions.md) | `mobileplacecategory` |
+| [ identiteitskaart van de Plaats ](lifecycle-dimensions.md) | `mobileplaceid` |
+| [ Invoerbaken Ingang Belangrijk ](lifecycle-dimensions.md) | `entrymobilebeaconmajor` |
+| [ Belangrijkste van het Bebakken van de Uitgang ](lifecycle-dimensions.md) | `exitmobilebeaconmajor` |
+| [ Onderliggend baken van de Ingang 0} ](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
+| [ de Kleine Korte Kleine Beacon van de Uitgang ](lifecycle-dimensions.md) | `exitmobilebeaconminor` |
+| [ Ingangsbaken UUID ](lifecycle-dimensions.md) | `entrymobilebeaconuuid` |
+| [ de Beacon UUID van het Beken van de Uitgang ](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |
+| [ Beacon van het Ingang Beacon Proximity ](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
+| [ Beacon Proximity van de Uitgang ](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
 ### Adobe Advertising Cloud (AMO)
 
@@ -277,14 +279,14 @@ Deze pagina maakt een lijst van [ dimensies ](overview.md) die in hun respectiev
 
 | Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
-| Koppeling Activity Mappen per regio | `clickmaplinkbyregion` |
-| Activity Map | `clickmapregion` |
-| Koppeling Activity Mappen | `clickmaplink` |
-| Activity Map-pagina | `clickmappage` |
+| [ verbinding van de Activity Map door Gebied ](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [ Gebied van de Activity Map ](activity-map-region.md) | `clickmapregion` |
+| [ Verbinding van de Activity Map ](activity-map-link.md) | `clickmaplink` |
+| [ Pagina van de Activity Map ](activity-map-page.md) | `clickmappage` |
 
 ### Nielsen Integration
 
-Voor meer informatie over hoe te om deze integratie uit te voeren, zie de [ Uitbreiding Nielsen ](https://exchange.adobe.com/experiencecloud.details.101361.html).
+Voor meer informatie over hoe te om deze integratie uit te voeren, zie de [ Uitbreiding Nielsen ](https://exchange.adobe.com/apps/ec/101361) op de Adobe Exchange.
 
 | Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |

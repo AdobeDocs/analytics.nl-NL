@@ -4,9 +4,9 @@ description: Veelgestelde vragen over Activity Map.
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 64964972410911c2bea1460039def39b7c6dfa38
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Activity Map ondersteunt de nieuwste versie van de meeste moderne browsers.
 
 +++Verhoogt de Activity Map servervraag?
 
-Activity Map verzendt geen servervraag door zich. In plaats daarvan worden Activity Map-contextgegevensvariabelen opgenomen in de paginaweergaveaanroepen voor Analytics op de volgende pagina. Nochtans, verzenden sommige vorige versies van Activity Map op het Web SDK een afzonderlijke vraag naar Activity Map gegevens. Als u op de recentste versie van het Web SDK bent, worden de gegevens van de Activity Map samengevoegd met de volgende gebeurtenis.
+Activity Map verzendt geen servervraag door zich. In plaats daarvan worden Activity Map-contextgegevensvariabelen opgenomen in de paginaweergaveaanroepen voor Analytics op de volgende pagina. Nochtans, verzenden sommige vorige versies van Activity Map op het Web SDK een afzonderlijke vraag naar Activity Map gegevens. Als u op de recentste versie van Web SDK bent, worden de gegevens van de Activity Map samengevoegd met de volgende gebeurtenis.
 
 +++
 
@@ -138,7 +138,7 @@ Ja. Vanwege beperkingen van de virtuele rapportsuite is de Live-modus van Activi
 De methode om Activity Map onbruikbaar te maken hangt van uw implementatietype af:
 
 * **uitbreiding van SDK van het Web**: In de montages van de uitbreidingsconfiguratie, uncheck de dozen **[!UICONTROL Collect internal link clicks]**, **[!UICONTROL Collect external link clicks]**, en **[!UICONTROL Collect download link clicks]**.
-* **de bibliotheek van SDK van het Web JavaScript**: Reeks [`clickCollectionEnabled` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aan `false`.
+* **de bibliotheek van JavaScript van SDK van het Web**: Plaats [`clickCollectionEnabled` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aan `false`.
 * **uitbreiding Analytics**: In de montages van de uitbreidingsconfiguratie, uncheck de geëtiketteerde doos **[!UICONTROL Use Activity Map]**.
 * **AppMeasurement**: Verwijder of commentaar uit de module van de Activity Map binnen `AppMeasurement.js`, of beschrijf de vraag van de modulefunctie met een leeg lichaam:
 
@@ -203,7 +203,11 @@ Hieronder volgen enkele voorbeelden waarbij de Activity Map over alle vereiste i
 
 +++Wat zijn sommige voorbeelden van verbindingen die de Activity Map NIET automatisch volgt?
 
-Hieronder volgen enkele voorbeelden waarbij Activity Map klikken niet bijhoudt.
+* Ankertag heeft geen geldige waarde `href`
+* Geen van beide methoden [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md) of [`tl()`](/help/implement/vars/functions/tl-method.md) aanwezig
+* `src` -eigenschap ontbreekt op een formulierinvoerelement
+
+Hieronder volgen enkele voorbeelden waarbij Activity Map klikken niet bijhoudt:
 
 ```html
 <!-- Anchor tag does not have a valid href -->
