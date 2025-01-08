@@ -3,7 +3,7 @@ title: Een gegevensfeed maken
 description: Leer hoe u een gegevensfeed maakt en informatie over de bestandsgegevens die aan de Adobe moeten worden verstrekt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
 source-wordcount: '4124'
 ht-degree: 0%
@@ -15,12 +15,9 @@ ht-degree: 0%
 Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
 * De informatie over de bestemming waarnaar u Raw-gegevensbestanden wilt verzenden
-
 * De gegevens die u in elk bestand wilt opnemen
 
->[!NOTE]
->
->Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van gegevensvoer te hebben en ervoor te zorgen dat u aan alle voorwaarden voldoet. Voor meer informatie, zie [ Overzicht van de voer van Gegevens ](data-feed-overview.md).
+Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van gegevensvoer te hebben en ervoor te zorgen dat u aan alle voorwaarden voldoet. Voor meer informatie, zie [ Overzicht van de voer van Gegevens ](data-feed-overview.md).
 
 ## Een gegevensfeed maken en configureren
 
