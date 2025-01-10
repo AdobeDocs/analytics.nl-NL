@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
+source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,6 @@ Om een nieuw malplaatje tot stand te brengen dat door mensen in uw login bedrijf
    | **[!UICONTROL Name]** | Geef een beschrijvende naam op voor de sjabloon. |
    | **[!UICONTROL Description]** | Geef een korte beschrijving voor de sjabloon waarin het beoogde gebruik wordt beschreven. |
    | **[!UICONTROL Why use this template]** | Geef een korte uitleg om mensen in de organisatie te informeren over de manier waarop deze sjabloon kan worden gebruikt. Deze uitleg wordt weergegeven op de voorbeeldpagina van de sjabloon. |
-   | **[!UICONTROL Channels]** | Kies de kanalen die van toepassing zijn op deze sjabloon. U kunt meerdere kanalen selecteren: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** en **[!UICONTROL In-store]** .<p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
    | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]** , **[!UICONTROL Conversion]** , **[!UICONTROL Audience]** en **[!UICONTROL Acquisition]** . <p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
    | **[!UICONTROL Tags]** | Geef de tags op die u op de sjabloon wilt toepassen. Mensen kunnen de lijst met sjablonen filteren op de tags die u toevoegt. |
 
@@ -44,7 +43,7 @@ Om een nieuw malplaatje tot stand te brengen dat door mensen in uw login bedrijf
 
 Voor informatie over hoe de gebruikers een project kunnen tot stand brengen dat op een malplaatje wordt gebaseerd, zie [ een project creëren dat op een malplaatje ](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) wordt gebaseerd in [ malplaatjes van het Gebruik ](/help/analyze/analysis-workspace/templates/use-templates.md).
 
-## Sjablonen bewerken of verwijderen
+## Een sjabloon bewerken of verwijderen
 
 Beheerders kunnen bedrijfssjablonen bewerken of verwijderen.
 
@@ -71,6 +70,22 @@ Beheerders kunnen bedrijfssjablonen bewerken of verwijderen.
    1. Selecteer het pictogram Meer en selecteer vervolgens **[!UICONTROL Edit]** of **[!UICONTROL Delete]** .
 
       ![ de malplaatjekaart van het Bedrijf geeft uit of schrapt ](assets/company-template-card-edit-delete.png)
+
+1. Als u een malplaatje uitgeeft, maak om het even welke gewenste uitgeeft, dan uitgezocht [!UICONTROL **Project**] > **[!UICONTROL Save as template…]**.
+
+   ![ malplaatje van het Bedrijf ](assets/company-template-save.png)
+
+1. Geef de volgende informatie op in het dialoogvenster [!UICONTROL Save as template] :
+
+   | Veld | Beschrijving |
+   |---------|----------|
+   | **[!UICONTROL Name]** | Geef een beschrijvende naam op voor de sjabloon. |
+   | **[!UICONTROL Description]** | Geef een korte beschrijving voor de sjabloon waarin het beoogde gebruik wordt beschreven. |
+   | **[!UICONTROL Why use this template]** | Geef een korte uitleg om mensen in de organisatie te informeren over de manier waarop deze sjabloon kan worden gebruikt. Deze uitleg wordt weergegeven op de voorbeeldpagina van de sjabloon. |
+   | **[!UICONTROL Use cases]** | Kies de gebruikscategorieën die van toepassing zijn op deze sjabloon. U kunt meerdere gebruiksgevallen selecteren: **[!UICONTROL Engagement]** , **[!UICONTROL Conversion]** , **[!UICONTROL Audience]** en **[!UICONTROL Acquisition]** . <p>De selecties die u kiest, bepalen waar de sjabloon wordt weergegeven en welke filters van toepassing zijn voor gebruikers die deze openen op de pagina Organisatiesjablonen.</p> |
+   | **[!UICONTROL Tags]** | Geef de tags op die u op de sjabloon wilt toepassen. Mensen kunnen de lijst met sjablonen filteren op de tags die u toevoegt. |
+
+1. Selecteer [!UICONTROL **sparen als malplaatje**].
 
 ## Sjablonen hernoemen, labelen of goedkeuren
 
