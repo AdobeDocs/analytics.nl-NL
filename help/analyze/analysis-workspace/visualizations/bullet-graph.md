@@ -1,17 +1,35 @@
 ---
 description: Laat u zien hoe een waarde u in vergelijkt met of tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent.
-title: Staafdiagram
+title: Bullet
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 4e230320dbda7bc626a04a9f9ec9cac438c8dba7
+source-git-commit: 7f84679a0d1c9cf1609bf8e01e0209936215d7ff
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 10%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
-# Staafdiagram
+# Bullet {#bullet-graph}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_goalvalue"
+>title="Waarde van doel"
+>abstract="**[!UICONTROL High goal]** is het belangrijkste doel dat u nastreeft. **[!UICONTROL Low goal]** en **[!UICONTROL Mid goal]** maken bereiken onder de [!UICONTROL High goal] . Opmerking: als de optie **[!UICONTROL Percentages]** is ingeschakeld, voert u doelen in als hele getallen. Bijvoorbeeld: `20` als uw doel 20 procent is."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_button"
+>title="Opsommingsteken"
+>abstract="Creeer een visualisatie van de kogelgrafiek om te tonen hoe metrisch met, of maatregelen tegen, prestatieswaaiers (doelstellingen) vergelijkt."
+
+<!-- markdownlint-enable MD034 -->
 
 Laat u zien hoe een waarde u in vergelijkt met of tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent.
 
