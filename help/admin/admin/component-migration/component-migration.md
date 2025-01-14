@@ -3,9 +3,9 @@ description: Verklaart hoe te om componenten en projecten van Adobe Analytics aa
 title: Componenten en projecten migreren van Adobe Analytics naar Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
+source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Alvorens u om het even welke projecten aan Customer Journey Analytics migreert, 
 
 1. Op het [!UICONTROL **bezit van het Project**] gebied, begin typend de naam van de gebruiker die u als eigenaar van het project in Customer Journey Analytics wilt plaatsen, dan hun naam in het drop-down menu selecteren.
 
-   De eigenaar die u specificeert heeft volledige beheersrechten aan het project.
+   De eigenaar die u specificeert heeft volledige beheersrechten aan het project. De eigenaar moet een beheerder in Customer Journey Analytics zijn. U kunt de eigendom van het project in een latere stap wijzigen.
 
 1. In het [!UICONTROL **schema van de Kaart voor rapportreeksen**] sectie, selecteer een rapportreeks.
 
@@ -119,6 +119,8 @@ Alvorens u om het even welke projecten aan Customer Journey Analytics migreert, 
    Nadat een migratie voltooit, verstrekt de [!UICONTROL **status van de Migratie**] pagina een samenvatting van wat werd gemigreerd.
 
    Als de migratie ontbreekt, zie [ opnieuw een ontbroken migratie ](#retry-a-failed-migration) sectie hieronder voor meer informatie.
+
+1. (Optioneel) Nadat een project is gemigreerd, kunt u de eigendom van het project overdragen aan elke gebruiker in de Customer Journey Analytics. Voor meer informatie, zie [ activa van de Overdracht ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in de Gids van de Customer Journey Analytics.
 
 ## Een mislukte migratie opnieuw proberen
 
