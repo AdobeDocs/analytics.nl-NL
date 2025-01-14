@@ -3,12 +3,10 @@ description: Een overzicht van het gebruik van standaardrapporten in Analysis Wo
 title: Rapporten gebruiken
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -118,3 +116,10 @@ Beheerders kunnen bedrijfssjablonen hernoemen, labelen en goedkeuren.
 Net als met sjablonen die door Adobe worden verschaft, kunnen gebruikers in de organisatie toegang krijgen tot sjablonen die beheerders maken.
 
 Voor informatie over hoe te om tot een bedrijfmalplaatje toegang te hebben, zie [ Toegang en stel een malplaatje ](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [ malplaatjes van het Gebruik ](/help/analyze/analysis-workspace/templates/use-templates.md) in werking.
+
+## Het tabblad Sjablonen verbergen {#hide-reports}
+
+Beheerders kunnen het tabblad Sjablonen verbergen voor alle gebruikers binnen hun organisatie.
+
+1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Preferences]** > **[!UICONTROL Company]** .
+1. Selecteer de optie die u wilt **[!UICONTROL Hide Templates Tab]** .
