@@ -3,9 +3,9 @@ description: Verklaart hoe te om componenten en projecten van Adobe Analytics aa
 title: Componenten en projecten migreren van Adobe Analytics naar Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
+source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ Het migratieproces omvat:
   Sommige dimensies en metriek worden automatisch toegewezen; andere moet u handmatig toewijzen als onderdeel van het migratieproces. Segmenten worden ook gemigreerd, maar hoeven niet in kaart te worden gebracht als onderdeel van het migratieproces.
 
   Alle gemigreerde componenten worden in het migratiesamenvatting weergegeven wanneer de migratie is voltooid.
+
+>[!NOTE]
+>
+>De informatie op deze pagina beschrijft hoe te om projecten en hun bijbehorende componenten met het gebruikersinterface te migreren.
+>
+>U kunt de migratie ook uitvoeren met de API&#39;s. Voor meer informatie, zie [ Adobe Analytics APIs ](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). Alle API-definities zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Select a definition]** .
+
 
 ## Een migratie voorbereiden
 
