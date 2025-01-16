@@ -4,13 +4,12 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 11%
 
 ---
-
 
 # Adobe Analytics Tools Guide {#analyze}
 
