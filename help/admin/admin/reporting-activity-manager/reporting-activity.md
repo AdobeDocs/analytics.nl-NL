@@ -4,9 +4,9 @@ title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,24 @@ Met [!UICONTROL Reporting Activity Manager] kunnen beheerders snel problemen met
 Voor meer informatie over het Melden van de Manager van de Activiteit, met inbegrip van zeer belangrijke voordelen en toestemmingsvereisten, zie [ het Overzicht van de Manager van de Activiteit ](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) melden.
 
 ## Rapportactiviteiten voor alle rapportsuites weergeven {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="Verbindingen"
+>abstract="Deze lijst toont de verbindingen waarvoor u rechten hebt om rapporteringsactiviteit te beheren. Informatie over elke verbinding is beschikbaar in elke kolom van de lijst."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
+>title="Verbindingen"
+>abstract="Deze lijst toont de verbindingen waarvoor u rechten hebt om rapporteringsactiviteit te beheren. Informatie over elke verbinding is beschikbaar in elke kolom van de lijst."
+
+<!-- markdownlint-enable MD034 -->
 
 1. Ga in Adobe Analytics naar **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]** .
 

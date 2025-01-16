@@ -1,112 +1,251 @@
 ---
-description: Snelle inzichten zijn een hulpmiddel voor nieuwe gebruikers van de Werkruimte die hen in de bouw van gegevenslijsten en visualisaties begeleiden
+description: Quick Insights is een hulpmiddel voor nieuwe Workspace-gebruikers dat hen begeleidt bij het samenstellen van gegevenstabellen en -visualisaties
 title: Deelvenster Snelle inzichten
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+source-git-commit: 8ed3572767e586580872c5d2150ed75e42793fe6
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1073'
 ht-degree: 1%
 
 ---
 
-# Deelvenster Snelle inzichten
+# Deelvenster Snelle inzichten {#quick-insights-panel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_quickinsights_button"
+>title="Snelle inzichten"
+>abstract="Maak een deelvenster om snel een vrije-vormtabel te maken en de bijbehorende visualisatie om inzichten sneller te analyseren en zichtbaar te maken."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert het Snelle paneel van Inzichten in ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/> zie [ Snelle Inzichten paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight) voor ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
+
 
 [!UICONTROL Quick Insights] biedt richtlijnen voor niet-analisten en nieuwe gebruikers van [!UICONTROL Analysis Workspace] over hoe ze zakelijke kwesties snel en eenvoudig kunnen beantwoorden. Het is ook een geweldig hulpmiddel voor geavanceerde gebruikers die snel een eenvoudige vraag willen beantwoorden zonder zelf een tabel te hoeven maken.
 
-Wanneer u deze voor het eerst gebruikt [!UICONTROL Analysis Workspace]Misschien vraagt u zich af wat visualisaties het nuttigst zijn, welke dimensies en metriek inzichten zouden kunnen vergemakkelijken, waar te om punten te slepen en te laten vallen, waar te om een segment te creëren, etc.
+Wanneer u deze [!UICONTROL Analysis Workspace] voor het eerst gebruikt, vraagt u zich misschien af:
 
-Om dit te helpen en op basis van het gebruik van gegevenscomponenten door uw eigen bedrijf in [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] leverages een algoritme dat u met de populairste afmetingen, metriek, segmenten, en datumwaaiers zal voorstellen uw bedrijf gebruikt. In feite zult u afmetingen, metriek, en segmenten zien die zoals worden geëtiketteerd [!UICONTROL Popular] in de vervolgkeuzelijst, zoals u hier ziet:
+* welke visualisaties het nuttigst zouden zijn,
+* welke dimensies en maatstaven inzichten zouden kunnen vergemakkelijken;
+* waar items moeten worden gesleept en neergezet,
+* de plaats waar een filter moet worden gemaakt;
+* en meer.
 
-![](assets/popular-tag.png)
+Om met deze vragen te helpen, [!UICONTROL Quick insights] hefboomwerkingen een algoritme dat u met de populairste dimensies, metriek, segmenten, en datumwaaiers uw bedrijfgebruik voorstelt. Dit algoritme is gebaseerd op het gebruik van gegevenscomponenten in [!UICONTROL Analysis Workspace] door uw eigen bedrijf. In feite ziet u afmetingen, metriek, en segmenten geëtiketteerd met [!UICONTROL POPULAR] in de drop-down lijst, zoals hier getoond:
+
+![ het Snelle paneel van Inzichten.](assets/popular-tag.png)
 
 [!UICONTROL Quick Insights] helpt u
 
-* Een gegevenstabel en een bijbehorende visualisatie op de juiste wijze samenstellen in [!UICONTROL Analysis Workspace].
-* Leer de terminologie en woordenschat voor basiscomponenten en stukken [!UICONTROL Analysis Workspace].
-* Doe eenvoudige onderverdelingen van dimensies, voeg veelvoudige metriek toe of vergelijk segmenten gemakkelijk binnen een [!UICONTROL Freeform table].
+* U moet een gegevenstabel en een bijbehorende visualisatie op de juiste wijze maken in [!UICONTROL Analysis Workspace] .
+* Leer de terminologie en woordenschat voor basiscomponenten en stukken van [!UICONTROL Analysis Workspace].
+* Voer eenvoudige dimensies uit, voeg meerdere metriek toe of vergelijk segmenten eenvoudig binnen een [!UICONTROL Freeform table] .
 * U kunt verschillende visualisatietypen wijzigen of uitproberen om snel en intuïtief het zoekgereedschap voor uw analyse te vinden.
-
-Hier volgt een video-overzicht van het [!UICONTROL Quick Insights] paneel:
-
->[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basistoets
 
-Hier volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst bestaat uit 2 of meer bouwstenen (componenten) die u gebruikt om uw gegevensverhaal te vertellen.
+Hieronder volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst bestaat uit 2 of meer bouwstenen (componenten) die u gebruikt om uw gegevensverhaal te vertellen.
 
 | Bouwsteen (component) | Definitie |
 |---|---|
-| [!UICONTROL Dimension] | Dimension zijn beschrijvingen of kenmerken van metrische gegevens die kunnen worden bekeken, opgesplitst en vergeleken in een project. Het zijn niet-numerieke waarden en datums die worden opgesplitst in dimensie-items. &#39;browser&#39; of &#39;pagina&#39; zijn bijvoorbeeld afmetingen. |
-| [!UICONTROL Dimension item] | Dimension-items zijn afzonderlijke waarden voor een dimensie. Dimensie-items voor de afmetingen van de browser zijn bijvoorbeeld &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, enzovoort. |
-| [!UICONTROL Metric] | De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc. |
-| [!UICONTROL Visualization] | Werkruimte biedt [een aantal visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) om visuele weergaven van uw gegevens te maken, zoals staafdiagrammen, donutgrafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen en andere. |
-| [!UICONTROL Dimension Breakdown] | Een afbraak van dimensies is een manier om een dimensie letterlijk op andere dimensies in te delen. In ons voorbeeld kunt u de VS-staten opsplitsen op mobiele apparaten om de bezoeken aan mobiele apparaten per status op te halen, of u kunt mobiele apparaten opsplitsen op typen mobiele apparaten, op regio&#39;s, op interne campagnes, enz. |
-| [!UICONTROL Segment] | Met segmenten kunt u subsets van bezoekers identificeren op basis van kenmerken of interacties van websites. U kunt bijvoorbeeld [!UICONTROL Visitor] segmenten op basis van kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of op basis van interacties: campagnes, sleutelwoordonderzoek, onderzoeksmotor, of gebaseerd op uitgang en ingangen: bezoekers uit Facebook, een gedefinieerde landingspagina, een verwijzend domein of gebaseerd op aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
+| **[!UICONTROL Dimension]** | Dimensionen zijn beschrijvingen of kenmerken van metrische gegevens die kunnen worden bekeken, opgesplitst en vergeleken in een project. Het zijn niet-numerieke waarden en datums die worden opgesplitst in dimensie-items. Bijvoorbeeld, *browser* of *pagina* is een afmeting. |
+| **[!UICONTROL Dimension item]** | Items van een Dimension zijn afzonderlijke waarden voor een dimensie. Bijvoorbeeld, zouden de afmetingspunten voor de browser afmeting *Chrome* zijn, *Firefox*, *Edge*, of anderen. |
+| **[!UICONTROL Metric]** | De metriek zijn kwantitatieve informatie over persoonactiviteit, zoals meningen, klik-door, herladingen, gemiddelde tijd besteed, eenheden, orden, opbrengst, etc. |
+| **[!UICONTROL Visualization]** | Workspace biedt [ een aantal visualisaties ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) aan om visuele vertegenwoordiging van uw gegevens te bouwen. Bijvoorbeeld staafgrafieken, donutgrafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen en andere. |
+| **[!UICONTROL Dimension Breakdown]** | Een uitsplitsing naar dimensie is een manier om een dimensie naar andere dimensies uit te splitsen. U kunt bijvoorbeeld de VS-staten opdelen door Mobiele apparaten om de bezoeken aan mobiele apparaten per status op te halen. Of u kunt mobiele apparaten onderbreken op typen mobiele apparaten, op regio&#39;s, op interne campagnes en nog veel meer. |
+| **[!UICONTROL Segments]** | Met segmenten kunt u subsets van personen identificeren op basis van eigenschappen of interacties op websites. U kunt bijvoorbeeld [!UICONTROL Visitor] -segmenten maken op basis van <li>kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of</li><li>interacties: campagnes, sleutelwoordzoeker, zoekmachine, of</li><li>uitgangen en ingangen: bezoekers uit Facebook, een bepaalde landingspagina, een verwijzend domein, of</li><li> aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
 
-## Aan de slag met Quick Insights
+## Gebruiken
 
-1. Meld u aan bij Adobe Analytics met de gegevens die u hebt ontvangen.
-1. Ga naar [!UICONTROL Workspace] en klik op **[!UICONTROL Create New Project]** en klik vervolgens op **[!UICONTROL Quick Insights]**. (U kunt dit deelvenster ook openen via het dialoogvenster **[!UICONTROL Panel]** in de linkerspoorstaaf.)
+Een deelvenster **[!UICONTROL Quick insights]** gebruiken:
 
-   ![](assets/qibuilder.png)
+1. Maak een deelvenster **[!UICONTROL Quick insights]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
 
-   ![](assets/qi-panel.png)
+1. Wanneer u een **[!UICONTROL Quick insights]** -deelvenster voor het eerst gebruikt, wilt u wellicht de korte [!UICONTROL Intro tutorial] doorlopen die u een aantal basisbeginselen leert. Selecteer ![ HelpOutline ](/help/assets/icons/HelpOutline.svg) naast de Snelle titel van het deelvenster Inzichten en selecteer **[!UICONTROL Intro tutorial]** van popup.
 
-1. Wanneer u voor het eerst begint, doorloopt u de korte zelfstudie die u een aantal van de [!UICONTROL Quick Insights panel] basisbeginselen. Of klik op **[!UICONTROL Skip Tutorial]**.
-1. Selecteer uw bouwstenen (ook wel componenten genoemd): afmetingen (oranje), metriek (groen), segmenten (blauw), of datumwaaiers (paars) U moet minstens één afmeting en één metrisch selecteren voor een lijst die automatisch moet worden gebouwd.
+1. Specificeer de [ input ](#panel-input) voor het paneel.
 
-   ![](assets/qibuilder2.png)
-
-   U kunt de bouwstenen op drie manieren selecteren:
-   * Sleep en zet ze neer vanaf de linkerspoorstaaf.
-   * Als u weet wat u zoekt: Begin met typen en [!UICONTROL Quick Insights] vult de spaties voor u in.
-   * Klik op de vervolgkeuzelijst en zoek in de lijst.
-
-1. Wanneer u minstens één afmeting en één metrisch hebt toegevoegd, zal het volgende voor u worden gecreeerd:
-
-   * Een tabel met vrije vorm met de afmetingen (hier, Amerikaanse staten) verticaal en de metrische waarde (hier, Visit) horizontaal boven. Bekijk deze tabel:
-
-   ![](assets/qibuilder3.png)
-
-   * Een begeleidende visualisatie, in dit geval een [staafdiagram](/help/analyze/analysis-workspace/visualizations/bar.md). De gegenereerde visualisatie is gebaseerd op het type gegevens dat u aan de tabel hebt toegevoegd. Op tijd gebaseerde gegevens (zoals [!UICONTROL Visits] per dag/maand) standaardinstellingen [!UICONTROL Line] grafiek. Alle gegevens die niet op tijd zijn gebaseerd (zoals [!UICONTROL Visits] per [!UICONTROL Device]) is standaard ingesteld op een [!UICONTROL Bar] grafiek. U kunt het type visualisatie wijzigen door op de vervolgkeuzepijl naast het visualisatietype te klikken.
+1. Neem de [ output ](#panel-output) voor het paneel waar.
 
 
-1. (Optioneel) U kunt de dimensies uitvouwen en elementen van de dimensie bekijken door op de pijl-rechts naast de dimensie te klikken.
+### Deelvensterinvoer
 
-1. Voeg meer verfijningen toe zoals hieronder beschreven onder &quot;Meer tips.&quot;
+Selecteer uw bouwstenen:
 
-1. Uw project opslaan door op **[!UICONTROL Project > Save]**.
+* **[!UICONTROL Analyze]** - specificeer een afmeting (oranje)
+* **[!UICONTROL by]** - geef een metrische waarde op (groen)
+* **[!UICONTROL filter by]** - een segment opgeven (blauw)
+* **[!UICONTROL on]** - geef een datumbereik op (paars).
+
+U moet ten minste één afmeting en één metrisch selecteren om de visualisatie goed te laten functioneren.
+
+
+
+U kunt de bouwstenen op drie manieren specificeren:
+
+* Componenten slepen en neerzetten vanuit het linkerdeelvenster.
+* Begin in één van de bouwsteengebieden te typen. Wanneer invoer wordt gevonden, vult het bouwsteengebied met mogelijke waarden automatisch.
+* Specificeer een bouwsteendrop-down (bijvoorbeeld `Country` in **[!UICONTROL Analyze]**) en onderzoek de lijst van mogelijke waarde (gebruikend ![ ChevronRight ](/help/assets/icons/ChevronRight.svg)) voor de waarde u (bijvoorbeeld, **[!UICONTROL Country code]**) wilt gebruiken.
+
+Selecteer **[!UICONTROL Clear]** om alle invoervelden te wissen.
+
+
+### Deelvensteruitvoer
+
+1. Wanneer u minstens één afmeting en één metrisch hebt toegevoegd, kunt u de resultaten zien.
+
+   ![ de Freeform lijst die de afmeting verticaal en metrisch horizontaal toont.](assets/quick-insights-output.png)
+
+   * Een tabel met vrije vorm met de afmetingen ([!UICONTROL Country Site]) en metrisch ([!UICONTROL Visits]), gesegmenteerd door [!UICONTROL Visits] van [!UICONTROL Search Engines] for [!UICONTROL Last 12 months].
+
+   * Een begeleidende visualisatie, in dit geval a [ staafgrafiek ](/help/analyze/analysis-workspace/visualizations/bar.md). De gegenereerde visualisatie is gebaseerd op het type gegevens dat u aan de tabel hebt toegevoegd. Op tijd gebaseerde gegevens (zoals [!UICONTROL Visits] per dag/maand) worden standaard ingesteld op een [!UICONTROL Line] -diagram. Niet-tijdgebonden gegevens (zoals [!UICONTROL Visits] per [!UICONTROL Device] ) worden standaard omgezet in een [!UICONTROL Bar] -grafiek. U kunt het type visualisatie wijzigen door op de vervolgkeuzepijl naast het visualisatietype te klikken.
+
+1. Probeer toevoegend sommige meer verfijningen zoals hieronder beschreven onder [ Meer uiteinden ](#more-tips)
+
+1. Mogelijk wilt u uw project opslaan met **[!UICONTROL Project > Save]** .
 
 ## Meer tips
 
-Andere handige tips worden weergegeven in het dialoogvenster [!UICONTROL Quick Insights Builder], sommige afhankelijk van uw laatste handeling.
+Er verschijnen andere handige tips in de [!UICONTROL Quick Insights Builder] , waarvan sommige afhankelijk zijn van de laatste handeling.
 
-* Voer eerst de **[!UICONTROL More tips]** zelfstudie: Via de Help (?) pictogram naast [!UICONTROL Quick Insights] titel. Dit leerprogramma toont omhoog 24 uren nadat u een project met minstens één afmeting en één metrisch hebt gecreeerd.
+* Eerst wilt u mogelijk de zelfstudie van **[!UICONTROL More tips]** voltooien. Dit leerprogramma toont omhoog 24 uren nadat u een project met minstens één afmeting en één metrisch hebt gecreeerd. Selecteer ![ HelpOutline ](/help/assets/icons/HelpOutline.svg) naast de Snelle titel van het deelvenster Inzichten en selecteer **[!UICONTROL More tips]** van popup.
 
-   ![](assets/qibuilder4.png)
+  ![ het Snelle bericht van het Comité van Inzichten getoond nadat u het pictogram van de Hulp selecteert.](assets/qibuilder4.png)
 
-* **Uitsplitsing naar**: U kunt tot 3 niveaus van onderverdelingen op dimensies gebruiken om neer tot de gegevens te boren u echt nodig hebt.
+* U kunt meerdere dimensies en metriek analyseren, segmenten combineren of vergelijken en een datumbereik opgeven:
 
-   ![](assets/qibuilder5.png)
+  ![ het Resultaat van de Bouwer van Snelle Inzichten ](assets/qibuilder-result.png)
 
-* **Meer metriek toevoegen**: U kunt tot 2 meer metriek toevoegen door te gebruiken EN exploitant om hen toe te voegen de lijst.
+   * **[!UICONTROL Analyze]** afmetingen **[!UICONTROL Broken-Down by]** : u kunt maximaal 3 niveaus van onderverdelingen op dimensies gebruiken om naar de gegevens te gaan die u echt nodig hebt. Zie ➊, ➋ en ➌.
 
-   ![](assets/qibuilder6.png)
+   * Meer metriek toevoegen **[!UICONTROL by]**: u kunt maximaal twee metriek toevoegen. Zie ➍ en ➎.
 
-* **Meer segmenten toevoegen**: U kunt maximaal twee segmenten toevoegen door de operatoren AND of OR te gebruiken om ze aan de tabel toe te voegen. Kijk wat er met de tabel gebeurt wanneer u mobiele gebruikers OF koninklijke bezoekers toevoegt. Ze zijn naast elkaar, boven de metriek. Als u Mobiele Gebruikers EN Weergavebezoekers toevoegt, ziet u de resultaten van beide segmenten samen en worden deze op elkaar gestapeld in de tabel.
+   * **[!UICONTROL filter by]**: u kunt maximaal twee segmenten toevoegen. Bijvoorbeeld, voeg Boekingen als segment toe en combineer dat segment met de segmenten van Frequent Boeken en Eerste brochures u vergelijkt. Zie ➏, ➐ en ➑.
 
-   ![](assets/qibuilder7.png)
+   * op: U kunt het datumbereik opgeven. Zie ➒.
 
 ## Bekende beperkingen
 
-Als u rechtstreeks in de tabel probeert te bewerken, wordt de opdracht [!UICONTROL Quick Insights] niet meer gesynchroniseerd. U kunt de vorige versie herstellen [!UICONTROL Quick Insights] instellingen door te klikken **[!UICONTROL Resync Builder]** rechtsboven in het deelvenster.
+Als u probeert rechtstreeks in de tabel te bewerken, is het deelvenster [!UICONTROL Quick Insights] mogelijk niet meer synchroon. Selecteer **[!UICONTROL Resync Builder]** rechtsboven in het deelvenster om de vorige [!UICONTROL Quick Insights] -instellingen te herstellen.
 
-![](assets/qibuilder9.png)
+U krijgt een waarschuwing voordat u iets rechtstreeks aan de tabel toevoegt:
 
-Er verschijnt een waarschuwing voordat u iets rechtstreeks aan de tabel toevoegt:
+![ De de optieswaarschuwing van de Bouwer van de Wedersynchronisatie.](assets/qibuilder-outofsync.png)
 
-![](assets/qibuilder8.png)
+Anders, veroorzaakt het bouwen direct de lijst om zich als traditionele lijst van de Vrije vorm te gedragen, zonder de nuttige eigenschappen voor nieuwe gebruikers.
 
-Anders, zal het bouwen direct de lijst ertoe brengen om zich nu als traditionele lijst van de Vrije vorm te gedragen, zonder de nuttige eigenschappen voor nieuwe gebruikers.
+
+>[!MORELIKETHIS]
+>
+>[ creeer een paneel ](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>
+<!--
+# Quick Insights panel
+
+[!UICONTROL Quick Insights] provides guidance for non-analysts and new users of [!UICONTROL Analysis Workspace] to learn how to answer business questions quickly and easily. It is also a great tool for advanced users who want to answer a simple question quickly without having to build a table themselves.
+
+When you first start using this [!UICONTROL Analysis Workspace], you might wonder what visualizations would be most useful, which dimensions and metrics might facilitate insights, where to drag and drop items, where to create a segment, etc. 
+
+To help with this, and based on your own company's usage of data components in [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] leverages an algorithm that will present you with the most popular dimensions, metrics, segments, and date ranges your company uses. In fact, you will see dimensions, metrics, and segments tagged as [!UICONTROL Popular] in the drop-down list, as shown here:
+
+![](assets/popular-tag.png)
+
+[!UICONTROL Quick Insights] helps you
+
+* Properly build a data table and an accompanying visualization in [!UICONTROL Analysis Workspace].
+* Learn the terminology and vocabulary for basic components and pieces of [!UICONTROL Analysis Workspace].
+* Do simple breakdowns of dimensions, add multiple metrics, or compare segments easily within a [!UICONTROL Freeform table].
+* Change or try out various visualization types to find the find tool for your analysis quickly and intuitively.
+
+Here is a video overview of the [!UICONTROL Quick Insights] panel:
+
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
+
+## Basic key terminology
+
+Following are some of the basic terms you need to be familiar with. Each data table consists of 2 or more building blocks (components) that you utilize to tell your data story.
+
+|Building block (Component)|Definition|
+|---|---|
+|[!UICONTROL Dimension]|Dimensions are descriptions or characteristics of metric data that can be viewed, broken down, and compared in a project. They are non-numeric values and dates that break down into dimension items. For example, "browser", or "page" are dimensions.|
+|[!UICONTROL Dimension item]|Dimension items are individual values for a dimension. For example, dimension items for the browser dimension would be "Chrome", "Firefox", "Edge", etc.|
+|[!UICONTROL Metric]|Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.|
+|[!UICONTROL Visualization]|Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to build visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others.|
+|[!UICONTROL Dimension Breakdown]|A dimension breakdown is a way to literally break down a dimension by other dimensions. In our example, you could break down US States by Mobile Devices to get the mobile device visits per state, or you could break Mobile Devices down by Mobile Device types, by Regions, by Internal Campaigns, etc..|
+|[!UICONTROL Segment]|Segments let you identify subsets of visitors based on characteristics or website interactions. For example, you can build [!UICONTROL Visitor] segments based on attributes: browser type, device, number of visits, country, gender, or based on interactions: campaigns, keyword search, search engine, or based on exits and entries: visitors from Facebook, a defined landing page, referring domain, or based on custom variables: form field, defined categories, customer ID.  |
+
+## Get started with Quick Insights
+
+1. Log in to Adobe Analytics using the credentials you have been provided with.
+1. Go to [!UICONTROL Workspace] and click **[!UICONTROL Create New Project]** and then click **[!UICONTROL Quick Insights]**. (You can also access this panel from the **[!UICONTROL Panel]** menu in the left rail.)
+
+    ![](assets/qibuilder.png)
+
+    ![](assets/qi-panel.png)
+
+1. When you first start out, go through the short tutorial that teaches you some of the [!UICONTROL Quick Insights panel] basics. Or, click to **[!UICONTROL Skip Tutorial]**.
+1. Select your building blocks (also known as components): dimensions (orange), metrics (green), segments (blue), or date ranges (purple) You have to select at least one dimension and one metric for a table to be built automatically. 
+
+    ![](assets/qibuilder2.png)
+
+    You have three ways of selecting the building blocks:
+    * Drag and drop them from the left rail.
+    * If you know what you are looking for: Start typing and [!UICONTROL Quick Insights] will fill in the blanks for you.
+    * Click on the drop-down and search the list.
+
+1. When you have added at least one dimension and one metric, the following will be created for you:
+
+    * A Freeform table with the dimension (here, US States) vertically and the metric (here, Visits) horizontally at the top. Check out this table: 
+
+    ![](assets/qibuilder3.png)
+
+    * An accompanying visualization, in this case a [bar chart](/help/analyze/analysis-workspace/visualizations/bar.md). The visualization that is generated is based on the type of data you added to the table. Any time-based data (such as [!UICONTROL Visits] per Day/Month) defaults to a [!UICONTROL Line] chart. Any non-time-based data (such as [!UICONTROL Visits] per [!UICONTROL Device]) defaults to a [!UICONTROL Bar] chart. You can change the type of visualization by clicking on the drop-down arrow next to the visualization type.
+
+1. (Optional) Drill down on dimensions and see dimension items by clicking the > right-arrow next to the dimension.
+
+1. Try adding some more refinements as described below under "More tips."
+
+1. Save your project by clicking **[!UICONTROL Project > Save]**.
+
+## More tips
+
+Other useful hints will pop up in the [!UICONTROL Quick Insights Builder], some of them depending on your last action.
+
+* First, complete the **[!UICONTROL More tips]** tutorial: Access it via the Help (?) icon next to the [!UICONTROL Quick Insights] title. This tutorial shows up 24 hours after you have created a project with at least one dimension and one metric.
+
+    ![](assets/qibuilder4.png)
+
+* **Breakdown by**: You can use up to 3 levels of breakdowns on dimensions to drill down to the data you really need.
+
+    ![](assets/qibuilder5.png)
+
+* **Add more metrics**: You can add up to 2 more metrics by using the AND operator to add them the table.
+
+    ![](assets/qibuilder6.png)
+
+* **Add more segments**: You can add up to 2 more segments by using the AND or OR operators to add them the table. Look at what happens to the table when you add Mobile Users OR Loyal Visitors. They are next to each other, above the metrics. If you added Mobile Users AND Loyal Visitors, you would see results from both segments together, and they would be stacked on top of each other in the table.
+
+    ![](assets/qibuilder7.png)
+
+## Known limitations
+
+If you try to edit directly within the table, it will cause the [!UICONTROL Quick Insights] panel to become out of sync. You can restore it to the previous [!UICONTROL Quick Insights] settings by clicking **[!UICONTROL Resync Builder]** at the top right of the panel.
+
+ ![](assets/qibuilder9.png)
+
+You will get a warning before adding anything directly to the table:
+
+ ![](assets/qibuilder8.png)
+
+Otherwise, building directly will cause the table to now behave as a traditional Freeform table, without the helpful features for new users.
+
+-->

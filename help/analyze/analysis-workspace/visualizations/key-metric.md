@@ -4,14 +4,30 @@ title: Samenvatting van metrische sleutel
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 00276353ef5555955d9dc178c692da0dbfb7eac2
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
-# Samenvatting van metrische sleutel
+# Samenvatting van metrische sleutel {#key-metric-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_keymetricsummary_button"
+>title="Samenvatting van metrische sleutel"
+>abstract="Maak een visualisatie die een combinatie is van de diagrammen voor de regel, de samenvattingswijziging en het samenvattingsnummer. Gebruik deze visualisatie om te vergelijken hoe belangrijk de metriek tussen twee periodes trending."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de Zeer belangrijke metrische summiere visualisatie in **Adobe Analytics**.<br/> zie [ Belangrijke metrische samenvatting ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) voor de **Customer Journey Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 Met de [!UICONTROL Key metric summary] -visualisatie kunt u zien hoe een belangrijke metrische waarde binnen één tijdlijn trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
 

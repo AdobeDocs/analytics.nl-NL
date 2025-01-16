@@ -1,20 +1,35 @@
 ---
-description: Hiermee worden hiërarchische gegevens (in een boomstructuur) weergegeven als een set geneste rechthoeken.
-title: Boomstructuur
+description: Hiermee worden hiërarchische gegevens (met structuur van structuur) weergegeven als een set geneste rechthoeken.
+title: Treemap
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 78%
+source-wordcount: '134'
+ht-degree: 42%
 
 ---
 
-# [!UICONTROL Treemap]
+# [!UICONTROL Treemap] {#treemap}
 
-Hiermee worden hiërarchische gegevens (in een boomstructuur) weergegeven als een set geneste rechthoeken.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_treemap_button"
+>title="Treemap"
+>abstract="Maak een treemapvisualisatie om hiërarchische (gestructureerde) gegevens met geneste rechthoeken weer te geven."
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de visualisatie van de Treemap in **Adobe Analytics**.<br/> zie [ Treemap ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap) voor de **Customer Journey Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
+
+Hiermee worden hiërarchische gegevens (met structuur van structuur) weergegeven als een set geneste rechthoeken.
 
 Hier is een video over de [!UICONTROL Treemap] visualisatie:
 

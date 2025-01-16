@@ -5,40 +5,56 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
 
-# Lijn
+# Lijn {#line}
 
-De [!UICONTROL Line] visualisatie vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. A [!UICONTROL Line] grafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
+<!-- markdownlint-disable MD034 -->
 
-![Lijnvisualisatie](assets/line-viz.png)
+>[!CONTEXTUALHELP]
+>id="workspace_line_button"
+>title="Lijn"
+>abstract="Creeer een lijnvisualisatie die toont hoe de waarden over een periode veranderen. Een lijnvisualisatie kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt."
 
-Klik op het tandwielpictogram rechtsboven in het dialoogvenster [!UICONTROL Line] visualisatie voor toegang [**Visualisatie-instellingen**](freeform-analysis-visualizations.md) beschikbaar. Instellingen worden gecategoriseerd in:
+<!-- markdownlint-enable MD034 -->
 
-* **Algemeen**: Instellingen die gemeenschappelijk zijn voor verschillende visualisatietypen
-* **As**: Instellingen die van invloed zijn op de x- of y-as van de lijnvisualisatie
+
+>[!BEGINSHADEBOX]
+
+*dit artikel documenteert de visualisatie van de Lijn in **Adobe Analytics**.<br/> zie [ Lijn ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line) voor de **Customer Journey Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
+
+De [!UICONTROL Line] visualisatie vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een [!UICONTROL Line] -grafiek kan alleen worden gebruikt wanneer de tijd als dimensie wordt gebruikt.
+
+](assets/line-viz.png) visualisatie van de lijn 0}![
+
+Klik op het tandwielpictogram in het hoogste recht van [!UICONTROL Line] visualisatie om tot [**beschikbare de montages van de Visualisatie**](freeform-analysis-visualizations.md) toegang te hebben. De instellingen worden gecategoriseerd in:
+
+* **Algemeen**: Montages die over visualisatietypen gemeenschappelijk zijn
+* **As**: Montages die de x- of y-as van de lijnvisualisatie beïnvloeden
 * **Bedekkingen**: Opties om extra context aan de reeks toe te voegen die in uw lijnvisualisatie wordt getoond.
 
-![Visualisatie-instellingen](assets/viz-settings-modal.png)
+![ Visualisatie montages ](assets/viz-settings-modal.png)
 
 ## Korreligheid wijzigen
 
-Een granulariteit-vervolgkeuzelijst in het dialoogvenster [visualisatie-instellingen](freeform-analysis-visualizations.md) Hiermee kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) van dag naar week wijzigen in maand enz. De granulariteit wordt ook bijgewerkt in de gegevensbrontabel.
+Een granularity drop-down in de [ visualisatie montages ](freeform-analysis-visualizations.md) laat u een trended visualisatie (b.v. lijn, bar) van dagelijks aan wekelijks aan maandelijks veranderen, enz. De granulariteit wordt ook bijgewerkt in de gegevensbrontabel.
 
 ## min of max tonen
 
-Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]** kunt u een minimum- en maximumwaarde-label bedekken om de pieken en dalen snel in een metrische kleur te markeren. Opmerking: De min/max-waarden worden afgeleid van de zichtbare gegevenspunten in de visualisatie, niet van de volledige reeks waarden binnen een dimensie.
+Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]** kunt u een minimum- en maximumwaarde-label bedekken om snel de pieken en dalen in een metrische kleur te markeren. Opmerking: de min/max-waarden worden afgeleid van de zichtbare gegevenspunten in de visualisatie, niet van de volledige reeks waarden binnen een dimensie.
 
-![min/max tonen](assets/min-max-labels.png)
+![ toon min/max ](assets/min-max-labels.png)
 
 ## Trendline-bedekking tonen
 
-Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, kunt u een regressie of bewegende gemiddelde trendline aan uw lijnreeks toevoegen. Met behulp van trendlines wordt een duidelijker patroon in de gegevens weergegeven.
+Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]** kunt u desgewenst een regressie of een gemiddelde trendline voor het verplaatsen van de reeks toevoegen. Met behulp van trendlines wordt een duidelijker patroon in de gegevens weergegeven.
 
 Hier volgt een video over het toevoegen van trendlines aan lijnvisualisaties:
 
@@ -46,9 +62,9 @@ Hier volgt een video over het toevoegen van trendlines aan lijnvisualisaties:
 
 >[!TIP]
 >
->Aanbevolen wordt trendlines toe te passen op gegevens die vandaag (gedeeltelijke gegevens) of toekomstige data niet omvatten, aangezien die de trendline zullen scheeftrekken. Als u echter datums in de toekomst wilt opnemen, verwijdert u nullen uit de gegevens om te voorkomen dat de gegevens gedurende die dagen worden schuingetrokken. Om dit te doen, ga naar de gegevensbronlijst van de visualisatie, kies uw metrische kolom, dan laat toe **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]**.
+>Aanbevolen wordt trendlines toe te passen op gegevens die vandaag (gedeeltelijke gegevens) of toekomstige data niet omvatten, aangezien die de trendline zullen scheeftrekken. Als u echter datums in de toekomst wilt opnemen, verwijdert u nullen uit de gegevens om te voorkomen dat de gegevens gedurende die dagen worden schuingetrokken. Ga hiertoe naar de gegevensbrontabel van de visualisatie, kies de metrische kolom en schakel vervolgens **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]** in.
 
-![Lineaire trendlijn](assets/show-linear-trendline.png)
+![ Lineaire trendline ](assets/show-linear-trendline.png)
 
 Alle trendlines van het regressiemodel zijn geschikt gebruikend gewone minste vierkanten:
 

@@ -4,14 +4,24 @@ title: Overzicht van kalender- en datumbereiken
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
 
-# Overzicht van kalender- en datumbereiken
+# Overzicht van kalender- en datumbereiken {#date-range}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_dateranges_endtime"
+>title="Eindtijd"
+>abstract="Eindtijden omvatten altijd 59 seconden."
+
+<!-- markdownlint-enable MD034 -->
+
 
 In de kalender kunt u datums en datumbereiken opgeven of een voorinstelling selecteren.
 

@@ -1,17 +1,33 @@
 ---
-description: Gebruik de fallout visualisatie in een project van de Werkruimte.
+description: Gebruik de fallout visualisatie in een Workspace-project.
 title: Overzicht van uitval
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 4%
+source-wordcount: '263'
+ht-degree: 2%
 
 ---
 
-# Overzicht van uitval
+# Overzicht van uitval {#fallout-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_button"
+>title="Fallout"
+>abstract="Hiermee maakt u een visualisatie om te zien hoe mensen met succes naar de gewenste controlepunten kunnen gaan."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*dit artikel documenteert de visualisatie van de Uitval in **Adobe Analytics**.<br/> zie [ Uitval ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) voor de **Customer Journey Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 Vallout-visualisaties bieden meer opties voor het samenstellen van uw uitvalrapporten. Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen).
 

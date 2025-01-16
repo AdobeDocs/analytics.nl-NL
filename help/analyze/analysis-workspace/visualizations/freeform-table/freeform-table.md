@@ -1,48 +1,65 @@
 ---
-title: Vrije-vormentabel
-description: Freeform-tabellen vormen de basis voor gegevensanalyse in Workspace
+title: Vrije-vormtabel
+description: Vrije-vormtabellen vormen de basis voor gegevensanalyse in Workspace
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
 
-# Vrije-vormentabel
+# Vrije-vormtabel {#freeform-table-overview}
 
-In Analysis Workspace is een Freeform-tabel de basis voor interactieve gegevensanalyse. U kunt een combinatie van [componenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) in rijen en kolommen om een aangepaste tabel voor uw analyse te maken. Aangezien elke component wordt gelaten vallen, werkt de lijst onmiddellijk bij, zodat kunt u snel analyseren en dieper graven.
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_button"
+>title="Vrije-vormtabel"
+>abstract="Maak een lege visualisatie voor vrije tabellen die u kunt opbouwen met dimensies, segmenten, metriek en datumbereiken. U kunt de vrije-vormlijst als basis voor andere visualisaties gebruiken."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de Freeform lijstvisualisatie in **Adobe Analytics**.<br/> zie [ Vrije lijst ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) voor de **Customer Journey Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
+
+In Analysis Workspace is een Freeform-tabel de basis voor interactieve gegevensanalyse. U kunt een combinatie [ componenten ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) in rijen en kolommen slepen en laten vallen om een douanetabel voor uw analyse tot stand te brengen. Aangezien elke component wordt gelaten vallen, werkt de lijst onmiddellijk bij, zodat kunt u snel analyseren en dieper graven.
 
 ## Een eenvoudige tabel voor vrije vorm maken
 
 U begint met een lege Vrije-vormtabel.
 
-![Lege tabel voor vrije vorm](assets/freeform-table-1.png)
+![ Lege Vrije Lijst van de Vorm ](assets/freeform-table-1.png)
 
-Als u de **[!UICONTROL ** Bezoeken **]** metrisch op de **[!UICONTROL ** Een metrische waarde hier neerzetten (of een andere component)**]** wordt de tabel Vrije vorm automatisch gevuld met dagelijkse bezoeken voor de geselecteerde kalenderperiode.
+Als u de **[!UICONTROL ** bezoeken **]** metrisch op de **[!UICONTROL ** Daling hier metrisch (of een andere component) **]** laat vallen, bevolkt de Vrije Lijst automatisch met bezoeken per dag voor de kalenderperiode u selecteerde.
 
-![Visa Freeform Table](assets/freeform-table-2.png)
+![ bezoeken Vrije Lijst van de Vorm ](assets/freeform-table-2.png)
 
-Als u vervolgens de **[!UICONTROL ** Pagina **]** dimensie ter vervanging van de **[!UICONTROL ** Dag **]** De afmetingskolom, de lijst Freeform wijst automatisch op bezoeken voor elke pagina.
+Als u dan de **[!UICONTROL ** dimensie van de Pagina **]** laat vallen om de **[!UICONTROL ** 3} dimensie van de Dag te vervangen kolom, wijst de Freeform lijst automatisch op bezoeken voor elke pagina.**]**
 
-![Bezoeken op pagina Freeform-tabel](assets/freeform-table-3.png)
+![ bezoeken door de Lijst van de Vrije Vorm van de Pagina ](assets/freeform-table-3.png)
 
-Vervolgens kunt u bijvoorbeeld de opdracht **[!UICONTROL ** categorie:5 **]** pagina door de **[!UICONTROL ** Marketingkanaal **]** dimensie van de **[!UICONTROL ** categorie:5 **]** rij.
+U kunt dan onderbreken, bijvoorbeeld, de **[!UICONTROL ** categorie:5 **]** pagina door de **[!UICONTROL ** dimensie van het Kanaal van de Marketing **]** op de **[!UICONTROL ** categorie te laten vallen:5 **]** rij.
 
-![Hiermee gaat u naar de indeling naar tabel voor vrije vorm van pagina](assets/freeform-table-4.png)
+![ de Uitsplitsing van bezoeken door de Lijst van de Vrije Vorm van de Pagina ](assets/freeform-table-4.png)
 
 
 ## Geautomatiseerde tabellen
 
-Zoals hierboven geïllustreerd, is de snelste manier om een lijst te bouwen direct componenten in een leeg project, een paneel, of een vrije vormlijst te laten vallen. Een vrije-vormlijst zal automatisch voor u in een geadviseerde formaat worden gebouwd. [De zelfstudie bekijken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html).
+Zoals hierboven geïllustreerd, is de snelste manier om een lijst te bouwen direct componenten in een leeg project, een paneel, of een vrije vormlijst te laten vallen. Een vrije-vormlijst zal automatisch voor u in een geadviseerde formaat worden gebouwd. [ bekijk het leerprogramma ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html).
 
 ![](assets/automated-table.png)
 
-## Samenstellen van tabellen voor vrije vorm
+## Opbouwfunctie voor tabellen met vrije vorm
 
-Als u verkiest om verscheidene componenten aan uw lijst eerst toe te voegen, dan geef de gegevens terug, kunt u de Bouwer van de Lijst van de Vrije vorm toelaten. Als de builder is ingeschakeld, kunt u in vele dimensies, onderverdelingen, metriek en segmenten slepen en neerzetten om tabellen te maken die complexere vragen beantwoorden. Gegevens worden niet direct bijgewerkt, maar worden bijgewerkt wanneer u op **[!UICONTROL Build]**.
+Als u verkiest om verscheidene componenten aan uw lijst eerst toe te voegen, dan geef de gegevens terug, kunt u de Bouwer van de Lijst van de Vrije vorm toelaten. Als de builder is ingeschakeld, kunt u in vele dimensies, onderverdelingen, metriek en segmenten slepen en neerzetten om tabellen te maken die complexere vragen beantwoorden. Gegevens worden niet ter plekke bijgewerkt, maar worden bijgewerkt wanneer u op **[!UICONTROL Build]** klikt.
 
 ![](assets/table-builder.png)
 
@@ -51,25 +68,25 @@ Als u verkiest om verscheidene componenten aan uw lijst eerst toe te voegen, dan
 U kunt op verschillende manieren werken met een vrije-vormtabel en deze aanpassen:
 
 * **Rijen**
-   * U kunt meer rijen in één enkel scherm passen door het project aan te passen [weergavedichtheid](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html).
-   * Elke afmetingsrij kan tot 400 rijen tonen, alvorens paginering voorkomt. Klik op het nummer naast &quot;Rijen&quot; om meer rijen op een pagina weer te geven. Navigeer naar een andere pagina met de paginapijl in de koptekst.
-   * Rijen kunnen worden opgesplitst in extra componenten. Als u veel rijen tegelijk wilt splitsen, selecteert u gewoon meerdere rijen en sleept u de volgende component boven op de geselecteerde rijen. Meer informatie over [uitsplitsingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
-   * Rijen kunnen [gefilterd](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) om een beperkt aantal objecten weer te geven. Aanvullende instellingen zijn beschikbaar onder [Rijinstellingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
+   * U kunt meer rijen in één enkel scherm passen door de de meningsdichtheid van het project [ ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) aan te passen.
+   * Elke afmetingsrij kan tot 400 rijen tonen, alvorens paginering voorkomt. Klik op het nummer naast Rijen om meer rijen op een pagina weer te geven. Navigeer naar een andere pagina met de paginapijl in de koptekst.
+   * Rijen kunnen worden opgesplitst in extra componenten. Als u veel rijen tegelijk wilt splitsen, selecteert u gewoon meerdere rijen en sleept u de volgende component boven op de geselecteerde rijen. Leer meer over [ onderbrekingen ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
+   * De rijen kunnen [ worden gefiltreerd ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) om een verminderde reeks punten te tonen. De extra montages zijn beschikbaar onder [ montages van de Rij ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
 
 * **Kolommen**
    * Componenten kunnen in kolommen worden gestapeld om gesegmenteerde metriek, analyse op meerdere tabbladen en nog veel meer te maken.
-   * De weergave van elke kolom kan worden aangepast onder de [kolominstellingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html).
-   * Er zijn verschillende acties beschikbaar via de [rechtsklikken, menu](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html). Het menu bevat verschillende handelingen, afhankelijk van de vraag of u op de tabelkop, de rijen of de kolommen klikt.
+   * De mening van elke kolom kan onder de [ kolommontages ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) worden aangepast.
+   * Verscheidene acties zijn beschikbaar door het [ met de rechtermuisknop aanklikken menu ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html). Het menu bevat verschillende handelingen, afhankelijk van de vraag of u op de tabelkop, de rijen of de kolommen klikt.
 
 ## Gegevens vrije-vormentabel exporteren
 
-Meer informatie over alle gegevens [exportopties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) voor Analysis Workspace.
+Leer meer over alle gegevens [ uitvoeropties ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) voor Analysis Workspace.
 
-* Klikken met rechtermuisknop > **[!UICONTROL Copy data to clipboard]** exporteert de weergegeven tabelgegevens. Als een tabel is geselecteerd, wordt de volgende optie weergegeven **[!UICONTROL Copy selection to clipboard]**. De **Ctrl+C** hotkey kopieert ook geselecteerde gegevens.
-* Klikken met rechtermuisknop > **[!UICONTROL Download data as CSV]** Hiermee downloadt u de weergegeven tabelgegevens als een CSV-bestand. Als een tabel is geselecteerd, wordt de volgende optie weergegeven **[!UICONTROL Download selection as CSV]**.
-* Klikken met rechtermuisknop > **[!UICONTROL Project > Download items as CSV]** Hiermee exporteert u maximaal 50.000 dimensieitems voor de geselecteerde dimensie.
+* Klik met de rechtermuisknop > **[!UICONTROL Copy data to clipboard]** om de weergegeven tabelgegevens te exporteren. Als een tabel is geselecteerd, staat de optie **[!UICONTROL Copy selection to clipboard]** . De **Ctrl+C** hotkey kopieert ook geselecteerde gegevens.
+* Klik met de rechtermuisknop > **[!UICONTROL Download data as CSV]** om de weergegeven tabelgegevens te downloaden als een CSV-bestand. Als een tabel is geselecteerd, staat de optie **[!UICONTROL Download selection as CSV]** .
+* Klik met de rechtermuisknop > **[!UICONTROL Project > Download items as CSV]** exporteert maximaal 50.000 dimensieitems voor de geselecteerde dimensie.
 
-Meer informatie over alle gegevens [exportopties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) voor Analysis Workspace.
+Leer meer over alle gegevens [ uitvoeropties ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) voor Analysis Workspace.
 
 ![](assets/export-options.png)
 

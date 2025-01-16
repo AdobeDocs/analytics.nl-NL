@@ -1,18 +1,39 @@
 ---
-description: Gebruik de stroomvisualisatie in een project van de Werkruimte.
+description: Gebruik de stroomvisualisatie in een project van Workspace.
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# Overzicht van stroom
+# Overzicht van stroom {#flow}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_button"
+>title="Stroom"
+>abstract="Maak een visualisatie om de stroom van personen van het ene controlepunt naar het volgende te bekijken."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_panel"
+>title="Stroom"
+>abstract="Analyseer de stroom van bezoeken of bezoekers van één aanraakpunt aan volgende.<br/><br/>**Parameters **<br/>**Begint met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste het voorkomen touchpoints na het voorkomen van de geselecteerde component te zien.<br/>**bevat**: Voeg een afmeting of een afmetingspunt toe om de hoogste het voorkomen aanraakpunten vóór en na het voorkomen van de geselecteerde component te zien.<br/>**eindigt met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste voordien touchpoints vóór het voorkomen van de geselecteerde component te zien.<br/>**het Schilderen afmeting**: Voeg een afmeting toe om als uw weg te gebruiken die aan of van uw geselecteerde component leidt te gaan."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de visualisatie van de Stroom in **Adobe Analytics**.<br/> zie [ Stroom ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) voor de **Customer Journey Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 De flowfunctie toont de paden van klanten via uw websites en apps.
 
@@ -28,17 +49,17 @@ Hier volgt een videozelfstudie over stroomvisualisatie:
 
 ## Inter-dimensionale stromen {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-U kunt de [stroom tussen dimensies](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mens, dan naar de afdeling van Schoenen kunnen gaan.
+U kunt de [ stroom tussen afmetingen ](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tonen. U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mens, dan naar de afdeling van Schoenen kunnen gaan.
 
 Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een dalingsstreek om die afmeting aan het diagram toe te voegen.
 
 ## Een stroomvisualisatie configureren
 
-Voor informatie over hoe te om een stroomvisualisatie te vormen, zie [Een stroomvisualisatie configureren](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+Voor informatie over hoe te om een stroomvisualisatie te vormen, zie [ een stroomvisualisatie ](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) vormen.
 
 ## De Diagrammen van de Stroom van de uitvoer als Deel van de Dossiers .CSV van het Project {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-De diagrammen van de stroom maken deel uit van het .CSV dossier van een project dat u kunt tot stand brengen door te gaan **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Op deze manier kunt u de stroomresultaten analyseren in Microsoft Excel (weergegeven als een tabel) of elders.
+Stroomdiagrammen maken deel uit van het CSV-bestand van een project dat u kunt maken door naar **[!UICONTROL Project]** > **[!UICONTROL Download CSV]** te gaan. Op deze manier kunt u de stroomresultaten analyseren in Microsoft Excel (weergegeven als een tabel) of elders.
 
 ## Uitbreiden bij stroomvisualisatie
 

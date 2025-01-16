@@ -5,41 +5,71 @@ keywords: Analysis Workspace;Segment-IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 4%
+source-wordcount: '1212'
+ht-degree: 0%
 
 ---
 
-# Overzicht van het vergelijkingspaneel voor segmenten
+# Overzicht van het vergelijkingspaneel voor segmenten {#segment-comparison-overview}
 
-Het vergelijkingspaneel Segment maakt deel uit van [Segment-IQ](../../segment-iq.md) dat ontdekt de statistisch meest significante verschillen tussen een onbeperkt aantal segmenten. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. Het ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel om het even welke segmenten overlappen.
+<!-- markdownlint-disable MD034 -->
 
-Hier volgt een video over het vergelijken van segmenten:
+>[!CONTEXTUALHELP]
+>id="workspace_segmentcomparison_button"
+>title="Segmentvergelijking"
+>abstract="Vergelijk snel twee segmenten over alle gegevenspunten om automatisch relevante verschillen te vinden"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_segmentcomparison_panel"
+>title="Het vergelijkingspaneel Segment"
+>abstract="Vergelijk snel twee segmenten in alle gegevenspunten om automatisch relevante verschillen te vinden.<br/><br/>**Parameters **<br/>**voegen een segment** toe: Het eerste segment u wilt analyseren.<br/>**vergelijk tegen**: Het tweede segment u tegen wilt vergelijken. Dit zal automatisch met *Eenieder anders* bevolken die het omgekeerde van uw eerste segment is. U kunt dit desgewenst vervangen door een ander segment.<br/>**Geavanceerde montages**: De capaciteit om componenten van worden geanalyseerd in de segmentvergelijking uit te sluiten."
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert het de vergelijkingspaneel van het Segment in ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/> er is geen gelijkwaardig paneel in ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.*
+
+>[!ENDSHADEBOX]
+
+Het de vergelijkingspaneel van het Segment is een hulpmiddeldeel van [ IQ van het Segment ](../../segment-iq.md) dat de statistisch meest significante verschillen onder een onbeperkt aantal segmenten ontdekt. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. Het ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel om het even welke segmenten overlappen.
+
++++ Hier volgt een video over het vergelijken van segmenten:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
-## Een vergelijkingspaneel voor segmenten maken
++++
 
-1. Meld u met uw Adobe ID aan bij [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
-1. Klik op het pictogram met 9 vierkantjes rechtsboven in het venster en klik vervolgens op het gekleurde Analytics-logo.
-1. Klik in de bovenste navigatiebalk op Workspace.
-1. Klik op de knop &#39;Create New Project&#39; (Nieuw project maken).
-1. Controleer of de optie voor &#39;Leeg project&#39; is geselecteerd in het modale pop-upmenu en klik vervolgens op Create (Maken).
-1. Klik op de knop Deelvensters aan de linkerkant en sleep het deelvenster Segmentvergelijking boven of onder het automatisch gemaakte deelvenster van de vrije-vormtabel.
+## Gebruiken
 
-   ![Vergelijken, deelvenster](assets/seg-compare-panel.png)
+Een deelvenster **[!UICONTROL Attribution]** gebruiken:
+
+1. Maak een deelvenster **[!UICONTROL Attribution]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](../panels.md#create-a-panel) creëren.
+
+1. Specificeer de [ input ](#panel-input) voor het paneel.
+
+1. Neem de [ output ](#panel-output) voor het paneel waar.
+
+
+
+### Deelvensterinvoer
+
+![ vergelijk paneel ](assets/seg-compare-panel.png)
 
 1. Selecteer segmenten die u wilt vergelijken en zet ze neer in het deelvenster.
 
-   ![Soorten publiek vergelijken](assets/compare-audiences.png)
+   ![ vergelijk publiek ](assets/compare-audiences.png)
 
-   Nadat u een segment naar het deelvenster hebt gesleept, wordt automatisch een [!UICONTROL 'Everyone Else'] segment dat iedereen NIET in het segment omvat u koos. Het is een vaak gebruikt segment in het vergelijkingspaneel, maar u kunt het wel verwijderen en een ander keuzesegment vergelijken.
+   Nadat u een segment naar het deelvenster hebt gesleept, maakt Analytics automatisch een [!UICONTROL 'Everyone Else'] -segment dat alle NOT-componenten bevat in het segment dat u hebt gekozen. Het is een vaak gebruikt segment in het vergelijkingspaneel, maar u kunt het wel verwijderen en een ander keuzesegment vergelijken.
 
-   ![Alle anderen](assets/everyone-else.png)
+   ![ iedereen anders ](assets/everyone-else.png)
 
-1. Als u hebt bepaald welke twee segmenten moeten worden vergeleken, klikt u op [!UICONTROL Build].
+1. Als u hebt bepaald welke twee segmenten moeten worden vergeleken, klikt u op [!UICONTROL Build] .
 
    Deze actie begint een achterste proces dat statistische verschillen tussen de twee geselecteerde segmenten en alle dimensies, metriek en andere segmenten zoekt. Een voortgangsbalk boven in het deelvenster geeft de resterende tijd aan totdat elke meting en dimensie wordt geanalyseerd. De meest gebruikte metriek, de afmetingen, en de segmenten worden voorrang gegeven aan looppas eerst zodat zijn de meest relevante resultaten op een geschikte manier teruggekeerd.
 
@@ -47,36 +77,36 @@ Hier volgt een video over het vergelijken van segmenten:
 
 Soms is het gewenst om bepaalde afmetingen, maateenheden of segmenten uit te sluiten van segmentvergelijkingen. U wilt bijvoorbeeld het segment &#39;Amerikaanse mobiele gebruikers&#39; vergelijken met &#39;Duitse mobiele gebruikers&#39;. Het zou niet zinvol zijn om geografische dimensies op te nemen, aangezien deze segmenten al deze verschillen inhouden.
 
-1. Klik op [!UICONTROL 'Show Advanced Options'].
-1. Sleep componenten die u wilt uitsluiten naar de [!UICONTROL Excluded Components] deelvenster.
+1. Klik op [!UICONTROL 'Show Advanced Options'] nadat de gewenste twee segmenten in het deelvenster zijn opgenomen.
+1. Sleep componenten die u wilt uitsluiten naar het deelvenster [!UICONTROL Excluded Components] .
 
-   ![Uitgesloten onderdelen](assets/excluded-components.png)
+   ![ Uitgesloten componenten ](assets/excluded-components.png)
 
-Klikken [!UICONTROL 'Set as default'] om uw huidige componenten in alle toekomstige segmentvergelijkingen automatisch uit te sluiten. Als u uitgesloten componenten wilt uitgeven, klik een componenttype, dan klik &quot;X&quot;naast een component om het in uw analyse opnieuw op te nemen. Klik op Alles wissen om alle componenten opnieuw op te nemen in de segmentvergelijking.
+Klik op [!UICONTROL 'Set as default'] om uw huidige componenten automatisch uit te sluiten bij alle toekomstige segmentvergelijkingen. Als u uitgesloten componenten wilt uitgeven, klik een componenttype, dan klik &quot;X&quot;naast een component om het in uw analyse opnieuw op te nemen. Klik op Alles wissen om alle componenten opnieuw op te nemen in de segmentvergelijking.
 
-![Uitgesloten afmetingen](assets/excluded-dimensions.png)
+![ Uitgesloten dimensies ](assets/excluded-dimensions.png)
 
-## Het bekijken van een rapport van de segmentvergelijking
+### Deelvensteruitvoer
 
-Nadat Adobe de twee gewenste segmenten heeft geanalyseerd, worden de resultaten van deze analyse in verschillende visualisaties weergegeven:
+Wanneer de Adobe klaar is met het analyseren van de twee gewenste segmenten, worden de resultaten ervan in verschillende visualisaties weergegeven:
 
-![Visualisaties 1](assets/new-viz.png)
+![ Visualisaties 1 ](assets/new-viz.png)
 
-![Visualisaties 2](assets/new-viz2.png)
+![ Visualisaties 2 ](assets/new-viz2.png)
 
-### Grootte en overlapping
+#### Grootte en overlapping
 
 Hiermee worden de relatieve grootten van elk geselecteerd segment en de mate waarin ze met elkaar overlappen, geïllustreerd met behulp van een vlinderdiagram. U kunt de muisaanwijzer boven het visuele gedeelte plaatsen om te zien hoeveel bezoekers zich in elke overlappende of niet-overlappende sectie bevonden. U kunt ook met de rechtermuisknop op de overlapping klikken om een gloednieuw segment te maken voor verdere analyse. Als de twee segmenten elkaar uitsluiten, wordt geen overlapping getoond tussen de twee cirkels (typisch gezien met segmenten gebruikend een klapcontainer).
 
-![Grootte en overlapping](assets/size-overlap.png)
+![ Grootte en overlapping ](assets/size-overlap.png)
 
-### Samenvattingen van de populatie
+#### Samenvattingen van de populatie
 
 Rechts van de visualisatie Grootte en Overlap wordt het totale aantal unieke bezoekers in elk segment en de overlapping weergegeven.
 
-![Samenvattingen van de populatie](assets/population_summaries.png)
+![ samenvattingen van de Bevolking ](assets/population_summaries.png)
 
-### Metrische gegevens bovenaan
+#### Metrische gegevens bovenaan
 
 Geeft de statistisch meest significante cijfers weer tussen de twee segmenten. Elke rij in deze tabel vertegenwoordigt een differentiërende metrische waarde, gerangschikt op basis van de verschillen tussen de segmenten. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
 
@@ -86,33 +116,33 @@ Deze visualisatie lijkt op vrije-vormtabellen in Analysis Workspace. Als u een d
 >
 >De metriek die aan deze lijst wordt toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
 
-![Metrische gegevens bovenaan](assets/top-metrics.png)
+![ Hoogste metriek ](assets/top-metrics.png)
 
-### Metrisch in de tijd per segment
+#### Metrisch in de tijd per segment
 
-Rechts van de tabel Metriek bevindt zich een gekoppelde visualisatie. U kunt een lijnpunt in de lijst op de linkerzijde klikken, en deze visualisatie werkt bij om te tonen dat metrisch in tijd trended.
+Rechts van de tabel Metriek bevindt zich een gekoppelde visualisatie. U kunt op een regelitem in de tabel aan de linkerkant klikken en deze visualisatie wordt bijgewerkt om aan te geven dat metrische waarden in de loop der tijd zijn trended.
 
-![Bovenste metrische regel](assets/linked-viz.png)
+![ Hoogste metrieklijn ](assets/linked-viz.png)
 
-### Bovenste afmetingen
+#### Bovenste afmetingen
 
-Toont de statistisch meest significante afmetingspunten over al uw dimensies. Elke rij toont het percentage van elk segment dat dit afmetingspunt tentoonstelt. Deze tabel kan bijvoorbeeld laten zien dat 100% van de bezoekers in &#39;Segment A&#39; het afmetingitem &#39;Browsertype: Google&quot;, terwijl slechts 19,6% van &quot;Segment B&quot; dit aspect had. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
+Toont de statistisch meest significante afmetingspunten over al uw dimensies. Elke rij toont het percentage van elk segment dat dit afmetingspunt tentoonstelt. Deze tabel laat bijvoorbeeld zien dat 100% van de bezoekers in &#39;Segment A&#39; het dimensie-item &#39;Browsertype: Google&#39; had, terwijl slechts 19,6% van &#39;Segment B&#39; dit dimensie-item had. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
 
 Deze visualisatie lijkt op vrije-vormtabellen in Analysis Workspace. Als u een diepgaande analyse van een specifiek dimensie-item wilt uitvoeren, plaatst u de muisaanwijzer boven een lijstitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om dat specifieke dimensie-item te analyseren. Als een dimensie-item irrelevant is voor uw analyse, plaatst u de muisaanwijzer boven het lijstitem en klikt u op de X-toets om het item te verwijderen.
 
 >[!NOTE]
 >
->De punten van Dimension die aan deze lijst worden toegevoegd nadat de segmentvergelijking heeft gebeëindigd ontvangen geen Score van het Verschil.
+>De punten van het Dimension die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
 
-![Bovenste afmetingen](assets/top-dimension-item1.png)
+![ Hoogste afmetingen ](assets/top-dimension-item1.png)
 
-### Dimension-items per segment
+#### Items Dimensionen per segment
 
 Rechts van de tabel met afmetingen bevindt zich een gekoppelde staafdiagramvisualisatie. Het toont alle getoonde afmetingspunten in een staafdiagram. Als u op een regelitem in de tabel links klikt, wordt de visualisatie rechts bijgewerkt.
 
-![Bovenste dimensiebalkdiagram](assets/top-dimension-item.png)
+![ Hoogste grafiek van de dimensiebar ](assets/top-dimension-item.png)
 
-### Bovenste segmenten
+#### Bovenste segmenten
 
 Geeft aan welke andere segmenten (behalve de twee segmenten die ter vergelijking zijn geselecteerd) statistisch significant overlappen. Deze tabel kan bijvoorbeeld laten zien dat een derde segment, &#39;Bezoekers herhalen&#39;, sterk overlapt met &#39;Segment A&#39;, maar niet overlapt met &#39;Segment B&#39;. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
 
@@ -122,10 +152,10 @@ Deze visualisatie lijkt op vrije-vormtabellen in Analysis Workspace. Als u een d
 >
 >De segmenten die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
 
-![Bovenste segmenten](assets/top-segments.png)
+![ Hoogste segmenten ](assets/top-segments.png)
 
-### Segmentoverlapping
+#### Segmentoverlapping
 
-Rechts van de segmenttabel bevindt zich een gekoppelde venn-schemavisualisatie. Het toont het statistisch meest significante segment dat op uw vergeleken segmenten wordt toegepast. Bijvoorbeeld &#39;Segment A&#39; + &#39;Statistisch significant segment&#39; vs. &quot;Segment B&quot; + &quot;Statistisch significant segment&quot;. Wanneer u op een segmentregelitem in de tabel links klikt, wordt het vlinderdiagram rechts bijgewerkt.
+Rechts van de segmenttabel bevindt zich een gekoppelde venn-schemavisualisatie. Het toont het statistisch meest significante segment dat op uw vergeleken segmenten wordt toegepast. Bijvoorbeeld &#39;Segment A&#39; + &#39;Statistisch significant segment&#39; vs. &#39;Segment B&#39; + &#39;Statistisch significant segment&#39;. Wanneer u op een segmentregelitem in de tabel links klikt, wordt het vlinderdiagram rechts bijgewerkt.
 
-![Bovenste segmenten vgn. diagram](assets/segment-overlap.png)
+![ Hoogste segmenten venn diagram ](assets/segment-overlap.png)

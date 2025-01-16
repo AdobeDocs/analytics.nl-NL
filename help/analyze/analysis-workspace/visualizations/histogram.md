@@ -5,16 +5,33 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-# Histogram
+# Histogram {#histogram}
 
-Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers). Analytics automatiseert de &#39;bucketing&#39; van getallen in bereiken, maar u kunt de instellingen wijzigen in [Geavanceerde instellingen](#section_09D774C584864D4CA6B5672DC2927477).
+arkdownlint-disable MD034 —>
+
+>[!CONTEXTUALHELP]
+>id="workspace_histogram_button"
+>title="Histogram"
+>abstract="Maak een histogramvisualisatie om de distributie van numerieke gegevens in groepen bereiken weer te geven."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de visualisatie van de Histogram in **Adobe Analytics**.<br/> zie [ Histogram ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) voor de **Customer Journey Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
+
+
+Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers). De analyse automatiseert het &quot;knippen&quot;van aantallen in waaiers, maar u kunt de montages in [ Geavanceerde Montages ](#section_09D774C584864D4CA6B5672DC2927477) veranderen.
 
 Hier volgt een video over het gebruik van histogrammen:
 
@@ -24,9 +41,9 @@ Hier volgt een video over het gebruik van histogrammen:
 
 Een histogram maken:
 
-1. Klikken **[!UICONTROL Visualizations]** in het linkerspoor.
-1. Slepen **[!UICONTROL Histogram]** in het deelvenster.
-1. Kies een metrisch teken om naar de histogramvisualisatie te slepen en klik op **[!UICONTROL Build]**.
+1. Klik op **[!UICONTROL Visualizations]** in de linkertrack.
+1. Sleep **[!UICONTROL Histogram]** naar het deelvenster.
+1. Kies een metrisch teken dat u naar de histogram wilt slepen en klik op **[!UICONTROL Build]** .
 
 ![](assets/histogram.png)
 
@@ -47,18 +64,18 @@ Als u uw histogram-instellingen wilt aanpassen, klikt u op het pictogram Instell
 | Emmertje starten | Hiermee bepaalt u met welk emmertje het histogram begint. &quot;1&quot; is de standaardwaarde. U kunt begingetallen instellen van 0 tot oneindig (geen negatieve getallen). |
 | Metrische emmertjes | Hiermee kunt u het aantal gegevensbereiken (emmers) vergroten/verkleinen. Het maximumaantal emmers is 50. |
 | Grootte van metrisch emmertje | Hiermee kunt u de grootte van elk emmertje instellen. U kunt bijvoorbeeld de emmergrootte wijzigen van de paginaweergave 1 in de weergave van 2 pagina&#39;s. |
-| Telmethode | Hiermee kunt u kiezen uit [Bezoeker](/help/components/metrics/unique-visitors.md), [Bezoek](/help/components/metrics/visits.md), of [Type hit](/help/components/dimensions/hit-type.md). Paginaweergaven per bezoek of pagina per bezoeker of pagina worden bijvoorbeeld weergegeven per hit. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel. |
+| Telmethode | Laat u onder [ Bezoeker ](/help/components/metrics/unique-visitors.md) kiezen, [ Bezoek ](/help/components/metrics/visits.md), of [ Type van Actief ](/help/components/dimensions/hit-type.md). Paginaweergaven per bezoek of pagina per bezoeker of pagina worden bijvoorbeeld weergegeven per hit. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
 **Voorbeelden**:
 
-* Emmertje starten: 1; Metrische emmers: 5; Grootte metrische Emmertje: 2 resulteert in dit histogram: 1-2, 3-4, 5-6, 7-8, 9-10.
-* Emmertje starten: 0; Metrische emmers: 3. Grootte metrische Emmertje: 5 resulteert in dit histogram: 0-4, 5-9, 10-14
+* Startemmertje: 1; Metrische emmers: 5; Metrische Emmergrootte: 2 resulteert in dit histogram: 1-2, 3-4, 5-6, 7-8, 9-10.
+* Startemmertje: 0; Metrische emmers: 3; Metrische Emmergrootte: 5 resulteert in dit histogram: 0-4, 5-9, 10-14
 
 ## Histogramgegevens weergeven en bewerken {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-Als u de gegevensbron voor het histogramdiagram wilt weergeven of wijzigen, klikt u op de punt naast de kop van het histogram om naar **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
+Als u de gegevensbron voor het histogramdiagram wilt weergeven of wijzigen, klikt u op de punt naast de kop van het histogram om naar **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]** te gaan.
 
 ![](assets/manage-data-source.png)
 
@@ -66,4 +83,4 @@ Vooraf gebouwde segmenten die in de lijst verschijnen zijn interne segmenten en 
 
 ![](assets/prebuilt_segments.png)
 
-Ga voor meer manieren om gegevenstabellen en andere visualisaties in Freeform te beheren, zoals het uitvoeren van gegevensonderverdelingen, naar [hier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+Om meer manieren te onderzoeken om Vrije gegevenstabellen en andere visualisaties te beheren, zoals het doen van gegevensonderverdelingen, ga [ hier ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).

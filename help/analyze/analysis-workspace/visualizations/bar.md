@@ -1,20 +1,37 @@
 ---
-description: Gebruik de staafvisualisatie in een project van de Werkruimte.
-title: Balkgrafiek en gestapelde-balkgrafiek
+description: Gebruik de bar visualisatie in een project van Workspace.
+title: Stapel en balk gestapeld
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 8%
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 
-# Balkgrafiek en gestapelde-balkgrafiek
+# Stapel en balk gestapeld
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de Bar en de Bar gestapelde visualisaties in **Adobe Analytics**.<br/> zie [ Bar en bar gestapeld ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar) voor de **Customer Journey Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
+
+De staafvisualisatie heeft een standaard en gestapelde optie.
 
 ## Balk {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bar_button"
+>title="Balk"
+>abstract="Maak een staafvisualisatie om verschillende waarden voor een of meer meeteenheden weer te geven."
+
+<!-- markdownlint-enable MD034 -->
 
 Bij deze visualisatie worden verticale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen.
 
@@ -23,6 +40,15 @@ Bij deze visualisatie worden verticale balken weergegeven die verschillende waar
 Met een keuzelijst met granulariteit in de visualisatie-instellingen kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) wijzigen van dagelijks naar wekelijks, enz.
 
 ## Stapel gestapeld {#section_9EA83779AE964635907EE5031A785A49}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_barstacked_button"
+>title="Stapel gestapeld"
+>abstract="Maak een staafvisualisatie om verschillende waarden voor een of meer gestapelde metriek weer te geven."
+
+<!-- markdownlint-enable MD034 -->
 
 Deze visualisatie is als een staafdiagram, maar met de reeksstaven bovenop elkaar gestapeld.
 

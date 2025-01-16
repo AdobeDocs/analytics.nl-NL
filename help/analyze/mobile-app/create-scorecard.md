@@ -4,14 +4,21 @@ title: Mobiele scorecards maken en delen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2443'
 ht-degree: 0%
 
 ---
 
-# Een mobiele scorecard maken
+# Een mobiele scorecard maken {#create-a-mobile-scorecard}
+
+>[!CONTEXTUALHELP]
+>id="mobilescorecard_annotations"
+>title="Annotaties"
+>abstract="Annotaties kunnen worden gemaakt in de componentenbeheer van een werkruimteproject."
+
+<!-- markdownlint-enable MD034 -->
 
 De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over om mobiele scorecards voor uitvoerende gebruikers te vormen en voor te stellen. Om te beginnen kunt u de Adobe Analytics dashboards scorecard builder video bekijken:
 
