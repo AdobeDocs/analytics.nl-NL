@@ -4,15 +4,14 @@ title: Bullet
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 80e748c3e6e6610b5b34d64080db3b206feda92c
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 4%
+source-wordcount: '169'
+ht-degree: 3%
 
 ---
 
 # Bullet {#bullet-graph}
-
 
 <!-- markdownlint-disable MD034 -->
 
@@ -31,6 +30,12 @@ ht-degree: 4%
 >abstract="Creeer een visualisatie van de kogelgrafiek om te tonen hoe metrisch met, of maatregelen tegen, prestatieswaaiers (doelstellingen) vergelijkt."
 
 <!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*Dit artikel documenteert de Opsommingstekening in **Adobe Analytics**.<br/> zie [ Bullet ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) voor de **Customer Journey Analytics**versie van dit artikel.*
+
+>[!ENDSHADEBOX]
 
 Laat u zien hoe een waarde u in vergelijkt met of tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent.
 
