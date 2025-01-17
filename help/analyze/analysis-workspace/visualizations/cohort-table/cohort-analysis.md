@@ -4,9 +4,9 @@ description: Dig dieper in de gegevens rond uw publiek en onderbreek in verwante
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,9 @@ Video over Cohort-tabellen in Analysis Workspace:
 
 ## Cohortanalyse-mogelijkheden
 
-Met de volgende mogelijkheden kunt u de cohorten die u maakt, nauwkeurig instellen:
+De volgende secties beschrijven de eigenschappen van de Analyse van de Cohort die voor nauwkeurige controle over de cohorts toestaan u bouwt.
+
+Voor meer gedetailleerde informatie over het creëren van een cohort en het runnen van a [!UICONTROL Cohort Analysis] rapport, zie [ een rapport van de Analyse van de Cohort ](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) vormen.
 
 ### [!UICONTROL Retention] Tabel
 
@@ -103,5 +105,3 @@ Hiermee wordt de tijd gemeten die is verstreken vóór en na de opnemingsgebeurt
 Maak cohorten op basis van een geselecteerde afmeting en niet op basis van een tijd, de standaardinstelling. Gebruik afmetingen zoals [!UICONTROL marketing channel] , [!UICONTROL campaign] , [!UICONTROL product] , [!UICONTROL page] , [!UICONTROL region] of een andere dimensie in Adobe Analytics om te tonen hoe de retentie verandert op basis van de verschillende waarden van deze afmetingen.
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-Voor instructies op hoe te opstelling en een cohortrapport in werking te stellen, ga [ een rapport van de Analyse van de Cohort ](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) vormen.
