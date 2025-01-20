@@ -3,9 +3,10 @@ title: Sectiekop
 description: Een visualisatie die een sectiekop in uw Workspace-project opneemt.
 feature: Visualizations
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 0%
 >[!BEGINSHADEBOX]
 
 
-*Dit artikel documenteert de kopbal van de Sectie visualisatie in **Adobe Analytics**.<br/> zie [ kopbal van de Sectie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) voor de **Customer Journey Analytics**versie van dit artikel.*
+_dit artikel documenteert de kopbal van de Sectie visualisatie in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ kopbal van de Sectie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
