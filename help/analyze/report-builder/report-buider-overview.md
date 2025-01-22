@@ -5,9 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
+exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '527'
 ht-degree: 1%
 
 ---
@@ -20,10 +21,6 @@ De nieuwe toe:voegen-binnen van de Report Builder Javascript die aanvankelijk sl
 - Interplatformen: meld u niet meer aan bij uw VM om Report Builder te gebruiken terwijl we nu ondersteuning bieden voor PC, Mac en Excel Online
 - Minder tijd wachten op gegevensblokken om terug te keren, dankzij API 2.0-upgrade
 - Verbeterde snelheid
-
->[!NOTE]
->
->Het werkboek dat voor deze versie van de Report Builder op Adobe Analytics wordt gepland, is nog niet vrijgegeven maar zal begin 2025 beschikbaar zijn. U kunt nu aan de slag gaan met werkboeken waarvoor geen planning nodig is.
 
 De gebruikers van het hulpmiddel van de Report Builder van de Oudheid kunnen [ erfeniswerkboeken ](/help/analyze/report-builder/convert-workbooks.md) in de nieuwe Report Builder omzetten.
 
