@@ -4,9 +4,9 @@ title: Activity Map starten
 feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
-source-git-commit: ba10ceb73d953ff495613d02dd1ff825b6e518df
+source-git-commit: 5eca3d004fa46083ed15fe913163f10e63637c96
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,15 @@ ht-degree: 0%
 
 Ervan uitgaande dat correcte browser/de uitbreiding [ geïnstalleerd ](../getting-started.md) is, kunt u Activity Map van uw Web-pagina direct lanceren.
 
+**Google Chrome** is enige browser die de huidige versie van Activity Map steunt. Ondersteuning voor andere browsers is gepland.
+
+>[!IMPORTANT]
+>Controleer of u de nieuwste versie van de extensie hebt geïnstalleerd. Eerdere versies van de extensie werken niet meer omdat het beleid voor extensies in de browser is gewijzigd.
+
 ## Starten in Chrome
 
 1. Klik op het Chrome Extensions-pictogram rechtsboven.
 1. Klik op Activity Map.
-1. Aanmelden met uw profiel, gebruikersnaam en wachtwoord.
-1. De toepassing moet worden gestart en de werkbalk en bedekkingen moeten worden weergegeven.
+1. In de rechterbovenhoek wordt een pop-upvenster met aanmelding weergegeven.
+1. Meld u aan met uw gebruikersnaam, wachtwoord en organisatie.
+1. Zodra de bedekking is geverifieerd, wordt deze rechtsboven weergegeven.
