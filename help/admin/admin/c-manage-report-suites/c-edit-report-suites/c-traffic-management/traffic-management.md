@@ -1,22 +1,27 @@
 ---
-description: De pagina van het Beheer van het Verkeer laat u verwachte veranderingen van het verkeersvolume specificeren. Deze montages laten Adobe de aangewezen middelen toewijzen om ervoor te zorgen dat uw verkeer kan worden gevolgd en op tijd worden verwerkt.
+description: Met verkeersbeheer kunt u verwachte wijzigingen in het verkeersvolume opgeven.
 title: Verkeer beheren
 feature: Traffic Management
 role: Admin
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 41ca3fd05290df79bb0f113df462fdbe5e6a6720
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 1%
+source-wordcount: '93'
+ht-degree: 0%
 
 ---
 
-# Overzicht van verkeersbeheer
+# Verkeersbeheer
 
-De pagina van het Beheer van het Verkeer laat u verwachte veranderingen van het verkeersvolume specificeren. Deze montages laten Adobe de aangewezen middelen toewijzen om ervoor te zorgen dat uw verkeer kan worden gevolgd en op tijd worden verwerkt.
+Het rapport van het Verkeersbeheer door datumwaaier werd verouderd met [!DNL Reports & Analytics] afschrijving.
 
-Toegang tot [!UICONTROL Traffic Management]:
+U kunt echter Analysis Workspace gebruiken om het rapport te maken. Zodra uw rapport wordt gecreeerd, bewaar het en verander eenvoudig de datumwaaier en/of de rapportreeks wanneer u een nieuw rapport nodig hebt.
 
-1. Klikken **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]** en selecteer vervolgens een rapportsuite.
+1. Start Workspace.
 
-1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > *`<selection>`*.
+1. Maak een nieuw project en selecteer de gewenste rapportsuite.
+
+1. Sleep de **[!UICONTROL Day]** -dimensie naar de tabel voor vrije vorm en gebruik de **[!UICONTROL Occurrences]** -metrische waarde.
+
+1. Stel het datumbereik in op het gewenste datumbereik.
+
