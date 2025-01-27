@@ -5,13 +5,13 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
-
 
 # Oudere werkboeken voor Reporten Builder converteren naar databases
 
@@ -19,7 +19,7 @@ Als deel van de beweging aan een nieuwe technologie van de Report Builder, kunt 
 
 >[!IMPORTANT]
 >
->Dupliceer elk werkboek en noem één versie anders alvorens u het omzet. Zo, hebt u nog een exemplaar van het originele werkboek als u het nodig hebt.
+>Dupliceer elk werkboek en noem één versie anders alvorens u het omzet. Op die manier heb je nog steeds een kopie van het originele werkboek, mocht je het nodig hebben.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
 
@@ -55,7 +55,7 @@ Als deel van de beweging aan een nieuwe technologie van de Report Builder, kunt 
 U kunt [ het gegevensblok ](/help/analyze/report-builder/manage-reportbuilder.md) nu beheren.
 
 
-## Verouderde functies voor Report Builder worden niet ondersteund in de nieuwe Report Builder
+## Verouderde functies voor Report Builder worden niet ondersteund in de nieuwe Report Builder {#unsupported}
 
 Bij het vergelijken van de functionaliteit van verouderde Report Builder met de nieuwe Report Builder Add-in, is een deel van de oudere functionaliteit niet meer beschikbaar:
 
@@ -66,3 +66,7 @@ Bij het vergelijken van de functionaliteit van verouderde Report Builder met de 
 - FTP-optie voor geplande rapporten
 
 - Metrische gegevens van bezoekers. De volgende meetgegevens worden allemaal omgezet in &quot;unieke bezoekers&quot;, ook al is het mogelijk dat het rapportresultaat geen exacte overeenkomst is: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` en `visitorsyearly` . Dit geldt ook voor `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` en `mobilevisitorsyearly` .
+
+## Een omgezet werkboek plannen {#schedule}
+
+Zie [ Plan een omgezet werkboek ](/help/analyze/report-builder/schedule-reportbuilder.md) in het plannen artikel.

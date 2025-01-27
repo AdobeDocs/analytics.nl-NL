@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: d7beee25af3551426eb905f0e727545de068b2d9
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '878'
 ht-degree: 2%
 
 ---
@@ -26,27 +26,27 @@ Deze releaseopmerkingen betreffen de releaseperiode van 15 januari tot medio feb
 
 ## Oplossingen in Adobe Analytics
 
-A4T: AN-355602; AN-365988
-Activity Map: AN-365320
-Admin Console: AN-363884
-Hulpmiddelen Admin: AN-356747; AN-358776
-Advertising Analytics: AN-355488
-Analysis Workspace: AN-345318; AN-354801; AN-357052; AN-358975; AN-362886; AN-363831; AN-364124; AN-365257; AN-365319; AN-365462
-Analytics 1.4 API: AN-358059
-Classificaties: AN-360049; AN-360424; AN-362208; AN-362345; AN-362560; AN-362576; AN-36263 AN-362653; AN-362762; AN-362815; AN-362881; AN-362885; AN-362973; AN-36343; AN; 363558; AN-363860; AN-364239; AN-364480; AN-364451; AN-364528; AN-364548; AN-3 364552; AN-364585; AN-364598; AN-364715; AN-364912; AN-364997; AN-365189; AN-36 5197; AN-365203; AN-365431; AN-365647; AN-365794;
-Componentmigratie: AN-362236; AN-365429
-Bijdrage-analyse: AN-360146
-Gegevensinvoer: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; AN-36356 9; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; AN-364594; AN-364995; AN-365272; AN-365519; AN-365760; AN-366152;
-API voor gegevensherstel: AN-362773; AN-362874
-Gegevensbronnen: AN-360745; AN-362202; AN-364566
-Data Warehouse: AN-361447; AN-362616; AN-364524; AN-365108
-Mobile App: AN-362856; AN-365270
-Oplopende waarschuwingen: AN-355594; AN-364547
-Platform: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
-Report Builder: AN-363478; AN-364433; AN-365610
-Rapportage Activity Manager: AN-362440
-Segmentatie: AN-359921
-VISTA-regels: AN-362927
+**A4T**: AN-355602; AN-365988
+**Activity Map**: AN-365320
+**Admin Console**: AN-363884
+**Hulpmiddelen Admin**: AN-356747; AN-358776
+**Advertising Analytics**: AN-355488
+**Analysis Workspace**: AN-345318; AN-354801; AN-357052; AN-358975; AN-362886; AN-363831; AN-3 64124; AN-365257; AN-365319; AN-365462; AN-366194
+**Analytics 1.4 API**: AN-358059
+**classificaties**: AN-360049; AN-360424; AN-360745; AN-362208; AN-362345; AN-362560; AN-3 AN-362633; AN-362653; AN-362653; AN-362762; AN-362815; AN-362881; AN-36285; AN-36 2973; AN-363343; AN-363558; AN-363860; AN-364239; AN-364480; AN-364451; AN-364 AN-364548; AN-364552; AN-364585; AN-364598; AN-364643; AN-364715; AN-3644 AN-365189; AN-365081; AN-365189; AN-365197; AN-365203; AN-365431; AN-36564 AN-365794; AN-366546
+**de Migratie van de Component**: AN-362236; AN-365429
+**Analyse van de Bijdrage**: AN-360146
+**de Eendelen van Gegevens**: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; 363569; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; 64594; AN-364995; AN-365127; AN-365272; AN-365519; AN-365760; AN-366152;
+**de Reparatie API van Gegevens**: AN-362773; AN-362874
+**Gegevensbronnen**: AN-360745; AN-362202; AN-364566
+**Data Warehouse**: AN-361447; AN-362616; AN-364524; AN-365108
+**Mobiele toepassing**: AN-362856; AN-365270
+**de Alarm van het Overschrijding**: AN-355594; AN-364547
+**Platform**: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
+**Report Builder**: AN-363478; AN-364433; AN-365610
+**het Melden van de Manager van de Activiteit**: AN-362440
+**Segmentatie**: AN-359921
+**VISTA regels**: AN-362927
 
 ## Belangrijke kennisgevingen voor Adobe Analytics-beheerders {#admin}
 

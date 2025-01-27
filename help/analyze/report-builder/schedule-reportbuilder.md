@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,19 @@ Gebruik de knoop van het Programma in de hub van de Report Builder om snel een p
 
    ![ Bevestiging toast ](./assets/confirmation-toast.png){width="55%"}
 
+## Een omgezet werkboek plannen {#converted}
+
+1. Plan a [ omgezet ](/help/analyze/report-builder/convert-workbooks.md) erfeniswerkboek.
+
+   Een pop - op verschijnt, vragend of wilt u het plannen metada van het erfeniswerkboek gebruiken om een nieuwe geplande taak tot stand te brengen.
+
+1. Als u **[!UICONTROL Use]** selecteert, vult de Report Builder automatisch de oude planningsinformatie in.
+
+1. Zorg ervoor dat deze informatie correct en volgens plan is.
+
+1. Als u het werkboek op een verschillend programma wilt verzenden, programma een volledig nieuwe geplande taak.
+
+
 ## Het werkboek slechts éénmaal verzenden
 
 U kunt het werkboek ook slechts eenmaal verzenden.
@@ -85,7 +98,7 @@ U kunt het werkboek ook slechts eenmaal verzenden.
 
 1. Klik **verzenden nu**.
 
-## Geplande werkboeken weergeven en bewerken
+## Geplande werkboeken weergeven en bewerken {#view-edit}
 
 U kunt alle geplande werkboeken weergeven en beheren op één locatie onder het tabblad Werkboeken.
 
@@ -107,7 +120,7 @@ U kunt alle geplande werkboeken weergeven en beheren op één locatie onder het 
 
   ![ Schermafbeelding die de lijst met planningstaken toont.](./assets/selected-workbook.png){width="40%"}
 
-## De status van geplande taken controleren
+## De status van geplande taken controleren {#status}
 
 In de geschiedenisweergave kunt u de status van elke geplande taak controleren. Er is een afzonderlijke rij die de statusverandering voor elke geplande taak documenteert. In het hieronder getoonde voorbeeld, werd het *Nieuwe Uur Programma* in werking gesteld op 5 Januari, bij 3:04pm. Om 15:05 uur is het bestand vernieuwd en verzonden naar ontvangers. Het volgende werkboek, *Onjuiste werkboek*, ontmoette een fout tijdens verfrist proces. Als een werkboek niet kon verzenden, helpt het geschiedenislusje u problemen oplossen door te tonen waar in het proces de fout voorkwam. In dit geval, is het waarschijnlijk toe te schrijven aan één of andere fout van het gegevensblok, misschien een ontbrekende component, die het werkboek van met succes het verfrissen hield.
 
