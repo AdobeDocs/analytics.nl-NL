@@ -4,9 +4,9 @@ title: Sjablonen gebruiken
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: dc1744cf4816971d52364a3131a12601787d9819
+source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
 workflow-type: tm+mt
-source-wordcount: '18649'
+source-wordcount: '18648'
 ht-degree: 0%
 
 ---
@@ -1226,7 +1226,7 @@ De volgende sjablonen zijn beschikbaar:
 | **Referrers** | Bekijk welke URL&#39;s bezoekers hadden toen u door klikte om uw site te bereiken. (Er moet een koppeling bestaan op de externe URL en een bezoeker moet erop klikken om het dimensie-item weer te geven.)  <p>**dit kan u helpen** beter begrijpen welke specifieke URLs het meeste verkeer aan uw plaats drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan om zich meer aan de belangen van bezoekers te richten die van hoogste URLs komen. </p><p>Deze sjabloon gebruikt de dimensie Refererend domein </p><p>Deze sjabloon gebruikt de dimensie Referrer. </p> |
 | **de types van Refererder** | Bekijk welke algemene kanalen bezoekers hebben doorgeklikt om op uw site te komen. Adobe handhaaft de regels voor elk kanaal. Mogelijke kanalen zijn zoekprogramma&#39;s, sociale netwerken, andere websites, vaste schijf of e-mail.<p>**dit kan u helpen** beter begrijpen welk type van verwijzers het meeste verkeer aan uw plaats drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als creeer of pas inhoud aan om zich meer op de belangen van bezoekers te richten die van een bepaald kanaal komen.</p><p>Deze sjabloon gebruikt de dimensie Type referentie.</p> |
 
-## Mobiele sjablonen
+### Mobile {#mobile-not-ready-for-use}
 
 <!-- markdownlint-disable MD034 -->
 
