@@ -3,7 +3,7 @@ description: Opeenvolgende segmenten worden gemaakt met behulp van de operator T
 title: Opeenvolgende segmenten maken
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
+source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
 workflow-type: tm+mt
 source-wordcount: '3762'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Hier is een video over sequentiële segmentatie:
 Wanneer u een segment maakt waarin Inclusief iedereen is ingesteld, identificeert het segment paden die overeenkomen met het opgegeven patroon als geheel. Dit is een voorbeeld van een standaardsequentiesegment dat op zoek is naar een hit (pagina A) gevolgd door een andere hit (pagina B) die dezelfde bezoeker heeft bezocht. Het segment is ingesteld op Inclusief iedereen.
 
 ![](/help/admin/admin/assets/filter.png)
-![ 70a875e2-0ef9-4459-8648-77c60081d64d ](assets/terrible-link-1.png)
+![ 70a875e2-0ef9-4459-8648-77c60081d64d ](assets/copied-link-1.png)
 
 | Indien resultaat... | Reeks |
 |--- |--- |
@@ -293,7 +293,7 @@ Pagina B en C zijn genest in een [!UICONTROL Logic Group] -container in de buite
 
 ![](assets/logic_group_any_order3.png)
 
-Het segment moet op lease-basis overeenkomen met een van de controlepunten van de logische groep (B of C). Aan logische groepsvoorwaarden kan ook worden voldaan bij hetzelfde resultaat of bij meerdere treffers. &#x200B;
+Het segment moet op lease-basis overeenkomen met een van de controlepunten van de logische groep (B of C). Bovendien kan aan de voorwaarden van de logische groep worden voldaan in hetzelfde resultaat of in meerdere hits.
 
 ### Logische groep eerst overeenkomst
 
@@ -349,11 +349,11 @@ U kunt de overeenkomst beperken tot een opgegeven tijdsduur door de containers [
 >
 >Er zijn verschillen in evaluatie tussen gelijkaardig genoemde elementen zoals **Dag(en)** of **Dag**. Voor op tijd gebaseerde definities van Binnen en na, gebruik de opties die eerst in popup venster worden vermeld:
 >
->![afbeelding](assets/terrible-link-2.png)
+>![afbeelding](assets/copied-link-2.png)
 >
 >Voor op dimensie-gebaseerde definities van binnen en na, gebruik de opties onder sub-menu *Andere Dimensionen*:
 >
->![afbeelding](assets/terrible-link-3.png)
+>![afbeelding](assets/copied-link-3.png)
 
 ### Operatoren voor na en binnen {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
