@@ -4,16 +4,16 @@ title: API's die worden beïnvloed door de migratie van gebruikers
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 role: Admin, Developer
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
 # API&#39;s die worden beïnvloed door de gebruikersmigratie{#apis-affected-by-the-migration}
 
-Adobe migreert alle aanmeldingsbedrijven voor Analytics ver van [!DNL my.omniture.com] en op verificatie via de Adobe Experience Cloud. Zodra een bedrijf met deze migratie begint, programmatic gebruikersverwezenlijking en beheer door de Analytics-Specifieke toestemmingen en `GetLoginKey` methoden die beschikbaar zijn via v1.3 en v1.4 van de API voor Analytics Admin worden niet meer ondersteund. Dergelijke acties worden nu in de hele Experience Cloud ingeschakeld via [!DNL adobe.io].
+Adobe migreert alle aanmeldingsbedrijven voor Analytics van [!DNL my.omniture.com] naar verificatie via de Adobe Experience Cloud. Zodra een bedrijf met deze migratie begint, worden het creëren en het beheer van programmatische gebruikers via de Analytics-specific toestemmingen en `GetLoginKey` methodes beschikbaar via v1.3 en v1.4 van Analytics Admin API niet meer gesteund. Dergelijke handelingen worden nu in het hele Experience Cloud ingeschakeld via [!DNL adobe.io] .
 
 ## Betrokken API-methoden {#methods}
 
@@ -42,7 +42,6 @@ Als uw bedrijf om het even welk van deze methodes niet gebruikt, wordt geen acti
 
 Voor aanvullende informatie:
 
-* [Algemene informatie over gebruikersbeheer](https://helpx.adobe.com/enterprise/help/users.html)
-* [Gebruikerbeheer-API&#39;s via adobe.io](https://developer.adobe.com/UMAPI/)
-* [Gebruikersbeheer-API-forum](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
-* [Migratie van toegang en beheer van analysegebruikers naar Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
+* [ Algemene Info van het Beheer van de Gebruiker ](https://helpx.adobe.com/enterprise/help/users.html)
+* [ het Beheer API van de Gebruiker Forum ](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
+* [ Migratie van de Toegang en het Beheer van de Gebruiker van Analytics aan Experience Cloud ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)

@@ -3,9 +3,9 @@ title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: cf9290d0a55704015ba1a2b6fdbdde1a724276a1
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2504'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Correlatie:** niet meer gebruikt als termijn; vervangen met afmetingsonderverdelingen. In eerdere versies van Adobe Analytics bood correlations de mogelijkheid om verkeersvariabelen op te splitsen. Zie {de afmetingen van 0} Onderbreking ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in de Analysegebruikersgids.[
 * **Verbinding van de Douane:** een type van klap dat niet-paginameningsgegevens bevat. Zie [ s.tl () functie ](../implement/vars/functions/tl-method.md) in de de gebruikersgids van het Uitvoeren. Zie ook Actief.
 * **de attributen van de Klant:** een eigenschap van het Experience Cloud die het uploaden van attributengegevens toestaat. Zie {de attributen van de Klant 0} ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in de de gebruikersgids van de Diensten van de Kern.[
-* **de steunafgevaardigde van de Klant:** Een aangewezen gebruiker die wordt gemachtigd om direct met de Zorg van de Klant van de Adobe in wisselwerking te staan. Zie [ de steunafgevaardigden van de Klant ](https://helpx.adobe.com/experience-cloud/supported-users.html) in de Kennisbank van het Experience Cloud.
 * **de inzamelingsserver van Gegevens:** Adobe-bezeten servers die ontvangen en gegevens verwerken. De verzoeken van het beeld worden verzonden naar de servers van de gegevensinzameling van de Adobe voor gebruik in rapportering.
 * **de schakelaars van Gegevens:** Een gepensioneerde ontwikkelingsoplossing die een derde toestaat om het uploaden van gegevens in Adobe Analytics te automatiseren. De klanten van die derde kunnen een gegevensschakelaar gebruiken om hun gegevens in Adobe Analytics te verrijken. Vervangen door de Adobe Exchange Marketplace.
 * **voer van Gegevens:** de ruwe gegevensuitvoer van A die van elke klap als rij en variabelen als afzonderlijke kolommen een lijst maakt. Meestal gebruikt voor het exporteren van Adobe Analytics-gegevens naar een database van derden. Zie [ het voer van Gegevens ](/help/export/analytics-data-feed/data-feed-overview.md) in de de gebruikersgids van de Uitvoer.

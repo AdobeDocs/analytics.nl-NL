@@ -4,9 +4,9 @@ title: Analyse van gebruikersmigratie naar de Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '3078'
+source-wordcount: '3077'
 ht-degree: 0%
 
 ---
@@ -281,7 +281,7 @@ Belangrijke informatie over het migratieproces en de invloed ervan op het huidig
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruikersbeheer-API's <a href="https://helpx.adobe.com/enterprise/help/identity.html"> Door Adobe ondersteunde identiteitstypen </a> </p> </td> 
-   <td colname="col2"> <p> Beheerders die naar Adobe Admin Console migreren, moeten <a href="https://developer.adobe.com/UMAPI/"> API's voor gebruikersbeheer </a> configureren die op Adobe Developer worden aangeboden voor programmatische toegang tot gebruikersaccounts in de Adobe Admin Console. </p> <p>De API's voor analysebevoegdheden worden uitgeschakeld wanneer u de migratie wilt inschakelen. </p> </td> 
+   <td colname="col2"> <p> Beheerders die naar de Adobe Admin Console migreren, moeten API's voor gebruikersbeheer configureren die op Adobe Developer worden aangeboden voor programmatische toegang tot gebruikersaccounts in de Adobe Admin Console. </p> <p>De API's voor analysebevoegdheden worden uitgeschakeld wanneer u de migratie wilt inschakelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Webservicereferenties </p> </td> 
