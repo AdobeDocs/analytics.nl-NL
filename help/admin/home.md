@@ -4,10 +4,10 @@ description: Help bij beheer voor Adobe Analytics-beheerders, inclusief gebruike
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 83%
+source-wordcount: '314'
+ht-degree: 82%
 
 ---
 
@@ -17,14 +17,17 @@ ht-degree: 83%
 
 Deze Help is bedoeld voor beheerders van Adobe Analytics. De Help bevat hulp bij gebruikers- en productbeheer in de Admin Console, het instellen van rapportsuites, variabelen, classificaties, en dataverzameling.
 
-Hier volgt een video-overzicht van Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ inleiding van Adobe Analytics ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} voor een inleidende video op Adobe Analytics.
+
+>[!ENDSHADEBOX]
 
 Adobe Analytics heeft momenteel twee gedeelten voor beheerders:
 
 * Adobe Admin Console: Gebruik dit gebied voor de inrichting van Experience Cloud-tools en voor het beheer van gebruikerstoestemmingen. Dit gebied bevindt zich op [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Hulpmiddelen van Admin van Analytics: Gebruik dit gebied voor rapportreeks en veranderlijk beheer. U kunt deze openen door op [!UICONTROL Admin] in de bovenste header van Adobe Analytics.
+* Hulpmiddelen van Admin van Analytics: Gebruik dit gebied voor rapportreeks en veranderlijk beheer. U kunt deze openen door te klikken op [!UICONTROL Admin] in de bovenste koptekst van Adobe Analytics.
 
 Deze handleiding behandelt het volgende:
 
@@ -45,6 +48,6 @@ In deze handleiding worden veel algemene mogelijkheden van de Adobe Admin Consol
 ## Belangrijke bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
-* [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [ Gemeenschap van Adobe Analytics op Experience League ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)
