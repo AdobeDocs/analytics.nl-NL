@@ -1,39 +1,43 @@
 ---
-description: Contextbewuste sessies in virtuele rapportsuites veranderen hoe Adobe Analytics mobiele bezoeken berekent. In dit artikel worden de verwerkingsimplicaties beschreven van achtergrondopdrachten en startgebeurtenissen van apps (beide ingesteld door de SDK van mobiele apparaten) voor de definitie van mobiele bezoeken.
+description: Contextbewuste sessies in virtuele rapportsuites veranderen hoe Adobe Analytics mobiele bezoeken berekent. In dit artikel worden de verwerkingsimplicaties beschreven van achtergrondopdrachten en startgebeurtenissen van apps (beide ingesteld door de mobiele SDK) voor de definitie van mobiele bezoeken.
 title: Contextbewuste sessies
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: b9919c43b0232de1f8cb473d760bc013f4bc01f8
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1577'
 ht-degree: 0%
 
 ---
 
 # Contextbewuste sessies
 
-Contextbewuste sessies in virtuele rapportsuites veranderen hoe Adobe Analytics bezoeken van elk apparaat berekent. In dit artikel worden ook de verwerkingsimplicaties beschreven van achtergrondopdrachten en startgebeurtenissen van apps (beide ingesteld door de SDK van mobiele apparaten) voor de definitie van mobiele bezoeken.
+Contextbewuste sessies in virtuele rapportsuites veranderen hoe Adobe Analytics bezoeken van elk apparaat berekent. In dit artikel worden ook de verwerkingsimplicaties beschreven van achtergrondopdrachten en startgebeurtenissen van apps (beide ingesteld door de mobiele SDK) voor de definitie van mobiele bezoeken.
 
 U kunt een bezoek op elke gewenste manier definiëren zonder de onderliggende gegevens te wijzigen, zodat deze overeenkomen met de manier waarop bezoekers met uw digitale ervaringen werken.
 
-Hier is een video over contextbewuste sessies:
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ context-bewuste zittingen ](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## URL-parameter voor klantperspectief
 
-Het proces van de gegevensinzameling van Adobe Analytics staat u toe om een parameter van het vraagkoord te plaatsen die het klantenperspectief (als &quot;cp&quot;parameter van het vraagkoord wordt aangeduid) specificeren. In dit veld wordt de status van de digitale toepassing van de eindgebruiker aangegeven. Zo kunt u zien of een hit is gegenereerd terwijl een mobiele app zich in de achtergrondstatus bevond.
+Het proces van de gegevensinzameling van Adobe Analytics staat u toe om een parameter van het vraagkoord te plaatsen die het klantenperspectief (als &quot;cp&quot;parameter van het vraagkoord wordt aangeduid) specificeren. In dit veld wordt de status van de digitale toepassing van de eindgebruiker aangegeven. Op deze manier kunt u zien of een hit is gegenereerd terwijl een mobiele app zich in de achtergrondstatus bevond.
 
 ## Achtergrondbewerking
 
-Een hit op de achtergrond is een type hit dat vanuit Adobe Mobile SDK versie 4.13.6 en hoger naar Analytics wordt verzonden wanneer de toepassing een aanvraag voor bijhouden indient in een achtergrondstatus. Voorbeelden hiervan zijn:
+Een hit op de achtergrond is een type hit dat vanuit Adobe Mobile SDK versie 4.13.6 en hoger naar Analytics wordt verzonden wanneer de toepassing een aanvraag voor bijhouden indient terwijl de toepassing zich in de achtergrondstatus bevindt. Voorbeelden hiervan zijn:
 
 * Gegevens verzonden tijdens een kruising met een geo-hek
 * Een pushmeldingsinteractie
 
 De volgende voorbeelden schetsen de logica die wordt gebruikt in het bepalen wanneer een bezoek voor om het even welke bezoeker begint en beëindigt wanneer de &quot;Voorkomen van AchtergrondHits van het Begin van een nieuw Bezoek&quot;het plaatsen voor een virtuele rapportreeks is of niet wordt toegelaten.
 
-**Als &quot;Voorkomen dat de Hits van de Achtergrond een nieuw Bezoek&quot;begint niet wordt toegelaten:**
+**als &quot;de Hits van de Achtergrond van de Voorkomen van het beginnen van een nieuw Bezoek&quot;niet wordt toegelaten:**
 
 Als deze functie niet is ingeschakeld voor een virtuele rapportsuite, worden achtergrondopdrachten op dezelfde manier behandeld als elke andere hit, wat betekent dat ze nieuwe bezoeken beginnen en op dezelfde manier werken als voorgrondhits. Als een achtergrondhit bijvoorbeeld minder dan 30 minuten optreedt (de standaardsessietime-out voor een rapportsuite) voordat een set voorgrondhits wordt weergegeven, maakt de achtergrondhit deel uit van de sessie.
 
@@ -43,19 +47,19 @@ Als de achtergrondhit meer dan 30 minuten vóór eventuele voorgrondhits optreed
 
 ![](assets/nogood2.jpg)
 
-**Als &quot;Voorkomen dat de Hits van de Achtergrond een nieuw Bezoek&quot;wordt toegelaten:**
+**als &quot;de Hits van de Achtergrond verhinderen van het beginnen van een nieuw Bezoek&quot;wordt toegelaten:**
 
 In de volgende voorbeelden wordt het gedrag van achtergrondopdrachten getoond wanneer deze functie is ingeschakeld.
 
-Voorbeeld 1: Een achtergrondhit treedt op in een bepaalde tijdsperiode (t) voordat een reeks voorgrondhits wordt weergegeven.
+Voorbeeld 1: Een achtergrondhit treedt op in een bepaalde tijdsperiode (t) vóór een reeks voorgrondtreffelijke resultaten.
 
 ![](assets/nogoodexample1.jpg)
 
-In dit voorbeeld, als *t* is groter dan de gevormde het bezoekonderbreking van de virtuele rapportreeks, dan wordt de achtergrondhit uitgesloten van het bezoek dat door de voorgrondhits wordt gevormd. Als de time-out van het bezoek aan de virtuele rapportsuite bijvoorbeeld is ingesteld op 15 minuten, en *t* 20 minuten lang was het bezoek van deze serie hits ( de groene omtrek toont ) geen aanleiding voor een achtergrondaanval . Dit betekent dat alle eVars die zijn ingesteld met een &quot;bezoek&quot;-vervaldatum bij een treffer op de achtergrond **niet** blijven in het volgende bezoek, en een container van het bezoekensegment zou slechts de voorgrondhits binnen het groene overzicht omvatten.
+In dit voorbeeld, als *t* groter is dan de gevormde het bezoekonderbreking van de virtuele rapportreeks, dan wordt de achtergrondhit uitgesloten van het bezoek dat door de voorgrondhits wordt gevormd. Bijvoorbeeld, als de virtuele onderbrekingen van het de bezoekersbezoek van de rapportreeks aan 15 minuten werd geplaatst, en *t* 20 minuten was, zou het bezoek dat door deze reeks klappen (die door het groene overzicht wordt getoond) wordt gevormd de achtergrondklap uitsluiten. Dit betekent dat om het even welke eVars die met een &quot;bezoek&quot;verlopen op de achtergrond **** worden geplaatst niet in het volgende bezoek zou voortbestaan, en een container van het bezoekensegment zou slechts de voorgrondhits binnen het groene overzicht omvatten.
 
 ![](assets/nogoodexample1-2.jpg)
 
-Omgekeerd, als *t* is minder dan de gevormde het bezoekonderbreking van de virtuele rapportreeks, is achtergrondhit inbegrepen als deel van het bezoek alsof het een voorgrondslag (die door het groene overzicht wordt getoond) was:
+Omgekeerd, als *t* minder dan de virtuele het bezoekonderbreking van de rapportreeks is gevormd, is de achtergrondklap inbegrepen als deel van het bezoek alsof het een voorgrondslag (die door het groene overzicht wordt getoond) was:
 
 ![](assets/nogoodexample1-3.jpg)
 
@@ -74,7 +78,7 @@ Als de achtergrondhit optreedt na de geconfigureerde time-out van de virtuele ra
 
 ![](assets/nogoodexample2-1.jpg)
 
-Evenzo, als de tijdsperiode *t* was minder dan de gevormde onderbreking van de virtuele rapportreeks, is de achtergrondhit inbegrepen in het bezoek dat door de vorige foreground wordt gevormd:
+Eveneens, als de tijdspanne *t* minder dan de virtuele timeout van de rapportreeks was vormde, is de achtergrondklap inbegrepen in het bezoek dat door de vorige foreground wordt gevormd:
 
 ![](assets/nogoodexample2-2.jpg)
 
@@ -89,29 +93,29 @@ Voorbeeld 3: In sommige gevallen kan een achtergrondhit ertoe leiden dat twee af
 
 ![](assets/nogoodexample3.jpg)
 
-Indien in dit voorbeeld: *t1* en *t2* zijn allebei minder dan de virtuele rapportreeks gevormde het bezoekonderbreking, al deze klappen in één enkel bezoek zouden worden gecombineerd, zelfs als *t1* en *t2* samen zijn groter dan de time-out van het bezoek:
+Als, in dit voorbeeld, *t1* en *t2* allebei minder zijn dan de virtuele tijd van de rapportreeks gevormd bezoek, zouden al deze klappen in één enkel bezoek worden gecombineerd, zelfs als *t1* en *t2* samen groter zijn dan de bezoekonderbreking:
 
 ![](assets/nogoodexample3-1.jpg)
 
-Indien echter *t1* en *t2* zijn groter dan de virtuele gevormde onderbreking van de rapportreeks, zouden deze klappen in twee verschillende bezoeken worden gescheiden:
+Als, echter, *t1* en *t2* groter zijn dan de virtuele gevormde onderbreking van de rapportreeks, zouden deze hits in twee verschillende bezoeken worden gescheiden:
 
 ![](assets/nogoodexample3-2.jpg)
 
-Evenzo (zoals in onze vorige voorbeelden), als *t1* is kleiner dan de time-out en *t2* minder is dan de time-out die de achtergrondhit zou opnemen in het eerste bezoek:
+Eveneens (zoals in onze vorige voorbeelden), als *t1* minder dan de onderbreking is en *t2* minder dan onderbreking is de achtergrondklap in het eerste bezoek zou worden omvat:
 
 ![](assets/nogoodexample3-3.jpg)
 
-Indien *t1* groter is dan de time-out en *t2* minder dan de time-out is, wordt de gevonden achtergrond opgenomen in het tweede bezoek:
+Als *t1* groter is dan de onderbreking en *t2* minder dan de onderbreking is, dan zou de achtergrondklap in het tweede bezoek worden omvat:
 
 ![](assets/nogoodexample3-4.jpg)
 
-Voorbeeld 4: In scenario&#39;s waar een reeks achtergrondklappen binnen de virtuele onderbrekingsperiode van het de verslagreeks voorkomen, vormen de klusjes een onzichtbaar &quot;achtergrondopdracht&quot;die niet op de bezoektelling telt en niet toegankelijk gebruikend een container van de bezoeksegmentatie is.
+Voorbeeld 4: In scenario&#39;s waar een reeks achtergrondklappen binnen de virtuele onderbrekingsperiode van het de tijdonderbreking van het rapportpakket voorkomen, vormen de klusjes een onzichtbaar &quot;achtergrondopdracht&quot;die niet bij de bezoektelling telt en niet toegankelijk gebruikend een container van de bezoeksegmentatie is.
 
 ![](assets/nogoodexample4.jpg)
 
 Hoewel dit niet als een bezoek wordt beschouwd, blijven alle eVars-sets die verlopen tijdens een bezoek hun waarden aan de andere kant behouden als de achtergrondresultaten in dit &quot;achtergrondbezoek&quot;.
 
-Voorbeeld 5: Voor scenario&#39;s waar de veelvoudige achtergrondklappen achtereenvolgens na een reeks voorgrondklappen voorkomen, is het mogelijk (afhankelijk van onderbreking het plaatsen) dat de achtergrondklappen een bezoek langer levend houden dan de periode van de bezoekonderbreking. Als *t1* en *t2* samen waren groter dan de virtuele time-out van het rapportsuite bezoek maar individueel minder dan de time-out, dan zou het bezoek zich nog steeds uitstrekken tot beide background hits :
+Voorbeeld 5: voor scenario&#39;s waarbij meerdere achtergrondgeluiden achtereenvolgens optreden na een reeks voorgrondhits, is het mogelijk (afhankelijk van de time-out-instelling) dat de achtergrond een bezoek langer levend houdt dan de time-outperiode van het bezoek. Bijvoorbeeld, als *t1* en *t2* samen groter waren dan de virtuele onderbreking van het de reeksbezoek maar individueel minder dan de onderbreking, zou het bezoek nog uitbreiden om beide achtergrondklappen te omvatten:
 
 ![](assets/nogoodexample5.jpg)
 
@@ -133,8 +137,8 @@ De tijd die wordt doorgebracht wordt nog berekend op een analoge manier aan hoe 
 
 Omdat achtergrondhit-verwerking alleen beschikbaar is voor virtuele rapportsuites die gebruikmaken van Report Time Processing, biedt Adobe Analytics ondersteuning voor twee manieren om achtergrondresultaten te verwerken, zodat de bezoektellingen behouden blijven in de basisrapportsuite die geen gebruikmaken van Report Time Processing. Als u deze instelling wilt openen, navigeert u naar Adobe Analytics Admin Tools, gaat u naar de instellingen van de toepasselijke basisrapportsuite en navigeert u naar het menu Mobiel beheer en vervolgens naar het submenu &#39;Rapportering mobiele toepassing&#39;.
 
-1. &quot;Verouderde verwerking op&quot;: Dit is het gebrek dat voor alle rapportreeksen plaatst. Het verlaten van erfenisverwerking op processen achtergronden als normale klappen in onze verwerkingspijplijn voor wat de niet-het rapportreeks van het het basisrapport van de Attributie van de Tijd van de Attributie van het Rapport betreft. Dit betekent dat om het even welke achtergrondklappen die in de reeks van het basisrapport verhogingbezoeken als normale slag verschijnen. Als u geen achtergrondopdrachten wilt verschijnen in uw reeks van het basisrapport, verander deze het plaatsen in &quot;Off&quot;.
-1. &quot;Verouderde verwerking uitgeschakeld&quot;: Met erfenisverwerking voor achtergrondklappen weg, worden om het even welke achtergrondklappen die naar de reeks van het basisrapport worden verzonden genegeerd door de Reeks van het basisrapport en zijn slechts toegankelijk wanneer een virtuele rapportreeks die op deze reeks van het basisrapport wordt gecreeerd wordt gevormd om de Verwerking van de Tijd van het Rapport te gebruiken. Dit betekent dat om het even welke gegevens die door achtergrondklappen worden gevangen die naar deze reeks van het basisrapport worden verzonden slechts in een toegelaten virtuele rapportreeks van de Tijd van het Rapport van de Verwerking verschijnen.
+1. &quot;Oudere verwerking aan&quot;: dit is de standaardinstelling voor alle rapportsuites. Het verlaten van erfenisverwerking op processen achtergronden als normale klappen in onze verwerkingspijplijn voor wat de niet-het rapportreeks van het het basisrapport van de Attributie van de Tijd van de Attributie van het Rapport betreft. Dit betekent dat om het even welke achtergrondklappen die in de reeks van het basisrapport verhogingbezoeken als normale slag verschijnen. Als u geen achtergrondopdrachten wilt verschijnen in uw reeks van het basisrapport, verander deze het plaatsen in &quot;Off&quot;.
+1. &quot;Verouderde verwerking weg&quot;: met erfenisverwerking voor achtergrondopdrachten uit, worden om het even welke achtergrondklappen die naar de reeks van het basisrapport worden verzonden genegeerd door de Reeks van het basisrapport en zijn slechts toegankelijk wanneer een virtuele rapportreeks die op deze reeks van het basisrapport wordt gecreeerd wordt gevormd om de Verwerking van de Tijd van het Rapport te gebruiken. Dit betekent dat om het even welke gegevens die door achtergrondklappen worden gevangen die naar deze reeks van het basisrapport worden verzonden slechts in een toegelaten virtuele rapportreeks van de Tijd van het Rapport van de Verwerking verschijnen.
 
    Deze instelling is bedoeld voor klanten die willen profiteren van de nieuwe achtergrondhit-verwerking zonder de bezoektellingen van hun basislapport te wijzigen.
 
