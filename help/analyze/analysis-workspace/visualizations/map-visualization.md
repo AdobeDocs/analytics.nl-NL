@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 2%
+source-wordcount: '656'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="Kaart"
->abstract="Deze visualisatie vertegenwoordigt metriek door hen op een kaart te bedekken. Dit is handig voor het identificeren van gegevens in verschillende geografische gebieden."
+>abstract="Deze visualisatie vertegenwoordigt metriek door hen op een kaart te bedekken. Deze visualisatie is handig voor het identificeren van gegevens in verschillende geografische gebieden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,48 +50,52 @@ _dit artikel documenteert de visualisatie van de Kaart in_ ![ AdobeAnalytics ](/
 
 >[!ENDSHADEBOX]
 
-## Overzicht {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 
-Visualisatie op de kaart in Analysis Workspace
 
-* Hiermee kunt u een visuele kaart van elke metrische waarde (inclusief berekende metriek) maken.
-* Is nuttig om metrische gegevens over verschillende geografische gebieden te identificeren en te vergelijken.
-* Biedt ondersteuning voor twee gegevensbronnen: breedte/lengte van mobiel gebruik of geografische afmeting voor webgebruik.
-* Ondersteunt PDF-export.
+De ![ Globe ](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualisatie in Analysis Workspace
+
+* kunt u een visuele kaart van om het even welke metrisch (met inbegrip van berekende metriek) bouwen;
+* nuttig is voor het identificeren en vergelijken van metrische gegevens over verschillende geografische regio&#39;s;
+* twee gegevensbronnen kunnen ondersteunen: lengte-/breedtegraad van mobiel gebruik of geografische afmeting voor webgebruik;
+* ondersteunt PDF-export, en
 * Gebruikt WebGL voor beeldvertoning. Als uw grafische stuurprogramma&#39;s geen ondersteuning bieden voor WebGL-rendering, moet u de stuurprogramma&#39;s mogelijk bijwerken.
 
-Hier volgt een video-overzicht:
 
->[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+>[!BEGINSHADEBOX]
 
-## Een kaart visualiseren {#section_61BBFA3A7BFD48DA8D305A69D9416299}
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Kaart in Analysis Workspace ](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} voor een demo video.
 
-1. Sleep **[!UICONTROL Map]** vanuit de lijst met visualisaties naar een deelvenster Vrije vorm:
+>[!ENDSHADEBOX]
 
-   ![](assets/map-viz1.png)
 
-1. Sleep in metrische vorm vanuit de lijst met metriek (inclusief berekende metriek).
-1. Geef de gegevensbron op waaruit u wilt tekenen. (Dit dialoogvenster wordt alleen weergegeven als u locatie-tracking hebt ingeschakeld voor gegevens van mobiele apps.)
+## Gebruiken
 
-| Instelling | Beschrijving |
-| --- | --- |
-| [!UICONTROL Mobile Lat/Long] | Deze optie vertegenwoordigt gegevens van mobiele apps. U ziet deze optie alleen als u deze voor uw rapportsuite hebt ingeschakeld in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (selecteer rapportsuite) > [!UICONTROL Edit Settings] > [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking] . Dit is de standaardinstelling (als locatie bijhouden is ingeschakeld). |
-| [!UICONTROL Geographic Dimension] | Deze optie vertegenwoordigt geo segmentatiegegevens over bezoekersplaats die op het IP van de bezoeker adres wordt gebaseerd. Deze gegevens worden omgezet in [!UICONTROL Country] , [!UICONTROL Region] en [!UICONTROL City] . Merk op dat het niet naar het niveau van de Code DMA of van het Postcode gaat. Bijna alle rapportsuites hebben deze toegelaten dimensie. Als u dat niet doet, neemt u contact op met de klantenservice van de Adobe om geografische rapporten ingeschakeld te laten. |
+1. Voeg a ![ Kaart ](/help/assets/icons/Globe.svg) [!UICONTROL Map] visualisatie toe. Zie [ een visualisatie aan een paneel ](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen. U kunt een Kaartweergave alleen boven op een tabel voor vrije vorm slepen.
 
-1. Klik op **[!UICONTROL Build]**.
+   ![ configuratie van de Kaart ](assets/map-configuration.png){width="50%"}
 
-   De eerste weergave die je zult zien is een World View met een bubble map, vergelijkbaar met deze.
+1. Selecteer een metrische waarde in de vervolgkeuzelijst. Of sleep in metrische vorm vanuit de lijst met metriek (inclusief berekende metriek).
+1. Geef de gegevensbron op waaruit u wilt tekenen. Dit dialoogvenster wordt alleen weergegeven als u locatie-tracking hebt ingeschakeld voor gegevens van mobiele apps.
+
+   | Source | Beschrijving |
+   | --- | --- |
+   | **[!UICONTROL Mobile Lat/Long]** | Deze optie vertegenwoordigt gegevens van mobiele apps. U ziet deze optie alleen als u deze voor uw rapportsuite hebt ingeschakeld in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (selecteer rapportsuite) > [!UICONTROL Edit Settings] > [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking] . Dit zijn de standaardinstellingen (als locatietracering is ingeschakeld). |
+   | **[!UICONTROL Geographic Dimension]** | Deze optie vertegenwoordigt geo segmentatiegegevens over bezoekersplaats die op het IP van de bezoeker adres wordt gebaseerd. Deze gegevens worden omgezet in [!UICONTROL Country] , [!UICONTROL Region] en [!UICONTROL City] . Merk op dat het niet naar het niveau van de Code DMA of van het Postcode gaat. Bijna alle rapportsuites hebben deze toegelaten dimensie. Als u dat niet doet, neemt u contact op met de klantenservice van de Adobe om geografische rapporten ingeschakeld te laten. |
+
+1. Selecteer **[!UICONTROL Build]** .
+
+   Er wordt een &#39;world map visualization&#39; met bubbels gegenereerd.
 
    ![](assets/bubble-world-view.png)
 
-1. U kunt nu
+1. U kunt nu:
 
    * **Gezoem** in deze kaart om bepaalde gebieden te vergroten door de kaart tweemaal te klikken of door uw rolwiel te gebruiken. De kaart zoomt naar waar u de cursor hebt geplaatst. Via zoominteractie wordt de vereiste afmeting (land > land > plaats) automatisch bijgewerkt op basis van het zoomniveau.
    * **vergelijk** twee of meer kaartvisualisaties in het zelfde project door hen naast elkaar te plaatsen.
    * **toon periode-over-periode (zoals, jaar-over-jaar) vergelijkingen**:
 
       * Negatieve getallen tonen: als u bijvoorbeeld een metrisch getal uitzet dat jaar in jaar doorloopt, kan de kaart -33% weergeven ten opzichte van New York.
-      * Met metrics van het type percentage, wordt het gemiddelde van de geclusterde percentages getoond.
+      * Met metriek die van type *percenten* zijn, groeperen zich gemiddelden samen de percentages.
       * Een groen/rood kleurenschema: positief/negatief
 
    * **roteer** de kaart in 2D of 3D door de [!UICONTROL Ctrl] sleutel te houden en de kaart te bewegen.
@@ -99,31 +103,36 @@ Hier volgt een video-overzicht:
    * **knevel** aan een verschillende mening, zoals de warmtekaart, gebruikend de [ hieronder beschreven montages ](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E). De bellenweergave is de standaardinstelling.
 
 1. **sparen** het project om alle kaartmontages (coördinaten, gezoem, omwenteling) te bewaren.
-1. De vrije-vormlijst, onder visualisatie, kan worden bevolkt door in plaatsdimensies en metriek van de linkerspoorstaaf te slepen:
+1. De vrije-vormlijst, onder visualisatie, kan worden bevolkt door in plaatsdimensies en metriek van de linkerspoorstaaf te slepen.
 
-   ![](assets/location-dimensions.png)
 
-## Visualisatie-instellingen toewijzen {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
-Er zijn twee sets instellingen voor Kaart:
+## Configureren
 
-Het **moersleutelpictogram** bij het hoogste recht brengt de aanvankelijke dialoog terug waar u metrisch en gegevensbron kunt veranderen:
+Om de visualisatie van de Kaart aan te passen, uitgezocht ![ geef ](/help/assets/icons/Edit.svg) uit.
 
-![](assets/map-wrench.png)
 
-Het klikken van het **tandwielpictogram** openbaart deze visualiseringsmontages:
+## Instellingen
+
+Om montages voor visualisatie te bepalen, uitgezochte ![ Plaatsend ](/help/assets/icons/Setting.svg).
 
 | Instelling | Beschrijving |
 |--- |--- |
-| Luchtbellen | Hiermee worden gebeurtenissen geplakt met behulp van bellen. Een bubbelgrafiek is een multi-variabelegrafiek die een kruis tussen een spreidplot en een proportioneel gebiedsgrafiek is. Dit is de standaardweergave. |
+| **[!UICONTROL Map type]** | |
+| [!UICONTROL Bubbles] | Hiermee worden gebeurtenissen geplakt met behulp van bellen. Een bubbelgrafiek is een multi-variabelegrafiek die een kruis tussen een spreidplot en een proportioneel gebiedsgrafiek is. Dit is de standaardweergave. |
 | Heatmap | Hiermee worden gebeurtenissen geplakt met een heatmap. Een heatmap is een grafische voorstelling van gegevens waarbij de afzonderlijke waarden in een matrix als kleuren worden weergegeven. |
-| Stijlen: kleurthema | Hiermee geeft u het kleurenschema voor de warmtekaart en luchtbellen weer. U kunt kiezen uit Koraal, Rode tinten, Groene tinten of Vervagen. Standaard is Coral. |
-| Stijlen: Stijl toewijzen | U kunt kiezen uit Standaard, Streets, Helder, Licht, Donker en Satelliet. |
-| Clusterstraal | Hiermee groepeert u gegevenspunten die binnen het opgegeven aantal pixels liggen. De standaardwaarde is 50. |
-| Aangepaste maximale waarde | Hiermee kunt u de drempelwaarde voor de maximale waarde voor de kaart wijzigen. Als u deze waarde aanpast, wordt de schaal voor de waarden voor luchtbellen/heatmap (kleur en grootte) aangepast ten opzichte van de aangepaste maximale waarde die is ingesteld. |
+| **[!UICONTROL Styles]** | |
+| [!UICONTROL Color theme] | Hiermee geeft u het kleurenschema voor de warmtekaart en luchtbellen weer. U kunt kiezen uit Koraal, Rode tinten, Groene tinten of Vervagen. De standaardinstelling is Coral. |
+| [!UICONTROL Map style] | U kunt kiezen uit Standaard, Streets, Helder, Licht, Donker en Satelliet. |
+| **[!UICONTROL Cluster Radius]** | Hiermee groepeert u gegevenspunten die binnen het opgegeven aantal pixels liggen. De standaardwaarde is 50. |
+| **[!UICONTROL Custom Max Value]** | Hiermee kunt u de drempelwaarde voor de maximale waarde voor de kaart wijzigen. Als u deze waarde aanpast, wordt de schaal voor de waarden voor luchtbellen/heatmap (kleur en grootte) aangepast ten opzichte van de aangepaste maximale waarde die is ingesteld. |
 
-## Een geparseerde heatmap maken
+<!--
+## Build a time-parting heatmap
 
-Hier volgt een video over het onderwerp:
+Here is a video on the topic:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
+
+-->
+
