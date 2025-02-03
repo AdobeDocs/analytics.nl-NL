@@ -3,7 +3,7 @@ description: De segmentbouwer verstrekt een canvas om Metrische Dimensionen, Seg
 title: Segmenten maken
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 1%
@@ -167,9 +167,13 @@ U maakt een container Visit en voegt daarin het [!UICONTROL Last 60 days] tijdbe
 
 ![](assets/date-ranges.png)
 
-Hier volgt een video over het gebruik van roldatumbereiken in segmenten:
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Rolling datumwaaiers in segmenten ](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Segmenten stapelen {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

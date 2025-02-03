@@ -4,9 +4,9 @@ description: Instructies voor beheerders die nieuw zijn voor een bestaande Adobe
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,19 @@ ht-degree: 0%
 
 Neemt u een Adobe Analytics-implementatie over van de vorige technische eigenaar? Met ons overgenomen afspeelboek voor implementatie kunt u een bestaande implementatie beheren als de nieuwe technische eigenaar. In het downloadbare spreadsheet, zullen wij u door de ontdekking, controle, en documentatieactiviteiten lopen u in uw eerste 10 weken op het werk zou moeten doen aangezien u een bestaande implementatie overneemt.
 
-**Download de [Overgenomen afspeelboek voor implementatie](assets/adobe_analytics_inherited_implementation_playbook.xlsx).**
+**Download [ Geërfte Playbook van de Implementatie ](assets/adobe_analytics_inherited_implementation_playbook.xlsx).**
 
-![Afspeelboek](assets/inherited-impl-playbook.png)
+![ Playbook ](assets/inherited-impl-playbook.png)
 
 Bekijk deze tips van uw collega Technical Owner, Sarah Owen. Sarah is een Adobe Analytics Champion en ze deelt ideeën over hoe u het overgenomen Playbook voor implementatie kunt gebruiken om een bestaande implementatie te beheren:
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruik het Geërfte Playbook van de Implementatie ](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 Zie ook:
 

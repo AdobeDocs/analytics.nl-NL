@@ -4,9 +4,9 @@ description: Een visualisatie die de relatie tussen maximaal drie metriek toont.
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,8 @@ _dit artikel documenteert de Spreiding visualisatie in_ ![ AdobeAnalytics ](/hel
 
 >[!ENDSHADEBOX]
 
-De scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie metriek. Hiervoor zijn drie componenten nodig en ondersteuning voor het visualiseren van maximaal vier componenten.
+
+![ GraphScatter ](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** visualisatie toont het verband tussen afmetingspunten en tot drie metriek. De visualisatie vereist drie componenten, en steunt het visualiseren van tot vier componenten.
 
 * De rijcomponent (doorgaans een dimensie) vertegenwoordigt elk punt in de grafiek. Verschillende rijen worden weergegeven als verschillende gekleurde stippen.
 * In de kolom uiterst links (meestal metrisch) wordt de positie van de punt op de Y-as (verticaal) aangegeven.
@@ -37,8 +38,19 @@ De scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie
 * De derde kolom bepaalt de straal van de stip.
 * Alle volgende kolommen in een vrije-vormlijst worden genegeerd door de scatterplot visualisatie.
 
-![Spreidingsdiagram](assets/scatter.png)
+![ Voorbeeld die van het Scatterplot veelvoudige afmetingspunten tonen ](assets/scatter.png)
 
-Hier is een video over scatterplot-visualisaties:
 
->[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van het Scatterplot ](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

@@ -5,9 +5,9 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,13 @@ Hiermee kunt u:
 * Analyseren waar klanten voor en na opgegeven controlepunten gaan, zoals ingang, een specifieke afmeting, of uitgang
 * Segmenten maken door een specifiek punt op te geven in een gekozen pad
 
-Hier volgt een videozelfstudie over stroomvisualisatie:
 
->[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vloeisualisatie van de Stroom ](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Inter-dimensionale stromen {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -61,6 +65,13 @@ Voor informatie over hoe te om een stroomvisualisatie te vormen, zie [ een stroo
 
 Stroomdiagrammen maken deel uit van het CSV-bestand van een project dat u kunt maken door naar **[!UICONTROL Project]** > **[!UICONTROL Download CSV]** te gaan. Op deze manier kunt u de stroomresultaten analyseren in Microsoft Excel (weergegeven als een tabel) of elders.
 
-## Uitbreiden bij stroomvisualisatie
 
->[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
+## Aanvullende functionaliteit
+
+>[!BEGINSHADEBOX]
+
+Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Extra functionaliteit 0} VideoCheckedOut in de visualisatie van de Stroom ](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} voor een demo video.![
+
+>[!ENDSHADEBOX]
+
+

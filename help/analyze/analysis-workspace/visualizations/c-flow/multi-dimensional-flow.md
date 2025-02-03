@@ -5,10 +5,10 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '323'
+ht-degree: 0%
 
 ---
 
@@ -16,29 +16,35 @@ ht-degree: 1%
 
 Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken. Hier volgt een video over tekstomloop en multidimensionale tekstdoorloop in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ inter-dimensionele stromen ](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 Een afmetingslabel boven aan elke stroomkolom maakt het gebruik van meerdere dimensies in een stroomvisualisatie intuïtiever:
 
 ![](assets/flow.png)
 
-We zullen naar twee gebruiksgevallen kijken: een gebruiksgeval voor apps en een gebruiksgeval voor het web.
+We zullen naar twee gebruiksgevallen kijken: een gebruiksscenario voor apps en een gebruiksscenario voor het web.
 
 ## Eerste hoofdletter gebruiken: app {#app}
 
-De [!UICONTROL Action Name] dimensie werd toegevoegd aan de stroom, met het hoogste teruggekeerde punt die [!UICONTROL ItemAdded]:
+De [!UICONTROL Action Name] -dimensie is aan de flow toegevoegd, waarbij het bovenste item [!UICONTROL ItemAdded] is:
 
 ![](assets/multi-dimensional-flow.png)
 
 Als u de interactie tussen schermen/pagina&#39;s en acties in deze app wilt verkennen, kunt u de paginadimensie naar meerdere plaatsen slepen, afhankelijk van wat u wilt verkennen:
 
-* Sleep het naar een van de uiteinden van de neerzetzone (binnen de met zwart omgezette rechthoekige zone die wordt weergegeven) naar **vervangen** de belangrijkste resultaten aan de uiteinden:
+* Sleep het aan één van beide eind van de dalingsstreek (binnen de zwart-in orde gemaakte rechthoekige streek die verschijnt) om **te vervangen** de hoogste resultaten op de einden:
 
-   ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
-* Sleep het naar de witruimte aan het einde (let op de zwarte haak) om **toevoegen aan** visualisatie:
+* Sleep het aan de witte ruimte op het eind (merk de zwarte steun) aan **toevoegen aan** visualisatie:
 
-   ![](assets/multi-dimensional-flow4.png)
+  ![](assets/multi-dimensional-flow4.png)
 
 Hier is het resultaat als u besluit om het item ItemScaled in de juiste kolom met de dimensie van de Pagina te vervangen. Het bovenste resultaat wordt nu gewijzigd in het bovenste resultaat voor de pagina-afmeting:
 

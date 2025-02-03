@@ -4,9 +4,9 @@ description: Hoe verschillende soorten attributie krediet verdelen tussen dimens
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -44,9 +44,12 @@ Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken o
 
 * **het raadplegingsvenster van de Douane:** staat u toe om het attributievenster voorbij de rapporteringsdatumwaaier, tot een maximum van 90 dagen uit te breiden. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 februari tot en met 20 februari in het attributiemodel evalueren.
 
-  Hier volgt een video over aangepaste terugzoekvensters:
+>[!BEGINSHADEBOX]
 
-  >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het raadplegingsvenster van de Douane ](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Voorbeeld
 

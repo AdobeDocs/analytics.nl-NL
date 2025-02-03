@@ -3,9 +3,9 @@ description: Ontdek alles wat u met Advertising Analytics kunt doen, inclusief d
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 2244dbb3376c78b9d4a8b476b667ccef59db84f4
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1139'
 ht-degree: 90%
 
 ---
@@ -23,9 +23,13 @@ Deze integratie is gericht op de volgende doelgroepen:
 * De **analist** die prestatierapporten moet verzamelen voor de paid search-marketeer.
 * De **paid search-marketeer** die antwoorden op deze vragen wil: Hoeveel verkeer verzend ik naar onze site, en zijn klanten aan het converteren? Welke van mijn advertentiecampagnes zijn rendabel?
 
-## Video
 
->[!VIDEO](https://video.tv.adobe.com/v/23119?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Advertising analyseert ](https://video.tv.adobe.com/v/23119?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
 
 
 ## Vereisten {#prerequisites}

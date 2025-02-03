@@ -4,16 +4,16 @@ title: Wat zijn visualisatiekleurenpaletten en hoe werken ze?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 2%
+source-wordcount: '211'
+ht-degree: 1%
 
 ---
 
 # Kleurenpaletten voor visualisatie
 
-U kunt het kleurenpalet voor visualisatie dat in Workspace wordt gebruikt, wijzigen door een ander kleurenpalet te kiezen of door uw eigen palet op te geven dat geschikt kan zijn voor de brandingkleuren van uw bedrijf. Deze functie is van invloed op de meeste visualisaties in Workspace, maar **niet** beïnvloeden [!UICONTROL Summary Change], voorwaardelijke opmaak in [!UICONTROL Freeform] en de [!UICONTROL Map] visualisatie.
+U kunt het in Workspace gebruikte palet voor visualisatiekleuren wijzigen door een ander kleurenpalet te kiezen of door uw eigen palet op te geven dat geschikt kan zijn voor de brandingkleuren van uw bedrijf. Deze eigenschap beïnvloedt de meeste visualisaties in Workspace, maar het **beïnvloedt** niet [!UICONTROL Summary Change], voorwaardelijk formatteren in [!UICONTROL Freeform] lijsten, en [!UICONTROL Map] visualisatie.
 
 >[!NOTE]
 >
@@ -26,14 +26,19 @@ Houd rekening met het volgende:
 * Er zijn vijf vooraf ingestelde kleurenpaletten waaruit u kunt kiezen. Het standaardpalet en het onderstaande kleurenpalet zijn geoptimaliseerd voor optimaal contrast en zijn beide toegankelijker voor kleurenblinden.
 * Het derde tot het vijfde kleurenpalet onder de bovenste twee zijn geoptimaliseerd voor kleurharmonie.
 
-## Wijzig uw [!UICONTROL color palette]:
+## Wijzig de [!UICONTROL color palette] :
 
-Hier volgt een video over het gebruik van aangepaste [!UICONTROL color palettes]:
 
->[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
-1. Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
-1. Van de **[!UICONTROL Project Color Palette]** in de vervolgkeuzelijst kunt u kiezen uit vijf vooraf ingestelde kleurenschema&#39;s.
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruikend een palet van de douanekleur ](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
+
+1. Navigeer naar **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** .
+1. In de vervolgkeuzelijst **[!UICONTROL Project Color Palette]** kunt u een van de vijf vooraf ingestelde kleurenschema&#39;s kiezen.
 
    ![](assets/custom_palette.png)
 

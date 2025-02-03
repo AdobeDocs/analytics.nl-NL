@@ -5,7 +5,7 @@ title: Alleen-weergeven projecten
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -14,15 +14,19 @@ ht-degree: 0%
 
 # Alleen-weergeven projecten
 
-U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door delen [Workflow voor delen van projecten](/help/analyze/analysis-workspace/curate-share/share-projects.md). Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
+U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door het [ delen van het Project werkschema ](/help/analyze/analysis-workspace/curate-share/share-projects.md) delen. Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
 
 U kunt het datumbereik van de deelvensterkalender ook bewerken in alleen-weergaveprojecten.
 
 ![](assets/view-only-project.png)
 
-Hier volgt een video-overzicht van alleen-weergaveprojecten:
 
->[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ mening-slechts projecten ](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Uitgeschakelde interacties
 
@@ -35,7 +39,7 @@ Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 * Instellingen voor rij, kolom of visualisatie voor vrije vorm
 * Deelvenstersegmenten
 * Menu&#39;s Bewerken, Invoegen en Component
-* Tips voor werkruimte
+* Workspace tips
 
 ## Ingeschakelde interacties
 

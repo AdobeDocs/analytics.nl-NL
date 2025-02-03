@@ -4,18 +4,24 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1613'
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics-landingspagina
 
-De landingspagina voor Adobe Analytics brengt zowel [!DNL Analysis Workspace] als [!DNL Reports & Analytics] (einde-van-lifed) samen in één interface en toegangspunt onder de [!DNL Workspace] -paraplu. Het kenmerkt een de homepage van de projectmanager, een malplaatjesectie, en een het leren sectie om u te helpen met effectiever worden begonnen. Hier volgt een video-overzicht:
+De landingspagina voor Adobe Analytics brengt zowel [!DNL Analysis Workspace] als [!DNL Reports & Analytics] (einde-van-lifed) samen in één interface en toegangspunt onder de [!DNL Workspace] -paraplu. Het kenmerkt een de homepage van de projectmanager, een malplaatjesectie, en een het leren sectie om u te helpen met effectiever worden begonnen.
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Adobe Analytics landende pagina ](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 De Adobe Analytics-landingspagina bestaat uit de volgende subtabbladen: Projecten, Sjablonen en Leren.
 

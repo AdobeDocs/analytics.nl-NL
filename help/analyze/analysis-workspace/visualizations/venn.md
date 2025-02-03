@@ -5,9 +5,9 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -30,26 +30,33 @@ _dit artikel documenteert de visualisatie van de Venn in_ ![ AdobeAnalytics ](/h
 
 >[!ENDSHADEBOX]
 
-Met de [!UICONTROL Venn] visualisatie kunt u maximaal drie segmenten (van [!UICONTROL Components] ) en één metrische waarde slepen om een [!UICONTROL Venn] -diagram te maken.
+Het ![ Type ](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** visualisatie laat u binnen tot 3 filters en één metrisch (van het paneel van Componenten) slepen om een diagram van de Venn te bouwen.
 
-![](assets/venn.png)
+![ De visualisatie van de venn die drie filters omvat.](assets/venn.png)
 
-U kunt de muisaanwijzer op de segmenten plaatsen om meer inzicht te krijgen in percentages, enzovoort.
+U kunt de muisaanwijzer boven de filters plaatsen om meer inzicht te krijgen in percentages en nog veel meer.
 
-![](assets/venn_hover.png)
+Om a [!UICONTROL Freeform table] van [!UICONTROL Venn] visualisatie te produceren, selecteer gekleurde ![ StatusOrange ](/help/assets/icons/StatusOrange.svg) naast de **[!UICONTROL Venn]** kopbal en selecteer **[!UICONTROL Show data source]**. Er wordt een **[!UICONTROL Venn Data]** Freeform-tabel weergegeven met de gegevens die worden gebruikt om de [!UICONTROL Venn] visualisatie te maken.
 
-## [!UICONTROL Venn] diagram omzetten in [!UICONTROL Freeform] tabel
+<!--
+To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
 
-Als u het Venn-diagram wilt omzetten in een tabel voor vrije vorm, klikt u op het gekleurde punt naast de koptekst van **[!UICONTROL Venn]** en selecteert u **[!UICONTROL Manage Data Sources]** > **[!UICONTROL Available Data Sources]** > **[!UICONTROL Freeform Table]** .
+![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
 
-## [!UICONTROL Venn] diagram normaliseren
+-->
 
-Als u het [!UICONTROL Venn] -diagram wilt normaliseren (de grootte hiervan wilt wijzigen), gaat u naar het pictogram met de instellingen voor visualisatie en selecteert u **[!UICONTROL Normalization]** .
 
-![](assets/normalization.png)
+>[!BEGINSHADEBOX]
 
-## Video
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vlinvisualisatie ](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"} voor een demo video.
 
-Hier volgt een video op het diagram [!UICONTROL Venn] :
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

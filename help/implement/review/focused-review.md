@@ -4,9 +4,9 @@ description: Voer de volgende stappen uit om ervoor te zorgen dat uw implementat
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,11 @@ De situatie beoordelen en een plan opstellen om de gegevens te corrigeren. Breng
 
 *bekijk deze 2 minieme video van Adobe Analytics Champion Sarah Owen over natuurlijke tijden wanneer u revisies van uw implementatie in uw bezige programma kunt passen:*
 
->[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ die uw implementatie ](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} voor een demo video herzien.
+
+>[!ENDSHADEBOX]
+
+

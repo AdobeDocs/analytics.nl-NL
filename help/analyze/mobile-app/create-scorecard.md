@@ -4,9 +4,9 @@ title: Mobiele scorecards maken en delen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '2443'
+source-wordcount: '2452'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,13 @@ ht-degree: 0%
 
 De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over om mobiele scorecards voor uitvoerende gebruikers te vormen en voor te stellen. Om te beginnen kunt u de Adobe Analytics dashboards scorecard builder video bekijken:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Mobiele scorecard bouwer ](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 Een Adobe Analytics-scorecard toont belangrijke gegevensvisualisaties voor uitvoerende gebruikers in een getimede lay-out, zoals hieronder getoond:
 
@@ -121,9 +127,13 @@ Het plaatsen is *op* door gebrek. Schakel deze optie uit als u geen vergelijking
 
 ## Visualisaties toepassen {#viz}
 
-Bekijk een video over visualisaties voor mobiele scorecards:
 
->[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Visualizations ](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 De dashboards van de Analyse bieden vier visualisaties die u groot inzicht in afmetingspunten en metriek geven. Schakel over naar een andere visualisatie door de [!UICONTROL chart type] van de tegel [!UICONTROL Properties] te wijzigen. Selecteer gewoon de rechtertegel en wijzig vervolgens het diagramtype.
 
@@ -193,7 +203,13 @@ Elke dimensie die aan de detaildia wordt toegevoegd, wordt weergegeven in een ve
 
 Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u deelt met uw publiek.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de detailmeningen van de Douane ](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 U kunt de lay-out voor elke detaildia wijzigen en tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. U kunt het grafiektype ook veranderen gebruikend het drop-down menu.
 
@@ -229,9 +245,12 @@ Een gegevensverhaal is een inzameling van ondersteunende gegevenspunten, bedrijf
 
 Bijvoorbeeld, als u zich op Webverkeer concentreert, kan uw belangrijkste metrisch bezoeken zijn, maar u kunt ook in nieuwe bezoekers, unieke bezoekers geinteresseerd zijn, en u kunt gegevens willen zien die door Web-pagina worden verdeeld of door welk apparatentype het verkeer uit komt. Met gegevensartikelen in mobiele scorecardprojecten kunt u uw belangrijkste metriek vooraan en centraal plaatsen en het hele verhaal achter de metriek vertellen met meerdere detaildia&#39;s.
 
-Bekijk de video voor meer informatie over het maken van gegevensverhalen in mobiele scorecardprojecten in Analysis Workspace.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ gegevensverhalen ](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} voor een demo video creëren.
+
+>[!ENDSHADEBOX]
 
 **om een gegevensverhaal** te creëren
 

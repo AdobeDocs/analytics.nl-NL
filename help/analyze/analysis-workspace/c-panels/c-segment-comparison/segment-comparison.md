@@ -5,9 +5,9 @@ keywords: Analysis Workspace;Segment-IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,14 @@ _dit artikel documenteert het de vergelijkingspaneel van het Segment in_ ![ Adob
 
 Het de vergelijkingspaneel van het Segment is een hulpmiddeldeel van [ IQ van het Segment ](../../segment-iq.md) dat de statistisch meest significante verschillen onder een onbeperkt aantal segmenten ontdekt. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. Het ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel om het even welke segmenten overlappen.
 
-+++ Hier volgt een video over het vergelijken van segmenten:
 
->[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ vergelijking van het Segment ](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Gebruiken
 

@@ -4,10 +4,10 @@ description: Productdocumentatie en zelfhulp voor Analysis Workspace, analytisch
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 12%
+source-wordcount: '535'
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,12 @@ De handleiding Analytics Tools bevat informatie over productfuncties, gebruikssc
 
 Om over de grondbeginselen van Adobe Analytics te leren, controleer de *Intro aan Adobe Analytics - de Webinar van de Bouwer van de Vaardigheid* hieronder video. De video doorloopt u de basisbeginselen van hoe gegevens worden vastgelegd, hoe gegevens naar Adobe Analytics worden verzonden en welke visualisatiemogelijkheden u kunt gebruiken in Adobe Analytics. De video verstrekt een stichting voor u om gegevens te bouwen, op te stellen, te verzamelen en te interpreteren.. die u toestaan om actionable inzichten en aanbevelingen te verstrekken die op de verzamelde gegevens worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intro aan Adobe Analytics - de Webinar van de Bouwer van de Vaardigheid ](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"} voor webinar.
+
+>[!ENDSHADEBOX]
 
 Voor vragen over welk hulpmiddel om te gebruiken, zie [ Welk hulpmiddel van Adobe Analytics zou ik moeten gebruiken?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html).
 

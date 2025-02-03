@@ -4,16 +4,16 @@ description: Leer hoe en waarom u projecten maakt in Workspace met meerdere rapp
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
 
 # Meerdere rapportsuites
 
-U kunt projecten in Analysis Workspace maken met gegevens uit meerdere rapportsuite. De reeksen van het rapport worden gekozen op paneelniveau, zodat kunt u een verschillende rapportreeks voor elk paneel binnen het zelfde project van de Werkruimte kiezen.
+U kunt projecten in Analysis Workspace maken met gegevens uit meerdere rapportsuite. De reeksen van het rapport worden gekozen op paneelniveau, zodat kunt u een verschillende rapportreeks voor elk paneel binnen het zelfde project van Workspace kiezen.
 
 Deze mogelijkheid is handig als u bijvoorbeeld
 
@@ -21,13 +21,17 @@ Deze mogelijkheid is handig als u bijvoorbeeld
 
 * Bouw een dashboard van metriek en visualisaties om uit te melden aan andere organisaties. U kunt gegevens van diverse rapportreeksen in het zelfde project trekken.
 
-Hier is een video over het onderwerp:
 
->[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Veelvoudige rapportsuites ](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Rapportsuite toepassen op alle deelvensters
 
-U kunt een rapportsuite op alle deelvensters tegelijk toepassen door met de rechtermuisknop op de koptekst van een deelvenster te klikken en **[!UICONTROL Apply Report Suite to All Panels]**.
+U kunt een rapportsuite op alle deelvensters tegelijk toepassen door met de rechtermuisknop op de koptekst van een deelvenster te klikken en **[!UICONTROL Apply Report Suite to All Panels]** te selecteren.
 
 ![](assets/apply-rs-all-panels.png)
 
@@ -54,7 +58,7 @@ Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats 
 
 
    >[!NOTE]
-   >Soms wordt een banner weergegeven tijdens het laden van een project (of het overschakelen naar een rapportsuite), waarbij niet alle componenten die in het project zijn opgenomen, in de rapportsuite zijn opgenomen. De ontbrekende componenten worden weergegeven. Volg [deze instructies](/help/admin/admin-console/permissions/product-profile.md) om machtigingen in te stellen voor de vereiste maateenheden/afmetingen.
+   >Soms wordt een banner weergegeven tijdens het laden van een project (of het overschakelen naar een rapportsuite), waarbij niet alle componenten die in het project zijn opgenomen, in de rapportsuite zijn opgenomen. De ontbrekende componenten worden weergegeven. Volg [ deze instructies ](/help/admin/admin-console/permissions/product-profile.md) om toestemmingen aan de vereiste metriek/afmetingen te plaatsen.
 
    ![](assets/incompat-rs.png)
 
@@ -65,10 +69,10 @@ Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats 
 
 1. Wijzig het deelvenster in een andere rapportsuite. U ziet hoe het componentlabel (momenteel actieve rapportsuite) en de weergegeven componenten worden bijgewerkt op basis van de nieuwe rapportsuite.
 
-1. Een sneltoets gebruiken (`shift` tijdens het slepen) om een inactief deelvenster om te zetten in een actief deelvenster.
+1. Gebruik een sneltoets (`shift` tijdens het slepen) om een inactief deelvenster om te zetten in een actief deelvenster.
 
 1. (Optioneel) U kunt ook naar andere componentbuilders van Analytics gaan en ervoor zorgen dat deze nu een label van een rapportsuite tonen die
 
-   * Waar wordt een segment gemaakt: [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * Wanneer een berekende metrische waarde wordt gecreëerd: [Berekende metrische bouwer](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * Wanneer een waarschuwing wordt opgesteld: [Alert Builder](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).
+   * Waar een segment zal worden gecreeerd: [ de Bouwer van het Segment ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Waar berekende metrisch zal worden gecreeerd: [ Berekende Metrische Bouwer ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * Waar een alarm zal worden gebouwd: [ Waakzame Bouwer ](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).

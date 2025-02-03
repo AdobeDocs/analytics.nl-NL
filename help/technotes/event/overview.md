@@ -1,16 +1,16 @@
 ---
-title: Data analyseren die door gebeurtenissen worden beïnvloed
+title: Gegevens analyseren die door gebeurtenissen worden beïnvloed
 description: Begrijp hoe de gegevens die door een gebeurtenis worden beïnvloed tot algemene gegevenskwaliteit bijdragen.
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 2%
+source-wordcount: '398'
+ht-degree: 0%
 
 ---
 
-# Data analyseren die door gebeurtenissen worden beïnvloed
+# Gegevens analyseren die door gebeurtenissen worden beïnvloed
 
 Soms kan een gebeurtenis de gegevenskwaliteit in uw organisatie beïnvloeden. Voorbeelden zijn:
 
@@ -22,31 +22,35 @@ Als uw site een probleem met de gegevenskwaliteit heeft ondervonden, kunt u het 
 
 ## De oorzaak van een gebeurtenis bepalen
 
-Als u niet zeker weet waarom u een piek of daling in gegevens ziet, zie [Problemen met spikes/druppels in gegevens oplossen](spikes-drops.md).
+Als u niet zeker bent waarom u een spiek of daling in gegevens ziet, zie [ problemen oplossen spikes/vallen in gegevens ](spikes-drops.md).
 
 ## Gegevens analyseren en uitsluiten met behulp van segmentatie
 
-Adobe Analytics biedt een eenvoudige en robuuste manier om zich op gegevens te concentreren of uit te sluiten gebruikend segmentatie. U kunt de dimensies van het datumbereik binnen segmenten gebruiken om uit te filteren of op die specifieke datums te concentreren. Zie [Specifieke data in de analyse uitsluiten](segments.md).
+Adobe Analytics biedt een eenvoudige en robuuste manier om zich op gegevens te concentreren of uit te sluiten gebruikend segmentatie. U kunt de dimensies van het datumbereik binnen segmenten gebruiken om uit te filteren of op die specifieke datums te concentreren. Zie [ specifieke data in analyse ](segments.md) uitsluiten.
 
 ## Een gebeurtenis vergelijken met vorige datumbereiken
 
-Als u meer wilt weten over de invloed die een gebeurtenis op uw gegevens heeft gehad, kunt u datumvergelijking gebruiken in Analysis Workspace. Met deze functie kunt u gegevens dag voor dag, week voor week of maand vergelijken om te zien hoe deze zich verhoudt tot vorige bereiken. Vervolgens kunt u met deze vergelijking bepalen in hoeverre een gebeurtenis trends beïnvloedt. Zie [Datums vergelijken die door een gebeurtenis worden beïnvloed met vorige bereiken](compare-dates.md).
+Als u meer wilt weten over de invloed die een gebeurtenis op uw gegevens heeft gehad, kunt u datumvergelijking gebruiken in Analysis Workspace. Met deze functie kunt u gegevens dag voor dag, week voor week of maand vergelijken om te zien hoe deze zich verhoudt tot vorige bereiken. Vervolgens kunt u met deze vergelijking bepalen in hoeverre een gebeurtenis trends beïnvloedt. Zie [ data vergelijken die door een gebeurtenis aan vorige waaiers ](compare-dates.md) worden beïnvloed.
 
 ## Gegevens op basis van berekende meetwaarden
 
-Nadat u segmenten hebt gemaakt en datumvergelijking hebt gebruikt, kunt u beide concepten combineren om trendgegevens te corrigeren aan de hand van berekende meetwaarden. Neem de segmenten op in een berekende metrische waarde en vermenigvuldig de betrokken dagen met de verschuiving die wordt gevonden bij het vergelijken van datums. Zie [Afleiden van gegevens die door gebeurtenissen worden beïnvloed](calcmetrics.md).
+Nadat u segmenten hebt gemaakt en datumvergelijking hebt gebruikt, kunt u beide concepten combineren om trendgegevens te corrigeren aan de hand van berekende meetwaarden. Neem de segmenten op in een berekende metrische waarde en vermenigvuldig de betrokken dagen met de verschuiving die wordt gevonden bij het vergelijken van datums. Zie [ gegevens leiden die door gebeurtenissen ](calcmetrics.md) worden beïnvloed.
 
 ## Communiceer gevolgen aan gebruikers in uw organisatie
 
-Als u klaar bent met de manier waarop u een gebeurtenis wilt afhandelen, kunt u [communiceren met gebruikers in uw organisatie](communicate.md). Adobe biedt verschillende locaties in Analytics waar u tekst kunt plaatsen om met gebruikers te communiceren wat er is gebeurd en welke componenten zij kunnen gebruiken.
+Zodra u met wordt voorbereid hoe u van plan bent om een gebeurtenis te behandelen, kunt u [ aan gebruikers in uw organisatie ](communicate.md) communiceren. De Adobe biedt verscheidene plaatsen binnen Analytics aan waar u tekst kunt plaatsen om met gebruikers te communiceren wat gebeurde en welke componenten zij kunnen gebruiken.
 
 ## Video
 
-Deze video doorloopt elk van de bovenstaande stappen.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ variaties in uw gegevens ](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"} voor een demo video analyseren en meedelen.
 
-* **0:27**: Gegevens uitsluiten met behulp van segmentatie
-* **02:55**: Een gebeurtenis vergelijken met vorige bereiken
-* **8:42**: Gegevens op basis van berekende meetwaarden
-* **11:46**: Communiceren met gevolgen voor gebruikers
+* **0:27**: Sluit gegevens uit gebruikend segmentatie
+* **2:55**: Vergelijk een gebeurtenis met vorige waaiers
+* **8:42**: Derivegegevens die berekende metriek gebruiken
+* **11:46**: Communiceer effect aan gebruikers
+
+>[!ENDSHADEBOX]
+
+

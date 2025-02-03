@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,14 @@ Als deel van de beweging aan een nieuwe technologie van de Report Builder, kunt 
 >
 >Dupliceer elk werkboek en noem één versie anders alvorens u het omzet. Op die manier heb je nog steeds een kopie van het originele werkboek, mocht je het nodig hebben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ werkboeken ](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} voor een demo video omzetten.
+
+>[!ENDSHADEBOX]
+
+
 
 1. Opstelling de nieuwe Report Builder door [ na deze instructies ](/help/analyze/report-builder/report-builder-setup.md).
 

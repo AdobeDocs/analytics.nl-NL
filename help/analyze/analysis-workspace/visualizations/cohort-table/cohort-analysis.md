@@ -4,9 +4,9 @@ description: Dig dieper in de gegevens rond uw publiek en onderbreek in verwante
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -52,9 +52,12 @@ Voorbeelden van wat u met [!UICONTROL Cohort Analysis] kunt doen:
 
 [!UICONTROL Cohort Analysis] is beschikbaar voor alle Adobe Analytics-klanten met toegangsrechten tot [!UICONTROL Analysis Workspace] .
 
-Video over Cohort-tabellen in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ analyse van de Cohort in Analysis Workspace ](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -74,9 +77,14 @@ Een [!UICONTROL Retention] -cohortrapport retourneert bezoekers: in elke gegeven
 
 ![](assets/retention-report.png)
 
-Hier volgt een video over het berekenen van rolretentie:
 
->[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het rollen behoud ](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} voor een demo video berekenen.
+
+>[!ENDSHADEBOX]
+
+
 
 ### [!UICONTROL Churn] Tabel
 
@@ -84,9 +92,12 @@ Een [!UICONTROL Churn] -cohort is het omgekeerde van een retentietabel en toont 
 
 ![](assets/churn-report.png)
 
-Hier is een video over de analyse van de kurn:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ analyse van het Kurn ](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ### [!UICONTROL Rolling Calculation]
 

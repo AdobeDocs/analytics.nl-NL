@@ -4,9 +4,9 @@ title: Datumvergelijking
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '636'
 ht-degree: 5%
 
 ---
@@ -15,14 +15,19 @@ ht-degree: 5%
 
 Met Datumvergelijking in Analysis Workspace kunt u elke kolom met een datumbereik gebruiken en een algemene datumvergelijking maken, zoals: jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand enzovoort.
 
-Hier volgt een video over het onderwerp:
 
->[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ vergelijking van de Datum ](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Vergelijk tijdsperiodes {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL Compare Time Periods] maakt gebruik van geavanceerde berekende cijfers. Dientengevolge, is het beschikbaar slechts aan klanten met Analytics Uitgezochte, eerste, en Ultimate SKUs.
+>[!UICONTROL Compare Time Periods] maakt gebruik van geavanceerde berekende cijfers. Dientengevolge, is het beschikbaar slechts aan klanten met Analytics Uitgezochte, Prime, en SKUs van Ultimate.
 
 De analyse vereist context, en vaak wordt die context verstrekt door een vorige tijdspanne. Bijvoorbeeld de vraag &quot;Hoeveel beter of slechter doen we dan op dit moment vorig jaar?&quot; is fundamenteel voor het begrijpen van uw zaken. De Vergelijking van de datum omvat automatisch een &quot;verschilkolom&quot;, die de percentageverandering in vergelijking met een gespecificeerde tijdspanne toont.
 

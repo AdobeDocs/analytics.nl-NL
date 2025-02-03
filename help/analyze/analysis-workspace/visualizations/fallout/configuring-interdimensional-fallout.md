@@ -4,9 +4,9 @@ title: Multidimensionale uitval
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 0%
 
 Met de val in Analysis Workspace kunt u dimensies en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
 
-Hier is een video over het onderwerp:
 
->[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
+>[!BEGINSHADEBOX]
 
-**Voorbeeld**: Naast, bijvoorbeeld, een dimensie van de Pagina, kunt u op actie-gebaseerde afmetingspunten aan een visualisatie van de Vallout toevoegen. Zo kunt u visualiseren hoe pagina&#39;s en bepaalde acties op elkaar inwerken in de paden van klanten.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ multidimensionale uitval ](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
+
+**Voorbeeld**: Naast, zeg, een dimensie van de Pagina, kunt u op actie-gebaseerde afmetingspunten aan een visualisatie van de Uitval toevoegen. Zo kunt u visualiseren hoe pagina&#39;s en bepaalde acties op elkaar inwerken in de paden van klanten.
 
 ![](assets/interdimensional-fallout1.png)
 

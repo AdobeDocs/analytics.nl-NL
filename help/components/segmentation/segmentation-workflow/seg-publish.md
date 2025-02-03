@@ -3,9 +3,9 @@ description: Hiermee kunt u het segment gebruiken voor marketingactiviteiten in 
 title: Publish Segmenten naar Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ Als u een Adobe Analytics-segment naar Experience Cloud publiceert, kunt u het s
 
 U kunt de segmenten Analytics binnen 8 uur naar het Experience Cloud publiceren. Gebruik deze segmenten om publiek in Audience Manager aan alle stroomafwaartse bestemmingen te activeren.
 
-Bekijk deze video voor meer informatie:
 
->[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de segmenten van Publish ](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

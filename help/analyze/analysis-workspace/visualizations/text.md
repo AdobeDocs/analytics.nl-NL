@@ -5,9 +5,9 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -27,22 +27,35 @@ _dit artikel documenteert de visualisatie van de Tekst in_ ![ AdobeAnalytics ](/
 
 >[!ENDSHADEBOX]
 
-U kunt door de gebruiker gedefinieerde tekst toevoegen aan uw Workspace-project met behulp van een tekstvisualisatie of een beschrijvingen voor deelvenster/visualisatie (klik met de rechtermuisknop op de kop > **[!UICONTROL Edit description]** ). U kunt ook de opmaak van de tekst wijzigen, hyperlinks toevoegen en afbeeldingen toevoegen.
+U kunt
+Om user-defined rijke tekst aan uw project van Workspace toe te voegen, kunt u a ](/help/assets/icons/Text.svg) **[!UICONTROL Text]** visualisatie gebruiken van de Tekst ![ {voor een visualisatie en een paneel.
+
+## Gebruiken
+
+U kunt de tekstvisualisatie op de volgende manieren gebruiken:
+
+1. Voeg a ![ Tekst ](/help/assets/icons/Text.svg) **[!UICONTROL Text]** visualisatie toe. Zie [ een visualisatie aan een paneel ](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen.
+
+1. Selecteer **[!UICONTROL Edit description]** in een deelvenster of in een visualisatie.
+
+   Selecteer ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) wanneer gebeëindigd het uitgeven van de beschrijving, uitgezochte ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) om te annuleren.
+
+U kunt de opmaak van de tekst wijzigen, hyperlinks toevoegen en afbeeldingen toevoegen.
 
 ## Opmaak aanpassen {#format}
 
 Wanneer u het tekstvak of de beschrijving bewerkt, kunt u de tekengrootte (kopniveaus), de kleur, de opmaak (vet, cursief, onderstrepen) en de uitlijning van geselecteerde tekst aanpassen. U kunt ook lijsten met opsommingstekens en nummers toevoegen.
 
-![](assets/format.png)
+![ de opties van de Tekst voor een project van Workspace die het palet van de tekstkleur benadrukken.](assets/format.png)
 
 ## Hyperlinks toevoegen {#hyperlinks}
 
-Als u een hyperlink wilt toevoegen, markeert u de tekst en klikt u op het hyperlinkpictogram in het menu. De hyperlinks kunnen met externe websites, documentatiepagina&#39;s, [ Workspace projecten/panelen/visualisaties ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) verbinden, en meer om uw projectontvangers verder bij te staan.
+Om een hyperlink toe te voegen, benadruk de tekst en selecteer ![ Verbinding ](/help/assets/icons/Link.svg) in het menu. U kunt hyperlinks gebruiken om verdere hulp aan uw projectontvangers te verlenen. De hyperlinks kunnen met externe websites, documentatiepagina&#39;s, [ projecten van Workspace, panelen, of visualisaties ](/help/analyze/analysis-workspace/curate-share/shareable-links.md), en meer verbinden.
 
-![](assets/hyperlink.png)
+![ de opties van de Tekst met het benadrukte verbindingspictogram.](assets/hyperlink.png)
 
 ## Afbeeldingen toevoegen {#images}
 
-Als u een afbeelding aan uw project wilt toevoegen, klikt u op het afbeeldingspictogram in het menu en voegt u een openbare URL voor de afbeelding in. De afbeeldings-URL moet openbaar toegankelijk zijn, beginnen met `https` en de notatie `.png` , `.jpeg` , `.jpg` of `.gif` hebben. Statische en geanimeerde afbeeldingen worden ondersteund.
+Om een beeld aan uw project toe te voegen, selecteer ![ Beeld ](/help/assets/icons/Image.svg) in het menu en neem een openbaar beeld URL op. De afbeeldings-URL moet openbaar toegankelijk zijn, beginnen met `https` en de notatie `.png` , `.jpeg` , `.jpg` of `.gif` hebben. Statische en geanimeerde afbeeldingen worden ondersteund.
 
-![](assets/image.png)
+![ de opties van de Tekst met het geselecteerde beeldpictogram.](assets/image.png)

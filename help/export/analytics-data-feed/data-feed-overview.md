@@ -4,10 +4,10 @@ keywords: clickStream;data feed;datafeed;Data Feed
 title: Overzicht van gegevensfeed voor analyse
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 1%
+source-wordcount: '306'
+ht-degree: 0%
 
 ---
 
@@ -33,10 +33,17 @@ Met de volgende bronnen krijgt u inzicht in de basisworkflow voor het verkrijgen
 * [ beheert gegevensvoer ](df-manage-feeds.md): Leer meer over het navigeren van de interface van de gegevensvoer
 * [ de voederinhoud van Gegevens ](c-df-contents/datafeeds-contents.md): Begrijp wat binnen het samengedrukte dossier <!-- Is this still the output users can download from the destination? I aske Jun. --> is
 * [ de kolomdefinities van Gegevens ](c-df-contents/datafeeds-reference.md): Een uitvoerige lijst van alle beschikbare kolommen.
-* Video navigating the data feed interface:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-* Video over het zoeken naar de id van uw gegevensfeed:
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de interface van de gegevensvoer ](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} voor een demo video navigeren.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+>[!ENDSHADEBOX]
+
+
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ uw gegevens voer identiteitskaart ](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} voor een demo video vinden.
+
+>[!ENDSHADEBOX]

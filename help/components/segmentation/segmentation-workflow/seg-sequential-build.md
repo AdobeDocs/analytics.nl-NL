@@ -3,9 +3,9 @@ description: Opeenvolgende segmenten worden gemaakt met behulp van de operator T
 title: Opeenvolgende segmenten maken
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '3762'
+source-wordcount: '3763'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,13 @@ Opeenvolgende segmenten worden gemaakt met behulp van de operator THEN in plaats
 
 Bovendien, kunt u opeenvolgende segmenten tot een specifieke duur van tijd beperken, granularity, en tellingen tussen controlepunten gebruikend [ na en binnen exploitanten ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
-Hier is een video over sequentiële segmentatie:
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Opeenvolgende segmentatie ](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Inclusief iedereen {#section_75ADDD5D41F04800A09E592BB2940B35}
 

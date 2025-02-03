@@ -1,18 +1,18 @@
 ---
 description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
 keywords: fallout en segmentatie;segmenten in falloutanalyse;vergelijk segmenten in fallout
-title: Segmenten toepassen in een uitvalanalyse
+title: Segmenten toepassen in een falloutanalyse
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 2%
+source-wordcount: '431'
+ht-degree: 0%
 
 ---
 
-# Segmenten toepassen in een uitvalanalyse
+# Segmenten toepassen in een falloutanalyse
 
 U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
 
@@ -26,7 +26,7 @@ U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoeg
 
 ## Een segment maken van een aanraakpunt {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Maak een segment van een bepaald aanraakpunt waarin u bijzonder geïnteresseerd bent en dat u op andere rapporten kunt toepassen. U doet dit door met de rechtermuisknop op het aanraakpunt te klikken en **[!UICONTROL Create segment from touchpoint]**.
+1. Maak een segment van een bepaald aanraakpunt waarin u bijzonder geïnteresseerd bent en dat u op andere rapporten kunt toepassen. U doet dit door met de rechtermuisknop op het aanraakpunt te klikken en **[!UICONTROL Create segment from touchpoint]** te selecteren.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -50,11 +50,15 @@ U kunt ook een AND-aanraakpunt maken door het Amerikaanse gebruikerssegment naar
 
 U kunt een onbeperkt aantal segmenten vergelijken in de Fallout-visualisatie. (In de onderstaande video staat dat u maximaal drie segmenten kunt vergelijken. Dit is onjuist.)
 
-Hier volgt een video over het vergelijken van segmenten in de uitval:
 
->[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
+>[!BEGINSHADEBOX]
 
-1. Selecteer de segmenten die u wilt vergelijken in het dialoogvenster [!UICONTROL Segments] spoorstaaf links. In ons voorbeeld hebben we twee segmenten geselecteerd: US Users en Non-US Users.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ segmenten in een fallout visualisatie ](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} voor een demo video vergelijken.
+
+>[!ENDSHADEBOX]
+
+
+1. Selecteer de segmenten die u wilt vergelijken in de [!UICONTROL Segments] -rail aan de linkerkant. In ons voorbeeld hebben we twee segmenten geselecteerd: US Users en Non-US Users.
 1. Sleep ze naar de neerzetzone Segment bovenaan.
 
    ![](assets/segment-drop.png)

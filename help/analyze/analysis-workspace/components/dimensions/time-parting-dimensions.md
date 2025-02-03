@@ -1,23 +1,27 @@
 ---
 description: Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt en wordt de reeks in betekenisvollere afmetingen opgedeeld, zoals "Uur van dag" of "Dag van week".
-title: Tijduitsplitsende dimensies
+title: Afmetingen van tijd tot tijd
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
-# Tijduitsplitsende dimensies
+# Afmetingen van tijd tot tijd
 
 Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt en wordt de reeks in betekenisvollere afmetingen opgedeeld, zoals &quot;Uur van dag&quot; of &quot;Dag van week&quot;.
 
-Hier volgt een video over de afmetingen voor tijdpartering:
 
->[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Time=parting dimensies ](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks of virtuele rapportreeks. Deze afmetingen zijn beschikbaar in Analysis Workspace en kunnen helpen om de volgende vragen te beantwoorden:
 
@@ -28,13 +32,13 @@ De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks o
 
 >[!NOTE]
 >
->De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Als u tijdparterende dimensies wilt gebruiken in andere analytische oplossingen, kunt u het gereedschap [getTimeParting, plug-in](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html).
+>De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u het [ getTimeParting elektrisch toestel ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html) uitvoeren.
 
 Afmetingen van tijdpartering in Analysis Workspace zijn onder andere:
 
 | Dimension | Voorbeeldwaarden |
 | --- | --- |
-| Uur van dag | 0-23 |
+| Uur van de dag | 0-23 |
 | AM/PM | AM, PM |
 | Weekdag | Maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag |
 | Weekend/Weekdag | Weekend, weekdag |

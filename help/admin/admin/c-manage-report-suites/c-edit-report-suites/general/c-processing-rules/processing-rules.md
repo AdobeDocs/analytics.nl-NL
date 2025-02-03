@@ -5,9 +5,9 @@ title: Overzicht van verwerkingsregels
 feature: Processing Rules
 role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,20 @@ De verwerkingsregels vereenvoudigen gegevensverzameling en beheren inhoud aangez
 * Onjuist gespelde sitesecties opruimen
 * Interne zoektermen of een campagne-id uit de queryreeks in een eVar aftrekken
 
->[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
+
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ overzicht van de Regels van de Verwerking ](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Rechten voor verwerkingsregels {#section_8A4846688050453784DAE4D89355169A}
 
-Beheerders hebben het recht om verwerkingsregels te gebruiken **standaard**. Beheerders kunnen deze rechten ook aan niet-beheerders toekennen via de interface Admin Tools. Zie voor instructies []
+De beheerders hebben rechten om verwerkingsregels **door gebrek** te gebruiken. Beheerders kunnen deze rechten ook aan niet-beheerders toekennen via de interface Admin Tools. Zie [] voor instructies
 
-![Verwerkingsregels](assets/processing-rules.png)
+![ Regels van de Verwerking ](assets/processing-rules.png)
 
 ## Contextgegevens gebruiken om gegevensverzameling te vereenvoudigen {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -43,11 +50,11 @@ s.contextData['genre'] = "Youth";
 
 Als u de code eenmaal hebt ingesteld, kunt u verwerkingsregels instellen om waarden toe te wijzen aan variabelen. Bijvoorbeeld:
 
-1. Kaart `author` tot `eVar2`
-2. Kaart `section` tot `prop1` en `eVar3`
-3. Indien `author` en `section` exist, set `event5`
+1. Toewijzen `author` aan `eVar2`
+2. Toewijzen `section` aan `prop1` en `eVar3`
+3. Indien `author` en `section` bestaan, stelt u `event5` in
 
-Zie [contextData](/help/implement/vars/page-vars/contextdata.md) in de de gebruikersgids van het Uitvoeren voor meer informatie.
+Zie [ contextData ](/help/implement/vars/page-vars/contextdata.md) in de de gebruikersgids van het Uitvoeren voor meer informatie.
 
 ## Verwerkingsregels gebruiken om Actief-gegevens- en Triggergebeurtenissen te transformeren {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -57,8 +64,8 @@ De regels van de verwerking kunnen inkomende waarden controleren om gemeenschapp
 
 Zodra de variabelen van contextgegevens binnen uw implementatie worden bepaald, moeten zij aan variabelen zoals eVars worden gekopieerd om in rapportering te worden gebruikt.
 
-Zie [Een variabele met contextgegevens kopiëren naar een eVar](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) en [Een gebeurtenis instellen met een variabele van een contextgegevens](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md) voor meer informatie .
+Zie [ exemplaar een variabele van contextgegevens aan een eVar ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) en [ plaats een gebeurtenis gebruikend een variabele van contextgegevens ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md) voor meer informatie.
 
 ## Bekende beperkingen
 
-**Gebruik van kartels (^) in verwerkingsregels.** Als u in de verwerkingsvoorschriften kartels als scheidingstekens of voor andere doeleinden wilt gebruiken, moet elk karaat door twee kartels worden vertegenwoordigd. Eén karaat bijvoorbeeld weergeven als ^^, een dubbele karaat als ^^^, enzovoort.
+**Gebruik van katten (^) in verwerkingsregels.** Als u in de verwerkingsregels kartels wilt gebruiken als scheidingstekens of voor andere doeleinden, moet elk karaat door twee kartels worden vertegenwoordigd. Eén karaat bijvoorbeeld weergeven als ^^, een dubbele karaat als ^^^, enzovoort.

@@ -4,9 +4,9 @@ title: Sjablonen gebruiken
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
+source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
 workflow-type: tm+mt
-source-wordcount: '18648'
+source-wordcount: '18642'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
    <!--update screenshot -->
 
-   ![ het lusje van Rapporten ](assets/view-prebuilt-templates.png)
+   ![ het lusje van Rapporten ](assets/view-prebuilt-templates-full.png)
 
 1. In de [!UICONTROL **sectie van Malplaatjes**], selecteer één van beiden van de volgende lusjes:
 
@@ -45,9 +45,9 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
 1. Gebruik een van de volgende opties om de weergave van de beschikbare sjablonen te wijzigen:
 
-   * Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of het pictogram van de kolommening ![ kolommening ](assets/column-view-icon.png) of het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png) te selecteren.
+   * Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of de kolommening ![ ViewColumn ](/help/assets/icons/ViewColumn.svg) of het pictogram van de kaartmening ![ Kaart ](/help/assets/icons/Card.svg) te selecteren.
 
-   * Wanneer het gebruiken van het pictogram van de kaartmening ![ kaartmening ](assets/card-view-icon.png), kies van de volgende soortorden: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
+   * Wanneer het gebruiken van de kaartmening ![ Kaart ](/help/assets/icons/Card.svg), kies van de volgende soortorden: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
 
 1. Typ in het zoekveld de naam van de sjabloon die u wilt zoeken en selecteer deze in de lijst met sjablonen. U kunt de sjabloonlijst ook doorzoeken op basis van eigenschap, eVar en gebeurtenisnummer. <!-- still true? -->
 
@@ -1272,3 +1272,5 @@ De volgende sjablonen zijn beschikbaar:
 | **Apparaten** | Bekijk het merk en het model van mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site.<p>**dit kan u** helpen beter begrijpen welke mobiele apparaten het populairst onder uw gebruikersbasis zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer het teruggeven van uw plaats voor de gemeenschappelijkste mobiele apparaten.</p><p>Deze sjabloon gebruikt de dimensie Mobiele apparaatnaam.</p> |
 | **Type van Apparaat** | Bekijk de typen mobiele apparaten die mensen gebruiken om toegang te krijgen tot uw site, zoals telefoons en tablets.<p>**dit kan u helpen** beter de diverse soorten mobiele apparaten begrijpen die worden gebruikt om tot uw plaats toegang te hebben.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw plaats voor de types van mobiele apparaten die het meest worden gebruikt.</p><p>Deze sjabloon gebruikt de dimensie Mobiel apparaattype.</p> |
 | **Fabrikant** | Bekijk welke fabrikanten de mobiele apparaten produceren die mensen gebruiken om uw site te openen, zoals Apple en Samsung.<p>**dit kan u** helpen beter begrijpen welke fabrikanten onder uw gebruikersbasis populairst zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw inhoudslevering aanpassen die op de capaciteiten van verschillende fabrikanten wordt gebaseerd om een vlotte gebruikerservaring te verzekeren.</p><p>Deze sjabloon gebruikt de dimensie Mobiele fabrikant.</p> |
+
+

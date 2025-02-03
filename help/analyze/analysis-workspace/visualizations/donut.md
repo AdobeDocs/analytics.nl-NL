@@ -4,9 +4,9 @@ title: Donut
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,23 @@ _dit artikel documenteert de visualisatie van de Donut in_ ![ AdobeAnalytics ](/
 
 >[!ENDSHADEBOX]
 
-Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. Gebruik een grafiek [!UICONTROL Donut] wanneer het vergelijken van percentages van een totaal, typisch met een klein aantal punten.
 
-![](assets/donut.png)
+Gelijkaardig aan een cirkeldiagram, ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** visualisatie toont gegevens als delen of filters van een geheel. Gebruik een donutvisualisatie wanneer het vergelijken van percentages van een totaal, typisch met een klein aantal punten.
 
-Hier volgt een video over het gebruik van de [!UICONTROL Donut] visualisatie:
+![ een grafiek van de Donut die gegevens als delen of filters van een geheel tonen.](assets/donut.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een donutvisualisatie ](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"} voor een demo video toevoegen.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

@@ -4,9 +4,9 @@ description: Vrije-vormtabellen vormen de basis voor gegevensanalyse in Workspac
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -93,13 +93,23 @@ Leer meer over alle gegevens [ uitvoeropties ](https://experienceleague.adobe.co
 ## Video&#39;s
 
 Overzicht van de builder van de tabel voor vrije vorm:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het overzicht van de de lijstbouwer van de Vrije vorm ](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"} voor een demo video.
 
-Filters voor vrije-vormentabel:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+>[!BEGINSHADEBOX]
 
-Totaal vrije-vormtabellen:
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ vrije de lijstfilters van de Vrije vorm ](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"} voor een demo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de lijsttotalen van de Vrije vorm ](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
+
+

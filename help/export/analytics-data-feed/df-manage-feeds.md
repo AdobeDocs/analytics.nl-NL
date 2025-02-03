@@ -3,9 +3,9 @@ title: Gegevensfeeds beheren
 description: Leer hoe te om de interface van de gegevensvoer te navigeren. Ontdek hoe u een gegevensfeed kunt maken, bewerken en weergeven.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,13 @@ ht-degree: 0%
 
 Met de gegevensvoedermanager kunt u gegevensfeeds voor uw organisatie maken, bewerken en verwijderen. Als u toestemmingen hebt om tot de manager van de gegevensvoer toegang te hebben, kunt u gegevensvoer voor alle rapportreeksen beheren zichtbaar aan u.
 
-+++Bekijk een video over gegevensvoederbeheer.
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het voederbeheer van Gegevens ](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Gegevensfeeds weergeven
 

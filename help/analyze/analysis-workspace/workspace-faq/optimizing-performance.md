@@ -4,9 +4,9 @@ title: Analysis Workspace-prestatiefactoren en -optimalisatie
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 4cbcdc1e1287c301fe4452370e3db1f4b9b3f3a1
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2536'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,10 @@ Aanvullende factoren die niet zijn opgenomen in Help > Prestaties zijn onder and
 
 ## Tips om de productiviteit in Analysis Workspace te verhogen
 
-Hier volgt een video over het onderwerp:
 
->[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Uiteinden om productiviteit ](https://video.tv.adobe.com/v/31157?quality=12&learn=on){target="_blank"} voor een demo video te verhogen.
+
+>[!ENDSHADEBOX]
+

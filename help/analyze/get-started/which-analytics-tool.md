@@ -3,9 +3,9 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe A
 title: Welk Adobe Analytics-gereedschap moet ik gebruiken?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1214'
 ht-degree: 3%
 
 ---
@@ -16,9 +16,13 @@ Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe Analytics-hulp
 
 Voor meer op de Vergelijking van het Product van Adobe Analytics, zie [ de productvergelijking van Analytics ](/help/analyze/get-started/analytics-product-comparison.md).
 
-Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden vergeleken:
 
->[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vergelijking van hulpmiddelen ](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Adobe Analytics die gebruikersinterfaces rapporteert {#user-interfaces}
 
@@ -57,7 +61,7 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 
 **[de Invoeging API van Gegevens](/help/import/c-data-insertion-api/c-data-insertion-api.md)** zou moeten worden gebruikt:
 
-* Wanneer u gegevens naar Adobe Analytics moet uploaden en u kunt de Adobe AppMeasurement- of mobiele SDK-code niet gebruiken. We raden u aan de API voor het invoegen van gegevens in bulk te gebruiken (zie hieronder).
+* Wanneer u gegevens naar Adobe Analytics moet uploaden en u kunt de Adobe AppMeasurement- of SDK-code niet gebruiken. We raden u aan de API voor het invoegen van gegevens in bulk te gebruiken (zie hieronder).
 
 **[Bulk de Invoeging API van Gegevens ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 

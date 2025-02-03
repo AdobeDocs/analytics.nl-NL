@@ -4,9 +4,9 @@ short-description: Ontdek belangrijke functies, veelvoorkomende gebruiksscenario
 title: Adobe Analytics-overzicht
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '459'
 ht-degree: 11%
 
 ---
@@ -22,20 +22,26 @@ Gebruik de volgende bronnen om de grondbeginselen van Adobe Analytics te leren:
 
 | Documentatiebron | Functie |
 |---------|----------|
-| [Aan de slag (op rol)](/help/analyze/get-started/get-started-by-role.md) | Verstrekt gedetailleerde informatie die zeer belangrijke eigenschappen en taken verklaren u zich van moet bewust zijn, of u een beheerder, een analist, een eindgebruiker, of een ontwikkelaar bent. |
-| [De interface Analytics begrijpen](/help/analyze/get-started/analytics-interface.md) | Hiermee worden de belangrijkste gebieden van de interface Analytics beschreven. |
-| [Gebruik hoofdletters](/help/analyze/get-started/use-cases.md) | Hierin worden enkele van de belangrijkste manieren beschreven waarop Adobe Analytics organisaties kan helpen bij het verkrijgen van kritische inzichten om hun klanten beter te kunnen dienen. |
+| [ worden begonnen (door rol) ](/help/analyze/get-started/get-started-by-role.md) | Verstrekt gedetailleerde informatie die zeer belangrijke eigenschappen en taken verklaren u zich van moet bewust zijn, of u een beheerder, een analist, een eindgebruiker, of een ontwikkelaar bent. |
+| [ begrijp de interface van Analytics ](/help/analyze/get-started/analytics-interface.md) | Hiermee worden de belangrijkste gebieden van de interface Analytics beschreven. |
+| [ Gevallen van het Gebruik ](/help/analyze/get-started/use-cases.md) | Hierin worden enkele van de belangrijkste manieren beschreven waarop Adobe Analytics organisaties kan helpen bij het verkrijgen van kritische inzichten om hun klanten beter te kunnen dienen. |
 | [Welke Adobe Analytics-tool moet ik gebruiken?](/help/analyze/get-started/which-analytics-tool.md) | Bevat aanbevolen gebruiksgevallen voor elk Adobe Analytics-gereedschap. |
 | [Analytics-productvergelijking en -vereisten](/help/analyze/get-started/analytics-product-comparison.md) | Vergelijkt de verschillende beschikbare Adobe Analytics-producten. |
 | [Systeemvereisten](/help/analyze/get-started/sys-reqs.md) | Verklaart eerste vereisten en systeemvereisten voor het uitvoeren van en het gebruiken van Adobe Analytics. |
 
 ## Video-overzicht
 
-Meer informatie over de basisbeginselen van Adobe Analytics vindt u in *Introductie tot Adobe Analytics - Skill Builder Webinar* video. De video doorloopt u de basisbeginselen van hoe gegevens worden vastgelegd, hoe gegevens naar Adobe Analytics worden verzonden en welke visualisatiemogelijkheden u kunt gebruiken in Adobe Analytics. De video verstrekt een stichting voor u om gegevens te bouwen, op te stellen, te verzamelen en te interpreteren, toestaand u om activeerbare inzichten en aanbevelingen te verstrekken die op de verzamelde gegevens worden gebaseerd.
+Om over de grondbeginselen van Adobe Analytics te leren, controleer deze *Intro aan Adobe Analytics - de Webinar van de Bouwer van de Vaardigheid* video. De video doorloopt u de basisbeginselen van hoe gegevens worden vastgelegd, hoe gegevens naar Adobe Analytics worden verzonden en welke visualisatiemogelijkheden u kunt gebruiken in Adobe Analytics. De video verstrekt een stichting voor u om gegevens te bouwen, op te stellen, te verzamelen en te interpreteren, toestaand u om activeerbare inzichten en aanbevelingen te verstrekken die op de verzamelde gegevens worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
-Voor vragen over welk gereedschap u wilt gebruiken, raadpleegt u [Welk Adobe Analytics-gereedschap moet ik gebruiken?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html).
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intro aan Adobe Analytics - de Bouwer van de Vaardigheid ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} voor de webinar video.
+
+>[!ENDSHADEBOX]
+
+
+Voor vragen over welk hulpmiddel om te gebruiken, zie [ Welk hulpmiddel van Adobe Analytics zou ik moeten gebruiken?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html).
 
 ## Ga verder met Customer Journey Analytics
 
@@ -43,12 +49,12 @@ Customer Journey Analytics is de volgende generatie Analytics-oplossing van de A
 
 Hier volgen enkele voordelen van Customer Journey Analytics ten opzichte van Adobe Analytics:
 
-* **Onbeperkte variabelen en gebeurtenissen**: De concepten eVars, props en gebeurtenissen bestaan niet meer. De gegevens zijn vooral gericht op dimensies en metriek. Datasets kunnen een onbeperkt aantal unieke dimensies en metriek hebben.
+* **Onbeperkte variabelen en gebeurtenissen**: De concepten eVars, steunen, en gebeurtenissen bestaan niet meer. De gegevens zijn vooral gericht op dimensies en metriek. Datasets kunnen een onbeperkt aantal unieke dimensies en metriek hebben.
 
-* **Onbeperkte unieke waarden**: Adobe Experience Platform is niet beperkt tot enige unieke beperking.
+* **Onbeperkte unieke waarden**: Adobe Experience Platform wordt niet beperkt tot enige unieke beperkingen.
 
-* **Historische gegevens wijzigen**: Met Adobe Experience Platform kunnen gegevens worden verwijderd of gecorrigeerd.
+* **Verandering historische gegevens**: Gebruikend Adobe Experience Platform, kunnen de gegevens worden verwijderd of worden verbeterd.
 
-* **Gegevens uit meerdere rapporten**: Bestaande implementaties van meerdere datasets kunnen worden gecombineerd in Platform.
+* **dwars-rapport-reeks gegevens**: De bestaande implementaties van veelvoudige datasets kunnen in Platform worden gecombineerd.
 
-Zie voor meer informatie [Overzicht van Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html).
+Voor meer informatie, zie [ overzicht van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html).

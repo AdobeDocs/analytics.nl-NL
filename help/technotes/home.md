@@ -3,9 +3,9 @@ title: Technische notities voor Analytics
 description: Deze handleiding biedt nuttige informatie over onderwerpen die niet tot een specifieke analysetool of onderdeel behoren.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '412'
 ht-degree: 16%
 
 ---
@@ -34,9 +34,6 @@ Enkele van de belangrijkste functies van Adobe Analytics zijn:
 
 Samenvattend, is Adobe Analytics een krachtige oplossing van de Webanalyse die ondernemingen van de hulpmiddelen voorziet die zij moeten meten, analyseren en optimaliseren hun digitale marketing activiteiten. Met gegevens in real time, geavanceerde analyses, en attributiemodellering, kunnen de ondernemingen gegevens-gedreven besluiten nemen die digitale transformatie drijven en ROI verbeteren.
 
-Hier volgt een video-overzicht van Adobe Analytics:
-
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Belangrijke artikelen over technische notities
 
@@ -49,6 +46,6 @@ Hier volgt een video-overzicht van Adobe Analytics:
 ## Andere bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
-* [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [ Gemeenschap van Adobe Analytics op Experience League ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

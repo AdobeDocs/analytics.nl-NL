@@ -3,9 +3,9 @@ description: Gebruik de importer om classificaties te uploaden naar Adobe Analyt
 title: Invoerder van classificaties - overzicht
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,13 @@ Gebruik de importer om classificaties te uploaden naar Adobe Analytics. U kunt d
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
->[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de invoerder van de Classificatie ](https://video.tv.adobe.com/v/16853?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 De gegevens die u met het gereedschap Importeren importeert, moeten een specifieke indeling hebben. Met Adobe kunt u een gegevenssjabloon downloaden met alle juiste koptekstdetails in een door tabs gescheiden gegevensbestand. U kunt de nieuwe gegevens aan deze sjabloon toevoegen en het gegevensbestand vervolgens in de browser importeren met behulp van FTP.
 

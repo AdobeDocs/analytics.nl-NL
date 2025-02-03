@@ -4,9 +4,9 @@ description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace ge
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,13 @@ U kunt gelijktijdige viewers analyseren om te begrijpen waar de piekgelijktijdig
 In Analysis Workspace is de metrische waarde voor Gelijktijdige viewers het aantal unieke personen dat uw mediastreams op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.
 
 
-+++ Bekijk een videodemonstratie van deze functionaliteit.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het gezamenlijke paneel van kijkers van Media ](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} voor een demo video.
 
-+++
+>[!ENDSHADEBOX]
+
+
 
 ## Gebruiken
 

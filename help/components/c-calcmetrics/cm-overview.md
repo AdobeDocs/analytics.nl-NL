@@ -4,9 +4,9 @@ keywords: Berekende waarden;Geavanceerde berekende waarden
 title: Berekende en geavanceerde berekende statistieken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
@@ -41,14 +41,25 @@ U kunt
 * Maak metrische gegevens over [!UICONTROL Analysis Workspace] , [!UICONTROL Report Builder] , [!UICONTROL Anomaly Detection] en [!UICONTROL Contribution Analysis] .
 * Creeer gesegmenteerde metriek die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op segmenten.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Berekende metriek ](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
 
 * De metriek van het aandeel over rapportsuites. Dit betekent dat alle pas gecreëerde metriek op alle rapportsuites in het zelfde login bedrijf van toepassing is.
 * (Alleen geavanceerde berekende maatstaven) Segment op maateenheden. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is.
 
 * (Alleen geavanceerde berekende maatstaven) Neem statistische functies op om uw gegevens beter te kunnen beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gesegmenteerde berekende metriek in segmenten ](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Beperkingen {#section_CB878B02451541D68A68B508D4DBD19A}
 

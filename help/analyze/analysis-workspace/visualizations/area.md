@@ -5,14 +5,14 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
-# Gebied en gebied gestapeld
+# Gebied (gestapeld)
 
 >[!BEGINSHADEBOX]
 
@@ -34,9 +34,9 @@ De gebiedvisualisatie heeft een standaard en gestapelde optie.
 <!-- markdownlint-enable MD034 -->
 
 
-Deze visualisatie lijkt op een lijngrafiek, maar heeft een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens.
+![ GraphArea ](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** visualisatie is als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Voeg een vlakgrafiek toe wanneer u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer maateenheden.
 
-![](assets/area.png)
+![ visualisatie die van het Gebied veelvoudige metriek ](assets/area.png) tonen
 
 ## Gebied gestapeld {#area-stacked}
 
@@ -50,14 +50,17 @@ Deze visualisatie lijkt op een lijngrafiek, maar heeft een gekleurd gebied onder
 <!-- markdownlint-enable MD034 -->
 
 
-Deze visualisatie is als een Grafiek van het Gebied, maar elke reeks begint bij de bovenkant van de vorige reeks.
+De ![ GraphAreaStated ](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]** visualisatie is als een Gebied, maar elke reeks begint bij de bovenkant van de vorige reeks.
 
-![](assets/area-stacked.png)
+![ Gebied gestapeld tonend elke reeks bij de bovenkant van de vorige reeks.](assets/area-stacked.png)
 
-Met een nieuwe visualisatie-instelling voor gebied met gestapelde visualisatie verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie.
+Gebruik de **[!UICONTROL 100% stacked]** optie in ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** om de grafiek in een 100% gestapelde visualisatie te veranderen.
 
-![](assets/areastacked100.png)
+![ Gebied gestapeld die een 100% gestapelde visualisatie tonen.](assets/area-stacked100.png)
 
-Hier is een video over &quot;100% gestapelde visualisaties&quot;:
-
->[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

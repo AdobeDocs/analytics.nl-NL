@@ -4,9 +4,9 @@ title: Analyses voor venster Doel (A4T)
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,12 @@ _Dit artikel documenteert Analytics voor het paneel van het Doel in_ ![ AdobeAna
 
 Met het deelvenster Analyse voor doel kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace analyseren. Met dit deelvenster kunt u ook de optillen en het vertrouwen van maximaal drie succesmetingen bekijken. Navigeer naar een rapportsuite met Analytics voor Target-componenten voor toegang tot de Analytics voor het venster Doel. Selecteer vervolgens het deelvensterpictogram helemaal links en sleep het deelvenster Analyse voor doel naar uw Analysis Workspace-project.
 
-+++Hier is een kort video-overzicht van het deelvenster Analytics voor Doel:
 
->[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Analytics voor het paneel van het Doel ](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
 
 ## Gebruiken
 

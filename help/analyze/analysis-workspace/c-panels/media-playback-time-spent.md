@@ -4,9 +4,9 @@ description: Het deelvenster Media Playback Time Spent in Analysis Workspace geb
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,11 @@ De bestede afspeeltijd kan u helpen begrijpen:
 
 * Waar is een offsite opgetreden.
 
-+++ Bekijk een videodemonstratie van deze functionaliteit.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de playbacktijd bestede van Media paneel ](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"} voor een demo video.
 
-+++
+>[!ENDSHADEBOX]
 
 ## Gebruiken
 
