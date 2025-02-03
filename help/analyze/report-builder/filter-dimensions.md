@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 06d762614969f3557c8ccf310af266742cde9738
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,11 @@ Door gebrek, keert elk afmetingspunt in de lijst top 10 punten voor die afmeting
 
 Om de afmetingspunten te veranderen die voor elke afmeting worden teruggekeerd
 
-1. Selecteer een gegevensblok en klik op **[!UICONTROL Edit data block]** in het deelvenster OPDRACHTEN.
+1. Klik op **[!UICONTROL Manage]** en selecteer een gegevensblok in de lijst.
+
+   ![ leidt > geeft gegevensblok ](./assets/manage-edit.png) uit
+
+1. Klik op **[!UICONTROL Edit data block]** in het deelvenster OPDRACHTEN.
 
 1. Klik op **[!UICONTROL Next]** om het tabblad Dimensionen weer te geven.
 
