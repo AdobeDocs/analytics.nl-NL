@@ -5,9 +5,9 @@ title: Tijdstempels optioneel
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,14 @@ ht-degree: 0%
 
 Meer informatie over de voordelen en beperkingen van het gebruik van de optie Tijdstempels optioneel.
 
+<!-- Hide video as it is not adding a lot according to feedback from customer in feedback report January 2025.
 
 >[!BEGINSHADEBOX]
 
-Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Tijdstempels van 0} VideoCheckedOut Facultatief ](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} voor een demo video.![
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
+-->
 
 
 Tijdstempels optioneel is de standaardinstelling voor alle nieuwe rapportsuites.

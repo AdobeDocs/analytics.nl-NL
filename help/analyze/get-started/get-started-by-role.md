@@ -3,10 +3,10 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: Aan de slag voor beheerders, analisten, eindgebruikers en ontwikkelaars
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 4%
+source-wordcount: '1696'
+ht-degree: 5%
 
 ---
 
@@ -149,3 +149,8 @@ Voor informatie over hoe te om analyses in Analysis Workspace tot stand te breng
 [ Analytics APIs ](https://developer.adobe.com/analytics-apis/docs/2.0/) staat u toe om de servers van de Adobe direct te roepen om bijna om het even welke actie uit te voeren die u in het gebruikersinterface kunt uitvoeren.
 
 U kunt rapporten maken om te verkennen, inzichten op te halen of belangrijke vragen over uw gegevens te beantwoorden. U kunt ook componenten van Adobe Analytics beheren, zoals het maken van segmenten of berekende metriek.
+
+>[!MORELIKETHIS]
+>
+>[Een document voor het ontwerp van een oplossing maken](/help/implement/prepare/solution-design.md)
+>
