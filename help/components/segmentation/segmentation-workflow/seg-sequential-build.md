@@ -3,20 +3,18 @@ description: Opeenvolgende segmenten worden gemaakt met behulp van de operator T
 title: Opeenvolgende segmenten maken
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
 workflow-type: tm+mt
-source-wordcount: '3763'
+source-wordcount: '2297'
 ht-degree: 1%
 
 ---
 
-# Opeenvolgende segmenten maken
+# Sequentiële segmenten
 
-Opeenvolgende segmenten worden gemaakt met behulp van de operator THEN in plaats van AND of OR. VERVOLGENS impliceert dat één segmentcriteria voorkomt, gevolgd door een andere. Door gebrek, identificeert een opeenvolgend segment alle passende gegevens, die de filter &quot;omvatten iedereen&quot;tonen. Opeenvolgende segmenten kunnen verder worden gefilterd naar een subset van overeenkomende resultaten met de opties &quot;Alleen voor reeks&quot; en &quot;Alleen na reeks&quot;.
+U maakt opeenvolgende segmenten met de logische operator [!UICONTROL Then] tussen componenten, containers en componenten of containers. De logische operator [!UICONTROL Then] impliceert dat de ene segmentvoorwaarde optreedt, gevolgd door een andere.
 
-![](assets/before-after-sequence.png)
-
-Bovendien, kunt u opeenvolgende segmenten tot een specifieke duur van tijd beperken, granularity, en tellingen tussen controlepunten gebruikend [ na en binnen exploitanten ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+Bovendien kunt u opeenvolgende segmenten beperken tot een specifieke tijdsduur, granulariteit en tellingen tussen controlepunten met de **[!UICONTROL After]** en **[!UICONTROL Within operators]** .
 
 
 >[!BEGINSHADEBOX]
@@ -25,415 +23,279 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Opeenvolgende
 
 >[!ENDSHADEBOX]
 
+Een opeenvolgend segment heeft sommige [ basisfunctionaliteit ](#basics) en extra opties die u kunt vormen om meer ingewikkeldheid aan het opeenvolgende segment toe te voegen:
 
-## Inclusief iedereen {#section_75ADDD5D41F04800A09E592BB2940B35}
+![ Opeenvolgend segment ](assets/sequential-segment.gif)
 
-Wanneer u een segment maakt waarin Inclusief iedereen is ingesteld, identificeert het segment paden die overeenkomen met het opgegeven patroon als geheel. Dit is een voorbeeld van een standaardsequentiesegment dat op zoek is naar een hit (pagina A) gevolgd door een andere hit (pagina B) die dezelfde bezoeker heeft bezocht. Het segment is ingesteld op Inclusief iedereen.
 
-![](/help/admin/admin/assets/filter.png)
-![ 70a875e2-0ef9-4459-8648-77c60081d64d ](assets/copied-link-1.png)
+## Basisbeginselen
 
-| Indien resultaat... | Reeks |
-|--- |--- |
-| Overeenkomsten | A dan B <br> A toen (in een verschillend bezoek) B <br> A toen D dan B |
-| Komt niet overeen | B en A |
+De grondbeginselen van de bouw van een opeenvolgend segment zijn niet verschillend dan de bouw van een regelmatig segment gebruikend de [ bouwer van het Segment ](seg-build.md). Een regelmatig segment wordt automatisch een opeenvolgend segment zodra u de **[!UICONTROL Then]** exploitant in de belangrijkste definitie of in om het even welke containers selecteert u binnen de [ bouwer van de Segmentatie ](seg-build.md) gebruikt.
 
-## Alleen voor reeks en Alleen na reeks {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+### Voorbeelden
 
-Met de opties **[!UICONTROL Only Before Sequence]** en **[!UICONTROL Only After Sequence]** filtert u het segment naar een subset van gegevens voor of na de opgegeven reeks.
+In de onderstaande voorbeelden ziet u hoe u sequentiële segmenten gebruikt in verschillende gevallen.
 
-* **slechts vóór Opeenvolging**: Omvat alle treffers vóór een opeenvolging + de eerste slag van de opeenvolging zelf (zie voorbeeld 1, 3). Als een reeks meerdere keren in een pad wordt weergegeven, bevat &quot;Alleen voor reeks&quot; de eerste treffer van de laatste instantie van de reeks en alle vorige treffers (zie voorbeeld 2).
-* **slechts na Opeenvolging**: Omvat alle treffers na een opeenvolging + de laatste slag van de opeenvolging zelf (zie voorbeeld 1, 3). Als een reeks meerdere keren in een pad wordt weergegeven, bevat &quot;Alleen na&quot; de laatste hit van de eerste instantie van de reeks en alle volgende treffers (zie voorbeeld 2).
+#### Eenvoudige reeks
 
-Neem bijvoorbeeld de volgorde B -> D. De drie filters zouden klappen als volgt identificeren:
+Geef bezoekers op die een pagina hebben weergegeven en bekijk vervolgens een andere pagina. De gegevens op raakniveau worden met deze reeks gesegmenteerd. Ongeacht eerdere, eerdere of tijdelijke bezoekersbezoeken, of de tijd of het aantal pagina-opgaven tussen de bezoeken.
 
-**Voorbeeld 1: B dan verschijnt D eens**
+![ Opeenvolgend segment omvat iedereen ](assets/sequence-include-everyone.png)
 
-| Voorbeeld | A | B | C | D | E | F |
-|---|---|---|---|---|---|---|
-| Inclusief iedereen | A | B | C | D | E | F |
-| Alleen voor reeks | A | B |  |  |  |  |
-| Alleen na reeks |  |  |  | D | E | F |
+#### Volgorde voor bezoeken
 
-**Voorbeeld 2: B dan verschijnt D veelvoudige tijden**
+Geef bezoekers op die een pagina tijdens een bezoek hebben weergegeven en bekijk vervolgens een andere pagina tijdens een ander bezoek. Om tussen bezoeken te onderscheiden, gebruikcontainers om de opeenvolging te bouwen en ![ te bepalen Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** niveau voor elke container.
 
-| Voorbeeld | A | B | C | D | B | C | D | E |
-|---|---|---|---|---|---|---|---|---|
-| Inclusief iedereen | A | B | C | D | B | C | D | E |
-| Alleen voor reeks | A | B | C | D | B |  |  |  |
-| Alleen na reeks |  |  |  | D | B | C | D | E |
+![ segment van de Opeenvolging over bezoeken ](assets/sequence-filter-session.png)
 
-Laten we dit concept ook omringen met de dimensie van de Diepte van het Actief.
+#### Volgorde op gemengde niveaus
 
-**Voorbeeld 3: Hit Diepte 3 toen 5**
+Identificeer bezoekers die twee pagina&#39;s voor een onbepaald aantal bezoeken bekijken, en bekijk dan een derde pagina in een afzonderlijk bezoek. Opnieuw, gebruiks containers om de opeenvolging te bouwen en ![ Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** niveau op de container te bepalen die het afzonderlijke bezoek bepaalt.
 
-![](assets/hit-depth.png)
+![ segment van de Opeenvolging met afzonderlijk definitief bezoek ](assets/sequence-filter-final-session.png)
 
-## Beperkingen Dimension {#section_EAFD755F8E674F32BCE9B642F7F909DB}
+#### Samengevoegde reeks
 
-In een &quot;binnen&quot;clausule, binnen tussen VEREN verklaringen, kunt u, bijvoorbeeld, &quot;binnen 1 onderzoek sleutelwoordinstantie&quot;toevoegen, &quot;binnen 1 eVar 47 instantie&quot;. Dit beperkt het segment tot binnen één instantie van een dimensie.
+Identificeer bezoekers die tijdens hun eerste bezoek een specifieke pagina bezochten en later een aantal andere pagina&#39;s bezochten. Om tussen de opeenvolging van klappen te onderscheiden, gebruikcontainers om de logica op a ![ WebPage ](/help/assets/icons/WebPage.svg) te scheiden **[!UICONTROL Visit]** containerniveau.
 
-Door een component &#39;Binnen Dimension&#39; tussen regels in te stellen, kan een segment gegevens beperken tot reeksen waarvoor aan die component wordt voldaan. Zie het onderstaande voorbeeld, waarin de beperking is ingesteld op &quot;Binnen 1 pagina&quot;:
+![ bezoek gezamenlijke containers ](assets/session-aggregate-containers.png)
 
-![](assets/sequence-filter4.png)
 
-| Indien resultaat... | Reeks |
-|--- |--- |
-| Overeenkomsten | A then B |
-| Komt niet overeen | A toen C toen B (omdat B niet binnen 1 pagina van A) <br>**Nota was:** als de afmetingsbeperking uit wordt genomen, &quot;A toen B&quot;en &quot;A toen C dan B&quot;allebei zou aanpassen. |
+#### Een reeks nesten
 
-## Eenvoudige paginaweergavevolgorde
+Identificeer alle bezoeken waar een bezoeker één pagina vóór een andere pagina bezoekt en dan vervolgbezoeken die twee andere pagina&#39;s omvatten. U kunt bijvoorbeeld alle bezoeken identificeren waar een bezoeker eerst de homepage bezoekt, vervolgens een pagina van categorie 1 en vervolgens andere bezoeken waar in elk bezoek de pagina&#39;s van categorie 2 en 3 wordt bezocht.
 
-Geef bezoekers op die een pagina hebben weergegeven en bekijk vervolgens een andere pagina. De gegevens op hit-level gegevens zullen deze opeenvolging ongeacht vorige, afgelopen, of tussentijdse bezoeken zittingen of de tijd of het aantal paginameningen filtreren die tussen voorkomen.
+![ Geneste opeenvolging ](assets/sequence-nested.png)
 
-**Voorbeeld**: Bezoeker bekeken pagina A, toen bekeken pagina B in het zelfde of een ander bezoek.
+## [!UICONTROL After] en [!UICONTROL Within]
 
-**Gevallen van het Gebruik**
+U kunt ](/help/assets/icons/Clock.svg) Klok **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) gebruiken **[!UICONTROL Within]** de **[!UICONTROL Then]** exploitant om extra [ tijdbeperkingen ](#time-constraints) of [ beperkingen voor Hits, Bezoek of Dimensionen ](#event-session-and-dimension-constraints) te bepalen.![
 
-Hieronder ziet u voorbeelden van hoe het segment kan worden gebruikt.
+### Tijdbeperkingen
 
-1. Bezoekers van een sportsite bekijken de landingspagina van het voetbal en bekijken de landingspagina van de basketbal dan in volgorde, maar niet noodzakelijkerwijs tijdens hetzelfde bezoek. Dit leidt tot een campagne om basketbalinhoud aan voetbalkijkers tijdens het voetbalseizoen te promoten.
-1. De autoverkoper identificeert een verhouding tussen degenen die op de pagina van de klantenloyaliteit landen en dan naar de videopagina op elk ogenblik tijdens het bezoek of een ander bezoek gaan.
+Tijdsbeperkingen toepassen op de operator **[!UICONTROL Then]** :
 
-**creeer dit segment**
+1. Selecteer ![ Klok ](/help/assets/icons/Clock.svg).
+1. Selecteer **[!UICONTROL Within]** of **[!UICONTROL After]** in het contextmenu.
+1. Geef een tijdsperiode op (**[!UICONTROL Minute]**, **[!UICONTROL Hour]** tot **[!UICONTROL Years]** ).
+1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**of **[!UICONTROL +]**.
 
-U negeert twee paginalijnen binnen een container op hoofdniveau [!UICONTROL Visitor] en geeft de paginareeksen een reeks met behulp van de operator [!UICONTROL THEN] .
+Om een tijdbeperking te verwijderen, gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg).
 
-![](assets/segment_sequential_1.png)
-
-## Bezoekersreeks bij bezoeken
-
-Identificeer de bezoekers die uit een campagne vielen maar dan aan de opeenvolging van paginameningen in een andere zitting terugkwamen.
-
-**Voorbeeld**: Bezoeker bekeken pagina A in één bezoek, toen bekeken pagina B in een ander bezoek.
-
-**Gevallen van het Gebruik**
-
-Hieronder volgen voorbeelden van de manier waarop dit type segment kan worden gebruikt:
-
-* Bezoekers op de pagina Sport van een nieuwssite bekijken de pagina Sport in een andere sessie opnieuw.
-* Een kledinghandelaar ziet een relatie tussen bezoekers die op een landingspagina in één zitting landen, en dan direct naar de checkout pagina in een andere zitting gaan.
-
-**creeer dit Segment**
-
-In dit voorbeeld worden twee **[!UICONTROL Visit]** -containers genest in de **[!UICONTROL Visitor]** -container op hoofdniveau en wordt het segment gesorteerd met de [!UICONTROL THEN] -operator.
-
-![](assets/visitor_seq_across_visits.png)
-
-## Volgorde op gemengde niveaus
-
-Identificeer bezoekers die twee pagina&#39;s over een onbepaald aantal bezoeken bekijken, maar dan een derde pagina in een afzonderlijk bezoek bekijken.
-
-**Voorbeeld**: Bezoekers bezoeken pagina A en dan pagina B in één of meerdere bezoeken, die door een bezoek aan pagina C in een afzonderlijk bezoek worden gevolgd.
-
-**Gevallen van het Gebruik**
-
-Hieronder volgen voorbeelden van de manier waarop dit type segment kan worden gebruikt:
-
-* Bezoekers bezoeken eerst een nieuwssite en bekijken de sportpagina tijdens hetzelfde bezoek. Bij een ander bezoek bezoekt de bezoeker de weerpagina.
-* De detailhandelaar bepaalt bezoekers die de Belangrijkste pagina ingaan en dan naar de Mijn pagina van de Rekening gaan. In een ander bezoek gaan ze naar de pagina Winkelwagentje bekijken.
-
-**creeer dit segment**
-
-1. Laat twee pagina-afmetingen vallen vanuit het linkervenster binnen een container op hoofdniveau [!UICONTROL Visitor] .
-1. Voeg de operator THEN ertussen toe.
-1. Klik op **[!UICONTROL Options]** > **[!UICONTROL Add container]** en voeg een container [!UICONTROL Visit] toe onder het [!UICONTROL Visitor] -niveau en met de [!UICONTROL THEN] -operator in volgorde.
-
-![](assets/mixed_level_checkpoints.png)
-
-## Samengevoegde containers
-
-Door meerdere [!UICONTROL Hit] -containers in een [!UICONTROL Visitor] -container toe te voegen, kunt u de juiste operatoren gebruiken tussen hetzelfde type containers en kunt u regels en afmetingen gebruiken, zoals Pagina en Bezoek nummer, om de paginaweergave te definiëren en een reeksdimensie binnen de [!UICONTROL Hit] -container te verschaffen. Door logica toe te passen op het niveau Actief kunt u overeenkomsten op hetzelfde niveau van hits binnen de container van [!UICONTROL Visitor] beperken en combineren om een verscheidenheid aan segmenttypen te maken.
-
-**Voorbeeld**: Bezoekers bezochten pagina A na de eerste slag in de opeenvolging van paginameningen (pagina D in het voorbeeld), dan bezocht of pagina B of pagina C ongeacht het aantal bezoeken.
-
-**Gevallen van het Gebruik**
-
-Hieronder volgen voorbeelden van de manier waarop dit type segment kan worden gebruikt:
-
-* Geef bezoekers die naar de Main-landingspagina gaan tijdens een bezoek op, bekijk de pagina voor kleding voor heren tijdens een ander bezoek en bekijk vervolgens de landingspagina van Vrouw of Kinderen tijdens een ander bezoek.
-* Een e-zine legt de bezoekers vast die in één bezoek naar de startpagina gaan, de pagina Sport in een ander bezoek en de pagina Advies in een ander bezoek.
-
-**creeer dit segment**
-
-1. Selecteer de [!UICONTROL Visitor] -container als container op hoofdniveau.
-1. Voeg twee containers op [!UICONTROL Hit] niveau toe, een dimensie met een geschikte numerieke dimensie die op hetzelfde [!UICONTROL Hit] niveau zijn verbonden door de operator [!UICONTROL AND] en [!UICONTROL OR] .
-1. Voeg binnen de [!UICONTROL Visit] -container nog een [!UICONTROL Hit] -container toe en nestel twee extra [!UICONTROL Hit] -containers samen met een [!UICONTROL OR] - of [!UICONTROL AND] -operator.
-
-   Reeks deze geneste [!UICONTROL Hit] containers met de [!UICONTROL THEN] operator.
-
-![](assets/aggregate_checkpoints2.png)
-
-## &quot;Nesten&quot; in opeenvolgende segmenten
-
-Door controlepunten op zowel het [!UICONTROL Visit] als [!UICONTROL Hit] niveau te plaatsen, kunt u het segment beperken om aan vereisten binnen een specifiek bezoek evenals een specifieke slag te voldoen.
-
-**Voorbeeld**: Bezoeker bezocht pagina A toen bezocht pagina B in het zelfde bezoek. Tijdens een nieuw bezoek ging de bezoeker naar pagina C.
-
-**creeer dit segment**
-
-1. Sleep onder een container op hoofdniveau [!UICONTROL Visit] in twee pagina-afmetingen.
-1. Selecteer beide regels meerdere keren, klik op **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]** en wijzig deze in een [!UICONTROL Visit] -container.
-1. Verbind hen met een [!UICONTROL THEN] exploitant.
-1. Maak een container Actief als een peer voor de [!UICONTROL Visit] -container en sleep in een paginadimensie.
-1. Sluit de geneste reeks in de container [!UICONTROL Visit] aan met de [!UICONTROL Hit] container met een andere [!UICONTROL THEN] -operator.
-
-![](assets/nesting_sequential_seg.png)
-
-## hits uitsluiten
-
-Segmentregels bevatten alle gegevens, tenzij u specifiek [!UICONTROL Visitor] -, [!UICONTROL Visit] - of [!UICONTROL Hit] -gegevens uitsluit met de [!UICONTROL Exclude] -regel. Hiermee kunt u algemene gegevens negeren en segmenten met meer focus maken. U kunt ook segmenten maken, met uitzondering van gevonden groepen, om de resterende gegevensset te identificeren, zoals het maken van een regel die succesvolle bezoekers die bestellingen hebben geplaatst bevat en vervolgens het uitsluiten van deze groepen om &quot;niet-kopers&quot; te identificeren. In de meeste gevallen is het echter beter om regels te maken die brede waarden uitsluiten in plaats van de [!UICONTROL Exclude] -regel te gebruiken om specifieke include-waarden als doel in te stellen.
-
-Bijvoorbeeld:
-
-* **sluit pagina&#39;s** uit. Gebruik een segmentregel om een specifieke pagina (zoals *`Home Page`* ) uit een rapport te verwijderen, maak een Actief-regel waar de pagina gelijk is aan &quot;Startpagina&quot; en sluit deze vervolgens uit. Deze regel bevat automatisch alle waarden behalve de startpagina.
-* **sluit verwijzende domeinen** uit. Gebruik een regel die alleen verwijzende domeinen van Google.com omvat en alle andere uitsluit.
-* **identificeer niet-kopers**. Identificeer wanneer orden groter dan nul zijn en sluit dan [!UICONTROL Visitor] uit.
-
-De operator [!UICONTROL Exclude] kan worden gebruikt om een reeks op te geven waarin specifieke bezoeken of treffers niet door de bezoeker worden uitgevoerd. [!UICONTROL Exclude Checkpoints] kan ook binnen de Groep van de a [ Logica ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) worden omvat.
-
-### Uitsluiten tussen controlepunten
-
-Regelgeving afdwingen om bezoekers te segmenteren op plaatsen waar een controlepunt niet expliciet voorkomt tussen twee andere controlepunten.
-
-**Voorbeeld**: Bezoekers die pagina A bezochten en dan pagina C-maar geen pagina B bezochten.
-
-**Gevallen van het Gebruik**
-
-Hieronder volgen voorbeelden van de manier waarop dit type segment kan worden gebruikt:
-
-* Bezoekers naar een pagina Lifestyle en vervolgens naar de sectie Theater zonder naar de pagina Arts te gaan.
-* Een auto-detailhandelaar ziet een relatie tussen hen die de belangrijkste landingspagina bezoeken en dan direct naar de campagne van de Geen Rente gaan zonder naar de pagina van het Voertuig te gaan.
-
-**creeer dit segment**
-
-Maak een segment zoals u dat zou doen voor een eenvoudig, gemengd of genest opeenvolgend segment en stel vervolgens de operator [!UICONTROL EXCLUDE] in voor het containerelement. Het onderstaande voorbeeld is een geaggregeerd segment waarbij de drie [!UICONTROL Hit] -containers naar het canvas worden gesleept. De [!UICONTROL THEN] -operator is toegewezen aan samenvoeging met de containerlogica en sluit vervolgens de weergavecontainer voor de middelste pagina uit, zodat alleen bezoekers die van pagina A naar pagina C zijn gegaan in de reeks worden opgenomen.
-
-![](assets/exclude_between_checkpoints.png)
-
-### Uitsluiten aan begin van reeks
-
-Als het uitsluit controlepunt aan het begin van een opeenvolgend segment is, dan zorgt het ervoor dat een uitgesloten paginamening niet vóór de eerste niet-uitgesloten slag voorkwam.
-
-Een restaurant wil bijvoorbeeld gebruikers zien die de hoofdbestemmingspagina vaak niet hoeven te gebruiken en rechtstreeks naar de pagina Bestellen uit gaan. U kunt deze gegevens weergeven door hits naar de bestemmingspagina uit te sluiten en door resultaten naar de pagina Bestellen uit op te nemen in een opeenvolgend segment.
-
-**creeer dit segment**
-
-Maak twee aparte Hit-containers in een bezoekercontainer op hoofdniveau. Stel vervolgens de operator [!UICONTROL EXCLUDE] in voor de eerste container.
-
-![](assets/exclude_beginning_sequence.png)
-
-### Uitsluiten aan einde van reeks
-
-Als het uitsluit controlepunt aan het eind van een opeenvolging is, dan zorgt het ervoor dat het controlepunt niet tussen het laatste niet-uitgesloten controlepunt en het eind van de bezoekersopeenvolging gebeurde.
-
-Een kledingwinkel wil bijvoorbeeld alle bezoekers zien die een productpagina hebben bekeken, maar daarna nooit hun winkelwagentje hebben bezocht. Dit voorbeeld kan worden vereenvoudigd voor een bezoeker die naar pagina A gaat en dan nooit naar pagina B gaat bij huidige of volgende bezoeken.
-
-**creeer dit segment**
-
-U kunt een eenvoudig sequentiesegment maken door twee [!UICONTROL Hit] -containers naar het canvas te slepen en deze aan te sluiten met de operator [!UICONTROL THEN] . Wijs vervolgens de operator [!UICONTROL EXCLUDE] toe aan de tweede container in de reeks.[!UICONTROL Hit]
-
-![](assets/exclude_end_sequence.png)
-
-## Containers voor logische groepen
-
-Logische Groepcontainers worden vereist om voorwaarden in één enkel opeenvolgend segmentcontrolepunt te groeperen. De container voor de speciale logische groep is alleen in sequentiële segmentatie beschikbaar, om ervoor te zorgen dat aan de voorwaarden wordt voldaan na elk voorafgaand controlepunt en vóór elk volgend controlepunt. Aan de voorwaarden binnen het controlepunt van de Logische Groep zelf kan in om het even welke orde worden voldaan. Niet-opeenvolgende containers (hit, visit, bezoeker) vereisen daarentegen niet dat aan de voorwaarden ervan wordt voldaan binnen de gehele reeks, wat leidt tot intuïtieve resultaten bij gebruik met een THEN-operator.
-De [!UICONTROL Logic Group] container werd ontworpen om *verscheidene controlepunten als groep* te behandelen, *zonder het opdracht geven tot* onder de gegroepeerde controlepunten. Met andere woorden, we geven niet om de volgorde van de controlepunten binnen die groep. U kunt bijvoorbeeld geen [!UICONTROL Visitor] -container nesten in een [!UICONTROL Visitor] -container. Maar in plaats daarvan kunt u een [!UICONTROL Logic Group] -container nesten in een [!UICONTROL Visitor] -container met specifieke controlepunten op [!UICONTROL Visit] -niveau en op [!UICONTROL Hit] -niveau.
-
->[!NOTE]
->
->Een [!UICONTROL Logic Group] kan alleen worden gedefinieerd in een opeenvolgend segment, wat betekent dat de operator [!UICONTROL THEN] wordt gebruikt binnen de expressie.
-
-| Containerhiërarchie | Illustratie | Definitie |
-|---|---|---|
-| Standaard containerhiërarchie | ![](assets/nesting_container.png) | In de container van [!UICONTROL Visitor] worden de containers [!UICONTROL Visit] en [!UICONTROL Hit] op volgorde genest om segmenten te extraheren op basis van hits, het aantal bezoeken en de bezoeker. |
-| Logische containerhiërarchie | ![](assets/logic_group_hierarchy.png) | De standaardcontainerhiërarchie is ook vereist buiten de [!UICONTROL Logic Group] -container. Maar binnen de container van [!UICONTROL Logic Group], vereisen de controlepunten geen gevestigde orde of hiërarchie-deze controlepunten eenvoudig door de bezoeker in om het even welke orde moeten worden vervuld. |
-
-Logische groepen lijken ontmoedigend. Hier volgen enkele aanbevolen procedures voor het gebruik ervan:
-
-**Logische Groep of Hit/Bezoek container?**
-Als u opeenvolgende controlepunten wilt groeperen, dan is uw &quot;container&quot;Logische Groep. Als deze opeenvolgende controlepunten echter moeten plaatsvinden binnen één druk- of bezoekbereik, is een &quot;hit&quot;- of &quot;visit&quot;-container vereist. (Natuurlijk heeft &#39;hit&#39; geen zin voor een groep opeenvolgende controlepunten, wanneer één hit niet meer dan één controlepunt mag crediteren).
-
-**vereenvoudigen de Logische Groepen het bouwen opeenvolgende segmenten?**
-Ja, dat kunnen ze. Veronderstel u probeert om dit segment van bezoekers te identificeren: **Bezoekers die pagina A bekeken, dan elk van de pagina&#39;s van B, C, en D** bekeken
-
-U kunt dit segment bouwen zonder een container van de Logische Groep, maar het is complex en moeizaam. U moet elke reeks pagina&#39;s opgeven die de bezoeker kan weergeven:
-* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
-* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
-* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
-* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
-* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
-* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
-
-Een container van de Groep van de Logica vereenvoudigt de bouw van dit segment, zoals hier getoond:
-
-![](assets/logic-grp-example.png)
-
-
-### Een segment voor de logische groep maken {#section_A5DDC96E72194668AA91BBD89E575D2E}
-
-Net als andere containers kunnen [!UICONTROL Logic Group] -containers op meerdere manieren worden gebouwd binnen de [!UICONTROL Segment Builder] . U kunt [!UICONTROL Logic Group] containers het beste nesten:
-
-1. Sleep afmetingen, gebeurtenissen of segmenten vanuit de linkerdeelvensters.
-1. Wijzig de bovenste container in een [!UICONTROL Visitor] -container.
-1. Wijzig de operator [!UICONTROL AND] of [!UICONTROL OR] die standaard wordt ingevoegd in de operator THEN.
-1. Selecteer de [!UICONTROL Hit] -containers (het Dimension, de gebeurtenis of het item) en klik op **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]** .
-1. Klik op het containerpictogram en selecteer **[!UICONTROL Logic Group]** . ![](assets/logic_group_checkpoints.png)
-1. U kunt nu de container [!UICONTROL Hit] in de container [!UICONTROL Logic Group] instellen zonder rekening te houden met de hiërarchie.
-
-### Controlepunten voor logische groepen in willekeurige volgorde
-
-Met [!UICONTROL Logic Group] kunt u voldoen aan voorwaarden binnen die groep die zich buiten de reeks bevinden. Hierdoor kunt u segmenten maken waarin een [!UICONTROL Visit] - of [!UICONTROL Hit] -container onafhankelijk van de normale hiërarchie plaatsvindt.
-
-**Voorbeeld**: Bezoekers die pagina A bezochten, dan bezocht pagina B en pagina C in om het even welke orde.
-
-**creeer dit segment**
-
-Pagina B en C zijn genest in een [!UICONTROL Logic Group] -container in de buitenste [!UICONTROL Visitor] -container. De [!UICONTROL Hit] -container voor A wordt vervolgens gevolgd door de [!UICONTROL Logic Group] -container met B en C die met de [!UICONTROL AND] -operator zijn geïdentificeerd. Omdat deze zich in de [!UICONTROL Logic Group] bevindt, wordt de reeks niet gedefinieerd en als u pagina B en C aanslaat, wordt het argument waar.
-
-![](assets/logic_group_any_order2.png)
-
-**Een ander voorbeeld**: Bezoekers die pagina B of pagina C, toen bezochte pagina A bezochten:
-
-![](assets/logic_group_any_order3.png)
-
-Het segment moet op lease-basis overeenkomen met een van de controlepunten van de logische groep (B of C). Bovendien kan aan de voorwaarden van de logische groep worden voldaan in hetzelfde resultaat of in meerdere hits.
-
-### Logische groep eerst overeenkomst
-
-Met [!UICONTROL Logic Group] kunt u voldoen aan voorwaarden binnen die groep die zich buiten de reeks bevinden. In dit ongeordende eerste overeenkomende segment worden de [!UICONTROL Logic Group] -regels eerst geïdentificeerd als een paginaweergave van pagina B of pagina C en vervolgens als de vereiste weergave van pagina A.
-
-**Voorbeeld**: Bezoekers die of pagina B of pagina C bezochten, dan bezocht pagina A.
-
-**creeer dit segment**
-
-De afmetingen van pagina B en pagina C worden gegroepeerd binnen een [!UICONTROL Logic Group] container met de [!UICONTROL OR] geselecteerde exploitant, dan de [!UICONTROL Hit] container die een paginamening van pagina A als waarde identificeert.
-
-![](assets/logic_group_1st_match.png)
-
-### Logische groep uitsluiten EN
-
-Maak segmenten met behulp van [!UICONTROL Logic Group] waar weergaven van meerdere pagina&#39;s worden samengevoegd om te definiëren welke pagina&#39;s moesten worden gevonden terwijl andere pagina&#39;s specifiek werden overgeslagen. ****
-
-**Voorbeeld**: Bezoeker bezocht Pagina A, toen uitdrukkelijk bezocht pagina B of C, maar sloeg pagina D.
-
-**creeer dit segment**
-
-Bouw dit segment door Dimensionen, Gebeurtenissen, en pre-gebouwde Segmenten van de linkerruiten te slepen. Zie [ Bouwend een Segment van de Groep van de Logica ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-
-Na het nesten van de waarden binnen [!UICONTROL Logic Group], klik de **[!UICONTROL Exclude]** knoop binnen de [!UICONTROL Logic Group] container.
-
-![](assets/logic_exclude_and.png)
-
-### Logic Group exclude OR
-
-Maak segmenten met behulp van [!UICONTROL Logic Group] waar weergaven van meerdere pagina&#39;s worden samengevoegd om te definiëren welke pagina&#39;s moesten worden gevonden terwijl andere pagina&#39;s specifiek werden overgeslagen.
-
-**Voorbeeld**: Bezoekers die pagina A bezochten, maar of Pagina B of Pagina C niet vóór Pagina A bezochten.
-
-**creeer dit segment**
-
-De eerste B- en C-pagina&#39;s worden geïdentificeerd in een [!UICONTROL Logic Group] -container die wordt uitgesloten en worden vervolgens gevolgd door een treffer van de bezoeker naar pagina A.
-
-Bouw dit segment door Dimensionen, Gebeurtenissen, en pre-gebouwde Segmenten van de linkerruiten te slepen.
-
-Na het nesten van de waarden binnen [!UICONTROL Logic Group], klik de **[!UICONTROL Exclude]** knoop binnen de [!UICONTROL Logic Group] container.
-
-![](assets/logic_exclude_or.png)
-
-## Binnen-tijd en tijd-na segmenten bouwen
-
-Gebruik de operatoren [!UICONTROL Within] en [!UICONTROL After] die zijn ingebouwd in de koptekst van elke container om de tijd, gebeurtenissen en telling te definiëren.
-
-![](assets/then_within_operators.png)
-
-U kunt de overeenkomst beperken tot een opgegeven tijdsduur door de containers [!UICONTROL Within] en [!UICONTROL After] te gebruiken en een granulariteit en aantal op te geven. De operator [!UICONTROL Within] wordt gebruikt om een maximale limiet op te geven voor de hoeveelheid tijd tussen twee controlepunten. De operator [!UICONTROL After] wordt gebruikt om een minimumlimiet op te geven voor de tijd tussen twee controlepunten.
-
->[!NOTE]
->
->Er zijn verschillen in evaluatie tussen gelijkaardig genoemde elementen zoals **Dag(en)** of **Dag**. Voor op tijd gebaseerde definities van Binnen en na, gebruik de opties die eerst in popup venster worden vermeld:
->
->![afbeelding](assets/copied-link-2.png)
->
->Voor op dimensie-gebaseerde definities van binnen en na, gebruik de opties onder sub-menu *Andere Dimensionen*:
->
->![afbeelding](assets/copied-link-3.png)
-
-### Operatoren voor na en binnen {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
-
-De duur wordt opgegeven met één hoofdletter die de granulariteit vertegenwoordigt, gevolgd door een getal dat het herhalingstemmer van de granulariteit vertegenwoordigt.
-
-**[!UICONTROL Within]** bevat het eindpunt (kleiner dan of gelijk aan).
-
-**[!UICONTROL After]** bevat niet het eindpunt (groter dan).
+In de onderstaande tabel worden de tijdbeperkingsoperatoren gedetailleerder uitgelegd.
 
 | Operatoren | Beschrijving |
 |--- |--- |
-| NA | De After operator wordt gebruikt om een minimumlimiet op te geven voor de tijd tussen twee controlepunten. Wanneer het plaatsen van na waarden, zal de tijdslimiet beginnen wanneer het segment wordt toegepast. Bijvoorbeeld, als de Na exploitant op een container wordt geplaatst om bezoekers te identificeren die pagina A maar niet terugkeren om pagina B tot na één dag te bezoeken, dan zal die dag beginnen wanneer de bezoeker pagina A verlaat.  De bezoeker kan alleen in het segment worden opgenomen als er minimaal 1440 minuten (één dag) overheen zijn gegaan nadat hij pagina A heeft verlaten om pagina B weer te geven. |
-| BINNEN | De operator Binnen wordt gebruikt om een maximumlimiet op te geven voor de tijd tussen twee controlepunten. Als de operator Binnen bijvoorbeeld op een container is ingesteld om bezoekers te identificeren die pagina A bezoeken en vervolgens binnen één dag zijn teruggekeerd om pagina B te bezoeken, begint die dag wanneer de bezoeker pagina A verlaat. Om in het segment te worden opgenomen, heeft de bezoeker maximaal één dag voordat hij pagina B opent.   De bezoeker kan pas in het segment worden opgenomen nadat hij pagina A heeft verlaten om pagina B weer te geven binnen 1440 minuten (één dag). |
-| NA/BINNEN | Wanneer u zowel de operatoren Na als Binnen gebruikt, is het belangrijk te begrijpen dat beide operatoren parallel beginnen en eindigen, niet opeenvolgend.   Bijvoorbeeld, als u een segment met de container bouwt die aan wordt geplaatst:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br> dan worden de voorwaarden om bezoekers in het segment te identificeren voldaan slechts tussen 1 en 2 weken. Beide voorwaarden worden afgedwongen vanaf het moment van de eerste paginaklok. |
+| **[!UICONTROL After]** | De operator [!UICONTROL After] wordt gebruikt om een minimumlimiet op te geven voor de tijd tussen twee controlepunten. Wanneer het plaatsen van de Na waarden, begint de tijdslimiet wanneer het segment wordt toegepast. Als de operator [!UICONTROL After] bijvoorbeeld op een container is ingesteld om bezoekers te identificeren die pagina A bezoeken, maar pas na één dag naar pagina B terugkeren, begint die dag wanneer de bezoeker pagina A verlaat.  De bezoeker kan pas in het segment worden opgenomen nadat hij pagina A heeft verlaten en pagina B heeft weergegeven, nadat hij minimaal 1440 minuten (één dag) heeft doorgebracht. |
+| **[!UICONTROL Within]** | De operator [!UICONTROL Within] wordt gebruikt om een maximumlimiet op te geven voor de hoeveelheid tijd tussen twee controlepunten. Als de operator [!UICONTROL Within] bijvoorbeeld op een container is ingesteld om bezoekers te identificeren die pagina A bezoeken en vervolgens binnen één dag terug te keren naar pagina B, begint die dag wanneer de bezoeker pagina A verlaat. Om in het segment te worden opgenomen, heeft de bezoeker een maximumtijd van één dag alvorens pagina B te openen. Opdat de bezoeker in het segment wordt opgenomen, moet het openen van pagina B plaatsvinden binnen maximaal 1440 minuten (één dag) nadat pagina A is verlaten om pagina B te bekijken. |
+| **[!UICONTROL After but Within]** | Wanneer u zowel de operatoren [!UICONTROL After] als [!UICONTROL Within] gebruikt, beginnen en eindigen beide operatoren parallel, niet opeenvolgend. <br/> bijvoorbeeld, bouwt u een segment met de container die aan wordt geplaatst: `After = 1 Week(s) and Within = 2 Week(s)`.<br/> de voorwaarden om bezoekers in dit segment te identificeren worden voldaan slechts tussen één en twee weken. Beide voorwaarden worden afgedwongen vanaf het moment van de eerste paginaweergave. |
 
-### De operator Na gebruiken
 
-* De tijd na laat u door jaar, maand, dag, uur, en minuut volgen om bezoeken aan te passen.
-* Tijd na kan alleen op een [!UICONTROL Hit] -container worden toegepast omdat dit het enige niveau is waarvoor een dergelijke fijne korreligheid is gedefinieerd.
+#### Voorbeelden
 
-**Voorbeeld**: Bezoekers die pagina A toen bezochten pagina B slechts na 2 weken.****
+Enkele voorbeelden van het gebruik van de tijdbeperkingen.
 
-![](assets/time_between_after_operator.png)
+##### [!UICONTROL After] operator
 
-**creeer het Segment**: Dit segment wordt gecreeerd door a [!UICONTROL Visitor] container met twee [!UICONTROL Hit] containers toe te voegen. Vervolgens kunt u de operator [!UICONTROL THEN] instellen, de operator [!UICONTROL AFTER] vervolgkeuzelijst openen en het aantal weken instellen.
+Identificeer bezoekers die één pagina en dan een andere pagina slechts na twee weken bezochten. Bijvoorbeeld bezoekers die de startpagina hebben bezocht, maar de Vrouwen | Hiermee wordt de pagina pas na twee weken weergegeven.
 
-![](assets/after_operator.png)
+![ Opeenvolging na ](assets/sequence-after.png)
 
-**Gelijken**
+Als er op 1 juni 2024 om 00:01 een paginaweergave voor Home plaatsvindt, wordt de pagina Vrouwen weergegeven | De tonen komen overeen zolang de paginaweergave plaatsvindt na 15 juni 2024 00:01.
 
-Als op 1 juni 2019, om 00:01, een hit naar pagina A wordt weergegeven als &quot;Na 2 weken&quot;, komt een bericht op bladzijde B overeen als dit vóór 15 juni 2019 00:01 komt (14 dagen later).
+##### [!UICONTROL Within] operator
 
-| Druk op A | Hit B | Overeenkomend |
-|--- |--- |--- |
-| **A** hit: 1 Juni, 2019 00:01 | **B** hit: 15 jun, 2019 00:01 | **Gelijken:** Deze tijdbeperking past aan omdat het na 1 Juni, 2019 (twee weken) is. |
-| **A** hit: 1 Juni, 2019 00:01 | **B** hit: 8 Juni, 2019 00:01 B hit: 15 Juni, 2019 00:01 | **past niet aan:** de eerste slag op pagina B past niet aan omdat het met de beperking die het na twee weken vereist. |
+Identificeer bezoekers die een pagina en dan een andere pagina binnen vijf minuten bezochten. Bijvoorbeeld bezoekers die de startpagina bezochten en daarna de Vrouwen | Hiermee wordt de pagina binnen 5 minuten weergegeven.
 
-### De operator Within gebruiken
+![ Opeenvolging binnen ](assets/sequence-within.png)
 
-* Met [!UICONTROL Within] kunt u opvolgen op jaar, maand, dag, uur en minuut om bezoeken af te stemmen.
-* [!UICONTROL Within] kan alleen worden toegepast op een [!UICONTROL Hit] -container, omdat dit het enige niveau is waarvoor een dergelijke fijne korreligheid is gedefinieerd.
+Als op 1 juni 2024 om 12:01 een paginaweergave voor Home plaatsvindt, wordt een paginaweergave voor Vrouwen weergegeven | De tonen komen overeen zolang de paginaweergave plaatsvindt vóór 15 juni 2024 12:16.
 
->[!TIP]
+##### [!UICONTROL After] but [!UICONTROL Within] operator
+
+Identificeer bezoekers die één pagina bezochten dan een andere pagina na twee weken maar binnen één maand. Bijvoorbeeld bezoekers die de startpagina bezochten en vervolgens na twee weken en binnen een maand de Vrouwen | Shoes page.
+
+![ Opeenvolging na maar binnen ](assets/sequence-afterbutwithin.png)
+
+Bezoekers die op 1 juni 2024 op de startpagina aankomen en die terugkeren naar de Vrouwen | Shoes page na 15 juni 2019 00:01, maar vóór 1 juli 2019 komt in aanmerking voor het segment.
+
+
+### [!UICONTROL Hit] -, [!UICONTROL Visit] - en [!UICONTROL Dimension] -beperkingen
+
+De ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** beperkingen staan u niet alleen toe om een tijdbeperking maar ook een slag, bezoek of afmetingsbeperking te specificeren. Selecteer **[!UICONTROL Hit(s)]**, **[!UICONTROL Visit(s)]** of **[!UICONTROL Other dimensions]** ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *naam van het Dimension *]**. U kunt het [!UICONTROL *gebied van het Onderzoek*] aan onderzoek naar een afmeting gebruiken.
+
+#### Voorbeeld
+
+Hieronder ziet u een voorbeeld van een sequentieel segment dat bezoekers zoekt die een pagina met productcategorieën hebben bezocht (Vrouwen) | Shoes), gevolgd door een afrekenpagina (Afhandeling | Bedankt) op één pagina.
+
+![ segment van de Opeenvolging binnen ](assets/sequence-filter-within.png)
+
+De volgende voorbeeldreeksen komen overeen of komen niet overeen:
+
+| Reeks | ![ AppleReject ](/help/assets/icons/ApproveReject.svg) |
+|--- | :---: |
+| Pagina `Women \| Shoes` gevolgd door pagina `Checkout \| Thank You` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+| Pagina `Women \| Shoes` gevolgd door pagina `Women \| Tops` gevolgd door pagina `Checkout \| Thank You` | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) |
+
+## [!UICONTROL Include]
+
+U kunt specificeren welke gegevens in uw opeenvolgend segment of in een opeenvolgende container moeten omvatten die deel van uw opeenvolgend segment uitmaakt.
+
+### [!UICONTROL Everyone] {#include_everyone}
+
+Om een opeenvolgend segment tot stand te brengen dat iedereen omvat, selecteer de optie ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
+
+Het opeenvolgende segment identificeert gegevens die overeenkomen met het opgegeven patroon als geheel.  Hieronder ziet u een voorbeeld van een standaardsequentiesegment dat bezoekers zoekt die een productcategoriepagina hebben bezocht (Vrouwen) | Shoes), gevolgd door een afrekenpagina (Afhandeling | Dank u.). Het segment wordt geplaatst aan ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
+
+![ Opeenvolgend segment omvat iedereen ](assets/sequence-include-everyone.png)
+
+De volgende voorbeeldreeksen komen overeen of komen niet overeen:
+
+| | Reeks | ![ AppleReject ](/help/assets/icons/ApproveReject.svg) |
+|---:|--- | --- |
+| 1 | `Women \| Shoes` dan `Checkout \| Thank You` tijdens hetzelfde bezoek | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes` then `Men \| Shoes` then `Checkout \| Thank You` (verschillende bezoeken) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+| 3 | `Checkout \| Thank You` then `Women \| Shoes` | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) |
+
+### [!UICONTROL Only Before Sequence] en [!UICONTROL Only After Sequence]
+
+De opties ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** en ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** segmenteren de gegevens aan een ondergroep vóór of na de gespecificeerde opeenvolging.
+
+* ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **slechts vóór Opeenvolging**: Omvat alle gegevens vóór een opeenvolging en de eerste gegevens van de opeenvolging zelf. Als een reeks meerdere keren als onderdeel van de gegevens wordt weergegeven, bevat [!UICONTROL Only Before Sequence] de eerste hit van de laatste instantie van de reeks en alle vorige treffers.
+* ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **slechts na Reeks**: Omvat alle klappen na een opeenvolging en de laatste gegevens van de opeenvolging zelf. Als een reeks meerdere keren als onderdeel van de gegevens wordt weergegeven, bevat [!UICONTROL Only After Sequence] de laatste hit van de eerste instantie van de reeks en alle volgende treffers.
+
+Overweeg een definitie die een opeenvolging van een component met criteria specificeert die door B worden geïdentificeerd, (toen) door een component met criteria wordt gevolgd die door D worden geïdentificeerd. De drie opties zouden gegevens als volgt identificeren:
+
+
+| B Vervolgens D | A | B | C | D | E | F |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Inclusief iedereen | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+| Alleen voor reeks | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| Alleen na reeks |  |  |  | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+
+
+
+| B Dan D (komt meerdere keren voor) | A | B | C | D | B | C | D | E |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Inclusief iedereen | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+| Alleen voor reeks | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| Alleen na reeks |  |  |  | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+
+#### Voorbeeld
+
+U hebt drie versies van een opeenvolgend segment gedefinieerd voor sitesecties. Één met de optie ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**, met de optie ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**, en met de optie ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]**. U noemde de drie segmenten dienovereenkomstig.
+
+![ segment van de Opeenvolging ](assets/site-section-filters.png)
+
+Wanneer het melden van plaatssecties die deze drie segmenten gebruiken, kijkt de voorbeeldoutput in een vrije vormlijst als:
+
+![ Opeenvolgend segmentrapport ](assets/sequential-filter-freeform-table.png)
+
+## [!UICONTROL Exclude]
+
+De definities van het segment omvatten alle gegevens tenzij u specifiek ![ Gebruiker ](/help/assets/icons/User.svg) [!UICONTROL Person] uitsluiten, ![ Bezoek ](/help/assets/icons/Visit.svg) [!UICONTROL Visit], of ![ WebPage ](/help/assets/icons/WebPage.svg) [!UICONTROL Hit] gegevens gebruikend **[!UICONTROL Exclude]**.
+
+Met [!UICONTROL Exclude] kunt u algemene gegevens negeren en segmenten met meer focus maken. Met Uitsluiten kunt u ook segmenten maken zonder specifieke groepen bezoekers. Bijvoorbeeld, om een segment te bepalen dat bezoekers specificeert die orden plaatste en dan die groep bezoekers uitsluiten om *niet-kopers* te identificeren. De beste manier is om regels te maken die een brede definitie gebruiken in plaats van [!UICONTROL Exclude] te gebruiken voor specifieke bezoekers die overeenkomen met specifieke include-waarden.
+
+Voorbeeld van uitsluitingsdefinities zijn:
+
+* **sluit pagina&#39;s** uit. Gebruik een segmentdefinitie om een specifieke pagina (zoals *Pagina van het Huis*) van een rapport weg te halen, creeer een Hit regel waar de pagina `Home Page` evenaart, en sluit dan de regel uit. Deze definitie omvat automatisch alle pagina&#39;s behalve de *Pagina van het Huis*.
+* **sluit verwijzende domeinen** uit. Gebruik een definitie die alleen verwijzende domeinen van Google.com omvat en alle andere uitsluitt.
+* **identificeer niet-kopers**. Identificeer wanneer orden groter dan nul zijn en sluit dan [!UICONTROL Person] uit.
+
+[!UICONTROL Exclude] kan worden gebruikt om een reeks aan te duiden waarin bezoekers geen deel uitmaken van specifieke bezoeken of specifieke treffers uitvoeren. [!UICONTROL Exclude] kan ook worden opgenomen in een [!UICONTROL Logic Group] (zie hieronder).
+
+U kunt containers uitsluiten, geen componenten.
+
+### Voorbeelden
+
+Zie hieronder voor voorbeelden van het gebruik van [!UICONTROL Exclude] .
+
+#### [!UICONTROL Exclude] within
+
+Geef bezoekers op die een pagina hebben bezocht, geen andere pagina hebben bezocht en vervolgens weer een andere pagina hebben bezocht. U sluit de container uit gebruikend ![ Plaatsende ](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Een uitgesloten container wordt geïdentificeerd door een dunne rode balk aan de linkerkant.
+
+![ sluit opeenvolging ](assets/sequence-exclude.png) uit
+
+
+#### [!UICONTROL Exclude] bij begin
+
+Geef bezoekers op die een pagina hebben bezocht zonder ooit naar een andere pagina te gaan. Mensen die een aankoop hebben uitgecheckt zonder ooit de homepage te hebben bezocht, bijvoorbeeld.
+
+![ Reeks sluit begin ](assets/sequence-exclude-start.png) uit
+
+
+#### [!UICONTROL Exclude] aan einde
+
+Identificeer bezoekers die één pagina bezochten maar nooit andere pagina&#39;s bezochten. Bezoekers die bijvoorbeeld uw startpagina hebben bezocht, maar nooit een van uw afhandelingspagina&#39;s.
+
+![ Sequentie sluit eind ](assets/sequence-exclude-end.png) uit
+
+
+## [!UICONTROL Logic Group]
+
+>[!NOTE]
 >
->In een &quot;binnen&quot;clausule, binnen tussen VEREN verklaringen, kunt u, bijvoorbeeld, &quot;binnen 1 onderzoek sleutelwoordinstantie&quot;toevoegen, &quot;binnen 1 eVar 47 instantie&quot;. Dit beperkt het segment tot binnen één instantie van een dimensie.
+>Een [!UICONTROL Logic Group] kan alleen worden gedefinieerd in een opeenvolgend segment, wat betekent dat de operator [!UICONTROL Then] wordt gebruikt in de container.
 
-**Voorbeeld**: Bezoekers die pagina A dan bezochten pagina B binnen 5 minuten.
+Met de Logische groep kunt u voorwaarden groeperen in één controlepunt voor opeenvolgende segmenten. Als onderdeel van de reeks wordt de logica die is gedefinieerd in de container die is geïdentificeerd als Logic Group, geëvalueerd na een voorafgaand controlepunt en vóór een volgend volgend controlepunt.
 
-![](assets/time_between_within_operator.png)
+Aan de voorwaarden binnen de Logische Groep zelf kan in om het even welke orde worden voldaan. Niet-opeenvolgende containers (hit, visit, bezoeker) vereisen daarentegen niet dat aan de bijbehorende voorwaarden wordt voldaan binnen de gehele reeks, wat tot mogelijk niet-intuïtieve resultaten leidt bij gebruik met een **[!UICONTROL Then]** -operator.
 
-**creeer het segment**: Dit segment wordt gecreeerd door a [!UICONTROL Visitor] container toe te voegen, dan het slepen met twee [!UICONTROL Hit] containers. Vervolgens kunt u de operator [!UICONTROL THEN] instellen, de operator [!UICONTROL AFTER] openen en het interval instellen: hits, paginaweergaven, bezoeken, minuten, uren, dagen, weken, maanden, kwarten of jaren.
+[!UICONTROL Logic Group] werd ontworpen om *verscheidene voorwaarden als groep te behandelen, zonder enige het opdracht geven tot* onder de gegroepeerde voorwaarden. Anders gezegd, is de volgorde van de voorwaarden binnen een logische groep irrelevant.
 
-![](assets/within_operator.png)
+U kunt Logica Group het beste gebruiken:
 
-**Gelijken**
+* Opeenvolgende controlepunten groeperen.
+* Om de bouw van opeenvolgende segmenten te vereenvoudigen.
 
-De overeenkomsten moeten binnen de tijdslimiet voorkomen. Als een bezoeker pagina A raakt voor de expressie, wordt de volgende hit op pagina B weergegeven als deze plaatsvindt op of vóór 00:06 (vijf minuten later, inclusief dezelfde minuut). De uren binnen dezelfde minuut zullen ook aanpassen.
+### Voorbeelden
 
-### De operatoren Within en After
+Hier volgen voorbeelden van het gebruik van de container van de Logische Groep.
 
-Gebruik [!UICONTROL Within] en [!UICONTROL After] om een maximum- en minimumeindpunt aan beide uiteinden van een segment te bieden.
+#### Elke bestelling
 
-**Voorbeeld**: Bezoekers die pagina A dan bezochten pagina B na 2 weken maar binnen 1 maand.
+Identificeer bezoekers die één pagina bezochten, dan bekeken elke pagina van een andere reeks pagina&#39;s in om het even welke orde. Bezoekers die bijvoorbeeld de startpagina bezochten, bezochten dan elke pagina van Men, de pagina Vrouwen en de pagina Kinderen, ongeacht de volgorde.
 
-![](assets/time_between_using_both_operators.png)
+U kunt dit segment maken zonder een [!UICONTROL Logic Group] , maar de constructie zal complex en ingewikkeld zijn. Geef elke reeks pagina&#39;s op die de bezoeker kan bekijken. Voor duidelijkheid, slechts wordt de eerste container geopend ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en de andere containers zijn gesloten ![ ChevronRight ](/help/assets/icons/ChevronRight.svg). U kunt de inhoud van de andere containers afleiden door de titels.
 
-**creeer het Segment**: Creeer het segment door twee [!UICONTROL Hit] containers binnen een [!UICONTROL Visitor] container te rangschikken. Stel vervolgens de operatoren [!UICONTROL After] en [!UICONTROL Within] in.
+![ Voorbeeld dat geen logische groep ](assets/logicgroup-example-notusing.png) gebruikt
 
-![](assets/within_after_together.png)
+U kunt [!UICONTROL Logic Group] gebruiken om het samenstellen van dit segment te vereenvoudigen, zoals hieronder wordt getoond. Verzeker u ![ Groep ](/help/assets/icons/Group.svg) **[!UICONTROL Logic Group]** voor de container selecteert.
 
-**Gelijken**
+![ Voorbeeld dat geen logische groep ](assets/logicgroup-example-using.png) gebruikt
 
-Alle bezoekers die pagina A op 1 juni 2019 aanslaan, keren terug na 15 juni 2019 00:01, maar *vóór* 1 juli 2019 zijn opgenomen in het segment. Ben met [ Tijd tussen Uitsluitingen ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) vergelijkbaar.
+#### Eerste overeenkomst
 
-De operatoren [!UICONTROL After] en [!UICONTROL Within] kunnen samen worden gebruikt om een opeenvolgend segment te definiëren.
+Identificeer bezoekers die een pagina of een andere pagina bezochten, dan opnieuw een andere pagina bezocht. Bijvoorbeeld bezoekers die de pagina Vrouwen of de pagina Mannen bezochten, bezochten dan de Afhandeling | Bedankt, pagina.
 
-![](assets/time_between_within_after.png)
+![ Voorbeeld dat eerste gelijke met logische groep ](assets/logicgroup-example-firstmatch.png) gebruikt
 
-Dit voorbeeld toont een tweede bezoek aan pagina B na twee weken maar binnen een maand.
+#### [!UICONTROL Exclude] [!UICONTROL And]
+
+Geef bezoekers op die een pagina bezochten, maar die destijds expliciet geen andere pagina&#39;s bezochten, maar wel een andere pagina hebben bezocht. Bezoekers die bijvoorbeeld de startpagina hebben bezocht, hebben de pagina Mannen of Vrouwen niet bezocht, maar hebben de pagina Kinderen bezocht.
+
+![ Logische groep sluit uit en ](assets/logicgroup-exclude-and.png)
+
+#### [!UICONTROL Exclude] [!UICONTROL Or]
+
+Geef bezoekers aan die een pagina bezochten die toen expliciet geen enkele pagina van een set pagina&#39;s bezocht, maar toch nog een andere pagina bezocht. Bezoekers die bijvoorbeeld de startpagina hebben bezocht, hebben de pagina Mannen en Vrouwen niet bezocht, maar hebben de pagina Kinderen bezocht.
+
+![ Logische groep sluit uit en ](assets/logicgroup-exclude-or.png)
+
+
+<!--
+An example of a complex sequential segment if you want to find the visitors that 
+
+| visit One | visit Two | visit Three |
+| --- | --- | --- |
+| The visitor went to the main landing page A, excluded the campaign page B, and then viewed the Product page C.| The visitor again went to the main landing page A, excluded the campaign page B, and went again to the Product page C, and then to a new page D. | The visitor entered and followed that same path as in the first and second visits, then excluded page F to go directly to a targeted product on page G. |
+-->
+
+
+## Een laatste voorbeeld
+
+Als laatste voorbeeld wilt u bezoekers identificeren die hebben geleerd over een specifieke productpagina, zonder dat deze bezoekers ooit zijn aangetast door uw campagne Empower Your Move. En tijdens hun eerste bezoek aan uw online winkel werd de startpagina bekeken, maar werd niet verder gekeken naar fitness (tandwielproducten) producten uit de categorie Men. Tijdens hun volgende bezoek direct daarna gingen ze echter naar een productpagina en plaatsten ze een online bestelling zonder eerst de startpagina te doorlopen.
+
+
+![ Complex opeenvolgend segmentvoorbeeld ](assets/sequential-complex.png)
