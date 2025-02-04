@@ -4,9 +4,9 @@ description: Vrije-vormtabellen vormen de basis voor gegevensanalyse in Workspac
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb3e8b030af78f0d7758b4cff41d66f20695e11e
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -30,69 +30,89 @@ _dit artikel documenteert de Freeform lijstvisualisatie in_ ![ AdobeAnalytics ](
 
 >[!ENDSHADEBOX]
 
-In Analysis Workspace is een Freeform-tabel de basis voor interactieve gegevensanalyse. U kunt een combinatie [ componenten ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) in rijen en kolommen slepen en laten vallen om een douanetabel voor uw analyse tot stand te brengen. Aangezien elke component wordt gelaten vallen, werkt de lijst onmiddellijk bij, zodat kunt u snel analyseren en dieper graven.
 
-## Een eenvoudige tabel voor vrije vorm maken
+In Analysis Workspace, is de visualisatie van de a ![ Lijst ](/help/assets/icons/Table.svg) **[!UICONTROL Freeform table]** de stichting voor interactieve gegevensanalyse. U kunt een combinatie [ componenten ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) in rijen en kolommen slepen en laten vallen om een douanetabel voor uw analyse tot stand te brengen. Aangezien elke component wordt gelaten vallen, werkt de lijst onmiddellijk bij zodat kunt u snel analyseren en dieper graven.
 
-U begint met een lege Vrije-vormtabel.
+![ vrije lijst die componenten in rijen en kolommen met inbegrip van Bebezoeken en Online Orden voor veelvoudige Web-pagina&#39;s toont.](assets/opening-section.png)
 
-![ Lege Vrije Lijst van de Vorm ](assets/freeform-table-1.png)
+Een [!UICONTROL Freeform table] maken en configureren:
 
-Als u de **[!UICONTROL ** bezoeken **]** metrisch op de **[!UICONTROL ** Daling hier metrisch (of een andere component) **]** laat vallen, bevolkt de Vrije Lijst automatisch met bezoeken per dag voor de kalenderperiode u selecteerde.
-
-![ bezoeken Vrije Lijst van de Vorm ](assets/freeform-table-2.png)
-
-Als u dan de **[!UICONTROL ** dimensie van de Pagina **]** laat vallen om de **[!UICONTROL ** 3} dimensie van de Dag te vervangen kolom, wijst de Freeform lijst automatisch op bezoeken voor elke pagina.**]**
-
-![ bezoeken door de Lijst van de Vrije Vorm van de Pagina ](assets/freeform-table-3.png)
-
-U kunt dan onderbreken, bijvoorbeeld, de **[!UICONTROL ** categorie:5 **]** pagina door de **[!UICONTROL ** dimensie van het Kanaal van de Marketing **]** op de **[!UICONTROL ** categorie te laten vallen:5 **]** rij.
-
-![ de Uitsplitsing van bezoeken door de Lijst van de Vrije Vorm van de Pagina ](assets/freeform-table-4.png)
-
+* Voeg a ![ Lijst ](/help/assets/icons/Table.svg) **[!UICONTROL Freeform table]** visualisatie toe. Zie [ een visualisatie aan een paneel ](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen.
 
 ## Geautomatiseerde tabellen
 
-Zoals hierboven geïllustreerd, is de snelste manier om een lijst te bouwen direct componenten in een leeg project, een paneel, of een vrije vormlijst te laten vallen. Een vrije-vormlijst zal automatisch voor u in een geadviseerde formaat worden gebouwd. [ bekijk het leerprogramma ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html).
+De snelste manier om een lijst te bouwen is componenten in een leeg project, een paneel of een vrije vormlijst direct te laten vallen. Een vrije-vormlijst wordt voor u gebouwd in een geadviseerde formaat. [ bekijk het leerprogramma ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace).
 
-![](assets/automated-table.png)
+![ een nieuw Comité met de bezoekencomponent die op het werk wordt gelaten vallen ruimte.](assets/automated-table.png)
 
 ## Opbouwfunctie voor tabellen met vrije vorm
 
-Als u verkiest om verscheidene componenten aan uw lijst eerst toe te voegen, dan geef de gegevens terug, kunt u de Bouwer van de Lijst van de Vrije vorm toelaten. Als de builder is ingeschakeld, kunt u in vele dimensies, onderverdelingen, metriek en segmenten slepen en neerzetten om tabellen te maken die complexere vragen beantwoorden. Gegevens worden niet ter plekke bijgewerkt, maar worden bijgewerkt wanneer u op **[!UICONTROL Build]** klikt.
+Als u liever eerst meerdere componenten aan de tabel toevoegt en de gegevens vervolgens rendert, kunt u **[!UICONTROL Enable table builder]** selecteren. Als de builder is ingeschakeld, kunt u dimensies, onderverdelingen, metriek en filters slepen en neerzetten om tabellen te maken die complexere vragen beantwoorden. Gegevens worden bijgewerkt nadat u **[!UICONTROL Build]** hebt geselecteerd.
 
-![](assets/table-builder.png)
+![ A Freeform Table Builder display ](assets/table-builder.png)
 
-## Tabelinteracties
+## Interacties
 
 U kunt op verschillende manieren werken met een vrije-vormtabel en deze aanpassen:
 
-* **Rijen**
-   * U kunt meer rijen in één enkel scherm passen door de de meningsdichtheid van het project [ ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) aan te passen.
-   * Elke afmetingsrij kan tot 400 rijen tonen, alvorens paginering voorkomt. Klik op het nummer naast Rijen om meer rijen op een pagina weer te geven. Navigeer naar een andere pagina met de paginapijl in de koptekst.
-   * Rijen kunnen worden opgesplitst in extra componenten. Als u veel rijen tegelijk wilt splitsen, selecteert u gewoon meerdere rijen en sleept u de volgende component boven op de geselecteerde rijen. Leer meer over [ onderbrekingen ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
-   * De rijen kunnen [ worden gefiltreerd ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) om een verminderde reeks punten te tonen. De extra montages zijn beschikbaar onder [ montages van de Rij ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
+### Filteren en sorteren
 
-* **Kolommen**
-   * Componenten kunnen in kolommen worden gestapeld om gesegmenteerde metriek, analyse op meerdere tabbladen en nog veel meer te maken.
-   * De mening van elke kolom kan onder de [ kolommontages ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) worden aangepast.
-   * Verscheidene acties zijn beschikbaar door het [ met de rechtermuisknop aanklikken menu ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html). Het menu bevat verschillende handelingen, afhankelijk van de vraag of u op de tabelkop, de rijen of de kolommen klikt.
+* U kunt [ filter en soort ](filter-and-sort.md) de gegevens in een lijst.
 
-## Gegevens vrije-vormentabel exporteren
+### Rijen
 
-Leer meer over alle gegevens [ uitvoeropties ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) voor Analysis Workspace.
+* U kunt snel [ een nieuwe visualisatie ](../freeform-analysis-visualizations.md#visualize) van één of meerdere rijen tot stand brengen gebruikend ![ GraphBarVerticalAdd ](/help/assets/icons/GraphBarVerticalAdd.svg).
+* U kunt meer rijen in één enkel scherm passen door de de meningsdichtheid van het project [ ](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) aan te passen.
+* Elke afmetingsrij kan tot 400 rijen tonen, alvorens paginering voorkomt. Selecteer het nummer naast **[!UICONTROL Rows]** in de eerste kolomkop om meer rijen op een pagina weer te geven. Navigeer aan een verschillende pagina gebruikend ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) in de eerste kolomkopbal.
+* U kunt rijen onderbreken door extra componenten. Als u een groot aantal rijen tegelijk wilt onderbreken, selecteert u meerdere rijen en sleept u de volgende component boven op de geselecteerde rijen. Leer meer over [ onderbrekingen ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+* De rijen kunnen [ worden gefiltreerd ](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) om een verminderde reeks punten te tonen. De extra montages zijn beschikbaar onder [ montages van de Rij ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
-* Klik met de rechtermuisknop > **[!UICONTROL Copy data to clipboard]** om de weergegeven tabelgegevens te exporteren. Als een tabel is geselecteerd, staat de optie **[!UICONTROL Copy selection to clipboard]** . De **Ctrl+C** hotkey kopieert ook geselecteerde gegevens.
-* Klik met de rechtermuisknop > **[!UICONTROL Download data as CSV]** om de weergegeven tabelgegevens te downloaden als een CSV-bestand. Als een tabel is geselecteerd, staat de optie **[!UICONTROL Download selection as CSV]** .
-* Klik met de rechtermuisknop > **[!UICONTROL Project > Download items as CSV]** exporteert maximaal 50.000 dimensieitems voor de geselecteerde dimensie.
+### Kolommen
 
-Leer meer over alle gegevens [ uitvoeropties ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) voor Analysis Workspace.
+* Componenten kunnen in kolommen worden gestapeld om gefilterde metriek, cross-tab analyse en meer te maken.
+* De mening van elke kolom kan onder de [ kolommontages ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) worden aangepast.
+* Verscheidene acties zijn beschikbaar door het [ contextmenu ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu). Het menu bevat verschillende handelingen, afhankelijk van de keuze van de tabelkoptekst, -rijen of -kolommen.
 
-![](assets/export-options.png)
+
+## Instellingen
+
+Selecteer ![ Plaatsende ](/help/assets/icons/Setting.svg) aan vertoning **[!UICONTROL Table settings]**. De volgende specifieke visualisatie [ montages ](../freeform-analysis-visualizations.md#settings) zijn beschikbaar:
+
+### Gegevensbron
+
+| Optie | Beschrijving |
+|---|---|
+| **[!UICONTROL Linked visualizations]**. | Hiermee geeft u alle gekoppelde visualisaties weer. |
+| **[!UICONTROL Show data source]** | Als deze optie is uitgeschakeld, wordt de vrije-vormtabel die als gegevensbron voor de visualisatie fungeert, in Workspace verborgen. |
+
+### Instellingen
+
+| Optie | Beschrijving |
+|---|---|
+| **[!UICONTROL Align dates from each columns to all start on the same row]** | Als u datums uit elke kolom wilt uitlijnen of niet uitlijnen, begint alle datums in dezelfde rij. |
+
+
+## Contextmenu
+
+De volgende [ opties van het contextmenu ](../freeform-analysis-visualizations.md#context-menu) zijn beschikbaar bij de kopbal van visualisatie:
+
+| Optie | Beschrijving |
+| --- | --- |
+| **[!UICONTROL Insert copied visualization]**n | Plak (voeg) een gekopieerde visualisatie naar een andere plaats binnen het project of naar een geheel ander project. |
+| **[!UICONTROL Copy data to clipboard]** | Kopieer gegevens van de visualisatie naar het klembord. |
+| **[!UICONTROL Copy selection to clipboard]** | Kopieer de selectie van de visualisatie naar het klembord. |
+| **[!UICONTROL Download items as CSV (*afmetingsnaam *)]** | Download de dimensie-items (tot een maximum van 50.000) van de visualisatie direct naar uw lokale apparaat. Maximaal 50.000 dimensieitems voor de geselecteerde dimensie. |
+| **[!UICONTROL Copy visualization]** | Kopieer de visualisatie, zodat u de visualisatie aan een andere plaats binnen het project, of in een volledig verschillend project kunt opnemen. |
+| **[!UICONTROL Download data CSV]** | Download de weergegeven gegevens van de visualisatie direct naar uw lokale apparaat. |
+| **[!UICONTROL Duplicate visualization]** | Maak een exacte kopie van de visualisatie. |
+| **[!UICONTROL Edit description]** | Voeg (of bewerk) een tekstbeschrijving voor visualisatie toe. Zie [ Tekst ](../text.md). |
+| **[!UICONTROL Get visualization link]** | Kopieer en deel een koppeling rechtstreeks naar de visualisatie. De koppeling wordt weergegeven in een dialoogvenster voor het delen van een koppeling. Selecteer Kopiëren om de koppeling naar het klembord te kopiëren. |
+| **[!UICONTROL Start over]** | Verwijder de configuratie voor de huidige visualisatie zodat u deze volledig opnieuw kunt configureren. |
+
+
 
 ## Video&#39;s
 
-Overzicht van de builder van de tabel voor vrije vorm:
 >[!BEGINSHADEBOX]
 
 Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het overzicht van de de lijstbouwer van de Vrije vorm ](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"} voor een demo video.
@@ -110,6 +130,14 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ vrije de lijs
 Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de lijsttotalen van de Vrije vorm ](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
 
 
 

@@ -5,86 +5,117 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 10%
+source-wordcount: '796'
+ht-degree: 7%
 
 ---
 
+
 # [!UICONTROL Column Settings]
 
-Met [!UICONTROL Column Settings] kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
+Met [!UICONTROL Column settings] kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
 
-## Bewerken [!UICONTROL Column Settings] {#edit-column-settings}
 
-U kunt de kolominstellingen voor een afzonderlijke kolom of voor meerdere kolommen tegelijk bewerken.
+>[!BEGINSHADEBOX]
 
-1. Sleep in Analysis Workspace een tabel voor vrije vorm naar uw project.
+Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0} VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.![
 
-1. (Voorwaardelijk) Als u meerdere kolommen tegelijk wilt bewerken, selecteert u elke kolom die u wilt bewerken terwijl u de Shift-toets ingedrukt houdt.
+>[!ENDSHADEBOX]
 
-1. Houd de muisaanwijzer boven de kolom die u wilt bewerken en selecteer vervolgens het tandwielpictogram.
 
-   Als u meerdere kolommen hebt geselecteerd, klikt u op het tandwielpictogram voor een van de geselecteerde kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle geselecteerde kolommen.
+Om tot [!UICONTROL Column settings] toegang te hebben, selecteer ![ montages van de Kolom ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) in de kolomrubriek.
 
-   ![](assets/column_settings.png)
+![Kolominstellingen](assets/column-settings.png)
 
-1. Ga met [ montages van de Kolom ](#column-settings) verder.
 
-## Kolominstellingen
+U kunt instellingen voor meerdere kolommen tegelijk bewerken. Selecteer veelvoudige kolommen en selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) in om het even welke geselecteerde kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen met cellen die erin zijn geselecteerd.
 
-U kunt de volgende kolommontages voor individuele lijsten in Analysis Workspace bijwerken, zoals die in [ wordt beschreven geef de Montages van de Kolom ](#edit-uicontrol-column-settings) uit.
-
-Sommige van deze zelfde montages kunnen ook voor alle nieuwe projecten worden geleid die u in Analysis Workspace creeert, zoals die in [ de voorkeur van de Gebruiker ](/help/analyze/analysis-workspace/user-preferences.md) wordt beschreven
-
-| Element | Beschrijving |
+| Optie | Beschrijving |
 | --- | --- |
-| **Totale cellen** |  |
-| Totalen tonen | Dit totaal is doorgaans gelijk aan of een subset van de [!UICONTROL Grand Total] . Dit weerspiegelt alle tabelfilters die binnen de vrije-vormtabel worden toegepast, inclusief de optie [!UICONTROL Include None] . |
-| Totaal-generaal tonen | Dit totaal vertegenwoordigt alle treffers die zijn verzameld, soms genoemd &quot;rapportsuite total&quot;. Wanneer een segment wordt toegepast op deelvensterniveau of binnen de vrije-vormtabel, wordt dit totaal aangepast aan alle resultaten die overeenkomen met de segmentcriteria. Het grote totaal wordt niet gesteund voor lijsten of onderverdelingen met [ statische rijen ](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
-| **de cellen van de Lijst** |   |
-| Getal | Hiermee wordt bepaald of in een cel de numerieke waarde voor de metrische waarde wordt weergegeven of verborgen. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
-| Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: we kunnen percentages van meer dan 100% weergeven, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
-| Anomalies | Hiermee wordt bepaald of de waarden in deze kolom een anomaliedetectie uitvoeren. Voor meer informatie, zie [ anomalieën van de Mening in Analysis Workspace ](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md). |
-| Tekst koptekst tekstomloop | Hiermee kunt u de koptekst laten omlopen in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Dit is handig voor .pdf-rendering en voor metriek met lange namen. Standaard ingeschakeld. |
-| nul interpreteren als geen waarde | Voor cellen met een waarde 0 bepaalt u of een cel van 0 of een lege cel moet worden weergegeven. Dit is handig wanneer u gegevens bekijkt voor elke dag van een maand, en sommige dagen zijn nog niet gebeurd.  In plaats van &#39;0&#39; voor toekomstige datums weer te geven, kunnen lege cellen worden weergegeven. Grafieken voldoen ook aan deze instelling (ze geven dus geen lijn of balk weer met 0 waarden als deze instelling is ingeschakeld). |
-| Achtergrond | Hiermee bepaalt u of alle celopmaak, inclusief de staafgrafiek en voorwaardelijke opmaak, in een cel wordt weergegeven of verborgen. |
-| Staafgrafiek | Hiermee wordt een horizontale staafgrafiek weergegeven die de waarde van de cel ten opzichte van het totaal voor de kolom vertegenwoordigt. |
-| Voorwaardelijke opmaak | Zie de onderstaande paragraaf. |
-| Tabelcelvoorvertoning | Toont een voorproef van hoe elke cel met de momenteel geselecteerde opmaakopties wordt getoond. |
+| **[!UICONTROL Show total]** | Een som van de kolommen aan de clientzijde weergeven. Dit totaal **** dedupliceert metriek zoals zittingen of personen niet. |
+| **[!UICONTROL Show grand total]** | Toon een server-zijsom van de kolom. Het totaal-generaal dedupliceert metriek zoals zittingen of personen. |
+| **[!UICONTROL Show sparkline]** | Een lijndiagram weergeven bij de kolomkop. |
+| **[!UICONTROL Number]** | Bepaal of een cel de numerieke waarde voor de metrische waarde weergeeft/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
+| **[!UICONTROL Percent]** | Bepaal of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem, gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: percentages van meer dan 100% zijn mogelijk om accuraat te zijn. Het bovenste gebonden uiteinde kan naar 1.000% worden verplaatst om te voorkomen dat de kolombreedte te groot wordt. |
+| **[!UICONTROL Show anomalies]** | Bepaal of de waarden in deze kolom een anomaliedetectie uitvoeren. |
+| **[!UICONTROL Show forecast]** | Bepaal of de voorspelde waarden in deze kolom worden weergegeven. |
+| **[!UICONTROL Wrap header text]** | Plaats de koptekst in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Wrappen is handig voor het renderen van PDF en voor metriek met lange namen. Standaard ingeschakeld. |
+| **[!UICONTROL Interpret zero as no value]** | Bepaal of voor cellen met een waarde 0 een cel of een lege cel moet worden weergegeven. Deze interpretatie is handig wanneer u gegevens voor elke dag van een maand bekijkt en bepaalde dagen in de toekomst.  In plaats van &#39;0&#39; voor toekomstige datums weer te geven, worden lege cellen weergegeven. Bij grafieken wordt deze instelling ook gebruikt (diagrammen geven geen lijn of balk met 0 waarden weer). |
+| **[!UICONTROL Background]** | Bepaal of in een cel alle celopmaak wordt weergegeven of verborgen, inclusief de staafgrafiek en voorwaardelijke opmaak. |
+| **[!UICONTROL Bar Graph]** | Een horizontale staafgrafiek tonen die de waarde van de cel ten opzichte van het totaal voor de kolom vertegenwoordigt. |
+| **[!UICONTROL Conditional Formatting]** | Gebruik voorwaardelijke opmaak. Zie de [ sectie ](#conditional-formatting) hieronder. |
+| **[!UICONTROL Table Cell Preview]** | Een voorbeeld van hoe elke cel wordt weergegeven met de momenteel geselecteerde opmaakopties toegepast. |
+| **[!UICONTROL Use non-default attribution model]** | Gebruik een niet-standaard toewijzingsmodel. Zie de [ sectie ](#use-non-default-attribution-model) hieronder. |
 
 ## Voorwaardelijke opmaak {#conditional-formatting}
 
-Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en onderste limieten die u kunt definiëren. Het toepassen van voorwaardelijke opmaak (bijvoorbeeld kleuren) in Freeform-tabellen wordt ook automatisch ingeschakeld voor onderverdelingen, tenzij &quot;Aangepaste&quot; limieten zijn geselecteerd.
+Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en onderste limieten die u kunt definiëren. Het toepassen van voorwaardelijke opmaak in Freeform-tabellen wordt ook automatisch ingeschakeld voor uitsplitsingen, tenzij [!UICONTROL Custom] limieten zijn geselecteerd.
 
-![](assets/conditional-formatting.png)
+![ Voorwaardelijke het formatteren ](./assets/conditional-formatting.png)
 
-| Element | Beschrijving |
+| Opties voor voorwaardelijke opmaak | Beschrijving |
 | --- | --- |
-| Voorwaardelijke opmaak | Hiermee past u een vooraf geconfigureerde kleurenset van uw keuze toe op cellen. Afhankelijk van welke van de vier beschikbare kleurenschema&#39;s u selecteert, worden de verschillende kleuren toegewezen aan hoge waarden, middelpuntwaarden, en lage waarden. <br> Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metric vervangt, worden de limieten voor die kolom opnieuw berekend (waarbij de metric op de X-as staat en de dimensie op de Y-as). |
-| Percentagelimieten gebruiken | Wijzig het limietbereik zodat dit op percentages wordt gebaseerd in plaats van op absolute waarden. Dit werkt voor metriek die uitsluitend op percentage-gebaseerd (zoals het Tarief van de Stuiting) evenals voor metriek zijn die een telling en een percentage (zoals de Weergaven van de Pagina. hebben) |
-| Automatisch genereren | Berekent automatisch de bovenste/middelste/onderste limieten op basis van de gegevens. De bovengrens is de hoogste waarde in deze kolom. De ondergrens is de laagste en het middelpunt is het gemiddelde van de boven- en ondergrens. |
-| Aangepast | Handmatig bovenste/middelste/onderste limieten toewijzen. Dit biedt u de flexibiliteit om te bepalen wanneer een kolomwaarde goed, gemiddeld, of slecht wordt. |
-| Voorwaardelijk opmaakpalet | Kies welke van de vier beschikbare kleurenschema&#39;s u voor uw voorwaardelijke formatteren wilt gebruiken. |
+| **[!UICONTROL  Use percent limits]** | Wijzig het limietbereik zodat dit op percentages wordt gebaseerd in plaats van op absolute waarden. Het percentagelimietbereik werkt voor metriek die uitsluitend op percentage gebaseerd zijn (zoals Stuitsnelheid) en voor metriek die een telling en een percentage hebben (zoals Paginaweergaven). |
+| **[!UICONTROL Auto-generated]** | Berekent automatisch de bovenste/middelste/onderste limieten op basis van de gegevens. De bovengrens is de hoogste waarde in deze kolom. De ondergrens is de laagste en het middelpunt is het gemiddelde van de boven- en ondergrens. |
+| **[!UICONTROL Custom]** | Wijs **[!UICONTROL Upper limit]**, **[!UICONTROL Midpoint]** en **[!UICONTROL Lower limit]** handmatig toe. De grenzen verstrekken de flexibiliteit om te bepalen wanneer een kolomwaarde goed, gemiddeld, of slecht wordt. |
+| **[!UICONTROL Conditional formatting palette]** | Pas een vooraf geconfigureerde kleurenset toe op cellen. Afhankelijk van welke van de vier beschikbare kleurenschema&#39;s u selecteert, worden de verschillende kleuren toegewezen aan hoge waarden, middelpuntwaarden, en lage waarden. <br> Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metric vervangt, worden de limieten voor die kolom opnieuw berekend (waarbij de metric op de X-as staat en de dimensie op de Y-as). |
 
-## Niet-standaard toewijzingsmodel gebruiken {#attribution}
+## Niet-standaard toewijzingsmodel gebruiken {#use-non-default-attribution-model}
 
-Analysis Workspace steunt [ attributie ](/help/analyze/analysis-workspace/attribution/overview.md) voor bijna om het even welke metrisch.
+<!-- markdownlint-disable MD034 -->
 
-1. Klik op het pictogram Instellingen (versnelling) in een kolom Tabel vrije vorm.
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_column_usenondefaultattributionmodel"
+>title="Niet-standaard toewijzingsmodel gebruiken"
+>abstract="Schakel een niet-standaard toewijzingsmodel in voor de geselecteerde kolommen."
 
-   ![ checkbox van de Attributie ](assets/attribution-checkbox.png)
+<!-- markdownlint-enable MD034 -->
 
-1. Onder **[!UICONTROL Data Settings]** schakelt u **[!UICONTROL Use non-default attribution model]** in. Voor meer informatie over verschillende attributiemodellen, zie [ modellen van de Attributie ](/help/analyze/analysis-workspace/attribution/models.md).
+<!-- markdownlint-disable MD034 -->
 
-   ![ Uitgezochte attributiemodel ](assets/attribution-select.png)
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
+>title="Niet-standaard toewijzingsmodel gebruiken"
+>abstract="Niet-standaardtoewijzingsmodus is niet beschikbaar voor deze metrische waarde."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!NOTE]
+>
+>Houd rekening met het volgende wanneer u de toewijzing van een component bijwerkt naar een niet-standaard toewijzingsmodel:
+>
+>* **wanneer het gebruiken van de component in een rapport met *één enkele afmeting*:** de attributie van de component negeert het toewijzingsmodel wanneer een niet-gebrek attributiemodel wordt gebruikt.
+>
+>* **wanneer het gebruiken van de component in een rapport met *veelvoudige afmetingen*:** de attributie van de component behoudt het toewijzingsmodel wanneer een niet-gebrek attributiemodel wordt gebruikt.
+>
+>
+
+Een niet-standaard toewijzingsmodel gebruiken voor een metrisch object in Analysis Workspace:
+
+1. Selecteer **[!UICONTROL Use non-default attribution model]** . Als deze optie al is geselecteerd, gebruikt u **[!UICONTROL Edit]** om het toewijzingsmodel te bewerken. U kunt ook de selectie opheffen om terug te keren naar het standaardtoewijzingsmodel.
+
+   ![ de Kolom die opties plaatst die de optie van de Montages van Gegevens benadrukken: Gebruik niet-standaardattributiemodus.](assets/attribution-checkbox.png)
+
+2. Selecteer in **[!UICONTROL Column attribution model]** een **[!UICONTROL Model]** en een **[!UICONTROL Lookback window]** . Het terugkijkvenster bepaalt het venster van gegevensattributie dat voor elke omzetting wordt toegepast.
+
+   ![ de Opties van het Model van de Attributie van de Kolom die Lineair tonen.](assets/attribution-select.png)
+
+
+### Attributiemodellen
+
+{{attribution-models-details}}
+
+### Venster Opzoeken
+
+{{attribution-lookback-window}}
+
 
 >[!MORELIKETHIS]
 >
 >* [Databronnen beheren](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
-
-## Dynamische kolommen
 
 
 >[!BEGINSHADEBOX]

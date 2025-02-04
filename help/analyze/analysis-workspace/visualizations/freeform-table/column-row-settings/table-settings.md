@@ -5,41 +5,87 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 6d6a7587fc4a41be1e7ad33d3ed0280b0d82d47c
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
+
 # Rijinstellingen
 
-De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept. Als u de tabelrijinstellingen wilt openen, klikt u op het pictogram Instellingen naast een dimensie, segment, metrisch, tijdsperiode of een verdeling binnen elk van deze instellingen:
 
-![](assets/row-settings.png)
+>[!BEGINSHADEBOX]
+
+Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0} VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.![
+
+>[!ENDSHADEBOX]
+
+De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept. Om tot de montages van de lijstrij toegang te hebben, selecteer ](/help/assets/icons/Setting.svg) Plaatsend **[!UICONTROL Settings]** naast een afmeting, filter, metrisch, tijdspanne, of een onderbreking binnen elk van deze voorwerpen.![
+
+![ vrije lijst die van de Vorm het pictogram van Montages voor Metriek ](assets/row-settings.png) benadrukken
 
 | Instelling | Beschrijving |
-|--- |--- |
-| Datums uitlijnen | Dit is een instelling op tabelniveau waarmee de datums van elke kolom worden uitgelijnd op alle datums die op dezelfde rij beginnen. Uitlijnen op datum wordt standaard ingeschakeld wanneer een tijddimensie wordt gebruikt in de rijen van de tabel en verschillende datumbereiken worden toegepast in de kolommen. In een dagelijkse tabel waarin oktober en september op de kolommen worden toegepast, begint de linkerkolom bijvoorbeeld met 1 oktober en begint de rechterkolom met 1 september. |
-| Uitsplitsing naar positie | Deze instelling is standaard uitgeschakeld en de onderverdelingen zijn gekoppeld aan statische rijitems. Bijvoorbeeld, laten wij zeggen u de hoogste 3 pagina afmetingspunten (Homepage, Resultaten van het Onderzoek, Afhandeling) door het Kanaal van de Marketing. Dan verlaat u het project en keert twee weken later terug. Nadat u het project opnieuw hebt geopend, zijn de bovenste drie pagina&#39;s gewijzigd. In plaats daarvan zijn Homepage, Zoekresultaten en Afhandeling de bovenste 4-6 pagina&#39;s. Standaard worden uw uitsplitsingen naar marketingkanaal nog steeds weergegeven onder Homepage, Zoekresultaten en Afhandeling, ook al staan deze nu in de rijen 4-6. <br> In tegenstelling, **Uitsplitsing door positie** zal altijd de top 3 punten, ongeacht wat zij zijn uitsplitsen. Als u terugverwijst naar ons voorbeeld, worden de uitsplitsingen van het marketingkanaal gekoppeld aan de bovenste drie pagina&#39;s van de tabel, niet aan Homepage, Zoekresultaten en Afhandeling, die nu in de rijen 4-6 staan. |
-| Percentage | **berekent percentages door kolom** is het gebrek plaatsend; de percentages zichtbaar in een kolom worden berekend gebaseerd op het kolomtotaal. <br>**berekent percentages door rij** dwingt de lijst Freeform om de celpercentages over de rij in tegenstelling tot onderaan de kolom, met Groot totaal als noemer te berekenen. Dit is vooral handig voor het trenderen van percentages. Deze instelling is standaard ingeschakeld wanneer u het pictogram Visualiseren gebruikt. |
-| Kolomtotalen | Deze montages zijn beschikbaar slechts voor [ statische rijen ](manual-vs-dynamic-rows.md). <br> **toon als som huidige rijen** toont een cliënt-zijsom van de rijen in de lijst die het totaal ** zal niet {dedupliceren metriek zoals bezoeken of bezoekers. <br> **toon het grote totaal** toont een server-zijsom wat betekent het totaal metriek zal dedupliceren. |
+| --- | --- |
+| **[!UICONTROL Breakdown by position]** | Deze instelling is standaard uitgeschakeld en de onderverdelingen zijn gekoppeld aan statische rijitems. Stel dat u de bovenste pagina&#39;s met dimensies (Homepage, Zoekresultaten, Afhandeling) opsplitst op Marketingkanaal. Dan verlaat u het project en keert twee weken later terug. Nadat u het project opnieuw hebt geopend, zijn de bovenste drie pagina&#39;s gewijzigd. In plaats daarvan zijn Homepage, Zoekresultaten en Afhandeling de bovenste 4-6 pagina&#39;s. Standaard worden uw uitsplitsingen naar marketingkanaal nog steeds weergegeven onder Homepage, Zoekresultaten en Afhandeling, ook al bevinden ze zich nu in de rijen 4-6. <br> In tegenstelling, **Uitsplitsing door positie** breekt altijd boven 3 punten, ongeacht wat zij zijn. Verwijzend naar het voorbeeld, wanneer u uw project opnieuw opent, zijn de onderbrekingen van het Kanaal van de Marketing gebonden aan de hoogste 3 pagina&#39;s in de lijst. En niet naar Homepage, zoekresultaten en afhandeling, die nu in de rijen 4 tot en met 6 staan. |
+| **[!UICONTROL Percentages]** | **berekent percentages door kolom** (gebrek): de percentages zichtbaar in een cellen worden berekend gebaseerd op het kolomtotaal. <br>**berekent percentages door rij**: de percentages in cellen worden berekend over de rij, in tegenstelling tot onderaan de kolom, met Groot totaal als noemer. Deze berekening is nuttig voor het trenderen van percentages. |
+| **[!UICONTROL Column totals]** | Deze montages zijn beschikbaar slechts voor [ statische rijen ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md). <br> **toon als som huidige rijen** toont een cliënt-zijsom van de rijen in de lijst, zo betekent het totaal *niet* de-dubbele metriek zoals bezoeken of personen. <br> **toon groot totaal** toont een server-zijsom, wat het totaal van de-gedupliceerde metriek betekent. |
 
 ## Aantal rijen wijzigen
 
 U wijzigt als volgt het aantal rijen dat wordt weergegeven:
 
-1. Klik op het nummer naast [!UICONTROL Rows] boven aan de tabel.
+1. Klik op het nummer naast **[!UICONTROL Rows]** boven aan de eerste kolom van de tabel.
 
-   ![](assets/row-number.png)
+   ![ vrije lijst die van de Vrije vorm de drop-down lijst van voor het aantal getoonde rijen toont. Er zijn 400 rijen geselecteerd.](assets/change-row-count.gif)
 
 1. Selecteer in de vervolgkeuzelijst het aantal rijen dat u wilt weergeven in de tabel.
 
-## Video&#39;s
 
->[!BEGINSHADEBOX]
+## Contextmenu
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Percentage door rij ](https://video.tv.adobe.com/v/23134?quality=12&learn=on){target="_blank"} voor een demo video.
+De volgende opties in contextmenu&#39;s zijn beschikbaar wanneer u de dimensiekoptekst selecteert.
 
->[!ENDSHADEBOX]
+| Optie | Beschrijving |
+| --- | --- |
+| **[!UICONTROL Copy selection to clipboard]** | Kopieer de selectie van de visualisatie naar het klembord. |
+| **[!UICONTROL Download items as CSV (*afmetingsnaam *)]** | Download de dimensie-items (tot een maximum van 50.000) van de visualisatie direct naar uw lokale apparaat. Maximaal 50.000 dimensieitems voor de geselecteerde dimensie. |
+| **[!UICONTROL Download selection as CSV]** | Download de dimensie-items van de visualisatie direct naar uw lokale apparaat. |
+| **[!UICONTROL Create hyperlink for all dimension items]** | Maak hyperlinks voor alle dimensie-items. Zie [ Hyperlinks voor afmetingen in een vrije vormlijst ](../freeform-table-hyperlinks.md) |
+| **[!UICONTROL Edit hyperlink for all dimension items]** | Bewerk hyperlinks voor alle dimensie-items. Zie [ Hyperlinks voor afmetingen in een vrije vormlijst ](../freeform-table-hyperlinks.md) |
+| **[!UICONTROL Remove hyperlink for all dimension items]** | Verwijder hyperlinks voor alle afmetingsitems. Zie [ Hyperlinks voor afmetingen in een vrije vormlijst ](../freeform-table-hyperlinks.md) |
+| **[!UICONTROL Delete]** | Hiermee verwijdert u de dimensie uit de tabel. |
+| **[!UICONTROL Visualize]** | Visualiseer de dimensie met een van de beschikbare visualisaties. |
+| **[!UICONTROL Display only selected rows]** | Alleen de geselecteerde items in de visualisatie weergeven. |
+| **[!UICONTROL Create annotation from selection]** | Open **[!UICONTROL Annotation details]** om een annotatie toe te voegen. |
 
+
+De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u een of meer afmetingsitems (eerste kolom) of een of meer afzonderlijke cellen in de vrije-vormtabel selecteert.
+
+| Optie | Beschrijving |
+| --- | --- |
+| **[!UICONTROL Create hyperlink]** | Maak een hyperlink voor het item. Zie [ Hyperlinks voor afmetingen in een vrije vormlijst ](../freeform-table-hyperlinks.md) |
+| **[!UICONTROL Edit hyperlink]** | Bewerk een hyperlink voor het item. Zie [ Hyperlinks voor afmetingen in een vrije vormlijst ](../freeform-table-hyperlinks.md) |
+| **[!UICONTROL Remove hyperlink]** | Een hyperlink voor het item verwijderen. Zie [ Hyperlinks voor afmetingen in een vrije vormlijst ](../freeform-table-hyperlinks.md) |
+| **[!UICONTROL Breakdown]** | Hiermee wordt het item voor de dimensie opgesplitst. Selecteer een optie in de lijst met **[!UICONTROL Dimensions]** , **[!UICONTROL Metrics]** , **[!UICONTROL Filters]** of **[!UICONTROL Date ranges]** . Alternatief onderzoek naar een component, gebruikend *Onderzoek*. |
+| **[!UICONTROL Delete selected]** | Verwijder de geselecteerde rijen (items). |
+| **[!UICONTROL Trend selection]** | Maak een trendlijngrafiekvisualisatie voor de selectie. |
+| **[!UICONTROL Display only selected rows]** | Alleen de geselecteerde rijen in de visualisatie weergeven. |
+| **[!UICONTROL Display all rows]** | Alle rijen in de visualisatie weergeven. |
+| **[!UICONTROL Create filter from selection]** | Open **[!UICONTROL Filter builder]** om een filter van de selectie te bouwen. |
+| **[!UICONTROL Create audience from selection]** | Open het dialoogvenster **[!UICONTROL Create audience]** om een publiek te maken op basis van de selectie. |
+
+De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u een kolomkop met een metrische waarde selecteert.
+
+| Optie | Beschrijving |
+|---|---|
+| **[!UICONTROL Create metric from selection]** | Creeer nieuwe metrisch van geselecteerde metrisch. De metrische waarden kunnen Gemiddeld zijn, Media, Kolommaximum, Kolom min, Kolomsom. U kunt Open in berekende metrische bouwer ook selecteren om berekende metrisch tot stand te brengen. |
+| **[!UICONTROL Add time period column]** | Voeg een kolom voor de tijdperiode toe. U wordt aangeboden verscheidene opties, waar de kalenderwaaier van het paneel de *datumwaaier* bepaalt: <li>**[!UICONTROL Prior *datumwaaier *aan deze datumwaaier]**</li><li>**[!UICONTROL These *datumwaaier *aan deze datumwaaier]**.</li><li>**[!UICONTROL Custom date range to this date range]**. Hiermee opent u het dialoogvenster **[!UICONTROL Date range builder]** waarin u het datumbereik kunt opgeven.</li>Zie [ vergelijking van de Datum ](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) voor meer informatie. |
+| **[!UICONTROL Compare time periods]** | Hiermee voegt u de kolommen voor de tijdsperiode toe. Alleen beschikbaar als de dimensie niet op tijd is gebaseerd. U wordt aangeboden verscheidene opties bepaalt de *datumwaaier*: <li>**[!UICONTROL Prior *datumwaaier *aan deze datumwaaier]**</li><li>**[!UICONTROL Custom date range to this date range]**. Hiermee opent u het dialoogvenster **[!UICONTROL Date range builder]** waarin u het datumbereik kunt opgeven.</li>Zie [ vergelijking van de Datum ](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) voor meer informatie. |
+| **[!UICONTROL Modify attribution models]** | Wijzig het attributiemodel voor de kolom. |
+| **[!UICONTROL Compare attribution model]** | Geef een nieuw toewijzingsmodel op en vergelijk dit met het toewijzingsmodel voor de geselecteerde kolom. Een nieuwe kolom wordt toegevoegd met de nieuwe metriek van het attributiemodel. Bovendien wordt een kolom Percentage wijziging toegevoegd ter vergelijking. |
+| **[!UICONTROL Reset column widths]** | Herstel de kolombreedten naar de standaardbreedte. |
+| **[!UICONTROL Create annotation from selection]** | Open **[!UICONTROL Annotation details]** om een annotatie toe te voegen. |
+| **[!UICONTROL Create filter from selection]** | Open **[!UICONTROL Filter builder]** om een filter van de selectie te bouwen. |
+| **[!UICONTROL Create audience from selection]** | Open het dialoogvenster **[!UICONTROL Create audience]** om een publiek te maken op basis van de selectie. |

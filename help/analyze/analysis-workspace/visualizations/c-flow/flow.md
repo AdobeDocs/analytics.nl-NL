@@ -5,9 +5,9 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -57,13 +57,10 @@ U kunt de [ stroom tussen afmetingen ](/help/analyze/analysis-workspace/visualiz
 
 Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een dalingsstreek om die afmeting aan het diagram toe te voegen.
 
-## Een stroomvisualisatie configureren
-
-Voor informatie over hoe te om een stroomvisualisatie te vormen, zie [ een stroomvisualisatie ](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) vormen.
-
-## De Diagrammen van de Stroom van de uitvoer als Deel van de Dossiers .CSV van het Project {#section_BACD2639A0FC4C49A75398F7D0363D9D}
-
-Stroomdiagrammen maken deel uit van het CSV-bestand van een project dat u kunt maken door naar **[!UICONTROL Project]** > **[!UICONTROL Download CSV]** te gaan. Op deze manier kunt u de stroomresultaten analyseren in Microsoft Excel (weergegeven als een tabel) of elders.
+>[!MORELIKETHIS]
+>
+>[ vorm een stroomvisualisatie ](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>
 
 
 ## Aanvullende functionaliteit

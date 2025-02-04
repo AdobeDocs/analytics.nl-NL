@@ -5,17 +5,16 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
 
 # Interdimensionale stromen
 
-Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken. Hier volgt een video over tekstomloop en multidimensionale tekstdoorloop in Analysis Workspace:
-
+Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken.
 
 >[!BEGINSHADEBOX]
 
@@ -23,51 +22,38 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ inter-dimensi
 
 >[!ENDSHADEBOX]
 
+In dit artikel wordt getoond hoe u deze workflow kunt gebruiken voor twee gebruiksgevallen: interacties en gebeurtenissen voor mobiele apps en hoe campagnes webbezoeken aansturen.
 
-Een afmetingslabel boven aan elke stroomkolom maakt het gebruik van meerdere dimensies in een stroomvisualisatie intuïtiever:
+## Interacties en gebeurtenissen voor mobiele apps
 
-![](assets/flow.png)
+De [!UICONTROL Screen Name] -dimensie wordt gebruikt in deze voorbeeldstroom om te zien hoe gebruikers de verschillende schermen (scènes) in de app gebruiken. Het bovenste scherm dat wordt geretourneerd, is **[!UICONTROL luma: content: ios: en: home]** , de startpagina van de app:
 
-We zullen naar twee gebruiksgevallen kijken: een gebruiksscenario voor apps en een gebruiksscenario voor het web.
+![ de stroom die van A het Toegevoegde Punt toont.](assets/flowapp.png)
 
-## Eerste hoofdletter gebruiken: app {#app}
+Als u de interactie tussen schermen en gebeurtenistypen (zoals toevoegen aan winkelwagentje, aankopen en andere) in deze app wilt verkennen, sleept u de **[!UICONTROL Event Types]** -dimensie en zet u deze neer:
 
-De [!UICONTROL Action Name] -dimensie is aan de flow toegevoegd, waarbij het bovenste item [!UICONTROL ItemAdded] is:
+* Boven op elke beschikbare stap in de flow, om die dimensie te vervangen:
 
-![](assets/multi-dimensional-flow.png)
+  ![ de stroom van A die de afmeting van de Pagina toont sleept aan de veelvoudige gebieden.](assets/flowapp-replace.png)
 
-Als u de interactie tussen schermen/pagina&#39;s en acties in deze app wilt verkennen, kunt u de paginadimensie naar meerdere plaatsen slepen, afhankelijk van wat u wilt verkennen:
+* Buiten de huidige stroomvisualisatie om de dimensie toe te voegen:
 
-* Sleep het aan één van beide eind van de dalingsstreek (binnen de zwart-in orde gemaakte rechthoekige streek die verschijnt) om **te vervangen** de hoogste resultaten op de einden:
+  ![ de stroom van A die de afmeting van de Pagina toont aan het witte die ruimte aan het eind wordt gesleept.](assets/flowapp-add.png)
 
-  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+De stroomvisualisatie hieronder toont het resultaat van het toevoegen van de **[!UICONTROL Event Types]** dimensie. De visualisatie biedt inzicht in de manier waarop gebruikers van mobiele apps verschillende schermen in de app doorlopen voordat ze producten aan een winkelwagentje toevoegen, de toepassing sluiten, een aanbieding krijgen en nog veel meer.
 
-* Sleep het aan de witte ruimte op het eind (merk de zwarte steun) aan **toevoegen aan** visualisatie:
+![ A fLow die de de afmetingsresultaten van de Pagina bij de bovenkant van de lijst tonen.](assets/flowapp-result.png)
 
-  ![](assets/multi-dimensional-flow4.png)
+## Hoe campagnes webbezoeken sturen
 
-Hier is het resultaat als u besluit om het item ItemScaled in de juiste kolom met de dimensie van de Pagina te vervangen. Het bovenste resultaat wordt nu gewijzigd in het bovenste resultaat voor de pagina-afmeting:
+U wilt analyseren welke campagnes bezoeken aan de website aansturen. U maakt een stroomvisualisatie met de **[!UICONTROL Campaign Name]** als dimensie
 
-![](assets/multi-dimensional-flow5.png)
+![ de dimensie van de het Webcampagne van de stroom ](assets/flowweb.png)
 
-Nu kunt u zien hoe klanten door acties en pagina&#39;s bewegen. U kunt de stroom verder verkennen door op verschillende knooppunten te klikken:
+U vervangt de laatste **[!UICONTROL Campaign Name]** -dimensie door de **[!UICONTROL Formatted Page Name]** -dimensie en voegt nog een **[!UICONTROL Formatted Page Name]** -dimensie toe aan het einde van de flowvisualisatie.
 
-![](assets/multi-dimensional-flow6.png)
+![ de naam van de het Webcampagne van de stroom en Web-pagina dimensie ](assets/flowweb-replace.png)
 
-Dit is wat gebeurt als u een andere dimensie van de Naam van de Actie op het eind van visualisatie toevoegt:
+U kunt de muisaanwijzer boven een willekeurige stroom houden om meer details weer te geven. Welke campagnes bijvoorbeeld hebben geleid tot een afhandeling van winkelwagentjes.
 
-![](assets/multi-dimensional-flow7.png)
-
-Op deze manier kunt u diepgaande inzichten en mogelijke wijzigingen aanbrengen in de app die u analyseert.
-
-## Hoofdlettergebruik twee: web {#web}
-
-In dit geval kunt u zien hoe u kunt analyseren welke campagnes de meeste items naar een website sturen.
-
-Sleep de dimensie van de Naam van de Campagne in een nieuwe stroom:
-
-![](assets/multi-dimensional-flow8.png)
-
-Nu wil ik zien aan welke pagina&#39;s die campagnes verkeer drijven, zodat sleep ik de dimensie van de Pagina rechts van de stroomresultaten om op visualisatie toe te voegen:
-
-![](assets/multi-dimensional-flow9.png)
+![ de naam van de het Webcampagne van de stroom en Web-pagina dimensie hover ](assets/flowweb-hover.png)
