@@ -3,9 +3,9 @@ title: Gegevensfeeds beheren
 description: Leer hoe te om de interface van de gegevensvoer te navigeren. Ontdek hoe u een gegevensfeed kunt maken, bewerken en weergeven.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Met de knop [!UICONTROL Add] kunt u een nieuwe feed maken. Zie [ een gegevensvoe
 
    Wanneer het bijwerken van de [!UICONTROL **sectie van de Bestemming**] voor een gegevensvoer die u uitgeeft, kunt u een verschillende rekening en een plaats kiezen voor de nieuwe gegevensvoer in de [!UICONTROL **Rekening**] en [!UICONTROL **plaats**] drop-down gebieden te gebruiken.
 
-   De rekeningen en de plaatsen kunnen worden uitgegeven zoals die in [ wordt beschreven vormen de invoer en de uitvoerrekeningen van de wolk ](/help/components/locations/configure-import-accounts.md) en [ vormen wolkeninvoer en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md). Het bewerken van een account of locatie heeft invloed op alle items die aan dat account of die locatie zijn gekoppeld.
+   De rekeningen en de plaatsen kunnen worden uitgegeven zoals die in [ wordt beschreven vormen de invoer en de uitvoerrekeningen van de wolk ](/help/components/locations/configure-import-accounts.md) en [ vormen wolkeninvoer en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md). Het bewerken van een account of locatie beïnvloedt alle items die aan dat account of die locatie zijn gekoppeld.
 
    Met eerdere versies van de gegevensfeeds Manager kon u FTP-, SFTP-, S3- en Azure-blokdoelen maken. Doelen die in deze eerdere versies van het gegevensfeeds-beheer zijn gemaakt, kunnen niet worden bewerkt of gekopieerd.
 
@@ -62,7 +62,7 @@ Met de knop [!UICONTROL Add] kunt u een nieuwe feed maken. Zie [ een gegevensvoe
 
    * Typ in het zoekveld de naam van een feed. Alleen de overeenkomende feeds worden weergegeven in de lijst met beschikbare feeds.
 
-   * Klik helemaal links op het filterpictogram om filteropties weer te geven of te verbergen. Filters zijn ingedeeld in categorieën. U kunt filtercategorieën samenvouwen of uitbreiden. Schakel het selectievakje naast een filter dat u wilt toepassen in.
+   * Klik helemaal links op het filterpictogram om filteropties weer te geven of te verbergen. Filters zijn ingedeeld in categorieën. U kunt filtercategorieën samenvouwen of uitbreiden. Schakel het selectievakje in naast het filter dat u wilt toepassen.
 
 ![ Filter ](assets/filters.png)
 
@@ -84,17 +84,21 @@ Met de knop [!UICONTROL Add] kunt u een nieuwe feed maken. Zie [ een gegevensvoe
 
 1. Selecteer checkbox naast de gegevensvoer die u wilt kopiëren, dan selecteren [!UICONTROL **Exemplaar**].
 
-   Neemt u [ om een nieuwe voer ](create-feed.md) met alle montages van het huidige voer tot stand te brengen. Deze optie is niet zichtbaar als er meer dan één gegevensfeed is geselecteerd.
+   Dit neemt u om [ een nieuwe voer ](create-feed.md) met alle montages van de huidige voer tot stand te brengen. Deze optie is niet zichtbaar als er meer dan één gegevensfeed is geselecteerd.
 
    Wanneer het bijwerken van de [!UICONTROL **sectie van de Bestemming**] voor een gegevensvoer die u kopieert, kunt u een verschillende rekening en een plaats kiezen voor de nieuwe gegevensvoer in de [!UICONTROL **Rekening**] en [!UICONTROL **drop-down gebieden van de Plaats**] te gebruiken.
 
-   De rekeningen en de plaatsen kunnen worden uitgegeven zoals die in [ wordt beschreven vormen de invoer en de uitvoerrekeningen van de wolk ](/help/components/locations/configure-import-accounts.md) en [ vormen wolkeninvoer en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md). Het bewerken van een account of locatie heeft invloed op alle items die aan dat account of die locatie zijn gekoppeld.
+   De rekeningen en de plaatsen kunnen worden uitgegeven zoals die in [ wordt beschreven vormen de invoer en de uitvoerrekeningen van de wolk ](/help/components/locations/configure-import-accounts.md) en [ vormen wolkeninvoer en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md). Het bewerken van een account of locatie beïnvloedt alle items die aan dat account of die locatie zijn gekoppeld.
 
    Met eerdere versies van de gegevensfeeds Manager kon u FTP-, SFTP-, S3- en Azure-blokdoelen maken. Doelen die in deze eerdere versies van het gegevensfeeds-beheer zijn gemaakt, kunnen niet worden bewerkt of gekopieerd.
 
 ## Een gegevensfeed pauzeren
 
-U kunt de verwerking van de feed stoppen en de status ervan instellen op [!UICONTROL Inactive] .
+Wanneer u een gegevensfeed pauzeert, wordt de verwerking van de feed gestopt en wordt de status ingesteld op [!UICONTROL Inactive] .
+
+Wanneer u de feed opnieuw activeert nadat u deze hebt gepauzeerd, worden de gegevens tijdens het pauzeren verwerkt voor terugvulfeeds, maar niet voor live feeds. Voor meer informatie, zie [ een gegevensvoer ](#activate-a-data-feed) activeren.
+
+Een gegevensfeed pauzeren:
 
 1. In Adobe Analytics, uitgezochte [!UICONTROL **Admin**] > [!UICONTROL **het voer van Gegevens**].
 
@@ -104,17 +108,11 @@ U kunt de verwerking van de feed stoppen en de status ervan instellen op [!UICON
 
 U kunt inactieve feeds activeren.
 
-Als u een back-up maakt van feeds (feeds die alleen historische gegevens verwerken), worden de verwerkingsgegevens hervat vanaf het punt waarop ze zijn gestopt. Zo nodig worden de datums opnieuw ingevuld. Met Live feeds worden ook verwerkingsgegevens hervat vanaf het punt waar ze zijn gestopt.
+Wanneer een diervoeder opnieuw wordt geactiveerd, worden de gegevens mogelijk niet automatisch verwerkt voor de tijd dat de feed inactief was. Of de gegevens worden verwerkt, hangt af van het feit of het een terugvullingfeed of een live feed is:
 
->[!AVAILABILITY]
->
->De volgende wijziging in de manier waarop live feeds verwerkingsgegevens hervat, bevindt zich in de Beperkte testfase van de release:
-> 
->**Levende voer hervat verwerkingsgegevens van de huidige tijd.**
->
->Deze wijziging is mogelijk nog niet beschikbaar in uw omgeving.
->
->Deze opmerking wordt verwijderd wanneer deze wijziging over het algemeen beschikbaar is. Voor informatie over het de versieproces van de Analyse, zie [ de eigenschapversies van Adobe Analytics ](/help/release-notes/releases.md).
+* **terugvult voer** (voer dat slechts historische gegevens verwerkt) hervat verwerkingsgegevens van waar zij tegengehouden, teruggevend om het even welke data indien nodig.
+
+* **Levende voer** hervat verwerkingsgegevens van de tijd zij worden geactiveerd. Dit betekent dat de gegevens niet worden verwerkt tijdens het pauzeren van het diervoeder tot het moment dat het werd geactiveerd. Als u de gegevens tijdens deze periode nodig hebt, moet u een backfill instellen.
 
 Een gegevensfeed activeren:
 
@@ -151,7 +149,7 @@ De volgende kolommen zijn beschikbaar:
 * **Eigenaar**: De gebruikersrekening die tot het voer leidde.
 * **Status**: De status van het voer.
    * Actief: Het voer is operationeel.
-   * Goedkeuring in behandeling: in sommige gevallen moet een diervoeder worden goedgekeurd door de Adobe voordat het kan beginnen met het genereren van banen.
+   * Goedkeuring in behandeling: in sommige gevallen moet een diervoeder worden goedgekeurd door Adobe voordat het nieuwe arbeidsplaatsen kan scheppen.
    * Verwijderd: de feed wordt verwijderd.
    * Voltooid: De verwerking van de feed is voltooid. Een volledig ingevuld diervoeder kan worden bewerkt, in de wachtstand worden gezet of worden geannuleerd.
    * In behandeling: de feed is gemaakt, maar nog niet actief. Feeds blijven in deze toestand voor een korte overgangsperiode.
