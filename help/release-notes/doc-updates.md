@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+source-git-commit: 372792a99d124e6f09eaf0f75310f3a0125c3461
 workflow-type: tm+mt
-source-wordcount: '6002'
+source-wordcount: '6168'
 ht-degree: 19%
 
 ---
@@ -27,6 +27,14 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | --- | --- |
 | **Februari 2025** |  |
 | Bijgewerkte informatie over het pauzeren en het opnieuw activeren van een gegevensvoer | Wanneer [ het pauzeren en het opnieuw activeren van een gegevensvoer ](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), het gedrag voor levende voer verduidelijkte. Gegevensverwerking vindt niet plaats vanaf het moment dat de feed wordt gepauzeerd tot het moment dat de feed opnieuw wordt geactiveerd. |
+| Gewijzigde bewaarperiode voor transactie-id   De bewaarperiode voor de transactie-id van 90 dagen werd verlengd tot 25 maanden. De variabele transactionID identificeert uniek een transactie zodat kan de slag aan gegevens verbinden die door Gegevensbronnen worden geupload. Leer meer [ hier ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) en [ hier ](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en). |
+| LiveStream-API - Clientimplementatie | Gebruik [ LiveStream cliëntimplementatie ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) om gegevens te verbruiken Livestream. |
+| Update aan Classificaties API \ u kunt [ individuele classificatievelden of sleutels van de server ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) nu verwijderen. Dit verstrekt een alternatief aan het schrappen van een volledige classificatiedataset met de methode van DELETE. |
+| **Januari 2025** |  |
+| Referentie API voor gegevensfeeds | De [ verwijzing voor de Dieven API van Gegevens ](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) is nu beschikbaar. |
+| Nieuwe documentatie over planning in de nieuwe Report Builder | [ Plannend ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder) niet alleen staat u toe om uw nieuwe werkboeken van Report Builder te plannen. Bovendien kunt u de metagegevens van oude geplande taken ophalen wanneer u oudere werkboeken omzet. |
+| Verbeteringen in rapporten (ook wel sjablonen genoemd) in Analysis Workspace | Diverse verbeteringen zijn nu beschikbaar voor Rapporten (die ook als [ Malplaatjes ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en) worden bekend) |
+
 
 ### 2024 {#year2024}
 
