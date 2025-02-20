@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 7%
@@ -17,12 +17,12 @@ ht-degree: 7%
 + [Analytics Components-handleiding](home.md)
 + [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensies {#dimensions}
-   + [Overzicht van Dimensionen](dimensions/overview.md)
-   + [Compatibiliteit van Dimensionen](dimensions/compatibility.md)
-   + [Koppeling Activity Mappen](dimensions/activity-map-link.md)
-   + [Koppeling Activity Mappen per regio](dimensions/activity-map-link-by-region.md)
+   + [Overzicht van afmetingen](dimensions/overview.md)
+   + [Dimension-compatibiliteit](dimensions/compatibility.md)
+   + [Activity Map Link](dimensions/activity-map-link.md)
+   + [Activity Map Link by Region](dimensions/activity-map-link-by-region.md)
    + [Activity Map-pagina](dimensions/activity-map-page.md)
-   + [Activity Map](dimensions/activity-map-region.md)
+   + [Activity Map Region](dimensions/activity-map-region.md)
    + [Advertentieplatform](dimensions/ad-consent.md)
    + [Alle zoekpaginanummers](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
@@ -53,7 +53,7 @@ ht-degree: 7%
    + [Koppeling downloaden](dimensions/download-link.md)
    + [Invoerafmetingen](dimensions/entry-dimensions.md)
    + [eVar](dimensions/evar.md)
-   + [eVar (merchandising)](dimensions/evar-merchandising.md)
+   + [eVar (Merchandising)](dimensions/evar-merchandising.md)
    + [Afmetingen afsluiten](dimensions/exit-dimensions.md)
    + [Koppeling afsluiten](dimensions/exit-link.md)
    + [Eerste aanraakkanaal](dimensions/first-touch-channel.md)
@@ -187,7 +187,7 @@ ht-degree: 7%
       + [Tagsegmenten](segmentation/segmentation-workflow/seg-tag.md)
       + [Segmenten goedkeuren](segmentation/segmentation-workflow/seg-approve.md)
       + [Segmenten delen](segmentation/segmentation-workflow/t-seg-share.md)
-      + [Publish-segmenten naar het Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Segmenten publiceren naar de Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Segmenten selecteren en toepassen](segmentation/segmentation-workflow/t-seg-apply.md)
       + [Filtersegmenten](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Segmenten markeren als favorieten](segmentation/segmentation-workflow/t-seg-favorite.md)
@@ -196,7 +196,7 @@ ht-degree: 7%
       + [Segmenten beheren](segmentation/segmentation-workflow/seg-manage.md)
    + Segmentverwijzing {#segment-reference}
       + [Vergelijkingsoperatoren voor segmenten](segmentation/seg-reference/seg-operators.md)
-      + [Compatibiliteit van Data Warehouse-segment](segmentation/seg-reference/seg-compatibility.md)
+      + [Data Warehouse-segmentcompatibiliteit](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentrechten op rol](segmentation/seg-reference/seg-rights.md)
       + [Problemen oplossen](segmentation/seg-reference/c-troubleshooting.md)
    + [Veelgestelde vragen over het beheer van verouderde segmenten](segmentation/seg-transition.md)
