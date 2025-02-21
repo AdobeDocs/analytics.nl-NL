@@ -4,9 +4,9 @@ title: Metriek in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
+source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    * [!UICONTROL **Kolom min**]: Creeert een nieuwe kolom die de kleinste waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Minimale functie van de Kolom ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **som van de Kolom**]:Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. Dit gebruikt de [ functie van de Som van de Kolom ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
+   * [!UICONTROL **som van de Kolom**]: Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. Dit gebruikt de [ functie van de Som van de Kolom ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
 
    Wanneer u twee kolommen selecteert, zijn de volgende opties beschikbaar:
 
@@ -96,17 +96,17 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    * [!UICONTROL **vermenigvuldigt**]: Creeert een nieuwe kolom die de waarden van de twee geselecteerde kolommen vermenigvuldigt.
 
-   * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentenverandering van de twee geselecteerde kolommen toont.
+   * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentageverandering tussen de twee geselecteerde kolommen toont.
 
 [ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen
 
-Als u snel en gemakkelijk één attributiemodel aan een andere wilt vergelijken, klik metrisch met de rechtermuisknop aan en selecteer **[!UICONTROL Compare Attribution Models]**:
+Als u snel een attributiemodel wilt vergelijken met een ander, klikt u met de rechtermuisknop op een metrisch model en selecteert u **[!UICONTROL Compare Attribution Models]** :
 
 ![ vergelijk attributie ](assets/compare-attribution.png)
 
-Met deze sneltoets kunt u snel en eenvoudig een attributiemodel vergelijken met een ander attribuut zonder dat u dit model in een metrische modus hoeft te slepen en tweemaal hoeft te configureren.
+Met deze sneltoets kunt u het ene attributiemodel vergelijken met het andere zonder dat u het twee keer hoeft te slepen en te configureren.
 
 ## Gebruik de functie [!UICONTROL cumulative average] om het vloeiend maken van metrische elementen toe te passen
 
