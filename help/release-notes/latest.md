@@ -3,16 +3,16 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 924f5f670d2f29269a5ba6623079e839f1fe8122
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (release van februari 2025)
 
-**Laatste update**: 19 februari, 2024
+**Laatste update**: 21 februari, 2024
 
 Deze releaseopmerkingen hebben betrekking op de periode van 11 februari tot medio maart 2025. De versies van Adobe Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,7 +20,7 @@ Deze releaseopmerkingen hebben betrekking op de periode van 11 februari tot medi
 
 | Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **het bewaartermijn van identiteitskaart van de Transactie** | De bewaarperiode voor de transactie-id van 90 dagen wordt verlengd tot 25 maanden. De `transactionID` variabele identificeert uniek een transactie zodat kan de slag aan gegevens verbinden die door Gegevensbronnen worden geupload. Leer meer [ hier ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid) en [ hier ](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid). |  | vrijdag 20 februari 2025 |
+| **het bewaartermijn van identiteitskaart van de Transactie** | De bewaarperiode voor de transactie-id van 90 dagen werd verlengd tot 25 maanden. De `transactionID` variabele identificeert uniek een transactie zodat kan de slag aan gegevens verbinden die door Gegevensbronnen worden geupload. Leer meer [ hier ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid) en [ hier ](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid). |  | vrijdag 20 februari 2025 |
 | **de Vervoer API van Gegevens verwijzing** | De [ verwijzing ](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) voor de feeds API van Gegevens is nu beschikbaar. |  | vrijdag 30 januari 2025 |
 | **LiveStream API - de implementatie van de Cliënt** | Gebruik de LiveStream-clientimplementatie om LiveStream-gegevens te gebruiken. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | woensdag 18 februari 2025 |
 | **Update aan Classificaties API** | U kunt nu afzonderlijke classificatievelden of -toetsen verwijderen van de server. Dit verstrekt een alternatief aan het schrappen van een volledige classificatiedataset met de methode van DELETE. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | woensdag 18 februari 2025 |
@@ -43,6 +43,7 @@ Deze releaseopmerkingen hebben betrekking op de periode van 11 februari tot medi
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
+| **Opkomende update van het veld Contextgegevens voor Analytics`a.locale`** | zaterdag 21 februari 2025 | Op 5 maart 2025 wordt een update uitgevoerd naar de instelling van het gegevensveld Analytics context `a.locale` bij het verzamelen van gegevens via Experience Edge. Wanneer gegevens naar Adobe Analytics worden verzonden met de functie Experience Edge, worden de velden Analytics gevuld op basis van een toewijzing van XDM-velden. De toewijzing voor `c.a.locale` verwijst naar een niet-standaard XDM-veld, `xdm.environment.language` . Dit veld wordt bijgewerkt om naar het juiste veld te verwijzen, `xdm.environment._dc.language` .  De toewijzing zal `xdm.environment.language` voor achterwaartse verenigbaarheid blijven van verwijzingen voorzien. Als beide velden zijn ingesteld, heeft `xdm.environment.language` voor de continuïteit voorrang. U kunt de volledige lijst van afbeeldingen van XDM aan standaardgebieden van Analytics [ hier ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) bekijken. |
 | **niet-Campagneklanten zullen toegang tot Triggers verliezen** | dinsdag 16 oktober 2023 | Op 30 Januari, 2025, verliezen de klanten van Adobe Analytics die geen Adobe Campaign vergunning hebben toegang tot de capaciteit om [ Trekkers ](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) te vormen en te verbruiken. Klanten moeten campagne aanschaffen of het gebruik van Triggers stopzetten of andere Adobe-tools die Triggers-mogelijkheden bieden, bekijken. |
 
 ## Aankondigingen van einde levensduur (EOL) {#eol}
