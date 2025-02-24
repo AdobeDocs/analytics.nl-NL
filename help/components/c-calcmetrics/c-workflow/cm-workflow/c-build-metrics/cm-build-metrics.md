@@ -1,11 +1,11 @@
 ---
-description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimensionen, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
+description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op de logica van de containerhiërarchie, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
 title: Metrische gegevens samenstellen
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1132'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
 >title="Productcompatibiliteit"
->abstract="Geeft aan waar in de Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt, zoals in Analysis Workspace, Report Builder enzovoort. Sommige berekende metriek kunnen niet met experimenteren worden gebruikt."
+>abstract="Geeft aan waar in Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt, zoals in Analysis Workspace, Report Builder enzovoort. Sommige berekende metriek kunnen niet met experimenteren worden gebruikt."
 >additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
 
 <!-- markdownlint-enable MD034 -->
@@ -35,7 +35,7 @@ Adobe Analytics biedt een canvas voor het slepen en neerzetten van dimensies, me
 
 ## Beginnen met het bouwen van een berekende metrische waarde
 
-U kunt de berekende metrische bouwer gebruiken om berekende metriek tot stand te brengen. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen dan in projecten door uw organisatie worden gebruikt. Alternatief, kunt u snel berekende metrisch tot stand brengen, zoals die in [ wordt beschreven creeer berekende metriek voor één enkel project ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [ Metriek ](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+U kunt de berekende metrische bouwer gebruiken om berekende metriek tot stand te brengen of uit te geven. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen dan in projecten door uw organisatie worden gebruikt. Alternatief, kunt u snel berekende metrisch tot stand brengen, zoals die in [ wordt beschreven creeer berekende metriek voor één enkel project ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [ Metriek ](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
 Heb toegang tot de berekende metrische bouwer beginnen creërend berekende metrisch die in de componentenlijst beschikbaar is.
 
@@ -43,7 +43,7 @@ Heb toegang tot de berekende metrische bouwer beginnen creërend berekende metri
 
    * Open in Analysis Workspace een project en selecteer vervolgens **[!UICONTROL Components]** > **[!UICONTROL Create metric]** .
    * In Analysis Workspace, open een project, dan selecteer **plus** pictogram naast de [!UICONTROL **sectie van Metriek**] in de linkerspoorlijn.
-   * Ga in [!DNL Customer Journey Analytics] naar **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]** en selecteer vervolgens **[!UICONTROL + Add]** boven aan de pagina Berekende meetgegevens.
+   * Ga in [!DNL Adobe Analytics] naar **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]** en selecteer vervolgens **[!UICONTROL + Add]** boven aan de pagina Berekende meetgegevens.
 
 1. Ga met [ Gebieden van de berekende metrische bouwer ](#areas-of-the-calculated-metrics-builder) verder.
 
@@ -70,7 +70,7 @@ In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden e
 | 13 | **het pictogram van het Gewas (Metrische Type, Attributie):** het selecteren van het tandwielpictogram naast metrisch laat u het <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metrische type en attributiemodellen </a> specificeren. |
 | 14 | **Nieuw:** laat u een nieuwe component, zoals een nieuw segment tot stand brengen (dat u aan <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > de Bouwer van het Segment </a> neemt.) |
 | 15 | **Componenten van het Onderzoek:** Deze onderzoeksbar laat u naar dimensies, metriek, segmenten (gevorderde berekende metriek slechts), en functies (geavanceerde berekende metriek slechts) zoeken. |
-| 16 | **Lijst van Dimensionen:** eerder dan het verlaten van Berekende Metrische Bouwer om een eenvoudig segment (in de Bouwer van het Segment) te bouwen, b.v. &quot;Pagina = Homepage&quot;, kunt u in Pagina slepen en Homepage direct van Berekende Metrische Bouwer selecteren.<p>Dit resulteert in een veel gestroomlijnder werkschema voor het creëren van gesegmenteerde berekende metriek.</p> |
+| 16 | **Lijst van Afmetingen:** eerder dan het verlaten van Berekende Metrische Bouwer om een eenvoudig segment (in de Bouwer van het Segment) te bouwen, b.v. &quot;Pagina = Homepage&quot;, kunt u in Pagina slepen en Homepage direct van de Berekende Metrische Bouwer selecteren.<p>Dit resulteert in een veel gestroomlijnder werkschema voor het creëren van gesegmenteerde berekende metriek.</p> |
 | 17 | **Lijst van Metriek:** Metriek komt in 3 categorieën: <ul> <li>Standaardmetriek (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Berekende cijfers ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Metrische sjablonen ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" /> ) - onder aan de lijst. </li> </ul> <p>Wanneer u de muisaanwijzer boven een metrische waarde houdt, ziet u het pictogram Info rechts ervan: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Als u op dit pictogram klikt, krijgt u de volgende informatie: </p><ul> <li>De formule van hoe het wordt berekend. </li><li>Een voorproeftrend van metrisch. </li><li>Een pictogram voor bewerken (potlood) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> bij het hoogste recht dat u aan de Berekende Bouwer van Metriek zal nemen waar u deze berekende metrische waarde kunt uitgeven. </li></ul> |
 | 18 | **Lijst van Segmenten:** (Geavanceerde berekende metriek slechts) als Admin, toont deze lijst alle segmenten die in uw login bedrijf worden gecreeerd. Als u een gebruiker niet-Admin bent, toont deze lijst segmenten u bezit en die met u worden gedeeld. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > Meer... </a> |
 | 19 | **Lijst van Functies:** (Geavanceerde berekende metriek slechts) de Functies worden verdeeld in twee lijsten: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basis </a> (het meest vaak gebruikt) en <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Geavanceerd </a>. |

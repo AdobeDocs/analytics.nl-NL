@@ -4,9 +4,9 @@ title: Metriek in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Voor informatie over hoe te om tot de berekende metriebouwer toegang te hebben, 
 
 ### Berekende waarden maken voor één project
 
-U kunt snelle berekende metriek tot stand brengen die slechts voor het project beschikbaar zijn waar zij werden gecreeerd.
+U kunt snel een berekende metrisch tot stand brengen die slechts voor het project beschikbaar is waar het werd gecreeerd.
 
 Om berekende metrisch voor één enkel project tot stand te brengen:
 
