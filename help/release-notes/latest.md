@@ -3,7 +3,7 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f738c0767a952d8c53f526056708dddf427e1880
+source-git-commit: 9fcf8871140e010d1c57c3af7004a45bd3a374a5
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 3%
@@ -24,7 +24,7 @@ Deze releaseopmerkingen hebben betrekking op de periode van 11 februari tot medi
 | **de Vervoer API van Gegevens verwijzing** | De [ verwijzing ](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) voor de feeds API van Gegevens is nu beschikbaar. |  | vrijdag 30 januari 2025 |
 | **LiveStream API - de implementatie van de Cliënt** | Gebruik de LiveStream-clientimplementatie om LiveStream-gegevens te gebruiken. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | woensdag 18 februari 2025 |
 | **Update aan Classificaties API** | U kunt nu afzonderlijke classificatievelden of -toetsen verwijderen van de server. Dit verstrekt een alternatief aan het schrappen van een volledige classificatiedataset met de methode van DELETE. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | woensdag 18 februari 2025 |
-| **Update aan het gebied van de contextgegevens van Analytics`a.locale`** | Een update van hoe het gegevensveld Analytics-context `a.locale` wordt ingesteld wanneer gegevens worden verzameld via Experience Edge. Wanneer gegevens naar Adobe Analytics worden verzonden met de functie Experience Edge, worden de velden Analytics gevuld op basis van een toewijzing van XDM-velden. De toewijzing voor `c.a.locale` verwijst naar een niet-standaard XDM-veld, `xdm.environment.language` . Dit veld wordt bijgewerkt om naar het juiste veld te verwijzen, `xdm.environment._dc.language` .  De toewijzing zal `xdm.environment.language` voor achterwaartse verenigbaarheid blijven van verwijzingen voorzien. Als beide velden zijn ingesteld, heeft `xdm.environment.language` voor de continuïteit voorrang. U kunt de volledige lijst van afbeeldingen van XDM aan standaardgebieden van Analytics [ hier ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) bekijken. | | donderdag 5 maart 2025 |
+| **Update aan het gebied van de contextgegevens van Analytics`a.locale`** | Een geplande update wijzigt hoe het gegevensveld Analytics-context `a.locale` wordt ingesteld wanneer gegevens worden verzameld via Experience Edge. Wanneer gegevens naar Adobe Analytics worden verzonden met de functie Experience Edge, worden de velden Analytics gevuld op basis van een toewijzing van XDM-velden. De toewijzing voor `c.a.locale` verwijst naar een niet-standaard XDM-veld, `xdm.environment.language` . Dit veld wordt bijgewerkt om naar het juiste veld te verwijzen, `xdm.environment._dc.language` .  De toewijzing zal `xdm.environment.language` voor achterwaartse verenigbaarheid blijven van verwijzingen voorzien. Als beide velden zijn ingesteld, heeft `xdm.environment.language` voor de continuïteit voorrang. U kunt de volledige lijst van afbeeldingen van XDM aan standaardgebieden van Analytics [ hier ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) bekijken. | | donderdag 5 maart 2025 |
 
 
 ## Oplossingen in Adobe Analytics
