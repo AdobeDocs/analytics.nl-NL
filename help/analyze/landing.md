@@ -4,9 +4,9 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ De Adobe Analytics-landingspagina bestaat uit de volgende subtabbladen: Projecte
 
 **[!UICONTROL Projects]** zijn aangepaste ontwerpen die gegevenscomponenten, tabellen en visualisaties combineren die u hebt gemaakt of die iemand anders met u heeft gemaakt en gedeeld. [!UICONTROL Projects] verwijst ook naar lege projecten en lege mobiele scorecards.
 
-**[!UICONTROL Templates]** bevat sjablonen die worden aangeboden door Adobe en sjablonen die specifiek zijn voor uw organisatie.
+**[!UICONTROL Templates]** bevat sjablonen die door Adobe worden aangeboden en eventuele sjablonen die specifiek zijn voor uw organisatie.
 
 Het tabblad **[!UICONTROL Learning]** bevat praktische videolessen, zelfstudies en koppelingen naar documentatie.
 
@@ -113,7 +113,7 @@ Gebruik de pagina Leren in Adobe Analytics om beginner, tussenliggende of geavan
 * **vooruitgang van het Spoor:** nadat u een stuk van inhoud selecteert, verschijnt a **[!UICONTROL Viewed]** markering. Met deze tag kunt u de voortgang van de leerinhoud volgen. U kunt de tag **[!UICONTROL Viewed]** selecteren om deze uit een stuk inhoud te verwijderen.
 * **Mening extra inhoud:** terwijl het bekijken van om het even welke video, selecteer de **[!UICONTROL Learn more]** knoop om verwante documentinhoud op Experience League te bekijken. Of selecteer op de pagina Leren een van de volgende opties om aanvullende inhoud weer te geven:
    * **[!UICONTROL Visit YouTube]:** bekijk de volledige Analysis Workspace YouTube-afspeellijst.
-   * [!UICONTROL **Experience League van het Bezoek**]: Bekijk de volledige reeks van de documentatie van Adobe Analytics op Experience League.
+   * [!UICONTROL **Bezoek Experience League**]: Bekijk de volledige reeks van de documentatie van Adobe Analytics op Experience League.
 * **Grondbeginselen voor nieuwe gebruikers:** De [!UICONTROL Workspace Fundamentals] tour wordt geadviseerd voor nieuwe gebruikers. Deze tour leidt je rechtstreeks naar Workspace en begeleidt je door de meest voorkomende acties. Deze rondleiding kan ook op elk gewenst moment opnieuw worden gestart in Workspace via de pop-up voor knopinfo in de koptekst van het deelvenster.
 
 ## De openingspagina instellen {#set-landing}
@@ -134,4 +134,3 @@ Gebruikers kunnen hun voorkeurspagina voor landen instellen.
 | Zijn mijn eerdere verslagen en analytische favorieten nog steeds overgebleven? | Nee, ze worden NIET overgedragen. Alle [!UICONTROL Workspace] -projectfavorieten worden echter overgedragen. |
 | Is er een maximum aantal projecten dat ik kan vastzetten? | Nee, er is geen limiet voor het aantal projecten dat u kunt vastzetten. |
 | Kunnen beheerders deze bestemmingspagina voor hun gebruikers aanwijzen? | Nee, beheerders kunnen de landingspagina niet aanwijzen namens gebruikers. Individuele gebruikers moeten de schakeloptie zelf inschakelen. |
-| Zijn alle rapporten die in [!DNL Reports & Analytics] bestonden nog steeds beschikbaar als sjablonen? | Nee, de volgende rapporten werden geleidelijk afgeschaft, op basis van algemene gebruiksgegevens: <ul><li>Alle aangepaste eVars/props/events/classificaties<li>Mijn aanbevolen rapporten</li><li>Uur/Dagelijks/Wekelijks/Maandelijks/Driemaandelijks/Jaarlijks unieke bezoekers</li><li>DagelijksWekelijks/Maandelijks/Driemaandelijks/Jaarlijks unieke klanten</li><li>Naamdiepte van handeling</li><li>Overzicht van handelsnaam</li><li>Dashboard toevoegen</li><li>Leeftijd</li><li>Audioondersteuning</li><li>Factureringsgegevens</li><li>Klikt op pagina</li><li>Kleurdiepte</li><li>Cookie-ondersteuning</li><li>Cookies</li><li>Verbindingstypen</li><li>Creatieve elementen</li><li>Type creditcard</li><li>Crosssell</li><li>Aangepaste gebeurtenissengordens</li><li>Aangepaste koppelingen</li><li>Klant-id</li><li>Dag van de week</li><li>Naam van handeling item</li><li>Handelingsnaam afsluiten</li><li>Koppelingen afsluiten</li><li>Fallout</li><li>Bestanden downloaden</li><li>Zoeken in winkel</li><li>Volledige paden</li><li>Geslacht</li><li>Hit type VISTA-regel</li><li>Ondersteuning van afbeeldingen</li><li>Java</li><li>JavaScript</li><li>JavaScript-versie</li><li>Bladwijzers beheren</li><li>Dashboards beheren</li><li>Kleurdiepte van monitor</li><li>Monitorresoluties</li><li>Nieuwsbrieven</li><li>Naam van volgende handeling</li><li>Volgende actienaam doorloop</li><li>Null-zoekopdrachten</li><li>Besturingssysteem</li><li>Ordercontrole</li><li>Pagina van dag</li><li>Pagina&#39;s niet gevonden</li><li>Pathfinder</li><li>Padlengte</li><li>Vorige handelsnaam</li><li>Vorige handelsnaam</li><li>Productactiviteit</li><li>Productkosten</li><li>Productafdeling</li><li>Productcategorie</li><li>Productnaam</li><li>Productbeoordelingen</li><li>Productseizoen</li><li>Productaandelen</li><li>Productzoomen</li><li>Opnieuw laden</li><li>Zoekopdrachten</li><li>Servers</li><li>Eén pagina bezoeken</li><li>Verzendgegevens</li><li>Sitehiërarchie</li><li>Sociale opmerkingen</li><li>Tijd van dag</li><li>Tijd besteed aan actienaam</li><li>Video-ondersteuning</li><li>Bezoekerstatus</li></ul> |

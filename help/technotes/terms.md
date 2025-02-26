@@ -3,9 +3,9 @@ title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 9f7fe19c4d9dd9f3940a64c1e20e897ac6febe52
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '2588'
+source-wordcount: '2579'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Echt - tijd:** toont gevormde variabelen zodra het met weinig aan geen latentie wordt verzameld. Zie [ rapporten in real time ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) in de Admin gebruikersgids.
 * **Report Builder:** Javascript [ ](/help/analyze/report-builder/report-buider-overview.md) toe:voegen-binnen toe:voegen-laat u aangepaste verzoeken van de gegevens van Adobe Analytics bouwen.
 * **Reeks van het Rapport:** een overkoepelende container die u gegevens naar verzendt. Alle rapporten in Adobe Analytics verwijzen naar een rapportsuite.
-* **Rapporten &amp; Analytics:** Een nu gepensioneerde browser oplossing voor het melden en de analyse. Dit hulpmiddel is [ eind-van-opgeheven ](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html) geweest.
+* **Rapporten &amp; Analytics:** Dit hulpmiddel is [ eind-van-opgeheven ](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html) geweest.
 * **Rolling datumwaaier:** een type van relatieve datumwaaier die als tijdpassen verandert. Een rapport dat de laatste 7 dagen weergeeft, kan bijvoorbeeld worden beschouwd als een doorlopend datumbereik. Zie ook het statische datumbereik.
 * **RSID:** Afkorting voor identiteitskaart van de rapportreeks. Een rapportsuite heeft zowel een vriendelijke naam als een rapportsuite-id.
 * **s.t ():** De naam van de functie in een bibliotheek van AppMeasurement die een verzoek van het paginabeeld verzendt. Sommige AppMeasurement-bibliotheken gebruiken in plaats daarvan `s.track()` . Zie [ t ](../implement/vars/functions/t-method.md) in de de gebruikersgids van het Uitvoeren.

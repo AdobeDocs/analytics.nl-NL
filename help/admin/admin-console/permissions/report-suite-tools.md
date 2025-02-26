@@ -4,9 +4,9 @@ description: Begrijp elk toestemmingspunt onder de Hulpmiddelen van de Reeks van
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '428'
 ht-degree: 2%
 
 ---
@@ -21,13 +21,12 @@ Gebruik deze pagina om elk machtigingsitem onder Report Suite Tools in Adobe Adm
 | [!UICONTROL Advertising Analytics Configuration] | Hiermee kunnen gebruikers rapportsuites configureren die moeten worden ingericht voor Advertising Analytics. |
 | [!UICONTROL Anomaly Detection] | Biedt toegang tot Anomaly Detection in Analysis Workspace. |
 | [!UICONTROL Channels] | Biedt toegang tot marketingkanalen, waaronder Marketing Channel Manager, Marketing Channel Processing Rules en Marketing Channel Expiration in Report Suite Manager. |
-| [!UICONTROL Classifications] | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer. Dit machtigingsitem omvat: <br>Verkeer > Verkeersclassificaties<br>Conversie > Conversie-classificaties<br>Conversie > Classificatiehiërarchieën<br>Marketing Channels > Marketing Channel Classifications<br>Toepassingsbeheer > Toepassingsclassificaties<br>Media Management > Media Classifications<br>AEM > AEM Assets Classifications<br>Adobe Campaign > Adobe classificaties |
+| [!UICONTROL Classifications] | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer. Dit toestemmingspunt omvat: <br> Verkeer > de Classificaties van het Verkeer <br> Omzetting > de Classificaties van de Omzetting <br> Omzetting > de Hiërarchieën van de Indeling van de Indeling van de Indeling van de Indeling van het Kanaal <br> > de Classificaties van het Kanaal van de Marketing > App <br> Beheer van de Toepassingen van het Mediabeheer > van de Classificaties van de Classificaties van de Media <br> AEM <br> 6} Adobe > van AEM Assets <br> de classificaties van {Adobe Campaign van > > van  > van > van de Classificaties van > van de Classificaties van de Classificaties van de Classificaties van |
 | [!UICONTROL Costs] | Biedt toegang tot marketingkanalen > Kosten marketingkanaal in Report Suite Manager. |
 | [!UICONTROL Contribution Analysis] | Hiermee krijgt u toegang tot het contextmenu &#39;Contributieanalyse uitvoeren&#39; in Analysis Workspace. |
 | [!UICONTROL Conversion Variables] | Hiermee krijgt u toegang tot Conversie > Conversievariabelen in Report Suite Manager. |
 | [!UICONTROL Custom Calendar] | Hiermee krijgt u toegang tot Algemeen > Kalender aanpassen in Report Suite Manager. |
-| [!UICONTROL Custom Data Warehouse Report] | Hiermee krijgt u toegang tot Gereedschappen > Data Warehouse in de bovenste navigatie Analytics. |
-| [!UICONTROL Daily Return Visits] | Hiermee krijgt u toegang tot Bezoekersbewaring > Dagelijkse terugkeerbezoeken in Rapporten en Analytics. |
+| [!UICONTROL Custom Data Warehouse Report] | Hiermee krijgt u toegang tot Extra > Data Warehouse in de bovenste navigatie Analytics. |
 | [!UICONTROL Data Feeds Manager] | Hiermee krijgt u toegang tot Beheer > Gegevensfeeds in de bovenste navigatie Analytics. |
 | [!UICONTROL Data Sources Manager] | Geeft toegang tot Admin > Al admin > Gegevensbronnen in Analytics hoogste navigatie. Vereist het machtigingsitem &#39;Report Suite Management&#39;. |
 | [!UICONTROL Data Repair API] | Biedt toegang tot de API voor gegevensherstel |

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '965'
 ht-degree: 11%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 11%
       + [Administratieve vereisten](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
-   + [Overzicht van Report Builder](report-builder/report-buider-overview.md)
+   + [Report Builder - Overzicht](report-builder/report-buider-overview.md)
    + [Report Builder instellen](report-builder/report-builder-setup.md)
    + [Oudere aanvragen converteren](report-builder/convert-workbooks.md)
    + [Een gegevensblok maken](report-builder/create-a-data-block.md)
@@ -172,21 +172,21 @@ ht-degree: 11%
    + [Selecteer een rapportsuite](report-builder/select-report-suite.md)
    + [Een datumbereik selecteren](report-builder/select-date-range.md)
    + [Werken met segmenten](report-builder/work-with-segments.md)
-   + [Dimensionen filteren](report-builder/filter-dimensions.md)
+   + [Filterafmetingen](report-builder/filter-dimensions.md)
    + [Gegevensblokken beheren](report-builder/manage-reportbuilder.md)
    + [Workbooks plannen](report-builder/schedule-reportbuilder.md)
    + [Beperkte labels](report-builder/restricted-labels.md)
    + [Report Builder-instellingen](report-builder/report-builder-settings.md)
-+ Oudere Report Builder {#legacy-report-builder}
++ Legacy Report Builder {#legacy-report-builder}
    + [Legacy Adobe Report Builder Help](legacy-report-builder/home.md)
-   + Oudere Report Builder instellen {#legacy-report-builder-setup}
+   + Oudere Report Builder-instellingen {#legacy-report-builder-setup}
       + [Systeemvereisten](legacy-report-builder/setup/system-requirements.md)
       + [Report Builder installeren](legacy-report-builder/setup/t-install-arb.md)
-      + [Upgrade uitvoeren, Report Builder](legacy-report-builder/setup/upgrade-arb.md)
+      + [Upgrade uitvoeren voor Report Builder](legacy-report-builder/setup/upgrade-arb.md)
       + [Aanmelden bij Report Builder](legacy-report-builder/setup/login.md)
       + [Report Builder verwijderen](legacy-report-builder/setup/t-uninstall-arb.md)
       + [Report Builder-functionaliteit aanroepen vanuit Microsoft Excel-functies](legacy-report-builder/setup/invoke-arb-excel-function.md)
-   + [Werkbalk Report Builder](legacy-report-builder/reportbuilder-toolbar.md)
+   + [Report Builder, werkbalk](legacy-report-builder/reportbuilder-toolbar.md)
    + Data-aanvragen {#data-requests}
       + [Gegevensverzoeken - stap 1 van de wizard Verzoek](legacy-report-builder/data-requests/data-requests.md)
       + [Een gegevensaanvraag maken](legacy-report-builder/data-requests/t-create-a-data-request.md)
@@ -197,7 +197,6 @@ ht-degree: 11%
       + [Segmenten beheren](legacy-report-builder/data-requests/segmentation.md)
       + Rapporttypen {#report-types}
          + [Overzicht van rapporttypen](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Pad- en paduitvalrapporten in Report Builder](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [Een padrapport filteren met de wizard Verzoek](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [Filter een Fallout-rapport met de wizard Verzoek](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Padrapporten filteren door afhankelijke verzoeken toe te voegen](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)
@@ -279,15 +278,15 @@ ht-degree: 11%
       + [Werkboeken vergrendelen/ontgrendelen](legacy-report-builder/workbook-library/protect-wb.md)
       + [Macro-ingeschakelde werkboeken plannen](legacy-report-builder/workbook-library/schedule-macro-wb.md)
    + Publiceren naar Power BI met Report Builder 5.5 {#publish-powerbi}
-      + [Publish naar Power BI - Overzicht](legacy-report-builder/c-publish-power-bi/power-bi.md)
+      + [Publiceren naar Power BI - Overzicht](legacy-report-builder/c-publish-power-bi/power-bi.md)
       + [Beperkingen en specificaties](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
-      + [Gegevens handmatig importeren in Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
+      + [Gegevens handmatig importeren naar Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [Gepubliceerde middelen ophalen in Power BI Desktop](legacy-report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
       + [Aanbevolen procedures](legacy-report-builder/c-publish-power-bi/bi-best-practices.md)
-      + [Probleemoplossing voor Power BI-integratie](legacy-report-builder/c-publish-power-bi/troubleshooting.md)
+      + [Problemen met Power BI-integratie oplossen](legacy-report-builder/c-publish-power-bi/troubleshooting.md)
       + [Adobe Analytics-inhoudspakketten voor Power BI](legacy-report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic-macro&#39;s](legacy-report-builder/vba.md)
-   + [Problemen met Report Builder oplossen](legacy-report-builder/troubleshoot.md)
+   + [Report Builder oplossen](legacy-report-builder/troubleshoot.md)
    + [Veelgestelde vragen over Report Builder](legacy-report-builder/faq.md)
 
 + Activity Map {#activity-map}

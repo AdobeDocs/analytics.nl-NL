@@ -4,9 +4,9 @@ title: Kalender aanpassen
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ U kunt de kalender gebruiken om de eerste dag van de week en het jaar te bepalen
 | Aangepaste kalender | Biedt drie indelingen op basis van het aantal weken in elke maand. Het aantal weken in elke maand hangt van de geselecteerde eerste dag van het jaar af.  Een jaar heeft 52 weken. Verdeel dat in 4 kwarten en je krijgt 13 weken per kwart. Maar er zijn drie maanden in een kwart. 13 is niet deelbaar door 3 zodat u de extra week in één van de maanden plaatst zodat het altijd verenigbaar is.<ul><li>5/4/4 betekent de eerste maand van het kwartaal de extra week heeft. 4/5/4 betekent dat de tweede maand de extra week heeft, enz. In de 5-4-4 kalender wordt de 53e week toegevoegd aan het laatste kwartaal van het jaar.</li><li>4-5-4:januari heeft vier weken, februari heeft vijf weken, maart heeft vier weken, enzovoort.</li><li>4-4-5: januari heeft vier weken, februari heeft vier weken, maart heeft vijf weken, enzovoort.</li><li>5-4-4: januari heeft vijf weken, februari heeft vier weken, maart heeft vier weken, enzovoort.</li></ul> |
 
 >[!NOTE]
->Deze kalenderopties worden ondersteund door alle Adobe Analytics-gereedschappen (Analysis Workspace, Rapporten en Analyse, Report Builder, Activity Map), behalve Data Warehouse. Data Warehouse ondersteunt alleen de Gregoriaanse kalender volledig. Wanneer het kiezen van een niet-Gregoriaanse kalender, zal de Data Warehouse de verwachte datumwaaier van de niet-Gregoriaanse kalender gebruiken, nochtans kunnen de dag/week/maanduitsplitsingen binnen de rijen van het rapport niet wat van een niet-Gregoriaanse kalender wordt verwacht zijn.
+>Deze kalenderopties worden ondersteund door alle Adobe Analytics-gereedschappen (Analysis Workspace, Report Builder, Activity Map), behalve Data Warehouse. Data Warehouse ondersteunt alleen de Gregoriaanse kalender volledig. Wanneer u een niet-Gregoriaanse kalender kiest, gebruikt Data Warehouse het verwachte datumbereik van de niet-Gregoriaanse kalender, maar de uitsplitsingen van dagen/weken/maanden binnen de rijen van het rapport zijn mogelijk niet wat wordt verwacht van een niet-Gregoriaanse kalender.
