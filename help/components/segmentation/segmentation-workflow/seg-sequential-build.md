@@ -3,9 +3,9 @@ description: Opeenvolgende segmenten worden gemaakt met behulp van de operator T
 title: Opeenvolgende segmenten maken
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
+source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
 workflow-type: tm+mt
-source-wordcount: '2297'
+source-wordcount: '2307'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Identificeer alle bezoeken waar een bezoeker één pagina vóór een andere pagi
 
 ## [!UICONTROL After] en [!UICONTROL Within]
 
-U kunt ](/help/assets/icons/Clock.svg) Klok **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) gebruiken **[!UICONTROL Within]** de **[!UICONTROL Then]** exploitant om extra [ tijdbeperkingen ](#time-constraints) of [ beperkingen voor Hits, Bezoek of Dimensionen ](#event-session-and-dimension-constraints) te bepalen.![
+U kunt ](/help/assets/icons/Clock.svg) Klok **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) gebruiken **[!UICONTROL Within]** de **[!UICONTROL Then]** exploitant om extra [ tijdbeperkingen ](#time-constraints) of [ beperkingen voor Hits, Bezoek of Dimensies ](#event-session-and-dimension-constraints) te bepalen.![
 
 ### Tijdbeperkingen
 
@@ -122,7 +122,7 @@ Bezoekers die op 1 juni 2024 op de startpagina aankomen en die terugkeren naar d
 
 ### [!UICONTROL Hit] -, [!UICONTROL Visit] - en [!UICONTROL Dimension] -beperkingen
 
-De ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** beperkingen staan u niet alleen toe om een tijdbeperking maar ook een slag, bezoek of afmetingsbeperking te specificeren. Selecteer **[!UICONTROL Hit(s)]**, **[!UICONTROL Visit(s)]** of **[!UICONTROL Other dimensions]** ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *naam van het Dimension *]**. U kunt het [!UICONTROL *gebied van het Onderzoek*] aan onderzoek naar een afmeting gebruiken.
+De ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** beperkingen staan u niet alleen toe om een tijdbeperking maar ook een slag, bezoek of afmetingsbeperking te specificeren. Selecteer **[!UICONTROL Hit(s)]**, **[!UICONTROL Visit(s)]** of **[!UICONTROL Other dimensions]** ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *naam van Dimension *]**. U kunt het [!UICONTROL *gebied van het Onderzoek*] aan onderzoek naar een afmeting gebruiken.
 
 #### Voorbeeld
 
@@ -299,3 +299,7 @@ Als laatste voorbeeld wilt u bezoekers identificeren die hebben geleerd over een
 
 
 ![ Complex opeenvolgend segmentvoorbeeld ](assets/sequential-complex.png)
+
+>[!MORELIKETHIS]
+>
+> * [ het Beheersen van Opeenvolgende Logica in AA &amp; CJA: Inleiding aan DEN ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
