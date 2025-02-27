@@ -107,7 +107,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="Tijdverlies"
->abstract="De waarden van het Dimension dichtst in tijd aan een omzetting krijgen het meeste krediet."
+>abstract="Dimension-waarden die het dichtst bij een conversie liggen, krijgen het meeste krediet."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -166,8 +166,8 @@ In het volgende voorbeeld wordt getoond hoe berekende metriek met lineaire toewi
 | | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 | Hit 6 | Hit 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Gegevens verzonden in | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $ 10 |
-| EVar met laatste aanraking | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $ 10 |
-| EVar eerste aanraking | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $ 10 |
+| Last Touch eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $ 10 |
+| Eerste aanraking met eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $ 10 |
 | Voorbeeld | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $ 10 |
 
 In dit voorbeeld werden de waarden A, B, en C naar een variabele gestuurd bij hits 1, 3, 4 en 6 voordat een aankoop van 10 dollar werd gedaan bij hit 7. In de tweede rij blijven deze waarden bij alle treffers op een laatste aanraakbezoek aanwezig. De derde rij illustreert de persistentie van een eerste aanraakbezoek. Tot slot illustreert de laatste rij hoe gegevens zouden worden geregistreerd voor een eigenschap die niet persistentie heeft.

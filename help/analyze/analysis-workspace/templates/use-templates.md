@@ -37,7 +37,7 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
 1. In de [!UICONTROL **sectie van Malplaatjes**], selecteer één van beiden van de volgende lusjes:
 
-   * **[!UICONTROL Adobe templates]**: geeft alle sjablonen weer die door de Adobe worden aangeboden.
+   * **[!UICONTROL Adobe templates]**: geeft alle sjablonen weer die door Adobe worden aangeboden.
 
    * **[!UICONTROL _login_company_name _malplaatjes]**: Toont alle bedrijfmalplaatjes die voor uw organisatie zijn gecreeerd.
 
@@ -49,7 +49,7 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
    * Wanneer het gebruiken van de kaartmening ![ Kaart ](/help/assets/icons/Card.svg), kies van de volgende soortorden: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
 
-1. Typ in het zoekveld de naam van de sjabloon die u wilt zoeken en selecteer deze in de lijst met sjablonen. U kunt de sjabloonlijst ook doorzoeken op basis van eigenschap, eVar en gebeurtenisnummer. <!-- still true? -->
+1. Typ in het zoekveld de naam van de sjabloon die u wilt zoeken en selecteer deze in de lijst met sjablonen. U kunt de sjabloonlijst ook doorzoeken op basis van eigenschap prop, eVar en het gebeurtenisnummer. <!-- still true? -->
 
    of
 
@@ -395,7 +395,7 @@ De volgende sjablonen zijn beschikbaar:
 >[!CONTEXTUALHELP]
 >id="aa-template--sitePerformanceOverview"
 >title="Geef prestatiegegevens voor je Adobe Experience Manager-site weer."
->abstract="**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van de Experience Manager."
+>abstract="**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van Experience Manager."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -404,7 +404,7 @@ De volgende sjablonen zijn beschikbaar:
 >[!CONTEXTUALHELP]
 >id="aa-template--formsPerformanceOverview"
 >title="Geef prestatiegegevens voor je Adobe Experience Manager Forms weer."
->abstract="**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van de Experience Manager."
+>abstract="**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van Experience Manager."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -510,8 +510,8 @@ De volgende sjablonen zijn beschikbaar:
 | **[!UICONTROL Entries & exits]** > [!UICONTROL **Originele ingangspagina&#39;s**] | Bekijk de bovenste pagina&#39;s waartoe mensen toegang hebben wanneer ze uw site voor het eerst bezoeken gedurende de levensduur van een bezoeker. <p>**dit kan u helpen** beter begrijpen welke pagina&#39;s het meeste verkeer aan uw plaats drijven of meer over de eerste impressiebezoekers op uw plaats begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer de aanvankelijke ervaring mensen op de plaats krijgen, of ervoor zorgen dat de pagina&#39;s mensen eerst zien bij het ingaan van uw plaats welkomend en de noodzakelijke verbindingen aan andere gebieden van uw plaats verstrekken.</p><p>Deze sjabloon gebruikt metrische sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie.</p> |
 | **[!UICONTROL Entries & exits]** > [!UICONTROL **Enige paginabezoeken**] | Bekijk het aantal bezoeken dat uit één enkele unieke pagina bestond. <p>**dit kan u** helpen de niveaus van de bezoekersbetrokkenheid beter begrijpen en hoeveel tijd bezoekers aan de plaats uitgeven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als beoordeling of de veranderingen in uw plaats in bezoekers resulteren die meer tijd op de plaats doorbrengen.</p><p>Dit malplaatje gebruikt de [ Enige dimensie van paginabezoeken ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/single-page-visits).</p> |
 | **[!UICONTROL Entries & exits]** > [!UICONTROL **Pagina&#39;s van de Uitgang**] | Bekijk de bovenste pagina&#39;s die mensen direct openen voordat ze uw site verlaten.<p>**dit kan u** helpen beter begrijpen welke pagina&#39;s mensen weg van de plaats leiden. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gemeenschappelijke eindpagina&#39;s bijwerken om de ervaring te optimaliseren krijgen de mensen alvorens zij verlaten, of inhoud of verbindingen omvatten om mensen aan te moedigen om op uw plaats te blijven.</p><p>Deze sjabloon gebruikt metrische sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie.</p> |
-| [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **het prestatiesoverzicht van de Plaats**] > [!UICONTROL **AEM plaatsprestaties**] | Geef prestatiegegevens voor je Adobe Experience Manager-site weer.  <p>**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van de Experience Manager.</p> |
-| [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **de prestatiesoverzicht van de Vorm**] > [!UICONTROL **AEM vormprestaties**] | Geef prestatiegegevens voor je Adobe Experience Manager Forms weer.  <p>**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van de Experience Manager.</p> |
+| [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **de prestatiesoverzicht van de Plaats**] > [!UICONTROL **de plaatsprestaties van AEM**] | Geef prestatiegegevens voor je Adobe Experience Manager-site weer.  <p>**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van Experience Manager.</p> |
+| [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **overzicht van de Prestaties van de Vorm**] > [!UICONTROL **de vormprestaties van AEM**] | Geef prestatiegegevens voor je Adobe Experience Manager Forms weer.  <p>**dit kan u helpen** beter waarderealisatie van Adobe Experience Manager begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw montages van Experience Manager.</p> |
 | [!UICONTROL **Effect ITP**] | De effecten van Intelligent Tracking Prevention (ITP) op gegevensverzameling en -rapportage weergeven en analyseren. <p>**dit kan u** beter begrijpen potentieel gegevensverlies toe te schrijven aan koekjesbeperkingen die door ITP worden opgelegd.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw analytische opstelling aanpassen om het effect van ITP te minimaliseren.</p> |
 
 ### Conversie {#web-conversion}
