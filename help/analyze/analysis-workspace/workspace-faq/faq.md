@@ -4,7 +4,7 @@ title: Veelgestelde vragen en probleemoplossing voor Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 24%
@@ -14,7 +14,7 @@ ht-degree: 24%
 # Veelgestelde vragen
 
 +++Wat zijn de eerste vereisten voor het gebruik van Analysis Workspace?
-[ verzendt gegevens naar Adobe Analytics gebruikend de uitbreiding van Adobe Analytics ](/help/implement/launch/validate-publish-prod.md): Het gebruiken van Analysis Workspace vereist een werkende implementatie. Zorg ervoor dat uw organisatie gegevens naar Adobe verzendt alvorens het hulpmiddel te gebruiken. Andere implementaties, zoals oudere handmatige implementaties, kunnen ook werken.
+[ verzendt gegevens naar Adobe Analytics gebruikend de uitbreiding van Adobe Analytics ](/help/implement/launch/validate-publish-prod.md): Het gebruiken van Analysis Workspace vereist een werkende implementatie. Zorg ervoor dat uw organisatie gegevens naar Adobe verzendt voordat u het hulpprogramma gebruikt. Andere implementaties, zoals oudere handmatige implementaties, kunnen ook werken.
 +++
 
 +++Wat zijn het Beleid en de toegangseisen voor Analysis Workspace?
@@ -45,25 +45,13 @@ Zie [ Optimizing Prestaties ](/help/analyze/analysis-workspace/workspace-faq/opt
 
 +++Hoe worden gegevens opgenomen in uw Analysis Workspace-project?
 
-
->[!BEGINSHADEBOX]
-
 Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gegevens in Analysis Workspace ](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} voor een demo video.
-
->[!ENDSHADEBOX]
-
 
 +++
 
 +++Hoe kan ik het gebruik van Workspace volgen?
 
-
->[!BEGINSHADEBOX]
-
 Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Logboek dat ](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} voor een demo video volgt.
-
->[!ENDSHADEBOX]
-
 
 +++
 
