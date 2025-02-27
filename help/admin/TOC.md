@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 5ceb21e8d3ed711fd3d789aef0b6ae589ee2dd1e
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 14%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 14%
 + Gereedschappen voor analysebeheer {#admin-tools}
    + [Overzicht van beheerprogramma&#39;s](admin/c-admin-tools.md)
    + [Codebeheer](admin/code-manager-admin.md)
+   + [Analytische inventarisatie](admin/analytics-inventory.md)
    + [Databronnen](admin/data-sources.md)
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
    + [Logboeken](admin/logs.md)
@@ -55,16 +56,16 @@ ht-degree: 14%
                   + [De historie van de verwerkingsregel weergeven](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
                   + [Verwerkingsregels herstellen](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
                   + [De verwerkingsregels van het exemplaar aan een andere rapportreeks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-                  + [Dimensionen waarover verwerkingsvoorschriften kunnen worden toegepast](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
+                  + [Beschikbare afmetingen voor verwerkingsregels](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
                + Voorbeelden van verwerkingsregels {#processing-rules-examples}
                   + [Voorbeelden van verwerkingsregels](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
                   + [Een campagne-id vullen met een parameter voor een queryreeks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
                   + [De gebeurtenis voor de productweergave instellen op de pagina met productoverzicht](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
                   + [Een subcategorie toevoegen door de categorie- en paginanaam samen te voegen](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-                  + [Een pad bepalen door een eVar-waarde naar een profiel te kopiëren](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
+                  + [Een pad bepalen door een eVar-waarde naar een proxy te kopiëren](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
                   + [Waarden in een rapport opruimen](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
                   + [Interne zoektermen vullen met een parameter voor een queryreeks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-                  + [Een variabele met contextgegevens kopiëren naar een eVar](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
+                  + [Een contextgegevensvariabele naar een eVar kopiëren](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
                   + [Een gebeurtenis instellen met een variabele van een contextgegevens](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Een gebeurtenis verwijderen uit een hit](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Tips en trucs voor verwerkingsregels](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
@@ -115,9 +116,9 @@ ht-degree: 14%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Privacyrapportage](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Beheer van Documenten Cloud {#doc-cloud-mgt}
+         + Document Cloud Management {#doc-cloud-mgt}
             + [Document Cloud configureren met Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
-            + [Rapportage van Documenten Cloud configureren](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+            + [Document Cloud-rapportage configureren](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Advertising Analytics-configuratie](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Real-Time {#real-time-reports}
             + [Overzicht van realtime rapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -146,7 +147,7 @@ ht-degree: 14%
       + [Overzicht van bedrijfsinstellingen](admin/company/c-company-settings.md)
       + [Beveiligingsbeheer](admin/company/security-manager.md)
       + [Webservices](admin/company/web-services-admin.md)
-      + [Report Builder](admin/company/report-builder-reports-admin.md)
+      + [Report Builder-rapporten](admin/company/report-builder-reports-admin.md)
       + [Single Sign-On](admin/company/single-signon-admin.md)
       + [Rapportagesuites verbergen](admin/company/c-hide-report-suites.md)
       + [Voorkeursbeheer](admin/company/preferences-manager.md)
@@ -174,7 +175,7 @@ ht-degree: 14%
       + [Gebruiker- en productbeheer (verouderd)](admin/user-management2/user-management.md)
       + [Oudere gebruikersaccounts, middelen en vervaltijden beheren](admin/user-management2/users-assets.md)
       + Gebruikers migreren naar Adobe Admin Console {#migrate-users}
-         + [Analyse van gebruikersmigratie naar de Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
+         + [Analyseer gebruikersmigratie naar de Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Gebruikersaccounts voor Analyse migreren voor Adobe-id&#39;s](admin/user-management2/user-migration/t-migrate-users.md)
          + [Analytische gebruikersaccounts migreren voor bedrijfs- en federatieve id&#39;s](admin/user-management2/user-migration/migrate-enterprise.md)
          + [Verouderde logins uitschakelen](admin/user-management2/user-migration/t-disable-legacy-login.md)
