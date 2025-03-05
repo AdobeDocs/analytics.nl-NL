@@ -4,22 +4,22 @@ description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen a
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 5e97c9a4a3c7368cefb3cc6a7bc89a450e6e3f4a
+source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1410'
 ht-degree: 0%
 
 ---
 
 # XML-objectvariabele toewijzen aan Adobe Analytics
 
-In de volgende tabel staan de XDM-variabelen die de Adobe Experience Platform-Edge Network automatisch toewijst aan Adobe Analytics. Als u deze XDM-veldpaden gebruikt, is er geen extra configuratie nodig om gegevens naar Adobe Analytics te verzenden. Deze velden worden opgenomen in de veldgroep **[!UICONTROL Adobe Analytics ExperienceEvent Template]** . U wordt aangeraden deze velden te gebruiken als u gegevens wilt verzenden naar Adobe Analytics en Adobe Experience Platform.
+In de volgende tabel staan de XDM-variabelen die de Adobe Experience Platform Edge Network automatisch toewijst aan Adobe Analytics. Als u deze XDM-veldpaden gebruikt, is er geen extra configuratie nodig om gegevens naar Adobe Analytics te verzenden. Deze velden worden opgenomen in de veldgroep **[!UICONTROL Adobe Analytics ExperienceEvent Template]** . U wordt aangeraden deze velden te gebruiken als u gegevens wilt verzenden naar Adobe Analytics en Adobe Experience Platform.
 
-Als uw organisatie van plan is naar Customer Journey Analytics te gaan, raadt Adobe u aan in plaats daarvan het `data` -object te gebruiken om gegevens rechtstreeks naar Adobe Analytics te verzenden zonder zich aan een schema te houden. Op deze manier kan uw organisatie uw eigen schema gebruiken in plaats van [!UICONTROL Adobe Analytics ExperienceEvent Template] (dat minder van toepassing is op Customer Journey Analytics). Zie [ objecten van Gegevens veranderlijke afbeelding aan Adobe Analytics ](data-var-mapping.md) voor een gelijkaardige toewijzingstabel.
+Als uw organisatie van plan is naar Customer Journey Analytics te gaan, raadt Adobe u aan in plaats daarvan het `data` -object te gebruiken om gegevens rechtstreeks naar Adobe Analytics te verzenden zonder zich aan een schema te houden. Met deze strategie kan uw organisatie uw eigen schema gebruiken in plaats van [!UICONTROL Adobe Analytics ExperienceEvent Template] (dat minder van toepassing is op Customer Journey Analytics) te gebruiken. Zie [ objecten van Gegevens veranderlijke afbeelding aan Adobe Analytics ](data-var-mapping.md) voor een gelijkaardige toewijzingstabel.
 
 ## Waardeprioriteiten
 
-De meeste XDM objecten gebieden in deze lijst vallen met a [ gebied van gegevensobjecten ](data-var-mapping.md) samen. Als u zowel een bepaald XDM-objectveld als het bijbehorende gegevensobjectveld instelt, krijgt het gegevensobjectveld prioriteit. Als u zowel het XDM-objectveld als het gegevensobjectveld gebruikt, raadt de Adobe aan aangepaste gebeurtenissen in te stellen met behulp van het gegevensobjectveld. Als het veld `data.__adobe.analytics.events` aanwezig is, worden alle XDM-objectvelden met betrekking tot handel en aangepaste gebeurtenissen overschreven.
+De meeste XDM objecten gebieden in deze lijst vallen met a [ gebied van gegevensobjecten ](data-var-mapping.md) samen. Als u zowel een bepaald XDM-objectveld als het bijbehorende gegevensobjectveld instelt, krijgt het gegevensobjectveld prioriteit. Als u zowel het XDM-objectveld als het gegevensobjectveld gebruikt, raadt Adobe aan aangepaste gebeurtenissen in te stellen met behulp van het gegevensobjectveld. Als het veld `data.__adobe.analytics.events` aanwezig is, worden alle XDM-objectvelden met betrekking tot handel en aangepaste gebeurtenissen overschreven.
 
 ## XML-objectveldtoewijzing
 
@@ -66,10 +66,11 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | `xdm.environment.carrier` | De mobiele dimensie van de levenscyclus [ Naam van de Drager ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Helpt het [ type van Verbinding ](../../components/dimensions/connection-type.md) afmeting te plaatsen. |
 | `xdm.environment.ipV4` | Gebruikt als een fallback [ unieke bezoeker ](../../components/metrics/unique-visitors.md) identificatiemethode. Doorgaans gevuld met behulp van de `X-Forwarded-For` HTTP-header. |
+| `xdm.environment._dc.language` | De mobiele dimensie Locale. |
 | `xdm.environment.language` | De mobiele dimensie Locale. |
 | `xdm.environment.operatingSystem` | De mobiele dimensie van de levenscyclus [ Werkend Systeem ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | De hulp plaatst de mobiele dimensie van de levenscyclus [ Versie van het Werkende Systeem ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Plaatst de respectieve [ eVar ](../../components/dimensions/evar.md) dimensie. |
+| `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Plaatst de respectieve [ dimensie van eVar ](../../components/dimensions/evar.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Plaatst de respectieve [ dimensie van de Hiërarchie ](/help/components/dimensions/hierarchy.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Overschrijving van het lijstscheidingsteken. Het gebruiken van dit gebied wordt niet geadviseerd, aangezien het scheidingsteken automatisch van [ veranderlijke admin van het Verkeer ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) onder de montages van de rapportreeks wordt teruggewonnen. Als u dit veld gebruikt, kunnen er verschillen optreden tussen het gebruikte scheidingsteken en het scheidingsteken dat door Analytics wordt verwacht. |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Een koordserie die de respectieve [ Prop van de Lijst ](../vars/page-vars/prop.md#list-props) waarden bevat. |
