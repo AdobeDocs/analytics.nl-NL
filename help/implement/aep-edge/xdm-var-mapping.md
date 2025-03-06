@@ -4,9 +4,9 @@ description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen a
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
+source-git-commit: 41395781f34d395954a1fc9de0351e4c63c1d6f8
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | `xdm.environment.carrier` | De mobiele dimensie van de levenscyclus [ Naam van de Drager ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Helpt het [ type van Verbinding ](../../components/dimensions/connection-type.md) afmeting te plaatsen. |
 | `xdm.environment.ipV4` | Gebruikt als een fallback [ unieke bezoeker ](../../components/metrics/unique-visitors.md) identificatiemethode. Doorgaans gevuld met behulp van de `X-Forwarded-For` HTTP-header. |
-| `xdm.environment._dc.language` | De mobiele dimensie Locale. |
+| `xdm.environment._dc.language` | De mobiele dimensie Locale. Wordt alleen gebruikt als xdm.environment.language niet is ingesteld. |
 | `xdm.environment.language` | De mobiele dimensie Locale. |
 | `xdm.environment.operatingSystem` | De mobiele dimensie van de levenscyclus [ Werkend Systeem ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | De hulp plaatst de mobiele dimensie van de levenscyclus [ Versie van het Werkende Systeem ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
