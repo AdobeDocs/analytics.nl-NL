@@ -4,16 +4,16 @@ title: Data Privacy-labels voor Analytics-variabelen
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '3753'
-ht-degree: 58%
+source-wordcount: '3725'
+ht-degree: 57%
 
 ---
 
 # Data Privacy-labels voor Analytics-variabelen
 
-De klanten van de Adobe, als gegevensverwerkingsverantwoordelijken, zijn verantwoordelijk voor het naleven van de toepasselijke wetten van de Privacy van Gegevens zoals de Algemene Verordening van de Bescherming van Gegevens (GDPR) en de Wet van de Consumentenprivacy van Californië (CCPA). Klanten dienen hun eigen juridische teams te raadplegen om te bepalen hoe hun gegevens moeten worden verwerkt om te voldoen aan de privacywetten voor gegevens. Adobe begrijpt dat elk van haar klanten unieke behoeften heeft met betrekking tot privacy. Daarom stelt Adobe haar klanten in staat om hun gewenste instellingen aan te passen voor gegevensverwerking in verband met privacy van gegevens. Hierdoor kan elke afzonderlijke klant Data Privacy-aanvragen verwerken op de manier door voor het merk en de unieke dataset van deze klant het meest zinnig is.
+De klanten van Adobe, als de Controllers van Gegevens, zijn verantwoordelijk voor het naleven van de toepasselijke wetten van de Privacy van Gegevens zoals de Algemene Verordening van de Bescherming van Gegevens (GDPR) en de Wet van de Consumentenprivacy van Californië (CCPA). Klanten dienen hun eigen juridische teams te raadplegen om te bepalen hoe hun gegevens moeten worden verwerkt om te voldoen aan de privacywetten voor gegevens. Adobe begrijpt dat elk van haar klanten unieke behoeften heeft met betrekking tot privacy. Daarom stelt Adobe haar klanten in staat om hun gewenste instellingen aan te passen voor gegevensverwerking in het kader van privacy van gegevens. Hierdoor kan elke afzonderlijke klant Data Privacy-aanvragen verwerken op de manier door voor het merk en de unieke dataset van deze klant het meest zinnig is.
 
 Adobe Analytics biedt tools voor het labelen van data op basis van de gevoeligheid en contractuele beperkingen ervan. Labels zijn een belangrijke stap voor: (1) identificatie van betrokkenen, (2) bepaling van welke gegevens als onderdeel van een toegangsverzoek moeten worden geretourneerd, en (3) identificatie van gegevensvelden die als onderdeel van een verwijderingsverzoek moeten worden verwijderd.
 
@@ -23,7 +23,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 
 >[!NOTE]
 >
->De labels I1, I2, S1 en S2 hebben dezelfde betekenis als de overeenkomstige labels DULE in Adobe Experience Platform. Ze worden echter voor heel andere doeleinden gebruikt. In Adobe Analytics worden deze labels gebruikt om velden te identificeren die moeten worden geanonimiseerd als gevolg van een verzoek om Privacy Service. In Adobe Experience Platform worden ze gebruikt voor toegangscontrole, toestemmingsbeheer en voor het afdwingen van marketingbeperkingen op de gelabelde velden. Adobe Experience Platform ondersteunt veel extra labels die niet worden gebruikt door Adobe Analytics. Bovendien worden labels in Adobe Experience Platform toegepast op schema&#39;s. Als u de Verbinding van Gegevens van Analytics gebruikt om uw gegevens van Adobe Analytics in Adobe Experience Platform in te voeren, zult u moeten ervoor zorgen dat de aangewezen etiketten DULE in Adobe Experience Platform voor de schema&#39;s worden gevormd die door elk van uw rapportreeksen worden gebruikt. Labels die in Adobe Analytics zijn toegewezen, worden niet automatisch toegepast op deze schema&#39;s in Adobe Experience Platform, omdat deze alleen een subset van de DULE-labels vertegenwoordigen die u wellicht moet toepassen. Ook, kunnen de verschillende rapportreeksen een schema delen maar verschillende etiketten hebben die aan steunen en gebeurtenissen met het zelfde aantal worden toegewezen en het schema kan door datasets van andere gegevensbronnen worden gedeeld, die verwarring over kon veroorzaken waarom bepaalde gebieden deze etiketten kregen.
+>De labels I1, I2, S1 en S2 hebben dezelfde betekenis als de overeenkomstige labels DULE in Adobe Experience Platform. Ze worden echter voor heel andere doeleinden gebruikt. In Adobe Analytics worden deze labels gebruikt om velden te identificeren die moeten worden geanonimiseerd als gevolg van een Privacy Service-aanvraag. In Adobe Experience Platform worden ze gebruikt voor toegangscontrole, toestemmingsbeheer en voor het afdwingen van marketingbeperkingen op de gelabelde velden. Adobe Experience Platform ondersteunt veel extra labels die niet worden gebruikt door Adobe Analytics. Bovendien worden labels in Adobe Experience Platform toegepast op schema&#39;s. Als u de Verbinding van Gegevens van Analytics gebruikt om uw gegevens van Adobe Analytics in Adobe Experience Platform in te voeren, zult u moeten ervoor zorgen dat de aangewezen etiketten DULE in Adobe Experience Platform voor de schema&#39;s worden gevormd die door elk van uw rapportreeksen worden gebruikt. Labels die in Adobe Analytics zijn toegewezen, worden niet automatisch toegepast op deze schema&#39;s in Adobe Experience Platform, omdat deze alleen een subset van de DULE-labels vertegenwoordigen die u wellicht moet toepassen. Ook, kunnen de verschillende rapportreeksen een schema delen maar verschillende etiketten hebben die aan steunen en gebeurtenissen met het zelfde aantal worden toegewezen en het schema kan door datasets van andere gegevensbronnen worden gedeeld, die verwarring over kon veroorzaken waarom bepaalde gebieden deze etiketten kregen.
 
 ## Identiteitsgegevenslabels {#identity-data-labels}
 
@@ -49,7 +49,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 
 ## Labels voor gegevensbeheer (Data Privacy) {#data-governance-labels}
 
-Met labels voor gegevensbeheer kunnen gebruikers gegevens classificeren die privacygerelateerde overwegingen en contractuele voorwaarden weerspiegelen, zodat de klanten van de Adobe aan de voorschriften en het bedrijfsbeleid kunnen blijven voldoen.
+Met labels voor gegevensbeheer kunnen gebruikers gegevens classificeren die privacygerelateerde overwegingen en contractuele voorwaarden weerspiegelen, zodat Adobe-klanten aan de voorschriften en het bedrijfsbeleid kunnen blijven voldoen.
 
 ### Toegangslabels voor gegevenPrivacy {#access}
 
@@ -67,7 +67,7 @@ Weinig variabelen zullen een van de andere labels krijgen, maar de verwachting i
 
 In tegenstelling tot de andere labels sluiten deze verwijderingslabels elkaar niet uit. U kunt een van beide, beide of geen van beide selecteren. Een apart label van het type [!UICONTROL None] is niet nodig, omdat [!UICONTROL None] wordt aangegeven door een van de verwijderopties niet te controleren.
 
-Een label Verwijderen is alleen vereist voor velden die een waarde bevatten waarmee een treffer aan het gegevensonderwerp kan worden gekoppeld (zodat het gegevensonderwerp kan worden geïdentificeerd). Overige persoonlijke gegevens (favorieten, browsergeschiedenis/aankoopgeschiedenis, gezondheidstoestand, enz.) hoeft niet te worden verwijderd omdat de koppeling met de betrokkene wordt verbroken.
+Een label Verwijderen is alleen vereist voor velden die een waarde bevatten waarmee een treffer aan het gegevensonderwerp kan worden gekoppeld (zodat het gegevensonderwerp kan worden geïdentificeerd). Andere persoonlijke gegevens (favorieten, browsergeschiedenis/koopgeschiedenis, gezondheidsvoorwaarden, enz.) hoeven niet te worden verwijderd, aangezien het verband met de betrokkene wordt verbroken.
 
 | Label | Definitie | Overige vereisten |
 | --- | --- | --- |
@@ -122,9 +122,9 @@ U hoeft de labels ID-DEVICE of ID-PERSON niet te specificeren op alle variabelen
 }
 ```
 
-Het is aanvaardbaar om dezelfde naamruimte te gebruiken voor verschillende variabelen binnen dezelfde rapportsuite. Zo slaan sommige aangepaste implementaties een CRM-ID op in zowel een prop als een eVar. Als CRM-ID altijd in één van hen (zoals de eVar) voorkomt, en slechts af en toe in andere (de herinnering) voorkomt, en nooit in prop wanneer niet ook in de eVar, dan vereist slechts de eVar een etiket van identiteitskaart en een namespace omdat de Adobe slechts in die eVar voor identiteitskaart kan zoeken. Als de CRM-ID echter soms voorkomt in de ene variabele en soms in de andere, moeten beide dezelfde naamruimte hebben en zal Adobe beide variabelen doorzoeken op instanties van de id die is opgegeven als onderdeel van een Data Privacy-aanvraag met deze naamruimte. U hebt nog steeds een DEL-label nodig op al deze variabelen, zodat de waarde anoniem blijft, ongeacht waar deze voorkomt.
+Het is aanvaardbaar om dezelfde naamruimte te gebruiken voor verschillende variabelen binnen dezelfde rapportsuite. Zo slaan sommige aangepaste implementaties een CRM-ID op in zowel een prop als een eVar. Als CRM-ID altijd voorkomt in één van hen (zoals eVar), en slechts af en toe voorkomt in andere (de eigenschap), en nooit in prop wanneer niet ook in eVar, dan vereist slechts eVar een etiket van identiteitskaart en een namespace omdat Adobe slechts in die eVar voor identiteitskaart kan zoeken. Als de CRM-ID echter soms voorkomt in de ene variabele en soms in de andere, moeten beide dezelfde naamruimte hebben en zal Adobe beide variabelen doorzoeken op instanties van de id die is opgegeven als onderdeel van een Data Privacy-aanvraag met deze naamruimte. U hebt nog steeds een DEL-label nodig op al deze variabelen, zodat de waarde anoniem blijft, ongeacht waar deze voorkomt.
 
-Een ander voorbeeld: u hebt misschien een CRM-id die soms wordt ingezonden via eVar1 en soms via prop7. Vervolgens hebt u een verwerkingsregel die de waarde van eVar1, indien aanwezig, naar eVar3 kopieert. Anders, kopieert het de waarde van prop7 in eVar3. In dit scenario bevat eVar3 altijd de CRM-id als deze bekend is, zodat alleen eVar3 een ID-PERSON-label nodig heeft.
+Een ander voorbeeld: u hebt misschien een CRM-id die soms wordt ingezonden via eVar1 en soms via prop7. Vervolgens hebt u een verwerkingsregel die de waarde van eVar1, indien aanwezig, naar eVar3 kopieert. Anders wordt de waarde van prop7 naar eVar3 gekopieerd. In dit scenario bevat eVar3 altijd de CRM-id als deze bekend is, zodat alleen eVar3 een ID-PERSON-label nodig heeft.
 
 >[!CAUTION]
 >
@@ -224,7 +224,7 @@ In de volgende tabel wordt beschreven hoe verschillende variabelen worden “ver
 | Aankoop-id | De bestaande waarde wordt vervangen door een nieuwe waarde met de vorm “G-7588FCD8642718EC50”, waarbij de hexadecimale waarde van 18 cijfers na het voorvoegsel “G-” de eerste 18 cijfers zijn van een cryptografisch sterk 128-bits pseudorandomgetal. Alle opmerkingen die gelden voor verwijdering van traffic- en commerce-variabelen, gelden hier ook.<p>De aankoop-id is een transactie-id die als belangrijkste doel heeft ervoor te zorgen dat een aankoop niet tweemaal in rekening wordt gebracht, bijvoorbeeld wanneer iemand de pagina met de aankoopbevestiging vernieuwt. De id zelf kan de aankoop koppelen aan een rij in uw eigen database waarin de aankoop is vastgelegd. In de meeste gevallen is het niet nodig deze id te verwijderen, zodat deze niet standaard wordt verwijderd.<p>Als u de aankoop na de Data Provacy-verwijderingsaanvraag van uw eigen data nog steeds aan een gebruiker kunt koppelen, moet u dit veld mogelijk verwijderen, zodat de Analytics-data voor deze bezoeker niet aan de koper kunnen worden gekoppeld. |
 | Bezoekers-id | Waarde is een 128-bits geheel getal en wordt vervangen door een cryptografisch sterke pseudorandomwaarde van 128 bits. |
 | <ul><li>MCID</li><li>Aangepaste bezoekers-id</li><li>IP-adres</li><li>IP-adres 2 | Waarde wordt gewist (ingesteld op de lege tekenreeks of op 0, afhankelijk van het type variabele). |
-| <ul><li>ClickMap (verouderd)</li><li>Context ClickMap (verouderd)</li><li>Pagina</li><li>Pagina-URL</li><li>URL van oorspronkelijke invoerpagina</li><li>Referenter</li><li>URL-startpagina bezoeken</li></ul> | URL-parameters worden gewist/verwijderd. Als de waarde er niet uitziet als een URL, wordt de waarde gewist (ingesteld op de lege tekenreeks). |
+| <ul><li>ClickMap-actie (verouderd)</li><li>ClickMap-context (verouderd)</li><li>Pagina</li><li>Pagina-URL</li><li>URL van oorspronkelijke invoerpagina</li><li>Referenter</li><li>URL-startpagina bezoeken</li></ul> | URL-parameters worden gewist/verwijderd. Als de waarde er niet uitziet als een URL, wordt de waarde gewist (ingesteld op de lege tekenreeks). |
 | <ul><li>Breedte</li><li>Lengtegraad</li></ul> | Precisie wordt beperkt tot maximaal 1 km. |
 
 {style="table-layout:auto"}
@@ -243,8 +243,8 @@ Het is belangrijk te begrijpen welk type gegevens in elke variabele is opgenomen
 | [!UICONTROL User Agent] | De User Agent identificeert de versie van de gebruikte browser. |
 | [!UICONTROL User ID] | Specificeert de Analytics-rapportsuite (als getal) die de data bevat. |
 | [!UICONTROL Report Suite ID] | Hier geeft u de naam op van de Analytics-rapportsuite die de data bevat. |
-| [!UICONTROL Visitor ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Deze id&#39;s hebben een DEL-DEVICE-label, maar het DEL-PERSON-label kan niet worden toegevoegd. Als u [!UICONTROL ID Expansion] bij elke aanvraag opgeeft, worden deze id&#39;s automatisch verwijderd voor alle verwijderingsaanvragen, ook voor aanvragen met een ID-PERSON.<p>Als u geen id-uitbreiding gebruikt, maar deze cookie-id&#39;s wilt anonimiseren bij treffers die een overeenkomende id in een prop of eVar bevatten, kunt u deze labelbeperking omzeilen door de prop of eVar te labelen met een ID-DEVICE-label, zelfs als deze werkelijk een persoon identificeert (alle DEL-PERSON-labels moeten ook worden gewijzigd in DEL-DEVICE-labels). In dit geval zal het aantal unieke bezoekers in de historische rapportage veranderen, omdat slechts enkele exemplaren van de bezoeker-id of de ECID worden geanonimiseerd. |
-| [!UICONTROL AMO ID] | De Adobe Advertising Cloud-id is een oplossingsvariabele met een niet-wijzigbaar label [!UICONTROL DEL-DEVICE] . Deze wordt net als de bezoekers-id en de MCID ingevuld op basis van een cookie. Deze moet uit treffers worden verwijderd wanneer de andere id&#39;s worden verwijderd. Zie de beschrijving van deze variabelen voor meer informatie. |
+| [!UICONTROL Visitor ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Deze id&#39;s hebben een DEL-DEVICE-label, maar het DEL-PERSON-label kan niet worden toegevoegd. Als u deze cookie-id&#39;s wilt anonymiseren bij treffers die een overeenkomende id in een proxy of eVar bevatten, kunt u deze labelbeperking omzeilen door de proxy of eVar een ID-DEVICE-label te geven, zelfs als deze echt een persoon identificeert (alle DEL-PERSON-labels moeten ook worden gewijzigd in DEL-DEVICE-labels). In dit geval zal het aantal unieke bezoekers in de historische rapportage veranderen, omdat slechts enkele exemplaren van de bezoeker-id of de ECID worden geanonimiseerd. |
+| [!UICONTROL AMO ID] | De Adobe Advertising Cloud-id is een oplossingstabel met een onveranderbaar [!UICONTROL DEL-DEVICE] -label. Deze wordt net als de bezoekers-id en de MCID ingevuld op basis van een cookie. Deze moet uit treffers worden verwijderd wanneer de andere id&#39;s worden verwijderd. Zie de beschrijving van deze variabelen voor meer informatie. |
 
 {style="table-layout:auto"}
 
@@ -264,4 +264,4 @@ Er zijn vijf standaardvariabelen die tijdstempels bevatten:
 
 Voor de code voor het genereren van de bestanden die voor Data Privacy-toegangsaanvragen worden geretourneerd, moet minstens één van de eerste drie tijdstempelvariabelen in de toegangsaanvraag zijn opgenomen (een ACC-label hebben dat van toepassing is op het type aanvraag). Als geen van deze zijn opgenomen, wordt Aangepaste tijdstip treffer in UTC worden behandeld alsof het een ACC-ALL-label heeft.
 
-Het CSV-bestand op raakniveau dat wordt geretourneerd voor verzoeken om toegang tot gegevensprivacy converteert de waarden in deze velden van unieke tijdstempels naar datum-/tijdvelden in de indeling `YYYY-MM-DD HH:MM:SS` (bijvoorbeeld `2018-05-01 13:49:22` ). In het samenvattingsbestand HTML worden deze tijdstempelwaarden ingekort, zodat alleen de datum `YYYY-MM-DD` wordt opgenomen om het aantal unieke waarden voor deze velden te verminderen.
+Het CSV-bestand op raakniveau dat wordt geretourneerd voor verzoeken om toegang tot gegevensprivacy converteert de waarden in deze velden van unieke tijdstempels naar datum-/tijdvelden in de indeling `YYYY-MM-DD HH:MM:SS` (bijvoorbeeld `2018-05-01 13:49:22` ). In het samenvattingsbestand van HTML worden deze tijdstempelwaarden ingekort zodat alleen de datum `YYYY-MM-DD` wordt opgenomen om het aantal unieke waarden dat voor deze velden optreedt, te verminderen.
