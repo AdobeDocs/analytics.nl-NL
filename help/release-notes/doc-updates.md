@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
+source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
 workflow-type: tm+mt
-source-wordcount: '6168'
+source-wordcount: '6165'
 ht-degree: 19%
 
 ---
@@ -86,7 +86,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | --- | --- |
 | **December 2023** | |
 | Verbeterde documentatie over botregels | De bijgewerkte informatie in [ begrijpt en vormt beide regels ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) om duidelijkheid te verbeteren.<p>Tot de verbeteringen behoren:</p> <ul><li>Bijgewerkte artikeltitel die beschrijvender is</li><li>Verbeterde organisatie van de informatie</li><li>Toegevoegde stappen om op taak-gebaseerde informatie te wijzen</li><li>Meer informatie over CSV-bestandsvereisten toegevoegd tijdens het uploaden van beide regels</li></ul> |
-| Nieuwe sectie Rapporten | Toegevoegd een nieuwe sectie van Rapporten die informatie over [ gebruikend prebuilt rapporten ](/help/analyze/analysis-workspace/reports/use-reports.md) en [ het creëren van en het leiden van bedrijfrapporten ](/help/analyze/analysis-workspace/reports/create-company-reports.md) omvat. |
+| Nieuwe sectie Rapporten | Toegevoegd een nieuwe sectie van Rapporten die informatie over [ malplaatjes van het Gebruik ](/help/analyze/analysis-workspace/templates/use-templates.md) en [ het creëren van bedrijfmalplaatjes ](/help/analyze/analysis-workspace/templates/create-templates.md) omvat. |
 | Updates van de documentatie van de analyse van de Anomaly Detection and Contribution Analysis | De documentatie voor de Analyse van de Detectie en van de Bijdrage van Anomaly werd eerder gevestigd in een sectie over Virtuele Analyst. De volgende wijzigingen zijn aangebracht: <ul><li>De term Virtual Analyst is uit de documentatie verwijderd.</li><li>De sectie over [ Anomaly Detection ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) werd direct bewogen onder de sectie van Analysis Workspace.</li><li>De documentatie van de Analyse van de Bijdrage werd samengevoegd in de documentatie van de Detectie van de Anomaly.</li></ul> |
 | &quot;Attribution IQ &quot; gewijzigd in &quot;Attribution&quot; | Veranderde alle instanties van &quot;Attribution IQ&quot;in &quot;[ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md)&quot;door de documentatie. |
 | **November 2023** | |

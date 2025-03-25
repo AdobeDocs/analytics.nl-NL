@@ -4,7 +4,7 @@ title: Sjablonen gebruiken
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
 source-wordcount: '18642'
 ht-degree: 0%
@@ -41,7 +41,7 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
    * **[!UICONTROL _login_company_name _malplaatjes]**: Toont alle bedrijfmalplaatjes die voor uw organisatie zijn gecreeerd.
 
-     Alleen beheerders kunnen bedrijfssjablonen maken. Voor meer informatie over hoe te om een bedrijfmalplaatje tot stand te brengen, zie [ malplaatjes ](/help/analyze/analysis-workspace/reports/create-company-reports.md) creëren en beheren.
+     Alleen beheerders kunnen bedrijfssjablonen maken. Voor meer informatie over hoe te om een bedrijfmalplaatje tot stand te brengen, zie [ malplaatjes ](/help/analyze/analysis-workspace/templates/create-templates.md) creëren en beheren.
 
 1. Gebruik een van de volgende opties om de weergave van de beschikbare sjablonen te wijzigen:
 

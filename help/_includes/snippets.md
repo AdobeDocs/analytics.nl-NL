@@ -1,24 +1,24 @@
 ---
-source-git-commit: ca1e86606454c2f906cef0cc1d1a9d1c67cedf0e
+source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
 # Fragmenten
 
-## Oudere Report Builder {#legacy-arb}
+## Legacy Report Builder {#legacy-arb}
 
 >[!IMPORTANT]
 >
 >Een nieuwe en gestroomlijnde [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) werd vrijgegeven op 16 oktober, 2024. Deze functie wordt ondersteund in Mac-, Windows- en webbrowsers.
->Deze verouderde invoegtoepassing voor Reporten Builder werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in de nieuwe Report Builder omzetten.
+>Deze verouderde Report Builder-invoegtoepassing werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in nieuwe Report Builder omzetten.
 
 ## Rapporten &amp; Analytics-aankondiging aan het einde van de levensduur {#ra-eol}
 
 >[!IMPORTANT]
 >
->Effectieve **Januari 17, 2024**, beëindigde de Adobe Rapporten &amp; Analytics en zijn begeleidende rapporten en eigenschappen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die energierapporten &amp; analyses niet meer voldoen aan de technologienormen van de Adobe. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Voor informatie over het gebruiken van rapporten in Analysis Workspace, zie [ Gebruik pre-gebouwde rapporten ](/help/analyze/analysis-workspace/reports/use-reports.md).
+>Effectief **Januari 17, 2024**, beëindigde Adobe Rapporten &amp; Analytics en zijn begeleidende rapporten en eigenschappen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en onderliggende technologie die energierapporten en -analyses niet meer voldoen aan de Adobe-technologienormen. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Voor informatie, zie [ malplaatjes van het Gebruik ](/help/analyze/analysis-workspace/templates/use-templates.md).
 > 
 >Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 >
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze insteekmodule wordt door Adobe Consulting geleverd als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van de Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met het accountteam van de Adobe van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>Deze insteekmodule wordt door Adobe Consulting geleverd als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De Adobe Customer Care biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met het Adobe-accountteam van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 
 ## Alleen beschikbaar voor bestaande klanten {#available-existing-customers}

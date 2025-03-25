@@ -4,9 +4,9 @@ title: Overzicht van real-time rapportage
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,15 @@ Real-time rapporten tonen het verkeer van de Web-pagina en rangschikken paginame
 
 >[!NOTE]
 >
->Voor het Real-Time Report is geen aanvullende implementatie of codering vereist. Het gebruikt uw bestaande implementatie van Adobe Analytics. Om rapporten in real time te vormen, zie [Configuratie van realtime rapporten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>Voor het Real-Time Report is geen aanvullende implementatie of codering vereist. Het gebruikt uw bestaande implementatie van Adobe Analytics. Om rapporten in real time te vormen, zie [ Real-Time de Configuratie van Rapporten ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
 ## Real-time toegang tot rapporten
 
-1. Selecteer in Analysis Workspace de optie [!UICONTROL **Werkruimte**] tab.
+1. In Analysis Workspace, selecteer [!UICONTROL **Workspace**] tabel.
 
-1. Selecteren [!UICONTROL **Rapporten**] > [!UICONTROL **Betrokkenheid**] > **[!UICONTROL Real-Time]**.
+1. Op de linkerkant van de pagina, onder **[!UICONTROL Templates]**, uitgezochte [!UICONTROL **malplaatjes van Adobe**].
+
+1. Selecteer [!UICONTROL **Betrokkenheid**] > **[!UICONTROL Real-Time]**.
 
 ## Real-Time rapportage begrijpen
 
@@ -49,13 +51,13 @@ Als beheerder kunt u
 
 * Vergelijk bijvoorbeeld de waarden van vorige week met de waarden van vorig jaar (en met het totaal van vandaag).
 
-Vergeet niet dat eVars (conversiemetriek) niet worden ondersteund, omdat er geen concept van persistentie bestaat. Hoewel u conversiemetriek kunt selecteren, werken deze alleen als ze op dezelfde pagina zijn ingesteld als de dimensie(s). Zie het waarschuwingsbericht dat is vastgelegd in [Real-Time rapporten instellen](/help/components/c-real-time-reporting/t-realtime-admin.md).
+Vergeet niet dat eVars (conversiemetriek) niet worden ondersteund, omdat er geen concept van persistentie bestaat. Hoewel u conversiemetriek kunt selecteren, werken deze alleen als ze op dezelfde pagina zijn ingesteld als de dimensie(s). Voor meer informatie, zie het waarschuwingsbericht dat in [ Vestiging Echt - tijdRapporten ](/help/components/c-real-time-reporting/t-realtime-admin.md) wordt gevangen.
 
 De vestiging en het bekijken van rapporten in real time is beperkt tot Admins of om het even welke gebruiker in de &quot;Alle Toegang van het Rapport&quot;en &quot;Geavanceerde het Melden&quot;toestemmingsgroepen. Nochtans, in real time eerbiedigt toestemmingen. Als, bijvoorbeeld, u geen rechten hebt om opbrengst te zien, zult u geen rapport in real time kunnen bekijken dat opbrengstgegevens omvat.
 
 ## De Latentie van gegevens als resultaat van Configuratie A4T {#latency-a4t}
 
-Nadat de integratie A4T in Adobe wordt toegelaten [!DNL Target], krijgt u een extra wachttijd van 5 tot 10 minuten in Adobe Analytics. Deze latentieverhoging staat gegevens van Analytics toe en [!DNL Target] om op de zelfde klap worden opgeslagen, die u toestaat om tests door pagina en plaatssectie te onderbreken.
+Nadat de integratie A4T in Adobe [!DNL Target] is ingeschakeld, hebt u nog 5 tot 10 minuten vertraging in Adobe Analytics. Door deze latentieverhoging kunnen gegevens van Analytics en [!DNL Target] op dezelfde hit worden opgeslagen, zodat u tests kunt onderverdelen op pagina en sitesectie.
 
 Deze toename wordt weerspiegeld in alle Adobe Analytics-services en -gereedschappen, inclusief de live stream en real-time rapportage, en is van toepassing in de volgende scenario&#39;s:
 
