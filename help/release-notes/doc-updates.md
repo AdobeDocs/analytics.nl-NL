@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 80dc39ebf0a9b7122b346e2045498ad21eedc0fe
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6283'
 ht-degree: 18%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **Maart 2025** |  |
+| Customer Journey Analytics-upgradehandleiding | Laat u a [ geleidelijke gids ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) voor bevordering van Adobe Analytics aan Customer Journey Analytics produceren. |
 | Opmaak van datums in Data Warehouse-export verduidelijken | Op tijd gebaseerde waarden van dimensies in Data Warehouse-exportbewerkingen hebben een niet-standaarddatumnotatie. Toegevoegde informatie waarin wordt uitgelegd hoe u datumwaarden uit Data Warehouse-exportbewerkingen kunt interpreteren. <p>Zie [ Dimensies die op een verschillende manier worden gesteund (niet-standaard datum het formatteren) ](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [ de steun van de Component in Data Warehouse ](/help/export/data-warehouse/component-support.md).</p> |
 | Bijgewerkte informatie over IP uitsluitingen | Toegevoegde informatie die verklaart dat [ IP uitsluitingen ](/help/admin/admin/exclude-ip.md) tot 5 minuten kan vergen alvorens zij van kracht worden, en dat de veranderingen slechts op nieuwe klappen van toepassing zijn (gegevens die voorafgaand aan de uitsluiting worden gevangen worden niet beïnvloed). <p>De lay-out van de inhoud is ook bijgewerkt om de leesbaarheid te verbeteren.</p> |
 | **Februari 2025** |  |
