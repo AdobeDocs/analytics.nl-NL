@@ -3,10 +3,10 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
+source-git-commit: a7a80fc9845382eaa5b15dc6c325015de0a0cd9e
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 3%
+source-wordcount: '721'
+ht-degree: 5%
 
 ---
 
@@ -54,7 +54,7 @@ Deze opmerkingen hebben betrekking op de vrijgaveperiode van 5 maart tot en met 
 
 ## AppMeasurement
 
-Voor de recentste updates op de versies van AppMeasurement (Versie 2.27.0), gelieve te verwijzen naar [ AppMeasurement voor de versienota&#39;s van JavaScript ](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
+Voor de meest recente updates over AppMeasurement-releases raadpleegt u [Releaseopmerkingen bij AppMeasurement voor JavaScript](https://github.com/adobe/appmeasurement/releases).
 
 
 ## Gerelateerde bronnen
