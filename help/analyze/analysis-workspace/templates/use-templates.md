@@ -4,9 +4,9 @@ title: Sjablonen gebruiken
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: 75ade12b36e2dc98a1ad521c746d97094c7bf9cd
 workflow-type: tm+mt
-source-wordcount: '18642'
+source-wordcount: '18640'
 ht-degree: 0%
 
 ---
@@ -103,9 +103,9 @@ Alle beschikbare vooraf gebouwde sjablonen openen:
 
    De volgende secties komen overeen met de beschikbare categorieën en verschaffen informatie over elke template.
 
-   * [[!UICONTROL ](#most-popular)
+   * **[[!UICONTROL Most popular]](#most-popular)**
 
-   * [[!UICONTROL ](#engagement)
+   * **[[!UICONTROL Engagement]](#engagement)**
 
 ### Meest populair {#most-popular}
 
