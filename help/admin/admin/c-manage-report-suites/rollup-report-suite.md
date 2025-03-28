@@ -4,7 +4,7 @@ title: Globale rapportsuites
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Een algemene rapportsuite verzamelt gegevens van alle domeinen en apps die eigendom zijn van uw organisatie. De implementatie vereist om alle verzoeken om images naar één rapportsuite te verzenden.
 
-Adobe beveelt in de meeste gevallen aan een algemene rapportenreeks te implementeren. Zie &quot;[Overwegingen voor algemene rapporten](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)&quot; voor de voordelen van de implementatie van een algemene rapportenreeks.
+Adobe raadt in de meeste gevallen aan een algemene rapportsuite te implementeren. Zie &quot;[ Globale overwegingen van de rapportreeks ](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)&quot;voor de voordelen om een globale rapportreeks uit te voeren.
 
-Met de *taggen met meerdere suite* en *virtuele rapportsuite* benaderingen:
+U kunt subsets van de globale gegevens van de het rapportreeks van uw bedrijf aan verschillende eind verstrekken gebruikers gebruikend *multi-suite het etiketteren* en *virtuele de benaderingen van de rapportreeks*:
 
-* **Tags toevoegen met meerdere suite**: Met tags met meerdere suite kunt u verzoeken om afbeeldingen niet alleen naar een algemene rapportsuite verzenden, maar ook naar afzonderlijke groepen met onderliggende rapporten. De globale rapportgegevens worden gededupliceerd over alle rapportsuites.
+* **multi-suite het etiketteren**: Het multi-suite etiketteren staat u toe om beeldverzoeken niet alleen naar een globale rapportreeks maar ook naar individuele de reeksen van het kindrapport te verzenden. De globale rapportgegevens worden gededupliceerd over alle rapportsuites.
 
   Bijvoorbeeld, zou u alle gegevens in één globaal rapportreeks kunnen verzamelen en ook secundaire rapportsuites opzetten die op merk, regio, of een andere differentiator worden gebaseerd. De verschillende teams in uw bedrijf konden zich dan op gegevens in de rapportreeksen concentreren die voor hen relevant zijn.
 
@@ -27,11 +27,11 @@ Met de *taggen met meerdere suite* en *virtuele rapportsuite* benaderingen:
 
   Er wordt een aparte serveraanroep naar elke rapportsuite in de afbeeldingsaanvraag uitgevoerd. De vraag aan de reeksen van het kindrapport is secundaire vraag.
 
-* **Virtuele rapportsuite**: A [virtuele rapportsuite](/help/components/vrs/vrs-about.md) is een vraag op gespecificeerde segmenten die in een globale rapportreeks worden verzameld, en beschikbaar aan gespecificeerde groepen gebruikers. De virtuele rapportsuites staan u toe om rapportelementen voor verschillende eindgebruikers te leiden zonder multi-suite het etiketteren te gebruiken, waarbij secundaire servervraag wordt vermeden.
+* **Virtuele rapportreeks**: A [ virtuele rapportreeks ](/help/components/vrs/vrs-about.md) is een vraag op gespecificeerde segmenten die in een globale rapportreeks worden verzameld, en beschikbaar aan gespecificeerde groepen gebruikers. De virtuele rapportsuites staan u toe om rapportelementen voor verschillende eindgebruikers te leiden zonder multi-suite het etiketteren te gebruiken, waarbij secundaire servervraag wordt vermeden.
 
-  Om virtuele rapportreeksen te gebruiken, voer een globale rapportreeks uit en ontleed dan de gegevens om virtuele rapportreeksen met specifieke toegepaste segmenten en met specifieke groepstoestemmingen tot stand te brengen. U kunt virtuele rapportsuites in Virtuele rapportreeksmanager tot stand brengen ([!UICONTROL Components] > [!UICONTROL Virtual report suites]). Zie &quot;[Workflow voor virtuele rapportsuite](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)&quot; voor meer informatie .
+  Om virtuele rapportreeksen te gebruiken, voer een globale rapportreeks uit en ontleed dan de gegevens om virtuele rapportreeksen met specifieke toegepaste segmenten en met specifieke groepstoestemmingen tot stand te brengen. U kunt virtuele rapportsuites in de Virtuele manager van de rapportsuites tot stand brengen ([!UICONTROL Components] > [!UICONTROL Virtual report suites]). Zie &quot;[ het Virtuele werkschema van de rapportreeks ](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)&quot;voor meer informatie.
 
-Het gebruik van virtuele-rapportsuites in plaats van taggen met meerdere suite is vaak de beste manier, maar virtuele-rapportsuites hebben een aantal beperkingen. Zie &quot;[Virtuele rapportreeksen en tagging met meerdere suite](/help/components/vrs/vrs-considerations.md)&quot; om te bepalen welke rapportsuite-benadering de beste keuze is voor uw bedrijfsbehoeften. Voor een diepgaande vergelijking van virtuele rapportsuites en multi-suite het etiketteren functionaliteit, zie &quot;[Virtuele rapportsuite versus tagging met meerdere suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
+Het gebruik van virtuele-rapportsuites in plaats van taggen met meerdere suite is vaak de beste manier, maar virtuele-rapportsuites hebben een aantal beperkingen. Zie &quot;[ Virtuele rapportsuites en multi-suite het etiketteren overwegingen ](/help/components/vrs/vrs-considerations.md)&quot;om te bepalen welke benadering van de rapportsuite de beste keus voor uw bedrijfsbehoeften is. Voor een diepgaande vergelijking van virtuele rapportsuites en multi-suite het etiketteren functionaliteit, zie [ Virtuele rapportsuites vs. multi-suite het etiketteren ](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).
 
 <!---## Rollup reports
 

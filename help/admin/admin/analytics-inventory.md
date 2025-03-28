@@ -5,10 +5,11 @@ feature: Admin Tools
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5ceb21e8d3ed711fd3d789aef0b6ae589ee2dd1e
+exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
+source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '276'
+ht-degree: 0%
 
 ---
 
@@ -24,6 +25,27 @@ ht-degree: 1%
 <!-- markdownlint-enable MD034 -->
 
 De Analysevoorraad biedt een uitgebreid overzicht van uw Adobe Analytics-omgeving, inclusief het aantal projecten en componenten, rapportsuites, gebruikers en nog veel meer. Deze informatie is met name van belang wanneer u voorbereidingen treft voor de upgrade naar Customer Journey Analytics.
+
+Het doel van deze toepassing is om u te helpen de volgende vragen beantwoorden:
+
+* Voor uw organisatie, welke activa (zoals rapportsuites, segmenten, gebruikers, werkruimteprojecten, gegevensvoer, etc.) moet u bevorderen en welke activa kunt u achterlaten?
+
+* Nadat u hebt bepaald welk element moet worden gemigreerd:
+
+   * Wilt u de middelen opschonen voordat u de upgrade uitvoert?
+
+   * Moet u een of andere consolidatie van bedrijfsmiddelen uitvoeren als onderdeel van het proces?
+
+   * Wat zou de verbeteringsopeenvolging voor uw activa moeten zijn?
+
+   * Welke groep rapportsuites zou u eerst bevorderen? laatst?
+
+## Access Analytics Inventory
+
+De voorraad Analytics is zowel beschikbaar in het menu **[!UICONTROL Admin]** als in het menu-item **[!UICONTROL All admin]** .
+
+    ![het menu van de Inventaris van de Analyse] (assets/an-inventory-menu.png) 
+
 
 ## Onderdelen {#components}
 
@@ -59,5 +81,3 @@ De Analysevoorraad biedt een uitgebreid overzicht van uw Adobe Analytics-omgevin
 >abstract="In deze sectie wordt het aantal gebruikers in uw Adobe Analytics-omgeving weergegeven."
 
 <!-- markdownlint-enable MD034 -->
-
-
