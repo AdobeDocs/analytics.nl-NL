@@ -6,9 +6,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
+source-git-commit: fe1074403992c1dd28778f279cafe4e557dfe4fd
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ Het doel van deze toepassing is om u te helpen de volgende vragen beantwoorden:
 
 ## Access Analytics Inventory
 
-De voorraad Analytics is zowel beschikbaar in het menu **[!UICONTROL Admin]** als in het menu-item **[!UICONTROL All admin]** .
+[!UICONTROL Analytics Inventory] is zowel beschikbaar in het menu **[!UICONTROL Admin]** als in het menu-item **[!UICONTROL All admin]** .
 
-    ![het menu van de Inventaris van de Analyse] (assets/an-inventory-menu.png) 
+![ Analytics-Inventory-menu ](assets/an-inventory-menu.png)
 
 
 ## Onderdelen {#components}
