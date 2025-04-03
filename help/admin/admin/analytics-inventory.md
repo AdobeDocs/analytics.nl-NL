@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
+source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 2%
+source-wordcount: '719'
+ht-degree: 1%
 
 ---
 
@@ -32,13 +32,13 @@ Het doel van deze toepassing is om u te helpen de volgende vragen beantwoorden:
 
 * Nadat u hebt bepaald welk element moet worden gemigreerd:
 
-   * Moet u vóór deze upgrade wat activa opruimen?
+   * Wilt u de middelen opschonen voordat u de upgrade uitvoert?
 
-   * Moet u wat activaconsolidatie doen als onderdeel van het proces?
+   * Moet u een of andere consolidatie van bedrijfsmiddelen uitvoeren als onderdeel van het proces?
 
-   * Wat moet de upgradevolgorde zijn voor uw activa?
+   * Wat zou de verbeteringsopeenvolging voor uw activa moeten zijn?
 
-   * Welke groep rapportsuites moet u als eerste upgraden? laatst?
+   * Welke groep rapportsuites zou u eerst bevorderen? laatst?
 
 ## Machtigingen
 
@@ -54,9 +54,13 @@ De Inventaris van de Analyse is beschikbaar aan gebruikers met de voorrechten va
 
    ![ Hoofd inventarisscherm ](assets/an_inventory.png)
 
->[!IMPORTANT]
->
->   In deze eerste versie ziet u overzichtsnummers voor Workspace-projecten, Segmenten, Berekende metriek, Geavanceerde (Media Analytics) gegevens en Gebruikers. Momenteel zijn alleen rapportsuites mogelijk.
+   Specifiek, dit schermoppervlakken
+
+   * Het totale aantal Analysis Workspace- en Mobile Scorecard-projecten dat onder deze organisatie actief is voor alle gebruikers.
+   * Het totale aantal segmenten en berekende metriek die onder deze organisatie over alle gebruikers actief zijn.
+   * Het totale aantal basisrapportsuites dat is gedefinieerd (virtuele rapportsuites worden niet opgenomen).
+   * Als de functie Media Analytics actief is en als dat het geval is, in welke modus.
+   * Het totale aantal gebruikers dat in die organisatie is gedefinieerd.
 
 
 ## Onderdelen {#components}
@@ -83,23 +87,32 @@ In deze aanvankelijke versie, kunt u samenvattingsinventarisaantallen voor de pr
 
 <!-- markdownlint-enable MD034 -->
 
-### Rapportsuites analyseren
+### Reeksen rapporteren
 
-1. Als u rapportsuites wilt analyseren en wilt beslissen welke u wilt migreren, navigeert u naar **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** en klikt u op **[!UICONTROL Analyze]**.
+In de weergave met de rapportsuites worden alle in een organisatie gedefinieerde rapportsuites weergegeven. U kunt de volgende vragen beantwoorden:
 
-   ![Lijst van rapportsuites](assets/an_inv_rs.png)
+* Welke rapportsuites hebben de afgelopen 90 dagen het zwaarst getroffen?
+* Welke rapportsuites hebben de afgelopen 90 dagen geen treffer ontvangen?
+* Welke rapportsuites hebben het grootste aantal bepaalde dimensie?
+* Welke rapportsuites hebben het grootste aantal bepaalde metriek?
+
+De antwoorden op deze vragen zullen u een goed idee geven van welke verslagen de beste kandidaten voor migratie zijn.
+
+1. Als u rapportsuites wilt analyseren, navigeert u naar **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** en klikt u op **[!UICONTROL Analyze]** .
+
+   ![ Lijst van rapportsuites ](assets/an_inv_rs.png)
 
    | Element | Beschrijving |
    | --- | --- |
    | Naam | De naam van de rapportsuite |
    | ID | De rapportsuite-id (rsid). Hiermee geeft u een unieke id op die alleen alfanumerieke tekens mag bevatten. Deze id kan na het maken niet meer worden gewijzigd. Adobe stelt het vereiste ID-voorvoegsel in en kan dit ook niet wijzigen. |
-   | Voorvallen (afgelopen 90 dagen) |  |
-   | Metrics | Hoe |
-   | Dimensies |  |
-   | Analyse voor doel (A4T) ingeschakeld |  |
-   | Marketingkanalen ingeschakeld |  |
-   | Source Connector ingeschakeld | Om te volgen |
-   | Kalender Type | Raadpleeg Aangepaste agenda&#39;s voor meer informatie [](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Voorvallen (afgelopen 90 dagen) | Hoeveel treffers heeft deze rapportsuite in de afgelopen 90 dagen ontvangen? |
+   | Metrics | Hoeveel metriek worden bepaald in deze rapportreeks? |
+   | Dimensies | Hoeveel dimensies worden gedefinieerd in dit rapportpakket? |
+   | Analyse voor doel (A4T) ingeschakeld | Is deze rapportreeks wordt toegelaten voor [ Analytics voor Doel ](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Marketingkanalen ingeschakeld | Is deze rapportreeks wordt toegelaten voor [ de Kanalen van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+   | Source Connector ingeschakeld | [ In ontwikkeling ] wordt deze rapportreeks toegelaten voor de [ Schakelaar van Adobe Analytics Source voor rapportreeksgegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? Met andere woorden, kan dit rapportenpakket naar Customer Journey Analytics worden gemigreerd via de Analytics Source Connector? |
+   | Type agenda | Voor meer informatie, verwijs naar [ Douane Kalenders ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 1. Let op:..
 
