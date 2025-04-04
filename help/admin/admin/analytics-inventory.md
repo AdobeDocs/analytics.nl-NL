@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: f3fdc81da50fffcc6dc581b07b384836d24c444a
+source-git-commit: fdbc4c0155936375be036bd92722240e27869b11
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 1%
+source-wordcount: '999'
+ht-degree: 2%
 
 ---
 
@@ -91,8 +91,8 @@ In deze aanvankelijke versie, kunt u samenvattingsinventarisaantallen voor de pr
 
 In de weergave met de rapportsuites worden alle in een organisatie gedefinieerde rapportsuites weergegeven. U kunt de volgende vragen beantwoorden:
 
-* Welke rapportsuites hebben de afgelopen 90 dagen het zwaarst getroffen?
-* Welke rapportsuites hebben de afgelopen 90 dagen geen treffer ontvangen?
+* Welke rapportsuites hebben de meeste treffers in de afgelopen 90 dagen ontvangen?
+* Welke rapportsuites hebben de afgelopen 90 dagen geen treffers ontvangen?
 * Welke rapportsuites hebben het grootste aantal bepaalde dimensie?
 * Welke rapportsuites hebben het grootste aantal bepaalde metriek?
 
@@ -126,9 +126,16 @@ Dit scherm verstrekt een gedetailleerde mening van alle dimensies die voor een s
 * Welke afmetingen zijn ingeschakeld voor deze rapportsuite?
 * Wat zijn de top tien afmetingspunten voor de laatste 90 dagen voor deze afmeting?
 
-1. Klik op de koppeling Dimensie op de pagina Rapportsuite.
+1. Klik op de koppeling **[!UICONTROL Dimensions]** op de pagina Rapportsuite.
 
+   | Element | Beschrijving |
+   | --- | --- |
+   | Naam | De naam van de dimensie |
+   | ID | De dimensie-id. |
+   | Type | Het type dimensie. Mogelijke waarden zijn onder andere Omzetten, Verkeer, Navigatie, Verkeersbronnen, Klanten, Datum of Adobe-productspecifieke afmetingen, zoals AEM, Publiek, Adobe Campaign, Mobiele app, enz. |
+   | Beschrijving | Niet alle dimensies hebben beschrijvingen. |
 
+1. Bepaal welke dimensies handig zijn om te migreren naar CJA.
 
 
 #### Metrische gegevens analyseren
@@ -138,16 +145,32 @@ Dit scherm verstrekt een gedetailleerde die mening van alle metriek voor een spe
 * Welke metriek worden toegelaten voor deze rapportreeks?
 * Wat zijn de top tien van metriek de afgelopen 90 dagen?
 
+1. Klik op de koppeling **[!UICONTROL Metrics]** op de pagina Rapportsuite.
 
+
+   | Element | Beschrijving |
+   | --- | --- |
+   | Naam | De naam van metrisch |
+   | ID | De metrische id. |
+   | Type | Het type metrisch. Mogelijke waarden zijn onder andere Omzetten, Verkeer, Navigatie, Verkeersbronnen, Klanten, Datum of Adobe-productspecifieke afmetingen, zoals AEM, Publiek, Adobe Campaign, Mobiele app, enz. |
+   | Beschrijving | Niet alle dimensies hebben beschrijvingen. |
+
+1. Bepaal welke maatstaven handig zijn voor migratie naar CJA.
 
 #### Exporteren naar CSV
 
-1. Als u de lijst met rapportsuites wilt exporteren naar een CSV-bestand, klikt u op **[!UICONTROL Export to CSV]** .
+1. Klik op **[!UICONTROL Export to CSV]** als u de lijst met rapportsuites, afmetingen of metriek wilt exporteren naar een CSV-bestand.
 
 1. Het .csv-bestand wordt weergegeven in de map Downloads.
 
 1. Open en sla deze op met een spreadsheettoepassing op uw apparaat.
 
+#### Filteren, zoeken, ordenen en navigeren
+
+* U kunt de tabel doorzoeken.
+* Klik in de linkertrack op het pictogram Filter om te filteren op &quot;Type&quot;. Of klik op **[!UICONTROL Hide Filter]** .
+* U kunt alle kolommen in oplopende of aflopende volgorde rangschikken (alleen enkele kolomvolgorde).
+* U kunt op items in de broodkruimel klikken om naar een ander scherm te navigeren.
 
 ## Gebruikersbeheer {#user-management}
 
