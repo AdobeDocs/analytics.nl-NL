@@ -6,9 +6,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
+source-git-commit: f3fdc81da50fffcc6dc581b07b384836d24c444a
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -98,6 +98,11 @@ In de weergave met de rapportsuites worden alle in een organisatie gedefinieerde
 
 De antwoorden op deze vragen zullen u een goed idee geven van welke verslagen de beste kandidaten voor migratie zijn.
 
+>[!NOTE]
+>
+>Deze tabel wordt langzaam gevuld, één celwaarde tegelijk.
+
+
 1. Als u rapportsuites wilt analyseren, navigeert u naar **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** en klikt u op **[!UICONTROL Analyze]** .
 
    ![ Lijst van rapportsuites ](assets/an_inv_rs.png)
@@ -109,14 +114,33 @@ De antwoorden op deze vragen zullen u een goed idee geven van welke verslagen de
    | Voorvallen (afgelopen 90 dagen) | Hoeveel treffers heeft deze rapportsuite in de afgelopen 90 dagen ontvangen? |
    | Metrics | Hoeveel metriek worden bepaald in deze rapportreeks? |
    | Dimensies | Hoeveel dimensies worden gedefinieerd in dit rapportpakket? |
-   | Analyse voor doel (A4T) ingeschakeld | Is deze rapportreeks wordt toegelaten voor [ Analytics voor Doel ](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
-   | Marketingkanalen ingeschakeld | Is deze rapportreeks wordt toegelaten voor [ de Kanalen van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+   | Analyse voor doel (A4T) ingeschakeld | Is deze rapportreeks toegelaten voor [ Analytics voor Doel ](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Marketingkanalen ingeschakeld | Is deze rapportreeks toegelaten voor [ de Kanalen van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
    | Source Connector ingeschakeld | [ In ontwikkeling ] wordt deze rapportreeks toegelaten voor de [ Schakelaar van Adobe Analytics Source voor rapportreeksgegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? Met andere woorden, kan dit rapportenpakket naar Customer Journey Analytics worden gemigreerd via de Analytics Source Connector? |
    | Type agenda | Voor meer informatie, verwijs naar [ Douane Kalenders ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
-1. Let op:..
+#### Afmetingen analyseren
 
-### Exporteren naar CSV
+Dit scherm verstrekt een gedetailleerde mening van alle dimensies die voor een specifieke rapportreeks worden bepaald. In deze weergave kunt u de volgende vragen beantwoorden:
+
+* Welke afmetingen zijn ingeschakeld voor deze rapportsuite?
+* Wat zijn de top tien afmetingspunten voor de laatste 90 dagen voor deze afmeting?
+
+1. Klik op de koppeling Dimensie op de pagina Rapportsuite.
+
+
+
+
+#### Metrische gegevens analyseren
+
+Dit scherm verstrekt een gedetailleerde die mening van alle metriek voor een specifieke rapportreeks wordt bepaald. In deze weergave kunt u de volgende vragen beantwoorden:
+
+* Welke metriek worden toegelaten voor deze rapportreeks?
+* Wat zijn de top tien van metriek de afgelopen 90 dagen?
+
+
+
+#### Exporteren naar CSV
 
 1. Als u de lijst met rapportsuites wilt exporteren naar een CSV-bestand, klikt u op **[!UICONTROL Export to CSV]** .
 
