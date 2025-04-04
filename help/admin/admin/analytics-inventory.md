@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fdbc4c0155936375be036bd92722240e27869b11
+source-git-commit: f9bbb764ab34310e575a308110f84270ee9d665a
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 2%
+source-wordcount: '1014'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 2%
 
 De Analysevoorraad biedt een uitgebreid overzicht van uw Adobe Analytics-omgeving, inclusief het aantal projecten en componenten, rapportsuites, gebruikers en nog veel meer. Deze informatie is met name van belang wanneer u voorbereidingen treft voor de upgrade naar Customer Journey Analytics.
 
-Het doel van deze toepassing is om u te helpen de volgende vragen beantwoorden:
+Het doel van Analytics-inventarisatie is om u te helpen de volgende vragen te beantwoorden:
 
-* Voor uw organisatie, welke activa (zoals rapportsuites, segmenten, gebruikers, werkruimteprojecten, gegevensvoer, etc.) moet u bevorderen en welke activa kunt u achterlaten?
+* Voor uw organisatie, welke activa (zoals rapportsuites, segmenten, gebruikers, werkruimteprojecten, gegevensvoer, etc.) moet u migreren en welke activa kunt u achterlaten?
 
 * Nadat u hebt bepaald welk element moet worden gemigreerd:
 
@@ -38,7 +38,7 @@ Het doel van deze toepassing is om u te helpen de volgende vragen beantwoorden:
 
    * Wat zou de verbeteringsopeenvolging voor uw activa moeten zijn?
 
-   * Welke groep rapportsuites zou u eerst bevorderen? laatst?
+   * Welke rapportsuites moet u eerst of het laatst bevorderen?
 
 ## Machtigingen
 
@@ -54,13 +54,13 @@ De Inventaris van de Analyse is beschikbaar aan gebruikers met de voorrechten va
 
    ![ Hoofd inventarisscherm ](assets/an_inventory.png)
 
-   Specifiek, dit schermoppervlakken
+   Dit scherm toont met name:
 
-   * Het totale aantal Analysis Workspace- en Mobile Scorecard-projecten dat onder deze organisatie actief is voor alle gebruikers.
-   * Het totale aantal segmenten en berekende metriek die onder deze organisatie over alle gebruikers actief zijn.
-   * Het totale aantal basisrapportsuites dat is gedefinieerd (virtuele rapportsuites worden niet opgenomen).
+   * Het totale aantal Analysis Workspace- en Mobile Scorecard-projecten dat onder deze organisatie actief is, voor alle gebruikers.
+   * Het totale aantal segmenten en berekende metriek die onder deze organisatie, over alle gebruikers actief zijn.
+   * Het totale aantal basisrapportsuites dat is gedefinieerd. Virtuele rapportsuites zijn niet inbegrepen.
    * Als de functie Media Analytics actief is en als dat het geval is, in welke modus.
-   * Het totale aantal gebruikers dat in die organisatie is gedefinieerd.
+   * Het totale aantal gebruikers dat is gedefinieerd in deze organisatie.
 
 
 ## Onderdelen {#components}
@@ -111,7 +111,7 @@ De antwoorden op deze vragen zullen u een goed idee geven van welke verslagen de
    | --- | --- |
    | Naam | De naam van de rapportsuite |
    | ID | De rapportsuite-id (rsid). Hiermee geeft u een unieke id op die alleen alfanumerieke tekens mag bevatten. Deze id kan na het maken niet meer worden gewijzigd. Adobe stelt het vereiste ID-voorvoegsel in en kan dit ook niet wijzigen. |
-   | Voorvallen (afgelopen 90 dagen) | Hoeveel treffers heeft deze rapportsuite in de afgelopen 90 dagen ontvangen? |
+   | Voorvallen (afgelopen 90 dagen) | De metrische waarde &#39;Voorkomt&#39; toont het aantal treffers waar een bepaalde dimensie is ingesteld of geduurd. Hoeveel treffers heeft deze rapportsuite in de afgelopen 90 dagen ontvangen? |
    | Metrics | Hoeveel metriek worden bepaald in deze rapportreeks? |
    | Dimensies | Hoeveel dimensies worden gedefinieerd in dit rapportpakket? |
    | Analyse voor doel (A4T) ingeschakeld | Is deze rapportreeks toegelaten voor [ Analytics voor Doel ](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
