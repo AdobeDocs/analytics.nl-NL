@@ -4,9 +4,9 @@ title: Analytische inventarisatie
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: bab2bf61a2cf03f3e2b809d6383503b0c9bd5a36
+source-git-commit: 1a6f086105c76cbfcf361ddc54d71a7e7c4921d5
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1162'
 ht-degree: 1%
 
 ---
@@ -157,7 +157,7 @@ Dit scherm verstrekt een gedetailleerde die mening van alle metriek voor een spe
 
 1. Bepaal welke maatstaven handig zijn voor migratie naar CJA.
 
-#### Exporteren naar CSV
+### Exporteren naar CSV
 
 1. Klik op **[!UICONTROL Export to CSV]** als u de lijst met rapportsuites, afmetingen of metriek wilt exporteren naar een CSV-bestand.
 
@@ -170,7 +170,7 @@ Dit scherm verstrekt een gedetailleerde die mening van alle metriek voor een spe
 >Items en kolommen die worden uitgefilterd, worden niet naar het CSV-bestand geëxporteerd.
 
 
-#### Filteren, zoeken, ordenen en navigeren
+### Filteren, zoeken, ordenen en navigeren
 
 * U kunt de tabel doorzoeken.
 * Klik in de linkertrack op het pictogram Filter om te filteren op &quot;Type&quot;. Of klik op **[!UICONTROL Hide Filter]** .
@@ -189,3 +189,13 @@ Dit scherm verstrekt een gedetailleerde die mening van alle metriek voor een spe
 <!-- markdownlint-enable MD034 -->
 
 Gebruikersbeheer is beschikbaar in een latere versie van het Analytics-overzicht.
+
+## Componenten migreren
+
+Gebruikend [ de Migratie van de Component ](/help/admin/admin/component-migration/component-migration.md), kunnen de beheerders van Adobe Analytics projecten van Analytics en hun bijbehorende componenten aan Customer Journey Analytics migreren.
+
+Het migratieproces omvat:
+
+* Adobe Analytics-projecten opnieuw maken in Customer Journey Analytics.
+
+* Mapping dimensies and metrics from Adobe Analytics report suites to afmetingen and metrics in Customer Journey Analytics data views.
