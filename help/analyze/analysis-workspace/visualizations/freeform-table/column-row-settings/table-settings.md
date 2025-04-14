@@ -5,9 +5,9 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 6d6a7587fc4a41be1e7ad33d3ed0280b0d82d47c
+source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -89,3 +89,7 @@ De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u e
 | **[!UICONTROL Create annotation from selection]** | Open **[!UICONTROL Annotation details]** om een annotatie toe te voegen. |
 | **[!UICONTROL Create filter from selection]** | Open **[!UICONTROL Filter builder]** om een filter van de selectie te bouwen. |
 | **[!UICONTROL Create audience from selection]** | Open het dialoogvenster **[!UICONTROL Create audience]** om een publiek te maken op basis van de selectie. |
+
+## Rijhoogte wijzigen
+
+U kunt de weergavedichtheid van een project instellen op **[!UICONTROL Compact]** , **[!UICONTROL Comfortable]** en **[!UICONTROL Expanded]** . [ leer meer ](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
