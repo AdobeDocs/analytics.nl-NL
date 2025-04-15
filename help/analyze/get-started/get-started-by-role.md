@@ -3,7 +3,7 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: Aan de slag voor beheerders, analisten, eindgebruikers en ontwikkelaars
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 5%
@@ -14,19 +14,19 @@ ht-degree: 5%
 
 Er zijn vier typen Adobe Analytics-gebruikers in een organisatie die doorgaans werkt:
 
-* **Beheerders:** voer en vorm Adobe Analytics uit.
+* **Beheerders:** Adobe Analytics implementeren en configureren.
 
-* **Analysts:** de projecten van de opstelling en creeer analyses gebruikend Analysis Workspace
+* **Analisten:** projecten instellen en analyses maken met behulp van Analysis Workspace
 
-* **Eind - gebruikers:** verkrijgt actionable inzicht over hun klanten, of door hun eigen analyses te creëren of met analisten te werken om hen tot stand te brengen
+* **Eindgebruikers:** Verkrijg bruikbare inzichten over hun klanten, door hun eigen analyses te maken of door samen te werken met analisten om ze te maken
 
-* **Ontwikkelaars:** gebruik Adobe Analytics 2.0 APIs om de servers van de Adobe direct te roepen om bijna om het even welke actie uit te voeren die in het gebruikersinterface kan worden uitgevoerd, zoals het creëren van rapporten om te onderzoeken, inzichten te krijgen, of belangrijke vragen over gegevens te beantwoorden.
+* **Ontwikkelaars:** gebruik de Adobe Analytics 2.0 API&#39;s om de servers van Adobe rechtstreeks aan te roepen om bijna elke actie uit te voeren die in de gebruikersinterface kan worden uitgevoerd, zoals het maken van rapporten om te verkennen, inzichten te verkrijgen of belangrijke vragen over gegevens te beantwoorden.
 
-De informatie hieronder schetst hoe elk van deze gebruikers met Adobe Analytics kan beginnen.
+In de onderstaande informatie wordt beschreven hoe elk van deze gebruikers aan de slag kan gaan met Adobe Analytics.
 
-## Aan de slag met beheerders
+## Aan de slag voor beheerders
 
-Analysebeheerders zijn verantwoordelijk voor het kiezen van de implementatiemethode die het meest geschikt is voor hun organisatie.
+Analytics-beheerders zijn verantwoordelijk voor het kiezen van de implementatiemethode die het meest geschikt is voor hun organisatie.
 
 Nadat Adobe Analytics is geïmplementeerd, moeten beheerders verschillende configuratietaken uitvoeren om ervoor te zorgen dat analisten en eindgebruikers de volledige waarde van Adobe Analytics krijgen. Beheerders moeten ook regelmatig toezicht houden op hun analyseomgeving om ervoor te zorgen dat het systeem efficiënt werkt.
 
@@ -38,7 +38,7 @@ Hieronder vindt u een aantal ondersteunde kanalen waarop gegevens kunnen worden 
 
 * Mobiele telefoons
 
-* Het internet van de dingen
+* Het internet der dingen
 
 * TV
 
@@ -48,71 +48,71 @@ Hieronder vindt u een aantal ondersteunde kanalen waarop gegevens kunnen worden 
 
 * En meer (er worden regelmatig nieuwe ondersteunde kanalen toegevoegd)
 
-De [ implementatiemethode ](https://experienceleague.adobe.com/docs/analytics/implementation/home.html) u kiest bepaalt het type van gegevens dat kan worden verzameld.
+De [implementatiemethode](https://experienceleague.adobe.com/docs/analytics/implementation/home.html) die u kiest, bepaalt het type gegevens dat kan worden verzameld.
 
 ### Adobe Analytics implementeren
 
-Er zijn verschillende implementatiemethoden beschikbaar wanneer u Adobe Analytics implementeert op uw website of mobiele app.
+Er zijn verschillende implementatiemethoden beschikbaar bij het implementeren van Adobe Analytics op uw website of mobiele app.
 
-Voor informatie over elke beschikbare methode, zie [ Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/implementation/home.html) uitvoeren.
+Zie [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html) implementeren voor meer informatie over elke beschikbare methode.
 
 | | Implementatiemethoden |
 |---------|---------|
-| **Websites** | <ul><li>Web SDK-extensie (aanbevolen)</li><li>Web SDK</li><li>Extensie Analytics</li><li>Legacy JavaScript</li></ul> |
+| **Websites** | <ul><li>Web-SDK-extensie (aanbevolen)</li><li>Web SDK</li><li>Extensie Analytics</li><li>Legacy JavaScript</li></ul> |
 | **Mobiele apps** | <ul><li>Mobile SDK-extensie (aanbevolen)</li><li>Extensie Analytics</li></ul> |
 
 {style="table-layout:auto"}
 
 ### Adobe Analytics configureren
 
-Analysebeheerders moeten de volgende taken uitvoeren voordat ze Adobe Analytics beschikbaar maken voor gebruikers in de organisatie:
+Analytics-beheerders moeten de volgende taken uitvoeren voordat ze Adobe Analytics beschikbaar maken voor gebruikers in de organisatie:
 
 | Taak | Beoogd gebruik | Meer informatie |
 |---------|----------|---------|
-| Beheerdersrollen definiëren | Adobe Analytics ondersteunt verschillende typen beheerders | [ de rollen van de Beheerder in Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/admin-roles-in-analytics.html) |
-| Machtigingen definiëren | Analysebeheerders moeten productprofielen toewijzen in de Admin Console voor Adobe Analytics, Report Suite Tools en Analytics Tools. | [ Toestemmingen van Analytics in de Admin Console ](/help/admin/admin-console/permissions/analytics-tools.md) |
-| Stel rapportsuites in en definieer instellingen voor uw bedrijf | Een rapportenreeks is een silo van gegevens die Adobe Analytics gebruikt om rapporten te produceren.<p>De beheerders kunnen opstelling [ virtuele rapportreeksen ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html) ook aan verdere segmentgegevens.</p> | <ul><li>[Een rapportsuite maken](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html)</li><li>[ Overzicht van de Montages van het Bedrijf ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html)</li></ul> |
-| Gegevens importeren | Met Adobe Analytics-gegevensbronnen kunt u extra online- of offlinegegevens importeren voor rapportage. | [ Overzicht van gegevensbronnen ](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html) |
-| Gegevens classificeren met classificaties | Met classificaties kunt u gegevens classificeren om beter gebruik te maken van variabelen, zodat u meer inhoud in één variabele kunt opnemen. | [ Overzicht van Classificaties ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) |
-| Componenten beheren | Gebruik het Woordenboek van Gegevens en de beheersgebieden voor elk componenttype om te bepalen welke componenten in uw implementatie van Analytics beschikbaar zijn, evenals die voor uw organisatie worden goedgekeurd.<p>Dit zou een voortdurende activiteit moeten zijn om ervoor te zorgen dat de componenten effectief in uw organisatie worden gebruikt. </p> | <ul><li>[ Overzicht van het Woordenboek van Gegevens ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html)</li><li>[ Berekende metriekmanager ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)</li><li>[ beheert plaatsen ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html)</li><li>[Aangepaste datumbereiken maken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)</li></ul> |
-| Anomalische detectie | Anomaly Detection biedt een statistische methode om te bepalen hoe een bepaalde metrische waarde is gewijzigd ten opzichte van eerdere gegevens. | [Overzicht van anomaliedetectie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| Bijdrage-analyse | De Analyse van de bijdrage ontdekt verborgen patronen binnen uw gegevens om statistische anomalieën te verklaren en correlaties achter onverwachte klantenacties, uit-van-verbindende waarden, en plotselinge pieken of vallen voor geselecteerde metriek over convergent publiekssegmenten te identificeren. | [Overzicht van bijdrageanalyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| Segmentatie van analyse | Hiermee kunt u krachtige, doelgerichte publiekssegmenten maken, beheren, delen en toepassen op uw rapporten met behulp van de analysemogelijkheden, de Adobe Experience Cloud, Adobe Target en andere producten voor geïntegreerde Adobe. | [Analytics-segmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
-| Publish-publiek naar Audience Manager | Adobe Audience Manager is een krachtig platform voor gegevensbeheer waarmee u unieke publieksprofielen kunt maken van de integratie van gegevens van eerste, tweede (partner) en andere bedrijven. | [Overzicht van Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
-| Integraties | U kunt informatie uit andere toepassingen in Adobe Analytics oppervlakken. <p>Hieronder vindt u een aantal algemene integraties:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html"> Analytics voor Doel </a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html"> de het stromen Inzameling van Media </a></li> | [Analytics Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html) |
+| Beheerdersrollen definiëren | Adobe Analytics ondersteunt verschillende soorten beheerders | [Beheerdersrollen in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/admin-roles-in-analytics.html) |
+| Machtigingen definiëren | Analysebeheerders moeten productprofielen toewijzen in de Admin Console for Adobe Analytics, Report Suite Tools en Analytics Tools. | [ Toestemmingen van Analytics in Admin Console ](/help/admin/admin-console/permissions/analytics-tools.md) |
+| Stel rapportsuites in en definieer instellingen voor uw bedrijf | Een rapportenreeks is een silo van gegevens die Adobe Analytics gebruikt om rapporten te produceren.<p>Beheerders kunnen ook virtuele rapportsuites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html) instellen [om gegevens verder te segmenteren.</p> | <ul><li>[Een rapportsuite maken](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html)</li><li>[Overzicht bedrijfsinstellingen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html)</li></ul> |
+| Gegevens importeren | Met Adobe Analytics-gegevensbronnen kunt u aanvullende online of offline gegevens importeren voor rapportage. | [Overzicht van gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html) |
+| Gegevens classificeren met classificaties | Met classificaties kunt u gegevens classificeren om beter gebruik te maken van variabelen, zodat u meer inhoud in één variabele kunt opnemen. | [Overzicht van classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) |
+| Onderdelen beheren | Gebruik de gegevenswoordenlijst en de beheergebieden voor elk onderdeeltype om te bepalen welke onderdelen beschikbaar zijn in uw Analytics-implementatie en welke zijn goedgekeurd voor uw organisatie.<p>Dit moet een doorlopende activiteit zijn om ervoor te zorgen dat componenten effectief worden gebruikt in uw organisatie. </p> | <ul><li>[Overzicht van gegevenswoordenboek](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html)</li><li>[ Berekende metriekmanager ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)</li><li>[ beheert plaatsen ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html)</li><li>[Aangepaste datumbereiken maken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)</li></ul> |
+| Anomalische detectie | Anomaly Detection biedt een statistische methode om te bepalen hoe een bepaalde statistiek is veranderd ten opzichte van eerdere gegevens. | [Overzicht van anomaliedetectie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| Bijdrage analyse | Bijdrageanalyse ontdekt verborgen patronen in uw gegevens om statistische afwijkingen te verklaren en correlaties te identificeren achter onverwachte klantacties, niet-uitgaande waarden en plotselinge pieken of dalen voor geselecteerde statistieken in convergente doelgroepsegmenten. | [Overzicht van bijdrageanalyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
+| Analytische segmentatie | Hiermee kunt u krachtige, gerichte doelgroepsegmenten bouwen, beheren, delen en toepassen op uw rapporten met behulp van Analytics-mogelijkheden, de Adobe Experience Cloud, Adobe Target en andere geïntegreerde Adobe-producten. | [Analytics-segmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
+| Publiceer publiek naar Audience Manager | Adobe Audience Manager is een krachtig platform voor gegevensbeheer waarmee u unieke publieksprofielen kunt maken van de integratie van gegevens van eerste, tweede (partner) en andere bedrijven. | [Overzicht van Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
+| Integraties | U kunt informatie uit andere toepassingen ophalen in Adobe Analytics. <p>Hieronder volgen enkele veelvoorkomende integraties:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html"> Analytics voor Doel </a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html">De collectie streaming media</a></li> | [Analytics Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html) |
 
 {style="table-layout:auto"}
 
-### Monitor Adobe Analytics
+### Adobe Analytics bewaken
 
-Er zijn verschillende functies beschikbaar waarmee u uw Adobe Analytics-omgeving kunt bewaken.
+Er zijn verschillende functies beschikbaar om u te helpen bij het bewaken van uw Adobe Analytics-omgeving.
 
-De beheerders van Analytics zouden zich van de volgende eigenschappen beschikbaar moeten bewust zijn helpen belangrijke aspecten van uw milieu van Analytics controleren:
+Analytics-beheerders moeten op de hoogte zijn van de volgende functies die beschikbaar zijn om belangrijke aspecten van uw Analytics-omgeving te monitoren:
 
 | Taak | Beoogd gebruik | Meer informatie |
 |---------|----------|---------|
-| Activity Manager rapporteren | De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke rapportreeks in uw organisatie zien. Het biedt gedetailleerde zichtbaarheid in het rapporteren van verbruik en helpt u om capaciteitsproblemen tijdens piekrapportagetijden eenvoudig te diagnosticeren en te verhelpen. | [ Meldend Manager van de Activiteit ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html) |
-| Gebruik van serveroproepen | Een serveraanroep, ook wel een &quot;hit&quot; of een &quot;verzoek om een afbeelding&quot; genoemd, is een instantie waarin gegevens naar Adobe servers worden verzonden om te worden verwerkt. Een dashboard van het Gebruik van de Vraag van de Server is beschikbaar dat uw gegevens van het de vraagverbruik van de server bijhoudt en het met uw contractuele grens vergelijkt. U kunt waarschuwingen instellen om overgangen te voorkomen. | [ overzicht van het Gebruik van de Vraag van de Server ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html) |
-| Logbestanden | Logbestanden waarmee u kunt zien wanneer gebruikers zich aanmelden, hoe ze deze gebruiken, gebruiken, gebruiken, gebruiken, rapporten met suites en Admin wijzigen. | [Logboeken](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html) |
+| Activiteitenbeheer voor rapportage | Met Reporting Activity Manager kunt u de rapportagecapaciteit voor elke rapportsuite in uw organisatie bekijken. Het biedt gedetailleerde zichtbaarheid in het rapporteren van verbruik en helpt u om capaciteitsproblemen tijdens piekrapportagetijden eenvoudig te diagnosticeren en te verhelpen. | [ Meldend Manager van de Activiteit ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html) |
+| Gebruik van serveroproepen | Een serveraanroep, ook wel een &quot;hit&quot; of &quot;image request&quot; genoemd, is een instantie waarin gegevens naar Adobe-servers worden verzonden om te worden verwerkt. Er is een dashboard voor het gebruik van serveroproepen beschikbaar dat uw verbruiksgegevens van serveroproepen bijhoudt en vergelijkt met uw contractuele limiet. U kunt waarschuwingen instellen om overschrijdingen te voorkomen. | [Overzicht van het gebruik van serveroproepen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html) |
+| Logbestanden | Logbestanden om u te helpen zien wanneer gebruikers zich aanmelden, hun gebruik, toegang, rapportsuites en beheerderswijzigingen. | [Logboeken](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html) |
 
 {style="table-layout:auto"}
 
-## Aan de slag met analisten
+## Aan de slag voor analisten
 
-Iedereen in een organisatie kan Adobe Analytics gebruiken om actioneerbare inzichten over klantengedrag over websites en apps te bereiken, maar Adobe Analytics is ontworpen met gegevensanalisten voor ogen.
+Hoewel iedereen in een organisatie Adobe Analytics kan gebruiken om bruikbare inzichten te verkrijgen over het gedrag van klanten op websites en in apps, is Adobe Analytics ontworpen met data-analisten in gedachten.
 
-Hier volgen enkele belangrijke taken en functies waarmee analisten vertrouwd moeten zijn om de volledige kracht van Adobe Analytics en Analysis Workspace te benutten.
+Hieronder volgen de belangrijkste taken en functies waarmee analisten bekend moeten zijn om de volledige kracht van Adobe Analytics en Analysis Workspace te benutten.
 
 | Functie | Beoogd gebruik | Meer informatie |
 |---------|----------|---------|
-| Projecten maken en delen in Analysis Workspace | Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt maken en inzichten kunt delen. Gebruikend de belemmering-en-dalingsinterface, kunt u uw analyse amberen, visualisaties toevoegen om gegevens aan het leven te brengen, een dataset te leiden, projecten met iedereen in uw organisatie te delen en te plannen.<p>Gegevensanalisten zijn vaak verantwoordelijk voor het maken van projecten in Analysis Workspace voor gebruikers binnen hun organisatie.</p><p>Nadat de projecten worden gecreeerd, delen de analisten die projecten met het [ eind gebruikers ](#end-users) (niet-analisten) in hun organisaties die om de gegevens verzochten en hen helpen begrijpen hoe te om het te interpreteren.</p> | <ul><li>[ creeer projecten ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)</li><li>[ de projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md)</li></ul> |
-| Attributie | De analisten kunnen aanpassen hoe de afmetingspunten krediet voor succesgebeurtenissen door diverse attributiemodellen en terugkijkvensters in Analysis Workspace te gebruiken krijgen.<p>Lineaire-attributiemodellen geven hetzelfde krediet aan elk aanraakpunt voorafgaand aan een conversie, terwijl First Touch het eerste aanraakpunt volledig crediteert. Er zijn veel andere toewijzingsmodellen beschikbaar, waaronder het Algorithmic-model, dat statistische technieken gebruikt om de optimale allocatie van krediet dynamisch te bepalen. </p> | [ modellen van de Attributie en raadplegingsvensters ](/help/analyze/analysis-workspace/attribution/models.md) |
-| Anomalische detectie | Statistische modellering in Analysis Workspace vindt automatisch onverwachte tendensen in uw gegevens door metriek te analyseren en een ondergrens, bovengrens, en verwachte waaier van waarden te bepalen. Wanneer een onverwachte punt of daling voorkomt, alarmeert het systeem u in het rapport. | [Overzicht van anomaliedetectie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| Bijdrage-analyse | Gebruik Analysis Workspace om verborgen patronen in uw gegevens te ontdekken om statistische anomalieën te verklaren en correlaties achter onverwachte klantenacties, uit-van-gebonden waarden, en plotselinge pieken of vallen voor metriek over publiekssegmenten te identificeren. | [ Analyse van de Bijdrage ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) in [ Anomaly Overzicht van de Opsporing ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| Waarschuwingen | Maak en beheer waarschuwingen op basis van gegevensanomalieën en &#39;gestapelde&#39; waarschuwingen die meerdere metriek in één waarschuwing vastleggen. | [ overzicht van het alarm ](/help/components/c-alerts/intellligent-alerts.md) |
-| Gegevens exporteren | Met Data Warehouse- en gegevensfeeds kunt u gegevens exporteren naar verschillende cloudinstellingen, zoals Google Cloud Platform, Azure RBAC, Azure SAS en Amazon S3. | [ Gids van de Uitvoer van Analytics ](https://experienceleague.adobe.com/docs/analytics/export/home.html) |
-| Activiteitenoverzicht | Activity Map is een Adobe Analytics-toepassing die is ontworpen om linkactiviteiten met behulp van visuele overlays te rangschikken en die een dashboard van realtime analyses biedt om de betrokkenheid van het publiek van uw webpagina&#39;s te controleren.<p>Met Activity Map kunt u verschillende weergaven instellen om visueel de versnelling van klantactiviteiten te identificeren, marketinginitiatieven te kwantificeren en op de behoeften en het gedrag van het publiek in te spelen.</p> | [ Activity Map ](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
-| Report Builder | Report Builder is een add-in voor Microsoft Excel. Met Report Builder kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens die in uw Excel-werkbladen worden ingevoegd. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft. | [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |
+| Projecten maken en delen in Analysis Workspace | Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt maken en inzichten kunt delen. Gebruikend de belemmering-en-dalingsinterface, kunt u uw analyse amberen, visualisaties toevoegen om gegevens aan het leven te brengen, een dataset te leiden, projecten met iedereen in uw organisatie te delen en te plannen.<p>Gegevensanalisten zijn vaak verantwoordelijk voor het maken van projecten in Analysis Workspace voor gebruikers binnen hun organisatie.</p><p>Nadat projecten zijn gemaakt, delen analisten die projecten met de [eindgebruikers](#end-users) (niet-analisten) in hun organisaties die de gegevens hebben opgevraagd en helpen ze hen te begrijpen hoe ze deze moeten interpreteren.</p> | <ul><li>[Projecten maken](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)</li><li>[Deel projecten](/help/analyze/analysis-workspace/curate-share/share-projects.md)</li></ul> |
+| Attributie | Analisten kunnen aanpassen hoe dimensie-items worden toegekend voor succesgebeurtenissen door gebruik te maken van verschillende attributiemodellen en terugblikperioden in Analysis Workspace.<p>Lineaire attributiemodellen geven evenveel krediet aan elk contactpunt dat leidt tot een conversie, terwijl First Touch volledig krediet geeft aan het eerste contactpunt. Er zijn veel andere attributiemodellen beschikbaar, waaronder het Algoritmische model, dat statistische technieken gebruikt om de optimale toewijzing van krediet dynamisch te bepalen. </p> | [Toeschrijvingsmodellen en overzichtsperioden](/help/analyze/analysis-workspace/attribution/models.md) |
+| Detectie van afwijkingen | Statistische modellering in Analysis Workspace vindt automatisch onverwachte trends in uw gegevens door metrische gegevens te analyseren en een ondergrens, bovengrens en verwacht bereik van waarden te bepalen. Wanneer er een onverwachte piek of daling optreedt, waarschuwt het systeem u in het rapport. | [Overzicht van anomaliedetectie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
+| Bijdrage analyse | Gebruik Analysis Workspace om verborgen patronen in uw gegevens te ontdekken om statistische anomalieën te verklaren en correlaties achter onverwachte klantenacties, uit-van-gebonden waarden, en plotselinge pieken of vallen voor metriek over publiekssegmenten te identificeren. | [ Analyse van de Bijdrage ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) in [ Anomaly Overzicht van de Opsporing ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
+| Waarschuwingen | Maak en beheer waarschuwingen op basis van gegevensafwijkingen en &#39;gestapelde&#39; waarschuwingen die meerdere metrische gegevens in één melding vastleggen. | [Overzicht van waarschuwingen](/help/components/c-alerts/intellligent-alerts.md) |
+| Gegevens exporteren | Met datawarehouse en datafeeds kunt u gegevens exporteren naar verschillende cloudbestemmingen, zoals Google Cloud Platform, Azure RBAC, Azure SAS en Amazon S3. | [Exportgids voor Analytics](https://experienceleague.adobe.com/docs/analytics/export/home.html) |
+| Kaart van de activiteiten | Activity Map is een Adobe Analytics-toepassing die is ontworpen om linkactiviteit te rangschikken met behulp van visuele overlays en een dashboard met realtime analyses te bieden om de betrokkenheid van het publiek op uw webpagina&#39;s te volgen.<p>Met Activity Map kunt u verschillende weergaven instellen om de versnelling van klantactiviteit visueel te identificeren, marketinginitiatieven te kwantificeren en te reageren op de behoeften en het gedrag van het publiek.</p> | [Activiteitenkaart](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
+| Report Builder | Report Builder is een invoegtoepassing voor Microsoft Excel. Met Report Builder kunt u aangepaste aanvragen maken op basis van Adobe Analytics-gegevens die in uw Excel-werkbladen worden ingevoegd. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft. | [Rapport Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
 <!-- * Realtime reporting? -->
 
@@ -124,29 +124,29 @@ Eindgebruikers die geen professionele analisten zijn, kunnen in hun organisatie 
 
 Meestal zijn gebruikers in een organisatie die meer willen weten over het gedrag van klanten op de verschillende sites, geen professionele analisten.
 
-Ideaal gezien, zouden deze gebruikers met [ analisten ](#analysts) binnen een organisatie moeten werken:
+Idealiter zouden deze gebruikers moeten samenwerken met [analisten](#analysts) binnen een organisatie om:
 
-1. Definieer de vereisten voor de analyses door aan de analist uit te leggen wat hij of zij van klanten wil leren.
+1. Definieer vereisten voor de analyses door aan de analist uit te leggen wat hij hoopt te weten te komen over klanten.
 
-1. Herzie de analyses om ervoor te zorgen dat zij aan de doelstellingen voldoen.
+1. Bekijk de analyses om er zeker van te zijn dat ze aan de doelstellingen voldoen.
 
-1. Bespreek de gegevens die bij de analyses zijn verkregen.
+1. Bespreek de gegevens die uit de analyses zijn verkregen.
 
-1. Wijzig de analyses naar wens in de loop van de tijd.
+1. Pas de analyses in de loop van de tijd zo nodig aan.
 
 ### Analyses maken in Analysis Workspace
 
-Je hoeft geen gegevensanalist te zijn om actioneerbare inzichten van Adobe Analytics te krijgen.
+Je hoeft geen data-analist te zijn om bruikbare inzichten uit Adobe Analytics te halen.
 
-Sommige gebruikers zouden het nuttig kunnen vinden om met een gegevensanalist te werken aan opstelling een project in Analysis Workspace en verklaren hoe te om de gegevens te interpreteren, zoals die in [ het Werk met analisten ](#work-with-analysts) worden beschreven; andere gebruikers zouden comfortabel het project kunnen bouwen en de gegevens zelf interpreteren.
+Sommige gebruikers vinden het misschien handig om samen te werken met een gegevensanalist om een project in te stellen in Analysis Workspace en uit te leggen hoe de gegevens moeten worden geïnterpreteerd, zoals beschreven in [Werken met analisten](#work-with-analysts); andere gebruikers kunnen zich op hun gemak voelen bij het bouwen van het project en het zelf interpreteren van de gegevens.
 
-Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en deze inzichten vervolgens met anderen te delen. Gebruikend belemmering-en-dalings browser interface, kunt u uw analyse amberen, visualisaties toevoegen om gegevens aan het leven te brengen, een dataset in werking te stellen, en projecten met iedereen te delen en te plannen u kiest.
+Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en deze inzichten vervolgens met anderen te delen. Met behulp van de browserinterface met slepen en neerzetten kunt u uw analyse maken, visualisaties toevoegen om gegevens tot leven te brengen, een gegevensset samenstellen en projecten delen en plannen met wie u maar wilt.
 
 Voor informatie over hoe te om analyses in Analysis Workspace tot stand te brengen, zie [ overzicht van Analysis Workspace ](/help/analyze/analysis-workspace/home.md).
 
 ## Aan de slag met ontwikkelaars
 
-[ Analytics APIs ](https://developer.adobe.com/analytics-apis/docs/2.0/) staat u toe om de servers van de Adobe direct te roepen om bijna om het even welke actie uit te voeren die u in het gebruikersinterface kunt uitvoeren.
+[ Analytics APIs ](https://developer.adobe.com/analytics-apis/docs/2.0/) staat u toe om de servers van Adobe direct te roepen om bijna om het even welke actie uit te voeren die u in het gebruikersinterface kunt uitvoeren.
 
 U kunt rapporten maken om te verkennen, inzichten op te halen of belangrijke vragen over uw gegevens te beantwoorden. U kunt ook componenten van Adobe Analytics beheren, zoals het maken van segmenten of berekende metriek.
 

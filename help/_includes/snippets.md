@@ -1,5 +1,5 @@
 ---
-source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Een nieuwe en gestroomlijnde [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) werd vrijgegeven op 16 oktober, 2024. Deze functie wordt ondersteund in Mac-, Windows- en webbrowsers.
+>Een nieuwe en gestroomlijnde [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) werd vrijgegeven op 16 oktober, 2024. Deze functie wordt ondersteund in Mac-, Windows- en webbrowsers.
 >Deze verouderde Report Builder-invoegtoepassing werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in nieuwe Report Builder omzetten.
 
 ## Rapporten &amp; Analytics-aankondiging aan het einde van de levensduur {#ra-eol}
@@ -69,8 +69,8 @@ Een attributiemodel bepaalt welke afmetingspunten krediet voor metrisch krijgen 
 
 | Pictogram | Attributiemodel | Definitie |
 | :---: | :--- | --- |
-| ![ Laatste aanraking ](/help/assets/icons/AttributeLastTouch.svg) | Laatste aanraking | Geeft 100% krediet aan het aanraakpunt dat het laatst voor de conversie optrad. Dit attributiemodel is doorgaans de standaardwaarde voor elke meting waarbij een attributiemodel niet op andere wijze is opgegeven. Organisaties gebruiken dit model doorgaans wanneer de conversietijd relatief kort is, zoals bij het analyseren van interne zoektrefwoorden. |
-| ![ eerste aanraking ](/help/assets/icons/AttributeFirstTouch.svg) | Eerste aanraking | Geeft 100% krediet aan het aanraakpunt dat het eerst wordt weergegeven in het terugkijkvenster van de attributie. Organisaties gebruiken dit model doorgaans om inzicht te krijgen in merkbekendheid of aanschaf door klanten. |
+| ![ Laatste aanraking ](/help/assets/icons/AttributeLastTouch.svg) | Laatste hand | Geeft 100% krediet aan het contactmoment dat het meest recent heeft plaatsgevonden vóór de conversie. Dit attributiemodel is doorgaans de standaardwaarde voor elke statistiek waarvoor een attributiemodel niet op een andere manier is opgegeven. Organisaties gebruiken dit model meestal wanneer de tijd tot conversie relatief kort is, zoals bij het analyseren van interne zoekwoorden. |
+| ![Eerste aanraking](/help/assets/icons/AttributeFirstTouch.svg) | Eerste aanraking | Geeft 100% krediet aan het contactpunt dat voor het eerst werd gezien in het terugkijkvenster van attributie. Organisaties gebruiken dit model doorgaans om inzicht te krijgen in merkbekendheid of klantenwerving. |
 | ![ Lineair ](/help/assets/icons/AttributeLinear.svg) | Lineair | Biedt hetzelfde krediet aan elk aanraakpunt dat wordt weergegeven voor een conversie. Dit is handig wanneer conversiecycli langer zijn of een frequentere betrokkenheid van klanten vereisen. Organisaties gebruiken dit toewijzingsmodel doorgaans om de doeltreffendheid van meldingen voor mobiele apps of voor producten op abonnementsbasis te meten. |
 | ![Deelname](/help/assets/icons/AttributeParticipation.svg) | Deelname | Biedt 100% krediet aan alle unieke aanraakpunten. Aangezien elk aanraakpunt 100% krediet ontvangt, komt het metrische gegeven meestal uit op meer dan 100%. Als een dimensie-item meerdere afzonderlijke keren vóór een conversie wordt weergegeven, worden de waarden gededupliceerd naar 100%. Dit attributiemodel is ideaal in situaties waarin u wilt begrijpen welke aanraakpunten klanten het meest worden blootgesteld. Mediaorganisaties gebruiken dit model doorgaans om de snelheid van de inhoud te berekenen. De detailhandelorganisaties gebruiken typisch dit model om te begrijpen welke delen van hun plaats aan omzetting kritiek zijn. |
 | ![ Zelfde aanraking ](/help/assets/icons/AttributeSameTouch.svg) | Zelfde aanraking | Verleent 100% krediet aan de zelfde gebeurtenis waar de omzetting plaatsvond. Als er geen aanraakpunt plaatsvindt op dezelfde gebeurtenis als bij een conversie, wordt dit punt ingesloten onder &quot;Geen&quot;. Dit attributiemodel wordt soms gelijkgesteld met het hebben van helemaal geen attributiemodel. Het is waardevol in scenario&#39;s waar u geen waarden van andere gebeurtenissen wilt die beïnvloeden hoe metrisch krediet aan afmetingspunten geeft. Product- of ontwerpteams kunnen dit model gebruiken om de doeltreffendheid van een pagina te beoordelen waar conversie plaatsvindt. |
@@ -142,8 +142,8 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 | Functie | Reiscanvas | Fallout | Stroom |
 |---------|----------|---------|---------|
 | **Vooraf bepaalde opeenvolging van pagina&#39;s** | Ja </br> Combineert vooraf bepaalde en verkennende analyse. Het uiteindelijke pad wordt gebruikt wanneer vooraf gedefinieerde knooppunten op het pad worden gebruikt (bezoekers worden meegeteld zolang ze uiteindelijk van het ene vooraf gedefinieerde knooppunt naar het andere gaan). De directe (niet uiteindelijke) volgende knopen kunnen ook worden getoond. | Ja </br> de weg kan een uiteindelijke weg zijn of kan aan volgende aanraakpunt worden beperkt | Nee |
-| **Verkennende opeenvolging van pagina&#39;s (ad hoc analyse)** | Ja </br> Combineert vooraf bepaalde en verkennende analyse. Het uiteindelijke pad wordt gebruikt wanneer vooraf gedefinieerde knooppunten op het pad worden gebruikt (bezoekers worden meegeteld zolang ze uiteindelijk van het ene vooraf gedefinieerde knooppunt naar het andere gaan). De directe (niet uiteindelijke) volgende knopen kunnen ook worden getoond. | Beperkt </br> staat u toe om directe reserve in een lijst van de Vrije vorm met de rechtermuisknop aan te klikken en te bekijken. | Ja </br> Verkennende slechts analyse. Altijd binnen één afmetingsinstantie tussen knooppunten. Dit betekent dat elk knooppunt het directe (niet uiteindelijke) volgende aanraakpunt langs het pad weergeeft. |
-| **toont waar de mensen weggingen (uit vielen) en door (door vielen) werden voortgezet** | Ja </br> toont voor zowel vooraf bepaalde als verkennende reizen | Ja </br> toont vooraf bepaalde reizen | Ja </br> toont voor verkennende reizen |
+| **Verkennende opeenvolging van pagina&#39;s (ad-hocanalyse)** | </br>Ja Combineert vooraf gedefinieerde en verkennende analyse. Het uiteindelijke pad wordt gebruikt bij het gebruik van vooraf gedefinieerde knooppunten op het pad (bezoekers worden geteld zolang ze uiteindelijk van het ene vooraf gedefinieerde knooppunt naar het andere gaan). De onmiddellijke (niet eventuele) volgende knooppunten kunnen ook worden getoond. | Beperkt</br>Hiermee kunt u met de rechtermuisknop klikken en onmiddellijke uitval in een Freeform-tabel bekijken. | </br>Ja, alleen verkennende analyse. Altijd binnen één dimensie-instantie tussen knooppunten. Dit betekent dat elke knoop het onmiddellijke (niet uiteindelijke) volgende contactpunt langs het pad toont. |
+| **Shows waar mensen vertrokken (ruzie maakten) en doorgingen (doorvielen)** | </br>Ja Shows voor zowel vooraf bepaalde als verkennende reizen | </br>Ja Toont vooraf gedefinieerde ritten | Ja </br> toont voor verkennende reizen |
 | **Lineaire reizen** | Ja | Ja | Nee |
 | **niet-lineaire reizen met veelvoudige ingangspunten en wegen** | Ja | Nee | Ja |
 | **Primaire metrisch** | Elke metrische waarde, inclusief berekende metriek | Alleen sessie of persoon | Alleen voorkomen (padweergaven) |

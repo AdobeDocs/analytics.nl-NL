@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 11%
@@ -157,16 +157,16 @@ ht-degree: 11%
       + [Veelgestelde vragen](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace-prestaties optimaliseren](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Foutberichten](analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace-beperkingen](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Beperkingen van de analysewerkruimte](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Administratieve vereisten](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
-   + [Report Builder - Overzicht](report-builder/report-buider-overview.md)
+   + [Overzicht van Report Builder](report-builder/rb-overview.md)
    + [Report Builder instellen](report-builder/report-builder-setup.md)
-   + [Oudere aanvragen converteren](report-builder/convert-workbooks.md)
+   + [Verouderde aanvragen converteren](report-builder/convert-workbooks.md)
    + [Een gegevensblok maken](report-builder/create-a-data-block.md)
-   + [Report Builder Hub](report-builder/report-builder-hub.md)
-   + [Selecteer een rapportsuite](report-builder/select-report-suite.md)
+   + [Hub voor het maken van rapporten](report-builder/report-builder-hub.md)
+   + [Selecteer een Report Suite](report-builder/select-report-suite.md)
    + [Een datumbereik selecteren](report-builder/select-date-range.md)
    + [Werken met segmenten](report-builder/work-with-segments.md)
    + [Filterafmetingen](report-builder/filter-dimensions.md)
@@ -218,15 +218,15 @@ ht-degree: 11%
          + [Aangepaste kalender](legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [Interactieve besturingselementen](legacy-report-builder/data-requests/interactive-controls.md)
    + Lay-out - stap 2 van de wizard Aanvragen {#layout}
-      + [Overzicht van layout](legacy-report-builder/layout/layout.md)
+      + [Overzicht lay-out](legacy-report-builder/layout/layout.md)
       + Overzicht van cijfers en dimensies {#metrics-dimension}
-         + [Overzicht van statistieken en afmetingen](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
-         + [Metriek en afmetingen toevoegen](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
+         + [Overzicht van statistieken en dimensies](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
+         + [Metrische gegevens en dimensies toevoegen](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
          + [Berekende standaarden](legacy-report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
          + [Combineer verkeer en handelsmetriek in het zelfde verzoek](legacy-report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
-         + [Toegangsrechten van gebruikers voor afmetingen en metriek](legacy-report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
-         + [Metriek wijzigen - velddefinities](legacy-report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
-         + [Klantkenmerken](legacy-report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
+         + [Machtigingen voor gebruikerstoegang voor dimensies en metrische gegevens](legacy-report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
+         + [Metrische gegevens wijzigen - velddefinities](legacy-report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
+         + [Eigenschappen van de klant](legacy-report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [Anomaliedetectie](legacy-report-builder/layout/anomaly-detection.md)
       + [Een verzoek voor afwijkingsdetectie configureren](legacy-report-builder/layout/t-anomaly.md)
       + [De datum opmaken](legacy-report-builder/layout/format-the-data.md)
@@ -277,13 +277,13 @@ ht-degree: 11%
    + Publiceren naar Power BI met Report Builder 5.5 {#publish-powerbi}
       + [Publiceren naar Power BI - Overzicht](legacy-report-builder/c-publish-power-bi/power-bi.md)
       + [Beperkingen en specificaties](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
-      + [Gegevens handmatig importeren naar Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
-      + [Gepubliceerde middelen ophalen in Power BI Desktop](legacy-report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
+      + [Gegevens handmatig importeren in Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
+      + [Gepubliceerde assets ophalen in Power BI Desktop](legacy-report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
       + [Aanbevolen procedures](legacy-report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Problemen met Power BI-integratie oplossen](legacy-report-builder/c-publish-power-bi/troubleshooting.md)
       + [Adobe Analytics-inhoudspakketten voor Power BI](legacy-report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic-macro&#39;s](legacy-report-builder/vba.md)
-   + [Report Builder oplossen](legacy-report-builder/troubleshoot.md)
+   + [Problemen met Report Builder oplossen](legacy-report-builder/troubleshoot.md)
    + [Veelgestelde vragen over Report Builder](legacy-report-builder/faq.md)
 
 + Activity Map {#activity-map}

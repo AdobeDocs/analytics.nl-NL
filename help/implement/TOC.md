@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 16%
@@ -16,13 +16,16 @@ ht-degree: 16%
 
 + [Adobe Analytics implementeren](home.md)
 + [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
-+ [Opmerkingen bij de release AppMeasurement](appmeasurement-updates.md)
++ [Opmerkingen bij de release van AppMeasurement](appmeasurement-updates.md)
 + Variabelen, functies en methoden van Analytics {#vars}
    + [Overzicht](vars/overview.md)
    + Configuratievariabelen {#config-vars}
       + [Overzicht van configuratievariabelen](vars/config-vars/configuration-variables.md)
       + [afbreken](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
+      + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
+      + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
+      + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
       + [charSet](vars/config-vars/charset.md)
       + [collectHighEntropyUserAgentHints](vars/config-vars/collecthighentropyuseragenthints.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
@@ -31,7 +34,7 @@ ht-degree: 16%
       + [currencyCode](vars/config-vars/currencycode.md)
       + [decodeLinkParameters](vars/config-vars/decodelinkparameters.md)
       + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
-      + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
+      + [fpCookieDomainPerioden](vars/config-vars/fpcookiedomainperiods.md)
       + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
       + [linkExternalFilters](vars/config-vars/linkexternalfilters.md)
       + [linkInternalFilters](vars/config-vars/linkinternalfilters.md)
@@ -43,7 +46,7 @@ ht-degree: 16%
       + [offlineThrottleDelay](vars/config-vars/offlinethrottledelay.md)
       + [trackDownloadLinks](vars/config-vars/trackdownloadlinks.md)
       + [trackExternalLinks](vars/config-vars/trackexternallinks.md)
-      + [trackingServer](vars/config-vars/trackingserver.md)
+      + [Volgen Server](vars/config-vars/trackingserver.md)
       + [trackingServerSecure](vars/config-vars/trackingserversecure.md)
       + [trackInlineStats](vars/config-vars/trackinlinestats.md)
       + [trackOffline](vars/config-vars/trackoffline.md)
@@ -55,15 +58,12 @@ ht-degree: 16%
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Paginabariabelen {#page-vars}
       + [Overzicht van paginariabelen](vars/page-vars/page-variables.md)
-      + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
-      + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
-      + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
       + [campagne](vars/page-vars/campaign.md)
       + [kanaal](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Dynamische variabelen](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
+      + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Overzicht van gebeurtenissen](vars/page-vars/events/events-overview.md)
          + [Aankoopgebeurtenis](vars/page-vars/events/event-purchase.md)
@@ -91,11 +91,11 @@ ht-degree: 16%
       + [ActivityMap.link](vars/functions/activitymap-link.md)
       + [ActivityMap.region](vars/functions/activitymap-region.md)
       + [bufferRequests](vars/functions/bufferrequests.md)
-      + [clearVars](vars/functions/clearvars.md)
+      + [duidelijke Vars](vars/functions/clearvars.md)
       + [doPlugins](vars/functions/doplugins.md)
       + [forceOffline](vars/functions/forceoffline.md)
       + [forceOnline](vars/functions/forceonline.md)
-      + [registerPreTrackCallback](vars/functions/registerpretrackcallback.md)
+      + [registrerenPreTrackTerugbellen](vars/functions/registerpretrackcallback.md)
       + [registerPostTrackCallback](vars/functions/registerposttrackcallback.md)
       + [sa](vars/functions/sa-method.md)
       + [Util.cookieRead](vars/functions/util-cookieread.md)
@@ -107,9 +107,9 @@ ht-degree: 16%
       + [addProductEvent](vars/plugins/addproductevent.md)
       + [apl](vars/plugins/apl.md)
       + [cleanStr](vars/plugins/cleanstr.md)
-      + [formatTime](vars/plugins/formattime.md)
+      + [formaatTijd](vars/plugins/formattime.md)
       + [getAndPersistValue](vars/plugins/getandpersistvalue.md)
-      + [getGeoCoordinates](vars/plugins/getgeocoordinates.md)
+      + [getGeoCoördinaten](vars/plugins/getgeocoordinates.md)
       + [getNewRepeat](vars/plugins/getnewrepeat.md)
       + [getPageLoadTime](vars/plugins/getpageloadtime.md)
       + [getPageName](vars/plugins/getpagename.md)
@@ -145,16 +145,16 @@ ht-degree: 16%
    + [XML-objectvariabele toewijzen](aep-edge/xdm-var-mapping.md)
    + Web SDK {#web-sdk}
       + [Overzicht van Web SDK](aep-edge/web-sdk/overview.md)
-      + [Migreren naar de SDK van het Web met tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
-      + [Migreren naar de SDK van het Web met JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
+      + [Migreren naar de webpagina SDK met tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
+      + [Migreren naar de SDK met JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
       + [Nieuwe implementatie met tags](aep-edge/web-sdk/web-sdk-tag-extension.md)
       + [Nieuwe implementatie met JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + Mobile SDK {#mobile-sdk}
       + [Overzicht van Mobile SDK](aep-edge/mobile-sdk/overview.md)
    + Server-API {#server-api}
       + [Overzicht van de server-API](aep-edge/server-api/overview.md)
-+ Analyses implementeren met de Adobe Analytics-extensie {#launch}
-   + [Overzicht van codes](launch/overview.md)
++ Analytics implementeren met behulp van de Adobe Analytics-extensie {#launch}
+   + [Tags overzicht](launch/overview.md)
    + [Een Adobe Analytics-tageigenschap maken](launch/create-analytics-property.md)
    + [Distribueren naar een ontwikkelomgeving](launch/deploy-dev.md)
    + [Valideren en publiceren naar productie](launch/validate-publish-prod.md)
@@ -169,22 +169,22 @@ ht-degree: 16%
       + [H Code-overzicht](js/h-code/overview.md)
       + Dynamische accounts {#dynamicaccount}
          + [Overzicht van dynamische accounts](js/h-code/dynamicaccount/overview.md)
-         + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
-         + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
-         + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
-      + [H-code oplossen](js/h-code/troubleshooting.md)
+         + [dynamische rekeninglijst](js/h-code/dynamicaccount/dynamicaccountlist.md)
+         + [dynamische AccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
+         + [dynamischAccountSelectie](js/h-code/dynamicaccount/dynamicaccountselection.md)
+      + [Problemen met H-code oplossen](js/h-code/troubleshooting.md)
    + Verouderde cross-device identificatie {#xdevice-visid}
       + [Overzicht van het verbinden van gebruikers met verschillende apparaten](js/xdevice-visid/xdevice-connecting.md)
       + [Variabele persistentie](js/xdevice-visid/variable-persistence.md)
       + [Voorbeeld van bezoek](js/xdevice-visid/visit-example.md)
       + [Veelgestelde vragen over verouderde apparaten](js/xdevice-visid/xdevice-faq.md)
-   + [AppMeasurement oplossen](js/troubleshooting.md)
+   + [Problemen met AppMeasurement oplossen](js/troubleshooting.md)
 + Analytics implementeren op andere platforms {#other}
    + [Analyses implementeren met behulp van hardwarematige afbeeldingsaanvragen](other/hardcoded.md)
    + [Analyses implementeren op Ajax](other/ajax.md)
    + [Analyses implementeren op AMP](other/amp.md)
    + [Analyses implementeren op digitale assistenten](other/digital-assistants.md)
-   + [Analyses implementeren op Facebook Instant Artikelen](other/fb-instant-articles.md)
+   + [Analytics implementeren op Facebook Instant Articles](other/fb-instant-articles.md)
 + [Analyses implementeren op mobiele apparaten](mobile-device-sdk.md)
 + Gebruiksscenario&#39;s implementeren {#use-cases}
    + [AppMeasurement gebruiken met iFrames](use-cases/iframe.md)
