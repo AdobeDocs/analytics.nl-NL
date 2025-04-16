@@ -3,9 +3,9 @@ description: Verklaart hoe te om componenten en projecten van Adobe Analytics aa
 title: Componenten en projecten migreren van Adobe Analytics naar Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
+source-git-commit: 657f1417185a2eabb496e0e7207520211f652794
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Het migratieproces omvat:
 
 * Adobe Analytics-projecten opnieuw maken in Customer Journey Analytics.
 
-* De dimensies en metriek van de afbeelding van Adobe Analytics melden reeksen aan dimensies en metriek in de mening van de gegevens van de Customer Journey Analytics.
+* Mapping dimensies and metrics from Adobe Analytics report suites to afmetingen and metrics in Customer Journey Analytics data views.
 
   Sommige dimensies en metriek worden automatisch toegewezen; andere moet u handmatig toewijzen als onderdeel van het migratieproces. Segmenten worden ook gemigreerd, maar hoeven niet in kaart te worden gebracht als onderdeel van het migratieproces.
 
@@ -33,13 +33,15 @@ Het migratieproces omvat:
 
 ## Een migratie voorbereiden
 
-Alvorens u om het even welke projecten aan Customer Journey Analytics migreert, leer meer over het migreren van projecten in [ voorbereidingen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics ](/help/admin/admin/component-migration/prepare-component-migration.md) te migreren.
+Alvorens u om het even welke projecten aan Customer Journey Analytics migreert, leer meer over het migreren van projecten in [ voorbereidingen treffen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics ](/help/admin/admin/component-migration/prepare-component-migration.md) te migreren.
+
+Bovendien doe een [ inventaris van Adobe Analytics ](/help/admin/admin/analytics-inventory.md) gebruikend het hulpmiddel beschikbaar aan de beheerders van Analytics.
 
 ## Adobe Analytics-projecten migreren naar Customer Journey Analytics
 
 >[!IMPORTANT]
 >
->Alvorens u om het even welke projecten aan Customer Journey Analytics migreert zoals die in deze sectie worden beschreven, leer meer over het migreren van projecten in [ voorbereidingen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics ](/help/admin/admin/component-migration/prepare-component-migration.md) te migreren.
+>Alvorens u om het even welke projecten aan Customer Journey Analytics zoals die in deze sectie worden beschreven migreert, leer meer over het migreren van projecten in [ voorbereidingen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics ](/help/admin/admin/component-migration/prepare-component-migration.md) te migreren.
 >
 >**om het even welke afmetingen of metriek die u in kaart brengt zijn permanent, zowel voor dit project als voor alle toekomstige projecten die door uw volledige org worden gemigreerd IMS, ongeacht welke gebruiker de migratie uitvoert. Deze toewijzingen kunnen niet worden gewijzigd of ongedaan gemaakt behalve door de Zorg van de Klant te contacteren.**
 
@@ -65,15 +67,15 @@ Alvorens u om het even welke projecten aan Customer Journey Analytics migreert, 
 
 1. Op het [!UICONTROL **bezit van het Project**] gebied, begin typend de naam van de gebruiker die u als eigenaar van het project in Customer Journey Analytics wilt plaatsen, dan hun naam in het drop-down menu selecteren.
 
-   De eigenaar die u specificeert heeft volledige beheersrechten aan het project. De eigenaar moet een beheerder in Customer Journey Analytics zijn. U kunt de eigendom van het project in een latere stap wijzigen.
+   De eigenaar die u specificeert heeft volledige beheersrechten aan het project. De eigenaar moet een beheerder zijn in Customer Journey Analytics. U kunt de eigendom van het project in een latere stap wijzigen.
 
 1. In het [!UICONTROL **schema van de Kaart voor rapportreeksen**] sectie, selecteer een rapportreeks.
 
-1. In het [!UICONTROL **drop-down menu van de mening van Gegevens**], selecteer de de gegevensmening van de Customer Journey Analytics waar u het project en de componenten wilt worden gemigreerd.
+1. In het [!UICONTROL **drop-down menu van de mening van Gegevens**], selecteer de de gegevensmening van Customer Journey Analytics waar u het project en de componenten wilt worden gemigreerd.
 
 1. Selecteer [!UICONTROL **schema van de Kaart**].
 
-1. In het [!UICONTROL **schema van de Kaart**] sectie, breid de [!UICONTROL **Dimensionen**] en [!UICONTROL **Metriek**] secties uit.
+1. In het [!UICONTROL **schema van de Kaart**] sectie, breid de [!UICONTROL **Afmetingen**] en [!UICONTROL **Metriek**] secties uit.
 
    Sommige dimensies en metriek in Adobe Analytics worden automatisch toegewezen aan een dimensie of metrisch in Customer Journey Analytics. Andere moeten handmatig worden toegewezen.
 
@@ -95,9 +97,9 @@ Alvorens u om het even welke projecten aan Customer Journey Analytics migreert, 
 
    **kaart manueel dimensies en metriek**
 
-   Sommige dimensies en metriek in Adobe Analytics kunnen niet automatisch worden toegewezen aan een dimensie of metrisch in Customer Journey Analytics.
+   Bepaalde afmetingen en maateenheden in Adobe Analytics kunnen niet automatisch worden toegewezen aan een dimensie of metrisch in Customer Journey Analytics.
 
-   Wanneer een afmeting of metrisch niet automatisch in kaart kan worden gebracht, toont een oranje teller naast de [!UICONTROL **Dimensionen**] of [!UICONTROL **Metriek**] sectiekop, die op het aantal dimensies of metriek wijzen die manueel in kaart moeten worden gebracht. In de lijst, toont een waarschuwingspictogram ![ waarschuwingspictogram ](assets/schema-warning.png) naast elke afmeting of metrisch die manueel in kaart moet worden gebracht.
+   Wanneer een afmeting of metrisch niet automatisch in kaart kan worden gebracht, toont een oranje teller naast de [!UICONTROL **Afmetingen**] of [!UICONTROL **Metriek**] sectiekop, die op het aantal dimensies of metriek wijzen die manueel in kaart moeten worden gebracht. In de lijst, toont een waarschuwingspictogram ![ waarschuwingspictogram ](assets/schema-warning.png) naast elke afmeting of metrisch die manueel in kaart moet worden gebracht.
 
    Bovendien zegt de **]kolom van de Status[!UICONTROL ** [!UICONTROL **niet in kaart gebracht**].
 
@@ -105,7 +107,7 @@ Alvorens u om het even welke projecten aan Customer Journey Analytics migreert, 
 
    ![ het schemahandkaart van de Migratie ](assets/schema-manual-map.png)
 
-1. Om dimensies en metriek manueel in kaart te brengen, selecteer een afmeting of metrisch die een waarschuwingspictogram ![ waarschuwingspictogram ](assets/schema-warning.png) bevat, dan in het [!UICONTROL **In kaart gebrachte metrische**] gebied van de Customer Journey Analytics (of het [!UICONTROL **In kaart gebrachte afmeting van de Customer Journey Analytics**] als u een afmeting in kaart brengt), selecteer de afmeting of metrisch in Customer Journey Analytics die u aan de afmeting wilt in kaart brengen.
+1. Om dimensies en metriek manueel in kaart te brengen, selecteer een afmeting of metrisch die een waarschuwingspictogram ![ waarschuwingspictogram ](assets/schema-warning.png) bevat, dan in het [!UICONTROL **In kaart gebrachte metrische**] gebied van Customer Journey Analytics (of het [!UICONTROL **In kaart gebrachte de afmeting van Customer Journey Analytics**] gebied als u een afmeting in kaart brengt), selecteer de afmeting of metrisch in Customer Journey Analytics die u aan de afmeting wilt in kaart brengen.
 
    ![ kaartdimensies en metriek ](assets/schema-manual-map-drop-down.png)
 
@@ -113,7 +115,7 @@ Alvorens u om het even welke projecten aan Customer Journey Analytics migreert, 
 
    Herhaal dit proces voor elke afmeting of metrisch die het waarschuwingspictogram bevat.
 
-   Nadat alle dimensies en metriek in de het rapportreeks van Adobe Analytics aan een afmeting of metrisch in de reeks van het het rapportrapport van de Customer Journey Analytics in kaart worden gebracht, verschijnt een groen vinkje ](assets/report-suite-check.png) naast de naam van de rapportreeks in het [!UICONTROL **schema van de Kaart voor de sectie van de rapportsuites**].![
+   Nadat alle dimensies en metriek in de het rapportreeks van Adobe Analytics aan een afmeting of metrisch in de het rapportreeks van Customer Journey Analytics in kaart worden gebracht, verschijnt een groen vinkje ](assets/report-suite-check.png) naast de naam van de rapportreeks in het [!UICONTROL **schema van de Kaart voor de sectie van de rapportsuites**].![
 
 1. (Voorwaardelijk) als het project u migreert meer dan één rapportreeks bevat, selecteer een andere rapportreeks in het [!UICONTROL **schema van de Kaart voor rapportreeksen**] sectie, dan herhaal stap 6 door Stap 10. <!-- double-check that the step numbers are still correct -->
 
@@ -127,7 +129,7 @@ Alvorens u om het even welke projecten aan Customer Journey Analytics migreert, 
 
    Als de migratie ontbreekt, zie [ opnieuw een ontbroken migratie ](#retry-a-failed-migration) sectie hieronder voor meer informatie.
 
-1. (Optioneel) Nadat een project is gemigreerd, kunt u de eigendom van het project overdragen aan elke gebruiker in de Customer Journey Analytics. Voor meer informatie, zie [ activa van de Overdracht ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in de Gids van de Customer Journey Analytics.
+1. (Optioneel) Nadat een project is gemigreerd, kunt u de eigendom van het project overdragen aan elke gebruiker in Customer Journey Analytics. Voor meer informatie, zie [ activa van de Overdracht ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in de Gids van Customer Journey Analytics.
 
 ## Een mislukte migratie opnieuw proberen
 
