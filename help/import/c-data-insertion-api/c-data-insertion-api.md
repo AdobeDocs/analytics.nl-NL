@@ -4,17 +4,15 @@ title: API voor data-invoer
 feature: API
 exl-id: d0ed201a-4bc9-49e2-919b-8cea4fcff587
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 6%
+source-wordcount: '81'
+ht-degree: 7%
 
 ---
 
 # API voor data-invoer
 
-[API voor gegevensinvoer](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) en [API voor het invoegen van bulkgegevens](../bulk-data-insertion-api/bulk-data-insert.md) zijn beide methoden om gegevens van verzamelingen op de server naar Adobe Analytics te verzenden. API-aanroepen voor het invoegen van gegevens worden één gebeurtenis tegelijk uitgevoerd. De API voor het invoegen van bulkgegevens accepteert CSV-bestanden met gebeurtenisgegevens, één gebeurtenis per rij.
+De [ Invoeging API van Gegevens ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) en [ Bulk API van Gegevens ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) zijn beide methodes om server-zijinzamelingsgegevens naar Adobe Analytics voor te leggen. API-aanroepen voor het invoegen van gegevens worden één gebeurtenis tegelijk uitgevoerd. De API voor het invoegen van bulkgegevens accepteert CSV-bestanden met gebeurtenisgegevens, één gebeurtenis per rij.
 
-Zie de [ontwikkelaarsdocumentatie voor Bulk Data Insert API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) voor meer informatie .
-
-Als u aan een nieuwe implementatie van server-zijinzameling werkt, adviseren wij gebruikend de Invoeging API van de Gegevens van het Bulk.
+Als u werkt aan een nieuwe implementatie van een verzameling op de server, raadt Adobe u ten zeerste aan de API voor het invoegen van gegevens in bulk te gebruiken.
