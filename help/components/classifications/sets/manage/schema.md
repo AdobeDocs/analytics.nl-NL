@@ -3,9 +3,9 @@ title: Schema voor classificatieset
 description: Het schema voor een afzonderlijke classificatieset weergeven en bewerken.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Bekijk momenteel gevormde classificatiedimensies voor deze classificatieset.
 De volgende knoppen zijn beschikbaar:
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL Upload]**: upload classificatiegegevens handmatig voor een of meer classificatiedimensies. `JSON` -, `CSV` -, `TSV` - en `TAB` -bestanden worden ondersteund. Wanneer u een geldig bestand uploadt, wordt een tabelvoorbeeld weergegeven met gegevens die u wilt classificeren.
+* **[!UICONTROL Upload]**: upload classificatiegegevens handmatig voor een classificatieafmetingen. `JSON` -, `CSV` -, `TSV` - en `TAB` -bestanden worden ondersteund. Wanneer u een geldig bestand uploadt, wordt een tabelvoorbeeld weergegeven met gegevens die u wilt classificeren.
    * **[!UICONTROL File encoding]**: selecteer de juiste bestandencodering in deze vervolgkeuzelijst. Geldige opties zijn [!UICONTROL UTF-8] en [!UICONTROL Latin1] .
    * **[!UICONTROL List delimiter]**: selecteer het juiste lijstscheidingsteken. Als u een gedownload bestand of sjabloonbestand gebruikt, moet u ervoor zorgen dat [!UICONTROL List delimiter] hier overeenkomt met [!UICONTROL List delimiter] toen het bestand werd gedownload.
    * **[!UICONTROL Apply]**: sla de geüploade classificatiegegevens op in de classificatieset.
@@ -59,3 +59,13 @@ De volgende knoppen zijn beschikbaar:
    * **[!UICONTROL Delimiter]**: Het kolomscheidingsteken voor geüploade bestanden. U kunt onder andere de volgende opties kiezen: [!UICONTROL Comma] , [!UICONTROL Semicolon] , [!UICONTROL Colon] , [!UICONTROL Vertical bar] , [!UICONTROL Space] , [!UICONTROL Forward slash] , [!UICONTROL Backward slash] , [!UICONTROL Dash] of [!UICONTROL Underscore] .
 
    * **[!UICONTROL Encoding]**: Een vervolgkeuzelijst die de bestandencodering bepaalt. De opties zijn [!UICONTROL UTF-8] en [!UICONTROL Latin1] . UTF-8 wordt aanbevolen.
+
+De volgende acties zijn alleen beschikbaar nadat u een classificatie hebt geselecteerd.
+
+* **voeg raadpleging** toe: Een raadplegingslijst is een classificatie van een classificatie. Het zijn metagegevens over een classificatiewaarde in plaats van de variabele zelf. De variabele Product kan bijvoorbeeld een classificatie van &quot;kleurcode&quot; hebben. Een opzoektabel met &quot;kleurnaam&quot; kan aan &quot;kleurcode&quot; worden gekoppeld om uit te leggen wat de kleuren zijn.
+
+  ![ de raadplegingslijst van de Band ](../../assets/lookup.png)
+
+* **noem** anders: Laat u de classificatie anders noemen.
+
+* **Schrapping**: Laat u de classificatie schrappen.
