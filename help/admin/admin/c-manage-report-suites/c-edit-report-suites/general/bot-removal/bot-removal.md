@@ -4,9 +4,9 @@ description: Bommen verwijderen in Adobe Analytics
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ Filtermethoden voor zowel standaard als aangepaste bot worden ondersteund in **[
 | Aangepaste botregels | U kunt de regels van de douanebot bepalen en toevoegen die op gebruikersagenten, IP adressen, of IP waaiers worden gebaseerd. |
 
 Voor meer detail, zie [ beide regels ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) begrijpen en vormen.
-
-## Gebruik de plug-in [!UICONTROL websiteBot] om lettertypen te identificeren
-
-Met de insteekmodule [!UICONTROL websiteBot] kunt u dynamisch vaststellen of bezoekers van een bureaublad de meeste gebruikers hebben. U kunt deze gegevens gebruiken om grotere nauwkeurigheid in alle types van rapportering te drijven, die u een betere manier geeft om wettig plaatsverkeer te meten.
-
-Deze plug-in voert twee controles uit:
-
-* Eerst, bepaalt het of het apparaat een Desktop of een mobiel apparaat gebruikend de navigator.UserAgent variabele is. Mobiele apparaten worden genegeerd.
-* Als het een desktopapparaat is, wordt er een gebeurtenislistener toegevoegd voor muisbewegingen.
-
-Voor meer informatie, zie de [ Gids van de Implementatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html).
 
 ## Een combinatie van Adobe Tools gebruiken
 
