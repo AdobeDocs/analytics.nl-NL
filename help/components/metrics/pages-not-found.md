@@ -3,19 +3,19 @@ title: Pagina's niet gevonden (cijfers)
 description: Het aantal treffers dat een fout bevat.
 feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
 # Pagina&#39;s niet gevonden
 
-*Deze Help-pagina beschrijft hoe &#39;Pagina&#39;s niet gevonden&#39; werkt als metrisch. Zie de [Pagina&#39;s niet gevonden](../dimensions/pages-not-found.md) dimensie voor meer informatie.*
+*Deze hulppagina beschrijft hoe de &quot;Pagina&#39;s niet gevonden&quot;werken metrisch. Zie de [ Pagina&#39;s niet gevonden ](../dimensions/pages-not-found.md) afmetingspagina voor meer informatie over hoe het als afmeting werkt.*
 
-&#39;Pagina&#39;s niet gevonden&#39; [metrisch](overview.md) toont het aantal treffers waar een afmeting werd geplaatst of voortgeduurd op het tijdstip dat een bezoeker een fout ontmoette. Deze metrische waarde is handig wanneer u wilt zien welke pagina&#39;s of URL&#39;s foutberichten bevatten (zoals 404). U kunt deze informatie vervolgens doorgeven aan uw webontwikkelingsteam, dat de oorzaak van de fout kan vaststellen en deze kan verhelpen.
+De &quot;Pagina&#39;s niet gevonden&quot;[ metrische ](overview.md) toont het aantal treffers waar een afmeting werd geplaatst of werd voortgeduurd op het tijdstip dat een bezoeker een fout ontmoette. Deze metrische waarde is handig wanneer u wilt zien welke pagina&#39;s of URL&#39;s foutberichten bevatten (zoals 404). U kunt deze informatie vervolgens doorgeven aan uw webontwikkelingsteam, dat de oorzaak van de fout kan vaststellen en deze kan verhelpen.
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische waarde telt alle treffers waar [`pageType`](/help/implement/vars/page-vars/pagetype.md) variable is gelijk aan de waarde van `"errorPage"`. Het is het metrische equivalent van [Pagina&#39;s niet gevonden](../dimensions/pages-not-found.md) dimensie.
+Deze metrische waarde telt alle treffers waar de [`pageType`](/help/implement/vars/page-vars/pagetype.md) variabele de waarde van `"errorPage"` evenaart. Het is het metrische equivalent van de [ Pagina&#39;s niet gevonden ](../dimensions/pages-not-found.md) dimensie.
