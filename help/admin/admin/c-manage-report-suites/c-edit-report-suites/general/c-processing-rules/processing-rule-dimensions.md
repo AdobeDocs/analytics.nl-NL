@@ -1,18 +1,18 @@
 ---
 description: De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend verwerkingsregels.
 subtopic: Processing rules
-title: Dimensionen waarover verwerkingsvoorschriften kunnen worden toegepast
+title: Beschikbare afmetingen voor verwerkingsregels
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 1%
 
 ---
 
-# Dimensionen en maatstaven die beschikbaar zijn voor verwerkingsregels
+# Afmetingen en metingen beschikbaar voor verwerkingsregels
 
 De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend verwerkingsregels.
 
@@ -27,10 +27,10 @@ De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend ve
 
 | Kenmerk | Status lezen/schrijven | Beschrijving |
 | --- | --- | --- |
-| Pagina-URL | Lezen + schrijven | De [ pagina URL ](/help/components/dimensions/page-url.md) afmeting. Het volgen van de verbinding overtreft deze dimensie alvorens verwerkingsregels te bereiken. Als u een pagina URL waarde gebruikend verwerkingsregels opnieuw opneemt, wordt de klap beschouwd als a [ mening van de Pagina ](/help/components/metrics/page-views.md) in plaats van de gebeurtenis van de a [ Pagina ](/help/components/metrics/page-events.md). Adobe raadt u aan te controleren op een waarde in de pagina-dimensie voordat u deze wijzigt. |
-| Paginanaam | Lezen + schrijven | De [ dimensie van de Pagina ](/help/components/dimensions/page.md). Het volgen van de verbinding overtreft deze dimensie alvorens verwerkingsregels te bereiken. Als u een paginawaarde opnieuw opneemt gebruikend verwerkingsregels, wordt de klap beschouwd als a [ mening van de Pagina ](/help/components/metrics/page-views.md) in plaats van de gebeurtenis van de a [ Pagina ](/help/components/metrics/page-events.md). Adobe raadt u aan te controleren op een waarde in de pagina-dimensie voordat u deze wijzigt. |
-| Reeks-id rapporteren | Alleen-lezen | De rapportsuite waarop de verwerkingsregel wordt uitgevoerd. Deze rapportsuite kan een andere zijn dan de rapportsuite die oorspronkelijk via het AppMeasurement is verzonden, bijvoorbeeld bij het gebruik van de VISTA-regels. |
-| Versie van AppMeasurement | Alleen-lezen | De versie van de bibliotheek van het AppMeasurement die wordt gebruikt om het beeldverzoek te produceren. |
+| Pagina-URL | Lezen + schrijven | De [ pagina URL ](/help/components/dimensions/page-url.md) afmeting. Het volgen van de verbinding overtreft deze dimensie alvorens verwerkingsregels te bereiken. Als u een pagina URL waarde gebruikend verwerkingsregels opnieuw opneemt, wordt de klap beschouwd als a [ mening van de Pagina ](/help/components/metrics/page-views.md) in plaats van de gebeurtenis van de a [ Pagina ](/help/components/metrics/page-events.md). Adobe raadt u aan te controleren op een waarde in de paginadimensie voordat u deze wijzigt. |
+| Paginanaam | Lezen + schrijven | De [ dimensie van de Pagina ](/help/components/dimensions/page.md). Het volgen van de verbinding overtreft deze dimensie alvorens verwerkingsregels te bereiken. Als u een paginawaarde opnieuw opneemt gebruikend verwerkingsregels, wordt de klap beschouwd als a [ mening van de Pagina ](/help/components/metrics/page-views.md) in plaats van de gebeurtenis van de a [ Pagina ](/help/components/metrics/page-events.md). Adobe raadt u aan te controleren op een waarde in de paginadimensie voordat u deze wijzigt. |
+| Reeks-id rapporteren | Alleen-lezen | De rapportsuite waarop de verwerkingsregel wordt uitgevoerd. Deze rapportsuite kan anders zijn dan de rapportsuite die oorspronkelijk via AppMeasurement is verzonden, bijvoorbeeld bij het gebruik van de VISTA-regels. |
+| AppMeasurement-codeversie | Alleen-lezen | De AppMeasurement-bibliotheekversie die wordt gebruikt om de afbeeldingsaanvraag te genereren. |
 | IP-adres | Alleen-lezen | Het IP-adres van de bezoeker. |
 | Gebruikersagent | Alleen-lezen | De gebruikersagent van de bezoeker. |
 | Referenter | Alleen-lezen | De [ dimensie van de Verwijzer ](/help/components/dimensions/referrer.md). |
@@ -58,7 +58,7 @@ De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend ve
 | Transactie-id | Lezen + schrijven | De implementatievariabele [`transactionID`](/help/import/data-sources/transactionid.md) . |
 
 >[!NOTE]
->Adobe ondersteunt het instellen van de implementatievariabele [`products`](/help/implement/vars/page-vars/products.md) met behulp van verwerkingsregels niet.
+>Adobe biedt geen ondersteuning voor het instellen van de implementatievariabele [`products`](/help/implement/vars/page-vars/products.md) met behulp van verwerkingsregels.
 
 ## verkeersvariabelen
 
@@ -75,7 +75,7 @@ Alle [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contex
 
 ## Gebeurtenissen met succes
 
-Met verwerkingsregels kunnen gebeurtenissen worden ingesteld, maar deze kunnen niet als voorwaarden worden gelezen. Stel het vervolgkeuzemenu Handeling regel in op **[!UICONTROL Set event]** om de beschikbare metriek op stap weer te geven.
+Met verwerkingsregels kunnen gebeurtenissen worden ingesteld, maar deze kunnen niet als voorwaarden worden gelezen. Stel de vervolgkeuzelijst voor regelactie in op **[!UICONTROL Set event]** om de beschikbare metriek te zien op verhogen.
 
 | Variabele | Status lezen/schrijven | Beschrijving |
 | --- | --- | --- |

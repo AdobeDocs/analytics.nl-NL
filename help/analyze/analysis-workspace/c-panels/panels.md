@@ -4,7 +4,7 @@ title: Overzicht van deelvensters
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '2032'
 ht-degree: 1%
@@ -84,7 +84,7 @@ Wanneer u een nieuw deelvenster maakt, is de standaardrapportsuite gebaseerd op 
 
 Binnen een project, kunt u één of [ vele rapportreeksen ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) afhankelijk van uw gevallen van het analysegebruik gebruiken.
 
-De lijst van rapportsuites wordt gesorteerd op relevantie, die Adobe bepaalt gebaseerd op hoe onlangs en vaak de reeks door de huidige gebruiker is gebruikt, en hoe vaak de reeks binnen de organisatie wordt gebruikt.
+De lijst met rapportsuites wordt gesorteerd op relevantie, die Adobe definieert op basis van hoe recent en vaak de suite door de huidige gebruiker is gebruikt en hoe vaak de suite binnen de organisatie wordt gebruikt.
 
 ![](assets/panel-report-suite.png)
 
@@ -112,7 +112,7 @@ De paneelkalender bepaalt de rapportdatumwaaier voor lijsten en visualisaties bi
 ![ het kalendervenster dat de geselecteerde datumwaaier toont.](assets/panel-calendar.png)
 
 1. Selecteer een datumbereik door eerst de begindatum en vervolgens de einddatum te selecteren.
-Alternatief, kunt u a **[!UICONTROL Preset]** van [!UICONTROL *selecteren selecteert vooraf ingesteld*] dropdown menu.
+Alternatief, kunt u a **[!UICONTROL Preset]** van [!UICONTROL *selecteren vooraf ingesteld*] drop-down menu.
 
 1. Selecteer indien nodig **[!UICONTROL Show advanced settings]** tot en met:
 
@@ -205,7 +205,7 @@ Gebruikers kunnen het vervolgkeuzemenu voor segmenten van het deelvenster op een
 
 Met dynamische vervolgkeuzelijsten kunt u beschikbare waarden bepalen op basis van gegevens binnen het rapportagebereik van het deelvenster en waarden in andere vervolgkeuzelijsten. U kunt bijvoorbeeld twee dynamische vervolgkeuzelijsten maken met de dimensie Landen en de dimensie Steden. Wanneer u een land in de vervolgkeuzelijst **[!UICONTROL Countries]** selecteert, wordt de vervolgkeuzelijst **[!UICONTROL Cities]** dynamisch aangepast, zodat alleen de steden in dat land worden weergegeven.
 
-Dit concept is van toepassing op alle dimensies. Alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde segmenten zijn zichtbaar. De punten van het Dimension die in statische drop-down segmenten worden geselecteerd beïnvloeden beschikbare waarden in dynamische drop-down segmenten. Omgekeerd is echter niet waar. Dimension-items die zijn geselecteerd in dynamische vervolgkeuzelijsten hebben geen invloed op de beschikbare waarden in statische vervolgkeuzelijsten.
+Dit concept is van toepassing op alle dimensies. Alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde segmenten zijn zichtbaar. Dimension-items die zijn geselecteerd in statische vervolgkeuzelijsten beïnvloeden de beschikbare waarden in dynamische vervolgkeuzelijsten. Inverse is echter niet waar. Dimension-items die zijn geselecteerd in dynamische vervolgkeuzelijsten hebben geen invloed op de beschikbare waarden in statische vervolgkeuzelijsten.
 
 Handmatige selectie van dimensie-items is beschikbaar als u verwacht dat een bepaald dimensie-item in de toekomst wordt verzameld. U kunt een dynamisch drop-down segment ook ontruimen zodat het geen waarde bevat, toestaand andere dynamische drop-down segmenten om meer waarden te bevatten. Selecteer **[!UICONTROL Reset all]** om de selectie uit alle drop-down segmenten voor dat paneel te ontruimen.
 

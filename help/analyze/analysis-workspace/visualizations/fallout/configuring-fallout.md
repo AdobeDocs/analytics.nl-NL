@@ -4,7 +4,7 @@ title: Een fallout-visualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 0%
@@ -24,7 +24,7 @@ U kunt op afmetingen, metriek, en segmenten schilderen. Stel dat iemand bijvoorb
 ## Gebruiken
 
 1. Voeg a ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** visualisatie toe. Zie [ een visualisatie aan een paneel ](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen.
-1. Sleep een pagina, bijvoorbeeld huis, van de afmeting van de Pagina op *toevoegen touchpoint* dropdown menu.
+1. Sleep een pagina, bijvoorbeeld huis, van de afmeting van de Pagina op *toevoegt touchpoint* drop-down menu.
 
    ![ de homepage van de pagina van het Huis dimensie die aan het Add gebied van het Aanraakpunt wordt gesleept.](assets/fallout-drag.png)
 
