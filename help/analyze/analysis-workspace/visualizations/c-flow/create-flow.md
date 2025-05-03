@@ -4,14 +4,66 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
+source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
 
-# Een stroomvisualisatie configureren
+# Een stroomvisualisatie configureren {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="Starts with (Begint met)"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="Bevat"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="Ends with (Eindigt met)"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="Dimensie verven"
+>abstract="Selecteer een dimensie die u wilt gebruiken als het pad dat u wilt gebruiken voor of naar de geselecteerde component."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="Stroomcontainer"
+>abstract="Selecteer de container die u wilt gebruiken om het plakken weer te geven (nummers voor)."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="Inclusief herhalingen (uitgeschakeld)"
+>abstract="Herhalingen kunnen niet worden verwijderd uit stroomvisualisaties die multigetaxeerde afmetingen bevatten."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="Inclusief herhalingen"
+>abstract="Stroomvisualisaties zijn gebaseerd op instanties van een dimensie. Met deze instelling kunt u herhalende exemplaren opnemen of uitsluiten, bijvoorbeeld: Pagina wordt opnieuw geladen."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="Beperken tot eerste/laatste voorkomen"
+>abstract="De resultaten zijn beperkt tot wegen wanneer het eerste/laatste aanraakpunt een ingang/uitgang is."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="Aantal kolommen"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="Items uitgevouwen per kolom"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
+
+
 
 Stroomvisualisaties helpen u de reis te begrijpen die voortvloeit uit of leidt tot een specifieke conversiegebeurtenis op uw website of uw app. Het traceert een pad door uw dimensies (en dimensie-items) of metriek.
 
@@ -113,7 +165,7 @@ Gebruik een contextmenu op een knooppunt in de stroomvisualisatie met de volgend
 | **[!UICONTROL Focus on this node]** | Wijzig de focus in het geselecteerde knooppunt. Het focusknooppunt verschijnt in het midden van het stroomdiagram. |
 | **[!UICONTROL Start over]** | Ga terug naar de constructor van het Freeform-diagram, waar u een nieuw stroomdiagram kunt maken. |
 | **[!UICONTROL Create a filter for this path]** | Maak een filter. Deze selectie neemt u in de Bouwer van de Filter, waar u de nieuwe filter kunt vormen. |
-| **[!UICONTROL Breakdown]** | Verdeel de knoop neer door beschikbare Dimensionen, Metriek, of Tijd. |
+| **[!UICONTROL Breakdown]** | Verdeel de knoop neer door beschikbare Dimensies, Metriek, of Tijd. |
 | **[!UICONTROL Filter column]** | Dezelfde filteropties worden weergegeven als beschikbaar zijn in de tabel Vrije vorm. Voor meer informatie over de beschikbare opties, zie de sectie &quot;een eenvoudig of geavanceerd filter op een lijst&quot;in [ Filter en sorteerlijsten ](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) toepassen. |
 | **[!UICONTROL Exclude item]** of **[!UICONTROL Restore excluded items]** | Hiermee verwijdert u een specifiek knooppunt uit de kolom en maakt u het automatisch als filter boven aan de kolom. Selecteer **[!UICONTROL Restore Excluded Item]** in het contextmenu om het uitgesloten item te herstellen. U kunt het filter ook boven aan de kolom openen en de pillarbox verwijderen met het item dat u zojuist hebt uitgesloten. |
 | **[!UICONTROL Trend]** | Creeer een trended diagram voor de knoop. |
