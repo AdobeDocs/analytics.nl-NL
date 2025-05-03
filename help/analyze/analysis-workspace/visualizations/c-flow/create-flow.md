@@ -4,9 +4,9 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="Items uitgevouwen per kolom"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_resettoupdate"
+>title="Herstellen om bij te werken"
 >abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
 
 
