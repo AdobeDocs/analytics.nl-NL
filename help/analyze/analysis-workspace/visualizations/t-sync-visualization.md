@@ -5,14 +5,19 @@ title: Visualisatiegegevensbronnen beheren
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
-# Visualisatiegegevensbronnen beheren
+# Visualisatiegegevensbronnen beheren {#manage-visualization-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="workspace_datasource_lock_selection"
+>title="Selectie vergrendelen"
+>abstract="Schakel deze instelling in om de visualisatie te vergrendelen op de tabelposities of op de exacte items die in de gegevensbron zijn geselecteerd."
 
 Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbron overeenkomt met een visualisatie.
 
@@ -29,6 +34,8 @@ Door een gegevensbron te beheren, kunt u de gegevensbron weergeven of de selecti
    Als u een visualisatie synchroniseert met een tabelcel, wordt een nieuwe (verborgen) tabel gemaakt en wordt de gesynchroniseerde visualisatie met die tabel gekleurd.
 
 ## Source-instellingen voor gegevens
+
+
 
 
 >[!BEGINSHADEBOX]
