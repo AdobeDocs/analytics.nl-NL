@@ -21,7 +21,7 @@ Deze gids concentreert zich op het integreren van veelvoudige oplossingen van Ad
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Analytics voor Advertising Cloud ](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Analytics voor Advertising Cloud ](https://video.tv.adobe.com/v/3434837?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

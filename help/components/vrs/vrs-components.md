@@ -17,7 +17,7 @@ Virtuele rapportsuites kunnen worden gebogen om components.in Analysis Workspace
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de kromming van de Component ](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de kromming van de Component ](https://video.tv.adobe.com/v/3425524?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

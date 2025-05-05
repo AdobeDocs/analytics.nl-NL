@@ -27,7 +27,7 @@ Adobe biedt meerdere manieren om Adobe Analytics te implementeren. Elke pagina b
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vormende variabelen ](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vormende variabelen ](https://video.tv.adobe.com/v/3456977?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

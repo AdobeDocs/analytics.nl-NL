@@ -24,7 +24,7 @@ Als deel van de beweging aan een nieuwe technologie van de Report Builder, kunt 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ werkboeken ](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} voor een demo video omzetten.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ werkboeken ](https://video.tv.adobe.com/v/3446188?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video omzetten.
 
 >[!ENDSHADEBOX]
 

@@ -36,7 +36,7 @@ Met de volgende bronnen krijgt u inzicht in de basisworkflow voor het verkrijgen
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de interface van de gegevensvoer ](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} voor een demo video navigeren.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de interface van de gegevensvoer ](https://video.tv.adobe.com/v/3428566?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video navigeren.
 
 >[!ENDSHADEBOX]
 

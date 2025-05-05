@@ -46,7 +46,7 @@ Definieer deze instellingen op het tabblad [!UICONTROL Visit Definition] en klik
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een bezoekdefinitie ](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} voor een demo video aanpassen.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een bezoekdefinitie ](https://video.tv.adobe.com/v/3428477?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video aanpassen.
 
 >[!ENDSHADEBOX]
 

@@ -19,7 +19,7 @@ U kunt een bezoek op elke gewenste manier definiëren zonder de onderliggende ge
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ context-bewuste zittingen ](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ context-bewuste zittingen ](https://video.tv.adobe.com/v/3428477?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

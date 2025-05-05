@@ -24,7 +24,7 @@ Bekijk deze tips van uw collega Technical Owner, Sarah Owen. Sarah is een Adobe 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruik het Geërfte Playbook van de Implementatie ](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruik het Geërfte Playbook van de Implementatie ](https://video.tv.adobe.com/v/3438757?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
