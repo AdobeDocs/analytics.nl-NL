@@ -55,6 +55,6 @@ Zorg ervoor dat aan de volgende voorwaarden is voldaan:
 * U bent beheerder van Audience Managers.
 * U gebruikt identiteitsservice v1.5 of hoger.
 * Adobe Audience Manager en Adobe Analytics rapporteren suites worden toegewezen aan dezelfde organisatie van Experiencen Cloud.
-* U gebruikt [ server-kant door:sturen ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) en hebt de [ module van het Beheer van de Auditie ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (geen code van DIL) - AppMeasurement 1.5 of later uitgevoerd.
+* U gebruikt [ server-kant door:sturen ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) en hebt de [ module van het Beheer van de Auditie ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=nl-NL) (geen code van DIL) - AppMeasurement 1.5 of later uitgevoerd.
 
 Deze eerste vereisten worden beschreven in het [ Werkschema van het Audience Analytics ](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

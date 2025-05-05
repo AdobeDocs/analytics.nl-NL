@@ -21,7 +21,7 @@ Report Builder 5.2 en hoger biedt ondersteuning voor berekende Adobe Analytics-m
 >
 >De bestaande werkboeken zouden aan verzoeken met erfenis metrische IDs kunnen richten. Wanneer u Report Builder 5.2 gebruikt, zullen deze erfenis metrische IDs in nieuwe globale identiteitskaart worden omgezet. Als u dit werkboek met een gebruiker van Report Builder v5.1 of vroeger deelt, zal die gebruiker niet de berekende metriek kunnen zien.
 
-Om meer over te weten te komen hoe te om berekende metriek met de nieuwe Berekende Metrische Bouwer en Manager tot stand te brengen en te beheren, verwijs naar de [ Berekende Gids van Metriek ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html).
+Om meer over te weten te komen hoe te om berekende metriek met de nieuwe Berekende Metrische Bouwer en Manager tot stand te brengen en te beheren, verwijs naar de [ Berekende Gids van Metriek ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=nl-NL).
 
 In Stap 2 van de Tovenaar van het Verzoek, kunt u berekende metriek filtreren en toepassen.
 

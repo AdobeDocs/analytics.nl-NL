@@ -24,7 +24,7 @@ Adobe Analytics biedt de volgende complexe segmentatie en voorspellende hulpmidd
 
 * [Stroomanalyse](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [ Geavanceerde segmentatie ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+* [ Geavanceerde segmentatie ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=nl-NL)
 
 
 ## Marketing Analytics
@@ -33,9 +33,9 @@ Adobe Analytics helpt organisaties te begrijpen waar klanten met hun merken in w
 
 De volgende belangrijke functies in Adobe Analytics bieden de volgende marketingmogelijkheden:
 
-* [ Multikanaalgegevensinzameling ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
+* [ Multikanaalgegevensinzameling ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=nl-NL)
 
-* [ Offlinegegevensintegratie ](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
+* [ Offlinegegevensintegratie ](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=nl-NL)
 
 * [Ad-hocanalyse in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 

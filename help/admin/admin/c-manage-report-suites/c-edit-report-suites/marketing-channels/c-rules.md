@@ -165,7 +165,7 @@ Deze regel geldt voor bezoekers waarbij hun verwijzings-URL overeenkomt met de i
 
 ![](assets/int-channel1.png)
 
-Zie [ Redenen voor Intern (Zitting verfrist zich) ](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal) voor meer informatie over waarom dit kanaal voorkomt.
+Zie [ Redenen voor Intern (Zitting verfrist zich) ](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=nl-NL#internal) voor meer informatie over waarom dit kanaal voorkomt.
 
 ### Direct {#direct}
 

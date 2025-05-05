@@ -22,5 +22,5 @@ Gebruik Adobe Experience Platform Mobile SDK om Analytics voor mobiele apparaten
 
 >[!CAUTION]
 >
->Ondersteuning voor versie 4 Mobile SDK&#39;s is beëindigd op 31 augustus 2021. Zie [ Adobe Mobiele Veelgestelde Veelgestelde vragen van de Diensten van het Eind van de Eind-van-leven ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) voor meer informatie.
+>Ondersteuning voor versie 4 Mobile SDK&#39;s is beëindigd op 31 augustus 2021. Zie [ Adobe Mobiele Veelgestelde Veelgestelde vragen van de Diensten van het Eind van de Eind-van-leven ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=nl-NL) voor meer informatie.
 

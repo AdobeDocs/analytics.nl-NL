@@ -17,7 +17,7 @@ Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. 
 
 >[!IMPORTANT]
 >
->Adobe raadt u af deze variabele te gebruiken. Gebruik de [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) in plaats daarvan.
+>Adobe raadt u af deze variabele te gebruiken. Gebruik de [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) in plaats daarvan.
 
 ## Bezoeker-id met de Adobe Analytics-extensie
 
@@ -48,4 +48,4 @@ s.visitorID = "abc123";
 
 ## Bezoeker-id met de Web SDK
 
-Met het Adobe Experience Platform Edge-netwerk kunt u meerdere id&#39;s opgeven met behulp van XDM [Identiteitskaart](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap). Elke identiteit in een identiteitskaart heeft een verschillende namespace. U kunt opgeven welke naamruimte moet worden gebruikt voor Bezoeker-id als onderdeel van [datastream-configuratie](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Zodra dit wordt gevormd, wanneer u een gebeurtenis met een waarde verzendt die voor dit namespace wordt gespecificeerd, zal het automatisch als identiteitskaart van de Bezoeker in Analytics worden gebruikt.
+Met het Adobe Experience Platform Edge-netwerk kunt u meerdere id&#39;s opgeven met behulp van XDM [Identiteitskaart](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=nl-NL#using-identitymap). Elke identiteit in een identiteitskaart heeft een verschillende namespace. U kunt opgeven welke naamruimte moet worden gebruikt voor Bezoeker-id als onderdeel van [datastream-configuratie](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL#analytics). Zodra dit wordt gevormd, wanneer u een gebeurtenis met een waarde verzendt die voor dit namespace wordt gespecificeerd, zal het automatisch als identiteitskaart van de Bezoeker in Analytics worden gebruikt.

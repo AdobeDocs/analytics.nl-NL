@@ -22,7 +22,7 @@ De **[!UICONTROL Privacy Labeling for Data Governance]** biedt een overzicht van
 
    >[!NOTE]
    >
-   >Als dit menu-item niet zichtbaar is, moet u deze toevoegen aan een [productprofiel in beheerconsole](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) met machtigingen voor deze functionaliteit of toegang tot een rapportsuite binnen de Admin Console.
+   >Als dit menu-item niet zichtbaar is, moet u deze toevoegen aan een [productprofiel in beheerconsole](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=nl-NL) met machtigingen voor deze functionaliteit of toegang tot een rapportsuite binnen de Admin Console.
 
 3. Selecteer rechtsboven een rapportsuite waarvan u de privacylabels wilt weergeven of beheren.
 
@@ -31,11 +31,11 @@ De **[!UICONTROL Privacy Labeling for Data Governance]** biedt een overzicht van
 | Instelling | Beschrijving |
 | --- | --- |
 | **[!UICONTROL Component Name]** | Deze kolom maakt een lijst van alle componenten (afmetingen, metriek) die deel van deze rapportreeks uitmaken. |
-| **[!UICONTROL Identity]** | Identiteitsgegevens &quot;I&quot;etiketten worden gebruikt om gegevens te categoriseren die een specifieke persoon kunnen identificeren of contacteren. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-identity-labels) |
-| **[!UICONTROL Sensitivity]** | “S”-labels voor gevoelige data worden gebruikt om gevoelige data zoals geografische data te categoriseren. In de toekomst worden extra gevoelige gegevenslabels geïntroduceerd om andere soorten gevoelige informatie te identificeren. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#sensitive-data-labels) |
-| **[!UICONTROL GDPR Access]** | Met labels voor gegevensbeheer kunnen gebruikers gegevens classificeren die privacygerelateerde overwegingen en contractuele voorwaarden weerspiegelen, zodat deze in overeenstemming zijn met de regelgeving en het bedrijfsbeleid. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-access-labels) |
-| **[!UICONTROL GDPR Delete]** | Een label Verwijderen is alleen vereist voor velden die een waarde bevatten waarmee een treffer aan het gegevensonderwerp kan worden gekoppeld (zodat het gegevensonderwerp kan worden geïdentificeerd). [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-delete-labels) |
-| **[!UICONTROL Namespace]** | Wanneer u een variabele als ID-DEVICE of ID-PERSON labelt, wordt u gevraagd om een naamruimte op te geven. U kunt een eerder gedefinieerde naamruimte gebruiken of een nieuwe naamruimte definiëren. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#provide-namespace) |
+| **[!UICONTROL Identity]** | Identiteitsgegevens &quot;I&quot;etiketten worden gebruikt om gegevens te categoriseren die een specifieke persoon kunnen identificeren of contacteren. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=nl-NL#data-privacy-identity-labels) |
+| **[!UICONTROL Sensitivity]** | “S”-labels voor gevoelige data worden gebruikt om gevoelige data zoals geografische data te categoriseren. In de toekomst worden extra gevoelige gegevenslabels geïntroduceerd om andere soorten gevoelige informatie te identificeren. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=nl-NL#sensitive-data-labels) |
+| **[!UICONTROL GDPR Access]** | Met labels voor gegevensbeheer kunnen gebruikers gegevens classificeren die privacygerelateerde overwegingen en contractuele voorwaarden weerspiegelen, zodat deze in overeenstemming zijn met de regelgeving en het bedrijfsbeleid. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=nl-NL#data-privacy-access-labels) |
+| **[!UICONTROL GDPR Delete]** | Een label Verwijderen is alleen vereist voor velden die een waarde bevatten waarmee een treffer aan het gegevensonderwerp kan worden gekoppeld (zodat het gegevensonderwerp kan worden geïdentificeerd). [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=nl-NL#data-privacy-delete-labels) |
+| **[!UICONTROL Namespace]** | Wanneer u een variabele als ID-DEVICE of ID-PERSON labelt, wordt u gevraagd om een naamruimte op te geven. U kunt een eerder gedefinieerde naamruimte gebruiken of een nieuwe naamruimte definiëren. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=nl-NL#provide-namespace) |
 | **[!UICONTROL Category]** | Verwijst naar type component, zoals standaardcomponent, conversievariabele, enz. |
 
 {style="table-layout:auto"}

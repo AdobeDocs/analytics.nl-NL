@@ -15,15 +15,15 @@ ht-degree: 3%
 
 Componenten in Analysis Workspace bestaan uit afmetingen, metriek, segmenten en datumbereiken die u naar een project kunt slepen en neerzetten.
 
-Als u het menu Componenten wilt openen, klikt u op de knop **[!UICONTROL Components]** in de linkerspoorstaaf. U kunt schakelen tussen [Deelvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), [Visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)en componenten van de linkerspoorpictogrammen of met behulp van [sneltoetsen](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Als u het menu Componenten wilt openen, klikt u op de knop **[!UICONTROL Components]** in de linkerspoorstaaf. U kunt schakelen tussen [Deelvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL), [Visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=nl-NL)en componenten van de linkerspoorpictogrammen of met behulp van [sneltoetsen](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/component-overview.png)
 
-U kunt ook de [Dichtheidsinstellingen weergeven](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) voor het project kunnen in één keer meer waarden in het linkerspoor worden opgetekend door naar **[!UICONTROL Project > Project Info & Settings > View Density]**.
+U kunt ook de [Dichtheidsinstellingen weergeven](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=nl-NL) voor het project kunnen in één keer meer waarden in het linkerspoor worden opgetekend door naar **[!UICONTROL Project > Project Info & Settings > View Density]**.
 
 ## Dimensies {#dimensions}
 
-[**Dimension**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html) Dit zijn tekstkenmerken die het gedrag van de bezoeker beschrijven en die u in uw analyse kunt bekijken, splitsen en vergelijken. Ze zijn te vinden in de linkercomponentrails (oranje sectie) en worden doorgaans toegepast als rijen van een tabel.
+[**Dimension**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html?lang=nl-NL) Dit zijn tekstkenmerken die het gedrag van de bezoeker beschrijven en die u in uw analyse kunt bekijken, splitsen en vergelijken. Ze zijn te vinden in de linkercomponentrails (oranje sectie) en worden doorgaans toegepast als rijen van een tabel.
 
 Voorbeelden van afmetingen zijn [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type], en [!UICONTROL Products]. Dimension worden geleverd door Adobe en worden vastgelegd via uw aangepaste implementatie (eVar, Props, classificaties, enz.).
 
@@ -35,27 +35,27 @@ Voorbeelden van dimensie-items zijn [!UICONTROL Homepage] (binnen de [!UICONTROL
 
 ## Metrics {#metrics}
 
-[**Metrisch**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html) zijn kwantitatieve maatstaven voor het gedrag van bezoekers. Ze zijn te vinden in het linkerspoor van de component (groene sectie) en worden doorgaans toegepast als kolommen van een tabel.
+[**Metrisch**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=nl-NL) zijn kwantitatieve maatstaven voor het gedrag van bezoekers. Ze zijn te vinden in het linkerspoor van de component (groene sectie) en worden doorgaans toegepast als kolommen van een tabel.
 
-Voorbeelden van metriek zijn: [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], en [!UICONTROL Revenue/Order]. Metriek worden geleverd door Adobe of vastgelegd via uw aangepaste implementatie ([!UICONTROL Success events]), of gemaakt met de [Berekende metrische builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+Voorbeelden van metriek zijn: [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], en [!UICONTROL Revenue/Order]. Metriek worden geleverd door Adobe of vastgelegd via uw aangepaste implementatie ([!UICONTROL Success events]), of gemaakt met de [Berekende metrische builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=nl-NL).
 
 ![](assets/metrics.png)
 
 ## Segmenten {#segments}
 
-[**Segmenten**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) Dit zijn publieksfilters die worden toegepast op uw analyse. Ze zijn te vinden in de linkercomponentrails (blauw gedeelte) en worden doorgaans toegepast boven aan een deelvenster of boven metrische kolommen in een tabel.
+[**Segmenten**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=nl-NL) Dit zijn publieksfilters die worden toegepast op uw analyse. Ze zijn te vinden in de linkercomponentrails (blauw gedeelte) en worden doorgaans toegepast boven aan een deelvenster of boven metrische kolommen in een tabel.
 
-Voorbeelden van segmenten zijn [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email], en [!UICONTROL Authenticated Hits]. Segmenten worden geleverd door Adobe of gemaakt in het dialoogvenster [dropzone van deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)of gemaakt met de [Segment builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+Voorbeelden van segmenten zijn [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email], en [!UICONTROL Authenticated Hits]. Segmenten worden geleverd door Adobe of gemaakt in het dialoogvenster [dropzone van deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL)of gemaakt met de [Segment builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=nl-NL).
 
 ![](assets/segments.png)
 
 ## Datumbereik {#date-ranges}
 
-[**Datumbereik**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) Dit zijn de datums waarop u de analyse uitvoert. Ze zijn te vinden in de linkercomponentrails (paarse sectie) en worden doorgaans toegepast in de kalender van elk deelvenster.
+[**Datumbereik**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=nl-NL) Dit zijn de datums waarop u de analyse uitvoert. Ze zijn te vinden in de linkercomponentrails (paarse sectie) en worden doorgaans toegepast in de kalender van elk deelvenster.
 
 U kunt de componenten van het datumbereik relatief maken ten opzichte van de deelvensterkalender. Zie voor meer informatie [Over datumbereiken in het relatieve deelvenster](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
-Voorbeelden van datumbereiken zijn juli 2019. [!UICONTROL Last 4 weeks], en [!UICONTROL This month]. Datumbereiken worden opgegeven door Adobe, toegepast in het dialoogvenster [paneelkalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)of gemaakt met de [Bouwer van datumbereik](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
+Voorbeelden van datumbereiken zijn juli 2019. [!UICONTROL Last 4 weeks], en [!UICONTROL This month]. Datumbereiken worden opgegeven door Adobe, toegepast in het dialoogvenster [paneelkalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL)of gemaakt met de [Bouwer van datumbereik](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=nl-NL).
 
 ![](assets/date-ranges.png)
 

@@ -34,12 +34,12 @@ De volgende variabelen werden geïntroduceerd in Bulk gegevens toevoegend, eerde
 * **`aamlh`**: Adobe Audience Manager-locatiehint.
 * **`contextData.key`**: [Contextgegevensvariabelen](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: Experience Cloud ID service variables. Inclusief `id`, `authState` en `isMCSeed`.
-* **`hints`**: [Clienttip](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variabelen. Inclusief `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, en `wow64`.
+* **`hints`**: [Clienttip](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=nl-NL) variabelen. Inclusief `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, en `wow64`.
 * **`ipaddress`**: IP van de bezoeker adres.
 * **`language`**: De [Taal](/help/components/dimensions/language.md) dimensie.
 * **`list1`** - **`list3`**: [Lijstvariabelen](/help/implement/vars/page-vars/list.md).
 * **`marketingCloudVisitorID`**: De Experience Cloud-id van de bezoeker.
-* **`tnta`**: Doelgegevensuitkering gebruikt in [Analyses voor doel](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) integratie.
+* **`tnta`**: Doelgegevensuitkering gebruikt in [Analyses voor doel](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=nl-NL) integratie.
 * **`trackingServer`**: De [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variabele.
 * **`transactionID`**: De [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variabele.
 * **`userAgent`**: De userAgent-tekenreeks van het apparaat.

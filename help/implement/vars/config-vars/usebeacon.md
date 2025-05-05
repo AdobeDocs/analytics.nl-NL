@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-Zie [De sendBeacon-API gebruiken](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) in de documentatie van SDK van het Web voor meer informatie.
+Zie [De sendBeacon-API gebruiken](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#using-the-sendbeacon-api) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Gebruik baken met de Adobe Analytics-extensie
 

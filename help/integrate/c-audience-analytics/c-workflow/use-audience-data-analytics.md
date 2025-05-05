@@ -26,7 +26,7 @@ In Analysis Workspace worden de Adobe Audience Manager-segmenten weergegeven als
 
 ## Segmentvergelijking {#compare}
 
-[Segmentvergelijking](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Dimension op twee manieren worden gebruikt: 1) als 2 segmenten die worden vergeleken, en 2) als punten in de &quot;Hoogste Punten van het &quot;lijst.
+[Segmentvergelijking](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=nl-NL) ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Dimension op twee manieren worden gebruikt: 1) als 2 segmenten die worden vergeleken, en 2) als punten in de &quot;Hoogste Punten van het &quot;lijst.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteert u de **[!UICONTROL Segment Comparison]** van de linkerspoorstaaf.
 
@@ -43,21 +43,21 @@ In Analysis Workspace worden de Adobe Audience Manager-segmenten weergegeven als
 
 ## Klantenreis (Flow) in Analysis Workspace {#flow}
 
-Adobe Audience Manager-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en geven het lidmaatschap van het publiek weer voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;) en later in aanmerking kan komen voor een meer gekwalificeerd segment (bijvoorbeeld &quot;Bewustmaking&quot;). U kunt [Stroom](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace om de reis die een bezoeker maakt tussen het publiek zichtbaar te maken.
+Adobe Audience Manager-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en geven het lidmaatschap van het publiek weer voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;) en later in aanmerking kan komen voor een meer gekwalificeerd segment (bijvoorbeeld &quot;Bewustmaking&quot;). U kunt [Stroom](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=nl-NL) in Analysis Workspace om de reis die een bezoeker maakt tussen het publiek zichtbaar te maken.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteert u de **[!UICONTROL Flow]** visualisatie vanaf de linkerspoorstaaf.
 
 1. Sleep de [!UICONTROL Audience Name] -dimensie in de Flow Builder.
 1. Klik op **[!UICONTROL Build]**.
-1. (Optioneel): sleep een andere dimensie naar de stroomvisualisatie om een [interdimensionale stroom](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html).
+1. (Optioneel): sleep een andere dimensie naar de stroomvisualisatie om een [interdimensionale stroom](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html?lang=nl-NL).
 
 ![](assets/flow-aamaudiences.png)
 
-Soorten publiek kan ook worden gebruikt in [Afvalvisualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
+Soorten publiek kan ook worden gebruikt in [Afvalvisualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=nl-NL).
 
 ## Venn Visualization in Analysis Workspace {#venn}
 
-[Venn-visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html) Geef de overlapping tussen maximaal 3 segmenten weer.
+[Venn-visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=nl-NL) Geef de overlapping tussen maximaal 3 segmenten weer.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteert u de **[!UICONTROL Venn]** visualisatie vanaf de linkerspoorstaaf.
 

@@ -23,7 +23,7 @@ Beide verkeersgegevens worden opgeslagen in een aparte gegevensopslagruimte die 
 
 >[!NOTE]
 >
->De Edge Network van Adobe Experience Platform verleent de dienst van de a [ botopsporing ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) die de etiketten raken die als zijn van bots worden geïdentificeerd. Het botdetectieproces dat in Adobe Analytics wordt gebruikt, is apart en verwijst niet naar de beide scores die zijn opgenomen bij gegevens die via de Edge Network aankomen. De twee systemen gebruiken echter dezelfde IAB-botlijst.
+>De Edge Network van Adobe Experience Platform verleent de dienst van de a [ botopsporing ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=nl-NL) die de etiketten raken die als zijn van bots worden geïdentificeerd. Het botdetectieproces dat in Adobe Analytics wordt gebruikt, is apart en verwijst niet naar de beide scores die zijn opgenomen bij gegevens die via de Edge Network aankomen. De twee systemen gebruiken echter dezelfde IAB-botlijst.
 
 ## Beide regels bijwerken of uploaden
 

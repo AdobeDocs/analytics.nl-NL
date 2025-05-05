@@ -31,7 +31,7 @@ return false;
 
 ## Annuleer het verzenden van een gebeurtenis manueel het uitvoeren van SDK van het Web
 
-Gebruik de `onBeforeEventSend` callback en return `false`. Zie [Gebeurtenissen globaal wijzigen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+Gebruik de `onBeforeEventSend` callback en return `false`. Zie [Gebeurtenissen globaal wijzigen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
 
 ```js
 alloy("configure"), {

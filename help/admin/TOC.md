@@ -15,7 +15,7 @@ ht-degree: 14%
 # Beheerhandleiding voor Adobe Analytics {#admin}
 
 + [Analytics Admin-handleiding](home.md)
-+ [Opmerkingen bij de release van Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Opmerkingen bij de release van Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
 + Adobe-beheerconsole {#admin-console}
    + [Overzicht](admin-console/home.md)
    + [Adobe Analytics eerste beheerdershandleiding](admin-console/first-admin-guide.md)

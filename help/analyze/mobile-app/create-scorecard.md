@@ -87,7 +87,7 @@ U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL Marketing Channel]** in 
 
 Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer.
 
-Als u het segment op alle tegels in scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [ vormt en past filters voor uw scorecards ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe de zelfde manier u in Adobe Analytics Workspace zou.
+Als u het segment op alle tegels in scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [ vormt en past filters voor uw scorecards ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) toe de zelfde manier u in Adobe Analytics Workspace zou.
 
 ![ bouwt segmenten voor filter ](assets/segment_ui.png)
 

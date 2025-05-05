@@ -27,7 +27,7 @@ Als u beide `linkInternalFilters` en `linkExternalFilters` tegelijkertijd, moet 
 
 Koppelingen worden automatisch gekwalificeerd als een afsluitkoppeling als het doeldomein van de koppeling afwijkt van het huidige `window.location.hostname`. De SDK van het Web biedt geen configuratievariabelen aan om automatische uitgangsverbindingsopsporing te wijzigen. Als u de domeinen moet aanpassen die als uitgangsverbinding kwalificeren, kunt u douanelogica in gebruiken `onBeforeEventSend` callback.
 
-Zie [Automatisch koppelingen bijhouden](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) in de documentatie van SDK van het Web voor meer informatie.
+Zie [Automatisch koppelingen bijhouden](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=nl-NL#automaticLinkTracking) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Uitgaande koppelingen - Bijhouden met de Adobe Analytics-extensie
 

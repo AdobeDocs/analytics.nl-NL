@@ -21,7 +21,7 @@ De Identity Service wijst een unieke, permanente id toe die kan worden gedeeld t
 
 ## Hoe kan ik hartslagvideo bijhouden implementeren?
 
-Zie [Audio en video meten in Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+Zie [Audio en video meten in Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=nl-NL).
 
 ## Kan een de dienstonderbreking bij Adobe prestaties beïnvloeden?
 

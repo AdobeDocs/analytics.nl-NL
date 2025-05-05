@@ -23,7 +23,7 @@ Voor de Tovenaar van het Verzoek: Stap 1 vorm, selecteert u de rapportreeks, rap
 
 1. **de Selecteur van de Waaier**: Laat u een identiteitskaart van de rapportreeks van een cel in Excel selecteren. Zie [ Uitgezochte de Reeksen van het Rapport ](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segment**: De segmenten zijn douanesubsets van gegevens, of gegevens die door regels worden gefilterd die u creeert. Segmenten zijn gebaseerd op hits, bezoeken en bezoekers. Zie de [ Gids van de Segmentatie van de Analyse ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie over segmenten.
+1. **Segment**: De segmenten zijn douanesubsets van gegevens, of gegevens die door regels worden gefilterd die u creeert. Segmenten zijn gebaseerd op hits, bezoeken en bezoekers. Zie de [ Gids van de Segmentatie van de Analyse ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=nl-NL) voor meer informatie over segmenten.
 
    U kunt bijvoorbeeld een [!UICONTROL Pages Report] -segment uitvoeren en vervolgens een eerste bezoekerssegment toepassen.
 

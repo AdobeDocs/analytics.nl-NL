@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De FTP-optie voor classificaties biedt meer flexibiliteit bij het uploaden van grote sets met classificatiegegevens, zoals de mogelijkheid om gegevens te uploaden naar meerdere rapportsets en gegevenssets te uploaden die groter zijn dan 50.000 rijen.
 
-Zie [classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) voor stappen voor het downloaden van classificatiegegevens via FTP en het uploaden van gegevensbestanden via FTP (inclusief de stappen voor het maken van een FTP-account).
+Zie [classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=nl-NL) voor stappen voor het downloaden van classificatiegegevens via FTP en het uploaden van gegevensbestanden via FTP (inclusief de stappen voor het maken van een FTP-account).
 
 De tijd die het systeem nodig heeft om deze bestanden te importeren, varieert op basis van een aantal factoren. Als een geüpload bestand meer dan drie dagen op de FTP-server aanwezig is, kunt u contact opnemen met de door uw organisatie ondersteunde gebruikers om contact op te nemen met de klantenservice van Adobe.
 

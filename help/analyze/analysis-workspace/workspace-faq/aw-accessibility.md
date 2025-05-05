@@ -49,7 +49,7 @@ Navigatie in [!UICONTROL Analysis Workspace] Kies Boven > Omlaag en Links > Rech
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een uitgebreide reeks [sneltoetsen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
+[!UICONTROL Analysis Workspace] biedt een uitgebreide reeks [sneltoetsen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=nl-NL) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
 
 #### Navigatie
 
@@ -91,7 +91,7 @@ Een schermlezer leest tekst die op het computerscherm wordt weergegeven. De pagi
 
 [!UICONTROL Analysis Workspace] streeft naar WCAG 2.1 AA-conformiteit, inclusief vereisten voor kleurcontrast.
 
-Bovendien kunnen gebruikers hun eigen voorkeurskleurenpalet voor een project instellen onder **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Kleurenpalet Project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html).
+Bovendien kunnen gebruikers hun eigen voorkeurskleurenpalet voor een project instellen onder **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Kleurenpalet Project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=nl-NL).
 
 ## Vereiste veldvalidatie in componentbuilders
 

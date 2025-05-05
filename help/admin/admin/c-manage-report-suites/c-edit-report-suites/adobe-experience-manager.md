@@ -22,6 +22,6 @@ Hiermee schakelt Analytics afbeeldingen in en klikt u op [!UICONTROL Assets] opg
 * Hiermee worden nieuwe dimensies toegevoegd aan de elementvariabelen in Analysis Workspace: Id van element, bron van element en geklikt element-id
 * Hiermee voegt u nieuwe afmetingen toe aan gebeurtenissen Asset: Asset Clicks en Asset Impressions
 
-Voor gegevens die moeten worden gevuld, raadpleegt u de [Documentatie voor informatie over middelen AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html) voor volledige implementatieinstructies.
+Voor gegevens die moeten worden gevuld, raadpleegt u de [Documentatie voor informatie over middelen AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=nl-NL) voor volledige implementatieinstructies.
 
 <!--The content in this article is duplicated with the content in the Integration guide (aem-assets-reporting.md)-->

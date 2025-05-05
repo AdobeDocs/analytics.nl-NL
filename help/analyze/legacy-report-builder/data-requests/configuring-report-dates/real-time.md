@@ -27,8 +27,8 @@ U kunt:
 * Gebruik een aangepaste gebeurtenis, winkelwagentje of een andere instantie.
 * Bekijk tot 20 uur historische gegevens in real time.
 
-In real time eerbiedigt toestemmingen voor gebruikers en groepen. Bijvoorbeeld, als u geen rechten hebt om opbrengst te zien, kunt u geen rapport in real time bekijken dat opbrengstgegevens omvat. eVars (conversiemetriek) worden niet ondersteund. De toestemmingen in real time worden toegelaten in de [ Hulpmiddelen Admin ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+In real time eerbiedigt toestemmingen voor gebruikers en groepen. Bijvoorbeeld, als u geen rechten hebt om opbrengst te zien, kunt u geen rapport in real time bekijken dat opbrengstgegevens omvat. eVars (conversiemetriek) worden niet ondersteund. De toestemmingen in real time worden toegelaten in de [ Hulpmiddelen Admin ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=nl-NL).
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] zijn niet het zelfde als [ omvat Huidige Gegevens ](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) (de Recentie van Gegevens) eerder vrijgegeven eigenschap, die latentie voor standaard het melden verminderde, door gegevens te tonen alvorens het wordt gebeëindigd.
+>[!UICONTROL Real-Time Reports] zijn niet het zelfde als [ omvat Huidige Gegevens ](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=nl-NL) (de Recentie van Gegevens) eerder vrijgegeven eigenschap, die latentie voor standaard het melden verminderde, door gegevens te tonen alvorens het wordt gebeëindigd.

@@ -19,4 +19,4 @@ Wanneer totalen worden weergegeven, worden ze vaak berekend aan de serverzijde, 
 * Wanneer [statische rijen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) worden gebruikt in Freeform-tabellen en de **[!UICONTROL Show as sum of current rows]** (standaard) is geselecteerd.
 * In de [Donut visualisatie](/help/analyze/analysis-workspace/visualizations/donut.md), zodat getallen oplopen tot 100%.
 
-Ga voor meer informatie over totalen in Analysis Workspace naar [Totalen werkruimte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total).
+Ga voor meer informatie over totalen in Analysis Workspace naar [Totalen werkruimte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=nl-NL#static-row-total).

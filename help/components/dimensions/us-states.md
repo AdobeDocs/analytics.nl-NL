@@ -19,7 +19,7 @@ De &#39;Amerikaanse staat&#39; [dimensie](overview.md) meldt de staat van de bez
 Deze dimensie verwijst naar raadplegingsregels intern aan Adobe. De raadplegingswaarde is gebaseerd op het IP adres dat met de klap wordt verzonden. Adobe partners met [Digitaal element](https://www.digitalelement.com/) om raadplegingen tussen IP adres en land te handhaven.
 
 * Voor de implementaties van AppMeasurementen, werkt deze dimensie uit de doos.
-* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Geo Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Geo Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL).
 
 ## Dimension-items
 

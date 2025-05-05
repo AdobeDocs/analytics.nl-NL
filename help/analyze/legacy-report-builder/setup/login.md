@@ -26,7 +26,7 @@ Als u zich wilt aanmelden bij de Report Builder, gebruikt u uw aanmeldingsaccoun
 
 Met de aanmelding bij het Experience Cloud kunt u uw Enterprise ID (e-mail en wachtwoord) gebruiken om u aan te melden bij de Adobe Experience Cloud.
 
-Klik op **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** om terug te keren naar de aanmeldingspagina van uw bedrijf. Voor meer informatie over Enterprise ID, zie [ Teken binnen aan uw bedrijf of schoolrekening ](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
+Klik op **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** om terug te keren naar de aanmeldingspagina van uw bedrijf. Voor meer informatie over Enterprise ID, zie [ Teken binnen aan uw bedrijf of schoolrekening ](https://helpx.adobe.com/nl/enterprise/kb/enterprise-id-faq.html#whatis).
 
 ![ Schermafbeelding die het teken van Adobe Experience Cloud binnen toont opties om binnen met of zonder uw Adobe ID te ondertekenen ](assets/adobe_id_login.png)
 

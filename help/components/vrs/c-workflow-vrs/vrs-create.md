@@ -65,7 +65,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een bezoekdef
 ![](assets/components.png)
 
 1. Schakel op het tabblad [!UICONTROL Components] het selectievakje in om de curatie toe te passen voor het opnemen, uitsluiten en hernoemen van componenten voor deze virtuele rapportsuite in Analysis Workspace.
-Voor meer informatie over de virtuele cursus van de rapportreeks, zie [ Virtuele de componentencuratie van de rapportreeks ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
+Voor meer informatie over de virtuele cursus van de rapportreeks, zie [ Virtuele de componentencuratie van de rapportreeks ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=nl-NL#virtual-report-suites).
 
 1. Sleep componenten (afmetingen, metriek, segmenten, of datumwaaiers) die u in de Virtuele rapportreeks in de [!UICONTROL Included Components] sectie wilt omvatten.
 

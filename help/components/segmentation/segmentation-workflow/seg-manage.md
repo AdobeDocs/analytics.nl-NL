@@ -74,6 +74,6 @@ De zichtbare kolommen configureren in Segmentbeheer:
 
 ## Hoe kan ik-video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-Deze [ video van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) geeft een kort overzicht van hoe te om de Manager van het Segment te gebruiken.
+Deze [ video van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=nl-NL) geeft een kort overzicht van hoe te om de Manager van het Segment te gebruiken.
 
 

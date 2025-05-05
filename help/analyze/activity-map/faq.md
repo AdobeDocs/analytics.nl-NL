@@ -138,7 +138,7 @@ Ja. Vanwege beperkingen van de virtuele rapportsuite is de Live-modus van Activi
 De methode om Activity Map onbruikbaar te maken hangt van uw implementatietype af:
 
 * **uitbreiding van SDK van het Web**: In de montages van de uitbreidingsconfiguratie, uncheck de dozen **[!UICONTROL Collect internal link clicks]**, **[!UICONTROL Collect external link clicks]**, en **[!UICONTROL Collect download link clicks]**.
-* **de bibliotheek van JavaScript van SDK van het Web**: Plaats [`clickCollectionEnabled` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aan `false`.
+* **de bibliotheek van JavaScript van SDK van het Web**: Plaats [`clickCollectionEnabled` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aan `false`.
 * **uitbreiding Analytics**: In de montages van de uitbreidingsconfiguratie, uncheck de geëtiketteerde doos **[!UICONTROL Use Activity Map]**.
 * **AppMeasurement**: Verwijder of commentaar uit de module van de Activity Map binnen `AppMeasurement.js`, of beschrijf de vraag van de modulefunctie met een leeg lichaam:
 

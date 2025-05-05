@@ -24,7 +24,7 @@ De backend architectuur die met de reeksen van de Classificatie wordt vrijgegeve
 
 * Lagere verwerkingstijd (72 uur → 24 uur)
 * Een vernieuwde interface voor het beheren van classificaties
-* De optie om classificatiegegevens in Adobe Experience Platform in de toekomst via de [Adobe Analytics-bronconnector voor classificatiegegevens](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)
+* De optie om classificatiegegevens in Adobe Experience Platform in de toekomst via de [Adobe Analytics-bronconnector voor classificatiegegevens](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
 De backend architectuur die met de reeksen van de Classificatie wordt vrijgegeven bevat verscheidene opmerkelijke veranderingen:
 

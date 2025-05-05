@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Deze korte video&#39;s bieden een overzicht van hoe u het gebruik van de gereedschappen Berekend metrisch kunt optimaliseren.
 
-* [Snelle berekende cijfers in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
-* [Metrische builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
-* [Gesegmenteerde metriek](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html){target="_blank"}
-* [Metriek zonder implementatie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html){target="_blank"}
-* [Functies](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html){target="_blank"}
-* [Uw berekende metriek beheren](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}
+* [Snelle berekende cijfers in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=nl-NL){target="_blank"}
+* [Metrische builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html?lang=nl-NL){target="_blank"}
+* [Gesegmenteerde metriek](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=nl-NL){target="_blank"}
+* [Metriek zonder implementatie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=nl-NL){target="_blank"}
+* [Functies](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html?lang=nl-NL){target="_blank"}
+* [Uw berekende metriek beheren](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html?lang=nl-NL){target="_blank"}

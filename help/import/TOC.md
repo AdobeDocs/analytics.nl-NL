@@ -15,7 +15,7 @@ ht-degree: 53%
 # Adobe Analytics-importgids {#import}
 
 + [Handleiding voor importeren van analysemogelijkheden](home.md)
-+ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
 + Gegevensbronnen {#data-sources}
    + [Overzicht](data-sources/overview.md)
    + [Aan de slag](data-sources/getting-started.md)

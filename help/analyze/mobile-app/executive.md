@@ -108,7 +108,7 @@ U kunt als volgt dashboards gebruiken:
 
    * Afhankelijk van het interval u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), zult u twee opties voor datum bereiken-of de huidige spanwijdte van tijd of onmiddellijk voorafgaand aan het zien. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **[!UICONTROL COMPARE TO]** op een van de opties die worden weergegeven om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tik op **[!UICONTROL Done]** rechtsboven in het scherm. De velden **[!UICONTROL Date Ranges]** en Scorecard worden bijgewerkt met de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd.
 
-1. Als u een segmentfilter op uw scorebord wilt toepassen, tikt u op de vervolgkeuzelijst met filters en selecteert u een segment dat door de curator is geconfigureerd. [ Filters ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in app functioneren de zelfde manier zij in Analytics Workspace doen.
+1. Als u een segmentfilter op uw scorebord wilt toepassen, tikt u op de vervolgkeuzelijst met filters en selecteert u een segment dat door de curator is geconfigureerd. [ Filters ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) in app functioneren de zelfde manier zij in Analytics Workspace doen.
 
    ![ de filter van het Segment ](/help/admin/admin/assets/filter.png)
 

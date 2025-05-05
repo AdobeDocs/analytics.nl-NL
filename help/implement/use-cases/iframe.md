@@ -15,7 +15,7 @@ ht-degree: 0%
 
 U kunt verwijzen naar AppMeasurement-variabelen uit zowel onderliggende als bovenliggende iframes. Alle variabelen moeten worden gedefinieerd op dezelfde locatie als de bibliotheek met AppMeasurementen. In de volgende voorbeelden wordt uitgelegd hoe u elementaire variabelen en methoden voor AppMeasurementen binnen en buiten een iframe instelt.
 
-Als u tags gebruikt in Adobe Experience Platform, moet u ervoor zorgen dat het tracker-object algemeen toegankelijk is. Zie [Overzicht Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
+Als u tags gebruikt in Adobe Experience Platform, moet u ervoor zorgen dat het tracker-object algemeen toegankelijk is. Zie [Overzicht Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=nl-NL).
 
 >[!CAUTION]
 >
@@ -67,5 +67,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Net als bij andere JavaScript-code kunnen iframes alleen communiceren wanneer domeinen en protocol overeenkomen. Deze voorbeelden werken niet als de iframe-inhoud zich in een ander domein bevindt dan het bovenliggende domein.
 * Als het AppMeasurement zich in een iframe bevindt, [`referrer`](../vars/page-vars/referrer.md) De variabele wordt ingesteld op de bovenliggende URL, niet op de werkelijke verwijzende URL. U kunt de `referrer` variabele om dit probleem op te lossen.
-* De [Adobe Experience Cloud debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) worden afbeeldingsverzoeken die binnen iframes worden gestart, niet herkend.
+* De [Adobe Experience Cloud debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) worden afbeeldingsverzoeken die binnen iframes worden gestart, niet herkend.
 * De Activity Map geeft de hitmap niet weer boven koppelingen die zijn geklikt binnen iframes. In plaats hiervan wordt het hele iframe gemarkeerd.

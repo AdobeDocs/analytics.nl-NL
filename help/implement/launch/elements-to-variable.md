@@ -37,7 +37,7 @@ Algemene variabelen zijn ideaal als u variabelewaarden wilt instellen op alle pa
 
 ### Variabelen in regels instellen
 
-Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op elke pagina wilt instellen. U definieert de criteria in de regel. Zie [Regels](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) in de Adobe Experience Platform-tagdocumentatie.
+Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op elke pagina wilt instellen. U definieert de criteria in de regel. Zie [Regels](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=nl-NL) in de Adobe Experience Platform-tagdocumentatie.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.

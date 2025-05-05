@@ -40,12 +40,12 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>2</td>
 <td><b>Een gegevensstroom configureren</b>. Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web SDK van Adobe Experience Platform.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">Een gegevensstroom configureren<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL">Een gegevensstroom configureren<a></td> 
 </tr>
 
 <td>3</td>
 <td><b>Een Adobe Analytics-service toevoegen</b> naar uw gegevensstroom. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adobe Analytics-service toevoegen aan een gegevensstroom</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL#analytics">Adobe Analytics-service toevoegen aan een gegevensstroom</a></td>
 </tr>
 
 <tr>
@@ -126,6 +126,6 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 ## Aanvullende bronnen
 
-- [Documentatie over tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#)
+- [Documentatie over tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL#)
 
 - [Mobiele SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/)

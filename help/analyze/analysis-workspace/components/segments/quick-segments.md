@@ -61,7 +61,7 @@ Een snel segment maken:
    | --- | --- |
    | [!UICONTROL Name] | De standaardnaam van een segment is een combinatie van de regelnamen in het segment. U kunt de naam van het segment wijzigen in een vriendelijkere naam. |
    | [!UICONTROL Include/exclude] | U kunt of componenten in uw segmentdefinitie omvatten of uitsluiten, maar niet allebei. |
-   | [!UICONTROL Hit/Visit/Visitor] container | De snelle segmenten omvatten één [ segmentcontainer ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) slechts die u een afmeting/metrische/datumwaaier in (of het van) het segment uitsluiten laat omvatten. [!UICONTROL Visitor] bevat overkoepelende gegevens die specifiek zijn voor de bezoeker in verschillende bezoeken en paginaweergaven. Met een [!UICONTROL Visit] -container kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken af te splitsen. Met een [!UICONTROL Hit] -container kunt u bezoekersinformatie afsplitsen op basis van afzonderlijke paginaweergaven. De standaardcontainer is [!UICONTROL Hit] . |
+   | [!UICONTROL Hit/Visit/Visitor] container | De snelle segmenten omvatten één [ segmentcontainer ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=nl-NL#section_AF2A28BE92474DB386AE85743C71B2D6) slechts die u een afmeting/metrische/datumwaaier in (of het van) het segment uitsluiten laat omvatten. [!UICONTROL Visitor] bevat overkoepelende gegevens die specifiek zijn voor de bezoeker in verschillende bezoeken en paginaweergaven. Met een [!UICONTROL Visit] -container kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken af te splitsen. Met een [!UICONTROL Hit] -container kunt u bezoekersinformatie afsplitsen op basis van afzonderlijke paginaweergaven. De standaardcontainer is [!UICONTROL Hit] . |
    | [!UICONTROL Components] (Dimension/metrisch/datumbereik) | Definieer maximaal 3 regels door componenten (afmetingen, metriek, datumbereiken of afmetingswaarden) toe te voegen. Er zijn drie manieren om de juiste component te vinden:<ul><li>Begin typend en de snelle segmentbouwer vindt automatisch de aangewezen component.</li><li>Gebruik de vervolgkeuzelijst om de component te zoeken.</li><li>Sleep componenten vanuit de linkerspoorstaaf.</li></ul> |
    | [!UICONTROL Operator] | Gebruik het vervolgkeuzemenu om standaardoperatoren en [!UICONTROL Distinct Count] -operatoren te zoeken. Zie [ exploitanten van het Segment ](/help/components/segmentation/seg-reference/seg-operators.md). |
    | plusteken (+) | Een andere regel toevoegen |
@@ -133,7 +133,7 @@ Nadat u het segment toepast, kunt u verkiezen om het aan uw lijst van de segment
 1. Selecteer **[!UICONTROL Save]** .
 
    Het segment verschijnt nu in uw lijst van de segmentcomponent voor al uw projecten.
-U kunt het segment [&#128279;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6) met andere mensen in uw organisatie ook  delen.
+U kunt het segment [&#128279;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=nl-NL#concept_4A9726927E7C44AFA260E2BB2721AFC6) met andere mensen in uw organisatie ook  delen.
 
 ## Voorbeeld van snel segment
 

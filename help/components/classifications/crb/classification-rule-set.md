@@ -57,7 +57,7 @@ Geef de classificatieregel een naam, pas de variabele toe en geef instellingen v
 
 1. (Voorwaarde) De classificatiestructuur definiëren in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   (Zie [Classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in Admin Tools Help bij het toevoegen van classificaties.)
+   (Zie [Classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=nl-NL) in Admin Tools Help bij het toevoegen van classificaties.)
 
    Variabelen worden weergegeven in het dialoogvenster [!UICONTROL New Rule Set] alleen worden weergegeven nadat ten minste één classificatie voor die variabele is gedefinieerd.
 

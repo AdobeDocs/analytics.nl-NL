@@ -54,7 +54,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>2</td>
 <td><b>Installatieschema's</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html">Overzicht van de interface Schemas</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=nl-NL">Overzicht van de interface Schemas</a></td>
 </tr>
 
 <tr>
@@ -66,31 +66,31 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>4</td>
 <td><b>Een gegevensstroom configureren</b>. Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web SDK van Adobe Experience Platform.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">Een gegevensstroom configureren<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL">Een gegevensstroom configureren<a></td> 
 </tr>
 
 <tr>
 <td>5</td> 
 <td><b>Een Adobe Analytics-service toevoegen</b> naar uw gegevensstroom. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden en naar welke rapportsuite(s) specifiek.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adobe Analytics-service toevoegen aan een gegevensstroom</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL#analytics">Adobe Analytics-service toevoegen aan een gegevensstroom</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>Een tag-eigenschap maken</b>. Eigenschappen zijn overkoepelende containers die worden gebruikt om te verwijzen naar tagbeheergegevens.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">Een eigenschap voor tags maken of configureren voor het web</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=nl-NL#for-web">Een eigenschap voor tags maken of configureren voor het web</a></td>
 </tr>
 
 <tr>
 <td>7</td> 
 <td><b>De Web SDK-extensie installeren en configureren</b> in uw eigenschap tag. Vorm de uitbreiding van SDK van het Web om gegevens naar de datastream te verzenden die in stap 4 wordt gevormd.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html">Overzicht van Adobe Experience Platform Web SDK-extensie</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=nl-NL">Overzicht van Adobe Experience Platform Web SDK-extensie</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Interfereren, valideren en publiceren</b> aan de productie. Sluit code in om de eigenschap tag op te nemen in de websitepagina's. Dan gebruik gegevenselementen, regels, etc., om uw implementatie aan te passen.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Code insluiten</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html">Overzicht van publicatie</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=nl-NL#embed-code">Code insluiten</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL">Overzicht van publicatie</a></td>
 </tr>
 
 </table>

@@ -17,7 +17,7 @@ De `writeSecureCookies` variabele maakt AppMeasurement mogelijk om in te stellen
 
 `writeSecureCookies` is alleen van toepassing op cookies die zijn ingesteld door AppMeasurement JavaScript (`s_fid`, `s_cc` en `s_sq`). Cookies ingesteld door `https` response (`s_vi` en `s_ecid`) kan worden ingesteld op &#39;veilig&#39; door contact op te nemen met de klantenservice van de Adobe.
 
-Meer informatie over cookies van Analytics [hier](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html).
+Meer informatie over cookies van Analytics [hier](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=nl-NL).
 
 >[!WARNING]
 >

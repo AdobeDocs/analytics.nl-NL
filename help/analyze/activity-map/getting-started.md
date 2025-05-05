@@ -48,7 +48,7 @@ Met de configuratie-instelling **[!UICONTROL Click data collection]** wordt de g
 1. Selecteer **[!UICONTROL Save]** .
 1. Indien nodig, bouw uw veranderingen in een bibliotheek en publiceer uw veranderingen in productie.
 
-Zie [ de de markeringsuitbreiding van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) voor meer informatie vormen.
+Zie [ de de markeringsuitbreiding van SDK van het Web ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) voor meer informatie vormen.
 
 +++
 
@@ -56,7 +56,7 @@ Zie [ de de markeringsuitbreiding van SDK van het Web ](https://experienceleague
 
 Voor het verzamelen van gegevens voor Activity Mappen is de Web SDK JavaScript-bibliotheek v2.20 of hoger vereist. Bibliotheekversies tot versie 2.15 bieden beperkte ondersteuning. Deze vorige bibliotheekversies verzenden de gegevens van de Activity Map in een afzonderlijke gebeurtenis van de rest van uw gegevens. Deze extra gebeurtenis vergroot het aantal hits dat u naar Adobe Analytics of Adobe Experience Platform verzendt.
 
-De de configuratievariabele van SDK van het Web [`clickCollectionEnabled` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) behandelt de automatische inzameling van Activity Map gegevens. Deze optie is standaard ingeschakeld, tenzij deze expliciet is uitgeschakeld.
+De de configuratievariabele van SDK van het Web [`clickCollectionEnabled` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) behandelt de automatische inzameling van Activity Map gegevens. Deze optie is standaard ingeschakeld, tenzij deze expliciet is uitgeschakeld.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ Met de configuratie-instelling **[!UICONTROL Use Activity Map]** wordt de gegeve
 1. Selecteer **[!UICONTROL Save]** .
 1. Indien nodig, bouw uw veranderingen in een bibliotheek en publiceer uw veranderingen in productie.
 
-Zie het [ de uitbreidingsoverzicht van Adobe Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) voor meer informatie.
+Zie het [ de uitbreidingsoverzicht van Adobe Analytics ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/analytics/overview) voor meer informatie.
 
 +++
 

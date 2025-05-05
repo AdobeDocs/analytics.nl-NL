@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sommige firewallconfiguraties blokkeren IP-adressen die afkomstig zijn van gegevensverzamelingsservers of servers van de Adobe die verantwoordelijk zijn voor de toegang tot gegevens. U kunt deze lijst met bereiken gebruiken om de firewallinstellingen van uw organisatie te wijzigen, zodat u toegang hebt en gegevens kunt verzenden vanuit uw organisatie.
 
-Alle IP adressen die door Adobe Analytics worden gebruikt maken deel uit van [IP adressen die door Adobe Experience Cloud worden gebruikt](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), met uitzondering van het China Performance Optimization Add-on-pakket.
+Alle IP adressen die door Adobe Analytics worden gebruikt maken deel uit van [IP adressen die door Adobe Experience Cloud worden gebruikt](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/ip-addresses), met uitzondering van het China Performance Optimization Add-on-pakket.
 
 ## IP van de Optimalisering van de Prestaties van China adressen
 
@@ -36,6 +36,6 @@ De regionale servers van de gegevensinzameling in China gebruiken de volgende IP
 
 >[!MORELIKETHIS]
 >
->[IP adressen die door Adobe Experience Cloud worden gebruikt](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>[IP adressen die door Adobe Experience Cloud worden gebruikt](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Door Adobe Analytics gebruikte domeinen](domains.md)

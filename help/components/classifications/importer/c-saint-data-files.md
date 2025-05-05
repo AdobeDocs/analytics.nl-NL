@@ -92,7 +92,7 @@ Een gegevensbestand moet aan de volgende structuurregels voldoen:
 
 >[!MORELIKETHIS]
 >
->* [Veelvoorkomende uploadproblemen](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
+>* [Veelvoorkomende uploadproblemen](https://helpx.adobe.com/nl/analytics/kb/common-saint-upload-issues.html)
 
 ## Indeling kolomkop
 
@@ -158,7 +158,7 @@ Deze tekens hebben een speciale betekenis in een gegevensbestand. Gebruik deze w
 
 Campagnedatums zijn doorgaans bereiken (begin- en einddatum) die aan afzonderlijke campagnes zijn gekoppeld. Datums moeten worden weergegeven in de notatie JJJJ/MM/DD. Bijvoorbeeld 2013/06/15-2013/06/30.
 
-Zie voor meer informatie [Conversie-classificaties](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+Zie voor meer informatie [Conversie-classificaties](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=nl-NL).
 
 >[!NOTE]
 >
@@ -201,4 +201,4 @@ Dit is de kolom waarin het datumbereik moet worden ingevoerd.
 
 ## Problemen met classificaties oplossen
 
-* [Veelvoorkomende uploadproblemen](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Het artikel in de Knowledge Base bevat een beschrijving van problemen die het gevolg zijn van onjuiste bestandsindelingen en bestandsinhoud.
+* [Veelvoorkomende uploadproblemen](https://helpx.adobe.com/nl/analytics/kb/common-saint-upload-issues.html): Het artikel in de Knowledge Base bevat een beschrijving van problemen die het gevolg zijn van onjuiste bestandsindelingen en bestandsinhoud.

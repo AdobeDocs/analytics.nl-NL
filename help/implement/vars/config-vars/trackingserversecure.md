@@ -28,7 +28,7 @@ Het gebruik van Web SDK [!UICONTROL Edge domain] om zowel Tracking Server als Se
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** knop onder [!UICONTROL Adobe Experience Platform Web SDK].
 1. Stel het gewenste **[!UICONTROL Edge domain]** tekstveld.
 
-Zie [De extensie Adobe Experience Platform Web SDK configureren](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) in de documentatie van SDK van het Web voor meer informatie.
+Zie [De extensie Adobe Experience Platform Web SDK configureren](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=nl-NL) in de documentatie van SDK van het Web voor meer informatie.
 
 >[!TIP]
 >
@@ -36,7 +36,7 @@ Zie [De extensie Adobe Experience Platform Web SDK configureren](https://experie
 
 ## Het domein van de rand voert manueel de SDK van het Web uit
 
-De SDK configureren met [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html). Het veld is een tekenreeks die het domein bepaalt waarnaar gegevens moeten worden verzonden.
+De SDK configureren met [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL). Het veld is een tekenreeks die het domein bepaalt waarnaar gegevens moeten worden verzonden.
 
 ```json
 alloy("configure", {
@@ -59,7 +59,7 @@ Als dit veld niet wordt ingevuld, wordt standaard de waarde in het dialoogvenste
 
 De `s.trackingServerSecure` variabele is een tekenreeks die de locatie bevat waar verzoeken om afbeeldingen moeten worden verzonden. Het is bijna altijd een subdomein van uw site. De moderne privacy praktijken in browsers maken over het algemeen derde koekjes onbetrouwbaar. Als deze variabele leeg is, wordt de waarde in het dialoogvenster `s.trackingServer` variabele.
 
-De waarde voor deze variabele is bijna altijd een domein van de eerste partij, zoals `data.example.com`. Zie [Eerste cookies in het Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) in de de gebruikersgids van de Diensten van de Kern voor meer informatie over het eerste-partijkoekjesproces.
+De waarde voor deze variabele is bijna altijd een domein van de eerste partij, zoals `data.example.com`. Zie [Eerste cookies in het Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=nl-NL) in de de gebruikersgids van de Diensten van de Kern voor meer informatie over het eerste-partijkoekjesproces.
 
 De individu die aanvankelijk de first-party koekjesimplementatie vormt bepaalt ook het domein en subdomain gebruikte. Bijvoorbeeld:
 

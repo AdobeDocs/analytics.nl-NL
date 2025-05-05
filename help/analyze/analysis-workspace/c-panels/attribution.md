@@ -31,7 +31,7 @@ ht-degree: 8%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het paneel van de Attributie in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_Dit artikel documenteert het paneel van de Attributie in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/attribution) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 

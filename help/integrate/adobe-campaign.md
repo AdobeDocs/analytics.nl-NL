@@ -17,7 +17,7 @@ ht-degree: 65%
 Raadpleeg de [Adobe Campaign-documentatie](https://helpx.adobe.com/nl/campaign/standard/integrating/using/about-campaign-analytics-integration.html) voor meer informatie over het configureren van deze integratie.
 
 >[!IMPORTANT]
->Dit artikel geldt voor Adobe Campaign **Standaard** alleen rapporteren. Zie [hier](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html) voor toevoegen van Adobe Campaign **Klassiek** rapportage.
+>Dit artikel geldt voor Adobe Campaign **Standaard** alleen rapporteren. Zie [hier](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=nl-NL) voor toevoegen van Adobe Campaign **Klassiek** rapportage.
 
 Deze integratie tussen Adobe Analytics en Adobe Campaign Standard:
 

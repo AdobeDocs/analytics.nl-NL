@@ -29,4 +29,4 @@ Report Builder installeren:
 
 ## Machtigingen
 
-Als u **[!UICONTROL Report Builder]** niet als menupunt onder **[!UICONTROL Tools]** ziet, vraag uw Beheerder van Adobe Analytics ervoor te zorgen dat u deel van een profiel van het Product bent dat de volgende toestemming omvat: *Report Builder*. Leer meer over [ Profielen van het Product ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) en [ de toestemmingen van Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
+Als u **[!UICONTROL Report Builder]** niet als menupunt onder **[!UICONTROL Tools]** ziet, vraag uw Beheerder van Adobe Analytics ervoor te zorgen dat u deel van een profiel van het Product bent dat de volgende toestemming omvat: *Report Builder*. Leer meer over [ Profielen van het Product ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=nl-NL) en [ de toestemmingen van Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=nl-NL).

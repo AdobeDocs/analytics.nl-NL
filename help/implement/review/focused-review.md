@@ -23,7 +23,7 @@ Als u de beste vijf prestatiekernindicatoren (KPI&#39;s) kent, kunt u de bijbeho
 
 Vergeet niet dat code-updates na verloop van tijd onbedoelde gevolgen kunnen hebben. U wilt ervoor zorgen dat alle metriek en dimensies verbonden aan uw [ top 5 KPIs ](/help/implement/review/define-kpis.md) nog behoorlijk functioneren. Ideaal gezien, wordt dit gedaan direct na een websiteversie; als u het niet in de laatste paar maanden hebt gedaan, doe het *nu*. Dit doet u als volgt:
 
-* Creeer dashboards om per uur trended meningen van deze kritieke metriek en variabelen (of opstelling [ alarm ](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) voor elke metrisch) te zien. Dan controleer hen voor een dag of twee om te verzekeren u de gegevens krijgt u verwacht, en de gegevens zijn correct. Zoek buigpunten. Wees bereid om kritieke problemen onmiddellijk op te lossen. Als u om het even welke discrepanties vindt, kijk in uw gegevenslaag, de regels van de markeringsmanager, en verwerkingsregels om te weten te komen waarom.
+* Creeer dashboards om per uur trended meningen van deze kritieke metriek en variabelen (of opstelling [ alarm ](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=nl-NL) voor elke metrisch) te zien. Dan controleer hen voor een dag of twee om te verzekeren u de gegevens krijgt u verwacht, en de gegevens zijn correct. Zoek buigpunten. Wees bereid om kritieke problemen onmiddellijk op te lossen. Als u om het even welke discrepanties vindt, kijk in uw gegevenslaag, de regels van de markeringsmanager, en verwerkingsregels om te weten te komen waarom.
 * Herstel het [ Dashboard van de Gezondheid van de Analyse ](https://express.adobe.com/page/tnNQGNlfzta3b/) om brede tendensen van uw metriek en variabelen van KPI te controleren.
 
 *voor meer details over hoe te ervoor te zorgen dat uw metriek en variabelen behoorlijk functioneren, [ leest deze uiteinden ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) van Adobe Analytics Champion Sarah Owen.*
@@ -36,7 +36,7 @@ Zorg ervoor dat de meest recente plaatsversie de gegevensinzameling voor die sec
 
 Als u onlangs metriek of variabelen hebt toegevoegd of veranderd, moet u uw Document van de Vereisten van het Bedrijfs (BRD) en de Verwijzing van het Ontwerp van de Oplossing (SDR) bijwerken.
 
-Als u geen documentatie van uw implementatie hebt, voer een lijst van variabelen uit en creeer uw BRD of SDR gebruikend [ dit malplaatje ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
+Als u geen documentatie van uw implementatie hebt, voer een lijst van variabelen uit en creeer uw BRD of SDR gebruikend [ dit malplaatje ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=nl-NL#implementation).
 
 ## 5. Verbeter onmiddellijk eventuele leemten in de gegevenskwaliteit die u hebt gevonden
 

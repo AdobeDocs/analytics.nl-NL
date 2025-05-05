@@ -14,6 +14,6 @@ ht-degree: 19%
 
 Meer informatie over segmentatiefuncties in Analysis Workspace.
 
-[Segmentvergelijking (segment-IQ)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)
+[Segmentvergelijking (segment-IQ)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=nl-NL)
 
-[Segmenten toepassen in Fallout-analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)
+[Segmenten toepassen in Fallout-analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=nl-NL)

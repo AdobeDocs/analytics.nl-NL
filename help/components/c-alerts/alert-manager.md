@@ -14,7 +14,7 @@ ht-degree: 0%
 
 U kunt bestaande waarschuwingen beheren in het venster Waarschuwingen. U kunt verschillende beheertaken uitvoeren voor waarschuwingen, zoals labelen, hernoemen, verwijderen en meer.
 
-De manager van het Alarm is zeer gestructureerd zoals de [ Manager van het Segment ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) en [ Berekende Metrische Manager ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html).
+De manager van het Alarm is zeer gestructureerd zoals de [ Manager van het Segment ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=nl-NL) en [ Berekende Metrische Manager ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=nl-NL).
 
 ![](assets/alert-manager.png)
 

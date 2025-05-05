@@ -42,7 +42,7 @@ Zie [Rapportsuitedata labelen](/help/admin/admin/c-data-governance/data-labeling
 ## Vereisten
 
 * Maak u vertrouwd met [GDPR-terminologie.](/help/admin/c-data-governance/gdpr-terminology.md)
-* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=nl-NL)
 * Stel voor elke rapportsuite een dataretentiebeleid in, zodat CCPA-verwijderings- en toegangsaanvragen kunnen worden gehonoreerd.
 
   Adobe Analytics kan u niet helpen bij het verwerken van aanvragen bij de Privacy Services-API, dat wil zeggen, het verwerken van toegangs- of verwijderingsaanvragen die u van uw eindgebruikers ontvangt, als de dataretentieperiode niet is ingesteld in Adobe Analytics. Neem contact op met het accountteam van de Adobe om de periode voor het bewaren van gegevens in te stellen.

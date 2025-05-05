@@ -57,7 +57,7 @@ about_classification_rules.xml
 
 ## Belangrijke informatie over regels
 
-* Opgeven [groepsmachtigingen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) voor classificaties in [!UICONTROL Admin Tools].
+* Opgeven [groepsmachtigingen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=nl-NL) voor classificaties in [!UICONTROL Admin Tools].
 
 * **Reguliere expressies**: Help is beschikbaar onder [Regelmatige expressies in classificatieregels](/help/components/classifications/crb/classification-quickstart-rules.md).
 

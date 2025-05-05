@@ -37,7 +37,7 @@ Merk op dat om een rekening van de onderzoeksmotor met te vormen **[!UICONTROL A
 
 >[!IMPORTANT]
 >
->Meer informatie over het toevoegen van de `s_kwcid` parameter aan uw [Beveiligingsbeleid voor inhoud](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
+>Meer informatie over het toevoegen van de `s_kwcid` parameter aan uw [Beveiligingsbeleid voor inhoud](https://experienceleague.adobe.com/nl/docs/id-service/using/reference/csp).
 
 ## Handmatig bijhouden {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 

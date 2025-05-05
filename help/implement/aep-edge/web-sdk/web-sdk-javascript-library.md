@@ -54,7 +54,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td>2</td>
 <td><b> schema's van de Opstelling </b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft de Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html">Overzicht van de interface Schemas</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=nl-NL">Overzicht van de interface Schemas</a></td>
 </tr>
 
 <tr>
@@ -66,31 +66,31 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 <tr>
 <td> 4</td>
 <td><b> installeer de prebuilt standalone versie </b>. U kunt de bibliotheek (<code>alloy.js</code>) op CDN direct op uw pagina van verwijzingen voorzien of het downloaden en ontvangen op uw eigen infrastructuur. U kunt ook het NPM-pakket gebruiken.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html"> Installerend de prebuilt standalone versie </a> en <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html"> Gebruikend het pakket NPM </a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=nl-NL"> Installerend de prebuilt standalone versie </a> en <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=nl-NL"> Gebruikend het pakket NPM </a></td>
 </tr>
 
 <tr>
 <td>5</td>
 <td><b> vorm een datastream </b>. Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web SDK van Adobe Experience Platform.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">Een gegevensstroom configureren<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL">Een gegevensstroom configureren<a></td> 
 </tr>
 
 <td>6</td>
 <td><b> voeg de dienst van Adobe Analytics </b> aan uw datastream toe. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden en naar welke rapportsuite(s) specifiek.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adobe Analytics-service toevoegen aan een gegevensstroom</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL#analytics">Adobe Analytics-service toevoegen aan een gegevensstroom</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b> vorm SDK van het Web </b>. Zorg ervoor dat de bibliotheek die u in stap 4 hebt geïnstalleerd, correct is geconfigureerd met de gegevensstroom-id (voorheen bekend als edge configuration id (<code>datastreamId</code>), organisatie-id (<code>orgId</code> ) en andere beschikbare opties. Zorgen voor juiste toewijzing van variabelen. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html"> vorm SDK van het Web </a><br/> <a href="../xdm-var-mapping.md"> XDM objecten veranderlijke afbeelding </a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=nl-NL"> vorm SDK van het Web </a><br/> <a href="../xdm-var-mapping.md"> XDM objecten veranderlijke afbeelding </a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b> voert bevelen </b> en/of <b> spoorgebeurtenissen </b> uit. Nadat de basiscode op uw webpagina is geïmplementeerd, kunt u beginnen met het uitvoeren van opdrachten en het volgen van gebeurtenissen met de SDK.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Gebeurtenissen verzenden</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=nl-NL">Gebeurtenissen verzenden</a></td>
 </tr>
 
 <tr>

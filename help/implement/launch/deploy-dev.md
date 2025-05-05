@@ -39,7 +39,7 @@ Ondanks alle tot dusver aangebrachte wijzigingen en configuraties is er geen cod
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de eigenschap tag die u op uw site wilt implementeren.
-3. Klik op de knop **[!UICONTROL Publishing Flow]** tab, en klik vervolgens op **[!UICONTROL Add Library]**. Zie [Overzicht van publicatie](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) in de documentatie van Markeringen voor meer informatie rond deze pagina.
+3. Klik op de knop **[!UICONTROL Publishing Flow]** tab, en klik vervolgens op **[!UICONTROL Add Library]**. Zie [Overzicht van publicatie](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL) in de documentatie van Markeringen voor meer informatie rond deze pagina.
 4. De bibliotheek een naam geven `'Initial changes'`en selecteert u de ontwikkelomgeving.
 5. Klikken **[!UICONTROL Add All Changed Resources]**, die automatisch Adobe Analytics, Identity Service en Core opsomt.
 6. Klik op **[!UICONTROL Save]**.

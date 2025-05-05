@@ -19,7 +19,7 @@ Het domein [dimensie](overview.md) meldt de toegangspunten die bezoekers gebruik
 Adobe partners met [Digitaal element](https://www.digitalelement.com/) om het domein van het toegangspunt te bepalen. Verscheidene methodes, met inbegrip van omgekeerde DNS raadpleging, worden gebruikt om het domein van het toegangspunt te bepalen. Het vereist geen configuratie, en heeft geen variabele om te bevolken.
 
 * Voor de implementaties van AppMeasurementen, werkt deze dimensie uit de doos.
-* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Network Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Network Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL).
 
 ## Dimension-items
 

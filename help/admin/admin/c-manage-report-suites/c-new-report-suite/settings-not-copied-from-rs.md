@@ -26,7 +26,7 @@ De volgende montages worden niet gekopieerd van malplaatje of gedupliceerde rapp
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Indelingsgegevens (classificatiestructuur wordt gekopieerd) </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Documentatie van importmodule voor classificaties (geüpload)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=nl-NL"> Documentatie van importmodule voor classificaties (geüpload)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opname van transactie-id inschakelen </p> </td> 
@@ -60,7 +60,7 @@ De volgende montages worden niet gekopieerd van malplaatje of gedupliceerde rapp
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bezoekerskaartbeheer </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Upgrade naar Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html?lang=nl-NL"> Upgrade naar Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA-regels </p> </td> 

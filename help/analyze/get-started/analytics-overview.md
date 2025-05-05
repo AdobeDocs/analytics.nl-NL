@@ -41,7 +41,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intro aan Ado
 >[!ENDSHADEBOX]
 
 
-Voor vragen over welk hulpmiddel om te gebruiken, zie [ Welk hulpmiddel van Adobe Analytics zou ik moeten gebruiken?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html).
+Voor vragen over welk hulpmiddel om te gebruiken, zie [ Welk hulpmiddel van Adobe Analytics zou ik moeten gebruiken?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=nl-NL).
 
 ## Ga verder met Customer Journey Analytics
 
@@ -57,4 +57,4 @@ Hier volgen enkele voordelen van Customer Journey Analytics ten opzichte van Ado
 
 * **dwars-rapport-reeks gegevens**: De bestaande implementaties van veelvoudige datasets kunnen in Platform worden gecombineerd.
 
-Voor meer informatie, zie [ overzicht van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html).
+Voor meer informatie, zie [ overzicht van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL).

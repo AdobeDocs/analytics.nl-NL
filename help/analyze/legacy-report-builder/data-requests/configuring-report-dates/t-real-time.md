@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Aanvraagdatums in real time configureren:
 
-1. Zorg ervoor dat rapportering in real time in de [ Hulpmiddelen Admin ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) wordt toegelaten.
+1. Zorg ervoor dat rapportering in real time in de [ Hulpmiddelen Admin ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=nl-NL) wordt toegelaten.
 1. Klik in het [!UICONTROL Request Wizard: Step 1] op **[!UICONTROL Real-Time Report]** > **[!UICONTROL `<report type>`]** .
 
    Selecteer bijvoorbeeld een verkeersrapport. Wanneer u een rapporttype in real time selecteert, worden de [!UICONTROL Select Time Range] opties weergegeven.

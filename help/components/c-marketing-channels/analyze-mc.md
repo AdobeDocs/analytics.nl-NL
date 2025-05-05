@@ -64,4 +64,4 @@ Met het verouderde First-Touch Channel en Last-Touch Channel kunt u een handige 
 
 ![](assets/mc-viz6.png)
 
-Meer informatie over de marketinganalyse op verschillende tabbladen vindt u in deze video: [Analyse op verschillende tabbladen gebruiken om de basismarketingkenmerken in Analysis Workspace te verkennen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Meer informatie over de marketinganalyse op verschillende tabbladen vindt u in deze video: [Analyse op verschillende tabbladen gebruiken om de basismarketingkenmerken in Analysis Workspace te verkennen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=nl-NL).

@@ -28,7 +28,7 @@ Het gebruik van deze migratiebenadering heeft zowel voor- als nadelen. Let zorgv
 De Adobe beveelt aan dit implementatiepad in de volgende scenario&#39;s te volgen:
 
 * U hebt een bestaande implementatie met de Adobe Analytics AppMeasurement JavaScript-bibliotheek. Als u een implementatie gebruikend de de markeringsuitbreiding van Adobe Analytics hebt, volg [ Migrate van de de markeringsuitbreiding van Adobe Analytics aan de de markeringsuitbreiding van SDK van het Web ](analytics-extension-to-web-sdk.md) in plaats daarvan.
-* U bent van plan om Customer Journey Analytics in de toekomst te gebruiken, maar wilt uw implementatie Analytics niet met een implementatie van SDK van het Web van kras vervangen. Het vervangen van uw implementatie van kras op het Web SDK vereist de meeste inspanning, maar ook biedt de meest levensvatbare implementatiearchitectuur op lange termijn aan. Als uw organisatie bereid is door de inspanning van een schone implementatie van SDK van het Web te gaan, zie [ Samenvattingsgegevens via het Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) in de gebruikersgids van de Customer Journey Analytics.
+* U bent van plan om Customer Journey Analytics in de toekomst te gebruiken, maar wilt uw implementatie Analytics niet met een implementatie van SDK van het Web van kras vervangen. Het vervangen van uw implementatie van kras op het Web SDK vereist de meeste inspanning, maar ook biedt de meest levensvatbare implementatiearchitectuur op lange termijn aan. Als uw organisatie bereid is door de inspanning van een schone implementatie van SDK van het Web te gaan, zie [ Samenvattingsgegevens via het Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) in de gebruikersgids van de Customer Journey Analytics.
 
 ## Stappen vereist om naar SDK van het Web te migreren
 
@@ -55,15 +55,15 @@ Uw gegevensstroom is nu klaar om gegevens te ontvangen en door te geven aan Adob
 
 +++**2. De SDK van het Web JavaScript-bibliotheek installeren**
 
-Verwijs naar de recentste versie van `alloy.js` zodat kan zijn methodevraag worden gebruikt. Zie [ SDK van het Web installeren gebruikend de bibliotheek van JavaScript ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) voor details en codeblokken aan gebruik.
+Verwijs naar de recentste versie van `alloy.js` zodat kan zijn methodevraag worden gebruikt. Zie [ SDK van het Web installeren gebruikend de bibliotheek van JavaScript ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/install/library) voor details en codeblokken aan gebruik.
 
 +++
 
 +++**3. Vorm SDK van het Web**
 
-Opstelling uw implementatie om aan de datastream te richten die in de vorige stap wordt gecreeerd door het Web SDK [`configure` te gebruiken ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) bevel. De opdracht `configure` moet op elke pagina worden ingesteld, zodat u deze naast de installatiecode van de bibliotheek kunt plaatsen.
+Opstelling uw implementatie om aan de datastream te richten die in de vorige stap wordt gecreeerd door het Web SDK [`configure` te gebruiken ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/overview) bevel. De opdracht `configure` moet op elke pagina worden ingesteld, zodat u deze naast de installatiecode van de bibliotheek kunt plaatsen.
 
-Gebruik de eigenschappen [`datastreamId` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) en [`orgId` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) binnen het bevel van SDK van het Web `configure`:
+Gebruik de eigenschappen [`datastreamId` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/datastreamid) en [`orgId` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/orgid) binnen het bevel van SDK van het Web `configure`:
 
 * Stel de `datastreamId` in op de gegevensstroom-id die u uit de vorige stap hebt opgehaald.
 * Stel de `orgId` in op IMS org van uw organisatie.
@@ -75,7 +75,7 @@ alloy("configure", {
 });
 ```
 
-U kunt naar keuze andere eigenschappen in het [`configure` plaatsen ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) bevel afhankelijk van de implementatievereisten van uw organisatie.
+U kunt naar keuze andere eigenschappen in het [`configure` plaatsen ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/overview) bevel afhankelijk van de implementatievereisten van uw organisatie.
 
 +++
 
@@ -116,7 +116,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. De methodevraag van de update om het Web SDK te gebruiken**
 
-Werk alle instanties bij waar u [`s.t()`](../../vars/functions/t-method.md) en [`s.tl()`](../../vars/functions/tl-method.md) roept, die hen met het [`sendEvent` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) bevel vervangen. Er zijn drie scenario&#39;s om te overwegen:
+Werk alle instanties bij waar u [`s.t()`](../../vars/functions/t-method.md) en [`s.tl()`](../../vars/functions/tl-method.md) roept, die hen met het [`sendEvent` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/sendevent/overview) bevel vervangen. Er zijn drie scenario&#39;s om te overwegen:
 
 * **het volgen van de mening van de Pagina**: Vervang de het volgen vraag van de paginamening met het bevel van SDK van het Web `sendEvent`:
 
@@ -128,7 +128,7 @@ Werk alle instanties bij waar u [`s.t()`](../../vars/functions/t-method.md) en [
   alloy("sendEvent", dataObj);
   ```
 
-* **Automatische verbinding het volgen**: Het [`clickCollectionEnabled` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) configuratiebezit wordt toegelaten door gebrek. De juiste variabelen voor het bijhouden van koppelingen worden automatisch ingesteld om gegevens naar Adobe Analytics te verzenden. Als u automatische verbinding het volgen wilt onbruikbaar maken, plaats dit bezit aan `false` binnen het [`configure` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) bevel.
+* **Automatische verbinding het volgen**: Het [`clickCollectionEnabled` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) configuratiebezit wordt toegelaten door gebrek. De juiste variabelen voor het bijhouden van koppelingen worden automatisch ingesteld om gegevens naar Adobe Analytics te verzenden. Als u automatische verbinding het volgen wilt onbruikbaar maken, plaats dit bezit aan `false` binnen het [`configure` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/overview) bevel.
 
 * **Handmatig verbinding het volgen**: Het Web SDK heeft geen afzonderlijke bevelen tussen de voorproef en niet-voorproefvraag. Geef dat onderscheid op in het object payload.
 

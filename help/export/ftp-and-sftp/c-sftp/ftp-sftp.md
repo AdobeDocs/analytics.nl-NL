@@ -19,7 +19,7 @@ SFTP is een veilig protocol voor het overbrengen van gegevens dat ervoor zorgt d
 
 Dit betekent dat de servers van de Adobe het bestand naar uw servers &quot;duwen&quot;. In wezen leveren we het aan uw eindpunt.
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) en [Gegevensfeed Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) gegevens via SFTP kunnen verzenden.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) en [Gegevensfeed Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=nl-NL) gegevens via SFTP kunnen verzenden.
 
 Report Builder **kan** pushgegevens via SFTP.
 

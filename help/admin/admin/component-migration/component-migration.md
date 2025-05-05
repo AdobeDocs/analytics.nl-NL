@@ -129,13 +129,13 @@ Bovendien doe een [ inventaris van Adobe Analytics ](/help/admin/admin/analytics
 
    Als de migratie ontbreekt, zie [ opnieuw een ontbroken migratie ](#retry-a-failed-migration) sectie hieronder voor meer informatie.
 
-1. (Optioneel) Nadat een project is gemigreerd, kunt u de eigendom van het project overdragen aan elke gebruiker in Customer Journey Analytics. Voor meer informatie, zie [ activa van de Overdracht ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in de Gids van Customer Journey Analytics.
+1. (Optioneel) Nadat een project is gemigreerd, kunt u de eigendom van het project overdragen aan elke gebruiker in Customer Journey Analytics. Voor meer informatie, zie [ activa van de Overdracht ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in de Gids van Customer Journey Analytics.
 
 ## Een mislukte migratie opnieuw proberen
 
 Als een migratie mislukt, kunt u de migratie opnieuw proberen.
 
-Alvorens een ontbroken migratie opnieuw te proberen, zorg ervoor u om het even welke [ niet gestaafde elementen ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) uit het project verwijdert.
+Alvorens een ontbroken migratie opnieuw te proberen, zorg ervoor u om het even welke [ niet gestaafde elementen ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=nl-NL#understand-unsupported-elements-that-cause-errors) uit het project verwijdert.
 
 >[!NOTE]
 >

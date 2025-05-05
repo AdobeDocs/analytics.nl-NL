@@ -45,7 +45,7 @@ Hieronder vindt u een aantal belangrijke functies die beschikbaar zijn in Analys
 
 **de Comités** worden gebruikt om uw analyse binnen een project te organiseren en kunnen vele lijsten &amp; visualisaties bevatten. Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer. Selecteer in de linkerbenedenhoek het bovenste pictogram **[!UICONTROL Panels]** om een volledige lijst met beschikbare deelvensters weer te geven.
 
-Meer over panelen leren, zie [ Overzicht van Panelen ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html).
+Meer over panelen leren, zie [ Overzicht van Panelen ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL).
 
 ![](assets/build-panels.png)
 
@@ -53,7 +53,7 @@ Meer over panelen leren, zie [ Overzicht van Panelen ](https://experienceleague.
 
 **Visualisaties**, zoals een bar of lijngrafiek, kan worden gebruikt om gegevens aan het leven visueel te brengen. Selecteer in de linkerbenedenhoek het middelste pictogram **[!UICONTROL Visualizations]** om de volledige lijst met beschikbare visualisaties weer te geven.
 
-Meer over visualisaties leren, zie [ Overzicht van Visualisaties ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+Meer over visualisaties leren, zie [ Overzicht van Visualisaties ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=nl-NL).
 
 ![](assets/build-visualizations.png)
 
@@ -109,8 +109,8 @@ Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen
 
 ## Aanvullende bronnen {#resources}
 
-* De Adobe biedt honderden [ videoopleidingsleerprogramma&#39;s van Analytics ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html) aan.
-* Zie [ de versienota&#39;s van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) voor updates over nieuwe eigenschappen.
+* De Adobe biedt honderden [ videoopleidingsleerprogramma&#39;s van Analytics ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=nl-NL) aan.
+* Zie [ de versienota&#39;s van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL#analytics) voor updates over nieuwe eigenschappen.
 * Een geweldige manier om kennis te maken met Analysis Workspace is via het model voor zelfstudie over Analysis Workspace Training. Deze sjabloon begeleidt u door algemene terminologie en stappen voor het maken van uw eerste analyse in Workspace. De zelfstudie starten:
    1. Op het [!UICONTROL **Workspace**] lusje in Adobe Analytics, uitgezochte **[!UICONTROL Learning]** op de linkerzijde.
    1. Selecteer **[!UICONTROL Open Tutorial]** .

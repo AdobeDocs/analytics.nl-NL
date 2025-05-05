@@ -14,7 +14,7 @@ ht-degree: 2%
 
 *In deze Help-pagina wordt beschreven hoe eVars als een [dimensie](overview.md). Voor informatie over hoe te om koopwaar uit te voeren, zie [eVar (variabele voor handelsdoeleinden)](/help/implement/vars/page-vars/evar-merchandising.md) in de gebruikershandleiding bij Implementatie.*
 
-Zie voor een gedetailleerde discussie over de werking van eVars op handelsgebied [Verkoop- en productzoekmethoden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
+Zie voor een gedetailleerde discussie over de werking van eVars op handelsgebied [Verkoop- en productzoekmethoden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=nl-NL).
 
 Wanneer het meten van het succes van externe campagnes of externe onderzoekstermijnen, wilt u typisch één enkele waarde om krediet voor om het even welke succesgebeurtenissen te ontvangen die voorkomen. Als een klant bijvoorbeeld in een e-mailcampagne op een koppeling klikt om uw website te bezoeken, worden alle aankopen die als resultaat zijn gedaan, aan die campagne gecrediteerd.
 

@@ -20,4 +20,4 @@ Nadat u de juiste gegevens naar het sjabloonbestand voor classificaties hebt gek
 
 Zie [Algemene bestandsstructuur](/help/components/classifications/importer/c-saint-data-files.md) voor belangrijke informatie over de structuur en beperkingen van geüploade bestanden.
 
-Zie [Algemene problemen met uploaden naar classificatie](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) voor hulp bij het oplossen van problemen.
+Zie [Algemene problemen met uploaden naar classificatie](https://helpx.adobe.com/nl/analytics/kb/common-saint-upload-issues.html) voor hulp bij het oplossen van problemen.

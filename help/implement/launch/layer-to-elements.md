@@ -21,7 +21,7 @@ Als uw organisatie een gegevenslaag op uw site heeft gemaakt en geïmplementeerd
 
 ## Tags gebruiken om gegevenselementen te maken
 
-[Gegevenselementen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html) Dit zijn componenten in Adobe Experience Platform Data Collection die u over het hulpmiddel kunt gebruiken. U kunt waarden van variabelen toewijzen in de Adobe Analytics-extensie met behulp van gegevenselementen.
+[Gegevenselementen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=nl-NL) Dit zijn componenten in Adobe Experience Platform Data Collection die u over het hulpmiddel kunt gebruiken. U kunt waarden van variabelen toewijzen in de Adobe Analytics-extensie met behulp van gegevenselementen.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.

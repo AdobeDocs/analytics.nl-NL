@@ -26,7 +26,7 @@ U kunt als volgt een eenvoudige metrische waarde voor Paginaweergaven per bezoek
 1. Voor deze metrische waarde sleept u eerst Paginaweergaven naar de [!UICONTROL **Definitie**] van het canvas en sleep Bezoekingen eronder (wacht tot de blauwe lijn verschijnt voordat u de lijn neerzet).
 1. Selecteer de operator voor Splitsen. (Splitsen is de standaardoperator.)
 1. U kunt nu een **[!UICONTROL Preview]** van die metrische waarde terwijl je hem bouwt, helemaal rechts boven.
-1. De verenigbaarheid van het product toont u of metrisch compatibel is met [Huidige gegevens](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) of alleen met volledig verwerkte gegevens.
+1. De verenigbaarheid van het product toont u of metrisch compatibel is met [Huidige gegevens](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=nl-NL) of alleen met volledig verwerkte gegevens.
 1. Selecteren **[!UICONTROL Save]**.
 
    Let erop dat de **[!UICONTROL Summary]** de formule werkt op om het even welk ogenblik bij u een verandering in de metrische definitie aanbrengt.

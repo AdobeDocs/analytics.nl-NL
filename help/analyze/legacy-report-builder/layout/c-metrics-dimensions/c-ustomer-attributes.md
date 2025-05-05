@@ -17,7 +17,7 @@ ht-degree: 11%
 
 De attributen van de klant worden opgeslagen in nieuw type van element genoemd VisAttr, dat als dimensie of metrisch kan worden gevormd.
 
-Raadpleeg [Experience Cloud Help](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) voor meer informatie over het uploaden van klantkenmerken.
+Raadpleeg [Experience Cloud Help](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=nl-NL) voor meer informatie over het uploaden van klantkenmerken.
 
 * Als het als metrisch wordt gevormd, wordt VisAttr blootgesteld zowel als metrisch als &quot;afmeting&quot;.
 

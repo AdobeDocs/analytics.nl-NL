@@ -37,4 +37,4 @@ Bijvoorbeeld:
 
 ![](assets/processing_rule_set_event.png)
 
-Zie [Contextgegevensvariabelen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) in de Help bij de implementatie.
+Zie [Contextgegevensvariabelen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=nl-NL) in de Help bij de implementatie.

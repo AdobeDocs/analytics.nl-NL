@@ -15,12 +15,12 @@ ht-degree: 27%
 # Adobe Analytics Integration Guide {#integration}
 
 + [Analyseintegratie](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
 + Audience Analytics {#audience-analytics}
    + [Overzicht van Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics-workflow {#audience-analytics-workflow}
       + [Workflowoverzicht](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [ creeer de bestemming van Analytics - Gids van Adobe Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [ creeer de bestemming van Analytics - Gids van Adobe Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=nl-NL)
       + [De publieksgegevens in Analytics gebruiken](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Gebruiksgevallen van Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Veelgestelde vragen](c-audience-analytics/mc-audiences-faqs.md)
@@ -38,8 +38,8 @@ ht-degree: 27%
       + [Reclameaccounts beheren](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Problemen met Advertising Analytics oplossen](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Veelgestelde vragen](c-advertising-analytics/aa-faq.md)
-+ [ Adobe Analytics voor Advertising Cloud ](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
-+ [ Adobe Analytics voor Doel - A4T ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
++ [ Adobe Analytics voor Advertising Cloud ](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=nl-NL)
++ [ Adobe Analytics voor Doel - A4T ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=nl-NL)
 + [Adobe Campaign-rapportage in Adobe Analytics](adobe-campaign.md)
 + [Adobe Analytics-gegevens integreren met Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [AEM Assets-rapportage](aem-assets-reporting.md)

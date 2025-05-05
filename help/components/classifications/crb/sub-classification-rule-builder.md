@@ -40,7 +40,7 @@ De stappen van het voorbeeld die beschrijven hoe u sub-classificaties kunt uploa
 >
 >In deze stappen wordt beschreven hoe u het in [Subclassificaties en de Rule Builder](/help/components/classifications/crb/sub-classification-rule-builder.md).
 
-1. Classificaties en subclassificaties maken in de [Classificatiebeheer](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
+1. Classificaties en subclassificaties maken in de [Classificatiebeheer](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=nl-NL).
 
    Voorbeeld:
 

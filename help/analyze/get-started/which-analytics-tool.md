@@ -67,7 +67,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vergelijking 
 
 * API voor gegevensinvoeging en API voor bulkgegevensinvoeging zijn beide methoden om verzamelingsgegevens op de server naar Adobe Analytics te verzenden. API-aanroepen voor het invoegen van gegevens worden één gebeurtenis tegelijk uitgevoerd. De API voor het invoegen van bulkgegevens accepteert CSV-bestanden die gebeurtenisgegevens bevatten, één gebeurtenis per rij. Als u aan een nieuwe implementatie van server-zijinzameling werkt, adviseren wij gebruikend de Invoeging API van de Gegevens van het Bulk.
 
-**[Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** moeten worden gebruikt:
+**[Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=nl-NL)** moeten worden gebruikt:
 
 * Als u klantgegevens van ondernemingen vastlegt in een CRM-database (Customer Relationship Management) en de gegevens wilt uploaden naar de Experience Cloud.
 * Als u CRM-gegevens wilt gebruiken voor diepere analyse in Analytics of als targetingcriteria in Adobe Target.

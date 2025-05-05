@@ -28,6 +28,6 @@ Laat Analytics toe om gebruikersactiviteit te verzamelen die bij Activity Map (v
    | Koppelingen Activity Mappen | Hiermee geeft u alle verzamelde koppelingen op de hele website weer. |
    | Koppelingen en regio Activity Mappen | Hiermee geeft u alle verzamelde koppelingen met hun regio op de hele website weer. |
 
-Voor gegevens die moeten worden gevuld, raadpleegt u de [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) voor volledige implementatieinstructies.
+Voor gegevens die moeten worden gevuld, raadpleegt u de [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=nl-NL) voor volledige implementatieinstructies.
 
 <!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->

@@ -17,7 +17,7 @@ Een uitvoerige lijst en beschrijvingen van de configuratievariabelen, de kopball
 
 ## Configuratievariabelen {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters vooraf ingesteld met `d_*` identificeer speciale, systeem-vlakke zeer belangrijke paren die door ons worden gebruikt [gegevensverzamelingsservers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Zie ook [Ondersteunde kenmerken voor DCS API-aanroepen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameters vooraf ingesteld met `d_*` identificeer speciale, systeem-vlakke zeer belangrijke paren die door ons worden gebruikt [gegevensverzamelingsservers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=nl-NL) (DCS). Zie ook [Ondersteunde kenmerken voor DCS API-aanroepen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=nl-NL).
 
 | Parameter | Beschrijving |
 |--- |--- |
@@ -32,7 +32,7 @@ Deze kopballen zijn gebieden bevatten informatie zoals verzoeken om gegevens en 
 
 | HTTP-header | Beschrijving | h_ key geaccepteerd door Audience Manager |
 | --- | --- | --- |
-| Host | Dit wordt geplaatst aan de specifieke de gastheernaam van de gegevensinzameling van de cliënt die in het de gastheer configuratiedossier van Analytics wordt gespecificeerd. Het verschijnt zoals `host name .demdex.net`. Zie [Inzicht krijgen in oproepen van het demdex-domein](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html). | `h_host` |
+| Host | Dit wordt geplaatst aan de specifieke de gastheernaam van de gegevensinzameling van de cliënt die in het de gastheer configuratiedossier van Analytics wordt gespecificeerd. Het verschijnt zoals `host name .demdex.net`. Zie [Inzicht krijgen in oproepen van het demdex-domein](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=nl-NL). | `h_host` |
 | Gebruikersagent | Reeks aan de gebruiker-Agent kopbal die binnen tot Analytics wordt overgegaan. | `h_user-agent` |
 | Accepteren in taal | Instellen op de  `Accept-Language`  doorgegeven aan Analytics. | `h_accept-language` |
 | Verwijzing | Instellen op de pagina-URL die wordt doorgegeven aan Analytics of die wordt verzameld via de `Referer` doorgegeven aan Analytics. | `h_referer` |
@@ -43,7 +43,7 @@ Bovendien `h_ip` Het signaal wordt geproduceerd van IP van de gastheer die het v
 
 ## Door de klant gedefinieerde signalen {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters vooraf ingesteld met `c_` door de klant gedefinieerde variabelen identificeren. Zie ook [Ondersteunde kenmerken voor DCS API-aanroepen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameters vooraf ingesteld met `c_` door de klant gedefinieerde variabelen identificeren. Zie ook [Ondersteunde kenmerken voor DCS API-aanroepen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=nl-NL).
 
 | Signaal | Beschrijving |
 | --- |--- |

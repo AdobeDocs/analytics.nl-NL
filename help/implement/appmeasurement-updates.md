@@ -424,7 +424,7 @@ Datum van de versie: **18 september, 2014**
 
   >[!IMPORTANT]
   >
-  >Voor een [!DNL Analytics] vraag om de methode van de POST in plaats van de methode van GET in [!DNL AppMeasurement] (een methode om [ afgekapte URLs in IE ](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html) op te lossen) te gebruiken, moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor Experience Cloud gebruiken.
+  >Voor een [!DNL Analytics] vraag om de methode van de POST in plaats van de methode van GET in [!DNL AppMeasurement] (een methode om [ afgekapte URLs in IE ](https://helpx.adobe.com/nl/analytics/kb/shortening-image-request-urls.html) op te lossen) te gebruiken, moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor Experience Cloud gebruiken.
 
 ## Versie 1.4
 
@@ -455,7 +455,7 @@ Datum van de versie: **22 mei, 2014**
 
 Datum van de versie: **17 april 2014**
 
-* Steun voor de [ dienst van identiteitskaart van de Bezoeker van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* Steun voor de [ dienst van identiteitskaart van de Bezoeker van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
 
 ## Versie 1.2.4
 
@@ -485,8 +485,8 @@ Datum van de versie: **15 November, 2013**
 
 Datum van de versie: **14 November, 2013**
 
-* Toegevoegde steun voor [ Hartslagvideometing ](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
-* `VisitorAPI.js` werd toegevoegd om de [ Dienst van identiteitskaart van de Bezoeker ](https://experienceleague.adobe.com/docs/id-service/using/home.html) te steunen.
+* Toegevoegde steun voor [ Hartslagvideometing ](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=nl-NL).
+* `VisitorAPI.js` werd toegevoegd om de [ Dienst van identiteitskaart van de Bezoeker ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) te steunen.
 
 ## Versie 1.1.1
 

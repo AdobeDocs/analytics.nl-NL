@@ -77,4 +77,4 @@ Gebruik componentengroepen om bulkcomponenttoevoegingen aan uw virtuele rapportr
 
 ## Workspace-gedrag {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Voor meer informatie over curatie in Analysis Workspace, zie [ Kromme en deel een Project ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Voor meer informatie over curatie in Analysis Workspace, zie [ Kromme en deel een Project ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=nl-NL).

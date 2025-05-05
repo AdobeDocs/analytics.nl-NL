@@ -19,7 +19,7 @@ Het kiezen van het juiste toewijzingsmodel voor uw organisatie is afhankelijk va
 >[!NOTE]
 >Deze analyse moet plaatsvinden voordat u een attributiemodel kiest.
 
-Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Op basis van de conversiemetriek, gereedschappen zoals [Gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) (voor onbewerkte gegevens) of Analysis Workspace
+Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Op basis van de conversiemetriek, gereedschappen zoals [Gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=nl-NL) (voor onbewerkte gegevens) of Analysis Workspace
 
 * Het aantal klanten dat verschillende marketingkanalen aanraakt voordat ze hun producten converteren
 * De verhouding/de verdeling van deze gedragingen
@@ -49,7 +49,7 @@ In dit geval gebruikt u de opdracht [&quot;Inverse J-vormig&quot; attributiemode
 
 Uw hypothese is: &quot;In onze industrie (zoals de reisindustrie), is het attributievenster 60 of 90 dagen, niet 30 dagen, omdat de klanten veel onderzoek doen alvorens een product te kopen.&quot;
 
-In dit geval wijzigt u uw [lookback-venster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) tot 90 dagen.
+In dit geval wijzigt u uw [lookback-venster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=nl-NL#lookback-windows) tot 90 dagen.
 
 ## Stap 3: Algoritmische toewijzing gebruiken
 
@@ -59,4 +59,4 @@ Als u nog geen attributiemodel hebt dat bevredigende antwoorden op al uw vragen 
 
 * Misschien moet je de diensten van een data wetenschapper gebruiken in plaats van alleen op Analysis Workspace te vertrouwen.
 * U kunt op onbewerkte gegevens vertrouwen, zoals in gegevensfeeds van Adobe.
-* Gebruik [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)Als u bijvoorbeeld rekening wilt houden met uw Impressiegegevens.
+* Gebruik [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL)Als u bijvoorbeeld rekening wilt houden met uw Impressiegegevens.

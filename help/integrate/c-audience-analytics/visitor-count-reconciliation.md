@@ -25,11 +25,11 @@ De cijfers voor de bezoeker zijn:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: Totale segmentpopulatie</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=nl-NL"  > Adobe Audience Manager: Totale segmentpopulatie</a> </p> </td> 
    <td colname="col3"> <p>Aantal apparaten (Experience Cloud IDs) die een lid van uw segment tijdens de raadplegingsperiode waren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: Realtime segmentpopulatie</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=nl-NL"  > Adobe Audience Manager: Realtime segmentpopulatie</a> </p> </td> 
    <td colname="col3"> <p>Aantal apparaten (Experience Cloud IDs) die een lid van uw segment waren en uw eigenschappen tijdens de raadplegingsperiode bereikten. </p> </td> 
   </tr> 
   <tr> 

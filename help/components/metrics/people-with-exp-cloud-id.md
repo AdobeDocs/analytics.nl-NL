@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Personen met Experience Cloud-id
 
-&#39;Personen met Experience Cloud-id&#39; is een [Apparaatanalyse](../cda/overview.md) metrisch die het aantal van toont [Mensen](people.md) die door Adobe zijn geïdentificeerd met behulp van de [Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+&#39;Personen met Experience Cloud-id&#39; is een [Apparaatanalyse](../cda/overview.md) metrisch die het aantal van toont [Mensen](people.md) die door Adobe zijn geïdentificeerd met behulp van de [Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
 
 ## Hoe deze metrische waarde wordt berekend
 
-Elke [Mensen](people.md) (geïdentificeerd of niet geïdentificeerd), dit [metrisch](overview.md) neemt toe als de hit de `mid` queryreeks (gebaseerd op de [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie).
+Elke [Mensen](people.md) (geïdentificeerd of niet geïdentificeerd), dit [metrisch](overview.md) neemt toe als de hit de `mid` queryreeks (gebaseerd op de [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie).
 
 U kunt de berekende metrisch creëren `[People with ECID] ÷ [People]` om het percentage bezoekers van uw site te verkrijgen met de id-service.
 

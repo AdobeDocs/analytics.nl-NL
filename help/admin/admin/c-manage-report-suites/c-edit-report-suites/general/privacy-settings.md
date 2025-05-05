@@ -15,4 +15,4 @@ ht-degree: 0%
 
 U kunt privacy-instellingen inschakelen voor browsercookies.
 
-Zie [Privacy-instellingen voor browsercookies inschakelen](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/browser-cookie-settings.html) in de de gebruikersgids van de Diensten van de Kern.
+Zie [Privacy-instellingen voor browsercookies inschakelen](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/browser-cookie-settings.html?lang=nl-NL) in de de gebruikersgids van de Diensten van de Kern.

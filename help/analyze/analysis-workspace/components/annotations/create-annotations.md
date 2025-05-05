@@ -33,7 +33,7 @@ ht-degree: 0%
 
 Standaard kunnen alleen beheerders annotaties maken. Gebruikers hebben rechten om annotaties weer te geven zoals ze doen met andere onderdelen van Analytics (zoals segmenten, berekende metriek, enz.).
 
-Nochtans, kunnen Admins de [!UICONTROL Annotation Creation] toestemming (Hulpmiddelen van Analytics) aan gebruikers via [ Adobe Admin Console ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html) geven.
+Nochtans, kunnen Admins de [!UICONTROL Annotation Creation] toestemming (Hulpmiddelen van Analytics) aan gebruikers via [ Adobe Admin Console ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=nl-NL) geven.
 
 1. U kunt op verschillende manieren annotaties maken:
 

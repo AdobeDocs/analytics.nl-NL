@@ -25,5 +25,5 @@ Nadat u de bibliotheek hebt gedownload, moet u de code configureren om gegevens 
 |--- |--- |
 | [!UICONTROL Name] | De naam komt overeen met het platform waarop u gegevensverzameling wilt inschakelen. Er zijn native bibliotheken beschikbaar voor elk platform dat in deze kolom wordt vermeld. |
 | [!UICONTROL Type] | Type van toepassingen dat kan worden gemeten gebruikend elke bibliotheek. |
-| [!UICONTROL Version] | De meest recente versie van de bibliotheek weergeven. Klik op het versienummer om het dialoogvenster [releasegeschiedenis](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html). |
+| [!UICONTROL Version] | De meest recente versie van de bibliotheek weergeven. Klik op het versienummer om het dialoogvenster [releasegeschiedenis](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=nl-NL). |
 | [!UICONTROL Documentation] | Bekijk de documentatie van de bibliotheekverwijzing. |

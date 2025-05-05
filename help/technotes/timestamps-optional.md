@@ -36,7 +36,7 @@ Tijdstempels optioneel is de standaardinstelling voor alle nieuwe rapportsuites.
 >
 >Tijdstempels Optioneel is de standaardinstelling voor alle nieuwe rapportsuites die worden gegenereerd op basis van een sjabloon. De nieuwe rapportreeksen die van een bestaande rapportreeks worden gekopieerd zullen montages van origineel erven.
 
-Zie [ Tijdstempels Facultatieve ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) voor extra opstellingsinformatie.
+Zie [ Tijdstempels Facultatieve ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=nl-NL) voor extra opstellingsinformatie.
 
 ## Tijdstempels optioneel: tijdstempelgegevens en niet-tijdstempelgegevens integreren {#integrate}
 

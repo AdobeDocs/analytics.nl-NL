@@ -46,7 +46,7 @@ Zie [Rapportsuitedata labelen](/help/admin/admin/c-data-governance/data-labeling
 ## Vereisten {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
 * Maak u vertrouwd met [GDPR-terminologie.](/help/admin/c-data-governance/gdpr-terminology.md)
-* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=nl-NL)
 * Stel voor elke rapportsuite een dataretentiebeleid in, zodat GDPR-verwijderings- en toegangsaanvragen kunnen worden gehonoreerd.
 
   >[!NOTE]

@@ -27,7 +27,7 @@ Audience Manager segment lidmaatschap is dynamisch. Gebruikers kunnen een segmen
 
 Een segment van de Audience Manager wordt vermeld als publiek in Analytics.
 
-Raadpleeg voor meer informatie [Behandelings- en segmentpopulatiegegevens in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) en [Signalen, Traits en Segmenten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
+Raadpleeg voor meer informatie [Behandelings- en segmentpopulatiegegevens in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=nl-NL) en [Signalen, Traits en Segmenten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=nl-NL).
 
 ## Analysesegmenten {#analytics-segments}
 
@@ -45,4 +45,4 @@ Een segment van Analytics is een het filtreren mechanisme voor gegevens in uw ra
 
   In Analytics daarentegen worden bezoekers opgenomen in of uitgesloten van een segment dat is gebaseerd op het bereik van de rapportdatum. Eén bezoeker heeft bijvoorbeeld vorige maand een aankoop gedaan. In Adobe Audience Manager zou die bezoeker worden opgenomen in een &quot;koper&quot;-segment, ongeacht het datumbereik. In Analytics, zou een rapport dat op deze maand wordt gebaseerd de bezoeker in het segment niet omvatten. Nochtans, zou een rapport dat op deze maand &amp; vorige maand wordt gebaseerd de bezoeker in het segment omvatten.
 
-Zie de [Handleiding voor analysegmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie .
+Zie de [Handleiding voor analysegmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=nl-NL) voor meer informatie .

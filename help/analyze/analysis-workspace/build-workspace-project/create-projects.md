@@ -56,7 +56,7 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
 ## Deelvensters toevoegen aan het project {#panels}
 
-[Deelvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) zijn de basis voor elk project in Analysis Workspace. Deelvensters worden gebruikt om de inhoud (visualisaties en componenten) van een project te ordenen.
+[Deelvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL) zijn de basis voor elk project in Analysis Workspace. Deelvensters worden gebruikt om de inhoud (visualisaties en componenten) van een project te ordenen.
 
 Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer.
 
@@ -74,7 +74,7 @@ Een deelvenster toevoegen:
 
 ## Visualisaties toevoegen aan het project
 
-[Visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) (zoals een vrije-vormlijst, een staafdiagram, of een lijngrafiek) kan worden gebruikt om gegevens aan het leven visueel te brengen.
+[Visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=nl-NL) (zoals een vrije-vormlijst, een staafdiagram, of een lijngrafiek) kan worden gebruikt om gegevens aan het leven visueel te brengen.
 
 >[!TIP]
 >

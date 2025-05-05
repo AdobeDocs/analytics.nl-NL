@@ -28,7 +28,7 @@ De Report Builder kenmerkt een segmentatiepaneel in Stap 1 van de Tovenaar van h
 >Om segmenten toe te voegen of uit te geven, lanceert de de segmentinterface van de Report Builder de het segmentbouwer van de Analyse in een venster van Microsoft Internet Explorer. Uw Report Builder-sessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
 
 1. Klik in het segmentpaneel van Stap 1 van de wizard Verzoek op **[!UICONTROL Add]** .
-1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Voor informatie over hoe te om segmenten te bouwen, verwijs naar [ segmentatie van Analytics ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Voor informatie over hoe te om segmenten te bouwen, verwijs naar [ segmentatie van Analytics ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=nl-NL).
 1. Nadat u het segment hebt bepaald en bewaard, ga terug naar de Tovenaar van het Verzoek.
 1. Klik het Refresh pictogram om de segmentlijst te verfrissen.
 
@@ -45,7 +45,7 @@ U kunt specifieke combinaties rapportdimensies hebben die u in een segment zou w
 
    ![ Schermafbeelding die in-Context Segment in geselecteerde en beschikbare containeropties toont.](assets/seg_in_context.png)
 
-   Voor meer informatie over containers, zie de [ Gids van de Segmentatie ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+   Voor meer informatie over containers, zie de [ Gids van de Segmentatie ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=nl-NL).
 
 1. De gebruikersinterface van Segment Builder wordt nu in Internet Explorer gestart. De UI van de Bouwer van het Segment zal met de container en de filter worden geïnitialiseerd u specificeerde.
 1. Nadat u een naam en een beschrijving aan het segment hebt toegevoegd, sparen het.

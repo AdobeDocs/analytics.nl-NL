@@ -85,7 +85,7 @@ Als Data Controller bent u verantwoordelijk voor het verkrijgen van uitdrukkelij
 
 Persoonsgegevens mogen in het algemeen niet langer worden bewaard dan nodig is om het doel waarvoor zij zijn verzameld te bereiken. De Algemene Voorwaarden van de Adobe passen een standaard 25-maands gegevensbewaaringsplan toe, tenzij contractueel een andere bewaartermijn wordt overeengekomen. Klanten moeten hun beleid voor het bewaren van gegevens instellen voordat de Adobe een verzoek om privacy van gegevens kan verwerken.
 
-Het huidige dataretentiebeleid van elke rapportsuite wordt weergegeven in de nieuwe Data Governance-beheergebruikersinterface. Klanten moeten contact opnemen met hun Adobe als ze hun beleid voor het bewaren van gegevens moeten aanpassen. Zie [Veelgestelde vragen over Adobe Analytics-gegevensbewaring](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html).
+Het huidige dataretentiebeleid van elke rapportsuite wordt weergegeven in de nieuwe Data Governance-beheergebruikersinterface. Klanten moeten contact opnemen met hun Adobe als ze hun beleid voor het bewaren van gegevens moeten aanpassen. Zie [Veelgestelde vragen over Adobe Analytics-gegevensbewaring](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=nl-NL).
 
 +++
 

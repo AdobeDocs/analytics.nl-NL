@@ -17,7 +17,7 @@ Indien `usePlugins` is ingeschakeld, wordt de [`doPlugins()`](../functions/doplu
 
 ## Gebruik de `onBeforeEventSend` callback die SDK van het Web gebruikt
 
-Terwijl SDK van het Web geen booleaanse waarde heeft om de uitvoering van extra logica te behandelen alvorens het gegeven wordt verzonden naar Adobe, kunt u registreren `onBeforeEventSend` callback om gegevens te wijzigen. Zie [Gebeurtenissen globaal wijzigen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+Terwijl SDK van het Web geen booleaanse waarde heeft om de uitvoering van extra logica te behandelen alvorens het gegeven wordt verzonden naar Adobe, kunt u registreren `onBeforeEventSend` callback om gegevens te wijzigen. Zie [Gebeurtenissen globaal wijzigen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Plug-ins gebruiken met de Adobe Analytics-extensie
 

@@ -118,7 +118,7 @@ Ga terug naar de wizard Data Source voor instructies en upload het bestand via F
 
 Het toevoegen van berekende metriek zal nuttig zijn wanneer het maken van loon-per-klikbesluiten.
 
-Bijvoorbeeld, kon u deze [ berekende metriek ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics) toevoegen:
+Bijvoorbeeld, kon u deze [ berekende metriek ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=nl-NL#calculated-metrics) toevoegen:
 
 | Naam | Formule | Metrisch type | Beschrijving |
 | --- | --- | --- | --- |

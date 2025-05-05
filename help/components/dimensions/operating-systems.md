@@ -19,7 +19,7 @@ Het &quot;besturingssysteem&quot; [dimensie](overview.md) toont het besturingssy
 Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de `User-Agent` HTTP-header in afbeeldingsaanvragen. Adobe partners met [DeviceAtlas](https://deviceatlas.com/) om raadplegingen tussen gebruikersagent en werkend systeem te handhaven.
 
 * Voor de implementaties van AppMeasurementen, werkt deze dimensie uit de doos.
-* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Device Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Device Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL).
 
 ## Dimension-items
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Sommige bezoekers van uw website hebben liever geen informatie over het bladeren in uw gegevensset. Adobe biedt de mogelijkheid om bezoekers van uw website de mogelijkheid te bieden zich af te melden voor de analyse van hun gegevens.
 
-Koppelingen met de optie om te weigeren zijn een manier waarop bezoekers van uw website hun gegevens kunnen weglaten uit de rapportage Analytics. Deze koppelingen zijn beperkt tot implementaties van AppMeasurementen; Adobe raadt aan de [Adobe Experience Cloud Inschakelen-service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) in plaats daarvan. De open-in dienst is robuuster en werkt over veelvoudige producten van Adobe Experience Cloud, met inbegrip van Adobe Analytics en AppMeasurement.
+Koppelingen met de optie om te weigeren zijn een manier waarop bezoekers van uw website hun gegevens kunnen weglaten uit de rapportage Analytics. Deze koppelingen zijn beperkt tot implementaties van AppMeasurementen; Adobe raadt aan de [Adobe Experience Cloud Inschakelen-service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=nl-NL) in plaats daarvan. De open-in dienst is robuuster en werkt over veelvoudige producten van Adobe Experience Cloud, met inbegrip van Adobe Analytics en AppMeasurement.
 
 Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelcookie te installeren. Als een gebruiker ervoor kiest om niet te worden gevolgd en een uitschakelcookie wordt ingesteld, worden de gegevens door het AppMeasurement nog steeds naar de Adobe verzonden. Deze gegevens worden echter niet verwerkt of opgenomen in rapporten.
 
@@ -44,7 +44,7 @@ De pagina om te weigeren voor uw organisatie is afhankelijk van de [`trackingSer
    1. Open op uw webserver het bestand AppMeasurement.js dat op uw site wordt gebruikt, in een code- of teksteditor.
    1. Noteer de `trackingServer` variabele waarde.
 
-* Met de [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
+* Met de [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=nl-NL):
    1. Navigeer naar uw site met de Chrome-browser.
    1. Open het Experience Cloud Debugger en ga naar de [!UICONTROL Network tab].
    1. Noteer de [!UICONTROL Request URL - Hostname] waarde.

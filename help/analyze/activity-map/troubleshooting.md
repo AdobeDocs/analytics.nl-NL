@@ -19,7 +19,7 @@ Als u geen gegevens voor Activity Map afmetingen ziet, gebruik deze pagina helpe
 
 Eerst, zorg ervoor dat het AppMeasurement correct de gegevens van de Activity Map verzamelt.
 
-1. Download en installeer de [ Debugger Chrome Uitbreiding ](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home) van Adobe Experience Cloud.
+1. Download en installeer de [ Debugger Chrome Uitbreiding ](https://experienceleague.adobe.com/nl/docs/experience-platform/debugger/home) van Adobe Experience Cloud.
 2. Navigeer naar uw webpagina en klik op een koppeling.
 3. Open foutopsporing wanneer de volgende pagina wordt geladen. Valideer dat er tussen `activitymap.` en `.activitymap` sandwichgegevensvariabelen voor de Activity Map worden weergegeven:
 

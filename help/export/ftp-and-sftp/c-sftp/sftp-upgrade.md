@@ -24,17 +24,17 @@ De verbindingsopties die worden verwijderd, worden over het algemeen als veroude
 
 De volgende functies bieden een optie voor het uploaden van gegevens naar Adobe Analytics met behulp van SFTP.
 
-* [Classificaties](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html)
+* [Classificaties](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=nl-NL)
 
-* [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
+* [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=nl-NL)
 
-* [Gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html)
+* [Gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=nl-NL)
 
-* [Databronnen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html)
+* [Databronnen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=nl-NL)
 
-* [Data Warehouse levert rapporten](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html)
+* [Data Warehouse levert rapporten](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=nl-NL)
 
-* Bovendien, sommige douaneimplementaties die door worden gecreeerd [Engineering Services](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html) kan SFTP gebruiken om gegevens uit te wisselen met Adobe.
+* Bovendien, sommige douaneimplementaties die door worden gecreeerd [Engineering Services](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=nl-NL) kan SFTP gebruiken om gegevens uit te wisselen met Adobe.
 
 ## Welke specifieke wijzigingen worden in deze update opgenomen?
 

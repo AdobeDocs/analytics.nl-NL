@@ -25,9 +25,9 @@ Voer de volgende stappen uit voor nieuwe domeinen en mappen:
 * Domeinen instellen
 * Domeinen koppelen aan mappen
 
-Zie [Een identiteitssysteem instellen](https://helpx.adobe.com/enterprise/using/set-up-identity.html) voor hulp.
+Zie [Een identiteitssysteem instellen](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html) voor hulp.
 
-Als een folder reeds in een andere organisatie door een andere bedrijfseenheid of team werd gecreeerd, volg de stappen in [directory vertrouwen](https://helpx.adobe.com/enterprise/using/set-up-identity.html#Directorytrusting) om de directory in de organisatie te vestigen die u gebruikt voor Analytics.
+Als een folder reeds in een andere organisatie door een andere bedrijfseenheid of team werd gecreeerd, volg de stappen in [directory vertrouwen](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html#Directorytrusting) om de directory in de organisatie te vestigen die u gebruikt voor Analytics.
 
 ## Gebruikersaccounts migreren voor Enterprise- en federatieve id&#39;s {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
@@ -40,7 +40,7 @@ In deze procedure zult u:
 * Vergelijk de lijsten (er wordt gezocht naar duplicaten zodat u geen overschrijvingen van accountgegevens in de Adobe Admin Console opneemt).
 * Een voltooide bewerking uploaden [!DNL .csv] (van **[!UICONTROL Admin Console]** > **[!UICONTROL Users]**) met gebruikers van Enterprise ID of Federated ID naar de Adobe Admin Console.
 
-Als u bestaande Adobe ID-gebruikersaccounts naar een Enterprise ID of Federated ID moet migreren, neemt u contact op met de klantenservice van de Adobe en vraagt u een [identiteitsschakelaar van bulkgebruiker](https://helpx.adobe.com/enterprise/using/bulk-operations.html).
+Als u bestaande Adobe ID-gebruikersaccounts naar een Enterprise ID of Federated ID moet migreren, neemt u contact op met de klantenservice van de Adobe en vraagt u een [identiteitsschakelaar van bulkgebruiker](https://helpx.adobe.com/nl/enterprise/using/bulk-operations.html).
 
 **Gebruikersaccounts migreren**
 
@@ -73,7 +73,7 @@ Als u bestaande Adobe ID-gebruikersaccounts naar een Enterprise ID of Federated 
 
 1. In de [!UICONTROL Admin Console]downloadt u een lijst met Adobe Admin Console-gebruikers:
 
-   1. Navigeren naar [!UICONTROL Admin Console] > **[!UICONTROL Users]** en klik vervolgens op [Gebruikerslijst exporteren naar CSV](https://helpx.adobe.com/enterprise/using/users.html).
+   1. Navigeren naar [!UICONTROL Admin Console] > **[!UICONTROL Users]** en klik vervolgens op [Gebruikerslijst exporteren naar CSV](https://helpx.adobe.com/nl/enterprise/using/users.html).
 
       ![](/help/admin/admin/user-management2/user-migration/assets/export-csv.png)
 
@@ -137,7 +137,7 @@ Als u bestaande Adobe ID-gebruikersaccounts naar een Enterprise ID of Federated 
  </tbody> 
 </table>
 
-Voor meer informatie over de velden in het dialoogvenster [!DNL .csv] bestand, zie [CSV-bestandsindeling](https://helpx.adobe.com/enterprise/using/users.html).
+Voor meer informatie over de velden in het dialoogvenster [!DNL .csv] bestand, zie [CSV-bestandsindeling](https://helpx.adobe.com/nl/enterprise/using/users.html).
 
 >[!NOTE]
 >

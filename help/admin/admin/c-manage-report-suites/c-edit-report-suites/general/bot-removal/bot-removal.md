@@ -32,7 +32,7 @@ Bovendien biedt Adobe, aangezien bots snel aan het morferen zijn, verschillende 
 
 ### Stap 1: Geef de Experience Cloud-id van uw bezoekers door in een nieuwe gedeclareerde id
 
-Om te beginnen, creeer een nieuwe verklaarde identiteitskaart in de [ Dienst van de Kern van Mensen ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Geef identiteitskaart van Experience Cloud van uw bezoeker in deze nieuwe verklaarde identiteitskaart over, die snel en gemakkelijk met [ markeringen in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) kan worden gedaan. Gebruik de naam ECID voor de gedeclareerde id.
+Om te beginnen, creeer een nieuwe verklaarde identiteitskaart in de [ Dienst van de Kern van Mensen ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL). Geef identiteitskaart van Experience Cloud van uw bezoeker in deze nieuwe verklaarde identiteitskaart over, die snel en gemakkelijk met [ markeringen in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=nl-NL) kan worden gedaan. Gebruik de naam ECID voor de gedeclareerde id.
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -40,11 +40,11 @@ Hieronder wordt beschreven hoe deze id kan worden vastgelegd via het gegevensele
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Zodra dit Element van Gegevens opstelling is, volg [ deze instructies ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) om gedeclareerde IDs in het ECID Hulpmiddel door te geven gebruikend markeringen in Adobe Experience Platform.
+Zodra dit Element van Gegevens opstelling is, volg [ deze instructies ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=nl-NL) om gedeclareerde IDs in het ECID Hulpmiddel door te geven gebruikend markeringen in Adobe Experience Platform.
 
 ### Stap 2: segmentatie gebruiken om vlekken te identificeren
 
-Nu u ECID van uw bezoeker in gedeclareerde identiteitskaart hebt overgegaan, kunt u [ segmentatie in Analysis Workspace ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) gebruiken om bezoekers te identificeren die als bots handelen. Bots worden vaak gedefinieerd door hun gedrag: enkele toegangsbezoeken, ongebruikelijke gebruikersagenten, onbekende apparaat-/browserinformatie, geen referentie, nieuwe bezoekers, ongebruikelijke landingspagina&#39;s, enz. Gebruik de bevoegdheden van Workspace boor-downs en segmentatie om de bots te identificeren die het filtreren IAB en uw regels van de rapportsuite allebei hebben omzeild. Hier ziet u bijvoorbeeld een schermafbeelding van een segment dat u kunt gebruiken:
+Nu u ECID van uw bezoeker in gedeclareerde identiteitskaart hebt overgegaan, kunt u [ segmentatie in Analysis Workspace ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=nl-NL) gebruiken om bezoekers te identificeren die als bots handelen. Bots worden vaak gedefinieerd door hun gedrag: enkele toegangsbezoeken, ongebruikelijke gebruikersagenten, onbekende apparaat-/browserinformatie, geen referentie, nieuwe bezoekers, ongebruikelijke landingspagina&#39;s, enz. Gebruik de bevoegdheden van Workspace boor-downs en segmentatie om de bots te identificeren die het filtreren IAB en uw regels van de rapportsuite allebei hebben omzeild. Hier ziet u bijvoorbeeld een schermafbeelding van een segment dat u kunt gebruiken:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-filter-seg1.png)
 

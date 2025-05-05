@@ -21,7 +21,7 @@ Deze browserbeperkingen weerspiegelen een bredere verschuiving van anonieme trac
 
 ## Customer Journey Analytics- en Cross-Device Analytics
 
-[ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) en [ dwars-Apparaat Analytics ](/help/components/cda/overview.md) staan gebruikers toe om duurzame herkenningstekens, zoals gehakt logins, naast koekjes te omvatten. Op deze manier kunt u de reis van de klant over apparaten en, in het geval van Customer Journey Analytics, over online en off-line kanalen begrijpen:
+[ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL) en [ dwars-Apparaat Analytics ](/help/components/cda/overview.md) staan gebruikers toe om duurzame herkenningstekens, zoals gehakt logins, naast koekjes te omvatten. Op deze manier kunt u de reis van de klant over apparaten en, in het geval van Customer Journey Analytics, over online en off-line kanalen begrijpen:
 
 * **Customer Journey Analytics** wordt voortgebouwd op Adobe Experience Platform en verstrekt de flexibiliteit om online en off-line gegevens in Analysis Workspace te combineren, die op om het even welke gemeenschappelijke klantenidentiteitskaart wordt gebaseerd. U kunt opgeven welke id u voor een bepaalde analyse wilt gebruiken en de gegevens in Analysis Workspace bekijken. Klanten met Analytics Select, Prime en Ultimate kunnen dit product als een invoegtoepassing kopen.
 
@@ -35,7 +35,7 @@ U kunt gegevens aan de server-kant van Analytics voorleggen gebruikend of de [ I
 
 ## FPID (First Party Device ID) met Web SDK
 
-Met Adobe Experience Platform Web SDK kunt u ervoor kiezen om uw eigen apparaat-id&#39;s in te stellen en te beheren in plaats van de door Adobe gegenereerde Experience Cloud-id&#39;s (ECID&#39;s). Deze worden ook wel FPID&#39;s (First-Party Device ID&#39;s) genoemd. Leer meer [ hier ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html).
+Met Adobe Experience Platform Web SDK kunt u ervoor kiezen om uw eigen apparaat-id&#39;s in te stellen en te beheren in plaats van de door Adobe gegenereerde Experience Cloud-id&#39;s (ECID&#39;s). Deze worden ook wel FPID&#39;s (First-Party Device ID&#39;s) genoemd. Leer meer [ hier ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=nl-NL).
 
 ## Meer informatie
 

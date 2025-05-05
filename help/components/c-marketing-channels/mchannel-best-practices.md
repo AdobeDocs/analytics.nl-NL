@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Attributie met de Kanalen van de Marketing - Beste praktijken
 
-[Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) zijn een waardevol en krachtig kenmerk van Adobe Analytics. De huidige leidraad betreffende de implementatie van het Kanaal van de Marketing werd geformuleerd op een ogenblik dat geen van beiden [Attributie](/help/analyze/analysis-workspace/attribution/overview.md)  noch [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases) bestaan.
+[Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) zijn een waardevol en krachtig kenmerk van Adobe Analytics. De huidige leidraad betreffende de implementatie van het Kanaal van de Marketing werd geformuleerd op een ogenblik dat geen van beiden [Attributie](/help/analyze/analysis-workspace/attribution/overview.md)  noch [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=nl-NL#cja-usecases) bestaan.
 
 Om uw implementatie van de Kanalen van de Marketing in de toekomst te controleren en ervoor te zorgen dat er rapportconsistentie met Attributie en met Customer Journey Analytics is, geven wij een reeks bijgewerkte beste praktijken uit. Als u al marketingkanalen gebruikt, kunt u de beste opties kiezen uit deze nieuwe richtlijnen. Als u niet bekend bent met Marketing Channels, raden we u aan alle nieuwe aanbevolen procedures te volgen.
 
@@ -28,7 +28,7 @@ We raden u aan [Attributie](/help/analyze/analysis-workspace/attribution/overvie
 
 * De configuratie van de dimensies van het Kanaal van de Marketing en het Detail van het Kanaal van de Marketing vestigt te evalueren aanraakpunten, die aan elke Instantie van het Kanaal van de Marketing beantwoorden.
 * Voor metrische analyse, zou uw organisatie zich op één of meerdere attributiemodel(en) moeten richten. Sla aangepaste maateenheden op met dit model, zodat u ze eenvoudig opnieuw kunt gebruiken.
-* Standaard worden gegevens toegewezen met gebruik van Last Touch en de instelling van de bezoekersperiode. De metrische modellen van de attributen bieden grotere controle over de raadplegingsvensters en meer verscheidenheid, met inbegrip van [algoritmische toewijzing](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html#analysis-workspace).
+* Standaard worden gegevens toegewezen met gebruik van Last Touch en de instelling van de bezoekersperiode. De metrische modellen van de attributen bieden grotere controle over de raadplegingsvensters en meer verscheidenheid, met inbegrip van [algoritmische toewijzing](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=nl-NL#analysis-workspace).
 
 ## Beste praktijken #2: Geen Directe en Zitting verfrissen kanaaldefinities
 

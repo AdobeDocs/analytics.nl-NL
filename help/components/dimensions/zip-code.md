@@ -26,7 +26,7 @@ De [!UICONTROL Zip option] krachtens [Algemene accountinstellingen](/help/admin/
 Als u een optie kiest die gebruikmaakt van geo zip:
 
 * Voor de implementaties van AppMeasurementen, werkt deze dimensie uit de doos.
-* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Geo Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Geo Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL).
 
 ## Dimension-items
 

@@ -60,11 +60,11 @@ De Informatie van de gebruiker schetst de gebruikers in uw organisatie, die door
 <tbody> 
 <tr> 
    <td colname="col1"> <p>Domein </p> </td> 
-   <td colname="col2"> <p>Domeinen zijn specifiek voor de e-mailadressen van de huidige gebruikersbasis voor Analytics. Een domein kan slechts door één enkele organisatie worden geclaimd, en slechts kunnen de systeembeheerders een domein eisen. Zie voor meer informatie <a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html"> Toegang aanvragen tot een opgegeven domein</a>. </p> </td> 
+   <td colname="col2"> <p>Domeinen zijn specifiek voor de e-mailadressen van de huidige gebruikersbasis voor Analytics. Een domein kan slechts door één enkele organisatie worden geclaimd, en slechts kunnen de systeembeheerders een domein eisen. Zie voor meer informatie <a href="https://helpx.adobe.com/nl/enterprise/help/request-access-to-claimed-domain.html"> Toegang aanvragen tot een opgegeven domein</a>. </p> </td> 
 </tr> 
 <tr> 
    <td colname="col1"> <p>Gevraagd domein </p> </td> 
-   <td colname="col2"> <p>Als u gebruikers wilt migreren als Enterprise- of federatieve id's, moet u een systeembeheerder zijn en een beschikbaar domein claimen via de Adobe Admin Console voordat u gebruikers gaat migreren. Meer informatie <a href="https://helpx.adobe.com/enterprise/help/identity.html"> hier</a>. </p> <p>Als u geen domeinen voor Onderneming of Federated IDs wilt claimen, sla deze stap over en migreer gebruikers als Adobe IDs. Meer informatie over id-typen <a href="https://helpx.adobe.com/enterprise/help/identity.html"> hier</a>. </p> </td> 
+   <td colname="col2"> <p>Als u gebruikers wilt migreren als Enterprise- of federatieve id's, moet u een systeembeheerder zijn en een beschikbaar domein claimen via de Adobe Admin Console voordat u gebruikers gaat migreren. Meer informatie <a href="https://helpx.adobe.com/nl/enterprise/help/identity.html"> hier</a>. </p> <p>Als u geen domeinen voor Onderneming of Federated IDs wilt claimen, sla deze stap over en migreer gebruikers als Adobe IDs. Meer informatie over id-typen <a href="https://helpx.adobe.com/nl/enterprise/help/identity.html"> hier</a>. </p> </td> 
 </tr> 
 </tbody> 
 </table>

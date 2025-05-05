@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Bezoekers met Experience Cloud ID
 
-De &#39;Bezoekers met Experience Cloud-id&#39; [metrisch](overview.md) toont het aantal unieke bezoekers dat door Adobe met de [Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html). Deze maatstaf is handig om te vergelijken met de [Unieke bezoekers](unique-visitors.md) Nauwkeurig om ervoor te zorgen de meerderheid van bezoekers aan uw plaats de dienst van identiteitskaart gebruikt. Als een groot deel van bezoekers de de dienstkoekjes van identiteitskaart niet gebruikt, kan het op een kwestie binnen uw implementatie wijzen.
+De &#39;Bezoekers met Experience Cloud-id&#39; [metrisch](overview.md) toont het aantal unieke bezoekers dat door Adobe met de [Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL). Deze maatstaf is handig om te vergelijken met de [Unieke bezoekers](unique-visitors.md) Nauwkeurig om ervoor te zorgen de meerderheid van bezoekers aan uw plaats de dienst van identiteitskaart gebruikt. Als een groot deel van bezoekers de de dienstkoekjes van identiteitskaart niet gebruikt, kan het op een kwestie binnen uw implementatie wijzen.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ De &#39;Bezoekers met Experience Cloud-id&#39; [metrisch](overview.md) toont het
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrisch is gebaseerd op [Unieke bezoekers](unique-visitors.md) metrisch, behalve dat het alleen personen omvat die met de `mid` queryreeks (gebaseerd op de [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie).
+Deze metrisch is gebaseerd op [Unieke bezoekers](unique-visitors.md) metrisch, behalve dat het alleen personen omvat die met de `mid` queryreeks (gebaseerd op de [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie).
 
 ## Fouten opsporen in de instellingen van uw Experience Cloud-id
 

@@ -19,7 +19,7 @@ Met de variabele `ActivityMap.link` kunt u de logica negeren waarmee de Activity
 
 ## Het met voeten treden van verbindingswaarden die SDK van het Web gebruiken
 
-U kunt [`OnBeforeLinkClickSend` gebruiken ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) callback om de nuttige lading van SDK van het Web te veranderen of het verzenden van gegevens te aborteren.
+U kunt [`OnBeforeLinkClickSend` gebruiken ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) callback om de nuttige lading van SDK van het Web te veranderen of het verzenden van gegevens te aborteren.
 
 ## Koppelingsoverschrijving met de Adobe Analytics-extensie
 

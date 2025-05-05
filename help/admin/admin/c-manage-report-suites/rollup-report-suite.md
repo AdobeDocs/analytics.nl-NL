@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Een algemene rapportsuite verzamelt gegevens van alle domeinen en apps die eigendom zijn van uw organisatie. De implementatie vereist om alle verzoeken om images naar één rapportsuite te verzenden.
 
-Adobe raadt in de meeste gevallen aan een algemene rapportsuite te implementeren. Zie &quot;[ Globale overwegingen van de rapportreeks ](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)&quot;voor de voordelen om een globale rapportreeks uit te voeren.
+Adobe raadt in de meeste gevallen aan een algemene rapportsuite te implementeren. Zie &quot;[ Globale overwegingen van de rapportreeks ](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=nl-NL)&quot;voor de voordelen om een globale rapportreeks uit te voeren.
 
 U kunt subsets van de globale gegevens van de het rapportreeks van uw bedrijf aan verschillende eind verstrekken gebruikers gebruikend *multi-suite het etiketteren* en *virtuele de benaderingen van de rapportreeks*:
 

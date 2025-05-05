@@ -24,4 +24,4 @@ Gegevensbronnen gebruiken om:
 
 Wanneer de Gegevensbronnen op een rapportreeks worden geactiveerd, wordt een plaats van FTP verstrekt zodat kunt u dossiers uploaden die in rapportering moeten worden geïntegreerd. Zodra geüpload, verwerken de servers van de Adobe automatisch de gegevens en integreren het in uw rapportreeks.
 
-Zie [Help bij Gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html).
+Zie [Help bij Gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=nl-NL).

@@ -55,7 +55,7 @@ U kunt als volgt de projectcuratie verwijderen en de volledige set componenten i
 
 ## Curve virtuele rapportsuite
 
-Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [ tot stand brengen ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html).
+Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [ tot stand brengen ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=nl-NL).
 
 >[!NOTE]
 > De virtuele kromming van de rapportreeks wordt altijd toegepast vóór projectkromming. Dit betekent dat zelfs als uw beheerd project bepaalde componenten omvat, zij uit zullen worden gefiltreerd als de gebogen Virtuele rapportreeks hen niet omvat.

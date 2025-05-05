@@ -14,7 +14,7 @@ ht-degree: 11%
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)

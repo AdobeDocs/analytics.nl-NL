@@ -37,4 +37,4 @@ Report Builder ondersteunt werkboeken tot de volgende limieten:
 
 ## Hoe weet ik of ik toegang heb tot Report Builder? {#access}
 
-Uw Adobe Analytics-beheerder moet toegang tot de Report Builder verlenen. Admin plaatst omhoog productprofielen in [ Adobe Admin Console ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). Vraag uw beheerder om u toegang te verlenen.
+Uw Adobe Analytics-beheerder moet toegang tot de Report Builder verlenen. Admin plaatst omhoog productprofielen in [ Adobe Admin Console ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-console/home). Vraag uw beheerder om u toegang te verlenen.

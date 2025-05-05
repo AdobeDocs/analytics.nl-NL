@@ -23,6 +23,6 @@ Hiermee kunnen analyses afbeeldingen verzamelen en op [!UICONTROL Assets] opgesp
 * Hiermee voegt u nieuwe dimensies toe aan de elementvariabelen in Analysis Workspace: Element-id, Asset Source en Clickted Asset-id
 * Hiermee voegt u nieuwe afmetingen toe aan gebeurtenissen Asset: klik op elementen en impressie van middelen
 
-Voor gegevens die moeten worden gevuld, raadpleegt u de [Documentatie voor informatie over middelen AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html) voor volledige implementatieinstructies.
+Voor gegevens die moeten worden gevuld, raadpleegt u de [Documentatie voor informatie over middelen AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=nl-NL) voor volledige implementatieinstructies.
 
 <!--The content in this article is duplicated with the content in the Admin guide (adobe-experience-manager.md)-->

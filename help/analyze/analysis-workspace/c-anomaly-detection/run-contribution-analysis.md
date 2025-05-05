@@ -40,7 +40,7 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
    * Maandelijks **Bezoekt trendlijn** voor context.
    * **Bovenste items** die tot deze anomalie heeft bijgedragen, gesorteerd door de [bijdragescore](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis), plus de metrische waarde in kwestie, en een Unieke metrische bezoeker om metrisch in context vanuit een grootteperspectief te zetten.
 
-   * De [Gegenereerde segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) de lijst identificeert verenigingen van hoogste punten die op de Score van de Bijdrage, anomalievoorvallen, en algemeen percentage worden gebaseerd die tot anomalische metrisch bijdragen. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
+   * De [Gegenereerde segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=nl-NL) (Top Item Clusters) de lijst identificeert verenigingen van hoogste punten die op de Score van de Bijdrage, anomalievoorvallen, en algemeen percentage worden gebaseerd die tot anomalische metrisch bijdragen. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
 
      ![](assets/auto_segment.png)
 

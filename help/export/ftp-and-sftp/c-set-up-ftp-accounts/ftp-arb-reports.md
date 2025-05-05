@@ -15,6 +15,6 @@ ht-degree: 0%
 
 Gebruik de Adobe Report Builder add-in voor Microsoft Excel om aangepaste aanvragen te maken van gegevens voor webanalyse, die u in uw Excel-werkbladen kunt invoegen.
 
-Verzoeken kunnen dynamisch verwijzen naar cellen in uw werkblad en u kunt bijwerken en aanpassen hoe de gegevens worden weergegeven. Voor FTP moet u ervoor zorgen dat de host extern beschikbaar is. Voor meer informatie over de [!UICONTROL Report Builder] geleverde rapporten, zie [ Hulp van Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview).
+Verzoeken kunnen dynamisch verwijzen naar cellen in uw werkblad en u kunt bijwerken en aanpassen hoe de gegevens worden weergegeven. Voor FTP moet u ervoor zorgen dat de host extern beschikbaar is. Voor meer informatie over de [!UICONTROL Report Builder] geleverde rapporten, zie [ Hulp van Report Builder ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/report-builder/rb-overview).
 
 Voor informatie over de grenzen van FTP en gegevensbehoud, zie {de Limieten van FTP van 0} en het Behouden van Gegevens [&#128279;](/help/export/ftp-and-sftp/ftp-limits.md).

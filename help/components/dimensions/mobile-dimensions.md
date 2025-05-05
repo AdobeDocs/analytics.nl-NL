@@ -26,7 +26,7 @@ Deze dimensies verwijzen naar opzoekregels die intern zijn voor Adobe.
 De beschikbaarheid van deze afmetingen is afhankelijk van het implementatietype:
 
 * Voor AppMeasurementen-implementaties werken deze afmetingen buiten het vak.
-* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Geo Lookup] (voor mobiele transporteur) of [!UICONTROL Device Lookup] (voor alle andere afmetingen) wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Geo Lookup] (voor mobiele transporteur) of [!UICONTROL Device Lookup] (voor alle andere afmetingen) wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL).
 
 ## Beschrijvingen van mobiele afmetingen
 

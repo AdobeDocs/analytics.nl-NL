@@ -37,7 +37,7 @@ Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alv
 
 ## Pre-track callback manueel uitvoerend SDK van het Web
 
-Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alvorens het naar Adobe wordt verzonden. U kunt echter `onBeforeEventSend` om een functie te registreren die vlak voordat gegevens worden verzonden moet worden uitgevoerd, vergelijkbaar met `doPlugins`. Zie [Gebeurtenissen globaal wijzigen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alvorens het naar Adobe wordt verzonden. U kunt echter `onBeforeEventSend` om een functie te registreren die vlak voordat gegevens worden verzonden moet worden uitgevoerd, vergelijkbaar met `doPlugins`. Zie [Gebeurtenissen globaal wijzigen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
 
 ```js
 // Set the trackingCode XDM field to "New value"

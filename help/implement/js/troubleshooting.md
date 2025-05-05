@@ -87,7 +87,7 @@ Deze twee variabelewaarden worden in Adobe Analytics als afzonderlijk beschouwd.
 
 Implementaties die veel variabelen vullen met lange waarden, kunnen soms worden uitgevoerd in afgebroken afbeeldingsaanvragen. Sommige oudere browsers, zoals Internet Explorer, leggen een limiet van 2083 tekens op voor het aanvragen van URL&#39;s voor afbeeldingsverzoeken. Als uw organisatie met zeer lange beeldverzoeken wordt geconfronteerd, probeer het volgende:
 
-* **De service Experience Cloud-id gebruiken**: In AppMeasurementen bibliotheken 1.4.1 en hoger worden afbeeldingsaanvragen automatisch verzonden met HTTP-POST als deze te lang zijn. Gegevens die met deze methode worden verzonden, worden niet afgebroken, ongeacht de lengte. Zie [Adobe Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html) voor meer informatie .
+* **De service Experience Cloud-id gebruiken**: In AppMeasurementen bibliotheken 1.4.1 en hoger worden afbeeldingsaanvragen automatisch verzonden met HTTP-POST als deze te lang zijn. Gegevens die met deze methode worden verzonden, worden niet afgebroken, ongeacht de lengte. Zie [Adobe Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) voor meer informatie .
 * **Verwerkingsregels gebruiken**: [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) U kunt waarden van de ene variabele naar de andere kopiëren. Met deze methode hoeft u niet dezelfde waarde in meerdere variabelen in te stellen. Bijvoorbeeld:
 
   Altijd uitvoeren:<br>

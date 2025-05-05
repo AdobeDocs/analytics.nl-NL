@@ -14,4 +14,4 @@ ht-degree: 0%
 
 U kunt metriek in Analysis Workspace op de zelfde manier vinden dat u van andere types van componenten de plaats bepaalt.
 
-Voor informatie over hoe u snel onderdelen kunt vinden, raadpleegt u [De componentenlijst zoeken, filteren en sorteren](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html#search%2C-filter%2C-and-sort-the-component-list) in [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+Voor informatie over hoe u snel onderdelen kunt vinden, raadpleegt u [De componentenlijst zoeken, filteren en sorteren](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=nl-NL#search%2C-filter%2C-and-sort-the-component-list) in [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).

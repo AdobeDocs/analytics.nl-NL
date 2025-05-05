@@ -19,7 +19,7 @@ Antwoorden op vragen die u zou kunnen hebben wanneer het uitvoeren van Audience 
 
 +++ Hoe weet ik of ik persoonlijk Identificeerbare Informatie (PII) in mijn Analytische gegevens heb? Zo ja, wat doe ik eraan?
 
-Als u e-mails/adressen/etc. in een hulpmiddel of eVar hebt, denk na hashing de gegevens tijdens inzameling. Als uw land IP adres als PII beschouwt, [IP-verduistering inschakelen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html). Bespreek met uw Analysebeheerder wat u verzamelt. Bespreek met uw Juridische Dienst wat zij als PII beschouwen.
+Als u e-mails/adressen/etc. in een hulpmiddel of eVar hebt, denk na hashing de gegevens tijdens inzameling. Als uw land IP adres als PII beschouwt, [IP-verduistering inschakelen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=nl-NL). Bespreek met uw Analysebeheerder wat u verzamelt. Bespreek met uw Juridische Dienst wat zij als PII beschouwen.
 
 +++
 
@@ -37,7 +37,7 @@ Dit geldt niet voor het verzenden van Adobe Analytics-gegevens naar Adobe Audien
 
 +++ Hoe creeer ik een bestemming van Analytics in Audience Manager?
 
-Zie [Een analysedoel configureren in Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)&quot;.
+Zie [Een analysedoel configureren in Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=nl-NL)&quot;.
 
 +++
 

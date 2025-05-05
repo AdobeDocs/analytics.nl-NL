@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In de volgende tabel worden de gegevensobjectvariabelen weergegeven die de Adobe Experience Platform-Edge Network automatisch toewijst aan Adobe Analytics. Als u deze paden voor gegevensobjectvelden gebruikt, is er geen extra configuratie nodig om gegevens naar Adobe Analytics te verzenden.
 
-U wordt aangeraden deze velden te gebruiken als u in de toekomst Customer Journey Analytics wilt gebruiken. Deze implementatiemethode staat uw organisatie toe om gegevens naar Adobe te verzenden gebruikend het Web SDK zonder zich aan een schema XDM in overeenstemming te brengen. Als uw organisatie klaar is om gegevens naar Adobe Experience Platform te verzenden, kunt u [DataStream-toewijzing](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) om gegevensobjectvelden te wijzen naar hun respectievelijke XDM-velden.
+U wordt aangeraden deze velden te gebruiken als u in de toekomst Customer Journey Analytics wilt gebruiken. Deze implementatiemethode staat uw organisatie toe om gegevens naar Adobe te verzenden gebruikend het Web SDK zonder zich aan een schema XDM in overeenstemming te brengen. Als uw organisatie klaar is om gegevens naar Adobe Experience Platform te verzenden, kunt u [DataStream-toewijzing](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/data-prep#mapping) om gegevensobjectvelden te wijzen naar hun respectievelijke XDM-velden.
 
 ## Waardeprioriteiten
 
