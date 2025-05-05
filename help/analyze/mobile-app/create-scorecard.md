@@ -159,7 +159,7 @@ Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven 
 
 De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek toont afmetingen in tijd maar werkt met om het even welke visualisatie. U visualiseert de dimensie van de productcategorie in dit voorbeeld.
 
-](assets/line.png) visualisatie van de lijn 0}![
+![&#128279;](assets/line.png) visualisatie van de lijn 0&rbrace;
 
 
 ### [!UICONTROL Horizontal Bar]

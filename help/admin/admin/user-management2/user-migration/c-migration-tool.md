@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Wat u moet weten over de migratie van gebruikers-id&#39;s voor Analytics naar de Adobe Admin Console in de Adobe Experience Cloud.
 
-Voor algemene hulp op de onderwerpen van Adobe Admin Console (niet verwant met de migratie van Analytics), zie {de Gids van de Gebruiker van de Admin Console 0} ](https://helpx.adobe.com/enterprise/administering/user-guide.html).[
+Voor algemene hulp op de onderwerpen van Adobe Admin Console (niet verwant met de migratie van Analytics), zie {de Gids van de Gebruiker van de Admin Console 0} [&#128279;](https://helpx.adobe.com/enterprise/administering/user-guide.html).
 
 Nadat u migreert, kunt u [ Experiencen Cloud gebruikers en producten ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in Adobe Admin Console beheren.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Afmetingen van de stroomkwaliteit van media
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat. Zie {de kwaliteitsmetriek van Media 0} Streaming ](../metrics/sm-quality.md) voor beschikbare metriek.*[
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat. Zie {de kwaliteitsmetriek van Media 0} Streaming [&#128279;](../metrics/sm-quality.md) voor beschikbare metriek.*
 
 De afmetingen voor de streamingmedia zorgen voor rapportage over de kwaliteit van de inhoud die de bezoeker gebruikt. Voor het gebruik van deze afmetingen is de instructie [!UICONTROL Adobe Streaming Media Collection] vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
 

@@ -98,7 +98,7 @@ De tekenreeks die aan uw Bing-account moet worden toegevoegd, wordt hieronder we
 
 >[!IMPORTANT]
 >
->De _`<Advertising Analytics ID>`_waarde (in **vet**is algemeen en **moet worden vervangen door de id-tekenreeks van uw specifieke account**. U kunt de id-tekenreeks van uw specifieke account ophalen vanuit het accountscherm onder de sectie &#39;Bijhouden&#39;.
+>De _`<Advertising Analytics ID>`_waarde (in **vet**&#x200B;is algemeen en **moet worden vervangen door de id-tekenreeks van uw specifieke account**. U kunt de id-tekenreeks van uw specifieke account ophalen vanuit het accountscherm onder de sectie &#39;Bijhouden&#39;.
 
 **Tekenreeks voor campagnes:**
 

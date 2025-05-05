@@ -18,7 +18,7 @@ Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen
 
 ## Een projectkoppeling ophalen om te delen met andere Workspace-gebruikers {#project-link}
 
-Om een verbinding aan een project te delen, ga naar het project u wilt delen, dan selecteren ga **]>[!UICONTROL ** Aandeel met de gebruikers van Workspace **]>[!UICONTROL ** Aandeel door verbinding **].[!UICONTROL ** Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
+Om een verbinding aan een project te delen, ga naar het project u wilt delen, dan selecteren ga **>[!UICONTROL ** Aandeel met de gebruikers van Workspace **]>[!UICONTROL **&#x200B; Aandeel door verbinding &#x200B;**].** Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
 
 Als de ontvanger van de verbinding niet a [ projectrol ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) is toegewezen, ontvangen de beheerders **[!UICONTROL Edit original]** en niet-admins ontvangen **[!UICONTROL Edit copy]** ervaringen.
 

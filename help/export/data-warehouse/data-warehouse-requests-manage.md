@@ -75,7 +75,7 @@ U kunt de geschiedenis van om het even welke verzoeken van de Data Warehouse bek
 
 1. Selecteer [!UICONTROL **de geschiedenis van de Mening**].
 
-   De **]pagina van het verzoek van de Data Warehouse van 0} Mening {toont een lijst van individuele rapportleveringen die met het verzoek worden geassocieerd.[!UICONTROL **
+   De **pagina van het verzoek van de Data Warehouse van 0&rbrace; Mening &lbrace;toont een lijst van individuele rapportleveringen die met het verzoek worden geassocieerd.**
 
    Selecteer **kolom** pictogram ![ vormen kolompictogram ](assets/configure-column-icon.png) om kolommen te verbergen of kolommen te tonen die niet door gebrek worden getoond.
 

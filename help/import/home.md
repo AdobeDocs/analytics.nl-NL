@@ -19,7 +19,7 @@ In deze handleiding wordt uitgelegd hoe u gegevens in Analytics kunt opnemen. He
 * **[Gegevensbronnen](data-sources/overview.md)**: Upload een bestand naar een toegewezen Adobe FTP-site. Adobe haalt het bestand op en neemt de gegevens op in de rapportsuite.
 * **[de Invoeging API van Gegevens van het Bulk](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** laat u gegevens van de servervraag in partijen van dossiers in plaats van het gebruiken van cliënt-zijbibliotheken zoals AppMeasurement uploaden.
 * **[API voor gegevensinvoeging](c-data-insertion-api/c-data-insertion-api.md)**: Gegevens rechtstreeks via een API naar de gegevensverzameling van Adobe verzenden.
-* ](https://exchange.adobe.com/experiencecloud.analytics.html#product) **van de Marketplace van de Adobe Exchange 0}: Vind huidige integratie beschikbaar om uw het rapportreeks van Adobe Analytics te verrijken.**[
+* [&#128279;](https://exchange.adobe.com/experiencecloud.analytics.html#product) **van de Marketplace van de Adobe Exchange 0&rbrace;: Vind huidige integratie beschikbaar om uw het rapportreeks van Adobe Analytics te verrijken.**
 
 
 >[!BEGINSHADEBOX]

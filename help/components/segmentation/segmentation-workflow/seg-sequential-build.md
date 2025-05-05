@@ -69,7 +69,7 @@ Identificeer alle bezoeken waar een bezoeker één pagina vóór een andere pagi
 
 ## [!UICONTROL After] en [!UICONTROL Within]
 
-U kunt ](/help/assets/icons/Clock.svg) Klok **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) gebruiken **[!UICONTROL Within]** de **[!UICONTROL Then]** exploitant om extra [ tijdbeperkingen ](#time-constraints) of [ beperkingen voor Hits, Bezoek of Dimensies ](#event-session-and-dimension-constraints) te bepalen.![
+U kunt ![&#128279;](/help/assets/icons/Clock.svg) Klok **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) gebruiken **[!UICONTROL Within]** de **[!UICONTROL Then]** exploitant om extra [ tijdbeperkingen ](#time-constraints) of [ beperkingen voor Hits, Bezoek of Dimensies ](#event-session-and-dimension-constraints) te bepalen.
 
 ### Tijdbeperkingen
 
@@ -78,7 +78,7 @@ Tijdsbeperkingen toepassen op de operator **[!UICONTROL Then]** :
 1. Selecteer ![ Klok ](/help/assets/icons/Clock.svg).
 1. Selecteer **[!UICONTROL Within]** of **[!UICONTROL After]** in het contextmenu.
 1. Geef een tijdsperiode op (**[!UICONTROL Minute]**, **[!UICONTROL Hour]** tot **[!UICONTROL Years]** ).
-1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**of **[!UICONTROL +]**.
+1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**&#x200B;om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**&#x200B;of **[!UICONTROL +]**.
 
 Om een tijdbeperking te verwijderen, gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg).
 

@@ -64,8 +64,8 @@ De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend ve
 
 | Variabele | Status lezen/schrijven | Beschrijving |
 | --- | --- | --- |
-| Prop 1-75 | Lezen + schrijven | ](/help/components/dimensions/prop.md) afmetingen van 0} Prop {.[ |
-| Hiërarchie 1-5 | Lezen + schrijven | ](/help/components/dimensions/hierarchy.md) dimensies van 0} Hiërarchie {.[ |
+| Prop 1-75 | Lezen + schrijven | [&#128279;](/help/components/dimensions/prop.md) afmetingen van 0&rbrace; Prop &lbrace;. |
+| Hiërarchie 1-5 | Lezen + schrijven | [&#128279;](/help/components/dimensions/hierarchy.md) dimensies van 0&rbrace; Hiërarchie &lbrace;. |
 | Server | Lezen + schrijven | De [ dimensie van de Server ](/help/components/dimensions/server.md). |
 | Kanaal | Lezen + schrijven | De [ sectie van de Plaats ](/help/components/dimensions/site-section.md) dimensie. |
 

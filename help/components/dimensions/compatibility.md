@@ -261,7 +261,7 @@ Adobe Social is met pensioen.
 | [ identiteitskaart van de Plaats ](lifecycle-dimensions.md) | `mobileplaceid` |
 | [ Invoerbaken Ingang Belangrijk ](lifecycle-dimensions.md) | `entrymobilebeaconmajor` |
 | [ Belangrijkste van het Bebakken van de Uitgang ](lifecycle-dimensions.md) | `exitmobilebeaconmajor` |
-| [ Onderliggend baken van de Ingang 0} ](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
+| [ Onderliggend baken van de Ingang 0&rbrace; ](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
 | [ de Kleine Korte Kleine Beacon van de Uitgang ](lifecycle-dimensions.md) | `exitmobilebeaconminor` |
 | [ Ingangsbaken UUID ](lifecycle-dimensions.md) | `entrymobilebeaconuuid` |
 | [ de Beacon UUID van het Beken van de Uitgang ](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |

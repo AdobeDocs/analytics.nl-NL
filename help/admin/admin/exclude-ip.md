@@ -26,8 +26,8 @@ Om gegevens door IP adres uit te sluiten, kunt u uitsluitingen vormen zoals hier
 >* Hits uitgesloten door IP adres worden in rekening gebracht als [ servervraag ](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
 >* De privé IP adressen te hoeven niet worden uitgesloten. Alleen externe IP-adressen bereiken Adobe-gegevensverzamelingsservers. Privéadressen zijn `10.*.*.*` , `192.168.*.*` , `172.[16-31].*.*` en `169.254.*.*` .
 >* U kunt vervangingsindicatoren (&#42;) gebruiken om een waaier van adressen uit te sluiten. `[!DNL 0.0.*.0]` sluit bijvoorbeeld alle IP-adressen tussen `[!DNL 0.0.0.0]` en `[!DNL 0.0.255.0]` uit. U kunt tot 50 verschillende IP adressen uitsluiten.
-* Gegevens van een uitgesloten IP-adres worden uitgesloten voor nieuwe treffers die binnen 5 minuten na het instellen van de uitsluiting naar het systeem komen.
-* Gegevens voor treffers die zijn vastgelegd vóór het tijdstip waarop wijzigingen zijn aangebracht in het IP-adres, worden niet beïnvloed.
+>* Gegevens van een uitgesloten IP-adres worden uitgesloten voor nieuwe treffers die binnen 5 minuten na het instellen van de uitsluiting naar het systeem komen.
+>* Gegevens voor treffers die zijn vastgelegd vóór het tijdstip waarop wijzigingen zijn aangebracht in het IP-adres, worden niet beïnvloed.
 >
 
 Om uitsluitingen door IP adres te vormen:

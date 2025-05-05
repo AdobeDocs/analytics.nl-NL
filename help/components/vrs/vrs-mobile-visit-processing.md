@@ -55,7 +55,7 @@ Voorbeeld 1: Een achtergrondhit treedt op in een bepaalde tijdsperiode (t) vóó
 
 ![](assets/nogoodexample1.jpg)
 
-In dit voorbeeld, als *t* groter is dan de gevormde het bezoekonderbreking van de virtuele rapportreeks, dan wordt de achtergrondhit uitgesloten van het bezoek dat door de voorgrondhits wordt gevormd. Bijvoorbeeld, als de virtuele onderbrekingen van het de bezoekersbezoek van de rapportreeks aan 15 minuten werd geplaatst, en *t* 20 minuten was, zou het bezoek dat door deze reeks klappen (die door het groene overzicht wordt getoond) wordt gevormd de achtergrondklap uitsluiten. Dit betekent dat om het even welke eVars die met een &quot;bezoek&quot;verlopen op de achtergrond **** worden geplaatst niet in het volgende bezoek zou voortbestaan, en een container van het bezoekensegment zou slechts de voorgrondhits binnen het groene overzicht omvatten.
+In dit voorbeeld, als *t* groter is dan de gevormde het bezoekonderbreking van de virtuele rapportreeks, dan wordt de achtergrondhit uitgesloten van het bezoek dat door de voorgrondhits wordt gevormd. Bijvoorbeeld, als de virtuele onderbrekingen van het de bezoekersbezoek van de rapportreeks aan 15 minuten werd geplaatst, en *t* 20 minuten was, zou het bezoek dat door deze reeks klappen (die door het groene overzicht wordt getoond) wordt gevormd de achtergrondklap uitsluiten. Dit betekent dat om het even welke eVars die met een &quot;bezoek&quot;verlopen op de achtergrond **&#x200B;**&#x200B;worden geplaatst niet in het volgende bezoek zou voortbestaan, en een container van het bezoekensegment zou slechts de voorgrondhits binnen het groene overzicht omvatten.
 
 ![](assets/nogoodexample1-2.jpg)
 

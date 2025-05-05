@@ -20,6 +20,6 @@ Wanneer u een vaste datum of een datumbereik opgeeft, wordt in de Report Builder
 
 1. Voor de Tovenaar van het Verzoek: Stap 1, kies **[!UICONTROL Fixed Dates]**.
 1. Klik op de koppeling Datum.
-1. Selecteer een datum, dan klik O.K. ****.
+1. Selecteer een datum, dan klik O.K. **&#x200B;**.
 1. Klik op **[!UICONTROL Save Date]** om een datumbereik op te slaan.
 1. Configureer de opties in het [!UICONTROL Save Date Range] -formulier:

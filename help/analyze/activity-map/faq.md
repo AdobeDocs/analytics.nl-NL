@@ -29,7 +29,7 @@ De [ toestemmingspunten ](/help/admin/admin-console/permissions/product-profile.
 * **[!UICONTROL Dimensions]** > **[!UICONTROL Activity Map Link]**
 * **[!UICONTROL Dimensions]** > **[!UICONTROL Activity Map Page]**
 
-Zie {de profieltoestemmingen van 0} Product voor Hulpmiddelen van Analytics ](/help/admin/admin-console/permissions/analytics-tools.md) voor meer informatie.[
+Zie {de profieltoestemmingen van 0} Product voor Hulpmiddelen van Analytics [&#128279;](/help/admin/admin-console/permissions/analytics-tools.md) voor meer informatie.
 
 +++
 

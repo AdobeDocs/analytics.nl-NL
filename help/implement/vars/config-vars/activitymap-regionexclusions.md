@@ -42,7 +42,7 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 
 ## s.ActivityMap.regionExclusions met AppMeasurement
 
-De variabele `s.ActivityMap.regionExclusions` is een tekenreeks met kommagescheiden zinnen die worden uitgesloten van bijhouden van Activity Mappen. Als om het even welke uitdrukkingen de waarde aanpassen die in de ](/help/components/dimensions/activity-map-region.md) dimensie van het Gebied van de Activity Map [ wordt verzameld, worden alle gegevens van de Activity Map verwijderd uit de slag.
+De variabele `s.ActivityMap.regionExclusions` is een tekenreeks met kommagescheiden zinnen die worden uitgesloten van bijhouden van Activity Mappen. Als om het even welke uitdrukkingen de waarde aanpassen die in de [&#128279;](/help/components/dimensions/activity-map-region.md) dimensie van het Gebied van de Activity Map  wordt verzameld, worden alle gegevens van de Activity Map verwijderd uit de slag.
 
 ```html
 <script>

@@ -114,5 +114,6 @@ Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen
 * Een geweldige manier om kennis te maken met Analysis Workspace is via het model voor zelfstudie over Analysis Workspace Training. Deze sjabloon begeleidt u door algemene terminologie en stappen voor het maken van uw eerste analyse in Workspace. De zelfstudie starten:
    1. Op het [!UICONTROL **Workspace**] lusje in Adobe Analytics, uitgezochte **[!UICONTROL Learning]** op de linkerzijde.
    1. Selecteer **[!UICONTROL Open Tutorial]** .
+
       ![](assets/training-tutorial.png)
 

@@ -25,7 +25,7 @@ Deze browserbeperkingen weerspiegelen een bredere verschuiving van anonieme trac
 
 * **Customer Journey Analytics** wordt voortgebouwd op Adobe Experience Platform en verstrekt de flexibiliteit om online en off-line gegevens in Analysis Workspace te combineren, die op om het even welke gemeenschappelijke klantenidentiteitskaart wordt gebaseerd. U kunt opgeven welke id u voor een bepaalde analyse wilt gebruiken en de gegevens in Analysis Workspace bekijken. Klanten met Analytics Select, Prime en Ultimate kunnen dit product als een invoegtoepassing kopen.
 
-* **Analytics van het Apparaat 1} is een verhoging aan traditionele Adobe Analytics die klanten toestaat om afwisselende herkenningstekens aan bezoekers te gebruiken.** Met deze functie kunt u van een apparaatgecentreerde weergave overschakelen op een persoonlijk gecentreerde weergave. Analytics voor verschillende apparaten is beschikbaar voor Ultimate-klanten van Analytics.
+* **Analytics van het Apparaat 1&rbrace; is een verhoging aan traditionele Adobe Analytics die klanten toestaat om afwisselende herkenningstekens aan bezoekers te gebruiken.** Met deze functie kunt u van een apparaatgecentreerde weergave overschakelen op een persoonlijk gecentreerde weergave. Analytics voor verschillende apparaten is beschikbaar voor Ultimate-klanten van Analytics.
 
 ## Gegevensverzameling op de server
 

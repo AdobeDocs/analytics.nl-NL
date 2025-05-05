@@ -75,7 +75,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de segmenten 
 
 ## Segmenten verwijderen of verwijderen
 
-Als u een segment wilt verwijderen dat naar het Experience Cloud is gepubliceerd, moet u eerst de publicatie ongedaan maken. Om een segment ongedaan te maken, enkel **** unclick checkbox die u gebruikte om het te publiceren.
+Als u een segment wilt verwijderen dat naar het Experience Cloud is gepubliceerd, moet u eerst de publicatie ongedaan maken. Om een segment ongedaan te maken, enkel **&#x200B;**&#x200B;unclick checkbox die u gebruikte om het te publiceren.
 
 >[!NOTE]
 >

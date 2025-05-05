@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Voorvallen
 
-De metrische &quot;Voorvallen&quot; [ ](overview.md) toont het aantal treffers waar een bepaalde afmeting werd geplaatst of voortgeduurd. Wanneer u een afmeting in Workspace naar een leeg canvas sleept, past de Adobe deze metrische waarde automatisch toe op het project.
+De metrische &quot;Voorvallen&quot; [&#128279;](overview.md) toont het aantal treffers waar een bepaalde afmeting werd geplaatst of voortgeduurd. Wanneer u een afmeting in Workspace naar een leeg canvas sleept, past de Adobe deze metrische waarde automatisch toe op het project.
 
 ## Hoe deze metrische waarde wordt berekend
 

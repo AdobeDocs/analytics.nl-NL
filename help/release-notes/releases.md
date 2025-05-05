@@ -28,7 +28,7 @@ Bij elke functierelease kan de tijdlijn variëren van het begin van de rollout t
 
 ## Functiemarkeringen
 
-De vlaggen van de eigenschap worden gebruikt om de zichtbaarheid van nieuwe eigenschappen tijdens versie te controleren. De Adobe adviseert toevoegend `app.launchdarkly.com` aan de lijst van gewenste personen van uw firewall [ ](/help/technotes/ip-addresses.md) voor een optimale ervaring tijdens versie. Kort nadat GA is bereikt, wordt de vlag verwijderd.
+De vlaggen van de eigenschap worden gebruikt om de zichtbaarheid van nieuwe eigenschappen tijdens versie te controleren. De Adobe adviseert toevoegend `app.launchdarkly.com` aan de lijst van gewenste personen van uw firewall [&#128279;](/help/technotes/ip-addresses.md) voor een optimale ervaring tijdens versie. Kort nadat GA is bereikt, wordt de vlag verwijderd.
 
 U kunt uw actieve eigenschapvlaggen op elk ogenblik bekijken onder **Hulp > over Workspace > Actieve eigenschapmarkeringen**.
 

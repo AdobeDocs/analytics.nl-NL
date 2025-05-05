@@ -36,9 +36,9 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ werkboeken ](
 
 1. Klik op **[!UICONTROL Login]** en meld u aan bij de Report Builder.
 
-1. De Report Builder toe:voegen-binnen ontdekt als dit werkboek ](/help/analyze/legacy-report-builder/home.md) verzoeken van de Report Builder van de Verouderde 1} bevat.[
+1. De Report Builder toe:voegen-binnen ontdekt als dit werkboek [&#128279;](/help/analyze/legacy-report-builder/home.md) verzoeken van de Report Builder van de Verouderde 1&rbrace; bevat.
 
-   {de herinnering van het 0} verbeteringswerkboek ](assets/upgrade_workbook.png)![
+   {de herinnering van het 0} verbeteringswerkboek ![&#128279;](assets/upgrade_workbook.png)
 
 1. Als één of meerdere erfenisverzoeken worden gevonden, klik **[!UICONTROL Upgrade]** om een werkboek te bevorderen.
 

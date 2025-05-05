@@ -30,7 +30,7 @@ Om een rapport voor een verzoek van de Data Warehouse te bouwen:
 
    Niet zijn alle segmenten die in de Bouwer van het Segment worden gecreeerd compatibel met Data Warehouse. Er wordt een fout weergegeven als u een virtuele rapportsuite met incompatibele segmenten kiest.
 
-   Voor een lijst van gesteunde functies binnen een segment, zie {de verenigbaarheid van het 0} Data Warehouse segment ](/help/components/segmentation/seg-reference/seg-compatibility.md).[
+   Voor een lijst van gesteunde functies binnen een segment, zie {de verenigbaarheid van het 0} Data Warehouse segment [&#128279;](/help/components/segmentation/seg-reference/seg-compatibility.md).
 
 1. Sleep om het even welke segmenten, metriek, en afmetingen in de bouwer. Het rapport u bouwt bepaalt welke gegevens in het verzoek van de Data Warehouse inbegrepen zijn.
 

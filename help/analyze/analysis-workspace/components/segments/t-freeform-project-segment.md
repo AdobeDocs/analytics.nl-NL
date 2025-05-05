@@ -86,7 +86,7 @@ Er bestaan verschillende andere methoden voor het toepassen van segmenten op een
 | Handeling | Beschrijving |
 |--- |--- |
 | Segment maken van selectie | Maak een inline-segment. Dit segment is alleen van toepassing op het geopende project en wordt niet opgeslagen als een analysesegment. 1. Selecteer rijen.  2. Klik met de rechtermuisknop op de selectie.  3. Klik *creeer segment van selectie*. |
-| Componenten > Nieuw segment | Toont de Bouwer van het Segment. Zie {de Bouwer van het 0} Segment ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) voor meer informatie over segmentatie.[ |
+| Componenten > Nieuw segment | Toont de Bouwer van het Segment. Zie {de Bouwer van het 0} Segment [&#128279;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) voor meer informatie over segmentatie. |
 | Delen > Project delen of Delen > Projectgegevens krommen | In [ Kromme en Aandeel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), leer hoe de segmenten die u op het project toepast in gedeelde analyse voor de ontvanger beschikbaar zijn. |
 | Segmenten gebruiken als Dimensionen | Video: [ Gebruikend Segmenten als Dimensionen in Analysis Workspace ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html) |
 

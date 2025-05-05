@@ -14,7 +14,7 @@ ht-degree: 0%
 >Een nieuwe en gestroomlijnde [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) werd vrijgegeven op 16 oktober, 2024. Deze functie wordt ondersteund in Mac-, Windows- en webbrowsers.
 >Deze verouderde Report Builder-invoegtoepassing werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in nieuwe Report Builder omzetten.
 
-## Rapporten &amp; Analytics-aankondiging aan het einde van de levensduur {#ra-eol}
+## Rapporten & Analytics-aankondiging aan het einde van de levensduur {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 > 
 >Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 >
->Lees meer over de Rapporten &amp; de aankondiging van het Eind van Analytics [ ](https://www.adobe.com/go/analytics_rnaeol_en).
+>Lees meer over de Rapporten &amp; de aankondiging van het Eind van Analytics [&#128279;](https://www.adobe.com/go/analytics_rnaeol_en).
 
 ## Sorteeropties voor componenten {#components-sort-options}
 

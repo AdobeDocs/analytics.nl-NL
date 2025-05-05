@@ -30,7 +30,7 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 Wijs deze variabele een functie toe die:
 
 * Ontvangt het HTML-element waarop is geklikt; en
-* Retourneert een tekenreekswaarde. Deze koordwaarde is de definitieve waarde die voor de ](/help/components/dimensions/activity-map-region.md) dimensie van het Gebied van de Activity Map wordt gebruikt 0}.[
+* Retourneert een tekenreekswaarde. Deze koordwaarde is de definitieve waarde die voor de [&#128279;](/help/components/dimensions/activity-map-region.md) dimensie van het Gebied van de Activity Map wordt gebruikt 0&rbrace;.
 
 Als de terugkeerwaarde [ vals ](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) is, worden alle variabelen van de de context van de Activity Map ontruimd en geen verbindingsgegevens worden gevolgd.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Bezoeken
 
-De metrische &quot;bezoeken&quot; [ ](overview.md) toont het aantal zittingen over alle bezoekers op uw plaats.
+De metrische &quot;bezoeken&quot; [&#128279;](overview.md) toont het aantal zittingen over alle bezoekers op uw plaats.
 
 ## Hoe deze metrische waarde wordt berekend
 

@@ -134,7 +134,7 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
       1. (Voorwaardelijk) als u de bestemming (rekening en plaats) moet beheren die u enkel creeerde, is het beschikbaar in de [ manager van Plaatsen ](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -208,7 +208,7 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
       1. (Voorwaardelijk) als u de bestemming (rekening en plaats) moet beheren die u enkel creeerde, is het beschikbaar in de [ manager van Plaatsen ](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -283,7 +283,7 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
       1. (Voorwaardelijk) als u de bestemming (rekening en plaats) moet beheren die u enkel creeerde, is het beschikbaar in de [ manager van Plaatsen ](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -353,9 +353,9 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
       1. (Voorwaardelijk) als u de bestemming (rekening en plaats) moet beheren die u enkel creeerde, is het beschikbaar in de [ manager van Plaatsen ](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
-1. In de **]sectie van de Definities van de Kolom van 0} Gegevens {, selecteer het recentste[!UICONTROL ** Alle Kolommen van Adobe **]malplaatje in het drop-down menu, dan voltooi de volgende gebieden:[!UICONTROL **
+1. In de **sectie van de Definities van de Kolom van 0&rbrace; Gegevens &lbrace;, selecteer het recentste[!UICONTROL **&#x200B; Alle Kolommen van Adobe &#x200B;**]malplaatje in het drop-down menu, dan voltooi de volgende gebieden:**
 
    | Veld | Functie |
    |---------|----------|

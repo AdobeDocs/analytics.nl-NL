@@ -27,13 +27,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Analyses voor venster Doel"
->abstract="Doelactiviteiten en ervaringen in Analysis Workspace analyseren.<br/><br>**Parameters **<br/>**activiteit van het Doel**: De activiteit van het Doel die wordt geanalyseerd.<br/>**ervaring van de Controle**: De ervaring van de controle voor de geselecteerde activiteit van het Doel.<br/>**Normaliserend metrisch**: Bezoekers, bezoeken, of impressies. Deze maatstaf (ook wel de telmethode genoemd) wordt de noemer van de berekening van de lift. Het beïnvloedt ook hoe de gegevens worden geaggregeerd voordat de betrouwbaarheidsberekening wordt toegepast.<br/>**metriek van het Succes**: Tot 3 standaard (niet-berekende) succesmetriek om de activiteit van het Doel tegen te analyseren."
+>abstract="Doelactiviteiten en ervaringen in Analysis Workspace analyseren.<br/><br>**Parameters &#x200B;**<br/>**activiteit van het Doel**: De activiteit van het Doel die wordt geanalyseerd.<br/>**ervaring van de Controle**: De ervaring van de controle voor de geselecteerde activiteit van het Doel.<br/>**Normaliserend metrisch**: Bezoekers, bezoeken, of impressies. Deze maatstaf (ook wel de telmethode genoemd) wordt de noemer van de berekening van de lift. Het beïnvloedt ook hoe de gegevens worden geaggregeerd voordat de betrouwbaarheidsberekening wordt toegepast.<br/>**metriek van het Succes**: Tot 3 standaard (niet-berekende) succesmetriek om de activiteit van het Doel tegen te analyseren."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert Analytics voor het paneel van het Doel in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ het paneel van de Experimentatie ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) voor informatie over hoe te om verschillende gebruikerservaringen, marketing, of overseinensvariaties in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** te vergelijken._
+_Dit artikel documenteert Analytics voor het paneel van het Doel in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ het paneel van de Experimentatie ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) voor informatie over hoe te om verschillende gebruikerservaringen, marketing, of overseinensvariaties in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** te vergelijken._
 
 >[!ENDSHADEBOX]
 

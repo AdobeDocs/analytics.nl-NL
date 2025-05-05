@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Zie {de gebeurtenissen van het 0} Spoor ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) in de documentatie van SDK van het Web voor meer informatie.[
+Zie {de gebeurtenissen van het 0} Spoor [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Aanroep voor bijhouden van paginaweergave met de Adobe Analytics-extensie
 

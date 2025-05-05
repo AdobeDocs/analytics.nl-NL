@@ -27,14 +27,14 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Het deelvenster Paginaoverzicht"
->abstract="Bekijk snel enkele maatstaven op hoog niveau en de verplaatsing van en naar een specifieke pagina.<br/><br/>**Parameters **<br/>**voegen een punt van de paginadimensie** toe: Open de componentenspoorstaaf, bepaal de plaats van de dimensie van de Pagina en breid het door op de wortel te klikken om de afmetingspunten te zien. Vervolgens sleept u de specifieke pagina waarover u meer wilt weten naar de builder. Zodra u hebt gesleept en het afmetingspunt gelaten vallen, bevolkt het rapport automatisch met zeer belangrijke informatie over de pagina."
+>abstract="Bekijk snel enkele maatstaven op hoog niveau en de verplaatsing van en naar een specifieke pagina.<br/><br/>**Parameters &#x200B;**<br/>**voegen een punt van de paginadimensie** toe: Open de componentenspoorstaaf, bepaal de plaats van de dimensie van de Pagina en breid het door op de wortel te klikken om de afmetingspunten te zien. Vervolgens sleept u de specifieke pagina waarover u meer wilt weten naar de builder. Zodra u hebt gesleept en het afmetingspunt gelaten vallen, bevolkt het rapport automatisch met zeer belangrijke informatie over de pagina."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het summiere paneel van de Pagina in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_dit artikel documenteert het summiere paneel van de Pagina in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -85,7 +85,7 @@ Het deelvenster [!UICONTROL Page summary] retourneert een uitgebreide set metris
 | **[!UICONTROL Page views]- Huidige maand (tot nu toe)** | A [ Summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualisatie die het aantal paginameningen voor deze pagina voor de huidige maand toont. |
 | **[!UICONTROL Page views]- 4 weken eerder** | A [ Summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualisatie die het aantal paginameningen voor deze pagina over de laatste maand toont. |
 | **[!UICONTROL Page views]- 52 weken eerder** | A [ Summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualisatie die het aantal paginameningen voor deze pagina over het laatste jaar toont. |
-| **[!UICONTROL Trend]** | Een trended ](/help/analyze/analysis-workspace/visualizations/line.md) visualisatie van de Lijn [ voor paginameningen voor deze maand, 4 weken voorafgaand, en 52 weken voorafgaand. |
+| **[!UICONTROL Trend]** | Een trended [&#128279;](/help/analyze/analysis-workspace/visualizations/line.md) visualisatie van de Lijn  voor paginameningen voor deze maand, 4 weken voorafgaand, en 52 weken voorafgaand. |
 | **[!UICONTROL Percentage of all page views]** | Een samenvattingsnummer voor het percentage van alle paginaweergaven die naar deze pagina zijn gegaan. |
 | **[!UICONTROL Time spent on page]** | A [ Horizontale bar ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die de tijd toont die aan deze pagina wordt doorgebracht. |
 | **[!UICONTROL Single page visits]** | A [ Summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) dat het aantal paginameningen toont waar deze pagina de enige bezochte pagina was. |

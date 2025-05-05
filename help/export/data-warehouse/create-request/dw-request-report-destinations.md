@@ -93,7 +93,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -105,7 +105,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -121,7 +121,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -135,7 +135,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++E-mail
 
@@ -151,7 +151,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
 1. Ga door het vormen van uw verzoek van de Data Warehouse op het [!UICONTROL **opties van het Rapport**] tabel. Voor meer informatie, zie [ rapportopties voor een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-options.md) vormen.
 

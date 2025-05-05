@@ -54,7 +54,7 @@ Voor informatie over hoe te om bestaande plaatsen te bekijken en te schrappen, z
    |---------|----------|
    | [!UICONTROL **Naam**] | De naam van de locatie. |
    | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. |
-   | [!UICONTROL **Gebruik met**] | Selecteer of u deze plaats met **],[!UICONTROL ** Data Warehouse **], of[!UICONTROL ** de reeksen van de Classificatie **]wilt gebruiken.[!UICONTROL ** <p>Houd rekening met het volgende wanneer u een selectie maakt:</p><ul><li>Eén locatie kan niet voor meerdere doeleinden worden gebruikt. Een locatie die bijvoorbeeld wordt gebruikt voor gegevensfeeds, kan niet ook worden gebruikt voor Data Warehouse- of classificatiesets.</li><li>Om dossierconflicten binnen een plaats te vermijden, verander niet de waarde van het [!UICONTROL **Gebruik met**] gebied nadat de plaats is gebruikt.</li><li>Als u een plaats voor een E-mailrekening creeert, uitgezochte [!UICONTROL **Data Warehouse**] op dit gebied. E-maillocaties worden niet ondersteund met gegevensfeeds en classificatiesets.</li></ul> |
+   | [!UICONTROL **Gebruik met**] | Selecteer of u deze plaats met **,[!UICONTROL ** Data Warehouse **], of[!UICONTROL ** de reeksen van de Classificatie **]wilt gebruiken.** <p>Houd rekening met het volgende wanneer u een selectie maakt:</p><ul><li>Eén locatie kan niet voor meerdere doeleinden worden gebruikt. Een locatie die bijvoorbeeld wordt gebruikt voor gegevensfeeds, kan niet ook worden gebruikt voor Data Warehouse- of classificatiesets.</li><li>Om dossierconflicten binnen een plaats te vermijden, verander niet de waarde van het [!UICONTROL **Gebruik met**] gebied nadat de plaats is gebruikt.</li><li>Als u een plaats voor een E-mailrekening creeert, uitgezochte [!UICONTROL **Data Warehouse**] op dit gebied. E-maillocaties worden niet ondersteund met gegevensfeeds en classificatiesets.</li></ul> |
    | [!UICONTROL **plaats van het Merk beschikbaar aan alle gebruikers in uw organisatie**] | Schakel deze optie in als u wilt dat andere gebruikers in uw organisatie de locatie kunnen gebruiken.<p>Houd rekening met het volgende wanneer u locaties deelt:</p><ul><li>Locaties die u deelt, kunnen niet worden verwijderd.</li><li>Gedeelde locaties kunnen alleen door de eigenaar van de locatie worden bewerkt.</li><li>Locaties kunnen alleen worden gedeeld als de account waaraan de locatie is gekoppeld, ook wordt gedeeld.</li></ul> |
    | [!UICONTROL **de rekening van de Plaats**] | Selecteer de locatie waar u deze locatie wilt maken. Voor informatie over hoe te om een rekening tot stand te brengen, zie [ de invoer van de wolk en de uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md) vormen. |
 
@@ -75,7 +75,7 @@ Geef de volgende informatie op om een ARN-locatie voor Amazon S3 Role te configu
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
@@ -99,7 +99,7 @@ Geef de volgende informatie op om een locatie voor een Google Cloud-platform te 
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
@@ -123,7 +123,7 @@ Geef de volgende informatie op om een Azure SAS-locatie te configureren:
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
@@ -148,7 +148,7 @@ Geef de volgende informatie op om een Azure RBAC-locatie te configureren:
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 

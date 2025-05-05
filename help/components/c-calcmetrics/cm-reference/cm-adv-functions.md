@@ -21,7 +21,7 @@ Heb toegang tot deze functies door **[!UICONTROL Show all]** te selecteren onder
 
 Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
 
-Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE  Lijst ]{type="Neutral"}[!BADGE  Rij ]{type="Neutral"}
+Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 ## Wat betekent de parameter include-zeros?
 
@@ -93,7 +93,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -116,7 +116,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -139,7 +139,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -221,7 +221,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -315,7 +315,7 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -440,7 +440,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -463,7 +463,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -487,7 +487,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -510,7 +510,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -533,7 +533,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -605,7 +605,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -627,7 +627,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -647,7 +647,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -668,7 +668,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -762,7 +762,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -787,7 +787,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -812,7 +812,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -836,7 +836,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -859,7 +859,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -880,7 +880,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -902,7 +902,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -925,7 +925,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -948,7 +948,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1041,7 +1041,7 @@ Niet gelijk. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -1083,7 +1083,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1107,7 +1107,7 @@ Retourneert Pi: 3,14159...
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -1130,7 +1130,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1153,7 +1153,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1176,7 +1176,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1197,7 +1197,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1219,7 +1219,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1241,7 +1241,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1264,7 +1264,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1286,7 +1286,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1308,7 +1308,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1330,7 +1330,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -1355,7 +1355,7 @@ Retourneert Pi: 3,14159...
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -1467,7 +1467,7 @@ Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenig
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|

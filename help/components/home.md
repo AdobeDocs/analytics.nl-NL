@@ -21,7 +21,7 @@ Met Analytics Components kunt u de analyse van uw data verfijnen en versterken. 
 * **Segmentatie:** Focus op een subset van uw data.
 * **Berekende standaard:** Gebruik eenvoudige formules om cijfers te combineren, of geavanceerde functies voor statistische analyse.
 * **Virtuele rapportsuites:** Maak een virtuele silo van data op basis van een rapportsuite. Hiermee kunt u data opschonen of segmenteren voor een betere gebruikerservaring. Sommige eigenschappen kunnen alleen worden gebruikt in virtuele rapportsuites.
-* **Analytics van het Apparaat 1}: Een speciaal type van virtuele rapportreeks staat u toe vormt Analytics van het Apparaat.**
+* **Analytics van het Apparaat 1&rbrace;: Een speciaal type van virtuele rapportreeks staat u toe vormt Analytics van het Apparaat.**
 * **Waarschuwingen:** Ontvang meldingen zodra de data boven of onder een drempelwaarde komen.
 * **Classificaties:** Herorden en groepeer dimensies om meer inzicht te krijgen.
 * **Realtimerapportage:** Ontvang rapporten en trends zodra ze beschikbaar zijn.

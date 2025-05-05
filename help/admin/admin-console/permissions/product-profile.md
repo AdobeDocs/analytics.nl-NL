@@ -53,11 +53,11 @@ Aangepaste variabelen, zoals eVars, krijgen het label &#39;Aangepaste omzetting 
 
 ### Rapportsuite-gereedschappen
 
-De punten van de de reekshulpmiddelen van het rapport verlenen toegang tot eigenschappen die voor de rapportsuites specifiek zijn de gebruiker heeft toegang tot. Zie {de Hulpmiddelen van de Reeks van het 0} Rapport ](report-suite-tools.md) voor een volledige lijst van toestemmingspunten en beschrijvingen.[
+De punten van de de reekshulpmiddelen van het rapport verlenen toegang tot eigenschappen die voor de rapportsuites specifiek zijn de gebruiker heeft toegang tot. Zie {de Hulpmiddelen van de Reeks van het 0} Rapport [&#128279;](report-suite-tools.md) voor een volledige lijst van toestemmingspunten en beschrijvingen.
 
 ### Analysegereedschappen
 
-De hulpmiddelen van de analysehulpmiddelen verlenen toegang tot eigenschappen die van de montages van de rapportreeks onafhankelijk zijn. Zie {de profieltoestemmingen van 0} Product voor Hulpmiddelen van Analytics ](analytics-tools.md) voor een volledige lijst van toestemmingspunten en beschrijvingen.[
+De hulpmiddelen van de analysehulpmiddelen verlenen toegang tot eigenschappen die van de montages van de rapportreeks onafhankelijk zijn. Zie {de profieltoestemmingen van 0} Product voor Hulpmiddelen van Analytics [&#128279;](analytics-tools.md) voor een volledige lijst van toestemmingspunten en beschrijvingen.
 
 ## Ontwikkelaars van productprofielen
 

@@ -202,7 +202,7 @@ function linkCode(obj) {
 
 ### De methode `tl()` met Activity Map gebruiken
 
-Met de methode `tl()` kunt u aangepaste elementen bijhouden en de rendering van bedekkingen configureren voor dynamische inhoud. De `linkName` parameter wordt ook gebruikt om de [ Activity Map 2} dimensie van de Verbinding te plaatsen.](/help/components/dimensions/activity-map-link.md)
+Met de methode `tl()` kunt u aangepaste elementen bijhouden en de rendering van bedekkingen configureren voor dynamische inhoud. De `linkName` parameter wordt ook gebruikt om de [ Activity Map 2&rbrace; dimensie van de Verbinding te plaatsen.](/help/components/dimensions/activity-map-link.md)
 
 Wanneer de methode `tl()` rechtstreeks wordt aangeroepen vanuit de klikgebeurtenis van het HTML-element, kan de Activity Map een bedekking voor dat element weergeven wanneer de webpagina wordt geladen. Bijvoorbeeld:
 

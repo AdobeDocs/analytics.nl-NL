@@ -24,7 +24,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Anomaly opspo
 
 >[!IMPORTANT]
 >
->Adobe Analytics Select- en Adobe Analytics Foundation-klanten hebben alleen toegang tot Anomaly Detection (dagelijkse granulariteit) in Workspace. Voor meer informatie, zie {de Entitlements van de Analyse van de Anomaly van de Opsporing en van de Bijdrage ](#anomaly-detection-and-contribution-analysis-entitlements).[
+>Adobe Analytics Select- en Adobe Analytics Foundation-klanten hebben alleen toegang tot Anomaly Detection (dagelijkse granulariteit) in Workspace. Voor meer informatie, zie &lbrace;de Entitlements van de Analyse van de Anomaly van de Opsporing en van de Bijdrage [&#128279;](#anomaly-detection-and-contribution-analysis-entitlements).
 
 ## Anomaliedetectie
 

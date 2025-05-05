@@ -18,4 +18,4 @@ ht-degree: 0%
 
 U kunt een aangepaste naam voor uw aanvraag opgeven, die wordt weergegeven in Aanvraagbeheer.
 
-Voor meer informatie, zie {de Kopballen van de Vertoning van het 0} Formaat ](/help/analyze/legacy-report-builder/layout/t-format-display-headers.md).[
+Voor meer informatie, zie {de Kopballen van de Vertoning van het 0} Formaat [&#128279;](/help/analyze/legacy-report-builder/layout/t-format-display-headers.md).

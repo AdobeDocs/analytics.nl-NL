@@ -32,13 +32,13 @@ De tabel bestaat uit de volgende kolommen:
 
 
 - Om de lijst door de reeks van het Rapport, Type en Status te filtreren, selecteer ![ Filter ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
-- Om naar uw reclamerekening te zoeken die het ![ 1} onderzoeksgebied van het Onderzoek {gebruikt.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)
+- Om naar uw reclamerekening te zoeken die het ![ 1&rbrace; onderzoeksgebied van het Onderzoek &lbrace;gebruikt.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)
 - Als u actieve accounts in de tabel wilt selecteren, schakelt u **[!UICONTROL Active accounts]** in.
 - Om te bepalen welke kolommen voor de lijst te tonen, selecteer ![ montages van de Kolom ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/> in het **[!UICONTROL Customize table]** dialoogvenster:
    - Selecteer de kolommen die u wilt weergeven.
    - Selecteer **[!UICONTROL Apply]** .
 
-Wanneer u één of meerdere reclame rekeningen selecteert, een blauwe actiebar, die op status van de geselecteerde rekeningen wordt gebaseerd, staat u toe ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Rename]** uitgeven ![ verfijnen ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Map Report Suites]**, ![ Spel ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Activate]** of ![ Pauzeren ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pause]** uw reclamerekeningen.![
+Wanneer u één of meerdere reclame rekeningen selecteert, een blauwe actiebar, die op status van de geselecteerde rekeningen wordt gebaseerd, staat u toe ![&#128279;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Rename]** uitgeven ![ verfijnen ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Map Report Suites]**, ![ Spel ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Activate]** of ![ Pauzeren ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pause]** uw reclamerekeningen.
 
 ## Een advertentieaccount maken
 

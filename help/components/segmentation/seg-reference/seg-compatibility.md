@@ -99,4 +99,4 @@ Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met 
  </tbody> 
 </table>
 
-*Opmerking: Data Warehouse ondersteunt niet alle gevallen van het gebruik van een `exclusion` of `without` container gebruiken `AND/OR`. Wanneer het gebruiken van zulk een combinatie, slechts die segmenten die kunnen worden herschreven zoals `A AND NOT B`, (of **dit kenmerk**en **deze eigenschap uitsluiten**) worden ondersteund in Data Warehouse.*
+*Opmerking: Data Warehouse ondersteunt niet alle gevallen van het gebruik van een `exclusion` of `without` container gebruiken `AND/OR`. Wanneer het gebruiken van zulk een combinatie, slechts die segmenten die kunnen worden herschreven zoals `A AND NOT B`, (of **dit kenmerk**&#x200B;en **deze eigenschap uitsluiten**) worden ondersteund in Data Warehouse.*

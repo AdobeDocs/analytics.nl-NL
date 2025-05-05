@@ -56,7 +56,7 @@ De wijzigingen die u hebt aangebracht met de secties Snel bewerken zijn van toep
 
 ### Reeksen rapporteren
 
-Gegevensblokken trekken gegevens uit een geselecteerde rapportsuite. Als de veelvoudige gegevensblokken in een aantekenvel worden geselecteerd en zij trekken geen gegevens van de zelfde rapportreeks, **toont de 1} verbinding van de Suites van het Rapport *Veelvoud*.**
+Gegevensblokken trekken gegevens uit een geselecteerde rapportsuite. Als de veelvoudige gegevensblokken in een aantekenvel worden geselecteerd en zij trekken geen gegevens van de zelfde rapportreeks, **toont de 1&rbrace; verbinding van de Suites van het Rapport *Veelvoud*.**
 
 Wanneer u de rapportsuite wijzigt, nemen alle gegevensblokken in de selectie de nieuwe rapportsuite aan. Componenten in het gegevensblok komen overeen met de nieuwe rapportsuite op basis van bijvoorbeeld id ( ```evars``` ). Als een component niet in een gegevensblok wordt gevonden, wordt een waarschuwingsbericht getoond en de component wordt verwijderd uit het gegevensblok.
 

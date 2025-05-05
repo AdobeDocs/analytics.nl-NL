@@ -70,7 +70,7 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -82,7 +82,7 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -98,7 +98,7 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -112,7 +112,7 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++E-mail
 
@@ -128,7 +128,7 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    **Verouderde rekeningstypes**
 
@@ -147,13 +147,13 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++SFTP
 
    SFTP-ondersteuning voor gegevensfeeds is beschikbaar. Vereist een gastheer SFTP, gebruikersbenaming, en de bestemmingsplaats om een geldige RSA of DSA openbare sleutel te bevatten. U kunt de juiste openbare sleutel downloaden wanneer u de feed maakt.
 
-+++
+   +++
 
    +++S3
 
@@ -188,7 +188,7 @@ Een cloudimport- of -exportaccount configureren:
    >
    >De regio cn-North-1 wordt niet ondersteund.
 
-+++
+   +++
 
    +++Azure Blob
 
@@ -198,7 +198,7 @@ Een cloudimport- of -exportaccount configureren:
    >
    >U moet uw eigen proces uitvoeren om schijfruimte op de bestemming van het gegevenspakhuis te beheren. Adobe verwijdert geen gegevens van de server.
 
-+++
+   +++
 
 1. Selecteer [!UICONTROL **sparen**].
 

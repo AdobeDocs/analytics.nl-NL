@@ -91,7 +91,7 @@ Actief containers bevatten op één pagina gebaseerde waarden:
 
 ## Container voor logische groep
 
-Met de container van de Logische Groep kunt u een afzonderlijke container binnen de segmentregels verstrekken om entiteiten te filteren die niet op hiërarchie worden gebaseerd. U kunt bijvoorbeeld een container toevoegen die in het segment is genest en die filters toepast op basis van de bezoeker. Voor dit type logica moet u de hiërarchie afbreken (aangezien u al een bezoekercontainer op hoofdniveau hebt gebruikt) om alleen voor geselecteerde bezoekers te filteren. Zie {de voorbeelden van de Groep van 0} Logica ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) voor extra informatie.[
+Met de container van de Logische Groep kunt u een afzonderlijke container binnen de segmentregels verstrekken om entiteiten te filteren die niet op hiërarchie worden gebaseerd. U kunt bijvoorbeeld een container toevoegen die in het segment is genest en die filters toepast op basis van de bezoeker. Voor dit type logica moet u de hiërarchie afbreken (aangezien u al een bezoekercontainer op hoofdniveau hebt gebruikt) om alleen voor geselecteerde bezoekers te filteren. Zie {de voorbeelden van de Groep van 0} Logica [&#128279;](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) voor extra informatie.
 
 ## Nesten van containers {#nest-containers}
 

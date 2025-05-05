@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het deelvenster Vrije vorm in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ het deelvenster Vrije vorm ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
+_Dit artikel documenteert het deelvenster Vrije vorm in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ het deelvenster Vrije vorm ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +30,7 @@ Een **[!UICONTROL Freeform panel]** gebruiken:
 
    ![ het standaard deelvenster Vrije vorm dat een leeg paneel met een vrije vormlijst toont.](assets/freeform-panel.png)
 
-1. Zie ](/help/components/home.md) de componentengids van 0} Analytics {hoe u componenten aan het vrije paneel van de Vorm en [ vrije lijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie kunt toevoegen.[
+1. Zie [&#128279;](/help/components/home.md) de componentengids van 0&rbrace; Analytics &lbrace;hoe u componenten aan het vrije paneel van de Vorm en [ vrije lijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie kunt toevoegen.
 
 
 >[!MORELIKETHIS]

@@ -31,7 +31,7 @@ Zie [Hoe te om Adobe Analytics uit te voeren gebruikend de uitbreiding van SDK v
   ![Web SDK](./assets/websdk-implementation.png)
 Zie [Adobe Analytics implementeren met de Adobe Experience Platform Web SDK](./aep-edge/overview.md) voor meer informatie .
 
-* **Extensie Analytics**: Voeg de **Adobe Analytics-extensie** in Adobe Experience Platform Data Collection **Tags**plaatst u vervolgens een ladertag op elke pagina. De tag verzendt de gegevens rechtstreeks naar Adobe Analytics. Gebruik deze implementatiemethode als u het gemak van tags wilt gebruiken, maar de Edge Network-infrastructuur niet wilt gebruiken.
+* **Extensie Analytics**: Voeg de **Adobe Analytics-extensie** in Adobe Experience Platform Data Collection **Tags**&#x200B;plaatst u vervolgens een ladertag op elke pagina. De tag verzendt de gegevens rechtstreeks naar Adobe Analytics. Gebruik deze implementatiemethode als u het gemak van tags wilt gebruiken, maar de Edge Network-infrastructuur niet wilt gebruiken.
   ![Adobe Analytics-extensie](./assets/analytics-extension-implementation.png)
 Zie [Adobe Analytics implementeren met de extensie Analytics](launch/overview.md) voor meer informatie .
 
@@ -64,12 +64,12 @@ Zie [API voor gegevensinvoer](../import/c-data-insertion-api/c-data-insertion-ap
 
 Voor uw **mobiele app** zijn de volgende uitvoeringsmethoden beschikbaar:
 
-* **Mobile SDK-extensie**: De gestandaardiseerde en aanbevolen methode voor het implementeren van Adobe Analytics in uw mobiele app. Gebruik speciale bibliotheken om gegevens gemakkelijk vanuit uw mobiele app naar de Adobe te verzenden. Voeg de **Adobe Experience Platform Mobile SDK-extensie** in Adobe Experience Platform Data Collection **Tags**, implementeert u vervolgens de bibliotheek van de mobiele SDK in uw app. Met de SDK kunt u bibliotheken importeren, extensies registreren en de tagconfiguratie laden. Gegevens verzenden naar de Adobe Experience Platform **Edge Network**Edge stuurt die gegevens vervolgens door naar Adobe Analytics.
+* **Mobile SDK-extensie**: De gestandaardiseerde en aanbevolen methode voor het implementeren van Adobe Analytics in uw mobiele app. Gebruik speciale bibliotheken om gegevens gemakkelijk vanuit uw mobiele app naar de Adobe te verzenden. Voeg de **Adobe Experience Platform Mobile SDK-extensie** in Adobe Experience Platform Data Collection **Tags**, implementeert u vervolgens de bibliotheek van de mobiele SDK in uw app. Met de SDK kunt u bibliotheken importeren, extensies registreren en de tagconfiguratie laden. Gegevens verzenden naar de Adobe Experience Platform **Edge Network**&#x200B;Edge stuurt die gegevens vervolgens door naar Adobe Analytics.
   ![Mobile SDK-extensie](./assets/mobilesdk-extension.png)
 
   Zie [Adobe Analytics implementeren met de Adobe Experience Platform Mobile SDK](../implement/aep-edge/mobile-sdk/overview.md) voor meer informatie .
 
-* **Extensie Analytics**: Voeg de **Adobe Analytics-extensie** in Adobe Experience Platform Data Collection **Tags**en implementeer de bibliotheek van de Mobile SDK in uw app. Met de SDK kunt u bibliotheken importeren, extensies registreren en de tagconfiguratie laden. Deze implementatiemethode verzendt gegevens rechtstreeks naar Adobe Analytics. Het wordt geadviseerd als u het gemak van de Gegevensinzameling van Adobe Experience Platform wilt, maar niet de het netwerkinfrastructuur van Edge van de Experience Platform van de Adobe wilt gebruiken.
+* **Extensie Analytics**: Voeg de **Adobe Analytics-extensie** in Adobe Experience Platform Data Collection **Tags**&#x200B;en implementeer de bibliotheek van de Mobile SDK in uw app. Met de SDK kunt u bibliotheken importeren, extensies registreren en de tagconfiguratie laden. Deze implementatiemethode verzendt gegevens rechtstreeks naar Adobe Analytics. Het wordt geadviseerd als u het gemak van de Gegevensinzameling van Adobe Experience Platform wilt, maar niet de het netwerkinfrastructuur van Edge van de Experience Platform van de Adobe wilt gebruiken.
   ![Extensie Analytics](./assets/mobilesdk-analytics-extension.png)
 
   Zie [Adobe Analytics implementeren met de extensie Analytics](../implement/aep-edge/mobile-sdk/overview.md) voor meer informatie .

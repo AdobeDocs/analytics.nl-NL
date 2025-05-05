@@ -38,7 +38,7 @@ U kunt nog steeds beide versies van Report Builder gebruiken, met de volgende vo
 
 - Gebruik beide Report Builder-versies niet tegelijkertijd op hetzelfde bestand. Ze sluiten elkaar uit.
 - U kunt Legacy Report Builder nog steeds gebruiken voor oudere werkboeken en de nieuwe Report Builder voor nieuwe werkboeken.
-- Bovendien kunt u erfeniswerkboeken ](/help/analyze/report-builder/convert-workbooks.md) aan het nieuwe formaat van Report Builder automatisch [ omzetten. Voordat u dit doet, dupliceert u het bestand en wijzigt u de naam ervan.
+- Bovendien kunt u erfeniswerkboeken [&#128279;](/help/analyze/report-builder/convert-workbooks.md) aan het nieuwe formaat van Report Builder automatisch  omzetten. Voordat u dit doet, dupliceert u het bestand en wijzigt u de naam ervan.
 
 ## Verouderde Report Builder-functies worden niet ondersteund in de Nieuwe Report Builder
 

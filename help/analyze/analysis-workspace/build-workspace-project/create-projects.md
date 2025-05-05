@@ -36,7 +36,7 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
    1. Selecteren [!UICONTROL **Maken**].
 
-+++
+   +++
 
    +++Maak een project van een rapport
 
@@ -50,7 +50,7 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
       Zie &quot;Navigeren op het tabblad Rapporten&quot; in voor meer informatie over rapporten [Adobe Analytics-landingspagina](/help/analyze/landing.md).
 
-+++
+   +++
 
 1. Daarna, moet u panelen, visualisaties, en componenten aan uw project toevoegen. Voeg eerst deelvensters toe aan uw project in Analysis Workspace, zoals beschreven in [Deelvensters toevoegen aan het project](#add-panels-to-the-project). Vervolgens kunt u visualisaties toevoegen aan alle deelvensters. Tot slot kunt u componenten aan om het even welke panelen of visualisaties toevoegen.
 

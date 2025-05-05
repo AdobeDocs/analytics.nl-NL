@@ -133,7 +133,7 @@ Nadat u het segment toepast, kunt u verkiezen om het aan uw lijst van de segment
 1. Selecteer **[!UICONTROL Save]** .
 
    Het segment verschijnt nu in uw lijst van de segmentcomponent voor al uw projecten.
-U kunt het segment ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6) met andere mensen in uw organisatie ook [ delen.
+U kunt het segment [&#128279;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6) met andere mensen in uw organisatie ook  delen.
 
 ## Voorbeeld van snel segment
 

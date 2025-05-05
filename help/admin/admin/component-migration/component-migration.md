@@ -101,7 +101,7 @@ Bovendien doe een [ inventaris van Adobe Analytics ](/help/admin/admin/analytics
 
    Wanneer een afmeting of metrisch niet automatisch in kaart kan worden gebracht, toont een oranje teller naast de [!UICONTROL **Afmetingen**] of [!UICONTROL **Metriek**] sectiekop, die op het aantal dimensies of metriek wijzen die manueel in kaart moeten worden gebracht. In de lijst, toont een waarschuwingspictogram ![ waarschuwingspictogram ](assets/schema-warning.png) naast elke afmeting of metrisch die manueel in kaart moet worden gebracht.
 
-   Bovendien zegt de **]kolom van de Status[!UICONTROL ** [!UICONTROL **niet in kaart gebracht**].
+   Bovendien zegt de **kolom van de Status** [!UICONTROL **niet in kaart gebracht**].
 
    <!-- update screenshot after I can see the Status column -->
 
@@ -111,11 +111,11 @@ Bovendien doe een [ inventaris van Adobe Analytics ](/help/admin/admin/analytics
 
    ![ kaartdimensies en metriek ](assets/schema-manual-map-drop-down.png)
 
-   Nadat een afmeting of metrisch in kaart wordt gebracht, verdwijnt het waarschuwingspictogram en de **]kolomveranderingen van de Status[!UICONTROL ** {in kaart gebracht [!UICONTROL ****] met een groene punt. (Een status van [!UICONTROL **In kaart gebrachte**] met een grijze punt wijst erop dat de afmeting of metrisch tijdens een vorige migratie in kaart werd gebracht; om het even welke vorige afbeeldingen kunnen niet worden bijgewerkt.)
+   Nadat een afmeting of metrisch in kaart wordt gebracht, verdwijnt het waarschuwingspictogram en de **kolomveranderingen van de Status** &lbrace;in kaart gebracht [!UICONTROL **&#x200B;**] met een groene punt. (Een status van [!UICONTROL **In kaart gebrachte**] met een grijze punt wijst erop dat de afmeting of metrisch tijdens een vorige migratie in kaart werd gebracht; om het even welke vorige afbeeldingen kunnen niet worden bijgewerkt.)
 
    Herhaal dit proces voor elke afmeting of metrisch die het waarschuwingspictogram bevat.
 
-   Nadat alle dimensies en metriek in de het rapportreeks van Adobe Analytics aan een afmeting of metrisch in de het rapportreeks van Customer Journey Analytics in kaart worden gebracht, verschijnt een groen vinkje ](assets/report-suite-check.png) naast de naam van de rapportreeks in het [!UICONTROL **schema van de Kaart voor de sectie van de rapportsuites**].![
+   Nadat alle dimensies en metriek in de het rapportreeks van Adobe Analytics aan een afmeting of metrisch in de het rapportreeks van Customer Journey Analytics in kaart worden gebracht, verschijnt een groen vinkje ![&#128279;](assets/report-suite-check.png) naast de naam van de rapportreeks in het [!UICONTROL **schema van de Kaart voor de sectie van de rapportsuites**].
 
 1. (Voorwaardelijk) als het project u migreert meer dan één rapportreeks bevat, selecteer een andere rapportreeks in het [!UICONTROL **schema van de Kaart voor rapportreeksen**] sectie, dan herhaal stap 6 door Stap 10. <!-- double-check that the step numbers are still correct -->
 

@@ -44,7 +44,7 @@ De koptekst van dit deelvenster bevat de volgende instellingen:
 * **uitvouwen/doen ineenstorten hoogste paneel**: Knevels het hoogste paneel om montages horizontaal of verticaal (dubbel pijlpictogram) te tonen.
 * **[!UICONTROL Toggle page details]**: het onderste deelvenster (oogpictogram) weergeven of verbergen.
 * **[!UICONTROL Show settings]**: opent een menu voor instellingen die u kunt wijzigen (tandwielpictogram):
-   * **[!UICONTROL Settings]**: Opent de 1} Montages van de uitbreiding ](settings.md).[
+   * **[!UICONTROL Settings]**: Opent de 1&rbrace; Montages van de uitbreiding [&#128279;](settings.md).
    * **[!UICONTROL Help]**: opent de documentatie aan Experience League (deze pagina).
    * **[!UICONTROL Adobe community]**: Opent de [ gemeenschap van het Experience League ](https://experienceleaguecommunities.adobe.com/).
    * **[!UICONTROL About]**: geeft de extensieversie weer.

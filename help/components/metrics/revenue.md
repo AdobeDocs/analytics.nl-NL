@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Ontvangsten
 
-De metrische &quot;Inkomsten&quot;[ ](overview.md) toont de monetaire hoeveelheid producten die binnen alle orden worden gekocht. Deze maatstaf is van essentieel belang voor eCommerce-sites bij het meten van de conversie. U kunt deze metrisch met om het even welke afmeting combineren om te zien welke afmetingspunten tot opbrengst droegen. Bijvoorbeeld, kon u de hoogste campagnes zien (gebruikend de [ het Volgen code ](../dimensions/tracking-code.md) dimensie) of hoogste interne onderzoekstermijnen (gebruikend een [ eVar ](../dimensions/evar.md)).
+De metrische &quot;Inkomsten&quot;[&#128279;](overview.md) toont de monetaire hoeveelheid producten die binnen alle orden worden gekocht. Deze maatstaf is van essentieel belang voor eCommerce-sites bij het meten van de conversie. U kunt deze metrisch met om het even welke afmeting combineren om te zien welke afmetingspunten tot opbrengst droegen. Bijvoorbeeld, kon u de hoogste campagnes zien (gebruikend de [ het Volgen code ](../dimensions/tracking-code.md) dimensie) of hoogste interne onderzoekstermijnen (gebruikend een [ eVar ](../dimensions/evar.md)).
 
 ## Hoe deze metrische waarde wordt berekend
 

@@ -30,7 +30,7 @@ Als sommige van de geselecteerde aanvragen Aangepaste layouts zijn, kunnen geen 
 Een of meer metriek toevoegen
 
 1. Selecteer een of meer aanvragen in Excel en klik met de rechtermuisknop om **[!UICONTROL Edit Metrics]** te selecteren. (Of klik op **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** om de groep verzoeken te selecteren die u wilt wijzigen.)
-1. Selecteer **[!UICONTROL Add Metric(s)]**en selecteer de metriek om toe te voegen.
+1. Selecteer **[!UICONTROL Add Metric(s)]**&#x200B;en selecteer de metriek om toe te voegen.
 
    ![ Schermafbeelding die het Edit Verzoek toont, voegt Geselecteerde optie Metriek(en) toe.](assets/add_metric.png)
 

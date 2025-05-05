@@ -16,7 +16,7 @@ ht-degree: 26%
 Gebruik Adobe Experience Platform Mobile SDK om Analytics voor mobiele apparaten te implementeren.
 
 * Zie [ Adobe Analytics uitvoeren gebruikend Adobe Experience Platform Mobile SDK ](aep-edge/mobile-sdk/overview.md) voor meer informatie specifiek voor Adobe Analytics.
-* Zie {de documentatie van 0} Mobiele SDK ](https://developer.adobe.com/client-sdks/home/) om SDKs te downloaden en te installeren.[
+* Zie {de documentatie van 0} Mobiele SDK [&#128279;](https://developer.adobe.com/client-sdks/home/) om SDKs te downloaden en te installeren.
 
 ## Mobiele SDK’s versie 4
 
