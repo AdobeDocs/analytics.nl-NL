@@ -51,4 +51,4 @@ Naast het onderscheiden van paginaweergaven en het klikken van koppelingen, is d
 
 {style="table-layout:auto"}
 
-Zie de [ Adobe Analytics ExperienceEvent Volledige groep van het het schemagebied van de Uitbreiding ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) voor meer informatie.
+Zie de [ Adobe Analytics ExperienceEvent Volledige groep van het het schemagebied van de Uitbreiding ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=nl-NL) voor meer informatie.

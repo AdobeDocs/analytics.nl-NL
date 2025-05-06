@@ -85,13 +85,13 @@ Voor uw **mobiele app**, zijn de volgende implementatiemethodes beschikbaar:
 * [Adobe Debugger](validate/debugger.md)
 * [Een tag-eigenschap maken in Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement-updates](appmeasurement-updates.md)
-* [ Opstelling Adobe Analytics met de zelfstudie van SDK van het Web van het Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
-* [ voer Adobe Experience Cloud in mobiele apps leerprogramma uit ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
+* [ Opstelling Adobe Analytics met de zelfstudie van SDK van het Web van het Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=nl-NL)
+* [ voer Adobe Experience Cloud in mobiele apps leerprogramma uit ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=nl-NL)
 
 
 ## Belangrijke bronnen voor Analytics
 
-* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
+* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/nl?support-solution=Analytics&amp;lang=nl#support)
 * [ Gemeenschap van Adobe Analytics op Experience League ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Opmerkingen bij de laatste release](../release-notes/latest.md)
