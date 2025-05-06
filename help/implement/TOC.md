@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '436'
 ht-degree: 8%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 8%
 # Adobe Analytics-implementatiehandleiding {#implementation}
 
 + [Adobe Analytics implementeren](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [Opmerkingen bij de release van AppMeasurement](appmeasurement-updates.md)
 + Variabelen, functies en methoden voor analyse {#vars}
    + [Overzicht](vars/overview.md)
@@ -150,8 +150,8 @@ ht-degree: 8%
       + [Nieuwe implementatie met JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + Mobile SDK {#mobile-sdk}
       + [Overzicht van Mobile SDK](aep-edge/mobile-sdk/overview.md)
-   + Server-API {#server-api}
-      + [Overzicht van de server-API](aep-edge/server-api/overview.md)
+   + EDGE NETWORK API {#api}
+      + [Overzicht Edge Network API](aep-edge/api/overview.md)
 + Analyses implementeren met de extensie Adobe Analytics {#launch}
    + [Overzicht van codes](launch/overview.md)
    + [Een Adobe Analytics-tageigenschap maken](launch/create-analytics-property.md)
