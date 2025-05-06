@@ -23,7 +23,7 @@ Voor uw **website**, zijn de volgende implementatiemethodes beschikbaar:
 
 ### Client-kant
 
-* **uitbreiding van SDK van het Web**: De gestandaardiseerde en geadviseerde methode om Adobe Analytics voor nieuwe klanten uit te voeren. Voeg de **uitbreiding van SDK van het Web van Adobe Experience Platform** in de Codes van de Inzameling van de Gegevens van Adobe Experience Platform **** toe, dan plaats een ladersmarkering op elke pagina. De markering verzendt gegevens naar Adobe Experience Platform **Edge Network**, die die gegevens aan Adobe Analytics door:sturen.
+* **uitbreiding van SDK van het Web**: De gestandaardiseerde en geadviseerde methode om Adobe Analytics voor nieuwe klanten uit te voeren. Voeg de **uitbreiding van SDK van het Web van Adobe Experience Platform** in de Codes van de Inzameling van de Gegevens van Adobe Experience Platform **&#x200B;**&#x200B;toe, dan plaats een ladersmarkering op elke pagina. De markering verzendt gegevens naar Adobe Experience Platform **Edge Network**, die die gegevens aan Adobe Analytics door:sturen.
   ![ de uitbreiding van SDK van het Web ](./assets/websdk-extension-implementation.png)
 Zie [ hoe te om Adobe Analytics uit te voeren gebruikend de uitbreiding van SDK van het Web van Adobe Experience Platform.](./aep-edge/overview.md) voor meer informatie.
 
@@ -64,7 +64,7 @@ Zie [ de Invoeging API van Gegevens ](../import/c-data-insertion-api/c-data-inse
 
 Voor uw **mobiele app**, zijn de volgende implementatiemethodes beschikbaar:
 
-* **Mobiele uitbreiding van SDK**: De gestandaardiseerde en geadviseerde methode om Adobe Analytics in uw mobiele app uit te voeren. Gebruik speciale bibliotheken om gegevens vanuit uw mobiele app gemakkelijk naar Adobe te verzenden. Voeg de **Adobe Experience Platform Mobile SDK uitbreiding** in de Codes van de Inzameling van de Gegevens van Adobe Experience Platform **** toe, dan voer de Mobiele bibliotheek van SDK in uw app uit. Met de SDK kunt u bibliotheken importeren, extensies registreren en de tagconfiguratie laden. Verzend gegevens naar Adobe Experience Platform **Edge Network**; Edge dan door:sturen die gegevens aan Adobe Analytics.
+* **Mobiele uitbreiding van SDK**: De gestandaardiseerde en geadviseerde methode om Adobe Analytics in uw mobiele app uit te voeren. Gebruik speciale bibliotheken om gegevens vanuit uw mobiele app gemakkelijk naar Adobe te verzenden. Voeg de **Adobe Experience Platform Mobile SDK uitbreiding** in de Codes van de Inzameling van de Gegevens van Adobe Experience Platform **&#x200B;**&#x200B;toe, dan voer de Mobiele bibliotheek van SDK in uw app uit. Met de SDK kunt u bibliotheken importeren, extensies registreren en de tagconfiguratie laden. Verzend gegevens naar Adobe Experience Platform **Edge Network**; Edge dan door:sturen die gegevens aan Adobe Analytics.
   ![ Mobiele uitbreiding van SDK ](./assets/mobilesdk-extension.png)
 
   Zie [ Adobe Analytics uitvoeren gebruikend Adobe Experience Platform Mobile SDK ](../implement/aep-edge/mobile-sdk/overview.md) voor meer informatie.
