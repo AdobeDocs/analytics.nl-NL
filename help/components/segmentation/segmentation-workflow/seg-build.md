@@ -66,7 +66,7 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 
 * **Analytics hoogste navigatie**: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: klik op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** , open een project en klik op **[!UICONTROL + New]** > **[!UICONTROL Create Segment]** .
-* **[!UICONTROL Report Builder]**: [ voeg of geef segmenten in Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments) uit.
+* **[!UICONTROL Report Builder]**: [ voeg of geef segmenten in Report Builder ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/report-builder/work-with-segments) uit.
 
 ## Builder-criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -109,7 +109,7 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het segment of metrisch.
 1. **[!UICONTROL X]**: (Schrapping) laat u dit deel van de segmentdefinitie schrappen.
 1. **[!UICONTROL Experience Cloud publishing]**: Als u een Adobe Analytics-segment naar de Experience Cloud publiceert, kunt u het segment gebruiken voor marketingactiviteiten in [!DNL Audience Manager] en in andere activeringskanalen. [Meer informatie...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe-publieksservices beheren de vertaling van bezoekersgegevens naar publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan de Experience Cloud te delen. [Meer informatie...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL Audience library]**: Adobe-publieksservices beheren de vertaling van bezoekersgegevens naar publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan de Experience Cloud te delen. [Meer informatie...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL)
 1. **[!UICONTROL Search]**: hiermee doorzoekt u de lijst met afmetingen, segmenten of metriek.
 1. **[!UICONTROL Dimensions]**: (Lijst) Klik op de koptekst om uit te vouwen.
 1. **[!UICONTROL Metrics]** : klik op de koptekst om deze uit te vouwen.
