@@ -55,6 +55,6 @@ Dit bestaat uit het selecteren van de rapportsuite en het configureren van maxim
 
 1. Selecteer **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]** .
 
-   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van rapporten in real time, zie [ in werking stellen een Rapport in real time ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van rapporten in real time, zie [ in werking stellen een Rapport in real time ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=nl-NL).
 
 1. Door gebrek, hebben alle gebruikers toegang tot Echt - tijd rapporten.

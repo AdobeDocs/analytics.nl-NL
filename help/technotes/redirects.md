@@ -117,7 +117,7 @@ s.pageURL="https://www.flytohawaiiforfree.com"
 
 Voer een test uit om te controleren of de verwijzende, voortkomende URL ( *`s_server`*) en campagnevariabelen worden vastgelegd.
 
-Deze variabelen zullen als volgende parameters in [ Zuiver van de Wolk van de Ervaring worden vertegenwoordigd ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
+Deze variabelen zullen als volgende parameters in [ Zuiver van de Wolk van de Ervaring worden vertegenwoordigd ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 

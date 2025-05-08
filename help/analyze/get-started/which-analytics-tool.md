@@ -61,7 +61,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vergelijking 
 
 * Wanneer u gegevens naar Adobe Analytics moet brengen en geen AppMeasurement, Web SDK, of de Bulk API van de Invoeging van Gegevens kunt gebruiken.
 
-**[de attributen van de Klant ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** zouden moeten worden gebruikt:
+**[de attributen van de Klant ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=nl-NL)** zouden moeten worden gebruikt:
 
 * Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt en de gegevens aan Experience Cloud wilt uploaden.
 * Als u de gegevens van CRM voor diepere analyse in Analytics wilt gebruiken, of als het richten van criteria in Adobe Target.

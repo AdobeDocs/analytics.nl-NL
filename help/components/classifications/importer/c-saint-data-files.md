@@ -116,4 +116,4 @@ Bovendien ondersteunt het gegevensbestand de volgende extra kopconventies om sub
 
 ## Problemen met classificaties oplossen
 
-* [ Gemeenschappelijke upload Kwesties ](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Het artikel van de Kennisbank dat kwesties beschrijft die uit onjuiste dossierformaten en dossierinhoud voortvloeien.
+* [ Gemeenschappelijke upload Kwesties ](https://helpx.adobe.com/nl/analytics/kb/common-saint-upload-issues.html): Het artikel van de Kennisbank dat kwesties beschrijft die uit onjuiste dossierformaten en dossierinhoud voortvloeien.
