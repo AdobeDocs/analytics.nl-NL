@@ -19,7 +19,7 @@ De tijd die het systeem nodig heeft om deze bestanden te importeren, varieert op
 
 Wanneer het importeren is gelukt, worden direct de juiste wijzigingen in een exportbewerking weergegeven, terwijl het wijzigen van de gegevens in Analytics maximaal vier uur kan duren bij het importeren van een browser en maximaal 24 uur bij het importeren van een FTP-bestand.
 
-Voor informatie over de grenzen van FTP en gegevensbehoud, zie {de Limieten van FTP van 0} en het Behouden van Gegevens ](/help/export/ftp-and-sftp/ftp-limits.md).[
+Voor informatie over de grenzen van FTP en gegevensbehoud, zie {de Limieten van FTP van 0} en het Behouden van Gegevens [&#128279;](/help/export/ftp-and-sftp/ftp-limits.md).
 
 ## Over het bestand `.fin` voor classificaties en gegevensbronnen uploaden {#section_1484719F8A134EAE91212DBD8F15174F}
 

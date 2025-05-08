@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Product
 
-De &quot;dimensie van het Product&quot;[ ](overview.md) meldt de naam van het product in de slag. Dit is handig voor implementaties die de variabele `products` gebruiken en die meetgegevens willen zien rond producten, zoals topverkopers of de meeste weergegeven. Deze dimensie kan opzettelijk leeg zijn als u geen producten op uw site hebt.
+De &quot;dimensie van het Product&quot;[&#128279;](overview.md) meldt de naam van het product in de slag. Dit is handig voor implementaties die de variabele `products` gebruiken en die meetgegevens willen zien rond producten, zoals topverkopers of de meeste weergegeven. Deze dimensie kan opzettelijk leeg zijn als u geen producten op uw site hebt.
 
 ## Deze dimensie vullen met gegevens
 

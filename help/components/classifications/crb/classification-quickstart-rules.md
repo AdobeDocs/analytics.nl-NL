@@ -133,7 +133,7 @@ In [!UICONTROL Rule Builder], vorm de regel als volgt:
 
 | Regeltype selecteren | Overeenkomstcriteria invoeren | Classificatie instellen | Naar |
 |---|---|---|---|
-| Gewone uitdrukking | &amp;Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $ 3 |
+| Gewone uitdrukking | &Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $ 3 |
 
 **Syntaxis**
 
@@ -329,7 +329,7 @@ Een classificatieregel toevoegen of bewerken:
 
    ![Stap Resultaat](assets/classification_rules_page.png)
 
-   Voor voorbeelden van het bouwen van regels, zie {de Bouwer van de Regel van de Regel van 0} Classificaties ](/help/components/classifications/crb/classification-rule-builder.md) en [ Regelmatige Uitdrukkingen in de Regels van de Classificatie ](/help/components/classifications/crb/classification-quickstart-rules.md).[
+   Voor voorbeelden van het bouwen van regels, zie {de Bouwer van de Regel van de Regel van 0} Classificaties [&#128279;](/help/components/classifications/crb/classification-rule-builder.md) en [ Regelmatige Uitdrukkingen in de Regels van de Classificatie ](/help/components/classifications/crb/classification-quickstart-rules.md).
 
    >[!NOTE]
    >
@@ -340,7 +340,7 @@ Een classificatieregel toevoegen of bewerken:
 
    Als u een regel activeert, wordt het bestand automatisch samengesteld en voor u geüpload.
 
-   De definities van het gebied: Zie ](/help/components/classifications/crb/classification-rule-definitions.md) de Bouwer van de Regel van de Classificatie [ voor volledige definities van interfaceopties op deze pagina.
+   De definities van het gebied: Zie [&#128279;](/help/components/classifications/crb/classification-rule-definitions.md) de Bouwer van de Regel van de Classificatie  voor volledige definities van interfaceopties op deze pagina.
 
 ## Een set classificatieregel testen
 
