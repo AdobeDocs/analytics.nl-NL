@@ -1,9 +1,9 @@
 ---
-description: De segmentbouwer verstrekt een canvas om Metrische Dimensionen, Segmenten, en Gebeurtenissen te slepen en te laten vallen om bezoekers te segmenteren die op containerhiërarchische logica, regels, en exploitanten worden gebaseerd. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe segmenten maken en opslaan die bezoekerskenmerken en -acties identificeren voor bezoeken en pagina-einden.
+description: De Bouwer van het Segment verstrekt een canvas om Metrische Dimensies, Segmenten, en Gebeurtenissen te slepen en te laten vallen bezoekers segmenteren die op de logica van de containerhiërarchie, regels, en exploitanten worden gebaseerd. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe segmenten maken en opslaan die bezoekerskenmerken en -acties identificeren voor bezoeken en pagina-einden.
 title: Segmenten maken
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="Publiek maken"
->abstract="Soorten publiek kan worden gemaakt op basis van een filter en worden gedeeld met de Adobe Experience Platform voor activering."
+>abstract="Soorten publiek kan worden gemaakt op basis van een segment en worden gedeeld met de Adobe Experience Platform voor activering."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Gegevensvoorbeeld"
->abstract="Vergelijkt de gegevens van dit filter met gegevens van de gegevensmening. Het voorproefpercentage is gebaseerd op het totale aantal in de gegevensmening van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
+>abstract="Vergelijkt de gegevens van dit segment met gegevens van de gegevensmening. Het voorproefpercentage is gebaseerd op het totale aantal in de gegevensmening van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 
 * **Analytics hoogste navigatie**: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: klik op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** , open een project en klik op **[!UICONTROL + New]** > **[!UICONTROL Create Segment]** .
-* **[!UICONTROL Report Builder]**: [ voeg of geef segmenten in Report Builder ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/report-builder/work-with-segments) toe uit.
+* **[!UICONTROL Report Builder]**: [ voeg of geef segmenten in Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments) uit.
 
 ## Builder-criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -84,10 +84,10 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
    * **[!UICONTROL + Add container]**: hiermee kunt u een nieuwe container (onder de container op het hoogste niveau) toevoegen aan de segmentdefinitie.
    * **[!UICONTROL Exclude]**: Hiermee kunt u het segment definiëren door een of meer dimensies, segmenten of metriek uit te sluiten.
 
-1. **[!UICONTROL Dimensions]**: componenten worden gesleept en uit de lijst Dimensionen verwijderd (oranje zijbalk).
+1. **[!UICONTROL Dimensions]**: componenten worden gesleept en uit de lijst Dimensies verwijderd (oranje zijbalk).
 1. **[!UICONTROL Operator]**: u kunt waarden vergelijken en beperken met behulp van geselecteerde operatoren.
 1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het segment of metrisch.
-1. **[!UICONTROL Attribution Models]** - Alleen beschikbaar voor dimensies. Deze modellen bepalen voor welke waarden in een dimensie een segment moet worden gemaakt. Dimensionen zijn met name handig voor opeenvolgende segmentatie.
+1. **[!UICONTROL Attribution Models]** - Alleen beschikbaar voor dimensies. Deze modellen bepalen voor welke waarden in een dimensie een segment moet worden gemaakt. Dimension-modellen zijn vooral handig voor opeenvolgende segmentatie.
 
    * **[!UICONTROL Repeating]** (standaardwaarde): bevat varianten en doorlopende waarden voor de dimensie.
    * **[!UICONTROL Instance]** - Bevat varianten voor de dimensie.
@@ -108,8 +108,8 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 1. **[!UICONTROL Comparison]** operator: u kunt waarden vergelijken en beperken met behulp van geselecteerde operatoren.
 1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het segment of metrisch.
 1. **[!UICONTROL X]**: (Schrapping) laat u dit deel van de segmentdefinitie schrappen.
-1. **[!UICONTROL Experience Cloud publishing]**: Als u een Adobe Analytics-segment naar het Experience Cloud publiceert, kunt u het segment gebruiken voor marketingactiviteiten in [!DNL Audience Manager] en in andere activeringskanalen. [Meer informatie...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: de publieksservices van de Adobe beheren de vertaling van bezoekersgegevens in publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan het Experience Cloud te delen. [Meer informatie...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL)
+1. **[!UICONTROL Experience Cloud publishing]**: Als u een Adobe Analytics-segment naar de Experience Cloud publiceert, kunt u het segment gebruiken voor marketingactiviteiten in [!DNL Audience Manager] en in andere activeringskanalen. [Meer informatie...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL Audience library]**: Adobe-publieksservices beheren de vertaling van bezoekersgegevens naar publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan de Experience Cloud te delen. [Meer informatie...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: hiermee doorzoekt u de lijst met afmetingen, segmenten of metriek.
 1. **[!UICONTROL Dimensions]**: (Lijst) Klik op de koptekst om uit te vouwen.
 1. **[!UICONTROL Metrics]** : klik op de koptekst om deze uit te vouwen.
@@ -122,7 +122,7 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 
 ## Segmenten maken {#build-segments}
 
-1. U sleept gewoon een Dimension, segment of metrische gebeurtenis van het linkerdeelvenster naar het veld [!UICONTROL Definitions] .
+1. U sleept gewoon een Dimension, Segment of Metrische gebeurtenis van het linkerdeelvenster naar het veld [!UICONTROL Definitions] .
 
    ![](assets/drag_n_drop_dimension.png)
 
@@ -150,7 +150,7 @@ U kunt [ een kader van containers ](/help/components/segmentation/seg-overview.m
    ![](assets/new_container.png)
 
 1. Wijzig desgewenst het containertype.
-1. Sleep een Dimension, segment of gebeurtenis van het linkerdeelvenster naar de container.
+1. Sleep een Dimension, Segment of Gebeurtenis van het linkerdeelvenster naar de container.
 1. Ga door met het toevoegen van nieuwe containers vanaf de knop op hoofdniveau **[!UICONTROL Options]** > **[!UICONTROL Add container]** boven aan de definitie of voeg containers vanuit een container toe om logica te nesten.
 
    **OF**
@@ -213,7 +213,7 @@ Door segment het stapelen te gebruiken, kunt u uw segmentaantal tot 22 verminder
 
 Segmentsjablonen worden aangeboden voor algemene segmentatiegebruikstoepassingen, zoals &quot;First-time Visits&quot; of &quot;Vists from Mobile Devices&quot;. Zij zijn beschikbaar in de projecten van Workspace en in de segmentbouwer als bouwstenen voor nieuwe segmenten.
 
-Sjablonen worden aangeduid met het logo &quot;A&quot; van de Adobe. Hieronder vindt u een voorbeeld van de sjablonen:
+Sjablonen worden aangeduid met het Adobe &quot;A&quot;-logo. Hieronder vindt u een voorbeeld van de sjablonen:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 

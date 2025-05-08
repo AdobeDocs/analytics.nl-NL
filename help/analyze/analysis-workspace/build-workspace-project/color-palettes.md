@@ -4,14 +4,19 @@ title: Wat zijn visualisatiekleurenpaletten en hoe werken ze?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 434b296825806616288127bb2d3e73e1f9531f95
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '222'
 ht-degree: 1%
 
 ---
 
-# Kleurenpaletten voor visualisatie
+# Kleurenpaletten voor visualisatie {#visualization-color-palettes}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_colorpalette"
+>title="Kleurenpalet Project"
+>abstract="Wijzig het kleurenpalet dat in dit project wordt gebruikt."
 
 U kunt het in Workspace gebruikte palet voor visualisatiekleuren wijzigen door een ander kleurenpalet te kiezen of door uw eigen palet op te geven dat geschikt kan zijn voor de brandingkleuren van uw bedrijf. Deze eigenschap beïnvloedt de meeste visualisaties in Workspace, maar het **beïnvloedt** niet [!UICONTROL Summary Change], voorwaardelijk formatteren in [!UICONTROL Freeform] lijsten, en [!UICONTROL Map] visualisatie.
 

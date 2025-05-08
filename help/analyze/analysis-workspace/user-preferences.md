@@ -4,9 +4,9 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3337'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ U kunt instellingen voor Analysis Workspace en de bijbehorende componenten voor 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ voorkeur ](https://video.tv.adobe.com/v/3429990/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video beheren.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ voorkeur ](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} voor een demo video beheren.
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,22 @@ U kunt algemene voorkeuren aanpassen voor alle nieuwe projecten die u in Analysi
 | Tips weergeven | Hiermee geeft u tips weer in een blauw vak rechtsonder in Analysis Workspace. <p>Deze optie is standaard ingeschakeld.</p> |
 | Onderdelen die worden weergegeven in linkerspoorweggroepen | Kies hoeveel van elke component in het menu Componenten in de linkerspoorstaaf moet worden weergegeven. <p>Als u 0 kiest, is de component niet meer toegankelijk vanaf de linkerspoorstaaf van uw werkruimten.</p><p>Standaard worden vijf componenten weergegeven voor elk van de volgende opties:</p> <ul><li>Dimensies</li><li>Metrics</li><li>Filters</li><li>Datumbereiken</li></ul> <p>Voor meer informatie over Componenten in Analysis Workspace, zie [ Overzicht van Componenten ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
-## Bedrijfsvoorkeuren
+## Bedrijfsvoorkeuren {#company-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_shareonlyworkspace"
+>title="Alleen delen met Workspace-gebruikers toestaan"
+>abstract="Als deze optie is ingeschakeld, is de optie **[!UICONTROL Share with anyone]** niet meer beschikbaar voor gebruikers die een Analysis Workspace-project delen. De mensen die eerder toegang tot een project door deze aandeeloptie kregen kunnen niet meer tot het project toegang hebben."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_requireexperiencecloudauth"
+>title="Experience Cloud-verificatie vereisen"
+>abstract="Als deze optie is ingeschakeld, moeten personen die toegang hebben tot een project via de optie **[!UICONTROL Share with anyone]** in Analysis Workspace, zich verifiëren met hun Experience Cloud-gegevens."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_projectcommenting"
+>title="Opmerkingen over projecten toestaan"
+>abstract="Als dit is ingeschakeld, is een gebied met opmerkingen beschikbaar in de rechterspoorlijn van elk project in Analysis Workspace."
 
 U kunt bedrijfvoorkeur bijwerken die op alle gebruikers en projecten binnen uw organisatie van toepassing is. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
 
@@ -61,11 +76,26 @@ U kunt bedrijfvoorkeur bijwerken die op alle gebruikers en projecten binnen uw o
 |  | Tabblad Rapporten verbergen | Hiermee verbergt u het tabblad Rapporten voor alle gebruikers in uw organisatie. |
 | **het delen van het Project** | | |
 | | Alleen delen met Workspace-gebruikers toestaan | <p>Wanneer deze optie is ingeschakeld, kunnen gebruikers in uw organisatie de optie &quot;Delen met iedereen&quot; niet zien in het menu Delen. Dit betekent dat de gebruikers geen projecten met mensen kunnen delen die geen rekening van Analysis Workspace in uw organisatie hebben zoals die in [ wordt beschreven een project met iedereen (geen vereiste login) ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>Houd rekening met het volgende wanneer u deze optie in- of uitschakelt:</p> <ul><li><p>Wanneer u deze optie inschakelt, hebben mensen die eerder via de optie &quot;Delen met iedereen&quot; toegang tot een project hebben gekregen, geen toegang meer tot het project.</p></li><li><p>Als deze optie is ingeschakeld (om alleen delen met Workspace-gebruikers toe te staan) en later is uitgeschakeld (om delen met iedereen toe te staan), krijgen mensen die eerder toegang tot een project hebben gekregen via de optie Delen met iedereen) niet automatisch weer toegang tot het project. In dit geval, moet de gebruiker die het project deelde de [!UICONTROL **Verbinding toelaten is actieve**] optie die beschikbaar is wanneer het delen van een project met iedereen ([!UICONTROL **Aandeel**] > [!UICONTROL **Aandeel met iedereen**]), zoals die in [ wordt beschreven een project met iedereen (geen vereiste login) ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> |
-| | Verificatie van Experience Cloud vereisen | <p>Wanneer toegelaten, moeten de mensen die toegang tot een project van &quot;Aandeel met iedereen&quot;optie in Analysis Workspace worden verleend voor authentiek verklaren gebruikend hun geloofsbrieven van het Experience Cloud.</p> <p>Nadat deze optie is ingeschakeld, wordt de optie &quot;Verificatie van Experience Cloud vereisen&quot; ingeschakeld in het dialoogvenster Delen wanneer een gebruiker een project deelt met de optie &quot;Delen met iedereen&quot;. De gebruiker die het project deelt, kan dit niet uitschakelen. (Voor informatie over hoe de gebruikers projecten met iedereen kunnen delen, zie [ een project met iedereen (geen vereiste login) delen ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Houd rekening met het volgende wanneer u deze optie inschakelt:</p><ul><li><p>Wanneer u deze optie inschakelt, worden alle projecten die eerder met de optie &quot;Delen met iedereen&quot; zijn gedeeld en waarvoor de optie &quot;Verificatie van Experience Cloud vereisen&quot; niet is ingeschakeld, gedeactiveerd.</p></li> <li><p>Als deze optie wordt toegelaten (om Experience Cloud authentificatie te vereisen) en dan later onbruikbaar gemaakt (om iedereen met de verbinding toe te staan om tot het project toegang te hebben), krijgen de mensen die eerder toegang tot een project door &quot;Aandeel met iedereen&quot;aandeeloptie ontvingen niet automatisch hun toegang tot het project terug. In dit geval, moet de gebruiker die het project deelde de &quot;Verbinding actief&quot;optie toelaten die beschikbaar is wanneer het delen van een project met iedereen ([!UICONTROL **Aandeel**] > [!UICONTROL **Aandeel met iedereen**] > [!UICONTROL **Verbinding is actief**]), zoals die in [ wordt beschreven een project met iedereen (geen vereiste login) ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Deze optie is alleen beschikbaar als SSO in uw organisatie is geïmplementeerd. Voor informatie over hoe de systeembeheerders SSO voor uw organisatie kunnen toelaten, zie [ Identiteit van de Opstelling en Enige Sign-On ](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html){target=_blank} .</p><p>Als SSO voor uw organisatie wordt gevormd, controleer om te zien of wordt om het even welk soort auto-rekening verwezenlijking uitgevoerd in de console. Typisch, zou een systeembeheerder deze opstelling, zoals die in [ wordt beschreven automatische rekeningsverwezenlijking ](https://helpx.adobe.com/nl/enterprise/using/automatic-account-creation.html){target=_blank}  toelaten.</p></li><li><p>Als uw organisatie in een industrie is die naleving HIPAA vereist, wordt deze optie automatisch toegelaten en kan niet worden onbruikbaar gemaakt.</p></li></ul> |
+| | Experience Cloud-verificatie vereisen | <p>Wanneer toegelaten, moeten de mensen die toegang tot een project van &quot;Aandeel met iedereen&quot;optie in Analysis Workspace worden verleend voor authentiek verklaren gebruikend hun geloofsbrieven van Experience Cloud.</p> <p>Wanneer deze optie is ingeschakeld en een gebruiker een project deelt met de optie &quot;Delen met iedereen&quot;, wordt de optie &quot;Experience Cloud-verificatie vereisen&quot; ingeschakeld in het dialoogvenster Delen en kan deze optie niet worden uitgeschakeld door de gebruiker die het project deelt. (Voor informatie over hoe de gebruikers projecten met iedereen kunnen delen, zie [ een project met iedereen (geen vereiste login) delen ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Houd rekening met het volgende wanneer u deze optie inschakelt:</p><ul><li><p>Wanneer u deze optie inschakelt, worden alle projecten die eerder met de optie &quot;Delen met iedereen&quot; zijn gedeeld en waarvoor de optie &quot;Experience Cloud-verificatie vereisen&quot; niet is ingeschakeld, gedeactiveerd.</p></li> <li><p>Als deze optie wordt toegelaten (om de authentificatie van Experience Cloud te vereisen) en dan later onbruikbaar gemaakt (om iedereen met de verbinding toe te staan om tot het project toegang te hebben), krijgen de mensen die eerder toegang tot een project door &quot;Aandeel met iedereen&quot;aandeeloptie ontvingen niet automatisch hun toegang tot het project terug. In dit geval, moet de gebruiker die het project deelde de &quot;Verbinding actief&quot;optie toelaten die beschikbaar is wanneer het delen van een project met iedereen ([!UICONTROL **Aandeel**] > [!UICONTROL **Aandeel met iedereen**] > [!UICONTROL **Verbinding is actief**]), zoals die in [ wordt beschreven een project met iedereen (geen vereiste login) ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Deze optie is alleen beschikbaar als SSO in uw organisatie is geïmplementeerd. Voor informatie over hoe de systeembeheerders SSO voor uw organisatie kunnen toelaten, zie [ Identiteit van de Opstelling en Enige Sign-On ](https://helpx.adobe.com/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Als SSO voor uw organisatie wordt gevormd, controleer om te zien of wordt om het even welk soort auto-rekening verwezenlijking uitgevoerd in de console. Typisch, zou een systeembeheerder deze opstelling, zoals die in [ wordt beschreven automatische rekeningsverwezenlijking ](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank} toelaten.</p></li><li><p>Als uw organisatie in een industrie is die naleving HIPAA vereist, wordt deze optie automatisch toegelaten en kan niet worden onbruikbaar gemaakt.</p></li></ul> |
 
 {style="table-layout:auto"}
 
-## Voorkeuren voor projecten en analyses
+## Voorkeuren voor projecten en analyses {#project-analyses-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_categoricalpalette"
+>title="Categorisch palet"
+>abstract="Toegepast op vele visualisaties in Analysis Workspace en analyse met instructies. Elke kleur vertegenwoordigt een duidelijke categoriale waarde."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_divergingpalette"
+>title="Verticaal, palet"
+>abstract="Toegepast op de Cohort-tabel in Analysis Workspace en analyse met instructies voor groei van gebruiker. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_sequentialpalette"
+>title="Sequentieel, palet"
+>abstract="Toegepast op de geleide analyse van de frequentie trends (gestapelde balk). Dit palet heeft een numerieke betekenis, van licht tot donker."
 
 U kunt projectvoorkeuren aanpassen voor alle nieuwe projecten die u in Analysis Workspace maakt. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
 
@@ -76,18 +106,35 @@ Klik op de gekoppelde voorkeurstitels voor meer informatie en context over elke 
 | Sectie | Voorkeur | Opties |
 | --- | --- | --- |
 | **Vertoning** | | |
-|  | [ dichtheid van de Mening ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=nl-NL) | Kies hoeveel inhoud u op het scherm wilt weergeven door de verticale opvulling van de linkerrails, vrije-vormtabellen en cohortabellen te verminderen. <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
-| | [ palet van de Kleur ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=nl-NL) | Kies de visualisatiekleurenpaletten die in Analysis Workspace worden gebruikt.<ul><li>**Categorisch palet**: Toegepast op vele visualisaties in Analysis Workspace. Elke kleur vertegenwoordigt een duidelijke categoriale waarde. Kies een optie voor door de Adobe opgegeven opties of voer een aangepast palet in dat met komma&#39;s gescheiden hexwaarden wordt gedefinieerd.</li><li>**Afwisselend palet**: Toegepast op de lijst van de Cohort in Analysis Workspace. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden.</li><li>**Opeenvolgend palet**: Toegepast op de tendensen van de Frequentie (gestapelde bar) geleide analyse. Dit palet heeft een numerieke betekenis, van licht tot donker.</li></ul> |
+|  | [ dichtheid van de Mening ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | Kies hoeveel inhoud u op het scherm wilt weergeven door de verticale opvulling van de linkerrails, vrije-vormtabellen en cohortabellen te verminderen. <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
+| | [ palet van de Kleur ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Kies de visualisatiekleurenpaletten die in Analysis Workspace worden gebruikt.<ul><li>**Categorisch palet**: Toegepast op vele visualisaties in Analysis Workspace. Elke kleur vertegenwoordigt een duidelijke categoriale waarde. Maak een keuze uit door Adobe verschafte opties of voer een aangepast palet in dat wordt gedefinieerd door komma&#39;s gescheiden hexwaarden.</li><li>**Afwisselend palet**: Toegepast op de lijst van de Cohort in Analysis Workspace. Dit palet heeft een numerieke betekenis met twee uiteinden en een basislijn in het midden.</li><li>**Opeenvolgend palet**: Toegepast op de tendensen van de Frequentie (gestapelde bar) geleide analyse. Dit palet heeft een numerieke betekenis, van licht tot donker.</li></ul> |
 | **Gegevens** | | |
-|  | [ Reeks van het Rapport ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL&#report-suite) | Kies uit waar tabellen en visualisaties de gegevens afleiden. <ul><li>Recentste (standaard)</li><li>Specifieke rapportsuite geselecteerd uit een lijst</li></ul> |
-|  | [ Kalender ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL&#calendar) | Selecteer uit een lijst van: <ul><li>Door Adobe opgegeven bereiken (standaard is deze maand)</li><li>Aangepast gedefinieerde bereiken</li></ul> |
-|  | [ Type van Comité ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
+|  | [ Reeks van het Rapport ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | Kies uit waar tabellen en visualisaties de gegevens afleiden. <ul><li>Recentste (standaard)</li><li>Specifieke rapportsuite geselecteerd uit een lijst</li></ul> |
+|  | [ Kalender ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Selecteer uit een lijst van: <ul><li>Door Adobe opgegeven bereiken (standaard is deze maand)</li><li>Aangepast gedefinieerde bereiken</li></ul> |
+|  | [ Type van Comité ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
 |  | Herhalingsinstanties tellen | Geeft aan of herhalingsinstanties worden geteld in rapporten. Met deze instelling (indien geactiveerd) worden bijvoorbeeld meerdere weergaven van opeenvolgende pagina&#39;s op dezelfde pagina behandeld als weergaven van meerdere pagina&#39;s. Als deze optie is uitgeschakeld, tellen ze als een weergave van één pagina. <p>**Nota:** Dit het plaatsen beïnvloedt slechts bepaalde metriek (zoals Enige Bezoekingen van de Pagina) en het is niet op Stroom of Vallout visualisaties van toepassing.</p> |
 |  | Getalnotatie | <ul><li>1.000.00 (standaard)</li><li>1.000,00</li><li>1 000 00</li></ul> |
 |  | CSV-scheidingsteken | <ul><li>Komma (standaard)</li><li>Puntkomma</li><li>Colon</li><li>Pijp</li><li>Periode</li><li>Spatie</li><li>Tab</li></ul> |
 |  | Annotaties tonen | Kies of annotaties zichtbaar zijn in uw projecten. Voor meer informatie over annotaties, zie [ Overzicht van Annotaties ](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
-## Voorkeuren voor de tabel Vrije vorm
+## Voorkeuren voor de tabel Vrije vorm {#freeform-table-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showanomalies"
+>title="anomalieën tonen"
+>abstract="Als u **[!UICONTROL Show anomalies]** selecteert, worden automatisch anomaliedetectie uitgevoerd voor de eerste metrische kolom die wordt toegevoegd aan de visualisatie van een Freeform-tabel uit een tijdreeks."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showforecast"
+>title="Voorvertoning weergeven"
+>abstract="Als u **[!UICONTROL Show forecast]** selecteert, wordt automatisch de eerste metrische kolom voorspeld die wordt toegevoegd aan de visualisatie van een tijdreeks voor de Freeform-tabel."
+
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="Standaardtabelmetrisch"
+>abstract="Selecteer standaard metrisch voor vrije vormlijsten te gebruiken. Als de geselecteerde gegevensweergave niet de geselecteerde standaardmetrische waarde bevat, schakelt de tabel automatisch over naar een andere primaire metrische waarde."
+
 
 U kunt de voorkeuren voor vrije-vormtabellen aanpassen voor alle nieuwe projecten die u in Analysis Workspace maakt. Voor informatie over hoe te om tot deze voorkeur toegang te hebben, zie [ voorkeur van de Update ](#update-preferences).
 
@@ -222,7 +269,7 @@ Deze handeling kan niet ongedaan worden gemaakt.
 
 Als u liever een donkere achtergrond voor uw Adobe Analytics-gebruikersinterface hebt, kunt u schakelen naar [!UICONTROL Dark theme] .
 
-1. Klik op het gebruikerspictogram van het Experience Cloud rechtsboven.
+1. Klik op het Experience Cloud-gebruikerspictogram rechtsboven.
 
    ![ donker-thema ](assets/dark-theme.png)
 
