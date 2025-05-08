@@ -1,58 +1,58 @@
 ---
-title: JavaScript-implementatie problemen oplossen
+title: Problemen met JavaScript-implementatie oplossen
 description: Meer informatie over algemene problemen en aanbevolen procedures voor het oplossen van problemen met uw JavaScript-implementatie.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
 
 ---
 
-# JavaScript-implementatie problemen oplossen
+# Problemen met JavaScript-implementatie oplossen
 
 Hieronder volgt een aantal redenen waarom uw organisatie problemen kan hebben met het correct ophalen van gegevens in Adobe Analytics.
 
 ## Aanhalingstekens gebruiken
 
-De meeste variabelen die naar de Adobe worden verzonden, zijn tekenreeksen. In JavaScript kunt u enkele of dubbele aanhalingstekens gebruiken.
+De meeste variabelen die naar Adobe worden verzonden, zijn tekenreeksen. In JavaScript kunt u enkele of dubbele aanhalingstekens gebruiken.
 
 ### Aanhalingstekens mengen om een variabele te definiëren
 
 U kunt het beste de typen aanhalingstekens die u gebruikt op dezelfde manier gebruiken. Als één enkel citaat het begin van een koord aanwijst, moet één enkel citaat worden gebruikt om het te sluiten.
 
-Bijvoorbeeld beide `s.eVar1 = 'Value'` en `s.eVar1 = "Value"` zijn beide geldig. `s.eVar1 = 'Value"` is ongeldig.
+Zowel `s.eVar1 = 'Value'` als `s.eVar1 = "Value"` zijn bijvoorbeeld geldig. `s.eVar1 = 'Value"` is niet geldig.
 
 ### Enkelvoudige of dubbele aanhalingstekens in een tekenreeks opnemen
 
-Soms is het gewenst een enkel of dubbel aanhalingsteken in een tekenreeks op te nemen. U wilt bijvoorbeeld de waarde `Alex's sale` of `John the "Hunter"` in verslagen. Er zijn twee methoden om deze waarden op te nemen:
+Soms is het gewenst een enkel of dubbel aanhalingsteken in een tekenreeks op te nemen. U wilt bijvoorbeeld de waarde `Alex's sale` of `John the "Hunter"` in rapporten opnemen. Er zijn twee methoden om deze waarden op te nemen:
 
-* **Het andere type aanhalingsteken gebruiken**: Bijvoorbeeld: `s.eVar1 = "Alex's sale"` en `s.eVar1 = 'John the "Hunter"'` zijn beide geldig.
-* **Escape-aanhalingstekens**: Gebruik een backslash om aanhalingstekens te laten ontsnappen. Bijvoorbeeld: `s.eVar1 = 'Alex\'s sale'` en `s.eVar1 = "John the \"Hunter\""` zijn beide geldig.
+* **Gebruik het andere citaattype**: Bijvoorbeeld, `s.eVar1 = "Alex's sale"` en `s.eVar1 = 'John the "Hunter"'` zijn allebei geldig.
+* **Escape aanhalingstekens**: Gebruik backslash aan vluchtaanhalingstekens. `s.eVar1 = 'Alex\'s sale'` en `s.eVar1 = "John the \"Hunter\""` zijn bijvoorbeeld allebei geldig.
 
 ### Gebruik geen gekrulde aanhalingstekens
 
-In sommige programma&#39;s worden neutrale aanhalingstekens automatisch omgezet (`"..."` en `'...'`) tot gekrulde aanhalingstekens (`"..."` en `'...'`). Vermijd het gebruik van documenteditors (zoals Microsoft Word) of het verzenden van codefragmenten via e-mail. Curly-aanhalingstekens kunnen niet worden gebruikt in JavaScript.
+Sommige programma&#39;s zetten neutrale aanhalingstekens (`"..."` en `'...'`) automatisch om in gekrulde aanhalingstekens (`"..."` en `'...'`). Vermijd het gebruik van documenteditors (zoals Microsoft Word) of het verzenden van codefragmenten via e-mail. Curly-aanhalingstekens kunnen niet worden gebruikt in JavaScript.
 
 ## Verwijzen naar het object Analytics
 
-Alle variabelen die naar de Adobe worden verzonden, gebruiken het object Analytics. De meeste implementaties gebruiken de `s` object. Zorg ervoor dat u bij het verwijzen naar variabelen het object Analytics opneemt in de referentie.
+Alle variabelen die naar Adobe worden verzonden, gebruiken het object Analytics. Bij de meeste implementaties wordt het object `s` gebruikt. Zorg ervoor dat u bij het verwijzen naar variabelen het object Analytics opneemt in de referentie.
 
-Bijvoorbeeld: `s.eVar1 = 'Value'` is geldig, terwijl `eVar1 = 'Value'` is niet.
+`s.eVar1 = 'Value'` is bijvoorbeeld geldig, terwijl `eVar1 = 'Value'` dat niet is.
 
 ## Elke variabele één keer definiëren
 
-Wanneer een trackfunctie (`s.t()`) worden uitgevoerd, neemt AppMeasurement alle gedefinieerde variabelen en compileert deze in een afbeeldingsaanvraag. Als u een variabele meer dan eens in uw implementatie bepaalt, slechts wordt de recentste waarde gebruikt. Zorg ervoor dat alle waarden van variabelen de juiste waarde bevatten wanneer de functie track wordt uitgevoerd.
+Wanneer een spoorfunctie (`s.t()`) loopt, neemt AppMeasurement alle bepaalde variabelen en compileert hen in een beeldverzoek. Als u een variabele meer dan eens in uw implementatie bepaalt, slechts wordt de recentste waarde gebruikt. Zorg ervoor dat alle waarden van variabelen de juiste waarde bevatten wanneer de functie track wordt uitgevoerd.
 
 ## Variabel hoofdlettergebruik corrigeren
 
-Sommige variabelen gebruiken hoofdletters. JavaScript-variabelen zijn hoofdlettergevoelig. Zorg ervoor dat u het juiste hoofdlettergebruik gebruikt bij het definiëren van variabelen. Bijvoorbeeld: `s.eVar1 = 'Value'` is geldig, terwijl `s.evar1 = 'Value'` is niet.
+Sommige variabelen gebruiken hoofdletters. JavaScript-variabelen zijn hoofdlettergevoelig. Zorg ervoor dat u het juiste hoofdlettergebruik gebruikt bij het definiëren van variabelen. `s.eVar1 = 'Value'` is bijvoorbeeld geldig, terwijl `s.evar1 = 'Value'` dat niet is.
 
 ## Plug-ins
 
-Sommige organisaties gebruiken insteekmodules om de implementatie van Adobe Analytics te verbeteren. Vergeet niet om geïnstalleerde plug-ins opnieuw op te nemen wanneer u een upgrade uitvoert van de versies van het AppMeasurement. De code die in het dialoogvenster [!UICONTROL Code Manager] bevat geen plug-incode. Maak een kopie van de bestaande code voor het geval dat u naar een vorige versie van het AppMeasurement moet terugkeren.
+Sommige organisaties gebruiken insteekmodules om de implementatie van Adobe Analytics te verbeteren. Vergeet niet om geïnstalleerde plug-ins opnieuw op te nemen wanneer u AppMeasurement-versies bijwerkt. De code die in [!UICONTROL Code Manager] wordt gemaakt, bevat geen insteekcode. Maak een kopie van de bestaande code voor het geval dat u naar een vorige versie van AppMeasurement moet terugkeren.
 
 ## Witruimte in variabele waarden
 
@@ -71,7 +71,7 @@ In HTML zijn er verschillende tekens die witruimte maken. Dit zijn een spatie, e
 </body>
 ```
 
-In dit geval: `document.title` vullen `s.pageName`, die de waarde &#39;Startpagina&#39; krijgt. Sommige browsers kunnen witruimte echter anders interpreteren. Het resultaat kan een van de volgende twee voorbeelden zijn:
+In dit geval vult `document.title` `s.pageName` . Deze krijgt de waarde &quot;Startpagina&quot;. Sommige browsers kunnen witruimte echter anders interpreteren. Het resultaat kan een van de volgende twee voorbeelden zijn:
 
 ```js
 s.pageName = "Home Page";
@@ -87,21 +87,21 @@ Deze twee variabelewaarden worden in Adobe Analytics als afzonderlijk beschouwd.
 
 Implementaties die veel variabelen vullen met lange waarden, kunnen soms worden uitgevoerd in afgebroken afbeeldingsaanvragen. Sommige oudere browsers, zoals Internet Explorer, leggen een limiet van 2083 tekens op voor het aanvragen van URL&#39;s voor afbeeldingsverzoeken. Als uw organisatie met zeer lange beeldverzoeken wordt geconfronteerd, probeer het volgende:
 
-* **De service Experience Cloud-id gebruiken**: In AppMeasurementen bibliotheken 1.4.1 en hoger worden afbeeldingsaanvragen automatisch verzonden met HTTP-POST als deze te lang zijn. Gegevens die met deze methode worden verzonden, worden niet afgebroken, ongeacht de lengte. Zie [Adobe Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) voor meer informatie .
-* **Verwerkingsregels gebruiken**: [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) U kunt waarden van de ene variabele naar de andere kopiëren. Met deze methode hoeft u niet dezelfde waarde in meerdere variabelen in te stellen. Bijvoorbeeld:
+* **gebruik de dienst van identiteitskaart van Experience Cloud**: De bibliotheken van AppMeasurement 1.4.1 en verzenden later automatisch beeldverzoeken gebruikend HTTP POST als zij te lang zijn. Gegevens die met deze methode worden verzonden, worden niet afgebroken, ongeacht de lengte. Zie [ de dienst van identiteitskaart van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html) voor meer informatie.
+* **de verwerkingsregels van het Gebruik**: [ de regels van de Verwerking ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) kunnen waarden van één variabele aan een andere kopiëren. Met deze methode hoeft u niet dezelfde waarde in meerdere variabelen in te stellen. Bijvoorbeeld:
 
   Altijd uitvoeren:<br>
-Overschrijf de waarde van prop1 met eVar1<br>
-Waarde van eVar2 overschrijven met eVar1<br>
-Waarde van prop2 overschrijven met eVar1<br>
+Waarde prop1 overschrijven met eVar1 <br>
+Overschrijvingswaarde van eVar2 met eVar1 <br>
+Waarde prop2 overschrijven met eVar1 <br>
 
-  Stel vervolgens eVar1 in uw implementatie in:
+  Stel vervolgens eVar1 in in uw implementatie:
 
   ```js
   s.eVar1 = "The quick brown fox jumps over the lazy dog";
   ```
 
-* **Dynamische variabelen gebruiken**: Als in uw implementatie veel variabelen met dezelfde waarde worden gevuld, kunt u [dynamische variabelen](/help/implement/vars/page-vars/dynamic-variables.md) om de aanvraag-URL te verkorten:
+* **Dynamische variabelen van het Gebruik**: Als uw implementatie vele variabelen met de zelfde waarde bevolkt, kunt u [ dynamische variabelen ](/help/implement/vars/page-vars/dynamic-variables.md) gebruiken om het verzoek URL te verkorten:
 
   ```js
   s.eVar1 = "The quick brown fox jumps over the lazy dog";
@@ -110,4 +110,4 @@ Waarde van prop2 overschrijven met eVar1<br>
   s.prop2 = "D=v1";
   ```
 
-* **Classificaties gebruiken**: Als de product- of paginanamen ongebruikelijk lang zijn, kunt u een identificatiewaarde of code gebruiken. Gebruik vervolgens [classificaties](/help/components/classifications/c-classifications.md) om een vriendelijkere naam weer te geven.
+* **de classificaties van het Gebruik**: Als het product of de paginanamen ongebruikelijk lang zijn, kunt u een identificerende waarde of code gebruiken, dan gebruik [ classificaties ](/help/components/classifications/classifications-overview.md) om een vriendelijkere naam te tonen.

@@ -1,16 +1,16 @@
 ---
 description: Administratieve stappen voor vestiging real-time rapporten.
-title: Realtimerapporten configureren
+title: Rapporten in real time configureren
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '264'
+ht-degree: 0%
 
 ---
 
-# Realtimerapporten configureren
+# Rapporten in real time configureren
 
 De volgende informatie bevat administratieve stappen voor vestiging real-time rapporten.
 
@@ -18,7 +18,7 @@ Dit bestaat uit het selecteren van de rapportsuite en het configureren van maxim
 
 1. Selecteer de rapportsuite waarvoor u realtime rapporten wilt inschakelen.
 
-   1. Selecteer in Analysis Workspace de optie [!UICONTROL **Werkruimte**] tab, dan selecteren [!UICONTROL **Rapporten**] > [!UICONTROL **Betrokkenheid**] > **[!UICONTROL Real-Time]**.
+   1. In Analysis Workspace, selecteer het [!UICONTROL **Workspace**] lusje, dan uitgezochte [!UICONTROL **Rapporten**] > [!UICONTROL **Betrokkenheid**] > **[!UICONTROL Real-Time]**.
 
    1. Selecteer de rapportreeks van drop-down bij de bovenkant:
 
@@ -28,16 +28,16 @@ Dit bestaat uit het selecteren van de rapportsuite en het configureren van maxim
 
       ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
 
-1. Selecteren **[!UICONTROL Configure]** om de [!UICONTROL Report Suite Manager].
+1. Selecteer **[!UICONTROL Configure]** om de [!UICONTROL Report Suite Manager] uit te voeren.
 
-   (Ook beschikbaar onder **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**.)
+   (Ook beschikbaar onder **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]** .)
 
-1. De knop **[!UICONTROL Enable Real-Time]** instellen.
+1. Schakel de instelling **[!UICONTROL Enable Real-Time]** in.
 1. Opstelling gegevensinzameling in real time voor maximaal drie rapporten, met één metrische en drie dimensies of classificaties per rapport.
 
    ![](assets/real_time_admin.png)
 
-   Voor informatie over ondersteunde realtime metriek en dimensies raadpleegt u [Ondersteunde maateenheden en Dimensionen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
+   Voor informatie over gesteunde metriek in real time en dimensies, zie [ Gesteunde Metriek en Dimensies ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Als u classificaties hebt gemaakt, worden deze ingesprongen weergegeven onder de dimensie waarvoor ze zijn gedefinieerd:
 
@@ -47,16 +47,14 @@ Dit bestaat uit het selecteren van de rapportsuite en het configureren van maxim
    >
    >Voor één enkel rapport Real-Time, steunen wij momenteel niet toelatend dubbele dimensies, zelfs als een verschillende classificatie voor elke dimensie wordt geselecteerd.
 
-   Zie voor meer informatie over classificaties [Over classificaties](/help/components/classifications/c-classifications.md).
-
    >[!NOTE]
    >
    >Sommige dimensies, zoals &#39;Trefwoord zoeken&#39; of &#39;Product&#39;, blijven niet in real-time behouden, zoals ze elders in Adobe Analytics doen. Wanneer u een niet-permanente metrische waarde selecteert, wordt de volgende waarschuwing weergegeven:
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Selecteren **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]**.
+1. Selecteer **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]** .
 
-   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van Real-Time rapporten, zie [Een real-time rapport uitvoeren](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=nl-NL).
+   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van rapporten in real time, zie [ in werking stellen een Rapport in real time ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. Door gebrek, hebben alle gebruikers toegang tot Echt - tijd rapporten.

@@ -4,26 +4,24 @@ title: Conversieclassificaties
 feature: Classifications
 role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
 
 # Conversieclassificaties
 
-Classificaties worden gebruikt om waarden in groepen te categoriseren en op groepsniveau te rapporteren. U kunt bijvoorbeeld alles classificeren [!UICONTROL Paid Search] campagnes in een soort categorie *pop-muzieknoten* en rapporteren over het succes van die categorie ten opzichte van metriek zoals Instanties (klik-door), en omzetting in succesgebeurtenissen. U kunt maximaal 255 classificaties toevoegen aan een variabele.
+Classificaties worden gebruikt om waarden in groepen te categoriseren en op groepsniveau te rapporteren. Bijvoorbeeld, kunt u alle [!UICONTROL Paid Search] campagnes in een categorie als *pop muziektermijnen* classificeren en over het succes van die categorie met betrekking tot metriek zoals Instanties (klik-door), en omzetting aan succesgebeurtenissen rapporteren. U kunt maximaal 255 classificaties toevoegen aan een variabele.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**
 
 Met conversieclassificaties kunt u conversievariabelen classificeren. Zodra geclassificeerd, kan om het even welk rapport dat u het gebruiken van de zeer belangrijke gegevens kunt produceren ook worden geproduceerd gebruikend de bijbehorende gegevenseigenschappen.
 
-Gebruik na het inschakelen van classificaties de opdracht [Classificatieimportmodule](/help/components/classifications/importer/c-working-with-saint.md) specifieke waarden aan de juiste classificatie toe te wijzen.
-
 >[!WARNING]
 >
->Als u de naam van een classificatie wijzigt, kunnen er problemen ontstaan met bestaande regels die zijn gemaakt in het dialoogvenster [Bouwer van classificatieregel](/help/components/classifications/crb/classification-rule-builder.md). Als u een classificatie anders noemt die classificatieregels heeft, zorg ervoor dat u elke regel verbetert zodat richt het aan de anders genoemde classificatie.
+>Het anders noemen van een classificatie kan kwesties met bestaande die regels veroorzaken in de [ de regelbouwer van de Classificatie ](/help/components/classifications/crb/classification-rule-builder.md) worden gecreeerd. Als u een classificatie anders noemt die classificatieregels heeft, zorg ervoor dat u elke regel verbetert zodat richt het aan de anders genoemde classificatie.
 
 ## Omzettingsclassificatiebeschrijvingen
 
@@ -38,18 +36,15 @@ Gebruik na het inschakelen van classificaties de opdracht [Classificatieimportmo
 
 Conversieclassificaties toevoegen in Admin:
 
-1. Klikken **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** .
 1. Selecteer een rapportsuite.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**.
-1. Van de **[!UICONTROL Select Classification Type]** vervolgkeuzelijst, selecteert u de variabele waaraan u een classificatie wilt toevoegen.
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Select Classification Type]** de variabele waaraan u een classificatie wilt toevoegen.
 
-   ![Stapinfo](/help/admin/admin/assets/sub_class_create.png)
+   ![ Info van de Stap ](/help/admin/admin/assets/sub_class_create.png)
 
-1. Muis over de **[!UICONTROL Edit Classification]** pictogram, dan selecteren **[!UICONTROL Add Classification]**.
-1. In de **[!UICONTROL Select Type]** selecteert u het type classificatie dat u aan de variabele wilt toevoegen.
-
-   Opties omvatten **[!UICONTROL Text]** en **[!UICONTROL Numeric]**. Zie voor meer informatie over classificatietypen [Over classificaties](/help/components/classifications/c-classifications.md).
-1. In de **[!UICONTROL Text Classifications]** de classificatie naar wens configureren.
+1. Plaats de muis boven het pictogram **[!UICONTROL Edit Classification]** en selecteer vervolgens **[!UICONTROL Add Classification]** .
+1. Configureer de classificatie naar wens in het dialoogvenster **[!UICONTROL Text Classifications]** .
 
 1. Opties toevoegen aan of verwijderen uit het dialoogvenster Vervolgkeuzelijst.
 
@@ -61,9 +56,9 @@ Conversieclassificaties toevoegen in Admin:
 
 Een conversieclassificatie verwijderen wanneer deze niet meer nodig is.
 
-1. Open Report Suite Manager door op **[!UICONTROL Admin]**> **[!UICONTROL Report Suites]** in de koptekst van de Suite.
+1. Open Report Suite Manager door op **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** in de koptekst van de Suite te klikken.
 1. Selecteer een rapportsuite.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**.
-1. Van de **[!UICONTROL Select Classification Type]** vervolgkeuzelijst, selecteert u de variabele waar u een classificatie wilt verwijderen.
-1. Muis over de **[!UICONTROL Edit Classification]** pictogram, dan selecteren **[!UICONTROL Delete Classification]**.
-1. Klik in het dialoogvenster Classificatie verwijderen op **[!UICONTROL Delete]**.
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Select Classification Type]** de variabele waar u een classificatie wilt verwijderen.
+1. Plaats de muis boven het pictogram **[!UICONTROL Edit Classification]** en selecteer vervolgens **[!UICONTROL Delete Classification]** .
+1. Klik in het dialoogvenster Classificatie verwijderen op **[!UICONTROL Delete]** .

@@ -3,9 +3,9 @@ description: Administratieve stappen voor vestiging real-time rapporten.
 title: Configuratie van realtime rapporten
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: f1dde3a475fe1276fd9abbe1bdafd6723701f2cb
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '199'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ Het instellen van realtime rapporten in Adobe Analytics bestaat uit het selecter
 
    Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]**.
 
-1. Klikken **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**.
+1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]** .
 
 1. Opstelling gegevensinzameling in real time voor maximaal drie rapporten, met één metrische en drie dimensies of classificaties per rapport.
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
-   Voor informatie over ondersteunde realtime metriek en dimensies raadpleegt u [Ondersteunde maateenheden en Dimensionen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
+   Voor informatie over gesteunde metriek in real time en dimensies, zie [ Gesteunde Metriek en Dimensies ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Als u classificaties hebt gemaakt, worden deze ingesprongen weergegeven onder de dimensie waarvoor ze zijn gedefinieerd:
 
@@ -35,8 +35,6 @@ Het instellen van realtime rapporten in Adobe Analytics bestaat uit het selecter
    >[!NOTE]
    >
    >Voor één enkel rapport Real-Time, steunen wij momenteel niet toelatend dubbele dimensies, zelfs als een verschillende classificatie voor elke dimensie wordt geselecteerd.
-
-   Zie voor meer informatie over classificaties [Over classificaties](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
@@ -50,5 +48,5 @@ Het instellen van realtime rapporten in Adobe Analytics bestaat uit het selecter
 
 1. Navigeer naar:
 
-   **[!UICONTROL Workspace]** > **[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**.
+   **[!UICONTROL Workspace]** > **[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**
 

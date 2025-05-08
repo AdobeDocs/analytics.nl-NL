@@ -1,70 +1,23 @@
 ---
-description: Als u montages van een bestaande rapportreeks kopieerde, identificeert een systeembericht om het even welke montages niet gekopieerd aan de nieuwe rapportreeks.
-title: Instellingen die niet uit een bronrapportsuite zijn gekopieerd
+description: Zie welke montages niet worden gekopieerd wanneer het dupliceren van rapportreeksen.
+title: Instellingen niet gekopieerd uit een bronrapportsuite
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 9%
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
-# Instellingen die niet uit een bronrapportsuite zijn gekopieerd
+# Instellingen niet gekopieerd uit een bronrapportsuite
 
-Als u montages van een bestaande rapportreeks kopieerde, identificeert een systeembericht om het even welke montages niet gekopieerd aan de nieuwe rapportreeks.
+Als u montages van een bestaande rapportreeks kopieert, identificeert een systeembericht om het even welke montages niet gekopieerd aan de nieuwe rapportreeks.
 
 De volgende montages worden niet gekopieerd van malplaatje of gedupliceerde rapportreeksen:
 
-<table id="table_9774249E3D804E7D97F12B88E26F9066"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Instelling </th> 
-   <th colname="col2" class="entry"> De instelling wijzigen </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Indelingsgegevens (classificatiestructuur wordt gekopieerd) </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=nl-NL"> Documentatie van importmodule voor classificaties (geüpload)</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Opname van transactie-id inschakelen </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_4F3028A440C94447890498CF2E64C15B"> 
-     <li id="li_243C7F7DF3074F7FB9893BEFDA8B0732"> <span class="uicontrol"> Analyse</span> &gt; <span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Rapportageopties</span>en selecteer vervolgens een rapportsuite. </li> 
-     <li id="li_357D06A1F528473CBA07D4C840BE95D9">Klikken <span class="uicontrol"> Instellingen bewerken</span> &gt; <span class="uicontrol"> Algemeen</span> &gt; <span class="uicontrol"> Algemene accountinstellingen</span> </li> 
-     <li id="li_9E0B7A9542864399AFDD5D422F7D6C22">Selectievakje en selecteer instelling op <span class="uicontrol"> Opslag van transactie-id</span> </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Hiërarchie </p> </td> 
-   <td colname="col2"> <p>Contact opnemen met de Adobe Klantenservice </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Menuaanpassingen </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_A3277C5843704DEA902DF030099E9227"> 
-     <li id="li_8B3A5974466C4D9D9A3D3D0C6A30F414"><span class="uicontrol"> Analyse</span> &gt; <span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Rapportageopties</span>en selecteer vervolgens een rapportsuite. </li> 
-     <li id="li_1B44AFD4026346698F3CB75E2CBF1959">Klikken <span class="uicontrol"> Instellingen bewerken</span> &gt; <span class="uicontrol"> Algemeen</span> &gt; <span class="uicontrol"> Klantmenu's</span> </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Tekenen op variabelen </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_903A5FEF5B9847929BBB514A481F6E22"> 
-     <li id="li_E352211ABD3245EC8C06313221BA4B36"><span class="uicontrol"> Analyse</span> &gt; <span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Rapportageopties</span>en selecteer vervolgens een rapportsuite. </li> 
-     <li id="li_B19C4112D57D4D329A0774EBB345473B">Klikken <span class="uicontrol"> Instellingen bewerken</span> &gt; <span class="uicontrol"> Verkeer</span> &gt; <span class="uicontrol"> Verkeersvariabelen</span> </li> 
-     <li id="li_B1CED2EC85FE4A8EB7D95076040B35E1">Selectievakje en selecteer instelling op <span class="uicontrol"> Verfrapporten</span> </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Bezoekerskaartbeheer </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html?lang=nl-NL"> Upgrade naar Activity Map</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>VISTA-regels </p> </td> 
-   <td colname="col2"> <p>Neem contact op met uw accountteam van Adobe om contact op te nemen met Engineering Services. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [ de gegevens van de Indeling ](/help/components/classifications/classifications-overview.md) (classificatiestructuren worden gekopieerd)
+* [Opslag van transactie-id](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
+* [ Hiërarchie ](/help/components/dimensions/hierarchy.md) etiketten
+* [ het Schilderen ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md) op verkeersvariabelen
+* [VISTA-regels](/help/technotes/vista.md)

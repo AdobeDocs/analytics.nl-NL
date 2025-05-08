@@ -5,7 +5,7 @@ uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,4 +22,4 @@ Een [!UICONTROL Campaign] -rapport kan bijvoorbeeld een [!UICONTROL Manager] cla
 
 U hebt toegang tot classificaties op dezelfde manier als u de andere rapporten van een rapportreeks opent, en de afmetingen worden getoond als top-level rapport binnen de groep. Als een rapport classificaties heeft, wordt een menusubgroep gecreeerd om het rapport en al zijn classificaties in de zelfde plaats te verzamelen. Het rapport wordt weergegeven als de laatste vermelding in de lijst bij de classificaties.
 
-Zie [ Classificaties ](/help/components/classifications/c-classifications.md).
+Zie [ Classificaties ](/help/components/classifications/classifications-overview.md).

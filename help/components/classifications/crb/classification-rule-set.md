@@ -1,24 +1,26 @@
 ---
 description: Een regelset is een groep classificatieregels voor een specifieke variabele. U past een variabele op de regelreeks toe. Als u veelvoudige regelreeksen voor één variabele wilt tot stand brengen, moet u elke regel toepassen die op veelvoudige rapportreeksen wordt geplaatst.
-title: Classificatieregelsets
+title: Classificatiereeksen
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 2%
+source-wordcount: '365'
+ht-degree: 0%
 
 ---
 
-# Classificatieregelsets
+# Classificatiereeksen (verouderd)
+
+*Deze pagina verklaart classificatiereekreeksen als deel van de [ bouwer van de classificatieregel ](classification-rule-builder.md). Zie [ de reeksen van de Classificatie ](../sets/overview.md) voor de huidige methode om gegevens in Adobe Analytics te classificeren.*
 
 Een regelset is een groep classificatieregels voor een specifieke variabele. U past een variabele op de regelreeks toe. Als u veelvoudige regelreeksen voor één variabele wilt tot stand brengen, moet u elke regel toepassen die op veelvoudige rapportreeksen wordt geplaatst.
 
-## Pagina met indelingsregels {#section_C60B0888C76D49C596EF19F11808B718}
+## pagina van de opbouwfunctie voor classificatieregel {#section_C60B0888C76D49C596EF19F11808B718}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-De volgende velden en opties zijn beschikbaar op het tabblad [!UICONTROL Classifications Rule Builder].
+De volgende velden en opties zijn beschikbaar in de [!UICONTROL Classifications Rule Builder] .
 
 <table id="table_A5D92409969747E39E041216A5AA32CD"> 
  <thead> 
@@ -29,7 +31,7 @@ De volgende velden en opties zijn beschikbaar op het tabblad [!UICONTROL Classif
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="/help/components/classifications/crb/classification-rule-set.md"  > Regelset toevoegen</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/components/classifications/crb/classification-rule-set.md"  > Regelset toevoegen </a> </p> </td> 
    <td colname="col2"> <p>Maakt een regelset. </p> </td> 
   </tr> 
   <tr> 
@@ -55,19 +57,17 @@ De volgende velden en opties zijn beschikbaar op het tabblad [!UICONTROL Classif
 
 Geef de classificatieregel een naam, pas de variabele toe en geef instellingen voor overschrijven op.
 
-1. (Voorwaarde) De classificatiestructuur definiëren in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. (Vereiste) Definieer de classificatiestructuur in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** .
 
-   (Zie [Classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=nl-NL) in Admin Tools Help bij het toevoegen van classificaties.)
+   Variabelen worden pas in het deelvenster [!UICONTROL New Rule Set] weergegeven als er ten minste één classificatie is gedefinieerd voor die variabele.
 
-   Variabelen worden weergegeven in het dialoogvenster [!UICONTROL New Rule Set] alleen worden weergegeven nadat ten minste één classificatie voor die variabele is gedefinieerd.
+   U kunt classificaties maken voor een variabele in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]** (of **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**). Selecteer vervolgens de variabele en klik op **[!UICONTROL Add Classification]** .
 
-   U kunt classificaties maken voor een variabele in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]** (of **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**). Selecteer vervolgens de variabele en klik op **[!UICONTROL Add Classification]**.
-
-1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]** > **[!UICONTROL Add Rule Set]**.
+1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]** > **[!UICONTROL Add Rule Set]** om de regelset te maken.
 
    ![](assets/new_rule_set.png)
 
-1. Geef de regelset een naam en klik vervolgens op **[!UICONTROL Create Rule Set]**.
+1. Geef een naam op voor de regelset en klik op **[!UICONTROL Create Rule Set]** .
 1. Selecteer de regelset die u wilt bewerken.
 
    ![](assets/classification_rules_page.png)
@@ -76,6 +76,6 @@ Geef de classificatieregel een naam, pas de variabele toe en geef instellingen v
 
    De rapportreeks en de veranderlijke lijst zijn bevolkt met alle gerubriceerde variabelen beschikbaar in alle rapportreeksen in uw login bedrijf. Één enkele variabele in een rapportreeks kan tot slechts één regelreeks behoren.
 
-   Zie *`Variable`* in de definities van [Classification Rule Builder](/help/components/classifications/crb/classification-rule-definitions.md) voor meer informatie.
-1. Geef de te gebruiken rapportsuites en -variabelen op en klik vervolgens op **[!UICONTROL Save]**.
-1. Doorgaan met [classificatieregels toevoegen](/help/components/classifications/crb/classification-rule-set.md) op de regelset.
+   Zie *`Variable`* in de definities voor de [ pagina van de Bouwer van de Regel van de Classificatie ](/help/components/classifications/crb/classification-rule-definitions.md) voor meer informatie.
+1. Geef de te gebruiken rapportsuites en -variabelen op en klik op **[!UICONTROL Save]** .
+1. Ga door [ het toevoegen van classificatieregels ](/help/components/classifications/crb/classification-rule-set.md) aan de regelreeks voort.

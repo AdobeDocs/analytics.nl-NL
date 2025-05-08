@@ -3,22 +3,22 @@ description: Gegevensbestanden uploaden via FTP.
 title: FTP importeren
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
-# FTP importeren
+# FTP-import (verouderd)
 
 >[!IMPORTANT]
 >
->We raden u niet meer aan FTP te gebruiken voor importeren, zoals op deze pagina wordt beschreven.
+>Adobe raadt niet langer aan FTP te gebruiken voor importeren zoals op deze pagina wordt beschreven.
 >
 >FTP wordt niet aanbevolen omdat het een niet-gecodeerde methode is voor het delen van bestanden, wat betekent dat iedereen de bestandsinhoud en de gebruikersnaam en het wachtwoord voor de account kan onderscheppen.
 >
->In plaats daarvan configureert u een cloudaccount zoals beschreven in [Cloud-import- en exportaccounts configureren](/help/components/locations/configure-import-accounts.md).
+>In plaats daarvan, vorm een wolkenrekening zoals die in [ wordt beschreven cloudinvoer en uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md) vormt.
 
 Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 
@@ -26,7 +26,7 @@ Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 
 Gegevensbestanden uploaden via FTP:
 
-1. **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]** .
 
 De volgende aanbevolen limieten zijn belangrijk.
 
@@ -36,36 +36,36 @@ De volgende aanbevolen limieten zijn belangrijk.
 
 De eerste setup vult de classificatiedatabase met een grote set oorspronkelijke gegevens, of herstructureert de classificaties in plaats van een paar rijen opnieuw te classificeren of rijen toe te voegen.
 
-Na een eerste upload in een rapportsuite (voor een bepaalde variabele of een bepaald rapport) raadt Adobe aan alleen nieuwe en bijgewerkte rijen te uploaden in volgende importbewerkingen. Rijen die niet worden gewijzigd, moeten worden weggelaten uit toekomstige uploads.
+Na een eerste upload in een rapportsuite (voor een bepaalde variabele of rapport) raadt Adobe aan alleen nieuwe en bijgewerkte rijen te uploaden in volgende importbewerkingen. Rijen die niet worden gewijzigd, moeten worden weggelaten uit toekomstige uploads.
 
 Elke nieuwe sleutelwaarde die u uploadt, telt mee voor uw unieke waarden voor die variabele voor de maand.
 
-Als u uw uniques voor de maand hebt overschreden, zult u de overeenkomstige classificatiegegevens voor de uniques niet zien overschrijden waarden in rapportering. Je kunt die classificaties in de Data Warehouse zien.
+Als u uw uniques voor de maand hebt overschreden, zult u de overeenkomstige classificatiegegevens voor de uniques niet zien overschrijden waarden in rapportering. Je kunt die classificaties zien in Data Warehouse.
 
 >[!NOTE]
 >
->De tijd die nodig is om een bestand met classificatiegegevens te verwerken, is afhankelijk van de grootte van het bestand en het huidige aantal bestanden dat al door de servers van de Adobe wordt verwerkt. De verwerking van gegevensbestanden duurt gewoonlijk niet langer dan 72 uur.
+>De tijd die nodig is om een bestand met classificatiegegevens te verwerken, is afhankelijk van de grootte van het bestand en het huidige aantal bestanden dat al door Adobe-servers wordt verwerkt. De verwerking van gegevensbestanden duurt gewoonlijk niet langer dan 72 uur.
 
 ## Een FTP-account maken
 
 Maak een FTP-account voordat u gegevens uploadt via FTP. >
 
-Zie [FTP en sFTP](/help/export/ftp-and-sftp/ftp-overview.md) voor meer informatie over FTP-servers van de Adobe.
+Zie [ FTP en sFTP ](/help/export/ftp-and-sftp/ftp-overview.md) voor extra details op de servers van FTP van Adobe.
 
-1. Klikken **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. Klikken **[!UICONTROL Import File]** en klik vervolgens op **[!UICONTROL FTP Import]**.
-1. Op de **[!UICONTROL Import File]** tabblad, klikt u op **[!UICONTROL Add New]**.
+1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]** .
+1. Klik op **[!UICONTROL Import File]** en vervolgens op **[!UICONTROL FTP Import]** .
+1. Klik op het tabblad **[!UICONTROL Import File]** op **[!UICONTROL Add New]** .
 1. Geef de FTP-accountgegevens op:
 
    | Element | Beschrijving |
    |---|---|
    | **Naam** | De naam van de FTP-account. |
-   | **Te classificeren gegevensset** | Selecteer in de vervolgkeuzelijst de gegevensset (variabele marketingrapport) die u wilt classificeren. |
-   | **Rapportsets selecteren** | Selecteer de rapportsuites waar u de geselecteerde gegevensreeks wilt classificeren. Om veelvoudige rapportreeksen te selecteren, moeten de classificaties voor elk van de geselecteerde rapportreeksen identiek zijn. |
-   | **Gegevens bij conflicten overschrijven** | Selecteer deze optie als u dubbele gegevens wilt overschrijven. Deze optie is handig als u bestaande classificaties bijwerkt. Als u op de [nieuwste classificatiearchitectuur](../sets/overview.md)Deze instelling is altijd ingeschakeld. |
-   | **Na importeren is voltooid** | Selecteer deze optie als u de bijgewerkte gegevensset automatisch wilt exporteren naar dezelfde FTP-account als u het e-mailadres opgeeft voor de ontvangst van meldingen over deze FTP-account nadat het importeren is voltooid. Als u op de [nieuwste classificatiearchitectuur](../sets/overview.md), is deze optie niet beschikbaar. |
-   | **Ontvanger van kennisgeving** | Geef het e-mailadres op waar meldingen over dit FTP-account moeten worden ontvangen. |
-   | **Autoriseren** | (Vereist) Hiermee geeft u Adobe toestemming om automatisch alle gegevensbestanden te importeren die naar het nieuwe FTP-account zijn verzonden. |
+   | **Te classificeren Reeks van Gegevens** | Selecteer in de vervolgkeuzelijst de gegevensset (variabele marketingrapport) die u wilt classificeren. |
+   | **Uitgezochte de Reeksen van het Rapport** | Selecteer de rapportsuites waar u de geselecteerde gegevensreeks wilt classificeren. Om veelvoudige rapportreeksen te selecteren, moeten de classificaties voor elk van de geselecteerde rapportreeksen identiek zijn. |
+   | **beschrijven Gegevens over Conflicten** | Selecteer deze optie als u dubbele gegevens wilt overschrijven. Deze optie is handig als u bestaande classificaties bijwerkt. Als u op de [ recentste classificatiearchitectuur ](../sets/overview.md) bent, wordt dit het plaatsen altijd toegelaten. |
+   | **na de Invoer is Volledig** | Selecteer deze optie als u de bijgewerkte gegevensset automatisch wilt exporteren naar dezelfde FTP-account als u het e-mailadres opgeeft voor de ontvangst van meldingen over deze FTP-account nadat het importeren is voltooid. Als u op de [ recentste classificatiearchitectuur ](../sets/overview.md) bent, is deze optie niet beschikbaar. |
+   | **Ontvanger van het Bericht** | Geef het e-mailadres op waar meldingen over dit FTP-account moeten worden ontvangen. |
+   | **machtigt** | (Vereist) Hiermee geeft u Adobe toestemming om automatisch alle gegevensbestanden te importeren die naar het nieuwe FTP-account zijn verzonden. |
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -81,15 +81,15 @@ U kunt een FTP-account gebruiken om classificaties te importeren in Adobe Analyt
 
 Classificaties importeren via FTP:
 
-1. Klikken **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. Klikken **[!UICONTROL Import File]** en klik vervolgens op **[!UICONTROL FTP Import]**.
-1. Klik naast de FTP-account die u wilt gebruiken op **[!UICONTROL View]**.
+1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]** .
+1. Klik op **[!UICONTROL Import File]** en vervolgens op **[!UICONTROL FTP Import]** .
+1. Klik op **[!UICONTROL View]** naast de FTP-account die u wilt gebruiken.
 1. Gebruik de FTP-toegangsgegevens (Host, Aanmelden, Wachtwoord) om toegang te krijgen tot de FTP-server via een door u gekozen FTP-client.
-1. Het gegevensbestand uploaden ( `.tab` of `.txt`) naar de FTP-server.
+1. Upload het gegevensbestand ( `.tab` of `.txt` ) naar de FTP-server.
 1. Na het uploaden van het gegevensbestand, upload een FIN dossier dat erop wijst het dossier klaar is te verwerken.
 
-   Het FIN-bestand is een leeg bestand met dezelfde naam als het gegevensbestand, met een `.fin` extensie van bestandsnaam. Als het gegevensbestand bijvoorbeeld `classdata1.tab`, de FIN-bestandsnaam is `classdata1.fin`.
+   Het FIN-bestand is een leeg bestand met dezelfde naam als het gegevensbestand, met de bestandsnaamextensie `.fin` . Als het gegevensbestand bijvoorbeeld `classdata1.tab` is, is de bestandsnaam FIN `classdata1.fin` .
 
-Met regelmatige tussenpozen haalt Adobe geüploade gegevensbestanden op waaraan een FIN-bestand is gekoppeld. De Adobe voert hen in de rapportreeksen en gegevensreeksen in die in de de rekeningsconfiguratie van FTP worden gespecificeerd.
+Met regelmatige tussenpozen haalt Adobe geüploade gegevensbestanden op waaraan een FIN-bestand is gekoppeld. Adobe importeert deze naar de rapportensuites en gegevenssets die zijn opgegeven in de configuratie van de FTP-account.
 
 Nadat Adobe Analytics bestanden heeft gelezen en verwerkt die in de FTP-map zijn geüpload, worden de bestanden automatisch van de FTP-site verwijderd.

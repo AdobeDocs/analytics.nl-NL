@@ -3,7 +3,7 @@ title: Indelingssetmanager
 description: Classificatiesets beheren in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -30,7 +30,7 @@ De linkerkant van het beheer van classificatiesets biedt filterinstellingen om d
 
 De volgende kolommen zijn beschikbaar in de het reeksmanager van de Classificatie:
 
-* **[!UICONTROL Classification set]**: De naam van de classificatieset. Het klikken van een naam van de classificatieset [ geeft zijn montages ](settings.md) uit.
+* **[!UICONTROL Classification set]**: De naam van de classificatieset. Het klikken van de naam van een classificatieset geeft zijn [ montages ](settings.md) uit.
 * **[!UICONTROL Subscriptions]**: Het aantal abonnementen waarop deze classificatieset van toepassing is.
 * **[!UICONTROL Classifications]**: Het aantal classificatieafmetingen dat de classificatieset bevat.
 * **[!UICONTROL Automated]**: hiermee wordt bepaald of de classificatieset is geconfigureerd voor het automatisch importeren van gegevens uit een cloudlocatie. De automatisering kan in het schema van de classificatiereeks [ worden gevormd ](schema.md).
@@ -38,7 +38,7 @@ De volgende kolommen zijn beschikbaar in de het reeksmanager van de Classificati
 
 ## Opties maken of bewerken
 
-De volgende knoppen zijn beschikbaar in het venster Indelingssetbeheer:
+De volgende knoppen zijn beschikbaar in het venster Indelingsensetbeheer:
 
 * **[!UICONTROL Add]**: [ creeer ](create.md) een classificatiereeks.
 * **[!UICONTROL Search by title]**: zoek naar classificatiesets op naam.

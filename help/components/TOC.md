@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 7%
+source-wordcount: '786'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Analytics Components-handleiding](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -118,7 +118,7 @@ ht-degree: 7%
    + [Weekdag/Weekend](dimensions/weekday-weekend.md)
    + [Jaar](dimensions/year.md)
    + [Postcode](dimensions/zip-code.md)
-+ Cijfers {#metrics}
++ Metrics {#metrics}
    + [Overzicht van cijfers](metrics/overview.md)
    + [Herhalingsinstanties tellen](metrics/count-repeat-instances.md)
    + [Gemiddelde paginadiepte](metrics/average-page-depth.md)
@@ -174,12 +174,12 @@ ht-degree: 7%
    + [Stemmetriek](metrics/voice-metrics.md)
    + [Bezoekers met Experience Cloud-id](metrics/visitors-with-ecid.md)
    + [Bezoeken](metrics/visits.md)
-+ Segmentatie {#segmentation}
++ Segmentering {#segmentation}
    + [Segmentatie van analyse](segmentation/seg-home.md)
    + [Segmenten](segmentation/seg-overview.md)
    + [Informatie over segmentcontainers](segmentation/seg-containers.md)
    + [Segmenteringsfuncties in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + Segmentatieworkflow {#segmentation-workflow}
+   + Segmenteringsworkflow {#segmentation-workflow}
       + [Overzicht van de segmentatieworkflow](segmentation/segmentation-workflow/seg-workflow.md)
       + [Elementen plannen](segmentation/segmentation-workflow/seg-plan.md)
       + [Segmenten maken](segmentation/segmentation-workflow/seg-build.md)
@@ -243,7 +243,7 @@ ht-degree: 7%
       + [Virtuele rapportsuites maken](vrs/c-workflow-vrs/vrs-create.md)
       + [Virtuele rapportsuites beheren](vrs/c-workflow-vrs/vrs-manage.md)
       + [Gegevens van virtuele rapportsuite weergeven](vrs/c-workflow-vrs/vrs-view.md)
-+ Cross-device Analytics {#cda}
++ Apparaatanalyse {#cda}
    + [Overzicht van apparaatanalyse](cda/overview.md)
    + [Veldgebaseerde stitching](cda/field-based-stitching.md)
    + [Apparaatgrafiek](cda/device-graph.md)
@@ -258,9 +258,9 @@ ht-degree: 7%
    + [Beheren](c-alerts/alert-manager.md)
    + [Gebruik hoofdletters](c-alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
-   + [Overzicht van classificaties](classifications/c-classifications.md)
+   + [Overzicht van classificaties](classifications/classifications-overview.md)
    + Classificatiesets {#sets}
-      + [Overzicht van classificatiesets](classifications/sets/overview.md)
+      + [Overzicht](classifications/sets/overview.md)
       + Classificatiesets beheren {#manage}
          + [Indelingssetmanager](classifications/sets/manage/set-manager.md)
          + [Een classificatieset maken](classifications/sets/manage/create.md)
@@ -268,38 +268,35 @@ ht-degree: 7%
          + [Schema voor classificatieset](classifications/sets/manage/schema.md)
          + [Classificatieregels](classifications/sets/manage/rules.md)
       + [Taakmanager voor classificatie](classifications/sets/job-manager.md)
-      + Consolidaties van classificatiesets {#consolidations}
-         + [Consolidatiebeheer voor classificatiesets](classifications/sets/consolidations/manage.md)
-         + [Consolidatieproces van classificatiesets](classifications/sets/consolidations/process.md)
-   + Builder voor classificatieregels {#classifications-rulebuilder}
-      + [Workflow van de opbouwfunctie voor classificatieregels](classifications/crb/classification-rule-builder.md)
+      + Consolidatie van classificatiesets {#consolidations}
+         + [Consolidatiebeheer](classifications/sets/consolidations/manage.md)
+         + [Consolidatieproces](classifications/sets/consolidations/process.md)
+   + Indelingsregelbouwer (verouderd){#classifications-rulebuilder}
+      + [Overzicht](classifications/crb/classification-rule-builder.md)
       + [Classificatiereeksen](classifications/crb/classification-rule-set.md)
       + [Classificatieregels](classifications/crb/classification-quickstart-rules.md)
-      + [Classificatieregels - definities](classifications/crb/classification-rule-definitions.md)
-      + [Subclassificaties en de Bouwer van de Regel](classifications/crb/sub-classification-rule-builder.md)
-   + Invoerder van classificaties {#classifications-importer}
-      + [Invoerder van classificaties - overzicht](classifications/importer/c-working-with-saint.md)
+      + [Definities van classificatieregel](classifications/crb/classification-rule-definitions.md)
+      + [Subclassificaties en de regelbouwer](classifications/crb/subclassification-rule-builder.md)
+   + Indelingsimporteur (verouderd){#classifications-importer}
+      + [Overzicht van de importfunctie voor classificaties](classifications/importer/c-working-with-saint.md)
       + [Classificatiegegevensbestanden](classifications/importer/c-saint-data-files.md)
       + [Classificatiegegevens verwijderen](classifications/importer/t-delete-classification-data.md)
-      + [Escape-classificatiegegevens](classifications/importer/t-classifications-escape-data.md)
-      + [Niet-geclassificeerde sleutels](classifications/importer/nonclassified-keys.md)
       + [Indelingssjabloon](classifications/importer/c-download-saint-data.md)
-      + [Browser en FTP importeren](classifications/importer/import-file.md)
       + [Browserimport](classifications/importer/browser-import.md)
       + [Browser exporteren](classifications/importer/browser-export.md)
       + [FTP importeren](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP-export](classifications/importer/ftp-export.md)
       + [Verwerkingstijd](classifications/importer/processing-time.md)
+      + [Subclassificaties](classifications/importer/subclassifications.md)
       + [Problemen oplossen](classifications/importer/troubleshooting.md)
-   + [Subclassificaties](classifications/c-sub-classifications.md)
-   + [Veelgestelde vragen over classificaties](classifications/faq.md)
+      + [Veelgestelde vragen](classifications/importer/importer-faq.md)
 + Locaties {#locations}
    + [Locatiebeheer](/help/components/locations/locations-manager.md)
    + [Cloud-importaccounts](/help/components/locations/configure-import-accounts.md)
    + [Cloud-importlocaties](/help/components/locations/configure-import-locations.md)
 + [Geplande projecten](scheduled-projects-manager.md)
 + [Wachtrij voor geplande rapporten](scheduled-reports-admin.md)
-+ Realtimerapportage {#real-time-reporting}
++ Real-time rapportage {#real-time-reporting}
    + [Overzicht van real-time rapportage](c-real-time-reporting/realtime.md)
    + [Rapporten in real time configureren](c-real-time-reporting/t-realtime-admin.md)
    + [Ondersteunde metriek en afmetingen in real time](c-real-time-reporting/realtime-metrics.md)
