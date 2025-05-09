@@ -1,19 +1,19 @@
 ---
 title: t
-description: Verzend een pagina mening het volgen vraag aan Adobe.
+description: Verzend een vraag van de paginamening het volgen naar Adobe.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
 
 # t()
 
-De methode `t()` is een belangrijke kerncomponent voor Adobe Analytics. Het neemt alle variabelen die van Analytics op de pagina worden bepaald, compileert hen in een beeldverzoek, en verzendt die gegevens naar de servers van de de gegevensinzameling van de Adobe.
+De methode `t()` is een belangrijke kerncomponent voor Adobe Analytics. Alle analysevariabelen die op de pagina zijn gedefinieerd, worden gecompileerd tot een verzoek om een afbeelding en die gegevens worden naar Adobe-servers voor gegevensverzameling verzonden.
 
 Neem bijvoorbeeld de volgende JavaScript-code:
 
@@ -35,9 +35,9 @@ Wanneer u de methode `t()` uitvoert, worden alle variabelen van Analytics gedefi
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 ```
 
-De Adobe ontvangt het beeldverzoek, dan ontleedt de verzoekkopbal, URL, en de parameters van het vraagkoord. Servers voor gegevensverzameling retourneren vervolgens een transparante afbeelding van 1 x 1 pixels, die onzichtbaar op uw site wordt weergegeven.
+Adobe ontvangt de afbeeldingsaanvraag en parseert vervolgens de parameters voor de aanvraagheader, URL en queryreeks. Servers voor gegevensverzameling retourneren vervolgens een transparante afbeelding van 1 x 1 pixels, die onzichtbaar op uw site wordt weergegeven.
 
-## Gebeurtenis verzenden met de Web SDK-extensie
+## Gebeurtenis verzenden met de extensie Web SDK
 
 Gebruik een handeling om het verzenden van XDM-gebeurtenisgegevens naar Adobe te configureren. De DataStream ontvangt deze gegevens, past om het even welke gevormde afbeeldingen toe, en door:sturen die gegevens aan Adobe Analytics als het de toegevoegde dienst aan die DataStream is.
 
@@ -49,7 +49,7 @@ Gebruik een handeling om het verzenden van XDM-gebeurtenisgegevens naar Adobe te
 
 ## Gebeurtenis handmatig verzenden met implementatie van de Web SDK
 
-Gebruik de opdracht `sendEvent` om gegevens naar de Adobe te verzenden. De DataStream ontvangt deze gegevens, past om het even welke gevormde afbeeldingen toe, en door:sturen die gegevens aan Adobe Analytics als het de toegevoegde dienst aan die DataStream is.
+Gebruik de opdracht `sendEvent` om gegevens naar Adobe te verzenden. De DataStream ontvangt deze gegevens, past om het even welke gevormde afbeeldingen toe, en door:sturen die gegevens aan Adobe Analytics als het de toegevoegde dienst aan die DataStream is.
 
 ```js
 alloy("sendEvent", {
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Zie {de gebeurtenissen van het 0} Spoor [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL) in de documentatie van SDK van het Web voor meer informatie.
+Zie [`sendEvent` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Aanroep voor bijhouden van paginaweergave met de Adobe Analytics-extensie
 
@@ -72,7 +72,7 @@ De extensie Adobe Analytics in Adobe Experience Platform Data Collection heeft e
 
 ## s.t()-methode in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
-Roep de methode `s.t()` aan wanneer u een volgende vraag naar Adobe wilt verzenden.
+Roep de methode `s.t()` aan wanneer u een volgende aanroep naar Adobe wilt verzenden.
 
 ```js
 s.t();
