@@ -4,9 +4,9 @@ description: Gebruik deze variabele om online en offline gegevens aan elkaar te 
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: 43035967e8ccbb35700b7ad3e893282ade310acd
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ De `transactionID` variabele identificeert uniek een transactie zodat kan de sla
 >
 >Controleer of [!UICONTROL Transaction ID Storage] is ingeschakeld in een rapportsuite voordat u deze variabele gebruikt. Zie [ Algemene Montages van de Rekening ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de Admin gebruikersgids voor meer informatie.
 
-Wanneer u `transactionID` instelt op een hit, wordt bij Adobe een momentopname gemaakt van alle variabelen van Analytics die op dat moment zijn ingesteld of aanwezig zijn. Gegevens die via gegevensbronnen met een overeenkomende transactie-id zijn geüpload, zijn permanent gekoppeld aan die variabele waarden.
+Wanneer u `transactionID` instelt op een hit, maakt Adobe een momentopname van alle variabelen van Analytics die op dat moment zijn ingesteld of aanwezig zijn. Gegevens die via gegevensbronnen met een overeenkomende transactie-id zijn geüpload, zijn permanent gekoppeld aan die variabele waarden.
 
-Adobe onthoudt alle transactie-id-waarden (gekoppeld en ongekoppeld) gedurende maximaal 25 maanden.
+Adobe onthoudt alle waarden van de transactie-id (gekoppeld en ongekoppeld) gedurende maximaal 25 maanden.
 
 ## Transactie-id met de Web SDK
 
 De transactie-id wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[0].transactionID`
+* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[3].transactionID` of `xdm.commerce.order.payments.transactionID`
 * [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` of `data.__adobe.analytics.xact`
 
 ## Transactie-id met Adobe Analytics-extensie
@@ -43,7 +43,7 @@ U kunt transactie-id instellen tijdens het configureren van de extensie Analytic
 
 U kunt transactie-id instellen op elke tekenreekswaarde, inclusief gegevenselementen.
 
-## s.transactionID in AppMeasurement en de de uitbreidingsredacteur van de douanecode van de Analyse
+## s.transactionID in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
 
 De variabele `s.transactionID` is een tekenreeks met een unieke id voor een transactie. Geldige waarden zijn alfanumerieke tekens met een lengte van maximaal 100 bytes. De standaardwaarde is een lege tekenreeks.
 
