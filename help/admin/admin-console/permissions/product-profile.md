@@ -4,7 +4,7 @@ description: Leer hoe productprofielen kunnen worden gebruikt als voorinstelling
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
+source-git-commit: 8f1a17d2b07d5b37ef6d3d3f426234b29be61319
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Productprofielen zijn voorinstellingen voor machtigingen die productbeheerders kunnen toewijzen aan gebruikers binnen een organisatie. Als u een productprofiel maakt en een Experience Cloud-gebruiker aan dat productprofiel toewijst, nemen deze de machtigingsitems in het productprofiel over.
 
-Voor algemene informatie over productprofielen, met inbegrip van het creëren van productprofielen en het toewijzen van gebruikers, zie [ productprofielen voor ondernemingsgebruikers beheren ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) in de de gebruikersgids van de Onderneming.
+Voor algemene informatie over productprofielen, met inbegrip van het creëren van productprofielen en het toewijzen van gebruikers, zie [ productprofielen voor ondernemingsgebruikers beheren ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in de de gebruikersgids van de Onderneming.
 
 ## Beheerders van productprofielen
 
@@ -26,14 +26,14 @@ Beheerders van productprofielen zijn een optionele groep die gebruikers aan dat 
 * Beheerders van productprofielen kunnen productprofielen toewijzen aan of verwijderen uit gebruikersgroepen.
 * Beheerders met productprofielen zijn ideaal voor teamleiders of managers die toegang tot Adobe Analytics voor hun team moeten verlenen en beheren. Individuen hoeven geen systeembeheerders of productbeheerders te storen om toegang te verlenen tot Adobe Analytics.
 
-Voor informatie over hoe te om de beheerders van het productprofiel toe te wijzen, zie de sectie &quot;beheer van productprofiel&quot;in het artikel, [ beheer productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) in de gebruikersgids van de Onderneming.
+Voor informatie over hoe te om de beheerders van het productprofiel toe te wijzen, zie de sectie &quot;beheer van productprofiel&quot;in het artikel, [ beheer productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in de gebruikersgids van de Onderneming.
 
 ## Adobe Analytics-machtigingsitems
 
 De minimaal vereiste rechten in één productprofiel voor toegang tot Adobe Analytics zijn:
 
 * Het productprofiel moet toegang hebben tot ten minste één rapportsuite
-* Het productprofiel moet tot het de toestemmingspunt van de Hulpmiddelen van de Analyse **Toegang van Analysis Workspace** behoren.
+* Het productprofiel moet tot het de toestemmingspunt van de Hulpmiddelen van de Analyse **Toegang van het Project van Workspace** behoren.
 
 ### Rapportsuites
 
@@ -53,11 +53,11 @@ Aangepaste variabelen, zoals eVars, krijgen het label &#39;Aangepaste omzetting 
 
 ### Rapportsuite-gereedschappen
 
-De punten van de de reekshulpmiddelen van het rapport verlenen toegang tot eigenschappen die voor de rapportsuites specifiek zijn de gebruiker heeft toegang tot. Zie {de Hulpmiddelen van de Reeks van het 0} Rapport [&#128279;](report-suite-tools.md) voor een volledige lijst van toestemmingspunten en beschrijvingen.
+De punten van de de reekshulpmiddelen van het rapport verlenen toegang tot eigenschappen die voor de rapportsuites specifiek zijn de gebruiker heeft toegang tot. Zie {de Hulpmiddelen van de Reeks van het 0} Rapport ](report-suite-tools.md) voor een volledige lijst van toestemmingspunten en beschrijvingen.[
 
 ### Analysegereedschappen
 
-De hulpmiddelen van de analysehulpmiddelen verlenen toegang tot eigenschappen die van de montages van de rapportreeks onafhankelijk zijn. Zie {de profieltoestemmingen van 0} Product voor Hulpmiddelen van Analytics [&#128279;](analytics-tools.md) voor een volledige lijst van toestemmingspunten en beschrijvingen.
+De hulpmiddelen van de analysehulpmiddelen verlenen toegang tot eigenschappen die van de montages van de rapportreeks onafhankelijk zijn. Zie {de profieltoestemmingen van 0} Product voor Hulpmiddelen van Analytics ](analytics-tools.md) voor een volledige lijst van toestemmingspunten en beschrijvingen.[
 
 ## Ontwikkelaars van productprofielen
 
