@@ -125,7 +125,7 @@ Om metrisch type te specificeren wanneer het bouwen van berekende metrisch:
 
 [ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md) is hoe de toewijzingsmodellen in berekende metriek worden geëvalueerd.
 
-Voor een volledige lijst van niet-gebrek attributiemodellen en raadplegingsvensters die worden gesteund, zie {de modellen van de Attributie en raadplegingsvensters ](/help/analyze/analysis-workspace/attribution/models.md).[
+Voor een volledige lijst van niet-gebrek attributiemodellen en raadplegingsvensters die worden gesteund, zie &lbrace;de modellen van de Attributie en raadplegingsvensters [&#128279;](/help/analyze/analysis-workspace/attribution/models.md).
 
 In het volgende voorbeeld wordt getoond hoe berekende metriek met lineaire toewijzingen in rapportage werkt:
 
