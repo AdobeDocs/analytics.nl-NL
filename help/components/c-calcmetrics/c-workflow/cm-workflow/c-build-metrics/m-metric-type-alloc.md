@@ -3,140 +3,106 @@ description: Meer informatie over
 title: Type en attributie metrisch
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Type en attributie metrisch {#metric-type-attribution}
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_nondefaultattributionmodel"
->title="Niet-standaard toewijzingsmodel gebruiken"
->abstract="Schakel een niet-standaard attributiemodel in voor de geselecteerde metrische waarde."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="Model"
 >abstract="Selecteer een attributiemodel voor metrisch."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="Laatste aanraking"
 >abstract="100% van het krediet gaat naar de laatste waarde van de dimensie die een bezoeker heeft gezien."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="Eerste aanraking"
 >abstract="100% van het krediet gaat naar de waarde van de eerste dimensie die een bezoeker ziet."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="Lineair"
 >abstract="De creditering wordt gelijkmatig over alle afmetingswaarden verdeeld."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="Deelname"
 >abstract="100% is bestemd voor elke waarde van de dimensie die een bezoeker ziet.<br/> de totalen van de Kolom zijn overdreven."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="Zelfde aanraking"
 >abstract="Er wordt alleen rekening gehouden met waarden van dimensies die zich voordoen bij dezelfde gebeurtenis als conversie."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_instance"
+>title="Zelfde aanraking"
+>abstract="Er wordt alleen rekening gehouden met waarden van dimensies die zich voordoen bij dezelfde gebeurtenis als conversie."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="U-vorm"
 >abstract="40% van de kredieten voor de waarde van de eerste dimensie, 40% tot de laatste, 20% gedeeld door het midden."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="J Curve"
 >abstract="60% is bestemd voor de laatste dimensie, 20% voor de eerste, 20% voor het midden."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jshaped"
+>title="J Curve"
+>abstract="60% is bestemd voor de laatste dimensie, 20% voor de eerste, 20% voor het midden."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
 >title="Omgekeerd J"
 >abstract="60% is bestemd voor de waarde van de eerste dimensie, 20% voor de laatste, 20% voor het midden."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_reversejshaped"
+>title="Omgekeerd J"
+>abstract="60% is bestemd voor de waarde van de eerste dimensie, 20% voor de laatste, 20% voor het midden."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="Tijdverlies"
 >abstract="Dimension-waarden die het dichtst bij een conversie liggen, krijgen het meeste krediet."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="Aangepast"
 >abstract="Definieer uw eigen op positie gebaseerde toewijzingsweging."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_positionbased"
+>title="Aangepast"
+>abstract="Definieer uw eigen op positie gebaseerde toewijzingsweging."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algorithmic"
 >abstract="Krediet wordt dynamisch bepaald op basis van een statistisch algoritme."
 
-<!-- markdownlint-enable MD034 -->
 
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_container"
+>title="Container"
+>abstract="Selecteer een container om het gewenste bereik voor de toewijzing in te stellen."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Venster Opzoeken"
 >abstract="Deze instelling bepaalt het venster met gegevenstoewijzing dat voor elke conversie wordt toegepast."
-
-<!-- markdownlint-enable MD034 -->
 
 Wanneer [ bouwend een berekende metrische ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), kunt u het metrische type en het attributiemodel specificeren.
 
@@ -159,7 +125,7 @@ Om metrisch type te specificeren wanneer het bouwen van berekende metrisch:
 
 [ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md) is hoe de toewijzingsmodellen in berekende metriek worden geëvalueerd.
 
-Voor een volledige lijst van niet-gebrek attributiemodellen en raadplegingsvensters die worden gesteund, zie &lbrace;de modellen van de Attributie en raadplegingsvensters [&#128279;](/help/analyze/analysis-workspace/attribution/models.md).
+Voor een volledige lijst van niet-gebrek attributiemodellen en raadplegingsvensters die worden gesteund, zie {de modellen van de Attributie en raadplegingsvensters ](/help/analyze/analysis-workspace/attribution/models.md).[
 
 In het volgende voorbeeld wordt getoond hoe berekende metriek met lineaire toewijzingen in rapportage werkt:
 
