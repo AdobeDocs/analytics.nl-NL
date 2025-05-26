@@ -1,23 +1,29 @@
 ---
 description: Verklaart de drie opties van de Verenigbaarheid van het Product.
-title: Compatibiliteit van cijfers
+title: Metrische compatibiliteit
 feature: Calculated Metrics
 exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d9f95b12a43305cecff1190e6544334f3b48835d
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 4%
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
-# Compatibiliteit van cijfers
+# Metrische compatibiliteit {#metrics-compatibility}
 
-Verklaart de drie opties van de Verenigbaarheid van het Product.
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_productcompatibility"
+>title="Productcompatibiliteit"
+>abstract="&#39;Een klein aantal beschikbare metrische criteria is niet compatibel met alle Adobe Analytics-gereedschappen. De hulpmiddelen die met metrisch compatibel zijn worden vermeld in deze lijst. Bewerk de criteria om een metrische waarde compatibel te maken met alle Adobe Analytics-gereedschappen."
 
-Wanneer u berekende of geavanceerde berekende metriek in Berekende Metrische Bouwer creeert, zal metrisch als compatibel met 1 of meer opties tonen: Huidige gegevens, volledig verwerkte gegevens of marketingkanaalrapporten.
+In dit artikel worden de drie opties voor productcompatibiliteit beschreven.
+
+Wanneer u berekende metriek in berekende metrische bouwer creeert, zal metrisch tonen compatibel met 1 of meer hulpmiddelen binnen Adobe Analytics. Bijvoorbeeld Analysis Workspace, Reports &amp; Analytics, Data Warehouse.
+
 
 | Compatibel met | Beschrijving |
 | --- | --- |
-| [Huidige data](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=nl-NL) | De [!UICONTROL Include Current Data] in Adobe Analytics kunt u de nieuwste analysegegevens bekijken, vaak voordat de gegevens volledig zijn verwerkt en voltooid. [!UICONTROL Current Data] geeft de meeste metriek binnen minuten weer en verschaft activeerbare gegevens voor snelle besluitvorming. [!UICONTROL Current Data] ondersteunt alleen berekende metriek (inclusief vermenigvuldigen, delen, optellen en aftrekken.) [!UICONTROL Current Data] ondersteunt geen geavanceerde berekende metriek (die segmenten of functies bevatten). |
-| Volledig verwerkte gegevens | Gegeven dat volledig wordt verwerkt en segmenten en classificaties omvat. Als u liever alle metriek wilt weergeven nadat de gegevens volledig zijn verwerkt, kunt u [!UICONTROL Current Data] door gebruikers te verwijderen uit de groep Huidige gegevensgebruikers. |
-| Marketingkanaalrapporten | Metriek met first-touch-toewijzing is alleen compatibel met Marketingkanaal-rapporten. |
+| Huidige gegevens | Met de optie [!UICONTROL Include Current Data] in Adobe Analytics kunt u de meest recente analysegegevens bekijken, vaak voordat de gegevens volledig zijn verwerkt en voltooid. In [!UICONTROL Current Data] worden de meeste meetgegevens binnen enkele minuten weergegeven, zodat u over actiemotionele gegevens beschikt om snel beslissingen te nemen. [!UICONTROL Current Data] ondersteunt alleen berekende metriek (inclusief vermenigvuldigen, delen, optellen en aftrekken.) [!UICONTROL Current Data] ondersteunt geen geavanceerde berekende metriek (die segmenten of functies bevatten). |
+| Volledig verwerkte gegevens | Gegeven dat volledig wordt verwerkt en segmenten en classificaties omvat. Als u liever alle metriek weergeeft nadat de gegevens volledig zijn verwerkt, kunt u [!UICONTROL Current Data] uitschakelen door gebruikers uit de groep Huidige gebruikers van gegevens te verwijderen. |
+| Marketingkanaalrapporten | Metriek met first-touch-toewijzing is alleen compatibel met marketingrapporten. |

@@ -3,33 +3,20 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen,
 title: Metrische gegevens samenstellen
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a1567366c9fad42b3836f43c681d5380e97b09f3
+source-git-commit: d9f95b12a43305cecff1190e6544334f3b48835d
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1105'
 ht-degree: 1%
 
 ---
 
 # Metrische gegevens samenstellen {#build-metrics}
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_productcompatibility"
->title="Productcompatibiliteit"
->abstract="Geeft aan waar in Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt, zoals in Analysis Workspace, Report Builder enzovoort. Sommige berekende metriek kunnen niet met experimenteren worden gebruikt."
->additional-url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_externalid"
 >title="Externe id"
 >abstract="Het veranderen van Externe identiteitskaart zou kunnen beïnvloeden hoe berekende metrisch in externe bronnen zoals bedrijfsintelligentiegereedschappen verschijnt"
 
-<!-- markdownlint-enable MD034 -->
 
 Adobe Analytics biedt een canvas voor het slepen en neerzetten van dimensies, metriek, segmenten en functies om aangepaste metrische gegevens te maken op basis van logica in de containerhiërarchie, regels en operatoren. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe berekende meetgegevens maken en opslaan.
 
@@ -65,14 +52,14 @@ In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden e
 | 8 | **Definitie:** dit is waar u in metriek/berekende metriek, segmenten, en/of functies sleept om berekende metrisch te bouwen. <ul><li>Als u in berekende metrisch sleept, zal het zijn metrische definitie automatisch uitbreiden. </li> <li>U kunt definities nesten met containers. In tegenstelling tot gesegmenteerde containers, functioneren deze containers als een wiskundige uitdrukking en bepalen de orde van verrichtingen. </li> </ul> |
 | 9 | **Exploitant:** gedeeld door ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is de standaardoperator, plus de operatoren +, - en x. |
 | 10 | **Voorproef:** verstrekt een snel gelezen over om het even welke mogelijke fouten. De voorvertoning beslaat de laatste 90 dagen. Dit is een manier om aanvankelijk te graven of u de juiste componenten voor uw metrisch hebt geselecteerd. Een onverwacht resultaat zou betekenen u een tweede blik bij de metrische definitie moet nemen. |
-| 11 | **de verenigbaarheid van het Product:** de verenigbaarheid van het Product toont u of metrisch met <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=nl-NL"  > Huidige Gegevens </a>, met volledig Verwerkte Gegevens, of slechts met de rapporten van het Kanaal van de Marketing (first-touch toewijzing) compatibel is. <p>Opmerking: de huidige gegevens ondersteunen niet alle meetgegevens. Metriek die segmenten of functies bevatten, is niet compatibel met de huidige gegevens. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Meer... </a> </p> </p> |
+| 11 | **de verenigbaarheid van het Product:** de verenigbaarheid van het Product toont u of metrisch met <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Huidige Gegevens </a>, met volledig Verwerkte Gegevens, of slechts met de rapporten van het Kanaal van de Marketing (first-touch toewijzing) compatibel is. <p>Opmerking: de huidige gegevens ondersteunen niet alle meetgegevens. Metriek die segmenten of functies bevatten, is niet compatibel met de huidige gegevens. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Meer... </a> </p> </p> |
 | 12 | **voegt toe:** voor alle soorten berekende metriek, kunt u containers en statische aantallen aan de definitie toevoegen. Voor geavanceerde berekende metriek, kunt u segmenten en functies ook toevoegen. <ul><li>Containers werken als een wiskundige expressie en bepalen de volgorde van bewerkingen. Dus alles in een container wordt verwerkt voor de volgende bewerking.</li><li>Als u een segment naar een container sleept, wordt alles in die container gesegmenteerd. (Alleen geavanceerde berekende cijfers)</li><li>U kunt meerdere segmenten in een container stapelen.</li></ul> |
 | 13 | **het pictogram van het Gewas (Metrische Type, Attributie):** het selecteren van het tandwielpictogram naast metrisch laat u het <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metrische type en attributiemodellen </a> specificeren. |
 | 14 | **Nieuw:** laat u een nieuwe component, zoals een nieuw segment tot stand brengen (dat u aan <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > de Bouwer van het Segment </a> neemt.) |
 | 15 | **Componenten van het Onderzoek:** Deze onderzoeksbar laat u naar dimensies, metriek, segmenten (gevorderde berekende metriek slechts), en functies (geavanceerde berekende metriek slechts) zoeken. |
 | 16 | **Lijst van Afmetingen:** eerder dan het verlaten van Berekende Metrische Bouwer om een eenvoudig segment (in de Bouwer van het Segment) te bouwen, b.v. &quot;Pagina = Homepage&quot;, kunt u in Pagina slepen en Homepage direct van de Berekende Metrische Bouwer selecteren.<p>Dit resulteert in een veel gestroomlijnder werkschema voor het creëren van gesegmenteerde berekende metriek.</p> |
 | 17 | **Lijst van Metriek:** Metriek komt in 3 categorieën: <ul> <li>Standaardmetriek (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Berekende cijfers ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Metrische sjablonen ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" /> ) - onder aan de lijst. </li> </ul> <p>Wanneer u de muisaanwijzer boven een metrische waarde houdt, ziet u het pictogram Info rechts ervan: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Als u op dit pictogram klikt, krijgt u de volgende informatie: </p><ul> <li>De formule van hoe het wordt berekend. </li><li>Een voorproeftrend van metrisch. </li><li>Een pictogram voor bewerken (potlood) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> bij het hoogste recht dat u aan de Berekende Bouwer van Metriek zal nemen waar u deze berekende metrische waarde kunt uitgeven. </li></ul> |
-| 18 | **Lijst van Segmenten:** (Geavanceerde berekende metriek slechts) als Admin, toont deze lijst alle segmenten die in uw login bedrijf worden gecreeerd. Als u een gebruiker niet-Admin bent, toont deze lijst segmenten u bezit en die met u worden gedeeld. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=nl-NL"  > Meer... </a> |
+| 18 | **Lijst van Segmenten:** (Geavanceerde berekende metriek slechts) als Admin, toont deze lijst alle segmenten die in uw login bedrijf worden gecreeerd. Als u een gebruiker niet-Admin bent, toont deze lijst segmenten u bezit en die met u worden gedeeld. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > Meer... </a> |
 | 19 | **Lijst van Functies:** (Geavanceerde berekende metriek slechts) de Functies worden verdeeld in twee lijsten: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basis </a> (het meest vaak gebruikt) en <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Geavanceerd </a>. |
 | 20 | **de selecteur van de Reeks van het Rapport:** laat u aan een verschillende rapportreeks schakelen. |
 

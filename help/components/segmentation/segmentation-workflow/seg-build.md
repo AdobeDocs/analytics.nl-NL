@@ -3,14 +3,19 @@ description: De Bouwer van het Segment verstrekt een canvas om Metrische Dimensi
 title: Segmenten maken
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
+source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '2000'
 ht-degree: 1%
 
 ---
 
 # Segment Builder {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_productcompatibility"
+>title="Productcompatibiliteit"
+>abstract="Een klein aantal beschikbare segmentcriteria is niet compatibel met alle Adobe Analytics-tools. De hulpmiddelen die met het segment compatibel zijn worden vermeld in deze lijst. Als u een segment compatibel wilt maken met alle Adobe Analytics-gereedschappen, bewerkt u de criteria."
 
 <!-- markdownlint-disable MD034 -->
 
@@ -44,7 +49,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Instantie"
->abstract="Bevat varianten en doorlopende waarden voor de dimensie."
+>abstract="Bevat exemplaren voor de dimensie."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +71,7 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 
 * **Analytics hoogste navigatie**: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: klik op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** , open een project en klik op **[!UICONTROL + New]** > **[!UICONTROL Create Segment]** .
-* **[!UICONTROL Report Builder]**: [ voeg of geef segmenten in Report Builder ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/report-builder/work-with-segments) uit.
+* **[!UICONTROL Report Builder]**: [ voeg of geef segmenten in Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments) uit.
 
 ## Builder-criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -109,7 +114,7 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het segment of metrisch.
 1. **[!UICONTROL X]**: (Schrapping) laat u dit deel van de segmentdefinitie schrappen.
 1. **[!UICONTROL Experience Cloud publishing]**: Als u een Adobe Analytics-segment naar de Experience Cloud publiceert, kunt u het segment gebruiken voor marketingactiviteiten in [!DNL Audience Manager] en in andere activeringskanalen. [Meer informatie...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe-publieksservices beheren de vertaling van bezoekersgegevens naar publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan de Experience Cloud te delen. [Meer informatie...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL)
+1. **[!UICONTROL Audience library]**: Adobe-publieksservices beheren de vertaling van bezoekersgegevens naar publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan de Experience Cloud te delen. [Meer informatie...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: hiermee doorzoekt u de lijst met afmetingen, segmenten of metriek.
 1. **[!UICONTROL Dimensions]**: (Lijst) Klik op de koptekst om uit te vouwen.
 1. **[!UICONTROL Metrics]** : klik op de koptekst om deze uit te vouwen.

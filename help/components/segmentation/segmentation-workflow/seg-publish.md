@@ -1,25 +1,36 @@
 ---
 description: Hiermee kunt u het segment gebruiken voor marketingactiviteiten in de Audience Library, Target en Audience Manager.
-title: Publish Segmenten naar Experience Cloud
+title: Segmenten publiceren naar Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
 
-# Publish-segmenten naar Experience Cloud
+# Segmenten publiceren naar Experience Cloud {#publish-segments}
 
-Als u een Adobe Analytics-segment naar Experience Cloud publiceert, kunt u het segment gebruiken voor marketingactiviteiten in [!DNL Audience Manager] en in andere activeringskanalen, zoals de Adoben [!DNL Advertising Cloud] , [!DNL Target] en [!DNL Campaign] .
+>[!CONTEXTUALHELP]
+>id="components_segments_publishing"
+>title="Experience Cloud-publicaties"
+>abstract="U kunt het publiek publiceren dat uit dit segment wordt afgeleid aan de Bibliotheek van het Publiek waar het voor marketing activiteiten in Doel en andere oplossingen van Experience Cloud kan worden gebruikt."
 
-U kunt de segmenten Analytics binnen 8 uur naar het Experience Cloud publiceren. Gebruik deze segmenten om publiek in Audience Manager aan alle stroomafwaartse bestemmingen te activeren.
+>[!CONTEXTUALHELP]
+>id="components_segments_audienclibrary"
+>title="Auditiebibliotheek"
+>abstract="Segmenten die zijn gemaakt in de Audience Library zijn direct beschikbaar en zijn niet afhankelijk van analytische updates."
+
+
+Als u een Adobe Analytics-segment naar Experience Cloud publiceert, kunt u het segment gebruiken voor marketingactiviteiten in [!DNL Audience Manager] en in andere activeringskanalen, zoals Adobe [!DNL Advertising Cloud] , [!DNL Target] en [!DNL Campaign] .
+
+U kunt de segmenten Analytics binnen 8 uur publiceren naar Experience Cloud. Gebruik deze segmenten om het publiek in Audience Manager naar alle downstreambestemmingen te activeren.
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de segmenten van Publish ](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ segmenten ](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} voor een demo video publiceren.
 
 >[!ENDSHADEBOX]
 
@@ -30,16 +41,16 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de segmenten 
 
 ## Vereisten
 
-* Zorg ervoor dat de rapportreeks die u dit segment aan opslaat [ voor Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=nl-NL) wordt toegelaten. Anders kunt u het niet naar het Experience Cloud publiceren.
+* Zorg ervoor dat de rapportreeks die u dit segment aan opslaat [ voor Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html) wordt toegelaten. Anders kunt u het bestand niet publiceren naar Experience Cloud.
 * Zorg ervoor dat uw organisatie Experience Cloud-id&#39;s gebruikt.
-* Alvorens u segmenten kunt publiceren, moet uw Admin de [!UICONTROL Segment Publishing] toestemming aan een productprofiel in de [ Admin Console ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL) toewijzen, en u toevoegen aan het productprofiel.
+* Alvorens u segmenten kunt publiceren, moet uw Admin de [!UICONTROL Segment Publishing] toestemming aan een productprofiel in [ Admin Console ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) toewijzen, en u toevoegen aan het productprofiel.
 
 ## Overwegingen
 
 * **de grenzen van de Reeks van het Rapport**: U kunt tot 75 segmenten per rapportreeks publiceren. Deze limiet geldt. Als u al 75 gepubliceerde segmenten hebt, kunt u geen extra segmenten publiceren tot u unpublish genoeg segmenten om onder de 75-segmentdrempel te krijgen.
 * **de grenzen van het Lidmaatschap**: Het publiek dat aan [!DNL Experience Cloud] van Adobe Analytics wordt gedeeld kan 20 miljoen unieke leden niet overschrijden.
 * **Privacy van Gegevens**: Het publiek wordt niet gefiltreerd gebaseerd op de authentificatiestatus van een bezoeker. Als een bezoeker in een niet-geverifieerde en geverifieerde status door uw site kan bladeren, kan een bezoeker door handelingen die plaatsvinden wanneer een bezoeker niet-geverifieerd is, toch worden opgenomen in een publiek. Het overzicht [ privacy van Adobe Experience Cloud ](https://www.adobe.com/privacy/experience-cloud.html) om de volledige privacyimplicaties van publiek te begrijpen delend.
-* Voor een bespreking over de **verschillen tussen segmenten in [!DNL Adobe Analytics] en[!DNL Audience Manager]**, ga [ hier ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=nl-NL).
+* Voor een bespreking over de **verschillen tussen segmenten in [!DNL Adobe Analytics] en[!DNL Audience Manager]**, ga [ hier ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
 ## Tijdlijn voor segmentpublicatie
 
@@ -52,11 +63,11 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de segmenten 
 >[!NOTE]
 >Eenmaal per week worden alle gegevens volledig gesynchroniseerd om rekening te houden met eventuele delta&#39;s of discrepanties die in de voorgaande week niet zijn vastgelegd.
 
-## Publish-segmenten in [!UICONTROL Segment Builder]
+## Segmenten publiceren in [!UICONTROL Segment Builder]
 
 1. Ga in Adobe Analytics naar **[!UICONTROL Components]** > **[!UICONTROL Segments]**
 1. Selecteer **[!UICONTROL Add]** om een nieuw segment te maken.
-   ![ Experience Cloud van Publish ](assets/publish-ec.png)
+   ![ publiceer Experience Cloud ](assets/publish-ec.png)
 1. Geef een titel en een beschrijving voor het segment op. Deze velden zijn vereist voordat u het bestand opslaat.
 1. In de **[!UICONTROL Experience Cloud publishing]** sectie, selecteer de optie, **[!UICONTROL Publish this segment to the Experience Cloud (for *rapportreeks *)]**.
 
@@ -67,19 +78,19 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de segmenten 
 
 | Element | Beschrijving |
 |---|---|
-| **[!UICONTROL Publish this segment to the Experience Cloud (for *`<report suite>`*)]** | Wanneer deze optie wordt toegelaten, worden de segmenttitel en de definitie (d.w.z. het shell publiek zoals vaak gebruikt in advertentieplatforms) onmiddellijk gedeeld met Experience Cloud, terwijl het segmentlidmaatschap wordt geëvalueerd en om de 4 uur gedeeld. <br> Wanneer dat publiek is gekoppeld aan een activiteit in [!DNL Target] , begint [!DNL Analytics] bijvoorbeeld met het verzenden van id&#39;s voor bezoekers die in aanmerking komen voor dat Experience Cloud en [!DNL Target] publiek. Op dat punt worden de publieksnaam en de bijbehorende gegevens weergegeven op de pagina [!DNL Audience Library] in het Experience Cloud. </br> |
+| **[!UICONTROL Publish this segment to the Experience Cloud (for *`<report suite>`*)]** | Wanneer deze optie wordt toegelaten, worden de segmenttitel en de definitie (d.w.z. het shell publiek zoals vaak gebruikt in advertentieplatforms) onmiddellijk gedeeld met Experience Cloud, terwijl het segmentlidmaatschap wordt geëvalueerd en om de 4 uur gedeeld. <br> Wanneer dat publiek is gekoppeld aan een activiteit in [!DNL Target] , begint [!DNL Analytics] bijvoorbeeld met het verzenden van id&#39;s voor bezoekers die in aanmerking komen voor de desbetreffende Experience Cloud en het desbetreffende [!DNL Target] -publiek. Op dat punt worden de publieksnaam en de bijbehorende gegevens weergegeven op de pagina [!DNL Audience Library] in Experience Cloud. </br> |
 | **[!UICONTROL Audience Creation Window]** | Het tijdkader dat u selecteert, wordt gebruikt om het publiek te maken op basis van een rolkalender. Bijvoorbeeld, &quot;Laatste 30 dagen&quot;(gebrek) omvat bezoekers die voor het publiek in de laatste 30 dagen van de datum van vandaag (NIET van de originele datum hebben gekwalificeerd toen het segment werd gecreeerd.) |
-| **[!UICONTROL Create in Audience Library]** | De segmenten die u maakt en publiceert, kunnen zonder vertraging beschikbaar worden gemaakt op de [!DNL Audience Library] -pagina in het Experience Cloud. Ze zijn niet afhankelijk van analytische updates. Deze segmenten tellen niet tegen uw grens van 75 gepubliceerde segmenten. |
-| **[!UICONTROL x of 75 Published]** | Hiermee geeft u het aantal segmenten weer dat u naar het Experience Cloud hebt gepubliceerd. Klik de verbinding om een lijst van gepubliceerde segmenten en hun bijbehorende rapportreeks en eigenaar te zien. |
+| **[!UICONTROL Create in Audience Library]** | De segmenten die u maakt en publiceert, kunnen zonder vertraging beschikbaar worden gemaakt op de pagina [!DNL Audience Library] in Experience Cloud. Ze zijn niet afhankelijk van analytische updates. Deze segmenten tellen niet tegen uw grens van 75 gepubliceerde segmenten. |
+| **[!UICONTROL x of 75 Published]** | Hier wordt het aantal segmenten weergegeven dat u naar Experience Cloud hebt gepubliceerd. Klik de verbinding om een lijst van gepubliceerde segmenten en hun bijbehorende rapportreeks en eigenaar te zien. |
 | **[!UICONTROL Save]** | Hiermee slaat u dit segment op. |
 
 ## Segmenten verwijderen of verwijderen
 
-Als u een segment wilt verwijderen dat naar het Experience Cloud is gepubliceerd, moet u eerst de publicatie ongedaan maken. Om een segment ongedaan te maken, enkel **&#x200B;**&#x200B;unclick checkbox die u gebruikte om het te publiceren.
+Als u een segment wilt verwijderen dat naar Experience Cloud is gepubliceerd, moet u eerst de publicatie ongedaan maken. Om een segment ongedaan te maken, enkel **** unclick checkbox die u gebruikte om het te publiceren.
 
 >[!NOTE]
 >
->U **kunt niet** unpublish een segment dat momenteel in gebruik door om het even welke volgende Adobe oplossingen is: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (voor [!DNL Core Service] &amp; [!DNL Audience Manager] klanten) en alle andere externe partners (voor [!DNL Audience Manager] klanten). U **kunt** unpublish een segment dat door [!DNL Target] in gebruik is.
+>U **kunt niet** unpublish een segment dat momenteel in gebruik door om het even welke volgende oplossingen van Adobe is: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (voor [!DNL Core Service] &amp; [!DNL Audience Manager] klanten) en alle andere externe partners (voor [!DNL Audience Manager] klanten). U **kunt** unpublish een segment dat door [!DNL Target] in gebruik is.
 
 ## De publicatiestatus van segmenten weergeven
 
@@ -89,9 +100,9 @@ Gepubliceerde segmenten weergeven:
 
 1. Ga in Adobe Analytics naar **[!UICONTROL Components]** > **[!UICONTROL Segments]** .
 
-1. Geef de kolom **[!UICONTROL Published]** weer. **[!UICONTROL Yes]** in deze kolom geeft aan dat het segment is gepubliceerd naar het Experience Cloud. **[!UICONTROL No]** geeft aan dat dit niet het geval is.
+1. Geef de kolom **[!UICONTROL Published]** weer. **[!UICONTROL Yes]** in deze kolom geeft aan dat het segment is gepubliceerd naar Experience Cloud. **[!UICONTROL No]** geeft aan dat dit niet het geval is.
 
-   ![ status van Publish ](assets/publish-status.png)
+   ![ publiceer status ](assets/publish-status.png)
 
 ## De UUID [!DNL Audience Manager] ophalen
 
@@ -100,13 +111,13 @@ Er zijn twee manieren om de Adobe Audience Manager UUID vast te leggen die momen
 * Adobe Experience Cloud Debugger
 * Native ontwikkelaarsprogramma in browsers (bijvoorbeeld Chrome Developer Tools)
 
-De volgende schermafbeeldingen tonen u hoe te om Adobe Audience Manager UUID op uw browser terug te winnen en het in de Kijker van het Profiel van de Bezoeker van de Audience Manager te gebruiken om spoor en segmentlidmaatschap te bevestigen.
+In de volgende schermafbeeldingen ziet u hoe u de Adobe Audience Manager UUID ophaalt in uw browser en deze gebruikt in de Audience Manager Visitor Profile Viewer om de status van kenmerk en segment te valideren.
 
 ### Methode 1: Adobe Experience Cloud Debugger gebruiken
 
 1. De download en installeert [ Debugger van Adobe Experience Cloud ](/help/implement/validate/debugger.md) in de Opslag van het Web van Chrome.
 1. Start de foutopsporing wanneer u een pagina laadt.
-1. Blader naar de sectie Audience Manager en zoek de Adobe Audience Manager UUID-set op de huidige browserpagina
+1. Ga naar de sectie Audience Manager en zoek de Adobe Audience Manager UUID die op de huidige browserpagina is ingesteld
 (`50814298273775797762943354787774730612` in het onderstaande voorbeeld)
 
 ![ Debugger ](assets/debugger.jpg)
@@ -115,24 +126,24 @@ De volgende schermafbeeldingen tonen u hoe te om Adobe Audience Manager UUID op 
 
 1. Chrome Developer Tools starten voordat een pagina wordt geladen
 1. Laad de pagina en controleer Toepassingen > Cookies. De Adobe Audience Manager UUID moet worden ingesteld in de externe
-Het koekje van de index ([ adobe.demdex.net ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=nl-NL) in het hieronder voorbeeld). De velddemdex is de Adobe Audience Manager UUID-set
+Het koekje van de index ([ adobe.demdex.net ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) in het hieronder voorbeeld). De velddemdex is de Adobe Audience Manager UUID-set
 in de browser (`50814298273775797762943354787774730612` in het onderstaande voorbeeld).
 
 ![ de Hulpmiddelen van de Ontwikkelaar van Chrome ](assets/ggogle-uuid.png)
 
 ## Audience Manager gebruiken [!UICONTROL Visitor Profile Viewer]
 
-De Adobe Audience Manager-UUID in de browser wordt standaard gebruikt wanneer [!UICONTROL Visitor Profile Viewer] wordt geladen. Als u de resultaten van andere gebruikers met betrekking tot de eigenschap verifieert, voert u een UUID in het veld UUID in en klikt u op [!UICONTROL Refresh] . Verwijs naar [ de Kijker van het Profiel van de Bezoeker ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=nl-NL) voor meer informatie.
+De Adobe Audience Manager-UUID in de browser wordt standaard gebruikt wanneer [!UICONTROL Visitor Profile Viewer] wordt geladen. Als u de resultaten van andere gebruikers met betrekking tot de eigenschap verifieert, voert u een UUID in het veld UUID in en klikt u op [!UICONTROL Refresh] . Verwijs naar [ de Kijker van het Profiel van de Bezoeker ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html) voor meer informatie.
 
-![ de profielkijker van de Audience Manager ](assets/aam-vpv.png)
+![ de profielkijker van Audience Manager ](assets/aam-vpv.png)
 
 ## De segmentkenmerken weergeven in [!DNL Audience Manager]
 
 In Adobe Audience Manager wordt de lijst met bezoekers met ECID&#39;s voor een bepaald segment op streamingwijze geëvalueerd, aangezien Analytics segmenten deelt met Experience Cloud.
 
-1. Ga in [!DNL Audience Manager] naar [!UICONTROL Audience Data > Traits > Analytics Traits] . Er wordt een map weergegeven voor elke serie Analytics-rapporten die is toegewezen aan uw organisatie Experience Cloud. Deze mappen (voor Traits, Segmenten en Gegevensbronnen) worden gemaakt wanneer de kernservice Profielen en Soorten publiek/Personen wordt gestart of ingericht.
+1. Ga in [!DNL Audience Manager] naar [!UICONTROL Audience Data > Traits > Analytics Traits] . Er wordt een map weergegeven voor elke serie Analytics-rapporten die is toegewezen aan uw Experience Cloud-organisatie. Deze mappen (voor Traits, Segmenten en Gegevensbronnen) worden gemaakt wanneer de kernservice Profielen en Soorten publiek/Personen wordt gestart of ingericht.
 1. Selecteer de map voor de rapportsuite waarin u eerder het segment hebt gemaakt waarmee u het segment wilt delen [!DNL Audience Manager] . U zult het segment/het publiek zien u creeerde. Wanneer u een segment deelt, gebeuren er twee dingen in [!DNL Audience Manager]:
-   * Er wordt een doel gemaakt, eerst zonder gegevens erin. Ongeveer. 8 uur nadat het segment is gepubliceerd in [!DNL Analytics] , wordt de lijst met ECID&#39;s genegeerd en gedeeld met [!DNL Audience Manager] en andere oplossingen voor Experiencen Cloud.
+   * Er wordt een doel gemaakt, eerst zonder gegevens erin. Ongeveer. 8 uur nadat het segment is gepubliceerd in [!DNL Analytics] , wordt de lijst met ECID&#39;s genegeerd en gedeeld met [!DNL Audience Manager] en andere Experience Cloud-oplossingen.
 
      ![ de managersporen van het Publiek ](assets/aam-traits.png)
 
