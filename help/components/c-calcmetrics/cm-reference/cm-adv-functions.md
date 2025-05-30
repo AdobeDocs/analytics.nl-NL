@@ -21,7 +21,7 @@ Heb toegang tot deze functies door **[!UICONTROL Show all]** te selecteren onder
 
 Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
 
-Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE  Lijst ]{type="Neutral"} of [!BADGE  Rij ]{type="Neutral"}
+Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} of [!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 ## Wat betekent de parameter include-zeros?
 
@@ -93,7 +93,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"} keert de arccosinus, of omgekeerd van de cosinus, van metrisch terug. De arccosinus is de hoek waarvan de cosinus getal is. De geretourneerde hoek wordt opgegeven in radialen tussen 0 (nul) en pi. Als u het resultaat wilt omzetten van radialen in graden, vermenigvuldigt u het met 180/PI().
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de arccosinus, of omgekeerd van de cosinus, van metrisch terug. De arccosinus is de hoek waarvan de cosinus getal is. De geretourneerde hoek wordt opgegeven in radialen tussen 0 (nul) en pi. Als u het resultaat wilt omzetten van radialen in graden, vermenigvuldigt u het met 180/PI().
 
 
 | Argument | Beschrijving |
@@ -116,7 +116,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"} keert de arcsinus, of omgekeerde sinus, van een aantal terug. De arcsinus is de hoek waarvan de sinus een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Om de arcsinus in graden uit te drukken, vermenigvuldig het resultaat met 180/PI().
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de arcsinus, of omgekeerde sinus, van een aantal terug. De arcsinus is de hoek waarvan de sinus een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Om de arcsinus in graden uit te drukken, vermenigvuldig het resultaat met 180/PI().
 
 
 | Argument | Beschrijving |
@@ -139,7 +139,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"} keert de arctangent, of omgekeerde raaklijn, van een aantal terug. De arctangens is de hoek waarvan de tangens een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arctangens in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI().
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de arctangent, of omgekeerde raaklijn, van een aantal terug. De arctangens is de hoek waarvan de tangens een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arctangens in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI().
 
 
 | Argument | Beschrijving |
@@ -221,7 +221,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"} keert het kleinste geheel niet minder dan een bepaalde waarde terug. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule CEILING(Revenue) om inkomsten naar de dichtstbijzijnde dollar te afronden, of $570.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert het kleinste geheel niet minder dan een bepaalde waarde terug. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule CEILING(Revenue) om inkomsten naar de dichtstbijzijnde dollar te afronden, of $570.
 
 | Argument | Beschrijving |
 |---|---|
@@ -315,7 +315,7 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"} keert de cosinus van de bepaalde hoek terug. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de cosinus van de bepaalde hoek terug. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
 
 | Argument | Beschrijving |
 |---|---|
@@ -440,7 +440,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"} Exponentiële regressie: Y = a exp (X) + b. Keert de correlatiecoëfficiënt terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Exponentiële regressie: Y = a exp (X) + b. Keert de correlatiecoëfficiënt terug.
 
 
 | Argument | Beschrijving |
@@ -463,7 +463,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Rij ]{type="Neutral"} Exponentiële regressie: Y = a exp (X) + b. Keert Y terug.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} Exponentiële regressie: Y = a exp (X) + b. Keert Y terug.
 
 
 | Argument | Beschrijving |
@@ -487,7 +487,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"} Exponentiële regressie: Y = a exp (X) + b. Keert b terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Exponentiële regressie: Y = a exp (X) + b. Keert b terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -510,7 +510,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"} Exponentiële regressie: Y = a exp (X) + b. Keert a terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Exponentiële regressie: Y = a exp (X) + b. Keert a terug.
 
 
 | Argument | Beschrijving |
@@ -533,7 +533,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"} keert het grootste geheel niet groter dan een bepaalde waarde terug. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule FLOOR(Revenue) om inkomsten naar de dichtstbijzijnde dollar te retourneren, oftewel $569.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert het grootste geheel niet groter dan een bepaalde waarde terug. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule FLOOR(Revenue) om inkomsten naar de dichtstbijzijnde dollar te retourneren, oftewel $569.
 
 | Argument | Beschrijving |
 |---|---|
@@ -605,7 +605,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"} keert de hyperbolische cosinus van een aantal terug.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de hyperbolische cosinus van een aantal terug.
 
 
 | Argument | Beschrijving |
@@ -627,7 +627,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"} keert de hyperbolische sinus van een aantal terug.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de hyperbolische sinus van een aantal terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -647,7 +647,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"} keert de hyperbolische tangens van een aantal terug.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de hyperbolische tangens van een aantal terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -668,7 +668,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
-[!BADGE  Rij ]{type="Neutral"} als de waarde van de voorwaardenparameter niet-nul (waar) is, is het resultaat de waarde van de parameter value_if_true. Anders is het de waarde van de parameter value_if_false.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} als de waarde van de voorwaardenparameter niet-nul (waar) is, is het resultaat de waarde van de parameter value_if_true. Anders is het de waarde van de parameter value_if_false.
 
 
 | Argument | Beschrijving |
@@ -762,7 +762,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert de correlatiecoëfficiënt terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert de correlatiecoëfficiënt terug.
 
 
 | Argument | Beschrijving |
@@ -787,7 +787,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert b terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert b terug.
 
 
 | Argument | Beschrijving |
@@ -812,7 +812,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Rij ]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert Y terug.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert Y terug.
 
 
 | Argument | Beschrijving |
@@ -836,7 +836,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert a terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert a terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -859,7 +859,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"} keert logaritme basis-10 van een aantal terug.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert logaritme basis-10 van een aantal terug.
 
 
 | Argument | Beschrijving |
@@ -880,7 +880,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert de correlatiecoëfficiënt terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert de correlatiecoëfficiënt terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -902,7 +902,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert b terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert b terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -925,7 +925,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert Y terug.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert Y terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -948,7 +948,7 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert a terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert a terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1041,7 +1041,7 @@ Niet gelijk. De uitvoer is 0 (false) of 1 (true).
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-]{type="Neutral"} Bevestiging van de Rij [!BADGE . Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true).
+&rbrack;{type="Neutral"} Bevestiging van de Rij . Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true).
 
 
 | Argument | Beschrijving |
@@ -1083,7 +1083,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert de correlatiecoëfficiënt terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert de correlatiecoëfficiënt terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1107,7 +1107,7 @@ Retourneert Pi: 3,14159...
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE  Lijst ]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert b terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert b terug.
 
 
 | Argument | Beschrijving |
@@ -1130,7 +1130,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert Y terug.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert Y terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1153,7 +1153,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert a terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert a terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1176,7 +1176,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert de correlatiecoëfficiënt terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert de correlatiecoëfficiënt terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1197,7 +1197,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert a terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert a terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1219,7 +1219,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert Y terug.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert Y terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1241,7 +1241,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, Keert b terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, Keert b terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1264,7 +1264,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert de correlatiecoëfficiënt.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert de correlatiecoëfficiënt.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1286,7 +1286,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert een.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert een.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1308,7 +1308,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert Y.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert Y.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1330,7 +1330,7 @@ Retourneert Pi: 3,14159...
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert b.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert b.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1355,7 +1355,7 @@ Retourneert Pi: 3,14159...
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
 
-[!BADGE  Rij ]{type="Neutral"} keert de sinus van de bepaalde hoek terug. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de sinus van de bepaalde hoek terug. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
 
 
 | Argument | Beschrijving |
@@ -1467,7 +1467,7 @@ Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenig
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"} De afwijking van het gemiddelde dat door de standaardafwijking wordt verdeeld.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} De afwijking van het gemiddelde dat door de standaardafwijking wordt verdeeld.
 
 | Argument | Beschrijving |
 |---|---|
