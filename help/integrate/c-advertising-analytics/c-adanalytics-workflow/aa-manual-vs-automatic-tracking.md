@@ -98,7 +98,7 @@ De tekenreeks die aan uw Microsoft Advertising-account moet worden toegevoegd, w
 
 >[!IMPORTANT]
 >
->De _`<Advertising Analytics ID>`_waarde (in **gewaagd**hieronder) is generiek en **moet met uw specifiek koord van identiteitskaart van de rekening**worden vervangen. U kunt de id-tekenreeks van uw specifieke account ophalen vanuit het accountscherm onder de sectie &#39;Bijhouden&#39;.
+>De _`<Advertising Analytics ID>`_waarde (in **gewaagd**&#x200B;hieronder) is generiek en **moet met uw specifiek koord van identiteitskaart van de rekening**&#x200B;worden vervangen. U kunt de id-tekenreeks van uw specifieke account ophalen vanuit het accountscherm onder de sectie &#39;Bijhouden&#39;.
 
 **het Volgen Koord voor Campagnes:**
 
