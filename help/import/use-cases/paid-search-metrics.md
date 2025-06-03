@@ -1,9 +1,9 @@
 ---
 title: Betaalde zoekgegevens importeren
-description: Stappen om Adobe Analytics te configureren voor het bijhouden van uw betaalde zoekgegevens (bijvoorbeeld Google AdWords, MSN, Yahoo, enz.) gegevensbronnen gebruiken.
+description: Stappen om Adobe Analytics te configureren voor het bijhouden van uw betaalde zoekgegevens (bijvoorbeeld Google Ads, Microsoft Advertising, enz.) met behulp van gegevensbronnen.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # [!UICONTROL Paid Search] metriek importeren met [!UICONTROL Data Sources]
 
-Voor veel marketingorganisaties is betaalde zoekopdrachten een van de meest waardevolle en betrouwbare manieren &#x200B; nieuwe klanten te bereiken en bestaande klanten te behouden. Met de [!UICONTROL Data Sources] -functie in Adobe Analytics kunt u eenvoudig geavanceerde, betaalde zoekgegevens importeren van digitale advertentieplatforms zoals Google AdWords. U kunt het met de rest van uw marketing gegevens, naast het gedrag en de gegevens van de klantenattributen ter plaatse integreren, om u betere inzichten in de betaalde onderzoeksinspanningen van uw organisatie toe te staan.
+Voor veel marketingorganisaties is betaalde zoekopdrachten een van de meest waardevolle en betrouwbare manieren &#x200B; nieuwe klanten te bereiken en bestaande klanten te behouden. Met de [!UICONTROL Data Sources] -functie in Adobe Analytics kunt u eenvoudig geavanceerde, betaalde zoekgegevens importeren van digitale advertentieplatforms zoals Google Ads. U kunt het met de rest van uw marketing gegevens, naast het gedrag en de gegevens van de klantenattributen ter plaatse integreren, om u betere inzichten in de betaalde onderzoeksinspanningen van uw organisatie toe te staan.
 
-Deze stappen tonen u hoe te om een integratie met AdWords te vormen om sleutelwoordgegevens evenals metriek zoals impressies, kliks, kosten per klik, en meer in te voeren.
+Deze stappen tonen u hoe te om een integratie met Ads te vormen om sleutelwoordgegevens evenals metriek zoals indrukken, kliks, kosten per klik, en meer in te voeren.
 
 In de stappen wordt uitgelegd hoe u een eenmalige import van gegevens met een pay-per-click instelt. In [!UICONTROL Data Sources] kunt u echter gegevens blijven importeren in de bestandsindeling die hier wordt beschreven. Afhankelijk van uw betaalde zoekplatform kunt u mogelijk periodieke exportbewerkingen (dagelijks, maandelijks, enz.) plannen, geautomatiseerde processen instellen om deze exportbewerkingen om te zetten in de bestandsindeling die Adobe Analytics nodig heeft, en deze bestanden uploaden naar Adobe Analytics voor de rapportage van betaalde zoekintegratie.
 
@@ -72,7 +72,7 @@ In [!UICONTROL Data Source Activation Wizard] wordt het volgende weergegeven:
 
 1. Gegevensafmetingen kiezen
 Schakel het vakje naast Bijkomende codes in en klik op **[!UICONTROL Next]** .
-1. Dimensionen met kaartgegevens.
+1. Afmetingen van kaartgegevens.
 Wijs de geïmporteerde gegevensdimensie (kenmerk) toe aan het Adobe Analytics-kenmerk waarin u het wilt opslaan. Dit kan een standaardafmeting of een eVar zijn. Nadat u op **[!UICONTROL Next]** hebt geklikt, worden de resulterende toewijzingen weergegeven in het overzicht:
 
    ![ Samenvatting ](assets/data-source-summary.png)
@@ -85,7 +85,7 @@ Het bestand is al gevuld met de meetwaarden en afmetingen en de bijbehorende toe
 
 ## PPC-gegevens exporteren en uploaden naar Analytics
 
-Stappen gelijkend op dit werk voor Google Adwords, MSN, Yahoo, en andere rekeningen PPC.
+Stappen die vergelijkbaar zijn met deze bewerkingen voor Google Ads, Microsoft Advertising en andere PPC-accounts.
 
 ### Gegevens exporteren
 
@@ -118,7 +118,7 @@ Ga terug naar de wizard Data Source voor instructies en upload het bestand via F
 
 Het toevoegen van berekende metriek zal nuttig zijn wanneer het maken van loon-per-klikbesluiten.
 
-Bijvoorbeeld, kon u deze [ berekende metriek ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=nl-NL#calculated-metrics) toevoegen:
+Bijvoorbeeld, kon u deze [ berekende metriek ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics) toevoegen:
 
 | Naam | Formule | Metrisch type | Beschrijving |
 | --- | --- | --- | --- |

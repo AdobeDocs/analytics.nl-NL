@@ -3,9 +3,9 @@ description: Gegevens over de Analysis Workspace-template en rapportage in Repor
 title: Verslag over reclamegegevens in Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ Dit artikel bevat nadere informatie over het Analysis Workspace-rapport en de ra
 
 >[!NOTE]
 >
->U moet ten minste 24 uur wachten voordat de gegevens van het zoekprogramma worden ingevuld in de analyserapporten. De analytische rapportage retourneert geen gegevens voor korreligheid per uur, omdat de Advertising Cloud-gegevens geen ondersteuning bieden voor korreligheid per uur.
+>U moet ten minste 24 uur wachten voordat de gegevens van het zoekprogramma worden ingevuld in de analyserapporten. Bij analyserapportage worden geen gegevens voor korreligheid per uur geretourneerd, omdat de gegevens in de Advertising Cloud geen ondersteuning bieden voor korreligheid per uur.
 
 ## Betaald zoekrapport {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
@@ -24,14 +24,14 @@ Met dit rapport kan iedereen die de integratie met zoekprogramma&#39;s implement
 
 >[!NOTE]
 >
->Alle klanten kunnen het rapport met betaalde zoekopdrachten zien, zelfs als u nog geen advertentieaccounts hebt geïmplementeerd. Als u probeert om het Betaalde onderzoeksrapport voor een bedrijf te openen dat niet provisioned is, zal een foutenmelding verklaren dat u geen rekening van de onderzoeksmotor hebt gevormd. Selecteren **[!UICONTROL Configure Now]**, die u naar de [Account instellen voor adverteren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) scherm.
+>Alle klanten kunnen het rapport met betaalde zoekopdrachten zien, zelfs als u geen Advertising-accounts hebt geïmplementeerd. Als u probeert om het Betaalde onderzoeksrapport voor een bedrijf te openen dat niet provisioned is, zal een foutenmelding verklaren dat u geen rekening van de onderzoeksmotor hebt gevormd. Selecteer **[!UICONTROL Configure Now]**, die u aan het [ scherm van de Opstelling van de Rekening van Advertising ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) neemt.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
 | Tabel/Visualisatie | Beschrijving |
 |--- |--- |
-| Reclametrends | Dagelijks trended-overzicht voor AMO-indrukkingen, AMO-klikken en AMO-kosten. |
-| Ad-platforms | Donut-grafiek voor kosten van top 2 platforms (Google, Bing). |
+| Advertising Trends | Dagelijks trended-overzicht voor AMO-indrukkingen, AMO-klikken en AMO-kosten. |
+| Ad-platforms | Donut-kaart voor de kosten van top 2 platforms (Google Ads, Microsoft Advertising). |
 | Platformtotalen toevoegen | De tabel met vrije vormen van de topplatforms, uitgesplitst naar AMO-indrukkingen, AMO-klikken, AMO-kosten, AMO Avg. Positie, AMO Avg. kwaliteitsscore. |
 | Accounts | Gestapeld kostengebied. |
 | Accountotalen | De lijst van de Freeform van de hoogste rekeningen die door de bijbehorende metriek worden uitgesplitst. |

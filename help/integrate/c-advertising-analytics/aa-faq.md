@@ -3,7 +3,7 @@ description: Veelgestelde vragen over Advertising Analytics.
 title: Veelgestelde vragen voor reclameanalyses
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ## Toegang/rechten {#access}
 
-+++ Moet ik Adobe Advertising Cloud of Adobe Advertising Cloud (AMO) klant zijn om toegang te krijgen tot deze functionaliteit?
++++ Moet ik een klant van Adobe Advertising Cloud of Adobe Advertising Cloud (AMO) zijn om toegang te krijgen tot deze functionaliteit?
 
-Nee, deze functionaliteit is beschikbaar voor niet-Advertising Cloud- en niet-AMO-klanten.
+Nee, deze functionaliteit is beschikbaar voor klanten die geen advertenties in de cloud of in een andere omgeving aanbieden.
 
 AMO-klanten kunnen gebruikmaken van de bestaande integratie tussen Analytics en AMO; ze kunnen Ad Analytics niet gebruiken.
 
@@ -26,11 +26,11 @@ AMO-klanten kunnen gebruikmaken van de bestaande integratie tussen Analytics en 
 
 Advertising Analytics is beschikbaar voor Adobe Analytics
 
-* [Selecteren](https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html)
+* [ Uitgezocht ](https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html)
 
-* [Eerste](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html)
+* [ Prime ](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html)
 
-* [Ultieme](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html)
+* [ Ultimate ](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html)
 
 +++
 
@@ -46,9 +46,9 @@ Nee, Advertising Analytics gebruikt een speciaal gegevensbrontype dat geen koste
 
 +++
 
-+++ Als ik Advertising Cloud/AMO al gebruik, kan ik dan nog steeds de Advertising Analytics-functionaliteit gebruiken?
++++ Als ik al gebruik van Advertising Cloud/AMO, kan ik dan nog steeds de Advertising Analytics-functionaliteit gebruiken?
 
-Elk compatibel account voor zoekmachines wordt doorgegeven aan Advertising Analytics en wordt weergegeven als alleen-lezen. Alle bewerkingen of updates moeten worden verwerkt in Advertising Cloud/AMO.
+Elk compatibel account voor zoekmachines wordt doorgegeven aan Advertising Analytics en wordt weergegeven als alleen-lezen. Alle bewerkingen of updates moeten worden verwerkt in de cloud/AMO voor advertenties.
 
 +++
 
@@ -62,19 +62,19 @@ Advertising Analytics is alleen beschikbaar voor Adobe Analytics-beheerders; beh
 
 +++ Welke rekeningen van zoekprogramma&#39;s zijn opgenomen in Advertising Analytics?
 
-Motoraccounts bevatten Google AdWords en Microsoft Bing.
+Motoraccounts zijn onder andere Google Ads en Microsoft Advertising.
 
 +++
 
 +++ Waar ga ik naar Advertising Analytics?
 
-Na het aanmelden bij Adobe Analytics navigeert u naar de [!UICONTROL Admin]. Selecteer vervolgens [!UICONTROL Advertising Analytics] om je zoekprogrammaaccounts toe te voegen.
+Nadat u zich hebt aangemeld bij Adobe Analytics, navigeert u naar de map [!UICONTROL Admin] . Selecteer vervolgens [!UICONTROL Advertising Analytics] om uw zoekprogrammaaccounts toe te voegen.
 
 +++
 
 +++ Hoe worden de gegevens verzameld en doorgegeven aan Analytics?
 
-Advertising Analytics gebruikt een reeks aangepaste API&#39;s om gegevens van zoekmachines via de Adobe Advertising Cloud door te geven aan Analytics.
+Advertising Analytics gebruikt een aantal aangepaste API&#39;s om gegevens van zoekprogramma&#39;s via de Adobe Advertising Cloud door te geven aan Analytics.
 
 +++
 
@@ -98,15 +98,15 @@ Nee, de onbewerkte zoekgegevens worden opgenomen als een onafhankelijke gegevens
 +++ Wat is de definitie van de verschillende statusindicatoren voor mijn accounts (in behandeling, actief, gepauzeerd, enz.)? Elk van deze statusindicatoren identificeert de levenscyclusfase van elk onderzoek motorrekening.
 
 * [!UICONTROL Pending]
-* [!UICONTROL Paused] betekent dat de rekening eerder is ingesteld, maar niet is geactiveerd.
-* [!UICONTROL Active] betekent dat de rekening volledig is opgezet en aan zoekgegevens voldoet.
+* [!UICONTROL Paused] betekent dat de account eerder is ingesteld, maar dat deze niet actief is.
+* [!UICONTROL Active] betekent dat de account volledig is ingesteld en zoekgegevens aantrekt.
 
 +++
 
 +++ Ik probeer mijn Advertising Analytics-accounts toe te wijzen aan een specifieke rapportsuite, maar deze is niet beschikbaar in het modaal rapportenpakket. Waarom?
 
-Voordat u een rapportsuite aan een Advertising Analytics-account kunt toewijzen, moet de gewenste rapportsuite [voorzien voor Advertising Analytics-rapportage](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
-Dit gebeurt via een aparte beheerpagina die u kunt vinden op: Beheer > Rapportageopties > `[select report suite]` > Instellingen bewerken > Advertising Analytics-configuratie.
+Alvorens u een rapportreeks aan een rekening van Advertising Analytics kunt toewijzen, moet de gewenste rapportreeks [ worden voorzien voor Advertising Analytics die ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) rapporteert
+Dit gebeurt via een aparte beheerpagina die u kunt vinden op: Beheer > Rapportagesuites > `[select report suite]` > Instellingen bewerken > Advertising Analytics-configuratie.
 
 +++
 
@@ -116,7 +116,7 @@ Met virtuele rapportsets worden geen gegevens verzameld, zodat u een Advertising
 
 +++
 
-+++ Zijn Advertising Analytics-meetgegevens die in de *Marketingkanalen* rapporteren?
++++ Zijn de metriek van Advertising Analytics rapporteerbaar in het *Marketing Kanalen* rapport?
 
 Nr, zijn zij niet inbegrepen in het rapport van de Kanalen van de Marketing.
 
@@ -128,7 +128,7 @@ De zoekgegevens worden uit de zoekmachines gehaald rond 6AM (06:00) in de tijdzo
 
 +++
 
-+++ Wat kan er gebeuren? *vastgelegd voor klik*? Zien we indrukken, kosten, gemiddelde positie, enzovoort? zelfs zonder klik ?
++++ Wat kan *worden gevangen vóór de klik*? Zien we indrukken, kosten, gemiddelde positie, enzovoort? zelfs zonder klik ?
 
 De AMO-id legt de maatstaven van de zoekmachine vast: Impressies, Kosten, Klikken, Gemiddelde positie en Gemiddelde kwaliteitsscore. Als er geen kliks zijn, maar er indrukken zijn, dan zullen de beeld/positie/kwaliteitsscore gegevens nog naar Analytics worden verzonden. Doorgaans zijn er ook geen kosten verbonden als er niet wordt geklikt.
 
@@ -138,11 +138,11 @@ De AMO-id legt de maatstaven van de zoekmachine vast: Impressies, Kosten, Klikke
 
 De metriek van de motor van het Onderzoek wordt gevangen op het raakniveau en met AMO identiteitskaart (en zijn classificaties) verbonden. Dit zijn gegevens op overzichtsniveau die geen verband houden met bezoeken/bezoekers. Als zodanig kunnen de metriek van de zoekmachine slechts in segmenten worden gebruikt die bereik op raakniveau zijn en op AMO-id (of zijn classificaties) gebaseerd zijn.
 
-De AMO-id wordt ook vastgelegd op de bestemmingspagina in de hit voor die pagina (die de id verbindt met het bezoek/de bezoeker) en zal verderop in de stroom blijven staan om krediet te krijgen voor andere analytische gegevens (totdat deze verlopen of door een nieuwe AMO-id wordt overschreven). Net als elke andere eVar wordt het volledig in de gegevensset opgenomen.
+De AMO-id wordt ook vastgelegd op de bestemmingspagina in de hit voor die pagina (die de id verbindt met het bezoek/de bezoeker) en zal verderop in de stroom blijven staan om krediet te krijgen voor andere analytische gegevens (totdat deze verlopen of door een nieuwe AMO-id wordt overschreven). Net als alle andere eVar is het volledig in de gegevensset opgenomen.
 
 +++
 
-+++ Wordt alleen google.com vastgelegd of *landversies* (zoals google.co.uk, google.it, google.fr, of google.de) eveneens?
++++ Vanggen wij slechts google.com of *landversies* (als google.co.uk, google.it, google.fr, of google.de) eveneens?
 
 De classificatie van het Platform van de Advertentie vangt deze waarden: &quot;Adwords van Google&quot;, en &quot;Bing Adds&quot;. De beste praktijk is om de landcode op te nemen in de naamgeving van campagnes. Vervolgens kunt u naar beneden of naar een segment filteren (bijvoorbeeld als alle campagnes beginnen met landcode_ en u vervolgens een segment maakt waarin Campagnes (AMO ID) beginnen met &quot;UK_&quot;, zodat u alleen gegevens voor het Verenigd Koninkrijk krijgt).
 
@@ -154,7 +154,7 @@ De classificatie van het Platform van de Advertentie vangt deze waarden: &quot;A
 
 +++
 
-+++ Zijn er plannen om andere reclamekanalen op te nemen, zoals *Weergave* of *Sociaal*?
++++ Zijn er plannen om andere reclame kanalen zoals *Vertoning* of *Sociale* te omvatten?
 
 Nee, op dit moment hebben we geen plannen voor deze andere kanalen op de routekaart.
 
@@ -163,7 +163,7 @@ Nee, op dit moment hebben we geen plannen voor deze andere kanalen op de routeka
 
 ## Automatisch versus handmatig bijhouden {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Bij het instellen van mijn advertentieaccount staat het volgende: *Automatisch bijhouden* kan leiden tot onbedoelde gevolgen. Welke gevolgen kunnen zich voordoen?
++++ Wanneer vestiging mijn rekening van Advertising, verklaart het dat *Auto het Volgen* tot onbedoelde gevolgen kan leiden. Welke gevolgen kunnen zich voordoen?
 
 In de modus Automatisch wordt geprobeerd URL-parameters toe te voegen aan het einde van de volgende sjablonen/doel-URL&#39;s in de juiste indeling. Het is echter uw verantwoordelijkheid om ervoor te zorgen dat de toegevoegde URL-parameters correct blijven op de laatste bestemmingspagina. In de modus Automatisch kunnen sleutelwoorden worden ingevoegd in de bestemmings-URL en het is mogelijk dat uw webserver geen trefwoorden met speciale tekens ondersteunt.
 

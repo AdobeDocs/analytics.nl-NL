@@ -3,9 +3,9 @@ description: Het type bijhouden bepaalt hoe de Adobe Analytics-implementatie de 
 title: Type track
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -22,22 +22,22 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 -->
 
-Twee traceringsmodi worden ondersteund: [!UICONTROL Auto] en [!UICONTROL Manual].
+Er worden twee traceringsmodi ondersteund: [!UICONTROL Auto] en [!UICONTROL Manual] .
 
 ## [!UICONTROL Auto] Tekstspatiëring {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL Auto] Door het bijhouden van tags kan de Advertising Cloud-engine bepalen hoe de gegevens van de zoekmachine moeten worden verwerkt. Auto het volgen is de eenvoudigere benadering, maar kan niet in de beste geïntegreerde dataset resulteren.
+Met [!UICONTROL Auto] tracking kan de Advertising Cloud-engine bepalen hoe de gegevens van de zoekmachine moeten worden verwerkt. Auto het volgen is de eenvoudigere benadering, maar kan niet in de beste geïntegreerde dataset resulteren.
 
-Dientengevolge moet u een bevestigingscheckbox controleren wanneer u selecteert **[!UICONTROL Auto]** voordat u de accountinstelling kunt opslaan.
+Daarom moet u een selectievakje voor bevestiging inschakelen wanneer u **[!UICONTROL Auto]** selecteert voordat u de accountinstelling kunt opslaan.
 
-Merk op dat om een rekening van de onderzoeksmotor met te vormen **[!UICONTROL Auto]** typt, bent u verantwoordelijk voor het nemen van de volgende acties:
+Als u een zoekprogrammaaccount met **[!UICONTROL Auto]** type wilt configureren, bent u verantwoordelijk voor het uitvoeren van de volgende handelingen:
 
-* De `s_kwcid` parameter en waarde worden toegevoegd aan de sjablonen voor het bijhouden van accounts of de bestemmingspagina-URL&#39;s in de account die wordt toegevoegd. Deze parameter en waarde worden ingevoegd aan het einde van de URL. Mogelijk is aanvullende actie van uw kant vereist als uw webserver een bepaalde `key=value` paar aan het einde van de URL. Of een update ter ondersteuning van nieuwe `key=value` paar in URL. Het is uw verantwoordelijkheid om ervoor te zorgen dat de toegevoegde URL-parameters correct blijven op de laatste bestemmingspagina.
-* Daarnaast kunnen trefwoorden in de bestemmings-URL worden ingevoegd als onderdeel van de `s_kwcid` waarde. Bevestig dat uw webserver deze tekens kan ondersteunen als deze speciale tekens of symbolen bevatten. Een gemeenschappelijk speciaal teken is bijvoorbeeld `+`, die wordt gebruikt in de trefwoorden &#39;Uitgebreide overeenkomst gewijzigd&#39;.
+* De parameter `s_kwcid` en de waarde worden toegevoegd aan de sjablonen voor het bijhouden van accounts of de bestemmingspagina-URL&#39;s in de account die wordt toegevoegd. Deze parameter en waarde worden ingevoegd aan het einde van de URL. Mogelijk is aanvullende actie van uw kant vereist als uw webserver aan het einde van de URL een bepaald `key=value` paar nodig heeft. Of een update ter ondersteuning van een nieuw `key=value` -paar in de URL. Het is uw verantwoordelijkheid om ervoor te zorgen dat de toegevoegde URL-parameters correct blijven op de laatste bestemmingspagina.
+* Daarnaast kunnen trefwoorden in de bestemmings-URL worden ingevoegd als onderdeel van de waarde `s_kwcid` . Bevestig dat uw webserver deze tekens kan ondersteunen als deze speciale tekens of symbolen bevatten. Een veel voorkomend speciaal teken is bijvoorbeeld `+` , dat wordt gebruikt in de trefwoorden &#39;Grote overeenkomst gewijzigd&#39;.
 
 >[!IMPORTANT]
 >
->Meer informatie over het toevoegen van de `s_kwcid` parameter aan uw [Beveiligingsbeleid voor inhoud](https://experienceleague.adobe.com/nl/docs/id-service/using/reference/csp).
+>Leer meer op of u de `s_kwcid` parameter aan uw [ Beleid van de Veiligheid van de Inhoud ](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp) zou moeten toevoegen.
 
 ## Handmatig bijhouden {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -49,16 +49,16 @@ De tekenreeks die aan je Google-account moet worden toegevoegd, wordt hieronder 
 
 >[!IMPORTANT]
 >
->De *`<Advertising Analytics ID>`* waarde (in **vet** is algemeen en **moet worden vervangen door de id-tekenreeks van uw specifieke account**. U kunt de id-tekenreeks van uw specifieke account ophalen vanuit het accountscherm onder de [!UICONTROL Tracking] sectie.
+>De *`<Advertising Analytics ID>`* waarde (in **gewaagd** hieronder) is generiek en **moet met uw specifiek koord van identiteitskaart van de rekening** worden vervangen. U kunt de id-tekenreeks van uw specifieke account ophalen vanuit het accountscherm onder de sectie [!UICONTROL Tracking] .
 
-**Tekenreeks voor campagnes:**
+**het Volgen Koord voor Campagnes:**
 
 ```
 s_kwcid=AL! 
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![ Google ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
 
 Voorbeelden van volgcodes in verschillende sjabloonindelingen voor reeksspatiëring:
 
@@ -74,13 +74,13 @@ Voorbeelden van volgcodes in verschillende sjabloonindelingen voor reeksspatiër
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**Andere leverancier (DoubleClick)`{unescapedlpurl}`**
+**derden (DoubleClick)`{unescapedlpurl}`**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-**Andere leverancier (DoubleClick)`{lpurl}`**
+**derden (DoubleClick)`{lpurl}`**
 
 Om ervoor te zorgen dat de tekenreeks doorloopt naar de URL van de laatste bestemmingspagina, moet u de tekenreeks voldoende coderen:
 
@@ -92,21 +92,21 @@ Om ervoor te zorgen dat de tekenreeks doorloopt naar de URL van de laatste beste
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### Handmatige tracering toevoegen aan bankaccount {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### Handmatige tracering toevoegen aan Microsoft Advertising-account {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-De tekenreeks die aan uw Bing-account moet worden toegevoegd, wordt hieronder weergegeven. U moet de tekenreeks toevoegen aan alle laatste URL-achtervoegsels die in uw account worden gebruikt.
+De tekenreeks die aan uw Microsoft Advertising-account moet worden toegevoegd, wordt hieronder weergegeven. U moet de tekenreeks toevoegen aan alle laatste URL-achtervoegsels die in uw account worden gebruikt.
 
 >[!IMPORTANT]
 >
->De _`<Advertising Analytics ID>`_waarde (in **vet**&#x200B;is algemeen en **moet worden vervangen door de id-tekenreeks van uw specifieke account**. U kunt de id-tekenreeks van uw specifieke account ophalen vanuit het accountscherm onder de sectie &#39;Bijhouden&#39;.
+>De _`<Advertising Analytics ID>`_waarde (in **gewaagd**hieronder) is generiek en **moet met uw specifiek koord van identiteitskaart van de rekening**worden vervangen. U kunt de id-tekenreeks van uw specifieke account ophalen vanuit het accountscherm onder de sectie &#39;Bijhouden&#39;.
 
-**Tekenreeks voor campagnes:**
+**het Volgen Koord voor Campagnes:**
 
 ```
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![ voeg het volgen codeparameters ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png) toe
 
 Voorbeelden van volgcodes in verschillende uiteindelijke indelingen voor URL-achtervoegsels:
 
@@ -123,13 +123,13 @@ Voorbeelden van volgcodes in verschillende uiteindelijke indelingen voor URL-ach
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**Andere leverancier (DoubleClick)`{unescapedlpurl}`**
+**derden (DoubleClick)`{unescapedlpurl}`**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**Andere leverancier (DoubleClick)`{lpurl}`**
+**derden (DoubleClick)`{lpurl}`**
 
 Om ervoor te zorgen dat de tekenreeks doorloopt naar de URL van de laatste bestemmingspagina, moet u de tekenreeks voldoende coderen:
 
