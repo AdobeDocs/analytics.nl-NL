@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
+source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
-source-wordcount: '3615'
+source-wordcount: '3632'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,12 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | --- | --- | --- |
 | **`accept_language`** | Hiermee worden alle geaccepteerde talen weergegeven, zoals wordt aangegeven in de HTTP-header Accept-Language in een afbeeldingsaanvraag. | teken(20) |
 | **`adload`** | Media en laden | varchar(255) |
-| **`aemassetid`** | Een variabele van meerdere waarden die aan Activa IDs (GUIDs) van een reeks Adobe Experience Manager Assets beantwoordt. Incrementele indrukgebeurtenissen. | Sms |
-| **`aemassetsource`** | Identificeert de bron van de activagebeurtenis. Gebruikt in Adobe Experience Manager. | varchar(255) |
+| **`aemassetid`** | Een variabele van meerdere waarden die aan Activa IDs (GUIDs) van een reeks Adobe Experience Manager Assets beantwoordt. Incrementele indrukgebeurtenissen. | text |
+| **`aemassetsource`** | Identificeert de bron van de gebeurtenis asset. Wordt gebruikt in Adobe Experience Manager. | varchar(255) |
 | **`aemclickedassetid`** | Element-id van een Adobe Experience Manager-element. De verhogingen klikken Gebeurtenissen. | varchar(255) |
-| **`browser`** | Een numerieke id die de browser vertegenwoordigt. Verwijst naar de `browser.tsv` opzoektabel. | Int niet ondertekend |
-| **`browser_height`** | De [dimensie Browserhoogte](/help/components/dimensions/browser-height.md) . | Smallint ongesigneerd |
-| **`browser_width`** | De breedte van de [browser](/help/components/dimensions/browser-width.md) | small int zonder teken |
+| **`browser`** | Een numerieke id die de browser vertegenwoordigt. Verwijst naar de opzoektabel van `browser.tsv` . | int zonder teken |
+| **`browser_height`** | De [ Browser Hoogte ](/help/components/dimensions/browser-height.md) afmeting. | small int zonder teken |
+| **`browser_width`** | De [ Browser Breedte ](/help/components/dimensions/browser-width.md) | small int zonder teken |
 | **`c_color`** | Bitdiepte van het kleurenpalet. Gebruikt als deel van het berekenen van de [ diepte van de Kleur ](/help/components/dimensions/color-depth.md) afmeting. AppMeasurement gebruikt de JavaScript-functie `screen.colorDepth()` . | teken(20) |
 | **`campaign`** | De [ het Volgen dimensie van de Code ](/help/components/dimensions/tracking-code.md). | varchar(255) |
 | **`carrier`** | Adobe Advertising-integratievariabele. Geeft de mobiele drager aan. De zeer belangrijke waarde voor `carrier.tsv` [ Dynamische raadpleging ](dynamic-lookups.md). | varchar(100) |
@@ -58,11 +58,12 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | **`curr_rate`** | De wisselkoers op het tijdstip van de transactie. Adobe werkt samen met XE om de wisselkoers van de huidige dag te bepalen. | decimaal (24,12) |
 | **`currency`** | De valutacode die tijdens de transactie werd gebruikt. Instellen met [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | teken(8) |
 | **`cust_hit_time_gmt`** | Alleen voor tijdstempels geschikte rapportsuites. De tijdstempel die met de hit wordt verzonden, gebaseerd in UNIX®-tijd. | int |
-| **`cust_visid`** | De aangepaste bezoeker-id, indien ingesteld met [`visitorID`](/help/implement/vars/config-vars/visitorid.md) . | Varchar(255) |
-| **`daily_visitor`** | Een vlag die bepaalt of de hit een nieuwe dagelijkse bezoeker is. | tinyint zonder teken |
-| **`dataprivacyconsentoptin`** | De [&#128279;](/help/components/dimensions/cm-opt-in.md) dimensie van het beheer van 0&rbrace; het beheer opt-in.  Er kunnen meerdere waarden aanwezig zijn per hit, gescheiden door een pipe (`\|`). Geldige waarden zijn `DMP` en `SELL` . | varchar(100) |
-| **`dataprivacyconsentoptout`** | De [&#128279;](/help/components/dimensions/cm-opt-out.md) dimensie van het 0&rbrace; beheer van de Toestemming.  Per treffer kunnen meerdere waarden aanwezig zijn, gescheiden door een pijp (`\|`). Geldige waarden zijn `SSF` , `DMP` en `SELL` . | varchar(100) |
-| **`dataprivacydmaconsent`** | Een waarde die aangeeft of er toestemming is verkregen voor het verzenden van gegevens van Adobe Analytics via Adobe Advertising naar externe advertentieproviders (zoals Google). Zie [Advertentietoestemming](/help/components/dimensions/ad-consent.md) voor meer informatie. | varchar(100) |
+| **`cust_visid`** | De aangepaste bezoeker-id, indien ingesteld met [`visitorID`](/help/implement/vars/config-vars/visitorid.md) . | varchar(255) |
+| **`customer_perspective`** | Hiermee wordt bepaald of de hit een mobiele achtergrondhit is. Zie [ context-bewuste zittingen ](/help/components/vrs/vrs-mobile-visit-processing.md) voor meer informatie. | tinyint zonder teken |
+| **`daily_visitor`** | Een vlag die bepaalt als de slag een nieuwe dagelijkse bezoeker is. | tinyint zonder teken |
+| **`dataprivacyconsentoptin`** | De ](/help/components/dimensions/cm-opt-in.md) dimensie van het beheer van 0} het beheer opt-in. [ Er kunnen meerdere waarden aanwezig zijn per hit, gescheiden door een pipe (`\|`). Geldige waarden zijn `DMP` en `SELL` . | varchar(100) |
+| **`dataprivacyconsentoptout`** | De ](/help/components/dimensions/cm-opt-out.md) dimensie van het 0} beheer van de Toestemming. [ Er kunnen meerdere waarden aanwezig zijn per hit, gescheiden door een pipe (`\|`). Geldige waarden zijn `SSF` , `DMP` en `SELL` . | varchar(100) |
+| **`dataprivacydmaconsent`** | Een waarde die aangeeft of er toestemming is verkregen voor het verzenden van gegevens van Adobe Analytics via Adobe Advertising naar derde reclamebureaus (zoals Google). Zie [ Toestemming toevoegen ](/help/components/dimensions/ad-consent.md) voor meer informatie. | varchar(100) |
 | **`date_time`** | De tijd van de treffer in leesbare formaat, die op de tijdzone van de rapportreeks wordt gebaseerd. | datetime |
 | **`domain`** | De [ dimensie van het Domein ](/help/components/dimensions/domain.md). Gebaseerd op het toegangspunt van Internet van de bezoeker. | varchar(100) |
 | **`duplicate_events`** | Vermeldt elke gebeurtenis die als een duplicaat is geteld. | varchar(255) |
@@ -73,17 +74,17 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | **`event_list`** | Lijst met door komma&#39;s gescheiden numerieke id&#39;s die gebeurtenissen vertegenwoordigen die tijdens de hit worden geactiveerd. Omvat zowel standaardgebeurtenissen als [ douanegebeurtenissen 1-1000 ](/help/components/metrics/custom-events.md). Gebruikt `event.tsv` lookup. | text |
 | **`exclude_hit`** | Een vlag die bepaalt of de treffer van rapportering wordt uitgesloten. De kolom `visit_num` wordt niet verhoogd voor uitgesloten treffers.<br> 1: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br> 2: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br> 3: niet meer gebruikt. De agentenuitsluiting van de gebruiker <br> 4: Uitsluiting die op IP adres <br> wordt gebaseerd 5: De virtuele klapinfo die, zoals `page_url`, `pagename`, `page_event`, of `event_list`<br> 6 ontbreekt: JavaScript verwerkte niet correct hit <br> 7: De rekening-specifieke uitsluiting, zoals in een VISTA regels <br> 8: Niet gebruikt. Alternatieve accountspecifieke uitsluiting.<br> 9: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br> 10: Ongeldige muntcode <br> 11: Hit die een timestamp op een timestamp-enige rapportreeks mist, of een klap bevatte een timestamp op een niet-timestamp rapportreeks <br> 12: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br> 13: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br> 14: Bezet van het doel die niet met een Beïnvloed Analytics <br> 15 aanpaste: Momenteel niet gebruikt.<br> 16: De klap van de Wolk van de Reclame die niet aan een Besloten Analytics aanpaste | tinyint zonder teken |
 | **`first_hit_page_url`** | De allereerste URL van de bezoeker. | varchar(255) |
-| **`first_hit_pagename`** | De [ originele 1&rbrace; afmeting van de ingangspagina van de Ingang. ](/help/components/dimensions/entry-dimensions.md) De oorspronkelijke naam van de ingangspagina van de bezoeker. | varchar(100) |
+| **`first_hit_pagename`** | De [ originele 1} afmeting van de ingangspagina van de Ingang. ](/help/components/dimensions/entry-dimensions.md) De oorspronkelijke naam van de ingangspagina van de bezoeker. | varchar(100) |
 | **`first_hit_ref_domain`** | De [ Originele verwijzende domein ](/help/components/dimensions/original-referring-domain.md) dimensie. Gebaseerd op `first_hit_referrer` . Het allereerste verwijzende domein van de bezoeker. | varchar(100) |
 | **`first_hit_ref_type`** | Een numerieke id die het referentietype van de allereerste referentie van de bezoeker vertegenwoordigt. Verwijst naar de opzoektabel van `referrer_type.tsv` . | tinyint zonder teken |
 | **`first_hit_referrer`** | De allereerste verwijzende URL van de bezoeker. | varchar(255) |
 | **`first_hit_time_gmt`** | Tijdstempel van de allereerste hit van de bezoeker in UNIX®-tijd. | int |
 | **`geo_city`** | De naam van de stad waar de hit vandaan kwam, op basis van IP. Gebruikt in de [ Steden ](/help/components/dimensions/cities.md) dimensie. | teken(32) |
 | **`geo_country`** | De afkorting van het land waar de treffer vandaan kwam, gebaseerd op IP. Gebruikt in de [ dimensie van Landen ](/help/components/dimensions/countries.md). | teken(4) |
-| **`geo_dma`** | Een numerieke id van het demografische gebied waar de hit vandaan kwam, gebaseerd op IP. Gebruikt in de [Amerikaanse DMA-dimensie](/help/components/dimensions/us-dma.md) . | Int niet ondertekend |
+| **`geo_dma`** | Een numerieke id van het demografische gebied waar de hit vandaan kwam, gebaseerd op IP. Gebruikt in de [ dimensie DMA ](/help/components/dimensions/us-dma.md) van de VS. | int zonder teken |
 | **`geo_region`** | De naam van de staat of regio waar de treffer vandaan kwam, gebaseerd op IP. Gebruikt in de [ Gebieden ](/help/components/dimensions/regions.md) dimensie. | teken(32) |
 | **`geo_zip`** | De postcode waaruit de hit afkomstig was, gebaseerd op IP. Helpt de [ dimensie van het Postcode ](/help/components/dimensions/zip-code.md) bevolken. Zie ook `zip` . | varchar(16) |
-| **`hit_source`** | De bron waar de hit vandaan kwam. De bronnen 1, 2 en 6 van de it worden gefactureerd. <br> 1: Standaard beeldverzoek zonder timestamp <br> 2: Standaard beeldverzoek met timestamp <br> 3: Levende gegevensbron uploadt met timestamps <br> 4: Niet gebruikt <br> 5: Generic gegevensbron uploadt <br> 6: Volledige het uploaden van de bron van verwerkingsgegevens <br> 7: TransactieID gegevensbron uploadt <br> 8: Niet meer gebruikt; Vorige versies van Adobe Adverting Cloud geen gegevensbronnen <br> 9&rbrace;: langer gebruikt; Adobe Sociale summiere metriek <br> 10: Audience Manager server-side het door:sturen gebruikt | tinyint zonder teken |
+| **`hit_source`** | De bron waar de hit vandaan kwam. De bronnen 1, 2 en 6 van de it worden gefactureerd. <br> 1: Standaard beeldverzoek zonder timestamp <br> 2: Standaard beeldverzoek met timestamp <br> 3: Levende gegevensbron uploadt met timestamps <br> 4: Niet gebruikt <br> 5: Generic gegevensbron uploadt <br> 6: Volledige het uploaden van de bron van verwerkingsgegevens <br> 7: TransactieID gegevensbron uploadt <br> 8: Niet meer gebruikt; Vorige versies van Adobe Adverting Cloud geen gegevensbronnen <br> 9}: langer gebruikt; Adobe Sociale summiere metriek <br> 10: Audience Manager server-side het door:sturen gebruikt | tinyint zonder teken |
 | **`hit_time_gmt`** | Het tijdstempel van de hit Adobe data collection servers heeft de hit ontvangen, gebaseerd op UNIX® time. | int |
 | **`hitid_high`** | Wordt gebruikt met `hitid_low` om een hit te identificeren. | bigint zonder teken |
 | **`hitid_low`** | Wordt gebruikt met `hitid_high` om een hit te identificeren. | bigint zonder teken |
@@ -95,7 +96,7 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | **`javascript`** | Een opzoekings-id van de JavaScript-versie, gebaseerd op `j_jscript` . Verwijst naar de opzoektabel van `javascript_version` . | tinyint zonder teken |
 | **`language`** | Een numerieke id die de taal van de bezoeker vertegenwoordigt. Verwijst naar de opzoektabel van `languages.tsv` . | small int zonder teken |
 | **`last_hit_time_gmt`** | Tijdstempel (in UNIX®-tijd) van de voorgaande hit. Hiermee wordt de [[!UICONTROL Days since last visit]](/help/components/dimensions/days-since-last-visit.md) -dimensie berekend. | int |
-| **`last_purchase_num`** | De [&#128279;](/help/components/dimensions/customer-loyalty.md) dimensie van de loyaliteit van 0&rbrace; Klant.  Het aantal eerdere aankopen dat de bezoeker heeft gedaan. <br> 0: Geen vroegere aankopen (niet een klant) <br> 1: 1 voorafgaande aankoop (nieuwe klant) <br> 2: 2 vroegere aankopen (terugkeerklant) <br> 3: 3 of meer vroegere aankopen (loyale klant) | int zonder teken |
+| **`last_purchase_num`** | De ](/help/components/dimensions/customer-loyalty.md) dimensie van de loyaliteit van 0} Klant. [ Het aantal eerdere aankopen dat de bezoeker heeft gedaan. <br> 0: Geen vroegere aankopen (niet een klant) <br> 1: 1 voorafgaande aankoop (nieuwe klant) <br> 2: 2 vroegere aankopen (terugkeerklant) <br> 3: 3 of meer vroegere aankopen (loyale klant) | int zonder teken |
 | **`last_purchase_time_gmt`** | Wordt gebruikt in de [[!UICONTROL Days since last purchase]](/help/components/dimensions/days-since-last-purchase.md) -dimensie. Tijdstempel (in UNIX®-tijd) van de laatste aanschaf. Voor eerste aankopen en bezoekers die nog niet eerder een aankoop hebben gedaan, is deze waarde `0` . | int |
 | **`latlon1`** | Locatie (tot 10 km) | varchar(255) |
 | **`latlon23`** | Locatie (tot 100 m) | varchar(255) |
@@ -125,8 +126,8 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | **`mobilehourofday`** | Definieert het uur van de dag waarop de app is gestart. Volg de numerieke notatie van 24 uur. | varchar(255) |
 | **`mobileinstalldate`** | Datum mobiele installatie. Vermeldt de datum van de eerste keer dat een gebruiker de mobiele app opent. | varchar(255) |
 | **`mobilelaunchnumber`** | Elke keer dat de mobiele app wordt gestart, neemt deze met één toe. | varchar(255) |
-| **`mobilemessagebuttonname`** | Verzameld uit de contextgegevensvariabele `a.message.button.id`. Wordt gebruikt voor in-app-berichten om de knop te identificeren waarmee het bericht is gesloten. | varchar(100) |
-| **`mobilemessageid`** | In-app bericht-ID | Varchar(255) |
+| **`mobilemessagebuttonname`** | Verzameld op basis van de variabele met contextgegevens `a.message.button.id` . Wordt gebruikt voor in-app berichten om de knop te identificeren waarmee het bericht is gesloten. | varchar(100) |
+| **`mobilemessageid`** | Berichtings-id in de app | varchar(255) |
 | **`mobilemessageonline`** | Bericht online in de app | varchar(255) |
 | **`mobilemessagepushoptin`** | Verzameld op basis van de variabele met contextgegevens `a.push.optin` . Stel dit in op &quot;true&quot; wanneer de gebruiker op Push Messaging klikt; anders is de waarde &quot;false&quot;. | varchar(255) |
 | **`mobilemessagepushpayloadid`** | Verzameld op basis van de variabele met contextgegevens `a.push.payloadid` . Gebruikt in duw overseinen als nuttige ladings herkenningsteken. | varchar(255) |
@@ -150,8 +151,8 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | **`page_event`** | Het type hit dat wordt verzonden in de aanvraag voor de afbeelding (standaardhit, downloadkoppeling, aangepaste koppeling, afsluitkoppeling). Zie [ de gebeurtenisraadpleging van de Pagina ](datafeeds-page-event.md). | tinyint zonder teken |
 | **`page_event_var1`** | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De URL van de downloadkoppeling, exit-koppeling of aangepaste koppeling waarop is geklikt. | text |
 | **`page_event_var2`** | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De aangepaste naam (indien opgegeven) van de koppeling. Plaatst de [ verbinding van de Douane ](/help/components/dimensions/custom-link.md), [ verbinding van de Download ](/help/components/dimensions/download-link.md), of [ Verbinding van de Uitgang ](/help/components/dimensions/exit-link.md) afhankelijk van de waarde in `page_event`. | varchar(100) |
-| **`page_type`** | De [dimensie Pagina&#39;s niet gevonden](/help/components/dimensions/pages-not-found.md) , die doorgaans wordt gebruikt voor 404-pagina&#39;s. | teken(20) |
-| **`page_url`** | De URL van de hit. Merk op dat `post_page_url` het is gestript voor het volgen van links afbeeldingsverzoeken ([`tl()`](/help/implement/vars/functions/tl-method.md)) en een gegevenstype van varchar gebruikt (255). | text |
+| **`page_type`** | De [ Pagina&#39;s niet gevonden ](/help/components/dimensions/pages-not-found.md) dimensie, die typisch voor 404 pagina&#39;s wordt gebruikt. | teken(20) |
+| **`page_url`** | De URL van de hit. `post_page_url` wordt gestript voor aanvragen voor het bijhouden van koppelingen ([`tl()`](/help/implement/vars/functions/tl-method.md) ) en gebruikt een gegevenstype varchar(255). | text |
 | **`pagename`** | De [ dimensie van de Pagina ](/help/components/dimensions/page.md). Als de variabele [`pagename`](/help/implement/vars/page-vars/pagename.md) leeg is, gebruikt Analytics in plaats daarvan `page_url` . | varchar(100) |
 | **`pagename_no_url`** | Vergelijkbaar met `pagename` , maar dit komt niet overeen met `page_url` . Alleen de kolom `post` is beschikbaar. | varchar(100) |
 | **`paid_search`** | Een vlag die bepaalt als de treffer betaalde onderzoeksopsporing aanpast. | tinyint zonder teken |
@@ -165,17 +166,17 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | **`quarterly_visitor`** | Een vlag die bepaalt als de treffer een nieuwe driemaandelijkse bezoeker is. | tinyint zonder teken |
 | **`ref_domain`** | De [ Verwijzende domein ](/help/components/dimensions/referring-domain.md) dimensie. Gebaseerd op de kolom `referrer` . | varchar(100) |
 | **`ref_type`** | Een numerieke id die het verwijzingstype voor de treffer vertegenwoordigt. Gebruikt in het [ type van Referateur ](/help/components/dimensions/referrer-type.md) afmeting. <br> 1: Binnen uw plaats <br> 2: Andere websites <br> 3: De motoren van het onderzoek <br> 4: Harde aandrijving <br> 5: USENET <br> 6: Typed/Bladwijzerplaat (geen referentie) <br> 7: E-mail <br> 8: Geen JavaScript <br> 9: Sociale Netwerken | tinyint zonder teken |
-| **`referrer`** | De [ dimensie van de Verwijzer ](/help/components/dimensions/referrer.md). Merk op dat terwijl `referrer` een gegevenstype varchar (255) wordt gebruikt, `post_referrer` een gegevenstype varchar (244) wordt gebruikt. | Varchar(255) |
-| **`resolution`** | Een numerieke ID die de resolutie van de monitor weergeeft. Wordt gebruikt in de [dimensie Monitorresolutie](/help/components/dimensions/monitor-resolution.md) . Maakt gebruik van `resolution.tsv` opzoektabel. | small int zonder teken |
-| **`s_kwcid`** | Trefwoord-ID die wordt gebruikt in Adobe Advertising-integraties. | Varchar(255) |
-| **`s_resolution`** | Waarde voor onbewerkte schermresolutie. Verzameld met behulp van de JavaScript-functie `screen.width x screen.height`. | teken(20) |
-| **`search_engine`** | Een numerieke ID die de zoekmachine vertegenwoordigt die de bezoeker naar uw site heeft verwezen. Gebruikt in [&#128279;](/help/components/dimensions/search-engine.md) afmetingen van de Motor van het 0&rbrace; Onderzoek.  Verwijst naar de opzoektabel van `search_engines.tsv` . | small int zonder teken |
+| **`referrer`** | De [ dimensie van de Verwijzer ](/help/components/dimensions/referrer.md). Hoewel `referrer` een gegevenstype varchar(255) gebruikt, gebruikt `post_referrer` een gegevenstype varchar(244). | varchar(255) |
+| **`resolution`** | Een numerieke id die de resolutie van het beeldscherm aangeeft. Gebruikt in de [ resolutie ](/help/components/dimensions/monitor-resolution.md) dimensie van de Monitor. Gebruikt `resolution.tsv` opzoektabel. | small int zonder teken |
+| **`s_kwcid`** | Trefwoord-id gebruikt in Adobe Advertising-integratie. | varchar(255) |
+| **`s_resolution`** | Waarde van resolutie voor onbewerkt scherm. Wordt verzameld met de JavaScript-functie `screen.width x screen.height` . | teken(20) |
+| **`search_engine`** | Een numerieke id die staat voor het zoekprogramma waarmee de bezoeker naar uw site is doorverwezen. Gebruikt in ](/help/components/dimensions/search-engine.md) afmetingen van de Motor van het 0} Onderzoek. [ Verwijst naar de opzoektabel van `search_engines.tsv` . | small int zonder teken |
 | **`search_page_num`** | Gebruikt door [ Al Rank van de Pagina van het Onderzoek ](/help/components/dimensions/all-search-page-rank.md) afmeting. Hiermee geeft u aan op welke pagina met zoekresultaten uw site is weergegeven voordat de gebruiker op uw site heeft geklikt. | small int zonder teken |
 | **`secondary_hit`** | Een vlag die bepaalt als de slag een secundaire slag is. Deze markering is doorgaans afkomstig van taggen met meerdere suite- en VISTA-regels die treffers kopiëren. | tinyint zonder teken |
 | **`sourceid`** | Source-id | int zonder teken |
-| **`state`** | Staatvariabele. | Varchar(50) |
-| **`stats_server`** | Niet nuttig. Adobe interne server die de hit verwerkt. | teken(30) |
-| **`t_time_info`** | Lokale tijd voor de bezoeker. Formaat is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
+| **`state`** | Staatvariabele. | varchar(50) |
+| **`stats_server`** | Niet gebruiken. Interne Adobe-server die de hit heeft verwerkt. | teken(30) |
+| **`t_time_info`** | Lokale tijd voor de bezoeker. Indeling is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Wordt gebruikt in Adobe Target-integratie. Vertegenwoordigt alle tests momenteel gekwalificeerd voor. Indeling is: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action` . | text |
 | **`tnt_action`** | Wordt gebruikt in Adobe Target-integratie. Geeft alle tests aan waarvoor de hit geschikt is. | text |
 | **`tnt_instances`** | Wordt gebruikt in Adobe Target-integratie. Variabele voor doelinstanties. | text |
@@ -189,24 +190,24 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | **`va_closer_detail`** | De [ Laatste dimensie van aanrakingsdetail ](/help/components/dimensions/last-touch-detail.md). | varchar(255) |
 | **`va_closer_id`** | Een numerieke identiteitskaart die de [ Laatste dimensie van het aanrakingskanaal ](/help/components/dimensions/last-touch-channel.md) identificeert. De zoekopdracht voor deze id vindt u in de Manager voor marketingkanalen. | tinyint zonder teken |
 | **`va_finder_detail`** | De [ Eerste aanrakingsdetail ](/help/components/dimensions/first-touch-detail.md) dimensie. | varchar(255) |
-| **`va_finder_id`** | Een numerieke identiteitskaart die de [ Eerste dimensie van het aanrakingskanaal ](/help/components/dimensions/first-touch-channel.md) identificeert. De zoekopdracht voor deze id vindt u in de Manager voor marketingkanalen. | tinyint niet ondertekend |
-| **`va_instance_event`** | Een vlag die Marketingkanaal-exemplaren [&#128279;](/help/components/metrics/instances.md)identificeert. | tinyint niet ondertekend |
-| **`va_new_engagement`** | Een vlag die nieuwe engagementen[&#128279;](/help/components/metrics/new-engagements.md) van het marketingkanaal identificeert. | tinyint zonder teken |
+| **`va_finder_id`** | Een numerieke identiteitskaart die de [ Eerste dimensie van het aanrakingskanaal ](/help/components/dimensions/first-touch-channel.md) identificeert. De zoekopdracht voor deze id vindt u in de Manager voor marketingkanalen. | tinyint zonder teken |
+| **`va_instance_event`** | Een vlag die de Instanties van het Kanaal van de Marketing [ ](/help/components/metrics/instances.md) identificeert. | tinyint zonder teken |
+| **`va_new_engagement`** | Een vlag die het Kanaal van de Marketing [ Nieuwe overeenkomsten ](/help/components/metrics/new-engagements.md) identificeert. | tinyint zonder teken |
 | **`video`** | De [ Inhoud ](/help/components/dimensions/sm-core.md) het stromen dimensie van Media. | varchar(255) |
-| **`videoad`** | De [dimensie Ad](/help/components/dimensions/sm-ads.md) Streaming Media. | Varchar(255) |
-| **`videoadinpod`** | De [dimensie Advertentie in pod Streaming](/help/components/dimensions/sm-ads.md) media. | varchar(255) |
+| **`videoad`** | De [ Advertentie ](/help/components/dimensions/sm-ads.md) het stromen dimensie van Media. | varchar(255) |
+| **`videoadinpod`** | De [ Advertentie in podpositie ](/help/components/dimensions/sm-ads.md) het stromen dimensie van Media. | varchar(255) |
 | **`videoadlength`** | De [ lengte van de Advertentie (veranderlijk) ](/help/components/dimensions/sm-ads.md) Streaming dimensie van Media. | integer |
 | **`videoadload`** | De [ Advertentie laadt ](/help/components/dimensions/sm-ads.md) het stromen dimensie van Media. | varchar(255) |
 | **`videoadname`** | De [ naam van de Advertentie (veranderlijk) ](/help/components/dimensions/sm-ads.md) Streaming dimensie van Media. | varchar(255) |
 | **`videoadplayername`** | De [ naam van de speler van de Advertentie ](/help/components/dimensions/sm-ads.md) Streamende dimensie van Media. | varchar(255) |
 | **`videoadpod`** | De [ peul van de Advertentie ](/help/components/dimensions/sm-ads.md) het stromen dimensie van Media. | varchar(255) |
-| **`videoadvertiser`** | De [dimensie Advertiser](/help/components/dimensions/sm-ads.md) Streaming Media. | Varchar(255) |
-| **`videoaudioalbum`** | De [dimensie Album](/help/components/dimensions/sm-audio-metadata.md) Streaming Media. | Varchar(255) |
+| **`videoadvertiser`** | De [ Advertiser ](/help/components/dimensions/sm-ads.md) Streamende dimensie van Media. | varchar(255) |
+| **`videoaudioalbum`** | Het [ Album ](/help/components/dimensions/sm-audio-metadata.md) Streamende afmeting van Media. | varchar(255) |
 | **`videoaudioartist`** | De [ Kunstenaars ](/help/components/dimensions/sm-audio-metadata.md) Streamende dimensie van Media. | varchar(255) |
-| **`videoaudioauthor`** | De [&#128279;](/help/components/dimensions/sm-audio-metadata.md) het stromen dimensie van Media van de Auteur . | varchar(255) |
+| **`videoaudioauthor`** | De ](/help/components/dimensions/sm-audio-metadata.md) het stromen dimensie van Media van de Auteur [. | varchar(255) |
 | **`videoaudiolabel`** | Het [ Etiket ](/help/components/dimensions/sm-audio-metadata.md) Streamende afmeting van Media. | varchar(255) |
 | **`videoaudiopublisher`** | De [ Uitgever ](/help/components/dimensions/sm-audio-metadata.md) Streamende dimensie van Media. | varchar(255) |
-| **`videoaudiostation`** | De [&#128279;](/help/components/dimensions/sm-audio-metadata.md) Streamende dimensie van Media van de Post . | varchar(255) |
+| **`videoaudiostation`** | De ](/help/components/dimensions/sm-audio-metadata.md) Streamende dimensie van Media van de Post [. | varchar(255) |
 | **`videocampaign`** | De [ identiteitskaart van de Campagne ](/help/components/dimensions/sm-ads.md) Streamende dimensie van Media. | varchar(255) |
 | **`videochannel`** | Het [ kanaal van de Inhoud ](/help/components/dimensions/sm-core.md) Streamende afmeting van Media. | varchar(255) |
 | **`videochapter`** | De [ dimensie van de Media van het Hoofdstuk ](/help/components/dimensions/sm-chapters.md) Streaming. | varchar(255) |
@@ -220,28 +221,28 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | **`videoname`** | De [ naam van de Inhoud (veranderlijke) ](/help/components/dimensions/sm-core.md) Streaming dimensie van Media. | varchar(255) |
 | **`videonetwork`** | De [ dimensie van de Media van het Netwerk ](/help/components/dimensions/sm-video-metadata.md) Streaming. | varchar(255) |
 | **`videopath`** | De [ weg van Media ](/help/components/dimensions/sm-core.md) het stromen dimensie van Media. | varchar(100) |
-| **`videoplayername`** | De naam[&#128279;](/help/components/dimensions/sm-core.md) van de contentspeler: dimensie Streaming media. | Varchar(255) |
+| **`videoplayername`** | De [ naam van de de spelernaam van de Inhoud ](/help/components/dimensions/sm-core.md) Streamende dimensie van Media. | varchar(255) |
 | **`videotime`** | De [ tijd bestede van de Inhoud ](/help/components/metrics/sm-core.md) het stromen metrische Media. | integer |
-| **`videoqoebitrateaverageevar`** | De [ Gemiddelde bitrate ](/help/components/dimensions/sm-quality.md) Streaming dimensie van Media. | Varchar(255) |
-| **`videoqoebitratechangecountevar`** | De [bitrate verandert de](/help/components/dimensions/sm-quality.md) dimensie van streaming media. | Varchar(255) |
-| **`videoqoebuffercountevar`** | De [dimensie Buffer events](/help/components/dimensions/sm-quality.md) Streaming Media. | varchar(255) |
+| **`videoqoebitrateaverageevar`** | De [ Gemiddelde bitrate ](/help/components/dimensions/sm-quality.md) Streaming dimensie van Media. | varchar(255) |
+| **`videoqoebitratechangecountevar`** | De [ Bitrate verandert ](/help/components/dimensions/sm-quality.md) Streaming dimensie van Media. | varchar(255) |
+| **`videoqoebuffercountevar`** | De [ gebeurtenissen van de Buffer ](/help/components/dimensions/sm-quality.md) het stromen dimensie van Media. | varchar(255) |
 | **`videoqoebuffertimeevar`** | De [ Totale bufferduur ](/help/components/dimensions/sm-quality.md) het stromen dimensie van Media. | varchar(255) |
 | **`videoqoedroppedframecountevar`** | De [ gedropte kaders ](/help/components/dimensions/sm-quality.md) het stromen dimensie van Media. | varchar(255) |
 | **`videoqoeerrorcountevar`** | De [ Fouten ](/help/components/dimensions/sm-quality.md) Streamende dimensie van Media. | varchar(255) |
 | **`videoqoeextneralerrors`** | De [ Externe fout IDs ](/help/components/dimensions/sm-quality.md) Streamende dimensie van Media. Deze dimensie staat veelvoudige waarden in de zelfde klap toe. | text |
-| **`videoqoeplayersdkerrors`** | De [ de foutenIDs van SDK van de Speler ](/help/components/dimensions/sm-quality.md) Streamende dimensie van Media. Met deze dimensie kunnen meerdere waarden in dezelfde treffer worden gebruikt. | Sms |
-| **`videoqoetimetostartevar`** | De [dimensie Tijd om te beginnen met](/help/components/dimensions/sm-quality.md) het streamen van media. | Varchar(255) |
-| **`videoseason`** | De [dimensie van Season](/help/components/dimensions/sm-video-metadata.md) Streaming Media. | varchar(255) |
+| **`videoqoeplayersdkerrors`** | De [ de foutenIDs van SDK van de Speler ](/help/components/dimensions/sm-quality.md) Streamende dimensie van Media. Deze dimensie staat veelvoudige waarden in de zelfde klap toe. | text |
+| **`videoqoetimetostartevar`** | De [ Tijd om ](/help/components/dimensions/sm-quality.md) het stromen dimensie van Media te beginnen. | varchar(255) |
+| **`videoseason`** | De [ Seizoen ](/help/components/dimensions/sm-video-metadata.md) het stromen dimensie van Media. | varchar(255) |
 | **`videosegment`** | Het [ segment van de Inhoud ](/help/components/dimensions/sm-core.md) Streamende afmeting van Media. | varchar(255) |
 | **`videoshow`** | [ toon ](/help/components/dimensions/sm-video-metadata.md) het stromen dimensie van Media. | varchar(255) |
 | **`videoshowtype`** | [ toon type ](/help/components/dimensions/sm-video-metadata.md) het stromen dimensie van Media. | varchar(255) |
 | **`videostreamtype`** | Het [ type van Stroom ](/help/components/dimensions/sm-core.md) Streamende afmeting van Media. | varchar(255) |
 | **`visid_high`** | Wordt gebruikt met `visid_low` om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
-| **`visid_low`** | Gebruikt om `visid_high` een bezoeker op unieke wijze te identificeren. | Bigint niet gesigneerd |
+| **`visid_low`** | Wordt gebruikt met `visid_high` om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
 | **`visid_new`** | Een markering die bepaalt of de treffer een pas gegenereerde bezoeker-id bevat. | teken(1) |
 | **`visid_timestamp`** | Als een bezoekersidentiteitskaart nieuw wordt geproduceerd, verstrekt timestamp in de tijd van UNIX® van toen bezoekersidentiteitskaart werd geproduceerd. | int |
-| **`visid_type`** | Niet voor uitwendig gebruik; intern gebruikt door Adobe voor het verwerken van optimalisaties. Een numerieke id die staat voor de methode waarmee de bezoeker wordt geïdentificeerd.<br>`0`: Aangepaste bezoekers-ID of Onbekend/niet van toepassing<br>`1`: IP en fallback van user-agent <br>`2`: HTTP Mobile Subscriber Header <br>`3`: Verouderde cookiewaarde (`s_vi`) <br>`4`: Fallback-cookiewaarde (`s_fid`) <br>`5`: Identity Service | tinyint niet ondertekend |
-| **`visit_keywords`** | De [dimensie Zoekwoord zoeken](/help/components/dimensions/search-keyword.md) . In deze kolom wordt een niet-standaard tekenlimiet van varchar(244) gebruikt om rekening te houden met back-endlogica die door Adobe wordt gebruikt. | varchar(244) |
+| **`visid_type`** | Niet voor extern gebruik; intern gebruikt door Adobe voor het verwerken van optimalisaties. Een numerieke id die staat voor de methode waarmee de bezoeker wordt geïdentificeerd.<br>`0`: Aangepaste bezoeker-id of Onbekend/niet van toepassing <br>`1`: IP en fallback van gebruikersagent <br>`2`: Koptekst van HTTP Mobile Subscriber <br>`3`: oude cookie-waarde (`s_vi`) <br>`4`: Fallback-cookie-waarde (`s_fid`) <br>`5`: Identiteitsservice | tinyint zonder teken |
+| **`visit_keywords`** | De [ dimensie van het sleutelwoord van het Onderzoek ](/help/components/dimensions/search-keyword.md). Deze kolom gebruikt een niet-standaard karaktergrens van varchar (244) om achterste die logica aan te passen door Adobe wordt gebruikt. | varchar(244) |
 | **`visit_num`** | De [ dimensie van het aantal van het Bezoek ](/help/components/dimensions/visit-number.md). Begint bij 1, en verhoogt telkens als een nieuw bezoek per bezoeker begint. | int zonder teken |
 | **`visit_page_num`** | De [ diepte van de Actief ](/help/components/dimensions/hit-depth.md) dimensie. Verhoogt met 1 voor elke hit die de bezoeker genereert. Hiermee herstelt u elk bezoek. | int zonder teken |
 | **`visit_ref_domain`** | Gebaseerd op de kolom `visit_referrer` . Het eerste verwijzende domein van het bezoek. | varchar(100) |
@@ -409,4 +410,4 @@ De volgende lijst met kolommen wordt niet gebruikt, verwijderd of bevat op een a
 >[!MORELIKETHIS]
 >
 >[ XDM objecten veranderlijke afbeelding ](/help/implement/aep-edge/xdm-var-mapping.md)
->[Gegevensobjectvariabele toewijzen ](/help/implement/aep-edge/data-var-mapping.md)
+>>[Gegevensobjectvariabele toewijzen ](/help/implement/aep-edge/data-var-mapping.md)
