@@ -4,7 +4,7 @@ description: De de verwerkingsregels van het Kanaal van de marketing bepalen als
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
+source-git-commit: fc8882a33227b1f1ed22cab95b5df3ea51e62d43
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Regels voor de verwerking van marketingkanalen bepalen of een bezoeker voldoet a
 
 Aanvullende opmerkingen over de verwerking:
 
-* De gegevens die met deze regels worden verzameld, zijn permanent. Regels die na gegevensverzameling worden gewijzigd, zijn niet met terugwerkende kracht. Adobe raadt u ten zeerste aan alle omstandigheden te bekijken en te overwegen voordat u [!UICONTROL Marketing Channel Processing Rules] opslaat om te voorkomen dat gegevens die op onjuiste kanalen worden verzameld, worden verzameld.
+* De gegevens die met deze regels worden verzameld, zijn permanent. Regels die na gegevensverzameling worden gewijzigd, zijn niet met terugwerkende kracht. Adobe raadt u ten zeerste aan alle omstandigheden te bekijken en in overweging te nemen voordat u [!UICONTROL Marketing Channel Processing Rules] opslaat om te voorkomen dat gegevens op onjuiste kanalen worden verzameld.
 * U kunt maximaal 25 afzonderlijke marketingkanalen configureren.
 * De regels kunnen tot variabelen toegang hebben die VISTA heeft geplaatst, maar kunnen tot geen gegevens toegang hebben die VISTA heeft geschrapt.
 * Twee marketingkanalen krijgen nooit krediet voor dezelfde gebeurtenis (zoals aankopen of klikken). Op deze manier verschillen de afzetkanalen van eVars (waar twee eVars kredieten voor dezelfde gebeurtenis kunnen ontvangen).
@@ -73,16 +73,16 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 | Alle | Activeert dit kanaal slechts wanneer alle criteria in de regel waar zijn. |
 | Alle | Activeert dit kanaal wanneer om het even welke criteria in de regel waar zijn. Deze optie is alleen beschikbaar als de regel meer dan één criterium bevat. |
 | AMO-id | De primaire volgcode die wordt gebruikt door de Adobe Advertising- en Advertising Analytics-integratie. Wanneer een van deze integraties is ingeschakeld, kunt u het voorvoegsel van de trackingcode gebruiken om specifieke Advertising-kanalen te identificeren. Gebruik een &#39;AMO-id&#39; die begint met &#39;AL&#39; voor zoeken en sociaal zoeken of &#39;AC&#39; voor weergave. Wanneer de AMO-id wordt gebruikt in marketingkanalen, kunnen de maatstaven voor klikken/kosten/indruk worden toegewezen aan het juiste kanaal. Als de AMO-id niet is geconfigureerd, gaan deze meetgegevens naar Direct of Geen. |
-| AMO EF-ID | De secundaire die volgcode door Adobe Advertising wordt gebruikt. Het belangrijkste doel van deze volgcode is als sleutel te dienen voor het terugsturen van gegevens naar Advertising. Het kan, echter, ook worden gebruikt om DisplayClickThroughs en DisplayThroughs als twee afzonderlijke marketing kanalen te identificeren. Hiervoor stelt u de logica voor het marketingkanaal in voor &#39;AMO EF-id&#39; die eindigt met `:d` voor het weergeven van doorklikbewerkingen of voor &#39;AMO EF-id&#39; die eindigt met `:i` voor Display ViewThroughs. Als u Weergave niet in twee kanalen wilt splitsen, gebruikt u in plaats daarvan de dimensie AMO-id. |
-| Conversievariabelen | Bestaat uit eVars die voor deze rapportsuite zijn ingeschakeld en alleen van toepassing zijn wanneer deze variabelen via de code van de Adobe op de pagina zijn ingesteld. |
-| Exists | Er zijn verschillende selecties beschikbaar, waaronder:<ul><li>**bestaat niet**: Specificeert dat het slagattribuut niet op het verzoek bestaat. Als de gebruiker bijvoorbeeld in een verwijzend domein een URL typt of op een bladwijzer klikt, bestaat het kenmerk van het verwijzende domein niet.</li><li>**is Leeg**: Specificeert dat een klapattribuut bestaat, gewoonlijk een eVar of vraagkoordparameter, maar er is geen waarde verbonden aan de klapattributen.</li><li>**bevat niet**: Laat u specificeren, bijvoorbeeld, dat een verwijzend domein geen specifieke waarde bevat (in tegenstelling tot het gebruiken van de selectie &quot;bevat&quot;.)</li></ul> |
+| AMO EF-ID | De code voor secundaire tracering die door Adobe Advertising wordt gebruikt. Het belangrijkste doel van deze volgcode is als sleutel te dienen voor het terugsturen van gegevens naar Advertising. Het kan, echter, ook worden gebruikt om DisplayClickThroughs en DisplayThroughs als twee afzonderlijke marketing kanalen te identificeren. Hiervoor stelt u de logica voor het marketingkanaal in voor &#39;AMO EF-id&#39; die eindigt met `:d` voor het weergeven van doorklikbewerkingen of voor &#39;AMO EF-id&#39; die eindigt met `:i` voor Display ViewThroughs. Als u Weergave niet in twee kanalen wilt splitsen, gebruikt u in plaats daarvan de dimensie AMO-id. |
+| Conversievariabelen | Bestaat uit eVars die voor deze rapportsuite zijn ingeschakeld en alleen van toepassing zijn wanneer deze variabelen via de Adobe-code op de pagina zijn ingesteld. |
+| Exists | Er zijn verschillende selecties beschikbaar, waaronder:<ul><li>**bestaat niet**: Specificeert dat het slagattribuut niet op het verzoek bestaat. Als de gebruiker bijvoorbeeld in een verwijzend domein een URL typt of op een bladwijzer klikt, bestaat het kenmerk van het verwijzende domein niet.</li><li>**is Leeg**: Specificeert dat een slagattribuut bestaat, gewoonlijk een eVar of parameter van het vraagkoord, maar er is geen waarde verbonden aan het slagattribuut.</li><li>**bevat niet**: Laat u specificeren, bijvoorbeeld, dat een verwijzend domein geen specifieke waarde bevat (in tegenstelling tot het gebruiken van de selectie &quot;bevat&quot;.)</li></ul> |
 | Het kanaal identificeren als | Koppelt de regel aan een marketingkanaal dat u aan de pagina Kanaalbeheer voor marketing hebt toegevoegd. |
-| Komt overeen met regels voor betaalde zoekdetectie | Een betaalde zoekopdracht gevonden door de Adobe. Betaalde zoekopdrachten worden uitgevoerd wanneer bedrijven kosten betalen voor de zoekfunctie om hun site te kunnen aanbieden. Betaalde zoekopdrachten worden meestal boven of rechts in de zoekresultaten weergegeven. |
-| Overeenkomsten met de regels voor natuurlijke zoekdetectie | Een niet-betaalde zoekopdracht die wordt gedetecteerd door de rapportage van de Adobe. |
+| Komt overeen met regels voor betaalde zoekdetectie | Een betaalde zoekopdracht gevonden door Adobe. Betaalde zoekopdrachten worden uitgevoerd wanneer bedrijven kosten betalen voor de zoekfunctie om hun site te kunnen aanbieden. Betaalde zoekopdrachten worden meestal boven of rechts in de zoekresultaten weergegeven. |
+| Overeenkomsten met de regels voor natuurlijke zoekdetectie | Een niet-betaalde zoekopdracht gevonden door Adobe-rapportage. |
 | Referrer komt overeen met interne URL-filters | Een bezoek de waarvan pagina URL een intern filter URL aanpast, zoals die voor de rapportreeks in Hulpmiddelen Admin wordt bepaald. |
 | Referrer komt niet overeen met interne URL-filters | De verwijzende URL komt niet overeen met een intern URL-filter, zoals gedefinieerd voor de rapportsuite in Admin Tools. U kunt deze instelling gebruiken met de URL van de pagina en bestaat om een algemene regel voor alle vangsten in te stellen, zodat geen van de bezoeken wordt aangeland in de sectie Geen kanaal geïdentificeerd van het rapport. |
 | Sluiten negeren die overeenkomen met interne URL-filters | (Voor referentie) Tracks komen alleen van extern genoemde sites. Laat deze instelling meestal ingeschakeld, tenzij u intern verkeer wilt opnemen. |
-| Is de eerste bezoekpagina | De eerste pagina van een bezoek die wordt gedetecteerd door Adobe-rapportage. |
+| Is eerste bezoeker | De eerste treffer van een bezoek dat door Adobe wordt ontdekt meldt. |
 | Pagina | De [ dimensie van de Pagina ](/help/components/dimensions/page.md). |
 | Paginadomein | Het domein van de pagina waarop de bezoeker landt, zoals `products.example.com` . |
 | Paginadomein en pad | Het domein en pad, zoals `products.example.com/mens/pants/overview.html` . |
@@ -101,7 +101,7 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 
 ## Regelvolgorde en definities van marketingkanalen {#channel-rules}
 
-De kanaalregels worden verwerkt in de volgorde die u opgeeft. De Adobe raadt u aan eerst betaalde of beheerde kanalen (zoals betaalde onderzoek, natuurlijk onderzoek, vertoning, of e-mail) te plaatsen zodat zij krediet over biologische kanalen (zoals direct, intern, verwijzende domeinen) ontvangen.
+De kanaalregels worden verwerkt in de volgorde die u opgeeft. Adobe raadt u aan eerst betaalde of beheerde kanalen (zoals betaalde zoekopdrachten, natuurlijke zoekopdrachten, weergave of e-mail) te plaatsen, zodat ze via organische kanalen (zoals directe, interne en verwijzende domeinen) kredieten ontvangen.
 
 Hieronder ziet u de aanbevolen volgorde voor kanaalregels en voorbeelddefinities:
 
@@ -165,7 +165,7 @@ Deze regel geldt voor bezoekers waarbij hun verwijzings-URL overeenkomt met de i
 
 ![](assets/int-channel1.png)
 
-Zie [ Redenen voor Intern (Zitting verfrist zich) ](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=nl-NL#internal) voor meer informatie over waarom dit kanaal voorkomt.
+Zie [ Redenen voor Intern (Zitting verfrist zich) ](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal) voor meer informatie over waarom dit kanaal voorkomt.
 
 ### Direct {#direct}
 
