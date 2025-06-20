@@ -1,35 +1,49 @@
 ---
-description: Hoe te om één of meerdere segmenten op een rapport van het segmentspoor toe te passen.
-title: Segmenten selecteren en toepassen
+description: Hoe te om segmenten aan een rapport te gebruiken.
+title: Segmenten gebruiken
 feature: Segmentation
+role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 4%
+source-wordcount: '146'
+ht-degree: 0%
 
 ---
 
-# Segmenten selecteren en toepassen
+# Segmenten gebruiken
 
-Hoe te om één of meerdere segmenten op een rapport van het segmentspoor toe te passen.
+Als u segmenten in Analysis Workspace wilt gebruiken, sleept u eenvoudig een of meer segmenten van **[!UICONTROL Segments]** in de componenttrack en zet u neer op:
 
-1. Breng het rapport naar voren waarop u een segment wilt toepassen, bijvoorbeeld de [!UICONTROL Pages Report].
-1. Klikken **[!UICONTROL Show Segments]** boven het verslag. Het segment spoorstaaf wordt geopend.
+* A [ paneel ](/help/analyze/analysis-workspace/c-panels/panels.md) in Analysis Workspace om alle visualisaties in het paneel te segmenteren.
+* Een kopbalrij in a [ vrije vormlijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om de afmeting te vervangen.
+* Een rij in a [ vrije vormlijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om een uitsplitsing in werking te stellen.
+* Een kolom in a [ vrije vormlijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om een kolom toe te voegen of te vervangen, of een filter in werking te stellen.
+* Configuratievensters voor visualisatie of deelvensters waarmee u segmenten kunt neerzetten. Bijvoorbeeld, in de vergelijking van het a ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) Segment [, of [ Zeer belangrijke metrische ](/help/analyze/analysis-workspace/visualizations/key-metric.md) summiere visualisatie
+* De [ definitiebouwer voor een segment ](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder), zodat omvat u een segment in uw segmentdefinitie.
+* De [ definitiebouwer voor berekende metrisch ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder), zodat omvat u een segment in uw berekende metrische definitie.
+
+<!--
+How to apply one or more segments to a report from the segment rail.
+
+1. Bring up the report to which you want to apply a segment, for example the [!UICONTROL Pages Report].
+1. Click **[!UICONTROL Show Segments]** above the report. The segment rail opens.
 
    ![](assets/segment_rail.png)
 
-1. Selectievakje markeren naast een of meer segmenten of **[!UICONTROL Search Segments]** om het juiste segment te vinden.
+1. Mark the checkbox next to one or more of the segments or **[!UICONTROL Search Segments]** to find the right segment.
 
    >[!NOTE]
    >
-   >U kunt meer dan één segment op een rapport toepassen (dit wordt segmenten het stapelen genoemd). Wanneer meerdere segmenten worden toegepast, worden de criteria in elk segment gecombineerd met behulp van de operator &#39;and&#39; en worden deze vervolgens toegepast. Er geldt geen limiet voor het aantal segmenten dat u kunt stapelen.
+   >You can apply more than one segment to a report (this is called segment stacking). When multiple segments are applied, the criteria in each segment is combined using an 'and' operator and then applied. There is no limit to how many segments you can stack.
 
    >[!NOTE]
    >
-   >Als u op het pictogram Informatie (i) naast de segmentnaam klikt, kunt u een voorvertoning van de belangrijkste metriek weergeven om te zien of u een geldig segment hebt en hoe breed het segment is.
+   >Clicking the Information icon (i) next to the segment name lets you preview the key metrics to see whether you have a valid segment and how broad the segment is.
 
-1. U kunt filteren op rapportsuite door de optie **[!UICONTROL (Only) `<report suite name>`]** selectievakje. Dit zal slechts die segmenten tonen die het laatst in die rapportreeks werden bewaard.
-1. Klikken **[!UICONTROL Apply Segment]** en het rapport wordt vernieuwd . Het segment of de segmenten die nu worden toegepast tonen bij de bovenkant van het rapport:
+1. You can filter by report suite by selecting the **[!UICONTROL (Only) `<report suite name>`]** check box. This will show only those segments that were last saved in that report suite.
+1. Click **[!UICONTROL Apply Segment]** and the report will refresh. The segment or segments that are applied now display at the top of the report:
 
    ![](assets/applied_segments.png)
+
+-->

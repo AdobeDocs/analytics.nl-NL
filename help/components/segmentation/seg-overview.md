@@ -1,18 +1,18 @@
 ---
-description: Met segmenten kunt u subsets bezoekers identificeren op basis van kenmerken of interacties op de website. De segmenten worden ontworpen als gecodificeerde publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en delen met andere teamleden of gebruik in andere producten van de Adobe en de mogelijkheden van Analytics.
+description: Met segmenten kunt u subsets bezoekers identificeren op basis van kenmerken of interacties op de website. Segmenten zijn ontworpen als gecodificeerde publieksinzichten die u kunt opbouwen voor uw specifieke behoeften en vervolgens kunt controleren, bewerken en delen met andere teamleden of kunt gebruiken in andere Adobe-producten en analysemogelijkheden.
 title: Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
 
 # Segmenten
 
-Met segmenten kunt u subsets bezoekers identificeren op basis van kenmerken of interacties op de website. De segmenten worden ontworpen als publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en delen met andere teamleden of gebruik in andere producten van de Adobe en de mogelijkheden van Analytics.
+Met segmenten kunt u subsets bezoekers identificeren op basis van kenmerken of interacties op de website. Segmenten zijn ontworpen als publieksinzichten die u kunt opbouwen voor uw specifieke behoeften en die u vervolgens kunt controleren, bewerken en delen met andere teamleden of kunt gebruiken in andere Adobe-producten en analysemogelijkheden.
 
 Segmenten zijn gebaseerd op een [!UICONTROL Visitor] -, [!UICONTROL Visit] - en [!UICONTROL Hit] -hiërarchie met behulp van een genest containermodel. Met de geneste containers kunt u bezoekerskenmerken en handelingen definiëren op basis van regels tussen en binnen de containers. Analysesegmenten kunnen worden gemaakt, goedgekeurd, gedeeld, opgeslagen en uitgevoerd voor meerdere producten en mogelijkheden in de [!DNL Adobe Experience Cloud] . De segmenten kunnen van een rapport worden geproduceerd, in een dashboardrapport worden ingebouwd, of worden bookmarked voor snelle toegang.
 
@@ -31,7 +31,7 @@ Segmenten kunnen op de volgende waarden worden gebaseerd:
 
 - Bezoekers op basis van kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht.
 - Bezoekers op basis van interacties: campagnes, trefwoordzoekfunctie, zoekfunctie.
-- Bezoekers op basis van uitgangen en ingangen: bezoekers uit Facebook, een gedefinieerde landingspagina, verwijzend domein.
+- Bezoekers op basis van uitgangen en ingangen: bezoekers van Facebook, een gedefinieerde landingspagina, verwijzend domein.
 - Bezoekers op basis van aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id.
 
 Wanneer u publiekssegmenten maakt in de Segment Builder, definieert u voorwaarden met de operatoren [!UICONTROL AND] en [!UICONTROL OR] tussen containers.
@@ -121,12 +121,12 @@ Dit type segment filtert gegevenssets op basis van kenmerken die zijn gekoppeld 
 Analysis Workspace bevat de volgende aanvullende functies:
 
 - U kunt [ segmenten ](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) vergelijken.
-- Gebruik [ segmenten als afmetingen ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) in een vergelijking.
+- Gebruik [ segmenten als afmetingen ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in een vergelijking.
 - De segmenten van het gebruik in [ reserveanalyse ](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
 ## Door Adobe verschafte segmenten
 
-De componentrails aan de linkerkant van het scherm geven segmenten weer die door u en uw bedrijf en Adobe segmenten zijn gemaakt en die uit het vak worden geleverd. Wanneer u op **[!UICONTROL Show all]** klikt, worden deze segmenten doorgaans onder aan de lijst weergegeven en worden ze aangeduid met het logo van de Adobe aan de rechterkant.
+De componentrails aan de linkerkant van het scherm geven segmenten weer die door u en uw bedrijf en Adobe-segmenten zijn gemaakt en die vanuit het vak worden geleverd. Wanneer u op **[!UICONTROL Show all]** klikt, worden deze segmenten doorgaans onder aan de lijst weergegeven en worden ze aan de rechterkant aangeduid met het Adobe-logo.
 
 ## Opeenvolgende segmenten {#sequential}
 
@@ -242,7 +242,7 @@ Deze video geeft een kort overzicht van welke segmentcontainers zijn en hoe te o
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de containers van het Segment ](https://video.tv.adobe.com/v/3429104?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de containers van het Segment ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -279,9 +279,9 @@ Toegang tot Segmentbeheer via:
 
 +++ **Welke rechten en voorrechten moet ik gebruiken, creëren, en segmenten beheren?**
 
-Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen Admins beslissen wie [ toestemmingen zou moeten hebben om segmenten ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=nl-NL) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
+Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen Admins beslissen wie [ toestemmingen zou moeten hebben om segmenten ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
 
-Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met iedereen in de organisatie. [Meer...](/help/components/segmentation/seg-reference/seg-rights.md)
+Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met iedereen in de organisatie. [ de rechten van het segment door rol ](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 
@@ -289,7 +289,7 @@ Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met ied
 
 Ja, beheerders kunnen alle segmenten binnen de gebruikersinterface van [!DNL Analysis Workspace] zien.
 
-De Report Builder toont segmenten die u bezit en segmenten die met u worden gedeeld.
+In Report Builder worden segmenten die u bezit en segmenten die met u worden gedeeld, weergegeven.
 
 +++
 
@@ -305,6 +305,6 @@ Report Builder geeft alleen segmenten weer die door u zijn gemaakt of segmenten 
 
 +++ **waarom kan ik niet dit segment schrappen?**
 
-Als het segment [ aan het Experience Cloud ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) werd gepubliceerd, kunt u het niet schrappen of het uitgeven. U kunt de gekopieerde versie echter wel kopiëren en bewerken.
+Als het segment [ aan Experience Cloud ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) werd gepubliceerd, kunt u het niet schrappen of het uitgeven. U kunt de gekopieerde versie echter wel kopiëren en bewerken.
 
 +++

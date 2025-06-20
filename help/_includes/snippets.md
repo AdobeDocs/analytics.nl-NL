@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2893'
 ht-degree: 0%
 
 ---
@@ -11,10 +11,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Een nieuwe en gestroomlijnde [ Report Builder ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/report-builder/rb-overview) werd vrijgegeven op 16 oktober, 2024. Deze functie wordt ondersteund in Mac-, Windows- en webbrowsers.
->Deze verouderde Report Builder-invoegtoepassing werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/report-builder/convert-workbooks) in nieuwe Report Builder omzetten.
+>Een nieuwe en gestroomlijnde [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) werd vrijgegeven op 16 oktober, 2024. Deze functie wordt ondersteund in Mac-, Windows- en webbrowsers.
+>>Deze verouderde Report Builder-invoegtoepassing werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in nieuwe Report Builder omzetten.
 
-## Rapporten & Analytics-aankondiging aan het einde van de levensduur {#ra-eol}
+## Rapporten &amp; Analytics-aankondiging aan het einde van de levensduur {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 > 
 >Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 >
->Lees meer over de Rapporten &amp; de aankondiging van het Eind van Analytics [&#128279;](https://www.adobe.com/go/analytics_rnaeol_en).
+>Lees meer over de Rapporten &amp; de aankondiging van het Eind van Analytics [ ](https://www.adobe.com/go/analytics_rnaeol_en).
 
 ## Sorteeropties voor componenten {#components-sort-options}
 
@@ -69,8 +69,8 @@ Een attributiemodel bepaalt welke afmetingspunten krediet voor metrisch krijgen 
 
 | Pictogram | Attributiemodel | Definitie |
 | :---: | :--- | --- |
-| ![ Laatste aanraking ](/help/assets/icons/AttributeLastTouch.svg) | Laatste hand | Geeft 100% krediet aan het contactmoment dat het meest recent heeft plaatsgevonden vóór de conversie. Dit attributiemodel is doorgaans de standaardwaarde voor elke statistiek waarvoor een attributiemodel niet op een andere manier is opgegeven. Organisaties gebruiken dit model meestal wanneer de tijd tot conversie relatief kort is, zoals bij het analyseren van interne zoekwoorden. |
-| ![Eerste aanraking](/help/assets/icons/AttributeFirstTouch.svg) | Eerste aanraking | Geeft 100% krediet aan het contactpunt dat voor het eerst werd gezien in het terugkijkvenster van attributie. Organisaties gebruiken dit model doorgaans om inzicht te krijgen in merkbekendheid of klantenwerving. |
+| ![ Laatste aanraking ](/help/assets/icons/AttributeLastTouch.svg) | Laatste aanraking | Geeft 100% krediet aan het aanraakpunt dat het laatst voor de conversie optrad. Dit attributiemodel is doorgaans de standaardwaarde voor elke meting waarbij een attributiemodel niet op andere wijze is opgegeven. Organisaties gebruiken dit model doorgaans wanneer de conversietijd relatief kort is, zoals bij het analyseren van interne zoektrefwoorden. |
+| ![ eerste aanraking ](/help/assets/icons/AttributeFirstTouch.svg) | Eerste aanraking | Geeft 100% krediet aan het aanraakpunt dat het eerst wordt weergegeven in het terugkijkvenster van de attributie. Organisaties gebruiken dit model doorgaans om inzicht te krijgen in merkbekendheid of aanschaf door klanten. |
 | ![ Lineair ](/help/assets/icons/AttributeLinear.svg) | Lineair | Biedt hetzelfde krediet aan elk aanraakpunt dat wordt weergegeven voor een conversie. Dit is handig wanneer conversiecycli langer zijn of een frequentere betrokkenheid van klanten vereisen. Organisaties gebruiken dit toewijzingsmodel doorgaans om de doeltreffendheid van meldingen voor mobiele apps of voor producten op abonnementsbasis te meten. |
 | ![Deelname](/help/assets/icons/AttributeParticipation.svg) | Deelname | Biedt 100% krediet aan alle unieke aanraakpunten. Aangezien elk aanraakpunt 100% krediet ontvangt, komt het metrische gegeven meestal uit op meer dan 100%. Als een dimensie-item meerdere afzonderlijke keren vóór een conversie wordt weergegeven, worden de waarden gededupliceerd naar 100%. Dit attributiemodel is ideaal in situaties waarin u wilt begrijpen welke aanraakpunten klanten het meest worden blootgesteld. Mediaorganisaties gebruiken dit model doorgaans om de snelheid van de inhoud te berekenen. De detailhandelorganisaties gebruiken typisch dit model om te begrijpen welke delen van hun plaats aan omzetting kritiek zijn. |
 | ![ Zelfde aanraking ](/help/assets/icons/AttributeSameTouch.svg) | Zelfde aanraking | Verleent 100% krediet aan de zelfde gebeurtenis waar de omzetting plaatsvond. Als er geen aanraakpunt plaatsvindt op dezelfde gebeurtenis als bij een conversie, wordt dit punt ingesloten onder &quot;Geen&quot;. Dit attributiemodel wordt soms gelijkgesteld met het hebben van helemaal geen attributiemodel. Het is waardevol in scenario&#39;s waar u geen waarden van andere gebeurtenissen wilt die beïnvloeden hoe metrisch krediet aan afmetingspunten geeft. Product- of ontwerpteams kunnen dit model gebruiken om de doeltreffendheid van een pagina te beoordelen waar conversie plaatsvindt. |
@@ -83,6 +83,13 @@ Een attributiemodel bepaalt welke afmetingspunten krediet voor metrisch krijgen 
 
 {style="table-layout:auto"}
 
+## Container voor kenmerken {#attribution-container}
+
+Een attribuutcontainer bepaalt het gewenste werkingsgebied voor de attributie. Mogelijke opties zijn:
+
+* **Bezoek**: Zoekt naar omzettingen van het werkingsgebied van de bezoekcontainer.
+* **Bezoeker**: Zoekt naar omzettingen van het werkingsgebied van de bezoekerscontainer.
+
 ## Atributie terugzoekvenster {#attribution-lookback-window}
 
 Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken om aanraakpunten op te nemen. Als een dimensie-item buiten het terugzoekvenster wordt ingesteld, wordt de waarde niet opgenomen in attributieberekeningen.
@@ -91,45 +98,26 @@ Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken o
 * **30 Dagen**: Zoekt file tot 30 dagen vanaf toen de omzetting gebeurde.
 * **60 Dagen**: Zoekt file tot 60 dagen vanaf toen de omzetting gebeurde.
 * **90 Dagen**: Zoekt file tot 90 dagen vanaf toen de omzetting gebeurde.
-* **Bezoek**: Zoekt file aan het begin van het bezoek waar een omzetting gebeurde.
-* **Bezoeker (Meldend Venster)**: Zoekt bij alle bezoeken file tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugzoekdatum van de bezoeker 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
 * **Tijd van de Douane:** staat u toe om een venster van de douaneterugblik van te plaatsen wanneer een omzetting gebeurde. U kunt het aantal minuten, uren, dagen, weken, maanden of kwartalen opgeven. Bijvoorbeeld, als een omzetting op 20 februari gebeurde, zou een terugkijkvenster van vijf dagen alle afmetingstips van 15 februari tot 20 februari in het attributiemodel evalueren.
 
 ## Voorbeeld van kenmerk {#attribution-example}
 
 Bekijk het volgende voorbeeld:
 
-1. Op 15 september arriveert een persoon via een betaalde zoekadvertentie naar uw site en verlaat hij vervolgens.
-1. Op 18 september arriveert de persoon opnieuw naar uw site via een link naar sociale media die hij van een vriend heeft gekregen. Ze voegen verschillende artikelen aan hun winkelwagentje toe, maar kopen niets.
+1. Op 15 september arriveert een bezoeker via een betaalde zoekadvertentie naar uw site en verlaat vervolgens zijn site.
+1. Op 18 september arriveert de bezoeker opnieuw naar uw site via een link naar sociale media die hij van een vriend heeft gekregen. Ze voegen verschillende artikelen aan hun winkelwagentje toe, maar kopen niets.
 1. Op 24 september stuurt uw marketingteam hen een e-mail met een coupon voor sommige objecten in hun winkelwagentje. Ze passen de coupon toe, maar gaan naar verschillende andere sites om te zien of er andere coupons beschikbaar zijn. Ze vinden een andere advertentie via een advertentie en kopen uiteindelijk $50.
 
-Afhankelijk van het terugkijkvenster en het attributiemodel, ontvangen de kanalen verschillende kredieten. Hieronder volgen enkele voorbeelden:
+Afhankelijk van het toewijzingsmodel ontvangen container en kanalen verschillende crediteringen. Zie onderstaande tabel voor voorbeelden:
 
-* Gebruikend **eerste aanraking** en venster van de a **zittingsterugblik**, kijkt de attributie slechts het derde bezoek. Tussen e-mail en display was e-mail de eerste, dus e-mail krijgt 100% krediet voor de aankoop van $50.
-
-* Gebruikend **eerste aanraking** en venster van de a **persoonraadpleging**, kijkt de attributie naar alle drie bezoeken. De betaalde zoekopdracht was de eerste, dus krijgt deze 100% krediet voor de aankoop van $50.
-
-* Gebruikend **lineair** en venster van de a **zittingsterugblik**, is het krediet verdeeld tussen e-mail en vertoning. Beide kanalen krijgen elk $25 krediet.
-Gebruikend **lineair** en het venster van de a **persoonraadpleging**, wordt het krediet verdeeld tussen betaald onderzoek, sociaal, e-mail, en vertoning. Elk kanaal krijgt $12,50 krediet voor deze aankoop.
-
-* Gebruikend **j-Gegeld** en a **persoon terugkijkvenster**, wordt het krediet verdeeld tussen betaald onderzoek, sociaal, e-mail, en vertoning.
-
-   * 60% krediet wordt gegeven aan vertoning, voor $30.
-   * 20% krediet wordt gegeven voor betaalde zoekopdrachten, voor $10.
-   * De resterende 20% is verdeeld tussen sociale media en e-mail, wat elk $5 geeft.
-
-* Gebruikend **Verval van de Tijd** en venster van de a **persoonraadpleging**, wordt het krediet verdeeld tussen betaald onderzoek, sociaal, e-mail, en vertoning. De standaardhalfwaardetijd van 7 dagen gebruiken:
-
-   * Tussenruimte van nul dagen tussen aanraakpunt weergeven en conversie. `2^(-0/7) = 1`
-   * Ruimte van nul dagen tussen aanraakpunt en conversie via e-mail. `2^(-0/7) = 1`
-   * Tussenruimte van zes dagen tussen sociale aanraakpunten en conversie. `2^(-6/7) = 0.552`
-   * Tussenruimte van negen dagen tussen betaald aanraakpunt en conversie. `2^(-9/7) = 0.41`
-   * Het normaliseren van deze waarden resulteert in het volgende:
-
-      * Weergave: 33,8%, krijgt $16,88
-      * E-mail: 33,8% ontvangt $ 16,88
-      * Sociaal: 18,6%, $ 9,32
-      * Betaalde zoekopdracht: 13,8%, krijgt $6,92
+| Model | Container | Venster Opzoeken | Toelichting |
+|---|---|---|---|
+| Eerste aanraking | Bezoek | 30 | Attributie kijkt alleen naar het derde bezoek. Tussen e-mail en display was e-mail de eerste, dus e-mail krijgt 100% krediet voor de aankoop van $50. |
+| Eerste aanraking | Bezoeker | 30 | Kenmerken bekijken alle drie de bezoeken. De betaalde zoekopdracht was de eerste, dus krijgt deze 100% krediet voor de aankoop van $50. |
+| Lineair | Bezoek | 30 | Krediet wordt verdeeld tussen e-mail en weergave. Beide kanalen krijgen elk $25 krediet. |
+| Lineair | Bezoeker | 30 | Het krediet is verdeeld tussen betaalde onderzoek, sociale, e-mail, en vertoning. Elk kanaal krijgt $12,50 krediet voor deze aankoop. |
+| J-vormig | Bezoeker | 30 | Het krediet is verdeeld tussen betaalde onderzoek, sociale, e-mail, en vertoning.<ul><li>60% krediet wordt gegeven aan vertoning, voor $30.</li><li>20% krediet wordt gegeven voor betaalde zoekopdrachten, voor $10.</li><li>De resterende 20% is verdeeld tussen sociale media en e-mail, wat elk $5 geeft.</li></ul> |
+| Tijdverlies | Bezoeker | 30 | <ul><li>Tussenruimte van nul dagen tussen aanraakpunt weergeven en conversie. `2^(-0/7) = 1`</li><li>Ruimte van nul dagen tussen aanraakpunt en conversie via e-mail. `2^(-0/7) = 1`</li><li>Tussenruimte van zes dagen tussen sociale aanraakpunten en conversie. `2^(-6/7) = 0.552`</li><li>Tussenruimte van negen dagen tussen betaald aanraakpunt en conversie. `2^(-9/7) = 0.41`</li>Het normaliseren van deze waarden resulteert in het volgende:<ul><li>Weergave: 33,8%, krijgt $16,88</li><li>E-mail: 33,8% ontvangt $ 16,88</li><li>Sociaal: 18,6%, $ 9,32</li><li>Betaalde zoekopdracht: 13,8%, krijgt $6,92</li></ul></li></ul> |
 
 Conversiegebeurtenissen die doorgaans hele getallen bevatten, worden gedeeld als het krediet tot meer dan één kanaal behoort. Als twee kanalen bijvoorbeeld een bijdrage leveren aan een bestelling met behulp van een lineair toewijzingsmodel, krijgen beide kanalen 0,5 van die volgorde. Deze gedeeltelijke metriek worden samengevat over alle mensen dan rond gemaakt aan het dichtstbijzijnde geheel voor rapportering.
 
@@ -142,8 +130,8 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 | Functie | Reiscanvas | Fallout | Stroom |
 |---------|----------|---------|---------|
 | **Vooraf bepaalde opeenvolging van pagina&#39;s** | Ja </br> Combineert vooraf bepaalde en verkennende analyse. Het uiteindelijke pad wordt gebruikt wanneer vooraf gedefinieerde knooppunten op het pad worden gebruikt (bezoekers worden meegeteld zolang ze uiteindelijk van het ene vooraf gedefinieerde knooppunt naar het andere gaan). De directe (niet uiteindelijke) volgende knopen kunnen ook worden getoond. | Ja </br> de weg kan een uiteindelijke weg zijn of kan aan volgende aanraakpunt worden beperkt | Nee |
-| **Verkennende opeenvolging van pagina&#39;s (ad-hocanalyse)** | </br>Ja Combineert vooraf gedefinieerde en verkennende analyse. Het uiteindelijke pad wordt gebruikt bij het gebruik van vooraf gedefinieerde knooppunten op het pad (bezoekers worden geteld zolang ze uiteindelijk van het ene vooraf gedefinieerde knooppunt naar het andere gaan). De onmiddellijke (niet eventuele) volgende knooppunten kunnen ook worden getoond. | Beperkt</br>Hiermee kunt u met de rechtermuisknop klikken en onmiddellijke uitval in een Freeform-tabel bekijken. | </br>Ja, alleen verkennende analyse. Altijd binnen één dimensie-instantie tussen knooppunten. Dit betekent dat elke knoop het onmiddellijke (niet uiteindelijke) volgende contactpunt langs het pad toont. |
-| **Shows waar mensen vertrokken (ruzie maakten) en doorgingen (doorvielen)** | </br>Ja Shows voor zowel vooraf bepaalde als verkennende reizen | </br>Ja Toont vooraf gedefinieerde ritten | Ja </br> toont voor verkennende reizen |
+| **Verkennende opeenvolging van pagina&#39;s (ad hoc analyse)** | Ja </br> Combineert vooraf bepaalde en verkennende analyse. Het uiteindelijke pad wordt gebruikt wanneer vooraf gedefinieerde knooppunten op het pad worden gebruikt (bezoekers worden meegeteld zolang ze uiteindelijk van het ene vooraf gedefinieerde knooppunt naar het andere gaan). De directe (niet uiteindelijke) volgende knopen kunnen ook worden getoond. | Beperkt </br> staat u toe om directe reserve in een lijst van de Vrije vorm met de rechtermuisknop aan te klikken en te bekijken. | Ja </br> Verkennende slechts analyse. Altijd binnen één afmetingsinstantie tussen knooppunten. Dit betekent dat elk knooppunt het directe (niet uiteindelijke) volgende aanraakpunt langs het pad weergeeft. |
+| **toont waar de mensen weggingen (uit vielen) en door (door vielen) werden voortgezet** | Ja </br> toont voor zowel vooraf bepaalde als verkennende reizen | Ja </br> toont vooraf bepaalde reizen | Ja </br> toont voor verkennende reizen |
 | **Lineaire reizen** | Ja | Ja | Nee |
 | **niet-lineaire reizen met veelvoudige ingangspunten en wegen** | Ja | Nee | Ja |
 | **Primaire metrisch** | Elke metrische waarde, inclusief berekende metriek | Alleen sessie of persoon | Alleen voorkomen (padweergaven) |
@@ -154,3 +142,48 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 | **reizen van Adobe Journey Optimizer** | Ja </br> Open reizen van Journey Optimizer voor diepere analyse en aanpassing | Nee | Nee |
 
 {style="table-layout:auto"}
+
+
+
+## Sectie voor tagfilter {#tagfiltersection}
+
+| Tags | Beschrijving |
+|---|---|
+| ![ Markeringen ](/help/assets/filter-tag.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U kunt ](/help/assets/icons/Search.svg) *Codes van het Onderzoek* ![ zoeken {om naar markeringen te zoeken u kunt gebruiken om te filtreren.</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(1)**: Het aantal geselecteerde markeringen (als één of meerdere markeringen worden geselecteerd).</li><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal items dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
+
+
+## Sectie Rapportsuite, filter {#reportsuitefiltersection}
+
+| Rapportsuite | Beschrijving |
+|---|---|
+| ![ Repost reeks ](/help/assets/filter-reportsuite.png){width="300"} | In de sectie **[!UICONTROL Report suite]** kunt u filteren op rapportuiteinden. <ul><li>U kunt ](/help/assets/icons/Search.svg) *de reeksen van het Rapport van het Onderzoek* ![ zoeken {om naar rapportreeksen te zoeken u kunt gebruiken om te filtreren.</li><li>U kunt meerdere rapportsuite selecteren. Welke rapportsuite beschikbaar is, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde rapportreeksen (als één of meerdere rapportreeksen worden geselecteerd).</li><li>**3︎⃣**: Het aantal rapportreeksen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan de specifieke rapportsuite is gekoppeld.</li></ul></li></ul> |
+
+## Ingeschakelde sectie voor statusfilter {#enabledstatusfiltersection}
+
+| Status Ingeschakeld | Beschrijving |
+|---|---|
+| ![ Toegelaten status ](/help/assets/filter-enabledstatus.png){width="300"} | In de sectie **[!UICONTROL Enabled status]** kunt u filteren op ingeschakelde status. <ul><li>U kunt meerdere statussen selecteren.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde statussen (als één of meerdere statussen worden geselecteerd).</li><li>**2︎⃣**: Het aantal statussen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>1︎⃣: Het aantal items dat aan de specifieke status is gekoppeld.</li></ul></li></ul> |
+
+## Sectie Type filter {#typefiltersection}
+
+| Type | Beschrijving |
+|---|---|
+| ![ Type ](/help/assets/filter-type.png){width="300"} | In de sectie **[!UICONTROL Type]** kunt u filteren op tekst. <ul><li>U kunt meerdere typen selecteren.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde types (als één of meerdere types worden geselecteerd).</li><li>**1︎⃣**: Het aantal types beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>3︎⃣: Het aantal items dat aan het specifieke type is gekoppeld.</li></ul></li></ul> |
+
+## Sectie voor het filter Eigenaar {#ownerfiltersection}
+
+| Eigenaar | Beschrijving |
+|---|---|
+| ![ Eigenaars ](/help/assets/filter-owners.png){width="300"} | In de sectie **[!UICONTROL Owner]** kunt u filteren op eigenaars. <ul><li>U kunt ](/help/assets/icons/Search.svg) *Onderzoek Eigenaars* ![ zoeken {om naar eigenaars te zoeken u aan filter kunt gebruiken.</li><li>U kunt meerdere eigenaars selecteren. Welke eigenaars beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde eigenaars (als één of meerdere eigenaars worden geselecteerd).</li><li>**3︎⃣**: Het aantal eigenaars beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan de specifieke eigenaar is gekoppeld.</li></ul></li></ul> |
+
+## Sectie Overige filters {#otherfiltersfiltersection}
+
+| Overige filters | Beschrijving |
+|---|---|
+| ![ Andere filters ](/help/assets/filter-other.png){width="300"} | Met de sectie **[!UICONTROL Other filters]** kunt u filteren op een ander vooraf gedefinieerd filter.<ul><li>U kunt een of meer van de volgende opties selecteren:<ul><li> **[!UICONTROL Show all]**</li><li>**[!UICONTROL Shared with me]**</li><li>**[!UICONTROL Mine]**</li><li>**[!UICONTROL Approved]**</li><li>**[!UICONTROL Favorites]**</li></ul> Wat u kunt selecteren hangt van uw rol en toestemmingen af.</li><li>U kunt meerdere filters selecteren. Welke andere filters beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(1)**: Het aantal geselecteerde andere filters (als één of meerdere andere filters worden geselecteerd).</li><li>**5︎⃣**: Het aantal andere filters beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan het specifieke andere filter is gekoppeld.</li></ul></li></ul> |
+
+## Filtersectie Datumbereik  {#daterangefiltersection}
+
+| Toegepast datumbereik | Beschrijving |
+|---|---|
+| ![ waaier van de Datum ](/help/assets/filter-daterange.png){width="300"} | In de sectie Toegepast datumbereik kunt u filteren op een datumbereik dat van toepassing is op de items.<ol><li>Selecteer een datumbereik.</li><li>Definieer een datumbereik in de kalenderpop-up of selecteer een van de beschikbare voorinstellingen.<br> Alternatief, kunt u een datumwaaier in de de waaiersectie van de Datum van het paneel van de Filter direct ook specificeren.</li></ol><ul><li>De getallen geven aan:<ul><li>**(1)**: Het aantal gewijzigde datumbereiken dat van standaardvoorinstellingen wordt gewijzigd.</li><li>**5︎⃣**: Het aantal datumwaaiers beschikbaar voor de punten die uit de huidige filter voortvloeien.</li></ul> |

@@ -1,57 +1,87 @@
 ---
 description: Afhankelijk van uw machtigingen kunt u statistieken delen met uw hele organisatie, groepen of individuele gebruikers.
-title: Berekende standaard delen
+title: Berekende maatstaven delen
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
-# Berekende standaard delen
+# Berekende maatstaven delen
 
-Afhankelijk van uw machtigingen kunt u statistieken delen met uw hele organisatie, groepen of individuele gebruikers.
+In de [ Berekende metriekmanager ](cm-manager.md), kunt u berekende metriek delen. Afhankelijk van uw toestemmingen, kunt u berekende metriek met uw volledige organisatie, groepen, of individuele gebruikers delen:
 
-| Rol | Toestemmingen |
+* **Beheerders**: De beheerders kunnen berekende metrisch met de volledige organisatie, met groepen binnen een organisatie, en met individuele gebruikers delen. Zie de [ documentatie van Admin Console ](https://helpx.adobe.com/enterprise/using/manage-products.html) voor meer informatie.
+* **niet-beheerders**: De niet-beheerders kunnen berekende metrisch slechts delen zij en slechts met individuele gebruikers hebben gecreeerd.
+
+Een of meer berekende metrische waarden delen:
+
+1. In de [ Berekende metrische manager ](cm-manager.md), selecteer één of meer van de berekende metriek u wilt delen.
+1. Van de actiebar, uitgezochte ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
+1. In het dialoogvenster **[!UICONTROL Share Calculated metric]** :
+
+   ![ Deel berekende metriekdialoog ](assets/share-calculated-metrics-dialog.png)
+
+   1. (Naar keuze) gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) aan *individuen of groepen van het Onderzoek* voor en beperkt de lijst van groepen of individuen u de berekende metriek met wilt delen.
+
+   1. Selecteer een of meer opties in de sectie **[!UICONTROL Organization]** of **[!UICONTROL Groups]** of zoek naar en selecteer een of meer personen. Welke opties beschikbaar zijn, is afhankelijk van uw rol.
+
+   1. Selecteer **[!UICONTROL Save]** om de berekende meetgegevens te delen. Selecteer **[!UICONTROL Cancel]** om te annuleren.
+
+## Aanbevolen procedures
+
+Hieronder vindt u een aantal aanbevolen procedures voor het delen van berekende metriek en voor het delen van berekende metrisch.
+
+* Als beheerder, deel slechts berekende metrisch met allen als u iedereen in uw organisatie wordt overtuigd is het gebruiken van berekende metrisch. U kunt ook overwegen deze berekende maatstaven te begunstigen. Zie [ Teken berekende metrisch als favoriet ](cm-favorite.md) voor meer informatie.
+
+* Als beheerder, deel berekende metrisch met een specifieke groep als dat berekende metrisch bedrijfswaarde voor het gebruikersdeel van die groep verstrekt.
+
+* Als beheerder of een individuele gebruiker, deel berekende metrisch met één of meerdere individuen om berekende metrisch te bevestigen. Als de segmenten niet nuttig blijken te zijn, kunt u berekende metrisch schrappen.
+
+<!--
+Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
+
+|  Role | Permissions |
 |---|---|
-| Beheerder | Kan metriek met allen, met Groepen, en met Gebruikers delen. Groepen worden ingesteld als machtigingsgroepen in de Admin Console. |
-| Niet-beheerder | Metrische gegevens kunnen alleen met individuele gebruikers worden gedeeld. |
+|  Administrator  | Can share metrics with All, with Groups, and with Users. Groups are set up as permission groups in the Admin Console. |
+|  Non-Administrator  | Can share metrics only with individual users.  |
 
-Een berekende metrische waarde delen:
+To share a calculated metric:
 
-1. Selecteer in Adobe Analytics de optie **[!UICONTROL Components]** tab, dan selecteren **[!UICONTROL Calculated metrics]**.
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Calculated metrics]**. 
 
-1. Schakel in het venster Berekende metrische beheer het selectievakje links van de metriek die u wilt delen in.
+1. In the Calculated metrics manager, select the checkbox to the left of any metrics that you want to share. 
 
-1. Selecteer de **[!UICONTROL Share]** pictogram. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
-
-   Het dialoogvenster Berekende metrische gegevens delen wordt weergegeven.
+1. Select the **[!UICONTROL Share]** icon. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+   
+   The Share Calculated metric dialog box displays.
 
    ![](assets/cm_share.png)
 
-1. Selecteren **[!UICONTROL Share]**.
+1. Select **[!UICONTROL Share]**.
 
-1. Kies met wie u wilt delen:
+1. Choose who you want to share with:
 
-   * **[!UICONTROL All]** (Alleen beheerders): deelt met alle gebruikers in de organisatie.
+   * **[!UICONTROL All]** (Administrators only): Shares with all users in the organization.
 
-     U kunt alleen met iedereen delen als het nuttig is voor het hele bedrijf en iedereen het gemakkelijk kan gebruiken. In dit geval moet u ook overwegen om het een [goedgekeurd metrisch](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+     Consider sharing with all only if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [approved metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+   
+   * **[!UICONTROL Groups]** (Administrators only): Select any groups you want to share with.
 
-   * **[!UICONTROL Groups]** (Alleen beheerders): selecteer de groepen waarmee u wilt delen.
+     Consider sharing with a group if the metric provides good business value for that team.
+   
+   * **[!UICONTROL Individual users]**: Search for and select the individual users you want to share with.
 
-     Overweeg het delen met een groep als metrisch goede bedrijfswaarde voor dat team verstrekt.
+      This is the only share option available to all users. Administrators might want to use this option to vet and validate a metric prior to making it available to a group or to everyone. If the metric isn't useful, it can be discarded. Administrators should not officially approve this type of metric.
 
-   * **[!UICONTROL Individual users]**: Zoek en selecteer de afzonderlijke gebruikers waarmee u wilt delen.
+1. Select **[!UICONTROL Share]**.
 
-     Dit is de enige deeloptie die beschikbaar is voor alle gebruikers. Beheerders kunnen deze optie gebruiken om een meting te controleren en te valideren voordat deze beschikbaar wordt gemaakt voor een groep of voor iedereen. Als metrisch niet nuttig is, kan het worden verworpen. Beheerders mogen dit type meting niet officieel goedkeuren.
+   The Shared icon appears next to the metric: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
-1. Selecteren **[!UICONTROL Share]**.
+1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
 
-   Het pictogram Gedeeld wordt weergegeven naast de metrische waarde: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
-
-1. U kunt filteren op metriek die met u wordt gedeeld door naar **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
-
-1. (Optioneel) Selecteer de optie **Filter** pictogram, uitbreiden **[!UICONTROL Other filters]** selecteert u vervolgens **[!UICONTROL Shared with me]**.
-
+1. (Optional) To filter the list of calculated metrics in the Calculated metrics manager to show only metrics that are shared with you, select the **Filter** icon, expand **[!UICONTROL Other filters]**, then select **[!UICONTROL Shared with me]**.
+-->

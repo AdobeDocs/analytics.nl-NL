@@ -1,55 +1,79 @@
 ---
 description: In Berekend Metrisch Manager, staat het etiketteren segmenten u toe om hen te organiseren.
-title: Berekende standaard een label geven
+title: Berekende maatstaven voor tags
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 2%
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 
-# Berekende standaard een label geven
+# Berekende maatstaven voor tags
 
-In de Berekende metrische manager, kunt u segmenten organiseren door hen te etiketteren.
 
-Alle gebruikers kunnen labels maken voor berekende metriek en een of meer tags toepassen op een metrische waarde. U kunt echter alleen labels zien voor berekende metriek die u bezit of die met u gedeeld zijn.
+In de [ Berekende metriekmanager ](cm-manager.md), kunt u markeringen gebruiken om berekende metriek te organiseren. Beheerders kunnen alle berekende metrisch labelen. Niet-beheerders kunnen alleen de berekende metriek die ze maken of met hen hebben gedeeld, van tags voorzien.
+
+Een of meer berekende metriek labelen:
+
+1. In de [ Berekende metriekmanager ](cm-manager.md), selecteer één of meerdere van de berekende metriek u wilt etiketteren.
+1. Van de actiebar, uitgezochte ![ Etiketten ](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
+1. In het dialoogvenster **[!UICONTROL Tag Calculated metrics]**
+
+   ![ Markering Berekende metrische dialoog ](assets/tag-calculated-metric-dialog.png)
+
+   1. (Naar keuze) gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) om naar de lijst van markeringen te zoeken en te beperken.
+
+   2. Gebaseerd op de lijst met labels:
+
+      * een of meer bestaande tags in de lijst te selecteren, of
+      * Voer een nieuwe tag in en druk op **[!UICONTROL ENTER]** . Herhaal deze bewerking om meerdere nieuwe tags toe te voegen.
+
+1. Selecteer **[!UICONTROL Save]** om de labels voor de berekende metriek op te slaan. Selecteer **[!UICONTROL Cancel]** om te annuleren.
+
+Zodra bewaard, zijn de markeringen vermeld op het [!UICONTROL Tag] gebied voor geselecteerde berekende metrisch in de [ Berekende metrische bouwer ](cm-tagging.md).
+
+<!--
+In the Calculated metric manager, you can organize segments by tagging them.
+
+All users can create tags for calculated metrics and apply one or more tags to a metric. However, you can see tags only for those calculated metrics that you own or that have been shared with you. 
 
 >[!TIP]
 >
->De nuttigste types van markeringen zijn gewoonlijk markeringen die op de volgende criteria gebaseerd zijn:
+>The most useful types of tags are usually tags that are based on the following criteria:
 >
->* **Teamnamen**, zoals Sociale marketing of Mobiele marketing.
->* **Projecten** (analysetags), zoals analyse van de pagina Entry.
->* **Categorieën**, zoals Vrouwen of Geografie.
->* **Workflows**, zoals goed te keuren of te laten veredelen voor (een specifieke bedrijfseenheid)
+>* **Team names**, such as Social Marketing or Mobile Marketing.
+>* **Projects** (analysis tags), such as Entry-page analysis.
+>* **Categories**, such as Women's or Geography.
+>* **Workflows**, such as To be approved or Curated for (a specific business unit)
 
-## Labels toepassen op een berekende metrische waarde
+## Apply tags to a calculated metric
 
-1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**].
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].
 
-1. Schakel in het venster Berekende metriek het selectievakje in naast de metriek die u wilt labelen.
+1. In the Calculated metrics manager, select the checkbox next to any metrics that you want to tag. 
 
    ![](assets/cm_add_tags.png)
+   
+1. In the **[!UICONTROL Tag Calculated metric]** dialog box:
 
-1. In de **[!UICONTROL Tag Calculated metric]** dialoogvenster:
+    * Add a new tag. Type the name in the [!UICONTROL **Add tags**] field, then press Enter.
+    * Select one or more existing tags to apply to the selected metrics. 
 
-   * Voeg een nieuwe tag toe. Typ de naam in het dialoogvenster [!UICONTROL **Tags toevoegen**] en drukt u op Enter.
-   * Selecteer een of meer bestaande tags die u wilt toepassen op de geselecteerde metriek.
+1. Select [!UICONTROL **Save**] to apply the tags.
 
-1. Selecteren [!UICONTROL **Opslaan**] om de labels toe te passen.
+## View applied tags
 
-## Toegepaste tags weergeven
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
 
-1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**] om naar het Berekende manager van metriek te gaan.
+1. In the Calculated metrics manager, tags appear in the [!UICONTROL **Tags**] column. (Click the gear icon on the top-right to manage your columns.)
 
-1. In het Berekende metriebeheer worden codes weergegeven in het dialoogvenster [!UICONTROL **Tags**] kolom. (Klik op het tandwielpictogram rechtsboven om de kolommen te beheren.)
+## Filter metrics by tags
 
-## Metrische waarden filteren op tags
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
 
-1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**] om naar het Berekende manager van metriek te gaan.
+1. In the Calculated metrics manager, select the **Filter** icon, then select the tags that you want to filter by. 
 
-1. Selecteer in het beheer van berekende metriek de optie **Filter** selecteert u vervolgens de tags waarop u wilt filteren.
-
-   Alleen metriek met het filter dat u selecteert, wordt weergegeven.
+   Only metrics that have the filter you select are shown.
+-->

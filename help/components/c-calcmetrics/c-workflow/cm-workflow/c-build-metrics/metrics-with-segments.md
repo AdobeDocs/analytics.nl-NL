@@ -3,74 +3,86 @@ description: Het segmenteren op individuele metriek staat u toe om metrische ver
 title: Gesegmenteerde metriek
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
 
 # Gesegmenteerde metriek
 
-In de Berekende metrische bouwer, kunt u segmenten binnen uw metrische definitie toepassen. Dit is nuttig als u nieuwe metriek aan gebruik in uw analyse wilt afleiden. Houd in mening, kunnen de segmentdefinities door de bouwer van het Segment worden bijgewerkt. Als de veranderingen worden aangebracht, zal het segment automatisch bijwerken overal het wordt toegepast, met inbegrip van als het deel van een berekende metrische definitie uitmaakt.
+In de [ Berekende metrische bouwer ](cm-build-metrics.md#definition-builder), kunt u segmenten binnen uw metrische definitie toepassen. Het toepassen van segmenten is nuttig als u metriek voor een ondergroep van uw gegevens in uw analyse wilt gebruiken.
 
-![](assets/german-visitors.png)
+>[!NOTE]
+>
+>De definities van het segment worden bijgewerkt door de [ bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md). Als u een verandering in een segment aanbrengt, wordt het segment automatisch bijgewerkt overal het wordt gebruikt, met inbegrip van als het segment deel van een berekende metrische definitie uitmaakt.
+>
 
-## Een gesegmenteerde metrisch maken {#create}
+Je wilt meetgegevens vergelijken voor Duitse mensen die interageren met je merk versus mensen buiten Duitsland. U kunt dus vragen beantwoorden zoals:
 
-Laten we zeggen dat u verschillende aspecten van een &quot;Duitse bezoeker&quot;-segment wilt vergelijken met die van een &quot;International Visitors&quot;-segment. U kunt metriek tot stand brengen die u inzichten zoals zal geven:
+1. Hoeveel Duitse versus internationale mensen bezoeken uw meest [ populaire pagina&#39;s ](#popular-pages).
+1. Hoeveel Duitse versus internationale mensen in [ totaal ](#totals) online met uw merk deze maand hebben gecommuniceerd.
+1. Wat zijn de [ percentages ](#percentages) van Duitsers en internationale mensen die uw populaire pagina&#39;s hebben bezocht?
 
-* Hoe vergelijk het gedrag van bladeren door inhoud tussen de twee groepen? (Een ander voorbeeld zou zijn: Hoe vergelijk de omrekeningskoers tussen de twee segmenten?)
-* Hoeveel Duitse bezoekers zijn als percentage van het totale aantal bezoekers op bepaalde pagina&#39;s te vinden, in tegenstelling tot internationale bezoekers?
-* Waar zijn de grootste verschillen in termen van welke inhoud door deze verschillende segmenten wordt betreden?
+Zie de volgende secties om te illustreren hoe u deze vragen kunt beantwoorden met gesegmenteerde meetgegevens. In voorkomend geval wordt verwezen naar meer gedetailleerde documentatie.
 
-Bouw en bewaar metrisch genoemd &quot;Duitse Bezoekers&quot;en metrisch genoemd &quot;Internationale Bezoekers&quot;:
+## Populaire pagina&#39;s
 
-1. Maak een ad-hocsegment in de berekende metrische bouwer, &quot;Duitse bezoekers&quot; genoemd, waarbij &quot;Landen&quot; gelijk is aan &quot;Duitsland&quot;.
+1. [ creeer berekende metrisch ](../cm-workflow.md) van een project van Workspace, genoemd `Germany`.
+1. Van binnen de [ Berekende metrische bouwer ](cm-build-metrics.md), [ creeer een segment ](/help/components/segmentation/segmentation-workflow/seg-build.md), titel `Germany`, dat het gebied van Landen gebruikt.
 
-   Sleep de dimensie van Landen in het canvas van de Definitie en selecteer [!UICONTROL **Duitsland**] als waarde:
-
-   ![](assets/segment-from-dimension.png)
-
-   >[!NOTE]
+   >[!TIP]
    >
-   >U kunt dit in de [ Bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md) ook doen, maar wij hebben het werkschema vereenvoudigd door dimensies beschikbaar te maken in de Berekende metrische bouwer. &quot;Ad hoc&quot; betekent dat het segment niet zichtbaar is in de **[!UICONTROL Segments]** -lijst in de linkertrack. U kunt het bestand echter openbaar maken door de muisaanwijzer boven het pictogram &quot;i&quot; naast het object te plaatsen en op **[!UICONTROL Make public]** te klikken.
+   >In de Berekende metrische bouwer, kunt u een segment tot stand brengen direct gebruikend het paneel van Componenten.
+   >   
 
-1. Sleep het segment Duitsland naar het canvas Definition en sleep de metrische waarde van de Unique Visitors erin:
+   Je segment zou er zo kunnen uitzien.
 
-   ![](assets/german-visitors.png)
+   ![ Segment Duitsland ](assets/segment-germany.png)
 
-1. Selecteer [!UICONTROL **sparen**] om berekende metrisch te bewaren.
+1. Terug in de Berekende metrische bouwer, gebruik het segment om berekende metrisch bij te werken.
 
-1. Maak een ad-hocsegment in de berekende metrische bouwer genaamd &quot;Internationale Bezoekers&quot;, waarbij &quot;Landen&quot; niet gelijk is aan &quot;Duitsland&quot;.
+   ![ Berekende metrisch Duitsland ](assets/germany-visits.png)
 
-   Sleep de dimensie van Landen in het canvas van de Definitie, uitgezochte [!UICONTROL **Duitsland**] als waarde, dan uitgezocht [!UICONTROL **gelijk niet**] als exploitant.
+Herhaal bovenstaande stappen voor de internationale versie van de berekende metrische waarde.
 
-1. Sleep de metrische gegevens van de Unieke Bezoekers erin.
+1. Maak een berekende metrische waarde van het Workspace-project met de naam `Non Germany visits` .
+1. Van binnen de Berekende metrische bouwer, creeer een segment, genoemd `Not Germany`, dat het gebied van het Land van CRM van uw gegevens van CRM gebruikt om te bepalen waar een persoon uit komt.
 
-1. Selecteer [!UICONTROL **sparen**] om berekende metrisch te bewaren.
+   Uw segment zou moeten kijken als.
 
-1. In Analysis Workspace sleept u het Dimension **[!UICONTROL Page]** naar een tabel voor vrije vorm en sleept u de twee nieuwe berekende meetgegevens naast elkaar naar de bovenkant:
+   ![ Segment Duitsland ](assets/segment-not-germany.png)
 
-   ![](assets/workspace-pages.png)
+1. Terug in de Berekende metrische bouwer, gebruik het segment om berekende metrisch bij te werken.
 
-
->[!BEGINSHADEBOX]
-
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gesegmenteerde metriek ](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} voor een demo video.
-
->[!ENDSHADEBOX]
+   ![ Berekende metrisch Duitsland ](assets/non-germany-visits.png)
 
 
-## Percentage van totale metriek {#percent-total}
+1. Maak een project in Analysis Workspace, waar je kijkt naar pagina&#39;s die door Duitse en niet-Duitse bezoekers worden bezocht.
 
-U kunt het voorbeeld boven een stap verder nemen door uw segment te vergelijken met een totale populatie. Hiertoe maakt u twee nieuwe meeteenheden: &quot;% van de totale Duitse bezoekers&quot; en &quot;% van de totale internationale bezoekers&quot;:
+   ![ de lijstvisualisatie van de Freeform van Workspace die Duits vs. Internationale mensen toont ](assets/workspace-german-vs-international.png)
 
-1. Verplaats het segment Duitse (of internationale) bezoekers naar het canvas.
-1. Zet een ander Duits (of Internationaal) bezoekerssegment hieronder neer. Deze keer klikt u echter op het pictogram voor configuratie (versnelling) om het metrische type &quot;Totaal&quot; te selecteren. De notatie moet &#39;Percentage&#39; zijn. De exploitant zou &quot;gedeeld door&quot;moeten zijn. U eindigt omhoog met deze metrische definitie:
 
-   ![](assets/cm_metric_total.png)
+## Totalen
 
-1. Pas deze metrisch op uw project toe:
+1. Creeer twee nieuwe berekende metriek die op het Grote Totaal wordt gebaseerd. Open elk van de eerder gemaakte segmenten, wijzig de naam van het segment, stel de **[!UICONTROL Metric type]** for **[!UICONTROL People]** to **[!UICONTROL Grand Total]** in en gebruik **[!UICONTROL Save As]** om het segment op te slaan met de nieuwe naam. Bijvoorbeeld:
 
-   ![](assets/cm_percent_total.png)
+   ![ Totale metrisch voor Duitsland ](assets/calculated-metric-germany-total.png)
+
+1. Voeg een nieuwe tabelvisualisatie voor vrije vorm toe aan uw Workspace-project en geef het totaal aantal pagina&#39;s voor dit jaar weer.
+
+   ![ de lijstvisualisatie van de Freeform van Workspace die Duits vs. Internationale totale mensen toont ](assets/workspace-german-vs-international-totals.png)
+
+
+## Percentage
+
+1. Creeer twee nieuwe berekende metriek die een percentage van de berekende metriek berekenen u vroeger creeerde.
+
+   ![ de lijstvisualisatie van Workspace Freeform die Duits vs. Internationaal totaal personenpercentage ](assets/calculated-metric-germany-total-percentage.png) toont
+
+
+1. Werk uw Workspace-project bij.
+
+   ![ de lijstvisualisatie van de Freeform van Workspace die Duits vs. Internationale totale mensen toont ](assets/workspace-german-vs-international-totals-percentage.png)
+

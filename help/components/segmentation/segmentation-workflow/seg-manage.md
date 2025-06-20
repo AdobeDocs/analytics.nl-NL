@@ -3,77 +3,140 @@ description: In Segmentbeheer kunt u op verschillende manieren segmenten curven,
 title: Segmenten beheren (Segmentbeheer)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 8e8f59f747ddacc5462cbc177d199a5e0e91908a
+source-git-commit: 5819026bd3798cd936094f138cd236b1cb4b278e
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
 
-# Segmentbeheer
+# Segmenten beheren
 
-In Segmentbeheer kunt u op verschillende manieren segmenten curven, zoals delen, filteren, labelen, goedkeuren, kopiëren, verwijderen en markeren als favorieten.
 
-De manager van het Segment van Analytics toont u alle segmenten u bezit en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle segmenten in de organisatie zien. Dit overzicht bevat de gebruikersinterface en de mogelijkheden van Segmentbeheer.
+U kunt ](t-seg-share.md) delen, [ segment ](t-seg-filter.md), [ markering ](seg-tag.md), [ goedkeuren ](seg-approve.md), anders noemen, [ exemplaar ](seg-copy.md), schrappen, de segmenten en merken segmenten als [ favoriet ](t-seg-favorite.md) van een centrale [!UICONTROL Segment] beheersinterface. [ Segmenten beheren:
 
-![ de manager van Segmenten ](assets/segments-manager.png)
+* Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Segments]** .
 
-## Toegang tot Segmentbeheer
 
-1. Selecteer in Adobe Analytics de tab **[!UICONTROL Components]** en selecteer vervolgens **[!UICONTROL Segments]** .
+>[!NOTE]
+>
+>De snelle segmenten die u binnen een specifiek Workspace-project maakt, worden niet weergegeven in de [!UICONTROL Segment] -manager, tenzij u het segment beschikbaar hebt gemaakt voor al uw projecten.
+>
 
-   of
+## Segmentbeheer
 
-   In een bestaand rapport, selecteer het pictogram van Segmenten ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in de linkernavigatie, dan uitgezochte **[!UICONTROL Manage]**.
+Segmentbeheer heeft de volgende interface-elementen:
 
-## Beschikbare handelingen in Segmentbeheer
+![ interface van het Segment ](assets/segments-manager.png)
 
-In Segmentbeheer kunt u:
+### Segmentlijst
 
-* [Filtersegmenten](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+In de lijst met segmenten ➊ worden alle segmenten weergegeven die u bezit, de segmenten die binnen het bereik van al uw projecten vallen en de segmenten die met u zijn gedeeld. De lijst heeft de volgende kolommen:
 
-* [Segmenten markeren als favorieten](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+| Kolom | Beschrijving |
+| --- | --- | 
+| ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een segment te begunstigen. Zie [ segment van het Teken als favoriet ](t-seg-favorite.md) |
+| **[!UICONTROL Title and description]** | Om het segment uit te geven, selecteer de titelverbinding, die de [ bouwer van het Segment ](seg-build.md) opent. Een gedeeld segment wordt vermeld met ![ Aandeel ](/help/assets/icons/ShareAlt.svg). |
+| **[!UICONTROL Report suitew]** | De rapportsuite waarop dit segment van toepassing is. |
+| **[!UICONTROL Owner]** | De eigenaar van het segment. Als gebruiker, ziet u slechts de segmenten die u bezit of de annotaties die met u worden gedeeld. |
+| **[!UICONTROL Tags]** | De labels voor dit segment. |
+| **[!UICONTROL Shared with]** | Hoeveel individuen of groepen u het segment met deelde. Selecteer deze optie om het dialoogvenster **[!UICONTROL Share Component]** te openen. Zie [ de segmenten van het Aandeel ](t-seg-share.md) voor meer informatie. |
+| **[!UICONTROL Published]** | Of het [ segment ](seg-publish.md) aan Experience Cloud wordt gepubliceerd. |
+| **[!UICONTROL Date modified]** | De datum en tijd waarop het segment voor het laatst is gewijzigd. |
 
-* [Segmenten goedkeuren](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specificeren welke kolommen u wilt tonen.
 
-* [Tagsegmenten](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+### Actiebalk
 
-* [Segmenten delen](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+U kunt op segmenten actie ondernemen met de actiebalk ➋ . De actiebalk bevat de volgende handelingen:
 
-* Een segment exporteren naar een CSV-bestand.
+| Handeling | Beschrijving |
+|---|---|
+| ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Voeg een ander segment toe, gebruikend de [ bouwer van het Segment ](seg-build.md). |
+| ![ Onderzoek ](/help/assets/icons/Search.svg) [!UICONTROL *Onderzoek door titel*] | Wanneer er geen segment in de lijst is geselecteerd, zoekt u naar segmenten met dit zoekveld. |
+| ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Tags toewijzen aan de geselecteerde segmenten. Selecteer in het dialoogvenster **[!UICONTROL Tag Segment]** de tags voor de geselecteerde segmenten of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde segmenten op te slaan. Zie [ de segmenten van de Markering ](seg-tag.md) voor meer informatie. |
+| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Deel de geselecteerde segmenten. In de **[!UICONTROL Share Segment]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde segmenten op te slaan. Zie [ de segmenten van het Aandeel ](t-seg-share.md) voor meer informatie. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Verwijder de geselecteerde segmenten. U wordt gevraagd om een bevestiging. |
+| ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** uit | Wijzig de naam van één geselecteerd segment. Als deze optie is geselecteerd, kunt u de naam van het segment inline wijzigen. |
+| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Geef de geselecteerde segmenten goed. Zie [ segmenten ](seg-approve.md) voor meer informatie goedkeuren. |
+| ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Kopieer het geselecteerde segment. Nieuwe segmenten worden gemaakt met dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | De segmenten exporteren naar een `Segments List.csv` -bestand. |
 
-* [Segmenten kopiëren](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+### Actieve filterbalk
 
-* [Segmenten verwijderen](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+Op de filterbalk ➌ worden de actieve segmenten weergegeven die van het filterdeelvenster zijn toegepast op de lijst met segmenten (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meerdere filters zijn opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
 
-## Kolommen configureren
+### Deelvenster Filter
 
-U kunt de informatie vormen die voor elk segment in de Manager van het Segment wordt getoond door de kolommen te vormen die worden getoond.
+U kunt de lijst van segmenten filtreren gebruikend ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** linkerpaneel van de Filter ![ ➍. In het filterdeelvenster worden het type filter en het aantal segmenten weergegeven dat het specifieke filter toepast. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het paneel van de Filter van een knevel te voorzien.
 
-De zichtbare kolommen configureren in Segmentbeheer:
+Zie [ de lijst van segmenten ](t-seg-filter.md) voor meer informatie filtreren.
 
-1. Selecteer in Adobe Analytics de tab **[!UICONTROL Components]** en selecteer vervolgens **[!UICONTROL Segments]** .
 
-1. In de Manager van het Segment, selecteer **aanpassen kolommen** pictogram ![ aanpassen kolompictogram ](assets/customize-columns-icon.png), dan selecteer de kolommen die u in de Manager van het Segment wilt worden getoond.
+<!--
 
-   De volgende kolommen zijn beschikbaar:
+The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 
-   | Kolomtitel | Beschrijving |
+The Analytics Segment Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment Manager. 
+
+![Segments manager](assets/segments-manager.png)
+
+## Access the Segment Manager
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**.
+
+   Or 
+
+   In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
+
+## Available actions in the Segment Manager
+
+In the Segment Manager, you can:
+
+* [Filter segments](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+
+* [Mark segments as favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+
+* [Approve segments](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+
+* [Tag segments](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+
+* [Share segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+
+* Export a segment to a CSV file.
+
+* [Copy segments](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+
+* [Delete segments](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+
+## Configure columns
+
+You can configure the information displayed for each segment in the Segment Manager by configuring the columns that are displayed.
+
+To configure the visible columns in the Segment Manager:
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**. 
+
+1. In the Segment Manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Segment Manager.
+
+   The following columns are available:
+
+   | Column title | Description  |
    |---|---|
-   | Titel en beschrijving | Deze waarden worden verstrekt in de bouwer van het Segment. Als u de titel en beschrijving wilt bewerken, selecteert u de titelkoppeling om de Segment Builder te openen. |
-   | Favorieten | Hiermee geeft u sterpictogrammen weer naast elk segment, zodat u segmenten kunt markeren als favorieten. Voor meer informatie, zie [ segmenten van het Teken als favorieten ](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
-   | Reeksen rapporteren | Deze kolom geeft aan in welke rapportsuite het segment het laatst is opgeslagen. |
-   | Eigenaar | Geeft aan wie eigenaar is van het segment. Als niet-beheerder, kunt u slechts segmenten zien u bezit of die met u werden gedeeld. |
-   | Labels (niet gecontroleerd in kolomkiezer, vandaar dat de kolom niet wordt weergegeven) | Tags die op het segment zijn toegepast, door u of door personen die het segment met u hebben gedeeld. |
-   | Gedeeld met | Hier worden personen of groepen weergegeven (alleen Admin) of Alle personen (alleen Admin) waarmee u het segment hebt gedeeld. <p>Wanneer een segment door u of met u wordt gedeeld, toont een aandeelpictogram naast de segmentnaam.</p> |
-   | Datum gewijzigd | Hiermee geeft u de datum weer waarop het segment voor het laatst is gewijzigd. |
-   | Gebruikt in | Hiermee kunt u zien waar segmenten momenteel worden gebruikt en hoe vaak deze in elk gebied worden gebruikt. <p>Bijvoorbeeld, als het segment in 40 projecten en 2 alarm wordt gebruikt, dan toont de waarde van deze kolom als [!UICONTROL **42 componenten**].</p> <p>Selecteer de waarde in deze kolom om de uitsplitsing te zien van waar de segmenten (bijvoorbeeld, [!UICONTROL **Projecten (40)**] worden gebruikt, [!UICONTROL **Alarm (2)**]). Bovendien kunt u de lijst met items weergeven waarin de segmenten worden gebruikt. Bijvoorbeeld, zie zo de lijst van projecten waar zij worden gebruikt, selecteer de [!UICONTROL **Projecten (40)**] verbinding.</p><p>Elk van de volgende gebieden toont het aantal instanties van segmenten die in dat gebied worden gebruikt:</p>  <ul><li>[!UICONTROL **Projecten**]<p>Bevat segmenten die [ in de segmentbouwer ](/help/components/segmentation/segmentation-workflow/seg-build.md) werden gecreeerd en voor alle projecten beschikbaar zijn.</p></li><li>[!UICONTROL **Ad hoc componenten**]<p>Bevat segmenten die [ als snelle segmenten ](/help/analyze/analysis-workspace/components/segments/quick-segments.md) werden gecreeerd en beschikbaar slechts binnen één enkel project zijn.</p></li><li>[!UICONTROL **Geplande projecten**]</li><li>[!UICONTROL **Mobiele Scorecards**]</li><li>[!UICONTROL **Annotaties**]</li><li>[!UICONTROL **Waarschuwingen**]</li><li>[!UICONTROL **Berekende standaarden**]</li><li>[!UICONTROL **Report Builder**]<p>Als u deze optie selecteert, wordt een CSV-bestand gedownload met de volgende kolommen gegevens:</p><ul><li>Naam Report Builder</li><li>Laatst geopend</li><li>Laatst geopende IMS-gebruikersnaam</li><li>Laatst geopende gebruikersnaam</li></ul><p>Wanneer u informatie voor Report Builder bekijkt, zijn de gebruiksgegevens beschikbaar vanaf september 2024.</p></li></ul><p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd.</p><p>Houd rekening met het volgende wanneer u deze kolom weergeeft:</p><ul><li>Deze informatie is alleen beschikbaar voor systeembeheerders.</li><li>[!UICONTROL **Gebruikt in**] kolom toont niet door gebrek. [ vorm kolommen ](#configure-columns) om het te tonen.</li><li>Als een segment een ander segment in zijn definitie omvat, wordt om het even welk gebruik van dat segment niet getoond in [!UICONTROL **Gebruikt in**] kolom. Als een segment in de definitie van een ander type van component (zoals berekend metrisch) inbegrepen is, dan wordt het gebruik getoond in [!UICONTROL **Gebruikt in**] kolom.</li><li>Deze informatie omvat geen gebruik van de API of Data Warehouse.</li><li>Als er geen gegevens in deze kolom voor een bepaalde component zijn maar het heeft a [!UICONTROL **laatst gebruikte**] datum, zou de component in een analyse kunnen worden gebruikt zonder worden bewaard.</li><li>Gebruiksgegevens zijn beschikbaar vanaf september 2023.</li></ul><p>U kunt het [ Woordenboek van Gegevens ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) samen met deze informatie gebruiken om u spoor van te houden en beter te begrijpen hoe de componenten in uw organisatie worden gebruikt.</p> |
-   | Laatst gebruikt | Hiermee geeft u de datum weer waarop het segment voor het laatst is gebruikt in een van de volgende componenttypen: <ul><li>Waarschuwingen</li><li>Berekende cijfers</li><li>Projecten</li><li>Geplande projecten</li><li>Segmenten</li></ul> <p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd.</p><p>Houd rekening met het volgende wanneer u deze kolom weergeeft:</p><ul><li>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</li><li>Voor sommige componenten bevat deze kolom mogelijk geen gegevens als de component voor het laatst is gebruikt vóór september 2023.</li><li>Deze informatie is alleen beschikbaar voor systeembeheerders.</li></ul><p>U kunt het [ Woordenboek van Gegevens ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) samen met deze informatie gebruiken om u spoor van te houden en beter te begrijpen hoe de componenten in uw organisatie worden gebruikt. |
-
+   | Title and description | These values are provided in the Segment builder. To edit the title and description, select the title link to open the Segment builder.  |
+   | Favorites  | Displays star icons next to each segment, allowing you to mark segments as favorites. For more information, see [Mark segments as favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | Report suites  | This column indicates in which report suite the segment was last saved.  |
+   | Owner  | Indicates who owns the segment. As a non-Admin, you can see only segments you own or those that were shared with you.  |
+   | Tags (not checked in column selector, hence column not appearing)  | Tags that were applied to the segment, either by you or by people who shared the segment with you.  |
+   | Shared with  | Lists individuals or groups (Admin only) or All (Admin only) that you shared the segment with. <p>When a segment is being shared by you or with you, a share icon displays next to the segment name.</p>|
+   | Date modified  | Shows the date that the segment was last modified.  |
+   | Used in | Shows where segments are currently being used, and how many times they are being used in each area. <p>For example, if the segment is being used in 40 projects and 2 alerts, then the value of this column shows as [!UICONTROL **42 components**].</p> <p>Select the value in this column to see the breakdown of where the segments are being used (for example, [!UICONTROL **Projects (40)**], [!UICONTROL **Alerts (2)**]). Furthermore, you can view the list of items where the segments are being used. For example, so see the list of projects where they are being used, select the [!UICONTROL **Projects (40)**] link.</p><p>Each of the following areas shows the number of instances of segments being used in that area:</p>  <ul><li>[!UICONTROL **Projects**]<p>Contains segments that were [created in the segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md) and are available for all projects.</p></li><li>[!UICONTROL **Ad hoc components**]<p>Contains segments that were [created as quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md) and are available only within a single project.</p></li><li>[!UICONTROL **Scheduled projects**]</li><li>[!UICONTROL **Mobile Scorecards**]</li><li>[!UICONTROL **Annotations**]</li><li>[!UICONTROL **Alerts**]</li><li>[!UICONTROL **Calculated metrics**]</li><li>[!UICONTROL **Report Builder**]<p>Selecting this option downloads a CSV file, with the following columns of data:</p><ul><li>Report Builder Name</li><li>Last accessed</li><li>Last accessed IMS User ID</li><li>Last accessed user name</li></ul><p>When viewing information for Report Builder, usage information is available starting in September 2024.</p></li></ul><p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information is available only to system administrators.</li><li>The [!UICONTROL **Used in**] column does not display by default. [Configure columns](#configure-columns) to display it.</li><li>If a segment includes another segment in its definition, any use of that segment is not shown in the [!UICONTROL **Used in**] column. If a segment is included in the definition of another type of component (such as a calculated metric), then usage is shown in the [!UICONTROL **Used in**] column.</li><li>This information does not include usage from the API or Data Warehouse.</li><li>If there is no data in this column for a given component but it has a [!UICONTROL **Last used**] date, the component might have been used in an analysis without being saved.</li><li>Usage information is available starting in September 2023.</li></ul><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization.</p>  |
+   | Last used | Shows the date when the segment was last used in any of the following component types: <ul><li>Alerts</li><li>Calculated metrics</li><li>Projects</li><li>Scheduled projects</li><li>Segments</li></ul> <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li><li>This information is available only to system administrators.</li></ul><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization. |
+   
    {style="table-layout:auto"}
 
-## Hoe kan ik-video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
+## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-Deze [ video van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=nl-NL) geeft een kort overzicht van hoe te om de Manager van het Segment te gebruiken.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment Manager.
 
-
+-->

@@ -1,34 +1,36 @@
 ---
 description: Toont hoe te om een eenvoudige metrische "de Mening van de Pagina per Bezoek"te bouwen.
-title: Een eenvoudige indicator voor "Paginaweergaven per bezoek" maken
+title: Een eenvoudige metrische "paginaweergaven per bezoek" maken
 feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 3%
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
-# Een metrische waarde voor Paginaweergaven per bezoek maken
+# Bouw eenvoudig berekende metrisch
 
-De volgende informatie laat zien hoe u een eenvoudige metrische waarde voor Paginaweergaven per bezoek maakt.
+De volgende informatie verklaart hoe te om tot een eenvoudige *Bekijken van de Pagina per metrisch bezoek* te leiden.
 
-U kunt als volgt een eenvoudige metrische waarde voor Paginaweergaven per bezoek maken:
-
-1. Beginnen met het bouwen van metrische gegevens, zoals beschreven in [Metrische gegevens samenstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
-1. Geef de metrische aanduiding &quot;Paginaweergaven per bezoek&quot; of een vergelijkbare naam.
-1. Geef het een gebruikersvriendelijk **[!UICONTROL Description]** om te tonen waarvoor het wordt gebruikt.
-1. Rechts selecteren **[!UICONTROL Format]**. In dit voorbeeld kiest u [!UICONTROL **Decimaal**].
+1. Begin om metrisch te bouwen, zoals die in [ wordt beschreven bouwt metriek ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Geef de metrische waarde `Page Views per Visits` of een vergelijkbare naam.
+1. Geef metrisch gebruikersvriendelijk **[!UICONTROL Description]** om te tonen waar metrisch wordt gebruikt voor.
+1. Selecteer rechts **[!UICONTROL Format]** . Kies voor dit voorbeeld **[!UICONTROL Decimal]** .
 1. Bepaal hoeveel decimalen u het rapport wilt weergeven.
-1. In de [!UICONTROL **Toon stijgende trend als**] vervolgkeuzelijst, selecteert u [!UICONTROL **Goed (groen)**].
-1. Voeg een **[!UICONTROL Tag]** om uw metriek te organiseren.
-1. Voor deze metrische waarde sleept u eerst Paginaweergaven naar de [!UICONTROL **Definitie**] van het canvas en sleep Bezoekingen eronder (wacht tot de blauwe lijn verschijnt voordat u de lijn neerzet).
-1. Selecteer de operator voor Splitsen. (Splitsen is de standaardoperator.)
-1. U kunt nu een **[!UICONTROL Preview]** van die metrische waarde terwijl je hem bouwt, helemaal rechts boven.
-1. De verenigbaarheid van het product toont u of metrisch compatibel is met [Huidige gegevens](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=nl-NL) of alleen met volledig verwerkte gegevens.
-1. Selecteren **[!UICONTROL Save]**.
+1. Selecteer ▲ **[!UICONTROL Good (Green)]** in de vervolgkeuzelijst **[!UICONTROL Show updward trend as]** .
+1. Voeg een **[!UICONTROL Tag]** toe om uw metriek te organiseren.
+1. Voor deze berekende metrische waarde sleept u **[!UICONTROL Page Views]** eerst van de **[!UICONTROL Dimensions]** -componenten naar het **[!UICONTROL Definition]** -gedeelte van het canvas.
+1. Vervolgens sleept u **[!UICONTROL Visits]** uit de **[!UICONTROL Metrics]** -componenten en zet u de metrische waarde onder **[!UICONTROL Page Views]** (wacht tot de blauwe lijn verschijnt voordat u de metrische waarde neerzet).
+1. Selecteer de verdelings{](/help/assets/icons/Divide.svg) exploitant 0} verdelen. ![ (Splitsen is de standaardoperator.)
+1. U kunt **[!UICONTROL Preview]** van metrisch zien terwijl u metrisch bouwt.
+1. [ de verenigbaarheid van het Product ](../../../cm-compatibility.md) toont u of metrisch met Huidige Gegevens of slechts met volledig Verwerkte Gegevens compatibel is.
 
-   Let erop dat de **[!UICONTROL Summary]** de formule werkt op om het even welk ogenblik bij u een verandering in de metrische definitie aanbrengt.
+   ![ Eenvoudige berekende metrisch ](assets/simple-calculated-metric.png)
+1. Selecteer **[!UICONTROL Save]** .
 
-1. (Optioneel) Als u een metrisch object wilt delen, goedkeuren, (her)coderen, hernoemen of verwijderen, gaat u naar het [Pagina Berekende cijfers](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md).
+   De formule **[!UICONTROL Summary]** wordt altijd bijgewerkt wanneer u een wijziging aanbrengt in de definitie van de metrische waarde.
+
+1. (Facultatief) om te delen, goed te keuren, (re-)markering, anders te noemen of te schrappen metrisch, kunt u naar de [ Berekende metriekmanager ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) gaan.
+

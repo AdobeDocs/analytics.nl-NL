@@ -2,21 +2,20 @@
 description: Berekende metriek markeren als favorieten is een andere manier om ze te ordenen voor gebruiksgemak.
 title: Berekende metriek markeren als favorieten
 feature: Calculated Metrics
-source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
+exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
 # Berekende metriek markeren als favorieten
 
-Berekende metriek markeren als favorieten is een andere manier om ze te ordenen voor gebruiksgemak.
+U kunt een berekende metrisch als favoriet merken. Als u berekende metriek als favoriet wilt markeren, kunt u de berekende metrisch ordenen. Alle gebruikers kunnen de voorkeur geven aan berekende metriek.
 
-1. Selecteer in Adobe Analytics de optie **[!UICONTROL Components]** tab, dan selecteren **[!UICONTROL Calculated metrics]**.
+Om of voordeel berekend metrisch, in [ Berekende metriekmanager ](cm-manager.md) te begunstigen:
 
-1. In de Berekende manager van metriek, controleer de ster naast om het even welke berekende metrisch die u als favoriet wilt merken. Het zou nu als gele ster moeten verschijnen:
+* Selecteer ![ StarOutline ](/help/assets/icons/StarOutline.svg) om, of uitgezochte ![ Ster ](/help/assets/icons/Star.svg) te verkiezen om berekende metrisch uit te geven.
 
-   ![](assets/favorites.png)
-
-1. U kunt ook filteren op Favorieten onder **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Favorites]**.
+U kunt uw lijst van berekende metrisch door favorieten filtreren. Selecteer **[!UICONTROL Other filters]** van het ![ paneel van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** en selecteer **[!UICONTROL Favorites]**. Zie [ de lijst van berekende metrisch ](cm-filter.md) voor meer informatie filtreren.

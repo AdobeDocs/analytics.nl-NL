@@ -3,37 +3,63 @@ description: Met de Berekende Metrische bouwer, kan iedereen een participatie me
 title: Deelnemings-metrisch
 feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 183f6e39fb1d14b7b29817e76da0302ba23cd5d6
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
-# Een &quot;Deelname&quot;-metrisch maken
+# Metrische gegevens voor deelname
 
-De volgende informatie verklaart hoe te om metrisch tot stand te brengen die toont welke pagina&#39;s aan (of aan) bezoeken hebben bijgedragen die een orde bevatten.
 
-Dit type informatie kan handig zijn voor elke eigenaar van de inhoud.
+De metriek van de participatie wordt gebruikt om te kwantificeren hoe de individuele waarden voor een afmeting (zoals de Mening van de Pagina) tot bijdragen, of aan bezoeken deelnemen die specifieke metrisch (zoals Orders) bevatten.
+
+In de onderstaande stappen ziet u hoe u een metrische deelname kunt maken.
+
+1. [ creeer een berekende metrische ](../cm-workflow.md), en in [ Berekende metrieke bouwer ](cm-build-metrics.md), noem metrisch `Orders (Visit Participation)` of iets gelijkaardig.
+1. Sleep een metrische waarde met een succesgebeurtenis, bijvoorbeeld [!DNL Online Orders] , naar het [!UICONTROL **[!UICONTROL Definition]**] -gebied.
+1. Selecteer ![ Vistuig ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) voor metrisch.
+1. In popup die verschijnt, selecteer **[!UICONTROL Use a non-default attribution model]** om het [ attributiemodel ](m-metric-type-alloc.md#attribution-models) van die gebeurtenis aan **[!UICONTROL Participation]** te bepalen en **[!UICONTROL Visits]** voor [!UICONTROL Container] te selecteren. Selecteer **[!UICONTROL Apply]** om te bevestigen.
+
+
+   ![ popup van de attributie van de Kolom die als model en Bebezoeken wordt geselecteerd voor Container.](assets/participation-setup.png)
+
+   **(Verdeling|Bezoekingen|30 dagen)** wordt toegevoegd aan de naam van de metrische component.
+
+
+
+1. Selecteer [!UICONTROL **sparen**] om metrisch te bewaren.
+1. Gebruik berekende metrisch in uw rapport. Gebruik bijvoorbeeld de berekende [!DNL Orders (Session Participation)] -metrische waarde in een rapport om te tonen welke Klantreeks heeft bijgedragen aan (of heeft deelgenomen aan) sessies die een bestelling bevatten.
+
+   ![ Vrije lijst die de Rij en de Orden van de Klant toont.](assets/participation-pages-customer-tier.png)
+
+
+<!--
+
+The following information explains how to create a metric that shows which pages contributed to (or participated in) visits that contained an order.
+
+This type of information could be useful for any content owner.
 
 >[!NOTE]
 >
->U kunt participatiemetriek inschakelen in de beheerprogramma&#39;s, maar alleen voor aangepaste gebeurtenissen 1 - 100.
+>You can enable participation metrics in the Admin Tools, but only for custom events 1 - 100.
 
-1. Beginnen met het maken van een berekende metrische waarde, zoals beschreven in [Metrische gegevens samenstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Begin creating a calculated metric, as described in [Build metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. In de Berekende metriek bouwer, noem metrische &quot;Deelname&quot;.
+1. In the Calculated metrics builder, name the metric "Participation".
 
-1. Sleep de succesgebeurtenis &quot;Orders&quot; naar het canvas Definitie.
+1. Drag the success event "Orders" into the Definition canvas.
 
-1. Wijzig de [toewijzingsmodel](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) van die gebeurtenis **[!UICONTROL Participation]** onder de **[!UICONTROL Settings]** vistuig. Selecteren **[!UICONTROL Visit]** terugzoeken. De definitie moet er als volgt uitzien:
+1. Change the [attribution model](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) of that event to **[!UICONTROL Participation]** under the **[!UICONTROL Settings]** gear. Select **[!UICONTROL Visit]** lookback. The definition should look similar to this:
 
    ![](assets/participation.png)
 
-1. Selecteren [!UICONTROL **Opslaan**] om metrisch te bewaren.
+1. Select [!UICONTROL **Save**] to save the metric.
 
-1. De berekende metrische waarde gebruiken in een **[!UICONTROL Pages]** verslag.
+1. Use the calculated metric in a **[!UICONTROL Pages]** report.
 
-   ![](assets/participation-pages.png)
+    ![](assets/participation-pages.png)
 
-1. (Optioneel) Deel de metrische gegevens met andere gebruikers in uw organisatie, zoals beschreven in [Berekende maatstaven delen](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+1. (Optional) Share the metric with other users in your organization, as described in [Share calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+-->

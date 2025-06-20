@@ -1,39 +1,89 @@
 ---
 description: In Segmentbeheer kunt u tags toewijzen aan segmenten en deze ordenen.
-title: Segmenten een label geven
+title: Tagsegmenten
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 2%
+source-wordcount: '190'
+ht-degree: 0%
 
 ---
 
-# Segmenten een label geven
+# Tagsegmenten
 
-In Segmentbeheer kunt u tags toewijzen aan segmenten en deze ordenen.
+In de [ manager van het Segment ](seg-manage.md), kunt u markeringen gebruiken om segmenten te organiseren. Beheerders kunnen alle segmenten labelen. Niet-beheerders kunnen alleen de segmenten die ze maken of met hen zijn gedeeld, van tags voorzien.
 
-Alle gebruikers kunnen labels voor segmenten maken en een of meer tags toepassen op een segment. U kunt echter alleen labels zien voor de segmenten die u bezit of die met u zijn gedeeld. Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:
+Een of meer segmenten labelen:
 
-* Tags gebaseerd op **teamnamen**, zoals Sociale marketing, Mobiele marketing.
-* **Project** tags (analysetags), zoals analyse van de pagina Invoer.
-* **Categorie** tags: Mannen; geografie.
-* **Workflow** tags: goed te keuren; Gecurreerd voor (een specifieke bedrijfseenheid)
+1. In de [ manager van het Segment ](seg-manage.md), selecteer één of meerdere segmenten u wilt etiketteren.
+1. Van de actiebar, uitgezochte ![ Etiketten ](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
+1. In het dialoogvenster **[!UICONTROL Tag Segment]** :
 
-1. Markeer in Segmentbeheer het selectievakje naast het segment dat u wilt labelen. De werkbalk voor segmentbeheer wordt weergegeven:
+   ![ de dialoog van Segmenten van de Markering ](assets/segments-tag.png)
 
-   ![](assets/segment_mgmt_toolbar.png)
+   1. (Naar keuze) gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) om naar de lijst van markeringen te zoeken en te beperken.
 
-1. Klikken **[!UICONTROL Tag]** en hetzij
+   2. Gebaseerd op de lijst met labels:
 
-   * uit bestaande tags selecteren, of
-   * een nieuwe tag toevoegen en op **[!UICONTROL Enter]**.
+      * een of meer bestaande tags in de lijst te selecteren, of
+      * Voer een nieuwe tag in en druk op **[!UICONTROL ENTER]** . Herhaal deze bewerking om meerdere nieuwe tags toe te voegen.
 
-      ![](assets/tagging_ui.png)
+1. Selecteer **[!UICONTROL Save]** om de tags voor het segment op te slaan. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
-1. Klikken **[!UICONTROL Tag]** opnieuw om het segment te labelen.
+Zodra bewaard, zijn de markeringen vermeld op het [!UICONTROL Tag] gebied voor de geselecteerde segmenten in de [ bouwer van het Segment ](seg-build.md).
 
-Het label moet nu in de kolom Codes staan. (Klik op het tandwielpictogram rechtsboven om de kolommen te beheren.)
 
-U kunt ook filteren op tags door naar **[!UICONTROL Filters]** > **[!UICONTROL Tags]**.
+## Suggesties
+
+Hieronder volgen enkele suggesties voor het organiseren van tags op basis van:
+
+* **Team**: Bijvoorbeeld, Sociale Marketing, Mobiele Marketing.
+
+* **Project**: Bijvoorbeeld, ingang-pagina analyse.
+
+* **Categorie**:. Bijvoorbeeld Mannen, Vrouwen, Kinderen.
+
+* **Geografie**: Bijvoorbeeld: Verenigde Staten, Californië.
+
+* **Werkschema**: Bijvoorbeeld: Om te worden goedgekeurd, Gekrulde
+
+
+<!--
+In the [Segment manager](seg-manage.md), you can use tags to organize segments. Administrators can tag all segments. Non administroators can tags only the segments they create or have been shared with them.
+
+To tag one or more segments:
+
+1. In the [Segment manager](seg-manage.md), select one or more of the segments you want to tag.
+1. From the action bar, select ![Labels](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
+1. In the **[!UICONTROL Tag Segments]** dialog:
+   
+   ![Tag Segments dialog](assets/tag-filter-dialog.png)
+
+   1. (optionally) use ![Search](/help/assets/icons/Search.svg) to search for and limit the list of tags.
+
+   2. Based on the list of tags:
+   
+      * select one or more existing tags from the list, or
+      * enter a new tag and press **[!UICONTROL ENTER]**. Repeat to add more than one new tag.
+
+1. Select **[!UICONTROL Save]** to save the tags for the segment. Select **[!UICONTROL Cancel]** to cancel.
+
+Once saved, the tags are listed in the [!UICONTROL Tag] field for the selected segments in the [Segment builder](seg-builder.md). 
+
+
+## Suggestions
+
+Below are some suggestions to organize tags based on:
+
+* **Team**: For example, Social Marketing, Mobile Marketing.
+    
+* **Project**: For example, Entry-page analysis.
+    
+* **Category**:. For example, Men, Women, Kids.
+
+* **Geography**: For example: United States, California.
+    
+* **Workflow**: For example: To be approved,  Curated
+
+-->

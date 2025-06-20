@@ -5,9 +5,9 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '798'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ Met [!UICONTROL Column settings] kunt u kolomopmaak configureren, waarvan sommig
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#128279;](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0&rbrace; VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0} VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.![
 
 >[!ENDSHADEBOX]
 
@@ -34,14 +34,14 @@ U kunt instellingen voor meerdere kolommen tegelijk bewerken. Selecteer veelvoud
 
 | Optie | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Show total]** | Een som van de kolommen aan de clientzijde weergeven. Dit totaal **&#x200B;**&#x200B;dedupliceert metriek zoals zittingen of personen niet. |
+| **[!UICONTROL Show total]** | Een som van de kolommen aan de clientzijde weergeven. Dit totaal **** dedupliceert metriek zoals zittingen of personen niet. |
 | **[!UICONTROL Show grand total]** | Toon een server-zijsom van de kolom. Het totaal-generaal dedupliceert metriek zoals zittingen of personen. |
 | **[!UICONTROL Show sparkline]** | Een lijndiagram weergeven bij de kolomkop. |
 | **[!UICONTROL Number]** | Bepaal of een cel de numerieke waarde voor de metrische waarde weergeeft/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
 | **[!UICONTROL Percent]** | Bepaal of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem, gedeeld door de totale paginaweergaven voor de kolom.  Opmerking: percentages van meer dan 100% zijn mogelijk om accuraat te zijn. Het bovenste gebonden uiteinde kan naar 1.000% worden verplaatst om te voorkomen dat de kolombreedte te groot wordt. |
 | **[!UICONTROL Show anomalies]** | Bepaal of de waarden in deze kolom een anomaliedetectie uitvoeren. |
 | **[!UICONTROL Show forecast]** | Bepaal of de voorspelde waarden in deze kolom worden weergegeven. |
-| **[!UICONTROL Wrap header text]** | Plaats de koptekst in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Wrappen is handig voor het renderen van PDF en voor metriek met lange namen. Standaard ingeschakeld. |
+| **[!UICONTROL Wrap header text]** | Plaats de koptekst in Freeform-tabellen om kopteksten leesbaarder te maken en tabellen beter deelbaar te maken. Overvullen is handig voor PDF-rendering en voor metrische objecten met lange namen. Standaard ingeschakeld. |
 | **[!UICONTROL Interpret zero as no value]** | Bepaal of voor cellen met een waarde 0 een cel of een lege cel moet worden weergegeven. Deze interpretatie is handig wanneer u gegevens voor elke dag van een maand bekijkt en bepaalde dagen in de toekomst.  In plaats van &#39;0&#39; voor toekomstige datums weer te geven, worden lege cellen weergegeven. Bij grafieken wordt deze instelling ook gebruikt (diagrammen geven geen lijn of balk met 0 waarden weer). |
 | **[!UICONTROL Background]** | Bepaal of in een cel alle celopmaak wordt weergegeven of verborgen, inclusief de staafgrafiek en voorwaardelijke opmaak. |
 | **[!UICONTROL Bar Graph]** | Een horizontale staafgrafiek tonen die de waarde van de cel ten opzichte van het totaal voor de kolom vertegenwoordigt. |
@@ -57,7 +57,7 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 
 | Opties voor voorwaardelijke opmaak | Beschrijving |
 | --- | --- |
-| **[!UICONTROL &#x200B; Use percent limits]** | Wijzig het limietbereik zodat dit op percentages wordt gebaseerd in plaats van op absolute waarden. Het percentagelimietbereik werkt voor metriek die uitsluitend op percentage gebaseerd zijn (zoals Stuitsnelheid) en voor metriek die een telling en een percentage hebben (zoals Paginaweergaven). |
+| **[!UICONTROL  Use percent limits]** | Wijzig het limietbereik zodat dit op percentages wordt gebaseerd in plaats van op absolute waarden. Het percentagelimietbereik werkt voor metriek die uitsluitend op percentage gebaseerd zijn (zoals Stuitsnelheid) en voor metriek die een telling en een percentage hebben (zoals Paginaweergaven). |
 | **[!UICONTROL Auto-generated]** | Berekent automatisch de bovenste/middelste/onderste limieten op basis van de gegevens. De bovengrens is de hoogste waarde in deze kolom. De ondergrens is de laagste en het middelpunt is het gemiddelde van de boven- en ondergrens. |
 | **[!UICONTROL Custom]** | Wijs **[!UICONTROL Upper limit]**, **[!UICONTROL Midpoint]** en **[!UICONTROL Lower limit]** handmatig toe. De grenzen verstrekken de flexibiliteit om te bepalen wanneer een kolomwaarde goed, gemiddeld, of slecht wordt. |
 | **[!UICONTROL Conditional formatting palette]** | Pas een vooraf geconfigureerde kleurenset toe op cellen. Afhankelijk van welke van de vier beschikbare kleurenschema&#39;s u selecteert, worden de verschillende kleuren toegewezen aan hoge waarden, middelpuntwaarden, en lage waarden. <br> Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metric vervangt, worden de limieten voor die kolom opnieuw berekend (waarbij de metric op de X-as staat en de dimensie op de Y-as). |
@@ -108,10 +108,20 @@ Een niet-standaard toewijzingsmodel gebruiken voor een metrisch object in Analys
 
 {{attribution-models-details}}
 
+
+### Container
+
+{{attribution-container}}
+
+
 ### Venster Opzoeken
 
 {{attribution-lookback-window}}
 
+
+### Voorbeeld
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >

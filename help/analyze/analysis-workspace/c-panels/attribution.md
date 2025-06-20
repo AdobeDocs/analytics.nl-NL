@@ -4,9 +4,9 @@ description: Het toewijzingspaneel in Analysis Workspace gebruiken en interprete
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 8%
 
 ---
@@ -24,14 +24,14 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Kenmerk, deelvenster"
->abstract="Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch.<br/><br/>**Parameters &#x200B;**<br/>**Kanaal**<br/> de afmeting tegen attributen. Deze dimensie kan afzetkanalen, campagnes, of een andere dimensie zijn.<br/>**Modellen**<br/> het model bepaalt hoe het krediet aan touchpoints wordt toegewezen.<br/>**venster van de Lookback**<br/> Dit het plaatsen bepaalt het venster van gegevensattributie dat op elke omzetting van toepassing is."
+>abstract="Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch.<br/><br/>**Parameters **<br/>**Kanaal**<br/> de afmeting tegen attributen. Deze dimensie kan afzetkanalen, campagnes, of een andere dimensie zijn.<br/>**Modellen**<br/> het model bepaalt hoe het krediet aan touchpoints wordt toegewezen.<br/>**venster van de Lookback**<br/> Dit het plaatsen bepaalt het venster van gegevensattributie dat op elke omzetting van toepassing is."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ-deelvenster"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het paneel van de Attributie in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/attribution) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_Dit artikel documenteert het paneel van de Attributie in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -92,9 +92,17 @@ De volgende visualisatie maakt deel uit van de paneeluitvoer.
 
 {{attribution-models-details}}
 
+## Container
+
+{{attribution-container}}
+
 ## Venster Opzoeken
 
 {{attribution-lookback-window}}
+
+## Voorbeeld
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >

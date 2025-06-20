@@ -1,35 +1,54 @@
 ---
 description: Filteren op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld met mij, Favorieten en Goedgekeurd.)
-title: Segmenten filteren
+title: Filtersegmenten
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 3%
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
-# Segmenten filteren
+# De lijst met segmenten filteren
 
-Filteren op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld met mij, Favorieten en Goedgekeurd.)
+U kunt de lijst met segmenten filteren. Het gebruiken van een filter op segmenten maakt het gemakkelijker om de segmenten te vinden die aan u beschikbaar zijn, en segmenten van de [ manager van het Segment ](seg-manage.md) te beheren.
 
-Door te filteren kunt u gemakkelijker naar segmenten in de segmentrail zoeken.
+>[!NOTE]
+>
+>De lijst van segmenten verwijst naar de [ segmentlijst ](seg-manage.md#filters-list) als deel van de [ manager van het Segment ](seg-manage.md). U kunt die lijst filtreren gebruikend het ](/help/assets/icons/Filter.svg) [ paneel van de Filter ](seg-manage.md#filter-panel), deel van die zelfde [ manager van het Segment ](seg-manage.md).![
+>
 
-1. Klik in Segmentbeheer op de knop **[!UICONTROL Filters]** pictogram:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+De lijst met segmenten filteren:
 
-2. De volgende filters zijn beschikbaar:
+1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Filters nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
+1. Selecteer filters van om het even welke beschikbare [ filtersecties ](#filter-sections).
 
-   | Filternaam | Beschrijving |
-   |---|---|
-   | Tags | Hiermee kunt u filteren op segmenten met specifieke [tags](/help/components/segmentation/segmentation-workflow/seg-tag.md). De kolom Codes wordt standaard weergegeven. |
-   | Eigenaars | Hiermee kunt u segmenten filteren op eigenaar. |
-   | Rapportsuite | Hiermee kunt u filteren op rapportsuite. |
-   | Overige filters > Alles tonen | **(Alleen beheerder)** Toont alle segmenten, hun eigenaar, en de laatste datum zij werden gewijzigd. |
-   | Overige filters > Mine | Toont alle segmenten die u bezit. |
-   | Overige filters > Met mij gedeeld | Alle segmenten tonen die anderen [gedeeld](/help/components/segmentation/segmentation-workflow/t-seg-share.md) met u. |
-   | Overige filters > Favorieten | Hiermee worden alle segmenten weergegeven die u hebt gemarkeerd als [Favorieten](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
-   | Overige filters > Goedgekeurd | Alle officieel tonen [goedgekeurd](/help/components/segmentation/segmentation-workflow/seg-approve.md) segmenten. |
-   | Segmenten zoeken | Hiermee kunt u naar segmenten op naam zoeken. |
+   >[!INFO]
+   >
+   >*Punten* verwijzen naar de filterpunten die in de [ lijst van de Filter ](seg-manage.md#segment-list) worden getoond.
+   > 
+
+## Secties filteren
+
+De volgende filtersecties zijn beschikbaar:
+
+### Tags
+
+{{tagfiltersection}}
+
+### Rapportsuite
+
+{{reportsuitefiltersection}}
+
+### Eigenaar
+
+{{ownerfiltersection}}
+
+### Overige filters
+
+{{otherfiltersfiltersection}}
+
+
+De [ lijst van de Filter ](seg-manage.md#segment-list) wordt automatisch bijgewerkt gebaseerd op uw filterconfiguratie. U kunt de gevormde filters in de [ Actieve filterbar ](seg-manage.md#active-filter-bar) zien.

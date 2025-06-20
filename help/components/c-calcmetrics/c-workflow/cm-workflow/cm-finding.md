@@ -3,9 +3,9 @@ description: Beschrijft de twee belangrijkste manieren om uw metriek het sortere
 title: Metrische gegevens zoeken
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 U kunt metriek in Analysis Workspace op de zelfde manier vinden dat u van andere types van componenten de plaats bepaalt.
 
-Voor informatie over hoe u snel onderdelen kunt vinden, raadpleegt u [De componentenlijst zoeken, filteren en sorteren](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=nl-NL#search%2C-filter%2C-and-sort-the-component-list) in [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+Voor informatie over hoe te om van componenten snel de plaats te bepalen, zie [ Onderzoek, filter, en sorteer de componentenlijst ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#search-filter-and-sort-the-component-list) in [ het overzicht van Componenten ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).

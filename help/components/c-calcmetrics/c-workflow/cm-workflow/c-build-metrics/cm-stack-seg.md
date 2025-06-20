@@ -3,10 +3,10 @@ description: Toont om segmenten binnen Berekende Metrische Bouwer te stapelen en
 title: Segmenten stapelen en vervangen
 feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 9%
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 9%
 
 U kunt segmenten stapelen en vervangen binnen de Berekende metrische bouwer.
 
-## Segmenten stapelen {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
+## Segmenten stapelen {#stack-segment}
 
-1. Beginnen met het bouwen van metrische gegevens, zoals beschreven in [Metrische gegevens samenstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Begin bouwend metrisch, zoals die in [ wordt beschreven bouw berekende metriek ](cm-build-metrics.md).
 
 1. In het canvas van de Definitie, laat vallen het nieuwe segment naast bestaande:
 
-![](assets/cm_stack_seg.png)
+   ![ het canvas dat van de Definitie de metrische bezoekers van de V.S. toont daalde naast de bestaande Internationale Bezoekers.](assets/segment-stack.png)
 
-## Een segment vervangen door een ander segment {#section_3DA899DF522A44D7A583C5DC8C0A033E}
+## Een segment vervangen door een ander segment {#replace-segment}
 
-1. Beginnen met het bouwen van metrische gegevens, zoals beschreven in [Metrische gegevens samenstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Begin bouw metrisch, zoals die in [ wordt beschreven bouwt metriek ](cm-build-metrics.md).
 
 1. Zet het nieuwe segment op het canvas Definitie neer boven op het bestaande segment:
 
-![](assets/cm_replace_seg.png)
+   ![ het canvas van de Definitie die de Bezoekers van de V.S. tonen die bovenop Internationale Bezoekers werden gelaten vallen metrisch.](assets/segment-replace.png)

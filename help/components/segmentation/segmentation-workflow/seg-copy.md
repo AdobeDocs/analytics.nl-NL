@@ -2,23 +2,19 @@
 description: Beschrijft hoe te om een segment in de Manager van het Segment te kopiëren
 title: Segmenten kopiëren
 feature: Segmentation
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+exl-id: a7e8fd95-bb22-4961-8aac-a898faca50cd
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
 # Segmenten kopiëren
 
-Wanneer het creëren van een nieuw segment, is het soms gemakkelijker om een bestaand segment te kopiëren dat dicht bij het segment is dat u wilt creëren, dan de versie wijzigen u kopieerde.
+In de [ manager van het Segment ](seg-manage.md), kunt u segmenten kopiëren. Het kopiëren van een segment is handig wanneer u een enigszins gewijzigde versie van een bestaand segment wilt maken of wanneer u een segment dat u niet hebt, opnieuw wilt definiëren en u niet kunt bewerken.
 
-Een segment kopiëren in Segmentbeheer:
+1. In de [ manager van het Segment ](seg-manage.md), selecteer één of meerdere segmenten u wilt kopiëren.
+1. Van de actiebar, uitgezochte ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]**.
 
-1. Selecteer in Adobe Analytics de optie **[!UICONTROL Components]** tab, dan selecteren **[!UICONTROL Segments]**.
-
-1. Selecteer in Segmentbeheer het segment dat u wilt kopiëren.
-
-   De werkbalk voor segmentbeheer wordt weergegeven.
-
-1. Selecteren **[!UICONTROL Copy]**.
+De segmenten worden gekopieerd en verschijnen in de segmentlijst met dezelfde naam als het origineel, maar met (Kopie) eraan toegevoegd.

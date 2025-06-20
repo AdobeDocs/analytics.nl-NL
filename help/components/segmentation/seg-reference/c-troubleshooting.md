@@ -3,18 +3,18 @@ description: Los en los kwesties met betrekking tot segmenten problemen op.
 title: Probleemoplossing voor segmentering
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
-# Probleemoplossing voor segmentering
+# Problemen met segmentering
 
 ## Fout: &quot;Niet-compatibele elementen in dit segment&quot; {#incompatible}
 
-Deze fout treedt op wanneer u een segment probeert op te slaan in de map Data Warehouse waarin het segment elementen bevat die niet compatibel zijn met Data Warehouse. Voer een van de volgende twee handelingen uit om deze fout op te lossen:
+Deze fout treedt op wanneer u een segment probeert op te slaan in de Data Warehouse-map waarin het segment elementen bevat die niet compatibel zijn met Data Warehouse. Voer een van de volgende twee handelingen uit om deze fout op te lossen:
 
 * Het segment opslaan in een andere map
 * Verwijder of verander de incompatibele gedeelten van het segment.

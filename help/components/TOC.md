@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '784'
 ht-degree: 6%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 6%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Analytics Components-handleiding](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -180,24 +180,26 @@ ht-degree: 6%
    + [Informatie over segmentcontainers](segmentation/seg-containers.md)
    + [Segmenteringsfuncties in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Segmenteringsworkflow {#segmentation-workflow}
-      + [Overzicht van de segmentatieworkflow](segmentation/segmentation-workflow/seg-workflow.md)
+      + [Overzicht](segmentation/segmentation-workflow/seg-workflow.md)
       + [Elementen plannen](segmentation/segmentation-workflow/seg-plan.md)
+      + [Segmenten maken](segmentation/segmentation-workflow/seg-create.md)
       + [Segmenten maken](segmentation/segmentation-workflow/seg-build.md)
-      + [Opeenvolgende segmenten maken](segmentation/segmentation-workflow/seg-sequential-build.md)
-      + [Tagsegmenten](segmentation/segmentation-workflow/seg-tag.md)
-      + [Segmenten goedkeuren](segmentation/segmentation-workflow/seg-approve.md)
+      + [Snelle segmenten](segmentation/segmentation-workflow/seg-quick.md)
+      + [Sequentiële segmenten](segmentation/segmentation-workflow/seg-sequential-build.md)
       + [Segmenten delen](segmentation/segmentation-workflow/t-seg-share.md)
-      + [Segmenten publiceren naar de Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-      + [Segmenten selecteren en toepassen](segmentation/segmentation-workflow/t-seg-apply.md)
-      + [Filtersegmenten](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [Tagsegmenten](segmentation/segmentation-workflow/seg-tag.md)
+      + [De lijst met segmenten filteren](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Segmenten markeren als favorieten](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [Segmenten goedkeuren](segmentation/segmentation-workflow/seg-approve.md)
       + [Segmenten verwijderen](segmentation/segmentation-workflow/seg-delete.md)
       + [Segmenten kopiëren](segmentation/segmentation-workflow/seg-copy.md)
       + [Segmenten beheren](segmentation/segmentation-workflow/seg-manage.md)
+      + [Segmenten publiceren naar de Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Segmenten selecteren en toepassen](segmentation/segmentation-workflow/t-seg-apply.md)
    + Segmentverwijzing {#segment-reference}
-      + [Vergelijkingsoperatoren voor segmenten](segmentation/seg-reference/seg-operators.md)
-      + [Data Warehouse-segmentcompatibiliteit](segmentation/seg-reference/seg-compatibility.md)
-      + [Segmentrechten op rol](segmentation/seg-reference/seg-rights.md)
+      + [Operatoren](segmentation/seg-reference/seg-operators.md)
+      + [Compatibiliteit met Data Warehouse-segmenten](segmentation/seg-reference/seg-compatibility.md)
+      + [Segmentrechten per rol](segmentation/seg-reference/seg-rights.md)
       + [Problemen oplossen](segmentation/seg-reference/c-troubleshooting.md)
    + [Veelgestelde vragen over het beheer van verouderde segmenten](segmentation/seg-transition.md)
    + [Aanbevolen procedures](segmentation/best-practices.md)
@@ -208,9 +210,9 @@ ht-degree: 6%
       + [Workflow voor berekende metriek](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Metrische gegevens zoeken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Metrische gegevens samenstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Een metrische waarde voor Paginaweergaven per bezoek maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Een metrische &#39;Order Assists&#39; maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Een &quot;Deelname&quot;-metrisch maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Eenvoudig metrisch maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Een complexere metrische vormgeving](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Een metrische deelname maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Type en attributie metrisch](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Gesegmenteerde metriek](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Segmenten stapelen en vervangen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
