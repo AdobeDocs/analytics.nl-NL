@@ -121,7 +121,7 @@ Dit type segment filtert gegevenssets op basis van kenmerken die zijn gekoppeld 
 Analysis Workspace bevat de volgende aanvullende functies:
 
 - U kunt [ segmenten ](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) vergelijken.
-- Gebruik [ segmenten als afmetingen ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in een vergelijking.
+- Gebruik [ segmenten als afmetingen ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) in een vergelijking.
 - De segmenten van het gebruik in [ reserveanalyse ](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
 ## Door Adobe verschafte segmenten
@@ -279,7 +279,7 @@ Toegang tot Segmentbeheer via:
 
 +++ **Welke rechten en voorrechten moet ik gebruiken, creëren, en segmenten beheren?**
 
-Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen Admins beslissen wie [ toestemmingen zou moeten hebben om segmenten ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
+Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen Admins beslissen wie [ toestemmingen zou moeten hebben om segmenten ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=nl-NL) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
 
 Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met iedereen in de organisatie. [ de rechten van het segment door rol ](/help/components/segmentation/seg-reference/seg-rights.md)
 

@@ -11,8 +11,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Een nieuwe en gestroomlijnde [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) werd vrijgegeven op 16 oktober, 2024. Deze functie wordt ondersteund in Mac-, Windows- en webbrowsers.
->&#x200B;>Deze verouderde Report Builder-invoegtoepassing werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in nieuwe Report Builder omzetten.
+>Een nieuwe en gestroomlijnde [ Report Builder ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/report-builder/rb-overview) werd vrijgegeven op 16 oktober, 2024. Deze functie wordt ondersteund in Mac-, Windows- en webbrowsers.
+>&#x200B;>Deze verouderde Report Builder-invoegtoepassing werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/report-builder/convert-workbooks) in nieuwe Report Builder omzetten.
 
 ## Rapporten & Analytics-aankondiging aan het einde van de levensduur {#ra-eol}
 
