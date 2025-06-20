@@ -23,7 +23,7 @@ De volgende informatie verklaart hoe te om tot een eenvoudige *Bekijken van de P
 1. Voeg een **[!UICONTROL Tag]** toe om uw metriek te organiseren.
 1. Voor deze berekende metrische waarde sleept u **[!UICONTROL Page Views]** eerst van de **[!UICONTROL Dimensions]** -componenten naar het **[!UICONTROL Definition]** -gedeelte van het canvas.
 1. Vervolgens sleept u **[!UICONTROL Visits]** uit de **[!UICONTROL Metrics]** -componenten en zet u de metrische waarde onder **[!UICONTROL Page Views]** (wacht tot de blauwe lijn verschijnt voordat u de metrische waarde neerzet).
-1. Selecteer de verdelings{](/help/assets/icons/Divide.svg) exploitant 0} verdelen. ![ (Splitsen is de standaardoperator.)
+1. Selecteer de verdelings{![&#128279;](/help/assets/icons/Divide.svg) exploitant 0} verdelen.  (Splitsen is de standaardoperator.)
 1. U kunt **[!UICONTROL Preview]** van metrisch zien terwijl u metrisch bouwt.
 1. [ de verenigbaarheid van het Product ](../../../cm-compatibility.md) toont u of metrisch met Huidige Gegevens of slechts met volledig Verwerkte Gegevens compatibel is.
 
