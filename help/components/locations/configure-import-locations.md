@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Locaties voor het importeren en exporteren van cloud configureren
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
+source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Nadat u [ een wolkenrekening ](/help/components/locations/configure-import-accou
 
 * Het uitvoeren van dossiers gebruikend [ Diefstal van Gegevens ](/help/export/analytics-data-feed/create-feed.md)
 * Het uitvoeren van rapporten gebruikend [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Het uitvoeren van dossiers wanneer het gebruiken van [ Report Builder ](/help/analyze/report-builder/report-builder-export.md)
 * Het invoeren van schema&#39;s gebruikend [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md)
 
 U moet Adobe Analytics configureren met de benodigde informatie voor toegang tot uw cloud-account. Dit proces bestaat uit het toevoegen van en het vormen van de rekening (zoals Amazon S3 Rol ARN, het Platform van de Wolk van Google, enzovoort) zoals die in [ wordt beschreven vormt wolkeninvoer en de uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md), en dan het toevoegen van en het vormen van de plaats binnen die rekening (zoals die in dit artikel wordt beschreven).
@@ -54,7 +55,7 @@ Voor informatie over hoe te om bestaande plaatsen te bekijken en te schrappen, z
    |---------|----------|
    | [!UICONTROL **Naam**] | De naam van de locatie. |
    | [!UICONTROL **Beschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. |
-   | [!UICONTROL **Gebruik met**] | Selecteer of u deze plaats met **,[!UICONTROL ** Data Warehouse **], of[!UICONTROL ** de reeksen van de Classificatie **]wilt gebruiken.** <p>Houd rekening met het volgende wanneer u een selectie maakt:</p><ul><li>Eén locatie kan niet voor meerdere doeleinden worden gebruikt. Een locatie die bijvoorbeeld wordt gebruikt voor gegevensfeeds, kan niet ook worden gebruikt voor Data Warehouse- of classificatiesets.</li><li>Om dossierconflicten binnen een plaats te vermijden, verander niet de waarde van het [!UICONTROL **Gebruik met**] gebied nadat de plaats is gebruikt.</li><li>Als u een plaats voor een E-mailrekening creeert, uitgezochte [!UICONTROL **Data Warehouse**] op dit gebied. E-maillocaties worden niet ondersteund met gegevensfeeds en classificatiesets.</li></ul> |
+   | [!UICONTROL **Gebruik met**] | Selecteer of u deze plaats met [!UICONTROL **de Eigen van Gegevens**] wilt gebruiken, [!UICONTROL **Data Warehouse**], [!UICONTROL **de reeksen van de Classificatie**], of **[!UICONTROL Report Builder]**. <p>Houd rekening met het volgende wanneer u een selectie maakt:</p><ul><li>Eén locatie kan niet voor meerdere doeleinden worden gebruikt. Een locatie die bijvoorbeeld wordt gebruikt voor gegevensfeeds, kan niet ook worden gebruikt voor Data Warehouse of classificatiesets.</li><li>Om dossierconflicten binnen een plaats te vermijden, verander niet de waarde van het [!UICONTROL **Gebruik met**] gebied nadat de plaats is gebruikt.</li><li>Als u een plaats voor een E-mailrekening creeert, uitgezochte [!UICONTROL **Data Warehouse**] op dit gebied. E-maillocaties worden niet ondersteund met gegevensfeeds en classificatiesets.</li></ul> |
    | [!UICONTROL **plaats van het Merk beschikbaar aan alle gebruikers in uw organisatie**] | Schakel deze optie in als u wilt dat andere gebruikers in uw organisatie de locatie kunnen gebruiken.<p>Houd rekening met het volgende wanneer u locaties deelt:</p><ul><li>Locaties die u deelt, kunnen niet worden verwijderd.</li><li>Gedeelde locaties kunnen alleen door de eigenaar van de locatie worden bewerkt.</li><li>Locaties kunnen alleen worden gedeeld als de account waaraan de locatie is gekoppeld, ook wordt gedeeld.</li></ul> |
    | [!UICONTROL **de rekening van de Plaats**] | Selecteer de locatie waar u deze locatie wilt maken. Voor informatie over hoe te om een rekening tot stand te brengen, zie [ de invoer van de wolk en de uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md) vormen. |
 
@@ -68,14 +69,14 @@ Geef de volgende informatie op om een ARN-locatie voor Amazon S3 Role te configu
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de Gebruiker ARN die door Adobe werd verstrekt de `S3:PutObject` toestemming heeft om dossiers aan dit emmertje te uploaden. </p><p>Emmernamen moeten voldoen aan specifieke naamgevingsregels. Ze moeten bijvoorbeeld tussen 3 en 63 tekens lang zijn, ze mogen alleen bestaan uit kleine letters, cijfers, puntjes (.) en afbreekstreepjes (-) en ze moeten beginnen en eindigen met een letter of getal. [ A volledige lijst van het noemen van regels is beschikbaar in de documentatie van AWS ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de door Adobe verschafte Gebruiker-ARN over de `S3:PutObject` -machtiging beschikt om bestanden te uploaden naar dit emmertje. </p><p>Emmernamen moeten voldoen aan specifieke naamgevingsregels. Ze moeten bijvoorbeeld tussen 3 en 63 tekens lang zijn, ze mogen alleen bestaan uit kleine letters, cijfers, puntjes (.) en afbreekstreepjes (-) en ze moeten beginnen en eindigen met een letter of getal. [ A volledige lijst van het noemen van regels is beschikbaar in de documentatie van AWS ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Prefix**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
 
    {style="table-layout:auto"}
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
@@ -92,14 +93,14 @@ Geef de volgende informatie op om een locatie voor een Google Cloud-platform te 
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. Zorg ervoor dat u aan Opdrachtgever toestemming hebt verleend die door Adobe wordt verstrekt om dossiers aan dit emmertje te uploaden. |
+   | [!UICONTROL **Emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. Zorg ervoor dat u de Principal van Adobe toestemming hebt gegeven om bestanden te uploaden naar dit emmertje. |
    | [!UICONTROL **Prefix**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Map_name/ |
 
    {style="table-layout:auto"}
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
@@ -123,7 +124,7 @@ Geef de volgende informatie op om een Azure SAS-locatie te configureren:
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
@@ -148,7 +149,7 @@ Geef de volgende informatie op om een Azure RBAC-locatie te configureren:
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
@@ -171,7 +172,7 @@ Om een e-mailplaats te vormen, specificeer de volgende informatie:
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt gegevens naar de rekening en de plaats nu uitvoeren die u wanneer het gebruiken van [ de Eigen van Gegevens ](/help/export/analytics-data-feed/create-feed.md) vormde. (E-mailplaatsen worden niet gesteund met [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) of [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md)).
+   U kunt gegevens naar de rekening en de plaats nu uitvoeren die u wanneer het gebruiken van [ de Eigen van Gegevens ](/help/export/analytics-data-feed/create-feed.md) vormde. (E-mailplaatsen worden niet gesteund met [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [ Report Builder ](/help/analyze/report-builder/report-builder-export.md), of [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md)).
 
 ### Oudere accounttypen
 
@@ -179,7 +180,7 @@ Deze types van erfenisrekening zijn beschikbaar slechts wanneer het uitvoeren va
 
 +++FTP
 
-Gegevens over gegevenstoevoer kunnen naar een door de Adobe of klant gehoste FTP-locatie worden verzonden. Geef de map op. Gebruik het veld Pad om feed-bestanden in een map te plaatsen.
+Gegevens over gegevenstoevoer kunnen worden geleverd aan een door de Adobe of de klant gehoste FTP-locatie. Geef de map op. Gebruik het veld Pad om feed-bestanden in een map te plaatsen.
 
 | Veld | Functie |
 |---------|----------|
@@ -191,7 +192,7 @@ Gegevens over gegevenstoevoer kunnen naar een door de Adobe of klant gehoste FTP
 
 +++SFTP
 
-Gegevens over gegevenstoevoer kunnen worden geleverd aan een Adobe of door de klant gehoste SFTP-locatie. De bestemmingsplaats moet een geldige RSA of DSA openbare sleutel bevatten. U kunt de juiste openbare sleutel downloaden wanneer u de feed maakt.
+Gegevens over gegevenstoevoer kunnen worden geleverd aan een door Adobe of de klant gehoste SFTP-locatie. De bestemmingsplaats moet een geldige RSA of DSA openbare sleutel bevatten. U kunt de juiste openbare sleutel downloaden wanneer u de feed maakt.
 
 | Veld | Functie |
 |---------|----------|

@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 11%
+source-wordcount: '966'
+ht-degree: 6%
 
 ---
 
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -64,7 +64,7 @@ ht-degree: 11%
       + Segmenten {#segments}
          + [Segmenten maken](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Snelle segmenten](analysis-workspace/components/segments/quick-segments.md)
-      + Kalender- en datumbereiken {#calendar-date-ranges}
+      + Kalender- en datumbereik {#calendar-date-ranges}
          + [Overzicht van kalender- en datumbereiken](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Aangepaste datumbereiken maken](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Datumvergelijking](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
@@ -76,7 +76,7 @@ ht-degree: 11%
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gegevensbronnen beheren](analysis-workspace/visualizations/t-sync-visualization.md)
-      + Vrije-vormentabel {#freeform-table}
+      + Vrije-vormtabel {#freeform-table}
          + [Vrije-vormtabel](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Hyperlinks maken voor afmetingen in een vrije-vormtabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
@@ -85,11 +85,11 @@ ht-degree: 11%
             + [Dynamische versus statische items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Vrije-vormtabellen filteren en sorteren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Workspace Totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-      + Cohorttabel {#cohort-table}
+      + Cohortabel {#cohort-table}
          + [Wat is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Een rapport Cohortanalyse configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Gebruiksgevallen van Cohort Analyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
-      + Uitval {#fallout}
+      + Fallout {#fallout}
          + [Overzicht van uitval](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Een fallout-visualisatie configureren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Multidimensionale uitval](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
@@ -126,11 +126,11 @@ ht-degree: 11%
       + [Volgend of vorig deelvenster met items](analysis-workspace/c-panels/next-previous.md)
       + [Het deelvenster Paginaoverzicht](analysis-workspace/c-panels/page-summary.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
-      + Deelvenster Segmentvergelijking {#segment-comparison}
+      + Het vergelijkingspaneel Segment {#segment-comparison}
          + [Overzicht van de segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Gebruiksgevallen voor vergelijking van segmenten](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests gebruikt bij de vergelijking van segmenten](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Projecten cureren, delen en plannen {#curate-share}
+   + De projecten van de cursus, van het Aandeel, en van het Programma {#curate-share}
       + [Menu Delen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
       + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
@@ -157,21 +157,23 @@ ht-degree: 11%
       + [Veelgestelde vragen](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace-prestaties optimaliseren](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Foutberichten](analysis-workspace/workspace-faq/error-messages.md)
-      + [Beperkingen van de analysewerkruimte](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Analysis Workspace-beperkingen](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Administratieve vereisten](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
-   + [Overzicht van Report Builder](report-builder/rb-overview.md)
+   + [Report Builder - Overzicht](report-builder/rb-overview.md)
    + [Report Builder instellen](report-builder/report-builder-setup.md)
-   + [Verouderde aanvragen converteren](report-builder/convert-workbooks.md)
+   + [Oudere aanvragen converteren](report-builder/convert-workbooks.md)
    + [Een gegevensblok maken](report-builder/create-a-data-block.md)
-   + [Hub voor het maken van rapporten](report-builder/report-builder-hub.md)
-   + [Selecteer een Report Suite](report-builder/select-report-suite.md)
+   + [Report Builder Hub](report-builder/report-builder-hub.md)
+   + [Selecteer een rapportsuite](report-builder/select-report-suite.md)
    + [Een datumbereik selecteren](report-builder/select-date-range.md)
    + [Werken met segmenten](report-builder/work-with-segments.md)
    + [Filterafmetingen](report-builder/filter-dimensions.md)
    + [Gegevensblokken beheren](report-builder/manage-reportbuilder.md)
-   + [Workbooks plannen](report-builder/schedule-reportbuilder.md)
+   + [Werkboeken plannen voor e-mail](report-builder/schedule-reportbuilder.md)
+   + [Workbooks plannen voor het exporteren van cloud](/help/analyze/report-builder/report-builder-export.md)
+   + [Geplande werkboeken beheren](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Beperkte labels](report-builder/restricted-labels.md)
    + [Report Builder-instellingen](report-builder/report-builder-settings.md)
 + Legacy Report Builder {#legacy-report-builder}
@@ -184,10 +186,10 @@ ht-degree: 11%
       + [Report Builder verwijderen](legacy-report-builder/setup/t-uninstall-arb.md)
       + [Report Builder-functionaliteit aanroepen vanuit Microsoft Excel-functies](legacy-report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder, werkbalk](legacy-report-builder/reportbuilder-toolbar.md)
-   + Data-aanvragen {#data-requests}
+   + Gegevensaanvragen {#data-requests}
       + [Gegevensverzoeken - stap 1 van de wizard Verzoek](legacy-report-builder/data-requests/data-requests.md)
       + [Een gegevensaanvraag maken](legacy-report-builder/data-requests/t-create-a-data-request.md)
-      + Rapportsuites {#report-suites}
+      + Reeksen rapporteren {#report-suites}
          + [Selecteer een rapportsuite](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
          + [Selecteer een rapportsuite vanuit een bestaand verzoek in Excel](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel gebruiken om van een rapportsuite-id te zoeken](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
@@ -217,16 +219,16 @@ ht-degree: 11%
          + [Granulariteit](legacy-report-builder/data-requests/configuring-report-dates/granularity.md)
          + [Aangepaste kalender](legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [Interactieve besturingselementen](legacy-report-builder/data-requests/interactive-controls.md)
-   + Lay-out - stap 2 van de wizard Aanvragen {#layout}
-      + [Overzicht lay-out](legacy-report-builder/layout/layout.md)
-      + Overzicht van cijfers en dimensies {#metrics-dimension}
-         + [Overzicht van statistieken en dimensies](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
-         + [Metrische gegevens en dimensies toevoegen](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
+   + Layout - Wizard Verzoek, stap 2 {#layout}
+      + [Overzicht van layout](legacy-report-builder/layout/layout.md)
+      + Statistieken en afmetingen {#metrics-dimension}
+         + [Overzicht van statistieken en afmetingen](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
+         + [Metriek en afmetingen toevoegen](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
          + [Berekende standaarden](legacy-report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
          + [Combineer verkeer en handelsmetriek in het zelfde verzoek](legacy-report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
-         + [Machtigingen voor gebruikerstoegang voor dimensies en metrische gegevens](legacy-report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
-         + [Metrische gegevens wijzigen - velddefinities](legacy-report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
-         + [Eigenschappen van de klant](legacy-report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
+         + [Toegangsrechten van gebruikers voor afmetingen en metriek](legacy-report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
+         + [Metriek wijzigen - velddefinities](legacy-report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
+         + [Klantkenmerken](legacy-report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [Anomaliedetectie](legacy-report-builder/layout/anomaly-detection.md)
       + [Een verzoek voor afwijkingsdetectie configureren](legacy-report-builder/layout/t-anomaly.md)
       + [De datum opmaken](legacy-report-builder/layout/format-the-data.md)
@@ -238,7 +240,7 @@ ht-degree: 11%
       + [De aangepaste indeling configureren](legacy-report-builder/layout/configure-the-custom-layout.md)
       + [Metriek en afmetingen toewijzen aan cellen](legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [Een microdiagram maken](legacy-report-builder/layout/t-create-a-microchart.md)
-      + Dimensies filteren {#filter-dimenson}
+      + Filterafmetingen {#filter-dimenson}
          + [Overzicht van filterafmetingen](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [Populairste filters](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [Specifieke filters](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)
@@ -254,7 +256,7 @@ ht-degree: 11%
       + [Verzoeken voor alle bladen vernieuwen](legacy-report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
       + [Afhankelijke aanvragen toevoegen](legacy-report-builder/manage-requests/add-dependent-requests.md)
       + [Classificatie](legacy-report-builder/manage-requests/classification.md)
-      + Aanvragen kopiëren {#copy-requests}
+      + Verzoeken kopiëren {#copy-requests}
          + [Overzicht van verzoeken kopiëren](legacy-report-builder/manage-requests/c-copy-requests/copy-requests.md)
          + [Eenvoudige verzoeken kopiëren](legacy-report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
          + [Aangrenzende aanvragen kopiëren](legacy-report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
@@ -269,7 +271,7 @@ ht-degree: 11%
    + [Rapportaanvragen plannen](legacy-report-builder/schedule-report-requests.md)
    + [Een werkboek plannen](legacy-report-builder/t-schedule-a-data-request.md)
    + [Geplande Taakmanager](legacy-report-builder/r-arb-scheduled-reports.md)
-   + Werkmapbibliotheek {#workbook-library}
+   + Werkboekbibliotheek {#workbook-library}
       + [Een werkmap uploaden](legacy-report-builder/workbook-library/t-upload-a-workbook.md)
       + [Een werkmap downloaden](legacy-report-builder/workbook-library/t-download-a-workbook.md)
       + [Werkboeken vergrendelen/ontgrendelen](legacy-report-builder/workbook-library/protect-wb.md)
@@ -277,13 +279,13 @@ ht-degree: 11%
    + Publiceren naar Power BI met Report Builder 5.5 {#publish-powerbi}
       + [Publiceren naar Power BI - Overzicht](legacy-report-builder/c-publish-power-bi/power-bi.md)
       + [Beperkingen en specificaties](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
-      + [Gegevens handmatig importeren in Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
-      + [Gepubliceerde assets ophalen in Power BI Desktop](legacy-report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
+      + [Gegevens handmatig importeren naar Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
+      + [Gepubliceerde middelen ophalen in Power BI Desktop](legacy-report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
       + [Aanbevolen procedures](legacy-report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Problemen met Power BI-integratie oplossen](legacy-report-builder/c-publish-power-bi/troubleshooting.md)
       + [Adobe Analytics-inhoudspakketten voor Power BI](legacy-report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic-macro&#39;s](legacy-report-builder/vba.md)
-   + [Problemen met Report Builder oplossen](legacy-report-builder/troubleshoot.md)
+   + [Report Builder oplossen](legacy-report-builder/troubleshoot.md)
    + [Veelgestelde vragen over Report Builder](legacy-report-builder/faq.md)
 
 + Activity Map {#activity-map}

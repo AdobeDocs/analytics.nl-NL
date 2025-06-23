@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloud-import- en exportaccounts configureren
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ U kunt een cloudaccount configureren die wordt gebruikt voor een of meer van de 
 
 * Het uitvoeren van dossiers gebruikend [ Diefstal van Gegevens ](/help/export/analytics-data-feed/create-feed.md)
 * Het uitvoeren van rapporten gebruikend [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Het uitvoeren van dossiers wanneer het gebruiken van [ Report Builder ](/help/analyze/report-builder/report-builder-export.md)
 * Het invoeren van schema&#39;s gebruikend [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md)
 
 U moet Adobe Analytics configureren met de benodigde informatie voor toegang tot uw cloud-account. Dit proces bestaat uit het toevoegen van en het vormen van de rekening (zoals Amazon S3 Rol ARN, het Platform van de Wolk van Google, etc.) zoals die in dit artikel wordt beschreven, en dan het toevoegen van en het vormen van de plaats binnen die rekening (zoals een omslag binnen de rekening) zoals die in [ wordt beschreven vormt de wolkinvoer en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md).
@@ -66,11 +67,11 @@ Een cloudimport- of -exportaccount configureren:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **ARN van de Rol**] | U moet een Rol ARN (de Naam van het Middel van Amazon) verstrekken die de Adobe kan gebruiken om toegang tot de rekening van Amazon S3 te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Voor specifieke informatie, zie [ deze documentatie van AWS ](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+   | [!UICONTROL **ARN van de Rol**] | U moet een Role ARN (de Naam van het Middel van Amazon) verstrekken die Adobe kan gebruiken om tot de rekening van Amazon S3 toegang te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Voor specifieke informatie, zie [ deze documentatie van AWS ](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Google Cloud Platform
 
@@ -82,7 +83,7 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure SAS
 
@@ -98,7 +99,7 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure RBAC
 
@@ -112,7 +113,7 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++E-mail
 
@@ -128,7 +129,7 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    **Verouderde rekeningstypes**
 
@@ -136,7 +137,7 @@ Een cloudimport- of -exportaccount configureren:
 
    +++FTP
 
-   Gegevens over gegevenstoevoer kunnen naar een door de Adobe of klant gehoste FTP-locatie worden verzonden. Vereist een FTP-host, gebruikersnaam en wachtwoord. Gebruik het padveld om feed-bestanden in een map te plaatsen. Mappen moeten al bestaan; feeds genereren een fout als het opgegeven pad niet bestaat.
+   Gegevens over gegevenstoevoer kunnen worden geleverd aan een door de Adobe of de klant gehoste FTP-locatie. Vereist een FTP-host, gebruikersnaam en wachtwoord. Gebruik het padveld om feed-bestanden in een map te plaatsen. Mappen moeten al bestaan; feeds genereren een fout als het opgegeven pad niet bestaat.
 
    | Veld | Functie |
    |---------|----------|
@@ -147,13 +148,13 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++SFTP
 
    SFTP-ondersteuning voor gegevensfeeds is beschikbaar. Vereist een gastheer SFTP, gebruikersbenaming, en de bestemmingsplaats om een geldige RSA of DSA openbare sleutel te bevatten. U kunt de juiste openbare sleutel downloaden wanneer u de feed maakt.
 
-   +++
++++
 
    +++S3
 
@@ -188,7 +189,7 @@ Een cloudimport- of -exportaccount configureren:
    >
    >De regio cn-North-1 wordt niet ondersteund.
 
-   +++
++++
 
    +++Azure Blob
 
@@ -198,7 +199,7 @@ Een cloudimport- of -exportaccount configureren:
    >
    >U moet uw eigen proces uitvoeren om schijfruimte op de bestemming van het gegevenspakhuis te beheren. Adobe verwijdert geen gegevens van de server.
 
-   +++
++++
 
 1. Selecteer [!UICONTROL **sparen**].
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Locatiebeheer
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ Met Locations Manager kunt u accounts en locaties weergeven, maken, bewerken of 
 
 * Het uitvoeren van dossiers gebruikend [ Diefstal van Gegevens ](/help/export/analytics-data-feed/create-feed.md)
 * Het uitvoeren van rapporten gebruikend [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Het uitvoeren van dossiers wanneer het gebruiken van [ Report Builder ](/help/analyze/report-builder/report-builder-export.md)
 * Het invoeren van schema&#39;s gebruikend [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md)
 
 ## Locaties weergeven, filteren en zoeken
@@ -71,9 +72,9 @@ Voor informatie over hoe te om een plaats uit te geven, zie [ de invoer van de w
 
 >[!IMPORTANT]
 >
->Als een plaats wordt geschrapt, zullen om het even welke dossiers van de Invoer van Gegevens, rapporten van de Data Warehouse, of de schema&#39;s van de classificatiereeksen die met de geschrapte plaats worden geassocieerd de volgende tijd ontbreken zij worden gebruikt.
+>Als een locatie wordt verwijderd, mislukken gegevensfeed-bestanden, Data Warehouse-rapporten of indelingssetschema&#39;s die aan de verwijderde locatie zijn gekoppeld de volgende keer dat ze worden gebruikt.
 >
->Als u een plaats schrapt, zou u [ uw Diefen van Gegevens ](/help/export/analytics-data-feed/create-feed.md) moeten uitgeven, [ rapporten van de Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), en [ de plaatsingsschema&#39;s van de Classificatie ](/help/components/classifications/sets/manage/schema.md) om een werkende plaats te gebruiken.
+>Als u een plaats schrapt, zou u uw Diefen van Gegevens ](/help/export/analytics-data-feed/create-feed.md) moeten uitgeven, [ Data Warehouse rapporten ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), en [ de reeksen van de Classificatie schema&#39;s ](/help/components/classifications/sets/manage/schema.md) om een werkende plaats te gebruiken.[
 
 Een locatie kan alleen worden verwijderd door de gebruiker die de locatie heeft gemaakt of door een systeembeheerder.
 

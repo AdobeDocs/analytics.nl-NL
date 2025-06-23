@@ -1,19 +1,23 @@
 ---
-title: Hoe te om werkboeken te plannen gebruikend Report Builder in Adobe Analytics
-description: Leer hoe u de planningsfunctie in Report Builder gebruikt
+title: Workbooks plannen met Report Builder in Adobe Analytics
+description: Meer informatie over het gebruik van de planningsfunctie in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
 
-# Workbooks plannen
+# Workbooks plannen door ze via e-mail te delen
+
+>[!NOTE]
+>
+>Naast het plannen van werkboeken voor het delen door e-mail, zoals die in deze sectie wordt beschreven, kunt u werkboeken plannen om naar wolkenbestemmingen worden uitgevoerd, zoals die in [ worden beschreven werkboeken van het Programma voor de uitvoer naar wolkenbestemmingen ](/help/analyze/report-builder/report-builder-export.md).
 
 Nadat u uw werkboek en voltooide uw analyse bewaarde, kunt u uw werkboek met anderen op uw team gemakkelijk delen gebruikend de het plannen eigenschap. De eigenschap van het Programma staat u toe om een programma tot stand te brengen dat automatisch de gegevens in het werkboek vernieuwt en het dossier van het werkboek van Excel .xlsx als gehechtheid aan uw gespecificeerd publiek op een specifieke datum en een tijd e-mailt. Als u een schema instelt, krijgen ontvangers automatisch regelmatig updates. U kunt de planningseigenschap ook gebruiken om het werkboek eens uit te sturen zonder automatische updates te plannen.
 
@@ -31,9 +35,9 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ werkboeken va
 
 ## Een werkboek plannen
 
-Gebruik de knoop van het Programma in de hub van de Report Builder om snel een programma tot stand te brengen zodat u een dossier van werkboekExcel (.xlsx) aan een individu of een groep kunt automatisch verdelen.
+Gebruik de knoop van het Programma in de hub van Report Builder om snel een programma tot stand te brengen zodat u een dossier van werkboekExcel (.xlsx) aan een individu of een groep kunt automatisch verdelen.
 
-1. Klik de knoop van het Programma in de hub van de Report Builder.
+1. Klik op de knop Planning in de Report Builder-hub.
 
    ![ klik de knoop van het Programma om een programma tot stand te brengen.](./assets/schedule-button.png){width="55%"}
 
@@ -77,7 +81,7 @@ Gebruik de knoop van het Programma in de hub van de Report Builder om snel een p
 
    ![ klik verzenden op programma.](./assets/send-on-schedule.png){width="55%"}
 
-   U zult een bevestigingstoast bij de bodem van de hub van de Report Builder zien en het geplande werkboek is vermeld onder het lusje van Werkboeken.
+   U ziet een bevestigingstoets bij de bodem van de hub van Report Builder en het geplande werkboek is vermeld onder het lusje van Werkboeken.
 
    ![ Bevestiging toast ](./assets/confirmation-toast.png){width="55%"}
 
@@ -87,7 +91,7 @@ Gebruik de knoop van het Programma in de hub van de Report Builder om snel een p
 
    Een pop - op verschijnt, vragend of wilt u het plannen metada van het erfeniswerkboek gebruiken om een nieuwe geplande taak tot stand te brengen.
 
-1. Als u **[!UICONTROL Use]** selecteert, vult de Report Builder automatisch de oude planningsinformatie in.
+1. Als u **[!UICONTROL Use]** selecteert, vult Report Builder automatisch de oudere planningsgegevens in.
 
 1. Zorg ervoor dat deze informatie correct en volgens plan is.
 
@@ -104,44 +108,6 @@ U kunt het werkboek ook slechts eenmaal verzenden.
 
 1. Klik **verzenden nu**.
 
-## Geplande werkboeken weergeven en bewerken {#view-edit}
+## Geplande werkboeken beheren
 
-U kunt alle geplande werkboeken weergeven en beheren op één locatie onder het tabblad Werkboeken.
-
-1. In de sectie van het Programma van de hub van de Report Builder, klik de Werkboeken tabel. Gebruik deze weergave om een lijst met alle geplande werkboeken weer te geven.
-
-1. Selecteer een werkboek. Verscheidene hulpmiddelen worden getoond die u toestaan om het werkboek uit te geven, de planningstaak uit te geven, de planningstaak te pauzeren en opnieuw te beginnen, een gepland taakrapport te downloaden, of de planningstaak te schrappen.
-
-   ![ Screenshot die de werkboekplanningspictogrammen tonen.](./assets/schedule-icons.png){width="20%"}
-
-* (Facultatief) klik het potloodpictogram om de werkboekplanningstaak uit te geven.
-
-* (Optioneel) Klik op het klokpictogram om een geschiedenis van elke geplande taak weer te geven.
-
-* (Optioneel) Klik op het pauzepictogram om de taak van het distributieprogramma te onderbreken en opnieuw te starten. Dit is nuttig als u het werkboek moet wijzigen alvorens het werkboek wordt verzonden. Klik nogmaals op het pauzepictogram als u de distributie opnieuw wilt starten.
-
-* (Facultatief) klik het downloadpictogram om een exemplaar van de werkboekprogrammataak te downloaden.
-
-* (Optioneel) Klik op de prullenbak om de geplande taak te verwijderen.
-
-  ![ Schermafbeelding die de lijst met planningstaken toont.](./assets/selected-workbook.png){width="40%"}
-
-## De status van geplande taken controleren {#status}
-
-In de geschiedenisweergave kunt u de status van elke geplande taak controleren. Er is een afzonderlijke rij die de statusverandering voor elke geplande taak documenteert. In het hieronder getoonde voorbeeld, werd het *Nieuwe Uur Programma* in werking gesteld op 5 Januari, bij 3:04pm. Om 15:05 uur is het bestand vernieuwd en verzonden naar ontvangers. Het volgende werkboek, *Onjuiste werkboek*, ontmoette een fout tijdens verfrist proces. Als een werkboek niet kon verzenden, helpt het geschiedenislusje u problemen oplossen door te tonen waar in het proces de fout voorkwam. In dit geval, is het waarschijnlijk toe te schrijven aan één of andere fout van het gegevensblok, misschien een ontbrekende component, die het werkboek van met succes het verfrissen hield.
-
-Een groen vinkje wijst erop dat het werkboek met succes werd verzonden. Een uitroepteken in een rode driehoek geeft aan dat er een fout is opgetreden.
-
-U kunt kiezen welke kolommen u wilt weergeven op het tabblad Historie door op het pictogram voor kolominstellingen rechts van de zoekbalk te klikken.
-
-![ klik het kolompictogram om specifieke kolommen te tonen of te verbergen.](./assets/history.png){width="55%"}
-
-U kunt onderaan de geschiedenis filtreren om slechts dat van één enkele geplande werkboeken te zien door naar het werkboeklusje te gaan, het werkboek te selecteren en het geschiedenispictogram te klikken.
-
-U kunt de geschiedenis van een specifiek werkboek van het lusje van Werkboeken ook bekijken. Voor het lusje van Werkboeken, selecteer het werkboek en klik dan het geschiedenispictogram.
-
-![ het pictogram van de de geschiedenisgeschiedenis van werkboeken ](./assets/history2.png){width="55%"}
-
-Het werkboekfilter zal dan bij de bovenkant van de geschiedenis verschijnen. Klik op de x naast het filter om de geschiedenis van alle geplande taken opnieuw weer te geven.
-
-![ de werkboekfilter.](./assets/history3.png){width="55%"}
+Voor informatie over het beheren van werkboeken die reeds gepland zijn, zie [ geplande werkboeken beheren ](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
