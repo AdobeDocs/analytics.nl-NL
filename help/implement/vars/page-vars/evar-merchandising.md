@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Deze hulppagina beschrijft hoe te om het veranderen eVars uit te voeren. Voor informatie over hoe de handel drijvende eVars als afmeting werkt, zie [ Vars (de afmeting van het Merchandising) ](/help/components/dimensions/evar-merchandising.md) in de de gebruikersgids van Componenten.*
 
-Voor een gedetailleerde bespreking van hoe de handel drijvende eVars werkt, zie [ het Merchandising Vars en product het vinden methodes ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
+Voor een gedetailleerde bespreking van hoe de handel drijvende eVars werkt, zie [ het Merchandising Vars en product het vinden methodes ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=nl-NL).
 
 ## Vars instellen in instellingen van rapportsuite
 

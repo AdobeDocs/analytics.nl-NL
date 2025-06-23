@@ -24,7 +24,7 @@ Voordat je Adobe Analytics kunt gebruiken, moet je beschikken over:
 
 * Een ondersteunde browser
 
-  Elke gebruiker die Adobe Analytics opent, moet een ondersteunde browser gebruiken. Voor meer informatie, zie de [ het systeemvereisten van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html).
+  Elke gebruiker die Adobe Analytics opent, moet een ondersteunde browser gebruiken. Voor meer informatie, zie de [ het systeemvereisten van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=nl-NL).
 
 ## Systeemvereisten
 

@@ -28,7 +28,7 @@ Het Web SDK gebruikt [!UICONTROL Edge domain] om zowel de het Volgen Server als 
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder [!UICONTROL Adobe Experience Platform Web SDK] .
 1. Stel het gewenste tekstveld in **[!UICONTROL Edge domain]** .
 
-Zie [ de uitbreiding van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) in de documentatie van SDK van het Web voor meer informatie vormen.
+Zie [ de uitbreiding van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=nl-NL) in de documentatie van SDK van het Web voor meer informatie vormen.
 
 >[!TIP]
 >
@@ -36,7 +36,7 @@ Zie [ de uitbreiding van SDK van het Web van Adobe Experience Platform ](https:/
 
 ## Edge-domein handmatig implementeren van de Web SDK
 
-Vorm SDK gebruikend [`edgeDomain` ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html). Het veld is een tekenreeks die het domein bepaalt waarnaar gegevens moeten worden verzonden.
+Vorm SDK gebruikend [`edgeDomain` ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL). Het veld is een tekenreeks die het domein bepaalt waarnaar gegevens moeten worden verzonden.
 
 ```json
 alloy("configure", {
@@ -70,7 +70,7 @@ U kunt ervoor kiezen om Adobe tracking-serverdomeinen (bijvoorbeeld `adobedc.net
 
 ### Cookies van eerste bedrijven
 
-Als u een first-party koekjesimplementatie gebruikt, is het waarschijnlijk dat iemand in uw organisatie reeds het eerste-partijkoekjesproces heeft voltooid. Zie [ Eerste partijkoekjes in Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) in de de gebruikersgids van de Diensten van de Kern voor meer informatie over het proces van het eerste-partijkoekje.
+Als u een first-party koekjesimplementatie gebruikt, is het waarschijnlijk dat iemand in uw organisatie reeds het eerste-partijkoekjesproces heeft voltooid. Zie [ Eerste partijkoekjes in Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=nl-NL) in de de gebruikersgids van de Diensten van de Kern voor meer informatie over het proces van het eerste-partijkoekje.
 
 De individu die aanvankelijk de first-party koekjesimplementatie vormt bepaalt ook het domein en subdomain gebruikte. Bijvoorbeeld:
 

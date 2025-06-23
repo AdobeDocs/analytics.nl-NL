@@ -21,7 +21,7 @@ Wanneer **[!UICONTROL Enable click data collection]** is ingeschakeld, gebruikt 
 
 ## Uitsluitingen koppelen in de Web SDK JavaScript-bibliotheek
 
-Wanneer [`clickCollectionEnabled` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) wordt toegelaten, gebruik `filterClickDetails` callback in het `clickCollection` voorwerp. Binnen deze callback kunt u de waarde van `linkName` controleren en de waarde wijzigen of de verzameling van gegevens voor het bijhouden van koppelingen opgeven.
+Wanneer [`clickCollectionEnabled` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) wordt toegelaten, gebruik `filterClickDetails` callback in het `clickCollection` voorwerp. Binnen deze callback kunt u de waarde van `linkName` controleren en de waarde wijzigen of de verzameling van gegevens voor het bijhouden van koppelingen opgeven.
 
 ```js
 alloy("configure", {

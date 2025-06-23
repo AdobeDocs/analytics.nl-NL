@@ -20,7 +20,7 @@ Met de variabele `ActivityMap.region` kunt u de logica negeren die Activity Map 
 
 ## Waarden voor gebieden overschrijven met de Web SDK
 
-U kunt [`OnBeforeLinkClickSend` gebruiken ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) callback om de nuttige lading van SDK van het Web te veranderen of het verzenden van gegevens te aborteren.
+U kunt [`OnBeforeLinkClickSend` gebruiken ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) callback om de nuttige lading van SDK van het Web te veranderen of het verzenden van gegevens te aborteren.
 
 ## Regio overschrijven met Adobe Analytics-extensie
 

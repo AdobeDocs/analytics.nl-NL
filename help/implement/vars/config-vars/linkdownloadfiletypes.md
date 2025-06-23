@@ -41,7 +41,7 @@ Het tekstveld [!UICONTROL Download link qualifier] gebruikt regex om te bepalen 
 
 ## Koppelingskwalificatie handmatig downloaden met implementatie van de Web SDK
 
-[ vorm ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) SDK gebruikend [`downloadLinkQualifier` ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking). Het veld gebruikt regex op de aangeklikte URL om te bepalen of het een geldige downloadkoppeling is. Wanneer `downloadLinkQualifier` niet is gedefinieerd, wordt de standaardwaarde ingesteld op `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$` .
+[ vorm ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) SDK gebruikend [`downloadLinkQualifier` ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=nl-NL#automaticLinkTracking). Het veld gebruikt regex op de aangeklikte URL om te bepalen of het een geldige downloadkoppeling is. Wanneer `downloadLinkQualifier` niet is gedefinieerd, wordt de standaardwaarde ingesteld op `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$` .
 
 ```json
 alloy("configure", {

@@ -17,7 +17,7 @@ Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. 
 
 >[!IMPORTANT]
 >
->Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [ Dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+>Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [ Dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
 
 ## Bezoeker-id met de Adobe Analytics-extensie
 
@@ -48,4 +48,4 @@ s.visitorID = "abc123";
 
 ## Bezoeker-id met de Web SDK
 
-Adobe Experience Platform Edge Network staat u toe om veelvoudige herkenningstekens te verstrekken gebruikend de Kaart van de Identiteit XDM [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap). Elke identiteit in een identiteitskaart heeft een verschillende namespace. U kunt specificeren welke namespace voor identiteitskaart van de Bezoeker als deel van [ gegevensstroomconfiguratie ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics) zou moeten worden gebruikt. Zodra dit wordt gevormd, wanneer u een gebeurtenis met een waarde verzendt die voor dit namespace wordt gespecificeerd, zal het automatisch als identiteitskaart van de Bezoeker in Analytics worden gebruikt.
+Adobe Experience Platform Edge Network staat u toe om veelvoudige herkenningstekens te verstrekken gebruikend de Kaart van de Identiteit XDM [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=nl-NL#using-identitymap). Elke identiteit in een identiteitskaart heeft een verschillende namespace. U kunt specificeren welke namespace voor identiteitskaart van de Bezoeker als deel van [ gegevensstroomconfiguratie ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL#analytics) zou moeten worden gebruikt. Zodra dit wordt gevormd, wanneer u een gebeurtenis met een waarde verzendt die voor dit namespace wordt gespecificeerd, zal het automatisch als identiteitskaart van de Bezoeker in Analytics worden gebruikt.

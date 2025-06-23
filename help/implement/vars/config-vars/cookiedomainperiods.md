@@ -32,7 +32,7 @@ Met de `cookieDomainPeriods` -variabele kon AppMeasurement bepalen waar Analytic
 >
 >Houd geen rekening met subdomeinen voor deze variabele. Stel bijvoorbeeld `cookieDomainPeriods` niet in op de voorbeeld-URL `store.toys.example.com` . AppMeasurement herkent dat cookies worden opgeslagen op `example.com` , zelfs op URL&#39;s met veel subdomeinen.
 
-Voor implementaties op AppMeasurement v2.26.x of later, wordt het [`s_ac` ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) koekje gebruikt helpen automatisch het correcte koekjesdomein bepalen. De bibliotheek probeert eerst een cookie te schrijven, die twee domeinperiodes omvat. Als het instellen van dit cookie mislukt, wordt het opnieuw geprobeerd, inclusief meer domeinperiodes totdat het cookie is gelukt. Deze cookie wordt direct verwijderd zodra deze is ingesteld.
+Voor implementaties op AppMeasurement v2.26.x of later, wordt het [`s_ac` ](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/cookies/analytics) koekje gebruikt helpen automatisch het correcte koekjesdomein bepalen. De bibliotheek probeert eerst een cookie te schrijven, die twee domeinperiodes omvat. Als het instellen van dit cookie mislukt, wordt het opnieuw geprobeerd, inclusief meer domeinperiodes totdat het cookie is gelukt. Deze cookie wordt direct verwijderd zodra deze is ingesteld.
 
 ## Domeinperiodes kopiëren met gebruik van Web SDK
 

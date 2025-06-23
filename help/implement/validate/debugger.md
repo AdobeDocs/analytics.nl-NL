@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe adviseert in plaats daarvan het gebruiken van de [ Debugger Chrome Uitbreiding van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
+>Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe adviseert in plaats daarvan het gebruiken van de [ Debugger Chrome Uitbreiding van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL).
 
 De [!UICONTROL Legacy Debugger] inspecteert tags voor de meeste Adobe Experience Cloud-services. Met het foutopsporingsprogramma kunt u zien welke gegevens op een bepaalde pagina op uw site naar Adobe worden verzonden. U kunt deze informatie gebruiken om de implementatie van uw organisatie problemen op te lossen of te bevestigen.
 
@@ -37,7 +37,7 @@ Elke browser heeft verschillende manieren om bladwijzers af te handelen, maar he
 
 #### Chrome
 
-Als u erop aandringt om de [ uitbreiding van het chroom ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) niet te gebruiken, kan de erfenisdebugger bookmarklet in plaats daarvan worden gebruikt.
+Als u erop aandringt om de [ uitbreiding van het chroom ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) niet te gebruiken, kan de erfenisdebugger bookmarklet in plaats daarvan worden gebruikt.
 
 1. Klik op de drie stippen in de rechterbovenhoek en ga naar Bladwijzers > Bladwijzerbeheer. U kunt ook op `Ctrl` + `Shift` + `O` (Windows) of `Cmd` + `Shift` + `O` (Mac) drukken.
 2. Rechtsboven in de bladwijzermanager klikt u op de drie stippen en vervolgens op Nieuwe bladwijzer toevoegen.

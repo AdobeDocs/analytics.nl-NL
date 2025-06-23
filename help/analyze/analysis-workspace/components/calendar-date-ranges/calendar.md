@@ -43,7 +43,7 @@ Met de eerste klik op een kalender wordt een datumbereikselectie gestart. Met de
 
 U kunt ook datums (en tijdafmetingen) naar een Workspace-project slepen. U kunt specifieke dagen, weken, maanden, jaren of een roldatum selecteren.
 
-[ Gebruikend de Waaier en Kalender van de Datum in Analysis Workspace ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
+[ Gebruikend de Waaier en Kalender van de Datum in Analysis Workspace ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=nl-NL) (4:07)
 
 | Instelling | Beschrijving |
 |--- |--- |

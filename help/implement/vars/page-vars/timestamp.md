@@ -21,7 +21,7 @@ Met de variabele `timestamp` wordt handmatig de tijdstempel van de hit ingesteld
 
 ## Tijdstempel met gebruik van de Web SDK
 
-Tijdstempel wordt [ in kaart gebracht voor Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) onder het XDM gebied `xdm.timestamp`. Dit veld ondersteunt alleen Unix-tijd.
+Tijdstempel wordt [ in kaart gebracht voor Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=nl-NL) onder het XDM gebied `xdm.timestamp`. Dit veld ondersteunt alleen Unix-tijd.
 
 ## Tijdstempel met Adobe Analytics-extensie
 

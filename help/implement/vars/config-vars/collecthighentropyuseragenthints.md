@@ -17,7 +17,7 @@ Hoog-entropy cliëntwenken worden gebruikt door Adobe Analytics om apparaat en b
 
 ## Tips voor hoge entropie verzamelen met de Web SDK
 
-Hoog-entropy cliëntwenken maken deel uit van de contextcategorieën in Web SDK. Zie [ SDK van het Web van het Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) voor meer details vormen.
+Hoog-entropy cliëntwenken maken deel uit van de contextcategorieën in Web SDK. Zie [ SDK van het Web van het Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) voor meer details vormen.
 
 ## Hoog-entropiewenken verzamelen met de Uitbreiding van Adobe Analytics
 

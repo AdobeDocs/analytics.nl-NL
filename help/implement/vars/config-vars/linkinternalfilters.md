@@ -29,7 +29,7 @@ De kaart van de activiteit gebruikt deze variabele helpen bepalen welke verbindi
 
 Koppelingen worden automatisch gekwalificeerd als een afsluitkoppeling als het doeldomein van de koppeling afwijkt van de huidige `window.location.hostname` . Web SDK biedt geen configuratievariabelen aan om automatische uitgangsverbindingsopsporing te wijzigen. Als u de domeinen moet aanpassen die als uitgangsverbinding kwalificeren, kunt u douanelogica in `onBeforeEventSend` callback gebruiken.
 
-Zie [ Automatische verbinding het volgen ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) in de documentatie van SDK van het Web voor meer informatie.
+Zie [ Automatische verbinding het volgen ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=nl-NL#automaticLinkTracking) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Uitgaande koppelingen - Nooit bijhouden met Adobe Analytics-extensie
 

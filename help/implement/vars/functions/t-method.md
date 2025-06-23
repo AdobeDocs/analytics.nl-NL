@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Zie [`sendEvent` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) in de documentatie van SDK van het Web voor meer informatie.
+Zie [`sendEvent` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/sendevent/overview) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Aanroep voor bijhouden van paginaweergave met de Adobe Analytics-extensie
 

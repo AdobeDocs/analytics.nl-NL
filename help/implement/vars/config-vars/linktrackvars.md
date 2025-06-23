@@ -19,7 +19,7 @@ Deze variabele wordt niet gebruikt voor de vraag van de paginamening ([`t()`](..
 
 ## Bepaal welke variabelen in een XDM-gebeurtenis moeten worden opgenomen gebruikend de Web SDK
 
-Het Web SDK sluit bepaalde gebieden voor verbinding het volgen vraag niet uit. U kunt echter de callback van `onBeforeEventSend` gebruiken om de gewenste velden te wissen of in te stellen voordat gegevens naar Adobe worden verzonden. Zie [ Veranderend gebeurtenissen globaal ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+Het Web SDK sluit bepaalde gebieden voor verbinding het volgen vraag niet uit. U kunt echter de callback van `onBeforeEventSend` gebruiken om de gewenste velden te wissen of in te stellen voordat gegevens naar Adobe worden verzonden. Zie [ Veranderend gebeurtenissen globaal ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Variabelen in koppelingsvolgaanroepen met de Adobe Analytics-extensie
 

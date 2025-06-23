@@ -47,7 +47,7 @@ alloy("configure", {
 });
 ```
 
-Zie [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) in de documentatie van SDK van het Web voor meer informatie vormen.
+Zie [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) in de documentatie van SDK van het Web voor meer informatie vormen.
 
 ## Rapportsuite wijzigen met de Adobe Analytics-extensie
 

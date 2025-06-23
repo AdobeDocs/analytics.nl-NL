@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-Zie [ Behandelende reacties van gebeurtenissen ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) in de documentatie van SDK van het Web voor meer informatie.
+Zie [ Behandelende reacties van gebeurtenissen ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#handling-responses-from-events) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Navolgende callback registreren met de Adobe Analytics-extensie
 

@@ -38,7 +38,7 @@ De volgende code laadt het Web SDK en concretiseert een volgend voorwerp. U kunt
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-Zie [ de SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in de documentatie van SDK van het Web voor meer informatie installeren.
+Zie [ de SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL) in de documentatie van SDK van het Web voor meer informatie installeren.
 
 ## Een trackingobject instantiëren met de Adobe Analytics-extensie
 
