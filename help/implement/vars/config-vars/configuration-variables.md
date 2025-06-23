@@ -1,10 +1,10 @@
 ---
 title: Configuratievariabelen
 description: Gebruik configuratievariabelen om te bepalen hoe gegevens worden verzameld.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -19,12 +19,12 @@ De variabelen van de configuratie controleren de manier de gegevens in rapporter
 
 In implementaties die de uitbreiding van SDK van het Web of de uitbreiding van Analytics gebruiken, worden de configuratievariabelen typisch gevonden in de montages van de uitbreiding:
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Klik op de knop [!UICONTROL Extensions] en vervolgens klikt u op [!UICONTROL Configure] onder de verlenging.
+1. Klik op de tab [!UICONTROL Extensions] en klik vervolgens op [!UICONTROL Configure] onder de extensie.
 
-In JavaScript-implementaties die `AppMeasurement.js`configuratievariabelen worden doorgaans boven aan het JS-bestand ingesteld.
+In JavaScript-implementaties met `AppMeasurement.js` worden configuratievariabelen doorgaans boven aan het JS-bestand ingesteld.
 
 >[!IMPORTANT]
 >
->Zorg ervoor dat alle configuratievariabelen zijn ingesteld voordat u een volgende methode aanroept ([`t()`](../functions/t-method.md) of [`tl()`](../functions/tl-method.md)). U kunt configuratievariabelen in het dialoogvenster [`doPlugins()`](../functions/doplugins.md) functie.
+>Zorg ervoor dat alle configuratievariabelen worden geplaatst alvorens een volgende methode ([`t()`](../functions/t-method.md) of [`tl()`](../functions/tl-method.md)) te roepen. Stel configuratievariabelen niet in de functie [`doPlugins()`](../functions/doplugins.md) in.

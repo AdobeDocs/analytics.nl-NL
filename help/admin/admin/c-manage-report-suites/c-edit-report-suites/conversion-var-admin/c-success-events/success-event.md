@@ -2,10 +2,10 @@
 description: Gebeurtenissen met succes zijn handelingen die kunnen worden bijgehouden. U bepaalt wat een succesgebeurtenis is. Als een bezoeker bijvoorbeeld een item aanschaft, kan de aankoopgebeurtenis als de succesgebeurtenis worden beschouwd.
 keywords: event
 title: Overzicht van succesgebeurtenissen
-feature: Event
+feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Gebeurtenissen met succes (ook wel conversiegebeurtenissen of aangepaste gebeurtenissen genoemd) zijn handelingen die kunnen worden bijgehouden. U bepaalt wat een succesgebeurtenis is. Als een bezoeker bijvoorbeeld een item aanschaft, kan de aankoopgebeurtenis als de succesgebeurtenis worden beschouwd.
 
-Voor een videooverzicht van succesgebeurtenissen, zie [ Inleiding aan omzettingsgebeurtenissen ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) in de gids van de Zelfstudies van de Analyse.
+Voor een videooverzicht van succesgebeurtenissen, zie [ Inleiding aan omzettingsgebeurtenissen ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) in de gids van de Zelfstudies van de Analyse.
 
 ## Voorbeelden van succesgebeurtenissen
 
@@ -30,7 +30,7 @@ Afhankelijk van het type website zijn er vele soorten succesgebeurtenissen. Enke
 * **Hoog Tech**: De download van het Witboek, RFP, vormvoltooiing, steunverzoeken
 * **Automobielindustrie**: De voorlegger, verzoekt om een citaat, brochure download
 
-De {[&#128279;](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=nl-NL) variabele 0} s.events bepaalt een succesgebeurtenis.
+De {](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) variabele 0} s.events bepaalt een succesgebeurtenis.[
 
 ## Succesgebeurtenissen configureren
 
@@ -56,7 +56,7 @@ Succesgebeurtenissen configureren:
    >
    >Houd rekening met het volgende wanneer u het gebeurtenistype wijzigt:<ul><li>U kunt het gebeurtenistype tussen teller en numeriek veranderen zonder toegang tot eerder gevangen gegevens te verliezen.</li><li>Wanneer u gebeurtenistypen wijzigt in of van een valutagebeurtenis, wordt een bericht weergegeven met de mededeling dat historische gegevens niet beschikbaar zijn in de rapportage. Verschillende gebeurtenistypen gebruiken afzonderlijke gegevenstabellen en kunnen niet gelijktijdig worden gebruikt. Sommige historische gegevens kunnen worden hersteld als de gebruiker het gebeurtenistype terugkeert. Gegevens die na de oorspronkelijke wijziging zijn verzameld, zijn echter niet beschikbaar.</li></ul>
 
-   Het type dat u selecteert, bepaalt of de gebeurtenis een teller (standaard), numerieke, of muntgebeurtenis is. <p>Er worden tegengebeurtenissen gebruikt om een gebeurtenis in de tijd op te nemen.</p><p>Numerieke gebeurtenissen worden gebruikt voor het rapporteren van niet-valutagetallen, zoals het aantal coupons dat in een bestelling wordt gebruikt.</p> <p>Bij valutagebeurtenissen wordt een decimaal getal vastgelegd, zoals BTW of verzendkosten. De waarde die wordt doorgegeven aan valutatgebeurtenissen, wordt na ontvangst omgezet van de paginasaluta naar de basisvaluta van de rapportsuite. Valutapenheden worden gebruikt voor het bijhouden van belasting- en verzendkosten. Neem contact op met een Adobe voor meer informatie over het gebruik van valutagebeurtenissen.<p>Met numerieke gebeurtenissen en valutagebeurten kunt u metriek met meer dan één verhogen.</p><p>Gebeurtenissen die in het standaardtype van Gegevensbronnen worden gebruikt moeten numerieke of valutagebeurtenissen zijn.</p>
+   Het type dat u selecteert, bepaalt of de gebeurtenis een teller (standaard), numerieke, of muntgebeurtenis is. <p>Er worden tegengebeurtenissen gebruikt om een gebeurtenis in de tijd op te nemen.</p><p>Numerieke gebeurtenissen worden gebruikt voor het rapporteren van niet-valutagetallen, zoals het aantal coupons dat in een bestelling wordt gebruikt.</p> <p>Bij valutagebeurtenissen wordt een decimaal getal vastgelegd, zoals BTW of verzendkosten. De waarde die wordt doorgegeven aan valutatgebeurtenissen, wordt na ontvangst omgezet van de paginasaluta naar de basisvaluta van de rapportsuite. Valutapenheden worden gebruikt voor het bijhouden van belasting- en verzendkosten. Neem contact op met een Adobe-vertegenwoordiger voor meer informatie over het gebruik van valutagebeurtenissen.<p>Met numerieke gebeurtenissen en valutagebeurten kunt u metriek met meer dan één verhogen.</p><p>Gebeurtenissen die in het standaardtype van Gegevensbronnen worden gebruikt moeten numerieke of valutagebeurtenissen zijn.</p>
 
 1. Selecteer in de kolom **[!UICONTROL Polarity]** het selectievakje en kies in het keuzemenu of een opwaartse trend voor deze metrische waarde goed of slecht is.
 

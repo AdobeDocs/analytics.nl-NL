@@ -1,10 +1,10 @@
 ---
 title: getAndPersistValue
 description: Sla een waarde op die later kan worden opgehaald.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -15,35 +15,35 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `getAndPersistValue` kunt u een waarde opslaan in een cookie die later tijdens een bezoek kan worden opgehaald. Het vervult een soortgelijke rol als de [!UICONTROL Storage duration] in de Adobe Analytics-extensie in Adobe Experience Platform Data Collection. De Adobe raadt u aan deze plug-in te gebruiken als u automatisch een variabele Analytics tot dezelfde waarde wilt behouden bij volgende treffers nadat de variabele is ingesteld. Deze insteekmodule is niet nodig als de [!UICONTROL Storage duration] in de extensie Analytics volstaat. Het is ook niet nodig om deze plug-in te gebruiken als u variabelen niet op dezelfde waarde hoeft in volgende treffers in te stellen en te behouden. Voor de ingebouwde persistentie van eVars is het gebruik van deze plug-in niet vereist, aangezien eVars per Adobe op de server aanwezig blijven.
+Met de insteekmodule `getAndPersistValue` kunt u een waarde opslaan in een cookie die later tijdens een bezoek kan worden opgehaald. De functie komt overeen met de functie [!UICONTROL Storage duration] in de Adobe Analytics-extensie in Adobe Experience Platform Data Collection. Adobe raadt u aan deze plug-in te gebruiken als u automatisch een variabele Analytics tot dezelfde waarde wilt behouden in volgende hits nadat de variabele is ingesteld. Deze insteekmodule is niet nodig als de functie [!UICONTROL Storage duration] in de extensie Analytics voldoende is. Het is ook niet nodig om deze plug-in te gebruiken als u variabelen niet op dezelfde waarde hoeft in volgende treffers in te stellen en te behouden. Voor de ingebouwde persistentie van eVars is het gebruik van deze plug-in niet vereist, aangezien eVars door Adobe op de server wordt gebruikt.
 
-## De plug-in installeren met de extensie Web SDK
+## De insteekmodule installeren met de extensie Web SDK
 
-De Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken voor de webversie van SDK.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
-1. Klikken **[!UICONTROL Extensions]** klikt u links op de knop **[!UICONTROL Catalog]** tab
-1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
-1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Klik op **[!UICONTROL Tags]** aan de linkerkant en klik op de gewenste eigenschap Tag.
+1. Klik op **[!UICONTROL Extensions]** aan de linkerkant en klik vervolgens op de tab **[!UICONTROL Catalog]**
+1. Zoek en installeer de extensie **[!UICONTROL Common Web SDK Plugins]** .
+1. Klik op **[!UICONTROL Data Elements]** aan de linkerkant en klik op het gewenste gegevenselement.
 1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
-   * Extension: Common Web SDK-plug-ins
+   * Extensie: algemene SDK-plug-ins voor het web
    * Gegevenselement: `getAndPersistValue`
 1. Stel de gewenste parameters rechts in.
 1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
 
-## De plug-in handmatig installeren met de implementatie van de Web SDK
+## De insteekmodule handmatig installeren voor de Web SDK
 
 Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige implementatie van de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -56,16 +56,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -76,13 +76,13 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## De plug-in gebruiken
 
-De `getAndPersist` function gebruikt de volgende argumenten:
+De functie `getAndPersist` gebruikt de volgende argumenten:
 
-* **`vtp`** (vereist): De waarde die van pagina naar pagina moet blijven bestaan
-* **`cn`** (optioneel): De naam van het cookie waarin de waarde wordt opgeslagen. Als dit argument niet is ingesteld, krijgt het cookie de naam `"s_gapv"`
-* **`ex`** (optioneel): Het aantal dagen voordat de cookie vervalt. Als dit argument `0` of niet is ingesteld, verloopt het cookie aan het einde van het bezoek (30 minuten inactiviteit).
+* **`vtp`** (vereist): de waarde die van pagina naar pagina moet blijven bestaan
+* **`cn`** (optioneel): De naam van het cookie dat de waarde moet opslaan. Als dit argument niet is ingesteld, krijgt het cookie de naam `"s_gapv"`
+* **`ex`** (optioneel): Het aantal dagen voordat de cookie vervalt. Als dit argument `0` is of niet is ingesteld, verloopt het cookie aan het einde van het bezoek (30 minuten inactiviteit).
 
-Als de variabele in de `vtp` wordt ingesteld, wordt de cookie vervolgens door de insteekmodule geretourneerd. Als de variabele in de `vtp` -argument niet is ingesteld, retourneert de insteekmodule alleen de waarde van het cookie.
+Als de variabele in het argument `vtp` is ingesteld, stelt de plug-in het cookie in en retourneert deze de waarde van het cookie. Als de variabele in het argument `vtp` niet is ingesteld, retourneert de plug-in alleen de waarde van het cookie.
 
 ## Voorbeelden
 
@@ -117,7 +117,7 @@ s.eVar30 = getAndPersistValue(s.eVar30);
 ### 2.0 april 2018
 
 * Puntrelease (kleinere codegrootte)
-* 0 passeren naar de `ex` dit argument dwingt nu om een vervaldatum na 30 minuten inactiviteit in plaats van aan het einde van de browsersessie.
+* Wanneer u 0 in het argument `ex` doorgeeft, verloopt de bewerking nu na 30 minuten inactiviteit in plaats van na afloop van de browsersessie.
 
 ### 1.0 (18 januari 2016)
 

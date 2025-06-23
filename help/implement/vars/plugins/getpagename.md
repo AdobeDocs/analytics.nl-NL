@@ -1,10 +1,10 @@
 ---
 title: getPageName
 description: Maak een eenvoudig te lezen pageName van het huidige websitepad.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -15,35 +15,35 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `getPageName` Met deze insteekmodule maakt u een leesvriendelijke, opgemaakte versie van de huidige URL. Adobe raadt u aan deze plug-in te gebruiken als u een [`pageName`](../page-vars/pagename.md) waarde die eenvoudig kan worden ingesteld en begrepen in de rapportage. Deze plug-in is niet nodig als u al een naamgevingsstructuur hebt voor de `pageName` variabele, zoals door een gegevenslaag. Het wordt het best gebruikt wanneer u geen andere oplossing hebt om te plaatsen `pageName` variabele.
+Met de insteekmodule `getPageName` kunt u de huidige URL gemakkelijk lezen en een gebruiksvriendelijke versie van de URL gebruiken. Adobe raadt u aan deze plug-in te gebruiken als u een [`pageName`](../page-vars/pagename.md) -waarde wilt instellen die gemakkelijk te begrijpen is in de rapportage. Deze insteekmodule is niet nodig als u al een naamgevingsstructuur voor de variabele `pageName` hebt, bijvoorbeeld via een gegevenslaag. U kunt dit het beste gebruiken als u geen andere oplossing hebt om de variabele `pageName` in te stellen.
 
-## De plug-in installeren met de extensie Web SDK
+## De insteekmodule installeren met de extensie Web SDK
 
-De Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken voor de webversie van SDK.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
-1. Klikken **[!UICONTROL Extensions]** klikt u links op de knop **[!UICONTROL Catalog]** tab
-1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
-1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Klik op **[!UICONTROL Tags]** aan de linkerkant en klik op de gewenste eigenschap Tag.
+1. Klik op **[!UICONTROL Extensions]** aan de linkerkant en klik vervolgens op de tab **[!UICONTROL Catalog]**
+1. Zoek en installeer de extensie **[!UICONTROL Common Web SDK Plugins]** .
+1. Klik op **[!UICONTROL Data Elements]** aan de linkerkant en klik op het gewenste gegevenselement.
 1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
-   * Extension: Common Web SDK-plug-ins
+   * Extensie: algemene SDK-plug-ins voor het web
    * Gegevenselement: `getPageName`
 1. Stel de gewenste parameters rechts in.
 1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
 
-## De plug-in handmatig installeren met de implementatie van de Web SDK
+## De insteekmodule handmatig installeren voor de Web SDK
 
 Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige implementatie van de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -56,16 +56,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -76,14 +76,14 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## De plug-in gebruiken
 
-De `getPageName` function gebruikt de volgende argumenten:
+De functie `getPageName` gebruikt de volgende argumenten:
 
 * **`si`** (optioneel, tekenreeks): een id die wordt ingevoegd aan het begin van de tekenreeks die de id van de site vertegenwoordigt. Deze waarde kan een numerieke id of een vriendelijke naam zijn. Wanneer deze niet is ingesteld, wordt standaard het huidige domein gebruikt.
-* **`qv`** (optioneel, tekenreeks): Een door komma&#39;s gescheiden lijst met parameters van queryreeksen die, indien gevonden in de URL, worden toegevoegd aan de tekenreeks
-* **`hv`** (optioneel, tekenreeks): Een door komma&#39;s gescheiden lijst met parameters in de URL-hash die, indien aanwezig in de URL, aan de tekenreeks wordt toegevoegd
-* **`de`** (optioneel, tekenreeks): het scheidingsteken voor het opsplitsen van afzonderlijke delen van de tekenreeks. Heeft als standaardwaarde een pijp (`|`).
+* **`qv`** (optioneel, tekenreeks): een door komma&#39;s gescheiden lijst met parameters van queryreeksen die, indien aanwezig in de URL, aan de tekenreeks worden toegevoegd
+* **`hv`** (optioneel, tekenreeks): een door komma&#39;s gescheiden lijst met parameters in de URL-hash die, indien aanwezig in de URL, aan de tekenreeks worden toegevoegd
+* **`de`** (optioneel, tekenreeks): het scheidingsteken voor het opsplitsen van afzonderlijke delen van de tekenreeks. Heeft als standaardwaarde een pipe (`|`).
 
-De functie retourneert een tekenreeks met een gebruiksvriendelijke versie van de URL. Deze tekenreeks wordt doorgaans toegewezen aan de `pageName` variabele, maar kan ook in andere variabelen worden gebruikt.
+De functie retourneert een tekenreeks met een gebruiksvriendelijke versie van de URL. Deze tekenreeks wordt doorgaans toegewezen aan de variabele `pageName` , maar kan ook in andere variabelen worden gebruikt.
 
 ## Voorbeelden
 
@@ -112,7 +112,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## Upgrade uitvoeren vanaf vorige versies
 
-Versie 4.0+ van de `getPageName` de insteekmodule is niet afhankelijk van het bestaan van het AppMeasurement-object van Adobe Analytics (d.w.z. `s` object). Als u een upgrade uitvoert naar deze versie, wijzigt u de code waarmee de plug-in wordt aangeroepen door instanties van de `s` object van de aanroep. Bijvoorbeeld, wijzigen `s.getPageName();` tot `getPageName();`.
+Versie 4.0+ van de plug-in `getPageName` is niet afhankelijk van het bestaan van het AppMeasurement-object van Adobe Analytics (dat wil zeggen het `s` -object). Als u een upgrade uitvoert naar deze versie, wijzigt u de code waarmee de plug-in wordt aangeroepen door instanties van het `s` -object uit de aanroep te verwijderen. Wijzig bijvoorbeeld `s.getPageName();` in `getPageName();` .
 
 ## Versiehistorie
 

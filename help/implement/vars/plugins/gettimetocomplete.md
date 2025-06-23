@@ -1,10 +1,10 @@
 ---
 title: getTimeToComplete
 description: Meet de hoeveelheid tijd die u nodig hebt om een taak te voltooien.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `getTimeToComplete` de insteekmodule volgt de tijd die een gebruiker nodig heeft om een proces op een site te voltooien. De &quot;klok&quot; begint wanneer de `start` handeling wordt aangeroepen en eindigt wanneer de `stop` handeling wordt aangeroepen. Adobe raadt u aan deze plug-in te gebruiken als er een workflow op de site is die enige tijd in beslag neemt en u wilt weten hoeveel tijd bezoekers nodig hebben om deze te voltooien. Het is niet nodig deze plug-in te gebruiken als de workflow op uw site een korte periode (minder dan 3 seconden) in beslag neemt omdat de granulariteit slechts tot de volledige seconde is.
+Met de insteekmodule `getTimeToComplete` wordt bijgehouden hoeveel tijd een gebruiker nodig heeft om een proces op een site te voltooien. De klok begint wanneer de handeling `start` wordt aangeroepen en eindigt wanneer de handeling `stop` wordt aangeroepen. Adobe raadt u aan deze plug-in te gebruiken als er een workflow op de site is die enige tijd in beslag neemt en u wilt weten hoeveel tijd bezoekers nodig hebben om deze te voltooien. Het is niet nodig deze plug-in te gebruiken als de workflow op uw site een korte periode (minder dan 3 seconden) in beslag neemt omdat de granulariteit slechts tot de volledige seconde is.
 
 ## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
-Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -41,16 +41,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,14 +61,14 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## De plug-in gebruiken
 
-De `getTimeToComplete` function gebruikt de volgende argumenten:
+De functie `getTimeToComplete` gebruikt de volgende argumenten:
 
-* **`sos`** (optioneel, tekenreeks): Instellen op `"start"` wanneer u de timer wilt starten. Instellen op `"stop"` wanneer u de timer wilt stoppen. Standaardwaarden: `"start"`.
-* **`cn`** (optioneel, tekenreeks): De naam van het cookie dat de begintijd moet opslaan. Standaardwaarden: `"s_gttc"`.
-* **`exp`** (optioneel, geheel getal): Het aantal seconden, uren of dagen (afhankelijk van het `tp` time-parting argument) dat het koekje (en tijdopnemer) verloopt. Wordt standaard ingesteld op 30 minuten.
-* **`tp`** (optioneel, tekenreeks): de tijdparterende tekenreeks die de cookie (en timer) vervalt en die wordt gebruikt met de `exp` argument. Stel in op &quot;d&quot; voor dagen, &quot;h&quot; voor uren of &quot;s&quot; voor seconden. Als deze niet is ingesteld, wordt de vervaldatum van het cookie (en de timer) standaard ingesteld op 30 minuten, ongeacht wat de waarde `exp` argument is ingesteld op.
+* **`sos`** (optioneel, tekenreeks): wordt ingesteld op `"start"` wanneer u de timer wilt starten. Stel in op `"stop"` wanneer u de timer wilt stoppen. Wordt standaard ingesteld op `"start"` .
+* **`cn`** (optioneel, tekenreeks): de naam van het cookie dat de begintijd moet opslaan. Wordt standaard ingesteld op `"s_gttc"` .
+* **`exp`** (optioneel, geheel getal): Het aantal seconden, uren of dagen (afhankelijk van het `tp` time-parting argument) dat de cookie (en timer) verloopt. Wordt standaard ingesteld op 30 minuten.
+* **`tp`** (optioneel, tekenreeks): de time-parting-tekenreeks die de cookie (en timer) verloopt en die wordt gebruikt met het argument `exp` . Stel in op &quot;d&quot; voor dagen, &quot;h&quot; voor uren of &quot;s&quot; voor seconden. Als deze niet is ingesteld, loopt de vervaldatum van het cookie (en de timer) standaard tot 30 minuten, ongeacht de instelling van het argument `exp` .
 
-Als deze functie wordt aangeroepen, wordt een tekenreeks geretourneerd die het aantal dagen, uren, minuten en/of seconden bevat dat nodig was tussen de `"start"` en `"stop"` handeling.
+Als deze functie wordt aangeroepen, wordt een tekenreeks geretourneerd die het aantal dagen, uren, minuten en/of seconden bevat dat is verstreken tussen de handeling `"start"` en `"stop"` .
 
 ## Voorbeelden
 
@@ -97,11 +97,11 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 ### 3.1 (30 september 2019)
 
 * Toegevoegde logica die de waarde &quot;start&quot; of &quot;stop&quot; in het eerste argument vereist.  Met alle andere waarden die worden doorgegeven, wordt de insteekmodule niet uitgevoerd.
-* Bijgewerkt `inList 2.0` insteekmodule voor `inList 2.1`.
+* `inList 2.0` plug-in is bijgewerkt naar `inList 2.1` .
 
 ### 3.0 (23 augustus 2018)
 
-* De `formatTime v1.0` insteekmodule voor `formatTime v1.1`.
+* De plug-in `formatTime v1.0` is bijgewerkt naar `formatTime v1.1` .
 
 ### 3.0 (17 april 2018)
 
@@ -110,6 +110,6 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 
 ### (2 juni 2016)
 
-* De afhankelijkheid van de `p_fo` insteekmodule.
+* De afhankelijkheid van de plug-in `p_fo` is verwijderd.
 * Toegevoegde compatibiliteit met H-code en AppMeasurement.
 * Logboekregistratie van toegevoegde console.

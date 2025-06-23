@@ -1,38 +1,38 @@
 ---
 title: Nummers Suite
 description: Cijfers maken en manipuleren voor gebruik in andere JavaScript-variabelen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
-# Adobe plug-in: Numbers Suite
+# Adobe-insteekmodule: Numbers Suite
 
 {{plug-in}}
 
 De Numbers Suite bevat een aantal JavaScript-functies. Deze bevat de volgende plug-ins:
 
-* **`zeroPad`**: Voeg een specifiek aantal nullen toe aan het begin van een getal. Deze insteekmodule is handig als een variabele een bepaald aantal cijfers vereist, bijvoorbeeld als u werkt met JavaScript-datumobjecten en de maand en dag van een datum wilt opmaken met twee cijfers in plaats van slechts één cijfer. Bijvoorbeeld: `01/09/2020` in plaats van `1/9/2020`.
+* **`zeroPad`**: voeg een specifiek aantal nullen aan het begin van een getal toe. Deze insteekmodule is handig als een variabele een bepaald aantal cijfers nodig heeft, bijvoorbeeld als u werkt met JavaScript-datumobjecten en de maand en dag van een datum wilt opmaken met twee cijfers in plaats van slechts één cijfer. Bijvoorbeeld `01/09/2020` in plaats van `1/9/2020` .
 * **`randomNumber`**: Genereer een willekeurig getal met een specifiek aantal cijfers. Deze plug-in is handig als u tags van derden implementeert en een willekeurig nummer voor het opbouwen van cache wilt.
-* **`twoDecimals`**: Rond een getal af op het honderdste van de kast. Deze insteekmodule is handig voor valutadoeleinden, zodat u een getal kunt afronden naar een geldige valutawaarde.
+* **`twoDecimals`**: Rond een getal af op de dichtstbijzijnde honderdste. Deze insteekmodule is handig voor valutadoeleinden, zodat u een getal kunt afronden naar een geldige valutawaarde.
 
 ## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
-Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -45,16 +45,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -71,24 +71,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Plug-ins gebruiken
 
-De `zeroPad` function gebruikt de volgende argumenten:
+De functie `zeroPad` gebruikt de volgende argumenten:
 
-* **num** (required, integer): Het getal dat moet worden gecompileerd. De functie rondt de waarde van dit argument af als het decimalen bevat.
-* **knip** (vereist, geheel getal): Het aantal cijfers in de uiteindelijke geretourneerde waarde. Als het aantal cijfers dat moet worden gecomprimeerd kleiner is dan het aantal cijfers dat moet worden gedraaid, worden er door de plug-in nullen aan het begin van het blok toegevoegd `num` argument.
+* **num** (vereist, geheel): Het aantal aan stootkussen. De functie rondt de waarde van dit argument af als het decimalen bevat.
+* **knoop** (vereist, geheel): Het aantal cijfers in de definitieve terugkeerwaarde. Als het aantal cijfers dat moet worden gecompileerd minder is dan het aantal cijfers dat moet worden weergegeven, voegt de plug-in nullen toe aan het begin van het argument `num` .
 
-De `randomNumber` function gebruikt de volgende argumenten:
+De functie `randomNumber` gebruikt de volgende argumenten:
 
-* **knip** (optioneel, geheel getal): Het aantal cijfers in het willekeurige getal dat u wilt genereren. De maximumwaarde is 17 cijfers. De standaardwaarde is 10 cijfers.
+* **knoop** (facultatief, geheel): Het aantal cijfers in het willekeurige aantal dat u wilt produceren. De maximumwaarde is 17 cijfers. De standaardwaarde is 10 cijfers.
 
-De `twoDecimals` function gebruikt de volgende argumenten:
+De functie `twoDecimals` gebruikt de volgende argumenten:
 
-* **val** (vereist, getal): Een getal (vertegenwoordigd door een tekenreeks of een object Number) dat u naar het dichtstbijzijnde honderdste wilt afronden.
+* **val** (vereist, aantal): Een aantal (dat door of een koord of aantalvoorwerp wordt vertegenwoordigd) dat u aan de dichtstbijzijnde honderdste wilt afronden.
 
 ## Retourneert
 
-* De **zeroPad** functie retourneert een tekenreeks die gelijk is aan de `num` argument maar met een specifiek aantal nullen toegevoegd aan het begin van zijn waarde, die ervoor zorgt dat de terugkeerwaarde het correcte aantal cijfers heeft.
-* De **randomNumber** Deze functie retourneert een tekenreeks die gelijk is aan een willekeurig getal met het gewenste aantal cijfers.
-* De **tweeDecimals** function retourneert een Number-object afgerond naar het dichtstbijzijnde honderdste.
+* De **zeroPad** functie keert een koord gelijk aan het `num` argument maar met een specifiek aantal nul terug aan het begin van zijn waarde wordt toegevoegd, die ervoor zorgt dat de terugkeerwaarde het correcte aantal cijfers heeft.
+* De **randomNumber** functie keert een koord gelijk aan een willekeurig aantal met het gewenste aantal cijfers terug.
+* De **twoDecimals** functie keert een aantalvoorwerp terug dat aan de dichtste honderdste wordt afgerond.
 
 ## Voorbeelden van aanroepen
 

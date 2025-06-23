@@ -1,10 +1,10 @@
 ---
 title: getPercentPageViewed
 description: Haal het percentage op van de pagina die de bezoeker heeft weergegeven.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `getPercentPageViewed` insteekmodule meet de schuifactiviteit van een bezoeker om te zien hoeveel van een pagina deze bekijkt voordat deze naar een andere pagina gaat. Deze insteekmodule is niet nodig als de pagina&#39;s klein van hoogte zijn of als u de scrollactiviteit niet wilt meten.
+De insteekmodule `getPercentPageViewed` meet de schuifactiviteit van een bezoeker om te zien hoeveel van een pagina deze weergeeft voordat deze naar een andere pagina gaat. Deze insteekmodule is niet nodig als de pagina&#39;s klein van hoogte zijn of als u de scrollactiviteit niet wilt meten.
 
 ## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
-Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -41,16 +41,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,28 +61,28 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 ## De plug-in gebruiken
 
-De `getPercentPageViewed` function gebruikt de volgende argumenten:
+De functie `getPercentPageViewed` gebruikt de volgende argumenten:
 
-* **`pid`** (optioneel, tekenreeks): een variabele of waarde die gelijk is aan de huidige pagina. Wordt standaard ingesteld op het AppMeasurement Analytics `pageName` variable OR the current URL if the AppMeasurement pageName variable is not set.
-* **`ch`** (optioneel, Boolean): instellen op `false` (of `0`) als u niet wilt dat de insteekmodule rekening houdt met wijzigingen die na de eerste keer laden in de grootte van een pagina zijn aangebracht. Indien weggelaten, wordt dit argument standaard ingesteld op `true`. De Adobe beveelt in de meeste gevallen aan dit argument weg te laten.
+* **`pid`** (optioneel, tekenreeks): een variabele of waarde die gelijk is aan de huidige pagina. Wordt standaard ingesteld op de variabele Analytics AppMeasurement `pageName` OR de huidige URL als de variabele AppMeasurement pageName niet is ingesteld.
+* **`ch`** (optioneel, Boolean): stel deze waarde in op `false` (of `0` ) als u niet wilt dat de insteekmodule rekening houdt met wijzigingen die na de eerste keer laden in de grootte van een pagina worden aangebracht. Als deze waarde wordt weggelaten, wordt dit argument standaard ingesteld op `true` . Adobe beveelt in de meeste gevallen aan dit argument weg te laten.
 
 Wanneer deze functie wordt aangeroepen, wordt niets geretourneerd; in plaats daarvan worden de volgende variabelen ingesteld:
 
 * `window._ppvPreviousPage`: De naam van de vorige weergegeven pagina. De laatste scrollmaten voor de huidige pagina zijn pas beschikbaar nadat een nieuwe pagina is geladen.
-* `window._ppvInitialPercentViewed`: Het percentage van de vorige pagina dat zichtbaar was toen de vorige pagina voor het eerst werd geladen. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `100`.
-* `window._ppvHighestPercentViewed`: Het hoogste percentage van de vorige pagina die de bezoeker heeft weergegeven (in de hoogte). Het grootste punt waarop de bezoeker naar de vorige pagina is geschoven. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `100`.
+* `window._ppvInitialPercentViewed`: Het percentage van de vorige pagina dat zichtbaar was toen de vorige pagina voor het eerst werd geladen. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `100` .
+* `window._ppvHighestPercentViewed`: het hoogste percentage van de vorige pagina dat de bezoeker heeft weergegeven (in de hoogte). Het grootste punt waarop de bezoeker naar de vorige pagina is geschoven. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `100` .
 * `window._ppvFinalPercentViewed`: Het percentage van de vorige pagina dat zichtbaar was op het punt dat de bezoeker naar de huidige pagina heeft verplaatst. Deze waarde is gelijk aan of groter dan het oorspronkelijk weergegeven percentage en is ook gelijk aan of kleiner dan de hoogst weergegeven percentagepagina.
-* `window._ppvHighestPixelsSeen`: Het hoogste aantal pixels in totaal dat wordt weergegeven (in de hoogte) wanneer de bezoeker de vorige pagina omlaag schuift.
-* `window._ppvFoldsAvailable`: Het aantal pagina&#39;s dat in totaal beschikbaar is om omlaag te schuiven op de vorige pagina. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `1`.
-* `window._ppvFoldsSeen`: Het hoogste aantal &quot;paginamappen&quot; dat wordt bereikt wanneer de bezoeker de vorige pagina omlaag schuift. Deze variabele bevat de vouwfactor &quot;top-of-page&quot;. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `1`.
+* `window._ppvHighestPixelsSeen`: Het hoogste aantal pixels in totaal dat de bezoeker op de vorige pagina naar beneden heeft geschoven (in de hoogte).
+* `window._ppvFoldsAvailable`: Het totale aantal pagina&#39;s dat beschikbaar is om omlaag te schuiven op de vorige pagina. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `1` .
+* `window._ppvFoldsSeen`: Het hoogste aantal &#39;paginamappen&#39; dat wordt bereikt wanneer de bezoeker de vorige pagina omlaag schuift. Deze variabele bevat de vouwfactor &quot;top-of-page&quot;. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `1` .
 
 Wijs één of meerdere van deze variabelen aan eVars toe om afmetingsgegevens in rapporten te zien.
 
 Deze plug-in maakt drie cookies van de eerste fabrikant die aan het einde van een browsersessie verlopen:
 
 * `s_ppv`: slaat elk van de waarden op die door de functie aan te roepen worden blootgesteld
-* `s_tp`: Hiermee slaat u de totale pixelhoogte van de vorige pagina op
-* `s_ips`: Hiermee wordt het aanvankelijke percentage opgeslagen dat van de vorige pagina is geschoven
+* `s_tp`: slaat de totale pixelhoogte van de vorige pagina op
+* `s_ips`: slaat het aanvankelijke percentage op dat van de vorige pagina is verschoven
 
 ## Voorbeelden
 
@@ -113,7 +113,7 @@ if(_ppvPreviousPage)
 
 ### 5.1 (8 december 2022)
 
-* De `_finalPercentViewed` oplossing
+* De oplossing `_finalPercentViewed` toegevoegd
 
 ### 5.0.1 (22 juni 2021)
 
@@ -125,11 +125,11 @@ if(_ppvPreviousPage)
 
 ### v4.0 (7 oktober 2019)
 
-* Toegevoegd `s._ppvFoldsSeen` en `s._ppvFoldsAvailable` oplossingen
+* Toegevoegde `s._ppvFoldsSeen` en `s._ppvFoldsAvailable` oplossingen
 
 ### v3.01 (13 augustus 2018)
 
-* Probleem verholpen voor pagina&#39;s met meerdere AppMeasurementen op een pagina
+* Probleem verholpen met pagina&#39;s die meerdere AppMeasurement-objecten op een pagina hebben.
 
 ### v3.0 (13 april 2018)
 

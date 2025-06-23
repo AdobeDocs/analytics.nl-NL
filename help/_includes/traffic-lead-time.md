@@ -1,9 +1,9 @@
 ---
-description: Adobe vereist voorafgaande kennisgeving voor nieuwe accountinstellingen, verkeersspikes en verkeersverhogingen. Hardware moet vooraf worden toegewezen om latentie en mogelijke negatieve effecten voor het gehele systeem tot een minimum te beperken.
+description: Adobe heeft een voorafgaande kennisgeving nodig voor nieuwe accountinstellingen, verkeerspikes en verkeersverhogingen. Hardware moet vooraf worden toegewezen om latentie en mogelijke negatieve effecten voor het gehele systeem tot een minimum te beperken.
 title: Vereiste aanlooptijd voor verkeersstijgingen
-feature: Traffic Management
+feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 726e5ee71be60838e48bb682d7fd48bfc1f96ec3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Vereiste aanlooptijd voor verkeersstijgingen
 
-Adobe vereist voorafgaande kennisgeving voor nieuwe accountinstellingen, verkeersspikes en verkeersverhogingen. Hardware moet vooraf worden toegewezen om latentie en mogelijke negatieve effecten voor het gehele systeem tot een minimum te beperken.
+Adobe heeft een voorafgaande kennisgeving nodig voor nieuwe accountinstellingen, verkeerspikes en verkeersverhogingen. Hardware moet vooraf worden toegewezen om latentie en mogelijke negatieve effecten voor het gehele systeem tot een minimum te beperken.
 
 >[!IMPORTANT]
 >
->De Adobe kan &quot;placeholder&quot;verzoeken van de verkeersverandering niet aanpassen. Tenzij anders vermeld, moet u zo nauwkeurig mogelijk de voorgestelde aanlooptijd in acht nemen, inclusief het niet te vroeg verzenden van een waarschuwing.
+>Adobe kan geen aanvragen voor plaatsaanduidingswijzigingen verwerken. Tenzij anders vermeld, moet u zo nauwkeurig mogelijk de voorgestelde aanlooptijd in acht nemen, inclusief het niet te vroeg verzenden van een waarschuwing.
 
 Gebruik de volgende richtlijnen om te bepalen hoe ver van tevoren u een verkeersalarm moet voorleggen:
 

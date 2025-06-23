@@ -1,10 +1,10 @@
 ---
 title: cookieDomainPeriods
-description: (Verouderd) Help AppMeasurement bepalen waar cookies moeten worden opgeslagen wanneer het domein op hoofdniveau van een website een periode bevat.
-feature: Variables
+description: (Verouderd) Help AppMeasurement te bepalen waar cookies moeten worden opgeslagen wanneer het domein op hoofdniveau van een website een punt bevat.
+feature: Appmeasurement Implementation
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Deze variabele doet niets, aangezien de toepasselijke bibliotheek automatisch het domein ontdekt om koekjes te plaatsen.
 
-De `cookieDomainPeriods` variabele hielp AppMeasurement bepalen waar te om de koekjes van Analytics te plaatsen door erop te wijzen dat het top-level domein een extra periode in het had. Deze variabele stond AppMeasurement toe om de extra periode in het top-level domein aan te passen en koekjes in de correcte plaats te plaatsen. Als het domein op hoofdniveau van uw website geen extra periode bevat, is deze variabele niet vereist.
+Met de `cookieDomainPeriods` -variabele kon AppMeasurement bepalen waar Analytics-cookies moeten worden ingesteld door aan te geven dat het domein op het hoogste niveau een extra periode had. Met deze variabele kon AppMeasurement de extra periode in het domein op het hoogste niveau aanpassen en cookies instellen op de juiste locatie. Als het domein op hoofdniveau van uw website geen extra periode bevat, is deze variabele niet vereist.
 
 * Voor domeinen zoals `example.co.uk` of `www.example.co.jp` stelt u deze variabele in op `"3"` .
 * Voor domeinen zoals `example.nsw.gov.au`, plaats deze variabele aan `"4"`.
@@ -32,11 +32,11 @@ De `cookieDomainPeriods` variabele hielp AppMeasurement bepalen waar te om de ko
 >
 >Houd geen rekening met subdomeinen voor deze variabele. Stel bijvoorbeeld `cookieDomainPeriods` niet in op de voorbeeld-URL `store.toys.example.com` . AppMeasurement herkent dat cookies worden opgeslagen op `example.com` , zelfs op URL&#39;s met veel subdomeinen.
 
-Voor implementaties op AppMeasurement v2.26.x of recenter, wordt het [`s_ac` ](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/cookies/analytics) koekje gebruikt helpen automatisch het correcte koekjesdomein bepalen. De bibliotheek probeert eerst een cookie te schrijven, die twee domeinperiodes omvat. Als het instellen van dit cookie mislukt, wordt het opnieuw geprobeerd, inclusief meer domeinperiodes totdat het cookie is gelukt. Deze cookie wordt direct verwijderd zodra deze is ingesteld.
+Voor implementaties op AppMeasurement v2.26.x of later, wordt het [`s_ac` ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) koekje gebruikt helpen automatisch het correcte koekjesdomein bepalen. De bibliotheek probeert eerst een cookie te schrijven, die twee domeinperiodes omvat. Als het instellen van dit cookie mislukt, wordt het opnieuw geprobeerd, inclusief meer domeinperiodes totdat het cookie is gelukt. Deze cookie wordt direct verwijderd zodra deze is ingesteld.
 
-## Domeinperioden cookie maken met de SDK van het web
+## Domeinperiodes kopiëren met gebruik van Web SDK
 
-De SDK van het Web bepaalt automatisch het correcte domein om koekjes te plaatsen.
+De Web SDK bepaalt automatisch het correcte domein om koekjes te plaatsen.
 
 ## Domeinperiodes kopiëren met de Adobe Analytics-extensie
 

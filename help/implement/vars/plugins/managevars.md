@@ -1,10 +1,10 @@
 ---
 title: manageVars
 description: Wijzig de waarden van meerdere analytische variabelen tegelijk.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 0%
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `manageVars` kunt u de waarden van meerdere analytische variabelen tegelijk bewerken. U kunt ook waarden instellen op kleine letters of overbodige tekens uit meerdere variabelewaarden tegelijk verwijderen. Adobe raadt u aan deze plug-in te gebruiken als u de waarde van meerdere variabelen tegelijk wilt opruimen.
+Met de plug-in `manageVars` kunt u de waarden van meerdere analytische variabelen tegelijk bewerken. U kunt ook waarden instellen op kleine letters of overbodige tekens uit meerdere variabelewaarden tegelijk verwijderen. Adobe raadt u aan deze plug-in te gebruiken als u de waarde van meerdere variabelen tegelijk wilt opruimen.
 
 ## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
-Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -41,16 +41,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,10 +61,10 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## De plug-in gebruiken
 
-De `manageVars` function gebruikt de volgende argumenten:
+De functie `manageVars` gebruikt de volgende argumenten:
 
-* **`cb`** (vereist, tekenreeks): de naam van een callback-functie die de insteekmodule gebruikt om de variabelen Analytics te manipuleren. U kunt een Adobe-functie gebruiken zoals `cleanStr` of uw eigen aangepaste functie.
-* **`l`** (optioneel, tekenreeks): een door komma&#39;s gescheiden lijst met analytische variabelen die u wilt bewerken. De standaardwaarde is ALLE Adobe Analytics-variabelen indien deze niet zijn ingesteld, waaronder:
+* **`cb`** (vereist, tekenreeks): de naam van een callback-functie die de plug-in gebruikt om de variabelen Analytics te manipuleren. U kunt een Adobe-functie zoals `cleanStr` of uw eigen aangepaste functie gebruiken.
+* **`l`** (optioneel, tekenreeks): een door komma&#39;s gescheiden lijst met analysevariabelen die u wilt bewerken. De standaardwaarde is ALLE Adobe Analytics-variabelen indien deze niet zijn ingesteld, waaronder:
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -81,7 +81,7 @@ De `manageVars` function gebruikt de volgende argumenten:
    * Alle hiërarchievariabelen
    * Alle lijstvariabelen
    * Alle contextgegevensvariabelen
-* **`Il`** (optioneel, Boolean): Instellen op `false` als u *uitsluiten* de lijst van de in het `l` in plaats van ze op te nemen. Standaardwaarden: `true`.
+* **`Il`** (facultatief, boolean): Reeks aan `false` als u ** de lijst van variabelen wilt uitsluiten die in het `l` argument in plaats van hen worden verklaard. Wordt standaard ingesteld op `true` .
 
 Het aanroepen van deze functie retourneert niets. In plaats daarvan worden de waarden van de variabelen van de Analyse veranderd die op de gewenste callback functie worden gebaseerd.
 
@@ -95,7 +95,7 @@ De volgende code...
 manageVars("lowerCaseVars");
 ```
 
-...wijzigt de waarden van alle hierboven beschreven variabelen in lagere versies.  De enige uitzondering hierop zijn de gebeurtenisvariabele, zoals sommige gebeurtenissen (bijvoorbeeld scAdd, scCheckout, enz.) zijn hoofdlettergevoelig en mogen niet worden verlaagd
+...wijzigt de waarden van alle hierboven beschreven variabelen in lagere versies.  De enige uitzondering hierop is de gebeurtenisvariabele, aangezien sommige gebeurtenissen (zoals scAdd, scCheckout, enz.) hoofdlettergevoelig zijn en niet mogen worden verlaagd
 
 ### Voorbeeld 2
 
@@ -125,7 +125,7 @@ De volgende code...
 manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
-...de waarden van alle hierboven beschreven variabelen (bijv. kleine letters) wijzigen, behalve voor eVar1, eVar2, eVar3 en lijst2
+...de waarden van alle hierboven beschreven variabelen (bijv. kleine letters) wijzigen, behalve voor eVar1, eVar2, eVar3 en list2
 
 ### Voorbeeld 5
 
@@ -139,9 +139,9 @@ manageVars("cleanStr");
 
 * Verwijdert HTML-codering
 * Verwijdert witruimten die aan het begin en einde van de waarde worden gevonden
-* Hiermee vervangt u enkele aanhalingstekens naar links/rechts door een recht enkel aanhalingsteken (`'`)
+* Vervangt enkele aanhalingstekens naar links/rechts door een recht enkel aanhalingsteken (`'`)
 * Hiermee vervangt u tabtekens, nieuwe-regeltekens en Enter-tekens door spaties
-* Hiermee vervangt u alle dubbele tekens (of drievoudig, enz.) spaties met één spatie
+* Hiermee vervangt u alle dubbele (of driedubbele, enz.) spaties door één spatie
 
 ## Versiehistorie
 
@@ -152,9 +152,9 @@ manageVars("cleanStr");
 ### 2.1 (14 januari 2019)
 
 * Opgeloste problemen voor Internet Explorer 11-browsers.
-* Wijzigingen voor `s.cleanStr`, die nu gebruikmaakt van de `cleanStr` functie.
+* Wijzigingen voor `s.cleanStr` , die nu de reguliere `cleanStr` functie gebruikt.
 
 ### 2.0 (7 mei 2018)
 
 * Puntrelease (inclusief volledige heranalyse/herschrijven van plug-in)
-* Toegevoegd `cleanStr` callback, functie
+* Toegevoegde callback-functie `cleanStr`

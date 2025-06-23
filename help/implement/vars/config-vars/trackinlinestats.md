@@ -2,10 +2,10 @@
 title: trackInlineStats
 description: (In ruste) Schakel ClickMap in of uit in uw implementatie.
 keywords: klikmap uitschakelen
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 role: Admin, Developer
-source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ClickMap is een gepensioneerde functie in Adobe Analytics die gegevens verzamelt over waar bezoekers klikken en waarop ze klikken. De eigenschap werd vervangen met [ Activity Map ](/help/analyze/activity-map/overview.md).
 
-Wanneer toegelaten, verzamelt het AppMeasurement informatie over de verbinding en verzendt die gegevens in het volgende beeldverzoek. De informatie van elke klik wordt opgeslagen in een koekje geëtiketteerd `s_sq`.
+Als deze optie is ingeschakeld, verzamelt AppMeasurement informatie over de koppeling en verzendt het die gegevens in de volgende afbeeldingsaanvraag. De informatie van elke klik wordt opgeslagen in een koekje geëtiketteerd `s_sq`.
 
 ## ClickMap inschakelen met de Adobe Analytics-extensie
 
@@ -35,9 +35,9 @@ Wanneer toegelaten, verzamelt het AppMeasurement informatie over de verbinding e
 >
 >Dit selectievakje is anders dan het selectievakje [!UICONTROL Use Activity Map] , dat zich onder de accordeon [!UICONTROL Library management] bevindt.
 
-## s.trackInlineStats in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
+## s.trackInlineStats in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
-`s.trackInlineStats` is een Booleaanse waarde die het bijhouden van ClickMapen in- of uitschakelt. Aangezien de functie is uitgeschakeld, wordt het niet aangeraden deze variabele in te stellen door Adobe. De standaardwaarde is `false` .
+`s.trackInlineStats` is een Booleaanse waarde die het bijhouden van ClickMap in- of uitschakelt. Aangezien de functie wordt beëindigd, wordt het door Adobe afgeraden deze variabele in te stellen. De standaardwaarde is `false` .
 
 ```js
 s.trackInlineStats = false;

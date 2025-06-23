@@ -1,10 +1,10 @@
 ---
 title: pt
 description: Hiermee wordt een functie uitgevoerd op een lijst met variabelen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 0%
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `pt` een functie of methode uit in een lijst met analytische variabelen. U kunt bijvoorbeeld selectief de opdracht [`clearVars`](../functions/clearvars.md) op verschillende variabelen worden uitgevoerd zonder de functie telkens handmatig aan te roepen. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
+De plug-in `pt` voert een functie of methode uit in een lijst met variabelen voor Analytics. U kunt bijvoorbeeld de functie [`clearVars`](../functions/clearvars.md) selectief op verschillende variabelen uitvoeren zonder de functie telkens handmatig aan te roepen. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
 
 ## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
-Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -41,16 +41,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,14 +61,14 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ## De plug-in gebruiken
 
-De `pt` function gebruikt de volgende argumenten:
+De functie `pt` gebruikt de volgende argumenten:
 
-* **`l`** (required, string): Een lijst met variabelen die de functie bevat in de `cf` argument kan worden uitgevoerd tegen.
-* **`de`** (optioneel, tekenreeks): het scheidingsteken tussen de lijst met variabelen in het dialoogvenster `l` argument. Heeft als standaardwaarde een komma (`,`).
-* **`cf`** (vereist, tekenreeks): De naam van de callback-functie in het object AppMeasurement die moet worden aangeroepen voor elk van de variabelen in het dialoogvenster `l` argument.
-* **`fa`** (optioneel, tekenreeks): Als de functie in de `cf` Deze argumenten vragen om aanvullende argumenten wanneer deze worden uitgevoerd. Standaardwaarden: `undefined`.
+* **`l`** (required, string): Een lijst met variabelen die de functie in het `cf` argument kan gebruiken.
+* **`de`** (optioneel, tekenreeks): het scheidingsteken tussen de lijst met variabelen in het argument `l` . Heeft als standaardwaarde een komma (`,`).
+* **`cf`** (required, string): De naam van de callback functie in het AppMeasurement-object die moet worden aangeroepen voor elk van de variabelen in het `l` -argument.
+* **`fa`** (optioneel, tekenreeks): Als de functie in het argument `cf` aanvullende argumenten aanroept wanneer deze wordt uitgevoerd, neemt u deze hier op. Wordt standaard ingesteld op `undefined` .
 
-Als deze functie wordt aangeroepen, wordt een waarde geretourneerd als de callback-functie (in het gedeelte `cf` argument) retourneert een waarde.
+Als deze functie wordt aangeroepen, wordt een waarde geretourneerd als de callback-functie (in het argument `cf` ) een waarde retourneert.
 
 ## Voorbeelden van aanroepen
 

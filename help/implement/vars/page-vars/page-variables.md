@@ -1,10 +1,10 @@
 ---
 title: Paginariabelen
 description: Stel waarden in op een afzonderlijke pagina.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 321d0db2-61a3-478e-ab51-8e06c7b2bb7b
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
@@ -18,6 +18,6 @@ Paginabariabelen bepalen de waarden voor afmetingen en metriek in de rapportage.
 De volgende lijst zijn variabelen die vaak in implementaties worden gebruikt:
 
 * [`pageName`](pagename.md): De naam van de pagina.
-* [`campaign`](campaign.md): Stel deze variabele in op een querytekenreeksparameter voor het bijhouden van campagnes.
-* [`events`](events/events-overview.md): Vul metriek voor gebruik in rapportering.
+* [`campaign`](campaign.md): plaats deze variabele aan een parameter van het vraagkoord voor campagne het volgen.
+* [`events`](events/events-overview.md): cijfers invullen voor gebruik in rapportage.
 * [`products`](products.md): Als u een eCommerce-site hebt, stelt u deze variabele in wanneer een bezoeker een product weergeeft of koopt.

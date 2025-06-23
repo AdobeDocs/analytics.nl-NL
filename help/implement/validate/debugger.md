@@ -1,10 +1,10 @@
 ---
 title: Legacy Adobe Experience Cloud Debugger
-description: Installeer de verouderde Adobe Experience Cloud-foutopsporing. Deze debugger inspecteert markeringen voor Analytics, Doel, Advertising Cloud, de Dienst van de Identiteit, en de markeringen van de Inzameling van Gegevens.
-feature: Validation
+description: Installeer de verouderde Adobe Experience Cloud-foutopsporing. Dit foutopsporingsprogramma controleert tags voor Analytics, Target, Advertising Cloud, Identity Service en Data Collection.
+feature: Implementation Basics
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe raadt u aan in plaats daarvan de [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL).
+>Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe adviseert in plaats daarvan het gebruiken van de [ Debugger Chrome Uitbreiding van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
 
-De [!UICONTROL Legacy Debugger] inspecteert tags voor de meeste Adobe Experience Cloud-services. Met het foutopsporingsprogramma kunt u zien welke gegevens op een bepaalde pagina op uw site naar de Adobe worden verzonden. U kunt deze informatie gebruiken om de implementatie van uw organisatie problemen op te lossen of te bevestigen.
+De [!UICONTROL Legacy Debugger] inspecteert tags voor de meeste Adobe Experience Cloud-services. Met het foutopsporingsprogramma kunt u zien welke gegevens op een bepaalde pagina op uw site naar Adobe worden verzonden. U kunt deze informatie gebruiken om de implementatie van uw organisatie problemen op te lossen of te bevestigen.
 
 ## De verouderde foutopsporing installeren
 
-Maak een JavaScript-bladwijzer om het foutopsporingsprogramma te installeren.
+Maak een JavaScript-bladwijzer om de foutopsporing te installeren.
 
 ### Stap 1: Bladwijzercode kopiëren
 
@@ -35,23 +35,23 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 Elke browser heeft verschillende manieren om bladwijzers af te handelen, maar het concept is hetzelfde. Er wordt een bladwijzer gemaakt met de gewenste naam en de bladwijzercode als URL.
 
-#### Chroom
+#### Chrome
 
-Als u erop staat dat u de [chroomextensie](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL), kan in plaats daarvan de oudere bladwijzer voor foutopsporing worden gebruikt.
+Als u erop aandringt om de [ uitbreiding van het chroom ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) niet te gebruiken, kan de erfenisdebugger bookmarklet in plaats daarvan worden gebruikt.
 
-1. Klik op de drie stippen in de rechterbovenhoek en ga naar Bladwijzers > Bladwijzerbeheer. U kunt ook `Ctrl` + `Shift` + `O` (Windows) of `Cmd` + `Shift` + `O` (Mac)
+1. Klik op de drie stippen in de rechterbovenhoek en ga naar Bladwijzers > Bladwijzerbeheer. U kunt ook op `Ctrl` + `Shift` + `O` (Windows) of `Cmd` + `Shift` + `O` (Mac) drukken.
 2. Rechtsboven in de bladwijzermanager klikt u op de drie stippen en vervolgens op Nieuwe bladwijzer toevoegen.
 3. Geef in het veld Naam de naam &quot;Adobe Experience Cloud Debugger&quot; en plak het codefragment in het veld URL.
 4. Plaats de nieuwe bladwijzer met behulp van bladwijzerbeheer op de gewenste locatie.
 
 #### Firefox
 
-1. Klik op de drie regels rechtsboven en ga naar Bibliotheek > Bladwijzers > Alle bladwijzers tonen. U kunt ook `Ctrl` + `Shift` + `B` (Windows) of `Cmd` + `Shift` + `B` (Mac)
+1. Klik op de drie regels rechtsboven en ga naar Bibliotheek > Bladwijzers > Alle bladwijzers tonen. U kunt ook op `Ctrl` + `Shift` + `B` (Windows) of `Cmd` + `Shift` + `B` (Mac) drukken.
 2. Klik op Indelen > Nieuwe bladwijzer.
 3. Typ in het veld Naam de code &quot;Adobe Experience Cloud Debugger&quot; en plak het codefragment in het veld Locatie. De tags en trefwoordvelden zijn niet vereist.
 4. Plaats uw nieuwe bladwijzer in het bibliotheekvenster op de gewenste locatie.
 
-#### Rand
+#### Edge
 
 Edge kan niet handmatig een bladwijzer maken, maar een URL van een bladwijzer kan in een bladwijzer worden bewerkt.
 
@@ -72,7 +72,7 @@ Safari kan niet handmatig een bladwijzer maken, maar een URL van een bladwijzer 
 
 ## Het gebruiken van erfenisdebugger
 
-Navigeer naar de gewenste pagina op uw site en klik vervolgens op de bladwijzer. Er wordt een pop-upvenster weergegeven met de gegevens die naar de Adobe zijn verzonden.
+Navigeer naar de gewenste pagina op uw site en klik vervolgens op de bladwijzer. Er verschijnt een pop-upvenster met gegevens die naar Adobe zijn verzonden.
 
 >[!NOTE]
 >
@@ -80,9 +80,9 @@ Navigeer naar de gewenste pagina op uw site en klik vervolgens op de bladwijzer.
 
 Debugger heeft verscheidene beschikbare opties, die allen aanpassen hoe het gegeven wordt getoond. Geen van deze opties is van invloed op de gegevensverzameling.
 
-* **Weergegeven Experiencen Cloud:** Hiermee toont of verbergt u afbeeldingsaanvragen voor elk Experience Cloud.
-* **URL-decodering:** URL decodeert de afbeeldingsaanvraag zodat deze overeenkomt met wat wordt weergegeven in de rapportage. Adobe raadt aan dit selectievakje ingeschakeld te laten.
-* **Automatisch vernieuwen:** Hiermee wordt de pop-up elke paar seconden automatisch vernieuwd om te controleren op meer afbeeldingsaanvragen op de pagina. Als u inhoud in debugger moet kopiëren/kleven, maak auto-verfrist onbruikbaar zodat uw selectie blijft.
-* **Friendly Format:** Hiermee schakelt u de weergave-indeling tussen handige labels en onbewerkte queryreeksen in een afbeeldingsaanvraag. Zie [Query-parameters voor gegevensverzameling](query-parameters.md) voor meer informatie .
+* **Weergegeven producten van Experience Cloud:** toont of verbergt beeldverzoeken voor elk respectieve product van Experience Cloud.
+* **Decode URL:** URL decodeert het beeldverzoek om aan te passen wat in het melden wordt getoond. Adobe raadt aan dit selectievakje ingeschakeld te laten.
+* **auto verfrist zich:** verfrist automatisch pop-up om de paar seconden om meer beeldverzoeken op de pagina te controleren. Als u inhoud in debugger moet kopiëren/kleven, maak auto-verfrist onbruikbaar zodat uw selectie blijft.
+* **vriendschappelijk Formaat:** knevels het vertoningsformaat tussen nuttige etiketten en ruwe vraagkoorden in een beeldverzoek. Zie [ parameters van de inzamelingsvraag van Gegevens ](query-parameters.md) voor meer informatie.
 
-Als u de standaardweergaveopties voor het foutopsporingsprogramma wilt opslaan, klikt u met de rechtermuisknop op de koppeling &#39;Adobe Debugger&#39; in de rechterbovenhoek en kopieert u vervolgens het koppelingsadres. Bewerk de huidige foutopsporingsbladwijzer en plak het bijgewerkte codefragment in het URL-veld.
+Als u de standaardweergaveopties voor het foutopsporingsprogramma wilt opslaan, klikt u met de rechtermuisknop op de koppeling &#39;Adobe Debugger&#39; in de rechterbovenhoek en kopieert u het koppelingsadres. Bewerk de huidige foutopsporingsbladwijzer en plak het bijgewerkte codefragment in het URL-veld.

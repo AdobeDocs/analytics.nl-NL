@@ -1,10 +1,10 @@
 ---
 title: decodeLinkParameters
-description: Koppelingstrackingvariabelen voor dubbele codering van AppMeasurementen in- of uitschakelen.
+description: Dubbelcoderingsvariabelen voor koppelingen bijhouden in- of uitschakelen.
 exl-id: 329c521a-b965-4114-93ce-f45f159d4a20
-feature: Variables
+feature: Appmeasurement Implementation
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -13,12 +13,12 @@ ht-degree: 0%
 
 # decodeLinkParameters
 
-De `decodeLinkParameters` variable is a boolean that determines if link tracking variables get encoded once (if set to `true`) of tweemaal (indien ingesteld op `false`). Alleen effecten `linkName` (deel van de [`tl()`](../functions/tl-method.md) methode) en [`linkURL`](linkurl.md). Het vereist AppMeasurement v2.24.0 of hoger om te gebruiken. De standaardwaarde van deze variabele is `false`.
+De `decodeLinkParameters` -variabele is een Booleaanse waarde die bepaalt of variabelen voor het bijhouden van koppelingen één keer (indien ingesteld op `true` ) of twee keer (indien ingesteld op `false` ) worden gecodeerd. Alleen van invloed op `linkName` (onderdeel van de methode [`tl()`](../functions/tl-method.md) ) en [`linkURL`](linkurl.md) . AppMeasurement v2.24.0 of hoger is vereist voor gebruik. De standaardwaarde van deze variabele is `false` .
 
-In versies van AppMeasurement vóór v2.24.0 waren variabelen voor het bijhouden van koppelingen altijd twee keer gecodeerd met URL. Hoewel dit geen probleem is voor implementaties die doorgaans vertrouwen op single-bytetekens, zijn met de dubbele codering onjuist gecodeerde waarden voor multi-bytetekens in rapporten gemaakt. Deze variabele instellen op `true` codeert de waarden voor het bijhouden van koppelingen eenmaal. Dit is doorgaans het gewenste gedrag.
+In versies van AppMeasurement vóór v2.24.0 waren variabelen voor het bijhouden van koppelingen altijd twee keer gecodeerd met URL. Hoewel dit geen probleem is voor implementaties die doorgaans vertrouwen op single-bytetekens, zijn met de dubbele codering onjuist gecodeerde waarden voor multi-bytetekens in rapporten gemaakt. Als u deze variabele instelt op `true` , worden de waarden voor het bijhouden van koppelingen eenmaal gecodeerd. Dit is doorgaans het gewenste gedrag.
 
-* Als in uw implementatie multibyte-tekens worden gebruikt en de variabelen voor het bijhouden van koppelingen URL-gedecodeerd zijn om de dubbele codering van het AppMeasurement te verschuiven, stelt u deze variabele in op `false`. Met deze waarde blijft de bestaande functionaliteit van het AppMeasurement behouden.
-* Als in uw implementatie multibyte-tekens worden gebruikt en u de waarden voor het bijhouden van koppelingen in URL-decodering niet gebruikt, wordt u aangeraden deze variabele in te stellen op `true`.
+* Als in uw implementatie multibyte-tekens worden gebruikt en de variabelen voor het bijhouden van koppelingen URL zijn gedecodeerd om dubbele codering van AppMeasurement te compenseren, stelt u deze variabele in op `false` . Met deze waarde blijft de bestaande AppMeasurement-functionaliteit behouden.
+* Als in uw implementatie multibyte-tekens worden gebruikt en u geen URL-waarden opgeeft voor het bijhouden van koppelingen, raadt Adobe aan deze variabele in te stellen op `true` .
 * Als in uw implementatie geen multi-bytetekens worden gebruikt, is deze variabele niet vereist. Adobe raadt echter aan deze variabele in te stellen op `true` in gevallen waarin multi-byte tekens kunnen worden verzonden.
 
 ## Codeer verbindings parameters gebruikend het Web SDK tweemaal
@@ -27,11 +27,11 @@ Deze variabele is specifiek voor AppMeasurement, en is niet nodig in om het even
 
 ## Koppelingsparameters dubbel coderen met de Adobe Analytics-extensie
 
-Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de AppMeasurement-syntaxis.
 
 ## s.decodeLinkParameters in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
-De `s.decodeLinkParameters` variable is a boolean that determines if link tracking values get double encoded. Als deze variabele niet is gedefinieerd, is de standaardwaarde `false` om functionaliteit voor bestaande implementaties te behouden. Adobe raadt aan deze waarde in te stellen op `true` voor alle nieuwe implementaties, vooral als u URL gecodeerde waarden in verbinding het volgen rapporten ziet.
+De variabele `s.decodeLinkParameters` is een Booleaanse waarde die bepaalt of waarden voor het bijhouden van koppelingen dubbel worden gecodeerd. Als deze variabele niet is gedefinieerd, is de standaardwaarde `false` om de functionaliteit voor bestaande implementaties te behouden. Adobe raadt u aan deze waarde in te stellen op `true` voor alle nieuwe implementaties, vooral als u URL-gecodeerde waarden ziet in koppelingsrapporten.
 
 ```js
 s.decodeLinkParameters = true;

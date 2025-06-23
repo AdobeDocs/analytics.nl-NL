@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics-systeemvereisten
 description: De systeemvereisten voor het gebruik van Adobe Analytics.
-feature: System Requirements
+feature: Workspace Basics
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -20,11 +20,11 @@ Voordat je Adobe Analytics kunt gebruiken, moet je beschikken over:
 
 * Een geldige Adobe Analytics-licentie
 
-  Adobe Analytics heeft een sitelicentie nodig. Neem contact op met uw Adobe-accountvertegenwoordiger voor meer informatie.
+  Adobe Analytics heeft een sitelicentie nodig. Neem contact op met je Adobe-accountvertegenwoordiger voor meer informatie.
 
 * Een ondersteunde browser
 
-  Elke gebruiker die Adobe Analytics opent, moet een ondersteunde browser gebruiken. Voor meer informatie, zie de [ het systeemvereisten van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=nl-NL).
+  Elke gebruiker die Adobe Analytics opent, moet een ondersteunde browser gebruiken. Voor meer informatie, zie de [ het systeemvereisten van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html).
 
 ## Systeemvereisten
 
@@ -43,5 +43,5 @@ De meeste Adobe Analytics-oplossingen, waaronder Analysis Workspace, zijn gebase
 
 Zie de verbonden oplossingspagina voor de systeemvereisten van die oplossing.
 
-* [Vereisten voor oudere Reporten Builder](/help/analyze/legacy-report-builder/setup/system-requirements.md)
+* [Verouderde Report Builder-systeemvereisten](/help/analyze/legacy-report-builder/setup/system-requirements.md)
 

@@ -1,10 +1,10 @@
 ---
 title: inList
 description: Controleer of een waarde is opgenomen in een andere door tekens gescheiden waarde.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `inList` kunt u controleren of er al een waarde bestaat binnen een afgebakende tekenreeks of een JavaScript-arrayobject. Verschillende andere plug-ins zijn afhankelijk van de `inList` insteekmodule werkt. Deze insteekmodule biedt een duidelijk voordeel ten opzichte van de JavaScript-methode `indexOf()` waarbij deze niet overeenkomt met een gedeeltelijke tekenreeks. Als u deze insteekmodule bijvoorbeeld hebt gebruikt om te controleren op `"event2"`, komt deze niet overeen met een tekenreeks die `"event25"`. Deze insteekmodule is niet nodig als u niet hoeft te controleren op waarden in afgebakende tekenreeksen of arrays, of als u uw eigen insteekmodule wilt gebruiken `indexOf()` logica.
+Met de insteekmodule `inList` kunt u controleren of er al een waarde bestaat binnen een afgebakende tekenreeks of een JavaScript-arrayobject. Verschillende andere plug-ins zijn afhankelijk van de plug-in `inList` om te werken. Deze plug-in biedt een duidelijk voordeel ten opzichte van de JavaScript-methode `indexOf()` , waarbij gedeeltelijke tekenreeksen niet overeenkomen. Als u deze plug-in bijvoorbeeld hebt gebruikt om te controleren op `"event2"` , komt deze niet overeen met een tekenreeks die `"event25"` bevat. Deze plug-in is niet nodig als u niet hoeft te controleren op waarden in afgebakende tekenreeksen of arrays, of als u uw eigen `indexOf()` -logica wilt gebruiken.
 
 ## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
-Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -41,16 +41,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,14 +61,14 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## De plug-in gebruiken
 
-De `inList` functie retourneert een Booleaanse waarde, afhankelijk van de invoer. De volgende argumenten worden gebruikt:
+De functie `inList` retourneert een Booleaanse waarde, afhankelijk van de invoer. De volgende argumenten worden gebruikt:
 
 * **`lv`** (vereist, tekenreeks of array): Een gescheiden lijst met waarden of een JavaScript-arrayobject dat moet worden doorzocht
 * **`vtc`** (required, string): De waarde waarnaar moet worden gezocht
-* **`d`** (optioneel, tekenreeks): het scheidingsteken dat wordt gebruikt om afzonderlijke waarden in het dialoogvenster `lv` argument. Heeft als standaardwaarde een komma (`,`) wanneer niet ingesteld.
-* **`cc`** (optioneel, Boolean): Indien ingesteld op `true` of `1`, wordt een hoofdlettergevoelige controle uitgevoerd. Indien ingesteld op `false` of weggelaten, dan wordt een case-insensitive controle gemaakt. Standaardwaarden: `false`.
+* **`d`** (optioneel, tekenreeks): het scheidingsteken dat wordt gebruikt voor het scheiden van afzonderlijke waarden in het argument `lv` . Heeft als standaardwaarde een komma (`,`).
+* **`cc`** (optioneel, Boolean): Bij `true` of `1` wordt een hoofdlettergevoelige controle uitgevoerd. Indien ingesteld op `false` of weggelaten, wordt een niet-hoofdlettergevoelige controle uitgevoerd. Wordt standaard ingesteld op `false` .
 
-Deze functie aanroepen retourneert `true` als het een gelijke vindt, en `false` als er geen overeenkomst wordt gevonden.
+Als deze functie wordt aangeroepen, wordt `true` geretourneerd als er een overeenkomst wordt gevonden en `false` als er geen overeenkomst wordt gevonden.
 
 ## Voorbeelden
 
@@ -112,7 +112,7 @@ if(inList(s.linkTrackVars,"eVar1","|")) {
 
 ### v2.1 (26 september 2019)
 
-* De optie voor de opdracht `cc` argument om geen booleaanse waarde te zijn. Bijvoorbeeld: `1` is een geldige controlewaarde voor hoofdletters en kleine letters.
+* De optie voor het argument `cc` is toegevoegd om geen booleaanse waarde te hebben. `1` is bijvoorbeeld een geldige controlewaarde voor hoofdletters en kleine letters.
 
 ### v2.0 (17 april 2018)
 

@@ -1,10 +1,10 @@
 ---
 title: getResponsiveLayout
 description: Bepaal welke lay-out van een website momenteel wordt weergegeven.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `getResponsiveLayout` Met de insteekmodule kunt u bijhouden naar welke versie van uw responsieve, op ontwerpen gebaseerde website een bezoeker momenteel kijkt. Adobe raadt u aan deze plug-in te gebruiken als uw site gebruikmaakt van een responsief ontwerp en u de versie van de site wilt bijhouden die door een bezoeker wordt weergegeven. Deze insteekmodule is niet nodig als uw site geen responsief ontwerp gebruikt.
+Met de plug-in `getResponsiveLayout` kunt u bijhouden naar welke versie van uw responsieve, op ontwerpen gebaseerde website een bezoeker momenteel kijkt. Adobe raadt u aan deze plug-in te gebruiken als uw site gebruikmaakt van een responsief ontwerp en u de versie van de site wilt bijhouden die door een bezoeker wordt weergegeven. Deze insteekmodule is niet nodig als uw site geen responsief ontwerp gebruikt.
 
 ## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
-Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -41,16 +41,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,21 +61,21 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## De plug-in gebruiken
 
-De `getResponsiveLayout` function gebruikt de volgende argumenten:
+De functie `getResponsiveLayout` gebruikt de volgende argumenten:
 
-* **`ppw`** (vereist, geheel getal): de maximale breedte van pixels die een browservenster kan hebben voordat de pagina overschakelt van een staande lay-out Telefoon naar een liggende lay-out Telefoon
+* **`ppw`** (vereist, geheel getal): de maximale breedte van pixels die een browservenster kan hebben voordat de pagina overschakelt van een staande lay-out telefoon naar een liggende lay-out voor de telefoon
 * **`plw`** (vereist, geheel getal): de maximale breedte van pixels die een browservenster kan hebben voordat de pagina overschakelt van een liggende lay-out voor de telefoon naar een op tablets gebaseerde lay-out
 * **`tw`** (vereist, geheel getal): de maximale breedte van pixels die een browservenster kan hebben voordat de pagina overschakelt van een tabletlay-out naar een op het bureaublad gebaseerde lay-out
 
-Als deze functie wordt aangeroepen, wordt een tekenreeks geretourneerd met twee delen die zijn gescheiden door een dubbele punt (`:`). Het eerste deel van de tekenreeks bevat een van de volgende waarden, afhankelijk van de breedte van de browser en de bovenstaande argumenten:
+Wanneer deze functie wordt aangeroepen, wordt een tekenreeks geretourneerd met twee delen die zijn gescheiden door een dubbele punt (`:`). Het eerste deel van de tekenreeks bevat een van de volgende waarden, afhankelijk van de breedte van de browser en de bovenstaande argumenten:
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
-* `"phone layout"` (voor sites die niet zowel een staande als een liggende lay-out hebben)
+* `"phone layout"` (voor sites die niet zowel een liggende als een staande lay-out hebben)
 * `"tablet layout"`
 * `"desktop layout"`
 
-Het tweede deel van de geretourneerde tekenreeks is de breedte en hoogte van de browser. Bijvoorbeeld: `"desktop layout:1243x700"`.
+Het tweede deel van de geretourneerde tekenreeks is de breedte en hoogte van de browser. Bijvoorbeeld `"desktop layout:1243x700"` .
 
 ## Voorbeelden
 

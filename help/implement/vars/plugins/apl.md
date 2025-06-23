@@ -1,10 +1,10 @@
 ---
 title: apl (appendToList)
 description: Voeg waarden toe aan variabelen die meerdere waarden ondersteunen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `apl` Met plug-in kunt u veilig nieuwe waarden toevoegen aan door lijsten gescheiden variabelen, zoals [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md)en andere.
+Met de plug-in `apl` kunt u veilig nieuwe waarden toevoegen aan door lijsten gescheiden variabelen, zoals [`events`](../page-vars/events/events-overview.md) , [`linkTrackVars`](../config-vars/linktrackvars.md) , [`list`](../page-vars/list.md) en andere.
 
 * Als de waarde die u wilt toevoegen niet in de variabele bestaat, voegt de code de waarde aan het einde van de tekenreeks toe.
 * Als de waarde die u wilt toevoegen al in de variabele bestaat, wijzigt deze plug-in de waarde niet. Hierdoor kan uw implementatie dubbele waarden voorkomen.
@@ -25,16 +25,16 @@ Adobe raadt u aan deze plug-in te gebruiken als u nieuwe waarden wilt toevoegen 
 
 ## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
-Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -47,16 +47,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -67,15 +67,15 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## De plug-in gebruiken
 
-De `apl` function gebruikt de volgende argumenten:
+De functie `apl` gebruikt de volgende argumenten:
 
-* **`lv`** (vereist, tekenreeks): De variabele die een gescheiden lijst met items bevat waaraan een nieuwe waarde moet worden toegevoegd
-* **`vta`** (vereist, tekenreeks): Een door komma&#39;s gescheiden lijst met de nieuwe waarden die aan het object moeten worden toegevoegd `lv` waarde van het argument.
-* **`d1`** (optioneel, tekenreeks): het scheidingsteken dat wordt gebruikt voor het scheiden van de afzonderlijke waarden die al in het dialoogvenster `lv` argument.  Heeft als standaardwaarde een komma (`,`) wanneer niet ingesteld.
-* **`d2`** (optioneel, tekenreeks): het uitvoerscheidingsteken. Heeft standaard dezelfde waarde als `d1` wanneer niet ingesteld.
-* **`cc`** (optioneel, Boolean): een markering die aangeeft of een hoofdlettergevoelige controle wordt gebruikt. Indien `true`De duplicatiecontrole is hoofdlettergevoelig. Indien `false` of niet ingesteld, is de duplicatiecontrole niet hoofdlettergevoelig. Standaardwaarden: `false`.
+* **`lv`** (required, string): De variabele die een gescheiden lijst met items bevat waaraan een nieuwe waarde moet worden toegevoegd
+* **`vta`** (required, string): Een door komma&#39;s gescheiden lijst van de nieuwe waarde(n) die aan de waarde van het argument `lv` moet worden toegevoegd.
+* **`d1`** (optioneel, tekenreeks): het scheidingsteken dat wordt gebruikt om de afzonderlijke waarden te scheiden die al in het argument `lv` staan.  Heeft als standaardwaarde een komma (`,`).
+* **`d2`** (optioneel, tekenreeks): het uitvoerscheidingsteken. Heeft als standaardwaarde dezelfde waarde als `d1` als dit niet is ingesteld.
+* **`cc`** (optioneel, Boolean): een markering die aangeeft of een hoofdlettergevoelige controle wordt gebruikt. Als `true` , is de duplicatiecontrole hoofdlettergevoelig. Indien `false` of niet ingesteld, is de duplicatiecontrole niet hoofdlettergevoelig. Wordt standaard ingesteld op `false` .
 
-De `apl` functie retourneert de waarde van de `lv` plus eventuele niet-dubbele waarden in het dialoogvenster `vta` argument.
+De functie `apl` retourneert de waarde van het argument `lv` plus eventuele niet-gedupliceerde waarden in het argument `vta` .
 
 ## Voorbeelden
 
@@ -137,28 +137,28 @@ s.list3 = apl(s.list3,"value1");
 
 ### 3.2 (25 september 2019)
 
-* Compatibiliteitsproblemen met `apl` aanroepen die oudere versies van de plug-in gebruikten
+* Compatibiliteitsproblemen verholpen met aanroepen van `apl` naar oudere versies van de plug-in.
 * Verwijderde consolewaarschuwingen om grootte te verminderen
 * Toegevoegd `inList 2.1`
 
 ### 3.1 (22 april 2018)
 
-* `d2` argument wordt nu standaard ingesteld op de waarde van de `d1` argument indien niet ingesteld
+* Het argument `d2` wordt nu standaard ingesteld op de waarde van het argument `d1` als dit niet is ingesteld
 
 ### 3.0 (16 april 2018)
 
 * Volledige heranalyse/herschrijven van plug-in
 * Geavanceerde foutcontrole toegevoegd
-* De `vta` argument accepteert nu meerdere waarden tegelijk
-* De `d2` argument om de geretourneerde waarde op te maken
-* De `cc` argument naar een Booleaanse waarde
+* Het argument `vta` accepteert nu meerdere waarden tegelijk
+* Het argument `d2` toegevoegd om de geretourneerde waarde op te maken
+* Het argument `cc` is gewijzigd in een Booleaanse waarde
 
 ### 2.5 (18 februari 2016)
 
-* Gebruikt nu de `inList` functie voor vergelijkingsverwerking
+* De functie `inList` wordt nu gebruikt voor vergelijkingsverwerking
 
 ### 2.0 (26 januari 2016)
 
-* `d` (Scheidingsteken) argument nu optioneel (wordt standaard een komma)
-* `u` (Markering voor hoofdlettergevoeligheid) argument is nu optioneel (wordt standaard ingesteld op hoofdlettergevoelig)
-* Ongeacht de `u` (Markering voor hoofdlettergevoeligheid) voegt de plug-in geen waarde meer toe aan een lijst als de waarde al in de lijst voorkomt
+* Het argument `d` (Scheidingsteken) is nu optioneel (de standaardwaarde is een komma)
+* `u` (markering Hoofdlettergevoeligheid) argument nu optioneel (wordt standaard niet-hoofdlettergevoelig)
+* Ongeacht het argument `u` (hoofdlettergevoeligheid) voegt de plug-in geen waarde meer toe aan een lijst als de waarde al in de lijst bestaat

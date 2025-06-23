@@ -1,10 +1,10 @@
 ---
 title: formatTime
 description: Zet een aantal seconden in zijn equivalent in notulen, uren, enz. om.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `formatTime` Met de insteekmodule kunt u een willekeurig aantal seconden duren en deze presenteren in een gespikte indeling, afgerond naar een gewenste benchmarkwaarde. Adobe raadt u aan deze plug-in te gebruiken als u een tijdswaarde in seconden wilt vastleggen en deze wilt omzetten in een bucket-indeling (zoals minuten, dagen of weken). Deze plug-in is niet nodig als u op de tweede computer gebaseerde waarden niet in een indeling met afgeronde tijd wilt plaatsen.
+Met de plug-in `formatTime` kunt u een willekeurig aantal seconden duren en deze presenteren in een gespikte indeling, afgerond naar een gewenste benchmarkwaarde. Adobe raadt u aan deze plug-in te gebruiken als u een tijdswaarde in seconden wilt vastleggen en deze wilt omzetten in een bucket-indeling (zoals minuten, dagen of weken). Deze plug-in is niet nodig als u op de tweede computer gebaseerde waarden niet in een indeling met afgeronde tijd wilt plaatsen.
 
 ## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
-Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -41,16 +41,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,17 +61,17 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## De plug-in gebruiken
 
-De `formatTime` function gebruikt de volgende argumenten:
+De functie `formatTime` gebruikt de volgende argumenten:
 
-* **`ns`** (vereist, geheel getal): Het aantal seconden dat geconverteerd of opgemaakt moet worden
-* **`tf`** (optioneel, tekenreeks): Het type indeling waarin de seconden moeten worden geretourneerd; de standaardwaarde is seconden
-   * Instellen op `"d"` als u de tijd in dagen wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/4 dagen)
-   * Instellen op `"h"` als u de tijd in uren wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/4 uur)
-   * Instellen op `"m"` als u de tijd in minuten wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/2 minuten)
-   * Instellen op `"s"` als u de tijd in seconden wilt (standaard afgerond op de dichtstbijzijnde benchmark van 5 seconden)
-* **`bml`** (facultatief, nummer): de lengte van de afrondingsbenchmarks. Standaardwaarden van de benchmarks die zijn opgenomen in de `tf` argument
+* **`ns`** (required, integer): Het aantal seconden dat geconverteerd of geformatteerd moet worden
+* **`tf`** (optioneel, tekenreeks): Het type notatie waarin de seconden moeten worden geretourneerd; de standaardwaarde is seconden
+   * Ingesteld op `"d"` als u de tijd in dagen wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/4 dagen)
+   * Ingesteld op `"h"` als u de tijd in uren wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/4 uur)
+   * Ingesteld op `"m"` als u de tijd in minuten wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/2 minuten)
+   * Ingesteld op `"s"` als u de tijd in seconden wilt (standaard afgerond op de dichtstbijzijnde benchmark van 5 seconden)
+* **`bml`** (optioneel, getal): de lengte van de afrondingsbenchmarks. Wordt standaard ingesteld op de benchmarks in het argument `tf`
 
-De functie retourneert het aantal seconden dat is opgemaakt met de eenheid die u opgeeft in het dialoogvenster `tf` argument. Als de `tf` argument is niet ingesteld:
+De functie retourneert het aantal seconden dat is opgemaakt met de eenheid die u opgeeft in het argument `tf` . Als het argument `tf` niet is ingesteld:
 
 * Iets minder dan een minuut wordt afgerond naar de dichtstbijzijnde benchmark van 5 seconden
 * Alles tussen een minuut en een uur wordt afgerond naar de dichtstbijzijnde benchmark van 1/2 minuten
@@ -114,7 +114,7 @@ s.eVar55 = formatTime(145, "m", .4);
 
 ### 1.1 (21 mei 2018)
 
-* De `bml` argument om meer flexibiliteit bij afronding mogelijk te maken
+* Het argument `bml` toegevoegd voor meer flexibiliteit bij het afronden
 
 ### 1.0 (15 april 2018)
 

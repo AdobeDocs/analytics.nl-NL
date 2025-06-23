@@ -1,10 +1,10 @@
 ---
 title: tl
-description: Verzend een verbinding het volgen vraag aan Adobe.
-feature: Variables
+description: Stuur een koppelingenvolgvraag naar Adobe.
+feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # tl
 
-De methode `tl()` is een belangrijke kerncomponent voor Adobe Analytics. Het neemt alle variabelen die van Analytics op de pagina worden bepaald, compileert hen in een beeldverzoek, en verzendt die gegevens naar de servers van de de gegevensinzameling van de Adobe. Deze methode werkt op ongeveer dezelfde manier als de methode [`t()`](t-method.md) , maar bij deze methode worden de paginaweergaven niet vergroot. Het is handig voor het bijhouden van koppelingen en andere elementen die niet als een volledige pagina worden geladen.
+De methode `tl()` is een belangrijke kerncomponent voor Adobe Analytics. Alle analysevariabelen die op de pagina zijn gedefinieerd, worden gecompileerd tot een verzoek om een afbeelding en die gegevens worden naar Adobe-servers voor gegevensverzameling verzonden. Deze methode werkt op ongeveer dezelfde manier als de methode [`t()`](t-method.md) , maar bij deze methode worden de paginaweergaven niet vergroot. Het is handig voor het bijhouden van koppelingen en andere elementen die niet als een volledige pagina worden geladen.
 
-Als [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) of [`trackExternalLinks`](../config-vars/trackexternallinks.md) zijn ingeschakeld, roept het AppMeasurement automatisch de methode `tl()` aan om de downloadkoppeling te verzenden en de gegevens voor het bijhouden van koppelingen af te sluiten. Als uw organisatie liever meer controle heeft over de koppelingen en het gedrag ervan, kunt u de methode `tl()` handmatig aanroepen. U kunt aangepaste koppelingen alleen handmatig bijhouden.
+Als [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) of [`trackExternalLinks`](../config-vars/trackexternallinks.md) is ingeschakeld, roept AppMeasurement automatisch de methode `tl()` aan om de downloadkoppeling te verzenden en de volggegevens van de koppeling af te sluiten. Als uw organisatie liever meer controle heeft over de koppelingen en het gedrag ervan, kunt u de methode `tl()` handmatig aanroepen. U kunt aangepaste koppelingen alleen handmatig bijhouden.
 
-## Koppelingen bijhouden met de SDK van het web
+## Koppelingen bijhouden met de Web SDK
 
-De SDK van het Web maakt geen onderscheid tussen de vraag van de paginamening en verbinding het volgen vraag; allebei gebruiken het `sendEvent` bevel.
+Het Web SDK maakt geen onderscheid tussen de vraag van de paginamening en verbinding het volgen vraag; allebei gebruiken het `sendEvent` bevel.
 
 Als u een XDM-object gebruikt en Adobe Analytics een bepaalde gebeurtenis wilt tellen als een aanroep voor het bijhouden van koppelingen, moet u ervoor zorgen dat uw XDM-gegevens:
 
@@ -76,7 +76,7 @@ U kunt geen optionele argumenten instellen in de extensie Analytics.
 
 ## s.tl()-methode in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
-Roep de methode `s.tl()` aan wanneer u een volgende vraag naar Adobe wilt verzenden.
+Roep de methode `s.tl()` aan wanneer u een volgende aanroep naar Adobe wilt verzenden.
 
 ```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
@@ -88,9 +88,9 @@ Het argument voor het koppelingsobject bepaalt of de browser tot 500 ms wacht vo
 
 >[!NOTE]
 >
->Met AppMeasurement wordt de variabele [`useBeacon`](../config-vars/usebeacon.md) automatisch ingeschakeld voor afsluitkoppelingen, waardoor dit argument niet langer nodig is in moderne browsers. Dit argument werd vaker gebruikt in vorige versies van AppMeasurement.
+>AppMeasurement schakelt de variabele [`useBeacon`](../config-vars/usebeacon.md) automatisch in voor afsluitkoppelingen, waardoor dit argument niet langer nodig is in moderne browsers. Dit argument werd vaker gebruikt in eerdere versies van AppMeasurement.
 
-* `this`: wacht tot 500 ms om AppMeasurement tijd te geven om een afbeeldingsverzoek te verzenden. Standaardwaarde.
+* `this`: wacht tot 500 ms om AppMeasurement tijd te geven om een afbeeldingsaanvraag te verzenden. Standaardwaarde.
 * `true`: wacht niet.
 
 ```JavaScript
@@ -142,7 +142,7 @@ s.tl(true,"o","Example custom link",y);
 
 ## Voorbeelden en gebruiksgevallen
 
-Verzend een basisverbinding het volgen vraag direct binnen een verbinding van HTML:
+Verzend een basisvraag het volgen van verbindingen direct binnen een verbinding van HTML:
 
 ```HTML
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
@@ -175,11 +175,11 @@ Vervolgens kunt u de functie aanroepen wanneer u een bepaalde koppeling wilt bij
 ```
 
 >[!NOTE]
->Door de methode `tl()` indirect aan te roepen, kunt u de rapportage van Activity Map-overlays minder handig maken. U moet op elke koppeling klikken om de functie te registreren bij het koppelingselement. Activity Mappen in Workspace worden echter op dezelfde manier bijgehouden.
+>Door de methode `tl()` indirect aan te roepen, kunt u Activity Map-overlayrapportage minder handig maken. U moet op elke koppeling klikken om de functie te registreren bij het koppelingselement. Activity Map-afmetingen in Workspace worden echter op dezelfde manier bijgehouden.
 
 ### Dubbele koppelingen niet bijhouden
 
-Als `trackDownloadLinks` of `trackExternalLinks` zijn ingeschakeld, wordt door het AppMeasurement automatisch een aanroep naar het bijhouden van koppelingen gemaakt als de juiste filters overeenkomen. Als u ook handmatig `s.tl()` voor deze koppeling aanroept, kunt u gedupliceerde gegevens naar de Adobe verzenden. Met dubbele gegevens worden de rapportnummers opgevoerd en minder nauwkeurig gemaakt.
+Als `trackDownloadLinks` of `trackExternalLinks` zijn ingeschakeld, roept AppMeasurement automatisch een koppeling bij te houden op als de juiste filters overeenkomen. Als u ook handmatig `s.tl()` voor deze koppeling aanroept, kunt u dubbele gegevens naar Adobe verzenden. Met dubbele gegevens worden de rapportnummers opgevoerd en minder nauwkeurig gemaakt.
 
 De volgende functie verzendt bijvoorbeeld twee aanroepen voor het bijhouden van koppelingen naar dezelfde link (handmatige en automatische downloadkoppelingen):
 
@@ -200,17 +200,17 @@ function linkCode(obj) {
 }
 ```
 
-### De methode `tl()` met Activity Map gebruiken
+### De methode `tl()` gebruiken met Activity Map
 
-Met de methode `tl()` kunt u aangepaste elementen bijhouden en de rendering van bedekkingen configureren voor dynamische inhoud. De `linkName` parameter wordt ook gebruikt om de [ Activity Map 2&rbrace; dimensie van de Verbinding te plaatsen.](/help/components/dimensions/activity-map-link.md)
+Met de methode `tl()` kunt u aangepaste elementen bijhouden en de rendering van bedekkingen configureren voor dynamische inhoud. De `linkName` parameter wordt ook gebruikt om de [ 2} dimensie van de Verbinding van Activity Map {te plaatsen.](/help/components/dimensions/activity-map-link.md)
 
-Wanneer de methode `tl()` rechtstreeks wordt aangeroepen vanuit de klikgebeurtenis van het HTML-element, kan de Activity Map een bedekking voor dat element weergeven wanneer de webpagina wordt geladen. Bijvoorbeeld:
+Wanneer de methode `tl()` rechtstreeks wordt aangeroepen vanuit de klikgebeurtenis van het HTML-element, kan Activity Map een bedekking voor dat element weergeven wanneer de webpagina wordt geladen. Bijvoorbeeld:
 
 ```html
 <a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
 ```
 
-Wanneer de methode `tl()` niet rechtstreeks wordt aangeroepen vanuit de klikgebeurtenis van het HTML-element, kan de Activity Map alleen een bedekking weergeven wanneer op dat element is geklikt. Bijvoorbeeld:
+Wanneer de methode `tl()` niet rechtstreeks wordt aangeroepen vanuit de klikgebeurtenis van het HTML-element, kan Activity Map alleen een bedekking weergeven nadat op dat element is geklikt. Bijvoorbeeld:
 
 ```html
 <a href="index.html" onclick="someFn(event);">Example link text</a>

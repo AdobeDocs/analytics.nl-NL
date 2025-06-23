@@ -1,10 +1,10 @@
 ---
 title: tijdstempel
 description: Stel handmatig de tijdstempel van de hit in.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # tijdstempel
 
-De `timestamp` Met variabele wordt handmatig de tijdstempel van de hit ingesteld voor rapportsuites waarvoor tijdstempels zijn ingeschakeld.
+Met de variabele `timestamp` wordt handmatig de tijdstempel van de hit ingesteld voor rapportsuites waarvoor tijdstempels zijn ingeschakeld.
 
 >[!WARNING]
 >
 >Gebruik deze variabele niet als uw rapportsuite niet expliciet is geconfigureerd voor het accepteren van treffers met een tijdstempel. AppMeasurement stelt automatisch de tijd van een hit in voor rapportsuites die geen ondersteuning bieden voor treffers met tijdstempels. Als u een hit met deze variabele naar een rapportsuite verzendt die geen tijdstempels ondersteunt, gaan die gegevens permanent verloren.
 
-## Tijdstempel met de SDK van het web
+## Tijdstempel met gebruik van de Web SDK
 
-Tijdstempel is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=nl-NL) onder het XDM-veld `xdm.timestamp`. Dit veld ondersteunt alleen Unix-tijd.
+Tijdstempel wordt [ in kaart gebracht voor Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) onder het XDM gebied `xdm.timestamp`. Dit veld ondersteunt alleen Unix-tijd.
 
 ## Tijdstempel met Adobe Analytics-extensie
 
-Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de AppMeasurement-syntaxis.
 
-## s.timestamp in AppMeasurement en de de uitbreidingsredacteur van de douanecode van de Analyse
+## s.timestamp in AppMeasurement en de de coderedacteur van de uitbreiding van de Analytics
 
-De `s.timestamp` variabele is een tekenreeks die de datum en tijd van de hit bevat. Geldige tijdstempelindelingen zijn [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) en [Unix time](https://en.wikipedia.org/wiki/Unix_time) in seconden.
+De variabele `s.timestamp` is een tekenreeks met de datum en tijd van de hit. Geldige timestamp formaten omvatten [ ISO 8601 ](https://en.wikipedia.org/wiki/ISO_8601) en [ Unix tijd ](https://en.wikipedia.org/wiki/Unix_time) in seconden.
 
 ```js
 // Timestamp using ISO 8601
@@ -47,16 +47,16 @@ s.timestamp = new Date().toISOString();
 
 ## ISO 8601-waarden
 
-Datum en tijd uitgedrukt in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) kan verschillende vormen aannemen. Adobe ondersteunt niet alle functies in ISO 8601.
+De data en de tijden die in [ worden uitgedrukt ISO 8601 ](https://en.wikipedia.org/wiki/ISO_8601) kunnen verscheidene verschillende vormen nemen. Adobe ondersteunt niet alle functies in ISO 8601.
 
-* De datum en tijd moeten worden opgegeven, gescheiden door `T`.
+* Zowel de datum als de tijd moeten worden opgegeven, gescheiden door `T` .
 * Uren en minuten zijn vereist; seconden zijn optioneel, maar aanbevolen.
 * Weekdatums en rangteldatums worden niet ondersteund.
-* De datum kan in het standaard of uitgebreide formaat zijn. Bijvoorbeeld: `2024-01-01T00:00:00Z` en `20240101T000000Z` zijn beide geldig.
+* De datum kan in het standaard of uitgebreide formaat zijn. `2024-01-01T00:00:00Z` en `20240101T000000Z` zijn bijvoorbeeld allebei geldig.
 * Fractionele minuten en seconden zijn technisch geldig, maar de breuken worden genegeerd door Adobe.
 * Tijdzones worden ondersteund in de standaardnotatie en in de uitgebreide notatie.
 
-Hieronder vindt u een geldig voorbeeld van ISO 8601-waarden in de `timestamp` variabele:
+Hieronder vindt u een geldig voorbeeld van ISO 8601-waarden in de variabele `timestamp` :
 
 ```text
 2024-01-01T00:00:00+00:00

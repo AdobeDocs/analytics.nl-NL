@@ -1,10 +1,10 @@
 ---
 title: getPreviousValue
 description: Hiermee wordt de laatste waarde opgehaald die in een variabele is doorgegeven.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
@@ -15,35 +15,35 @@ ht-degree: 0%
 
 {{plug-in}}
 
-De `getPreviousValue` kunt u een variabele instellen op een waarde die bij een vorige hit is ingesteld. Deze insteekmodule is niet nodig als de implementatie alle gewenste waarden in de huidige hit bevat.
+Met de plug-in `getPreviousValue` kunt u een variabele instellen op een waarde die bij een vorige hit is ingesteld. Deze insteekmodule is niet nodig als de implementatie alle gewenste waarden in de huidige hit bevat.
 
-## De plug-in installeren met de extensie Web SDK
+## De insteekmodule installeren met de extensie Web SDK
 
-De Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken voor de webversie van SDK.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
-1. Klikken **[!UICONTROL Extensions]** klikt u links op de knop **[!UICONTROL Catalog]** tab
-1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
-1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Klik op **[!UICONTROL Tags]** aan de linkerkant en klik op de gewenste eigenschap Tag.
+1. Klik op **[!UICONTROL Extensions]** aan de linkerkant en klik vervolgens op de tab **[!UICONTROL Catalog]**
+1. Zoek en installeer de extensie **[!UICONTROL Common Web SDK Plugins]** .
+1. Klik op **[!UICONTROL Data Elements]** aan de linkerkant en klik op het gewenste gegevenselement.
 1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
-   * Extension: Common Web SDK-plug-ins
+   * Extensie: algemene SDK-plug-ins voor het web
    * Gegevenselement: `getPreviousValue`
 1. Stel de gewenste parameters rechts in.
 1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
 
-## De plug-in handmatig installeren met de implementatie van de Web SDK
+## De insteekmodule handmatig installeren voor de Web SDK
 
 Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige implementatie van de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -56,16 +56,16 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
 ## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adoben met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md) ). Door opmerkingen en versienummers van de code in uw implementatie te behouden, helpt Adobe bij het oplossen van mogelijke problemen.
 
 ```js
 /* Adobe Consulting Plugin: getPreviousValue v3.0 */
@@ -75,12 +75,12 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 ## De plug-in gebruiken
 
-De `getPreviousValue` function gebruikt de volgende argumenten:
+De functie `getPreviousValue` gebruikt de volgende argumenten:
 
 * **`v`** (tekenreeks, vereist): De variabele met de waarde die u wilt doorgeven aan de volgende afbeeldingsaanvraag. Een veelgebruikte variabele is `s.pageName` om de vorige paginawaarde op te halen.
-* **`c`** (tekenreeks, optioneel): de naam van het cookie waarin de waarde wordt opgeslagen.  Als dit argument niet is ingesteld, wordt standaard ingesteld op `"s_gpv"`.
+* **`c`** (tekenreeks, optioneel): de naam van het cookie waarin de waarde wordt opgeslagen.  Als dit argument niet is ingesteld, wordt standaard ingesteld op `"s_gpv"` .
 
-Wanneer u deze functie aanroept, wordt de tekenreekswaarde in het cookie geretourneerd. De insteekmodule stelt vervolgens de vervaldatum van het cookie opnieuw in en wijst er de variabelewaarde aan toe vanuit de `v` argument. Het cookie verloopt na 30 minuten inactiviteit.
+Wanneer u deze functie aanroept, wordt de tekenreekswaarde in het cookie geretourneerd. De insteekmodule stelt vervolgens de vervaldatum van het cookie opnieuw in en wijst hieraan de variabelewaarde toe vanuit het argument `v` . Het cookie verloopt na 30 minuten inactiviteit.
 
 ## Voorbeelden
 
@@ -102,7 +102,7 @@ s.eVar10 = getPreviousValue(s.eVar1);
 
 ## Onwaarschijnlijke Kwartels
 
-Als de variabele gekoppeld is aan de `v` wordt ingesteld op een nieuwe waarde en `getPreviousValue` de insteekmodule wordt uitgevoerd, MAAR er wordt NIET tegelijkertijd een analytische serveraanroep verzonden, de nieuwe `v` de argumentwaarde wordt nog steeds beschouwd als de &quot;vorige waarde&quot; de volgende keer dat de insteekmodule wordt uitgevoerd.
+Als de variabele die aan het argument `v` is gekoppeld, op een nieuwe waarde is ingesteld en de `getPreviousValue` -insteekmodule MAAR tegelijkertijd een analytische serveraanroep wordt NIET verzonden, wordt de nieuwe argumentwaarde `v` de volgende keer dat de insteekmodule wordt uitgevoerd, nog steeds als de &quot;vorige waarde&quot; beschouwd.
 Stel bijvoorbeeld dat de volgende code op de eerste pagina van het bezoek wordt uitgevoerd:
 
 ```js
@@ -111,14 +111,14 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Deze code produceert een servervraag waar `pageName` is &quot;Home&quot; en prop7 is niet ingesteld.  De oproep tot `getPreviousValue` slaat de waarde van op `pageName` in de `gpv_Page` cookie. Stel dat onmiddellijk daarna op dezelfde pagina de volgende code wordt uitgevoerd:
+Deze code genereert een serveraanroep waarbij `pageName` &quot;Home&quot; is en prop7 niet is ingesteld.  Bij het aanroepen van `getPreviousValue` wordt de waarde van `pageName` echter opgeslagen in het `gpv_Page` -cookie. Stel dat onmiddellijk daarna op dezelfde pagina de volgende code wordt uitgevoerd:
 
 ```js
 s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-Aangezien de `t()` Deze functie wordt niet uitgevoerd in dit codeblok. Er wordt geen andere afbeeldingsaanvraag verzonden.  Wanneer echter `getPreviousValue` deze keer wordt de functiecode uitgevoerd, `prop7` wordt ingesteld op de vorige waarde van `pageName` (&quot;Huis&quot;), dan slaat de nieuwe waarde van op `pageName` (&quot;Nieuwe waarde&quot;) in het dialoogvenster `gpv_Page` cookie. Ga er vervolgens van uit dat de bezoeker naar een andere pagina navigeert en dat de volgende code op deze pagina wordt uitgevoerd:
+Aangezien de functie `t()` niet in dit codeblok wordt uitgevoerd, wordt geen andere afbeeldingsaanvraag verzonden.  Wanneer de functiecode `getPreviousValue` deze keer wordt uitgevoerd, wordt `prop7` echter ingesteld op de vorige waarde van `pageName` (&quot;Home&quot;) en wordt de nieuwe waarde van `pageName` (&quot;New value&quot;) in het `gpv_Page` -cookie opgeslagen. Ga er vervolgens van uit dat de bezoeker naar een andere pagina navigeert en dat de volgende code op deze pagina wordt uitgevoerd:
 
 ```js
 s.pageName = "Page 2";
@@ -126,7 +126,7 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Wanneer de `t()` functie wordt uitgevoerd, wordt een afbeeldingsaanvraag gemaakt waar `pageName` is &quot;Pagina 2&quot; en `prop7` is &quot;Nieuwe waarde&quot;, wat de waarde was van `pageName` wanneer de laatste aanroep naar `getPreviousValue` heeft plaatsgevonden. De `prop7` waarde van `"Home"` is nooit opgenomen in een afbeeldingsaanvraag, ook al is &quot;Home&quot; de eerste waarde die aan `pageName`.
+Wanneer de functie `t()` wordt uitgevoerd, wordt een afbeeldingsaanvraag gemaakt waarbij `pageName` &quot;Page 2&quot; en `prop7` &quot;New value&quot; is. Dit was de waarde van `pageName` toen de laatste aanroep van `getPreviousValue` plaatsvond. De `prop7` waarde van `"Home"` was nooit opgenomen in een afbeeldingsaanvraag, ook al was &quot;Home&quot; de eerste waarde die aan `pageName` werd doorgegeven.
 
 ## Versiehistorie
 

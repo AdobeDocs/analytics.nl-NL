@@ -1,10 +1,10 @@
 ---
 title: Util.cookieWrite
 description: Schrijft een waarde voor een cookie.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%
@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # Util.cookieWrite
 
-Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in hetzelfde domein. Gebruik de `Util.cookieWrite()` methode om een waarde in te stellen op een cookie. U kunt de [`Util.cookieRead()`](util-cookieread.md) methode om waarden op te halen die zijn ingesteld met `Util.cookieWrite()`.
+Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in hetzelfde domein. Gebruik de methode `Util.cookieWrite()` om een waarde in te stellen op een cookie. U kunt de methode [`Util.cookieRead()`](util-cookieread.md) gebruiken om waarden op te halen die zijn ingesteld met `Util.cookieWrite()` .
 
-## Cookies instellen met de extensie Adobe Analytics en de extensie Web SDK
+## Cookies instellen met de extensie Adobe Analytics en Web SDK
 
 Met Adobe Experience Platform Data Collection kunnen cookies niet worden ingesteld in de interface.
 
 ## s.Util.cookieWrite() in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
-Roep de `s.Util.cookieWrite()` een methode om een cookie in te stellen op de gewenste waarde.
+Roep de methode `s.Util.cookieWrite()` aan om een cookie in te stellen op een gewenste waarde.
 
 ```js
 s.Util.cookieWrite("example_cookie","Example cookie value")
 ```
 
-Er is een optioneel derde argument beschikbaar dat bepaalt wanneer het cookie verloopt. Cookies ingesteld met `s.Util.cookieWrite()` verlopen standaard aan het einde van de browsersessie.
+Er is een optioneel derde argument beschikbaar dat bepaalt wanneer het cookie verloopt. Cookies die zijn ingesteld met `s.Util.cookieWrite()` verlopen standaard aan het einde van de browsersessie.
 
 ```js
 // Set a cookie with an expiration 6 months from now

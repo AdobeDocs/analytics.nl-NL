@@ -1,10 +1,10 @@
 ---
 title: linkDownloadFileTypes
 description: Bestandsextensies bepalen die automatisch worden bijgehouden als downloadkoppelingen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # linkDownloadFileTypes
 
-Wanneer [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) of [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) is ingeschakeld en een bezoeker klikt op een koppeling, controleert het AppMeasurement de URL van de koppeling op bestandsextensies. Als de koppeling-URL een bijbehorend bestandstype bevat, wordt automatisch een aanvraag voor een downloadkoppeling naar de afbeelding verzonden.
+Wanneer [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) of [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) is ingeschakeld en een bezoeker op een koppeling klikt, controleert AppMeasurement de URL van de koppeling op bestandsextensies. Als de koppeling-URL een bijbehorend bestandstype bevat, wordt automatisch een aanvraag voor een downloadkoppeling naar de afbeelding verzonden.
 
-Gebruiken `linkDownloadFileTypes` om aan te passen welke bestandsextensies u wilt tellen als downloadkoppelingen.
+Gebruik `linkDownloadFileTypes` om aan te passen welke bestandsextensies u wilt tellen als downloadkoppelingen.
 
 >[!NOTE]
 >
@@ -24,24 +24,24 @@ Gebruiken `linkDownloadFileTypes` om aan te passen welke bestandsextensies u wil
 >* Het bestand wordt automatisch gedownload wanneer een pagina wordt geladen
 >* Downloads die na een omleiding teweegbrengen
 >* Klik met de rechtermuisknop en selecteer Doel opslaan als...
->* Koppelingen waarin JavaScript wordt gebruikt, zoals `javascript:openLink()`
+>* Koppelingen met JavaScript, zoals `javascript:openLink()`
 >
->Voor deze downloadtypen kunt u handmatig een [`link tracking`](../functions/tl-method.md) vraag.
+>Voor deze downloadtypen kunt u handmatig een [`link tracking`](../functions/tl-method.md) -aanroep verzenden.
 
 Als een geklikte koppeling overeenkomt met zowel de afsluitings- als de downloadkoppelingscriteria, heeft het type downloadkoppeling prioriteit.
 
 ## Koppelingskwalificatie downloaden met de Web SDK-extensie
 
-De [!UICONTROL Download link qualifier] in het tekstveld wordt regex gebruikt om te bepalen of een geklikte koppeling een downloadkoppeling kan zijn.
+Het tekstveld [!UICONTROL Download link qualifier] gebruikt regex om te bepalen of een geklikte koppeling in aanmerking komt als een downloadkoppeling.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** knop onder [!UICONTROL Adobe Experience Platform Web SDK].
-1. Onder [!UICONTROL Data Collection], stelt u de gewenste waarde in in het dialoogvenster **[!UICONTROL Download link qualifier]** tekstveld.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder [!UICONTROL Adobe Experience Platform Web SDK] .
+1. Stel onder [!UICONTROL Data Collection] de gewenste waarde in het tekstveld **[!UICONTROL Download link qualifier]** in.
 
 ## Koppelingskwalificatie handmatig downloaden met implementatie van de Web SDK
 
-[Configureren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) de SDK met [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=nl-NL#automaticLinkTracking). Het veld gebruikt regex op de aangeklikte URL om te bepalen of het een geldige downloadkoppeling is. Indien `downloadLinkQualifier` is niet gedefinieerd, wordt de standaardwaarde ingesteld op `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+[ vorm ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) SDK gebruikend [`downloadLinkQualifier` ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking). Het veld gebruikt regex op de aangeklikte URL om te bepalen of het een geldige downloadkoppeling is. Wanneer `downloadLinkQualifier` niet is gedefinieerd, wordt de standaardwaarde ingesteld op `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$` .
 
 ```json
 alloy("configure", {
@@ -51,20 +51,20 @@ alloy("configure", {
 
 ## Extensies downloaden met de Adobe Analytics-extensie
 
-Extensies downloaden is een lijst met bestandsextensies die een veld hebben om meer toe te voegen onder het tabblad [!UICONTROL Link Tracking] accordeon bij het configureren van de Adobe Analytics-extensie.
+Download Extensions is een lijst met bestandsextensies met een veld waarmee u onder de accordeon [!UICONTROL Link Tracking] meer kunt toevoegen wanneer u de Adobe Analytics-extensie configureert.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
-3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
-4. Breid uit [!UICONTROL Link Tracking] accordion, die de **[!UICONTROL Download Extensions]** veld.
+3. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
+4. Vouw de accordeon [!UICONTROL Link Tracking] uit, zodat het veld **[!UICONTROL Download Extensions]** zichtbaar wordt.
 
-Bestandsextensies aan de lijst toevoegen door tekst in te voeren in het veld en te klikken **[!UICONTROL Add]**. Bestandsextensies uit de lijst verwijderen door op de respectievelijke extensies te klikken **&#39;X&#39;** pictogram.
+Voeg bestandsextensies toe aan de lijst door tekst in te voeren in het veld en op **[!UICONTROL Add]** te klikken. Verwijder dossieruitbreidingen uit de lijst door hun respectieve **&quot;X&quot;te klikken** pictogram.
 
-## s.linkDownloadFileTypes in AppMeasurement en de de uitbreiding van de Analyse redacteur van de douanecode
+## s.linkDownloadFileTypes in AppMeasurement en de de uitbreiding van de Analyse douane code redacteur
 
-De `s.linkDownloadFileTypes` variabele is een tekenreeks met door komma&#39;s gescheiden bestandsextensies. Gebruik geen spaties.
+De variabele `s.linkDownloadFileTypes` is een tekenreeks met door komma&#39;s gescheiden bestandsextensies. Gebruik geen spaties.
 
-Als deze variabele niet is gedefinieerd, werkt het automatisch bijhouden van downloadkoppelingen niet (zelfs als [`trackDownloadLinks`](trackdownloadlinks.md) is `true`).
+Als deze variabele niet is gedefinieerd, werkt het automatisch bijhouden van downloadkoppelingen niet (zelfs als [`trackDownloadLinks`](trackdownloadlinks.md) `true` is).
 
 ```js
 s.linkDownloadFileTypes = "doc,docx,eps,jpg,png,svg,xls,ppt,pptx,pdf,xlsx,tab,csv,zip,txt,vsd,vxd,xml,js,css,rar,exe,wma,mov,avi,wmv,mp3,wav,m4v";

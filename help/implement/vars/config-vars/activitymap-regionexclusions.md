@@ -1,9 +1,10 @@
 ---
 title: ActivityMap.regionExclusions
-description: Filter de gegevens van de Activity Map op gebied.
+description: Filter Activity Map-gegevens op gebied.
 role: Admin, Developer
-feature: Variables
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+feature: Appmeasurement Implementation
+exl-id: 353282aa-860c-45dc-a6b0-8d9f1fa09f13
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -12,15 +13,15 @@ ht-degree: 0%
 
 # ActivityMap.regionExclusions
 
-De `ActivityMap.regionExclusions` variabele laat u selectief Activity Map gegevens filtreren of uitsluiten die op de afmetingspunten worden gebaseerd in de [ dimensie van het Gebied van de Activity Map ](/help/components/dimensions/activity-map-region.md) worden verzameld.
+De `ActivityMap.regionExclusions` variabele laat u Activity Map gegevens selectief filtreren of uitsluiten die op de afmetingspunten worden gebaseerd in de [ 2} afmeting van het Gebied van Activity Map worden verzameld {.](/help/components/dimensions/activity-map-region.md)
 
-## Uitsluitingen van regio&#39;s in de Web SDK-extensie
+## Uitsluitingen van regio&#39;s in de extensie Web SDK
 
 Wanneer **[!UICONTROL Enable click data collection]** is ingeschakeld, gebruikt u het codeblok **[!UICONTROL Filter click properties]** callback. Binnen dit codeblok kunt u de waarde van `content.linkRegion` controleren en de waarde wijzigen of de verzameling van gegevens voor het bijhouden van koppelingen opgeven.
 
-## Uitsluitingen voor regio&#39;s in de Web SDK JavaScript-bibliotheek
+## Uitsluitingen van regio&#39;s in de Web SDK JavaScript-bibliotheek
 
-Wanneer [`clickCollectionEnabled` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) wordt toegelaten, gebruik `filterClickDetails` callback in het `clickCollection` voorwerp. Binnen deze callback kunt u de waarde van `linkRegion` controleren en de waarde wijzigen of de verzameling van gegevens voor het bijhouden van koppelingen opgeven.
+Wanneer [`clickCollectionEnabled` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) wordt toegelaten, gebruik `filterClickDetails` callback in het `clickCollection` voorwerp. Binnen deze callback kunt u de waarde van `linkRegion` controleren en de waarde wijzigen of de verzameling van gegevens voor het bijhouden van koppelingen opgeven.
 
 ```js
 alloy("configure", {
@@ -38,11 +39,11 @@ alloy("configure", {
 
 ## Uitsluitingen van gebieden die de extensie Adobe Analytics gebruiken
 
-Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de AppMeasurement-syntaxis.
 
 ## s.ActivityMap.regionExclusions met AppMeasurement
 
-De variabele `s.ActivityMap.regionExclusions` is een tekenreeks met kommagescheiden zinnen die worden uitgesloten van bijhouden van Activity Mappen. Als om het even welke uitdrukkingen de waarde aanpassen die in de [&#128279;](/help/components/dimensions/activity-map-region.md) dimensie van het Gebied van de Activity Map  wordt verzameld, worden alle gegevens van de Activity Map verwijderd uit de slag.
+De variabele `s.ActivityMap.regionExclusions` is een tekenreeks met door komma&#39;s gescheiden zinnen die worden uitgesloten van het bijhouden van Activity Map. Als om het even welke uitdrukkingen de waarde aanpassen die in de [ dimensie van het Gebied van Activity Map ](/help/components/dimensions/activity-map-region.md) wordt verzameld, worden alle gegevens van Activity Map verwijderd uit de slag.
 
 ```html
 <script>

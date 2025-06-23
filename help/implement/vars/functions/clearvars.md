@@ -1,10 +1,10 @@
 ---
 title: clearVars
 description: Wis waarden van het instantievoorwerp.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # clearVars
 
-Sommige implementaties, zoals bij toepassingen van één pagina, vereisen meerdere hits die worden verzonden bij hetzelfde laden van de pagina. Gebruik de `clearVars()` methode om veranderlijke waarden te ontruimen zodat blijven zij niet aan verdere klappen.
+Sommige implementaties, zoals bij toepassingen van één pagina, vereisen meerdere hits die worden verzonden bij hetzelfde laden van de pagina. Gebruik de methode `clearVars()` om variabelewaarden te wissen zodat deze niet tot volgende treffers blijven bestaan.
 
-Deze methode heeft geen argumenten en retourneert geen waarde. Het enige doel hiervan is het wissen van variabelewaarden uit het instantieobject. Met deze methode worden de volgende elementen ingesteld op `undefined`:
+Deze methode heeft geen argumenten en retourneert geen waarde. Het enige doel hiervan is het wissen van variabelewaarden uit het instantieobject. Met deze methode worden de volgende elementen ingesteld op `undefined` :
 
 * `prop1` - `prop75`
 * `eVar` - `eVar250`
@@ -30,23 +30,23 @@ Deze methode heeft geen argumenten en retourneert geen waarde. Het enige doel hi
 * `zip`
 * `campaign`
 
-## Variabelen wissen met de SDK van het web
+## Variabelen wissen met de Web SDK
 
-Wanneer u gegevens naar Adobe verzendt gebruikend het Web SDK, worden alle gegevens XDM automatisch ontruimd.
+Wanneer u gegevens naar Adobe verzendt via de Web SDK, worden alle XDM-gegevens automatisch gewist.
 
 ## Variabelen wissen met de Adobe Analytics-extensie
 
 Plaats de Duidelijke actie van Variabelen wanneer het vormen van een regel.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
-3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
-4. Onder [!UICONTROL Actions], klikt u op het pictogram &#39;+&#39;
-5. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar Adobe Analytics en de [!UICONTROL Action Type] tot [!UICONTROL Clear Variables].
+3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
+4. Klik onder [!UICONTROL Actions] op het pictogram &#39;+&#39;
+5. Stel de vervolgkeuzelijst [!UICONTROL Extension] in op Adobe Analytics en op [!UICONTROL Action Type] op [!UICONTROL Clear Variables] .
 
-## s.clearVars() in AppMeasurement en de aangepaste code-editor van de extensie Analytics
+## s.clearVars() in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
-U kunt de `s.clearVars()` methode op een willekeurige locatie in de implementatie nadat u de instantie van het object Analytics hebt geïnstantieerd.
+U kunt de methode `s.clearVars()` overal in uw implementatie aanroepen nadat u de instantie van het object Analytics hebt geïnstantieerd.
 
 ```js
 s.clearVars();

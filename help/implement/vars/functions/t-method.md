@@ -1,10 +1,10 @@
 ---
 title: t
 description: Verzend een vraag van de paginamening het volgen naar Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Zie [`sendEvent` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/sendevent/overview) in de documentatie van SDK van het Web voor meer informatie.
+Zie [`sendEvent` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Aanroep voor bijhouden van paginaweergave met de Adobe Analytics-extensie
 

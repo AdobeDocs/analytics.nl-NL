@@ -1,11 +1,11 @@
 ---
 title: Overzicht van variabelen, functies, methoden en plug-ins
-description: Leer welke variabelen u in de gegevens kunt omvatten u naar Adobe verzendt om rapportering te verbeteren.
+description: Leer welke variabelen u kunt opnemen in de gegevens die u naar Adobe verzendt om de rapportage te verbeteren.
 keywords: toepassingsmeting,variabelen,vars,configuratie,pagina,implementatie
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
@@ -27,18 +27,18 @@ Adobe biedt meerdere manieren om Adobe Analytics te implementeren. Elke pagina b
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vormende variabelen ](https://video.tv.adobe.com/v/3456977?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vormende variabelen ](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 ## Volgorde van de verrichtingen
 
-De bibliotheken van het AppMeasurement die door Adobe Analytics worden gepubliceerd volgen een specifieke orde wanneer het verzenden van gegevens naar Adobe. Als u deze taken uit orde uitvoert, kunnen de gegevens onvolledig zijn.
+AppMeasurement-bibliotheken die door Adobe Analytics worden gepubliceerd, hebben een specifieke volgorde bij het verzenden van gegevens naar Adobe. Als u deze taken uit orde uitvoert, kunnen de gegevens onvolledig zijn.
 
 1. Als uw site een gegevenslaag gebruikt, moet u ervoor zorgen dat eerst alle toepasselijke variabelen worden ingevuld. U vult `adobeDataLayer.page.title` bijvoorbeeld met de paginatitel. Zie [ de laag van Gegevens ](../prepare/data-layer.md) voor meer informatie.
-2. Gebruik de gegevenslaag om analytische variabelen te vullen. <br/> als u markeringen in Adobe Experience Platform gebruikt, wordt deze taak verwezenlijkt door gegevenselementen binnen tussen te gebruiken. Gegevenselementen worden gevuld met waarden uit de gegevenslaag. Het gegevenselement `Page Title` haalt bijvoorbeeld de waarde op uit de variabele van de gegevenslaag `adobeDataLayer.page.title` . <br/> dan kunt u het gegevenselement gebruiken om de variabelen van de Analyse te bevolken. `eVar4` haalt bijvoorbeeld de waarde op uit het gegevenselement `Page Title` . <br/> zie voor meer informatie [ de elementen van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=nl-NL), [ de voorwerpen van de de gegevenslaag van de Kaart aan gegevenselementen ](../launch/layer-to-elements.md), en [ de elementen van de markeringsgegevens van de Kaart aan de variabelen van de Analyse ](../launch/elements-to-variable.md)
-3. Tot slot roep de functie tracking. De meeste bibliotheken met AppMeasurementen gebruiken de methode `t()` , maar sommige mobiele SDK gebruiken `track()` . Wanneer de functie tracking wordt aangeroepen, worden alle ondersteunde variabelen die in het object Analytics zijn gedefinieerd, naar Adobe verzonden in de vorm van een afbeeldingsaanvraag.
+2. Gebruik de gegevenslaag om analytische variabelen te vullen. <br/> als u markeringen in Adobe Experience Platform gebruikt, wordt deze taak verwezenlijkt door gegevenselementen binnen tussen te gebruiken. Gegevenselementen worden gevuld met waarden uit de gegevenslaag. Het gegevenselement `Page Title` haalt bijvoorbeeld de waarde op uit de variabele van de gegevenslaag `adobeDataLayer.page.title` . <br/> dan kunt u het gegevenselement gebruiken om de variabelen van de Analyse te bevolken. `eVar4` haalt bijvoorbeeld de waarde op uit het gegevenselement `Page Title` . <br/> zie voor meer informatie [ de elementen van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html), [ de voorwerpen van de de gegevenslaag van de Kaart aan gegevenselementen ](../launch/layer-to-elements.md), en [ de elementen van de markeringsgegevens van de Kaart aan de variabelen van de Analyse ](../launch/elements-to-variable.md)
+3. Tot slot roep de functie tracking. De meeste AppMeasurement-bibliotheken gebruiken de methode `t()` , maar sommige mobiele SDK gebruiken `track()` . Wanneer de functie tracking wordt aangeroepen, worden alle ondersteunde variabelen die in het object Analytics zijn gedefinieerd, naar Adobe verzonden in de vorm van een afbeeldingsaanvraag.
 
 ## Ongeldige tekens
 

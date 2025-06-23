@@ -1,51 +1,51 @@
 ---
 title: getQueryParam
 description: Haal de waarde van de parameter van het vraagkoord van een URL uit.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
 
 ---
 
-# Adobe plug-in: getQueryParam
+# Adobe-insteekmodule: getQueryParam
 
 {{plug-in}}
 
-De `getQueryParam` Met de insteekmodule kunt u de waarde extraheren van elke parameter voor queryreeksen in een URL. Het is nuttig om campagnecodes, zowel intern als extern, uit het landen van pagina URLs te halen. Het is ook nuttig wanneer het halen van onderzoekstermijnen of andere parameters van het vraagkoord.
+Met de insteekmodule `getQueryParam` kunt u de waarde van elke querytekenreeksparameter in een URL extraheren. Het is nuttig om campagnecodes, zowel intern als extern, uit het landen van pagina URLs te halen. Het is ook nuttig wanneer het halen van onderzoekstermijnen of andere parameters van het vraagkoord.
 
-Deze plug-in biedt robuuste functies voor het parseren van complexe URL&#39;s, waaronder hashes en URL&#39;s die meerdere parameters voor queryreeksen bevatten. Als u slechts eenvoudige de parameterbehoeften van het vraagkoord hebt, adviseert de Adobe het gebruiken van de URL parametereigenschappen gebruikend het Web SDK of de uitbreiding van Adobe Analytics of [`Util.getQueryParam()`](../functions/util-getqueryparam.md) in het AppMeasurement.
+Deze plug-in biedt robuuste functies voor het parseren van complexe URL&#39;s, waaronder hashes en URL&#39;s die meerdere parameters voor queryreeksen bevatten. Als u alleen eenvoudige parametervereisten voor queryreeksen hebt, raadt Adobe u aan de URL-parameterfuncties te gebruiken met de extensie Web SDK of Adobe Analytics of de methode [`Util.getQueryParam()`](../functions/util-getqueryparam.md) die in AppMeasurement is opgenomen.
 
-## De plug-in installeren met de extensie Web SDK
+## De insteekmodule installeren met de extensie Web SDK
 
-De Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken voor de webversie van SDK.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
-1. Klikken **[!UICONTROL Extensions]** klikt u links op de knop **[!UICONTROL Catalog]** tab
-1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
-1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Klik op **[!UICONTROL Tags]** aan de linkerkant en klik op de gewenste eigenschap Tag.
+1. Klik op **[!UICONTROL Extensions]** aan de linkerkant en klik vervolgens op de tab **[!UICONTROL Catalog]**
+1. Zoek en installeer de extensie **[!UICONTROL Common Web SDK Plugins]** .
+1. Klik op **[!UICONTROL Data Elements]** aan de linkerkant en klik op het gewenste gegevenselement.
 1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
-   * Extension: Common Web SDK-plug-ins
+   * Extensie: algemene SDK-plug-ins voor het web
    * Gegevenselement: `getQueryParam`
 1. Stel de gewenste parameters rechts in.
 1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
 
-## De plug-in handmatig installeren met de implementatie van de Web SDK
+## De insteekmodule handmatig installeren voor de Web SDK
 
 Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige implementatie van de Web SDK.
 
 ## De insteekmodule installeren met de Adobe Analytics-extensie
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Adobe Analytics.
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer de [!UICONTROL Common Analytics Plugins] extension
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: geen
    * Event: Core - bibliotheek geladen (pagina boven)
@@ -58,10 +58,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken met Ado
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
-1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -74,18 +74,18 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## De plug-in gebruiken
 
-De `getQueryParam` function gebruikt de volgende argumenten:
+De functie `getQueryParam` gebruikt de volgende argumenten:
 
-* **`qsp`** (vereist): Een door komma&#39;s gescheiden lijst met parameters voor queryreeksen die binnen de URL moet worden gezocht. Het is niet hoofdlettergevoelig.
-* **`de`** (optioneel): Het scheidingsteken dat moet worden gebruikt als meerdere parameters van de queryreeks overeenkomen. Heeft als standaardwaarde een lege tekenreeks.
-* **`url`** (optioneel): Een aangepaste URL, tekenreeks of variabele waaruit de parameterwaarden voor de queryreeks moeten worden geëxtraheerd. Standaardwaarden: `window.location`.
+* **`qsp`** (vereist): een door komma&#39;s gescheiden lijst met querytekenreeksparameters die moet worden gezocht binnen de URL. Het is niet hoofdlettergevoelig.
+* **`de`** (optioneel): Het scheidingsteken dat moet worden gebruikt wanneer meerdere parameters van de queryreeks overeenkomen. Heeft als standaardwaarde een lege tekenreeks.
+* **`url`** (optioneel): Een aangepaste URL, tekenreeks of variabele waaruit de parameterwaarden voor de queryreeks moeten worden geëxtraheerd. Wordt standaard ingesteld op `window.location` .
 
 Als deze functie wordt aangeroepen, wordt een waarde geretourneerd die afhankelijk is van de bovenstaande argumenten en de URL:
 
 * Als er geen overeenkomende parameter voor een querytekenreeks wordt gevonden, retourneert de functie een lege tekenreeks.
 * Als een overeenkomende parameter voor een querytekenreeks wordt gevonden, retourneert de functie de parameterwaarde voor de queryreeks.
-* Als een overeenkomende parameter voor een querytekenreeks wordt gevonden maar de waarde leeg is, wordt de functie geretourneerd `true`.
-* Als er meerdere overeenkomende parameters voor queryreeksen worden gevonden, retourneert de functie een tekenreeks met elke parameterwaarde die door de tekenreeks in het dialoogvenster `de` argument.
+* Als een overeenkomende parameter voor een querytekenreeks wordt gevonden maar de waarde leeg is, retourneert de functie `true` .
+* Als er meerdere overeenkomende parameters voor queryreeksen worden gevonden, retourneert de functie een tekenreeks met elke parameterwaarde die door de tekenreeks in het argument `de` wordt gescheiden.
 
 ## Voorbeelden
 
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (19 maart 2021)
 
 * Versienummer toegevoegd als contextgegevens.
-* Verwijderde afhankelijkheden op `pt` insteekmodule.
+* Afhankelijkheden van `pt` plug-in zijn verwijderd.
 
 ### 3.3 (24 september 2019)
 
@@ -144,7 +144,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 3.2 (15 mei 2018)
 
-* Verplaatst `findParameterValue` en `getParameterValue` in de `getQueryParam` function
+* `findParameterValue` - en `getParameterValue` -functies verplaatst naar de functie `getQueryParam`
 
 ### 3.1 (10 mei 2018)
 
@@ -153,7 +153,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 3.0 (16 april 2018)
 
 * Puntrelease (opnieuw gecompileerd, kleiner codeformaat).
-* De naam van hulplijnfuncties wijzigen in `findParameterValue` en `getParameterValue` voor leesbaarheidsdoeleinden.
+* De naam van hulplijnfuncties is gewijzigd in `findParameterValue` en `getParameterValue` voor leesbaarheidsdoeleinden.
 * Verwijderde de behoefte om een argument toe te voegen om parameters in het knoeiboel te vinden URL
 
 ### 2.5 (8 januari 2016)
@@ -162,7 +162,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 2,4
 
-* De `h` parameter, waardoor de code kan zoeken naar parameters van queryreeksen die na de hash (`#`) teken
+* De parameter `h` is toegevoegd, zodat de code kan zoeken naar parameters van queryreeksen die na het hash-teken (`#` ) worden gevonden.
 
 ### 2,3
 

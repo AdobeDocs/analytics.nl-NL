@@ -1,10 +1,10 @@
 ---
 title: registerPreTrackCallback
-description: Creeer callback functies alvorens een slag naar Adobe te verzenden.
-feature: Variables
+description: Maak callback-functies voordat u een hit naar Adobe verzendt.
+feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -13,31 +13,31 @@ ht-degree: 0%
 
 # registerPreTrackCallback
 
-De `registerPreTrackCallback` Met een variabele kan uw organisatie een JavaScript-functie koppelen nadat een URL voor een afbeeldingsaanvraag is gecompileerd, maar voordat deze wordt verzonden. U kunt deze variabele gebruiken om gegevens te verzenden die door AppMeasurement aan een partner of een interne infrastructuur worden verzameld.
+Met de variabele `registerPreTrackCallback` kan uw organisatie een JavaScript-functie koppelen nadat een URL voor een afbeeldingsaanvraag is gecompileerd, maar voordat deze wordt verzonden. U kunt deze variabele gebruiken om gegevens te verzenden die door AppMeasurement aan een partner of interne infrastructuur worden verzameld.
 
 >[!WARNING]
 >
->Maak geen volgende vraag zoals [`t()`](t-method.md) of [`tl()`](tl-method.md) in de `registerPreTrackCallback` variabele. Het plaatsen van het volgen vraag in deze variabele veroorzaakt een oneindige lijn van beeldverzoeken!
+>Maak geen volgende aanroepen zoals [`t()`](t-method.md) of [`tl()`](tl-method.md) binnen de variabele `registerPreTrackCallback` . Het plaatsen van het volgen vraag in deze variabele veroorzaakt een oneindige lijn van beeldverzoeken!
 
-Elke keer dat u de `registerPreTrackCallback` variabele, verbindt u die functie om te lopen telkens als een beeldverzoek URL wordt gecompileerd. Registreer dezelfde functie niet meerdere keren tijdens het laden van dezelfde pagina.
+Elke keer dat u de variabele `registerPreTrackCallback` aanroept, koppelt u die functie om te worden uitgevoerd wanneer een afbeeldingsaanvraag-URL wordt gecompileerd. Registreer dezelfde functie niet meerdere keren tijdens het laden van dezelfde pagina.
 
 >[!NOTE]
 >
->De timing en volgorde van functies die worden geactiveerd tussen `registerPreTrackCallback` en `registerPostTrackCallback` niet gegarandeerd zijn. Vermijd afhankelijkheid tussen deze twee functies.
+>De timing en volgorde van functies die tussen `registerPreTrackCallback` en `registerPostTrackCallback` worden geactiveerd, zijn niet gegarandeerd. Vermijd afhankelijkheid tussen deze twee functies.
 
 ## Pre-track callback die de uitbreiding van SDK van het Web gebruikt
 
-Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alvorens het naar Adobe wordt verzonden. U kunt echter `onBeforeEventSend` om een uit te voeren functie te registreren vlak voordat gegevens worden verzonden.
+Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alvorens het naar Adobe wordt verzonden. Met `onBeforeEventSend` kunt u echter een functie registreren die wordt uitgevoerd vlak voordat gegevens worden verzonden.
 
-1. Aanmelden bij de [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) Gebruikersinterface die uw Adobe-id gebruikt.
+1. Login aan de [ Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) UI die uw geloofsbrieven van AdobeID gebruikt.
 1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** knop onder [!UICONTROL Adobe Experience Platform Web SDK].
-1. Onder [!UICONTROL Data Collection]klikt u op de knop **[!UICONTROL Edit on before event send callback code]** knop.
+1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder [!UICONTROL Adobe Experience Platform Web SDK] .
+1. Klik onder [!UICONTROL Data Collection] op de knop **[!UICONTROL Edit on before event send callback code]** .
 1. Plaats de gewenste code in de editor.
 
-## Pre-track callback manueel uitvoerend SDK van het Web
+## Pre-track callback manueel uitvoerend het Web SDK
 
-Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alvorens het naar Adobe wordt verzonden. U kunt echter `onBeforeEventSend` om een functie te registreren die vlak voordat gegevens worden verzonden moet worden uitgevoerd, vergelijkbaar met `doPlugins`. Zie [Gebeurtenissen globaal wijzigen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alvorens het naar Adobe wordt verzonden. Met `onBeforeEventSend` kunt u echter een functie registreren die wordt uitgevoerd vlak voordat gegevens worden verzonden, vergelijkbaar met `doPlugins` . Zie [ Veranderend gebeurtenissen globaal ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -50,17 +50,17 @@ alloy("configure", {
 
 ## Pre-track callback die de uitbreiding van Adobe Analytics gebruikt
 
-Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de syntaxis van het AppMeasurement.
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de aangepaste code-editor volgens de AppMeasurement-syntaxis.
 
-## s.registerPreTrackCallback in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
+## s.registerPreTrackCallback in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
-De `s.registerPreTrackCallback` is een functie die een functie als het enige argument neemt. De geneste functie wordt uitgevoerd vlak voordat een afbeeldingsaanvraag wordt verzonden.
+`s.registerPreTrackCallback` is een functie die een functie als het enige argument neemt. De geneste functie wordt uitgevoerd vlak voordat een afbeeldingsaanvraag wordt verzonden.
 
 ```js
 s.registerPreTrackCallback(function(){/* Desired code */});
 ```
 
-Als u de afbeeldingsaanvraag-URL in de code wilt gebruiken, raadpleegt u de `requestUrl` tekenreeksargument binnen de geneste functie. U kunt de `requestUrl` variabele voor het gewenste gebruik. Het aanpassen van deze variabele heeft geen invloed op de gegevensverzameling.
+Als u de afbeeldingsaanvraag-URL in uw code wilt gebruiken, verwijst u naar het tekenreeksargument `requestUrl` in de geneste functie. U kunt de variabele `requestUrl` parseren voor het gewenste gebruik. Het aanpassen van deze variabele heeft geen invloed op de gegevensverzameling.
 
 ```js
 s.registerPreTrackCallback(function(requestUrl){
@@ -68,7 +68,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-U kunt aanvullende argumenten opnemen in het dialoogvenster `s.registerPreTrackCallback` functie, die in de geneste functie kan worden gebruikt:
+U kunt aanvullende argumenten in de functie `s.registerPreTrackCallback` opnemen, die in de geneste functie kan worden gebruikt:
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -81,4 +81,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 
 >[!NOTE]
 >
->Paginariabelen instellen of het `requestUrl` string binnen deze functie do **niet** heeft invloed op de aanvraag voor de afbeelding die kort na deze functieaanroep wordt verzonden. Gebruik de [`doPlugins()`](doplugins.md) in plaats daarvan variabele.
+>Het plaatsen van paginariabelen of het veranderen van het `requestUrl` koord binnen deze functie beïnvloeden **niet** het beeldverzoek dat kort na deze functievraag wordt verzonden. Gebruik in plaats hiervan de variabele [`doPlugins()`](doplugins.md) .

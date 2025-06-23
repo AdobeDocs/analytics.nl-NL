@@ -1,10 +1,10 @@
 ---
 title: prop
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -13,39 +13,39 @@ ht-degree: 0%
 
 # prop
 
-*Deze Help-pagina beschrijft hoe u instructies kunt implementeren. Voor informatie over hoe de steunen als dimensie werken, zie [prop](/help/components/dimensions/prop.md) in de gebruikershandleiding van Componenten.*
+*Deze hulppagina beschrijft hoe te om steunen uit te voeren. Voor informatie over hoe de steunen als afmeting werken, zie [ steun ](/help/components/dimensions/prop.md) in de de gebruikersgids van Componenten.*
 
 Props zijn aangepaste variabelen die u op de gewenste manier kunt gebruiken. Ze blijven niet bestaan na de treffer die ze zijn ingesteld.
 
 >[!TIP]
 >
->Adobe raadt u aan [eVars](evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. De Adobe heeft de eVars echter zodanig verbeterd dat ze nu bijna alle gevallen van gebruik voor props vervullen.
+>Adobe adviseert gebruikend [ eVars ](evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. Adobe heeft de eVars echter zodanig verbeterd dat ze nu bijna alle gevallen van gebruik voor props vervullen.
 
-Als u een [document ontwerp oplossing](/help/implement/prepare/solution-design.md)kunt u deze aangepaste afmetingen toewijzen aan waarden die specifiek zijn voor uw organisatie. Het aantal beschikbare props is afhankelijk van uw contract met Adobe. Er zijn maximaal 75 props beschikbaar als uw contract met Adobe dit ondersteunt.
+Als u het document van het oplossingsontwerp van a [ ](/help/implement/prepare/solution-design.md) hebt, kunt u deze douanedimensies aan waarden toewijzen specifiek voor uw organisatie. Het aantal beschikbare props is afhankelijk van uw contract met Adobe. Er zijn maximaal 75 props beschikbaar als uw contract met Adobe dit ondersteunt.
 
-## Proefpersonen die de SDK van het Web gebruiken
+## Proefversies met de Web SDK
 
 Props worden toegewezen aan de volgende variabelen:
 
-* [XDM-object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - list props worden gespecificeerd in a [afzonderlijke set velden](#list-props-web-sdk).
-* [Data, object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; of `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - bevat de lijst props in deze velden.
+* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - de lijststeunen worden gespecificeerd in a [ afzonderlijke reeks gebieden ](#list-props-web-sdk).
+* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; of `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - de lijstuitdrukkingen zijn inbegrepen in deze gebieden.
 
 ## Wordt gebruikt met de Adobe Analytics-extensie
 
 U kunt eigenschappen instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
-3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
-4. Onder [!UICONTROL Actions], klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
-5. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar Adobe Analytics en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
-6. Zoek de [!UICONTROL Props] sectie.
+3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
+4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).
+5. Stel de vervolgkeuzelijst [!UICONTROL Extension] in op Adobe Analytics en op [!UICONTROL Action Type] op [!UICONTROL Set Variables] .
+6. Zoek de sectie [!UICONTROL Props] .
 
 U kunt een eigenschap instellen op een waarde of een gegevenselement. U kunt de waarde ook uit een andere variabele Analytics kopiëren.
 
 ## s.prop1 - s.prop75 in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
-Elke prop-variabele is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. De maximale lengte is 100 bytes. De waarden langer dan 100 bytes worden automatisch afgebroken wanneer ze naar de Adobe worden verzonden.
+Elke prop-variabele is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. De maximale lengte is 100 bytes. De waarden langer dan 100 bytes worden automatisch afgebroken wanneer ze naar Adobe worden verzonden.
 
 ```js
 s.prop1 = "Example custom value";
@@ -57,19 +57,19 @@ Keuzerondjes in de lijst zijn een instelling die wordt toegepast op profielen wa
 
 ### Lijsteigenschappen configureren
 
-Lijsteigenschappen inschakelen in [verkeersvariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) onder rapportsuite-instellingen. Zorg ervoor dat het gewenste scheidingsteken correct wordt gevormd. Adobe bevat geen standaardscheidingsteken.
+Laat lijststeunen in [ variabelen van het Verkeer ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) onder de montages van de rapportreeks toe. Zorg ervoor dat het gewenste scheidingsteken correct wordt gevormd. Adobe heeft geen standaardscheidingsteken.
 
 >[!TIP]
 >
->In implementaties worden vaak scheidingstekens gebruikt (`,`), dubbele punt (`:`), puntkomma (`;`), of pijp (`|`). U kunt elk niet-uitgebreid ASCII-scheidingsteken gebruiken dat het beste bij uw implementatie past.
+>Gemeenschappelijke scheidingstekens die in implementaties worden gebruikt zijn een komma (`,`), dubbelepunt (`:`), puntkomma (`;`), of pijp (`|`). U kunt elk niet-uitgebreid ASCII-scheidingsteken gebruiken dat het beste bij uw implementatie past.
 
-### Lijsteigenschappen instellen met de SDK van het web {#list-props-web-sdk}
+### Lijsteigenschappen instellen met de Web SDK {#list-props-web-sdk}
 
-Als u de [**XDM-object**](/help/implement/aep-edge/xdm-var-mapping.md), lijsteigenschappen worden toegewezen aan `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. De SDK van het Web gebruikt automatisch het correcte scheidingsteken dat onder de montages van de rapportreeks wordt vermeld. Als u het scheidingsteken instelt in het XDM-veld (bijvoorbeeld `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), dat het scheidingsteken met voeten treedt dat automatisch uit de montages van de rapportreeks wordt teruggewonnen en tot onjuist het ontleden van het lijstpro koord kan leiden.
+Als het gebruiken van het [**voorwerp XDM**](/help/implement/aep-edge/xdm-var-mapping.md), worden de lijstuitdrukkingen in kaart gebracht aan `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. SDK van het Web gebruikt automatisch het correcte die afbakening onder de montages van de rapportreeks wordt vermeld. Als u het scheidingsteken op het XDM gebied (bijvoorbeeld, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`) plaatst, die het scheidingsteken met voeten treedt automatisch die uit de montages van de rapportreeks wordt teruggewonnen en tot onjuist het ontleden van het lijstkoord kan leiden.
 
-Als u de [**gegevensobject**](/help/implement/aep-edge/data-var-mapping.md) gebruiken props voor lijsten dezelfde velden als standaardprops en volgen de syntaxis van het AppMeasurement.
+Als het gebruiken van het [**gegevensvoorwerp**](/help/implement/aep-edge/data-var-mapping.md), gebruiken de lijststeunen de zelfde gebieden zoals standaardsteunen en volgen de syntaxis van AppMeasurement.
 
-### Lijsteigenschappen instellen met de Adobe Analytics-extensie en het-AppMeasurement
+### Lijsteigenschappen instellen met de Adobe Analytics-extensie en AppMeasurement
 
 Zodra u lijststeunen in de montages van de rapportreeks met het gewenste scheidingsteken vormt, zijn er geen implementatieverschillen behalve het gebruiken van het scheidingsteken.
 
