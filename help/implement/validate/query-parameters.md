@@ -70,7 +70,7 @@ De volgende tabel bevat een lijst met alle parameters voor queryreeksen die Adob
 | `purchaseID` | [`purchaseID`](../vars/page-vars/purchaseid.md) | Wordt gebruikt om aankopen te dedupliceren. |
 | `r` | [`referrer`](../vars/page-vars/referrer.md) | Verwijzend URL van de slag. Gebruikt in verkeersbronnen afmetingen, zoals [ Referrer ](/help/components/dimensions/referrer.md) en [ Verwijzend domein ](/help/components/dimensions/referring-domain.md) |
 | `s` | Geen | Schermresolutie, in `width x height` . Gebruikt in de [ resoluties van de Monitor ](/help/components/dimensions/monitor-resolution.md) afmeting. |
-| `server` | [`server`](../vars/page-vars/server.md) | ](/help/components/dimensions/server.md) dimensie van de Server van 0} {.[ |
+| `server` | [`server`](../vars/page-vars/server.md) | [&#128279;](/help/components/dimensions/server.md) dimensie van de Server van 0&rbrace; &lbrace;. |
 | `sv` | [`server`](../vars/page-vars/server.md) | Kort voor de queryreeks `server` . |
 | `state` | [`state`](../vars/page-vars/state.md) | Framedimensie. |
 | `t` | Geen | Gegenereerde datum/tijd van de hit. Gebruikt de indeling `dd/mm/yyyy hh:mm:ss w o` .<br> - `dd/mm/yyyy hh:mm:ss` is datum/tijd in JavaScript. Maand `0` is januari, maand `11` is december.<br> - `w` is de dag van de week. `0` is zondag, terwijl `6` zaterdag is.<br> - `o` is de negatieve GMT-verschuiving in minuten. `420` is bijvoorbeeld GMT-7. |

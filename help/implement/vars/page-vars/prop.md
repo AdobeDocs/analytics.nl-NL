@@ -21,7 +21,7 @@ Props zijn aangepaste variabelen die u op de gewenste manier kunt gebruiken. Ze 
 >
 >Adobe adviseert gebruikend [ eVars ](evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. Adobe heeft de eVars echter zodanig verbeterd dat ze nu bijna alle gevallen van gebruik voor props vervullen.
 
-Als u het document van het oplossingsontwerp van a [ ](/help/implement/prepare/solution-design.md) hebt, kunt u deze douanedimensies aan waarden toewijzen specifiek voor uw organisatie. Het aantal beschikbare props is afhankelijk van uw contract met Adobe. Er zijn maximaal 75 props beschikbaar als uw contract met Adobe dit ondersteunt.
+Als u het document van het oplossingsontwerp van a [&#128279;](/help/implement/prepare/solution-design.md) hebt, kunt u deze douanedimensies aan waarden toewijzen specifiek voor uw organisatie. Het aantal beschikbare props is afhankelijk van uw contract met Adobe. Er zijn maximaal 75 props beschikbaar als uw contract met Adobe dit ondersteunt.
 
 ## Proefversies met de Web SDK
 

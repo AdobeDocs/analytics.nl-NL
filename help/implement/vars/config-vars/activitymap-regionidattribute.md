@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ActivityMap.regionIDAttribute
 
-De `ActivityMap.regionIDAttribute` variabele laat u de attributen veranderen die Activity Map wanneer het bepalen van de [ 2} dimensie van het Gebied van Activity Map zoekt. ](/help/components/dimensions/activity-map-region.md) Als uw site zodanig is gestructureerd dat het kenmerk `id` minder nuttig is voor het Activity Map-gebied, kunt u deze variabele zo instellen dat deze naar een ander kenmerk kijkt.
+De `ActivityMap.regionIDAttribute` variabele laat u de attributen veranderen die Activity Map wanneer het bepalen van de [ 2&rbrace; dimensie van het Gebied van Activity Map zoekt. ](/help/components/dimensions/activity-map-region.md) Als uw site zodanig is gestructureerd dat het kenmerk `id` minder nuttig is voor het Activity Map-gebied, kunt u deze variabele zo instellen dat deze naar een ander kenmerk kijkt.
 
 ## Het attribuut van identiteitskaart van het gebied in de uitbreiding van SDK van het Web
 

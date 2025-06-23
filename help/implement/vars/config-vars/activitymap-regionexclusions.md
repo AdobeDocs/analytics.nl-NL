@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ActivityMap.regionExclusions
 
-De `ActivityMap.regionExclusions` variabele laat u Activity Map gegevens selectief filtreren of uitsluiten die op de afmetingspunten worden gebaseerd in de [ 2} afmeting van het Gebied van Activity Map worden verzameld {.](/help/components/dimensions/activity-map-region.md)
+De `ActivityMap.regionExclusions` variabele laat u Activity Map gegevens selectief filtreren of uitsluiten die op de afmetingspunten worden gebaseerd in de [ 2&rbrace; afmeting van het Gebied van Activity Map worden verzameld &lbrace;.](/help/components/dimensions/activity-map-region.md)
 
 ## Uitsluitingen van regio&#39;s in de extensie Web SDK
 

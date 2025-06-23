@@ -52,10 +52,10 @@ Controleer op het tabblad &quot;Reactie&quot; of de reactie Audience Manager-geg
 
    * **de Klanten van Adobe Audience Manager met DIL**: coördineer de volgende twee punten in nauw verband:
 
-      1. Verwijder de code van DIL en installeer de ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) paginacode van de Module van het Beheer van het publiek 0}.[
+      1. Verwijder de code van DIL en installeer de [&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) paginacode van de Module van het Beheer van het publiek 0&rbrace;.
       1. Schakel het doorsturen aan de serverzijde in de UI Analytics Admin in zoals beschreven in stap 3. Als u deze instelling inschakelt voordat u DIL-code verwijdert, worden gegevens gedupliceerd en worden aanvullende serveraanroepen in rekening gebracht naar Audience Manager.
 
-   * **Nieuwe klanten van Adobe Audience Manager** - installeer de [ 3} paginacode van de Module van het Beheer van de Publiek {en ga verder met stap 3. ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) De gegevens worden pas naar Audience Manager verzonden wanneer in stap 3 het doorsturen van de server is ingeschakeld.
+   * **Nieuwe klanten van Adobe Audience Manager** - installeer de [ 3&rbrace; paginacode van de Module van het Beheer van de Publiek &lbrace;en ga verder met stap 3. ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) De gegevens worden pas naar Audience Manager verzonden wanneer in stap 3 het doorsturen van de server is ingeschakeld.
 
 ## ![ step3_icon.png beeld ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) verifieer server-kant het door:sturen implementatie van rapportreeks
 

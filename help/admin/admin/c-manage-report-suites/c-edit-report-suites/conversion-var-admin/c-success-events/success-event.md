@@ -30,7 +30,7 @@ Afhankelijk van het type website zijn er vele soorten succesgebeurtenissen. Enke
 * **Hoog Tech**: De download van het Witboek, RFP, vormvoltooiing, steunverzoeken
 * **Automobielindustrie**: De voorlegger, verzoekt om een citaat, brochure download
 
-De {](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) variabele 0} s.events bepaalt een succesgebeurtenis.[
+De {[&#128279;](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) variabele 0} s.events bepaalt een succesgebeurtenis.
 
 ## Succesgebeurtenissen configureren
 
