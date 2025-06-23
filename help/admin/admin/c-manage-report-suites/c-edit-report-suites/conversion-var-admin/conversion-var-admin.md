@@ -20,7 +20,7 @@ De Custom Insight-conversievariabele (of eVar) wordt in de Adobe-code op geselec
 
 ## Overzicht van conversievariabelen (eVars)
 
-Voor een videooverzicht van omzettingsvariabelen, zie [ Inleiding aan omzettingsvariabelen ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) in de gids van de zelfstudies van Analytics.
+Voor een videooverzicht van omzettingsvariabelen, zie [ Inleiding aan omzettingsvariabelen ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) in de gids van de zelfstudies van Analytics.
 
 Wanneer een eVar is ingesteld op een waarde voor een bezoeker, onthoudt Adobe die waarde automatisch tot deze is verlopen. Eventuele succesgebeurtenissen die een bezoeker tegenkomt terwijl de eVar-waarde actief is, worden geteld bij de eVar-waarde.
 
@@ -34,7 +34,7 @@ Als verkeersmeting of het kleven gewenst is, wordt het gebruiken van verkeersvar
 
 >[!NOTE]
 >
->Er kan slechts één waarde in een eVar worden opgeslagen in een afbeeldingsaanvraag. Als de veelvoudige waarden in een waarde van eVar worden gewenst, adviseren wij dat u [ variabelen van de Lijst (lijstvariabelen) ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) uitvoert.
+>Er kan slechts één waarde in een eVar worden opgeslagen in een afbeeldingsaanvraag. Als de veelvoudige waarden in een waarde van eVar worden gewenst, adviseren wij dat u [ variabelen van de Lijst (lijstvariabelen) ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=nl-NL) uitvoert.
 
 ### Conversievariabelen - beschrijvingen {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
