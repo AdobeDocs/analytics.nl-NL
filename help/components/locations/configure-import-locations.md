@@ -76,7 +76,7 @@ Geef de volgende informatie op om een ARN-locatie voor Amazon S3 Role te configu
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
@@ -100,7 +100,7 @@ Geef de volgende informatie op om een locatie voor een Google Cloud-platform te 
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
@@ -124,7 +124,7 @@ Geef de volgende informatie op om een Azure SAS-locatie te configureren:
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 
@@ -149,7 +149,7 @@ Geef de volgende informatie op om een Azure RBAC-locatie te configureren:
 
 1. Selecteer [!UICONTROL **sparen**].
 
-   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik ](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0} Gegevens. [ Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
+   U kunt nu gegevens importeren of exporteren naar of van de account en locatie die u hebt geconfigureerd. Om gegevens uit te voeren, gebruik [&#128279;](/help/export/analytics-data-feed/create-feed.md) of [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) van de Eigendommen van 0&rbrace; Gegevens.  Om gegevens in te voeren, gebruik [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md).
 
    Geïmporteerde gegevens worden niet verwijderd uit de cloudbestemming nadat ze zijn geïmporteerd.
 

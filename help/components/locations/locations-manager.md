@@ -74,7 +74,7 @@ Voor informatie over hoe te om een plaats uit te geven, zie [ de invoer van de w
 >
 >Als een locatie wordt verwijderd, mislukken gegevensfeed-bestanden, Data Warehouse-rapporten of indelingssetschema&#39;s die aan de verwijderde locatie zijn gekoppeld de volgende keer dat ze worden gebruikt.
 >
->Als u een plaats schrapt, zou u uw Diefen van Gegevens ](/help/export/analytics-data-feed/create-feed.md) moeten uitgeven, [ Data Warehouse rapporten ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), en [ de reeksen van de Classificatie schema&#39;s ](/help/components/classifications/sets/manage/schema.md) om een werkende plaats te gebruiken.[
+>Als u een plaats schrapt, zou u uw Diefen van Gegevens [&#128279;](/help/export/analytics-data-feed/create-feed.md) moeten uitgeven, [ Data Warehouse rapporten ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), en [ de reeksen van de Classificatie schema&#39;s ](/help/components/classifications/sets/manage/schema.md) om een werkende plaats te gebruiken.
 
 Een locatie kan alleen worden verwijderd door de gebruiker die de locatie heeft gemaakt of door een systeembeheerder.
 
