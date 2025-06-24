@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+exl-id: 5829482b-3a5e-416b-9c82-404face30b29
+source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
 
 ---
-
 
 # Workbooks plannen door naar cloudinstellingen te exporteren
 
@@ -33,15 +33,7 @@ Gebruik het volgende proces bij het exporteren van werkboeken van Report Builder
 
 1. [Een rapport exporteren vanuit Report Builder](#export-a-report-from-report-builder)
 
-<!--
-
-1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
-
-![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
-
--->
-
-## Een rapport exporteren vanuit Report Builder {#export-from-report-builder}
+## Een rapport exporteren vanuit Report Builder
 
 >[!NOTE]
 >
@@ -65,7 +57,7 @@ Rapporten exporteren uit Report Builder:
 
    Om het werkboek op een programma uit te voeren dat u reeds creeerde, selecteer het programma van de lijst van programma&#39;s, dan uitgezocht **[!UICONTROL Send on schedule]**.
 
-1. In het **juiste paneel van Adobe Report Builder** &lbrace;, specificeer de volgende informatie verder creërend een nieuw programma:
+1. In het **]juiste paneel van Adobe Report Builder[!UICONTROL ** {, specificeer de volgende informatie verder creërend een nieuw programma:
 
    | Veldnaam | Functie |
    |---------|----------|
@@ -92,7 +84,7 @@ Rapporten exporteren uit Report Builder:
 
    U ziet een bevestigingstoets bij de bodem van de hub van Report Builder en het geplande werkboek is vermeld onder het lusje van Werkboeken.
 
-## Voordelen van exporteren naar de cloud {#advantages}
+## Voordelen van exporteren naar de cloud
 
 Door Adobe Analytics-gegevens naar de cloud te exporteren, kunt u:
 
@@ -133,4 +125,3 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 ## Geplande werkboeken beheren
 
 Voor informatie over het beheren van werkboeken die reeds gepland zijn, zie [ geplande werkboeken beheren ](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
-
