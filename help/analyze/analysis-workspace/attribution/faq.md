@@ -1,37 +1,37 @@
 ---
-title: Veelgestelde vragen over attributie
+title: Veelgestelde vragen over kenmerken
 description: Antwoorden op veelgestelde vragen over attributie.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 1%
+source-wordcount: '1230'
+ht-degree: 0%
 
 ---
 
-# Veelgestelde vragen over attributie
+# Veelgestelde vragen over kenmerken
 
 
 +++## Wat is het &quot;niets&quot;lijnpunt wanneer het gebruiken van attributie?
 
-Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt die zonder aanraakpunten in het terugzoekvenster zijn uitgevoerd. Om het aantal omzettingen te verminderen die aan het &quot;niets&quot;lijnpunt worden toegewezen, probeer gebruikend een Venster van de Lookback van de Douane met een langere raadplegingsperiode.
+Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt die zonder aanraakpunten in het terugzoekvenster zijn uitgevoerd. Om het aantal omzettingen te verminderen die aan het &quot;niets&quot;lijnpunt worden toegewezen, probeer gebruikend een Venster van de Terugblik van de Douane met een langere terugzoekperiode.
 
 +++
 
 
 +++## Waarom zie ik soms data buiten mijn rapporteringsvenster wanneer het gebruiken van attributiemodellen?
 
-Sommige op bezoek-gebaseerde metriek, zoals [Berichten](/help/components/metrics/entries.md) of [Stuitsnelheid](/help/components/metrics/bounce-rate.md), kan gegevens aan een periode vóór de rapportperiode van het vensterbegin bepalen. Deze situatie is toe te schrijven aan attributiemodellen die een terugkijkvenster gebruiken, dat bepaalt hoe ver achtereigenschap zou moeten kijken om krediet voor metriek te geven. Het gemeenschappelijkste scenario is wanneer de bezoeken middernacht overspannen. Bijvoorbeeld:
+Sommige op bezoek-gebaseerde metriek, zoals [ Ingangen ](/help/components/metrics/entries.md) of [ Stuitpercentage ](/help/components/metrics/bounce-rate.md), kan gegevens aan een periode vóór de het melden van het venster datariereeks kenmerken. Deze situatie is toe te schrijven aan attributiemodellen die een terugkijkvenster gebruiken, dat bepaalt hoe ver achtereigenschap zou moeten kijken om krediet voor metriek te geven. Het gemeenschappelijkste scenario is wanneer de bezoeken middernacht overspannen. Bijvoorbeeld:
 
 1. Een gebruiker bezoekt op 7 september om 23:55 uur uw homepage.
 1. Zij bezoeken verschillende pagina&#39;s, waarvan de laatste om 12.05 uur op 8 september plaatsvond.
 1. Een week later voert u een dagelijks trendrapport uit met het datumbereik van 8 september tot 14 september.
 
-Op een hoogte gebaseerde meetgegevens, zoals [Paginaweergaven](/help/components/metrics/page-views.md), zou de verwachte output opleveren; gegevens werden elke dag van 8 september tot 14 september doorgestuurd. Uit de op een bezoek gebaseerde cijfers zou echter ook blijken dat dit bezoek op 7 september heeft plaatsgevonden. De toegeschreven ingang van het bezoek vond op 7 september plaats, en het terugkijkvenster is standaard 1 september - 31 september.
+De op hoogte-gebaseerde metriek, als [ meningen van de Pagina ](/help/components/metrics/page-views.md), zou verwachte output produceren; gegevens die elke dag van 8 september - 14 september worden gekweekt. Uit de op een bezoek gebaseerde cijfers zou echter ook blijken dat dit bezoek op 7 september heeft plaatsgevonden. De toegeschreven ingang van het bezoek vond op 7 september plaats, en het terugkijkvenster is standaard 1 september - 31 september.
 
-In dit voorbeeld wordt altijd 0% weergegeven bij een stuitpercentage van 7 september. Deze metrische waarde wordt gedefinieerd als `Bounces divided by Entries`, een op hit-Gebaseerde metrisch gedeeld door op bezoek-Gebaseerde metrisch. Stuiterwaarden bestaan uit één verzoek om een afbeelding, zodat ze niet meerdere dagen kunnen beslaan. Eventuele stuitingen op 7 september vonden plaats buiten het rapportagevenster, waardoor de gegarandeerde stuitsnelheid van 0% voor die dag werd veroorzaakt. Andere op hit-based metriek zou ook 0 voor 7 September in dit rapport tonen, aangezien die klappen niet binnen het rapporteringsvenster zijn.
+In dit voorbeeld wordt altijd 0% weergegeven bij een stuitpercentage van 7 september. Deze metrische waarde wordt gedefinieerd als `Bounces divided by Entries` , een op hit gebaseerde metrische waarde die wordt gedeeld door een op bezoek gebaseerde metrische waarde. Stuiterwaarden bestaan uit één verzoek om een afbeelding, zodat ze niet meerdere dagen kunnen beslaan. Eventuele stuitingen op 7 september vonden plaats buiten het rapportagevenster, waardoor de gegarandeerde stuitsnelheid van 0% voor die dag werd veroorzaakt. Andere op hit-based metriek zou ook 0 voor 7 September in dit rapport tonen, aangezien die klappen niet binnen het rapporteringsvenster zijn.
 
 Kijk eens naar een ander vergelijkbaar voorbeeld. Het enige verschil tussen het volgende voorbeeld en het bovenstaande voorbeeld zijn de datums:
 
@@ -53,14 +53,14 @@ De keuze van de terugzoekfunctie voor attributie hangt af van het gebruikte geva
 
 +++## Hoe vergelijken props en eVars wanneer het gebruiken van attributie?
 
-Attribution wordt opnieuw berekend tijdens de runtime van het rapport, zodat er geen verschil is tussen een prop of eVar (of een andere dimensie) voor attributiemodellering. Props kunnen blijven bestaan met een terugzoekvenster of toewijzingsmodel en instellingen voor de toewijzing/vervaldatum van eVar worden genegeerd.
+Attribution wordt opnieuw berekend tijdens de runtime van het rapport, zodat er geen verschil is tussen een prop of eVar (of een andere dimensie) voor attributiemodellering. Props kunnen blijven bestaan met een terugzoekvenster of toewijzingsmodel en eVar-instellingen voor toewijzing/vervaldatum worden genegeerd.
 
 +++
 
 
-+++## Zijn de attributenmodellen beschikbaar in andere mogelijkheden van de Analyse, zoals de Eigenschap van Gegevens of Data Warehouse?
++++## Zijn attributiemodellen beschikbaar in andere analysemogelijkheden, zoals de Eigenschap van Gegevens of Data Warehouse?
 
-Nee. Attributiemodellen gebruiken verwerking van rapporttijd, die alleen beschikbaar is in Analysis Workspace. Zie [Tijdverwerking rapporteren](/help/components/vrs/vrs-report-time-processing.md) voor meer informatie .
+Nee. Attributiemodellen gebruiken verwerking van rapporttijd, die alleen beschikbaar is in Analysis Workspace. Zie [ de tijdverwerking van het Rapport ](/help/components/vrs/vrs-report-time-processing.md) voor meer informatie.
 
 +++
 
@@ -85,12 +85,12 @@ Het deelvenster Kenmerken ondersteunt alle afmetingen. Niet-ondersteunde meetgeg
 * Metrische tijdwaarden
 * Bounces
 * Stuitpercentage
-* Geopend
-* Gesloten
+* Berichten
+* Afsluiten
 * Pagina&#39;s niet gevonden
 * Zoekopdrachten
 * Bezoeken van één pagina
-* Eenmalige toegang
+* Enkelvoudige toegang
 
 +++
 
@@ -106,11 +106,11 @@ Ja, classificaties worden volledig ondersteund.
 
 Ja, de meeste gegevensbronnen worden ondersteund. Attributie is niet mogelijk met gegevensbronnen op overzichtsniveau omdat deze gegevensbronnen niet aan een bezoeker-id van de Analyse binden.
 
-Transactie-id-gegevensbronnen worden op dezelfde manier behandeld als elke andere hit. De gegevensbronnen van identiteitskaart van de transactie gebruiken niet de speciale verwerking die normaal in traditionele rapportering wordt gebruikt. Met andere woorden, wanneer het gebruiken van de verwerking van de rapporttijd, zullen de treffers van identiteitskaart van de Transactie eVar waarden hebben die van hits worden verspreid die dichtbij de timestamp van de treffer van identiteitskaart van de Transactie voorkomen. De waarden worden niet doorgegeven uit treffers die zijn opgetreden vlak bij de oorspronkelijke transactie.
+Transactie-id-gegevensbronnen worden op dezelfde manier behandeld als elke andere hit. De gegevensbronnen van identiteitskaart van de transactie gebruiken niet de speciale verwerking die normaal in traditionele rapportering wordt gebruikt. Met andere woorden, wanneer bij het gebruik van de verwerking van de rapporttijd, worden eVar-waarden doorgegeven van resultaten die optreden bij het tijdstempel van de hit Transactie-id. De waarden worden niet verspreid uit resultaten die vlak bij het tijdstip van de oorspronkelijke transactie zijn opgetreden.
 
-Waar mogelijk, baseert de attributie zich op de MID kolomwaarde die binnen een gebeurtenis in de gegevensbron wordt verzonden, eerder dan een persisted waarde. Het attributiemodel wordt toegepast op de kolomwaarden MID in de gegevensbron, ter plekke. Wanneer u bijvoorbeeld de kenmerk &quot;Laatste aanraking&quot; gebruikt, begint het model bij elke instantie van een metrische waarde en loopt het achterwaarts in de reeks totdat de laatste waarde in de kolom MID is bereikt.
+Waar mogelijk, baseert de attributie zich op de MID kolomwaarde die binnen een gebeurtenis in de gegevensbron, eerder dan een persisted waarde wordt verzonden. Het attributiemodel wordt toegepast op de kolomwaarden MID in de gegevensbron, ter plekke. Bijvoorbeeld, wanneer u [ Laatste attributie van de Aanraak ](models.md) gebruikt begint het model van elke instantie van metrisch. En loopt achterwaarts in de klappen tot het model de laatste die waarde bereikt in de kolom MID wordt waargenomen.
 
-Wanneer dit niet mogelijk is, wordt voor toewijzing de MID-waarde in de &#39;eerdere record&#39; in de gegevensbron gebruikt voor evaluatie. Deze eerdere record wordt mogelijk niet opeenvolgend met een tijdstempel geordend, aangezien AA geen ondersteuning biedt voor gegevens buiten de bestelling.
+Wanneer niet mogelijk, gebruikt de attributie de MID waarde in het *vroegere verslag* in de gegevensbron voor evaluatie. Deze eerdere record wordt mogelijk niet opeenvolgend met een tijdstempel geordend, aangezien AA geen ondersteuning biedt voor gegevens buiten de bestelling.
 
 Omdat de records niet opeenvolgend worden geordend, kunnen de verwachte waarden van het toepassen van persistentie van invloed zijn op de hoeveelheid tijd die tussen de opgegeven tijdstempel voor de transactie-id en de oorspronkelijke transactie bestaat.
 
@@ -126,7 +126,7 @@ Metagegevensafmetingen, zoals type en trefwoord, werken met kenmerk. Metrische g
 
 +++# hoe werkt de attributie met marketing kanalen?
 
-Toen de marketingkanalen voor het eerst werden geïntroduceerd, hadden ze alleen de eerste en laatste aanraakafmetingen. Expliciete eerste/laatste aanraakafmetingen zijn niet meer nodig met de huidige versie van de toewijzing. Adobe levert generiek [!UICONTROL Marketing Channel] en [!UICONTROL Marketing Channel Detail] afmetingen zodat u deze kunt gebruiken met het gewenste attributiemodel. Deze algemene afmetingen gedragen zich als [!UICONTROL Last Touch Channel] de afmetingen, maar worden anders geëtiketteerd om verwarring te voorkomen wanneer het gebruiken van marketing kanalen met een verschillend attributiemodel.
+Toen de marketingkanalen voor het eerst werden geïntroduceerd, hadden ze alleen de eerste en laatste aanraakafmetingen. Expliciete eerste/laatste aanraakafmetingen zijn niet meer nodig met de huidige versie van de toewijzing. Adobe biedt algemene [!UICONTROL Marketing Channel] - en [!UICONTROL Marketing Channel Detail] -afmetingen, zodat u deze kunt gebruiken met het gewenste attributiemodel. Deze algemene afmetingen gedragen zich hetzelfde als [!UICONTROL Last Touch Channel] -afmetingen, maar worden anders gelabeld om verwarring te voorkomen bij het gebruik van marketingkanalen met een ander attributiemodel.
 
 Aangezien de afmetingen van de marketingkanalen afhankelijk zijn van een traditionele &quot;visit&quot;-definitie (zoals gedefinieerd door hun verwerkingsregels), kan de definitie van hun &quot;visit&quot; niet worden gewijzigd met behulp van virtuele-rapportsuites.
 
@@ -148,7 +148,7 @@ Attributie wordt altijd uitgevoerd vóór segmentatie en segmentatie wordt uitge
 
 Als u bijvoorbeeld een virtuele rapportsuite maakt met een toegepast segment &quot;Weergaveits&quot;, kunt u andere kanalen in een tabel zien met behulp van bepaalde attributiemodellen.
 
-![Virtuele rapportsuite met alleen weergave](assets/vrs-aiq-example.png)
+![ vertoning-slechts virtuele rapportreeks ](assets/vrs-aiq-example.png)
 
 >[!NOTE]
 >

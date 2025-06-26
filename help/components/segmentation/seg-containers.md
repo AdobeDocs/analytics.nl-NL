@@ -4,9 +4,9 @@ keywords: segmentatie;segmenten
 title: Segmentcontainers
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '3551'
+source-wordcount: '3548'
 ht-degree: 1%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Segmentcontainers
 
-Een segment stelt voorwaarden in om een bezoeker te filteren op basis van de kenmerken van de bezoeker of de interactie met uw site. Als u voorwaarden in een segment wilt instellen, stelt u regels in om bezoekers te filteren op basis van bezoekerskenmerken en/of navigatiekenmerken. Als u bezoekersgegevens verder wilt onderverdelen, kunt u filteren op basis van specifieke bezoeken en/of toeschouwers in de paginaweergave voor elke bezoeker. De Bouwer van het Segment verstrekt een eenvoudige architectuur om deze subsets te bouwen en regels als genestelde, hiërarchische Bezoeker, Bezoek, of de containers van het Actief toe te passen.
+Een segment stelt voorwaarden in om een bezoeker te filteren op basis van de kenmerken van de bezoeker of de interactie met uw site. Als u voorwaarden in een segment wilt instellen, stelt u regels in om bezoekers te filteren op basis van bezoekerskenmerken en/of navigatiekenmerken. Als u bezoekersgegevens verder wilt onderverdelen, kunt u filteren op basis van specifieke bezoeken en/of toeschouwers in de paginaweergave voor elke bezoeker. De bouwer van het Segment verstrekt een eenvoudige architectuur om deze subsets te bouwen en regels als genestelde, hiërarchische Bezoeker, Bezoek, of de containers van het Actief toe te passen.
 
-De containerarchitectuur die in de Bouwer van het Segment wordt gebruikt bepaalt
+De containerarchitectuur die in de [ bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md) wordt gebruikt bepaalt:
 
-- ![ Bezoeker ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL Visitor]** als buitenste container, die overkoepelende gegevens specifiek voor de bezoeker over bezoeken en paginameningen bevat.
-- ![ Bezoek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg) een genestelde **[!UICONTROL Visit]** container laat u regels plaatsen om de gegevens van de bezoeker te onderbreken die op bezoeken worden gebaseerd, en
-- ![ Gebeurtenis ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) een genestelde **[!UICONTROL Hit]** container laat u bezoekersinformatie onderbreken die op individuele paginameningen wordt gebaseerd.
+- ![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Visitor]** als buitenste container, die overkoepelende gegevens specifiek voor de bezoeker over bezoeken en paginameningen bevat.
+- ![ Bezoek ](/help/assets/icons/Visit.svg) een genestelde **[!UICONTROL Visit]** container laat u regels plaatsen om de gegevens van de bezoeker te onderbreken die op bezoeken worden gebaseerd, en
+- ![ WebPage ](/help/assets/icons/WebPage.svg) een genestelde **[!UICONTROL Hit]** container laat u bezoekersinformatie onderbreken die op individuele paginameningen wordt gebaseerd.
 
 Met elke container kunt u de geschiedenis van een bezoeker doorlopen, interacties splitsen op bezoeken of afzonderlijke treffers splitsen.
 
@@ -38,7 +38,7 @@ Met elke container kunt u de geschiedenis van een bezoeker doorlopen, interactie
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
@@ -47,7 +47,7 @@ Met elke container kunt u de geschiedenis van een bezoeker doorlopen, interactie
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de containers van het Segment ](https://video.tv.adobe.com/v/3429104?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de containers van het Segment ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -91,7 +91,7 @@ Actief containers bevatten op één pagina gebaseerde waarden:
 
 ## Container voor logische groep
 
-Met de container van de Logische Groep kunt u een afzonderlijke container binnen de segmentregels verstrekken om entiteiten te filteren die niet op hiërarchie worden gebaseerd. U kunt bijvoorbeeld een container toevoegen die in het segment is genest en die filters toepast op basis van de bezoeker. Voor dit type logica moet u de hiërarchie afbreken (aangezien u al een bezoekercontainer op hoofdniveau hebt gebruikt) om alleen voor geselecteerde bezoekers te filteren. Zie {de voorbeelden van de Groep van 0} Logica [&#128279;](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) voor extra informatie.
+Met de container van de Logische Groep kunt u een afzonderlijke container binnen de segmentregels verstrekken om entiteiten te filteren die niet op hiërarchie worden gebaseerd. U kunt bijvoorbeeld een container toevoegen die in het segment is genest en die filters toepast op basis van de bezoeker. Voor dit type logica moet u de hiërarchie afbreken (aangezien u al een bezoekercontainer op hoofdniveau hebt gebruikt) om alleen voor geselecteerde bezoekers te filteren. Zie {de voorbeelden van de Groep van 0} Logica ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) voor extra informatie.[
 
 ## Nesten van containers {#nest-containers}
 
@@ -148,7 +148,7 @@ Opeenvolgende segmentatie maakt gebruik van dezelfde hiërarchisch geneste basis
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
@@ -173,7 +173,7 @@ Opeenvolgende segmentatie maakt gebruik van dezelfde hiërarchisch geneste basis
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ Opeenvolgende segmentatie maakt gebruik van dezelfde hiërarchisch geneste basis
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
@@ -210,7 +210,7 @@ De enige uitzondering op deze hiërarchie van containers is wanneer het gebruike
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -225,7 +225,7 @@ De enige uitzondering op deze hiërarchie van containers is wanneer het gebruike
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -390,7 +390,7 @@ Het toepassen van de segmentcontainer op een natuurlijk werkingsgebied van gegev
 
 ### Paginaweergaven op containerniveau Visit
 
-Veel segmentregels identificeren paginaweergaven per bezoek. Wanneer deze identificatie voorkomt, wordt de volledige container van de Bezoeker toegepast, als slechts één enkele slag de regel aanpast. Dit segmentrapport is vooral waardevol omdat paginaweergaven op basis van bezoeken inzicht bieden op basis van paginaweergaven per bezoek.
+Veel segmentregels identificeren paginaweergaven per bezoek. Wanneer deze identificatie voorkomt, wordt de volledige container van de Bezoeker toegepast, als slechts één enkele slag de regel aanpast. Dit segmentrapport is vooral waardevol omdat paginaweergaven op basis van bezoeken insight bieden op basis van paginaweergaven per bezoek.
 
 - **de container van het Bezoek waar de pagina &quot;de Laag van de Winter&quot;pagina** evenaart: In een rapport van de Pagina op het de containerniveau van de Bezoeker toont alle paginameningen van bezoeken die een mening van de pagina &quot;van het Palet van de Winter&quot;omvatten. Als een pagina de segmentregel aanpast, zijn alle paginameningen verbonden aan dat bezoek inbegrepen in het rapport.
 - **Bezoek container waar de pagina &quot;Huis&quot;pagina** evenaart: In een rapport van de Pagina met dit segment toont slechts gegevens van het eerste bezoek, omdat in het tweede bezoek de bezoeker geen &quot;Huis&quot;pagina bekeken.
@@ -407,7 +407,7 @@ Het gebruiken van segment met een kleinere container dan het verdelingswerkingsg
 
 ## Persistentie in containers {#persistence}
 
-Filteren op afmetingen die over een paginabereik, zoals een eVar van de Campagne of een Verwijzende afmeting blijven, beïnvloedt de gegevens die op containerniveau worden verzameld en moet voor rapporteringsnauwkeurigheid worden begrepen.
+Filteren op afmetingen die aanwezig blijven op een paginabereik, zoals een campagne-eVar of een verwijzingsdimensie, heeft invloed op de gegevens die worden verzameld op containerniveau en moet worden begrepen voor de rapportnauwkeurigheid.
 
 Segmentgegevens kunnen variëren op basis van de persistentie van een dimensie of de toegepaste variabele op geselecteerde pagina&#39;s. Sommige afmetingen, zoals de pagina-afmetingen, bieden unieke waarden op paginaniveau en worden gefilterd op basis van gegevens uit de container Actief. (Zie de [ Rapporten die op de Gegevens van de Container ](/help/components/segmentation/seg-overview.md) voorbeeld worden gebaseerd). Andere dimensies, zoals de dimensie Refererend Domein, blijven over veelvoudige pagina&#39;s voor een bezoek bestaan. Bijvoorbeeld: `Referring Domain equals aol.com` . Bepaalde afmetingen of toegepaste variabelen, zoals Bezoekduur, beslaan de gehele geschiedenis van een bezoeker.
 

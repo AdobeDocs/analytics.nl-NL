@@ -1,10 +1,10 @@
 ---
 description: Meer informatie over het inschakelen van Adobe Campaign Standard-rapporten in Adobe Analytics
 title: Hoe integreer ik Adobe Campaign Standard Reporting in Adobe Analytics?
-feature: Campaign Integration
+feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 65%
@@ -17,7 +17,7 @@ ht-degree: 65%
 Raadpleeg de [Adobe Campaign-documentatie](https://helpx.adobe.com/nl/campaign/standard/integrating/using/about-campaign-analytics-integration.html) voor meer informatie over het configureren van deze integratie.
 
 >[!IMPORTANT]
->Dit artikel geldt voor Adobe Campaign **Standaard** alleen rapporteren. Zie [hier](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=nl-NL) voor toevoegen van Adobe Campaign **Klassiek** rapportage.
+>Dit artikel is op Adobe Campaign **Standaard** slechts rapporterend van toepassing. Zie [ hier ](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html) voor het toevoegen van de Klassieke van Adobe Campaign **** rapportering.
 
 Deze integratie tussen Adobe Analytics en Adobe Campaign Standard:
 
@@ -27,11 +27,11 @@ Deze integratie tussen Adobe Analytics en Adobe Campaign Standard:
 * Voegt vijf nieuwe Adobe Campaign-classificaties toe.
 * Voegt 9 nieuwe cijfers voor Adobe Campaign toe.
 * Voegt zes nieuwe Adobe Campaign-dimensies toe.
-* Synchroniseert gegevens om de 15 minuten naar Analytics via een automatisch ingericht Gegevensbron.
+* Synchroniseert gegevens om de 15 minuten naar Analytics via een automatisch ingericht Data Source.
 
 ## Stap 1. Adobe Campaign Standard-rapportage inschakelen {#section_C685EF10505045708A6536BB13F6CD58}
 
-Als u de gegevens van Campaigns Standard wilt weergeven in Analytics, moet u eerst Campagne-rapportage inschakelen in Report Suite Manager.
+Als u Campaign Standard-gegevens wilt weergeven in Analytics, moet u eerst Campagne-rapportage inschakelen in Report Suite Manager.
 
 1. Ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]**.
 1. Klik op **[!UICONTROL Enable Campaign Reporting]**.

@@ -1,9 +1,9 @@
 ---
-description: Beschrijft hoe te om een segment in de Manager van het Segment te kopiëren
+description: Beschrijft hoe te om een segment in de manager van het Segment te kopiëren
 title: Segmenten kopiëren
 feature: Segmentation
 exl-id: a7e8fd95-bb22-4961-8aac-a898faca50cd
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%

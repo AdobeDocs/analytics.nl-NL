@@ -1,9 +1,9 @@
 ---
-description: Binnen de Manager van het Segment kunt u opstelling een werkschema dat het goedkeuren van segmenten voor diverse niveaus van toepassing, voor specifieke afdelingen of groepen, en verenigbaar met het rapporteringsbeleid omvat.
+description: Binnen de manager van het Segment kunt u opstelling een werkschema dat het goedkeuren van segmenten voor diverse niveaus van toepassing, voor specifieke afdelingen of groepen, en verenigbaar met het rapporteringsbeleid omvat.
 title: Segmenten goedkeuren
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%

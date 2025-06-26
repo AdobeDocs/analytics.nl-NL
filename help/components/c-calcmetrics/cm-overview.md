@@ -4,58 +4,51 @@ keywords: Berekende waarden;Geavanceerde berekende waarden
 title: Berekende en geavanceerde berekende statistieken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 4%
+source-wordcount: '272'
+ht-degree: 0%
 
 ---
 
-# Berekende en geavanceerde berekende metriek
+# Overzicht van berekende metriek
 
-Berekende en geavanceerde berekende metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.
+Berekende en aangepaste metriek die u kunt maken op basis van bestaande metriek.
 
-Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijze metriek bouwen, beheren en beheren. Zo kunt u als marketers, productmanagers en analisten vragen stellen over de gegevens zonder dat u de [!DNL Analytics] -implementatie hoeft te wijzigen. De aangepaste meetgegevens die beschikbaar zijn in elk [!DNL Analytics] -pakket zijn:
+De berekende metriek bieden een hoogst flexibele manier om metriek te bouwen, te leiden en te leiden. Met berekende maatstaf kunt u als marketers, productmanagers en analisten vragen stellen over de gegevens zonder dat u de [!DNL Analytics] -implementatie hoeft te wijzigen.
 
-* Adobe [!DNL Analytics] Foundation: berekend
-* [ Uitgezochte Adobe Analytics ](https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html): Berekend + Geavanceerd Berekend
-* [ Adobe Analytics Prime ](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html): Berekend + Geavanceerd Berekend
-* [ Adobe Analytics Ultimate ](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html): Berekend + Geavanceerd Berekend
+De berekende metriek zijn beschikbaar in elk [!DNL Analytics] pakket, nochtans is het Pak van Adobe Analytics Foundation voor Experience Cloud beperkt tot basis berekende metriek met inbegrip van [ formaattypes (decimaal, tijd, percenten, munt) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [ toewijzingsveranderingen (gebrek, lineair, participatie, enz.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [ metrische types (standaard, totaal) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), en [ basisexploitanten ](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (voeg toe, trek af, vermenigvuldig, en verdeel).
 
-Hier is een vergelijking van berekende metriek en geavanceerde berekende metriekmogelijkheden:
 
-| Builder-opties | Berekende cijfers | Geavanceerde berekende meetwaarden |
-|---|---|---|
-| [ types van Formaat (decimaal, tijd, percenten, munt) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Ja | Ja |
-| [ veranderingen van de Attributie (gebrek, lineair, participatie, enz.) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Ja | Ja |
-| [ Metrische types (standaard, totaal) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Ja | Ja |
-| Basisoperatoren (toevoegen, verwijderen, vermenigvuldigen, verdelen) | Ja | Ja |
-| [ pas segmenten ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) toe | Nee | Ja |
-| [ Basisfuncties (telling, abs waarde, gemiddelde, enz.) ](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | Nee | Ja |
-| [ Geavanceerde functies (regressie, als/toen, t-score, enz.) ](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | Nee | Ja |
+Zie de [ Beschrijving van het Product van Adobe Analytics ](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics.html) voor meer informatie.
+
+<!--
+Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
+
+| [Format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Attribution changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Metric types (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+|  Basic operators (add, subtract, multiply, divide)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Apply segments](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)  | ![StopCircle](/help/assets/icons/StopCircle.svg)  | Yes  |
+| [Basic functions (count, abs value, mean, etc)](/help/components/c-calcmetrics/cm-reference/cm-functions.md)  | No  | Yes  |
+| [Advanced functions (regression, if/then, t-score, etc)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)  | No  | Yes  |
+
+-->
 
 ## Mogelijkheden {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 U kunt
 
-* Maak metrische gegevens over [!UICONTROL Analysis Workspace] , [!UICONTROL Report Builder] , [!UICONTROL Anomaly Detection] en [!UICONTROL Contribution Analysis] .
-* Creeer gesegmenteerde metriek die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op segmenten.
+* [ creeer metriek ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md) over [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], en [!UICONTROL Contribution Analysis].
+* [ creeer gesegmenteerde metriek ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Bijvoorbeeld, kunt u metrisch voor *Nieuwe bezoekers* tot stand brengen, met een telling van mensen voor wie dit de eerste zitting is.
 
->[!BEGINSHADEBOX]
+* [ de metriek van het Aandeel ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) over rapportsuites. Dit betekent dat alle pas gecreëerde metriek op alle rapportsuites in het zelfde login bedrijf van toepassing is.
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Berekende metriek ](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} voor een demo video.
-
->[!ENDSHADEBOX]
-
-* De metriek van het aandeel over rapportsuites. Dit betekent dat alle pas gecreëerde metriek op alle rapportsuites in het zelfde login bedrijf van toepassing is.
-* (Alleen geavanceerde berekende maatstaven) Segment op maateenheden. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is.
-
-* (Alleen geavanceerde berekende maatstaven) Neem statistische functies op om uw gegevens beter te kunnen beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
-
+* [ neem statistische functies ](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) op om u te helpen beter uw gegevens beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
 
 ## Beperkingen
 
-Met sommige functies van [!DNL Analytics] kunt u wel gebeurtenissen gebruiken, maar geen berekende meetwaarden:
+Sommige functies van [!DNL Analytics] staan het gebruik van berekende meetwaarden niet toe:
 
 * [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace]
 * [!UICONTROL Cohort Analysis] in Analysis Workspace
@@ -88,3 +81,10 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 |API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
 
 -->
+
+>[!MORELIKETHIS]
+>
+>[ creeer metriek ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+>>[Metriek samenstellen ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[Functies gebruiken ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>

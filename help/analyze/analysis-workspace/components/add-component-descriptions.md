@@ -4,9 +4,9 @@ title: Componentbeschrijvingen toevoegen
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met behulp van beschrijvingen kunnen gebruikers het beste de verschillende componenten gebruiken bij het maken van projecten in Analysis Workspace of bij het weergeven van rapporten.
 
-Analysebeheerders kunnen beschrijvingen voor componenten (Dimensionen, Metriek, Segmenten, en de Waaier van de Datum) of binnen de Reeks van het Rapport of het gebruiken van het Woordenboek van Gegevens direct binnen Analysis Workspace toevoegen.
+Analysebeheerders kunnen beschrijvingen voor componenten (Dimensies, Metriek, Segmenten en Datumbereiken) toevoegen in de rapportsuite of met het gegevenswoordenboek rechtstreeks in Analysis Workspace.
 
 ## Beschrijvingen toevoegen aan componenten in een rapportsuite
 
@@ -28,7 +28,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ componentenbe
 
 
 
-## Beschrijvingen toevoegen aan componenten in Analysis Workspace (met gebruik van het gegevenswoordenboek) {#add-descriptions}
+## Beschrijvingen toevoegen aan componenten in gegevenswoordenboek {#add-descriptions}
 
 Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun analyseomgeving volgen en beter begrijpen. Dit omvat de mogelijkheid voor analysebeheerders om componentbeschrijvingen rechtstreeks in Analysis Workspace toe te voegen.
 

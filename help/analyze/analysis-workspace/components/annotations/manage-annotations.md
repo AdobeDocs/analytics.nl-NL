@@ -4,69 +4,178 @@ description: Annotaties beheren in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 4f0bd39b64535be8ba55e97d65177f6ef291ef6c
+source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # Annotaties beheren
 
-De [!UICONTROL Annotations manager] toont u alle annotaties die u hebt of die met u zijn gedeeld. Projectspecifieke annotaties worden hier niet weergegeven. Met deze interface kunt u annotaties delen, filteren, labelen, kopiëren, verwijderen en favorieten. Beheerders kunnen annotaties beheren en goedkeuren.
+U kunt annotaties delen, filteren, labelen, goedkeuren, kopiëren, verwijderen en annotaties markeren als favoriet vanuit een centrale beheerinterface van [!UICONTROL Annotations] . Annotaties beheren:
 
-**[!UICONTROL Components]** > **[!UICONTROL Annotations]**
+* Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Annotations]** .
 
-## Gebruikersinterface van Annotatiebeheer
 
-![](assets/annotation-mgr.png)
+>[!NOTE]
+>
+>De annotaties die u binnen een specifiek Workspace-project maakt, worden niet weergegeven in de [!UICONTROL Annotations] -manager, tenzij u de annotatie beschikbaar hebt gemaakt voor al uw projecten.
+>
 
-| UI-element | Beschrijving |
+## Annotatiebeheer
+
+Het annotatiebeheer heeft de volgende interface-elementen:
+
+![ de interface van Annotaties ](assets/annotations-manager.png)
+
+### Lijst met annotaties
+
+In de lijst met annotaties ➊ worden alle annotaties weergegeven die u hebt, de annotaties die binnen het bereik van al uw projecten vallen en de annotaties die met u zijn gedeeld. De lijst heeft de volgende kolommen:
+
+| Kolom | Beschrijving |
 | --- | --- | 
-| [!UICONTROL Title and Description] | Opgegeven in de Annotations Builder. Als u de titel en beschrijving wilt bewerken, klikt u op de titelkoppeling. Hiermee gaat u terug naar de Annotatiebouwer. |
-| [!UICONTROL Report Suite] | De rapportsuites waarop deze aantekening van toepassing is. |
-| [!UICONTROL Owner] | Geeft aan wie de annotatie bezit. Als niet-beheerder kunt u alleen annotaties zien die u bezit of die met u hebt gedeeld. |
-| [!UICONTROL Applied Date Range] | De datum of het datumbereik waarop deze aantekening van toepassing is. |
-| [!UICONTROL Shared with] | Hier wordt weergegeven met hoeveel personen of groepen u de annotatie hebt gedeeld. Klik voor meer details. |
-| [!UICONTROL Date Modified] | Geeft de datum en tijd weer waarop de annotatie voor het laatst is gewijzigd. |
+| ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een aantekening te begunstigen. |
+| **[!UICONTROL Title and description]** | Opgegeven in de Annotations Builder. Om de titel en de beschrijving uit te geven, selecteer de titelverbinding - opent de [ bouwer van Annotaties ](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder). Een gedeelde annotatie wordt vermeld met ![ Aandeel ](/help/assets/icons/ShareAlt.svg). |
+| **[!UICONTROL Report suite]** | De rapportsuites waarop deze aantekening van toepassing is. |
+| **[!UICONTROL Owner]** | De eigenaar van de aantekening. Als gebruiker ziet u alleen de annotaties die u hebt of de annotaties die met u worden gedeeld. |
+| **[!UICONTROL Applied date range]** | De datum of het datumbereik waarop deze aantekening van toepassing is. |
+| **[!UICONTROL Tags]** | De codes voor deze aantekening. |
+| **[!UICONTROL Shared with]** | De personen of groepen waarmee u de annotatie hebt gedeeld. Selecteer deze optie om het dialoogvenster **[!UICONTROL Share Component]** te openen. |
+| **[!UICONTROL Date modified]** | Geeft de datum en tijd weer waarop de annotatie voor het laatst is gewijzigd. |
 
 {style="table-layout:auto"}
+
+Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specificeren welke kolommen u wilt tonen.
+
+### Actiebalk
+
+U kunt actie ondernemen op annotaties met de actiebalk ➋ . De actiebalk bevat de volgende handelingen:
+
+| Pictogram | Handeling | Beschrijving |
+|:--:|---|---|
+| ![ AddCircle ](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Voeg een andere annotatie toe, gebruikend de [ bouwer van de Annotatie ](create-annotations.md#annotation-builder). |
+| ![ Onderzoek ](/help/assets/icons/Search.svg) | [!UICONTROL *Onderzoek door titel*] | Wanneer er geen annotatie is geselecteerd in de lijst, zoekt u naar annotaties met dit zoekveld. |
+| ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Label de geselecteerde annotaties. Selecteer in het dialoogvenster **[!UICONTROL Tag Component]** de tags voor de geselecteerde annotaties of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde annotaties op te slaan. |
+| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Deel de geselecteerde annotaties. In de **[!UICONTROL Share Component]** dialoog, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) *individuen of groepen van het Onderzoek* of u kunt selecteren **[!UICONTROL Organization]** of **[!UICONTROL Groups]**. Selecteer **[!UICONTROL Save]** om deeldetails voor de geselecteerde annotaties op te slaan. Zie [ Annotaties van het Aandeel ](#share-annotations) voor meer details. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder de geselecteerde annotaties. U wordt gevraagd om een bevestiging. |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van één geselecteerde annotatie. Als deze optie is geselecteerd, kunt u de naam van de annotatie inline wijzigen. |
+| ![ Exemplaar ](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Kopieer de geselecteerde annotaties. Nieuwe annotaties worden gemaakt met dezelfde naam en hetzelfde achtervoegsel (kopie) |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Exporteer de annotaties naar een `Annotations List.csv` -bestand. |
+
+### Actieve filterbalk
+
+De filterbalk ➌ geeft de actieve filters weer (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
+
+### Deelvenster Filter
+
+U kunt annotaties filteren met het **[!UICONTROL Filter]** linkerdeelvenster ➍ . In het filterdeelvenster worden het type filter en het aantal annotaties weergegeven die het filter respecteren. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
+
+De lijst met filters filteren:
+
+1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Filters nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
+1. U kunt de annotaties filtreren gebruikend om het even welke beschikbare [ filtersecties ](#filter-sections).
+
+   >[!INFO]
+   >
+   >*Punten* verwijzen naar de annotatie punten die in de [ lijst van Annotaties ](manage-annotations.md#annotations-list) worden getoond.
+   > 
+
+#### Secties filteren
+
+{{tagfiltersection}}
+{{reportsuitefiltersection}}
+{{ownerfiltersection}}
+{{daterangefiltersection}}
+{{otherfiltersfiltersection}}
+
+
+De [ lijst van Annotaties ](manage-annotations.md#annotations-list) wordt automatisch bijgewerkt gebaseerd op uw filterconfiguratie. U kunt de gevormde filters in de [ Actieve filterbar ](manage-annotations.md#active-filter-bar) zien.
+
 
 ## Annotaties bewerken
 
-Het uitgeven van een aantekening betekent dat u datumwaaiers, kleuren, werkingsgebied kunt aanpassen, of het op alle rapportreeksen of projecten van toepassing is. U kunt annotaties op twee manieren bewerken:
+U kunt een annotatie op twee manieren bewerken:
 
-* Houd de aanwijzer boven de annotatie in een lijndiagram en klik op het potloodpictogram in de pop-up.
-* In de [!UICONTROL Annotations Manager]klikt u op de titel van de aantekening.
+* In een project van Workspace, gebruik het [ pictogram van de Component info ](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info).
 
-Beide opties laten u terugkeren in de [!UICONTROL Annotations Builder]. In dat geval kunt u de benodigde aanpassingen aanbrengen en de nieuwe versie opslaan.
+* Selecteer in de [[!UICONTROL Annotations] lijst ](#annotations-list) de titel van de annotatie.
+
+U gebruikt de [ bouwer van de Annotatie ](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) om de annotatie uit te geven.
 
 ## Annotaties delen
 
-Houd rekening met het volgende wanneer u annotaties deelt of met annotaties werkt die met u zijn gedeeld:
+Het volgende is van toepassing wanneer u annotaties deelt of met annotaties werkt die met u worden gedeeld:
 
-* Als u een project met project-slechts annotaties creeert, dan het project met een andere gebruiker deelt, kunnen de annotaties niet worden uitgegeven of worden geschrapt door iedereen die u het project met deelt.
-* Als u een annotatie opslaat en deze rechtstreeks deelt met een gebruiker, kunnen deze de annotatie alleen bewerken/verwijderen als deze beheerdersrechten heeft.
-* Als een project met u met een project-enige aantekening wordt gedeeld, verschijnt het slechts in dat project. Als de annotatie rechtstreeks met u wordt gedeeld, wordt deze weergegeven in alle projecten waar die annotatie kan worden weergegeven.
+* Projectgebonden annotaties in een project dat u met andere gebruikers deelt, worden voor die gebruikers weergegeven. De gebruikers kunnen deze alleen-projectnotities niet bewerken of verwijderen.
+* Als u een annotatie opslaat en de annotatie rechtstreeks met een gebruiker deelt, kan die gebruiker de annotatie alleen bewerken en verwijderen als die gebruiker beheerdersrechten heeft.
+
+* Als een project met u wordt gedeeld, verschijnen de annotaties die in dat project worden gecreeerd slechts in dat project. Als een annotatie rechtstreeks met u wordt gedeeld, wordt de annotatie weergegeven in alle projecten waarin die annotatie kan worden weergegeven.
 
 ## Aantekeningen en tijdzones
 
-Alle annotaties worden gemaakt met een tijdstempel, maar geen uren- of tijdzonegegevens. Op rapporttijdstip wordt de tijdzone van de rapportsuite van het paneel altijd toegepast. Een annotatie die bijvoorbeeld is gemaakt voor kerstdag, vindt plaats op 25 december, ongeacht de tijdzone van de rapportsuite waarin u zich bevindt.
+Alle annotaties worden gemaakt met een tijdstempel, maar geen uur- of tijdzonegegevens. Op rapporttijd, wordt de tijdzone van de rapportreeks die voor het paneel wordt gevormd gebruikt.
 
-## Andere annotatietaken
 
-Met Annotatiebeheer kunnen beheerders annotaties bewerken, toevoegen, labelen, verwijderen, hernoemen, goedkeuren, kopiëren, exporteren en filteren. Deze is niet zichtbaar voor gebruikers die geen beheerder zijn.
+<!--
+# Manage annotations
 
-Er zijn aanvullende opties beschikbaar wanneer u ten minste één annotatie selecteert:
+The [!UICONTROL Annotations manager] shows you all of the annotations that you own or that have been shared with you. Project-specific annotations do not appear here. You can use this interface to share, filter, tag, copy, delete, and favorite your annotations. Administrators can manage and approve annotations.
 
-| Taak | Beschrijving |
-| --- | --- |
-| [!UICONTROL Add] | Hiermee gaat u naar de builder Annotaties waar u annotaties kunt maken. |
-| [!UICONTROL Tag] | Alle gebruikers kunnen codes voor annotaties maken en een of meer tags toepassen op een annotatie. U kunt echter alleen codes zien voor annotaties die u hebt. |
-| [!UICONTROL Delete] | Als u een annotatie verwijdert, wordt deze verwijderd uit elk project in uw organisatie. |
-| [!UICONTROL Rename] | Als u de naam van een annotatie wijzigt, wordt de naam van de annotatie gewijzigd in alle projecten waarop de annotatie is toegepast. |
-| [!UICONTROL Copy] | Hiermee maakt u een afzonderlijke kopie met een eigen annotatie-id, maar met dezelfde naam en definitie. |
-| [!UICONTROL Export to CSV] | Exporteer de annotatiedefinitie naar een CSV-bestand. |
-| [!UICONTROL Filter] (linkerspoor) | Filteren op tags, rapportsuite, eigenaars en andere filters (Mijne, Goedgekeurd, Favorieten, Gedeeld met mij en Alles tonen). |
+**[!UICONTROL Components]** > **[!UICONTROL Annotations]**
+
+## Annotations Manager user interface
+
+![](assets/annotation-mgr.png)
+
+| UI Element | Description |
+| --- | --- | 
+| [!UICONTROL Title and Description] | Provided in the Annotations Builder. To edit the title and description, click the title link - this takes you back to the Annotations Builder.  |
+| [!UICONTROL Report Suite] | The report suites that this annotation applies to.  | 
+| [!UICONTROL Owner] | Indicates who owns the annotation. As a non-Admin, you can see only annotations that you own or those that were shared with you. |
+| [!UICONTROL Applied Date Range] | The date or date range that this annotation applies to. |
+| [!UICONTROL Shared with] | Lists how many individuals or groups that you shared the annotation with. Click for more detail. |
+| [!UICONTROL Date Modified] | Shows the date and time that the annotation was last modified. |
 
 {style="table-layout:auto"}
+
+## Edit annotations
+
+Editing an annotation means that you can adjust date ranges, colors, scope, or whether it applies to all report suites or projects. You can edit annotations in two ways:
+
+* In a line chart, hover over the annotation and click the pencil icon within the popover.
+* In the [!UICONTROL Annotations Manager], click the title of the annotation.
+
+Both of these options land you back in the [!UICONTROL Annotations Builder]. There, you can make the necessary adjustments and save the new version.
+
+## Share annotations
+
+When sharing annotations or working with annotations that were shared with you, keep this in mind:
+
+* If you create a project with project-only annotations, then share the project with another user, annotations cannot be edited or deleted by anyone that you share the project with.
+* If you save an annotation and share it directly with a user, they can edit/delete the annotation only if they have admin rights.
+* If a project is shared with you with a project-only annotation, it shows up only in that project. If the annotation is shared directly with you, it shows up in all projects where that annotation can be displayed. 
+
+## Annotations and time zones
+
+All annotations are created with a timestamp, but no hours or timezone information. At report time, the timezone of the panel's report suite is always applied. For example, an annotation created for Christmas Day happens on December 25 no matter what report suite timezone you are in. 
+
+## Other annotation tasks
+
+The Annotations manager lets Administrators edit, add, tag, delete, rename, approve, copy, export, and filter annotations. It is not visible to non-Admin users. 
+
+Additional options are available when you select at least one annotation:
+
+| Task | Description |
+| --- | --- |
+| [!UICONTROL Add] | Takes you to the Annotations builder where you can create annotations. |
+| [!UICONTROL Tag] | All users can create tags for annotations and apply one or more tags to an annotation. However, you can see tags only for annotations that you own. |
+| [!UICONTROL Delete] | Deleting an annotation removes it from any project in your organization. |
+| [!UICONTROL Rename] | Renaming an annotation renames it in all projects that it was applied to. |
+| [!UICONTROL Copy] | Creates a distinct copy with its own annotation ID, but with the same name and definition.|
+| [!UICONTROL Export to CSV] | Export the annotation definition to a .csv file.|
+| [!UICONTROL Filter] (left rail) | Filter by tags, report suite, owners, and other filters (Mine, Approved, Favorites, Shared with me, and Show All).|
+
+{style="table-layout:auto"}
+
+-->

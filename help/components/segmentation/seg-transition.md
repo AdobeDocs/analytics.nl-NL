@@ -1,26 +1,26 @@
 ---
 description: Veelgestelde vragen over het beheer van oudere segmenten.
-title: Veelgestelde vragen over verouderde segmenten
+title: Veelgestelde vragen over oudere segmenten
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
 
-# Veelgestelde vragen over verouderde segmenten
+# Veelgestelde vragen over oudere segmenten
 
-Beantwoord frequente vragen over beste praktijken voor het beheren van erfenissegmenten - segmenten die vóór 2014 werden gecreeerd.
+Dit artikel beantwoordt vaak gestelde vragen over beste praktijken voor het beheren van erfenissegmenten (segmenten die vóór 2014 werden gecreeerd).
 
 ## Oudere segmenten beheren {#legacy}
 
 +++ **wat met mijn bestaande segmenten gebeurde?**
 
-Uw bestaande segmenten blijven werken zoals voorheen. Om het even welke rapporten die deze toegepaste segmenten hebben zullen blijven correct werken. [Meer...](/help/components/segmentation/seg-transition.md)
+Uw bestaande segmenten blijven werken zoals voorheen. Om het even welke rapporten die deze toegepaste segmenten hebben zullen blijven correct werken.
 
-De meeste vroegere vooraf bepaalde en reekssegmenten zullen over als segmentmalplaatjes in de Bouwer van het Segment worden gemigreerd. Segmentsjablonen worden gebruikt om snel aangepaste segmenten te maken met een veel voorkomend publiek. De malplaatjes van het segment kunnen niet rechtstreeks op een rapport worden toegepast, maar zij kunnen gemakkelijk aan een douanesegment worden bewaard.
+De meeste vroegere vooraf bepaalde en reekssegmenten zullen over als segmentmalplaatjes in de bouwer van het Segment worden gemigreerd. Segmentsjablonen worden gebruikt om snel aangepaste segmenten te maken met een veel voorkomend publiek. De malplaatjes van het segment kunnen niet rechtstreeks op een rapport worden toegepast, maar zij kunnen gemakkelijk aan een douanesegment worden bewaard.
 
 Segmentsjablonen worden gemarkeerd met een speciaal pictogram in Segment Builder:
 
@@ -46,7 +46,7 @@ U hebt een referentie die naar het segment voor de belangrijkste rapportreeks ve
 
 Alle bestaande Data Warehouse-segmenten werken nog steeds in Data Warehouse. De meeste Data Warehouse-segmenten werken ook in andere componenten, zoals Analysis Workspace.
 
-U kunt nieuwe Data Warehouse-segmenten maken of bewerken in de gesegmenteerde builder/manager. Het mechanisme van de Verenigbaarheid van het Product in de Bouwer van het Segment bepaalt automatisch of een segment met Data Warehouse compatibel is.
+U kunt nieuwe Data Warehouse-segmenten maken of bewerken in de gesegmenteerde builder/manager. Het mechanisme van de Verenigbaarheid van het Product in de bouwer van het Segment bepaalt automatisch of een segment met Data Warehouse compatibel is.
 
 +++
 
@@ -58,7 +58,7 @@ U kunt nieuwe Data Warehouse-segmenten maken of bewerken in de gesegmenteerde bu
 * **bezoeken van Betaald Onderzoek**
 * **bezoeken met de Koekje van identiteitskaart van de Bezoeker**
 
-Deze segmenten worden als segmentsjablonen gemigreerd naar de Segmentbouwer. Bestaande rapporten waarop deze segmenten zijn toegepast, blijven correct werken.
+Deze segmenten worden als segmentsjablonen gemigreerd naar de Segmentbuilder. Bestaande rapporten waarop deze segmenten zijn toegepast, blijven correct werken.
 
 +++
 
@@ -119,7 +119,7 @@ Aan de hand van de volgende tips kunt u veel voorkomende afmetingen migreren:
 
 ## Nieuwe en hernoemde afmetingen {#renamed}
 
-De volgende lijst bevat een lijst van afmetingen die in de Bouwer van het Segment anders werden genoemd.
+De volgende lijst bevat een lijst van afmetingen die in de bouwer van het Segment anders werden genoemd.
 
 | Nieuwe Dimension-naam | Vorige naam | Notities |
 |--- |--- |--- |
@@ -147,7 +147,7 @@ De volgende lijst bevat een lijst van afmetingen die in de Bouwer van het Segmen
 
 {style="table-layout:auto"}
 
-## Veranderingen in op koord-Gebaseerde Dimensies die Bekende Waarden hebben {#string-based-dims}
+## Wijzigingen in op een tekenreeks gebaseerde afmetingen met bekende waarden {#string-based-dims}
 
 Op tekenreeks gebaseerde afmetingen met een bekende set waarden zijn gewijzigd in opsommingstypen. Wanneer u een segment maakt met deze afmetingen, wordt de lijst vooraf gevuld met alle bekende waarden en wordt alleen de operator ondersteund voor gelijkheid gebruikt. Zo kunt u snel de exacte waarden segmenteren die u zoekt zonder onbedoelde waarden te selecteren bij het gebruik van minder restrictieve overeenkomsten.
 
@@ -170,7 +170,7 @@ De volgende afmetingen zijn gewijzigd in opsommingslijsten:
 | lengte van mobiele bladwijzer | java ingeschakeld | betaalde zoekopdracht |
 | mobiele URL-lengte | taal |  |
 
-## Veranderingen in op geheel getal gebaseerde afmetingen die bekende waarden hebben {#integer-based-dims}
+## Wijzigingen in op gehele getallen gebaseerde afmetingen met bekende waarden {#integer-based-dims}
 
 Op gehele getallen gebaseerde afmetingen (zoals de breedte van de browser) met een bekende set waarden zijn opgedeeld in opsommingsbereiken, zodat u snel segmenten voor een bepaald bereik kunt definiëren. Deze opsommingslijsten worden toegevoegd met &quot; - Emmerd&quot;na de afmetingsnaam. Het volgende scherm toont hoe deze afmetingen gebruikend de vorige en nieuwe segmentbouwerinterfaces worden gesegmenteerd:
 

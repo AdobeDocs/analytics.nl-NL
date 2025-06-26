@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 6%
+source-wordcount: '960'
+ht-degree: 7%
 
 ---
 
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -27,22 +27,21 @@ ht-degree: 6%
 + Analysis Workspace {#analysis-workspace}
    + [Overzicht van Analysis Workspace](analysis-workspace/home.md)
    + Projecten {#build-workspace-project}
-      + [Overzicht van projecten](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Overzicht](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten maken](analysis-workspace/build-workspace-project/create-projects.md)
+      + [Projecten openen](analysis-workspace/build-workspace-project/open-projects.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
       + [Inhoudsopgave van project](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Mappen in Workspace {#workspace-folders}
-         + [Over mappen in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Overzicht van mappen](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Mappen en submappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Mappen verwijderen](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [Projecten toevoegen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [Een project verwijderen](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [Een nieuw project opslaan](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [Mappen beheren](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [Projecten toevoegen aan of verplaatsen naar mappen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Sjablonen](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Meerdere rapportsuites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Hotkeys (sneltoetsen)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Kleurenpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
-      + [Dichtheid weergeven](analysis-workspace/build-workspace-project/view-density.md)
+      + [Weergavedichtheid](analysis-workspace/build-workspace-project/view-density.md)
    + Sjablonen {#templates}
       + [Sjablonen gebruiken](analysis-workspace/templates/use-templates.md)
       + [Sjablonen maken](analysis-workspace/templates/create-templates.md)
@@ -65,9 +64,11 @@ ht-degree: 6%
          + [Segmenten maken](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Snelle segmenten](analysis-workspace/components/segments/quick-segments.md)
       + Kalender- en datumbereik {#calendar-date-ranges}
-         + [Overzicht van kalender- en datumbereiken](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [Aangepaste datumbereiken maken](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [Overzicht](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [Datumbereiken maken](analysis-workspace/components/calendar-date-ranges/create.md)
+         + [Gegevensbereiken beheren](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [Datumvergelijking](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [Voorbeelden](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + Gegevenswoordenboek {#data-dictionary}
          + [Overzicht van gegevenswoordenboek](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [Componentinformatie weergeven in gegevenswoordenboek](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
@@ -131,11 +132,11 @@ ht-degree: 6%
          + [Gebruiksgevallen voor vergelijking van segmenten](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests gebruikt bij de vergelijking van segmenten](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + De projecten van de cursus, van het Aandeel, en van het Programma {#curate-share}
-      + [Menu Delen](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Overzicht](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
       + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
       + [Deelbare koppelingen maken](analysis-workspace/curate-share/shareable-links.md)
-      + [Alleen-weergeven projecten](analysis-workspace/curate-share/view-only-projects.md)
+      + [Alleen-lezen projecten](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
       + [Projecten plannen](analysis-workspace/curate-share/t-schedule-report.md)
    + Attributie {#attribution}

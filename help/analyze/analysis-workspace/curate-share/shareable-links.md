@@ -5,9 +5,9 @@ title: Deelbare koppelingen maken
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 5d38c97dd24ae36605242720fc31a6cc6f67b1c1
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -18,23 +18,61 @@ Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen
 
 ## Een projectkoppeling ophalen om te delen met andere Workspace-gebruikers {#project-link}
 
-Om een verbinding aan een project te delen, ga naar het project u wilt delen, dan selecteren ga **>[!UICONTROL ** Aandeel met de gebruikers van Workspace **]>[!UICONTROL **&#x200B; Aandeel door verbinding &#x200B;**].** Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
+Als u een koppeling naar een project wilt delen, gaat u naar het project dat u wilt delen en selecteert u Ga naar **[!UICONTROL Share]** > **[!UICONTROL Get project link]** (of **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]** > **[!UICONTROL Share by link]** ). Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
 
-Als de ontvanger van de verbinding niet a [ projectrol ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=nl-NL) is toegewezen, ontvangen de beheerders **[!UICONTROL Edit original]** en niet-admins ontvangen **[!UICONTROL Edit copy]** ervaringen.
+Als de ontvanger van de verbinding niet a [ projectrol ](/help/analyze/analysis-workspace/curate-share/share-projects.md) is toegewezen, ontvangen de beheerders **[!UICONTROL Edit original]** en niet-admins ontvangen **[!UICONTROL Edit copy]** ervaringen.
 
 ## Een alleen-lezen koppeling ophalen om met iedereen te delen
 
-U kunt een alleen-lezen koppeling naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. Gebruikers met wie u de koppeling deelt, hoeven zich niet aan te melden.
+U kunt een alleen-lezen koppeling naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics.
 
-Voor meer informatie, zie &quot;een project met iedereen (geen vereiste login)&quot;in het artikel [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md) delen.
+Voor meer informatie, zie [ Aandeel met iedereen ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required).
 
-## Deelvenster of visualisatiekoppeling ophalen {#panel-link}
+## Een deelvenster of visualisatiekoppeling ophalen {#panel-link}
 
 U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoals een deelvenster of een afzonderlijke visualisatie. Dit wordt soms ook wel intra-linking genoemd. Dit kan nuttig zijn om de aandacht van uw gebruikers op zeer belangrijke inzichten binnen het project te vestigen.
 
-* Klik met de rechtermuisknop **[!UICONTROL Get panel link]** in een willekeurige koptekst in het deelvenster.
-* Klik met de rechtermuisknop **[!UICONTROL Get visualization link]** vanuit een tabel- of visualisatiekop
+* Selecteer in het contextmenu van de koptekst van een deelvenster de optie **[!UICONTROL Get panel link]**
+* Selecteer **[!UICONTROL Get visualization link]** in het contextmenu van een visualisatiekop.
 
-[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=nl-NL) op hoe te om verbindingen tot stand te brengen en hen te gebruiken om ontvangers aan specifieke delen van uw project te drijven.
+[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) op hoe te om verbindingen tot stand te brengen en hen te gebruiken om ontvangers aan specifieke delen van uw project te drijven.
+
+![ het drop-down menu nadat u de kopbal met de rechtermuisknop aanklikt met de Get gemarkeerde visualisatiekoppeling.](assets/get-visualization-link.png)
+
+## Koppelingen in een inhoudsopgave gebruiken {#TOC}
+
+Eén tip voor het benutten van de verschillende koppelingsopties is om altijd een inhoudsopgave boven aan uw Workspace-project op te nemen. In de inhoudsopgave kunt u een koppeling maken naar andere relevante projecten, specifieke panels en specifieke visualisaties. Hierdoor kan de ontvanger van het project gemakkelijker navigeren.
+
+[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) op hoe te om een Inhoudsopgave te construeren gebruikend verbindingen en de rijke tekstredacteur van Workspace.
+
+![ Inhoudsopgave van A-project.](assets/toc.png)
+
+
+<!--
+# Create shareable links
+
+Analysis Workspace offers many ways to share a project to your users, including the ability to get a link to a project or a specific part of a project. Some link types require the recipient to log in to Adobe Analytics before accessing the project, while others do not. 
+
+## Get a project link to share with other Workspace users {#project-link} 
+
+To share a link to a project, go to the project you want to share, then select go to [!UICONTROL **Share**] > [!UICONTROL **Share with Workspace users**] > [!UICONTROL **Share by link**]. Users you share the link with are required to log in. 
+
+If the recipient of the link has not been assigned a [project role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), admins receive **[!UICONTROL Edit original]** and non-admins receive **[!UICONTROL Edit copy]** experiences.
+
+## Get a read-only link to share with anyone
+
+You can share a read-only link to Analysis Workspace projects with people who don't have access to Adobe Analytics. Users you share the link with are not required to log in. 
+
+For more information, see "Share a project with anyone (no login required)" in the article [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+
+## Get panel or visualization link {#panel-link} 
+
+You can also share a link to a specific part of a project, such as a panel or individual visualization. This is sometimes referred to as intra-linking. This can be useful to draw your users' attention to key insights within the project.  
+
+* From any panel header, right-click **[!UICONTROL Get panel link]** 
+* From any table or visualization header, right-click **[!UICONTROL Get visualization link]** 
+
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) on how to create links and use them to drive recipients to specific parts of your project. 
 
 ![](assets/get-viz-link.png)
+-->

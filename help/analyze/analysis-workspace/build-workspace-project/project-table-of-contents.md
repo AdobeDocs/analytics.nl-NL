@@ -5,33 +5,73 @@ title: Inhoudsopgave van project
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '193'
 ht-degree: 1%
 
 ---
 
-# Inhoudsopgave van project
+# Inhoudsopgave
 
-U kunt een inhoudstafel binnen elk project in Analysis Workspace bekijken, toestaand u om zich tussen om het even welke panelen en visualisaties snel te bewegen die in het project bestaan. Dit is vooral nuttig wanneer het bekijken van grotere projecten die vele panelen en visualisaties bevatten.
+U kunt een inhoudstafel voor een project in Analysis Workspace bekijken, die u toestaat om zich snel tussen om het even welke panelen en visualisaties te bewegen die in het project bestaan. De inhoudsopgave is vooral handig wanneer u grotere projecten bekijkt die veel deelvensters en visualisaties bevatten.
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ inhoudstafel ](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een inhoudstafel ](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
 
 >[!ENDSHADEBOX]
 
+
+>[!TIP]
+>
+>U kunt de koptekstvisualisatie van de Sectie gebruiken om een sectie binnen een panelen te identificeren en te articuleren die vele visualisaties bevat. Deze sectiekoppen worden ook weergegeven als vermeldingen in de inhoudsopgave.
+>
 
 
 De inhoudsopgave van een project weergeven:
 
 1. Ga in Analysis Workspace naar het project waar u de inhoudsopgave wilt weergeven.
 
-1. In linkernav, selecteer het pictogram van de inhoudstafel ![ toc ](assets/toc-icon.png).
+1. In het knooppaneel, uitgezochte ![ ViewList ](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]**. Zie [ overzicht van Analysis Workspace ](/help/analyze/analysis-workspace/home.md) voor meer informatie.<br/>
 
-   De inhoudsopgave van het project wordt weergegeven en elk deelvenster wordt standaard uitgevouwen.
+   De **[!UICONTROL Table of contents]** voor het project wordt weergegeven en elk deelvenster wordt standaard uitgevouwen.
 
-   ![ Uitgebreide TOC van het Project ](assets/project-toc-expanded.png)
+1. Selecteer een visualisatie in het **[!UICONTROL Table of contents]** -vak. <br/>
 
-1. In de inhoudstafel, selecteer een visualisatie om naar het binnen het project te gaan.
+   De geselecteerde visualisatie wordt automatisch naar de geselecteerde afbeelding geschoven en kort gemarkeerd.
+
+   ![ benadrukte TOC ](assets/toc-highlighted.png)
+
+
+>[!MORELIKETHIS]
+>
+>* [ vereenvoudigt de Navigatie Dashboard met de Nieuwe Eigenschap van de Inhoudsopgave in Adobe Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
+
+
+
+<!--
+# Project table of contents
+
+You can view a table of contents within each project in Analysis Workspace, allowing you to quickly move between any panels and visualizations that exist in the project. This is especially useful when viewing larger projects that contain many panels and visualizations.
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
+
+To view the table of contents on a project:
+
+1. In Analysis Workspace, go to the project where you want to view the table of contents.
+
+1. In the left nav, select the table of contents icon ![toc icon](assets/toc-icon.png). 
+
+   The table of contents for the project is displayed, and each panel is expanded by default.
+
+   ![Project TOC expanded](assets/project-toc-expanded.png)
+
+1. In the table of contents, select a visualization to go to it within the project.
+-->

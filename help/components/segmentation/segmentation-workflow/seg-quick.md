@@ -3,7 +3,8 @@ description: Snelle segmenten in Analysis Workspace gebruiken voor Adobe Analyti
 title: Snelle segmenten
 feature: Segmentation
 role: User
-source-git-commit: 5819026bd3798cd936094f138cd236b1cb4b278e
+exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 # Snelle segmenten
 
 
-De snelle segmenten staan u toe om gegevens binnen een project van Workspace snel te onderzoeken, zonder de behoefte om een segment in de [ Bouwer van het Segment ](seg-create.md) tot stand te brengen.
+De snelle segmenten staan u toe om gegevens binnen een project van Workspace snel te onderzoeken, zonder de behoefte om een segment in de [ bouwer van het Segment ](seg-create.md) tot stand te brengen.
 
 
 
@@ -43,9 +44,9 @@ Een snel segment maken:
 Wanneer u een snel segment maakt door te slepen en neer te zetten, moet u het volgende opmerken:
 
 * Niet alle componenttypen worden ondersteund. Berekende metriek worden niet ondersteund en alleen dimensies en metriek waaruit u segmenten kunt samenstellen, worden ondersteund.
-* Voor dimensies en metriekcomponenten, leidt de [ Snelle segmentbouwer ](#quick-segment-builder) automatisch tot een `exists` voorwaarden. Als u bijvoorbeeld `City` sleept en neerzet, wordt de voorwaarde `City exists` gemaakt.
-* Voor afmetingswaarden, leidt de [ Snelle segmentbouwer ](#quick-segment-builder) automatisch tot een `equals` voorwaarde. Als u bijvoorbeeld `amsterdam` sleept vanuit de `City` -dimensie, wordt de voorwaarde `City equals amsterdam` gemaakt.
-* Als u sleept en `unspecified` of `none` laat vallen, [ Snelle segmentbouwer ](#quick-segment-builder) leidt automatisch tot een `does not exist` voorwaarde.
+* Voor dimensies en metriekcomponenten, leidt de [ Snelle segmentbouwer ](#quick-segment-builder) automatisch tot een **[!UICONTROL exists]** voorwaarden. Als u bijvoorbeeld **[!UICONTROL City]** sleept en neerzet, wordt de voorwaarde **[!UICONTROL City]** **[!UICONTROL exists]** gemaakt.
+* Voor afmetingswaarden, leidt de [ Snelle segmentbouwer ](#quick-segment-builder) automatisch tot een **[!UICONTROL equals]** voorwaarde. Als u bijvoorbeeld **[!UICONTROL amsterdam]** sleept en neerzet vanuit de **[!UICONTROL City]** dimensie-items, wordt de voorwaarde **[!UICONTROL City]** **[!UICONTROL equals]** `Amsterdam` gemaakt.
+* Als u sleept en **[!UICONTROL unspecified]** of **[!UICONTROL none]** laat vallen, [ Snelle segmentbouwer ](#quick-segment-builder) leidt automatisch tot een **[!UICONTROL does not exist]** voorwaarde.
 
 Snelle segmenten die u maakt, worden boven in het deelvenster weergegeven. Snelle segmenten hebben wel een lichtblauwe, dunne linkerbalk. Wanneer een snel segment op uitgeeft wijze gebruikend de [ Snelle segmentbouwer ](#quick-segment-builder) is, is de achtergrond van het Snelle segment lichtblauw.
 
@@ -57,11 +58,11 @@ De resultaten van de snelle segmenten die u in een deelvenster maakt, worden toe
 Als u een snel segment wilt beheren, houdt u de muisaanwijzer boven het specifieke segment **[!UICONTROL Quick segment]** .
 
 * Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) om de [ Snelle segmentbouwer ](#quick-segment-builder) te openen en het snelle segment uit te geven.
-* Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om popup te openen. De popup vertoningeninformatie over het segment. U kunt selecteren **[!UICONTROL Make available to all projects and add to your component list]** om het segment aan de ![ 2&rbrace; **[!UICONTROL Segments]** componentenlijst van het Segment &lbrace;in het componentenpaneel toe te voegen. ](/help/assets/icons/Segmentation.svg) Er wordt een dialoogvenster **[!UICONTROL Save quick segment]** weergegeven waarin u wordt gevraagd een naam voor het segment op te geven. Selecteer **[!UICONTROL Save]** om door te gaan. De [!UICONTROL Quick segment] verandert in een **[!UICONTROL Segment]** . U kunt niet het segment meer uitgeven gebruikend de [ Snelle segmentbouwer ](#quick-segment-builder). In plaats daarvan, moet u het segment als regelmatig segment uitgeven, gebruikend de [ bouwer van het Segment ](seg-build.md).
+* Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om popup te openen. De popup vertoningeninformatie over het segment. U kunt selecteren **[!UICONTROL Make available to all projects and add to your component list]** om het segment aan de ![ 2} **[!UICONTROL Segments]** componentenlijst van het Segment {in het componentenpaneel toe te voegen. ](/help/assets/icons/Segmentation.svg) Er wordt een dialoogvenster **[!UICONTROL Save quick segment]** weergegeven waarin u wordt gevraagd een naam voor het segment op te geven. Selecteer **[!UICONTROL Save]** om door te gaan. De [!UICONTROL Quick segment] verandert in een **[!UICONTROL Segment]** . U kunt niet het segment meer uitgeven gebruikend de [ Snelle segmentbouwer ](#quick-segment-builder). In plaats daarvan, moet u het segment als regelmatig segment uitgeven, gebruikend de [ bouwer van het Segment ](seg-build.md).
 
 ## Quick segment builder
 
-Zie hieronder voor een voorbeeld van de Snelle segmentbouwer. In het voorbeeld wordt de builder geopend voor een snel segment met de naam `Interaction Channel equals Website AND Online Orders is greater than 1` . Het snelle segment bovenaan is van toepassing op het deelvenster [!UICONTROL Average Order Value Dashboard] en alle visualisaties daarbinnen.
+Zie hieronder voor een voorbeeld van de Snelle segmentbouwer. In het voorbeeld wordt de builder geopend voor een snel segment met de naam `Interaction Channel = Website  AND Online Orders is greater than 1` . Het snelle segment bovenaan is van toepassing op het deelvenster **[!UICONTROL Average Order Value Dashboard]** en alle visualisaties daarbinnen.
 
 ![ Snelle segmentbouwer ](assets/quick-segment-builder.png)
 
@@ -74,7 +75,7 @@ Het koptekstgebied bepaalt de naam, het type en het bereik van het snelle segmen
 | Element | Beschrijving |
 |---|---|
 | **[!UICONTROL Name]** | De naam wordt automatisch afgeleid uit de snelle segmentdefinitie. |
-| **[!UICONTROL People]** <br/>![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) ![ Alarm ](/help/assets/icons/Alert.svg) | Een voorvertoning van de gegevens die het snelle segment oplevert. Een bar en een percentage verstrekken insight in hoeveel van de algemene gegevens deel van het resultaat van het snelle segment uitmaken. Een rood ![ alarm ](/help/assets/icons/Alert.svg) signaleert dat het snelle segment geen gegevens terugkeert. |
+| **[!UICONTROL People]** <br/>![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) ![ Alarm ](/help/assets/icons/Alert.svg) | Een voorvertoning van de gegevens die het snelle segment oplevert. Een bar en een percentage verstrekken insight in hoeveel van de algemene gegevens deel van het resultaat van het snelle segment uitmaken. A ![ waarschuwt ](/help/assets/icons/AlertRed.svg) signalen dat het snelle segment geen gegevens terugkeert. |
 | **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Selecteer van drop-down ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) of u de resultaten van het snelle segment van de gegevens in het paneel wilt omvatten of uitsluiten. |
 | **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Selecteer van het drop-down menu ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) het werkingsgebied van het snelle segment. |
 
@@ -97,7 +98,7 @@ In het voorwaardengebied worden de voorwaarden opgegeven (maximaal drie). Voor e
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Deze optie is alleen beschikbaar wanneer u meerdere voorwaarden definieert. Selecteer van het drop-down menu ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) tussen de voorwaarden. De selectie bepaalt de booleaanse logica voor het snelle segment. U kunt logica niet mengen wanneer er drie voorwaarden zijn. De Booleaanse logica is **[!UICONTROL AND]** of **[!UICONTROL OR]** . |
 | ![ AddCircle ](/help/assets/icons/AddCircle.svg) | Hiermee voegt u een andere voorwaarde toe aan het snelle segment. Deze knop is alleen beschikbaar wanneer u een of twee voorwaarden voor het snelle segment hebt gedefinieerd. |
 | **[!UICONTROL Apply]** | Pas de wijzigingen toe op het snelle segment. |
-| **[!UICONTROL Open builder]** | U wordt om bevestiging gevraagd met een dialoogvenster **[!UICONTROL Are your sure?]** . Als u **[!UICONTROL OK]** selecteert, kunt u uw segment in [ Snelle segmentbouwer ](#quick-segment-builder) niet meer wijzigen Uw snel segment wordt anders genoemd aan **[!UICONTROL Segment]** en heeft nu een donkerdere blauwe dunne linkerbar.<br/> de regelmatige [ bouwer van het Segment ](seg-build.md) opent met de optie aan **[!UICONTROL Make this segment available to all your projects and add it to your component list]**. <ul><li>Als u deze optie selecteert en **[!UICONTROL Apply]** selecteert, wordt het segment toegevoegd aan de ![ 2&rbrace; **[!UICONTROL Segment]** componentenlijst van het Segment in het componentenpaneel.](/help/assets/icons/Segmentation.svg)</li><li>Als u deze optie niet selecteert en **[!UICONTROL Apply]** selecteert, blijft het segment een segment met alleen het Workspace-project.</li></ul> |
+| **[!UICONTROL Open builder]** | U wordt om bevestiging gevraagd met een dialoogvenster **[!UICONTROL Are your sure?]** . Als u **[!UICONTROL OK]** selecteert, kunt u uw segment in [ Snelle segmentbouwer ](#quick-segment-builder) niet meer wijzigen Uw snel segment wordt anders genoemd aan **[!UICONTROL Segment]** en heeft nu een donkerdere blauwe dunne linkerbar.<br/> de regelmatige [ bouwer van het Segment ](seg-build.md) opent met de optie aan **[!UICONTROL Make this segment available to all your projects and add it to your component list]**. <ul><li>Als u deze optie selecteert en **[!UICONTROL Apply]** selecteert, wordt het segment toegevoegd aan de ![ 2} **[!UICONTROL Segment]** componentenlijst van het Segment in het componentenpaneel.](/help/assets/icons/Segmentation.svg)</li><li>Als u deze optie niet selecteert en **[!UICONTROL Apply]** selecteert, blijft het segment een segment met alleen het Workspace-project.</li></ul> |
 | **[!UICONTROL Cancel]** | Selecteer deze optie om het maken of bewerken van een snel segment te annuleren. |
 
 ## Snelle segmenten versus segmenten
@@ -108,5 +109,3 @@ Segmenten hebben de volgende voordelen ten opzichte van snelle segmenten.
 
 * Segmenten kunnen beschikbaar worden gesteld voor al uw Workspace-projecten
 * De segmenten steunen meer ingewikkeldheid gebruikend genestelde en hiërarchische [ containers ](../seg-containers.md), en opeenvolgingen (gebruikend [ opeenvolgende segmenten ](seg-sequential-build.md).
-
-

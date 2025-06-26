@@ -1,74 +1,85 @@
 ---
-description: Stel een rapport van de Analyse van de Bijdrage in een project van de Werkruimte in werking.
+description: Voer een rapport voor de bijdrageanalyse uit in een Workspace-project.
 title: Bijdrageanalyse uitvoeren
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 1%
+source-wordcount: '518'
+ht-degree: 0%
 
 ---
 
 # Bijdrageanalyse uitvoeren
 
-[Bijdrage-analyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) is een intensief machinaal leerproces dat is ontworpen om contribuanten aan een waargenomen anomalie in Adobe Analytics aan het licht te brengen. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
-
-## Bijdrageanalyse uitvoeren {#run}
-
-Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een project:
-
-* In een vrije lijst met dagelijkse granulariteit, klik om het even welke rij met de rechtermuisknop aan en selecteer **[!UICONTROL Run Contribution Analysis]**. U kunt het zelfs op rijen in werking stellen die geen anomalie tonen.
-
-  >[!NOTE]
-  >
-  >Wij steunen momenteel de analyse van de bijdragen alleen met de dagelijkse granulariteit.
-
-  ![](assets/run_ca.png)
-
-* Houd de muisaanwijzer boven een afwijkend gegevenspunt in een lijndiagram in een lijndiagram. Klik op de knop **[!UICONTROL Analyze]** koppeling die wordt weergegeven.
-
-  ![](assets/contribution-analysis.png)
-
-1. (Optioneel) Nadat u hebt geklikt **[!UICONTROL Run Contribution Analysis]** in of de lijngrafiek of een lijst, kunt u het werkingsgebied van (en zo versnellen) de analyse door [exclusief afmetingen](#exclude).
-
-1. Wacht terwijl de analyse van uw bijdrage wordt geladen. Dit kan veel tijd in beslag nemen, afhankelijk van de grootte van uw rapportenpakket en het aantal dimensies. De analyse van de bijdrage voert analyse op de hoogste 50.000 punten per dimensie uit.
-1. Analysis Workspace laadt vervolgens een nieuw deelvenster voor de analyse van bijdragen rechtstreeks in dit project.
-
-   * Een visualisatie die het aantal **Bezoeken** op die dag.
-   * Maandelijks **Bezoekt trendlijn** voor context.
-   * **Bovenste items** die tot deze anomalie heeft bijgedragen, gesorteerd door de [bijdragescore](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis), plus de metrische waarde in kwestie, en een Unieke metrische bezoeker om metrisch in context vanuit een grootteperspectief te zetten.
-
-   * De [Gegenereerde segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=nl-NL) (Top Item Clusters) de lijst identificeert verenigingen van hoogste punten die op de Score van de Bijdrage, anomalievoorvallen, en algemeen percentage worden gebaseerd die tot anomalische metrisch bijdragen. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
-
-     ![](assets/auto_segment.png)
-
-1. Aangezien de analyse van de bijdrage nu deel van Analysis Workspace uitmaakt, kunt u uit een aantal van zijn eigenschappen van het de klikmenu van een lijst van een lijst voordeel halen om uw analyse nog betekenisvoller te maken, zoals:
-
-   * [Elk afmetingsitem omlaag splitsen op een andere afmeting.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [Een of meer rijen Trending.](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
-   * [Nieuwe visualisaties toevoegen.](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-   * [Waarschuwingen maken.](/help/components/c-alerts/intellligent-alerts.md)
-   * [Segmenten maken of vergelijken.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+[ Analyse van de Bijdrage ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) is een intensief machine het leren proces dat wordt ontworpen om contribuanten aan een waargenomen anomalie in Adobe Analytics te ontdekken. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
 
 >[!NOTE]
 >
->We benadrukken de anomalie die wordt geanalyseerd met een blauwe stip in de bijdrageanalyse en de projecten voor intelligente waarschuwingen die eraan gekoppeld zijn. Dit geeft een duidelijkere indicatie van hoe de anomalie wordt geanalyseerd.
+>De Analyse van de Bijdrage wordt slechts gesteund voor gegevens met dagelijkse granulariteit.
 
-## Afmetingen uitsluiten van bijdrageanalyse {#exclude}
+De volgende stappen moeten worden uitgevoerd:
 
-Het kan voorkomen dat u bepaalde dimensies wilt uitsluiten van de Contribute-analyse. Het kan bijvoorbeeld zijn dat u helemaal niets aan uw browser of hardware kunt schelen en dat u de analyse wilt versnellen door deze te verwijderen.
+1. Bijdrage-analyse in een project aanroepen.
 
-1. Na het klikken **[!UICONTROL Run Contribution Analysis]** (of **[!UICONTROL Analyze]** in een lijngrafiek), de **[!UICONTROL Excluded Dimensions]** wordt weergegeven.
+   ![ de analyse van de Bijdrage van de Looppas ](assets/run-contribution-analysis.png)
 
-1. Sleep alleen ongewenste afmetingen naar de **[!UICONTROL Excluded Dimensions]** en sla de lijst vervolgens op door op **[!UICONTROL Set as Default]**. Of klik op **[!UICONTROL Clear All]** om opnieuw te beginnen met het selecteren van afmetingen die moeten worden uitgesloten.
+   1. Selecteer in een lijnvisualisatie op basis van een vrije-vormtabel met dagelijkse korreligheid een afwijkend gegevenspunt. Selecteer **[!UICONTROL Analyze]** in het pop-upmenu.
+   1. Selecteer **[!UICONTROL Run contribution analysis]** in een vrije-vormtabel met dagelijkse korreligheid in het contextmenu op een willekeurige rij. U kunt de analyse zelfs uitvoeren op rijen die geen anomalie tonen.
+   1. In een vrije-vormlijst met dagelijkse korreligheid, op een rij die op een anomalie wijst:
+      1. Selecteer de indicator ◥ .
+      1. Van de ![ Alarm ](/help/assets/icons/Alert.svg) **[!UICONTROL Anomaly detected]** dialoog, uitgezochte **[!UICONTROL Open Contribution Analysis]**.
 
-   ![](assets/exclude_dimensions.png)
 
-1. Nadat u de afmetingen hebt toegevoegd om uit te sluiten (of ervoor hebt gekozen niet om te kiezen), klikt u op **[!UICONTROL Run Contribution Analysis]** opnieuw.
-1. Als u ooit de lijst van uitgesloten afmetingen moet herzien, enkel dubbelklik Dimensionen, en de lijst van uitgesloten dimensies toont:
 
-   ![](assets/excluded-dimensions.png)
+1. (Facultatief) u kunt het werkingsgebied van (en zo versnellen) de analyse beperken door [ exclusief dimensies ](#exclude-dimensions).
 
-1. Verwijder ongewenste afmetingen door op de x naast de ongewenste afmetingen te klikken en de lijst vervolgens op te slaan door op **[!UICONTROL Set as Default]**.
+   ![ Excluding dimensies van de analyse van de Bijdrage ](assets/excluding-dimensions.png)
+
+1. Selecteer **[!UICONTROL Run contribution analysis]** .
+
+1. Wacht terwijl de bijdrageanalyse wordt verwerkt. De verwerking kan een aanzienlijke hoeveelheid tijd in beslag nemen, afhankelijk van de grootte van uw rapportsuite en het aantal dimensies. De analyse van de bijdrage voert analyse op de hoogste 50.000 punten per dimensie uit. U wordt ook op de hoogte gebracht over het aantal [ tokens van de bijdrageanalyse ](anomaly-detection.md#contribution-analysis-tokens) resterend.
+
+   ![ analyse die van de Bijdrage ](assets/contribution-analysis-executing.png) uitvoert
+
+1. Analysis Workspace laadt een nieuw **[!UICONTROL Contribution analysis]** -deelvenster rechtstreeks in dit project.
+
+   ![ het paneel van de Analyse van de Bijdrage ](assets/contribution-analysis.png)
+
+   * A [ summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualisatie.
+   * Een maandelijkse trended [ lijn ](/help/analyze/analysis-workspace/visualizations/line.md) visualisatie.
+   * A **[!UICONTROL Top Items]** [ vrije lijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) die toont welke hoogste punten aan deze anomalie bijdragen, die door [ wordt gesorteerd de score van de Bijdrage ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis). De extra kolommen tonen metrisch in kwestie, en **[!UICONTROL Unique Visitors]** metrisch om context te verstrekken.
+
+   * De **[!UICONTROL Generated Segments (Top Item Clusters)]** [ vrije lijst van de vrije vorm ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) identificeert verenigingen van hoogste punten die op de Score van de Bijdrage worden gebaseerd, anomalie voorkomen, en algemeen percentage bijdragend tot anomalische metrisch. Deze vereniging wordt dan gevangen als publiekssegment (Segment 1 van de Bijdrage, Segment 2 van de Bijdrage, enz.). Selecteer ![ Info ](/help/assets/icons/Info.svg) om de definitie van het segment te tonen, die hoogste punten omvat de segmenten uit worden samengesteld:
+
+
+1. Aangezien de bijdrageanalyse nu deel van Analysis Workspace uitmaakt, kunt u uit een aantal van zijn eigenschappen van een vrije lijstcontextmenu voordeel halen om uw analyse nog betekenisvoller te maken, zoals:
+
+   * [ onderbreking elk afmetingspunt door een andere afmeting ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
+   * [ Trending één of meerdere rijen ](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [ voeg een nieuwe visualisaties ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toe
+   * [ creeer alarm ](/help/components/c-alerts/intellligent-alerts.md)
+   * [Maak of vergelijk segmenten.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+>[!NOTE]
+>
+>De anomalie die wordt geanalyseerd, wordt met een blauwe punt benadrukt binnen de Analyse van de Bijdrage en de projecten van de Intelligente Alarm verbonden aan het. Deze markering geeft een duidelijkere indicatie van de anomalie die wordt geanalyseerd.
+
+
+## Afmetingen uitsluiten
+
+Mogelijk wilt u bepaalde dimensies uitsluiten van de bijdrageanalyse. Het kan bijvoorbeeld zijn dat u helemaal niets aan uw browser of hardware kunt schelen en dat u de analyse wilt versnellen door deze te verwijderen.
+
+De uitgesloten dimensie beheren:
+
+* Sleep ongewenste afmetingen naar het deelvenster **[!UICONTROL Excluded Dimensions]** en sla de lijst op door op **[!UICONTROL Set as Default]** te klikken.
+
+* Selecteer **[!UICONTROL Clear All]** om opnieuw te beginnen.
+
+* Selecteer ![ Dimensies ](/help/assets/icons/Dimensions.svg) om een contextmenu te tonen en gebruik ![ CrossSize400 ](/help/assets/icons/CrossSize400.svg) om het even welke geselecteerde uitgesloten afmeting uit de lijst te verwijderen.
+
+  ![](assets/excluded-dimensions-list.png)
+
+Nadat u de afmetingen hebt gewijzigd om uit te sluiten, selecteert u nogmaals **[!UICONTROL Run contribution analysis]** .
+

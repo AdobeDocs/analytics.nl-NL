@@ -3,7 +3,7 @@ description: Afhankelijk van uw toestemmingen, kunt u segmenten met uw volledige
 title: Segmenten delen
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Wanneer zou u segmenten met het volledige bedrijf tegenover enkel een groep gebr
 * Als Admin, deel een segment met specifiek **[!UICONTROL Group]** als het segment goede bedrijfswaarde voor dat team verstrekt. Dit type segment niet officieel goedkeuren.
 * Als Admin of een individuele gebruiker, deel een segment met andere individuen om een segment te behandelen en te bevestigen. Als het niet nuttig blijkt, kan het worden verworpen. Dit type segment niet officieel goedkeuren.
 
-1. In de Manager van het Segment, uitgezochte ![ SelectBox ](/help/assets/icons/SelectBox.svg) checkbox naast het segment u wilt delen.
+1. In de manager van het Segment, uitgezochte ![ SelectBox ](/help/assets/icons/SelectBox.svg) checkbox naast het segment u wilt delen.
 1. Selecteer ![ Aandeel ](/help/assets/icons/Share.svg).
 1. In het dialoogvenster **[!UICONTROL Share Segments]** :
 

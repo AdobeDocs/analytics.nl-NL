@@ -3,7 +3,7 @@ description: Met de Segment Builder kunt u waarden vergelijken en beperken met b
 title: Vergelijkingsoperatoren voor segmenten
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Bijvoorbeeld, hebt u een paginanaam genoemd *Mijn koele product*.
 
 ## Operatoren voor onderscheiden tellen
 
-U kunt op een duidelijke telling van punten binnen een afmeting segmenteren. Voorbeelden: &quot;Bezoekers die meer dan vijf verschillende producten hebben bekeken&quot; of &quot;Bezoek waarbij meer dan vijf verschillende pagina&#39;s werden bekeken&quot;.
+U kunt op een duidelijke telling van punten binnen een afmeting segmenteren. Voorbeelden: *Bezoekers die meer dan 5 verschillende producten* bekeken, of *Bezoeken waar meer dan 5 verschillende pagina&#39;s* werden gezien.
 
 | Operator | De geselecteerde afmeting, segment of metrische gebeurtenis... |
 | --- | --- |

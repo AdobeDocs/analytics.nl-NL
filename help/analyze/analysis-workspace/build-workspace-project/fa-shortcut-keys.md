@@ -5,79 +5,85 @@ title: Hotkeys (sneltoetsen)
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 5%
+source-wordcount: '405'
+ht-degree: 0%
 
 ---
 
 # Hotkeys (sneltoetsen)
 
-Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace voor naadloze navigatie, analyse, het toevoegen van deelvensters en visualisaties, en democratisering (delen).
+Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 
-Opmerking:
-* `Ctrl` = Windows en `Command` = Mac
-* `Alt` = Windows en `Option` = Mac
+- **⇧** voor **[!UICONTROL ** verschuiving **]**.
+- **⌘** voor **[!UICONTROL ** cmd **]** (bevel).
+- **⌃** voor **[!UICONTROL ** ctrl **]** (controle).
+- **⌥** voor **[!UICONTROL ** opt **]** (optie).
+- **⎇** voor **[!UICONTROL ** alt **]** (alternatief).
 
 ## Navigatiehandelingen
 
-| Handeling | Sneltoets |
-| --- | --- |
-| Nieuw project maken | ctrl + shift + p |
-| Bestaand project openen | ctrl + o |
-| Naar deelvenster Deelvensters | alt + shift + 1 |
-| Naar het deelvenster Visualisatie | alt + shift + 2 |
-| Naar deelvenster Componenten | alt + shift + 3 |
-| Alle deelvensters samenvouwen/uitvouwen | alt + m |
-| Actief deelvenster samenvouwen/uitvouwen | alt + ctrl + m |
-| Naar volgend deelvenster gaan | alt + toets rechts |
-| Naar vorig deelvenster gaan | alt + linkertoets |
+| Handeling | Sneltoets Mac | Sneltoetsvensters |
+| --- | --- | --- | 
+| Nieuw project maken | **[!UICONTROL *cmd + shift + p *]** | **[!UICONTROL *ctrl + shift + p *]** |
+| Bestaand project openen | **[!UICONTROL *cmd + o *]** | **[!UICONTROL *ctr + o *]** |
+| Naar deelvenster Deelvensters | **[!UICONTROL *opt + shift + 1 *]** | **[!UICONTROL *alt + shift + 1 *]** |
+| Ga naar het deelvenster Visualisatie | **[!UICONTROL *opt + shift + 2 *]** | **[!UICONTROL *alt + shift + 2 *]** |
+| Naar deelvenster Componenten | **[!UICONTROL *opt + shift + 3 *]** | **[!UICONTROL *alt + shift + 3 *]** |
+| Alle deelvensters samenvouwen/uitvouwen | **[!UICONTROL *opt + m *]** | **[!UICONTROL *alt + m *]** |
+| Actief deelvenster samenvouwen/uitvouwen | **[!UICONTROL *opt + cmd + m *]** | **[!UICONTROL *alt + ctrl + m *]** |
+| Naar volgend deelvenster | **[!UICONTROL *opt *+ {2 }︎]**▶ | **[!UICONTROL *alt *+ {2 }︎]**▶ |
+| Naar vorig deelvenster | **[!UICONTROL *opt *+ {2 }︎]**◀ | **[!UICONTROL *alt *+ {2 }︎]**◀ |
 
 ## Analyse-acties
 
-| Handeling | Sneltoets |
-| --- | --- |
-| Zoeken in linkerrail | ctrl + / |
-| Een waarschuwing maken | ctrl + shift + a |
-| Een aantekening maken | ctrl + shift + o |
-| Berekende metrisch maken | ctrl + shift + c |
-| Een datumbereik maken | ctrl + shift + d |
-| Een segment maken | ctrl + shift + e |
-| Alles wissen | alt + w |
-| Kopiëren | ctrl + c |
-| Opnieuw | ctrl + shift + z |
-| Ongedaan maken | ctrl + z |
-| Componenten vernieuwen | alt + shift + r |
-| Project vernieuwen | alt + r |
-| Instellen als bestemmingspagina | ctrl + shift + l |
+| Handeling | Sneltoets Mac | Sneltoetsvensters |
+| --- | --- | --- | 
+| Zoeken in linkerdeelvenster | **[!UICONTROL *cmd + /*]** | **[!UICONTROL *ctrl + /*]** |
+| Een waarschuwing maken | **[!UICONTROL *cmd + shift + a *]** | **[!UICONTROL *ctrl + shift + a *]** |
+| Berekende metrisch maken | **[!UICONTROL *cmd + shift + c *]** | **[!UICONTROL *ctrl + shift + c *]** |
+| Een datumbereik maken | **[!UICONTROL *cmd + shift + d *]** | **[!UICONTROL *ctrl + shift + d *]** |
+| Een segment maken | **[!UICONTROL *cmd + shift + e *]** | **[!UICONTROL *ctrl + shift + e *]** |
+| Alles wissen | **[!UICONTROL *alt + w *]** | **[!UICONTROL *opt + w *]** |
+| Kopiëren | **[!UICONTROL *cmd + c *]** | **[!UICONTROL *ctrl + c *]** |
+| Opnieuw | **[!UICONTROL *cmd + shift + z *]** | **[!UICONTROL *ctrl + shift + z *]** |
+| Ongedaan maken | **[!UICONTROL *cmd + z *]** | **[!UICONTROL *ctrl + z *]** |
+| Componenten vernieuwen | **[!UICONTROL *opt + shift + r *]** | **[!UICONTROL *alt + shift + r *]** |
+| Project vernieuwen | **[!UICONTROL *opt + r *]** | **[!UICONTROL *alt + r *]** |
+| Instellen als bestemmingspagina | **[!UICONTROL *cmd + shift + l *]** | **[!UICONTROL *ctrl + shift + l *]** |
 
 ## Deelvensters en visualisatiehandelingen toevoegen
 
-| Handeling | Sneltoets |
-| ---|---|
-| Nieuwe analyse voor doelvenster | alt + g |
-| Nieuw deelvenster Kenmerken | alt + e |
-| Nieuw leeg deelvenster | alt + b |
-| Nieuw deelvenster Vrije vorm | alt + a |
-| Nieuw deelvenster Mediagelijktijdige viewers | alt + h |
-| Nieuw deelvenster Snelle inzichten | alt + f |
-| Nieuw deelvenster voor segmentvergelijking | alt + c |
-| Nieuwe tabel voor vrije vorm | alt + 1 |
-| Nieuwe lijngrafiek | alt + 2 |
-| Nieuwe staafdiagram | alt + 3 |
+| Handeling | Sneltoets Mac | Sneltoetsvensters |
+| --- | --- | --- | 
+| Nieuw deelvenster Kenmerken | **[!UICONTROL *opt + e *]** | **[!UICONTROL *alt + e *]** |
+| Nieuw leeg deelvenster | **[!UICONTROL *opt + b *]** | **[!UICONTROL *alt + b *]** |
+| Nieuw deelvenster Vrije vorm | **[!UICONTROL *opt + a *]** | **[!UICONTROL *alt + a *]** |
+| Nieuw deelvenster Snelle inzichten | **[!UICONTROL *opt + f *]** | **[!UICONTROL *alt + f *]** |
+| Nieuwe tabel voor vrije vorm | **[!UICONTROL *opt + 1 *]** | **[!UICONTROL *alt + 1 *]** |
+| Nieuwe lijngrafiek | **[!UICONTROL *opt + 2 *]** | **[!UICONTROL *alt + 2 *]** |
+| Nieuwe staafdiagram | **[!UICONTROL *opt + 3 *]** | **[!UICONTROL *alt + 3 *]** |
+| Nieuw combinatiediagram | **[!UICONTROL *opt + 4 *]** | **[!UICONTROL *alt + 4 *]** |
+
+## Deelvensterhandelingen verplaatsen
+
+| Handeling | Sneltoets Mac | Sneltoetsvensters |
+| --- | --- | --- | 
+| Deelvenster omhoog verplaatsen | **[!UICONTROL *cmd + opt + omhoog *]** | **[!UICONTROL *alt + ctrl + omhoog *]** |
+| Deelvenster omlaag verplaatsen | **[!UICONTROL *cmd + opt + onderaan *]** | **[!UICONTROL *alt + ctrl + neer *]** |
 
 ## democratiseringsacties
 
-| Handeling | Sneltoets |
-| --- | --- |
-| Project opslaan | ctrl + s |
-| Project opslaan als | ctrl + shift + s |
-| Opslaan als sjabloon | alt + t |
-| Downloaden als CSV | ctrl + shift + v |
-| Downloaden als PDF | ctrl + shift + b |
-| Cursieve projectgegevens | ctrl + shift + g |
-| Project delen | ctrl + g |
-| Projectkoppeling ophalen | alt + l |
-| Bestand nu verzenden | alt + s |
-| Bestand verzenden volgens schema | shift + alt + s |
+| Handeling | Sneltoets Mac | Sneltoetsvensters |
+| --- | --- | --- | 
+| Project opslaan | **[!UICONTROL *cmd + s *]** | **[!UICONTROL *ctrl + s *]** |
+| Project opslaan als | **[!UICONTROL *cmd + shift + s *]** | **[!UICONTROL *ctrl + shift + s *]** |
+| Opslaan als sjabloon | **[!UICONTROL *opt + t *]** | **[!UICONTROL *alt + t *]** |
+| Downloaden als CSV | **[!UICONTROL *cmd + shift + v *]** | **[!UICONTROL *ctrl + shift + v *]** |
+| Downloaden als PDF | **[!UICONTROL *cmd + shift + b *]** | **[!UICONTROL *ctrl + shift + b *]** |
+| Cursieve projectgegevens | **[!UICONTROL *cmd + shift + g *]** | **[!UICONTROL *ctrl + shift + g *]** |
+| Project delen | **[!UICONTROL *cmd + g *]** | **[!UICONTROL *ctrl + g *]** |
+| Projectkoppeling ophalen | **[!UICONTROL *alt + l *]** | **[!UICONTROL *alt + l *]** |
+| Bestand nu verzenden | **[!UICONTROL *alt + s *]** | **[!UICONTROL *alt + s *]** |
+| Bestand verzenden volgens schema | **[!UICONTROL *verschuiving + alt + s *]** | **[!UICONTROL *verschuiving + alt + s *]** |

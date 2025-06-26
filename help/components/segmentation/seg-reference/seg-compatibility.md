@@ -3,7 +3,7 @@ description: Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn co
 title: Data Warehouse-segmentcompatibiliteit
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -45,14 +45,14 @@ Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met 
   </tr> 
   <tr> 
    <td> <b>Dimensies</b> </td> 
-   <td>Sleep en laat vallen een dimensie in het gebied van Definities <span class="uicontrol"> van de Bouwer van het Segment </span> om over zijn productverenigbaarheid te weten te komen. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Analysis Workspace, Reports &amp; Analytics: 
+   <td>Sleep en laat vallen een dimensie in het gebied van de Bouwer van het Segment <span class="uicontrol"> Definities </span> om over zijn productverenigbaarheid te weten te komen. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Analysis Workspace, Reports &amp; Analytics: 
     <ul> 
      <li>Entry-server </li> 
      <li>Invoercategorie </li> 
      <li>Invoerdatum </li> 
      <li>Alle zoekpaginanummers </li> 
     </ul> </td> 
-   <td> Sleep en laat vallen een dimensie in het gebied van Definities <span class="uicontrol"> van de Bouwer van het Segment </span> om over zijn productverenigbaarheid te weten te komen. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Data Warehouse: 
+   <td> Sleep en laat vallen een dimensie in het gebied van de Bouwer van het Segment <span class="uicontrol"> Definities </span> om over zijn productverenigbaarheid te weten te komen. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Data Warehouse: 
     <ul> 
      <li>IP-adres </li> 
      <li>Pagina-URL </li> 
@@ -99,4 +99,4 @@ Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met 
  </tbody> 
 </table>
 
-*Opmerking: Data Warehouse ondersteunt niet alle gevallen van het gebruik van een `exclusion` - of `without` -container bij het gebruik van `AND/OR` . Wanneer het gebruiken van zulk een combinatie, slechts die segmenten die als `A AND NOT B` kunnen worden herschreven, (of **omvat dit kenmerk**&#x200B;en **sluit dit kenmerk**&#x200B;uit) worden gesteund in Data Warehouse.*
+*Opmerking: Data Warehouse ondersteunt niet alle gevallen van het gebruik van een `exclusion` - of `without` -container bij het gebruik van `AND/OR` . Wanneer het gebruiken van zulk een combinatie, slechts die segmenten die als `A AND NOT B` kunnen worden herschreven, (of **omvat dit kenmerk**en **sluit dit kenmerk**uit) worden gesteund in Data Warehouse.*

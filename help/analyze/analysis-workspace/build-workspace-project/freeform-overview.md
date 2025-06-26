@@ -5,169 +5,322 @@ title: Overzicht van projecten
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: c368ff6c4ac1636a4d1d910b9f1738ff8208fe0a
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1479'
 ht-degree: 1%
 
 ---
 
 # Overzicht van projecten
 
-Met Workspace-projecten kunt u gegevenscomponenten, tabellen en visualisaties combineren om uw analyse te maken en met iedereen in uw organisatie te delen. Voordat u met het eerste project begint, leert u hoe u toegang kunt krijgen tot uw projecten en hoe u deze kunt beheren.
+Met Workspace-projecten kunt u deelvensters, visualisaties en componenten combineren om uw analyse te maken en met iedereen in uw organisatie te delen. Voordat u uw eerste project start, leert u hoe u toegang kunt krijgen tot uw projecten en hoe u deze kunt beheren.
 
-Hier volgt een video over hoe u een Workspace-project kunt maken:
+Selecteer **[!UICONTROL Workspace]** als u projecten wilt openen in Adobe Analytics.  De manager **[!UICONTROL Projects]** maakt een lijst van alle projecten die u bezit of projecten die met u worden gedeeld. De projectmanager met de lijst van het Project is ook de standaardlandingspagina voor Adobe Analytics, tenzij u anders in Voorkeur hebt gevormd.
+
+![ het landen van het Project pagina die de projectenlijst toont.](assets/projects.png)
+
+
+## Titelgebied
+
+Vanuit het titelgebied ➊ kunt u een project maken, een map maken, uw voorkeuren bewerken en een deelvenster met extra tegels weergeven of verbergen.
+
+* Om een linkerpaneel te tonen of te verbergen dat u toestaat om tussen **[!UICONTROL Projects]** en **[!UICONTROL Learning]** te selecteren, ![ spoorlijn ](/help/assets/icons/Rail.svg) selecteren.
+* De titel toont Projecten, naar keuze toegevoegd met een weg aan de omslag u hebt geselecteerd. Bijvoorbeeld [!UICONTROL Projects] > **[!UICONTROL Company Folder]** . U kunt afzonderlijke submaponderdelen selecteren om rechtstreeks naar de specifieke map te gaan.
+* Om tegels voor a [**[!UICONTROL Blank project]**](create-projects.md), [**[!UICONTROL Blank mobile scorecard]**](/help/analyze/mobile-app/create-scorecard.md), **[!UICONTROL Open the documentation]** en **[!UICONTROL Open release notes]** te tonen, selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]**. Om het gebied met tegels te verbergen, selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show less]**.
+* Gebaseerd op wat u selecteert om te tonen, gebruikend [ tonen selecteur ](#show-selector), kunt u voorkeur uitgeven en acties op de huidige omslag uitvoeren zichtbaar in **[!UICONTROL Projects]**:
+
+  | Handeling | Beschrijving |
+  |---|---|
+  | **[!UICONTROL Create project]** | Selecteer om [ tot een nieuw project ](create-projects.md) te leiden. |
+  | **[!UICONTROL Create folder]** | Selecteer om [ tot een nieuwe omslag ](workspace-folders/create-folders.md) te leiden. |
+  | ![ UserAdmin ](/help/assets/icons/UserAdmin.svg) **[!UICONTROL Edit preferences]** | [ geef voorkeur ](/help/analyze/analysis-workspace/user-preferences.md) voor al uw projecten uit. Wanneer de broodkruimel in beperkte ruimte resulteert, maakt deze actie deel uit van ![ Meer ](/help/assets/icons/More.svg) submenu. |
+  | **[!UICONTROL Add projects]** | Selecteer om [ projecten ](workspace-folders/add-projects.md) aan de huidige omslag toe te voegen. Wanneer de broodkruimel in beperkte ruimte resulteert, maakt deze actie deel uit van ![ Meer ](/help/assets/icons/More.svg) submenu. |
+  | **[!UICONTROL Rename folder]** | [ hernoemt ](workspace-folders/manage-folders.md#rename-folders) de huidige omslag. |
+  | **[!UICONTROL Move folder]** | [ verplaatst ](workspace-folders/manage-folders.md#move-folders) de huidige omslag. |
+  | **[!UICONTROL Delete folder]** | [ schrapt ](workspace-folders/manage-folders.md#delete-folders) de huidige omslag. |
+
+
+
+
+## Projectlijst
+
+
+In de projectlijst ➋ worden alle projecten weergegeven die u hebt en die met u zijn gedeeld. De lijst heeft de volgende kolommen:
+
+| Kolom | Beschrijving |
+| --- | --- | 
+| ![ SelectBox ](/help/assets/icons/SelectBox.svg) | Wanneer één of meerdere projecten worden geselecteerd, verschijnt een blauwe actiebar bij de bodem van de interface van het Project. Zie [ Acties ](#actions) voor meer details. |
+| ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een project te begunstigen. |
+| **[!UICONTROL Title and description]** | Om het project uit te geven, selecteer de titelverbinding, die het [ project van Workspace ](/help/analyze/analysis-workspace/home.md) opent. De projecten die met u worden gedeeld worden vermeld met ![ Aandeel ](/help/assets/icons/ShareAlt.svg). Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om een popup menu met meer details op het project te tonen. Selecteer ![ Meer ](/help/assets/icons/More.svg) om een contextmenu met acties te openen. Zie [ Acties ](#actions) voor meer details. |
+| **[!UICONTROL Type]** | Een project van Workspace, a ![ FolderUser ](/help/assets/icons/FolderUser.svg) omslag, of a [ Mobiele Scorecard ](/help/analyze/mobile-app/home.md). |
+| **[!UICONTROL Tags]** | De labels die op het project zijn toegepast. |
+| **[!UICONTROL Scheduled]** | Of een project gepland is om aan ontvangers te worden gemaild. De opties zijn ![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** of ![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Zie [ projectgegevens naar anderen ](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) verzenden. |
+| **[!UICONTROL Shared link (anyone)]** | Of een project met iedereen wordt gedeeld, zelfs met mensen die geen toegang tot Analysis Workspace hebben. De opties zijn ![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Active]** of ![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Inactive]**. Zie [ een project met iedereen (geen vereiste login) delen ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) in [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md) voor meer informatie. |
+| **[!UICONTROL Project Role]** | Uw rol voor het project. Opties zijn: Bewerken, Dupliceren, Weergave. Zie [ de rollen van het Project ](/help/analyze/analysis-workspace/curate-share/curate.md) voor meer informatie. |
+| **[!UICONTROL Report Suite]** | De rapportsuite waaraan het project is gekoppeld. |
+| **[!UICONTROL Owner]** | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
+| **[!UICONTROL Shared with]** | Gebruikers waarmee het project is gedeeld. |
+| **[!UICONTROL Last Modified]** | Datum en tijdstip waarop het project voor het laatst is gewijzigd. |
+| **[!UICONTROL Last Opened]** | Datum en tijdstip waarop het project voor het laatst is geopend. |
+| **[!UICONTROL Component ID]** | De id van de component. |
+| **[!UICONTROL Longest Date Range]** | Het langste datumbereik van de deelvensters of visualisaties in het project. |
+| **[!UICONTROL Number of Queries]** | Het totale aantal vragen in het project. |
+| **[!UICONTROL Location]** | De map waarin het project zich bevindt. |
+
+Beweeg over om het even welke kolomkopbal om ![ te tonen ChevronDown ](/help/assets/icons/ChevronDown.svg) en van het contextmenu te selecteren:
+
+* **[!UICONTROL Sort Ascending]**
+* **[!UICONTROL Sort Descending]**
+* **[!UICONTROL Resize column]**. Er wordt een blauwe lijn weergegeven om u te helpen de grootte van de kolom te wijzigen.
+
+### Handelingen
+
+U kunt acties op één of meerdere projecten nemen gebruikend contextmenu ![ Meer ](/help/assets/icons/More.svg) of de blauwe actiebar.
+
+| Pictogram | Handeling | Beschrijving |
+|:---:| ---|---|
+| ![ CrossSize75 ](/help/assets/icons/Close.svg) | **[!UICONTROL *x *geselecteerd]** | Deselecteer de geselecteerde projecten en mappen en verwijder de blauwe actiebalk. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder een of meer projecten of mappen. U wordt gevraagd om een bevestiging. |
+| ![ Aandeel ](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Een project delen. Zie [ een project ](/help/analyze/analysis-workspace/curate-share/share-projects.md) voor meer informatie delen. |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van een project. Opent de dialoog van de a **[!UICONTROL Rename: *projectnaam *]**. Voer een nieuwe naam in en selecteer **[!UICONTROL Save]**. |
+| ![ Exemplaar ](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Kopieer een of meer projecten. Project krijgt niet dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
+| ![ PinOnff ](/help/assets/icons/PinOff.svg) | **[!UICONTROL Pin]** of **[!UICONTROL Unpin]** | Een of meer projecten of mappen vastzetten of de speld eraf. Vastgezette projecten en omslagen verschijnen bij de bovenkant van de lijst en negeren de sorteervolgorde u specificeert. |
+| ![ ArrowUp ](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL Move up]** | Verplaats een vastgezet project of een omslag omhoog in de projectlijst. |
+| ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL Move down]** | Verplaats een vastgezet project of een omslag neer in de projectlijst. |
+| ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Label een of meer projecten of mappen. Het dialoogvenster **[!UICONTROL Tag Components]** wordt weergegeven om een of meer tags te selecteren. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde projecten of mappen op te slaan. |
+| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** of **[!UICONTROL Unapprove]** | Goedkeuren of goedkeuren van een project ongedaan maken. Alleen beheerders kunnen projecten goedkeuren. |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export CSV]** | Exporteer de geselecteerde projecten naar een CSV-bestand met de naam `Project List.csv` . |
+| ![ ProjectAdd ](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL Add Projects]** | Voeg een of meer projecten toe aan een geselecteerde map. In **[!UICONTROL Add Projects]** kunt u een of meer projecten selecteren. Selecteer **[!UICONTROL Add]** om de projecten aan de omslag toe te voegen. Zie [ projecten aan omslagen ](workspace-folders/add-projects.md#from-inside-a-folder) voor meer informatie toevoegen. |
+| ![ FolderAddTo ](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL Move to]** | Verplaats een of meer geselecteerde projecten naar een map. Selecteer in **[!UICONTROL Select Folder]** de map waarnaar u het geselecteerde project wilt verplaatsen en selecteer **[!UICONTROL Move]** . Zie [ projecten aan omslagen ](workspace-folders/add-projects.md#from-the-project-list) voor meer informatie toevoegen. |
+
+
+
+## Selector tonen
+
+U kunt het uiterlijk van de interface Projecten veranderen met behulp van **[!UICONTROL Show]** kiezers ➌ . De **[!UICONTROL Show]** selecteur bepaalt welke opties op het [ gebied van de Titel ](#title-area) beschikbaar zijn en welke kolommen in de [ lijst van het Project ](#project-list) worden getoond.
+
+* Om de opties beschikbaar voor het [ gebied van de Titel ](#title-area) te veranderen, selecteer **[!UICONTROL Show]** **[!UICONTROL All projects]** of **[!UICONTROL Show]** **[!UICONTROL Folders & Projects]**.
+
+* Om te bepalen welke kolommen voor de [ lijst van het Project ](#project-list) te tonen, selecteer ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) en van de **[!UICONTROL Customize table]** dialoog of unselect kolommen. Selecteer **[!UICONTROL Apply]** om de aanpassing toe te passen. Zie [ lijst van het Project ](#project-list) voor meer details op de kolommen.
+
+## Deelvenster Filter
+
+U kunt de projecten en de omslagen in de [ lijst van het Project ](#project-list) filtreren gebruikend het filterpaneel ➍. Om het gebruik van het filterpaneel te tonen of te verbergen ![ Filter ](/help/assets/icons/Filter.svg).
+
+Het filterdeelvenster bestaat uit de volgende secties.
+
+### Tags
+
+| Tags | Beschrijving |
+|---|---|
+| ![ Markeringen ](assets/projects-filters-tags.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U gebruikt ](/help/assets/icons/Search.svg) *Codes van het Onderzoek* van het 1} Onderzoek {aan onderzoek naar markeringen u wilt gebruiken om te filtreren.![</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal projecten dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
+
+
+### Rapportsuites
+
+| Rapportsuites | Beschrijving |
+|---|---|
+| ![ Reeks van het Rapport ](assets/projects-filters-reportsuites.png){width="300"} | In de sectie **[!UICONTROL Report Suites]** kunt u filteren op rapportsuites. <ul><li>U gebruikt ](/help/assets/icons/Search.svg) *Suites van het Rapport van het Onderzoek 1}* aan onderzoek naar rapportsuites u wilt gebruiken om te filtreren.![</li><li>U kunt meerdere rapportsuite selecteren. Welke rapportsuite beschikbaar is, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**3︎⃣**: Het aantal rapportreeksen beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal projecten dat is gekoppeld aan de specifieke rapportsuite.</li></ul></li></ul> |
+
+
+### Eigenaars
+
+| Eigenaar | Beschrijving |
+|---|---|
+| ![ Eigenaars ](assets/projects-filters-owners.png){width="300"} | In de sectie **[!UICONTROL Owner]** kunt u filteren op eigenaars. <ul><li>U gebruikt ![ Onderzoek ](/help/assets/icons/Search.svg) *eigenaars van het Onderzoek* aan onderzoek naar eigenaars u wilt gebruiken om te filtreren.</li><li>U kunt meerdere eigenaars selecteren. Welke eigenaars beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**3︎⃣**: Het aantal eigenaars beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>4︎⃣: het aantal projecten dat aan de specifieke eigenaar is gekoppeld.</li></ul></li></ul> |
+
+
+### Type
+
+| Type | Beschrijving |
+|---|---|
+| ![ Type ](assets/projects-filters-type.png){width="300"} | In de sectie **[!UICONTROL Type]** kunt u filteren op het type projecten of mappen.<ul><li>U kunt een of meer van de volgende opties selecteren:<ul><li> **[!UICONTROL folder]**</li><li>**[!UICONTROL Workspace project]**</li><li>**[!UICONTROL Mobile scorecard]**</li></ul> <li>U kunt meerdere filters selecteren. Welke andere filters beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**5︎⃣**: Het aantal andere filters beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal projecten dat is gekoppeld aan het specifieke andere filter.</li></ul></li></ul> |
+
+
+### Overige filters
+
+| Overige filters | Beschrijving |
+|---|---|
+| ![ Andere filters ](assets/projects-filters-others.png){width="300"} | Met de sectie **[!UICONTROL Other filters]** kunt u filteren op een ander vooraf gedefinieerd filter.<ul><li>U kunt een of meer van de volgende opties selecteren:<ul><li> **[!UICONTROL Show all]**</li><li>**[!UICONTROL Shared with me]**</li><li>**[!UICONTROL Mine]**</li><li>**[!UICONTROL Approved]**</li><li>**[!UICONTROL Favorites]**</li></ul> Wat u kunt selecteren hangt van uw rol en toestemmingen af.</li><li>U kunt meerdere filters selecteren. Welke andere filters beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**5︎⃣**: Het aantal andere filters beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal projecten dat is gekoppeld aan het specifieke andere filter.</li></ul></li></ul> |
+
+## Zoeken
+
+U gebruikt het gebied van het Onderzoek ➎ om naar projecten en omslagen te zoeken gebruikend het ![ 2} gebied van het Onderzoek {. ](/help/assets/icons/Search.svg) Begin het typen en de [ projectlijst ](#project-list) filters automatisch op uw onderzoeksinput.
+
+In het gedeelte Zoeken worden ook de filters weergegeven die u vanuit het deelvenster Filter hebt toegepast.
+
+* Om een filter te verwijderen, selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) in de filter.
+* Selecteer Alles wissen om alle filters te verwijderen.
+
+Als de ruimte wordt beperkt om de individuele filters te tonen, ziet u **[!UICONTROL Segmenting by *x *filters]**.
+
+* Een filter verwijderen:
+
+   1. Het gebruik **[!UICONTROL *x *filters]**![ ChevronDown ](/help/assets/icons/ChevronDown.svg) opent een contextmenu dat van de soorten filters en de individuele filters een lijst maakt.
+   1. Gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een filter te verwijderen.
+
+
+<!--
+
+# Projects overview
+
+Workspace projects allow you to combine data components, tables and visualizations to craft your analysis and share with anyone in your organization. Before starting your first project, learn about how to access, navigate and manage your projects. 
+
+Here is a video on how to build a Workspace project:
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een project van Workspace ](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} voor een demo video bouwen.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Build a Workspace project](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
-## Projectlijst {#project-list}
+## Project list {#project-list}
 
-Wanneer u voor het eerst naar **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** gaat, worden op de pagina alle projecten weergegeven die u hebt of hebt gedeeld. Deze pagina is ook de bestemmingspagina voor Adobe Analytics, tenzij u eerder een aangepaste openingspagina hebt ingesteld.
+When you first go to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, the page lists all the projects you own or have been shared to you. This page is also the landing page for Adobe Analytics, unless you have previously set a custom landing page. 
 
-De pagina Projecten bevat de volgende informatie:
+The Projects page contains the following information: 
 
-| Element | Beschrijving |
+|  Element  | Description  |
 |---|---|
-| [ geef voorkeur ](/help/analyze/analysis-workspace/user-preferences.md) uit | Beheer instellingen voor Analysis Workspace en de bijbehorende componenten voor alle nieuwe projecten of deelvensters die u maakt. |
-| [ creeer omslag ](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Voeg een nieuwe map of submap toe aan de lijst met projecten en mappen. |
-| [ creeer project ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | Begin een nieuw project van kras of van een rapport. |
-| Meer weergeven | Deze selectie onthult opties om een leeg project of een mobiele scorecard te creëren, [ het bekijken van opleidingsleerprogramma&#39;s ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction), of [ het bekijken versienota&#39;s ](/help/release-notes/latest.md). |
-| ![ toon filters ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | Filters weergeven of verbergen. U kunt filteren op tags, rapportsuite, eigenaars, type (project, map, mobiele scorecard) en andere filters. |
-| ![ Onderzoek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Gebruik het zoekveld om te zoeken naar mappen, Workspace-projecten of mobiele scorecards. |
-| Mappen en projecten tonen | Geef op of u de mapstructuur van projecten wilt weergeven. Voor meer informatie, zie [ Ongeveer Omslagen in Analytics ](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| ![ pas lijst ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) aan | Dit pictogram staat u toe om de kolommen aan te passen u voor elk project in de projectenlijst ziet. |
+| [Edit preferences](/help/analyze/analysis-workspace/user-preferences.md) | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create.  |
+| [Create folder](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)  | Add a new folder or subfolder to the list of projects and folders. |
+| [Create project](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)  | Start a new project from scratch or from a report.  |
+|  Show more  | This selection reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction), or [viewing release notes](/help/release-notes/latest.md).  |
+| ![Show filters](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | To show or hide filters. You can filter on tags, report suite, owners, type (project, folder, mobile scorecard), and other filters. | 
+| ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Use the search field to search for folders, Workspace projects or mobile scorecards. |
+| Show Folders & Projects| Choose whether to show the folder structure of projects. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+|  ![Customize table](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) | This icon allows you to customize the columns you see for each project in the projects list.  |
 
-De lijst van projecten kan de volgende kolommen tonen:
+The list of projects can display the following columns:
 
-| Kolom | Beschrijving |
+|  Column  | Description  |
 |---|---|
-| [!UICONTROL Name] | Naam van het Workspace-project. Selecteer ![ Info ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) om popup met meer details op een project of een omslag te tonen. Selecteer ![ Meer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) om beschikbare acties te tonen. Zie [ projecten ](#manage-projects) voor meer details beheren. |
-| [!UICONTROL Type] | Wijst erop of deze ingang een project van Workspace, een omslag, of a [ Mobiele scorecard ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/mobapp/home) is. |
-| [!UICONTROL Tags] | Tags die op het project zijn toegepast. |
-| [!UICONTROL Scheduled] | Geeft aan of de projecten volgens de planning per e-mail naar ontvangers moeten worden verzonden. Zie [ projecten van het Programma ](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
-| Gedeelde koppeling (iedereen) | Projecten kunnen met iedereen worden gedeeld, zelfs met mensen die geen toegang hebben tot Analysis Workspace. Deze kolom toont of de projecten op deze manier zijn gedeeld. Zie [ een project met iedereen (geen vereiste login) delen ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md) voor meer informatie. |
-| [ Rol van het Project ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/curate-share/share-projects) | Geeft uw rol voor het project aan: eigenaars, bewerken, dupliceren, weergeven. |
-| [!UICONTROL Report suite] | De rapportsuite waaraan het project is gekoppeld. |
-| [!UICONTROL Owner] | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
-| [!UICONTROL Shared with] | Gebruikers waarmee het project is gedeeld. |
-| [!UICONTROL Last Modified] | Datum en tijdstip waarop het project voor het laatst is gewijzigd. |
-| [!UICONTROL Last Opened] | Datum en tijdstip waarop het project voor het laatst is geopend. |
-| [!UICONTROL Last Used] | Datum en tijdstip waarop het project voor het laatst is gebruikt. |
-| [!UICONTROL Project ID] | De id van het project. |
-| [!UICONTROL Longest Date Range] | Het langste datumbereik van het project. |
-| [!UICONTROL Number of Queries] | Het totale aantal vragen in het project. |
-| [!UICONTROL Location] | De map waarin het project zich bevindt. |
+| [!UICONTROL Name]  | Name of the Workspace project. Select ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) to show a popup with more details on a project or folder. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) to show actions available. See [Manage projects](#manage-projects) for more details.  | 
+| [!UICONTROL Type] | Indicates whether this entry is a Workspace project, a folder, or a [Mobile scorecard](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
+| [!UICONTROL Tags]  |Tags that were applied to the project.  |
+| [!UICONTROL Scheduled] | Indicates whether projects are scheduled to be emailed to recipients. See [Schedule projects](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
+| Shared link (anyone) | Projects can be shared with anyone, even with people who don't have access to Analysis Workspace. This column shows whether projects have been shared in this way. See [Share a project with anyone (no login required)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md) for more information. |
+| [Project Role](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/share-projects) | Indicates your role for the project - owners, edit, duplicate, view. |
+| [!UICONTROL Report suite] | The report suite that the project is associated with. |
+| [!UICONTROL Owner]  | The person who created this project (either you or someone who shared the project with you.)  |
+| [!UICONTROL Shared with]  | Users that the project has been shared with.  |
+| [!UICONTROL Last Modified]  | Date and time when the project was last modified.  |
+| [!UICONTROL Last Opened]  | Date and time when the project was last opened.  |
+| [!UICONTROL Last Used] | Date and time when the project was last used. | 
+| [!UICONTROL Project ID]  | The ID of the project.  |
+| [!UICONTROL Longest Date Range]  | The longest date range of the project.  |
+| [!UICONTROL Number of Queries]  | The total number of queries contained in the project.  |
+| [!UICONTROL Location]  | The folder where the project resides.  |
 
-### Projecten beheren
+### Manage projects
 
-Om projecten te beheren, selecteer één of meerdere projecten van de projectlijst.
+To manage projects, select one or more projects from the project list. 
 
-In de blauwe actiebalk kunt u de volgende handelingen selecteren:
+From the blue action bar, you can select the following actions:
 
-| Handeling | Beschrijving |
+| Action | Description | 
 |---|---|
-| ![ Schrapping ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) | Als deze optie is geselecteerd, wordt u gevraagd de verwijdering van een Workspace-project of een Mobile-scorecard te bevestigen. Selecteer **[!UICONTROL OK]** om te bevestigen. |
-| ![ Deel ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) Delen | Met deze handeling kunt u uw project delen. Zie [ projecten van het Aandeel ](../curate-share/share-projects.md). |
-| ![ anders noemen ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) anders noemt | Opent omhoog a **[!UICONTROL Rename: *naam *]**&#x200B;dialoog om uw project anders te noemen. Selecteer **[!UICONTROL Save]**&#x200B;om de nieuwe naam voor het project op te slaan. |
-| ![ Exemplaar ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) Exemplaar | Onmiddellijk kopieert het geselecteerde project aan een nieuw project met naam *originele naam* (Exemplaar). |
-| ![ Vastzetten ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) Vastzetten | Zet het project onmiddellijk aan de bovenkant van de lijst. Voegt de ![ Vastzetten ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) indicator toe. |
-| ![ markering ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) markering | Hiermee opent u het dialoogvenster **[!UICONTROL Tag Project]** . U kunt een bestaande tag selecteren of nieuwe tags toevoegen. Selecteer **[!UICONTROL Save]** om de labels voor het project op te slaan. |
-| ![ (Niet goedkeuren-)Goedkeuren ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg) | hecht zijn goedkeuring aan of keurt het project af. |
-| ![ CSV van de Uitvoer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) Uitvoer CSV | Hiermee wordt direct een bestand gedownload dat een lijst met door komma&#39;s gescheiden waarden van de projecten bevat. |
-| ![ Beweging aan ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Beweging aan | Met deze handeling kunt u het project naar een map verplaatsen. Selecteer in het dialoogvenster **[!UICONTROL Select Folder]** een map in de lijst **[!UICONTROL Folder]** en selecteer **[!UICONTROL Move]** . |
+| ![Delete](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) Delete | When selected, a confirmation dialog prompts you to confirm the deletion of a Workspace project or Mobile scorecard. Select **[!UICONTROL OK]** to confirm. |
+| ![Share](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) Share | This action allows you to share your project. See [Share projects](../curate-share/share-projects.md).|
+| ![Rename](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) Rename | Opens up a **[!UICONTROL Rename: *name*]** dialog to rename your project. Select **[!UICONTROL Save]** to save the new name for the project. |
+| ![Copy](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) Copy | Immediately copies the selected project to a new project with name *original name* (Copy).  |
+| ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) Pin | Immediately pins the project to the top of the list. Adds the ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) indicator. |
+| ![Tag](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) Tag | Opens up the **[!UICONTROL Tag Project]** dialog. You can select an existing tag or add new tags. Select **[!UICONTROL Save]** to save the tags for the project. |
+| ![(Un-)Approve](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg) Approve or Unapprove |  Approves or unapproves the project.  |
+| ![Export CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) Export CSV | Immediately downloads a file containing a comma-separated value list of the projects. |
+| ![Move to](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Move to | This action allows you to move the project to a folder. In the **[!UICONTROL Select Folder]** dialog, select a folder from the **[!UICONTROL Folder]** list, and select **[!UICONTROL Move]**. | 
 
 
-## Menubalk {#menu-bar}
+## Menu bar {#menu-bar}
 
-Binnen een project, verstrekt het menu opties om uw project te beheren, componenten toe te voegen, hulp, en meer vinden. U kunt tot elke menuoptie ook toegang hebben door toetsenbord [ kortere weg ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys).
+Within a project, the menu provides options for managing your project, adding components, finding help, and more. You can also access each menu option by keyboard [shortcuts](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys).
 
 
-| Menu-item | Beschrijving |
+|  Menu item  | Description  |
 |---|---|
-| Project | Dit menu omvat gemeenschappelijke acties voor projectbeheer, met inbegrip van Nieuw, Open, sparen, sparen als, en [ sparen als bedrijfrapport ](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [ download CSV en PDF ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/curate-share/download-send) opties laten u toe om gegevens van Workspace uit te voeren. [ Info &amp; de Montages van het Project ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) biedt vele opties voor het beheren van uw project aan. |
-| Bewerken | De laatste handeling ongedaan maken of opnieuw uitvoeren. Met Alles wissen wordt het project opnieuw ingesteld op een leeg beginpunt. |
-| Invoegen | Nieuwe deelvensters of visualisaties invoegen vanuit dit menu. U kunt ook nieuwe deelvensters en visualisaties invoegen vanuit de linkerrails. |
-| [Onderdelen](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) | Creeer nieuw segment, berekende metrisch, datumwaaier, of waakzame componenten van uw project. U kunt ook nieuwe componenten maken vanaf de linkerspoorstaaf. Als uw componentendefinities onlangs zijn veranderd, verfrist Componenten terugwint de recentste definities. |
-| [ Aandeel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files) | U kunt PDF-/CSV-projecten trainen, delen en plannen voor ontvangers in uw organisatie. |
-| Help | De hulpdocumentatie van de toegang, video&#39;s, en de gemeenschap van Experience League van Analytics [&#128279;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Beheer het zicht van de uiteinden van Workspace evenals [ debugger ](https://developer.adobe.com/analytics-apis/docs/2.0/). Vind details over Workspace en factoren die projectprestaties [&#128279;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance) beïnvloeden. |
-| Knop Delen of Eigenaar | Als u in een Eigen bent of voor het project uitgeeft, geeft de knoop van het Aandeel in top-right u met één klik toegang om uw projectontvangers te beheren. Als u in een Duplicaat of rol van de Mening voor het project bent, ziet u de naam van de projecteigenaar. |
+|  Project  | This menu includes common actions for project management, including New, Open, Save, Save as, and [Save as company report](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). You can also refresh the entire project to retrieve the most recent data and definitions by clicking Refresh Project. [Download CSV and PDF](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/download-send) options enable you to export data from Workspace. [Project Info & Settings](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) offers many options for managing your project.  |
+|  Edit  | Undo or redo your last action. Clear All resets your project to a blank starting point. |
+|  Insert  | Insert new panels or visualizations from this menu. You can also insert new panels and visualizations from the left rail.  |
+|  [Components](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components)  | Create new segment, calculated metric, date range, or alert components from your project. You can also create new components from the left rail. If your component definitions have recently changed, Refresh Components retrieves the latest definitions. |
+|  [Share](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files)  | Curate, share and schedule PDF/CSV projects to recipients in your organization.  |
+|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Manage the visibility of Workspace tips as well as the [debugger](https://developer.adobe.com/analytics-apis/docs/2.0/). Find details about Workspace and factors that impact project [performance](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance).  |
+|  Share button or Owner  | If you are in an Own or Edit for the project, the Share button in the top-right gives you one-click access to manage your project recipients. If you are in a Duplicate or View role for the project, you see the project owner's name. |
 
-### Projectinfo en -instellingen {#info-settings}
+### Project Info & Settings {#info-settings}
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
->title="Herhalingsinstanties tellen"
->abstract="Geeft aan of herhalingsinstanties worden geteld in rapporten.<br/><br/> Nota: dit het plaatsen is niet op Stroom of Vallout visualisaties van toepassing."
+>title="Count repeat instances"
+>abstract="Specifies whether repeat instances are counted in reports.<br/><br/>Note: this setting does not apply to Flow or Fallout visualizations."
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
->title="Herhalingsinstanties tellen"
->abstract="Geeft aan of herhalingsinstanties worden geteld in rapporten.<br/> Nota: dit het plaatsen is niet op Stroom of Vallout visualisaties van toepassing."
+>title="Count repeat instances"
+>abstract="Specifies whether repeat instances are counted in reports.<br/>Note: this setting does not apply to Flow or Fallout visualizations."
 
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
->title="Opmerkingen toestaan"
->abstract="Als deze optie is ingeschakeld, is er een opmerkingsgebied beschikbaar in de rechterspoorlijn van het project in Analysis Workspace."
+>title="Allow commenting"
+>abstract="When enabled, a comments area is available in the right rail of the project in Analysis Workspace."
 
 
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & settings]** biedt informatie op projectniveau over het actieve project.
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & settings]** provides project-level information on the currently active project.
 
-![ Info van het Project ](assets/projectinfo.png)
+![Project Info](assets/projectinfo.png)
 
-Voorbeelden van instellingen:
+Settings include:
 
-| Instelling | Beschrijving |
+|  Setting  | Description  |
 |---|---|
-| Projectnaam | De naam die aan het project is gegeven. U kunt dubbelklikken op de naam om deze te bewerken. |
-| Eigenaar | Naam eigenaar project |
-| Laatst gewijzigd | Datum van laatste wijziging van het project. |
-| Tags | Hiermee geeft u alle tags weer die op een project zijn toegepast om het eenvoudiger te categoriseren. |
-| Beschrijving | Een beschrijving is nuttig om het doel van een project te verduidelijken. U kunt dubbelklikken op de beschrijving om deze te bewerken. |
-| Herhalingsinstanties tellen | Geeft aan of herhalingsinstanties worden geteld in rapporten. Met deze instelling (indien geactiveerd) worden bijvoorbeeld meerdere weergaven van opeenvolgende pagina&#39;s op dezelfde pagina behandeld als weergaven van meerdere pagina&#39;s. Als deze optie is uitgeschakeld, worden ze beschouwd als een weergave van één pagina (deze instelling heeft alleen invloed op bepaalde maateenheden, zoals Bezoeken één pagina). **Nota**: Dit het plaatsen is niet op Stroom of Vallout visualisaties van toepassing. |
-| [ toon annotaties ](/help/analyze/analysis-workspace/components/annotations/overview.md) | Geef op of annotaties in het project moeten worden weergegeven. |
-| [ het kleurenpalet van het Project ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) | U kunt het categorische kleurenpalet veranderen dat in Workspace wordt gebruikt, door uit paletten te kiezen die uit-van-de-doos die voor kleurenblindheid zijn geoptimaliseerd, of door uw douanepalet te specificeren. Deze functie is van invloed op veel dingen in Workspace, waaronder de meeste visualisaties. |
-| [Dichtheid weergeven](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Hiermee kunt u meer gegevens op het scherm zien door de verticale opvulling van de linkerspoorstaaf, vrije-vormtabellen en cohortabellen te verminderen. |
+|  Project Name  | The name given to the project. You can double-click the name to edit it.  |
+|  Owner  | Project owner name  |
+|  Last Modified  | Date of last modification to the project.  |
+|  Tags  |Lists any tags applied to a project for easier categorization.  |
+|  Description  | A description is useful for clarifying the purpose of a project. You can double-click the description to edit it.  |
+|  Count repeat instances  | Specifies whether repeat instances are counted in reports. For example, this setting (when activated) treats multiple consecutive pages views to the same page as multiple page views. With it off, they count as a single page view (this setting only affects certain metrics, such as Single Page Visits). **Note**: This setting does not apply to Flow or Fallout visualizations.  |
+| [Show annotations](/help/analyze/analysis-workspace/components/annotations/overview.md) | Specify whether to show annotations in the project or not. |
+|  [Project color palette](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes)  | You can change the categorical color palette used in Workspace, by choosing from out-of-the-box palettes that have been optimized for color blindness, or by specifying your custom palette. This feature affects many things in Workspace, including most visualizations.  |
+| [View Density](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Lets you see more data on the screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. |
 
-## Linkerspoor {#left-rail}
+## Left rail {#left-rail}
 
-Binnen een project zijn verschillende pictogrammen beschikbaar in de linkerspoorstaaf, en elk vertegenwoordigt belangrijke hulpmiddelen om uw project te bouwen:
+Within a project, various icons are available in the left rail, and each represents important tools to build your project:
 
-| Pictogram | Functionaliteit |
+| Icon | Functionality |
 |---|---|
-| ![ paneelpictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [ Panelen ](/help/analyze/analysis-workspace/c-panels/panels.md) |
-| ![ visualisatiepictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphBarVertical_18_N.svg) | [Visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| ![ componentenpictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) | [Onderdelen](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
-| ![ pictogram van het gegevenswoordenboek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Bookmark_18_N.svg) | [ Woordenboek van Gegevens ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) |
-| ![ toc pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ViewList_18_N.svg) | [ Inhoudsopgave ](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) |
+| ![panels icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [Panels](/help/analyze/analysis-workspace/c-panels/panels.md) |
+| ![visualizations icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphBarVertical_18_N.svg) |[Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
+| ![components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) | [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
+| ![data dictionary icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Bookmark_18_N.svg) | [Data dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) |
+| ![toc icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ViewList_18_N.svg) | [Table of contents](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) |
 
-Componenten (afmetingen, metriek, segmenten, datumbereiken) in de linkerraster hebben betrekking op de weergave van de gegevens van het actieve deelvenster. Een blauwe rand geeft het actieve paneel aan en de actieve rapportsuite wordt boven aan de componentrail weergegeven.
+Components (dimensions, metrics, segments, date ranges) in the left rail relate to the active panel data view. A blue border identifies the active panel, and the active report suite is listed at the top of the component rail.
 
 
-## Klikken met rechtermuisknop
+## Right-click menu
 
-Hier volgt een video over het gebruik van het snelmenu in Analysis Workspace:
+Here is a video on using the right-click menu in Analysis Workspace:
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruikend het contextmenu ](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} voor een demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using the context menu](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
-## Projectcanvas {#canvas}
+## Project canvas {#canvas}
 
-Het projectcanvas is waar u panelen, lijsten, visualisaties, en componenten samenbrengt om uw analyse te bouwen. Een project kan vele panelen bevatten, en elk paneel kan vele lijsten en visualisaties bevatten.
+The project canvas is where you bring together panels, tables, visualizations, and components to build your analysis. A project can contain many panels, and each panel can contain many tables and visualizations.
 
-Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van een tijdsperiode, een rapport of een analyse. Het actieve deelvenster heeft een gekleurde rand en bepaalt welke componenten beschikbaar zijn in de linkerspoorstaaf.
+Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case. The active panel has a colored border around it, and determines what components are available in the left rail.
 
-Afhankelijk van het uitgangspunt koos u voor uw projecten, hebt u of a [ vrije lijst ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) of a [ leeg paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/blank-panel) in het canvas om met te beginnen. De snelste manier om te beginnen met analyseren is een of meerdere componenten te selecteren en deze gewoon naar het projectcanvas te slepen. Er wordt automatisch een tabel met gegevens voor u gerenderd. [ Leer meer ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) over de verschillende opties om een lijst te bouwen, of hefboomwerking het beschikbare [ opleidingsleerprogramma ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/home) voor meer begeleiding bij de bouw van uw eerste project.
+Depending on the starting point you chose for your projects, you either have a [freeform table](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) or a [blank panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) in the canvas to begin with. The quickest way to start analyzing is to select one or many components and simply drag & drop them into the project canvas. A table of data is rendered automatically for you. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) about the different options for building a table, or leverage the available [training tutorial](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) for more guidance on building your first project.
 
 ![](assets/canvas.png)
+
+-->

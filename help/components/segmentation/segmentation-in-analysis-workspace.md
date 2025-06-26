@@ -1,19 +1,23 @@
 ---
 description: Meer informatie over segmentatiefuncties in Analysis Workspace.
-title: Segmentatiefuncties in Analysis Workspace
+title: Segmenteringsfuncties in Analysis Workspace
 feature: Segmentation
 exl-id: d8bf7d36-32d7-4652-b744-7cc915d94b79
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 19%
+source-wordcount: '41'
+ht-degree: 0%
 
 ---
 
-# Segmentatiefuncties in Analysis Workspace
+# Segmenteringsfuncties in Analysis Workspace
 
-Meer informatie over segmentatiefuncties in Analysis Workspace.
+Buiten het [ standaardgebruik van segmenten ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) in Analysis Workspace, zijn de volgende eigenschappen beschikbaar:
 
-[Segmentvergelijking (segment-IQ)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=nl-NL)
+* [Segmentvergelijking](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-[Segmenten toepassen in Fallout-analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=nl-NL)
+* [ pas segmenten in Analyse van de Uitval toe ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)
+
+>[!MORELIKETHIS]
+>
+>[ de segmenten van het Gebruik ](segmentation-workflow/t-seg-apply.md)

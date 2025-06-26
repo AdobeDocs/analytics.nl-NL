@@ -3,9 +3,9 @@ title: Beste werkwijzen voor segmentering
 description: Maak optimale segmenten die gegevens efficiënt retourneren.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 De complexe segmenten zijn vaak noodzakelijk om gewenste gegevens te verkrijgen. Als complexe segmenten inefficiënt zijn en in een grote rapportsuite worden gebruikt, duurt het aanzienlijk langer om rapporten uit te voeren. Houd rekening met de volgende bronnen wanneer u een segment maakt of bewerkt om de complexiteit te minimaliseren.
 
-## Gebruik de operator &#39;Bevat&#39; alleen als laatste redmiddel
+## Alleen de operator `Contains` gebruiken als laatste redmiddel
 
-De operator &#39;Bevat&#39; is een van de meest verwerkingsintensieve onderdelen die worden gesegmenteerd, omdat de gehele inhoud van elke waarde moet worden geanalyseerd. U kunt ook andere operatoren gebruiken, zoals &#39;Begint met&#39; of &#39;Eindigt met&#39;, als de gewenste waarden zich aan het begin of einde van een tekenreeks bevinden.
+De [**[!UICONTROL Contains]**exploitant ](/help/components/segmentation/seg-reference/seg-operators.md) is één van de meest verwerkings-intensieve eigenschappen in segmentatie, aangezien de exploitant de volledige inhoud van elke waarde moet analyseren. U kunt ook andere operatoren gebruiken, zoals **[!UICONTROL Starts with]**of **[!UICONTROL Ends with]**, als de gewenste waarden zich aan het begin of einde van een tekenreeks bevinden.
 
-Als &quot;bevat&quot;exploitant in een segment een groot aantal resultaten terugkeert, typisch tijden uit het rapport. Als u bijvoorbeeld een segment hebt gemaakt waarin `Referrer equals "."`, doorzoekt het segment de inhoud van elke waarde. Gebruik in plaats hiervan de operator &#39;Exists&#39;.
+Als een **[!UICONTROL Contains]** exploitant in een segment een groot aantal resultaten terugkeert, typisch tijden uit het rapport. Als u bijvoorbeeld een segment hebt gemaakt waarin **[!UICONTROL Referrer]** **[!UICONTROL equals]** `"."` staat, zoekt het segment door de inhoud van elke waarde. Gebruik in plaats hiervan de operator **[!UICONTROL Exists]** .
 
 ## Classificaties gebruiken voor items met groepsdimensies
 
-Als u vele segmentvoorwaarden hebt, kunnen zij segmentprestaties snel degraderen. Bijvoorbeeld: `Page equals X or Page equals Y or Page equals Z` worden herhaald met honderden verschillende waarden. In plaats van deze honderden voorwaarden te schrijven, classificeer alle gewenste waarden in een segment, dan gebruik de geclassificeerde waarde in een segment.
+Als u vele segmentvoorwaarden hebt, kunnen zij segmentprestaties snel degraderen. **[!UICONTROL Page]** **[!UICONTROL equals]** `X` **[!UICONTROL OR]** **[!UICONTROL Page]** **[!UICONTROL equals]** `Y` **[!UICONTROL OR]** **[!UICONTROL Page]** **[!UICONTROL equals]** `Z` wordt bijvoorbeeld herhaald met honderden verschillende waarden. In plaats van deze honderden voorwaarden te schrijven, classificeer alle gewenste waarden in een segment, dan gebruik de geclassificeerde waarde in een segment.
 
 1. Maak een classificatie voor de variabele waarmee u werkt.
 2. Download het classificatiesjabloon en open het in het gewenste spreadsheet of de gewenste teksteditor.

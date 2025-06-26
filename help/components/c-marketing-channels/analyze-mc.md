@@ -1,12 +1,12 @@
 ---
 title: Marketingkanalen analyseren
-description: Leer hoe u de dimensies Marketingkanalen in Workspace gebruikt.
+description: Meer informatie over het gebruik van de dimensies Marketing Channel in Workspace.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 1%
+source-wordcount: '405'
+ht-degree: 0%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Om de doeltreffendheid van de Kanalen van de Marketing voor Attributie en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Om doeltreffendheid van de Kanalen van de Marketing voor Attributie en Adobe Analytics te maximaliseren, hebben wij sommige [ herzien beste praktijken ](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
 >
->Analysebeheerders kunnen marketingkanalen voor hun organisaties beheren, zoals beschreven in [Marketingkanalen beheren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>De beheerders van Analytics kunnen marketing kanalen voor hun organisaties beheren zoals die in [ worden beschreven leiden de Kanalen van de Marketing ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
-U wilt waarschijnlijk weten welke van uw marketingkanalen het meest effectief is en met wie, zodat u uw inspanningen beter kunt richten en een beter rendement op uw marketingdollars kunt krijgen. In Adobe Analytics zijn de dimensies en maatstaven van de Kanalen van de Marketing in Workspace één van de hulpmiddelen die u kunnen helpen de invloed van verschillende kanalen op uw orden, opbrengst, enz. volgen. en geeft u nuttige kanaalinzichten. Hier zijn de afmetingen en de metriek u met betrekking tot de Kanalen van de Marketing kunt gebruiken:
+U wilt waarschijnlijk weten welke van uw marketingkanalen het meest effectief is en met wie, zodat u uw inspanningen beter kunt richten en een beter rendement op uw marketingdollars kunt krijgen. In Adobe Analytics zijn de dimensies en maatstaven van de distributiekanalen in Workspace een van de hulpmiddelen die u kunnen helpen de invloed van verschillende kanalen op uw bestellingen, inkomsten, enz. volgen. en geeft u nuttige kanaalinzichten. Hier zijn de afmetingen en de metriek u met betrekking tot de Kanalen van de Marketing kunt gebruiken:
 
 ![](assets/mc-dims.png)
 
-| Dimension/metrisch | Definitie |
+| Dimension/Metric | Definitie |
 | --- | --- |
 | Marketingkanaal | Dit is de geadviseerde dimensie van de Kanalen van de Marketing aan gebruik. Attributiemodellen kunnen hierop worden toegepast tijdens runtime. Deze dimensie gedraagt zich als laatste de dimensie van het Kanaal van de Aanraking, maar verschillend geëtiketteerd om verwarring te verhinderen wanneer het gebruiken van het met een verschillend attributiemodel. |
 | Laatste aanraakkanaal | Verouderde dimensie, met het laatste aanraakattributiemodel vooraf toegepast en onveranderbaar. |
@@ -52,7 +52,7 @@ De Details van de Kanalen van de marketing duiken dieper in elk kanaal om u spec
 
 ## Kenmerkingsmodellen toepassen
 
-U kunt [Attributie](/help/analyze/analysis-workspace/attribution/overview.md) verschillende toerekeningsmodellen tegelijk toe te passen:
+U kunt [ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md) gebruiken om verschillende attributiemodellen onmiddellijk toe te passen:
 
 ![](assets/mc-viz5.png)
 
@@ -64,4 +64,4 @@ Met het verouderde First-Touch Channel en Last-Touch Channel kunt u een handige 
 
 ![](assets/mc-viz6.png)
 
-Meer informatie over de marketinganalyse op verschillende tabbladen vindt u in deze video: [Analyse op verschillende tabbladen gebruiken om de basismarketingkenmerken in Analysis Workspace te verkennen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=nl-NL).
+Leer meer over dwars-lusje marketing analyse in deze video: [ Gebruikend Cross-tab Analyse om Basis de Marketing Attributie in Analysis Workspace ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html) te onderzoeken.

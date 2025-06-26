@@ -1,9 +1,9 @@
 ---
-description: Beschrijft een gesuggereerde werkschema voor segmenten die met de Bouwer van het Segment worden gecreeerd en door de Manager van het Segment worden geleid.
+description: Beschrijft een voorgestelde werkschema voor segmenten die met de bouwer van het Segment worden gecreeerd en door de manager van het Segment worden geleid.
 title: Overzicht van de segmentatieworkflow
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 7%
@@ -22,11 +22,11 @@ In dit artikel wordt een voorgestelde workflow beschreven om segmenten te maken 
 | 3 | [Segmenten maken](/help/components/segmentation/segmentation-workflow/seg-build.md) | Maak en bewerk segmenten voor gebruik in alle analysemogelijkheden. <br/> zie [ Opeenvolgende Segmenten ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) bouwen voor hoe te om segmenten met de DEN exploitant te bouwen. |
 | 4 | [Segmenten een label geven](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Segmenten labelen voor eenvoudige organisatie en delen. Zie hoe u labels kunt plannen en toewijzen voor eenvoudige en geavanceerde zoekopdrachten en organisatie. |
 | 5 | [Segmenten goedkeuren](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Goedkeuren van segmenten om deze canonicaal te maken. |
-| 6 | [ de segmenten van het Gebruik ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | U kunt segmenten rechtstreeks toepassen op een rapport, vanuit de segmentcomponenten. |
+| 6 | [ de segmenten van het Gebruik ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | U kunt segmenten van de segmentcomponenten rechtstreeks op een rapport toepassen. |
 | 7 | [Segmenten delen](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Deel uw segmenten met het beoogde publiek in andere analyseprogramma&#39;s en met Adobe Target en de Adobe Experience Cloud. |
 | 8 | [Segmenten filteren](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | Filteren op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld met mij, Favorieten en Goedgekeurd.) |
 | 9 | [ segment van het Teken als favorieten ](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | U kunt segmenten ook als favorieten markeren om ze zo eenvoudig mogelijk te organiseren. |
 
 ## Segmenten beheren
 
-De [ Manager van het Segment ](/help/components/segmentation/segmentation-workflow/seg-manage.md) biedt vele manieren aan om segmenten, zoals het delen, het filtreren, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten te leiden.
+De [ manager van het Segment ](/help/components/segmentation/segmentation-workflow/seg-manage.md) biedt vele manieren aan om segmenten, zoals het delen, het filtreren, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten te leiden.

@@ -1,9 +1,9 @@
 ---
-description: In Segmentbeheer kunt u op verschillende manieren segmenten curven, zoals delen, filteren, labelen, goedkeuren, kopiëren, verwijderen en markeren als favorieten.
+description: De manager van het Segment biedt vele manieren aan om segmenten, zoals het delen, het filtreren, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten te krommen.
 title: Segmenten beheren (Segmentbeheer)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 5819026bd3798cd936094f138cd236b1cb4b278e
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Segmenten beheren
 
 
-U kunt [&#128279;](t-seg-share.md) delen, [ segment ](t-seg-filter.md), [ markering ](seg-tag.md), [ goedkeuren ](seg-approve.md), anders noemen, [ exemplaar ](seg-copy.md), schrappen, de segmenten en merken segmenten als [ favoriet ](t-seg-favorite.md) van een centrale [!UICONTROL Segment] beheersinterface.  Segmenten beheren:
+U kunt ](t-seg-share.md) delen, [ segment ](t-seg-filter.md), [ markering ](seg-tag.md), [ goedkeuren ](seg-approve.md), anders noemen, [ exemplaar ](seg-copy.md), schrappen, de segmenten en merken segmenten als [ favoriet ](t-seg-favorite.md) van een centrale [!UICONTROL Segment] beheersinterface. [ Segmenten beheren:
 
 * Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Segments]** .
 
@@ -68,20 +68,20 @@ Op de filterbalk ➌ worden de actieve segmenten weergegeven die van het filterd
 
 ### Deelvenster Filter
 
-U kunt de lijst van segmenten filtreren gebruikend ![&#128279;](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** linkerpaneel van de Filter  ➍. In het filterdeelvenster worden het type filter en het aantal segmenten weergegeven dat het specifieke filter toepast. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het paneel van de Filter van een knevel te voorzien.
+U kunt de lijst van segmenten filtreren gebruikend ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** linkerpaneel van de Filter ![ ➍. In het filterdeelvenster worden het type filter en het aantal segmenten weergegeven dat het specifieke filter toepast. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het paneel van de Filter van een knevel te voorzien.
 
 Zie [ de lijst van segmenten ](t-seg-filter.md) voor meer informatie filtreren.
 
 
 <!--
 
-The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
+The Segment manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 
-The Analytics Segment Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment Manager. 
+The Analytics Segment manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment manager. 
 
 ![Segments manager](assets/segments-manager.png)
 
-## Access the Segment Manager
+## Access the Segment manager
 
 1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**.
 
@@ -89,9 +89,9 @@ The Analytics Segment Manager shows you all the segments you own and that have b
 
    In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
 
-## Available actions in the Segment Manager
+## Available actions in the Segment manager
 
-In the Segment Manager, you can:
+In the Segment manager, you can:
 
 * [Filter segments](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
 
@@ -111,13 +111,13 @@ In the Segment Manager, you can:
 
 ## Configure columns
 
-You can configure the information displayed for each segment in the Segment Manager by configuring the columns that are displayed.
+You can configure the information displayed for each segment in the Segment manager by configuring the columns that are displayed.
 
-To configure the visible columns in the Segment Manager:
+To configure the visible columns in the Segment manager:
 
 1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**. 
 
-1. In the Segment Manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Segment Manager.
+1. In the Segment manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Segment manager.
 
    The following columns are available:
 
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment Manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=nl-NL) gives a short overview of how to use the Segment Manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

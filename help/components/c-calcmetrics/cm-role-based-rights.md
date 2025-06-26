@@ -1,16 +1,16 @@
 ---
 description: De berekende metrierechten verschillen tussen gebruikers op beheerdersniveau en gebruikers zonder beheerdersrechten.
-title: Berekende metrieke op rol-gebaseerde rechten
+title: Op rollen gebaseerde rechten
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-# Berekende waarden: op rollen gebaseerde rechten
+# Op rollen gebaseerde rechten
 
 De berekende metrierechten verschillen tussen gebruikers op beheerdersniveau en gebruikers zonder beheerdersrechten.
 

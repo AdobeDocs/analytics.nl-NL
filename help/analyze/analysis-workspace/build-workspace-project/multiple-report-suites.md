@@ -4,9 +4,9 @@ description: Leer hoe en waarom u projecten maakt in Workspace met meerdere rapp
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 U kunt projecten in Analysis Workspace maken met gegevens uit meerdere rapportsuite. De reeksen van het rapport worden gekozen op paneelniveau, zodat kunt u een verschillende rapportreeks voor elk paneel binnen het zelfde project van Workspace kiezen.
 
-Deze mogelijkheid is handig als u bijvoorbeeld
+Deze mogelijkheid is handig als u wilt:
 
 * Vergelijk gegevens uit twee verschillende gebieden en de gegevens bevinden zich in twee verschillende rapportsuites. U kunt tabellen en visualisaties maken om de gegevens naast elkaar te vergelijken.
 
@@ -37,16 +37,12 @@ U kunt een rapportsuite op alle deelvensters tegelijk toepassen door met de rech
 
 ## Actief deelvenster
 
-Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats van &quot;inactief panel&quot;. U kunt het actieve deelvenster herkennen aan de lichtblauwe rand eromheen. Als u gewoon in een deelvenster klikt, wordt dat deelvenster omgezet in het actieve deelvenster.
+U kunt het actieve deelvenster herkennen aan de lichtblauwe rand eromheen. Selecteer in een deelvenster om dat deelvenster om te zetten in het actieve deelvenster.
 
 >[!TIP]
+>
 >U kunt slepen en neerzetten in elk deelvenster dat zich in dezelfde rapportsuite bevindt als het actieve deelvenster. Door naar een inactief deelvenster van dezelfde rapportsuite te slepen, wordt het deelvenster actief.
-
-| Taak | Actief deelvenster | Inactief deelvenster |
-| --- | --- | --- |
-| Rapportsuite wijzigen | Ja | Nee |
-| Componenten slepen en neerzetten | Ja | Ja, voor elk deelvenster dat zich in dezelfde rapportsuite bevindt als uw actieve deelvenster. |
-| Visualisaties slepen en neerzetten | Ja | Ja, voor elk deelvenster dat zich in dezelfde rapportsuite bevindt als uw actieve deelvenster. |
+>
 
 ## Werken met meerdere rapportsuites
 
@@ -58,7 +54,9 @@ Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats 
 
 
    >[!NOTE]
+   >
    >Soms wordt een banner weergegeven tijdens het laden van een project (of het overschakelen naar een rapportsuite), waarbij niet alle componenten die in het project zijn opgenomen, in de rapportsuite zijn opgenomen. De ontbrekende componenten worden weergegeven. Volg [ deze instructies ](/help/admin/admin-console/permissions/product-profile.md) om toestemmingen aan de vereiste metriek/afmetingen te plaatsen.
+   >
 
    ![](assets/incompat-rs.png)
 
@@ -73,6 +71,6 @@ Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats 
 
 1. (Optioneel) U kunt ook naar andere componentbuilders van Analytics gaan en ervoor zorgen dat deze nu een label van een rapportsuite tonen die
 
-   * Waar een segment zal worden gecreeerd: [ de Bouwer van het Segment ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=nl-NL).
-   * Waar berekende metrisch zal worden gecreeerd: [ Berekende Metrische Bouwer ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=nl-NL).
-   * Waar een alarm zal worden gebouwd: [ Waakzame Bouwer ](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=nl-NL).
+   * Waar een segment zal worden gecreeerd: [ de bouwer van het Segment ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Waar berekende metrisch zal worden gecreeerd: [ Berekende metrische bouwer ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * Waar een alarm zal worden gebouwd: [ Alert bouwer ](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).

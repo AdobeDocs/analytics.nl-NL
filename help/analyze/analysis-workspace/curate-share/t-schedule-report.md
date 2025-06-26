@@ -5,56 +5,116 @@ title: Projecten plannen
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 2%
+source-wordcount: '361'
+ht-degree: 1%
 
 ---
 
-# Projecten plannen
+# Bestanden naar anderen verzenden
 
-Vanuit de werkruimte **Menu Delen**, kunt u Analysis Workspace-projecten verzenden via e-mail naar geselecteerde ontvangers. Bestanden kunnen in CSV- of PDF-indeling worden verzonden. Nadat u geplande projecten deelt, kunt u de planningsmontages uitgeven om de frequentie, de ontvankelijke lijst, of het dossiertype te wijzigen gebruikend de Geplande Manager van Projecten.
+U kunt Adobe Analytics-rapporten als bestanden via e-mail naar geselecteerde gebruikers verzenden. U kunt bestanden ad hoc verzenden of u kunt bestanden configureren voor verzending volgens een schema. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
 
-## Bestand nu verzenden
+Alle tags die op het project zijn toegepast, worden automatisch toegepast op het exporteren.
 
-Een bestand direct via e-mail naar ontvangers verzenden:
+Andere methodes om de gegevens van Adobe Analytics uit te voeren zijn ook beschikbaar, zoals die in [ wordt beschreven Overzicht van de Uitvoer ](/help/export/home.md).
 
-1. Klik op **[!UICONTROL Share]>[!UICONTROL Export file]**.
+![ verzend dossier ](assets/send-file.png)
+
+## Bestand verzenden
+
+Een bestand via e-mail naar ontvangers verzenden:
+
+1. Selecteer **[!UICONTROL Share]>[!UICONTROL Send file]** .
 1. Geef het bestandstype op:
-   * [!UICONTROL **CSV**]: Kies deze optie als u gegevens in onbewerkte tekst wilt.
-   * [!UICONTROL **PDF**]: Kies deze optie als het gedownloade bestand alle weergegeven (zichtbare) tabellen en visualisaties in het project moet bevatten.
-1. (Optioneel) Voeg een beschrijving toe die u in de e-mail wilt opnemen om uit te leggen welk bestand wordt ontvangen.
+   * [!UICONTROL **CSV**]: Kies deze optie als u onbewerkte-tekstgegevens wilt.
+   * [!UICONTROL **PDF**]: Kies deze optie als u het gedownloade dossier alle getoonde (zichtbare) lijsten en visualisaties in het project wilt bevatten.
+1. (Optioneel) Gebruik **[!UICONTROL Description]** om een beschrijving toe te voegen die u in de e-mail wilt opnemen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
-1. Klik op **[!UICONTROL Send Now]**.
-1. (Optioneel) Klik op **[!UICONTROL Show scheduling options]** om een leveringsschema op te geven.
+1. (Facultatief) selecteer **[!UICONTROL Show scheduling options]** om [ een dossieruitvoer ](#schedule-file-export) te plannen.
+1. Klik op **[!UICONTROL Send Now]**. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
-![Bestand nu verzenden](assets/send-file-now.png)
 
-## Bestand verzenden volgens schema
+## Bestanden exporteren plannen {#schedule}
 
-Een bestand volgens een terugkerend schema via e-mail naar ontvangers verzenden:
+Een bestand volgens een schema per e-mail naar ontvangers verzenden
 
-1. Klik op **[!UICONTROL Share]>[!UICONTROL Schedule file export]**.
-1. Geef het bestandstype op (CSV of PDF).
-1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
+1. Selecteer **[!UICONTROL Share]>[!UICONTROL Schedule file export]** .
+1. Geef het bestandstype op:
+   * [!UICONTROL **CSV**]: Kies deze optie als u onbewerkte-tekstgegevens wilt.
+   * [!UICONTROL **PDF**]: Kies deze optie als u het gedownloade dossier alle getoonde (zichtbare) lijsten en visualisaties in het project wilt bevatten.
+1. (Optioneel) Gebruik **[!UICONTROL Description]** om een beschrijving toe te voegen die u in de e-mail wilt opnemen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
-1. Geef het bereik op waarover de planning moet worden geleverd door Starten op en Eindigen op de invoer te wijzigen. De einddatum moet binnen een jaar zijn vanaf de dag dat het schema wordt opgesteld of gewijzigd.
-1. Geef de leveringsfrequentie op. Elke frequentie maakt verschillende aanpassingen mogelijk.
-1. Klik op **[!UICONTROL Send on schedule]**.
+1. (Slechts voor de klanten van het Schild van de Gezondheidszorg) verstrek een wachtwoord aan [ wachtwoord-beschermt een gepland rapport ](#password-protect-a-new-scheduled-project).
+1. Zorg ervoor dat **[!UICONTROL Show scheduling options]** is geselecteerd.
+1. Selecteer een **[!UICONTROL Frequency]** . U kunt kiezen tussen:
+
+   | Frequentie | Opties |
+   |---|---|
+   | **[!UICONTROL Send hourly]** | Voer een waarde in voor **[!UICONTROL Send every number of hours]** . |
+   | **[!UICONTROL Send daily]** | Selecteer een **[!UICONTROL Daily frequency]**: **[!UICONTROL Send every day]**, **[!UICONTROL Send every weekday]** of **[!UICONTROL Custom frequency]** .<br/> Als u **[!UICONTROL Custom frequency]** selecteert, ga een waarde voor **[!UICONTROL Send every number of days]** in. |
+   | **[!UICONTROL Send weekly]** | Voer een waarde in voor **[!UICONTROL Send every number of weeks]** . Selecteer een **[!UICONTROL Day of week]** . |
+   | **[!UICONTROL Send monthly by day of the week]** | Selecteer een **[!UICONTROL Day of week]** en een **[!UICONTROL Week of month]** . |
+   | **[!UICONTROL Send monthly by day of the month]** | Selecteer een waarde in **[!UICONTROL Send on this day of the month]** . |
+   | **[!UICONTROL Send yearly by day of the month]** | Selecteer een **[!UICONTROL Day of week]** , selecteer een **[!UICONTROL Week of month]** en selecteer een **[!UICONTROL Monthly of year]** . |
+   | **[!UICONTROL Send yearly by specific date]** | Selecteer een **[!UICONTROL Month of year]** en selecteer een waarde in **[!UICONTROL Send on this day of the month]** . |
+
+1. Voer een begindatum in in **[!UICONTROL Starting on]** . Alternatief, selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) om een begindatum van de kalender te kiezen.
+
+1. Voer een einddatum in in **[!UICONTROL Ending on]** . Alternatief, selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) om een einddatum van de kalender te kiezen.
+1. Selecteer **[!UICONTROL Send on schedule]** . Selecteer **[!UICONTROL Cancel]** om te annuleren.
+
+
+## Geplande projectmanager {#manager}
+
+Geplande Analysis Workspace-projecten kunnen worden beheerd vanuit de hoofdinterface via **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]** . Voor meer informatie, zie [ Geplande projecten ](/help/components/scheduled-projects-manager.md).
+
+<!--
+# Schedule projects
+
+From the Workspace **Share menu**, you can send Analysis Workspace projects using email to selected recipients. Files can be sent in CSV or PDF format. After you share scheduled projects, you can edit the schedule settings to modify the frequency, receipient list, or file type using the Scheduled Projects manager.
+
+## Send file now
+
+To send a file immediately to recipients via email:
+
+1. Click **[!UICONTROL Share] > [!UICONTROL Export file]**.
+1. Specify the file type:
+   * [!UICONTROL **CSV**]: Choose this option if you want plain-text data.
+   * [!UICONTROL **PDF**]: Choose this option if you want the downloaded file to contain all the displayed (visible) tables and visualizations in the project.
+1. (Optional) Add a description to include in the email to explain the file being received. 
+1. Add recipients or groups. Email addresses can also be entered. 
+1. Click **[!UICONTROL Send Now]**.
+1. (Optional) Click **[!UICONTROL Show scheduling options]** to specify a delivery schedule.
+
+![Send file now](assets/send-file-now.png)
+
+## Send file on schedule
+
+To send a file on a recurring schedule to recipients via email:
+
+1. Click **[!UICONTROL Share] > [!UICONTROL Schedule file export]**.
+1. Specify the file type (CSV or PDF).
+1. (Optional) Add a description that will be included in the email to explain the file being received. 
+1. Add recipients or groups. Email addresses can also be entered. 
+1. Specify the range the schedule should be delivered over by modifying Starting on and Ending on inputs. The end date must be within a year from the day the schedule is created or modified.
+1. Specify the delivery frequency. Each frequency allows for different customizations. 
+1. Click **[!UICONTROL Send on schedule]**.
 
 ![](assets/send-on-schedule.png)
 
-## Geplande projecten beheren
+## Manage scheduled projects
 
-Wanneer u geplande projecten beheert, kunt u terugkomende projectprogramma&#39;s uitgeven en schrappen:
+When you manage scheduled projects, you can edit and delete recurring project schedules:
 
-* Het bestandstype (.csv of PDF) wijzigen
-* De projectbeschrijving bijwerken
-* Ontvangers toevoegen of verwijderen
-* De frequentie wijzigen
+*  Change the file type (.csv or PDF)
+*  Update the project description
+*  Add or remove recipients
+*  Change the frequency
 
 
-Geplande Analysis Workspace-projecten kunnen worden beheerd onder **Analyse > Componenten > Geplande projecten**.
+Scheduled Analysis Workspace projects can be managed under **Analytics > Components > Scheduled Projects**.
 
-Zie voor meer informatie [Geplande projecten](/help/components/scheduled-projects-manager.md)
+For more information, see [Scheduled projects](/help/components/scheduled-projects-manager.md)
+-->

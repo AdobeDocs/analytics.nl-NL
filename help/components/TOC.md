@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 6%
+source-wordcount: '773'
+ht-degree: 7%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 6%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Analytics Components-handleiding](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -174,7 +174,7 @@ ht-degree: 6%
    + [Stemmetriek](metrics/voice-metrics.md)
    + [Bezoekers met Experience Cloud-id](metrics/visitors-with-ecid.md)
    + [Bezoeken](metrics/visits.md)
-+ Segmentering {#segmentation}
++ Segmentatie {#segmentation}
    + [Segmentatie van analyse](segmentation/seg-home.md)
    + [Segmenten](segmentation/seg-overview.md)
    + [Informatie over segmentcontainers](segmentation/seg-containers.md)
@@ -195,23 +195,23 @@ ht-degree: 6%
       + [Segmenten kopiëren](segmentation/segmentation-workflow/seg-copy.md)
       + [Segmenten beheren](segmentation/segmentation-workflow/seg-manage.md)
       + [Segmenten publiceren naar de Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-      + [Segmenten selecteren en toepassen](segmentation/segmentation-workflow/t-seg-apply.md)
+      + [Segmenten gebruiken](segmentation/segmentation-workflow/t-seg-apply.md)
    + Segmentverwijzing {#segment-reference}
       + [Operatoren](segmentation/seg-reference/seg-operators.md)
       + [Compatibiliteit met Data Warehouse-segmenten](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentrechten per rol](segmentation/seg-reference/seg-rights.md)
       + [Problemen oplossen](segmentation/seg-reference/c-troubleshooting.md)
-   + [Veelgestelde vragen over het beheer van verouderde segmenten](segmentation/seg-transition.md)
+   + [Veelgestelde vragen over oudere segmenten](segmentation/seg-transition.md)
    + [Aanbevolen procedures](segmentation/best-practices.md)
 + Berekende cijfers {#calculated-metrics}
-   + [Berekende en geavanceerde berekende meetgegevens](c-calcmetrics/cm-overview.md)
+   + [Overzicht](c-calcmetrics/cm-overview.md)
    + [Hoe kan ik-video&#39;s](c-calcmetrics/cm-videos.md)
    + Workflow voor berekende metriek {#calcmetric-workflow}
-      + [Workflow voor berekende metriek](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [Berekende waarden maken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Metrische gegevens zoeken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Metrische gegevens samenstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Eenvoudig metrisch maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Een complexere metrische vormgeving](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Berekende maatstaven samenstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Een eenvoudige berekende metrische waarde](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Een complexere berekende metrische waarde](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Een metrische deelname maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Type en attributie metrisch](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Gesegmenteerde metriek](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -224,12 +224,12 @@ ht-degree: 6%
       + [Berekende waarden goedkeuren](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Berekende maatstaven delen](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Berekende cijfers kopiëren](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [Het berekende manager van metriek](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Berekende waarden beheren](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Verwijzing naar cijfers {#calcmetrics-reference}
-      + [Referentie: basisfuncties](c-calcmetrics/cm-reference/cm-functions.md)
-      + [Referentie: geavanceerde functies](c-calcmetrics/cm-reference/cm-adv-functions.md)
+      + [Basisfuncties](c-calcmetrics/cm-reference/cm-functions.md)
+      + [Geavanceerde functies](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Metrische compatibiliteit](c-calcmetrics/cm-compatibility.md)
-      + [Berekende waarden: op rollen gebaseerde rechten](c-calcmetrics/cm-role-based-rights.md)
+      + [Op rollen gebaseerde rechten](c-calcmetrics/cm-role-based-rights.md)
       + [Berekende totalen van metriek](c-calcmetrics/cm-totals.md)
       + [Berekende standaardwaarden](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Virtuele rapportsuites {#virtual-report-suites}

@@ -4,9 +4,9 @@ title: Componenten in Analysis Workspace gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -15,35 +15,26 @@ ht-degree: 0%
 
 Componenten vormen de feitelijke gegevens van elk project in Analysis Workspace. Componenten bestaan uit afmetingen, metriek, segmenten en datumbereiken. U kunt componenten aan een project toevoegen door hen in visualisaties of panelen te slepen.
 
-Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+Zie het [ overzicht van Componenten ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) voor meer informatie over de types van componenten die u kunt toevoegen.
 
 >[!TIP]
 >
->Voor informatie over elke component selecteert u het pictogram Info naast de naam van een component in de linkertrack van Analysis Workspace of raadpleegt u de [Handleiding Analytics Components](/help/components/home.md).
+>Voor informatie over elke component, gebruik ![ InfoOutline ](/help/assets/icons/InfoOutline.svg). Zie [ Info van de Component ](#component-info) voor meer informatie
 
-## Beginnen met het toevoegen van componenten aan een project
+## Componenten aan een project toevoegen
 
-1. [Een project maken in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) als je dat nog niet hebt gedaan.
+1. [ creeer een project in Analysis Workspace ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-1. [Deelvenster toevoegen](/help/analyze/analysis-workspace/c-panels/panels.md) of [een visualisatie toevoegen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) naar het project in Analysis Workspace.
+1. [ voeg een paneel ](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel) toe of [ voeg een visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) aan het project in Analysis Workspace toe. Als u een component aan een leeg project toevoegt, wordt een vrije lijstvisualisatie reeds gecreeerd voor u.
 
-   Als u een component aan een leeg project toevoegt, wordt automatisch een vrije lijstvisualisatie gecreeerd.
+1. Selecteer ![ Kromme ](/help/assets/icons/Curate.svg) **[!UICONTROL Components]** van het knooppaneel. Alle beschikbare componenten worden weergegeven in het linkerdeelvenster. Zie [ Interface ](/help/analyze/analysis-workspace/home.md#interface) voor meer details.
 
-1. Selecteer de **[!UICONTROL Components]** in de linkerspoorstaaf.
+1. Blader naar of zoek naar de component die u wilt toevoegen en sleep deze naar een deelvenster of visualisatie in uw project.
 
-   ![](assets/build-components.png)
+1. U kunt een component naar keuze slepen naar de neerzetzone van het segment in een deelvensterkop. Met dit slepen en neerzetten definieert u de component als een segment en past u het segment toe op alle inhoud in het deelvenster.
+Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te segmenteren, zie [ de streek van de Daling ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [ Overzicht van Comités ](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-1. Blader naar of zoek naar de component die u wilt toevoegen en sleep deze naar een deelvenster of een visualisatie in uw project.
-
-1. (Optioneel) Sleep een component naar de neerzetzone van het segment in een deelvensterkop.
-
-   Segmenten worden toegepast op alle inhoud in het deelvenster.
-
-   Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te filtreren, zie [Valzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Overzicht van deelvensters](/help/analyze/analysis-workspace/c-panels/panels.md).
-
-   ![een segment neerzetten in de neerzetzone](assets/segment-dropzone.png)
-
-1. Voor meer gedetailleerde informatie gaat u verder met een van de volgende secties, afhankelijk van het componenttype dat u toevoegt:
+1. Raadpleeg de volgende secties voor meer informatie:
 
    * [Afmetingen toevoegen aan een project](#add-dimensions-to-a-project)
 
@@ -53,82 +44,221 @@ Voor overzichtsinformatie over de types van componenten kunt u toevoegen, zie [O
 
    * [Datumbereiken toevoegen aan een project](#add-date-ranges-to-a-project)
 
-## Afmetingen toevoegen aan een project
+### Afmetingen toevoegen aan een project
 
-[Dimensionen](/help/components/dimensions/overview.md) zijn variabelen in Adobe Analytics die doorgaans tekenreekswaarden bevatten. Veelvoorkomende afmetingen zijn [Pagina](/help/components/dimensions/page.md), [Verwijzen naar domein](/help/components/dimensions/referring-domain.md)of een [eVar](/help/components/dimensions/evar.md). In tegenstelling tot [cijfers](/help/components/metrics/overview.md) bevatten numerieke waarden die aan een afmeting binden. Een basisrapport toont rijen van koordwaarden (afmeting), tegen een kolom van numerieke waarden (metrisch).
+[ Afmetingen ](/help/components/dimensions/overview.md) zijn variabelen in Adobe Analytics die typisch koordwaarden bevatten. In tegenstelling, [ metriek ](/help/components/c-calcmetrics/cm-overview.md) bevatten numerieke waarden die aan een afmeting binden. Een basisrapport toont rijen van koordwaarden (afmeting), tegen een kolom van numerieke waarden (metrisch).
 
-1. Begin een dimensie aan uw project in Analysis Workspace toe te voegen, zoals beschreven in [Beginnen met het toevoegen van componenten aan een project](#begin-adding-components-to-a-project).
+1. Begin toevoegend een afmeting aan uw project in Analysis Workspace, zoals die in [ wordt beschreven voegt componenten aan een project ](#add-components-to-a-project) toe.
 
 1. Kies een van de volgende methoden om afmetingen toe te voegen en het type gegevens te bepalen dat u wilt analyseren:
 
+   ![ voeg een afmeting ](assets/add-dimension.gif) toe
+
    * Sleep een dimensie naar een visualisatie (zoals een vrije-vormlijst) in Analysis Workspace.
 
-     ![Afmetingen toevoegen aan een project](assets/add-dimensions.png)
+   * Sleep één of meerdere dimensies van het linkerpaneel op de gebied van het segmentdaling om een snel segment tot stand te brengen, zoals die in [ wordt beschreven voegt segmenten aan een project ](#add-filters-to-a-project) toe.
 
-   * Sleep een of meer afmetingen van de linkerspoorstaaf naar de neerzetzone van het segment om een ad-hocsegment te maken, zoals beschreven in [Segmenten toevoegen aan een project](#add-segments-to-a-project).
+1. U kunt desgewenst dimensies en dimensie-items in Analysis Workspace opsplitsen met andere componenten. Voor meer informatie, zie [ de dimensies van de Onderbreking in Workspace ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-     ![een segment neerzetten in de neerzetzone](assets/segment-dropzone.png)
+Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie {de afmetingen van de Voorproef ](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [ de dimensies van de Onderbreking ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), en [ tijd-ontledende dimensies ](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).[
 
-1. (Optioneel) U kunt dimensies en dimensies in Analysis Workspace opsplitsen met andere componenten.
+### Metriek toevoegen aan een project
 
-   Zie voor meer informatie [Afmetingen onderverdelingen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
-
-Ga voor meer informatie over het gebruik van dimensies in Analysis Workspace naar [Voorvertoningsafmetingen](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Afmetingen onderverdelingen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), en [Afmetingen van tijd tot tijd](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
-
-## Metriek toevoegen aan een project
-
-[Metrisch](/help/analyze/analysis-workspace/components/apply-create-metrics.md) kunt u gegevenspunten kwantificeren in Analysis Workspace. Deze worden meestal gebruikt als kolommen in een visualisatie en zijn gekoppeld aan afmetingen.
+Met cijfers kunt u gegevenspunten in Analysis Workspace kwantificeren. Deze worden meestal gebruikt als kolommen in een visualisatie en zijn gekoppeld aan afmetingen.
 
 Om metrisch aan een project in Analysis Workspace toe te voegen:
 
-1. Een metrische waarde toevoegen aan uw project in Analysis Workspace, zoals wordt beschreven in [Beginnen met het toevoegen van componenten aan een project](#begin-adding-components-to-a-project).
+1. Begin metrisch aan uw project in Analysis Workspace toe te voegen, zoals die in [ wordt beschreven voegt componenten aan een project ](#add-components-to-a-project) toe.
+
+
 
 1. Kies een van de volgende methoden om metrisch toe te voegen in Analysis Workspace:
 
+   ![ Toevoegend metrisch ](assets/add-metric.gif)
+
    * Sleep metrisch aan de metrische dalingsstreek in een lege lijst Freeform om te zien dat metrisch over de de datumperiode van het project trended.
 
-     ![Metrisch toevoegen aan een project](assets/add-metrics.png)
-
-   * Sleep metrisch wanneer een afmeting aanwezig is om dat metrisch vergeleken bij elk afmetingspunt te zien.
+   * Sleep metrisch wanneer een afmeting aanwezig is om dat metrisch voor elk afmetingspunt te zien.
 
    * Sleep metrisch bovenop een bestaande metrische kopbal om het te vervangen.
 
-   * Sleep metrisch naast een kopbal om beide metriek naast elkaar te zien.
+   * Sleep metrisch naast de linkerzijde van juiste kant van een bestaande metrische kopbal om nieuwe metrisch toe te voegen.
 
-Ga voor meer informatie over het gebruik van metriek in Analysis Workspace naar [Metrisch](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+   * Sleep metrische boven of onder een bestaande metrische kopbal om metrische overlapping tot stand te brengen.
 
-## Segmenten toevoegen aan een project
 
-[Segmenten](/help/components/segmentation/seg-overview.md) kunt u subsets van bezoekers identificeren op basis van kenmerken of specifieke interacties.
+Voor meer informatie over metriek, zie [ Metriek ](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+
+### Segmenten toevoegen aan een project
+
+[ Segmenten ](/help/components/segmentation/seg-overview.md) staan u toe om ondergroepen van personen, zittingen of gebeurtenissen te identificeren die op kenmerken of specifieke interactie worden gebaseerd.
 
 U kunt segmenten in Analysis Workspace op de volgende manieren gebruiken:
 
-### Segmenten toevoegen aan een deelvenster
-
+* Segmenten toevoegen aan een deelvenster
 Wanneer u segmenten toevoegt aan een deelvenster, worden de segmenten toegepast op alle inhoud in het deelvenster.
+Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te segmenteren, zie [ de streek van de Daling ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [ Overzicht van Comités ](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te filtreren, zie [Valzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Overzicht van deelvensters](/help/analyze/analysis-workspace/c-panels/panels.md).
+* Segmenten toevoegen aan een visualisatie
+Wanneer u segmenten aan een kolom in een vrije-vormlijst toevoegt, zijn de segmenten op alle inhoud binnen de lijstkolom van toepassing. U kunt segmenten ook toevoegen als onderdeel van een uitvalvisualisatie.
 
-### Segmenten toevoegen aan een kolom in een vrije-vormtabel
+* Segmenten in componenten gebruiken
+Wanneer u componenten zoals [ berekende metriek ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) bepaalt, [ annotaties ](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder), of zelfs [ segmenten ](/help/components/segmentation/segmentation-workflow/seg-build.md) kunt u segmenten als deel van de definitie gebruiken.
 
-Wanneer u segmenten aan een kolom in een vrije-vormlijst toevoegt, zijn de segmenten op alle inhoud binnen de lijstkolom van toepassing.
 
-### Segmenten gebruiken bij het maken van berekende metriek
+### Datumbereiken toevoegen aan een project
 
-In de Berekende metrische bouwer, kunt u segmenten binnen uw metrische definitie toepassen.
+[ de waaiers van de Datum ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) bepalen het rapporteringstijdkader in Analysis Workspace, en kunnen op één of meerdere panelen binnen een project en ook op sommige visualisaties (zoals de lijst Freeform) worden toegepast.
 
-Zie voor meer informatie [Gesegmenteerde metriek](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+Elk deelvenster bevat standaard een datumbereik. Er zijn meerdere manieren om een datumbereik voor een deelvenster bij te werken. Een manier om een datumbereik voor een deelvenster in Analysis Workspace bij te werken, is door een component met een datumbereik uit het linkerdeelvenster te slepen:
 
-## Datumbereiken toevoegen aan een project
+1. Naar keuze, voeg een datumwaaier aan uw project in Analysis Workspace toe, zoals die in [ wordt beschreven voegt componenten aan een project ](#add-components-to-a-project) toe.
 
-[Datumbereiken](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) bepaalt het rapporttijdkader in Analysis Workspace, en kan op één of meerdere panelen binnen een project worden toegepast.
+1. Sleep een datumbereik van het linkerdeelvenster naar:
 
-Elk deelvenster bevat standaard een datumbereik. Er zijn meerdere manieren om een datumbereik voor een deelvenster bij te werken. U kunt een datumbereik voor een deelvenster in Analysis Workspace bijwerken door een datumbereikcomponent van de linkertrack te slepen:
+   * Het huidige datumbereik om het datumbereik voor het deelvenster te wijzigen.
 
-1. Beginnen met het toevoegen van een datumbereik aan uw project in Analysis Workspace, zoals beschreven in [Beginnen met het toevoegen van componenten aan een project](#begin-adding-components-to-a-project).
+     ![ Daling een datumwaaier ](assets/add-date-range.gif)
 
-1. Sleep een datumbereik van de linkertrack naar het huidige datumbereik in de rechterbovenhoek van het deelvenster.
+   * Een metrische of afmeting in de visualisatie van een Freeform-tabel. Zie [ de datumwaaiers van het Gebruik ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#use-date-ranges) voor meer informatie.
 
-   ![een datumbereik neerzetten](assets/daterange-drop.png)
+Voor meer informatie over hoe te om datumwaaiers in Analysis Workspace te gebruiken en te beheren, zie [ overzicht van de waaiers van de Datum ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
 
-Zie voor meer informatie over het gebruik van kalenders en datumbereiken in Analysis Workspace [Overzicht van kalender- en datumbereiken](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
+## Componentinformatie
+
+U kunt over om het even welke component bewegen om ![ Meer info ](/help/assets/icons/InfoOutline.svg) te tonen. Als deze optie is geselecteerd, wordt een pop-up weergegeven met aanvullende informatie over de component.
+
+![ Info van de Component ](assets/component-info.png)
+
+Gebaseerd op uw toegangsbeheer, kunt u:
+
+* Heb toegang tot de ![ 2} definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) {voor de component.[!UICONTROL Data dictionary]
+* Heb toegang tot ![ uitgeeft ](/help/assets/icons/Edit.svg) componentenbouwer waar de component wordt bepaald.
+
+
+
+
+<!--
+# Use components in Analysis Workspace
+
+Components make up the actual data of any project in Analysis Workspace. Components consist of dimensions, metrics, segments, and date ranges. You can add components to a project by dragging them into visualizations or panels.
+
+For overview information about the types of components you can add, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+
+>[!TIP]
+>
+>For information about each component, select the Info icon next to a component's name in the left rail of Analysis Workspace, or see the [Analytics Components Guide](/help/components/home.md).
+
+## Begin adding components to a project
+
+1. [Create a project in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) if you haven't already.
+
+1. [Add a panel](/help/analyze/analysis-workspace/c-panels/panels.md) or [add a visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) to the project in Analysis Workspace. 
+
+   If you add a component to a blank project, a freeform table visualization is automatically created.
+
+1. Select the **[!UICONTROL Components]** icon in the left rail.
+
+   ![](assets/build-components.png)
+
+1. Scroll to or search for the component you want to add, then drag it to a panel or visualization within your project. 
+
+1. (Optional) Drag a component to the segment drop zone in a panel header. 
+
+   Segments apply to all content within the panel.
+
+   For information about how you can use the segment drop zone on a panel to filter your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
+
+   ![drop a segment in the drop zone](assets/segment-dropzone.png)
+
+1. For more detailed information, continue with one of the following sections, depending on the component type you are adding:
+
+   * [Add dimensions to a project](#add-dimensions-to-a-project)
+
+   * [Add metrics to a project](#add-metrics-to-a-project)
+
+   * [Add segments to a project](#add-segments-to-a-project)
+
+   * [Add date ranges to a project](#add-date-ranges-to-a-project)
+
+## Add dimensions to a project
+
+[Dimensions](/help/components/dimensions/overview.md) are variables in Adobe Analytics that typically contain string values. Common dimensions include [Page](/help/components/dimensions/page.md), [Referring domain](/help/components/dimensions/referring-domain.md), or an [eVar](/help/components/dimensions/evar.md). In contrast, [metrics](/help/components/metrics/overview.md) contain numeric values that tie to a dimension. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
+
+1. Start adding a dimension to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
+
+1. Choose one of the following methods to add dimensions and determine the type of data you want to analyze:
+
+   * Drag a dimension to a visualization (such as a freeform table) in Analysis Workspace.
+
+     ![Add dimensions to a project](assets/add-dimensions.png)
+   
+   * Drag one or more dimensions from the left rail onto the segment drop zone to create an ad hoc segment, as described in [Add segments to a project](#add-segments-to-a-project).
+
+     ![drop a segment in the drop zone](assets/segment-dropzone.png)
+
+1. (Optional) You can break down dimensions and dimension items in Analysis Workspace with other components. 
+
+   For more information, see [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+
+For more information about how to use dimensions in Analysis Workspace, see [Preview dimensions](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), and [Time-parting dimensions](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
+
+## Add metrics to a project
+
+[Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md) allow you to quantify data points in Analysis Workspace. They are most commonly used as columns in a visualization and tied to dimensions.
+
+To add a metric to a project in Analysis Workspace:
+
+1. Start adding a metric to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
+
+1. Choose one of the following methods to add a metric in Analysis Workspace:
+
+   * Drag a metric to the metric drop zone in an empty Freeform table to see that metric trended over the project's date period. 
+
+     ![Add a metric to a project](assets/add-metrics.png)
+
+   * Drag a metric when a dimension is present to see that metric compared to each dimension item. 
+
+   * Drag a metric on top of an existing metric header to replace it.
+
+   * Drag a metric next to a header to see both metrics side-by-side.
+
+For more information about how to use metrics in Analysis Workspace, see [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+
+## Add segments to a project
+
+[Segments](/help/components/segmentation/seg-overview.md) allow you to identify subsets of visitors based on characteristics or specific interactions.
+
+You can use segments in Analysis Workspace in any of the following ways:
+
+### Add segments to a panel
+
+When you add segments to a panel, the segments apply to all content within the panel.
+
+For information about how you can use the segment drop zone on a panel to filter your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
+
+### Add segments to a column in a freeform table
+
+When you add segments to a column in a freeform table, the segments apply to all content within the table column.
+
+### Use segments when creating calculated metrics
+
+In the Calculated metric builder, you can apply segments within your metric definition. 
+
+For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+
+## Add date ranges to a project
+
+[Date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) determine the reporting time frame in Analysis Workspace, and can be applied to one or more panels within a project.
+
+Each panel includes a date range by default. There are multiple ways to update a date range for a panel. One way to update a date range for a panel in Analysis Workspace is to drag a date range component from the left rail:
+
+1. Start adding a date range to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
+
+1. Drag a date range from the left rail onto the current date range in the upper-right portion of the panel.
+
+     ![drop a date range](assets/daterange-drop.png)
+
+For more information about how to use calendars and date ranges in Analysis Workspace, see [Calendar and date ranges overview](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
+
+-->

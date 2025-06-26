@@ -1,42 +1,66 @@
 ---
 title: Annotaties weergeven
-description: Annotaties weergeven in Workspace.
+description: Annotaties bekijken in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
 
 # Annotaties weergeven
 
-Annotaties worden iets anders weergegeven, afhankelijk van het feit of ze één dag of een datumbereik beslaan.
+Annotaties worden iets anders weergegeven, afhankelijk van de locatie waar ze worden weergegeven en van het feit of ze één dag of een datumbereik beslaan.
 
-## Annotaties weergeven in lijngrafieken of tabellen
+## Annotaties weergeven in Workspace
 
-| Datum | Weergave |
+| Visualisatie <br/> Type | Beschrijving |
 | --- | --- |
-| **Eén dag** | ![](assets/single-day.png)<p>Wanneer u de aanwijzer boven de annotatie houdt, kunt u de details van de annotatie bekijken. U kunt deze bewerken door het penpictogram te selecteren of door de annotatie te verwijderen:<p> ![](assets/hover.png) |
-| **Datumbereik** | Het pictogram verandert en wanneer u de muisaanwijzer op het pictogram plaatst, wordt het datumbereik weergegeven.<p>![](assets/multi-day.png)<p>Wanneer u deze optie selecteert in het lijndiagram, worden de metagegevens van de annotatie weergegeven en kunt u deze bewerken of verwijderen:![](assets/multi-hover.png)<p>In een tabel wordt op elke datum in het datumbereik een pictogram weergegeven.<p>![](assets/multi-day-table.png) |
-| **Overlappende annotaties** | Op dagen waarop meerdere annotaties zijn gekoppeld, wordt het pictogram weergegeven in een grijze kleur.<p>![](assets/grey.png)<p>Wanneer u de cursor boven het grijze pictogram houdt, worden alle overlappende annotaties weergegeven:<p>![](assets/overlap.png) |
+| **Lijn **<br/>**Enige dag** | Wanneer u ![ ](/help/assets/icons/Annotate.svg) in een lijnvisualisatie selecteert annoteert, ziet u popup met de annotatiedetails.<br/>![ Annotatie enige dag ](assets/annotation-single-day.png)<br/> om de annotatie in de [ Bouwer van de Annotatie uit te geven ](create-annotations.md#annotation-builder) uitgezocht uitgeeft ![ ](/help/assets/icons/Edit.svg). Om de annotatie te schrappen, uitgezochte ![ Schrapping ](/help/assets/icons/Delete.svg). |
+| **waaier van de Lijn **<br/>**Datum** | Wanneer u ![ AnnotateRange ](/help/assets/icons/AnnotateRange.svg) selecteert ziet u popup met de annotatiedetails en een lijn bij de bodem die op de datumwaaier wijzen.<br/>![ waaier van de Annotatie ](assets/annotation-range.png) om de annotatie in de [ Bouwer van de Annotatie uit te geven ](create-annotations.md#annotation-builder) uitgezocht uitgeeft ![ ](/help/assets/icons/Edit.svg). Om de annotatie te schrappen, uitgezochte ![ Schrapping ](/help/assets/icons/Delete.svg). |
+| **Vrije-vormentabel** | In een tabel met vrije vorm hebt u toegang tot alle annotaties via de knop Annotaties rechtsboven in de visualisatie. Selecteer ![ annoteren ](/help/assets/icons/Annotate.svg) om a (het scrollen lijst) van alle annotaties te zien.<br/>![ de lijst van Annotaties ](assets/annotations-table.png)<br/> voor elke annotatie, kunt u ![ selecteren uitgeeft ](/help/assets/icons/Edit.svg) om de annotatie in de [ Bouwer van de Annotatie ](create-annotations.md#annotation-builder) uit te geven en ![ Schrapping ](/help/assets/icons/Delete.svg) om de annotatie te schrappen. |
 
 {style="table-layout:auto"}
 
-## Annotaties weergeven in een .pdf-bestand
+## Annotaties weergeven in een PDF
 
-Aangezien u de muisaanwijzer niet boven pictogrammen in een .pdf-bestand kunt plaatsen, bevat dit bestand (na het exporteren) onder in een deelvenster notities met uitleg. Hier volgt een voorbeeld:
+Wanneer u uw project downloadt als een PDF of uw project verzendt als een PDF, worden annotaties in PDF samengevat in het overzichtsgedeelte Annotatie.
+
+![ Gemarkeerde mening van een .pdf- dossier die verklaringen van annotaties tonen.](assets/annotations-pdf.png)
+
+
+<!--
+# View annotations
+
+Annotations manifest slightly differently, depending on whether they span a single day or a date range.
+
+## View annotations in Line charts or Tables
+
+| Date | Appearance |
+| --- | --- |
+| **Single day** |   ![](assets/single-day.png)<p>When you hover over the annotation, you can see its details, you can edit it by selecting the pen icon, or you can delete it:<p> ![](assets/hover.png) |
+| **Date range** |  The icon changes and when you hover over it, the date range appears.<p>![](assets/multi-day.png)<p>When you select it in the line chart, the annotation metadata appear, and you can edit or delete it:![](assets/multi-hover.png)<p>In a table, an icon appears on every date in the date range.<p>![](assets/multi-day-table.png)|
+| **Overlapping annotations** | On days that have more than one annotation tied to them, the icon appears in a grey color.<p>![](assets/grey.png)<p>When you hover over the grey icon, all overlapping annotations appear:<p>![](assets/overlap.png) |
+
+{style="table-layout:auto"}
+
+## View annotations in a .pdf file
+
+Since you cannot hover over icons in a .pdf file, this file (after export) provides notes of explanations at the bottom of a panel. Here is an example:
 
 ![](assets/ann-pdf.png)
 
-## Annotaties met niet-trendgegevens weergeven
+## View annotations with non-trended data
 
-Soms wordt annotatie weergegeven met niet-trendgegevens, maar gekoppeld aan een specifieke dimensie. In dat geval worden ze alleen in een summiere annotatie in de rechterbenedenhoek weergegeven. Hier volgt een voorbeeld:
+Sometimes annotation are shown with non-trended data, but tied to a specific dimension. In that case, they appear only in a summary annotation in the bottom right corner. Here is an example:
 
 ![](assets/non-date.png)
 
-Het overzichtsdiagram wordt weergegeven in alle visualisatietypen in de hoek, niet alleen in niet-beheerde vrije-vormtabellen en samenvattingsnummers. Het wordt ook weergegeven in visualisaties zoals [!UICONTROL Donut], [!UICONTROL Flow],[!UICONTROL Fallout],[!UICONTROL Cohort], enzovoort.
+The summary chart appears in all visualization types in the corner, not just in non-trended freeform tables and summary numbers. It also appears in visualizations like [!UICONTROL Donut], [!UICONTROL Flow],[!UICONTROL Fallout],[!UICONTROL Cohort], and so on.
 
 ![](assets/ann-summary.png)
+
+-->

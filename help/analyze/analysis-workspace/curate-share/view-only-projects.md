@@ -5,36 +5,32 @@ title: Alleen-weergeven projecten
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# Alleen-weergeven projecten
+# Alleen-lezen projecten
 
-U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door het [ delen van het Project werkschema ](/help/analyze/analysis-workspace/curate-share/share-projects.md) delen. Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
+U kunt projecten als read-only aan ontvangers door [ delen functionaliteit ](share-projects.md). Ontvangers die zijn geplaatst in de **[!UICONTROL Read only]** -rol krijgen een beperktere ervaring met projecten.
 
-U kunt het datumbereik van de deelvensterkalender ook bewerken in alleen-weergaveprojecten.
+Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
 
-![](assets/view-only-project.png)
+![ Aandeel als read-only ](assets/read-only-project-sender.png)
 
+De interacties voor alleen-lezen ontvangers zijn beperkt.
 
->[!BEGINSHADEBOX]
-
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ mening-slechts projecten ](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"} voor een demo video.
-
->[!ENDSHADEBOX]
-
+![ Aandeel als read-only ontvangen ](assets/read-only-project-receiver.png)
 
 ## Uitgeschakelde interacties
 
 Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 
-* Verborgen linkerspoor
-* Rapportsuite
-* Freeform-filtering
+* Verborgen linkerdeelvenster
+* Datumbereik paneelkalender. Nota: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in a [ drop-down segment met datumwaaiers ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe.
+* Freeform-segmentering
 * Vrije vorm nr. van zichtbare rijen
 * Instellingen voor rij, kolom of visualisatie voor vrije vorm
 * Deelvenstersegmenten
@@ -47,7 +43,14 @@ Enkele opmerkelijkere toegelaten interactie in een mening-slechts project omvatt
 
 | Gebied | Ingeschakelde interacties |
 | --- | --- |
-| Vrije-vormtabellen | <ul><li>Paginering en sorteren</li><li>Hovering</li><li>Celselecties waarmee gekoppelde visualisaties worden bijgewerkt</li><li>Klik met de rechtermuisknop > Visualisatiekoppeling ophalen</li><li>Klik met de rechtermuisknop > Kopiëren naar klembord</li></ul> |
-| Visualisaties | <ul><li>Klikken om de legenda in of uit te schakelen</li><li>Hovering</li><li>Klik met de rechtermuisknop > Visualisatiekoppeling ophalen</li><li>Samenvouwen/uitbreiden</li><li>Stroom - Stroomknooppunten uitvouwen</li><li>Toewijzen - zoomen</li></ul> |
-| Deelvensters | <ul><li>Interactieve vervolgkeuzefilters</li><li>Klik met de rechtermuisknop > Deelvensterkoppeling ophalen</li><li>Samenvouwen/uitbreiden</li></ul> |
+| Vrije-vormtabellen | <ul><li>Paginering en sorteren</li><li>Hovering</li><li>Celselecties waarmee gekoppelde visualisaties worden bijgewerkt</li><li>Via het contextmenu > Visualisatiekoppeling ophalen</li><li>Vanuit het contextmenu > Kopiëren naar klembord</li></ul> |
+| Visualisaties | <ul><li>Klikken om de legenda in of uit te schakelen</li><li>Hovering</li><li>Via het contextmenu > Visualisatiekoppeling ophalen</li><li>Samenvouwen/uitbreiden</li><li>Stroom - Stroomknooppunten uitvouwen</li><li>Toewijzen - zoomen</li></ul> |
+| Deelvensters | <ul><li>Interactieve drop-down segmenten</li><li>Vanuit het contextmenu > Deelvensterkoppeling ophalen</li><li>Samenvouwen/uitbreiden</li></ul> |
 | Project | <ul><li>Alle informatiepictogrammen controleren</li><li>Projectmenu - Nieuw, Openen, Instellen als bestemmingspagina, Vernieuwen, CSV/PDF downloaden, beperkte projectinfo en -instellingen</li><li>Menu Delen - Projectkoppeling ophalen, bestand nu verzenden</li><li>Menu Help - Alle handelingen behalve Opties voor Tips en Foutopsporing</li></ul> |
+
+
+## Delen met iedereen
+
+Als u een project gebruikend [ Aandeel met iedereen ](share-projects.md#share-a-project-with-anyone-no-login-required) hebt geselecteerd kan de ontvanger van de verbinding slechts het project bekijken en niet met het project in wisselwerking staan.
+
+![ Aandeel met iedereen ervaring ](assets/share-with-anyone-receiver.png)
