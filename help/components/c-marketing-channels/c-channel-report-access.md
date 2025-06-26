@@ -28,5 +28,5 @@ Hier zijn de toestemmingen van de Hulpmiddelen van de Reeks van het Rapport nodi
 | Analysegereedschappen | Analysis Workspace Access | Biedt toegang tot Analysis Workspace. Gebruikers moeten tot deze groep (voorkeur) of Rapporten &amp;en Analytics Access behoren om de afmetingen voor marketingkanalen in Workspace te kunnen gebruiken. |
 | Analysegereedschappen | Toegang tot rapporten en analyses | Hiermee krijgt u toegang tot rapporten en analyses. Gebruikers moeten tot deze groep of Analysis Workspace Access (voorkeur) behoren om Adobe Analytics te kunnen gebruiken. |
 
-Voor meer informatie over productprofielen en de toestemmingen van Adobe Analytics in Admin Console, zie [ profielen van het Product voor Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html).
+Voor meer informatie over productprofielen en de toestemmingen van Adobe Analytics in Admin Console, zie [ profielen van het Product voor Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=nl-NL).
 

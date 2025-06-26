@@ -35,7 +35,7 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 * Selecteer in het contextmenu van de koptekst van een deelvenster de optie **[!UICONTROL Get panel link]**
 * Selecteer **[!UICONTROL Get visualization link]** in het contextmenu van een visualisatiekop.
 
-[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) op hoe te om verbindingen tot stand te brengen en hen te gebruiken om ontvangers aan specifieke delen van uw project te drijven.
+[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=nl-NL) op hoe te om verbindingen tot stand te brengen en hen te gebruiken om ontvangers aan specifieke delen van uw project te drijven.
 
 ![ het drop-down menu nadat u de kopbal met de rechtermuisknop aanklikt met de Get gemarkeerde visualisatiekoppeling.](assets/get-visualization-link.png)
 
@@ -43,7 +43,7 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 
 Eén tip voor het benutten van de verschillende koppelingsopties is om altijd een inhoudsopgave boven aan uw Workspace-project op te nemen. In de inhoudsopgave kunt u een koppeling maken naar andere relevante projecten, specifieke panels en specifieke visualisaties. Hierdoor kan de ontvanger van het project gemakkelijker navigeren.
 
-[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) op hoe te om een Inhoudsopgave te construeren gebruikend verbindingen en de rijke tekstredacteur van Workspace.
+[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=nl-NL) op hoe te om een Inhoudsopgave te construeren gebruikend verbindingen en de rijke tekstredacteur van Workspace.
 
 ![ Inhoudsopgave van A-project.](assets/toc.png)
 
@@ -57,7 +57,7 @@ Analysis Workspace offers many ways to share a project to your users, including 
 
 To share a link to a project, go to the project you want to share, then select go to [!UICONTROL **Share**] > [!UICONTROL **Share with Workspace users**] > [!UICONTROL **Share by link**]. Users you share the link with are required to log in. 
 
-If the recipient of the link has not been assigned a [project role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), admins receive **[!UICONTROL Edit original]** and non-admins receive **[!UICONTROL Edit copy]** experiences.
+If the recipient of the link has not been assigned a [project role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=nl-NL), admins receive **[!UICONTROL Edit original]** and non-admins receive **[!UICONTROL Edit copy]** experiences.
 
 ## Get a read-only link to share with anyone
 
@@ -72,7 +72,7 @@ You can also share a link to a specific part of a project, such as a panel or in
 * From any panel header, right-click **[!UICONTROL Get panel link]** 
 * From any table or visualization header, right-click **[!UICONTROL Get visualization link]** 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) on how to create links and use them to drive recipients to specific parts of your project. 
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=nl-NL) on how to create links and use them to drive recipients to specific parts of your project. 
 
 ![](assets/get-viz-link.png)
 -->

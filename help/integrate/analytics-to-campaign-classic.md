@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Adobe Analytics integreren met Campaign Classic
 
-Zie [ levering van de Schakelaar van Adobe Analytics ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/analytics-connector/adobe-analytics-provisioning) voor meer informatie rond het integreren van de gegevens van Adobe Analytics in Campaign Classic.
+Zie [ levering van de Schakelaar van Adobe Analytics ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/analytics-connector/adobe-analytics-provisioning) voor meer informatie rond het integreren van de gegevens van Adobe Analytics in Campaign Classic.

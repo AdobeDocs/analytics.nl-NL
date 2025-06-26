@@ -20,7 +20,7 @@ De berekende metriek bieden een hoogst flexibele manier om metriek te bouwen, te
 De berekende metriek zijn beschikbaar in elk [!DNL Analytics] pakket, nochtans is het Pak van Adobe Analytics Foundation voor Experience Cloud beperkt tot basis berekende metriek met inbegrip van [ formaattypes (decimaal, tijd, percenten, munt) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [ toewijzingsveranderingen (gebrek, lineair, participatie, enz.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [ metrische types (standaard, totaal) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), en [ basisexploitanten ](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (voeg toe, trek af, vermenigvuldig, en verdeel).
 
 
-Zie de [ Beschrijving van het Product van Adobe Analytics ](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics.html) voor meer informatie.
+Zie de [ Beschrijving van het Product van Adobe Analytics ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics.html) voor meer informatie.
 
 <!--
 Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
