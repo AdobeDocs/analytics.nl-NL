@@ -13,7 +13,7 @@ ht-degree: 0%
 # Segmenten beheren
 
 
-U kunt ](t-seg-share.md) delen, [ segment ](t-seg-filter.md), [ markering ](seg-tag.md), [ goedkeuren ](seg-approve.md), anders noemen, [ exemplaar ](seg-copy.md), schrappen, de segmenten en merken segmenten als [ favoriet ](t-seg-favorite.md) van een centrale [!UICONTROL Segment] beheersinterface. [ Segmenten beheren:
+U kunt [&#128279;](t-seg-share.md) delen, [ segment ](t-seg-filter.md), [ markering ](seg-tag.md), [ goedkeuren ](seg-approve.md), anders noemen, [ exemplaar ](seg-copy.md), schrappen, de segmenten en merken segmenten als [ favoriet ](t-seg-favorite.md) van een centrale [!UICONTROL Segment] beheersinterface.  Segmenten beheren:
 
 * Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Segments]** .
 
@@ -68,7 +68,7 @@ Op de filterbalk ➌ worden de actieve segmenten weergegeven die van het filterd
 
 ### Deelvenster Filter
 
-U kunt de lijst van segmenten filtreren gebruikend ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** linkerpaneel van de Filter ![ ➍. In het filterdeelvenster worden het type filter en het aantal segmenten weergegeven dat het specifieke filter toepast. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het paneel van de Filter van een knevel te voorzien.
+U kunt de lijst van segmenten filtreren gebruikend ![&#128279;](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** linkerpaneel van de Filter  ➍. In het filterdeelvenster worden het type filter en het aantal segmenten weergegeven dat het specifieke filter toepast. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het paneel van de Filter van een knevel te voorzien.
 
 Zie [ de lijst van segmenten ](t-seg-filter.md) voor meer informatie filtreren.
 

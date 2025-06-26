@@ -23,7 +23,7 @@ Het kiezen van het juiste toewijzingsmodel voor uw organisatie is afhankelijk va
 >[!NOTE]
 >Deze analyse moet plaatsvinden voordat u een attributiemodel kiest.
 
-Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Gebaseerd op de omzettingsmetriek, vergemakkelijken de hulpmiddelen zoals ](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) de Eendelen van Gegevens [ (voor ruwe gegevens) of Analysis Workspace uw begrip van
+Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Gebaseerd op de omzettingsmetriek, vergemakkelijken de hulpmiddelen zoals [&#128279;](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) de Eendelen van Gegevens  (voor ruwe gegevens) of Analysis Workspace uw begrip van
 
 * Het aantal klanten dat verschillende marketingkanalen aanraakt voordat ze hun producten converteren
 * De verhouding/de verdeling van deze gedragingen

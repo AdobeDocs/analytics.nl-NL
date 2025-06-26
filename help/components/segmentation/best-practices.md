@@ -16,7 +16,7 @@ De complexe segmenten zijn vaak noodzakelijk om gewenste gegevens te verkrijgen.
 
 ## Alleen de operator `Contains` gebruiken als laatste redmiddel
 
-De [**[!UICONTROL Contains]**exploitant ](/help/components/segmentation/seg-reference/seg-operators.md) is één van de meest verwerkings-intensieve eigenschappen in segmentatie, aangezien de exploitant de volledige inhoud van elke waarde moet analyseren. U kunt ook andere operatoren gebruiken, zoals **[!UICONTROL Starts with]**of **[!UICONTROL Ends with]**, als de gewenste waarden zich aan het begin of einde van een tekenreeks bevinden.
+De [**[!UICONTROL Contains]**&#x200B;exploitant ](/help/components/segmentation/seg-reference/seg-operators.md) is één van de meest verwerkings-intensieve eigenschappen in segmentatie, aangezien de exploitant de volledige inhoud van elke waarde moet analyseren. U kunt ook andere operatoren gebruiken, zoals **[!UICONTROL Starts with]**&#x200B;of **[!UICONTROL Ends with]**, als de gewenste waarden zich aan het begin of einde van een tekenreeks bevinden.
 
 Als een **[!UICONTROL Contains]** exploitant in een segment een groot aantal resultaten terugkeert, typisch tijden uit het rapport. Als u bijvoorbeeld een segment hebt gemaakt waarin **[!UICONTROL Referrer]** **[!UICONTROL equals]** `"."` staat, zoekt het segment door de inhoud van elke waarde. Gebruik in plaats hiervan de operator **[!UICONTROL Exists]** .
 
