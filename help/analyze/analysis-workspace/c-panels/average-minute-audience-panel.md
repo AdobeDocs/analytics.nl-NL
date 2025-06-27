@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Gemiddeld aantal minuten voor medium"
->abstract="Toont de prestaties van specifieke media inhoud of over een periode van de douanetijd.<br/><br/>**Algemene parameters **<br/>**berekenen metrisch voor**: Selecteer metrisch aan gebruik voor het paneel. Selecteer **Specifieke inhoud** om gemiddeld minieme publiek voor specifieke inhoud of gebeurtenis te analyseren die op de inhoudslengte wordt gebaseerd. **Uitgezochte de tijdperiode van de Douane** om te analyseren hoe het gemiddelde minieme publiek over een douane geselecteerde periode verandert.<br/>**Meldend afmeting**: Uitgezocht om door **VideoNaam** van **te melden identiteitskaart van de Inhoud** afmeting. Alleen beschikbaar als u Specifieke inhoud hebt geselecteerd als de metrische waarde.<br/>**Korreligheid**: Selecteer granulariteit voor het melden. Alleen beschikbaar wanneer u Aangepaste tijdsperiode hebt geselecteerd als metrisch.<br/>**inhoud van de Filter door (facultatief)**: Selecteer een specifieke show, een seizoen, een episode, of selecteer een douaneafmeting om de inhoud te filtreren.<br/><br/>**Geavanceerde montages **<br/>**de montages van de Lijst**: Selecteer of om berekeningswaarden in de lijst te tonen.<br/>**bestede tijd metrisch**: Selecteer welke tijd metrisch doorbracht u voor de specifieke inhoudsberekening zou willen gebruiken. Alleen beschikbaar als u Specifieke inhoud hebt geselecteerd als de metrische waarde."
+>abstract="Toont de prestaties van specifieke media inhoud of over een periode van de douanetijd.<br/><br/>**Algemene parameters &#x200B;**<br/>**berekenen metrisch voor**: Selecteer metrisch aan gebruik voor het paneel. Selecteer **Specifieke inhoud** om gemiddeld minieme publiek voor specifieke inhoud of gebeurtenis te analyseren die op de inhoudslengte wordt gebaseerd. **Uitgezochte de tijdperiode van de Douane** om te analyseren hoe het gemiddelde minieme publiek over een douane geselecteerde periode verandert.<br/>**Meldend afmeting**: Uitgezocht om door **VideoNaam** van **te melden identiteitskaart van de Inhoud** afmeting. Alleen beschikbaar als u Specifieke inhoud hebt geselecteerd als de metrische waarde.<br/>**Korreligheid**: Selecteer granulariteit voor het melden. Alleen beschikbaar wanneer u Aangepaste tijdsperiode hebt geselecteerd als metrisch.<br/>**inhoud van de Filter door (facultatief)**: Selecteer een specifieke show, een seizoen, een episode, of selecteer een douaneafmeting om de inhoud te filtreren.<br/><br/>**Geavanceerde montages &#x200B;**<br/>**de montages van de Lijst**: Selecteer of om berekeningswaarden in de lijst te tonen.<br/>**bestede tijd metrisch**: Selecteer welke tijd metrisch doorbracht u voor de specifieke inhoudsberekening zou willen gebruiken. Alleen beschikbaar als u Specifieke inhoud hebt geselecteerd als de metrische waarde."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -187,8 +187,8 @@ In het deelvenster Gemiddelde minieme doelgroep van Media wordt alleen de gemidd
 >[!MORELIKETHIS]
 >
 > [ creeer een paneel ](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> > [Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
-> > [De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
+> &#x200B;> [Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
+> &#x200B;> [De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
 >
 
 
