@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in **Customer Journey Analytics**.<br/> zie [ het gemiddelde minieme publiek van Media paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) voor de **Adobe Analytics** versie van dit artikel.*
+_Dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in **Customer Journey Analytics**.<br/> zie [ het gemiddelde minieme publiek van Media paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) voor de **Adobe Analytics** versie van dit artikel.*
 
 >[!ENDSHADEBOX]
 
