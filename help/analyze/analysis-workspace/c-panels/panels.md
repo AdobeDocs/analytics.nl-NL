@@ -1,12 +1,12 @@
 ---
-description: Een deelvenster is een verzameling tabellen en visualisaties
-title: Overzicht van deelvensters
+description: Begrijp panelen en hoe te om panelen in Analysis Workspace te gebruiken.
+title: Overzicht deelvensters
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2033'
 ht-degree: 1%
 
 ---
@@ -78,11 +78,11 @@ U kunt:
 
 ## Rapportsuite
 
-Elk paneel wordt geassocieerd met a [ rapportreeks ](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) **[!UICONTROL *wordt geïdentificeerd naam van rapportreeks *]**&#x200B;in het drop-down menu bij het hoogste recht van het paneel.
+Elk paneel wordt geassocieerd met a [ rapportreeks ](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) **[!UICONTROL *wordt geïdentificeerd naam van rapportreeks *]**in het drop-down menu bij het hoogste recht van het paneel.
 
 Wanneer u een nieuw deelvenster maakt, is de standaardrapportsuite gebaseerd op de rapportsuite van het deelvenster waarmee u het laatst hebt gewerkt in het Analysis Workspace-project.
 
-Binnen een project, kunt u één of [ vele rapportreeksen ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=nl-NL) afhankelijk van uw gevallen van het analysegebruik gebruiken.
+Binnen een project, kunt u één of [ vele rapportreeksen ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) afhankelijk van uw gevallen van het analysegebruik gebruiken.
 
 De lijst met rapportsuites wordt gesorteerd op relevantie, die Adobe definieert op basis van hoe recent en vaak de suite door de huidige gebruiker is gebruikt en hoe vaak de suite binnen de organisatie wordt gebruikt.
 
@@ -271,7 +271,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=nl-NL) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 
@@ -335,7 +335,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=nl-NL) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 

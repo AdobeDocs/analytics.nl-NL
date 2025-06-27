@@ -1,12 +1,12 @@
 ---
-description: Quick Insights is een hulpmiddel voor nieuwe Workspace-gebruikers dat hen begeleidt bij het samenstellen van gegevenstabellen en -visualisaties
+description: Leer hoe u het deelvenster Snelle inzichten kunt gebruiken om u te begeleiden bij het samenstellen van gegevenstabellen en -visualisaties in Analysis Workspace.
 title: Deelvenster Snelle inzichten
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Snelle Inzichten paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/quickinsight)) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Snelle Inzichten paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -57,12 +57,12 @@ Hieronder volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst 
 
 | Bouwsteen (component) | Definitie |
 |---|---|
-| **[!UICONTROL Dimension]** | Dimensionen zijn beschrijvingen of kenmerken van metrische gegevens die kunnen worden bekeken, opgesplitst en vergeleken in een project. Het zijn niet-numerieke waarden en datums die worden opgesplitst in dimensie-items. Bijvoorbeeld, *browser* of *pagina* is een afmeting. |
-| **[!UICONTROL Dimension item]** | Items van een Dimension zijn afzonderlijke waarden voor een dimensie. Bijvoorbeeld, zouden de afmetingspunten voor de browser afmeting *Chrome* zijn, *Firefox*, *Edge*, of anderen. |
+| **[!UICONTROL Dimension]** | Dimensies zijn beschrijvingen of kenmerken van metrische gegevens die in een project kunnen worden bekeken, uitgesplitst en vergeleken. Het zijn niet-numerieke waarden en datums die worden opgesplitst in dimensie-items. Bijvoorbeeld, *browser* of *pagina* is een afmeting. |
+| **[!UICONTROL Dimension item]** | Dimension-items zijn afzonderlijke waarden voor een dimensie. Bijvoorbeeld, zouden de afmetingspunten voor de browser afmeting *Chrome* zijn, *Firefox*, *Edge*, of anderen. |
 | **[!UICONTROL Metric]** | De metriek zijn kwantitatieve informatie over persoonactiviteit, zoals meningen, klik-door, herladingen, gemiddelde tijd besteed, eenheden, orden, opbrengst, etc. |
 | **[!UICONTROL Visualization]** | Workspace biedt [ een aantal visualisaties ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) aan om visuele vertegenwoordiging van uw gegevens te bouwen. Bijvoorbeeld staafgrafieken, donutgrafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen en andere. |
 | **[!UICONTROL Dimension Breakdown]** | Een uitsplitsing naar dimensie is een manier om een dimensie naar andere dimensies uit te splitsen. U kunt bijvoorbeeld de VS-staten opdelen door Mobiele apparaten om de bezoeken aan mobiele apparaten per status op te halen. Of u kunt mobiele apparaten onderbreken op typen mobiele apparaten, op regio&#39;s, op interne campagnes en nog veel meer. |
-| **[!UICONTROL Segments]** | Met segmenten kunt u subsets van personen identificeren op basis van eigenschappen of interacties op websites. U kunt bijvoorbeeld [!UICONTROL Visitor] -segmenten maken op basis van <li>kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of</li><li>interacties: campagnes, sleutelwoordzoeker, zoekmachine, of</li><li>uitgangen en ingangen: bezoekers uit Facebook, een bepaalde landingspagina, een verwijzend domein, of</li><li> aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
+| **[!UICONTROL Segments]** | Met segmenten kunt u subsets van personen identificeren op basis van eigenschappen of interacties op websites. U kunt bijvoorbeeld [!UICONTROL Visitor] -segmenten maken op basis van <li>kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of</li><li>interacties: campagnes, sleutelwoordzoeker, zoekmachine, of</li><li>uitgang en invoer: bezoekers van Facebook, een gedefinieerde bestemmingspagina, een verwijzend domein, of</li><li> aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
 
 ## Gebruiken
 
@@ -125,13 +125,13 @@ Er verschijnen andere handige tips in de [!UICONTROL Quick Insights Builder] , w
 
   ![ het Resultaat van de Bouwer van Snelle Inzichten ](assets/qibuilder-result.png)
 
-   * **[!UICONTROL Analyze]** afmetingen **[!UICONTROL Broken-Down by]** : u kunt maximaal 3 niveaus van onderverdelingen op dimensies gebruiken om naar de gegevens te gaan die u echt nodig hebt. Zie ➊, ➋ en ➌.
+   * **[!UICONTROL Analyze]** afmetingen **[!UICONTROL Broken-Down by]** : u kunt maximaal 3 niveaus van onderverdelingen op dimensies gebruiken om naar de gegevens te gaan die u echt nodig hebt. Zie ➊ , ➋ en ➌ .
 
-   * Meer metriek toevoegen **[!UICONTROL by]**: u kunt maximaal twee metriek toevoegen. Zie ➍ en ➎.
+   * Meer metriek toevoegen **[!UICONTROL by]**: u kunt maximaal twee metriek toevoegen. Zie ➍ en ➎ .
 
-   * **[!UICONTROL filter by]**: u kunt maximaal twee segmenten toevoegen. Bijvoorbeeld, voeg Boekingen als segment toe en combineer dat segment met de segmenten van Frequent Boeken en Eerste brochures u vergelijkt. Zie ➏, ➐ en ➑.
+   * **[!UICONTROL filter by]**: u kunt maximaal twee segmenten toevoegen. Bijvoorbeeld, voeg Boekingen als segment toe en combineer dat segment met de segmenten van Frequent Boeken en Eerste brochures u vergelijkt. Zie ➏ , ➐ en ➑ .
 
-   * op: U kunt het datumbereik opgeven. Zie ➒.
+   * op: U kunt het datumbereik opgeven. Zie ➒ .
 
 ## Bekende beperkingen
 

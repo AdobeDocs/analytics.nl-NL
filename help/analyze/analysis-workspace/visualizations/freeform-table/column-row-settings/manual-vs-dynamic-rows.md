@@ -1,12 +1,12 @@
 ---
-title: Dynamische versus statische dimensie-items in vrije-vormtabellen
-description: Hoe te met dynamische en statische afmetingspunten in lijsten in wisselwerking te staan.
+title: Dynamische en statische Dimension-items
+description: Leer hoe u dynamische en statische dimensie-items gebruikt in vrije-vormtabellen in Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,15 @@ Wanneer u bijvoorbeeld over specifieke BrowserType-items sleept, zoals Microsoft
 
 Er kunnen ook statische dimensie-items worden gemaakt als u ervoor kiest om **[!UICONTROL Display only selected rows]** te selecteren in het contextmenu voor geselecteerde rijen.
 
-De statische afmetingspunten hebben **&#x200B;**&#x200B;niet de optie van de rijfilter. In plaats daarvan, zijn a ![ LockClosed ](/help/assets/icons/LockClosed.svg) en ![ dicht ](/help/assets/icons/Close.svg) aanwezig op elk punt. Selecteer ![ dicht ](/help/assets/icons/Close.svg) om dat afmetingspunt uit de lijst te verwijderen.
+De statische afmetingspunten hebben **** niet de optie van de rijfilter. In plaats daarvan, zijn a ![ LockClosed ](/help/assets/icons/LockClosed.svg) en ![ dicht ](/help/assets/icons/Close.svg) aanwezig op elk punt. Selecteer ![ dicht ](/help/assets/icons/Close.svg) om dat afmetingspunt uit de lijst te verwijderen.
 
 ![ A Freeform Lijst die de Browser Type en de rij van Microsoft met een slotpictogramnota toont: Dit afmetingspunt is statisch en zal niet met tijd veranderen.](assets/static-items.png)
 
 ## Items met gemengde dimensies
 
-Items van verschillende Dimensionen kunnen aan dezelfde tabel worden toegevoegd. In deze gevallen staat de rijkop op **[!UICONTROL Mixed Dimensions]** . Deze dimensie-items zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingspunten van de Browser afmeting van de Groep en andere afmetingspunten van de Browser afmeting van de Naam.
+Dimension-items van verschillende afmetingen kunnen aan dezelfde tabel worden toegevoegd. In deze gevallen staat de rijkop op **[!UICONTROL Mixed Dimensions]** . Deze dimensie-items zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingspunten van de Browser afmeting van de Groep en andere afmetingspunten van de Browser afmeting van de Naam.
 
-![ A Freeform Lijst die de Gemengde kolom van Dimensionen benadrukt.](assets/mixed-dimensions.png)
+![ A Freeform Lijst die de Gemengde kolom van Afmetingen benadrukt.](assets/mixed-dimensions.png)
 
 ## Totaal aantal rijen vrije vorm
 

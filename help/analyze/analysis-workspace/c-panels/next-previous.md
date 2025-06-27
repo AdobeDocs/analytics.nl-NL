@@ -1,39 +1,31 @@
 ---
-description: Een deelvenster waarin de volgende of vorige dimensie-items voor een specifieke dimensie worden weergegeven.
-title: Volgend of vorig deelvenster met items
+description: Begrijp hoe te om het Volgende of vorige puntenpaneel te gebruiken dat de volgende of vorige afmetingspunten voor een specifieke afmeting toont.
+title: Deelvenster Volgende of Vorige item
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
 # Volgend of vorig deelvenster met items {#next-or-previous-item-panel}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
 >title="Volgende of vorige item"
 >abstract="Maak een deelvenster om te begrijpen welke dimensies mensen uit het verleden hebben gekregen of waar mensen uit de volgende dimensie naar toe gaan."
-
-<!-- markdownlint-disable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="Nesten of vorig item"
 >abstract="Analyseer wat de meest gangbare plaatsen zijn waar bezoekers eerder vandaan kwamen of naar de volgende gaan.<br/><br/>**Dimension**: Selecteer een afmeting. Bijvoorbeeld **Pagina**.<br/>**het punt van Dimension**: Selecteer een specifiek afmetingspunt. Bijvoorbeeld **Homepage**.<br/>**Richting**: Selecteer **daarna** om de afmetingspunten onmiddellijk na uw geselecteerd afmetingspunt te zien. Selecteer **Vorige** om de afmetingspunten te zien die tot uw geselecteerd afmetingspunt leiden.<br/>**Container**: Selecteer **Zitting** om de volgende/vorige afmetingspunten binnen de zelfde zitting te zien, of **Persoon** te selecteren om het volgende/vorige afmetingspunt voor de zelfde persoon te zien."
 
-<!-- markdownlint-enable MD034 -->
-
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Volgende of vorige puntenpaneel in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Volgende of vorig puntenpaneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/next-previous)) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert het Volgende of vorige puntenpaneel in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Volgende of vorig puntenpaneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 

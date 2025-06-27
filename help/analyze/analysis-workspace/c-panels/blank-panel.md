@@ -1,12 +1,12 @@
 ---
-description: Maak een leeg deelvenster als beginpunt voor elke visualisatie.
+description: Leer hoe u een leeg deelvenster maakt als beginpunt voor elke visualisatie.
 title: Leeg deelvenster
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '244'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het Lege paneel in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Lege paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/blank-panel)) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_Dit artikel documenteert het Lege paneel in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Lege paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel)) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 

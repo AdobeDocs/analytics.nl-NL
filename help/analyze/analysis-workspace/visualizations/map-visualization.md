@@ -1,13 +1,13 @@
 ---
-description: Gebruik de kaartvisualisatie in een Workspace-project.
+description: Gebruik de kaartvisualisatie om gegevens op een geografische kaart visualisatie te plotten
 title: Kaart
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Kaart in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_er is momenteel geen visualisatie van de Kaart beschikbaar in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_dit artikel documenteert de visualisatie van de Kaart in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_er is momenteel geen visualisatie van de Kaart beschikbaar in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ De ![ Globe ](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualisatie in
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Kaart in Analysis Workspace ](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Kaart in Analysis Workspace ](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie 
    | Source | Beschrijving |
    | --- | --- |
    | **[!UICONTROL Mobile Lat/Long]** | Deze optie vertegenwoordigt gegevens van mobiele apps. U ziet deze optie alleen als u deze voor uw rapportsuite hebt ingeschakeld in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (selecteer rapportsuite) > [!UICONTROL Edit Settings] > [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking] . Dit zijn de standaardinstellingen (als locatietracering is ingeschakeld). |
-   | **[!UICONTROL Geographic Dimension]** | Deze optie vertegenwoordigt geo segmentatiegegevens over bezoekersplaats die op het IP van de bezoeker adres wordt gebaseerd. Deze gegevens worden omgezet in [!UICONTROL Country] , [!UICONTROL Region] en [!UICONTROL City] . Merk op dat het niet naar het niveau van de Code DMA of van het Postcode gaat. Bijna alle rapportsuites hebben deze toegelaten dimensie. Als u dat niet doet, neemt u contact op met de klantenservice van de Adobe om geografische rapporten ingeschakeld te laten. |
+   | **[!UICONTROL Geographic Dimension]** | Deze optie vertegenwoordigt geo segmentatiegegevens over bezoekersplaats die op het IP van de bezoeker adres wordt gebaseerd. Deze gegevens worden omgezet in [!UICONTROL Country] , [!UICONTROL Region] en [!UICONTROL City] . Merk op dat het niet naar het niveau van de Code DMA of van het Postcode gaat. Bijna alle rapportsuites hebben deze toegelaten dimensie. Als dat niet het geval is, neemt u contact op met de klantenservice van Adobe om geografische rapporten in te schakelen. |
 
 1. Selecteer **[!UICONTROL Build]** .
 
@@ -119,8 +119,8 @@ Om montages voor visualisatie te bepalen, uitgezochte ![ Plaatsend ](/help/asset
 | Instelling | Beschrijving |
 |--- |--- |
 | **[!UICONTROL Map type]** | |
-| [!UICONTROL Bubbles] | Hiermee worden gebeurtenissen geplakt met behulp van bellen. Een bubbelgrafiek is een multi-variabelegrafiek die een kruis tussen een spreidplot en een proportioneel gebiedsgrafiek is. Dit is de standaardweergave. |
-| Heatmap | Hiermee worden gebeurtenissen geplakt met een heatmap. Een heatmap is een grafische voorstelling van gegevens waarbij de afzonderlijke waarden in een matrix als kleuren worden weergegeven. |
+| **[!UICONTROL Bubbles] | Hiermee worden gebeurtenissen geplakt met behulp van bellen. Een bubbelgrafiek is een multi-variabelegrafiek die een kruis tussen een spreidplot en een proportioneel gebiedsgrafiek is. Dit is de standaardweergave. |
+| [!UICONTROL Heatmap] | Hiermee worden gebeurtenissen geplakt met een heatmap. Een heatmap is een grafische voorstelling van gegevens waarbij de afzonderlijke waarden in een matrix als kleuren worden weergegeven. |
 | **[!UICONTROL Styles]** | |
 | [!UICONTROL Color theme] | Hiermee geeft u het kleurenschema voor de warmtekaart en luchtbellen weer. U kunt kiezen uit Koraal, Rode tinten, Groene tinten of Vervagen. De standaardinstelling is Coral. |
 | [!UICONTROL Map style] | U kunt kiezen uit Standaard, Streets, Helder, Licht, Donker en Satelliet. |

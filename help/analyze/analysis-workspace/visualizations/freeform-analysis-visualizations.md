@@ -1,46 +1,77 @@
 ---
-description: Geef uw gegevens visueel weer met visualisaties.
+description: Leer hoe u uw gegevens visueel kunt weergeven met behulp van visuele hulpmiddelen die beschikbaar zijn in Analysis Workspace.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1430'
 ht-degree: 1%
 
 ---
 
 # Overzicht van visualisaties
 
-Workspace biedt een aantal visualisaties waarmee u visuele weergaven van uw gegevens kunt genereren, zoals staafdiagrammen, donutgrafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen en andere. De meeste visualisatietypen zijn u bekend als u Adobe Analytics gebruikt. Analysis Workspace biedt echter wel instellingen voor visualisatie en vele nieuwe of unieke visualisatietypen met interactieve mogelijkheden.
+Workspace biedt een aantal visualisaties waarmee u visuele weergaven van uw gegevens kunt genereren. Bijvoorbeeld staafgrafieken, donutgrafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen en andere.
 
-## Visualisatietypen
+## Typen
 
 De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
-| Visualisatienaam | Beschrijving |
-| --- | --- |
-| [ Gebied ](/help/analyze/analysis-workspace/visualizations/area.md)<p>![ pictogram van het Gebied ](assets/Smock_GraphArea_18_N.svg)</p> | Als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. |
-| [ Bar ](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![ het pictogram van de Bar ](assets/Smock_GraphBarVertical_18_N.svg)</p> | Geeft verticale balken weer die diverse waarden vertegenwoordigen over een of meer metriek. |
-| [Staafdiagram](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![ pictogram van het Bullet ](assets/Smock_GraphBullet_18_N.svg)</p> | Toont hoe een waarde u in vergelijkt met of maatregelen tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
-| [ Lijst van de Cohort ](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![ pictogram van de Lijst van de Cohort ](assets/Smock_TextNumbered_18_N.svg)</p> | Een *`cohort`* is een groep personen die gemeenschappelijke kenmerken delen over een opgegeven periode. Cohortanalyse is nuttig voor retentie-, kleur- of latentieanalyse. |
-| [Cirkeldiagram](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![ pictogram van de Donut ](assets/Smock_GraphDonut_18_N.svg)</p> | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. |
-| [Uitval](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![ pictogram van de Vallout ](assets/Smock_ConversionFunnel_18_N.svg)</p> | Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen). Kan worden ingesteld op uiteindelijke of exacte reeksen |
-| [Stroom](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![ pictogram van de Stroom ](assets/flow-icon.png)</p> | Hiermee geeft u exacte klantpaden weer via uw websites en apps. |
-| [Vrije-vormentabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![ het pictogram van de Lijst van de Vrije vorm ](assets/Smock_ViewTable_18_N.svg)</p> | Een tabel met vrije vorm is niet alleen een gegevenstabel, maar ook een interactieve visualisatie. Het is de basis voor gegevensanalyse in Workspace. |
-| [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![ pictogram van het Histogram ](assets/Smock_GraphHistogram_18_N.svg)</p> | Met een histogram worden bezoekers, bezoeken of bereiken in emmers geknipt op basis van een metrisch volume. |
-| [ Horizontale bar ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![ Horizontaal bar pictogram ](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | Hiermee geeft u horizontale balken weer die verschillende waarden voor een of meer metriek vertegenwoordigen. |
-| [ Zeer belangrijke metrische samenvatting ](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![ Zeer belangrijk metrisch pictogram ](assets/key-metric-icon.png)</p> | Toont hoe metrisch in één enkel tijdkader trending, of laat u metrische prestaties over twee tijdlijnen vergelijken. |
-| [Lijn](/help/analyze/analysis-workspace/visualizations/line.md)<p>![ pictogram van de Lijn ](assets/Smock_GraphTrend_18_N.svg)</p> | Vertegenwoordigt metriek die een lijn gebruiken om te tonen hoe de waarden over een periode veranderen. Een lijndiagram gebruikt tijd langs de x-as. |
-| [Kaart](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![ pictogram van de Kaart ](assets/map-icon.png)</p> | Hiermee kunt u een visuele kaart van elke metrische waarde (inclusief berekende metriek) maken. |
-| [Spreidingsdiagram](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![ het pictogram van het Scatterplot ](assets/Smock_GraphScatter_18_N.svg)</p> | Toont het verband tussen afmetingspunten en tot drie metriek. |
-| [ Summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![ Summiere aantalpictogram ](assets/summary-number-icon.png)</p> | De geselecteerde cel wordt als 1 groot getal weergegeven. |
-| [ Summiere verandering ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![ het pictogram van de Summiere verandering ](assets/summary-change-icon.png)</p> | Hiermee geeft u de wijziging tussen de geselecteerde cellen als 1 groot getal/percentage weer. |
-| [Tekst](/help/analyze/analysis-workspace/visualizations/text.md)<p>![ pictogram van de Tekst ](assets/Smock_Text_18_N.svg)</p> | Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw Workspace. Het is handig om extra context toe te voegen aan uw analyse en inzichten, naast het gebruik van panel-/visualisatiebeschrijvingen |
-| [Boomstructuur](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![ pictogram Treemap ](assets/Smock_GraphTree_18_N.svg)</p> | Hiermee worden hiërarchische gegevens (met structuur van structuur) weergegeven als een set geneste rechthoeken. |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![ pictogram van de Venn ](assets/venn-icon.png)</p> | Gebruikt cirkels om de metrische overlapping van maximaal 3 segmenten aan te geven. |
+
+| Pictogram | Naam | Beschrijving |
+| :---: | --- | ---| 
+| ![ GraphArea ](/help/assets/icons/GraphArea.svg) | [ Gebied ](/help/analyze/analysis-workspace/visualizations/area.md) | Een vlakgrafiekvisualisatie. Als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. |
+| ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | [ Bar ](/help/analyze/analysis-workspace/visualizations/bar.md) | Een staafgrafiekvisualisatie met verticale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
+| ![ GraphBarVertical ](/help/assets/icons/GraphBarVerticalStacked.svg) | [ Gestapelde Bar ](/help/analyze/analysis-workspace/visualizations/bar.md) | Een gestapelde staafgrafiekvisualisatie met verticale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
+| ![ GraphBullet ](/help/assets/icons/GraphBullet.svg)</p> | [ Opsommingsteken ](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Een grafiekvisualisatie van opsommingstekens, die toont hoe een waarde u in vergelijkt met of tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
+| ![ TextNumbered ](/help/assets/icons/TextNumbered.svg) | [ Lijst van de Cohort ](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Een cohortvisualisatie is een groep mensen die gemeenschappelijke kenmerken gedurende een bepaalde periode delen. Een cohorttabel is handig voor analyse van retentie, churn of latentie. |
+| ![ Combo ](/help/assets/icons/ComboChart.svg) | [ Combo ](combo-charts.md) | Met een combinatiekaart kunt u snel een vergelijkingsvisualisatie maken zonder eerst een tabel te hoeven maken. |
+| ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analyze/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden gegevens in een donutvisualisatie weergegeven als delen of segmenten van een geheel. |
+| ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Een fallout-visualisatie laat zien waar personen een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorvallen). |
+| ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Met een stroomvisualisatie kunt u via uw websites en apps precies zien wat de klanten precies doen. |
+| ![ ViewTable ](/help/assets/icons/ViewTable.svg)</p> | [Vrije-vormentabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Een vrije tabelvisualisatie is een interactieve visualisatie. De visualisatie van de vrije-vormlijst is de stichting voor gegevensanalyse in Workspace. |
+| ![ GraphHistogram ](/help/assets/icons/Histogram.svg) | [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | Een histogram visualisatieemmers, bezoeken of gebeurtenissen in emmers op basis van een metrisch volume. |
+| ![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg) | [ Horizontale bar ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Bij een horizontale staafvisualisatie worden horizontale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
+| ![ GraphBarHorizontalGestapeld ](/help/assets/icons/GraphBarHorizontalStacked.svg) | [ Horizontale gestapelde bar ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Bij een gestapelde horizontale staafvisualisatie worden horizontale balken weergegeven die verschillende waarden over een of meer meeteenheden vertegenwoordigen. |
+| ![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) | [ Zeer belangrijke metrische samenvatting ](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Een zeer belangrijke samenvatting van metriek visualisatie combineert lijn, summiere verandering, en summiere aantalvisualisaties. |
+| ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analyze/analysis-workspace/visualizations/line.md) | Een lijnvisualisatie vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijndiagram gebruikt tijd langs de x-as. |
+| ![ Globe ](/help/assets/icons/Globe.svg) | [Kaart](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Hiermee kunt u een visuele kaart van elke metrische waarde (inclusief berekende metriek) maken |
+| ![ GraphScatter ](/help/assets/icons/GraphScatter.svg) | [ Spreiding ](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Een scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie metriek. |
+| ![ PageRule ](/help/assets/icons/PageRule.svg) | [ kopbal van de Sectie ](section-header.md) | Secties in een deelvenster identificeren en ordenen. |
+| ![ MoveUpDown ](/help/assets/icons/MoveUpDown.svg) | [ Summiere verandering ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Een overzicht van de visualisatie van de verandering toont de verandering tussen de geselecteerde cellen als één groot aantal of percentage. |
+| ![ 123 ](/help/assets/icons/123.svg)</p> | [ Summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Bij een overzichtsnummervisualisatie wordt de geselecteerde cel weergegeven als één groot getal. |
+| ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analyze/analysis-workspace/visualizations/text.md) | Met een tekstvisualisatie kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw Workspace. Het is handig om extra context toe te voegen aan uw analyse en inzichten, naast het gebruik van panel-/visualisatiebeschrijvingen |
+| ![ ModernGridView ](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analyze/analysis-workspace/visualizations/treemap.md)<p> | Bij een treemapvisualisatie worden hiërarchische (gestructureerde) gegevens weergegeven als een set geneste rechthoeken. |
+| ![ Type ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Bij een vlindervisualisatie worden cirkels gebruikt om de metrische overlapping van maximaal 3 segmenten weer te geven. |
+
+<!--
+
+| Name| Icon | Description |
+| --- |:---: | ---|
+| [Area](/help/analyze/analysis-workspace/visualizations/area.md)|![Area icon](assets/Smock_GraphArea_18_N.svg)</p> | Like a line graph, but with a colored area below the line. Use an area graph when you have multiple metrics and want to visualize the area expressed by the intersection of two or more metrics. |
+| [Bar](/help/analyze/analysis-workspace/visualizations/bar.md)|![Bar icon](assets/Smock_GraphBarVertical_18_N.svg)</p> | Shows vertical bars representing various values across one or more metrics. |
+| [Bullet graph](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)|![Bullet icon](assets/Smock_GraphBullet_18_N.svg)</p> | Shows how a value you are interested in compares to or measures against other performance ranges (goals). |
+| [Cohort table](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)|![Cohort table icon](assets/Smock_TextNumbered_18_N.svg)</p> | A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful for retention, churn or latency analysis. |
+| [Donut](/help/analyze/analysis-workspace/visualizations/donut.md) | ![Donut icon](assets/Smock_GraphDonut_18_N.svg)</p> | Similar to a pie chart, this visualization shows data as parts or segments of a whole. |
+| [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | ![Fallout icon](assets/Smock_ConversionFunnel_18_N.svg)</p> | Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages. Can be set to eventual or exact sequences |
+| [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | ![Flow icon](assets/flow-icon.png)</p> | Shows exact customer paths through your websites and apps. |
+| [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | ![Freeform table icon](assets/Smock_ViewTable_18_N.svg)</p> | A Freeform table is not merely a data table, but also an interactive visualization. It is the foundation for data analysis in Workspace.|
+| [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | ![Histogram icon](assets/Smock_GraphHistogram_18_N.svg)</p> | A histogram buckets visitors, visits or hits into buckets based on a metric volume. |
+| [Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | ![Horizontal bar icon](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | Shows horizontal bars representing various values across one or more metrics. |
+| [Key metric summary](/help/analyze/analysis-workspace/visualizations/key-metric.md) | ![Key metric icon](assets/key-metric-icon.png)</p> | Shows how a metric is trending within a single timeframe, or lets you compare metric performance across two timeframes. |
+| [Line](/help/analyze/analysis-workspace/visualizations/line.md) | ![Line icon](assets/Smock_GraphTrend_18_N.svg)</p> | Represents metrics using a line in order to show how values change over a period of time. A line chart uses time along the x-axis. |
+| [Map](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | ![Map icon](assets/map-icon.png)</p> | Lets you build a visual map of any metric (including calculated metrics). |
+| [Scatterplot](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ![Scatterplot icon](assets/Smock_GraphScatter_18_N.svg)</p> | Shows the relationship between dimension items and up to three metrics. |
+| [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | ![Summary number icon](assets/summary-number-icon.png)</p> | Shows the selected cell as 1 large number. |
+| [Summary change](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | ![Summary change icon](assets/summary-change-icon.png)</p> | Shows the change between the selected cells as 1 large number/percent. |
+| [Text](/help/analyze/analysis-workspace/visualizations/text.md) | ![Text icon](assets/Smock_Text_18_N.svg)</p> | Lets you add user-defined text to your Workspace. Helpful for adding additional context to your analysis and insights, in addition to leveraging panel/visualization descriptions |
+| [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | ![Treemap icon](assets/Smock_GraphTree_18_N.svg)</p> | Displays hierarchical (tree-structured) data as a set of nested rectangles. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | ![Venn icon](assets/venn-icon.png)</p> | Uses circles to depict the metric overlap of up to 3 segments. |
+
+-->
 
 ## Visualisaties toevoegen aan een deelvenster
 
@@ -50,7 +81,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
    ![ voeg visualisatie ](assets/add-visualization.png) toe
 
-   * In het linkerpaneel, uitgezochte ![&#128279;](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.
+   * In het linkerpaneel, uitgezochte ](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.![
 
    * Voor het paneel waar u de visualisatie wilt toevoegen, selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg), dan het pictogram kiezen dat de visualisatie vertegenwoordigt die u wilt toevoegen. Houd de muisaanwijzer boven het pictogram voor elke visualisatie om de naam weer te geven.
 
@@ -186,8 +217,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=nl-NL&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=nl-NL&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |

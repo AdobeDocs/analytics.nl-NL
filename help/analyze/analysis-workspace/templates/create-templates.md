@@ -1,12 +1,12 @@
 ---
-description: Een overzicht van het gebruik van standaardrapporten in Analysis Workspace.
-title: Rapporten gebruiken
+description: Leer hoe u sjablonen maakt en beheert in Analysis Workspace.
+title: Sjablonen maken en beheren
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Beheerders kunnen bedrijfssjablonen hernoemen, labelen en goedkeuren.
 
 ## Toegang tot een bedrijfssjabloon
 
-Net als met sjablonen die door Adobe worden verschaft, kunnen gebruikers in de organisatie toegang krijgen tot sjablonen die beheerders maken.
+Net als met sjablonen die door Adobe worden geleverd, kunnen gebruikers in de organisatie toegang krijgen tot sjablonen die beheerders maken.
 
 Voor informatie over hoe te om tot een bedrijfmalplaatje toegang te hebben, zie [ Toegang en stel een malplaatje ](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [ malplaatjes van het Gebruik ](/help/analyze/analysis-workspace/templates/use-templates.md) in werking.
 

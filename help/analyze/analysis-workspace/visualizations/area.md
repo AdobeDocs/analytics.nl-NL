@@ -1,13 +1,13 @@
 ---
-description: Het gebied visualiseert zich als een lijngrafiek, maar met een gekleurd gebied onder de lijn.
-title: Gebied en gebied gestapeld
+description: Leer meer over het gebied en het gebied met gestapelde visualisatie.
+title: Gebied en gestapeld
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Gebied en Gebied gestapelde visualisaties in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Gebied en gebied gestapeld ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/area) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert het Gebied en Gebied gestapelde visualisaties in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Gebied en gebied gestapeld ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/area) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -61,6 +61,6 @@ Gebruik de **[!UICONTROL 100% stacked]** optie in ![ Plaatsend ](/help/assets/ic
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

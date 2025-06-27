@@ -1,26 +1,26 @@
 ---
-description: Gebruik voorbeelden van hoofdletters en kleine letters voor cohortanalyse.
+description: Lees meer over enkele voorbeelden van gevallen voor cohortanalyse.
 keywords: Analysis Workspace
-title: Gebruiksgevallen van cohortanalyse
+title: Gevallen voor Cohortanalyse
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Cohort Analysis] gebruik gevallen
+# Gebruiksgevallen van cohortanalyse
 
 Gebruik voorbeelden van hoofdletters en kleine letters voor [!UICONTROL Cohort Analysis] .
 
-## Gebruiksscenario voor betrokkenheid van apps {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
+## Gebruiksscenario voor betrokkenheid van apps
 
 Stel dat u wilt analyseren hoe gebruikers die uw app installeren er na verloop van tijd mee werken. Installeren ze het en gebruiken ze het nooit? Hebben ze het een tijdje gebruikt en vallen ze dan weg? Of blijven ze in de loop der tijd betrokken?
 
-U kunt een periode van zes maanden maken [!UICONTROL Cohort Analysis] :
+U kunt een cohortanalyse van zes maanden maken.
 
 **Korreligheid**: Maandelijks, van Januari 2015 door Juni 2015.
 
@@ -30,7 +30,7 @@ U kunt een periode van zes maanden maken [!UICONTROL Cohort Analysis] :
 
 Bezoekers tellen niet mee als *`engaged`* in volgende maanden, tenzij ze een sessie hebben of de app ten minste starten. [!UICONTROL Cohort Analysis] geeft vervolgens patronen weer in gebruik waar *`App Install`* altijd voorkomt op maand 0. Mogelijk ziet u dat het gebruik in maand 2 wordt onderbroken, ongeacht wanneer gebruikers de app hebben geïnstalleerd. (Voor degenen die de app in januari 2015 hebben geïnstalleerd, is maand 2 maart 2015. Voor degenen die de app in februari 2015 hebben geïnstalleerd, is maand 2 april 2015, enzovoort.) Met deze analyse kunt u een e-mail- of pushbericht naar alle gebruikers sturen tijdens de tweede maand na de installatie van de app om hen eraan te herinneren de app te gebruiken.
 
-## Gebruiksscenario voor abonnement {#section_FDECB16766CF415BB84AE46BA491FB5F}
+## Gebruiksscenario voor abonnement
 
 U werkt op Adobe.com en biedt een gratis Creative Cloud-abonnement. Het is de bedoeling dat gebruikers een upgrade uitvoeren van de gratis versie naar de proefversie van 30 dagen of uiteindelijk naar de betaalde versie.
 

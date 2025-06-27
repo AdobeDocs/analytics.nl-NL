@@ -1,12 +1,12 @@
 ---
-description: Gebruik de stroomvisualisatie in een project van Workspace.
+description: Leer hoe u de stroomvisualisatie in Analysis Workspace configureert
 title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,9 @@ ht-degree: 0%
 >abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
 
 
+Stroomvisualisaties helpen u de reis te begrijpen die voortkomt uit een specifieke conversiegebeurtenis op uw website of uw app. Of leidt tot een specifieke conversiegebeurtenis. De visualisatie traceert een pad door uw dimensies (en dimensie-items) of metriek.
 
-Stroomvisualisaties helpen u de reis te begrijpen die voortvloeit uit of leidt tot een specifieke conversiegebeurtenis op uw website of uw app. Het traceert een pad door uw dimensies (en dimensie-items) of metriek.
-
-Met stroomvisualisaties kunt u het begin of einde van het pad configureren waarin u bent geïnteresseerd, of alle paden analyseren die door een dimensie- of dimensie-item lopen.
-
+U kunt het begin of het eind van de weg vormen u in geinteresseerd bent. U kunt ook alle paden analyseren die door een dimensie- of dimensie-item lopen.
 ![ nieuwe Stroom UI ](assets/new-flow.png)
 
 ## Gebruiken
@@ -175,7 +173,7 @@ Gebruik een contextmenu op een knooppunt in de stroomvisualisatie met de volgend
 | **[!UICONTROL Exclude item]** of **[!UICONTROL Restore excluded items]** | Hiermee verwijdert u een specifiek knooppunt uit de kolom en maakt u het automatisch als filter boven aan de kolom. Selecteer **[!UICONTROL Restore Excluded Item]** in het contextmenu om het uitgesloten item te herstellen. U kunt het filter ook boven aan de kolom openen en de pillarbox verwijderen met het item dat u zojuist hebt uitgesloten. |
 | **[!UICONTROL Trend]** | Creeer een trended diagram voor de knoop. |
 | **[!UICONTROL Show next column]** / **[!UICONTROL Show previous column]** | Geeft de volgende (rechts) of vorige (links) kolom van de visualisatie aan. |
-| **[!UICONTROL Hide colum]**&#x200B;n | Hiermee verbergt u de geselecteerde kolom uit de visualisatie. |
+| **[!UICONTROL Hide colum]**n | Hiermee verbergt u de geselecteerde kolom uit de visualisatie. |
 | **[!UICONTROL Expand entire column]** | Breid een kolom uit om alle knopen te tonen. Standaard worden alleen de bovenste vijf knooppunten weergegeven. |
 | **[!UICONTROL Create audience from selection]** | Hiermee maakt u een publiek op basis van de geselecteerde kolom. |
 | **[!UICONTROL Collapse entire column]** | Alle knooppunten in een kolom verbergen. |
@@ -204,8 +202,8 @@ In het voorbeeld hieronder, **alle** voorkomen van *hoofdcategorie van het Produ
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

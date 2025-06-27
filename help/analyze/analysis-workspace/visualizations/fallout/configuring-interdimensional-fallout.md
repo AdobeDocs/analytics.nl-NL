@@ -1,12 +1,12 @@
 ---
-description: Met de val in Analysis Workspace kunt u dimensies en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
-title: Multidimensionale uitval
+description: Leer hoe u met de fallout-visualisatie in Analysis Workspace dimensies en metingen kunt combineren en afstemmen als aanraakpunten in trechters en workflows. Begrijp hoe dit meer flexibiliteit in het bepalen van de gebruikersstappen verstrekt u wilt onderzoeken.
+title: Inter-dimensionale uitval
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 
 
 Met de functie voor uitvallen in Analysis Workspace kunt u dimensies en metriek combineren en combineren als aanraakpunten in trechters en workflows. Met valouts hebt u meer flexibiliteit bij het definiëren van de gebruikersstappen die u wilt onderzoeken.
+
+Naast een pagina-dimensie kunt u bijvoorbeeld andere dimensie-items toevoegen (zoals een specifieke apparaatnaam van de dimensie Apparaatnaam) aan een uitvalweergave. Door dimensies te combineren kunt u visualiseren hoe pagina&#39;s en bepaalde handelingen elkaar beïnvloeden in de paden van klanten.
 
 >[!BEGINSHADEBOX]
 

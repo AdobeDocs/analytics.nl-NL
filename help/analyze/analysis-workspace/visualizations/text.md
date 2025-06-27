@@ -1,13 +1,13 @@
 ---
-description: Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw Workspace.
+description: Leer hoe u door de gebruiker gedefinieerde tekst toevoegt aan uw Analysis Workspace-project.
 title: Tekst
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 0453f374e9027d1c539682212e880c4ebc81152f
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Tekst in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Tekst ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/text) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Tekst in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Tekst ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 U kunt
-Om user-defined rijke tekst aan uw project van Workspace toe te voegen, kunt u a ![&#128279;](/help/assets/icons/Text.svg) **[!UICONTROL Text]** visualisatie gebruiken van de Tekst  &lbrace;voor een visualisatie en een paneel.
+Om user-defined rijke tekst aan uw project van Workspace toe te voegen, kunt u a ](/help/assets/icons/Text.svg) **[!UICONTROL Text]** visualisatie gebruiken van de Tekst ![ {voor een visualisatie en een paneel.
 
 ## Gebruiken
 

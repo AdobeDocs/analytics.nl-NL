@@ -1,21 +1,21 @@
 ---
-description: Meer informatie over mappen in Workspace
+description: Leer hoe u uw projecten kunt ordenen in mappen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Overzicht van mappen
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
 # Overzicht van mappen
 
-De omslagen in Adobe Analytics zijn beschikbaar op de Workspace landende pagina wanneer u aan [ Show Omslagen &amp; Projecten ](../freeform-overview.md#show-selector) hebt geselecteerd.
-
 Met mappen in Workspace kunt u uw projecten ordenen en indelen. Met de omslagfunctionaliteit, kunt u omslagen en subfolders tot stand brengen om uw projecten te beheren.
+
+De omslagen in Adobe Analytics zijn beschikbaar op de Workspace landende pagina wanneer u aan [ Show Omslagen &amp; Projecten ](../freeform-overview.md#show-selector) hebt geselecteerd.
 
 Er zijn twee typen mappen in Workspace: de map Company en de persoonlijke mappen. Met een gedeelde bedrijfsmap kunnen beheerders inhoud maken en delen met alle Workspace-gebruikers.
 

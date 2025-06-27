@@ -1,22 +1,22 @@
 ---
-description: Elk van de bovenste vergelijkingstabellen toont een verschilscore die door verscheidene statistische tests afhankelijk van wordt berekend die wordt gemaakt; nochtans, ongeacht welke test wordt gebruikt, wordt de verschilscore getoond als waarde tussen 0 en 1.
+description: Leer hoe de statistische tests in segmentvergelijking worden gebruikt.
 keywords: Analysis Workspace;Segment-IQ
-title: Statistische tests bij segmentvergelijking
+title: Statistische tests gebruikt in segmentvergelijking
 feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 2%
+source-wordcount: '444'
+ht-degree: 0%
 
 ---
 
-# Statistische tests bij segmentvergelijking
+# Statistische tests die worden gebruikt bij de vergelijking van segmenten
 
 Elk van de bovenste vergelijkingstabellen toont een verschilscore die door verscheidene statistische tests afhankelijk van wordt berekend die wordt gemaakt; nochtans, ongeacht welke test wordt gebruikt, wordt de verschilscore getoond als waarde tussen 0 en 1.
 
-Een score van 0 betekent dat er geen verschil is tussen de twee segmenten en een score van 1 betekent dat er een zeer groot verschil was tussen de twee segmenten. Er worden twee soorten statistische tests gebruikt om deze verschillen te genereren: Voor de Top Metrics lijst wordt een Mann-Whitney U test gebruikt, en voor de Top Dimension Items en Top Segments lijst wordt een vergelijking van het risicoverschil gebruikt.
+Een score van 0 betekent dat er geen verschil is tussen de twee segmenten en een score van 1 betekent dat er een zeer groot verschil was tussen de twee segmenten. Er zijn twee soorten statistische tests die worden gebruikt om deze verschilscores te genereren: voor de tabel Bovenste cijfers wordt een Mann-Whitney U-test gebruikt en voor de tabel Bovenste Dimension-items en Bovenste segmenten wordt een vergelijking van het risicoverschil gebruikt.
 
 ## Beste metrische verschilscore {#section_5E8047464EB945C78543B25F8F30F17A}
 

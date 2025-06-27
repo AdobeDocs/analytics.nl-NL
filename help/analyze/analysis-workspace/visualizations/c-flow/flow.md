@@ -1,13 +1,13 @@
 ---
-description: Gebruik de stroomvisualisatie in een project van Workspace.
+description: Leer hoe u de stroomvisualisatie in een Analysis Workspace kunt gebruiken.
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -24,24 +24,25 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Stroom"
->abstract="Analyseer de stroom van bezoeken of bezoekers van één aanraakpunt aan volgende.<br/><br/>**Parameters &#x200B;**<br/>**Begint met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste het voorkomen touchpoints na het voorkomen van de geselecteerde component te zien.<br/>**bevat**: Voeg een afmeting of een afmetingspunt toe om de hoogste het voorkomen aanraakpunten vóór en na het voorkomen van de geselecteerde component te zien.<br/>**eindigt met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste voordien touchpoints vóór het voorkomen van de geselecteerde component te zien.<br/>**het Schilderen afmeting**: Voeg een afmeting toe om als uw weg te gebruiken die aan of van uw geselecteerde component leidt te gaan."
+>abstract="Analyseer de stroom van bezoeken of bezoekers van één aanraakpunt aan volgende.<br/><br/>**Parameters **<br/>**Begint met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste het voorkomen touchpoints na het voorkomen van de geselecteerde component te zien.<br/>**bevat**: Voeg een afmeting of een afmetingspunt toe om de hoogste het voorkomen aanraakpunten vóór en na het voorkomen van de geselecteerde component te zien.<br/>**eindigt met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste voordien touchpoints vóór het voorkomen van de geselecteerde component te zien.<br/>**het Schilderen afmeting**: Voeg een afmeting toe om als uw weg te gebruiken die aan of van uw geselecteerde component leidt te gaan."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Stroom in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Stroom ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Stroom in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Stroom ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
-De flowfunctie toont de paden van klanten via uw websites en apps.
+De ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** visualisatie toont klantenwegen door uw websites en apps.
 
-Hiermee kunt u:
+Met de visualisatie kunt u:
 
-* De reis van de klant door uw website of toepassing visualiseren
-* Analyseren waar klanten voor en na opgegeven controlepunten gaan, zoals ingang, een specifieke afmeting, of uitgang
-* Segmenten maken door een specifiek punt op te geven in een gekozen pad
+* Visualiseer de reis van de klant door uw website of toepassing.
+* Analyseer waar klanten voor en na gespecificeerde controlepunten, zoals ingang, een specifieke afmeting, of uitgang gaan.
+* Maak segmenten door een specifiek punt op te geven in een gekozen pad.
+
 
 
 >[!BEGINSHADEBOX]
@@ -51,7 +52,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vloeisualisat
 >[!ENDSHADEBOX]
 
 
-## Inter-dimensionale stromen {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## Interdimensionale stromen
 
 U kunt de [ stroom tussen afmetingen ](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tonen. U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mens, dan naar de afdeling van Schoenen kunnen gaan.
 
@@ -67,7 +68,7 @@ Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een d
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#128279;](/help/assets/icons/VideoCheckedOut.svg) [ Extra functionaliteit 0&rbrace; VideoCheckedOut in de visualisatie van de Stroom ](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Extra functionaliteit 0} VideoCheckedOut in de visualisatie van de Stroom ](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} voor een demo video.![
 
 >[!ENDSHADEBOX]
 

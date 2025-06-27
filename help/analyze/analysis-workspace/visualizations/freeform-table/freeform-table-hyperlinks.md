@@ -1,17 +1,17 @@
 ---
-title: Hyperlinks maken in een vrije-vormtabel in Analysis Workspace
-description: Leer hoe u hyperlinks maakt voor dimensie-items in een vrije-vormtabel in Analysis Workspace
+title: Hyperlinks maken voor afmetingen in een vrije-vormtabel
+description: Leer hoe u hyperlinks maakt voor dimensie-items in een vrije-vormentabel in Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: bb3e8b030af78f0d7758b4cff41d66f20695e11e
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
 
-# Hyperlinks maken voor afmetingen in een vrije-vormtabel
+# Hyperlinks maken
 
 U kunt hyperlinks maken voor dimensie-items, zodat hierop kan worden geklikt in een vrije-vormtabel in Analysis Workspace.
 
@@ -19,15 +19,15 @@ Deze functionaliteit is vooral handig bij het maken van hyperlinks voor de volge
 
 * Dimension-items met URL-waarden (bijvoorbeeld een pagina-URL-dimensie).
 
-* Items van een Dimension die onderverdelingen bevatten die URL-waarden hebben (bijvoorbeeld een pagina-naamdimensie met een indeling van een pagina-URL-dimensie).
+* Dimension-items die onderverdelingen bevatten met URL-waarden (bijvoorbeeld een paginanummer met een indeling van een pagina-URL-dimensie).
 
-* Items of uitsplitsingen in Dimensionen die waarden hebben die onderdeel zijn van een URL (bijvoorbeeld een dimensie Paginanaam die deel uitmaakt van een URL).
+* Dimension-items of uitsplitsingen die waarden hebben die onderdeel zijn van een URL (bijvoorbeeld een paginanaam die deel uitmaakt van een URL).
 
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Hyperlinks voor afmeting ](https://video.tv.adobe.com/v/3445790?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Hyperlinks voor afmeting ](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -128,7 +128,7 @@ U kunt hyperlinks bewerken die zijn gemaakt voor dimensies of dimensies-items in
 
    [!UICONTROL **geeft hyperlinks voor afmetingspunten**] dialoog uit wordt getoond.
 
-1. Voor informatie over de configuratieopties om hyperlink uit te geven, zie Stap 3 in [ hyperlinks voor één of meerdere afmetingspunten ](#create-hyperlinks-for-one-or-more-dimension-items) sectie hierboven creëren, dan uitgezocht [!UICONTROL **&#x200B;**] toepassen wanneer u met uw updates wordt gebeëindigd.
+1. Voor informatie over de configuratieopties om hyperlink uit te geven, zie Stap 3 in [ hyperlinks voor één of meerdere afmetingspunten ](#create-hyperlinks-for-one-or-more-dimension-items) sectie hierboven creëren, dan uitgezocht [!UICONTROL ****] toepassen wanneer u met uw updates wordt gebeëindigd.
 
 1. [ sparen het project ](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) om uw veranderingen te bewaren.
 

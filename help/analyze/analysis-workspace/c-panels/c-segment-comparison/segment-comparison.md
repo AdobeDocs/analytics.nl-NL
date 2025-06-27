@@ -1,13 +1,13 @@
 ---
-title: Overzicht van het vergelijkingspaneel voor segmenten
-description: Leer hoe u het vergelijkingspaneel voor segmenten gebruikt, onderdeel van de IQ voor segmenten in Analysis Workspace.
+title: Overzicht van het deelvenster Segmentvergelijking
+description: Leer hoe u het vergelijkingspaneel voor segmenten in Analysis Workspace kunt gebruiken.
 keywords: Analysis Workspace;Segment-IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Het vergelijkingspaneel Segment"
->abstract="Vergelijk snel twee segmenten in alle gegevenspunten om automatisch relevante verschillen te vinden.<br/><br/>**Parameters &#x200B;**<br/>**voegen een segment** toe: Het eerste segment u wilt analyseren.<br/>**vergelijk tegen**: Het tweede segment u tegen wilt vergelijken. Dit zal automatisch met *Eenieder anders* bevolken die het omgekeerde van uw eerste segment is. U kunt dit desgewenst vervangen door een ander segment.<br/>**Geavanceerde montages**: De capaciteit om componenten van worden geanalyseerd in de segmentvergelijking uit te sluiten."
+>abstract="Vergelijk snel twee segmenten in alle gegevenspunten om automatisch relevante verschillen te vinden.<br/><br/>**Parameters **<br/>**voegen een segment** toe: Het eerste segment u wilt analyseren.<br/>**vergelijk tegen**: Het tweede segment u tegen wilt vergelijken. Dit zal automatisch met *Eenieder anders* bevolken die het omgekeerde van uw eerste segment is. U kunt dit desgewenst vervangen door een ander segment.<br/>**Geavanceerde montages**: De capaciteit om componenten van worden geanalyseerd in de segmentvergelijking uit te sluiten."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het de vergelijkingspaneel van het Segment in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_dit artikel documenteert het de vergelijkingspaneel van het Segment in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -91,7 +91,7 @@ Nadat Adobe Analytics de twee gewenste segmenten heeft geanalyseerd, geeft het u
 | **[!UICONTROL Top dimension items against Segments]** | A [ Vrije lijst van de Vorm ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de gemengde afmetingspunten voor de geselecteerde segmenten toont. |
 | **[!UICONTROL Dimension items by Segments]** | A [ Horizontale bar ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die de afmetingspunten door segment tonen. |
 | **[!UICONTROL Top segments against Segments]** | A [ Vrije lijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de hoogste segmenten tegen Segmenten toont. |
-| **[!UICONTROL Segment overlap]** | A [&#128279;](/help/analyze/analysis-workspace/visualizations/venn.md) visualisatie van het verduisteren  dat het segmentoverlapping toont. |
+| **[!UICONTROL Segment overlap]** | A ](/help/analyze/analysis-workspace/visualizations/venn.md) visualisatie van het verduisteren [ dat het segmentoverlapping toont. |
 
 Het gebruik ![ geeft ](/help/assets/icons/Edit.svg) uit om het paneel opnieuw te vormen en te bouwen.
 

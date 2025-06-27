@@ -1,52 +1,64 @@
 ---
-description: Leer hoe u projecten uit mappen kunt verwijderen
+description: Leer hoe u projecten uit Analysis Workspace kunt verwijderen.
 keywords: Analysis Workspace
-title: Projecten uit mappen verwijderen
+title: Projecten verwijderen
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 6fad2afb2b5792b6d6fbf8d94fff37b92cc18bda
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
 # Projecten verwijderen
 
-Als u een project uit een map wilt verwijderen, kunt u het project naar een andere locatie verplaatsen of het project verwijderen.
+
+Zie [ Acties in leiden projecten ](../freeform-overview.md#actions) op hoe te om projecten uit Analysis Workspace te verwijderen.
+
+
+
+<!-- Is this article still needed; not in the TOC anymore
+
+
+# Delete projects
+
+To remove a project from a folder, you can move the project to another location or delete the project.
 
 >[!NOTE]
 >
->Wanneer Admin een project naar de Omslag van het Bedrijf verplaatst, wordt de omslag gedeeld met iedereen zelfs als de originele gedeelde voorrechten werden beperkt. Wanneer Admin een project uit de Omslag van het Bedrijf beweegt, worden de originele of vorige het delen voorrechten gerespecteerd.
+>When an Admin moves a project to the Company Folder, the folder is shared with everyone even if the original shared privileges were restricted. When an Admin moves a project out of the Company Folder, the original or previous sharing privileges are respected.
 
-## Een project verplaatsen {#move-project-in-folder}
+## Move a project {#move-project-in-folder}
 
-U kunt projecten van één omslag naar een andere omslag verplaatsen die u creeerde.
+You can move projects from one folder to another folder that you created.
 
-1. Van binnen een projectomslag, selecteer **..** ellips naast de projectnaam.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Selecteer **Beweging aan** en selecteer dan een omslag om het project te bewegen naar.
+1. Select **Move to** and then select a folder to move the project to.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-1. Klik **Beweging**.
+1. Click **Move**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-   Een toast bevestigt dat het project werd verplaatst.
+    A toast confirms that the project was moved.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## Een project verwijderen uit een projectmap {#delete-project-in-folder}
+## Delete a project from a project folder {#delete-project-in-folder}
 
-Wanneer u een project uit een map verwijdert, wordt het na 180 dagen uit het systeem gewist. Tijdens de 180 dagen na schrapping, kunnen de gebruikers tot een geschrapt project via de interface van het Web nog toegang hebben als zij een URL aan het project hebben.
+When you delete a project from a folder, it gets purged from the system after 180 days. During the 180 days after deletion, users can still access a deleted project via the Web interface if they have a URL to the project.
 
-1. Van binnen een projectomslag, selecteer **..** ellips naast de projectnaam.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Selecteer **Schrapping**.
+1. Select **Delete**.
 
-1. In een bevestigingsvenster wordt u gevraagd de verwijdering te bevestigen.
+1. A confirmation window asks you to confirm the deletion.
+
+-->

@@ -1,12 +1,12 @@
 ---
-description: Gebruik de fallout visualisatie in een Workspace-project.
+description: Leer hoe u de fallout-visualisatie in Analysis Workspace kunt gebruiken.
 title: Overzicht van uitval
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Uitval in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Uitval ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Uitval in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Uitval ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
-Vallout-visualisaties bieden meer opties voor het samenstellen van uw uitvalrapporten. Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen).
+A ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** visualisatie toont waar de personen (uit) verlieten en door (vielen door) een vooraf bepaalde opeenvolging van pagina&#39;s vervielen.
 
 
 >[!BEGINSHADEBOX]
@@ -37,6 +37,8 @@ Vallout-visualisaties bieden meer opties voor het samenstellen van uw uitvalrapp
 Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Uitval ](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
+
+
 
 
 Met uitvalvisualisaties kunt u

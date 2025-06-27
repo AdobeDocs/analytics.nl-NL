@@ -1,12 +1,12 @@
 ---
 title: Deelvenster Mediagelijktijdige viewers
-description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace gebruiken en interpreteren.
+description: Leer het deelvenster Mediagelijktijdige viewers in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Medium gezamenlijke kijkers in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**._<br/>_zie [ Medium gezamenlijke kijkers ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert het Medium gezamenlijke kijkers in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_zie [ Medium gezamenlijke kijkers ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -44,12 +44,12 @@ _dit artikel documenteert het Medium gezamenlijke kijkers in_ ![ AdobeAnalytics 
 >
 >Het deelvenster Mediapubliek met een gemiddeld aantal minuten is alleen beschikbaar voor klanten die de invoegtoepassing voor de verzameling van streaming media voor Adobe Analytics hebben aangeschaft.
 >
->Neem voor meer informatie contact op met uw Adobe Verkoopvertegenwoordiger of accountteam van de Adobe.
+>Neem contact op met uw Adobe Sales-vertegenwoordiger of Adobe-accountteam voor meer informatie.
 >
 
 Met het deelvenster **[!UICONTROL Media concurrent viewers]** kunt u in de loop der tijd gelijktijdige viewers analyseren, met details over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.
 
-U kunt gelijktijdige viewers analyseren om te begrijpen waar de piekgelijktijdige uitvoering plaatsvond of waar drop-outs waardevolle inzichten in de kwaliteit van de inhoud en de betrokkenheid van de kijker gaven. En voor hulp bij het oplossen van problemen of het plannen voor volume of schaal.
+U kunt gelijktijdige viewers analyseren om te zien waar de piekgelijktijdige uitvoering plaatsvond of waar drop-outs waardevolle insight hebben verschaft voor de kwaliteit van de inhoud en de betrokkenheid van de viewer. En voor hulp bij het oplossen van problemen of het plannen voor volume of schaal.
 
 In Analysis Workspace is de metrische waarde voor Gelijktijdige viewers het aantal unieke personen dat uw mediastreams op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.
 
@@ -131,8 +131,8 @@ In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbr
 >[!MORELIKETHIS]
 >
 >[ creeer een paneel ](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
->[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
+>>[De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
+>>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel

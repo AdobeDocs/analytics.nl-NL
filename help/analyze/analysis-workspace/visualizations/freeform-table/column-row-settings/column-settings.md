@@ -1,26 +1,26 @@
 ---
-description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
+description: Leer hoe u kolominstellingen kunt bewerken om kolomopmaak te configureren, waarvan sommige voorwaardelijk kunnen zijn.
 title: Kolominstellingen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '803'
 ht-degree: 7%
 
 ---
 
 
-# [!UICONTROL Column Settings]
+# Kolominstellingen
 
 Met [!UICONTROL Column settings] kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#128279;](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0&rbrace; VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0} VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.![
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ U kunt instellingen voor meerdere kolommen tegelijk bewerken. Selecteer veelvoud
 
 | Optie | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Show total]** | Een som van de kolommen aan de clientzijde weergeven. Dit totaal **&#x200B;**&#x200B;dedupliceert metriek zoals zittingen of personen niet. |
+| **[!UICONTROL Show total]** | Een som van de kolommen aan de clientzijde weergeven. Dit totaal **** dedupliceert metriek zoals zittingen of personen niet. |
 | **[!UICONTROL Show grand total]** | Toon een server-zijsom van de kolom. Het totaal-generaal dedupliceert metriek zoals zittingen of personen. |
 | **[!UICONTROL Show sparkline]** | Een lijndiagram weergeven bij de kolomkop. |
 | **[!UICONTROL Number]** | Bepaal of een cel de numerieke waarde voor de metrische waarde weergeeft/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
@@ -57,7 +57,7 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 
 | Opties voor voorwaardelijke opmaak | Beschrijving |
 | --- | --- |
-| **[!UICONTROL &#x200B; Use percent limits]** | Wijzig het limietbereik zodat dit op percentages wordt gebaseerd in plaats van op absolute waarden. Het percentagelimietbereik werkt voor metriek die uitsluitend op percentage gebaseerd zijn (zoals Stuitsnelheid) en voor metriek die een telling en een percentage hebben (zoals Paginaweergaven). |
+| **[!UICONTROL  Use percent limits]** | Wijzig het limietbereik zodat dit op percentages wordt gebaseerd in plaats van op absolute waarden. Het percentagelimietbereik werkt voor metriek die uitsluitend op percentage gebaseerd zijn (zoals Stuitsnelheid) en voor metriek die een telling en een percentage hebben (zoals Paginaweergaven). |
 | **[!UICONTROL Auto-generated]** | Berekent automatisch de bovenste/middelste/onderste limieten op basis van de gegevens. De bovengrens is de hoogste waarde in deze kolom. De ondergrens is de laagste en het middelpunt is het gemiddelde van de boven- en ondergrens. |
 | **[!UICONTROL Custom]** | Wijs **[!UICONTROL Upper limit]**, **[!UICONTROL Midpoint]** en **[!UICONTROL Lower limit]** handmatig toe. De grenzen verstrekken de flexibiliteit om te bepalen wanneer een kolomwaarde goed, gemiddeld, of slecht wordt. |
 | **[!UICONTROL Conditional formatting palette]** | Pas een vooraf geconfigureerde kleurenset toe op cellen. Afhankelijk van welke van de vier beschikbare kleurenschema&#39;s u selecteert, worden de verschillende kleuren toegewezen aan hoge waarden, middelpuntwaarden, en lage waarden. <br> Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metric vervangt, worden de limieten voor die kolom opnieuw berekend (waarbij de metric op de X-as staat en de dimensie op de Y-as). |

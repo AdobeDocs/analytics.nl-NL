@@ -1,13 +1,13 @@
 ---
-description: De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept.
+description: Leer hoe u rijinstellingen gebruikt en hoe de rijinstellingen variëren, afhankelijk van de component die u naar een vrije-vormtabel in Analysis Workspace hebt gesleept.
 title: Rijinstellingen
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#128279;](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0&rbrace; VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0} VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.![
 
 >[!ENDSHADEBOX]
 
-De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept. Om tot de montages van de lijstrij toegang te hebben, selecteer ![&#128279;](/help/assets/icons/Setting.svg) Plaatsend **[!UICONTROL Settings]** naast een afmeting, filter, metrisch, tijdspanne, of een onderbreking binnen elk van deze voorwerpen.
+De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept. Om tot de montages van de lijstrij toegang te hebben, selecteer ](/help/assets/icons/Setting.svg) Plaatsend **[!UICONTROL Settings]** naast een afmeting, filter, metrisch, tijdspanne, of een onderbreking binnen elk van deze voorwerpen.![
 
 ![ vrije lijst die van de Vorm het pictogram van Montages voor Metriek ](assets/row-settings.png) benadrukken
 
@@ -92,4 +92,4 @@ De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u e
 
 ## Rijhoogte wijzigen
 
-U kunt de weergavedichtheid van een project instellen op **[!UICONTROL Compact]** , **[!UICONTROL Comfortable]** en **[!UICONTROL Expanded]** . [ leer meer ](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
+U kunt de [ meningsdichtheid ](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) van een project plaatsen aan **[!UICONTROL Compact]**, **[!UICONTROL Comfortable]**, en **[!UICONTROL Expanded]**.

@@ -1,19 +1,19 @@
 ---
-description: Leer hoe u mappen beheert in Workspace
+description: Leer hoe u mappen beheert in Analysis Workspace.
 keywords: Analysis Workspace
 title: Mappen beheren
 feature: Workspace Basics
 exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
-source-git-commit: 83345d6fa51253e7c316cd1b2ebee2f4f82e9d00
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
 
 # Mappen beheren
 
-U kunt mappen in Workspace op twee manieren beheren. Vanuit de map of vanuit een of meer geselecteerde mappen in de projectlijst. Mappen beheren omvat het hernoemen, verplaatsen of verwijderen van mappen.
+U kunt mappen in Workspace op twee manieren beheren. Vanuit de map of vanuit een of meer geselecteerde mappen in de projectlijst. Mappen beheren bevat opties voor het wijzigen, verplaatsen of verwijderen van mappen.
 
 ## Mappen hernoemen
 
@@ -24,13 +24,13 @@ De naam van mappen in Workspace wijzigen:
 * Selecteer een omslag die u in de [ lijst van het Project ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) wilt anders noemen.
 
    1. Selecteer **[!UICONTROL Rename]** van de [ acties ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) beschikbaar van het contextmenu ![ Meer ](/help/assets/icons/More.svg) van de geselecteerde omslag, of de blauwe actiebar.
-   1. In de **[!UICONTROL Rename: *de omslagnaam *]**&#x200B;dialoog, ga een nieuwe naam in en selecteer **[!UICONTROL Save]**.
+   1. In de **[!UICONTROL Rename: *de omslagnaam *]**dialoog, ga een nieuwe naam in en selecteer **[!UICONTROL Save]**.
 
 * In de map waarvan u de naam wilt wijzigen.
 
    1. Selecteer **[!UICONTROL Rename folder]** van ![ Meer ](/help/assets/icons/More.svg) in het [ gebied van de Titel ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. In de **[!UICONTROL Rename: *omslagnaam *]**&#x200B;dialoog gaat een nieuwe naam in en selecteert **[!UICONTROL Save]**.
+   1. In de **[!UICONTROL Rename: *omslagnaam *]**dialoog gaat een nieuwe naam in en selecteert **[!UICONTROL Save]**.
 
 
 ## Mappen verplaatsen
@@ -76,7 +76,7 @@ Mappen verwijderen in Workspace:
 
    1. Selecteer **[!UICONTROL Delete folder]** van ![ Meer ](/help/assets/icons/More.svg) in het [ gebied van de Titel ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. In de **[!UICONTROL Delete *naam *omslag?]**&#x200B;selecteert u **[!UICONTROL OK]**.
+   1. In de **[!UICONTROL Delete *naam *omslag?]**selecteert u **[!UICONTROL OK]**.
 
 
 <!-- 

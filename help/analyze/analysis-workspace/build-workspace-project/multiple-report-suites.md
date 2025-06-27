@@ -1,10 +1,10 @@
 ---
-title: Meerdere rapportsuites
-description: Leer hoe en waarom u projecten maakt in Workspace met meerdere rapportsuite
+title: Meerdere rapportsets
+description: Leer hoe u met meerdere rapportensuites werkt in één Analysis Workspace-project.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -71,6 +71,6 @@ U kunt het actieve deelvenster herkennen aan de lichtblauwe rand eromheen. Selec
 
 1. (Optioneel) U kunt ook naar andere componentbuilders van Analytics gaan en ervoor zorgen dat deze nu een label van een rapportsuite tonen die
 
-   * Waar een segment zal worden gecreeerd: [ de bouwer van het Segment ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=nl-NL).
-   * Waar berekende metrisch zal worden gecreeerd: [ Berekende metrische bouwer ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=nl-NL).
-   * Waar een alarm zal worden gebouwd: [ Alert bouwer ](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=nl-NL).
+   * Waar een segment zal worden gecreeerd: [ de bouwer van het Segment ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Waar berekende metrisch zal worden gecreeerd: [ Berekende metrische bouwer ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * Waar een alarm zal worden gebouwd: [ Alert bouwer ](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).

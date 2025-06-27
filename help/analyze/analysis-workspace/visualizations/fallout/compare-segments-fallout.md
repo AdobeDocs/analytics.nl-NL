@@ -1,13 +1,13 @@
 ---
-description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
+description: Leer hoe u segmenten van een aanraakpunt kunt maken, segmenten als aanraakpunt kunt toevoegen en de belangrijkste workflows voor verschillende segmenten kunt vergelijken in een falloutanalyse in Analysis Workspace.
 keywords: fallout en segmentatie;segmenten in falloutanalyse;vergelijk segmenten in fallout
-title: Segmenten toepassen in een falloutanalyse
+title: Segmenten toepassen in Fallout-analyse
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,12 @@ U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoeg
 
 >[!IMPORTANT]
 >
->De segmenten die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Met een bezoeker-contextVallout, moeten de segmenten die als controlepunten worden gebruikt bezoek of op slag-gebaseerde segmenten zijn. Met een bezoek-contextVallout, moeten de segmenten die als controlepunt worden gebruikt op hit-Gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. We hebben een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel segment toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van segmentcontainers leiden tot ongeldige evaluatieschema&#39;s, zoals:
-
-* Een op bezoekers gebaseerd segment gebruiken als aanraakpunt binnen een bezoekerscontext-Fallout-visualisatie
-* Een op bezoekers gebaseerd segment gebruiken als aanraakpunt binnen een visualisatie voor &#39;visit-context&#39;
-* Het gebruiken van een op bezoek-gebaseerd segment als touchpoint binnen een bezoek-contextVallout visualisatie
+>De segmenten die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Met een bezoeker-contextVallout, moeten de segmenten die als controlepunten worden gebruikt bezoek of op slag-gebaseerde segmenten zijn. Met een bezoek-contextVallout, moeten de segmenten die als controlepunt worden gebruikt op hit-Gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. U ziet een waarschuwing in de Fallout visualisatie wanneer u een incompatibel segment als aanraakpunt toevoegt. Bepaalde ongeldige combinaties van segmentcontainers leiden tot ongeldige evaluatieschema&#39;s, zoals:
+>
+>* Een op bezoekers gebaseerd segment gebruiken als aanraakpunt binnen een bezoekerscontext-uitvalvisualisatie.
+>* Het gebruiken van een op bezoeker-gebaseerd segment als touchpoint binnen een bezoek-contextVallout visualisatie.
+>* Het gebruiken van een op bezoek-gebaseerd segment als touchpoint binnen een bezoek-contextVallout visualisatie.
+>
 
 ## Een segment maken van een aanraakpunt {#section_915E8FBF35CD4F34828F860C1CCC2272}
 

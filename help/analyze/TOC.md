@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 7%
+source-wordcount: '896'
+ht-degree: 8%
 
 ---
 
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -31,15 +31,15 @@ ht-degree: 7%
       + [Projecten maken](analysis-workspace/build-workspace-project/create-projects.md)
       + [Projecten openen](analysis-workspace/build-workspace-project/open-projects.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
-      + [Inhoudsopgave van project](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
+      + [Inhoudsopgave](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Mappen in Workspace {#workspace-folders}
          + [Overzicht van mappen](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Mappen en submappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Mappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Mappen beheren](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [Projecten toevoegen aan of verplaatsen naar mappen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [Sjablonen](analysis-workspace/build-workspace-project/starter-projects.md)
+         + [Projecten toevoegen of verplaatsen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+      + [Tempates](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Meerdere rapportsuites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [Hotkeys (sneltoetsen)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [Hotkeys](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Kleurenpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Weergavedichtheid](analysis-workspace/build-workspace-project/view-density.md)
    + Sjablonen {#templates}
@@ -75,62 +75,62 @@ ht-degree: 7%
          + [Onderdeelitems bewerken in het gegevenswoordenboek](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [Gezondheid gegevenswoordenboek controleren](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualisaties {#visualizations}
-      + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [Overzicht](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gegevensbronnen beheren](analysis-workspace/visualizations/t-sync-visualization.md)
       + Vrije-vormtabel {#freeform-table}
-         + [Vrije-vormtabel](analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [Hyperlinks maken voor afmetingen in een vrije-vormtabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Overzicht](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Hyperlinks maken](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
             + [Kolominstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rijinstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [Dynamische versus statische items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Vrije-vormtabellen filteren en sorteren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Workspace Totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+            + [Dynamische en statische items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Filteren en sorteren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohortabel {#cohort-table}
-         + [Wat is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [Een rapport Cohortanalyse configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Gebruiksgevallen van Cohort Analyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Overzicht](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [Configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [Gebruik hoofdletters](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
-         + [Overzicht van uitval](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [Een fallout-visualisatie configureren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Multidimensionale uitval](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [Segmenten toepassen in een falloutanalyse](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [Overzicht](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [Configureren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Interdimensionale uitval](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Segmenten toepassen](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Stroom {#flow}
-         + [Overzicht van stroom](analysis-workspace/visualizations/c-flow/flow.md)
-         + [Een stroomvisualisatie configureren](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [Overzicht](analysis-workspace/visualizations/c-flow/flow.md)
+         + [Configureren](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale stromen](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Gebied en gebied gestapeld](analysis-workspace/visualizations/area.md)
       + [Stapel en balk gestapeld](analysis-workspace/visualizations/bar.md)
-      + [Bullet](analysis-workspace/visualizations/bullet-graph.md)
-      + [Combodiagram](analysis-workspace/visualizations/combo-charts.md)
+      + [Opsommingsteken](analysis-workspace/visualizations/bullet-graph.md)
+      + [Combo](analysis-workspace/visualizations/combo-charts.md)
       + [Donut](analysis-workspace/visualizations/donut.md)
       + [Histogram](analysis-workspace/visualizations/histogram.md)
-      + [Horizontale balk en horizontale balk gestapeld](analysis-workspace/visualizations/horizontal-bar.md)
+      + [Horizontale balk (gestapeld)](analysis-workspace/visualizations/horizontal-bar.md)
       + [Samenvatting van metrische sleutel](analysis-workspace/visualizations/key-metric.md)
       + [Lijn](analysis-workspace/visualizations/line.md)
       + [Kaart](analysis-workspace/visualizations/map-visualization.md)
       + [Scatterplot](analysis-workspace/visualizations/scatterplot.md)
       + [Sectiekop](/help/analyze/analysis-workspace/visualizations/section-header.md)
-      + [Samenvattingsnummer en Samenvattingswijziging](analysis-workspace/visualizations/summary-number-change.md)
+      + [Samenvattingsnummer en wijziging](analysis-workspace/visualizations/summary-number-change.md)
       + [Tekst](analysis-workspace/visualizations/text.md)
-      + [Boomstructuur](analysis-workspace/visualizations/treemap.md)
+      + [Treemap](analysis-workspace/visualizations/treemap.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
    + Deelvensters {#panels}
-      + [Overzicht van deelvensters](analysis-workspace/c-panels/panels.md)
-      + [Analyses voor venster Doel (A4T)](analysis-workspace/c-panels/a4t-panel.md)
-      + [Kenmerk, deelvenster](analysis-workspace/c-panels/attribution.md)
-      + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
-      + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
-      + [Deelvenster Gemiddelde media - geluid](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Deelvenster Mediagelijktijdige viewers](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Media afspelen tijd besteed, deelvenster](analysis-workspace/c-panels/media-playback-time-spent.md)
-      + [Volgend of vorig deelvenster met items](analysis-workspace/c-panels/next-previous.md)
-      + [Het deelvenster Paginaoverzicht](analysis-workspace/c-panels/page-summary.md)
-      + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
-      + Het vergelijkingspaneel Segment {#segment-comparison}
-         + [Overzicht van de segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [Gebruiksgevallen voor vergelijking van segmenten](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
-         + [Statistische tests gebruikt bij de vergelijking van segmenten](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
+      + [Overzicht](analysis-workspace/c-panels/panels.md)
+      + [Leeg](analysis-workspace/c-panels/blank-panel.md)
+      + [Analyses voor doel](analysis-workspace/c-panels/a4t-panel.md)
+      + [Attributie](analysis-workspace/c-panels/attribution.md)
+      + [Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
+      + [Gemiddeld aantal minuten voor medium](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [Gelijktijdige viewers voor media](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [De afspeeltijd van media is verstreken](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [Volgende of vorige item](analysis-workspace/c-panels/next-previous.md)
+      + [Overzicht van pagina](analysis-workspace/c-panels/page-summary.md)
+      + [Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
+      + Segmentvergelijking {#segment-comparison}
+         + [Overzicht](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [Gebruik hoofdletters](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [Statistische tests gebruikt](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + De projecten van de cursus, van het Aandeel, en van het Programma {#curate-share}
       + [Overzicht](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)

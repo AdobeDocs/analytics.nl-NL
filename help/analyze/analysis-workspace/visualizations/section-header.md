@@ -1,12 +1,12 @@
 ---
 title: Sectiekop
-description: Een visualisatie die een sectiekop in uw Workspace-project opneemt.
+description: Gebruik de sectiekop om een sectiekoptekst in te voegen in uw Analysis Workspace-project.
 feature: Visualizations
 role: User
 exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!BEGINSHADEBOX]
 
 
-_dit artikel documenteert de kopbal van de Sectie visualisatie in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ kopbal van de Sectie ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/section-header) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de kopbal van de Sectie visualisatie in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ kopbal van de Sectie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -40,6 +40,6 @@ Als u de tekst van de sectiekoptekst wilt wijzigen, selecteert u gewoon **[!UICO
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
