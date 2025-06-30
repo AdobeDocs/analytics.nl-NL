@@ -51,7 +51,7 @@ U kunt als volgt de projectcuratie verwijderen en de volledige set componenten i
 
 ## Curve virtuele rapportsuite
 
-Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [ tot stand brengen ](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
+Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [ tot stand brengen ](https://experienceleague.adobe.com/nl/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
 >
