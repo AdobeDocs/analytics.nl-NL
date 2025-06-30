@@ -1,13 +1,13 @@
 ---
-description: Met Curatie kunt u componenten beperken voordat u een project deelt.
+description: Leer hoe u projecten in Analysis Workspace kunt beheren. De kromming beperkt toegang tot componenten alvorens u een project deelt.
 keywords: Analysis Workspace curation
 title: Cursieve projecten
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Als een project veelvoudige rapportreeksen heeft, ziet u een curate dalingsdoel 
 1. (Optioneel) Als u meer componenten wilt toevoegen, sleept u componenten die u wilt delen van het linkerdeelvenster naar de neerzetzone **[!UICONTROL Curate components]** voor de gegevensweergave.
 1. Selecteer **[!UICONTROL Done]** .
 
-U kunt de curve ook toepassen vanuit het menu [!UICONTROL Share] door **[!UICONTROL Curate and Share]** te selecteren. Deze optie leidt automatisch het project tot de componenten in gebruik in het project. U kunt aanvullende componenten toevoegen na de bovenstaande stappen.
 
 ![](assets/curation-field.png)
 
@@ -52,7 +51,7 @@ U kunt als volgt de projectcuratie verwijderen en de volledige set componenten i
 
 ## Curve virtuele rapportsuite
 
-Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [ tot stand brengen ](https://experienceleague.adobe.com/nl/docs/analytics/components/virtual-report-suites/vrs-components).
+Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [ tot stand brengen ](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
 >
@@ -72,6 +71,6 @@ Opmerking: niet-beheerfuncties hebben geen toegang tot de linkerspoorstaaf in ee
 
 | Curvetype | Admins | Niet-Admin-projecteigenaar of -bewerkingsrol | Niet-beheerder dubbele rol |
 |---|---|---|---|
-| Cursief virtueel rapportenpakket | Alle niet-beheerde componenten van de Virtuele rapportreeks | Niet-beheerde componenten van de Virtuele rapportreeks die deze rol bezit of die met hen zijn gedeeld | Niet-beheerde componenten van de Virtuele rapportreeks die deze rol bezit of die met hen zijn gedeeld |
-| Gekromd project | Alle niet-gekrulde projectcomponenten | Alle niet-gekrulde projectcomponenten | Niet-gekrulde projectcomponenten die deze rol bezit of die met hen zijn gedeeld |
-| Gekromd project in een gekrulde virtuele rapportsuite | Alle niet-gekromde componenten, weergegeven onder **[!UICONTROL Non-Curated Project Components]** en **[!UICONTROL Non-Curated Virtual report suite components]** | Alle niet-gebogen projectcomponenten EN niet-gebogen Virtuele componenten van de rapportreeks die deze rol bezit of die met hen zijn gedeeld | Niet-beheerde virtuele rapportsuite en projectcomponenten waarvan deze rol eigenaar is of die met hen zijn gedeeld |
+| **gekromde Virtuele rapportreeks** | Alle niet-beheerde componenten van de Virtuele rapportreeks | Niet-beheerde componenten van de Virtuele rapportreeks die deze rol bezit of die met hen zijn gedeeld | Niet-beheerde componenten van de Virtuele rapportreeks die deze rol bezit of die met hen zijn gedeeld |
+| **Gekromd Project** | Alle niet-gekrulde projectcomponenten | Alle niet-gekrulde projectcomponenten | Niet-gekrulde projectcomponenten die deze rol bezit of die met hen zijn gedeeld |
+| **Gekromd Project in een Gekrulde Virtuele rapportreeks** | Alle niet-gekromde componenten, weergegeven onder **[!UICONTROL Non-Curated Project Components]** en **[!UICONTROL Non-Curated Virtual report suite components]** | Alle niet-gebogen projectcomponenten EN niet-gebogen Virtuele componenten van de rapportreeks die deze rol bezit of die met hen zijn gedeeld | Niet-beheerde virtuele rapportsuite en projectcomponenten waarvan deze rol eigenaar is of die met hen zijn gedeeld |

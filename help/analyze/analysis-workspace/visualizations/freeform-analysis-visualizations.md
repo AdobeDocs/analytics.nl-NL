@@ -5,7 +5,7 @@ title: Overzicht van visualisaties
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 1%
@@ -81,7 +81,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
    ![ voeg visualisatie ](assets/add-visualization.png) toe
 
-   * In het linkerpaneel, uitgezochte ![&#128279;](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.
+   * In het linkerpaneel, uitgezochte ](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.![
 
    * Voor het paneel waar u de visualisatie wilt toevoegen, selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg), dan het pictogram kiezen dat de visualisatie vertegenwoordigt die u wilt toevoegen. Houd de muisaanwijzer boven het pictogram voor elke visualisatie om de naam weer te geven.
 
@@ -149,11 +149,11 @@ Gebruik het contextmenu (beschikbaar via een alternatieve selectie, bijvoorbeeld
 | Optie | Beschrijving |
 | --- | --- |
 | **[!UICONTROL Insert copied visualization]** | Plak (voeg) een gekopieerde visualisatie naar een andere plaats binnen het project of naar een geheel ander project. |
-| **[!UICONTROL Copy data to clipboard]** | Kopieer gegevens van de visualisatie naar het klembord. |
-| **[!UICONTROL Copy selection to clipboard]** | Kopieer de selectie van de visualisatie naar het klembord. |
-| **[!UICONTROL Download items as CSV (*afmetingsnaam *)]** | Download de dimensie-items (tot een maximum van 50.000) van de visualisatie naar uw lokale apparaat. Maximaal 50.000 dimensieitems voor de geselecteerde dimensie. |
+| **[!UICONTROL Copy data to clipboard]** | [ gegevens van het Exemplaar ](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) van visualisatie op het klembord. |
+| **[!UICONTROL Copy selection to clipboard]** | [ Kopieer de selectie ](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) van de visualisatie op het klembord. |
+| **[!UICONTROL Download items as CSV (*afmetingsnaam *)]** | [ Download de afmetingspunten ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) (tot een maximum van 50.000) van de visualisatie aan uw lokaal apparaat. Maximaal 50.000 dimensieitems voor de geselecteerde dimensie. |
 | **[!UICONTROL Copy visualization]** | Kopieer de visualisatie, zodat u de visualisatie aan een andere plaats binnen het project, of in een volledig verschillend project kunt opnemen. |
-| **[!UICONTROL Download data CSV]** | Download de weergegeven gegevens van de visualisatie naar uw lokale apparaat. |
+| **[!UICONTROL Download data CSV]** | [ Download de getoonde gegevens ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv) van visualisatie aan uw lokaal apparaat. |
 | **[!UICONTROL Duplicate visualization]** | Maak een exacte kopie van de visualisatie. |
 | **[!UICONTROL Edit description]** | Voeg (of bewerk) een tekstbeschrijving voor visualisatie toe. Zie [ Tekst ](text.md). |
 | **[!UICONTROL Get visualization link]** | Kopieer en deel een koppeling rechtstreeks naar de visualisatie. De koppeling wordt weergegeven in een dialoogvenster voor het delen van een koppeling. Selecteer Kopiëren om de koppeling naar het klembord te kopiëren. |
@@ -217,8 +217,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=nl-NL&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=nl-NL&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |

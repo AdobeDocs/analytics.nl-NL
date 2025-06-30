@@ -1,20 +1,20 @@
 ---
-description: Een Analysis Workspace-project verzenden via e-mail of plannen voor levering.
+description: Leer hoe u een Analysis Workspace-project rechtstreeks of volgens een planning voor e-maillevering verzendt.
 keywords: Analysis Workspace
-title: Projecten plannen
+title: Projecten verzenden en plannen
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
 
-# Bestanden naar anderen verzenden
+# Verzenden en plannen
 
-U kunt Adobe Analytics-rapporten als bestanden via e-mail naar geselecteerde gebruikers verzenden. U kunt bestanden ad hoc verzenden of u kunt bestanden configureren voor verzending volgens een schema. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
+U kunt Adobe Analytics-projecten als bestanden via e-mail naar geselecteerde gebruikers verzenden. U kunt bestanden ad hoc verzenden of u kunt bestanden configureren voor verzending volgens een schema. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
 
 Alle tags die op het project zijn toegepast, worden automatisch toegepast op het exporteren.
 
@@ -24,7 +24,7 @@ Andere methodes om de gegevens van Adobe Analytics uit te voeren zijn ook beschi
 
 ## Bestand verzenden
 
-Een bestand via e-mail naar ontvangers verzenden:
+Een bestand ad-hoc naar ontvangers verzenden via e-mail:
 
 1. Selecteer **[!UICONTROL Share]>[!UICONTROL Send file]** .
 1. Geef het bestandstype op:

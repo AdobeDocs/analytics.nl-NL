@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 8%
@@ -14,7 +14,7 @@ ht-degree: 8%
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -28,6 +28,7 @@ ht-degree: 8%
    + [Overzicht van Analysis Workspace](analysis-workspace/home.md)
    + Projecten {#build-workspace-project}
       + [Overzicht](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Snel projecten starten](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Projecten maken](analysis-workspace/build-workspace-project/create-projects.md)
       + [Projecten openen](analysis-workspace/build-workspace-project/open-projects.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
@@ -37,7 +38,6 @@ ht-degree: 8%
          + [Mappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Mappen beheren](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Projecten toevoegen of verplaatsen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [Tempates](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Meerdere rapportsuites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Hotkeys](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Kleurenpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
@@ -131,14 +131,14 @@ ht-degree: 8%
          + [Overzicht](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Gebruik hoofdletters](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests gebruikt](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + De projecten van de cursus, van het Aandeel, en van het Programma {#curate-share}
+   + Projecten stroomlijnen en delen {#curate-share}
       + [Overzicht](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
       + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
       + [Deelbare koppelingen maken](analysis-workspace/curate-share/shareable-links.md)
       + [Alleen-lezen projecten](analysis-workspace/curate-share/view-only-projects.md)
-      + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
-      + [Projecten plannen](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Projecten downloaden](analysis-workspace/curate-share/download-send.md)
+      + [Projecten verzenden en plannen](analysis-workspace/curate-share/t-schedule-report.md)
    + Attributie {#attribution}
       + [Overzicht van kenmerken](analysis-workspace/attribution/overview.md)
       + [Attributiemodellen en terugzoekvensters](analysis-workspace/attribution/models.md)
