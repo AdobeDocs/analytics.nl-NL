@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 8%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 8%
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -131,14 +131,14 @@ ht-degree: 8%
          + [Overzicht](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Gebruik hoofdletters](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests gebruikt](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Projecten stroomlijnen en delen {#curate-share}
+   + Curven en delen {#curate-share}
       + [Overzicht](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
       + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
-      + [Deelbare koppelingen maken](analysis-workspace/curate-share/shareable-links.md)
+      + [Aandeelbare koppelingen](analysis-workspace/curate-share/shareable-links.md)
       + [Alleen-lezen projecten](analysis-workspace/curate-share/view-only-projects.md)
-      + [Projecten downloaden](analysis-workspace/curate-share/download-send.md)
-      + [Projecten verzenden en plannen](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Downloaden](analysis-workspace/curate-share/download-send.md)
+      + [Verzenden en plannen](analysis-workspace/curate-share/t-schedule-report.md)
    + Attributie {#attribution}
       + [Overzicht van kenmerken](analysis-workspace/attribution/overview.md)
       + [Attributiemodellen en terugzoekvensters](analysis-workspace/attribution/models.md)

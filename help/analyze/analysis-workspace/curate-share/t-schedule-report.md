@@ -5,14 +5,14 @@ title: Projecten verzenden en plannen
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
 
-# Verzenden en plannen
+# Projecten verzenden en plannen
 
 U kunt Adobe Analytics-projecten als bestanden via e-mail naar geselecteerde gebruikers verzenden. U kunt bestanden ad hoc verzenden of u kunt bestanden configureren voor verzending volgens een schema. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
 
