@@ -1,12 +1,12 @@
 ---
 title: Overzicht van kenmerken
-description: Het concept om krediet van een succesgebeurtenis toe te wijzen aan meerdere dimensies.
+description: Leer over het concept van het toekennen van krediet van een succesgebeurtenis aan veelvoudige afmetingspunten.
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 28%
 
 ---
@@ -60,7 +60,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Attributie in
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#128279;](/help/assets/icons/VideoCheckedOut.svg) [ Attributie 0&rbrace; VideoCheckedOut in berekende metriek ](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ ](/help/assets/icons/VideoCheckedOut.svg) Attributie 0} VideoCheckedOut in berekende metriek [ voor een demo video.](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -81,4 +81,4 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Toevoegend zi
 
 ## Adobe Analytics-gereedschappen die geen attributie ondersteunen
 
-Hulpprogramma&#39;s die geen ondersteuning bieden voor de API Analytics 2.0, zoals Report Builder, ondersteunen Attribution niet.
+Om het even welke hulpmiddelen die geen Analytics 2.0 API, zoals [ Verouderde Report Builder ](/help/analyze/legacy-report-builder/home.md) steunen, steunen geen Attributie.

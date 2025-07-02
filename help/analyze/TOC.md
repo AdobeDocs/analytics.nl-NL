@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 8%
+source-wordcount: '870'
+ht-degree: 9%
 
 ---
 
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -46,24 +46,24 @@ ht-degree: 8%
       + [Sjablonen gebruiken](analysis-workspace/templates/use-templates.md)
       + [Sjablonen maken](analysis-workspace/templates/create-templates.md)
    + Onderdelen {#components}
-      + [Overzicht van componenten](analysis-workspace/components/analysis-workspace-components.md)
-      + [Componenten in Workspace gebruiken](analysis-workspace/components/use-components-in-workspace.md)
+      + [Overzicht](analysis-workspace/components/analysis-workspace-components.md)
+      + [Componenten gebruiken](analysis-workspace/components/use-components-in-workspace.md)
       + [Componentbeschrijvingen toevoegen](analysis-workspace/components/add-component-descriptions.md)
       + Annotaties {#annotations}
-         + [Overzicht van annotaties](analysis-workspace/components/annotations/overview.md)
+         + [Overzicht](analysis-workspace/components/annotations/overview.md)
          + [Annotaties maken](analysis-workspace/components/annotations/create-annotations.md)
          + [Annotaties beheren](analysis-workspace/components/annotations/manage-annotations.md)
          + [Annotaties weergeven](analysis-workspace/components/annotations/view-annotations.md)
-         + [Mobiele annotaties](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [Mobiele scorecardannotaties](analysis-workspace/components/annotations/mobile-annotations.md)
       + Dimensies {#dimensions}
          + [Voorvertoningsafmetingen](analysis-workspace/components/dimensions/view-dimensions.md)
          + [Afmetingen onderverdelingen](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [Afmetingen van tijd tot tijd](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [Metrics](analysis-workspace/components/apply-create-metrics.md)
       + Segmenten {#segments}
-         + [Segmenten maken](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [Overzicht](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Snelle segmenten](analysis-workspace/components/segments/quick-segments.md)
-      + Kalender- en datumbereik {#calendar-date-ranges}
+      + Datumbereiken {#calendar-date-ranges}
          + [Overzicht](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Datumbereiken maken](analysis-workspace/components/calendar-date-ranges/create.md)
          + [Gegevensbereiken beheren](analysis-workspace/components/calendar-date-ranges/manage.md)
@@ -141,26 +141,26 @@ ht-degree: 8%
       + [Verzenden en plannen](analysis-workspace/curate-share/t-schedule-report.md)
    + Attributie {#attribution}
       + [Overzicht van kenmerken](analysis-workspace/attribution/overview.md)
-      + [Attributiemodellen en terugzoekvensters](analysis-workspace/attribution/models.md)
+      + [Venster Model, container en lookback](analysis-workspace/attribution/models.md)
       + [Algorithmic, toewijzing](analysis-workspace/attribution/algorithmic.md)
-      + [Aanbevolen werkwijzen voor kenmerken](analysis-workspace/attribution/best-practices.md)
+      + [Aanbevolen procedures](analysis-workspace/attribution/best-practices.md)
       + [Veelgestelde vragen](analysis-workspace/attribution/faq.md)
-   + [Reis-IQ](analysis-workspace/journey-iq.md)
-   + [Segment-IQ](analysis-workspace/segment-iq.md)
+   + [Reisbeheer](analysis-workspace/journey-iq.md)
+   + [Segmentvergelijking](analysis-workspace/segment-iq.md)
    + Anomaliedetectie {#anomaly-detection}
-      + [Overzicht van anomalische detectie](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [anomalieën weergeven in Analysis Workspace](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [Overzicht](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [anomalieën weergeven](analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [anomaliedetectie uitschakelen](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
-      + [Bijdrageanalyse uitvoeren](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
-      + [Statistische technieken voor de opsporing van anomalieën](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [Analyse van de bijdrage uitvoeren](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [Statistische technieken](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Gebruikersvoorkeuren](analysis-workspace/user-preferences.md)
    + Veelgestelde vragen over Workspace {#workspace-faq}
       + [Veelgestelde vragen](analysis-workspace/workspace-faq/faq.md)
-      + [Analysis Workspace-prestaties optimaliseren](analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [Foutberichten](analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace-beperkingen](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Prestaties optimaliseren](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Fouten en problemen oplossen](analysis-workspace/workspace-faq/error-messages.md)
+      + [Beperkingen](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Administratieve vereisten](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Toegankelijkheid in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Toegankelijkheid](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Report Builder - Overzicht](report-builder/rb-overview.md)
    + [Report Builder instellen](report-builder/report-builder-setup.md)

@@ -1,12 +1,12 @@
 ---
-description: Beheerders kunnen beschrijvingen voor componenten toevoegen met behulp van beide rapportsuite.
+description: Beheerders kunnen beschrijvingen toevoegen voor componenten in een rapportsuite of met gebruik van het gegevenswoordenboek.
 title: Componentbeschrijvingen toevoegen
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,19 @@ ht-degree: 0%
 
 Met behulp van beschrijvingen kunnen gebruikers het beste de verschillende componenten gebruiken bij het maken van projecten in Analysis Workspace of bij het weergeven van rapporten.
 
-Analysebeheerders kunnen beschrijvingen voor componenten (Dimensies, Metriek, Segmenten en Datumbereiken) toevoegen in de rapportsuite of met het gegevenswoordenboek rechtstreeks in Analysis Workspace.
+De beheerders van Analytics kunnen beschrijvingen voor componenten (afmetingen, metriek, segmenten, en datumwaaiers) of binnen een rapportreeks of het gebruiken van het Woordenboek van Gegevens direct binnen Analysis Workspace toevoegen.
 
-## Beschrijvingen toevoegen aan componenten in een rapportsuite
+## Rapportsuite
 
+U kunt beschrijvingen toevoegen aan componenten in een rapportreeks.
+
+1. Selecteer **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]** .
+1. Selecteer de rapportsuite in Report Suite Manager waarvoor u componentbeschrijvingen wilt opgeven.
+1. Selecteer **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion variables]** .
+1. Selecteer ![ toevoegen ](/help/assets/icons/Add.svg) om details voor een omzettingsvariabele te tonen.
+1. Schakel het selectievakje voor **[!UICONTROL Description]** in en voeg een beschrijving toe.
+1. Herhaal stap 4 en 5 voor alle andere variabelen die u wilt toevoegen.
+1. Selecteer **[!UICONTROL Save]** .
 
 >[!BEGINSHADEBOX]
 
@@ -27,11 +36,16 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ componentenbe
 >[!ENDSHADEBOX]
 
 
-
-## Beschrijvingen toevoegen aan componenten in gegevenswoordenboek {#add-descriptions}
+## Gegevenswoordenboek {#add-descriptions}
 
 Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun analyseomgeving volgen en beter begrijpen. Dit omvat de mogelijkheid voor analysebeheerders om componentbeschrijvingen rechtstreeks in Analysis Workspace toe te voegen.
 
 Voor informatie over het toevoegen van een componentenbeschrijving in het gegevenswoordenboek, zie [ componenteningangen in het Woordenboek van Gegevens ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) uitgeven.
 
 Voor algemene informatie over het Woordenboek van Gegevens, zie [ Overzicht van het Woordenboek van Gegevens ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
+
+>[!MORELIKETHIS]
+>
+>[ de componentenmontages van het Rapport ](/help/components/vrs/vrs-components.md)
+>>[Items van gegevenswoordenboekcomponenten ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>

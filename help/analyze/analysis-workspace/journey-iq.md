@@ -1,26 +1,24 @@
 ---
-title: Reis-IQ
-description: Begrijp de eigenschappen die omhoog IQ van de Reis, een reeks eigenschappen vormen die deel van Adobe Analytics uitmaken.
+title: Reisbeheerfuncties
+description: Leer over de eigenschappen die u helpen om de klantenervaring en de klantenreis te begrijpen.
 role: User, Admin
 exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
 feature: Visualizations
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: bbf0f690ffdc1fc6e6666b99b6455613b691d2be
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
 
-# Reis-IQ
+# Reisbeheerfuncties
 
-De IQ van de reis is een reeks eigenschappen die makkelijk te gebruiken, volledig klantgerichte visualisaties en montages verstrekken om de ervaring van de klant beter te begrijpen. Het laat u toe om elk aanraakpunt in de reis van een klant, zelfs over kanalen te meten. Gebruik deze eigenschappen om beter te begrijpen waar te om klanten opnieuw in dienst te nemen, hen loyaal te houden, en hun ervaringen te personaliseren onderweg.
+Adobe Analytics beschikt over een reeks functies die gebruiksvriendelijke, volledig aanpasbare visualisaties en instellingen bieden om de ervaring van de klant te begrijpen. Met deze functies kunt u elk aanraakpunt op de reis van een klant meten, zelfs tussen kanalen. Gebruik deze eigenschappen om te begrijpen waar te om klanten opnieuw in dienst te nemen, hen loyaal te houden, en hun ervaringen te personaliseren onderweg.
 
-## Functies
+De functies voor het beheer van de reis zijn:
 
-Reis IQ omvat de volgende kenmerken:
-
-* [Cohortanalyse:](visualizations/cohort-table/cohort-analysis.md) Behoud en betrokkenheid van klanten visualiseren om te begrijpen waar het klonen gebeurt.
-* [Contextbewuste sessies:](../../components/vrs/vrs-report-time-processing.md) Wijzig de definitie van een bezoek, bijvoorbeeld wanneer een bezoek uitkomt en wanneer achtergrondgeluiden het begin van een nieuw bezoek verhinderen. Gebruikt een eigenschap genoemd de verwerking van de rapporttijd, een deel van virtuele rapportreeksen.
-* [Stroomanalyse:](visualizations/c-flow/flow.md) Begrijp waar de gebruikers navigeer en waar zij kwamen.
-* [Falloutanalyse:](visualizations/fallout/fallout-flow.md) Vastleggen wanneer een klant zich terugtrekt en begrijpen waar deze naartoe gaat.
-* [Apparaatanalyse:](../../components/cda/overview.md) Voeg naadloos gedrag van meerdere apparaten samen om beter te begrijpen wat aanraakpunten elk apparaat krijgt.
+* [ de analyse van de Cohort:](visualizations/cohort-table/cohort-analysis.md) visualiseer behoud en betrokkenheid van klanten om te begrijpen waar het klonen gebeurt.
+* [ context-bewuste zittingen:](../../components/vrs/vrs-report-time-processing.md) verander de definitie van een bezoek, met inbegrip van wanneer een bezoektijden uit en het verhinderen van achtergrondklappen van het beginnen van een nieuw bezoek. De context-bewuste zittingen gebruiken een eigenschap genoemd rapporttijdverwerking, een deel van virtuele rapportreeksen.
+* [ de analyse van de Stroom:](visualizations/c-flow/flow.md) Begrijp waar de gebruikers naast navigeren en waar zij uit kwamen.
+* [ analyse van de Vallout:](visualizations/fallout/fallout-flow.md) vangt wanneer een klant zich ontkoppelt, en begrijp waar zij gaan.
+* [ dwars-apparatenanalyse:](../../components/cda/overview.md) voegt naadloos gedrag van veelvoudige apparaten samen om de aanrakingspunten van de klant op elk apparaat te begrijpen.

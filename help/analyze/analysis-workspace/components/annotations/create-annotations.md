@@ -1,12 +1,12 @@
 ---
 title: Annotaties maken
-description: Annotaties maken in Workspace.
+description: Annotaties maken in Analysis Workspace.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 Standaard kunnen alleen beheerders annotaties maken. Gebruikers hebben rechten om annotaties weer te geven, vergelijkbaar met de manier waarop gebruikers andere componenten (zoals segmenten, berekende metriek, enz.) weergeven.
 
 
-Nochtans, kunnen Admins de [!UICONTROL Annotation Creation] toestemming (Hulpmiddelen van Analytics) aan gebruikers via [ Adobe Admin Console ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=nl-NL) geven.
+Nochtans, kunnen Admins de [!UICONTROL Annotation Creation] toestemming (Hulpmiddelen van Analytics) aan gebruikers via [ Adobe Admin Console ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html) geven.
 
 U kunt op de volgende manieren een aantekening maken:
 
@@ -55,7 +55,7 @@ Het dialoogvenster **[!UICONTROL Annotations builder]** wordt gebruikt om nieuwe
 
 ![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/annotation-builder.png)
 
->[!TAB creeer/geef aantekening  uit]
+>[!TAB  creeer/geef aantekening ] uit
 
 ![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/create-edit-annotation.png)
 

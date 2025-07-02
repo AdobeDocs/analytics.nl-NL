@@ -1,12 +1,12 @@
 ---
-description: Leer hoe u componenten aan een project kunt toevoegen in Analysis Workspace
+description: Leer hoe u componenten in een project in Analysis Workspace kunt gebruiken
 title: Componenten in Analysis Workspace gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Zie het [ overzicht van Componenten ](/help/analyze/analysis-workspace/component
 1. Blader naar of zoek naar de component die u wilt toevoegen en sleep deze naar een deelvenster of visualisatie in uw project.
 
 1. U kunt een component naar keuze slepen naar de neerzetzone van het segment in een deelvensterkop. Met dit slepen en neerzetten definieert u de component als een segment en past u het segment toe op alle inhoud in het deelvenster.
-Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te segmenteren, zie [ de streek van de Daling ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [ Overzicht van Comités ](/help/analyze/analysis-workspace/c-panels/panels.md).
+Voor informatie over hoe u de sectie van het segmentdaling op een paneel kunt gebruiken om uw paneel te segmenteren, zie de [ streek van de Daling ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [ het overzicht van Comités ](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 1. Raadpleeg de volgende secties voor meer informatie:
 
@@ -60,7 +60,7 @@ Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt geb
 
 1. U kunt desgewenst dimensies en dimensie-items in Analysis Workspace opsplitsen met andere componenten. Voor meer informatie, zie [ de dimensies van de Onderbreking in Workspace ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie &lbrace;de afmetingen van de Voorproef [&#128279;](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [ de dimensies van de Onderbreking ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), en [ tijd-ontledende dimensies ](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
+Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie {de afmetingen van de Voorproef [, ](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md) de dimensies van de Onderbreking [, en ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) tijd-ontledende dimensies [.](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)
 
 ### Metriek toevoegen aan een project
 
@@ -97,7 +97,7 @@ U kunt segmenten in Analysis Workspace op de volgende manieren gebruiken:
 
 * Segmenten toevoegen aan een deelvenster
 Wanneer u segmenten toevoegt aan een deelvenster, worden de segmenten toegepast op alle inhoud in het deelvenster.
-Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt gebruiken om uw paneel te segmenteren, zie [ de streek van de Daling ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [ Overzicht van Comités ](/help/analyze/analysis-workspace/c-panels/panels.md).
+Voor informatie over hoe u de sectie van het segmentdaling op een paneel kunt gebruiken om uw paneel te segmenteren, zie de [ streek van de Daling ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [ het overzicht van Comités ](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 * Segmenten toevoegen aan een visualisatie
 Wanneer u segmenten aan een kolom in een vrije-vormlijst toevoegt, zijn de segmenten op alle inhoud binnen de lijstkolom van toepassing. U kunt segmenten ook toevoegen als onderdeel van een uitvalvisualisatie.
@@ -108,13 +108,13 @@ Wanneer u componenten zoals [ berekende metriek ](/help/components/c-calcmetrics
 
 ### Datumbereiken toevoegen aan een project
 
-[ de waaiers van de Datum ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) bepalen het rapporteringstijdkader in Analysis Workspace, en kunnen op één of meerdere panelen binnen een project en ook op sommige visualisaties (zoals de lijst Freeform) worden toegepast.
+[ de waaiers van de Datum ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) bepalen het rapporteringstijdkader in Analysis Workspace. En een gegevenswaaier kan op panelen binnen een project en ook op sommige visualisaties (zoals de lijst Freeform) worden toegepast.
 
 Elk deelvenster bevat standaard een datumbereik. Er zijn meerdere manieren om een datumbereik voor een deelvenster bij te werken. Een manier om een datumbereik voor een deelvenster in Analysis Workspace bij te werken, is door een component met een datumbereik uit het linkerdeelvenster te slepen:
 
 1. Naar keuze, voeg een datumwaaier aan uw project in Analysis Workspace toe, zoals die in [ wordt beschreven voegt componenten aan een project ](#add-components-to-a-project) toe.
 
-1. Sleep een datumbereik van het linkerdeelvenster naar:
+1. Sleep een datumbereik vanuit het linkerdeelvenster naar:
 
    * Het huidige datumbereik om het datumbereik voor het deelvenster te wijzigen.
 
@@ -126,13 +126,13 @@ Voor meer informatie over hoe te om datumwaaiers in Analysis Workspace te gebrui
 
 ## Componentinformatie
 
-U kunt over om het even welke component bewegen om ![ Meer info ](/help/assets/icons/InfoOutline.svg) te tonen. Als deze optie is geselecteerd, wordt een pop-up weergegeven met aanvullende informatie over de component.
+U kunt over om het even welke component bewegen om ![ Meer info ](/help/assets/icons/InfoOutline.svg) te tonen. Wanneer u ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) selecteert, wordt popup getoond met extra informatie over de component.
 
 ![ Info van de Component ](assets/component-info.png)
 
 Gebaseerd op uw toegangsbeheer, kunt u:
 
-* Heb toegang tot de ![ 2&rbrace; definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) &lbrace;voor de component.[!UICONTROL Data dictionary]
+* Heb toegang tot de ![ 2} definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) {voor de component.[!UICONTROL Data dictionary]
 * Heb toegang tot ![ uitgeeft ](/help/assets/icons/Edit.svg) componentenbouwer waar de component wordt bepaald.
 
 

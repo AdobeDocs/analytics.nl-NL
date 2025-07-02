@@ -1,35 +1,32 @@
 ---
-description: Gebruik gevallen voor het maken en beheren van waarschuwingen.
-title: Waarschuwingen - gebruik
+description: Bekijk enkele gebruiksgevallen voor het maken en beheren van waarschuwingen.
+title: Gevallen voor gebruik van waarschuwingen
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Waarschuwingen - gebruik
+# Gebruiksgevallen met waarschuwing
 
-U kunt alarm tot stand brengen zoals die in [ wordt beschreven leidt alarm ](/help/components/c-alerts/alert-builder.md) tot.
+U kunt alarm tot stand brengen zoals die in [ wordt beschreven leidt alarm ](alert-builder.md) tot.
 
 In de volgende secties ziet u voorbeelden van gebruiksgevallen die u kunt overwegen wanneer u waarschuwingen maakt.
 
-## Eenvoudige waarschuwing maken die door twee segmenten wordt gefilterd {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## Filterwaarschuwingen
 
-<!-- 
+U kunt eenvoudige waarschuwingen maken met behulp van segmenten. Definieer bijvoorbeeld een waarschuwing over het aantal sessies voor mensen die de startpagina via een mobiele-app-sessie bezoeken.
 
-Update screenshots for better readability.
 
- -->
-
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## Consolideer waarschuwingen (stapel) in plaats van meerdere waarschuwingen te maken {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Stapelwaarschuwingen
 
-Het stapelen alarm zorgt ervoor dat de alarm wordt gecombineerd en u krijgt geen aantal afzonderlijke alarm.
+U kunt waarschuwingen samenvoegen (stapelen) in plaats van meerdere waarschuwingen te maken. Het stapelen alarm zorgt ervoor dat de alarm wordt gecombineerd en u krijgt geen aantal afzonderlijke alarm. In het onderstaande voorbeeld wordt een waarschuwing verzonden wanneer een van de meetwaarden wordt geactiveerd.
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

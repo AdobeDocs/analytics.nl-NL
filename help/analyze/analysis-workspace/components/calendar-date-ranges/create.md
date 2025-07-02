@@ -1,11 +1,12 @@
 ---
 title: Datumbereiken maken
-description: Maak een datumbereik voor rapportage.
+description: Begrijp hoe u een datumbereik maakt dat u kunt gebruiken in Analysis Workspace.
 feature: Date Ranges
 role: User
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+exl-id: 62ce2ca5-4df1-43bf-88ce-3c9f106f4a59
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---

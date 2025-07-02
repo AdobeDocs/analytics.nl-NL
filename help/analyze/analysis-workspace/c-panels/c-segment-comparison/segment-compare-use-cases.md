@@ -5,9 +5,9 @@ keywords: Segment-IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ Het vergelijkingspaneel voor segmenten wordt veel gebruikt in Analysis Workspace
 
 ## Hoofdlettergebruik 1: mobiele versus desktopimplementaties vergelijken
 
-> *&quot;We hebben hits van de ene naar de andere site vergeleken en snel een aantal coderingsinconsistenties gevonden. Op deze manier hebben we gegevensproblemen vermeden voordat het product werd uitgebracht.&quot;*
+> *&quot;U hebt hits van de ene naar de andere site vergeleken en snel een aantal coderingsinconsistenties gevonden. Op deze manier hebt u gegevensproblemen vermeden voordat het product werd uitgebracht.&quot;*
 
-Een productmanager die verantwoordelijk is voor een mobiele website en een website op het bureaublad, heeft als taak ervoor te zorgen dat tags op alle mobiele apparaten en op alle desktops consistent zijn. Om er zeker van te zijn dat hij niets belangrijks had gemist, gebruikte hij het vergelijkingspaneel voor segmenten om hits te vergelijken die van hun mobiele site kwamen en die van hun desktopsite kwamen. Hij merkte dat er geen afrekengebeurtenissen waren op de mobiele website en kreeg de juiste tags voordat de mobiele site werd vrijgegeven. Hierdoor heeft de productmanager een gegevensramp voorkomen omdat de mobiele site geen conversies heeft opgenomen.
+U hebt de leiding over een mobiele website en een desktopwebsite en u moet ervoor zorgen dat de tags op alle mobiele apparaten en op alle desktops consistent zijn. Om ervoor te zorgen dat u niets belangrijks mist, gebruikt u het vergelijkingspaneel voor segmenten om hits te vergelijken die van hun mobiele site komen en die van hun desktopsite komen. U ziet dat er geen uitcheckgebeurtenissen zijn op de mobiele website en dat de juiste tags zijn ingesteld voordat de mobiele site wordt uitgebracht. Hierdoor voorkomt u een gegevensramp als gevolg van het feit dat de mobiele site geen conversies opneemt.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
 | De container van het Actief waar het Type van Mobiel Apparaat Mobiele Telefoon of Tablet evenaart | Alle anderen |
 
-## Gebruik geval 2: vergelijk klanten die een bepaalde eigenschap gebruiken met hen die niet gebruiken
+## Hoofdlettergebruik 2: vergelijk klanten die een bepaalde functie gebruiken met klanten die deze functie niet gebruiken
 
-> *&quot;Klanten die onze functie voor productvergelijking hebben gebruikt, hadden 10% meer kans om te converteren. Wij hebben het naar de bovenkant van de pagina verplaatst, en bestellingen met 4% gegroeid!&quot;*
+> *&quot;U ontdekte klanten die uw functie van de productvergelijking gebruikten 10% waarschijnlijker om te zetten. U bewoog de productvergelijking aan de bovenkant van de pagina, en groeide orden met 4%!&quot;*
 
-Een optimalisatieteam voor websites in de detailhandel wilde beter begrijpen welke gebruikers communiceerden met een vergelijkingsfunctie voor producten die zij onlangs hadden uitgebracht. Zij gebruikten het paneel van de segmentvergelijking om gebruikers te vergelijken die de eigenschap van de productvergelijking aan iedereen anders op de plaats gebruikten. Zij stelden snel verschillende belangrijke verschillen vast, waaronder het feit dat deze gebruikers 10% meer kans hadden een product aan te schaffen. Het optimalisatieteam van de site besloot de functie voor productvergelijking prominenter boven aan de pagina te testen.
+Een optimalisatieteam voor websites in de detailhandel wil de gebruikers beter begrijpen die met een productvergelijkingsfunctie werken die zij onlangs hebben vrijgegeven. Zij gebruiken het paneel van de segmentvergelijking om gebruikers te vergelijken die de eigenschap van de productvergelijking aan iedereen anders op de plaats gebruiken. Zij stellen snel verschillende belangrijke verschillen vast, waaronder het feit dat deze gebruikers 10% meer kans hebben om een product te kopen. Het optimalisatieteam van de site besluit de functie voor productvergelijking prominenter boven aan de pagina te testen.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
@@ -38,9 +38,9 @@ Een optimalisatieteam voor websites in de detailhandel wilde beter begrijpen wel
 
 ## Geval 3 gebruiken: vergelijk bezoekers van nieuwssites met andere bezoekers van sitesecties
 
-> *&quot;We ontdekten dat bezoekers van ons nieuwsgedeelte twee keer zo vaak videoadvertenties konden bekijken, dus we hebben meer video-opties toegevoegd aan dat gedeelte. We hebben een toename van 7% gezien in het aantal bekeken video&#39;s!&quot;*
+> *&quot;U ontdekte dat bezoekers aan uw nieuwssectie tweemaal zo waarschijnlijk videoadvertenties keken, zodat voegde u meer video opties aan die sectie toe. U ondervond een verhoging van 7% van bekeken videoadvertenties!&quot;*
 
-Een groot mediabedrijf onderzocht manieren om de betrokkenheid van het publiek bij de inhoud in hun nieuwssectie te verbeteren. Ze creëerden een segment bezoekers die de sectie News hadden bezocht om het nieuwspubliek beter te begrijpen. Ze hebben direct vastgesteld dat deze gebruikers twee keer zo vaak videoadvertenties kunnen bekijken als bezoekers van andere sitesecties. Het videeteam heeft een aanbevolen videoclip op hun nieuwstregel gezet en een toename van 7% bereikt in het aantal bekeken videoadvertenties.
+Een groot mediabedrijf bekijkt hoe de betrokkenheid van het publiek bij de inhoud in hun nieuwssectie kan worden verbeterd. Ze maken een segment bezoekers die de sectie News bezoeken om het nieuwspubliek beter te begrijpen. Ze zien direct dat deze gebruikers twee keer zo vaak videoadvertenties bekijken als bezoekers van andere sitesecties. Het videeteam heeft een aanbevolen videoclip op hun nieuwstregel gezet en een toename van 7% bereikt in de bekeken videoadvertenties.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
@@ -48,9 +48,9 @@ Een groot mediabedrijf onderzocht manieren om de betrokkenheid van het publiek b
 
 ## Gebruik geval 4: vergelijk bezoekers van betaalde zoekopdracht met iedereen anders
 
-> *&quot;Bezoekers die via zoekmachines naar onze site kwamen, hadden drie keer meer kans om te uploaden dan alle anderen. Wij hebben onze uitgaven aan specifieke sleutelwoorden als resultaat verhoogd en een verhoging van 56% in omhoog-verkoopt bereikt.&quot;*
+> *&quot;Bezoekers die via zoekmachines naar uw site kwamen, hadden drie keer meer kans om te uploaden dan alle anderen. U verhoogde uw uitgaven aan specifieke sleutelwoorden als resultaat en bereikte een 56% toename in omhoog-verkoopt.&quot;*
 
-Een belangrijk B2B de dienstenbedrijf wilde het type van verkeer begrijpen dat betaalde onderzoekshoofdwoorden aan hun plaats brachten. Betaalde zoekactie had niet geleid tot veel directe omzettingen, en de marketingdirecteur vond dat er een afnemend budget voor nodig was. Het marketingteam heeft een segment bezoekers gemaakt dat via betaalde zoekopdrachten naar de site is gekomen en deze met het vergelijkingspaneel voor segmenten vergeleken met alle andere bezoekers. Zij ontdekten dat hoewel deze bezoekers niet zo waarschijnlijk rechtstreeks zouden converteren, zij drie keer zo veel kans hadden om op een eerder aangeschafte dienst te verkopen. Het marketingteam richtte zijn budget op alleen de up-sell gerelateerde trefwoorden en zag een verhoging van 56% van de service-up-sells.
+Een belangrijk B2B de dienstenbedrijf wil het type van verkeer begrijpen dat de betaalde onderzoekssleutelwoorden aan hun plaats brengen. De betaalde zoekopdracht heeft niet geleid tot een groot aantal omzettingen, en de marketingdirectie is van mening dat het budget voor deze zoekopdracht moet worden verlaagd. Het marketingteam maakt een segment van bezoekers die via betaalde zoekopdrachten naar de site komen en vergelijkt dat segment met alle andere bezoekers via het vergelijkingspaneel voor segmenten. Zij ontdekken dat deze bezoekers, hoewel zij niet zo waarschijnlijk rechtstreeks zullen converteren, drie keer meer geneigd zijn om op een eerder aangeschafte service te verkopen. Het marketingteam concentreert zijn budget op alleen de up-sell gerelateerde trefwoorden en ziet een verhoging van 56% van de service-up-sells.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
@@ -58,9 +58,9 @@ Een belangrijk B2B de dienstenbedrijf wilde het type van verkeer begrijpen dat b
 
 ## Hoofdlettergebruik 5: vergelijk de inkopers van Fitbit met alle anderen
 
-> *&quot;Wij ontdekten dat de mensen die Fitbits kopen zes keer waarschijnlijker een &quot;uit voorraad&quot;bericht dan iedereen anders, zodat hebben wij snel bevolen meer Fitbits en vermeden lopend uit voorraad!&quot;*
+> *&quot;U ontdekte dat mensen die Fitbits kopen zes keer vaker een &#39;out of stock&#39;-bericht zouden krijgen dan alle anderen. Zo bestelde u snel meer Fitbits en vermeden lopend uit voorraad!&quot;*
 
-**Scenario:** Een belangrijke online retailer was geinteresseerd in hoe één van de heetste vakantieproducten - Fitbit - verkocht en wat de kopers van Fitbit uniek onder andere klanten maakte. Het marketingteam kon eenvoudig met de rechtermuisknop klikken op het regelitem &quot;Fitbit&quot; in het productrapport en snel een Segment IQ-analyse uitvoeren. Wat ze ontdekten, was dat gebruikers die Fitbits kopen zes keer vaker een &quot;out of stock&quot; bericht zouden krijgen dan andere klanten. Na verdere analyse kon het marketingteam deze bezoekers naar hun baksteen- en mortierwinkels sturen terwijl ze op hun inkoopafdeling wachtten om meer Fitbits te bestellen. Als gevolg daarvan heeft de retailer meer &quot;out of stock&quot;-berichten vermeden en kon zij meer van de vakantievraag voorzien.
+**Scenario:** Een belangrijke online retailer is geinteresseerd in hoe één van de heetste vakantieproducten - Fitbit - verkoopt en wat de kopers van Fitbit onder andere klanten uniek maakt. Het marketingteam kan het regelitem Fitbit selecteren in het productrapport en snel een segmentvergelijkingsanalyse uitvoeren in het contextmenu. Wat zij ontdekken is dat de gebruikers die Fitbits kopen zes keer eerder een &quot;uit voorraad&quot;bericht dan om het even welke andere klant hebben. Na verdere analyse kan het marketingteam deze bezoekers naar hun baksteen- en mortierwinkels sturen terwijl ze op hun inkoopafdeling wachten om meer Fitbits te bestellen voor verzending. Als gevolg hiervan vermijdt de retailer meer &quot;out of stock&quot; berichten en kan zij meer aan de vakantievraag voldoen.
 
 | Segment 1 | Segment 2 |
 |--- |--- |

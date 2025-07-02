@@ -4,16 +4,16 @@ title: anomalieën weergeven in Analysis Workspace
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
-# anomalieën weergeven in Analysis Workspace
+# anomalieën weergeven
 
-U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
+U kunt anomalieën in Analysis Workspace in een lijst of in een lijngrafiek bekijken.
 
 ## anomalieën in een tabel weergeven {#section_869A87B92B574A38B017A980ED8A29C5}
 
@@ -30,6 +30,7 @@ U kunt anomalieën in een tijdreeks Freeform Lijst bekijken.
    De **gekleurde verticale lijn** in elke rij ➋ wijst op de verwachte waarde. Het **gekleurde gearceerde gebied** in elke rij ➊ wijst op de daadwerkelijke waarde. Hoe de lijn (verwachte waarde) vergelijkt met het gearceerde gebied (werkelijke waarde) bepaalt of er een anomalie is. (Een observatie wordt beschouwd als anomalisch gebaseerd op de geavanceerde statistische technieken die in [ worden beschreven Statistische technieken die in anomalieopsporing ](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) worden gebruikt.)
 
 1. Selecteer ◥ in de rechterbovenhoek van een rij om details over de anomalie weer te geven. Dit geeft de mate (als percentage) aan waarin de werkelijke waarde boven of onder de verwachte waarde afwijkt.
+1. Selecteer [ Open Analyse van de Bijdrage ](run-contribution-analysis.md) om de bijdrageanalyse te beginnen.
 
 ## anomalieën weergeven in een lijndiagram
 

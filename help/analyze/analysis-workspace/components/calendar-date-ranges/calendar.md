@@ -1,12 +1,12 @@
 ---
-description: In de kalender kunt u datums en datumbereiken opgeven of een voorinstelling selecteren.
-title: Overzicht van kalender- en datumbereiken
+description: Gebruik de kalender en gegevenswaaiers om datumwaaiers in de Werkruimte van de Analyse te specificeren.
+title: Overzicht datumbereiken
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 182b92707eca36eaebe2e5c7f041f153868f09c2
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Of u kunt een datumbereik in een tabel met vrije vorm gebruiken als metrisch of 
 >Wanneer u datumbereiken in een tabel met vrije vorm gebruikt, overschrijven de datumbereiken de kalender die is opgegeven voor het deelvenster waartoe de tabel met vrije vorm behoort.
 >
 
-U gebruikt een datumwaaier aangezien u [ om het even welke component ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components) zou gebruiken. U sleept de datumwaaier van het ![&#128279;](/help/assets/icons/Calendar.svg) 2&rbrace; componentenpaneel van de Kalender  en laat vallen de component op:**[!UICONTROL Date ranges]**
+U gebruikt een datumwaaier aangezien u [ om het even welke component ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components) zou gebruiken. U sleept de datumwaaier van het ![ 2} componentenpaneel van de Kalender ](/help/assets/icons/Calendar.svg) en laat vallen de component op:**[!UICONTROL Date ranges]**
 
 - **[!UICONTROL Calendar]**: U ![ Schakelaar ](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** de huidige kalenderconfiguratie met de datumwaaier.
-- **Metrische kolomkopbal**: U ![ Schakelaar ](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** metrisch, ![ voegt ](/help/assets/icons/Add.svg)**[!UICONTROL Add]**&#x200B;de datumwaaier als metrisch toe, of ![ filter ](/help/assets/icons/Filter.svg)**[!UICONTROL Filter]**&#x200B;metrisch gebruikend de component van de datumwaaier.
-- **de kolomkopbal van Dimension**: U ![ Schakelaar ](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** de huidige afmetingen. De nieuwe dimensie is nu **[!UICONTROL Date ranges]** . Zodra de afmeting de waaiers van de Datum is, kunt u ![&#128279;](/help/assets/icons/Add.svg)**[!UICONTROL Add]**&#x200B;extra datumwaaiers als afmetingspunten toevoegen .
+- **Metrische kolomkopbal**: U ![ Schakelaar ](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** metrisch, ![ voegt ](/help/assets/icons/Add.svg)**[!UICONTROL Add]**de datumwaaier als metrisch toe, of ![ filter ](/help/assets/icons/Filter.svg)**[!UICONTROL Filter]**metrisch gebruikend de component van de datumwaaier.
+- **de kolomkopbal van Dimension**: U ![ Schakelaar ](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** de huidige afmetingen. De nieuwe dimensie is nu **[!UICONTROL Date ranges]** . Zodra de afmeting de waaiers van de Datum is, kunt u ![ extra datumwaaiers als afmetingspunten toevoegen ](/help/assets/icons/Add.svg)**[!UICONTROL Add]**.
 - **het punt van Dimension**: U ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** het specifieke afmetingspunt door de datumwaaier.
 
 U kunt ook rechtstreeks een kolom voor het datumbereik toevoegen in een visualisatie voor de tabel Vrije vorm:
@@ -112,7 +112,7 @@ The first click on a calendar starts a date range selection. The second click co
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=nl-NL) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Setting | Description |
 |--- |--- |

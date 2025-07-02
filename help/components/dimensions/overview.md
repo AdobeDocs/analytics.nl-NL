@@ -1,29 +1,31 @@
 ---
-title: Overzicht van Dimension
-description: Variabelen die tekenreekswaarden bevatten.
+title: Overzicht van afmetingen
+description: Leer welke afmetingen zijn en hoe ze worden gebruikt in Adobe Analytics.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 0%
+source-wordcount: '160'
+ht-degree: 2%
 
 ---
 
-# Overzicht van Dimension
+# Overzicht van afmetingen
 
-Dimension zijn variabelen in Adobe Analytics die doorgaans tekenreekswaarden bevatten. Veelvoorkomende afmetingen zijn [Pagina](page.md), [Verwijzen naar domein](referring-domain.md)of een [eVar](evar.md). Daarentegen [cijfers](../metrics/overview.md) bevatten numerieke waarden die aan een dimensie koppelen. Een basisrapport toont rijen van koordwaarden (afmeting), tegen een kolom van numerieke waarden (metrisch).
+Dimensies zijn variabelen in Adobe Analytics die doorgaans tekenreekswaarden bevatten. De gemeenschappelijke dimensies omvatten [ Pagina ](page.md), [ Verwijzend domein ](referring-domain.md), of een [ eVar ](evar.md). In tegenstelling, [ metriek ](../metrics/overview.md) bevatten numerieke waarden die aan een afmeting binden. Een basisrapport toont rijen van koordwaarden (afmeting), tegen een kolom van numerieke waarden (metrisch).
 
-Als u bijvoorbeeld de dimensie &#39;Pagina&#39; hebt gecombineerd met de metrische waarde &#39;Bezoekingen&#39;, krijgt u een gerangschikt rapport met uw bezochte pagina&#39;s:
+Als u bijvoorbeeld de **[!UICONTROL Page]** -dimensie hebt gecombineerd met de **[!UICONTROL Visits]** -dimensie, krijgt u een gerangschikt rapport met uw bezochte pagina&#39;s:
 
-| `Page` | `Visits` |
-| --- | --- |
-| `Home page` | `800` |
-| `Product page` | `500` |
-| `Purchase page` | `100` |
+| Pagina | Bezoeken |
+| --- | ---: |
+| Homepage | 800 |
+| Productpagina | 500 |
+| Aankooppagina | 100 |
+
+{style="table-layout:fixed"}
 
 Elke dimensie vertegenwoordigt een ander deel of facet van uw site. U kunt één van meer van deze dimensies met één of meerdere metriek combineren om een gewenst rapport tot stand te brengen.
 
 ## Dimensiebeschrijvingen toevoegen
 
-Analysebeheerders kunnen beschrijvingen voor dimensies en andere componenten toevoegen in de rapportsuite of rechtstreeks in Analysis Workspace. Zie voor informatie over het toevoegen van beschrijvingen aan dimensies [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Analysebeheerders kunnen beschrijvingen voor dimensies en andere componenten toevoegen in de rapportsuite of rechtstreeks in Analysis Workspace. Voor informatie over hoe te om beschrijvingen aan afmetingen toe te voegen, zie [ componentenbeschrijvingen ](/help/analyze/analysis-workspace/components/add-component-descriptions.md) toevoegen.

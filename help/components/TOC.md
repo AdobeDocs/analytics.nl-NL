@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '767'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Analytics Components-handleiding](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -179,7 +179,7 @@ ht-degree: 7%
    + [Segmenten](segmentation/seg-overview.md)
    + [Informatie over segmentcontainers](segmentation/seg-containers.md)
    + [Segmenteringsfuncties in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + Segmenteringsworkflow {#segmentation-workflow}
+   + Workflow {#segmentation-workflow}
       + [Overzicht](segmentation/segmentation-workflow/seg-workflow.md)
       + [Elementen plannen](segmentation/segmentation-workflow/seg-plan.md)
       + [Segmenten maken](segmentation/segmentation-workflow/seg-create.md)
@@ -196,7 +196,7 @@ ht-degree: 7%
       + [Segmenten beheren](segmentation/segmentation-workflow/seg-manage.md)
       + [Segmenten publiceren naar de Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Segmenten gebruiken](segmentation/segmentation-workflow/t-seg-apply.md)
-   + Segmentverwijzing {#segment-reference}
+   + Referentie {#segment-reference}
       + [Operatoren](segmentation/seg-reference/seg-operators.md)
       + [Compatibiliteit met Data Warehouse-segmenten](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentrechten per rol](segmentation/seg-reference/seg-rights.md)
@@ -206,7 +206,7 @@ ht-degree: 7%
 + Berekende cijfers {#calculated-metrics}
    + [Overzicht](c-calcmetrics/cm-overview.md)
    + [Hoe kan ik-video&#39;s](c-calcmetrics/cm-videos.md)
-   + Workflow voor berekende metriek {#calcmetric-workflow}
+   + Workflow {#calcmetric-workflow}
       + [Berekende waarden maken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Metrische gegevens zoeken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Berekende maatstaven samenstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
@@ -225,7 +225,7 @@ ht-degree: 7%
       + [Berekende maatstaven delen](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Berekende cijfers kopiëren](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [Berekende waarden beheren](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + Verwijzing naar cijfers {#calcmetrics-reference}
+   + Referentie {#calcmetrics-reference}
       + [Basisfuncties](c-calcmetrics/cm-reference/cm-functions.md)
       + [Geavanceerde functies](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Metrische compatibiliteit](c-calcmetrics/cm-compatibility.md)
@@ -240,7 +240,7 @@ ht-degree: 7%
    + [A4T-overwegingen](vrs/vrs-a4t.md)
    + [Veelgestelde vragen over virtuele rapportsuites](vrs/vrs-faq.md)
    + [Virtuele rapportsuites en globale/multi-suite tagging overwegingen](vrs/vrs-considerations.md)
-   + Workflow voor virtuele rapportsuite {#vrs-workflow}
+   + Workflow {#vrs-workflow}
       + [Workflow voor virtuele rapportsuite](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Virtuele rapportsuites maken](vrs/c-workflow-vrs/vrs-create.md)
       + [Virtuele rapportsuites beheren](vrs/c-workflow-vrs/vrs-manage.md)
@@ -256,8 +256,8 @@ ht-degree: 7%
    + [Veelgestelde vragen over cross-device analyse](cda/faq.md)
 + Waarschuwingen {#alerts}
    + [Overzicht](c-alerts/intellligent-alerts.md)
-   + [Maken](c-alerts/alert-builder.md)
-   + [Beheren](c-alerts/alert-manager.md)
+   + [Waarschuwingen maken](c-alerts/alert-builder.md)
+   + [Waarschuwingen beheren](c-alerts/alert-manager.md)
    + [Gebruik hoofdletters](c-alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
    + [Overzicht van classificaties](classifications/classifications-overview.md)

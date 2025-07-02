@@ -1,11 +1,11 @@
 ---
-description: Alarm maakt korrelige controle over meldingen mogelijk, en integratie met anomaliedetectie.
+description: Begrijp hoe te om alarm te gebruiken TCP voor korrelige controle over berichten, en integratie met anomalieopsporing toestaat.
 title: Overzicht van waarschuwingen
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ Met waarschuwingen kunt u:
 * Voorbeeld van hoe vaak een waarschuwing wordt geactiveerd
 * Waarschuwingen verzenden via e-mail of SMS met koppelingen naar automatisch gegenereerde Analysis Workspace-projecten
 * &quot;gestapelde&quot; waarschuwingen maken die meerdere meetgegevens vastleggen in één waarschuwing
-* Berichten maken op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempelwaarden; % wijziging; boven/onder) (Alleen beschikbaar voor Adobe Analytics-klanten met een Select-, Premier- of Ultimate-pakket)
+* Berichten maken op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempelwaarden; procentuele wijziging; boven/onder) (Alleen beschikbaar voor Adobe Analytics-klanten met een Select-, Prime- of Ultimate-pakket)
 
-Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Alarm ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=nl-NL) (5:34)
+Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Alarm ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Anomalische zoekopdracht voor waarschuwingen
 
 >[!NOTE]
 >
->Het gebruiken van alarm met anomalieopsporing (die ook als _Intelligente Alarm_ wordt bekend) is beschikbaar slechts aan organisaties met een Adobe Analytics Prime of een Ultimate pakket.
+>Het gebruiken van alarm met anomalieopsporing (die ook als _Intelligente Alarm_ wordt bekend) is beschikbaar slechts aan organisaties met een pakket van Adobe Analytics Prime of van Ultimate.
 
 Als een waarschuwing afwijkende detectie gebruikt, varieert de trainingsperiode op basis van de voor de waarschuwing geselecteerde granulariteit.
 

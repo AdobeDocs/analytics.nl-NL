@@ -1,12 +1,12 @@
 ---
-description: Er zijn twee manieren om metriek in Analysis Workspace te gebruiken.
-title: Metriek in Analysis Workspace
+description: Begrijp wat metriek zijn en hoe te om metriek in Adobe Analytics te gebruiken.
+title: Metrics
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 69e67ca6bdd074a982b70e040b37b26434d216af
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 0%
 # Metrics
 
 Met cijfers kunt u gegevenspunten in Analysis Workspace kwantificeren. Deze worden meestal gebruikt als kolommen in een visualisatie en zijn gekoppeld aan afmetingen.
+
+## Metriek gebruiken in Analysis Workspace
+
+Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om te zien hoe metrisch met elk afmetingspunt vergelijkt. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt deze vervangen en als u een metrische waarde naast een koptekst sleept, ziet u beide meetgegevens naast elkaar.
+
+Voor informatie over hoe te om metriek en andere soorten componenten aan Analysis Workspace toe te voegen, zie [ de componenten van het Gebruik in Analysis Workspace ](use-components-in-workspace.md).
 
 ## Soorten metingen
 
@@ -41,7 +47,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ metriek van h
 
 ## Berekende waarden maken
 
-Met berekende meetwaarden kunt u eenvoudig zien hoe meetgegevens op elkaar betrekking hebben, met eenvoudige operatoren of statistische functies.
+Met berekende maatstaven kunt u zien hoe metrische gegevens op elkaar betrekking hebben, met behulp van eenvoudige operatoren of statistische functies.
 
 
 Er zijn verschillende manieren om berekende metriek te maken. De methode u kiest bepaalt of berekende metrisch van de componentenlijst over alle projecten, of slechts in het project beschikbaar is waar het werd gecreeerd.
@@ -73,15 +79,15 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    Wanneer u één kolom selecteert, zijn de volgende opties beschikbaar:
 
-   * [!UICONTROL **Gemiddeld**]: Creeert een nieuwe kolom die de gemiddelde waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Mean ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean) functie.
+   * [!UICONTROL **Gemiddeld**]: Creeert een nieuwe kolom die de gemiddelde waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Mean ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean) functie.
 
-   * [!UICONTROL **Mediaan**]: Creeert een nieuwe kolom die de mediane waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Mediaan ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median) functie.
+   * [!UICONTROL **Mediaan**]: Creeert een nieuwe kolom die de mediane waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Mediaan ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median) functie.
 
-   * [!UICONTROL **Kolom max**]: Creeert een nieuwe kolom die de grootste waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Maximale functie van de Kolom ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum).
+   * [!UICONTROL **Kolom max**]: Creeert een nieuwe kolom die de grootste waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Maximale ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum) functie van de Kolom.
 
-   * [!UICONTROL **Kolom min**]: Creeert een nieuwe kolom die de kleinste waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Minimale functie van de Kolom ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
+   * [!UICONTROL **Kolom min**]: Creeert een nieuwe kolom die de kleinste waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Minimale functie van de Kolom ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **som van de Kolom**]: Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. Dit gebruikt de [ functie van de Som van de Kolom ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
+   * [!UICONTROL **som van de Kolom**]: Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. De kolomwaarden gebruiken de [ Som van de Kolom ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) functie.
 
    Wanneer u twee kolommen selecteert, zijn de volgende opties beschikbaar:
 
@@ -95,12 +101,12 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentageverandering tussen de twee geselecteerde kolommen toont.
 
-[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=nl-NL) (3:42)
+[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen
 
-Als u snel een attributiemodel wilt vergelijken met een ander, klikt u met de rechtermuisknop op een metrisch model en selecteert u **[!UICONTROL Compare Attribution Models]** :
+Als u het ene attributiemodel snel met een ander wilt vergelijken, klikt u met de rechtermuisknop op een metrisch model en selecteert u **[!UICONTROL Compare Attribution Models]** :
 
 ![ vergelijk attributie ](assets/compare-attribution.png)
 

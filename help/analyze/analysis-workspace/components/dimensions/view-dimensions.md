@@ -1,17 +1,17 @@
 ---
-description: Bekijk de hoogste waarden van een dimensie alvorens het in een project te gebruiken.
-title: Voorvertoningsafmetingen
+description: Leer hoe u details en de bovenste waarden van een dimensie kunt bekijken in Analysis Workspace.
+title: Afmetingen voorvertoning
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
-# Afmetingen voorvertonen in Analysis Workspace
+# Voorvertoningsafmetingen
 
 U kunt [ componenteninfo ](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) voor een component gebruiken om de hoogste punten voor een afmeting te tonen.
 
