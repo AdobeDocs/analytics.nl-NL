@@ -5,9 +5,9 @@ keywords: Analysis Workspace;Segment-IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="Segmentvergelijking"
->abstract="Vergelijk snel twee segmenten in alle gegevenspunten om automatisch relevante verschillen te vinden."
+>abstract="Vergelijk snel twee segmenten over alle gegevenspunten om automatisch relevante verschillen te vinden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,16 +28,16 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Het vergelijkingspaneel Segment"
->abstract="Vergelijk snel twee segmenten in alle gegevenspunten om automatisch relevante verschillen te vinden.<br/><br/>**Parameters &#x200B;**<br/>**voegen een segment** toe: Het eerste segment u wilt analyseren.<br/>**vergelijk tegen**: Het tweede segment u tegen wilt vergelijken. Dit zal automatisch met *Eenieder anders* bevolken die het omgekeerde van uw eerste segment is. U kunt dit desgewenst vervangen door een ander segment.<br/>**Geavanceerde montages**: De capaciteit om componenten van worden geanalyseerd in de segmentvergelijking uit te sluiten."
+>abstract="Vergelijk snel twee segmenten over alle gegevenspunten om automatisch relevante verschillen te vinden.<br/><br/>**Parameters **<br/>**voegen een segment** toe: Het eerste segment dat u wilt analyseren.<br/>**vergelijk tegen**: Het tweede segment dat u wilt vergelijken tegen, dat automatisch met *iedereen anders* wordt bevolkt (het omgekeerde van uw eerste segment). U kunt *iedereen anders* met een verschillend segment vervangen indien gewenst.<br/>**Geavanceerde montages**: De capaciteit om componenten van worden geanalyseerd in de segmentvergelijking uit te sluiten."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het de vergelijkingspaneel van het Segment in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_dit artikel documenteert het de vergelijkingspaneel van het Segment in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-Het de vergelijkingspaneel van het Segment is een hulpmiddeldeel van [ IQ van het Segment ](../../segment-iq.md) dat de statistisch meest significante verschillen onder een onbeperkt aantal segmenten ontdekt. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. Het ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel om het even welke segmenten overlappen.
+In het vergelijkingspaneel Segment worden de statistisch meest significante verschillen tussen een onbeperkt aantal segmenten gedetecteerd. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. Het ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel segmenten overlappen.
 
 
 >[!BEGINSHADEBOX]
@@ -69,7 +69,7 @@ U kunt het deelvenster [!UICONTROL Segment comparison] configureren met de volge
 | Invoer | Beschrijving |
 | --- | --- |
 | **[!UICONTROL Add a segment]** | Selecteer de dimensie die u wilt vergelijken. |
-| **[!UICONTROL Compare against]** | Selecteer de dimensie die u wilt gebruiken om het oorspronkelijk geselecteerde segment te vergelijken. Als u geen specifiek segment selecteert, wordt het standaardsegment **[!UICONTROL Everyone else]** gebruikt. |
+| **[!UICONTROL Compare against]** | Selecteer de dimensie die u wilt gebruiken om het eerste geselecteerde segment te vergelijken. Als u geen specifiek segment selecteert, wordt het standaardsegment **[!UICONTROL Everyone else]** gebruikt. |
 | **[!UICONTROL Show / hide advanced settings]** | Selecteer **[!UICONTROL Show advanced settings]** om **[!UICONTROL Excluded components]** te configureren, selecteer **[!UICONTROL Hide advanced settings]** om **[!UICONTROL Excluded components]** te verbergen. |
 | **[!UICONTROL Excluded components]** | Componenten die u kunt opgeven, zoals **[!UICONTROL Dimensions]** , **[!UICONTROL Metrics]** of **[!UICONTROL Segments]** voor uitsluiting. <br><ul><li>Sleep een of meer afmetingen, maateenheden of segmenten van de containers naar de container **[!UICONTROL Excluded components]** .</li><li>Om een component te verwijderen, selecteer het type (**[!UICONTROL Dimension]** **[!UICONTROL Metrics]**, of **[!UICONTROL Segments]**) en selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een component te verwijderen. Selecteer **[!UICONTROL Clear all]** als u alle componenten wilt verwijderen.</li><li>Selecteer **[!UICONTROL Set as default]** als u de huidige selectie van afmetingen, cijfers en segmenten als de standaardinstelling wilt instellen.</li></ul> |
 
@@ -77,21 +77,21 @@ Selecteer **[!UICONTROL Build]** om het deelvenster te maken.
 
 ### Deelvensteruitvoer
 
-Nadat Adobe Analytics de twee gewenste segmenten heeft geanalyseerd, geeft het uitvoervenster resultaten weer via verschillende visualisaties:
+Nadat Adobe Analytics de twee gewenste segmenten heeft geanalyseerd, worden in de uitvoerdeelvensters de resultaten via verschillende visualisaties weergegeven:
 
 ![ de vergelijking van het de outputsegment van het Comité ](assets/segment-comparison-output.png)
 
 | Visualisatie | Beschrijving |
 |---|---|
 | **[!UICONTROL Size and overlap]** | Illustreert met a [ Venn ](/help/analyze/analysis-workspace/visualizations/venn.md) visualisatie de vergelijkende grootte van elk geselecteerd segment en hoeveel zij met elkaar overlappen. |
-| **[!UICONTROL Unique visitors for 1st segment]** | A [ Summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualisatie die de unieke bezoekers voor de eerste overeenkomst (in het voorbeeld Enige Pagina Bezoek toont) |
-| **[!UICONTROL Unique visitors for 2nd segment]** | A [ Summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualisatie die de unieke bezoekers voor de tweede overeenkomst (in het voorbeeld Eerste Bezoeken van de Tijd) tonen |
-| **[!UICONTROL Top metrics agains Segments]** | A [ vrije lijst van de Vrije vorm ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) tonend hoogste metriek voor de geselecteerde segmenten. |
+| **[!UICONTROL Unique visitors for 1st segment]** | A [ Summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualisatie die de unieke bezoekers voor het eerste segment tonen (in het voorbeeld Enige Pagina bezoeken) |
+| **[!UICONTROL Unique visitors for 2nd segment]** | A [ Summiere aantal ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualisatie die de unieke bezoekers voor het tweede segment tonen (in het voorbeeld Eerste Bezoeken van de Tijd) |
+| **[!UICONTROL Top metrics against Segments]** | A [ vrije lijst van de Vrije vorm ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) tonend hoogste metriek voor de geselecteerde segmenten. |
 | **[!UICONTROL Metric over time by Segment]** | A [ lijn ](/help/analyze/analysis-workspace/visualizations/line.md) visualisatie die de metriek in tijd voor de geselecteerde segmenten toont. |
 | **[!UICONTROL Top dimension items against Segments]** | A [ Vrije lijst van de Vorm ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de gemengde afmetingspunten voor de geselecteerde segmenten toont. |
 | **[!UICONTROL Dimension items by Segments]** | A [ Horizontale bar ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die de afmetingspunten door segment tonen. |
 | **[!UICONTROL Top segments against Segments]** | A [ Vrije lijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de hoogste segmenten tegen Segmenten toont. |
-| **[!UICONTROL Segment overlap]** | A [&#128279;](/help/analyze/analysis-workspace/visualizations/venn.md) visualisatie van het verduisteren  dat het segmentoverlapping toont. |
+| **[!UICONTROL Segment overlap]** | A [ visualisatie van het verduisteren ](/help/analyze/analysis-workspace/visualizations/venn.md) dat het segmentoverlapping toont. |
 
 Het gebruik ![ geeft ](/help/assets/icons/Edit.svg) uit om het paneel opnieuw te vormen en te bouwen.
 
