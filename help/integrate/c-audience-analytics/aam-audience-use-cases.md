@@ -22,12 +22,12 @@ Als Reizen Bedrijf, kunt u bestemmingsvoorkeur met aankoopgedrag snel bedekken o
 
 ## Look-Alike Modeling {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-Als Uitgever Van meerdere media, kunt u uw derdepubliek vergelijken gebruikend [ de vergelijking van het Segment ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) om zeer belangrijke het onderscheiden kenmerken te begrijpen. Deze vergelijking helpt u high-value eerste-party segmenten bouwen voor het richten te gebruiken.
+Als Uitgever Van meerdere media, kunt u uw derdepubliek vergelijken gebruikend [ de vergelijking van het Segment ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) om zeer belangrijke het onderscheiden kenmerken te begrijpen. Deze vergelijking helpt u high-value eerste-party segmenten bouwen voor het richten te gebruiken.
 
 ## Prospectieanalyse {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-Als B2B Retailer, kunt u nu diepgaand het gedrag van uw vooruitgangspubliek analyseren net alvorens zij het gebruiken van [ opeenvolgende segmentatie ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build) kopen, die u helpt begrijpen welke acties omzetting drijven.
+Als B2B Retailer, kunt u nu diepgaand het gedrag van uw vooruitgangspubliek analyseren net alvorens zij het gebruiken van [ opeenvolgende segmentatie ](https://experienceleague.adobe.com/nl/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build) kopen, die u helpt begrijpen welke acties omzetting drijven.
 
 ## Demografische gerichte {#section_F034DB721A06419283DBD29D4A1B444B}
 
-Als Resort van de Bestemming, kunt u [ Histogrammen in Analysis Workspace ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/histogram) gebruiken om aankopen te zien die door leeftijd worden verdeeld. Histogrammen helpen u het juiste publiek te vinden om voor elk van uw redmiddel eigenschappen te richten.
+Als Resort van de Bestemming, kunt u [ Histogrammen in Analysis Workspace ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/histogram) gebruiken om aankopen te zien die door leeftijd worden verdeeld. Histogrammen helpen u het juiste publiek te vinden om voor elk van uw redmiddel eigenschappen te richten.

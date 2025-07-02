@@ -32,7 +32,7 @@ De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks o
 
 >[!NOTE]
 >
->De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u het [ getTimeParting elektrisch toestel ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html) uitvoeren.
+>De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u het [ getTimeParting elektrisch toestel ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html?lang=nl-NL) uitvoeren.
 
 Afmetingen van tijdpartering in Analysis Workspace zijn onder andere:
 
