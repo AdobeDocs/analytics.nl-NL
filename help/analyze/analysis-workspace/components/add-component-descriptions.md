@@ -47,5 +47,5 @@ Voor algemene informatie over het Woordenboek van Gegevens, zie [ Overzicht van 
 >[!MORELIKETHIS]
 >
 >[ de componentenmontages van het Rapport ](/help/components/vrs/vrs-components.md)
->>[Items van gegevenswoordenboekcomponenten ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>&#x200B;>[Items van gegevenswoordenboekcomponenten ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >
