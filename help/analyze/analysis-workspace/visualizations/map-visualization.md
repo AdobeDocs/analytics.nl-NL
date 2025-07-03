@@ -1,11 +1,11 @@
 ---
-description: Gebruik de kaartvisualisatie om gegevens op een geografische kaart visualisatie te plotten
+description: Gebruik de kaartvisualisatie om gegevens op een geografische kaartvisualisatie te plotten.
 title: Kaart
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Kaart in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_er is momenteel geen visualisatie van de Kaart beschikbaar in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_dit artikel documenteert de visualisatie van de Kaart in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_er is momenteel geen visualisatie van de Kaart beschikbaar in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ De ![ Globe ](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualisatie in
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Kaart in Analysis Workspace ](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Kaart in Analysis Workspace ](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

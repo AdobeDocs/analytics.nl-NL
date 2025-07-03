@@ -1,17 +1,17 @@
 ---
 description: Leer hoe u vrije-vormtabellen kunt filteren en sorteren in Analysis Workspace.
-title: Tabellen filteren en sorteren
+title: Filter en sorteren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
 
-# Vrije-vormtabellen filteren en sorteren
+# Filteren en sorteren
 
 Vrije-vormtabellen in Analysis Workspace vormen de basis voor interactieve gegevensanalyse. Als zodanig kunnen ze duizenden rijen informatie bevatten. Het filteren en sorteren van de gegevens kan een essentieel onderdeel zijn van het efficiënt opzoeken van de belangrijkste informatie.
 

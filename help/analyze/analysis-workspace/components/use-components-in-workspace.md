@@ -4,14 +4,14 @@ title: Componenten in Analysis Workspace gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
-# Componenten in Analysis Workspace gebruiken
+# Componenten in een project gebruiken
 
 Componenten vormen de feitelijke gegevens van elk project in Analysis Workspace. Componenten bestaan uit afmetingen, metriek, segmenten en datumbereiken. U kunt componenten aan een project toevoegen door hen in visualisaties of panelen te slepen.
 
@@ -60,7 +60,7 @@ Voor informatie over hoe u de sectie van het segmentdaling op een paneel kunt ge
 
 1. U kunt desgewenst dimensies en dimensie-items in Analysis Workspace opsplitsen met andere componenten. Voor meer informatie, zie [ de dimensies van de Onderbreking in Workspace ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie &lbrace;de afmetingen van de Voorproef [, ](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md) de dimensies van de Onderbreking [, en ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) tijd-ontledende dimensies [.](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)
+Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie {de afmetingen van de Voorproef [, ](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md) de dimensies van de Onderbreking [, en ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) tijd-ontledende dimensies [.](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)
 
 ### Metriek toevoegen aan een project
 
@@ -132,7 +132,7 @@ U kunt over om het even welke component bewegen om ![ Meer info ](/help/assets/i
 
 Gebaseerd op uw toegangsbeheer, kunt u:
 
-* Heb toegang tot de ![ 2&rbrace; definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) &lbrace;voor de component.[!UICONTROL Data dictionary]
+* Heb toegang tot de ![ 2} definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) {voor de component.[!UICONTROL Data dictionary]
 * Heb toegang tot ![ uitgeeft ](/help/assets/icons/Edit.svg) componentenbouwer waar de component wordt bepaald.
 
 

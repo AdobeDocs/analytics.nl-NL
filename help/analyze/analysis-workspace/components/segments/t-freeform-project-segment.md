@@ -1,12 +1,12 @@
 ---
-description: Leer hoe u segmenten maakt en gebruikt in Analysis Workspace.
+description: Leer hoe u segmenten maakt en gebruikt in Analysis Workspace en Adobe Analytics.
 title: Overzicht van segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ U kunt segmenten maken en gebruiken in Analysis Workspace en Customer Journey An
 | --- | --- | --- | --- |
 | Segment op lijst met componenten | Zie hoe te [ een segment ](/help/components/segmentation/segmentation-workflow/seg-create.md) creëren. | Alle Workspace-projecten | Voor complexere segmenten, opeenvolgende segmenten |
 | Snel segment | [ Snelle segmentbouwer ](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Kan worden gebruikt voor ad-hocsegmenten met één regel (met slepen en neerzetten) of om meerdere regels toe te voegen/te bewerken (door op het pictogram Segment te klikken) |
-| Op cijfers gebaseerd segment | [ Berekende metrische bouwer ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=nl-NL) | Op berekende individuele metrieke waarde | Segment/s toepassen binnen uw metrische definitie |
-| Op suite gebaseerd segment van virtueel rapport | [ de Virtuele bouwer van de rapportsuite ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) | Naar afzonderlijke virtuele rapportsuite | Segment/segmenten toepassen binnen de definitie van uw virtuele rapportsuite |
+| Op cijfers gebaseerd segment | [ Berekende metrische bouwer ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Op berekende individuele metrieke waarde | Segment/s toepassen binnen uw metrische definitie |
+| Op suite gebaseerd segment van virtueel rapport | [ de Virtuele bouwer van de rapportsuite ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Naar afzonderlijke virtuele rapportsuite | Segment/segmenten toepassen binnen de definitie van uw virtuele rapportsuite |
 
 ## Video&#39;s
 

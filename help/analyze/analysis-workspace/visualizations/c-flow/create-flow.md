@@ -4,7 +4,7 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 0%
@@ -108,7 +108,7 @@ U kunt het begin of het eind van de weg vormen u in geinteresseerd bent. U kunt 
    | **[!UICONTROL Limit to first/last occurrence]** | Beperk paden tot paden die beginnen of eindigen met de eerste of laatste instantie van een dimensie, item of metrische waarde. Zie [ Beperken tot eerste/laatste voorkomen ](#example-scenario-for-limit-to-firstlast-occurrence) voor een meer gedetailleerde verklaring. |
    | **[!UICONTROL Number of columns]** | Het aantal kolommen u in uw diagram van de Stroom wilt. U kunt maximaal vijf kolommen opgeven. |
    | **[!UICONTROL Items expanded per column]** | Het aantal items dat u in elke kolom wilt opnemen. U kunt maximaal tien items opgeven die per kolom worden uitgevouwen. |
-   | **[!UICONTROL Flow container]** | U kunt schakelen tussen **[!UICONTROL Sessions]** en **[!UICONTROL Person]** om het plakken te analyseren. Met deze instellingen kunt u de betrokkenheid van een persoon op persoonlijk niveau (tijdens verschillende sessies) begrijpen of de analyse beperken tot één sessie. |
+   | **[!UICONTROL Flow container]** | U kunt schakelen tussen **[!UICONTROL Visit]** en **[!UICONTROL Visitor]** om het plakken te analyseren. Met deze instellingen kunt u de betrokkenheid van een bezoeker op bezoekersniveau (bij verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
 
    >[!IMPORTANT]
    >
@@ -173,7 +173,7 @@ Gebruik een contextmenu op een knooppunt in de stroomvisualisatie met de volgend
 | **[!UICONTROL Exclude item]** of **[!UICONTROL Restore excluded items]** | Hiermee verwijdert u een specifiek knooppunt uit de kolom en maakt u het automatisch als filter boven aan de kolom. Selecteer **[!UICONTROL Restore Excluded Item]** in het contextmenu om het uitgesloten item te herstellen. U kunt het filter ook boven aan de kolom openen en de pillarbox verwijderen met het item dat u zojuist hebt uitgesloten. |
 | **[!UICONTROL Trend]** | Creeer een trended diagram voor de knoop. |
 | **[!UICONTROL Show next column]** / **[!UICONTROL Show previous column]** | Geeft de volgende (rechts) of vorige (links) kolom van de visualisatie aan. |
-| **[!UICONTROL Hide colum]**&#x200B;n | Hiermee verbergt u de geselecteerde kolom uit de visualisatie. |
+| **[!UICONTROL Hide colum]**n | Hiermee verbergt u de geselecteerde kolom uit de visualisatie. |
 | **[!UICONTROL Expand entire column]** | Breid een kolom uit om alle knopen te tonen. Standaard worden alleen de bovenste vijf knooppunten weergegeven. |
 | **[!UICONTROL Create audience from selection]** | Hiermee maakt u een publiek op basis van de geselecteerde kolom. |
 | **[!UICONTROL Collapse entire column]** | Alle knooppunten in een kolom verbergen. |
@@ -195,15 +195,15 @@ In het voorbeeld hieronder, **alle** voorkomen van *hoofdcategorie van het Produ
 
   In het voorbeeld hieronder, slechts zijn de **laatste** voorkomen van *hoofdcategorie van het Product* en *toevoegen aan wortel* in elke stap van de stroom inbegrepen.
   ![ Lint, begin ](assets/limitonlast.png)
-* De gebruikte reeks verschilt op basis van de container. Als u de container **[!UICONTROL Person]** gebruikt, is de reeks gebeurtenissen de sessie. Als u de container **[!UICONTROL Session]** gebruikt, zijn de reeks gebeurtenissen alle gebeurtenissen voor een bepaalde gebruiker in het opgegeven datumbereik.
+* De gebruikte reeks verschilt op basis van de container. Als u de container **[!UICONTROL Visitor]** gebruikt, bestaat de reeks gebeurtenissen uit de bezoeken. Als u de container **[!UICONTROL Visitor]** gebruikt, zijn de reeks gebeurtenissen alle hits voor een bepaalde gebruiker in het opgegeven datumbereik.
 * De optie **[!UICONTROL Limit to first/last occurrence]** kan in de geavanceerde instellingen worden geconfigureerd wanneer u een Metrisch of Dimension-item gebruikt in de velden **[!UICONTROL Starts with]** of **[!UICONTROL Ends with]** .
 
 
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

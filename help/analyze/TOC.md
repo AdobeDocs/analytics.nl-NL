@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '868'
 ht-degree: 9%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 9%
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -34,7 +34,7 @@ ht-degree: 9%
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
       + [Inhoudsopgave](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Mappen in Workspace {#workspace-folders}
-         + [Overzicht van mappen](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Overzicht](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Mappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Mappen beheren](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Projecten toevoegen of verplaatsen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -42,9 +42,10 @@ ht-degree: 9%
       + [Hotkeys](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Kleurenpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Weergavedichtheid](analysis-workspace/build-workspace-project/view-density.md)
+      + [Debugger](analysis-workspace/build-workspace-project/debugger.md)
    + Sjablonen {#templates}
       + [Sjablonen gebruiken](analysis-workspace/templates/use-templates.md)
-      + [Sjablonen maken](analysis-workspace/templates/create-templates.md)
+      + [Sjablonen maken en beheren](analysis-workspace/templates/create-templates.md)
    + Onderdelen {#components}
       + [Overzicht](analysis-workspace/components/analysis-workspace-components.md)
       + [Componenten gebruiken](analysis-workspace/components/use-components-in-workspace.md)
@@ -99,8 +100,8 @@ ht-degree: 9%
          + [Overzicht](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configureren](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale stromen](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [Gebied en gebied gestapeld](analysis-workspace/visualizations/area.md)
-      + [Stapel en balk gestapeld](analysis-workspace/visualizations/bar.md)
+      + [Gebied (gestapeld)](analysis-workspace/visualizations/area.md)
+      + [Staaf (gestapeld)](analysis-workspace/visualizations/bar.md)
       + [Opsommingsteken](analysis-workspace/visualizations/bullet-graph.md)
       + [Combo](analysis-workspace/visualizations/combo-charts.md)
       + [Donut](analysis-workspace/visualizations/donut.md)

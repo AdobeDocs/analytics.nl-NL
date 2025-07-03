@@ -1,10 +1,10 @@
 ---
-description: Begrijp wat metriek zijn en hoe te om metriek in Adobe Analytics te gebruiken.
+description: Begrijp welke metriek zijn en hoe te om metriek in de werkruimte van de Analyse te gebruiken.
 title: Metrics
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentageverandering tussen de twee geselecteerde kolommen toont.
 
-[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen

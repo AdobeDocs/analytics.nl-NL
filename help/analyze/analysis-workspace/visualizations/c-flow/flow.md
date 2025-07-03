@@ -1,13 +1,13 @@
 ---
-description: Leer hoe u de stroomvisualisatie in een Analysis Workspace kunt gebruiken.
+description: Leer hoe u de stroomvisualisatie in Analysis Workspace kunt gebruiken.
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Stroom"
->abstract="Analyseer de stroom van bezoeken of bezoekers van één aanraakpunt aan volgende.<br/><br/>**Parameters &#x200B;**<br/>**Begint met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste het voorkomen touchpoints na het voorkomen van de geselecteerde component te zien.<br/>**bevat**: Voeg een afmeting of een afmetingspunt toe om de hoogste het voorkomen aanraakpunten vóór en na het voorkomen van de geselecteerde component te zien.<br/>**eindigt met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste voordien touchpoints vóór het voorkomen van de geselecteerde component te zien.<br/>**het Schilderen afmeting**: Voeg een afmeting toe om als uw weg te gebruiken die aan of van uw geselecteerde component leidt te gaan."
+>abstract="Analyseer de stroom van bezoeken of bezoekers van één aanraakpunt aan volgende.<br/><br/>**Parameters **<br/>**Begint met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste het voorkomen touchpoints na het voorkomen van de geselecteerde component te zien.<br/>**bevat**: Voeg een afmeting of een afmetingspunt toe om de hoogste het voorkomen aanraakpunten vóór en na het voorkomen van de geselecteerde component te zien.<br/>**eindigt met**: Voeg een afmeting, een afmetingspunt, of metrisch toe om de hoogste voordien touchpoints vóór het voorkomen van de geselecteerde component te zien.<br/>**het Schilderen afmeting**: Voeg een afmeting toe om als uw weg te gebruiken die aan of van uw geselecteerde component leidt te gaan."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Stroom in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Stroom ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Stroom in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Stroom ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een d
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#128279;](/help/assets/icons/VideoCheckedOut.svg) [ Extra functionaliteit 0&rbrace; VideoCheckedOut in de visualisatie van de Stroom ](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ ](/help/assets/icons/VideoCheckedOut.svg) Extra functionaliteit 0} VideoCheckedOut in de visualisatie van de Stroom [ voor een demo video.](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}
 
 >[!ENDSHADEBOX]
 

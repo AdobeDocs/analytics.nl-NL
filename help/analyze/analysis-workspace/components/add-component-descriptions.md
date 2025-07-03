@@ -1,12 +1,12 @@
 ---
-description: Beheerders kunnen beschrijvingen toevoegen voor componenten in een rapportsuite of met gebruik van het gegevenswoordenboek.
+description: Leer hoe beheerders beschrijvingen aan componenten kunnen toevoegen gebruikend een rapportreeks of het gegevenswoordenboek.
 title: Componentbeschrijvingen toevoegen
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -47,5 +47,5 @@ Voor algemene informatie over het Woordenboek van Gegevens, zie [ Overzicht van 
 >[!MORELIKETHIS]
 >
 >[ de componentenmontages van het Rapport ](/help/components/vrs/vrs-components.md)
->&#x200B;>[Items van gegevenswoordenboekcomponenten ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Items van gegevenswoordenboekcomponenten ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

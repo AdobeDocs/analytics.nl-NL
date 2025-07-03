@@ -5,7 +5,7 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 10%
@@ -25,11 +25,11 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Treemap in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Treemap ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/treemap) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Treemap in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Treemap ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
-Gebruik visualisatie a ![&#128279;](/help/assets/icons/GraphTree.svg) GraphTree **[!UICONTROL Treemap]** om hiërarchische (boom-gestructureerde) gegevens als reeks genestelde rechthoeken te tonen.
+Gebruik visualisatie a ![ GraphTree ](/help/assets/icons/GraphTree.svg) om hiërarchische (boom-gestructureerde) gegevens als reeks genestelde rechthoeken te tonen.**[!UICONTROL Treemap]**
 
 Elke tak van de boomstructuur krijgt een rechthoek die vervolgens als tegel naast kleinere rechthoeken wordt geplaatst die de subvertakkingen vertegenwoordigen.
 
@@ -40,7 +40,7 @@ Met een treemap kunt u patronen zien die moeilijk op andere manieren te vinden z
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Treemap ](https://video.tv.adobe.com/v/334458/?quality=12){target=&#34;_blank&#34;} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Treemap ](https://video.tv.adobe.com/v/334458/?quality=12){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -48,6 +48,6 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie 
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -1,13 +1,13 @@
 ---
-title: Mobiele annotaties
-description: Leer hoe u annotaties kunt weergeven in Mobile-scorecards.
+title: Mobiele scorebordannotaties
+description: Leer hoe u annotaties kunt weergeven in mobiele scorecards.
 role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Mobiele scorecardannotaties
 
-U kunt annotaties die in Workspace zijn gemaakt, weergeven in Mobile-scorecards. Met annotaties in mobiele scorecards kunt u contextuele gegevensnuances en inzichten over uw organisatie en campagnes delen.
+U kunt annotaties die in Analysis Workspace zijn gemaakt, weergeven in Mobile-scorecards. Met annotaties in mobiele scorecards kunt u contextuele gegevensnuances en inzichten over uw organisatie en campagnes delen.
 
 
 ## Annotaties weergeven in Mobile-scorecards

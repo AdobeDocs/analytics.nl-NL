@@ -5,9 +5,9 @@ title: Segmenten toepassen in Fallout-analyse
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -25,29 +25,29 @@ U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoeg
 >* Het gebruiken van een op bezoek-gebaseerd segment als touchpoint binnen een bezoek-contextVallout visualisatie.
 >
 
-## Een segment maken van een aanraakpunt {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## Een segment maken van een aanraakpunt
 
 1. Maak een segment van een bepaald aanraakpunt waarin u bijzonder geïnteresseerd bent en dat u op andere rapporten kunt toepassen. U doet dit door met de rechtermuisknop op het aanraakpunt te klikken en **[!UICONTROL Create segment from touchpoint]** te selecteren.
 
-   ![](assets/segment-from-touchpoint.png)
+   ![](assets/fallout-createsegment.png)
 
    De Bouwer van het Segment opent, vooraf bevolkt met het pre-gebouwde opeenvolgende segment dat aanraakpunt aanpast u selecteerde:
 
-   ![](assets/segment-builder.png)
+   ![](assets/fallout-definesegment.png)
 
 1. Geef het segment een titel en een beschrijving en sla het op.
 
-   U kunt dit segment nu gebruiken in elk gewenst rapport.
+   U kunt dit segment nu gebruiken in elk gewenst project.
 
-## Een segment toevoegen als aanraakpunt {#section_17611C1A07444BE891DC21EE8FC03EFC}
+## Een segment toevoegen als aanraakpunt
 
-Als u bijvoorbeeld wilt zien hoe uw gebruikers in de VS zich ontwikkelen en de neerslag beïnvloeden, sleept u gewoon het Amerikaanse gebruikerssegment naar de uitval:
+Als u bijvoorbeeld wilt zien hoe de mobiele toepassing de trend weergeeft en de fallout beïnvloedt, sleept u gewoon het segment App Hits voor mobiele apparaten naar de fallout:
 
 ![](assets/segment-touchpoint.png)
 
-U kunt ook een AND-aanraakpunt maken door het Amerikaanse gebruikerssegment naar een ander controlepunt te slepen.
+U kunt ook een AND-aanraakpunt maken door het segment App Hits voor mobiele apparaten naar een ander controlepunt te slepen.
 
-## Segmenten vergelijken bij uitvallen {#section_E0B761A69B1545908B52E05379277B56}
+## Segmenten vergelijken bij uitvallen
 
 U kunt een onbeperkt aantal segmenten vergelijken in de Fallout-visualisatie. (In de onderstaande video staat dat u maximaal drie segmenten kunt vergelijken. Dit is onjuist.)
 
@@ -59,13 +59,11 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ segmenten in 
 >[!ENDSHADEBOX]
 
 
-1. Selecteer de segmenten die u wilt vergelijken in de [!UICONTROL Segments] -rail aan de linkerkant. In ons voorbeeld hebben we twee segmenten geselecteerd: US Users en Non-US Users.
-1. Sleep ze naar de neerzetzone Segment bovenaan.
+1. Selecteer in het deelvenster [!UICONTROL Segment] aan de linkerkant de segmenten die u wilt vergelijken. In het voorbeeld In het voorbeeld worden twee segmenten geselecteerd: **[!UICONTROL iOS]** en **[!UICONTROL Android]** .
+1. U sleept de drie segmenten naar de neerzetzone Segment boven aan de visualisatie.
 
-   ![](assets/segment-drop.png)
+   ![](assets/segment-compare.png)
 
-1. Optioneel: u kunt &quot;Alle bezoeken&quot; behouden als de standaardcontainer of deze verwijderen.
+1. Facultatief: U kunt *Alle Personen* als standaardcontainer houden of de container schrappen.
 
-   ![](assets/seg-compare.png)
-
-1. U kunt nu de uitval over de twee segmenten vergelijken, zoals waar één segment een andere overtreft, of andere inzichten.
+1. U kunt nu de uitval over de drie segmenten vergelijken, zoals waar een segment een ander segment overtreft, of andere inzichten.
