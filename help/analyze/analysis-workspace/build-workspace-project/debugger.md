@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: Foutopsporing van project
 role: User
-source-git-commit: e7aaafc95f60c71744cfeb3c59310d8ba2ea2576
+exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
+source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Debugger van het project helpt u en de Steun van Adobe om kwesties met uw projec
 
 >[!NOTE]
 >
->Om debugger te gebruiken, moet u **&#x200B;**&#x200B;uitgeven of **toegang van het Exemplaar** tot het project hebben.
+>Om debugger te gebruiken, moet u **** uitgeven of **toegang van het Exemplaar** tot het project hebben.
 >
 
 ## Foutopsporing inschakelen
@@ -54,7 +55,7 @@ Om debugger voor een specifieke visualisatie te gebruiken:
 
    * **[!UICONTROL Request timestamp]**
    * **[!UICONTROL Response timestamp]**
-   * **[!UICONTROL &#x200B; Request time]**
+   * **[!UICONTROL Request time]**
    * **[!UICONTROL Queue time]**
    * **[!UICONTROL Server processing time]**
    * **[!UICONTROL Lookup time]**
@@ -74,7 +75,7 @@ Om debugger voor een specifieke visualisatie te gebruiken:
    * JSON (reactie)
    * Cursusverzoek
 
-1. Het Exemplaar van het gebruik ![ **&#x200B; ](/help/assets/icons/Copy.svg) &#x200B;** d onderaan [!UICONTROL Copy to clipboard] om het verzoek aan het klembord te kopiëren.**[!UICONTROL cURL Request]**
+1. Het Exemplaar van het gebruik ![ ](/help/assets/icons/Copy.svg) onderaan **[!UICONTROL Copy to clipboard]** om het verzoek aan het klembord te kopiëren.**[!UICONTROL cURL Request]**
 1. Beweeg over om het even welke **[!UICONTROL Request]** of **[!UICONTROL Response]** tekstgebieden om ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** te openbaren en te selecteren om de inhoud van dat tekstgebied (XML of JSON) aan het klembord te kopiëren.
 
 1. Uitwisseling om het even welke informatie u hebt gekopieerd en die de Steun van Adobe verzocht om de visualisaties in uw project van Analysis Workspace problemen op te lossen.
@@ -95,6 +96,3 @@ Het foutopsporingsprogramma uitschakelen:
 1. Selecteer **[!UICONTROL Help]** > **[!UICONTROL Disable debugger]** in het Analysis Workspace-projectmenu.
 1. Selecteer **[!UICONTROL OK]** in het dialoogvenster **[!UICONTROL Disable debugger]** .
 1. Bevestig wanneer de browser u vraagt de pagina of site opnieuw te laden.
-
-
-
