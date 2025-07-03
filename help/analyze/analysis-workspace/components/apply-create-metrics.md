@@ -101,7 +101,7 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentageverandering tussen de twee geselecteerde kolommen toont.
 
-[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen
