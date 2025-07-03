@@ -18,7 +18,7 @@ Debugger van het project helpt u en de Steun van Adobe om kwesties met uw projec
 
 >[!NOTE]
 >
->Om debugger te gebruiken, moet u **** uitgeven of **toegang van het Exemplaar** tot het project hebben.
+>Om debugger te gebruiken, moet u **&#x200B;**&#x200B;uitgeven of **toegang van het Exemplaar** tot het project hebben.
 >
 
 ## Foutopsporing inschakelen
