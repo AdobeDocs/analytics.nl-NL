@@ -1,31 +1,31 @@
 ---
-title: Attributiemodellen, containers en opzoekvensters
-description: Hoe verschillende soorten attributie krediet verdelen tussen dimensie-items.
+title: Attributie-componenten
+description: Leer meer over de componenten die de attributie bepalen.
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
-# Attributiemodellen, containers en terugkijkvensters
+# Attributie-componenten
 
 Het attribuutconcept in Adobe Analytics bestaat uit drie componenten:
 
-* **model van de Attributie:** het model beschrijft de distributie van omzettingen in de hits in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
-* **Container**: De container bepaalt het werkingsgebied van de attributie, of hoe te om de hits voor elk model te groeperen.
-* **venster van de terugkijkplaats van de Attributie:** het terugkijkvenster beschrijft het aantal dagen om terug naar het gekozen model te zoeken.
+* **model van de Attributie:** het [ model ](#attribution-model) beschrijft de distributie van omzettingen in de hits in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
+* **Container**: De [ container ](#container) bepaalt het werkingsgebied van de attributie, of hoe te om de hits voor elk model te groeperen.
+* **venster van de raadplegingsterugkijker van de Attributie:** het [ raadplegingsvenster ](#lookback-window) beschrijft het aantal dagen terug naar het gekozen model te zoeken.
 
 
-## Attributiemodellen
+## Attributiemodel
 
 {{attribution-models-details}}
 
 
-## Containers
+## Container
 
 {{attribution-container}}
 

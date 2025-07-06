@@ -1,16 +1,16 @@
 ---
-description: U kunt segmenten ook als favorieten markeren om ze zo eenvoudig mogelijk te organiseren.
-title: Segmenten markeren als favorieten
+description: Leer hoe u segmenten als favorieten kunt markeren als een andere manier om segmenten te ordenen voor gebruiksgemak.
+title: Segmenten markeren als favoriet
 feature: Segmentation
 exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
 
-# Segmenten markeren als favorieten
+# Segmenten markeren als favoriet
 
 U kunt een segment markeren als favoriet. Als u segmenten als favoriet wilt markeren, kunt u de segmenten ordenen. Alle gebruikers kunnen de voorkeur geven aan segmenten.
 

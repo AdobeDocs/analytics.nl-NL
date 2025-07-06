@@ -1,11 +1,11 @@
 ---
-description: Beschrijft een voorgestelde werkschema voor segmenten die met de bouwer van het Segment worden gecreeerd en door de manager van het Segment worden geleid.
-title: Overzicht van de segmentatieworkflow
+description: Leer over een gesuggereerde werkschema om segmenten met de segmentbouwer tot stand te brengen en door de segmentmanager geleid.
+title: Overzicht van segmentatieworkflow
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 7%
 
 ---

@@ -1,12 +1,11 @@
 ---
-description: Hoe te om segmenten aan een rapport te gebruiken.
+description: Leer hoe u segmenten in Analysis Workspace kunt gebruiken.
 title: Segmenten gebruiken
-feature: Segmentation
 role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Als u segmenten in Analysis Workspace wilt gebruiken, sleept u eenvoudig een of 
 * Een kopbalrij in a [ vrije vormlijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om de afmeting te vervangen.
 * Een rij in a [ vrije vormlijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om een uitsplitsing in werking te stellen.
 * Een kolom in a [ vrije vormlijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om een kolom toe te voegen of te vervangen, of een filter in werking te stellen.
-* Configuratievensters voor visualisatie of deelvensters waarmee u segmenten kunt neerzetten. Bijvoorbeeld, in de vergelijking van het a [&#128279;](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) Segment , of [ Zeer belangrijke metrische ](/help/analyze/analysis-workspace/visualizations/key-metric.md) summiere visualisatie
+* Configuratievensters voor visualisatie of deelvensters waarmee u segmenten kunt neerzetten. Bijvoorbeeld, in de vergelijking van het a [ Segment ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md), of [ Zeer belangrijke metrische ](/help/analyze/analysis-workspace/visualizations/key-metric.md) summiere visualisatie
 * De [ definitiebouwer voor een segment ](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder), zodat omvat u een segment in uw segmentdefinitie.
 * De [ definitiebouwer voor berekende metrisch ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder), zodat omvat u een segment in uw berekende metrische definitie.
 

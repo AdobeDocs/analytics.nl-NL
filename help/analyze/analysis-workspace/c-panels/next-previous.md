@@ -1,12 +1,12 @@
 ---
-description: Begrijp hoe te om het Volgende of vorige puntenpaneel te gebruiken dat de volgende of vorige afmetingspunten voor een specifieke afmeting toont.
+description: Begrijp hoe te om het Volgende of vorige puntenpaneel te gebruiken dat de volgende of vorige punten voor een specifieke afmeting toont.
 title: Deelvenster Volgende of Vorige item
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Volgende of vorige puntenpaneel in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Volgende of vorig puntenpaneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/next-previous)) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert het Volgende of vorige puntenpaneel in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Volgende of vorig puntenpaneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ U kunt het deelvenster [!UICONTROL Next or previous item] configureren met de vo
 | **[!UICONTROL Dimension]** | Selecteer de dimensie waarvoor u volgende of vorige punten wilt onderzoeken. |
 | **[!UICONTROL Dimension item]** | Selecteer het specifieke dimensie-item in het midden van uw volgende/vorige vraag. |
 | **[!UICONTROL Direction]** | Geef op of u naar het dimensie-item [!UICONTROL Next] of [!UICONTROL Previous] zoekt. |
-| **[!UICONTROL Container]** | Selecteer de container [!UICONTROL Session] of [!UICONTROL Person] (standaard) om het bereik van uw vraag te bepalen. |
+| **[!UICONTROL Container]** | Selecteer de container **[!UICONTROL Visit]** of **[!UICONTROL Visitor]** (standaard) om het bereik van uw vraag te bepalen. |
 
 {style="table-layout:auto"}
 

@@ -1,16 +1,16 @@
 ---
-description: Berekende metriek markeren als favorieten is een andere manier om ze te ordenen voor gebruiksgemak.
+description: U kunt berekende metriek ordenen door berekende metriek als favorieten te markeren.
 title: Berekende metriek markeren als favorieten
 feature: Calculated Metrics
 exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
-# Berekende metriek markeren als favorieten
+# Berekende metriek markeren als favoriet
 
 U kunt een berekende metrisch als favoriet merken. Als u berekende metriek als favoriet wilt markeren, kunt u de berekende metrisch ordenen. Alle gebruikers kunnen de voorkeur geven aan berekende metriek.
 

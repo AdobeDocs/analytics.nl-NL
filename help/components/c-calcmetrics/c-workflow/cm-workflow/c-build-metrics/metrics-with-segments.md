@@ -1,11 +1,11 @@
 ---
-description: Het segmenteren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken.
-title: Gesegmenteerde metriek
+description: Leer hoe te op individuele metriek te segmenteren die u toestaat om metrische vergelijkingen binnen de zelfde visualisatie te maken.
+title: Gesegmenteerde cijfers
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---

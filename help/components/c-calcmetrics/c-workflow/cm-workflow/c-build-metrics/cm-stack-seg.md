@@ -1,9 +1,9 @@
 ---
-description: Toont om segmenten binnen Berekende Metrische Bouwer te stapelen en te vervangen.
+description: Leer hoe te om segmenten binnen Berekende metrische bouwer te stapelen en te vervangen.
 title: Segmenten stapelen en vervangen
 feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

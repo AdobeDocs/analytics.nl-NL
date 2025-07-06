@@ -1,16 +1,16 @@
 ---
-description: De bouwer van het Segment verstrekt een canvas om Metrische Dimensies, Segmenten, en Gebeurtenissen te slepen en te laten vallen bezoekers segmenteren die op containerhiërarchische logica, regels, en exploitanten worden gebaseerd. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe segmenten maken en opslaan die bezoekerskenmerken en -acties identificeren voor bezoeken en pagina-einden.
+description: Begrijp hoe te om segmenten te bouwen gebruikend belemmering en daling van metrisch, afmetingen, segmenten, en gebeurtenissen. Begrijp hoe u eenvoudige of complexe segmenten kunt bouwen en bewaren die bezoekersattributen en acties over bezoeken en paginakijken identificeren.
 title: Segmenten maken
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
 
-# Segment builder {#segment-builder}
+# Segmenten maken {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Gegevensvoorbeeld"
->abstract="Vergelijkt de gegevens van dit segment met gegevens van de gegevensmening. Het voorproefpercentage is gebaseerd op het totale aantal in de gegevensmening van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
+>abstract="Vergelijkt de gegevens van dit segment met gegevens van de rapportreeks. Het voorproefpercentage is gebaseerd op het totale aantal van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
 
 
 Het dialoogvenster **[!UICONTROL Segment builder]** wordt gebruikt om nieuwe segmenten te maken of bestaande segmenten te bewerken. Het dialoogvenster krijgt de naam **[!UICONTROL New segment]** of **[!UICONTROL Edit segment]** voor segmenten die u maakt of beheert met de [[!UICONTROL Segment] manager ](/help/components/segmentation/segmentation-workflow/seg-manage.md) .
@@ -36,7 +36,7 @@ Het dialoogvenster **[!UICONTROL Segment builder]** wordt gebruikt om nieuwe seg
 
 ![ de detailsvenster die van het Segment gebieden en opties tonen in de volgende sectie worden beschreven.](assets/new-segment.png)
 
->[!TAB creeer of geef segment  uit]
+>[!TAB  creeer of geef segment ] uit
 
 ![ de detailsvenster die van het Segment gebieden en opties tonen in de volgende sectie worden beschreven.](assets/edit-segment.png)
 
@@ -47,7 +47,7 @@ Het dialoogvenster **[!UICONTROL Segment builder]** wordt gebruikt om nieuwe seg
    | Element | Beschrijving |
    | --- | --- |
    | **[!UICONTROL Report suite]** | U kunt de rapportreeks voor het segment selecteren. |
-   | **[!UICONTROL Project-only segment]** | Een infovakje om uit te leggen dat het segment slechts zichtbaar in het project is waar het wordt gecreeerd en dat het segment niet aan uw componentenlijst zal worden toegevoegd. Schakel **[!UICONTROL Make this segment available to all your projects and add it to your component list]** in om die instelling te wijzigen. Dit infovakje is slechts zichtbaar wanneer u a [ snel segment ](seg-quick.md) creeert en de snelle segmentinfo een regelmatig segment draait gebruikend **[!UICONTROL Open builder]** van de [!UICONTROL Quick segment] interface. |
+   | **[!UICONTROL Project-only segment]** | Een infovakje om uit te leggen dat het segment slechts zichtbaar in het project is waar het wordt gecreeerd. En dat het segment niet aan uw componentenlijst wordt toegevoegd. Schakel **[!UICONTROL Make this segment available to all your projects and add it to your component list]** in om die instelling te wijzigen. Dit infovakje is slechts zichtbaar wanneer u a [ snel segment ](seg-quick.md) creeert en de snelle segmentinfo een regelmatig segment draait gebruikend **[!UICONTROL Open builder]** van de [!UICONTROL Quick segment] interface. |
    | **[!UICONTROL Title]** ![ Vereiste ](/help/assets/icons/Required.svg) | Geef het segment een naam, bijvoorbeeld `Last month mobile visitors` . |
    | **[!UICONTROL Description]** | Geef een beschrijving voor het segment op, bijvoorbeeld `Segment to define the mobile customers for the last month` . |
    | **[!UICONTROL Tags]** | Organiseer het segment door een of meer tags te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
@@ -185,7 +185,7 @@ Selecteer ![ Vestiging ](/help/assets/icons/Setting.svg) binnen de afmetingscomp
 
 ### Voorbeeld
 
-Als onderdeel van een segmentdefinitie hebt u de volgende voorwaarde opgegeven: De paginanaam is gelijk aan Vrouwen. Vergelijkbaar met het bovenstaande voorbeeld. U herhaalt deze segmentdefinitie met de twee andere attributiemodellen. Dus u hebt drie segmenten elk met hun eigen attributiemodel:
+Als onderdeel van een segmentdefinitie hebt u de volgende voorwaarde opgegeven: De paginanaam is gelijk aan Vrouwen. Vergelijkbaar met het bovenstaande voorbeeld. U herhaalt deze segmentdefinitie met de twee andere attributiemodellen. Dus hebt u elk drie segmenten met hun eigen attributiemodel:
 
 * Vrouwenpagina - Attributie - Herhaling (standaard)
 * Women page - Attribution - Instance
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/nl/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -362,9 +362,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Segmentsjablonen {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Segmentsjablonen worden aangeboden voor algemene segmentatiegebruikstoepassingen, zoals &quot;First-time Visits&quot; of &quot;Vists from Mobile Devices&quot;. Zij zijn beschikbaar in de projecten van Workspace en in de segmentbouwer als bouwstenen voor nieuwe segmenten.
+Segmentsjablonen worden aangeboden voor algemene segmentatiegebruikstoepassingen, zoals **[!UICONTROL First-time Visits]** of **[!UICONTROL Visits from Mobile Devices]** . Zij zijn beschikbaar in de projecten van Workspace en in de segmentbouwer als bouwstenen voor nieuwe segmenten.
 
-Sjablonen worden aangeduid met het Adobe &quot;A&quot;-logo. Hieronder vindt u een voorbeeld van de sjablonen:
+Een embleem van Adobe ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg) identificeert malplaatjes. Hieronder ziet u een voorbeeld van de beschikbare sjablonen:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -376,75 +376,79 @@ Sjablonen worden aangeduid met het Adobe &quot;A&quot;-logo. Hieronder vindt u e
  <tbody> 
   <tr> 
    <td colname="col1"> Abandon Cart </td> 
-   <td colname="col2">Gegevens weergeven voor bezoekers die items aan hun winkelwagentjes hebben toegevoegd, maar geen bestellingen hebben gedaan. In de Definitie van het Segment, is de container Bezoek. De regel voor dit opeenvolgende segment is <p> Toevoegingen voor illustraties zijn niet null </p> <p>Vervolgens </p> <p>Orders is gelijk aan 0. </p> </td> 
+   <td colname="col2">Gegevens weergeven voor bezoekers die items aan hun winkelwagentjes hebben toegevoegd, maar geen bestellingen hebben gedaan. In de segmentdefinitie is de container Visit. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Eerste bezoeken </td> 
-   <td colname="col2">Gegevens weergeven voor bezoekers die maximaal één [1] keer hebben bezocht. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Visit Number is gelijk aan 1. </p> </td> 
+   <td colname="col2">Gegevens weergeven voor bezoekers die maximaal één [1] keer hebben bezocht. In de segmentdefinitie is de container Visit. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Niet-aankoopcentrales </td> 
-   <td colname="col2">Gegevens weergeven voor bezoekers die niet hebben deelgenomen aan een bestelgebeurtenis. In de Definitie van het Segment, is de container Bezoeker. In dit segment wordt de logica voor uitsluiten gebruikt. De regel is <p>Bestellingen zijn niet null. </p> </td> 
+   <td colname="col2">Gegevens weergeven voor bezoekers die niet hebben deelgenomen aan een bestelgebeurtenis. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Bezoek van niet-enkele pagina (niet-gebonden) </td> 
-   <td colname="col2">Gegevens weergeven voor bezoekers die meerdere keren een bezoek hebben gebracht. In de Definitie van het Segment, is de container Bezoeker. In dit segment wordt de logica voor uitsluiten gebruikt. De regel is <p>Single Access is niet null. </p> </td> 
+   <td colname="col1"> Bezoekingen zonder enkele pagina (niet-gebonden) </td> 
+   <td colname="col2">Gegevens weergeven voor bezoekers die meerdere keren een bezoek hebben gebracht.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Betaalde zoekopdracht </td> 
-   <td colname="col2">Gegevens van bezoekers die afkomstig zijn van een betaalde zoekopdracht bekijken. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Betaalde zoekopdracht is gelijk aan 1. </p> </td> 
+   <td colname="col2">Gegevens van bezoekers die afkomstig zijn van een betaalde zoekopdracht bekijken.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Aankopers </td> 
-   <td colname="col2">Gegevens weergeven voor bezoekers die hebben deelgenomen aan een bestelgebeurtenis. In de Definitie van het Segment, is de container Bezoeker. De regel is <p>Bestellingen zijn niet null. </p> </td> 
+   <td colname="col2">Gegevens weergeven voor bezoekers die hebben deelgenomen aan een bestelgebeurtenis.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Retourbezoeken </td> 
-   <td colname="col2">Gegevens weergeven van bezoekers die ten minste één keer een bezoek hebben gebracht. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Visitenummer is groter dan 1. </p> </td> 
+   <td colname="col2">Gegevens weergeven van bezoekers die ten minste één keer een bezoek hebben gebracht.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bezoeken van één pagina </td> 
-   <td colname="col2"> Gegevens van bezoeken weergeven waarin u een waarde van één pagina ziet, ook al kunt u tijdens dat bezoek meerdere paginaweergaven verzenden. Bezoeken van één pagina met gebeurtenissen van de uitgangsverbinding zijn inbegrepen in het segment. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Bezoekingen van één pagina zijn gelijk aan 1. </p> </td> 
+   <td colname="col2"> Gegevens van bezoeken weergeven waarin u een waarde van één pagina ziet, ook al kunt u tijdens dat bezoek meerdere paginaweergaven verzenden. Bezoeken van één pagina met gebeurtenissen van de uitgangsverbinding zijn inbegrepen in het segment.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bekeken product niet aan winkelwagentje toegevoegd </td> 
-   <td colname="col2">Gegevens weergeven voor bezoekers die producten hebben bekeken maar geen extra winkelwagentjes hebben. In de Definitie van het Segment, is de container Bezoek. De regel voor dit opeenvolgende segment is <p>Productweergaven zijn niet null </p> <p>Vervolgens </p> <p> Kart optellen is gelijk aan 0. </p> </td> 
+   <td colname="col2">Gegevens weergeven voor bezoekers die producten hebben bekeken maar geen extra winkelwagentjes hebben.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bezoeken van de campagne </td> 
-   <td colname="col2">Gegevens van bezoekers weergeven die door campagnes worden genoemd. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Trackingcode is niet null. </p> </td> 
+   <td colname="col2">Gegevens van bezoekers weergeven die door campagnes worden genoemd. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bezoeken van mobiele apparaten </td> 
-   <td colname="col2">Gegevens van bezoekers weergeven die mobiele apparaten gebruiken. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Mobiel apparaat is niet null. </p> </td> 
+   <td colname="col2">Gegevens van bezoekers weergeven die mobiele apparaten gebruiken. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bezoeken van Natuurlijk zoeken </td> 
-   <td colname="col2">Gegevens van bezoekers bekijken die niet afkomstig zijn van een betaalde zoekopdracht. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Betaalde zoekopdracht is gelijk aan 0. </p> </td> 
+   <td colname="col2">Gegevens van bezoekers bekijken die niet afkomstig zijn van een betaalde zoekopdracht.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bezoeken van niet-mobiel apparaat </td> 
-   <td colname="col2">Gegevens weergeven van bezoekers die geen mobiele apparaten gebruiken. In de Definitie van het Segment, is de container Bezoek. In dit segment wordt de logica voor uitsluiten gebruikt. De regel is <p>Mobiel apparaattype is gelijk aan mobiele telefoon </p> <p>of </p> <p>Mobiel apparaattype is gelijk aan tablet. </p> </td> 
+   <td colname="col2">Gegevens weergeven van bezoekers die geen mobiele apparaten gebruiken. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bezoeken van telefoons </td> 
-   <td colname="col2">Gegevens van bezoekers weergeven met telefoons. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Apparaattype is gelijk aan mobiele telefoon. </p> </td> 
+   <td colname="col2">Gegevens van bezoekers weergeven met telefoons.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bezoeken van zoekmachines </td> 
-   <td colname="col2">Gegevens van bezoekers weergeven die door zoekprogramma's worden genoemd. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Het verwijzingstype is zoekmachines. </p> </td> 
+   <td colname="col2">Gegevens van bezoekers weergeven die door zoekprogramma's worden genoemd.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bezoeken van sociale sites </td> 
-   <td colname="col2">Gegevens weergeven van bezoekers die door sociale sites worden genoemd. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Het verwijzingstype is sociale netwerken. </p> </td> 
+   <td colname="col2">Gegevens weergeven van bezoekers die door sociale sites worden genoemd.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bezoeken van tabletten </td> 
-   <td colname="col2">Gegevens van bezoekers weergeven met tablets. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Apparaattype is gelijk aan tablet. </p> </td> 
+   <td colname="col2">Gegevens van bezoekers weergeven met tablets.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bezoeken met cookie van bezoeker-id </td> 
-   <td colname="col2">Gegevens van bezoekers van uw site weergeven, waar een permanente cookie vereist is. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Blijvende cookie is gelijk aan 1. </p> </td> 
+   <td colname="col2">Gegevens van bezoekers van uw site weergeven, waar een permanente cookie vereist is.</td> 
   </tr> 
  </tbody> 
 </table>
+
+Om de definitie van elk segment te bekijken, gebruik ![ InfoOutline ](/help/assets/icons/InfoOutline.svg). Voor de sjabloon **[!UICONTROL iOS]** bijvoorbeeld:
+
+![ Definitie voor het malplaatjesegment van Adobe ](assets/adobe-template-definition.png)

@@ -1,11 +1,11 @@
 ---
-description: Met de Berekende Metrische bouwer, kan iedereen een participatie metrisch tot stand brengen.
-title: Deelnemings-metrisch
+description: Leer hoe u een metrische deelname maakt.
+title: Deelnamemetrisch
 feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
-source-git-commit: 183f6e39fb1d14b7b29817e76da0302ba23cd5d6
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---

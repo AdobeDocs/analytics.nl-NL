@@ -1,11 +1,11 @@
 ---
-description: Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met Data Warehouse. In deze tabel worden de ondersteunde functies weergegeven.
+description: Begrijp waarom niet alle segmenten die in de Bouwer van het Segment worden gecreeerd met Data Warehouse compatibel zijn. Leer welke functies worden ondersteund.
 title: Data Warehouse-segmentcompatibiliteit
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 1%
 
 ---
@@ -99,4 +99,4 @@ Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met 
  </tbody> 
 </table>
 
-*Opmerking: Data Warehouse ondersteunt niet alle gevallen van het gebruik van een `exclusion` - of `without` -container bij het gebruik van `AND/OR` . Wanneer het gebruiken van zulk een combinatie, slechts die segmenten die als `A AND NOT B` kunnen worden herschreven, (of **omvat dit kenmerk**&#x200B;en **sluit dit kenmerk**&#x200B;uit) worden gesteund in Data Warehouse.*
+*Opmerking: Data Warehouse ondersteunt niet alle gevallen van het gebruik van een `exclusion` - of `without` -container bij het gebruik van `AND/OR` . Wanneer het gebruiken van zulk een combinatie, slechts die segmenten die als `A AND NOT B` kunnen worden herschreven, (of **omvat dit kenmerk**en **sluit dit kenmerk**uit) worden gesteund in Data Warehouse.*

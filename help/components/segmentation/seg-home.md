@@ -1,17 +1,17 @@
 ---
-description: Met Adobe Analytics kunt u krachtige, doelgerichte doelsegmenten voor uw rapporten maken, beheren, delen en toepassen met behulp van de analysemogelijkheden, de Adobe Experience Cloud, Adobe Target en andere geïntegreerde Adobe-producten.
+description: Begrijp hoe u met Adobe Analytics krachtige, doelgerichte publiekssegmenten kunt maken, beheren, delen en toepassen op uw rapporten met de mogelijkheden van Analytics, de Adobe Experience Cloud, Adobe Target en andere geïntegreerde Adobe-producten.
 keywords: segmentatie;segmenten
-title: Segmentatie van analyse
+title: Overzicht van segmentatie
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
-source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '175'
 ht-degree: 1%
 
 ---
 
-# Segmentatie van analyse
+# Overzicht van segmentatie
 
 Met Adobe Analytics kunt u krachtige, doelgerichte doelsegmenten voor uw rapporten maken, beheren, delen en toepassen met behulp van de analysemogelijkheden, de Adobe Experience Cloud, Adobe Target en andere geïntegreerde Adobe-producten.
 

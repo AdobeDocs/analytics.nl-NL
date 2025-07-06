@@ -1,11 +1,11 @@
 ---
-description: Hiermee geeft u een aantal overwegingen weer die u moet kennen voordat u segmenten verwijdert.
+description: Begrijp de overwegingen u zich van bewust zou moeten zijn alvorens u segmenten schrapt.
 title: Segmenten verwijderen
 feature: Segmentation
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,18 @@ Dit artikel bevat een aantal overwegingen die u in acht moet nemen voordat u seg
 
 Wanneer u een segment verwijdert:
 
-* Geplande rapporten en dashboards die dit segment hebben toegepast blijven normaal werken. Het segment of dashboard gebruikt bijvoorbeeld nog steeds het verwijderde segment.
-* Geplande rapporten worden niet bijgewerkt wanneer u een segment met dezelfde naam bewerkt. Hier is een voorbeeld: veronderstel u 2 segmenten met de zelfde naam in verschillende rapportreeksen hebt:
+* Geplande rapporten en dashboards die dit segment hebben toegepast blijven normaal werken.
+* Geplande rapporten worden niet bijgewerkt wanneer u een segment met dezelfde naam bewerkt.
 
-  | Segmentnaam | Rapportsuite |
+<!--
+
+For example: Assume you have 2 segments with the same name in different report suites:
+
+  | Segment name | Report suite |
   |---|---|
-  | Bezoeken vanuit Californië | mainprod |
-  | Bezoeken vanuit Californië | maindev |
+  | Visits from California | mainprod |
+  | Visits from California | maindev |
 
-  U hebt een bladwijzer die naar het segment voor de [!UICONTROL mainprod] rapportreeks verwijst. Vervolgens verwijdert u dat segment omdat het segment een duplicaat is. De bladwijzer zal blijven lopen, verwijzend naar de definitie van het geschrapte segment. Als u de segmentdefinitie voor het resterende segment wijzigt en Catalina Island en Tijuana Mexico opneemt, verandert het segment dat op de bladwijzer is toegepast niet. Het segment zal de oude definitie gebruiken. Als u dit wilt corrigeren, werkt u de bladwijzer bij en verwijst u naar de nieuwe definitie. Als u niet zeker bent of een referentie, dashboard of gepland rapport een geschrapt segment gebruikt, kon u de naam van het resterende segment veranderen om erop te wijzen of de referentie het resterende segment gebruikt.
+  You have a visualization that references the segment for the **[!UICONTROL mainprod]** report suite. Then you delete that segment because the segment is a duplicate. The bookmark will continue to run, referencing the definition of the deleted segment. If you change the segment definition for the remaining segment to include Catalina Island and Tijuana Mexico, the segment applied to the bookmark will not change. The segment will use the old definition. To fix this, update the bookmark to reference the new definition. If you are unsure whether a bookmark, dashboard or scheduled report is using a deleted segment, you could change the name of the remaining segment to indicate whether the bookmark is using the remaining segment.
+
+-->

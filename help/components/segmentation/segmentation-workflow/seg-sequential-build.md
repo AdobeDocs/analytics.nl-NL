@@ -1,11 +1,11 @@
 ---
-description: Opeenvolgende segmenten worden gemaakt met behulp van de operator THEN in plaats van AND of OR. VERVOLGENS impliceert dat één segmentcriteria voorkomt, gevolgd door een andere. Door gebrek, identificeert een opeenvolgend segment alle passende gegevens, die de filter "omvatten iedereen"tonen. Opeenvolgende segmenten kunnen verder worden gefilterd naar een subset van overeenkomende resultaten met de opties "Alleen voor reeks" en "Alleen na reeks".
-title: Opeenvolgende segmenten maken
+description: Leer over opeenvolgende segmenten die de exploitant THEN gebruiken om een opeenvolging van segmentvoorwaarden te bepalen.
+title: SequentialSsegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
+source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2262'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Identificeer alle bezoeken waar een bezoeker één pagina vóór een andere pagi
 
 ## [!UICONTROL After] en [!UICONTROL Within]
 
-U kunt ![&#128279;](/help/assets/icons/Clock.svg) Klok **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) gebruiken **[!UICONTROL Within]** de **[!UICONTROL Then]** exploitant om extra [ tijdbeperkingen ](#time-constraints) of [ beperkingen voor Hits, Bezoek of Dimensies ](#event-session-and-dimension-constraints) te bepalen.
+U kunt ![ Klok ](/help/assets/icons/Clock.svg) en **[!UICONTROL After]** Klok ![ gebruiken ](/help/assets/icons/Clock.svg) de **[!UICONTROL Within]** exploitant om extra **[!UICONTROL Then]** tijdbeperkingen [ of ](#time-constraints) beperkingen voor Hits, Bezoek of Dimensies [ te bepalen.](#event-session-and-dimension-constraints)
 
 ### Tijdbeperkingen
 
@@ -78,7 +78,7 @@ Tijdsbeperkingen toepassen op de operator **[!UICONTROL Then]** :
 1. Selecteer ![ Klok ](/help/assets/icons/Clock.svg).
 1. Selecteer **[!UICONTROL Within]** of **[!UICONTROL After]** in het contextmenu.
 1. Geef een tijdsperiode op (**[!UICONTROL Minute]**, **[!UICONTROL Hour]** tot **[!UICONTROL Years]** ).
-1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**&#x200B;om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**&#x200B;of **[!UICONTROL +]**.
+1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**of **[!UICONTROL +]**.
 
 Om een tijdbeperking te verwijderen, gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg).
 
@@ -145,7 +145,7 @@ U kunt specificeren welke gegevens in uw opeenvolgend segment of in een opeenvol
 
 Om een opeenvolgend segment tot stand te brengen dat iedereen omvat, selecteer de optie ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
-Het opeenvolgende segment identificeert gegevens die overeenkomen met het opgegeven patroon als geheel.  Hieronder ziet u een voorbeeld van een standaardsequentiesegment dat bezoekers zoekt die een productcategoriepagina hebben bezocht (Vrouwen) | Shoes), gevolgd door een afrekenpagina (Afhandeling | Dank u.). Het segment wordt geplaatst aan ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
+Het opeenvolgende segment identificeert gegevens die overeenkomen met het opgegeven patroon als geheel.  Hieronder ziet u een voorbeeld van een standaardsequentiesegment dat bezoekers zoekt die een pagina met productcategorieën hebben bezocht (Vrouwen) | Shoes), gevolgd door een afrekenpagina (Afhandeling | Dank u.). Het segment wordt geplaatst aan ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
 ![ Opeenvolgend segment omvat iedereen ](assets/sequence-include-everyone.png)
 
@@ -213,7 +213,7 @@ Zie hieronder voor voorbeelden van het gebruik van [!UICONTROL Exclude] .
 
 #### [!UICONTROL Exclude] within
 
-Geef bezoekers op die een pagina hebben bezocht, geen andere pagina hebben bezocht en vervolgens weer een andere pagina hebben bezocht. U sluit de container uit gebruikend ![ Plaatsende ](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Een uitgesloten container wordt geïdentificeerd door een dunne rode balk aan de linkerkant.
+Geef bezoekers op die een pagina hebben bezocht, geen andere pagina hebben bezocht en vervolgens weer een andere pagina hebben bezocht. U sluit de container uit gebruikend ![ Plaatsende ](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Een dunne rode balk aan de linkerkant identificeert een uitgesloten container.
 
 ![ sluit opeenvolging ](assets/sequence-exclude.png) uit
 
@@ -273,13 +273,13 @@ Identificeer bezoekers die een pagina of een andere pagina bezochten, dan opnieu
 
 #### [!UICONTROL Exclude] [!UICONTROL And]
 
-Geef bezoekers op die een pagina bezochten, maar die destijds expliciet geen andere pagina&#39;s bezochten, maar wel een andere pagina hebben bezocht. Bezoekers die bijvoorbeeld de startpagina hebben bezocht, hebben de pagina Mannen of Vrouwen niet bezocht, maar hebben de pagina Kinderen bezocht.
+Geef bezoekers op die een pagina bezochten, maar die destijds expliciet geen andere pagina&#39;s bezochten, maar wel een andere pagina hebben bezocht. Bezoekers die bijvoorbeeld de startpagina hebben bezocht en de pagina Mannen of Vrouwen niet hebben bezocht, maar wel de pagina Kinderen hebben bezocht.
 
 ![ Logische groep sluit uit en ](assets/logicgroup-exclude-and.png)
 
 #### [!UICONTROL Exclude] [!UICONTROL Or]
 
-Geef bezoekers aan die een pagina bezochten die toen expliciet geen enkele pagina van een set pagina&#39;s bezocht, maar toch nog een andere pagina bezocht. Bezoekers die bijvoorbeeld de startpagina hebben bezocht, hebben de pagina Mannen en Vrouwen niet bezocht, maar hebben de pagina Kinderen bezocht.
+Geef bezoekers aan die een pagina bezochten die toen expliciet geen enkele pagina van een set pagina&#39;s bezocht, maar toch nog een andere pagina bezocht. Bijvoorbeeld bezoekers die de startpagina bezochten en de pagina Mannen en Vrouwen niet bezochten, maar wel de pagina Kinderen bezochten.
 
 ![ Logische groep sluit uit en ](assets/logicgroup-exclude-or.png)
 
@@ -295,7 +295,7 @@ An example of a complex sequential segment if you want to find the visitors that
 
 ## Een laatste voorbeeld
 
-Als laatste voorbeeld wilt u bezoekers identificeren die hebben geleerd over een specifieke productpagina, zonder dat deze bezoekers ooit zijn aangetast door uw campagne Empower Your Move. En tijdens hun eerste bezoek aan uw online winkel werd de startpagina bekeken, maar werd niet verder gekeken naar fitness (tandwielproducten) producten uit de categorie Men. Tijdens hun volgende bezoek direct daarna gingen ze echter naar een productpagina en plaatsten ze een online bestelling zonder eerst de startpagina te doorlopen.
+Als laatste voorbeeld wilt u bezoekers identificeren die hebben geleerd over een specifieke productpagina, zonder dat deze bezoekers ooit zijn aangetast door uw campagne Empower Your Move. En tijdens hun eerste bezoek aan uw online winkel werd de startpagina bekeken, maar werd niet verder gekeken naar fitness (tandwielproducten) producten uit de categorie Men. Bij hun volgende bezoek direct daarna gingen ze echter naar een productpagina en plaatsten ze een online bestelling zonder eerst de startpagina te doorlopen.
 
 
 ![ Complex opeenvolgend segmentvoorbeeld ](assets/sequential-complex.png)

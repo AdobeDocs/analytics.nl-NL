@@ -1,11 +1,11 @@
 ---
-description: De pagina Berekende metriek biedt vele manieren om metriek, zoals het delen, het filtreren, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten te leiden.
-title: Het berekende manager van metriek
+description: Leer hoe u berekende metriek deelt, filtert, labelt, goedkeurt, kopieert, verwijdert en markeert als favorieten.
+title: Berekende waarden beheren
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---

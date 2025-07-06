@@ -1,12 +1,12 @@
 ---
 description: Meer informatie over de verschillende mogelijkheden om gegevens te downloaden van uw Analysis Workspace-project.
-title: Analysis Workspace-projecten en -gegevens downloaden
+title: Projecten en gegevens downloaden
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,8 @@ Een project downloaden als een PDF-bestand:
 1. Selecteer **[!UICONTROL Project]** > **[!UICONTROL Download PDF]** .
 Een groene bar met het bericht ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Your download has been requested. Please wait.]** wordt getoond.
 
-1. Zodra uw download klaar is, is een groene bar met het bericht ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Naam van het project *PDF klaar.]**&#x200B;wordt weergegeven.
-Selecteer&#x200B;**[!UICONTROL Download]**&#x200B;om de PDF te downloaden. Hoe de PDF precies wordt weergegeven of gedownload is afhankelijk van uw browserconfiguratie voor het verwerken van PDF-documenten.
+1. Zodra uw download klaar is, is een groene bar met het bericht ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Naam van het project *PDF klaar.]**wordt weergegeven.
+Selecteer**[!UICONTROL Download]**om de PDF te downloaden. Hoe de PDF precies wordt weergegeven of gedownload is afhankelijk van uw browserconfiguratie voor het verwerken van PDF-documenten.
 
 
 Een project downloaden als een CSV-bestand:
@@ -108,8 +108,8 @@ De volgende functies van een vrije-vormtabel worden toegepast op het gedownloade
 
 Terwijl het bestand wordt gedownload, worden de volgende meldingen weergegeven:
 
-* Een blauwe **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gevraagd._ x _% volledig]**&#x200B;die op de vooruitgang wijzen. Selecteer **[!UICONTROL Cancel download]**&#x200B;als u het downloaden wilt annuleren. Selecteer ![ CrossSize100 ](/help/assets/icons/CrossSize100.svg) als u het bericht wilt sluiten, dat niet de download annuleert.
-* Een groene **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gedownload]**&#x200B;voltooiingsbericht zodra de dossierdownload wordt voltooid. Het bestand wordt gedownload naar de downloadmap die voor uw browser is geconfigureerd.
+* Een blauwe **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gevraagd._ x _% volledig]**die op de vooruitgang wijzen. Selecteer **[!UICONTROL Cancel download]**als u het downloaden wilt annuleren. Selecteer ![ CrossSize100 ](/help/assets/icons/CrossSize100.svg) als u het bericht wilt sluiten, dat niet de download annuleert.
+* Een groene **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gedownload]**voltooiingsbericht zodra de dossierdownload wordt voltooid. Het bestand wordt gedownload naar de downloadmap die voor uw browser is geconfigureerd.
 
 Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elke extra download in de wachtrij wordt geplaatst totdat de vorige download is voltooid.
 
@@ -120,7 +120,7 @@ Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elk
 | --- | --- |
 | Waarom bestaat mijn gedownloade PDF uit slechts één pagina? | De [ functionaliteit van de Download PDF ](#download-as-csv-or-pdf) pagineert gedownloade PDFs niet. |
 | Kan ik meer dan 50.000 items exporteren met de optie **[!UICONTROL Download items as CSV]** ? | Terwijl elke download tot 50.000 afmetingspunten kan bevatten, kunt u het soort van uw lijst veranderen om langere eindpunten terug te winnen, of een filter toepassen om specifiekere punten te downloaden. |
-| Wat doet **[!UICONTROL Copy visualization]**? | In tegenstelling tot [!UICONTROL **gegevens van het Exemplaar aan klembord**] of [!UICONTROL **selectie van het Exemplaar aan klembord**], is de **[!UICONTROL Copy visualization]** optie van het contextmenu geen uitvoeroptie. Deze optie staat u toe om een visualisatie [&#128279;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) te kopiëren of [ een paneel ](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu) van één plaats in Workspace aan een andere te kopiëren.  Bijvoorbeeld van het ene naar het andere deelvenster in hetzelfde project of van het ene naar het andere project. |
+| Wat doet **[!UICONTROL Copy visualization]**? | In tegenstelling tot [!UICONTROL **gegevens van het Exemplaar aan klembord**] of [!UICONTROL **selectie van het Exemplaar aan klembord**], is de **[!UICONTROL Copy visualization]** optie van het contextmenu geen uitvoeroptie. Deze optie staat u toe om een visualisatie [ te kopiëren of ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) een paneel [ van één plaats in Workspace aan een andere te kopiëren. ](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu) Bijvoorbeeld van het ene naar het andere deelvenster in hetzelfde project of van het ene naar het andere project. |
 
 
 
@@ -228,6 +228,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=nl-NL) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

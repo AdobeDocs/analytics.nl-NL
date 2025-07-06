@@ -1,20 +1,20 @@
 ---
-description: Meer informatie over de systeemvereisten voor Analysis Workspace.
+description: Meer weten over de vereisten voor Analysis Workspace?
 keywords: Analysis Workspace
-title: Beheervereisten
+title: Vereisten
 feature: Workspace Basics
 role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '128'
 ht-degree: 2%
 
 ---
 
-# Administratieve vereisten
+# Vereisten
 
-Systeemvereisten voor Analysis Workspace.
+Analysis Workspace kan alleen worden uitgevoerd als:
 
 | Vereiste | Beschrijving |
 |--- |--- |

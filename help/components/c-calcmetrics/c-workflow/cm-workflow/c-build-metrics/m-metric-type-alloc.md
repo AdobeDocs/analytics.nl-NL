@@ -1,11 +1,11 @@
 ---
-description: Meer informatie over
-title: Type en attributie metrisch
+description: Meer informatie over metrische tekst en kenmerk.
+title: Type en kenmerk van de meter
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ U kunt metrisch type en [ attributiemodel ](#attribution-models) voor metrisch i
 
      | Metrisch type | Definitie |
      |---|---|
-     | **[!UICONTROL Standard]** | Als een formule uit één enkele standaardmetrische norm bestaat, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig om berekende metriek te maken die specifiek zijn voor elk afzonderlijk regelitem. <p>Bijvoorbeeld, ![&#128279;](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![ de Gebeurtenis van 0&rbrace; ](/help/assets/icons/Divide.svg) verdeelt ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Visits]** neemt de orden voor dat specifieke lijnpunt en verdeelt het door het aantal bezoeken voor dat specifieke lijnpunt. |
+     | **[!UICONTROL Standard]** | Als een formule uit één enkele standaardmetrische norm bestaat, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig om berekende metriek te maken die specifiek zijn voor elk afzonderlijk regelitem. <p>Bijvoorbeeld, ![ ](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** de Gebeurtenis van 0} ![ verdeelt ](/help/assets/icons/Divide.svg) Gebeurtenis ![ ](/help/assets/icons/Event.svg) neemt de orden voor dat specifieke lijnpunt en verdeelt het door het aantal bezoeken voor dat specifieke lijnpunt.**[!UICONTROL Visits]** |
      | **[!UICONTROL Grand total]** | Gebruik **[!UICONTROL Grand total]** voor de rapportageperiode in elk regelitem. Als een formule uit één enkel Eindtotaal metrisch bestaat, toont berekende metrisch het zelfde Grote totale aantal op elk lijnpunt. De grote totale metriek zijn nuttig wanneer u berekende metriek wilt tot stand brengen die tegen totale gegevens vergelijkt. <p>Bijvoorbeeld, ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![ verdeel ](/help/assets/icons/Divide.svg) ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Total Visits]** toont het aandeel van orden tegen alle bezoeken, niet alleen de bezoeken aan het specifieke lijnpunt. In dit voorbeeld, specificeert u **[!UICONTROL Grand Total]** voor de ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Visits]** metrisch in uw berekende metrisch, die het automatisch in ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Total Visits]** zal veranderen. |
 
    * Geef **[!UICONTROL Attribution]** op.

@@ -1,16 +1,18 @@
 ---
-description: Los en los kwesties met betrekking tot segmenten problemen op.
-title: Probleemoplossing voor segmentering
+description: Begrijp hoe te om kwesties met betrekking tot segmenten problemen op te lossen en te bevestigen.
+title: Problemen oplossen
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 0%
+source-wordcount: '179'
+ht-degree: 1%
 
 ---
 
-# Problemen met segmentering
+# Problemen oplossen
+
+Dit artikel maakt een lijst van sommige gemeenschappelijke kwesties met segmenten en hoe te om deze kwesties problemen op te lossen.
 
 <!-- Looks like this is not part anymore of the current UI.
 

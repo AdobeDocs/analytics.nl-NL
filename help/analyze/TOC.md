@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 9%
+source-wordcount: '867'
+ht-degree: 10%
 
 ---
 
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -118,7 +118,7 @@ ht-degree: 9%
       + [Venn](analysis-workspace/visualizations/venn.md)
    + Deelvensters {#panels}
       + [Overzicht](analysis-workspace/c-panels/panels.md)
-      + [Leeg](analysis-workspace/c-panels/blank-panel.md)
+      + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
       + [Analyses voor doel](analysis-workspace/c-panels/a4t-panel.md)
       + [Attributie](analysis-workspace/c-panels/attribution.md)
       + [Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
@@ -136,7 +136,7 @@ ht-degree: 9%
       + [Overzicht](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
       + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
-      + [Aandeelbare koppelingen](analysis-workspace/curate-share/shareable-links.md)
+      + [Deelbare koppelingen maken](analysis-workspace/curate-share/shareable-links.md)
       + [Alleen-lezen projecten](analysis-workspace/curate-share/view-only-projects.md)
       + [Downloaden](analysis-workspace/curate-share/download-send.md)
       + [Verzenden en plannen](analysis-workspace/curate-share/t-schedule-report.md)
@@ -151,7 +151,6 @@ ht-degree: 9%
    + Anomaliedetectie {#anomaly-detection}
       + [Overzicht](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [anomalieën weergeven](analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [anomaliedetectie uitschakelen](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [Analyse van de bijdrage uitvoeren](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [Statistische technieken](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Gebruikersvoorkeuren](analysis-workspace/user-preferences.md)
@@ -160,7 +159,7 @@ ht-degree: 9%
       + [Prestaties optimaliseren](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Fouten en problemen oplossen](analysis-workspace/workspace-faq/error-messages.md)
       + [Beperkingen](analysis-workspace/workspace-faq/aw-limitations.md)
-      + [Administratieve vereisten](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [Vereisten](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Report Builder - Overzicht](report-builder/rb-overview.md)

@@ -1,11 +1,11 @@
 ---
-title: Beste werkwijzen voor segmentering
-description: Maak optimale segmenten die gegevens efficiënt retourneren.
+title: Aanbevolen procedures
+description: Leer enkele best practices voor segmentatie.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De complexe segmenten zijn vaak noodzakelijk om gewenste gegevens te verkrijgen.
 
 ## Alleen de operator `Contains` gebruiken als laatste redmiddel
 
-De [**[!UICONTROL Contains]**&#x200B;exploitant ](/help/components/segmentation/seg-reference/seg-operators.md) is één van de meest verwerkings-intensieve eigenschappen in segmentatie, aangezien de exploitant de volledige inhoud van elke waarde moet analyseren. U kunt ook andere operatoren gebruiken, zoals **[!UICONTROL Starts with]**&#x200B;of **[!UICONTROL Ends with]**, als de gewenste waarden zich aan het begin of einde van een tekenreeks bevinden.
+De [**[!UICONTROL Contains]**exploitant ](/help/components/segmentation/seg-reference/seg-operators.md) is één van de meest verwerkings-intensieve eigenschappen in segmentatie, aangezien de exploitant de volledige inhoud van elke waarde moet analyseren. U kunt ook andere operatoren gebruiken, zoals **[!UICONTROL Starts with]**of **[!UICONTROL Ends with]**, als de gewenste waarden zich aan het begin of einde van een tekenreeks bevinden.
 
 Als een **[!UICONTROL Contains]** exploitant in een segment een groot aantal resultaten terugkeert, typisch tijden uit het rapport. Als u bijvoorbeeld een segment hebt gemaakt waarin **[!UICONTROL Referrer]** **[!UICONTROL equals]** `"."` staat, zoekt het segment door de inhoud van elke waarde. Gebruik in plaats hiervan de operator **[!UICONTROL Exists]** .
 

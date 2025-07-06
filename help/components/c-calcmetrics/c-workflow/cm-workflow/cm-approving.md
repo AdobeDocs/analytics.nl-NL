@@ -1,11 +1,11 @@
 ---
-description: In Berekende Metrische Manager, kunt u opstelling een werkschema dat het goedkeuren van metriek voor diverse niveaus van toepassing en voor specifieke afdelingen of groepen omvat.
+description: Leer hoe u berekende metriek goedkeurt.
 title: Berekende waarden goedkeuren
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---

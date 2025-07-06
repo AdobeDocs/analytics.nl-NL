@@ -4,7 +4,7 @@ description: Leer over het concept van het toekennen van krediet van een succesg
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 28%
@@ -60,7 +60,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Attributie in
 
 >[!BEGINSHADEBOX]
 
-Zie ![ ](/help/assets/icons/VideoCheckedOut.svg) Attributie 0&rbrace; VideoCheckedOut in berekende metriek [ voor een demo video.](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}
+Zie ![ ](/help/assets/icons/VideoCheckedOut.svg) Attributie 0} VideoCheckedOut in berekende metriek [ voor een demo video.](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}
 
 >[!ENDSHADEBOX]
 

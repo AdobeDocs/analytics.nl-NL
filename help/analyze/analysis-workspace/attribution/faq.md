@@ -1,20 +1,21 @@
 ---
-title: Veelgestelde vragen over kenmerken
+title: Veelgestelde vraag over de toewijzing
 description: Antwoorden op veelgestelde vragen over attributie.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 0%
+source-wordcount: '1179'
+ht-degree: 1%
 
 ---
 
-# Veelgestelde vragen over kenmerken
+# Veelgestelde vragen
 
+Hier volgen antwoorden op veelgestelde vragen over attributie.
 
-+++## Wat is het &quot;niets&quot;lijnpunt wanneer het gebruiken van attributie?
++++## Wat is het **[!UICONTROL None]** lijstitem wanneer het gebruiken van attributie?
 
 Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt die zonder aanraakpunten in het terugzoekvenster zijn uitgevoerd. Om het aantal omzettingen te verminderen die aan het &quot;niets&quot;lijnpunt worden toegewezen, probeer gebruikend een Venster van de Terugblik van de Douane met een langere terugzoekperiode.
 
@@ -44,12 +45,13 @@ In dit voorbeeld worden gegevens van 31 augustus niet weergegeven met de tarieve
 +++
 
 
-+++## Wanneer zou ik een bezoek, een bezoeker, of een terugkijkplaats van de douaneattributie moeten gebruiken?
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
++++## When should I use a visit, visitor, or custom attribution lookback?
 
-De keuze van de terugzoekfunctie voor attributie hangt af van het gebruikte geval. Als conversies doorgaans langer duren dan één bezoek, wordt een bezoeker of aangepaste terugzoekactie aanbevolen. Voor langere conversiecycli zijn aangepaste terugkijkvensters het beste omdat dit het enige type is dat gegevens van vóór het rapportvenster kan ophalen.
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++## Hoe vergelijken props en eVars wanneer het gebruiken van attributie?
 

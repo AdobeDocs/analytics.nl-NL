@@ -1,22 +1,22 @@
 ---
-description: Met de Segment Builder kunt u waarden vergelijken en beperken met behulp van geselecteerde operatoren.
-title: Vergelijkingsoperatoren voor segmenten
+description: Leer hoe u de operatoren in de segmentbuilder kunt gebruiken om waarden te vergelijken en te beperken.
+title: Operatoren
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
 
 # Vergelijkingsoperatoren voor segmenten
 
-Met de Segment Builder kunt u waarden vergelijken en beperken met behulp van geselecteerde operatoren. Er zijn drie categorieën operatoren: Standaard, Data Warehouse en Afzonderlijk aantal.
+Met de Segment Builder kunt u waarden vergelijken en beperken met behulp van geselecteerde operatoren. Er zijn drie categorieën exploitanten: [ Standaard ](#standard-operators), [ Data Warehouse ](#data-warehouse-operators), en [ Afzonderlijke Telling ](#distinct-count-operators).
 
 Afhankelijk van de operator die u selecteert:
 
-* U kunt een waarde invoeren
+* U kunt een waarde invoeren.
 * U kunt een deel van een waarde ingaan en van een drop-down menu (als beschikbaar) selecteren.
 * Selecteer direct een waarde in de keuzelijst (indien beschikbaar).
 
@@ -46,7 +46,7 @@ Bijvoorbeeld, hebt u een paginanaam genoemd *Mijn koele product*.
 | **[!UICONTROL contains all of]** | Retourneert items die worden vergeleken met de subtekenreeksen, inclusief meerdere waarden die aan elkaar zijn gekoppeld. Bijvoorbeeld, zou het ingaan `Search Results` met deze exploitant voor de **[!UICONTROL Page Name]** dimensie *Resultaten van het Onderzoek* en *Resultaten van Onderzoek* aanpassen, maar *Onderzoek* of *Resultaten* individueel. De regel zou *Onderzoek* en *gevonden Resultaten* aanpassen samen. Het invoerveld voor deze operator wordt door spaties gescheiden (100 woorden). |
 | **[!UICONTROL does not contain all of]** | Identificeert items in vergelijking met subtekenreeksen, inclusief meerdere waarden die aan elkaar zijn gekoppeld, en retourneert alleen items zonder deze waarden. Bijvoorbeeld, zou het ingaan `Search Results` met deze exploitant voor de **[!UICONTROL Page Name]** dimensie *Resultaten van het Onderzoek* identificeren en *Resultaten van Onderzoek* (maar niet *Onderzoek* of *Resultaten* individueel) en dan deze punten uitsluiten. Het invoerveld voor deze operator wordt door spaties gescheiden (100 woorden). |
 | **[!UICONTROL contains any of]** | Retourneert items die worden vergeleken met de subtekenreeksen, inclusief meerdere waarden die zijn gekoppeld of onafhankelijk zijn geïdentificeerd. Bijvoorbeeld, zou het ingaan `Search Results` met deze exploitant *Resultaten van het Onderzoek* aanpassen, *Resultaten van Onderzoek*, *Onderzoek*, en *Resultaten*. Het zou één van beide *Onderzoek* OF *gevonden Resultaten* samen of onafhankelijk aanpassen. Het invoerveld voor deze operator wordt door spaties gescheiden (100 woorden). |
-| **[!UICONTROL does not contain any of]** | Identificeert items op basis van subtekenreeksen en retourneert vervolgens waarden die deze subtekenreeksen niet bevatten. Er kunnen meerdere bij elkaar gevoegde waarden of waarden afzonderlijk worden geïdentificeerd. Bijvoorbeeld, zou het ingaan `Search Results` voor de **[!UICONTROL Page Name]** dimensie *Resultaat van het Onderzoek* s, *Resultaten van Onderzoek* h*, *Onderzoek* aanpassen, en *Resultaten* waar of *Onderzoek* of *Resultaat* samen of onafhankelijk worden gevonden. Items die deze subtekenreeksen bevatten, worden dan uitgesloten. Het invoerveld voor deze operator wordt door spaties gescheiden (100 woorden). |
+| **[!UICONTROL does not contain any of]** | Identificeert items op basis van subtekenreeksen en retourneert vervolgens waarden die deze subtekenreeksen niet bevatten. Er kunnen meerdere bij elkaar gevoegde waarden of waarden afzonderlijk worden geïdentificeerd. Bijvoorbeeld, zou het ingaan `Search Results` voor de **[!UICONTROL Page Name]** dimensie *Resultaat van het Onderzoek*, *Resultaten van Onderzoek* aanpassen, *Onderzoek*, en *Resultaten* waar of *Onderzoek* of *Resultaat* samen of onafhankelijk worden gevonden. Items die deze subtekenreeksen bevatten, worden dan uitgesloten. Het invoerveld voor deze operator wordt door spaties gescheiden (100 woorden). |
 | **[!UICONTROL starts with]** | Retourneert items die beginnen met de ingevoerde tekenreekswaarde. |
 | **[!UICONTROL does not start with]** | Retourneert alle items die niet beginnen met de ingevoerde tekenreekswaarde. Dit is het omgekeerde van de operator **[!UICONTROL starts with]** . |
 | **[!UICONTROL ends with]** | Retourneert items die eindigen met de ingevoerde tekenreekswaarde. |

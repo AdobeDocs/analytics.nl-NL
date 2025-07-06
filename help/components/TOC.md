@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '759'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Analytics Components-handleiding](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -189,12 +189,12 @@ ht-degree: 7%
       + [Segmenten delen](segmentation/segmentation-workflow/t-seg-share.md)
       + [Tagsegmenten](segmentation/segmentation-workflow/seg-tag.md)
       + [De lijst met segmenten filteren](segmentation/segmentation-workflow/t-seg-filter.md)
-      + [Segmenten markeren als favorieten](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [Segmenten markeren als favoriet](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Segmenten goedkeuren](segmentation/segmentation-workflow/seg-approve.md)
       + [Segmenten verwijderen](segmentation/segmentation-workflow/seg-delete.md)
       + [Segmenten kopiëren](segmentation/segmentation-workflow/seg-copy.md)
       + [Segmenten beheren](segmentation/segmentation-workflow/seg-manage.md)
-      + [Segmenten publiceren naar de Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Segmenten publiceren](segmentation/segmentation-workflow/seg-publish.md)
       + [Segmenten gebruiken](segmentation/segmentation-workflow/t-seg-apply.md)
    + Referentie {#segment-reference}
       + [Operatoren](segmentation/seg-reference/seg-operators.md)
@@ -210,17 +210,17 @@ ht-degree: 7%
       + [Berekende waarden maken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Metrische gegevens zoeken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Berekende maatstaven samenstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Een eenvoudige berekende metrische waarde](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Een complexere berekende metrische waarde](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Een metrische deelname maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Een eenvoudig voorbeeld](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Een complexer voorbeeld](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Type en attributie metrisch](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [Metrische gegevens voor deelname](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Gesegmenteerde metriek](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Segmenten stapelen en vervangen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Gefilterde en gewogen cijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [Functies gebruiken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [Berekende maatstaven voor tags](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Berekende maateenheden filteren](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [Berekende metriek markeren als favorieten](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+      + [Berekende metriek markeren als favoriet](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [Berekende waarden goedkeuren](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Berekende maatstaven delen](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Berekende cijfers kopiëren](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)

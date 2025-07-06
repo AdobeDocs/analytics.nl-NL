@@ -1,26 +1,26 @@
 ---
-description: Berekende en Geavanceerde berekende metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.
-keywords: Berekende waarden;Geavanceerde berekende waarden
-title: Berekende en geavanceerde berekende statistieken
+description: Meer informatie over berekende metriek die u kunt maken op basis van bestaande metriek.
+keywords: Berekende standaarden
+title: Overzicht van berekende statistieken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 0%
+source-wordcount: '267'
+ht-degree: 1%
 
 ---
 
 # Overzicht van berekende metriek
 
-Berekende en aangepaste metriek die u kunt maken op basis van bestaande metriek.
+Berekend zijn aangepaste metriek die u kunt maken op basis van bestaande metriek.
 
-De berekende metriek bieden een hoogst flexibele manier om metriek te bouwen, te leiden en te leiden. Met berekende maatstaf kunt u als marketers, productmanagers en analisten vragen stellen over de gegevens zonder dat u de [!DNL Analytics] -implementatie hoeft te wijzigen.
+Berekende metrisch zijn aangepaste metriek die u op basis van bestaande metriek kunt maken. De berekende metriek bieden een flexibele manier aan om, douanemetriek te bouwen te beheren en te leiden die u toelaten om uw gegevens te analyseren zonder het moeten uw implementatie veranderen.
 
 De berekende metriek zijn beschikbaar in elk [!DNL Analytics] pakket, nochtans is het Pak van Adobe Analytics Foundation voor Experience Cloud beperkt tot basis berekende metriek met inbegrip van [ formaattypes (decimaal, tijd, percenten, munt) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [ toewijzingsveranderingen (gebrek, lineair, participatie, enz.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [ metrische types (standaard, totaal) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), en [ basisexploitanten ](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (voeg toe, trek af, vermenigvuldig, en verdeel).
 
 
-Zie de [ Beschrijving van het Product van Adobe Analytics ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics.html) voor meer informatie.
+Zie de [ Beschrijving van het Product van Adobe Analytics ](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics.html) voor meer informatie.
 
 <!--
 Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[ creeer metriek ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
->&#x200B;>[Metriek samenstellen ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
->&#x200B;>[Functies gebruiken ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>>[Metriek samenstellen ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[Functies gebruiken ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
 >

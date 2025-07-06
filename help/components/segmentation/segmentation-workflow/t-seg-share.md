@@ -1,11 +1,11 @@
 ---
-description: Afhankelijk van uw toestemmingen, kunt u segmenten met uw volledige organisatie, groepen, of individuele gebruikers delen.
+description: Leer hoe u segmenten kunt delen met uw hele organisatie, groepen of individuele gebruikers.
 title: Segmenten delen
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---

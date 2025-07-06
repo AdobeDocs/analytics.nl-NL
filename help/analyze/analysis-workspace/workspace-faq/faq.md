@@ -1,13 +1,13 @@
 ---
-description: Veelgestelde vragen over Workspace
+description: Ontvang antwoorden op veelgestelde vragen over Analysis Workspace.
 title: Veelgestelde vragen
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 25%
+source-wordcount: '551'
+ht-degree: 24%
 
 ---
 
@@ -26,7 +26,7 @@ Aangezien Analysis Workspace een rapportagetool is, heeft de tool geen invloed o
 +++
 
 +++Hoeveel rapportsuites kunnen in een project van Analysis Workspace worden getoond?
-U kunt projecten in Analysis Workspace met gegevens van meer [ veelvoudige rapportsuites ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=nl-NL) nu tot stand brengen.
+U kunt projecten in Analysis Workspace met gegevens van meer [ veelvoudige rapportsuites ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) nu tot stand brengen.
 +++
 
 +++Hoe implementeert u Analysis Workspace?
@@ -68,7 +68,7 @@ Als u een werkruimterapport hebt gemaakt maar er geen gegevens zijn, kunt u een 
 * Controleer de rapportreeks tweemaal en zorg ervoor het met gegevens wordt bevolkt.
 * Als u een segment in uw rapport toepaste, zouden de segmentcriteria geen gegevens kunnen aanpassen. Verwijder het segment of pas de segmentdefinitie aan.
 * Controleer de datumwaaier in de hogere juiste hoek en zorg ervoor het aan een waarde wordt geplaatst die u zou verwachten.
-* Navigeer aan uw website en gebruik [ Debugger ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) om te bevestigen dat het gegeven wordt verzameld.
+* Navigeer aan uw website en gebruik [ Debugger ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) om te bevestigen dat het gegeven wordt verzameld.
 
 
 +++

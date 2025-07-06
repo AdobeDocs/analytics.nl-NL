@@ -1,13 +1,13 @@
 ---
 title: Overzicht van het deelvenster Segmentvergelijking
-description: Leer hoe u het vergelijkingspaneel voor segmenten in Analysis Workspace kunt gebruiken.
+description: Leer hoe u het vergelijkingspaneel voor segmenten gebruikt om segmenten in Analysis Workspace te vergelijken.
 keywords: Analysis Workspace;Segment-IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -28,16 +28,16 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Het vergelijkingspaneel Segment"
->abstract="Vergelijk snel twee segmenten over alle gegevenspunten om automatisch relevante verschillen te vinden.<br/><br/>**Parameters &#x200B;**<br/>**voegen een segment** toe: Het eerste segment dat u wilt analyseren.<br/>**vergelijk tegen**: Het tweede segment dat u wilt vergelijken tegen, dat automatisch met *iedereen anders* wordt bevolkt (het omgekeerde van uw eerste segment). U kunt *iedereen anders* met een verschillend segment vervangen indien gewenst.<br/>**Geavanceerde montages**: De capaciteit om componenten van worden geanalyseerd in de segmentvergelijking uit te sluiten."
+>abstract="Vergelijk snel twee segmenten over alle gegevenspunten om automatisch relevante verschillen te vinden.<br/><br/>**Parameters **<br/>**voegen een segment** toe: Het eerste segment dat u wilt analyseren.<br/>**vergelijk tegen**: Het tweede segment dat u wilt vergelijken tegen, dat automatisch met *iedereen anders* wordt bevolkt (het omgekeerde van uw eerste segment). U kunt *iedereen anders* met een verschillend segment vervangen indien gewenst.<br/>**Geavanceerde montages**: De capaciteit om componenten van worden geanalyseerd in de segmentvergelijking uit te sluiten."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het de vergelijkingspaneel van het Segment in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_dit artikel documenteert het de vergelijkingspaneel van het Segment in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-In het vergelijkingspaneel Segment worden de statistisch meest significante verschillen tussen een onbeperkt aantal segmenten gedetecteerd. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. Het ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel segmenten overlappen.
+In het vergelijkingspaneel Segment worden de statistisch meest significante verschillen tussen een onbeperkt aantal segmenten gedetecteerd. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. De vergelijking ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel segmenten overlappen.
 
 
 >[!BEGINSHADEBOX]

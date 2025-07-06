@@ -1,11 +1,11 @@
 ---
-description: In Berekend Metrisch Manager, staat het etiketteren segmenten u toe om hen te organiseren.
+description: Leer hoe u berekende metriek kunt labelen om de berekende metriek te ordenen.
 title: Berekende maatstaven voor tags
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---

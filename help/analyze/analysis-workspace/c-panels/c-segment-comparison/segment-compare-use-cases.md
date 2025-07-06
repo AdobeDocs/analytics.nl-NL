@@ -5,26 +5,29 @@ keywords: Segment-IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # Gebruiksgevallen voor vergelijking van segmenten
 
-Het vergelijkingspaneel voor segmenten wordt veel gebruikt in Analysis Workspace. Klanten ontdekken vaak nieuwe manieren om er inzichten mee te maken. Hieronder vindt u een aantal geslaagde gebruiksgevallen.
+Het vergelijkingspaneel voor segmenten wordt veel gebruikt in Analysis Workspace. Klanten ontdekken vaak nieuwe manieren om inzichten mee te drijven wanneer het gebruiken van het paneel. Hier vindt u voorbeelden van typisch gebruik
 
-## Hoofdlettergebruik 1: mobiele versus desktopimplementaties vergelijken
+## Hoofdlettergebruik 1: implementaties van mobiele apparaten vergelijken met die van desktops
 
 > *&quot;U hebt hits van de ene naar de andere site vergeleken en snel een aantal coderingsinconsistenties gevonden. Op deze manier hebt u gegevensproblemen vermeden voordat het product werd uitgebracht.&quot;*
 
-U hebt de leiding over een mobiele website en een desktopwebsite en u moet ervoor zorgen dat de tags op alle mobiele apparaten en op alle desktops consistent zijn. Om ervoor te zorgen dat u niets belangrijks mist, gebruikt u het vergelijkingspaneel voor segmenten om hits te vergelijken die van hun mobiele site komen en die van hun desktopsite komen. U ziet dat er geen uitcheckgebeurtenissen zijn op de mobiele website en dat de juiste tags zijn ingesteld voordat de mobiele site wordt uitgebracht. Hierdoor voorkomt u een gegevensramp als gevolg van het feit dat de mobiele site geen conversies opneemt.
+U hebt de leiding over een mobiele website en een desktopwebsite en u hebt de taak ervoor te zorgen dat de tags op alle mobiele apparaten en op alle desktops consistent zijn. Om ervoor te zorgen dat u niets belangrijks mist, gebruikt u het vergelijkingspaneel voor segmenten om hits te vergelijken die van hun mobiele site komen en die van hun desktopsite komen. U ziet dat er geen uitcheckgebeurtenissen zijn op de mobiele website en dat de juiste tags zijn ingesteld voordat de mobiele site wordt uitgebracht. Hierdoor voorkomt u een gegevensramp als gevolg van het feit dat de mobiele site geen conversies opneemt.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
 | De container van het Actief waar het Type van Mobiel Apparaat Mobiele Telefoon of Tablet evenaart | Alle anderen |
+
+{style="table-layout:fixed"}
+
 
 ## Hoofdlettergebruik 2: vergelijk klanten die een bepaalde functie gebruiken met klanten die deze functie niet gebruiken
 
@@ -36,6 +39,9 @@ Een optimalisatieteam voor websites in de detailhandel wil de gebruikers beter b
 |--- |--- |
 | Bezoekerscontainer met aangepaste gebeurtenis (prijsvergelijkingsprogramma) | Alle anderen |
 
+{style="table-layout:fixed"}
+
+
 ## Geval 3 gebruiken: vergelijk bezoekers van nieuwssites met andere bezoekers van sitesecties
 
 > *&quot;U ontdekte dat bezoekers aan uw nieuwssectie tweemaal zo waarschijnlijk videoadvertenties keken, zodat voegde u meer video opties aan die sectie toe. U ondervond een verhoging van 7% van bekeken videoadvertenties!&quot;*
@@ -45,6 +51,9 @@ Een groot mediabedrijf bekijkt hoe de betrokkenheid van het publiek bij de inhou
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Bezoekercontainer waarbij site-sectie gelijk is aan &#39;Nieuws&#39; | Alle anderen |
+
+{style="table-layout:fixed"}
+
 
 ## Gebruik geval 4: vergelijk bezoekers van betaalde zoekopdracht met iedereen anders
 
@@ -56,12 +65,17 @@ Een belangrijk B2B de dienstenbedrijf wil het type van verkeer begrijpen dat de 
 |--- |--- |
 | Bezoekercontainer waarbij Type referentie gelijk is aan Betaalde zoekopdracht | Alle anderen |
 
+{style="table-layout:fixed"}
+
+
 ## Hoofdlettergebruik 5: vergelijk de inkopers van Fitbit met alle anderen
 
-> *&quot;U ontdekte dat mensen die Fitbits kopen zes keer vaker een &#39;out of stock&#39;-bericht zouden krijgen dan alle anderen. Zo bestelde u snel meer Fitbits en vermeden lopend uit voorraad!&quot;*
+> *&quot;U ontdekte dat mensen die Fitbits kopen zes keer vaker een &#39;out of stock&#39;-bericht zouden krijgen dan alle anderen. Zo, bestelde u snel meer Fitbits en vermeden lopend uit voorraad!&quot;*
 
 **Scenario:** Een belangrijke online retailer is geinteresseerd in hoe één van de heetste vakantieproducten - Fitbit - verkoopt en wat de kopers van Fitbit onder andere klanten uniek maakt. Het marketingteam kan het regelitem Fitbit selecteren in het productrapport en snel een segmentvergelijkingsanalyse uitvoeren in het contextmenu. Wat zij ontdekken is dat de gebruikers die Fitbits kopen zes keer eerder een &quot;uit voorraad&quot;bericht dan om het even welke andere klant hebben. Na verdere analyse kan het marketingteam deze bezoekers naar hun baksteen- en mortierwinkels sturen terwijl ze op hun inkoopafdeling wachten om meer Fitbits te bestellen voor verzending. Als gevolg hiervan vermijdt de retailer meer &quot;out of stock&quot; berichten en kan zij meer aan de vakantievraag voldoen.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
 | De container van de bezoeker waar de Orden bestaan en het merk van de douaneafmeting evenaart Passende Bit | Alle anderen |
+
+{style="table-layout:fixed"}

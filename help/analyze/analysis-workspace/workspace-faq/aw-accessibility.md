@@ -4,9 +4,9 @@ title: Toegankelijkheid in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: 70d87e62441f8d5c3c6041721353a07432fef912
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mens
 Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van links naar rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
 
 * Met de toets **[!UICONTROL Tab]** kunt u sneltoetsen gebruiken om markeringen te markeren die zich verplaatsen tussen grotere secties in Workspace. In het linkerdeelvenster kunt u met **[!UICONTROL Tab]** ook van de ene versleepbare optie naar de andere gaan.
-* De &rbrace;︎ ◀ en ▶ &rbrace;︎ tussen afzonderlijke elementen gaan nadat met de toets **[!UICONTROL Tab]** een element is gemarkeerd.
+* De }︎ ◀ en ▶ }︎ tussen afzonderlijke elementen gaan nadat met de toets **[!UICONTROL Tab]** een element is gemarkeerd.
 * Met de **[!UICONTROL F6]** -toets navigeert u naar het eerste deelvenster in het project en gaat u tussen de visualisaties in dat deelvenster. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
 * Focusindicatoren worden toegepast zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand voor het deelvenster dat focus heeft. En grijze achtergrond voor de onlangs geselecteerde functionaliteit en de selectie binnen de functionaliteit. In het voorbeeld zijn [!UICONTROL Components] en de pagina-dimensie onlangs geselecteerd.
 
@@ -55,7 +55,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een rijke reeks [ toetsenbordkortere weg ](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze werkschema aan.
+[!UICONTROL Analysis Workspace] biedt een rijke reeks [ toetsenbordkortere weg (hotkeys) ](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze werkschema aan.
 
 ## Ondersteuning voor schermlezers en schermvergrotingen
 
@@ -118,7 +118,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 ### Keyboard shortcuts (hotkeys) 
 
-[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=nl-NL) for a more seamless workflow. Some common shortcuts for navigation, analysis creation, and insight democratization are listed below. 
+[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) for a more seamless workflow. Some common shortcuts for navigation, analysis creation, and insight democratization are listed below. 
 
 #### Navigation
 
@@ -160,7 +160,7 @@ A screen reader reads text that appears on the computer screen. It also reads no
 
 [!UICONTROL Analysis Workspace] strives for WCAG 2.1 AA conformance, including requirements for color contrast. 
 
-In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=nl-NL). 
+In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html). 
 
 ## Required field validation in component builders 
 

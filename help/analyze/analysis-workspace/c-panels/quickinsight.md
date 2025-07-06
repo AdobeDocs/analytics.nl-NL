@@ -1,10 +1,10 @@
 ---
-description: Leer hoe u het deelvenster Snelle inzichten kunt gebruiken om u te begeleiden bij het samenstellen van gegevenstabellen en -visualisaties in Analysis Workspace.
+description: Leer hoe u het deelvenster Snelle inzichten kunt gebruiken om u te begeleiden bij het maken van vrije-vormtabellen en -visualisaties in Analysis Workspace.
 title: Deelvenster Snelle inzichten
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Snelle Inzichten paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/quickinsight)) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Snelle Inzichten paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Wanneer u deze [!UICONTROL Analysis Workspace] voor het eerst gebruikt, vraagt u
 * de plaats waar een filter moet worden gemaakt;
 * en meer.
 
-Om met deze vragen te helpen, [!UICONTROL Quick insights] hefboomwerkingen een algoritme dat u met de populairste dimensies, metriek, segmenten, en datumwaaiers uw bedrijfgebruik voorstelt. Dit algoritme is gebaseerd op het gebruik van gegevenscomponenten in [!UICONTROL Analysis Workspace] door uw eigen bedrijf. In feite ziet u afmetingen, metriek, en segmenten geëtiketteerd met [!UICONTROL POPULAR] in de drop-down lijst, zoals hier getoond:
+Voor deze vragen gebruikt [!UICONTROL Quick insights] een algoritme dat u de populairste afmetingen, metriek, segmenten en datumbereiken voorstelt die uw bedrijf gebruikt. Dit algoritme is gebaseerd op het gebruik van gegevenscomponenten in [!UICONTROL Analysis Workspace] door uw eigen bedrijf. In feite ziet u afmetingen, metriek, en segmenten geëtiketteerd met [!UICONTROL POPULAR] in de drop-down lijst, zoals hier getoond:
 
 ![ het Snelle paneel van Inzichten.](assets/popular-tag.png)
 
@@ -59,10 +59,10 @@ Hieronder volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst 
 |---|---|
 | **[!UICONTROL Dimension]** | Dimensies zijn beschrijvingen of kenmerken van metrische gegevens die in een project kunnen worden bekeken, uitgesplitst en vergeleken. Het zijn niet-numerieke waarden en datums die worden opgesplitst in dimensie-items. Bijvoorbeeld, *browser* of *pagina* is een afmeting. |
 | **[!UICONTROL Dimension item]** | Dimension-items zijn afzonderlijke waarden voor een dimensie. Bijvoorbeeld, zouden de afmetingspunten voor de browser afmeting *Chrome* zijn, *Firefox*, *Edge*, of anderen. |
-| **[!UICONTROL Metric]** | De metriek zijn kwantitatieve informatie over persoonactiviteit, zoals meningen, klik-door, herladingen, gemiddelde tijd besteed, eenheden, orden, opbrengst, etc. |
+| **[!UICONTROL Metric]** | De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc. |
 | **[!UICONTROL Visualization]** | Workspace biedt [ een aantal visualisaties ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) aan om visuele vertegenwoordiging van uw gegevens te bouwen. Bijvoorbeeld staafgrafieken, donutgrafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen en andere. |
 | **[!UICONTROL Dimension Breakdown]** | Een uitsplitsing naar dimensie is een manier om een dimensie naar andere dimensies uit te splitsen. U kunt bijvoorbeeld de VS-staten opdelen door Mobiele apparaten om de bezoeken aan mobiele apparaten per status op te halen. Of u kunt mobiele apparaten onderbreken op typen mobiele apparaten, op regio&#39;s, op interne campagnes en nog veel meer. |
-| **[!UICONTROL Segments]** | Met segmenten kunt u subsets van personen identificeren op basis van eigenschappen of interacties op websites. U kunt bijvoorbeeld [!UICONTROL Visitor] -segmenten maken op basis van <li>kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of</li><li>interacties: campagnes, sleutelwoordzoeker, zoekmachine, of</li><li>uitgang en invoer: bezoekers van Facebook, een gedefinieerde bestemmingspagina, een verwijzend domein, of</li><li> aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
+| **[!UICONTROL Segments]** | Met segmenten kunt u subsets van bezoekers identificeren op basis van kenmerken of interacties van websites. U kunt bijvoorbeeld [!UICONTROL Visitor] -segmenten maken op basis van <li>kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of</li><li>interacties: campagnes, sleutelwoordzoeker, zoekmachine, of</li><li>uitgang en invoer: bezoekers van Facebook, een gedefinieerde bestemmingspagina, een verwijzend domein, of</li><li> aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
 
 ## Gebruiken
 
@@ -94,7 +94,7 @@ U kunt de bouwstenen op drie manieren specificeren:
 
 * Componenten slepen en neerzetten vanuit het linkerdeelvenster.
 * Begin in één van de bouwsteengebieden te typen. Wanneer invoer wordt gevonden, vult het bouwsteengebied met mogelijke waarden automatisch.
-* Specificeer een bouwsteendrop-down (bijvoorbeeld `Country` in **[!UICONTROL Analyze]**) en onderzoek de lijst van mogelijke waarde (gebruikend ![ ChevronRight ](/help/assets/icons/ChevronRight.svg)) voor de waarde u (bijvoorbeeld, **[!UICONTROL Country code]**) wilt gebruiken.
+* Specificeer een bouwsteendrop-down (bijvoorbeeld **[!UICONTROL Country]** in **[!UICONTROL Analyze]**) en onderzoek de lijst van mogelijke waarde (gebruikend ![ ChevronRight ](/help/assets/icons/ChevronRight.svg)) voor de waarde u (bijvoorbeeld, **[!UICONTROL Country code]**) wilt gebruiken.
 
 Selecteer **[!UICONTROL Clear]** om alle invoervelden te wissen.
 
