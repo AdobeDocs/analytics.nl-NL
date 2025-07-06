@@ -36,7 +36,7 @@ Het dialoogvenster **[!UICONTROL Segment builder]** wordt gebruikt om nieuwe seg
 
 ![ de detailsvenster die van het Segment gebieden en opties tonen in de volgende sectie worden beschreven.](assets/new-segment.png)
 
->[!TAB  creeer of geef segment ] uit
+>[!TAB creeer of geef segment  uit]
 
 ![ de detailsvenster die van het Segment gebieden en opties tonen in de volgende sectie worden beschreven.](assets/edit-segment.png)
 
