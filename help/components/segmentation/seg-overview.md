@@ -249,7 +249,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de containers
 
 +++ **Welke rechten en voorrechten moet ik gebruiken, creëren, en segmenten beheren?**
 
-Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen Admins beslissen wie [ toestemmingen zou moeten hebben om segmenten ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
+Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen Admins beslissen wie [ toestemmingen zou moeten hebben om segmenten ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=nl-NL) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
 
 Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met iedereen in de organisatie. [ de rechten van het segment door rol ](/help/components/segmentation/seg-reference/seg-rights.md)
 

@@ -16,7 +16,7 @@ Buiten het [ standaardgebruik van segmenten ](/help/components/segmentation/segm
 
 * [Segmentvergelijking](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-* [ pas segmenten in Analyse van de Uitval toe ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)
+* [ pas segmenten in Analyse van de Uitval toe ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=nl-NL)
 
 >[!MORELIKETHIS]
 >

@@ -26,7 +26,7 @@ Aangezien Analysis Workspace een rapportagetool is, heeft de tool geen invloed o
 +++
 
 +++Hoeveel rapportsuites kunnen in een project van Analysis Workspace worden getoond?
-U kunt projecten in Analysis Workspace met gegevens van meer [ veelvoudige rapportsuites ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) nu tot stand brengen.
+U kunt projecten in Analysis Workspace met gegevens van meer [ veelvoudige rapportsuites ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=nl-NL) nu tot stand brengen.
 +++
 
 +++Hoe implementeert u Analysis Workspace?
@@ -68,7 +68,7 @@ Als u een werkruimterapport hebt gemaakt maar er geen gegevens zijn, kunt u een 
 * Controleer de rapportreeks tweemaal en zorg ervoor het met gegevens wordt bevolkt.
 * Als u een segment in uw rapport toepaste, zouden de segmentcriteria geen gegevens kunnen aanpassen. Verwijder het segment of pas de segmentdefinitie aan.
 * Controleer de datumwaaier in de hogere juiste hoek en zorg ervoor het aan een waarde wordt geplaatst die u zou verwachten.
-* Navigeer aan uw website en gebruik [ Debugger ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) om te bevestigen dat het gegeven wordt verzameld.
+* Navigeer aan uw website en gebruik [ Debugger ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) om te bevestigen dat het gegeven wordt verzameld.
 
 
 +++
