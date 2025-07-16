@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De toepassingen van hoe u verwerkingsregels in uw organisatie kunt gebruiken zijn uitgebreid. In de volgende secties worden enkele algemene manieren beschreven waarop u deze in het voordeel kunt gebruiken.
 
-++ Kopieer een contextgegevensvariabele naar een eVar
++++ Kopieer een contextgegevensvariabele naar een eVar
 
 De regels van de verwerking worden gebruikt om waarden van [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contextdata.md) aan [ Props ](/help/components/dimensions/prop.md) en [ eVars ](/help/components/dimensions/evar.md) te bewegen. Zonder verwerkingsregels hebben contextgegevensvariabelen geen betekenis en vullen ze geen rapporten in Analytics.
 
@@ -112,7 +112,7 @@ Met de optie Samenvoegen kunt u waarden vullen door andere waarden te combineren
 
 +++
 
-++ + waarden opruimen in een rapport
++++ waarden opruimen in een rapport
 
 U kunt waarden vergelijken met verzamelde spelfouten en deze bijwerken zodat ze correct worden weergegeven in rapporten.
 
