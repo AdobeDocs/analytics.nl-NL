@@ -67,4 +67,4 @@ Houd rekening met het volgende wanneer u verwerkingsregels maakt of bewerkt:
 
 >[!MORELIKETHIS]
 >
->![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de variabelen van de de contextgegevens van de Kaart in steunen en eVars met verwerkingsregels ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
+>![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de variabelen van de de contextgegevens van de Kaart in steunen en eVars met verwerkingsregels ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}

@@ -15,7 +15,7 @@ ht-degree: 12%
 # Adobe Analytics Admin Guide {#admin}
 
 + [Analytics Admin-handleiding](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
 + Adobe-beheerconsole {#admin-console}
    + [Overzicht](admin-console/home.md)
    + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
