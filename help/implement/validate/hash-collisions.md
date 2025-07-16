@@ -4,7 +4,7 @@ description: Beschrijft wat een knoeiboelbotsing is en hoe het zich kan manifest
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -42,6 +42,6 @@ Gelijkaardig aan de [ verjaardagsparadox ](https://en.wikipedia.org/wiki/Birthda
 De meeste hash-botsingen gebeuren met twee ongebruikelijke waarden, die geen betekenisvolle invloed hebben op rapporten. Zelfs als een hash een algemene en soms voorkomende waarde heeft, is het resultaat te verwaarlozen. In zeldzame gevallen waarin twee populaire waarden een hash-botsing ervaren, is het echter mogelijk het effect ervan duidelijk te zien. Adobe raadt het volgende aan om het effect ervan in rapporten te beperken:
 
 * **verander de datumwaaier**: De lijsten van de knoeiboel veranderen elke maand. Als u het datumbereik wijzigt in een tijdsbereik van een andere maand, kan elke waarde verschillende hashes hebben die niet botsen.
-* **Verlaag het aantal unieke waarden**: U kunt uw implementatie aanpassen of [ de regels van de Verwerking ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) gebruiken helpen het aantal unieke waarden verminderen die een dimensie verzamelt. Als uw dimensie bijvoorbeeld een URL verzamelt, kunt u querytekenreeksen of -protocol verwijderen.
+* **Verlaag het aantal unieke waarden**: U kunt uw implementatie aanpassen of [ de regels van de Verwerking ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) gebruiken helpen het aantal unieke waarden verminderen die een dimensie verzamelt. Als uw dimensie bijvoorbeeld een URL verzamelt, kunt u querytekenreeksen of -protocol verwijderen.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

@@ -4,7 +4,7 @@ description: Meer informatie over algemene problemen en aanbevolen procedures vo
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
@@ -87,8 +87,8 @@ Deze twee variabelewaarden worden in Adobe Analytics als afzonderlijk beschouwd.
 
 Implementaties die veel variabelen vullen met lange waarden, kunnen soms worden uitgevoerd in afgebroken afbeeldingsaanvragen. Sommige oudere browsers, zoals Internet Explorer, leggen een limiet van 2083 tekens op voor het aanvragen van URL&#39;s voor afbeeldingsverzoeken. Als uw organisatie met zeer lange beeldverzoeken wordt geconfronteerd, probeer het volgende:
 
-* **gebruik de dienst van identiteitskaart van Experience Cloud**: De bibliotheken van AppMeasurement 1.4.1 en verzenden later automatisch beeldverzoeken gebruikend HTTP POST als zij te lang zijn. Gegevens die met deze methode worden verzonden, worden niet afgebroken, ongeacht de lengte. Zie [ de dienst van identiteitskaart van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) voor meer informatie.
-* **de verwerkingsregels van het Gebruik**: [ de regels van de Verwerking ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) kunnen waarden van één variabele aan een andere kopiëren. Met deze methode hoeft u niet dezelfde waarde in meerdere variabelen in te stellen. Bijvoorbeeld:
+* **gebruik de dienst van identiteitskaart van Experience Cloud**: De bibliotheken van AppMeasurement 1.4.1 en verzenden later automatisch beeldverzoeken gebruikend HTTP POST als zij te lang zijn. Gegevens die met deze methode worden verzonden, worden niet afgebroken, ongeacht de lengte. Zie [ de dienst van identiteitskaart van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html) voor meer informatie.
+* **de verwerkingsregels van het Gebruik**: [ de regels van de Verwerking ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) kunnen waarden van één variabele aan een andere kopiëren. Met deze methode hoeft u niet dezelfde waarde in meerdere variabelen in te stellen. Bijvoorbeeld:
 
   Altijd uitvoeren:<br>
 Waarde prop1 overschrijven met eVar1 <br>
