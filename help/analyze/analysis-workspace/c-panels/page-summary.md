@@ -27,14 +27,14 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Het deelvenster Paginaoverzicht"
->abstract="Bekijk snel enkele maatstaven op hoog niveau en de verplaatsing van en naar een specifieke pagina.<br/><br/>**Parameters **<br/>**voegen een punt van de paginadimensie** toe: Open de componentenspoorstaaf, bepaal de plaats van de dimensie van de Pagina en breid het door op de wortel te klikken om de afmetingspunten te zien. Vervolgens sleept u de specifieke pagina waarover u meer wilt weten naar de builder. Zodra u hebt gesleept en het afmetingspunt gelaten vallen, bevolkt het rapport automatisch met zeer belangrijke informatie over de pagina."
+>abstract="Bekijk snel enkele maatstaven op hoog niveau en de verplaatsing van en naar een specifieke pagina.<br/><br/>**Parameters &#x200B;**<br/>**voegen een punt van de paginadimensie** toe: Open de componentenspoorstaaf, bepaal de plaats van de dimensie van de Pagina en breid het door op de wortel te klikken om de afmetingspunten te zien. Vervolgens sleept u de specifieke pagina waarover u meer wilt weten naar de builder. Zodra u hebt gesleept en het afmetingspunt gelaten vallen, bevolkt het rapport automatisch met zeer belangrijke informatie over de pagina."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het summiere paneel van de Pagina in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_dit artikel documenteert het summiere paneel van de Pagina in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
