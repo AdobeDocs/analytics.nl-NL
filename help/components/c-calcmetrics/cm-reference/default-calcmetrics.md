@@ -1,11 +1,11 @@
 ---
-description: De Adobe verstrekt diverse berekende metriek die u kunt gebruiken. Deze pagina bevat een overzicht van die metingen en het gebruik waarvoor ze zijn bedoeld.
+description: Adobe biedt verschillende berekende maatstaven die u kunt gebruiken. Deze pagina bevat een overzicht van die metingen en het gebruik waarvoor ze zijn bedoeld.
 title: Berekende standaardwaarden
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,15 @@ Hieronder volgt een lijst van elke berekende metrische waarde die door Adobe wor
 >
 >U kunt:
 >
-> * Voeg standaard berekende metriek voor de Streaming Inzameling van Media toe, zoals die in [ wordt beschreven Berekende metriek ](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=nl-NL)
+> * Voeg standaard berekende metriek voor de Streaming Inzameling van Media toe, zoals die in [ wordt beschreven Berekende metriek ](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
 > * Creeer douane berekende metriek van bestaande Metriek, zoals die in [ wordt beschreven Berekende en geavanceerde berekende metriek ](/help/components/c-calcmetrics/cm-overview.md).
+>
+
+>[!TIP]
+>
+>Gebruik het [ Woordenboek van Gegevens ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) om de definitie van een gebrek te inspecteren berekende metrisch en de individuele componenten die omhoog die definitie maken.
+>
+
 
 
 | Metrische naam berekend | Functie | Formule |
@@ -39,7 +46,7 @@ Hieronder volgt een lijst van elke berekende metrische waarde die door Adobe wor
 | Conversiesnelheid | Het percentage bezoekers dat de gewenste actie heeft uitgevoerd, zoals een aankoop. | `[Orders] / [Visits]` |
 | Invoersnelheid | Het percentage bezoekers dat de site op een bepaalde pagina is binnengekomen, in vergelijking met het totale aantal sessies op de site. | `[Entries] / [Visits]` |
 | Geschatte unieke bezoekers (ITP 2.1) | Voor ITP-bezoekers (gebruikers in Safari-browsers) verdeelt u Unieke bezoekers met 2 of minder. Deze berekende metrisch veronderstelt dat u koekjes gebruikend cliënt-kant JavaScript (het gebruiken van geen implementatie CNAME) plaatst. Implementaties die cookies instellen met client-side JavaScript werden beïnvloed vanaf ITP 2.1. Zie [ Intelligente het volgen preventie ](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) voor details. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Experience Cloud-id-dekking | Het percentage bezoekers met een Experience Cloud-id. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
+| Experience Cloud ID-dekking | Het percentage bezoekers met een Experience Cloud-id. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Afsluitingsfrequentie | Het percentage bezoekers dat de site verlaat na weergave van een bepaalde pagina. | `[Exits] / [Visits]` |
 | ITP 2.1 Unieke bezoekers / Unieke bezoekers | Het percentage unieke bezoekers dat een browser gebruikt die wordt beïnvloed door de cookiebeperkingen van ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | Assistenten bestellen | Het aantal keren dat een kanaal of bron heeft bijgedragen aan de reis van een klant naar een aankoop, maar niet tot de uiteindelijke aankoop heeft geleid. | `[Orders (Visit Participation)] - [Orders]` |

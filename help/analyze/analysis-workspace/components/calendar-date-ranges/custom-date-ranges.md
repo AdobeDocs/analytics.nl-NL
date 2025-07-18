@@ -1,70 +1,101 @@
 ---
-description: Maak aangepaste datumbereiken in Analysis Workspace en sla deze op als tijdcomponenten.
+description: Leer hoe u aangepaste datumbereiken definieert in Analysis Workspace.
 keywords: Analysis Workspace
-title: Aangepaste datumbereiken maken
+title: Aangepaste datumbereiken voorbeeld
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 0%
+source-wordcount: '113'
+ht-degree: 1%
 
 ---
 
-# Aangepaste datumbereiken maken
+# Aangepaste datumbereiken
 
-U kunt aangepaste datumbereiken maken in Analysis Workspace en deze opslaan als tijdcomponenten.
+Dit artikel bevat meer voorbeelden van aangepaste datumbereiken.
 
-Voor informatie over het toevoegen van bestaande datumwaaiers aan een project, zie [ Overzicht van kalender en datumwaaiers ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
 
-Een aangepast datumbereik maken:
 
-1. Selecteer in Adobe Analytics **[!UICONTROL Components]** > **[!UICONTROL Date ranges]** .
+## Vorige twee maanden geleden
 
-   ![ pagina van de datumwaaier ](assets/date-ranges.png)
++++ Details
 
-1. Selecteer [!UICONTROL **creeer nieuwe datumwaaier**].
+U wilt een aangepast datumbereik definiëren dat twee maanden geleden wordt gedefinieerd. U gebruikt een van de voorinstellingen.
 
-1. Geef de volgende informatie op in de constructor Datumbereik:
+![ Laatste 2 maanden geleden ](assets/date-range-example-simple.png)
 
-   | Optie | Beschrijving |
-   |---------|----------|
-   | [!UICONTROL **Titel**] | De titel van het datumbereik zoals deze wordt weergegeven wanneer gebruikers de titel selecteren in Analysis Workspace. |
-   | [!UICONTROL **Beschrijving**] | Een beschrijving voor het datumbereik. |
-   | [!UICONTROL **Markeringen**] | Alle tags die u wilt toepassen op het datumbereik. |
-   | [!UICONTROL **de Waaier van de Datum**] | Hiermee kunt u een aangepast datumbereik kiezen. Standaard zijn de laatste 30 dagen geselecteerd. |
-   | [!UICONTROL **Vooraf ingesteld**] | Kies van een lijst van vooraf ingestelde datumwaaiers, zoals [!UICONTROL **Gisteren**], [!UICONTROL **Laatste 7 dagen**], [!UICONTROL **Laatste 30 dagen**], etc. |
-   | [!UICONTROL **tijd van het Begin**] | De tijd van de dag waarop het datumbereik begint. |
-   | [!UICONTROL **Eind tijd**] | De tijd van de dag waarop het datumbereik eindigt. |
-   | [!UICONTROL **het rollen van het gebruik data**] | Het rollen datums staan u toe om een dynamisch rapport te produceren dat vooruit of achteruit voor een bepaalde periode kijkt die op wordt gebaseerd wanneer u het rapport in werking stelde. Bijvoorbeeld, als u op alle geplaatste Orden &quot;Vorige Maand&quot;wilt rapporteren (die op het Gemaakt gebied van de Datum wordt gebaseerd) en dat rapport in December in werking stellen, zou u orden zien die in november worden geplaatst. Als je datzelfde rapport in januari zou uitvoeren, zou je orders zien geplaatst in december.<ul><li>**[!UICONTROL Date Preview]**: geeft aan welke tijdsperiode de schuivende kalender omspant.</li><li>**[!UICONTROL Start]**: U kunt kiezen uit de huidige dag, de huidige week, de huidige maand, het huidige kwartaal en het huidige jaar.</li><li>**[!UICONTROL End]**: U kunt kiezen uit de huidige dag, de huidige week, de huidige maand, het huidige kwartaal en het huidige jaar.</li></ul><br> die door gebrek wordt geselecteerd. |
++++
 
-1. Selecteer [!UICONTROL **sparen**].
 
-## Voorbeeld: datumbereik voor &quot;twee maanden geleden&quot; {#section_C4109C57CB444BB2A79CC8082BD67294}
+## Rollen tot het einde van vorige week
 
-De volgende waaier van de douanedatum toont een datumwaaier voor &quot;twee maanden geleden,&quot;met een Summiere visualisatie van de Verandering die richtingsverandering toont.
++++ Details
+
+U wilt een datumbereik definiëren dat de periode definieert tussen de huidige dag een week geleden en het einde van dezelfde vorige week. Als vandaag bijvoorbeeld woensdag 11 september 2024 is. U wilt een datumbereik van 4 september 2024 tot 7 september 2024. september
+
+![ het waaiervoorbeeld van de Datum ](assets/date-range-example.png)
+
++++
+
+<!--
+
+# Create custom date ranges
+
+You can create custom date ranges in Analysis Workspace and save them as Time components. 
+
+For information about adding existing date ranges to a project, see [Calendar and date ranges overview](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
+
+To create a custom date range:
+
+ 1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
+
+    ![date range page](assets/date-ranges.png)
+ 
+ 1. Select [!UICONTROL **Create new date range**].
+
+ 1. In the Date range builder, specify the following information:
+    
+    |Option | Description | 
+    |---------|----------|
+    | [!UICONTROL **Title**] | The title of the date range as it will appear when users select it in Analysis Workspace. |
+    | [!UICONTROL **Description**] | A description for the date range. | 
+    | [!UICONTROL **Tags**] | Any tags you want to apply to the date range. | 
+    | [!UICONTROL **Date Range**] | Lets you pick a custom date range. By default, the last 30 days are selected. | 
+    | [!UICONTROL **Preset**] | Choose from a list of preset date ranges, such as [!UICONTROL **Yesterday**], [!UICONTROL **Last 7 days**], [!UICONTROL **Last 30 days**], and so forth. | 
+    | [!UICONTROL **Start time**] | The time of day that the date range begins. | 
+    | [!UICONTROL **End time**] | The time of day that the date range ends. | 
+    | [!UICONTROL **Use rolling dates**] | Rolling dates allow you to generate a dynamic report that looks forward or backward for a set period of time based on when you ran the report. For example, if you want to report on all Orders placed "Last Month" (based on the Created Date field) and ran that report in December, you'd see orders placed in November. If you ran that same report in January, you'd see orders placed in December.<ul><li>**[!UICONTROL Date Preview]**: Indicates what time period the rolling calendar encompasses.</li><li>**[!UICONTROL Start]**: You can choose among current day, current week, current month, current quarter, current year.</li><li>**[!UICONTROL End]**: You can choose among current day, current week, current month, current quarter, current year.</li></ul><br>Selected by default. | 
+
+ 1. Select [!UICONTROL **Save**]. 
+
+## Example: Date range for "two months ago" {#section_C4109C57CB444BB2A79CC8082BD67294}
+
+The following custom date range shows a date range for "two months ago," with a Summary Change visualization showing directional change.
 
 ![](assets/date-range-two-months-ago.png)
 
-Het aangepaste datumbereik wordt boven in het deelvenster met componenten van [!UICONTROL Date Range] in uw project weergegeven:
+The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
-U kunt dit aangepaste datumbereik naar een kolom slepen naast een aangepast maandelijks roldatumbereik met de voorinstelling Laatste maand voor een vergelijking. Voeg een Summiere visualisatie van de Verandering toe en selecteer de totalen van elke kolom om richtingsverandering te tonen:
+You can drag this custom date range into a column alongside a custom, monthly rolling date range using the Last Month preset for a comparison. Add a Summary Change visualization and select the totals from each column to show directional change:
 
 ![](assets/date-range-two-months-table.png)
 
-## Voorbeeld: een 7-daags roldatumbereik gebruiken {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Example: Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-U kunt een datumbereik maken dat een 7-daags schuivend venster opgeeft dat een week geleden eindigt:
+You can create a date range that specifies a 7-day rolling window that ends one week ago:
 
 ![](assets/create_date_range.png)
 
-Gebruik *`rolling daily`* .
+Use *`rolling daily`*.
 
-* De begininstellingen zijn *`current day minus 6 days`* .
+* The Start settings would be *`current day minus 6 days`*.
 
-* De instellingen voor Einde zijn *`current day minus 7 days`* .
+* The End settings would be *`current day minus 7 days`*.
 
-Dit datumbereik kan een component zijn die u naar elke vrije-vormtabel sleept.
+This date range can be a component that you drag onto any freeform table.
+
+-->
