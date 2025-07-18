@@ -5,9 +5,9 @@ title: Aangepaste datumbereiken voorbeeld
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
+source-git-commit: 8cca98257aeb89226863beed69b4785166141b0c
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ U wilt een aangepast datumbereik definiëren dat twee maanden geleden wordt gede
 
 +++ Details
 
-U wilt een datumbereik definiëren dat de periode definieert tussen de huidige dag een week geleden en het einde van dezelfde vorige week. Als vandaag bijvoorbeeld woensdag 11 september 2024 is. U wilt een datumbereik van 4 september 2024 tot 7 september 2024. september
+U wilt een datumbereik definiëren dat de periode definieert tussen de huidige dag een week geleden en het einde van dezelfde vorige week. Als vandaag bijvoorbeeld woensdag 11 september 2024 is. U wilt een datumbereik van 4 september 2024 tot 7 september 2024.
 
 ![ het waaiervoorbeeld van de Datum ](assets/date-range-example.png)
 
