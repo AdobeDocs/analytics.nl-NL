@@ -4,9 +4,9 @@ title: Deelvenster Paginaoverzicht
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,14 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Het deelvenster Paginaoverzicht"
->abstract="Bekijk snel enkele maatstaven op hoog niveau en de verplaatsing van en naar een specifieke pagina.<br/><br/>**Parameters &#x200B;**<br/>**voegen een punt van de paginadimensie** toe: Open de componentenspoorstaaf, bepaal de plaats van de dimensie van de Pagina en breid het door op de wortel te klikken om de afmetingspunten te zien. Vervolgens sleept u de specifieke pagina waarover u meer wilt weten naar de builder. Zodra u hebt gesleept en het afmetingspunt gelaten vallen, bevolkt het rapport automatisch met zeer belangrijke informatie over de pagina."
+>abstract="Bekijk snel enkele maatstaven op hoog niveau en de verplaatsing van en naar een specifieke pagina.<br/><br/>**Parameters **<br/>**voegen een punt van de paginadimensie** toe: Open de componentenspoorstaaf, bepaal de plaats van de dimensie van de Pagina en breid het door op de wortel te klikken om de afmetingspunten te zien. Vervolgens sleept u de specifieke pagina waarover u meer wilt weten naar de builder. Zodra u hebt gesleept en het afmetingspunt gelaten vallen, bevolkt het rapport automatisch met zeer belangrijke informatie over de pagina."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het summiere paneel van de Pagina in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_dit artikel documenteert het summiere paneel van de Pagina in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_er is geen gelijkwaardig paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ U kunt het deelvenster [!UICONTROL Page summary] configureren met de volgende in
 
 | Invoer | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Page]** | Selecteer een pagina-dimensie waarvoor u de belangrijkste statistieken wilt bekijken. |
+| **[!UICONTROL Page]** | Selecteer een pagina-dimensie waarvoor u de belangrijkste statistieken wilt bekijken. **[!UICONTROL home]** bijvoorbeeld om statistieken voor de startpagina te bekijken. Gebruik het vervolgkeuzemenu om een pagina te selecteren of te beginnen te typen (bijvoorbeeld `home` ) om snel naar pagina&#39;s te zoeken. |
 
 {style="table-layout:auto"}
 

@@ -1,13 +1,13 @@
 ---
-description: Leer over de uitbreiding van de Activity Map en hoe te om zijn interface te navigeren.
+description: Leer meer over de Activity Map-extensie en hoe u door de interface ervan kunt navigeren.
 title: Activity Map-extensie-interface
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De toepassing heeft de volgende instellingen:
 
 * **Standaard/Levende mening**: Knevels tussen standaardmening en levende mening.
    * Standaardweergave: geeft de overlay weer op basis van historische gegevens.
-   * Live weergave: geeft de overlay weer op basis van live-gegevens. De datumkiezer verandert in een vervolgkeuzelijst waarmee u de granulariteit van live gegevens kunt wijzigen.
+   * Live weergave: geeft de overlay weer op basis van live-gegevens. De datumkiezer verandert in een vervolgkeuzemenu waarin u de granulariteit van live gegevens kunt wijzigen.
 * **Metrische selecteur**: Staat u toe om metrisch te veranderen dat de bekleding rapporteert. Alleen [!UICONTROL Link Clicks] zijn beschikbaar als Live View is geselecteerd.
 * **de selecteur van het Segment**: Staat u toe om a [ segment ](/help/components/segmentation/seg-overview.md) te selecteren, die een ondergroep van gegevens bekijken binnen uw bekleding. Segmenten zijn niet beschikbaar in Live View.
 * **visualisatietype van de Bedekking**: Staat u toe om te veranderen hoe de bedekking het rangschikken van verbindingen visualiseert.
@@ -44,9 +44,9 @@ De koptekst van dit deelvenster bevat de volgende instellingen:
 * **uitvouwen/doen ineenstorten hoogste paneel**: Knevels het hoogste paneel om montages horizontaal of verticaal (dubbel pijlpictogram) te tonen.
 * **[!UICONTROL Toggle page details]**: het onderste deelvenster (oogpictogram) weergeven of verbergen.
 * **[!UICONTROL Show settings]**: opent een menu voor instellingen die u kunt wijzigen (tandwielpictogram):
-   * **[!UICONTROL Settings]**: Opent de 1&rbrace; Montages van de uitbreiding [&#128279;](settings.md).
-   * **[!UICONTROL Help]**: opent de documentatie aan Experience League (deze pagina).
-   * **[!UICONTROL Adobe community]**: Opent de [ gemeenschap van het Experience League ](https://experienceleaguecommunities.adobe.com/).
+   * **[!UICONTROL Settings]**: Opent de 1} Montages van de uitbreiding [.](settings.md)
+   * **[!UICONTROL Help]**: opent de documentatie naar Experience League (deze pagina).
+   * **[!UICONTROL Adobe community]**: Opent de [ gemeenschap van Experience League ](https://experienceleaguecommunities.adobe.com/).
    * **[!UICONTROL About]**: geeft de extensieversie weer.
    * **[!UICONTROL Logout]**: hiermee meldt u zich af van de extensie, waarbij u zich opnieuw moet aanmelden.
 * **[!UICONTROL Quit Activity Map]**: hiermee worden alle bedekkingen voor de extensie gesloten (X-pictogram).
@@ -72,7 +72,7 @@ In het onderste deelvenster ziet u een geaggregeerde weergave van de koppelingen
 
 Het rapport **[!UICONTROL Links on page]** bevat een basiswerkruimterapport met de volgende instellingen:
 
-* De [ Activity Map verbinding ](/help/components/dimensions/activity-map-link.md) dimensie
+* De [ de verbinding van Activity Map ](/help/components/dimensions/activity-map-link.md) dimensie
 * [ komt voor ](/help/components/metrics/occurrences.md) metrisch (geëtiketteerd als **[!UICONTROL Link clicks]**)
 * De huidige [ pagina ](/help/components/dimensions/page.md) waarde die als segment wordt toegepast
 
