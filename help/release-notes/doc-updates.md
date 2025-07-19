@@ -331,7 +331,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | woensdag 1 oktober 2019 | Het nieuwe artikel op [ totalen van Workspace ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace). |
 | 28 september 2019 | Nieuwe artikelen over [configuratievariabelen voor Javascript-implementatie](/help/implement/vars/config-vars/configuration-variables.md). |
 | vrijdag 19 september 2019 | Herziene segmentatiedocumentatie om {de containers van de Groep van 0} Logica [ te verklaren.](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html#logic-group-containers) |
-| 12 september 2019 | Nieuwe documentatie voor [ Analytics van het Apparaat 1}](/help/components/cda/overview.md) |
+| 12 september 2019 | Nieuwe documentatie voor [ Analytics van het Apparaat 1&rbrace;](/help/components/cda/overview.md) |
 | 12 september 2019 | Werk [ Berekende metriektotalen ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) document bij. |
 | 28 augustus 2019 | Nieuw artikel over [Progressieve Web Apps (PWA’s) voor Analytics](/help/technotes/pwa.md). |
 | 8 augustus 2019 | Nieuw artikel over [Berekende standaarden - totalen](/help/components/c-calcmetrics/cm-totals.md). |
