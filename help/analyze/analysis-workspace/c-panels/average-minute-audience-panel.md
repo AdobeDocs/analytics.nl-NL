@@ -4,9 +4,9 @@ description: Leer hoe u het deelvenster Mediagemiddelde tijdens de minuten in An
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: c9299befa63868ce0450af9c63132738474e2371
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1777'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Gemiddeld aantal minuten voor medium"
->abstract="Toont de prestaties van specifieke media inhoud of over een periode van de douanetijd.<br/><br/>**Algemene parameters &#x200B;**<br/>**berekenen metrisch voor**: Selecteer metrisch aan gebruik voor het paneel. Selecteer **Specifieke inhoud** om gemiddeld minieme publiek voor specifieke inhoud of gebeurtenis te analyseren die op de inhoudslengte wordt gebaseerd. **Uitgezochte de tijdperiode van de Douane** om te analyseren hoe het gemiddelde minieme publiek over een douane geselecteerde periode verandert.<br/>**Meldend afmeting**: Uitgezocht om door **VideoNaam** van **te melden identiteitskaart van de Inhoud** afmeting. Alleen beschikbaar als u Specifieke inhoud hebt geselecteerd als de metrische waarde.<br/>**Korreligheid**: Selecteer granulariteit voor het melden. Alleen beschikbaar wanneer u Aangepaste tijdsperiode hebt geselecteerd als metrisch.<br/>**inhoud van de Filter door (facultatief)**: Selecteer een specifieke show, een seizoen, een episode, of selecteer een douaneafmeting om de inhoud te filtreren.<br/><br/>**Geavanceerde montages &#x200B;**<br/>**de montages van de Lijst**: Selecteer of om berekeningswaarden in de lijst te tonen.<br/>**bestede tijd metrisch**: Selecteer welke tijd metrisch doorbracht u voor de specifieke inhoudsberekening zou willen gebruiken. Alleen beschikbaar als u Specifieke inhoud hebt geselecteerd als de metrische waarde."
+>abstract="Toont de prestaties van specifieke media inhoud of over een periode van de douanetijd.<br/><br/>**Algemene parameters **<br/>**berekenen metrisch voor**: Selecteer metrisch aan gebruik voor het paneel. Selecteer **Specifieke inhoud** om gemiddeld minieme publiek voor specifieke inhoud of gebeurtenis te analyseren die op de inhoudslengte wordt gebaseerd. **Uitgezochte de tijdperiode van de Douane** om te analyseren hoe het gemiddelde minieme publiek over een douane geselecteerde periode verandert.<br/>**Meldend afmeting**: Uitgezocht om door **VideoNaam** van **te melden identiteitskaart van de Inhoud** afmeting. Alleen beschikbaar als u Specifieke inhoud hebt geselecteerd als de metrische waarde.<br/>**Korreligheid**: Selecteer granulariteit voor het melden. Alleen beschikbaar wanneer u Aangepaste tijdsperiode hebt geselecteerd als metrisch.<br/>**inhoud van de Filter door (facultatief)**: Selecteer een specifieke show, een seizoen, een episode, of selecteer een douaneafmeting om de inhoud te filtreren.<br/><br/>**Geavanceerde montages **<br/>**de montages van de Lijst**: Selecteer of om berekeningswaarden in de lijst te tonen.<br/>**bestede tijd metrisch**: Selecteer welke tijd metrisch doorbracht u voor de specifieke inhoudsberekening zou willen gebruiken. Alleen beschikbaar als u Specifieke inhoud hebt geselecteerd als de metrische waarde."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in **Customer Journey Analytics**.<br/> zie [ het gemiddelde minieme publiek van Media paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) voor de **Adobe Analytics** versie van dit artikel.*
+_dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_.<br/>_zie [ het gemiddelde minieme publiek van Media paneel ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ Met de invoerinstellingen die in deze sectie worden beschreven, kunt u het deelv
 
    | Opties | Beschrijving |
    |---------|------------|
-   | **[!UICONTROL Granularity]** | De standaardgranulariteit is [!UICONTROL **5 - Minuut**], maar u kunt om het even welke granulariteiten kiezen die als noemer voor de tijdreeks binnen uw geselecteerde tijdspanne worden gebruikt. Als u bijvoorbeeld 12:00 tot 12:30 pm met een granulariteit van 5 minuten selecteert, wordt het gemiddelde aantal minuten voor het hele half uur en zes rijen geretourneerd met het gemiddelde aantal minuten voor elke periode van 5 minuten. Deze rijen worden gebruikt als datapoints voor de grafiek van de tijdreeks. |
+   | **[!UICONTROL Granularity]** | De standaardgranulariteit is [!UICONTROL **5 - Minuut**], maar u kunt om het even welke granulariteiten kiezen die als noemer voor de tijdreeks binnen uw geselecteerde tijdspanne worden gebruikt. Bijvoorbeeld, die 12 :00 pm aan 12 :30 pm met een 5 minieme granulariteit selecteren keert het gemiddelde minieme publiek over het volledige half uur evenals zes rijen met het gemiddelde minieme publiek voor elke 5 minieme periode terug. Deze rijen worden gebruikt als datapoints voor de grafiek van de tijdreeks. |
    | [!UICONTROL **inhoud van de Filter door (facultatief)**] | Kies hoe u de specifieke inhoud wilt filteren, afhankelijk van de gewenste weergave of de structuur van de gegevens. <ul>[!UICONTROL **toon, seizoen, episode**]: Toont uw beschikbare shows in drop-down, die u het gebruiken van een onderzoek kunt filtreren (of door de shownaam van de linkerkolom te slepen en te laten vallen). Je kunt je selectie daar beëindigen om alle seizoenen van je show te zien, of je kunt filteren op individuele seizoenen en dan op individuele afleveringen. Deze instelling geeft de gegevens voor deze shows, seizoenen of episodes voor de geselecteerde tijdsperiode weer.</li><li>[!UICONTROL **de afmeting van de Douane**]: Als uw shownaam onder een douaneafmeting is, kunt u het vinden of door in de afmeting (facultatieve) drop-down te zoeken of door het linkerkolomonderzoek te gebruiken. Het dimensie-item wordt automatisch gevuld op basis van die selectie en wordt behandeld als een aflevering.</li><li>[!UICONTROL **niets**]: Toont alle videonamen die gemiddelde minieme publieksgegevens voor de selectie hebben u hebt gekozen. (Deze optie is standaard geselecteerd.)</li></ul> |
 
 1. Ga met [ Geavanceerde montages van de tijdperiode van de Douane ](#custom-time-period-advanced-settings) verder om geavanceerde montages te vormen.
@@ -187,8 +187,8 @@ In het deelvenster Gemiddelde minieme doelgroep van Media wordt alleen de gemidd
 >[!MORELIKETHIS]
 >
 > [ creeer een paneel ](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
-> &#x200B;> [De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
+> > [Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
+> > [De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
 >
 
 
