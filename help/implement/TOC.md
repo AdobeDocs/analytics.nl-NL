@@ -15,7 +15,7 @@ ht-degree: 8%
 # Adobe Analytics-implementatiehandleiding {#implementation}
 
 + [Adobe Analytics implementeren](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
 + [Opmerkingen bij de release van AppMeasurement](appmeasurement-updates.md)
 + Variabelen, functies en methoden voor analyse {#vars}
    + [Overzicht](vars/overview.md)
