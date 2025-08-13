@@ -5,9 +5,9 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: aad8c1ba3c76cd35aa37a155102b5fd6b4b7ca27
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Kaart in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_er is momenteel geen visualisatie van de Kaart beschikbaar in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_dit artikel documenteert de visualisatie van de Kaart in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -77,7 +77,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie 
 1. Selecteer een metrische waarde in de vervolgkeuzelijst. Of sleep in metrische vorm vanuit de lijst met metriek (inclusief berekende metriek).
 1. Geef de gegevensbron op waaruit u wilt tekenen. Dit dialoogvenster wordt alleen weergegeven als u locatie-tracking hebt ingeschakeld voor gegevens van mobiele apps.
 
-   | Source | Beschrijving |
+   | Bron | Beschrijving |
    | --- | --- |
    | **[!UICONTROL Mobile Lat/Long]** | Deze optie vertegenwoordigt gegevens van mobiele apps. U ziet deze optie alleen als u deze voor uw rapportsuite hebt ingeschakeld in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (selecteer rapportsuite) > [!UICONTROL Edit Settings] > [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking] . Dit zijn de standaardinstellingen (als locatietracering is ingeschakeld). |
    | **[!UICONTROL Geographic Dimension]** | Deze optie vertegenwoordigt geo segmentatiegegevens over bezoekersplaats die op het IP van de bezoeker adres wordt gebaseerd. Deze gegevens worden omgezet in [!UICONTROL Country] , [!UICONTROL Region] en [!UICONTROL City] . Merk op dat het niet naar het niveau van de Code DMA of van het Postcode gaat. Bijna alle rapportsuites hebben deze toegelaten dimensie. Als dat niet het geval is, neemt u contact op met de klantenservice van Adobe om geografische rapporten in te schakelen. |
