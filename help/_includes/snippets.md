@@ -12,9 +12,9 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Een nieuwe en gestroomlijnde [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) werd vrijgegeven op 16 oktober, 2024. Deze functie wordt ondersteund in Mac-, Windows- en webbrowsers.
->>Deze verouderde Report Builder-invoegtoepassing werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in nieuwe Report Builder omzetten.
+>&#x200B;>Deze verouderde Report Builder-invoegtoepassing werkt nog steeds. U kunt [ uw erfeniswerkboeken ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in nieuwe Report Builder omzetten.
 
-## Rapporten &amp; Analytics-aankondiging aan het einde van de levensduur {#ra-eol}
+## Rapporten & Analytics-aankondiging aan het einde van de levensduur {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 > 
 >Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 >
->Lees meer over de Rapporten &amp; de aankondiging van het Eind van Analytics [ ](https://www.adobe.com/go/analytics_rnaeol_en).
+>Lees meer over de Rapporten &amp; de aankondiging van het Eind van Analytics [&#128279;](https://www.adobe.com/go/analytics_rnaeol_en).
 
 ## Sorteeropties voor componenten {#components-sort-options}
 
@@ -149,14 +149,14 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 
 | Tags | Beschrijving |
 |---|---|
-| ![ Markeringen ](/help/assets/filter-tag.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U kunt ![ ](/help/assets/icons/Search.svg) Codes van het Onderzoek ** zoeken {om naar markeringen te zoeken u kunt gebruiken om te filtreren.</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(1)**: Het aantal geselecteerde markeringen (als één of meerdere markeringen worden geselecteerd).</li><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal items dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
+| ![ Markeringen ](/help/assets/filter-tag.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U kunt ![ ](/help/assets/icons/Search.svg) Codes van het Onderzoek ** zoeken &lbrace;om naar markeringen te zoeken u kunt gebruiken om te filtreren.</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(1)**: Het aantal geselecteerde markeringen (als één of meerdere markeringen worden geselecteerd).</li><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal items dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
 
 
 ## Sectie Rapportsuite, filter {#reportsuitefiltersection}
 
 | Rapportsuite | Beschrijving |
 |---|---|
-| ![ Repost reeks ](/help/assets/filter-reportsuite.png){width="300"} | In de sectie **[!UICONTROL Report suite]** kunt u filteren op rapportuiteinden. <ul><li>U kunt ![ ](/help/assets/icons/Search.svg) de reeksen van het Rapport van het Onderzoek ** zoeken {om naar rapportreeksen te zoeken u kunt gebruiken om te filtreren.</li><li>U kunt meerdere rapportsuite selecteren. Welke rapportsuite beschikbaar is, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde rapportreeksen (als één of meerdere rapportreeksen worden geselecteerd).</li><li>**3︎⃣**: Het aantal rapportreeksen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan de specifieke rapportsuite is gekoppeld.</li></ul></li></ul> |
+| ![ Repost reeks ](/help/assets/filter-reportsuite.png){width="300"} | In de sectie **[!UICONTROL Report suite]** kunt u filteren op rapportuiteinden. <ul><li>U kunt ![ ](/help/assets/icons/Search.svg) de reeksen van het Rapport van het Onderzoek ** zoeken &lbrace;om naar rapportreeksen te zoeken u kunt gebruiken om te filtreren.</li><li>U kunt meerdere rapportsuite selecteren. Welke rapportsuite beschikbaar is, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde rapportreeksen (als één of meerdere rapportreeksen worden geselecteerd).</li><li>**3︎⃣**: Het aantal rapportreeksen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan de specifieke rapportsuite is gekoppeld.</li></ul></li></ul> |
 
 ## Ingeschakelde sectie voor statusfilter {#enabledstatusfiltersection}
 
@@ -174,7 +174,7 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 
 | Eigenaar | Beschrijving |
 |---|---|
-| ![ Eigenaars ](/help/assets/filter-owners.png){width="300"} | In de sectie **[!UICONTROL Owner]** kunt u filteren op eigenaars. <ul><li>U kunt ![ ](/help/assets/icons/Search.svg) Onderzoek Eigenaars ** zoeken {om naar eigenaars te zoeken u aan filter kunt gebruiken.</li><li>U kunt meerdere eigenaars selecteren. Welke eigenaars beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde eigenaars (als één of meerdere eigenaars worden geselecteerd).</li><li>**3︎⃣**: Het aantal eigenaars beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan de specifieke eigenaar is gekoppeld.</li></ul></li></ul> |
+| ![ Eigenaars ](/help/assets/filter-owners.png){width="300"} | In de sectie **[!UICONTROL Owner]** kunt u filteren op eigenaars. <ul><li>U kunt ![ ](/help/assets/icons/Search.svg) Onderzoek Eigenaars ** zoeken &lbrace;om naar eigenaars te zoeken u aan filter kunt gebruiken.</li><li>U kunt meerdere eigenaars selecteren. Welke eigenaars beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde eigenaars (als één of meerdere eigenaars worden geselecteerd).</li><li>**3︎⃣**: Het aantal eigenaars beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan de specifieke eigenaar is gekoppeld.</li></ul></li></ul> |
 
 ## Sectie Overige filters {#otherfiltersfiltersection}
 

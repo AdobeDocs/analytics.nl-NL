@@ -135,7 +135,7 @@ In [!UICONTROL Rule Builder], vorm de regel als volgt:
 
 | Regeltype selecteren | Overeenkomstcriteria invoeren | Classificatie instellen | Naar |
 |---|---|---|---|
-| Gewone uitdrukking | &amp;Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $ 3 |
+| Gewone uitdrukking | &Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $ 3 |
 
 **Syntaxis**
 
