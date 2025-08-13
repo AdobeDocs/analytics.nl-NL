@@ -56,4 +56,4 @@ Hier volgen de stappen op hoog niveau die u onderneemt om classificatieregels to
 
 **Blog**: Voor extra informatie over deze eigenschap, zie het Digitale Marketing Blog: [ Op regel-gebaseerde Classificaties ](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Bekijk de [ video van het Overzicht van Classificaties ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
+**Video**: Bekijk de [ video van het Overzicht van Classificaties ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html?lang=nl-NL).

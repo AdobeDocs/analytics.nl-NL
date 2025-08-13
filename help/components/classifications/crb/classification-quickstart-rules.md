@@ -59,7 +59,7 @@ about_classification_rules.xml
 
 ## Belangrijke informatie over regels
 
-* Specificeer [ groepstoestemmingen ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) voor classificaties in [!UICONTROL Admin Tools].
+* Specificeer [ groepstoestemmingen ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=nl-NL) voor classificaties in [!UICONTROL Admin Tools].
 
 * **Reguliere uitdrukkingen**: De hulp is beschikbaar onder [ Reguliere Uitdrukkingen in de Regels van de Classificatie ](/help/components/classifications/crb/classification-quickstart-rules.md).
 
