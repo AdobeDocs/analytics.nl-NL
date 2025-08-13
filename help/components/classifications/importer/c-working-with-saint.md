@@ -3,7 +3,7 @@ description: Gebruik de importer om classificaties te uploaden naar Adobe Analyt
 title: Invoerder van classificaties - overzicht
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van importmodule voor classificaties (verouderd)
+
+{{classification-importer-deprecation}}
 
 Gebruik de importer om classificaties te uploaden naar Adobe Analytics. U kunt de gegevens ook exporteren voor bijwerken voorafgaand aan het importeren.
 

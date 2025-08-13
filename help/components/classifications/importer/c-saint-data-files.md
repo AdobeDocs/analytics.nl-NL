@@ -3,7 +3,7 @@ description: Met de importer kunt u classificatiegegevens bulksgewijs uploaden n
 title: Classificatiegegevensbestanden
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Classificatiegegevensbestanden (verouderd)
+
+{{classification-importer-deprecation}}
 
 Met de importer kunt u classificatiegegevens bulksgewijs uploaden naar analytische rapportage in een bestand. Voor het importeren van gegevens is een specifieke bestandsindeling vereist.
 
@@ -116,4 +118,4 @@ Bovendien ondersteunt het gegevensbestand de volgende extra kopconventies om sub
 
 ## Problemen met classificaties oplossen
 
-* [ Gemeenschappelijke upload Kwesties ](https://helpx.adobe.com/nl/analytics/kb/common-saint-upload-issues.html): Het artikel van de Kennisbank dat kwesties beschrijft die uit onjuiste dossierformaten en dossierinhoud voortvloeien.
+* [ Gemeenschappelijke upload Kwesties ](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Het artikel van de Kennisbank dat kwesties beschrijft die uit onjuiste dossierformaten en dossierinhoud voortvloeien.

@@ -3,7 +3,7 @@ description: Een regelset is een groep classificatieregels voor een specifieke v
 title: Classificatiereeksen
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Classificatiereeksen (verouderd)
+
+{{classification-rulebuilder-deprecation}}
 
 *Deze pagina verklaart classificatiereekreeksen als deel van de [ bouwer van de classificatieregel ](classification-rule-builder.md). Zie [ de reeksen van de Classificatie ](../sets/overview.md) voor de huidige methode om gegevens in Adobe Analytics te classificeren.*
 

@@ -3,7 +3,7 @@ description: In plaats van elke keer dat uw volgcodes veranderen classificaties 
 title: Workflow van de opbouwfunctie voor classificatieregels
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -12,11 +12,13 @@ ht-degree: 0%
 
 # Overzicht van de builder van de classificatieregel (verouderd)
 
+{{classification-rulebuilder-deprecation}}
+
 In plaats van elke keer dat uw volgcodes veranderen classificaties te onderhouden en te uploaden, kunt u automatische, op regels gebaseerde classificaties maken en deze op meerdere rapportsuites toepassen. Regels worden regelmatig verwerkt, afhankelijk van uw volume van aan classificatie gerelateerd verkeer.
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de regelbouwer van de Classificatie ](https://video.tv.adobe.com/v/3434383?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de regelbouwer van de Classificatie ](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -54,4 +56,4 @@ Hier volgen de stappen op hoog niveau die u onderneemt om classificatieregels to
 
 **Blog**: Voor extra informatie over deze eigenschap, zie het Digitale Marketing Blog: [ Op regel-gebaseerde Classificaties ](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Bekijk de [ video van het Overzicht van Classificaties ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html?lang=nl-NL).
+**Video**: Bekijk de [ video van het Overzicht van Classificaties ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).

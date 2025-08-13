@@ -3,7 +3,7 @@ description: Gebruik subclassificaties met de bouwer van de classificatieregel.
 title: Subclassificaties en de Bouwer van de Regel
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Subclassificaties en de regelbouwer (verouderd)
+
+{{classification-rulebuilder-deprecation}}
 
 U kunt de Bouwer van de Regel van de Classificatie met sub-classificaties combineren als u ervoor zorgt dat elke subclassificatie een ouderwaarde heeft.
 

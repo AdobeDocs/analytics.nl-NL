@@ -3,7 +3,7 @@ description: De classificatieregels kijken regelmatig naar niet-geclassificeerde
 title: Classificatieregels
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1920'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Classificatieregels (verouderd)
+
+{{classification-rulebuilder-deprecation}}
 
 De classificatieregels kijken regelmatig naar niet-geclassificeerde termen. Als een regelovereenkomst wordt gevonden, voegen de regels automatisch de termijnen aan uw lijsten van classificatiegegevens toe. U kunt classificatieregels ook gebruiken om bestaande sleutels te overschrijven.
 
@@ -57,7 +59,7 @@ about_classification_rules.xml
 
 ## Belangrijke informatie over regels
 
-* Specificeer [ groepstoestemmingen ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=nl-NL) voor classificaties in [!UICONTROL Admin Tools].
+* Specificeer [ groepstoestemmingen ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) voor classificaties in [!UICONTROL Admin Tools].
 
 * **Reguliere uitdrukkingen**: De hulp is beschikbaar onder [ Reguliere Uitdrukkingen in de Regels van de Classificatie ](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -133,7 +135,7 @@ In [!UICONTROL Rule Builder], vorm de regel als volgt:
 
 | Regeltype selecteren | Overeenkomstcriteria invoeren | Classificatie instellen | Naar |
 |---|---|---|---|
-| Gewone uitdrukking | &Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $ 3 |
+| Gewone uitdrukking | &amp;Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $ 3 |
 
 **Syntaxis**
 
@@ -329,7 +331,7 @@ Een classificatieregel toevoegen of bewerken:
 
    ![Stap Resultaat](assets/classification_rules_page.png)
 
-   Voor voorbeelden van het bouwen van regels, zie {de Bouwer van de Regel van de Regel van 0} Classificaties [&#128279;](/help/components/classifications/crb/classification-rule-builder.md) en [ Regelmatige Uitdrukkingen in de Regels van de Classificatie ](/help/components/classifications/crb/classification-quickstart-rules.md).
+   Voor voorbeelden van het bouwen van regels, zie {de Bouwer van de Regel van de Regel van 0} Classificaties [ en ](/help/components/classifications/crb/classification-rule-builder.md) Regelmatige Uitdrukkingen in de Regels van de Classificatie [.](/help/components/classifications/crb/classification-quickstart-rules.md)
 
    >[!NOTE]
    >
@@ -340,7 +342,7 @@ Een classificatieregel toevoegen of bewerken:
 
    Als u een regel activeert, wordt het bestand automatisch samengesteld en voor u geüpload.
 
-   De definities van het gebied: Zie [&#128279;](/help/components/classifications/crb/classification-rule-definitions.md) de Bouwer van de Regel van de Classificatie  voor volledige definities van interfaceopties op deze pagina.
+   De definities van het gebied: Zie [ de Bouwer van de Regel van de Classificatie ](/help/components/classifications/crb/classification-rule-definitions.md) voor volledige definities van interfaceopties op deze pagina.
 
 ## Een set classificatieregel testen
 

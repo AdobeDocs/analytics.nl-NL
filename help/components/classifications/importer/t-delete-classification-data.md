@@ -3,7 +3,7 @@ description: Stappen die beschrijven hoe classificatiegegevens moeten worden ver
 title: Classificatiegegevens verwijderen
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # Classificatiegegevens verwijderen
+
+{{classification-importer-deprecation}}
 
 Soms is het nodig om classificatiegegevens te verwijderen nadat deze zijn geüpload. Gebruik `~empty~` of `~deletekey~` , afhankelijk van wat u wilt verwijderen.
 
