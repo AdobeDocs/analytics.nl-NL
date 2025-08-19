@@ -1,18 +1,18 @@
 ---
-title: Metrische gegevens over het bijhouden van de status van de streaming Media Player
+title: Metrische gegevens over het bijhouden van de status van streaming-mediaservices
 description: De beschikbare metriek wanneer u [!UICONTROL Player State Tracking] voor een rapportreeks toelaat.
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
 
-# Metrische gegevens over het bijhouden van de status van de streaming Media Player
+# Metrische gegevens over het bijhouden van de status van streaming-mediaservices
 
-Streaming Media Player-gegevens voor het bijhouden van statussen bieden aanvullende rapportagefunctionaliteit voor gegevensverzameling via streaming media-verzamelingsbibliotheken. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+Streaming media services player state tracking metrics bieden aanvullende rapportagefunctionaliteit voor gegevensverzameling via streaming media services libraries. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
 Wanneer u **[!UICONTROL Player State Tracking]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
 

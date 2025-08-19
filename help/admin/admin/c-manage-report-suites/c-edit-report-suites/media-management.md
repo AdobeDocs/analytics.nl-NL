@@ -4,7 +4,7 @@ title: Mediabeheer
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -21,7 +21,7 @@ De volgende opties voor mediabeheer zijn beschikbaar wanneer u een rapportsuite 
 
 * [!UICONTROL **Media die**] melden
 
-  Gebruik deze selectievakjes om de afmetingen en metriek in te schakelen die specifiek zijn voor de Streaming Media Collection.
+  Gebruik deze selectievakjes om de afmetingen en metriek in te schakelen die specifiek zijn voor streaming mediaservices.
 
    * [Dimensies van mediacore](/help/components/dimensions/sm-core.md)
    * [Metrische gegevens van mediacore](/help/components/metrics/sm-core.md)
@@ -38,6 +38,6 @@ De volgende opties voor mediabeheer zijn beschikbaar wanneer u een rapportsuite 
 
 * [!UICONTROL **Classificaties van Media**]
 
-  Classificaties die specifiek zijn voor de afmetingen voor de verzameling van streaming media, zijn beschikbaar op de pagina [!UICONTROL Media Classifications] . Zij werken zo gelijkaardig aan [ classificaties van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) beschikbaar voor omzettingsvariabelen. Als u bepaalde componenten onder [!UICONTROL Media Reporting] inschakelt, worden er automatisch classificatiedimensies voor u gemaakt. U kunt deze interface gebruiken om uw eigen classificatieafmetingen te maken of classificatiegegevens te uploaden.
+  Classificaties die specifiek zijn voor de afmetingen van streaming mediaservices, zijn beschikbaar op de pagina [!UICONTROL Media Classifications] . Zij werken zo gelijkaardig aan [ classificaties van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) beschikbaar voor omzettingsvariabelen. Als u bepaalde componenten onder [!UICONTROL Media Reporting] inschakelt, worden er automatisch classificatiedimensies voor u gemaakt. U kunt deze interface gebruiken om uw eigen classificatieafmetingen te maken of classificatiegegevens te uploaden.
 
-Voor algemene informatie over het opnemen van het stromen media gegevens in Adobe Analytics, zie de [ Streaming Gids van de Inzameling van Media ](https://experienceleague.adobe.com/nl/docs/media-analytics/using/media-overview).
+Voor algemene informatie over het opnemen van het stromen media gegevens in Adobe Analytics, zie [ Adobe die media de diensten overzicht ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview) stromen.

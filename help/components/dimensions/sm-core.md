@@ -1,24 +1,24 @@
 ---
-title: Streaming media core-afmetingen
+title: Basisdimensies voor streaming mediaservices
 description: Beschikbare afmetingen wanneer u [!UICONTROL Media Core] inschakelt voor een rapportsuite.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
 
-# Streaming media core-afmetingen
+# Basisdimensies voor streaming mediaservices
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat. Zie [ Streaming de kernmetriek van Media ](../metrics/sm-core.md) voor beschikbare metriek.*
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat. Zie [ Streaming media diensten kernmetriek ](../metrics/sm-core.md) voor beschikbare metriek.*
 
-Streaming Media core-afmetingen bieden basisrapportfunctionaliteit voor gegevens die via streaming media collection libraries zijn verzameld. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+De belangrijkste dimensies van de streaming media diensten verstrekken basisrapporteringsfunctionaliteit aan gegevens die door het stromen de dienstenbibliotheken van media worden verzameld. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Core]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
-| Naam Dimension | Beschrijving | Verzonden met | Variabele van contextgegevens |
+| Dimension-naam | Beschrijving | Verzonden met | Variabele van contextgegevens |
 | --- | --- | --- | --- |
 | Inhoud | Inhoud-id van de inhoud. | Media starten, Media sluiten | `a.media.name` |
 | Inhoudskanaal | Het distributiestation of kanaal waar de inhoud wordt gespeeld. Elke tekenreekswaarde is geldig. | Media starten, Media sluiten | `a.media.channel` |
@@ -32,7 +32,7 @@ Wanneer u **[!UICONTROL Media Core]** onder [ Media die ](/help/admin/admin/c-ma
 
 {style="table-layout:auto"}
 
-Naast de bovenstaande afmetingen worden met Adobe automatisch de volgende indelingsafmetingen gemaakt. U moet classificatiegegevens uploaden om rapporten te bekijken die deze afmetingen gebruiken.
+Naast de bovenstaande afmetingen maakt Adobe automatisch de volgende classificatieafmetingen. U moet classificatiegegevens uploaden om rapporten te bekijken die deze afmetingen gebruiken.
 
 | Classificatienaam | Bovenliggende dimensie | Beschrijving |
 | --- | --- | --- |

@@ -1,24 +1,24 @@
 ---
-title: Afmetingen van de stroomkwaliteit van media
+title: Kwaliteitsdimensies voor streaming mediaservices
 description: Beschikbare afmetingen wanneer u [!UICONTROL Media Quality] inschakelt voor een rapportsuite.
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# Afmetingen van de stroomkwaliteit van media
+# Kwaliteitsdimensies voor streaming mediaservices
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat. Zie {de kwaliteitsmetriek van Media 0} Streaming [&#128279;](../metrics/sm-quality.md) voor beschikbare metriek.*
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat. Zie [ Streaming media de kwaliteitsmetriek van de diensten ](../metrics/sm-quality.md) voor beschikbare metriek.*
 
-De afmetingen voor de streamingmedia zorgen voor rapportage over de kwaliteit van de inhoud die de bezoeker gebruikt. Voor het gebruik van deze afmetingen is de instructie [!UICONTROL Adobe Streaming Media Collection] vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+De kwaliteitsdimensies van streaming mediaservices bieden rapportage over de kwaliteit van de inhoud die de bezoeker verbruikt. Voor het gebruik van deze afmetingen is de instructie [!UICONTROL Adobe Analytics for Streaming Media Ad-on] vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Quality]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
-| Naam Dimensionen | Beschrijving | Verzonden met | Variabele van contextgegevens |
+| Naam van afmetingen | Beschrijving | Verzonden met | Variabele van contextgegevens |
 | --- | --- | --- | --- |
 | Gemiddelde bitsnelheid | De gemiddelde bitsnelheid, in 100-KBPS emket-intervallen. Deze wordt berekend als een gewogen gemiddelde van alle bitsnelheidwaarden in verhouding tot de afspeelduur voor een bepaalde afspeelsessie. | Media sluiten | `a.media.qoe.bitrateAverageBucket` |
 | Wijzigingen in bitsnelheid | Het aantal wijzigingen in bitsnelheid dat is opgetreden tijdens een afspeelsessie. | Media sluiten | `a.media.qoe.bitrateChangeCount` |

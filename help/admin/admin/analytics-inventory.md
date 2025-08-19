@@ -4,9 +4,9 @@ title: Analytische inventarisatie
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 1a6f086105c76cbfcf361ddc54d71a7e7c4921d5
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1163'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Het doel van Analytics-inventarisatie is om u te helpen de volgende vragen te be
 
 ## Machtigingen
 
-De Inventaris van de Analyse is beschikbaar aan gebruikers met de voorrechten van Admin van het Product van Adobe Analytics in [ Adobe Admin Console ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-console/admin-roles-in-analytics).
+De Inventaris van de Analyse is beschikbaar aan gebruikers met de voorrechten van Admin van het Product van Adobe Analytics in [ Adobe Admin Console ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
 
 ## Access Analytics Inventory
 
@@ -81,7 +81,7 @@ In deze aanvankelijke versie, kunt u samenvattingsinventarisaantallen voor de pr
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-data-config"
 >title="Gegevensconfiguratie en -verzameling"
->abstract="In deze sectie ziet u het aantal rapportsuite in uw Adobe Analytics-omgeving en uw toegang tot Streaming Media. "
+>abstract="In deze sectie ziet u het aantal rapportsuites in uw Adobe Analytics-omgeving en uw toegang tot streaming-mediaservices."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -112,10 +112,10 @@ De antwoorden op deze vragen zullen u een goed idee geven van welke verslagen de
    | Voorvallen (afgelopen 90 dagen) | De metrische waarde &#39;Voorkomt&#39; toont het aantal treffers waar een bepaalde dimensie is ingesteld of geduurd. Hoeveel treffers heeft deze rapportsuite in de afgelopen 90 dagen ontvangen? |
    | Metrics | Hoeveel metriek worden bepaald in deze rapportreeks? |
    | Dimensies | Hoeveel dimensies worden gedefinieerd in dit rapportpakket? |
-   | Analyse voor doel (A4T) ingeschakeld | [ verborgen door gebrek ] is deze rapportreeks toegelaten voor [ Analytics voor Doel ](https://experienceleague.adobe.com/nl/docs/target/using/integrate/a4t/a4t)? |
-   | Marketingkanalen ingeschakeld | [ verborgen door gebrek ] is deze rapportreeks toegelaten voor [ de Kanalen van de Marketing ](https://experienceleague.adobe.com/nl/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
-   | Source Connector ingeschakeld | Is deze rapportreeks toegelaten voor de [ Schakelaar van Adobe Analytics Source voor gegevens van de rapportreeks ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? Met andere woorden, kan dit rapportenpakket naar Customer Journey Analytics worden gemigreerd via de Analytics Source Connector? |
-   | Type agenda | [ verborgen door gebrek ] voor meer informatie, verwijs naar [ Douane Kalenders ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Analyse voor doel (A4T) ingeschakeld | [ verborgen door gebrek ] is deze rapportreeks toegelaten voor [ Analytics voor Doel ](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Marketingkanalen ingeschakeld | [ verborgen door gebrek ] is deze rapportreeks toegelaten voor [ de Kanalen van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+   | Source Connector ingeschakeld | Is deze rapportreeks toegelaten voor de [ Schakelaar van Adobe Analytics Source voor gegevens van de rapportreeks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? Met andere woorden, kan dit rapportenpakket naar Customer Journey Analytics worden gemigreerd via de Analytics Source Connector? |
+   | Type agenda | [ verborgen door gebrek ] voor meer informatie, verwijs naar [ Douane Kalenders ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### Afmetingen analyseren
 
@@ -132,7 +132,7 @@ Dit scherm verstrekt een gedetailleerde mening van alle dimensies die voor een s
    | ID | De dimensie-id. |
    | Type | Het type dimensie. Mogelijke waarden zijn onder andere Omzetten, Verkeer, Navigatie, Verkeersbronnen, Klanten, Datum of Adobe-productspecifieke afmetingen, zoals AEM, Publiek, Adobe Campaign, Mobiele app, enz. |
    | Beschrijving | Niet alle dimensies hebben beschrijvingen. |
-   | Source Connector ingeschakeld | Is deze afmeting toegelaten voor de [ Schakelaar van Adobe Analytics Source voor gegevens van de rapportreeks ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? Met andere woorden, kan deze dimensie naar Customer Journey Analytics worden gemigreerd met behulp van de Analytics Source Connector? |
+   | Source Connector ingeschakeld | Is deze afmeting toegelaten voor de [ Schakelaar van Adobe Analytics Source voor gegevens van de rapportreeks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? Met andere woorden, kan deze dimensie naar Customer Journey Analytics worden gemigreerd met behulp van de Analytics Source Connector? |
 
 1. Bepaal welke dimensies handig zijn om te migreren naar CJA.
 
@@ -153,7 +153,7 @@ Dit scherm verstrekt een gedetailleerde die mening van alle metriek voor een spe
    | ID | De metrische id. |
    | Type | Het type metrisch. Mogelijke waarden zijn onder andere Omzetten, Verkeer, Navigatie, Verkeersbronnen, Klanten, Datum of Adobe-productspecifieke afmetingen, zoals AEM, Publiek, Adobe Campaign, Mobiele app, enz. |
    | Beschrijving | Niet alle dimensies hebben beschrijvingen. |
-   | Source Connector ingeschakeld | Is dit metrisch toegelaten voor de [ Schakelaar van Adobe Analytics Source voor gegevens van de rapportreeks ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? Met andere woorden, kan deze metrische waarde naar Customer Journey Analytics worden gemigreerd met behulp van de Analytics Source Connector? |
+   | Source Connector ingeschakeld | Is dit metrisch toegelaten voor de [ Schakelaar van Adobe Analytics Source voor gegevens van de rapportreeks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? Met andere woorden, kan deze metrische waarde naar Customer Journey Analytics worden gemigreerd met behulp van de Analytics Source Connector? |
 
 1. Bepaal welke maatstaven handig zijn voor migratie naar CJA.
 

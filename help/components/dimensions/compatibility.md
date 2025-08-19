@@ -1,16 +1,16 @@
 ---
-title: Compatibiliteit met analytische Dimensionen
+title: Compatibiliteit met analytische afmetingen
 description: Referentie voor analytische afmetingen en rapporten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 6%
 
 ---
 
-# Compatibiliteit met analytische Dimensionen
+# Compatibiliteit met analytische afmetingen
 
 Deze pagina maakt een lijst van [ dimensies ](overview.md) die in hun respectieve mogelijkheden van Analytics worden gesteund.
 
@@ -18,9 +18,9 @@ Deze pagina maakt een lijst van [ dimensies ](overview.md) die in hun respectiev
 >
 >Namen, classificaties en kenmerken van aangepaste variabelen worden in deze lijst weggelaten. Deze dimensiepunten zijn specifiek voor individuele rapportreeksen.
 
-## Dimensionen ondersteund in Analysis Workspace
+## Dimensies die worden ondersteund in Analysis Workspace
 
-| Naam Dimension (zichtbaar in de gebruikersinterface voor analyse) | Dimension-id (wordt gebruikt in API-aanvragen) |
+| Dimension-naam (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |---|---|
 | Analyses voor doel | `targetraw` |
 | Soorten publiek-id | `mcaudiences` |
@@ -146,7 +146,7 @@ Deze pagina maakt een lijst van [ dimensies ](overview.md) die in hun respectiev
 
 ## Afmetingen met behoud van inhoud worden alleen ondersteund in Analysis Workspace
 
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
+| Dimension-naam (zichtbaar in analysegebruikersinterface) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Activity Map XY | `clickmapxy` |
 | Mediasessie-id | `videosessionid` |
@@ -157,9 +157,9 @@ Deze pagina maakt een lijst van [ dimensies ](overview.md) die in hun respectiev
 
 ## Afmetingen waarbij de inhoud behouden blijft, ondersteund door Analysis Workspace
 
-### Video (de streamingmedia-verzameling)
+### Video (streaming media services)
 
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
+| Dimension-naam (zichtbaar in analysegebruikersinterface) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | [ Inhoud ](sm-core.md) | `video` |
 | [ Segment van de Inhoud ](sm-core.md) | `videosegment` |
@@ -209,9 +209,9 @@ Deze pagina maakt een lijst van [ dimensies ](overview.md) die in hun respectiev
 
 ### Adobe Social
 
-Adobe Social is met pensioen.
+Adobe Social is uitgeschakeld.
 
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
+| Dimension-naam (zichtbaar in analysegebruikersinterface) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Voorwaarden | `socialterm` |
 | Sociale platforms/eigenschappen | `socialcontentprovider` |
@@ -226,14 +226,14 @@ Adobe Social is met pensioen.
 | Eigendom van eigenschap versus toepassing | `socialownedpropertypropertyvsapp` |
 | Eigenschapnaam in eigendom | `socialownedpropertyname` |
 | Eigendom van definitie versus Post | `socialowneddefinitionpropertyvspost` |
-| Eigen definitietype | `socialowneddefinitioninsighttype` |
-| Waarde van eigen definitietoezicht | `socialowneddefinitioninsightvalue` |
+| Insight-type voor eigen definitie | `socialowneddefinitioninsighttype` |
+| Insight-waarde voor eigen definitie | `socialowneddefinitioninsightvalue` |
 | Eigen definitiemetrisch | `socialowneddefinitionmetric` |
 | Element | `socialmediaid` |
 
 ### Mobile SDK
 
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
+| Dimension-naam (zichtbaar in analysegebruikersinterface) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | [ Eerste Datum van de Lancering ](lifecycle-dimensions.md) | `mobileinstalldate` |
 | [ toepassings identiteitskaart ](lifecycle-dimensions.md) | `mobileappid` |
@@ -261,7 +261,7 @@ Adobe Social is met pensioen.
 | [ identiteitskaart van de Plaats ](lifecycle-dimensions.md) | `mobileplaceid` |
 | [ Invoerbaken Ingang Belangrijk ](lifecycle-dimensions.md) | `entrymobilebeaconmajor` |
 | [ Belangrijkste van het Bebakken van de Uitgang ](lifecycle-dimensions.md) | `exitmobilebeaconmajor` |
-| [ Onderliggend baken van de Ingang 0&rbrace; ](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
+| [ Onderliggend baken van de Ingang 0} ](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
 | [ de Kleine Korte Kleine Beacon van de Uitgang ](lifecycle-dimensions.md) | `exitmobilebeaconminor` |
 | [ Ingangsbaken UUID ](lifecycle-dimensions.md) | `entrymobilebeaconuuid` |
 | [ de Beacon UUID van het Beken van de Uitgang ](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |
@@ -270,25 +270,25 @@ Adobe Social is met pensioen.
 
 ### Adobe Advertising Cloud (AMO)
 
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
+| Dimension-naam (zichtbaar in analysegebruikersinterface) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | AMO EF-ID | `amo_ef_id` |
 | AMO-id | `amo_cid` |
 
 ### Activity Map
 
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
+| Dimension-naam (zichtbaar in analysegebruikersinterface) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
-| [ verbinding van de Activity Map door Gebied ](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
-| [ Gebied van de Activity Map ](activity-map-region.md) | `clickmapregion` |
-| [ Verbinding van de Activity Map ](activity-map-link.md) | `clickmaplink` |
-| [ Pagina van de Activity Map ](activity-map-page.md) | `clickmappage` |
+| [ de Verbinding van Activity Map door Gebied ](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [ Activity Map Gebied ](activity-map-region.md) | `clickmapregion` |
+| [ Verbinding van Activity Map ](activity-map-link.md) | `clickmaplink` |
+| [ de Pagina van Activity Map ](activity-map-page.md) | `clickmappage` |
 
 ### Nielsen Integration
 
-Voor meer informatie over hoe te om deze integratie uit te voeren, zie de [ Uitbreiding Nielsen ](https://exchange.adobe.com/apps/ec/101361) op de Adobe Exchange.
+Voor meer informatie over hoe te om deze integratie uit te voeren, zie de [ Uitbreiding Nielsen ](https://exchange.adobe.com/apps/ec/101361) op Adobe Exchange.
 
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
+| Dimension-naam (zichtbaar in analysegebruikersinterface) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Nielsen AdModel | `nielsenadmodel` |
 | Nielsen Segment C | `nielsensegmentc` |
@@ -309,7 +309,7 @@ Voor meer informatie over hoe te om deze integratie uit te voeren, zie de [ Uitb
 
 ### Adobe Experience Manager (AEM)
 
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
+| Dimension-naam (zichtbaar in analysegebruikersinterface) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Element-id | `aemassetid` |
 | Source-element | `aemassetsource` |
@@ -319,6 +319,6 @@ Voor meer informatie over hoe te om deze integratie uit te voeren, zie de [ Uitb
 
 ### Adobe Campaign
 
-| Naam van Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
+| Dimension-naam (zichtbaar in analysegebruikersinterface) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Uitgevoerde levering-id van Adobe Campaign | `ac_delivery_internal_name` |

@@ -1,27 +1,27 @@
 ---
-description: U kunt Documenten Cloud weergeven in Adobe Analytics
-title: Analyse van Document Cloud configureren
+description: U kunt Document Cloud-gegevens weergeven in Adobe Analytics
+title: Document Cloud Analytics configureren
 feature: Admin Tools
 exl-id: 4bcc5be7-cad1-4969-9d19-0db8f3f6a374
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 # Document Cloud configureren met Adobe Analytics
 
-U kunt Document Cloud Analytics toelaten om PDF-specifieke afmetingen en metriek ter beschikking te stellen in uw rapportreeks.
+U kunt Document Cloud Analytics inschakelen om PDF-specifieke afmetingen en meetgegevens beschikbaar te maken in uw rapportenpakket.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Document Cloud Management]**
 
-De volgende opties van het Beheer van het Document Cloud zijn beschikbaar wanneer het uitgeven van een rapportreeks:
+De volgende Document Cloud Management-opties zijn beschikbaar wanneer u een rapportsuite bewerkt:
 
 * [!UICONTROL **Document Cloud die**] meldt
 
-  De rapporten specifiek voor de het stromen Inzameling van Media zijn beschikbaar op de Media die pagina melden. Voor meer informatie over Media die melden, zie [ Document Cloud vormen rapporterend ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
+  Rapporten specifiek voor het stromen de media diensten zijn beschikbaar op de Media die pagina melden. Voor meer informatie over Media die melden, zie [ Document Cloud die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md) meldt vormen.
 
-* [!UICONTROL **Classificaties van het Document Cloud**]
+* [!UICONTROL **de Classificaties van Document Cloud**]
 
-  Classificaties die specifiek zijn voor Document Cloud zijn beschikbaar op de pagina Classificaties Document Cloud. Voor informatie over Classificaties, zie [ classificaties van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Classificaties die specifiek zijn voor Document Cloud zijn beschikbaar op de pagina Classificaties van Document Cloud. Voor informatie over Classificaties, zie [ classificaties van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).

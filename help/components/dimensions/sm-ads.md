@@ -1,24 +1,24 @@
 ---
-title: Streaming media en afmetingen
+title: Streaming mediaservices en dimensies
 description: Beschikbare afmetingen wanneer u [!UICONTROL Media Ads] inschakelt voor een rapportsuite.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
-# Streaming media en afmetingen
+# Streaming mediaservices en dimensies
 
 *Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Ads] voor een rapportreeks toelaat. Zie [ Streaming Media en metriek ](../metrics/sm-ads.md) voor beschikbare metriek.*
 
-Streaming media en dimensies bieden extra rapportagefunctionaliteit voor gegevensverzameling via bibliotheken voor het streamen van media. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+Streaming-mediaservices en -dimensies bieden extra rapportagefunctionaliteit voor gegevensverzameling via Streaming-mediaservices-bibliotheken. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Ads]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
-| Naam Dimension | Beschrijving | Verzonden met | Variabele van contextgegevens |
+| Dimension-naam | Beschrijving | Verzonden met | Variabele van contextgegevens |
 | --- | --- | --- | --- |
 | Advertentie | De unieke id voor de advertentie. | Advertentie starten, en sluiten | `a.media.ad.name` |
 | Advertentienaam (variabele) | De vriendelijke naam van de advertentie. Er is ook een classificatiedimensie met de naam &#39;Advertentienaam&#39; beschikbaar, die een soortgelijk doel biedt. Deze dimensie en de classificatie worden behandeld als twee verschillende dimensies. | Advertentie starten, en sluiten | `a.media.ad.friendlyName` |
@@ -31,14 +31,14 @@ Wanneer u **[!UICONTROL Media Ads]** onder [ Media die ](/help/admin/admin/c-man
 
 {style="table-layout:auto"}
 
-Naast de bovenstaande afmetingen worden met Adobe automatisch de volgende indelingsafmetingen gemaakt. U moet classificatiegegevens uploaden om rapporten te bekijken die deze afmetingen gebruiken.
+Naast de bovenstaande afmetingen maakt Adobe automatisch de volgende classificatieafmetingen. U moet classificatiegegevens uploaden om rapporten te bekijken die deze afmetingen gebruiken.
 
 | Classificatienaam | Bovenliggende dimensie | Beschrijving |
 | --- | --- | --- |
 | Element-id | [ Inhoud ](sm-core.md) | De unieke id voor de inhoud van het media-element. Voorbeelden zijn de aflevering-id van de tv-serie, de id van het filmelement of de livegebeurtenis. Deze id&#39;s worden doorgaans afgeleid van metagegevensautoriteiten zoals EIDR, TMS/Gracenote, Rovi of van andere bedrijfseigen of interne systemen. |
 | Inhoudsbeoordeling | [ Inhoud ](sm-core.md) | De classificatie zoals gedefinieerd door de ouderlijke richtlijnen van TV. |
-| Eerste luchtdatum | [ Inhoud ](sm-core.md) | De datum waarop de inhoud voor het eerst op de televisie is uitgezonden. Aangezien deze classificatiedimensie een tekenreeks is, is elke datumnotatie toegestaan. Adobe raadt aan een consistente datumnotatie te gebruiken, zoals `YYYY-MM-DD` . |
-| Eerste digitale datum | [ Inhoud ](sm-core.md) | De datum waarop de inhoud voor het eerst via een digitaal kanaal of platform is verzonden. Aangezien deze classificatiedimensie een tekenreeks is, is elke datumnotatie toegestaan. Adobe raadt aan een consistente datumnotatie te gebruiken, zoals `YYYY-MM-DD` . |
+| Eerste luchtdatum | [ Inhoud ](sm-core.md) | De datum waarop de inhoud voor het eerst op de televisie is uitgezonden. Aangezien deze classificatiedimensie een tekenreeks is, is elke datumnotatie toegestaan. Adobe raadt u aan een consistente datumnotatie te gebruiken, zoals `YYYY-MM-DD` . |
+| Eerste digitale datum | [ Inhoud ](sm-core.md) | De datum waarop de inhoud voor het eerst via een digitaal kanaal of platform is verzonden. Aangezien deze classificatiedimensie een tekenreeks is, is elke datumnotatie toegestaan. Adobe raadt u aan een consistente datumnotatie te gebruiken, zoals `YYYY-MM-DD` . |
 | Ad-lengte | Advertentie | De lengte van de video en, in seconden. |
 | Advertentienaam | Advertentie | De vriendelijke naam van de advertentie. Het is het indelingsequivalent van &#39;Ad name (variable)&#39;. |
 | Creative-id | Advertentie | De id van de advertentie. |

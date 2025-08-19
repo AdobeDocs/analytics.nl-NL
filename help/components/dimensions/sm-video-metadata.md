@@ -1,31 +1,31 @@
 ---
-title: Metagegevensafmetingen voor streaming media
+title: Metagegevens van videoservices streamen
 description: Beschikbare afmetingen wanneer u [!UICONTROL Video Metadata] inschakelt voor een rapportsuite.
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# Metagegevensafmetingen voor streaming media
+# Metagegevens van videoservices streamen
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Video Metadata] voor een rapportreeks toelaat. Zie [ Streaming de metriek van videometrische gegevens van Media ](../metrics/sm-video-metadata.md) voor beschikbare metriek.*
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Video Metadata] voor een rapportreeks toelaat. Zie [ Streaming media diensten videometriek van metriek ](../metrics/sm-video-metadata.md) voor beschikbare metriek.*
 
-Streaming media en dimensies bieden extra rapportagefunctionaliteit voor gegevensverzameling via bibliotheken voor het streamen van media. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+Streaming media services en dimensies bieden aanvullende rapportagefunctionaliteit voor gegevensverzameling via bibliotheken voor het verzamelen van streaming mediaservices. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
 Wanneer u **[!UICONTROL Video Metadata]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
-| Naam Dimension | Beschrijving | Verzonden met | Variabele van contextgegevens |
+| Dimension-naam | Beschrijving | Verzonden met | Variabele van contextgegevens |
 | --- | --- | --- | --- |
 | Toevoegen | Het type geladen advertentie. | TBD | `a.media.adLoad` |
 | Dagdeel | De tijd van de dag waarop de inhoud werd uitgezonden of afgespeeld. Elke tekenreekswaarde wordt ondersteund. | Media starten, Media sluiten | `a.media.dayPart` |
 | Episode | Het afleveringsnummer. | Media starten, Media sluiten | `a.media.episode` |
 | Type mediatarent | Het type diervoeder. | Media starten, Media sluiten | `a.media.feed` |
 | Genre | Het type of de groep inhoud zoals gedefinieerd door de inhoudsproducent. Deze dimensie ondersteunt meerdere waarden, gescheiden door komma&#39;s. | Media starten, Media sluiten | `a.media.genre` |
-| MVPD | De MVPD zoals opgegeven door verificatie van de Adobe. | Media starten, Media sluiten | `a.media.pass.mvpd` |
+| MVPD | De MVPD zoals opgegeven door Adobe-verificatie. | Media starten, Media sluiten | `a.media.pass.mvpd` |
 | Netwerk | De netwerk- of kanaalnaam | Media starten, Media sluiten | `a.media.network` |
 | Seizoen | Het seizoensnummer waartoe de show behoort. | Media starten, Media sluiten | `a.media.season` |
 | Tonen | De naam van het programma of de serie. | Media starten, Media sluiten | `a.media.show` |

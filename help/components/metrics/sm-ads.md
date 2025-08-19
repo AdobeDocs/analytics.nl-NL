@@ -1,20 +1,20 @@
 ---
-title: Streaming media en meetgegevens
+title: Streaming-mediaservices en meetgegevens
 description: De beschikbare metriek wanneer u [!UICONTROL Media Ads] voor een rapportreeks toelaat.
 feature: Metrics
 exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
 
-# Streaming media en meetgegevens
+# Streaming-mediaservices en meetgegevens
 
-*Deze pagina beschrijft de beschikbare metriek wanneer u [!UICONTROL Media Ads] voor een rapportreeks toelaat. Zie [ Streaming Media en dimensies ](../dimensions/sm-ads.md) voor beschikbare afmetingen.*
+*Deze pagina beschrijft de beschikbare metriek wanneer u [!UICONTROL Media Ads] voor een rapportreeks toelaat. Zie [ Streaming media diensten en dimensies ](../dimensions/sm-ads.md) voor beschikbare dimensies.*
 
-Streaming media en metriek bieden aanvullende rapportfunctionaliteit voor gegevensverzameling via bibliotheken voor het streamen van mediaverzamelingen. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+Streaming-mediaservices en metriek bieden aanvullende rapportagefuncties voor gegevensverzameling via bibliotheken met streaming-mediaservices. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Ads]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
 

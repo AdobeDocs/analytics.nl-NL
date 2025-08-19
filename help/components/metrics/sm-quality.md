@@ -1,20 +1,20 @@
 ---
-title: Metrische waarden voor de stroomkwaliteit van media
+title: Kwaliteitsgegevens voor streaming mediaservices
 description: De beschikbare metriek wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat.
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
 
-# Metrische waarden voor de stroomkwaliteit van media
+# Kwaliteitsgegevens voor streaming mediaservices
 
-*Deze pagina beschrijft de beschikbare metriek wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat. Zie [ het stromen de kwaliteitsdimensies van Media ](../dimensions/sm-quality.md) voor beschikbare dimensies.*
+*Deze pagina beschrijft de beschikbare metriek wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat. Zie {de kwaliteitsdimensies van 0} Streaming van de media diensten [ voor beschikbare afmetingen.](../dimensions/sm-quality.md)*
 
-De metriek van de kwaliteit van de Media van het stromen verstrekt extra rapporteringsfunctionaliteit aan gegevensinzameling door de bibliotheken van de de inzamelingsmedia van het stromen. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Streaming Media Collection]** vereist. Neem contact op met het accountteam van de Adobe voor meer informatie.
+Kwaliteitsgegevens voor streaming mediaservices bieden aanvullende rapportagefunctionaliteit voor gegevensverzameling via bibliotheken met streaming-mediaservices. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
 Wanneer u **[!UICONTROL Media Quality]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
 
@@ -31,4 +31,4 @@ Wanneer u **[!UICONTROL Media Quality]** onder [ Media die ](/help/admin/admin/c
 | Vervallen streams die door het frame zijn beïnvloed | Een Booleaanse waarde die wordt geactiveerd wanneer frames tijdens een afspeelsessie worden neergezet. | Media sluiten | `a.media.qoe.droppedFrames` |
 | Fout bij streams | Een Booleaanse waarde die wordt geactiveerd wanneer tijdens het afspelen van een video een fout optreedt. | Media sluiten | `a.media.qoe.error` |
 | Foutgebeurtenissen | Een geheel getal dat het totale aantal fouten vertegenwoordigt dat tijdens een afspeelsessie is aangetroffen. | Media sluiten | `a.media.qoe.errorCount` |
-| Begintijd | De hoeveelheid tijd die nodig is om een video te starten, in milliseconden. Deze waarde wordt in seconden omgezet en opgeslagen door Adobe. | Media sluiten | `a.media.qoe.timeToStart` |
+| Begintijd | De hoeveelheid tijd die nodig is om een video te starten, in milliseconden. Adobe converteert deze waarde en slaat deze op in seconden. | Media sluiten | `a.media.qoe.timeToStart` |

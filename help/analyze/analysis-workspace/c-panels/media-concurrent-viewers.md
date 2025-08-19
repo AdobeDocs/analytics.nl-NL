@@ -4,9 +4,9 @@ description: Leer het deelvenster Mediagelijktijdige viewers in Analysis Workspa
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -35,14 +35,14 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Medium gezamenlijke kijkers in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**._<br/>_zie [ Medium gezamenlijke kijkers ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert het Medium gezamenlijke kijkers in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_zie [ Medium gezamenlijke kijkers ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Het deelvenster Mediapubliek met een gemiddeld aantal minuten is alleen beschikbaar voor klanten die de invoegtoepassing voor de verzameling van streaming media voor Adobe Analytics hebben aangeschaft.
+>Het deelvenster Medium voor het aantal minuten publiek is alleen beschikbaar voor klanten die Adobe Analytics voor de invoegtoepassing voor streaming media hebben aangeschaft.
 >
 >Neem contact op met uw Adobe Sales-vertegenwoordiger of Adobe-accountteam voor meer informatie.
 >
@@ -68,7 +68,7 @@ Een deelvenster **[!UICONTROL Media concurrent viewers]** gebruiken:
 
 1. Maak een deelvenster **[!UICONTROL Media concurrent viewers]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
 
-1. Selecteer een gegevensweergave voor het deelvenster waarvoor componenten zijn geconfigureerd in de verzameling Streaming media.
+1. Selecteer een gegevensweergave voor het deelvenster waarin componenten zijn geconfigureerd via Adobe Analytics voor Streaming Media Add-on.
 
 1. Specificeer de [ input ](#panel-input) voor het paneel.
 
@@ -131,8 +131,8 @@ In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbr
 >[!MORELIKETHIS]
 >
 >[ creeer een paneel ](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
->&#x200B;>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
+>>[De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
+>>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
