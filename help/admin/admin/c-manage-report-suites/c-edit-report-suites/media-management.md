@@ -40,4 +40,4 @@ De volgende opties voor mediabeheer zijn beschikbaar wanneer u een rapportsuite 
 
   Classificaties die specifiek zijn voor de afmetingen van streaming mediaservices, zijn beschikbaar op de pagina [!UICONTROL Media Classifications] . Zij werken zo gelijkaardig aan [ classificaties van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) beschikbaar voor omzettingsvariabelen. Als u bepaalde componenten onder [!UICONTROL Media Reporting] inschakelt, worden er automatisch classificatiedimensies voor u gemaakt. U kunt deze interface gebruiken om uw eigen classificatieafmetingen te maken of classificatiegegevens te uploaden.
 
-Voor algemene informatie over het opnemen van het stromen media gegevens in Adobe Analytics, zie [ Adobe die media de diensten overzicht ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview) stromen.
+Voor algemene informatie over het opnemen van het stromen media gegevens in Adobe Analytics, zie [ Adobe die media de diensten overzicht ](https://experienceleague.adobe.com/nl/docs/media-analytics/using/media-overview) stromen.
