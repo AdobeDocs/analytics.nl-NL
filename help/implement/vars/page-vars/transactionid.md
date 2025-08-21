@@ -4,24 +4,22 @@ description: Gebruik deze variabele om online en offline gegevens aan elkaar te 
 feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fc52bfaa13f7fc93ef53aa49746d432676b3d55f
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
 
 # transactionID
 
-De `transactionID` variabele identificeert uniek een transactie zodat kan de slag aan gegevens verbinden die door Gegevensbronnen worden geupload. Deze variabele is nuttig in gevallen waarin u gegevens uit andere kanalen wilt gebruiken en deze aan gegevens wilt koppelen die met AppMeasurement zijn verzameld.
+De `transactionID` variabele identificeert uniek een transactie zodat de slag afmetingswaarden aan gegevens kan verstrekken die door [ gegevensbronnen van identiteitskaart van de Transactie ](/help/import/data-sources/transactionid.md) worden geupload. Deze variabele is handig wanneer u de gegevens van offlinekanalen wilt invullen met waarden die zijn verzameld op basis van de gegevens van het onlinekanaal.
 
 >[!NOTE]
 >
 >Controleer of [!UICONTROL Transaction ID Storage] is ingeschakeld in een rapportsuite voordat u deze variabele gebruikt. Zie [ Algemene Montages van de Rekening ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de Admin gebruikersgids voor meer informatie.
 
-Wanneer u `transactionID` instelt op een hit, maakt Adobe een momentopname van alle variabelen van Analytics die op dat moment zijn ingesteld of aanwezig zijn. Gegevens die via gegevensbronnen met een overeenkomende transactie-id zijn geüpload, zijn permanent gekoppeld aan die variabele waarden.
-
-Adobe onthoudt alle waarden van de transactie-id (gekoppeld en ongekoppeld) gedurende maximaal 25 maanden.
+Wanneer u `transactionID` instelt op een hit, maakt Adobe een momentopname van alle variabelen van Analytics die op dat moment zijn ingesteld of aanwezig zijn. Zie [ de gegevensbronnen van identiteitskaart van de Transactie ](/help/import/data-sources/transactionid.md) voor de lijst van dimensies inbegrepen in de momentopname. Adobe onthoudt alle waarden van de transactie-id (gekoppeld en ongekoppeld) gedurende maximaal 25 maanden.
 
 ## Transactie-id met de Web SDK
 
