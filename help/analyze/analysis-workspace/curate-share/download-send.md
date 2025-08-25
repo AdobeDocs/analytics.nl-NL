@@ -4,9 +4,9 @@ title: Projecten en gegevens downloaden
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 281dbf68c7a3f1afc35d775c731904bd9c413d6a
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -21,33 +21,42 @@ U kunt Analysis Workspace-projecten en -gegevens downloaden naar uw lokale appar
 
 De extra methodes om de gegevens van Adobe Analytics uit te voeren worden beschreven in de [ gids van de Uitvoer ](/help/export/home.md).
 
-## Downloaden als CSV of PDF {#download-project}
+## Een project downloaden als PDF- of CSV-bestand {#download-project}
 
 ![ het drop-down menu van het Project met de benadrukte opties van CSV van de Download en van PDF van de Download.](assets/download-project.png)
 
+### Een project downloaden als PDF-bestand
+
 Houd rekening met het volgende wanneer u een project downloadt als een PDF:
 
-* Het downloaden kan enkele minuten duren, omdat het project opnieuw wordt uitgevoerd op Adobe-servers en vervolgens wordt gerenderd in PDF-indeling. Laat het project pas over nadat het project in uw browser is gedownload.  U kunt wijzigingen in het project blijven aanbrengen terwijl de download wordt gerenderd. Als een PDF langer dan 5 minuten duurt om terug te geven, wordt u ertoe aangezet om [ PDF ](../curate-share/send-schedule-files.md) in plaats daarvan te e-mailen.
+* Laat het project pas over nadat het project naar het werkstation is gedownload. Het downloaden kan enkele minuten duren, aangezien het project opnieuw wordt uitgevoerd op Adobe-servers, zodat de PDF kan renderen. U kunt wijzigingen in het project blijven aanbrengen terwijl het downloaden wordt uitgevoerd. Als een PDF langer dan 5 minuten duurt om terug te geven, wordt u ertoe aangezet om [ PDF ](../curate-share/send-schedule-files.md) in plaats daarvan te e-mailen.
 * Downloads worden weergegeven als één pagina zonder paginering.
-* De PDF bevat wat zichtbaar is op de browserpagina in Analysis Workspace. U moet de grootte van visualisaties en deelvensters van aangepaste grootte automatisch aanpassen om afgekapte inhoud te voorkomen. Selecteer ![ resize ](/help/assets/icons/Resize.svg) aan auto-grootte een douane-gerangschikte visualisatie of een paneel.
-* [ Hyperlinks ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) binnen vrije vormlijsten als hyperlinks in gedownloade PDF.
-
-
+* De PDF bevat wat zichtbaar is op de browserpagina in Analysis Workspace. Om afgekapte inhoud te vermijden, uitgezocht ![ vergroot ](/help/assets/icons/Resize.svg) aan auto-grootte om het even welke douane-gerangschikte visualisaties of panelen.
+* [ Hyperlinks ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) binnen vrije vormlijsten zijn klikbaar in gedownloade PDF.
 
 Een project downloaden als een PDF-bestand:
 
 1. Selecteer **[!UICONTROL Project]** > **[!UICONTROL Download PDF]** .
-Een groene bar met het bericht ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Your download has been requested. Please wait.]** wordt getoond.
 
-1. Zodra uw download klaar is, is een groene bar met het bericht ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Naam van het project *PDF klaar.]**&#x200B;wordt weergegeven.
-Selecteer&#x200B;**[!UICONTROL Download]**&#x200B;om de PDF te downloaden. Hoe de PDF precies wordt weergegeven of gedownload is afhankelijk van uw browserconfiguratie voor het verwerken van PDF-documenten.
+   Een groene bar wordt getoond met het volgende bericht: ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Your download has been requested. Please wait.]**
 
+1. Zodra uw download klaar is, verschijnt een groene bar met het volgende bericht: ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Naam van het project *PDF is klaar.]**
 
-Een project downloaden als een CSV-bestand:
+1. Selecteer **[!UICONTROL Download]** op de groene balk.
 
-* Selecteer **[!UICONTROL Project]** > **[!UICONTROL Download CSV]** . Het project wordt rechtstreeks gedownload naar de downloadmap die is geconfigureerd als onderdeel van uw browserconfiguratie. De dossier - naam wordt samengesteld uit *projectnaam* - *naam van de rapportreeks* - *datum*, bijvoorbeeld `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`.
+   Afhankelijk van uw browserinstellingen wordt de PDF automatisch gedownload naar de map die u eerder hebt geconfigureerd, of wordt u gevraagd een map te kiezen waarin de PDF wordt gedownload.
 
-## Kopiëren naar klembord {#copy-data}
+   De dossier - naam wordt samengesteld uit *projectnaam* - *naam van de rapportreeks* - *datum*. Bijvoorbeeld `Example Project - Omni-Channel - Luma - Jun 30, 2025.pdf` .
+
+### Een project downloaden als een CSV-bestand
+
+1. Selecteer **[!UICONTROL Project]** > **[!UICONTROL Download CSV]** .
+
+   Afhankelijk van de browserinstellingen wordt het CSV-bestand automatisch gedownload naar een map die u eerder hebt geconfigureerd, of wordt u gevraagd een map te kiezen waarin het CSV-bestand wordt gedownload.
+
+   De dossier - naam wordt samengesteld uit *projectnaam* - *naam van de rapportreeks* - *datum*. Bijvoorbeeld `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv` .
+
+## Gegevens in een visualisatie kopiëren naar het klembord {#copy-data}
 
 Met de optie **[!UICONTROL Copy to clipboard]** in het contextmenu kunt u snel gegevens van Analysis Workspace kopiëren en de gegevens in een hulpprogramma van derden plakken.
 
@@ -61,7 +70,7 @@ Met de optie **[!UICONTROL Copy to clipboard]** in het contextmenu kunt u snel g
 
 ![ de selectie van het Exemplaar aan klembordoptie. ](assets/copy-clipboard.png){zoomable="yes"}
 
-## Downloaden als CSV {#download-data}
+## Gegevens downloaden in een visualisatie als CSV-bestand {#download-data}
 
 Met de download als CSV-opties in het contextmenu kunt u een gegevenslijst of de gegevensbron van een visualisatie als CSV downloaden.
 
@@ -79,7 +88,7 @@ Daartoe:
 
 ![ de gegevens van de Download als optie CSV.](assets/download-data-as-csv.png)
 
-## Items als CSV downloaden {#download-items}
+## Items downloaden als een CSV-bestand {#download-items}
 
 Als u meer dan de zichtbare 400 rijen van gegevens in een lijst wilt analyseren, de uitgezochte **punten van de Download als CSV (_naam van Dimension_)** van het contextmenu van de lijstkopbal of om het even welke rij. Met deze optie exporteert u maximaal 50.000 dimensieitems (op basis van de tabelsortering) voor de geselecteerde dimensie, met sorteeropties en toegepaste filters. Als u deze optie boven aan de tabel selecteert, wordt de eerste afmeting in de tabel geëxporteerd.
 
@@ -108,8 +117,8 @@ De volgende functies van een vrije-vormtabel worden toegepast op het gedownloade
 
 Terwijl het bestand wordt gedownload, worden de volgende meldingen weergegeven:
 
-* Een blauwe **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gevraagd._ x _% volledig]**&#x200B;die op de vooruitgang wijzen. Selecteer **[!UICONTROL Cancel download]**&#x200B;als u het downloaden wilt annuleren. Selecteer ![ CrossSize100 ](/help/assets/icons/CrossSize100.svg) als u het bericht wilt sluiten, dat niet de download annuleert.
-* Een groene **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gedownload]**&#x200B;voltooiingsbericht zodra de dossierdownload wordt voltooid. Het bestand wordt gedownload naar de downloadmap die voor uw browser is geconfigureerd.
+* Een blauwe **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gevraagd._ x _% volledig]**die op de vooruitgang wijzen. Selecteer **[!UICONTROL Cancel download]**als u het downloaden wilt annuleren. Selecteer ![ CrossSize100 ](/help/assets/icons/CrossSize100.svg) als u het bericht wilt sluiten, dat niet de download annuleert.
+* Een groene **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gedownload]**voltooiingsbericht zodra de dossierdownload wordt voltooid. Het bestand wordt gedownload naar de downloadmap die voor uw browser is geconfigureerd.
 
 Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elke extra download in de wachtrij wordt geplaatst totdat de vorige download is voltooid.
 
@@ -228,6 +237,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=nl-NL) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->
