@@ -4,9 +4,9 @@ title: Totalen
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -33,11 +33,11 @@ In Freeform-tabellen wordt op elk uitsplitsingsniveau een totale rij weergegeven
 Onder ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Column settings]**, zijn er opties aan **[!UICONTROL Show totals]** en **[!UICONTROL Show grand total]**. Als deze instellingen niet zijn ingeschakeld, worden de totalen uit de tabel verwijderd. Dit is mogelijk het geval als totalen onzinnig zijn.
 
 
-[ Statische rij ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) gedraagt zich verschillend, en wordt gecontroleerd gebruikend ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Row Settings]**.
+In een vrije vormlijst die [ statische rijen ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) bevat, gedragen de totalen zich verschillend. En wordt gecontroleerd gebruikend ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Row Settings]**.
 
 | Optie | Beschrijving |
 |---|---|
-| **[!UICONTROL Show sum of current rows as the total]** | Een som van de rijen in de tabel aan de clientzijde weergeven. Dit totaal **&#x200B;**&#x200B;dedupliceert metriek zoals zittingen of personen niet. |
+| **[!UICONTROL Show sum of current rows as the total]** | Een som van de rijen in de tabel aan de clientzijde weergeven. Dit totaal **** dedupliceert metriek zoals zittingen of personen niet. |
 | **[!UICONTROL Show grand total]** | Een som aan de serverzijde weergeven. Dit totaal dedupliceert metriek zoals sessies of personen. |
 
 Zie [ Dynamische versus statische afmetingspunten in vrije vormlijsten ](column-row-settings/manual-vs-dynamic-rows.md).
