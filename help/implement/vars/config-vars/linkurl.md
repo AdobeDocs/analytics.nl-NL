@@ -4,18 +4,18 @@ description: Overschrijf de automatisch gegenereerde link-URL die AppMeasurement
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
 
 # linkURL
 
-Wanneer een verbinding het volgen vraag naar Adobe wordt verzonden, ontdekken de servers van de gegevensinzameling automatisch URL. Gebruik de variabele `linkURL` om de gedetecteerde URL te overschrijven.
+Wanneer een koppelingenvolgvraag naar Adobe wordt verzonden, detecteert AppMeasurement de URL waarop is geklikt. Deze URL helpt het verbindingstype, zoals downloadverbindingen en uitgangsverbindingen bepalen. Gebruik de variabele `linkURL` om de gedetecteerde URL te overschrijven.
 
-Er zijn geen dimensies in Analysis Workspace die rapporteren over deze variabele. Het bevolkt de `page_event_var1` kolom in [ het voer van Gegevens ](/help/export/analytics-data-feed/data-feed-overview.md).
+Er zijn geen dimensies in Analysis Workspace die rapporteren over deze variabele. Het bevolkt de `page_event_var1` kolom in [ het voer van Gegevens ](/help/export/analytics-data-feed/data-feed-overview.md). Als u URL van een klikte verbinding wilt volgen, adviseert Adobe gebruikend een douanevariabele, zoals a [ Prop ](../page-vars/prop.md).
 
 ## URL koppelen met de Web SDK
 
@@ -30,7 +30,7 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 
 ## s.linkURL in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
-De variabele `s.linkURL` is een tekenreeks die de URL van de browser bevat toen op de koppeling werd geklikt. Deze variabele vult geen dimensies in die beschikbaar zijn in de rapportage.
+De variabele `s.linkURL` is een tekenreeks die de volledige URL van de aangeklikte koppeling bevat. Deze variabele vult geen dimensies in die beschikbaar zijn in de rapportage.
 
 ```js
 s.linkURL = "https://example.com";

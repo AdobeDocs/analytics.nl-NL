@@ -4,14 +4,14 @@ description: Schakel het automatisch bijhouden van koppelingen voor downloadkopp
 feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
-# trackDownLoadLinks
+# trackDownloadLinks
 
 Adobe biedt de mogelijkheid downloadkoppelingen bij te houden zonder handmatig de methode [`tl()`](../functions/tl-method.md) voor elke downloadkoppeling in te stellen. Schakel deze variabele in als u koppelingen automatisch wilt bijhouden voor downloadkoppelingen.
 
@@ -28,7 +28,7 @@ Schakel het selectievakje [!UICONTROL Enable click data collection] in wanneer u
 
 ## Schakel de klikverzameling handmatig implementeren van de Web SDK in of uit
 
-Vorm SDK gebruikend [`clickCollectionEnabled` ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL#clickCollectionEnabled). Het veld is een Booleaanse waarde die bepaalt of gegevens die aan koppelingsklikken zijn gekoppeld, automatisch worden verzameld. De standaardwaarde is `true` . Stel deze waarde in op `false` als u het automatisch bijhouden van koppelingen wilt uitschakelen. Met deze instelling wordt het automatisch bijhouden van koppelingen verwerkt voor zowel download- als afsluitkoppelingen.
+Vorm SDK gebruikend [`clickCollectionEnabled` ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Het veld is een Booleaanse waarde die bepaalt of gegevens die aan koppelingsklikken zijn gekoppeld, automatisch worden verzameld. De standaardwaarde is `true` . Stel deze waarde in op `false` als u het automatisch bijhouden van koppelingen wilt uitschakelen. Met deze instelling wordt het automatisch bijhouden van koppelingen verwerkt voor zowel download- als afsluitkoppelingen.
 
 ```json
 alloy("configure", {
@@ -49,7 +49,7 @@ Klik op het selectievakje om het automatisch bijhouden van downloadkoppelingen i
 
 ## s.trackDownloadLinks in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
-`s.trackDownloadLinks` is een Booleaanse waarde die het automatisch bijhouden van downloadkoppelingen in- of uitschakelt. Als u downloadkoppelingen niet wilt bijhouden of liever handmatig de methode `tl()` aanroepen om downloads bij te houden, stelt u deze variabele in op `false` .
+`s.trackDownloadLinks` is een Booleaanse waarde die het automatisch bijhouden van downloadkoppelingen in- of uitschakelt. Als u downloadkoppelingen niet wilt bijhouden of liever handmatig de methode `tl()` aanroepen om downloads bij te houden, stelt u deze variabele in op `false` . De veranderlijke [ linkDownloadFileTypes ](linkdownloadfiletypes.md) moet ook voor het automatische volgen van de downloadverbinding worden geplaatst om te werken.
 
 ```js
 s.trackDownloadLinks = true;
