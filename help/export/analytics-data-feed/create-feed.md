@@ -355,7 +355,7 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
    +++
 
-1. In de [!UICONTROL **sectie van de Definities van de Kolom van 0} Gegevens {, selecteer het recentste**] Alle Kolommen van Adobe [!UICONTROL **malplaatje in het drop-down menu, dan voltooi de volgende gebieden:**]
+1. In de [!UICONTROL **sectie van de Definities van de Kolom van 0&rbrace; Gegevens &lbrace;, selecteer het recentste**] Alle Kolommen van Adobe [!UICONTROL **malplaatje in het drop-down menu, dan voltooi de volgende gebieden:**]
 
    | Veld | Functie |
    |---------|----------|
