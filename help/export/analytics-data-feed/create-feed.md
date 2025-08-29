@@ -3,9 +3,9 @@ title: Een gegevensfeed maken
 description: Leer hoe u een gegevensfeed maakt en informatie over de bestandsgegevens die aan Adobe moeten worden verstrekt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '4125'
+source-wordcount: '4124'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Naam**] | De naam van de gegevensinvoer. Moet uniek zijn binnen de geselecteerde rapportreeks, en kan tot 255 karakters in lengte zijn. |
+   | [!UICONTROL **Naam**] | De naam van de gegevensinvoer. Moet uniek zijn binnen de geselecteerde rapportreeks, en kan tot 255 karakters in lengte zijn. [Meer informatie](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
    | [!UICONTROL **Reeks van het Rapport**] | De rapportsuite waarop de gegevensinvoer is gebaseerd. Als de veelvoudige gegevensvoer voor de zelfde rapportreeks wordt gecreeerd, moeten zij verschillende kolomdefinities hebben. Alleen bronrapportsuites ondersteunen gegevensfeeds; virtuele rapportsuites worden niet ondersteund. |
    | [!UICONTROL **E-mail wanneer volledig**] | Het e-mailadres dat moet worden gemeld wanneer een feed de verwerking heeft voltooid. Het e-mailadres moet correct zijn opgemaakt. |
    | [!UICONTROL **het interval van het voer**] | Selecteer **Dagelijkse** voor backfill of historische gegevens. De dagelijkse voer bevat een volledige waarde van de dag van gegevens, van middernacht aan middernacht in de tijdzone van de rapportreeks. Selecteer **Uur** voor verdere gegevens (Daily is ook beschikbaar voor verdere voer als u verkiest). Uurfeeds bevatten gegevens van één uur. |
@@ -355,7 +355,7 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
    +++
 
-1. In de **sectie van de Definities van de Kolom van 0&rbrace; Gegevens &lbrace;, selecteer het recentste[!UICONTROL **&#x200B; Alle Kolommen van Adobe &#x200B;**]malplaatje in het drop-down menu, dan voltooi de volgende gebieden:**
+1. In de [!UICONTROL **sectie van de Definities van de Kolom van 0} Gegevens {, selecteer het recentste**] Alle Kolommen van Adobe [!UICONTROL **malplaatje in het drop-down menu, dan voltooi de volgende gebieden:**]
 
    | Veld | Functie |
    |---------|----------|
@@ -404,9 +404,9 @@ U kunt feeds rechtstreeks naar Amazon S3-emmers verzenden. Dit bestemmingstype v
 
 De gebruiker u voor het uploaden van gegevensvoer verstrekt moet de volgende [ toestemmingen ](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) hebben:
 
-* s3:GetObject
-* s3:PutObject
-* s3:PutObjectAcl
+* s3 :GetObject
+* s3 :PutObject
+* s3 :PutObjectAcl
 
   >[!NOTE]
   >

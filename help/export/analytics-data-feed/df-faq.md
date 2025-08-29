@@ -4,9 +4,9 @@ keywords: Gegevensfeed;taak;vóór kolom;na kolom;hoofdlettergevoeligheid
 title: Veelgestelde vragen over gegevensfeeds
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,19 @@ Veelgestelde vragen over gegevensfeeds.
 
 ## Moeten voedernamen uniek zijn?{#unique}
 
-Namen van gegevensdoorvoerbestanden bestaan uit de rapportsuite-id en de datum. Om het even welke twee voer die voor zelfde RSID en datum(s) worden gevormd heeft de zelfde dossiernaam. Als deze feeds op dezelfde locatie worden geleverd, overschrijft het ene bestand het andere. Om te voorkomen dat een bestand wordt overschreven, kunt u geen feed maken die een bestaande feed op dezelfde locatie kan overschrijven.
+Adobe Analytics voorkomt niet dat bestanden met gegevensinvoer worden overschreven.
 
-Als u een feed probeert te maken terwijl een andere feed met dezelfde bestandsnaam bestaat, wordt een foutbericht weergegeven. Overweeg de volgende tijdelijke oorzaken:
+Om te voorkomen dat gegevensdoorvoerbestanden worden overschreven, raden we aan dat alle gegevensdoorvoerbestanden die naar dezelfde locatie worden verzonden, unieke bestandsnamen hebben.
+
+De namen van de gegevensdoorvoerbestanden bestaan uit de volgende kenmerken van de gegevensdoorvoer:
+
+* Identiteitskaart van de Reeks van het rapport (RSID)
+
+* Exportdatum
+
+Om het even welke twee voer die voor zelfde RSID en data worden gevormd heeft de zelfde dossiernaam. Als deze feeds op dezelfde locatie worden geleverd, overschrijft het ene bestand het andere.
+
+Als u wilt voorkomen dat een bestand wordt overschreven, moet u rekening houden met de volgende tijdelijke oorzaken:
 
 * Het leveringspad wijzigen
 * Wijzig indien mogelijk de datums
@@ -31,7 +41,7 @@ Vóór de verwerking van uur of daggegevens, wacht de gegevensvoer tot alle klap
 
 ## Wat is het verschil tussen kolommen met een voorvoegsel `post_` en kolommen zonder voorvoegsel `post_` ? {#post}
 
-Kolommen zonder het voorvoegsel `post_` bevatten precies dezelfde gegevens als die naar de gegevensverzameling zijn verzonden. Kolommen met een voorvoegsel `post_` bevatten de waarde na verwerking. De voorbeelden die een waarde kunnen veranderen zijn veranderlijke persistentie, verwerkingsregels, de regels van VISTA, muntomzetting, of andere server-zijlogische Adobe van toepassing. Adobe raadt aan waar mogelijk de `post_` -versie van een kolom te gebruiken.
+Kolommen zonder het voorvoegsel `post_` bevatten precies dezelfde gegevens als die naar de gegevensverzameling zijn verzonden. Kolommen met een voorvoegsel `post_` bevatten de waarde na verwerking. De voorbeelden die een waarde kunnen veranderen zijn veranderlijke persistentie, verwerkingsregels, de regels van VISTA, muntomzetting, of andere server-zijlogica Adobe van toepassing is. Adobe raadt aan waar mogelijk de `post_` -versie van een kolom te gebruiken.
 
 Als een kolom geen versie `post_` bevat (bijvoorbeeld `visit_num` ), kan de kolom worden beschouwd als een postkolom.
 
@@ -43,7 +53,7 @@ Als u verschillende variaties ziet van dezelfde waarde tussen kolommen die niet 
 
 ## Worden bots gefilterd door de regels van de Admin console bot inbegrepen in gegevensvoer? {#bots}
 
-De voer van gegevens omvat geen bots die door [ worden gefiltreerd Admin consolebot regels ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=nl-NL).
+De voer van gegevens omvat geen bots die door [ worden gefiltreerd Admin consolebot regels ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html).
 
 ## Waarom zie ik meerdere `000` waarden in de kolom `event_list` of `post_event_list` gegevensinvoer? {#values}
 
@@ -67,15 +77,15 @@ Voorbeeld: Op 9 maart 2021 wordt een nieuwe gegevensfeed gemaakt en de gegevens 
 
 ## Wat is de impact van de zomertijd op de uurgegevens? {#dst}
 
-Voor bepaalde tijdzones verandert de tijd tweemaal per jaar als gevolg van definities van zomertijd (DST). Het voer van gegevens respecteert de tijdzone waarvoor de rapportreeks wordt gevormd. Als de tijdzone voor de rapportreeks één is die geen DST gebruikt, blijft de dossierlevering normaal als een andere dag verdergaan. Als de tijdzone van de rapportreeks één is die DST gebruikt, wordt de dossierlevering veranderd voor het uur waarin de tijdverandering (gewoonlijk 2:00 am) voorkomt.
+Voor bepaalde tijdzones verandert de tijd tweemaal per jaar als gevolg van definities van zomertijd (DST). Het voer van gegevens respecteert de tijdzone waarvoor de rapportreeks wordt gevormd. Als de tijdzone voor de rapportreeks één is die geen DST gebruikt, blijft de dossierlevering normaal als een andere dag verdergaan. Als de tijdzone van de rapportreeks één is die DST gebruikt, wordt de dossierlevering veranderd voor het uur waarin de tijdverandering voorkomt (gewoonlijk 2 :00 am).
 
-Bij het maken van STD -> DST-tijdovergangen (&quot;Voorjaar vooruit&quot;) ontvangt de klant slechts 23 bestanden. Het uur dat in de overgang van DST wordt overgeslagen wordt weggelaten. Als de overgang bijvoorbeeld plaatsvindt om 2 uur &#39;s nachts, krijgen ze een bestand voor 1 uur en een bestand voor 3 uur. Er is geen 2:00-bestand omdat het bij 2:00 STD 3:00 DST wordt.
+Bij het maken van STD -> DST-tijdovergangen (&quot;Voorjaar vooruit&quot;) ontvangt de klant slechts 23 bestanden. Het uur dat in de overgang van DST wordt overgeslagen wordt weggelaten. Bijvoorbeeld, als de overgang bij 2 AM voorkomt, krijgen zij een dossier voor het 1 :00 uur en een dossier voor het 3 :00 uur. Er is geen 2 :00 dossier omdat, bij 2 :00 STD, het 3 :00 DST wordt.
 
-Bij het maken van DST -> STD-overgangen (&quot;Terugvallen&quot;) krijgt de klant 24 bestanden. Het uur van de overgang omvat echter eigenlijk twee uur aan gegevens. Als de overgang bijvoorbeeld om 2:00 uur plaatsvindt, wordt het bestand voor 1:00 met één uur vertraagd, maar bevat het gegevens voor twee uur. Het bevat gegevens van 1:00 DST aan 2:00 STD (die 3:00 DST zou zijn geweest). Het volgende bestand begint bij 2:00 STD.
+Bij het maken van DST -> STD-overgangen (&quot;Terugvallen&quot;) krijgt de klant 24 bestanden. Het uur van de overgang omvat echter eigenlijk twee uur aan gegevens. Bijvoorbeeld, als de overgang bij 2 :00 am voorkomt, wordt het dossier voor 1 :00 vertraagd met één uur, maar het bevat gegevens voor twee uren. Het bevat gegevens van 1 :00 DST aan 2 :00 STD (die 3 :00 DST) zou zijn geweest. Het volgende dossier begint bij 2 :00 STD.
 
 ## Hoe behandelt Analytics de mislukte FTP-overdracht? {#ftp-failure}
 
-Als een FTP-overdracht mislukt (als gevolg van een afgewezen aanmelding, een verbroken verbinding, een quotafout of een andere uitgave), probeert de Adobe automatisch verbinding te maken en de gegevens maximaal drie keer te verzenden. Als de fouten aanhouden, wordt de feed gemarkeerd als mislukt en wordt een e-mailmelding verzonden.
+Als een FTP-overdracht mislukt (als gevolg van een afgewezen aanmelding, een verbroken verbinding, een quotumfout of een andere uitgave), probeert Adobe automatisch verbinding te maken en de gegevens maximaal drie keer te verzenden. Als de fouten aanhouden, wordt de feed gemarkeerd als mislukt en wordt een e-mailmelding verzonden.
 
 Als een overdracht mislukt, kunt u een taak opnieuw uitvoeren totdat deze is gelukt.
 
