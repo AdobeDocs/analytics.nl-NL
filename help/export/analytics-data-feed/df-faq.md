@@ -53,7 +53,7 @@ Als u verschillende variaties ziet van dezelfde waarde tussen kolommen die niet 
 
 ## Worden bots gefilterd door de regels van de Admin console bot inbegrepen in gegevensvoer? {#bots}
 
-De voer van gegevens omvat geen bots die door [ worden gefiltreerd Admin consolebot regels ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html).
+De voer van gegevens omvat geen bots die door [ worden gefiltreerd Admin consolebot regels ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=nl-NL).
 
 ## Waarom zie ik meerdere `000` waarden in de kolom `event_list` of `post_event_list` gegevensinvoer? {#values}
 
