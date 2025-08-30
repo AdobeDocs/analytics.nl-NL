@@ -3,9 +3,9 @@ title: eVar (dimensie)
 description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: ec077b3404c6bff1198fae30a2d25321de8a58cd
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -14,31 +14,31 @@ ht-degree: 0%
 
 *Deze hulppagina beschrijft hoe eVars als a [ dimensie ](overview.md) werken. Voor informatie over hoe te om eVars uit te voeren, zie [ eVars ](/help/implement/vars/page-vars/evar.md) in de de gebruikersgids van het Uitvoeren.*
 
-Variabelen zijn aangepaste variabelen die u kunt gebruiken. Als u het document van het oplossingsontwerp van a [&#128279;](/help/implement/prepare/solution-design.md) hebt, beëindigen de meeste dimensies specifiek voor uw organisatie omhoog als [!UICONTROL eVars]. Zie [ overzicht van Dimensionen ](overview.md) voor meer informatie.
+Vars zijn douane [ afmetingen ](overview.md) die u kunt gebruiken nochtans u houdt van. Als u het document van het oplossingsontwerp van a [ ](/help/implement/prepare/solution-design.md) hebt, beëindigen de meeste dimensies specifiek voor uw organisatie omhoog als [!UICONTROL eVars].
 
-Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. Zie de secties [ hoe werkt eVars ](#how-evars-work) en [ hoe de banden van Vars aan metriek ](#how-evars-tie-to-metrics) hieronder voor details op hoe de persistentie van eVar op de architectuur van de Adobe werkt. U kunt hun vervaldatum en toewijzing aanpassen onder [ variabelen van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings]. In de volgende afbeelding ziet u een voorbeeld van eVar-definities in de interface Conversievariabelen:
+Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. Zie de secties [ hoe eVars ](#how-evars-work) en [ werken hoe eVars aan metriek ](#how-evars-tie-to-metrics) hieronder voor details op hoe de persistentie van eVar op de architectuur van Adobe werkt. U kunt, hun afloop en toewijzing toelaten onbruikbaar maken of aanpassen onder [ variabelen van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings]. In de volgende afbeelding ziet u een voorbeeld van eVar-definities in de interface Conversievariabelen:
 
 ![ Evar voorbeelden ](assets/evars-sample.png)
 
 Het aantal beschikbare eVars is afhankelijk van uw contract met Adobe. Er zijn maximaal 250 eVars beschikbaar als uw contract met Adobe dit ondersteunt.
 
-Het hoofdlettergebruik (hoger of lager) in rapporten is gebaseerd op de eerste waarde die u in een bepaalde kalendermaand verzendt. Het geval kan afhankelijk van het rapporteringsvenster veranderen en het geval van een waarde van eVar die eerst tijdens die tijd wordt verzameld.
+Het hoofdlettergebruik (hoger of lager) in rapporten is gebaseerd op de eerste waarde die u in een bepaalde kalendermaand verzendt. Het hoofdlettergebruik kan afhankelijk van het rapportagevenster worden gewijzigd en het geval van een eVar-waarde die het eerst in die periode wordt verzameld.
 
 ## Vars vullen met gegevens
 
-Elke eVar verzamelt gegevens van [`v1` - `v250` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken. Bijvoorbeeld, verzamelt de `v1` parameter van het vraagkoord gegevens voor eVar1, terwijl de `v222` parameter van het vraagkoord gegevens voor eVar222 verzamelt.
+Elke eVar verzamelt gegevens van [`v1` - `v250` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken. De parameter van de `v1` querytekenreeks verzamelt bijvoorbeeld gegevens voor eVar1, terwijl de parameter van de `v222` querytekenreeks gegevens voor eVar222 verzamelt.
 
-AppMeasurement, dat JavaScript-variabelen compileert in een afbeeldingsaanvraag voor gegevensverzameling, gebruikt de variabelen `eVar1` - `eVar250` . Zie [ eVar ](/help/implement/vars/page-vars/evar.md) in de de gebruikersgids van het Uitvoeren voor implementatierichtlijnen.
+AppMeasurement, dat JavaScript-variabelen compileert in een verzoek om gegevensverzameling, gebruikt de variabelen `eVar1` - `eVar250` . Zie [ eVar ](/help/implement/vars/page-vars/evar.md) in de de gebruikersgids van het Uitvoeren voor implementatierichtlijnen.
 
-## Dimension-items
+## Dimension-objecten
 
-Aangezien eVars aangepaste tekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de dimensie-items zijn voor elke eVar. Zorg ervoor dat u het doel van elke eVar en typische afmetingspunten in het document van het a [ oplossingsontwerp ](/help/implement/prepare/solution-design.md) registreert.
+Aangezien eVars aangepaste tekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de dimensie-items voor elke eVar zijn. Zorg ervoor dat u het doel van elke eVar en typische afmetingspunten in het document van het a [ oplossingsontwerp ](/help/implement/prepare/solution-design.md) registreert.
 
 ## Hoe werkt eVars
 
 Wanneer u gegevens naar Adobe Analytics verzendt, vertalen de servers van de gegevensinzameling de slag in één enkele rij gegevens met honderden kolommen. Twee kolommen worden gewijd aan elke eVar; één voor directe gegevensinzameling, en andere voor persisterende waarden.
 
-* Een standaardkolom bevat gegevens die naar de Adobe worden verzonden vanuit de afbeeldingsaanvraag.
+* Een standaardkolom bevat gegevens die vanuit de afbeeldingsaanvraag naar Adobe worden verzonden.
 * Een kolom &quot;post&quot; bevat permanente gegevens, die afhankelijk zijn van de vervaldatum en de allocatie van de eVar.
 
 Onder bijna alle omstandigheden wordt de kolom `post_evar` gebruikt in rapporten.
@@ -48,7 +48,7 @@ Onder bijna alle omstandigheden wordt de kolom `post_evar` gebruikt in rapporten
 Gebeurtenissen met succes en eVars worden vaak op verschillende momenten gedefinieerd. In de kolom `post_evar` kunnen eVar-waarden zichzelf aan gebeurtenissen koppelen en gegevens in de rapportage weergeven. Ga bijvoorbeeld als volgt te werk:
 
 1. Een bezoeker arriveert op uw homepage naar uw site.
-2. Ze zoeken naar &#39;katten&#39; met behulp van de interne zoekactie van uw site. Uw implementatie gebruikt eVar1 voor intern onderzoek.
+2. Ze zoeken naar &#39;katten&#39; met behulp van de interne zoekactie van uw site. In uw implementatie wordt eVar1 gebruikt voor intern zoeken.
 3. Ze bekijken een product en gaan door met het afrekenen.
 
 Een vereenvoudigde versie van de onbewerkte gegevens ziet er ongeveer als volgt uit:
@@ -64,13 +64,13 @@ Een vereenvoudigde versie van de onbewerkte gegevens ziet er ongeveer als volgt 
 
 * De kolom `visitor_id` koppelt items aan dezelfde bezoeker. In onbewerkte gegevens bepalen de samengevoegde waarden van `visid_high` en `visid_low` de bezoeker-id.
 * De kolom `pagename` vult de afmetingen Pagina&#39;s in.
-* De kolom `evar` bepaalt de treffers wanneer eVar1 uitdrukkelijk werd geplaatst.
+* De kolom `evar` bepaalt de hits wanneer eVar1 expliciet werd ingesteld.
 * `post_evar1` draagt de vorige waarde, afhankelijk van de toewijzing en de vervaldatum van de variabele die onder de montages van de rapportreeks wordt geplaatst.
 * De kolom `event_list` bevat alle metrische gegevens. In dit voorbeeld is `event1` &#39;&#39;Zoeken&#39;&#39; en zijn de andere gebeurtenissen standaardwaarden voor winkelwagentjes. In onbewerkte gegevens bevat `event_list` een door komma&#39;s gescheiden reeks getallen met een opzoektabel die deze getallen koppelt aan een metrische waarde.
 
 ### Gegevensverzameling omzetten in rapportage
 
-Gereedschappen in Adobe Analytics, zoals Analysis Workspace, werken uit deze verzamelde gegevens. Bijvoorbeeld, als u een rapport gebruikend eVar1 als afmeting en Orden als metrisch trok, zou u een rapport gelijkend op het volgende zien:
+Gereedschappen in Adobe Analytics, zoals Analysis Workspace, werken uit deze verzamelde gegevens. Bijvoorbeeld, als u een rapport trok gebruikend eVar1 als afmeting en Orders als metrisch, zou u een rapport gelijkend op het volgende zien:
 
 | `Internal search term (eVar1)` | `Orders` |
 | --- | --- |
@@ -85,12 +85,12 @@ Het resulterende rapport geeft elke andere waarde in `post_evar1` aan de linkerk
 
 ### Het belang van toewijzing en vervaldatum
 
-Aangezien de toewijzing en de vervaldatum bepalen welke waarden blijven bestaan, zijn zij essentieel om de meeste waarde uit een analytische implementatie te krijgen. De Adobe adviseert hoogst dat u binnen uw organisatie bespreekt hoe de veelvoudige waarden voor elke eVar worden behandeld (toewijzing) en wanneer eVars het persisteren gegevens (afloop) ophouden.
+Aangezien de toewijzing en de vervaldatum bepalen welke waarden blijven bestaan, zijn zij essentieel om de meeste waarde uit een analytische implementatie te krijgen. Adobe raadt u ten zeerste aan om binnen uw organisatie te bespreken hoe meerdere waarden voor elke eVar worden verwerkt (toewijzing) en wanneer eVars stoppen met het aanhouden van gegevens (vervaldatum).
 
-* Standaard gebruikt een eVar de laatste toewijzing. Nieuwe waarden overschrijven persistente waarden.
-* Standaard gebruikt een eVar een verloop van een bezoek. Wanneer een bezoek eindigt, kopiëren de waarden niet meer van rij naar rij in de kolom `post_evar` .
+* Een eVar gebruikt standaard de laatste toewijzing. Nieuwe waarden overschrijven persistente waarden.
+* Een eVar gebruikt standaard een verloop van een bezoek. Wanneer een bezoek eindigt, kopiëren de waarden niet meer van rij naar rij in de kolom `post_evar` .
 
-U kunt eVar toewijzing en afloop onder [ variabelen van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de reeksinstellingen van het Rapport veranderen.
+U kunt de toewijzing en de vervaldatum van eVar onder [ variabelen van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de reeksinstellingen van het Rapport veranderen.
 
 ## Waarde van eVars over props
 

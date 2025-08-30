@@ -4,9 +4,9 @@ title: Activity Map-overzicht
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: dee8f0a13a159f4c7902d2ccddd8848c4016b471
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,16 @@ ht-degree: 0%
 
 Adobe Analytics Activity Map is een functie in Adobe Analytics die een visuele weergave biedt van de betrokkenheid van gebruikers bij webpagina&#39;s en mobiele apps. Marketers en analisten kunnen hiermee gebruikersinteracties zoals klikken en schuiven bijhouden en analyseren. Activity Map genereert warmtekaarten en overlayrapporten die de populairste elementen op een webpagina weergeven, zodat u uw digitale ervaringen kunt optimaliseren.
 
-Dit gedeelte van de documentatie is gericht op de Activity Map-overlay. Er zijn echter nog andere belangrijke onderdelen die Activity Map kunnen gebruiken:
+Activity Map bestaat uit verschillende belangrijke onderdelen:
 
-* **reeks die van het Rapport** plaatst: Een rapportreeks moet Activity Map hebben toegelaten. Zie [ Activity Map die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md) meldt in de reeksinstellingen van het Rapport.
+* **reeks die van het Rapport** plaatst: Een rapportreeks moet Activity Map hebben toegelaten alvorens u het kunt beginnen te gebruiken. Zie [ Activity Map die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md) meldt in de reeksinstellingen van het Rapport.
 * **Implementatie**: De meeste rapportering van Activity Map is beschikbaar uit-van-de-doos. Sommige websites kunnen echter aanvullende implementatie nodig hebben om optimaal gebruik te kunnen maken van het bijhouden van koppelingen. De volgende implementatievariabelen zijn beschikbaar:
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): filter op gegevens klikken op naam van koppeling.
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): filter op gegevens klikken op gebiedsnaam.
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): wijzig het kenmerk dat de afmetingen van het Activity Map-gebied vult.
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): pas de logica aan die Activity Map gebruikt om de Activity Map Link-dimensie te vullen.
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): pas de logica aan die Activity Map gebruikt om de dimensie Activity Map Region te vullen.
+* **Bedekking**: Een browser uitbreiding die u toestaat om klikgegevens te zien over uw website. Zie [ de uitbreidingsinterface van Activity Map ](overlay/overview.md) voor meer informatie.
 * **Dimensies**: Naast de bekledingsuitbreiding, verstrekt Activity Map verscheidene dimensies die u in Analysis Workspace kunt gebruiken.
    * [ Verbinding van Activity Map ](/help/components/dimensions/activity-map-link.md): De verbindingsnaam die werd geklikt.
    * [ Gebied van Activity Map ](/help/components/dimensions/activity-map-region.md): De gebiedsnaam die werd geklikt.

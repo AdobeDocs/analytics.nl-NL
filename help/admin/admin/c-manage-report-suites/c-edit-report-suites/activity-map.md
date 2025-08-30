@@ -1,33 +1,32 @@
 ---
-description: U kunt gegevens van een activiteitsoverzicht weergeven in Adobe Analytics
-title: Gegevens van Activity Map weergeven in Adobe Analytics
+description: Schakel afmetingen in zodat Activity Map gegevens kan verzamelen.
+title: Activity Map Reporting
 feature: Admin Tools
-source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
+exl-id: 9300c12e-3ade-4850-8a22-cba61b35ca67
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 3%
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
+# Activity Map Reporting
 
-# Gegevens van Activity Map weergeven in Adobe Analytics
+Staat u toe om dimensies voor gebruik met [ Activity Map ](/help/analyze/activity-map/overview.md) toe te laten.
 
-Administratieve stappen voor het toelaten van Activity Map rapportering in Analytics.
+**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
+Deze sectie van de documentatie richt zich op het toelaten van dimensies die Activity Map gebruikt. Zie [ overzicht van Activity Map ](/help/analyze/activity-map/overview.md) voor meer informatie over de bekleding, implementatievariabelen, en dimensies.
 
-Laat Analytics toe om gebruikersactiviteit te verzamelen die bij Activity Map (vroeger ClickMap) wordt gediend. Deze integratie
+Wanneer u de knop **[!UICONTROL Enable Activity Map Reports]** selecteert, worden de volgende afmetingen gemaakt:
 
-* Hiermee wordt rapportage ingeschakeld in Analytics.
-* Hiermee voegt u nieuwe rapporten toe onder **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map:]**
+* [[!UICONTROL Activity Map Link]](/help/components/dimensions/activity-map-link.md): De naam van de koppeling waarop is geklikt.
+* [[!UICONTROL Activity Map Region]](/help/components/dimensions/activity-map-region.md): De naam van het gebied waarop is geklikt.
+* [[!UICONTROL Activity Map Page]](/help/components/dimensions/activity-map-page.md): De paginanaam op het moment dat op de koppeling werd geklikt.
+* [[!UICONTROL Activity Map Link By Region]](/help/components/dimensions/activity-map-link-by-region.md): Een samengevoegde waarde van Activity Map Link en Activity Map Region.
 
-   | Rapport | Beschrijving |
-   |---|---|
-   | Activity Map-pagina | Hier worden de pagina&#39;s weergegeven waarop op een koppeling is geklikt. |
-   | Activity Map | Hiermee geeft u alle verzamelde koppelingsgebieden op de hele website weer. Als een gebied op meerdere pagina&#39;s wordt weergegeven, wordt de maateenheid voor alle pagina&#39;s samengevoegd. |
-   | Koppelingen Activity Mappen | Hiermee geeft u alle verzamelde koppelingen op de hele website weer. |
-   | Koppelingen en regio Activity Mappen | Hiermee geeft u alle verzamelde koppelingen met hun regio op de hele website weer. |
+Zodra toegelaten, kan uw implementatie beginnen gegevens naar deze dimensies voor gebruik in [ Analysis Workspace ](/help/analyze/analysis-workspace/home.md) en [ Browser uitbreidingsbekleding ](/help/analyze/activity-map/overlay/overview.md) te verzenden.
 
-Voor gegevens die moeten worden gevuld, raadpleegt u de [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=nl-NL) voor volledige implementatieinstructies.
-
-<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->
+>[!NOTE]
+>
+>Als u Activity Map inschakelt voor een rapportsuite, wordt deze permanent ingeschakeld zonder dat dit in de toekomst wordt uitgeschakeld.

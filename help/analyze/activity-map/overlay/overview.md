@@ -5,16 +5,20 @@ uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
 # Activity Map-extensie-interface
 
-De Activity Map-extensie-interface bestaat uit twee delen:
+Met de extensie Activity Map kunt u klikgegevens op uw website weergeven. U kunt de extensie downloaden door naar de volgende pagina te gaan, die een koppeling naar de webwinkel bevat:
+
+**[!UICONTROL Tools]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Download Activity Map]**
+
+Nadat de interface is geïnstalleerd en ingeschakeld, bestaat deze uit verschillende onderdelen:
 
 * Een bovenste deelvenster waarmee u de extensie en rapporten kunt configureren
 * Een overlay waarin de populairste koppelingen worden weergegeven
@@ -44,7 +48,7 @@ De koptekst van dit deelvenster bevat de volgende instellingen:
 * **uitvouwen/doen ineenstorten hoogste paneel**: Knevels het hoogste paneel om montages horizontaal of verticaal (dubbel pijlpictogram) te tonen.
 * **[!UICONTROL Toggle page details]**: het onderste deelvenster (oogpictogram) weergeven of verbergen.
 * **[!UICONTROL Show settings]**: opent een menu voor instellingen die u kunt wijzigen (tandwielpictogram):
-   * **[!UICONTROL Settings]**: Opent de 1&rbrace; Montages van de uitbreiding [.](settings.md)
+   * **[!UICONTROL Settings]**: Opent de 1} Montages van de uitbreiding [.](settings.md)
    * **[!UICONTROL Help]**: opent de documentatie naar Experience League (deze pagina).
    * **[!UICONTROL Adobe community]**: Opent de [ gemeenschap van Experience League ](https://experienceleaguecommunities.adobe.com/).
    * **[!UICONTROL About]**: geeft de extensieversie weer.

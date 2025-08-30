@@ -4,9 +4,9 @@ description: Overschrijf de automatisch gegenereerde link-URL die AppMeasurement
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Wanneer een koppelingenvolgvraag naar Adobe wordt verzonden, detecteert AppMeasurement de URL waarop is geklikt. Deze URL helpt het verbindingstype, zoals downloadverbindingen en uitgangsverbindingen bepalen. Gebruik de variabele `linkURL` om de gedetecteerde URL te overschrijven.
 
-Er zijn geen dimensies in Analysis Workspace die rapporteren over deze variabele. Het bevolkt de `page_event_var1` kolom in [ het voer van Gegevens ](/help/export/analytics-data-feed/data-feed-overview.md). Als u URL van een klikte verbinding wilt volgen, adviseert Adobe gebruikend een douanevariabele, zoals a [ Prop ](../page-vars/prop.md).
+Er zijn geen dimensies in Analysis Workspace die rapporteren over deze variabele. Het bevolkt de `page_event_var1` kolom in [ het voer van Gegevens ](/help/export/analytics-data-feed/data-feed-overview.md). Als u URL van een klikte verbinding wilt volgen, adviseert Adobe gebruikend een douanevariabele, zoals a [ Prop ](../page-vars/prop.md). Het gebruik van [ Activity Map ](/help/analyze/activity-map/overview.md) kan helpen de gegevensinzameling voor geklikte verbindingen stroomlijnen.
 
 ## URL koppelen met de Web SDK
 
