@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Deze hulppagina beschrijft hoe eVars als a [ dimensie ](overview.md) werken. Voor informatie over hoe te om eVars uit te voeren, zie [ eVars ](/help/implement/vars/page-vars/evar.md) in de de gebruikersgids van het Uitvoeren.*
 
-Vars zijn douane [ afmetingen ](overview.md) die u kunt gebruiken nochtans u houdt van. Als u het document van het oplossingsontwerp van a [ ](/help/implement/prepare/solution-design.md) hebt, beëindigen de meeste dimensies specifiek voor uw organisatie omhoog als [!UICONTROL eVars].
+Vars zijn douane [ afmetingen ](overview.md) die u kunt gebruiken nochtans u houdt van. Als u het document van het oplossingsontwerp van a [&#128279;](/help/implement/prepare/solution-design.md) hebt, beëindigen de meeste dimensies specifiek voor uw organisatie omhoog als [!UICONTROL eVars].
 
 Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. Zie de secties [ hoe eVars ](#how-evars-work) en [ werken hoe eVars aan metriek ](#how-evars-tie-to-metrics) hieronder voor details op hoe de persistentie van eVar op de architectuur van Adobe werkt. U kunt, hun afloop en toewijzing toelaten onbruikbaar maken of aanpassen onder [ variabelen van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings]. In de volgende afbeelding ziet u een voorbeeld van eVar-definities in de interface Conversievariabelen:
 
