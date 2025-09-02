@@ -4,9 +4,9 @@ description: Overzicht van het gebruik van XDM-gegevens van Experience Platform 
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
+source-git-commit: 0ea86e7628e3cebe6f5fe1c4f584da1186b8cb83
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,19 @@ Met Adobe Experience Platform Edge Network kunt u gegevens die bestemd zijn voor
 
 ## Hoe Adobe Analytics Edge Network-gegevens verwerkt
 
+Aangezien gegevens die naar de Edge Network- en AppMeasurement-gegevens worden verzonden anders werken, bepaalt de Edge Network-lading hoe Adobe Analytics de hit afhandelt. Zie [ de gebeurtenistypen van Edge Network in Adobe Analytics ](hit-types.md) voor meer informatie.
+
 Gegevens die naar Adobe Experience Platform Edge Network worden verzonden kunnen drie formaten volgen: **voorwerp XDM**, **voorwerp van Gegevens**, en **Contextgegevens**. Wanneer een gegevensstroom gegevens doorstuurt naar Adobe Analytics, worden ze omgezet in een indeling die Adobe Analytics kan verwerken.
 
 ## `xdm` -object
 
-Vorm aan schema&#39;s die u baseert op [ XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) (het Model van Gegevens van de Ervaring) creeert. XDM biedt u flexibiliteit in welke velden worden gedefinieerd als onderdeel van gebeurtenissen. Als u een vooraf bepaald schema specifiek voor Adobe Analytics wilt gebruiken, kunt u de [ groep van het het schemagebied van de ErvaringEvent van Adobe Analytics ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) aan uw schema toevoegen. Nadat u het schema hebt toegevoegd, kunt u het `xdm` -object in de SDK Web gebruiken om gegevens naar een rapportsuite te verzenden. Wanneer gegevens op de Edge Network worden ontvangen, wordt het XDM-object omgezet in een indeling die Adobe Analytics begrijpt.
+Vorm aan schema&#39;s die u baseert op [ XDM ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) (het Model van Gegevens van de Ervaring) creeert. XDM biedt u flexibiliteit in welke velden worden gedefinieerd als onderdeel van gebeurtenissen. Als u een vooraf bepaald schema specifiek voor Adobe Analytics wilt gebruiken, kunt u de [ groep van het het schemagebied van de ErvaringEvent van Adobe Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) aan uw schema toevoegen. Nadat u het schema hebt toegevoegd, kunt u het `xdm` -object in de SDK Web gebruiken om gegevens naar een rapportsuite te verzenden. Wanneer gegevens op de Edge Network worden ontvangen, wordt het XDM-object omgezet in een indeling die Adobe Analytics begrijpt.
 
 Zie [ XDM objecten veranderlijke afbeelding aan Adobe Analytics ](xdm-var-mapping.md) voor een volledige verwijzing van XDM gebieden en hoe zij aan de variabelen van Analytics in kaart brengen.
 
 >[!TIP]
 >
->Als u van plan bent om aan [ Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-landing) in de toekomst te bewegen, adviseert Adobe tegen het gebruiken van de het schemagebiedgroep van Adobe Analytics. In plaats daarvan, adviseert Adobe [ creërend uw eigen schema ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) en gebruik datastream afbeelding om de gewenste variabelen van Analytics te bevolken. Deze strategie vergrendelt u niet op een schema van props en eVars wanneer u klaar bent om over te stappen naar Customer Journey Analytics.
+>Als u van plan bent om aan [ Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) in de toekomst te bewegen, adviseert Adobe tegen het gebruiken van de het schemagebiedgroep van Adobe Analytics. In plaats daarvan, adviseert Adobe [ creërend uw eigen schema ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) en gebruik datastream afbeelding om de gewenste variabelen van Analytics te bevolken. Deze strategie vergrendelt u niet op een schema van props en eVars wanneer u klaar bent om over te stappen naar Customer Journey Analytics.
 
 ## `data` -object
 
