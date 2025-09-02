@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Handleiding exporteren
-user-guide-description: Leer meer over het gebruik van datafeeds om onbewerkte gegevens te exporteren en Data Warehouse om een spreadsheetuitvoer van gegevens op te halen. Meer informatie over FTP en SFTP gebruiken om bestanden over te dragen.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+user-guide-description: Meer informatie over het gebruik van gegevensfeeds en Data Warehouse om de uitvoer van gegevens op te halen.
+source-git-commit: 9131c9ffbcf409620a67b36637367af22733b909
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 23%
+source-wordcount: '262'
+ht-degree: 7%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 23%
 # Adobe Analytics Export Guide {#export}
 
 + [Handleiding voor exporteren van analysemogelijkheden](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
-+ Gegevensfeed Analytics {#analytics-data-feed}
++ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ Analytics-datafeed {#analytics-data-feed}
    + [Overzicht van gegevensinvoer](analytics-data-feed/data-feed-overview.md)
    + [Een gegevensfeed maken](analytics-data-feed/create-feed.md)
    + [Gegevensfeeds beheren](analytics-data-feed/df-manage-feeds.md)
@@ -73,6 +73,6 @@ ht-degree: 23%
       + [Adobe-gegevens naar een externe FTP-account met SFTP verzenden](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Data Warehouse-aanvragen naar SFTP-servers verzenden](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Verbinding maken met Adobe via SFTP zonder wachtwoord](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [ downloads van Analysis Workspace ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=nl-NL)
++ [ downloads van Analysis Workspace ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [ Adobe Analytics API ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [ Report Builder ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/report-builder/rb-overview)
++ [ Report Builder ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)
