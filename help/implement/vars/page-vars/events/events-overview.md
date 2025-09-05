@@ -4,7 +4,7 @@ description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw s
 feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dimensies en metriek zijn essentiële componenten voor rapporten. De variabele `events` is verantwoordelijk voor gegevensverzameling van vele metriek op uw plaats. De gebeurtenissen verhogen typisch [ metriek ](/help/components/metrics/overview.md) in rapporten.
 
-Alvorens gebeurtenissen uit te voeren, zorg ervoor dat u hen onder [ gebeurtenissen van het Succes ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in de reeksinstellingen van het Rapport creeert en vormt. Als u aangepaste gebeurtenissen wilt gebruiken bij het bijhouden van koppelingen, moet u ervoor zorgen dat [`linkTrackVars`](../../config-vars/linktrackvars.md) en [`linkTrackEvents`](../../config-vars/linktrackevents.md) correct zijn ingesteld.
+Alvorens gebeurtenissen uit te voeren, zorg ervoor dat u hen onder [ gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in de reeksinstellingen van het Rapport creeert en vormt. Als u aangepaste gebeurtenissen wilt gebruiken bij het bijhouden van koppelingen, moet u ervoor zorgen dat [`linkTrackVars`](../../config-vars/linktrackvars.md) en [`linkTrackEvents`](../../config-vars/linktrackevents.md) correct zijn ingesteld.
 
 ## Gebeurtenissen die de Web SDK gebruiken
 
@@ -62,7 +62,7 @@ Er zijn verschillende functies beschikbaar:
 
 De variabele `s.events` is een tekenreeks die een door komma&#39;s gescheiden lijst met gebeurtenissen bevat die in de hit moeten worden opgenomen. De variabele staat tot 64k bytes toe, in feite toelatend zo vele gebeurtenissen aangezien een slag vereist. Geldige waarden zijn:
 
-* `event1` - `event1000`: Aangepaste gebeurtenissen instellen op de gewenste manier. Verslag hoe u elke gebeurtenis in het document van het de oplossingsontwerp van uw organisatie [&#128279;](../../../prepare/solution-design.md) gebruikt. Het aantal beschikbare gebeurtenissen is afhankelijk van het contract Analytics van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met uw Adobe-accountteam als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
+* `event1` - `event1000`: Aangepaste gebeurtenissen instellen op de gewenste manier. Verslag hoe u elke gebeurtenis in het document van het de oplossingsontwerp van uw organisatie [ ](../../../prepare/solution-design.md) gebruikt. Het aantal beschikbare gebeurtenissen is afhankelijk van het contract Analytics van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met uw Adobe-accountteam als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
 * `purchase`: Verhoogt metrisch [ &quot;Orders&#39; ](/help/components/metrics/orders.md) door 1, en neemt waarden die in de `products` variabele worden geplaatst om [ &quot;Units&quot; ](/help/components/metrics/units.md) en [ &quot;Inkomsten&quot; ](/help/components/metrics/revenue.md) te berekenen. Zie [ aankoopgebeurtenis ](event-purchase.md) voor meer informatie.
 * `prodView`: Verhoogt metrisch [ &quot;van de Mening van het Product&quot;](/help/components/metrics/product-views.md).
 * `scOpen`: Verhoogt metrisch [ &quot;Havens&#39; ](/help/components/metrics/carts.md).
@@ -103,7 +103,7 @@ s.events = "event1=2,event2";
 
 U kunt een aangepaste gebeurtenis wijzigen en valuta gebruiken in plaats van gehele getallen. Valutamarkeringen worden automatisch geconverteerd naar de valuta van de rapportsuite als de valuta van de rapportsuite en de variabele `currencyCode` niet overeenkomen. Ze zijn handig voor het berekenen van verzendkosten, kortingen of terugbetalingen. U kunt valutagebeurtenissen instellen in de variabele `products` als u de gebeurtenis alleen aan dat product wilt toewijzen.
 
-Alvorens muntgebeurtenissen uit te voeren, zorg ervoor dat u de gewenste gebeurtenis aan &quot;Valuta&quot;onder [ gebeurtenissen van het Succes ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in de reeksinstellingen van het Rapport plaatst.
+Alvorens muntgebeurtenissen uit te voeren, zorg ervoor dat u de gewenste gebeurtenis aan &quot;Valuta&quot;onder [ gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in de reeksinstellingen van het Rapport plaatst.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -124,7 +124,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 U kunt een aangepaste gebeurtenis wijzigen om decimale waarden te accepteren in plaats van gehele getallen. Numerieke gebeurtenissen gedragen zich op dezelfde manier als valutagebeurtenissen, maar gebruiken geen valutaomrekening. U kunt numerieke gebeurtenissen instellen in de variabele `products` als u de gebeurtenis alleen aan dat product wilt toewijzen.
 
-Alvorens numerieke gebeurtenissen uit te voeren, zorg ervoor dat u de gewenste gebeurtenis aan &quot;Numeriek&quot;onder [ gebeurtenissen van het Succes ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in de reeksinstellingen van het Rapport plaatst.
+Alvorens numerieke gebeurtenissen uit te voeren, zorg ervoor dat u de gewenste gebeurtenis aan &quot;Numeriek&quot;onder [ gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in de reeksinstellingen van het Rapport plaatst.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings

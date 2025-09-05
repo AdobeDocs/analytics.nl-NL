@@ -5,7 +5,7 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -26,9 +26,9 @@ De meeste populaire filters zijn expressiefilters die u configureert met behulp 
 
 1. Klik in het [!UICONTROL Request Wizard: Step 2] op de koppeling naast de dimensie in het raster en kies vervolgens **[!UICONTROL Filter]** .
 
-   ![ Schermafbeelding die de Define dialoog van de Filter met opties tonen om door Toepassing, Gebruiker, en Project te filtreren.](/help/admin/admin/assets/filter.png)
+   ![ Schermafbeelding die de Define dialoog van de Filter met opties tonen om door Toepassing, Gebruiker, en Project te filtreren.](/help/admin/tools/assets/filter.png)
 
-1. Schakel **[!UICONTROL Most Popular]** in het [!UICONTROL Choose Page] -formulier in en configureer vervolgens de volgende opties:
+1. Schakel [!UICONTROL Choose Page] in het **[!UICONTROL Most Popular]** -formulier in en configureer vervolgens de volgende opties:
 
    **Begin Rank:** De beginnende rang van een afmeting. Een standaardrangorde van 1 geeft het bovenste item in de lijst met gerapporteerde gegevens aan. Voor de dimensie [!UICONTROL Page] geeft een beginmarkering van 1 bijvoorbeeld de enkele meest gevraagde pagina van uw site aan. U zou 10 of een andere waarde als beginnende rangtelcel kunnen specificeren, die een rapport veroorzaakt die met 10 als hoogste begint. De metriek worden geschikt in dalende orde, zodat de lijnpunten met de grootste activiteit eerst in de lijst worden gemeld. Als u meer dan 50.000 paginanamen in één verzoek vereist, maar duizenden pagina&#39;s hebt waarop om te melden, kunt u het verzoek kopiëren en de beginnende rang veranderen om de aangewezen gegevens in blokken van 50.000 terug te winnen.
 

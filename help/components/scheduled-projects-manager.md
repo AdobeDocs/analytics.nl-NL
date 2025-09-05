@@ -3,7 +3,7 @@ description: Leer hoe u geplande projecten beheert.
 title: Geplande projecten
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -35,8 +35,8 @@ In de lijst Geplande projecten ➊ worden kolommen weergegeven voor:
 | **[!UICONTROL Frequency]** | Hoe vaak wilt u dit planningsproject hebben dat naar één of meerdere ontvangers wordt verzonden. |
 | **[!UICONTROL Execution Time]** | Op welk tijdstip van de dag dit geplande project wordt verzonden. |
 | **[!UICONTROL Number of Queries]** | Het aantal vragen tegen dit project. |
-| **[!UICONTROL Longest Date Range]** | Het langste datumbereik dat is gedefinieerd voor het geplande project. Deze waarde kan relevant zijn om prestatieproblemen te onderzoeken. Zie [ het Melden van de Manager van de Activiteit ](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) voor meer informatie. |
-| **[!UICONTROL Number of queries]** | Het aantal vragen die voor het geplande project worden uitgevoerd. Deze waarde kan relevant zijn om prestatieproblemen te onderzoeken. Zie [ het Melden van de Manager van de Activiteit ](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) voor meer informatie. |
+| **[!UICONTROL Longest Date Range]** | Het langste datumbereik dat is gedefinieerd voor het geplande project. Deze waarde kan relevant zijn om prestatieproblemen te onderzoeken. Zie [ het Melden van de Manager van de Activiteit ](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) voor meer informatie. |
+| **[!UICONTROL Number of queries]** | Het aantal vragen die voor het geplande project worden uitgevoerd. Deze waarde kan relevant zijn om prestatieproblemen te onderzoeken. Zie [ het Melden van de Manager van de Activiteit ](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) voor meer informatie. |
 
 
 U kunt ![ gebruiken ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te vormen welke kolommen aan vertoning.

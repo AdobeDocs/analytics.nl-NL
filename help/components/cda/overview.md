@@ -4,9 +4,9 @@ description: Leer hoe u uw gegevens kunt wijzigen van apparaatgericht naar perso
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,8 @@ Cross-Device Analytics is een baanbrekende en robuuste functie, maar heeft beper
 * Cross-Device Analytics werkt niet op meerdere rapportsuites en combineert ook geen gegevens van meerdere rapportsuites.
 * Adobe Analytics-rapportreeksen kunnen niet aan meerdere organisatie-id&#39;s worden toegewezen. Aangezien de apparaten van de Analyse van het Apparaat binnen een bepaalde rapportreeks worden vastgezet, kan de dwars-Apparaat Analytics niet worden gebruikt om gegevens over veelvoudige organisatie IDs te binden.
 * De Analytics van het dwars-Apparaat gebruikt een complexe verwerkingspijpleiding, met veelvoudige afhankelijke componenten. Deze pijpleiding loopt parallel aan de basis Analytics rapporteringswerkschema. U kunt een gegevenswanverhouding van ongeveer 1% voor het totale aantal treffers tussen de originele rapportreeks en de virtuele het rapportreeks van Analytics van het Interapparaat verwachten.
-* Analytics voor verschillende apparaten maakt gebruik van een virtuele rapportsuite en de verwerking van de rapporttijd, die hun eigen beperkingen hebben. Ze ondersteunen momenteel bijvoorbeeld geen variabelen van marketingkanalen. Zie [ Virtuele rapportreeksen ](https://experienceleague.adobe.com/nl/docs/analytics/components/virtual-report-suites/vrs-about) en [ de tijdverwerking van het Rapport ](https://experienceleague.adobe.com/nl/docs/analytics/components/virtual-report-suites/vrs-report-time-processing) voor meer informatie over deze beperkingen.
-* De privé Grafiek hefboomwerkingen de zelfde syncs van identiteitskaart zoals de syncs van identiteitskaart die door het [ bezit van de Klant ](https://experienceleague.adobe.com/nl/docs/core-services/interface/services/customer-attributes/attributes) worden gebruikt vermogen dat binnen Experience Cloud en Adobe Analytics wordt gevonden. Virtuele rapportreeksen voor de analyse van apparaten (op basis van een privégrafiek of op basis van een veld) zijn echter niet compatibel met de overige kenmerkfuncties van de klant. Met andere woorden, op kenmerken gebaseerde afmetingen van de klant zijn niet beschikbaar voor gebruik met virtuele rapportensuites voor cross-device analyse.
+* Analytics voor verschillende apparaten maakt gebruik van een virtuele rapportsuite en de verwerking van de rapporttijd, die hun eigen beperkingen hebben. Ze ondersteunen momenteel bijvoorbeeld geen variabelen van marketingkanalen. Zie [ Virtuele rapportreeksen ](/help/components/vrs/vrs-about.md) en [ de tijdverwerking van het Rapport ](/help/components/vrs/vrs-report-time-processing.md) voor meer informatie over deze beperkingen.
+* De privé Grafiek hefboomwerkingen de zelfde syncs van identiteitskaart zoals de syncs van identiteitskaart die door het [ bezit van de Klant ](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) worden gebruikt vermogen dat binnen Experience Cloud en Adobe Analytics wordt gevonden. Virtuele rapportreeksen voor de analyse van apparaten (op basis van een privégrafiek of op basis van een veld) zijn echter niet compatibel met de overige kenmerkfuncties van de klant. Met andere woorden, op kenmerken gebaseerde afmetingen van de klant zijn niet beschikbaar voor gebruik met virtuele rapportensuites voor cross-device analyse.
 * Apparaatanalyse is momenteel niet compatibel met A4T.
 * De 1.4-API wordt niet ondersteund. Power BI-connectors en Report Builder vertrouwen beide op de 1.4-API en zijn daarom niet compatibel met CDA.
 * De actieve controle van het cross-device analytics stitching proces door Adobe is beperkt tot uitsluitend de reeksen van het productierapport.

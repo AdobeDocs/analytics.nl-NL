@@ -3,34 +3,34 @@ title: Postcode
 description: De postcode van de bezoeker.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
 # Postcode
 
-De postcode [dimensie](overview.md) de postcode of postcode van de bezoeker. U kunt deze dimensie gebruiken om meer te begrijpen over het succes van lokale reclame of te zien waar in de wereld uw plaats het best presteert.
+De &quot;code van het ZIP&quot;0} dimensie [ meldt de postcode of de postcode van de bezoeker. ](overview.md) U kunt deze dimensie gebruiken om meer te begrijpen over het succes van lokale reclame of te zien waar in de wereld uw plaats het best presteert.
 
 ## Deze dimensie vullen met gegevens
 
 Deze dimensie is uniek in die zin dat het veelvoudige manieren bevat om het met gegevens te bevolken. U kunt of één, of een combinatie beide gebruiken.
 
-* De postcode rechtstreeks instellen met de `zip` variabele; of
+* de postcode rechtstreeks in te stellen met behulp van de variabele `zip` , of
 * Configureer het bestand om gegevens uit de geolocatie op te halen.
 
-De [!UICONTROL Zip option] krachtens [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) bepaalt hoe u deze dimensie wilt vullen.
+[!UICONTROL Zip option] onder [ Algemene rekeningsmontages ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) controleert hoe u deze afmeting wilt bevolken.
 
 Als u een optie kiest die gebruikmaakt van geo zip:
 
-* Voor de implementaties van AppMeasurementen, werkt deze dimensie uit de doos.
-* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Geo Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL).
+* Voor AppMeasurement-implementaties werkt deze dimensie buiten het vak.
+* Voor de implementaties van SDK van het Web, laat [!UICONTROL Geo Lookup] toe wanneer [ vormend een datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
-## Dimension-items
+## Dimension-objecten
 
-Dimensionen bevatten de postcode of postcode van de bezoeker.
+Dimension-objecten bevatten de postcode van de bezoeker.
 
 ## Ondersteunde landen met postcodes
 

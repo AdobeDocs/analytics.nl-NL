@@ -4,7 +4,7 @@ title: Componenten in een project gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Voor informatie over hoe u de sectie van het segmentdaling op een paneel kunt ge
 
 ### Afmetingen toevoegen aan een project
 
-[ Afmetingen ](/help/components/dimensions/overview.md) zijn variabelen in Adobe Analytics die typisch koordwaarden bevatten. In tegenstelling, [ metriek ](/help/components/c-calcmetrics/cm-overview.md) bevatten numerieke waarden die aan een afmeting binden. Een basisrapport toont rijen van koordwaarden (afmeting), tegen een kolom van numerieke waarden (metrisch).
+[ Afmetingen ](/help/components/dimensions/overview.md) zijn variabelen in Adobe Analytics die typisch koordwaarden bevatten. In tegenstelling, [ metriek ](/help/components/calculated-metrics/cm-overview.md) bevatten numerieke waarden die aan een afmeting binden. Een basisrapport toont rijen van koordwaarden (afmeting), tegen een kolom van numerieke waarden (metrisch).
 
 1. Begin toevoegend een afmeting aan uw project in Analysis Workspace, zoals die in [ wordt beschreven voegt componenten aan een project ](#add-components-to-a-project) toe.
 
@@ -60,7 +60,7 @@ Voor informatie over hoe u de sectie van het segmentdaling op een paneel kunt ge
 
 1. U kunt desgewenst dimensies en dimensie-items in Analysis Workspace opsplitsen met andere componenten. Voor meer informatie, zie [ de dimensies van de Onderbreking in Workspace ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie &lbrace;de afmetingen van de Voorproef [, ](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md) de dimensies van de Onderbreking [, en ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) tijd-ontledende dimensies [.](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)
+Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie {de afmetingen van de Voorproef [, ](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md) de dimensies van de Onderbreking [, en ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) tijd-ontledende dimensies [.](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)
 
 ### Metriek toevoegen aan een project
 
@@ -103,7 +103,7 @@ Voor informatie over hoe u de sectie van het segmentdaling op een paneel kunt ge
 Wanneer u segmenten aan een kolom in een vrije-vormlijst toevoegt, zijn de segmenten op alle inhoud binnen de lijstkolom van toepassing. U kunt segmenten ook toevoegen als onderdeel van een uitvalvisualisatie.
 
 * Segmenten in componenten gebruiken
-Wanneer u componenten zoals [ berekende metriek ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) bepaalt, [ annotaties ](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder), of zelfs [ segmenten ](/help/components/segmentation/segmentation-workflow/seg-build.md) kunt u segmenten als deel van de definitie gebruiken.
+Wanneer u componenten zoals [ berekende metriek ](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) bepaalt, [ annotaties ](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder), of zelfs [ segmenten ](/help/components/segmentation/segmentation-workflow/seg-build.md) kunt u segmenten als deel van de definitie gebruiken.
 
 
 ### Datumbereiken toevoegen aan een project
@@ -132,7 +132,7 @@ U kunt over om het even welke component bewegen om ![ Meer info ](/help/assets/i
 
 Gebaseerd op uw toegangsbeheer, kunt u:
 
-* Heb toegang tot de ![ 2&rbrace; definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) &lbrace;voor de component.[!UICONTROL Data dictionary]
+* Heb toegang tot de ![ 2} definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) {voor de component.[!UICONTROL Data dictionary]
 * Heb toegang tot ![ uitgeeft ](/help/assets/icons/Edit.svg) componentenbouwer waar de component wordt bepaald.
 
 
@@ -245,7 +245,7 @@ When you add segments to a column in a freeform table, the segments apply to all
 
 In the Calculated metric builder, you can apply segments within your metric definition. 
 
-For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+For more information, see [Segmented metrics](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Add date ranges to a project
 

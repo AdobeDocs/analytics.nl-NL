@@ -1,9 +1,9 @@
 ---
 title: Bot-naam
 description: De naam van beide die aan de regels van de Bot voldeed.
-exl-id: 668c1dce-c603-477a-9df7-dacb649bbf63
+exl-id: 034dce46-e83c-4053-a062-3998231f8d6b
 feature: Dimensions
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Bot-naam
 
-De naam van de &#39;Bot&#39; [dimensie](overview.md) toont de namen van de bots die zijn gedetecteerd met [Bot-regels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md). Deze regels kunnen standaardIAB regels, of de regels van de douanebot zijn die uw organisatie vormt. Het is handig als u meer wilt weten over welke bots uw site bezoeken of welke bots het meeste verkeer genereren.
+De &quot;Bot naam&quot;[ dimensie ](overview.md) toont de namen van bots die gebruikend [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) werden ontdekt. Deze regels kunnen standaardIAB regels, of de regels van de douanebot zijn die uw organisatie vormt. Het is handig als u meer wilt weten over welke bots uw site bezoeken of welke bots het meeste verkeer genereren.
 
-Komt overeen met [!UICONTROL Bot rules] automatisch uit alle analytische rapportage worden gefilterd, met uitzondering van deze dimensie; [Beide voorvallen](../metrics/bot-occurrences.md), en [Boven pagina weergeven](../metrics/bot-page-views.md). U kunt deze dimensie en deze twee meeteenheden gebruiken om te zien welke beide gegevens van de rest van uw rapporten worden uitgesloten.
+Hits die [!UICONTROL Bot rules] aanpassen wordt automatisch gefilterd uit alle Analytics die met uitzondering op deze afmeting, [ verschijnen Bot ](../metrics/bot-occurrences.md), en [ Bot paginameningen ](../metrics/bot-page-views.md) melden. U kunt deze dimensie en deze twee meeteenheden gebruiken om te zien welke beide gegevens van de rest van uw rapporten worden uitgesloten.
 
 Aangezien beide rapportages van de rest van uw gegevens van de rapportreeks worden gescheiden, slechts worden de volgende dimensies en metriek gesteund met deze dimensie:
 
 * [Pagina](page.md)
-* Op tijd gebaseerde afmetingen (bijvoorbeeld [Dag](day.md), [Week](week.md), of [Maand](month.md))
+* Op tijd-gebaseerde afmetingen (bijvoorbeeld, [ Dag ](day.md), [ Week ](week.md), of [ Maand ](month.md))
 * [Beide voorvallen](../metrics/bot-occurrences.md)
 * [Boven pagina weergeven](../metrics/bot-page-views.md)
 
@@ -27,8 +27,8 @@ Het gebruiken van een andere afmeting of metrisch met deze afmeting keert geen g
 
 ## Deze dimensie vullen met gegevens
 
-Als u [Bot-regels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)Deze dimensie verzamelt automatisch gegevens. Als u dit nog niet hebt gedaan [!UICONTROL Bot rules], komt deze dimensie niet voor in Analysis Workspace.
+Als u [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) hebt toegelaten, verzamelt deze dimensie automatisch gegevens. Als u [!UICONTROL Bot rules] nog niet hebt ingeschakeld, wordt deze dimensie niet weergegeven in Analysis Workspace.
 
-## Dimension-items
+## Dimension-objecten
 
 Elk dimensie-item bevat de naam van de beide elementen die overeenkomen met IAB- of aangepaste beide regelcriteria.

@@ -4,9 +4,9 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,9 @@ De beschikbare kolommen zijn:
 | --- | --- |
 | Voorkeuren bewerken | Laat u [!UICONTROL View Tutorials], en [ uitgeven gebruikersvoorkeur ](/help/analyze/analysis-workspace/user-preferences.md). |
 | [!UICONTROL Create new] | Opent het project modaal waar u een project van Workspace of een Mobiele scorecard kunt tot stand brengen of een bedrijfmalplaatje openen. |
-| [!UICONTROL Show less<br> Meer weergeven &#x200B;] | De knevels tussen het tonen van en het tonen van niet de banner: ![ Top banner ](assets/top-banner.png) |
-| [!UICONTROL Workspace project] | Creeert een leeg [ project van Workspace ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=nl-NL) voor u om te ontwerpen en te bouwen. |
-| [!UICONTROL Mobile scorecard] | Creeert een lege [ mobiele scorecard ](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=nl-NL) voor u om te ontwerpen en te bouwen. |
+| [!UICONTROL Show less<br> Meer weergeven ] | De knevels tussen het tonen van en het tonen van niet de banner: ![ Top banner ](assets/top-banner.png) |
+| [!UICONTROL Workspace project] | Creeert een leeg [ project van Workspace ](/help/analyze/analysis-workspace/home.md) voor u om te ontwerpen en te bouwen. |
+| [!UICONTROL Mobile scorecard] | Creeert een lege [ mobiele scorecard ](/help/analyze/mobile-app/curator.md) voor u om te ontwerpen en te bouwen. |
 | [!UICONTROL Open Training Tutorial] | Hiermee opent u de Workspace-trainingszelfstudie die u begeleidt bij het ontwikkelen van een nieuw startproject in een stapsgewijze zelfstudie. |
 | [!UICONTROL Open release notes] | Hiermee opent u het Adobe Analytics-gedeelte van de meest recente Adobe Experience Cloud-releaseopmerkingen. |
 | Filterpictogram | Filters op tags, rapportsuites, eigenaars, typen en andere filters (Mijne, Gedeeld met mij, Favorieten en Goedgekeurd) |
@@ -84,8 +84,8 @@ De beschikbare kolommen zijn:
 | [!UICONTROL Favorites] | Hiermee voegt u een ster toe naast een favoriet project dat of een favoriete map die als filter kan worden gebruikt. |
 | [!UICONTROL Name] | Identificeert de naam van het project. |
 | Pictogram Vastzetten | Hiermee worden items vastgezet, zodat ze altijd boven aan de lijst worden weergegeven, maar u kunt de volgorde wijzigen door ze omhoog of omlaag in de volgorde te verplaatsen. Gebruik het de optiemenu van de ellips en selecteer **Beweging omhoog** of **Beweging neer** in de lijst. |
-| Info (i), pictogram | Toont de volgende informatie over een project: Type, de Rol van het Project, Eigenaar, Beschrijving, en wie het met wordt gedeeld. Het wijst ook op wie [&#128279;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=nl-NL) dit project uitgeven of kan dupliceren. |
-| Ovaal (...) | Toont de acties van het projectbeheer u kunt uitvoeren: **Schrapping**, **Aandeel**, **anders noemen**, **Exemplaar**, **Unpin**, **Beweging omhoog**, **Beweging neer**, **Markering** goedkeuren **&rbrace;,** de Uitvoer CSV **, en** Beweging aan **.** U hebt mogelijk geen machtigingen om alle vermelde handelingen uit te voeren. |
+| Info (i), pictogram | Toont de volgende informatie over een project: Type, de Rol van het Project, Eigenaar, Beschrijving, en wie het met wordt gedeeld. Het wijst ook op wie [ ](/help/analyze/analysis-workspace/curate-share/share-projects.md) dit project uitgeven of kan dupliceren. |
+| Ovaal (...) | Toont de acties van het projectbeheer u kunt uitvoeren: **Schrapping**, **Aandeel**, **anders noemen**, **Exemplaar**, **Unpin**, **Beweging omhoog**, **Beweging neer**, **Markering** goedkeuren **},** de Uitvoer CSV **, en** Beweging aan **.** U hebt mogelijk geen machtigingen om alle vermelde handelingen uit te voeren. |
 | TONEN: Mappen en projecten voor alle projecten | Verandert de mening die op de lijst plaatst om omslagen en projecten volgens uw omslagorganisatie **te tonen of** al uw projecten in een ongeorganiseerde lijst toont. |
 | &lt; (Terug) | Hiermee gaat u terug naar de meest recente configuratie van de bestemmingspagina in een Workspace-project of een rapport. De paginasonfiguratie die u had toen u de openingspagina verliet, blijft bestaan wanneer u terugkeert. |
 

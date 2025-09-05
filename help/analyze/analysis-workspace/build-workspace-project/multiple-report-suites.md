@@ -4,9 +4,9 @@ description: Leer hoe u met meerdere rapportensuites werkt in één Analysis Wor
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,6 @@ U kunt het actieve deelvenster herkennen aan de lichtblauwe rand eromheen. Selec
 
 1. (Optioneel) U kunt ook naar andere componentbuilders van Analytics gaan en ervoor zorgen dat deze nu een label van een rapportsuite tonen die
 
-   * Waar een segment zal worden gecreeerd: [ de bouwer van het Segment ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=nl-NL).
-   * Waar berekende metrisch zal worden gecreeerd: [ Berekende metrische bouwer ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=nl-NL).
-   * Waar een alarm zal worden gebouwd: [ Alert bouwer ](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=nl-NL).
+   * Waar een segment zal worden gecreeerd: [ de bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md).
+   * Waar berekende metrisch zal worden gecreeerd: [ Berekende metrische bouwer ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
+   * Waar een alarm zal worden gebouwd: [ Alert bouwer ](/help/components/alerts/alert-builder.md).

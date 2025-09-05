@@ -4,9 +4,9 @@ title: Overzicht van segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ U kunt segmenten maken en gebruiken in Analysis Workspace en Customer Journey An
 | --- | --- | --- | --- |
 | Segment op lijst met componenten | Zie hoe te [ een segment ](/help/components/segmentation/segmentation-workflow/seg-create.md) creëren. | Alle Workspace-projecten | Voor complexere segmenten, opeenvolgende segmenten |
 | Snel segment | [ Snelle segmentbouwer ](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Kan worden gebruikt voor ad-hocsegmenten met één regel (met slepen en neerzetten) of om meerdere regels toe te voegen/te bewerken (door op het pictogram Segment te klikken) |
-| Op cijfers gebaseerd segment | [ Berekende metrische bouwer ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=nl-NL) | Op berekende individuele metrieke waarde | Segment/s toepassen binnen uw metrische definitie |
-| Op suite gebaseerd segment van virtueel rapport | [ de Virtuele bouwer van de rapportsuite ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) | Naar afzonderlijke virtuele rapportsuite | Segment/segmenten toepassen binnen de definitie van uw virtuele rapportsuite |
+| Op cijfers gebaseerd segment | [ Berekende metrische bouwer ](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | Op berekende individuele metrieke waarde | Segment/s toepassen binnen uw metrische definitie |
+| Op suite gebaseerd segment van virtueel rapport | [ de Virtuele bouwer van de rapportsuite ](/help/components/vrs/c-workflow-vrs/vrs-create.md) | Naar afzonderlijke virtuele rapportsuite | Segment/segmenten toepassen binnen de definitie van uw virtuele rapportsuite |
 
 ## Video&#39;s
 

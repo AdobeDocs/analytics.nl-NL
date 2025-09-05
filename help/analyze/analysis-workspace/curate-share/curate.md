@@ -5,9 +5,9 @@ title: Cursieve projecten
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ projecten van
 De componenten die in het project worden gebruikt worden automatisch toegevoegd.
 Als een project veelvoudige rapportreeksen heeft, ziet u een curate dalingsdoel voor elke rapportreeks in het project.
 1. (Optioneel) Als u meer componenten wilt toevoegen, sleept u componenten die u wilt delen van het linkerdeelvenster naar de neerzetzone **[!UICONTROL Curate components]** voor de gegevensweergave.
-1. Selecteer **[!UICONTROL Done]** .
+1. Selecteer **[!UICONTROL Done]**.
 
 
 ![](assets/curation-field.png)
@@ -46,12 +46,12 @@ Wanneer een ontvanger een gebogen project opent, zien zij slechts de gebogen ree
 U kunt als volgt de projectcuratie verwijderen en de volledige set componenten in de linkerspoorstaaf herstellen:
 
 1. Selecteer **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]** .
-1. Selecteer **[!UICONTROL Remove Curation]** .
-1. Selecteer **[!UICONTROL Done]** .
+1. Selecteer **[!UICONTROL Remove Curation]**.
+1. Selecteer **[!UICONTROL Done]**.
 
 ## Curve virtuele rapportsuite
 
-Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [ tot stand brengen ](https://experienceleague.adobe.com/nl/docs/analytics/components/virtual-report-suites/vrs-components).
+Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [ tot stand brengen ](/help/components/vrs/vrs-components.md).
 
 >[!NOTE]
 >

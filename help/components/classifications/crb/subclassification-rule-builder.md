@@ -3,7 +3,7 @@ description: Gebruik subclassificaties met de bouwer van de classificatieregel.
 title: Subclassificaties en de Bouwer van de Regel
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -42,7 +42,7 @@ De stappen van het voorbeeld die beschrijven hoe u subclassificaties kunt upload
 
    Voorbeeld:
 
-   ![ Info van de Stap ](/help/admin/admin/assets/sub_class_create.png)
+   ![ Info van de Stap ](/help/admin/tools/assets/sub_class_create.png)
 
 1. In de [ bouwer van de classificatieregel van Classificaties ](/help/components/classifications/crb/classification-rule-builder.md), classificeer de sub-classificatiesleutel van de originele volgende code.
 

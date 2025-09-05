@@ -3,9 +3,9 @@ description: Meer informatie over geavanceerde segmentatiefuncties in Analysis W
 title: Geavanceerde functies
 feature: Segmentation
 exl-id: d8bf7d36-32d7-4652-b744-7cc915d94b79
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Buiten het [ standaardgebruik van segmenten ](/help/components/segmentation/segm
 
 * [Segmentvergelijking](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-* [ pas segmenten in Analyse van de Uitval toe ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=nl-NL)
+* [Segmenten toepassen in Fallout-analyse](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
 
 >[!MORELIKETHIS]
 >

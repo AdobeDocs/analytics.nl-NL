@@ -1,22 +1,22 @@
 ---
-title: Referrer
+title: Referenter
 description: De URL waar een bezoeker zich bevond voordat hij op uw site klikte.
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
 
 ---
 
-# Referrer
+# Referenter
 
-De verwijzing [dimensie](overview.md) geeft aan op welke URL&#39;s bezoekers stonden wanneer ze door klikten om uw site te bereiken. Deze dimensie is nuttig om te begrijpen welke specifieke URLs het meeste verkeer aan uw plaats drijft. De externe URL moet een koppeling bevatten en een bezoeker moet erop klikken om het dimensie-item weer te geven.
+De &quot;Verwijzer&quot;[ dimensie ](overview.md) meldt welke bezoekers URLs wanneer het klikken door waren om uw plaats te bereiken. Deze dimensie is nuttig om te begrijpen welke specifieke URLs het meeste verkeer aan uw plaats drijft. De externe URL moet een koppeling bevatten en een bezoeker moet erop klikken om het dimensie-item weer te geven.
 
 >[!IMPORTANT]
 >
->U moet uw rapportreeks vormen [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) om deze dimensie te gebruiken. Als u interne URL-filters niet configureert, kan dit interne URL&#39;s of externe URL&#39;s bevatten.
+>U moet de interne filters van URL van uw rapportreeks [ vormen ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) om deze afmeting te gebruiken. Als u interne URL-filters niet configureert, kan dit interne URL&#39;s of externe URL&#39;s bevatten.
 
 Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Workspace en Data Warehouse. Analysis Workspace rapporteert de referentie voor elke afzonderlijke pagina, exclusief waarden die overeenkomen met interne URL-filters. Data Warehouse rapporteert alleen de eerste referentie van het bezoek en negeert interne URL-filters.
 
@@ -24,16 +24,16 @@ Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Worksp
 
 Deze dimensie vereist configuratie in de interface van Analytics en gegevens in beeldverzoeken.
 
-* Binnen uw implementatie, wint deze dimensie gegevens van terug [`r` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen. AppMeasurement verzamelt deze gegevens met de JavaScript-variabele `document.referrer` in de browser. U kunt de [`referrer`](/help/implement/vars/page-vars/referrer.md) variabele overschrijving om deze handmatig in te stellen. Als u een bibliotheek met AppMeasurementen gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u een methode voor gegevensverzameling buiten het AppMeasurement gebruikt (bijvoorbeeld via de API), moet u de opdracht `r` parameter querytekenreeks in afbeeldingsaanvragen.
-* Binnen de interface van Analytics, moet u uw rapportreeks vormen [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Als u interne URL-filters niet configureert, kan dit interne URL&#39;s of externe URL&#39;s bevatten.
+* Binnen uw implementatie, wint deze afmeting gegevens van het [`r` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met de JavaScript-variabele `document.referrer` in de browser. U kunt de variabele [`referrer`](/help/implement/vars/page-vars/referrer.md) overschrijven gebruiken om deze handmatig in te stellen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u buiten AppMeasurement (bijvoorbeeld via de API) een gegevensverzamelingsmethode gebruikt, moet u de parameter van de `r` querytekenreeks opnemen in afbeeldingsaanvragen.
+* Binnen de interface van Analytics, moet u de interne filters van URL van uw rapportreeks [ ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) vormen. Als u interne URL-filters niet configureert, kan dit interne URL&#39;s of externe URL&#39;s bevatten.
 
-## Dimension-items
+## Dimension-objecten
 
-Items van een Dimension bevatten URL&#39;s waarop bezoekers klikken om uw site te doorlopen. Als een treffer geen verwijzersgegevens heeft, groepeert het zich onder het afmetingspunt `"Typed/Bookmarked"`. Dit afmetingsitem betekent dat er geen verwijzingswaarde is, bijvoorbeeld dat de bezoeker het browseradres handmatig in de adresbalk heeft getypt of op een bladwijzer heeft geklikt. De `"Typed/Bookmarked"` Dimensie-item wordt ook weergegeven voor omleidingen die geen ruimte bieden aan Analytics. Zie [Omleiding en aliassen](/help/technotes/redirects.md) in de gebruikershandleiding voor technische notities.
+Dimension-items bevatten URL&#39;s waarop bezoekers naar uw site klikken. Als een hit geen verwijzingsgegevens heeft, wordt deze gegroepeerd onder het dimensie-item `"Typed/Bookmarked"` . Dit afmetingsitem betekent dat er geen verwijzingswaarde is, bijvoorbeeld dat de bezoeker het browseradres handmatig in de adresbalk heeft getypt of op een bladwijzer heeft geklikt. Het item voor de `"Typed/Bookmarked"` dimensie wordt ook weergegeven voor omleidingen die geen ruimte bieden voor Analytics. Zie [ Omleiding en aliassen ](/help/technotes/redirects.md) in de de gebruikersgids van TechNotes.
 
 ### Dimension-items met `googleusercontent.com`
 
-Gebruikers kunnen dimensie-items met het domein zien `googleusercontent.com`.
+Gebruikers kunnen dimensie-items zien met het domein `googleusercontent.com` .
 
-* **Pagina&#39;s in cache**: Google-spinnen doorzoeken voortdurend het web en slaan kopieën van pagina&#39;s op voor het geval ze offline worden genomen. Deze in cache geplaatste pagina&#39;s zijn beschikbaar naast de meeste zoekresultaten door op de koppeling &#39;In cache&#39; te klikken. Wanneer een gebruiker op deze koppeling klikt en de inhoud weergeeft die in Google in cache is geplaatst, `webcache.googleusercontent.com` is een typisch afmetingspunt.
-* **Vertaalde pagina&#39;s**: Google biedt een robuuste en handige vertaalservice. Wanneer u een site weergeeft met deze service, komt deze van `translate.googleusercontent.com`. Dit item voor afmetingen wordt weergegeven als de gebruiker op een koppeling klikt om terug te keren naar de oorspronkelijke inhoud.
+* **Caching pagina&#39;s**: De spinnen van Google kruipen constant het Web en slaan exemplaren van pagina&#39;s op voor het geval zij offline worden genomen. Deze in cache geplaatste pagina&#39;s zijn beschikbaar naast de meeste zoekresultaten door op de koppeling &#39;In cache&#39; te klikken. Wanneer een gebruiker op deze koppeling klikt en de inhoud bekijkt die in Google in cache is geplaatst, is `webcache.googleusercontent.com` een typisch dimensie-item.
+* **Vertaalde pagina&#39;s**: Google biedt een robuuste en geschikte vertaaldienst aan. Wanneer u een site weergeeft met deze service, komt deze van `translate.googleusercontent.com` . Dit item voor afmetingen wordt weergegeven als de gebruiker op een koppeling klikt om terug te keren naar de oorspronkelijke inhoud.

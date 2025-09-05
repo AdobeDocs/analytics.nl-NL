@@ -3,16 +3,16 @@ title: Upgrade van SFTP-services - Veelgestelde vragen
 description: Veelgestelde vragen over de geplande SFTP-services-upgrade.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 2%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
 # Upgrade van SFTP-services - Veelgestelde vragen
 
-In september 2022 zal Adobe Analytics zijn Secure File Transfer Protocol bijwerken [SFTP] om de beveiliging van bestandsoverdrachten te verbeteren. Door deze wijziging worden sommige SFTP-clientconfiguraties niet meer ondersteund. Dit is alleen van invloed op gegevens die via SFTP naar Adobe Analytics worden verzonden of van worden opgehaald. Het FTP-protocol wordt niet beïnvloed. Om onderbreking van de dienst te vermijden, gelieve uw cliënten SFTP (code, hulpmiddelen, de diensten) in overeenstemming met de hieronder gespecificeerde veranderingen te zijn.
+In september 20, 2022, zal Adobe Analytics zijn Veilige diensten van het Protocol van de Overdracht van het Dossier [ SFTP ] bevorderen om betere veiligheid voor dossieroverdrachten te verstrekken. Door deze wijziging worden sommige SFTP-clientconfiguraties niet meer ondersteund. Dit is alleen van invloed op gegevens die via SFTP naar Adobe Analytics worden verzonden of van worden opgehaald. Het FTP-protocol wordt niet beïnvloed. Om onderbreking van de dienst te vermijden, gelieve uw cliënten SFTP (code, hulpmiddelen, de diensten) in overeenstemming met de hieronder gespecificeerde veranderingen te zijn.
 
 ## Hoe kan ik bepalen welke algoritmen, verbindingstypes, en protocollen momenteel door mijn organisatie worden gebruikt?
 
@@ -24,21 +24,22 @@ De verbindingsopties die worden verwijderd, worden over het algemeen als veroude
 
 De volgende functies bieden een optie voor het uploaden van gegevens naar Adobe Analytics met behulp van SFTP.
 
-* [Classificaties](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=nl-NL)
+* [Classificaties](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
-* [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=nl-NL)
+* [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
-* [Gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=nl-NL)
+* [Gegevensfeeds](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 
-* [Databronnen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=nl-NL)
+* [Databronnen](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
 
-* [Data Warehouse levert rapporten](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=nl-NL)
+* [Data Warehouse levert rapporten](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
 
-* Bovendien, sommige douaneimplementaties die door worden gecreeerd [Engineering Services](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=nl-NL) kan SFTP gebruiken om gegevens uit te wisselen met Adobe.
+* Bovendien, kunnen sommige douaneimplementaties die door [ de Diensten van de Techniek ](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md) worden gecreeerd SFTP gebruiken om gegevens met Adobe uit te wisselen.
 
 ## Welke specifieke wijzigingen worden in deze update opgenomen?
 
-Hieronder volgt een gedetailleerde lijst met verbindingen en algoritmen die worden verwijderd en die worden ondersteund:
+Hieronder volgt een gedetailleerde lijst met verbindingen en algoritmen die worden verwijderd en die
+ondersteund:
 
 * Mac-algoritmen voor SFTP-protocol:
 

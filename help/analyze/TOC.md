@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 10%
@@ -13,8 +13,8 @@ ht-degree: 10%
 
 # Adobe Analytics Tools Guide {#analyze}
 
-+ [Handleiding Analytics-tools](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [Handleiding voor analysegereedschappen](home.md)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -144,7 +144,7 @@ ht-degree: 10%
       + [Overzicht van kenmerken](analysis-workspace/attribution/overview.md)
       + [Venster Model, container en lookback](analysis-workspace/attribution/models.md)
       + [Algorithmic, toewijzing](analysis-workspace/attribution/algorithmic.md)
-      + [Aanbevolen procedures](analysis-workspace/attribution/best-practices.md)
+      + [Best practices](analysis-workspace/attribution/best-practices.md)
       + [Veelgestelde vragen](analysis-workspace/attribution/faq.md)
    + [Reisbeheer](analysis-workspace/journey-iq.md)
    + [Segmentvergelijking](analysis-workspace/segment-iq.md)
@@ -282,7 +282,7 @@ ht-degree: 10%
       + [Beperkingen en specificaties](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
       + [Gegevens handmatig importeren naar Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [Gepubliceerde middelen ophalen in Power BI Desktop](legacy-report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [Aanbevolen procedures](legacy-report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [Best practices](legacy-report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Problemen met Power BI-integratie oplossen](legacy-report-builder/c-publish-power-bi/troubleshooting.md)
       + [Adobe Analytics-inhoudspakketten voor Power BI](legacy-report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic-macro&#39;s](legacy-report-builder/vba.md)

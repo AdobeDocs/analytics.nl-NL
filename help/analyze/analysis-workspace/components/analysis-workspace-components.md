@@ -4,7 +4,7 @@ description: Leer welke componenten Adobe Analytics aanbiedt en hoe u component 
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 2%
@@ -23,11 +23,11 @@ Componenten beheren vanuit de Adobe Analytics-hoofdinterface:
 U kunt de volgende componenten beheren:
 
 * [ Segmenten ](/help/components/segmentation/seg-home.md): Bouw, beheer, deel, en pas krachtige, geconcentreerde publiekssegmenten op uw rapporten toe. Met segmenten kunt u subsets van personen identificeren op basis van kenmerken of interacties.
-* [ Berekende metriek ](/help/components/c-calcmetrics/cm-overview.md): De metriek en de formules van het gebruik als nieuwe componenten voor gebruik in het melden
+* [ Berekende metriek ](/help/components/calculated-metrics/cm-overview.md): De metriek en de formules van het gebruik als nieuwe componenten voor gebruik in het melden
 * [ waaiers van de Datum ](calendar-date-ranges/custom-date-ranges.md): Pas en verfijn de aanbiedingen van de datumwaaiers Analysis Workspace aan.
 * [ Geplande projecten ](../curate-share/t-schedule-report.md): Beheer uw geplande projecten.
 * [ Plaatsen ](../../../components/locations/locations-manager.md): beheer de plaatsen om uw projecten naar uit te voeren.
-* [ Alarm ](/help/components/c-alerts/intellligent-alerts.md): Toestaan u om op veranderde percentages of specifieke gegevenspunten worden op de hoogte gebracht.
+* [ Alarm ](/help/components/alerts/alerts-overview.md): Toestaan u om op veranderde percentages of specifieke gegevenspunten worden op de hoogte gebracht.
 * [ Annotaties ](annotations/overview.md): Communiceer contextuele gegevensnuances en inzichten aan uw organisatie.
 * [ Voorkeur ](/help/analyze/analysis-workspace/user-preferences.md): Beheer de voorkeur voor Analysis Workspace.
 
@@ -83,7 +83,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 2. Typ in het zoekveld de naam van de component die u in het project wilt gebruiken.
 
-   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen** Dimension ![ is oranje, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) Segmenten **&#x200B;**&#x200B;het pictogram van het Segment ![ is blauw, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) de waaiers van de Datum **&#x200B;**&#x200B;het de waaierpictogram van de Datum is paars, en ![ Metriek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) **Metrisch pictogram** is groen.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
+   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen** Dimension ![ is oranje, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) Segmenten **** het pictogram van het Segment ![ is blauw, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) de waaiers van de Datum **** het de waaierpictogram van de Datum is paars, en ![ Metriek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) **Metrisch pictogram** is groen.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
 
 3. Selecteer de component in het keuzemenu.
 
@@ -91,7 +91,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 1. Selecteer het **pictogram van Componenten** pictogram van Componenten ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
-2. Selecteer **&#x200B;**&#x200B;het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1&rbrace; Filter ![, of ga ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) op het onderzoeksgebied in.`#`
+2. Selecteer **** het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1} Filter ![, of ga ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) op het onderzoeksgebied in.`#`
 
 3. Selecteer een van de volgende filteropties om de lijst met componenten te filteren:
 
@@ -103,7 +103,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
    | ![ Gebeurtenis ](/help/assets/icons/Event.svg) | **[!UICONTROL Metrics]** | Alleen componenten weergeven die Metrisch zijn. |
    | ![Segmentering](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segments]** | Alleen componenten weergeven die segmenten zijn. |
    | ![ Kalender ](/help/assets/icons/Calendar.svg) | **[!UICONTROL Date ranges]** | Alleen componenten tonen die Datumbereiken zijn. |
-   | ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL *naam van de Markering *]** | Alleen componenten met de specifieke geselecteerde labels weergeven. Een specifieke markering is beschikbaar voor het Malplaatje van Adobe die de [ gebrek berekende metriek ](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md) van Adobe zijn. |
+   | ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL *naam van de Markering *]** | Alleen componenten met de specifieke geselecteerde labels weergeven. Een specifieke markering is beschikbaar voor het Malplaatje van Adobe die de [ gebrek berekende metriek ](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md) van Adobe zijn. |
 
    Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) in een filter om de filter te verwijderen.
 
@@ -117,7 +117,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 2. Selecteer **het pictogram van Componenten** ![ Componenten ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
-3. Selecteer **&#x200B;**&#x200B;de componentenpictogram van de Soort van de Soort ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te sorteren.
+3. Selecteer **** de componentenpictogram van de Soort van de Soort ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te sorteren.
 
 De volgende sorteeropties zijn beschikbaar:
 
@@ -125,7 +125,7 @@ De volgende sorteeropties zijn beschikbaar:
 
 ## Toegangsmachtigingen
 
-In Analysis Workspace, kunnen de beheerders [&#128279;](/help/analyze/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.
+In Analysis Workspace, kunnen de beheerders [ ](/help/analyze/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.
 
 
 <!--
@@ -133,15 +133,15 @@ In Analysis Workspace, kunnen de beheerders [&#128279;](/help/analyze/analysis-w
 
 Components in Analysis Workspace consist of dimensions, metrics, segments, and date ranges that you can drag-and-drop onto a project. 
 
-To access the Components menu, click the **[!UICONTROL Components]** icon in the left rail. You can switch among ![WebPage](/help/assets/icons/WebPage.svg)[panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL), [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=nl-NL), and components from the left rail icons or by using [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+To access the Components menu, click the **[!UICONTROL Components]** icon in the left rail. You can switch among ![WebPage](/help/assets/icons/WebPage.svg)[panels](/help/analyze/analysis-workspace/c-panels/panels.md), [visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), and components from the left rail icons or by using [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/component-overview.png)
 
-You can also adjust the [View density settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=nl-NL) for the project to see more values in the left rail at once by going to **[!UICONTROL Project > Project Info & Settings > View Density]**.
+You can also adjust the [View density settings](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) for the project to see more values in the left rail at once by going to **[!UICONTROL Project > Project Info & Settings > View Density]**.
 
 ## Dimensions {#dimensions}
 
-[**Dimensions**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html?lang=nl-NL) are text attributes that describe your visitor behavior and can be viewed, broken down, and compared in your analysis. They can be found in the left Component rail (orange section) and are typically applied as rows of a table. 
+[**Dimensions**](/help/components/dimensions/overview.md) are text attributes that describe your visitor behavior and can be viewed, broken down, and compared in your analysis. They can be found in the left Component rail (orange section) and are typically applied as rows of a table. 
 
 Examples of dimensions include [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type], and [!UICONTROL Products]. Dimensions are provided by Adobe and are captured through your custom implementation (eVar, Props, classifications, etc).
 
@@ -153,27 +153,27 @@ Examples of dimension items include [!UICONTROL Homepage] (within the [!UICONTRO
 
 ## Metrics {#metrics}
 
-[**Metrics**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=nl-NL) are quantitative measures about visitor behavior. They can be found in the left Component rail (green section) and are typically applied as columns of a table.
+[**Metrics**](/help/components/metrics/overview.md) are quantitative measures about visitor behavior. They can be found in the left Component rail (green section) and are typically applied as columns of a table.
 
-Examples of metrics include [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], and [!UICONTROL Revenue/Order]. Metrics are provided by Adobe, or captured through your custom implementation ([!UICONTROL Success events]), or created using the [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=nl-NL).
+Examples of metrics include [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], and [!UICONTROL Revenue/Order]. Metrics are provided by Adobe, or captured through your custom implementation ([!UICONTROL Success events]), or created using the [Calculated metric builder](/help/components/calculated-metrics/workflow/cm-build-metrics.md).
 
 ![](assets/metrics.png)
 
 ## Segments {#segments}
 
-[**Segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=nl-NL) are audience filters that are applied to your analysis. They can be found in the left Component rail (blue section) and are typically applied at the top of a panel or above metric columns in a table. 
+[**Segments**](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) are audience filters that are applied to your analysis. They can be found in the left Component rail (blue section) and are typically applied at the top of a panel or above metric columns in a table. 
 
-Examples of segments include [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email], and [!UICONTROL Authenticated Hits]. Segments are provided by Adobe, or created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL), or created using the [Segment builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=nl-NL).
+Examples of segments include [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email], and [!UICONTROL Authenticated Hits]. Segments are provided by Adobe, or created in the [panel dropzone](/help/analyze/analysis-workspace/c-panels/panels.md), or created using the [Segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md).
 
 ![](assets/segments.png)
 
 ## Date Ranges {#date-ranges}
 
-[**Date Ranges**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=nl-NL) are the range of dates you conduct your analysis across. They can be found in the left Component rail (purple section) and are typically applied in the calendar of each panel.
+[**Date Ranges**](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) are the range of dates you conduct your analysis across. They can be found in the left Component rail (purple section) and are typically applied in the calendar of each panel.
 
 You can make the date range components relative to the panel calendar. For additional information, see [About relative panel date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
-Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICONTROL This month]. Date ranges are provided by Adobe, applied in the [panel calendar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=nl-NL), or created using the [Date range builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=nl-NL).
+Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICONTROL This month]. Date ranges are provided by Adobe, applied in the [panel calendar](/help/analyze/analysis-workspace/c-panels/panels.md), or created using the [Date range builder](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md).
 
 ![](assets/date-ranges.png)
 

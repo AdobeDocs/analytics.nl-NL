@@ -3,10 +3,10 @@ title: Betaalde zoekgegevens importeren
 description: Stappen om Adobe Analytics te configureren voor het bijhouden van uw betaalde zoekgegevens (bijvoorbeeld Google Ads, Microsoft Advertising, enz.) met behulp van gegevensbronnen.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 0%
+source-wordcount: '1098'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Onze eerste stap is om Adobe Analytics voor te bereiden op het ontvangen van de 
 
 1. Klik op Opslaan.
 Je ontvangt een bericht dat je bespaart is goedgekeurd.
-1. Navigeer naar **[!UICONTROL Admin > Report Suites > Edit Settings > Conversion > Conversion Variables]** .
+1. Ga naar **[!UICONTROL Admin > Report Suites > Edit Settings > Conversion > Conversion Variables]**.
 1. Schakel volgcodes in door het selectievakje naast **[!UICONTROL Tracking Code]** onder **[!UICONTROL Campaign > Campaign Variable]** in te schakelen.
 
    ![ variabele van de Campagne ](assets/campaign-variable.png)
@@ -51,7 +51,7 @@ Je ontvangt een bericht dat je bespaart is goedgekeurd.
 
 Met [!UICONTROL Data Sources] kunt u niet-klikstreamgegevens delen met Adobe Analytics. In dit geval gebruiken we Adobe Analytics om betaalde zoekgegevens bij te houden. We gebruiken de trackingcode als onze sleutel om de twee stukken gegevens - betaalde zoekgegevens en Adobe Analytics-meetgegevens - samen te voegen.
 
-1. Navigeer naar **[!UICONTROL Adobe Analytics > Admin > All admin > Data sources]** .
+1. Ga naar **[!UICONTROL Adobe Analytics > Admin > All admin > Data sources]**.
 1. Selecteer het tabblad **[!UICONTROL Create]** om nieuwe gegevensbronnen te activeren.
 1. Selecteer onder **[!UICONTROL Select Category]** de optie **[!UICONTROL Ad Campaign]** .
 
@@ -66,7 +66,7 @@ In [!UICONTROL Data Source Activation Wizard] wordt het volgende weergegeven:
 1. Klik op **[!UICONTROL Next]** en geef de gegevensbron een naam. Deze naam wordt weergegeven in Data Source Manager.
 1. Accepteer de serviceovereenkomst en klik op **[!UICONTROL Next]** .
 1. Selecteer de drie standaardmetriek: [!UICONTROL Impressions] , [!UICONTROL Clicks] en [!UICONTROL Total Cost] en klik op **[!UICONTROL Next]** .
-1. Nu &quot;kaart&quot;deze nieuwe gegevensbron aan de douanegebeurtenissen die wij in [ gebeurtenissen van het Succes ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) creeerden.
+1. Nu &quot;kaart&quot;deze nieuwe gegevensbron aan de douanegebeurtenissen die wij in [ gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) creeerden.
 
    ![ Toewijzing ](assets/data-source-mapping.png)
 
@@ -118,7 +118,7 @@ Ga terug naar de wizard Data Source voor instructies en upload het bestand via F
 
 Het toevoegen van berekende metriek zal nuttig zijn wanneer het maken van loon-per-klikbesluiten.
 
-Bijvoorbeeld, kon u deze [ berekende metriek ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=nl-NL#calculated-metrics) toevoegen:
+Bijvoorbeeld, kon u deze [ berekende metriek ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics) toevoegen:
 
 | Naam | Formule | Metrisch type | Beschrijving |
 | --- | --- | --- | --- |
@@ -135,7 +135,7 @@ Bijvoorbeeld, kon u deze [ berekende metriek ](https://experienceleague.adobe.co
 De laatste stap is de gegevensbronmetriek en om het even welke berekende metriek aan het Volgen rapport van de Code toe te voegen en neer in een campagne te boren om een directe mening van te krijgen hoe elke Advertentiegroep presteert.
 
 1. Selecteer in **[!UICONTROL Adobe Analytics > Reports]** de rapportsuite waarin u gegevensbronnen hebt geïmporteerd.
-1. Navigeer naar **[!UICONTROL Reports > Campaigns > Tracking Code > Tracking Code]** .
+1. Ga naar **[!UICONTROL Reports > Campaigns > Tracking Code > Tracking Code]**.
 1. Selecteer het datumbereik.
 1. Klik op **[!UICONTROL Metrics > Add]** en voeg de afmetingen van uw gegevensbron (klikken, Impressies, Totale kosten) toe uit de lijst Standaardstatistieken.
 1. Doe het zelfde voor om het even welke berekende metriek u kunt hebben toegevoegd. Het rapport wordt bijgewerkt terwijl u metriek toevoegt.

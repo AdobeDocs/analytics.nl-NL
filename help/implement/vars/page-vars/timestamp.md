@@ -4,9 +4,9 @@ description: Stel handmatig de tijdstempel van de hit in.
 feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Met de variabele `timestamp` wordt handmatig de tijdstempel van de hit ingesteld
 
 ## Tijdstempel met gebruik van de Web SDK
 
-Tijdstempel wordt [ in kaart gebracht voor Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=nl-NL) onder het XDM gebied `xdm.timestamp`. Dit veld ondersteunt alleen Unix-tijd.
+Tijdstempel wordt [ in kaart gebracht voor Adobe Analytics ](/help/implement/aep-edge/xdm-var-mapping.md) onder het XDM gebied `xdm.timestamp`. Dit veld ondersteunt alleen Unix-tijd.
 
 ## Tijdstempel met Adobe Analytics-extensie
 

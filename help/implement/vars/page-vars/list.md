@@ -4,7 +4,7 @@ description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten
 feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -19,15 +19,15 @@ Zorg ervoor dat u registreert hoe u elke lijstvariabele en hun logica in uw [ do
 
 >[!NOTE]
 >
->De variabelen van de lijst slaan de meest recente die waarden per bezoeker op zijn [!UICONTROL Max values] plaatsen in [ de reeksinstellingen van het Rapport ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) wordt gebaseerd. Er worden maximaal 250 waarden ondersteund. Als er meer unieke waarden zijn dan zijn toegestaan door de instelling [!UICONTROL Max values] , worden de oudste waarden niet aan metriek toegewezen.
+>De variabelen van de lijst slaan de meest recente die waarden per bezoeker op zijn [!UICONTROL Max values] plaatsen in [ de reeksinstellingen van het Rapport ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md) wordt gebaseerd. Er worden maximaal 250 waarden ondersteund. Als er meer unieke waarden zijn dan zijn toegestaan door de instelling [!UICONTROL Max values] , worden de oudste waarden niet aan metriek toegewezen.
 
 ## Lijstvariabelen instellen in de instellingen van de rapportsuite
 
-Zorg ervoor dat u elke lijstvariabele in de montages van de rapportreeks vormt alvorens hen in uw implementatie te gebruiken. Zie [ variabelen van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) in de gids Admin. Deze stap geldt voor alle implementatiemethoden.
+Zorg ervoor dat u elke lijstvariabele in de montages van de rapportreeks vormt alvorens hen in uw implementatie te gebruiken. Zie [ variabelen van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md) in de gids Admin. Deze stap geldt voor alle implementatiemethoden.
 
 ## Variabelen weergeven die de Web SDK gebruiken
 
-Als het gebruiken van het [**voorwerp XDM**](/help/implement/aep-edge/xdm-var-mapping.md), gebruiken de lijstvariabelen de gebieden XDM `xdm._experience.analytics.customDimensions.lists.list1.list[]` aan `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Elk arrayelement bevat een `"value"` -object dat elke tekenreeks bevat. Er is geen behoefte om een afbakening te verstrekken; de servers van de gegevensinzameling van Adobe ontdekken automatisch en omvatten het correcte die afbakeningsteken in [ wordt geplaatst de reeksinstellingen van het Rapport ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Als het gebruiken van het [**voorwerp XDM**](/help/implement/aep-edge/xdm-var-mapping.md), gebruiken de lijstvariabelen de gebieden XDM `xdm._experience.analytics.customDimensions.lists.list1.list[]` aan `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Elk arrayelement bevat een `"value"` -object dat elke tekenreeks bevat. Er is geen behoefte om een afbakening te verstrekken; de servers van de gegevensinzameling van Adobe ontdekken automatisch en omvatten het correcte die afbakeningsteken in [ wordt geplaatst de reeksinstellingen van het Rapport ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -57,9 +57,9 @@ Als het gebruiken van het [**voorwerp XDM**](/help/implement/aep-edge/xdm-var-ma
 
 >[!NOTE]
 >
->Het Adobe XDM-schema bevat naast `value` -objecten in elke `list[]` -array ook `key` -objecten. Adobe gebruikt deze `key` -objecten niet bij het verzenden van gegevens naar Adobe Analytics.
+>Het Adobe XDM-schema bevat naast `key` -objecten in elke `value` -array ook `list[]` -objecten. Adobe gebruikt deze `key` -objecten niet bij het verzenden van gegevens naar Adobe Analytics.
 
-Als het gebruiken van het [**gegevensvoorwerp**](/help/implement/aep-edge/data-var-mapping.md), gebruik van lijstvariabelen `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` na de syntaxis van AppMeasurement. Zorg ervoor dat u het correcte die afbakeningsteken gebruikt in [ de reeksinstellingen van het Rapport ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) wordt geplaatst.
+Als het gebruiken van het [**gegevensvoorwerp**](/help/implement/aep-edge/data-var-mapping.md), gebruik van lijstvariabelen `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` na de syntaxis van AppMeasurement. Zorg ervoor dat u het correcte die afbakeningsteken gebruikt in [ de reeksinstellingen van het Rapport ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md) wordt geplaatst.
 
 ```json
 "data": {
@@ -77,7 +77,7 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 
 ## s.list1 - s.list3 in AppMeasurement en de de redacteur van de de uitbreidingsdouane van de Analyse
 
-Elke lijstvariabele is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. Deze variabele heeft geen maximum aantal bytes. Elke individuele waarde heeft echter een maximum aantal van 255 bytes. Het scheidingsteken dat u gebruikt wordt bepaald wanneer vestiging de variabele in [ de reeksinstellingen van het Rapport ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Gebruik geen spaties bij het scheiden van meerdere items.
+Elke lijstvariabele is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. Deze variabele heeft geen maximum aantal bytes. Elke individuele waarde heeft echter een maximum aantal van 255 bytes. Het scheidingsteken dat u gebruikt wordt bepaald wanneer vestiging de variabele in [ de reeksinstellingen van het Rapport ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md). Gebruik geen spaties bij het scheiden van meerdere items.
 
 ```js
 // A list variable configured with a comma as a delimiter

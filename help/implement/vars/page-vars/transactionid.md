@@ -4,7 +4,7 @@ description: Gebruik deze variabele om online en offline gegevens aan elkaar te 
 feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: fc52bfaa13f7fc93ef53aa49746d432676b3d55f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -17,7 +17,7 @@ De `transactionID` variabele identificeert uniek een transactie zodat de slag af
 
 >[!NOTE]
 >
->Controleer of [!UICONTROL Transaction ID Storage] is ingeschakeld in een rapportsuite voordat u deze variabele gebruikt. Zie [ Algemene Montages van de Rekening ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de Admin gebruikersgids voor meer informatie.
+>Controleer of [!UICONTROL Transaction ID Storage] is ingeschakeld in een rapportsuite voordat u deze variabele gebruikt. Zie [ Algemene Montages van de Rekening ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) in de Admin gebruikersgids voor meer informatie.
 
 Wanneer u `transactionID` instelt op een hit, maakt Adobe een momentopname van alle variabelen van Analytics die op dat moment zijn ingesteld of aanwezig zijn. Zie [ de gegevensbronnen van identiteitskaart van de Transactie ](/help/import/data-sources/transactionid.md) voor de lijst van dimensies inbegrepen in de momentopname. Adobe onthoudt alle waarden van de transactie-id (gekoppeld en ongekoppeld) gedurende maximaal 25 maanden.
 

@@ -4,7 +4,7 @@ description: Help metrische gegevens op uw site te dupliceren.
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -21,7 +21,7 @@ De rangschikking van gebeurtenissen is het proces om maatregelen uit te voeren o
 
 ## Gebeurtenisserienummering instellen
 
-U moet eerst de gebeurtenis [!UICONTROL Unique Event Recording] instellen op [!UICONTROL Use Event ID] in de instellingen van de rapportsuite. Zie [ Gebeurtenissen van het Succes ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in de Admin gebruikersgids.
+U moet eerst de gebeurtenis [!UICONTROL Unique Event Recording] instellen op [!UICONTROL Use Event ID] in de instellingen van de rapportsuite. Zie [ Gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in de Admin gebruikersgids.
 
 Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niveaus:
 

@@ -4,9 +4,9 @@ title: Overzicht van anomalische detectie
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Anomaly opspo
 
 >[!IMPORTANT]
 >
->Adobe Analytics Uitgezochte en de klanten van Adobe Analytics Foundation hebben toegang slechts tot *dagelijkse granularity* Anomaly Detection in Workspace. Voor meer informatie, zie &lbrace;de Entitlements van de Analyse van de Anomaly van de Opsporing en van de Bijdrage [.](#anomaly-detection-and-contribution-analysis-entitlements)
+>Adobe Analytics Uitgezochte en de klanten van Adobe Analytics Foundation hebben toegang slechts tot *dagelijkse granularity* Anomaly Detection in Workspace. Voor meer informatie, zie {de Entitlements van de Analyse van de Anomaly van de Opsporing en van de Bijdrage [.](#anomaly-detection-and-contribution-analysis-entitlements)
 
 ## Anomalische detectie
 
@@ -41,7 +41,7 @@ Voorbeelden van anomalieën die u kunt onderzoeken zijn:
 * Spikes in videobuffergebeurtenissen
 * Spikes in lage videobitsnelheden
 
-Zowel zijn de Anomaly Opsporing en [ Analyse van de Bijdrage ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection) kernwerkschema&#39;s in Analysis Workspace. U kunt de Analyse van de Bijdrage tegen om het even welke dagelijkse anomalie in werking stellen en het resultaat in uw project van Analysis Workspace inbedden.
+Zowel zijn de Anomaly Opsporing en [ Analyse van de Bijdrage ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) kernwerkschema&#39;s in Analysis Workspace. U kunt de Analyse van de Bijdrage tegen om het even welke dagelijkse anomalie in werking stellen en het resultaat in uw project van Analysis Workspace inbedden.
 
 Analysis Workspace-algoritme voor het opsporen van anomalieën bevat
 
@@ -97,7 +97,7 @@ Het aantal runtimes per bedrijf wordt beperkt door maandelijkse tokens die worde
 | Waarom introduceerde Adobe tokens? | De bijdrageanalyse is een van de meest representatieve mogelijkheden in Adobe Analytics geweest. Door een klein aantal volledige reeksen per maand (in plaats van slechts 3 dimensies voor sommige producten van Analytics) te geven, kunt u zien wat de onbeperkte volledige Analyse van de Bijdrage voor u kan doen. |
 | Hoe werken tokens in Bijdrage-analyse? Kosten het een token om een project te laden met een bestaande bijdrageanalyse, of alleen wanneer een gloednieuwe wordt uitgevoerd? | Elk login bedrijf (niet elke gebruiker) krijgt een bepaald aantal tokens per maand, die u toestaan om &quot;volledige&quot;Analyse van de Bijdrage in Analysis Workspace in werking te stellen.  Elke keer dat u een nieuwe bijdrageanalyse genereert, betaalt u één token. Het laden van projecten met vooraf uitgevoerde Analyses van de Bijdrage kost geen teken. |
 | Als mijn bedrijf uit tokens is en extra Analyses van de Bijdrage wil in werking stellen, wat te doen? | U kunt een upgrade uitvoeren naar een ander Adobe Analytics-product, bijvoorbeeld van Standaard (2 tokens/maand) naar Ultimate (20 tokens/maand). Je kunt niet meer tokens kopen. U moet een upgrade uitvoeren binnen het bestaande pakketframework. |
-| Hoe beperk ik toegang tot de Analyse van de Bijdrage? | Standaard hebben alleen beheerders toegang tot Contribute-analyses. Nochtans, kunnen beheerders toegang tot andere gebruikers verlenen door een toestemmingsgroep in [ Adobe Admin Console ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-console/home) tot stand te brengen. Geef alleen toestemming om de Contribute-analyse te gebruiken voor gebruikers die een legitieme reden hebben om deze te gebruiken en die vertrouwd zijn om hun toegang niet te misbruiken. De machtiging wordt [!UICONTROL Contribution Analysis] onder [!UICONTROL Report Suite Tools] genoemd. [Meer informatie](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
+| Hoe beperk ik toegang tot de Analyse van de Bijdrage? | Standaard hebben alleen beheerders toegang tot Contribute-analyses. Nochtans, kunnen beheerders toegang tot andere gebruikers verlenen door een toestemmingsgroep in [ Adobe Admin Console ](/help/admin/admin-console/home.md) tot stand te brengen. Geef alleen toestemming om de Contribute-analyse te gebruiken voor gebruikers die een legitieme reden hebben om deze te gebruiken en die vertrouwd zijn om hun toegang niet te misbruiken. De machtiging wordt [!UICONTROL Contribution Analysis] onder [!UICONTROL Report Suite Tools] genoemd. [Meer informatie](/help/admin/admin-console/permissions/report-suite-tools.md) |
 | Hoe weet ik hoeveel tokens mijn bedrijf per maand mag gebruiken en hoeveel tokens mijn bedrijf deze maand heeft gebruikt? | Ga naar [!UICONTROL Admin] > [!UICONTROL All admin] > [!UICONTROL Company settings Home] > [!UICONTROL View Feature Access Levels]. Zoeken onder<ul><li>Bijdrage-analyse: aantal tokens voor maandgebruik</li><li>Bijdrage-analyse: aantal gebruikstokens dat deze maand is gebruikt</li></ul> |
 
 ## Toeslagrechten voor anomalische detectie en analyse van bijdragen

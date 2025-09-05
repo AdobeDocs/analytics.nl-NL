@@ -4,7 +4,7 @@ title: Activity Map-overzicht
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Adobe Analytics Activity Map is een functie in Adobe Analytics die een visuele w
 
 Activity Map bestaat uit verschillende belangrijke onderdelen:
 
-* **reeks die van het Rapport** plaatst: Een rapportreeks moet Activity Map hebben toegelaten alvorens u het kunt beginnen te gebruiken. Zie [ Activity Map die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md) meldt in de reeksinstellingen van het Rapport.
+* **reeks die van het Rapport** plaatst: Een rapportreeks moet Activity Map hebben toegelaten alvorens u het kunt beginnen te gebruiken. Zie [ Activity Map die ](/help/admin/tools/manage-rs/edit-settings/activity-map.md) meldt in de reeksinstellingen van het Rapport.
 * **Implementatie**: De meeste rapportering van Activity Map is beschikbaar uit-van-de-doos. Sommige websites kunnen echter aanvullende implementatie nodig hebben om optimaal gebruik te kunnen maken van het bijhouden van koppelingen. De volgende implementatievariabelen zijn beschikbaar:
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): filter op gegevens klikken op naam van koppeling.
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): filter op gegevens klikken op gebiedsnaam.

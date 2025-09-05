@@ -4,7 +4,7 @@ description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 feature: Appmeasurement Implementation
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 *Deze hulppagina beschrijft hoe te om eVars uit te voeren. Voor informatie over hoe eVars als afmeting werken, zie [ Vars ](/help/components/dimensions/evar.md) in de de gebruikersgids van Componenten.*
 
-Variabelen zijn aangepaste variabelen die u kunt gebruiken zoals u dat wilt. Als u het document van het a [ oplossingsontwerp ](/help/implement/prepare/solution-design.md) hebt, beëindigen de meeste dimensies specifiek voor uw organisatie omhoog als eVars. Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. U kunt hun vervaldatum en toewijzing onder [ variabelen van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de reeksinstellingen van het Rapport aanpassen.
+Variabelen zijn aangepaste variabelen die u kunt gebruiken zoals u dat wilt. Als u het document van het a [ oplossingsontwerp ](/help/implement/prepare/solution-design.md) hebt, beëindigen de meeste dimensies specifiek voor uw organisatie omhoog als eVars. Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. U kunt hun vervaldatum en toewijzing onder [ variabelen van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de reeksinstellingen van het Rapport aanpassen.
 
 Het aantal beschikbare eVars is afhankelijk van uw contract met Adobe. Er zijn maximaal 250 eVars beschikbaar als uw contract met Adobe dit ondersteunt.
 
 ## Vars instellen in instellingen van rapportsuite
 
-Alvorens eVars in uw implementatie te gebruiken, zorg ervoor dat u elke eVar in de montages van de rapportreeks vormt. Zie [ variabelen van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de gids Admin.
+Alvorens eVars in uw implementatie te gebruiken, zorg ervoor dat u elke eVar in de montages van de rapportreeks vormt. Zie [ variabelen van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de gids Admin.
 
 ## Vars met de Web SDK
 
@@ -67,4 +67,4 @@ Als er meer dan twee decimalen zijn opgegeven, wordt de eVar-teller afgerond op 
 
 >[!IMPORTANT]
 >
->U moet eVars eerst aan &quot;Teller&quot;in Admin Console vormen alvorens tellervariabelen te gebruiken. Zie [ variabelen van de Omzetting ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de gids Admin.
+>U moet eVars eerst aan &quot;Teller&quot;in Admin Console vormen alvorens tellervariabelen te gebruiken. Zie [ variabelen van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de gids Admin.

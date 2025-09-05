@@ -3,9 +3,9 @@ title: Adobe Analytics-systeemvereisten
 description: De systeemvereisten voor het gebruik van Adobe Analytics.
 feature: Workspace Basics
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Voordat je Adobe Analytics kunt gebruiken, moet je beschikken over:
 
 * Een ondersteunde browser
 
-  Elke gebruiker die Adobe Analytics opent, moet een ondersteunde browser gebruiken. Voor meer informatie, zie de [ het systeemvereisten van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=nl-NL).
+  Elke gebruiker die Adobe Analytics opent, moet een ondersteunde browser gebruiken. Voor meer informatie, zie de [ het systeemvereisten van Adobe Analytics ](/help/analyze/get-started/sys-reqs.md).
 
 ## Systeemvereisten
 

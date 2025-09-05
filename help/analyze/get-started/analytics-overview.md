@@ -4,9 +4,9 @@ short-description: Ontdek belangrijke functies, veelvoorkomende gebruiksscenario
 title: Adobe Analytics-overzicht
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 11%
 
 ---
@@ -41,11 +41,11 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intro aan Ado
 >[!ENDSHADEBOX]
 
 
-Voor vragen over welk hulpmiddel om te gebruiken, zie [ Welk hulpmiddel van Adobe Analytics zou ik moeten gebruiken?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=nl-NL).
+Voor vragen over welk hulpmiddel om te gebruiken, zie [ Welk hulpmiddel van Adobe Analytics zou ik moeten gebruiken?](/help/analyze/get-started/which-analytics-tool.md).
 
 ## Ga verder met Customer Journey Analytics
 
-Customer Journey Analytics is de volgende generatie Analytics-oplossing van de Adobe waarmee u de kracht van Analysis Workspace kunt gebruiken met gegevens uit Adobe Experience Platform. Het kan onderbreken, filtreren, vragen, en visualiseert jaren&#39; waarde van gegevens, en wordt gecombineerd met de capaciteit van het Platform om allerlei gegevensschema&#39;s en types te houden.
+Customer Journey Analytics is Adobe-oplossing voor de volgende generatie Analytics waarmee u de kracht van Analysis Workspace kunt gebruiken met gegevens uit Adobe Experience Platform. Het kan onderbreken, filtreren, vragen, en visualiseert jaren&#39; waarde van gegevens, en wordt gecombineerd met de capaciteit van het Platform om allerlei gegevensschema&#39;s en types te houden.
 
 Hier volgen enkele voordelen van Customer Journey Analytics ten opzichte van Adobe Analytics:
 
@@ -57,4 +57,4 @@ Hier volgen enkele voordelen van Customer Journey Analytics ten opzichte van Ado
 
 * **dwars-rapport-reeks gegevens**: De bestaande implementaties van veelvoudige datasets kunnen in Platform worden gecombineerd.
 
-Voor meer informatie, zie [ overzicht van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL).
+Voor meer informatie, zie [ overzicht van Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html).

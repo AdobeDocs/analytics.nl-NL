@@ -3,7 +3,7 @@ description: Adobe Analytics ondersteunt classificatiemodellen op één niveau e
 title: Subclassificaties
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 5%
@@ -18,7 +18,7 @@ Adobe Analytics ondersteunt classificatiemodellen op één niveau en die op meer
 
 >[!NOTE]
 >
->Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] die wordt gebruikt om [!UICONTROL Hierarchy] -rapporten te maken. Voor meer informatie over classificatiehiërarchieën, zie [ de Hiërarchieën van de Classificatie ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md).
+>Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] die wordt gebruikt om [!UICONTROL Hierarchy] -rapporten te maken. Voor meer informatie over classificatiehiërarchieën, zie [ de Hiërarchieën van de Classificatie ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md).
 
 Bijvoorbeeld:
 
@@ -62,7 +62,7 @@ Hoewel het dossiermalplaatje voor een classificatie op meerdere niveaus complexe
 
 ## Voorbeelden
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/classifications.png)
 
 >[!NOTE]
 >

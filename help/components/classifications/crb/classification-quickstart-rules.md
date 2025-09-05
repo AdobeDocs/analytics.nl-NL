@@ -3,9 +3,9 @@ description: De classificatieregels kijken regelmatig naar niet-geclassificeerde
 title: Classificatieregels
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -58,8 +58,6 @@ about_classification_rules.xml
 >De [!UICONTROL Rule Builder] biedt geen ondersteuning voor classificaties van het type Numeric 2.
 
 ## Belangrijke informatie over regels
-
-* Specificeer [ groepstoestemmingen ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=nl-NL) voor classificaties in [!UICONTROL Admin Tools].
 
 * **Reguliere uitdrukkingen**: De hulp is beschikbaar onder [ Reguliere Uitdrukkingen in de Regels van de Classificatie ](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -135,7 +133,7 @@ In [!UICONTROL Rule Builder], vorm de regel als volgt:
 
 | Regeltype selecteren | Overeenkomstcriteria invoeren | Classificatie instellen | Naar |
 |---|---|---|---|
-| Gewone uitdrukking | &Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $ 3 |
+| Gewone uitdrukking | &amp;Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $ 3 |
 
 **Syntaxis**
 

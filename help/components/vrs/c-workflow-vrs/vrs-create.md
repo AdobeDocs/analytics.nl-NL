@@ -4,9 +4,9 @@ keywords: Virtuele rapportsuite
 title: Virtuele rapportsuites maken
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Definieer deze instellingen op het tabblad [!UICONTROL Settings] en klik op **[!
 | Naam | De naam van de virtuele rapportreeks wordt niet geërft van de ouderrapportreeks en zou verschillend moeten zijn. |
 | Beschrijving | Voeg een goede beschrijving toe ten behoeve van uw zakelijke gebruikers. |
 | Tags | U kunt codes toevoegen om uw rapportsuites te organiseren. |
-| Source | De rapportsuite waarvan deze virtuele rapportsuite de volgende instellingen overneemt. De meeste de dienstniveaus en eigenschappen (bijvoorbeeld, eVar montages, de Regels van de Verwerking, Classificaties, etc.) worden geërft. Als u wijzigingen wilt aanbrengen in deze overgeërfde instellingen in een virtuele-rapportsuite, moet u de bovenliggende rapportsuite bewerken ( Admin > Report Suites). |
+| Bron | De rapportsuite waarvan deze virtuele rapportsuite de volgende instellingen overneemt. De meeste serviceniveaus en -functies (zoals eVar-instellingen, Verwerkingsregels, Classificaties, enzovoort) worden overgeërfd. Als u wijzigingen wilt aanbrengen in deze overgeërfde instellingen in een virtuele-rapportsuite, moet u de bovenliggende rapportsuite bewerken ( Admin > Report Suites). |
 | Tijdzone | Een tijdzone kiezen is optioneel. Als u een tijdzone kiest, wordt deze samen met de Virtual Report-suite opgeslagen. Als u niet kiest, wordt de tijdzone van de ouderrapportreeks gebruikt.  Als u een virtuele rapportsuite bewerkt, wordt de tijdzone die is opgeslagen met de Virtual Report-suite weergegeven in de vervolgkeuzelijst. Als de Virtuele rapportreeks werd gecreeerd alvorens de steun van de tijdzone werd toegevoegd, wordt de de tijdzone van de reeks van het ouderrapport getoond in de drop-down selecteur. |
 | Segmenten | U kunt slechts één segment toevoegen of segmenten stapelen.   Nota: Wanneer het stapelen van twee segmenten, worden zij aangesloten bij door een EN verklaring. Dit kan niet in een OF verklaring worden veranderd. Wanneer u probeert om een segment te schrappen of te wijzigen dat momenteel in een virtuele rapportreeks wordt gebruikt, toont een waarschuwing. |
 
@@ -46,7 +46,7 @@ Definieer deze instellingen op het tabblad [!UICONTROL Visit Definition] en klik
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een bezoekdefinitie ](https://video.tv.adobe.com/v/3428477?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video aanpassen.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een bezoekdefinitie ](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} voor een demo video aanpassen.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een bezoekdef
 | Tijdverwerking rapport inschakelen | De verwerking van de rapporttijd van het gebruik om de standaardonderbrekingslengte van het bezoek te veranderen. Deze instellingen zijn niet-destructief en zijn alleen van toepassing in Analysis Workspace. [Meer informatie](/help/components/vrs/vrs-report-time-processing.md) |
 | Time-out bij bezoek | Hiermee bepaalt u de mate van inactiviteit die een unieke bezoeker moet hebben voordat een nieuw bezoek automatisch wordt gestart. Dit zal metrische bezoeken, de container van het bezoekensegment, en eVars beïnvloeden die op bezoek verlopen. |
 | Nieuw bezoek starten met gebeurtenis | Hiermee wordt een nieuwe sessie gestart wanneer een van de opgegeven gebeurtenissen wordt gestart, ongeacht of er een time-out voor een sessie is opgetreden. |
-| **Mobiele montages van het toepassingsbezoek** | Wijzig de manier waarop bezoeken worden gedefinieerd voor hits in mobiele apps die door de SDK&#39;s van Adoben worden verzameld. Deze instellingen zijn niet-destructief en zijn alleen van toepassing in Analysis Workspace. |
+| **Mobiele montages van het toepassingsbezoek** | Wijzig de manier waarop bezoeken worden gedefinieerd voor hits in mobiele apps die worden verzameld door Adobe Mobile-SDK&#39;s. Deze instellingen zijn niet-destructief en zijn alleen van toepassing in Analysis Workspace. |
 | Voorkomen dat achtergrondhits een nieuw bezoek beginnen | Hiermee voorkomt u dat achtergrondopdrachten beginnen en dat bezoekers en unieke bezoekersstatistieken opblazen. |
 | Een nieuw bezoek starten bij elke keer dat de app wordt gestart | Hiermee wordt een nieuwe sessie gestart wanneer een app wordt gestart. [Meer informatie](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
@@ -65,7 +65,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een bezoekdef
 ![](assets/components.png)
 
 1. Schakel op het tabblad [!UICONTROL Components] het selectievakje in om de curatie toe te passen voor het opnemen, uitsluiten en hernoemen van componenten voor deze virtuele rapportsuite in Analysis Workspace.
-Voor meer informatie over de virtuele cursus van de rapportreeks, zie [ Virtuele de componentencuratie van de rapportreeks ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=nl-NL#virtual-report-suites).
+Voor meer informatie over de virtuele cursus van de rapportreeks, zie [ Virtuele de componentencuratie van de rapportreeks ](/help/components/vrs/vrs-components.md).
 
 1. Sleep componenten (afmetingen, metriek, segmenten, of datumwaaiers) die u in de Virtuele rapportreeks in de [!UICONTROL Included Components] sectie wilt omvatten.
 

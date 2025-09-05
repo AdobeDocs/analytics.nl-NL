@@ -4,7 +4,7 @@ description: Gebruik de variabele linkInternalFilters om het automatisch volgen 
 feature: Appmeasurement Implementation
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -23,13 +23,13 @@ De kaart van de activiteit gebruikt deze variabele helpen bepalen welke verbindi
 
 >[!NOTE]
 >
->`linkInternalFilters` en [ Interne filters URL ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) zijn afzonderlijke eigenschappen die afzonderlijke doeleinden vervullen. De variabele `linkInternalFilters` werkt specifiek voor het bijhouden van koppelingen. Interne URL-filters zijn een Admin-instelling die helpt bij de dimensies van verkeersbronnen, zoals Refering Domain.
+>`linkInternalFilters` en [ Interne filters URL ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) zijn afzonderlijke eigenschappen die afzonderlijke doeleinden vervullen. De variabele `linkInternalFilters` werkt specifiek voor het bijhouden van koppelingen. Interne URL-filters zijn een Admin-instelling die helpt bij de dimensies van verkeersbronnen, zoals Refering Domain.
 
 ## Koppelingen afsluiten in de Web SDK
 
 Koppelingen worden automatisch gekwalificeerd als een afsluitkoppeling als het doeldomein van de koppeling afwijkt van de huidige `window.location.hostname` . Web SDK biedt geen configuratievariabelen aan om automatische uitgangsverbindingsopsporing te wijzigen. Als u de domeinen moet aanpassen die als uitgangsverbinding kwalificeren, kunt u douanelogica in `onBeforeEventSend` callback gebruiken.
 
-Zie [ Automatische verbinding het volgen ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=nl-NL#automaticLinkTracking) in de documentatie van SDK van het Web voor meer informatie.
+Zie [ Automatische verbinding het volgen ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Uitgaande koppelingen - Nooit bijhouden met Adobe Analytics-extensie
 

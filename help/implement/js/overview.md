@@ -4,7 +4,7 @@ description: Leer hoe u Adobe Analytics implementeert met JavaScript zonder een 
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 4%
@@ -13,11 +13,11 @@ ht-degree: 4%
 
 # Adobe Analytics implementeren met AppMeasurement voor JavaScript
 
-AppMeasurement voor JavaScript is historisch gezien een veel gebruikte methode geweest om Adobe Analytics te implementeren. Maar met toenemende populariteit van Tag Management Systems, die [tags in Adobe Experience Platform](../launch/overview.md) wordt aanbevolen.
+AppMeasurement for JavaScript is historisch gezien een gangbare methode geweest om Adobe Analytics te implementeren. Nochtans, met stijgende populariteit van Tag Management Systems, wordt het gebruiken van [ markeringen in Adobe Experience Platform ](../launch/overview.md) geadviseerd.
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
-![Hoe te om AdobeAnalyses met AppMeasurement voor Javascript uit te voeren, zoals die in deze sectie wordt beschreven.](../assets/appmeasurement-annotated.png)
+![ hoe te om de Analyses van Adobe met AppMeasurement voor Javascript uit te voeren, zoals die in deze sectie wordt beschreven.](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -26,15 +26,15 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 </tr>
 
 <tr>
-<td>1</td><td>Zorg ervoor dat u <b>een rapportsuite gedefinieerd</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td>1</td><td>Verzeker u <b> een rapportreeks </b> hebt bepaald</td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>De vereiste JavaScript-code voor AppMeasurement downloaden</b> van Codebeheer. Pak het bestand uit.</td><td><a href="../../admin/admin/code-manager-admin.md">Codebeheer</a></td>
+<td>2</td><td><b> Download de vereiste code van JavaScript voor AppMeasurement </b> van de Manager van de Code. Pak het bestand uit.</td><td><a href="../../admin/tools/code-manager-admin.md">Codebeheer</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>Toevoegen <code>AppMeasurement.js</code> naar het sjabloonbestand van uw website</b>. De code bevat de bibliotheken die nodig zijn om gegevens naar de Adobe te verzenden.
+<td>3</td><td><b> voeg <code>AppMeasurement.js</code> aan het malplaatjedossier van uw website </b> toe. De code bevat de bibliotheken die nodig zijn om gegevens naar Adobe te verzenden.
 
 ```html
 <head>
@@ -47,7 +47,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 </tr>
 
 <tr>
-<td>4</td><td><b>Configuratievariabelen definiëren binnen <code>AppMeasurement.js</code></b>. Wanneer het object Analytics wordt geïnstantieerd, zorgen deze variabelen ervoor dat de instellingen voor gegevensverzameling correct zijn.
+<td>4</td><td><b> bepaal configuratievariabelen binnen <code>AppMeasurement.js</code></b>. Wanneer het object Analytics wordt geïnstantieerd, zorgen deze variabelen ervoor dat de instellingen voor gegevensverzameling correct zijn.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Definieer variabelen op paginaniveau in de paginacode van uw site</b>. Deze variabelen bepalen de specifieke afmetingen en de meetwaarden die naar de Adobe worden verzonden.
+<td>5</td><td><b> bepaalt pagina-vlakke variabelen binnen de paginacode van uw plaats </b>. Deze variabelen bepalen de specifieke afmetingen en de meetgegevens die naar Adobe worden verzonden.
 
 ```js
 s.pageName = "Example page";
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>De gegevens naar de Adobe verzenden met de <code>t()</code> methode</b>, wanneer alle paginariabelen zijn gedefinieerd.
+<td>6</td><td><b> verzendt de gegevens naar Adobe gebruikend de <code>t()</code> methode </b>, wanneer alle paginariabelen worden bepaald.
 
 ```js
 s.t();
@@ -84,7 +84,7 @@ s.t();
 </tr>
 
 <tr>
-<td>7</td><td><b>Uw implementatie uitbreiden en valideren</b> voordat het naar de productie wordt verplaatst.</b></td><td></td>
+<td>7</td><td><b> breidt en bevestigt uw implementatie </b> uit alvorens het uit aan productie te duwen.</b></td><td></td>
 </tr>
 
 </table>

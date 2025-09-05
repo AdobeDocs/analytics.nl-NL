@@ -3,7 +3,7 @@ title: Verwerkingsvolgorde voor gegevens in Adobe Analytics
 description: Leer de volgorde van componenten en services die gegevens verwerken in Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -32,12 +32,12 @@ Zodra de gegevens naar Adobe Analytics zijn verzonden, worden de gegevens door d
 
 1. **Lookup lijsten**: Dimensies die zich op Adobe-interne raadplegingslijsten (bijvoorbeeld, de [ Browser ](/help/components/dimensions/browser.md) dimensie) baseren worden aangepast aan zijn overeenkomstige waarde.
 2. [**Dynamische variabelen**](/help/implement/vars/page-vars/dynamic-variables.md): Als een dynamische variabele in om het even welk deel van een beeldverzoek wordt gezien, wordt de waarde gekopieerd over en behandeld als onafhankelijke waarde die zich voorwaarts beweegt.
-3. [**Bot regels**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): Pas standaard of douanebot het filtreren toe om die gegevens van het melden uit te sluiten.
-4. [**Regels van de Verwerking**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md): De regels van de Douane die op uw gegevens door uw organisatie worden toegepast. Omvat de afbeelding van [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contextdata.md) aan zijn respectieve variabele.
+3. [**Bot regels**](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md): Pas standaard of douanebot het filtreren toe om die gegevens van het melden uit te sluiten.
+4. [**Regels van de Verwerking**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md): De regels van de Douane die op uw gegevens door uw organisatie worden toegepast. Omvat de afbeelding van [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contextdata.md) aan zijn respectieve variabele.
 5. **VISTA regels**: De flexibele die regels van de douane op uw gegevens door een consultant van Adobe worden toegepast. De regels van VISTA kunnen potentieel lopen vóór of na de regels van de Verwerking, afhankelijk van de behoeften van uw organisatie. De meeste regels VISTA lopen over het algemeen na de regels van de Verwerking, maar elke organisatie is opstelling verschillend. Neem contact op met uw Adobe-accountteam voor meer informatie over bestaande VISTA-regels.
-6. [**de verwerkingsregels van het Kanaal van de Marketing**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md): U kunt [ Regels van de Verwerking gebruiken ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) om gegevens voor gebruik in de verwerkingsregels van het Kanaal van de Marketing voor te bereiden.
-7. **Geolocation gegevens**: De afmetingen die op IP adresraadpleging (bijvoorbeeld, de [&#128279;](/help/components/dimensions/countries.md) dimensie van Landen) vertrouwen zijn bevolkt.
-8. [**IP verduistering**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md): Als uw organisatie heeft verkiest om IP adressen in ruwe gegevens te verduisteren, wordt het gedaan nadat alle andere verwerkingsfuncties hebben voltooid.
+6. [**de verwerkingsregels van het Kanaal van de Marketing**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md): U kunt [ Regels van de Verwerking gebruiken ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) om gegevens voor gebruik in de verwerkingsregels van het Kanaal van de Marketing voor te bereiden.
+7. **Geolocation gegevens**: De afmetingen die op IP adresraadpleging (bijvoorbeeld, de [ ](/help/components/dimensions/countries.md) dimensie van Landen) vertrouwen zijn bevolkt.
+8. [**IP verduistering**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): Als uw organisatie heeft verkiest om IP adressen in ruwe gegevens te verduisteren, wordt het gedaan nadat alle andere verwerkingsfuncties hebben voltooid.
 
 Op dit punt, wordt de individuele klap geregistreerd in de lijsten van de rapportreeksgegevens. Na het standaard [ latentie ](latency.md) interval, is het beschikbaar in het melden.
 
@@ -46,6 +46,6 @@ Op dit punt, wordt de individuele klap geregistreerd in de lijsten van de rappor
 De gegevens in Adobe Analytics zijn meestal permanent, maar er zijn enkele functies die selectieve gegevensaanpassingen of -verwijdering mogelijk maken:
 
 * [**de reparatie API van Gegevens** ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): geef bepaalde kolommen uit of schrap gewenste rijen van gegevens.
-* [**het Beleid van Gegevens**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md): Accomodate privacyverzoeken om gegevens permanent te schrappen.
+* [**het bestuur van Gegevens**](/help/technotes/privacy/privacy-overview.md): Accomodate privacyverzoeken om gegevens permanent te schrappen.
 * [**Classificaties**](/help/components/classifications/classifications-overview.md): Creeer dimensies die op regels of geüploade gegevens worden gebaseerd die u toestaan om gegevens verschillend te organiseren. De onderliggende gegevens van de rapportreeks worden niet gewijzigd, zodat kunt u classificatiegegevens vrij uitgeven of beschrijven.
 * [**Virtuele rapportreeksen**](/help/components/vrs/vrs-about.md): Creeer een afwisselende mening van de rapportreeks die de bezoekonderbreking kan veranderen, of [ Analytics van het Apparaat ](/help/components/cda/overview.md) toestaan.

@@ -4,7 +4,7 @@ description: Gebruik opgeslagen waarden van een online hit om offline treffers d
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 0a65114d598b7c6d2871a2446ad4d574b9ca44bb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -17,7 +17,7 @@ De gegevensbronnen van identiteitskaart van de transactie zijn een variatie summ
 
 >[!NOTE]
 >
->Alvorens de gegevensbronnen van identiteitskaart van de transactie te gebruiken, moet u het in [ Algemene Montages van de Rekening ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) voor de gewenste rapportreeks eerst toelaten.
+>Alvorens de gegevensbronnen van identiteitskaart van de transactie te gebruiken, moet u het in [ Algemene Montages van de Rekening ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) voor de gewenste rapportreeks eerst toelaten.
 
 ## Hoe werkt het
 
@@ -32,7 +32,7 @@ Wanneer u een online hit verzendt die de implementatievariabele `transactionID` 
 * [Dagen vóór eerste aankoop](/help/components/dimensions/days-before-first-purchase.md)
 * [Dagen sinds laatste aankoop](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* De eigenschap-specifieke dimensies die in [ worden toegelaten de reeksinstellingen van het Rapport ](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) die zich zo ook aan eVars gedragen. Functiespecifieke afmetingen die zich op dezelfde manier gedragen als props, worden niet opgenomen.
+* De eigenschap-specifieke dimensies die in [ worden toegelaten de reeksinstellingen van het Rapport ](/help/admin/tools/manage-rs/report-suites-admin.md) die zich zo ook aan eVars gedragen. Functiespecifieke afmetingen die zich op dezelfde manier gedragen als props, worden niet opgenomen.
 * [Lijstvariabelen](/help/implement/vars/page-vars/list.md)
 * [Marketingkanaal](/help/components/dimensions/marketing-channel.md)
 * [Detailgegevens marketingkanaal](/help/components/dimensions/marketing-detail.md)

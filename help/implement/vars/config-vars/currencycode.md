@@ -4,7 +4,7 @@ description: Voor eCommerce-sites stelt de valuta in waarin de pagina handelt.
 feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Voor plaatsen die handel gebruiken, is de opbrengst en de munt een belangrijk deel van Analytics. Veel sites, vooral sites die meerdere landen beslaan, gebruiken verschillende valuta&#39;s. Gebruik de variabele `currencyCode` om ervoor te zorgen dat de opbrengstattributen aan de correcte munt.
 
-Bij valutaomrekening wordt bij elke druk de volgende logica gebruikt. Deze stappen zijn op opbrengstwaarden van toepassing plaatsen de [`products`](../page-vars/products.md) variabele en alle gebeurtenissen die als &quot;Valuta&quot;in [ de gebeurtenissen van het Succes ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) onder de reeksinstellingen van het Rapport worden vermeld.
+Bij valutaomrekening wordt bij elke druk de volgende logica gebruikt. Deze stappen zijn op opbrengstwaarden van toepassing plaatsen de [`products`](../page-vars/products.md) variabele en alle gebeurtenissen die als &quot;Valuta&quot;in [ de gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) onder de reeksinstellingen van het Rapport worden vermeld.
 
-* Als `currencyCode` niet is gedefinieerd, gaat Adobe ervan uit dat alle valutawaarden de valuta van de rapportsuite zijn. Zie {de Montages van de Rekening van 0} Algemeen [&#128279;](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de reeksinstellingen van het Rapport om de munt van de rapportreeks te zien.
+* Als `currencyCode` niet is gedefinieerd, gaat Adobe ervan uit dat alle valutawaarden de valuta van de rapportsuite zijn. Zie {de Montages van de Rekening van 0} Algemeen [ in de reeksinstellingen van het Rapport om de munt van de rapportreeks te zien.](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * Als `currencyCode` is gedefinieerd en overeenkomt met de valuta van de rapportsuite, wordt geen valutaomrekening toegepast.
 * Als `currencyCode` is gedefinieerd en afwijkt van de valuta van de rapportsuite, past Adobe een valutaomrekening toe op basis van de wisselkoers van de huidige dag. De partners van Adobe met [ XE ](https://xe.com) om munt om te zetten elke dag. Alle waarden die in de rapportsuite zijn opgeslagen, bevinden zich in de valuta van de rapportsuite.
 * Als `currencyCode` aan een ongeldige waarde wordt geplaatst, **wordt de volledige slag verworpen veroorzakend gegevensverlies.** Zorg ervoor dat deze variabele correct is gedefinieerd wanneer deze wordt gebruikt.

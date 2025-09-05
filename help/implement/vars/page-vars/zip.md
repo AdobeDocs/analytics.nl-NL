@@ -4,7 +4,7 @@ description: Vul handmatig de dimensie 'Postcode' in als de instellingen van de 
 feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Met de variabele `zip` kunt u de dimensie &#39;Postcode&#39; handmatig vullen al
 
 >[!IMPORTANT]
 >
->Controleer of de instellingen voor [!UICONTROL Zip Option] in de rapportsuite op de gewenste waarde zijn ingesteld. U kunt deze variabele niet gebruiken als [!UICONTROL Geo zip] altijd wordt gebruikt. Zie [ Algemene Montages van de Rekening ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de Admin gebruikersgids voor meer informatie.
+>Controleer of de instellingen voor [!UICONTROL Zip Option] in de rapportsuite op de gewenste waarde zijn ingesteld. U kunt deze variabele niet gebruiken als [!UICONTROL Geo zip] altijd wordt gebruikt. Zie [ Algemene Montages van de Rekening ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) in de Admin gebruikersgids voor meer informatie.
 
 ## Postcode met gebruik van Web SDK
 

@@ -3,7 +3,7 @@ title: Streaming mediaservices - kerngegevens
 description: De beschikbare metriek wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De streaming media de kernmetriek van de diensten verstrekken basisrapporteringsfunctionaliteit aan gegevens die door de inzamelingsbibliotheken van de media van de stromen worden verzameld. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Media Core]** onder [ Media die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
+Wanneer u **[!UICONTROL Media Core]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
 
 | Metrische naam | Beschrijving | Verzonden met | Variabele van contextgegevens |
 | --- | --- | --- | --- |

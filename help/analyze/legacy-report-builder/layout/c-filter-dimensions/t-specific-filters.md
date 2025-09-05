@@ -5,7 +5,7 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -24,7 +24,7 @@ U kunt zoeken naar specifieke dimensies door een filter te maken dat precies ove
 
 1. Maak of bewerk een aanvraag en ga door naar de [!UICONTROL Request Wizard: Step 2] .
 
-   ![ Schermschot die de Filter door opties tonen: Toepassing, Gebruiker, en Project.](/help/admin/admin/assets/filter.png)
+   ![ Schermschot die de Filter door opties tonen: Toepassing, Gebruiker, en Project.](/help/admin/tools/assets/filter.png)
 
 1. Klik in het [!UICONTROL Request Wizard: Step 2] op de koppeling naast de dimensie in het raster en kies vervolgens **[!UICONTROL Filter]** .
 
@@ -41,5 +41,5 @@ U kunt zoeken naar specifieke dimensies door een filter te maken dat precies ove
 1. Als u **[!UICONTROL From List]** inschakelt, selecteert u beschikbare items in de lijst of klikt u op **[!UICONTROL Add]** .
 
    Wanneer u op **[!UICONTROL Add]** klikt, wordt in het [!UICONTROL Select From List] -formulier een lijst weergegeven met beschikbare dimensie-items voor het huidige bereik van de aanvraagdatum. Deze lijst is beperkt tot de eerste 10.000 items. U kunt deze items doorzoeken of op **[!UICONTROL More ...]** klikken, waarin [!UICONTROL Search Form] wordt weergegeven, zodat u een gedetailleerdere zoekopdracht naar afmetingen kunt maken.
-1. Klik op **[!UICONTROL OK]** in het [!UICONTROL Select From List] .
+1. Klik op [!UICONTROL Select From List] in het **[!UICONTROL OK]** .
 1. Sla desgewenst het specifieke filter op in het [!UICONTROL Choose Page] -formulier en klik vervolgens op **[!UICONTROL OK]** .

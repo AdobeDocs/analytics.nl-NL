@@ -3,9 +3,9 @@ description: Administratieve stappen voor vestiging real-time rapporten.
 title: Rapporten in real time configureren
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Dit bestaat uit het selecteren van de rapportsuite en het configureren van maxim
 
    1. Selecteer de rapportreeks van drop-down bij de bovenkant:
 
-      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+      ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report_suite_selector.png)
 
       Als u probeert om rapporten in real time voor een rapportreeks te bekijken die niet opstelling voor rapportering in real time is, een berichtvertoningen die u aan opstelling de rapportreeks toelaat.
 
-      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+      ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/rep_suite_not_set_up.png)
 
 1. Selecteer **[!UICONTROL Configure]** om de [!UICONTROL Report Suite Manager] uit te voeren.
 
@@ -37,7 +37,7 @@ Dit bestaat uit het selecteren van de rapportsuite en het configureren van maxim
 
    ![](assets/real_time_admin.png)
 
-   Voor informatie over gesteunde metriek in real time en dimensies, zie [ Gesteunde Metriek en Dimensies ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
+   Voor informatie over gesteunde metriek in real time en dimensies, zie [ Gesteunde Metriek en Dimensies ](/help/admin/tools/manage-rs/edit-settings/realtime/realtime-metrics.md).
 
    Als u classificaties hebt gemaakt, worden deze ingesprongen weergegeven onder de dimensie waarvoor ze zijn gedefinieerd:
 
@@ -51,10 +51,10 @@ Dit bestaat uit het selecteren van de rapportsuite en het configureren van maxim
    >
    >Sommige dimensies, zoals &#39;Trefwoord zoeken&#39; of &#39;Product&#39;, blijven niet in real-time behouden, zoals ze elders in Adobe Analytics doen. Wanneer u een niet-permanente metrische waarde selecteert, wordt de volgende waarschuwing weergegeven:
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
+   ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/warning_dimensions.png)
 
 1. Selecteer **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]** .
 
-   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van rapporten in real time, zie [ in werking stellen een Rapport in real time ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=nl-NL).
+   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar.
 
 1. Door gebrek, hebben alle gebruikers toegang tot Echt - tijd rapporten.

@@ -3,7 +3,7 @@ title: Aanpassing rapporteren in Adobe Analytics
 description: Leer hoe u rapporten kunt aanpassen in Adobe Analytics
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Rapporten aanpassen
 
-Op platforms van derden, zoals Googles Analytics, zijn verschillende aanpassingsopties beschikbaar. Met deze aanpassingen kan een gebruiker dashboards, aangepaste rapporten, opgeslagen rapporten en aangepaste waarschuwingen maken. Omdat Analysis Workspace gebruikers in staat stelt rapporten op te stellen op basis van een leeg canvas, worden de meeste aanpassingen rechtstreeks in het gereedschap ingebouwd.
+Op platforms van derden, zoals Google Analytics, zijn verschillende aanpassingsopties beschikbaar. Met deze aanpassingen kan een gebruiker dashboards, aangepaste rapporten, opgeslagen rapporten en aangepaste waarschuwingen maken. Omdat Analysis Workspace gebruikers in staat stelt rapporten op te stellen op basis van een leeg canvas, worden de meeste aanpassingen rechtstreeks in het gereedschap ingebouwd.
 
-Deze pagina gaat ervan uit dat de gebruiker bekend is met het gebruik van [!UICONTROL Analysis Workspace] . Zie [ een basisrapport in Analysis Workspace voor Googles Analytics gebruikers ](reports/create-report.md) tot stand brengen als u nog niet vertrouwd met het hulpmiddel in Adobe Analytics bent.
+Deze pagina gaat ervan uit dat de gebruiker bekend is met het gebruik van [!UICONTROL Analysis Workspace] . Zie [ een basisrapport in Analysis Workspace voor de gebruikers van Google Analytics ](reports/create-report.md) tot stand brengen als u nog niet vertrouwd met het hulpmiddel in Adobe Analytics bent.
 
 ## Dashboards
 
-De [!UICONTROL Analysis Workspace] -architectuur is gebaseerd op het concept van dashboardwidgets. Projecten in [!UICONTROL Analysis Workspace] komen ongeveer overeen met dashboards in Googles Analytics. Visualisaties in [!UICONTROL Analysis Workspace] zijn ongeveer gelijk aan widgets in Googles Analytics.
+De [!UICONTROL Analysis Workspace] -architectuur is gebaseerd op het concept van dashboardwidgets. Projecten in [!UICONTROL Analysis Workspace] zijn ongeveer gelijk aan dashboards in Google Analytics. Visualisaties in [!UICONTROL Analysis Workspace] zijn ongeveer gelijk aan widgets in Google Analytics.
 
 ### Inhoud toevoegen aan een project
 
@@ -26,7 +26,7 @@ De [!UICONTROL Analysis Workspace] -architectuur is gebaseerd op het concept van
 2. Klik op het pictogram [!UICONTROL Components] aan de linkerkant en sleep de gewenste afmetingen en afmetingen naar de visualisatie om deze te vullen met gegevens.
 3. Sleep de randen van de visualisatie om het formaat te wijzigen en sleep de titel van de visualisatie om het te verplaatsen.
 
-Alle Googles Analytics-widgets zijn beschikbaar in [!UICONTROL Analysis Workspace] :
+Alle Google Analytics-widgets zijn beschikbaar in [!UICONTROL Analysis Workspace] :
 
 * De **Metrische widget** is ongeveer gelijk aan [!UICONTROL Summary Number] visualisatie.
 * De **widget van de Chronologie** is ongeveer gelijk aan [!UICONTROL Line] visualisatie.
@@ -54,11 +54,11 @@ Naast PDF biedt [!UICONTROL Analysis Workspace] een CSV-export.
 
 ## Aangepaste rapporten
 
-Wanneer u een aangepast rapport maakt in Googles Analytics, lijken de vereiste velden op de workflow voor het maken van een visualisatie in de werkruimte. De Dimensionen, de Metriek, en de definities van de Filter zijn gelijkaardig tussen platforms. In Analysis Workspace worden afmetingen en metriek niet uit een lijst geselecteerd, maar naar een vrije-vormtabel gesleept.
+Wanneer u een aangepast rapport maakt in Google Analytics, lijken de vereiste velden op de workflow voor het maken van een visualisatie in de werkruimte. Dimensies, metriek en filterdefinities zijn vergelijkbaar tussen platforms. In Analysis Workspace worden afmetingen en metriek niet uit een lijst geselecteerd, maar naar een vrije-vormtabel gesleept.
 
 ### Berekende cijfers in aangepaste rapporten
 
-De rapporten van de douane zijn één van de weinige gebieden in Googles Analytics die het gebruik van berekende metriek toestaat. Omdat Analysis Workspace als een canvas werkt, werken berekende metriek retroactief en in elke context.
+Aangepaste rapporten zijn een van de weinige gebieden in Google Analytics die het gebruik van berekende maatstaven toestaan. Omdat Analysis Workspace als een canvas werkt, werken berekende metriek retroactief en in elke context.
 
 Een berekende metrische waarde maken:
 
@@ -68,8 +68,8 @@ Een berekende metrische waarde maken:
 4. Zodra berekende metrisch de gewenste formule bevat, klik sparen om terug naar uw werkruimte te gaan.
 5. Sleep de nieuw gedefinieerde berekende metrische waarde naar de werkruimte.
 
-   Leer meer over [ Berekende Metriek ](/help/components/c-calcmetrics/cm-overview.md) in de de gebruikersgids van Componenten.
+   Leer meer over [ Berekende Metriek ](/help/components/calculated-metrics/cm-overview.md) in de de gebruikersgids van Componenten.
 
 ## Aangepaste waarschuwingen
 
-Alarm is beschikbaar op beide platforms. Gebruik in Adobe Analytics het navigatiemenu voor de koptekst en ga naar *[!UICONTROL Components]* > *[!UICONTROL Alerts]* . Zie [ overzicht van Alarm ](/help/components/c-alerts/intellligent-alerts.md) in de Gids van de Gebruiker van Componenten voor meer informatie.
+Alarm is beschikbaar op beide platforms. Gebruik in Adobe Analytics het navigatiemenu voor de koptekst en ga naar *[!UICONTROL Components]* > *[!UICONTROL Alerts]* . Zie [ overzicht van Alarm ](/help/components/alerts/alerts-overview.md) in de Gids van de Gebruiker van Componenten voor meer informatie.

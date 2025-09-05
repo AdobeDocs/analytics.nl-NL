@@ -4,7 +4,7 @@ keywords: Virtuele rapportsuite
 title: Virtuele rapportreeksen en tagging met meerdere suite
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1634'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De virtuele rapportsuites laten u gegevens van een rapportreeks bekijken die gegevens van uw digitale eigenschappen, maar met een segment permanent verzamelt.
 
-In veel gevallen kunt u de codering met meerdere suite&#39;s vervangen door virtuele rapportsuites. Het schakelen naar virtuele rapportsuites kan de noodzaak voor [ secundaire servervraag ](/help/admin/admin/c-server-call-usage/overage-overview.md) effectief verwijderen. Uw organisatie heeft bijvoorbeeld zes verschillende websites, die elk gegevens naar hun eigen rapportsuite en een gecombineerde algemene rapportsuite verzenden. Elke plaats gaat een secundaire servervraag in; één aan de individuele reeks van het merkrapport, en een tweede aan de globale rapportreeks. In plaats daarvan, kunt u gegevens van alle plaatsen alleen naar de globale rapportreeks verzenden, dan veelvoudige virtuele rapportreeksen gebruiken om elk merk te scheiden.
+In veel gevallen kunt u de codering met meerdere suite&#39;s vervangen door virtuele rapportsuites. Het schakelen naar virtuele rapportsuites kan de noodzaak voor [ secundaire servervraag ](/help/admin/tools/server-call-usage/overage-overview.md) effectief verwijderen. Uw organisatie heeft bijvoorbeeld zes verschillende websites, die elk gegevens naar hun eigen rapportsuite en een gecombineerde algemene rapportsuite verzenden. Elke plaats gaat een secundaire servervraag in; één aan de individuele reeks van het merkrapport, en een tweede aan de globale rapportreeks. In plaats daarvan, kunt u gegevens van alle plaatsen alleen naar de globale rapportreeks verzenden, dan veelvoudige virtuele rapportreeksen gebruiken om elk merk te scheiden.
 
 Als u de tagging met meerdere suite&#39;s vervangt door een wereldwijde rapportensuite en een Virtual Report-suite, kunt u de Adobe Analytics-implementatie vereenvoudigen en het verbruik van servergesprekken verminderen. Dit wordt als een aanbevolen werkwijze aanbevolen. Er zijn echter enkele belangrijke beperkingen die in verband met Virtual Report kunnen worden overwogen. De volgende richtlijnen kunnen u helpen beslissen of het uitvoeren van virtuele rapportreeksen die op een globale rapportreeks worden voortgebouwd de juiste benadering voor u is.
 

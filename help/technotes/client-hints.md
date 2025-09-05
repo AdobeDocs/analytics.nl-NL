@@ -4,9 +4,9 @@ description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ Google verdeelt de gebruiker-Agent cliëntwenken in twee categorieën: laag-entr
 
 * **Lage-entropy wenken** bevatten meer generische informatie over apparaten. Deze tips worden automatisch door Chromium-browsers geleverd.
 
-* **Hoog-entropie** wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op verzoek beschikbaar. Zowel AppMeasurement als Web SDK kunnen worden geconfigureerd om tips voor hoge entropie aan te vragen. Door gebrek, vragen beide bibliotheken **&#x200B;**&#x200B;geen high-entropy wenken.
+* **Hoog-entropie** wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op verzoek beschikbaar. Zowel AppMeasurement als Web SDK kunnen worden geconfigureerd om tips voor hoge entropie aan te vragen. Door gebrek, vragen beide bibliotheken **** geen high-entropy wenken.
 
 Vanaf oktober 2022 zijn nieuwe versies van Chromium-browsers begonnen met het &#39;bevriezen&#39; van de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
 
-De wenken van de cliënt zullen in het proces van de het apparatenraadpleging van Analytics van 27 februari 2023 en die op 2 maart 2023 worden opgenomen. Zowel AppMeasurement als Web SDK steunen momenteel inzameling van wenkengegevens maar het zal niet in apparatenraadpleging tot medio februari worden gebruikt. Zoals vermeld onder werkende systeemversie werd bevroren die in Oktober maar wegens een geleidelijke uitrol begint en het feit dat vele Medewerkers van de Gebruiker reeds een bevroren OS versie (zie meer [ hier ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=nl-NL)) verstrekken, schatten wij dat dit &lt;3% van Bezoekers van Chrome zal beïnvloeden.
+De wenken van de cliënt zullen in het proces van de het apparatenraadpleging van Analytics van 27 februari 2023 en die op 2 maart 2023 worden opgenomen. Zowel AppMeasurement als Web SDK steunen momenteel inzameling van wenkengegevens maar het zal niet in apparatenraadpleging tot medio februari worden gebruikt. Zoals vermeld onder werkende systeemversie werd bevroren die in Oktober maar wegens een geleidelijke uitrol begint en het feit dat vele Medewerkers van de Gebruiker reeds een bevroren OS versie (zie meer [ hier ](/help/components/dimensions/operating-systems.md)) verstrekken, schatten wij dat dit &lt;3% van Bezoekers van Chrome zal beïnvloeden.
 
 >[!NOTE]
 >
-> Vanaf januari 2023 worden sommige versies van Mac- en Windows-besturingssystemen onjuist weergegeven in de gebruikersagent, maar correct weergegeven in clienthints met hoge entropie. Zie [ Werkend Systeem ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=nl-NL) voor meer informatie.
+> Vanaf januari 2023 worden sommige versies van Mac- en Windows-besturingssystemen onjuist weergegeven in de gebruikersagent, maar correct weergegeven in clienthints met hoge entropie. Zie [ Werkend Systeem ](/help/components/dimensions/operating-systems.md) voor meer informatie.
 
-Adobe Audience Manager vereist dat hips met hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [ server-kant het door:sturen aan Adobe Audience Manager ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=nl-NL) gebruikt dan kunt u inzameling van high-entropy wenken willen toelaten.
+Adobe Audience Manager vereist dat hips met hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [ server-kant het door:sturen aan Adobe Audience Manager ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) gebruikt dan kunt u inzameling van high-entropy wenken willen toelaten.
 
 ## Veelgestelde vragen
 
@@ -43,7 +43,7 @@ Dit [ de blogpost van Google ](https://web.dev/user-agent-client-hints/) is een 
 
 +++**Hoe laat ik de inzameling van cliëntwenken toe?**
 
-Tips voor lage entropie worden automatisch door de browser opgegeven en worden opgenomen om apparaat- en browserinformatie af te leiden. Nieuwere versies van Web SDK (vanaf 2.12.0) en AppMeasurement (vanaf 2.23.0) kunnen worden geconfigureerd voor het verzamelen van hoge entropiehints via hun respectievelijke Tags-extensies of rechtstreeks via een configuratieoptie. Zie richtingen voor [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=nl-NL#enabling-high-entropy-client-hints) en [ AppMeasurement ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=nl-NL).
+Tips voor lage entropie worden automatisch door de browser opgegeven en worden opgenomen om apparaat- en browserinformatie af te leiden. Nieuwere versies van Web SDK (vanaf 2.12.0) en AppMeasurement (vanaf 2.23.0) kunnen worden geconfigureerd voor het verzamelen van hoge entropiehints via hun respectievelijke Tags-extensies of rechtstreeks via een configuratieoptie. Zie richtingen voor [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) en [ AppMeasurement ](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
 
 Voor beide bibliotheken, wordt de inzameling van high-entropy wenken **onbruikbaar gemaakt door gebrek**.
 
@@ -91,15 +91,15 @@ De beschikbare apparaatvelden voor rapportage blijven ongewijzigd. De gegevens d
 
 Deze gebieden worden direct afgeleid uit gebruiker-Agent maar user-Agent kan worden gebruikt om waarden voor andere apparaat verwante gebieden af te leiden, afhankelijk van de apparatendetails.
 
-* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=nl-NL)
-* [ Browser Type ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=nl-NL)
-* [ Werkend Systeem ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=nl-NL)
-* [Typen besturingssystemen](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=nl-NL)
-* [ Mobiel Apparaat en Mobiel Type van Apparaat ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=nl-NL)
+* [Browser](/help/components/dimensions/browser.md)
+* [Browsertype](/help/components/dimensions/browser-type.md)
+* [Besturingssysteem](/help/components/dimensions/operating-systems.md)
+* [Typen besturingssystemen](/help/components/dimensions/operating-system-types.md)
+* [Mobiel apparaat en type mobiel apparaat](/help/components/dimensions/mobile-dimensions.md)
 
 +++
 
-+++**Welke gedeelten van gebruiker-Agent &quot;bevroren&quot;en wanneer worden?**
++++**Welke gedeelten van gebruiker-Agent &quot;bevroren&quot;en wanneer worden?** 
 
 Zie de [ chronologie die door Google ](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) wordt gepubliceerd. Dit kan worden gewijzigd.
 
@@ -109,7 +109,7 @@ Zie de [ chronologie die door Google ](https://blog.chromium.org/2021/09/user-ag
 
 Apparaatinformatie in rapportage wordt afgeleid van de gebruikersagent. Wij hebben onze processen bijgewerkt om zowel de Agent van de Gebruiker als cliëntwenken te gebruiken waar beschikbaar.
 
-Identiteitskaart van de Fallback ([ s_fid ](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=nl-NL)) wordt afgeleid uit de Agent van de Gebruiker en IP Adres. Deze id wordt alleen gebruikt als een cookie niet kan worden ingesteld en daarom niet op grote schaal wordt gebruikt
+Identiteitskaart van de Fallback ([ s_fid ](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html)) wordt afgeleid uit de Agent van de Gebruiker en IP Adres. Deze id wordt alleen gebruikt als een cookie niet kan worden ingesteld en daarom niet op grote schaal wordt gebruikt
 
 +++
 
@@ -157,8 +157,8 @@ Zie de [ schemadocumentatie ](https://github.com/adobe/xdm/blob/master/component
 
 +++
 
-+++**zal Adobe Audience Manager server-kant door:sturen de wenken van de steuncliënt?**
++++**zal Adobe Audience Manager server-kant door:sturen de wenken van de steuncliënt?** 
 
-Ja. Clienttips worden opgenomen in de gegevens die naar Adobe Audience Manager worden doorgestuurd. Adobe Audience Manager vereist dat hips met hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [ server-kant het door:sturen aan Adobe Audience Manager ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=nl-NL) gebruikt dan kunt u inzameling van high-entropy wenken willen toelaten.
+Ja. Clienttips worden opgenomen in de gegevens die naar Adobe Audience Manager worden doorgestuurd. Adobe Audience Manager vereist dat hips met hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [ server-kant het door:sturen aan Adobe Audience Manager ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) gebruikt dan kunt u inzameling van high-entropy wenken willen toelaten.
 
 +++

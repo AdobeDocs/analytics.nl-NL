@@ -4,7 +4,7 @@ keywords: Analyseimplementatie
 title: Omleiding en aliassen
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -41,8 +41,8 @@ Overweeg het volgende hypothetische scenario waarin de gebruiker geen omleiding 
 Omleiding kan ertoe leiden dat de browser de werkelijke verwijzende URL weglaat. Overweeg het volgende scenario:
 
 1. De gebruiker wijst zijn of haar browser aan `https://www.google.com`, en types, *kaartjes van de kortingsluchtvaartmaatschappij* in het onderzoeksgebied, en klikt dan de **[!UICONTROL Search]** knoop.
-1. Op de adresbalk van het browservenster worden de zoektermen weergegeven die de gebruiker in het zoekveld heeft getypt `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` . U ziet dat de zoektermen zijn opgenomen in de volgende URL-querytekenreeksparameters `https://www.google.com/search?` . De browser geeft ook een pagina weer die de zoekresultaten bevat, inclusief een koppeling naar een van uw domeinnamen: [!DNL https://www.flytohawaiiforfree.com/] . Dit *domein van 0&rbrace; vanity &lbrace;wordt gevormd om de gebruiker aan `https://www.example.com/` opnieuw te richten.*
-1. De gebruiker klikt op de koppeling `https://www.flytohawaiiforfree.com/` en wordt door de server omgeleid naar de hoofdsite, `https://www.example.com` . Wanneer de omleiding plaatsvindt, gaan de gegevens die belangrijk zijn voor de gegevensverzameling van [!DNL Analytics] verloren omdat de browser de verwijzende URL wist. De oorspronkelijke zoekinformatie die in de [!DNL Analytics] -rapporten (bijvoorbeeld [!UICONTROL Referring Domains] , [!UICONTROL Search Engines], [!UICONTROL Search Keywords] ) wordt gebruikt, gaat dus verloren.
+1. Op de adresbalk van het browservenster worden de zoektermen weergegeven die de gebruiker in het zoekveld heeft getypt `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` . U ziet dat de zoektermen zijn opgenomen in de volgende URL-querytekenreeksparameters `https://www.google.com/search?` . De browser geeft ook een pagina weer die de zoekresultaten bevat, inclusief een koppeling naar een van uw domeinnamen: [!DNL https://www.flytohawaii.example/] . Dit *domein van 0} vanity {wordt gevormd om de gebruiker aan* opnieuw te richten.`https://www.example.com/`
+1. De gebruiker klikt op de koppeling `https://www.flytohawaii.example/` en wordt door de server omgeleid naar de hoofdsite, `https://www.example.com` . Wanneer de omleiding plaatsvindt, gaan de gegevens die belangrijk zijn voor de gegevensverzameling van [!DNL Analytics] verloren omdat de browser de verwijzende URL wist. De oorspronkelijke zoekinformatie die in de [!DNL Analytics] -rapporten (bijvoorbeeld [!UICONTROL Referring Domains] , [!UICONTROL Search Engines], [!UICONTROL Search Keywords] ) wordt gebruikt, gaat dus verloren.
 
 ## Omleidingen implementeren {#implement}
 
@@ -52,7 +52,7 @@ Als u de volgende stappen uitvoert, blijft de informatie behouden die de oorspro
 
 ## JavaScript-code voor verwijzingsoverschrijving configureren {#override}
 
-In het codefragment hieronder ziet u twee JavaScript-variabelen, *`s_referrer`* en *`s_pageURL`* . Deze code wordt op de laatste landingspagina van de omleiding geplaatst.
+In het codefragment hieronder ziet u twee JavaScript-variabelen, `s.referrer` en `s.pageURL` . Deze code wordt op de laatste landingspagina van de omleiding geplaatst.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -101,7 +101,7 @@ Doorgaans haalt [!DNL Analytics] de verwijzende URL uit de eigenschap [!UICONTRO
 Daarom zou de definitieve versie van de landingspagina de volgende code moeten bevatten om de problemen te verhelpen die in het scenario van &quot;kortingstickets&quot; zijn geïntroduceerd.
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -110,14 +110,14 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## De referentie verifiëren met de Adobe Debugger {#verify}
 
 Voer een test uit om te controleren of de verwijzende, voortkomende URL ( *`s_server`*) en campagnevariabelen worden vastgelegd.
 
-Deze variabelen zullen als volgende parameters in [ Zuiver van de Wolk van de Ervaring worden vertegenwoordigd ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL).
+Deze variabelen zullen als volgende parameters in [ Zuiver van de Wolk van de Ervaring worden vertegenwoordigd ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
@@ -135,8 +135,8 @@ Deze variabelen zullen als volgende parameters in [ Zuiver van de Wolk van de Er
   </tr> 
   <tr> 
    <td> <p>Pagina-URL </p> </td> 
-   <td> <p> <span class="filepath"> https://www.flytohawaiiforfree.com </span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>Deze waarde wordt weergegeven in de DigitalPulse-foutopsporing als de variabele <span class="varname"> pageURL </span> wordt gebruikt. </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>Deze waarde wordt weergegeven in de DigitalPulse-foutopsporing als de variabele <span class="varname"> pageURL </span> wordt gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>URL Ultimate-bestemmingspagina </p> </td> 
@@ -157,7 +157,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 

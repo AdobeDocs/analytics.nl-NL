@@ -3,7 +3,7 @@ title: Veelgestelde vragen over marketingkanalen
 description: Veelgestelde vragen over marketingkanalen.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Om doeltreffendheid van de Kanalen van de Marketing voor Attributie en Customer Journey Analytics te maximaliseren, hebben wij sommige [ herzien beste praktijken ](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
 >
->De beheerders van Analytics kunnen marketing kanalen voor hun organisaties beheren zoals die in [ worden beschreven leiden de Kanalen van de Marketing ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>De beheerders van Analytics kunnen marketing kanalen voor hun organisaties beheren zoals die in [ worden beschreven leiden de Kanalen van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
 Veelgestelde vragen over marketingkanalen.
 
@@ -89,7 +89,7 @@ Interne laatste aanraking (Sessie vernieuwen) kan alleen optreden als dit ook de
 
 * **richt** opnieuw: Als een omleiding niet opstelling is om verwijzergegevens tot de nieuwe het landen pagina over te gaan, worden de ware gegevens van de ingangsverwijzing verloren en nu verschijnt de omleidingspagina (waarschijnlijk een interne pagina) als verwijzend domein. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-* **Verkeer van het Domein 1&rbrace;: Een bezoeker beweegt zich van één domein dat aan Reeks A in brand steekt, naar een tweede domein dat aan Reeks B in brand steekt. Als de interne URL-filters in Suite B het eerste domein bevatten, wordt het bezoek in Suite B geregistreerd als Intern, omdat Marketing Channels het als een nieuw bezoek in de tweede suite zien.** Het bezoek wordt geclassificeerd als Sessie vernieuwen.
+* **Verkeer van het Domein 1}: Een bezoeker beweegt zich van één domein dat aan Reeks A in brand steekt, naar een tweede domein dat aan Reeks B in brand steekt. Als de interne URL-filters in Suite B het eerste domein bevatten, wordt het bezoek in Suite B geregistreerd als Intern, omdat Marketing Channels het als een nieuw bezoek in de tweede suite zien.** Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
 * **Lange ingang-pagina laadt tijden**: Een bezoeker land op Pagina A die zwaar op inhoud is, en de code van Adobe Analytics wordt gevestigd bij de bodem van de pagina. Voordat alle inhoud (inclusief Adobe Analytics-verzoek om afbeelding) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B wordt de Adobe Analytics-aanvraag voor een afbeelding geactiveerd. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, met Pagina A als de referentie. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 

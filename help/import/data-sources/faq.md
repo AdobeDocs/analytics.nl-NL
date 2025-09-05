@@ -4,7 +4,7 @@ description: Veelgestelde vragen over gegevensbronnen.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 667870f9575bbc03a72738771f34bf1718725d6c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -30,8 +30,8 @@ De gegevens die door gegevensbronnen worden geupload beïnvloeden [ meningen van
 +++Werken gegevens die via gegevensbronnen zijn geüpload door extra verwerking, zoals verwerkingsregels?
 Nee. Gegevens geüpload via gegevensbronnen:
 
-* Ga niet door [ Regels van de Verwerking ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
-* Ga niet door [ de verwerkingsregels van het Kanaal van de Marketing ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+* Ga niet door [ Regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
+* Ga niet door [ de verwerkingsregels van het Kanaal van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
 * Ga niet door [ regels VISTA ](/help/technotes/vista.md)
 +++
 

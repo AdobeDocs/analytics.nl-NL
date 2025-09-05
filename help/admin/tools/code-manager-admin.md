@@ -1,0 +1,29 @@
+---
+description: Met Codebeheer kunt u gegevensverzamelingscode downloaden voor web en mobiele platforms.
+title: Codebeheer
+feature: Admin Tools
+exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
+role: Admin
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
+
+---
+
+# Codebeheer
+
+Met Codebeheer kunt u gegevensverzamelingscode downloaden voor web en mobiele platforms.
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**
+
+Nadat u de bibliotheek hebt gedownload, moet u de code configureren om gegevens naar de juiste trackingserver en rapportsuite te verzenden. De extra implementatiemiddelen zijn beschikbaar in [ voeren ](/help/implement/home.md) gebruikersgids uit.
+
+## Paginabeschrijvingen van Codebeheer {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
+
+| Kolom | Beschrijving |
+|--- |--- |
+| [!UICONTROL Name] | De naam komt overeen met het platform waarop u gegevensverzameling wilt inschakelen. Er zijn native bibliotheken beschikbaar voor elk platform dat in deze kolom wordt vermeld. |
+| [!UICONTROL Type] | Type van toepassingen dat kan worden gemeten gebruikend elke bibliotheek. |
+| [!UICONTROL Version] | De meest recente versie van de bibliotheek weergeven. Klik het versieaantal om de [ versiegeschiedenis ](/help/implement/appmeasurement-updates.md) te bekijken. |
+| [!UICONTROL Documentation] | Bekijk de documentatie van de bibliotheekverwijzing. |

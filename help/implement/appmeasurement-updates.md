@@ -4,9 +4,9 @@ description: Cumulatieve releaseopmerkingen voor AppMeasurement for JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2726'
+source-wordcount: '2725'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Datum van de versie: **11 Oktober, 2021**
 
 Datum van de versie: **7 September, 2021**
 
-* Deze update zorgt ervoor dat `opt.dmp` en `opt.sell` altijd worden opgenomen bij het bijhouden van koppelingen. Zie [ Privacy die ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) meldt in de Admin gebruikersgids voor meer informatie.
+* Deze update zorgt ervoor dat `opt.dmp` en `opt.sell` altijd worden opgenomen bij het bijhouden van koppelingen. Zie [ Privacy die ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) meldt in de Admin gebruikersgids voor meer informatie.
 
 ## Versie 2.22.1
 
@@ -313,7 +313,7 @@ Datum van de versie: **21 juli, 2016**
 
 * Opname van de Bezoeker-API 1.6.0.
 * Probleem verholpen waarbij [!DNL AppMeasurement] de onjuiste, verduisterde methode aanriep in de Bezoeker-API. (AN-126006)
-* Probleem opgelost waarbij de fout [!DNL JavaScript] werd veroorzaakt: &quot;Kenmerk alleen geldig op v:image&quot;. (AN-124009)
+* Probleem verholpen die de fout [!DNL JavaScript] veroorzaakte: &quot;Kenmerk alleen geldig op v:image&quot;. (AN-124009)
 
 ## Versie 1.6.1
 
@@ -424,7 +424,7 @@ Datum van de versie: **18 september, 2014**
 
   >[!IMPORTANT]
   >
-  >Voor een [!DNL Analytics] vraag om de methode van de POST in plaats van de methode van GET in [!DNL AppMeasurement] (een methode om [ afgekapte URLs in IE ](https://helpx.adobe.com/nl/analytics/kb/shortening-image-request-urls.html) op te lossen) te gebruiken, moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor Experience Cloud gebruiken.
+  >Voor een [!DNL Analytics] vraag om de methode van de POST in plaats van de methode van GET in [!DNL AppMeasurement] (een methode om [ afgekapte URLs in IE ](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html) op te lossen) te gebruiken, moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor Experience Cloud gebruiken.
 
 ## Versie 1.4
 
@@ -455,7 +455,7 @@ Datum van de versie: **22 mei, 2014**
 
 Datum van de versie: **17 april 2014**
 
-* Steun voor de [ dienst van identiteitskaart van de Bezoeker van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
+* Steun voor de [ dienst van identiteitskaart van de Bezoeker van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Versie 1.2.4
 
@@ -485,8 +485,8 @@ Datum van de versie: **15 November, 2013**
 
 Datum van de versie: **14 November, 2013**
 
-* Toegevoegde steun voor [ Hartslagvideometing ](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=nl-NL).
-* `VisitorAPI.js` werd toegevoegd om de [ Dienst van identiteitskaart van de Bezoeker ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) te steunen.
+* Toegevoegde steun voor [ Hartslagvideometing ](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+* `VisitorAPI.js` werd toegevoegd om de [ Dienst van identiteitskaart van de Bezoeker ](https://experienceleague.adobe.com/docs/id-service/using/home.html) te steunen.
 
 ## Versie 1.1.1
 

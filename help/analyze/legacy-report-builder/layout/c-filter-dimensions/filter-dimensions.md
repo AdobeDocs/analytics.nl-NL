@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 7%
@@ -18,13 +18,13 @@ ht-degree: 7%
 
 U kunt filteren op afmetingen die u toevoegt aan het raster Rijlabels. Filters beperken de gegevens die door aanvragen worden geretourneerd en kunnen worden toegepast vanuit de indelingen Draaien of Aangepast. Wanneer u dimensie het filtreren van de Lay-out van de Draaiende vormt, kunt u het aantal ingangen van cel extra specificeren.
 
-Het geselecteerde filterformulier wordt gevuld op basis van het element en de metrische waarde die in de aanvraag voor Report Builder zijn geselecteerd.
+Het geselecteerde filterformulier wordt gevuld op basis van het element en de metrische waarde die in de Report Builder-aanvraag zijn geselecteerd.
 
 ## Filter definiëren - waarden en speciale tekens {#section_15840216A4044C40974945FAA435AD93}
 
 Informatie over filters in het deelvenster **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** .
 
-![ Schermafbeelding die de Define dialoog van de Filter met opties tonen om door Toepassing, Gebruiker, en Project te filtreren.](/help/admin/admin/assets/filter.png)
+![ Schermafbeelding die de Define dialoog van de Filter met opties tonen om door Toepassing, Gebruiker, en Project te filtreren.](/help/admin/tools/assets/filter.png)
 
 De volgende tabellen bevatten voorbeelden en informatie over filters:
 

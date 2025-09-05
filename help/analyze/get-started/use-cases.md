@@ -3,10 +3,10 @@ description: Algemene overzichtsinformatie over Adobe Analytics, inclusief infor
 title: Gebruiksscenario's voor analyse
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 9%
+source-wordcount: '257'
+ht-degree: 10%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics biedt de volgende complexe segmentatie en voorspellende hulpmidd
 
 * [Stroomanalyse](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [ Geavanceerde segmentatie ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=nl-NL)
+* [Geavanceerde segmentering](/help/components/segmentation/seg-home.md)
 
 
 ## Marketing Analytics
@@ -33,9 +33,7 @@ Adobe Analytics helpt organisaties te begrijpen waar klanten met hun merken in w
 
 De volgende belangrijke functies in Adobe Analytics bieden de volgende marketingmogelijkheden:
 
-* [ Multikanaalgegevensinzameling ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=nl-NL)
-
-* [ Offlinegegevensintegratie ](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=nl-NL)
+* [Offline gegevensintegratie](/help/import/data-sources/overview.md)
 
 * [Ad-hocanalyse in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
@@ -55,4 +53,4 @@ De volgende belangrijke functies in Adobe Analytics bieden deze voorspellende mo
 
 * [Bijdrage-analyse](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [Waarschuwingen](/help/components/c-alerts/intellligent-alerts.md)
+* [Waarschuwingen](/help/components/alerts/alerts-overview.md)

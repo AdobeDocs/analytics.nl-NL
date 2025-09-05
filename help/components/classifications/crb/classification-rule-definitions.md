@@ -3,9 +3,9 @@ description: Definities van interface-elementen op de pagina's in de opbouwfunct
 title: Classificatieregels - definities
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Op deze pagina worden de regels in een regelset weergegeven.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selecteer rapportsets en -variabelen </p> </td> 
-   <td colname="col2"> <p><b> Reeks van het Rapport </b> </p> <p>Het rapport is geschikt voor de toepassing van de regel. </p> <p><b> Variabele </b> </p> <p>U kunt slechts één variabele toepassen wanneer u een set classificatieregel maakt. Als u veelvoudige regelreeksen voor één variabele wilt tot stand brengen, moet u elke regel toepassen die op veelvoudige rapportreeksen wordt geplaatst. </p> <p>Opmerking: u kunt alleen de variabelen gebruiken waartoe u toegang hebt in de rapportsuites. Variabelen worden alleen in het deelvenster <span class="wintitle"> Nieuwe regelset </span> weergegeven nadat ten minste één classificatie is gedefinieerd voor die variabele. </p> <p> U kunt classificaties op een variabele in <span class="uicontrol"> Admin </span> tot stand brengen &gt; <span class="uicontrol"> de Reeksen van het Rapport </span> &gt; <span class="uicontrol"> Verkeer </span> &gt; <span class="uicontrol"> Classificaties van het Verkeer </span> (of <span class="uicontrol"> Omzetting </span> &gt; <span class="uicontrol"> Classificaties van de Omzetting </span>). Selecteer vervolgens de variabele en klik op <span class="uicontrol"> Classificatie toevoegen </span> . </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html?lang=nl-NL"  > Verkeersclassificaties </a> en <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=nl-NL"  > Conversieclassificaties </a> in de Help bij Admin. </p> </td> 
+   <td colname="col2"> <p><b> Reeks van het Rapport </b> </p> <p>Het rapport is geschikt voor de toepassing van de regel. </p> <p><b> Variabele </b> </p> <p>U kunt slechts één variabele toepassen wanneer u een set classificatieregel maakt. Als u veelvoudige regelreeksen voor één variabele wilt tot stand brengen, moet u elke regel toepassen die op veelvoudige rapportreeksen wordt geplaatst. </p> <p>Opmerking: u kunt alleen de variabelen gebruiken waartoe u toegang hebt in de rapportsuites. Variabelen worden alleen in het deelvenster <span class="wintitle"> Nieuwe regelset </span> weergegeven nadat ten minste één classificatie is gedefinieerd voor die variabele. </p> <p> U kunt classificaties op een variabele in <span class="uicontrol"> Admin </span> tot stand brengen &gt; <span class="uicontrol"> de Reeksen van het Rapport </span> &gt; <span class="uicontrol"> Verkeer </span> &gt; <span class="uicontrol"> Classificaties van het Verkeer </span> (of <span class="uicontrol"> Omzetting </span> &gt; <span class="uicontrol"> Classificaties van de Omzetting </span>). Selecteer vervolgens de variabele en klik op <span class="uicontrol"> Classificatie toevoegen </span> . </p> <p>Zie <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  > Verkeersclassificaties </a> en <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  > Conversieclassificaties </a> in de Help bij Admin. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activeren </span> </p> </td> 

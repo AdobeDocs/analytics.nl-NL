@@ -3,9 +3,9 @@ description: Leer hoe u segmenten voor marketingactiviteiten publiceert in Audie
 title: Segmenten publiceren
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -41,16 +41,16 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ segmenten ](h
 
 ## Vereisten
 
-* Zorg ervoor dat de rapportreeks die u dit segment aan opslaat [ voor Experience Cloud ](https://experienceleague.adobe.com/nl/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) wordt toegelaten. Anders kunt u het bestand niet publiceren naar Experience Cloud.
+* Zorg ervoor dat de rapportreeks die u dit segment aan opslaat [ voor Experience Cloud ](/help/components/segmentation/segmentation-workflow/seg-publish.md) wordt toegelaten. Anders kunt u het bestand niet publiceren naar Experience Cloud.
 * Zorg ervoor dat uw organisatie Experience Cloud-id&#39;s gebruikt.
-* Alvorens u segmenten kunt publiceren, moet uw Admin de [!UICONTROL Segment Publishing] toestemming aan een productprofiel in [ Admin Console ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-tool-experience-cloud) toewijzen, en u toevoegen aan het productprofiel.
+* Alvorens u segmenten kunt publiceren, moet uw Admin de [!UICONTROL Segment Publishing] toestemming aan een productprofiel in [ Admin Console ](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-tool-experience-cloud) toewijzen, en u toevoegen aan het productprofiel.
 
 ## Overwegingen
 
 * **de grenzen van de Reeks van het Rapport**: U kunt tot 75 segmenten per rapportreeks publiceren. Deze limiet geldt. Als u al 75 gepubliceerde segmenten hebt, kunt u geen extra segmenten publiceren tot u unpublish genoeg segmenten om onder de 75-segmentdrempel te krijgen.
 * **de grenzen van het Lidmaatschap**: Het publiek dat aan [!DNL Experience Cloud] van Adobe Analytics wordt gedeeld kan 20 miljoen unieke leden niet overschrijden.
 * **Privacy van Gegevens**: Het publiek wordt niet gefiltreerd gebaseerd op de authentificatiestatus van een bezoeker. Een bezoeker kan mogelijk door uw site bladeren in niet-geverifieerde en geverifieerde toestanden. Handelingen die plaatsvinden wanneer een bezoeker niet is geverifieerd, kunnen er nog steeds toe leiden dat een bezoeker wordt opgenomen in een publiek. Het overzicht [ privacy van Adobe Experience Cloud ](https://www.adobe.com/privacy/experience-cloud.html) om de volledige privacyimplicaties van publiek te begrijpen delend.
-* Voor een bespreking over de **verschillen tussen segmenten in [!DNL Adobe Analytics] en[!DNL Audience Manager]**, zie [ segmenten in Analytics en Audience Manager ](https://experienceleague.adobe.com/nl/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments) begrijpen.
+* Voor een bespreking over de **verschillen tussen segmenten in [!DNL Adobe Analytics] en[!DNL Audience Manager]**, zie [ segmenten in Analytics en Audience Manager ](/help/integrate/c-audience-analytics/aam-analytics-segments.md) begrijpen.
 
 ## Tijdlijn voor segmentpublicatie
 
@@ -127,14 +127,14 @@ In de volgende schermafbeeldingen ziet u hoe u de Adobe Audience Manager UUID in
 
 1. Chrome Developer Tools starten voordat een pagina wordt geladen
 1. Laad de pagina en controleer Toepassingen > Cookies. De Adobe Audience Manager UUID moet in de derde worden ingesteld
-Het koekje van de index ([ adobe.demdex.net ](https://experienceleague.adobe.com/nl/docs/audience-manager/user-guide/reference/demdex-calls) in het hieronder voorbeeld). De velddemdex is de Adobe Audience Manager UUID-set
+Het koekje van de index ([ adobe.demdex.net ](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) in het hieronder voorbeeld). De velddemdex is de Adobe Audience Manager UUID-set
 in de browser (`35721780439475290181087231320657663953` in het onderstaande voorbeeld).
 
    ![ de Hulpmiddelen van de Ontwikkelaar van Chrome ](assets/devtools.png)
 
 ## Audience Manager gebruiken [!UICONTROL Visitor Profile Viewer]
 
-De Adobe Audience Manager-UUID in de browser wordt standaard gebruikt wanneer [!UICONTROL Visitor Profile Viewer] wordt geladen. Als u de karakteristieken voor andere gebruikers verifieert, voert u een UUID in het veld UUID in en klikt u op [!UICONTROL Refresh] . Verwijs naar [ de Kijker van het Profiel van de Bezoeker ](https://experienceleague.adobe.com/nl/docs/audience-manager/user-guide/features/visitor-profile-viewer) voor meer informatie.
+De Adobe Audience Manager-UUID in de browser wordt standaard gebruikt wanneer [!UICONTROL Visitor Profile Viewer] wordt geladen. Als u de karakteristieken voor andere gebruikers verifieert, voert u een UUID in het veld UUID in en klikt u op [!UICONTROL Refresh] . Verwijs naar [ de Kijker van het Profiel van de Bezoeker ](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) voor meer informatie.
 
 ## De segmentkenmerken weergeven in [!DNL Audience Manager]
 
@@ -155,7 +155,7 @@ Met **[!UICONTROL Publish this segment to the Experience Cloud]** kan het segmen
 
 In Adobe Target:
 
-1. Selecteer **[!UICONTROL Audiences]** .
+1. Selecteer **[!UICONTROL Audiences]**.
 1. Zoek op de pagina **[!UICONTROL Audiences]** het publiek op dat afkomstig is van [!DNL Experience Cloud] . Deze soorten publiek zijn beschikbaar voor gebruik in [!DNL Target] -activiteiten.
 
    ![ Doelpubliek van het Doel ](assets/target-audiences.png)

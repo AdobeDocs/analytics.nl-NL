@@ -4,7 +4,7 @@ title: Bijdrageanalyse uitvoeren
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -37,7 +37,7 @@ De volgende stappen moeten worden uitgevoerd:
 
    ![ Excluding dimensies van de analyse van de Bijdrage ](assets/excluding-dimensions.png)
 
-1. Selecteer **[!UICONTROL Run contribution analysis]** .
+1. Selecteer **[!UICONTROL Run contribution analysis]**.
 
 1. Wacht terwijl de bijdrageanalyse wordt verwerkt. De verwerking kan een aanzienlijke hoeveelheid tijd in beslag nemen, afhankelijk van de grootte van uw rapportsuite en het aantal dimensies. De analyse van de bijdrage voert analyse op de hoogste 50.000 punten per dimensie uit. U wordt ook op de hoogte gebracht over het aantal [ tokens van de bijdrageanalyse ](anomaly-detection.md#contribution-analysis-tokens) resterend.
 
@@ -59,7 +59,7 @@ De volgende stappen moeten worden uitgevoerd:
    * [ onderbreking elk afmetingspunt door een andere afmeting ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
    * [ Trending één of meerdere rijen ](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [ voeg een nieuwe visualisaties ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toe
-   * [ creeer alarm ](/help/components/c-alerts/intellligent-alerts.md)
+   * [ creeer alarm ](/help/components/alerts/alerts-overview.md)
    * [Maak of vergelijk segmenten.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]

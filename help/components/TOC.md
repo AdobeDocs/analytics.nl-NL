@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: edc64aeef6eb987c5533f6a14d95aca6ff29a467
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 7%
@@ -14,8 +14,8 @@ ht-degree: 7%
 
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
-+ [Analytics Components-handleiding](home.md)
-+ [ de Nota&#39;s van de Versie van Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=nl-NL)
++ [Handleiding voor analytische componenten](home.md)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -202,36 +202,36 @@ ht-degree: 7%
       + [Segmentrechten per rol](segmentation/seg-reference/seg-rights.md)
       + [Problemen oplossen](segmentation/seg-reference/c-troubleshooting.md)
    + [Veelgestelde vragen over oudere segmenten](segmentation/seg-transition.md)
-   + [Aanbevolen procedures](segmentation/best-practices.md)
+   + [Best practices](segmentation/best-practices.md)
 + Berekende cijfers {#calculated-metrics}
-   + [Overzicht](c-calcmetrics/cm-overview.md)
-   + [Hoe kan ik-video&#39;s](c-calcmetrics/cm-videos.md)
+   + [Overzicht](calculated-metrics/cm-overview.md)
+   + [Hoe kan ik-video&#39;s](calculated-metrics/cm-videos.md)
    + Workflow {#calcmetric-workflow}
-      + [Berekende waarden maken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [Metrische gegevens zoeken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Berekende maatstaven samenstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Een eenvoudig voorbeeld](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Een complexer voorbeeld](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Type en attributie metrisch](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Metrische gegevens voor deelname](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [Gesegmenteerde metriek](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
-      + [Segmenten stapelen en vervangen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
-      + [Gefilterde en gewogen cijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [Functies gebruiken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [Berekende maatstaven voor tags](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [Berekende maateenheden filteren](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [Berekende metriek markeren als favoriet](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
-      + [Berekende waarden goedkeuren](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [Berekende maatstaven delen](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [Berekende cijfers kopiëren](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [Berekende waarden beheren](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Berekende waarden maken](calculated-metrics/workflow/cm-workflow.md)
+      + [Metrische gegevens zoeken](calculated-metrics/workflow/cm-finding.md)
+      + [Berekende maatstaven samenstellen](calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+      + [Een eenvoudig voorbeeld](calculated-metrics/workflow/c-build-metrics/cm-pvv.md)
+      + [Een complexer voorbeeld](calculated-metrics/workflow/c-build-metrics/cm-orders-participation.md)
+      + [Type en attributie metrisch](calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [Metrische gegevens voor deelname](calculated-metrics/workflow/c-build-metrics/participation-metric.md)
+      + [Gesegmenteerde metriek](calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)
+      + [Segmenten stapelen en vervangen](calculated-metrics/workflow/c-build-metrics/cm-stack-seg.md)
+      + [Gefilterde en gewogen cijfers](calculated-metrics/workflow/c-build-metrics/cm-weighted-metric.md)
+      + [Functies gebruiken](calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+      + [Berekende maatstaven voor tags](calculated-metrics/workflow/cm-tagging.md)
+      + [Berekende maateenheden filteren](calculated-metrics/workflow/cm-filter.md)
+      + [Berekende metriek markeren als favoriet](calculated-metrics/workflow/cm-favorite.md)
+      + [Berekende waarden goedkeuren](calculated-metrics/workflow/cm-approving.md)
+      + [Berekende maatstaven delen](calculated-metrics/workflow/cm-sharing.md)
+      + [Berekende cijfers kopiëren](calculated-metrics/workflow/cm-copy.md)
+      + [Berekende waarden beheren](calculated-metrics/workflow/cm-manager.md)
    + Referentie {#calcmetrics-reference}
-      + [Basisfuncties](c-calcmetrics/cm-reference/cm-functions.md)
-      + [Geavanceerde functies](c-calcmetrics/cm-reference/cm-adv-functions.md)
-      + [Metrische compatibiliteit](c-calcmetrics/cm-compatibility.md)
-      + [Op rollen gebaseerde rechten](c-calcmetrics/cm-role-based-rights.md)
-      + [Berekende totalen van metriek](c-calcmetrics/cm-totals.md)
-      + [Berekende standaardwaarden](c-calcmetrics/cm-reference/default-calcmetrics.md)
+      + [Basisfuncties](calculated-metrics/cm-reference/cm-functions.md)
+      + [Geavanceerde functies](calculated-metrics/cm-reference/cm-adv-functions.md)
+      + [Metrische compatibiliteit](calculated-metrics/cm-compatibility.md)
+      + [Op rollen gebaseerde rechten](calculated-metrics/cm-role-based-rights.md)
+      + [Berekende totalen van metriek](calculated-metrics/cm-totals.md)
+      + [Berekende standaardwaarden](calculated-metrics/cm-reference/default-calcmetrics.md)
 + Virtuele rapportsuites {#virtual-report-suites}
    + [Overzicht van virtuele-rapportsuites](vrs/vrs-about.md)
    + [Virtuele rapportsuite - componentcursus](vrs/vrs-components.md)
@@ -255,10 +255,10 @@ ht-degree: 7%
    + [Beperk een Virtuele rapportreeks tot bepaalde data](cda/limit-vrs-date.md)
    + [Veelgestelde vragen over cross-device analyse](cda/faq.md)
 + Waarschuwingen {#alerts}
-   + [Overzicht](c-alerts/intellligent-alerts.md)
-   + [Waarschuwingen maken](c-alerts/alert-builder.md)
-   + [Waarschuwingen beheren](c-alerts/alert-manager.md)
-   + [Gebruik hoofdletters](c-alerts/alerts-use-cases.md)
+   + [Overzicht](alerts/alerts-overview.md)
+   + [Waarschuwingen maken](alerts/alert-builder.md)
+   + [Waarschuwingen beheren](alerts/alert-manager.md)
+   + [Gebruik hoofdletters](alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
    + [Overzicht van classificaties](classifications/classifications-overview.md)
    + Classificatiesets {#sets}

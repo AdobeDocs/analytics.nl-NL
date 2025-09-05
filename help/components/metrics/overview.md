@@ -3,7 +3,7 @@ title: Overzicht van cijfers
 description: De hoeveelheden dimensie-items of gegevens weergeven in de loop van de tijd.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 3%
@@ -24,9 +24,9 @@ Als u bijvoorbeeld de **[!UICONTROL Page]** -dimensie hebt gecombineerd met de *
 
 {style="table-layout:fixed"}
 
-Als u niet de hulppagina voor bepaalde metrisch kunt vinden, is het waarschijnlijk of a [ douanegebeurtenis ](custom-events.md) of a [ berekende metrisch ](../c-calcmetrics/cm-overview.md).
+Als u niet de hulppagina voor bepaalde metrisch kunt vinden, is het waarschijnlijk of a [ douanegebeurtenis ](custom-events.md) of a [ berekende metrisch ](../calculated-metrics/cm-overview.md).
 
-* Als metrisch een douanegebeurtenis is, raadpleeg een Analysebeheerder binnen uw organisatie, of het document van het oplossingsontwerp van de rapportreeks [&#128279;](/help/implement/prepare/solution-design.md).
+* Als metrisch een douanegebeurtenis is, raadpleeg een Analysebeheerder binnen uw organisatie, of het document van het oplossingsontwerp van de rapportreeks [ ](/help/implement/prepare/solution-design.md).
 * Als metrisch berekende metrisch is, klik het informatiepictogram om zijn formule te bepalen.
 
 ## Metrische beschrijvingen toevoegen

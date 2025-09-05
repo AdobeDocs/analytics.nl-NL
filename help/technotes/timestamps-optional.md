@@ -5,9 +5,9 @@ title: Tijdstempels optioneel
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Tijdstempels optioneel is de standaardinstelling voor alle nieuwe rapportsuites.
 >
 >Tijdstempels Optioneel is de standaardinstelling voor alle nieuwe rapportsuites die worden gegenereerd op basis van een sjabloon. De nieuwe rapportreeksen die van een bestaande rapportreeks worden gekopieerd zullen montages van origineel erven.
 
-Zie [ Tijdstempels Facultatieve ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=nl-NL) voor extra opstellingsinformatie.
+Zie [ Tijdstempels Facultatieve ](/help/technotes/timestamps-optional.md) voor extra opstellingsinformatie.
 
 ## Tijdstempels optioneel: tijdstempelgegevens en niet-tijdstempelgegevens integreren {#integrate}
 
 Met de functie Tijdstempels optioneel kunt u gegevens zonder tijdstempel combineren met gegevens met een tijdstempel zonder dat er gegevensverlies optreedt. Offlinegegevens met tijdstempels die op een mobiel apparaat worden gegenereerd, kunnen worden gecombineerd met live, niet-tijdstempelgegevens van een webpagina, of worden geïntegreerd met gegevens van elk platform via een tijdstempelaanroep aan de clientzijde.
 
 * **gegevens van de tijdstempel**. Tijdstempelgegevens aan de clientzijde worden vastgelegd en rechtstreeks verzonden met de apparaatgegevens met gebruik van tijdstempelvariabelen aan de clientzijde: Javascript op een webpagina of een mobiele SDK-aanroep ( [!DNL offlineEnabled=true] ) in een mobiele app.
-* **niet-timestamp gegevens**. Met Adobe wordt een tijdstempel ingesteld op gegevens zonder tijdstempel in een rapportsuite wanneer de gegevens op de verzamelingsservers worden geplaatst.
+* **niet-timestamp gegevens**. Adobe stelt een tijdstempel in voor niet-tijdstempelgegevens in een rapportsuite wanneer de gegevens op de verzamelingsservers komen.
 
 Een rapportsuite kan een van de volgende tijdstempelinstellingen hebben:
 
@@ -73,7 +73,7 @@ Het combineren van gegevens in een globale rapportreeks kan op veelvoudige manie
 
 Hieronder vindt u best practices en een aantal vereisten en beperkingen die u in acht moet nemen wanneer u tijdstempels met gegevens zonder tijdstempel integreert.
 
-* Over het algemeen moeten tijdstempels voor een bepaalde bezoeker of een bepaald bezoek in chronologische volgorde bij de Adobe aankomen.
+* In het algemeen moeten tijdstempels voor een bepaalde bezoeker of een bepaald bezoek in de juiste chronologische volgorde bij Adobe aankomen.
 
   Gegevens die niet op volgorde staan, kunnen gegevens bevatten die te laat aankomen bij het verzamelen van offlinegegevens en laat aankomen, of uit-of-synchronisatieklokken op mobiele offlineapparaten. Buiten-de-ordegegevens kunnen tijdberekeningen (zoals tijd bestede waarden), attributie (eVar persistence), bezoekaantal/bezoek tellingen, en het kleven rapporten negatief beïnvloeden.
 

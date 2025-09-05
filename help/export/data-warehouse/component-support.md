@@ -3,7 +3,7 @@ title: Componentondersteuning in Data Warehouse
 description: Leer welke extra afmetingen en metriek beschikbaar zijn in Data Warehouse en wat niet wordt gesteund.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
    * Opnieuw laden
    * Enkelvoudige toegang
    * Metrische waarden voor &#39;tijd besteed&#39;
-* De metriek van de participatie (zoals die in [ wordt beschreven bouwt metrische &quot;Deelname&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* De metriek van de participatie (zoals die in [ wordt beschreven bouwt metrische &quot;Deelname&quot;](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md))
 
 ### Dimensies die op een andere manier worden ondersteund (niet-standaarddatumopmaak)
 

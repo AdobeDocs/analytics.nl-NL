@@ -4,7 +4,7 @@ description: Begrijp de voordelen en de vereisten aan het gebruiken van een glob
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -17,34 +17,34 @@ Een algemene rapportsuite is een rapportsuite die gegevens verzamelt van alle do
 
 ## Voordelen
 
-Adobe beveelt in de meeste gevallen aan een algemene rapportenreeks te implementeren.
+Adobe raadt in de meeste gevallen aan een algemene rapportsuite te implementeren.
 
-* **Geaggregeerde gegevens:** De globale rapportsuites laten u toe om de gebeurtenissen van KPI en van het succes over uw eigen plaatsen te zien. De segmentatie en de virtuele rapportsuites kunnen worden gebruikt om plaats-specifieke gegevens te bekijken.
-* **Ondersteuning voor apparaatanalyse:** CDA vereist een rapportsuite die gegevens verzamelt van meerdere locaties, zoals uw website en mobiele app. Afzonderlijke apparaten kunnen gegevens samenvoegen als deze correct zijn geïmplementeerd. Zie [Apparaatanalyse](../../components/cda/overview.md) in de gebruikershandleiding van Componenten voor meer informatie.
-* **U hebt niet meer dan één rapportsuite nodig:** Alle gegevens kunnen in één enkele rapportreeks worden verzameld, zodat is het minder waarschijnlijk voor een ontwikkelaar om gegevens naar de verkeerde rapportreeks per ongeluk te verzenden.
-* **Geen rollups nodig:** Rollups zijn een vrij gedateerde eigenschap die de individuele gegevens van de rapportreeks op een dagelijkse basis samenvoegt. Rollups dedupliceren geen bezoek- of bezoekersgegevens, wat tot opgeblazen aantallen kan leiden. Zie [Rolluizen](../../admin/admin/c-manage-report-suites/rollup-report-suite.md) in de gebruikershandleiding voor Admin voor meer informatie.
-* **Tijd opslaan:** De projecten van de werkruimte, classificaties, segmenten, en berekende metriek zijn verbonden aan de zelfde globale rapportreeks. Beheerders besteden minder tijd aan het beheren van deze componenten en gegevensbeheer.
-* **Nauwkeuriger kenmerk tussen verschillende merken:** Als een bezoek op één plaats dan aan een andere van uw eigen plaatsen alvorens een succesgebeurtenis begint te teweegbrengen, wordt de attributie correct verzameld. Een bezoeker klikt bijvoorbeeld op een betaalde zoekkoppeling en landt op site A. Vervolgens klikken ze op een koppeling naar site B en kopen ze deze. Een algemene rapportsuite kenmerkt zich correct die wordt aangeschaft voor een betaalde zoekopdracht.
-* **Vereenvoudigde implementatie:** Aangezien alle merken/sites gegevens naar dezelfde rapportsuite verzenden, worden de implementaties voor elke site uitgelijnd. Dit gedwongen bestuur verzekert een specifieke afmeting of metrisch wordt bewaard in de zelfde eVar of de gebeurtenis. Beheerders, testers, eigenaars van tagbeheer en analisten profiteren van deze vereenvoudiging.
+* **samengevoegde gegevens:** Globale rapportreeksen laten u toe om de gebeurtenissen van KPI en van het succes over uw bezeten plaatsen te zien. De segmentatie en de virtuele rapportsuites kunnen worden gebruikt om plaats-specifieke gegevens te bekijken.
+* **Steun voor Analytics van het Apparaat:** CDA vereist een rapportreeks die gegevens van veelvoudige plaatsen, zoals uw website en mobiele app verzamelt. Afzonderlijke apparaten kunnen gegevens samenvoegen als deze correct zijn geïmplementeerd. Zie [ Analytics van het Apparaat ](../../components/cda/overview.md) in de de gebruikersgids van Componenten voor meer informatie.
+* **geen behoefte aan meer dan één rapportreeks:** Alle gegevens kunnen in één enkele rapportreeks worden verzameld, zodat is het minder waarschijnlijk voor een ontwikkelaar om gegevens naar de verkeerde rapportreeks per ongeluk te verzenden.
+* **geen behoefte aan rollups:** Rollups zijn een vrij gedateerde eigenschap die individuele gegevens van de rapportreeks op een dagelijkse basis samenvoegt. Rollups dedupliceren geen bezoek- of bezoekersgegevens, wat tot opgeblazen aantallen kan leiden. Zie [ Rollups ](../../admin/tools/manage-rs/rollup-report-suite.md) in de Admin gebruikersgids voor meer informatie.
+* **sparen tijd:** de projecten van Workspace, classificaties, segmenten, en berekende metriek zijn gebonden aan de zelfde globale rapportreeks. Beheerders besteden minder tijd aan het beheren van deze componenten en gegevensbeheer.
+* **nauwkeurigere dwars-brand attributie:** als een bezoek op één plaats dan aan een andere van uw bezeten plaatsen alvorens een succesgebeurtenis teweeg te brengen begint, wordt de attributie nauwkeurig verzameld. Een bezoeker klikt bijvoorbeeld op een betaalde zoekkoppeling en landt op site A. Vervolgens klikken ze op een koppeling naar site B en kopen ze deze. Een algemene rapportsuite kenmerkt zich correct die wordt aangeschaft voor een betaalde zoekopdracht.
+* **Vereenvoudigde implementatie:** Aangezien alle merken/plaatsen gegevens in de zelfde rapportreeks verzenden, worden uw implementaties over elke plaats gericht. Dit gedwongen bestuur zorgt ervoor dat een specifieke dimensie of metrisch wordt opgeslagen in dezelfde eVar of gebeurtenis. Beheerders, testers, eigenaars van tagbeheer en analisten profiteren van deze vereenvoudiging.
 
 >[!NOTE]
 >
->Het coördineren van een globale implementatie van de rapportreeks is een groot project. Adobe beveelt aan om samen te werken met een consultant om eventuele complicaties en problemen te verminderen.
+>Het coördineren van een globale implementatie van de rapportreeks is een groot project. Adobe raadt aan om samen met een consultant de problemen en complicaties te verminderen.
 
 ## Nieuwe implementatie starten met een algemene rapportsuite
 
 Gebruik de volgende algemene richtlijnen om inzicht te krijgen in het proces van implementatie van een algemene rapportsuite.
 
-1. Maak de algemene rapportsuite in Adobe Analytics. Zie [Een rapportsuite maken](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) in de gebruikershandleiding voor Admin voor meer informatie.
+1. Maak de algemene rapportsuite in Adobe Analytics. Zie [ een rapportreeks ](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md) in de Admin gebruikersgids voor meer informatie creëren.
 1. Het werk met teams in uw organisatie verantwoordelijk voor elk domein. Vele teams hebben rapporteringsvereisten specifiek voor hun gebied van de zaken.
-1. Al deze vereisten registreren en samenvoegen in een [Document voor het ontwerp van oplossingen](solution-design.md). Als de teams gelijkaardige vereisten voor een afmeting hebben, kunnen zij de zelfde douanevariabele gebruiken. Bijvoorbeeld, als de plaats A en plaats B allebei een dimensie van broodkruimels vereisen, kunnen de implementaties voor beide plaatsen die gegevens door eVar1 verzenden.
+1. Verslag en bijeenvoegen al deze vereisten in het ontwerpdocument van het a [ Oplossing ](solution-design.md). Als de teams gelijkaardige vereisten voor een afmeting hebben, kunnen zij de zelfde douanevariabele gebruiken. Bijvoorbeeld, als plaats A en plaats B allebei een dimensie van broodkruimels vereisen, kunnen de implementaties voor beide plaatsen die gegevens door eVar1 verzenden.
 
    >[!IMPORTANT]
    >
    >Zorg ervoor dat om het even welke bepaalde douanevariabele gelijkaardig over domeinen wordt gebruikt. Gebruik niet dezelfde eVar of gebeurtenis voor verschillende doeleinden op uw sites.
 1. Zorg ervoor dat elk domein een gegevenslaag heeft om gegevensinzameling te vereenvoudigen. Gegevens kunnen nog steeds zonder een gegevenslaag worden verzameld, maar de betrouwbaarheid en de levensduur van uw implementatie nemen af, vooral wanneer uw site opnieuw ontwerpen doorloopt.
-1. Gebruik labels in Adobe Experience Platform om Analytics te implementeren. De verschillende plaatsen zullen waarschijnlijk verschillende gegevenselementen vereisen. De regels van het gebruik specifiek voor elk domein om ervoor te zorgen elk gegevenselement correct bevolkt is, dan wijs die gegevenselementen aan hun respectieve eVars en gebeurtenissen toe. Zie de [overzicht van tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL).
-1. Inclusief de [Adobe Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) en gebruiken de [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=nl-NL) functie. Deze functie voegt bezoekersgegevens samen wanneer de gebruikers van één domein aan een ander klikken.
+1. Gebruik labels in Adobe Experience Platform om Analytics te implementeren. De verschillende plaatsen zullen waarschijnlijk verschillende gegevenselementen vereisen. De regels van het gebruik specifiek voor elk domein om ervoor te zorgen elk gegevenselement correct bevolkt is, dan wijs die gegevenselementen aan hun respectieve eVars en gebeurtenissen toe. Verwijs naar het [ overzicht van markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+1. Omvat de [ Dienst van identiteitskaart van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html) en gebruik [ appendVisitorIDsTo ](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) functie. Deze functie voegt bezoekersgegevens samen wanneer de gebruikers van één domein aan een ander klikken.
 
 ## Een bestaande implementatie aanpassen met een algemene rapportsuite
 
@@ -57,5 +57,5 @@ Het proces om een bestaande implementatie over veelvoudige plaatsen naar één e
 
 ## Gerelateerde pagina&#39;s
 
-[Het schakelen van multi-suite etiketteren naar een globaal rapportpakket en virtuele rapportsuites](../../components/vrs/vrs-considerations.md)
-[Rollups en globale rapportsuites vergelijken](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)
+[ Bewegend van multi-suite het etiketteren aan een globale rapportreeks en virtuele rapportsuites ](../../components/vrs/vrs-considerations.md)
+[ Vergelijkend rollups en globale rapportsuites ](../../admin/tools/manage-rs/rollup-report-suite.md)

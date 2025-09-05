@@ -3,9 +3,9 @@ title: Aanbevolen werkwijzen voor kenmerken
 description: Begrijp de beste praktijken om te beslissen welk attributiemodel aan gebruik.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Het kiezen van het juiste toewijzingsmodel voor uw organisatie is afhankelijk va
 >[!NOTE]
 >Deze analyse moet plaatsvinden voordat u een attributiemodel kiest.
 
-Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Gebaseerd op de omzettingsmetriek, vergemakkelijken de hulpmiddelen zoals [ de Eendelen van Gegevens ](https://experienceleague.adobe.com/nl/docs/analytics/export/analytics-data-feed/data-feed-overview) (voor ruwe gegevens) of Analysis Workspace uw begrip van
+Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Gebaseerd op de omzettingsmetriek, vergemakkelijken de hulpmiddelen zoals [ de Eendelen van Gegevens ](/help/export/analytics-data-feed/data-feed-overview.md) (voor ruwe gegevens) of Analysis Workspace uw begrip van
 
 * Het aantal klanten dat verschillende marketingkanalen aanraakt voordat ze hun producten converteren
 * De verhouding/de verdeling van deze gedragingen
@@ -53,7 +53,7 @@ In dit geval, zou u dan het [ Omgekeerde J-Vormige attributiemodel ](/help/analy
 
 Stel dat uw hypothese als volgt is: *&quot;In een specifieke branche (zoals de reisindustrie), is het attributievenster 60 of 90 dagen, niet 30 dagen, omdat klanten veel onderzoek doen voordat ze een product kopen.*&quot;
 
-In dit geval, zou u uw [ raadplegingsvenster ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/attribution/models) in 90 dagen veranderen.
+In dit geval, zou u uw [ raadplegingsvenster ](/help/analyze/analysis-workspace/attribution/models.md) in 90 dagen veranderen.
 
 ## Algoritmische toewijzing gebruiken
 
@@ -63,4 +63,4 @@ Als u nog geen attributiemodel hebt dat bevredigende antwoorden aan al uw vragen
 
 * Misschien moet je de diensten van een data wetenschapper gebruiken in plaats van alleen op Analysis Workspace te vertrouwen.
 * U kunt vertrouwen op onbewerkte gegevens, zoals in Adobe-gegevensfeeds.
-* Overweeg gebruikend [ Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), bijvoorbeeld, als u uw impressiegegevens wilt overwegen.
+* Overweeg gebruikend [ Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), bijvoorbeeld, als u uw impressiegegevens wilt overwegen.

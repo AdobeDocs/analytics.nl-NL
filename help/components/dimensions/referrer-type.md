@@ -3,7 +3,7 @@ title: Type referentie
 description: Het type referentie, afhankelijk van waar de bezoeker vandaan komt.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 825cded49c0ff456925e522ae2d0660b09ea6edd
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Het &quot;Type van Referateur&quot;[ afmeting ](overview.md) meldt welke generis
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar meerdere opzoektabellen die intern zijn voor Adobe. Elke waarde is gebaseerd op [ verwijzer ](referrer.md) van de klap, die van [ Interne filters URL ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) afhangt. Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
+Deze dimensie verwijst naar meerdere opzoektabellen die intern zijn voor Adobe. Elke waarde is gebaseerd op [ verwijzer ](referrer.md) van de klap, die van [ Interne filters URL ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) afhangt. Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
 
 ## Dimension-objecten
 
@@ -35,7 +35,7 @@ De volgende lijst verwijst naar de opzoektabel &#39;Sociale netwerken&#39; die A
 
 >[!NOTE]
 >
->Deze lijst is verschillend dan de standaardlijst van sociale netwerken in [ de verwerkingsregels van het Kanaal van de Marketing ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+>Deze lijst is verschillend dan de standaardlijst van sociale netwerken in [ de verwerkingsregels van het Kanaal van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

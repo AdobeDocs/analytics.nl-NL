@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: De publieksgegevens in Analytics gebruiken
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -19,50 +19,50 @@ U kunt de afmetingen van het publiek van Adobe Audience Manager door Analytics g
 
 In Analysis Workspace worden de Adobe Audience Manager-segmenten weergegeven als twee dimensies.
 
-1. Ga naar **[!UICONTROL Workspace]**.
-1. Uit de lijst met **[!UICONTROL Dimensions]** selecteert u de afmetingen **[!UICONTROL Audience ID]** of **[!UICONTROL Audience Name]**. Naam is een vriendelijke indeling van de id.
+1. Ga naar **[!UICONTROL Workspace]** .
+1. Selecteer in de lijst met **[!UICONTROL Dimensions]** de afmetingen **[!UICONTROL Audience ID]** of **[!UICONTROL Audience Name]** . Naam is een vriendelijke indeling van de id.
 
    ![](assets/aw-mcaudiences.png)
 
 ## Segmentvergelijking {#compare}
 
-[Segmentvergelijking](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=nl-NL) ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Dimension op twee manieren worden gebruikt: 1) als 2 segmenten die worden vergeleken, en 2) als punten in de &quot;Hoogste Punten van het &quot;lijst.
+[ Vergelijking van het Segment ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Segment op twee manieren worden gebruikt: 1) als 2 segmenten die worden vergeleken, en 2) als punten in de &quot;Top Dimension Punten&quot;lijst.
 
-1. Ga naar **[!UICONTROL Workspace]** en selecteert u de **[!UICONTROL Segment Comparison]** van de linkerspoorstaaf.
+1. Ga naar **[!UICONTROL Workspace]** en selecteer het deelvenster **[!UICONTROL Segment Comparison]** in de linkerrails.
 
-1. Zoeken naar [!UICONTROL Audiences Name] in de **[!UICONTROL Component]** -menu.
+1. Zoek naar [!UICONTROL Audiences Name] in het **[!UICONTROL Component]** menu.
 
-1. Openen [!UICONTROL Audiences Name]zodat de gerelateerde dimensie-items worden weergegeven.
+1. Open [!UICONTROL Audiences Name] zodat de verwante afmetingspunten verschijnen.
 1. Sleep het publiek u in de bouwer van de Vergelijking van het Segment wilt vergelijken.
 1. (Optioneel): u kunt ook andere dimensie-items of -segmenten invoegen. U kunt maximaal twee items met elkaar vergelijken.
 1. Klik op **[!UICONTROL Build]**.
 
-   De dimensies Soorten publiek-id en Naam worden automatisch weergegeven in de tabel &quot;Items bovenaan Dimension&quot;, omdat dit aanvullende profielgegevens zijn voor de twee segmenten die worden vergeleken.
+   De dimensies Soorten publiek-id en Naam worden automatisch weergegeven in de tabel &quot;Top Dimension Items&quot;, omdat dit aanvullende profielgegevens zijn voor de twee segmenten die worden vergeleken.
 
    ![](assets/aud-segcompare.png)
 
 ## Klantenreis (Flow) in Analysis Workspace {#flow}
 
-Adobe Audience Manager-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en geven het lidmaatschap van het publiek weer voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;) en later in aanmerking kan komen voor een meer gekwalificeerd segment (bijvoorbeeld &quot;Bewustmaking&quot;). U kunt [Stroom](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=nl-NL) in Analysis Workspace om de reis die een bezoeker maakt tussen het publiek zichtbaar te maken.
+Adobe Audience Manager-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en geven het lidmaatschap van het publiek weer voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;) en later in aanmerking kan komen voor een meer gekwalificeerd segment (bijvoorbeeld &quot;Bewustmaking&quot;). U kunt [ Stroom ](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) in Analysis Workspace gebruiken om de reis visualiseren een bezoeker tussen publiek neemt.
 
-1. Ga naar **[!UICONTROL Workspace]** en selecteert u de **[!UICONTROL Flow]** visualisatie vanaf de linkerspoorstaaf.
+1. Ga naar **[!UICONTROL Workspace]** en selecteer de **[!UICONTROL Flow]** visualisatie in de linkertrack.
 
-1. Sleep de [!UICONTROL Audience Name] -dimensie in de Flow Builder.
+1. Sleep de [!UICONTROL Audience Name] -dimensie naar de Flow Builder.
 1. Klik op **[!UICONTROL Build]**.
-1. (Optioneel): sleep een andere dimensie naar de stroomvisualisatie om een [interdimensionale stroom](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html?lang=nl-NL).
+1. (Facultatief): Sleep een andere afmeting in de visualisatie van de Stroom om een [ inter-dimensionale Stroom ](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tot stand te brengen.
 
 ![](assets/flow-aamaudiences.png)
 
-Soorten publiek kan ook worden gebruikt in [Afvalvisualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=nl-NL).
+Het publiek kan ook in [ Vormt van de Vallout visualisaties ](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) worden gebruikt.
 
 ## Venn Visualization in Analysis Workspace {#venn}
 
-[Venn-visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=nl-NL) Geef de overlapping tussen maximaal 3 segmenten weer.
+[ de visualisaties van de Venn ](/help/analyze/analysis-workspace/visualizations/venn.md) tonen de overlapping tussen maximaal 3 segmenten.
 
-1. Ga naar **[!UICONTROL Workspace]** en selecteert u de **[!UICONTROL Venn]** visualisatie vanaf de linkerspoorstaaf.
+1. Ga naar **[!UICONTROL Workspace]** en selecteer de **[!UICONTROL Venn]** visualisatie in de linkertrack.
 
-1. Zoeken naar [!UICONTROL Audience Name] in het componentmenu.
-1. Openen [!UICONTROL Audience Name] zodat de gerelateerde dimensie-items worden weergegeven.
+1. Zoek naar [!UICONTROL Audience Name] in het componentenmenu.
+1. Open [!UICONTROL Audience Name] zodat de verwante dimensie-items worden weergegeven.
 1. Sleep het publiek dat u wilt vergelijken naar de Venn builder.
 1. (Optioneel): u kunt ook andere dimensie-items of -segmenten invoegen; maximaal 3 kunnen worden vergeleken.
 1. Klik op **[!UICONTROL Build]**.
@@ -71,11 +71,11 @@ Soorten publiek kan ook worden gebruikt in [Afvalvisualisaties](https://experien
 
 ## Segment Builder {#builder}
 
-U kunt de dimensies Soorten publiek opnemen in Analytics [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md), samen met de gedragsinformatie die Analytics verzamelt.
+U kunt de dimensies van het publiek in de Bouwer van het Segment van Analytics [ ](/help/components/segmentation/segmentation-workflow/seg-build.md), samen met de gedragsinformatie opnemen die Analytics verzamelt.
 
-1. Ga naar  **[!UICONTROL Components]** > **[!UICONTROL Segments]** .
-1. Klikken **[!UICONTROL Add]** om een nieuw segment te maken.
-1. Na het noemen van het segment, sleep [!UICONTROL Audience Name] in het deelvenster Definities.
+1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Segments]** .
+1. Klik op **[!UICONTROL Add]** om een nieuw segment te maken.
+1. Nadat u het segment een naam hebt gegeven, sleept u de [!UICONTROL Audience Name] -dimensie naar het deelvenster Definities.
 1. (Optioneel): voeg andere criteria toe aan het segment.
 1. Sla het segment op.
 

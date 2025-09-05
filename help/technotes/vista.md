@@ -3,7 +3,7 @@ title: VISTA-regels in Adobe Analytics
 description: Meer informatie over de regels en mogelijkheden van VISTA.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -17,12 +17,12 @@ De regels van VISTA zijn een afwisselende vorm van de aanpassing van douanegegev
 Sommige veelvoorkomende gevallen van gebruik van de VISTA-regels omvatten:
 
 * Kopieer een hit Analytics van de ene rapportsuite naar de andere en wijzig desgewenst gegevens naar de gekopieerde rapportsuite
-* De uitsluiting van douane IP die de gebruiksgevallen overschrijdt die door [ worden aangeboden uitsluiten door IP ](/help/admin/admin/exclude-ip.md)
+* De uitsluiting van douane IP die de gebruiksgevallen overschrijdt die door [ worden aangeboden uitsluiten door IP ](/help/admin/tools/exclude-ip.md)
 * Voorwaardelijk of globaal om het even welke veranderlijke waarde wijzigen
 * Variabelewaarden naar andere variabelen dupliceren
 * Bestanden uploaden naar een Adobe FTP-site die invloed kan hebben op variabelewaarden
 
-Vele gebruiksgevallen aan regels VISTA worden reeds aangeboden door [ Regels van de Verwerking ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md), [ Bot regels ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [ Virtuele rapportreeksen ](/help/components/vrs/vrs-about.md), of eenvoudig het bijwerken van uw implementatie van Adobe Analytics. Adobe beveelt VISTA-regels alleen aan als laatste redmiddel.
+Vele gebruiksgevallen aan regels VISTA worden reeds aangeboden door [ Regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [ Virtuele rapportreeksen ](/help/components/vrs/vrs-about.md), of eenvoudig het bijwerken van uw implementatie van Adobe Analytics. Adobe beveelt VISTA-regels alleen aan als laatste redmiddel.
 
 >[!IMPORTANT]
 >

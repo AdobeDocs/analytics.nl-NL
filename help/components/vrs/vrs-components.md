@@ -3,9 +3,9 @@ description: Virtuele rapportsuites kunnen worden gebogen om components.in Analy
 title: Samengestelde cursus virtuele rapportsuite
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Virtuele rapportsuites kunnen worden gebogen om components.in Analysis Workspace
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de kromming van de Component ](https://video.tv.adobe.com/v/3425524?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de kromming van de Component ](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -29,7 +29,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de kromming v
 U kunt als volgt componentcuratie inschakelen:
 
 1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]** > **[!UICONTROL Create new virtual report suite]** .
-1. Klik op de tab **[!UICONTROL Components]** nadat u **[!UICONTROL Settings]** hebt gedefinieerd.
+1. Klik op de tab **[!UICONTROL Settings]** nadat u **[!UICONTROL Components]** hebt gedefinieerd.
 
 1. Schakel het selectievakje **[!UICONTROL Enable Customization of Virtual report suite components]** in:
 
@@ -53,7 +53,7 @@ U kunt als volgt componentcuratie inschakelen:
 
    >[!NOTE]
    >
-   >Er is geen behoefte *gekromde componenten van 0&rbrace; te delen (segmenten, berekende metriek, datumwaaiers).* Ze zijn altijd zichtbaar in Analysis Workspace als ze worden beheerd voor de virtuele rapportsuite, zelfs als ze niet worden gedeeld.
+   >Er is geen behoefte *gekromde componenten van 0} te delen (segmenten, berekende metriek, datumwaaiers).* Ze zijn altijd zichtbaar in Analysis Workspace als ze worden beheerd voor de virtuele rapportsuite, zelfs als ze niet worden gedeeld.
 
 1. Bovendien kunt u de componenten filteren of doorzoeken en de volledige gefilterde selectie aan de inbegrepen kolom toevoegen door op **[!UICONTROL Add All]** te klikken.
 
@@ -77,4 +77,4 @@ Gebruik componentengroepen om bulkcomponenttoevoegingen aan uw virtuele rapportr
 
 ## Workspace-gedrag {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Voor meer informatie over curatie in Analysis Workspace, zie [ Kromme en deel een Project ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=nl-NL).
+Voor meer informatie over curatie in Analysis Workspace, zie [ Kromme en deel een Project ](/help/analyze/analysis-workspace/curate-share/curate.md).

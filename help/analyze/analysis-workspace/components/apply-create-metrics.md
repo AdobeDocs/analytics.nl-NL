@@ -4,7 +4,7 @@ title: Metrics
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Adobe biedt verschillende typen maateenheden voor gebruik in Analysis Workspace:
 
 * **Standaard metriek**: De meeste metriek die u in projecten gebruikt zijn standaardmetriek. De voorbeelden omvatten [ meningen van de Pagina ](/help/components/metrics/page-views.md), [ Inkomsten ](/help/components/metrics/revenue.md), of [ de gebeurtenissen van de Douane ](/help/components/metrics/custom-events.md). Zie [ Overzicht van Metriek ](/help/components/metrics/overview.md) in de de gebruikersgids van Componenten voor meer informatie.
 
-* **Berekende metriek** ![ calculator ](/help/assets/icons/Calculator.svg): Gebruiker-bepaalde metriek die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn. Door de gebruiker gedefinieerde berekende meetwaarden geven een rekenprijspictogram weer in de lijst met beschikbare componenten. Zie [ Berekend overzicht van Metriek ](/help/components/c-calcmetrics/cm-overview.md) in de de gebruikersgids van Componenten voor meer informatie.
+* **Berekende metriek** ![ calculator ](/help/assets/icons/Calculator.svg): Gebruiker-bepaalde metriek die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn. Door de gebruiker gedefinieerde berekende meetwaarden geven een rekenprijspictogram weer in de lijst met beschikbare componenten. Zie [ Berekend overzicht van Metriek ](/help/components/calculated-metrics/cm-overview.md) in de de gebruikersgids van Componenten voor meer informatie.
 
 * **Berekende metrische malplaatjes** ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg): Adobe-bepaalde metriek die zich zo ook aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica ervan aan te passen. Berekende metrische sjablonen tonen een Adobe-pictogram in de lijst met beschikbare componenten.
 
@@ -54,7 +54,7 @@ Er zijn verschillende manieren om berekende metriek te maken. De methode u kiest
 
 ### Berekende waarden maken voor alle projecten
 
-U kunt de [ berekende metrische bouwer ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) gebruiken [ berekende metriek ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md) creëren. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen in projecten door uw organisatie worden gebruikt.
+U kunt de [ berekende metrische bouwer ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) gebruiken [ berekende metriek ](/help/components/calculated-metrics/workflow/cm-workflow.md) creëren. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen in projecten door uw organisatie worden gebruikt.
 
 
 ### Berekende waarden maken voor één project
@@ -79,15 +79,15 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    Wanneer u één kolom selecteert, zijn de volgende opties beschikbaar:
 
-   * [!UICONTROL **Gemiddeld**]: Creeert een nieuwe kolom die de gemiddelde waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Mean ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean) functie.
+   * [!UICONTROL **Gemiddeld**]: Creeert een nieuwe kolom die de gemiddelde waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Mean ](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean) functie.
 
-   * [!UICONTROL **Mediaan**]: Creeert een nieuwe kolom die de mediane waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Mediaan ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median) functie.
+   * [!UICONTROL **Mediaan**]: Creeert een nieuwe kolom die de mediane waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Mediaan ](/help/components/calculated-metrics/cm-reference/cm-functions.md#median) functie.
 
-   * [!UICONTROL **Kolom max**]: Creeert een nieuwe kolom die de grootste waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Maximale ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum) functie van de Kolom.
+   * [!UICONTROL **Kolom max**]: Creeert een nieuwe kolom die de grootste waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Maximale ](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum) functie van de Kolom.
 
-   * [!UICONTROL **Kolom min**]: Creeert een nieuwe kolom die de kleinste waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Minimale functie van de Kolom ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
+   * [!UICONTROL **Kolom min**]: Creeert een nieuwe kolom die de kleinste waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Minimale functie van de Kolom ](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **som van de Kolom**]: Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. De kolomwaarden gebruiken de [ Som van de Kolom ](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) functie.
+   * [!UICONTROL **som van de Kolom**]: Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. De kolomwaarden gebruiken de [ Som van de Kolom ](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum) functie.
 
    Wanneer u twee kolommen selecteert, zijn de volgende opties beschikbaar:
 
@@ -101,7 +101,7 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentageverandering tussen de twee geselecteerde kolommen toont.
 
-[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3 :42)
 
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen

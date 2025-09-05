@@ -1,17 +1,17 @@
 ---
-description: Stappen om een verzoek van basisgegevens van de Report Builder te creëren.
+description: Stappen voor het maken van een standaard Report Builder-gegevensaanvraag.
 title: Een gegevensaanvraag maken
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '264'
 ht-degree: 1%
 
 ---
 
-# Een verzoek om Report Builder-gegevens maken
+# Een Report Builder-gegevensaanvraag maken
 
 {{legacy-arb}}
 
@@ -21,7 +21,7 @@ Stappen om een basisgegevensverzoek te creëren.
 1. In het [!UICONTROL Request Wizard: Step 1] venster, selecteer a [ rapportreeks ](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Optioneel) Selecteer een segment dat u op de aanvraag wilt toepassen. Als u een of meer segmenten hebt geselecteerd, worden deze boven aan de lijst geplaatst.
 
-   Report Builder gebruikt segmenten op dezelfde manier als Adobe Analytics ze gebruikt. Zie de [ Gids van de Segmentatie van Analytics ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=nl-NL).
+   Report Builder gebruikt segmenten op dezelfde manier als Adobe Analytics ze gebruikt. Zie de [ Gids van de Segmentatie van Analytics ](/help/components/segmentation/seg-home.md).
 1. Selecteer het type van a [ rapport ](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md).
 1. Specificeer a [ datumwaaier ](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md) en rapport [ granularity ](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md).
 1. Klik op **[!UICONTROL Next]**.
@@ -35,6 +35,6 @@ Stappen om een basisgegevensverzoek te creëren.
 1. Dubbelklik (of sleep) op het tabblad [!UICONTROL Metrics] in de boomstructuur op cijfers om deze aan het [!UICONTROL Metrics] -raster toe te voegen.
 1. Dubbelklik (of sleep) de afmetingen op het tabblad [!UICONTROL Dimensions] naar het [!UICONTROL Row Labels] -raster.
 
-   De [ afmetingen ](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/layout/filter-dimenson/filter-dimensions.html?lang=nl-NL) beschikbaar in Stap 2 hangen van het basisrapport af u in Stap 1, en op de configuratie van uw rapportreeks selecteerde. De dimensies zijn punten die correleren, sub-verwant, of een classificatie van het originele rapporttype metrisch zijn u op het [!UICONTROL Request Wizard: Step 1] venster selecteerde. Het toevoegen van meer dan één afmeting in Stap 2 is hoe u een afbraak in uw gegevensverzoek creeert.
+   De [ afmetingen ](/help/analyze/report-builder/filter-dimensions.md) beschikbaar in Stap 2 hangen van het basisrapport af u in Stap 1, en op de configuratie van uw rapportreeks selecteerde. De dimensies zijn punten die correleren, sub-verwant, of een classificatie van het originele rapporttype metrisch zijn u op het [!UICONTROL Request Wizard: Step 1] venster selecteerde. Het toevoegen van meer dan één afmeting in Stap 2 is hoe u een afbraak in uw gegevensverzoek creeert.
 
-   Zie [ Metriek en Dimensionen ](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) voor meer informatie toevoegen.
+   Zie [ Metriek en Dimensies ](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) voor meer informatie toevoegen.
