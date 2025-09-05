@@ -47,7 +47,7 @@ De situatie beoordelen en een plan opstellen om de gegevens te corrigeren. Breng
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ die uw implementatie ](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} voor een demo video herzien.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ die uw implementatie ](https://video.tv.adobe.com/v/3440175?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video herzien.
 
 >[!ENDSHADEBOX]
 
