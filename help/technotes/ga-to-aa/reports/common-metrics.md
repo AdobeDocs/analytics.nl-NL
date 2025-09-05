@@ -59,7 +59,7 @@ Als u meerdere metriek wilt toevoegen aan een tabel in vrije vorm voor een werkr
 
 **het Tarief van de Omzetting van het Goal**, **Goal Voltooiingen**, en **Goal Waarde** vereisen extra implementatie op beide platforms. Als uw implementatie al ruimte biedt voor de productdimensie en de aankoopgebeurtenis, kunt u de volgende stappen uitvoeren:
 
-1. Sleep de **metrische orde 0},** Metrisch van de Opbrengst **, en** Visit **metrisch op de werkruimte.**
+1. Sleep de **metrische orde 0&rbrace;,** Metrisch van de Opbrengst **, en** Visit **metrisch op de werkruimte.**
 1. Creeer berekende metrisch van **Orden per Bezoek**. Gebruik Ctrl+klikken (Windows) of cmd+klikken (Mac) op beide metrische koppen om deze te markeren. Klik één van de kopballen met de rechtermuisknop aan, selecteer **Metrisch van Selectie** creëren, dan klik **verdelen**. Deze nieuwe metrische waarde is gelijkaardig aan een Tarief van de Omzetting van het Doel.
 1. Als decimalen nodig zijn, bewerkt u de Berekende metrisch. Klik op de knop Info in de metrische kop en vervolgens op het potloodpictogram. Voeg 1 of 2 Decimale Plaatsen in het Berekende Metrische venster van de Bouwer toe, dan klik sparen.
 

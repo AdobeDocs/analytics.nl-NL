@@ -49,7 +49,7 @@ Source en de middelgrote rapporten tonen de domeinen die verkeer aan uw plaats d
 
 * De **Source** primaire dimensie is beschikbaar in Analysis Workspace als **Verwijzend de dimensie van het Domein**.
 * De **Medium** primaire afmeting is beschikbaar in Analysis Workspace als **afmeting van het Type van Referteur**.
-* De **primaire dimensie 0} van het Sleutelwoord {is beschikbaar in Analysis Workspace als** 3} dimensie van het Sleutelwoord van het Onderzoek {.****
+* De **primaire dimensie 0&rbrace; van het Sleutelwoord {is beschikbaar in Analysis Workspace als** 3} dimensie van het Sleutelwoord van het Onderzoek &lbrace;.**&#x200B;**
 
 1. Zoek in het optiemenu de gewenste afmeting die hierboven is vermeld en sleep deze naar het grote tabelgebied in vrije vorm met het label &#39;Hier een afmeting neerzetten&#39;.
 2. Sleep de gewenste metriek op de werkruimte naast de automatisch gecreeerde **metrische voorkomen.** Zie de [ Metrische vertaalgids ](common-metrics.md) voor details op hoe te om elke respectieve metrisch te verkrijgen.

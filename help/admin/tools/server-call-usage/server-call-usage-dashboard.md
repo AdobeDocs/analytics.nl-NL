@@ -30,7 +30,7 @@ Het huidige verbruiksdashboard
 
   >[!NOTE]
   >
-  >Als u gebruik voor een vorige tijdsperiode wilt bekijken, moet u naar het [ lusje van het Gebruik van de Reeks van het 0} Rapport gaan {en de gebruiksgegevens voor een vorige periode downloaden.](/help/admin/tools/server-call-usage/report-suite-usage.md)
+  >Als u gebruik voor een vorige tijdsperiode wilt bekijken, moet u naar het [ lusje van het Gebruik van de Reeks van het 0&rbrace; Rapport gaan &lbrace;en de gebruiksgegevens voor een vorige periode downloaden.](/help/admin/tools/server-call-usage/report-suite-usage.md)
 
 * Maakt een lijst van het percentage gebruikte vraag (in percentages en ruwe gegevens), en het percentage van de gebruikte gebruiksperiode (in percentages en ruwe gegevens).
 * Standaard wordt deze standaard dagelijks bijgewerkt met een 5-daagse verwerkingslatentie.

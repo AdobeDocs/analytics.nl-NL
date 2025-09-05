@@ -19,11 +19,11 @@ Overweeg het volgende wanneer het annuleren van rapporteringsverzoeken:
 
 * U kunt specifieke verzoeken annuleren, alle verzoeken van een specifieke gebruiker annuleren of alle verzoeken met betrekking tot een specifiek project annuleren.
 
-  Wanneer u een verzoek annuleert, wordt de actie geregistreerd in de [ Logboeken ](/help/admin/tools/logs.md). De [!UICONTROL **kolomvertoningen van het Type van Gebeurtenis van 0} {als**] Actie Admin [!UICONTROL **, en een beschrijving van de annulering is beschikbaar in de**] 5} kolom van de Gebeurtenis.[!UICONTROL ****]
+  Wanneer u een verzoek annuleert, wordt de actie geregistreerd in de [ Logboeken ](/help/admin/tools/logs.md). De [!UICONTROL **kolomvertoningen van het Type van Gebeurtenis van 0&rbrace; {als**] Actie Admin [!UICONTROL **, en een beschrijving van de annulering is beschikbaar in de**] 5} kolom van de Gebeurtenis.[!UICONTROL **&#x200B;**]
 
 * Wanneer u verzoeken annuleert, kunt u ook verkiezen om verdere verzoeken voor een bepaalde tijdspanne te beperken.
 
-  Wanneer u een verder verzoek beperkt, wordt de actie geregistreerd in de [ Logboeken ](/help/admin/tools/logs.md). De [!UICONTROL **kolomvertoningen van het Type van Gebeurtenis 0} {als**] Actie Admin [!UICONTROL **, en een beschrijving van de beperking is beschikbaar in de**] 5} kolom van de Gebeurtenis.[!UICONTROL ****]
+  Wanneer u een verder verzoek beperkt, wordt de actie geregistreerd in de [ Logboeken ](/help/admin/tools/logs.md). De [!UICONTROL **kolomvertoningen van het Type van Gebeurtenis 0&rbrace; {als**] Actie Admin [!UICONTROL **, en een beschrijving van de beperking is beschikbaar in de**] 5} kolom van de Gebeurtenis.[!UICONTROL **&#x200B;**]
 
 * U kunt geen verzoek annuleren als de [!UICONTROL **Gebruiker**] kolom van een verzoek als [!UICONTROL **niet erkend**] toont. Wanneer dit voorkomt, betekent het dat de gebruiker in een login bedrijf is waar u geen administratieve toestemmingen hebt.
 

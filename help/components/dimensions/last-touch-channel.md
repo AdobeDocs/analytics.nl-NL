@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Laatste aanraakkanaal
 
-De &quot;Laatste afmeting van het aanrakingskanaal&quot;[ ](overview.md) meldt het meest recente marketing kanaal een bezoeker met tijdens de de betrokkenheidsperiode van die bezoeker (30 dagen door gebrek) aanpast. Deze dimensie is waardevol om te begrijpen welke marketing kanalen verkeer aan uw plaats drijven die in omzettingen resulteren, toestaand u om marketing inspanningen op gebieden te concentreren die het meest effectief zijn.
+De &quot;Laatste afmeting van het aanrakingskanaal&quot;[&#128279;](overview.md) meldt het meest recente marketing kanaal een bezoeker met tijdens de de betrokkenheidsperiode van die bezoeker (30 dagen door gebrek) aanpast. Deze dimensie is waardevol om te begrijpen welke marketing kanalen verkeer aan uw plaats drijven die in omzettingen resulteren, toestaand u om marketing inspanningen op gebieden te concentreren die het meest effectief zijn.
 
 ## Deze dimensie vullen met gegevens
 

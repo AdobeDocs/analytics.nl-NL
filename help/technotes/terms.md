@@ -89,7 +89,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Prop:** zie de variabele van het Verkeer.
 * **Rangschikt rapport:** het rapportformaat van A dat typisch een afmeting met metrisch volgt. Met dit type rapport kunt u de bovenste items weergeven, zoals de meest bekeken pagina&#39;s op uw site. Zie ook Trended-rapport.
 * **Echt - tijd:** toont gevormde variabelen zodra het met weinig aan geen latentie wordt verzameld. Zie [ rapporten in real time ](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) in de Admin gebruikersgids.
-* **Report Builder:** Javascript [ ](/help/analyze/report-builder/rb-overview.md) toe:voegen-binnen toe:voegen-laat u aangepaste verzoeken van de gegevens van Adobe Analytics bouwen.
+* **Report Builder:** Javascript [&#128279;](/help/analyze/report-builder/rb-overview.md) toe:voegen-binnen toe:voegen-laat u aangepaste verzoeken van de gegevens van Adobe Analytics bouwen.
 * **Reeks van het Rapport:** een overkoepelende container die u gegevens naar verzendt. Alle rapporten in Adobe Analytics verwijzen naar een rapportsuite.
 * **Rapporten &amp; Analytics:** Dit hulpmiddel is [ eind-van-opgeheven ](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html) geweest.
 * **Rolling datumwaaier:** een type van relatieve datumwaaier die als tijdpassen verandert. Een rapport dat de laatste 7 dagen weergeeft, kan bijvoorbeeld worden beschouwd als een doorlopend datumbereik. Zie ook het statische datumbereik.

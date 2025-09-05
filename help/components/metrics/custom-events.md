@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Deze hulppagina beschrijft hoe de gebeurtenissen van de douane als metrisch werken. Voor informatie over hoe de douanegebeurtenissen als implementatievariabele werken, zie [ Overzicht van Gebeurtenissen ](/help/implement/vars/page-vars/events/events-overview.md) in de de gebruikersgids van het Voer.*
 
-De metriek van de gebeurtenis van de douane [ ](overview.md) toont het aantal treffers waar een bepaalde douanegebeurtenis in een beeldverzoek werd geplaatst. Deze metriek is essentieel voor vele implementaties, aangezien zij insight aan gebeurtenissen verstrekken specifiek voor elke organisatie.
+De metriek van de gebeurtenis van de douane [&#128279;](overview.md) toont het aantal treffers waar een bepaalde douanegebeurtenis in een beeldverzoek werd geplaatst. Deze metriek is essentieel voor vele implementaties, aangezien zij insight aan gebeurtenissen verstrekken specifiek voor elke organisatie.
 
 ## Hoe deze metrische waarde wordt berekend
 
@@ -26,4 +26,4 @@ Aangepaste gebeurtenissen worden anders berekend, afhankelijk van het type. U ku
 
 Het aantal beschikbare gebeurtenissen is afhankelijk van het contract Analytics van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met uw Adobe-accountteam als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
 
-Adobe adviseert sterk dat u registreert hoe u elke gebeurtenis in het document van het de oplossingsontwerp van uw organisatie [ ](/help/implement/prepare/solution-design.md) gebruikt.
+Adobe adviseert sterk dat u registreert hoe u elke gebeurtenis in het document van het de oplossingsontwerp van uw organisatie [&#128279;](/help/implement/prepare/solution-design.md) gebruikt.

@@ -53,7 +53,7 @@ U kunt als volgt componentcuratie inschakelen:
 
    >[!NOTE]
    >
-   >Er is geen behoefte *gekromde componenten van 0} te delen (segmenten, berekende metriek, datumwaaiers).* Ze zijn altijd zichtbaar in Analysis Workspace als ze worden beheerd voor de virtuele rapportsuite, zelfs als ze niet worden gedeeld.
+   >Er is geen behoefte *gekromde componenten van 0&rbrace; te delen (segmenten, berekende metriek, datumwaaiers).* Ze zijn altijd zichtbaar in Analysis Workspace als ze worden beheerd voor de virtuele rapportsuite, zelfs als ze niet worden gedeeld.
 
 1. Bovendien kunt u de componenten filteren of doorzoeken en de volledige gefilterde selectie aan de inbegrepen kolom toevoegen door op **[!UICONTROL Add All]** te klikken.
 

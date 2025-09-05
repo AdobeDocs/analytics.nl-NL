@@ -78,7 +78,7 @@ Beschikbare filters zijn:
 |---|---|
 | Tags | Hiermee kunt u filteren op segmenten met specifieke tags. Merk op dat de filters van de Markering de exploitant EN gebruiken. Als u twee markeringen controleert, toont de juiste ruit segmenten die met **allebei** markeringen zijn geëtiketteerd. |
 | Eigenaars | Hiermee kunt u segmenten filteren op eigenaar. Merk op dat eigenaarfilters de operator OR gebruiken. Als u twee eigenaars controleert, toont de juiste ruit segmenten die door **of** eigenaar worden bezeten. |
-| Andere Filters > slechts *naam van de rapportreeks* | Als u de &quot;slechts *&quot;filter van de 0} rapportsuite in de Bouwer van het Segment in Adobe Analytics toepast, en dan de Geavanceerde Filter in* toont, zal de Geavanceerde filter het segment voor de geselecteerde rapportreeks slechts tonen.[!DNL Report Builder] |
+| Andere Filters > slechts *naam van de rapportreeks* | Als u de &quot;slechts *&quot;filter van de 0&rbrace; rapportsuite in de Bouwer van het Segment in Adobe Analytics toepast, en dan de Geavanceerde Filter in* toont, zal de Geavanceerde filter het segment voor de geselecteerde rapportreeks slechts tonen.[!DNL Report Builder] |
 | Overige filters > Mine | Toont alle segmenten die u bezit. |
 | Overige filters > Met mij gedeeld | Toont alle segmenten die anderen met u deelden. |
 | Overige filters > Favorieten | Hiermee worden alle segmenten weergegeven die u als Favorieten hebt gemarkeerd. |

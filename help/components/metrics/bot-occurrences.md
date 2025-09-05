@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Beide voorvallen
 
-De metrische &quot;Bot voorkomen&quot;[ ](overview.md) toont het aantal treffers die [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) overstemden.
+De metrische &quot;Bot voorkomen&quot;[&#128279;](overview.md) toont het aantal treffers die [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) overstemden.
 
 Aangezien beide rapportages van de rest van uw gegevens van het rapportpakket worden gescheiden, werkt dit metrisch slechts met de volgende afmetingen:
 

@@ -23,7 +23,7 @@ De &quot;Origineel verwijzend domein&quot;[ dimensie ](overview.md) meldt het ee
 Deze dimensie vereist configuratie in zowel de interface Analytics als uw implementatie.
 
 * Binnen uw implementatie, wint deze afmeting gegevens van het [`r` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met de JavaScript-variabele `document.referrer` in de browser. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u buiten AppMeasurement (bijvoorbeeld via de API) een gegevensverzamelingsmethode gebruikt, moet u de parameter van de `r` querytekenreeks opnemen in afbeeldingsaanvragen.
-* Binnen de interface van Analytics, moet u de interne filters van URL van uw rapportreeks [ ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) vormen. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
+* Binnen de interface van Analytics, moet u de interne filters van URL van uw rapportreeks [&#128279;](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) vormen. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
 
 Adobe blijft het oorspronkelijke verwijzingsdomein voor de levensduur van een bezoeker. Wanneer een bezoeker op een ander domein een koppeling verlaat en erop klikt, wordt de nieuwe waarde niet opgenomen. Als u nieuwe waarden wilt zien, zie [ Verwijzend domein ](referring-domain.md).
 

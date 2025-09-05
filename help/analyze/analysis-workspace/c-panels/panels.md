@@ -91,7 +91,7 @@ U kunt een deelvenster op de volgende manieren beheren:
 
 ## Rapportsuite
 
-Elk paneel wordt geassocieerd met a [ rapportreeks ](/help/admin/tools/manage-rs/report-suites-admin.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) **[!UICONTROL *wordt geïdentificeerd naam van rapportreeks *]**in het drop-down menu bij het hoogste recht van het paneel.
+Elk paneel wordt geassocieerd met a [ rapportreeks ](/help/admin/tools/manage-rs/report-suites-admin.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) **[!UICONTROL *wordt geïdentificeerd naam van rapportreeks *]**&#x200B;in het drop-down menu bij het hoogste recht van het paneel.
 
 Wanneer u een nieuw deelvenster maakt, is de standaardrapportsuite gebaseerd op de rapportsuite van het deelvenster waarmee u het laatst hebt gewerkt in het Analysis Workspace-project.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Postcode
 
-De &quot;code van het ZIP&quot;0} dimensie [ meldt de postcode of de postcode van de bezoeker. ](overview.md) U kunt deze dimensie gebruiken om meer te begrijpen over het succes van lokale reclame of te zien waar in de wereld uw plaats het best presteert.
+De &quot;code van het ZIP&quot;0&rbrace; dimensie [ meldt de postcode of de postcode van de bezoeker. ](overview.md) U kunt deze dimensie gebruiken om meer te begrijpen over het succes van lokale reclame of te zien waar in de wereld uw plaats het best presteert.
 
 ## Deze dimensie vullen met gegevens
 

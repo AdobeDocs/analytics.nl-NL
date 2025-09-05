@@ -26,7 +26,7 @@ Als u bijvoorbeeld de **[!UICONTROL Page]** -dimensie hebt gecombineerd met de *
 
 Als u niet de hulppagina voor bepaalde metrisch kunt vinden, is het waarschijnlijk of a [ douanegebeurtenis ](custom-events.md) of a [ berekende metrisch ](../calculated-metrics/cm-overview.md).
 
-* Als metrisch een douanegebeurtenis is, raadpleeg een Analysebeheerder binnen uw organisatie, of het document van het oplossingsontwerp van de rapportreeks [ ](/help/implement/prepare/solution-design.md).
+* Als metrisch een douanegebeurtenis is, raadpleeg een Analysebeheerder binnen uw organisatie, of het document van het oplossingsontwerp van de rapportreeks [&#128279;](/help/implement/prepare/solution-design.md).
 * Als metrisch berekende metrisch is, klik het informatiepictogram om zijn formule te bepalen.
 
 ## Metrische beschrijvingen toevoegen

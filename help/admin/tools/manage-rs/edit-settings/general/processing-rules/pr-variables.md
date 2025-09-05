@@ -64,7 +64,7 @@ De beschikbare afmetingen en metriek die u kunt lezen en schrijven gebruikend ve
 
 | Variabele | Status lezen/schrijven | Beschrijving |
 | --- | --- | --- |
-| **Prop 1-75** | Lezen + schrijven | [ afmetingen van 0} Prop {.](/help/components/dimensions/prop.md) |
+| **Prop 1-75** | Lezen + schrijven | [ afmetingen van 0&rbrace; Prop &lbrace;.](/help/components/dimensions/prop.md) |
 | **Hiërarchie 1-5** | Lezen + schrijven | (In ruste) [ Hiërarchie ](/help/components/dimensions/hierarchy.md) dimensies. |
 | **Server** | Lezen + schrijven | De [ dimensie van de Server ](/help/components/dimensions/server.md). |
 | **Kanaal** | Lezen + schrijven | De [ sectie van de Plaats ](/help/components/dimensions/site-section.md) dimensie. |
@@ -85,7 +85,7 @@ Met verwerkingsregels kunnen gebeurtenissen worden ingesteld, maar deze kunnen n
 | --- | --- | --- |
 | **Orders** | Alleen schrijven | De [ orden ](/help/components/metrics/orders.md) metrisch. |
 | **Houtskaarten** | Alleen schrijven | De [ metrische Havens ](/help/components/metrics/carts.md). |
-| {de meningen van 0} Kaart **** | Alleen schrijven | De [ metrische meningen van het Kart ](/help/components/metrics/cart-views.md). |
+| {de meningen van 0} Kaart **&#x200B;**&#x200B;| Alleen schrijven | De [ metrische meningen van het Kart ](/help/components/metrics/cart-views.md). |
 | **Betalingen** | Alleen schrijven | De [ metrische controles ](/help/components/metrics/checkouts.md). |
 | **toevoegingen van de Kaart** | Alleen schrijven | De [ metrische toevoegingen van de Kar ](/help/components/metrics/cart-additions.md). |
 | **de verwijderingen van de Kar** | Alleen schrijven | De [ verwijdering van de Kar ](/help/components/metrics/cart-removals.md) metrisch. |

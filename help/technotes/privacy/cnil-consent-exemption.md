@@ -45,4 +45,4 @@ De volgende aanvullende overwegingen zijn van toepassing:
 >
 >Dit document is niet bedoeld als juridisch of regelgevend advies en vormt geen garantie of contractuele verbintenis van Adobe. Wij moedigen klanten aan om onafhankelijk juridisch advies in te winnen over de wettelijke en regelgevende verplichtingen van klanten met betrekking tot kwesties die met dit onderwerp verband houden.
 
-Voor meer informatie, zie de [ website van de Vrijstelling van het Koekje 0} CNIL.](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications)
+Voor meer informatie, zie de [ website van de Vrijstelling van het Koekje 0&rbrace; CNIL.](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications)

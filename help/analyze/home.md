@@ -39,7 +39,7 @@ Voor vragen over welk hulpmiddel om te gebruiken, zie [ Welk hulpmiddel van Adob
 
 ## Gebruikershandleidingen voor Analytics
 
-Voor gedetailleerde informatie over de eigenschappen van Adobe Analytics en hoe te om hen te gebruiken, zie {de Gidsen van de Gebruiker van 0} Analytics [](https://experienceleague.adobe.com/docs/analytics.html)
+Voor gedetailleerde informatie over de eigenschappen van Adobe Analytics en hoe te om hen te gebruiken, zie {de Gidsen van de Gebruiker van 0} Analytics [&#128279;](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Belangrijke bronnen voor Analytics
 

@@ -21,7 +21,7 @@ Voor informatie over welk product van Adobe Analytics te gebruiken, zie [ Welk h
 | **methode van de Toegang** | [Browser](/help/analyze/get-started/sys-reqs.md) | [ MS Excel voor Vensters ](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Opstelling door browser. [Meer informatie](/help/analyze/get-started/sys-reqs.md) | Opstelling door browser. [Meer informatie](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API-gereedschappen. Aanmelden met Adobe Developer-referenties. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **granulariteit van Gegevens** | Samengevoegd | Samengevoegd | Samengevoegd | Actief | Samengevoegd |
 | **beschikbare identiteitskaart van Experience Cloud (ECID)** | Nee | Nee | Ja | Ja | Nee |
-| **beschikbare Tijdstempel van 0}** | Nee | Nee | Nee | Ja | Nee |
+| **beschikbare Tijdstempel van 0&rbrace;** | Nee | Nee | Nee | Ja | Nee |
 | **Niveau van verwerking** | Volledig verwerkt | Volledig-verwerkt, met afzonderlijk [ rapport in real time ](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt |
 | **Admin bot filtergegevens inbegrepen** <br> [Meer informatie](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | Nee | Ja, afzonderlijke beide rapporten | Nee | Nee | Nee |
 | **Laag verkeer (Uniques overschreden) verschijnt** <br> [Meer informatie](/help/technotes/low-traffic.md) | Ja | Ja | Nee | Nee | Ja |

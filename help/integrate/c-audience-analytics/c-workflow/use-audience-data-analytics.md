@@ -71,7 +71,7 @@ Het publiek kan ook in [ Vormt van de Vallout visualisaties ](/help/analyze/anal
 
 ## Segment Builder {#builder}
 
-U kunt de dimensies van het publiek in de Bouwer van het Segment van Analytics [ ](/help/components/segmentation/segmentation-workflow/seg-build.md), samen met de gedragsinformatie opnemen die Analytics verzamelt.
+U kunt de dimensies van het publiek in de Bouwer van het Segment van Analytics [&#128279;](/help/components/segmentation/segmentation-workflow/seg-build.md), samen met de gedragsinformatie opnemen die Analytics verzamelt.
 
 1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Segments]** .
 1. Klik op **[!UICONTROL Add]** om een nieuw segment te maken.

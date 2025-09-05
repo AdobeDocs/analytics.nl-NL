@@ -24,7 +24,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Anomaly opspo
 
 >[!IMPORTANT]
 >
->Adobe Analytics Uitgezochte en de klanten van Adobe Analytics Foundation hebben toegang slechts tot *dagelijkse granularity* Anomaly Detection in Workspace. Voor meer informatie, zie {de Entitlements van de Analyse van de Anomaly van de Opsporing en van de Bijdrage [.](#anomaly-detection-and-contribution-analysis-entitlements)
+>Adobe Analytics Uitgezochte en de klanten van Adobe Analytics Foundation hebben toegang slechts tot *dagelijkse granularity* Anomaly Detection in Workspace. Voor meer informatie, zie &lbrace;de Entitlements van de Analyse van de Anomaly van de Opsporing en van de Bijdrage [.](#anomaly-detection-and-contribution-analysis-entitlements)
 
 ## Anomalische detectie
 
@@ -119,17 +119,17 @@ Hieronder volgt een lijst van de gedetailleerde rechten voor de analyse van Anom
    <td colname="col3" colsep="1"> <p>Geen tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  > Selecteren </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > Selecteren </a> </p> </td> 
    <td colname="col2"> <p>Alleen dagelijkse granulariteit </p> </td> 
    <td colname="col3"> <p>Geen tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  > Prime </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  > Prime </a> </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>10 tokens per maand </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate </a> </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>20 tokens per maand </p> </td> 
   </tr> 

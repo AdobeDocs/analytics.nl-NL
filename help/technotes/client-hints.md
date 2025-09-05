@@ -21,7 +21,7 @@ Google verdeelt de gebruiker-Agent cliëntwenken in twee categorieën: laag-entr
 
 * **Lage-entropy wenken** bevatten meer generische informatie over apparaten. Deze tips worden automatisch door Chromium-browsers geleverd.
 
-* **Hoog-entropie** wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op verzoek beschikbaar. Zowel AppMeasurement als Web SDK kunnen worden geconfigureerd om tips voor hoge entropie aan te vragen. Door gebrek, vragen beide bibliotheken **** geen high-entropy wenken.
+* **Hoog-entropie** wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op verzoek beschikbaar. Zowel AppMeasurement als Web SDK kunnen worden geconfigureerd om tips voor hoge entropie aan te vragen. Door gebrek, vragen beide bibliotheken **&#x200B;**&#x200B;geen high-entropy wenken.
 
 Vanaf oktober 2022 zijn nieuwe versies van Chromium-browsers begonnen met het &#39;bevriezen&#39; van de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
 

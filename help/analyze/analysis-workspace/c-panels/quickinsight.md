@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Snelle Inzichten paneel ](/help/analyze/analysis-workspace/c-panels/quickinsight.md) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Snelle Inzichten paneel ](/help/analyze/analysis-workspace/c-panels/quickinsight.md) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 

@@ -53,12 +53,12 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | `xdm.commerce.productViews.value` | Verhoogt de [ metrische Meningen van het Product ](/help/components/metrics/product-views.md). |
 | `xdm.commerce.purchases.value` | Verhoogt metrisch de [ Orden ](/help/components/metrics/orders.md). |
 | `xdm.device.model` | De mobiele dimensie van de levenscyclus [ Naam van het Apparaat ](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
-| `xdm.device.colorDepth` | De hulp plaatst de [ dimensie van de Diepte van de 0} Kleur.](/help/components/dimensions/color-depth.md) |
-| `xdm.device.screenHeight` | De hulp plaatst de [ dimensie van de Resolutie van de Monitor 0}.](/help/components/dimensions/monitor-resolution.md) |
-| `xdm.device.screenWidth` | De hulp plaatst de [ dimensie van de Resolutie van de Monitor 0}.](/help/components/dimensions/monitor-resolution.md) |
+| `xdm.device.colorDepth` | De hulp plaatst de [ dimensie van de Diepte van de 0&rbrace; Kleur.](/help/components/dimensions/color-depth.md) |
+| `xdm.device.screenHeight` | De hulp plaatst de [ dimensie van de Resolutie van de Monitor 0&rbrace;.](/help/components/dimensions/monitor-resolution.md) |
+| `xdm.device.screenWidth` | De hulp plaatst de [ dimensie van de Resolutie van de Monitor 0&rbrace;.](/help/components/dimensions/monitor-resolution.md) |
 | `xdm.device.type` | Het type mobiel apparaat. |
-| `xdm.environment.browserDetails.acceptLanguage` | De hulp plaatst de [ dimensie van de Taal 0} {.](/help/components/dimensions/language.md) |
-| `xdm.environment.browserDetails.cookiesEnabled` | Plaatst de [ dimensie van de Steun van het 0} Koekje. ](/help/components/dimensions/cookie-support.md) Geldige waarden zijn `Y` (de browser accepteert cookies) en `N` (de browser weigert cookies). |
+| `xdm.environment.browserDetails.acceptLanguage` | De hulp plaatst de [ dimensie van de Taal 0&rbrace; &lbrace;.](/help/components/dimensions/language.md) |
+| `xdm.environment.browserDetails.cookiesEnabled` | Plaatst de [ dimensie van de Steun van het 0&rbrace; Koekje. ](/help/components/dimensions/cookie-support.md) Geldige waarden zijn `Y` (de browser accepteert cookies) en `N` (de browser weigert cookies). |
 | `xdm.environment.browserDetails.javaEnabled` | Plaatst [ toegelaten Java ](/help/components/dimensions/java-enabled.md) dimensie. Geldige waarden zijn `Y` (Java is ingeschakeld) en `N` (Java is uitgeschakeld). |
 | `xdm.environment.browserDetails.userAgent` | Gebruikt als een fallback [ unieke bezoeker ](/help/components/metrics/unique-visitors.md) identificatiemethode. Doorgaans ingevuld met de `User-Agent` HTTP-aanvraagheader. U kunt dit veld toewijzen aan een eVar als u het wilt gebruiken in rapporten. |
 | `xdm.environment.browserDetails.viewportHeight` | Plaatst de [ Browser Hoogte ](/help/components/dimensions/browser-height.md) afmeting. |
@@ -75,7 +75,7 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Overschrijving van het lijstscheidingsteken. Het gebruiken van dit gebied wordt niet geadviseerd, aangezien het scheidingsteken automatisch van [ veranderlijke admin van het Verkeer ](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) onder de montages van de rapportreeks wordt teruggewonnen. Als u dit veld gebruikt, kunnen er verschillen optreden tussen het gebruikte scheidingsteken en het scheidingsteken dat door Analytics wordt verwacht. |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Een koordserie die de respectieve [ Prop van de Lijst ](../vars/page-vars/prop.md#list-props) waarden bevat. |
 | `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Voegt alle `value` koorden in elke respectieve `list[]` serie aan zijn respectieve [ variabele van de Lijst ](../vars/page-vars/list.md) samen. Het scheidingsteken wordt automatisch gekozen gebaseerd op de waarde die in [ de reeksinstellingen van het Rapport ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md) wordt geplaatst. |
-| `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Plaatst de respectieve [ dimensie van 0} Prop.](/help/components/dimensions/prop.md) |
+| `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Plaatst de respectieve [ dimensie van 0&rbrace; Prop.](/help/components/dimensions/prop.md) |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Past [ gebeurtenisrangschikking ](../vars/page-vars/events/event-serialization.md) op de respectieve [ metrische gebeurtenissen van de Douane ](/help/components/metrics/custom-events.md) toe. Elke gebeurtenis-id bevindt zich in de bovenliggende 100 groepen. Als u bijvoorbeeld serienummering wilt toepassen op `event678` , gebruikt u `xdm._experience.analytics.event601to700.event678.id` . |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Verhoogt de respectieve [ metrische gebeurtenissen van de Douane ](/help/components/metrics/custom-events.md) door de gewenste hoeveelheid. Elke gebeurtenis bevindt zich in de bovenliggende 100 groepen. Het veld voor `event567` is bijvoorbeeld `xdm._experience.analytics.event501to600.event567.value` . |
 | `xdm.identityMap.ECID[0].id` | De [ identiteitskaart van de Identiteitsdienst van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/id-service/using/home). |
@@ -115,10 +115,10 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | `xdm.media.mediaTimed.thirdQuartiles.value` | De het stromen media diensten metrische [ 75 % Teller van de Voortgang ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#seventy-five--progress-marker). |
 | `xdm.media.mediaTimed.timePlayed.value` | De het stromen media diensten metrische [ Tijd bestede van de Inhoud ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-time-spent). |
 | `xdm.media.mediaTimed.totalTimePlayed.value` | De het stromen media diensten metrische [ Tijd bestede van Media ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-time-spent). |
-| `xdm.placeContext.geo._schema.latitude` | De breedtegraad van de bezoeker. Helpt [ afmetingen van de plaats van de de levenscyclus van 0} Mobiele.](/help/components/dimensions/lifecycle-dimensions.md) |
-| `xdm.placeContext.geo._schema.longitude` | De lengtegellocatie van de bezoeker. Helpt [ afmetingen van de plaats van de de levenscyclus van 0} Mobiele.](/help/components/dimensions/lifecycle-dimensions.md) |
+| `xdm.placeContext.geo._schema.latitude` | De breedtegraad van de bezoeker. Helpt [ afmetingen van de plaats van de de levenscyclus van 0&rbrace; Mobiele.](/help/components/dimensions/lifecycle-dimensions.md) |
+| `xdm.placeContext.geo._schema.longitude` | De lengtegellocatie van de bezoeker. Helpt [ afmetingen van de plaats van de de levenscyclus van 0&rbrace; Mobiele.](/help/components/dimensions/lifecycle-dimensions.md) |
 | `xdm.placeContext.geo.postalCode` | De [ dimensie van het Postcode ](/help/components/dimensions/zip-code.md). |
-| `xdm.placeContext.geo.stateProvince` | De [ dimensie van de Staten van 0} VS.](/help/components/dimensions/us-states.md) |
+| `xdm.placeContext.geo.stateProvince` | De [ dimensie van de Staten van 0&rbrace; VS.](/help/components/dimensions/us-states.md) |
 | `xdm.placeContext.localTime` | Verschijnt als `t_time_info` in [ het voer van Gegevens ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `xdm.productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`xdm.productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Past [ productsyntaxis ](../vars/page-vars/products.md) merchandising op eVars toe. |
 | `xdm.productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`xdm.productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Past [ productsyntaxis ](../vars/page-vars/products.md) merchandising op gebeurtenissen toe. |
@@ -134,7 +134,7 @@ De vorige updates aan deze lijst kunnen op [ worden gevonden van deze pagina beg
 | `xdm.web.webPageDetails.isErrorPage` | De vlag die de hulp bepaalt &quot;Pagina&#39;s niet gevonden&quot;[ afmeting ](/help/components/dimensions/pages-not-found.md) en [ metrisch ](/help/components/metrics/pages-not-found.md). |
 | `xdm.web.webPageDetails.name` | De [ dimensie van de Pagina ](/help/components/dimensions/page.md). |
 | `xdm.web.webPageDetails.server` | De [ dimensie van de Server ](/help/components/dimensions/server.md). |
-| `xdm.web.webPageDetails.siteSection` | De [ dimensie van de Sectie van 0} Plaats.](/help/components/dimensions/site-section.md) |
+| `xdm.web.webPageDetails.siteSection` | De [ dimensie van de Sectie van 0&rbrace; Plaats.](/help/components/dimensions/site-section.md) |
 | `xdm.web.webReferrer.URL` | De [ dimensie van de Verwijzer ](/help/components/dimensions/referrer.md). |
 
 {style="table-layout:auto"}

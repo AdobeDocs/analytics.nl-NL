@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 > Dit artikel verstrekt **klanten van Adobe Analytics die (van plan zijn om) Adobe Analytics** op hun website met instructies op uit te voeren hoe te om websitegebruikers van opt-out verbindingen te voorzien. <p><p>
-<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Als u **een website bezoekt die Adobe Analytics** heeft uitgevoerd, en u wilt uit kiezen, **<span style="color:red">is dit artikel NIET voor u</span>**. Gelieve te zien {de Keuzen van de Privacy van 0} Adobe [ om te controleren hoe Adobe uw informatie gebruikt.](https://www.adobe.com/privacy/opt-out.html)
+><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Als u **een website bezoekt die Adobe Analytics** heeft uitgevoerd, en u wilt uit kiezen, **<span style="color:red">is dit artikel NIET voor u</span>**. Gelieve te zien {de Keuzen van de Privacy van 0} Adobe [ om te controleren hoe Adobe uw informatie gebruikt.](https://www.adobe.com/privacy/opt-out.html)
 
 Sommige bezoekers van uw website hebben liever geen informatie over het bladeren in uw gegevensset. Adobe biedt de mogelijkheid om bezoekers van uw website de mogelijkheid te bieden zich af te melden voor het analyseren van hun gegevens.
 

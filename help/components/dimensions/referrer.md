@@ -25,7 +25,7 @@ Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Worksp
 Deze dimensie vereist configuratie in de interface van Analytics en gegevens in beeldverzoeken.
 
 * Binnen uw implementatie, wint deze afmeting gegevens van het [`r` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met de JavaScript-variabele `document.referrer` in de browser. U kunt de variabele [`referrer`](/help/implement/vars/page-vars/referrer.md) overschrijven gebruiken om deze handmatig in te stellen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u buiten AppMeasurement (bijvoorbeeld via de API) een gegevensverzamelingsmethode gebruikt, moet u de parameter van de `r` querytekenreeks opnemen in afbeeldingsaanvragen.
-* Binnen de interface van Analytics, moet u de interne filters van URL van uw rapportreeks [ ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) vormen. Als u interne URL-filters niet configureert, kan dit interne URL&#39;s of externe URL&#39;s bevatten.
+* Binnen de interface van Analytics, moet u de interne filters van URL van uw rapportreeks [&#128279;](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) vormen. Als u interne URL-filters niet configureert, kan dit interne URL&#39;s of externe URL&#39;s bevatten.
 
 ## Dimension-objecten
 

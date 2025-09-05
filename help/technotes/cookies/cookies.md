@@ -178,4 +178,4 @@ Als uw zaken door ITP het volgen preventie wordt beïnvloed, zou u de volgende m
 >[!MORELIKETHIS]
 >
 >[ Opties om het effect van browser koekjesbeperkingen te verlichten ](cookieless.md)
->>[De impact van Apple New App Tracking Transparency Framework op Adobe Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)
+>&#x200B;>[De impact van Apple New App Tracking Transparency Framework op Adobe Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)

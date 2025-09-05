@@ -38,7 +38,7 @@ Beschikbare filters zijn:
 | Filternaam | Beschrijving |
 |---|---|
 | Tags | Hiermee kunt u filteren op berekende metriek met specifieke tags. Merk op dat de filters van de Markering de exploitant EN gebruiken. Als u twee markeringen controleert, toont de juiste ruit metriek die met **allebei** markeringen zijn geëtiketteerd. |
-| Rapportsuites | Als u de &quot;slechts *&quot;filter van de 0} rapportsuite in de Berekende Metrische Bouwer in* toepast, en dan de Geavanceerde Filter in [!DNL Adobe Analytics] toont, zal de Geavanceerde filter de berekende metriek voor de geselecteerde slechts rapportreeks tonen.[!DNL Report Builder] |
+| Rapportsuites | Als u de &quot;slechts *&quot;filter van de 0&rbrace; rapportsuite in de Berekende Metrische Bouwer in* toepast, en dan de Geavanceerde Filter in [!DNL Adobe Analytics] toont, zal de Geavanceerde filter de berekende metriek voor de geselecteerde slechts rapportreeks tonen.[!DNL Report Builder] |
 | Eigenaars | Hiermee kunt u metingen filteren op eigenaar. Merk op dat eigenaarfilters de operator OR gebruiken. Als u twee eigenaars controleert, toont de juiste ruit metriek die door **of** eigenaar worden bezeten. |
 | Overige filters > Goedgekeurd | Toont alle officieel goedgekeurde metriek. |
 | Overige filters > Favorieten | Hiermee worden alle metrische gegevens weergegeven die u als Favorieten hebt gemarkeerd. |

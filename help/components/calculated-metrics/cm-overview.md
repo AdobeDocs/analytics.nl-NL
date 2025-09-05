@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[ creeer metriek ](/help/components/calculated-metrics/workflow/cm-workflow.md)
->>[Metriek samenstellen ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
->>[Functies gebruiken ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+>&#x200B;>[Metriek samenstellen ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>&#x200B;>[Functies gebruiken ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >
