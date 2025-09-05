@@ -17,7 +17,7 @@ Waarom zou u uw implementatie om de 6 maanden moeten herzien? Omdat u moet ervoo
 
 ## &#x200B;1. Zorg ervoor dat uw implementatie nog steeds volledig is afgestemd op onze bedrijfsbehoeften
 
-Ontmoet met de bedrijfseigenaar en/of analisten om de veranderende bedrijfsbehoeften te herzien. Voor om het even welke behoeften of metingskansen die momenteel niet door uw implementatie worden vervuld, bepaal hoe te om uw KPIs en metingsplannen bij te werken. Herinner me om uw veranderingen in uw [ BRD en SDR te registreren.](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
+Ontmoet met de bedrijfseigenaar en/of analisten om de veranderende bedrijfsbehoeften te herzien. Voor om het even welke behoeften of metingskansen die momenteel niet door uw implementatie worden vervuld, bepaal hoe te om uw KPIs en metingsplannen bij te werken. Herinner me om uw veranderingen in uw [ BRD en SDR te registreren.](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=nl-NL#implementation).
 
 ## &#x200B;2. Zorg ervoor dat de cijfers en variabelen nog steeds goed functioneren
 

@@ -63,4 +63,4 @@ Als u nog geen attributiemodel hebt dat bevredigende antwoorden aan al uw vragen
 
 * Misschien moet je de diensten van een data wetenschapper gebruiken in plaats van alleen op Analysis Workspace te vertrouwen.
 * U kunt vertrouwen op onbewerkte gegevens, zoals in Adobe-gegevensfeeds.
-* Overweeg gebruikend [ Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), bijvoorbeeld, als u uw impressiegegevens wilt overwegen.
+* Overweeg gebruikend [ Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), bijvoorbeeld, als u uw impressiegegevens wilt overwegen.

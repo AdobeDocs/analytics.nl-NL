@@ -37,7 +37,7 @@ Dit geldt niet voor het verzenden van Adobe Analytics-gegevens naar Adobe Audien
 
 +++ Hoe maak ik een Analytics-bestemming in Audience Manager?
 
-Zie [ een Bestemming van Analytics in Adobe Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)&quot;vormen.
+Zie [ een Bestemming van Analytics in Adobe Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=nl-NL)&quot;vormen.
 
 +++
 

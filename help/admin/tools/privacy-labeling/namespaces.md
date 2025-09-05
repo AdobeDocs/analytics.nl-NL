@@ -21,7 +21,7 @@ De naamruimtetekenreeks wordt gebruikt om velden te identificeren die u wilt doo
 * Een typeveld dat voor de meeste Adobe Analytics-aanvragen de waarde “analytics” bevat.
 * Een “value”-veld met de id waarnaar Analytics moet zoeken in de gekoppelde naamruimtevariabelen van al uw rapportsuites.
 
-Verwijs naar de [ documentatie van de Privacy API van de Gegevens van Experience Cloud ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) voor meer details en a [ lijst van standaard identiteitsnamespaces ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Zie [ een toegang/schrappingsbaan ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) voor een steekproefverzoek creëren.
+Verwijs naar de [ documentatie van de Privacy API van de Gegevens van Experience Cloud ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=nl-NL) voor meer details en a [ lijst van standaard identiteitsnamespaces ](https://experienceleague.adobe.com/nl/docs/experience-platform/privacy/api/appendix#standard-namespaces). Zie [ een toegang/schrappingsbaan ](https://experienceleague.adobe.com/nl/docs/experience-platform/privacy/api/privacy-jobs#access-delete) voor een steekproefverzoek creëren.
 
 ## Cookie-id
 

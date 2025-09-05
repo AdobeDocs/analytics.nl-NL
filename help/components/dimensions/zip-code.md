@@ -26,7 +26,7 @@ Deze dimensie is uniek in die zin dat het veelvoudige manieren bevat om het met 
 Als u een optie kiest die gebruikmaakt van geo zip:
 
 * Voor AppMeasurement-implementaties werkt deze dimensie buiten het vak.
-* Voor de implementaties van SDK van het Web, laat [!UICONTROL Geo Lookup] toe wanneer [ vormend een datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+* Voor de implementaties van SDK van het Web, laat [!UICONTROL Geo Lookup] toe wanneer [ vormend een datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL).
 
 ## Dimension-objecten
 

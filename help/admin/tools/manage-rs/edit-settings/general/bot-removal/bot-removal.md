@@ -32,7 +32,7 @@ Bovendien biedt Adobe, aangezien bots snel aan het morferen zijn, verschillende 
 
 ### Stap 1: Geef de Experience Cloud-id van uw bezoekers door in een nieuwe gedeclareerde id
 
-Om te beginnen, creeer een nieuwe verklaarde identiteitskaart in de [ Dienst van de Kern van Mensen ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Geef identiteitskaart van Experience Cloud van uw bezoeker in deze nieuwe verklaarde identiteitskaart over, die snel en gemakkelijk met [ markeringen in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) kan worden gedaan. Gebruik de naam ECID voor de gedeclareerde id.
+Om te beginnen, creeer een nieuwe verklaarde identiteitskaart in de [ Dienst van de Kern van Mensen ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL). Geef identiteitskaart van Experience Cloud van uw bezoeker in deze nieuwe verklaarde identiteitskaart over, die snel en gemakkelijk met [ markeringen in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=nl-NL) kan worden gedaan. Gebruik de naam ECID voor de gedeclareerde id.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -40,7 +40,7 @@ Hieronder wordt beschreven hoe deze id kan worden vastgelegd via het gegevensele
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Zodra dit Element van Gegevens opstelling is, volg [ deze instructies ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) om gedeclareerde IDs in het ECID Hulpmiddel door te geven gebruikend markeringen in Adobe Experience Platform.
+Zodra dit Element van Gegevens opstelling is, volg [ deze instructies ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=nl-NL) om gedeclareerde IDs in het ECID Hulpmiddel door te geven gebruikend markeringen in Adobe Experience Platform.
 
 ### Stap 2: segmentatie gebruiken om vlekken te identificeren
 

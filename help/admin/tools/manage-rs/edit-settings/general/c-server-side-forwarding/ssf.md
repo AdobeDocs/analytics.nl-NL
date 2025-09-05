@@ -33,12 +33,12 @@ Om te begrijpen waar uw organisatie in termen van het uitvoeren van server-kant 
 
 ## ![ step1_icon.png beeld ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) verifieert ECID de dienstimplementatie
 
-Verifieer of de dienst van identiteitskaart van Experience Cloud (ECID) wordt uitgevoerd, door het [ Analytics volgende verzoek ](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html) te inspecteren.
+Verifieer of de dienst van identiteitskaart van Experience Cloud (ECID) wordt uitgevoerd, door het [ Analytics volgende verzoek ](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=nl-NL) te inspecteren.
 
 Controleer op het tabblad Verzoek of er een ECID-waarde wordt ingesteld. Dit vertelt u dat de Dienst van de Identiteit correct wordt uitgevoerd, wat een noodzakelijke voorwaarde voor server-zijhet door:sturen is.
 
 * Ga door met stap 2 als u een ECID-waarde ziet.
-* Als u geen ECID waarde ziet, [ voert de Dienst van de Identiteit uit ](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) alvorens aan stap 2 te werk te gaan.
+* Als u geen ECID waarde ziet, [ voert de Dienst van de Identiteit uit ](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=nl-NL) alvorens aan stap 2 te werk te gaan.
 
 ## ![ step2_icon.png beeld ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) verifieer server-kant het door:sturen implementatieversie
 
@@ -52,10 +52,10 @@ Controleer op het tabblad &quot;Reactie&quot; of de reactie Audience Manager-geg
 
    * **de Klanten van Adobe Audience Manager met DIL**: coördineer de volgende twee punten in nauw verband:
 
-      1. Verwijder de code van DIL en installeer de [ paginacode van de Module van het Beheer van het publiek 0&rbrace;.](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)
+      1. Verwijder de code van DIL en installeer de [ paginacode van de Module van het Beheer van het publiek 0&rbrace;.](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=nl-NL)
       1. Schakel het doorsturen aan de serverzijde in de UI Analytics Admin in zoals beschreven in stap 3. Als u deze instelling inschakelt voordat u DIL-code verwijdert, worden gegevens gedupliceerd en worden aanvullende serveraanroepen in rekening gebracht naar Audience Manager.
 
-   * **Nieuwe klanten van Adobe Audience Manager** - installeer de [ 3&rbrace; paginacode van de Module van het Beheer van de Publiek &lbrace;en ga verder met stap 3. ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) De gegevens worden pas naar Audience Manager verzonden wanneer in stap 3 het doorsturen van de server is ingeschakeld.
+   * **Nieuwe klanten van Adobe Audience Manager** - installeer de [ 3&rbrace; paginacode van de Module van het Beheer van de Publiek &lbrace;en ga verder met stap 3. ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=nl-NL) De gegevens worden pas naar Audience Manager verzonden wanneer in stap 3 het doorsturen van de server is ingeschakeld.
 
 ## ![ step3_icon.png beeld ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) verifieer server-kant het door:sturen implementatie van rapportreeks
 
@@ -71,4 +71,4 @@ Ga naar **Analytics** > **Admin** > **de Reeksen van het Rapport** > (selecteren
 
 >[!NOTE]
 >
->De gegevens zullen niet in andere oplossingen van Experience Cloud, zoals [ Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) of [ Soorten van publiek ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) verschijnen tot alle 3 stappen volledig zijn. Nadat deze instellingen zijn ingeschakeld, duurt het enkele uren voordat deze instellingen van kracht worden.
+>De gegevens zullen niet in andere oplossingen van Experience Cloud, zoals [ Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=nl-NL) of [ Soorten van publiek ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) verschijnen tot alle 3 stappen volledig zijn. Nadat deze instellingen zijn ingeschakeld, duurt het enkele uren voordat deze instellingen van kracht worden.

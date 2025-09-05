@@ -22,7 +22,7 @@ Hieronder volgt een lijst van elke berekende metrische waarde die door Adobe wor
 >
 >U kunt:
 >
-> * Voeg standaard berekende metriek voor het stromen media diensten toe, zoals die in [ worden beschreven Berekende metriek ](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
+> * Voeg standaard berekende metriek voor het stromen media diensten toe, zoals die in [ worden beschreven Berekende metriek ](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=nl-NL)
 > * Creeer douane berekende metriek van bestaande Metriek, zoals die in [ wordt beschreven Berekende en geavanceerde berekende metriek ](/help/components/calculated-metrics/cm-overview.md).
 >
 

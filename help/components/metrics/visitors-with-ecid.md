@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Bezoekers met Experience Cloud-id
 
-De &quot;Bezoekers met identiteitskaart van Experience Cloud [ metrisch ](overview.md) toont het aantal unieke bezoekers die door Adobe werden geïdentificeerd gebruikend de [ dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html). Dit metrisch is nuttig om met [ Unieke bezoekers ](unique-visitors.md) metrisch te vergelijken om de meerderheid van bezoekers aan uw plaats te verzekeren gebruikt de dienst van identiteitskaart. Als een groot deel van bezoekers de de dienstkoekjes van identiteitskaart niet gebruikt, kan het op een kwestie binnen uw implementatie wijzen.
+De &quot;Bezoekers met identiteitskaart van Experience Cloud [ metrisch ](overview.md) toont het aantal unieke bezoekers die door Adobe werden geïdentificeerd gebruikend de [ dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL). Dit metrisch is nuttig om met [ Unieke bezoekers ](unique-visitors.md) metrisch te vergelijken om de meerderheid van bezoekers aan uw plaats te verzekeren gebruikt de dienst van identiteitskaart. Als een groot deel van bezoekers de de dienstkoekjes van identiteitskaart niet gebruikt, kan het op een kwestie binnen uw implementatie wijzen.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ De &quot;Bezoekers met identiteitskaart van Experience Cloud [ metrisch ](overvi
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrisch is gebaseerd op [ Unieke bezoekers ](unique-visitors.md) metrisch, behalve omvat het slechts individuen die gebruikend het `mid` vraagkoord worden geïdentificeerd (dat op het [`s_ecid` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) koekje wordt gebaseerd).
+Deze metrisch is gebaseerd op [ Unieke bezoekers ](unique-visitors.md) metrisch, behalve omvat het slechts individuen die gebruikend het `mid` vraagkoord worden geïdentificeerd (dat op het [`s_ecid` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) koekje wordt gebaseerd).
 
 ## Fouten opsporen in de configuratie van Experience Cloud-id&#39;s
 

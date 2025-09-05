@@ -18,7 +18,7 @@ In dit document wordt uitgelegd wat de invloed is van de traceerpreventiemaatreg
 ## Hoe hebben browsers het gebruik van cookies beperkt?
 
 >[!NOTE]
->[ Analytics van het Apparaat van de dwars-Apparaat ](/help/components/cda/overview.md#cda) en [ Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) kan over koekjes vastmaken gebruikend een persoonsidentiteitskaart, zoals gehakt login identiteitskaart, als men beschikbaar is.
+>[ Analytics van het Apparaat van de dwars-Apparaat ](/help/components/cda/overview.md#cda) en [ Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL#comparing-cja-to-traditional-adobe-analytics) kan over koekjes vastmaken gebruikend een persoonsidentiteitskaart, zoals gehakt login identiteitskaart, als men beschikbaar is.
 
 ### Beperkingen van cookies van andere bedrijven
 
@@ -28,7 +28,7 @@ Bovendien staat Chrome momenteel alleen toe dat cookies functioneren in een cont
 
 #### Welke Adobe-cookies van derden worden beïnvloed?
 
-De dienst van identiteitskaart van de Bezoeker gebruikt &quot;[ demdex.net ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)&quot;koekje om een blijvende herkenningsteken voor bezoekers over verschillende klantendomeinen te verstrekken. De dienst van identiteitskaart van de Analyse van de erfenis, &quot;s_vi&quot;koekje, wordt geplaatst als derdekoekje voor implementaties die geen de inzamelingsdomein van de douaneCNAME gebruiken.
+De dienst van identiteitskaart van de Bezoeker gebruikt &quot;[ demdex.net ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL)&quot;koekje om een blijvende herkenningsteken voor bezoekers over verschillende klantendomeinen te verstrekken. De dienst van identiteitskaart van de Analyse van de erfenis, &quot;s_vi&quot;koekje, wordt geplaatst als derdekoekje voor implementaties die geen de inzamelingsdomein van de douaneCNAME gebruiken.
 
 In browsers waar cookies van derden worden geblokkeerd, is interdomeintracering niet beschikbaar.
 
@@ -52,9 +52,9 @@ Het beleid van ITP evolueert vaak. Voor het recentste beleid, zie Apple [ het Vo
 
 Alle cookies van de eerste partij die door Adobe zijn ingesteld, en de bijbehorende JavaScript-bibliotheken, worden beïnvloed door het ITP-beleid:
 
-* [ &quot;AMCV&quot;koekjes ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) die door de de dienstbibliotheek van de Bezoeker van Adobe Experience Cloud (ECID) worden geplaatst
-* De Analytics erfenis [ &quot;s_vi&quot;koekje ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) wanneer het met de inzameling van de eerste-partijgegevens gebruikend CNAME wordt gevormd
-* Het oude cookie [ &quot;s_fid&quot; van Analytics ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html). Dit is het fallback-cookie die wordt gebruikt wanneer &quot;s_vi&quot; niet kan worden ingesteld
+* [ &quot;AMCV&quot;koekjes ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL) die door de de dienstbibliotheek van de Bezoeker van Adobe Experience Cloud (ECID) worden geplaatst
+* De Analytics erfenis [ &quot;s_vi&quot;koekje ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) wanneer het met de inzameling van de eerste-partijgegevens gebruikend CNAME wordt gevormd
+* Het oude cookie [ &quot;s_fid&quot; van Analytics ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL). Dit is het fallback-cookie die wordt gebruikt wanneer &quot;s_vi&quot; niet kan worden ingesteld
 
 #### Wat is de impact van ITP op Safari voor Analytics?
 
@@ -75,7 +75,7 @@ Als deze beperkingen wel van invloed zijn op uw gegevens, ziet u het volgende:
 
 Cookies van andere bedrijven worden niet gemaakt door de websites die gebruikers bezoeken.
 
-Hoewel browsers momenteel alle cookies van derden op dezelfde manier behandelen en opslaan, kunnen cookies van andere bedrijven zich op verschillende manieren gedragen. Met de Analytische implementatie van het derdekoekje van een klant, bewaren browsers Adobe [ demdex.net ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) identiteitskaart als derdekoekje, maar de cliënt doet vraag slechts aan Adobe, en niet te onbekende of verdachte derdedomeinen. Deze cookie biedt permanente id&#39;s in verschillende domeinen en maakt beveiligde (HTTPS) inhoud mogelijk. Voor meer informatie, zie [ Cookies en de Dienst van de Identiteit van Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Hoewel browsers momenteel alle cookies van derden op dezelfde manier behandelen en opslaan, kunnen cookies van andere bedrijven zich op verschillende manieren gedragen. Met de Analytische implementatie van het derdekoekje van een klant, bewaren browsers Adobe [ demdex.net ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=nl-NL) identiteitskaart als derdekoekje, maar de cliënt doet vraag slechts aan Adobe, en niet te onbekende of verdachte derdedomeinen. Deze cookie biedt permanente id&#39;s in verschillende domeinen en maakt beveiligde (HTTPS) inhoud mogelijk. Voor meer informatie, zie [ Cookies en de Dienst van de Identiteit van Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL).
 
 Binnen de analytische implementaties worden cookies van derden gebruikt voor interdomeintracering en voor het maken van gevallen waarin reclame wordt gebruikt, waaronder het opnieuw aanwijzen van advertenties. De koekjes van de derde staan u toe om bezoekers te identificeren aangezien zij verschillende domeinen bezoeken die u bezit of aangezien zij advertenties op plaatsen worden getoond die u niet bezit.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -85,7 +85,7 @@ Cookies van eerste bedrijven zijn domeinspecifiek en worden gemaakt door website
 
 Binnen de implementaties van Analytics, worden de eerstepartijkoekjes gebruikt om gebruikers te identificeren wanneer zij op uw plaats zijn en daarom al analyse van gebruikersactiviteit steunen. U hebt geen cookies van derden nodig om de activiteiten op de site te begrijpen.
 
-Voor meer informatie, zie [ Ongeveer eerste-partijkoekjes ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html).
+Voor meer informatie, zie [ Ongeveer eerste-partijkoekjes ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=nl-NL).
 
 ![ de vergelijking van het Koekje ](/help/technotes/assets/cookies2.png)
 

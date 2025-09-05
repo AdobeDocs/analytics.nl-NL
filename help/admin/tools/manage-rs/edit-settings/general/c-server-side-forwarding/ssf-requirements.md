@@ -18,11 +18,11 @@ U moet deze oplossing van Experience Cloud, de dienst, en codevereisten ontmoete
 
 ## Oplossingsvereisten
 
-Server-kant het door:sturen werkt met [ Analytics ](https://www.adobe.com/data-analytics-cloud/analytics.html) en [ Audience Manager ](https://www.adobe.com/data-analytics-cloud/audience-manager.html) en/of [ Soorten publiek ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+Server-kant het door:sturen werkt met [ Analytics ](https://www.adobe.com/data-analytics-cloud/analytics.html) en [ Audience Manager ](https://www.adobe.com/data-analytics-cloud/audience-manager.html) en/of [ Soorten publiek ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL).
 
 ## Servicevereisten
 
-Server-kant het door:sturen vereist de [ Dienst van de Identiteit ](https://experienceleague.adobe.com/docs/id-service/using/home.html). De Identity Service biedt een universele id die bezoekers van de site identificeert voor alle oplossingen in de Experience Cloud. U moet de dienst van identiteitskaart uitvoeren alvorens server-kant het door:sturen zal werken.
+Server-kant het door:sturen vereist de [ Dienst van de Identiteit ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL). De Identity Service biedt een universele id die bezoekers van de site identificeert voor alle oplossingen in de Experience Cloud. U moet de dienst van identiteitskaart uitvoeren alvorens server-kant het door:sturen zal werken.
 
 ## Codeversies
 

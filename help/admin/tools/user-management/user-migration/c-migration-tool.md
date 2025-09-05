@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Wat u moet weten over de migratie van gebruikers-id&#39;s voor Analytics naar de Adobe Admin Console in de Adobe Experience Cloud.
 
-Voor algemene hulp op de onderwerpen van Adobe Admin Console (niet verwant met de migratie van Analytics), zie {de Gids van de Gebruiker van 0} Admin Console [.](https://helpx.adobe.com/enterprise/administering/user-guide.html)
+Voor algemene hulp op de onderwerpen van Adobe Admin Console (niet verwant met de migratie van Analytics), zie {de Gids van de Gebruiker van 0} Admin Console [.](https://helpx.adobe.com/nl/enterprise/administering/user-guide.html)
 
-Nadat u migreert, kunt u [ de gebruikers en de producten van Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in Adobe Admin Console beheren.
+Nadat u migreert, kunt u [ de gebruikers en de producten van Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL) in Adobe Admin Console beheren.
 
 ## Wat is de migratie van de gebruikers-id voor Analytics? {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -48,7 +48,7 @@ De voordelen van het gebruik van de Adobe Admin Console zijn:
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">Nieuwe gebruikers uitnodigen </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">Productprofielen maken </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">Gebruikers toestemming geven voor specifieke producten en services </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Verbeter toegang tot <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html"> de dwars-oplossing kerndiensten </a> beschikbaar in Adobe Experience Cloud </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Verbeter toegang tot <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=nl-NL"> de dwars-oplossing kerndiensten </a> beschikbaar in Adobe Experience Cloud </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -68,11 +68,11 @@ Antwoorden op vragen die u mogelijk hebt vóór de migratie.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ik ben beheerder van Analytics en heb een e-mail voor migratie ontvangen. Wat moet ik eerst doen? </p> </td> 
-   <td colname="col2"> <p>Controleer of u een Adobe ID hebt en of u toegang hebt tot <a href="https://adminconsole.adobe.com/enterprise/"> Experience Cloud Admin Console </a> . </p> <p>Als dat niet het geval is, neemt u contact op met de <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> klantenservice van Adobe </a> . (U moet eerst contact opnemen met de systeem- of productbeheerder die u kan uitnodigen voor de juiste organisatie.) </p> </td> 
+   <td colname="col2"> <p>Controleer of u een Adobe ID hebt en of u toegang hebt tot <a href="https://adminconsole.adobe.com/enterprise/"> Experience Cloud Admin Console </a> . </p> <p>Als dat niet het geval is, neemt u contact op met de <a href="https://helpx.adobe.com/nl/marketing-cloud/contact-support.html"> klantenservice van Adobe </a> . (U moet eerst contact opnemen met de systeem- of productbeheerder die u kan uitnodigen voor de juiste organisatie.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AEM-integratie met Analytics </p> </td> 
-   <td colname="col2"> <p> AEM-gebruikers met een integratie met Analytics moeten hun configuratie wijzigen om het gedeelde geheim Analytics te gebruiken in plaats van het wachtwoord. </p> <p> Dit moet u doen voordat de migratie is ingeschakeld. Als de migratie eenmaal is uitgeschakeld, is het oorspronkelijk geconfigureerde wachtwoord niet meer geldig. </p> <p><b> om het gedeelde geheim in Analytics </b> te verkrijgen </p> <p> Het gedeelde geheim kan uit Analytics (<span class="uicontrol"> Analytics </span> worden verkregen &gt; <span class="uicontrol"> Gebruikersbeheer </span>) en is verschillend voor elke gebruiker. </p> <p><b> om uw configuratie van AEM met het gedeelde geheim </b> bij te werken </p> <p>Zie <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/adobeanalytics-connect.html"> Verbinding maken met Adobe Analytics en Frameworks maken </a> . </p> </td> 
+   <td colname="col2"> <p> AEM-gebruikers met een integratie met Analytics moeten hun configuratie wijzigen om het gedeelde geheim Analytics te gebruiken in plaats van het wachtwoord. </p> <p> Dit moet u doen voordat de migratie is ingeschakeld. Als de migratie eenmaal is uitgeschakeld, is het oorspronkelijk geconfigureerde wachtwoord niet meer geldig. </p> <p><b> om het gedeelde geheim in Analytics </b> te verkrijgen </p> <p> Het gedeelde geheim kan uit Analytics (<span class="uicontrol"> Analytics </span> worden verkregen &gt; <span class="uicontrol"> Gebruikersbeheer </span>) en is verschillend voor elke gebruiker. </p> <p><b> om uw configuratie van AEM met het gedeelde geheim </b> bij te werken </p> <p>Zie <a href="https://helpx.adobe.com/nl/experience-manager/6-3/sites/administering/using/adobeanalytics-connect.html"> Verbinding maken met Adobe Analytics en Frameworks maken </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder bijwerken </p> </td> 
@@ -121,15 +121,15 @@ Antwoorden op vragen die u mogelijk hebt vóór de migratie.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Controleer of u een productbeheerder voor Analytics in de Adobe Admin Console bent. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">Deel aan uw gebruikersbasis mee dat hun login ervaring zal veranderen wanneer de migratie begint. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">Audit uw huidige gebruikers en toestemmingen en voer schoonmaakactiviteiten uit. </li> 
-    </ul> <p>Als u uw migratie wilt versnellen, neemt u contact op met uw Adobe-accountteam op de <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> klantenservice van Adobe </a> en dient u een aanvraag in voor een eerdere begindatum. </p> </td> 
+    </ul> <p>Als u uw migratie wilt versnellen, neemt u contact op met uw Adobe-accountteam op de <a href="https://helpx.adobe.com/nl/marketing-cloud/contact-support.html"> klantenservice van Adobe </a> en dient u een aanvraag in voor een eerdere begindatum. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ik ben een beheerder van Analytics zonder toegang tot de Adobe Admin Console. Wie kan mij helpen toegang te krijgen tot de Adobe Admin Console? </p> </td> 
-   <td colname="col2"> <p>Elke systeem- of productbeheerder die toegang heeft tot de Adobe Admin Console van uw organisatie, kan u toegang geven. Als u niet zeker weet wie binnen uw organisatie beheerdersrechten heeft in de console, neemt u contact op met de <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> klantenservice van Adobe </a> . </p> </td> 
+   <td colname="col2"> <p>Elke systeem- of productbeheerder die toegang heeft tot de Adobe Admin Console van uw organisatie, kan u toegang geven. Als u niet zeker weet wie binnen uw organisatie beheerdersrechten heeft in de console, neemt u contact op met de <a href="https://helpx.adobe.com/nl/marketing-cloud/contact-support.html"> klantenservice van Adobe </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kan ik de startdatum van de migratie uitstellen? </p> </td> 
-   <td colname="col2"> <p>Ja. Neem contact op met de <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> klantenservice van Adobe </a> . </p><p>Zie hieronder voor een beschrijving van de wijzigingen in uw huidige gebruikers- en machtigingenbeheer voor Analytics op de startdatum. </p> </td> 
+   <td colname="col2"> <p>Ja. Neem contact op met de <a href="https://helpx.adobe.com/nl/marketing-cloud/contact-support.html"> klantenservice van Adobe </a> . </p><p>Zie hieronder voor een beschrijving van de wijzigingen in uw huidige gebruikers- en machtigingenbeheer voor Analytics op de startdatum. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nu mijn bedrijf naar de Adobe Admin Console migreert, waar maak ik nieuwe gebruikers en machtigingengroepen voor de begindatum van de migratie? </p> </td> 
@@ -280,7 +280,7 @@ Belangrijke informatie over het migratieproces en de invloed ervan op het huidig
    <td colname="col2"> <p> Details over de laatste aanmeldingsdatum en -tijd van een gebruiker zijn beschikbaar via de koppeling Analytics Users en Assets en niet via de Adobe Admin Console. De laatste aanmeldingsdatum in Analytics is specifiek voor de datum waarop gebruikers vanuit Experience Cloud toegang hebben gekregen tot Analytics en geeft niet de datum/tijd weer waarop ze zich hebben aangemeld bij de Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Gebruikersbeheer-API's <a href="https://helpx.adobe.com/enterprise/help/identity.html"> Door Adobe ondersteunde identiteitstypen </a> </p> </td> 
+   <td colname="col1"> <p>Gebruikersbeheer-API's <a href="https://helpx.adobe.com/nl/enterprise/help/identity.html"> Door Adobe ondersteunde identiteitstypen </a> </p> </td> 
    <td colname="col2"> <p> Beheerders die naar de Adobe Admin Console migreren, moeten API's voor gebruikersbeheer configureren die op Adobe Developer worden aangeboden voor programmatische toegang tot gebruikersaccounts in de Adobe Admin Console. </p> <p>De API's voor analysebevoegdheden worden uitgeschakeld wanneer u de migratie wilt inschakelen. </p> </td> 
   </tr> 
   <tr> 
@@ -289,7 +289,7 @@ Belangrijke informatie over het migratieproces en de invloed ervan op het huidig
   </tr> 
   <tr> 
    <td colname="col1"> <p>Single Sign-On </p> </td> 
-   <td colname="col2"> <p> Configuraties met eenmalige aanmelding voor analysemogelijkheden worden verwijderd wanneer u de migratie hebt voltooid. Ze zullen actief blijven tijdens de migratie. Klanten die Analytics gebruiken Single Sign-On dienen een upgrade uit te voeren naar <a href="https://helpx.adobe.com/enterprise/help/identity.html"> Adobe Federated ID </a> . </p> <p>Analytics raadt u aan om uw gebruikers eerst als Adobe-id's te migreren om eenvoudig de Experience Cloud-accounts te maken en deze vervolgens om te zetten in gefedereerde gebruikers met één handtekening. </p> </td> 
+   <td colname="col2"> <p> Configuraties met eenmalige aanmelding voor analysemogelijkheden worden verwijderd wanneer u de migratie hebt voltooid. Ze zullen actief blijven tijdens de migratie. Klanten die Analytics gebruiken Single Sign-On dienen een upgrade uit te voeren naar <a href="https://helpx.adobe.com/nl/enterprise/help/identity.html"> Adobe Federated ID </a> . </p> <p>Analytics raadt u aan om uw gebruikers eerst als Adobe-id's te migreren om eenvoudig de Experience Cloud-accounts te maken en deze vervolgens om te zetten in gefedereerde gebruikers met één handtekening. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Machtigingsgroepen downloaden </p> </td> 

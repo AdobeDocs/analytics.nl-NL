@@ -68,7 +68,7 @@ Toegang tot productbeheer voor gegevensverzameling in Experience Platform is vri
 
 ## Toegang voor productbeheer verlenen voor productprofielen
 
-Voor informatie over het toewijzen van gebruikers als beheerders van het productprofiel, zie de &quot;Manage de beheerders&quot;sectie van het productprofiel in het artikel, [ beheren productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in de de gebruikersgids van de Onderneming.
+Voor informatie over het toewijzen van gebruikers als beheerders van het productprofiel, zie de &quot;Manage de beheerders&quot;sectie van het productprofiel in het artikel, [ beheren productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) in de de gebruikersgids van de Onderneming.
 
 ## Volgende stappen
 

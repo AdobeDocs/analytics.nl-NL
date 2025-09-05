@@ -32,7 +32,7 @@ Eigenschappen zijn overkoepelende containers die u gebruikt om tags te beheren. 
 1. Alle instellingen, inclusief Experience Cloud-organisatie-id, moeten al zijn ingevuld. Klik op **[!UICONTROL Save]**.
 1. Zoek Adobe Analytics en klik op **[!UICONTROL Install]** in de extensiecatalogus.
 
-Zie de volledige documentatie voor de [ uitbreiding van Adobe Analytics ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) voor meer gedetailleerde informatie.
+Zie de volledige documentatie voor de [ uitbreiding van Adobe Analytics ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=nl-NL) voor meer gedetailleerde informatie.
 
 ## Gegevenselementen maken voor Adobe Analytics
 

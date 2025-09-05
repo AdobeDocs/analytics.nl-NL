@@ -36,7 +36,7 @@ Zorg ervoor dat de meest recente plaatsversie de gegevensinzameling voor die sec
 
 Als u onlangs metriek of variabelen hebt toegevoegd of veranderd, moet u uw Document van de Vereisten van het Bedrijfs (BRD) en de Verwijzing van het Ontwerp van de Oplossing (SDR) bijwerken.
 
-Als u geen documentatie van uw implementatie hebt, voer een lijst van variabelen uit en creeer uw BRD of SDR gebruikend [ dit malplaatje ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
+Als u geen documentatie van uw implementatie hebt, voer een lijst van variabelen uit en creeer uw BRD of SDR gebruikend [ dit malplaatje ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=nl-NL#implementation).
 
 ## &#x200B;5. Verbeter onmiddellijk eventuele leemten in de gegevenskwaliteit die u hebt gevonden
 

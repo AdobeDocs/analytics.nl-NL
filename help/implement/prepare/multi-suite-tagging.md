@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Om multi-suite het etiketteren uit te voeren, moet u identiteitskaart van de Reeks van het Rapport (RSID) voor de globale rapportreeks en ook RSIDs voor de toepasselijke reeksen van het kindrapport in de volgende code voor uw webpagina&#39;s en apps omvatten.
 
-* Voor de markeringsimplementaties van Adobe Experience Platform, specificeer elk van de rapportreeksen voor de [[!DNL Analytics]  uitbreiding ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
+* Voor de markeringsimplementaties van Adobe Experience Platform, specificeer elk van de rapportreeksen voor de [[!DNL Analytics]  uitbreiding ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=nl-NL).
 
 * Voor erfenis JavaScript en mobiele implementaties van SDK, scheidt RSIDs met komma&#39;s en geen ruimten (`rsid1,rsid2,rsid3` etc.).
 

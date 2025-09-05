@@ -43,11 +43,11 @@ In deze handleiding worden veel algemene mogelijkheden van de Adobe Admin Consol
 
 ## Meer Analytics-gebruikershandleidingen
 
-[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html?lang=nl-NL)
 
 ## Belangrijke bronnen voor Analytics
 
-* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&lang=nl#support)
+* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/nl?support-solution=Analytics&lang=nl#support)
 * [ Gemeenschap van Adobe Analytics op Experience League ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

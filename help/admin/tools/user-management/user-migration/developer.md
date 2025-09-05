@@ -42,6 +42,6 @@ Als uw bedrijf om het even welk van deze methodes niet gebruikt, wordt geen acti
 
 Voor aanvullende informatie:
 
-* [ Algemene Info van het Beheer van de Gebruiker ](https://helpx.adobe.com/enterprise/help/users.html)
+* [ Algemene Info van het Beheer van de Gebruiker ](https://helpx.adobe.com/nl/enterprise/help/users.html)
 * [ het Beheer API van de Gebruiker Forum ](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [Migratie van toegang en beheer van analysegebruikers naar Experience Cloud](/help/admin/tools/user-management/user-migration/c-migration-tool.md)

@@ -27,7 +27,7 @@ Audience Manager-segmentlidmaatschap is dynamisch. Gebruikers kunnen een segment
 
 Een Audience Manager-segment wordt in Analytics aangeduid als een publiek.
 
-Voor meer informatie, verwijs naar [ Bedienings en Bevolkingsgegevens van het Segment in de Bouwer van het Segment ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) en [ Signalen, Trekken, en Segmenten ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
+Voor meer informatie, verwijs naar [ Bedienings en Bevolkingsgegevens van het Segment in de Bouwer van het Segment ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=nl-NL) en [ Signalen, Trekken, en Segmenten ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=nl-NL).
 
 ## Analysesegmenten {#analytics-segments}
 
