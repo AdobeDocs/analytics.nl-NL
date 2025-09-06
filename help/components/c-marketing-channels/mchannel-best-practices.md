@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Attributie met de Kanalen van de Marketing - Beste praktijken
 
-[ de Kanalen van de Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) zijn een waardevolle en krachtige eigenschap van Adobe Analytics. De huidige begeleiding betreffende de implementatie van het Kanaal van de Marketing werd geformuleerd in een tijd toen noch [ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md) noch [ Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases) bestond.
+[ de Kanalen van de Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) zijn een waardevolle en krachtige eigenschap van Adobe Analytics. De huidige begeleiding betreffende de implementatie van het Kanaal van de Marketing werd geformuleerd in een tijd toen noch [ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md) noch [ Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=nl-NL#cja-usecases) bestond.
 
 Om de implementatie van uw marketingkanalen in de toekomst te controleren en ervoor te zorgen dat de rapportage consistent is met Attribution en met Customer Journey Analytics, geven we een reeks bijgewerkte best practices uit. Als u al marketingkanalen gebruikt, kunt u de beste opties kiezen uit deze nieuwe richtlijnen. Als u niet bekend bent met Marketing Channels, raden we u aan alle nieuwe aanbevolen procedures te volgen.
 
