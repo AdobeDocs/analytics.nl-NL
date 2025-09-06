@@ -3,16 +3,16 @@ title: Aanbevolen procedures voor het implementeren van Adobe Analytics Marketin
 description: Bijgewerkte beste praktijken voor het gebruiken van de Kanalen van de Marketing met Attributie en Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
 
 # Attributie met de Kanalen van de Marketing - Beste praktijken
 
-[ de Kanalen van de Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) zijn een waardevolle en krachtige eigenschap van Adobe Analytics. De huidige begeleiding betreffende de implementatie van het Kanaal van de Marketing werd geformuleerd in een tijd toen noch [ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md) noch [ Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=nl-NL#cja-usecases) bestond.
+[ de Kanalen van de Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) zijn een waardevolle en krachtige eigenschap van Adobe Analytics. De huidige begeleiding betreffende de implementatie van het Kanaal van de Marketing werd geformuleerd in een tijd toen noch [ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md) noch [ Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases) bestond.
 
 Om de implementatie van uw marketingkanalen in de toekomst te controleren en ervoor te zorgen dat de rapportage consistent is met Attribution en met Customer Journey Analytics, geven we een reeks bijgewerkte best practices uit. Als u al marketingkanalen gebruikt, kunt u de beste opties kiezen uit deze nieuwe richtlijnen. Als u niet bekend bent met Marketing Channels, raden we u aan alle nieuwe aanbevolen procedures te volgen.
 
@@ -34,9 +34,13 @@ Wij adviseren gebruikend [ Attributie ](/help/analyze/analysis-workspace/attribu
 
 De directe en Interne kanalen van het Sessievernieuwen worden niet geadviseerd voor gebruik met de modellen van de douaneattributie.
 
-Wat als uw organisatie reeds Directe en Zitting heeft gevormd verfrissen zich? In dit geval, adviseren wij dat u [ een classificatie ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) voor Eerste Aanraak/Laatste Aanraak creeert en Direct en Zitting verfrist kanalen niet geclassificeerd verlaat. De geclassificeerde dimensie zal de zelfde resultaten van de Attributie opleveren alsof die kanalen nooit werden gevormd.
+Wat als uw organisatie reeds Directe en Zitting heeft gevormd verfrissen zich? In dit geval, adviseert Adobe dat u [ een classificatie ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) voor Eerste Aanraak/Laatste Aanraak creeert en Direct en Zitting verfrist kanalen ongeclassificeerd verlaat. De geclassificeerde dimensie levert resultaten van de Attributie op gelijkend op het geval waar die kanalen nooit werden gevormd.
 
 ![](assets/direct-session-refresh.png)
+
+Als u deze kanalen uitschakelt en de verwerkingsregels voor marketingkanalen verwijdert, verschillen de resultaten enigszins van de indelingsmethode. De waarde `None` vertegenwoordigt bezoeken die niet overeenkomen met de verwerkingsregels voor marketingkanalen. De verschillen kunnen verschijnen wanneer een bezoek dat geen kanaal aanpast een bezoek volgt dat een kanaal aanpast.
+
+U kunt in beide gevallen nog steeds aangepaste attributiemodellen gebruiken om terugzoekvensters en attributiemodellen toe te passen.
 
 ## Best practice #3: Enable Override Last-Touch Channel voor alle kanalen
 
