@@ -5,10 +5,10 @@ title: Gebruiksgevallen voor verwerkingsregels
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,8 +27,9 @@ De lijst [!UICONTROL Context Variables] bevat alle variabelen die de afgelopen 3
 In het volgende voorbeeld wordt de variabele `search_term` context data geplaatst en wordt de waarde ervan in eVar3 geplaatst:
 
 | Regelset | Waarde |
+| --- | --- |
 | Voorwaarde | `search_term` (Contextgegevens) is ingesteld |
-| Handeling | [!UICONTROL Overwrite value of] eVar3 with `search_term` (contextgegevens) |
+| Handeling | [!UICONTROL Overwrite value of] eVar3 met `search_term` (contextgegevens) |
 
 ![ Screenshot van de interface die van verwerkingsregels het gebruik van een variabele van contextgegevens toont ](assets/set-context-data.png)
 
@@ -37,9 +38,10 @@ Het bovenstaande voorbeeld werkt prima als er slechts een paar eVars zijn om te 
 In het volgende voorbeeld worden meerdere variabelen gevuld met variabele contextgegevensvariabelen. Eén handeling bevat ook een voorwaardelijke instructie:
 
 | Regelset | Waarde |
+| --- | --- |
 | Handeling | [!UICONTROL Overwrite value of] eVar55 met `spa.billing_customer_name` (contextgegevens) |
 | Handeling | [!UICONTROL Overwrite value of] Prop7 met `testhierarchy` (Context Data), als `testhierarchy` (Context Data) is ingesteld |
-| Handeling | [!UICONTROL Overwrite value of] eVar8 with `spa.ims_org` (Context-gegevens) |
+| Handeling | [!UICONTROL Overwrite value of] eVar8 met `spa.ims_org` (contextgegevens) |
 
 ![ Screenshot van de interface die van verwerkingsregels toont hoe te om een waarde voorwaardelijk te plaatsen ](assets/add-conditional.png)
 
