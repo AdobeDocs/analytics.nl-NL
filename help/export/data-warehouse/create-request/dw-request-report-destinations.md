@@ -1,20 +1,20 @@
 ---
-description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
-title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
+description: Stappen die beschrijven hoe u een Data Warehouse-aanvraag maakt.
+title: Een rapportbestemming voor een Data Warehouse-aanvraag configureren
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d213befd0fd8d530d95b8d3ac3c4f3b808558244
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1977'
 ht-degree: 0%
 
 ---
 
-# Vorm een rapportbestemming voor een verzoek van de Data Warehouse
+# Een rapportbestemming voor een Data Warehouse-aanvraag configureren
 
-Er zijn diverse configuratieopties beschikbaar wanneer het creëren van een verzoek van de Data Warehouse. De volgende informatie beschrijft hoe te om een rapportbestemming voor het verzoek te vormen.
+Er zijn verschillende configuratieopties beschikbaar wanneer u een Data Warehouse-aanvraag maakt. De volgende informatie beschrijft hoe te om een rapportbestemming voor het verzoek te vormen.
 
-Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [ een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [ een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen
 >
 >* We raden u aan een cloudaccount of e-mailbericht te gebruiken voor uw rapportbestemming. [ Verouderde FTP en de rekeningen van SFTP ](#legacy-destinations) zijn beschikbaar maar niet geadviseerd.
 >
->* Alle cloudaccounts die u eerder hebt geconfigureerd, kunnen voor Data Warehouse worden gebruikt. U kunt cloudaccounts op de volgende manieren configureren:
+>* Alle cloudaccounts die u eerder hebt geconfigureerd, zijn beschikbaar voor Data Warehouse. U kunt cloudaccounts op de volgende manieren configureren:
 >
 >   * Wanneer het vormen van [ de Diefstal van Gegevens ](/help/export/analytics-data-feed/create-feed.md)
 >   
@@ -34,13 +34,13 @@ Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen
 >
 >* U kunt om het even welke plaatsen uitgeven die u van de manager van Plaatsen in [ Componenten > Plaatsen ](/help/components/locations/configure-import-accounts.md) creeert
 
-Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzonden:
+Om de bestemming te vormen waar de rapporten van Data Warehouse worden verzonden:
 
 1. Als u niet reeds hebt, begin creërend een verzoek in Adobe Analytics door te selecteren **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **voeg**] toe.
 
-   Voor extra details, zie [ een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+   Voor extra details, zie [ een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
-1. Voor de Nieuwe pagina van het de verzoekverzoek van de Data Warehouse, selecteer de [!UICONTROL **bestemming van het Rapport**] tabel.
+1. Voor de Nieuwe Data Warehouse verzoekpagina, selecteer de [!UICONTROL **bestemming van het Rapport**] tabel.
 
    ![ de bestemmingslusje van het Rapport ](assets/dw-report-destination.png)
 
@@ -85,11 +85,13 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       +++Amazon S3 Role ARN
 
+      **NOTA:** wanneer het gebruiken van Amazon S3 met Data Warehouse, slechts wordt de encryptie SSE-S3 gesteund.
+
       Geef de volgende informatie op om een Amazon S3 Role ARN-account te configureren:
 
       | Veld | Functie |
       |---------|----------|
-      | [!UICONTROL **ARN van de Rol**] | U moet een Rol ARN (de Naam van het Middel van Amazon) verstrekken die de Adobe kan gebruiken om toegang tot de rekening van Amazon S3 te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Voor specifieke informatie, zie [ deze documentatie van AWS ](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+      | [!UICONTROL **ARN van de Rol**] | U moet een Role ARN (de Naam van het Middel van Amazon) verstrekken die Adobe kan gebruiken om tot de rekening van Amazon S3 toegang te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Voor specifieke informatie, zie [ deze documentatie van AWS ](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
 
       {style="table-layout:auto"}
 
@@ -121,7 +123,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-      +++
+      +++   
 
       +++Azure RBAC
 
@@ -153,7 +155,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       +++
 
-1. Ga door het vormen van uw verzoek van de Data Warehouse op het [!UICONTROL **opties van het Rapport**] tabel. Voor meer informatie, zie [ rapportopties voor een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-options.md) vormen.
+1. Ga door het vormen van uw verzoek van Data Warehouse op het [!UICONTROL **opties van het Rapport**] tabel. Voor meer informatie, zie [ rapportopties voor een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-options.md) vormen.
 
 ## Oudere accounttypen
 
@@ -165,7 +167,7 @@ De volgende informatie verstrekt configuratieinformatie voor elk van de erfenisb
 
 ### FTP
 
-Gegevens van het gegevenspakhuis kunnen aan een Adobe of klant-ontvangen plaats van FTP worden geleverd. Vereist een FTP-host, gebruikersnaam en wachtwoord. Gebruik het padveld om feed-bestanden in een map te plaatsen. Mappen moeten al bestaan; feeds genereren een fout als het opgegeven pad niet bestaat.
+Gegevens over een gegevenspakhuis kunnen worden geleverd aan een door de klant gehoste FTP-locatie. Vereist een FTP-host, gebruikersnaam en wachtwoord. Gebruik het padveld om feed-bestanden in een map te plaatsen. Mappen moeten al bestaan; feeds genereren een fout als het opgegeven pad niet bestaat.
 
 Gebruik de volgende informatie wanneer u de beschikbare velden invult:
 
@@ -225,7 +227,7 @@ Gebruik de volgende informatie wanneer u de beschikbare velden invult:
 
 * [!UICONTROL **de weg van de Folder**]: De weg aan de plaats op de rekening SFTP.
 
-Voor extra informatie over configuratie SFTP, zie [ verzoeken van de Data Warehouse naar servers SFTP verzenden ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
+Voor extra informatie over configuratie SFTP, zie [ verzoeken van Data Warehouse naar servers SFTP verzenden ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 
@@ -233,9 +235,9 @@ U kunt opslaggegevens rechtstreeks naar Amazon S3 emmers verzenden. Dit bestemmi
 
 De gebruiker u voor het uploaden van gegevens van het gegevenspakhuis verstrekt moet de volgende [ toestemmingen ](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) hebben:
 
-* s3:GetObject
-* s3:PutObject
-* s3:PutObjectAcl
+* s3 :GetObject
+* s3 :PutObject
+* s3 :PutObjectAcl
 
 De volgende 16 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het juiste handtekeningalgoritme wordt gebruikt):
 

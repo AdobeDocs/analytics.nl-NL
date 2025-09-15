@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Cloud-import- en exportaccounts configureren
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ Een cloudimport- of -exportaccount configureren:
 
    +++Amazon S3 Role ARN
 
+   **NOTA:** wanneer het gebruiken van Amazon S3 met de Eendelen van Gegevens en Data Warehouse, slechts wordt de encryptie SSE-S3 gesteund.
+
    Geef de volgende informatie op om een Amazon S3 Role ARN-account te configureren:
 
    | Veld | Functie |
@@ -99,7 +101,7 @@ Een cloudimport- of -exportaccount configureren:
 
    {style="table-layout:auto"}
 
-   +++
+   +++   
 
    +++Azure RBAC
 
@@ -162,9 +164,9 @@ Een cloudimport- of -exportaccount configureren:
 
    De gebruiker u voor het uploaden van gegevens van het gegevenspakhuis verstrekt moet de volgende [ toestemmingen ](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) hebben:
 
-   * s3:GetObject
-   * s3:PutObject
-   * s3:PutObjectAcl
+   * s3 :GetObject
+   * s3 :PutObject
+   * s3 :PutObjectAcl
 
    De volgende 16 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het juiste handtekeningalgoritme wordt gebruikt):
 
