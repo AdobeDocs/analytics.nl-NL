@@ -3,9 +3,9 @@ description: Verklaart hoe te om componenten en projecten van Adobe Analytics aa
 title: Componenten en projecten migreren van Adobe Analytics naar Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -39,39 +39,53 @@ Bovendien doe een [ inventaris van Adobe Analytics ](/help/admin/tools/analytics
 
 ## Adobe Analytics-projecten migreren naar Customer Journey Analytics
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Alvorens u om het even welke projecten aan Customer Journey Analytics zoals die in deze sectie worden beschreven migreert, leer meer over het migreren van projecten in [ voorbereidingen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics ](/help/admin/tools/component-migration/prepare-component-migration.md) te migreren.
 >
->**om het even welke afmetingen of metriek die u in kaart brengt zijn permanent, zowel voor dit project als voor alle toekomstige projecten die door uw volledige org worden gemigreerd IMS, ongeacht welke gebruiker de migratie uitvoert. Deze toewijzingen kunnen niet worden gewijzigd of ongedaan gemaakt behalve door de Zorg van de Klant te contacteren.**
+>**om het even welke afmetingen of metriek die u op dit project en op alle toekomstige projecten over uw volledige org toepast IMS, ongeacht welke gebruiker de migratie uitvoert. Deze toewijzingen kunnen worden bijgewerkt wanneer het migreren van toekomstige projecten.**
 
 1. In Adobe Analytics, selecteer het [!UICONTROL **Admin**] lusje, dan selecteren [!UICONTROL **Alle admin**].
 
 1. Onder [!UICONTROL **configuratie en inzameling van Gegevens**], uitgezochte [!UICONTROL **migratie van de Component**].
 
-1. Zoek het project dat u wilt migreren. U kunt de projectlijst filteren, sorteren of doorzoeken.
+1. Zoek elk project dat u wilt migreren. U kunt de projectlijst filteren, sorteren of doorzoeken.
 
    Door gebrek, slechts worden de projecten die met u worden gedeeld getoond. Om alle projecten in uw organisatie te bekijken, selecteer het **pictogram van de Filter**, dan breid [!UICONTROL **Andere filters**] uit en selecteer [!UICONTROL **tonen allen**]. (Voor meer informatie over het filtreren, het sorteren, en het zoeken van de projectlijst, zie [ Filter, soort, en onderzoek de lijst van projecten ](#filter-sort-and-search-the-list-of-projects).)
 
-1. De muis over het project dat u wilt migreren, dan selecteren **pictogram van de Migrate** ![ project migreren.](assets/migrate.svg)
+1. (Voorwaardelijk) om veelvoudige projecten in één keer te migreren, selecteer checkbox links van elk project dat u wilt migreren, dan selecteren [!UICONTROL **migreren aan Customer Journey Analytics**].
 
-   of
+   Overweeg het volgende wanneer het migreren van veelvoudige projecten:
 
-   Selecteer het project dat u wilt migreren, dan selecteren [!UICONTROL **migreren aan Customer Journey Analytics**].
+   * U kunt maximaal 20 projecten selecteren om tegelijk te migreren.
 
-   U kunt slechts één project tegelijk selecteren voor migratie.
+   * De migratiestatus moet gelijk zijn voor alle projecten die u migreert.
+
+     Als u bijvoorbeeld een project selecteert om te migreren met de migratiestatus **[!UICONTROL Not started]** , kunt u geen ander project met de migratiestatus **[!UICONTROL Failed]** selecteren.
+
+   * U moet de zelfde projecteigenaar voor alle projecten aanwijzen u migreert.
+
+   * De afmetingen en de metriek moeten aan de zelfde gegevensmening voor alle projecten worden in kaart gebracht u migreert.
 
    [!UICONTROL **Migreer project_name aan Customer Journey Analytics**] dialoogdoos wordt getoond.
 
    <!-- add screenshot -->
 
-1. Op het [!UICONTROL **bezit van het Project**] gebied, begin typend de naam van de gebruiker die u als eigenaar van het project in Customer Journey Analytics wilt plaatsen, dan hun naam in het drop-down menu selecteren.
+1. (Voorwaardelijk) om één enkel project, muis over het project te migreren dat u wilt migreren, dan selecteren **pictogram van de Migrate** ![ project ](assets/migrate.svg) migreren.
 
-   De eigenaar die u specificeert heeft volledige beheersrechten aan het project. De eigenaar moet een beheerder zijn in Customer Journey Analytics. U kunt de eigendom van het project in een latere stap wijzigen.
+   [!UICONTROL **Migreer project_name aan Customer Journey Analytics**] dialoogdoos wordt getoond.
+
+   <!-- add screenshot -->
+
+1. Op het [!UICONTROL **bezit van het Project**] gebied, begin typend de naam van de gebruiker die u als eigenaar van de projecten wilt plaatsen die in Customer Journey Analytics worden gemigreerd, dan hun naam in het drop-down menu.
+
+   De eigenaar die u opgeeft, heeft volledige beheerrechten voor de gemigreerde projecten. De eigenaar moet een beheerder zijn in Customer Journey Analytics. U kunt de eigendom van de projecten in een latere stap wijzigen.
 
 1. In het [!UICONTROL **schema van de Kaart voor rapportreeksen**] sectie, selecteer een rapportreeks.
 
-1. In het [!UICONTROL **drop-down menu van de mening van Gegevens**], selecteer de de gegevensmening van Customer Journey Analytics waar u het project en de componenten wilt worden gemigreerd.
+1. In het [!UICONTROL **drop-down menu van de mening van Gegevens**], selecteer de de gegevensmening van Customer Journey Analytics waar u de projecten en de componenten wilt worden gemigreerd.
+
+   Wanneer u veelvoudige projecten migreert, worden alle projecten u migreert gecombineerd in de enige afbeelding van de gegevensmening.
 
 1. Selecteer [!UICONTROL **schema van de Kaart**].
 
@@ -111,25 +125,25 @@ Bovendien doe een [ inventaris van Adobe Analytics ](/help/admin/tools/analytics
 
    ![ kaartdimensies en metriek ](assets/schema-manual-map-drop-down.png)
 
-   Nadat een afmeting of metrisch in kaart wordt gebracht, verdwijnt het waarschuwingspictogram en de [!UICONTROL **kolomveranderingen van de Status**] &lbrace;in kaart gebracht [!UICONTROL **&#x200B;**] met een groene punt. (Een status van [!UICONTROL **In kaart gebrachte**] met een grijze punt wijst erop dat de afmeting of metrisch tijdens een vorige migratie in kaart werd gebracht; om het even welke vorige afbeeldingen kunnen niet worden bijgewerkt.)
+   Nadat een afmeting of metrisch in kaart wordt gebracht, verdwijnt het waarschuwingspictogram en de [!UICONTROL **kolomveranderingen van de Status**] {in kaart gebracht [!UICONTROL ****] met een groene punt. (Een status van [!UICONTROL **In kaart gebrachte**] met een grijze punt wijst erop dat de afmeting of metrisch tijdens een vorige migratie in kaart werd gebracht; om het even welke vorige afbeeldingen kunnen niet worden bijgewerkt.)
 
    Herhaal dit proces voor elke afmeting of metrisch die het waarschuwingspictogram bevat.
 
    Nadat alle dimensies en metriek in de het rapportreeks van Adobe Analytics aan een afmeting of metrisch in de het rapportreeks van Customer Journey Analytics in kaart worden gebracht, verschijnt een groen vinkje ![ naast de naam van de rapportreeks in het ](assets/report-suite-check.png) schema van de Kaart voor de sectie van de rapportsuites [!UICONTROL **.**]
 
-1. (Voorwaardelijk) als het project u migreert meer dan één rapportreeks bevat, selecteer een andere rapportreeks in het [!UICONTROL **schema van de Kaart voor rapportreeksen**] sectie, dan herhaal stap 6 door Stap 10. <!-- double-check that the step numbers are still correct -->
+1. (Voorwaardelijk) als de projecten u migreert meer dan één rapportreeks bevatten, selecteer een andere rapportreeks in het [!UICONTROL **schema van de Kaart voor rapportreeksen**] sectie, dan herhaal stap 6 door Stap 10. <!-- double-check that the step numbers are still correct -->
 
 1. Selecteer [!UICONTROL **migreren**].
 
    >[!WARNING]
    >
-   >   Een het waarschuwingsbericht toont op scherm nadat u [!UICONTROL **selecteert Migreer**]. Alvorens u verkiest om verder te gaan, begrijp dat om het even welke dimensies of metriek u in kaart brengt, zowel voor dit project als voor alle toekomstige projecten die door uw volledige organisatie worden gemigreerd. Als u doorgaat, kunnen de toewijzingen die u maakt, niet worden gewijzigd.
+   >Een het waarschuwingsbericht toont op scherm nadat u [!UICONTROL **selecteert Migreer**]. Alvorens u verkiest om verder te gaan, begrijp dat om het even welke afmetingen of metriek u op dit project en op alle toekomstige projecten over uw volledige IMS org van toepassing is, ongeacht welke gebruiker de migratie uitvoert. Deze toewijzingen kunnen worden bijgewerkt tijdens het migreren van toekomstige projecten.
 
    Nadat een migratie voltooit, verstrekt de [!UICONTROL **status van de Migratie**] pagina een samenvatting van wat werd gemigreerd.
 
    Als de migratie ontbreekt, zie [ opnieuw een ontbroken migratie ](#retry-a-failed-migration) sectie hieronder voor meer informatie.
 
-1. (Optioneel) Nadat een project is gemigreerd, kunt u de eigendom van het project overdragen aan elke gebruiker in Customer Journey Analytics. Voor meer informatie, zie [ activa van de Overdracht ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in de Gids van Customer Journey Analytics.
+1. (Optioneel) Nadat projecten zijn gemigreerd, kunt u de eigendom van de projecten overdragen aan elke gebruiker in Customer Journey Analytics. Voor meer informatie, zie [ activa van de Overdracht ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in de Gids van Customer Journey Analytics.
 
 ## Een mislukte migratie opnieuw proberen
 
