@@ -125,7 +125,7 @@ Bovendien doe een [ inventaris van Adobe Analytics ](/help/admin/tools/analytics
 
    ![ kaartdimensies en metriek ](assets/schema-manual-map-drop-down.png)
 
-   Nadat een afmeting of metrisch in kaart wordt gebracht, verdwijnt het waarschuwingspictogram en de [!UICONTROL **kolomveranderingen van de Status**] {in kaart gebracht [!UICONTROL ****] met een groene punt. (Een status van [!UICONTROL **In kaart gebrachte**] met een grijze punt wijst erop dat de afmeting of metrisch tijdens een vorige migratie in kaart werd gebracht; om het even welke vorige afbeeldingen kunnen niet worden bijgewerkt.)
+   Nadat een afmeting of metrisch in kaart wordt gebracht, verdwijnt het waarschuwingspictogram en de [!UICONTROL **kolomveranderingen van de Status**] &lbrace;in kaart gebracht [!UICONTROL **&#x200B;**] met een groene punt. (Een status van [!UICONTROL **In kaart gebrachte**] met een grijze punt wijst erop dat de afmeting of metrisch tijdens een vorige migratie in kaart werd gebracht; om het even welke vorige afbeeldingen kunnen niet worden bijgewerkt.)
 
    Herhaal dit proces voor elke afmeting of metrisch die het waarschuwingspictogram bevat.
 
