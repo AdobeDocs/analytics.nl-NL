@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Handleiding exporteren
-user-guide-description: Meer informatie over het gebruik van gegevensfeeds en Data Warehouse om de uitvoer van gegevens op te halen.
+user-guide-description: Lees meer over het gebruik van datafeeds en datawarehouses om de uitvoer van gegevens op te halen.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 6%
 # Adobe Analytics Export Guide {#export}
 
 + [Handleiding voor exporteren van analysemogelijkheden](home.md)
-+ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Analytics-datafeed {#analytics-data-feed}
    + [Overzicht van gegevensinvoer](analytics-data-feed/data-feed-overview.md)
    + [Een gegevensfeed maken](analytics-data-feed/create-feed.md)
