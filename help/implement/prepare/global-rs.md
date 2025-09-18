@@ -58,4 +58,4 @@ Het proces om een bestaande implementatie over veelvoudige plaatsen naar één e
 >[!MORELIKETHIS]
 >
 >[ Bewegend van multi-suite het etiketteren aan een globale rapportreeks en virtuele rapportsuites ](../../components/vrs/vrs-considerations.md)
->>[Het vergelijken van rollups en globale rapportsuites ](../../admin/tools/manage-rs/rollup-report-suite.md)
+>&#x200B;>[Het vergelijken van rollups en globale rapportsuites ](../../admin/tools/manage-rs/rollup-report-suite.md)

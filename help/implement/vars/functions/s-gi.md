@@ -69,7 +69,7 @@ var s = s_gi("examplersid1,examplersid2");
 
 >[!CAUTION]
 >
->De volgende secties en voorbeelden bevatten complexe implementatieonderwerpen. Test uw implementatie grondig en volg belangrijke aanpassingen in het document van het de oplossingsontwerp van uw organisatie [ ](../../prepare/solution-design.md).
+>De volgende secties en voorbeelden bevatten complexe implementatieonderwerpen. Test uw implementatie grondig en volg belangrijke aanpassingen in het document van het de oplossingsontwerp van uw organisatie [&#128279;](../../prepare/solution-design.md).
 
 ## Meerdere implementaties beheren met verschillende trackingobjecten
 
