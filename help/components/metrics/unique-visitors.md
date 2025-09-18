@@ -3,22 +3,22 @@ title: Unieke bezoekers
 description: Het aantal unieke bezoeker-id's.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
 
 # Unieke bezoekers
 
-De &#39;Unieke bezoekers&#39; [metrisch](overview.md) toont het aantal bezoeker-id&#39;s voor het dimensie-item. Het is één van de gemeenschappelijkste metriek die bij het bepalen van verkeer wordt gebruikt, aangezien het een overzicht op hoog niveau van de populariteit van een afmetingspunt geeft. Een bezoeker kan bijvoorbeeld elke dag een maand naar uw site komen, maar hij telt nog steeds als één unieke bezoeker.
+De &quot;Unieke bezoekers&quot;[ metrische ](overview.md) toont het aantal bezoekersidentiteitskaarts voor het afmetingspunt. Het is één van de gemeenschappelijkste metriek die bij het bepalen van verkeer wordt gebruikt, aangezien het een overzicht op hoog niveau van de populariteit van een afmetingspunt geeft. Een bezoeker kan bijvoorbeeld elke dag een maand naar uw site komen, maar hij telt nog steeds als één unieke bezoeker.
 
-Als u [Apparaatanalyse](../cda/overview.md), wordt deze norm vervangen door de [Unieke apparaten](unique-devices.md) metrisch.
+Als u [ dwars-apparatenanalyses ](../cda/overview.md) gebruikt, wordt metrisch vervangen met [ Unieke apparaten ](unique-devices.md) metrisch.
 
 ## Dagelijkse, wekelijkse, maandelijkse, driemaandelijkse en jaarlijkse unieke bezoekers
 
-Analysis Workspace behandelt unieke bezoekers op basis van de granulariteit van het rapport. Als u bijvoorbeeld de opdracht [Dag](../dimensions/day.md) dimensie, zult u dagelijkse unieke bezoekers voor elk afmetingspunt zien. Nochtans, voor het rapporttotaal, wordt het gededupliceerde unieke bezoekers voor de de datumwaaier van de vrije lijst van de vorm.
+Analysis Workspace behandelt unieke bezoekers op basis van de granulariteit van het rapport. Bijvoorbeeld, als u de [ dimensie van de Dag ](../dimensions/day.md) gebruikt, zult u dagelijkse unieke bezoekers voor elk afmetingspunt zien. Nochtans, voor het rapporttotaal, wordt het gededupliceerde unieke bezoekers voor de de datumwaaier van de vrije lijst van de vorm.
 
 ## Hoe deze metrische waarde wordt berekend
 
@@ -26,15 +26,15 @@ Deze metrische waarde telt het aantal unieke bezoeker-id&#39;s voor een bepaald 
 
 | Volgorde gebruikt | Query-parameter (verzamelingsmethode) | presenteren als |
 | --- | --- | --- |
-| 1 | `vid` | De [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable is set. |
-| 2 | `aid` | Bezoeker heeft een bestaande [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie. Plaats op implementaties zonder of voorafgaand aan het uitvoeren van de dienst van identiteitskaart van de Bezoeker. |
-| 3 | `mid` | Bezoeker heeft een bestaande [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie. Instellen bij implementaties met de opdracht [Adobe Experience Cloud Identity-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL). |
-| 4 | `fid` | Bezoeker heeft een bestaande [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie, of als `aid` en `mid` kan om geen enkele reden worden ingesteld. |
+| 1 | `vid` | De variabele [`visitorID`](/help/implement/vars/config-vars/visitorid.md) wordt ingesteld. |
+| 2 | `aid` | Bezoeker heeft een bestaand [`s_vi` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Plaats op implementaties zonder of voorafgaand aan het uitvoeren van de dienst van identiteitskaart van de Bezoeker. |
+| 3 | `mid` | Bezoeker heeft een bestaand [`s_ecid` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Plaats op implementaties gebruikend de [ dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html). Adobe raadt aan de id-service waar mogelijk te gebruiken voor alle implementaties. |
+| 4 | `fid` | Bezoeker heeft een bestaande [`s_fid` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie, of als `aid` en `mid` om welke reden dan ook niet kunnen worden ingesteld. |
 | 5 | IP Adres, de Agent van de Gebruiker, IP van de Gateway Adres | Laatste middel om een unieke bezoeker te identificeren als de browser van de bezoeker geen cookies accepteert. |
 
 >[!NOTE]
 >
->Elke bezoeker-id van Analytics is gekoppeld aan een profiel op de servers van de Adobe. Deze bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
+>Elke Analytics-bezoeker-id is gekoppeld aan een profiel op Adobe-servers. Deze bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
 
 ## Gedrag dat van invloed is op het aantal unieke bezoekers
 
@@ -42,10 +42,10 @@ Unieke bezoekersidentificatoren worden doorgaans opgeslagen in een browsercookie
 
 * Wist de cache op elk gewenst moment
 * Opent een andere browser op dezelfde computer. Eén unieke bezoeker wordt per browser geteld.
-* Dezelfde persoon die op verschillende apparaten door uw site bladert. Een afzonderlijke unieke bezoeker wordt geteld per apparaat. U kunt [Apparaatanalyse](../cda/overview.md) om bezoekers te combineren met [Mensen](people.md) metrisch.
-* Hiermee opent u een Private Browsing-sessie (zoals het tabblad Incognito van Chrome).
+* Dezelfde persoon die op verschillende apparaten door uw site bladert. Een afzonderlijke unieke bezoeker wordt geteld per apparaat. U kunt [ dwars-apparatenanalyses ](../cda/overview.md) gebruiken om bezoekers samen te combineren gebruikend [ metrische Mensen ](people.md).
+* Hiermee opent u een Private Browsing-sessie (zoals het tabblad Chrome Incognito).
 
-Een nieuwe unieke bezoeker is *niet* geteld, zolang de cookie-id behouden blijft:
+Een nieuwe unieke bezoeker wordt *niet* geteld, zolang het koekjesherkenningsteken wordt bewaard:
 
 * Sluit hun browser voor een langere periode
 * Hiermee wordt de browser bijgewerkt naar de nieuwste versie

@@ -4,7 +4,7 @@ description: Verbeter de betrouwbaarheid van het vastleggen van aanvragen voor h
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Wanneer u [`t()`](t-method.md) of [`tl()`](tl-method.md) aanroept op een volgend
 
 >[!TIP]
 >
->De tijdstempel van gebufferde aanvragen wordt gedeeld met de pagina die de gegevens verzendt. Als u precies meer precisie wilt in de seconde een gebufferd verzoek wordt geregistreerd, kunt u de [`timestamp`](../page-vars/timestamp.md) paginariabele plaatsen alvorens het verzoek als buffer op te nemen. Als u deze variabele gebruikt, zorg ervoor dat [ facultatieve Tijdstempels ](/help/technotes/timestamps-optional.md) wordt toegelaten - als het niet is, worden alle timestamped hits permanent verloren!
+>De tijdstempel van gebufferde aanvragen wordt gedeeld met de pagina die de gegevens verzendt. Als u precies meer precisie wilt in de seconde een gebufferd verzoek wordt geregistreerd, kunt u de [`timestamp`](../page-vars/timestamp.md) paginariabele plaatsen alvorens het verzoek als buffer op te nemen. Als u deze variabele gebruikt, zorg ervoor dat [ facultatieve Tijdstempels ](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) wordt toegelaten - als het niet is, worden alle timestamped hits permanent verloren!
 
 ## Beperkingen
 

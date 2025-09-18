@@ -4,9 +4,9 @@ title: Data Privacy-labels voor Analytics-variabelen
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '3725'
+source-wordcount: '3723'
 ht-degree: 57%
 
 ---
@@ -80,7 +80,7 @@ Een label Verwijderen is alleen vereist voor velden die een waarde bevatten waar
 
 | Label | Definitie | Overige vereisten |
 | --- | --- | --- |
-| Geen | Deze variabele bevat geen id die wordt gebruikt voor Data Privacy-aanvragen. | U moet één van deze andere etiketten plaatsen slechts als dit gebied een identiteitskaart bevat die u wanneer het voorleggen van toegang of schrappingsverzoeken door [ Privacy Service API ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=nl-NL) of UI zult gebruiken. |
+| Geen | Deze variabele bevat geen id die wordt gebruikt voor Data Privacy-aanvragen. | U moet één van deze andere etiketten plaatsen slechts als dit gebied een identiteitskaart bevat die u wanneer het voorleggen van toegang of schrappingsverzoeken door [ Privacy Service API ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) of UI zult gebruiken. |
 | ID-DEVICE | Dit veld bevat een id die kan worden gebruikt om een apparaat te identificeren voor een privacyaanvraag voor gegevens, maar die geen onderscheid kan maken tussen verschillende gebruikers van een gedeeld apparaat.  U hoeft dit label niet te specificeren voor alle variabelen die id&#39;s bevatten (daar zijn de I1/I2-labels voor). Gebruik dit label als u Data Privacy-aanvragen verzendt met id&#39;s die in deze variabele zijn opgeslagen, en u deze variabele wilt doorzoeken naar de opgegeven id. | Vereist ook I1 of I2 etiket.<ul><li>Kan niet worden ingesteld voor gebeurtenissen</li><li>Kan niet worden ingesteld voor merchandising-eVars</li><li>Kan worden ingesteld voor classificaties</li></ul> |
 | ID-PERSON | Dit veld bevat een id die kan worden gebruikt om een geverifieerde gebruiker (een specifieke persoon) te identificeren voor een privacyverzoek.  U hoeft dit label niet te specificeren voor alle variabelen die id&#39;s bevatten (daar zijn de I1/I2-labels voor). Gebruik dit label als u Data Privacy-aanvragen gaat verzenden met id&#39;s die in deze variabele zijn opgeslagen, en u deze variabele wilt doorzoeken naar de opgegeven id. | <ul><li>Vereist ook I1 of I2 etiket.</li><li>Kan niet worden ingesteld voor gebeurtenissen</li><li>Kan niet worden ingesteld voor merchandising-eVars</li><li>Kan worden ingesteld voor classificaties</li></ul> |
 
@@ -128,7 +128,7 @@ Een ander voorbeeld: u hebt misschien een CRM-id die soms wordt ingezonden via e
 
 >[!CAUTION]
 >
->De naamruimten &quot;bezoekerId&quot; en &quot;customVisitorId&quot; zijn gereserveerd voor het identificeren van het verouderde cookie voor bijhouden van analysemogelijkheden en de bezoeker-id van de Analytics-klant. Gebruik deze naamruimten niet voor variabelen voor aangepaste traffic of conversie.
+>De naamruimten `visitorId` en `customVisitorId` zijn gereserveerd voor het identificeren van de oude cookie voor bijhouden van analysemogelijkheden en de bezoeker-id van de Analyse-klant. Gebruik deze naamruimten niet voor variabelen voor aangepaste traffic of conversie.
 
 ## Typen variabelen en de labels voor gegevensprivacy die ze ondersteunen {#variable-types}
 

@@ -4,9 +4,9 @@ title: Veelgestelde vragen over gegevensbeheer
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2040'
 ht-degree: 38%
 
 ---
@@ -63,7 +63,7 @@ Toch zijn er een paar manieren dat u uw verwerking van de Privacy van Gegevens k
 
 * Een optie is om een afzonderlijke Experience Cloud-organisatie in te stellen die alleen testrapportsuites bevat. Gebruik vervolgens deze Experience Cloud-organisatie voor uw Data Privacy-tests en uw normale Experience Cloud-organisatie voor daadwerkelijke Data Privacy-verwerking.
 
-* Een andere optie is verschillende naamruimten toe te wijzen aan de id&#39;s in uw testreeks van het testrapport, in tegenstelling tot de naamruimten in uw productierapporten. U kunt bijvoorbeeld voor elke naamruimte een voorvoegsel “qa-” opgeven in uw testrapportsuites. Wanneer u Data Privacy-aanvragen verzendt met uitsluitend naamruimten met het qa-voorvoegsel, worden deze aanvragen alleen uitgevoerd op uw testrapportsuites. Later, wanneer u aanvragen verzendt zonder het qa-voorvoegsel, worden ze toegepast op uw productierapportsuites. **dit is de geadviseerde benadering, tenzij u bezoekerId, STEUN, ECID of customVisitorId namespaces gebruikt. Deze namespaces zijn hard - gecodeerd en u kunt geen afwisselende namen voor hen in uw reeksen van het testrapport specificeren.**
+* Een andere optie is verschillende naamruimten toe te wijzen aan de id&#39;s in uw testreeks van het testrapport, in tegenstelling tot de naamruimten in uw productierapporten. U kunt bijvoorbeeld voor elke naamruimte een voorvoegsel “qa-” opgeven in uw testrapportsuites. Wanneer u Data Privacy-aanvragen verzendt met uitsluitend naamruimten met het qa-voorvoegsel, worden deze aanvragen alleen uitgevoerd op uw testrapportsuites. Later, wanneer u aanvragen verzendt zonder het qa-voorvoegsel, worden ze toegepast op uw productierapportsuites. **dit is de geadviseerde benadering, tenzij u `visitorId`, STEUN, ECID of `customVisitorId` namespaces gebruikt. Deze namespaces zijn hard - gecodeerd en u kunt geen afwisselende namen voor hen in uw reeksen van het testrapport specificeren.**
 
 +++
 

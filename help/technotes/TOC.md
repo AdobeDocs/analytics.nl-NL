@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Blader naar een kennisbasis met nuttige artikelen die niet bij een bepaalde Analytics-tool of component horen.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 16%
+source-wordcount: '204'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 # Technische notities voor Analytics {#technotes}
 
 + [Technische notities voor Analytics](home.md)
-+ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Adobe Analytics voor Google Analytics-gebruikers {#ga-to-aa}
    + [Hulp voor Adobe Analytics for Google Analytics-gebruikers](ga-to-aa/home.md)
    + [Accounts en report suites](ga-to-aa/accounts.md)
@@ -62,7 +62,6 @@ ht-degree: 16%
 + [Omleiding en aliassen](redirects.md)
 + [Beveiligingsbronnen](security.md)
 + [Gebruikte termen (verklarende woordenlijst)](terms.md)
-+ [Tijdstempels optioneel](timestamps-optional.md)
 + [Problemen met aanmelden oplossen](troubleshoot-login.md)
 + [Problemen oplossen bij het afmelden](troubleshoot-sessions.md)
 + [Niet opgegeven, andere en onbekend](unspecified.md)

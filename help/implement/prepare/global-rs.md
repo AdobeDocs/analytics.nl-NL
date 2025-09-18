@@ -4,9 +4,9 @@ description: Begrijp de voordelen en de vereisten aan het gebruiken van een glob
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,8 @@ Gebruik de volgende algemene richtlijnen om inzicht te krijgen in het proces van
    >
    >Zorg ervoor dat om het even welke bepaalde douanevariabele gelijkaardig over domeinen wordt gebruikt. Gebruik niet dezelfde eVar of gebeurtenis voor verschillende doeleinden op uw sites.
 1. Zorg ervoor dat elk domein een gegevenslaag heeft om gegevensinzameling te vereenvoudigen. Gegevens kunnen nog steeds zonder een gegevenslaag worden verzameld, maar de betrouwbaarheid en de levensduur van uw implementatie nemen af, vooral wanneer uw site opnieuw ontwerpen doorloopt.
-1. Gebruik labels in Adobe Experience Platform om Analytics te implementeren. De verschillende plaatsen zullen waarschijnlijk verschillende gegevenselementen vereisen. De regels van het gebruik specifiek voor elk domein om ervoor te zorgen elk gegevenselement correct bevolkt is, dan wijs die gegevenselementen aan hun respectieve eVars en gebeurtenissen toe. Verwijs naar het [ overzicht van markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL).
-1. Omvat de [ Dienst van identiteitskaart van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) en gebruik [ appendVisitorIDsTo ](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=nl-NL) functie. Deze functie voegt bezoekersgegevens samen wanneer de gebruikers van één domein aan een ander klikken.
+1. Gebruik labels in Adobe Experience Platform om Analytics te implementeren. De verschillende plaatsen zullen waarschijnlijk verschillende gegevenselementen vereisen. De regels van het gebruik specifiek voor elk domein om ervoor te zorgen elk gegevenselement correct bevolkt is, dan wijs die gegevenselementen aan hun respectieve eVars en gebeurtenissen toe. Verwijs naar het [ overzicht van markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+1. Omvat de [ Dienst van identiteitskaart van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html) en gebruik de [`appendVisitorIDsTo` ](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) functie. Deze functie voegt bezoekersgegevens samen wanneer de gebruikers van één domein aan een ander klikken.
 
 ## Een bestaande implementatie aanpassen met een algemene rapportsuite
 
@@ -55,7 +55,7 @@ Het proces om een bestaande implementatie over veelvoudige plaatsen naar één e
 3. Voer de bovenstaande stappen uit (maak een rapportsuite, verzamel rapportagevereisten in een document voor het ontwerp van de oplossing en stel een gegevenslaag op elke site in). Wanneer u tags implementeert in Adobe Experience Platform, valideert u uw implementatie met een ontwikkelingsversie van uw website.
 4. Zodra u hebt bevestigd dat uw implementatie aan dev werkt, druk uw implementatie van markeringen live op de cutooverdatum.
 
-## Gerelateerde pagina&#39;s
-
-[ Bewegend van multi-suite het etiketteren aan een globale rapportreeks en virtuele rapportsuites ](../../components/vrs/vrs-considerations.md)
-[ Vergelijkend rollups en globale rapportsuites ](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[!MORELIKETHIS]
+>
+>[ Bewegend van multi-suite het etiketteren aan een globale rapportreeks en virtuele rapportsuites ](../../components/vrs/vrs-considerations.md)
+>>[Het vergelijken van rollups en globale rapportsuites ](../../admin/tools/manage-rs/rollup-report-suite.md)
