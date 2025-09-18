@@ -15,7 +15,7 @@ ht-degree: 17%
 # Technische notities voor Analytics {#technotes}
 
 + [Technische notities voor Analytics](home.md)
-+ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
 + Adobe Analytics voor Google Analytics-gebruikers {#ga-to-aa}
    + [Hulp voor Adobe Analytics for Google Analytics-gebruikers](ga-to-aa/home.md)
    + [Accounts en report suites](ga-to-aa/accounts.md)

@@ -27,9 +27,9 @@ Deze metrische waarde telt het aantal unieke bezoeker-id&#39;s voor een bepaald 
 | Volgorde gebruikt | Query-parameter (verzamelingsmethode) | presenteren als |
 | --- | --- | --- |
 | 1 | `vid` | De variabele [`visitorID`](/help/implement/vars/config-vars/visitorid.md) wordt ingesteld. |
-| 2 | `aid` | Bezoeker heeft een bestaand [`s_vi` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Plaats op implementaties zonder of voorafgaand aan het uitvoeren van de dienst van identiteitskaart van de Bezoeker. |
-| 3 | `mid` | Bezoeker heeft een bestaand [`s_ecid` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Plaats op implementaties gebruikend de [ dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html). Adobe raadt aan de id-service waar mogelijk te gebruiken voor alle implementaties. |
-| 4 | `fid` | Bezoeker heeft een bestaande [`s_fid` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie, of als `aid` en `mid` om welke reden dan ook niet kunnen worden ingesteld. |
+| 2 | `aid` | Bezoeker heeft een bestaand [`s_vi` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie. Plaats op implementaties zonder of voorafgaand aan het uitvoeren van de dienst van identiteitskaart van de Bezoeker. |
+| 3 | `mid` | Bezoeker heeft een bestaand [`s_ecid` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie. Plaats op implementaties gebruikend de [ dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL). Adobe raadt aan de id-service waar mogelijk te gebruiken voor alle implementaties. |
+| 4 | `fid` | Bezoeker heeft een bestaande [`s_fid` ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie, of als `aid` en `mid` om welke reden dan ook niet kunnen worden ingesteld. |
 | 5 | IP Adres, de Agent van de Gebruiker, IP van de Gateway Adres | Laatste middel om een unieke bezoeker te identificeren als de browser van de bezoeker geen cookies accepteert. |
 
 >[!NOTE]

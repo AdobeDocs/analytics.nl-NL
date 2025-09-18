@@ -19,6 +19,6 @@ ht-degree: 0%
 
 De variabele `trackingServer` bepaalt het domein dat AppMeasurement gebruikt om gegevens via HTTP naar Adobe te verzenden. Als deze variabele niet correct wordt gedefinieerd, kan uw implementatie gegevensverlies ervaren.
 
-Vóór de [ Dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/id-service/using/home), bepaalde deze variabele ook waar de derdekoekjes werden geplaatst. Adobe raadt ten zeerste aan de id-service waar mogelijk in alle implementaties te gebruiken.
+Vóór de [ Dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/id-service/using/home), bepaalde deze variabele ook waar de derdekoekjes werden geplaatst. Adobe raadt ten zeerste aan de id-service waar mogelijk in alle implementaties te gebruiken.
 
 AppMeasurement gebruikt `trackingServer` als fallback als [`trackingServerSecure`](trackingserversecure.md) niet is ingesteld. Veel oudere implementaties stellen `trackingServerSecure` niet in en gebruiken `trackingServer` als fallback op beveiligde pagina&#39;s. Met de prevalentie van HTTPS raadt Adobe aan `trackingServerSecure` waar mogelijk te gebruiken.

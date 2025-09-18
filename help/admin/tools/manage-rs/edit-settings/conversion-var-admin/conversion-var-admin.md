@@ -20,7 +20,7 @@ De Custom Insight-conversievariabele (of eVar) wordt in de Adobe-code op geselec
 
 ## Overzicht van conversievariabelen (eVars)
 
-Voor een videooverzicht van omzettingsvariabelen, zie [ Inleiding aan omzettingsvariabelen ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) in de gids van de zelfstudies van Analytics.
+Voor een videooverzicht van omzettingsvariabelen, zie [ Inleiding aan omzettingsvariabelen ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) in de gids van de zelfstudies van Analytics.
 
 Wanneer een eVar is ingesteld op een waarde voor een bezoeker, onthoudt Adobe die waarde automatisch tot deze is verlopen. Eventuele succesgebeurtenissen die een bezoeker tegenkomt terwijl de eVar-waarde actief is, worden geteld bij de eVar-waarde.
 

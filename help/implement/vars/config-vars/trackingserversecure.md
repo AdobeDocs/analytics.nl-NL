@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De variabele `trackingServerSecure` bepaalt het domein dat AppMeasurement gebruikt om gegevens via HTTPS naar Adobe te verzenden. Als deze variabele niet correct wordt gedefinieerd, kan uw implementatie gegevensverlies ervaren.
 
-Vóór de [ Dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/id-service/using/home), bepaalde deze variabele ook waar de derdekoekjes werden geplaatst. Adobe raadt ten zeerste aan de id-service waar mogelijk in alle implementaties te gebruiken.
+Vóór de [ Dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/id-service/using/home), bepaalde deze variabele ook waar de derdekoekjes werden geplaatst. Adobe raadt ten zeerste aan de id-service waar mogelijk in alle implementaties te gebruiken.
 
 ## Edge-domein met de extensie Web SDK
 
@@ -26,7 +26,7 @@ Het Web SDK gebruikt [!UICONTROL Edge domain] om zowel de het Volgen Server als 
 1. Ga naar de tab [!UICONTROL Extensions] en selecteer vervolgens de knop **[!UICONTROL Configure]** onder [!UICONTROL Adobe Experience Platform Web SDK] .
 1. Stel het gewenste tekstveld in **[!UICONTROL Edge domain]** .
 
-Zie [ de uitbreiding van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) in de documentatie van SDK van het Web voor meer informatie vormen.
+Zie [ de uitbreiding van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=nl-NL) in de documentatie van SDK van het Web voor meer informatie vormen.
 
 >[!TIP]
 >
@@ -34,7 +34,7 @@ Zie [ de uitbreiding van SDK van het Web van Adobe Experience Platform ](https:/
 
 ## Edge-domein handmatig implementeren van de Web SDK
 
-Vorm SDK gebruikend [`edgeDomain` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain). Het veld is een tekenreeks die het domein bepaalt waarnaar gegevens moeten worden verzonden.
+Vorm SDK gebruikend [`edgeDomain` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/edgedomain). Het veld is een tekenreeks die het domein bepaalt waarnaar gegevens moeten worden verzonden.
 
 ```json
 alloy("configure", {
@@ -69,8 +69,8 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 De waarde die u gebruikt voor `trackingServerSecure` (of `edgeDomain` ), is afhankelijk van verschillende factoren:
 
-* Uw deelname aan het [ Adobe-Beheerde certificaatprogramma ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
-* Als u de [ uitgevoerde dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/id-service/using/home) en correct opstelling hebt
+* Uw deelname aan het [ Adobe-Beheerde certificaatprogramma ](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/adobe-managed-cert)
+* Als u de [ uitgevoerde dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/id-service/using/home) en correct opstelling hebt
 
 **als uw organisatie aan het Adobe-Beheerde certificaatprogramma** deelneemt, plaats de waarde aan het eerste partijdomein dat toen vestiging het certificaat werd geselecteerd. Deze waarde is doorgaans een subdomein dat eigendom is van uw organisatie. Bijvoorbeeld `data.example.com` . CNAME-records in uw organisatie leiden die gegevens om naar Adobe.
 
@@ -92,10 +92,10 @@ Adobe adviseert hoogst het handhaven van deze informatie in het document van het
 
 ## Ramingen voor het niet gebruiken van de dienst van identiteitskaart van de Bezoeker
 
-Adobe adviseert sterk gebruikend de [ dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/id-service/using/home) in alle implementaties. De id-service kan op verschillende manieren worden geïmplementeerd:
+Adobe adviseert sterk gebruikend de [ dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/id-service/using/home) in alle implementaties. De id-service kan op verschillende manieren worden geïmplementeerd:
 
-* Handmatige AppMeasurement-implementaties gebruiken `VisitorAPI.js` en roepen de methode `getInstance` aan. Zie [ de Dienst van de Identiteit van Experience Cloud voor Analytics ](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics) voor meer informatie uitvoeren.
-* De uitvoeringen die de de markeringsuitbreiding gebruiken van Adobe Analytics gebruiken de [ de dienstmarkeringsuitbreiding van identiteitskaart van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview). Zodra toegevoegd, wordt geen extra configuratie vereist.
+* Handmatige AppMeasurement-implementaties gebruiken `VisitorAPI.js` en roepen de methode `getInstance` aan. Zie [ de Dienst van de Identiteit van Experience Cloud voor Analytics ](https://experienceleague.adobe.com/nl/docs/id-service/using/implementation/setup-analytics) voor meer informatie uitvoeren.
+* De uitvoeringen die de de markeringsuitbreiding gebruiken van Adobe Analytics gebruiken de [ de dienstmarkeringsuitbreiding van identiteitskaart van Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/id-service/overview). Zodra toegevoegd, wordt geen extra configuratie vereist.
 * Implementaties die om het even welke vorm van het Web SDK (`alloy.js` of de de markeringsuitbreiding van SDK van het Web) gebruiken hebben reeds de dienst van identiteitskaart binnen wordt gebakken. Er is geen configuratie vereist behalve het instellen van de waarde `edgeDomain` .
 
 **als uw implementatie niet de identiteitsdienst** gebruikt, overweeg de volgende gevolgen aan uw implementatie:
