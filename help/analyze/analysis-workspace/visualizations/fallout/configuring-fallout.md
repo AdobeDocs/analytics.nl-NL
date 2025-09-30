@@ -4,9 +4,9 @@ title: Een Fallout Visualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 75c1585f88d9d3adcf66632c52cecf2a97fa2632
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ U kunt op afmetingen, metriek, en segmenten schilderen. Stel dat iemand bijvoorb
    >
    >De veelvoudige segmenten worden aangesloten bij EN, maar de veelvoudige punten zoals afmetingspunten en metriek worden aangesloten bij OF.
 
-   ![ de Pagina:CamerRoll of Pagina: Gemarkeerde de aanrakingspunten van de Camera.](assets/fallout-or.png)
+   ![ de Pagina :CamerRoll of Pagina: Gemarkeerde de aanrakingspunten van de Camera.](assets/fallout-or.png)
 
 1. U kunt **individuele touchpoints aan de volgende gebeurtenis** (in tegenstelling tot *uiteindelijk*) binnen de weg ook beperken. Onder elk aanraakpunt bevindt zich een kiezer met de opties **[!UICONTROL Eventual path]** en **[!UICONTROL Next event]** , zoals u hier ziet:
 
@@ -50,8 +50,8 @@ U kunt op afmetingen, metriek, en segmenten schilderen. Stel dat iemand bijvoorb
 
    | Optie | Beschrijving |
    |---|---|
-   | **[!UICONTROL Eventual path]** (standaardwaarde) | De personen worden geteld dat *uiteindelijk* op de volgende pagina in de weg zal landen, maar niet noodzakelijk op de volgende gebeurtenis. |
-   | **[!UICONTROL Next event]** | die op de volgende pagina op het pad zal komen te liggen, helemaal bij de volgende gebeurtenis. |
+   | **[!UICONTROL Eventual path]** (standaardwaarde) | Bezoekers worden geteld dat *uiteindelijk* op de volgende pagina in de weg, maar niet noodzakelijk op de volgende gebeurtenis zal landen. |
+   | **[!UICONTROL Next event]** | Bezoekers worden geteld die op de volgende pagina op het pad landen bij de volgende gebeurtenis. |
 
 
 ## Instellingen
@@ -74,14 +74,14 @@ Als onderdeel van de visualisatie zijn specifieke opties voor contextmenu&#39;s 
 | **[!UICONTROL Trend touchpoint]** | Zie trendgegevens voor een aanraakpunt in een lijngrafiek, met sommige vooraf gebouwde anomaliedetectiegegevens. |
 | **[!UICONTROL Trend touchpoint (%)]** | Hiermee wordt het totale uitvalpercentage verhoogd. |
 | **[!UICONTROL Trend all touchpoints (%)]** | Hiermee worden alle aanraakpuntpercentages in de fallout (behalve **[!UICONTROL All People]** als deze is opgenomen) in hetzelfde diagram gekweekt. |
-| **[!UICONTROL Break down fallthrough at this touchpoint]** | Bekijk wat personen deden tussen twee aanraakpunten (dit aanraakpunt en het volgende aanraakpunt) als ze doorgingen naar het volgende aanraakpunt. Hiermee maakt u een vrije-vormtabel waarin de afmetingen worden weergegeven. U kunt afmetingen en andere elementen van de tabel vervangen. |
-| **[!UICONTROL Break down fallout at this touchpoint]** | Bekijk wat mensen die het niet door de trechter maakten onmiddellijk na de geselecteerde stap deden. |
+| **[!UICONTROL Break down fallthrough at this touchpoint]** | Bekijk wat bezoekers deden tussen twee aanraakpunten (dit aanraakpunt en het volgende aanraakpunt) als ze doorgingen naar het volgende aanraakpunt. Hiermee maakt u een vrije-vormtabel waarin de afmetingen worden weergegeven. U kunt afmetingen en andere elementen van de tabel vervangen. Bijvoorbeeld, een lijst die **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** wordt geëtiketteerd en **[!UICONTROL Page]** als afmeting en **[!UICONTROL Unique Visitors]** bevat die door het [ project-slechts snelle segment ](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** als metrisch wordt gesegmenteerd. Inspecteer het segment om te begrijpen hoe het reservesegment wordt bepaald. |
+| **[!UICONTROL Break down fallout at this touchpoint]** | Bekijk wat bezoekers die dit niet via de funnel deden, direct na de geselecteerde stap deden. Hiermee maakt u een vrije-vormtabel waarin de afmetingen worden weergegeven. U kunt afmetingen en andere elementen van de tabel vervangen. Bijvoorbeeld, een lijst die **[!UICONTROL Fallout: All Visitors > Page equals any of home]** wordt geëtiketteerd en **[!UICONTROL Page]** als dimensie en **[!UICONTROL Unique Visitors]** bevat die door het [ project-enige snelle segment ](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** segment als metrisch wordt gesegmenteerd. Inspecteer het segment om te begrijpen hoe het reservesegment wordt bepaald. |
 | **[!UICONTROL Create segment from touchpoint]** | Maak een nieuw segment van het geselecteerde aanraakpunt. |
 
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
