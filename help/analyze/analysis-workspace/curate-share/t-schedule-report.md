@@ -5,18 +5,22 @@ title: Projecten verzenden en plannen
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '374'
 ht-degree: 1%
 
 ---
 
 # Projecten verzenden en plannen
 
-U kunt Adobe Analytics-projecten als bestanden via e-mail naar geselecteerde gebruikers verzenden. U kunt bestanden ad hoc verzenden of u kunt bestanden configureren voor verzending volgens een schema. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
+U kunt Adobe Analytics-projecten als bestanden via e-mail naar geselecteerde gebruikers verzenden. U kunt bestanden ad hoc verzenden of u kunt bestanden configureren voor verzending volgens een schema.
 
-Alle tags die op het project zijn toegepast, worden automatisch toegepast op het exporteren.
+Houd rekening met het volgende wanneer u bestanden verzendt:
+
+* Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
+
+* Alle tags die op het project zijn toegepast, worden automatisch toegepast op het exporteren.
 
 Andere methodes om de gegevens van Adobe Analytics uit te voeren zijn ook beschikbaar, zoals die in [ wordt beschreven Overzicht van de Uitvoer ](/help/export/home.md).
 
@@ -38,7 +42,7 @@ Een bestand ad-hoc naar ontvangers verzenden via e-mail:
 
 ## Bestanden exporteren plannen {#schedule}
 
-Een bestand volgens een schema per e-mail naar ontvangers verzenden
+Een bestand volgens een schema per e-mail naar ontvangers verzenden:
 
 1. Selecteer **[!UICONTROL Share]>[!UICONTROL Schedule file export]** .
 1. Geef het bestandstype op:
