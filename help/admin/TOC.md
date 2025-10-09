@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 35675c2e65456a175d1516dd421b80d2af809286
+source-git-commit: 77795002cc4a360ed8aad8e1fe4882f1fe16f6ae
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '491'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 11%
 # Adobe Analytics Admin Guide {#admin}
 
 + [Handleiding Analysebeheer](home.md)
-+ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Adobe-beheerconsole {#admin-console}
    + [Overzicht](admin-console/home.md)
    + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
@@ -160,6 +160,4 @@ ht-degree: 11%
          + [Analytische gebruikersaccounts migreren voor bedrijfs- en federatieve id&#39;s](tools/user-management/user-migration/migrate-enterprise.md)
          + [Verouderde logins uitschakelen](tools/user-management/user-migration/t-disable-legacy-login.md)
          + [API&#39;s die door de migratie worden beïnvloed](tools/user-management/user-migration/developer.md)
-+ [Admin-API](c-admin-api/c-admin-api.md)
-+ [Adobe Analytics 1.4 API EOL - Veelgestelde vragen](c-admin-api/c-admin-14-api-eol.md)
-
++ [Admin-API](https://developer.adobe.com/analytics-apis/docs/2.0/)
