@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # collectHighEntropyUserAgentHints
 
-Hoog-entropy cliëntwenken worden gebruikt door Adobe Analytics om apparaat en browser identificatie te verbeteren. Deze optie is beschikbaar vanaf versie 2.23.0 van AppMeasurement.js. Lees meer over cliëntwenken in [ dit overzicht en FAQ ](/help/technotes/client-hints.md) evenals [ Google blog ](https://web.dev/user-agent-client-hints/).
+Hoog-entropy cliëntwenken worden gebruikt door Adobe Analytics om apparaat en browser identificatie te verbeteren. Deze optie is beschikbaar vanaf versie 2.23.0 van AppMeasurement.js. Lees meer over cliëntwenken in [&#x200B; dit overzicht en FAQ &#x200B;](/help/technotes/client-hints.md) evenals [&#x200B; Google blog &#x200B;](https://web.dev/user-agent-client-hints/).
 
 ## Tips voor hoge entropie verzamelen met de Web SDK
 
-Hoog-entropy cliëntwenken maken deel uit van de contextcategorieën in Web SDK. Zie [ SDK van het Web van het Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) voor meer details vormen.
+Hoog-entropy cliëntwenken maken deel uit van de contextcategorieën in Web SDK. Zie [&#x200B; SDK van het Web van het Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) voor meer details vormen.
 
 ## Hoog-entropiewenken verzamelen met de Uitbreiding van Adobe Analytics
 
 **[!UICONTROL Collect high-entropy user-agent hints]** is een selectievakje onder de algemene accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/#/@adobepm/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/#/@adobepm/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op het gewenste [!UICONTROL tag property] .
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op [!UICONTROL Configure] onder Adobe Analytics.
 1. Vouw de accordeon [!UICONTROL General] uit, zodat het selectievakje [!UICONTROL Collect high entropy user-agent hints] zichtbaar wordt. Deze optie is standaard uitgeschakeld.

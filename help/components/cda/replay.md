@@ -22,7 +22,7 @@ Analytics voor verschillende apparaten maakt twee gegevenscontroles in een virtu
 
 ## Voorbeeldtabel
 
-De volgende lijsten illustreren hoe zowel CDA methodes ([ op gebied-gebaseerde het stitching ](field-based-stitching.md) en [ grafiek van het Apparaat ](device-graph.md)) het aantal unieke mensen berekenen:
+De volgende lijsten illustreren hoe zowel CDA methodes ([&#x200B; op gebied-gebaseerde het stitching &#x200B;](field-based-stitching.md) en [&#x200B; grafiek van het Apparaat &#x200B;](device-graph.md)) het aantal unieke mensen berekenen:
 
 ### Levend stitching
 

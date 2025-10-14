@@ -24,14 +24,14 @@ Offlinemodus inschakelen
 
 1. Klik op **[!UICONTROL Options]** in het menu Report Builder.
 
-   ![ Schermafbeelding van het scherm van Opties met offline geselecteerde code.](assets/offline_mode.png)
+   ![&#x200B; Schermafbeelding van het scherm van Opties met offline geselecteerde code.](assets/offline_mode.png)
 
 1. Schakel het selectievakje naast **[!UICONTROL Turn on offline mode for creating and editing requests]** in.
 1. Voer in het veld **[!UICONTROL Display Metric Data as]** de plaatsaanduidingsgegevens in die u in uw aanvraag wilt retourneren. Voer bijvoorbeeld &quot;1&quot; in.
 1. Klik op **[!UICONTROL OK]**.
 1. Creeer en stel uw verzoek op off-line wijze in werking gebruikend de Tovenaar van het Verzoek. In de volgende schermafbeelding ziet u een voorbeeld van een aanvraag met &quot;1&quot; als plaatsaanduidingsgegevens.
 
-   ![ Schermafbeelding die het off-line wijzevoorbeeld toont gebruikend 1 als placeholder.](assets/offline_mode_example.png)
+   ![&#x200B; Schermafbeelding die het off-line wijzevoorbeeld toont gebruikend 1 als placeholder.](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >

@@ -18,6 +18,6 @@ ht-degree: 0%
 
 U kunt filters of andere parameters in Report Builder bewaren en hen in andere aantekenvellen of werkboeken gebruiken. Deze parameters worden opgeslagen op Analytics om ervoor te zorgen dat ze beschikbaar zijn voor andere Report Builder-gebruikers op andere computers.
 
-U slaat filters op het [!UICONTROL Choose Page] -formulier op terwijl u een filter maakt. Voor een voorbeeld van deze procedure, zie [ Specifieke Filters ](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md).
+U slaat filters op het [!UICONTROL Choose Page] -formulier op terwijl u een filter maakt. Voor een voorbeeld van deze procedure, zie [&#x200B; Specifieke Filters &#x200B;](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 
-![ Schermafbeelding van de Choose vorm van de Pagina en opties voor de meeste Populaire, Specifieke, en Bewaarde pagina&#39;s van Filters.](assets/choose_page_saved.png)
+![&#x200B; Schermafbeelding van de Choose vorm van de Pagina en opties voor de meeste Populaire, Specifieke, en Bewaarde pagina&#39;s van Filters.](assets/choose_page_saved.png)

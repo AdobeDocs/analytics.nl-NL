@@ -16,26 +16,26 @@ Op andere platforms, zoals Google Analytics, delen veel rapporten een gemeenscha
 
 Als u meerdere metriek wilt toevoegen aan een tabel in vrije vorm voor een werkruimte, sleept u de metrische waarde uit het gebied met componenten naast de metrische koptekst in de werkruimte:
 
-![ Extra metrisch ](/help/technotes/ga-to-aa/assets/new_metric.png)
+![&#x200B; Extra metrisch &#x200B;](/help/technotes/ga-to-aa/assets/new_metric.png)
 
 ## Verwervingsgegevens
 
-**Gebruikers** is ongeveer gelijk aan **Unieke Bezoekers** in Workspace. Zie [ Unieke bezoekers ](/help/components/metrics/unique-visitors.md) metrisch in de gebruikersgids van Componenten voor extra details.
+**Gebruikers** is ongeveer gelijk aan **Unieke Bezoekers** in Workspace. Zie [&#x200B; Unieke bezoekers &#x200B;](/help/components/metrics/unique-visitors.md) metrisch in de gebruikersgids van Componenten voor extra details.
 
 **de Nieuwe Gebruikers** kunnen door het volgende worden verkregen:
 
 1. Sleep **Unieke bezoekers** metrisch op de werkruimte.
 2. Sleep het **Eerste segment van Bezoek** boven de Unieke metrische kopballen van Bezoekers:
 
-   ![ Eerste bezoeken van de Tijd ](../assets/first_time_visits.png)
+   ![&#x200B; Eerste bezoeken van de Tijd &#x200B;](../assets/first_time_visits.png)
 
-**Sessies** is ongeveer gelijk aan **bezoeken** in Analysis Workspace. Zie [ bezoeken ](/help/components/metrics/visits.md) metrisch in de gebruikersgids van Componenten voor extra details.
+**Sessies** is ongeveer gelijk aan **bezoeken** in Analysis Workspace. Zie [&#x200B; bezoeken &#x200B;](/help/components/metrics/visits.md) metrisch in de gebruikersgids van Componenten voor extra details.
 
-![ metriek van de Verwerving ](../assets/acquisition_metrics.png)
+![&#x200B; metriek van de Verwerving &#x200B;](../assets/acquisition_metrics.png)
 
 ## Gedragmetriek
 
-**Bounce Tarief** is gemakkelijk beschikbaar in Analysis Workspace als metrisch. Zie het [ Stuitpercentage ](/help/components/metrics/bounce-rate.md) metrisch in de gebruikersgids van Componenten voor extra informatie.
+**Bounce Tarief** is gemakkelijk beschikbaar in Analysis Workspace als metrisch. Zie het [&#x200B; Stuitpercentage &#x200B;](/help/components/metrics/bounce-rate.md) metrisch in de gebruikersgids van Componenten voor extra informatie.
 
 **Pagina&#39;s/Zitting** is berekende metrisch. Het kan worden verkregen door:
 
@@ -46,14 +46,14 @@ Als u meerdere metriek wilt toevoegen aan een tabel in vrije vorm voor een werkr
 5. Sleep de **metrische meningen van de Pagina** en **bezoeken** metrisch in het definitiegebied.
 6. Rangschik de definitie zodat is de formule **Weergaven van de Pagina die door Bebezoeken** worden verdeeld.
 
-   ![ de meningen van de Pagina per bezoek ](/help/technotes/ga-to-aa/assets/page_views_per_visit.png)
+   ![&#x200B; de meningen van de Pagina per bezoek &#x200B;](/help/technotes/ga-to-aa/assets/page_views_per_visit.png)
 
 7. Klik op Opslaan om terug te gaan naar uw werkruimte.
 8. Sleep de nieuw gedefinieerde berekende metrische waarde naar de werkruimte.
 
-   Leer meer over [ Berekende Metriek ](/help/components/calculated-metrics/cm-overview.md) in de de gebruikersgids van Componenten.
+   Leer meer over [&#x200B; Berekende Metriek &#x200B;](/help/components/calculated-metrics/cm-overview.md) in de de gebruikersgids van Componenten.
 
-**Avg. De Duur van de zitting** is ongeveer gelijk aan **Tijd die per Bezoek (seconden) wordt uitgegeven**. Leer meer over [ bestede Tijd per bezoek ](/help/components/metrics/time-spent-per-visit.md) metriek in de gebruikersgids van Componenten.
+**Avg. De Duur van de zitting** is ongeveer gelijk aan **Tijd die per Bezoek (seconden) wordt uitgegeven**. Leer meer over [&#x200B; bestede Tijd per bezoek &#x200B;](/help/components/metrics/time-spent-per-visit.md) metriek in de gebruikersgids van Componenten.
 
 ## Omzettingscijfers
 
@@ -63,6 +63,6 @@ Als u meerdere metriek wilt toevoegen aan een tabel in vrije vorm voor een werkr
 1. Creeer berekende metrisch van **Orden per Bezoek**. Gebruik Ctrl+klikken (Windows) of cmd+klikken (Mac) op beide metrische koppen om deze te markeren. Klik één van de kopballen met de rechtermuisknop aan, selecteer **Metrisch van Selectie** creëren, dan klik **verdelen**. Deze nieuwe metrische waarde is gelijkaardig aan een Tarief van de Omzetting van het Doel.
 1. Als decimalen nodig zijn, bewerkt u de Berekende metrisch. Klik op de knop Info in de metrische kop en vervolgens op het potloodpictogram. Voeg 1 of 2 Decimale Plaatsen in het Berekende Metrische venster van de Bouwer toe, dan klik sparen.
 
-   ![ Orders per bezoek ](/help/technotes/ga-to-aa/assets/orders_per_visit.png)
+   ![&#x200B; Orders per bezoek &#x200B;](/help/technotes/ga-to-aa/assets/orders_per_visit.png)
 
 Als uw implementatie nog geen product- of conversiegegevens bevat, raadt Adobe aan om samen te werken met een implementatieconsultant om de kwaliteit en integriteit van de gegevens te garanderen.

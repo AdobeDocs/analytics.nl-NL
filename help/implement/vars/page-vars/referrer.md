@@ -19,8 +19,8 @@ De variabele `referrer` negeert de automatisch verzamelde verwijzer in rapporten
 
 Referrer wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
 
 De Web SDK omvat automatisch `web.webReferrer.URL` op elke verzonden gebeurtenis, als beschikbaar.
 
@@ -28,7 +28,7 @@ De Web SDK omvat automatisch `web.webReferrer.URL` op elke verzonden gebeurtenis
 
 U kunt de verwijzer instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).
@@ -45,7 +45,7 @@ De variabele `s.referrer` is een tekenreeks die de URL van de vorige pagina beva
 s.referrer = "https://example.com";
 ```
 
-Als het gebruiken van de `digitalData` [ gegevenslaag ](../../prepare/data-layer.md):
+Als het gebruiken van de `digitalData` [&#x200B; gegevenslaag &#x200B;](../../prepare/data-layer.md):
 
 ```js
 s.referrer = digitalData.page.pageInfo.referringURL;

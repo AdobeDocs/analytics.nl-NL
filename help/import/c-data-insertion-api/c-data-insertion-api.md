@@ -13,6 +13,6 @@ ht-degree: 7%
 
 # API voor data-invoer
 
-De [ Invoeging API van Gegevens ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) en [ Bulk API van Gegevens ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) zijn beide methodes om server-zijinzamelingsgegevens naar Adobe Analytics voor te leggen. API-aanroepen voor het invoegen van gegevens worden één gebeurtenis tegelijk uitgevoerd. De API voor het invoegen van bulkgegevens accepteert CSV-bestanden met gebeurtenisgegevens, één gebeurtenis per rij.
+De [&#x200B; Invoeging API van Gegevens &#x200B;](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) en [&#x200B; Bulk API van Gegevens &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) zijn beide methodes om server-zijinzamelingsgegevens naar Adobe Analytics voor te leggen. API-aanroepen voor het invoegen van gegevens worden één gebeurtenis tegelijk uitgevoerd. De API voor het invoegen van bulkgegevens accepteert CSV-bestanden met gebeurtenisgegevens, één gebeurtenis per rij.
 
 Als u werkt aan een nieuwe implementatie van een verzameling op de server, raadt Adobe u ten zeerste aan de API voor het invoegen van gegevens in bulk te gebruiken.

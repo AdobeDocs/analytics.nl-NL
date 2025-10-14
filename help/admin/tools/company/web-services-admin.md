@@ -24,11 +24,11 @@ Om tot Analytics 2.0 APIs toegang te hebben, hebt u globale bedrijfsidentiteitsk
 
 ## Verouderde webservices beheren (afgekeurd)
 
-In [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) kunt u de toestemmingen bijwerken om die gebruikers te omvatten die toegang tot de Diensten APIs van het Web nodig hebben.
+In [&#x200B; Adobe Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) kunt u de toestemmingen bijwerken om die gebruikers te omvatten die toegang tot de Diensten APIs van het Web nodig hebben.
 
 ## WSDL: Download de Web Services API WSDL voor webservices-ontwikkelaars
 
-Bezoek [ Adobe Developer ](https://developer.adobe.com/analytics-apis/docs/2.0/), die documentatie, steekproefcode, en forums met betrekking tot de Diensten APIs van het Web verstrekt. Klik op Overzicht van de Webservices-API&#39;s voor meer informatie.
+Bezoek [&#x200B; Adobe Developer &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/), die documentatie, steekproefcode, en forums met betrekking tot de Diensten APIs van het Web verstrekt. Klik op Overzicht van de Webservices-API&#39;s voor meer informatie.
 
 ## Filteropties
 

@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # Een nieuw project opslaan in een map
 
-Zie [ projecten ](../save-projects.md#save) voor meer informatie sparen.
+Zie [&#x200B; projecten &#x200B;](../save-projects.md#save) voor meer informatie sparen.
 
 <!-- Not in TOC anymore; irrelevant article
 

@@ -23,14 +23,14 @@ De aankoop-id&#39;s gelden voor alle bezoekers en verlopen na 37 maanden. Als ee
 
 De aankoop-id wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## Aankoop-id met Adobe Analytics-extensie
 
 U kunt de aankoop-id instellen tijdens het configureren van de extensie Analytics (globale variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).
@@ -49,7 +49,7 @@ Deze variabele kan maximaal 20 bytes opslaan; waarden langer dan 20 bytes worden
 s.purchaseID = "ABC123";
 ```
 
-Als het gebruiken van de `digitalData` [ gegevenslaag ](../../prepare/data-layer.md):
+Als het gebruiken van de `digitalData` [&#x200B; gegevenslaag &#x200B;](../../prepare/data-layer.md):
 
 ```js
 s.purchaseID = digitalData.transaction.transactionID;

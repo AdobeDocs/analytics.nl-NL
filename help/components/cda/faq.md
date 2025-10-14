@@ -53,9 +53,9 @@ De Adobe behandelt timestamped hits alsof zij op het tijdstip van de timestamp w
 
 +++ Hoe vergelijk CDA met aangepaste bezoeker-id&#39;s?
 
-Het gebruiken van een identiteitskaart van de douanebezoeker is een erfenismethode om [ gebruikers over apparaten ](/help/implement/js/xdevice-visid/xdevice-connecting.md) te verbinden. Met een aangepaste bezoeker-id gebruikt u de variabele [`visitorID`](/help/implement/vars/config-vars/visitorid.md) om expliciet de id in te stellen die wordt gebruikt voor de logica van de bezoeker. De variabele `visitorID` negeert op cookies gebaseerde id&#39;s die aanwezig zijn.
+Het gebruiken van een identiteitskaart van de douanebezoeker is een erfenismethode om [&#x200B; gebruikers over apparaten &#x200B;](/help/implement/js/xdevice-visid/xdevice-connecting.md) te verbinden. Met een aangepaste bezoeker-id gebruikt u de variabele [`visitorID`](/help/implement/vars/config-vars/visitorid.md) om expliciet de id in te stellen die wordt gebruikt voor de logica van de bezoeker. De variabele `visitorID` negeert op cookies gebaseerde id&#39;s die aanwezig zijn.
 
-Aangepaste bezoeker-id&#39;s hebben verschillende bijwerkingen die CDA overneemt of minimaliseert. Bijvoorbeeld, heeft de methodologie van identiteitskaart van de douanebezoeker geen [ replay ](replay.md) mogelijkheden. Als een gebruiker tijdens een bezoek voor authentiek verklaart, associeert het eerste deel van het bezoek met een verschillende bezoekersidentiteitskaart dan het laatste deel van het bezoek. De afzonderlijke bezoeker-id&#39;s resulteren in een bezoek en een inflatie van de bezoeker. CDA herstelt historische gegevens zodat ongeoorloofde treffers bij de juiste persoon horen.
+Aangepaste bezoeker-id&#39;s hebben verschillende bijwerkingen die CDA overneemt of minimaliseert. Bijvoorbeeld, heeft de methodologie van identiteitskaart van de douanebezoeker geen [&#x200B; replay &#x200B;](replay.md) mogelijkheden. Als een gebruiker tijdens een bezoek voor authentiek verklaart, associeert het eerste deel van het bezoek met een verschillende bezoekersidentiteitskaart dan het laatste deel van het bezoek. De afzonderlijke bezoeker-id&#39;s resulteren in een bezoek en een inflatie van de bezoeker. CDA herstelt historische gegevens zodat ongeoorloofde treffers bij de juiste persoon horen.
 
 +++
 
@@ -85,7 +85,7 @@ In sommige situaties kan een individuele gebruiker een groot aantal ECID&#39;s k
 
 +++ Wat is het verschil tussen de norm Mensen in CDA en de norm van de Unieke Bezoekers buiten CDA?
 
-Zowel [ Mensen ](/help/components/metrics/people.md) als [ Unieke Bezoekers ](/help/components/metrics/unique-visitors.md) metriek richten zich op het tellen van verschillende bezoekers (individuen). Houd er echter rekening mee dat twee verschillende apparaten bij dezelfde persoon kunnen horen. CDA wijst de twee apparaten toe aan dezelfde persoon, terwijl de twee apparaten worden geregistreerd als twee afzonderlijke &#39;Unieke bezoekers&#39; buiten CDA.
+Zowel [&#x200B; Mensen &#x200B;](/help/components/metrics/people.md) als [&#x200B; Unieke Bezoekers &#x200B;](/help/components/metrics/unique-visitors.md) metriek richten zich op het tellen van verschillende bezoekers (individuen). Houd er echter rekening mee dat twee verschillende apparaten bij dezelfde persoon kunnen horen. CDA wijst de twee apparaten toe aan dezelfde persoon, terwijl de twee apparaten worden geregistreerd als twee afzonderlijke &#39;Unieke bezoekers&#39; buiten CDA.
 
 +++
 
@@ -96,7 +96,7 @@ Deze twee metriek zijn ruwweg gelijkwaardig aan elkaar. De verschillen tussen de
 * Een gedeeld apparaat wordt toegewezen aan meerdere personen. In dit scenario wordt 1 unieke bezoeker geteld, terwijl meerdere unieke apparaten worden geteld.
 * Een apparaat heeft zowel niet-vastgezet als vastgezet verkeer van de zelfde bezoeker. Bijvoorbeeld, produceerde browser geïdentificeerde gestippeld verkeer + historisch anonieme verkeer dat niet werd vastgemaakt. In dit geval wordt 1 unieke bezoeker geteld, terwijl 2 unieke apparaten worden geteld.
 
-Zie [ Unieke Apparaten ](/help/components/metrics/unique-devices.md) voor meer voorbeelden en details rond hoe het werkt.
+Zie [&#x200B; Unieke Apparaten &#x200B;](/help/components/metrics/unique-devices.md) voor meer voorbeelden en details rond hoe het werkt.
 
 +++
 
@@ -121,7 +121,7 @@ Ja. Als een individu hits verzendt van twee aparte apparaten binnen de time-out 
 * **als het gebruiken van een apparatengrafiek**, een douaneidentiteitskaart die op hun cluster wordt gebaseerd is het primaire herkenningsteken.
 * **als het gebruiken van op gebied-gebaseerde het stitching**, een douanidentiteitskaart die op de eigenschap wordt gebaseerd/de eVar u kiest is het primaire herkenningsteken.
 
-Beide herkenningstekens worden berekend door Adobe op het tijdstip dat het rapport in werking wordt gesteld, ook gekend als [ rapport-tijd verwerking ](../vrs/vrs-report-time-processing.md). De aard van de verwerking van het Rapport-tijd betekent dat het niet compatibel is met Data Warehouse, gegevensvoer, of andere de uitvoereigenschappen die de Adobe aanbiedt.
+Beide herkenningstekens worden berekend door Adobe op het tijdstip dat het rapport in werking wordt gesteld, ook gekend als [&#x200B; rapport-tijd verwerking &#x200B;](../vrs/vrs-report-time-processing.md). De aard van de verwerking van het Rapport-tijd betekent dat het niet compatibel is met Data Warehouse, gegevensvoer, of andere de uitvoereigenschappen die de Adobe aanbiedt.
 
 +++
 
@@ -133,7 +133,7 @@ Via de klantenservice kan worden gevraagd om van apparaatgrafiek naar op het vel
 
 +++ Hoe hanteert Adobe unieke limieten voor een prop of eVar die wordt gebruikt bij veldomstandigheden?
 
-CDA haalt de elementen van de identificatievariabele dimensies voordat deze zijn geoptimaliseerd voor rapportage. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u probeerde gebruikend die steun of eVar in een project van Workspace, kunt u nog [ (Laag-verkeer) ](/help/technotes/low-traffic.md) afmetingspunt zien.
+CDA haalt de elementen van de identificatievariabele dimensies voordat deze zijn geoptimaliseerd voor rapportage. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u probeerde gebruikend die steun of eVar in een project van Workspace, kunt u nog [&#x200B; (Laag-verkeer) &#x200B;](/help/technotes/low-traffic.md) afmetingspunt zien.
 
 +++
 
@@ -171,7 +171,7 @@ CDA gebruikt een complexe parallelle verwerkingspijpleiding, met veelvoudige afh
 
 +++ Waarom wordt de metrische waarde &#39;Identified People&#39; opgevoerd?
 
-Het aantal van metrische &quot;Identified Mensen&quot;kan lichtjes hoger zijn als de herkenningstekenwinst/de waarde van eVar in de botsing van de a [ knoeiboel ](/help/implement/validate/hash-collisions.md) loopt.
+Het aantal van metrische &quot;Identified Mensen&quot;kan lichtjes hoger zijn als de herkenningstekenwinst/de waarde van eVar in de botsing van de a [&#x200B; knoeiboel &#x200B;](/help/implement/validate/hash-collisions.md) loopt.
 
 Voor op veld gebaseerde stitching is de aangepaste id-variabele hoofdlettergevoelig. Het aantal van metrische waarden &quot;Identified People&quot;kan beduidend hoger zijn als de herkenningswaarden niet geval aanpassen. Als `bob` en `Bob` bijvoorbeeld worden verzonden en dezelfde persoon worden verwacht, interpreteert CDA deze twee waarden als afzonderlijk.
 
@@ -179,6 +179,6 @@ Voor op veld gebaseerde stitching is de aangepaste id-variabele hoofdlettergevoe
 
 +++ Waarom zie ik bij het bekijken van de id prop/eVar niet-nul waarden voor de &#39;Niet-geïdentificeerde Mensen&#39; metrische waarde?
 
-Deze situatie komt gewoonlijk voor wanneer een bezoeker zowel voor authentiek verklaarde als niet voor authentiek verklaarde klusjes in het rapporteringsvenster produceert. De bezoeker behoort tot zowel &quot;Unidentified&quot;als &quot;Identified&quot;in de [ Verkende dimensie van de Staat ](/help/components/dimensions/identified-state.md), veroorzakend een attributie van niet geïdentificeerde hits aan een herkenningsteken. Dit scenario kan veranderen na [ Replay ](replay.md) looppas, afhankelijk van replay frequentie en succestarief.
+Deze situatie komt gewoonlijk voor wanneer een bezoeker zowel voor authentiek verklaarde als niet voor authentiek verklaarde klusjes in het rapporteringsvenster produceert. De bezoeker behoort tot zowel &quot;Unidentified&quot;als &quot;Identified&quot;in de [&#x200B; Verkende dimensie van de Staat &#x200B;](/help/components/dimensions/identified-state.md), veroorzakend een attributie van niet geïdentificeerde hits aan een herkenningsteken. Dit scenario kan veranderen na [&#x200B; Replay &#x200B;](replay.md) looppas, afhankelijk van replay frequentie en succestarief.
 
 +++

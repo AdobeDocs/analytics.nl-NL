@@ -22,6 +22,6 @@ Hiermee schakelt Analytics uit om indrukken te verzamelen en klikt u op [!UICONT
 * Hiermee voegt u nieuwe dimensies toe aan de elementvariabelen in Analysis Workspace: Asset ID, Asset Source en Clickted Asset ID
 * Hiermee voegt u nieuwe afmetingen toe aan gebeurtenissen Asset: klik op elementen en impressie van middelen
 
-Voor gegevens die moeten worden bevolkt, verwijs naar de [ documentatie van de Inzichten van de Activa van AEM ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=nl-NL) voor volledige implementatieinstructies.
+Voor gegevens die moeten worden bevolkt, verwijs naar de [&#x200B; documentatie van de Inzichten van de Activa van AEM &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=nl-NL) voor volledige implementatieinstructies.
 
 <!--The content in this article is duplicated with the content in the Integration guide (aem-assets-reporting.md)-->

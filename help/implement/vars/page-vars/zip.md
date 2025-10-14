@@ -17,20 +17,20 @@ Met de variabele `zip` kunt u de dimensie &#39;Postcode&#39; handmatig vullen al
 
 >[!IMPORTANT]
 >
->Controleer of de instellingen voor [!UICONTROL Zip Option] in de rapportsuite op de gewenste waarde zijn ingesteld. U kunt deze variabele niet gebruiken als [!UICONTROL Geo zip] altijd wordt gebruikt. Zie [ Algemene Montages van de Rekening ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) in de Admin gebruikersgids voor meer informatie.
+>Controleer of de instellingen voor [!UICONTROL Zip Option] in de rapportsuite op de gewenste waarde zijn ingesteld. U kunt deze variabele niet gebruiken als [!UICONTROL Geo zip] altijd wordt gebruikt. Zie [&#x200B; Algemene Montages van de Rekening &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) in de Admin gebruikersgids voor meer informatie.
 
 ## Postcode met gebruik van Web SDK
 
 Postcode wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
 
 ## Postcode met Adobe Analytics-extensie
 
 U kunt Postcode instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).

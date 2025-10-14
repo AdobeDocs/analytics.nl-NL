@@ -18,11 +18,11 @@ U moet deze oplossing van Experience Cloud, de dienst, en codevereisten ontmoete
 
 ## Oplossingsvereisten
 
-Server-kant het door:sturen werkt met [ Analytics ](https://www.adobe.com/data-analytics-cloud/analytics.html) en [ Audience Manager ](https://www.adobe.com/data-analytics-cloud/audience-manager.html) en/of [ Soorten publiek ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL).
+Server-kant het door:sturen werkt met [&#x200B; Analytics &#x200B;](https://www.adobe.com/data-analytics-cloud/analytics.html) en [&#x200B; Audience Manager &#x200B;](https://www.adobe.com/data-analytics-cloud/audience-manager.html) en/of [&#x200B; Soorten publiek &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL).
 
 ## Servicevereisten
 
-Server-kant het door:sturen vereist de [ Dienst van de Identiteit ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL). De Identity Service biedt een universele id die bezoekers van de site identificeert voor alle oplossingen in de Experience Cloud. U moet de dienst van identiteitskaart uitvoeren alvorens server-kant het door:sturen zal werken.
+Server-kant het door:sturen vereist de [&#x200B; Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL). De Identity Service biedt een universele id die bezoekers van de site identificeert voor alle oplossingen in de Experience Cloud. U moet de dienst van identiteitskaart uitvoeren alvorens server-kant het door:sturen zal werken.
 
 ## Codeversies
 
@@ -36,5 +36,5 @@ Voor het doorsturen aan de serverzijde is versie 1.5 (of hoger) van de hieronder
 
 Om het even welk hulpmiddel dat de HTTP- verzoeken controleert die door browser worden gemaakt kan u het versieaantal voor uw AppMeasurement en bezoeker API code tonen. De `AppMeasurement_Module_AudienceManagement.js` bevat geen versie-id of retourneert deze niet. In de volgende voorbeelden ziet u hoe de versie-id&#39;s voor `AppMeasurement.js` - en `VisitorAPI.js` -code eruit zien.
 
-* `AppMeasurement.js`: [ Adobe Debugger ](/help/implement/validate/debugger.md) keert de versie van AppMeasurement als dit terug: `Version of Code | JS-1.5.1`. Andere gereedschappen kunnen een ander label gebruiken, maar de waarde volgt altijd het patroon `JS-X.X.X` , waarbij `X` een versienummer is.
+* `AppMeasurement.js`: [&#x200B; Adobe Debugger &#x200B;](/help/implement/validate/debugger.md) keert de versie van AppMeasurement als dit terug: `Version of Code | JS-1.5.1`. Andere gereedschappen kunnen een ander label gebruiken, maar de waarde volgt altijd het patroon `JS-X.X.X` , waarbij `X` een versienummer is.
 * `VisitorAPI.js`: zoek naar de parameter `d_visid_ver` . U ziet hier de service Bezoeker-id als volgt: `d_visid_ver: 1.5.5` . Bezoeker-API-code ouder dan versie 1.5.2 bevat geen versienummer. U gebruikt waarschijnlijk een oudere codebibliotheek (en moet bevorderen) als uw controleresultaten geen versieaantal terugkeren.

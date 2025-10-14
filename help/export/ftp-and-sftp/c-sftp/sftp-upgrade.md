@@ -34,7 +34,7 @@ De volgende functies bieden een optie voor het uploaden van gegevens naar Adobe 
 
 * [Data Warehouse levert rapporten](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
 
-* Bovendien, kunnen sommige douaneimplementaties die door [ de Diensten van de Techniek ](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md) worden gecreeerd SFTP gebruiken om gegevens met Adobe uit te wisselen.
+* Bovendien, kunnen sommige douaneimplementaties die door [&#x200B; de Diensten van de Techniek &#x200B;](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md) worden gecreeerd SFTP gebruiken om gegevens met Adobe uit te wisselen.
 
 ## Welke specifieke wijzigingen worden in deze update opgenomen?
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Op platforms van derden, zoals Google Analytics, zijn verschillende aanpassingsopties beschikbaar. Met deze aanpassingen kan een gebruiker dashboards, aangepaste rapporten, opgeslagen rapporten en aangepaste waarschuwingen maken. Omdat Analysis Workspace gebruikers in staat stelt rapporten op te stellen op basis van een leeg canvas, worden de meeste aanpassingen rechtstreeks in het gereedschap ingebouwd.
 
-Deze pagina gaat ervan uit dat de gebruiker bekend is met het gebruik van [!UICONTROL Analysis Workspace] . Zie [ een basisrapport in Analysis Workspace voor de gebruikers van Google Analytics ](reports/create-report.md) tot stand brengen als u nog niet vertrouwd met het hulpmiddel in Adobe Analytics bent.
+Deze pagina gaat ervan uit dat de gebruiker bekend is met het gebruik van [!UICONTROL Analysis Workspace] . Zie [&#x200B; een basisrapport in Analysis Workspace voor de gebruikers van Google Analytics &#x200B;](reports/create-report.md) tot stand brengen als u nog niet vertrouwd met het hulpmiddel in Adobe Analytics bent.
 
 ## Dashboards
 
@@ -35,7 +35,7 @@ Alle Google Analytics-widgets zijn beschikbaar in [!UICONTROL Analysis Workspace
 * De **Schijfwidget** is ongeveer gelijk aan [!UICONTROL Donut] visualisatie.
 * De **Bar widget** is ongeveer gelijk aan [!UICONTROL Bar] visualisatie.
 
-[!UICONTROL Analysis Workspace] bevat veel meer visualisatieopties om gegevens weer te geven op een manier die het beste aansluit bij uw rapportagebehoeften. Zie [ Visualisaties in Analysis Workspace ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) in de Analyze Gids van de Gebruiker voor meer informatie.
+[!UICONTROL Analysis Workspace] bevat veel meer visualisatieopties om gegevens weer te geven op een manier die het beste aansluit bij uw rapportagebehoeften. Zie [&#x200B; Visualisaties in Analysis Workspace &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) in de Analyze Gids van de Gebruiker voor meer informatie.
 
 ### Projecten delen
 
@@ -68,8 +68,8 @@ Een berekende metrische waarde maken:
 4. Zodra berekende metrisch de gewenste formule bevat, klik sparen om terug naar uw werkruimte te gaan.
 5. Sleep de nieuw gedefinieerde berekende metrische waarde naar de werkruimte.
 
-   Leer meer over [ Berekende Metriek ](/help/components/calculated-metrics/cm-overview.md) in de de gebruikersgids van Componenten.
+   Leer meer over [&#x200B; Berekende Metriek &#x200B;](/help/components/calculated-metrics/cm-overview.md) in de de gebruikersgids van Componenten.
 
 ## Aangepaste waarschuwingen
 
-Alarm is beschikbaar op beide platforms. Gebruik in Adobe Analytics het navigatiemenu voor de koptekst en ga naar *[!UICONTROL Components]* > *[!UICONTROL Alerts]* . Zie [ overzicht van Alarm ](/help/components/alerts/alerts-overview.md) in de Gids van de Gebruiker van Componenten voor meer informatie.
+Alarm is beschikbaar op beide platforms. Gebruik in Adobe Analytics het navigatiemenu voor de koptekst en ga naar *[!UICONTROL Components]* > *[!UICONTROL Alerts]* . Zie [&#x200B; overzicht van Alarm &#x200B;](/help/components/alerts/alerts-overview.md) in de Gids van de Gebruiker van Componenten voor meer informatie.

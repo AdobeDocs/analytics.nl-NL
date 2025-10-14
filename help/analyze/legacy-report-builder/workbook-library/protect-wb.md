@@ -46,7 +46,7 @@ Als u een beveiligd werkboek probeert te bewerken via het contextmenu of **[!UIC
 
 * Als u geen toestemmingen hebt om een verzoek te ontgrendelen, zult u een bericht zien erop wijst dat u niet de rechten hebt om het werkboek te ontgrendelen en uit te geven.
 
-  ![ Schermafbeelding die het foutenbericht toont wanneer u geen toestemmingen hebt om een verzoek te ontgrendelen.](assets/locked_workbook_error.png)
+  ![&#x200B; Schermafbeelding die het foutenbericht toont wanneer u geen toestemmingen hebt om een verzoek te ontgrendelen.](assets/locked_workbook_error.png)
 
 ## Workflow {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 

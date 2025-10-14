@@ -17,7 +17,7 @@ ht-degree: 38%
 
 Wanneer verschillende gegevensprivacyregels (GDPR, CCPA) van kracht worden, ondersteunt Adobe Analytics de verwerking van geverifieerde verzoeken die door gegevensverwerkingsverantwoordelijken zijn ingediend bij de Experience Cloud Data Privacy API, zodat een geautomatiseerd proces mogelijk wordt. De Data Privacy-API van Adobe is ontworpen om individuele aanvragen om rechten (bijvoorbeeld toegangs- en verwijderingsrechten) te verwerken voor data van onze klanten die zijn opgeslagen in Adobe Experience Cloud-oplossingen. Het is flexibel en schalen volgens het aantal verzoeken van de gegevenstoegang en schrapt uw bedrijf van de Onderwerpen van Gegevens ontvangt.
 
-De Privacy Service API biedt de klant ook de mogelijkheid om de status te controleren van de manier waarop de gegevens worden benaderd en aanvragen te verwijderen die worden uitgevoerd. Voor meer details zie [ Privacy Service API ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) documentatie.
+De Privacy Service API biedt de klant ook de mogelijkheid om de status te controleren van de manier waarop de gegevens worden benaderd en aanvragen te verwijderen die worden uitgevoerd. Voor meer details zie [&#x200B; Privacy Service API &#x200B;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) documentatie.
 
 +++
 
@@ -33,7 +33,7 @@ Als gegevensverwerker moet Adobe de Controller redelijke hulp bieden om geverifi
 
 De verantwoordelijken van Gegevens bepalen hoe te om identiteit voor verzoeken van de Subjects van Gegevens op te lossen. U kunt overwegen om de Retrieval-tag voor Adobe-gegevensprivacygegevens in te voeren. Uw ontwikkelingsteams besparen tijd door onze ophaaltag voor de Data Privacy ID te gebruiken om gebruikers-id&#39;s (cookie-id&#39;s) vast te leggen. Vervolgens kunnen ze onze API voor gegevensprivacy gebruiken om die gebruikers-id&#39;s naar de relevante oplossingen in de Adobe Experience Cloud for Data Privacy-aanvraagverwerking te sturen. De Data Privacy API kan een groot aantal klant-id&#39;s voor meerdere Adobe-oplossingen ondersteunen.
 
-Als een betrokkene een verzoek indient samen met een id (aangepaste variabele - prop of eVar), scant Adobe Analytics vervolgens de bewaarde geschiedenis van de gegevens die voor de gegeven id zijn verzameld. Voor meer details over hoe te om douane IDs te vormen die in de steunen van Analytics of eVars wordt opgeslagen, gelieve te verwijzen naar de [ documentatie van Analytics over namespaces ](/help/admin/tools/privacy-labeling/namespaces.md).
+Als een betrokkene een verzoek indient samen met een id (aangepaste variabele - prop of eVar), scant Adobe Analytics vervolgens de bewaarde geschiedenis van de gegevens die voor de gegeven id zijn verzameld. Voor meer details over hoe te om douane IDs te vormen die in de steunen van Analytics of eVars wordt opgeslagen, gelieve te verwijzen naar de [&#x200B; documentatie van Analytics over namespaces &#x200B;](/help/admin/tools/privacy-labeling/namespaces.md).
 
 +++
 
@@ -69,7 +69,7 @@ Toch zijn er een paar manieren dat u uw verwerking van de Privacy van Gegevens k
 
 +++ **Waar kan ik beginnen met Data Privacy-gereedmaking in Adobe Analytics?**
 
-Voor een geleidelijke analyse om klaar voor de regels van de Privacy van Gegevens te worden, zie [ het Werkschema van de Privacy van Gegevens van Adobe Analytics ](privacy-workflow.md).
+Voor een geleidelijke analyse om klaar voor de regels van de Privacy van Gegevens te worden, zie [&#x200B; het Werkschema van de Privacy van Gegevens van Adobe Analytics &#x200B;](privacy-workflow.md).
 
 +++
 
@@ -77,7 +77,7 @@ Voor een geleidelijke analyse om klaar voor de regels van de Privacy van Gegeven
 
 GDPR en CCPA zijn goede kansen om uw strategie en praktijken van het toestemmingsbeheer te heroverwegen. Dit omvat het bepalen wanneer de toestemming en het nadenken over het waardevoorstel voor de gebruiker nodig is. Overweeg het waardevoorstel voor de privacy van de consument, wat conversie en loyaliteit kan helpen bevorderen. De ruimte voor toestemmingsbeheer (bijv. tools, normen, best practices) evolueert snel en is een gebied om aandacht aan te besteden. Om de impact op de betrokkenheid van gebruikers te minimaliseren, moeten controllers samenwerken met leveranciers in deze ruimte en met hun juridische adviseur om ervoor te zorgen dat ze opkomende wetten en richtlijnen voor toestemming en cookies volgen. Het is een goede strategie om na te denken over ‘ervaringsgerichte privacy’ in de vorm van een merkgerichte, contextueel relevante ervaring waarin de waardepropositie van uw dataverzamelingsactiviteiten worden uiteengezet.
 
-U, als het Controlemechanisme van Gegevens, bent verantwoordelijk voor het verkrijgen van expliciete toestemming van uw Subjects van Gegevens alvorens u gegevens over hen (misschien met inbegrip van de gegevens van Adobe Analytics) verzamelt en voor het uitvoeren van een [ opt-out mechanisme ](https://www.adobe.com/privacy/opt-out.html#customeruse) op uw website. Hierdoor kunnen uw gegevenssubjecten afzien van toekomstige Adobe Experience Cloud-gegevensverzameling.
+U, als het Controlemechanisme van Gegevens, bent verantwoordelijk voor het verkrijgen van expliciete toestemming van uw Subjects van Gegevens alvorens u gegevens over hen (misschien met inbegrip van de gegevens van Adobe Analytics) verzamelt en voor het uitvoeren van een [&#x200B; opt-out mechanisme &#x200B;](https://www.adobe.com/privacy/opt-out.html#customeruse) op uw website. Hierdoor kunnen uw gegevenssubjecten afzien van toekomstige Adobe Experience Cloud-gegevensverzameling.
 
 +++
 
@@ -85,7 +85,7 @@ U, als het Controlemechanisme van Gegevens, bent verantwoordelijk voor het verkr
 
 Persoonsgegevens mogen in het algemeen niet langer worden bewaard dan nodig is om het doel waarvoor zij zijn verzameld te bereiken. Algemene voorwaarden van Adobe passen een standaard 25-maands gegevensbewaaringsplan toe, tenzij contractueel een andere bewaartermijn is overeengekomen. Klanten moeten hun beleid voor het bewaren van gegevens instellen voordat Adobe een verzoek om privacy van gegevens kan verwerken.
 
-Het huidige dataretentiebeleid van elke rapportsuite wordt weergegeven in de nieuwe Data Governance-beheergebruikersinterface. Klanten moeten contact opnemen met hun Adobe-vertegenwoordiger als ze hun beleid voor het bewaren van gegevens moeten aanpassen. Gelieve te verwijzen naar [ Veelgestelde vragen van het Behoud van Gegevens van Adobe Analytics ](/help/technotes/data-retention.md).
+Het huidige dataretentiebeleid van elke rapportsuite wordt weergegeven in de nieuwe Data Governance-beheergebruikersinterface. Klanten moeten contact opnemen met hun Adobe-vertegenwoordiger als ze hun beleid voor het bewaren van gegevens moeten aanpassen. Gelieve te verwijzen naar [&#x200B; Veelgestelde vragen van het Behoud van Gegevens van Adobe Analytics &#x200B;](/help/technotes/data-retention.md).
 
 +++
 
@@ -105,7 +105,7 @@ Houd ook rekening met gevallen waarin werknemers Adobe Analytics-rapporten met p
 
 +++ **sommige gegevens die wij niet moesten verzamelen werden per ongeluk verzonden naar Adobe Analytics. Kunnen wij de API van de Privacy van Gegevens gebruiken om deze gegevens op te schonen?**
 
-De [ Gegevens Privacy Service API ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) is verstrekt om u te helpen de verzoeken van de Privacy van Gegevens vervullen, die tijdgevoelig zijn. Het gebruik van deze API voor andere doeleinden wordt niet ondersteund door Adobe en kan van invloed zijn op de mogelijkheid van Adobe om tijdig verzoeken om gegevensprivacy die door de gebruiker zijn geïnitieerd voor andere Adobe-klanten in te dienen met hoge prioriteit.
+De [&#x200B; Gegevens Privacy Service API &#x200B;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) is verstrekt om u te helpen de verzoeken van de Privacy van Gegevens vervullen, die tijdgevoelig zijn. Het gebruik van deze API voor andere doeleinden wordt niet ondersteund door Adobe en kan van invloed zijn op de mogelijkheid van Adobe om tijdig verzoeken om gegevensprivacy die door de gebruiker zijn geïnitieerd voor andere Adobe-klanten in te dienen met hoge prioriteit.
 
 We vragen u de API voor gegevensprivacy niet te gebruiken voor andere doeleinden, zoals het wissen van gegevens die per ongeluk zijn verzonden door grote groepen bezoekers. Bedenk ook dat voor bezoekers die een treffer hebben verwijderd (bijgewerkt of geanonimiseerd) als gevolg van een Data Privacy-verwijderingsaanvraag, de statusgegevens worden hersteld. De volgende keer dat de bezoeker uw website bezoekt, wordt deze een nieuwe bezoeker. Alle eVar-attributie wordt opnieuw gestart, evenals informatie als aantal bezoeken, referrers, bezochte eerste pagina, enz. Dit bijeffect is ongewenst in situaties waarin u datavelden wilt wissen, en legt de nadruk op één reden waarom de Data Privacy-API niet geschikt is voor dit gebruik.
 
@@ -115,7 +115,7 @@ Neem contact op met uw Adobe-accountteam om samen te werken met ons consultingte
 
 +++ **Ons juridisch team heeft bepaald dat de waarden die wij in een variabele al jaren verzamelen niet meer aan ons bijgewerkte privacybeleid voldoen. Kunnen we de Data Privacy-API gebruiken om alle waarden uit deze variabele te verwijderen?**
 
-De [ Gegevens Privacy Service API ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) is verstrekt om u te helpen de verzoeken van de Privacy van Gegevens vervullen, die tijdgevoelig zijn. Het gebruik van deze API voor andere doeleinden wordt niet ondersteund door Adobe en kan een nadelige invloed hebben op de snelheid waarmee Adobe door de gebruiker geïnitieerde Data Privacy-aanvragen met hoge prioriteit voor andere Adobe-klanten kan afhandelen. We vragen u de Data Privacy-API niet te gebruiken voor andere doeleinden, zoals het wissen van data die per ongeluk zijn verzonden tussen grote groepen bezoekers.
+De [&#x200B; Gegevens Privacy Service API &#x200B;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) is verstrekt om u te helpen de verzoeken van de Privacy van Gegevens vervullen, die tijdgevoelig zijn. Het gebruik van deze API voor andere doeleinden wordt niet ondersteund door Adobe en kan een nadelige invloed hebben op de snelheid waarmee Adobe door de gebruiker geïnitieerde Data Privacy-aanvragen met hoge prioriteit voor andere Adobe-klanten kan afhandelen. We vragen u de Data Privacy-API niet te gebruiken voor andere doeleinden, zoals het wissen van data die per ongeluk zijn verzonden tussen grote groepen bezoekers.
 
 Bedenk ook dat voor bezoekers die een treffer hebben verwijderd (bijgewerkt of geanonimiseerd) als gevolg van een Data Privacy-verwijderingsaanvraag, de statusgegevens worden hersteld. De volgende keer dat de bezoeker uw website bezoekt, wordt deze een nieuwe bezoeker. Alle eVar-attributie wordt opnieuw gestart, evenals informatie als aantal bezoeken, referrers, bezochte eerste pagina, enz. Dit bijeffect is ongewenst in situaties waarin u datavelden wilt wissen, en legt de nadruk op één reden waarom de Data Privacy-API niet geschikt is voor dit gebruik.
 

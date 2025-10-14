@@ -46,7 +46,7 @@ Definieer deze instellingen op het tabblad [!UICONTROL Visit Definition] en klik
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een bezoekdefinitie ](https://video.tv.adobe.com/v/3428477?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video aanpassen.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; een bezoekdefinitie &#x200B;](https://video.tv.adobe.com/v/3428477?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video aanpassen.
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een bezoekdef
 ![](assets/components.png)
 
 1. Schakel op het tabblad [!UICONTROL Components] het selectievakje in om de curatie toe te passen voor het opnemen, uitsluiten en hernoemen van componenten voor deze virtuele rapportsuite in Analysis Workspace.
-Voor meer informatie over de virtuele cursus van de rapportreeks, zie [ Virtuele de componentencuratie van de rapportreeks ](/help/components/vrs/vrs-components.md).
+Voor meer informatie over de virtuele cursus van de rapportreeks, zie [&#x200B; Virtuele de componentencuratie van de rapportreeks &#x200B;](/help/components/vrs/vrs-components.md).
 
 1. Sleep componenten (afmetingen, metriek, segmenten, of datumwaaiers) die u in de Virtuele rapportreeks in de [!UICONTROL Included Components] sectie wilt omvatten.
 

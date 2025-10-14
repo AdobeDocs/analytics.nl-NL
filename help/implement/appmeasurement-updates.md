@@ -15,7 +15,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Vanaf maart 2025 wordt dit artikel niet meer bijgewerkt. U kunt versienota&#39;s voor bekijken en de recentste versie van AppMeasurement van [ GitHub ](https://github.com/adobe/appmeasurement/releases) downloaden.
+>Vanaf maart 2025 wordt dit artikel niet meer bijgewerkt. U kunt versienota&#39;s voor bekijken en de recentste versie van AppMeasurement van [&#x200B; GitHub &#x200B;](https://github.com/adobe/appmeasurement/releases) downloaden.
 
 
 ## Versie 2.27.0
@@ -53,7 +53,7 @@ Datum van de versie: **18 juli, 2023**
 
 Datum van de versie: **23 September, 2022**
 
-* AppMeasurement biedt nu ondersteuning voor de verzameling van clienttips met een hoge entropie voor gebruikers-agent die Chromium-browsers (Google Chrome en Microsoft Edge) gebruiken om apparaatinformatie te verschaffen. U kunt clienttips configureren via Tags of de configuratievariabele [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) gebruiken. Verzameling van hints met hoge entropie is standaard uitgeschakeld. Leer meer over gebruiker-agent [ cliëntwenken ](/help/technotes/client-hints.md).
+* AppMeasurement biedt nu ondersteuning voor de verzameling van clienttips met een hoge entropie voor gebruikers-agent die Chromium-browsers (Google Chrome en Microsoft Edge) gebruiken om apparaatinformatie te verschaffen. U kunt clienttips configureren via Tags of de configuratievariabele [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) gebruiken. Verzameling van hints met hoge entropie is standaard uitgeschakeld. Leer meer over gebruiker-agent [&#x200B; cliëntwenken &#x200B;](/help/technotes/client-hints.md).
 
 ## Versie 2.2.4
 
@@ -71,7 +71,7 @@ Datum van de versie: **11 Oktober, 2021**
 
 Datum van de versie: **7 September, 2021**
 
-* Deze update zorgt ervoor dat `opt.dmp` en `opt.sell` altijd worden opgenomen bij het bijhouden van koppelingen. Zie [ Privacy die ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) meldt in de Admin gebruikersgids voor meer informatie.
+* Deze update zorgt ervoor dat `opt.dmp` en `opt.sell` altijd worden opgenomen bij het bijhouden van koppelingen. Zie [&#x200B; Privacy die &#x200B;](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) meldt in de Admin gebruikersgids voor meer informatie.
 
 ## Versie 2.22.1
 
@@ -424,7 +424,7 @@ Datum van de versie: **18 september, 2014**
 
   >[!IMPORTANT]
   >
-  >Voor een [!DNL Analytics] vraag om de methode van de POST in plaats van de methode van GET in [!DNL AppMeasurement] (een methode om [ afgekapte URLs in IE ](https://helpx.adobe.com/nl/analytics/kb/shortening-image-request-urls.html) op te lossen) te gebruiken, moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor Experience Cloud gebruiken.
+  >Voor een [!DNL Analytics] vraag om de methode van de POST in plaats van de methode van GET in [!DNL AppMeasurement] (een methode om [&#x200B; afgekapte URLs in IE &#x200B;](https://helpx.adobe.com/nl/analytics/kb/shortening-image-request-urls.html) op te lossen) te gebruiken, moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor Experience Cloud gebruiken.
 
 ## Versie 1.4
 
@@ -455,7 +455,7 @@ Datum van de versie: **22 mei, 2014**
 
 Datum van de versie: **17 april 2014**
 
-* Steun voor de [ dienst van identiteitskaart van de Bezoeker van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
+* Steun voor de [&#x200B; dienst van identiteitskaart van de Bezoeker van Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
 
 ## Versie 1.2.4
 
@@ -485,8 +485,8 @@ Datum van de versie: **15 November, 2013**
 
 Datum van de versie: **14 November, 2013**
 
-* Toegevoegde steun voor [ Hartslagvideometing ](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=nl-NL).
-* `VisitorAPI.js` werd toegevoegd om de [ Dienst van identiteitskaart van de Bezoeker ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) te steunen.
+* Toegevoegde steun voor [&#x200B; Hartslagvideometing &#x200B;](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=nl-NL).
+* `VisitorAPI.js` werd toegevoegd om de [&#x200B; Dienst van identiteitskaart van de Bezoeker &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) te steunen.
 
 ## Versie 1.1.1
 

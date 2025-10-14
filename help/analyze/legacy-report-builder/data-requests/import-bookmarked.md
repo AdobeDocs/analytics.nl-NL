@@ -21,7 +21,7 @@ Wanneer u een bookmarked rapport selecteert, bevolkt de Tovenaar van het Verzoek
 
 Dit is hoe Stap 1 van de Tovenaar van het Verzoek een dashboard en zijn rapporten toont:
 
-![ Schermafbeelding die de Stap 1 van de Tovenaar van het Verzoek van 2 tonen die uw Dashboards benadrukken en uw Bladwijzers terugwinnen.](assets/import_dashboard_reportlet.png)
+![&#x200B; Schermafbeelding die de Stap 1 van de Tovenaar van het Verzoek van 2 tonen die uw Dashboards benadrukken en uw Bladwijzers terugwinnen.](assets/import_dashboard_reportlet.png)
 
 Wanneer u op **[!UICONTROL Retrieve your Dashboards]** of **[!UICONTROL Retrieve your Bookmarks]** klikt, worden uw bestaande dashboard- en/of bladwijzergegevens opgehaald en in het werkblad geplakt.
 

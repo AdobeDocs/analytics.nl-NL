@@ -14,12 +14,12 @@ ht-degree: 3%
 
 Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe Analytics-hulpprogramma. De hulpmiddelen zouden in de orde moeten worden overwogen zij worden vermeld. Als een bepaald hulpmiddel niet aan de behoefte voldoet, ga naar volgende voor overweging.
 
-Voor meer op de Vergelijking van het Product van Adobe Analytics, zie [ de productvergelijking van Analytics ](/help/analyze/get-started/analytics-product-comparison.md).
+Voor meer op de Vergelijking van het Product van Adobe Analytics, zie [&#x200B; de productvergelijking van Analytics &#x200B;](/help/analyze/get-started/analytics-product-comparison.md).
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vergelijking van hulpmiddelen ](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Vergelijking van hulpmiddelen &#x200B;](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vergelijking 
 
 **[classificaties](/help/components/classifications/classifications-overview.md)** zouden moeten worden gebruikt:
 
-* Als er metagegevens zijn die u aan een verzamelwaarde wilt koppelen (eVar, prop, marketingkanaal). Adobe adviseert het gebruiken van [ reeksen van de Classificatie ](/help/components/classifications/sets/overview.md). De constructor van classificatieregels en de importer van classificatieregels zijn oude methoden om classificatiegegevens naar Adobe Analytics te brengen.
+* Als er metagegevens zijn die u aan een verzamelwaarde wilt koppelen (eVar, prop, marketingkanaal). Adobe adviseert het gebruiken van [&#x200B; reeksen van de Classificatie &#x200B;](/help/components/classifications/sets/overview.md). De constructor van classificatieregels en de importer van classificatieregels zijn oude methoden om classificatiegegevens naar Adobe Analytics te brengen.
 
 **[Gegevensbronnen](/help/import/data-sources/overview.md)** zouden moeten worden gebruikt:
 
@@ -49,11 +49,11 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vergelijking 
    * Samenvatting: eenvoudige gegevens worden geüpload, op dag of in beperkte afmetingen
    * Transactie-id: gegevens worden geüpload die een online eindpunt verbinden met offline gegevens en geïmporteerde gegevens volledig koppelen aan een online vastgelegde bezoekersmomentopname (bestellingen worden bijvoorbeeld online voltooid en offline geretourneerd)
 
-**[de integraties van Adobe Exchange ](https://www.adobeexchange.com/experiencecloud.html)** zouden moeten worden gebruikt:
+**[de integraties van Adobe Exchange &#x200B;](https://www.adobeexchange.com/experiencecloud.html)** zouden moeten worden gebruikt:
 
 * Wanneer u verbinding maakt met een externe provider die een ondersteunde verbinding met Adobe Analytics heeft gemaakt. Integratie-apps bevatten doorgaans permanent en automatisch samenvattingsgegevens in Adobe Analytics, op terugkerende basis.
 
-**[Bulk de Invoeging API van Gegevens ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+**[Bulk de Invoeging API van Gegevens &#x200B;](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
 * De API voor het invoegen van gegevens in bulk accepteert CSV-bestanden met gebeurtenisgegevens, één gebeurtenis per rij. Adobe raadt u aan de API voor bulkinvoeging te gebruiken voor elke implementatie waarvoor code op de server nodig is of die AppMeasurement of Web SDK anders niet kan gebruiken voor gegevensverzameling.
 
@@ -61,7 +61,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vergelijking 
 
 * Wanneer u gegevens naar Adobe Analytics moet brengen en geen AppMeasurement, Web SDK, of de Bulk API van de Invoeging van Gegevens kunt gebruiken.
 
-**[de attributen van de Klant ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=nl-NL)** zouden moeten worden gebruikt:
+**[de attributen van de Klant &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=nl-NL)** zouden moeten worden gebruikt:
 
 * Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt en de gegevens aan Experience Cloud wilt uploaden.
 * Als u de gegevens van CRM voor diepere analyse in Analytics wilt gebruiken, of als het richten van criteria in Adobe Target.
@@ -95,7 +95,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vergelijking 
 * Als de client Adobe-gegevens wil opslaan in een client-side database, kunnen we deze gegevens op het meest granulaire niveau verzenden.
 * Als de client een Business Intelligence (BI)-tool wil ontwikkelen of Adobe-gegevens op aanraakniveau wil invoeren in een hulpprogramma van derden.
 
-**[Meldend APIs ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)** zou moeten worden gebruikt wanneer de andere visualisatieopties niet aan uw behoeften voldoen. De drie API-opties zijn:
+**[Meldend APIs &#x200B;](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)** zou moeten worden gebruikt wanneer de andere visualisatieopties niet aan uw behoeften voldoen. De drie API-opties zijn:
 
 * **volledig Verwerkt**: wanneer u eigenschap-rijke gegevens (met inbegrip van bezoeken, bezoekers, en segmenten) wilt. Dit zijn standaard samengevatte gegevens uit de analysefunctie, beschikbaar binnen ~30-90 minuten. Kan via Report Builder worden gebruikt.
 * **Echt - tijd**: wanneer u een paar metriek en dimensies met seconden van latentie wilt bekijken. Dit zijn beperkte, gedeeltelijk verwerkte, samengevatte gegevens die binnen ~30 seconden beschikbaar zijn. Omvat unieke algoritmen van populairste, grainers, en verliezers. Kan via Report Builder worden gebruikt.

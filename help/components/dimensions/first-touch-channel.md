@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Eerste aanraakkanaal
 
-De &quot;Eerste aanrakingskanaal&quot;[ dimensie ](overview.md) meldt het eerste marketing kanaal een bezoeker met tijdens de de betrokkenheidsperiode van die bezoeker (30 dagen door gebrek) aanpast. Deze dimensie is waardevol om te begrijpen welke marketing kanalen aanvankelijke verkeer aan uw plaats drijven, die u toestaat om marketing inspanningen op gebieden te concentreren die het meest efficiënt zijn.
+De &quot;Eerste aanrakingskanaal&quot;[&#x200B; dimensie &#x200B;](overview.md) meldt het eerste marketing kanaal een bezoeker met tijdens de de betrokkenheidsperiode van die bezoeker (30 dagen door gebrek) aanpast. Deze dimensie is waardevol om te begrijpen welke marketing kanalen aanvankelijke verkeer aan uw plaats drijven, die u toestaat om marketing inspanningen op gebieden te concentreren die het meest efficiënt zijn.
 
 ## Deze dimensie vullen met gegevens
 
-Deze afmeting verwijst direct kanaalnamen die u in de [ manager van het Kanaal van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) hebt bepaald.
+Deze afmeting verwijst direct kanaalnamen die u in de [&#x200B; manager van het Kanaal van de Marketing &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) hebt bepaald.
 
 Elke hit die naar Adobe-servers voor gegevensverzameling wordt verzonden, wordt uitgevoerd via de verwerkingsregels voor marketingkanalen van uw rapportsuite. Het herhaalt door elke regel in numerieke orde tot het een gelijke vindt, waarin dat marketing kanaal aan de slag bindt. Het eerste aanraakkanaal blijft bij de bezoeker aanwezig totdat deze de site niet langer bezoekt dan de periode van de betrokkenheid van de bezoeker (standaard 30 dagen).
 

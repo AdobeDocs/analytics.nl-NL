@@ -21,7 +21,7 @@ Om de afmetingspunten te veranderen die voor elke afmeting worden teruggekeerd
 
 1. Klik op **[!UICONTROL Manage]** en selecteer een gegevensblok in de lijst.
 
-   ![ leidt > geeft gegevensblok ](./assets/manage-edit.png) uit
+   ![&#x200B; leidt > geeft gegevensblok &#x200B;](./assets/manage-edit.png) uit
 
 1. Klik op **[!UICONTROL Edit data block]** in het deelvenster OPDRACHTEN.
 
@@ -29,13 +29,13 @@ Om de afmetingspunten te veranderen die voor elke afmeting worden teruggekeerd
 
 1. Klik op het pictogram **...** naast de naam van een component in de tabel.
 
-   ![ de pictogramopties van de ellips.](./assets/image27.png)
+   ![&#x200B; de pictogramopties van de ellips.](./assets/image27.png)
 
 1. Selecteer **[!UICONTROL Filter dimension]** in het pop-upmenu om het deelvenster **[!UICONTROL Filter dimension]** weer te geven.
 
 1. Selecteer **[!UICONTROL Most popular]** of **[!UICONTROL Specific]** .
 
-   ![ de specifieke optie die in de ruit van de afmeting van de Filter wordt geselecteerd.](./assets/image28.png)
+   ![&#x200B; de specifieke optie die in de ruit van de afmeting van de Filter wordt geselecteerd.](./assets/image28.png)
 
 1. Selecteer de gewenste opties op basis van het gekozen filtertype.
 
@@ -53,7 +53,7 @@ Er zijn twee manieren om dimensiepunten te filteren: het populairste en Specifie
 
 Met de optie [!UICONTROL Most popular] kunt u dimensie-items dynamisch filteren op basis van metrische waarden. [!UICONTROL Most popular] het filtreren keert de hoogste gerangschikte afmetingspunten terug die op metrische waarden worden gebaseerd. Standaard worden de eerste 10 dimensies weergegeven, gesorteerd op de eerste metrische waarde die aan het gegevensblok is toegevoegd.
 
-![ de populairste optie.](./assets/image29.png)
+![&#x200B; de populairste optie.](./assets/image29.png)
 
 
 ### Opties voor Pagina en Rijen
@@ -96,7 +96,7 @@ Filtercriteria instellen
 
 1. Selecteer een operator in de vervolgkeuzelijst.
 
-   ![ de exploitantlijst.](./assets/image31.png)
+   ![&#x200B; de exploitantlijst.](./assets/image31.png)
 
 1. Voer een waarde in het zoekveld in.
 
@@ -118,14 +118,14 @@ Om metrisch te veranderen die wordt gebruikt om het gegevensblok te filtreren en
 
 2. Klik op de pijl op de gewenste metrische waarde.
 
-   ![ de bouwer en metriek van de Lijst.](./assets/image30.png)
+   ![&#x200B; de bouwer en metriek van de Lijst.](./assets/image30.png)
 
 
 ## Specifieke filtering
 
 Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke dimensie. Gebruik het filtertype **[!UICONTROL Specific]** om de exacte afmetingen op te geven die u in het filter wilt opnemen. U kunt items in een lijst of uit een reeks cellen selecteren.
 
-![ de Specifieke opties en de geselecteerde punten.](./assets/image32.png)
+![&#x200B; de Specifieke opties en de geselecteerde punten.](./assets/image32.png)
 
 ### Van lijst
 
@@ -133,7 +133,7 @@ Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke
 
    Wanneer u de optie **[!UICONTROL From list]** selecteert, wordt de lijst eerst gevuld met dimensie-items met de meeste gebeurtenissen.
 
-   ![ Van lijstoptie en beschikbare punten.](./assets/image33.png)
+   ![&#x200B; Van lijstoptie en beschikbare punten.](./assets/image33.png)
 
    De lijst **[!UICONTROL Available items]** wordt geordend van dimensie-items met de meeste gebeurtenissen naar die met de minste waarde.
 
@@ -141,7 +141,7 @@ Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke
 
 1. Als u wilt zoeken naar een item dat niet in de laatste 90 dagen van de gegevens is opgenomen, klikt u op **[!UICONTROL Show items for the last 6 months]** om de zoekopdracht uit te breiden.
 
-   ![ de punten van de Show van de laatste 6 maandenlijst.](./assets/image34.png)
+   ![&#x200B; de punten van de Show van de laatste 6 maandenlijst.](./assets/image34.png)
 
    Nadat gegevens van de afgelopen 6 maanden zijn geladen, wordt de koppeling naar **[!UICONTROL Show items for last 18 months]** door de Report Builder bijgewerkt.
 
@@ -155,7 +155,7 @@ Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke
 
    Als u een item in de lijst wilt verplaatsen, sleept u het item en zet u het neer of klikt u ... om het verplaatsingsmenu weer te geven.
 
-   ![ de lijst van afmetingspunten.](./assets/image36.png)
+   ![&#x200B; de lijst van afmetingspunten.](./assets/image36.png)
 
 1. Klikken **[!UICONTROL Apply]**
 
@@ -165,7 +165,7 @@ Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke
 
 Selecteer de optie **[!UICONTROL From range of cells]** om een celbereik te kiezen dat de lijst met de dimensies bevat die moeten overeenkomen.
 
-![ Van waaier van cellen optie en gebied om één waaier van cellen te selecteren.](./assets/image37.png)
+![&#x200B; Van waaier van cellen optie en gebied om één waaier van cellen te selecteren.](./assets/image37.png)
 
 Houd rekening met de volgende beperkingen wanneer u een bereik cellen selecteert:
 
@@ -179,6 +179,6 @@ Uw selectie kan lege cellen of cellen met waarden bevatten die niet met een spec
 
 Klik op het tabblad **[!UICONTROL Dimensions]** op het pictogram naast de naam van een dimensie om de lijst met dimensie-items weer te geven.
 
-![ het lusje van Dimensionen en de lijst van dimensies.](./assets/dimensions_chevron.png)
+![&#x200B; het lusje van Dimensionen en de lijst van dimensies.](./assets/dimensions_chevron.png)
 
 U kunt items naar de **[!UICONTROL Table]** slepen of dubbelklikken op de naam van een item om deze toe te voegen aan de **[!UICONTROL Table]** -builder.

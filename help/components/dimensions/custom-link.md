@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Aangepaste koppeling
 
-De &quot;verbinding van de Douane&quot;[ dimensie ](overview.md) meldt de namen van douaneverbindingen die op uw plaats worden uitgevoerd. Deze dimensie is waardevol wanneer u de types van verbindingen bezoekers het meest wilt begrijpen klikt.
+De &quot;verbinding van de Douane&quot;[&#x200B; dimensie &#x200B;](overview.md) meldt de namen van douaneverbindingen die op uw plaats worden uitgevoerd. Deze dimensie is waardevol wanneer u de types van verbindingen bezoekers het meest wilt begrijpen klikt.
 
 ## Deze dimensie vullen met gegevens
 
-Deze afmeting verzamelt gegevens van [`pev2` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken voor treffers die ook het `pe` vraagkoord met de waarde van `lnk_o` hebben. Als de queryreeks `pe` een andere waarde heeft in de hit, worden met deze dimensie geen gegevens verzameld. De maximumlengte van deze afmeting is 100 bytes.
+Deze afmeting verzamelt gegevens van [`pev2` vraagkoord &#x200B;](/help/implement/validate/query-parameters.md) in beeldverzoeken voor treffers die ook het `pe` vraagkoord met de waarde van `lnk_o` hebben. Als de queryreeks `pe` een andere waarde heeft in de hit, worden met deze dimensie geen gegevens verzameld. De maximumlengte van deze afmeting is 100 bytes.
 
 Als u gegevens naar deze dimensie wilt verzenden met AppMeasurement, verzendt u een [`tl()`](/help/implement/vars/functions/tl-method.md) -afbeeldingsaanvraag met het argument `"o"` . Vul het argument voor de naam van de koppeling met de gewenste waarde.
 

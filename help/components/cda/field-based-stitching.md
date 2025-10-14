@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{available-existing-customers}}
 
-Cross-Device Analytics biedt twee verschillende methoden om gegevens aan elkaar te koppelen. Deze methode baseert zich op een variabele Analytics, zoals a [ pro ](/help/implement/vars/page-vars/prop.md) of [ eVar ](/help/implement/vars/page-vars/evar.md), om een persoonsidentificatie te bevatten. Het gebruikt die variabele als basis om apparaten samen te verbinden. Adobe raadt deze optie aan voor meer transparantie en voorspelbaarheid bij het bijhouden van bezoekers.
+Cross-Device Analytics biedt twee verschillende methoden om gegevens aan elkaar te koppelen. Deze methode baseert zich op een variabele Analytics, zoals a [&#x200B; pro &#x200B;](/help/implement/vars/page-vars/prop.md) of [&#x200B; eVar &#x200B;](/help/implement/vars/page-vars/evar.md), om een persoonsidentificatie te bevatten. Het gebruikt die variabele als basis om apparaten samen te verbinden. Adobe raadt deze optie aan voor meer transparantie en voorspelbaarheid bij het bijhouden van bezoekers.
 
 ## Vereisten die specifiek zijn voor veldomstandigheden
 
@@ -25,7 +25,7 @@ Als u Cross-Device Analytics wilt implementeren met behulp van op het veld gebas
 >
 >Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
 
-* Alle eerste vereisten die op de [ overzichtspagina ](overview.md) worden vermeld.
+* Alle eerste vereisten die op de [&#x200B; overzichtspagina &#x200B;](overview.md) worden vermeld.
 * In uw implementatie moet een proxy of eVar worden ingesteld die een individu waar mogelijk op unieke wijze identificeert, bijvoorbeeld wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt.<br/> vermijd het toewijzen van een standaardwaarde aan deze eigenschap of eVar. Wanneer 2.000 of meer verschillende apparaten de zelfde standaardwaarde worden toegewezen, zal de persoon aan een &quot;slechte persoon&quot;lijst worden toegevoegd en deze gebeurtenissen zullen van CDA toegelaten virtuele rapportreeks worden gelaten vallen, resulterend in foutieve analyse.
 * Verzend de gewenste identificatievariabele naar uw Adobe-accountteam wanneer u deze instelt voor veldoverstikken.
 
@@ -42,5 +42,5 @@ Als u Cross-Device Analytics wilt implementeren met behulp van op het veld gebas
 
 ## Volgende stappen
 
-Zodra uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u [ Opstelling Analytics van het Apparaat ](setup.md) beginnen.
+Zodra uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u [&#x200B; Opstelling Analytics van het Apparaat &#x200B;](setup.md) beginnen.
 

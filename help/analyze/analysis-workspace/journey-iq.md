@@ -17,8 +17,8 @@ Adobe Analytics beschikt over een reeks functies die gebruiksvriendelijke, volle
 
 De functies voor het beheer van de reis zijn:
 
-* [ de analyse van de Cohort:](visualizations/cohort-table/cohort-analysis.md) visualiseer behoud en betrokkenheid van klanten om te begrijpen waar het klonen gebeurt.
-* [ context-bewuste zittingen:](../../components/vrs/vrs-report-time-processing.md) verander de definitie van een bezoek, met inbegrip van wanneer een bezoektijden uit en het verhinderen van achtergrondklappen van het beginnen van een nieuw bezoek. De context-bewuste zittingen gebruiken een eigenschap genoemd rapporttijdverwerking, een deel van virtuele rapportreeksen.
-* [ de analyse van de Stroom:](visualizations/c-flow/flow.md) Begrijp waar de gebruikers naast navigeren en waar zij uit kwamen.
-* [ analyse van de Vallout:](visualizations/fallout/fallout-flow.md) vangt wanneer een klant zich ontkoppelt, en begrijp waar zij gaan.
-* [ dwars-apparatenanalyse:](../../components/cda/overview.md) voegt naadloos gedrag van veelvoudige apparaten samen om de aanrakingspunten van de klant op elk apparaat te begrijpen.
+* [&#x200B; de analyse van de Cohort:](visualizations/cohort-table/cohort-analysis.md) visualiseer behoud en betrokkenheid van klanten om te begrijpen waar het klonen gebeurt.
+* [&#x200B; context-bewuste zittingen:](../../components/vrs/vrs-report-time-processing.md) verander de definitie van een bezoek, met inbegrip van wanneer een bezoektijden uit en het verhinderen van achtergrondklappen van het beginnen van een nieuw bezoek. De context-bewuste zittingen gebruiken een eigenschap genoemd rapporttijdverwerking, een deel van virtuele rapportreeksen.
+* [&#x200B; de analyse van de Stroom:](visualizations/c-flow/flow.md) Begrijp waar de gebruikers naast navigeren en waar zij uit kwamen.
+* [&#x200B; analyse van de Vallout:](visualizations/fallout/fallout-flow.md) vangt wanneer een klant zich ontkoppelt, en begrijp waar zij gaan.
+* [&#x200B; dwars-apparatenanalyse:](../../components/cda/overview.md) voegt naadloos gedrag van veelvoudige apparaten samen om de aanrakingspunten van de klant op elk apparaat te begrijpen.

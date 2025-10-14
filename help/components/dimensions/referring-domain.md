@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Verwijzen naar domein
 
-De &quot;Verwijzend domein&quot; [ dimensie ](overview.md) meldt welke domeinbezoekers door klikken om uw plaats te bereiken. Deze dimensie is nuttig om te begrijpen welke derdeplaatsen het meeste verkeer aan van u drijven. Er moet een koppeling bestaan op de externe site en een bezoeker moet erop klikken om het dimensie-item weer te geven.
+De &quot;Verwijzend domein&quot; [&#x200B; dimensie &#x200B;](overview.md) meldt welke domeinbezoekers door klikken om uw plaats te bereiken. Deze dimensie is nuttig om te begrijpen welke derdeplaatsen het meeste verkeer aan van u drijven. Er moet een koppeling bestaan op de externe site en een bezoeker moet erop klikken om het dimensie-item weer te geven.
 
 >[!IMPORTANT]
 >
->U moet de interne filters van URL van uw rapportreeks [ vormen ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) om deze afmeting te gebruiken. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
+>U moet de interne filters van URL van uw rapportreeks [&#x200B; vormen &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) om deze afmeting te gebruiken. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
 
 Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Workspace en Data Warehouse. Analysis Workspace rapporteert het verwijzende domein voor elke afzonderlijke pagina, exclusief waarden die overeenkomen met interne URL-filters. Data Warehouse rapporteert alleen het eerste verwijzende domein van het bezoek en negeert interne URL-filters.
 
@@ -24,14 +24,14 @@ Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Worksp
 
 Deze dimensie vereist configuratie in de interface van Analytics en gegevens in beeldverzoeken.
 
-* Binnen uw implementatie, wint deze afmeting gegevens van het [`r` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met de JavaScript-variabele `document.referrer` in de browser. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u buiten AppMeasurement (bijvoorbeeld via de API) een gegevensverzamelingsmethode gebruikt, moet u de parameter van de `r` querytekenreeks opnemen in afbeeldingsaanvragen.
+* Binnen uw implementatie, wint deze afmeting gegevens van het [`r` vraagkoord &#x200B;](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met de JavaScript-variabele `document.referrer` in de browser. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u buiten AppMeasurement (bijvoorbeeld via de API) een gegevensverzamelingsmethode gebruikt, moet u de parameter van de `r` querytekenreeks opnemen in afbeeldingsaanvragen.
 * Binnen de interface van Analytics, moet u de interne filters van URL van uw rapportreeks [&#128279;](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) vormen. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
 
-Adobe blijft bij een bezoek verwijzen naar domein. Als een bezoeker een koppeling verlaat en doorklikt op een ander domein binnen één bezoek, wordt de nieuwe waarde bijgewerkt en blijft deze voor de rest van het bezoek bestaan. Als u slechts de originele waarde wilt zien, zie [ Origineel verwijzend domein ](original-referring-domain.md).
+Adobe blijft bij een bezoek verwijzen naar domein. Als een bezoeker een koppeling verlaat en doorklikt op een ander domein binnen één bezoek, wordt de nieuwe waarde bijgewerkt en blijft deze voor de rest van het bezoek bestaan. Als u slechts de originele waarde wilt zien, zie [&#x200B; Origineel verwijzend domein &#x200B;](original-referring-domain.md).
 
 ## Dimension-objecten
 
-Dimension-items bevatten domeinen waarop bezoekers naar uw site klikken. Als een hit geen verwijzingsgegevens heeft (ingesteld of blijvend), groepeert deze zich onder het dimensie-item `"Typed/Bookmarked"` . Dit afmetingsitem betekent dat er geen verwijzingswaarde is, bijvoorbeeld dat de bezoeker het browseradres handmatig in de adresbalk heeft getypt of op een bladwijzer heeft geklikt. Het item voor de `"Typed/Bookmarked"` dimensie wordt ook weergegeven voor omleidingen die geen ruimte bieden voor Analytics. Zie [ Omleiding en aliassen ](/help/technotes/redirects.md) in de de gebruikersgids van TechNotes.
+Dimension-items bevatten domeinen waarop bezoekers naar uw site klikken. Als een hit geen verwijzingsgegevens heeft (ingesteld of blijvend), groepeert deze zich onder het dimensie-item `"Typed/Bookmarked"` . Dit afmetingsitem betekent dat er geen verwijzingswaarde is, bijvoorbeeld dat de bezoeker het browseradres handmatig in de adresbalk heeft getypt of op een bladwijzer heeft geklikt. Het item voor de `"Typed/Bookmarked"` dimensie wordt ook weergegeven voor omleidingen die geen ruimte bieden voor Analytics. Zie [&#x200B; Omleiding en aliassen &#x200B;](/help/technotes/redirects.md) in de de gebruikersgids van TechNotes.
 
 ### Dimension-items met `googleusercontent.com`
 

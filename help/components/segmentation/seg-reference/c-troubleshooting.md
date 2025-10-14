@@ -29,7 +29,7 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 Mogelijke redenen:
 
-* Omgekeerd het nesten - bijvoorbeeld, het nestelen van a ![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Visitor]** container onder a ![ Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** container.
+* Omgekeerd het nesten - bijvoorbeeld, het nestelen van a ![&#x200B; Gebruiker &#x200B;](/help/assets/icons/User.svg) **[!UICONTROL Visitor]** container onder a ![&#x200B; Bezoek &#x200B;](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** container.
 * Het rapport ondersteunt segmentatie niet.
 * Er zijn geen gegevens die overeenkomen met de segmenteringscriteria.
 

@@ -29,7 +29,7 @@ Report Builder upgraden
 1. Meld u aan bij de huidige versie van de Report Builder.
 1. Ga naar het menu **[!UICONTROL Options]** voor een upgrade naar de meest recente versie. Het huidige versienummer wordt onder in het dialoogvenster Opties weergegeven.
 
-   ![ Schermafbeelding die de dialoog van Opties en de huidige versie en de nieuwe versie toont.](assets/upgrade.png)
+   ![&#x200B; Schermafbeelding die de dialoog van Opties en de huidige versie en de nieuwe versie toont.](assets/upgrade.png)
 
 1. Klik op **[!UICONTROL Update...]** als er een nieuwe versie beschikbaar is. De knoop zal tonen welke versie u bijwerkt aan, bijvoorbeeld: *Update aan versie 5.0.50*
 
@@ -40,7 +40,7 @@ Report Builder upgraden
 1. (Optioneel) Selecteer het selectievakje **[!UICONTROL Update when a new version is available]** . In de toekomst wordt het updateproces automatisch gestart wanneer een nieuwe versie beschikbaar wordt.
 1. Klik op **[!UICONTROL Next >]** wanneer het instellingsscherm wordt weergegeven.
 
-   ![ Schermafbeelding die het scherm van de Opstelling van de Report Builder toont.](assets/setup.png)
+   ![&#x200B; Schermafbeelding die het scherm van de Opstelling van de Report Builder toont.](assets/setup.png)
 
 1. Zodra de verbetering volledig is, login aan Report Builder.
 

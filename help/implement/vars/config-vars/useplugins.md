@@ -17,11 +17,11 @@ Als `usePlugins` is ingeschakeld, wordt de functie [`doPlugins()`](../functions/
 
 ## De callback van `onBeforeEventSend` gebruiken met de Web SDK
 
-Hoewel de SDK van het Web geen booleaanse waarde heeft om de uitvoering van extra logica te behandelen alvorens de gegevens naar Adobe worden verzonden, kunt u `onBeforeEventSend` callback registreren om gegevens te wijzigen. Zie [ Veranderend gebeurtenissen globaal ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+Hoewel de SDK van het Web geen booleaanse waarde heeft om de uitvoering van extra logica te behandelen alvorens de gegevens naar Adobe worden verzonden, kunt u `onBeforeEventSend` callback registreren om gegevens te wijzigen. Zie [&#x200B; Veranderend gebeurtenissen globaal &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Plug-ins gebruiken met de Adobe Analytics-extensie
 
-Adobe verstrekt een uitbreiding geëtiketteerd &quot;Gemeenschappelijke Insteekmodules van Analytics&quot;die u toestaat om meeste [ stop-ins ](../plugins/impl-plugins.md) te roepen. Installeer de extensie en roep de gewenste plug-in binnen een regel.
+Adobe verstrekt een uitbreiding geëtiketteerd &quot;Gemeenschappelijke Insteekmodules van Analytics&quot;die u toestaat om meeste [&#x200B; stop-ins &#x200B;](../plugins/impl-plugins.md) te roepen. Installeer de extensie en roep de gewenste plug-in binnen een regel.
 
 Als de gewenste insteekmodule niet is opgenomen in de Adobe-extensie, gebruikt u de aangepaste code-editor volgens de AppMeasurement-syntaxis.
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # GDPR/ePrivacy compliance en server-side forward
 
-Deze sectie verklaart verhogingen aan server-kant door:sturen die door de [ de nalevingsverordening van de EU koekjesnaleving ](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+gelijksoortige+technologieën) werden veroorzaakt, die op 30 september, 2017 van kracht werd.
+Deze sectie verklaart verhogingen aan server-kant door:sturen die door de [&#x200B; de nalevingsverordening van de EU koekjesnaleving &#x200B;](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+gelijksoortige+technologieën) werden veroorzaakt, die op 30 september, 2017 van kracht werd.
 
 Het doorsturen aan de serverzijde wordt gebruikt om gegevens van Adobe Analytics naar andere [!DNL Experience Cloud Solutions], zoals Audience Manager, in real time te delen. Wanneer toegelaten, server-zijhet door:sturen staat ook Analytics toe om gegevens aan andere oplossingen van Experience Cloud te duwen en voor die oplossingen om gegevens aan Analytics tijdens het proces van de gegevensinzameling te duwen.
 
@@ -39,7 +39,7 @@ U kunt Adobe Analytics gebruiken om te melden hoeveel van uw verkeer op toestemm
 Om dit type van rapportering te vormen, kaart de nieuwe contextvariabele aan een variabele van het douaneverkeer (steun) via verwerkingsregels. Dit doen
 
 1. Implementeer de variabele &quot;cm.ssf&quot; (zoals hierboven weergegeven).
-1. [ laat prop toe.](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
+1. [&#x200B; laat prop toe.](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
 1. Gebruik verwerkingsregels om de contextvariabele toe te wijzen aan de eigenschap prop.
 
    1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** en selecteer een rapportsuite.

@@ -21,7 +21,7 @@ Met de variabele `timestamp` wordt handmatig de tijdstempel van de hit ingesteld
 
 ## Tijdstempel met gebruik van de Web SDK
 
-Tijdstempel wordt [ in kaart gebracht voor Adobe Analytics ](/help/implement/aep-edge/xdm-var-mapping.md) onder het XDM gebied `xdm.timestamp`. Dit veld ondersteunt alleen Unix-tijd.
+Tijdstempel wordt [&#x200B; in kaart gebracht voor Adobe Analytics &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md) onder het XDM gebied `xdm.timestamp`. Dit veld ondersteunt alleen Unix-tijd.
 
 ## Tijdstempel met Adobe Analytics-extensie
 
@@ -29,7 +29,7 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 
 ## s.timestamp in AppMeasurement en de de coderedacteur van de uitbreiding van de Analytics
 
-De variabele `s.timestamp` is een tekenreeks met de datum en tijd van de hit. Geldige timestamp formaten omvatten [ ISO 8601 ](https://en.wikipedia.org/wiki/ISO_8601) en [ Unix tijd ](https://en.wikipedia.org/wiki/Unix_time) in seconden.
+De variabele `s.timestamp` is een tekenreeks met de datum en tijd van de hit. Geldige timestamp formaten omvatten [&#x200B; ISO 8601 &#x200B;](https://en.wikipedia.org/wiki/ISO_8601) en [&#x200B; Unix tijd &#x200B;](https://en.wikipedia.org/wiki/Unix_time) in seconden.
 
 ```js
 // Timestamp using ISO 8601
@@ -47,7 +47,7 @@ s.timestamp = new Date().toISOString();
 
 ## ISO 8601-waarden
 
-De data en de tijden die in [ worden uitgedrukt ISO 8601 ](https://en.wikipedia.org/wiki/ISO_8601) kunnen verscheidene verschillende vormen nemen. Adobe ondersteunt niet alle functies in ISO 8601.
+De data en de tijden die in [&#x200B; worden uitgedrukt ISO 8601 &#x200B;](https://en.wikipedia.org/wiki/ISO_8601) kunnen verscheidene verschillende vormen nemen. Adobe ondersteunt niet alle functies in ISO 8601.
 
 * Zowel de datum als de tijd moeten worden opgegeven, gescheiden door `T` .
 * Uren en minuten zijn vereist; seconden zijn optioneel, maar aanbevolen.

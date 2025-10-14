@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{classification-rulebuilder-deprecation}}
 
-*Deze pagina verklaart classificatiereekreeksen als deel van de [ bouwer van de classificatieregel ](classification-rule-builder.md). Zie [ de reeksen van de Classificatie ](../sets/overview.md) voor de huidige methode om gegevens in Adobe Analytics te classificeren.*
+*Deze pagina verklaart classificatiereekreeksen als deel van de [&#x200B; bouwer van de classificatieregel &#x200B;](classification-rule-builder.md). Zie [&#x200B; de reeksen van de Classificatie &#x200B;](../sets/overview.md) voor de huidige methode om gegevens in Adobe Analytics te classificeren.*
 
 Een regelset is een groep classificatieregels voor een specifieke variabele. U past een variabele op de regelreeks toe. Als u veelvoudige regelreeksen voor één variabele wilt tot stand brengen, moet u elke regel toepassen die op veelvoudige rapportreeksen wordt geplaatst.
 
@@ -78,6 +78,6 @@ Geef de classificatieregel een naam, pas de variabele toe en geef instellingen v
 
    De rapportreeks en de veranderlijke lijst zijn bevolkt met alle gerubriceerde variabelen beschikbaar in alle rapportreeksen in uw login bedrijf. Één enkele variabele in een rapportreeks kan tot slechts één regelreeks behoren.
 
-   Zie *`Variable`* in de definities voor de [ pagina van de Bouwer van de Regel van de Classificatie ](/help/components/classifications/crb/classification-rule-definitions.md) voor meer informatie.
+   Zie *`Variable`* in de definities voor de [&#x200B; pagina van de Bouwer van de Regel van de Classificatie &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md) voor meer informatie.
 1. Geef de te gebruiken rapportsuites en -variabelen op en klik op **[!UICONTROL Save]** .
-1. Ga door [ het toevoegen van classificatieregels ](/help/components/classifications/crb/classification-rule-set.md) aan de regelreeks voort.
+1. Ga door [&#x200B; het toevoegen van classificatieregels &#x200B;](/help/components/classifications/crb/classification-rule-set.md) aan de regelreeks voort.

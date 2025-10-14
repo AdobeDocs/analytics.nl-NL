@@ -32,7 +32,7 @@ Een of meer metriek toevoegen
 1. Selecteer een of meer aanvragen in Excel en klik met de rechtermuisknop om **[!UICONTROL Edit Metrics]** te selecteren. (Of klik op **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** om de groep verzoeken te selecteren die u wilt wijzigen.)
 1. Selecteer **[!UICONTROL Add Metric(s)]**&#x200B;en selecteer de metriek om toe te voegen.
 
-   ![ Schermafbeelding die het Edit Verzoek toont, voegt Geselecteerde optie Metriek(en) toe.](assets/add_metric.png)
+   ![&#x200B; Schermafbeelding die het Edit Verzoek toont, voegt Geselecteerde optie Metriek(en) toe.](assets/add_metric.png)
 
 1. Vernieuw het verzoek om werkelijke gegevens te zien. Offlinegegevens worden weergegeven totdat u de gegevens vernieuwt.
 
@@ -55,7 +55,7 @@ Een metrisch object vervangen
 
 1. Selecteer **[!UICONTROL Replace Metric]** .
 
-   ![ Schermafbeelding van het Edit scherm van de Groep met Replace Metric geselecteerd.](assets/replace_metric.png)
+   ![&#x200B; Schermafbeelding van het Edit scherm van de Groep met Replace Metric geselecteerd.](assets/replace_metric.png)
 
 1. Selecteer de metrische waarde die u wilt vervangen en de vervangende metrische waarde.
 1. Vernieuw de aanvraag. Offlinegegevens worden weergegeven totdat u de gegevens vernieuwt.
@@ -73,7 +73,7 @@ Metrische gegevens verwijderen
 
 1. Selecteer **[!UICONTROL Remove Metric(s)]** .
 
-   ![ Schermafbeelding die de Edit Groep tonen en geselecteerde optie Metrisch(e) verwijderen.](assets/remove_metric.png)
+   ![&#x200B; Schermafbeelding die de Edit Groep tonen en geselecteerde optie Metrisch(e) verwijderen.](assets/remove_metric.png)
 
 1. Selecteer een of meer metriek die u uit de aanvraag wilt verwijderen.
 1. Vernieuw de aanvraag. Tot u verfrist, zult u off-line gegevens zien.

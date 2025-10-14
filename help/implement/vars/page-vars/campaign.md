@@ -15,20 +15,20 @@ ht-degree: 0%
 
 De variabele `campaign` is bedoeld voor het verzamelen van trackingcodes op uw site. In eerdere versies van Adobe Analytics had het een speciale behandeling, waarbij het kon worden gebruikt als indeling in de meeste dimensies. In de huidige versie van Adobe Analytics werkt het net als een eVar.
 
-Deze variabele bevolkt de [ het Volgen dimensie van de Code ](/help/components/dimensions/tracking-code.md). De waarde wordt doorgaans opgehaald uit een queryreeks met behulp van de hulpprogrammamethode [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) . Uw organisatie bepaalt echter exact hoe deze variabele moet worden ingesteld.
+Deze variabele bevolkt de [&#x200B; het Volgen dimensie van de Code &#x200B;](/help/components/dimensions/tracking-code.md). De waarde wordt doorgaans opgehaald uit een queryreeks met behulp van de hulpprogrammamethode [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) . Uw organisatie bepaalt echter exact hoe deze variabele moet worden ingesteld.
 
 ## Campagne met de Web SDK
 
 De campagne wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` of `data.__adobe.analytics.v0`
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` of `data.__adobe.analytics.v0`
 
 ## Campagne met de Adobe Analytics-extensie
 
 U kunt campagne of terwijl het vormen van de uitbreiding van Analytics (globale variabelen) of onder regels plaatsen.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).

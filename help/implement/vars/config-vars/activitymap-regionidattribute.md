@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ActivityMap.regionIDAttribute
 
-De `ActivityMap.regionIDAttribute` variabele laat u de attributen veranderen die Activity Map wanneer het bepalen van de [ 2&rbrace; dimensie van het Gebied van Activity Map zoekt. ](/help/components/dimensions/activity-map-region.md) Als uw site zodanig is gestructureerd dat het kenmerk `id` minder nuttig is voor het Activity Map-gebied, kunt u deze variabele zo instellen dat deze naar een ander kenmerk kijkt.
+De `ActivityMap.regionIDAttribute` variabele laat u de attributen veranderen die Activity Map wanneer het bepalen van de [&#x200B; 2&rbrace; dimensie van het Gebied van Activity Map zoekt. &#x200B;](/help/components/dimensions/activity-map-region.md) Als uw site zodanig is gestructureerd dat het kenmerk `id` minder nuttig is voor het Activity Map-gebied, kunt u deze variabele zo instellen dat deze naar een ander kenmerk kijkt.
 
 ## Het attribuut van identiteitskaart van het gebied in de uitbreiding van SDK van het Web
 
@@ -21,7 +21,7 @@ Wanneer **[!UICONTROL Enable click data collection]** is ingeschakeld, gebruikt 
 
 ## Het kenmerk Region ID in de Web SDK JavaScript-bibliotheek
 
-Wanneer [`clickCollectionEnabled` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) wordt toegelaten, gebruik `filterClickDetails` callback in het `clickCollection` voorwerp. Binnen deze callback kunt u de waarde van `clickedElement` controleren en de logica van het verzamelde gebied aanpassen.
+Wanneer [`clickCollectionEnabled` &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) wordt toegelaten, gebruik `filterClickDetails` callback in het `clickCollection` voorwerp. Binnen deze callback kunt u de waarde van `clickedElement` controleren en de logica van het verzamelde gebied aanpassen.
 
 ```js
 alloy("configure", {
@@ -42,7 +42,7 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 
 ## s.ActivityMap.regionIDAttribute gebruiken met AppMeasurement
 
-De `s.ActivityMap.regionIDAttribute` variabele is een koord dat de attributen vertegenwoordigt om de [ dimensie van het Gebied van Activity Map ](/help/components/dimensions/activity-map-region.md) te bepalen. Deze variabele wordt standaard ingesteld op `id` . Als u deze variabele wijzigt, zoekt Activity Map niet langer naar het kenmerk `id` , maar zoekt het nog steeds naar andere criteria om het gebied te bepalen (zoals semantische elementen).
+De `s.ActivityMap.regionIDAttribute` variabele is een koord dat de attributen vertegenwoordigt om de [&#x200B; dimensie van het Gebied van Activity Map &#x200B;](/help/components/dimensions/activity-map-region.md) te bepalen. Deze variabele wordt standaard ingesteld op `id` . Als u deze variabele wijzigt, zoekt Activity Map niet langer naar het kenmerk `id` , maar zoekt het nog steeds naar andere criteria om het gebied te bepalen (zoals semantische elementen).
 
 ```html
 <script>

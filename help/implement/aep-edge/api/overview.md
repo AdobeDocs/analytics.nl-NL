@@ -15,11 +15,11 @@ ht-degree: 1%
 
 U gebruikt doorgaans de Experience Platform Edge Network API om gegevens te verzamelen op de server in plaats van op de client en om gegevens te verzamelen van apparaten zoals IoT-apparaten, set-top boxes en bureaubladtoepassingen. Vervolgens verzendt u die gegevens naar het Edge-netwerk en naar services zoals Adobe Analytics.
 
-Overweeg ook de Edge Network API wanneer u wilt dat vertrouwelijke gegevens veilig worden verzameld en geverifieerd via het netwerk. Zie [ Authentificatie ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=nl-NL) voor meer informatie.
+Overweeg ook de Edge Network API wanneer u wilt dat vertrouwelijke gegevens veilig worden verzameld en geverifieerd via het netwerk. Zie [&#x200B; Authentificatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=nl-NL) voor meer informatie.
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
-![ Adobe Analytics die het de uitbreidingswerkschema van Analytics gebruiken ](../../assets/edge-network-server-api-annotated.png)
+![&#x200B; Adobe Analytics die het de uitbreidingswerkschema van Analytics gebruiken &#x200B;](../../assets/edge-network-server-api-annotated.png)
 
 <table style="width:100%">
 
@@ -59,5 +59,5 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 </table>
 
-Zie [ Edge Network API documentatie ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=nl-NL) voor meer informatie.
+Zie [&#x200B; Edge Network API documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=nl-NL) voor meer informatie.
 

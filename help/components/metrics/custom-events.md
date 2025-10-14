@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Aangepaste gebeurtenissen
 
-*Deze hulppagina beschrijft hoe de gebeurtenissen van de douane als metrisch werken. Voor informatie over hoe de douanegebeurtenissen als implementatievariabele werken, zie [ Overzicht van Gebeurtenissen ](/help/implement/vars/page-vars/events/events-overview.md) in de de gebruikersgids van het Voer.*
+*Deze hulppagina beschrijft hoe de gebeurtenissen van de douane als metrisch werken. Voor informatie over hoe de douanegebeurtenissen als implementatievariabele werken, zie [&#x200B; Overzicht van Gebeurtenissen &#x200B;](/help/implement/vars/page-vars/events/events-overview.md) in de de gebruikersgids van het Voer.*
 
 De metriek van de gebeurtenis van de douane [&#128279;](overview.md) toont het aantal treffers waar een bepaalde douanegebeurtenis in een beeldverzoek werd geplaatst. Deze metriek is essentieel voor vele implementaties, aangezien zij insight aan gebeurtenissen verstrekken specifiek voor elke organisatie.
 
 ## Hoe deze metrische waarde wordt berekend
 
-Aangepaste gebeurtenissen worden anders berekend, afhankelijk van het type. U kunt het type van een gebeurtenis controleren onder [ gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in de reeksinstellingen van het Rapport.
+Aangepaste gebeurtenissen worden anders berekend, afhankelijk van het type. U kunt het type van een gebeurtenis controleren onder [&#x200B; gebeurtenissen van het Succes &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in de reeksinstellingen van het Rapport.
 
 * **gebeurtenissen van de Teller**: De standaardgebeurtenis die. De meeste gebeurtenissen zijn tellergebeurtenissen. Telt het aantal treffers waar de passende douanegebeurtenis `event1` - `event1000` in de [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabele bestaat.
 * **Numerieke gebeurtenissen**: vat de numerieke waarde samen die aan de gebeurtenis in de `events` variabele wordt toegewezen.

@@ -24,7 +24,7 @@ Het geselecteerde filterformulier wordt gevuld op basis van het element en de me
 
 Informatie over filters in het deelvenster **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** .
 
-![ Schermafbeelding die de Define dialoog van de Filter met opties tonen om door Toepassing, Gebruiker, en Project te filtreren.](/help/admin/tools/assets/filter.png)
+![&#x200B; Schermafbeelding die de Define dialoog van de Filter met opties tonen om door Toepassing, Gebruiker, en Project te filtreren.](/help/admin/tools/assets/filter.png)
 
 De volgende tabellen bevatten voorbeelden en informatie over filters:
 

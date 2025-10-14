@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Activity Map
 
-De &quot;Gebied van de Activity Map&quot;[ dimensie ](overview.md) toont de gebieden op uw plaats die het meest klikte. Deze dimensie is handig wanneer u kliks in overkoepelende gebieden van uw site wilt vergelijken in plaats van afzonderlijke koppelingen. Het is ook handig voor gebieden van uw site die dynamische inhoud leveren. Bijvoorbeeld, als u een voorpagina met het roteren van nieuwsartikelen hebt, zou het gebruiken van de [ dimensie van de Verbinding van de Activity Map ](activity-map-link.md) moeilijk zijn omdat de verbindingstekst constant verandert. Aangezien deze koppelingen echter hetzelfde gebied gebruiken, kunt u de prestaties van dat gebied analyseren, ook al kunnen afzonderlijke koppelingen elke dag veranderen.
+De &quot;Gebied van de Activity Map&quot;[&#x200B; dimensie &#x200B;](overview.md) toont de gebieden op uw plaats die het meest klikte. Deze dimensie is handig wanneer u kliks in overkoepelende gebieden van uw site wilt vergelijken in plaats van afzonderlijke koppelingen. Het is ook handig voor gebieden van uw site die dynamische inhoud leveren. Bijvoorbeeld, als u een voorpagina met het roteren van nieuwsartikelen hebt, zou het gebruiken van de [&#x200B; dimensie van de Verbinding van de Activity Map &#x200B;](activity-map-link.md) moeilijk zijn omdat de verbindingstekst constant verandert. Aangezien deze koppelingen echter hetzelfde gebied gebruiken, kunt u de prestaties van dat gebied analyseren, ook al kunnen afzonderlijke koppelingen elke dag veranderen.
 
 ## Deze dimensie vullen met gegevens
 
-Deze afmeting wint gegevens van de [ variabele van contextgegevens ](/help/implement/vars/page-vars/contextdata.md) terug `c.a.activitymap.region`. Als uw implementatie [ Activity Map ](/help/analyze/activity-map/overview.md) gebruikt, verzamelt deze variabele van contextgegevens automatisch gegevens wanneer de verbindingen worden geklikt.
+Deze afmeting wint gegevens van de [&#x200B; variabele van contextgegevens &#x200B;](/help/implement/vars/page-vars/contextdata.md) terug `c.a.activitymap.region`. Als uw implementatie [&#x200B; Activity Map &#x200B;](/help/analyze/activity-map/overview.md) gebruikt, verzamelt deze variabele van contextgegevens automatisch gegevens wanneer de verbindingen worden geklikt.
 
 Controleer voor een bepaalde koppeling waarop is geklikt het bovenliggende DOM-element op het volgende (in volgorde):
 

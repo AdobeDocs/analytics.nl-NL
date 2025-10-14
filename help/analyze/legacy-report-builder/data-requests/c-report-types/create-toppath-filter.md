@@ -31,7 +31,7 @@ Report Builder biedt padrapporten niet als zelfstandige rapporten, maar u kunt z
 
 1. Selecteer meerdere rijen in een bestaande aanvraag en klik met de rechtermuisknop op **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]** . U moet ten minste drie rijen selecteren als u het menu-item **[!UICONTROL Page Fallout]** wilt zien.
 
-   ![ Schermafbeelding die drie geselecteerde rijen tonen met de Add Afhankelijke geselecteerde optie van het Verzoek.](assets/dependen_request.png)
+   ![&#x200B; Schermafbeelding die drie geselecteerde rijen tonen met de Add Afhankelijke geselecteerde optie van het Verzoek.](assets/dependen_request.png)
 
 2. Selecteer het vooraf gedefinieerde filter, bijvoorbeeld **[!UICONTROL Previous Page]** .
 

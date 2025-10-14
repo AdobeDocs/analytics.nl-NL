@@ -26,11 +26,11 @@ AMO-klanten kunnen gebruikmaken van de bestaande integratie tussen Analytics en 
 
 Advertising Analytics is beschikbaar voor Adobe Analytics
 
-* [ Uitgezocht ](https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html)
+* [&#x200B; Uitgezocht &#x200B;](https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html)
 
-* [ Prime ](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html)
+* [&#x200B; Prime &#x200B;](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html)
 
-* [ Ultimate ](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html)
+* [&#x200B; Ultimate &#x200B;](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html)
 
 +++
 
@@ -105,7 +105,7 @@ Nee, de onbewerkte zoekgegevens worden opgenomen als een onafhankelijke gegevens
 
 +++ Ik probeer mijn Advertising Analytics-accounts toe te wijzen aan een specifieke rapportsuite, maar deze is niet beschikbaar in het modaal rapportenpakket. Waarom?
 
-Alvorens u een rapportreeks aan een rekening van Advertising Analytics kunt toewijzen, moet de gewenste rapportreeks [ worden voorzien voor Advertising Analytics die ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) rapporteert
+Alvorens u een rapportreeks aan een rekening van Advertising Analytics kunt toewijzen, moet de gewenste rapportreeks [&#x200B; worden voorzien voor Advertising Analytics die &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) rapporteert
 Dit gebeurt via een aparte beheerpagina die u kunt vinden op: Beheer > Rapportagesuites > `[select report suite]` > Instellingen bewerken > Advertising Analytics-configuratie.
 
 +++

@@ -20,7 +20,7 @@ Met de variabele `ActivityMap.region` kunt u de logica negeren die Activity Map 
 
 ## Waarden voor gebieden overschrijven met de Web SDK
 
-U kunt [`OnBeforeLinkClickSend` gebruiken ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) callback om de nuttige lading van SDK van het Web te veranderen of het verzenden van gegevens te aborteren.
+U kunt [`OnBeforeLinkClickSend` gebruiken &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) callback om de nuttige lading van SDK van het Web te veranderen of het verzenden van gegevens te aborteren.
 
 ## Regio overschrijven met Adobe Analytics-extensie
 
@@ -33,7 +33,7 @@ Wijs deze variabele een functie toe die:
 * Ontvangt het HTML-element waarop is geklikt; en
 * Retourneert een tekenreekswaarde. Deze koordwaarde is de definitieve waarde die voor de [&#128279;](/help/components/dimensions/activity-map-region.md) dimensie van het Gebied van Activity Map wordt gebruikt.
 
-Als de terugkeerwaarde [ vals ](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) is, worden alle de contextgegevensvariabelen van Activity Map ontruimd en geen verbindingsgegevens worden gevolgd.
+Als de terugkeerwaarde [&#x200B; vals &#x200B;](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) is, worden alle de contextgegevensvariabelen van Activity Map ontruimd en geen verbindingsgegevens worden gevolgd.
 
 ## Voorbeelden
 

@@ -22,7 +22,7 @@ Voor rapporten met correlatieonderverdelingen die binnen de rapportlijst worden 
 
 >[!NOTE]
 >
->U kunt ook een verzoek tot uitsplitsing toevoegen wanneer u het oorspronkelijke verzoek maakt. Zie [ een Verzoek van Gegevens ](/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md) creëren.
+>U kunt ook een verzoek tot uitsplitsing toevoegen wanneer u het oorspronkelijke verzoek maakt. Zie [&#x200B; een Verzoek van Gegevens &#x200B;](/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md) creëren.
 
 >[!NOTE]
 >

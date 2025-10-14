@@ -33,7 +33,7 @@ Tekenreeksen voor query&#39;s worden niet uit het XDM-veld verwijderd `web.webIn
 
 [!UICONTROL Keep URL Parameters] is een selectievakje onder de accordeon van [!UICONTROL Link Tracking] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 4. Vouw de accordeon [!UICONTROL Link Tracking] uit, zodat het selectievakje [!UICONTROL Keep URL Parameters] zichtbaar wordt.

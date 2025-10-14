@@ -32,4 +32,4 @@ Bestandsnaam die u gebruikt, mag maximaal 255 tekens bevatten. Bovendien mag de 
 
 Tot slot kunt u geen karakters van Unicode voorbij de reeks uitgebreide karakters van ASCII gebruiken.
 
-Wanneer het bewaren van het dossier aan een plaats op uw lokale of netwerkaandrijving, kunt u de volledige weg in het tekstvakje ingaan, of op doorbladert knoop ![ browse_button.gif ](assets/browse_button.gif) naast het [!UICONTROL Save As] tekstvakje klikken.
+Wanneer het bewaren van het dossier aan een plaats op uw lokale of netwerkaandrijving, kunt u de volledige weg in het tekstvakje ingaan, of op doorbladert knoop ![&#x200B; browse_button.gif &#x200B;](assets/browse_button.gif) naast het [!UICONTROL Save As] tekstvakje klikken.

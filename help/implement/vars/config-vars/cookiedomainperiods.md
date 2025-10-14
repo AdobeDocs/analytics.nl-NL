@@ -32,7 +32,7 @@ Met de `cookieDomainPeriods` -variabele kon AppMeasurement bepalen waar Analytic
 >
 >Houd geen rekening met subdomeinen voor deze variabele. Stel bijvoorbeeld `cookieDomainPeriods` niet in op de voorbeeld-URL `store.toys.example.com` . AppMeasurement herkent dat cookies worden opgeslagen op `example.com` , zelfs op URL&#39;s met veel subdomeinen.
 
-Voor implementaties op AppMeasurement v2.26.x of later, wordt het [`s_ac` ](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/cookies/analytics) koekje gebruikt helpen automatisch het correcte koekjesdomein bepalen. De bibliotheek probeert eerst een cookie te schrijven, die twee domeinperiodes omvat. Als het instellen van dit cookie mislukt, wordt het opnieuw geprobeerd, inclusief meer domeinperiodes totdat het cookie is gelukt. Deze cookie wordt direct verwijderd zodra deze is ingesteld.
+Voor implementaties op AppMeasurement v2.26.x of later, wordt het [`s_ac` &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/cookies/analytics) koekje gebruikt helpen automatisch het correcte koekjesdomein bepalen. De bibliotheek probeert eerst een cookie te schrijven, die twee domeinperiodes omvat. Als het instellen van dit cookie mislukt, wordt het opnieuw geprobeerd, inclusief meer domeinperiodes totdat het cookie is gelukt. Deze cookie wordt direct verwijderd zodra deze is ingesteld.
 
 ## Domeinperiodes kopiëren met gebruik van Web SDK
 
@@ -42,7 +42,7 @@ De Web SDK bepaalt automatisch het correcte domein om koekjes te plaatsen.
 
 **[!UICONTROL Domain Periods]** is een veld onder de accordeon van [!UICONTROL Cookies] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 1. Vouw de accordeon [!UICONTROL Cookies] uit, zodat het veld [!UICONTROL Domain Periods] zichtbaar wordt.

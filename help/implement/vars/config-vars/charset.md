@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De variabele `charSet` wordt door Adobe gebruikt om binnenkomende gegevens om te zetten in UTF-8 voor opslag en rapportage door Analytics. De meeste sites hoeven deze variabele niet in te stellen.
 
-Plaats deze variabele slechts als u verstoorde waarden ([ mojibake ](https://en.wikipedia.org/wiki/Mojibake)) in rapporten ziet. U kunt deze variabele per pagina instellen als uw site verschillende coderingen op verschillende pagina&#39;s gebruikt.
+Plaats deze variabele slechts als u verstoorde waarden ([&#x200B; mojibake &#x200B;](https://en.wikipedia.org/wiki/Mojibake)) in rapporten ziet. U kunt deze variabele per pagina instellen als uw site verschillende coderingen op verschillende pagina&#39;s gebruikt.
 
 ## Tekenset in de Web SDK
 
@@ -25,7 +25,7 @@ Web SDK steunt momenteel slechts UTF-8, en verstrekt geen opties om het coderen 
 
 Tekenset is een veld onder de accordion [!UICONTROL General] wanneer u de Adobe Analytics-extensie configureert in Adobe Experience Platform-gegevensverzameling.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 1. Vouw de accordeon [!UICONTROL General] uit, zodat het veld [!UICONTROL Character Set] zichtbaar wordt.

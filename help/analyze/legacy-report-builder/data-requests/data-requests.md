@@ -17,23 +17,23 @@ ht-degree: 0%
 
 Voor de Tovenaar van het Verzoek: Stap 1 vorm, selecteert u de rapportreeks, rapporttype, segmenten, en vormt data.
 
-![ Screenshot die de Tovenaar van het Verzoek toont: Stap 1 vorm.](assets/rw1_overview.png)
+![&#x200B; Screenshot die de Tovenaar van het Verzoek toont: Stap 1 vorm.](assets/rw1_overview.png)
 
-1. **[!UICONTROL Report Suite]**: De lijst van rapportreeksen beschikbaar aan u die op uw login geloofsbrieven wordt gebaseerd. Zie [ Uitgezochte de Reeksen van het Rapport ](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **[!UICONTROL Report Suite]**: De lijst van rapportreeksen beschikbaar aan u die op uw login geloofsbrieven wordt gebaseerd. Zie [&#x200B; Uitgezochte de Reeksen van het Rapport &#x200B;](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **de Selecteur van de Waaier**: Laat u een identiteitskaart van de rapportreeks van een cel in Excel selecteren. Zie [ Uitgezochte de Reeksen van het Rapport ](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **de Selecteur van de Waaier**: Laat u een identiteitskaart van de rapportreeks van een cel in Excel selecteren. Zie [&#x200B; Uitgezochte de Reeksen van het Rapport &#x200B;](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segment**: De segmenten zijn douanesubsets van gegevens, of gegevens die door regels worden gefilterd die u creeert. Segmenten zijn gebaseerd op hits, bezoeken en bezoekers. Zie de [ Gids van de Segmentatie van de Analyse ](/help/components/segmentation/seg-home.md) voor meer informatie over segmenten.
+1. **Segment**: De segmenten zijn douanesubsets van gegevens, of gegevens die door regels worden gefilterd die u creeert. Segmenten zijn gebaseerd op hits, bezoeken en bezoekers. Zie de [&#x200B; Gids van de Segmentatie van de Analyse &#x200B;](/help/components/segmentation/seg-home.md) voor meer informatie over segmenten.
 
    U kunt bijvoorbeeld een [!UICONTROL Pages Report] -segment uitvoeren en vervolgens een eerste bezoekerssegment toepassen.
 
-1. **staat het Publiceren van de Lijst met voeten**: Het publiceren lijsten waren een eigenschap in Rapporten &amp; Analytics, die [ eind-van-opgeheven ](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?) is geweest.
+1. **staat het Publiceren van de Lijst met voeten**: Het publiceren lijsten waren een eigenschap in Rapporten &amp; Analytics, die [&#x200B; eind-van-opgeheven &#x200B;](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?) is geweest.
 
-1. **Type van Rapport**: Specificeert het basisrapport u in uw gegevensverzoek wilt lopen. U stelt één rapport per verzoek in werking, en dat rapport kan één-aan-vele dimensies en één-aan-vele metriek hebben. De metriek en de afmetingen voor een rapporttype worden getoond op de [!UICONTROL Request Wizard; Step 2] interface. Zie [ Uitgezochte Types van Rapport ](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md).
+1. **Type van Rapport**: Specificeert het basisrapport u in uw gegevensverzoek wilt lopen. U stelt één rapport per verzoek in werking, en dat rapport kan één-aan-vele dimensies en één-aan-vele metriek hebben. De metriek en de afmetingen voor een rapporttype worden getoond op de [!UICONTROL Request Wizard; Step 2] interface. Zie [&#x200B; Uitgezochte Types van Rapport &#x200B;](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md).
 
-1. **de Waaier van de Datum**: Bepaalt de tijdspanwijdte die door het verzoek wordt behandeld. Er zijn verschillende soorten aanvraagtijdsperiodes beschikbaar, zoals vooraf ingesteld, vast en rollen. Het maximumaantal termijnen is 366. U kunt ook een datumbereik kiezen dat door een cel is opgegeven en datumbereiken opslaan als sjablonen voor later gebruik.  Zie [ Vormend de Datums van het Rapport ](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+1. **de Waaier van de Datum**: Bepaalt de tijdspanwijdte die door het verzoek wordt behandeld. Er zijn verschillende soorten aanvraagtijdsperiodes beschikbaar, zoals vooraf ingesteld, vast en rollen. Het maximumaantal termijnen is 366. U kunt ook een datumbereik kiezen dat door een cel is opgegeven en datumbereiken opslaan als sjablonen voor later gebruik.  Zie [&#x200B; Vormend de Datums van het Rapport &#x200B;](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 
-1. **pas Korreligheid** toe: Specificeert het niveau van op tijd-gebaseerd detail dat in het rapport inbegrepen is. Zie [ Korreligheid ](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md).
+1. **pas Korreligheid** toe: Specificeert het niveau van op tijd-gebaseerd detail dat in het rapport inbegrepen is. Zie [&#x200B; Korreligheid &#x200B;](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md).
 
 ## Problemen oplossen
 

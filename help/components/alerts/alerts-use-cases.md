@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gebruiksgevallen met waarschuwing
 
-U kunt alarm tot stand brengen zoals die in [ wordt beschreven leidt alarm ](alert-builder.md) tot.
+U kunt alarm tot stand brengen zoals die in [&#x200B; wordt beschreven leidt alarm &#x200B;](alert-builder.md) tot.
 
 In de volgende secties ziet u voorbeelden van gebruiksgevallen die u kunt overwegen wanneer u waarschuwingen maakt.
 

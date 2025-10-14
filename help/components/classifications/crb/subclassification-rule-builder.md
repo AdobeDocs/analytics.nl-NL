@@ -18,7 +18,7 @@ U kunt de Bouwer van de Regel van de Classificatie met sub-classificaties combin
 
 Het combineren van de functie voor classificatieregel met subclassificaties kan het beheer van classificaties vereenvoudigen en het aantal vereiste regels verminderen. Dit kan handig zijn als uw code voor bijhouden bestaat uit codes die u afzonderlijk wilt classificeren.
 
-Zie [ Subclassificaties ](/help/components/classifications/importer/subclassifications.md) voor conceptuele informatie over sub-classificaties.
+Zie [&#x200B; Subclassificaties &#x200B;](/help/components/classifications/importer/subclassifications.md) voor conceptuele informatie over sub-classificaties.
 
 ## Voorbeeld
 
@@ -30,7 +30,7 @@ Met een classificatiehiërarchie kunt u een classificatie toepassen op een class
 
 ![](assets/sub_class_table.png)
 
-Nadat u deze structuur op zijn plaats hebt, kunt u de [ Bouwer van de Regel van Classificaties ](/help/components/classifications/crb/classification-rule-builder.md) gebruiken om kleine dossiers te uploaden die slechts de raadplegingslijsten (de groene en rode lijsten in het voorafgaande beeld) bijwerken. Dan, kunt u de regelbouwer gebruiken om de belangrijkste classificatielijst bijgewerkt te houden.
+Nadat u deze structuur op zijn plaats hebt, kunt u de [&#x200B; Bouwer van de Regel van Classificaties &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) gebruiken om kleine dossiers te uploaden die slechts de raadplegingslijsten (de groene en rode lijsten in het voorafgaande beeld) bijwerken. Dan, kunt u de regelbouwer gebruiken om de belangrijkste classificatielijst bijgewerkt te houden.
 
 In de volgende taak wordt beschreven hoe u dit kunt doen.
 
@@ -42,9 +42,9 @@ De stappen van het voorbeeld die beschrijven hoe u subclassificaties kunt upload
 
    Voorbeeld:
 
-   ![ Info van de Stap ](/help/admin/tools/assets/sub_class_create.png)
+   ![&#x200B; Info van de Stap &#x200B;](/help/admin/tools/assets/sub_class_create.png)
 
-1. In de [ bouwer van de classificatieregel van Classificaties ](/help/components/classifications/crb/classification-rule-builder.md), classificeer de sub-classificatiesleutel van de originele volgende code.
+1. In de [&#x200B; bouwer van de classificatieregel van Classificaties &#x200B;](/help/components/classifications/crb/classification-rule-builder.md), classificeer de sub-classificatiesleutel van de originele volgende code.
 
    U voert dit uit gebruikend een regelmatige uitdrukking. In dit voorbeeld gebruikt de regel om *`Broad Campaign code`* te vullen deze reguliere expressie:
 
@@ -59,7 +59,7 @@ De stappen van het voorbeeld die beschrijven hoe u subclassificaties kunt upload
 
 1. Upload een classificatiebestand dat alleen de opgegeven subclassificaties bevat.
 
-   Zie [ Veelvoudige Classificaties ](/help/components/classifications/importer/subclassifications.md).
+   Zie [&#x200B; Veelvoudige Classificaties &#x200B;](/help/components/classifications/importer/subclassifications.md).
 
    Voorbeeld:
 

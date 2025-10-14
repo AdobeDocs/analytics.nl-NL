@@ -46,7 +46,7 @@ Gebruik het deelvenster OPDRACHTEN voor toegang tot opdrachten die compatibel zi
 
 Wanneer u een of meer gegevensblokken in een spreadsheet selecteert, geeft Report Builder het deelvenster SNEL BEWERKEN weer. U kunt het deelvenster SNEL BEWERKEN gebruiken om parameters in één gegevensblok te wijzigen of om parameters in meerdere gegevensblokken tegelijk te wijzigen.
 
-![ Snel geeft paneel in Report Builder uit ](./assets/hub2.png)
+![&#x200B; Snel geeft paneel in Report Builder uit &#x200B;](./assets/hub2.png)
 
 De wijzigingen die u hebt aangebracht met de secties Snel bewerken zijn van toepassing op alle geselecteerde gegevensblokken.
 
@@ -58,7 +58,7 @@ Wanneer u de rapportsuite wijzigt, nemen alle gegevensblokken in de selectie de 
 
 Om de rapportreeks te veranderen, selecteer een nieuwe rapportreeks van het drop-down menu.
 
-![ de Hub van Report Builder die het drop-down menu van de rapportreeks toont.](./assets/image16.png)
+![&#x200B; de Hub van Report Builder die het drop-down menu van de rapportreeks toont.](./assets/image16.png)
 
 ### Datumbereik
 

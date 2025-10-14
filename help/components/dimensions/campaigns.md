@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Campagnes
 
-De &quot;Campagnes&quot; [ dimensie ](overview.md) kan verwijzen naar:
+De &quot;Campagnes&quot; [&#x200B; dimensie &#x200B;](overview.md) kan verwijzen naar:
 
-* A [ classificatie ](../classifications/classifications-overview.md) creeerde automatisch in sommige rapportsuites. Het is gebaseerd op de [ het Volgen code ](tracking-code.md) dimensie.
-* De [ het Volgen code ](tracking-code.md) dimensie zelf, die de [ campagne ](/help/implement/vars/page-vars/campaign.md) implementatievariabele gebruikt.
+* A [&#x200B; classificatie &#x200B;](../classifications/classifications-overview.md) creeerde automatisch in sommige rapportsuites. Het is gebaseerd op de [&#x200B; het Volgen code &#x200B;](tracking-code.md) dimensie.
+* De [&#x200B; het Volgen code &#x200B;](tracking-code.md) dimensie zelf, die de [&#x200B; campagne &#x200B;](/help/implement/vars/page-vars/campaign.md) implementatievariabele gebruikt.

@@ -17,7 +17,7 @@ Met Custom Insight Traffic Variables (of props) kunt u aangepaste gegevens koppe
 
 >[!TIP]
 >
->Adobe adviseert gebruikend [ eVars ](/help/implement/vars/page-vars/evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. Adobe heeft de eVars echter zodanig verbeterd dat ze nu bijna alle gevallen van gebruik voor props vervullen.
+>Adobe adviseert gebruikend [&#x200B; eVars &#x200B;](/help/implement/vars/page-vars/evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. Adobe heeft de eVars echter zodanig verbeterd dat ze nu bijna alle gevallen van gebruik voor props vervullen.
 
 U kunt verkeersveranderlijke rapporten toevoegen en toelaten. U kunt bestaande rapporten van de verkeersvariabele ook onbruikbaar maken of anders noemen.
 
@@ -48,4 +48,4 @@ Om een rapport van de verkeersvariabele onbruikbaar te maken:
 1. In de [!UICONTROL **kolom van de Naam**], specificeer een nieuwe naam voor het rapport.
 1. Selecteer [!UICONTROL **sparen**].
 
-Zie ook [ prep ](/help/implement/vars/page-vars/prop.md) in de de gebruikersgids van het Uitvoeren.
+Zie ook [&#x200B; prep &#x200B;](/help/implement/vars/page-vars/prop.md) in de de gebruikersgids van het Uitvoeren.

@@ -12,11 +12,11 @@ ht-degree: 1%
 
 # Basisdimensies voor streaming mediaservices
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat. Zie [ Streaming media diensten kernmetriek ](../metrics/sm-core.md) voor beschikbare metriek.*
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat. Zie [&#x200B; Streaming media diensten kernmetriek &#x200B;](../metrics/sm-core.md) voor beschikbare metriek.*
 
 De belangrijkste dimensies van de streaming media diensten verstrekken basisrapporteringsfunctionaliteit aan gegevens die door het stromen de dienstenbibliotheken van media worden verzameld. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Media Core]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
+Wanneer u **[!UICONTROL Media Core]** onder [&#x200B; Media die &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
 | Dimension-naam | Beschrijving | Verzonden met | Variabele van contextgegevens |
 | --- | --- | --- | --- |

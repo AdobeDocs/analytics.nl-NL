@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Streaming mediaservices - kerngegevens
 
-*Deze pagina beschrijft de beschikbare metriek wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat. Zie [ Streaming media diensten kernafmetingen ](../dimensions/sm-core.md) voor beschikbare dimensies.*
+*Deze pagina beschrijft de beschikbare metriek wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat. Zie [&#x200B; Streaming media diensten kernafmetingen &#x200B;](../dimensions/sm-core.md) voor beschikbare dimensies.*
 
 De streaming media de kernmetriek van de diensten verstrekken basisrapporteringsfunctionaliteit aan gegevens die door de inzamelingsbibliotheken van de media van de stromen worden verzameld. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Media Core]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
+Wanneer u **[!UICONTROL Media Core]** onder [&#x200B; Media die &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
 
 | Metrische naam | Beschrijving | Verzonden met | Variabele van contextgegevens |
 | --- | --- | --- | --- |

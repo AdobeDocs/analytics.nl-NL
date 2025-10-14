@@ -35,13 +35,13 @@ Adobe Analytics gebruikt hashes met 32 bits voor de meeste afmetingen, zo beteke
 
 {style="table-layout:auto"}
 
-Gelijkaardig aan de [ verjaardagsparadox ](https://en.wikipedia.org/wiki/Birthday_problem), neemt de waarschijnlijkheid van knoeiboelbotsingen drastisch toe aangezien het aantal unieke waarden stijgt. Bij 1 miljoen unieke waarden, is het waarschijnlijk dat er minstens 100 knoeiboelbotsingen voor die dimensie zijn.
+Gelijkaardig aan de [&#x200B; verjaardagsparadox &#x200B;](https://en.wikipedia.org/wiki/Birthday_problem), neemt de waarschijnlijkheid van knoeiboelbotsingen drastisch toe aangezien het aantal unieke waarden stijgt. Bij 1 miljoen unieke waarden, is het waarschijnlijk dat er minstens 100 knoeiboelbotsingen voor die dimensie zijn.
 
 ## Hashbotsingen verminderen
 
 De meeste hash-botsingen gebeuren met twee ongebruikelijke waarden, die geen betekenisvolle invloed hebben op rapporten. Zelfs als een hash een algemene en soms voorkomende waarde heeft, is het resultaat te verwaarlozen. In zeldzame gevallen waarin twee populaire waarden een hash-botsing ervaren, is het echter mogelijk het effect ervan duidelijk te zien. Adobe raadt het volgende aan om het effect ervan in rapporten te beperken:
 
 * **verander de datumwaaier**: De lijsten van de knoeiboel veranderen elke maand. Als u het datumbereik wijzigt in een tijdsbereik van een andere maand, kan elke waarde verschillende hashes hebben die niet botsen.
-* **Verlaag het aantal unieke waarden**: U kunt uw implementatie aanpassen of [ de regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) gebruiken helpen het aantal unieke waarden verminderen die een dimensie verzamelt. Als uw dimensie bijvoorbeeld een URL verzamelt, kunt u querytekenreeksen of -protocol verwijderen.
+* **Verlaag het aantal unieke waarden**: U kunt uw implementatie aanpassen of [&#x200B; de regels van de Verwerking &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) gebruiken helpen het aantal unieke waarden verminderen die een dimensie verzamelt. Als uw dimensie bijvoorbeeld een URL verzamelt, kunt u querytekenreeksen of -protocol verwijderen.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

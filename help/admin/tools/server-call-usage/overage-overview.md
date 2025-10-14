@@ -26,7 +26,7 @@ De belangrijkste voordelen van servervraaggebruik omvatten:
 ## Vereisten {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **Toestemmingen:** om tot het het gebruiksdashboard van de servervraag en waakzame bouwer of waakzame manager toegang te hebben, moet u een Beheerder van Adobe Analytics zijn.
-* **Toestemmingen:** de Beheerders kunnen toegang tot niet-admins verlenen: de toestemming wordt geroepen **[!UICONTROL Server call usage]**. Zie [ toestemming van het de vraaggebruik van de Server ](#server-call-usage-permission).
+* **Toestemmingen:** de Beheerders kunnen toegang tot niet-admins verlenen: de toestemming wordt geroepen **[!UICONTROL Server call usage]**. Zie [&#x200B; toestemming van het de vraaggebruik van de Server &#x200B;](#server-call-usage-permission).
 
 ## Belangrijke terminologie {#terminology}
 

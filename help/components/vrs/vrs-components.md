@@ -17,14 +17,14 @@ Virtuele rapportsuites kunnen worden gebogen om components.in Analysis Workspace
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de kromming van de Component ](https://video.tv.adobe.com/v/3425524?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de kromming van de Component &#x200B;](https://video.tv.adobe.com/v/3425524?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in beheerde Workspace-projecten en virtuele rapportensuites. Eerder kon iedereen niet-gekromde componenten zien door op **[!UICONTROL Show all Components]** te klikken. De [ bijgewerkte curvaring ](/help/analyze/analysis-workspace/curate-share/curate.md) staat voor meer fijnkorrelige controle toe waarover de componenten zichtbaar zijn.
+>Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in beheerde Workspace-projecten en virtuele rapportensuites. Eerder kon iedereen niet-gekromde componenten zien door op **[!UICONTROL Show all Components]** te klikken. De [&#x200B; bijgewerkte curvaring &#x200B;](/help/analyze/analysis-workspace/curate-share/curate.md) staat voor meer fijnkorrelige controle toe waarover de componenten zichtbaar zijn.
 
 U kunt als volgt componentcuratie inschakelen:
 
@@ -77,4 +77,4 @@ Gebruik componentengroepen om bulkcomponenttoevoegingen aan uw virtuele rapportr
 
 ## Workspace-gedrag {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Voor meer informatie over curatie in Analysis Workspace, zie [ Kromme en deel een Project ](/help/analyze/analysis-workspace/curate-share/curate.md).
+Voor meer informatie over curatie in Analysis Workspace, zie [&#x200B; Kromme en deel een Project &#x200B;](/help/analyze/analysis-workspace/curate-share/curate.md).

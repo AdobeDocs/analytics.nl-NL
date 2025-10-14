@@ -23,7 +23,7 @@ Configureer de initiële gegevensblokparameters voor de locatie van het gegevens
 
 1. Klik op **[!UICONTROL Create]**.
 
-   ![ Schermafbeelding die de Create optie van het gegevensblok toont.](./assets/create_db.png)
+   ![&#x200B; Schermafbeelding die de Create optie van het gegevensblok toont.](./assets/create_db.png)
 
 1. Stel de **[!UICONTROL Data block location]** in.
 
@@ -39,11 +39,11 @@ Configureer de initiële gegevensblokparameters voor de locatie van het gegevens
 
 1. Stel de **[!UICONTROL Date range]** in.
 
-   Met de optie Datumbereik kunt u een datumbereik kiezen. Datumbereiken kunnen vast zijn of doorlopen. Voor informatie over de opties van de gegevenswaaier, zie [ Selecteer een Waaier van de Datum ](select-date-range.md).
+   Met de optie Datumbereik kunt u een datumbereik kiezen. Datumbereiken kunnen vast zijn of doorlopen. Voor informatie over de opties van de gegevenswaaier, zie [&#x200B; Selecteer een Waaier van de Datum &#x200B;](select-date-range.md).
 
 1. Klik op **[!UICONTROL Next]**.
 
-   ![ Schermafbeelding die de optie van de datumwaaier en de actieve Volgende knoop tonen.](./assets/choose_date_report_suite.png)
+   ![&#x200B; Schermafbeelding die de optie van de datumwaaier en de actieve Volgende knoop tonen.](./assets/choose_date_report_suite.png)
 
    Nadat u het gegevensblok vormt, kunt u afmetingen, metriek, en segmenten selecteren om uw gegevensblok te bouwen. De tabbladen Dimensionen, Metriek en Filters worden boven het deelvenster Tabelbouwer weergegeven.
 
@@ -65,7 +65,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    Stel de **[!UICONTROL Start date]** in als een dimensie om de begindatum van uw gegevensblok duidelijk te identificeren. Dit is nuttig als u een regelmatig gepland rapport hebt dat een het rollen datumwaaier heeft of als u een onconventioneel datumwaaier hebt en u op de begindatum duidelijk moet zijn.
 
-   ![ het Schermafbeelding die de datum van het Begin in de lijst van dimensies toont.](./assets/start-date-dimension.png){width="30%"}
+   ![&#x200B; het Schermafbeelding die de datum van het Begin in de lijst van dimensies toont.](./assets/start-date-dimension.png){width="30%"}
 
 1. Rangschik de punten in de ruit van de Lijst om de lay-out van uw gegevensblok aan te passen.
 
@@ -73,13 +73,13 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    Wanneer u componenten aan de lijst toevoegt, wordt een voorproef van het gegevensblok getoond bij de het blokplaats van Gegevens in het aantekenvel. De lay-out van de voorvertoning van gegevensblokken wordt automatisch bijgewerkt wanneer u items in de tabel toevoegt, verplaatst of verwijdert.
 
-   ![ Schermafbeelding die de toegevoegde componenten en het bijgewerkte werkblad tonen.](./assets/image10.png)
+   ![&#x200B; Schermafbeelding die de toegevoegde componenten en het bijgewerkte werkblad tonen.](./assets/image10.png)
 
    **Vertoning of verbergt rij en kolomkopballen**
 
 1. Klik op het pictogram **[!UICONTROL Table settings]** .
 
-   ![ Schermafbeelding die de de montagesoptie van de Lijst toont.](./assets/table-settings.png){width="35%"}
+   ![&#x200B; Schermafbeelding die de de montagesoptie van de Lijst toont.](./assets/table-settings.png){width="35%"}
 
 1. Schakel de optie Rij- en kolomkoppen weergeven in of uit. De kopteksten worden standaard weergegeven.
 
@@ -87,7 +87,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
 1. Klik op het ellipspictogram op de afmetingen of de kolomkoppen om de instellingen weer te geven.
 
-   ![ het weglatingspictogram in de sectie van de Rij.](./assets/row-heading.png){width="35%"}
+   ![&#x200B; het weglatingspictogram in de sectie van de Rij.](./assets/row-heading.png){width="35%"}
 
 1. Klik op Verbergen of Tonen om de dimensielabels of kolomkoppen in en uit te schakelen. Alle labels worden standaard weergegeven.
 
@@ -97,4 +97,4 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    De Report Builder wint de gegevens terug en toont het voltooide gegevensblok in het aantekenvel.
 
-   ![ het voltooide gegevensblok.](./assets/image12.png)
+   ![&#x200B; het voltooide gegevensblok.](./assets/image12.png)

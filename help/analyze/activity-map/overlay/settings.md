@@ -27,7 +27,7 @@ Wijzig de algemene instellingen voor de extensie en de bedekkingen.
 * **[!UICONTROL Language]**: hiermee wijzigt u de taal voor extensielabels voor Activity Mappen. Met deze instelling wijzigt u de inhoud van uw website en de namen van koppelingen in rapporten niet. Tot de ondersteunde talen behoren Engels, Frans, Chinees (vereenvoudigd), Chinees (traditioneel), Duits, Japans, Koreaans, Spaans en Portugees.
 * **[!UICONTROL Label overlays with]** - Hiermee wordt bepaald wat de bubbel- of verlooptekst is. De standaardinstelling is [!UICONTROL Rank] . U kunt onder andere de volgende opties kiezen:
    * **[!UICONTROL No label]**: Geen tekst binnen de labels, waardoor deze gekleurde vakken krijgen
-   * **[!UICONTROL Value]**: Toont het aantal verbinding klikt ([ Voorkomen ](/help/components/metrics/occurrences.md))
+   * **[!UICONTROL Value]**: Toont het aantal verbinding klikt ([&#x200B; Voorkomen &#x200B;](/help/components/metrics/occurrences.md))
    * **[!UICONTROL Percent]**: geeft het aandeel van klikken op koppelingen weer in verhouding tot het totale aantal klikken op koppelingen op de pagina
    * **[!UICONTROL Rank]**: De numerieke positie van de koppeling op basis van het aantal koppelingen waarop wordt geklikt.
 * **[!UICONTROL Label font size]** - Hiermee bepaalt u de grootte van de tekst binnen de bel of het verloop.

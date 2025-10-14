@@ -19,7 +19,7 @@ De variabelen van de configuratie controleren de manier de gegevens in rapporter
 
 In implementaties die de uitbreiding van SDK van het Web of de uitbreiding van Analytics gebruiken, worden de configuratievariabelen typisch gevonden in de montages van de uitbreiding:
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Klik op de tab [!UICONTROL Extensions] en klik vervolgens op [!UICONTROL Configure] onder de extensie.
 

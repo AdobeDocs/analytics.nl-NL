@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Adobe Analytics implementeren met de extensie Analytics
 
-Tijdens de levensduur van Adobe Analytics heeft Adobe verschillende methoden aangeboden om code op uw site te implementeren voor gegevensverzameling. Adobe momenteel geadviseerde methode is door [ Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL) in Adobe Experience Platform.
+Tijdens de levensduur van Adobe Analytics heeft Adobe verschillende methoden aangeboden om code op uw site te implementeren voor gegevensverzameling. Adobe momenteel geadviseerde methode is door [&#x200B; Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL) in Adobe Experience Platform.
 
 Tags in Adobe Experience Platform zijn een oplossing voor tagbeheer waarmee u naast andere coderingsvereisten ook analytische code kunt implementeren. Adobe biedt integratie met andere oplossingen en producten, en laat u douanecode opstellen. Al deze taken kunnen worden uitgevoerd zonder dat ontwikkelingsteams in uw organisatie code op uw site hoeven bij te werken.
 
@@ -23,7 +23,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 
 
-![ hoe te om Adobe Analytics uit te voeren gebruikend het de uitbreidingswerkschema van Analytics, zoals die in deze sectie wordt beschreven.](../assets/analytics-extension-annotated.png)
+![&#x200B; hoe te om Adobe Analytics uit te voeren gebruikend het de uitbreidingswerkschema van Analytics, zoals die in deze sectie wordt beschreven.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -74,6 +74,6 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 Tags kunnen zeer aangepast worden. Meer informatie over hoe u optimaal kunt profiteren van Adobe Analytics door de juiste gegevens op te nemen in uw implementatie.
 
-- [ de documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL#): Leer hoe de interface werkt en welke uitbreidingen beschikbaar zijn.
+- [&#x200B; de documentatie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL#): Leer hoe de interface werkt en welke uitbreidingen beschikbaar zijn.
 
-- [ de variabelen van de Implementatie ](../vars/overview.md): Bepaal welke variabelen u naar de servers van de gegevensinzameling wilt verzenden.
+- [&#x200B; de variabelen van de Implementatie &#x200B;](../vars/overview.md): Bepaal welke variabelen u naar de servers van de gegevensinzameling wilt verzenden.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe adviseert in plaats daarvan het gebruiken van de [ Debugger Chrome Uitbreiding van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL).
+>Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe adviseert in plaats daarvan het gebruiken van de [&#x200B; Debugger Chrome Uitbreiding van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL).
 
 De [!UICONTROL Legacy Debugger] inspecteert tags voor de meeste Adobe Experience Cloud-services. Met het foutopsporingsprogramma kunt u zien welke gegevens op een bepaalde pagina op uw site naar Adobe worden verzonden. U kunt deze informatie gebruiken om de implementatie van uw organisatie problemen op te lossen of te bevestigen.
 
@@ -37,7 +37,7 @@ Elke browser heeft verschillende manieren om bladwijzers af te handelen, maar he
 
 #### Chrome
 
-Als u erop aandringt om de [ uitbreiding van het chroom ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) niet te gebruiken, kan de erfenisdebugger bookmarklet in plaats daarvan worden gebruikt.
+Als u erop aandringt om de [&#x200B; uitbreiding van het chroom &#x200B;](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) niet te gebruiken, kan de erfenisdebugger bookmarklet in plaats daarvan worden gebruikt.
 
 1. Klik op de drie stippen in de rechterbovenhoek en ga naar Bladwijzers > Bladwijzerbeheer. U kunt ook op `Ctrl` + `Shift` + `O` (Windows) of `Cmd` + `Shift` + `O` (Mac) drukken.
 2. Rechtsboven in de bladwijzermanager klikt u op de drie stippen en vervolgens op Nieuwe bladwijzer toevoegen.
@@ -83,6 +83,6 @@ Debugger heeft verscheidene beschikbare opties, die allen aanpassen hoe het gege
 * **Weergegeven producten van Experience Cloud:** toont of verbergt beeldverzoeken voor elk respectieve product van Experience Cloud.
 * **Decode URL:** URL decodeert het beeldverzoek om aan te passen wat in het melden wordt getoond. Adobe raadt aan dit selectievakje ingeschakeld te laten.
 * **auto verfrist zich:** verfrist automatisch pop-up om de paar seconden om meer beeldverzoeken op de pagina te controleren. Als u inhoud in debugger moet kopiëren/kleven, maak auto-verfrist onbruikbaar zodat uw selectie blijft.
-* **vriendschappelijk Formaat:** knevels het vertoningsformaat tussen nuttige etiketten en ruwe vraagkoorden in een beeldverzoek. Zie [ parameters van de inzamelingsvraag van Gegevens ](query-parameters.md) voor meer informatie.
+* **vriendschappelijk Formaat:** knevels het vertoningsformaat tussen nuttige etiketten en ruwe vraagkoorden in een beeldverzoek. Zie [&#x200B; parameters van de inzamelingsvraag van Gegevens &#x200B;](query-parameters.md) voor meer informatie.
 
 Als u de standaardweergaveopties voor het foutopsporingsprogramma wilt opslaan, klikt u met de rechtermuisknop op de koppeling &#39;Adobe Debugger&#39; in de rechterbovenhoek en kopieert u het koppelingsadres. Bewerk de huidige foutopsporingsbladwijzer en plak het bijgewerkte codefragment in het URL-veld.

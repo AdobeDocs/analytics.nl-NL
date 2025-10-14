@@ -18,24 +18,24 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 > Dit artikel verstrekt **klanten van Adobe Analytics die (van plan zijn om) Adobe Analytics** op hun website met instructies op uit te voeren hoe te om websitegebruikers van opt-out verbindingen te voorzien. <p><p>
-><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Als u **een website bezoekt die Adobe Analytics** heeft uitgevoerd, en u wilt uit kiezen, **<span style="color:red">is dit artikel NIET voor u</span>**. Gelieve te zien {de Keuzen van de Privacy van 0} Adobe [ om te controleren hoe Adobe uw informatie gebruikt.](https://www.adobe.com/privacy/opt-out.html)
+><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Als u **een website bezoekt die Adobe Analytics** heeft uitgevoerd, en u wilt uit kiezen, **<span style="color:red">is dit artikel NIET voor u</span>**. Gelieve te zien {de Keuzen van de Privacy van 0} Adobe [&#x200B; om te controleren hoe Adobe uw informatie gebruikt.](https://www.adobe.com/privacy/opt-out.html)
 
 Sommige bezoekers van uw website hebben liever geen informatie over het bladeren in uw gegevensset. Adobe biedt de mogelijkheid om bezoekers van uw website de mogelijkheid te bieden zich af te melden voor het analyseren van hun gegevens.
 
-Koppelingen met de optie om te weigeren zijn een manier waarop bezoekers van uw website hun gegevens kunnen weglaten uit de rapportage Analytics. Deze verbindingen zijn beperkt tot de implementaties van AppMeasurement; Adobe adviseert in plaats daarvan het gebruiken van de [ opt-in dienst van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=nl-NL). De open-in dienst is robuuster en werkt over veelvoudige producten van Adobe Experience Cloud, met inbegrip van Adobe Analytics en AppMeasurement.
+Koppelingen met de optie om te weigeren zijn een manier waarop bezoekers van uw website hun gegevens kunnen weglaten uit de rapportage Analytics. Deze verbindingen zijn beperkt tot de implementaties van AppMeasurement; Adobe adviseert in plaats daarvan het gebruiken van de [&#x200B; opt-in dienst van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=nl-NL). De open-in dienst is robuuster en werkt over veelvoudige producten van Adobe Experience Cloud, met inbegrip van Adobe Analytics en AppMeasurement.
 
 Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelcookie te installeren. Als een gebruiker ervoor kiest om niet te worden gevolgd en een uitschakelcookie wordt ingesteld, blijft AppMeasurement gegevens verzenden naar Adobe. Deze gegevens worden echter niet verwerkt of opgenomen in rapporten.
 
 >[!TIP]
 >
->Adobe biedt ook privacy-instellingen per rapportsuite. Zie [ Montages van de Privacy ](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md) in de Admin gebruikersgids.
+>Adobe biedt ook privacy-instellingen per rapportsuite. Zie [&#x200B; Montages van de Privacy &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md) in de Admin gebruikersgids.
 
 ## URL uitschakelen
 
 De pagina om te weigeren voor uw organisatie is afhankelijk van de waarde van de variabele [`trackingServer`](../vars/config-vars/trackingserver.md) in uw implementatie.
 
 * In de extensie Analytics:
-   1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+   1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
    1. Klik op de gewenste tageigenschap.
    1. Klik op de tab [!UICONTROL Extensions] en klik vervolgens op [!UICONTROL Configure] onder Adobe Analytics.
    1. Klik op de accordeon [!UICONTROL General] en noteer de waarde [!UICONTROL Tracking Server] .
@@ -44,7 +44,7 @@ De pagina om te weigeren voor uw organisatie is afhankelijk van de waarde van de
    1. Open op uw webserver het AppMeasurement.js-bestand dat op uw site wordt gebruikt, in een code- of teksteditor.
    1. Noteer de waarde van de variabele `trackingServer` .
 
-* Gebruikend [ Debugger van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=nl-NL):
+* Gebruikend [&#x200B; Debugger van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=nl-NL):
    1. Navigeer naar uw site met de Chrome-browser.
    1. Open de Experience Cloud Debugger en ga vervolgens naar de [!UICONTROL Network tab] .
    1. Noteer de waarde [!UICONTROL Request URL - Hostname] .

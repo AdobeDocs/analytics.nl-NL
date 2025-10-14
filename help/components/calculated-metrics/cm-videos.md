@@ -18,17 +18,17 @@ Deze korte video&#39;s bieden een overzicht van hoe u het gebruik van de gereeds
 
 >[!BEGINSHADEBOX]
 
-![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Snelle berekende metriek in Analysis Workspace ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=nl-NL){target="_blank"}
+![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Snelle berekende metriek in Analysis Workspace &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=nl-NL){target="_blank"}
 
-![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Metrische bouwer ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html?lang=nl-NL){target="_blank"}
+![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Metrische bouwer &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html?lang=nl-NL){target="_blank"}
 
-![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gesegmenteerde metriek ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=nl-NL){target="_blank"}
+![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gesegmenteerde metriek &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=nl-NL){target="_blank"}
 
-![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ implementatie-minder metriek ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=nl-NL){target="_blank"}
+![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; implementatie-minder metriek &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=nl-NL){target="_blank"}
 
-![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Functies ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html?lang=nl-NL){target="_blank"}
+![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Functies &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html?lang=nl-NL){target="_blank"}
 
-![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ beheert uw berekende metriek ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html?lang=nl-NL){target="_blank"}
+![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; beheert uw berekende metriek &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html?lang=nl-NL){target="_blank"}
 
 
 >[!ENDSHADEBOX]

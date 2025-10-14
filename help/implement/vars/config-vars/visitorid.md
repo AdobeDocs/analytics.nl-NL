@@ -17,13 +17,13 @@ Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. 
 
 >[!IMPORTANT]
 >
->Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [ Dienst van de Identiteit van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
+>Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [&#x200B; Dienst van de Identiteit van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
 
 ## Bezoeker-id met de Adobe Analytics-extensie
 
 [!UICONTROL Visitor ID] is een veld onder de accordeon van [!UICONTROL Cookies] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 4. Vouw de accordeon [!UICONTROL Cookies] uit, zodat het veld [!UICONTROL Visitor ID] zichtbaar wordt.
@@ -44,8 +44,8 @@ s.visitorID = "abc123";
 
 >[!CAUTION]
 >
->Een ongeldige implementatie van aangepaste gebruikers-id&#39;s voor bezoekers kan leiden tot onjuiste gegevens en slechte rapportprestaties. Als deze variabele een standaardwaarde bevat (zoals `"0"` of `"NULL"` ), behandelt Adobe deze resultaten alsof ze dezelfde bezoeker zijn. Deze situatie resulteert in onjuiste gegevens, met lage aantallen bezoekers en bezoekersniveausegmenten niet zoals verwacht. Incorrect uitgevoerde identiteitskaart van de douanebezoeker introduceert ook zware lading op verwerkingsservers, die [ latentie ](/help/technotes/latency.md) verhogen en rapportprestaties verminderen.
+>Een ongeldige implementatie van aangepaste gebruikers-id&#39;s voor bezoekers kan leiden tot onjuiste gegevens en slechte rapportprestaties. Als deze variabele een standaardwaarde bevat (zoals `"0"` of `"NULL"` ), behandelt Adobe deze resultaten alsof ze dezelfde bezoeker zijn. Deze situatie resulteert in onjuiste gegevens, met lage aantallen bezoekers en bezoekersniveausegmenten niet zoals verwacht. Incorrect uitgevoerde identiteitskaart van de douanebezoeker introduceert ook zware lading op verwerkingsservers, die [&#x200B; latentie &#x200B;](/help/technotes/latency.md) verhogen en rapportprestaties verminderen.
 
 ## Bezoeker-id met de Web SDK
 
-Adobe Experience Platform Edge Network staat u toe om veelvoudige herkenningstekens te verstrekken gebruikend de Kaart van de Identiteit XDM [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=nl-NL#using-identitymap). Elke identiteit in een identiteitskaart heeft een verschillende namespace. U kunt specificeren welke namespace voor identiteitskaart van de Bezoeker als deel van [ gegevensstroomconfiguratie ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL#analytics) zou moeten worden gebruikt. Zodra dit wordt gevormd, wanneer u een gebeurtenis met een waarde verzendt die voor dit namespace wordt gespecificeerd, zal het automatisch als identiteitskaart van de Bezoeker in Analytics worden gebruikt.
+Adobe Experience Platform Edge Network staat u toe om veelvoudige herkenningstekens te verstrekken gebruikend de Kaart van de Identiteit XDM [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=nl-NL#using-identitymap). Elke identiteit in een identiteitskaart heeft een verschillende namespace. U kunt specificeren welke namespace voor identiteitskaart van de Bezoeker als deel van [&#x200B; gegevensstroomconfiguratie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL#analytics) zou moeten worden gebruikt. Zodra dit wordt gevormd, wanneer u een gebeurtenis met een waarde verzendt die voor dit namespace wordt gespecificeerd, zal het automatisch als identiteitskaart van de Bezoeker in Analytics worden gebruikt.

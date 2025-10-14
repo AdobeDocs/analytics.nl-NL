@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe biedt een sjabloon om essentiële gegevens over prestaties op verschillende apparaten te bekijken.
 
-1. Navigeer aan [ Experience.adobe.com ](https://experiencecloud.adobe.com) en login gebruikend uw geloofsbrieven van AdobeID.
+1. Navigeer aan [&#x200B; Experience.adobe.com &#x200B;](https://experiencecloud.adobe.com) en login gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op het pictogram met het 9-raster bovenaan en klik vervolgens op Analytics.
 1. Klik [!UICONTROL Workspace] bij de bovenkant, dan klik [!UICONTROL Create New Project].
 1. Zoek de sjabloon &quot;Apparaatanalyse&quot; en klik op [!UICONTROL Create] .

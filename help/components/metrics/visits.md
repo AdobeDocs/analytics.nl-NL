@@ -45,7 +45,7 @@ Als een bezoeker om het even welk van deze acties uitvoert, begint een nieuw bez
 
 U kunt de definitie van een bezoek wijzigen in een andere tijd dan 30 minuten.
 
-* Voor [ Virtuele rapportreeksen ](../vrs/vrs-about.md), kunt u de bezoekonderbreking (tijd tussen treffers veranderen die een nieuw bezoek om veroorzaakt te beginnen) gebruiken [!UICONTROL Visit timeout] drop-down lijst. U kunt de time-out voor een bezoek wijzigen in een redelijke waarde.
+* Voor [&#x200B; Virtuele rapportreeksen &#x200B;](../vrs/vrs-about.md), kunt u de bezoekonderbreking (tijd tussen treffers veranderen die een nieuw bezoek om veroorzaakt te beginnen) gebruiken [!UICONTROL Visit timeout] drop-down lijst. U kunt de time-out voor een bezoek wijzigen in een redelijke waarde.
 * Voor standaardrapportreeksen kunt u contact opnemen met de klantenservice om een time-out van het bezoek aan te vragen (tijd tussen treffers die ertoe leidt dat een nieuw bezoek begint). U kunt de tijd voor een bepaalde rapportsuite verkorten. De time-out van het bezoek voor standaardrapportsuites mag niet langer zijn dan 30 minuten, dus u kunt deze alleen verkorten.
 
 ## Bezoeken die een datumgrens omspannen
@@ -54,7 +54,7 @@ Een bezoek telt voor elke betrokken periode. Als u bijvoorbeeld een bezoeker heb
 
 ## Bezoeken op dimensie versus totale bezoeken
 
-De bezoeken in context van een afmeting (bijvoorbeeld, [ Marketing kanaal ](../dimensions/marketing-channel.md)) tonen het aantal bezoeken dat een bepaald afmetingspunt op elk ogenblik bevatte. Items met meerdere dimensies bestaan vaak bij verschillende treffers tijdens hetzelfde bezoek. Het is doorgaans niet zinvol om te proberen om bezoeken die over dimensie-items rapporteren, samen te vatten.
+De bezoeken in context van een afmeting (bijvoorbeeld, [&#x200B; Marketing kanaal &#x200B;](../dimensions/marketing-channel.md)) tonen het aantal bezoeken dat een bepaald afmetingspunt op elk ogenblik bevatte. Items met meerdere dimensies bestaan vaak bij verschillende treffers tijdens hetzelfde bezoek. Het is doorgaans niet zinvol om te proberen om bezoeken die over dimensie-items rapporteren, samen te vatten.
 
 ## Bezoek alle bezoekers in Data Warehouse
 

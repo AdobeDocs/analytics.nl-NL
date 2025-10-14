@@ -22,4 +22,4 @@ Een [!UICONTROL Campaign] -rapport kan bijvoorbeeld een [!UICONTROL Manager] cla
 
 U hebt toegang tot classificaties op dezelfde manier als u de andere rapporten van een rapportreeks opent, en de afmetingen worden getoond als top-level rapport binnen de groep. Als een rapport classificaties heeft, wordt een menusubgroep gecreeerd om het rapport en al zijn classificaties in de zelfde plaats te verzamelen. Het rapport wordt weergegeven als de laatste vermelding in de lijst bij de classificaties.
 
-Zie [ Classificaties ](/help/components/classifications/classifications-overview.md).
+Zie [&#x200B; Classificaties &#x200B;](/help/components/classifications/classifications-overview.md).

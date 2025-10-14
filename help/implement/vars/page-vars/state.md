@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze variabele wordt gepensioneerd en geen beschikbare dimensie in Analysis Workspace. Gebruik in plaats hiervan de [ dimensie van Staten van de V.S. ](/help/components/dimensions/us-states.md), die AppMeasurement automatisch verzamelt die op de plaats van de bezoeker wordt gebaseerd.
+>Deze variabele wordt gepensioneerd en geen beschikbare dimensie in Analysis Workspace. Gebruik in plaats hiervan de [&#x200B; dimensie van Staten van de V.S. &#x200B;](/help/components/dimensions/us-states.md), die AppMeasurement automatisch verzamelt die op de plaats van de bezoeker wordt gebaseerd.
 
 In eerdere versies van Adobe Analytics werd de variabele `state` gebruikt toen bezoekers verzendgegevens op winkelsites invulden. Deze is functioneel identiek aan een proxy, maar is niet beschikbaar in Analysis Workspace.
 
@@ -23,7 +23,7 @@ In eerdere versies van Adobe Analytics werd de variabele `state` gebruikt toen b
 
 U kunt de status instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).

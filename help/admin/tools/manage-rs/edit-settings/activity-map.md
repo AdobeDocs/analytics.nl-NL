@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Activity Map Reporting
 
-Staat u toe om dimensies voor gebruik met [ Activity Map ](/help/analyze/activity-map/overview.md) toe te laten.
+Staat u toe om dimensies voor gebruik met [&#x200B; Activity Map &#x200B;](/help/analyze/activity-map/overview.md) toe te laten.
 
 **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
 
-Deze sectie van de documentatie richt zich op het toelaten van dimensies die Activity Map gebruikt. Zie [ overzicht van Activity Map ](/help/analyze/activity-map/overview.md) voor meer informatie over de bekleding, implementatievariabelen, en dimensies.
+Deze sectie van de documentatie richt zich op het toelaten van dimensies die Activity Map gebruikt. Zie [&#x200B; overzicht van Activity Map &#x200B;](/help/analyze/activity-map/overview.md) voor meer informatie over de bekleding, implementatievariabelen, en dimensies.
 
 Wanneer u de knop **[!UICONTROL Enable Activity Map Reports]** selecteert, worden de volgende afmetingen gemaakt:
 
@@ -25,7 +25,7 @@ Wanneer u de knop **[!UICONTROL Enable Activity Map Reports]** selecteert, worde
 * [[!UICONTROL Activity Map Page]](/help/components/dimensions/activity-map-page.md): De paginanaam op het moment dat op de koppeling werd geklikt.
 * [[!UICONTROL Activity Map Link By Region]](/help/components/dimensions/activity-map-link-by-region.md): Een samengevoegde waarde van Activity Map Link en Activity Map Region.
 
-Zodra toegelaten, kan uw implementatie beginnen gegevens naar deze dimensies voor gebruik in [ Analysis Workspace ](/help/analyze/analysis-workspace/home.md) en [ Browser uitbreidingsbekleding ](/help/analyze/activity-map/overlay/overview.md) te verzenden.
+Zodra toegelaten, kan uw implementatie beginnen gegevens naar deze dimensies voor gebruik in [&#x200B; Analysis Workspace &#x200B;](/help/analyze/analysis-workspace/home.md) en [&#x200B; Browser uitbreidingsbekleding &#x200B;](/help/analyze/activity-map/overlay/overview.md) te verzenden.
 
 >[!NOTE]
 >

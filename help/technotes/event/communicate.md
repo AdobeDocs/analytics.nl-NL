@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # De invloed van gebeurtenissen doorgeven aan gebruikers
 
-Als u gegevens [ hebt die door een gebeurtenis ](overview.md) worden beïnvloed, is het belangrijk om die gebeurtenis aan gebruikers in uw organisatie mee te delen.
+Als u gegevens [&#x200B; hebt die door een gebeurtenis &#x200B;](overview.md) worden beïnvloed, is het belangrijk om die gebeurtenis aan gebruikers in uw organisatie mee te delen.
 
 * Ontwikkel een gemeenschappelijke ontkenning die u in mededelingen voor consistentie kunt gebruiken
 * Doorlopende communicatie bieden aan gebruikers van Analytics en belangrijke belanghebbenden tijdens en na de gebeurtenis
@@ -24,26 +24,26 @@ In Adobe Analytics worden in de volgende secties verschillende manieren getoond 
 
 Als u een Workspace-project hebt dat door gebruikers in uw organisatie wordt gedeeld, kunt u het effect van een gebeurtenis via een deelvenster of visualisatiebeschrijvingen communiceren. Klik met de rechtermuisknop op een deelvenster of op een visualisatiekop en selecteer vervolgens **[!UICONTROL Edit description]** .
 
-![ Beschrijving van het Comité ](assets/panel_description.png)
+![&#x200B; Beschrijving van het Comité &#x200B;](assets/panel_description.png)
 
 ## Communiceren via tekstvisualisatie
 
-U kunt het effect van een gebeurtenis ook communiceren via speciale tekstvisualisaties. Zie [ visualisaties van de Tekst ](/help/analyze/analysis-workspace/visualizations/text.md) in de Analysegebruikersgids.
+U kunt het effect van een gebeurtenis ook communiceren via speciale tekstvisualisaties. Zie [&#x200B; visualisaties van de Tekst &#x200B;](/help/analyze/analysis-workspace/visualizations/text.md) in de Analysegebruikersgids.
 
-![ visualisatie van de Tekst ](assets/text_visualization.png)
+![&#x200B; visualisatie van de Tekst &#x200B;](assets/text_visualization.png)
 
 ## Aangepaste agendagebeurtenissen toevoegen aan trends in Workspace
 
 Voor elke trended visualisatie in Workspace kunt u een reeks toevoegen die uw beïnvloede datumbereik vertegenwoordigt.
 
-1. Creeer berekende metrisch met het &quot;Betrokken dagen&quot;segment door [ te volgen sluit specifieke data in analyse ](segments.md) uit.
+1. Creeer berekende metrisch met het &quot;Betrokken dagen&quot;segment door [&#x200B; te volgen sluit specifieke data in analyse &#x200B;](segments.md) uit.
 1. Voeg de gewenste metrische waarde toe aan het berekende metrische canvas.
 
-   ![ Metrisch ](assets/calcmetric_event.png)
+   ![&#x200B; Metrisch &#x200B;](assets/calcmetric_event.png)
 
 1. Voeg een titel en een beschrijving toe om gebruikers op de hoogte te brengen van de gevolgen. U kunt deze metrische waarde desgewenst ook labelen als een kalenderannotatie.
 
-   ![ Titel en beschrijving ](assets/calcmetric_title_description.png)
+   ![&#x200B; Titel en beschrijving &#x200B;](assets/calcmetric_title_description.png)
 
 1. Voeg in een vrije-vormlijst de dimensie &#39;Dag&#39; toe. Voeg &#39;Bezoeken&#39; toe en de berekende metrische waarde als kolommen naast elkaar.
 
@@ -51,9 +51,9 @@ Voor elke trended visualisatie in Workspace kunt u een reeks toevoegen die uw be
 
 1. Klik op het tandwielpictogram voor de kolominstellingen voor de berekende maateenheid en schakel **[!UICONTROL Interpret zero as no value]** in.
 
-   ![ Berekende metrische montages ](assets/calcmetric_zero_no_value.png)
+   ![&#x200B; Berekende metrische montages &#x200B;](assets/calcmetric_zero_no_value.png)
 
 1. Voeg een lijnvisualisatie toe. Betrokken dagen worden weergegeven met een andere kleur. Gebruikers kunnen ook op het pictogram &#39;Info&#39; in de berekende maatstaf klikken voor meer informatie.
 
-   ![ pictogram van Info ](assets/calcmetric_infoicon.png)
+   ![&#x200B; pictogram van Info &#x200B;](assets/calcmetric_infoicon.png)
 

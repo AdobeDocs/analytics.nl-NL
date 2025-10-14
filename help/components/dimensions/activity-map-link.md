@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Koppeling Activity Mappen
 
-De &quot;Verbinding van de Activity Map&quot;[ dimensie ](overview.md) toont de populairste verbindingen die werden geklikt. U kunt deze dimensie gebruiken om te vergelijken welke verbindingen op uw plaats het meest worden gebruikt, ongeacht waar de verbindingen werden geklikt.
+De &quot;Verbinding van de Activity Map&quot;[&#x200B; dimensie &#x200B;](overview.md) toont de populairste verbindingen die werden geklikt. U kunt deze dimensie gebruiken om te vergelijken welke verbindingen op uw plaats het meest worden gebruikt, ongeacht waar de verbindingen werden geklikt.
 
 ## Deze dimensie vullen met gegevens
 
-Deze afmeting wint gegevens van de [ variabele van contextgegevens ](/help/implement/vars/page-vars/contextdata.md) terug `c.a.activitymap.link`. Als uw implementatie [ Activity Map ](/help/analyze/activity-map/overview.md) gebruikt, verzamelt deze variabele van contextgegevens automatisch gegevens wanneer de verbindingen worden geklikt.
+Deze afmeting wint gegevens van de [&#x200B; variabele van contextgegevens &#x200B;](/help/implement/vars/page-vars/contextdata.md) terug `c.a.activitymap.link`. Als uw implementatie [&#x200B; Activity Map &#x200B;](/help/analyze/activity-map/overview.md) gebruikt, verzamelt deze variabele van contextgegevens automatisch gegevens wanneer de verbindingen worden geklikt.
 
 Voor een bepaalde verbinding die werd geklikt, zoekt de Activity Map naar het volgende (in orde):
 

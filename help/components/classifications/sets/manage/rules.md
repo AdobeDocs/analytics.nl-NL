@@ -16,7 +16,7 @@ Met indelingssetregels kunt u waarden automatisch classificeren op basis van de 
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Klik op de gewenste naam van de classificatieset > **[!UICONTROL Rules]**
 
-![ classificatie vastgestelde regels UI ](../../assets/csets-rules.png)
+![&#x200B; classificatie vastgestelde regels UI &#x200B;](../../assets/csets-rules.png)
 
 ## Regelinstellingen
 
@@ -47,5 +47,5 @@ De regeltabel wordt verticaal gescheiden in twee hoofdonderdelen: overeenkomende
 * **aantal van de Regel**: De regels lopen in de zelfde orde dat u de regellijst vormt. Als [!UICONTROL Rules overwrite] is ingesteld op [!UICONTROL Apply to all values] , overschrijft de laatste overeenkomende regel eventuele vorige regels voor dezelfde classificatiedimensie. Als [!UICONTROL Rules overwrite] is ingesteld op [!UICONTROL Apply to only unset values] , wordt de eerste regel die een classificatiewaarde instelt, toegepast.
 * **[!UICONTROL Select rule type]**: De regelcriteria. De opties zijn [!UICONTROL Contains] , [!UICONTROL Ends with] , [!UICONTROL Regular expression] , [!UICONTROL Regular expression] en [!UICONTROL Starts with] .
 * **[!UICONTROL Enter match criteria]**: De tekenreeks die moet overeenkomen. Als u [!UICONTROL Regular expression] als regeltype selecteert, wordt een bedekking weergegeven waarmee u de waarde kunt invoeren, de reguliere expressie kunt testen en een voorbeeldsyntaxis kunt opgeven.
-* **[!UICONTROL Set classification]**: Een vervolgkeuzelijst met de indelingsdimensie waaraan u een waarde wilt toewijzen. De geldige opties omvatten elementen in uw [ schema ](schema.md).
+* **[!UICONTROL Set classification]**: Een vervolgkeuzelijst met de indelingsdimensie waaraan u een waarde wilt toewijzen. De geldige opties omvatten elementen in uw [&#x200B; schema &#x200B;](schema.md).
 * **[!UICONTROL To]**: de tekenreeks waarop de geclassificeerde waarde moet worden ingesteld. Als het regeltype [!UICONTROL Regular expression] is, kunt u een combinatie van tekst en overeenkomende groepen opnemen.

@@ -17,7 +17,7 @@ Met dynamische variabelen kunt u waarden van de ene variabele naar de andere kop
 
 In eerdere versies van Analytics was de lengte van de afbeeldingsaanvraag belangrijk om afgebroken gegevens te voorkomen. De verbeteringen aan AppMeasurement staan veel langere reeksen van de beeldverzoekvraag toe, zodat zijn de dynamische variabelen typisch niet nodig.
 
-Dynamische variabelen ondersteunen parameters van queryreeksen of HTTP-headers in een afbeeldingsaanvraag. Zie [ parameters van de de vraagvraag van de gegevensinzameling ](../../validate/query-parameters.md) voor een volledige lijst van beschikbare parameters aan verwijzing. Zie [ Standaard verzoekgebieden ](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields) op Wikipedia voor een volledige lijst van beschikbare HTTP- verzoekgebieden aan verwijzing.
+Dynamische variabelen ondersteunen parameters van queryreeksen of HTTP-headers in een afbeeldingsaanvraag. Zie [&#x200B; parameters van de de vraagvraag van de gegevensinzameling &#x200B;](../../validate/query-parameters.md) voor een volledige lijst van beschikbare parameters aan verwijzing. Zie [&#x200B; Standaard verzoekgebieden &#x200B;](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields) op Wikipedia voor een volledige lijst van beschikbare HTTP- verzoekgebieden aan verwijzing.
 
 Wanneer Adobe een dynamisch veranderlijk voorvoegsel erkent, kopieert het automatisch het vraagkoord of de kopbalwaarde van HTTP in uw rapportreeks. Deze actie vindt plaats vóór enige andere verwerking, met inbegrip van verwerkingsregels en VISTA-regels.
 
@@ -29,7 +29,7 @@ Wanneer Adobe een dynamisch veranderlijk voorvoegsel erkent, kopieert het automa
 
 Gebruik gegevenstoewijzing DataStream om gegevens naar veelvoudige variabelen van Analytics van één enkel XDM gebied te verzenden.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op **[!UICONTROL Datastreams]** in de linkertrack.
 1. Klik op de gewenste gegevensstroom.
 1. Klik op **[!UICONTROL Edit Mapping]** aan de rechterkant.
@@ -39,7 +39,7 @@ Gebruik gegevenstoewijzing DataStream om gegevens naar veelvoudige variabelen va
 
 U kunt dynamische variabelen in om het even welk afmetingsgebied gebruiken dat een koord goedkeurt. Dimension-items worden doorgaans ingesteld tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).

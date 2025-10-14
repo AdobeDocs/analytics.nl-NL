@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # AM/PM
 
-De &quot;AM/PM&quot;dimensie [&#128279;](overview.md) verstrekt insight op als de slag tijdens AM of PM uren gebeurde. De tijd van de klap is gebaseerd op de [ tijdzone van de rapportreeks ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
+De &quot;AM/PM&quot;dimensie [&#128279;](overview.md) verstrekt insight op als de slag tijdens AM of PM uren gebeurde. De tijd van de klap is gebaseerd op de [&#x200B; tijdzone van de rapportreeks &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
 
 ## Deze dimensie vullen met gegevens
 

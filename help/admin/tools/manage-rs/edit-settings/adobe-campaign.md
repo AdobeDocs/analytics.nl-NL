@@ -14,4 +14,4 @@ ht-degree: 0%
 
 [!UICONTROL **Analytics**] > [!UICONTROL **Admin**] > [!UICONTROL **de Reeksen van het Rapport**] > uitgezocht rapportreeks > [!UICONTROL **geeft Montages**] uit > [!UICONTROL **Adobe Campaign**]
 
-U kunt Adobe Campaign Standard-gegevens weergeven in Adobe Analytics. Voor meer informatie, zie [ norm van Adobe Campaign rapporterend ](/help/integrate/adobe-campaign.md).
+U kunt Adobe Campaign Standard-gegevens weergeven in Adobe Analytics. Voor meer informatie, zie [&#x200B; norm van Adobe Campaign rapporterend &#x200B;](/help/integrate/adobe-campaign.md).

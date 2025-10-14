@@ -87,8 +87,8 @@ Deze twee variabelewaarden worden in Adobe Analytics als afzonderlijk beschouwd.
 
 Implementaties die veel variabelen vullen met lange waarden, kunnen soms worden uitgevoerd in afgebroken afbeeldingsaanvragen. Sommige oudere browsers, zoals Internet Explorer, leggen een limiet van 2083 tekens op voor het aanvragen van URL&#39;s voor afbeeldingsverzoeken. Als uw organisatie met zeer lange beeldverzoeken wordt geconfronteerd, probeer het volgende:
 
-* **gebruik de dienst van identiteitskaart van Experience Cloud**: De bibliotheken van AppMeasurement 1.4.1 en verzenden later automatisch beeldverzoeken gebruikend HTTP POST als zij te lang zijn. Gegevens die met deze methode worden verzonden, worden niet afgebroken, ongeacht de lengte. Zie [ de dienst van identiteitskaart van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) voor meer informatie.
-* **de verwerkingsregels van het Gebruik**: [ de regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) kunnen waarden van één variabele aan een andere kopiëren. Met deze methode hoeft u niet dezelfde waarde in meerdere variabelen in te stellen. Bijvoorbeeld:
+* **gebruik de dienst van identiteitskaart van Experience Cloud**: De bibliotheken van AppMeasurement 1.4.1 en verzenden later automatisch beeldverzoeken gebruikend HTTP POST als zij te lang zijn. Gegevens die met deze methode worden verzonden, worden niet afgebroken, ongeacht de lengte. Zie [&#x200B; de dienst van identiteitskaart van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) voor meer informatie.
+* **de verwerkingsregels van het Gebruik**: [&#x200B; de regels van de Verwerking &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) kunnen waarden van één variabele aan een andere kopiëren. Met deze methode hoeft u niet dezelfde waarde in meerdere variabelen in te stellen. Bijvoorbeeld:
 
   Altijd uitvoeren:<br>
 Waarde prop1 overschrijven met eVar1 <br>
@@ -101,7 +101,7 @@ Waarde prop2 overschrijven met eVar1 <br>
   s.eVar1 = "The quick brown fox jumps over the lazy dog";
   ```
 
-* **Dynamische variabelen van het Gebruik**: Als uw implementatie vele variabelen met de zelfde waarde bevolkt, kunt u [ dynamische variabelen ](/help/implement/vars/page-vars/dynamic-variables.md) gebruiken om het verzoek URL te verkorten:
+* **Dynamische variabelen van het Gebruik**: Als uw implementatie vele variabelen met de zelfde waarde bevolkt, kunt u [&#x200B; dynamische variabelen &#x200B;](/help/implement/vars/page-vars/dynamic-variables.md) gebruiken om het verzoek URL te verkorten:
 
   ```js
   s.eVar1 = "The quick brown fox jumps over the lazy dog";
@@ -110,4 +110,4 @@ Waarde prop2 overschrijven met eVar1 <br>
   s.prop2 = "D=v1";
   ```
 
-* **de classificaties van het Gebruik**: Als het product of de paginanamen ongebruikelijk lang zijn, kunt u een identificerende waarde of code gebruiken, dan gebruik [ classificaties ](/help/components/classifications/classifications-overview.md) om een vriendelijkere naam te tonen.
+* **de classificaties van het Gebruik**: Als het product of de paginanamen ongebruikelijk lang zijn, kunt u een identificerende waarde of code gebruiken, dan gebruik [&#x200B; classificaties &#x200B;](/help/components/classifications/classifications-overview.md) om een vriendelijkere naam te tonen.

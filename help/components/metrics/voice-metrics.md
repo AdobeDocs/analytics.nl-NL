@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Metrische spraakanalyse
 
-Wanneer u [!UICONTROL Voice and Chatbots] op [[!UICONTROL Application reporting]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md) toelaat, worden de volgende metriek (en [ afmetingen ](../dimensions/voice-dimensions.md)) gecreeerd. U kunt [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contextdata.md) gebruiken om hen aan een waarde van `1` (of meer indien van toepassing) te plaatsen. Wanneer toegelaten in de montages van de rapportreeks, [ worden de regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) automatisch gecreeerd die metriek van de stemanalyse aan hun bijbehorende variabele van contextgegevens in kaart brengen.
+Wanneer u [!UICONTROL Voice and Chatbots] op [[!UICONTROL Application reporting]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md) toelaat, worden de volgende metriek (en [&#x200B; afmetingen &#x200B;](../dimensions/voice-dimensions.md)) gecreeerd. U kunt [&#x200B; variabelen van de Contextgegevens &#x200B;](/help/implement/vars/page-vars/contextdata.md) gebruiken om hen aan een waarde van `1` (of meer indien van toepassing) te plaatsen. Wanneer toegelaten in de montages van de rapportreeks, [&#x200B; worden de regels van de Verwerking &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) automatisch gecreeerd die metriek van de stemanalyse aan hun bijbehorende variabele van contextgegevens in kaart brengen.
 
 | Metrische naam | Beschrijving | Variabele van contextgegevens |
 | --- | --- | --- |

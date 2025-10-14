@@ -20,8 +20,8 @@ De volgende Document Cloud Management-opties zijn beschikbaar wanneer u een rapp
 
 * [!UICONTROL **Document Cloud die**] meldt
 
-  Rapporten specifiek voor het stromen de media diensten zijn beschikbaar op de Media die pagina melden. Voor meer informatie over Media die melden, zie [ Document Cloud die ](/help/admin/tools/manage-rs/edit-settings/document-cloud-config.md) meldt vormen.
+  Rapporten specifiek voor het stromen de media diensten zijn beschikbaar op de Media die pagina melden. Voor meer informatie over Media die melden, zie [&#x200B; Document Cloud die &#x200B;](/help/admin/tools/manage-rs/edit-settings/document-cloud-config.md) meldt vormen.
 
 * [!UICONTROL **de Classificaties van Document Cloud**]
 
-  Classificaties die specifiek zijn voor Document Cloud zijn beschikbaar op de pagina Classificaties van Document Cloud. Voor informatie over Classificaties, zie [ classificaties van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).
+  Classificaties die specifiek zijn voor Document Cloud zijn beschikbaar op de pagina Classificaties van Document Cloud. Voor informatie over Classificaties, zie [&#x200B; classificaties van de Omzetting &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).

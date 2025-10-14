@@ -14,11 +14,11 @@ ht-degree: 24%
 # Veelgestelde vragen
 
 +++Wat zijn de eerste vereisten voor het gebruik van Analysis Workspace?
-[ verzendt gegevens naar Adobe Analytics gebruikend de uitbreiding van Adobe Analytics ](/help/implement/launch/validate-publish-prod.md): Het gebruiken van Analysis Workspace vereist een werkende implementatie. Zorg ervoor dat uw organisatie gegevens naar Adobe verzendt voordat u het hulpprogramma gebruikt. Andere implementaties, zoals oudere handmatige implementaties, kunnen ook werken.
+[&#x200B; verzendt gegevens naar Adobe Analytics gebruikend de uitbreiding van Adobe Analytics &#x200B;](/help/implement/launch/validate-publish-prod.md): Het gebruiken van Analysis Workspace vereist een werkende implementatie. Zorg ervoor dat uw organisatie gegevens naar Adobe verzendt voordat u het hulpprogramma gebruikt. Andere implementaties, zoals oudere handmatige implementaties, kunnen ook werken.
 +++
 
 +++Wat zijn de vereisten inzake beheer en toegang voor Analysis Workspace?
-Zie [ Vereisten van het Beleid ](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
+Zie [&#x200B; Vereisten van het Beleid &#x200B;](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
 +++Heeft het gebruik van Analysis Workspace invloed op gegevensverzameling?
@@ -26,11 +26,11 @@ Aangezien Analysis Workspace een rapportagetool is, heeft de tool geen invloed o
 +++
 
 +++Hoeveel rapportsuites kunnen in een project van Analysis Workspace worden getoond?
-U kunt projecten in Analysis Workspace met gegevens van meer [ veelvoudige rapportsuites ](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) nu tot stand brengen.
+U kunt projecten in Analysis Workspace met gegevens van meer [&#x200B; veelvoudige rapportsuites &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) nu tot stand brengen.
 +++
 
 +++Hoe implementeert u Analysis Workspace?
-Er is geen speciale implementatie vereist. Analysis Workspace is beschikbaar voor alle bedrijven met Analytics Standard of Premium. Nochtans, zijn de standaardtoestemmingen op inhoud (zoals rapportsuites en projectcomponenten) van toepassing, en voor het leiden en het delen van projecten. Zie [ Vereisten van het Beleid en van de Toegang ](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
+Er is geen speciale implementatie vereist. Analysis Workspace is beschikbaar voor alle bedrijven met Analytics Standard of Premium. Nochtans, zijn de standaardtoestemmingen op inhoud (zoals rapportsuites en projectcomponenten) van toepassing, en voor het leiden en het delen van projecten. Zie [&#x200B; Vereisten van het Beleid en van de Toegang &#x200B;](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
 +++Kan ik Analysis Workspace voor Data Warehouse gebruiken?
@@ -39,19 +39,19 @@ Analysis Workspace wordt niet aanbevolen voor het exporteren van bulkgegevens. H
 
 +++Hoe kan ik Analysis Workspace optimaliseren?
 
-Zie [ Optimizing Prestaties ](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
+Zie [&#x200B; Optimizing Prestaties &#x200B;](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
 
 +++
 
 +++Hoe worden gegevens opgenomen in uw Analysis Workspace-project?
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gegevens in Analysis Workspace ](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gegevens in Analysis Workspace &#x200B;](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} voor een demo video.
 
 +++
 
 +++Hoe kan ik het gebruik van Workspace bijhouden?
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Logboek dat ](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} voor een demo video volgt.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Logboek dat &#x200B;](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} voor een demo video volgt.
 
 +++
 
@@ -68,7 +68,7 @@ Als u een werkruimterapport hebt gemaakt maar er geen gegevens zijn, kunt u een 
 * Controleer de rapportreeks tweemaal en zorg ervoor het met gegevens wordt bevolkt.
 * Als u een segment in uw rapport toepaste, zouden de segmentcriteria geen gegevens kunnen aanpassen. Verwijder het segment of pas de segmentdefinitie aan.
 * Controleer de datumwaaier in de hogere juiste hoek en zorg ervoor het aan een waarde wordt geplaatst die u zou verwachten.
-* Navigeer aan uw website en gebruik [ Debugger ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) om te bevestigen dat het gegeven wordt verzameld.
+* Navigeer aan uw website en gebruik [&#x200B; Debugger &#x200B;](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) om te bevestigen dat het gegeven wordt verzameld.
 
 
 +++

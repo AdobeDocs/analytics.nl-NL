@@ -24,13 +24,13 @@ U kunt zoeken naar specifieke dimensies door een filter te maken dat precies ove
 
 1. Maak of bewerk een aanvraag en ga door naar de [!UICONTROL Request Wizard: Step 2] .
 
-   ![ Schermschot die de Filter door opties tonen: Toepassing, Gebruiker, en Project.](/help/admin/tools/assets/filter.png)
+   ![&#x200B; Schermschot die de Filter door opties tonen: Toepassing, Gebruiker, en Project.](/help/admin/tools/assets/filter.png)
 
 1. Klik in het [!UICONTROL Request Wizard: Step 2] op de koppeling naast de dimensie in het raster en kies vervolgens **[!UICONTROL Filter]** .
 
 1. Schakel **[!UICONTROL Specific]** in.
 
-   ![ Schermafbeelding van de Choose dialoog van de Pagina met de Specifieke geselecteerde optie.](assets/choose_page_specific01.png)
+   ![&#x200B; Schermafbeelding van de Choose dialoog van de Pagina met de Specifieke geselecteerde optie.](assets/choose_page_specific01.png)
 
 1. Schakel een van de volgende specifieke opties in:
 

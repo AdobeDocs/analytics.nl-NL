@@ -15,6 +15,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze plug-in wordt niet meer ondersteund. Zijn code gebruikt de [`PerformanceTiming` ](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming) interface, die op de meeste moderne browsers verouderd is.
+>Deze plug-in wordt niet meer ondersteund. Zijn code gebruikt de [`PerformanceTiming` &#x200B;](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming) interface, die op de meeste moderne browsers verouderd is.
 
 De insteekmodule `getPageLoadTime` gebruikt het JavaScript-prestatieobject om te meten hoeveel tijd het duurt voordat een pagina volledig is geladen. Aangezien deze plug-in niet meer wordt ondersteund, zijn de installatie-instructies en de plug-incode niet meer beschikbaar.

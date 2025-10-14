@@ -27,7 +27,7 @@ In eerdere versies van Adobe Analytics gebruikte AppMeasurement de variabele `vi
 
 [!UICONTROL Visitor Namespace] is een veld onder de accordeon van [!UICONTROL Cookies] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 4. Vouw de accordeon [!UICONTROL Cookies] uit, zodat het veld [!UICONTROL Visitor Namespace] zichtbaar wordt.
@@ -38,7 +38,7 @@ Adobe raadt u af dit veld niet te gebruiken. Gebruik in plaats hiervan `tracking
 
 De variabele `s.visitorNamespace` is een tekenreeks die een unieke waarde per organisatie bevat. Deze unieke waarde wordt automatisch opgenomen in oude AppMeasurement-bibliotheken wanneer deze worden gedownload van eerdere versies van Adobe Analytics. Huidige AppMeasurement-bibliotheken gebruiken deze variabele alleen als `trackingServer` en `trackingServerSecure` niet zijn ingesteld.
 
-Als deze variabele nog steeds door uw organisatie wordt vereist, kiest u een waarde die uw organisatie vertegenwoordigt. U kunt deze waarde in het document van het a [ oplossingsontwerp ](../../prepare/solution-design.md) opslaan.
+Als deze variabele nog steeds door uw organisatie wordt vereist, kiest u een waarde die uw organisatie vertegenwoordigt. U kunt deze waarde in het document van het a [&#x200B; oplossingsontwerp &#x200B;](../../prepare/solution-design.md) opslaan.
 
 ```js
 // If trackingServer is not set, cookies are stored under example.112.2o7.net

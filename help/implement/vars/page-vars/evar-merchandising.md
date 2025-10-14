@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # eVar (Merchandising)
 
-*Deze hulppagina beschrijft hoe te om het veranderen eVars uit te voeren. Voor informatie over hoe de handel drijvende eVars als afmeting werkt, zie [ Vars (de afmeting van het Merchandising) ](/help/components/dimensions/evar-merchandising.md) in de de gebruikersgids van Componenten.*
+*Deze hulppagina beschrijft hoe te om het veranderen eVars uit te voeren. Voor informatie over hoe de handel drijvende eVars als afmeting werkt, zie [&#x200B; Vars (de afmeting van het Merchandising) &#x200B;](/help/components/dimensions/evar-merchandising.md) in de de gebruikersgids van Componenten.*
 
-Voor een gedetailleerde bespreking van hoe de handel drijvende eVars werkt, zie [ het Merchandising Vars en product het vinden methodes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
+Voor een gedetailleerde bespreking van hoe de handel drijvende eVars werkt, zie [&#x200B; het Merchandising Vars en product het vinden methodes &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
 
 ## Vars instellen in instellingen van rapportsuite
 
-Alvorens eVars in uw implementatie te gebruiken, zorg ervoor dat u eVar aan de gewenste syntaxis in de montages van de rapportreeks vormt. Zie [ variabelen van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de gids Admin.
+Alvorens eVars in uw implementatie te gebruiken, zorg ervoor dat u eVar aan de gewenste syntaxis in de montages van de rapportreeks vormt. Zie [&#x200B; variabelen van de Omzetting &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de gids Admin.
 
 >[!WARNING]
 >
@@ -48,13 +48,13 @@ De waarde voor `eVar1` wordt toegewezen aan het product. Alle volgende succesgeb
 Als het gebruiken van het [**voorwerp XDM**](/help/implement/aep-edge/xdm-var-mapping.md), gebruiken de de handelende variabelen van de productsyntaxis de volgende gebieden XDM:
 
 * Productsyntaxisverkoop-eVars worden toegewezen onder `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` aan `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250` .
-* Verhandelingsgebeurtenissen voor productsyntaxis worden toegewezen onder `xdm.productListItems[]._experience.analytics.event1to100.event1.value` aan `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value` . [ rangschikking van de Gebeurtenis ](events/event-serialization.md) XDM gebieden worden in kaart gebracht onder `xdm.productListItems[]._experience.analytics.event1to100.event1.id` aan `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* Verhandelingsgebeurtenissen voor productsyntaxis worden toegewezen onder `xdm.productListItems[]._experience.analytics.event1to100.event1.value` aan `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value` . [&#x200B; rangschikking van de Gebeurtenis &#x200B;](events/event-serialization.md) XDM gebieden worden in kaart gebracht onder `xdm.productListItems[]._experience.analytics.event1to100.event1.id` aan `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`.
 
 >[!NOTE]
 >
 >Wanneer u gebeurtenissen instelt onder `productListItems` , hoeft u deze niet in te stellen in de gebeurtenistekenreeks. Wanneer deze op beide plaatsen zijn ingesteld, heeft de waarde in de gebeurtenistekenreeks voorrang.
 
-Het volgende voorbeeld toont één enkel [ product ](products.md) gebruikend veelvoudige handelaarsVars en gebeurtenissen:
+Het volgende voorbeeld toont één enkel [&#x200B; product &#x200B;](products.md) gebruikend veelvoudige handelaarsVars en gebeurtenissen:
 
 ```json
 "productListItems": [
@@ -111,7 +111,7 @@ De waarde `"Aviary"` for `eVar1` wordt toegewezen aan het product `"Canary"` . A
 
 ### Syntaxis van conversievariabele met gebruik van de Web SDK
 
-Als het gebruiken van het [**voorwerp XDM**](/help/implement/aep-edge/xdm-var-mapping.md), de syntaxis op dezelfde wijze aan het uitvoeren van andere [ eVars ](evar.md) en [ gebeurtenissen ](events/events-overview.md) werkt. XDM die het voorbeeld hierboven weerspiegelt zou als het volgende kijken:
+Als het gebruiken van het [**voorwerp XDM**](/help/implement/aep-edge/xdm-var-mapping.md), de syntaxis op dezelfde wijze aan het uitvoeren van andere [&#x200B; eVars &#x200B;](evar.md) en [&#x200B; gebeurtenissen &#x200B;](events/events-overview.md) werkt. XDM die het voorbeeld hierboven weerspiegelt zou als het volgende kijken:
 
 Stel de eVar in op dezelfde of vorige gebeurtenisaanroep:
 

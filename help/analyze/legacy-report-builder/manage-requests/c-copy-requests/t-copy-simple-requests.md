@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Kopieer een eenvoudig verzoek in plaats van een referentieverzoek. Een eenvoudig verzoek is een verzoek dat geen verwijzingen naar een ander verzoek of de inhoud van een cel bevat.
 
-A [ referentiële verzoek ](/help/analyze/legacy-report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) gebruikt waarden van cellen als input voor parameters, zoals een gegevensfilter of relationele filter. Deze filters gebruiken of aanpassing of trending en zijn gebaseerd op resultaten van een voorafgaand verzoek of op de user-entered inhoud van een cel, genoemd een inputcel.
+A [&#x200B; referentiële verzoek &#x200B;](/help/analyze/legacy-report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) gebruikt waarden van cellen als input voor parameters, zoals een gegevensfilter of relationele filter. Deze filters gebruiken of aanpassing of trending en zijn gebaseerd op resultaten van een voorafgaand verzoek of op de user-entered inhoud van een cel, genoemd een inputcel.
 
 Een eenvoudige aanvraag kopiëren
 

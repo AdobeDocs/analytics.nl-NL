@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ActivityMap.linkExclusions
 
-De `ActivityMap.linkExclusions` variabele laat u selectief de gegevens van Activity Map filtreren of uitsluiten die op de tekst in de [ worden gebaseerd van de Verbinding van Activity Map ](/help/components/dimensions/activity-map-link.md) afmeting.
+De `ActivityMap.linkExclusions` variabele laat u selectief de gegevens van Activity Map filtreren of uitsluiten die op de tekst in de [&#x200B; worden gebaseerd van de Verbinding van Activity Map &#x200B;](/help/components/dimensions/activity-map-link.md) afmeting.
 
 ## Uitsluitingen koppelen in de extensie Web SDK
 
@@ -21,7 +21,7 @@ Wanneer **[!UICONTROL Enable click data collection]** is ingeschakeld, gebruikt 
 
 ## Uitsluitingen koppelen in de Web SDK JavaScript-bibliotheek
 
-Wanneer [`clickCollectionEnabled` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) wordt toegelaten, gebruik `filterClickDetails` callback in het `clickCollection` voorwerp. Binnen deze callback kunt u de waarde van `linkName` controleren en de waarde wijzigen of de verzameling van gegevens voor het bijhouden van koppelingen opgeven.
+Wanneer [`clickCollectionEnabled` &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) wordt toegelaten, gebruik `filterClickDetails` callback in het `clickCollection` voorwerp. Binnen deze callback kunt u de waarde van `linkName` controleren en de waarde wijzigen of de verzameling van gegevens voor het bijhouden van koppelingen opgeven.
 
 ```js
 alloy("configure", {
@@ -47,7 +47,7 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 
 ## s.ActivityMap.linkExclusions gebruiken AppMeasurement
 
-De variabele `s.ActivityMap.linkExclusions` is een tekenreeks met door komma&#39;s gescheiden waarden van zinnen die worden uitgesloten van het bijhouden van Activity Map. Als om het even welke uitdrukkingen de waarde aanpassen die in de [ dimensie van de Verbinding van Activity Map ](/help/components/dimensions/activity-map-link.md) wordt verzameld, worden alle gegevens van Activity Map verwijderd uit de slag. Deze variabele kijkt naar `linkName`, niet naar `linkUrl` .
+De variabele `s.ActivityMap.linkExclusions` is een tekenreeks met door komma&#39;s gescheiden waarden van zinnen die worden uitgesloten van het bijhouden van Activity Map. Als om het even welke uitdrukkingen de waarde aanpassen die in de [&#x200B; dimensie van de Verbinding van Activity Map &#x200B;](/help/components/dimensions/activity-map-link.md) wordt verzameld, worden alle gegevens van Activity Map verwijderd uit de slag. Deze variabele kijkt naar `linkName`, niet naar `linkUrl` .
 
 ```html
 <script>

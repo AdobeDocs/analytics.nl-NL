@@ -24,15 +24,15 @@ Als u per ongeluk incompatibele locaties toewijst op het werkblad, geeft de Repo
 
 Raadpleeg de volgende secties voor meer informatie:
 
-* [ selecteer een Waaier van Cellen ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [ Technieken voor het Selecteren van Cellen ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [&#x200B; selecteer een Waaier van Cellen &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [&#x200B; Technieken voor het Selecteren van Cellen &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [Problemen bij toewijzing](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Een bereik met cellen selecteren {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
 Wanneer u [!UICONTROL Custom Layout] inschakelt voor een trended-aanvraag in [!UICONTROL Request Wizard: Step 2] , kunt u de aanvraag toewijzen aan een reeks cellen.
 
-Klik **[!UICONTROL Range Selector]** ![ select_cell_icon.png ](assets/select_cell_icon.png) naast het punt u in kaart wilt brengen.
+Klik **[!UICONTROL Range Selector]** ![&#x200B; select_cell_icon.png &#x200B;](assets/select_cell_icon.png) naast het punt u in kaart wilt brengen.
 
 * **Alle Cellen in Waaier:** vereist u om een groep cellen voor een [!UICONTROL Custom Layout] stijlverzoek te selecteren.
 * **Eerste Cel van Waaier:** laat u de top-linkercel van de waaier selecteren, en toont de [!UICONTROL Range] richtlijn om de horizontale of verticale richtlijn van input en outputcellen (kolom of rij) te specificeren. Gebruik deze optie als u Report Builder cellen voor u wilt selecteren.
@@ -41,7 +41,7 @@ Klik **[!UICONTROL Range Selector]** ![ select_cell_icon.png ](assets/select_cel
 
 ## Technieken voor het selecteren van cellen {#section_760421C3D7F84D67A639174710C93B22}
 
-U selecteert de gegevens door het **[!UICONTROL Range Selection]** pictogram ![ te klikken select_cell_icon.png ](assets/select_cell_icon.png)
+U selecteert de gegevens door het **[!UICONTROL Range Selection]** pictogram ![&#x200B; te klikken select_cell_icon.png &#x200B;](assets/select_cell_icon.png)
 
 en klik en sleep de muis over het gewenste bereik cellen in het werkblad. Een doorlopende selectie wordt omgeven door een zwarte rand.
 

@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Met de importer kunt u classificatiegegevens bulksgewijs uploaden naar analytische rapportage in een bestand. Voor het importeren van gegevens is een specifieke bestandsindeling vereist.
 
-Als u geldige gegevensbestanden wilt maken, kunt u een sjabloonbestand downloaden dat een bestandsstructuur biedt waarin u de classificatiegegevens kunt plakken. Voor meer informatie, zie [ Malplaatje van de Classificaties van de Download ](/help/components/classifications/importer/c-download-saint-data.md).
+Als u geldige gegevensbestanden wilt maken, kunt u een sjabloonbestand downloaden dat een bestandsstructuur biedt waarin u de classificatiegegevens kunt plakken. Voor meer informatie, zie [&#x200B; Malplaatje van de Classificaties van de Download &#x200B;](/help/components/classifications/importer/c-download-saint-data.md).
 
-Zie [ Algemene Structuur van het Dossier ](/help/components/classifications/importer/c-saint-data-files.md) voor meer informatie over karaktergrenzen in classificaties.
+Zie [&#x200B; Algemene Structuur van het Dossier &#x200B;](/help/components/classifications/importer/c-saint-data-files.md) voor meer informatie over karaktergrenzen in classificaties.
 
 ## Algemene bestandsstructuur
 
@@ -31,7 +31,7 @@ Een gegevensbestand moet aan de volgende structuurregels voldoen:
 * Classificaties kunnen geen waarde 0 (nul) hebben.
 * Adobe raadt u aan het aantal import- en exportkolommen te beperken tot 30.
 * Geüploade bestanden moeten UTF-8 gebruiken zonder BOM-tekencodering.
-* De speciale karakters, zoals lusjes, newlines, en citaten kunnen binnen een cel worden ingebed op voorwaarde dat het v2.1- dossierformaat wordt gespecificeerd en de cel behoorlijk [ ontsnapt ](/help/components/classifications/importer/importer-faq.md) is. Speciale tekens zijn:
+* De speciale karakters, zoals lusjes, newlines, en citaten kunnen binnen een cel worden ingebed op voorwaarde dat het v2.1- dossierformaat wordt gespecificeerd en de cel behoorlijk [&#x200B; ontsnapt &#x200B;](/help/components/classifications/importer/importer-faq.md) is. Speciale tekens zijn:
 
   ```text
   \t     tab character 
@@ -57,7 +57,7 @@ Een gegevensbestand moet aan de volgende structuurregels voldoen:
    * Er kunnen problemen optreden wanneer v2.1 in het bestand is opgegeven, maar wat eigenlijk wordt gewild, is v2.0, namelijk wanneer aanhalingstekens worden gebruikt op een manier die onder Excel-opmaak niet is toegestaan. Als u bijvoorbeeld een waarde hebt: &quot;VP NO REPS&quot; S/l Dress met Bedekking. Met v2.1 is dit een onjuiste opmaak (de waarde moet worden omgeven door het openen en sluiten van aanhalingstekens en aanhalingstekens die deel uitmaken van de werkelijke waarde, moeten worden omzeild door aanhalingstekens) en classificaties werken niet na dit punt.
    * Zorg ervoor dat u een van de volgende handelingen uitvoert: wijzig de bestandsindeling in v2.0 door de koptekst (cel C1) te wijzigen in de bestanden die u uploadt, OF implementeer Excel door de bestanden heen.
 
-* De eerste (niet-commentaar) rij van het gegevensbestand bevat de kolomkoppen die worden gebruikt om de classificatiegegevens in die kolom te identificeren. De importeur vereist een specifiek formaat voor kolomkoppen. Voor meer informatie, zie [ het Formaat van de Kop van de Kolom ](/help/components/classifications/importer/c-saint-data-files.md).
+* De eerste (niet-commentaar) rij van het gegevensbestand bevat de kolomkoppen die worden gebruikt om de classificatiegegevens in die kolom te identificeren. De importeur vereist een specifiek formaat voor kolomkoppen. Voor meer informatie, zie [&#x200B; het Formaat van de Kop van de Kolom &#x200B;](/help/components/classifications/importer/c-saint-data-files.md).
 * Direct na de koptekstrij in een gegevensbestand staan de gegevensrijen. Elke gegevensregel moet een gegevensveld voor elke kolomkop bevatten.
 * Het gegevensbestand ondersteunt de volgende besturingscodes, die Adobe gebruikt om het bestand een structuur te geven en classificatiegegevens correct te importeren:
 
@@ -118,4 +118,4 @@ Bovendien ondersteunt het gegevensbestand de volgende extra kopconventies om sub
 
 ## Problemen met classificaties oplossen
 
-* [ Gemeenschappelijke upload Kwesties ](https://helpx.adobe.com/nl/analytics/kb/common-saint-upload-issues.html): Het artikel van de Kennisbank dat kwesties beschrijft die uit onjuiste dossierformaten en dossierinhoud voortvloeien.
+* [&#x200B; Gemeenschappelijke upload Kwesties &#x200B;](https://helpx.adobe.com/nl/analytics/kb/common-saint-upload-issues.html): Het artikel van de Kennisbank dat kwesties beschrijft die uit onjuiste dossierformaten en dossierinhoud voortvloeien.

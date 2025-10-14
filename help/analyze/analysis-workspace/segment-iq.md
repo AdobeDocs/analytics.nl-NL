@@ -16,9 +16,9 @@ ht-degree: 0%
 
 De analisten kunnen vele uren of zelfs dagen doorbrengen zoekend naar relevante verschillen tussen segmenten over de metriek en de afmetingen van een organisatie. Deze analyse is vervelend en tijdrovend. En u zou het belangrijkste verschil van een segment kunnen missen dat een significante invloed op uw gerichte marketing inspanningen zou kunnen maken.
 
-De [ de vergelijkingsgebruiksgevallen van het Segment ](c-panels/c-segment-comparison/segment-compare-use-cases.md) voor real-world scenario&#39;s helpen organisaties met het verkrijgen van waardevolle inzichten op segmenten en hoe zij vergelijken.
+De [&#x200B; de vergelijkingsgebruiksgevallen van het Segment &#x200B;](c-panels/c-segment-comparison/segment-compare-use-cases.md) voor real-world scenario&#39;s helpen organisaties met het verkrijgen van waardevolle inzichten op segmenten en hoe zij vergelijken.
 
 De vergelijkingsfuncties voor segmenten zijn:
 
-* [ de vergelijkingspaneel van het Segment:](c-panels/c-segment-comparison/segment-comparison.md) staat u toe om twee segmenten in het paneel te slepen, en een uitvoerig rapport te bekijken dat statistisch significante verschillen en overlapping tussen de twee soorten publiek toont.
-* [ het Vergelijken van segmenten in reserve:](visualizations/fallout/compare-segments-fallout.md) zie hoe de verschillende soorten publiek met elkaar in de context van een fallout visualisatie vergelijken.
+* [&#x200B; de vergelijkingspaneel van het Segment:](c-panels/c-segment-comparison/segment-comparison.md) staat u toe om twee segmenten in het paneel te slepen, en een uitvoerig rapport te bekijken dat statistisch significante verschillen en overlapping tussen de twee soorten publiek toont.
+* [&#x200B; het Vergelijken van segmenten in reserve:](visualizations/fallout/compare-segments-fallout.md) zie hoe de verschillende soorten publiek met elkaar in de context van een fallout visualisatie vergelijken.

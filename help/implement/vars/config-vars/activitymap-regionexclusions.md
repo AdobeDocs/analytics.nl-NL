@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ActivityMap.regionExclusions
 
-De `ActivityMap.regionExclusions` variabele laat u Activity Map gegevens selectief filtreren of uitsluiten die op de afmetingspunten worden gebaseerd in de [ 2&rbrace; afmeting van het Gebied van Activity Map worden verzameld &lbrace;.](/help/components/dimensions/activity-map-region.md)
+De `ActivityMap.regionExclusions` variabele laat u Activity Map gegevens selectief filtreren of uitsluiten die op de afmetingspunten worden gebaseerd in de [&#x200B; 2&rbrace; afmeting van het Gebied van Activity Map worden verzameld &lbrace;.](/help/components/dimensions/activity-map-region.md)
 
 ## Uitsluitingen van regio&#39;s in de extensie Web SDK
 
@@ -21,7 +21,7 @@ Wanneer **[!UICONTROL Enable click data collection]** is ingeschakeld, gebruikt 
 
 ## Uitsluitingen van regio&#39;s in de Web SDK JavaScript-bibliotheek
 
-Wanneer [`clickCollectionEnabled` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) wordt toegelaten, gebruik `filterClickDetails` callback in het `clickCollection` voorwerp. Binnen deze callback kunt u de waarde van `linkRegion` controleren en de waarde wijzigen of de verzameling van gegevens voor het bijhouden van koppelingen opgeven.
+Wanneer [`clickCollectionEnabled` &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) wordt toegelaten, gebruik `filterClickDetails` callback in het `clickCollection` voorwerp. Binnen deze callback kunt u de waarde van `linkRegion` controleren en de waarde wijzigen of de verzameling van gegevens voor het bijhouden van koppelingen opgeven.
 
 ```js
 alloy("configure", {
@@ -43,7 +43,7 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 
 ## s.ActivityMap.regionExclusions met AppMeasurement
 
-De variabele `s.ActivityMap.regionExclusions` is een tekenreeks met door komma&#39;s gescheiden zinnen die worden uitgesloten van het bijhouden van Activity Map. Als om het even welke uitdrukkingen de waarde aanpassen die in de [ dimensie van het Gebied van Activity Map ](/help/components/dimensions/activity-map-region.md) wordt verzameld, worden alle gegevens van Activity Map verwijderd uit de slag.
+De variabele `s.ActivityMap.regionExclusions` is een tekenreeks met door komma&#39;s gescheiden zinnen die worden uitgesloten van het bijhouden van Activity Map. Als om het even welke uitdrukkingen de waarde aanpassen die in de [&#x200B; dimensie van het Gebied van Activity Map &#x200B;](/help/components/dimensions/activity-map-region.md) wordt verzameld, worden alle gegevens van Activity Map verwijderd uit de slag.
 
 ```html
 <script>

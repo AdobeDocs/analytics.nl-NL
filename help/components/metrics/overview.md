@@ -24,14 +24,14 @@ Als u bijvoorbeeld de **[!UICONTROL Page]** -dimensie hebt gecombineerd met de *
 
 {style="table-layout:fixed"}
 
-Als u niet de hulppagina voor bepaalde metrisch kunt vinden, is het waarschijnlijk of a [ douanegebeurtenis ](custom-events.md) of a [ berekende metrisch ](../calculated-metrics/cm-overview.md).
+Als u niet de hulppagina voor bepaalde metrisch kunt vinden, is het waarschijnlijk of a [&#x200B; douanegebeurtenis &#x200B;](custom-events.md) of a [&#x200B; berekende metrisch &#x200B;](../calculated-metrics/cm-overview.md).
 
 * Als metrisch een douanegebeurtenis is, raadpleeg een Analysebeheerder binnen uw organisatie, of het document van het oplossingsontwerp van de rapportreeks [&#128279;](/help/implement/prepare/solution-design.md).
 * Als metrisch berekende metrisch is, klik het informatiepictogram om zijn formule te bepalen.
 
 ## Metrische beschrijvingen toevoegen
 
-Analysebeheerders kunnen beschrijvingen voor metriek en andere componenten of binnen de Reeks van het Rapport of direct binnen Analysis Workspace toevoegen. Voor informatie over hoe te om beschrijvingen aan metriek toe te voegen, zie [ componentenbeschrijvingen ](/help/analyze/analysis-workspace/components/add-component-descriptions.md) toevoegen.
+Analysebeheerders kunnen beschrijvingen voor metriek en andere componenten of binnen de Reeks van het Rapport of direct binnen Analysis Workspace toevoegen. Voor informatie over hoe te om beschrijvingen aan metriek toe te voegen, zie [&#x200B; componentenbeschrijvingen &#x200B;](/help/analyze/analysis-workspace/components/add-component-descriptions.md) toevoegen.
 
 ## Metriek gebruiken in Analysis Workspace
 

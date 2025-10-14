@@ -31,13 +31,13 @@ Een verzoek voor afwijkingsdetectie in Report Builder maken:
 
    Voor toegevoegde metrisch, klik de **[!UICONTROL None]** verbinding.
 
-   ![ Schermafbeelding die Anomaly Detection toont dan Tussenvoegsel en neem dan opties voor Onderste en Bovengrens op en verwacht.](assets/anomaly_select.png)
+   ![&#x200B; Schermafbeelding die Anomaly Detection toont dan Tussenvoegsel en neem dan opties voor Onderste en Bovengrens op en verwacht.](assets/anomaly_select.png)
 
 1. Selecteer **[!UICONTROL Anomaly Detection]** > **[!UICONTROL `<selection>`]** .
 
-   ![ Screenshot die Stap 2 van de Tovenaar van het Verzoek toont - het Rapport van het Verkeer.](assets/anomaly_visit.png)
+   ![&#x200B; Screenshot die Stap 2 van de Tovenaar van het Verzoek toont - het Rapport van het Verkeer.](assets/anomaly_visit.png)
 
    Als u een van deze opties selecteert, maakt het systeem een kopie van de originele metrische waarde voor de anomaly-detectie. Voor de metrische bezoekmethode wordt bijvoorbeeld een maatstaf Bond lager bezoek toegevoegd aan de groep [!UICONTROL Metric] .
 1. Klik op **[!UICONTROL Finish]** en selecteer de cel voor uitvoer naar Excel.
 
-   Zie [ Anomaly Detection ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) voor definities.
+   Zie [&#x200B; Anomaly Detection &#x200B;](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) voor definities.

@@ -27,5 +27,5 @@ U kunt een datumbereik opgeven door cellen te selecteren in een werkblad dat een
 
 Hier volgt een lijst met ondersteunde datumnotaties:
 
-![ Screenshot die gesteunde datumformaten toont.](assets/date-formats.png)
+![&#x200B; Screenshot die gesteunde datumformaten toont.](assets/date-formats.png)
 

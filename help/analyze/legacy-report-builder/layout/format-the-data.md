@@ -18,7 +18,7 @@ ht-degree: 3%
 
 Naast de standaardopmaakopties voor cellen die beschikbaar zijn via de functie Opmaken > Cellen (Ctrl+1) van Excel, kunt u beperkte opmaak toepassen op celbereiken met Report Builder. Deze opmaakkeuzes zijn afhankelijk van de gekozen metrische waarde.
 
-Nadat u [ afmetingen ](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) aan het net van de Etiketten van de Rij toevoegt, klik **[!UICONTROL Format]**.
+Nadat u [&#x200B; afmetingen &#x200B;](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) aan het net van de Etiketten van de Rij toevoegt, klik **[!UICONTROL Format]**.
 
 Klik in het menu **[!UICONTROL Format]** op **[!UICONTROL Custom Format]** om aangepaste notaties toe te passen voor datums die lijken op de functie voor voorvoegen en uitstellen. U kunt bijvoorbeeld tekst invoeren die altijd na de datum optreedt (bijvoorbeeld A.D. B.C.E. A.H. enz.). U kunt vóór de datum tekst toevoegen, zoals [!UICONTROL Start Date] en [!UICONTROL Start and End Date] . Daarnaast kunt u een aangepaste datumexpressie maken van dag-, maand- en jaarafkortingen en een aangepast scheidingsteken gebruiken tussen delen van de datum. Alle datumnotaties moeten bestaan uit drie afkortingen die alleen tussen haakjes staan.
 

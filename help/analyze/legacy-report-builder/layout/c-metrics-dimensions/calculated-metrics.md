@@ -21,19 +21,19 @@ Report Builder 5.2 en hoger biedt ondersteuning voor berekende Adobe Analytics-w
 >
 >De bestaande werkboeken zouden aan verzoeken met erfenis metrische IDs kunnen richten. Wanneer u Report Builder 5.2 gebruikt, worden deze verouderde metrische id&#39;s omgezet in de nieuwe algemene id. Als u dit werkboek deelt met een gebruiker van Report Builder v5.1 of vroeger, zal die gebruiker niet de berekende metriek kunnen zien.
 
-Om meer over te weten te komen hoe te om berekende metriek met de nieuwe Berekende Metrische Bouwer en Manager tot stand te brengen en te beheren, verwijs naar de [ Berekende Gids van Metriek ](/help/components/calculated-metrics/cm-overview.md).
+Om meer over te weten te komen hoe te om berekende metriek met de nieuwe Berekende Metrische Bouwer en Manager tot stand te brengen en te beheren, verwijs naar de [&#x200B; Berekende Gids van Metriek &#x200B;](/help/components/calculated-metrics/cm-overview.md).
 
 In Stap 2 van de Tovenaar van het Verzoek, kunt u berekende metriek filtreren en toepassen.
 
 ## Berekende maateenheden filteren {#section_376E986D3E684999A7CDB08E53854159}
 
-**berekende metriek van de Filter** door op het pictogram van de Filter te klikken: ![ Schermafbeelding van de opties die van de Filter de Toepassing, Gebruiker, de gebieden van het Project tonen.](/help/admin/tools/assets/filter.png)
+**berekende metriek van de Filter** door op het pictogram van de Filter te klikken: ![&#x200B; Schermafbeelding van de opties die van de Filter de Toepassing, Gebruiker, de gebieden van het Project tonen.](/help/admin/tools/assets/filter.png)
 
 Het dialoogvenster Geavanceerde filters wordt gevuld met zowel standaard als berekende meetwaarden.
 
 Beschikbare filters zijn:
 
-![ Schermafbeelding die de Geavanceerde die opties toont van Filters in de volgende lijst worden beschreven.](assets/advanced_filters.png)
+![&#x200B; Schermafbeelding die de Geavanceerde die opties toont van Filters in de volgende lijst worden beschreven.](assets/advanced_filters.png)
 
 | Filternaam | Beschrijving |
 |---|---|
@@ -49,4 +49,4 @@ Beschikbare filters zijn:
 
 Nadat u de filters hebt geselecteerd, klikt u op **[!UICONTROL Apply]** om deze op uw verzoek toe te passen. De geselecteerde metrische(n) worden nu toegevoegd aan de rapportlay-out.
 
-![ Schermafbeelding die de Stap 2 van de Tovenaar van het Verzoek toont - de Totalen van de Plaats die aan het Geavanceerde venster van Filters richten en rapportmetriek toepasten.](assets/filtering_for_metric.png)
+![&#x200B; Schermafbeelding die de Stap 2 van de Tovenaar van het Verzoek toont - de Totalen van de Plaats die aan het Geavanceerde venster van Filters richten en rapportmetriek toepasten.](assets/filtering_for_metric.png)

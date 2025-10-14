@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Dag van de week
 
-De &quot;Dag van week&quot;[ dimensie ](overview.md) meldt de dag van de week de treffer voorkwam. Dit rapport is waardevol als u een rapport wilt dat per week wordt uitgesplitst, maar geen statische dagen als dimensie-items wilt. Het is vooral waardevol als dimensie in geplande rapporten, aangezien deze dimensie met om het even welk datumwaaier werkt.
+De &quot;Dag van week&quot;[&#x200B; dimensie &#x200B;](overview.md) meldt de dag van de week de treffer voorkwam. Dit rapport is waardevol als u een rapport wilt dat per week wordt uitgesplitst, maar geen statische dagen als dimensie-items wilt. Het is vooral waardevol als dimensie in geplande rapporten, aangezien deze dimensie met om het even welk datumwaaier werkt.
 
 ## Deze dimensie vullen met gegevens
 
@@ -20,4 +20,4 @@ Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite g
 
 ## Dimension-objecten
 
-Dimension-items zijn onder andere `Sunday` - `Saturday` , die de dag van de week vertegenwoordigt waarop de treffer heeft plaatsgevonden. De orde van afmetingspunten volgt de eerste dag van de week in [ past kalender ](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) door gebrek aan.
+Dimension-items zijn onder andere `Sunday` - `Saturday` , die de dag van de week vertegenwoordigt waarop de treffer heeft plaatsgevonden. De orde van afmetingspunten volgt de eerste dag van de week in [&#x200B; past kalender &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) door gebrek aan.

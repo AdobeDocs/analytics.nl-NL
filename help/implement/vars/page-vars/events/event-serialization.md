@@ -21,7 +21,7 @@ De rangschikking van gebeurtenissen is het proces om maatregelen uit te voeren o
 
 ## Gebeurtenisserienummering instellen
 
-U moet eerst de gebeurtenis [!UICONTROL Unique Event Recording] instellen op [!UICONTROL Use Event ID] in de instellingen van de rapportsuite. Zie [ Gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in de Admin gebruikersgids.
+U moet eerst de gebeurtenis [!UICONTROL Unique Event Recording] instellen op [!UICONTROL Use Event ID] in de instellingen van de rapportsuite. Zie [&#x200B; Gebeurtenissen van het Succes &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in de Admin gebruikersgids.
 
 Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niveaus:
 
@@ -45,7 +45,7 @@ Als het gebruiken van het [**gegevensvoorwerp**](/help/implement/aep-edge/data-v
 
 U kunt het veld voor de gebeurtenis-id instellen tijdens het configureren van de extensie Analytics (globale variabelen) of als een handeling in een regel.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).

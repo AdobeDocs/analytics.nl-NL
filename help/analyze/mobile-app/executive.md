@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Snelle handleiding voor gebruikers
 
-De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Om een video te zien die deze informatie aantoont, zie [ de dashboards van Adobe Analytics in-app Ervaring ](https://youtu.be/QXqQ_PkArbA).
+De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Om een video te zien die deze informatie aantoont, zie [&#x200B; de dashboards van Adobe Analytics in-app Ervaring &#x200B;](https://youtu.be/QXqQ_PkArbA).
 
 Deze gids is bedoeld om uitvoerende gebruikers te helpen scorecards op de dashboards van Analytics lezen en interpreteren. Met de app kunnen uitvoerende gebruikers snel en gemakkelijk een brede weergave van belangrijke samenvattingsgegevens op hun eigen mobiele apparaten bekijken.
 
@@ -36,17 +36,17 @@ Voer de stappen uit volgens het besturingssysteem op uw apparaat om de app te do
 
 Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]** ) en volg de instructies om de app te downloaden, installeren en openen:
 
-[ verbinding van iOS ](https://apple.co/2zXq0aN)
+[&#x200B; verbinding van iOS &#x200B;](https://apple.co/2zXq0aN)
 
 **voor uitvoerende gebruikers op Android:**
 
 Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]** ) en volg de instructies om de app te downloaden, installeren en openen:
 
-[ verbinding van Android ](https://bit.ly/2LM38Oo)
+[&#x200B; verbinding van Android &#x200B;](https://bit.ly/2LM38Oo)
 
 Zodra ze zijn gedownload en geïnstalleerd, kunnen gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-referenties.
 
-![ App welkomstscherm ](assets/welcome.png)
+![&#x200B; App welkomstscherm &#x200B;](assets/welcome.png)
 
 ## Dashboards gebruiken
 
@@ -54,7 +54,7 @@ U kunt als volgt dashboards gebruiken:
 
 1. Meld u aan bij de app. Het aanmeldingsscherm wordt weergegeven wanneer u dashboards start. Volg de aanwijzingen op basis van uw bestaande Adobe Analytics-gebruikersgegevens. Wij ondersteunen zowel Adobe- als Enterprise-/federatieve id&#39;s.
 
-   ![ Teken in opeenvolging ](assets/signseq.png)
+   ![&#x200B; Teken in opeenvolging &#x200B;](assets/signseq.png)
 
 1. Kies een bedrijf. Nadat u zich hebt aangemeld bij dashboards, wordt het scherm **[!UICONTROL Choose a company]** weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan het scorebord dat met u wordt gedeeld.
 
@@ -66,18 +66,18 @@ U kunt als volgt dashboards gebruiken:
 
    U kunt de scorecardlijst sorteren op scorecardtitel, organisatienaam, of onlangs bekeken. U kunt zelfs naar een specifieke scorecard zoeken.
 
-   ![ kies een bedrijf ](assets/mobile-home-screen.png)
+   ![&#x200B; kies een bedrijf &#x200B;](assets/mobile-home-screen.png)
 
    Als u zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld, controleert u het volgende met uw curator:
 
    * U kunt zich aanmelden bij de juiste instantie Analytics
    * De scorecard is met u gedeeld
 
-   ![ niets gedeelde ](assets/nothing.png)
+   ![&#x200B; niets gedeelde &#x200B;](assets/nothing.png)
 
 1. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze; zie **[!UICONTROL Preferences]** hieronder voor meer informatie).
 
-   ![ verklaarde Tegels ](assets/newexplain.png)
+   ![&#x200B; verklaarde Tegels &#x200B;](assets/newexplain.png)
 
    Aanvullende informatie over tegels:
 
@@ -93,24 +93,24 @@ U kunt als volgt dashboards gebruiken:
 
    Het volgende voorbeeldscorebord wordt getoond in normale wijze:
 
-   ![ Scorecard van het Voorbeeld ](assets/intro_scorecard.png)
+   ![&#x200B; Scorecard van het Voorbeeld &#x200B;](assets/intro_scorecard.png)
 
 1. Tik op een tegel om te zien hoe een gedetailleerde uitsplitsing van de tegel werkt.
 
-   ![ mening van de Schaduw ](assets/sparkline.png)
+   ![&#x200B; mening van de Schaduw &#x200B;](assets/sparkline.png)
 
 
 1. U wijzigt de datumbereiken voor uw scorebord als volgt:
 
-   ![ data van de Verandering ](assets/changedate.png)
+   ![&#x200B; data van de Verandering &#x200B;](assets/changedate.png)
 
    * U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
 
    * Afhankelijk van het interval u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), zult u twee opties voor datum bereiken-of de huidige spanwijdte van tijd of onmiddellijk voorafgaand aan het zien. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **[!UICONTROL COMPARE TO]** op een van de opties die worden weergegeven om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tik op **[!UICONTROL Done]** rechtsboven in het scherm. De velden **[!UICONTROL Date Ranges]** en Scorecard worden bijgewerkt met de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd.
 
-1. Als u een segmentfilter op uw scorebord wilt toepassen, tikt u op de vervolgkeuzelijst met filters en selecteert u een segment dat door de curator is geconfigureerd. [ Filters ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) in app functioneren de zelfde manier zij in Analytics Workspace doen.
+1. Als u een segmentfilter op uw scorebord wilt toepassen, tikt u op de vervolgkeuzelijst met filters en selecteert u een segment dat door de curator is geconfigureerd. [&#x200B; Filters &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) in app functioneren de zelfde manier zij in Analytics Workspace doen.
 
-   ![ de filter van het Segment ](/help/admin/tools/assets/filter.png)
+   ![&#x200B; de filter van het Segment &#x200B;](/help/admin/tools/assets/filter.png)
 
 1. Download de Scorecard-updates. Als een Scorecard niet alle metrisch of onderbrekingen omvat die u in kunt geinteresseerd zijn, gelieve uw team van Analytics te contacteren om Scorecard te hebben bijgewerkt. Na de update kunt u de kaart op het scherm terugtrekken om deze te vernieuwen en de onlangs toegevoegde gegevens te laden.
 
@@ -120,11 +120,11 @@ U kunt als volgt dashboards gebruiken:
    2. Tik op het **[!UICONTROL Settings]** -scherm op de optie **[!UICONTROL Feedback]** .
    3. Tik om de opties voor het geven van feedback weer te geven.
 
-      ![ het scherm van Montages ](assets/settings.png)
+      ![&#x200B; het scherm van Montages &#x200B;](assets/settings.png)
 
 1. Tik op de bovenstaande optie **[!UICONTROL Preferences]** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
 
-   ![ Donkere wijze ](assets/darkmode.png)
+   ![&#x200B; Donkere wijze &#x200B;](assets/darkmode.png)
 
 
 **om een insect** te melden:
@@ -132,7 +132,7 @@ U kunt als volgt dashboards gebruiken:
 Tik op de optie en kies een subcategorie van de bug. Geef in het formulier voor het melden van een fout uw e-mailadres op in het bovenste veld en uw beschrijving van de fout op in het veld eronder. Een het schermschot van uw rekeningsinfo wordt automatisch in bijlage aan het bericht, maar u kunt dit schrappen als u wilt door **X** in het gehechtheidsbeeld te tikken. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om het rapport te verzenden.
 
 
-![ bug van het Rapport ](assets/newbug.png)
+![&#x200B; bug van het Rapport &#x200B;](assets/newbug.png)
 
 **om een verbetering** voor te stellen:
 

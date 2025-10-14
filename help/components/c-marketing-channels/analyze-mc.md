@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om doeltreffendheid van de Kanalen van de Marketing voor Attributie en Adobe Analytics te maximaliseren, hebben wij sommige [ herzien beste praktijken ](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
+>Om doeltreffendheid van de Kanalen van de Marketing voor Attributie en Adobe Analytics te maximaliseren, hebben wij sommige [&#x200B; herzien beste praktijken &#x200B;](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
 >
->De beheerders van Analytics kunnen marketing kanalen voor hun organisaties beheren zoals die in [ worden beschreven leiden de Kanalen van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
+>De beheerders van Analytics kunnen marketing kanalen voor hun organisaties beheren zoals die in [&#x200B; worden beschreven leiden de Kanalen van de Marketing &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
 U wilt waarschijnlijk weten welke van uw marketingkanalen het meest effectief is en met wie, zodat u uw inspanningen beter kunt richten en een beter rendement op uw marketingdollars kunt krijgen. In Adobe Analytics zijn de dimensies en maatstaven van de distributiekanalen in Workspace een van de hulpmiddelen die u kunnen helpen de invloed van verschillende kanalen op uw bestellingen, inkomsten, enz. volgen. en geeft u nuttige kanaalinzichten. Hier zijn de afmetingen en de metriek u met betrekking tot de Kanalen van de Marketing kunt gebruiken:
 
@@ -52,7 +52,7 @@ De Details van de Kanalen van de marketing duiken dieper in elk kanaal om u spec
 
 ## Kenmerkingsmodellen toepassen
 
-U kunt [ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md) gebruiken om verschillende attributiemodellen onmiddellijk toe te passen:
+U kunt [&#x200B; Attributie &#x200B;](/help/analyze/analysis-workspace/attribution/overview.md) gebruiken om verschillende attributiemodellen onmiddellijk toe te passen:
 
 ![](assets/mc-viz5.png)
 
@@ -64,4 +64,4 @@ Met het verouderde First-Touch Channel en Last-Touch Channel kunt u een handige 
 
 ![](assets/mc-viz6.png)
 
-Leer meer over dwars-lusje marketing analyse in deze video: [ Gebruikend Cross-tab Analyse om Basis de Marketing Attributie in Analysis Workspace ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=nl-NL) te onderzoeken.
+Leer meer over dwars-lusje marketing analyse in deze video: [&#x200B; Gebruikend Cross-tab Analyse om Basis de Marketing Attributie in Analysis Workspace &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=nl-NL) te onderzoeken.

@@ -33,11 +33,11 @@ Hoewel Adobe geen officiële pakketmonitor biedt, zijn er een groot aantal van d
 
 | Firefox | Internet Explorer | Chrome | Zelfstandige programma&#39;s |
 |---|---|---|---|
-| [ observeren Punt ](https://www.observepoint.com/product#plugin) (markeringskijker) | [ HttpWatch ](https://www.httpwatch.com/) | [ observeren Punt ](https://www.observepoint.com/product#plugin) (markeringskijker) | [ Karel ](https://www.charlesproxy.com/) |
-| [ HttpFox ](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [ de Hulpmiddelen van de Ontwikkelaar van Chrome ](https://code.google.com/chrome/devtools/docs/overview.html) | [ Fiddler ](https://www.telerik.com/fiddler) |
-| [ Gegevens van de Tamper ](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [ Firebug Lite ](https://chromewebstore.google.com/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [ Wireshark ](https://www.wireshark.org/) |
-| [ HttpWatch ](https://www.httpwatch.com/) |  |  |  |
-| [ Vuurwerk ](https://getfirebug.com/) |  |  |  |
+| [&#x200B; observeren Punt &#x200B;](https://www.observepoint.com/product#plugin) (markeringskijker) | [&#x200B; HttpWatch &#x200B;](https://www.httpwatch.com/) | [&#x200B; observeren Punt &#x200B;](https://www.observepoint.com/product#plugin) (markeringskijker) | [&#x200B; Karel &#x200B;](https://www.charlesproxy.com/) |
+| [&#x200B; HttpFox &#x200B;](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [&#x200B; de Hulpmiddelen van de Ontwikkelaar van Chrome &#x200B;](https://code.google.com/chrome/devtools/docs/overview.html) | [&#x200B; Fiddler &#x200B;](https://www.telerik.com/fiddler) |
+| [&#x200B; Gegevens van de Tamper &#x200B;](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [&#x200B; Firebug Lite &#x200B;](https://chromewebstore.google.com/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [&#x200B; Wireshark &#x200B;](https://www.wireshark.org/) |
+| [&#x200B; HttpWatch &#x200B;](https://www.httpwatch.com/) |  |  |  |
+| [&#x200B; Vuurwerk &#x200B;](https://getfirebug.com/) |  |  |  |
 
 >[!NOTE]
 >

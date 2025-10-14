@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Een algemene rapportsuite verzamelt gegevens van alle domeinen en apps die eigendom zijn van uw organisatie. De implementatie vereist om alle verzoeken om images naar één rapportsuite te verzenden.
 
-Adobe raadt in de meeste gevallen aan een algemene rapportsuite te implementeren. Zie &quot;[ Globale overwegingen van de rapportreeks ](/help/implement/prepare/global-rs.md)&quot;voor de voordelen om een globale rapportreeks uit te voeren.
+Adobe raadt in de meeste gevallen aan een algemene rapportsuite te implementeren. Zie &quot;[&#x200B; Globale overwegingen van de rapportreeks &#x200B;](/help/implement/prepare/global-rs.md)&quot;voor de voordelen om een globale rapportreeks uit te voeren.
 
 U kunt subsets van de globale gegevens van de het rapportreeks van uw bedrijf aan verschillende eind verstrekken gebruikers gebruikend *multi-suite het etiketteren* en *virtuele de benaderingen van de rapportreeks*:
 
@@ -27,11 +27,11 @@ U kunt subsets van de globale gegevens van de het rapportreeks van uw bedrijf aa
 
   Er wordt een aparte serveraanroep naar elke rapportsuite in de afbeeldingsaanvraag uitgevoerd. De vraag aan de reeksen van het kindrapport is secundaire vraag.
 
-* **Virtuele rapportreeks**: A [ virtuele rapportreeks ](/help/components/vrs/vrs-about.md) is een vraag op gespecificeerde segmenten die in een globale rapportreeks worden verzameld, en beschikbaar aan gespecificeerde groepen gebruikers. De virtuele rapportsuites staan u toe om rapportelementen voor verschillende eindgebruikers te leiden zonder multi-suite het etiketteren te gebruiken, waarbij secundaire servervraag wordt vermeden.
+* **Virtuele rapportreeks**: A [&#x200B; virtuele rapportreeks &#x200B;](/help/components/vrs/vrs-about.md) is een vraag op gespecificeerde segmenten die in een globale rapportreeks worden verzameld, en beschikbaar aan gespecificeerde groepen gebruikers. De virtuele rapportsuites staan u toe om rapportelementen voor verschillende eindgebruikers te leiden zonder multi-suite het etiketteren te gebruiken, waarbij secundaire servervraag wordt vermeden.
 
-  Om virtuele rapportreeksen te gebruiken, voer een globale rapportreeks uit en ontleed dan de gegevens om virtuele rapportreeksen met specifieke toegepaste segmenten en met specifieke groepstoestemmingen tot stand te brengen. U kunt virtuele rapportsuites in de Virtuele manager van de rapportsuites tot stand brengen ([!UICONTROL Components] > [!UICONTROL Virtual report suites]). Zie &quot;[ het Virtuele werkschema van de rapportreeks ](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)&quot;voor meer informatie.
+  Om virtuele rapportreeksen te gebruiken, voer een globale rapportreeks uit en ontleed dan de gegevens om virtuele rapportreeksen met specifieke toegepaste segmenten en met specifieke groepstoestemmingen tot stand te brengen. U kunt virtuele rapportsuites in de Virtuele manager van de rapportsuites tot stand brengen ([!UICONTROL Components] > [!UICONTROL Virtual report suites]). Zie &quot;[&#x200B; het Virtuele werkschema van de rapportreeks &#x200B;](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)&quot;voor meer informatie.
 
-Het gebruik van virtuele-rapportsuites in plaats van taggen met meerdere suite is vaak de beste manier, maar virtuele-rapportsuites hebben een aantal beperkingen. Zie &quot;[ Virtuele rapportsuites en multi-suite het etiketteren overwegingen ](/help/components/vrs/vrs-considerations.md)&quot;om te bepalen welke benadering van de rapportsuite de beste keus voor uw bedrijfsbehoeften is. Voor een diepgaande vergelijking van virtuele rapportsuites en multi-suite het etiketteren functionaliteit, zie [ Virtuele rapportsuites vs. multi-suite het etiketteren ](/help/components/vrs/vrs-about.md).
+Het gebruik van virtuele-rapportsuites in plaats van taggen met meerdere suite is vaak de beste manier, maar virtuele-rapportsuites hebben een aantal beperkingen. Zie &quot;[&#x200B; Virtuele rapportsuites en multi-suite het etiketteren overwegingen &#x200B;](/help/components/vrs/vrs-considerations.md)&quot;om te bepalen welke benadering van de rapportsuite de beste keus voor uw bedrijfsbehoeften is. Voor een diepgaande vergelijking van virtuele rapportsuites en multi-suite het etiketteren functionaliteit, zie [&#x200B; Virtuele rapportsuites vs. multi-suite het etiketteren &#x200B;](/help/components/vrs/vrs-about.md).
 
 <!---## Rollup reports
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Streaming media services player state tracking metrics bieden aanvullende rapportagefunctionaliteit voor gegevensverzameling via streaming media services libraries. Voor het gebruik van deze metriek is **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Player State Tracking]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
+Wanneer u **[!UICONTROL Player State Tracking]** onder [&#x200B; Media die &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende metriek beschikbaar:
 
 | Metrische naam | Beschrijving | Verzonden met | Variabele van contextgegevens |
 | --- | --- | --- | --- |

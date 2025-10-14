@@ -14,7 +14,7 @@ ht-degree: 10%
 
 Hieronder volgen enkele belangrijke manieren waarop Adobe Analytics organisaties kan helpen om kritische inzichten te verwerven om hun klanten beter te kunnen dienen.
 
-Voor extra details over de voordelen die Adobe Analytics verstrekt, zie de [ het productpagina van Adobe Analytics ](https://business.adobe.com/products/analytics/adobe-analytics.html).
+Voor extra details over de voordelen die Adobe Analytics verstrekt, zie de [&#x200B; het productpagina van Adobe Analytics &#x200B;](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
 ## Webanalyse
 
@@ -41,7 +41,7 @@ De volgende belangrijke functies in Adobe Analytics bieden de volgende marketing
 
 De attributie laat organisaties zien hoe de verschillende interactie door de klantenreis omzetting beïnvloedt. Naast meer traditionele attributieopties, zoals Lineair of First Touch-modellen, gebruikt Attribution in Adobe Analytics ook machinaal leren en geavanceerde statistische modellen om de precieze impact van elke aanraking te begrijpen.
 
-Voor meer informatie, zie [ modellen van de Attributie en raadplegingsvensters ](/help/analyze/analysis-workspace/attribution/models.md).
+Voor meer informatie, zie [&#x200B; modellen van de Attributie en raadplegingsvensters &#x200B;](/help/analyze/analysis-workspace/attribution/models.md).
 
 ## Predictieve analyse
 

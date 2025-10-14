@@ -29,7 +29,7 @@ Elke keer dat u de variabele `registerPreTrackCallback` aanroept, koppelt u die 
 
 Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alvorens het naar Adobe wordt verzonden. Met `onBeforeEventSend` kunt u echter een functie registreren die wordt uitgevoerd vlak voordat gegevens worden verzonden.
 
-1. Login aan de [ Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) UI die uw geloofsbrieven van AdobeID gebruikt.
+1. Login aan de [&#x200B; Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) UI die uw geloofsbrieven van AdobeID gebruikt.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder [!UICONTROL Adobe Experience Platform Web SDK] .
 1. Klik onder [!UICONTROL Data Collection] op de knop **[!UICONTROL Edit on before event send callback code]** .
@@ -37,7 +37,7 @@ Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alv
 
 ## Pre-track callback manueel uitvoerend het Web SDK
 
-Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alvorens het naar Adobe wordt verzonden. Met `onBeforeEventSend` kunt u echter een functie registreren die wordt uitgevoerd vlak voordat gegevens worden verzonden, vergelijkbaar met `doPlugins` . Zie [ Veranderend gebeurtenissen globaal ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+Web SDK kan geen functie verbinden nadat het gegeven wordt gecompileerd maar alvorens het naar Adobe wordt verzonden. Met `onBeforeEventSend` kunt u echter een functie registreren die wordt uitgevoerd vlak voordat gegevens worden verzonden, vergelijkbaar met `doPlugins` . Zie [&#x200B; Veranderend gebeurtenissen globaal &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
 
 ```js
 // Set the trackingCode XDM field to "New value"

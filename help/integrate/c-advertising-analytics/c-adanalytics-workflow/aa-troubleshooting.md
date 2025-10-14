@@ -12,12 +12,12 @@ ht-degree: 1%
 
 # Problemen met Advertising Analytics oplossen
 
-* [ ik zie mijn rapportreeks in de sectie van de Afbeelding niet ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
+* [&#x200B; ik zie mijn rapportreeks in de sectie van de Afbeelding niet &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [Er is een fout opgetreden bij het verifiëren bij Google Ads Account...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## Ik zie mijn rapportsuite niet in de sectie Toewijzing {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-U probeert aan [ opstelling een nieuwe Rekening van Advertising ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) en u ziet uw rapportreeks niet die in de **[!UICONTROL Mapped report suites]** drop-down lijst wordt vermeld. Hiervoor zijn twee mogelijke redenen:
+U probeert aan [&#x200B; opstelling een nieuwe Rekening van Advertising &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) en u ziet uw rapportreeks niet die in de **[!UICONTROL Mapped report suites]** drop-down lijst wordt vermeld. Hiervoor zijn twee mogelijke redenen:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 

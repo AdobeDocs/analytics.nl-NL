@@ -12,10 +12,10 @@ ht-degree: 0%
 
 # Opnieuw laden
 
-&quot;herlaadt&quot;[ metrisch ](overview.md) toont het aantal tijden een afmetingspunt tijdens een herlading aanwezig was. Een bezoeker die zijn browser vernieuwt, is de meest gebruikelijke manier om een nieuwe laadbewerking te starten.
+&quot;herlaadt&quot;[&#x200B; metrisch &#x200B;](overview.md) toont het aantal tijden een afmetingspunt tijdens een herlading aanwezig was. Een bezoeker die zijn browser vernieuwt, is de meest gebruikelijke manier om een nieuwe laadbewerking te starten.
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische tellingen het aantal treffers waar de [ dimensie van de Pagina ](../dimensions/page.md) de zelfde waarde zoals de vorige klap bevat.
+Deze metrische tellingen het aantal treffers waar de [&#x200B; dimensie van de Pagina &#x200B;](../dimensions/page.md) de zelfde waarde zoals de vorige klap bevat.
 
-Het concept van een herladen is op de dimensie van de Pagina van toepassing ongeacht welke afmeting die u in rapportering gebruikt. Bijvoorbeeld, als u [ eVar1 ](../dimensions/evar.md) als afmeting gebruikt en als metrisch opnieuw laadt, toont de lijst u het aantal tijden dat elke waarde van eVar tijdens een herlading (twee opeenvolgende paginawaarden) aanwezig was. Het geeft niet het aantal keren weer dat twee opeenvolgende eVar1-waarden aanwezig waren.
+Het concept van een herladen is op de dimensie van de Pagina van toepassing ongeacht welke afmeting die u in rapportering gebruikt. Bijvoorbeeld, als u [&#x200B; eVar1 &#x200B;](../dimensions/evar.md) als afmeting gebruikt en als metrisch opnieuw laadt, toont de lijst u het aantal tijden dat elke waarde van eVar tijdens een herlading (twee opeenvolgende paginawaarden) aanwezig was. Het geeft niet het aantal keren weer dat twee opeenvolgende eVar1-waarden aanwezig waren.

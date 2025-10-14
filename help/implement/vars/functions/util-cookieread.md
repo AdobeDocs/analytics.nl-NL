@@ -19,7 +19,7 @@ Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in het
 
 U kunt cookies lezen door waarden in gegevenselementen in te stellen.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Data Elements] en klik vervolgens op het gewenste gegevenselement (of maak een gegevenselement).
 4. Stel de vervolgkeuzelijst [!UICONTROL Extension] in op **[!UICONTROL Core]** en de vervolgkeuzelijst op [!UICONTROL Data Element Type] op **[!UICONTROL Cookie]** .

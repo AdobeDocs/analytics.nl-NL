@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie [ Analytics van het Apparaat ](/help/components/cda/overview.md) in de de gebruikersgids van Componenten.
+>Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie [&#x200B; Analytics van het Apparaat &#x200B;](/help/components/cda/overview.md) in de de gebruikersgids van Componenten.
 
 De identificatie van bezoekers tussen apparaten helpt u bezoekers over veelvoudige apparaten aan te sluiten. De identificatie van bezoekers tussen apparaten gebruikt de `visitorID` variabele om een gebruiker over apparaten te associëren. De variabele `visitorID` heeft de hoogste prioriteit bij het identificeren van unieke bezoekers.
 

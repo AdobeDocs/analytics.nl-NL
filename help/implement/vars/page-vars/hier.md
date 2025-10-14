@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze variabele wordt gepensioneerd en geen beschikbare dimensie in Analysis Workspace. Adobe adviseert het gebruiken van [ eVars ](evar.md) en classificaties in plaats daarvan.
+>Deze variabele wordt gepensioneerd en geen beschikbare dimensie in Analysis Workspace. Adobe adviseert het gebruiken van [&#x200B; eVars &#x200B;](evar.md) en classificaties in plaats daarvan.
 
 Hiërarchievariabelen zijn aangepaste variabelen waarmee u de structuur van een site kunt zien. Adobe ondersteunt maximaal vijf hiërarchische variabelen in uw implementatie.
 
@@ -25,13 +25,13 @@ Alvorens hiërarchieën in uw implementatie te gebruiken, zorg ervoor dat u elke
 
 ## Hiërarchieën die het Web SDK gebruiken
 
-De hiërarchieën worden [ in kaart gebracht voor Adobe Analytics ](/help/implement/aep-edge/xdm-var-mapping.md) onder de gebieden XDM `xdm._experience.analytics.customDimensions.hierarchies.hier1` aan `xdm._experience.analytics.customDimensions.hierarchies.hier5`.
+De hiërarchieën worden [&#x200B; in kaart gebracht voor Adobe Analytics &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md) onder de gebieden XDM `xdm._experience.analytics.customDimensions.hierarchies.hier1` aan `xdm._experience.analytics.customDimensions.hierarchies.hier5`.
 
 ## Hiërarchieën die de Adobe Analytics-extensie gebruiken
 
 U kunt hiërarchieën instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).

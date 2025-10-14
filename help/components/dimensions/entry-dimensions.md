@@ -13,16 +13,16 @@ ht-degree: 0%
 
 # Invoerafmetingen
 
-*Deze hulppagina beschrijft hoe de ingangen als a [ dimensie ](overview.md) werken. Voor informatie over hoe de ingangen als metrisch werken, zie de [ metrische Ingangen ](../metrics/entries.md).*
+*Deze hulppagina beschrijft hoe de ingangen als a [&#x200B; dimensie &#x200B;](overview.md) werken. Voor informatie over hoe de ingangen als metrisch werken, zie de [&#x200B; metrische Ingangen &#x200B;](../metrics/entries.md).*
 
-De dimensies van de ingang zijn [ op bezoek-Gebaseerd ](../metrics/visits.md). Zij registreren het eerste afmetingspunt, en stellen het voor de volledige duur van dat bezoek voort. De dimensies van de ingang zijn beschikbaar voor alle variabelen met het kleven die onder [ variabelen van het Verkeer ](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) in de reeksinstellingen van het Rapport worden toegelaten.
+De dimensies van de ingang zijn [&#x200B; op bezoek-Gebaseerd &#x200B;](../metrics/visits.md). Zij registreren het eerste afmetingspunt, en stellen het voor de volledige duur van dat bezoek voort. De dimensies van de ingang zijn beschikbaar voor alle variabelen met het kleven die onder [&#x200B; variabelen van het Verkeer &#x200B;](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) in de reeksinstellingen van het Rapport worden toegelaten.
 
 >[!TIP]
->Als u gegevens wilt zien die op de eerste klap van een bezoek in plaats van de eerste waarde in een bezoek worden gebaseerd, kunt u a [ segment ](/help/components/segmentation/seg-overview.md) gebruiken. Gebruik een klapcontainer waar [ de diepte van het Actief ](hit-depth.md) 1 evenaart, dan gebruik dat segment met de gewenste variabele.
+>Als u gegevens wilt zien die op de eerste klap van een bezoek in plaats van de eerste waarde in een bezoek worden gebaseerd, kunt u a [&#x200B; segment &#x200B;](/help/components/segmentation/seg-overview.md) gebruiken. Gebruik een klapcontainer waar [&#x200B; de diepte van het Actief &#x200B;](hit-depth.md) 1 evenaart, dan gebruik dat segment met de gewenste variabele.
 
 ## Itemafmetingen vullen met gegevens
 
-Een bepaalde ingang [ dimensie ](overview.md) is gebaseerd op zijn bijbehorende verkeersvariabele. Als de niet-entry variabele gegevens heeft, bevat zijn bijbehorende ingangsdimensie ook gegevens. Er zijn geen implementatiewijzigingen vereist voor invoerafmetingen als uw verkeersvariabelen gegevens bevatten.
+Een bepaalde ingang [&#x200B; dimensie &#x200B;](overview.md) is gebaseerd op zijn bijbehorende verkeersvariabele. Als de niet-entry variabele gegevens heeft, bevat zijn bijbehorende ingangsdimensie ook gegevens. Er zijn geen implementatiewijzigingen vereist voor invoerafmetingen als uw verkeersvariabelen gegevens bevatten.
 
 ## Dimension-objecten
 

@@ -17,9 +17,9 @@ Veelgestelde vragen over Activity Map.
 
 +++Hoe geef ik toestemmingen aan Activity Map?
 
-De toestemmingen om Activity Map en zijn bijbehorende afmetingen te gebruiken worden behandeld in [ Adobe Admin Console ](/help/admin/admin-console/home.md).
+De toestemmingen om Activity Map en zijn bijbehorende afmetingen te gebruiken worden behandeld in [&#x200B; Adobe Admin Console &#x200B;](/help/admin/admin-console/home.md).
 
-De [ toestemmingspunten ](/help/admin/admin-console/permissions/product-profile.md) die voor Activity Map worden vereist omvatten:
+De [&#x200B; toestemmingspunten &#x200B;](/help/admin/admin-console/permissions/product-profile.md) die voor Activity Map worden vereist omvatten:
 
 * **[!UICONTROL Analytics Tools]** > **[!UICONTROL Activity Map]**
 * **[!UICONTROL Analytics Tools]** > **[!UICONTROL Segment Publishing]**
@@ -112,7 +112,7 @@ Alle weergegeven gegevens zijn gebaseerd op paginaweergaven.
 
 +++Kan ik gegevens van de Activity Map door gegevensvoer uitvoeren?
 
-Ja. De [ voederkolommen van Gegevens ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) die de Activity Map gebruikt zijn:
+Ja. De [&#x200B; voederkolommen van Gegevens &#x200B;](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) die de Activity Map gebruikt zijn:
 
 * Koppeling naar Activity Map: `clickmaplink`
 * Pagina Activity Mappen: `clickmappage`
@@ -138,7 +138,7 @@ Ja. Vanwege beperkingen van de virtuele rapportsuite is de Live-modus van Activi
 De methode om Activity Map onbruikbaar te maken hangt van uw implementatietype af:
 
 * **uitbreiding van SDK van het Web**: In de montages van de uitbreidingsconfiguratie, uncheck de dozen **[!UICONTROL Collect internal link clicks]**, **[!UICONTROL Collect external link clicks]**, en **[!UICONTROL Collect download link clicks]**.
-* **de bibliotheek van JavaScript van SDK van het Web**: Plaats [`clickCollectionEnabled` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aan `false`.
+* **de bibliotheek van JavaScript van SDK van het Web**: Plaats [`clickCollectionEnabled` &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aan `false`.
 * **uitbreiding Analytics**: In de montages van de uitbreidingsconfiguratie, uncheck de geëtiketteerde doos **[!UICONTROL Use Activity Map]**.
 * **AppMeasurement**: Verwijder of commentaar uit de module van de Activity Map binnen `AppMeasurement.js`, of beschrijf de vraag van de modulefunctie met een leeg lichaam:
 

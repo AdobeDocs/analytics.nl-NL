@@ -18,7 +18,7 @@ Betaalde zoekdetectie configureren:
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** om het dialoogvenster [!UICONTROL Report Suite Manager] te openen.
 1. Selecteer een rapportsuite.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**.
-1. Voor de [!UICONTROL Paid Search Detection] pagina, vorm de gebieden die in [ worden beschreven Betaalde Detectie van het Onderzoek - Beschrijvingen ](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md#section_0C2CFA0AF77B47098BE37CB024665D0D).
+1. Voor de [!UICONTROL Paid Search Detection] pagina, vorm de gebieden die in [&#x200B; worden beschreven Betaalde Detectie van het Onderzoek - Beschrijvingen &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md#section_0C2CFA0AF77B47098BE37CB024665D0D).
 1. Klik op **[!UICONTROL Add]**.
 
 In de lijst [!UICONTROL Current Paid Search Detection Rules] worden de huidige regels voor betaalde zoekopdrachten weergegeven.

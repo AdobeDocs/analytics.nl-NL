@@ -25,7 +25,7 @@ Report Builder-instellingen wijzigen
 
 1. Klik **toepassen**.
 
-   ![ montages van de Report Builder.](./assets/image38.png)
+   ![&#x200B; montages van de Report Builder.](./assets/image38.png)
 
 ## Offlinemodus
 
@@ -51,7 +51,7 @@ De taal selecteren die wordt gebruikt in de gebruikersinterface van de Report Bu
 
 1. Selecteer een taal in de keuzelijst **[!UICONTROL Language]** .
 
-   ![ de waaierruit van de de datumwaaier van de Report Builder die de lijst van de Taal met geselecteerd Engels toont.](./assets/image39.png)
+   ![&#x200B; de waaierruit van de de datumwaaier van de Report Builder die de lijst van de Taal met geselecteerd Engels toont.](./assets/image39.png)
 
 1. Klik op **[!UICONTROL Apply].**
 

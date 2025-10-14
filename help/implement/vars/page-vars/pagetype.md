@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # pageType
 
-De variabele `pageType` is een vlag die wordt gebruikt om foutenpagina&#39;s op uw plaats, zoals 404 fouten aan te wijzen. Als deze variabele het koord `errorPage` bevat, bevolkt het de &quot;Pagina&#39;s niet Gevonden&quot;[ dimensie ](/help/components/dimensions/pages-not-found.md) en [ metrisch ](/help/components/metrics/pages-not-found.md).
+De variabele `pageType` is een vlag die wordt gebruikt om foutenpagina&#39;s op uw plaats, zoals 404 fouten aan te wijzen. Als deze variabele het koord `errorPage` bevat, bevolkt het de &quot;Pagina&#39;s niet Gevonden&quot;[&#x200B; dimensie &#x200B;](/help/components/dimensions/pages-not-found.md) en [&#x200B; metrisch &#x200B;](/help/components/metrics/pages-not-found.md).
 
 >[!IMPORTANT]
 >
@@ -23,8 +23,8 @@ De variabele `pageType` is een vlag die wordt gebruikt om foutenpagina&#39;s op 
 
 Kanaal wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - dit gebied XDM is een booleaanse waarde; plaats het aan `true` om het als foutenpagina te markeren, of `false` als het geen foutenpagina is.
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - dit gebied van gegevensobjecten is een koord; plaats het aan `"errorPage"` om het als dusdanig te markeren.
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - dit gebied XDM is een booleaanse waarde; plaats het aan `true` om het als foutenpagina te markeren, of `false` als het geen foutenpagina is.
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - dit gebied van gegevensobjecten is een koord; plaats het aan `"errorPage"` om het als dusdanig te markeren.
 
 ## Paginatype met Adobe Analytics-extensie
 

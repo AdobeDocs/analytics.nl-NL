@@ -131,7 +131,7 @@ U kunt reguliere expressies bewerken op de pagina [!UICONTROL Regular Expression
 | Groepen afstemmen | Toont hoe de regelmatige uitdrukking aan de karakters van campagneidentiteitskaart beantwoordt, zodat u een positie in campagneidentiteitskaart kunt classificeren |
 | Afstemmen op resultaat | Geeft de delen van een tekenreeks weer die overeenkomen met de reguliere expressie. |
 
-Zie [ Regelmatige Uitdrukkingen in de Regels van de Classificatie ](/help/components/classifications/crb/classification-quickstart-rules.md).
+Zie [&#x200B; Regelmatige Uitdrukkingen in de Regels van de Classificatie &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## Testpagina {#section_EC926F97901C4E65901413F9683AA70A}
 

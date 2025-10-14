@@ -44,7 +44,7 @@ Voor het verkrijgen van modulecode moet een gebruiker toegang hebben tot product
 
 Voor de implementatie van de integrate-module op uw site hebt u toegang tot de Adobe Experience Platform-gegevensverzameling nodig. Als u een verouderde JavaScript-implementatie gebruikt, hebt u toegang tot de broncode van uw website nodig.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de eigenschap Tag die u wilt bewerken.
 1. Klik op het tabblad Extensies en klik vervolgens op Configureren onder Adobe Analytics.
 1. Open de accordeon &#39;Tracker configureren met aangepaste code&#39; en klik op &#39;&lt;/> Editor openen&#39;.

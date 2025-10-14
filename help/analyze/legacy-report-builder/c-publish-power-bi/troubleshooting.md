@@ -42,9 +42,9 @@ Hieronder vindt u een overzicht van de belangrijkste redenen waarom u een verbro
 >Report Builder vereist dat een beheerder toegang tot uw organisatiebronnen toestaat. Als u toegang nodig hebt, vraagt u een beheerder om u toestemming te verlenen.
 > Een Admin van Microsoft kan de *Gebruikers herzien kan toepassing* registreren die onder wordt gevonden: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL User Settings allows options]**. Als deze optie aan **Nr** wordt geplaatst, dan kan admin deze soorten toepassingen registreren.
 
-De gebruikers kunnen Toegang verlenen door in hun [ Microsoft Power BI rekening ](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) te registreren.
+De gebruikers kunnen Toegang verlenen door in hun [&#x200B; Microsoft Power BI rekening &#x200B;](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US) te registreren.
 
-Admins kunnen toegang voor elk verlenen door in hun [ rekening van Microsoft Power BI van de Beheerder te registreren ](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Admins kunnen toegang voor elk verlenen door in hun [&#x200B; rekening van Microsoft Power BI van de Beheerder te registreren &#x200B;](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=admin_consent&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
 
 ## De API-limiet bereiken
 

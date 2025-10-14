@@ -17,29 +17,29 @@ Met Adobe Experience Platform Edge Network kunt u gegevens die bestemd zijn voor
 
 ## Hoe Adobe Analytics Edge Network-gegevens verwerkt
 
-Aangezien gegevens die naar de Edge Network- en AppMeasurement-gegevens worden verzonden anders werken, bepaalt de Edge Network-lading hoe Adobe Analytics de hit afhandelt. Zie [ de gebeurtenistypen van Edge Network in Adobe Analytics ](hit-types.md) voor meer informatie.
+Aangezien gegevens die naar de Edge Network- en AppMeasurement-gegevens worden verzonden anders werken, bepaalt de Edge Network-lading hoe Adobe Analytics de hit afhandelt. Zie [&#x200B; de gebeurtenistypen van Edge Network in Adobe Analytics &#x200B;](hit-types.md) voor meer informatie.
 
 Gegevens die naar Adobe Experience Platform Edge Network worden verzonden kunnen drie formaten volgen: **voorwerp XDM**, **voorwerp van Gegevens**, en **Contextgegevens**. Wanneer een gegevensstroom gegevens doorstuurt naar Adobe Analytics, worden ze omgezet in een indeling die Adobe Analytics kan verwerken.
 
 ## `xdm` -object
 
-Vorm aan schema&#39;s die u baseert op [ XDM ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home) (het Model van Gegevens van de Ervaring) creeert. XDM biedt u flexibiliteit in welke velden worden gedefinieerd als onderdeel van gebeurtenissen. Als u een vooraf bepaald schema specifiek voor Adobe Analytics wilt gebruiken, kunt u de [ groep van het het schemagebied van de ErvaringEvent van Adobe Analytics ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) aan uw schema toevoegen. Nadat u het schema hebt toegevoegd, kunt u het `xdm` -object in de SDK Web gebruiken om gegevens naar een rapportsuite te verzenden. Wanneer gegevens op de Edge Network worden ontvangen, wordt het XDM-object omgezet in een indeling die Adobe Analytics begrijpt.
+Vorm aan schema&#39;s die u baseert op [&#x200B; XDM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home) (het Model van Gegevens van de Ervaring) creeert. XDM biedt u flexibiliteit in welke velden worden gedefinieerd als onderdeel van gebeurtenissen. Als u een vooraf bepaald schema specifiek voor Adobe Analytics wilt gebruiken, kunt u de [&#x200B; groep van het het schemagebied van de ErvaringEvent van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) aan uw schema toevoegen. Nadat u het schema hebt toegevoegd, kunt u het `xdm` -object in de SDK Web gebruiken om gegevens naar een rapportsuite te verzenden. Wanneer gegevens op de Edge Network worden ontvangen, wordt het XDM-object omgezet in een indeling die Adobe Analytics begrijpt.
 
-Zie [ XDM objecten veranderlijke afbeelding aan Adobe Analytics ](xdm-var-mapping.md) voor een volledige verwijzing van XDM gebieden en hoe zij aan de variabelen van Analytics in kaart brengen.
+Zie [&#x200B; XDM objecten veranderlijke afbeelding aan Adobe Analytics &#x200B;](xdm-var-mapping.md) voor een volledige verwijzing van XDM gebieden en hoe zij aan de variabelen van Analytics in kaart brengen.
 
 >[!TIP]
 >
->Als u van plan bent om aan [ Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-landing) in de toekomst te bewegen, adviseert Adobe tegen het gebruiken van de het schemagebiedgroep van Adobe Analytics. In plaats daarvan, adviseert Adobe [ creërend uw eigen schema ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) en gebruik datastream afbeelding om de gewenste variabelen van Analytics te bevolken. Deze strategie vergrendelt u niet op een schema van props en eVars wanneer u klaar bent om over te stappen naar Customer Journey Analytics.
+>Als u van plan bent om aan [&#x200B; Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-landing) in de toekomst te bewegen, adviseert Adobe tegen het gebruiken van de het schemagebiedgroep van Adobe Analytics. In plaats daarvan, adviseert Adobe [&#x200B; creërend uw eigen schema &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) en gebruik datastream afbeelding om de gewenste variabelen van Analytics te bevolken. Deze strategie vergrendelt u niet op een schema van props en eVars wanneer u klaar bent om over te stappen naar Customer Journey Analytics.
 
 ## `data` -object
 
 Als alternatief voor het gebruik van het object `xdm` kunt u in plaats daarvan het object `data` gebruiken. Het gegevensvoorwerp is gericht op implementaties die momenteel AppMeasurement gebruiken, die de verbetering aan het Web SDK veel gemakkelijker maken. De Edge Network detecteert de aanwezigheid van velden die specifiek zijn voor Adobe Analytics zonder dat een schema hoeft te worden gevolgd.
 
-Zie [ objecten van Gegevens veranderlijke afbeelding aan Adobe Analytics ](data-var-mapping.md) voor een volledige verwijzing van gegevensobjecten gebieden en hoe zij aan de variabelen van Analytics in kaart brengen.
+Zie [&#x200B; objecten van Gegevens veranderlijke afbeelding aan Adobe Analytics &#x200B;](data-var-mapping.md) voor een volledige verwijzing van gegevensobjecten gebieden en hoe zij aan de variabelen van Analytics in kaart brengen.
 
 ## Contextgegevensvariabelen
 
-Verzend gegevens naar de Edge Network in elke gewenste indeling. Om het even welke gebieden die niet automatisch aan `xdm` of `data` objecten gebieden in kaart brengen zijn inbegrepen als [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contextdata.md) wanneer door:sturen aan Adobe Analytics. U moet [ regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) dan gebruiken om de gewenste gebieden aan hun respectieve variabelen van Analytics in kaart te brengen.
+Verzend gegevens naar de Edge Network in elke gewenste indeling. Om het even welke gebieden die niet automatisch aan `xdm` of `data` objecten gebieden in kaart brengen zijn inbegrepen als [&#x200B; variabelen van de Contextgegevens &#x200B;](/help/implement/vars/page-vars/contextdata.md) wanneer door:sturen aan Adobe Analytics. U moet [&#x200B; regels van de Verwerking &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) dan gebruiken om de gewenste gebieden aan hun respectieve variabelen van Analytics in kaart te brengen.
 
 Stel dat u een aangepast XDM-schema had dat er als volgt uitziet:
 

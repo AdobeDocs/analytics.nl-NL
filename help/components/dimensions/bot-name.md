@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Bot-naam
 
-De &quot;Bot naam&quot;[ dimensie ](overview.md) toont de namen van bots die gebruikend [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) werden ontdekt. Deze regels kunnen standaardIAB regels, of de regels van de douanebot zijn die uw organisatie vormt. Het is handig als u meer wilt weten over welke bots uw site bezoeken of welke bots het meeste verkeer genereren.
+De &quot;Bot naam&quot;[&#x200B; dimensie &#x200B;](overview.md) toont de namen van bots die gebruikend [&#x200B; Bot regels &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) werden ontdekt. Deze regels kunnen standaardIAB regels, of de regels van de douanebot zijn die uw organisatie vormt. Het is handig als u meer wilt weten over welke bots uw site bezoeken of welke bots het meeste verkeer genereren.
 
-Hits die [!UICONTROL Bot rules] aanpassen wordt automatisch gefilterd uit alle Analytics die met uitzondering op deze afmeting, [ verschijnen Bot ](../metrics/bot-occurrences.md), en [ Bot paginameningen ](../metrics/bot-page-views.md) melden. U kunt deze dimensie en deze twee meeteenheden gebruiken om te zien welke beide gegevens van de rest van uw rapporten worden uitgesloten.
+Hits die [!UICONTROL Bot rules] aanpassen wordt automatisch gefilterd uit alle Analytics die met uitzondering op deze afmeting, [&#x200B; verschijnen Bot &#x200B;](../metrics/bot-occurrences.md), en [&#x200B; Bot paginameningen &#x200B;](../metrics/bot-page-views.md) melden. U kunt deze dimensie en deze twee meeteenheden gebruiken om te zien welke beide gegevens van de rest van uw rapporten worden uitgesloten.
 
 Aangezien beide rapportages van de rest van uw gegevens van de rapportreeks worden gescheiden, slechts worden de volgende dimensies en metriek gesteund met deze dimensie:
 
 * [Pagina](page.md)
-* Op tijd-gebaseerde afmetingen (bijvoorbeeld, [ Dag ](day.md), [ Week ](week.md), of [ Maand ](month.md))
+* Op tijd-gebaseerde afmetingen (bijvoorbeeld, [&#x200B; Dag &#x200B;](day.md), [&#x200B; Week &#x200B;](week.md), of [&#x200B; Maand &#x200B;](month.md))
 * [Beide voorvallen](../metrics/bot-occurrences.md)
 * [Boven pagina weergeven](../metrics/bot-page-views.md)
 
@@ -27,7 +27,7 @@ Het gebruiken van een andere afmeting of metrisch met deze afmeting keert geen g
 
 ## Deze dimensie vullen met gegevens
 
-Als u [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) hebt toegelaten, verzamelt deze dimensie automatisch gegevens. Als u [!UICONTROL Bot rules] nog niet hebt ingeschakeld, wordt deze dimensie niet weergegeven in Analysis Workspace.
+Als u [&#x200B; Bot regels &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) hebt toegelaten, verzamelt deze dimensie automatisch gegevens. Als u [!UICONTROL Bot rules] nog niet hebt ingeschakeld, wordt deze dimensie niet weergegeven in Analysis Workspace.
 
 ## Dimension-objecten
 

@@ -19,7 +19,7 @@ Met de methode `sa()` kunt u een rapportsuite op elk gewenst moment op de pagina
 
 Web SDK werkt door gegevens naar een specifieke DataStream te verzenden, die gegevens naar de gewenste Analytics Report Suite(s) doorstuurt. Één enkele DataStream kan gegevens aan veelvoudige Reeksen van het Rapport door:sturen. Deze sectie is op zowel de uitbreiding van SDK van het Web als manueel het uitvoeren van het Web SDK van toepassing.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op **[!UICONTROL Datastreams]** aan de linkerkant.
 1. Klik op de gewenste gegevensstroom of klik op **[!UICONTROL New Datastream]** .
 1. Klik op **[!UICONTROL Add Service]** en selecteer vervolgens **[!UICONTROL Adobe Analytics]** .
@@ -30,7 +30,7 @@ Web SDK werkt door gegevens naar een specifieke DataStream te verzenden, die geg
 
 De uitbreiding van SDK van het Web verstrekt een drop-down lijst DataStream voor elke milieu. U kunt ook handmatig de DataStream-id invoeren.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder [!UICONTROL Adobe Experience Platform Web SDK] .
 1. Kies onder [!UICONTROL Datastreams] de gewenste DataStream in de vervolgkeuzelijst voor elke omgeving.
@@ -47,7 +47,7 @@ alloy("configure", {
 });
 ```
 
-Zie [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) in de documentatie van SDK van het Web voor meer informatie vormen.
+Zie [&#x200B; SDK van het Web &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) in de documentatie van SDK van het Web voor meer informatie vormen.
 
 ## Rapportsuite wijzigen met de Adobe Analytics-extensie
 

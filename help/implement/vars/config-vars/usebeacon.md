@@ -27,7 +27,7 @@ De variabele `useBeacon` wordt genegeerd wanneer de bezoeker een browser gebruik
 
 Het selectievakje **[!UICONTROL Document will unload]** in een configuratie van handelingen bepaalt of gegevens die naar Adobe worden verzonden de sendBeacon-API gebruiken.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar het tabblad [!UICONTROL Rules] en klik op de gewenste regel.
 1. Klik onder [!UICONTROL Actions] op de gewenste handeling of klik op het pictogram **&#39;+&#39;** om een nieuwe handeling toe te voegen.
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-Zie [ Gebruikend sendBeacon API ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#using-the-sendbeacon-api) in de documentatie van SDK van het Web voor meer informatie.
+Zie [&#x200B; Gebruikend sendBeacon API &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#using-the-sendbeacon-api) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Gebruik baken met de Adobe Analytics-extensie
 

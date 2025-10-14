@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # doPlugins
 
-De variabele `doPlugins` fungeert als een &#39;laatste aanroep&#39; om waarden in te stellen in uw implementatie. Het is de ideale plaats om vraag aan [ stop-in methodes ](../plugins/impl-plugins.md) te maken en om het even welke gewenste variabelen te plaatsen alvorens een beeldverzoek wordt verzonden. Als [`usePlugins`](../config-vars/useplugins.md) is ingeschakeld, wordt deze automatisch uitgevoerd vlak voordat een type afbeeldingsaanvraag wordt gecompileerd en naar Adobe wordt verzonden, zoals:
+De variabele `doPlugins` fungeert als een &#39;laatste aanroep&#39; om waarden in te stellen in uw implementatie. Het is de ideale plaats om vraag aan [&#x200B; stop-in methodes &#x200B;](../plugins/impl-plugins.md) te maken en om het even welke gewenste variabelen te plaatsen alvorens een beeldverzoek wordt verzonden. Als [`usePlugins`](../config-vars/useplugins.md) is ingeschakeld, wordt deze automatisch uitgevoerd vlak voordat een type afbeeldingsaanvraag wordt gecompileerd en naar Adobe wordt verzonden, zoals:
 
 * Alle aanroepen van de paginaweergave ([`t()`](t-method.md))
 * Alle verbindingen het volgen ([`tl()`](tl-method.md)) vraag, met inbegrip van automatische downloadverbindingen en uitgangsverbindingen
@@ -24,7 +24,7 @@ Gebruik de variabele `doPlugins` om insteekcode aan te roepen en de uiteindelijk
 
 In plaats van `doPlugins` gebruikt de Web SDK `onBeforeEventSend` met vergelijkbare functionaliteit.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder [!UICONTROL Adobe Experience Platform Web SDK] .
 1. Klik onder [!UICONTROL Data Collection] op de knop **[!UICONTROL Edit on before event send callback code]** .
@@ -32,7 +32,7 @@ In plaats van `doPlugins` gebruikt de Web SDK `onBeforeEventSend` met vergelijkb
 
 ## Gebruik `onBeforeEventSend` handmatig om de Web SDK te implementeren
 
-In plaats van `doPlugins` gebruikt de Web SDK `onBeforeEventSend` met vergelijkbare functionaliteit. Zie [ Veranderend gebeurtenissen globaal ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+In plaats van `doPlugins` gebruikt de Web SDK `onBeforeEventSend` met vergelijkbare functionaliteit. Zie [&#x200B; Veranderend gebeurtenissen globaal &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
 
 ```js
 // Set the trackingCode XDM field to "New value"

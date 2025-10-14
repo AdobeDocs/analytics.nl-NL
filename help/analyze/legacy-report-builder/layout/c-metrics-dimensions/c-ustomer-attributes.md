@@ -21,7 +21,7 @@ Raadpleeg [Experience Cloud Help](https://experienceleague.adobe.com/docs/core-s
 
 * Als het als metrisch wordt gevormd, wordt VisAttr blootgesteld zowel als metrisch als &quot;afmeting&quot;.
 
-  ![ Schermschot die metrische en afmetende Attributen van de Klant tonen.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
+  ![&#x200B; Schermschot die metrische en afmetende Attributen van de Klant tonen.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
 * Het steunt de zelfde onderbreking zoals een eVar (om het even wat kan door om het even wat worden onderverdeeld).
 * VisAttr ondersteunt alle eVar metriek.

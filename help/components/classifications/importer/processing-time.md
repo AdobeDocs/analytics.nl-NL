@@ -22,8 +22,8 @@ Ga als volgt te werk als u wilt zien of een classificatiebestand is voltooid:
 2. Selecteer de rapportsuite en gegevensset in kwestie.
 3. Als de verwerking nog niet voltooid is, wordt een van de volgende berichten weergegeven:
 
-   * ![ Bericht ](assets/icon_notice_notice.gif) het geselecteerde rapport heeft een classificatieinvoer die verwerkt.
-   * ![ Bericht ](assets/icon_notice_notice.gif) het geselecteerde rapport heeft classificatiegegevens die nog niet aan alle servers hebben verspreid.
+   * ![&#x200B; Bericht &#x200B;](assets/icon_notice_notice.gif) het geselecteerde rapport heeft een classificatieinvoer die verwerkt.
+   * ![&#x200B; Bericht &#x200B;](assets/icon_notice_notice.gif) het geselecteerde rapport heeft classificatiegegevens die nog niet aan alle servers hebben verspreid.
 
 Als u de importtijd voor classificaties wilt minimaliseren, raadt Adobe u ten zeerste aan de volgende richtlijnen in acht te nemen:
 

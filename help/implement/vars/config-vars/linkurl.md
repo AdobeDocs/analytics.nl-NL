@@ -15,14 +15,14 @@ ht-degree: 0%
 
 Wanneer een koppelingenvolgvraag naar Adobe wordt verzonden, detecteert AppMeasurement de URL waarop is geklikt. Deze URL helpt het verbindingstype, zoals downloadverbindingen en uitgangsverbindingen bepalen. Gebruik de variabele `linkURL` om de gedetecteerde URL te overschrijven.
 
-Er zijn geen dimensies in Analysis Workspace die rapporteren over deze variabele. Het bevolkt de `page_event_var1` kolom in [ het voer van Gegevens ](/help/export/analytics-data-feed/data-feed-overview.md). Als u URL van een klikte verbinding wilt volgen, adviseert Adobe gebruikend een douanevariabele, zoals a [ Prop ](../page-vars/prop.md). Het gebruik van [ Activity Map ](/help/analyze/activity-map/overview.md) kan helpen de gegevensinzameling voor geklikte verbindingen stroomlijnen.
+Er zijn geen dimensies in Analysis Workspace die rapporteren over deze variabele. Het bevolkt de `page_event_var1` kolom in [&#x200B; het voer van Gegevens &#x200B;](/help/export/analytics-data-feed/data-feed-overview.md). Als u URL van een klikte verbinding wilt volgen, adviseert Adobe gebruikend een douanevariabele, zoals a [&#x200B; Prop &#x200B;](../page-vars/prop.md). Het gebruik van [&#x200B; Activity Map &#x200B;](/help/analyze/activity-map/overview.md) kan helpen de gegevensinzameling voor geklikte verbindingen stroomlijnen.
 
 ## URL koppelen met de Web SDK
 
 De koppeling-URL wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` of `data.__adobe.analytics.pev1`
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` of `data.__adobe.analytics.pev1`
 
 ## URL koppelen met de Adobe Analytics-extensie
 
@@ -36,4 +36,4 @@ De variabele `s.linkURL` is een tekenreeks die de volledige URL van de aangeklik
 s.linkURL = "https://example.com";
 ```
 
-Als het derde argument van [ tl () ](../functions/tl-method.md) methode niet wordt geplaatst, wordt de `linkURL` variabele gebruikt in plaats daarvan.
+Als het derde argument van [&#x200B; tl () &#x200B;](../functions/tl-method.md) methode niet wordt geplaatst, wordt de `linkURL` variabele gebruikt in plaats daarvan.

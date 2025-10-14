@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # prop
 
-*Deze hulppagina beschrijft hoe te om steunen uit te voeren. Voor informatie over hoe de steunen als afmeting werken, zie [ steun ](/help/components/dimensions/prop.md) in de de gebruikersgids van Componenten.*
+*Deze hulppagina beschrijft hoe te om steunen uit te voeren. Voor informatie over hoe de steunen als afmeting werken, zie [&#x200B; steun &#x200B;](/help/components/dimensions/prop.md) in de de gebruikersgids van Componenten.*
 
 Props zijn aangepaste variabelen die u op de gewenste manier kunt gebruiken. Ze blijven niet bestaan na de treffer die ze zijn ingesteld.
 
 >[!TIP]
 >
->Adobe adviseert gebruikend [ eVars ](evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. Adobe heeft de eVars echter zodanig verbeterd dat ze nu bijna alle gevallen van gebruik voor props vervullen.
+>Adobe adviseert gebruikend [&#x200B; eVars &#x200B;](evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. Adobe heeft de eVars echter zodanig verbeterd dat ze nu bijna alle gevallen van gebruik voor props vervullen.
 
 Als u het document van het oplossingsontwerp van a [&#128279;](/help/implement/prepare/solution-design.md) hebt, kunt u deze douanedimensies aan waarden toewijzen specifiek voor uw organisatie. Het aantal beschikbare props is afhankelijk van uw contract met Adobe. Er zijn maximaal 75 props beschikbaar als uw contract met Adobe dit ondersteunt.
 
@@ -27,14 +27,14 @@ Als u het document van het oplossingsontwerp van a [&#128279;](/help/implement/p
 
 Props worden toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - de lijststeunen worden gespecificeerd in a [ afzonderlijke reeks gebieden ](#list-props-web-sdk).
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; of `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - de lijstuitdrukkingen zijn inbegrepen in deze gebieden.
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - de lijststeunen worden gespecificeerd in a [&#x200B; afzonderlijke reeks gebieden &#x200B;](#list-props-web-sdk).
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; of `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - de lijstuitdrukkingen zijn inbegrepen in deze gebieden.
 
 ## Wordt gebruikt met de Adobe Analytics-extensie
 
 U kunt eigenschappen instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).
@@ -57,7 +57,7 @@ Keuzerondjes in de lijst zijn een instelling die wordt toegepast op profielen wa
 
 ### Lijsteigenschappen configureren
 
-Laat lijststeunen in [ variabelen van het Verkeer ](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) onder de montages van de rapportreeks toe. Zorg ervoor dat het gewenste scheidingsteken correct wordt gevormd. Adobe heeft geen standaardscheidingsteken.
+Laat lijststeunen in [&#x200B; variabelen van het Verkeer &#x200B;](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) onder de montages van de rapportreeks toe. Zorg ervoor dat het gewenste scheidingsteken correct wordt gevormd. Adobe heeft geen standaardscheidingsteken.
 
 >[!TIP]
 >

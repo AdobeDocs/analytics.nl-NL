@@ -22,7 +22,7 @@ Uw bestaande segmenten werken nog steeds zoals voorheen. Om het even welke rappo
 
 De meeste vroegere vooraf bepaalde en reekssegmenten worden gemigreerd over als segmentmalplaatjes in de bouwer van het Segment. Segmentsjablonen worden gebruikt om snel aangepaste segmenten te maken met een veel voorkomend publiek. De malplaatjes van het segment kunnen niet rechtstreeks op een rapport worden toegepast, maar zij kunnen gemakkelijk aan een douanesegment worden bewaard.
 
-De malplaatjes van het segment zijn duidelijk met een speciaal pictogram ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg) in de bouwer van het Segment.
+De malplaatjes van het segment zijn duidelijk met een speciaal pictogram ![&#x200B; AdobeLogoSmall &#x200B;](/help/assets/icons/AdobeLogoSmall.svg) in de bouwer van het Segment.
 
 
 
@@ -104,7 +104,7 @@ Nu de segmenten in veelvoudige rapportreeksen werken, zou u kunnen vinden dat u 
 * Bekijk de segmenten die u hebt.
 * Voeg deze waar van toepassing toe aan de segmentbibliotheek.
 * Goedkeuren van canonieke segmenten.
-* De segmenten van de markering volgens [ beste praktijken ](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* De segmenten van de markering volgens [&#x200B; beste praktijken &#x200B;](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 

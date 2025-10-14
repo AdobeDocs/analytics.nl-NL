@@ -26,4 +26,4 @@ U kunt de volgende gegevens ophalen in Adobe Analytics:
 
 * AMO ID-instanties (klik op Instanties)
 
-Voor meer informatie, zie [ een gids van A aan Advertising Analytics ](/help/integrate/c-advertising-analytics/overview.md).
+Voor meer informatie, zie [&#x200B; een gids van A aan Advertising Analytics &#x200B;](/help/integrate/c-advertising-analytics/overview.md).

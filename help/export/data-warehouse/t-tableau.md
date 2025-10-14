@@ -14,4 +14,4 @@ ht-degree: 0%
 
 De Data Warehouse kan rapporten in het dossierformaat leveren van de Uitvoer van Gegevens Tableau (TDE), dat kan worden gebruikt om gegevens en laag in extra gegevens binnen Tableau te visualiseren.
 
-Voor informatie over hoe te om de rapporten van de Data Warehouse te vormen die in formaat moeten worden geleverd TDE, zie [ rapportopties voor een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-options.md) vormen.
+Voor informatie over hoe te om de rapporten van de Data Warehouse te vormen die in formaat moeten worden geleverd TDE, zie [&#x200B; rapportopties voor een verzoek van de Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-options.md) vormen.

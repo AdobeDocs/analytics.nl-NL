@@ -31,7 +31,7 @@ Classificaties voor de geselecteerde rapportsuites toevoegen of bewerken:
 1. Selecteer in het veld **[!UICONTROL Select Classification Type]** de variabele waaraan u een classificatie wilt toevoegen.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]**.
 
-   ![ Info van de Stap ](/help/admin/tools/assets/traffic-classification.png)
+   ![&#x200B; Info van de Stap &#x200B;](/help/admin/tools/assets/traffic-classification.png)
 
 1. Plaats de muis boven het pictogram **[!UICONTROL Edit Classification]** en selecteer vervolgens **[!UICONTROL Add Classification]** of **[!UICONTROL Edit Classification]** .
 1. Configureer in het dialoogvenster **[!UICONTROL Text Classification]** de classificatie naar wens:

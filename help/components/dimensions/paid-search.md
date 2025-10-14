@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Betaalde zoekopdracht
 
-De &quot;Betaalde onderzoek&quot;[ dimensie ](overview.md) laat u om het even welke metrisch bekijken en het tussen betaald onderzoek en natuurlijk onderzoek vergelijken. Alle andere treffers buiten zoekmachines worden weggelaten. Deze dimensie is handig om te begrijpen hoe uw betaalde zoekopdracht zich verhoudt tot biologisch zoeken.
+De &quot;Betaalde onderzoek&quot;[&#x200B; dimensie &#x200B;](overview.md) laat u om het even welke metrisch bekijken en het tussen betaald onderzoek en natuurlijk onderzoek vergelijken. Alle andere treffers buiten zoekmachines worden weggelaten. Deze dimensie is handig om te begrijpen hoe uw betaalde zoekopdracht zich verhoudt tot biologisch zoeken.
 
 ## Deze dimensie vullen met gegevens
 
-Het enige vereiste voor deze dimensie om behoorlijk te werken is [ Betaalde onderzoeksopsporing ](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md) te hebben die correct in de montages van de rapportreeks wordt gevormd. Als de betaalde onderzoeksopsporing correct wordt gevormd en een rapportreeks gegevens heeft, werkt deze dimensie altijd.
+Het enige vereiste voor deze dimensie om behoorlijk te werken is [&#x200B; Betaalde onderzoeksopsporing &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md) te hebben die correct in de montages van de rapportreeks wordt gevormd. Als de betaalde onderzoeksopsporing correct wordt gevormd en een rapportreeks gegevens heeft, werkt deze dimensie altijd.
 
 ## Dimension-objecten
 

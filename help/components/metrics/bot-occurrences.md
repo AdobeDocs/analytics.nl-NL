@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # Beide voorvallen
 
-De metrische &quot;Bot voorkomen&quot;[&#128279;](overview.md) toont het aantal treffers die [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) overstemden.
+De metrische &quot;Bot voorkomen&quot;[&#128279;](overview.md) toont het aantal treffers die [&#x200B; Bot regels &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) overstemden.
 
 Aangezien beide rapportages van de rest van uw gegevens van het rapportpakket worden gescheiden, werkt dit metrisch slechts met de volgende afmetingen:
 
 * [Bot-naam](../dimensions/bot-name.md)
 * [Pagina](../dimensions/page.md)
-* Op tijd-gebaseerde afmetingen (bijvoorbeeld, [ Dag ](../dimensions/day.md), [ Week ](../dimensions/week.md), of [ Maand ](../dimensions/month.md))
+* Op tijd-gebaseerde afmetingen (bijvoorbeeld, [&#x200B; Dag &#x200B;](../dimensions/day.md), [&#x200B; Week &#x200B;](../dimensions/week.md), of [&#x200B; Maand &#x200B;](../dimensions/month.md))
 
 Het gebruiken van om het even welke andere afmeting met dit metrisch keert geen gegevens terug.
 
 ## Hoe deze metrische waarde wordt berekend
 
-Adobe controleert elke hit om te zien of deze overeenkomt met beide regels die uw organisatie heeft geconfigureerd. Als een bepaalde hit overeenkomt met een beide-regel, wordt de hit niet gerapporteerd en wordt deze metrische waarde met één verhoogd. Deze metrisch omvat zowel paginameningen ([`t()`](/help/implement/vars/functions/t-method.md)) en verbinding volgende klappen ([`tl()`](/help/implement/vars/functions/tl-method.md)), terwijl [ de meningen van de de paginapagina Bot ](bot-page-views.md) verbindingsvolgende klappen niet omvatten.
+Adobe controleert elke hit om te zien of deze overeenkomt met beide regels die uw organisatie heeft geconfigureerd. Als een bepaalde hit overeenkomt met een beide-regel, wordt de hit niet gerapporteerd en wordt deze metrische waarde met één verhoogd. Deze metrisch omvat zowel paginameningen ([`t()`](/help/implement/vars/functions/t-method.md)) en verbinding volgende klappen ([`tl()`](/help/implement/vars/functions/tl-method.md)), terwijl [&#x200B; de meningen van de de paginapagina Bot &#x200B;](bot-page-views.md) verbindingsvolgende klappen niet omvatten.

@@ -19,7 +19,7 @@ De variabele `abort` is een Booleaanse waarde die kan voorkomen dat de volgende 
 
 Gebruik de [!UICONTROL On before event send callback] code-editor en retourneer `false` .
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder [!UICONTROL Adobe Experience Platform Web SDK] .
 1. Klik onder [!UICONTROL Data Collection] op de knop **[!UICONTROL Edit on before event send callback code]** .
@@ -31,7 +31,7 @@ return false;
 
 ## Annuleer het verzenden van een gebeurtenis manueel het uitvoeren van het Web SDK
 
-Gebruik de callback en return `onBeforeEventSend` `false` . Zie [ Veranderend gebeurtenissen globaal ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+Gebruik de callback en return `onBeforeEventSend` `false` . Zie [&#x200B; Veranderend gebeurtenissen globaal &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=nl-NL#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
 
 ```js
 alloy("configure"), {

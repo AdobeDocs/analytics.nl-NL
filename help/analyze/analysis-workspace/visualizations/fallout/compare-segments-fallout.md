@@ -54,7 +54,7 @@ U kunt een onbeperkt aantal segmenten vergelijken in de Fallout-visualisatie. (I
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ segmenten in een fallout visualisatie ](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} voor een demo video vergelijken.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; segmenten in een fallout visualisatie &#x200B;](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} voor een demo video vergelijken.
 
 >[!ENDSHADEBOX]
 

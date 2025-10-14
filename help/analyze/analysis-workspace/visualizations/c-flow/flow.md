@@ -31,11 +31,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Stroom in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Stroom ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Stroom in_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [&#x200B; Stroom &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) voor_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
-De ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** visualisatie toont klantenwegen door uw websites en apps.
+De ![&#x200B; GraphPathing &#x200B;](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** visualisatie toont klantenwegen door uw websites en apps.
 
 Met de visualisatie kunt u:
 
@@ -47,20 +47,20 @@ Met de visualisatie kunt u:
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Vloeisualisatie van de Stroom ](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Vloeisualisatie van de Stroom &#x200B;](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 ## Interdimensionale stromen
 
-U kunt de [ stroom tussen afmetingen ](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tonen. U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mens, dan naar de afdeling van Schoenen kunnen gaan.
+U kunt de [&#x200B; stroom tussen afmetingen &#x200B;](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tonen. U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mens, dan naar de afdeling van Schoenen kunnen gaan.
 
 Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een dalingsstreek om die afmeting aan het diagram toe te voegen.
 
 >[!MORELIKETHIS]
 >
->[ vorm een stroomvisualisatie ](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[&#x200B; vorm een stroomvisualisatie &#x200B;](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 
@@ -68,7 +68,7 @@ Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een d
 
 >[!BEGINSHADEBOX]
 
-Zie ![ ](/help/assets/icons/VideoCheckedOut.svg) Extra functionaliteit 0&rbrace; VideoCheckedOut in de visualisatie van de Stroom [ voor een demo video.](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}
+Zie ![&#x200B; &#x200B;](/help/assets/icons/VideoCheckedOut.svg) Extra functionaliteit 0&rbrace; VideoCheckedOut in de visualisatie van de Stroom [&#x200B; voor een demo video.](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}
 
 >[!ENDSHADEBOX]
 

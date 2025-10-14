@@ -38,7 +38,7 @@ In de volgende tabel worden de belichte functies weergegeven.
 
 Ga naar **[!UICONTROL Formulas]** > **[!UICONTROL Insert Function]** voor toegang tot de functies van de Report Builder. Gebruik het zoekveld om naar een functie te zoeken of selecteer een categorie om de functies in die categorie weer te geven.
 
-![ Schermafbeelding die het venster van de Functie van het Tussenvoegsel met uitgevouwen categorielijst toont.](assets/arb_functions.png)
+![&#x200B; Schermafbeelding die het venster van de Functie van het Tussenvoegsel met uitgevouwen categorielijst toont.](assets/arb_functions.png)
 
 ## Voorbeeld {#section_034311081C8D4D7AA9275C1435A087CD}
 
@@ -56,7 +56,7 @@ U kunt een macro aan een controle toewijzen u creeerde en die controle kan een f
 1. Klik met de rechtermuisknop op het besturingselement en selecteer **[!UICONTROL Assign Macro]** .
 1. Voer de naam van de functie Report Builder in (geen parameters of ronde haakjes).
 
-![ Schermschot die het Assign venster van de Macro tonen.](assets/assign_macro.png)
+![&#x200B; Schermschot die het Assign venster van de Macro tonen.](assets/assign_macro.png)
 
 ## Parameters doorgeven aan Report Builder-functies met behulp van formaatbesturing {#section_ECCA1F4990D244619DFD79138064CEF0}
 
@@ -69,11 +69,11 @@ Parameters doorgeven aan Report Builder-functies met behulp van formaatbesturing
 
 1. Klik met de rechtermuisknop op het besturingselement en selecteer **[!UICONTROL Format Control]** .
 
-   ![ Schermafbeelding die de Controle van het Formaat toont selecteerde.](assets/format_control.png)
+   ![&#x200B; Schermafbeelding die de Controle van het Formaat toont selecteerde.](assets/format_control.png)
 
 1. Klik op de tab **[!UICONTROL Alt Text]** .
 
-   ![ Schermafbeelding die het lusje van de Tekst van Alt en Alternatieve tekst toont: gebied.](assets/alt_text.png)
+   ![&#x200B; Schermafbeelding die het lusje van de Tekst van Alt en Alternatieve tekst toont: gebied.](assets/alt_text.png)
 
 1. Voer onder **[!UICONTROL Alternative text]** het celbereik in dat u wilt vernieuwen.
 1. Open de lijst met parameters voor de Report Builder onder **[!UICONTROL Formulas]** > **[!UICONTROL Insert Function]** > **[!UICONTROL Adobe.ReportBuilder.Bridge]** .

@@ -11,8 +11,8 @@ ht-degree: 0%
 
 # Toepassingsclassificaties
 
-De mobiele classificaties worden toegelaten nadat u om het even welke eigenschappen onder [ toepassing toelaat die ](app-reporting.md) meldt. Het verstrekt een identieke interface aan [ classificaties van de Omzetting ](conversion-var-admin/conversion-classifications.md) of [ classificaties van het Verkeer ](c-traffic-variables/traffic-classifications.md), maar voor app meldend dimensies.
+De mobiele classificaties worden toegelaten nadat u om het even welke eigenschappen onder [&#x200B; toepassing toelaat die &#x200B;](app-reporting.md) meldt. Het verstrekt een identieke interface aan [&#x200B; classificaties van de Omzetting &#x200B;](conversion-var-admin/conversion-classifications.md) of [&#x200B; classificaties van het Verkeer &#x200B;](c-traffic-variables/traffic-classifications.md), maar voor app meldend dimensies.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL App Management]** > **[!UICONTROL App Classifications]**
 
-Adobe adviseert in plaats daarvan gebruikend [ de reeksen van de Classificatie ](/help/components/classifications/sets/overview.md) voor alle nieuwe classificatiegegevens.
+Adobe adviseert in plaats daarvan gebruikend [&#x200B; de reeksen van de Classificatie &#x200B;](/help/components/classifications/sets/overview.md) voor alle nieuwe classificatiegegevens.

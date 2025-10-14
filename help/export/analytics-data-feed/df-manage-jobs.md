@@ -16,18 +16,18 @@ Taken zijn individuele taken die een gecomprimeerd bestand uitvoeren. Ze worden 
 
 Voer het taakbeheer van de Gegevens van de toegang door deze stappen te volgen:
 
-1. Login aan [ experience.adobe.com ](https://experiencecloud.adobe.com).
+1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experiencecloud.adobe.com).
 2. Klik op het 9-rastermenu rechtsboven en klik op [!UICONTROL Analytics] .
 3. Klik in het bovenste menu op [!UICONTROL Admin] > [!UICONTROL Data Feeds] .
 4. Klik boven aan het tabblad Taken.
 
-![ het voedermenu van Gegevens ](assets/AdminMenu.png)
+![&#x200B; het voedermenu van Gegevens &#x200B;](assets/AdminMenu.png)
 
 ## Navigeren door de interface
 
 Een gegevenfeed-taak is één instantie waarbij Adobe een gecomprimeerd bestand voor een bepaald rapportagevenster verwerkt en uitvoert. De taakmanager geeft een verfijnde weergave om de status van individuele taken te zien.
 
-![ Banen ](assets/jobs.jpg)
+![&#x200B; Banen &#x200B;](assets/jobs.jpg)
 
 ### Filters en zoeken
 
@@ -35,21 +35,21 @@ Gebruik filters en zoek naar de exacte taak die u zoekt.
 
 Klik helemaal links op het filterpictogram om filteropties weer te geven of te verbergen. Filters zijn ingedeeld in categorieën. Klik op het pictogram om filtercategorieën samen te vouwen of uit te vouwen. Klik op het selectievakje om dat filter toe te passen.
 
-![ Filter ](assets/jobs-filter.jpg)
+![&#x200B; Filter &#x200B;](assets/jobs-filter.jpg)
 
 Gebruik Zoeken om een taak op naam te zoeken.
 
-![ Onderzoek ](assets/search.jpg)
+![&#x200B; Onderzoek &#x200B;](assets/search.jpg)
 
 ### Feeds en banen
 
-Klik op het tabblad feeds om overkoepelende feeds weer te geven die deze taken maken. Zie [ gegevensvoer beheren ](df-manage-feeds.md).
+Klik op het tabblad feeds om overkoepelende feeds weer te geven die deze taken maken. Zie [&#x200B; gegevensvoer beheren &#x200B;](df-manage-feeds.md).
 
 ### Kolommen
 
 Elke baan toont verscheidene kolommen die informatie over het verstrekken. Klik op een kolomkop om deze in oplopende volgorde te sorteren. Klik nogmaals op een kolomkop om deze in aflopende volgorde te sorteren. Als een bepaalde kolom niet zichtbaar is, klikt u op het kolompictogram rechtsboven.
 
-![ pictogram van de Kolom ](assets/job-cols.jpg)
+![&#x200B; pictogram van de Kolom &#x200B;](assets/job-cols.jpg)
 
 * **identiteitskaart van het Gevoer**: Vertoningen identiteitskaart van het Gevoer, een uniek herkenningsteken. Taken die door dezelfde feed worden gemaakt, hebben dezelfde feed-id.
 * **identiteitskaart van de Baan**: Een uniek herkenningsteken voor de baan. Alle taken hebben een andere taak-id.
@@ -61,7 +61,7 @@ Elke baan toont verscheidene kolommen die informatie over het verstrekken. Klik 
    * Wachten op gegevens: de taak is operationeel en er worden gegevens voor het rapportagevenster verzameld.
    * Verwerking: de taak maakt de gegevensbestanden en bereidt zich voor op het verzenden ervan.
    * Voltooid: de taak is voltooid zonder problemen.
-   * Mislukt: de taak is niet voltooid. Zie [ problemen oplossen gegevensvoer ](troubleshooting.md) helpen de oorzaak van mislukking bepalen.
+   * Mislukt: de taak is niet voltooid. Zie [&#x200B; problemen oplossen gegevensvoer &#x200B;](troubleshooting.md) helpen de oorzaak van mislukking bepalen.
    * Wachten op exporteren: de gegevens voor het rapportagevenster zijn nog niet volledig verwerkt.
    * Geen gegevens: de rapportsuite bevat geen gegevens voor het aangevraagde rapportvenster.
 * **Tijd van de Voltooiing**: De tijd de baan eindigde. Datum en tijd worden getoond in de de tijdzone van de rapportreeks met GMT compensatie.

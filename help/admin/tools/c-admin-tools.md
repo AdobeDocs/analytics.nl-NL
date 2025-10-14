@@ -33,7 +33,7 @@ Navigeer naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** om beheergeree
 
 Gebruik dit gereedschap om gebruikers toegang te bieden en toegangsmachtigingen te wijzigen.
 
-Voor alle organisaties die naar Adobe IMS zijn gemigreerd, worden deze taken uitgevoerd in de Adobe-beheerconsole. Voor meer informatie, zie [ Adobe Analytics eerste admin gids ](/help/admin/admin-console/first-admin-guide.md). Als uw organisatie nog niet aan Adobe IMS wordt gemigreerd, zie {de Migratie van de Gebruiker van 0} Analytics aan Adobe Admin Console [.](/help/admin/tools/user-management/user-migration/c-migration-tool.md)
+Voor alle organisaties die naar Adobe IMS zijn gemigreerd, worden deze taken uitgevoerd in de Adobe-beheerconsole. Voor meer informatie, zie [&#x200B; Adobe Analytics eerste admin gids &#x200B;](/help/admin/admin-console/first-admin-guide.md). Als uw organisatie nog niet aan Adobe IMS wordt gemigreerd, zie {de Migratie van de Gebruiker van 0} Analytics aan Adobe Admin Console [.](/help/admin/tools/user-management/user-migration/c-migration-tool.md)
 
 
 

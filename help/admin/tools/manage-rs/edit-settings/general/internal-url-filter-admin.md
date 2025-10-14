@@ -18,9 +18,9 @@ Met interne URL-filters kunt u de referenties identificeren die u intern voor uw
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**
 
-Een verwijzing, of verwijzende pagina, is typisch de pagina waarvan een bezoeker uw plaats inging. Als u wilt voorkomen dat gegevens worden schuingetrokken, kunt u interne referenties verwijderen. De afmetingen die zich op interne filters baseren URL omvatten [ Referrer ](/help/components/dimensions/referrer.md), [ Verwijzend domein ](/help/components/dimensions/referring-domain.md), [ de kanalen van de Marketing ](/help/components/dimensions/marketing-channel.md), en andere dimensies van de verkeersbron.
+Een verwijzing, of verwijzende pagina, is typisch de pagina waarvan een bezoeker uw plaats inging. Als u wilt voorkomen dat gegevens worden schuingetrokken, kunt u interne referenties verwijderen. De afmetingen die zich op interne filters baseren URL omvatten [&#x200B; Referrer &#x200B;](/help/components/dimensions/referrer.md), [&#x200B; Verwijzend domein &#x200B;](/help/components/dimensions/referring-domain.md), [&#x200B; de kanalen van de Marketing &#x200B;](/help/components/dimensions/marketing-channel.md), en andere dimensies van de verkeersbron.
 
-[ de verwerkingsregels van het Kanaal van de Marketing ](../marketing-channels/c-rules.md) verstrekken &quot;[!UICONTROL Matches internal URL filters]&quot;als mogelijke lijncriteria.
+[&#x200B; de verwerkingsregels van het Kanaal van de Marketing &#x200B;](../marketing-channels/c-rules.md) verstrekken &quot;[!UICONTROL Matches internal URL filters]&quot;als mogelijke lijncriteria.
 
 >[!IMPORTANT]
 >

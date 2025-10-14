@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Geavanceerde functies
 
-Buiten het [ standaardgebruik van segmenten ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) in Analysis Workspace, zijn de volgende specifieke eigenschappen beschikbaar:
+Buiten het [&#x200B; standaardgebruik van segmenten &#x200B;](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) in Analysis Workspace, zijn de volgende specifieke eigenschappen beschikbaar:
 
 * [Segmentvergelijking](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
@@ -20,4 +20,4 @@ Buiten het [ standaardgebruik van segmenten ](/help/components/segmentation/segm
 
 >[!MORELIKETHIS]
 >
->[ de segmenten van het Gebruik ](segmentation-workflow/t-seg-apply.md)
+>[&#x200B; de segmenten van het Gebruik &#x200B;](segmentation-workflow/t-seg-apply.md)

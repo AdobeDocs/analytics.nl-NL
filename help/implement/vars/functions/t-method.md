@@ -41,7 +41,7 @@ Adobe ontvangt de afbeeldingsaanvraag en parseert vervolgens de parameters voor 
 
 Gebruik een handeling om het verzenden van XDM-gebeurtenisgegevens naar Adobe te configureren. De DataStream ontvangt deze gegevens, past om het even welke gevormde afbeeldingen toe, en door:sturen die gegevens aan Adobe Analytics als het de toegevoegde dienst aan die DataStream is.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 1. Klik onder [!UICONTROL Actions] op de gewenste handeling of klik op het pictogram **&#39;+&#39;** om een handeling toe te voegen.
@@ -57,13 +57,13 @@ alloy("sendEvent", {
 });
 ```
 
-Zie [`sendEvent` ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/sendevent/overview) in de documentatie van SDK van het Web voor meer informatie.
+Zie [`sendEvent` &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/sendevent/overview) in de documentatie van SDK van het Web voor meer informatie.
 
 ## Aanroep voor bijhouden van paginaweergave met de Adobe Analytics-extensie
 
 De extensie Adobe Analytics in Adobe Experience Platform Data Collection heeft een specifieke locatie ingesteld die een aanroep voor het bijhouden van de paginaweergave bevat.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 1. Klik onder [!UICONTROL Actions] op de gewenste actie of klik op het pictogram **&#39;+&#39;** om een actie toe te voegen.
@@ -78,7 +78,7 @@ Roep de methode `s.t()` aan wanneer u een volgende aanroep naar Adobe wilt verze
 s.t();
 ```
 
-U kunt een object ook als argument gebruiken om variabelewaarden te overschrijven. Zie [ veranderlijke met voeten treedt ](../../js/overrides.md) voor meer informatie.
+U kunt een object ook als argument gebruiken om variabelewaarden te overschrijven. Zie [&#x200B; veranderlijke met voeten treedt &#x200B;](../../js/overrides.md) voor meer informatie.
 
 ```js
 var y = new Object();

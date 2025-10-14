@@ -36,7 +36,7 @@ De template bevat de momenteel gedefinieerde classificaties (kolomkoppen) van ee
 >
 >De methode van het Malplaatje beperkt uw download van classificatiegegevens tot één enkele rapportreeks.
 
-Voor meer informatie over de structuur van het gegevensdossier, zie [ Ongeveer de Dossiers van Gegevens van de Classificatie ](/help/components/classifications/importer/c-saint-data-files.md).
+Voor meer informatie over de structuur van het gegevensdossier, zie [&#x200B; Ongeveer de Dossiers van Gegevens van de Classificatie &#x200B;](/help/components/classifications/importer/c-saint-data-files.md).
 
 ## Een gegevenssjabloon voor classificaties downloaden (optioneel) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
@@ -47,7 +47,7 @@ De sjabloon biedt de bestandsindeling die u voor classificaties moet volgen.
 >De methode van het Malplaatje beperkt uw gegevensdownload tot één enkele rapportreeks.
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]** .
-1. Voor het **[!UICONTROL Download Template]** lusje, specificeer de [ configuratie van het gegevensmalplaatje ](/help/components/classifications/importer/c-download-saint-data.md).
+1. Voor het **[!UICONTROL Download Template]** lusje, specificeer de [&#x200B; configuratie van het gegevensmalplaatje &#x200B;](/help/components/classifications/importer/c-download-saint-data.md).
 1. Klik op **[!UICONTROL Download]**.
 1. Sla het sjabloonbestand op uw lokale systeem op.
 

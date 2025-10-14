@@ -43,7 +43,7 @@ Elke verwerkingsregel bevat de volgende secties:
 * **anders actie**: Als een voorwaarde bestaat, verschijnt deze sectie als, &quot;[!UICONTROL Otherwise do the following]&quot;. Als de bovenstaande voorwaarde `false` oplevert, wordt elke in deze sectie vermelde handeling mogelijk uitgevoerd. Deze sectie volgt de zelfde regelacties zoals hierboven, met inbegrip van de capaciteit om waarden te beschrijven, waarden te schrappen, en gebeurtenissen te plaatsen.
 * **Reden**: Verslag die om de regel en verzocht het afhangt. Het beïnvloedt geen verwerkingsregellogica, maar is waardevol om te helpen volgen waarom de regel bestaat.
 
-Zie [ Dimensies en metriek beschikbaar aan verwerkingsregels ](pr-variables.md) voor een uitvoerige lijst van variabelen die u in deze interface kunt gebruiken.
+Zie [&#x200B; Dimensies en metriek beschikbaar aan verwerkingsregels &#x200B;](pr-variables.md) voor een uitvoerige lijst van variabelen die u in deze interface kunt gebruiken.
 
 * Elke variabele die &quot;Read&quot; toestaat, kan in een voorwaarde worden gebruikt.
 * Elke variabele die &quot;Write&quot; toestaat, kan in een handeling worden gebruikt.

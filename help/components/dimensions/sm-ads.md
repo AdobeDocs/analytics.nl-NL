@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Streaming mediaservices en dimensies
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Ads] voor een rapportreeks toelaat. Zie [ Streaming Media en metriek ](../metrics/sm-ads.md) voor beschikbare metriek.*
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Ads] voor een rapportreeks toelaat. Zie [&#x200B; Streaming Media en metriek &#x200B;](../metrics/sm-ads.md) voor beschikbare metriek.*
 
 Streaming-mediaservices en -dimensies bieden extra rapportagefunctionaliteit voor gegevensverzameling via Streaming-mediaservices-bibliotheken. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Media Ads]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
+Wanneer u **[!UICONTROL Media Ads]** onder [&#x200B; Media die &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
 | Dimension-naam | Beschrijving | Verzonden met | Variabele van contextgegevens |
 | --- | --- | --- | --- |
@@ -35,10 +35,10 @@ Naast de bovenstaande afmetingen maakt Adobe automatisch de volgende classificat
 
 | Classificatienaam | Bovenliggende dimensie | Beschrijving |
 | --- | --- | --- |
-| Element-id | [ Inhoud ](sm-core.md) | De unieke id voor de inhoud van het media-element. Voorbeelden zijn de aflevering-id van de tv-serie, de id van het filmelement of de livegebeurtenis. Deze id&#39;s worden doorgaans afgeleid van metagegevensautoriteiten zoals EIDR, TMS/Gracenote, Rovi of van andere bedrijfseigen of interne systemen. |
-| Inhoudsbeoordeling | [ Inhoud ](sm-core.md) | De classificatie zoals gedefinieerd door de ouderlijke richtlijnen van TV. |
-| Eerste luchtdatum | [ Inhoud ](sm-core.md) | De datum waarop de inhoud voor het eerst op de televisie is uitgezonden. Aangezien deze classificatiedimensie een tekenreeks is, is elke datumnotatie toegestaan. Adobe raadt u aan een consistente datumnotatie te gebruiken, zoals `YYYY-MM-DD` . |
-| Eerste digitale datum | [ Inhoud ](sm-core.md) | De datum waarop de inhoud voor het eerst via een digitaal kanaal of platform is verzonden. Aangezien deze classificatiedimensie een tekenreeks is, is elke datumnotatie toegestaan. Adobe raadt u aan een consistente datumnotatie te gebruiken, zoals `YYYY-MM-DD` . |
+| Element-id | [&#x200B; Inhoud &#x200B;](sm-core.md) | De unieke id voor de inhoud van het media-element. Voorbeelden zijn de aflevering-id van de tv-serie, de id van het filmelement of de livegebeurtenis. Deze id&#39;s worden doorgaans afgeleid van metagegevensautoriteiten zoals EIDR, TMS/Gracenote, Rovi of van andere bedrijfseigen of interne systemen. |
+| Inhoudsbeoordeling | [&#x200B; Inhoud &#x200B;](sm-core.md) | De classificatie zoals gedefinieerd door de ouderlijke richtlijnen van TV. |
+| Eerste luchtdatum | [&#x200B; Inhoud &#x200B;](sm-core.md) | De datum waarop de inhoud voor het eerst op de televisie is uitgezonden. Aangezien deze classificatiedimensie een tekenreeks is, is elke datumnotatie toegestaan. Adobe raadt u aan een consistente datumnotatie te gebruiken, zoals `YYYY-MM-DD` . |
+| Eerste digitale datum | [&#x200B; Inhoud &#x200B;](sm-core.md) | De datum waarop de inhoud voor het eerst via een digitaal kanaal of platform is verzonden. Aangezien deze classificatiedimensie een tekenreeks is, is elke datumnotatie toegestaan. Adobe raadt u aan een consistente datumnotatie te gebruiken, zoals `YYYY-MM-DD` . |
 | Ad-lengte | Advertentie | De lengte van de video en, in seconden. |
 | Advertentienaam | Advertentie | De vriendelijke naam van de advertentie. Het is het indelingsequivalent van &#39;Ad name (variable)&#39;. |
 | Creative-id | Advertentie | De id van de advertentie. |

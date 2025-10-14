@@ -13,26 +13,26 @@ ht-degree: 0%
 
 # pageName
 
-In de variabele `pageName` wordt doorgaans de naam van een bepaalde pagina opgeslagen. Het is handig om te bepalen welke afzonderlijke pagina&#39;s het populairst zijn. Deze variabele bevolkt de [ dimensie van de Pagina ](/help/components/dimensions/page.md).
+In de variabele `pageName` wordt doorgaans de naam van een bepaalde pagina opgeslagen. Het is handig om te bepalen welke afzonderlijke pagina&#39;s het populairst zijn. Deze variabele bevolkt de [&#x200B; dimensie van de Pagina &#x200B;](/help/components/dimensions/page.md).
 
 Als deze variabele niet is gedefinieerd in een bepaalde aanroep om de pagina te volgen, wordt in plaats daarvan de variabele [`pageURL`](pageurl.md) gebruikt.
 
 >[!NOTE]
 >
->De servers van de gegevensinzameling van Adobe ontdoen deze afmeting van alle [ verbinding die ](/help/implement/vars/functions/tl-method.md) beeldverzoeken volgen. Als u deze afmeting in verbindingsvolgende treffers wilt verschijnen, denk na kopieerend deze afmeting in [ eVar ](evar.md).
+>De servers van de gegevensinzameling van Adobe ontdoen deze afmeting van alle [&#x200B; verbinding die &#x200B;](/help/implement/vars/functions/tl-method.md) beeldverzoeken volgen. Als u deze afmeting in verbindingsvolgende treffers wilt verschijnen, denk na kopieerend deze afmeting in [&#x200B; eVar &#x200B;](evar.md).
 
 ## Paginanaam met de Web SDK
 
 De paginanaam wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.name`
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageName`
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.name`
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageName`
 
 ## Paginanaam met de Adobe Analytics-extensie
 
 U kunt paginanaam instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).
@@ -53,7 +53,7 @@ s.pageName = "Example page name";
 s.pageName = window.document.title;
 ```
 
-Als het gebruiken van de `digitalData` [ gegevenslaag ](../../prepare/data-layer.md):
+Als het gebruiken van de `digitalData` [&#x200B; gegevenslaag &#x200B;](../../prepare/data-layer.md):
 
 ```js
 s.pageName = digitalData.page.pageInfo.pageName;

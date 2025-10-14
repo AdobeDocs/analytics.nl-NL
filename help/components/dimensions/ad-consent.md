@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Advertentieplatform
 
-De &quot;Ad Platform Toestemming&quot; [ dimensie ](overview.md) toont of de toestemming wordt verzameld om gegevens naar derde reclameproviders, zoals Google, Meta, en anderen te verzenden.
+De &quot;Ad Platform Toestemming&quot; [&#x200B; dimensie &#x200B;](overview.md) toont of de toestemming wordt verzameld om gegevens naar derde reclameproviders, zoals Google, Meta, en anderen te verzenden.
 
 Deze dimensie wordt momenteel alleen voor Google gebruikt. Op grond van de Europese privacywetgeving, de Digital Markets Act (DMA), eist Google dat gegevens die naar hun servers worden verzonden en in Europa worden verzameld, aangeven of toestemming wordt verzameld. Sommige klanten van Analytics verzenden gebeurtenisgegevens via Adobe Advertising als conversiegebeurtenissen naar Google.
 
@@ -20,7 +20,7 @@ In de toekomst kan deze dimensie worden gebruikt ter ondersteuning van de coderi
 
 ## Deze dimensie vullen met gegevens
 
-Deze afmeting verzamelt gegevens van de volgende [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contextdata.md)
+Deze afmeting verzamelt gegevens van de volgende [&#x200B; variabelen van de Contextgegevens &#x200B;](/help/implement/vars/page-vars/contextdata.md)
 
 * `contextData.['adConsent']`
 
@@ -29,7 +29,7 @@ U vult de variabele van contextgegevens met relevante waarden voor de de toestem
 * `ad_user_data` (eerste teken) en
 * `ad_personalization` (tweede teken).
 
-Zie [ Toestemming in de Verwijzing van API van Google Ads ](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) voor meer informatie.
+Zie [&#x200B; Toestemming in de Verwijzing van API van Google Ads &#x200B;](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) voor meer informatie.
 
 De mogelijke waarden voor elk van deze velden kunnen zijn:
 
@@ -51,11 +51,11 @@ Tekens na het eerste en tweede teken worden momenteel genegeerd.
 
 U kunt de verzamelde gegevens en toestemmingsgegevens gebruiken:
 
-* De Eigen van gegevens: De gegevens van de advertentie toestemmingen zijn beschikbaar gebruikend de `dataprivacydmaconsent` [ kolom ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+* De Eigen van gegevens: De gegevens van de advertentie toestemmingen zijn beschikbaar gebruikend de `dataprivacydmaconsent` [&#x200B; kolom &#x200B;](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouse rapporteert: de gegevens over de toestemming voor advertentie zijn beschikbaar met behulp van de **[!UICONTROL Ad Platform Consent]** -dimensie.
 
 Uw organisatie bepaalt de logica om deze variabele van contextgegevens uit te voeren. De waarde blijft niet behouden na de treffer waarop deze is ingesteld, dus u moet de variabele met de contextgegevens op elke pagina instellen.
 
 Wanneer u via Adobe Advertising advertentiegegevens stuurt naar Google voor conversiedoeleinden, raadpleegt u het Adobe Advertising-team voor hulp bij de integratie.
 
-Voor meer informatie zie, [ Privacy die ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) meldt.
+Voor meer informatie zie, [&#x200B; Privacy die &#x200B;](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) meldt.

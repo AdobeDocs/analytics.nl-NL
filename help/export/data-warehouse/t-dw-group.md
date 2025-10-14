@@ -13,5 +13,5 @@ ht-degree: 0%
 
 # Machtigingen voor Data Warehouse beheren
 
-Verwijs naar de [ Adobe Admin Console ](/help/admin/admin-console/home.md) documentatie op hoe te opstellingstoestemmingen voor de gebruikers van de Data Warehouse. De toestemming wordt vermeld [ hier ](/help/admin/admin-console/permissions/report-suite-tools.md).
+Verwijs naar de [&#x200B; Adobe Admin Console &#x200B;](/help/admin/admin-console/home.md) documentatie op hoe te opstellingstoestemmingen voor de gebruikers van de Data Warehouse. De toestemming wordt vermeld [&#x200B; hier &#x200B;](/help/admin/admin-console/permissions/report-suite-tools.md).
 

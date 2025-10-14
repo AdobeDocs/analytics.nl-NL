@@ -15,4 +15,4 @@ ht-degree: 0%
 
 Single Sign-On in de Adobe Experience Cloud wordt geïmplementeerd via de Admin Console.
 
-Zie {de Gids van de Gebruiker van het 0} Beleid [ voor hulp.](https://www.adobe.com/go/analytics_sso_en)
+Zie {de Gids van de Gebruiker van het 0} Beleid [&#x200B; voor hulp.](https://www.adobe.com/go/analytics_sso_en)

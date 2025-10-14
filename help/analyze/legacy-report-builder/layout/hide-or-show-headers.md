@@ -20,4 +20,4 @@ In deze procedure wordt beschreven hoe u kopteksten kunt verbergen of weergeven.
 
 Klik op **[!UICONTROL Hide/Show]** in de uitvoer [!UICONTROL Pivot Layout] of [!UICONTROL Custom Layout] op het [!UICONTROL Request Wizard: Step 2] -formulier.
 
-![ Schermschot die het pictogram van de Huid/van de Show voor metrische kopballen toont.](assets/hide_show_header.png)
+![&#x200B; Schermschot die het pictogram van de Huid/van de Show voor metrische kopballen toont.](assets/hide_show_header.png)

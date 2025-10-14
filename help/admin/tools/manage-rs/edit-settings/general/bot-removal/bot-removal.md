@@ -21,10 +21,10 @@ Filtermethoden voor zowel standaard als aangepaste bot worden ondersteund in **[
 
 | Type regel | Beschrijving |
 |--- |--- |
-| Standaardregels voor IAB-bot | Het selecteren van **[!UICONTROL Enable IAB Bot Filtering Rules]** gebruikt [ IAB ](https://www.iab.com/) (Internationale Lijst van het Bureau van Advertising) Internationale Spinnen &amp; Bots om beide verkeer te verwijderen. De meeste klanten selecteren deze optie op een minimum. |
+| Standaardregels voor IAB-bot | Het selecteren van **[!UICONTROL Enable IAB Bot Filtering Rules]** gebruikt [&#x200B; IAB &#x200B;](https://www.iab.com/) (Internationale Lijst van het Bureau van Advertising) Internationale Spinnen &amp; Bots om beide verkeer te verwijderen. De meeste klanten selecteren deze optie op een minimum. |
 | Aangepaste botregels | U kunt de regels van de douanebot bepalen en toevoegen die op gebruikersagenten, IP adressen, of IP waaiers worden gebaseerd. |
 
-Voor meer detail, zie [ beide regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) begrijpen en vormen.
+Voor meer detail, zie [&#x200B; beide regels &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) begrijpen en vormen.
 
 ## Een combinatie van Adobe Tools gebruiken
 
@@ -32,7 +32,7 @@ Bovendien biedt Adobe, aangezien bots snel aan het morferen zijn, verschillende 
 
 ### Stap 1: Geef de Experience Cloud-id van uw bezoekers door in een nieuwe gedeclareerde id
 
-Om te beginnen, creeer een nieuwe verklaarde identiteitskaart in de [ Dienst van de Kern van Mensen ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL). Geef identiteitskaart van Experience Cloud van uw bezoeker in deze nieuwe verklaarde identiteitskaart over, die snel en gemakkelijk met [ markeringen in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=nl-NL) kan worden gedaan. Gebruik de naam ECID voor de gedeclareerde id.
+Om te beginnen, creeer een nieuwe verklaarde identiteitskaart in de [&#x200B; Dienst van de Kern van Mensen &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL). Geef identiteitskaart van Experience Cloud van uw bezoeker in deze nieuwe verklaarde identiteitskaart over, die snel en gemakkelijk met [&#x200B; markeringen in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=nl-NL) kan worden gedaan. Gebruik de naam ECID voor de gedeclareerde id.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -40,17 +40,17 @@ Hieronder wordt beschreven hoe deze id kan worden vastgelegd via het gegevensele
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Zodra dit Element van Gegevens opstelling is, volg [ deze instructies ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=nl-NL) om gedeclareerde IDs in het ECID Hulpmiddel door te geven gebruikend markeringen in Adobe Experience Platform.
+Zodra dit Element van Gegevens opstelling is, volg [&#x200B; deze instructies &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=nl-NL) om gedeclareerde IDs in het ECID Hulpmiddel door te geven gebruikend markeringen in Adobe Experience Platform.
 
 ### Stap 2: segmentatie gebruiken om vlekken te identificeren
 
-Nu u ECID van uw bezoeker in gedeclareerde identiteitskaart hebt overgegaan, kunt u [ segmentatie in Analysis Workspace ](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) gebruiken om bezoekers te identificeren die als bots handelen. Bots worden vaak gedefinieerd door hun gedrag: enkele toegangsbezoeken, ongebruikelijke gebruikersagenten, onbekende apparaat-/browserinformatie, geen referentie, nieuwe bezoekers, ongebruikelijke landingspagina&#39;s, enz. Gebruik de bevoegdheden van Workspace boor-downs en segmentatie om de bots te identificeren die het filtreren IAB en uw regels van de rapportsuite allebei hebben omzeild. Hier ziet u bijvoorbeeld een schermafbeelding van een segment dat u kunt gebruiken:
+Nu u ECID van uw bezoeker in gedeclareerde identiteitskaart hebt overgegaan, kunt u [&#x200B; segmentatie in Analysis Workspace &#x200B;](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) gebruiken om bezoekers te identificeren die als bots handelen. Bots worden vaak gedefinieerd door hun gedrag: enkele toegangsbezoeken, ongebruikelijke gebruikersagenten, onbekende apparaat-/browserinformatie, geen referentie, nieuwe bezoekers, ongebruikelijke landingspagina&#39;s, enz. Gebruik de bevoegdheden van Workspace boor-downs en segmentatie om de bots te identificeren die het filtreren IAB en uw regels van de rapportsuite allebei hebben omzeild. Hier ziet u bijvoorbeeld een schermafbeelding van een segment dat u kunt gebruiken:
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
 ### Stap 3: Alle [!DNL Experience Cloud IDs] uit het segment exporteren via Data Warehouse
 
-Nu u de vlekken gebruikend segmenten hebt geïdentificeerd, is de volgende stap Data Warehouse te gebruiken om alle Experience Cloud IDs te halen verbonden aan dit segment. Dit het schermschot toont hoe u opstelling uw [ Data Warehouse ](/help/export/data-warehouse/data-warehouse.md) verzoek zou moeten:
+Nu u de vlekken gebruikend segmenten hebt geïdentificeerd, is de volgende stap Data Warehouse te gebruiken om alle Experience Cloud IDs te halen verbonden aan dit segment. Dit het schermschot toont hoe u opstelling uw [&#x200B; Data Warehouse &#x200B;](/help/export/data-warehouse/data-warehouse.md) verzoek zou moeten:
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
@@ -63,7 +63,7 @@ Als het Data Warehouse-rapport eenmaal is ontvangen, hebt u een lijst met ECID&#
 * **ECID**: Zorg ervoor dat deze kolomkopbal de naam aanpast u aan nieuwe verklaarde identiteitskaart hierboven gaf.
 * **Vlag van de Bot**: Voeg &quot;Vlag van de Bot&quot;als dimensie van het het attributenschema van de Klant toe.
 
-Gebruik dit .CSV dossier als uw dossier van de de attributeninvoer van de Klant, dan onderteken uw rapportreeks(s) aan de attributen van de Klant zoals die in dit [ blogpost ](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers) worden beschreven.
+Gebruik dit .CSV dossier als uw dossier van de de attributeninvoer van de Klant, dan onderteken uw rapportreeks(s) aan de attributen van de Klant zoals die in dit [&#x200B; blogpost &#x200B;](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers) worden beschreven.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-csv-4.png)
 
@@ -75,7 +75,7 @@ Als uw gegevensset eenmaal is verwerkt en geïntegreerd in Analysis Workspace, m
 
 ### Stap 6: Gebruik dit segment als het filter van de virtuele rapportsuite
 
-Tot slot creeer a [ Virtuele rapportreeks ](/help/components/vrs/vrs-about.md) die dit segment gebruikt om de geïdentificeerde bots uit te filteren:
+Tot slot creeer a [&#x200B; Virtuele rapportreeks &#x200B;](/help/components/vrs/vrs-about.md) die dit segment gebruikt om de geïdentificeerde bots uit te filteren:
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-vrs.png)
 
@@ -87,7 +87,7 @@ Stel ten minste een maandelijkse herinnering in om nieuwe vlekken te identificer
 
 >[!MORELIKETHIS]
 >
->* [ Betere Bot die (Deel 1) blokkeert: De Grondbeginselen ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
->* [ Betere Bot die (Deel 2) blokkeert: Het identificeren van Bots en het Leveraging CIDR.](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
->* [ Betere Bot die (Deel 3) blokkeert: De Hit Gouverneur ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+>* [&#x200B; Betere Bot die (Deel 1) blokkeert: De Grondbeginselen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [&#x200B; Betere Bot die (Deel 2) blokkeert: Het identificeren van Bots en het Leveraging CIDR.](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [&#x200B; Betere Bot die (Deel 3) blokkeert: De Hit Gouverneur &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

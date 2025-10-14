@@ -21,14 +21,14 @@ Als deze optie is ingeschakeld, vergelijkt AppMeasurement de URL van geklikte ko
 
 Schakel het selectievakje [!UICONTROL Enable click data collection] in wanneer u de Web SDK configureert. Met dit selectievakje worden zowel afsluitings- als downloadkoppelingen afgehandeld.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder [!UICONTROL Adobe Experience Platform Web SDK] .
 1. Klik onder [!UICONTROL Data Collection] op het selectievakje **[!UICONTROL Enable click data collection]** .
 
 ## Schakel de klikverzameling handmatig implementeren van de Web SDK in of uit
 
-Vorm SDK gebruikend [`clickCollectionEnabled` ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL#clickCollectionEnabled). Het veld is een Booleaanse waarde die bepaalt of gegevens die aan koppelingsklikken zijn gekoppeld, automatisch worden verzameld. De standaardwaarde is `true` . Stel deze waarde in op `false` als u het automatisch bijhouden van koppelingen wilt uitschakelen. Met deze instelling wordt het automatisch bijhouden van koppelingen verwerkt voor zowel download- als afsluitkoppelingen.
+Vorm SDK gebruikend [`clickCollectionEnabled` &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL#clickCollectionEnabled). Het veld is een Booleaanse waarde die bepaalt of gegevens die aan koppelingsklikken zijn gekoppeld, automatisch worden verzameld. De standaardwaarde is `true` . Stel deze waarde in op `false` als u het automatisch bijhouden van koppelingen wilt uitschakelen. Met deze instelling wordt het automatisch bijhouden van koppelingen verwerkt voor zowel download- als afsluitkoppelingen.
 
 ```json
 alloy("configure", {
@@ -40,7 +40,7 @@ alloy("configure", {
 
 Download-koppelingen bijhouden is een selectievakje onder de accordeon [!UICONTROL Link Tracking] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 4. Vouw de accordeon [!UICONTROL Link Tracking] uit, zodat het selectievakje [!UICONTROL Track download links] zichtbaar wordt.
@@ -49,7 +49,7 @@ Klik op het selectievakje om het automatisch bijhouden van downloadkoppelingen i
 
 ## s.trackDownloadLinks in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
-`s.trackDownloadLinks` is een Booleaanse waarde die het automatisch bijhouden van downloadkoppelingen in- of uitschakelt. Als u downloadkoppelingen niet wilt bijhouden of liever handmatig de methode `tl()` aanroepen om downloads bij te houden, stelt u deze variabele in op `false` . De veranderlijke [ linkDownloadFileTypes ](linkdownloadfiletypes.md) moet ook voor het automatische volgen van de downloadverbinding worden geplaatst om te werken.
+`s.trackDownloadLinks` is een Booleaanse waarde die het automatisch bijhouden van downloadkoppelingen in- of uitschakelt. Als u downloadkoppelingen niet wilt bijhouden of liever handmatig de methode `tl()` aanroepen om downloads bij te houden, stelt u deze variabele in op `false` . De veranderlijke [&#x200B; linkDownloadFileTypes &#x200B;](linkdownloadfiletypes.md) moet ook voor het automatische volgen van de downloadverbinding worden geplaatst om te werken.
 
 ```js
 s.trackDownloadLinks = true;

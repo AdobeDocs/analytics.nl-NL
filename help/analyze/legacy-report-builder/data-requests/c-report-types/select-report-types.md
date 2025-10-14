@@ -21,4 +21,4 @@ U kunt slechts één type van het basisrapport voor een waaier van spreadsheetce
 
 Met de zoekbalk voor automatisch aanvullen kunt u naar rapporten zoeken. Nadat het selecteren van een rapport van deze controle, selecteert de boommening automatisch de passende knoop.
 
-![ Schermschot die de de boommening van de Reeks van het Rapport en de geselecteerde passende knoop tonen.](assets/search_reports.png)
+![&#x200B; Schermschot die de de boommening van de Reeks van het Rapport en de geselecteerde passende knoop tonen.](assets/search_reports.png)

@@ -23,13 +23,13 @@ In dit voorbeeld wordt het rapport Pagina-uitval weergegeven.
 1. Selecteer de juiste rapportsuite.
 1. Selecteer **[!UICONTROL Paths]** > **[!UICONTROL Page]** > **[!UICONTROL Page Fallout]** in de structuurweergave aan de linkerkant.
 
-   ![ Schermafbeelding die de de boomstructuurmening van Vensters voor de folder van de Report Builder toont. Pagina-uitval is geselecteerd.](assets/page_fallout.png)
+   ![&#x200B; Schermafbeelding die de de boomstructuurmening van Vensters voor de folder van de Report Builder toont. Pagina-uitval is geselecteerd.](assets/page_fallout.png)
 
-1. Vorm de aangewezen [ datumwaaiers ](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md).
+1. Vorm de aangewezen [&#x200B; datumwaaiers &#x200B;](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md).
 1. Klik op **[!UICONTROL Next]**.
 1. Klik in Stap 2 van de wizard onder **[!UICONTROL Row Labels]** op de koppeling **[!UICONTROL Define Checkpoints]** . (In een uitvalrapport moet u altijd padelementen definiëren, in tegenstelling tot in een padrapport, waarin een patroon vooraf wordt toegepast.)
 
-   ![ Schermafbeelding die de Define Checkpoints-koppeling weergeeft.](assets/define_checkpoints.png)
+   ![&#x200B; Schermafbeelding die de Define Checkpoints-koppeling weergeeft.](assets/define_checkpoints.png)
 
 1. Selecteer de optie **[!UICONTROL Filter]** .
 

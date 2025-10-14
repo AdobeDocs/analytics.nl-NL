@@ -25,7 +25,7 @@ Classificatieregels zijn handig voor:
 * **E-mail** en **de advertenties van de Vertoning**: Creeer classificatieregels om individuele vertoning en campagnes te groeperen zodat u kunt leren hoe de campagnes van de Vertoning tegen e-mailcampagnes presteren.
 
 * **het Volgen codes**: Creeer classificatieregels om zeer belangrijke waarden te categoriseren die uit koorden in het volgen codes worden afgeleid, en hen aan specifieke criteria aan te passen u bepaalt.
-* **termijnen van het Onderzoek**: Gebruik [ regelmatige uitdrukkingen ](/help/components/classifications/crb/classification-quickstart-rules.md) en vervangingen om het classificeren van onderzoekstermijnen te vereenvoudigen. Als een zoekterm bijvoorbeeld *`baseball`* bevat, kunt u een *`Sports League`* classificatie instellen op *`MLB`* .
+* **termijnen van het Onderzoek**: Gebruik [&#x200B; regelmatige uitdrukkingen &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) en vervangingen om het classificeren van onderzoekstermijnen te vereenvoudigen. Als een zoekterm bijvoorbeeld *`baseball`* bevat, kunt u een *`Sports League`* classificatie instellen op *`MLB`* .
 
 Stel bijvoorbeeld dat een code voor bijhouden van een e-mailcampagne-id:
 
@@ -49,8 +49,8 @@ about_classification_rules.xml
 
  -->
 
-* [ Belangrijke Informatie over Regels ](/help/components/classifications/crb/classification-rule-builder.md)
-* [ wanneer classificeren de Regels niet Sleutels?](/help/components/classifications/crb/classification-rule-builder.md)
+* [&#x200B; Belangrijke Informatie over Regels &#x200B;](/help/components/classifications/crb/classification-rule-builder.md)
+* [&#x200B; wanneer classificeren de Regels niet Sleutels?](/help/components/classifications/crb/classification-rule-builder.md)
 * [Info over Prioriteit regel](/help/components/classifications/crb/classification-quickstart-rules.md)
 
 >[!NOTE]
@@ -59,30 +59,30 @@ about_classification_rules.xml
 
 ## Belangrijke informatie over regels
 
-* **Reguliere uitdrukkingen**: De hulp is beschikbaar onder [ Reguliere Uitdrukkingen in de Regels van de Classificatie ](/help/components/classifications/crb/classification-quickstart-rules.md).
+* **Reguliere uitdrukkingen**: De hulp is beschikbaar onder [&#x200B; Reguliere Uitdrukkingen in de Regels van de Classificatie &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **de suites van het Rapport**: U kunt geen classificatie kiezen tot minstens één rapportreeks wordt geselecteerd. U kunt niet de rapportreeks toepassen tot u de regelreeks hebt gecreeerd en een variabele toegewezen.
 
-  Wanneer u de regelreeks test, gebruik sleutels (de variabele die) van het rapport wordt geclassificeerd om te zien hoe zij door de regelreeks zullen worden beïnvloed. (De [ sleutel ](/help/components/classifications/importer/c-saint-data-files.md) is de variabele die, of de eerste kolom in de classificatie wordt geclassificeerd uploadt lijst.)
+  Wanneer u de regelreeks test, gebruik sleutels (de variabele die) van het rapport wordt geclassificeerd om te zien hoe zij door de regelreeks zullen worden beïnvloed. (De [&#x200B; sleutel &#x200B;](/help/components/classifications/importer/c-saint-data-files.md) is de variabele die, of de eerste kolom in de classificatie wordt geclassificeerd uploadt lijst.)
 
-* **prioriteit van de Regel**: Als een sleutel veelvoudige regels aanpast die de zelfde classificatie (in de [!UICONTROL Set Classification] kolom) plaatsen, wordt de laatste regel die de classificatie aanpast gebruikt. Zie [ Ongeveer Prioriteit van de Regel ](/help/components/classifications/crb/classification-quickstart-rules.md).
+* **prioriteit van de Regel**: Als een sleutel veelvoudige regels aanpast die de zelfde classificatie (in de [!UICONTROL Set Classification] kolom) plaatsen, wordt de laatste regel die de classificatie aanpast gebruikt. Zie [&#x200B; Ongeveer Prioriteit van de Regel &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Beperkingen op aantal regels**: Geen vastgestelde grens bestaat voor het aantal regels u kunt tot stand brengen. Een groot aantal regels kan echter van invloed zijn op de prestaties van de browser.
 * **Verwerking**: De regels worden verwerkt met frequente intervallen, afhankelijk van uw volume van classificatie verwant verkeer.
 
   De actieve regelverwerking om de vier uur, die classificatiegegevens onderzoeken die typisch één maand teruggaan. De regels controleren automatisch op nieuwe waarden en uploaden de classificaties gebruikend de importeur.
 
-* **die bestaande classificaties** overschrijven: Zie [ wanneer Regels niet Sleutels classificeren?](/help/components/classifications/crb/classification-quickstart-rules.md) Indien nodig kunt u bestaande classificaties verwijderen of verwijderen met de importer.
+* **die bestaande classificaties** overschrijven: Zie [&#x200B; wanneer Regels niet Sleutels classificeren?](/help/components/classifications/crb/classification-quickstart-rules.md) Indien nodig kunt u bestaande classificaties verwijderen of verwijderen met de importer.
 
 ## Wanneer classificeren de regels sleutels niet?
 
-Wanneer u regels activeert, kunt u bestaande classificaties overschrijven. In de volgende situaties, classificeert een classificatieregel a [ sleutel ](/help/components/classifications/importer/c-saint-data-files.md) niet (variabele) als:
+Wanneer u regels activeert, kunt u bestaande classificaties overschrijven. In de volgende situaties, classificeert een classificatieregel a [&#x200B; sleutel &#x200B;](/help/components/classifications/importer/c-saint-data-files.md) niet (variabele) als:
 
-* De sleutel is reeds geclassificeerd en u selecteert niet [ classificaties ](/help/components/classifications/crb/classification-rule-definitions.md) overschrijven.
+* De sleutel is reeds geclassificeerd en u selecteert niet [&#x200B; classificaties &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md) overschrijven.
 
-  U kunt classificaties beschrijven wanneer [ toevoegend en activerend ](/help/components/classifications/crb/classification-quickstart-rules.md) een regel, en wanneer het activeren van een integratie van gegevensschakelaars. (Voor gegevensschakelaars, worden de regels gecreeerd door partners in het Dev Centrum en getoond in [!UICONTROL Classification Rule Builder].)
+  U kunt classificaties beschrijven wanneer [&#x200B; toevoegend en activerend &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) een regel, en wanneer het activeren van een integratie van gegevensschakelaars. (Voor gegevensschakelaars, worden de regels gecreeerd door partners in het Dev Centrum en getoond in [!UICONTROL Classification Rule Builder].)
 
-* Een geclassificeerde sleutel is niet verschenen in de gegevens na een bepaald tijdkader wanneer het beschrijven van een sleutel, zelfs nadat u [ toelaat overschrijft Classificaties ](/help/components/classifications/crb/classification-rule-definitions.md).
+* Een geclassificeerde sleutel is niet verschenen in de gegevens na een bepaald tijdkader wanneer het beschrijven van een sleutel, zelfs nadat u [&#x200B; toelaat overschrijft Classificaties &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md).
 * De sleutel wordt niet geclassificeerd en de sleutel wordt nooit doorgegeven in [!DNL Adobe Analytics] na het tijdkader dat ongeveer een maand geleden begint.
 
   >[!NOTE]
@@ -142,7 +142,7 @@ In [!UICONTROL Rule Builder], vorm de regel als volgt:
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1` : em `$2` : JuneSale `$3` : 20XX0601 |
 | De syntaxis maken | `^` = begint de lijn () = groepeert karakters en laat u passende karakters tussen de haakjes halen.  `(.+)` = legt één vast ( . ) en ( + ) nog \ = begin van een tekenreeks.  `$` = geeft aan dat het voorgaande teken (of de vorige tekengroep) de laatste op de regel is. |
 
-Zie [ Regelmatige Uitdrukkingen - de Lijst van de Verwijzing ](/help/components/classifications/crb/classification-quickstart-rules.md) voor informatie over wat de karakters in een regelmatige uitdrukking betekenen.
+Zie [&#x200B; Regelmatige Uitdrukkingen - de Lijst van de Verwijzing &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) voor informatie over wat de karakters in een regelmatige uitdrukking betekenen.
 
 ## Reguliere expressie - een specifiek teken classificeren {#section_5D300C03FA484BADACBFCA983E738ACF}
 
@@ -251,7 +251,7 @@ In dit resultaat geeft `a:b:1313` geen overeenkomst aan.
 | `a{3,}` | 3 of meer van |
 | `a{3,6}` | Tussen 3 en 6 van een |
 
-Een goed middel voor het testen van regelmatige uitdrukkingsgeldigheid is [ https://rubular.com/ ](https://rubular.com/).
+Een goed middel voor het testen van regelmatige uitdrukkingsgeldigheid is [&#x200B; https://rubular.com/ &#x200B;](https://rubular.com/).
 
 ## Info over Prioriteit regel
 
@@ -296,11 +296,11 @@ Voeg regels toe door een voorwaarde aan een classificatie aan te passen, en de a
 
 >[!NOTE]
 >
->In deze procedure, moet u de regels op één of meerdere rapportsuites toepassen. Het aanbevolen aantal regels per regel ligt tussen 500 en 1000, hoewel er geen limieten zijn. Als u meer dan 100 regels hebt, denk na vereenvoudigend uw regel die door [ wordt geplaatst subclassifications ](/help/components/classifications/importer/subclassifications.md) te gebruiken.
+>In deze procedure, moet u de regels op één of meerdere rapportsuites toepassen. Het aanbevolen aantal regels per regel ligt tussen 500 en 1000, hoewel er geen limieten zijn. Als u meer dan 100 regels hebt, denk na vereenvoudigend uw regel die door [&#x200B; wordt geplaatst subclassifications &#x200B;](/help/components/classifications/importer/subclassifications.md) te gebruiken.
 
 Een classificatieregel toevoegen of bewerken:
 
-1. [ creeer een Reeks van de Regel van de Classificatie ](/help/components/classifications/crb/classification-rule-set.md).
+1. [&#x200B; creeer een Reeks van de Regel van de Classificatie &#x200B;](/help/components/classifications/crb/classification-rule-set.md).
 1. Klik op **[!UICONTROL Add Rule]** op de pagina met regelsets.
 
    ![](assets/add_rule.png)
@@ -315,9 +315,9 @@ Een classificatieregel toevoegen of bewerken:
    >
    >* In de rapportsuites is ten minste één classificatie gedefinieerd voor die variabele in [!UICONTROL Admin Tools] .
    >
-   >   (Zie *Variabele* in [ Reeksen van de Regel van de Classificatie ](/help/components/classifications/crb/classification-rule-set.md) voor een verklaring over deze voorwaarde.)
+   >   (Zie *Variabele* in [&#x200B; Reeksen van de Regel van de Classificatie &#x200B;](/help/components/classifications/crb/classification-rule-set.md) voor een verklaring over deze voorwaarde.)
    >
-   >* U selecteerde de rapportreeks op de **[!UICONTROL Available Report Suites]** pagina, die vertoningen nadat u [ klikt voeg de Reeks van de Regel ](/help/components/classifications/crb/classification-rule-set.md) toe om de regelreeks tot stand te brengen.
+   >* U selecteerde de rapportreeks op de **[!UICONTROL Available Report Suites]** pagina, die vertoningen nadat u [&#x200B; klikt voeg de Reeks van de Regel &#x200B;](/help/components/classifications/crb/classification-rule-set.md) toe om de regelreeks tot stand te brengen.
 
 1. Geef op of bestaande waarden moeten worden overschreven:
 
@@ -325,22 +325,22 @@ Een classificatieregel toevoegen of bewerken:
    |---|---|
    | **Regels beschrijven slechts unset waarden** | Vul alleen lege (niet-ingestelde) cellen in. Bestaande classificaties worden niet gewijzigd. |
 
-1. [ bepaalt de regel of de regels ](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
+1. [&#x200B; bepaalt de regel of de regels &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
 
    ![Stap Resultaat](assets/classification_rules_page.png)
 
-   Voor voorbeelden van het bouwen van regels, zie {de Bouwer van de Regel van de Regel van 0} Classificaties [ en ](/help/components/classifications/crb/classification-rule-builder.md) Regelmatige Uitdrukkingen in de Regels van de Classificatie [.](/help/components/classifications/crb/classification-quickstart-rules.md)
+   Voor voorbeelden van het bouwen van regels, zie {de Bouwer van de Regel van de Regel van 0} Classificaties [&#x200B; en &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) Regelmatige Uitdrukkingen in de Regels van de Classificatie [.](/help/components/classifications/crb/classification-quickstart-rules.md)
 
    >[!NOTE]
    >
    >Als een sleutel overeenkomt met meerdere regels die dezelfde classificatie instellen (in de kolom Indeling instellen), wordt de laatste regel gebruikt die overeenkomt met de classificatie. Zie **Ongeveer Prioriteit van de Regel** hierboven voor meer informatie over het sorteren regels.
 
-1. [ Test uw regelreeks ](/help/components/classifications/crb/classification-quickstart-rules.md).
+1. [&#x200B; Test uw regelreeks &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md).
 1. Klik na het testen op **[!UICONTROL Active]** om de regel te valideren en te activeren.
 
    Als u een regel activeert, wordt het bestand automatisch samengesteld en voor u geüpload.
 
-   De definities van het gebied: Zie [ de Bouwer van de Regel van de Classificatie ](/help/components/classifications/crb/classification-rule-definitions.md) voor volledige definities van interfaceopties op deze pagina.
+   De definities van het gebied: Zie [&#x200B; de Bouwer van de Regel van de Classificatie &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md) voor volledige definities van interfaceopties op deze pagina.
 
 ## Een set classificatieregel testen
 
@@ -354,7 +354,7 @@ U kunt een classificatieregel of een regelset testen. Als u een test uitvoert, w
 
 Een set classificatieregel testen:
 
-1. [ creeer een Reeks van de Regel van de Classificatie ](/help/components/classifications/crb/classification-rule-set.md).
+1. [&#x200B; creeer een Reeks van de Regel van de Classificatie &#x200B;](/help/components/classifications/crb/classification-rule-set.md).
 1. Voor [!UICONTROL Classification Rule Builder], klik de naam van de regelreeks.
 1. Zorg ervoor dat de regelreeks met een rapportreeks wordt geassocieerd.
 1. Klik in de regeleditor op **[!UICONTROL Test Rule Set]** .
@@ -368,7 +368,7 @@ Een set classificatieregel testen:
    * Trackingcodes
    * Trefwoorden of woordgroepen zoeken
 
-   Zie [ Regelmatige Uitdrukkingen in de Regels van de Classificatie ](/help/components/classifications/crb/classification-quickstart-rules.md) voor informatie over het testen van regelmatige uitdrukkingen.
+   Zie [&#x200B; Regelmatige Uitdrukkingen in de Regels van de Classificatie &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) voor informatie over het testen van regelmatige uitdrukkingen.
 1. Klik op **[!UICONTROL Run Test]**.
 
    Regels die overeenkomen, worden weergegeven in de tabel [!UICONTROL Results] .
@@ -386,7 +386,7 @@ t_validate_rules.xml
 
 Classificatieregels valideren en activeren:
 
-1. [ creeer een Reeks van de Regel van de Classificatie ](/help/components/classifications/crb/classification-rule-set.md), dan [ voeg classificatieregels ](/help/components/classifications/crb/classification-quickstart-rules.md) aan de reeks toe.
+1. [&#x200B; creeer een Reeks van de Regel van de Classificatie &#x200B;](/help/components/classifications/crb/classification-rule-set.md), dan [&#x200B; voeg classificatieregels &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) aan de reeks toe.
 1. Klik in de regeleditor op **[!UICONTROL Activate]** .
 
    ![](assets/overwrite_keys.png)
@@ -395,4 +395,4 @@ Classificatieregels valideren en activeren:
 
    Met deze optie kunt u bestaande classificaties voor desbetreffende toetsen overschrijven.
 
-   Zie [ Pagina van Regels ](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) voor een definitie van deze optie.
+   Zie [&#x200B; Pagina van Regels &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) voor een definitie van deze optie.

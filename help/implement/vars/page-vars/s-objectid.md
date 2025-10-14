@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # s_objectID
 
-De variabele `s_objectID` bevat een unieke id voor een koppeling. Het wordt gebruikt om rapporten in [ Activity Map ](/help/analyze/activity-map/overview.md) nauwkeuriger te maken. Als er koppelingen op een pagina staan die vaak veranderen, kunt u de variabele `s_objectID` gebruiken om Activity Map op de hoogte te stellen van een unieke koppelingslocatie, zodat deze gegevens correct kan groeperen.
+De variabele `s_objectID` bevat een unieke id voor een koppeling. Het wordt gebruikt om rapporten in [&#x200B; Activity Map &#x200B;](/help/analyze/activity-map/overview.md) nauwkeuriger te maken. Als er koppelingen op een pagina staan die vaak veranderen, kunt u de variabele `s_objectID` gebruiken om Activity Map op de hoogte te stellen van een unieke koppelingslocatie, zodat deze gegevens correct kan groeperen.
 
 Als Activity Map-nauwkeurigheid van cruciaal belang is voor uw organisatie, raadt Adobe aan de variabele `s_objectID` op te nemen in de `onClick` -gebeurtenis van koppelingen op uw site.
 

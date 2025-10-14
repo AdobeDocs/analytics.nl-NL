@@ -18,7 +18,7 @@ Adobe Analytics ondersteunt classificatiemodellen op één niveau en die op meer
 
 >[!NOTE]
 >
->Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] die wordt gebruikt om [!UICONTROL Hierarchy] -rapporten te maken. Voor meer informatie over classificatiehiërarchieën, zie [ de Hiërarchieën van de Classificatie ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md).
+>Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] die wordt gebruikt om [!UICONTROL Hierarchy] -rapporten te maken. Voor meer informatie over classificatiehiërarchieën, zie [&#x200B; de Hiërarchieën van de Classificatie &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md).
 
 Bijvoorbeeld:
 
@@ -31,7 +31,7 @@ Elke classificatie in dit model is onafhankelijk en komt overeen met een nieuw s
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Voor meer informatie over het gegevensdossier, zie [ de Dossiers van Gegevens van de Classificatie ](/help/components/classifications/importer/c-saint-data-files.md).
+Voor meer informatie over het gegevensdossier, zie [&#x200B; de Dossiers van Gegevens van de Classificatie &#x200B;](/help/components/classifications/importer/c-saint-data-files.md).
 
 Classificaties op meerdere niveaus bestaan uit ouder- en onderliggende classificaties. Bijvoorbeeld:
 
@@ -45,7 +45,7 @@ Elke classificatie, bovenliggend of onderliggend, vormt één gegevenskolom in h
 
 `<parent_name>^<child_name>`
 
-Voor meer informatie over het formaat van het gegevensdossier, zie [ de Dossiers van Gegevens van de Classificatie ](/help/components/classifications/importer/c-saint-data-files.md).
+Voor meer informatie over het formaat van het gegevensdossier, zie [&#x200B; de Dossiers van Gegevens van de Classificatie &#x200B;](/help/components/classifications/importer/c-saint-data-files.md).
 
 Bijvoorbeeld:
 

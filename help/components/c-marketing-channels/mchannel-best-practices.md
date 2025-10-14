@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Attributie met de Kanalen van de Marketing - Beste praktijken
 
-[ de Kanalen van de Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) zijn een waardevolle en krachtige eigenschap van Adobe Analytics. De huidige begeleiding betreffende de implementatie van het Kanaal van de Marketing werd geformuleerd in een tijd toen noch [ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md) noch [ Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=nl-NL#cja-usecases) bestond.
+[&#x200B; de Kanalen van de Marketing &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md) zijn een waardevolle en krachtige eigenschap van Adobe Analytics. De huidige begeleiding betreffende de implementatie van het Kanaal van de Marketing werd geformuleerd in een tijd toen noch [&#x200B; Attributie &#x200B;](/help/analyze/analysis-workspace/attribution/overview.md) noch [&#x200B; Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=nl-NL#cja-usecases) bestond.
 
 Om de implementatie van uw marketingkanalen in de toekomst te controleren en ervoor te zorgen dat de rapportage consistent is met Attribution en met Customer Journey Analytics, geven we een reeks bijgewerkte best practices uit. Als u al marketingkanalen gebruikt, kunt u de beste opties kiezen uit deze nieuwe richtlijnen. Als u niet bekend bent met Marketing Channels, raden we u aan alle nieuwe aanbevolen procedures te volgen.
 
@@ -22,19 +22,19 @@ Aangezien de dimensies van het Kanaal van de Marketing van een traditionele defi
 
 ## Beste praktijken #1: De Attributie van de hefboomwerking voor gecontroleerde analyse
 
-Wij adviseren gebruikend [ Attributie ](/help/analyze/analysis-workspace/attribution/overview.md) in plaats van de bestaande attributie van het Kanaal van de Marketing om uw analyse van het Kanaal van de Marketing te verfijnen. Volg de andere beste praktijken om consistentie en robuuste controles over uw analyse met Attributie te verzekeren.
+Wij adviseren gebruikend [&#x200B; Attributie &#x200B;](/help/analyze/analysis-workspace/attribution/overview.md) in plaats van de bestaande attributie van het Kanaal van de Marketing om uw analyse van het Kanaal van de Marketing te verfijnen. Volg de andere beste praktijken om consistentie en robuuste controles over uw analyse met Attributie te verzekeren.
 
 ![](assets/attribution.png)
 
 * De configuratie van de dimensies van het Kanaal van de Marketing en het Detail van het Kanaal van de Marketing vestigt te evalueren aanraakpunten, die aan elke Instantie van het Kanaal van de Marketing beantwoorden.
 * Voor metrische analyse, zou uw organisatie zich op één of meerdere attributiemodel(en) moeten richten. Sla aangepaste maateenheden op met dit model, zodat u ze eenvoudig opnieuw kunt gebruiken.
-* Standaard worden gegevens toegewezen met gebruik van Last Touch en de instelling van de bezoekersperiode. De metrische modellen van de attributie bieden grotere controle over de raadplegingsvensters en meer verscheidenheid, met inbegrip van [ algoritmische attributie ](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace) aan.
+* Standaard worden gegevens toegewezen met gebruik van Last Touch en de instelling van de bezoekersperiode. De metrische modellen van de attributie bieden grotere controle over de raadplegingsvensters en meer verscheidenheid, met inbegrip van [&#x200B; algoritmische attributie &#x200B;](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace) aan.
 
 ## Beste praktijken #2: Geen Directe en Zitting verfrissen kanaaldefinities
 
 De directe en Interne kanalen van het Sessievernieuwen worden niet geadviseerd voor gebruik met de modellen van de douaneattributie.
 
-Wat als uw organisatie reeds Directe en Zitting heeft gevormd verfrissen zich? In dit geval, adviseert Adobe dat u [ een classificatie ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) voor Eerste Aanraak/Laatste Aanraak creeert en Direct en Zitting verfrist kanalen ongeclassificeerd verlaat. De geclassificeerde dimensie levert resultaten van de Attributie op gelijkend op het geval waar die kanalen nooit werden gevormd.
+Wat als uw organisatie reeds Directe en Zitting heeft gevormd verfrissen zich? In dit geval, adviseert Adobe dat u [&#x200B; een classificatie &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) voor Eerste Aanraak/Laatste Aanraak creeert en Direct en Zitting verfrist kanalen ongeclassificeerd verlaat. De geclassificeerde dimensie levert resultaten van de Attributie op gelijkend op het geval waar die kanalen nooit werden gevormd.
 
 ![](assets/direct-session-refresh.png)
 

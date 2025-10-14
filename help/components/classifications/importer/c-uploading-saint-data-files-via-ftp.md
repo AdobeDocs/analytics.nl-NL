@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >FTP wordt niet aanbevolen omdat het een niet-gecodeerde methode is voor het delen van bestanden, wat betekent dat iedereen de bestandsinhoud en de gebruikersnaam en het wachtwoord voor de account kan onderscheppen.
 >
->In plaats daarvan, vorm een wolkenrekening zoals die in [ wordt beschreven cloudinvoer en uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md) vormt.
+>In plaats daarvan, vorm een wolkenrekening zoals die in [&#x200B; wordt beschreven cloudinvoer en uitvoerrekeningen &#x200B;](/help/components/locations/configure-import-accounts.md) vormt.
 
 Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 
@@ -52,7 +52,7 @@ Als u uw uniques voor de maand hebt overschreden, zult u de overeenkomstige clas
 
 Maak een FTP-account voordat u gegevens uploadt via FTP. >
 
-Zie [ FTP en sFTP ](/help/export/ftp-and-sftp/ftp-overview.md) voor extra details op de servers van FTP van Adobe.
+Zie [&#x200B; FTP en sFTP &#x200B;](/help/export/ftp-and-sftp/ftp-overview.md) voor extra details op de servers van FTP van Adobe.
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]** .
 1. Klik op **[!UICONTROL Import File]** en vervolgens op **[!UICONTROL FTP Import]** .
@@ -64,8 +64,8 @@ Zie [ FTP en sFTP ](/help/export/ftp-and-sftp/ftp-overview.md) voor extra detail
    | **Naam** | De naam van de FTP-account. |
    | **Te classificeren Reeks van Gegevens** | Selecteer in de vervolgkeuzelijst de gegevensset (variabele marketingrapport) die u wilt classificeren. |
    | **Uitgezochte de Reeksen van het Rapport** | Selecteer de rapportsuites waar u de geselecteerde gegevensreeks wilt classificeren. Om veelvoudige rapportreeksen te selecteren, moeten de classificaties voor elk van de geselecteerde rapportreeksen identiek zijn. |
-   | **beschrijven Gegevens over Conflicten** | Selecteer deze optie als u dubbele gegevens wilt overschrijven. Deze optie is handig als u bestaande classificaties bijwerkt. Als u op de [ recentste classificatiearchitectuur ](../sets/overview.md) bent, wordt dit het plaatsen altijd toegelaten. |
-   | **na de Invoer is Volledig** | Selecteer deze optie als u de bijgewerkte gegevensset automatisch wilt exporteren naar dezelfde FTP-account als u het e-mailadres opgeeft voor de ontvangst van meldingen over deze FTP-account nadat het importeren is voltooid. Als u op de [ recentste classificatiearchitectuur ](../sets/overview.md) bent, is deze optie niet beschikbaar. |
+   | **beschrijven Gegevens over Conflicten** | Selecteer deze optie als u dubbele gegevens wilt overschrijven. Deze optie is handig als u bestaande classificaties bijwerkt. Als u op de [&#x200B; recentste classificatiearchitectuur &#x200B;](../sets/overview.md) bent, wordt dit het plaatsen altijd toegelaten. |
+   | **na de Invoer is Volledig** | Selecteer deze optie als u de bijgewerkte gegevensset automatisch wilt exporteren naar dezelfde FTP-account als u het e-mailadres opgeeft voor de ontvangst van meldingen over deze FTP-account nadat het importeren is voltooid. Als u op de [&#x200B; recentste classificatiearchitectuur &#x200B;](../sets/overview.md) bent, is deze optie niet beschikbaar. |
    | **Ontvanger van het Bericht** | Geef het e-mailadres op waar meldingen over dit FTP-account moeten worden ontvangen. |
    | **machtigt** | (Vereist) Hiermee geeft u Adobe toestemming om automatisch alle gegevensbestanden te importeren die naar het nieuwe FTP-account zijn verzonden. |
 

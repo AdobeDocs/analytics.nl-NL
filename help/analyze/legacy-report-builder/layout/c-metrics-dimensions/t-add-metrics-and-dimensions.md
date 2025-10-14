@@ -18,10 +18,10 @@ ht-degree: 0%
 
 Stappen om metriek en afmetingen aan een verzoek toe te voegen.
 
-1. Gebruik de [!UICONTROL Request Wizard: Step 1] vorm aan [ creeer het gegevensverzoek ](/help/analyze/legacy-report-builder/data-requests/data-requests.md) dan klik **[!UICONTROL Next]**.
+1. Gebruik de [!UICONTROL Request Wizard: Step 1] vorm aan [&#x200B; creeer het gegevensverzoek &#x200B;](/help/analyze/legacy-report-builder/data-requests/data-requests.md) dan klik **[!UICONTROL Next]**.
 1. Dubbelklik in het [!UICONTROL Request Wizard: Step 2] -formulier op Metriek of sleep de metriek naar de gewenste positie.
 
-   ![ Schermafbeelding die de Tovenaar van het Verzoek toont: Stap 2 met een pijl die van de metrieklijst aan de gewenste sectie van de paginamening richt.](assets/adding_metrics.png)
+   ![&#x200B; Schermafbeelding die de Tovenaar van het Verzoek toont: Stap 2 met een pijl die van de metrieklijst aan de gewenste sectie van de paginamening richt.](assets/adding_metrics.png)
 
    Wanneer u metriek toevoegt, worden deze niet verwijderd van het tabblad [!UICONTROL Metrics] , omdat u metriek meerdere keren kunt weergeven binnen een aanvraag. U kunt bijvoorbeeld naast elke waarde het metrische subtotaal weergeven. De lijst met beschikbare metriek verandert echter telkens wanneer u een dimensie toevoegt of verwijdert.
 
@@ -29,7 +29,7 @@ Stappen om metriek en afmetingen aan een verzoek toe te voegen.
 
    Een zoekbalk wordt weergegeven op het tabblad Metrisch, net boven de lijst Metrisch.
 
-   ![ Schermafbeelding die de onderzoeksbar van Metriek toont.](assets/search_bar_metric.png)
+   ![&#x200B; Schermafbeelding die de onderzoeksbar van Metriek toont.](assets/search_bar_metric.png)
 
 ## Richtsnoeren
 
@@ -74,8 +74,8 @@ Om een verzoek door metrisch te sorteren
    * Jaar
    * Datumbereik (wanneer geen granulariteit is opgegeven)
 
-1. Wijzig metriek en afmetingen door [ formaatopties ](/help/analyze/legacy-report-builder/layout/t-format-display-headers.md) en filters te vormen.
+1. Wijzig metriek en afmetingen door [&#x200B; formaatopties &#x200B;](/help/analyze/legacy-report-builder/layout/t-format-display-headers.md) en filters te vormen.
 1. Klik op **[!UICONTROL Finish]** .
 In het volgende voorbeeld hebben de afmetingen betrekking op de [!UICONTROL Page] metrische waarde. Met de [!UICONTROL Referring Domain] -dimensie wordt een rapport gemaakt over de verdeling tussen [!UICONTROL Page] en [!UICONTROL Referring Domain] . Het tabblad [!UICONTROL Dimension] wordt alleen bijgewerkt met dimensies die u kunt toevoegen aan een uitsplitsingsrapport.
 
-   ![ Schermschot die de afmetingen tonen die op metrisch betrekking hebben.](assets/page_pageview_02.png)
+   ![&#x200B; Schermschot die de afmetingen tonen die op metrisch betrekking hebben.](assets/page_pageview_02.png)

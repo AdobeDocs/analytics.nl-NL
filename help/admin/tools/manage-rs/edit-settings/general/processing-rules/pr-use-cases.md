@@ -18,11 +18,11 @@ De toepassingen van hoe u verwerkingsregels in uw organisatie kunt gebruiken zij
 
 +++Een contextgegevensvariabele naar een eVar kopiëren
 
-De regels van de verwerking worden gebruikt om waarden van [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contextdata.md) aan [ Props ](/help/components/dimensions/prop.md) en [ eVars ](/help/components/dimensions/evar.md) te bewegen. Zonder verwerkingsregels hebben contextgegevensvariabelen geen betekenis en vullen ze geen rapporten in Analytics.
+De regels van de verwerking worden gebruikt om waarden van [&#x200B; variabelen van de Contextgegevens &#x200B;](/help/implement/vars/page-vars/contextdata.md) aan [&#x200B; Props &#x200B;](/help/components/dimensions/prop.md) en [&#x200B; eVars &#x200B;](/help/components/dimensions/evar.md) te bewegen. Zonder verwerkingsregels hebben contextgegevensvariabelen geen betekenis en vullen ze geen rapporten in Analytics.
 
 De lijst [!UICONTROL Context Variables] bevat alle variabelen die de afgelopen 30 dagen naar de rapportsuite zijn verzonden. Als u de naam van de variabele van contextgegevens kent maar niet het in de huidige rapportreeks hebt verzonden, kunt u het manueel toevoegen:
 
-![ manueel toevoegend een variabele van contextgegevens aan een verwerkingsregel ](assets/add-context-variable.png)
+![&#x200B; manueel toevoegend een variabele van contextgegevens aan een verwerkingsregel &#x200B;](assets/add-context-variable.png)
 
 In het volgende voorbeeld wordt de variabele `search_term` context data geplaatst en wordt de waarde ervan in eVar3 geplaatst:
 
@@ -31,7 +31,7 @@ In het volgende voorbeeld wordt de variabele `search_term` context data geplaats
 | Voorwaarde | `search_term` (Contextgegevens) is ingesteld |
 | Handeling | [!UICONTROL Overwrite value of] eVar3 met `search_term` (contextgegevens) |
 
-![ Screenshot van de interface die van verwerkingsregels het gebruik van een variabele van contextgegevens toont ](assets/set-context-data.png)
+![&#x200B; Screenshot van de interface die van verwerkingsregels het gebruik van een variabele van contextgegevens toont &#x200B;](assets/set-context-data.png)
 
 Het bovenstaande voorbeeld werkt prima als er slechts een paar eVars zijn om te vullen. Als uw organisatie honderden variabelen van contextgegevens heeft die elk hun eigen eVar nodig hebben, kunt u voorwaardelijke verklaringen gebruiken. Tientallen voorwaardelijke instructies passen binnen één verwerkingsregel, zodat uw organisatie alle eVars in een rapportsuite kan vullen zonder dat de verwerkingsregellimiet van 150 regels wordt overschreden.
 
@@ -43,17 +43,17 @@ In het volgende voorbeeld worden meerdere variabelen gevuld met variabele contex
 | Handeling | [!UICONTROL Overwrite value of] Prop7 met `testhierarchy` (Context Data), als `testhierarchy` (Context Data) is ingesteld |
 | Handeling | [!UICONTROL Overwrite value of] eVar8 met `spa.ims_org` (contextgegevens) |
 
-![ Screenshot van de interface die van verwerkingsregels toont hoe te om een waarde voorwaardelijk te plaatsen ](assets/add-conditional.png)
+![&#x200B; Screenshot van de interface die van verwerkingsregels toont hoe te om een waarde voorwaardelijk te plaatsen &#x200B;](assets/add-conditional.png)
 
 +++
 
 +++Een gebeurtenis instellen met een variabele van een contextgegevens
 
-De regels van de verwerking kunnen gebeurtenissen teweegbrengen die op [ worden gebaseerd de gegevensvariabelen van de Context ](/help/implement/vars/page-vars/contextdata.md).
+De regels van de verwerking kunnen gebeurtenissen teweegbrengen die op [&#x200B; worden gebaseerd de gegevensvariabelen van de Context &#x200B;](/help/implement/vars/page-vars/contextdata.md).
 
 De lijst [!UICONTROL Context Variables] bevat alle variabelen die de afgelopen 30 dagen naar de rapportsuite zijn verzonden. Als u de naam van de variabele van contextgegevens kent maar niet het in de huidige rapportreeks hebt verzonden, kunt u het manueel toevoegen:
 
-![ manueel toevoegend een variabele van contextgegevens aan een verwerkingsregel ](assets/add-context-variable.png)
+![&#x200B; manueel toevoegend een variabele van contextgegevens aan een verwerkingsregel &#x200B;](assets/add-context-variable.png)
 
 De volgende regeldefinitie plaatst een gebeurtenis op elke slag die een specifieke variabele van contextgegevens bevat:
 
@@ -62,7 +62,7 @@ De volgende regeldefinitie plaatst een gebeurtenis op elke slag die een specifie
 | Voorwaarde | `search_term` (Contextgegevens) is ingesteld |
 | Handeling | [!UICONTROL Set event] Event1 tot [!UICONTROL Custom Value] `1` |
 
-![ Schermafbeelding van de interface die van verwerkingsregels toont hoe te om een gebeurtenis ](assets/processing_rule_set_event.png) te plaatsen
+![&#x200B; Schermafbeelding van de interface die van verwerkingsregels toont hoe te om een gebeurtenis &#x200B;](assets/processing_rule_set_event.png) te plaatsen
 
 +++
 
@@ -77,14 +77,14 @@ Controleer altijd of een waarde leeg is of de verwachte waarde bevat voordat u d
 | Voorwaarde | Campagne is niet ingesteld |
 | Handeling | [!UICONTROL Overwrite value of] Campagne voeren met [!UICONTROL Query String Parameter] `cpid` |
 
-![ Schermafbeelding van de interface van de verwerkingsregels die voorwaardelijke campagnerogica tonen ](assets/set-campaign-conditionally.png)
+![&#x200B; Schermafbeelding van de interface van de verwerkingsregels die voorwaardelijke campagnerogica tonen &#x200B;](assets/set-campaign-conditionally.png)
 
 | Regelset | Waarde |
 | --- | --- |
 | Voorwaarde | [!UICONTROL Query String Parameter] `q` [!UICONTROL Is Set] |
 | Handeling | [!UICONTROL Overwrite value of] Interne zoektermen met [!UICONTROL Query String Parameter] `q` |
 
-![ Schermafbeelding van de interface van de verwerkingsregels die interne logica van de onderzoekstermijn tonen ](assets/populate-internal-search-terms.png)
+![&#x200B; Schermafbeelding van de interface van de verwerkingsregels die interne logica van de onderzoekstermijn tonen &#x200B;](assets/populate-internal-search-terms.png)
 
 +++
 
@@ -97,7 +97,7 @@ Gebeurtenissen kunnen worden ingesteld op basis van elke voorwaarde die beschikb
 | Voorwaarde | Als [!UICONTROL Page Name] gelijk is aan &quot;Product overview&quot; |
 | Handeling | [!UICONTROL Set event] [!UICONTROL Product Views] t/m [!UICONTROL Custom Value] `1` |
 
-![ Schermafbeelding van de interface die van verwerkingsregels een gebeurtenis toont voorwaardelijk wordt geplaatst ](assets/set-product-view-event.png)
+![&#x200B; Schermafbeelding van de interface die van verwerkingsregels een gebeurtenis toont voorwaardelijk wordt geplaatst &#x200B;](assets/set-product-view-event.png)
 
 +++
 
@@ -110,7 +110,7 @@ Met de optie Samenvoegen kunt u waarden vullen door andere waarden te combineren
 | Voorwaarde | Geen (altijd uitvoeren) |
 | Handeling | [!UICONTROL Overwrite value of] eVar1 met [!UICONTROL Concatenated Value] Categorie + Paginanaam |
 
-![ Screenshot van de interface die van de verwerkingsregels een samengevoegde waarde toont ](assets/add-subcategory-using-concat.png)
+![&#x200B; Screenshot van de interface die van de verwerkingsregels een samengevoegde waarde toont &#x200B;](assets/add-subcategory-using-concat.png)
 
 +++
 
@@ -125,7 +125,7 @@ Adobe raadt aan de meest beperkende optie te gebruiken om ongewenste overschrijv
 | Voorwaarde | Als prop1 [!UICONTROL Starts With] &quot;[!DNL Shoping]&quot; |
 | Handeling | [!UICONTROL Overwrite value of] Prop1 met [!UICONTROL Custom Value] &quot;[!DNL Shopping]&quot; |
 
-![ Schermafbeelding van de interface die van verwerkingsregels toont hoe te om een typefout ](assets/clean-up-values-in-report.png) te bevestigen
+![&#x200B; Schermafbeelding van de interface die van verwerkingsregels toont hoe te om een typefout &#x200B;](assets/clean-up-values-in-report.png) te bevestigen
 
 +++
 
@@ -137,6 +137,6 @@ U kunt een specifieke gebeurtenis verwijderen uit of verwijderen uit een hit met
 | Voorwaarde | Geen (altijd uitvoeren) |
 | Handeling | [!UICONTROL Set event] Event1 tot [!UICONTROL Custom value] `0` |
 
-![ Schermafbeelding van de interface die van verwerkingsregels toont om een gebeurtenis te verwijderen ](assets/remove_event.png)
+![&#x200B; Schermafbeelding van de interface die van verwerkingsregels toont om een gebeurtenis te verwijderen &#x200B;](assets/remove_event.png)
 
 +++

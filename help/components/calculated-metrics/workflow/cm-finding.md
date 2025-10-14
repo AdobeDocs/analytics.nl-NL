@@ -14,4 +14,4 @@ ht-degree: 0%
 
 U kunt metriek in Analysis Workspace op de zelfde manier vinden dat u van andere types van componenten de plaats bepaalt.
 
-Voor informatie over hoe te om van componenten snel de plaats te bepalen, zie [ Onderzoek, filter, en sorteer de componentenlijst ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#search-filter-and-sort-the-component-list) in [ het overzicht van Componenten ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+Voor informatie over hoe te om van componenten snel de plaats te bepalen, zie [&#x200B; Onderzoek, filter, en sorteer de componentenlijst &#x200B;](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#search-filter-and-sort-the-component-list) in [&#x200B; het overzicht van Componenten &#x200B;](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).

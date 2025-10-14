@@ -34,18 +34,18 @@ Onze eerste stap is om Adobe Analytics voor te bereiden op het ontvangen van de 
 1. Selecteer een rapportsuite.
 1. Klik op **[!UICONTROL Edit Settings > Conversion > Success Events]**.
 
-   ![ Gebeurtenissen van het Succes ](assets/success-events.png)
+   ![&#x200B; Gebeurtenissen van het Succes &#x200B;](assets/success-events.png)
 
 1. Gebruik **[!UICONTROL Add New]** onder Aangepaste succesgebeurtenissen om 3 aangepaste succesgebeurtenissen te maken: [!UICONTROL Clicks] (Teller), [!UICONTROL Impressions] (Teller) en [!UICONTROL Total Cost] (Valuta).
 
-   ![ Nieuwe succesgebeurtenis ](assets/new-success-events.png)
+   ![&#x200B; Nieuwe succesgebeurtenis &#x200B;](assets/new-success-events.png)
 
 1. Klik op Opslaan.
 Je ontvangt een bericht dat je bespaart is goedgekeurd.
 1. Ga naar **[!UICONTROL Admin > Report Suites > Edit Settings > Conversion > Conversion Variables]**.
 1. Schakel volgcodes in door het selectievakje naast **[!UICONTROL Tracking Code]** onder **[!UICONTROL Campaign > Campaign Variable]** in te schakelen.
 
-   ![ variabele van de Campagne ](assets/campaign-variable.png)
+   ![&#x200B; variabele van de Campagne &#x200B;](assets/campaign-variable.png)
 
 ## Gegevensbronnen instellen
 
@@ -61,21 +61,21 @@ Met [!UICONTROL Data Sources] kunt u niet-klikstreamgegevens delen met Adobe Ana
 1. Klik op **[!UICONTROL Activate]** .
 In [!UICONTROL Data Source Activation Wizard] wordt het volgende weergegeven:
 
-   ![ Tovenaar van de Activering ](assets/ds-activation-wizard.png)
+   ![&#x200B; Tovenaar van de Activering &#x200B;](assets/ds-activation-wizard.png)
 
 1. Klik op **[!UICONTROL Next]** en geef de gegevensbron een naam. Deze naam wordt weergegeven in Data Source Manager.
 1. Accepteer de serviceovereenkomst en klik op **[!UICONTROL Next]** .
 1. Selecteer de drie standaardmetriek: [!UICONTROL Impressions] , [!UICONTROL Clicks] en [!UICONTROL Total Cost] en klik op **[!UICONTROL Next]** .
-1. Nu &quot;kaart&quot;deze nieuwe gegevensbron aan de douanegebeurtenissen die wij in [ gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) creeerden.
+1. Nu &quot;kaart&quot;deze nieuwe gegevensbron aan de douanegebeurtenissen die wij in [&#x200B; gebeurtenissen van het Succes &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) creeerden.
 
-   ![ Toewijzing ](assets/data-source-mapping.png)
+   ![&#x200B; Toewijzing &#x200B;](assets/data-source-mapping.png)
 
 1. Gegevensafmetingen kiezen
 Schakel het vakje naast Bijkomende codes in en klik op **[!UICONTROL Next]** .
 1. Afmetingen van kaartgegevens.
 Wijs de geïmporteerde gegevensdimensie (kenmerk) toe aan het Adobe Analytics-kenmerk waarin u het wilt opslaan. Dit kan een standaardafmeting of een eVar zijn. Nadat u op **[!UICONTROL Next]** hebt geklikt, worden de resulterende toewijzingen weergegeven in het overzicht:
 
-   ![ Samenvatting ](assets/data-source-summary.png)
+   ![&#x200B; Samenvatting &#x200B;](assets/data-source-summary.png)
 
 1. Klik op **[!UICONTROL Save]**.
 1. Klik op **[!UICONTROL Download]** om het sjabloonbestand voor deze gegevensbron te downloaden.
@@ -112,13 +112,13 @@ U kunt het bestand nu uploaden.
 
 Ga terug naar de wizard Data Source voor instructies en upload het bestand via FTP:
 
-![ uploadt FTP ](assets/upload-ftp.png)
+![&#x200B; uploadt FTP &#x200B;](assets/upload-ftp.png)
 
 ## Berekende waarden maken
 
 Het toevoegen van berekende metriek zal nuttig zijn wanneer het maken van loon-per-klikbesluiten.
 
-Bijvoorbeeld, kon u deze [ berekende metriek ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics) toevoegen:
+Bijvoorbeeld, kon u deze [&#x200B; berekende metriek &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics) toevoegen:
 
 | Naam | Formule | Metrisch type | Beschrijving |
 | --- | --- | --- | --- |

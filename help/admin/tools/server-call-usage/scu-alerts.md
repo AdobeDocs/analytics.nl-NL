@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Wanneer u opstelling een alarm, het op alle rapportsuites in alle login bedrijven van een het facturerings bedrijf van toepassing is.
 
-De Alarm van het Gebruik van de Vraag van de server maakt deel uit van het [ Alarm ](/help/components/alerts/alert-manager.md) gebruikersinterface.
+De Alarm van het Gebruik van de Vraag van de server maakt deel uit van het [&#x200B; Alarm &#x200B;](/help/components/alerts/alert-manager.md) gebruikersinterface.
 
 Het is pre-bevolkt met **1 standaardalarm** dat binnen om het even welk login bedrijf verschijnt dat toegang tot de eigenschap van het Gebruik van de Vraag van de Server heeft. Dit alarm brengt een bericht teweeg dat aan alle beheerders van het login bedrijf wordt gericht als één van de volgende criteria wordt voldaan:
 
@@ -68,13 +68,13 @@ Waarschuwingen beheren:
 
    | Handeling | Definitie |
    |--- |--- |
-   | + Toevoegen | Heb toegang tot [ Waakzame Bouwer ](/help/admin/tools/server-call-usage/scu-alerts.md) door [!UICONTROL + Add] te klikken. |
+   | + Toevoegen | Heb toegang tot [&#x200B; Waakzame Bouwer &#x200B;](/help/admin/tools/server-call-usage/scu-alerts.md) door [!UICONTROL + Add] te klikken. |
    | Tag | Label waarschuwingen om deze voor gebruiksgemak in te delen. |
    | Verwijderen | U kunt alle waarschuwingen verwijderen, behalve standaardwaarschuwingen. |
    | Naam wijzigen | U kunt de naam van alle waarschuwingen wijzigen, behalve van standaardwaarschuwingen. |
    | Goedkeuren | Waarschuwingen goedkeuren om ze &quot;officieel&quot; te maken. |
    | In-/uitschakelen | U kunt alle waarschuwingen in- of uitschakelen, ook de standaardwaarschuwingen. |
    | Vernieuwen | Wanneer een of meer waarschuwingen zijn geselecteerd, kunnen deze worden vernieuwd. Hierdoor worden de vervaldatums verlengd tot 1 jaar vanaf de dag waarop op [!UICONTROL Renew] is geklikt, ongeacht de oorspronkelijke vervaldatum. |
-   | Exporteren naar CSV | Zie [ Rapport van het Gebruik van de Download ](/help/admin/tools/server-call-usage/report-suite-usage.md) |
+   | Exporteren naar CSV | Zie [&#x200B; Rapport van het Gebruik van de Download &#x200B;](/help/admin/tools/server-call-usage/report-suite-usage.md) |
 
    {style="table-layout:auto"}

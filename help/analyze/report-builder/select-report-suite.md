@@ -23,7 +23,7 @@ Als u een rapportsuite in een cel selecteert, kunt u gegevensblokken eenvoudig v
 Om een rapportreeks van een cel te selecteren, bouw eerst een gegevensblok en wijs veelvoudige rapportreeksen aan een cel buiten uw gegevensblok toe. Gebruik vervolgens de rapportsuite van het deelvenster Cel om uw gegevensblokken te vernieuwen van verschillende rapportsuites.
 
 1. Maak een gegevensblok.
-Voor informatie over het creëren van een gegevensblok, zie [ een Blok van Gegevens ](/help/analyze/report-builder/create-a-data-block.md) creëren.
+Voor informatie over het creëren van een gegevensblok, zie [&#x200B; een Blok van Gegevens &#x200B;](/help/analyze/report-builder/create-a-data-block.md) creëren.
 
 1. Klik het *celpictogram* in de **[!UICONTROL report suites]** sectie.
 

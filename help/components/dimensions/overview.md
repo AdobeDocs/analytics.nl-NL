@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Overzicht van afmetingen
 
-Dimensies zijn variabelen in Adobe Analytics die doorgaans tekenreekswaarden bevatten. De gemeenschappelijke dimensies omvatten [ Pagina ](page.md), [ Verwijzend domein ](referring-domain.md), of een [ eVar ](evar.md). In tegenstelling, [ metriek ](../metrics/overview.md) bevatten numerieke waarden die aan een afmeting binden. Een basisrapport toont rijen van koordwaarden (afmeting), tegen een kolom van numerieke waarden (metrisch).
+Dimensies zijn variabelen in Adobe Analytics die doorgaans tekenreekswaarden bevatten. De gemeenschappelijke dimensies omvatten [&#x200B; Pagina &#x200B;](page.md), [&#x200B; Verwijzend domein &#x200B;](referring-domain.md), of een [&#x200B; eVar &#x200B;](evar.md). In tegenstelling, [&#x200B; metriek &#x200B;](../metrics/overview.md) bevatten numerieke waarden die aan een afmeting binden. Een basisrapport toont rijen van koordwaarden (afmeting), tegen een kolom van numerieke waarden (metrisch).
 
 Als u bijvoorbeeld de **[!UICONTROL Page]** -dimensie hebt gecombineerd met de **[!UICONTROL Visits]** -dimensie, krijgt u een gerangschikt rapport met uw bezochte pagina&#39;s:
 
@@ -28,4 +28,4 @@ Elke dimensie vertegenwoordigt een ander deel of facet van uw site. U kunt één
 
 ## Dimensiebeschrijvingen toevoegen
 
-Analysebeheerders kunnen beschrijvingen voor dimensies en andere componenten toevoegen in de rapportsuite of rechtstreeks in Analysis Workspace. Voor informatie over hoe te om beschrijvingen aan afmetingen toe te voegen, zie [ componentenbeschrijvingen ](/help/analyze/analysis-workspace/components/add-component-descriptions.md) toevoegen.
+Analysebeheerders kunnen beschrijvingen voor dimensies en andere componenten toevoegen in de rapportsuite of rechtstreeks in Analysis Workspace. Voor informatie over hoe te om beschrijvingen aan afmetingen toe te voegen, zie [&#x200B; componentenbeschrijvingen &#x200B;](/help/analyze/analysis-workspace/components/add-component-descriptions.md) toevoegen.

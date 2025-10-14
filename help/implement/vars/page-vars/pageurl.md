@@ -17,20 +17,20 @@ AppMeasurement verzamelt automatisch de pagina-URL in elke hit. Als u de pagina-
 
 >[!NOTE]
 >
->Deze variabele is geen beschikbare dimensie in Analysis Workspace. Deze optie is alleen beschikbaar in Data Warehouse en Data Feeds. Bovendien, ontdoen de servers van de gegevensinzameling van Adobe deze afmeting van alle [ verbinding het volgen ](/help/implement/vars/functions/tl-method.md) beeldverzoeken. Als u pagina URL als afmeting in Analysis Workspace wilt gebruiken of deze afmeting in verbindingsvolgende treffers wilt, overweeg het overgaan van de `pageURL` variabele in een [ eVar ](evar.md) op elke klap.
+>Deze variabele is geen beschikbare dimensie in Analysis Workspace. Deze optie is alleen beschikbaar in Data Warehouse en Data Feeds. Bovendien, ontdoen de servers van de gegevensinzameling van Adobe deze afmeting van alle [&#x200B; verbinding het volgen &#x200B;](/help/implement/vars/functions/tl-method.md) beeldverzoeken. Als u pagina URL als afmeting in Analysis Workspace wilt gebruiken of deze afmeting in verbindingsvolgende treffers wilt, overweeg het overgaan van de `pageURL` variabele in een [&#x200B; eVar &#x200B;](evar.md) op elke klap.
 
 ## Pagina-URL met de Web SDK
 
 Pagina-URL wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` of `data.__adobe.analytics.g`
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` of `data.__adobe.analytics.g`
 
 ## Pagina-URL met de Adobe Analytics-extensie
 
 De extensie Analytics in Adobe Experience Platform Data Collection vult automatisch pagina-URL in. U kunt echter de URL van de pagina overschrijven tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad **[!UICONTROL Rules]** en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder **[!UICONTROL Actions]** op een bestaande **[!UICONTROL Adobe Analytics - Set Variables]** -actie of klik op het plusteken (+).
@@ -54,7 +54,7 @@ Als u pagina URL als afmeting in rapporten wilt gebruiken, denk na gebruikend he
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-Als het gebruiken van de `digitalData` [ gegevenslaag ](../../prepare/data-layer.md):
+Als het gebruiken van de `digitalData` [&#x200B; gegevenslaag &#x200B;](../../prepare/data-layer.md):
 
 ```js
 s.pageURL = digitalData.page.pageInfo.destinationURL;

@@ -19,7 +19,7 @@ De functie `s_gi()` instantieert of zoekt een instantie van AppMeasurement door 
 
 De extensie Web SDK instantieert en beheert het volgende object voor u. U kunt de naam van het volgende object echter aanpassen in de extensie-instellingen:
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Experience Platform Web SDK.
 1. Wijzig het veld [!UICONTROL Name] in de gewenste waarde. De standaardwaarde is `alloy` .
@@ -38,13 +38,13 @@ De volgende code laadt het Web SDK en concretiseert een volgend voorwerp. U kunt
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-Zie [ de SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL) in de documentatie van SDK van het Web voor meer informatie installeren.
+Zie [&#x200B; de SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL) in de documentatie van SDK van het Web voor meer informatie installeren.
 
 ## Een trackingobject instantiëren met de Adobe Analytics-extensie
 
 De extensie Analytics instantieert en beheert het volgende object voor u. U kunt echter ook een algemeen traceringsobject instellen in de accordeon [!UICONTROL Library Management] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 1. Vouw de accordeon [!UICONTROL Library Management] uit en selecteer een ander keuzerondje dan [!UICONTROL Manage the library for me] .

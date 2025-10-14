@@ -22,7 +22,7 @@ Als gebruiker niet-Admin, kunt u eerder werkboeken met verzoeken hebben gecreeer
 
 Als u bijvoorbeeld een aanvraag vernieuwt die afmetingen of metriek bevat waartoe u geen toegang hebt, krijgt u een beperkte machtigingsfout. In het foutbericht staat dat een aanvraag niet beschikbaar is voor uw gebruikersaccount vanwege beheerdersrechten.
 
-![ Scherenshot die het Beperkte bericht van de Fout van de Toestemming toont.](assets/arb_restrc_perm.png)
+![&#x200B; Scherenshot die het Beperkte bericht van de Fout van de Toestemming toont.](assets/arb_restrc_perm.png)
 
 Volg deze instructies voor **elk** werkboek van de Report Builder dat u handhaaft:
 

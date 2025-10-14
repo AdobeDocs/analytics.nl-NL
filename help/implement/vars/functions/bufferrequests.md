@@ -13,22 +13,22 @@ ht-degree: 0%
 
 # bufferRequests
 
-Met de methode `bufferRequests()` kunt u afbeeldingsaanvragen op de huidige pagina in cache plaatsen in plaats van ze naar Adobe te verzenden. Het teweegbrengen van deze methode is nuttig in scenario&#39;s waar browser niet [`navigator.sendBeacon()` steunt ](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon) of anders beeldverzoeken annuleert wanneer een pagina leegt. Veel versies van WebKit-browsers, zoals Safari, laten vaak zien hoe een afbeeldingsaanvraag wordt gestopt wanneer op een koppeling wordt geklikt. De methode `bufferRequests()` is beschikbaar voor alle versies van AppMeasurement v2.25.0 of hoger.
+Met de methode `bufferRequests()` kunt u afbeeldingsaanvragen op de huidige pagina in cache plaatsen in plaats van ze naar Adobe te verzenden. Het teweegbrengen van deze methode is nuttig in scenario&#39;s waar browser niet [`navigator.sendBeacon()` steunt &#x200B;](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon) of anders beeldverzoeken annuleert wanneer een pagina leegt. Veel versies van WebKit-browsers, zoals Safari, laten vaak zien hoe een afbeeldingsaanvraag wordt gestopt wanneer op een koppeling wordt geklikt. De methode `bufferRequests()` is beschikbaar voor alle versies van AppMeasurement v2.25.0 of hoger.
 
 Wanneer u [`t()`](t-method.md) of [`tl()`](tl-method.md) aanroept op een volgende pagina in dezelfde browsersessie en `bufferRequests()` nog niet is aangeroepen op die pagina, worden alle gebufferde aanvragen verzonden naast de afbeeldingsaanvraag van die pagina. Gebufferde aanvragen worden in de juiste volgorde verzonden, waarbij de afbeeldingsaanvraag van de huidige pagina als laatste wordt verzonden.
 
 >[!TIP]
 >
->De tijdstempel van gebufferde aanvragen wordt gedeeld met de pagina die de gegevens verzendt. Als u precies meer precisie wilt in de seconde een gebufferd verzoek wordt geregistreerd, kunt u de [`timestamp`](../page-vars/timestamp.md) paginariabele plaatsen alvorens het verzoek als buffer op te nemen. Als u deze variabele gebruikt, zorg ervoor dat [ facultatieve Tijdstempels ](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) wordt toegelaten - als het niet is, worden alle timestamped hits permanent verloren!
+>De tijdstempel van gebufferde aanvragen wordt gedeeld met de pagina die de gegevens verzendt. Als u precies meer precisie wilt in de seconde een gebufferd verzoek wordt geregistreerd, kunt u de [`timestamp`](../page-vars/timestamp.md) paginariabele plaatsen alvorens het verzoek als buffer op te nemen. Als u deze variabele gebruikt, zorg ervoor dat [&#x200B; facultatieve Tijdstempels &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) wordt toegelaten - als het niet is, worden alle timestamped hits permanent verloren!
 
 ## Beperkingen
 
-Houd rekening met de volgende beperkingen wanneer u de methode `bufferRequests()` aanroept. Aangezien deze methode [`Window.sessionStorage` ](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) gebruikt, zijn veel van de zelfde beperkingen van toepassing:
+Houd rekening met de volgende beperkingen wanneer u de methode `bufferRequests()` aanroept. Aangezien deze methode [`Window.sessionStorage` &#x200B;](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) gebruikt, zijn veel van de zelfde beperkingen van toepassing:
 
 * De bestemmingsverbinding moet op het zelfde domein en subdomain verblijven. Gebufferde aanvragen werken niet in verschillende domeinen of subdomeinen, zelfs niet als beide dezelfde Adobe Analytics-implementatie hebben. Deze beperking betekent ook dat u geen gebufferde verzoeken kunt gebruiken om uitgangsverbindingen te volgen.
 * De doelkoppeling moet hetzelfde protocol gebruiken als de huidige pagina. U kunt geen gebufferde aanvragen verzenden tussen HTTP en HTTPS.
 * Gebufferde aanvragen worden opgeslagen totdat u `t()` of `tl()` aanroept zonder `bufferRequests()` eerst aan te roepen, of totdat de browser of het tabblad wordt gesloten. Als een browsersessie wordt beëindigd voordat u die gegevens naar Adobe kunt verzenden, gaan niet-verzonden gebufferde aanvragen permanent verloren.
-* Als browser niet de [ Opslag API van het Web ](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) of [ JSON API ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) steunt, wordt een waarschuwing output aan de browser console en AppMeasurement probeert onmiddellijk het beeldverzoek te verzenden gebruikend de `t()` methode.
+* Als browser niet de [&#x200B; Opslag API van het Web &#x200B;](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) of [&#x200B; JSON API &#x200B;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) steunt, wordt een waarschuwing output aan de browser console en AppMeasurement probeert onmiddellijk het beeldverzoek te verzenden gebruikend de `t()` methode.
 
 ## Gebufferde verzoeken in het Web SDK
 

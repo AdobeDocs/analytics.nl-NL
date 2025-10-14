@@ -16,12 +16,12 @@ De metrische &quot;Voorvallen&quot; [&#128279;](overview.md) toont het aantal tr
 
 ## Hoe deze metrische waarde wordt berekend
 
-Van alle klare resultaten in een rapportreeks, omvat klappen waar een afmetingspunt wordt bepaald of voortgeduurd. Sommige dimensies, zoals [ eVars ](../dimensions/evar.md), blijven voorbij de slag zij worden geplaatst. Deze metrische tellingen zowel aanvankelijke als persistelde waarden.
+Van alle klare resultaten in een rapportreeks, omvat klappen waar een afmetingspunt wordt bepaald of voortgeduurd. Sommige dimensies, zoals [&#x200B; eVars &#x200B;](../dimensions/evar.md), blijven voorbij de slag zij worden geplaatst. Deze metrische tellingen zowel aanvankelijke als persistelde waarden.
 
 ## Vergelijken met vergelijkbare cijfers
 
-* **Voorkomen vs. [ Instanties](instances.md)**: De tellingen van voorkomen raken waar een afmetingspunt werd geplaatst of voortgeduurd. Exemplaren bevatten geen treffers op plaatsen waar een dimensie-item aanwezig blijft.
-* **Voorkomen vs. [ de meningen van de Pagina](page-views.md)**: De voorvallen omvatten alle raaktypes, met inbegrip van pagina mening het volgen vraag ([`t()`](/help/implement/vars/functions/t-method.md)), verbinding het volgen vraag ([`tl()`](/help/implement/vars/functions/tl-method.md)), en gegevens van summiere [ Gegevensbronnen ](/help/import/data-sources/overview.md). Metrische paginaweergaven bevatten alleen aanroepen voor het bijhouden van paginaweergaven, exclusief aanroepen voor het bijhouden van koppelingen en samenvattingsgegevensbronnen.
+* **Voorkomen vs. [&#x200B; Instanties](instances.md)**: De tellingen van voorkomen raken waar een afmetingspunt werd geplaatst of voortgeduurd. Exemplaren bevatten geen treffers op plaatsen waar een dimensie-item aanwezig blijft.
+* **Voorkomen vs. [&#x200B; de meningen van de Pagina](page-views.md)**: De voorvallen omvatten alle raaktypes, met inbegrip van pagina mening het volgen vraag ([`t()`](/help/implement/vars/functions/t-method.md)), verbinding het volgen vraag ([`tl()`](/help/implement/vars/functions/tl-method.md)), en gegevens van summiere [&#x200B; Gegevensbronnen &#x200B;](/help/import/data-sources/overview.md). Metrische paginaweergaven bevatten alleen aanroepen voor het bijhouden van paginaweergaven, exclusief aanroepen voor het bijhouden van koppelingen en samenvattingsgegevensbronnen.
 
 ## Persistentie
 

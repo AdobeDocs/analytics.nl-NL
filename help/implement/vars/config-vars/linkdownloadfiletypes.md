@@ -34,14 +34,14 @@ Als een geklikte koppeling overeenkomt met zowel de afsluitings- als de download
 
 Het tekstveld [!UICONTROL Download link qualifier] gebruikt regex om te bepalen of een geklikte koppeling in aanmerking komt als een downloadkoppeling.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder [!UICONTROL Adobe Experience Platform Web SDK] .
 1. Stel onder [!UICONTROL Data Collection] de gewenste waarde in het tekstveld **[!UICONTROL Download link qualifier]** in.
 
 ## Koppelingskwalificatie handmatig downloaden met implementatie van de Web SDK
 
-[ vorm ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) SDK gebruikend [`downloadLinkQualifier` ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=nl-NL#automaticLinkTracking). Het veld gebruikt regex op de aangeklikte URL om te bepalen of het een geldige downloadkoppeling is. Wanneer `downloadLinkQualifier` niet is gedefinieerd, wordt de standaardwaarde ingesteld op `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$` .
+[&#x200B; vorm &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) SDK gebruikend [`downloadLinkQualifier` &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=nl-NL#automaticLinkTracking). Het veld gebruikt regex op de aangeklikte URL om te bepalen of het een geldige downloadkoppeling is. Wanneer `downloadLinkQualifier` niet is gedefinieerd, wordt de standaardwaarde ingesteld op `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$` .
 
 ```json
 alloy("configure", {
@@ -53,7 +53,7 @@ alloy("configure", {
 
 Download Extensions is een lijst met bestandsextensies met een veld waarmee u onder de accordeon [!UICONTROL Link Tracking] meer kunt toevoegen wanneer u de Adobe Analytics-extensie configureert.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 4. Vouw de accordeon [!UICONTROL Link Tracking] uit, zodat het veld **[!UICONTROL Download Extensions]** zichtbaar wordt.

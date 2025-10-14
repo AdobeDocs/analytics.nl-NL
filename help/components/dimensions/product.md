@@ -20,4 +20,4 @@ Deze dimensie verwijst naar het tweede deel van de tekenreeks in de variabele [`
 
 ## Dimension-objecten
 
-Aangezien deze variabele op een douanekoord in uw implementatie gebaseerd is, bepaalt uw organisatie wat de afmetingspunten zijn. Adobe raadt u aan een consistente naamgevingsconventie voor producten vast te stellen. [ classificaties ](../classifications/classifications-overview.md) zijn beschikbaar als u producten verschillend wilt groeperen of een vriendelijkere naam verstrekken. Adobe raadt aan zowel de afmetingen &#39;Product&#39; als &#39;Categorie&#39; te gebruiken.
+Aangezien deze variabele op een douanekoord in uw implementatie gebaseerd is, bepaalt uw organisatie wat de afmetingspunten zijn. Adobe raadt u aan een consistente naamgevingsconventie voor producten vast te stellen. [&#x200B; classificaties &#x200B;](../classifications/classifications-overview.md) zijn beschikbaar als u producten verschillend wilt groeperen of een vriendelijkere naam verstrekken. Adobe raadt aan zowel de afmetingen &#39;Product&#39; als &#39;Categorie&#39; te gebruiken.

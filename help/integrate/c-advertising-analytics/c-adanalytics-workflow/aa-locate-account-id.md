@@ -27,20 +27,20 @@ Leer hoe u uw account-id&#39;s kunt vinden voor Google Ads en Microsoft Advertis
 
 Klik op het accountpictogram rechtsboven om het Google Ads-accountnummer (Customer ID) weer te geven.
 
-![ Google Adds Manager Account ](assets/google-account.png)
+![&#x200B; Google Adds Manager Account &#x200B;](assets/google-account.png)
 
 ## Microsoft Advertising (Bing) {#microsoft}
 
 >[!NOTE]
 >
->Als uw Microsoft Advertising-account (voorheen bekend als Bing) gebruikmaakt van de Google-importfunctie, moet u de juiste trackingtekenreeks bijwerken. De tekenreeks voor reeksspatiëring wordt niet automatisch bijgewerkt van de Google-versie naar de juiste Microsoft Advertising-tekenreeks en kan resulteren in niet-opgegeven gegevens. Zie [ wat wordt ingevoerd uit de Advertentie van Google ](https://help.ads.microsoft.com/apex/index/3/en/50851/) in de hulp van Advertising van Microsoft voor meer informatie.
+>Als uw Microsoft Advertising-account (voorheen bekend als Bing) gebruikmaakt van de Google-importfunctie, moet u de juiste trackingtekenreeks bijwerken. De tekenreeks voor reeksspatiëring wordt niet automatisch bijgewerkt van de Google-versie naar de juiste Microsoft Advertising-tekenreeks en kan resulteren in niet-opgegeven gegevens. Zie [&#x200B; wat wordt ingevoerd uit de Advertentie van Google &#x200B;](https://help.ads.microsoft.com/apex/index/3/en/50851/) in de hulp van Advertising van Microsoft voor meer informatie.
 
 **[!UICONTROL Account ID]** en **[!UICONTROL Manager account ID]** zijn beide vereist.
 
 - De **[!UICONTROL Account ID]** bevindt zich onder **[!UICONTROL Settings]** > **[!UICONTROL Account settings]** > **[!UICONTROL Account ID]** . Zorg ervoor dat u [!UICONTROL Account ID] en NIET [!UICONTROL Account number] gebruikt.
 - De **[!UICONTROL Manager account ID]** bevindt zich onder **[!UICONTROL Settings]** > **[!UICONTROL Manager account settings]** > **[!UICONTROL Manager account ID]** . Zorg ervoor dat u [!UICONTROL Manager account ID] en NIET [!UICONTROL Manager account number] gebruikt.
 
-![ de navigatie van Advertising van Microsoft ](assets/bing-id.png)
+![&#x200B; de navigatie van Advertising van Microsoft &#x200B;](assets/bing-id.png)
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"

@@ -28,8 +28,8 @@ Deze integratie is gericht op de volgende doelgroepen:
 
 * Advertising Analytics is alleen beschikbaar voor Adobe Analytics [Select](https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html) en [Ultimate](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html) SKU&#39;s.
 * Deze functionaliteit is beschikbaar voor klanten die geen advertenties maken in de cloud of in een andere indeling dan AMO.
-* U moet een Beheerder van Adobe Analytics zijn om toegang tot Advertising Analytics te hebben of tot een productprofiel behoren dat [ toegang ](/help/integrate/c-advertising-analytics/overview.md#permissions) aan Advertising Analytics is verleend.
-* Voor om het even welke rapportreeks waar u de onderzoeksgegevens van Google Ads of van Microsoft Advertising wilt bekijken, moet u [ die rapportreeks/s voor Advertising Analytics ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** toelaten > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
+* U moet een Beheerder van Adobe Analytics zijn om toegang tot Advertising Analytics te hebben of tot een productprofiel behoren dat [&#x200B; toegang &#x200B;](/help/integrate/c-advertising-analytics/overview.md#permissions) aan Advertising Analytics is verleend.
+* Voor om het even welke rapportreeks waar u de onderzoeksgegevens van Google Ads of van Microsoft Advertising wilt bekijken, moet u [&#x200B; die rapportreeks/s voor Advertising Analytics &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** toelaten > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 * U hebt aanmeldingsgegevens nodig voor een gebruiker met bewerkingsmachtiging voor de zoekaccount(s) die u wilt integreren met Adobe Analytics, zoals een account-id en wachtwoord-id van Google.
 * In het geval van Microsoft Advertising hebt u ook de instructies [[!UICONTROL Account ID] en [!UICONTROL Manager Account ID]](c-adanalytics-workflow/aa-locate-account-id.md) nodig.
 
@@ -39,8 +39,8 @@ Analytics heeft twee machtigingen die automatisch worden toegekend aan Analytics
 
 | Machtiging | Definitie | Machtiging verlenen als u bent aangemeld bij Adobe Experience Cloud |
 | --- | --- | --- |
-| Advertising Analytics-beheer | Hiermee kunnen gebruikers zoekaccounts voor advertenties instellen/bewerken/weergeven. | Meld u aan bij [ adminconsole.adobe.com ](https://adminconsole.adobe.com) > [!UICONTROL Products] > [!UICONTROL Adobe Analytics] > [!UICONTROL Product Profile] > [!UICONTROL Permissions] tab > [!UICONTROL Analytics Tools] > [!UICONTROL Advertising Analytics Management] |
-| Advertising Analytics-configuratie | Hiermee kunnen gebruikers rapportsuites configureren die moeten worden ingericht voor Advertising Analytics. | Meld u aan bij [ adminconsole.adobe.com ](https://adminconsole.adobe.com) > [!UICONTROL Products] > [!UICONTROL Adobe Analytics] > [!UICONTROL Product Profile] > [!UICONTROL Permissions] tab > [!UICONTROL Analytics Tools] > [!UICONTROL Advertising Analytics Configuration] |
+| Advertising Analytics-beheer | Hiermee kunnen gebruikers zoekaccounts voor advertenties instellen/bewerken/weergeven. | Meld u aan bij [&#x200B; adminconsole.adobe.com &#x200B;](https://adminconsole.adobe.com) > [!UICONTROL Products] > [!UICONTROL Adobe Analytics] > [!UICONTROL Product Profile] > [!UICONTROL Permissions] tab > [!UICONTROL Analytics Tools] > [!UICONTROL Advertising Analytics Management] |
+| Advertising Analytics-configuratie | Hiermee kunnen gebruikers rapportsuites configureren die moeten worden ingericht voor Advertising Analytics. | Meld u aan bij [&#x200B; adminconsole.adobe.com &#x200B;](https://adminconsole.adobe.com) > [!UICONTROL Products] > [!UICONTROL Adobe Analytics] > [!UICONTROL Product Profile] > [!UICONTROL Permissions] tab > [!UICONTROL Analytics Tools] > [!UICONTROL Advertising Analytics Configuration] |
 
 ## Advertising Analytics-afmetingen en -cijfers {#dimensions-metrics}
 

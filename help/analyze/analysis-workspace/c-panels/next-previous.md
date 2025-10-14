@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Volgende of vorige puntenpaneel in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Volgende of vorig puntenpaneel ](/help/analyze/analysis-workspace/c-panels/next-previous.md) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert het Volgende of vorige puntenpaneel in_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [&#x200B; Volgende of vorig puntenpaneel &#x200B;](/help/analyze/analysis-workspace/c-panels/next-previous.md) voor_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -35,17 +35,17 @@ Het deelvenster **[!UICONTROL Next or previous item]** bevat een aantal tabellen
 
 Een deelvenster **[!UICONTROL Next or previous item]** gebruiken:
 
-1. Maak een deelvenster **[!UICONTROL Next or previous item]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
+1. Maak een deelvenster **[!UICONTROL Next or previous item]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [&#x200B; een paneel &#x200B;](panels.md#create-a-panel) creëren.
 
-1. Specificeer de [ input ](#panel-input) voor het paneel.
+1. Specificeer de [&#x200B; input &#x200B;](#panel-input) voor het paneel.
 
-1. Neem de [ output ](#panel-output) voor het paneel waar.
+1. Neem de [&#x200B; output &#x200B;](#panel-output) voor het paneel waar.
 
 ### Deelvensterinvoer
 
 U kunt het deelvenster [!UICONTROL Next or previous item] configureren met de volgende invoerinstellingen:
 
-![ Volgende of vorige puntenpaneel ](assets/next-or-previous-item.png)
+![&#x200B; Volgende of vorige puntenpaneel &#x200B;](assets/next-or-previous-item.png)
 
 | Invoer | Beschrijving |
 | --- | --- |
@@ -62,7 +62,7 @@ Selecteer **[!UICONTROL Build]** om het deelvenster te maken.
 
 Het deelvenster [!UICONTROL Next or previous item] retourneert een uitgebreide set gegevens en visualisaties om u te helpen beter te begrijpen welke instanties specifieke dimensie-items volgen of hieraan voorafgaan.
 
-![ Volgende/Vorige paneeloutput ](assets/next-or-previous-item-output.png)
+![&#x200B; Volgende/Vorige paneeloutput &#x200B;](assets/next-or-previous-item-output.png)
 
 
 | Visualisatie | Beschrijving |
@@ -76,7 +76,7 @@ Het deelvenster [!UICONTROL Next or previous item] retourneert een uitgebreide s
 
 >[!MORELIKETHIS]
 >
->[ creeer een paneel ](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[&#x200B; creeer een paneel &#x200B;](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
 >
 
 <!--

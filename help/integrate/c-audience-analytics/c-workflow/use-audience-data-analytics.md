@@ -26,7 +26,7 @@ In Analysis Workspace worden de Adobe Audience Manager-segmenten weergegeven als
 
 ## Segmentvergelijking {#compare}
 
-[ Vergelijking van het Segment ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Segment op twee manieren worden gebruikt: 1) als 2 segmenten die worden vergeleken, en 2) als punten in de &quot;Top Dimension Punten&quot;lijst.
+[&#x200B; Vergelijking van het Segment &#x200B;](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Segment op twee manieren worden gebruikt: 1) als 2 segmenten die worden vergeleken, en 2) als punten in de &quot;Top Dimension Punten&quot;lijst.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteer het deelvenster **[!UICONTROL Segment Comparison]** in de linkerrails.
 
@@ -43,21 +43,21 @@ In Analysis Workspace worden de Adobe Audience Manager-segmenten weergegeven als
 
 ## Klantenreis (Flow) in Analysis Workspace {#flow}
 
-Adobe Audience Manager-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en geven het lidmaatschap van het publiek weer voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;) en later in aanmerking kan komen voor een meer gekwalificeerd segment (bijvoorbeeld &quot;Bewustmaking&quot;). U kunt [ Stroom ](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) in Analysis Workspace gebruiken om de reis visualiseren een bezoeker tussen publiek neemt.
+Adobe Audience Manager-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en geven het lidmaatschap van het publiek weer voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;) en later in aanmerking kan komen voor een meer gekwalificeerd segment (bijvoorbeeld &quot;Bewustmaking&quot;). U kunt [&#x200B; Stroom &#x200B;](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) in Analysis Workspace gebruiken om de reis visualiseren een bezoeker tussen publiek neemt.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteer de **[!UICONTROL Flow]** visualisatie in de linkertrack.
 
 1. Sleep de [!UICONTROL Audience Name] -dimensie naar de Flow Builder.
 1. Klik op **[!UICONTROL Build]**.
-1. (Facultatief): Sleep een andere afmeting in de visualisatie van de Stroom om een [ inter-dimensionale Stroom ](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tot stand te brengen.
+1. (Facultatief): Sleep een andere afmeting in de visualisatie van de Stroom om een [&#x200B; inter-dimensionale Stroom &#x200B;](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tot stand te brengen.
 
 ![](assets/flow-aamaudiences.png)
 
-Het publiek kan ook in [ Vormt van de Vallout visualisaties ](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) worden gebruikt.
+Het publiek kan ook in [&#x200B; Vormt van de Vallout visualisaties &#x200B;](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) worden gebruikt.
 
 ## Venn Visualization in Analysis Workspace {#venn}
 
-[ de visualisaties van de Venn ](/help/analyze/analysis-workspace/visualizations/venn.md) tonen de overlapping tussen maximaal 3 segmenten.
+[&#x200B; de visualisaties van de Venn &#x200B;](/help/analyze/analysis-workspace/visualizations/venn.md) tonen de overlapping tussen maximaal 3 segmenten.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteer de **[!UICONTROL Venn]** visualisatie in de linkertrack.
 

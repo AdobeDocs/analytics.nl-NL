@@ -53,4 +53,4 @@ de dag van de huidige week die op zondag begint, 23 november min zeven dagen = d
 
 de dag van de huidige week die op zondag begint, 23 november minus één dag = zaterdag, 22 november
 
-In Europa en in sommige andere landen begint de week op maandag in plaats van op zondag. In dit geval kunt u de kalender aanpassen om de begindatum te wijzigen. (Zie [ Douane Kalender ](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
+In Europa en in sommige andere landen begint de week op maandag in plaats van op zondag. In dit geval kunt u de kalender aanpassen om de begindatum te wijzigen. (Zie [&#x200B; Douane Kalender &#x200B;](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md).)

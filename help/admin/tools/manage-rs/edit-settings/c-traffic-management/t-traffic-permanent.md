@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Permanente verkeersverhoging opgeven
 
-U kunt verwachte verkeersniveaus veranderen zodat kan Adobe middelen opnieuw toewijzen om het nieuwe verkeersniveau te behandelen. (Alternatief, kunt u [ een verkeerspiek ](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) plannen als u middelen tijdelijk wilt opnieuw toewijzen.)
+U kunt verwachte verkeersniveaus veranderen zodat kan Adobe middelen opnieuw toewijzen om het nieuwe verkeersniveau te behandelen. (Alternatief, kunt u [&#x200B; een verkeerspiek &#x200B;](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) plannen als u middelen tijdelijk wilt opnieuw toewijzen.)
 
 {{$include /help/_includes/traffic-lead-time.md}}
 

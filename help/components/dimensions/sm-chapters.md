@@ -12,11 +12,11 @@ ht-degree: 1%
 
 # Hoofdstukdimensies voor streaming-mediaservices
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Chapters] voor een rapportreeks toelaat. Zie [ Streaming media de hoofdstukmetriek van de diensten ](../metrics/sm-chapters.md) voor beschikbare metriek.*
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Chapters] voor een rapportreeks toelaat. Zie [&#x200B; Streaming media de hoofdstukmetriek van de diensten &#x200B;](../metrics/sm-chapters.md) voor beschikbare metriek.*
 
 De het hoofdstukdimensies van de de media van het stromen de diensten verstrekken extra rapporteringsfunctionaliteit aan gegevensinzameling door de bibliotheken van de stromende media van de diensten. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Media Chapters]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, is de volgende afmeting beschikbaar:
+Wanneer u **[!UICONTROL Media Chapters]** onder [&#x200B; Media die &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, is de volgende afmeting beschikbaar:
 
 | Dimension-naam | Beschrijving | Verzonden met | Variabele van contextgegevens |
 | --- | --- | --- | --- |
@@ -28,7 +28,7 @@ Naast de bovenstaande afmetingen maakt Adobe automatisch de volgende classificat
 
 | Classificatienaam | Bovenliggende dimensie | Beschrijving |
 | --- | --- | --- |
-| Maker | [ Inhoud ](sm-core.md) | De maker van de inhoud. |
+| Maker | [&#x200B; Inhoud &#x200B;](sm-core.md) | De maker van de inhoud. |
 | Lengte van hoofdstuk | Hoofdstuk | De lengte van het hoofdstuk, in seconden. |
 | Hoofdstuknaam | Hoofdstuk | De vriendelijke naam van het hoofdstuk. |
 | Verschuiving hoofdstuk | Hoofdstuk | De verschuiving van het hoofdstuk binnen de inhoud vanaf het begin, in seconden. |

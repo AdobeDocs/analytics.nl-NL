@@ -15,7 +15,7 @@ ht-degree: 6%
 
 U kunt projecten beheren en delen, of projecten verzenden en downloaden als PDF- of CSV-bestanden naar ontvangers in uw organisatie of met anderen die de opties gebruiken die beschikbaar zijn in het menu **[!UICONTROL Share]** in Analysis Workspace of wanneer u **[!UICONTROL Share]** rechtsboven in de interface selecteert.
 
-![ de opties van het Aandeel ](assets/share-options.png)
+![&#x200B; de opties van het Aandeel &#x200B;](assets/share-options.png)
 
 | Optie | Beschrijving |
 |---|---|
@@ -24,4 +24,4 @@ U kunt projecten beheren en delen, of projecten verzenden en downloaden als PDF-
 | **[!UICONTROL Share with anyone]** | Alleen-lezen toegang verlenen tot Analysis Workspace-projecten aan mensen die geen toegang hebben tot Adobe Analytics. [Meer informatie](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
 | **[!UICONTROL Send file]** | Verzend een project als CSV of PDF onmiddellijk naar gespecificeerde ontvangers. [Meer informatie](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
 | **[!UICONTROL Schedule file export]** | Verzend een project als CSV of PDF op een programma aan gespecificeerde ontvangers. [Meer informatie](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
-| **[!UICONTROL Download as CSV]**<br/>**[!UICONTROL Download as PDF]** | Download een project als CSV van PDF. [ leer meer ](download-send.md). |
+| **[!UICONTROL Download as CSV]**<br/>**[!UICONTROL Download as PDF]** | Download een project als CSV van PDF. [&#x200B; leer meer &#x200B;](download-send.md). |

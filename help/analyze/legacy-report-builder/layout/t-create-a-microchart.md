@@ -18,7 +18,7 @@ ht-degree: 0%
 
 In de Lay-out van de Douane, kunt u een metrische kolom in een staafdiagram met een overeenkomstige percentagewaarde, of een percentagewaarde met een overeenkomstige staafgrafiek veranderen. De percentagewaarde is de metrische waarde of het totaal voor het algemene niet-gefilterde verzoek voor de periode.
 
-1. Creeer een verzoek in Excel gebruikend de [ Lay-out van de Douane ](/help/analyze/legacy-report-builder/layout/configure-the-custom-layout.md).
+1. Creeer een verzoek in Excel gebruikend de [&#x200B; Lay-out van de Douane &#x200B;](/help/analyze/legacy-report-builder/layout/configure-the-custom-layout.md).
 1. Klik met de rechtermuisknop op de kolom met de metrische waarde.
 1. Selecteer **[!UICONTROL Change Output Display]** , dan het type van micrografiek en percentenvertoning u zou willen zien.
 

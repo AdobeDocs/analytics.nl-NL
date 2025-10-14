@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Als u segmenten in Analysis Workspace wilt gebruiken, sleept u eenvoudig een of meer segmenten van **[!UICONTROL Segments]** in de componenttrack en zet u neer op:
 
-* A [ paneel ](/help/analyze/analysis-workspace/c-panels/panels.md) in Analysis Workspace om alle visualisaties in het paneel te segmenteren.
-* Een kopbalrij in a [ vrije vormlijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om de afmeting te vervangen.
-* Een rij in a [ vrije vormlijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om een uitsplitsing in werking te stellen.
-* Een kolom in a [ vrije vormlijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om een kolom toe te voegen of te vervangen, of een filter in werking te stellen.
-* Configuratievensters voor visualisatie of deelvensters waarmee u segmenten kunt neerzetten. Bijvoorbeeld, in de vergelijking van het a [ Segment ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md), of [ Zeer belangrijke metrische ](/help/analyze/analysis-workspace/visualizations/key-metric.md) summiere visualisatie
-* De [ definitiebouwer voor een segment ](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder), zodat omvat u een segment in uw segmentdefinitie.
-* De [ definitiebouwer voor berekende metrisch ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#definition-builder), zodat omvat u een segment in uw berekende metrische definitie.
+* A [&#x200B; paneel &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md) in Analysis Workspace om alle visualisaties in het paneel te segmenteren.
+* Een kopbalrij in a [&#x200B; vrije vormlijst &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om de afmeting te vervangen.
+* Een rij in a [&#x200B; vrije vormlijst &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om een uitsplitsing in werking te stellen.
+* Een kolom in a [&#x200B; vrije vormlijst &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om een kolom toe te voegen of te vervangen, of een filter in werking te stellen.
+* Configuratievensters voor visualisatie of deelvensters waarmee u segmenten kunt neerzetten. Bijvoorbeeld, in de vergelijking van het a [&#x200B; Segment &#x200B;](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md), of [&#x200B; Zeer belangrijke metrische &#x200B;](/help/analyze/analysis-workspace/visualizations/key-metric.md) summiere visualisatie
+* De [&#x200B; definitiebouwer voor een segment &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder), zodat omvat u een segment in uw segmentdefinitie.
+* De [&#x200B; definitiebouwer voor berekende metrisch &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#definition-builder), zodat omvat u een segment in uw berekende metrische definitie.
 
 <!--
 How to apply one or more segments to a report from the segment rail.

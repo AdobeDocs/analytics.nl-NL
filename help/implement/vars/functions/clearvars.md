@@ -38,7 +38,7 @@ Wanneer u gegevens naar Adobe verzendt via de Web SDK, worden alle XDM-gegevens 
 
 Plaats de Duidelijke actie van Variabelen wanneer het vormen van een regel.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op het pictogram &#39;+&#39;

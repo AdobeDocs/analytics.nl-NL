@@ -24,7 +24,7 @@ Met dit rapport kan iedereen die de integratie met zoekprogramma&#39;s implement
 
 >[!NOTE]
 >
->Alle klanten kunnen het rapport met betaalde zoekopdrachten zien, zelfs als u geen Advertising-accounts hebt geïmplementeerd. Als u probeert om het Betaalde onderzoeksrapport voor een bedrijf te openen dat niet provisioned is, zal een foutenmelding verklaren dat u geen rekening van de onderzoeksmotor hebt gevormd. Selecteer **[!UICONTROL Configure Now]**, die u aan het [ scherm van de Opstelling van de Rekening van Advertising ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) neemt.
+>Alle klanten kunnen het rapport met betaalde zoekopdrachten zien, zelfs als u geen Advertising-accounts hebt geïmplementeerd. Als u probeert om het Betaalde onderzoeksrapport voor een bedrijf te openen dat niet provisioned is, zal een foutenmelding verklaren dat u geen rekening van de onderzoeksmotor hebt gevormd. Selecteer **[!UICONTROL Configure Now]**, die u aan het [&#x200B; scherm van de Opstelling van de Rekening van Advertising &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) neemt.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 

@@ -27,22 +27,22 @@ Server-kant het door:sturen verbetert op gegevensinzameling omdat het:
 >De huidige klanten van Audience Manager die Analytics gebruiken zouden aan server-zijhet door:sturen moeten migreren. De nieuwe klanten van Adobe Analytics en van Audience Manager zouden server-zijdoor:sturen (in plaats van DIL) als standaardgegevensinzameling en overdrachtmethode moeten uitvoeren.
 
 >[!IMPORTANT]
->Op verzoek van de EU-regelgeving inzake naleving van cookies hebben de voor de verwerking verantwoordelijken (klanten van Analytics) nu de mogelijkheid om gegevens vóór de toestemming te beperken tot Adobe Analytics en te voorkomen dat deze gegevens aan de serverzijde naar Adobe Audience Manager worden doorgestuurd. Met een nieuwe variabele voor de implementatiecontext kunt u treffers markeren op plaatsen waar geen toestemming is ontvangen. Als de variabele is ingesteld, worden deze treffers niet naar Adobe Audience Manager verzonden totdat de toestemming is ontvangen. Voor meer informatie, zie [ naleving GDPR_ePrivacy en server-zij het door:sturen ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md).
+>Op verzoek van de EU-regelgeving inzake naleving van cookies hebben de voor de verwerking verantwoordelijken (klanten van Analytics) nu de mogelijkheid om gegevens vóór de toestemming te beperken tot Adobe Analytics en te voorkomen dat deze gegevens aan de serverzijde naar Adobe Audience Manager worden doorgestuurd. Met een nieuwe variabele voor de implementatiecontext kunt u treffers markeren op plaatsen waar geen toestemming is ontvangen. Als de variabele is ingesteld, worden deze treffers niet naar Adobe Audience Manager verzonden totdat de toestemming is ontvangen. Voor meer informatie, zie [&#x200B; naleving GDPR_ePrivacy en server-zij het door:sturen &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Om te begrijpen waar uw organisatie in termen van het uitvoeren van server-kant het door:sturen is, ga door deze bevestigingsstappen:
 
-## ![ step1_icon.png beeld ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) verifieert ECID de dienstimplementatie
+## ![&#x200B; step1_icon.png beeld &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) verifieert ECID de dienstimplementatie
 
-Verifieer of de dienst van identiteitskaart van Experience Cloud (ECID) wordt uitgevoerd, door het [ Analytics volgende verzoek ](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=nl-NL) te inspecteren.
+Verifieer of de dienst van identiteitskaart van Experience Cloud (ECID) wordt uitgevoerd, door het [&#x200B; Analytics volgende verzoek &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=nl-NL) te inspecteren.
 
 Controleer op het tabblad Verzoek of er een ECID-waarde wordt ingesteld. Dit vertelt u dat de Dienst van de Identiteit correct wordt uitgevoerd, wat een noodzakelijke voorwaarde voor server-zijhet door:sturen is.
 
 * Ga door met stap 2 als u een ECID-waarde ziet.
-* Als u geen ECID waarde ziet, [ voert de Dienst van de Identiteit uit ](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=nl-NL) alvorens aan stap 2 te werk te gaan.
+* Als u geen ECID waarde ziet, [&#x200B; voert de Dienst van de Identiteit uit &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=nl-NL) alvorens aan stap 2 te werk te gaan.
 
-## ![ step2_icon.png beeld ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) verifieer server-kant het door:sturen implementatieversie
+## ![&#x200B; step2_icon.png beeld &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) verifieer server-kant het door:sturen implementatieversie
 
-Verifieer of u reeds een versie van server-zij door:sturen uitgevoerd hebt, door [ het Analytics volgende verzoek ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-verify.md) te inspecteren.
+Verifieer of u reeds een versie van server-zij door:sturen uitgevoerd hebt, door [&#x200B; het Analytics volgende verzoek &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-verify.md) te inspecteren.
 
 Controleer op het tabblad &quot;Reactie&quot; of de reactie Audience Manager-gegevens bevat. Indien u ziet:
 
@@ -52,12 +52,12 @@ Controleer op het tabblad &quot;Reactie&quot; of de reactie Audience Manager-geg
 
    * **de Klanten van Adobe Audience Manager met DIL**: coördineer de volgende twee punten in nauw verband:
 
-      1. Verwijder de code van DIL en installeer de [ paginacode van de Module van het Beheer van het publiek 0&rbrace;.](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=nl-NL)
+      1. Verwijder de code van DIL en installeer de [&#x200B; paginacode van de Module van het Beheer van het publiek 0&rbrace;.](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=nl-NL)
       1. Schakel het doorsturen aan de serverzijde in de UI Analytics Admin in zoals beschreven in stap 3. Als u deze instelling inschakelt voordat u DIL-code verwijdert, worden gegevens gedupliceerd en worden aanvullende serveraanroepen in rekening gebracht naar Audience Manager.
 
-   * **Nieuwe klanten van Adobe Audience Manager** - installeer de [ 3&rbrace; paginacode van de Module van het Beheer van de Publiek &lbrace;en ga verder met stap 3. ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=nl-NL) De gegevens worden pas naar Audience Manager verzonden wanneer in stap 3 het doorsturen van de server is ingeschakeld.
+   * **Nieuwe klanten van Adobe Audience Manager** - installeer de [&#x200B; 3&rbrace; paginacode van de Module van het Beheer van de Publiek &lbrace;en ga verder met stap 3. &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=nl-NL) De gegevens worden pas naar Audience Manager verzonden wanneer in stap 3 het doorsturen van de server is ingeschakeld.
 
-## ![ step3_icon.png beeld ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) verifieer server-kant het door:sturen implementatie van rapportreeks
+## ![&#x200B; step3_icon.png beeld &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) verifieer server-kant het door:sturen implementatie van rapportreeks
 
 Verifieer of u server-kant door:sturen op het rapport-reeks niveau, eerder dan de erfenis het volgen serverbenadering hebt uitgevoerd.
 
@@ -71,4 +71,4 @@ Ga naar **Analytics** > **Admin** > **de Reeksen van het Rapport** > (selecteren
 
 >[!NOTE]
 >
->De gegevens zullen niet in andere oplossingen van Experience Cloud, zoals [ Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=nl-NL) of [ Soorten van publiek ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) verschijnen tot alle 3 stappen volledig zijn. Nadat deze instellingen zijn ingeschakeld, duurt het enkele uren voordat deze instellingen van kracht worden.
+>De gegevens zullen niet in andere oplossingen van Experience Cloud, zoals [&#x200B; Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=nl-NL) of [&#x200B; Soorten van publiek &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) verschijnen tot alle 3 stappen volledig zijn. Nadat deze instellingen zijn ingeschakeld, duurt het enkele uren voordat deze instellingen van kracht worden.

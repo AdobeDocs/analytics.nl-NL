@@ -53,7 +53,7 @@ Het beleid van het gegevensbehoud bepaalt een het rollen venster van het gegeven
 
 +++ Kan ik een kopie van mijn gegevens aanvragen voordat deze worden verwijderd?
 
-Ja. Adobe kan een historische gegevensstortplaats van onbewerkte gegevens op raakniveau leveren. Zie [ de Eigen van Gegevens ](/help/export/analytics-data-feed/data-feed-overview.md) in de de gebruikersgids van de Uitvoer voor meer informatie. Neem contact op met uw Adobe-accountteam als u over gegevensexportvereisten beschikt die buiten het bereik van wat de gebruikersinterface kan bieden. Er kunnen speciale accommodaties worden gemaakt; de kosten kunnen variëren.
+Ja. Adobe kan een historische gegevensstortplaats van onbewerkte gegevens op raakniveau leveren. Zie [&#x200B; de Eigen van Gegevens &#x200B;](/help/export/analytics-data-feed/data-feed-overview.md) in de de gebruikersgids van de Uitvoer voor meer informatie. Neem contact op met uw Adobe-accountteam als u over gegevensexportvereisten beschikt die buiten het bereik van wat de gebruikersinterface kan bieden. Er kunnen speciale accommodaties worden gemaakt; de kosten kunnen variëren.
 
 +++
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Naast het plannen van werkboeken voor het delen door e-mail, zoals die in deze sectie wordt beschreven, kunt u werkboeken plannen om naar wolkenbestemmingen worden uitgevoerd, zoals die in [ worden beschreven werkboeken van het Programma voor de uitvoer naar wolkenbestemmingen ](/help/analyze/report-builder/report-builder-export.md).
+>Naast het plannen van werkboeken voor het delen door e-mail, zoals die in deze sectie wordt beschreven, kunt u werkboeken plannen om naar wolkenbestemmingen worden uitgevoerd, zoals die in [&#x200B; worden beschreven werkboeken van het Programma voor de uitvoer naar wolkenbestemmingen &#x200B;](/help/analyze/report-builder/report-builder-export.md).
 
 Nadat u uw werkboek en voltooide uw analyse bewaarde, kunt u uw werkboek met anderen op uw team gemakkelijk delen gebruikend de het plannen eigenschap. De eigenschap van het Programma staat u toe om een programma tot stand te brengen dat automatisch de gegevens in het werkboek vernieuwt en het dossier van het werkboek van Excel .xlsx als gehechtheid aan uw gespecificeerd publiek op een specifieke datum en een tijd e-mailt. Als u een schema instelt, krijgen ontvangers automatisch regelmatig updates. U kunt de planningseigenschap ook gebruiken om het werkboek eens uit te sturen zonder automatische updates te plannen.
 
@@ -28,7 +28,7 @@ De eigenschap van het Programma staat u ook aan de bescherming van het opstellin
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ werkboeken van het Programma ](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; werkboeken van het Programma &#x200B;](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -39,15 +39,15 @@ Gebruik de knoop van het Programma in de hub van Report Builder om snel een prog
 
 1. Klik op de knop Planning in de Report Builder-hub.
 
-   ![ klik de knoop van het Programma om een programma tot stand te brengen.](./assets/schedule-button.png){width="55%"}
+   ![&#x200B; klik de knoop van het Programma om een programma tot stand te brengen.](./assets/schedule-button.png){width="55%"}
 
 1. Klik het Werkboek van het Programma of de plus knoop in upper-left om een nieuw gepland werkboek tot stand te brengen.
 
-   ![ het venster van de werkboeken van het Programma.](./assets/schedule-workbook.png){width="55%"}
+   ![&#x200B; het venster van de werkboeken van het Programma.](./assets/schedule-workbook.png){width="55%"}
 
    De het plannen ruit toont sommige vooraf bepaalde informatie over het werkboek zoals de werkboeknaam en de laatste datum dat het werkboek werd gewijzigd.
 
-   ![ het plannen ruit.](./assets/schedule-pane.png){width="55%"}
+   ![&#x200B; het plannen ruit.](./assets/schedule-pane.png){width="55%"}
 
 1. (Optioneel) Voer een bestandsnaam in.
 
@@ -61,13 +61,13 @@ Gebruik de knoop van het Programma in de hub van Report Builder om snel een prog
 
    Wanneer u deze selectie maakt, wordt u gevraagd een wachtwoord in te voeren om het bestand te openen. Dit is nuttig als u zich zorgen maakt over gegevensveiligheid en u wachtwoord het werkboek wilt beschermen. Als u het bestand met een wachtwoord wilt beveiligen, moet u **.zip compression** selecteren. Het wachtwoord moet ten minste 8 tekens hebben en een getal en een speciaal teken bevatten.
 
-   ![ ga een wachtwoord op het Wachtwoord in beschermt het werkboekgebied.](./assets/zip-compression.png){width="55%"}
+   ![&#x200B; ga een wachtwoord op het Wachtwoord in beschermt het werkboekgebied.](./assets/zip-compression.png){width="55%"}
 
 1. Ga **Ontvangers** in. U kunt de naam invoeren van een persoon die in uw organisatie wordt herkend, of u kunt een e-mailadres invoeren van een persoon binnen of buiten uw organisatie.
 
 1. Ga het **Onderwerp** van e-mail en een beschrijving voor uw ontvangers in. Het onderwerp blijft aan de naam van het werkboekdossier in gebreke maar u kunt het onderwerp wijzigen indien nodig. U kunt details in de beschrijvingssectie toevoegen.
 
-   ![ ga een onderwerp op het Onderwerp in.](./assets/recipients-subject.png){width="55%"}
+   ![&#x200B; ga een onderwerp op het Onderwerp in.](./assets/recipients-subject.png){width="55%"}
 
 1. Opstelling de het plannen opties om de datum en de tijd te plaatsen die u het werkboek aan uw ontvangers wilt e-mailden.
 
@@ -75,19 +75,19 @@ Gebruik de knoop van het Programma in de hub van Report Builder om snel een prog
 
    Kies de **Frequentie** van het drop-down menu. U kunt de frequentie instellen op uurbasis, dagelijks, wekelijks, maandelijks of jaarlijks op een bepaalde dag. Bijvoorbeeld, kunt u opstelling een programma om het werkboek op de eerste Zondagnacht van de maand te verzenden zodat uw ontvangers de e-mail in hun inbox eerste ding op maandagochtend zullen hebben.
 
-   ![ selecteer de frequentie om uw rapport te plannen.](./assets/frequency.png){width="55%"}
+   ![&#x200B; selecteer de frequentie om uw rapport te plannen.](./assets/frequency.png){width="55%"}
 
 1. Nadat u het programma plaatst, verzendt de klik **op programma**.
 
-   ![ klik verzenden op programma.](./assets/send-on-schedule.png){width="55%"}
+   ![&#x200B; klik verzenden op programma.](./assets/send-on-schedule.png){width="55%"}
 
    U ziet een bevestigingstoets bij de bodem van de hub van Report Builder en het geplande werkboek is vermeld onder het lusje van Werkboeken.
 
-   ![ Bevestiging toast ](./assets/confirmation-toast.png){width="55%"}
+   ![&#x200B; Bevestiging toast &#x200B;](./assets/confirmation-toast.png){width="55%"}
 
 ## Een omgezet werkboek plannen {#converted}
 
-1. Plan a [ omgezet ](/help/analyze/report-builder/convert-workbooks.md) erfeniswerkboek.
+1. Plan a [&#x200B; omgezet &#x200B;](/help/analyze/report-builder/convert-workbooks.md) erfeniswerkboek.
 
    Een pop - op verschijnt, vragend of wilt u het plannen metada van het erfeniswerkboek gebruiken om een nieuwe geplande taak tot stand te brengen.
 
@@ -104,10 +104,10 @@ U kunt het werkboek ook slechts eenmaal verzenden.
 
 1. Un-controle **tonen het plannen opties**
 
-   ![ klik niet-controle tonen het plannen opties om een werkboek één keer uit te zenden.](./assets/send-now.png){width="40%"}
+   ![&#x200B; klik niet-controle tonen het plannen opties om een werkboek één keer uit te zenden.](./assets/send-now.png){width="40%"}
 
 1. Klik **verzenden nu**.
 
 ## Geplande werkboeken beheren
 
-Voor informatie over het beheren van werkboeken die reeds gepland zijn, zie [ geplande werkboeken beheren ](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
+Voor informatie over het beheren van werkboeken die reeds gepland zijn, zie [&#x200B; geplande werkboeken beheren &#x200B;](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

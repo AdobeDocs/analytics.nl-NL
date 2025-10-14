@@ -32,7 +32,7 @@ Met de interface App Reporting kunt u de afmetingen en metriek van de levenscycl
 
 Wanneer u [!UICONTROL App Reports] inschakelt, zijn de volgende afmetingen beschikbaar:
 
-* [!UICONTROL Action Name] (met [ Ingang ](/help/components/dimensions/entry-dimensions.md) en [ Uitgang ](/help/components/dimensions/exit-dimensions.md) dimensies)
+* [!UICONTROL Action Name] (met [&#x200B; Ingang &#x200B;](/help/components/dimensions/entry-dimensions.md) en [&#x200B; Uitgang &#x200B;](/help/components/dimensions/exit-dimensions.md) dimensies)
 * [!UICONTROL App Id]
 * [!UICONTROL Acquisition Content]
 * [!UICONTROL Acquisition Medium]
@@ -71,10 +71,10 @@ De volgende cijfers zijn beschikbaar:
 
 Wanneer u [!UICONTROL Location Tracking] inschakelt, zijn de volgende afmetingen beschikbaar:
 
-* [!UICONTROL Beacon Major] (met [ Ingang ](/help/components/dimensions/entry-dimensions.md) en [ Uitgang ](/help/components/dimensions/exit-dimensions.md) dimensies)
-* [!UICONTROL Beacon Minor] (met [ Ingang ](/help/components/dimensions/entry-dimensions.md) en [ Uitgang ](/help/components/dimensions/exit-dimensions.md) dimensies)
-* [!UICONTROL Beacon Proximity] (met [ Ingang ](/help/components/dimensions/entry-dimensions.md) en [ Uitgang ](/help/components/dimensions/exit-dimensions.md) dimensies)
-* [!UICONTROL Beacon UUID] (met [ Ingang ](/help/components/dimensions/entry-dimensions.md) en [ Uitgang ](/help/components/dimensions/exit-dimensions.md) dimensies)
+* [!UICONTROL Beacon Major] (met [&#x200B; Ingang &#x200B;](/help/components/dimensions/entry-dimensions.md) en [&#x200B; Uitgang &#x200B;](/help/components/dimensions/exit-dimensions.md) dimensies)
+* [!UICONTROL Beacon Minor] (met [&#x200B; Ingang &#x200B;](/help/components/dimensions/entry-dimensions.md) en [&#x200B; Uitgang &#x200B;](/help/components/dimensions/exit-dimensions.md) dimensies)
+* [!UICONTROL Beacon Proximity] (met [&#x200B; Ingang &#x200B;](/help/components/dimensions/entry-dimensions.md) en [&#x200B; Uitgang &#x200B;](/help/components/dimensions/exit-dimensions.md) dimensies)
+* [!UICONTROL Beacon UUID] (met [&#x200B; Ingang &#x200B;](/help/components/dimensions/entry-dimensions.md) en [&#x200B; Uitgang &#x200B;](/help/components/dimensions/exit-dimensions.md) dimensies)
 * [!UICONTROL Location (down to 10 km)]
 * [!UICONTROL Location (down to 100 m)]
 * [!UICONTROL Location (down to 1 m)]
@@ -91,7 +91,7 @@ Met [!UICONTROL Voice and Chatbots] afmetingen en metriek kunt u spraakassistent
 
 Wanneer u [!UICONTROL Voice and Chatbots] inschakelt, zijn de volgende afmetingen beschikbaar:
 
-* [!UICONTROL Voice Device Capabilities] (met [ Ingang ](/help/components/dimensions/entry-dimensions.md) en [ Uitgang ](/help/components/dimensions/exit-dimensions.md) dimensies)
+* [!UICONTROL Voice Device Capabilities] (met [&#x200B; Ingang &#x200B;](/help/components/dimensions/entry-dimensions.md) en [&#x200B; Uitgang &#x200B;](/help/components/dimensions/exit-dimensions.md) dimensies)
 * [!UICONTROL Voice Authentication]
 * [!UICONTROL Voice Error Type]
 * [!UICONTROL Voice Intent]
@@ -108,4 +108,4 @@ De volgende cijfers zijn beschikbaar:
 
 Oudere rapporten betekenen dat hits die worden gegenereerd wanneer een toepassing zich op de achtergrond bevindt, worden behandeld als normale voorgrondresultaten. Ze verschijnen in rapporten en beïnvloeden de attributie. Deze oudere configuratie is doorgaans gewenst om consistentie met oudere implementaties te behouden.
 
-Adobe raadt aan om oudere rapporten uit te schakelen, zodat achtergrondopdrachten niet zichtbaar zijn. Als u achtergrondklappen in uw analyse wilt omvatten, kunt u de [ Virtuele rapportreeks ](/help/components/vrs/vrs-about.md) plaatsen **[!UICONTROL Include background hits]** toelaten.
+Adobe raadt aan om oudere rapporten uit te schakelen, zodat achtergrondopdrachten niet zichtbaar zijn. Als u achtergrondklappen in uw analyse wilt omvatten, kunt u de [&#x200B; Virtuele rapportreeks &#x200B;](/help/components/vrs/vrs-about.md) plaatsen **[!UICONTROL Include background hits]** toelaten.

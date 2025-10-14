@@ -26,9 +26,9 @@ Door gebrek, wordt een drempel van **2.000.000 unieke waarden** geplaatst per af
 * Dimension-items die worden verzameld nadat de drempelwaarde is overschreden, worden onder [!UICONTROL Low-Traffic] gebundeld.
 
 >[!NOTE]
->De [ dimensie van de Pagina ](../components/dimensions/page.md) gebruikt verscheidene achterste kolommen die allen naar de unieke drempel, met inbegrip van `pagename` tellen, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, en `click_context`. Deze achterste kolommen kunnen [!UICONTROL Low-Traffic] logica veroorzaken om toe te passen ruim alvorens het aantal unieke pagina afmetingspunten in Workspace de drempel bereikt.
+>De [&#x200B; dimensie van de Pagina &#x200B;](../components/dimensions/page.md) gebruikt verscheidene achterste kolommen die allen naar de unieke drempel, met inbegrip van `pagename` tellen, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, en `click_context`. Deze achterste kolommen kunnen [!UICONTROL Low-Traffic] logica veroorzaken om toe te passen ruim alvorens het aantal unieke pagina afmetingspunten in Workspace de drempel bereikt.
 
-De unieke limiet van 2.000.000 kan per dimensie worden gewijzigd. Zie [ Veranderend unieke grensdrempels ](#changing-unique-limit-thresholds) hieronder. Aan het einde van een kalendermaand wordt het aantal bijgehouden unieke waarden globaal opnieuw ingesteld.
+De unieke limiet van 2.000.000 kan per dimensie worden gewijzigd. Zie [&#x200B; Veranderend unieke grensdrempels &#x200B;](#changing-unique-limit-thresholds) hieronder. Aan het einde van een kalendermaand wordt het aantal bijgehouden unieke waarden globaal opnieuw ingesteld.
 
 ## Hoe waarden kunnen ontsnappen [!UICONTROL Low-Traffic] wanneer de drempelwaarde wordt overschreden
 

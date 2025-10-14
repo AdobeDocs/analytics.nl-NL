@@ -30,7 +30,7 @@ Web SDK kan het correcte koekjesopslagdomein zonder deze variabele bepalen.
 
 Domeintermijnen van de eerste partij is een gebied onder de [!UICONTROL Cookies] accordion wanneer het vormen van de uitbreiding van Adobe Analytics.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 4. Vouw de accordeon [!UICONTROL Cookies] uit, zodat het veld [!UICONTROL First-party Domain Periods] zichtbaar wordt.

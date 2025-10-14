@@ -16,7 +16,7 @@ Hiermee geeft u webpaginaverkeer weer en geeft u paginaweergaven in real-time we
 
 >[!NOTE]
 >
->Voor het Real-Time Report is geen aanvullende implementatie of codering vereist. Het gebruikt uw bestaande implementatie van Adobe Analytics. Om rapporten in real time te vormen, zie [ Real-Time de Configuratie van Rapporten ](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
+>Voor het Real-Time Report is geen aanvullende implementatie of codering vereist. Het gebruikt uw bestaande implementatie van Adobe Analytics. Om rapporten in real time te vormen, zie [&#x200B; Real-Time de Configuratie van Rapporten &#x200B;](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
 
 Navigeer naar:
 
@@ -44,7 +44,7 @@ Als beheerder kunt u
 
 * Vergelijk bijvoorbeeld de waarden van vorige week met de waarden van vorig jaar (en met het totaal van vandaag).
 
-Vergeet niet dat eVars (conversiemetriek) niet worden ondersteund, omdat er geen concept van persistentie bestaat. Hoewel u conversiemetriek kunt selecteren, werken deze alleen als ze op dezelfde pagina zijn ingesteld als de dimensie(s). Voor meer informatie, zie het waarschuwingsbericht dat in [ Vestiging Echt - tijdRapporten ](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md) wordt gevangen.
+Vergeet niet dat eVars (conversiemetriek) niet worden ondersteund, omdat er geen concept van persistentie bestaat. Hoewel u conversiemetriek kunt selecteren, werken deze alleen als ze op dezelfde pagina zijn ingesteld als de dimensie(s). Voor meer informatie, zie het waarschuwingsbericht dat in [&#x200B; Vestiging Echt - tijdRapporten &#x200B;](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md) wordt gevangen.
 
 De vestiging en het bekijken van rapporten in real time is beperkt tot Admins of om het even welke gebruiker in de &quot;Alle Toegang van het Rapport&quot;en &quot;Geavanceerde het Melden&quot;toestemmingsgroepen. Nochtans, in real time eerbiedigt toestemmingen. Als, bijvoorbeeld, u geen rechten hebt om opbrengst te zien, zult u geen rapport in real time kunnen bekijken dat opbrengstgegevens omvat.
 

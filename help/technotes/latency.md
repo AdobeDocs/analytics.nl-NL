@@ -42,7 +42,7 @@ Sommige mogelijkheden in de Adobe Experience Cloud worden geleverd met een aange
 
 Er bestaan verschillende strategieën om latentie te voorkomen of de hersteltijd te verlagen wanneer deze zich voordoet:
 
-* **breng Adobe op de hoogte van verwachte verkeerspikes:** Terwijl het onmogelijk is om elke verkeerspiek aan uw plaats te voorzien, kunnen er gevallen zijn waar u een significante toename van verkeer verwacht te ontvangen. Voorbeelden zijn een bijzonder succesvolle vakantieperiode, of kort na een grote campagne-push. In deze gevallen biedt Adobe uw organisatie een manier om ons op de hoogte te stellen van de verwachte toename van het verkeer, zodat we extra verwerkingsbronnen kunnen toewijzen aan uw rapportsuite. Zie [ Plan een verkeerspiek ](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) in de Admin gebruikersgids om te leren hoe te om Adobe van verhoogd verkeer op de hoogte te brengen.
+* **breng Adobe op de hoogte van verwachte verkeerspikes:** Terwijl het onmogelijk is om elke verkeerspiek aan uw plaats te voorzien, kunnen er gevallen zijn waar u een significante toename van verkeer verwacht te ontvangen. Voorbeelden zijn een bijzonder succesvolle vakantieperiode, of kort na een grote campagne-push. In deze gevallen biedt Adobe uw organisatie een manier om ons op de hoogte te stellen van de verwachte toename van het verkeer, zodat we extra verwerkingsbronnen kunnen toewijzen aan uw rapportsuite. Zie [&#x200B; Plan een verkeerspiek &#x200B;](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) in de Admin gebruikersgids om te leren hoe te om Adobe van verhoogd verkeer op de hoogte te brengen.
 * **overweegt verwerkings lading wanneer het activeren van nieuwe eigenschappen:** sommige eigenschappen zijn verwerkingsintensiever dan anderen. Hoe meer functies een rapportsuite biedt, des te moeilijker is het om van latentie te herstellen. Wanneer het toelaten van eigenschappen op een rapportreeks, houd in mening de volgende eigenschappen die de hoeveelheid te verwerken gegevens verhogen:
 
    * Meer dan 20 gebeurtenissen op dezelfde pagina implementeren
@@ -50,7 +50,7 @@ Er bestaan verschillende strategieën om latentie te voorkomen of de hersteltijd
    * Meer dan 20 waarden in de productvariabele
    * Serienummering voor gebeurtenissen
 
-* Laat IAB Bot het filtreren toe: [ Bot het filtreren ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) kan latentie zeer verminderen als uw rapportreeks door bots of kruiplers wordt bezocht. Het wordt geadviseerd om de IAB bot lijst te gebruiken, aangezien het door het [ Interactieve Bureau van Advertising ](https://www.iab.net/about_the_iab) wordt bijgewerkt en gehandhaafd. Een gebruiker kan zijn eigen beide regels aanpassen om die van IAB aan te vullen.
+* Laat IAB Bot het filtreren toe: [&#x200B; Bot het filtreren &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) kan latentie zeer verminderen als uw rapportreeks door bots of kruiplers wordt bezocht. Het wordt geadviseerd om de IAB bot lijst te gebruiken, aangezien het door het [&#x200B; Interactieve Bureau van Advertising &#x200B;](https://www.iab.net/about_the_iab) wordt bijgewerkt en gehandhaafd. Een gebruiker kan zijn eigen beide regels aanpassen om die van IAB aan te vullen.
 
 ## Wat u moet doen met Latentie
 

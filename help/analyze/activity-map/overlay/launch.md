@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Activity Map starten
 
-Ervan uitgaande dat correcte browser/de uitbreiding [ geïnstalleerd ](../getting-started.md) is, kunt u Activity Map van uw Web-pagina direct lanceren.
+Ervan uitgaande dat correcte browser/de uitbreiding [&#x200B; geïnstalleerd &#x200B;](../getting-started.md) is, kunt u Activity Map van uw Web-pagina direct lanceren.
 
 **Google Chrome** is enige browser die de huidige versie van Activity Map steunt. Ondersteuning voor andere browsers is gepland.
 

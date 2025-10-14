@@ -13,7 +13,7 @@ ht-degree: 14%
 
 # Overzicht van privacy-labels
 
-Het labelen van rapportsuitedata betekent dat u labels voor identiteit, gevoeligheid en data-governance toevoegt aan elke variabele in een bepaalde rapportsuite. Zorg ervoor dat u eerst met de [ etiketten en hun definities ](/help/admin/tools/privacy-labeling/labels.md) vertrouwd maakt.
+Het labelen van rapportsuitedata betekent dat u labels voor identiteit, gevoeligheid en data-governance toevoegt aan elke variabele in een bepaalde rapportsuite. Zorg ervoor dat u eerst met de [&#x200B; etiketten en hun definities &#x200B;](/help/admin/tools/privacy-labeling/labels.md) vertrouwd maakt.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Het labelen van rapportsuitedata betekent dat u labels voor identiteit, gevoelig
 
 1. Navigeer in Adobe Analytics naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Data governance]** .
 
-   ![ het etiketteren van de Privacy ](assets/privacy_rs_settings.png)
+   ![&#x200B; het etiketteren van de Privacy &#x200B;](assets/privacy_rs_settings.png)
 
 1. Selecteer een rapportsuite in de **[!UICONTROL Report Suites]** -kiezer bovenaan.
 
@@ -40,11 +40,11 @@ Het labelen van rapportsuitedata betekent dat u labels voor identiteit, gevoelig
 
 1. Selecteer een variabele door op het selectievakje te klikken en klik vervolgens op **[!UICONTROL Edit Privacy Labels]** op de blauwe balk die onder aan het scherm wordt weergegeven.
 
-   ![ geeft ](assets/edit-label.png) uit
+   ![&#x200B; geeft &#x200B;](assets/edit-label.png) uit
 
    In dit scherm ziet u de labels die op dat moment zijn toegepast en kunt u aanvullende labels toepassen. Afhankelijk van de component kunt u mogelijk niet alle labels toepassen of wijzigen.
 
-   ![ Toegepaste etiketten ](assets/edit-labels2.png)
+   ![&#x200B; Toegepaste etiketten &#x200B;](assets/edit-labels2.png)
 
 1. Klik op **[!UICONTROL Apply]** zodra u alle labeling hebt voltooid.
 

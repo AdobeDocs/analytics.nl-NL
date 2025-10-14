@@ -38,11 +38,11 @@ Interactieve besturingselementen zijn gemaakt als reactie op een algemene workfl
 1. In Stap 1 van de Tovenaar van het Verzoek selecteer, bijvoorbeeld, het **[!UICONTROL Page]** rapport.
 1. Klik naast de vervolgkeuzelijst **[!UICONTROL Commonly Used Dates]** op het pictogram **[!UICONTROL Control Settings]** :
 
-   ![ Schermafbeelding van Stap 1 van de Tovenaar van het Verzoek die het pictogram van de Montages van de Controle benadrukt. ](assets/date_range_control.png)
+   ![&#x200B; Schermafbeelding van Stap 1 van de Tovenaar van het Verzoek die het pictogram van de Montages van de Controle benadrukt. &#x200B;](assets/date_range_control.png)
 
 1. Selecteer in het dialoogvenster Instellingen voor besturing alle datumbereikitems die u wilt weergeven in het interactieve besturingselement. Bovendien specificeer de hogere linkercelplaats van de controle.
 
-   ![ Schermschot die de geselecteerde punten van het datumbereik en de upper-left celplaats tonen.](assets/control_settings.png)
+   ![&#x200B; Schermschot die de geselecteerde punten van het datumbereik en de upper-left celplaats tonen.](assets/control_settings.png)
 
 1. Let op de optie &quot;Gekoppelde aanvragen automatisch vernieuwen bij selectie van item&quot;.
 
@@ -53,7 +53,7 @@ Interactieve besturingselementen zijn gemaakt als reactie op een algemene workfl
 
 1. U kunt nu het datumbereik wijzigen en de aanvraag wordt vernieuwd met dat datumbereik.
 
-   ![ Schermafbeelding die de geselecteerde datumwaaier toont.](assets/date_range_control_interactive.png)
+   ![&#x200B; Schermafbeelding die de geselecteerde datumwaaier toont.](assets/date_range_control_interactive.png)
 
 1. U kunt de aanvraag ook kopiëren en met de rechtermuisknop klikken om een van de twee opties voor Aanvraag plakken te gebruiken:
 
@@ -71,12 +71,12 @@ Het uitvoeren van de interactieve segmentcontrole is gelijkaardig aan het uitvoe
 
 1. In Stap 1 van de Tovenaar van het Verzoek, naast de **[!UICONTROL Segment]** drop-down lijst, selecteer het pictogram van de Montages van de Controle van het Segment:
 
-   ![ Schermafbeelding van het pictogram van de Montages van de Controle van het Segment.](assets/segment_interactive_1.png)
+   ![&#x200B; Schermafbeelding van het pictogram van de Montages van de Controle van het Segment.](assets/segment_interactive_1.png)
 
 1. Selecteer in het dialoogvenster Instellingen segmentbeheer de segmenten die u wilt opnemen in de vervolgkeuzelijst. Bovendien specificeer de hogere linkercelplaats van de controle.
 
-   ![ Schermafbeelding die de Montages van de Controle van het Segment met geselecteerde segmenten en de celplaats toont.](assets/segment_drop_down_properties.png)
+   ![&#x200B; Schermafbeelding die de Montages van de Controle van het Segment met geselecteerde segmenten en de celplaats toont.](assets/segment_drop_down_properties.png)
 
 1. De nieuwe interactieve controle zal nu in het werkboek verschijnen:
 
-   ![ Schermafbeelding die de nieuwe geselecteerde interactieve controle tonen.](assets/segment_interactive_3.png)
+   ![&#x200B; Schermafbeelding die de nieuwe geselecteerde interactieve controle tonen.](assets/segment_interactive_3.png)

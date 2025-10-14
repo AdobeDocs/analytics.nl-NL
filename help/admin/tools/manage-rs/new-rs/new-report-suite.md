@@ -15,11 +15,11 @@ ht-degree: 0%
 
 U kunt een nieuwe rapportreeks tot stand brengen door een vooraf bepaalde malplaatje te selecteren, of door één van uw bestaande rapportreeksen te gebruiken om als model te dienen.
 
-Beschrijvingen van de gebruikte elementen wanneer [ creërend een rapportreeks ](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md).
+Beschrijvingen van de gebruikte elementen wanneer [&#x200B; creërend een rapportreeks &#x200B;](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md).
 
 >[!NOTE]
 >
->De [ Virtuele documentatie van de rapportreeks ](/help/components/vrs/c-workflow-vrs/vrs-create.md) toont u hoe te om virtuele rapportsuites tot stand te brengen.
+>De [&#x200B; Virtuele documentatie van de rapportreeks &#x200B;](/help/components/vrs/c-workflow-vrs/vrs-create.md) toont u hoe te om virtuele rapportsuites tot stand te brengen.
 
 | Element | Beschrijving |
 | --- | --- |
@@ -32,6 +32,6 @@ Beschrijvingen van de gebruikte elementen wanneer [ creërend een rapportreeks ]
 | Geschat aantal paginaweergaven per dag | Hiermee wordt het geschatte aantal paginaweergaven aangegeven dat deze rapportsuite per dag moet ondersteunen. Grote verkeersvolumes vereisen een langer goedkeuringsproces. Om vertragingen bij de verwerking te voorkomen, moet u zo nauwkeurig mogelijk met deze schatting omgaan. |
 | Basisvaluta | Geeft de standaardvaluta aan die wordt gebruikt om alle monetaire gegevens op te slaan. Analytische rapportage converteert transacties in andere valuta&#39;s naar de basisvaluta, waarbij de huidige omrekeningskoers wordt gebruikt op het tijdstip dat de gegevens worden ontvangen. Analytische rapportage gebruikt de currencyCode JavaScript-variabele om de valuta van een bepaalde transactie te identificeren. |
 | Japanse trefwoordverwerking inschakelen | Laat multibyte karaktersteun voor de rapportreeks toe. Als u multibyte-tekenondersteuning uitschakelt, gaat het systeem ervan uit dat de gegevens de `ISO-8859-1` -indeling hebben. Webpagina&#39;s moeten hun tekenset opgeven in de variabele charSet JavaScript. <p>Bij multibyte-tekenondersteuning worden tekens in de rapportsuite opgeslagen met UTF-8. Na ontvangst zet het systeem gegevens van de tekenset van uw webpagina om in de tekenset UTF-8, zodat u elke taal in uw marketingrapporten kunt gebruiken.  Neem contact op met uw Adobe-accountteam of de klantenservice om de multibyte-tekenondersteuning voor een bestaande rapportsuite te wijzigen. |
-| Vereenvoudigd navigatiemenu gebruiken | Deze eigenschap maakte deel uit van [ Rapporten &amp; Analytics ](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?), die niet meer wordt gesteund. |
+| Vereenvoudigd navigatiemenu gebruiken | Deze eigenschap maakte deel uit van [&#x200B; Rapporten &amp; Analytics &#x200B;](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?), die niet meer wordt gesteund. |
 
 {style="table-layout:auto"}

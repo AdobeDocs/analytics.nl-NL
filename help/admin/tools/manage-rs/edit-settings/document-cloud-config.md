@@ -52,4 +52,4 @@ Wanneer PDF-rapportage correct is geconfigureerd, zijn de volgende afmetingen en
 
 1. Voor de pagina van het Beheer van Adobe Document Cloud, uitgezochte [!UICONTROL **laat de Rapporten van PDF**] toe.
 
-1. Om Adobe Document Cloud te vormen om gegevens naar Adobe Analytics over te brengen, gebruik [ Adobe Document Cloud Javascript SDK ](https://www.adobe.io/apis/documentcloud/dcsdk.html).
+1. Om Adobe Document Cloud te vormen om gegevens naar Adobe Analytics over te brengen, gebruik [&#x200B; Adobe Document Cloud Javascript SDK &#x200B;](https://www.adobe.io/apis/documentcloud/dcsdk.html).

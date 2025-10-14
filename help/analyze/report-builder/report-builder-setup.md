@@ -71,11 +71,11 @@ De invoegtoepassing voor Reporten Builder downloaden en installeren
 
 Vraag uw IT- of beveiligingsteam om goedkeuring voor de Report Builder Add-in. Nadat goedkeuring wordt verleend, in de dialoog van toe:voegen-ins van het Bureau, selecteer Beheerde Admin tabel.
 
-![ Admin Beheerde lusje in de dialoog van toe:voegen-ins van het Bureau.](./assets/image1.png)
+![&#x200B; Admin Beheerde lusje in de dialoog van toe:voegen-ins van het Bureau.](./assets/image1.png)
 
 Nadat u de invoegtoepassing Report Builder hebt geïnstalleerd, wordt het pictogram Report Builder weergegeven in het Excel-lint onder het tabblad Start.
 
-![ het pictogram van de Report Builder in Excel ](./assets/rb_app_icon.png)
+![&#x200B; het pictogram van de Report Builder in Excel &#x200B;](./assets/rb_app_icon.png)
 
 ## Aanmelden bij Report Builder
 
@@ -87,11 +87,11 @@ Nadat u Report Builder for Excel toe:voegen-binnen voor uw werkend platform of b
 
 1. Klik op de werkbalk Adobe Report Builder op **[!UICONTROL Login]** .
 
-   ![ klik de Report Builder login knoop.](./assets/rb_login.png)
+   ![&#x200B; klik de Report Builder login knoop.](./assets/rb_login.png)
 
 1. Voer de gegevens van uw Adobe Experience ID-account in. Je accountgegevens moeten overeenkomen met je Adobe Analytics-gegevens.
 
-   ![ Uw login pictogram en organisatie.](./assets/image4.png)
+   ![&#x200B; Uw login pictogram en organisatie.](./assets/image4.png)
 
 Nadat u zich hebt aangemeld, worden het aanmeldingspictogram en de organisatie boven in het deelvenster weergegeven
 
@@ -103,7 +103,7 @@ Wanneer u zich voor het eerst aanmeldt, wordt u aangemeld bij de standaardorgani
 
 1. Selecteer een organisatie in de lijst met beschikbare organisaties. Alleen organisaties waartoe u toegang hebt, worden vermeld.
 
-   ![ de lijst van organisaties die u kunt toegang hebben.](./assets/image5.png)
+   ![&#x200B; de lijst van organisaties die u kunt toegang hebben.](./assets/image5.png)
 
 ## Afmelden
 
@@ -113,6 +113,6 @@ U kunt zich afmelden bij Report Builder vanuit het gebruikersprofiel.
 
 1. Klik op het pictogram van de avatar om het gebruikersprofiel weer te geven.
 
-   ![ Uw avatar van het gebruikersprofiel en de knoop van het Teken uit.](./assets/image6.png)
+   ![&#x200B; Uw avatar van het gebruikersprofiel en de knoop van het Teken uit.](./assets/image6.png)
 
 1. Klik **Teken uit**.

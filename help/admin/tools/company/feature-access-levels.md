@@ -14,6 +14,6 @@ ht-degree: 1%
 
 **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL View Feature Access Levels]**
 
-Met deze instellingengroep kunt u het toegangsniveau voor Adobe Analytics-pakketten en -functies bekijken waarop uw bedrijf recht heeft. Sommige eigenschappen zijn slechts beschikbaar met geavanceerdere productpakketten (SKUs) zoals [ Adobe Analytics Ultimate ](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html).
+Met deze instellingengroep kunt u het toegangsniveau voor Adobe Analytics-pakketten en -functies bekijken waarop uw bedrijf recht heeft. Sommige eigenschappen zijn slechts beschikbaar met geavanceerdere productpakketten (SKUs) zoals [&#x200B; Adobe Analytics Ultimate &#x200B;](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html).
 
 ![](assets/feature-access-levels.png)

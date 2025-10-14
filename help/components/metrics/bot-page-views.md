@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Boven pagina weergeven
 
-De de paginameningen van de &quot;Bot&quot;[ metrische ](overview.md) toont het aantal paginareeksen die [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) overstemden.
+De de paginameningen van de &quot;Bot&quot;[&#x200B; metrische &#x200B;](overview.md) toont het aantal paginareeksen die [&#x200B; Bot regels &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) overstemden.
 
 Aangezien beide rapportages van de rest van uw gegevens van het rapportpakket worden gescheiden, werkt dit metrisch slechts met de volgende afmetingen:
 
 * [Bot-naam](../dimensions/bot-name.md)
 * [Pagina](../dimensions/page.md)
-* Op tijd-gebaseerde afmetingen (bijvoorbeeld, [ Dag ](../dimensions/day.md), [ Week ](../dimensions/week.md), of [ Maand ](../dimensions/month.md))
+* Op tijd-gebaseerde afmetingen (bijvoorbeeld, [&#x200B; Dag &#x200B;](../dimensions/day.md), [&#x200B; Week &#x200B;](../dimensions/week.md), of [&#x200B; Maand &#x200B;](../dimensions/month.md))
 
 Het gebruiken van om het even welke andere afmeting met dit metrisch keert geen gegevens terug.
 

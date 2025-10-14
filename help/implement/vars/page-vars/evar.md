@@ -13,28 +13,28 @@ ht-degree: 0%
 
 # eVar
 
-*Deze hulppagina beschrijft hoe te om eVars uit te voeren. Voor informatie over hoe eVars als afmeting werken, zie [ Vars ](/help/components/dimensions/evar.md) in de de gebruikersgids van Componenten.*
+*Deze hulppagina beschrijft hoe te om eVars uit te voeren. Voor informatie over hoe eVars als afmeting werken, zie [&#x200B; Vars &#x200B;](/help/components/dimensions/evar.md) in de de gebruikersgids van Componenten.*
 
-Variabelen zijn aangepaste variabelen die u kunt gebruiken zoals u dat wilt. Als u het document van het a [ oplossingsontwerp ](/help/implement/prepare/solution-design.md) hebt, beëindigen de meeste dimensies specifiek voor uw organisatie omhoog als eVars. Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. U kunt hun vervaldatum en toewijzing onder [ variabelen van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de reeksinstellingen van het Rapport aanpassen.
+Variabelen zijn aangepaste variabelen die u kunt gebruiken zoals u dat wilt. Als u het document van het a [&#x200B; oplossingsontwerp &#x200B;](/help/implement/prepare/solution-design.md) hebt, beëindigen de meeste dimensies specifiek voor uw organisatie omhoog als eVars. Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. U kunt hun vervaldatum en toewijzing onder [&#x200B; variabelen van de Omzetting &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de reeksinstellingen van het Rapport aanpassen.
 
 Het aantal beschikbare eVars is afhankelijk van uw contract met Adobe. Er zijn maximaal 250 eVars beschikbaar als uw contract met Adobe dit ondersteunt.
 
 ## Vars instellen in instellingen van rapportsuite
 
-Alvorens eVars in uw implementatie te gebruiken, zorg ervoor dat u elke eVar in de montages van de rapportreeks vormt. Zie [ variabelen van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de gids Admin.
+Alvorens eVars in uw implementatie te gebruiken, zorg ervoor dat u elke eVar in de montages van de rapportreeks vormt. Zie [&#x200B; variabelen van de Omzetting &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de gids Admin.
 
 ## Vars met de Web SDK
 
 eVars worden toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` aan `xdm._experience.analytics.customDimensions.eVars.eVar250`
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` aan `data.__adobe.analytics.eVar250`; of `data.__adobe.analytics.v1` aan `data.__adobe.analytics.v250`
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` aan `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` aan `data.__adobe.analytics.eVar250`; of `data.__adobe.analytics.v1` aan `data.__adobe.analytics.v250`
 
 ## Vars met de Adobe Analytics-extensie
 
 U kunt eVars instellen tijdens het configureren van de extensie Analytics (globale variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).
@@ -67,4 +67,4 @@ Als er meer dan twee decimalen zijn opgegeven, wordt de eVar-teller afgerond op 
 
 >[!IMPORTANT]
 >
->U moet eVars eerst aan &quot;Teller&quot;in Admin Console vormen alvorens tellervariabelen te gebruiken. Zie [ variabelen van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de gids Admin.
+>U moet eVars eerst aan &quot;Teller&quot;in Admin Console vormen alvorens tellervariabelen te gebruiken. Zie [&#x200B; variabelen van de Omzetting &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de gids Admin.

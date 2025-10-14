@@ -15,9 +15,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> Voor algemene informatie over de Kanalen van de Marketing, zie [ begonnen worden met de Kanalen van de Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> Voor algemene informatie over de Kanalen van de Marketing, zie [&#x200B; begonnen worden met de Kanalen van de Marketing &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Om doeltreffendheid van de Kanalen van de Marketing voor Attributie en Customer Journey Analytics te maximaliseren, hebben wij sommige [ herzien beste praktijken ](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
+> Om doeltreffendheid van de Kanalen van de Marketing voor Attributie en Customer Journey Analytics te maximaliseren, hebben wij sommige [&#x200B; herzien beste praktijken &#x200B;](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Classifications]** .
 

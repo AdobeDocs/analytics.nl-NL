@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Koppeling downloaden
 
-De &quot;verbinding van de Download&quot; [ dimensie ](overview.md) meldt de namen van downloadverbindingen die op uw plaats worden uitgevoerd. Deze dimensie is waardevol als u meer wilt weten over het gedrag van bezoekers bij downloadkoppelingen, zoals:
+De &quot;verbinding van de Download&quot; [&#x200B; dimensie &#x200B;](overview.md) meldt de namen van downloadverbindingen die op uw plaats worden uitgevoerd. Deze dimensie is waardevol als u meer wilt weten over het gedrag van bezoekers bij downloadkoppelingen, zoals:
 
 * Bepaal de bestanden die het meest van uw site worden gedownload.
 * Begrijp als bepaalde dossiers vaker tijdens specifieke tijdsperioden worden gedownload.
@@ -20,7 +20,7 @@ De &quot;verbinding van de Download&quot; [ dimensie ](overview.md) meldt de nam
 
 ## Deze dimensie vullen met gegevens
 
-Deze afmeting verzamelt gegevens van [`pev2` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken voor treffers die ook het `pe` vraagkoord met de waarde van `lnk_d` hebben. Als de queryreeks `pe` een andere waarde heeft in de hit, worden met deze dimensie geen gegevens verzameld. De maximumlengte van deze afmeting is 100 bytes.
+Deze afmeting verzamelt gegevens van [`pev2` vraagkoord &#x200B;](/help/implement/validate/query-parameters.md) in beeldverzoeken voor treffers die ook het `pe` vraagkoord met de waarde van `lnk_d` hebben. Als de queryreeks `pe` een andere waarde heeft in de hit, worden met deze dimensie geen gegevens verzameld. De maximumlengte van deze afmeting is 100 bytes.
 
 Als u gegevens naar deze dimensie wilt verzenden met AppMeasurement, verzendt u een [`tl()`](/help/implement/vars/functions/tl-method.md) -afbeeldingsaanvraag met het argument `"d"` . Vul het argument voor de naam van de koppeling met de gewenste waarde:
 

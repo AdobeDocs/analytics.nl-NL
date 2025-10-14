@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Productprofielen zijn voorinstellingen voor machtigingen die productbeheerders kunnen toewijzen aan gebruikers binnen een organisatie. Als u een productprofiel maakt en een Experience Cloud-gebruiker aan dat productprofiel toewijst, nemen deze de machtigingsitems in het productprofiel over.
 
-Voor algemene informatie over productprofielen, met inbegrip van het creëren van productprofielen en het toewijzen van gebruikers, zie [ productprofielen voor ondernemingsgebruikers beheren ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) in de de gebruikersgids van de Onderneming.
+Voor algemene informatie over productprofielen, met inbegrip van het creëren van productprofielen en het toewijzen van gebruikers, zie [&#x200B; productprofielen voor ondernemingsgebruikers beheren &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) in de de gebruikersgids van de Onderneming.
 
 ## Beheerders van productprofielen
 
@@ -26,7 +26,7 @@ Beheerders van productprofielen zijn een optionele groep die gebruikers aan dat 
 * Beheerders van productprofielen kunnen productprofielen toewijzen aan of verwijderen uit gebruikersgroepen.
 * Beheerders met productprofielen zijn ideaal voor teamleiders of managers die toegang tot Adobe Analytics voor hun team moeten verlenen en beheren. Individuen hoeven geen systeembeheerders of productbeheerders te storen om toegang te verlenen tot Adobe Analytics.
 
-Voor informatie over hoe te om de beheerders van het productprofiel toe te wijzen, zie de sectie &quot;beheer van productprofiel&quot;in het artikel, [ beheer productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) in de gebruikersgids van de Onderneming.
+Voor informatie over hoe te om de beheerders van het productprofiel toe te wijzen, zie de sectie &quot;beheer van productprofiel&quot;in het artikel, [&#x200B; beheer productprofielen voor ondernemingsgebruikers &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) in de gebruikersgids van de Onderneming.
 
 ## Adobe Analytics-machtigingsitems
 
@@ -61,6 +61,6 @@ De hulpmiddelen van de analysehulpmiddelen verlenen toegang tot eigenschappen di
 
 ## Ontwikkelaars van productprofielen
 
-Ontwikkelaars zijn vergelijkbaar met gebruikers, maar ze krijgen de mogelijkheid om de Experience Cloud API op Adobe Developer te gebruiken. Zie [ Ontwikkelaars ](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html) in de gebruikersgids van de Onderneming voor meer informatie leiden. Als een gebruiker ontwikkelaarstoegang voor om het even welk profiel wordt verleend, kunnen zij tot de Console van Dev (console.adobe.io) toegang hebben en de integraties van Adobe Analytics uitgeven. De API-aanroepen en antwoorden van Analytics die voor de gebruiker zijn geautoriseerd, zijn afhankelijk van de netmachtigingen van alle profielen waartoe de gebruiker toegang heeft als ontwikkelaar.
+Ontwikkelaars zijn vergelijkbaar met gebruikers, maar ze krijgen de mogelijkheid om de Experience Cloud API op Adobe Developer te gebruiken. Zie [&#x200B; Ontwikkelaars &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html) in de gebruikersgids van de Onderneming voor meer informatie leiden. Als een gebruiker ontwikkelaarstoegang voor om het even welk profiel wordt verleend, kunnen zij tot de Console van Dev (console.adobe.io) toegang hebben en de integraties van Adobe Analytics uitgeven. De API-aanroepen en antwoorden van Analytics die voor de gebruiker zijn geautoriseerd, zijn afhankelijk van de netmachtigingen van alle profielen waartoe de gebruiker toegang heeft als ontwikkelaar.
 
 Met profielmachtigingen die alle metriek, alle dimensies en één rapportsuite bevatten, kan een ontwikkelaar bijvoorbeeld API-aanroepen relevant maken voor elke component in die rapportsuite. Als het machtigingsitem voor afwijkingsdetectie is toegevoegd, kunnen API-reacties afwijkende gegevens bevatten. Als vuistregel geldt dat als een profiel toegang verleent tot een scenario binnen de Adobe Analytics-interface, ontwikkelaarstoegang tot een profiel dat op dezelfde manier is gedefinieerd, overeenkomstige API-aanroepen en -antwoorden mogelijk maakt.

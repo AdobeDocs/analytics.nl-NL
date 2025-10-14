@@ -17,10 +17,10 @@ Berekend zijn aangepaste metriek die u kunt maken op basis van bestaande metriek
 
 Berekende metrisch zijn aangepaste metriek die u op basis van bestaande metriek kunt maken. De berekende metriek bieden een flexibele manier aan om, douanemetriek te bouwen te beheren en te leiden die u toelaten om uw gegevens te analyseren zonder het moeten uw implementatie veranderen.
 
-De berekende metriek zijn beschikbaar in elk [!DNL Analytics] pakket, nochtans is het Pak van Adobe Analytics Foundation voor Experience Cloud beperkt tot basis berekende metriek met inbegrip van [ formaattypes (decimaal, tijd, percenten, munt) ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [ toewijzingsveranderingen (gebrek, lineair, participatie, enz.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [ metrische types (standaard, totaal) ](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), en [ basisexploitanten ](workflow/c-build-metrics/cm-build-metrics.md#operators) (voeg toe, trek af, vermenigvuldig, en verdeel).
+De berekende metriek zijn beschikbaar in elk [!DNL Analytics] pakket, nochtans is het Pak van Adobe Analytics Foundation voor Experience Cloud beperkt tot basis berekende metriek met inbegrip van [&#x200B; formaattypes (decimaal, tijd, percenten, munt) &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [&#x200B; toewijzingsveranderingen (gebrek, lineair, participatie, enz.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [&#x200B; metrische types (standaard, totaal) &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), en [&#x200B; basisexploitanten &#x200B;](workflow/c-build-metrics/cm-build-metrics.md#operators) (voeg toe, trek af, vermenigvuldig, en verdeel).
 
 
-Zie de [ Beschrijving van het Product van Adobe Analytics ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics.html) voor meer informatie.
+Zie de [&#x200B; Beschrijving van het Product van Adobe Analytics &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics.html) voor meer informatie.
 
 <!--
 Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
@@ -39,12 +39,12 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 U kunt
 
-* [ creeer metriek ](/help/components/calculated-metrics/workflow/cm-workflow.md) over [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], en [!UICONTROL Contribution Analysis].
-* [ creeer gesegmenteerde metriek ](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Bijvoorbeeld, kunt u metrisch voor *Nieuwe bezoekers* tot stand brengen, met een telling van mensen voor wie dit de eerste zitting is.
+* [&#x200B; creeer metriek &#x200B;](/help/components/calculated-metrics/workflow/cm-workflow.md) over [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], en [!UICONTROL Contribution Analysis].
+* [&#x200B; creeer gesegmenteerde metriek &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Bijvoorbeeld, kunt u metrisch voor *Nieuwe bezoekers* tot stand brengen, met een telling van mensen voor wie dit de eerste zitting is.
 
-* [ de metriek van het Aandeel ](/help/components/calculated-metrics/workflow/cm-sharing.md) over rapportsuites. Dit betekent dat alle pas gecreëerde metriek op alle rapportsuites in het zelfde login bedrijf van toepassing is.
+* [&#x200B; de metriek van het Aandeel &#x200B;](/help/components/calculated-metrics/workflow/cm-sharing.md) over rapportsuites. Dit betekent dat alle pas gecreëerde metriek op alle rapportsuites in het zelfde login bedrijf van toepassing is.
 
-* [ neem statistische functies ](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md) op om u te helpen beter uw gegevens beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
+* [&#x200B; neem statistische functies &#x200B;](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md) op om u te helpen beter uw gegevens beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
 
 ## Beperkingen
 
@@ -59,13 +59,13 @@ Sommige functies van [!DNL Analytics] staan het gebruik van berekende meetwaarde
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Berekende metriek ](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Berekende metriek &#x200B;](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gesegmenteerde berekende metriek in segmenten ](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gesegmenteerde berekende metriek in segmenten &#x200B;](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +84,7 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 
 >[!MORELIKETHIS]
 >
->[ creeer metriek ](/help/components/calculated-metrics/workflow/cm-workflow.md)
->&#x200B;>[Metriek samenstellen ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
->&#x200B;>[Functies gebruiken ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+>[&#x200B; creeer metriek &#x200B;](/help/components/calculated-metrics/workflow/cm-workflow.md)
+>&#x200B;>[Metriek samenstellen &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>&#x200B;>[Functies gebruiken &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >

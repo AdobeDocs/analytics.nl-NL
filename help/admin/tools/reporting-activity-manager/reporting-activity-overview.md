@@ -31,12 +31,12 @@ Het melden van de Manager van de Activiteit biedt de volgende voordelen:
 
 Voor het beheren van rapportageactiviteiten hebt u de toestemming van de productbeheerder voor Analytics in Adobe Admin Console nodig.
 
-![ toestemming ](/help/admin/tools/assets/rep-mgr-permission.png)
+![&#x200B; toestemming &#x200B;](/help/admin/tools/assets/rep-mgr-permission.png)
 
 ## Rapportactiviteiten weergeven
 
-Voor informatie over het bekijken van het melden van activiteit in de Manager van de Activiteit van de Rapportering, zie [ Mening rapporterend activiteit in de Manager van de Activiteit van de Rapportering ](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
+Voor informatie over het bekijken van het melden van activiteit in de Manager van de Activiteit van de Rapportering, zie [&#x200B; Mening rapporterend activiteit in de Manager van de Activiteit van de Rapportering &#x200B;](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 
 ## Rapportageverzoeken annuleren
 
-Voor informatie over het annuleren van het melden van verzoeken in de Manager van de Activiteit van de Rapportering, zie [ het melden van verzoeken in de Manager van de Activiteit van de Rapportering annuleren ](/help/admin/tools/reporting-activity-manager/reporting-activity-cancel-requests.md).
+Voor informatie over het annuleren van het melden van verzoeken in de Manager van de Activiteit van de Rapportering, zie [&#x200B; het melden van verzoeken in de Manager van de Activiteit van de Rapportering annuleren &#x200B;](/help/admin/tools/reporting-activity-manager/reporting-activity-cancel-requests.md).

@@ -13,11 +13,11 @@ ht-degree: 4%
 
 # Adobe Analytics implementeren met AppMeasurement voor JavaScript
 
-AppMeasurement for JavaScript is historisch gezien een gangbare methode geweest om Adobe Analytics te implementeren. Nochtans, met stijgende populariteit van Tag Management Systems, wordt het gebruiken van [ markeringen in Adobe Experience Platform ](../launch/overview.md) geadviseerd.
+AppMeasurement for JavaScript is historisch gezien een gangbare methode geweest om Adobe Analytics te implementeren. Nochtans, met stijgende populariteit van Tag Management Systems, wordt het gebruiken van [&#x200B; markeringen in Adobe Experience Platform &#x200B;](../launch/overview.md) geadviseerd.
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
-![ hoe te om de Analyses van Adobe met AppMeasurement voor Javascript uit te voeren, zoals die in deze sectie wordt beschreven.](../assets/appmeasurement-annotated.png)
+![&#x200B; hoe te om de Analyses van Adobe met AppMeasurement voor Javascript uit te voeren, zoals die in deze sectie wordt beschreven.](../assets/appmeasurement-annotated.png)
 
 <table>
 

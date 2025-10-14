@@ -37,7 +37,7 @@ Als u een zoekprogrammaaccount met **[!UICONTROL Auto]** type wilt configureren,
 
 >[!IMPORTANT]
 >
->Leer meer op of u de `s_kwcid` parameter aan uw [ Beleid van de Veiligheid van de Inhoud ](https://experienceleague.adobe.com/nl/docs/id-service/using/reference/csp) zou moeten toevoegen.
+>Leer meer op of u de `s_kwcid` parameter aan uw [&#x200B; Beleid van de Veiligheid van de Inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/id-service/using/reference/csp) zou moeten toevoegen.
 
 ## Handmatig bijhouden {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -58,7 +58,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![ Google ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![&#x200B; Google &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
 
 Voorbeelden van volgcodes in verschillende sjabloonindelingen voor reeksspatiëring:
 
@@ -106,7 +106,7 @@ De tekenreeks die aan uw Microsoft Advertising-account moet worden toegevoegd, w
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![ voeg het volgen codeparameters ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png) toe
+![&#x200B; voeg het volgen codeparameters &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png) toe
 
 Voorbeelden van volgcodes in verschillende uiteindelijke indelingen voor URL-achtervoegsels:
 

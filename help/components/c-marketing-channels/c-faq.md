@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om doeltreffendheid van de Kanalen van de Marketing voor Attributie en Customer Journey Analytics te maximaliseren, hebben wij sommige [ herzien beste praktijken ](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
+>Om doeltreffendheid van de Kanalen van de Marketing voor Attributie en Customer Journey Analytics te maximaliseren, hebben wij sommige [&#x200B; herzien beste praktijken &#x200B;](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
 >
->De beheerders van Analytics kunnen marketing kanalen voor hun organisaties beheren zoals die in [ worden beschreven leiden de Kanalen van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
+>De beheerders van Analytics kunnen marketing kanalen voor hun organisaties beheren zoals die in [&#x200B; worden beschreven leiden de Kanalen van de Marketing &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
 Veelgestelde vragen over marketingkanalen.
 
@@ -51,13 +51,13 @@ Regels worden op volgorde verwerkt. Als er geen specifieke criteria zijn gevonde
 
 Zorg ervoor dat u een kanaal voor deze drie mogelijkheden hebt. Maak bijvoorbeeld regels die het volgende aangeven:
 
-1. **[!UICONTROL Referrer]** en **[!UICONTROL Does Not Exist]** en **[!UICONTROL Is First Page of Visit]** . (Zie [ Direct.](/help/components/c-marketing-channels/c-faq.md))
+1. **[!UICONTROL Referrer]** en **[!UICONTROL Does Not Exist]** en **[!UICONTROL Is First Page of Visit]** . (Zie [&#x200B; Direct.](/help/components/c-marketing-channels/c-faq.md))
 
-2. **[!UICONTROL Referrer Matches Internal URL Filters]** en **[!UICONTROL Is First page of Visit]** . (Zie [ Intern ](/help/components/c-marketing-channels/c-faq.md).)
+2. **[!UICONTROL Referrer Matches Internal URL Filters]** en **[!UICONTROL Is First page of Visit]** . (Zie [&#x200B; Intern &#x200B;](/help/components/c-marketing-channels/c-faq.md).)
 
 3. **[!UICONTROL Referrer]** en **[!UICONTROL Exists]** en **[!UICONTROL Referrer Does Not Match Internal URL Filters]** .
 
-Tot slot creeer een *Ander* kanaal dat de resterende klappen vangt, zoals die in [ worden beschreven Geen Geïdentificeerd Kanaal ](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
+Tot slot creeer een *Ander* kanaal dat de resterende klappen vangt, zoals die in [&#x200B; worden beschreven Geen Geïdentificeerd Kanaal &#x200B;](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
 ## Relatie tussen eerste en laatste aanraking
 

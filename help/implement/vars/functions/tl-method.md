@@ -65,7 +65,7 @@ alloy("sendEvent", {
 
 De extensie Adobe Analytics heeft een specifieke locatie om een aanroep voor het bijhouden van koppelingen in te stellen.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 1. Klik onder [!UICONTROL Actions] op de gewenste actie of klik op het pictogram **&#39;+&#39;** om een actie toe te voegen.
@@ -105,9 +105,9 @@ s.tl(true,"e","Example exit link");
 
 Het koppelingstype argument is een enig-karakterkoord dat het type van verbinding het volgen vraag bepaalt. Er zijn drie geldige waarden.
 
-* `o`: De verbinding is de verbinding van de a [ Douane ](/help/components/dimensions/custom-link.md).
-* `d`: De verbinding is de verbinding van de a [ Download ](/help/components/dimensions/download-link.md).
-* `e`: De verbinding is een [ verbinding van de Uitgang ](/help/components/dimensions/exit-link.md).
+* `o`: De verbinding is de verbinding van de a [&#x200B; Douane &#x200B;](/help/components/dimensions/custom-link.md).
+* `d`: De verbinding is de verbinding van de a [&#x200B; Download &#x200B;](/help/components/dimensions/download-link.md).
+* `e`: De verbinding is een [&#x200B; verbinding van de Uitgang &#x200B;](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
@@ -122,7 +122,7 @@ s.tl(true,"e","Example exit link");
 
 ### Koppelingsnaam (aanbevolen)
 
-Het argument van de verbindingsnaam is een koord dat het verbinding volgende afmetingspunt bepaalt. Wanneer het gebruiken van de [ Verbinding van de Douane ](/help/components/dimensions/custom-link.md), [ Verbinding van de Download ](/help/components/dimensions/download-link.md), of [ Verbinding van de Uitgang ](/help/components/dimensions/exit-link.md) dimensies in het melden, bevat dit koord het afmetingspunt. Als dit argument niet wordt geplaatst, wordt de [ linkURL ](../config-vars/linkurl.md) variabele gebruikt.
+Het argument van de verbindingsnaam is een koord dat het verbinding volgende afmetingspunt bepaalt. Wanneer het gebruiken van de [&#x200B; Verbinding van de Douane &#x200B;](/help/components/dimensions/custom-link.md), [&#x200B; Verbinding van de Download &#x200B;](/help/components/dimensions/download-link.md), of [&#x200B; Verbinding van de Uitgang &#x200B;](/help/components/dimensions/exit-link.md) dimensies in het melden, bevat dit koord het afmetingspunt. Als dit argument niet wordt geplaatst, wordt de [&#x200B; linkURL &#x200B;](../config-vars/linkurl.md) variabele gebruikt.
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
@@ -131,7 +131,7 @@ s.tl(true,"d","Sea turtle PDF report");
 
 ### Variabele overschrijvingen (optioneel)
 
-Laat u veranderlijke waarden voor één enkele vraag veranderen. Zie [ veranderlijke met voeten treedt ](../../js/overrides.md) voor meer informatie.
+Laat u veranderlijke waarden voor één enkele vraag veranderen. Zie [&#x200B; veranderlijke met voeten treedt &#x200B;](../../js/overrides.md) voor meer informatie.
 
 ```js
 var y = new Object();
@@ -202,7 +202,7 @@ function linkCode(obj) {
 
 ### De methode `tl()` gebruiken met Activity Map
 
-Met de methode `tl()` kunt u aangepaste elementen bijhouden en de rendering van bedekkingen configureren voor dynamische inhoud. De `linkName` parameter wordt ook gebruikt om de [ 2&rbrace; dimensie van de Verbinding van Activity Map &lbrace;te plaatsen.](/help/components/dimensions/activity-map-link.md)
+Met de methode `tl()` kunt u aangepaste elementen bijhouden en de rendering van bedekkingen configureren voor dynamische inhoud. De `linkName` parameter wordt ook gebruikt om de [&#x200B; 2&rbrace; dimensie van de Verbinding van Activity Map &lbrace;te plaatsen.](/help/components/dimensions/activity-map-link.md)
 
 Wanneer de methode `tl()` rechtstreeks wordt aangeroepen vanuit de klikgebeurtenis van het HTML-element, kan Activity Map een bedekking voor dat element weergeven wanneer de webpagina wordt geladen. Bijvoorbeeld:
 

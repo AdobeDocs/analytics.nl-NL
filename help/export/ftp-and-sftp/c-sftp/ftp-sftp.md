@@ -19,7 +19,7 @@ SFTP is een veilig protocol voor het overbrengen van gegevens dat ervoor zorgt d
 
 Dit betekent dat Adobe-servers het bestand naar uw servers &#39;duwen&#39;. In wezen leveren we het aan uw eindpunt.
 
-[ Data Warehouse ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) en [ Diervoed van Gegevens van de Analyse ](/help/export/analytics-data-feed/data-feed-overview.md) kan gegevens via SFTP duwen.
+[&#x200B; Data Warehouse &#x200B;](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) en [&#x200B; Diervoed van Gegevens van de Analyse &#x200B;](/help/export/analytics-data-feed/data-feed-overview.md) kan gegevens via SFTP duwen.
 
 Report Builder **kan** duw geen gegevens via SFTP.
 
@@ -27,6 +27,6 @@ Report Builder **kan** duw geen gegevens via SFTP.
 
 Dit betekent dat het bestand naar een van de Adobe-servers wordt verzonden met normale FTP. Als u het bestand op uw server wilt plaatsen, moet u het van de Adobe-server halen met behulp van SFTP van uw server naar de Adobe FTP-server. U kunt dit op een van de volgende drie manieren doen:
 
-* [ verbind met Adobe via SFTP zonder een wachtwoord.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-* [ verbind met een Rekening van FTP van Adobe met SFTP.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
+* [&#x200B; verbind met Adobe via SFTP zonder een wachtwoord.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
+* [&#x200B; verbind met een Rekening van FTP van Adobe met SFTP.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
 * U kunt op rapporten drukken die u op FTP-achtige gegevensfeeds/R&amp;A/Ad Hoc wilt Adobe, enzovoort, en deze vervolgens wegtrekken. Adobe kan deze rapporten niet leveren aan de SFTP-server die u hebt ingesteld.

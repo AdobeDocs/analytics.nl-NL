@@ -16,8 +16,8 @@ Als u montages van een bestaande rapportreeks kopieert, identificeert een systee
 
 De volgende montages worden niet gekopieerd van malplaatje of gedupliceerde rapportreeksen:
 
-* [ de gegevens van de Indeling ](/help/components/classifications/classifications-overview.md) (classificatiestructuren worden gekopieerd)
+* [&#x200B; de gegevens van de Indeling &#x200B;](/help/components/classifications/classifications-overview.md) (classificatiestructuren worden gekopieerd)
 * [Opslag van transactie-id](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
-* [ Hiërarchie ](/help/components/dimensions/hierarchy.md) etiketten
-* [ het Schilderen ](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) op verkeersvariabelen
+* [&#x200B; Hiërarchie &#x200B;](/help/components/dimensions/hierarchy.md) etiketten
+* [&#x200B; het Schilderen &#x200B;](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) op verkeersvariabelen
 * [VISTA-regels](/help/technotes/vista.md)

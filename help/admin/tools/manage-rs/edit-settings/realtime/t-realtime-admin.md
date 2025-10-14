@@ -26,7 +26,7 @@ Het instellen van realtime rapporten in Adobe Analytics bestaat uit het selecter
 
    ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/real_time_admin.png)
 
-   Voor informatie over gesteunde metriek in real time en dimensies, zie [ Gesteunde Metriek en Dimensies ](/help/admin/tools/manage-rs/edit-settings/realtime/realtime-metrics.md).
+   Voor informatie over gesteunde metriek in real time en dimensies, zie [&#x200B; Gesteunde Metriek en Dimensies &#x200B;](/help/admin/tools/manage-rs/edit-settings/realtime/realtime-metrics.md).
 
    Als u classificaties hebt gemaakt, worden deze ingesprongen weergegeven onder de dimensie waarvoor ze zijn gedefinieerd:
 

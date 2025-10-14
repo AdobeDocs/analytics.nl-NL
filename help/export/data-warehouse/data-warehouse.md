@@ -37,13 +37,13 @@ In Data Warehouse wordt elk bestand dat groter is dan 1 MB, automatisch gecompri
 
 De Adobe laat Data Warehouse voor beheerder-vlakke gebruikers slechts, voor specifieke rapportreeksen toe. (Het kan voor globale en kindrapportsuites worden toegelaten, maar niet voor rollup rapportsuites.) De beheerder kan een groep tot stand brengen die toegang tot Data Warehouse heeft, en dan gebruikers niet-beheerderniveau aan die groep associëren.
 
-Zie [ de toestemmingen van de Data Warehouse beheren ](/help/export/data-warehouse/t-dw-group.md).
+Zie [&#x200B; de toestemmingen van de Data Warehouse beheren &#x200B;](/help/export/data-warehouse/t-dw-group.md).
 
 ## Een Data Warehouse-aanvraag maken
 
-Voor informatie over hoe te om een verzoek van de Data Warehouse tot stand te brengen, zie [ een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+Voor informatie over hoe te om een verzoek van de Data Warehouse tot stand te brengen, zie [&#x200B; een verzoek van de Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 ## Aanvragen voor Data Warehouse beheren
 
-Voor informatie over hoe te om de verzoeken van de Data Warehouse te beheren, zie [ verzoeken van de Data Warehouse beheren ](/help/export/data-warehouse/data-warehouse-requests-manage.md).
+Voor informatie over hoe te om de verzoeken van de Data Warehouse te beheren, zie [&#x200B; verzoeken van de Data Warehouse beheren &#x200B;](/help/export/data-warehouse/data-warehouse-requests-manage.md).
 

@@ -22,7 +22,7 @@ De nieuwe Javascript Report Builder Add-in die oorspronkelijk alleen in Customer
 - Minder tijd wachten op gegevensblokken om terug te keren, dankzij API 2.0-upgrade
 - Verbeterde snelheid
 
-De gebruikers van het Verouderde hulpmiddel van Report Builder kunnen [ erfeniswerkboeken ](/help/analyze/report-builder/convert-workbooks.md) in nieuwe Report Builder omzetten.
+De gebruikers van het Verouderde hulpmiddel van Report Builder kunnen [&#x200B; erfeniswerkboeken &#x200B;](/help/analyze/report-builder/convert-workbooks.md) in nieuwe Report Builder omzetten.
 
 Met Report Builder kunt u eenvoudig aangepaste rapporten maken, bewerken en vernieuwen met behulp van Adobe Analytics-gegevens. Met de eenvoudige en flexibele interface van Report Builder voor slepen en neerzetten kunt u complexe gegevensquery&#39;s en aangepaste rapporten maken van Adobe Analytics-gegevens, allemaal in Excel.
 
@@ -73,8 +73,8 @@ Wanneer u de functionaliteit van Legacy Report Builder vergelijkt met de nieuwe 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ overzicht van Report Builder ](https://video.tv.adobe.com/v/3452586?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; overzicht van Report Builder &#x200B;](https://video.tv.adobe.com/v/3452586?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
-U kunt Report Builder van de [ Opslag van Microsoft ](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview) downloaden.
+U kunt Report Builder van de [&#x200B; Opslag van Microsoft &#x200B;](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview) downloaden.

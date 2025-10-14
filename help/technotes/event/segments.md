@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Specifieke data in de analyse uitsluiten
 
-Als u gegevens [ hebt die door een gebeurtenis ](overview.md) worden beïnvloed, kunt u een segment gebruiken om het even welke datumwaaiers uit te sluiten die u niet in uw rapporten wilt omvatten. Door datums met invloed op gebeurtenissen te segmenteren, kan uw organisatie er beter van worden weerhouden beslissingen te nemen over onvolledige gegevens.
+Als u gegevens [&#x200B; hebt die door een gebeurtenis &#x200B;](overview.md) worden beïnvloed, kunt u een segment gebruiken om het even welke datumwaaiers uit te sluiten die u niet in uw rapporten wilt omvatten. Door datums met invloed op gebeurtenissen te segmenteren, kan uw organisatie er beter van worden weerhouden beslissingen te nemen over onvolledige gegevens.
 
 ## Betrokken dagen isoleren {#isolate}
 
@@ -22,7 +22,7 @@ Maak een segment dat de betrokken dag of het betrokken datumbereik isoleert. Dit
 2. Sleep de dimensie &#39;Dag&#39; naar het definitiekanvas en stel deze in op de dag die u wilt isoleren.
 3. Herhaal bovenstaande stap voor elke dag die u in uw rapport wilt isoleren.
 
-![ Betrokken dagensegment ](assets/affected_days.jpg)
+![&#x200B; Betrokken dagensegment &#x200B;](assets/affected_days.jpg)
 
 >[!TIP]
 >
@@ -30,7 +30,7 @@ Maak een segment dat de betrokken dag of het betrokken datumbereik isoleert. Dit
 
 Adobe raadt aan om de dimensie van de oranje dimensie te gebruiken, en niet de paarse datumbereikcomponenten. Als u componenten van het paarse datumbereik gebruikt, overschrijven deze het kalenderbereik van het project:
 
-![ sluit segment dagtype ](assets/exclude_segment_day_type.jpg) uit
+![&#x200B; sluit segment dagtype &#x200B;](assets/exclude_segment_day_type.jpg) uit
 
 ## Betrokken dagen uitsluiten {#exclude}
 
@@ -41,7 +41,7 @@ Maak een segment dat de betrokken dag of het betrokken datumbereik uitsluit. Dit
 3. Sleep de dimensie &#39;Dag&#39; naar het definitiekanvas en stel deze in op de dag die u wilt verwijderen.
 4. Herhaal bovenstaande stap voor elke dag die u in uw rapport wilt verwijderen.
 
-![ sluit beïnvloede dagen ](assets/exclude_affected_days.jpg) uit
+![&#x200B; sluit beïnvloede dagen &#x200B;](assets/exclude_affected_days.jpg) uit
 
 ## Deze segmenten gebruiken in rapporten
 
@@ -51,15 +51,15 @@ Zodra u hebt gemaakt exclusief segment, kunt u het precies gebruiken aangezien u
 
 U kunt het segment &#39;Betrokken dagen&#39; en het segment &#39;Betrokken dagen uitsluiten&#39; in een rapport toepassen om ze naast elkaar te vergelijken. Sleep beide segmenten boven of onder een metrische waarde om ze te vergelijken:
 
-![ Beide segmenten ](assets/affected_and_exclude.png)
+![&#x200B; Beide segmenten &#x200B;](assets/affected_and_exclude.png)
 
 Als u geen nullen in uw tabel of visualisaties wilt weergeven (dips veroorzaken), schakelt u **[!UICONTROL Interpret zero as no value]** in onder kolominstellingen.
 
-![ interpreteer nul ](assets/interpret_zero.png)
+![&#x200B; interpreteer nul &#x200B;](assets/interpret_zero.png)
 
 Als u geen nullen in uw tabel of visualisaties wilt weergeven (dips veroorzaken), schakelt u **[!UICONTROL Interpret zero as no value]** in onder kolominstellingen.
 
-![ interpreteer nul ](assets/interpret_zero.png)
+![&#x200B; interpreteer nul &#x200B;](assets/interpret_zero.png)
 
 ### Pas het uitsluitingssegment op een project toe {#apply}
 
@@ -69,11 +69,11 @@ U kunt het segment &#39;Betrokken dagen uitsluiten&#39; toepassen op een Workspa
 >
 >Neem een notitie over uitgesloten gegevens op in de beschrijving van het deelvenster om gebruikers te helpen het rapport weer te geven. Klik met de rechtermuisknop op de titel van een deelvenster en klik vervolgens op **[!UICONTROL Edit description]** .
 
-![ Segment dat op een paneel ](assets/exclude_segment_panel.jpg) wordt toegepast
+![&#x200B; Segment dat op een paneel &#x200B;](assets/exclude_segment_panel.jpg) wordt toegepast
 
 ### Gebruik het sluit segment in een virtuele rapportreeks uit {#use-vrs}
 
-U kunt het segment in a [ virtuele rapportreeks ](/help/components/vrs/vrs-about.md) gebruiken om de gegevens geschikter uit te sluiten. Deze optie is ideaal in zoverre dat u niet moet herinneren om het segment voor elk rapport toe te passen dat de beïnvloede datumwaaier omvat. Als u reeds virtuele rapportreeksen als uw primaire bron van gegevens gebruikt, kunt u het segment aan een bestaande Virtuele rapportreeksen toevoegen.
+U kunt het segment in a [&#x200B; virtuele rapportreeks &#x200B;](/help/components/vrs/vrs-about.md) gebruiken om de gegevens geschikter uit te sluiten. Deze optie is ideaal in zoverre dat u niet moet herinneren om het segment voor elk rapport toe te passen dat de beïnvloede datumwaaier omvat. Als u reeds virtuele rapportreeksen als uw primaire bron van gegevens gebruikt, kunt u het segment aan een bestaande Virtuele rapportreeksen toevoegen.
 
 1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
 2. Klik op **[!UICONTROL Add]**.
@@ -81,4 +81,4 @@ U kunt het segment in a [ virtuele rapportreeks ](/help/components/vrs/vrs-about
 4. Sleep het uitsluitingssegment naar het gebied met het label **[!UICONTROL Add segment]** .
 5. Klik op **[!UICONTROL Continue]** in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Save]** .
 
-![ Segment dat op Virtuele rapportreeks ](assets/exclude_segment_vrs.png) wordt toegepast
+![&#x200B; Segment dat op Virtuele rapportreeks &#x200B;](assets/exclude_segment_vrs.png) wordt toegepast

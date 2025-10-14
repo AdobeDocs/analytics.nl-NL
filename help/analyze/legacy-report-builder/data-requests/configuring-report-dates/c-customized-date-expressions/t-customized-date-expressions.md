@@ -26,19 +26,19 @@ In het volgende voorbeeld wordt getoond hoe u een aangepaste expressie voor **[!
 
 1. Selecteer **[!UICONTROL Rolling Dates]** in het [!UICONTROL Request Wizard: Step 1] in plaats van **[!UICONTROL Preset Dates]** te gebruiken.
 
-   ![ Schermafbeelding die de Geselecteerde Data van het Draaien toont.](assets/rolldates1.png)
+   ![&#x200B; Schermafbeelding die de Geselecteerde Data van het Draaien toont.](assets/rolldates1.png)
 
 1. Schakel over naar wekelijks, maandelijks, driemaandelijks of jaarlijks rolbaar. U ziet hoe de opties hieronder veranderen.
 1. Klik op **[!UICONTROL Show Advanced Options]** voor meer aanpassingsopties.
 
-   ![ Screenshot die de Show Geavanceerde Opties benadrukt.](assets/rolldates2.png)
+   ![&#x200B; Screenshot die de Show Geavanceerde Opties benadrukt.](assets/rolldates2.png)
 
 1. Als u bijvoorbeeld de bovenstaande datums wijzigt in het verschuiven van de eerste dag drie maanden geleden naar de eerste dag van deze maand, worden de datums in het gedeelte met vooruitgangsopties automatisch bijgewerkt om aan te geven dat:
 
-   ![ Scherenshot die de het rollen data van de eerste dag drie maanden geleden aan de eerste dag van deze maand toont.](assets/rolldatesfor3.png)
+   ![&#x200B; Scherenshot die de het rollen data van de eerste dag drie maanden geleden aan de eerste dag van deze maand toont.](assets/rolldatesfor3.png)
 
 1. Schakel **[!UICONTROL Customize Expression]** in. Door opties onder **[!UICONTROL Rolling Dates]** te selecteren, kunt u de syntaxis voor aangepaste datumexpressies gemakkelijk zien.
 
-   ![ Schermafbeelding tonen die Geselecteerde Uitdrukking van de Aanpassing tonen.](assets/rolldatesfor5.png)
+   ![&#x200B; Schermafbeelding tonen die Geselecteerde Uitdrukking van de Aanpassing tonen.](assets/rolldatesfor5.png)
 
    U kunt Geavanceerde opties gebruiken om aangepaste datumexpressies te combineren en aan te passen. Als u bijvoorbeeld gegevens wilt zien van het eerste van het jaar tot het einde van de laatste volledige maand, kunt u het volgende invoeren: `From: cy` `To: cm-1d` . In de wizard worden deze datums weergegeven als 1/1/2020-1/31/2020.

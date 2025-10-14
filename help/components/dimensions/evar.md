@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # eVar
 
-*Deze hulppagina beschrijft hoe eVars als a [ dimensie ](overview.md) werken. Voor informatie over hoe te om eVars uit te voeren, zie [ eVars ](/help/implement/vars/page-vars/evar.md) in de de gebruikersgids van het Uitvoeren.*
+*Deze hulppagina beschrijft hoe eVars als a [&#x200B; dimensie &#x200B;](overview.md) werken. Voor informatie over hoe te om eVars uit te voeren, zie [&#x200B; eVars &#x200B;](/help/implement/vars/page-vars/evar.md) in de de gebruikersgids van het Uitvoeren.*
 
-Vars zijn douane [ afmetingen ](overview.md) die u kunt gebruiken nochtans u houdt van. Als u het document van het oplossingsontwerp van a [&#128279;](/help/implement/prepare/solution-design.md) hebt, beëindigen de meeste dimensies specifiek voor uw organisatie omhoog als [!UICONTROL eVars].
+Vars zijn douane [&#x200B; afmetingen &#x200B;](overview.md) die u kunt gebruiken nochtans u houdt van. Als u het document van het oplossingsontwerp van a [&#128279;](/help/implement/prepare/solution-design.md) hebt, beëindigen de meeste dimensies specifiek voor uw organisatie omhoog als [!UICONTROL eVars].
 
-Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. Zie de secties [ hoe eVars ](#how-evars-work) en [ werken hoe eVars aan metriek ](#how-evars-tie-to-metrics) hieronder voor details op hoe de persistentie van eVar op de architectuur van Adobe werkt. U kunt, hun afloop en toewijzing toelaten onbruikbaar maken of aanpassen onder [ variabelen van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings]. In de volgende afbeelding ziet u een voorbeeld van eVar-definities in de interface Conversievariabelen:
+Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. Zie de secties [&#x200B; hoe eVars &#x200B;](#how-evars-work) en [&#x200B; werken hoe eVars aan metriek &#x200B;](#how-evars-tie-to-metrics) hieronder voor details op hoe de persistentie van eVar op de architectuur van Adobe werkt. U kunt, hun afloop en toewijzing toelaten onbruikbaar maken of aanpassen onder [&#x200B; variabelen van de Omzetting &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings]. In de volgende afbeelding ziet u een voorbeeld van eVar-definities in de interface Conversievariabelen:
 
-![ Evar voorbeelden ](assets/evars-sample.png)
+![&#x200B; Evar voorbeelden &#x200B;](assets/evars-sample.png)
 
 Het aantal beschikbare eVars is afhankelijk van uw contract met Adobe. Er zijn maximaal 250 eVars beschikbaar als uw contract met Adobe dit ondersteunt.
 
@@ -26,13 +26,13 @@ Het hoofdlettergebruik (hoger of lager) in rapporten is gebaseerd op de eerste w
 
 ## Vars vullen met gegevens
 
-Elke eVar verzamelt gegevens van [`v1` - `v250` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken. De parameter van de `v1` querytekenreeks verzamelt bijvoorbeeld gegevens voor eVar1, terwijl de parameter van de `v222` querytekenreeks gegevens voor eVar222 verzamelt.
+Elke eVar verzamelt gegevens van [`v1` - `v250` vraagkoord &#x200B;](/help/implement/validate/query-parameters.md) in beeldverzoeken. De parameter van de `v1` querytekenreeks verzamelt bijvoorbeeld gegevens voor eVar1, terwijl de parameter van de `v222` querytekenreeks gegevens voor eVar222 verzamelt.
 
-AppMeasurement, dat JavaScript-variabelen compileert in een verzoek om gegevensverzameling, gebruikt de variabelen `eVar1` - `eVar250` . Zie [ eVar ](/help/implement/vars/page-vars/evar.md) in de de gebruikersgids van het Uitvoeren voor implementatierichtlijnen.
+AppMeasurement, dat JavaScript-variabelen compileert in een verzoek om gegevensverzameling, gebruikt de variabelen `eVar1` - `eVar250` . Zie [&#x200B; eVar &#x200B;](/help/implement/vars/page-vars/evar.md) in de de gebruikersgids van het Uitvoeren voor implementatierichtlijnen.
 
 ## Dimension-objecten
 
-Aangezien eVars aangepaste tekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de dimensie-items voor elke eVar zijn. Zorg ervoor dat u het doel van elke eVar en typische afmetingspunten in het document van het a [ oplossingsontwerp ](/help/implement/prepare/solution-design.md) registreert.
+Aangezien eVars aangepaste tekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de dimensie-items voor elke eVar zijn. Zorg ervoor dat u het doel van elke eVar en typische afmetingspunten in het document van het a [&#x200B; oplossingsontwerp &#x200B;](/help/implement/prepare/solution-design.md) registreert.
 
 ## Hoe werkt eVars
 
@@ -90,14 +90,14 @@ Aangezien de toewijzing en de vervaldatum bepalen welke waarden blijven bestaan,
 * Een eVar gebruikt standaard de laatste toewijzing. Nieuwe waarden overschrijven persistente waarden.
 * Een eVar gebruikt standaard een verloop van een bezoek. Wanneer een bezoek eindigt, kopiëren de waarden niet meer van rij naar rij in de kolom `post_evar` .
 
-U kunt de toewijzing en de vervaldatum van eVar onder [ variabelen van de Omzetting ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de reeksinstellingen van het Rapport veranderen.
+U kunt de toewijzing en de vervaldatum van eVar onder [&#x200B; variabelen van de Omzetting &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in de reeksinstellingen van het Rapport veranderen.
 
 ## Waarde van eVars over props
 
 Adobe raadt in de meeste gevallen eVars aan, ondersteund door het volgende:
 
 * Voor eVars geldt een limiet van 255 bytes in rapporten. Props hebben een limiet van 100 bytes.
-* Props blijven standaard behouden na de hit die ze hebben ingesteld. Vars hebben een aangepaste vervaldatum, zodat u kunt bepalen wanneer een eVar geen krediet meer krijgt voor een volgende gebeurtenis. Nochtans, als u [ verwerking van de rapporttijd ](/help/components/vrs/vrs-report-time-processing.md) gebruikt, zowel kunnen de steunen als eVars een model van de douaneattributie gebruiken.
+* Props blijven standaard behouden na de hit die ze hebben ingesteld. Vars hebben een aangepaste vervaldatum, zodat u kunt bepalen wanneer een eVar geen krediet meer krijgt voor een volgende gebeurtenis. Nochtans, als u [&#x200B; verwerking van de rapporttijd &#x200B;](/help/components/vrs/vrs-report-time-processing.md) gebruikt, zowel kunnen de steunen als eVars een model van de douaneattributie gebruiken.
 * Adobe ondersteunt maximaal 250 eVars en slechts 75 props.
 
-Zie [ prop ](prop.md) voor meer vergelijkingen tussen steunen en eVars.
+Zie [&#x200B; prop &#x200B;](prop.md) voor meer vergelijkingen tussen steunen en eVars.

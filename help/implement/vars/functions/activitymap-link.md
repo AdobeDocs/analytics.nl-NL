@@ -20,7 +20,7 @@ Met de variabele `ActivityMap.link` kunt u de logica negeren die Activity Map ge
 
 ## Koppelingswaarden overschrijven met de Web SDK
 
-U kunt [`OnBeforeLinkClickSend` gebruiken ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) callback om de nuttige lading van SDK van het Web te veranderen of het verzenden van gegevens te aborteren.
+U kunt [`OnBeforeLinkClickSend` gebruiken &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) callback om de nuttige lading van SDK van het Web te veranderen of het verzenden van gegevens te aborteren.
 
 ## Koppelingsoverschrijving met de Adobe Analytics-extensie
 
@@ -31,9 +31,9 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 Wijs deze variabele een functie toe die:
 
 * Ontvangt het HTML-element waarop is geklikt; en
-* Retourneert een tekenreekswaarde. Deze koordwaarde is de definitieve waarde die voor de [ dimensie van de Verbinding van Activity Map ](/help/components/dimensions/activity-map-link.md) wordt gebruikt.
+* Retourneert een tekenreekswaarde. Deze koordwaarde is de definitieve waarde die voor de [&#x200B; dimensie van de Verbinding van Activity Map &#x200B;](/help/components/dimensions/activity-map-link.md) wordt gebruikt.
 
-Als de terugkeerwaarde [ vals ](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) is, worden alle de contextgegevensvariabelen van Activity Map ontruimd en geen verbindingsgegevens worden gevolgd.
+Als de terugkeerwaarde [&#x200B; vals &#x200B;](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) is, worden alle de contextgegevensvariabelen van Activity Map ontruimd en geen verbindingsgegevens worden gevolgd.
 
 ## Voorbeelden
 

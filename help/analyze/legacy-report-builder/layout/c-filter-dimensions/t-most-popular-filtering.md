@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Het rangschikken en voorwaardelijke filters die u gebruikend logica Van Boole met EN/OR onderzoeksuitdrukkingen vormt.
 
-De meeste populaire filters zijn expressiefilters die u configureert met behulp van Booleaanse logica met AND/OR-voorwaarden, zoals [!UICONTROL Page does not contain]*`<product name>`*met voorwaarden of groepen voorwaarden zoals [!UICONTROL Includes All] , [!UICONTROL Includes Any] of [!UICONTROL Excludes All] . U kunt [ sparen ](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) deze uitdrukkingen voor ander verzoek in dit werkboek, of in andere werkboeken.
+De meeste populaire filters zijn expressiefilters die u configureert met behulp van Booleaanse logica met AND/OR-voorwaarden, zoals [!UICONTROL Page does not contain]*`<product name>`*met voorwaarden of groepen voorwaarden zoals [!UICONTROL Includes All] , [!UICONTROL Includes Any] of [!UICONTROL Excludes All] . U kunt [&#x200B; sparen &#x200B;](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) deze uitdrukkingen voor ander verzoek in dit werkboek, of in andere werkboeken.
 
 **om tot een Populairste filter** te leiden
 
@@ -26,7 +26,7 @@ De meeste populaire filters zijn expressiefilters die u configureert met behulp 
 
 1. Klik in het [!UICONTROL Request Wizard: Step 2] op de koppeling naast de dimensie in het raster en kies vervolgens **[!UICONTROL Filter]** .
 
-   ![ Schermafbeelding die de Define dialoog van de Filter met opties tonen om door Toepassing, Gebruiker, en Project te filtreren.](/help/admin/tools/assets/filter.png)
+   ![&#x200B; Schermafbeelding die de Define dialoog van de Filter met opties tonen om door Toepassing, Gebruiker, en Project te filtreren.](/help/admin/tools/assets/filter.png)
 
 1. Schakel [!UICONTROL Choose Page] in het **[!UICONTROL Most Popular]** -formulier in en configureer vervolgens de volgende opties:
 
@@ -45,15 +45,15 @@ De meeste populaire filters zijn expressiefilters die u configureert met behulp 
 1. Configureer in het formulier [!UICONTROL Define Filter] de voorwaarden die geschikt zijn voor uw behoeften.
 
 
-   ![ Schermafbeelding die de Define dialoog van de Filter toont.](assets/expressions_define_filter.png)
+   ![&#x200B; Schermafbeelding die de Define dialoog van de Filter toont.](assets/expressions_define_filter.png)
 
-   Met het pictogram voor het selecteren van cellen kunt u een voorwaarde zoeken die is gedefinieerd in de waarde van een cel. ![ het uitgezochte celpictogram.](assets/select_cell_icon.png)
+   Met het pictogram voor het selecteren van cellen kunt u een voorwaarde zoeken die is gedefinieerd in de waarde van een cel. ![&#x200B; het uitgezochte celpictogram.](assets/select_cell_icon.png)
 
    De **voegt voorwaarde** verbinding toe laat u een voorwaarde aan de uitdrukking toevoegen. Er is geen limiet aan het aantal voorwaarden dat u kunt toevoegen.
 
 1. Klik op **[!UICONTROL OK]**.
 
-   ![ Schermafbeelding van de Define dialoog van de Filter met de O.K. knoop in de bodem rechterkant.](assets/choose_page_02.png)
+   ![&#x200B; Schermafbeelding van de Define dialoog van de Filter met de O.K. knoop in de bodem rechterkant.](assets/choose_page_02.png)
 
 1. Klik in het [!UICONTROL Choose Page] -formulier op **[!UICONTROL Save]** om de expressie op te slaan.
 1. Klik op **[!UICONTROL OK]**.

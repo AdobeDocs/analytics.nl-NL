@@ -18,7 +18,7 @@ Dit artikel bevat voorbeelden van gefilterde en gewogen meetwaarden.
 
 Deze eenvoudige gefilterde metrische gegevens laten alleen de stuiterende frequentie zien voor die pagina&#39;s met meer dan 100 bezoeken:
 
-![ Gefilterde het stuiteren tarief ](assets/filtered-bounce-rate.png){zoomable="yes"}
+![&#x200B; Gefilterde het stuiteren tarief &#x200B;](assets/filtered-bounce-rate.png){zoomable="yes"}
 
 Onthoud dat deze formule afhankelijk is van een consistent tijdsbereik. Als u één enkele dag een rapport in werking stelt, is om het even welke pagina met meer dan 20 bezoeken de moeite waard het bekijken. Als u het een maand in werking stelt, kunt u het filter willen meer bezoeken omvatten.
 
@@ -26,7 +26,7 @@ Onthoud dat deze formule afhankelijk is van een consistent tijdsbereik. Als u é
 
 Dit filter toont het stuitpercentage voor de bovenste 30 procent van de pagina&#39;s, wanneer gesorteerd op bezoeken.
 
-![ Gefilterde het stuiteren tarief met percentiel ](assets/filtered-bounce-rate-with-percentile.png){zoomable="yes"}
+![&#x200B; Gefilterde het stuiteren tarief met percentiel &#x200B;](assets/filtered-bounce-rate-with-percentile.png){zoomable="yes"}
 
 ## Gewogen stuitkoers
 

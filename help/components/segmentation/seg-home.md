@@ -15,11 +15,11 @@ ht-degree: 1%
 
 Met Adobe Analytics kunt u krachtige, doelgerichte doelsegmenten voor uw rapporten maken, beheren, delen en toepassen met behulp van de analysemogelijkheden, de Adobe Experience Cloud, Adobe Target en andere geïntegreerde Adobe-producten.
 
-De segmentatie van de analyse omvat de [ bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) om segmenten te construeren en een pre-test in werking te stellen, en de [ manager van het Segment ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) om te verzamelen, te etiketteren, veiligheid goed te keuren, en segmenten over uw organisatie te delen.
+De segmentatie van de analyse omvat de [&#x200B; bouwer van het Segment &#x200B;](/help/components/segmentation/segmentation-workflow/seg-workflow.md) om segmenten te construeren en een pre-test in werking te stellen, en de [&#x200B; manager van het Segment &#x200B;](/help/components/segmentation/segmentation-workflow/seg-workflow.md) om te verzamelen, te etiketteren, veiligheid goed te keuren, en segmenten over uw organisatie te delen.
 
 
-De Wetenschappers van gegevens en de Analysisten van de Marketing kunnen, segmenten voor analyse gebruiken uitbreiden en verfijnen specifiek voor zijn of haar behoeften, en dan sparen het segment voor andere gebruikers om zich uit te breiden, te verfijnen en te bewaren als nieuw segment aan de bibliotheek. Zodra reeks in motie, is het een cyclus van het ontwerpen van en het beheren van gecodificeerde publieksinzichten als a [ verenigd segmentwerkschema ](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+De Wetenschappers van gegevens en de Analysisten van de Marketing kunnen, segmenten voor analyse gebruiken uitbreiden en verfijnen specifiek voor zijn of haar behoeften, en dan sparen het segment voor andere gebruikers om zich uit te breiden, te verfijnen en te bewaren als nieuw segment aan de bibliotheek. Zodra reeks in motie, is het een cyclus van het ontwerpen van en het beheren van gecodificeerde publieksinzichten als a [&#x200B; verenigd segmentwerkschema &#x200B;](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Aan de slag
 
-Zie [ Ongeveer segmenten ](/help/components/segmentation/seg-overview.md) voor een snel overzicht. Dan ga [ Vestiging een werkschema van de Segmentatie ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) of [ bouwen segmenten ](/help/components/segmentation/segmentation-workflow/seg-build.md).
+Zie [&#x200B; Ongeveer segmenten &#x200B;](/help/components/segmentation/seg-overview.md) voor een snel overzicht. Dan ga [&#x200B; Vestiging een werkschema van de Segmentatie &#x200B;](/help/components/segmentation/segmentation-workflow/seg-workflow.md) of [&#x200B; bouwen segmenten &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md).

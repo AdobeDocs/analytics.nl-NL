@@ -13,26 +13,26 @@ ht-degree: 0%
 
 # transactionID
 
-De `transactionID` variabele identificeert uniek een transactie zodat de slag afmetingswaarden aan gegevens kan verstrekken die door [ gegevensbronnen van identiteitskaart van de Transactie ](/help/import/data-sources/transactionid.md) worden geupload. Deze variabele is handig wanneer u de gegevens van offlinekanalen wilt invullen met waarden die zijn verzameld op basis van de gegevens van het onlinekanaal.
+De `transactionID` variabele identificeert uniek een transactie zodat de slag afmetingswaarden aan gegevens kan verstrekken die door [&#x200B; gegevensbronnen van identiteitskaart van de Transactie &#x200B;](/help/import/data-sources/transactionid.md) worden geupload. Deze variabele is handig wanneer u de gegevens van offlinekanalen wilt invullen met waarden die zijn verzameld op basis van de gegevens van het onlinekanaal.
 
 >[!NOTE]
 >
->Controleer of [!UICONTROL Transaction ID Storage] is ingeschakeld in een rapportsuite voordat u deze variabele gebruikt. Zie [ Algemene Montages van de Rekening ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) in de Admin gebruikersgids voor meer informatie.
+>Controleer of [!UICONTROL Transaction ID Storage] is ingeschakeld in een rapportsuite voordat u deze variabele gebruikt. Zie [&#x200B; Algemene Montages van de Rekening &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) in de Admin gebruikersgids voor meer informatie.
 
-Wanneer u `transactionID` instelt op een hit, maakt Adobe een momentopname van alle variabelen van Analytics die op dat moment zijn ingesteld of aanwezig zijn. Zie [ de gegevensbronnen van identiteitskaart van de Transactie ](/help/import/data-sources/transactionid.md) voor de lijst van dimensies inbegrepen in de momentopname. Adobe onthoudt alle waarden van de transactie-id (gekoppeld en ongekoppeld) gedurende maximaal 25 maanden.
+Wanneer u `transactionID` instelt op een hit, maakt Adobe een momentopname van alle variabelen van Analytics die op dat moment zijn ingesteld of aanwezig zijn. Zie [&#x200B; de gegevensbronnen van identiteitskaart van de Transactie &#x200B;](/help/import/data-sources/transactionid.md) voor de lijst van dimensies inbegrepen in de momentopname. Adobe onthoudt alle waarden van de transactie-id (gekoppeld en ongekoppeld) gedurende maximaal 25 maanden.
 
 ## Transactie-id met de Web SDK
 
 De transactie-id wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[3].transactionID` of `xdm.commerce.order.payments.transactionID`
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` of `data.__adobe.analytics.xact`
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[3].transactionID` of `xdm.commerce.order.payments.transactionID`
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` of `data.__adobe.analytics.xact`
 
 ## Transactie-id met Adobe Analytics-extensie
 
 U kunt transactie-id instellen tijdens het configureren van de extensie Analytics (globale variabelen) of onder regels.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).

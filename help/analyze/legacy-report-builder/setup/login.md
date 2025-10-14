@@ -26,9 +26,9 @@ Als u zich wilt aanmelden bij de Report Builder, gebruikt u uw aanmeldingsaccoun
 
 Met de aanmelding bij het Experience Cloud kunt u uw Enterprise ID (e-mail en wachtwoord) gebruiken om u aan te melden bij de Adobe Experience Cloud.
 
-Klik op **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** om terug te keren naar de aanmeldingspagina van uw bedrijf. Voor meer informatie over Enterprise ID, zie [ Teken binnen aan uw bedrijf of schoolrekening ](https://helpx.adobe.com/nl/enterprise/kb/enterprise-id-faq.html#whatis).
+Klik op **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** om terug te keren naar de aanmeldingspagina van uw bedrijf. Voor meer informatie over Enterprise ID, zie [&#x200B; Teken binnen aan uw bedrijf of schoolrekening &#x200B;](https://helpx.adobe.com/nl/enterprise/kb/enterprise-id-faq.html#whatis).
 
-![ Schermafbeelding die het teken van Adobe Experience Cloud binnen toont opties om binnen met of zonder uw Adobe ID te ondertekenen ](assets/adobe_id_login.png)
+![&#x200B; Schermafbeelding die het teken van Adobe Experience Cloud binnen toont opties om binnen met of zonder uw Adobe ID te ondertekenen &#x200B;](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Aanmelden bij Report Builder
 1. Klik op **[!UICONTROL Sign In]**. U kunt ook met de volgende methoden ondertekenen:
 
    * Klik op **[!UICONTROL Create]**.
-   * Selecteer een aanvraag in Request Manager en klik vervolgens op **[!UICONTROL Add]** of **[!UICONTROL Manage]** . Voor meer informatie, zie [ een verzoek in de Manager van het Verzoek ](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md) selecteren
+   * Selecteer een aanvraag in Request Manager en klik vervolgens op **[!UICONTROL Add]** of **[!UICONTROL Manage]** . Voor meer informatie, zie [&#x200B; een verzoek in de Manager van het Verzoek &#x200B;](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md) selecteren
    * Dubbelklik op een verzoek in Excel.
 
 1. Vul de velden op de pagina [!UICONTROL Login] in en klik op **[!UICONTROL OK]** .

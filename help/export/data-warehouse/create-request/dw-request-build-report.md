@@ -14,17 +14,17 @@ ht-degree: 0%
 
 Er zijn diverse configuratieopties beschikbaar wanneer het creëren van een verzoek van de Data Warehouse. De volgende informatie beschrijft hoe te om een rapport voor het verzoek te bouwen.
 
-Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [ een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [&#x200B; een verzoek van de Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 Om een rapport voor een verzoek van de Data Warehouse te bouwen:
 
 1. Als u niet reeds hebt, begin creërend een verzoek in Adobe Analytics door te selecteren **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **voeg**] toe.
 
-   Voor extra details, zie [ een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+   Voor extra details, zie [&#x200B; een verzoek van de Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 1. Voor de Nieuwe pagina van het de verzoekverzoek van de Data Warehouse, selecteer [!UICONTROL **Bouw uw rapport**] tabel.
 
-   ![ bouwt rapportlusje ](assets/build-report.png)
+   ![&#x200B; bouwt rapportlusje &#x200B;](assets/build-report.png)
 
 1. Kies in de linkerbovenhoek de rapportsuite die u wilt gebruiken bij het samenstellen van het rapport van de Data Warehouse.
 
@@ -34,7 +34,7 @@ Om een rapport voor een verzoek van de Data Warehouse te bouwen:
 
 1. Sleep om het even welke segmenten, metriek, en afmetingen in de bouwer. Het rapport u bouwt bepaalt welke gegevens in het verzoek van de Data Warehouse inbegrepen zijn.
 
-1. Ga verder het vormen van uw verzoek van de Data Warehouse op het [!UICONTROL **doel van het Rapport**] lusje. Voor meer informatie, zie [ een rapportbestemming voor een verzoek van de Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) vormen.
+1. Ga verder het vormen van uw verzoek van de Data Warehouse op het [!UICONTROL **doel van het Rapport**] lusje. Voor meer informatie, zie [&#x200B; een rapportbestemming voor een verzoek van de Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) vormen.
 
 <!--
 

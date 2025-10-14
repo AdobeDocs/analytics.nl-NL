@@ -16,7 +16,7 @@ Configureer de instellingen van een classificatieset.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Klik op de gewenste naam van de classificatieset > **[!UICONTROL Settings]**
 
-![ montages van de classificatieset ](../../assets/classification-set-settings.png)
+![&#x200B; montages van de classificatieset &#x200B;](../../assets/classification-set-settings.png)
 
 De volgende velden zijn beschikbaar op dit tabblad:
 

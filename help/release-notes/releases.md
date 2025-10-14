@@ -28,7 +28,7 @@ Bij elke functierelease kan de tijdlijn variëren van het begin van de rollout t
 
 ## Functiemarkeringen
 
-De vlaggen van de eigenschap worden gebruikt om de zichtbaarheid van nieuwe eigenschappen tijdens versie te controleren. Adobe adviseert toevoegend `app.launchdarkly.com` aan de 1&rbrace; lijst van gewenste personen van uw firewall [ voor een optimale ervaring tijdens versie. ](/help/technotes/ip-addresses.md) Kort nadat GA is bereikt, wordt de vlag verwijderd.
+De vlaggen van de eigenschap worden gebruikt om de zichtbaarheid van nieuwe eigenschappen tijdens versie te controleren. Adobe adviseert toevoegend `app.launchdarkly.com` aan de 1&rbrace; lijst van gewenste personen van uw firewall [&#x200B; voor een optimale ervaring tijdens versie. &#x200B;](/help/technotes/ip-addresses.md) Kort nadat GA is bereikt, wordt de vlag verwijderd.
 
 U kunt uw actieve eigenschapvlaggen op elk ogenblik bekijken onder **Hulp > over Workspace > Actieve eigenschapmarkeringen**.
 
@@ -40,5 +40,5 @@ Met gefaseerde releases kan Adobe het implementatieproces van de software beter 
 
 | Vraag | Antwoord |
 | --- | --- |
-| Kan ik vroege toegang tot een eigenschap vragen? | Nee. Vroegtijdige toegang wordt niet verleend.<br> Als u de vroegere concepten van Analytics wilt testen, moedigen wij u aan om [ Labs van Adobe Analytics ](/help/analyze/labs.md) te proberen om feedback op onze industrie-leidende innovaties te verstrekken. |
-| Heeft deze releasestrategie invloed op mijn toegang tot functies? | Nee. Zodra een functie GA heeft bereikt, hebt u toegang tot de functie als deze in het pakket Analytics is opgenomen.<br> u kunt details van uw pakket Analytics onder [ de Niveaus van de Toegang van de Eigenschap bekijken ](/help/admin/tools/company/feature-access-levels.md). |
+| Kan ik vroege toegang tot een eigenschap vragen? | Nee. Vroegtijdige toegang wordt niet verleend.<br> Als u de vroegere concepten van Analytics wilt testen, moedigen wij u aan om [&#x200B; Labs van Adobe Analytics &#x200B;](/help/analyze/labs.md) te proberen om feedback op onze industrie-leidende innovaties te verstrekken. |
+| Heeft deze releasestrategie invloed op mijn toegang tot functies? | Nee. Zodra een functie GA heeft bereikt, hebt u toegang tot de functie als deze in het pakket Analytics is opgenomen.<br> u kunt details van uw pakket Analytics onder [&#x200B; de Niveaus van de Toegang van de Eigenschap bekijken &#x200B;](/help/admin/tools/company/feature-access-levels.md). |

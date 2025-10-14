@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Referenter
 
-De &quot;Verwijzer&quot;[ dimensie ](overview.md) meldt welke bezoekers URLs wanneer het klikken door waren om uw plaats te bereiken. Deze dimensie is nuttig om te begrijpen welke specifieke URLs het meeste verkeer aan uw plaats drijft. De externe URL moet een koppeling bevatten en een bezoeker moet erop klikken om het dimensie-item weer te geven.
+De &quot;Verwijzer&quot;[&#x200B; dimensie &#x200B;](overview.md) meldt welke bezoekers URLs wanneer het klikken door waren om uw plaats te bereiken. Deze dimensie is nuttig om te begrijpen welke specifieke URLs het meeste verkeer aan uw plaats drijft. De externe URL moet een koppeling bevatten en een bezoeker moet erop klikken om het dimensie-item weer te geven.
 
 >[!IMPORTANT]
 >
->U moet de interne filters van URL van uw rapportreeks [ vormen ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) om deze afmeting te gebruiken. Als u interne URL-filters niet configureert, kan dit interne URL&#39;s of externe URL&#39;s bevatten.
+>U moet de interne filters van URL van uw rapportreeks [&#x200B; vormen &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) om deze afmeting te gebruiken. Als u interne URL-filters niet configureert, kan dit interne URL&#39;s of externe URL&#39;s bevatten.
 
 Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Workspace en Data Warehouse. Analysis Workspace rapporteert de referentie voor elke afzonderlijke pagina, exclusief waarden die overeenkomen met interne URL-filters. Data Warehouse rapporteert alleen de eerste referentie van het bezoek en negeert interne URL-filters.
 
@@ -24,12 +24,12 @@ Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Worksp
 
 Deze dimensie vereist configuratie in de interface van Analytics en gegevens in beeldverzoeken.
 
-* Binnen uw implementatie, wint deze afmeting gegevens van het [`r` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met de JavaScript-variabele `document.referrer` in de browser. U kunt de variabele [`referrer`](/help/implement/vars/page-vars/referrer.md) overschrijven gebruiken om deze handmatig in te stellen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u buiten AppMeasurement (bijvoorbeeld via de API) een gegevensverzamelingsmethode gebruikt, moet u de parameter van de `r` querytekenreeks opnemen in afbeeldingsaanvragen.
+* Binnen uw implementatie, wint deze afmeting gegevens van het [`r` vraagkoord &#x200B;](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met de JavaScript-variabele `document.referrer` in de browser. U kunt de variabele [`referrer`](/help/implement/vars/page-vars/referrer.md) overschrijven gebruiken om deze handmatig in te stellen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u buiten AppMeasurement (bijvoorbeeld via de API) een gegevensverzamelingsmethode gebruikt, moet u de parameter van de `r` querytekenreeks opnemen in afbeeldingsaanvragen.
 * Binnen de interface van Analytics, moet u de interne filters van URL van uw rapportreeks [&#128279;](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) vormen. Als u interne URL-filters niet configureert, kan dit interne URL&#39;s of externe URL&#39;s bevatten.
 
 ## Dimension-objecten
 
-Dimension-items bevatten URL&#39;s waarop bezoekers naar uw site klikken. Als een hit geen verwijzingsgegevens heeft, wordt deze gegroepeerd onder het dimensie-item `"Typed/Bookmarked"` . Dit afmetingsitem betekent dat er geen verwijzingswaarde is, bijvoorbeeld dat de bezoeker het browseradres handmatig in de adresbalk heeft getypt of op een bladwijzer heeft geklikt. Het item voor de `"Typed/Bookmarked"` dimensie wordt ook weergegeven voor omleidingen die geen ruimte bieden voor Analytics. Zie [ Omleiding en aliassen ](/help/technotes/redirects.md) in de de gebruikersgids van TechNotes.
+Dimension-items bevatten URL&#39;s waarop bezoekers naar uw site klikken. Als een hit geen verwijzingsgegevens heeft, wordt deze gegroepeerd onder het dimensie-item `"Typed/Bookmarked"` . Dit afmetingsitem betekent dat er geen verwijzingswaarde is, bijvoorbeeld dat de bezoeker het browseradres handmatig in de adresbalk heeft getypt of op een bladwijzer heeft geklikt. Het item voor de `"Typed/Bookmarked"` dimensie wordt ook weergegeven voor omleidingen die geen ruimte bieden voor Analytics. Zie [&#x200B; Omleiding en aliassen &#x200B;](/help/technotes/redirects.md) in de de gebruikersgids van TechNotes.
 
 ### Dimension-items met `googleusercontent.com`
 

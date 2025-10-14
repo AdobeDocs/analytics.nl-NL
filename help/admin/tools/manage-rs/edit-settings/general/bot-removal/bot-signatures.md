@@ -75,4 +75,4 @@ Soms proberen de bots om geheime voorgeheugens te buigen of anders plaatsen te b
 
 Webhostingservices zoals Amazon Web Services of Google Cloud kunnen als beide boerderijen worden misbruikt. Deze IP adressen zijn bij een hoog risico om bots te zijn:
 &#x200B;
-* [ Google Cloud ](https://cloud.google.com/compute/): IP het adres begint met `&#x200B;35.199` of `35.194&#x200B;`
+* [&#x200B; Google Cloud &#x200B;](https://cloud.google.com/compute/): IP het adres begint met `&#x200B;35.199` of `35.194&#x200B;`

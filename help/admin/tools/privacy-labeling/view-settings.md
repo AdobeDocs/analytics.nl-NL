@@ -22,7 +22,7 @@ Het dialoogvenster **[!UICONTROL Privacy Labeling for Data Governance]** biedt e
 
    >[!NOTE]
    >
-   >Als u dit menupunt niet ziet, moet u aan a [ productprofiel in console Admin ](/help/admin/admin-console/permissions/product-profile.md) met toestemmingen aan deze functionaliteit worden toegevoegd of toegang tot een Reeks van het Rapport binnen Admin Console verleend.
+   >Als u dit menupunt niet ziet, moet u aan a [&#x200B; productprofiel in console Admin &#x200B;](/help/admin/admin-console/permissions/product-profile.md) met toestemmingen aan deze functionaliteit worden toegevoegd of toegang tot een Reeks van het Rapport binnen Admin Console verleend.
 
 3. Selecteer rechtsboven een rapportsuite waarvan u de privacylabels wilt weergeven of beheren.
 
@@ -47,11 +47,11 @@ Voer de volgende stappen uit als u dezelfde privacyinstellingen voor gegevens wi
 1. Selecteer de variabele die u wilt kopiëren. Let erop dat u de labels voor één variabele tegelijk kunt kopiëren.
 1. Klik op **[!UICONTROL Copy to Report Suite(s)]** onder aan het dialoogvenster Gegevensbeheer.
 
-   ![ Exemplaar aan rapportreeks ](assets/copy_to_reportsuite.png)
+   ![&#x200B; Exemplaar aan rapportreeks &#x200B;](assets/copy_to_reportsuite.png)
 
 1. Het resulterende scherm toont de variabelenaam, de momenteel toegepaste labels die u wilt kopiëren, de rapportsuites en hun id&#39;s en of de instellingen in de doelrapportsuites overeenkomen.
 
-   ![ Kopiërend etiket aan rapportreeks ](assets/copy_to_rs.png)
+   ![&#x200B; Kopiërend etiket aan rapportreeks &#x200B;](assets/copy_to_rs.png)
 
    >[!IMPORTANT]
    >
@@ -84,4 +84,4 @@ U kunt een CSV-bestand downloaden met alle huidige labeldefinities voor alle var
 
 ## Privacy-labels bewerken {#edit}
 
-Verwijs naar [ toewijzen of geef de etiketten van de rapportreeks uit de privacy ](/help/admin/tools/privacy-labeling/labeling-overview.md).
+Verwijs naar [&#x200B; toewijzen of geef de etiketten van de rapportreeks uit de privacy &#x200B;](/help/admin/tools/privacy-labeling/labeling-overview.md).

@@ -21,7 +21,7 @@ Met conversieclassificaties kunt u conversievariabelen classificeren. Zodra gecl
 
 >[!WARNING]
 >
->Het anders noemen van een classificatie kan kwesties met bestaande die regels veroorzaken in de [ de regelbouwer van de Classificatie ](/help/components/classifications/crb/classification-rule-builder.md) worden gecreeerd. Als u een classificatie anders noemt die classificatieregels heeft, zorg ervoor dat u elke regel verbetert zodat richt het aan de anders genoemde classificatie.
+>Het anders noemen van een classificatie kan kwesties met bestaande die regels veroorzaken in de [&#x200B; de regelbouwer van de Classificatie &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) worden gecreeerd. Als u een classificatie anders noemt die classificatieregels heeft, zorg ervoor dat u elke regel verbetert zodat richt het aan de anders genoemde classificatie.
 
 ## Omzettingsclassificatiebeschrijvingen
 
@@ -41,7 +41,7 @@ Conversieclassificaties toevoegen in Admin:
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Select Classification Type]** de variabele waaraan u een classificatie wilt toevoegen.
 
-   ![ Info van de Stap ](/help/admin/tools/assets/sub_class_create.png)
+   ![&#x200B; Info van de Stap &#x200B;](/help/admin/tools/assets/sub_class_create.png)
 
 1. Plaats de muis boven het pictogram **[!UICONTROL Edit Classification]** en selecteer vervolgens **[!UICONTROL Add Classification]** .
 1. Configureer de classificatie naar wens in het dialoogvenster **[!UICONTROL Text Classifications]** .

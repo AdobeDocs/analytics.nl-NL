@@ -20,4 +20,4 @@ U kunt verkeer en handel metrische types in één verzoek combineren in plaats v
 
 De metriek van het verkeer en van de handel worden getoond in de zelfde metrische categorie in de Tovenaar van het Verzoek: Stap 2. De categorie gegroepeerd krijgt het label **[!UICONTROL Standard]** .
 
-![ Schermafbeelding van de Tovenaar van het Verzoek: Stap 2 Standaard metrieke lijst.](assets/standard_metrics.png)
+![&#x200B; Schermafbeelding van de Tovenaar van het Verzoek: Stap 2 Standaard metrieke lijst.](assets/standard_metrics.png)

@@ -29,7 +29,7 @@ U kunt uw rapport noemen en vormen hoe te om rij en kolomkopballen te tonen. De 
    | Rapportnaam | Geeft de naam weer van het rapporttype dat u hebt geselecteerd in de structuur in de wizard Verzoek: Stap 1 (bijvoorbeeld [!DNL Traffic Report] ) of de naam die u in het veld [!DNL Name this Request] typt. |
    | Filterparameters | Geeft de dimensiefilters weer, zoals een zoekfilter. |
    | Segment | Toont de segmentparameter. |
-   | Recente gegevens | Hiermee geeft u parameters voor gegevensrecentie weer. Bijvoorbeeld:    Recentie van gegevens: De meningen van de pagina (1.5 uur geleden), uitgang (30 minuten geleden) zie [ Opties ](/help/analyze/legacy-report-builder/options.md) voor informatie over huidige gegevensverwerking. |
+   | Recente gegevens | Hiermee geeft u parameters voor gegevensrecentie weer. Bijvoorbeeld:    Recentie van gegevens: De meningen van de pagina (1.5 uur geleden), uitgang (30 minuten geleden) zie [&#x200B; Opties &#x200B;](/help/analyze/legacy-report-builder/options.md) voor informatie over huidige gegevensverwerking. |
 
    Wat de weergavevolgorde betreft: als het raster [!UICONTROL Row Label] (bij Stap 2) een item bevat, wordt dit eerst in de aanvraag weergegeven. Als dat niet het geval is, gebruikt het systeem het eerste item in het [!UICONTROL Column Label] -raster. Als er geen rij- of kolomitems bestaan, wordt het eerste item in het [!UICONTROL Metrics] -raster weergegeven.
 
@@ -45,6 +45,6 @@ U kunt uw rapport noemen en vormen hoe te om rij en kolomkopballen te tonen. De 
 
    **voer auto-Overzicht uit:** zet de datum die door Report Builder van een lijstmening aan een boommening is teruggekeerd om.
 
-   **Naam dit Verzoek:** laat u een user-defined naam voor het verzoek typen, of de standaardnaam gebruiken die op Stap 1 wordt geselecteerd. Deze naam wordt weergegeven als de naam [!UICONTROL Report] in de map [!UICONTROL Request Manager] . Zie [ Naam een Verzoek ](/help/analyze/legacy-report-builder/layout/name-a-request.md).
+   **Naam dit Verzoek:** laat u een user-defined naam voor het verzoek typen, of de standaardnaam gebruiken die op Stap 1 wordt geselecteerd. Deze naam wordt weergegeven als de naam [!UICONTROL Report] in de map [!UICONTROL Request Manager] . Zie [&#x200B; Naam een Verzoek &#x200B;](/help/analyze/legacy-report-builder/layout/name-a-request.md).
 
 1. Klik op **[!UICONTROL OK]**.

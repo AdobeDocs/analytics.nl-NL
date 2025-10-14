@@ -17,14 +17,14 @@ ht-degree: 0%
 
 Aanvraagdatums in real time configureren:
 
-1. Zorg ervoor dat rapportering in real time in de [ Hulpmiddelen Admin ](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md) wordt toegelaten.
+1. Zorg ervoor dat rapportering in real time in de [&#x200B; Hulpmiddelen Admin &#x200B;](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md) wordt toegelaten.
 1. Klik in het [!UICONTROL Request Wizard: Step 1] op **[!UICONTROL Real-Time Report]** > **[!UICONTROL `<report type>`]** .
 
    Selecteer bijvoorbeeld een verkeersrapport. Wanneer u een rapporttype in real time selecteert, worden de [!UICONTROL Select Time Range] opties weergegeven.
 
 1. Selecteer een tijdbereik in minuten of uren.
 
-   ![ Schermafbeelding die de Uitgezochte opties van de Waaier van de Tijd met Laatste 60 geselecteerde notulen tonen.](assets/real_time_select_date.png)
+   ![&#x200B; Schermafbeelding die de Uitgezochte opties van de Waaier van de Tijd met Laatste 60 geselecteerde notulen tonen.](assets/real_time_select_date.png)
 
    Real-time rapportage is alleen beschikbaar gedurende de laatste 20 uur. Voor de granulariteit kunt u kiezen uit 1 minuut granulariteit tot 30 minuten.
-1. Klik **[!UICONTROL Next]** en ga [ door vormend de verzoeklay-out ](/help/analyze/legacy-report-builder/layout/layout.md).
+1. Klik **[!UICONTROL Next]** en ga [&#x200B; door vormend de verzoeklay-out &#x200B;](/help/analyze/legacy-report-builder/layout/layout.md).

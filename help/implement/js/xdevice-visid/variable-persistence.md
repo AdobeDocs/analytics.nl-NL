@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie [ Analytics van het Apparaat ](/help/components/cda/overview.md) in de de gebruikersgids van Componenten.
+>Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie [&#x200B; Analytics van het Apparaat &#x200B;](/help/components/cda/overview.md) in de de gebruikersgids van Componenten.
 
 Wanneer bezoekersprofielen worden samengevoegd nadat ze zijn gekoppeld aan dezelfde variabele voor de bezoekersidentiteitskaart, wordt de toewijzing niet gewijzigd in de historische gegevensset.
 
@@ -31,12 +31,12 @@ Wanneer een niet-geverifieerde klant voor het eerst op uw site arriveert, wordt 
 In het onderstaande voorbeeld ziet u hoe gegevens naar Adobe Analytics worden verzonden wanneer een klant voor het eerst op het eerste apparaat verifieert:
 
 * `eVar16` heeft een vervaldatum van 1 dag en `evar17` verloopt tijdens een bezoek.
-* De kolom `post_visitor_id` vertegenwoordigt het profiel dat door Adobe Analytics wordt gehandhaafd. Post-kolommen worden doorgaans weergegeven in gegevensfeeds. Zie [ het voer van Gegevens ](/help/export/analytics-data-feed/data-feed-overview.md) in de de gebruikersgids van de Uitvoer.
+* De kolom `post_visitor_id` vertegenwoordigt het profiel dat door Adobe Analytics wordt gehandhaafd. Post-kolommen worden doorgaans weergegeven in gegevensfeeds. Zie [&#x200B; het voer van Gegevens &#x200B;](/help/export/analytics-data-feed/data-feed-overview.md) in de de gebruikersgids van de Uitvoer.
 * De kolommen `post_evar16` en `post_evar17` laten de persistentie van eVars zien.
 * `cust_visid` vertegenwoordigt een waarde die is ingesteld in `visitorID` .
 * Elke rij is één &#39;hit&#39;, één aanvraag die naar Adobe Analytics-servers voor gegevensverzameling wordt verzonden.
 
-![ Voorbeeld 1 van dwars-apparaat ](assets/xdevice_first.jpg)
+![&#x200B; Voorbeeld 1 van dwars-apparaat &#x200B;](assets/xdevice_first.jpg)
 
 Bij de eerste gegevensverbinding met een eerder niet-herkende `visitorID` -waarde (`u999` hierboven) wordt een nieuw profiel gemaakt. Persistente waarden uit het vorige profiel worden overgebracht naar het nieuwe profiel.
 
@@ -52,7 +52,7 @@ Bij de eerste gegevensverbinding met een eerder niet-herkende `visitorID` -waard
 
 In het onderstaande voorbeeld ziet u hoe gegevens naar Adobe Analytics worden verzonden wanneer een klant op een nieuw apparaat verifieert nadat deze eerder op een ander apparaat is geverifieerd.
 
-![ dwars-apparatenvoorbeeld 2 ](assets/xdevice-subsequent.jpg)
+![&#x200B; dwars-apparatenvoorbeeld 2 &#x200B;](assets/xdevice-subsequent.jpg)
 
 Wanneer de klant verifieert, worden deze overeenkomen met het vorige &#39;geverifieerde&#39; profiel - `2947539300` . Het profiel dat aan het begin van dit bezoek ( `5477766334477` ) wordt gebruikt, wordt niet meer gebruikt en er blijven geen gegevens uit het bestand aanwezig.
 

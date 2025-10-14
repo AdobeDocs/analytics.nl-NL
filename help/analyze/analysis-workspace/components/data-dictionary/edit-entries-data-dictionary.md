@@ -19,24 +19,24 @@ Een component in het gegevenswoordenboek bewerken:
 
 1. Ga naar het Analysis Workspace-project dat de component bevat die u wilt bewerken.
 
-1. Selecteer het **pictogram van het Woordenboek van Gegevens** in het linkerspoor van Analysis Workspace. (Alternatieve manieren om tot het Woordenboek van Gegevens toegang te hebben worden beschreven in [ toegang tot het Woordenboek van Gegevens ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary).)
+1. Selecteer het **pictogram van het Woordenboek van Gegevens** in het linkerspoor van Analysis Workspace. (Alternatieve manieren om tot het Woordenboek van Gegevens toegang te hebben worden beschreven in [&#x200B; toegang tot het Woordenboek van Gegevens &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary).)
 
    Het venster Gegevenswoordenboek wordt weergegeven.
 
-   ![ Admin van het Woordenboek van Gegevens mening ](assets/data-dictionary-admin.png)
+   ![&#x200B; Admin van het Woordenboek van Gegevens mening &#x200B;](assets/data-dictionary-admin.png)
 
 1. Controleer of de juiste rapportsuite is geselecteerd in de keuzelijst. Standaard wordt de rapportsuite weergegeven waarin u zich al bevindt.
 
 1. (Optioneel) Typ in het zoekveld de naam van de component die u wilt bewerken.
 
-   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **het pictogram van Afmetingen ![ Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje,** Segmenten **![ het pictogram van het Segment ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw,** de waaiers van de Datum **![&#128279;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de Datum is paars, en** Metriek **![ Metrisch pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) is groen.** Het pictogram van Adobe wijst op of een berekend metrisch malplaatje of een segmentmalplaatje, en het pictogram van de calculator ![ Calculator ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) op berekende metrisch die door een beheerder van de Analyse in uw organisatie werd gecreeerd.
+   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **het pictogram van Afmetingen ![&#x200B; Dimension &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje,** Segmenten **![&#x200B; het pictogram van het Segment &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw,** de waaiers van de Datum **![&#128279;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de Datum is paars, en** Metriek **![&#x200B; Metrisch pictogram &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) is groen.** Het pictogram van Adobe wijst op of een berekend metrisch malplaatje of een segmentmalplaatje, en het pictogram van de calculator ![&#x200B; Calculator &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) op berekende metrisch die door een beheerder van de Analyse in uw organisatie werd gecreeerd.
 
-1. (Facultatief) selecteer het **pictogram van de Filter ![ van het Woordenboek van de Filter van de Filter ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te filtreren:**
+1. (Facultatief) selecteer het **pictogram van de Filter ![&#x200B; van het Woordenboek van de Filter van de Filter &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te filtreren:**
 
    | Optie | Functie |
    |---------|----------|
    | **[!UICONTROL Approved]** | Alleen componenten die zijn gemarkeerd als goedgekeurd door een beheerder. |
-   | **[!UICONTROL Favorites]** | Alleen componenten in de lijst Favorieten. Voor informatie over het toevoegen van componenten aan uw lijst van favorieten, zie [ Overzicht van Componenten ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+   | **[!UICONTROL Favorites]** | Alleen componenten in de lijst Favorieten. Voor informatie over het toevoegen van componenten aan uw lijst van favorieten, zie [&#x200B; Overzicht van Componenten &#x200B;](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | **[!UICONTROL Dimensions]** | Alleen componenten die afmetingen hebben. (Deze optie is ook beschikbaar op het tabblad **[!UICONTROL Quick filters]** wanneer u voor het eerst toegang krijgt tot het gegevenswoordenboek.) |
    | **[!UICONTROL Metrics]** | Alleen componenten die Metrisch zijn. (Deze optie is ook beschikbaar op het tabblad **[!UICONTROL Quick filters]** wanneer u voor het eerst toegang krijgt tot het gegevenswoordenboek.) |
    | **[!UICONTROL Segments]** | Alleen componenten die Segmenten zijn. (Deze optie is ook beschikbaar op het tabblad **[!UICONTROL Quick filters]** wanneer u voor het eerst toegang krijgt tot het gegevenswoordenboek.) |
@@ -50,7 +50,7 @@ Een component in het gegevenswoordenboek bewerken:
 
    {style="table-layout:auto"}
 
-1. (Facultatief) selecteer het **pictogram van de Soort ![ de componenten van de Soort pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te sorteren:**
+1. (Facultatief) selecteer het **pictogram van de Soort ![&#x200B; de componenten van de Soort pictogram &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te sorteren:**
 
    | Optie | Functie |
    |---------|----------|
@@ -62,7 +62,7 @@ Een component in het gegevenswoordenboek bewerken:
 
 1. Selecteer in de lijst met componenten de component die u wilt bewerken.
 
-1. Selecteer **uitgeven** pictogram ![ Woordenboek van Gegevens geeft pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) naast de componentennaam uit.
+1. Selecteer **uitgeven** pictogram ![&#x200B; Woordenboek van Gegevens geeft pictogram &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) naast de componentennaam uit.
 
 1. Bewerk de volgende informatie over de component:
 
@@ -70,9 +70,9 @@ Een component in het gegevenswoordenboek bewerken:
    |---------|----------|
    | **[!UICONTROL Approved]** | <p>Geeft aan dat de component is gecontroleerd en goedgekeurd door de beheerder.</p><p>Nadat een component wordt goedgekeurd, kunnen de beheerders goedkeuring verwijderen door de **Goedgekeurde** knoop te selecteren.</p> |
    | **[!UICONTROL Approval needed]** | <p>Geeft aan dat de component nog niet is gereviseerd en goedgekeurd door de beheerder.</p><p>Beheerders zien een optie voor **[!UICONTROL Approve]** . Als u deze optie selecteert, wordt de component gemarkeerd als &quot;Goedgekeurd&quot; voor gebruikers.</p> |
-   | **[!UICONTROL Description]** | Beschrijft de voorgenomen functie van de component. (Deze informatie wordt toegevoegd door de beheerder van Analytics, zoals die in [ wordt beschreven voeg componentenbeschrijvingen ](/help/analyze/analysis-workspace/components/add-component-descriptions.md) toe.) |
+   | **[!UICONTROL Description]** | Beschrijft de voorgenomen functie van de component. (Deze informatie wordt toegevoegd door de beheerder van Analytics, zoals die in [&#x200B; wordt beschreven voeg componentenbeschrijvingen &#x200B;](/help/analyze/analysis-workspace/components/add-component-descriptions.md) toe.) |
    | **[!UICONTROL Frequently used with]** | <p>Geeft componenten weer die het meest worden gebruikt met de component die u bekijkt.</p><p>Er worden maximaal vijf componenten weergegeven voor de vijf primaire componenttypen: Metrisch, Berekend metrisch, Dimension, Segment en Datumbereik.</p><p>Deze lijst is gebaseerd op gegevens uit de afgelopen 90 dagen. Alleen componenten die u kunt bekijken, worden weergegeven.</p><p>Beheerders kunnen de componenten beheren die gebruikers in deze sectie zien door de gewenste componenten te selecteren in de vervolgkeuzelijsten **[!UICONTROL Always Include]** en **[!UICONTROL Always Exclude]** . Alvorens u de componenten beheert die de gebruikers zien, pas eerst **toe tonen alle** filter om ervoor te zorgen u om het even welke componenten ziet die niet met u worden gedeeld.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
-   | **[!UICONTROL Similar to]** | <p>Geeft componenten weer met vergelijkbare namen als de component die u bekijkt.</p><p>Er worden maximaal vijf componenten weergegeven voor de vijf primaire componenttypen: Metrisch, Berekend metrisch, Dimension, Segment en Datumbereik.</p><p>Alleen componenten die u kunt bekijken, worden weergegeven.</p><p>Om het even welke dubbele componenten in uw rapportreeks ook hier tonen. De beheerders van Analytics zouden alle dubbele componenten moeten identificeren en verwijderen, zoals die in [ wordt beschreven de gezondheid van het Woordenboek van Gegevens van de Monitor ](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Beheerders kunnen de componenten beheren die gebruikers in deze sectie zien door de gewenste componenten te selecteren in de vervolgkeuzelijsten **[!UICONTROL Always Include]** en **[!UICONTROL Always Exclude]** . Alvorens u de componenten beheert die de gebruikers zien, pas eerst **toe tonen alle** filter om ervoor te zorgen u om het even welke componenten ziet die niet met u worden gedeeld.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**NOTA:** momenteel, **Gelijkaardig aan** sectie omvat slechts componenten u creeert en niet die verstrekt door Adobe. Door Adobe verschafte onderdelen worden in een toekomstige release toegevoegd.</p> |
+   | **[!UICONTROL Similar to]** | <p>Geeft componenten weer met vergelijkbare namen als de component die u bekijkt.</p><p>Er worden maximaal vijf componenten weergegeven voor de vijf primaire componenttypen: Metrisch, Berekend metrisch, Dimension, Segment en Datumbereik.</p><p>Alleen componenten die u kunt bekijken, worden weergegeven.</p><p>Om het even welke dubbele componenten in uw rapportreeks ook hier tonen. De beheerders van Analytics zouden alle dubbele componenten moeten identificeren en verwijderen, zoals die in [&#x200B; wordt beschreven de gezondheid van het Woordenboek van Gegevens van de Monitor &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Beheerders kunnen de componenten beheren die gebruikers in deze sectie zien door de gewenste componenten te selecteren in de vervolgkeuzelijsten **[!UICONTROL Always Include]** en **[!UICONTROL Always Exclude]** . Alvorens u de componenten beheert die de gebruikers zien, pas eerst **toe tonen alle** filter om ervoor te zorgen u om het even welke componenten ziet die niet met u worden gedeeld.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**NOTA:** momenteel, **Gelijkaardig aan** sectie omvat slechts componenten u creeert en niet die verstrekt door Adobe. Door Adobe verschafte onderdelen worden in een toekomstige release toegevoegd.</p> |
    | **[!UICONTROL Tags]** | Hiermee worden alle tags weergegeven die op de component zijn toegepast. Gebruikers met beheerdersrechten kunnen tags toevoegen wanneer ze de component bewerken. |
    | **[!UICONTROL Component type]** | Hiermee wordt het type component weergegeven dat het is, ongeacht of het een Dimension, Metrisch, Segment of Datumbereik betreft. |
    | **[!UICONTROL Created by]** | Geeft de naam weer van de gebruiker die de component heeft gemaakt. |
@@ -81,4 +81,4 @@ Een component in het gegevenswoordenboek bewerken:
 
    {style="table-layout:auto"}
 
-1. Klik **sparen** pictogram ![ Woordenboek van Gegevens sparen pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg) om uw veranderingen te bewaren.
+1. Klik **sparen** pictogram ![&#x200B; Woordenboek van Gegevens sparen pictogram &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg) om uw veranderingen te bewaren.

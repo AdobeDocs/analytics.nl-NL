@@ -12,17 +12,17 @@ ht-degree: 4%
 
 # Overzicht van de tijd
 
-Diverse [!UICONTROL 'time spent'] [ metriek ](overview.md) en de afmetingen worden aangeboden over de producten van Adobe Analytics. Deze pagina kan helpen de gewenste afmeting of metrisch doorbreken die u zoekt.
+Diverse [!UICONTROL 'time spent'] [&#x200B; metriek &#x200B;](overview.md) en de afmetingen worden aangeboden over de producten van Adobe Analytics. Deze pagina kan helpen de gewenste afmeting of metrisch doorbreken die u zoekt.
 
 ## Metrische gegevens over &#39;tijd besteed&#39;
 
 | Metrisch | Definitie | Beschikbaar in |
 |---|---|---|
 | [[!UICONTROL Total seconds spent]](total-seconds-spent.md) | Vertegenwoordigt de totale hoeveelheid tijd bezoekers met een specifiek afmetingspunt in wisselwerking staan. Bevat de instantie van een waarde en persistentie voor alle volgende treffers. In het geval van props wordt de doorgebrachte tijd ook geteld bij volgende koppelingsgebeurtenissen. | Analysis Workspace, Report Builder (ook wel &#39;totale tijd besteed&#39; genoemd), Data Warehouse |
-| [[!UICONTROL Time spent per visit] (Seconden) ](time-spent-per-visit.md) | Ongeveer *Totale bestede seconden / (bezoek-grenzen)*<br> vertegenwoordigt de gemiddelde hoeveelheid tijdbezoekers met een specifiek afmetingspunt tijdens elk bezoek in wisselwerking staan. **Nota**: Deze metrisch kan niet onafhankelijk worden berekend omdat de noemer van deze functie intern metrisch is. | Analysis Workspace |
-| [[!UICONTROL Time spent per visitor] (Seconden) ](time-spent-per-visitor.md) | Ongeveer *Totale bestede seconden/unieke bezoeker*<br> vertegenwoordigt de gemiddelde hoeveelheid tijdbezoekers met een specifiek afmetingspunt over het leven van de bezoeker (lengte van hun koekje) in wisselwerking staan. **Nota**: Deze metrisch kan niet onafhankelijk worden berekend omdat de noemer van deze functie intern metrisch is. | Analysis Workspace |
+| [[!UICONTROL Time spent per visit] (Seconden) &#x200B;](time-spent-per-visit.md) | Ongeveer *Totale bestede seconden / (bezoek-grenzen)*<br> vertegenwoordigt de gemiddelde hoeveelheid tijdbezoekers met een specifiek afmetingspunt tijdens elk bezoek in wisselwerking staan. **Nota**: Deze metrisch kan niet onafhankelijk worden berekend omdat de noemer van deze functie intern metrisch is. | Analysis Workspace |
+| [[!UICONTROL Time spent per visitor] (Seconden) &#x200B;](time-spent-per-visitor.md) | Ongeveer *Totale bestede seconden/unieke bezoeker*<br> vertegenwoordigt de gemiddelde hoeveelheid tijdbezoekers met een specifiek afmetingspunt over het leven van de bezoeker (lengte van hun koekje) in wisselwerking staan. **Nota**: Deze metrisch kan niet onafhankelijk worden berekend omdat de noemer van deze functie intern metrisch is. | Analysis Workspace |
 | [!UICONTROL Time Spent/User (State)] | Ongeveer *Totale mobiele app bestede toepassingsseconden/unieke mobiele App bezoekers*<br> vertegenwoordigt de gemiddelde hoeveelheid tijd mobiele App bezoekers met een specifiek afmetingspunt over het leven van de bezoeker (lengte van hun koekje) in wisselwerking staan. **Nota**: Deze metrisch kan niet onafhankelijk worden berekend omdat de noemer van deze functie intern metrisch is. | Analysis Workspace |
-| [[!UICONTROL Average time spent on site] (Seconden) ](average-time-on-site.md) | Vertegenwoordigt de totale hoeveelheid tijd bezoekers met een specifiek afmetingspunt, per opeenvolging met een afmetingspunt in wisselwerking staan. Het is niet alleen beperkt tot &quot;site&quot;-gemiddelden, zoals de naam suggereert. Zie de sectie &#39;Hoe tijd besteed wordt&#39; voor meer informatie over reeksen.<br>**Nota**: Deze metrische waarde verschilt zeer waarschijnlijk van &quot;Tijd die per Bezoek&quot;op een niveau van het afmetingspunt toe te schrijven aan de verschillen in de noemer in de berekening besteedt. | Analysis Workspace, Report Builder (weergegeven in minuten) |
+| [[!UICONTROL Average time spent on site] (Seconden) &#x200B;](average-time-on-site.md) | Vertegenwoordigt de totale hoeveelheid tijd bezoekers met een specifiek afmetingspunt, per opeenvolging met een afmetingspunt in wisselwerking staan. Het is niet alleen beperkt tot &quot;site&quot;-gemiddelden, zoals de naam suggereert. Zie de sectie &#39;Hoe tijd besteed wordt&#39; voor meer informatie over reeksen.<br>**Nota**: Deze metrische waarde verschilt zeer waarschijnlijk van &quot;Tijd die per Bezoek&quot;op een niveau van het afmetingspunt toe te schrijven aan de verschillen in de noemer in de berekening besteedt. | Analysis Workspace, Report Builder (weergegeven in minuten) |
 | [[!UICONTROL Average time on site]](average-time-on-site.md) | Dit is zelfde metrisch zoals *Gemiddelde tijd besteed aan plaats (Seconden)*, behalve geformatteerd als Tijd (`hh:mm:ss`) | Analysis Workspace |
 | [!UICONTROL Average time spent on page] | Vervangen metrisch.<br> In plaats daarvan raadt de Adobe u aan [[!UICONTROL Average time spent on site]](average-time-on-site.md) te gebruiken als er een gemiddelde tijd voor een dimensie-item nodig is. | Report Builder (wanneer een dimensie in het verzoek is) |
 
@@ -72,7 +72,7 @@ De metriek &#39;bestede tijd&#39; die op om het even welke dimensie kan worden t
 De [[!UICONTROL Time Spent on Page – granular]](../dimensions/time-spent-on-page.md) -dimensie is een afmeting op raakniveau. Als je dit opsplitst naar een andere dimensie, zal je de seconden vertellen dat een hit bleef waar ook de afbraakdimensie aanwezig was.
 In het onderstaande voorbeeld is de zoekterm &#39;classificfieds&#39; gekoppeld aan raaktijden van 54 seconden, 59 seconden, enz., wat er wellicht op duidt dat bezoekers tijd doorbrengen bij het lezen van inhoud die voor die termijn is geretourneerd.
 
-![ Schermafbeelding van een tijd die op paginapport wordt doorgebracht ](assets/time-spent1.png)
+![&#x200B; Schermafbeelding van een tijd die op paginapport wordt doorgebracht &#x200B;](assets/time-spent1.png)
 
 +++
 
@@ -80,7 +80,7 @@ In het onderstaande voorbeeld is de zoekterm &#39;classificfieds&#39; gekoppeld 
 
 Elke meting. De dimensie geeft de tijd weer die wordt besteed aan de exacte hit waar de gebeurtenis heeft plaatsgevonden. Hogere tijd betekent dat een bezoeker langer op een pagina (hit) is gebleven waar de gebeurtenis heeft plaatsgevonden.
 
-![ het rapport dat van Workspace een douane metrisch gebruikt met een tijd doorgebrachte afmeting toont ](assets/time-spent2.png)
+![&#x200B; het rapport dat van Workspace een douane metrisch gebruikt met een tijd doorgebrachte afmeting toont &#x200B;](assets/time-spent2.png)
 
 +++
 

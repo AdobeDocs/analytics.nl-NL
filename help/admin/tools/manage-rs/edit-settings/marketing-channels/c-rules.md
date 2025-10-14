@@ -25,12 +25,12 @@ Aanvullende opmerkingen over de verwerking:
 * U kunt maximaal 25 afzonderlijke marketingkanalen configureren.
 * De regels kunnen tot variabelen toegang hebben die VISTA heeft geplaatst, maar kunnen tot geen gegevens toegang hebben die VISTA heeft geschrapt.
 * Twee marketingkanalen krijgen nooit krediet voor dezelfde gebeurtenis (zoals aankopen of klikken). Op deze manier verschillen de afzetkanalen van eVars (waar twee eVars kredieten voor dezelfde gebeurtenis kunnen ontvangen).
-* Als er een hiaatdekking van uw regels is, kunt u [ Geen Geïdentificeerd Kanaal zien.](/help/components/c-marketing-channels/c-faq.md)
+* Als er een hiaatdekking van uw regels is, kunt u [&#x200B; Geen Geïdentificeerd Kanaal zien.](/help/components/c-marketing-channels/c-faq.md)
 
 ## Vereisten
 
-* Herzie de conceptuele informatie in [ Begonnen het Worden met de Kanalen van de Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-* Maak een of meer kanalen zodat u er regels aan kunt toewijzen. Zie [ marketing kanalen ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) toevoegen.
+* Herzie de conceptuele informatie in [&#x200B; Begonnen het Worden met de Kanalen van de Marketing &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+* Maak een of meer kanalen zodat u er regels aan kunt toewijzen. Zie [&#x200B; marketing kanalen &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) toevoegen.
 * Bekijk de aanbevolen procedures voor het gebruik van [!UICONTROL Marketing Channels] met [!UICONTROL Attribution] .
 
 ## Verwerkingsregels voor marketingkanalen maken
@@ -42,7 +42,7 @@ Maak verwerkingsregels voor marketingkanalen die bepalen of een bezoeker voldoet
 
    Als in uw rapportsuite geen kanalen zijn gedefinieerd, wordt de pagina [!UICONTROL Marketing Channels: Auto Setup] weergegeven.
 
-   Zie [ in werking stellen de Automatische Opstelling ](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Zie [&#x200B; in werking stellen de Automatische Opstelling &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 3. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**. Als u de automatische opstelling in werking stelde, werden een reeks kanaal en regels automatisch bepaald voor u.
 
@@ -83,12 +83,12 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 | Referrer komt niet overeen met interne URL-filters | De verwijzende URL komt niet overeen met een intern URL-filter, zoals gedefinieerd voor de rapportsuite in Admin Tools. U kunt deze instelling gebruiken met de URL van de pagina en bestaat om een algemene regel voor alle vangsten in te stellen, zodat geen van de bezoeken wordt aangeland in de sectie Geen kanaal geïdentificeerd van het rapport. |
 | Sluiten negeren die overeenkomen met interne URL-filters | (Voor referentie) Tracks komen alleen van extern genoemde sites. Laat deze instelling meestal ingeschakeld, tenzij u intern verkeer wilt opnemen. |
 | Is eerste bezoeker | De eerste treffer van een bezoek dat door Adobe wordt ontdekt meldt. |
-| Pagina | De [ dimensie van de Pagina ](/help/components/dimensions/page.md). |
+| Pagina | De [&#x200B; dimensie van de Pagina &#x200B;](/help/components/dimensions/page.md). |
 | Paginadomein | Het domein van de pagina waarop de bezoeker landt, zoals `products.example.com` . |
 | Paginadomein en pad | Het domein en pad, zoals `products.example.com/mens/pants/overview.html` . |
 | Hoofddomein van pagina (TLD+1) | Het hoofddomein van de pagina waarop de bezoeker landt, zoals example.co.uk. |
 | Pagina-URL | De URL van een webpagina op uw site. |
-| Referentiedomein | De [ Verwijzende domein ](/help/components/dimensions/referring-domain.md) dimensie |
+| Referentiedomein | De [&#x200B; Verwijzende domein &#x200B;](/help/components/dimensions/referring-domain.md) dimensie |
 | Parameter querytekenreeks | Gebruik een individuele parameter van het vraagkoord. U kunt slechts één parameter van het vraagkoord per criterium specificeren. Als u aanvullende parameters voor queryreeksen wilt toevoegen, gebruikt u `ANY` als uw operator en voegt u vervolgens parameters voor queryreeksen aan de regel toe. |
 | Referenter | De locatie van de webpagina (volledige URL) waar uw bezoekers zich bevonden voordat ze naar uw site kwamen. Er bestaat een verwijzing buiten het gedefinieerde domein. |
 | Refererend Domein en Weg | Een aaneenschakeling van het Verwijzende Domein en weg URL. Voorbeelden zijn:    `www.example.com/products/id/12345` of `ad.example.com/foo` |
@@ -97,7 +97,7 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 | Zoekmachine | Een zoekmachine zoals Google of Yahoo! die bezoekers naar uw site bracht. |
 | Trefwoorden zoeken | Een woord dat wordt gebruikt om een zoekopdracht uit te voeren met een zoekmachine. |
 | Zoekmachine + trefwoorden | Een samenvoeging van het Sleutelwoord van het Onderzoek en de Motor van het Onderzoek om de onderzoeksmotor uniek te identificeren. Bijvoorbeeld, als u naar de woordcomputer zoekt, worden de onderzoeksmotor en het sleutelwoord geïdentificeerd als volgt: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Nota:** n = natuurlijk; p = betaald |
-| De waarde van het kanaal instellen op | Plaatst de [ dimensie van het Detail van het Kanaal van de Marketing ](/help/components/dimensions/marketing-detail.md). U bepaalt welke waarde het beste zou zijn in de context van de regel. Voorbeelden zijn banneradvertentie-id, zoektrefwoord of e-mailcampagne. |
+| De waarde van het kanaal instellen op | Plaatst de [&#x200B; dimensie van het Detail van het Kanaal van de Marketing &#x200B;](/help/components/dimensions/marketing-detail.md). U bepaalt welke waarde het beste zou zijn in de context van de regel. Voorbeelden zijn banneradvertentie-id, zoektrefwoord of e-mailcampagne. |
 
 ## Regelvolgorde en definities van marketingkanalen {#channel-rules}
 
@@ -117,13 +117,13 @@ Voor de marketingkanaalregel zijn de [!UICONTROL Paid Search] -instellingen als 
 
 ![](assets/example_paid_search.png)
 
-Zie [ Betaalde Opsporing van het Onderzoek ](../general/paid-search-detection/paid-search-detection.md) voor meer informatie.
+Zie [&#x200B; Betaalde Opsporing van het Onderzoek &#x200B;](../general/paid-search-detection/paid-search-detection.md) voor meer informatie.
 
 ### Natuurlijk zoeken {#natural-search}
 
 Natuurlijk zoeken is wanneer bezoekers uw website vinden via een zoekprogramma en het zoekprogramma heeft uw site gerangschikt zonder dat u voor de aanbieding betaalt.
 
-Adobe bepaalt onderzoeksverkeer dat op een interne raadpleging van onderzoeksmotoren wordt gebaseerd. Als een verwijzer criteria voor een onderzoeksmotor aanpast, bepaalt het dan als het of natuurlijk gebruikend [ Betaalde regels van de Opsporing van het Onderzoek ](../general/paid-search-detection/paid-search-detection.md) wordt betaald die u hebt gevormd. Een hit wordt als een natuurlijke zoekopdracht beschouwd wanneer deze niet overeenkomt met een betaalde zoekdetectieregels.
+Adobe bepaalt onderzoeksverkeer dat op een interne raadpleging van onderzoeksmotoren wordt gebaseerd. Als een verwijzer criteria voor een onderzoeksmotor aanpast, bepaalt het dan als het of natuurlijk gebruikend [&#x200B; Betaalde regels van de Opsporing van het Onderzoek &#x200B;](../general/paid-search-detection/paid-search-detection.md) wordt betaald die u hebt gevormd. Een hit wordt als een natuurlijke zoekopdracht beschouwd wanneer deze niet overeenkomt met een betaalde zoekdetectieregels.
 
 Voor de regel voor marketingkanalen gelden de volgende instellingen voor Natuurlijk zoeken:
 
@@ -165,7 +165,7 @@ Deze regel geldt voor bezoekers waarbij hun verwijzings-URL overeenkomt met de i
 
 ![](assets/int-channel1.png)
 
-Zie [ Redenen voor Intern (Zitting verfrist zich) ](/help/components/c-marketing-channels/c-faq.md#internal) voor meer informatie over waarom dit kanaal voorkomt.
+Zie [&#x200B; Redenen voor Intern (Zitting verfrist zich) &#x200B;](/help/components/c-marketing-channels/c-faq.md#internal) voor meer informatie over waarom dit kanaal voorkomt.
 
 ### Direct {#direct}
 

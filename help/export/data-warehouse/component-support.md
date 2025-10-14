@@ -23,7 +23,7 @@ Sommige dimensies en metriek die in Data Warehouse kunnen worden gebruikt, zijn 
 * **identiteitskaart van Experience Cloud**: Voor implementaties die de Dienst van identiteitskaart van Experience Cloud (ECID) gebruiken, een aantal met 128 bits dat uit twee samengevoegde aantallen bestaat met 64 bits die aan 19 cijfers worden toegevoegd.
 * **pagina URL**: De pagina URL de slag voorkwam op.
 * **Inkoop IDs**: Unieke herkenningsteken voor een aankoop, die gebruikend de purchaseID variabele wordt geplaatst.
-* **identiteitskaart van de Bezoeker**: Verstrekt het unieke herkenningsteken voor de bezoeker. Deze waarde is gelijk aan de samengevoegde waarde van `visid_high` en `visid_low` kolommen in gegevensfeeds. Zie [ de kolomverwijzing van Gegevens ](../analytics-data-feed/c-df-contents/datafeeds-reference.md) onder de Diersen van Gegevens voor meer informatie.
+* **identiteitskaart van de Bezoeker**: Verstrekt het unieke herkenningsteken voor de bezoeker. Deze waarde is gelijk aan de samengevoegde waarde van `visid_high` en `visid_low` kolommen in gegevensfeeds. Zie [&#x200B; de kolomverwijzing van Gegevens &#x200B;](../analytics-data-feed/c-df-contents/datafeeds-reference.md) onder de Diersen van Gegevens voor meer informatie.
 
 ### Uitsluitend ondersteunde cijfers
 
@@ -67,7 +67,7 @@ Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
    * Opnieuw laden
    * Enkelvoudige toegang
    * Metrische waarden voor &#39;tijd besteed&#39;
-* De metriek van de participatie (zoals die in [ wordt beschreven bouwt metrische &quot;Deelname&quot;](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md))
+* De metriek van de participatie (zoals die in [&#x200B; wordt beschreven bouwt metrische &quot;Deelname&quot;](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md))
 
 ### Dimensies die op een andere manier worden ondersteund (niet-standaarddatumopmaak)
 

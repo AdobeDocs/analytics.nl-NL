@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Deze variabele wordt ingetrokken en wordt niet meer gebruikt.
 
-ClickMap is een gepensioneerde functie in Adobe Analytics die gegevens verzamelt over waar bezoekers klikken en waarop ze klikken. De eigenschap werd vervangen met [ Activity Map ](/help/analyze/activity-map/overview.md).
+ClickMap is een gepensioneerde functie in Adobe Analytics die gegevens verzamelt over waar bezoekers klikken en waarop ze klikken. De eigenschap werd vervangen met [&#x200B; Activity Map &#x200B;](/help/analyze/activity-map/overview.md).
 
 Als deze optie is ingeschakeld, verzamelt AppMeasurement informatie over de koppeling en verzendt het die gegevens in de volgende afbeeldingsaanvraag. De informatie van elke klik wordt opgeslagen in een koekje geëtiketteerd `s_sq`.
 
@@ -26,7 +26,7 @@ Als deze optie is ingeschakeld, verzamelt AppMeasurement informatie over de kopp
 
 [!UICONTROL Enable ClickMap] is een selectievakje onder de accordeon van [!UICONTROL Link Tracking] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 4. Vouw de accordeon [!UICONTROL Link Tracking] uit, zodat het selectievakje [!UICONTROL Enable ClickMap] zichtbaar wordt.

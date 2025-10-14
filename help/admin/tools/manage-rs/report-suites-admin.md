@@ -30,7 +30,7 @@ Een rapportsuite openen:
 
 >[!NOTE]
 >
->Virtuele rapportsuites worden beheerd via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]** . Gelieve te verwijzen naar de [ Virtuele documentatie van de rapportreeks ](/help/components/vrs/vrs-about.md).
+>Virtuele rapportsuites worden beheerd via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]** . Gelieve te verwijzen naar de [&#x200B; Virtuele documentatie van de rapportreeks &#x200B;](/help/components/vrs/vrs-about.md).
 
 ## Beschrijvingen van rapportmanager {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 

@@ -21,9 +21,9 @@ Het besteden van wat tijd om segmenten te plannen verbetert de kansen dat zij vo
    * Waar is dit segment nuttig voor?
    * Wanneer moet ik dit segment gebruiken?
 
-1. Bepaal het segment **werkingsgebied**. Welke [ segmentcontainer ](/help/components/segmentation/seg-overview.md) het best vertegenwoordigt het werkingsgebied? Gebruik de kleinst mogelijke container.
+1. Bepaal het segment **werkingsgebied**. Welke [&#x200B; segmentcontainer &#x200B;](/help/components/segmentation/seg-overview.md) het best vertegenwoordigt het werkingsgebied? Gebruik de kleinst mogelijke container.
 
-1. Beslis welke **elementen** om in de segmentdefinitie te omvatten, en welke waarden. Overweeg [ veranderlijke persistentie ](/help/components/segmentation/seg-overview.md) in dit besluit.
+1. Beslis welke **elementen** om in de segmentdefinitie te omvatten, en welke waarden. Overweeg [&#x200B; veranderlijke persistentie &#x200B;](/help/components/segmentation/seg-overview.md) in dit besluit.
 
 1. Overweeg hoe u uw **goedkeuringsproces** wilt ontvouwen. Zal één persoon segmenten beoordelen en goedkeuren of zal het een besluit van een commissie zijn?
-1. Bepaal uw segmenten met het oog op a **segmentbibliotheek** die zakelijke gebruikers de capaciteit geeft om [ te stapelen ](/help/components/segmentation/segmentation-workflow/seg-build.md) en segmentstukken of componenten op een modulaire manier opnieuw te gebruiken. Welke &quot;modules&quot;moet u bepalen om deze bibliotheek tot realiteit te maken?
+1. Bepaal uw segmenten met het oog op a **segmentbibliotheek** die zakelijke gebruikers de capaciteit geeft om [&#x200B; te stapelen &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md) en segmentstukken of componenten op een modulaire manier opnieuw te gebruiken. Welke &quot;modules&quot;moet u bepalen om deze bibliotheek tot realiteit te maken?

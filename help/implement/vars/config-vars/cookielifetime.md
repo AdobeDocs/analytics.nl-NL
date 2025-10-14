@@ -27,7 +27,7 @@ De SDK van het Web biedt nog geen aanpassing aan het leven van koekjes aan die h
 
 Cookie Lifetime is een vervolgkeuzelijst onder de accordeon [!UICONTROL Cookies] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 1. Vouw de accordeon [!UICONTROL Cookies] uit, zodat de vervolgkeuzelijst [!UICONTROL Cookie Lifetime] zichtbaar wordt.

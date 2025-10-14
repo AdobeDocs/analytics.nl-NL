@@ -23,7 +23,7 @@ De Adobe Experience Platform Mobile SDK helpt Adobe Experience Cloud-oplossingen
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
-![ Adobe Analytics die het de uitbreidingswerkschema van Analytics gebruiken ](../../assets/mobilesdk-annotated.png)
+![&#x200B; Adobe Analytics die het de uitbreidingswerkschema van Analytics gebruiken &#x200B;](../../assets/mobilesdk-annotated.png)
 
 <table style="width:100%">
 
@@ -84,7 +84,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
-![ Adobe Analytics die het de uitbreidingswerkschema van Analytics gebruiken ](../../assets/mobilesdk-analytics-annotated.png)
+![&#x200B; Adobe Analytics die het de uitbreidingswerkschema van Analytics gebruiken &#x200B;](../../assets/mobilesdk-analytics-annotated.png)
 
 <table style="width:100%">
 
@@ -126,6 +126,6 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 ## Aanvullende bronnen
 
-- [ documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL#)
+- [&#x200B; documentatie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL#)
 
-- [ Mobiele documentatie van SDK ](https://developer.adobe.com/client-sdks/documentation/)
+- [&#x200B; Mobiele documentatie van SDK &#x200B;](https://developer.adobe.com/client-sdks/documentation/)

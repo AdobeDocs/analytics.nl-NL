@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Opzoeken van paginagebeurtenissen
 
-Opzoektabel om het type van een hit te bepalen op basis van de waarde `page_event` . Zoals vermeld in de [ de kolomverwijzing van Gegevens ](datafeeds-reference.md), zijn de `page_event` en `post_page_event` kolommen tinyint ongetekend.
+Opzoektabel om het type van een hit te bepalen op basis van de waarde `page_event` . Zoals vermeld in de [&#x200B; de kolomverwijzing van Gegevens &#x200B;](datafeeds-reference.md), zijn de `page_event` en `post_page_event` kolommen tinyint ongetekend.
 
 * Zie [`t()`](/help/implement/vars/functions/t-method.md) voor meer informatie over het implementeren van paginaweergaveoproepen voor AppMeasurement en de Web SDK.
 * Zie [`tl()`](/help/implement/vars/functions/tl-method.md) voor meer informatie over het implementeren van aanroepen voor het bijhouden van koppelingen voor AppMeasurement en de Web SDK.
-* Zie [ Adobe Analytics met Adobe Experience Platform Edge Network ](/help/implement/aep-edge/overview.md) uitvoeren om te begrijpen hoe Adobe Analytics XDM nuttige ladingen aan de types van paginagebeurtenis vertaalt.
+* Zie [&#x200B; Adobe Analytics met Adobe Experience Platform Edge Network &#x200B;](/help/implement/aep-edge/overview.md) uitvoeren om te begrijpen hoe Adobe Analytics XDM nuttige ladingen aan de types van paginagebeurtenis vertaalt.
 
 | `page_event` value | `post_page_event` value | Beschrijving |
 | --- | --- | --- |

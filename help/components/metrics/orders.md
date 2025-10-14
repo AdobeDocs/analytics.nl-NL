@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Orders
 
-De metrische &quot;Orders&quot;[&#128279;](overview.md) toont het totale aantal aankoopgebeurtenissen die op uw plaats worden gemaakt. Deze maatstaf is van essentieel belang voor eCommerce-sites bij het meten van de conversie. U kunt deze metrisch met om het even welke afmeting combineren om te zien welke afmetingspunten tot een orde hebben bijgedragen. Bijvoorbeeld, kon u de hoogste campagnes zien (gebruikend de [ het Volgen code ](../dimensions/tracking-code.md) dimensie) of hoogste interne onderzoekstermijnen (gebruikend een [ eVar ](../dimensions/evar.md)) die tot aankopen bijdroeg.
+De metrische &quot;Orders&quot;[&#128279;](overview.md) toont het totale aantal aankoopgebeurtenissen die op uw plaats worden gemaakt. Deze maatstaf is van essentieel belang voor eCommerce-sites bij het meten van de conversie. U kunt deze metrisch met om het even welke afmeting combineren om te zien welke afmetingspunten tot een orde hebben bijgedragen. Bijvoorbeeld, kon u de hoogste campagnes zien (gebruikend de [&#x200B; het Volgen code &#x200B;](../dimensions/tracking-code.md) dimensie) of hoogste interne onderzoekstermijnen (gebruikend een [&#x200B; eVar &#x200B;](../dimensions/evar.md)) die tot aankopen bijdroeg.
 
 ## Hoe deze metrische waarde wordt berekend
 

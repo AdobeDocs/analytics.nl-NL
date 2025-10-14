@@ -25,6 +25,6 @@ Wanneer u een classificatieset maakt, zijn de volgende velden beschikbaar.
    * **[!UICONTROL Lookup]**: een opzoektabel wordt meestal onderliggende of subclassificaties genoemd en is een classificatie van een primaire classificatie. Het zijn metagegevens over een classificatiewaarde in plaats van de oorspronkelijke dimensie. De variabele Product kan bijvoorbeeld een primaire classificatie van &#39;Kleurcode&#39; hebben. Vervolgens kan een opzoektabel met &#39;Kleurnaam&#39; worden toegevoegd aan &#39;Kleurcode&#39; om uit te leggen wat elke code bedoelt.
 * **[!UICONTROL Subscriptions]** De rapportsuites en afmetingen waarop deze classificatieset van toepassing is. U kunt veelvoudige rapportreeks en afmetingscombinaties aan een classificatiereeks toevoegen.
 
-![ creeer een geplaatste Indeling ](../../assets/classification-set-create.png)
+![&#x200B; creeer een geplaatste Indeling &#x200B;](../../assets/classification-set-create.png)
 
 Als een classificatieset voor een bepaalde rapportreeks + variabele bestaat, wordt de classificatie toegevoegd aan het schema. Een bepaalde rapportsuite + variabele combinatie kan niet tot meerdere classificatiesets behoren.

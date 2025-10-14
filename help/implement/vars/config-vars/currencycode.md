@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Voor plaatsen die handel gebruiken, is de opbrengst en de munt een belangrijk deel van Analytics. Veel sites, vooral sites die meerdere landen beslaan, gebruiken verschillende valuta&#39;s. Gebruik de variabele `currencyCode` om ervoor te zorgen dat de opbrengstattributen aan de correcte munt.
 
-Bij valutaomrekening wordt bij elke druk de volgende logica gebruikt. Deze stappen zijn op opbrengstwaarden van toepassing plaatsen de [`products`](../page-vars/products.md) variabele en alle gebeurtenissen die als &quot;Valuta&quot;in [ de gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) onder de reeksinstellingen van het Rapport worden vermeld.
+Bij valutaomrekening wordt bij elke druk de volgende logica gebruikt. Deze stappen zijn op opbrengstwaarden van toepassing plaatsen de [`products`](../page-vars/products.md) variabele en alle gebeurtenissen die als &quot;Valuta&quot;in [&#x200B; de gebeurtenissen van het Succes &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) onder de reeksinstellingen van het Rapport worden vermeld.
 
-* Als `currencyCode` niet is gedefinieerd, gaat Adobe ervan uit dat alle valutawaarden de valuta van de rapportsuite zijn. Zie {de Montages van de Rekening van 0} Algemeen [ in de reeksinstellingen van het Rapport om de munt van de rapportreeks te zien.](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
+* Als `currencyCode` niet is gedefinieerd, gaat Adobe ervan uit dat alle valutawaarden de valuta van de rapportsuite zijn. Zie {de Montages van de Rekening van 0} Algemeen [&#x200B; in de reeksinstellingen van het Rapport om de munt van de rapportreeks te zien.](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * Als `currencyCode` is gedefinieerd en overeenkomt met de valuta van de rapportsuite, wordt geen valutaomrekening toegepast.
-* Als `currencyCode` is gedefinieerd en afwijkt van de valuta van de rapportsuite, past Adobe een valutaomrekening toe op basis van de wisselkoers van de huidige dag. De partners van Adobe met [ XE ](https://xe.com) om munt om te zetten elke dag. Alle waarden die in de rapportsuite zijn opgeslagen, bevinden zich in de valuta van de rapportsuite.
+* Als `currencyCode` is gedefinieerd en afwijkt van de valuta van de rapportsuite, past Adobe een valutaomrekening toe op basis van de wisselkoers van de huidige dag. De partners van Adobe met [&#x200B; XE &#x200B;](https://xe.com) om munt om te zetten elke dag. Alle waarden die in de rapportsuite zijn opgeslagen, bevinden zich in de valuta van de rapportsuite.
 * Als `currencyCode` aan een ongeldige waarde wordt geplaatst, **wordt de volledige slag verworpen veroorzakend gegevensverlies.** Zorg ervoor dat deze variabele correct is gedefinieerd wanneer deze wordt gebruikt.
 
 Deze variabele blijft niet behouden in verschillende treffers. Zorg ervoor dat deze variabele op elke pagina wordt bepaald die opbrengst of muntgebeurtenissen impliceert die niet de standaardmunt van de rapportreeks aanpassen.
@@ -34,14 +34,14 @@ Een periode **moet** als muntseparator voor alle valuta worden gebruikt wanneer 
 
 Valutacode wordt toegewezen aan de volgende variabelen:
 
-* [ voorwerp XDM ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
-* [ voorwerp van Gegevens ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` of `data.__adobe.analytics.cc`
+* [&#x200B; voorwerp XDM &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [&#x200B; voorwerp van Gegevens &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` of `data.__adobe.analytics.cc`
 
 ## Valutacode die de extensie Adobe Analytics gebruikt
 
 Valutacode is een veld onder de accordion [!UICONTROL General] bij het configureren van de Adobe Analytics-extensie.
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 1. Vouw de accordeon [!UICONTROL General] uit, zodat het veld [!UICONTROL Currency Code] zichtbaar wordt.

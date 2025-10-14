@@ -46,13 +46,13 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Kaart in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/map) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Kaart in_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [&#x200B; Kaart &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/map) voor_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
 
-De ![ Globe ](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualisatie in Analysis Workspace
+De ![&#x200B; Globe &#x200B;](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualisatie in Analysis Workspace
 
 * kunt u een visuele kaart van om het even welke metrisch (met inbegrip van berekende metriek) bouwen;
 * nuttig is voor het identificeren en vergelijken van metrische gegevens over verschillende geografische regio&#39;s;
@@ -63,16 +63,16 @@ De ![ Globe ](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualisatie in
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Kaart in Analysis Workspace ](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; visualisatie van de Kaart in Analysis Workspace &#x200B;](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 ## Gebruiken
 
-1. Voeg a ![ Kaart ](/help/assets/icons/Globe.svg) [!UICONTROL Map] visualisatie toe. Zie [ een visualisatie aan een paneel ](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen. U kunt een Kaartweergave alleen boven op een tabel voor vrije vorm slepen.
+1. Voeg a ![&#x200B; Kaart &#x200B;](/help/assets/icons/Globe.svg) [!UICONTROL Map] visualisatie toe. Zie [&#x200B; een visualisatie aan een paneel &#x200B;](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen. U kunt een Kaartweergave alleen boven op een tabel voor vrije vorm slepen.
 
-   ![ configuratie van de Kaart ](assets/map-configuration.png){width="50%"}
+   ![&#x200B; configuratie van de Kaart &#x200B;](assets/map-configuration.png){width="50%"}
 
 1. Selecteer een metrische waarde in de vervolgkeuzelijst. Of sleep in metrische vorm vanuit de lijst met metriek (inclusief berekende metriek).
 1. Geef de gegevensbron op waaruit u wilt tekenen. Dit dialoogvenster wordt alleen weergegeven als u locatie-tracking hebt ingeschakeld voor gegevens van mobiele apps.
@@ -100,7 +100,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie 
 
    * **roteer** de kaart in 2D of 3D door de [!UICONTROL Ctrl] sleutel te houden en de kaart te bewegen.
 
-   * **knevel** aan een verschillende mening, zoals de warmtekaart, gebruikend de [ hieronder beschreven montages ](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E). De bellenweergave is de standaardinstelling.
+   * **knevel** aan een verschillende mening, zoals de warmtekaart, gebruikend de [&#x200B; hieronder beschreven montages &#x200B;](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E). De bellenweergave is de standaardinstelling.
 
 1. **sparen** het project om alle kaartmontages (coördinaten, gezoem, omwenteling) te bewaren.
 1. De vrije-vormlijst, onder visualisatie, kan worden bevolkt door in plaatsdimensies en metriek van de linkerspoorstaaf te slepen.
@@ -109,12 +109,12 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie 
 
 ## Configureren
 
-Om de visualisatie van de Kaart aan te passen, uitgezocht ![ geef ](/help/assets/icons/Edit.svg) uit.
+Om de visualisatie van de Kaart aan te passen, uitgezocht ![&#x200B; geef &#x200B;](/help/assets/icons/Edit.svg) uit.
 
 
 ## Instellingen
 
-Om montages voor visualisatie te bepalen, uitgezochte ![ Plaatsend ](/help/assets/icons/Setting.svg).
+Om montages voor visualisatie te bepalen, uitgezochte ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg).
 
 | Instelling | Beschrijving |
 |--- |--- |

@@ -16,7 +16,7 @@ In [!UICONTROL Paid Search Detection] wordt onderscheid gemaakt tussen betalinge
 
 ## Configuratieopties {#configuration}
 
-De volgende lijst beschrijft de gebieden en de opties u gebruikt om [ betaalde onderzoeksopsporing ](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/t-paid-search-detection.md) te vormen.
+De volgende lijst beschrijft de gebieden en de opties u gebruikt om [&#x200B; betaalde onderzoeksopsporing &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/t-paid-search-detection.md) te vormen.
 
 | Optie | Beschrijving |
 | --- | --- |

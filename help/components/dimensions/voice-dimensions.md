@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # De afmetingen van de Steekanalyse
 
-Wanneer u [!UICONTROL Voice and Chatbots] op [[!UICONTROL Application reporting]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md) toelaat, worden de volgende afmetingen (en [ metriek ](../metrics/voice-metrics.md)) gecreeerd. U kunt [ variabelen van de Contextgegevens ](/help/implement/vars/page-vars/contextdata.md) gebruiken om hen aan de gewenste koordwaarde te plaatsen. Wanneer toegelaten in de montages van de rapportreeks, [ worden de regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) automatisch gecreeerd die de dimensies van de stemanalyse van de kaart aan hun bijbehorende variabele van contextgegevens.
+Wanneer u [!UICONTROL Voice and Chatbots] op [[!UICONTROL Application reporting]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md) toelaat, worden de volgende afmetingen (en [&#x200B; metriek &#x200B;](../metrics/voice-metrics.md)) gecreeerd. U kunt [&#x200B; variabelen van de Contextgegevens &#x200B;](/help/implement/vars/page-vars/contextdata.md) gebruiken om hen aan de gewenste koordwaarde te plaatsen. Wanneer toegelaten in de montages van de rapportreeks, [&#x200B; worden de regels van de Verwerking &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) automatisch gecreeerd die de dimensies van de stemanalyse van de kaart aan hun bijbehorende variabele van contextgegevens.
 
 | Dimension-naam | Beschrijving | Variabele van contextgegevens |
 | --- | --- | --- |

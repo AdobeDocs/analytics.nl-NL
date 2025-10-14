@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Afmetingen afsluiten
 
-*Deze hulppagina beschrijft hoe de uitgang werk als a [ dimensie ](overview.md) is. Voor informatie over hoe uitgang werk als metrisch, zie [ metrisch weggaat ](../metrics/exits.md).*
+*Deze hulppagina beschrijft hoe de uitgang werk als a [&#x200B; dimensie &#x200B;](overview.md) is. Voor informatie over hoe uitgang werk als metrisch, zie [&#x200B; metrisch weggaat &#x200B;](../metrics/exits.md).*
 
-De dimensies van de uitgang registreren het laatste afmetingspunt, en passen het met terugwerkende kracht op alle treffers in het bezoek toe. De dimensies van de uitgang zijn beschikbaar voor alle variabelen met het kleven die onder [ variabelen van het Verkeer ](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) in de reeksinstellingen van het Rapport worden toegelaten.
+De dimensies van de uitgang registreren het laatste afmetingspunt, en passen het met terugwerkende kracht op alle treffers in het bezoek toe. De dimensies van de uitgang zijn beschikbaar voor alle variabelen met het kleven die onder [&#x200B; variabelen van het Verkeer &#x200B;](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) in de reeksinstellingen van het Rapport worden toegelaten.
 
 ## Afsluitafmetingen vullen met gegevens
 

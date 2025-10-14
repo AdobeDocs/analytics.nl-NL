@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Origineel verwijzend domein
 
-De &quot;Origineel verwijzend domein&quot;[ dimensie ](overview.md) meldt het eerste verwijzende domein dat een bezoeker door klikte om uw plaats te bereiken. Als deze eenmaal is ingesteld, bevat deze dezelfde waarde voor de gehele levensduur van die bezoekersidentiteitskaart. Deze dimensie is nuttig om te begrijpen welke derdeplaatsen oorspronkelijk verkeer aan uw plaats drijven.
+De &quot;Origineel verwijzend domein&quot;[&#x200B; dimensie &#x200B;](overview.md) meldt het eerste verwijzende domein dat een bezoeker door klikte om uw plaats te bereiken. Als deze eenmaal is ingesteld, bevat deze dezelfde waarde voor de gehele levensduur van die bezoekersidentiteitskaart. Deze dimensie is nuttig om te begrijpen welke derdeplaatsen oorspronkelijk verkeer aan uw plaats drijven.
 
 >[!IMPORTANT]
 >
->U moet de interne filters van URL van uw rapportreeks [ vormen ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) om deze afmeting te gebruiken. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
+>U moet de interne filters van URL van uw rapportreeks [&#x200B; vormen &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) om deze afmeting te gebruiken. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
 
 ## Deze dimensie vullen met gegevens
 
 Deze dimensie vereist configuratie in zowel de interface Analytics als uw implementatie.
 
-* Binnen uw implementatie, wint deze afmeting gegevens van het [`r` vraagkoord ](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met de JavaScript-variabele `document.referrer` in de browser. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u buiten AppMeasurement (bijvoorbeeld via de API) een gegevensverzamelingsmethode gebruikt, moet u de parameter van de `r` querytekenreeks opnemen in afbeeldingsaanvragen.
+* Binnen uw implementatie, wint deze afmeting gegevens van het [`r` vraagkoord &#x200B;](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met de JavaScript-variabele `document.referrer` in de browser. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u buiten AppMeasurement (bijvoorbeeld via de API) een gegevensverzamelingsmethode gebruikt, moet u de parameter van de `r` querytekenreeks opnemen in afbeeldingsaanvragen.
 * Binnen de interface van Analytics, moet u de interne filters van URL van uw rapportreeks [&#128279;](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) vormen. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
 
-Adobe blijft het oorspronkelijke verwijzingsdomein voor de levensduur van een bezoeker. Wanneer een bezoeker op een ander domein een koppeling verlaat en erop klikt, wordt de nieuwe waarde niet opgenomen. Als u nieuwe waarden wilt zien, zie [ Verwijzend domein ](referring-domain.md).
+Adobe blijft het oorspronkelijke verwijzingsdomein voor de levensduur van een bezoeker. Wanneer een bezoeker op een ander domein een koppeling verlaat en erop klikt, wordt de nieuwe waarde niet opgenomen. Als u nieuwe waarden wilt zien, zie [&#x200B; Verwijzend domein &#x200B;](referring-domain.md).
 
 ## Dimension-objecten
 

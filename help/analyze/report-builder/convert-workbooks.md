@@ -24,13 +24,13 @@ Als deel van de beweging aan een nieuwe technologie van de Report Builder, kunt 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ werkboeken ](https://video.tv.adobe.com/v/3446188?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video omzetten.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; werkboeken &#x200B;](https://video.tv.adobe.com/v/3446188?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video omzetten.
 
 >[!ENDSHADEBOX]
 
 
 
-1. Opstelling de nieuwe Report Builder door [ na deze instructies ](/help/analyze/report-builder/report-builder-setup.md).
+1. Opstelling de nieuwe Report Builder door [&#x200B; na deze instructies &#x200B;](/help/analyze/report-builder/report-builder-setup.md).
 
 1. Open Excel en klik op het Adobe Report Builder-pictogram rechtsboven.
 
@@ -49,17 +49,17 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ werkboeken ](
 
 1. Een waarschuwing lijkt dat alarm u aan veranderingen in het werkboek als u bevordert. Het dringt u ook aan om een steun van uw erfeniswerkboek tot stand te brengen alvorens te werk te gaan.
 
-   ![ verbeteringswaarschuwing ](assets/upgrade_warning.png)
+   ![&#x200B; verbeteringswaarschuwing &#x200B;](assets/upgrade_warning.png)
 
 1. Klik op **[!UICONTROL Proceed]** om door te gaan met de upgrade.
 
    Als de upgrade is gelukt, wordt de volgende voltooiingskennisgeving weergegeven:
 
-   ![ volledige verbetering ](assets/upgrade_complete.png)
+   ![&#x200B; volledige verbetering &#x200B;](assets/upgrade_complete.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Download upgrade report]** . Dit rapport bevat de status voor elk gegevensblok dat is bijgewerkt.
 
-U kunt [ het gegevensblok ](/help/analyze/report-builder/manage-reportbuilder.md) nu beheren.
+U kunt [&#x200B; het gegevensblok &#x200B;](/help/analyze/report-builder/manage-reportbuilder.md) nu beheren.
 
 
 ## Verouderde functies voor Report Builder worden niet ondersteund in de nieuwe Report Builder {#unsupported}
@@ -76,4 +76,4 @@ Bij het vergelijken van de functionaliteit van verouderde Report Builder met de 
 
 ## Een omgezet werkboek plannen {#schedule}
 
-Zie [ Plan een omgezet werkboek ](/help/analyze/report-builder/schedule-reportbuilder.md) in het plannen artikel.
+Zie [&#x200B; Plan een omgezet werkboek &#x200B;](/help/analyze/report-builder/schedule-reportbuilder.md) in het plannen artikel.

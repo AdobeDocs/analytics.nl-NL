@@ -17,13 +17,13 @@ De metriek van de participatie wordt gebruikt om te kwantificeren hoe de individ
 
 In de onderstaande stappen ziet u hoe u een metrische deelname kunt maken.
 
-1. [ creeer een berekende metrische ](../cm-workflow.md), en in [ Berekende metrieke bouwer ](cm-build-metrics.md), noem metrisch `Orders (Visit Participation)` of iets gelijkaardig.
+1. [&#x200B; creeer een berekende metrische &#x200B;](../cm-workflow.md), en in [&#x200B; Berekende metrieke bouwer &#x200B;](cm-build-metrics.md), noem metrisch `Orders (Visit Participation)` of iets gelijkaardig.
 1. Sleep een metrische waarde met een succesgebeurtenis, bijvoorbeeld [!DNL Online Orders] , naar het [!UICONTROL **[!UICONTROL Definition]**] -gebied.
-1. Selecteer ![ Vistuig ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) voor metrisch.
-1. In popup die verschijnt, selecteer **[!UICONTROL Use a non-default attribution model]** om het [ attributiemodel ](m-metric-type-alloc.md#attribution-models) van die gebeurtenis aan **[!UICONTROL Participation]** te bepalen en **[!UICONTROL Visits]** voor [!UICONTROL Container] te selecteren. Selecteer **[!UICONTROL Apply]** om te bevestigen.
+1. Selecteer ![&#x200B; Vistuig &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) voor metrisch.
+1. In popup die verschijnt, selecteer **[!UICONTROL Use a non-default attribution model]** om het [&#x200B; attributiemodel &#x200B;](m-metric-type-alloc.md#attribution-models) van die gebeurtenis aan **[!UICONTROL Participation]** te bepalen en **[!UICONTROL Visits]** voor [!UICONTROL Container] te selecteren. Selecteer **[!UICONTROL Apply]** om te bevestigen.
 
 
-   ![ popup van de attributie van de Kolom die als model en Bebezoeken wordt geselecteerd voor Container.](assets/participation-setup.png)
+   ![&#x200B; popup van de attributie van de Kolom die als model en Bebezoeken wordt geselecteerd voor Container.](assets/participation-setup.png)
 
    **(Verdeling|Bezoekingen|30 dagen)** wordt toegevoegd aan de naam van de metrische component.
 
@@ -32,7 +32,7 @@ In de onderstaande stappen ziet u hoe u een metrische deelname kunt maken.
 1. Selecteer [!UICONTROL **sparen**] om metrisch te bewaren.
 1. Gebruik berekende metrisch in uw rapport. Gebruik bijvoorbeeld de berekende [!DNL Orders (Session Participation)] -metrische waarde in een rapport om te tonen welke Klantreeks heeft bijgedragen aan (of heeft deelgenomen aan) sessies die een bestelling bevatten.
 
-   ![ Vrije lijst die de Rij en de Orden van de Klant toont.](assets/participation-pages-customer-tier.png)
+   ![&#x200B; Vrije lijst die de Rij en de Orden van de Klant toont.](assets/participation-pages-customer-tier.png)
 
 
 <!--

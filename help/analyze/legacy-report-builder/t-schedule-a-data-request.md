@@ -42,7 +42,7 @@ U kunt bijvoorbeeld plannen dat werkboeken direct of volgens een terugkerend sch
    Het tabblad [!UICONTROL Scheduled Reports] geeft een overzicht van alle taken die u hebt gemaakt en van het aantal resterende taken.
 1. Klik op het tabblad **[!UICONTROL Scheduled Reports]** op **[!UICONTROL New]** . De Basis plannende Tovenaar toont de opties worden gebruikt om het geplande rapport te bepalen die.
 
-   ![ Screenshot die de Basis plannende Tovenaar toont.](assets/simple-schedule-wizard.png)
+   ![&#x200B; Screenshot die de Basis plannende Tovenaar toont.](assets/simple-schedule-wizard.png)
 
 1. In [!UICONTROL Basic Scheduling Wizard], vorm de volgende opties:
 
@@ -53,7 +53,7 @@ U kunt bijvoorbeeld plannen dat werkboeken direct of volgens een terugkerend sch
 | Aanpassen | Hiermee kunt u de datumnotatie aanpassen. |
 | Naar | Toont uw Boek van het Adres van Vooruitzichten, als toepasselijk. |
 | Verzenden naar: E-mail | De e-mailontvanger van het werkboek. |
-| Power BI | Zie [ het Werkboek van Publish aan de Power BI van Microsoft ](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) voor meer informatie. |
+| Power BI | Zie [&#x200B; het Werkboek van Publish aan de Power BI van Microsoft &#x200B;](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) voor meer informatie. |
 | Onderwerp | Een door de gebruiker gedefinieerde beschrijving. |
 | Planning | Hier kunt u opgeven wanneer het werkboek moet worden verzonden. (Direct, uur, dag, week, maand, en jaarlijks.) |
 
@@ -77,4 +77,4 @@ U kunt bijvoorbeeld plannen dat werkboeken direct of volgens een terugkerend sch
 
 1. Klik op **[!UICONTROL OK]** en vervolgens op **[!UICONTROL Exit]** .
 
-   De Report Builder toont het geplande werkboek in de [ Geplande Manager van de Taak ](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md).
+   De Report Builder toont het geplande werkboek in de [&#x200B; Geplande Manager van de Taak &#x200B;](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md).
