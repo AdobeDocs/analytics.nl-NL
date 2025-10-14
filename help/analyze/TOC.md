@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '870'
 ht-degree: 10%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 10%
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding voor analysegereedschappen](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
@@ -81,12 +81,13 @@ ht-degree: 10%
       + Vrije-vormtabel {#freeform-table}
          + [Overzicht](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Hyperlinks maken](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Getraalde gegevens weergeven](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Filteren en sorteren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
             + [Kolominstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rijinstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische en statische items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filteren en sorteren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohortabel {#cohort-table}
          + [Overzicht](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
