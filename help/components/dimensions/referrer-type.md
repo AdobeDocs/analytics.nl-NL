@@ -3,20 +3,20 @@ title: Type referentie
 description: Het type referentie, afhankelijk van waar de bezoeker vandaan komt.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
 # Type referentie
 
-Het &quot;Type van Referateur&quot;[&#x200B; afmeting &#x200B;](overview.md) meldt welke generische kanaalbezoekers door klikten om bij uw plaats aan te komen. Adobe handhaaft de regels voor elk afmetingspunt, in tegenstelling tot [&#x200B; de kanalen van de Marketing &#x200B;](marketing-channel.md), waar uw organisatie regels voor elk kanaal handhaaft.
+Het &quot;Type van Referateur&quot;[ afmeting ](overview.md) meldt welke generische kanaalbezoekers door klikten om bij uw plaats aan te komen. Adobe handhaaft de regels voor elk afmetingspunt, in tegenstelling tot [ de kanalen van de Marketing ](marketing-channel.md), waar uw organisatie regels voor elk kanaal handhaaft.
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar meerdere opzoektabellen die intern zijn voor Adobe. Elke waarde is gebaseerd op [&#x200B; verwijzer &#x200B;](referrer.md) van de klap, die van [&#x200B; Interne filters URL &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) afhangt. Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
+Deze dimensie verwijst naar meerdere opzoektabellen die intern zijn voor Adobe. Elke waarde is gebaseerd op [ verwijzer ](referrer.md) van de klap, die van [ Interne filters URL ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) afhangt. Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
 
 ## Dimension-objecten
 
@@ -24,10 +24,34 @@ Dimension-objecten bevatten het type referentie van de hit. Specifieke waarden z
 
 * **Typed/Bookmarked**: Geen verwijzersgegevens bestaan voor de hit.
 * **de motoren van het Onderzoek**: De verwijzer kwam uit een erkende onderzoeksmotor die een koord van de sleutelwoordvraag omvat.
+* **Conversational AI hulpmiddelen**: De verwijzer kwam uit een erkend omzettend hulpmiddel van AI.
 * **Sociale netwerken:**: De gegevens van de verwijzer behoorden tot een Adobe-erkend sociaal netwerk.
 * **Andere websites**: De gegevens van de verwijzer behoorden niet tot een onderzoeksmotor of sociaal netwerk dat Adobe erkent.
+* **Geen JavaScript**: De verwijzer kwam uit browser die geen toegelaten JavaScript had.
 * **Vaste aandrijving**: De verwijzing kwam van een lokaal exemplaar van een Web-pagina op de harde aandrijving van de bezoeker voort.
 * **E-mail**: De verwijzing kwam van een URL met een protocol van `imap://` of `mail://` voort. Omvat geen online e-mailservices, aangezien deze doorgaans het `https://` -protocol gebruiken.
+
+### Gesprekte AI-gereedschappen
+
+De volgende lijst verwijst naar de opzoektabel &#39;Conversational AI tools&#39; die Adobe gebruikt. Adobe biedt deze lijst als een belediging aan klanten van Adobe Analytics. Als u wilt aanbevelen dat Adobe een domein aan deze lijst toevoegt, moet u een medewerker van de support in uw organisatie contact opnemen met de klantenservice.
+
+* `https://chatgpt.com`
+* `https://chat.com`
+* `https://chat.openai.com`
+* `https://gemini.google.com`
+* `https://copilot.microsoft.com`
+* `https://m365.cloud.microsoft`
+* `https://perplexity.ai`
+* `https://labs.perplexity.ai`
+* `https://playground.perplexity.ai`
+* `https://claude.ai`
+* `https://grok.com`
+* `https://komo.ai`
+* `https://phind.com`
+* `https://poe.com`
+* `https://blackbox.ai`
+* `https://chat.mistral.ai`
+* `https://meta.ai`
 
 ### Sociale netwerken
 
@@ -35,7 +59,7 @@ De volgende lijst verwijst naar de opzoektabel &#39;Sociale netwerken&#39; die A
 
 >[!NOTE]
 >
->Deze lijst is verschillend dan de standaardlijst van sociale netwerken in [&#x200B; de verwerkingsregels van het Kanaal van de Marketing &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+>Deze lijst is verschillend dan de standaardlijst van sociale netwerken in [ de verwerkingsregels van het Kanaal van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

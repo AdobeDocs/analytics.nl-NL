@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Blader naar een kennisbasis met nuttige artikelen die niet bij een bepaalde Analytics-tool of component horen.
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 17%
+source-wordcount: '207'
+ht-degree: 16%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 17%
 # Technische notities voor Analytics {#technotes}
 
 + [Technische notities voor Analytics](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Adobe Analytics voor Google Analytics-gebruikers {#ga-to-aa}
    + [Hulp voor Adobe Analytics for Google Analytics-gebruikers](ga-to-aa/home.md)
    + [Accounts en report suites](ga-to-aa/accounts.md)
@@ -31,6 +31,7 @@ ht-degree: 17%
    + [Veelgestelde vragen](ga-to-aa/faq.md)
    + [Verschillen tussen platforms verwerken](ga-to-aa/processing-differences.md)
    + [Gegevens vergelijken met producten van derden](ga-to-aa/compare-data.md)
++ [AI-verkeer analyseren](/help/technotes/ai-traffic.md)
 + Gegevens analyseren die door gebeurtenissen worden beïnvloed {#event}
    + [Gegevens analyseren die worden beïnvloed door het overzicht van gebeurtenissen](event/overview.md)
    + [Problemen met spikes/druppels in gegevens oplossen](event/spikes-drops.md)
