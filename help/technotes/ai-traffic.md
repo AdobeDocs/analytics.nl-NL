@@ -35,10 +35,10 @@ Er wordt een hit gegenereerd op een webpagina wanneer JavaScript op de pagina wo
 
 | AI-verkeerstype | Hiermee worden treffers gegenereerd | Overwegingen |
 |---------|----------|---------|
-| **Pretraining** | Ja | Deze taken worden tijdens de voortraining gegenereerd wanneer de inhoud van uw website in de AI wordt opgenomen. Voortraining komt echter zelden voor en inhoud die deel uitmaakt van de voortraining van een AI kan in toekomstige reacties telkens opnieuw worden gebruikt zonder dat u nog meer resultaten op uw website hoeft te genereren. <p>Met andere woorden, een enkele hit die optreedt tijdens de voortraining van een AI kan telkens opnieuw worden gebruikt voor meerdere reacties op aanvraag zonder dat er extra resultaten op uw website worden gegenereerd.</p><p>Voor informatie over hoe te om dit type van AI verkeer in Analysis Workspace te analyseren, zie [ AI verkeer analyseren gebruikend bot opsporing ](#analyze-ai-traffic-using-bot-detection).</p> |
+| **Pretraining** | Ja | Deze taken worden tijdens de voortraining gegenereerd wanneer de inhoud van uw website in de AI wordt opgenomen. Voortraining komt echter zelden voor en inhoud die deel uitmaakt van de voortraining van een AI kan in toekomstige reacties telkens opnieuw worden gebruikt zonder dat u nog meer resultaten op uw website hoeft te genereren. <p>Met andere woorden, een enkele hit die optreedt tijdens de voortraining van een AI kan telkens opnieuw worden gebruikt voor meerdere reacties op aanvraag zonder dat er extra resultaten op uw website worden gegenereerd.</p><p>Voor informatie over hoe te om dit type van AI verkeer in Analysis Workspace te analyseren, zie [&#x200B; AI verkeer analyseren gebruikend bot opsporing &#x200B;](#analyze-ai-traffic-using-bot-detection).</p> |
 | **op bestelling herinneringen** | Nee | De AI-reactie genereert geen treffers omdat de reactie een combinatie van:<ul><li>De vooraf opgeleide gegevens <br/> Informatie is reeds inbegrepen in de vooraf opgeleide kennis van AI, zodat voert AI geen JavaScript op pagina&#39;s uit.</li><li>Op bestelling Webonderzoek <br/> vindt slechts onbewerkte HTML van de Web-pagina tijdens het Webonderzoek, zodat voert AI geen JavaScript op pagina&#39;s uit.</li></ul> |
-| **het materiaalverbindingen van Source in AI reacties** | Ja | Deze knoppen worden gegenereerd wanneer een gebruiker op de koppeling naar het bronmateriaal klikt dat in de AI-reactie is opgenomen. Er wordt geen hit gegenereerd als een koppeling is opgenomen in de reactie en de gebruiker niet op de koppeling heeft geklikt. <p>Sommige AI-chatbotreacties bevatten koppelingen naar het bronmateriaal en andere niet. </p><p>Voor informatie over hoe te om dit type van AI verkeer in Analysis Workspace te analyseren, zie [ AI verkeer door Verwijzertype ](#analyze-ai-traffic-by-referrer-type) analyseren.</p> |
-| **Agentische werkschema&#39;s** | Ja | Deze onderbrekingen worden op elke pagina gegenereerd wanneer de AI-agent namens de gebruiker door de workflow klikt. <p>Voor informatie over hoe te om dit type van AI verkeer in Analysis Workspace te analyseren, zie [ AI verkeer door Verwijzertype ](#analyze-ai-traffic-by-referrer-type) analyseren.</p> |
+| **het materiaalverbindingen van Source in AI reacties** | Ja | Deze knoppen worden gegenereerd wanneer een gebruiker op de koppeling naar het bronmateriaal klikt dat in de AI-reactie is opgenomen. Er wordt geen hit gegenereerd als een koppeling is opgenomen in de reactie en de gebruiker niet op de koppeling heeft geklikt. <p>Sommige AI-chatbotreacties bevatten koppelingen naar het bronmateriaal en andere niet. </p><p>Voor informatie over hoe te om dit type van AI verkeer in Analysis Workspace te analyseren, zie [&#x200B; AI verkeer door Verwijzertype &#x200B;](#analyze-ai-traffic-by-referrer-type) analyseren.</p> |
+| **Agentische werkschema&#39;s** | Ja | Deze onderbrekingen worden op elke pagina gegenereerd wanneer de AI-agent namens de gebruiker door de workflow klikt. <p>Voor informatie over hoe te om dit type van AI verkeer in Analysis Workspace te analyseren, zie [&#x200B; AI verkeer door Verwijzertype &#x200B;](#analyze-ai-traffic-by-referrer-type) analyseren.</p> |
 
 ## AI-verkeer in Analysis Workspace analyseren
 
@@ -50,9 +50,9 @@ Met de dimensie Type referentie in Analysis Workspace kunt u de volgende typen A
 
 * Agentische workflows
 
-De het type van Referteur dimensie omvat het [ Conversational AI hulpmiddelpunt ](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Dit item bevat een vooraf gedefinieerde lijst met AI-chatbots.
+De het type van Referteur dimensie omvat het [&#x200B; Conversational AI hulpmiddelpunt &#x200B;](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Dit item bevat een vooraf gedefinieerde lijst met AI-chatbots.
 
-Voor meer informatie, zie [ het type van Referateur ](/help/components/dimensions/referrer-type.md).
+Voor meer informatie, zie [&#x200B; het type van Referateur &#x200B;](/help/components/dimensions/referrer-type.md).
 
 ### AI-verkeer analyseren met behulp van botdetectie
 
