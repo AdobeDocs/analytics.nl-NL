@@ -14,7 +14,7 @@ ht-degree: 10%
 
 Hieronder volgen enkele belangrijke manieren waarop Adobe Analytics organisaties kan helpen om kritische inzichten te verwerven om hun klanten beter te kunnen dienen.
 
-Voor extra details over de voordelen die Adobe Analytics verstrekt, zie de [&#x200B; het productpagina van Adobe Analytics &#x200B;](https://business.adobe.com/products/analytics/adobe-analytics.html).
+Voor extra details over de voordelen die Adobe Analytics verstrekt, zie de [&#x200B; het productpagina van Adobe Analytics &#x200B;](https://business.adobe.com/nl/products/analytics/adobe-analytics.html).
 
 ## Webanalyse
 

@@ -20,7 +20,7 @@ Als uw organisatie de prestaties en klikthrough tarief van marketing inspanninge
 1. [Uw Adobe Analytics-implementatie instellen of aanpassen om gegevens over trackingcode op te nemen](#include-campaign-variables-in-your-implementation)
 1. [Rapporten weergeven in Analysis Workspace](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) kan u helpen elk van deze stappen te vereenvoudigen om de meeste waarde uit uw marketing inspanningen te drijven. Neem voor meer informatie contact op met je Adobe verkoper.
+[Adobe Campaign](https://business.adobe.com/nl/products/campaign/adobe-campaign.html) kan u helpen elk van deze stappen te vereenvoudigen om de meeste waarde uit uw marketing inspanningen te drijven. Neem voor meer informatie contact op met je Adobe verkoper.
 
 ## Een proces voor het genereren van code bijhouden definiëren
 

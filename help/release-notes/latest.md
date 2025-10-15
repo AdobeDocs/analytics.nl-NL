@@ -60,4 +60,4 @@ Voor de recentste updates op de versies van AppMeasurement, gelieve te verwijzen
 * [Opmerkingen bij de vorige release voor 2025](/help/release-notes/2025.md)
 * [&#x200B; de versienota&#39;s van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=nl-NL)
 * [&#x200B; het stromen de versienota&#39;s van de media diensten &#x200B;](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=nl-NL)
-* De recentste versie werkt voor [&#x200B; producten van Adobe Experience Cloud &#x200B;](https://business.adobe.com/products/adobe-experience-cloud-products.html) bij
+* De recentste versie werkt voor [&#x200B; producten van Adobe Experience Cloud &#x200B;](https://business.adobe.com/nl/products/adobe-experience-cloud-products.html) bij

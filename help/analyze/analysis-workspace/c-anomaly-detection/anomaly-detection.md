@@ -119,17 +119,17 @@ Hieronder volgt een lijst van de gedetailleerde rechten voor de analyse van Anom
    <td colname="col3" colsep="1"> <p>Geen tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > Selecteren </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/nl/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > Selecteren </a> </p> </td> 
    <td colname="col2"> <p>Alleen dagelijkse granulariteit </p> </td> 
    <td colname="col3"> <p>Geen tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  > Prime </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/nl/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  > Prime </a> </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>10 tokens per maand </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/nl/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate </a> </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>20 tokens per maand </p> </td> 
   </tr> 
@@ -154,7 +154,7 @@ Hieronder volgt een lijst van de gedetailleerde rechten voor de analyse van Anom
    <td colname="col3"> <p>2 tokens per maand </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (volledige, <a href="https://business.adobe.com/products/analytics/predictive-analytics.html"  > voorspellende intelligentie </a> ) </p> </td> 
+   <td colname="col1"> <p>Premium (volledige, <a href="https://business.adobe.com/nl/products/analytics/predictive-analytics.html"  > voorspellende intelligentie </a> ) </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>Onbeperkte tokens </p> </td> 
   </tr> 
