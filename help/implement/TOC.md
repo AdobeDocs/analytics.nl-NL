@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '461'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 # Adobe Analytics-implementatiehandleiding {#implementation}
 
 + [Handleiding voor analytische implementatie](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + [Opmerkingen bij de release van AppMeasurement](appmeasurement-updates.md)
 + Variabelen, functies en methoden voor analyse {#vars}
    + [Overzicht](vars/overview.md)
@@ -131,6 +131,14 @@ ht-degree: 7%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Module integreren](vars/integrate.md)
++ Identificatie bezoeker {#id}
+   + [Overzicht](id/overview.md)
+   + [AppMeasurement gebruiken](id/appmeasurement.md)
+   + [De extensie Analytics gebruiken](id/analytics-extension.md)
+   + [Web SDK gebruiken (Alloy)](id/alloy.md)
+   + [De extensie Web SDK gebruiken](id/web-sdk-extension.md)
+   + [Migreren naar de Bezoeker-id-service](id/migration.md)
+   + [Houd u bij de verschillende implementatietypen](id/cross-type-implementation.md)
 + Voorbereiden op implementatie van Adobe Analytics {#prepare}
    + [Een gegevenslaag maken](prepare/data-layer.md)
    + [Implementatiemethoden vergelijken](prepare/comparison.md)
@@ -188,7 +196,6 @@ ht-degree: 7%
 + [Analyses implementeren op mobiele apparaten](mobile-device-sdk.md)
 + Gebruiksscenario&#39;s implementeren {#use-cases}
    + [AppMeasurement gebruiken met iFrames](use-cases/iframe.md)
-   + [Houd verschillende implementatietypen bij](use-cases/cross-type-implementation.md)
    + [Workflow voor bijhouden van campagnes](use-cases/campaign-tracking.md)
 + Uw implementatie valideren {#validate}
    + [Legacy Adobe Experience Cloud debugger](validate/debugger.md)

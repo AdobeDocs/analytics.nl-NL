@@ -3,49 +3,23 @@ title: Unieke bezoekers
 description: Het aantal unieke bezoeker-id's.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
+source-git-commit: f26f406848ab26092738089aac64ed9b4fc08019
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '172'
+ht-degree: 0%
 
 ---
 
 # Unieke bezoekers
 
-De &quot;Unieke bezoekers&quot;[&#x200B; metrische &#x200B;](overview.md) toont het aantal bezoekersidentiteitskaarts voor het afmetingspunt. Het is één van de gemeenschappelijkste metriek die bij het bepalen van verkeer wordt gebruikt, aangezien het een overzicht op hoog niveau van de populariteit van een afmetingspunt geeft. Een bezoeker kan bijvoorbeeld elke dag een maand naar uw site komen, maar hij telt nog steeds als één unieke bezoeker.
+De &quot;Unieke bezoekers&quot;[ metrische ](overview.md) toont het aantal bezoekersidentiteitskaarts voor het afmetingspunt. Het is één van de gemeenschappelijkste metriek die bij het bepalen van verkeer wordt gebruikt, aangezien het een overzicht op hoog niveau van de populariteit van een afmetingspunt geeft. Een bezoeker kan bijvoorbeeld elke dag een maand naar uw site komen, maar hij telt nog steeds als één unieke bezoeker.
 
-Als u [&#x200B; dwars-apparatenanalyses &#x200B;](../cda/overview.md) gebruikt, wordt metrisch vervangen met [&#x200B; Unieke apparaten &#x200B;](unique-devices.md) metrisch.
+Als u [ dwars-apparatenanalyses ](../cda/overview.md) gebruikt, wordt metrisch vervangen met [ Unieke apparaten ](unique-devices.md) metrisch.
 
 ## Dagelijkse, wekelijkse, maandelijkse, driemaandelijkse en jaarlijkse unieke bezoekers
 
-Analysis Workspace behandelt unieke bezoekers op basis van de granulariteit van het rapport. Bijvoorbeeld, als u de [&#x200B; dimensie van de Dag &#x200B;](../dimensions/day.md) gebruikt, zult u dagelijkse unieke bezoekers voor elk afmetingspunt zien. Nochtans, voor het rapporttotaal, wordt het gededupliceerde unieke bezoekers voor de de datumwaaier van de vrije lijst van de vorm.
+Analysis Workspace behandelt unieke bezoekers op basis van de granulariteit van het rapport. Bijvoorbeeld, als u de [ dimensie van de Dag ](../dimensions/day.md) gebruikt, zult u dagelijkse unieke bezoekers voor elk afmetingspunt zien. Nochtans, voor het rapporttotaal, wordt het gededupliceerde unieke bezoekers voor de de datumwaaier van de vrije lijst van de vorm.
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische waarde telt het aantal unieke bezoeker-id&#39;s voor een bepaald dimensie-item. Het gebruikt veelvoudige geavanceerde mechanismen om unieke bezoekers te identificeren, aangezien er verscheidene manieren zijn om hen te identificeren. De volgende tabel bevat een overzicht van de manier waarop een bezoeker wordt geïdentificeerd, samen met zijn prioriteit. Sommige treffers kunnen veelvoudige methodes van de bezoekersidentificatie hebben; in deze gevallen wordt de hogere prioritaire methode gebruikt.
-
-| Volgorde gebruikt | Query-parameter (verzamelingsmethode) | presenteren als |
-| --- | --- | --- |
-| 1 | `vid` | De variabele [`visitorID`](/help/implement/vars/config-vars/visitorid.md) wordt ingesteld. |
-| 2 | `aid` | Bezoeker heeft een bestaand [`s_vi` &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie. Plaats op implementaties zonder of voorafgaand aan het uitvoeren van de dienst van identiteitskaart van de Bezoeker. |
-| 3 | `mid` | Bezoeker heeft een bestaand [`s_ecid` &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie. Plaats op implementaties gebruikend de [&#x200B; dienst van de Identiteit van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL). Adobe raadt aan de id-service waar mogelijk te gebruiken voor alle implementaties. |
-| 4 | `fid` | Bezoeker heeft een bestaande [`s_fid` &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=nl-NL) cookie, of als `aid` en `mid` om welke reden dan ook niet kunnen worden ingesteld. |
-| 5 | IP Adres, de Agent van de Gebruiker, IP van de Gateway Adres | Laatste middel om een unieke bezoeker te identificeren als de browser van de bezoeker geen cookies accepteert. |
-
->[!NOTE]
->
->Elke Analytics-bezoeker-id is gekoppeld aan een profiel op Adobe-servers. Deze bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
-
-## Gedrag dat van invloed is op het aantal unieke bezoekers
-
-Unieke bezoekersidentificatoren worden doorgaans opgeslagen in een browsercookie. Een nieuwe unieke bezoeker wordt geteld als deze een van de volgende handelingen uitvoert:
-
-* Wist de cache op elk gewenst moment
-* Opent een andere browser op dezelfde computer. Eén unieke bezoeker wordt per browser geteld.
-* Dezelfde persoon die op verschillende apparaten door uw site bladert. Een afzonderlijke unieke bezoeker wordt geteld per apparaat. U kunt [&#x200B; dwars-apparatenanalyses &#x200B;](../cda/overview.md) gebruiken om bezoekers samen te combineren gebruikend [&#x200B; metrische Mensen &#x200B;](people.md).
-* Hiermee opent u een Private Browsing-sessie (zoals het tabblad Chrome Incognito).
-
-Een nieuwe unieke bezoeker wordt *niet* geteld, zolang het koekjesherkenningsteken wordt bewaard:
-
-* Sluit hun browser voor een langere periode
-* Hiermee wordt de browser bijgewerkt naar de nieuwste versie
+Deze metrische waarde telt het aantal unieke bezoeker-id&#39;s voor een bepaald dimensie-item. Zie [ overzicht van de identiteitskaart van de Bezoeker ](/help/implement/id/overview.md) voor meer informatie over hoe Adobe Analytics unieke bezoekers identificeert.
