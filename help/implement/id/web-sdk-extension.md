@@ -16,4 +16,4 @@ Aangezien de Bezoeker-id-service in een native omgeving is gekoppeld aan de tage
 
 >[!NOTE]
 >
->Neem de extensie van de service-tag voor bezoekers-id niet op als u de extensie van de Web SDK-tag gebruikt. De de markeringsuitbreiding van de Dienst van identiteitskaart van de Bezoeker wordt slechts vereist als u de [ uitbreiding van Adobe Analytics ](analytics-extension.md) gebruikt.
+>Neem de extensie van de service-tag voor bezoekers-id niet op als u de extensie van de Web SDK-tag gebruikt. De de markeringsuitbreiding van de Dienst van identiteitskaart van de Bezoeker wordt slechts vereist als u de [&#x200B; uitbreiding van Adobe Analytics &#x200B;](analytics-extension.md) gebruikt.

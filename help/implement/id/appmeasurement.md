@@ -16,11 +16,11 @@ AppMeasurement is de verouderde JavaScript-bibliotheek van Adobe Analytics voor 
 
 Zorg ervoor dat u voorbereid bent met het volgende:
 
-* Download de [ Meest recente versie van AppMeasurement ](https://github.com/adobe/appmeasurement). De gedownloade bibliotheek bevat zowel `AppMeasurement.js` als `VisitorAPI.js` .
-* De reeks ID van het ontwikkelings [ Rapport ](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
+* Download de [&#x200B; Meest recente versie van AppMeasurement &#x200B;](https://github.com/adobe/appmeasurement). De gedownloade bibliotheek bevat zowel `AppMeasurement.js` als `VisitorAPI.js` .
+* De reeks ID van het ontwikkelings [&#x200B; Rapport &#x200B;](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * Het gewenste randdomein voor [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) .
 * Uw IMS org-id:
-   1. Login aan [ experience.adobe.com ](https://experience.adobe.com) gebruikend uw geloofsbrieven van Adobe ID.
+   1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com) gebruikend uw geloofsbrieven van Adobe ID.
    1. Druk overal in de Experience Cloud-interface op `[Cmd]` + `[I]` (iOS) of `[Ctrl]` + `[I]` (Windows).
    1. Er verschijnt een **[!UICONTROL User data debugger]** . Selecteer het tabblad **[!UICONTROL Assigned orgs]**. 
    1. Breid de gewenste organisatie IMS uit.
@@ -64,9 +64,9 @@ Zodra u de bovengenoemde middelen hebt, bevat de volgende basisvoorbeeldpagina d
 >
 >Adobe raadt u af deze methode te gebruiken om bezoekers te identificeren.
 
-Als uw organisatie de Bezoeker-id-service niet gebruikt, gebruikt AppMeasurement een eigen vorm van bezoekersidentificatie. Wanneer een bezoeker voor het eerst bij uw plaats aankomt, controleert de bibliotheek een [`s_vi` ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) koekje. Deze cookie wordt ingesteld op het overeenkomende domein [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (voor HTTPS) of [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (voor HTTP).
+Als uw organisatie de Bezoeker-id-service niet gebruikt, gebruikt AppMeasurement een eigen vorm van bezoekersidentificatie. Wanneer een bezoeker voor het eerst bij uw plaats aankomt, controleert de bibliotheek een [`s_vi` &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) koekje. Deze cookie wordt ingesteld op het overeenkomende domein [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (voor HTTPS) of [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (voor HTTP).
 
-* Als u aan het [ Beheerde certificaatprogramma ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert) deelneemt, zou uw het volgen server typisch een eerste-partijdomein zijn, makend `s_vi` koekjes eerste-partij.
+* Als u aan het [&#x200B; Beheerde certificaatprogramma &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert) deelneemt, zou uw het volgen server typisch een eerste-partijdomein zijn, makend `s_vi` koekjes eerste-partij.
 * Als u niet deelneemt aan het beheerde certificaatprogramma, is de trackingserver doorgaans een subdomein van `adobedc.net` , `omtrdc.net` of `2o7.net` , waardoor de `s_vi` -cookie een cookie van een derde wordt. Vanwege de moderne privacystandaarden van browsers worden cookies van derden door de meeste browsers geweigerd. Als AppMeasurement eenmaal is geweigerd, probeert het een fallback-cookie van de eerste partij (`fid`) in te stellen.
 
 Als u `trackingServerSecure` op de juiste wijze instelt, zijn geen verdere identificatiemaatregelen voor de bezoeker vereist.
