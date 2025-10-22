@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Bezoekersidentificatie met de Web SDK JavaScript-bibliotheek
 
-De Adobe Experience Platform Web SDK JavaScript bibliotheek (`alloy.js`) biedt een verenigde, moderne benadering van gegevensinzameling voor alle toepassingen van Adobe Experience Cloud, met inbegrip van Adobe Analytics. Terwijl de meeste klanten typisch de [ de markeringsuitbreiding van SDK van het Web ](web-sdk-extension.md) uitvoeren, kunt u de bibliotheek van JavaScript van het Web op zijn of binnen een systeem van het de markeringsbeheer van derde gebruiken. Zie [ Toestaan ](https://github.com/adobe/alloy) op GitHub om de recentste versie van de bibliotheek te downloaden.
+De Adobe Experience Platform Web SDK JavaScript bibliotheek (`alloy.js`) biedt een verenigde, moderne benadering van gegevensinzameling voor alle toepassingen van Adobe Experience Cloud, met inbegrip van Adobe Analytics. Terwijl de meeste klanten typisch de [&#x200B; de markeringsuitbreiding van SDK van het Web &#x200B;](web-sdk-extension.md) uitvoeren, kunt u de bibliotheek van JavaScript van het Web op zijn of binnen een systeem van het de markeringsbeheer van derde gebruiken. Zie [&#x200B; Toestaan &#x200B;](https://github.com/adobe/alloy) op GitHub om de recentste versie van de bibliotheek te downloaden.
 
 Identiteitsgegevens kunnen worden uitgebreid voor ondersteuning van aangepaste id&#39;s en meerdere naamruimten met behulp van XDM&#39;s `identityMap` . Adobe raadt u aan de Adobe Experience Cloud ID Service als primaire id voor Analytics te gebruiken en andere opties voor identiteitsbeheer voor geavanceerde scenario&#39;s te gebruiken.
 
