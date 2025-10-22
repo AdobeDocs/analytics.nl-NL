@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Blader naar een kennisbasis met nuttige artikelen die niet bij een bepaalde Analytics-tool of component horen.
-source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 16%
+source-wordcount: '205'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 # Technische notities voor Analytics {#technotes}
 
 + [Technische notities voor Analytics](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Adobe Analytics voor Google Analytics-gebruikers {#ga-to-aa}
    + [Hulp voor Adobe Analytics for Google Analytics-gebruikers](ga-to-aa/home.md)
    + [Accounts en report suites](ga-to-aa/accounts.md)
@@ -66,5 +66,4 @@ ht-degree: 16%
 + [Problemen met aanmelden oplossen](troubleshoot-login.md)
 + [Problemen oplossen bij het afmelden](troubleshoot-sessions.md)
 + [Niet opgegeven, andere en onbekend](unspecified.md)
-+ [Bezoekersmigratie](visitor-migration.md)
 + [VISTA-regels](vista.md)

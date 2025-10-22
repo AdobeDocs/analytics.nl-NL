@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 # Adobe Analytics-implementatiehandleiding {#implementation}
 
 + [Handleiding voor analytische implementatie](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + [Opmerkingen bij de release van AppMeasurement](appmeasurement-updates.md)
 + Variabelen, functies en methoden voor analyse {#vars}
    + [Overzicht](vars/overview.md)
@@ -133,10 +133,10 @@ ht-degree: 7%
    + [Module integreren](vars/integrate.md)
 + Identificatie bezoeker {#id}
    + [Overzicht](id/overview.md)
-   + [AppMeasurement gebruiken](id/appmeasurement.md)
-   + [De extensie Analytics gebruiken](id/analytics-extension.md)
-   + [Web SDK gebruiken (Alloy)](id/alloy.md)
    + [De extensie Web SDK gebruiken](id/web-sdk-extension.md)
+   + [Web SDK gebruiken (Alloy)](id/alloy.md)
+   + [De extensie Analytics gebruiken](id/analytics-extension.md)
+   + [AppMeasurement gebruiken](id/appmeasurement.md)
    + [Migreren naar de Bezoeker-id-service](id/migration.md)
    + [Houd u bij de verschillende implementatietypen](id/cross-type-implementation.md)
 + Voorbereiden op implementatie van Adobe Analytics {#prepare}
