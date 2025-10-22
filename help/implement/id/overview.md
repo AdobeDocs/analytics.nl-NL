@@ -24,9 +24,9 @@ Wanneer Adobe een treffer ontvangt, worden de volgende controles in volgorde uit
 | Volgorde gebruikt | Query-parameter | Presenteren wanneer |
 |---|---|---|
 | **1 <sup> st</sup>** | `vid` | De variabele [`visitorID`](/help/implement/vars/config-vars/visitorid.md) wordt ingesteld. |
-| **2 <sup> en</sup>** | `aid` | De bezoeker heeft een bestaand [`s_vi` &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) koekje. Plaats op implementaties zonder of voorafgaand aan het uitvoeren van de dienst van identiteitskaart van de Bezoeker. |
-| **3 <sup> rd</sup>** | `mid` | De bezoeker heeft een bestaand [`s_ecid` &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) koekje. Plaats op implementaties gebruikend de [&#x200B; dienst van de Identiteit van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html). Adobe raadt aan de id-service waar mogelijk te gebruiken voor alle implementaties. |
-| **4 <sup> de</sup>** | `fid` | De bezoeker heeft een bestaand [`s_fid` &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) koekje. AppMeasurement genereert automatisch een fallback-id als `aid` en `mid` om welke reden dan ook niet kunnen worden ingesteld. |
+| **2 <sup> en</sup>** | `aid` | De bezoeker heeft een bestaand [`s_vi` &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/cookies/analytics) koekje. Plaats op implementaties zonder of voorafgaand aan het uitvoeren van de dienst van identiteitskaart van de Bezoeker. |
+| **3 <sup> rd</sup>** | `mid` | De bezoeker heeft een bestaand [`s_ecid` &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/cookies/analytics) koekje. Plaats op implementaties gebruikend de [&#x200B; dienst van de Identiteit van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL). Adobe raadt aan de id-service waar mogelijk te gebruiken voor alle implementaties. |
+| **4 <sup> de</sup>** | `fid` | De bezoeker heeft een bestaand [`s_fid` &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/cookies/analytics) koekje. AppMeasurement genereert automatisch een fallback-id als `aid` en `mid` om welke reden dan ook niet kunnen worden ingesteld. |
 | **5 <sup> de</sup>** | IP adres + gebruikersagent | Wordt gebruikt als laatste redmiddel om een unieke bezoeker te identificeren als de browser van de bezoeker geen cookies accepteert. Een gehakt bezoekersidentiteitskaart wordt geproduceerd vóór [&#x200B; IP verduistering &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). Als IP het adres niet beschikbaar is, worden andere IP details (zoals gatewayIP) in plaats daarvan gebruikt. |
 
 De geselecteerde bezoekersidentiteitskaart wordt dan gehakt en wordt hun server-zijherkenningsteken. Deze server-kant herkenningsteken is beschikbaar als `visid_high` + `visid_low` in [&#x200B; de voer van Gegevens &#x200B;](/help/export/analytics-data-feed/data-feed-overview.md).
@@ -42,7 +42,7 @@ Unieke bezoekersidentificatoren worden doorgaans opgeslagen in een browsercookie
 * Bezoekt uw site op verschillende apparaten. Eén unieke bezoeker wordt geteld per apparaat.
 * Bezoek uw site na meer dan 13 maanden inactiviteit.
 
-Overweeg het gebruiken van [&#x200B; Stitching &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview) in Customer Journey Analytics om de zelfde persoon te identificeren gebruikend veelvoudige browsers of veelvoudige apparaten.
+Overweeg het gebruiken van [&#x200B; Stitching &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/stitching/overview) in Customer Journey Analytics om de zelfde persoon te identificeren gebruikend veelvoudige browsers of veelvoudige apparaten.
 
 ## Gedrag dat geen invloed heeft op het aantal unieke bezoekers
 
