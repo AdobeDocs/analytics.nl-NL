@@ -3,7 +3,7 @@ description: Contextbewuste sessies in virtuele rapportsuites veranderen hoe Ado
 title: Contextbewuste sessies
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: b9919c43b0232de1f8cb473d760bc013f4bc01f8
+source-git-commit: 50f04ed366bf973fac43a29d6291afb017eb1f85
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 0%
@@ -19,7 +19,7 @@ U kunt een bezoek op elke gewenste manier definiëren zonder de onderliggende ge
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; context-bewuste zittingen &#x200B;](https://video.tv.adobe.com/v/3428477?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ context-bewuste zittingen ](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ Voorbeeld 1: Een achtergrondhit treedt op in een bepaalde tijdsperiode (t) vóó
 
 ![](assets/nogoodexample1.jpg)
 
-In dit voorbeeld, als *t* groter is dan de gevormde het bezoekonderbreking van de virtuele rapportreeks, dan wordt de achtergrondhit uitgesloten van het bezoek dat door de voorgrondhits wordt gevormd. Bijvoorbeeld, als de virtuele onderbrekingen van het de bezoekersbezoek van de rapportreeks aan 15 minuten werd geplaatst, en *t* 20 minuten was, zou het bezoek dat door deze reeks klappen (die door het groene overzicht wordt getoond) wordt gevormd de achtergrondklap uitsluiten. Dit betekent dat om het even welke eVars die met een &quot;bezoek&quot;verlopen op de achtergrond **&#x200B;**&#x200B;worden geplaatst niet in het volgende bezoek zou voortbestaan, en een container van het bezoekensegment zou slechts de voorgrondhits binnen het groene overzicht omvatten.
+In dit voorbeeld, als *t* groter is dan de gevormde het bezoekonderbreking van de virtuele rapportreeks, dan wordt de achtergrondhit uitgesloten van het bezoek dat door de voorgrondhits wordt gevormd. Bijvoorbeeld, als de virtuele onderbrekingen van het de bezoekersbezoek van de rapportreeks aan 15 minuten werd geplaatst, en *t* 20 minuten was, zou het bezoek dat door deze reeks klappen (die door het groene overzicht wordt getoond) wordt gevormd de achtergrondklap uitsluiten. Dit betekent dat om het even welke eVars die met een &quot;bezoek&quot;verlopen op de achtergrond **** worden geplaatst niet in het volgende bezoek zou voortbestaan, en een container van het bezoekensegment zou slechts de voorgrondhits binnen het groene overzicht omvatten.
 
 ![](assets/nogoodexample1-2.jpg)
 
@@ -101,7 +101,7 @@ Als, echter, *t1* en *t2* groter zijn dan de virtuele gevormde onderbreking van 
 
 ![](assets/nogoodexample3-2.jpg)
 
-Eveneens (zoals in onze vorige voorbeelden), als *t1* minder dan de onderbreking is en *t2* minder dan onderbreking is de achtergrondklap in het eerste bezoek zou worden omvat:
+Eveneens (zoals in onze vorige voorbeelden), als *t1* minder dan de onderbreking is en *t2* groter is dan de onderbreking, zou de achtergrondklap in het eerste bezoek worden omvat:
 
 ![](assets/nogoodexample3-3.jpg)
 
