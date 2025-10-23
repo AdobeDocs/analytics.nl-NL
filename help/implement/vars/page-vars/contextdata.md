@@ -4,22 +4,24 @@ description: Met contextgegevensvariabelen kunt u aangepaste variabelen definië
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
 # contextData
 
-Met contextgegevensvariabelen kunt u aangepaste variabelen definiëren op elke pagina die door verwerkingsregels kan worden gelezen. In plaats van expliciet waarden toe te wijzen aan analytische variabelen in uw code, kunt u gegevens verzenden in contextgegevensvariabelen. De verwerkingsregels nemen dan de veranderlijke waarden van contextgegevens en gaan hen in respectieve variabelen van de Analyse over. Zie [&#x200B; Regels van de Verwerking &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) in de Admin gebruikersgids.
+Met contextgegevensvariabelen kunt u aangepaste variabelen definiëren op elke pagina die door verwerkingsregels kan worden gelezen. In plaats van expliciet waarden toe te wijzen aan analytische variabelen in uw code, kunt u gegevens verzenden in contextgegevensvariabelen. De verwerkingsregels nemen dan de veranderlijke waarden van contextgegevens en gaan hen in respectieve variabelen van de Analyse over. Zie [ Regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) in de Admin gebruikersgids.
 
 Contextgegevensvariabelen zijn handig voor ontwikkelingsteams om gegevens te verzamelen in benoemde elementen in plaats van genummerde variabelen. In plaats van ontwikkelingsteams bijvoorbeeld te vragen de auteur van de pagina aan `eVar10` toe te wijzen, kunt u deze laten toewijzen aan `s.contextData["author"]` . Een beheerder van Analytics in uw organisatie kan dan verwerkingsregels tot stand brengen om de variabelen van de contextgegevens in analytische variabelen voor het melden in kaart te brengen. Ontwikkelingsteams zouden zich uiteindelijk alleen zorgen maken over de variabelen van contextgegevens in plaats van over de vele paginariabelen die Adobe aanbiedt.
 
+De maximale grootte van alle gecombineerde contextgegevensvariabelen (inclusief sleutels en waarden) is 32 kB.
+
 ## Contextgegevensvariabelen die de Web SDK gebruiken
 
-Als het gebruiken van het [**voorwerp XDM**](/help/implement/aep-edge/xdm-var-mapping.md), zijn alle gebieden die niet aan een variabele van Adobe Analytics in kaart brengen automatisch inbegrepen als variabele van contextgegevens. U kunt ook expliciet contextgegevens instellen met het XDM-object. U kunt [&#x200B; Regels van de Verwerking &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) dan gebruiken om de variabele van contextgegevens aan de gewenste variabele van Analytics toe te wijzen.  Zie [&#x200B; Toewijzing andere gebieden XDM aan de variabelen van Analytics &#x200B;](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) voor meer informatie.
+Als het gebruiken van het [**voorwerp XDM**](/help/implement/aep-edge/xdm-var-mapping.md), zijn alle gebieden die niet aan een variabele van Adobe Analytics in kaart brengen automatisch inbegrepen als variabele van contextgegevens. U kunt ook expliciet contextgegevens instellen met het XDM-object. U kunt [ Regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) dan gebruiken om de variabele van contextgegevens aan de gewenste variabele van Analytics toe te wijzen.  Zie [ Toewijzing andere gebieden XDM aan de variabelen van Analytics ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) voor meer informatie.
 
 Als het gebruiken van het [**gegevensvoorwerp**](/help/implement/aep-edge/data-var-mapping.md), verblijven alle variabelen van contextgegevens binnen `data.__adobe.analytics.contextData` als zeer belangrijk-waardeparen:
 
@@ -38,7 +40,7 @@ alloy("sendEvent", {
 });
 ```
 
-De [&#x200B; interface van de Regels van de Verwerking &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) zou `example_variable` en `second_example` in toepasselijke drop-down menu&#39;s tonen.
+De [ interface van de Regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) zou `example_variable` en `second_example` in toepasselijke drop-down menu&#39;s tonen.
 
 ## Contextgegevensvariabelen die de extensie Adobe Analytics gebruiken
 
@@ -54,9 +56,9 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * Geldige contextgegevensvariabelen bevatten alleen alfanumerieke tekens, onderstrepingstekens en punten. Adobe garandeert geen gegevensverzameling in verwerkingsregels als u andere tekens, zoals afbreekstreepjes, opneemt.
-* Begin geen variabelen van contextgegevens met `"a."`. Dit voorvoegsel is gereserveerd en wordt gebruikt door Adobe. Gebruik bijvoorbeeld niet `s.contextData["a.InstallEvent"]` .
+* Start geen variabelen voor contextgegevens met het voorvoegsel `"a."` . Dit voorvoegsel is gereserveerd en wordt gebruikt door Adobe. Gebruik bijvoorbeeld niet `s.contextData["a.InstallEvent"]` .
 * Contextgegevensvariabelen zijn niet hoofdlettergevoelig. De variabelen `s.contextData["example"]` en `s.contextData["EXAMPLE"]` zijn identiek.
-* Een enkele toets mag niet meer dan één waarde bevatten. Als u de variabelen van contextgegevens voor multi-waardevariabelen wilt gebruiken, schakelt alle waarden aaneen gebruikend een scheidingsteken (typisch a komma) en gaat het in of a [&#x200B; lijst prop &#x200B;](prop.md#list-props) of a [&#x200B; lijstvariabele &#x200B;](list.md) gebruikend verwerkingsregels over.
+* Een enkele toets mag niet meer dan één waarde bevatten. Als u de variabelen van contextgegevens voor multi-waardevariabelen wilt gebruiken, schakelt alle waarden aaneen gebruikend een scheidingsteken (typisch a komma) en gaat het in of a [ lijst prop ](prop.md#list-props) of a [ lijstvariabele ](list.md) gebruikend verwerkingsregels over.
 
 ## De verwerkingsregels van het gebruik om analysevariabelen te bevolken
 
