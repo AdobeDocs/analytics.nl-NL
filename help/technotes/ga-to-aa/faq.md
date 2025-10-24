@@ -18,7 +18,7 @@ Elk Analytics-platform heeft verschillende manieren om data te verzamelen, te be
 
 Neem contact op met uw Adobe-accountteam als uw organisatie er zeker van is dat historische gegevens naar Adobe worden verzonden. Een implementatieconsultant kan met uw organisatie samenwerken om een Google Analytics-data-export te vertalen naar een databron die kan worden opgenomen door Adobe-servers voor dataverzameling.
 
-Voor het bewegen over historische gegevens moet de aanbeveling [&#x200B; Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) gebruiken die in om het even welke bron van omni-kanaalgegevens kan brengen.
+Voor het bewegen over historische gegevens moet de aanbeveling [&#x200B; Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview) gebruiken die in om het even welke bron van omni-kanaalgegevens kan brengen.
 
 **ik wordt gebruikt aan een segmentatie drop-down lijst in veel van mijn rapporten. Hoe kan ik dat opnieuw maken in [!UICONTROL Analysis Workspace]?**
 
