@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Classificatiesets ondersteunen nog geen regels. De functionaliteit van regels zal aan de interface van classificatiesets worden toegevoegd alvorens de functionaliteit van de bouwer van de erfenisregel niet beschikbaar wordt.
->>Als u regels voor classificaties vereist, blijf de [ bouwer van de classificatieregel van Classificaties ](/help/components/classifications/crb/classification-rule-builder.md) gebruiken.
+>&#x200B;>Als u regels voor classificaties vereist, blijf de [&#x200B; bouwer van de classificatieregel van Classificaties &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) gebruiken.
 
 
 <!--

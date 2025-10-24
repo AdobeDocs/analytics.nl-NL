@@ -23,7 +23,7 @@ Om classificatietaken te bekijken en te volgen:
 
 De manager **[!UICONTROL Classification Sets - Jobs]** heeft de volgende interface-elementen:
 
-![ de Reeksen van Classificaties - de Manager van de Baan ](manage/assets/classifications-sets-jobs.png)
+![&#x200B; de Reeksen van Classificaties - de Manager van de Baan &#x200B;](manage/assets/classifications-sets-jobs.png)
 
 
 
@@ -37,38 +37,38 @@ De **[!UICONTROL Classification Jobs]** list ➊ geeft classificatietaken weer. 
 | **[!UICONTROL Classification Set]** | Het classificatieset dat aan de classificatietaak is gekoppeld. |
 | **[!UICONTROL Size]** | De grootte van het bestand dat is geëxporteerd of geïmporteerd als onderdeel van de classificatietaak. |
 | **[!UICONTROL Status]** | De status van de classificatietaak. Mogelijke waarden zijn: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]**, **[!UICONTROL Completed]** of **[!UICONTROL Progress]** . |
-| **[!UICONTROL File Name]** | Identificeert de naam of functionaliteit die wordt gebruikt om het bestand te importeren of exporteren als onderdeel van de classificatietaak. Mogelijke waarden zijn: <ul><li>*geen waarde*</li><li>De naam van het bestand dat wordt verwerkt als onderdeel van de classificatietaak.</li><li>**[!UICONTROL SAINT Export]**: De baan is een uitvoer van de [ interface van erfenisclassificaties ](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL export for _classificatiereeks _bij_ timestamp_]**: De baan is een download van de [ schema ](manage/schema.md#download) interface.</li></ul> |
+| **[!UICONTROL File Name]** | Identificeert de naam of functionaliteit die wordt gebruikt om het bestand te importeren of exporteren als onderdeel van de classificatietaak. Mogelijke waarden zijn: <ul><li>*geen waarde*</li><li>De naam van het bestand dat wordt verwerkt als onderdeel van de classificatietaak.</li><li>**[!UICONTROL SAINT Export]**: De baan is een uitvoer van de [&#x200B; interface van erfenisclassificaties &#x200B;](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL export for _classificatiereeks _bij_ timestamp_]**: De baan is een download van de [&#x200B; schema &#x200B;](manage/schema.md#download) interface.</li></ul> |
 | **[!UICONTROL Job Type]** | Het type classificatietaak. Mogelijke waarden zijn: **[!UICONTROL Import]** of **[!UICONTROL Export]** . |
 | **[!UICONTROL Source]** | De bron van de classificatietaak. Mogelijke waarden zijn: **[!UICONTROL Web API]** , **[!UICONTROL Direct API Upload]** , **[!UICONTROL Adobe]** , **[!UICONTROL SAINT]** of **[!UICONTROL Unknown]** . |
 | **[!UICONTROL Modified Lines]** | Het aantal gewijzigde regels dat de classificatietaak heeft gewijzigd. |
 | **[!UICONTROL Total Lines]** | Het aantal totale lijnen dat de classificatiebaan verwerkte. |
 | **[!UICONTROL Completion Time]** | De voltooiingstijd van de classificatietaak. |
-| **[!UICONTROL File Download]** | Het gebruik ![ Download ](/help/assets/icons/Download.svg) om het dossier (malplaatje of gegevens) te downloaden verbonden aan de classificatietaak. |
+| **[!UICONTROL File Download]** | Het gebruik ![&#x200B; Download &#x200B;](/help/assets/icons/Download.svg) om het dossier (malplaatje of gegevens) te downloaden verbonden aan de classificatietaak. |
 
 Als u de grootte van een kolom in de lijst met classificatietaken wilt wijzigen, kunt u:
 
 * Houd de cursor boven het kolomscheidingsteken en sleep het kolomscheidingsteken naar de gewenste kolombreedte.
-* Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Resize column]**. Met een verticale lijn met de knop voor vergroten/verkleinen kunt u de grootte van de kolom naar wens wijzigen.
+* Selecteer ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Resize column]**. Met een verticale lijn met de knop voor vergroten/verkleinen kunt u de grootte van de kolom naar wens wijzigen.
 
 Een kolom sorteren in de lijst met classificatietaken
 
-* Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Sort Ascending]** of **[!UICONTROL Sort Descending]**. Een pijl (↓) geeft aan welke kolom en hoe de kolom wordt gesorteerd.
+* Selecteer ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Sort Ascending]** of **[!UICONTROL Sort Descending]**. Een pijl (↓) geeft aan welke kolom en hoe de kolom wordt gesorteerd.
 
 
 ### Zoeken en knoppen
 
 In het gebied ➋ boven op de lijst met classificatietaken kunt u het volgende doen:
 
-* Onderzoek ![ Onderzoek ](/help/assets/icons/Search.svg) naar classificatietaken. De resultaten worden weergegeven in de lijst met classificatietaken. Selecteer ![ CrossSize200 ](/help/assets/icons/CrossSize200.svg) om het onderzoek te ontruimen.
-* Verwijder een filter dat is toegepast op de lijst met classificatietaken. Selecteer ![ CrossSize100 ](/help/assets/icons/CrossSize100.svg) om een filter te verwijderen.
-* Selecteer ![ MoreCircle ](/help/assets/icons/MoreCircle.svg) om een toevoeging 1000 classificatietaken te laden. In eerste instantie worden in de lijst met classificatiesets maximaal 1000 classificatietaken weergegeven.
-* Definieer de kolommen in de lijst met classificatiesets taken. Selecteer ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) en in de **[!UICONTROL Customize table]** dialoog selecteren de kolommen onder **[!UICONTROL Select columns to show]** te tonen. Selecteer **[!UICONTROL Apply]** om de kolominstellingen toe te passen.
+* Onderzoek ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) naar classificatietaken. De resultaten worden weergegeven in de lijst met classificatietaken. Selecteer ![&#x200B; CrossSize200 &#x200B;](/help/assets/icons/CrossSize200.svg) om het onderzoek te ontruimen.
+* Verwijder een filter dat is toegepast op de lijst met classificatietaken. Selecteer ![&#x200B; CrossSize100 &#x200B;](/help/assets/icons/CrossSize100.svg) om een filter te verwijderen.
+* Selecteer ![&#x200B; MoreCircle &#x200B;](/help/assets/icons/MoreCircle.svg) om een toevoeging 1000 classificatietaken te laden. In eerste instantie worden in de lijst met classificatiesets maximaal 1000 classificatietaken weergegeven.
+* Definieer de kolommen in de lijst met classificatiesets taken. Selecteer ![&#x200B; ColumnSetting &#x200B;](/help/assets/icons/ColumnSetting.svg) en in de **[!UICONTROL Customize table]** dialoog selecteren de kolommen onder **[!UICONTROL Select columns to show]** te tonen. Selecteer **[!UICONTROL Apply]** om de kolominstellingen toe te passen.
 
 
 
 ### Deelvenster Filter
 
-Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het filterpaneel ➌ te tonen dat u toestaat om de lijst van classificatietaken te filtreren. U kunt filteren op:
+Selecteer ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) om het filterpaneel ➌ te tonen dat u toestaat om de lijst van classificatietaken te filtreren. U kunt filteren op:
 
 * **[!UICONTROL Classification Set]**. Selecteer een of meer classificatiesets om de lijst met classificatietaken te filteren.
 * **[!UICONTROL Completion Time]**. Selecteer een van de mogelijke waarden om de lijst met classificatietaken na voltooiing te filteren.
@@ -77,7 +77,7 @@ Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het filterpaneel ➌ te 
 * **[!UICONTROL Source]**. Selecteer een van de mogelijke waarden om de lijst met classificatietaken op de bron te filteren.
 
 
-Selecteer ![ Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** om het filterpaneel te verbergen.
+Selecteer ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** om het filterpaneel te verbergen.
 
 De filters die worden weergegeven in het deelvenster Filters weerspiegelen de opties voor de classificatietaken die zijn voorgeladen.
 

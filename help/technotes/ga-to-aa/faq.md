@@ -18,7 +18,7 @@ Elk Analytics-platform heeft verschillende manieren om data te verzamelen, te be
 
 Neem contact op met uw Adobe-accountteam als uw organisatie er zeker van is dat historische gegevens naar Adobe worden verzonden. Een implementatieconsultant kan met uw organisatie samenwerken om een Google Analytics-data-export te vertalen naar een databron die kan worden opgenomen door Adobe-servers voor dataverzameling.
 
-Voor het bewegen over historische gegevens moet de aanbeveling [ Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) gebruiken die in om het even welke bron van omni-kanaalgegevens kan brengen.
+Voor het bewegen over historische gegevens moet de aanbeveling [&#x200B; Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) gebruiken die in om het even welke bron van omni-kanaalgegevens kan brengen.
 
 **ik wordt gebruikt aan een segmentatie drop-down lijst in veel van mijn rapporten. Hoe kan ik dat opnieuw maken in [!UICONTROL Analysis Workspace]?**
 
@@ -27,7 +27,7 @@ Drop-down filters zijn een flexibele en robuuste eigenschap in [!UICONTROL Analy
 1. Het gebruik ***ctrl*** klikt ***(Vensters) of*** cmd ***+*** klikt ***(Mac) op de componenten die u in de drop-down filter zou willen omvatten.*** U bent niet beperkt tot alleen segmenten. Elke component kan in een vervolgkeuzemenu worden opgenomen.
 2. Sleep de groep componenten in het geëtiketteerde werkruimtegebied *Daling een Segment hier*. Houd **[!UICONTROL shift]** ingedrukt voordat u verlaat.
 
-Gebruikers die dit [!UICONTROL Workspace] -project openen, kunnen dit vervolgkeuzefilter gebruiken om segmenten of andere componenten toe te passen op het project. Zie [ Overzicht van Panelen ](/help/analyze/analysis-workspace/c-panels/panels.md) in de gids van Hulpmiddelen van Adobe Analytics voor meer informatie.
+Gebruikers die dit [!UICONTROL Workspace] -project openen, kunnen dit vervolgkeuzefilter gebruiken om segmenten of andere componenten toe te passen op het project. Zie [&#x200B; Overzicht van Panelen &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md) in de gids van Hulpmiddelen van Adobe Analytics voor meer informatie.
 
 **ik wordt gebruikt om op een afmetingspunt te klikken om een boor te zien. Hoe kan ik die eenvoudige workflow repliceren in de Analysis Workspace?**
 
