@@ -1,40 +1,118 @@
 ---
-title: Consolidatiebeheer voor classificatiesets
-description: Consolideer een of meer classificatiesets in één classificatieset.
+title: Consolidaties van classificatiesets beheren
+description: Leer hoe u een of meer classificatiesets samenvoegt tot één classificatieset.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
 
-# Consolidatiebeheer voor classificatiesets
+# Classificatieconsolidatie beheren
 
-Als u meerdere classificatiesets hebt die vergelijkbare gegevens bevatten, kunt u deze samenvoegen tot één classificatieset. Wanneer u twee of meer classificatiesets samenvoegt, genereert Adobe een nieuwe classificatieset die alle classificatiegegevens van elke afzonderlijke classificatieset bevat. Consolidaties zijn handig wanneer u gegevens hebt geüpload naar een groot aantal rapportsuites of dimensies die dezelfde classificatiegegevens bevatten en u deze wilt samenvoegen tot één workflow. Adobe Analytics moet toegang hebben tot productbeheer om de consolidatiemanager voor classificatiesets te kunnen bekijken.
+Als u meerdere classificatiesets hebt die vergelijkbare classificatiegegevens bevatten, kunt u deze samenvoegen tot één classificatieset. Wanneer u twee of meer classificatiesets samenvoegt, genereert Adobe een nieuwe classificatieset die alle classificatiegegevens van elke afzonderlijke classificatieset bevat. Consolidaties zijn handig wanneer u gegevens hebt geüpload naar een groot aantal rapportensuites. Of wanneer u afmetingen hebt die dezelfde classificatiegegevens bevatten en u deze wilt samenvoegen in één workflow.
+
+Adobe Analytics moet toegang hebben tot productbeheer om de consolidatiemanager voor classificatiesets te kunnen bekijken.
+
+
+
+Indeling consolideren beheren:
+
+1. Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Classification sets]** .
+1. Selecteer in **[!UICONTROL Classification Sets]** de tab **[!UICONTROL Consolidations]** .
+
+
+## Classification Consolidations Manager
+
+De manager **[!UICONTROL Classification Sets - Consolidations]** heeft de volgende interface-elementen:
+
+![ de Reeksen van Classificaties - de Manager van Consolidaties ](assets/classifications-sets-consolidations.png)
+
+
+
+### Rangschikkingsoverzicht
+
+De lijst ➊ bevat classificatieconsolisies die zijn gemaakt en gevalideerd en die mogelijk worden geconsolideerd. De lijst heeft de volgende kolommen:
+
+| Kolom | Beschrijving |
+|---|---|
+| **[!UICONTROL Consolidation Name]** | De naam van de classificatiesets consolidatie. |
+| **[!UICONTROL Current Job]** | De taak die aan de classificatie is gekoppeld, stelt consolidatie in. |
+| **[!UICONTROL Status]** | De status van de classificatiesets consolidatie. Mogelijke waarden zijn: **[!UICONTROL Created]**, **[!UICONTROL Canceled]**, **[!UICONTROL Canceling]**, **[!UICONTROL Validating]**, **[!UICONTROL Failed Validation]**, **[!UICONTROL Validated]**, **[!UICONTROL Comparing]**, **[!UICONTROL Comparison Failed]**, **[!UICONTROL Consolidation]**, **[!UICONTROL Submitted]**, **[!UICONTROL Consolidating]**, **[!UICONTROL Consolidation Failed]**, **[!UICONTROL Consolidation Succeeded]**, **[!UICONTROL Waiting for Approval]**, **[!UICONTROL Finalizing]**, **[!UICONTROL Failed]** of **[!UICONTROL Completed]** . |
+| **[!UICONTROL Creation time]** | De aanmaaktijd van de classificatie stelt consolidatie in. |
+| **[!UICONTROL Completion Time]** | De voltooiingstijd van de classificatieconsolisies. |
+
+
+Als u de grootte van een kolom in de consolidatielijst wilt wijzigen, kunt u:
+
+* Houd de cursor boven het kolomscheidingsteken en sleep het kolomscheidingsteken naar de gewenste kolombreedte.
+* Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Resize column]**. Met een verticale lijn met de knop voor vergroten/verkleinen kunt u de grootte van de kolom naar wens wijzigen.
+
+Een kolom sorteren in de consolidatielijst
+
+* Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Sort Ascending]** of **[!UICONTROL Sort Descending]**. Een pijl (↓) geeft aan welke kolom en hoe de kolom wordt gesorteerd.
+
+### Zoeken en knoppen
+
+In het gebied ➋ boven op de lijst met classificatieconsolisies kunt u het volgende doen:
+
+* Onderzoek ![ Onderzoek ](/help/assets/icons/Search.svg) naar classificatieconsolidatie. De resultaten worden weergegeven in de lijst van classificatieconsolideringen. Selecteer ![ CrossSize200 ](/help/assets/icons/CrossSize200.svg) om het onderzoek te ontruimen.
+* Verwijder een filter dat wordt toegepast op de consolidatielijst van classificatiesets. Selecteer ![ CrossSize100 ](/help/assets/icons/CrossSize100.svg) om een filter te verwijderen.
+* Maak een nieuwe consolidatie van classificatiesets. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]** om de de consolidatiedialoog van classificatiesets te openen en een nieuwe classificatiesets consolidatie te bepalen.
+* Definieer de kolommen in de lijst met classificatieconsolisies. Selecteer ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) en in de **[!UICONTROL Customize table]** dialoog selecteren de kolommen onder **[!UICONTROL Select columns to show]** te tonen. Selecteer **[!UICONTROL Apply]** om de kolominstellingen toe te passen.
+
+
+### Actiebalk
+
+Wanneer u een of meer classificatiesets selecteert in de lijst met classificatiesets, wordt een blauwe actiebalk ➌ weergegeven. De volgende acties zijn beschikbaar in de actiebalk:
+
+| Pictogram | Handeling | Beschrijving |
+|---|---|---|
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Edit]** | [ geef de classificatiesets consolidatie ](process.md#edit-a-consolidation) uit |
+| ![ ViewDetail ](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL View]** | Bekijk details van de consolidatie van de classificatieset. Afhankelijk van de status, kunt u [ goedkeuren of ](process.md#approve) [ de consolidatie annuleren.](process.md#cancel) |
+
+
+### Deelvenster Filter
+
+Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het filterpaneel ➍ te tonen dat u toestaat om de lijst van classificatieconsolidatie te filtreren. U kunt filteren op:
+
+* **[!UICONTROL Status]**. Selecteer een van de mogelijke waarden om de lijst met classificatieconsolisies op status te filteren. |
+* **[!UICONTROL Completion Time]**. Selecteer een van de mogelijke waarden om de lijst met classificatieconsolisies na voltooiing te filteren.
+* **[!UICONTROL Creation Time]**. Selecteer een van de mogelijke waarden om de lijst met classificatieconsolisies na voltooiing te filteren.
+
+
+Selecteer ![ Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** om het filterpaneel te verbergen.
+
+De filters die in het deelvenster Filters worden weergegeven, weerspiegelen de opties voor de classificatieconsolisies die vooraf zijn geladen.
+
+
+<!--
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
 
-Wanneer een consolidatie eenmaal is uitgevoerd, worden de oorspronkelijke classificatiesets verwijderd, waarbij de geconsolideerde classificatieset wordt vervangen. Klikken **[!UICONTROL Add]** tot [Een consolidatie maken](process.md).
+Once a consolidation is run, the original classification sets are removed, with the consolidated classification set taking their place. Click **[!UICONTROL Add]** to [Create a consolidation](process.md).
 
-## Filterclassificatiesets
+## Filter classification sets
 
-De linkerkant van de de consolidatiemanager van de Plaats van de Classificatie verstrekt filtermontages om van de gewenste consolidatie de plaats te bepalen. Door op het filterpictogram te klikken schakelt u de zichtbaarheid van de filterinstellingen in of uit. U kunt consolidatie filteren op **[!UICONTROL Status]**, **[!UICONTROL Completion time]**, of **[!UICONTROL Creation time]**.
+The left side of the Classification set consolidation manager provides filter settings to locate the desired consolidation. Clicking the filter icon toggles the filter settings visibility. You can filter consolidations by **[!UICONTROL Status]**, **[!UICONTROL Completion time]**, or **[!UICONTROL Creation time]**.
 
-![Consolidatiefilters voor classificatiesets](../../assets/classification-set-consolidation-filters.png)
+![Classification set consolidation filters](../../assets/classification-set-consolidation-filters.png)
 
-Er zijn aanvullende filteropties beschikbaar boven de consolidatiebeheerkolommen van de classificatieset:
+Additional filter options are available above the Classification set consolidation manager columns:
 
-* **[!UICONTROL Search by title]**: Zoeken naar consolidaties op naam.
-* **Kolommen tonen/verbergen**: Zichtbaarheid in-/uitschakelen voor elke kolom naast [!UICONTROL Name].
+* **[!UICONTROL Search by title]**: Search for consolidations by name.
+* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Name].
 
-## Kolommen met de indelingssetconsolidatiebeheer
+## Classification set consolidation manager columns
 
-De volgende kolommen zijn beschikbaar in de de consolidatiemanager van de Plaats van de Classificatie:
+The following columns are available in the Classification set consolidation manager:
 
-* **[!UICONTROL Name]**: De naam van de consolidatie.
-* **[!UICONTROL Current job]**: De huidige taak. <!-- todo: better description -->
-* **[!UICONTROL Status]** De status van de consolidatie. <!-- todo: get list of possible statuses -->
-* **[!UICONTROL Creation date]**: De datum en het tijdstip waarop de consolidatie is gemaakt.
-* **[!UICONTROL Completion date]**: De datum en het tijdstip waarop de consolidatie is voltooid (of mislukt).
+* **[!UICONTROL Name]**: The name of the consolidation.
+* **[!UICONTROL Current job]**: The current job. 
+* **[!UICONTROL Status]**: The status of the consolidation. 
+* **[!UICONTROL Creation date]**: The date and time that the consolidation was created.
+* **[!UICONTROL Completion date]**: The date and time that the consolidation completed (or failed).
+
+-->

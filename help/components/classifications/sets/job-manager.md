@@ -1,54 +1,125 @@
 ---
-title: Taakmanager voor classificatie
-description: Huidige en voltooide classificatietaken weergeven die zijn gegenereerd uit classificatiesets.
+title: Indelingstaakbeheer
+description: Leer hoe u huidige en voltooide classificatietaken bekijkt die zijn gegenereerd op basis van classificatiesets.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
-# Taakmanager voor classificatie
+# Classificatietaken bekijken en volgen
 
-Met de indelingsset kunt u huidige en voltooide classificatietaken weergeven die zijn gegenereerd op basis van classificatiesets. U kunt deze interface ook gebruiken om classificatiegegevens of sjablonen voor een bepaalde taak te downloaden of aanvullende gegevens te uploaden naar een taak.
+De manager van de banen van de Classificatie toont huidige en voltooide classificatietaken die voor classificatiereeksen worden geproduceerd. U kunt de manager ook gebruiken om classificatiegegevens of malplaatjes voor een bepaalde baan te downloaden.
+
+Om classificatietaken te bekijken en te volgen:
+
+1. Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Classification sets]** .
+1. Selecteer in **[!UICONTROL Classification Sets]** de tab **[!UICONTROL Jobs]** .
+
+## Taakmanager classificeren
+
+De manager **[!UICONTROL Classification Sets - Jobs]** heeft de volgende interface-elementen:
+
+![ de Reeksen van Classificaties - de Manager van de Baan ](manage/assets/classifications-sets-jobs.png)
+
+
+
+### Lijst met classificatieopdrachten
+
+De **[!UICONTROL Classification Jobs]** list ➊ geeft classificatietaken weer. De lijst heeft de volgende kolommen:
+
+| Kolom | Beschrijving |
+|---|---|
+| **[!UICONTROL Job Id]** | De id van de classificatietaak. |
+| **[!UICONTROL Classification Set]** | Het classificatieset dat aan de classificatietaak is gekoppeld. |
+| **[!UICONTROL Size]** | De grootte van het bestand dat is geëxporteerd of geïmporteerd als onderdeel van de classificatietaak. |
+| **[!UICONTROL Status]** | De status van de classificatietaak. Mogelijke waarden zijn: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]**, **[!UICONTROL Completed]** of **[!UICONTROL Progress]** . |
+| **[!UICONTROL File Name]** | Identificeert de naam of functionaliteit die wordt gebruikt om het bestand te importeren of exporteren als onderdeel van de classificatietaak. Mogelijke waarden zijn: <ul><li>*geen waarde*</li><li>De naam van het bestand dat wordt verwerkt als onderdeel van de classificatietaak.</li><li>**[!UICONTROL SAINT Export]**: De baan is een uitvoer van de [ interface van erfenisclassificaties ](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL export for _classificatiereeks _bij_ timestamp_]**: De baan is een download van de [ schema ](manage/schema.md#download) interface.</li></ul> |
+| **[!UICONTROL Job Type]** | Het type classificatietaak. Mogelijke waarden zijn: **[!UICONTROL Import]** of **[!UICONTROL Export]** . |
+| **[!UICONTROL Source]** | De bron van de classificatietaak. Mogelijke waarden zijn: **[!UICONTROL Web API]** , **[!UICONTROL Direct API Upload]** , **[!UICONTROL Adobe]** , **[!UICONTROL SAINT]** of **[!UICONTROL Unknown]** . |
+| **[!UICONTROL Modified Lines]** | Het aantal gewijzigde regels dat de classificatietaak heeft gewijzigd. |
+| **[!UICONTROL Total Lines]** | Het aantal totale lijnen dat de classificatiebaan verwerkte. |
+| **[!UICONTROL Completion Time]** | De voltooiingstijd van de classificatietaak. |
+| **[!UICONTROL File Download]** | Het gebruik ![ Download ](/help/assets/icons/Download.svg) om het dossier (malplaatje of gegevens) te downloaden verbonden aan de classificatietaak. |
+
+Als u de grootte van een kolom in de lijst met classificatietaken wilt wijzigen, kunt u:
+
+* Houd de cursor boven het kolomscheidingsteken en sleep het kolomscheidingsteken naar de gewenste kolombreedte.
+* Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Resize column]**. Met een verticale lijn met de knop voor vergroten/verkleinen kunt u de grootte van de kolom naar wens wijzigen.
+
+Een kolom sorteren in de lijst met classificatietaken
+
+* Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Sort Ascending]** of **[!UICONTROL Sort Descending]**. Een pijl (↓) geeft aan welke kolom en hoe de kolom wordt gesorteerd.
+
+
+### Zoeken en knoppen
+
+In het gebied ➋ boven op de lijst met classificatietaken kunt u het volgende doen:
+
+* Onderzoek ![ Onderzoek ](/help/assets/icons/Search.svg) naar classificatietaken. De resultaten worden weergegeven in de lijst met classificatietaken. Selecteer ![ CrossSize200 ](/help/assets/icons/CrossSize200.svg) om het onderzoek te ontruimen.
+* Verwijder een filter dat is toegepast op de lijst met classificatietaken. Selecteer ![ CrossSize100 ](/help/assets/icons/CrossSize100.svg) om een filter te verwijderen.
+* Selecteer ![ MoreCircle ](/help/assets/icons/MoreCircle.svg) om een toevoeging 1000 classificatietaken te laden. In eerste instantie worden in de lijst met classificatiesets maximaal 1000 classificatietaken weergegeven.
+* Definieer de kolommen in de lijst met classificatiesets taken. Selecteer ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) en in de **[!UICONTROL Customize table]** dialoog selecteren de kolommen onder **[!UICONTROL Select columns to show]** te tonen. Selecteer **[!UICONTROL Apply]** om de kolominstellingen toe te passen.
+
+
+
+### Deelvenster Filter
+
+Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het filterpaneel ➌ te tonen dat u toestaat om de lijst van classificatietaken te filtreren. U kunt filteren op:
+
+* **[!UICONTROL Classification Set]**. Selecteer een of meer classificatiesets om de lijst met classificatietaken te filteren.
+* **[!UICONTROL Completion Time]**. Selecteer een van de mogelijke waarden om de lijst met classificatietaken na voltooiing te filteren.
+* **[!UICONTROL Status]**. Selecteer een van de mogelijke waarden om de lijst met classificatietaken op status te filteren.
+* **[!UICONTROL Job Type]**. Selecteer een van de mogelijke waarden om de lijst met classificatietaken op het taaktype te filteren.
+* **[!UICONTROL Source]**. Selecteer een van de mogelijke waarden om de lijst met classificatietaken op de bron te filteren.
+
+
+Selecteer ![ Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** om het filterpaneel te verbergen.
+
+De filters die worden weergegeven in het deelvenster Filters weerspiegelen de opties voor de classificatietaken die zijn voorgeladen.
+
+
+<!--
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
 
-U kunt geen banen van deze interface creëren. U kunt taken maken door gegevens naar een classificatieset te uploaden (handmatig of via een geconfigureerde externe locatie), een downloadbestand aan te vragen of een sjabloonbestand aan te vragen.
+You cannot create jobs from this interface. Create jobs by uploading data to a classification set (either manually or through a configured external location), requesting a download file, or requesting a template file.
 
-## Filterclassificatiesets
+## Filter classification sets
 
-De linkerkant van het taakbeheer van de classificatieset biedt filterinstellingen om de gewenste taak te vinden. Door op het filterpictogram te klikken schakelt u de zichtbaarheid van de filterinstellingen in of uit. U kunt classificatiesets filteren op **[!UICONTROL Classification set]**, **[!UICONTROL Completion time]**, **[!UICONTROL Status]**, **[!UICONTROL Job Type]**, of **[!UICONTROL Source]**.
+The left side of the Classification set job manager provides filter settings to locate the desired job. Clicking the filter icon toggles the filter settings visibility. You can filter Classification sets by **[!UICONTROL Classification set]**, **[!UICONTROL Completion time]**, **[!UICONTROL Status]**, **[!UICONTROL Job Type]**, or **[!UICONTROL Source]**.
 
-![Indelingsset taakfilters](../assets/classification-set-job-filters.png)
+![Classification set job filters](../assets/classification-set-job-filters.png)
 
-Er zijn aanvullende filteropties beschikbaar boven de taakbeheerkolommen van de classificatieset:
+Additional filter options are available above the Classification set job manager columns:
 
-* **[!UICONTROL Search by title]**: Zoeken naar taken op bestandsnaam.
-* **[!UICONTROL Load more]**: In de indelingsset worden aanvankelijk maximaal 1000 taken weergegeven. Als er meer taken zijn, klikt u op deze knop om 1000 extra taken te laden.
-* **Kolommen tonen/verbergen**: Zichtbaarheid van elke kolom in-/uitschakelen [!UICONTROL Filename] en [!UICONTROL Completion time].
+* **[!UICONTROL Search by title]**: Search for jobs by filename.
+* **[!UICONTROL Load more]**: The Classification set job manager initially displays up to 1000 jobs. If more jobs exist, click this button to load 1000 more jobs.
+* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Filename] and [!UICONTROL Completion time].
 
-## Kolommen met indelingssets voor taakmanager
+## Classification set job manager columns
 
-De volgende kolommen zijn beschikbaar in de het geplaatste baanmanager van de Classificatie:
+The following columns are available in the Classification set job manager:
 
-* **[!UICONTROL Filename]**: De naam van het geüploade of gedownloade bestand.
-* **[!UICONTROL Classification set]**: De naam van de classificatieset waarop het bestand van toepassing is. U kunt op de naam van de classificatieset klikken om de indelingsset te bereiken [Instellingen](manage/settings.md).
-* **[!UICONTROL Size]**: De grootte van het bestand.
-* **[!UICONTROL Status]**: De status van de taak die het bestand verwerkt.
-   * **[!UICONTROL Created]**: De taak is verzonden.
-   * **[!UICONTROL Queued]**: Het bestand is klaar om te worden verwerkt en wacht op een classificatieserver om het bestand te verwerken.
-   * **[!UICONTROL Validated]**: Het bestand is geldig en wacht op verwerking.
-   * **[!UICONTROL Failed validation]**: Het bestand is onjuist opgemaakt of anderszins ongeldig. Het bestand wordt niet verwerkt.
-   * **[!UICONTROL Processing]**: Het bestand wordt actief verwerkt door Adobe.
-   * **[!UICONTROL Failed processing]**: Het bestand is niet verwerkt.
-   * **[!UICONTROL Complete]**: De verwerking is voltooid. Indelingsgegevens zijn zichtbaar in de rapportage.
-   * **[!UICONTROL Failed]**: Algemene fout heeft geen betrekking op validatie of verwerking.
-* **[!UICONTROL Job type]**: Het type taak.
-* **[!UICONTROL Source]**: De taakbron.
-* **[!UICONTROL File download]**: Alleen van toepassing op downloadtaken, zoals het downloaden van classificatiegegevens of het downloaden van sjablonen. Als een download gereed is, wordt in deze kolom een downloadkoppeling weergegeven.
-* **[!UICONTROL Modified lines]**: Het aantal gewijzigde regels.
-* **[!UICONTROL Completed lines]**: Het aantal voltooide regels.
-* **[!UICONTROL Completion time]**: De datum en tijd waarop de taak is voltooid (of mislukt).
+* **[!UICONTROL Filename]**: The name of the upload or download file.
+* **[!UICONTROL Classification set]**: The name of the Classification set that the file applies to. You can click the Classification set name to reach the Classification set's [Settings](manage/settings.md).
+* **[!UICONTROL Size]**: The size of the file.
+* **[!UICONTROL Status]**: The status of the job processing the file.
+  * **[!UICONTROL Created]**: The job was submitted.
+  * **[!UICONTROL Queued]**: The file is ready to be processed, and is waiting for a classification server to process the file.
+  * **[!UICONTROL Validated]**: The file is valid and is waiting to be processed.
+  * **[!UICONTROL Failed validation]**: The file is formatted incorrectly or otherwise invalid. The file does not go through processing.
+  * **[!UICONTROL Processing]**: The file is actively being processed by Adobe.
+  * **[!UICONTROL Failed processing]**: The file failed processing.
+  * **[!UICONTROL Complete]**: Processing is complete. Classification data is visible in reporting.
+  * **[!UICONTROL Failed]**: Generic failure not related to validation or processing.
+* **[!UICONTROL Job type]**: The type of job.
+* **[!UICONTROL Source]**: The job source.
+* **[!UICONTROL File download]**: Only applies to download jobs, such as downloading classification data or downloading templates. When a download is ready, this column provides a download link.
+* **[!UICONTROL Modified lines]**: The number of modified lines.
+* **[!UICONTROL Completed lines]**: The number of completed lines.
+* **[!UICONTROL Completion time]**: The date and time that the job completed (or failed).
+-->

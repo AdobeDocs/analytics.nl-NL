@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '748'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Handleiding voor analytische componenten](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -264,16 +264,16 @@ ht-degree: 7%
    + Classificatiesets {#sets}
       + [Overzicht](classifications/sets/overview.md)
       + [Gegevensbestanden](classifications/sets/data-files.md)
-      + Classificatiesets beheren {#manage}
-         + [Indelingssetmanager](classifications/sets/manage/set-manager.md)
-         + [Een classificatieset maken](classifications/sets/manage/create.md)
-         + [Instellingen voor classificatieset](classifications/sets/manage/settings.md)
-         + [Schema voor classificatieset](classifications/sets/manage/schema.md)
-         + [Classificatieregels](classifications/sets/manage/rules.md)
-      + [Taakmanager voor classificatie](classifications/sets/job-manager.md)
-      + Consolidatie van classificatiesets {#consolidations}
-         + [Consolidatiebeheer](classifications/sets/consolidations/manage.md)
-         + [Consolidatieproces](classifications/sets/consolidations/process.md)
+      + Classificatiesets {#manage}
+         + [Beheren](classifications/sets/manage/set-manager.md)
+         + [Maken en bewerken](classifications/sets/manage/create.md)
+         + [Instellingen](classifications/sets/manage/settings.md)
+         + [Schema](classifications/sets/manage/schema.md)
+         + [Regels](classifications/sets/manage/rules.md)
+      + [Classificatiebanen](classifications/sets/job-manager.md)
+      + Consolidatie van classificaties {#consolidations}
+         + [Beheren](classifications/sets/consolidations/manage.md)
+         + [Maken en bewerken](classifications/sets/consolidations/process.md)
    + Indelingsregelbouwer (verouderd){#classifications-rulebuilder}
       + [Overzicht](classifications/crb/classification-rule-builder.md)
       + [Classificatiereeksen](classifications/crb/classification-rule-set.md)

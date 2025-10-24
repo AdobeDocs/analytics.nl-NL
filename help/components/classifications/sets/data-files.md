@@ -1,22 +1,23 @@
 ---
-description: Bestandsindelingen die worden ondersteund door classificatiesets
+description: Begrijp de diverse dossierformaten die classificatiesets steunen
 title: Bestandsindelingen voor classificatieset
 feature: Classifications
-source-git-commit: 2d9eb9179ace40a8d333883cea78dd67329078ab
+exl-id: f3d429be-99d5-449e-952e-56043b109411
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
 
 # Bestandsindelingen voor classificatieset
 
-Classificatiesets ondersteunen meerdere bestandsindelingen voor indelingsgegevens voor het uploaden van grote hoeveelheden. Elke indeling heeft specifieke vereisten voor het uploaden van gegevens.
+Classificatiesets ondersteunen meerdere bestandsindelingen voor het uploaden van classificatiegegevens. Elke indeling heeft specifieke vereisten voor het uploaden van gegevens.
 
-Wanneer het bestand correct is opgemaakt volgens deze specificaties, kunt u het uploaden via de interface of API voor classificatiesets. Voor gedetailleerde uploadinstructies:
+Wanneer het bestand correct is opgemaakt volgens deze specificaties, kunt u de gegevens uploaden via de interface of API voor classificatiesets. Voor gedetailleerde uploadinstructies:
 
-* **Browser uploadt**: Zie [&#x200B; Schema &#x200B;](manage/schema.md)
-* **API uploadt**: Zie [&#x200B; Classificaties API van Analytics &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
+* **Browser uploadt**: Zie [ uploaden ](manage/schema.md#upload) in de [ interface van het Schema ](manage/schema.md) voor een classificatiereeks.
+* **API uploadt**: Zie [ Classificaties API van Analytics ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
 
 Classificatiesets ondersteunen de volgende bestandsindelingen:
 
@@ -32,7 +33,7 @@ Alle bestandsindelingen moeten aan de volgende vereisten voldoen:
 * **de grenzen van het Karakter**: De individuele classificatiewaarden hebben een maximumgrens van 255 bytes.
 * **Zeer belangrijke vereisten**: De zeer belangrijke waarden kunnen niet leeg zijn of slechts whitespace bevatten. Als dubbele sleutels aanwezig zijn, wordt het laatste voorkomen gebruikt.
 
-+++**JSON formaatdetails**
++++ Details JSON-indeling
 
 De JSON-bestandsindeling volgt conventies voor JSON Lines (JSONL). Het bestand moet één JSON-object per regel bevatten, waarbij elk object één classificatierecord vertegenwoordigt.
 
@@ -76,7 +77,7 @@ Alle JSON-veldnamen (`key`, `data`, `action`, `enc`) zijn hoofdlettergevoelig en
 {"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
 ```
 
-**Schrap volledige sleutel:**
+**Schrap een volledige sleutel:**
 
 ```json
 {"key": "product999", "action": "delete-key"}
@@ -92,7 +93,7 @@ Alle JSON-veldnamen (`key`, `data`, `action`, `enc`) zijn hoofdlettergevoelig en
 
 +++
 
-+++**CSV formaatdetails**
++++ CSV-indelingsdetails
 
 CSV-bestanden (met door komma&#39;s gescheiden waarden) gebruiken komma&#39;s om classificatiegegevensvelden te scheiden.
 
@@ -114,7 +115,7 @@ product456,"Running Shoes",Brand B,Sports,79.99
 product789,"Winter Jacket",Brand C,Clothing,149.99
 ```
 
-**Schrap volledige sleutel:**
+**Schrap een volledige sleutel:**
 
 ```csv
 Key,Product Name,Brand,Category,Price
@@ -131,31 +132,32 @@ product456,,~empty~,~empty~,79.99
 
 ### CSV-opmaakregels
 
-* Velden met komma&#39;s moeten tussen dubbele aanhalingstekens staan
-* Velden met dubbele aanhalingstekens moeten zonder aanhalingstekens (`""`)
-* Lege velden vertegenwoordigen null-waarden voor die classificatie
-* Regelafstand en volgspaties rond velden worden automatisch bijgesneden
-* Speciale tekens (tabs, nieuwe regels) in opgegeven velden blijven behouden
+* Velden met komma&#39;s moeten tussen dubbele aanhalingstekens staan.
+* Velden die dubbele aanhalingstekens bevatten, moeten aanhalingstekens omzeilen door deze te verdubbelen (`""`).
+* Lege velden vertegenwoordigen null-waarden voor die classificatie.
+* Voorloopspaties en volgspaties rond velden worden automatisch bijgesneden.
+* Speciale tekens (tabs, newlines) in velden met een citaat blijven behouden.
 
 **de verrichtingen van de Schrapping:**
+
 * Gebruik `~deletekey~` in elk veld om de gehele sleutel en alle classificatiegegevens te verwijderen
 * Gebruik `~empty~` in specifieke velden om alleen die classificatiewaarden te verwijderen (laat andere velden intact)
 * Als u `~empty~` gebruikt, kunt u verwijderingen combineren met updates in hetzelfde bestand
 
 +++
 
-+++**TSV/TAB formaatdetails**
++++ VVV- en TAB-formaatgegevens
 
 TSV (Door tabs gescheiden waarden) en TAB-bestanden gebruiken tabtekens om classificatiegegevensvelden te scheiden.
 
-### TSV/TAB-structuur
+### TSV- en TAB-structuur
 
-* **de rij van de Kopbal**: De eerste rij moet kolomkopballen bevatten en de eerste kolom moet de belangrijkste kolom zijn. De volgende kolommen zouden namen in uw schema van de classificatieset van u moeten aanpassen
-* **de rijen van Gegevens**: Elke verdere rij bevat classificatiegegevens
-* **Scheidingstekens**: De gebieden worden gescheiden door lusjekarakters (`\t`)
-* **het Citeren**: Over het algemeen is geen het citeren nodig, maar sommige implementaties steunen geciteerde gebieden
+* **de rij van de Kopbal**: De eerste rij moet kolomkopballen bevatten en de eerste kolom moet de belangrijkste kolom zijn. De volgende kolommen zouden namen in uw schema van de classificatieset van u moeten aanpassen.
+* **de rijen van Gegevens**: Elke verdere rij bevat classificatiegegevens.
+* **Scheidingstekens**: De gebieden worden gescheiden door lusjekarakters (`\t`).
+* **het Citeren**: Over het algemeen is geen het citeren nodig, maar sommige implementaties steunen geciteerde gebieden.
 
-### Voorbeelden van TSV/TAB
+### Voorbeelden van TSV en TAB
 
 **Basisclassificatiegegevens:**
 
@@ -166,7 +168,7 @@ product456    Running Shoes    Brand B    Sports    79.99
 product789    Winter Jacket    Brand C    Clothing    149.99
 ```
 
-**Schrap volledige sleutel:**
+**Schrap een volledige sleutel:**
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -183,16 +185,17 @@ product456        ~empty~    ~empty~    79.99
 
 ### Opmaakregels voor TSV/TAB
 
-* Velden worden gescheiden door enkele tabtekens
-* Lege velden (opeenvolgende tabbladen) vertegenwoordigen null-waarden
-* Er is doorgaans geen speciale aanhalingstekens vereist
-* De regelafstand en de volgspaties blijven behouden
-* Nieuwe regeltekens binnen velden moeten worden vermeden
+* Velden worden gescheiden door enkele tabtekens.
+* Lege velden (opeenvolgende tabbladen) vertegenwoordigen null-waarden.
+* Er is doorgaans geen speciale aanhalingstekens vereist.
+* De voorloopspaties en de navolgende spaties blijven behouden.
+* Nieuwe regeltekens binnen velden moeten worden vermeden.
 
 **de verrichtingen van de Schrapping:**
-* Gebruik `~deletekey~` in elk veld om de gehele sleutel en alle classificatiegegevens te verwijderen
-* Gebruik `~empty~` in specifieke velden om alleen die classificatiewaarden te verwijderen (laat andere velden intact)
-* Als u `~empty~` gebruikt, kunt u verwijderingen combineren met updates in hetzelfde bestand
+
+* Gebruik `~deletekey~` in elk veld om de gehele sleutel en alle classificatiegegevens te verwijderen.
+* Gebruik `~empty~` in specifieke velden om alleen die classificatiewaarden te verwijderen (en laat andere velden intact).
+* Als u `~empty~` gebruikt, kunt u verwijderingen combineren met updates in hetzelfde bestand.
 
 +++
 
@@ -202,31 +205,31 @@ Veelvoorkomende uploadproblemen en oplossingen:
 
 ### Algemene fouten in bestandsindelingen
 
-* **Ongeldig dossierformaat**: Verifieer dat uw dossieruitbreiding het inhoudsformaat (.json, .csv, .tsv, of .tab) aanpast.
-* **&quot;Onbekende kopbal&quot;**: De namen van de kolom moeten uw schema van de classificatieset (van toepassing is op alle formaten) aanpassen.
+* **Ongeldig dossierformaat**: Verifieer dat uw dossieruitbreiding het inhoudsformaat (`.json` aanpast, `.csv`, `.tsv`, of `.tab`).
+* **Onbekende kopbal**: De namen van de kolom moeten uw schema van de classificatieset (op alle formaten van toepassing is) aanpassen.
 
-### Specifieke fouten CSV/TSV
+### Specifieke fouten voor CSV en TSV
 
-* **&quot;Eerste kolom wordt vereist om sleutel te zijn&quot;**: Zorg ervoor uw CSV/TSV- dossier een juiste kopbalrij met de belangrijkste kolom eerst heeft.
-* **&quot;Een minimum van twee kopbalpunten wordt vereist&quot;**: CSV/TSV- dossiers moeten minstens een &quot;Zeer belangrijke&quot;kolom en één classificatiekolom hebben.
-* **&quot;De eerste kopbalkolom moet &quot;Sleutel&quot;worden genoemd**: De eerste kolomkopbal moet precies &quot;Sleutel&quot;zijn (hoofdletter K, hoofdlettergevoelig).
-* **&quot;Lege kopballen zijn niet toegestaan&quot;**: Alle CSV/TSV kolomkopballen moeten namen hebben.
-* **&quot;Het aantal kolommen kwam niet de kopballen aan&quot;**: Elke CSV/TSV- gegevensrij moet het zelfde aantal gebieden hebben zoals de kopbalrij.
-* **&quot;Onjuist geformuleerd document&quot;**: Controle CSV citeert, juiste lusjescheiding in TSV dossiers, etc.
+* **Eerste kolom wordt vereist om sleutel** te zijn: Zorg ervoor uw CSV of TSV dossier een juiste koptekstrij met de belangrijkste kolom eerst heeft.
+* **een minimum van twee kopbalpunten wordt vereist**: CSV of TSV- dossiers moeten minstens a `Key` kolom en één classificatiekolom hebben.
+* **de eerste kopbalkolom moet &quot;Sleutel&quot;worden genoemd**: De eerste kolomkopbal moet precies `Key` zijn (kapitaal `K`, case-sensitive).
+* **Lege kopballen worden niet toegestaan**: Alle CSV/TSV kolomkopballen moeten namen hebben.
+* **het aantal kolommen paste niet de kopballen** aan: Elke CSV of TSV gegevensrij moet het zelfde aantal gebieden zoals de kopbalrij hebben.
+* **&quot;Onjuist geformuleerd document**: controleer CSV citerend, juiste lusjescheiding in TSV dossiers, en meer.
 
 ### JSON-specifieke fouten
 
-* **&quot;Sleutel is een vereist gebied&quot;**: Alle JSON verslagen moeten een niet-leeg `"key"` gebied (kleine letters, hoofdlettergevoelig) hebben.
-* **&quot;Gegevens is een vereist gebied wanneer het gebruiken van action=update&quot;**: de acties van de JSON update moeten a `"data"` gebied omvatten.
-* **&quot;Gegevens is een vereist gebied wanneer het gebruiken van action=delete-field&quot;**: JSON schrapping-gebied de acties moeten specificeren welke gebieden op het `"data"` gebied te schrappen.
-* **&quot;Gegevens moeten niet aanwezig zijn wanneer het gebruiken van action=delete-key&quot;**: JSON schrapping-zeer belangrijke acties kunnen geen a `"data"` gebied omvatten.
-* **&quot;Niet gestaafde het coderen&quot;**: Gebruik slechts gesteunde het coderen waarden op het `"enc"` gebied (utf8, UTF8, latin1, LATIN1).
+* **Sleutel is een vereist gebied**: Alle JSON- verslagen moeten een niet leeg `"key"` gebied (in kleine letters, case-sensitive) hebben.
+* **Gegevens is een vereist gebied wanneer het gebruiken van action=update**: JSON de updateacties moeten a `"data"` gebied omvatten.
+* **Gegevens is een vereist gebied wanneer het gebruiken van action=delete-field**: JSON schrap-gebied acties moet specificeren welke gebieden op het `"data"` gebied te schrappen.
+* **Gegevens moeten niet aanwezig zijn wanneer het gebruiken van action=delete-key**: JSON schrapt-zeer belangrijke acties kunnen a `"data"` gebied niet omvatten.
+* **niet gestaafde het coderen**: Gebruik slechts gesteunde het coderen waarden op het `"enc"` gebied (`utf8`, `UTF8`, `latin1`, `LATIN1`).
 * **Ongeldige JSON syntaxis**: Zorg ervoor dat het JSON dossier correct na overeenkomsten JSONL wordt geformatteerd. Controleer ook op algemene JSON-opmaak, ontbrekende aanhalingstekens, komma&#39;s, vierkante haken, enzovoort.
 
 ### Fouten in groottebeperking
 
-* **&quot;Sleutel overschrijdt maximumgrootte&quot;**: De individuele sleutels kunnen 255 bytes niet overschrijden.
-* **de &quot;waarde van de Kolom overschrijdt maximumgrootte&quot;**: De individuele classificatiewaarden kunnen 255 bytes niet overschrijden.
+* **Sleutel overschrijdt maximumgrootte**: De individuele sleutels kunnen 255 bytes niet overschrijden.
+* **de waarde van de Kolom overschrijdt maximumgrootte**: De individuele classificatiewaarden kunnen 255 bytes niet overschrijden.
 
 ## Best practices
 
