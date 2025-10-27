@@ -3,9 +3,9 @@ title: Consolidaties van classificatiesets beheren
 description: Leer hoe u een of meer classificatiesets samenvoegt tot één classificatieset.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Analytics moet toegang hebben tot productbeheer om de consolidatiemanager 
 
 Indeling consolideren beheren:
 
-1. Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Classification sets]** .
+1. Selecteer **[!UICONTROL Components]** in de bovenste menubalk van Adobe Analytics en selecteer vervolgens **[!UICONTROL Classification sets]** .
 1. Selecteer in **[!UICONTROL Classification Sets]** de tab **[!UICONTROL Consolidations]** .
 
 
@@ -28,7 +28,7 @@ Indeling consolideren beheren:
 
 De manager **[!UICONTROL Classification Sets - Consolidations]** heeft de volgende interface-elementen:
 
-![&#x200B; de Reeksen van Classificaties - de Manager van Consolidaties &#x200B;](assets/classifications-sets-consolidations.png)
+![ de Reeksen van Classificaties - de Manager van Consolidaties ](assets/classifications-sets-consolidations.png)
 
 
 
@@ -48,20 +48,20 @@ De lijst ➊ bevat classificatieconsolisies die zijn gemaakt en gevalideerd en d
 Als u de grootte van een kolom in de consolidatielijst wilt wijzigen, kunt u:
 
 * Houd de cursor boven het kolomscheidingsteken en sleep het kolomscheidingsteken naar de gewenste kolombreedte.
-* Selecteer ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Resize column]**. Met een verticale lijn met de knop voor vergroten/verkleinen kunt u de grootte van de kolom naar wens wijzigen.
+* Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Resize column]**. Met een verticale lijn met de knop voor vergroten/verkleinen kunt u de grootte van de kolom naar wens wijzigen.
 
 Een kolom sorteren in de consolidatielijst
 
-* Selecteer ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Sort Ascending]** of **[!UICONTROL Sort Descending]**. Een pijl (↓) geeft aan welke kolom en hoe de kolom wordt gesorteerd.
+* Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en selecteer **[!UICONTROL Sort Ascending]** of **[!UICONTROL Sort Descending]**. Een pijl (↓) geeft aan welke kolom en hoe de kolom wordt gesorteerd.
 
 ### Zoeken en knoppen
 
 In het gebied ➋ boven op de lijst met classificatieconsolisies kunt u het volgende doen:
 
-* Onderzoek ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) naar classificatieconsolidatie. De resultaten worden weergegeven in de lijst van classificatieconsolideringen. Selecteer ![&#x200B; CrossSize200 &#x200B;](/help/assets/icons/CrossSize200.svg) om het onderzoek te ontruimen.
-* Verwijder een filter dat wordt toegepast op de consolidatielijst van classificatiesets. Selecteer ![&#x200B; CrossSize100 &#x200B;](/help/assets/icons/CrossSize100.svg) om een filter te verwijderen.
-* Maak een nieuwe consolidatie van classificatiesets. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]** om de de consolidatiedialoog van classificatiesets te openen en een nieuwe classificatiesets consolidatie te bepalen.
-* Definieer de kolommen in de lijst met classificatieconsolisies. Selecteer ![&#x200B; ColumnSetting &#x200B;](/help/assets/icons/ColumnSetting.svg) en in de **[!UICONTROL Customize table]** dialoog selecteren de kolommen onder **[!UICONTROL Select columns to show]** te tonen. Selecteer **[!UICONTROL Apply]** om de kolominstellingen toe te passen.
+* Onderzoek ![ Onderzoek ](/help/assets/icons/Search.svg) naar classificatieconsolidatie. De resultaten worden weergegeven in de lijst van classificatieconsolideringen. Selecteer ![ CrossSize200 ](/help/assets/icons/CrossSize200.svg) om het onderzoek te ontruimen.
+* Verwijder een filter dat wordt toegepast op de consolidatielijst van classificatiesets. Selecteer ![ CrossSize100 ](/help/assets/icons/CrossSize100.svg) om een filter te verwijderen.
+* Maak een nieuwe consolidatie van classificatiesets. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]** om de de consolidatiedialoog van classificatiesets te openen en een nieuwe classificatiesets consolidatie te bepalen.
+* Definieer de kolommen in de lijst met classificatieconsolisies. Selecteer ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) en in de **[!UICONTROL Customize table]** dialoog selecteren de kolommen onder **[!UICONTROL Select columns to show]** te tonen. Selecteer **[!UICONTROL Apply]** om de kolominstellingen toe te passen.
 
 
 ### Actiebalk
@@ -70,20 +70,20 @@ Wanneer u een of meer classificatiesets selecteert in de lijst met classificatie
 
 | Pictogram | Handeling | Beschrijving |
 |---|---|---|
-| ![&#x200B; geeft &#x200B;](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Edit]** | [&#x200B; geef de classificatiesets consolidatie &#x200B;](process.md#edit-a-consolidation) uit |
-| ![&#x200B; ViewDetail &#x200B;](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL View]** | Bekijk details van de consolidatie van de classificatieset. Afhankelijk van de status, kunt u [&#x200B; goedkeuren of &#x200B;](process.md#approve) [&#x200B; de consolidatie annuleren.](process.md#cancel) |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Edit]** | [ geef de classificatiesets consolidatie ](process.md#edit-a-consolidation) uit |
+| ![ ViewDetail ](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL View]** | Bekijk details van de consolidatie van de classificatieset. Afhankelijk van de status, kunt u [ goedkeuren of ](process.md#approve) [ de consolidatie annuleren.](process.md#cancel) |
 
 
 ### Deelvenster Filter
 
-Selecteer ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) om het filterpaneel ➍ te tonen dat u toestaat om de lijst van classificatieconsolidatie te filtreren. U kunt filteren op:
+Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het filterpaneel ➍ te tonen dat u toestaat om de lijst van classificatieconsolidatie te filtreren. U kunt filteren op:
 
 * **[!UICONTROL Status]**. Selecteer een van de mogelijke waarden om de lijst met classificatieconsolisies op status te filteren. |
 * **[!UICONTROL Completion Time]**. Selecteer een van de mogelijke waarden om de lijst met classificatieconsolisies na voltooiing te filteren.
 * **[!UICONTROL Creation Time]**. Selecteer een van de mogelijke waarden om de lijst met classificatieconsolisies na voltooiing te filteren.
 
 
-Selecteer ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** om het filterpaneel te verbergen.
+Selecteer ![ Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** om het filterpaneel te verbergen.
 
 De filters die in het deelvenster Filters worden weergegeven, weerspiegelen de opties voor de classificatieconsolisies die vooraf zijn geladen.
 
