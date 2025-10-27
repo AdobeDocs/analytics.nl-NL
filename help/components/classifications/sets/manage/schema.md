@@ -157,7 +157,7 @@ Om de opname van classificatie te automatiseren, uitgezochte ![&#x200B; Vistuig 
 
 In de **[!UICONTROL Associate / Update Ingest Location for _dialoog van de 0&rbrace; classificatiereeks:_]**
 
-1. Selecteer een optie in **[!UICONTROL Location Account]** om een locatie in de cloud te selecteren. Slechts [&#x200B; plaatsrekeningen van gesteunde rekeningstypes die de invoer van classificatiegegevens &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) toestaan worden getoond. Selecteer **[!UICONTROL New account]** als u een nieuwe account wilt maken.
+1. Selecteer een optie in **[!UICONTROL Location Account]** om een locatie in de cloud te selecteren. Slechts [&#x200B; plaatsrekeningen van gesteunde rekeningstypes die de invoer van classificatiegegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/components/locations/configure-import-accounts) toestaan worden getoond. Selecteer **[!UICONTROL New account]** als u een nieuwe account wilt maken.
 1. Als u een locatie wilt selecteren, selecteert u een optie in **[!UICONTROL Location]** . Alleen de locaties van geselecteerde accounttypen voor het importeren van classificatiegegevens worden weergegeven. Selecteer **[!UICONTROL New location]** als u een nieuwe locatie wilt maken.
 
    >[!IMPORTANT]
