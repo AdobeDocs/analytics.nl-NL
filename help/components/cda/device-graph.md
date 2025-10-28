@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->De Grafiek van het apparaat binnen Analytics van het Apparaat zal niet meer op **31 December, 2025** beschikbaar zijn. Gelieve te schakelen om het even welke huidige apparatengrafiek toegelaten virtuele rapportreeks aan de [ op gebied-gebaseerde methode ](/help/components/cda/field-based-stitching.md).
+>De Grafiek van het apparaat binnen Analytics van het Apparaat zal niet meer op **31 December, 2025** beschikbaar zijn. Gelieve te schakelen om het even welke huidige apparatengrafiek toegelaten virtuele rapportreeks aan de [&#x200B; op gebied-gebaseerde methode &#x200B;](/help/components/cda/field-based-stitching.md).
 >
 
 Analytics voor verschillende apparaten kan de persoonlijke grafiek gebruiken om gegevens aan elkaar te koppelen. De privégrafiek is een opslagplaats van hashed apparaat-id&#39;s die specifiek is voor uw organisatie. CDA communiceert regelmatig met de apparatengrafiek om apparaten samen te verbinden.
@@ -32,10 +32,10 @@ Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat,
 >Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
 >
 
-* Alle eerste vereisten die op de [ overzichtspagina ](overview.md) worden vermeld.
-* Uw organisatie moet de [ Persoonlijke Grafiek van de Dienst van de Identiteit van Adobe Experience Platform gebruiken ](https://business.adobe.com/products/experience-platform/identity-service.html). Zie ook de [ Pagina van het Huis ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl) in de de gebruikersgids van de Dienst van de Identiteit.
-* Voor uw implementatie moet de nieuwste versie van de Experience Cloud ID Service (ECID) worden gebruikt. Zie de [ Pagina van het Huis ](https://experienceleague.adobe.com/docs/id-service/using/home.html) in de de gebruikersgids van de Dienst van identiteitskaart De meeste implementaties die [ Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) gebruiken in Adobe Experience Platform hebben waarschijnlijk reeds de Dienst van identiteitskaart opgesteld.
-* Uw implementatie moet de functie `setCustomerIDs` (of het equivalent van SDK) aanroepen wanneer een individu kan worden geïdentificeerd, zoals wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Zie [`setCustomerIDs` ](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) in de de gebruikersgids van de Dienst van identiteitskaart
+* Alle eerste vereisten die op de [&#x200B; overzichtspagina &#x200B;](overview.md) worden vermeld.
+* Uw organisatie moet de [&#x200B; Persoonlijke Grafiek van de Dienst van de Identiteit van Adobe Experience Platform gebruiken &#x200B;](https://business.adobe.com/products/experience-platform/identity-service.html). Zie ook de [&#x200B; Pagina van het Huis &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl) in de de gebruikersgids van de Dienst van de Identiteit.
+* Voor uw implementatie moet de nieuwste versie van de Experience Cloud ID Service (ECID) worden gebruikt. Zie de [&#x200B; Pagina van het Huis &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html) in de de gebruikersgids van de Dienst van identiteitskaart De meeste implementaties die [&#x200B; Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) gebruiken in Adobe Experience Platform hebben waarschijnlijk reeds de Dienst van identiteitskaart opgesteld.
+* Uw implementatie moet de functie `setCustomerIDs` (of het equivalent van SDK) aanroepen wanneer een individu kan worden geïdentificeerd, zoals wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Zie [`setCustomerIDs` &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) in de de gebruikersgids van de Dienst van identiteitskaart
 
 ## Specifieke beperkingen voor de apparaatgrafiek
 
@@ -45,4 +45,4 @@ Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat,
 
 ## Volgende stappen
 
-Zodra uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u [ Opstelling Analytics van het Apparaat ](setup.md) beginnen.
+Zodra uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u [&#x200B; Opstelling Analytics van het Apparaat &#x200B;](setup.md) beginnen.
