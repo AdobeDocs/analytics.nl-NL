@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 77795002cc4a360ed8aad8e1fe4882f1fe16f6ae
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 # Adobe Analytics Admin Guide {#admin}
 
 + [Handleiding Analysebeheer](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Adobe-beheerconsole {#admin-console}
    + [Overzicht](admin-console/home.md)
    + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
@@ -85,13 +85,13 @@ ht-degree: 11%
             + [Merchandising-eVars](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
          + Marketingkanalen {#marketing-channels}
             + [Marketing Channel Manager](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
-            + [Verwerkingsregels voor marketingkanalen](tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+            + [Verwerkingsregels voor marketingkanalen](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
             + [Classificaties marketingkanalen](tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)
             + [Vervaldatum marketingkanaal](tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md)
          + Verkeersbeheer {#traffic-management}
             + [Overzicht](tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md)
             + [Spike plannen](tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)
-            + [&#x200B; Permanent Verkeer &#x200B;](tools/manage-rs/edit-settings/c-traffic-management/t-traffic-permanent.md)
+            + [ Permanent Verkeer ](tools/manage-rs/edit-settings/c-traffic-management/t-traffic-permanent.md)
          + [Standaardwaarden](tools/manage-rs/edit-settings/default-metrics.md)
          + Toepassingsbeheer {#app-management}
             + [Toepassingsrapportage](tools/manage-rs/edit-settings/app-reporting.md)
