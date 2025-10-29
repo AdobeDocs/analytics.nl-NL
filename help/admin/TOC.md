@@ -15,7 +15,7 @@ ht-degree: 11%
 # Adobe Analytics Admin Guide {#admin}
 
 + [Handleiding Analysebeheer](home.md)
-+ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
++ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Adobe-beheerconsole {#admin-console}
    + [Overzicht](admin-console/home.md)
    + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
@@ -91,7 +91,7 @@ ht-degree: 11%
          + Verkeersbeheer {#traffic-management}
             + [Overzicht](tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md)
             + [Spike plannen](tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)
-            + [ Permanent Verkeer ](tools/manage-rs/edit-settings/c-traffic-management/t-traffic-permanent.md)
+            + [&#x200B; Permanent Verkeer &#x200B;](tools/manage-rs/edit-settings/c-traffic-management/t-traffic-permanent.md)
          + [Standaardwaarden](tools/manage-rs/edit-settings/default-metrics.md)
          + Toepassingsbeheer {#app-management}
             + [Toepassingsrapportage](tools/manage-rs/edit-settings/app-reporting.md)

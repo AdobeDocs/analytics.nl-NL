@@ -16,20 +16,20 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Voor algemene informatie over de Kanalen van de Marketing, zie [ begonnen worden met de Kanalen van de Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> Voor algemene informatie over de Kanalen van de Marketing, zie [&#x200B; begonnen worden met de Kanalen van de Marketing &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Om doeltreffendheid van de Kanalen van de Marketing voor Attributie en Customer Journey Analytics te maximaliseren, hebben wij sommige [ herzien beste praktijken ](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
+> Om doeltreffendheid van de Kanalen van de Marketing voor Attributie en Customer Journey Analytics te maximaliseren, hebben wij sommige [&#x200B; herzien beste praktijken &#x200B;](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]** .
 
 Voeg of laat marketing kanalen in de Manager van het Kanaal van de Marketing toe. Voor rapportsuites die geen marketing kanalen hebben, laat een automatische opstelling u verscheidene kanalen voor u, samen met hun regels tot stand brengen. U kunt vooraf gedefinieerde kanalen naar wens bewerken of uw eigen kanalen maken (maximaal 25).
 
-Het toevoegen van kanalen aan de [!UICONTROL Marketing Channels] pagina wordt gedaan onafhankelijk van het creëren van regels op de [ pagina van de Regels van de Verwerking van het Kanaal van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md). U associeert regels met kanalen wanneer het creëren van de regel.
+Het toevoegen van kanalen aan de [!UICONTROL Marketing Channels] pagina wordt gedaan onafhankelijk van het creëren van regels op de [&#x200B; pagina van de Regels van de Verwerking van het Kanaal van de Marketing &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md). U associeert regels met kanalen wanneer het creëren van de regel.
 
 Hier volgen enkele richtlijnen voor het maken van kanalen:
 
 * Maak eerst een lijst met al uw kanalen, zodat alle bezoekershits naar het rechterkanaal worden gecategoriseerd.
-* Omvat kanalen voor de categorieën van [ Interne ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) klappen.
+* Omvat kanalen voor de categorieën van [&#x200B; Interne &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) klappen.
 * Neem een &#39;catch-all&#39;-kanaal op voor &#39;Overige campagnes&#39;, dat na betaalde kanalen en vóór biologische kanalen moet worden geplaatst.
 
 
@@ -37,7 +37,7 @@ Hier volgen enkele richtlijnen voor het maken van kanalen:
 
 * De toegang van de opstelling tot de afmetingen van het Kanaal van de Marketing.
 
-  Zie [ de toestemmingen van Kanalen van de Marketing ](/help/components/c-marketing-channels/c-channel-report-access.md).
+  Zie [&#x200B; de toestemmingen van Kanalen van de Marketing &#x200B;](/help/components/c-marketing-channels/c-channel-report-access.md).
 
 ## Marketingkanalen toevoegen {#add-mktg-channels}
 
@@ -52,11 +52,11 @@ Voeg marketingkanalen toe in de Marketing Channel Manager.
 
    Als u veelvoudige rapportreeksen selecteert, selecteer een malplaatje dat montages van het malplaatje aan de geselecteerde rapportreeksen kopieert.
 
-   Zie [ de reeksinstellingen van het malplaatjerapport op veelvoudige rapportsuites ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) toepassen.
+   Zie [&#x200B; de reeksinstellingen van het malplaatjerapport op veelvoudige rapportsuites &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md) toepassen.
 
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
 
-   Als uw rapportreeks geen bepaalde kanalen heeft, de [ AutoOpstelling ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) paginagenvertoningen.
+   Als uw rapportreeks geen bepaalde kanalen heeft, de [&#x200B; AutoOpstelling &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md) paginagenvertoningen.
 
 1. Klik op de pagina [!UICONTROL Marketing Channel Manager] op **[!UICONTROL Add Channel]** .
 
@@ -65,7 +65,7 @@ Voeg marketingkanalen toe in de Marketing Channel Manager.
 1. Klikken **[!UICONTROL Save.]**
 1. Klik op **[!UICONTROL Marketing Channel Processing Rules]** om regels voor het kanaal te configureren.
 
-   Zie [ de verwerkingsregels van het Kanaal van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) creëren.
+   Zie [&#x200B; de verwerkingsregels van het Kanaal van de Marketing &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) creëren.
 
 ## Kanaalinstellingen toepassen {#mktg-channel-mgr}
 
@@ -76,8 +76,8 @@ Er zijn verschillende instellingen die op elk kanaal op de pagina [!UICONTROL Ma
 | Ingeschakeld | Hiermee schakelt u dit marketingkanaal in of uit. |
 | Kanaalnaam | De vriendelijke naam van het marketingkanaal. |
 | Laatste aanraakkanaal overschrijven | Hiermee kunt u kiezen of u een bestaand, blijvend laatste aanraakkanaal wilt overschrijven met het geselecteerde kanaal. Als u dit selectievakje inschakelt, overschrijft elk kanaal (inclusief Direct en Intern) een bestaand laatste aanraakkanaal. Het resultaat is dat conversie wordt toegeschreven aan een kanaal dat geen krediet verdient. Met deze optie kunt u er bijvoorbeeld voor zorgen dat het Direct-kanaal geen conversiekrediet ontvangt als de gebruiker eerder via het Natural Search-kanaal was aangeschaft. |
-| Kanaaluitsplitsing | Hiermee kunt u een kanaal opsplitsen op basis van deze waarde. U kunt mogelijke kanaalonderverdelingen (subkanalen) toevoegen wanneer het creëren van [ de classificaties van het marketingkanaal ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md). |
-| Type | Hiermee geeft u op hoe de gebruiker naar uw site is gekomen. U kunt Online of Offline selecteren. Gebruik online kanalen voor bezoekers die via een zoekmachine of e-mailcampagne komen. Offlinekanalen zijn van toepassing op bezoekers die uw site hebben gevonden via krantencoupons of advertenties in tijdschriften. De off-line kanalen omvatten gewoonlijk gegevens die door het melden van Gegevensbronnen worden ingevoerd. Zie [ Gegevensbronnen ](/help/import/data-sources/overview.md). Zie [ Offlinegegevens ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) toevoegen. |
+| Kanaaluitsplitsing | Hiermee kunt u een kanaal opsplitsen op basis van deze waarde. U kunt mogelijke kanaalonderverdelingen (subkanalen) toevoegen wanneer het creëren van [&#x200B; de classificaties van het marketingkanaal &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md). |
+| Type | Hiermee geeft u op hoe de gebruiker naar uw site is gekomen. U kunt Online of Offline selecteren. Gebruik online kanalen voor bezoekers die via een zoekmachine of e-mailcampagne komen. Offlinekanalen zijn van toepassing op bezoekers die uw site hebben gevonden via krantencoupons of advertenties in tijdschriften. De off-line kanalen omvatten gewoonlijk gegevens die door het melden van Gegevensbronnen worden ingevoerd. Zie [&#x200B; Gegevensbronnen &#x200B;](/help/import/data-sources/overview.md). Zie [&#x200B; Offlinegegevens &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md) toevoegen. |
 
 ### Beste werkwijzen overschrijven
 
@@ -87,12 +87,12 @@ Het is aan te raden de optie last-touch voor negeren van directe en interne kana
 
 ## Kanaalregels definiëren
 
-Alvorens de kanalen en de kanaalgegevens in het rapport kunnen worden getoond, creeer de kanalen en de onderliggende regels die gegevens verwerken. U kunt ook specificeren hoe lang u de [ periode van de bezoekersbetrokkenheid ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md) wilt duren.
+Alvorens de kanalen en de kanaalgegevens in het rapport kunnen worden getoond, creeer de kanalen en de onderliggende regels die gegevens verwerken. U kunt ook specificeren hoe lang u de [&#x200B; periode van de bezoekersbetrokkenheid &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md) wilt duren.
 
-Adobe verstrekt verscheidene vooraf bepaalde kanalen tijdens een [ automatische opstelling ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) die u kunt uitgeven om uw behoeften aan te passen. Bovendien, kunt u deze opstelling wijzigen en douaneregels binnen [ de verwerkingsregels van het Kanaal van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) bepalen.
+Adobe verstrekt verscheidene vooraf bepaalde kanalen tijdens een [&#x200B; automatische opstelling &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md) die u kunt uitgeven om uw behoeften aan te passen. Bovendien, kunt u deze opstelling wijzigen en douaneregels binnen [&#x200B; de verwerkingsregels van het Kanaal van de Marketing &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) bepalen.
 
 >[!NOTE]
 >
 >Adobe raadt u aan uw rapport in te stellen in een rapportsuite die u als sjabloon voor testdoeleinden kunt gebruiken. U kunt het malplaatje gebruiken om kanaal en regelreeksen globaal op één of meerdere reeksen van het productierapport toe te passen.
 >
->Zie [ de Montages van de Reeks van het Rapport van het Malplaatje op Veelvoudige Reeksen van het Rapport toepassen ](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>Zie [&#x200B; de Montages van de Reeks van het Rapport van het Malplaatje op Veelvoudige Reeksen van het Rapport toepassen &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
