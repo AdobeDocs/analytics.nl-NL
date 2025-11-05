@@ -3,30 +3,36 @@ title: VISTA-regels in Adobe Analytics
 description: Meer informatie over de regels en mogelijkheden van VISTA.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: b1c22031b9254ff077dfdc04ab90ab231b504299
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # VISTA-regels in Adobe Analytics
 
-De regels van VISTA zijn een afwisselende vorm van de aanpassing van douanegegevens die u tussen gegevensinzameling en verwerking kunt toepassen. Zie [&#x200B; orde van de Verwerking &#x200B;](processing-order.md) voor meer informatie rond het nauwkeurige stadium in de gegevenspijpleiding die de regels VISTA van toepassing zijn. De VISTA-regels hebben alleen invloed op de huidige gegevens aangezien deze worden verzameld; de bestaande gegevens worden niet gewijzigd.
+De regels van VISTA zijn een afwisselende vorm van de aanpassing van douanegegevens die u tussen gegevensinzameling en verwerking kunt toepassen. Zie [ orde van de Verwerking ](processing-order.md) voor meer informatie rond het nauwkeurige stadium in de gegevenspijpleiding die de regels VISTA van toepassing zijn. De VISTA-regels hebben alleen invloed op de huidige gegevens aangezien deze worden verzameld; de bestaande gegevens worden niet gewijzigd.
 
 Sommige veelvoorkomende gevallen van gebruik van de VISTA-regels omvatten:
 
 * Kopieer een hit Analytics van de ene rapportsuite naar de andere en wijzig desgewenst gegevens naar de gekopieerde rapportsuite
-* De uitsluiting van douane IP die de gebruiksgevallen overschrijdt die door [&#x200B; worden aangeboden uitsluiten door IP &#x200B;](/help/admin/tools/exclude-ip.md)
+* De uitsluiting van douane IP die de gebruiksgevallen overschrijdt die door [ worden aangeboden uitsluiten door IP ](/help/admin/tools/exclude-ip.md)
 * Voorwaardelijk of globaal om het even welke veranderlijke waarde wijzigen
 * Variabelewaarden naar andere variabelen dupliceren
 * Bestanden uploaden naar een Adobe FTP-site die invloed kan hebben op variabelewaarden
 
-Vele gebruiksgevallen aan regels VISTA worden reeds aangeboden door [&#x200B; Regels van de Verwerking &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [&#x200B; Bot regels &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [&#x200B; Virtuele rapportreeksen &#x200B;](/help/components/vrs/vrs-about.md), of eenvoudig het bijwerken van uw implementatie van Adobe Analytics. Adobe beveelt VISTA-regels alleen aan als laatste redmiddel.
+Vele gebruiksgevallen aan regels VISTA worden reeds aangeboden door [ Regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [ Virtuele rapportreeksen ](/help/components/vrs/vrs-about.md), of eenvoudig het bijwerken van uw implementatie van Adobe Analytics. Adobe beveelt VISTA-regels alleen aan als laatste redmiddel.
 
 >[!IMPORTANT]
 >
->Voor VISTA-regels is een overeenkomst tussen uw organisatie en Adobe Professional Services vereist. Neem contact op met uw Adobe-accountteam als u een VISTA-regel wilt maken of bijwerken.
+>Voor de implementatie en configuratie van de VISTA-regels is een betaalde overeenkomst tussen uw organisatie en Adobe Professional Services vereist. Neem contact op met uw Adobe-accountteam als u een VISTA-regel wilt maken of bijwerken.
+>
+>Opmerking:
+>
+>* Het maken van de VISTA-regel omvat alleen de initiële implementatie. Doorlopende onderhouds- of VISTA-regelupdates vereisen een afzonderlijke betaalde overeenkomst.
+>
+>* De VISTA-regels zijn afhankelijk van specifieke omstandigheden in uw gegevens. Als u bijvoorbeeld wijzigingen aanbrengt in uw Adobe Analytics-implementatie, de typen gegevens of lengten van tekenreeksen die worden verzameld, wijzigingen in de tabellen die worden gebruikt voor DB VISTA, of andere wijzigingen in gegevenspatronen die worden ingevoerd, kan een VISTA-regel niet meer werken zoals u had verwacht. Adobe raadt u aan uw VISTA-regels regelmatig te herzien om te bepalen of updates of verwijdering nodig zijn.
 
 ## Een VISTA-regel maken {#create}
 
