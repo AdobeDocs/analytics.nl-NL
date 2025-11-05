@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # VISTA-regels in Adobe Analytics
 
-De regels van VISTA zijn een afwisselende vorm van de aanpassing van douanegegevens die u tussen gegevensinzameling en verwerking kunt toepassen. Zie [ orde van de Verwerking ](processing-order.md) voor meer informatie rond het nauwkeurige stadium in de gegevenspijpleiding die de regels VISTA van toepassing zijn. De VISTA-regels hebben alleen invloed op de huidige gegevens aangezien deze worden verzameld; de bestaande gegevens worden niet gewijzigd.
+De regels van VISTA zijn een afwisselende vorm van de aanpassing van douanegegevens die u tussen gegevensinzameling en verwerking kunt toepassen. Zie [&#x200B; orde van de Verwerking &#x200B;](processing-order.md) voor meer informatie rond het nauwkeurige stadium in de gegevenspijpleiding die de regels VISTA van toepassing zijn. De VISTA-regels hebben alleen invloed op de huidige gegevens aangezien deze worden verzameld; de bestaande gegevens worden niet gewijzigd.
 
 Sommige veelvoorkomende gevallen van gebruik van de VISTA-regels omvatten:
 
 * Kopieer een hit Analytics van de ene rapportsuite naar de andere en wijzig desgewenst gegevens naar de gekopieerde rapportsuite
-* De uitsluiting van douane IP die de gebruiksgevallen overschrijdt die door [ worden aangeboden uitsluiten door IP ](/help/admin/tools/exclude-ip.md)
+* De uitsluiting van douane IP die de gebruiksgevallen overschrijdt die door [&#x200B; worden aangeboden uitsluiten door IP &#x200B;](/help/admin/tools/exclude-ip.md)
 * Voorwaardelijk of globaal om het even welke veranderlijke waarde wijzigen
 * Variabelewaarden naar andere variabelen dupliceren
 * Bestanden uploaden naar een Adobe FTP-site die invloed kan hebben op variabelewaarden
 
-Vele gebruiksgevallen aan regels VISTA worden reeds aangeboden door [ Regels van de Verwerking ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [ Bot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [ Virtuele rapportreeksen ](/help/components/vrs/vrs-about.md), of eenvoudig het bijwerken van uw implementatie van Adobe Analytics. Adobe beveelt VISTA-regels alleen aan als laatste redmiddel.
+Vele gebruiksgevallen aan regels VISTA worden reeds aangeboden door [&#x200B; Regels van de Verwerking &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [&#x200B; Bot regels &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [&#x200B; Virtuele rapportreeksen &#x200B;](/help/components/vrs/vrs-about.md), of eenvoudig het bijwerken van uw implementatie van Adobe Analytics. Adobe beveelt VISTA-regels alleen aan als laatste redmiddel.
 
 >[!IMPORTANT]
 >
