@@ -26,7 +26,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 >
 >De meeste kolommen bevatten een vergelijkbare kolom met een voorvoegsel `post_` . Post kolommen bevatten waarden na server-zijlogica, verwerkingsregels, en regels VISTA. Adobe raadt aan in de meeste gevallen postkolommen te gebruiken. Zie [&#x200B; Veelgestelde Veelgestelde vragen van het voer van Gegevens &#x200B;](../df-faq.md) voor meer informatie.
 
-De vorige updates aan deze lijst kunnen op [&#x200B; worden gevonden van deze pagina begaat geschiedenis op GitHub &#x200B;](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+De vorige updates aan deze lijst kunnen op [&#x200B; worden gevonden van deze pagina begaat geschiedenis op GitHub &#x200B;](https://github.com/AdobeDocs/analytics.nl-NL/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
 | Kolomnaam | Kolombeschrijving | Gegevenstype |
 | --- | --- | --- |
