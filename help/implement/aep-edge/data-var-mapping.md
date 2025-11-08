@@ -25,7 +25,7 @@ Sommige gegevensobjectvelden ondersteunen ook hun respectievelijke [Parameterwaa
 
 ## Gegevensobjectveldtoewijzing
 
-U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Net als bij AppMeasurement-variabelen zijn in alle gegevensobjectvelden hoofdlettergevoelig.
+U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op GitHub](https://github.com/AdobeDocs/analytics.nl-NL/commits/main/help/implement/aep-edge/data-var-mapping.md). Net als bij AppMeasurement-variabelen zijn in alle gegevensobjectvelden hoofdlettergevoelig.
 
 | Gegevensobjectveldpad | Variabele en beschrijving voor analyse |
 | --- | --- |

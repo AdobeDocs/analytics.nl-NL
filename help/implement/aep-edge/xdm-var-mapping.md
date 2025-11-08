@@ -23,7 +23,7 @@ De meeste XDM objecten gebieden in deze lijst vallen met a [&#x200B; gebied van 
 
 ## XML-objectveldtoewijzing
 
-De vorige updates aan deze lijst kunnen op [&#x200B; worden gevonden van deze pagina begaat geschiedenis op GitHub &#x200B;](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md).
+De vorige updates aan deze lijst kunnen op [&#x200B; worden gevonden van deze pagina begaat geschiedenis op GitHub &#x200B;](https://github.com/AdobeDocs/analytics.nl-NL/commits/main/help/implement/aep-edge/xdm-var-mapping.md).
 
 | XDM-veldpad | Variabele en beschrijving voor analyse |
 | --- | --- |
