@@ -3,9 +3,9 @@ title: Dynamische zoekopdrachten
 description: Leer hoe u dynamische zoekopdrachten kunt gebruiken en hoe u deze kunt inschakelen. Omvat dragers, mobiele attributen, en werkend systeemtypes.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
+source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,28 @@ ht-degree: 0%
 
 Met dynamische zoekopdrachten kunt u extra opzoekbestanden in uw gegevensfeed ontvangen die anders niet beschikbaar zijn. Met deze instelling kunnen de volgende opzoektabellen worden verzonden met elk gegevensbestand met gegevensinvoer:
 
-* **Naam vervoerder**: Biedt extra context voor de `carrier` kolom. De bestandsnaam die is opgenomen is `carrier.tsv`.
-* **Mobiele kenmerken**: Biedt extra context voor de `mobile_id` kolom, inclusief alle functies die voor elk mobiel apparaat worden bijgehouden. De bestandsnaam die is opgenomen is `mobile_attributes.tsv`.
-* **Type besturingssysteem**: Biedt een alternatieve context voor de `os` kolom. Beide `operating_systems.tsv` en `operating_system_type.tsv` gebruiken `os` kolom als de sleutel, maar slechts `operating_system_type.tsv` is een dynamische zoekopdracht.
+* **naam van de Drager**: Verstrekt extra context voor de `carrier` kolom. De opgenomen bestandsnaam is `carrier.tsv` .
+* **Mobiele attributen**: Verstrekt extra context voor de `mobile_id` kolom, met inbegrip van alle eigenschappen die voor elk mobiel apparaat worden gevolgd. De opgenomen bestandsnaam is `mobile_attributes.tsv` .
+* **Werkend systeemtype**: Verstrekt een afwisselende context voor de `os` kolom. Zowel `operating_systems.tsv` als `operating_system_type.tsv` gebruiken de kolom `os` als de sleutel, maar alleen `operating_system_type.tsv` is een dynamische zoekopdracht.
 
-## Dynamische zoekopdrachten inschakelen
+## Dynamische zoekopdrachten inschakelen {#enable-dynamic-lookups}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_dynamic_lookups"
+>title="Dynamische zoekopdrachten inschakelen"
+>abstract="Selecteer deze optie als u extra opzoekbestanden in de gegevensfeed wilt ontvangen die anders niet beschikbaar zijn. Met deze instelling kunnen de volgende opzoektabellen worden verzonden met elk gegevensbestand met gegevensinvoer:<ul><li>Naam vervoerder</li><li>Mobiele kenmerken</li><li>Type besturingssysteem</li></ul>"
+
+<!-- markdownlint-enable MD034 -->
 
 Als u de vermelde opzoekbestanden wilt ontvangen, moet u aan alle volgende voorwaarden voldoen:
 
 * De sleutelkolom moet in de gegevensvoer worden omvat.
-   * Voor `carrier.tsv`, moet u `carrier`.
-   * Voor `mobile_attributes.tsv`, moet u `mobile_id`.
-   * Voor `operating_system_type.tsv`, moet u `os`.
-* De volgende kolommen moeten **uitgesloten**. Als een van deze kolommen is opgenomen in de gegevensinvoer, wordt de `mobile_attributes.tsv` dynamische zoekopdracht is niet opgenomen.
+   * Voor `carrier.tsv` moet u `carrier` opnemen.
+   * Voor `mobile_attributes.tsv` moet u `mobile_id` opnemen.
+   * Voor `operating_system_type.tsv` moet u `os` opnemen.
+* De volgende kolommen moeten **worden uitgesloten**. Als een van deze kolommen is opgenomen in de gegevensfeed, wordt de `mobile_attributes.tsv` dynamische zoekopdracht niet opgenomen.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
@@ -35,17 +44,17 @@ Als uw gegevensfeed voldoet aan de vereisten voor het opnemen en uitsluiten van 
 
 ## Verwijzing naar opzoekkoptekst
 
-Kolomkoppen voor deze opgezochte bestanden veranderen niet in de loop der tijd, zodat de kopteksten niet in elk gegevensbestand van de gegevensinvoer worden opgenomen. Gebruik deze kolomkoppen als referentie of download hun respectievelijke `.tsv` bestand.
+Kolomkoppen voor deze opgezochte bestanden veranderen niet in de loop der tijd, zodat de kopteksten niet in elk gegevensbestand van de gegevensinvoer worden opgenomen. Gebruik deze kolomkoppen als referentie of download het respectievelijke `.tsv` -bestand.
 
-+++**Naam vervoerder**
-Downloaden [carrier_headers.tsv](assets/carrier_headers.tsv) of verwijs naar de onderstaande koppen.
++++**naam van de Drager**
+Download [ drager_headers.tsv ](assets/carrier_headers.tsv) of verwijs de hieronder kopballen.
 
 `carrier`
 `Carrier Name`
 +++
 
-+++**Mobiele kenmerken**
-Downloaden [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) of verwijs naar de onderstaande koppen.
++++**Mobiele attributen**
+Download [ mobile_attributes_headers.tsv ](assets/mobile_attributes_headers.tsv) of verwijs de hieronder kopballen.
 
 `mobile_id`
 `Manufacturer`
@@ -99,8 +108,8 @@ Downloaden [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv)
 `Stream HTTP Live Streaming Video Support`
 +++
 
-+++**Type besturingssysteem**
-Downloaden [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) of verwijs naar de onderstaande koppen.
++++**Werkend systeemtype**
+Download [ operating_system_type_headers.tsv ](assets/operating_system_type_headers.tsv) of verwijs de hieronder kopballen.
 
 `os`
 `Operating System Type`
