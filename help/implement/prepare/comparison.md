@@ -31,7 +31,7 @@ Zie hoe elke methode om Adobe Analytics uit te voeren met elkaar vergelijkt. U k
 
 >[!CAUTION]
 >
->Ondersteuning voor versie 4 Mobile SDK&#39;s is beëindigd op 31 augustus 2021. Zie [&#x200B; Adobe Mobiele Veelgestelde Veelgestelde vragen van de Diensten van het Eind van de Eind-van-leven &#x200B;](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) voor meer informatie.
+>Ondersteuning voor versie 4 Mobile SDK&#39;s is beëindigd op 31 augustus 2021. Zie [&#x200B; Adobe Mobiele Veelgestelde Veelgestelde vragen van de Diensten van het Eind van de Eind-van-leven &#x200B;](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=nl-NL) voor meer informatie.
 
 
 | | [&#x200B; Mobiele SDK &#x200B;](/help/implement/aep-edge/mobile-sdk/overview.md) | [&#x200B; Edge Network API &#x200B;](/help/implement/aep-edge/api/overview.md) |

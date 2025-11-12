@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Gebeurtenissen met succes (ook wel conversiegebeurtenissen of aangepaste gebeurtenissen genoemd) zijn handelingen die kunnen worden bijgehouden. U bepaalt wat een succesgebeurtenis is. Als een bezoeker bijvoorbeeld een item aanschaft, kan de aankoopgebeurtenis als de succesgebeurtenis worden beschouwd.
 
-Voor een videooverzicht van succesgebeurtenissen, zie [&#x200B; Inleiding aan omzettingsgebeurtenissen &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) in de gids van de Zelfstudies van de Analyse.
+Voor een videooverzicht van succesgebeurtenissen, zie [&#x200B; Inleiding aan omzettingsgebeurtenissen &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) in de gids van de Zelfstudies van de Analyse.
 
 ## Voorbeelden van succesgebeurtenissen
 

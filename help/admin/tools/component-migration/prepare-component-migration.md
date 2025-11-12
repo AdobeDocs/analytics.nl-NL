@@ -16,7 +16,7 @@ Alvorens iedereen in uw organisatie begint migrerend projecten zoals die in [&#x
 
 ## Vereisten
 
-Alvorens uw projecten en hun bijbehorende componenten klaar zijn om te migreren, moet u eerst de stappen in [&#x200B; Evolutie van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html) in de Gids van Adobe Customer Journey Analytics volgen. Deze stappen omvatten:
+Alvorens uw projecten en hun bijbehorende componenten klaar zijn om te migreren, moet u eerst de stappen in [&#x200B; Evolutie van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=nl-NL) in de Gids van Adobe Customer Journey Analytics volgen. Deze stappen omvatten:
 
 1. Gebruik een van de volgende methoden om gegevens in te voeren in Adobe Experience Platform om Adobe Analytics-rapportsuite-gegevens in Customer Journey Analytics weer te geven:
 
@@ -27,21 +27,21 @@ Alvorens uw projecten en hun bijbehorende componenten klaar zijn om te migreren,
 
    * Als u de Adobe Analytics-bronconnector wilt gebruiken, moet u:
 
-      1. [&#x200B; de reeksen van het opstellingsrapport voor opname in Adobe Experience Platform en Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [&#x200B; de reeksen van het opstellingsrapport voor opname in Adobe Experience Platform en Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=nl-NL#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [&#x200B; Samenvatten en gebruiken de gegevens &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html)
+      1. [&#x200B; Samenvatten en gebruiken de gegevens &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=nl-NL)
 
    * Om WebSDK te gebruiken, moet u:
 
-      1. [&#x200B; de reeksen van het opstellingsrapport voor opname in Adobe Experience Platform en Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [&#x200B; de reeksen van het opstellingsrapport voor opname in Adobe Experience Platform en Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=nl-NL#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [&#x200B; Ingest gegevens via het Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+      1. [&#x200B; Ingest gegevens via het Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=nl-NL)
 
-1. Creeer a [&#x200B; verbinding &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) en [&#x200B; gegevensmening &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) met de opgenomen gegevens.
+1. Creeer a [&#x200B; verbinding &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=nl-NL) en [&#x200B; gegevensmening &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=nl-NL) met de opgenomen gegevens.
 
 1. Zorg ervoor dat gebruikers in Customer Journey Analytics zijn ingericht voor de gegevensweergaven waarin gegevens worden toegewezen.
 
-   Voor meer informatie, zie {de toestemmingen van 0} Customer Journey Analytics in Admin Console [&#x200B; in &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) de toegangscontrole van Customer Journey Analytics [.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)
+   Voor meer informatie, zie {de toestemmingen van 0} Customer Journey Analytics in Admin Console [&#x200B; in &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=nl-NL#customer-journey-analytics-permissions-in-admin-console) de toegangscontrole van Customer Journey Analytics [.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=nl-NL)
 
    Het tabblad Machtigingen maakt deel uit van elk productprofiel in Admin Console. U kunt gebruikers toevoegen aan specifieke productprofielen. Vervolgens wijst u rechten toe aan specifieke gegevensweergaven en geeft u op welke machtigingen de gebruikers in een productprofiel hebben.
 

@@ -43,7 +43,7 @@ Dit [&#x200B; de blogpost van Google &#x200B;](https://web.dev/user-agent-client
 
 +++**Hoe laat ik de inzameling van cliëntwenken toe?**
 
-Tips voor lage entropie worden automatisch door de browser opgegeven en worden opgenomen om apparaat- en browserinformatie af te leiden. Nieuwere versies van Web SDK (vanaf 2.12.0) en AppMeasurement (vanaf 2.23.0) kunnen worden geconfigureerd voor het verzamelen van hoge entropiehints via hun respectievelijke Tags-extensies of rechtstreeks via een configuratieoptie. Zie richtingen voor [&#x200B; SDK van het Web &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) en [&#x200B; AppMeasurement &#x200B;](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
+Tips voor lage entropie worden automatisch door de browser opgegeven en worden opgenomen om apparaat- en browserinformatie af te leiden. Nieuwere versies van Web SDK (vanaf 2.12.0) en AppMeasurement (vanaf 2.23.0) kunnen worden geconfigureerd voor het verzamelen van hoge entropiehints via hun respectievelijke Tags-extensies of rechtstreeks via een configuratieoptie. Zie richtingen voor [&#x200B; SDK van het Web &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=nl-NL#enabling-high-entropy-client-hints) en [&#x200B; AppMeasurement &#x200B;](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
 
 Voor beide bibliotheken, wordt de inzameling van high-entropy wenken **onbruikbaar gemaakt door gebrek**.
 
@@ -109,7 +109,7 @@ Zie de [&#x200B; chronologie die door Google &#x200B;](https://blog.chromium.org
 
 Apparaatinformatie in rapportage wordt afgeleid van de gebruikersagent. Wij hebben onze processen bijgewerkt om zowel de Agent van de Gebruiker als cliëntwenken te gebruiken waar beschikbaar.
 
-Identiteitskaart van de Fallback ([&#x200B; s_fid &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html)) wordt afgeleid uit de Agent van de Gebruiker en IP Adres. Deze id wordt alleen gebruikt als een cookie niet kan worden ingesteld en daarom niet op grote schaal wordt gebruikt
+Identiteitskaart van de Fallback ([&#x200B; s_fid &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=nl-NL)) wordt afgeleid uit de Agent van de Gebruiker en IP Adres. Deze id wordt alleen gebruikt als een cookie niet kan worden ingesteld en daarom niet op grote schaal wordt gebruikt
 
 +++
 

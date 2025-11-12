@@ -143,7 +143,7 @@ Bovendien doe een [&#x200B; inventaris van Adobe Analytics &#x200B;](/help/admin
 
    Als de migratie ontbreekt, zie [&#x200B; opnieuw een ontbroken migratie &#x200B;](#retry-a-failed-migration) sectie hieronder voor meer informatie.
 
-1. (Optioneel) Nadat projecten zijn gemigreerd, kunt u de eigendom van de projecten overdragen aan elke gebruiker in Customer Journey Analytics. Voor meer informatie, zie [&#x200B; activa van de Overdracht &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in de Gids van Customer Journey Analytics.
+1. (Optioneel) Nadat projecten zijn gemigreerd, kunt u de eigendom van de projecten overdragen aan elke gebruiker in Customer Journey Analytics. Voor meer informatie, zie [&#x200B; activa van de Overdracht &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in de Gids van Customer Journey Analytics.
 
 ## Een mislukte migratie opnieuw proberen
 
