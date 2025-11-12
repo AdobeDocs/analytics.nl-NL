@@ -3,7 +3,7 @@ description: Leer hoe waarschuwingen worden beheerd.
 title: Waarschuwingen beheren
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -18,14 +18,14 @@ U kunt waarschuwingen filteren, labelen, verwijderen, hernoemen, kopiëren, insc
 
 * Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Alerts]** .
 
-De manager van het Alarm is gestructureerd als de [&#x200B; manager van het Segment &#x200B;](/help/components/segmentation/segmentation-workflow/seg-manage.md) en [&#x200B; Berekende metrische manager &#x200B;](/help/components/calculated-metrics/workflow/cm-manager.md).
+De manager van het Alarm is gestructureerd als de [ manager van het Segment ](/help/components/segmentation/segmentation-workflow/seg-manage.md) en [ Berekende metrische manager ](/help/components/calculated-metrics/workflow/cm-manager.md).
 
 
 ## Waarschuwingenbeheer
 
 De manager van Alarm heeft de volgende interfaceelementen:
 
-![&#x200B; de interface van Filters &#x200B;](assets/alerts-manager.png)
+![ de interface van Filters ](assets/alerts-manager.png)
 
 ### Waarschuwingenlijst
 
@@ -33,8 +33,8 @@ In de lijst met waarschuwingen ➊ worden alle waarschuwingen weergegeven die u 
 
 | Kolom | Beschrijving |
 |---|---|
-| ![&#x200B; StarOutline &#x200B;](/help/assets/icons/StarOutline.svg) | Selecteer om ![&#x200B; Ster &#x200B;](/help/assets/icons/Star.svg) of niet-gunst ![&#x200B; StarOutline &#x200B;](/help/assets/icons/StarOutline.svg) een alarm te begunstigen. |
-| **[!UICONTROL Title and description]** | Om het alarm uit te geven, selecteer de titelverbinding, die de [&#x200B; bouwer van Alarm &#x200B;](alert-builder.md#alert-builder) opent. |
+| ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) een alarm te begunstigen. |
+| **[!UICONTROL Title and description]** | Om het alarm uit te geven, selecteer de titelverbinding, die de [ bouwer van Alarm ](alert-builder.md#alert-builder) opent. |
 | **[!UICONTROL Type]** | Het type waarschuwing: een Adobe Analytics-gegevenswaarschuwing of een waarschuwing voor het gebruik van een serveroproep. |
 | **[!UICONTROL Enabled]** | De waarschuwing wordt in- of uitgeschakeld. |
 | **[!UICONTROL Report suite]** | De rapportensuites waarop deze waarschuwing van toepassing is. |
@@ -49,7 +49,7 @@ When "Last used" column is added, add this information as the description: Shows
 
 -->
 
-Gebruik ![&#x200B; ColumnSetting &#x200B;](/help/assets/icons/ColumnSetting.svg) om te specificeren welke kolommen u wilt tonen.
+Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specificeren welke kolommen u wilt tonen.
 
 ### Actiebalk
 
@@ -57,28 +57,28 @@ U kunt actie ondernemen bij waarschuwingen met de actiebalk ➋ . De actiebalk b
 
 | Pictogram | Handeling | Beschrijving |
 |:---:|---|---|
-| ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Voeg een ander alarm toe, gebruikend de [&#x200B; Waakzame bouwer &#x200B;](alert-builder.md#alert-builder). |
-| ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) | [!UICONTROL *Onderzoek door titel*] | Wanneer er geen waarschuwing in de lijst is geselecteerd, zoekt u naar waarschuwingen met dit zoekveld. |
-| ![&#x200B; Etiket &#x200B;](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Label de geselecteerde waarschuwingen. Selecteer in het dialoogvenster **[!UICONTROL Tag Alert]** de tags voor de geselecteerde waarschuwingen of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde waarschuwingen op te slaan. |
-| ![&#x200B; Schrapping &#x200B;](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder de geselecteerde waarschuwingen. U wordt gevraagd om een bevestiging. |
-| ![&#x200B; geeft &#x200B;](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van één geselecteerde waarschuwing. Als deze optie is geselecteerd, kunt u de naam van de waarschuwing inline wijzigen. |
-| ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Kopieer de geselecteerde waarschuwing. Nieuwe waarschuwingen worden gemaakt met dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
-| ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Enable]** of **[!UICONTROL Disable]** | Schakel de geselecteerde waarschuwingen in of uit. |
-| ![&#x200B; verfrissen zich &#x200B;](/help/assets/icons/Refresh.svg) | **[!UICONTROL Renew]** | Hiermee wordt de vervaldatum van de waarschuwing vernieuwd. De vervaldatum begint met 1 jaar vanaf de dag waarop u deze optie selecteert, ongeacht de oorspronkelijke vervaldatum. |
-| ![&#x200B; FileCSV &#x200B;](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Exporteer de waarschuwingen naar een `Alerts List.csv` -bestand. |
+| ![ AddCircle ](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Voeg een ander alarm toe, gebruikend de [ Waakzame bouwer ](alert-builder.md#alert-builder). |
+| ![ Onderzoek ](/help/assets/icons/Search.svg) | [!UICONTROL *Onderzoek door titel*] | Wanneer er geen waarschuwing in de lijst is geselecteerd, zoekt u naar waarschuwingen met dit zoekveld. |
+| ![ Etiket ](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Label de geselecteerde waarschuwingen. Selecteer in het dialoogvenster **[!UICONTROL Tag Alert]** de tags voor de geselecteerde waarschuwingen of hef de selectie hiervan op. Selecteer **[!UICONTROL Save]** om de labels voor de geselecteerde waarschuwingen op te slaan. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder de geselecteerde waarschuwingen. U wordt gevraagd om een bevestiging. |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van één geselecteerde waarschuwing. Als deze optie is geselecteerd, kunt u de naam van de waarschuwing inline wijzigen. |
+| ![ Exemplaar ](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Kopieer de geselecteerde waarschuwing. Nieuwe waarschuwingen worden gemaakt met dezelfde naam en hetzelfde achtervoegsel `(Copy)` . |
+| ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Enable]** of **[!UICONTROL Disable]** | Schakel de geselecteerde waarschuwingen in of uit. |
+| ![ verfrissen zich ](/help/assets/icons/Refresh.svg) | **[!UICONTROL Renew]** | Hiermee wordt de vervaldatum van de waarschuwing vernieuwd. De vervaldatum begint met 1 jaar vanaf de dag waarop u deze optie selecteert, ongeacht de oorspronkelijke vervaldatum. |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Exporteer de waarschuwingen naar een `Alerts List.csv` -bestand. |
 
 
 ### Actieve filterbalk
 
-De filterbalk ➌ geeft de actieve filters weer die van het filterdeelvenster zijn toegepast op de lijst met waarschuwingen (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
+De filterbalk ➌ geeft de actieve filters weer die van het filterdeelvenster zijn toegepast op de lijst met waarschuwingen (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
 
 
 ### Deelvenster Filter
 
-U kunt de lijst van alarm filtreren gebruikend het ![&#x200B; Linkerpaneel van de Filter &#x200B;](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** ➍. In het filterdeelvenster worden het type filter en het aantal waarschuwingen weergegeven die aan het specifieke filter voldoen.
+U kunt de lijst van alarm filtreren gebruikend het ![ Linkerpaneel van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** ➍. In het filterdeelvenster worden het type filter en het aantal waarschuwingen weergegeven die aan het specifieke filter voldoen.
 
 
-1. Selecteer ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Alarm nodig hebt, kunt u ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
+1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Alarm nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
 1. Selecteer filters uit een van de beschikbare filtersecties.
 
 
@@ -117,15 +117,15 @@ U kunt de lijst van alarm filtreren gebruikend het ![&#x200B; Linkerpaneel van d
 
 U kunt een waarschuwing bewerken
 
-* Selecteer in de [[!UICONTROL Alert] lijst &#x200B;](#alerts-list) de titel van de waarschuwing.
+* Selecteer in de [[!UICONTROL Alert] lijst ](#alerts-list) de titel van de waarschuwing.
 
-U gebruikt de [&#x200B; Waakzame bouwer &#x200B;](alert-builder.md#alert-builder) om het alarm uit te geven.
+U gebruikt de [ Waakzame bouwer ](alert-builder.md#alert-builder) om het alarm uit te geven.
 
 ## Een waarschuwing oplossen
 
 Geef Adobe Support het JID-nummer (Job Instance ID) op wanneer u een probleem met een waarschuwing oplost. Het JID-nummer bevindt zich onder aan het e-mailbericht dat u ontvangt.
 
-![&#x200B; Alert e-mail &#x200B;](assets/alerts-email.PNG)
+![ Alert e-mail ](assets/alerts-email.PNG)
 
 
 <!--
@@ -178,10 +178,10 @@ To manage existing alerts in the Alerts manager:
 
 1. In the action bar, select any of the following options:
 
-   | Action | Function | 
+   | Action | Function |
    |---------|----------|
-   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. | 
-   | [!UICONTROL **Delete**] | Deletes the alert. | 
+   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. |
+   | [!UICONTROL **Delete**] | Deletes the alert. |
    | [!UICONTROL **Rename**] | Renames the alert. |
    | [!UICONTROL **Approve**] | Mark the alert as Approved. |
    | [!UICONTROL **Copy**] | Creates a copy (duplicate) of the alert. |
@@ -230,7 +230,7 @@ To configure the visible columns in the Alerts manager:
    | Title and description | These values are provided in the Alert builder. To edit the title and description, select the title link to open the Alert builder.  |
    | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. |
    | Type | Shows whether the alert is an Analytics data alert or a Server call usage alert. |
-   | Enabled | Shows whether the alert is currently enabled or disabled. | 
+   | Enabled | Shows whether the alert is currently enabled or disabled. |
    | Report suite | Indicates in which report suite the alert was last saved.  |
    | Owner | Indicates who owns the alert. As a non-admin, you can see only alerts you own or those that were shared with you.  |
    | Tags | Shows tags that were applied to the alert, either by you or by people who shared the alert with you.  |

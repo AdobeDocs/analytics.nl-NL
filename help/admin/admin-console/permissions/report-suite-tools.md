@@ -4,7 +4,7 @@ description: Begrijp elk toestemmingspunt onder de Hulpmiddelen van de Reeks van
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 1dba07de2836699ceaad31b4bd3149c169c51211
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Deze lijst maakt een lijst van alle toestemmingenpunten onder de Hulpmiddelen va
 | [!UICONTROL Bots] | Niet gebruikt |
 | [!UICONTROL Channels] | Biedt toegang tot marketingkanalen, waaronder Marketing Channel Manager, Marketing Channel Processing Rules en Marketing Channel Expiration in Report Suite Manager. |
 | [!UICONTROL Channel Report] | Niet gebruikt |
-| [!UICONTROL Classifications] | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer. Dit toestemmingspunt omvat: <br> Verkeer > de Classificaties van het Verkeer <br> Omzetting > de Classificaties van de Omzetting <br> Omzetting > de Hiërarchieën van de Indeling van de Indeling van de Indeling van de Indeling van het Kanaal <br> > de Classificaties van het Kanaal van de Marketing > App <br> Beheer van de Toepassingen van het Mediabeheer > van de Classificaties van de Classificaties van de Media <br> AEM <br> 6&rbrace; Adobe > van AEM Assets <br> de classificaties van &lbrace;Adobe Campaign van > > van  > van > van de Classificaties van > van de Classificaties van de Classificaties van de Classificaties van |
+| [!UICONTROL Classifications] | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer. Dit toestemmingspunt omvat: <br> Verkeer > de Classificaties van het Verkeer <br> Omzetting > de Classificaties van de Omzetting <br> Omzetting > de Hiërarchieën van de Indeling van de Indeling van de Indeling van de Indeling van het Kanaal <br> > de Classificaties van het Kanaal van de Marketing > App <br> Beheer van de Toepassingen van het Mediabeheer > van de Classificaties van de Classificaties van de Media <br> AEM <br> 6} Adobe > van AEM Assets <br> de classificaties van {Adobe Campaign van > > van  > van > van de Classificaties van > van de Classificaties van de Classificaties van de Classificaties van |
 | [!UICONTROL Costs] | Biedt toegang tot marketingkanalen > Kosten marketingkanaal in Report Suite Manager. |
 | [!UICONTROL Contribution Analysis] | Hiermee krijgt u toegang tot het contextmenu &#39;Contributieanalyse uitvoeren&#39; in Analysis Workspace. |
 | [!UICONTROL Conversion Variables] | Hiermee krijgt u toegang tot Conversie > Conversievariabelen in Report Suite Manager. |

@@ -5,9 +5,9 @@ uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
 role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ De tabel gaat ervan uit dat de datum van vandaag maandag 10 november 2011 is, me
 
 | Voorbeeld | Datumbereik | Expressie aanpassen | Datum Bereik rapport |
 |---|---|---|---|
-|  | | **van** | **aan** | |
-| 1 | Twee weken geleden | cw-2w | cw-1w-1d | 26 okt tot 1 nov. |
-| 2 | Eerste drie dagen van de vijfde maand van het afgelopen jaar | cy-1y+4m | cy-1y+4m+2d | 1 mei tot en met 3 mei 2010 |
-| 3 | Een volledige week, vanaf 4 weken geleden | cw-4w | cw-3w-1d | 12 okt tot 18 okt. |
-| 4 | Vorige week in het voorgaande jaar | cw-53w | cw-52w-1d | nov. tot 9 nov. 2010 |
-| 5 | Een maand die twee maanden geleden begint | cm-2m | cm-1m-1d | 1 september tot en met 30 september |
-| 6 | 12 maanden geleden in het voorgaande jaar | cm-12 m | cm-11m-1d | 1 nov. t/m 30 nov. 2010 |
+|  | | **van** | **aan** |
+| 1 | Twee weken geleden | `cw-2w  \| cw-1w-1d` | 26 okt tot 1 nov. |
+| 2 | Eerste drie dagen van de vijfde maand van het afgelopen jaar | `cy-1y+4m  \| cy-1y+4m+2d` | 1 mei tot en met 3 mei 2010 |
+| 3 | Een volledige week, vanaf 4 weken geleden | `cw-4w  \| cw-3w-1d` | 12 okt tot 18 okt. |
+| 4 | Vorige week in het voorgaande jaar | `cw-53w  \| cw-52w-1d` | nov. tot 9 nov. 2010 |
+| 5 | Een maand die twee maanden geleden begint | `cm-2m  \| cm-1m-1d` | 1 september tot en met 30 september |
+| 6 | 12 maanden geleden in het voorgaande jaar | `cm-12m  \| cm-11m-1d` | 1 nov. t/m 30 nov. 2010 |
 
 ## Opmerkingen over voorbeelden {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 

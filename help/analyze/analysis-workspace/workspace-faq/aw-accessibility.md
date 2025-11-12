@@ -4,7 +4,7 @@ title: Toegankelijkheid in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -31,11 +31,11 @@ Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mens
 Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van links naar rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
 
 * Met de toets **[!UICONTROL Tab]** kunt u sneltoetsen gebruiken om markeringen te markeren die zich verplaatsen tussen grotere secties in Workspace. In het linkerdeelvenster kunt u met **[!UICONTROL Tab]** ook van de ene versleepbare optie naar de andere gaan.
-* De &rbrace;︎ ◀ en ▶ &rbrace;︎ tussen afzonderlijke elementen gaan nadat met de toets **[!UICONTROL Tab]** een element is gemarkeerd.
+* De }︎ ◀ en ▶ }︎ tussen afzonderlijke elementen gaan nadat met de toets **[!UICONTROL Tab]** een element is gemarkeerd.
 * Met de **[!UICONTROL F6]** -toets navigeert u naar het eerste deelvenster in het project en gaat u tussen de visualisaties in dat deelvenster. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
 * Focusindicatoren worden toegepast zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand voor het deelvenster dat focus heeft. En grijze achtergrond voor de onlangs geselecteerde functionaliteit en de selectie binnen de functionaliteit. In het voorbeeld zijn [!UICONTROL Components] en de pagina-dimensie onlangs geselecteerd.
 
-  ![&#x200B; vrije lijst die een nadrukindicator van een blauwe grens rond de lijst Freeform toont.](assets/focus-indicator.png)
+  ![ vrije lijst die een nadrukindicator van een blauwe grens rond de lijst Freeform toont.](assets/focus-indicator.png)
 
 ### Toetsenbordnavigatie voor de menubalk
 
@@ -55,7 +55,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een rijke reeks [&#x200B; toetsenbordkortere weg (hotkeys) &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze werkschema aan.
+[!UICONTROL Analysis Workspace] biedt een rijke reeks [ toetsenbordkortere weg (hotkeys) ](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze werkschema aan.
 
 ## Ondersteuning voor schermlezers en schermvergrotingen
 
@@ -65,13 +65,13 @@ Een schermlezer leest tekst die op het computerscherm wordt weergegeven. Deze le
 
 [!UICONTROL Analysis Workspace] streeft naar WCAG 2.1 AA-conformiteit, inclusief vereisten voor kleurcontrast.
 
-Bovendien kunnen de gebruikers hun eigen aangewezen kleurenpalet voor een project onder **[!UICONTROL Project]** plaatsen > **[!UICONTROL Project settings]** > [&#x200B; het kleurenpalet van het Project &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md).
+Bovendien kunnen de gebruikers hun eigen aangewezen kleurenpalet voor een project onder **[!UICONTROL Project]** plaatsen > **[!UICONTROL Project settings]** > [ het kleurenpalet van het Project ](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md).
 
 ## Vereiste validatie
 
 Wanneer u een component, een visualisatie of een deelvenster maakt, worden de vereiste velden gevalideerd tijdens het opslaan. Als een vereist veld de validatie niet doorgeeft, wordt het veld rood weergegeven met een foutpictogram. In een schriftelijke beschrijving wordt uitgelegd wat er moet worden opgelost.
 
-![&#x200B; de Bouwer van het Segment en de indicator van de foutenbevestiging.](assets/error-validation.png)
+![ de Bouwer van het Segment en de indicator van de foutenbevestiging.](assets/error-validation.png)
 
 ## Ondersteuning voor toegankelijkheidsfuncties van besturingssystemen
 
@@ -124,7 +124,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 | Shortcut | Action |
 | --- | --- |
-| `[Alt + Shift + 1 / 2 / 3]` | Jump to different rails: [!UICONTROL Panels], [!UICONTROL Visualizations], or [!UICONTROL Components] | 
+| `[Alt + Shift + 1 / 2 / 3]` | Jump to different rails: [!UICONTROL Panels], [!UICONTROL Visualizations], or [!UICONTROL Components] |
 | `[Alt + Left / Right]` | Navigate between panels |
 | `[Alt + M]` | Collapse/expand all panels |
 | `[Alt + Ctrl + M]` | Collapse/expand active panel |

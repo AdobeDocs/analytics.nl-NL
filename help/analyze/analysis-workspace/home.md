@@ -4,7 +4,7 @@ description: Meer informatie over Analysis Workspace, het belangrijkste hulpprog
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 1%
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Overzicht van Analysis Workspace {#analysis-workspace-overview}
 
-Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en deze inzichten vervolgens met anderen te delen. Gebruikend de belemmering-en-dalings browser interface, kunt u uw analyse amberen, visualisaties toevoegen om gegevens aan het leven te brengen, een dataset in werking te stellen, en [&#x200B; projecten &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) met iedereen te delen en te plannen u kiest.
+Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en deze inzichten vervolgens met anderen te delen. Gebruikend de belemmering-en-dalings browser interface, kunt u uw analyse amberen, visualisaties toevoegen om gegevens aan het leven te brengen, een dataset in werking te stellen, en [ projecten ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) met iedereen te delen en te plannen u kiest.
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; overzicht van de werkruimte van de Analyse &#x200B;](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ overzicht van de werkruimte van de Analyse ](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -25,14 +25,14 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 In de volgende afbeelding en de bijbehorende tabel worden de belangrijkste elementen in de Analysis Workspace-gebruikersinterface uitgelegd:
 
-![&#x200B; Analysis Workspace venster dat de diverse secties van de interface &#x200B;](assets/analysis-workspace-overview.png) benadrukt
+![ Analysis Workspace venster dat de diverse secties van de interface ](assets/analysis-workspace-overview.png) benadrukt
 
 | Locatie | Naam en functie |
 |:---------:|----------|
-| A | Bevat de naam van het project, een menustructuur om tot functionaliteit, een knoop ![&#x200B; Achterknoop &#x200B;](/help/assets/icons/ChevronLeft.svg) toegang te hebben om terug naar uw lijst van het Project terug te keren, en a **[!UICONTROL Share]** knoop aan [&#x200B; deel uw project van Workspace &#x200B;](/help/analyze/analysis-workspace/curate-share/share-projects.md). <br/> selecteer de naam van uw project (bijvoorbeeld: Nieuw project) op elk ogenblik om de naam te veranderen. <br/> Uitgezochte ![&#x200B; Ver &#x200B;](/help/assets/icons/StarOutline.svg) om uw project als Favor ![&#x200B; &#x200B;](/help/assets/icons/Star.svg) te merken. |
-| B | **paneel van de Knoop:** bevat knopen om tot de belangrijkste [&#x200B; eigenschappen &#x200B;](#features) van Analysis Workspace toegang te hebben:<ul><li>![&#x200B; WebPage &#x200B;](/help/assets/icons/WebPage.svg) [[!UICONTROL Panels]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![&#x200B; GraphBarVertical &#x200B;](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualizations]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![&#x200B; Kromme &#x200B;](/help/assets/icons/Curate.svg) [[!UICONTROL Components]](/help/components/home.md)</li><li>![&#x200B; ViewList &#x200B;](/help/assets/icons/ViewList.svg) [[!UICONTROL Table of contents]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![&#x200B; Bladwijzer &#x200B;](/help/assets/icons/Bookmark.svg) [[!UICONTROL Data Dictionary]](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| A | Bevat de naam van het project, een menustructuur om tot functionaliteit, een knoop ![ Achterknoop ](/help/assets/icons/ChevronLeft.svg) toegang te hebben om terug naar uw lijst van het Project terug te keren, en a **[!UICONTROL Share]** knoop aan [ deel uw project van Workspace ](/help/analyze/analysis-workspace/curate-share/share-projects.md). <br/> selecteer de naam van uw project (bijvoorbeeld: Nieuw project) op elk ogenblik om de naam te veranderen. <br/> Uitgezochte ![ Ver ](/help/assets/icons/StarOutline.svg) om uw project als Favor ![ ](/help/assets/icons/Star.svg) te merken. |
+| B | **paneel van de Knoop:** bevat knopen om tot de belangrijkste [ eigenschappen ](#features) van Analysis Workspace toegang te hebben:<ul><li>![ WebPage ](/help/assets/icons/WebPage.svg) [[!UICONTROL Panels]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualizations]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![ Kromme ](/help/assets/icons/Curate.svg) [[!UICONTROL Components]](/help/components/home.md)</li><li>![ ViewList ](/help/assets/icons/ViewList.svg) [[!UICONTROL Table of contents]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![ Bladwijzer ](/help/assets/icons/Bookmark.svg) [[!UICONTROL Data Dictionary]](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **Linkerpaneel:** Dit gebied bevat individuele panelen, visualisaties, componenten, of lijsten. De inhoud is afhankelijk van de knop die in het deelvenster met knoppen is geselecteerd. |
-| D | **Canvas:** het belangrijkste gebied waar u inhoud van het linkerpaneel sleept om uw project te bouwen. Het project wordt dynamisch bijgewerkt terwijl u deelvensters toevoegt, visualisaties toevoegt aan deelvensters en componenten toevoegt aan visualisaties. U kunt meerdere deelvensters maken en in elk deelvenster kunt u meerdere visualisaties maken.<br/> elk paneel is gebaseerd op een geselecteerde rapportreeks. De geselecteerde rapportreeks bepaalt beschikbare componenten zoals metriek en afmetingen. Zie [&#x200B; Panelen - de Reeks van het Rapport &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md#report-suite) voor meer informatie. |
+| D | **Canvas:** het belangrijkste gebied waar u inhoud van het linkerpaneel sleept om uw project te bouwen. Het project wordt dynamisch bijgewerkt terwijl u deelvensters toevoegt, visualisaties toevoegt aan deelvensters en componenten toevoegt aan visualisaties. U kunt meerdere deelvensters maken en in elk deelvenster kunt u meerdere visualisaties maken.<br/> elk paneel is gebaseerd op een geselecteerde rapportreeks. De geselecteerde rapportreeks bepaalt beschikbare componenten zoals metriek en afmetingen. Zie [ Panelen - de Reeks van het Rapport ](/help/analyze/analysis-workspace/c-panels/panels.md#report-suite) voor meer informatie. |
 
 ## Functies
 
@@ -40,11 +40,11 @@ De belangrijkste eigenschappen van Analysis Workspace zijn beschikbaar door het 
 
 | Pictogram | Functie | Beschrijving |
 |:---:|---|---|
-| ![&#x200B; WebPage &#x200B;](/help/assets/icons/WebPage.svg) | **[!UICONTROL Panels]** | [&#x200B; de Comités &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md) worden gebruikt om uw analyse binnen een project te organiseren en kunnen vele lijsten &amp; visualisaties bevatten. Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer. |
-| ![&#x200B; GraphBarVertical &#x200B;](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizations]** | [&#x200B; Visualizations &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), zoals een bar of lijngrafiek, kan worden gebruikt om gegevens aan het leven visueel te brengen. Selecteer in het linkerbenedenpaneel het middelste pictogram **[!UICONTROL Visualizations]** om de volledige lijst met beschikbare visualisaties weer te geven. |
-| ![&#x200B; Kromme &#x200B;](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | [&#x200B; Componenten &#x200B;](/help/components/home.md) omvatten de volgende elementen:<ul><li>![&#x200B; Afmetingen &#x200B;](/help/assets/icons/Dimensions.svg) [&#x200B; Afmetingen &#x200B;](/help/components/dimensions/overview.md)</li><li>![&#x200B; Gebeurtenis &#x200B;](/help/assets/icons/Event.svg) [&#x200B; Metriek &#x200B;](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![&#x200B; Segmentatie &#x200B;](/help/assets/icons/Segmentation.svg) [&#x200B; Segmenten &#x200B;](/help/components/segmentation/seg-overview.md)</li><li>![&#x200B; de waaiers van de Kalender &#x200B;](/help/assets/icons/Calendar.svg) [&#x200B; Datum &#x200B;](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
-| ![&#x200B; ViewList &#x200B;](/help/assets/icons/ViewList.svg) | **[!UICONTROL Table of contents]** | De [&#x200B; inhoudstafel &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) organiseert alle panelen en visualisaties inbegrepen in het project in een doen ineenstorten lijst, toestaand u om tot een specifiek paneel of een visualisatie snel toegang te hebben. |
-| ![&#x200B; Bladwijzer &#x200B;](/help/assets/icons/Bookmark.svg) | **Woordenboek van Gegevens** | Het [&#x200B; woordenboek van Gegevens &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) helpt zowel gebruikers als beheerders spoor van houden en beter begrijpen de componenten in hun milieu van Analytics. |
+| ![ WebPage ](/help/assets/icons/WebPage.svg) | **[!UICONTROL Panels]** | [ de Comités ](/help/analyze/analysis-workspace/c-panels/panels.md) worden gebruikt om uw analyse binnen een project te organiseren en kunnen vele lijsten &amp; visualisaties bevatten. Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer. |
+| ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizations]** | [ Visualizations ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), zoals een bar of lijngrafiek, kan worden gebruikt om gegevens aan het leven visueel te brengen. Selecteer in het linkerbenedenpaneel het middelste pictogram **[!UICONTROL Visualizations]** om de volledige lijst met beschikbare visualisaties weer te geven. |
+| ![ Kromme ](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | [ Componenten ](/help/components/home.md) omvatten de volgende elementen:<ul><li>![ Afmetingen ](/help/assets/icons/Dimensions.svg) [ Afmetingen ](/help/components/dimensions/overview.md)</li><li>![ Gebeurtenis ](/help/assets/icons/Event.svg) [ Metriek ](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![ Segmentatie ](/help/assets/icons/Segmentation.svg) [ Segmenten ](/help/components/segmentation/seg-overview.md)</li><li>![ de waaiers van de Kalender ](/help/assets/icons/Calendar.svg) [ Datum ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
+| ![ ViewList ](/help/assets/icons/ViewList.svg) | **[!UICONTROL Table of contents]** | De [ inhoudstafel ](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) organiseert alle panelen en visualisaties inbegrepen in het project in een doen ineenstorten lijst, toestaand u om tot een specifiek paneel of een visualisatie snel toegang te hebben. |
+| ![ Bladwijzer ](/help/assets/icons/Bookmark.svg) | **Woordenboek van Gegevens** | Het [ woordenboek van Gegevens ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) helpt zowel gebruikers als beheerders spoor van houden en beter begrijpen de componenten in hun milieu van Analytics. |
 
 
 ## Menu
@@ -66,17 +66,17 @@ Zie de onderstaande tabellen voor een overzicht van de beschikbare menu&#39;s.
 | **[!UICONTROL Project]** | Sneltoets Mac | Sneltoetsvensters | Beschrijving |
 |---|---|---|---|
 | **[!UICONTROL Create project]** | **[!UICONTROL *shift+cmd+p *]** | **[!UICONTROL *shift+ctrl+p *]** | Maak een nieuw project. |
-| **[!UICONTROL Create a mobile scorecard]** | | | [&#x200B; creeer een nieuwe mobiele scorecard &#x200B;](/help/analyze/mobile-app/create-scorecard.md). |
-| **[!UICONTROL Open...]** | **[!UICONTROL *cmd+o *]** | **[!UICONTROL *ctrl+o *]** | [&#x200B; Open een bestaand project &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#open-another-project). |
-| **[!UICONTROL Open previous version...]** | **[!UICONTROL *opt+cmd+o *]** | **[!UICONTROL *alt+ctrl+o *]** | [&#x200B; Open vroegere versies van uw project &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#open-previous-version). |
-| **[!UICONTROL Save]** | **[!UICONTROL *cmd+s *]** | **[!UICONTROL *ctrl+s *]** | [&#x200B; sparen uw project &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#save-projects). |
-| **[!UICONTROL Save with notes...]** | **[!UICONTROL *opt+cmd+s *]** | **[!UICONTROL *alt+ctrl+s *]** | [&#x200B; voegt nota&#39;s aan de projectversie toe die u &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#save-project-options) opslaat. |
-| **[!UICONTROL Save as...]** | **[!UICONTROL *shift+cmd+s *]** | **[!UICONTROL *shift+ctrl+s *]** | [&#x200B; sparen het project gebruikend een verschillende naam en details &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#save-project-options). |
+| **[!UICONTROL Create a mobile scorecard]** | | | [ creeer een nieuwe mobiele scorecard ](/help/analyze/mobile-app/create-scorecard.md). |
+| **[!UICONTROL Open...]** | **[!UICONTROL *cmd+o *]** | **[!UICONTROL *ctrl+o *]** | [ Open een bestaand project ](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#open-another-project). |
+| **[!UICONTROL Open previous version...]** | **[!UICONTROL *opt+cmd+o *]** | **[!UICONTROL *alt+ctrl+o *]** | [ Open vroegere versies van uw project ](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#open-previous-version). |
+| **[!UICONTROL Save]** | **[!UICONTROL *cmd+s *]** | **[!UICONTROL *ctrl+s *]** | [ sparen uw project ](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#save-projects). |
+| **[!UICONTROL Save with notes...]** | **[!UICONTROL *opt+cmd+s *]** | **[!UICONTROL *alt+ctrl+s *]** | [ voegt nota&#39;s aan de projectversie toe die u ](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#save-project-options) opslaat. |
+| **[!UICONTROL Save as...]** | **[!UICONTROL *shift+cmd+s *]** | **[!UICONTROL *shift+ctrl+s *]** | [ sparen het project gebruikend een verschillende naam en details ](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#save-project-options). |
 | **[!UICONTROL Refresh project]** | **[!UICONTROL *opt+r *]** | **[!UICONTROL *alt+r *]** | Vernieuw het project. |
 | **[!UICONTROL Download CSV]** | **[!UICONTROL *shift+cmd+v *]** | **[!UICONTROL *shift+ctrl+v *]** | Download het project als CSV-bestand. |
 | **[!UICONTROL Download PDF]** | **[!UICONTROL *shift+cmd+b *]** | **[!UICONTROL *shift+ctrl+b *]** | Download het project als een PDF-document. |
 | **[!UICONTROL Project info & settings]** | | | Definieer instellingen voor uw projecten, zoals naam, labels, kleurenpalet en meer. |
-| **[!UICONTROL User settings]** | | | [&#x200B; vorm voorkeur voor het gebruiken van Analysis Workspace &#x200B;](/help/analyze/analysis-workspace/user-preferences.md). |
+| **[!UICONTROL User settings]** | | | [ vorm voorkeur voor het gebruiken van Analysis Workspace ](/help/analyze/analysis-workspace/user-preferences.md). |
 
 
 | **[!UICONTROL Edit]** | Sneltoets Mac | Sneltoetsvensters | Beschrijving |
@@ -87,34 +87,34 @@ Zie de onderstaande tabellen voor een overzicht van de beschikbare menu&#39;s.
 
 | **[!UICONTROL Insert]** | Sneltoets Mac | Sneltoetsvensters | Beschrijving |
 |---|---|---|---|
-| **[!UICONTROL Blank panel]** | **[!UICONTROL *opt+b *]** | **[!UICONTROL *alt+b *]** | Tussenvoegsel a [&#x200B; Leeg paneel &#x200B;](/help/analyze/analysis-workspace/c-panels/blank-panel.md). |
-| **[!UICONTROL Media concurrent viewers]** | **[!UICONTROL *opt+h *]** | **[!UICONTROL *alt-h *]** | Tussenvoegsel a [&#x200B; Medium gezamenlijke kijkers &#x200B;](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) paneel. |
-| **[!UICONTROL Media playback time spent]** | **[!UICONTROL *opt+i *]** | **[!UICONTROL *alt+i *]** | Neem a [&#x200B; doorgebrachte tijd van de media &#x200B;](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) paneel op. |
-| **[!UICONTROL Media average minute audience]** | **[!UICONTROL *opt+m *]** | **[!UICONTROL *alt+m *]** | Tussenvoegsel het gemiddelde minieme publiek van a [&#x200B; Media &#x200B;](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) paneel. |
-| **[!UICONTROL Attribution]** | **[!UICONTROL *opt+e *]** | **[!UICONTROL *alt+e *]** | Tussenvoegsel een [&#x200B; paneel van de Attributie &#x200B;](/help/analyze/analysis-workspace/c-panels/attribution.md). |
-| **[!UICONTROL Freeform]** | **[!UICONTROL *opt+a *]** | **[!UICONTROL *alt+a *]** | Tussenvoegsel a [&#x200B; vrije vorm &#x200B;](/help/analyze/analysis-workspace/c-panels/freeform-panel.md) paneel. |
-| **[!UICONTROL Quick insights]** | **[!UICONTROL *opt+j *]** | **[!UICONTROL *alt+j *]** | Tussenvoegsel a [&#x200B; Snelle inzicht &#x200B;](/help/analyze/analysis-workspace/c-panels/quickinsight.md) paneel. |
-| **[!UICONTROL Freeform table]** | **[!UICONTROL *opt+1 *]** | **[!UICONTROL *alt+1 *]** | Tussenvoegsel a [&#x200B; Vrije vormlijst &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie. |
-| **[!UICONTROL Line]** | **[!UICONTROL *opt+2 *]** | **[!UICONTROL *alt+2 *]** | Tussenvoegsel a [&#x200B; lijn &#x200B;](/help/analyze/analysis-workspace/visualizations/line.md) visualisatie. |
-| **[!UICONTROL Bar]** | **[!UICONTROL *opt+3 *]** | **[!UICONTROL *alt+3 *]** | Tussenvoegsel a [&#x200B; Bar &#x200B;](/help/analyze/analysis-workspace/visualizations/bar.md) visualisatie. |
-| **[!UICONTROL Combo]** | **[!UICONTROL *opt+4 *]** | **[!UICONTROL *alt+4 *]** | Tussenvoegsel a [&#x200B; Combo &#x200B;](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualisatie. |
+| **[!UICONTROL Blank panel]** | **[!UICONTROL *opt+b *]** | **[!UICONTROL *alt+b *]** | Tussenvoegsel a [ Leeg paneel ](/help/analyze/analysis-workspace/c-panels/blank-panel.md). |
+| **[!UICONTROL Media concurrent viewers]** | **[!UICONTROL *opt+h *]** | **[!UICONTROL *alt-h *]** | Tussenvoegsel a [ Medium gezamenlijke kijkers ](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) paneel. |
+| **[!UICONTROL Media playback time spent]** | **[!UICONTROL *opt+i *]** | **[!UICONTROL *alt+i *]** | Neem a [ doorgebrachte tijd van de media ](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) paneel op. |
+| **[!UICONTROL Media average minute audience]** | **[!UICONTROL *opt+m *]** | **[!UICONTROL *alt+m *]** | Tussenvoegsel het gemiddelde minieme publiek van a [ Media ](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) paneel. |
+| **[!UICONTROL Attribution]** | **[!UICONTROL *opt+e *]** | **[!UICONTROL *alt+e *]** | Tussenvoegsel een [ paneel van de Attributie ](/help/analyze/analysis-workspace/c-panels/attribution.md). |
+| **[!UICONTROL Freeform]** | **[!UICONTROL *opt+a *]** | **[!UICONTROL *alt+a *]** | Tussenvoegsel a [ vrije vorm ](/help/analyze/analysis-workspace/c-panels/freeform-panel.md) paneel. |
+| **[!UICONTROL Quick insights]** | **[!UICONTROL *opt+j *]** | **[!UICONTROL *alt+j *]** | Tussenvoegsel a [ Snelle inzicht ](/help/analyze/analysis-workspace/c-panels/quickinsight.md) paneel. |
+| **[!UICONTROL Freeform table]** | **[!UICONTROL *opt+1 *]** | **[!UICONTROL *alt+1 *]** | Tussenvoegsel a [ Vrije vormlijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie. |
+| **[!UICONTROL Line]** | **[!UICONTROL *opt+2 *]** | **[!UICONTROL *alt+2 *]** | Tussenvoegsel a [ lijn ](/help/analyze/analysis-workspace/visualizations/line.md) visualisatie. |
+| **[!UICONTROL Bar]** | **[!UICONTROL *opt+3 *]** | **[!UICONTROL *alt+3 *]** | Tussenvoegsel a [ Bar ](/help/analyze/analysis-workspace/visualizations/bar.md) visualisatie. |
+| **[!UICONTROL Combo]** | **[!UICONTROL *opt+4 *]** | **[!UICONTROL *alt+4 *]** | Tussenvoegsel a [ Combo ](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualisatie. |
 
 
 | **[!UICONTROL Components]** | Sneltoets Mac | Sneltoetsvensters | Beschrijving |
 |---|---|---|---|
-| **[!UICONTROL Create segment...]** | **[!UICONTROL *shift+cmd+e *]** | **[!UICONTROL *shift+ctrl+e *]** | Creeer een nieuw [&#x200B; segment &#x200B;](/help/components/segmentation/segmentation-workflow/seg-create.md). |
-| **[!UICONTROL Create metric...]** | **[!UICONTROL *shift+cmd+c *]** | **[!UICONTROL *shift+ctrl+c *]** | Creeer nieuw [&#x200B; berekende metrisch &#x200B;](/help/components/calculated-metrics/cm-overview.md). |
-| **[!UICONTROL Create date range...]** | **[!UICONTROL *shift+cmd+d *]** | **[!UICONTROL *shift+ctrl+d *]** | Creeer een nieuwe [&#x200B; datumwaaier &#x200B;](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| **[!UICONTROL Create annotation...]** | **[!UICONTROL *shift+cmd+o *]** | **[!UICONTROL *shift+ctrl+o *]** | Creeer een nieuwe [&#x200B; aantekening &#x200B;](/help/analyze/analysis-workspace/components/annotations/overview.md). |
+| **[!UICONTROL Create segment...]** | **[!UICONTROL *shift+cmd+e *]** | **[!UICONTROL *shift+ctrl+e *]** | Creeer een nieuw [ segment ](/help/components/segmentation/segmentation-workflow/seg-create.md). |
+| **[!UICONTROL Create metric...]** | **[!UICONTROL *shift+cmd+c *]** | **[!UICONTROL *shift+ctrl+c *]** | Creeer nieuw [ berekende metrisch ](/help/components/calculated-metrics/cm-overview.md). |
+| **[!UICONTROL Create date range...]** | **[!UICONTROL *shift+cmd+d *]** | **[!UICONTROL *shift+ctrl+d *]** | Creeer een nieuwe [ datumwaaier ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| **[!UICONTROL Create annotation...]** | **[!UICONTROL *shift+cmd+o *]** | **[!UICONTROL *shift+ctrl+o *]** | Creeer een nieuwe [ aantekening ](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 | **[!UICONTROL Refresh components]** | **[!UICONTROL *opt+shift+r *]** | **[!UICONTROL *alt+shift+r *]** | Vernieuw de componenten in het project. |
 
 | **[!UICONTROL Share]** | Sneltoets Mac | Sneltoetsvensters | Beschrijving |
 |---|---|---|---|
-| **[!UICONTROL Share with Workspace users]** | **[!UICONTROL *cmd+h *]** | **[!UICONTROL *ctrl+h *]** | [&#x200B; Deel het project met andere gebruikers van Workspace &#x200B;](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-with-customer-journey-analytics-users-and-groups-in-your-organization). |
-| **[!UICONTROL Share with anyone]** | **[!UICONTROL *opt+l *]** | **[!UICONTROL *alt+l *]** | [&#x200B; Deel een read-only versie van het project met iedereen &#x200B;](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-link-to-a-project). |
-| **[!UICONTROL Send file]** | **[!UICONTROL opt+s]** | **[!UICONTROL *alt+s *]** | [&#x200B; verzend het project als CSV of dossier van PDF aan andere ontvangers &#x200B;](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md). |
-| **[!UICONTROL Schedule file export]** | **[!UICONTROL *shift+opt+s *]** | **[!UICONTROL *shift+alt+s *]** | [&#x200B; verzend het project op een programma als CSV of dossier van PDF aan andere ontvangers &#x200B;](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md). |
-| **[!UICONTROL Curate project data]** | **[!UICONTROL *shift+cmd+g *]** | **[!UICONTROL *shift+ctrl+g *]** | [&#x200B; Kromt de projectgegevens &#x200B;](/help/analyze/analysis-workspace/curate-share/curate.md). |
+| **[!UICONTROL Share with Workspace users]** | **[!UICONTROL *cmd+h *]** | **[!UICONTROL *ctrl+h *]** | [ Deel het project met andere gebruikers van Workspace ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-with-customer-journey-analytics-users-and-groups-in-your-organization). |
+| **[!UICONTROL Share with anyone]** | **[!UICONTROL *opt+l *]** | **[!UICONTROL *alt+l *]** | [ Deel een read-only versie van het project met iedereen ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-link-to-a-project). |
+| **[!UICONTROL Send file]** | **[!UICONTROL opt+s]** | **[!UICONTROL *alt+s *]** | [ verzend het project als CSV of dossier van PDF aan andere ontvangers ](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md). |
+| **[!UICONTROL Schedule file export]** | **[!UICONTROL *shift+opt+s *]** | **[!UICONTROL *shift+alt+s *]** | [ verzend het project op een programma als CSV of dossier van PDF aan andere ontvangers ](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md). |
+| **[!UICONTROL Curate project data]** | **[!UICONTROL *shift+cmd+g *]** | **[!UICONTROL *shift+ctrl+g *]** | [ Kromt de projectgegevens ](/help/analyze/analysis-workspace/curate-share/curate.md). |
 
 | Help | Beschrijving |
 |---|---|
@@ -129,35 +129,35 @@ Zie de onderstaande tabellen voor een overzicht van de beschikbare menu&#39;s.
 
 ## Gegevensbronnen
 
-U synchroniseert visualisaties om te bepalen welke datatabel of gegevensbron met een visualisatie correspondeert. Zie [&#x200B; gegevensbronnen &#x200B;](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) voor meer informatie beheren.
+U synchroniseert visualisaties om te bepalen welke datatabel of gegevensbron met een visualisatie correspondeert. Zie [ gegevensbronnen ](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) voor meer informatie beheren.
 
 ## Analysis Workspace gebruiken
 
 
 Ga als volgt te werk om Analysis Workspace te gebruiken:
 
-1. Login aan [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com).
-1. Selecteer **[!UICONTROL Customer Journey Analytics]** van app schakelaar ![&#x200B; App &#x200B;](/help/assets/icons/Apps.svg) bij het hoogste recht van de interface.
+1. Login aan [ Adobe Experience Cloud ](https://experience.adobe.com).
+1. Selecteer **[!UICONTROL Customer Journey Analytics]** van app schakelaar ![ App ](/help/assets/icons/Apps.svg) bij het hoogste recht van de interface.
 1. De pagina **[!UICONTROL Projects]** van Analysis Workspace wordt standaard weergegeven. Als een specifiek project voor u is geselecteerd of u onlangs hebt gewerkt, dan wordt dat project getoond door gebrek.
 
 ### Een project maken
 
-Een analyse in Analysis Workspace wordt bedoeld als a [&#x200B; project &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
+Een analyse in Analysis Workspace wordt bedoeld als a [ project ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
-U kunt een project in Analysis Workspace tot stand brengen zoals die in [&#x200B; wordt beschreven leidt tot projecten &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+U kunt een project in Analysis Workspace tot stand brengen zoals die in [ wordt beschreven leidt tot projecten ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-De projecten kunnen in omslagen en subfolders worden georganiseerd, zoals die in [&#x200B; Omslagen in Analysis Workspace &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) worden beschreven.
+De projecten kunnen in omslagen en subfolders worden georganiseerd, zoals die in [ Omslagen in Analysis Workspace ](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) worden beschreven.
 
 ### Een project opslaan en delen
 
-Aangezien u een analyse in Analysis Workspace creeert, wordt uw werk [&#x200B; automatisch bewaard &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+Aangezien u een analyse in Analysis Workspace creeert, wordt uw werk [ automatisch bewaard ](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen van actioneerbare inzichten, kunnen anderen het project willen consumeren. U kunt het project met gebruikers en groepen in uw organisatie, of zelfs met mensen buiten uw organisatie delen. Voor informatie over het delen van een project, zie [&#x200B; projecten van het Aandeel &#x200B;](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen van actioneerbare inzichten, kunnen anderen het project willen consumeren. U kunt het project met gebruikers en groepen in uw organisatie, of zelfs met mensen buiten uw organisatie delen. Voor informatie over het delen van een project, zie [ projecten van het Aandeel ](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## Aanvullende bronnen {#resources}
 
-- Adobe biedt honderden [&#x200B; de videoopleidingsleerprogramma&#39;s van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/overview) aan.
-- Zie [&#x200B; de versienota&#39;s van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/nl/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
+- Adobe biedt honderden [ de videoopleidingsleerprogramma&#39;s van Analytics ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview) aan.
+- Zie [ de versienota&#39;s van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
 
 
 
@@ -183,7 +183,7 @@ The following image and accompanying table explain the main elements in the Anal
 | A | Contains the name of the project, a menu structure to access functionality, a button ![Back button](/help/assets/icons/ChevronLeft.svg) to return back to your Project list, and a **[!UICONTROL Share]** button to [share your Workspace project](/help/analyze/analysis-workspace/curate-share/share-projects.md). <br/>Select the name of your project (for example: New project) at any time to change the name. <br/>Select ![Unfavor](/help/assets/icons/StarOutline.svg) to mark your project as a favorite project ![Favor](/help/assets/icons/Star.svg). |
 | B | **Button panel:** Contains buttons for accessing the key [features](#features) of Analysis Workspace:<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL Panels]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![Guided Analysis](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL Guided Analysis]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualizations]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Curate](/help/assets/icons/Curate.svg) [[!UICONTROL Components]](/help/components/overview.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL Table of contents]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Bookmark](/help/assets/icons/Bookmark.svg) [[!UICONTROL Data Dictionary]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **Left panel:** This area contains individual panels, visualizations, components, or lists. The content depends on the button selected in the button panel.  |
-| D | **Canvas:** The main area where you drag content from the left panel to build your project. The project dynamically updates as you add panels, add visualizations to panels, and add components to visualizations. You can create multiple panels, and within each panel you can create multiple visualizations.<br/>Each panel is based on a selected data view. The selected data view determines available components like metrics and dimensions. See [Panels - Data view](/help/analyze/analysis-workspace/c-panels/panels.md#data-view) for more information. | 
+| D | **Canvas:** The main area where you drag content from the left panel to build your project. The project dynamically updates as you add panels, add visualizations to panels, and add components to visualizations. You can create multiple panels, and within each panel you can create multiple visualizations.<br/>Each panel is based on a selected data view. The selected data view determines available components like metrics and dimensions. See [Panels - Data view](/help/analyze/analysis-workspace/c-panels/panels.md#data-view) for more information. |
 
 ## Features
 
@@ -235,14 +235,14 @@ See the tables below for an overview of the available menus.
 |---|---|---|---|
 | **[!UICONTROL Undo]** | **[!UICONTROL *cmd+z*]** | **[!UICONTROL *ctrl+z*]** | Undo the previous action. |
 | **[!UICONTROL Redo]** | **[!UICONTROL *cmd+shift+z*]** | **[!UICONTROL *ctrl+shift+z*]** | Redo the previous action. |
-| **[!UICONTROL Clear all]** | **[!UICONTROL *opt+w*]** | **[!UICONTROL *alt+w*]** | Clear all panels in the current project. | 
+| **[!UICONTROL Clear all]** | **[!UICONTROL *opt+w*]** | **[!UICONTROL *alt+w*]** | Clear all panels in the current project. |
 
 | **[!UICONTROL Insert]** | Shortcut Mac | Shortcut Windows | Description |
 |---|---|---|---|
 | **[!UICONTROL Blank panel]** | **[!UICONTROL *opt+b*]** | **[!UICONTROL *alt+b*]** |  Insert a [Blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md). |
 | **[!UICONTROL Media concurrent viewers]** | **[!UICONTROL *opt+h*]** | **[!UICONTROL *alt-h*]** |  Insert a [Media concurrent viewers](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) panel. |
 | **[!UICONTROL Media playback time spent]** | **[!UICONTROL *opt+i*]** | **[!UICONTROL *alt+i*]** |  Insert a [Media playback time spent](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) panel. |
-| **[!UICONTROL Media average minute audience]** | **[!UICONTROL *opt+m*]** | **[!UICONTROL *alt+m*]** |  Insert a [Media average minute audience](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) panel. | 
+| **[!UICONTROL Media average minute audience]** | **[!UICONTROL *opt+m*]** | **[!UICONTROL *alt+m*]** |  Insert a [Media average minute audience](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) panel. |
 | **[!UICONTROL Attribution]** | **[!UICONTROL *opt+e*]** | **[!UICONTROL *alt+e*]** |  Insert an [Attribution](/help/analyze/analysis-workspace/c-panels/attribution.md) panel. |
 | **[!UICONTROL Freeform]** | **[!UICONTROL *opt+a*]** | **[!UICONTROL *alt+a*]** |  Insert a [Freeform](/help/analyze/analysis-workspace/c-panels/freeform-panel.md) panel. |
 | **[!UICONTROL Quick insights]** | **[!UICONTROL *opt+j*]** | **[!UICONTROL *alt+j*]** |  Insert a [Quick insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) panel. |
@@ -250,7 +250,7 @@ See the tables below for an overview of the available menus.
 | **[!UICONTROL Freeform table]** | **[!UICONTROL *opt+1*]** | **[!UICONTROL *alt+1*]**|  Insert a [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualization. |
 | **[!UICONTROL Line]** | **[!UICONTROL *opt+2*]** | **[!UICONTROL *alt+2*]** |  Insert a [Line](/help/analyze/analysis-workspace/visualizations/line.md) visualization. |
 | **[!UICONTROL Bar]** | **[!UICONTROL *opt+3*]** | **[!UICONTROL *alt+3*]** |  Insert a [Bar](/help/analyze/analysis-workspace/visualizations/bar.md) visualization. |
-| **[!UICONTROL Combo]** | **[!UICONTROL *opt+4*]**| **[!UICONTROL *alt+4*]** |  Insert a [Combo](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualization. | 
+| **[!UICONTROL Combo]** | **[!UICONTROL *opt+4*]**| **[!UICONTROL *alt+4*]** |  Insert a [Combo](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualization. |
 
 
 | **[!UICONTROL Components]** | Shortcut Mac | Shortcut Windows | Description |
@@ -267,7 +267,7 @@ See the tables below for an overview of the available menus.
 | **[!UICONTROL Share with Workspace users]** | **[!UICONTROL *cmd+h*]** | **[!UICONTROL *ctrl+h*]** | [Share the project with other Workspace users](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-with-customer-journey-analytics-users-and-groups-in-your-organization). |
 | **[!UICONTROL Share with anyone]** | **[!UICONTROL *opt+l*]** | **[!UICONTROL *alt+l*]**| [Share a read-only version of the project with anyone](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-link-to-a-project). |
 | **[!UICONTROL Send file]** | **[!UICONTROL opt+s]** | **[!UICONTROL *alt+s*]** | [Send the project as a CSV or PDF file to other recipients](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md). |
-| **[!UICONTROL Schedule file export]** | **[!UICONTROL *shift+opt+s*]** | **[!UICONTROL *shift+alt+s*]** | [Send the project on a schedule as a CSV or PDF file to other recipients](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md). | 
+| **[!UICONTROL Schedule file export]** | **[!UICONTROL *shift+opt+s*]** | **[!UICONTROL *shift+alt+s*]** | [Send the project on a schedule as a CSV or PDF file to other recipients](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md). |
 | **[!UICONTROL Curate project data]** | **[!UICONTROL *shift+cmd+g*]** | **[!UICONTROL *shift+ctrl+g*]** | [Curate the project data](/help/analyze/analysis-workspace/curate-share/curate.md). |
 
 | Help | Shortcut Mac | Shortcut Windows | Description |
@@ -276,7 +276,7 @@ See the tables below for an overview of the available menus.
 | **[!UICONTROL Help documentation]** | | | Open the documentation (you are actually reading just now...) in a new browser tab. |
 | **[!UICONTROL Help forum]** | | | Open the Adobe Analytics Experience League communities forum in a new browser tab. |
 | **[!UICONTROL Hotkeys]** | | | Show an overview of the hotkeys (shortcuts) you can use in Workspace. |
-| **[!UICONTROL Enable debugger]** |  | | Enable the debugger. Your project will reload. | 
+| **[!UICONTROL Enable debugger]** |  | | Enable the debugger. Your project will reload. |
 | **[!UICONTROL Disable debugger]** | | | Disable the debugger. Your project will reload. |
 | **[!UICONTROL Performance]** | | | Show a dialog displaying metrics on the **[!UICONTROL Analysis Workspace performance]**. Use **[!UICONTROL Download as CSV]** to download a CSV file of the performance metrics. |
 | **[!UICONTROL About Workspace]** | | | Show an **[!UICONTROL About Analysis Workspace]** dialog with version information, feature access levels and active feature flags. |
@@ -311,8 +311,8 @@ When you finish building out the project and it's gathering actionable insights,
 ## Additional resources {#resources}
 
 - The [Learning landing](/help/getting-started/landing.md#learning) page in Customer Journey Analytics. This page is  great way to become acquainted with Analysis Workspace. Especially the Learning Workspace Fundamental. This template walks you through common terminology and steps for building your first analysis in Workspace
-- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/overview).
-- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/nl/docs/release-notes/experience-cloud/current) for updates about new features.
+- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
+- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) for updates about new features.
 
 
 
@@ -340,8 +340,8 @@ The following image and accompanying table explain some of the main areas in Ana
 |---------|----------|
 | A | **Far left rail:** Contains tabs for adding panels, visualizations, and components to Analysis Workspace. Also contains the Data Dictionary icon that is used to open the Data Dictionary. |
 | B | **Left rail:** Depending on which tab is selected in the far left rail, this area contains individual panels, visualizations, or components. |
-| C | **Canvas:** This is the main area where you drag content from the left rails to build your project. The project dynamically updates as you add panels, visualizations, and components to the canvas. | 
-| D | **Report suite drop-down menu:** For each panel in Analysis Workspace, the report suite drop-down menu allows you to choose the report suite that you want to use as your data source. | 
+| C | **Canvas:** This is the main area where you drag content from the left rails to build your project. The project dynamically updates as you add panels, visualizations, and components to the canvas. |
+| D | **Report suite drop-down menu:** For each panel in Analysis Workspace, the report suite drop-down menu allows you to choose the report suite that you want to use as your data source. |
 
 ## Features in Analysis Workspace {#analysis}
 
@@ -415,8 +415,8 @@ When you finish building out the project and it's gathering actionable insights,
 
 ## Additional resources {#resources}
 
-* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=nl-NL).
-* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL#analytics) for updates about new features.
+* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
+* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) for updates about new features.
 * A great way to become acquainted with Analysis Workspace is through the Analysis Workspace Training Tutorial template. This template walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial:
   1. On the [!UICONTROL **Workspace**] tab in Adobe Analytics, select **[!UICONTROL Learning]** on the left.
   1. Select **[!UICONTROL Open Tutorial]**.

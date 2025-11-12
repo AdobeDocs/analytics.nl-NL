@@ -5,7 +5,7 @@ title: Hotkeys
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -18,16 +18,16 @@ Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace voor naadloze navig
 
 Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 
-- **⇧** voor **[!UICONTROL **&#x200B; verschuiving &#x200B;**]**.
-- **⌘** voor **[!UICONTROL **&#x200B; cmd &#x200B;**]** (bevel).
-- **⌃** voor **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (controle).
-- **⌥** voor **[!UICONTROL **&#x200B; opt &#x200B;**]** (optie).
-- **⎇** voor **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternatief).
+- **⇧** voor **[!UICONTROL ** verschuiving **]**.
+- **⌘** voor **[!UICONTROL ** cmd **]** (bevel).
+- **⌃** voor **[!UICONTROL ** ctrl **]** (controle).
+- **⌥** voor **[!UICONTROL ** opt **]** (optie).
+- **⎇** voor **[!UICONTROL ** alt **]** (alternatief).
 
 ## Navigatiehandelingen
 
 | Handeling | Sneltoets Mac | Sneltoetsvensters |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Nieuw project maken | **[!UICONTROL *cmd + shift + p *]** | **[!UICONTROL *ctrl + shift + p *]** |
 | Bestaand project openen | **[!UICONTROL *cmd + o *]** | **[!UICONTROL *ctr + o *]** |
 | Naar deelvenster Deelvensters | **[!UICONTROL *opt + shift + 1 *]** | **[!UICONTROL *alt + shift + 1 *]** |
@@ -35,13 +35,13 @@ Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 | Naar deelvenster Componenten | **[!UICONTROL *opt + shift + 3 *]** | **[!UICONTROL *alt + shift + 3 *]** |
 | Alle deelvensters samenvouwen/uitvouwen | **[!UICONTROL *opt + m *]** | **[!UICONTROL *alt + m *]** |
 | Actief deelvenster samenvouwen/uitvouwen | **[!UICONTROL *opt + cmd + m *]** | **[!UICONTROL *alt + ctrl + m *]** |
-| Naar volgend deelvenster | **[!UICONTROL *opt *+ {2 }︎]**▶ | **[!UICONTROL *alt *+ {2 }︎]**▶ |
-| Naar vorig deelvenster | **[!UICONTROL *opt *+ {2 }︎]**◀ | **[!UICONTROL *alt *+ {2 }︎]**◀ |
+| Naar volgend deelvenster | **[!UICONTROL *opt *+ {2 }︎ ▶]** | **[!UICONTROL *alt *+ {2 }︎ ▶]** |
+| Naar vorig deelvenster | **[!UICONTROL *opt *+ {2 }︎ ◀]** | **[!UICONTROL *alt *+ {2 }︎ ◀]** |
 
 ## Analyse-acties
 
 | Handeling | Sneltoets Mac | Sneltoetsvensters |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Zoeken in linkerdeelvenster | **[!UICONTROL *cmd + /*]** | **[!UICONTROL *ctrl + /*]** |
 | Een waarschuwing maken | **[!UICONTROL *cmd + shift + a *]** | **[!UICONTROL *ctrl + shift + a *]** |
 | Berekende metrisch maken | **[!UICONTROL *cmd + shift + c *]** | **[!UICONTROL *ctrl + shift + c *]** |
@@ -58,7 +58,7 @@ Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 ## Deelvensters en visualisatiehandelingen toevoegen
 
 | Handeling | Sneltoets Mac | Sneltoetsvensters |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Nieuw deelvenster Kenmerken | **[!UICONTROL *opt + e *]** | **[!UICONTROL *alt + e *]** |
 | Nieuw leeg deelvenster | **[!UICONTROL *opt + b *]** | **[!UICONTROL *alt + b *]** |
 | Nieuw deelvenster Vrije vorm | **[!UICONTROL *opt + a *]** | **[!UICONTROL *alt + a *]** |
@@ -71,14 +71,14 @@ Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 ## Deelvensterhandelingen verplaatsen
 
 | Handeling | Sneltoets Mac | Sneltoetsvensters |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Deelvenster omhoog verplaatsen | **[!UICONTROL *cmd + opt + omhoog *]** | **[!UICONTROL *alt + ctrl + omhoog *]** |
 | Deelvenster omlaag verplaatsen | **[!UICONTROL *cmd + opt + onderaan *]** | **[!UICONTROL *alt + ctrl + neer *]** |
 
 ## democratiseringsacties
 
 | Handeling | Sneltoets Mac | Sneltoetsvensters |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Project opslaan | **[!UICONTROL *cmd + s *]** | **[!UICONTROL *ctrl + s *]** |
 | Project opslaan als | **[!UICONTROL *cmd + shift + s *]** | **[!UICONTROL *ctrl + shift + s *]** |
 | Opslaan als sjabloon | **[!UICONTROL *opt + t *]** | **[!UICONTROL *alt + t *]** |

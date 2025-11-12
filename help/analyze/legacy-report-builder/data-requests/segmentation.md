@@ -4,7 +4,7 @@ title: Segmenten beheren (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Analytics-segmenten toevoegen, bewerken, toepassen en filteren in Report B
 
 Report Builder heeft een segmentatiepaneel in Stap 1 van de wizard Verzoek waarmee u segmenten kunt maken en beheren.
 
-![&#x200B; Schermafbeelding die de opties van het Segment toont om, segmenten toe te voegen uit te geven of te wissen en de pictogrammen Besturing, Filter en Vernieuwen te markeren.](assets/seg_dialog.png)
+![ Schermafbeelding die de opties van het Segment toont om, segmenten toe te voegen uit te geven of te wissen en de pictogrammen Besturing, Filter en Vernieuwen te markeren.](assets/seg_dialog.png)
 
 ## Segmenten toevoegen of bewerken {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -28,7 +28,7 @@ Report Builder heeft een segmentatiepaneel in Stap 1 van de wizard Verzoek waarm
 >Om segmenten toe te voegen of uit te geven, lanceert de het segmentbouwer van Report Builder in een venster van Microsoft Internet Explorer. Je Report Builder-sessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
 
 1. Klik in het segmentpaneel van Stap 1 van de wizard Verzoek op **[!UICONTROL Add]** .
-1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Voor informatie over hoe te om segmenten te bouwen, verwijs naar [&#x200B; segmentatie van Analytics &#x200B;](/help/components/segmentation/seg-home.md).
+1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Voor informatie over hoe te om segmenten te bouwen, verwijs naar [ segmentatie van Analytics ](/help/components/segmentation/seg-home.md).
 1. Nadat u het segment hebt bepaald en bewaard, ga terug naar de Tovenaar van het Verzoek.
 1. Klik het Refresh pictogram om de segmentlijst te verfrissen.
 
@@ -43,18 +43,18 @@ U kunt specifieke combinaties rapportdimensies hebben die u in een segment zou w
 1. Selecteer de punten van de rapportoutput u in een segment wilt veranderen.
 1. Klik met de rechtermuisknop om **[!UICONTROL Create In-Context Segment in]** te selecteren en geef de rechtercontainer op (Container bezoekt container, Container bezoeker).
 
-   ![&#x200B; Schermafbeelding die in-Context Segment in geselecteerde en beschikbare containeropties toont.](assets/seg_in_context.png)
+   ![ Schermafbeelding die in-Context Segment in geselecteerde en beschikbare containeropties toont.](assets/seg_in_context.png)
 
-   Voor meer informatie over containers, zie de [&#x200B; Gids van de Segmentatie &#x200B;](/help/components/segmentation/seg-home.md).
+   Voor meer informatie over containers, zie de [ Gids van de Segmentatie ](/help/components/segmentation/seg-home.md).
 
 1. De gebruikersinterface van Segment Builder wordt nu in Internet Explorer gestart. De UI van de Bouwer van het Segment zal met de container en de filter worden geïnitialiseerd u specificeerde.
 1. Nadat u een naam en een beschrijving aan het segment hebt toegevoegd, sparen het.
 1. Ga terug naar Report Builder en klik op het pictogram Vernieuwen om de lijst met segmenten te vernieuwen.
 1. U bent nu klaar om dit segment toe te passen.
 
-## Segmenten zoeken en toepassen {#search}
+## Segmenten zoeken en toepassen
 
-Alle segmenten die zijn gemaakt in Rapporten en Analytics (nu einde-van-lifed), Report Builder of Data Warehouse, worden weergegeven in deze segmentlijst. Klik op het pictogram Vernieuwen ![&#x200B; &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) om de lijst te vernieuwen.
+Alle segmenten die zijn gemaakt in Rapporten en Analytics (nu einde-van-lifed), Report Builder of Data Warehouse, worden weergegeven in deze segmentlijst. Klik op het pictogram Vernieuwen ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) om de lijst te vernieuwen.
 
 U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepassen. Dit omvat opeenvolgende segmenten.
 
@@ -62,7 +62,7 @@ U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepas
 
 1. Controleer welk segment of welke segmenten u wilt toepassen.
 
-   ![&#x200B; Schermafbeelding die geselecteerde segmenten tonen.](assets/seg_list.png)
+   ![ Schermafbeelding die geselecteerde segmenten tonen.](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepas
 
 ## Filtersegmenten {#filter}
 
-**de segmenten van de Filter** door op het pictogram van de Filter te klikken: ![&#x200B; pictogram van de Filter &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+**de segmenten van de Filter** door op het pictogram van de Filter te klikken: ![ pictogram van de Filter ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 Beschikbare filters zijn:
 
@@ -78,7 +78,7 @@ Beschikbare filters zijn:
 |---|---|
 | Tags | Hiermee kunt u filteren op segmenten met specifieke tags. Merk op dat de filters van de Markering de exploitant EN gebruiken. Als u twee markeringen controleert, toont de juiste ruit segmenten die met **allebei** markeringen zijn geëtiketteerd. |
 | Eigenaars | Hiermee kunt u segmenten filteren op eigenaar. Merk op dat eigenaarfilters de operator OR gebruiken. Als u twee eigenaars controleert, toont de juiste ruit segmenten die door **of** eigenaar worden bezeten. |
-| Andere Filters > slechts *naam van de rapportreeks* | Als u de &quot;slechts *&quot;filter van de 0&rbrace; rapportsuite in de Bouwer van het Segment in Adobe Analytics toepast, en dan de Geavanceerde Filter in* toont, zal de Geavanceerde filter het segment voor de geselecteerde rapportreeks slechts tonen.[!DNL Report Builder] |
+| Andere Filters > slechts *naam van de rapportreeks* | Als u de &quot;slechts *&quot;filter van de 0} rapportsuite in de Bouwer van het Segment in Adobe Analytics toepast, en dan de Geavanceerde Filter in* toont, zal de Geavanceerde filter het segment voor de geselecteerde rapportreeks slechts tonen.[!DNL Report Builder] |
 | Overige filters > Mine | Toont alle segmenten die u bezit. |
 | Overige filters > Met mij gedeeld | Toont alle segmenten die anderen met u deelden. |
 | Overige filters > Favorieten | Hiermee worden alle segmenten weergegeven die u als Favorieten hebt gemarkeerd. |
@@ -88,11 +88,11 @@ Beschikbare filters zijn:
 
 Het toevoegen van een segmentcontrole laat u segmenten van binnen een werkboek in plaats van het moeten in de Tovenaar van het Verzoek gaan.
 
-1. Klik het pictogram van de Controle ![&#x200B; &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) naast de segment drop-down.
+1. Klik het pictogram van de Controle ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) naast de segment drop-down.
 
 1. Controleer alle segmenten die u in de segmentcontrole wilt verschijnen, of controleer **[!UICONTROL Select All]**.
 
-   ![&#x200B; Schermafbeelding van de dialoog van de Montages van de Controle met alle geselecteerde plaatsen.](assets/seg_control.png)
+   ![ Schermafbeelding van de dialoog van de Montages van de Controle met alle geselecteerde plaatsen.](assets/seg_control.png)
 
 1. Let op de optie **[!UICONTROL Automatically refresh linked requests upon item selection]** .
 
@@ -103,11 +103,11 @@ Het toevoegen van een segmentcontrole laat u segmenten van binnen een werkboek i
 
 1. Klik **[!UICONTROL OK]** en de segmentcontrole verschijnt in de gespecificeerde plaats.
 
-   ![&#x200B; Schermafbeelding die het Choose gebied van het Segment drop-down gebied tonen.](assets/seg_control2.png)
+   ![ Schermafbeelding die het Choose gebied van het Segment drop-down gebied tonen.](assets/seg_control2.png)
 
 ## Lijst met segmenten vernieuwen {#refresh}
 
-Telkens wanneer u een nieuw segment toevoegt of bestaande één uitgeeft, zou u het Refresh pictogram ![&#x200B; &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) moeten klikken om de caching lijst van segmenten te verfrissen.
+Telkens wanneer u een nieuw segment toevoegt of bestaande één uitgeeft, zou u het Refresh pictogram ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) moeten klikken om de caching lijst van segmenten te verfrissen.
 
 ## Segmenten in verschillende verzoeken beheren {#manage}
 
@@ -118,7 +118,7 @@ Met Report Builder 5.4 kunt u alle segmenten binnen meerdere aanvragen toevoegen
 1. Selecteer veelvoudige verzoeken in een werkboek.
 1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Edit Requests]** > **[!UICONTROL By Segment]** .
 
-   ![&#x200B; Schermafbeelding die Uitgeven Verzoeken en door Geselecteerd Segment toont.](assets/edit_by_segment.png)
+   ![ Schermafbeelding die Uitgeven Verzoeken en door Geselecteerd Segment toont.](assets/edit_by_segment.png)
 
 1. Selecteer in het dialoogvenster Groep bewerken een van de vier opties:
 

@@ -4,7 +4,7 @@ title: Voorbeelden van labels
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 57%
@@ -42,12 +42,13 @@ Het samenvattingsbestand bevat bijvoorbeeld de waarden die in de onderstaande ta
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API-waarden</th>
-    <th rowspan="2">Samenvatting <br/> teruggekeerd dossiertype <br/></th>
+    <th>Samenvatting <br/> teruggekeerd dossiertype <br/></th>
     <th colspan="5" style="text-align:center">Gegevens in toegangsbestand overzicht</th>
   </tr>
   <tr>
     <th>Naamruimte/id</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>Bezoekers-id</th>
     <th>MyEvar1</th>
