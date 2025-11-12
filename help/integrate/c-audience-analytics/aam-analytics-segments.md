@@ -3,7 +3,7 @@ description: Analytics en Audience Manager maken beide gebruik van segmenten. Ee
 title: Segmenten in Analytics en Audience Manager begrijpen
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Audience Manager-segmentlidmaatschap is dynamisch. Gebruikers kunnen een segment
 
 Een Audience Manager-segment wordt in Analytics aangeduid als een publiek.
 
-Voor meer informatie, verwijs naar [&#x200B; Bedienings en Bevolkingsgegevens van het Segment in de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=nl-NL) en [&#x200B; Signalen, Trekken, en Segmenten &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=nl-NL).
+Voor meer informatie, verwijs naar [ Bedienings en Bevolkingsgegevens van het Segment in de Bouwer van het Segment ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) en [ Signalen, Trekken, en Segmenten ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Analysesegmenten {#analytics-segments}
 
@@ -45,4 +45,4 @@ Een segment van Analytics is een het filtreren mechanisme voor gegevens in uw ra
 
   In Analytics daarentegen worden bezoekers opgenomen in of uitgesloten van een segment dat is gebaseerd op het bereik van de rapportdatum. Eén bezoeker heeft bijvoorbeeld vorige maand een aankoop gedaan. In Adobe Audience Manager zou die bezoeker worden opgenomen in een &quot;koper&quot;-segment, ongeacht het datumbereik. In Analytics, zou een rapport dat op deze maand wordt gebaseerd de bezoeker in het segment niet omvatten. Nochtans, zou een rapport dat op deze maand &amp; vorige maand wordt gebaseerd de bezoeker in het segment omvatten.
 
-Zie de [&#x200B; Gids van de Segmentatie van de Analyse &#x200B;](/help/components/segmentation/seg-home.md) voor meer informatie.
+Zie de [ Gids van de Segmentatie van de Analyse ](/help/components/segmentation/seg-home.md) voor meer informatie.
