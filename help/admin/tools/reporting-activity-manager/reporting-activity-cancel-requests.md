@@ -19,15 +19,15 @@ Overweeg het volgende wanneer het annuleren van rapporteringsverzoeken:
 
 * U kunt specifieke verzoeken annuleren, alle verzoeken van een specifieke gebruiker annuleren of alle verzoeken met betrekking tot een specifiek project annuleren.
 
-  Wanneer u een verzoek annuleert, wordt de actie geregistreerd in de [ Logboeken ](/help/admin/tools/logs.md). De [!UICONTROL **kolomvertoningen van het Type van Gebeurtenis van 0} {als**] Actie Admin [!UICONTROL **, en een beschrijving van de annulering is beschikbaar in de**] 5} kolom van de Gebeurtenis.[!UICONTROL ****]
+  Wanneer u een verzoek annuleert, wordt de actie geregistreerd in de [&#x200B; Logboeken &#x200B;](/help/admin/tools/logs.md). De [!UICONTROL **kolomvertoningen van het Type van Gebeurtenis van 0&rbrace; {als**] Actie Admin [!UICONTROL **, en een beschrijving van de annulering is beschikbaar in de**] 5} kolom van de Gebeurtenis.[!UICONTROL **&#x200B;**]
 
 * Wanneer u verzoeken annuleert, kunt u ook verkiezen om verdere verzoeken voor een bepaalde tijdspanne te beperken.
 
-  Wanneer u een verder verzoek beperkt, wordt de actie geregistreerd in de [ Logboeken ](/help/admin/tools/logs.md). De [!UICONTROL **kolomvertoningen van het Type van Gebeurtenis 0} {als**] Actie Admin [!UICONTROL **, en een beschrijving van de beperking is beschikbaar in de**] 5} kolom van de Gebeurtenis.[!UICONTROL ****]
+  Wanneer u een verder verzoek beperkt, wordt de actie geregistreerd in de [&#x200B; Logboeken &#x200B;](/help/admin/tools/logs.md). De [!UICONTROL **kolomvertoningen van het Type van Gebeurtenis 0&rbrace; {als**] Actie Admin [!UICONTROL **, en een beschrijving van de beperking is beschikbaar in de**] 5} kolom van de Gebeurtenis.[!UICONTROL **&#x200B;**]
 
 * U kunt geen verzoek annuleren als de [!UICONTROL **Gebruiker**] kolom van een verzoek als [!UICONTROL **niet erkend**] toont. Wanneer dit voorkomt, betekent het dat de gebruiker in een login bedrijf is waar u geen administratieve toestemmingen hebt.
 
-Voor meer informatie over het Melden van de Manager van de Activiteit, met inbegrip van zeer belangrijke voordelen en toestemmingsvereisten, zie [ het Overzicht van de Manager van de Activiteit ](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) melden.
+Voor meer informatie over het Melden van de Manager van de Activiteit, met inbegrip van zeer belangrijke voordelen en toestemmingsvereisten, zie [&#x200B; het Overzicht van de Manager van de Activiteit &#x200B;](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) melden.
 
 ## Specifieke verzoeken annuleren
 
@@ -37,7 +37,7 @@ U kunt individuele verzoeken annuleren die een grote hoeveelheid rapporteringsca
 
 1. Selecteer de rapportsuite waar u rapportageaanvragen wilt annuleren. <!--double-check this step-->
 
-   Voor meer informatie over de gegevens beschikbaar op deze pagina, zie [ Mening rapporterend activiteit in de Manager van de Activiteit van de Rapportering ](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
+   Voor meer informatie over de gegevens beschikbaar op deze pagina, zie [&#x200B; Mening rapporterend activiteit in de Manager van de Activiteit van de Rapportering &#x200B;](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 
 1. Selecteer het [!UICONTROL **lusje van Verzoeken**], dan selecteer één of meerdere verzoeken.
 
@@ -53,7 +53,7 @@ U kunt individuele verzoeken annuleren die een grote hoeveelheid rapporteringsca
 
    1. Laat de optie toe om [!UICONTROL **verdere verzoeken**] te beperken
 
-      ![ Beperk verdere verzoeken ](assets/restrict-subsequent-requests.png)
+      ![&#x200B; Beperk verdere verzoeken &#x200B;](assets/restrict-subsequent-requests.png)
 
    1. Kies een van de volgende opties:
 
@@ -68,7 +68,7 @@ U kunt individuele verzoeken annuleren die een grote hoeveelheid rapporteringsca
 
 1. Selecteer [!UICONTROL **verdergaan met annulering**].
 
-   In Analysis Workspace wordt een melding weergegeven waarin gebruikers worden geïnformeerd dat het verzoek is geannuleerd. Voor meer informatie over hoe dit in Analysis Workspace verschijnt, zie [ Ervaring wanneer de gebruikers tot een geannuleerd rapport ](#experience-when-users-access-a-cancelled-report) toegang hebben.
+   In Analysis Workspace wordt een melding weergegeven waarin gebruikers worden geïnformeerd dat het verzoek is geannuleerd. Voor meer informatie over hoe dit in Analysis Workspace verschijnt, zie [&#x200B; Ervaring wanneer de gebruikers tot een geannuleerd rapport &#x200B;](#experience-when-users-access-a-cancelled-report) toegang hebben.
 
 ## Aanvragen door gebruiker annuleren
 
@@ -78,7 +78,7 @@ U kunt alle aanvragen annuleren die aan een of meer gebruikers zijn gekoppeld.
 
 1. Selecteer de rapportsuite waar u rapportageaanvragen wilt annuleren. <!--double-check this step-->
 
-   Voor meer informatie over de gegevens beschikbaar op deze pagina, zie [ Mening rapporterend activiteit in de Manager van de Activiteit van de Rapportering ](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
+   Voor meer informatie over de gegevens beschikbaar op deze pagina, zie [&#x200B; Mening rapporterend activiteit in de Manager van de Activiteit van de Rapportering &#x200B;](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 
 1. Selecteer het [!UICONTROL **lusje van Gebruikers**], dan selecteer één of meerdere gebruikers.
 
@@ -94,7 +94,7 @@ U kunt alle aanvragen annuleren die aan een of meer gebruikers zijn gekoppeld.
 
    1. Laat de optie toe om [!UICONTROL **verdere verzoeken**] te beperken.
 
-      ![ Beperk verdere verzoeken door gebruiker ](assets/restrict-subsequent-requests-user.png)
+      ![&#x200B; Beperk verdere verzoeken door gebruiker &#x200B;](assets/restrict-subsequent-requests-user.png)
 
    1. Kies een van de volgende opties:
 
@@ -109,7 +109,7 @@ U kunt alle aanvragen annuleren die aan een of meer gebruikers zijn gekoppeld.
 
 1. Selecteer [!UICONTROL **verdergaan met annulering**].
 
-   In Analysis Workspace wordt een melding weergegeven waarin gebruikers worden geïnformeerd dat het verzoek is geannuleerd. Voor meer informatie over hoe dit in Analysis Workspace verschijnt, zie [ Ervaring wanneer de gebruikers tot een geannuleerd rapport ](#experience-when-users-access-a-cancelled-report) toegang hebben.
+   In Analysis Workspace wordt een melding weergegeven waarin gebruikers worden geïnformeerd dat het verzoek is geannuleerd. Voor meer informatie over hoe dit in Analysis Workspace verschijnt, zie [&#x200B; Ervaring wanneer de gebruikers tot een geannuleerd rapport &#x200B;](#experience-when-users-access-a-cancelled-report) toegang hebben.
 
 ## Aanvragen door project annuleren
 
@@ -119,7 +119,7 @@ U kunt alle verzoeken annuleren die aan één of meerdere projecten worden geass
 
 1. Selecteer de rapportsuite waar u rapportageaanvragen wilt annuleren. <!--double-check this step-->
 
-   Voor meer informatie over de gegevens beschikbaar op deze pagina, zie [ Mening rapporterend activiteit in de Manager van de Activiteit van de Rapportering ](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
+   Voor meer informatie over de gegevens beschikbaar op deze pagina, zie [&#x200B; Mening rapporterend activiteit in de Manager van de Activiteit van de Rapportering &#x200B;](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 
 1. Selecteer het [!UICONTROL **lusje van Projecten**], dan selecteer één of meerdere projecten.
 
@@ -135,7 +135,7 @@ U kunt alle verzoeken annuleren die aan één of meerdere projecten worden geass
 
    1. Laat de optie toe om [!UICONTROL **verdere verzoeken**] te beperken.
 
-      ![ Beperk verdere verzoeken door project ](assets/restrict-subsequent-requests-project.png)
+      ![&#x200B; Beperk verdere verzoeken door project &#x200B;](assets/restrict-subsequent-requests-project.png)
 
    1. Kies een van de volgende opties:
 
@@ -150,7 +150,7 @@ U kunt alle verzoeken annuleren die aan één of meerdere projecten worden geass
 
 1. Selecteer [!UICONTROL **verdergaan met annulering**].
 
-   In Analysis Workspace wordt een melding weergegeven waarin gebruikers worden geïnformeerd dat het verzoek is geannuleerd. Voor meer informatie over hoe dit in Analysis Workspace verschijnt, zie [ Ervaring wanneer de gebruikers tot een geannuleerd rapport ](#experience-when-users-access-a-cancelled-report) toegang hebben.
+   In Analysis Workspace wordt een melding weergegeven waarin gebruikers worden geïnformeerd dat het verzoek is geannuleerd. Voor meer informatie over hoe dit in Analysis Workspace verschijnt, zie [&#x200B; Ervaring wanneer de gebruikers tot een geannuleerd rapport &#x200B;](#experience-when-users-access-a-cancelled-report) toegang hebben.
 
 ## Aanvragen door toepassing annuleren
 
@@ -173,7 +173,7 @@ Aanvragen door toepassing annuleren:
 
 1. Selecteer de verbinding waar u rapportageaanvragen wilt annuleren. <!--double-check this step-->
 
-   Voor meer informatie over de gegevens beschikbaar op deze pagina, zie [ Mening rapporterend activiteit in de Manager van de Activiteit van de Rapportering ](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
+   Voor meer informatie over de gegevens beschikbaar op deze pagina, zie [&#x200B; Mening rapporterend activiteit in de Manager van de Activiteit van de Rapportering &#x200B;](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 
 1. Selecteer het [!UICONTROL **lusje van Toepassingen**], dan selecteer één of meerdere toepassingen.
 
@@ -189,7 +189,7 @@ Aanvragen door toepassing annuleren:
 
    1. Laat de optie toe om [!UICONTROL **verdere verzoeken**] te beperken
 
-      ![ Beperk verdere verzoeken door toepassing ](assets/restrict-subsequent-requests-application.png)
+      ![&#x200B; Beperk verdere verzoeken door toepassing &#x200B;](assets/restrict-subsequent-requests-application.png)
 
    1. Kies een van de volgende opties:
 
@@ -204,7 +204,7 @@ Aanvragen door toepassing annuleren:
 
 1. Selecteer [!UICONTROL **verdergaan met annulering**].
 
-   Er wordt een melding weergegeven in de toepassing (bijvoorbeeld in Analysis Workspace) om gebruikers te laten weten dat het verzoek is geannuleerd. Voor meer informatie over hoe dit in Analysis Workspace verschijnt, zie [ Ervaring wanneer de gebruikers tot een geannuleerd rapport ](#experience-when-users-access-a-cancelled-report) toegang hebben.
+   Er wordt een melding weergegeven in de toepassing (bijvoorbeeld in Analysis Workspace) om gebruikers te laten weten dat het verzoek is geannuleerd. Voor meer informatie over hoe dit in Analysis Workspace verschijnt, zie [&#x200B; Ervaring wanneer de gebruikers tot een geannuleerd rapport &#x200B;](#experience-when-users-access-a-cancelled-report) toegang hebben.
 
 ## Ervaring wanneer de gebruikers tot een geannuleerd rapport toegang hebben
 
@@ -214,10 +214,10 @@ In Analysis Workspace zien gebruikers de volgende berichten wanneer ze proberen 
 
 Wanneer de gebruikers proberen om tot een project toegang te hebben dat door een annulering wordt beïnvloed, zien zij een bericht die hen informeren dat het rapport tijdelijk beperkt is:
 
-![ het annuleringsbericht van het Project ](assets/workspace-canceled-report.png)
+![&#x200B; het annuleringsbericht van het Project &#x200B;](assets/workspace-canceled-report.png)
 
 ### Bericht over de visualisatie
 
 Wanneer gebruikers proberen om tot een visualisatie toegang te hebben die door een annulering wordt beïnvloed, zien zij een bericht die hen informeren dat de gegevensverwerking voor het rapport tijdelijk beperkt is:
 
-![ het annuleringsbericht van de Visualisatie ](assets/workspace-cancelled-visualization.png)
+![&#x200B; het annuleringsbericht van de Visualisatie &#x200B;](assets/workspace-cancelled-visualization.png)

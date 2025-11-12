@@ -14,17 +14,17 @@ ht-degree: 1%
 
 Er zijn verschillende configuratieopties beschikbaar wanneer u een Data Warehouse-aanvraag maakt. De volgende informatie beschrijft hoe te om algemene montages voor het verzoek te vormen.
 
-Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [ een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [&#x200B; een verzoek van Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 Algemene instellingen configureren voor een Data Warehouse-aanvraag:
 
 1. Begin creërend een verzoek van Data Warehouse in Adobe Analytics door te selecteren **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **voeg**] toe.
 
-   Voor extra details, zie [ een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+   Voor extra details, zie [&#x200B; een verzoek van Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 1. Voor de Nieuwe Data Warehouse verzoekpagina, selecteer de [!UICONTROL **Algemene montages**] tabel.
 
-   ![ de bestemmingslusje van het Rapport ](assets/dw-general-settings.png)
+   ![&#x200B; de bestemmingslusje van het Rapport &#x200B;](assets/dw-general-settings.png)
 
 1. Vul de volgende velden in:
 
@@ -37,4 +37,4 @@ Algemene instellingen configureren voor een Data Warehouse-aanvraag:
 
    {style="table-layout:auto"}
 
-1. Ga door uw verzoek van Data Warehouse op [!UICONTROL **vormen uw rapport**] tabel. Voor meer informatie, zie [ een rapport voor een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-build-report.md) bouwen.
+1. Ga door uw verzoek van Data Warehouse op [!UICONTROL **vormen uw rapport**] tabel. Voor meer informatie, zie [&#x200B; een rapport voor een verzoek van Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/dw-request-build-report.md) bouwen.

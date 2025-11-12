@@ -19,13 +19,13 @@ De volgende secties beschrijven activiteiten die u kunt uitvoeren wanneer het be
 
 ## Verzoeken weergeven
 
-Door gebrek, kunt u slechts de verzoeken bekijken die u creeert, tenzij de gebruikers hebben verkozen om hun verzoeken zichtbaar aan anderen in de organisatie (zoals die in [ worden beschreven Data Warehouse verzoek algemene montages ](/help/export/data-warehouse/create-request/dw-general-settings.md)) te maken. Systeembeheerders kunnen alle aanvragen weergeven.
+Door gebrek, kunt u slechts de verzoeken bekijken die u creeert, tenzij de gebruikers hebben verkozen om hun verzoeken zichtbaar aan anderen in de organisatie (zoals die in [&#x200B; worden beschreven Data Warehouse verzoek algemene montages &#x200B;](/help/export/data-warehouse/create-request/dw-general-settings.md)) te maken. Systeembeheerders kunnen alle aanvragen weergeven.
 
 Data Warehouse-verzoeken weergeven:
 
 1. In Adobe Analytics, uitgezochte [!UICONTROL **Hulpmiddelen**] > [!UICONTROL **Data Warehouse**].
 
-   Op de Data Warehouse-pagina worden alle aanvragen weergegeven die u hebt gemaakt. Gegevens worden in elke kolom weergegeven. U kunt [ vormen welke kolommen ](#configure-columns) zichtbaar zijn.
+   Op de Data Warehouse-pagina worden alle aanvragen weergegeven die u hebt gemaakt. Gegevens worden in elke kolom weergegeven. U kunt [&#x200B; vormen welke kolommen &#x200B;](#configure-columns) zichtbaar zijn.
 
    <!-- add screenshot of main page -->
 
@@ -53,13 +53,13 @@ Een geplande aanvraag bewerken:
 
 1. Selecteer op de Data Warehouse-pagina de aanvraag die u wilt bewerken.
 
-   ![ beheer een verzoek ](assets/dw-manage-request.png)
+   ![&#x200B; beheer een verzoek &#x200B;](assets/dw-manage-request.png)
 
 1. Selecteer [!UICONTROL **uitgeven**].
 
 1. Bewerk de aanvraag naar wens. De opties voor grijze configuratie kunnen niet worden bewerkt.
 
-   Voor informatie over elke configuratieoptie, zie [ een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+   Voor informatie over elke configuratieoptie, zie [&#x200B; een verzoek van Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 1. Selecteer [!UICONTROL **sparen veranderingen**].
 
@@ -71,15 +71,15 @@ Je kunt de geschiedenis bekijken van Data Warehouse-verzoeken die je hebt gedaan
 
 1. Selecteer op de Data Warehouse-pagina de aanvraag waarvan u de geschiedenis wilt weergeven.
 
-   ![ beheer een verzoek ](assets/dw-manage-request.png)
+   ![&#x200B; beheer een verzoek &#x200B;](assets/dw-manage-request.png)
 
 1. Selecteer [!UICONTROL **de geschiedenis van de Mening**].
 
    De [!UICONTROL **verzoek van Data Warehouse van de Mening**] pagina toont een lijst van individuele rapportleveringen die met het verzoek worden geassocieerd.
 
-   Selecteer **kolom** pictogram ![ vormen kolompictogram ](assets/configure-column-icon.png) om kolommen te verbergen of kolommen te tonen die niet door gebrek worden getoond.
+   Selecteer **kolom** pictogram ![&#x200B; vormen kolompictogram &#x200B;](assets/configure-column-icon.png) om kolommen te verbergen of kolommen te tonen die niet door gebrek worden getoond.
 
-   ![ de geschiedenispagina van het Verzoek ](assets/dw-request-history.png)
+   ![&#x200B; de geschiedenispagina van het Verzoek &#x200B;](assets/dw-request-history.png)
 
    De volgende kolommen zijn beschikbaar:
 
@@ -89,7 +89,7 @@ Je kunt de geschiedenis bekijken van Data Warehouse-verzoeken die je hebt gedaan
    | [!UICONTROL **begonnen Datum**] | De datum en het tijdstip waarop het rapport is gestart.<p>Dit wordt getoond in de tijdzone van de gebruiker die het verzoek in werking stelde.</p> |
    | [!UICONTROL **voltooide Datum**] | De datum en het tijdstip waarop het rapport is voltooid.<p>Dit wordt getoond in de tijdzone van de gebruiker die het verzoek in werking stelde.</p> |
    | [!UICONTROL **Datum bijgewerkt**] | De datum en tijd waarop het rapport voor het laatst is bijgewerkt.<p>Dit wordt getoond in de tijdzone van de gebruiker die het verzoek in werking stelde.</p> |
-   | [!UICONTROL **Status**] | De status van de rapportlevering. Mogelijke statussen zijn:<ul><li>[!UICONTROL **Gemaakt**]: Het rapport werd gecreeerd maar is nog niet verwerkt.</li><li>[!UICONTROL **Hangende**]: Het rapport wacht om te worden verwerkt.</li><li>[!UICONTROL **Verwerking**]: Het rapport wordt momenteel verwerkt.</li><li>[!UICONTROL **Voltooid**]: Het voltooide rapport en is nu beschikbaar.</li><li>[!UICONTROL **Gepland**]: Het rapport is gepland maar is nog niet begonnen.</li><li>[!UICONTROL **Geannuleerd**]: Het rapport werd geannuleerd door de gebruiker.</li><li>[!UICONTROL **Fout - Verwerking**:] het rapport ontmoette een fout en kon niet worden verwerkt.</li><li>[!UICONTROL **Fout - het Niet verzenden**]: Het met succes geproduceerde rapport maar kon niet worden geleverd. Controleer de [ configuratie van uw bestemming ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), dan verzend het rapport opnieuw.</li></ul>. |
+   | [!UICONTROL **Status**] | De status van de rapportlevering. Mogelijke statussen zijn:<ul><li>[!UICONTROL **Gemaakt**]: Het rapport werd gecreeerd maar is nog niet verwerkt.</li><li>[!UICONTROL **Hangende**]: Het rapport wacht om te worden verwerkt.</li><li>[!UICONTROL **Verwerking**]: Het rapport wordt momenteel verwerkt.</li><li>[!UICONTROL **Voltooid**]: Het voltooide rapport en is nu beschikbaar.</li><li>[!UICONTROL **Gepland**]: Het rapport is gepland maar is nog niet begonnen.</li><li>[!UICONTROL **Geannuleerd**]: Het rapport werd geannuleerd door de gebruiker.</li><li>[!UICONTROL **Fout - Verwerking**:] het rapport ontmoette een fout en kon niet worden verwerkt.</li><li>[!UICONTROL **Fout - het Niet verzenden**]: Het met succes geproduceerde rapport maar kon niet worden geleverd. Controleer de [&#x200B; configuratie van uw bestemming &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), dan verzend het rapport opnieuw.</li></ul>. |
    | [!UICONTROL **van**] | De begindatum van het algemene tijdkader inbegrepen in het rapport.<p>Dit wordt getoond in de tijdzone van de rapportreeks.</p> |
    | [!UICONTROL **aan**] | De einddatum van het algemene tijdkader inbegrepen in het rapport. <p>Dit wordt getoond in de tijdzone van de rapportreeks.</p> |
    | [!UICONTROL **Verouderde verzoek identiteitskaart**] | De id die wordt gebruikt om een rapport in de oudere Data Warehouse-interface te identificeren. Deze id kan nodig zijn wanneer u contact opneemt met de klantenservice van Adobe. |
@@ -100,7 +100,7 @@ Je kunt de geschiedenis bekijken van Data Warehouse-verzoeken die je hebt gedaan
 
    | Optie | Functie |
    |---------|----------|
-   | [!UICONTROL **de details van de Bestemming**] | Hiermee geeft u de account- en locatiegegevens weer die aan de aanvraag zijn gekoppeld. Dit is de rekening en de plaats die vroeger werd gevormd, zoals die in [ wordt beschreven vormen een rapportbestemming voor een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **de details van de Bestemming**] | Hiermee geeft u de account- en locatiegegevens weer die aan de aanvraag zijn gekoppeld. Dit is de rekening en de plaats die vroeger werd gevormd, zoals die in [&#x200B; wordt beschreven vormen een rapportbestemming voor een verzoek van Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **annuleert rapport**] | Hiermee annuleert u het rapport. U kunt geen rapporten annuleren die een status van [!UICONTROL **Voltooid**] hebben of [!UICONTROL **Geannuleerd**]. |
    | [!UICONTROL **Rerun rapport**] | Voert het rapport opnieuw met de gegevens in werking zoals het was toen het oorspronkelijk werd verzonden. U kunt een rapport opnieuw uitvoeren dat om het even welke volgende statussen heeft: [!UICONTROL **Geannuleerd**], [!UICONTROL **Voltooid**], [!UICONTROL **Fout - Verwerking**], of [!UICONTROL **Fout - Verzenden**]. |
    | [!UICONTROL **het rapport van het Terugsturen**] | Hiermee stuurt u het eerder gegenereerde rapportbestand opnieuw. U kunt een rapport opnieuw verzenden dat om het even welke volgende statussen heeft: [!UICONTROL **Voltooid**] of [!UICONTROL **Fout - Verlies om**] te verzenden. |
@@ -113,7 +113,7 @@ Wanneer u een verzoek kopieert, worden alle configuratieopties gekopieerd van he
 
 1. Selecteer op de Data Warehouse-pagina de aanvraag die u wilt kopiëren.
 
-   ![ beheer een verzoek ](assets/dw-manage-request.png)
+   ![&#x200B; beheer een verzoek &#x200B;](assets/dw-manage-request.png)
 
 1. Selecteer [!UICONTROL **Exemplaar**].
 
@@ -121,7 +121,7 @@ Wanneer u een verzoek kopieert, worden alle configuratieopties gekopieerd van he
 
 1. Werk om het even welke configuratieopties verbonden aan het verzoek bij.
 
-   Voor informatie over elke configuratieoptie, zie [ een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+   Voor informatie over elke configuratieoptie, zie [&#x200B; een verzoek van Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 1. Selecteer [!UICONTROL **sparen veranderingen**].
 
@@ -135,7 +135,7 @@ Een geplande aanvraag annuleren:
 
 1. Selecteer op de Data Warehouse-pagina de aanvraag die u wilt bewerken.
 
-   ![ beheer een verzoek ](assets/dw-manage-request.png)
+   ![&#x200B; beheer een verzoek &#x200B;](assets/dw-manage-request.png)
 
 1. Selecteer [!UICONTROL **annuleren**].
 
@@ -147,7 +147,7 @@ U kunt vormen welke informatie voor elk verzoek wordt getoond door kolommen toe 
 
 1. Selecteer **kolommen** pictogram in het hoger-recht van de pagina van Data Warehouse vormen.
 
-   ![ vorm kolommen ](assets/dw-configure-columns.png)
+   ![&#x200B; vorm kolommen &#x200B;](assets/dw-configure-columns.png)
 
    De volgende kolommen zijn beschikbaar:
 
@@ -167,7 +167,7 @@ U kunt vormen welke informatie voor elk verzoek wordt getoond door kolommen toe 
 
 1. Selecteer het **pictogram van de Filter** in het linkerspoor van de pagina van Data Warehouse.
 
-   ![ verzoeken van de Filter ](assets/dw-filter.png)
+   ![&#x200B; verzoeken van de Filter &#x200B;](assets/dw-filter.png)
 
 1. Breid de [!UICONTROL **Reeksen van het Rapport**], [!UICONTROL **Eigenaar**], of [!UICONTROL **Status**] secties uit, dan selecteer hoe u de verzoeken wilt filtreren.
 

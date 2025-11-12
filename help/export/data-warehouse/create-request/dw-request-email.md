@@ -14,17 +14,17 @@ ht-degree: 0%
 
 Er zijn verschillende configuratieopties beschikbaar wanneer u een Data Warehouse-aanvraag maakt. De volgende informatie beschrijft hoe te om een bericht e-mail voor het verzoek te vormen.
 
-Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [ een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+Voor informatie over hoe te beginnen creërend een verzoek, evenals verbindingen aan andere belangrijke configuratieopties, zie [&#x200B; een verzoek van Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 Een meldingsbericht configureren voor een Data Warehouse-aanvraag:
 
 1. Als u niet reeds hebt, begin creërend een verzoek in Adobe Analytics door te selecteren **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **voeg**] toe.
 
-   Voor extra details, zie [ een verzoek van Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
+   Voor extra details, zie [&#x200B; een verzoek van Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) creëren.
 
 1. Voor de Nieuwe Data Warehouse- verzoekpagina, selecteer het [!UICONTROL **E-mail van het Bericht**] lusje.
 
-   ![ de bestemmingslusje van het Rapport ](assets/dw-notification-email.png)
+   ![&#x200B; de bestemmingslusje van het Rapport &#x200B;](assets/dw-notification-email.png)
 
 1. Vul de volgende velden in:
 

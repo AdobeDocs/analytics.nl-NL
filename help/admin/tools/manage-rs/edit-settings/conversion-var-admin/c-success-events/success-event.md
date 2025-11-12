@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Gebeurtenissen met succes (ook wel conversiegebeurtenissen of aangepaste gebeurtenissen genoemd) zijn handelingen die kunnen worden bijgehouden. U bepaalt wat een succesgebeurtenis is. Als een bezoeker bijvoorbeeld een item aanschaft, kan de aankoopgebeurtenis als de succesgebeurtenis worden beschouwd.
 
-Voor een videooverzicht van succesgebeurtenissen, zie [ Inleiding aan omzettingsgebeurtenissen ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) in de gids van de Zelfstudies van de Analyse.
+Voor een videooverzicht van succesgebeurtenissen, zie [&#x200B; Inleiding aan omzettingsgebeurtenissen &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) in de gids van de Zelfstudies van de Analyse.
 
 ## Voorbeelden van succesgebeurtenissen
 
@@ -30,7 +30,7 @@ Afhankelijk van het type website zijn er vele soorten succesgebeurtenissen. Enke
 * **Hoog Tech**: De download van het Witboek, RFP, vormvoltooiing, steunverzoeken
 * **Automobielindustrie**: De voorlegger, verzoekt om een citaat, brochure download
 
-De {[ variabele 0} s.events bepaalt een succesgebeurtenis.](/help/implement/vars/page-vars/events/event-serialization.md)
+De {[&#x200B; variabele 0} s.events bepaalt een succesgebeurtenis.](/help/implement/vars/page-vars/events/event-serialization.md)
 
 ## Succesgebeurtenissen configureren
 
@@ -82,12 +82,12 @@ Succesgebeurtenissen configureren:
    | Optie | Functie |
    |---------|----------|
    | [!UICONTROL **Verslag eens per Bezoek**] | Hiermee wordt de opgegeven gebeurtenis gekoppeld aan de bezoekerssessie. Volgende tellingen voor een bepaalde gebeurtenis tijdens hetzelfde bezoek worden genegeerd. Voor dit type gebeurtenisserialisatie zijn geen implementatiewijzigingen vereist. |
-   | [!UICONTROL **identiteitskaart van de Gebeurtenis van het Gebruik**] | Koppelt de opgegeven gebeurtenis aan een aangepaste id. Volgende tellingen naar een bepaalde gebeurtenis met dezelfde gebeurtenis-id worden genegeerd. Voor dit type serienummering van gebeurtenissen is een aangepaste id vereist bij treffers om waarden te dedupliceren. Zie [ identiteitskaart van de Gebeurtenis rangschikken ](/help/implement/vars/page-vars/events/event-serialization.md) in de de gebruikersgids van het Uitvoeren. |
+   | [!UICONTROL **identiteitskaart van de Gebeurtenis van het Gebruik**] | Koppelt de opgegeven gebeurtenis aan een aangepaste id. Volgende tellingen naar een bepaalde gebeurtenis met dezelfde gebeurtenis-id worden genegeerd. Voor dit type serienummering van gebeurtenissen is een aangepaste id vereist bij treffers om waarden te dedupliceren. Zie [&#x200B; identiteitskaart van de Gebeurtenis rangschikken &#x200B;](/help/implement/vars/page-vars/events/event-serialization.md) in de de gebruikersgids van het Uitvoeren. |
 
 1. In de [!UICONTROL **kolom van de Deelname**], selecteer checkbox, dan kies of om participatie toe te laten of onbruikbaar te maken. Als deze optie is ingeschakeld, krijgt alle dimensie-items in het bezoek een volledige toewijzing.
 
    >[!NOTE]
    >
-   >U kunt deelname inschakelen voor maximaal 100 aangepaste gebeurtenissen. Buiten dat, kunt u deelnemingsmetriek in de [ Berekende Metriek ](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md) bouwer tot stand brengen.
+   >U kunt deelname inschakelen voor maximaal 100 aangepaste gebeurtenissen. Buiten dat, kunt u deelnemingsmetriek in de [&#x200B; Berekende Metriek &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md) bouwer tot stand brengen.
 
 1. Selecteer **[!UICONTROL Save]**.

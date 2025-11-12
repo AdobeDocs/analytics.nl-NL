@@ -12,42 +12,42 @@ ht-degree: 1%
 
 # Migratie van onderdelen en projecten van Adobe Analytics naar Customer Journey Analytics voorbereiden
 
-Alvorens iedereen in uw organisatie begint migrerend projecten zoals die in [ worden beschreven componenten en projecten van Adobe Analytics aan Customer Journey Analytics ](/help/admin/tools/component-migration/component-migration.md) migreren, voltooi de volgende secties.
+Alvorens iedereen in uw organisatie begint migrerend projecten zoals die in [&#x200B; worden beschreven componenten en projecten van Adobe Analytics aan Customer Journey Analytics &#x200B;](/help/admin/tools/component-migration/component-migration.md) migreren, voltooi de volgende secties.
 
 ## Vereisten
 
-Alvorens uw projecten en hun bijbehorende componenten klaar zijn om te migreren, moet u eerst de stappen in [ Evolutie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html) in de Gids van Adobe Customer Journey Analytics volgen. Deze stappen omvatten:
+Alvorens uw projecten en hun bijbehorende componenten klaar zijn om te migreren, moet u eerst de stappen in [&#x200B; Evolutie van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html) in de Gids van Adobe Customer Journey Analytics volgen. Deze stappen omvatten:
 
 1. Gebruik een van de volgende methoden om gegevens in te voeren in Adobe Experience Platform om Adobe Analytics-rapportsuite-gegevens in Customer Journey Analytics weer te geven:
 
    >[!NOTE]
    >
-   >  Wanneer u WebSDK gebruikt om gegevens in te voeren, moeten alle schemagebieden manueel in kaart worden gebracht. (Voor meer informatie over het kaartproces, zie [ componenten en projecten van Adobe Analytics aan Customer Journey Analytics migreren ](/help/admin/tools/component-migration/component-migration.md))
+   >  Wanneer u WebSDK gebruikt om gegevens in te voeren, moeten alle schemagebieden manueel in kaart worden gebracht. (Voor meer informatie over het kaartproces, zie [&#x200B; componenten en projecten van Adobe Analytics aan Customer Journey Analytics migreren &#x200B;](/help/admin/tools/component-migration/component-migration.md))
 
 
    * Als u de Adobe Analytics-bronconnector wilt gebruiken, moet u:
 
-      1. [ de reeksen van het opstellingsrapport voor opname in Adobe Experience Platform en Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [&#x200B; de reeksen van het opstellingsrapport voor opname in Adobe Experience Platform en Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [ Samenvatten en gebruiken de gegevens ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html)
+      1. [&#x200B; Samenvatten en gebruiken de gegevens &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html)
 
    * Om WebSDK te gebruiken, moet u:
 
-      1. [ de reeksen van het opstellingsrapport voor opname in Adobe Experience Platform en Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [&#x200B; de reeksen van het opstellingsrapport voor opname in Adobe Experience Platform en Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [ Ingest gegevens via het Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+      1. [&#x200B; Ingest gegevens via het Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. Creeer a [ verbinding ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) en [ gegevensmening ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) met de opgenomen gegevens.
+1. Creeer a [&#x200B; verbinding &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) en [&#x200B; gegevensmening &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) met de opgenomen gegevens.
 
 1. Zorg ervoor dat gebruikers in Customer Journey Analytics zijn ingericht voor de gegevensweergaven waarin gegevens worden toegewezen.
 
-   Voor meer informatie, zie {de toestemmingen van 0} Customer Journey Analytics in Admin Console [ in ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) de toegangscontrole van Customer Journey Analytics [.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)
+   Voor meer informatie, zie {de toestemmingen van 0} Customer Journey Analytics in Admin Console [&#x200B; in &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) de toegangscontrole van Customer Journey Analytics [.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)
 
    Het tabblad Machtigingen maakt deel uit van elk productprofiel in Admin Console. U kunt gebruikers toevoegen aan specifieke productprofielen. Vervolgens wijst u rechten toe aan specifieke gegevensweergaven en geeft u op welke machtigingen de gebruikers in een productprofiel hebben.
 
 1. Bepaal als organisatie hoe u componenten in kaart zult brengen.
 
-   Voor meer informatie, zie de sectie hieronder, [ besluit als organisatie hoe u componenten ](#decide-as-an-organization-how-you-will-map-components) in kaart zult brengen.
+   Voor meer informatie, zie de sectie hieronder, [&#x200B; besluit als organisatie hoe u componenten &#x200B;](#decide-as-an-organization-how-you-will-map-components) in kaart zult brengen.
 
 ## Begrijpen wat er in een migratie is opgenomen
 
@@ -55,15 +55,15 @@ In de volgende tabellen wordt aangegeven welke elementen van een project en comp
 
 ### Componentelementen die worden gemigreerd
 
-De afmetingen en de metriek worden gemigreerd als deel van het kaartproces dat in [ wordt beschreven migreren de projecten van Adobe Analytics aan Customer Journey Analytics ](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+De afmetingen en de metriek worden gemigreerd als deel van het kaartproces dat in [&#x200B; wordt beschreven migreren de projecten van Adobe Analytics aan Customer Journey Analytics &#x200B;](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
 
 De segmenten, de datumwaaiers, en de berekende metriek die niet reeds in Customer Journey Analytics bestaan worden daar opnieuw gecreeerd gebaseerd op de afmetingen en de metriek die in kaart worden gebracht.
 
 |  | Gegigreerd |
 |---------|---------|
-| **[Eigenaar](/help/components/calculated-metrics/workflow/cm-manager.md)** | Afmetingen en metingen: geen<p>Segmenten en datumwaaiers: ![ vinkje ](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[Eigenaar](/help/components/calculated-metrics/workflow/cm-manager.md)** | Afmetingen en metingen: geen<p>Segmenten en datumwaaiers: ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[het Delen](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Afmetingen en metingen: geen<p>Segmenten en datumbereiken: Nee</p> |
-| **[Beschrijvingen](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Afmetingen en metingen: geen<p>Segmenten en datumwaaiers: ![ vinkje ](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[Beschrijvingen](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Afmetingen en metingen: geen<p>Segmenten en datumwaaiers: ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[Markeringen](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Afmetingen en metingen: geen<p>Segmenten en datumbereiken: Nee</p> |
 | **[Attributie (op afmetingen)](/help/analyze/analysis-workspace/attribution/overview.md)** | Afmetingen en metingen: geen<p>Segmenten en datumbereiken: Nee</p> |
 
@@ -73,23 +73,23 @@ De segmenten, de datumwaaiers, en de berekende metriek die niet reeds in Custome
 
 |  | Gegigreerd |
 |---------|----------|
-| **[waaiers van de Datum](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![ vinkje ](assets/Smock_Checkmark_18_N.svg) |
-| **[Segmenten](/help/components/segmentation/seg-overview.md)** | ![ vinkje ](assets/Smock_Checkmark_18_N.svg) |
-| **[Snelle segmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![ vinkje ](assets/Smock_Checkmark_18_N.svg) |
-| **[Dimensies](/help/components/dimensions/overview.md)** | ![ vinkje ](assets/Smock_Checkmark_18_N.svg) die automatisch of manueel in kaart wordt gebracht |
-| **[Cijfers](/help/components/metrics/overview.md)** | ![ vinkje ](assets/Smock_Checkmark_18_N.svg) die automatisch of manueel in kaart wordt gebracht |
-| **[Panelen](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![ vinkje ](assets/Smock_Checkmark_18_N.svg) |
-| **[Visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![ vinkje ](assets/Smock_Checkmark_18_N.svg) |
-| **[Eigenaar](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![ vinkje ](assets/Smock_Checkmark_18_N.svg) Gedefinieerd door gebruiker die de migratie doet |
+| **[waaiers van de Datum](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg) |
+| **[Segmenten](/help/components/segmentation/seg-overview.md)** | ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg) |
+| **[Snelle segmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg) |
+| **[Dimensies](/help/components/dimensions/overview.md)** | ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg) die automatisch of manueel in kaart wordt gebracht |
+| **[Cijfers](/help/components/metrics/overview.md)** | ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg) die automatisch of manueel in kaart wordt gebracht |
+| **[Panelen](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg) |
+| **[Visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg) |
+| **[Eigenaar](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg) Gedefinieerd door gebruiker die de migratie doet |
 | **[Kromming](/help/analyze/analysis-workspace/curate-share/curate.md)** | Nee |
 | **[het Delen](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Nee |
 | **[Annotaties](/help/analyze/analysis-workspace/components/annotations/overview.md)** | Nee |
 | **[de structuur van de Omslag](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | Nee |
-| **[Beschrijvingen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![ vinkje ](assets/Smock_Checkmark_18_N.svg) |
+| **[Beschrijvingen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg) |
 | **[Markeringen](/help/analyze/landing.md)** | Nee |
 | **[Favorieten](/help/analyze/landing.md)** | Nee |
 | **[Programma&#39;s](/help/components/scheduled-projects-manager.md)** | Nee |
-| **[Anomaliedetectie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![ vinkje ](assets/Smock_Checkmark_18_N.svg) |
+| **[Anomaliedetectie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![&#x200B; vinkje &#x200B;](assets/Smock_Checkmark_18_N.svg) |
 
 {style="table-layout:auto"}
 

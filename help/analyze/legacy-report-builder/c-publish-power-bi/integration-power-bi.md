@@ -23,4 +23,4 @@ Er zijn drie inhoudspakketten beschikbaar:
 * Adobe Analytics Mobile App Analytics
 * Adobe Analytics-verkeersanalyse
 
-Voor meer informatie, zie [ Adobe Analytics inhoudspak voor Power BI ](https://powerbi.microsoft.com/en-us/documentation/powerbi-content-pack-adobe-analytics/).
+Voor meer informatie, zie [&#x200B; Adobe Analytics inhoudspak voor Power BI &#x200B;](https://powerbi.microsoft.com/en-us/documentation/powerbi-content-pack-adobe-analytics/).

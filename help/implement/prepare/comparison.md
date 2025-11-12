@@ -17,7 +17,7 @@ Zie hoe elke methode om Adobe Analytics uit te voeren met elkaar vergelijkt. U k
 
 ## Web
 
-| | [AppMeasurement](/help/implement/js/overview.md) | [ de uitbreiding van Adobe Analytics ](/help/implement/launch/overview.md) | [ SDK van het Web ](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [ de uitbreiding van SDK van het Web ](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
+| | [AppMeasurement](/help/implement/js/overview.md) | [&#x200B; de uitbreiding van Adobe Analytics &#x200B;](/help/implement/launch/overview.md) | [&#x200B; SDK van het Web &#x200B;](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [&#x200B; de uitbreiding van SDK van het Web &#x200B;](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
 | --- | --- | --- | --- | --- |
 | Implementatievereisten | Verwijzing `AppMeasurement.js` op elke pagina, definieer variabelen, verzend gegevens met `s.t()` naar Adobe Analytics | De markeringslader van de verwijzing op elke pagina, gebruik de UI van de Inzameling van Gegevens om variabelen te bepalen en gegevens naar Adobe Analytics te verzenden | Referentie `Alloy.js` op elke pagina gebruikt u `alloy("sendEvent",{})` om XDM-objecten samen te stellen en de gewenste gegevens te verzenden met Edge Network naar Adobe Analytics | De markeringslader van de verwijzing op elke pagina, gebruik de UI van de Inzameling van Gegevens om voorwerpen XDM samen te stellen en de gewenste gegevens te verzenden gebruikend Edge Network naar Adobe Analytics |
 | Gegevensbestemming | Direct verzonden naar Adobe Analytics | Direct verzonden naar Adobe Analytics | Verzonden naar Adobe Experience Platform Edge, die gegevens doorstuurt naar Adobe Analytics | Verzonden naar Adobe Experience Platform Edge, die gegevens doorstuurt naar Adobe Analytics |
@@ -31,10 +31,10 @@ Zie hoe elke methode om Adobe Analytics uit te voeren met elkaar vergelijkt. U k
 
 >[!CAUTION]
 >
->Ondersteuning voor versie 4 Mobile SDK&#39;s is beëindigd op 31 augustus 2021. Zie [ Adobe Mobiele Veelgestelde Veelgestelde vragen van de Diensten van het Eind van de Eind-van-leven ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) voor meer informatie.
+>Ondersteuning voor versie 4 Mobile SDK&#39;s is beëindigd op 31 augustus 2021. Zie [&#x200B; Adobe Mobiele Veelgestelde Veelgestelde vragen van de Diensten van het Eind van de Eind-van-leven &#x200B;](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) voor meer informatie.
 
 
-| | [ Mobiele SDK ](/help/implement/aep-edge/mobile-sdk/overview.md) | [ Edge Network API ](/help/implement/aep-edge/api/overview.md) |
+| | [&#x200B; Mobiele SDK &#x200B;](/help/implement/aep-edge/mobile-sdk/overview.md) | [&#x200B; Edge Network API &#x200B;](/help/implement/aep-edge/api/overview.md) |
 | --- | --- | --- |
 | Implementatievereisten | De markeringslader van de verwijzing in app, dan gebruik directe API vraag of regels in de UI van de Inzameling van Gegevens om XDM voorwerpen samen te stellen en de gewenste gegevens te verzenden gebruikend Edge Network aan Adobe Analytics | De Edge Network API gebruiken om XDM-objecten samen te stellen en de gewenste gegevens met Edge Network naar Adobe Analytics te verzenden |
 | Gegevensbestemming | Verzonden naar Adobe Experience Platform Edge, die gegevens doorstuurt naar Adobe Analytics | Verzonden naar Adobe Experience Platform Edge, die gegevens doorstuurt naar Adobe Analytics |

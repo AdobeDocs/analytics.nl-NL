@@ -16,11 +16,11 @@ ht-degree: 1%
 
 Een segment stelt voorwaarden in om een bezoeker te filteren op basis van de kenmerken van de bezoeker of de interacties met uw site. Als u voorwaarden in een segment wilt instellen, stelt u regels in om bezoekers te filteren op basis van bezoekerskenmerken en/of navigatiekenmerken. Als u bezoekersgegevens verder wilt onderverdelen, kunt u filteren op basis van specifieke bezoeken en/of toeschouwers in de paginaweergave voor elke bezoeker. De bouwer van het Segment verstrekt een eenvoudige architectuur om deze subsets te bouwen en regels als genestelde, hiërarchische Bezoeker, Bezoek, of de containers van het Actief toe te passen.
 
-De containerarchitectuur die in de [ bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md) wordt gebruikt bepaalt:
+De containerarchitectuur die in de [&#x200B; bouwer van het Segment &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md) wordt gebruikt bepaalt:
 
-- ![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Visitor]** als buitenste container, die overkoepelende gegevens specifiek voor de bezoeker over bezoeken en paginameningen bevat.
-- ![ Bezoek ](/help/assets/icons/Visit.svg) een genestelde **[!UICONTROL Visit]** container laat u regels plaatsen om de gegevens van de bezoeker te onderbreken die op bezoeken worden gebaseerd, en
-- ![ WebPage ](/help/assets/icons/WebPage.svg) een genestelde **[!UICONTROL Hit]** container laat u bezoekersinformatie onderbreken die op individuele paginameningen wordt gebaseerd.
+- ![&#x200B; Gebruiker &#x200B;](/help/assets/icons/User.svg) **[!UICONTROL Visitor]** als buitenste container, die overkoepelende gegevens specifiek voor de bezoeker over bezoeken en paginameningen bevat.
+- ![&#x200B; Bezoek &#x200B;](/help/assets/icons/Visit.svg) een genestelde **[!UICONTROL Visit]** container laat u regels plaatsen om de gegevens van de bezoeker te onderbreken die op bezoeken worden gebaseerd, en
+- ![&#x200B; WebPage &#x200B;](/help/assets/icons/WebPage.svg) een genestelde **[!UICONTROL Hit]** container laat u bezoekersinformatie onderbreken die op individuele paginameningen wordt gebaseerd.
 
 Met elke container kunt u de geschiedenis van een bezoeker doorlopen, interacties splitsen op bezoeken of afzonderlijke treffers splitsen.
 
@@ -47,7 +47,7 @@ Met elke container kunt u de geschiedenis van een bezoeker doorlopen, interactie
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de containers van het Segment ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de containers van het Segment &#x200B;](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -91,7 +91,7 @@ Actief containers bevatten op één pagina gebaseerde waarden:
 
 ## Container voor logische groep
 
-Met de container van de Logische Groep kunt u een afzonderlijke container binnen de segmentregels verstrekken om entiteiten te filteren die niet op hiërarchie worden gebaseerd. U kunt bijvoorbeeld een container toevoegen die in het segment is genest en die filters toepast op basis van de bezoeker. Voor dit type logica moet u de hiërarchie afbreken (aangezien u al een bezoekercontainer op hoofdniveau hebt gebruikt) om alleen voor geselecteerde bezoekers te filteren. Zie {de voorbeelden van de Groep van 0} Logica [ voor extra informatie.](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)
+Met de container van de Logische Groep kunt u een afzonderlijke container binnen de segmentregels verstrekken om entiteiten te filteren die niet op hiërarchie worden gebaseerd. U kunt bijvoorbeeld een container toevoegen die in het segment is genest en die filters toepast op basis van de bezoeker. Voor dit type logica moet u de hiërarchie afbreken (aangezien u al een bezoekercontainer op hoofdniveau hebt gebruikt) om alleen voor geselecteerde bezoekers te filteren. Zie {de voorbeelden van de Groep van 0} Logica [&#x200B; voor extra informatie.](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)
 
 ## Nesten van containers {#nest-containers}
 
@@ -154,7 +154,7 @@ Opeenvolgende segmentatie maakt gebruik van dezelfde hiërarchisch geneste basis
 
 <!--![](assets/nesting_container.png)-->
 
-[!UICONTROL Visitors] vormt de container met de hoogste volgorde in opeenvolgende segmentatie, met [!UICONTROL Visits] in de [!UICONTROL Visitors] -container en [!UICONTROL Hits] in de [!UICONTROL Visitors] - of [!UICONTROL Visits] -containers. Deze [ containerhiërarchie ](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) moet worden gehandhaafd om goed-bevolen opeenvolgende segmenten te bouwen.
+[!UICONTROL Visitors] vormt de container met de hoogste volgorde in opeenvolgende segmentatie, met [!UICONTROL Visits] in de [!UICONTROL Visitors] -container en [!UICONTROL Hits] in de [!UICONTROL Visitors] - of [!UICONTROL Visits] -containers. Deze [&#x200B; containerhiërarchie &#x200B;](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) moet worden gehandhaafd om goed-bevolen opeenvolgende segmenten te bouwen.
 
 **om opeenvolgende segmenten** te bouwen, zijn de containers genest en opeenvolgende logica die met de [!UICONTROL THEN] exploitant wordt verbonden die elke container vereist om `true` op de opeenvolging van de bezoeker worden gebaseerd.
 
@@ -194,7 +194,7 @@ Opeenvolgende segmentatie maakt gebruik van dezelfde hiërarchisch geneste basis
 
 <!--![](assets/sequential_segmentation_nesting_3.png)-->
 
-De enige uitzondering op deze hiërarchie van containers is wanneer het gebruiken van de [ container van de Groep van de Logica ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Met de container [!UICONTROL Logic Group] kunt u een hit in een container nesten zonder volgorde om gebeurtenissen en afmetingen vast te leggen, maar buiten een opeenvolgende volgorde.
+De enige uitzondering op deze hiërarchie van containers is wanneer het gebruiken van de [&#x200B; container van de Groep van de Logica &#x200B;](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Met de container [!UICONTROL Logic Group] kunt u een hit in een container nesten zonder volgorde om gebeurtenissen en afmetingen vast te leggen, maar buiten een opeenvolgende volgorde.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -409,7 +409,7 @@ Het gebruiken van segment met een kleinere container dan het verdelingswerkingsg
 
 Filteren op afmetingen die aanwezig blijven op een paginabereik, zoals een campagne-eVar of een verwijzingsdimensie, heeft invloed op de gegevens die worden verzameld op containerniveau en moet worden begrepen voor de rapportnauwkeurigheid.
 
-Segmentgegevens kunnen variëren op basis van de persistentie van een dimensie of de toegepaste variabele op geselecteerde pagina&#39;s. Sommige afmetingen, zoals de pagina-afmetingen, bieden unieke waarden op paginaniveau en worden gefilterd op basis van gegevens uit de container Actief. (Zie de [ Rapporten die op de Gegevens van de Container ](/help/components/segmentation/seg-overview.md) voorbeeld worden gebaseerd). Andere dimensies, zoals de dimensie Refererend Domein, blijven over veelvoudige pagina&#39;s voor een bezoek bestaan. Bijvoorbeeld: `Referring Domain equals aol.com` . Bepaalde afmetingen of toegepaste variabelen, zoals Bezoekduur, beslaan de gehele geschiedenis van een bezoeker.
+Segmentgegevens kunnen variëren op basis van de persistentie van een dimensie of de toegepaste variabele op geselecteerde pagina&#39;s. Sommige afmetingen, zoals de pagina-afmetingen, bieden unieke waarden op paginaniveau en worden gefilterd op basis van gegevens uit de container Actief. (Zie de [&#x200B; Rapporten die op de Gegevens van de Container &#x200B;](/help/components/segmentation/seg-overview.md) voorbeeld worden gebaseerd). Andere dimensies, zoals de dimensie Refererend Domein, blijven over veelvoudige pagina&#39;s voor een bezoek bestaan. Bijvoorbeeld: `Referring Domain equals aol.com` . Bepaalde afmetingen of toegepaste variabelen, zoals Bezoekduur, beslaan de gehele geschiedenis van een bezoeker.
 
 <!--![](assets/RefDomain_aol.png)-->
 

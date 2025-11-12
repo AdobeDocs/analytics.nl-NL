@@ -28,20 +28,20 @@ Het scherm Gebruikers toont een lijst van huidige gebruikers van Adobe Analytics
 | [!UICONTROL Last Analytics access] | Tijdstempel voor de laatste toegang van de gebruikersaccount tot Adobe Analytics; |
 | [!UICONTROL Expiration] | Datum waarop de gebruikersaccount vervalt, of Geen als de gebruikersaccount niet vervalt. |
 
-![ Gebruikers ](assets/users.png)
+![&#x200B; Gebruikers &#x200B;](assets/users.png)
 
-- Om naar een specifieke gebruiker te zoeken, gebruik het ![ Onderzoek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *Onderzoek door titel* gebied.
-- Om de lijst op migratiestatus te filtreren, uitgezochte ![ Schaap ](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Migration status]**.
-- Om de lijst op erfenislogin status te filtreren, uitgezochte ![ Schaap ](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Legacy login]**.
-- Om de vertoning van kolommen te veranderen, selecteer ![ montages van de Kolom ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) en selecteer de kolommen van popup.
+- Om naar een specifieke gebruiker te zoeken, gebruik het ![&#x200B; Onderzoek &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *Onderzoek door titel* gebied.
+- Om de lijst op migratiestatus te filtreren, uitgezochte ![&#x200B; Schaap &#x200B;](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Migration status]**.
+- Om de lijst op erfenislogin status te filtreren, uitgezochte ![&#x200B; Schaap &#x200B;](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Legacy login]**.
+- Om de vertoning van kolommen te veranderen, selecteer ![&#x200B; montages van de Kolom &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) en selecteer de kolommen van popup.
 
 U kunt verschillende acties toepassen wanneer u een of meer gebruikers in de lijst selecteert:
 
 | Handeling | Beschrijving |
 |---|---|
-| ![ Migrate ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL Migrate]** | U kunt een of meer gebruikers migreren naar Enterprise-id&#39;s of Adobe-id&#39;s. |
-| ![ Vergrendelde Kalender ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL Set expiration]** | U kunt een vervaldatum instellen voor het gebruik van de oudere Adobe Analytics-aanmelding voor de geselecteerde gebruikers.  Selecteer de datum die u wilt gebruiken voor een kalenderpop-up om de datum op te geven. Selecteer **[!UICONTROL Done]** om de vervaldatum te bevestigen. |
-| ![ activa van de Overdracht ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL Transfer assets]** | Deze actie is alleen beschikbaar als u één gebruiker selecteert. Als de gebruiker elementen heeft die kunnen worden overgedragen, kunt u de accountitems selecteren (zoals bladwijzers, dashboards en meer). Selecteer **[!UICONTROL Transfer]** om de overdracht te voltooien.<br/>![ brengt activa over ](assets/transfer-assets.png) |
-| ![ schrapt rekeningen ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Delete accounts]** | Er wordt een dialoogvenster weergegeven waarin wordt bevestigd dat de geselecteerde accounts zijn verwijderd. Selecteer **[!UICONTROL OK]** om de accounts te verwijderen. Selecteer **[!UICONTROL Cancel]** om te annuleren. |
-| ![ Uitvoer aan CSV ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Export to CSV]** | Met deze actie downloadt u direct een bestand met een lijst met door komma&#39;s gescheiden waarden van de geselecteerde gebruikers met hun gegevens (naam, migratiestatus, e-mail, enzovoort). |
+| ![&#x200B; Migrate &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL Migrate]** | U kunt een of meer gebruikers migreren naar Enterprise-id&#39;s of Adobe-id&#39;s. |
+| ![&#x200B; Vergrendelde Kalender &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL Set expiration]** | U kunt een vervaldatum instellen voor het gebruik van de oudere Adobe Analytics-aanmelding voor de geselecteerde gebruikers.  Selecteer de datum die u wilt gebruiken voor een kalenderpop-up om de datum op te geven. Selecteer **[!UICONTROL Done]** om de vervaldatum te bevestigen. |
+| ![&#x200B; activa van de Overdracht &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL Transfer assets]** | Deze actie is alleen beschikbaar als u één gebruiker selecteert. Als de gebruiker elementen heeft die kunnen worden overgedragen, kunt u de accountitems selecteren (zoals bladwijzers, dashboards en meer). Selecteer **[!UICONTROL Transfer]** om de overdracht te voltooien.<br/>![&#x200B; brengt activa over &#x200B;](assets/transfer-assets.png) |
+| ![&#x200B; schrapt rekeningen &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Delete accounts]** | Er wordt een dialoogvenster weergegeven waarin wordt bevestigd dat de geselecteerde accounts zijn verwijderd. Selecteer **[!UICONTROL OK]** om de accounts te verwijderen. Selecteer **[!UICONTROL Cancel]** om te annuleren. |
+| ![&#x200B; Uitvoer aan CSV &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Export to CSV]** | Met deze actie downloadt u direct een bestand met een lijst met door komma&#39;s gescheiden waarden van de geselecteerde gebruikers met hun gegevens (naam, migratiestatus, e-mail, enzovoort). |
 

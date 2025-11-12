@@ -28,35 +28,35 @@ ht-degree: 0%
 >abstract="Vergelijkt de gegevens van dit segment met gegevens van de rapportreeks. Het voorproefpercentage is gebaseerd op het totale aantal van **laatste 90 dagen**.<br><br/> als de voorproef niet laadt, zou uw verbinding nog kunnen terugvullen."
 
 
-Het dialoogvenster **[!UICONTROL Segment builder]** wordt gebruikt om nieuwe segmenten te maken of bestaande segmenten te bewerken. Het dialoogvenster krijgt de naam **[!UICONTROL New segment]** of **[!UICONTROL Edit segment]** voor segmenten die u maakt of beheert met de [[!UICONTROL Segment] manager ](/help/components/segmentation/segmentation-workflow/seg-manage.md) .
+Het dialoogvenster **[!UICONTROL Segment builder]** wordt gebruikt om nieuwe segmenten te maken of bestaande segmenten te bewerken. Het dialoogvenster krijgt de naam **[!UICONTROL New segment]** of **[!UICONTROL Edit segment]** voor segmenten die u maakt of beheert met de [[!UICONTROL Segment] manager &#x200B;](/help/components/segmentation/segmentation-workflow/seg-manage.md) .
 
 >[!BEGINTABS]
 
 >[!TAB  de bouwer van het Segment ]
 
-![ de detailsvenster die van het Segment gebieden en opties tonen in de volgende sectie worden beschreven.](assets/new-segment.png)
+![&#x200B; de detailsvenster die van het Segment gebieden en opties tonen in de volgende sectie worden beschreven.](assets/new-segment.png)
 
->[!TAB  creeer of geef segment ] uit
+>[!TAB creeer of geef segment  uit]
 
-![ de detailsvenster die van het Segment gebieden en opties tonen in de volgende sectie worden beschreven.](assets/edit-segment.png)
+![&#x200B; de detailsvenster die van het Segment gebieden en opties tonen in de volgende sectie worden beschreven.](assets/edit-segment.png)
 
 >[!ENDTABS]
 
-1. Specificeer de volgende details (![ Vereiste ](/help/assets/icons/Required.svg) wordt vereist):
+1. Specificeer de volgende details (![&#x200B; Vereiste &#x200B;](/help/assets/icons/Required.svg) wordt vereist):
 
    | Element | Beschrijving |
    | --- | --- |
    | **[!UICONTROL Report suite]** | U kunt de rapportreeks voor het segment selecteren. |
-   | **[!UICONTROL Project-only segment]** | Een infovakje om uit te leggen dat het segment slechts zichtbaar in het project is waar het wordt gecreeerd. En dat het segment niet aan uw componentenlijst wordt toegevoegd. Schakel **[!UICONTROL Make this segment available to all your projects and add it to your component list]** in om die instelling te wijzigen. Dit infovakje is slechts zichtbaar wanneer u a [ snel segment ](seg-quick.md) creeert en de snelle segmentinfo een regelmatig segment draait gebruikend **[!UICONTROL Open builder]** van de [!UICONTROL Quick segment] interface. |
-   | **[!UICONTROL Title]** ![ Vereiste ](/help/assets/icons/Required.svg) | Geef het segment een naam, bijvoorbeeld `Last month mobile visitors` . |
+   | **[!UICONTROL Project-only segment]** | Een infovakje om uit te leggen dat het segment slechts zichtbaar in het project is waar het wordt gecreeerd. En dat het segment niet aan uw componentenlijst wordt toegevoegd. Schakel **[!UICONTROL Make this segment available to all your projects and add it to your component list]** in om die instelling te wijzigen. Dit infovakje is slechts zichtbaar wanneer u a [&#x200B; snel segment &#x200B;](seg-quick.md) creeert en de snelle segmentinfo een regelmatig segment draait gebruikend **[!UICONTROL Open builder]** van de [!UICONTROL Quick segment] interface. |
+   | **[!UICONTROL Title]** ![&#x200B; Vereiste &#x200B;](/help/assets/icons/Required.svg) | Geef het segment een naam, bijvoorbeeld `Last month mobile visitors` . |
    | **[!UICONTROL Description]** | Geef een beschrijving voor het segment op, bijvoorbeeld `Segment to define the mobile customers for the last month` . |
-   | **[!UICONTROL Tags]** | Organiseer het segment door een of meer tags te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
-   | **[!UICONTROL Definition]** ![ Vereiste ](/help/assets/icons/Required.svg) | Bepaal uw segment gebruikend de [ bouwer van de Definitie ](#definition-builder). |
+   | **[!UICONTROL Tags]** | Organiseer het segment door een of meer tags te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
+   | **[!UICONTROL Definition]** ![&#x200B; Vereiste &#x200B;](/help/assets/icons/Required.svg) | Bepaal uw segment gebruikend de [&#x200B; bouwer van de Definitie &#x200B;](#definition-builder). |
 
    {style="table-layout:auto"}
 
 1. Om te verifiëren of uw segmentdefinitie correct is, gebruik de constant bijgewerkte voorproef van de resultaten van het segment bij hoogste recht.
-1. Om uw segment aan Experience Cloud te publiceren, selecteer **[!UICONTROL Publish this segment to the  Experience Cloud (for *rapportreeks *)]**. Zie [ segmenten aan Experience Cloud ](/help/components/segmentation/segmentation-workflow/seg-publish.md) voor meer informatie publiceren.
+1. Om uw segment aan Experience Cloud te publiceren, selecteer **[!UICONTROL Publish this segment to the  Experience Cloud (for *rapportreeks *)]**. Zie [&#x200B; segmenten aan Experience Cloud &#x200B;](/help/components/segmentation/segmentation-workflow/seg-publish.md) voor meer informatie publiceren.
 1. Selecteren:
    * **[!UICONTROL Save]** om het segment op te slaan.
    * **[!UICONTROL Save As]** om een kopie van het segment op te slaan.
@@ -70,7 +70,7 @@ U gebruikt de Bouwer van de Definitie om uw segmentdefinitie te construeren. In 
 
 U kunt het type en het werkingsgebied van uw definitie vormen:
 
-1. Om het type van uw definitie te specificeren, specificeer of u de bouwstijl wilt omvatten of definitie uitsluiten. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** en van het drop-down menu **[!UICONTROL Include]** of **[!UICONTROL Exclude]**.
+1. Om het type van uw definitie te specificeren, specificeer of u de bouwstijl wilt omvatten of definitie uitsluiten. Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** en van het drop-down menu **[!UICONTROL Include]** of **[!UICONTROL Exclude]**.
 1. Als u het bereik van uw definitie wilt opgeven, selecteert u in het vervolgkeuzemenu **[!UICONTROL Include]** of **[!UICONTROL Exclude]** of het bereik van de definitie **[!UICONTROL Hits]** , **[!UICONTROL Visits]** of **[!UICONTROL Visitors]** moet zijn.
 
 U kunt deze instellingen altijd later wijzigen.
@@ -79,38 +79,38 @@ U kunt deze instellingen altijd later wijzigen.
 
 Een essentieel onderdeel van de constructie van uw segmentdefinitie is het gebruik van dimensies, metriek, bestaande segmenten en datumbereiken. Al deze componenten zijn beschikbaar bij het componentenpaneel in de Bouwer van het Segment.
 
-![ Begin bouwend een definitie ](assets/start-building-segment.gif){width=100%}
+![&#x200B; Begin bouwend een definitie &#x200B;](assets/start-building-segment.gif){width=100%}
 
 Een component toevoegen:
 
-1. Sleep een component van het deelvenster Componenten naar **[!UICONTROL Drag and drop Metric(s), Segment(s), and/or Dimensions here]** . U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke componenten te zoeken.
+1. Sleep een component van het deelvenster Componenten naar **[!UICONTROL Drag and drop Metric(s), Segment(s), and/or Dimensions here]** . U kunt het ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) in de componentenbar gebruiken om naar specifieke componenten te zoeken.
 1. Geef details voor de component op. Selecteer bijvoorbeeld een waarde in **[!UICONTROL Select value]** . Of voer een waarde in. Wat en hoe u een of meer waarden kunt opgeven, is afhankelijk van de component en de operator.
-1. Wijzig desgewenst de standaardoperator. Bijvoorbeeld van **[!UICONTROL equals]** tot **[!UICONTROL equals any of]** . Zie [ Exploitanten ](../seg-reference/seg-operators.md) voor een gedetailleerd overzicht van de beschikbare exploitanten.
+1. Wijzig desgewenst de standaardoperator. Bijvoorbeeld van **[!UICONTROL equals]** tot **[!UICONTROL equals any of]** . Zie [&#x200B; Exploitanten &#x200B;](../seg-reference/seg-operators.md) voor een gedetailleerd overzicht van de beschikbare exploitanten.
 
 Een component bewerken:
 
 * Selecteer een nieuwe operator voor de component in het vervolgkeuzemenu van de operator.
 * Selecteer indien van toepassing een andere waarde voor de operator of geef deze op.
-* Als het componenttype een dimensie is, kunt u het attributiemodel definiëren. Zie [ model van de Attributie ](#attribution) voor meer informatie.
+* Als het componenttype een dimensie is, kunt u het attributiemodel definiëren. Zie [&#x200B; model van de Attributie &#x200B;](#attribution) voor meer informatie.
 
 Een component verwijderen:
 
-* Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) in een component.
+* Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) in een component.
 
 ### Containers
 
 U kunt meerdere componenten groeperen in een of meer containers en logica definiëren binnen en tussen containers. Met containers kunt u complexe definities voor uw segment maken.
 
-![ voeg een container ](assets/add-container.gif){Width=100%} toe
+![&#x200B; voeg een container &#x200B;](assets/add-container.gif){Width=100%} toe
 
-* Om een container toe te voegen, selecteer **[!UICONTROL Add container]** van ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Options]**.
+* Om een container toe te voegen, selecteer **[!UICONTROL Add container]** van ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Options]**.
 * Als u een bestaande component aan de container wilt toevoegen, sleept u de component naar de container.
 * Als u een andere component aan de container wilt toevoegen, sleept u een component uit het deelvenster met componenten naar de container. Gebruik de blauwe invoeglijn als hulplijn.
 * Als u een andere component buiten de container wilt toevoegen, sleept u een component uit het deelvenster met componenten buiten de container, maar binnen de container met de hoofddefinitie. Gebruik de blauwe invoeglijn als hulplijn.
-* Als u de logica tussen componenten in een container, tussen containers of tussen een container en een component wilt wijzigen, selecteert u de desbetreffende **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** . Wanneer u **[!UICONTROL Then]** selecteert, verandert u het segment in een opeenvolgend segment. Zie [ opeenvolgend segment ](seg-sequential-build.md) voor meer informatie creëren.
-* Om het containerniveau te schakelen, selecteer ![ WebPage ](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![ Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]** of ![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Visitors]**.
+* Als u de logica tussen componenten in een container, tussen containers of tussen een container en een component wilt wijzigen, selecteert u de desbetreffende **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** . Wanneer u **[!UICONTROL Then]** selecteert, verandert u het segment in een opeenvolgend segment. Zie [&#x200B; opeenvolgend segment &#x200B;](seg-sequential-build.md) voor meer informatie creëren.
+* Om het containerniveau te schakelen, selecteer ![&#x200B; WebPage &#x200B;](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![&#x200B; Bezoek &#x200B;](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]** of ![&#x200B; Gebruiker &#x200B;](/help/assets/icons/User.svg) **[!UICONTROL Visitors]**.
 
-U kunt ![ Plaatsen ](/help/assets/icons/Setting.svg) in een container voor de volgende acties gebruiken:
+U kunt ![&#x200B; Plaatsen &#x200B;](/help/assets/icons/Setting.svg) in een container voor de volgende acties gebruiken:
 
 | Container, actie | Beschrijving |
 |---|---|
@@ -125,12 +125,12 @@ U kunt ![ Plaatsen ](/help/assets/icons/Setting.svg) in een container voor de vo
 
 U kunt segmenten samenstellen die roldatumbereiken bevatten. Op deze manier kunt u vragen beantwoorden over lopende campagnes of gebeurtenissen. Bijvoorbeeld, kunt u een segment bouwen dat *iedereen omvat die een online aankoop in de afgelopen 60 dagen* heeft gemaakt.
 
-![ Segment die het rollen datumwaaier gebruiken ](assets/segment-rolling-date-range.png)
+![&#x200B; Segment die het rollen datumwaaier gebruiken &#x200B;](assets/segment-rolling-date-range.png)
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Rolling datumwaaiers in segmenten ](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Rolling datumwaaiers in segmenten &#x200B;](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -141,11 +141,11 @@ U kunt segmenten samenstellen met behulp van segmenten. Wanneer u segmenten in e
 
 Stel u voor dat u wilt segmenteren op de combinatie van interactiekanaal (5) en Amerikaanse staten (50). U zou of 250 segmenten, elk voor de unieke combinatie apparatentype (mobiele telefoon tegenover tablet) en de staat van de V.S. kunnen bouwen. Om de tabletgebruikers in Californië te krijgen, zou u één van de 250 segmenten gebruiken:
 
-![ Eenvoudig segment voor Californië en tablet ](assets/segment-ca-tablet-single.png)
+![&#x200B; Eenvoudig segment voor Californië en tablet &#x200B;](assets/segment-ca-tablet-single.png)
 
 Of u kunt 55 segmenten definiëren: 50 segmenten voor de Amerikaanse staten en 5 voor de mogelijke interactiekanalen. Vervolgens stapelt u de segmenten om dezelfde resultaten te verkrijgen. Als u de gebruikers van de mobiele app uit Californië wilt ophalen, stapelt u twee segmenten:
 
-![ Gestapeld segment voor CA en tablet ](assets/segment-ca-tablet-stacked.png)
+![&#x200B; Gestapeld segment voor CA en tablet &#x200B;](assets/segment-ca-tablet-stacked.png)
 
 
 ## Attributie {#attribution}
@@ -172,7 +172,7 @@ Of u kunt 55 segmenten definiëren: 50 segmenten voor de Amerikaanse staten en 5
 
 Wanneer u een afmeting in de bouwer van het Segment gebruikt, hebt u de opties om het attributiemodel voor die afmeting te specificeren. Het toewijzingsmodel dat u selecteert, bepaalt of de gegevens in aanmerking komen voor de voorwaarde die u voor de dimensie-component hebt opgegeven.
 
-Selecteer ![ Vestiging ](/help/assets/icons/Setting.svg) binnen de afmetingscomponent en selecteer één van de modellen van de Attributie van popup:
+Selecteer ![&#x200B; Vestiging &#x200B;](/help/assets/icons/Setting.svg) binnen de afmetingscomponent en selecteer één van de modellen van de Attributie van popup:
 
 | Modellen | Beschrijving |
 |---|---|
@@ -181,7 +181,7 @@ Selecteer ![ Vestiging ](/help/assets/icons/Setting.svg) binnen de afmetingscomp
 | **[!UICONTROL Non-repeating instance]** | U kunt unieke instantie-waarden (niet-herhalende waarden) voor de dimensie opnemen om de kwalificatie te bepalen. |
 
 
-![ model van de Attributie op afmeting wanneer het bouwen van een segment ](assets/segment-dimension-attribution.png)
+![&#x200B; model van de Attributie op afmeting wanneer het bouwen van een segment &#x200B;](assets/segment-dimension-attribution.png)
 
 ### Voorbeeld
 
@@ -192,18 +192,18 @@ Als onderdeel van een segmentdefinitie hebt u de volgende voorwaarde opgegeven: 
 * Vrouwenpagina - Attributie - Niet-herhalende instantie
 
 
-De lijst verklaart hieronder, voor elk attributiemodel, die de inkomende gebeurtenissen ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) voor die voorwaarde gekwalificeerd zijn.
+De lijst verklaart hieronder, voor elk attributiemodel, die de inkomende gebeurtenissen ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) voor die voorwaarde gekwalificeerd zijn.
 
 
 | De Pagina van vrouwen - Attributie - <br/>*attributiemodel* | Gebeurtenis 1:<br/> de Naam van de Pagina evenaart <br/> Vrouwen | Gebeurtenis 2:<br/> de Naam van de Pagina evenaart <br/> Mannen | Gebeurtenis 3:<br/> de Naam van de Pagina evenaart <br/> Vrouwen | Gebeurtenis 4:<br/> de Naam van de Pagina evenaart <br/> Vrouwen <br/> (voortgeduurd) | Gebeurtenis 5:<br/> de Naam van de Pagina evenaart <br/> Controle | Gebeurtenis 6:<br/> de Naam van de Pagina evenaart <br/> Vrouwen | Gebeurtenis 7:<br/> de Naam van de Pagina evenaart <br/> Huis |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| Herhaald (standaard) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
-| Instantie | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
-| Niet-herhalende instantie | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ verwijder ](/help/assets/icons/Remove.svg) |
+| Herhaald (standaard) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) |
+| Instantie | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) |
+| Niet-herhalende instantie | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; verwijder &#x200B;](/help/assets/icons/Remove.svg) |
 
 Een voorbeeldrapport over gebeurtenissen die de drie segmenten gebruiken ziet er als volgt uit:
 
-![ de resultaten van het de attributiemodel van het Segment ](assets/segment-dimension-attribution-results.png)
+![&#x200B; de resultaten van het de attributiemodel van het Segment &#x200B;](assets/segment-dimension-attribution-results.png)
 
 
 
@@ -364,7 +364,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 Segmentsjablonen worden aangeboden voor algemene segmentatiegebruikstoepassingen, zoals **[!UICONTROL First-time Visits]** of **[!UICONTROL Visits from Mobile Devices]** . Zij zijn beschikbaar in de projecten van Workspace en in de segmentbouwer als bouwstenen voor nieuwe segmenten.
 
-Een embleem van Adobe ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg) identificeert malplaatjes. Hieronder ziet u een voorbeeld van de beschikbare sjablonen:
+Een embleem van Adobe ![&#x200B; AdobeLogoSmall &#x200B;](/help/assets/icons/AdobeLogoSmall.svg) identificeert malplaatjes. Hieronder ziet u een voorbeeld van de beschikbare sjablonen:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -449,6 +449,6 @@ Een embleem van Adobe ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg)
  </tbody> 
 </table>
 
-Om de definitie van elk segment te bekijken, gebruik ![ InfoOutline ](/help/assets/icons/InfoOutline.svg). Voor de sjabloon **[!UICONTROL iOS]** bijvoorbeeld:
+Om de definitie van elk segment te bekijken, gebruik ![&#x200B; InfoOutline &#x200B;](/help/assets/icons/InfoOutline.svg). Voor de sjabloon **[!UICONTROL iOS]** bijvoorbeeld:
 
-![ Definitie voor het malplaatjesegment van Adobe ](assets/adobe-template-definition.png)
+![&#x200B; Definitie voor het malplaatjesegment van Adobe &#x200B;](assets/adobe-template-definition.png)
