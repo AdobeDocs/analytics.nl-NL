@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Afmetingen van mobiele levenscyclus
 
-*Deze gegevens van de paginaverwijzing die algemeen door Adobe Experience Platform Mobile SDK worden gevolgd. Voor mobiele apparateninformatie die gebruikersagent gebruiken, zie [ Mobiele raadplegingsdimensies ](mobile-dimensions.md). Voor metriek die gebruikend Mobiele SDK wordt gevolgd, zie [ Mobiele levenscyclusmetriek ](../metrics/lifecycle-metrics.md).*
+*Deze gegevens van de paginaverwijzing die algemeen door Adobe Experience Platform Mobile SDK worden gevolgd. Voor mobiele apparateninformatie die gebruikersagent gebruiken, zie [&#x200B; Mobiele raadplegingsdimensies &#x200B;](mobile-dimensions.md). Voor metriek die gebruikend Mobiele SDK wordt gevolgd, zie [&#x200B; Mobiele levenscyclusmetriek &#x200B;](../metrics/lifecycle-metrics.md).*
 
 | Naam levenscyclusdimensie | Beschrijving | Variabele van contextgegevens |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ ht-degree: 1%
 | [!UICONTROL Acquisition Content] | | `a.refferer.campaign.content` |
 | [!UICONTROL Acquisition Name] | | `a.referrer.campaign.name` |
 | [!UICONTROL Location (down to 10 km)] | De breedte en lengte van de bezoeker, tot op het eerste decimaalteken nauwkeurig. Bijvoorbeeld `040.9` `-111.9` . | `a.loc.lat.a` + `a.loc.lon.a` |
-| [!UICONTROL Location (down to 100 m)] | De breedte en lengte van de bezoeker, nauwkeurig tot op de derde decimaal. Bijvoorbeeld `040.932` `-111.931` . | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lon.a``a.loc.lon.b` |
+| [!UICONTROL Location (down to 100 m)] | De breedte en lengte van de bezoeker, nauwkeurig tot op de derde decimaal. Bijvoorbeeld `040.932` `-111.931` . | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lon.a` `a.loc.lon.b` |
 | [!UICONTROL Location (down to 1 m)] | De breedte en lengte van de bezoeker, tot op de vijfde decimaal nauwkeurig. Bijvoorbeeld `040.93231` `-111.93152` . | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lat.c` + `a.loc.lon.a` + `a.loc.lon.b` + `a.loc.lon.c` |
 | [!UICONTROL Point of Interest Name] | | `a.loc.poi` |
 | [!UICONTROL Distance to Point of Interest Center] | | `a.loc.dist` |

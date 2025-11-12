@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Kwaliteitsdimensies voor streaming mediaservices
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat. Zie [ Streaming media de kwaliteitsmetriek van de diensten ](../metrics/sm-quality.md) voor beschikbare metriek.*
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Quality] voor een rapportreeks toelaat. Zie [&#x200B; Streaming media de kwaliteitsmetriek van de diensten &#x200B;](../metrics/sm-quality.md) voor beschikbare metriek.*
 
 De kwaliteitsdimensies van streaming mediaservices bieden rapportage over de kwaliteit van de inhoud die de bezoeker verbruikt. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Add-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Media Quality]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
+Wanneer u **[!UICONTROL Media Quality]** onder [&#x200B; Media die &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
 | Naam van afmetingen | Beschrijving | Verzonden met | Variabele van contextgegevens | XDM-veld |
 | --- | --- | --- | --- | --- |

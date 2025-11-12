@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Metagegevens van videoservices streamen
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Video Metadata] voor een rapportreeks toelaat. Zie [ Streaming media diensten videometriek van metriek ](../metrics/sm-video-metadata.md) voor beschikbare metriek.*
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Video Metadata] voor een rapportreeks toelaat. Zie [&#x200B; Streaming media diensten videometriek van metriek &#x200B;](../metrics/sm-video-metadata.md) voor beschikbare metriek.*
 
 Streaming media services en dimensies bieden aanvullende rapportagefunctionaliteit voor gegevensverzameling via bibliotheken voor het verzamelen van streaming mediaservices. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Add-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Video Metadata]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
+Wanneer u **[!UICONTROL Video Metadata]** onder [&#x200B; Media die &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
 | Dimension-naam | Beschrijving | Verzonden met | Variabele van contextgegevens | XDM-veld |
 | --- | --- | --- | --- | --- |

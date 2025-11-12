@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Streaming mediaservices en dimensies
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Ads] voor een rapportreeks toelaat. Zie [ Streaming Media en metriek ](../metrics/sm-ads.md) voor beschikbare metriek.*
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Ads] voor een rapportreeks toelaat. Zie [&#x200B; Streaming Media en metriek &#x200B;](../metrics/sm-ads.md) voor beschikbare metriek.*
 
 Streaming-mediaservices en -dimensies bieden extra rapportagefunctionaliteit voor gegevensverzameling via Streaming-mediaservices-bibliotheken. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Add-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Media Ads]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
+Wanneer u **[!UICONTROL Media Ads]** onder [&#x200B; Media die &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
 | Dimension-naam | Beschrijving | Verzonden met | Variabele van contextgegevens | XDM-veld |
 | --- | --- | --- | --- | --- |

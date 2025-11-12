@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Streaming-mediaservices en -dimensies bieden extra rapportagefunctionaliteit voor gegevensverzameling via Streaming-mediaservices-bibliotheken. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Add-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Audio Metadata]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
+Wanneer u **[!UICONTROL Audio Metadata]** onder [&#x200B; Media die &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
 | Dimension-naam | Beschrijving | Verzonden met | Variabele van contextgegevens | XDM-veld |
 | --- | --- | --- | --- | --- |
