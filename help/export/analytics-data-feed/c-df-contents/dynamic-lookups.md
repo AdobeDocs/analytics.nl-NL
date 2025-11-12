@@ -47,14 +47,14 @@ Als uw gegevensfeed voldoet aan de vereisten voor het opnemen en uitsluiten van 
 Kolomkoppen voor deze opgezochte bestanden veranderen niet in de loop der tijd, zodat de kopteksten niet in elk gegevensbestand van de gegevensinvoer worden opgenomen. Gebruik deze kolomkoppen als referentie of download het respectievelijke `.tsv` -bestand.
 
 +++**naam van de Drager**
-Download [ drager_headers.tsv ](assets/carrier_headers.tsv) of verwijs de hieronder kopballen.
+Download [&#x200B; drager_headers.tsv &#x200B;](assets/carrier_headers.tsv) of verwijs de hieronder kopballen.
 
 `carrier`
 `Carrier Name`
 +++
 
 +++**Mobiele attributen**
-Download [ mobile_attributes_headers.tsv ](assets/mobile_attributes_headers.tsv) of verwijs de hieronder kopballen.
+Download [&#x200B; mobile_attributes_headers.tsv &#x200B;](assets/mobile_attributes_headers.tsv) of verwijs de hieronder kopballen.
 
 `mobile_id`
 `Manufacturer`
@@ -109,7 +109,7 @@ Download [ mobile_attributes_headers.tsv ](assets/mobile_attributes_headers.tsv)
 +++
 
 +++**Werkend systeemtype**
-Download [ operating_system_type_headers.tsv ](assets/operating_system_type_headers.tsv) of verwijs de hieronder kopballen.
+Download [&#x200B; operating_system_type_headers.tsv &#x200B;](assets/operating_system_type_headers.tsv) of verwijs de hieronder kopballen.
 
 `os`
 `Operating System Type`
