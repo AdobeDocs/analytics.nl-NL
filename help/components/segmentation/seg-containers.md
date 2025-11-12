@@ -47,7 +47,7 @@ Met elke container kunt u de geschiedenis van een bezoeker doorlopen, interactie
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de containers van het Segment &#x200B;](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de containers van het Segment &#x200B;](https://video.tv.adobe.com/v/3429104?captions=dut&quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
