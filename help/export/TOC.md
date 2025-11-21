@@ -15,7 +15,7 @@ ht-degree: 11%
 # Adobe Analytics Export Guide {#export}
 
 + [Handleiding voor exporteren van analysemogelijkheden](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Analytics-datafeed {#analytics-data-feed}
    + [Overzicht van gegevensinvoer](analytics-data-feed/data-feed-overview.md)
    + [Een gegevensfeed maken](analytics-data-feed/create-feed.md)
@@ -73,4 +73,4 @@ ht-degree: 11%
       + [Adobe-gegevens naar een externe FTP-account met SFTP verzenden](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Data Warehouse-aanvragen naar SFTP-servers verzenden](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Verbinding maken met Adobe via SFTP zonder wachtwoord](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [&#x200B; Adobe Analytics API &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/)
++ [ Adobe Analytics API ](https://developer.adobe.com/analytics-apis/docs/2.0/)
