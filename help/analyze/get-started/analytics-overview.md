@@ -57,4 +57,4 @@ Hier volgen enkele voordelen van Customer Journey Analytics ten opzichte van Ado
 
 * **dwars-rapport-reeks gegevens**: De bestaande implementaties van veelvoudige datasets kunnen in Platform worden gecombineerd.
 
-Voor meer informatie, zie [&#x200B; overzicht van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html).
+Voor meer informatie, zie [&#x200B; overzicht van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL).

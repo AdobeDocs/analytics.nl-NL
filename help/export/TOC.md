@@ -15,7 +15,7 @@ ht-degree: 11%
 # Adobe Analytics Export Guide {#export}
 
 + [Handleiding voor exporteren van analysemogelijkheden](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
++ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
 + Analytics-datafeed {#analytics-data-feed}
    + [Overzicht van gegevensinvoer](analytics-data-feed/data-feed-overview.md)
    + [Een gegevensfeed maken](analytics-data-feed/create-feed.md)
