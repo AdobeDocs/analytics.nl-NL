@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: c21fb7162a99bc09456e15ff0f1a7a0d2f386098
+source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Handleiding voor analytische componenten](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -270,7 +270,7 @@ ht-degree: 7%
          + [Instellingen](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
          + [Regels](classifications/sets/manage/rules.md)
-         + [Nieuwe regels](classifications/set/manage/../../sets/manage/rules-new.md)
+         + [Nieuwe regels](classifications/sets/manage/rules-new.md)
       + [Classificatiebanen](classifications/sets/job-manager.md)
       + Consolidatie van classificaties {#consolidations}
          + [Beheren](classifications/sets/consolidations/manage.md)
