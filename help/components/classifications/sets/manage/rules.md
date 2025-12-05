@@ -3,7 +3,7 @@ title: Classificatiereeksen
 description: Begrijp hoe te om regels voor een classificatieset te bekijken en uit te geven.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 70865a487e4442db0eececd33e3d84afc18dc878
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
@@ -15,8 +15,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Classificatiesets ondersteunen nog geen regels. De functionaliteit van regels zal aan de interface van classificatiesets worden toegevoegd alvorens de functionaliteit van de bouwer van de erfenisregel niet beschikbaar wordt.
->&#x200B;>Als u regels voor classificaties vereist, blijf de [&#x200B; bouwer van de classificatieregel van Classificaties &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) gebruiken.
-
+>Als u regels voor classificaties vereist, blijf de [ bouwer van de classificatieregel van Classificaties ](/help/components/classifications/crb/classification-rule-builder.md) gebruiken.
 
 <!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
