@@ -4,9 +4,9 @@ description: Leer hoe u classificatiesets gebruikt om regels voor classificatieg
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
+source-git-commit: badd606b708778f7f839756c6de7b6118d366a67
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 U gebruikt regels om automatische classificaties te steunen in scenario&#39;s waar uw belangrijkste dimensie constant verandert. Het bijwerken van classificaties door middel van uploaden of automatiseren wordt een omslachtig proces of vertraagt de juiste classificatie voor nieuwe dimensie-waarden. Bijvoorbeeld interne campagnes, volgcodes of product-SKU&#39;s. De dimensie moet waarden bevatten waarmee u een of meer regels kunt toepassen, zodat u classificatiegegevens kunt afleiden van de waarden.
 
-U bepaalt regels binnen de context van een classificatieset, wat impliceert dat de regels (wanneer geactiveerd) op alle rapportreeks en zeer belangrijke afmetingscombinaties worden toegepast die aan de classificatiereeks worden geabonneerd. Deze implementatie wijkt enigszins af van de manier waarop de bouwer van de oude classificatieregel werkt. In de classificatieregel definieert u een of meer regels als onderdeel van een afzonderlijk ingestelde regel en koppelt u de regel die is ingesteld aan een of meer rapportsuites. In de nieuwe interface, worden de regels binnen de classificatieset ook bedoeld als regelreeks maar binnen de zelfde interface bepaald waar u andere eigenschappen van classificatiesets vormt.
+U definieert regels binnen de context van een classificatieset. Deze context impliceert dat de regels worden toegepast (wanneer geactiveerd) op alle rapportreeks en zeer belangrijke afmetingscombinaties die aan de classificatiereeks worden geabonneerd. Deze implementatie wijkt enigszins af van de manier waarop de bouwer van de oude classificatieregel werkt. In de de regelbouwer van de Classificatie, bepaal één of meerdere regels als deel van een afzonderlijk vastgestelde regel en associeer dan de regel die met één of meerdere rapportreeksen wordt geplaatst. In de nieuwe interface, worden de regels binnen de classificatiereeks ook bedoeld als regelreeks. Nochtans, worden de regelreeksen bepaald binnen de zelfde interface waar u andere eigenschappen van classificatiesets vormt.
 
 
 Een regelset definiëren voor een classificatieset:
@@ -26,18 +26,18 @@ Een regelset definiëren voor een classificatieset:
 1. Selecteer in **[!UICONTROL Classifications Sets]** Manager de classificatieset waarvoor u de regels wilt definiëren.
 1. In de **[!UICONTROL Classification Set: _dialoog van de classificatiereeks naam_]**, selecteer het **[!UICONTROL Rules]** lusje.
 
-   * Als u de interface van **[!UICONTROL Rules]** voor het eerst voor een classificatiereeks toegang hebt, of u tot nu toe hebt besloten om de interface van de bouwer van erfenisregels te blijven gebruiken, wordt u voorgesteld van een dialoog die u toestaat om te selecteren hoe te beginnen. De opties zijn:
+   * Als u de interface van **[!UICONTROL Rules]** voor het eerst voor een classificatiereeks toegang hebt, of tot dusverre hebt besloten om de interface van de bouwer van erfenisregels te blijven gebruiken, wordt u voorgesteld van een dialoog die u toestaat om te selecteren hoe te beginnen. De opties zijn:
 
-      * **migreer bestaande regels**. Importeer uw huidige classificatieregels en blijf met deze regels werken in de nieuwe interface. De bestaande regels blijven behouden en worden omgezet in de nieuwe indeling.
+      * **migreer bestaande regels**. Importeer uw huidige classificatieregels en blijf met deze regels werken in de nieuwe interface. Uw bestaande regels blijven behouden en worden geconverteerd naar de nieuwe indeling.
          * Selecteer **[!UICONTROL Migrate rules]** om door te gaan.
          * Lees in het dialoogvenster **[!UICONTROL Confirm migration]** de implicaties van de migratie.
-            * Selecteer **[!UICONTROL Migrate rules]** om de migratie te bevestigen. Nadat de migratie wordt voltooid, gebruik de [&#x200B; Vastgestelde interface van de Regel &#x200B;](#rule-set-interface) om nieuwe regels tot stand te brengen en uw bestaande gemigreerde regels uit te geven.
+            * Selecteer **[!UICONTROL Migrate rules]** om de migratie te bevestigen. Nadat de migratie wordt voltooid, gebruik de [ Vastgestelde interface van de Regel ](#rule-set-interface) om nieuwe regels tot stand te brengen en uw bestaande gemigreerde regels uit te geven.
             * Selecteer **[!UICONTROL Cancel]** om de migratie te annuleren
 
       * **Begin vers**. Creeer nieuwe classificatieregels van kras gebruikend de nieuwe regelbouwer. Selecteer deze optie als u de classificatielogica opnieuw wilt ontwerpen of vers wilt beginnen met nieuwe classificatieregels.
          * Selecteer **[!UICONTROL Create new rules]** om door te gaan.
          * Lees in het dialoogvenster **[!UICONTROL Confirm start fresh]** de implicaties van een nieuwe start.
-            * Selecteer **[!UICONTROL Start fresh]** om een nieuw begin te bevestigen en om het even welke bestaande regels te verwerpen. Gebruik de [&#x200B; Vastgestelde interface van de Regel &#x200B;](#rule-set-interface) om nieuwe regels tot stand te brengen.
+            * Selecteer **[!UICONTROL Start fresh]** om een nieuwe start te bevestigen en bestaande regels te negeren. Gebruik de [ Vastgestelde interface van de Regel ](#rule-set-interface) om nieuwe regels tot stand te brengen.
             * Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
 
@@ -48,34 +48,40 @@ Een regelset definiëren voor een classificatieset:
 
 
 
-## Interface voor regelsets
+## Interface voor regelsets {#rule-set-interface}
 
-Wanneer u regels maakt of bewerkt, gebruikt u de regelsetinterface.
+>[!CONTEXTUALHELP]
+>id="classificationsets_rules_samplekeys"
+>title="Voorbeeldtoetsen"
+>abstract="Typ of plak testtoetsen om de linialen te testen. Elke regel is een aparte sleutelwaarde. Selecteer **[!UICONTROL Test Ruleset]** om een dialoogvenster met de resultaten weer te geven."
 
-![&#x200B; de vastgestelde interface van de Regel &#x200B;](assets/rulesets-ui.png)
+
+Om regels tot stand te brengen of uit te geven, gebruik de Vastgestelde interface van de Regel.
+
+![ de vastgestelde interface van de Regel ](assets/rulesets-ui.png)
 
 | | Naam | Beschrijving |
 |---|---|---|
 | 1 | **[!UICONTROL Functions]** | U gebruikt het **[!UICONTROL Functions]** gebied om uw functies te selecteren en te slepen en neer te zetten aan de bouwer van de regelreeks. |
-| 2 | **de vastgestelde bouwer van de Regel** | U bouwt uw regelreeks gebruikend één of meerdere regels. Een regel is de implementatie van een functie en wordt altijd gekoppeld aan slechts één functie. Een functie kan meerdere operatoren hebben. U maakt een regel door een functie naar de constructor voor regelsets te slepen. Het type function definieert de interface van de regel. <br/> zie de [&#x200B; interface van de Regel &#x200B;](#rule-interface) voor meer informatie.<br/> u kunt functies op om het even welke plaats opnemen, en de functies worden uitgevoerd in opeenvolging om de definitieve waarden voor de classificaties te bepalen.<br/> Gebruik **[!UICONTROL Collapse all]** om alle regels samen te vouwen en gebruik **[!UICONTROL Expand all]** om alle regels uit te vouwen. |
+| 2 | **de vastgestelde bouwer van de Regel** | U bouwt uw regelreeks gebruikend één of meerdere regels. Een regel is de implementatie van een functie en wordt altijd gekoppeld aan slechts één functie. Een functie kan meerdere operatoren hebben. U maakt een regel door een functie naar de constructor voor regelsets te slepen. Het type function definieert de interface van de regel. <br/> zie de [ interface van de Regel ](#rule-interface) voor meer informatie.<br/> u kunt functies op om het even welke plaats opnemen, en de functies worden uitgevoerd in opeenvolging om de definitieve waarden voor de classificaties te bepalen.<br/> Gebruik **[!UICONTROL Collapse all]** om alle regels samen te vouwen en gebruik **[!UICONTROL Expand all]** om alle regels uit te vouwen. |
 | 3 | **[!UICONTROL Status]** | De status en de datum van laatste wijziging van de regelset weergeven. <br/> Uitgezocht **[!UICONTROL Activate]** om de regelreeks te activeren. <br/> Uitgezocht **[!UICONTROL Deactivate]** om de regelreeks te deactiveren. |
 | 4 | **[!UICONTROL Lookback]** | Geef het terugzoekvenster voor de regelset op.<br/> selecteer een optie (van 1 maand tot 6 maanden) van het drop-down menu.<br/> Uitgezocht **[!UICONTROL Perform lookback]** om een raadpleging uit te voeren gebruikend de geselecteerde raadplegingsperiode. |
-| 5 | **[!UICONTROL Test options]** | Gebruik waarden voor de monstersleutel om de classificaties te testen: <ul><li>Voeg waarden toe of plak waarden in het tekstgebied **[!UICONTROL Sample keys]** .<br/> Controle **[!UICONTROL Remember sample keys]** om steekproefsleutels te verzekeren blijft over verschillend gebruik van de regelvastgestelde interface.</li><li>Selecteer **[!UICONTROL Test rule set]** om uw regelset te testen.</li></ul> |
+| 5 | **[!UICONTROL Test options]** | Gebruik waarden voor de monstersleutel om de classificaties te testen: <ul><li>Voeg waarden toe of plak waarden in het tekstgebied **[!UICONTROL Sample keys]** .<br/> Controle **[!UICONTROL Remember sample keys]** om ervoor te zorgen dat de steekproefsleutels over verschillend gebruik van de regelvastgestelde interface blijven.</li><li>Selecteer **[!UICONTROL Test rule set]** om uw regelset te testen.</li></ul> |
 
 
 ## Regelinterface
 
 U bepaalt elke individuele regel binnen de regel die in de interface van de Regel wordt geplaatst. De interface bestaat uit de volgende elementen:
 
-![&#x200B; interface van de Regel &#x200B;](assets/rule-ui.png)
+![ interface van de Regel ](assets/rule-ui.png)
 
 | | Beschrijving |
 |---|---|
 | 1 | De naam van de geselecteerde functie en de invoer die voor de functie is ingevoerd. |
-| 2 | De invoer voor de geselecteerde functie. De invoer is afhankelijk van de geselecteerde functie. Voor de functie Reguliere expressie is de invoer bijvoorbeeld een reguliere expressie en voor de functie Splitsen is de invoer een token. Voer de juiste invoer voor de specifieke functie in. `^(.+)\:(.+)\:(.+)$` bijvoorbeeld voor een reguliere expressie die drie classificaties in een interne campagnecode identificeert. |
-| 3 | Elke bewerking stelt een specifieke classificatie in op een waarde. <br/> selecteer een classificatie van **[!UICONTROL Set Classification]** drop-down menu en ga een waarde voor **[!UICONTROL to]** in. <br/> Gebruik ![&#x200B; CrossSize400 &#x200B;](/help/assets/icons/CrossSize400.svg) om een verrichting van de lijst te schrappen. |
-| 4 | Selecteer ![&#x200B; toevoegen &#x200B;](/help/assets/icons/Add.svg) **[!UICONTROL Add operation]** om een extra verrichting aan de functie toe te voegen. |
-| 5 | Selecteer ![&#x200B; ChevronDown &#x200B;](/help/assets/icons2/ChevronDown.svg) om de regel samen te vouwen. Selecteer ![&#x200B; ChevronLeft &#x200B;](/help/assets/icons/ChevronLeft.svg) om de regel uit te breiden.<br/> Uitgezochte ![&#x200B; CrossSize400 &#x200B;](/help/assets/icons/CrossSize400.svg) om de regel te schrappen. |
+| 2 | De invoer voor de geselecteerde functie. De invoer is afhankelijk van de geselecteerde functie. Voor de functie **[!UICONTROL Regular expression]** is de invoer bijvoorbeeld een reguliere expressie. Voor de functie **[!UICONTROL Split]** is de invoer een token. Voer de juiste invoer voor de specifieke functie in. `^(.+)\:(.+)\:(.+)$` bijvoorbeeld voor een reguliere expressie die drie classificaties in een interne campagnecode identificeert. |
+| 3 | Elke bewerking stelt een specifieke classificatie in op een waarde. <br/> selecteer een classificatie van **[!UICONTROL Set Classification]** drop-down menu en ga een waarde voor **[!UICONTROL to]** in. <br/> Gebruik ![ CrossSize400 ](/help/assets/icons/CrossSize400.svg) om een verrichting van de lijst te schrappen. |
+| 4 | Selecteer ![ toevoegen ](/help/assets/icons/Add.svg) **[!UICONTROL Add operation]** om een extra verrichting aan de functie toe te voegen. |
+| 5 | Selecteer ![ ChevronDown ](/help/assets/icons2/ChevronDown.svg) om de regel samen te vouwen. Selecteer ![ ChevronLeft ](/help/assets/icons/ChevronLeft.svg) om de regel uit te breiden.<br/> Uitgezochte ![ CrossSize400 ](/help/assets/icons/CrossSize400.svg) om de regel te schrappen. |
 
 ## Functieverwijzing
 
@@ -94,17 +100,17 @@ Voer een waarde in voor **[!UICONTROL Starts With]** . Bijvoorbeeld: `em` .
 
 #### Hoofdletters gebruiken
 
-U wilt een regel definiëren die automatisch `Email` als een waarde aan de **[!UICONTROL Channel]** -classificatie toewijst wanneer de waarde voor de belangrijkste dimensie van de interne campagne met `em` begint (bijvoorbeeld: `em:FY2025:Summer Sale`).
+U wilt een regel definiëren die `Email` toewijst als de waarde voor de **[!UICONTROL Channel]** -classificatie wanneer de waarde voor de belangrijke dimensie Interne campagne begint met `em` (bijvoorbeeld: `em:FY2025:Summer Sale`).
 
 >[!BEGINTABS]
 
 >[!TAB  Regel ]
 
-![&#x200B; regel - begint met &#x200B;](assets/rule-startswith.png)
+![ regel - begint met ](assets/rule-startswith.png)
 
 >[!TAB  de resultaten van de Test ]
 
-![&#x200B; Regel - begint met de Resultaten van de Test &#x200B;](assets/rule-startswith-test.png)
+![ Regel - begint met de Resultaten van de Test ](assets/rule-startswith-test.png)
 
 >[!ENDTABS]
 
@@ -114,7 +120,7 @@ U wilt een regel definiëren die automatisch `Email` als een waarde aan de **[!U
 
 ### Eindigt met...
 
-Stelt een classificatie in op basis van een specifieke waarde waarmee de belangrijkste dimensie eindigt.
+Stelt een classificatie in op basis van een specifieke waarde waarmee de sleuteldimensie eindigt.
 
 +++ Details 
 
@@ -124,17 +130,17 @@ Voer een waarde in voor **[!UICONTROL Ends With]** . Bijvoorbeeld: `2025` .
 
 #### Hoofdletters gebruiken
 
-U wilt een regel definiëren die automatisch `2025` als een waarde aan de **[!UICONTROL Year]** -classificatie toewijst wanneer de waarde voor de belangrijkste dimensie in de interne campagne `2025` bevat (bijvoorbeeld: `em:Summer Sale:FY2025`)..
+U wilt een regel definiëren die `2025` als de waarde aan de **[!UICONTROL Year]** -classificatie toewijst wanneer de waarde voor de belangrijkste dimensie in de interne campagne `2025` bevat (bijvoorbeeld: `em:Summer Sale:FY2025`).
 
 >[!BEGINTABS]
 
 >[!TAB  Regel ]
 
-![&#x200B; regel - beëindigt met &#x200B;](assets/rule-endswith.png)
+![ regel - beëindigt met ](assets/rule-endswith.png)
 
 >[!TAB  de resultaten van de Test ]
 
-![&#x200B; regel - eindigt met de Resultaten van de Test &#x200B;](assets/rule-endswith-test.png)
+![ regel - eindigt met de Resultaten van de Test ](assets/rule-endswith-test.png)
 
 >[!ENDTABS]
 
@@ -153,48 +159,48 @@ Voer een waarde in voor **[!UICONTROL Contains]** . Bijvoorbeeld: `Winter` .
 
 #### Hoofdletters gebruiken
 
-U wilt een regel definiëren die automatisch `Winter Sale` als een waarde aan de **[!UICONTROL Type]** -classificatie toewijst wanneer de waarde voor de belangrijkste dimensie in de interne campagne met `Winter` bevat (bijvoorbeeld: `fb:Winter:FY2024`).
+U wilt een regel definiëren om `Winter Sale` als een waarde toe te wijzen aan de **[!UICONTROL Type]** -classificatie wanneer de waarde voor de belangrijkste dimensie in de interne campagne met `Winter` bevat (bijvoorbeeld: `fb:Winter:FY2024`).
 
 
 >[!BEGINTABS]
 
 >[!TAB  Regel ]
 
-![&#x200B; Regel - bevat &#x200B;](assets/rule-contains.png)
+![ Regel - bevat ](assets/rule-contains.png)
 
 >[!TAB  de resultaten van de Test ]
 
-![&#x200B; Regel - bevat Resultaten &#x200B;](assets/rule-contains-test.png)
+![ Regel - bevat Resultaten ](assets/rule-contains-test.png)
 
 >[!ENDTABS]
 
 +++
 
 
-### Overeenkomst
+### Overeenkomsten
 
-Stelt een classificatie in op basis van een specifieke waarde die overeenkomt met de belangrijkste dimensie.
+Stelt een classificatie in op basis van een specifieke waarde die overeenkomt met de waarde van de belangrijkste dimensie.
 
 +++ Details 
 
 #### Vereiste invoer
 
-Voer een waarde in voor **[!UICONTROL Match]** . Bijvoorbeeld: `em:FY2025:Summer` .
+Voer een waarde in voor **[!UICONTROL Matches]** . Bijvoorbeeld: `em:Summer:2025` .
 
 #### Hoofdletters gebruiken
 
-U wilt een regel definiëren die `Email` automatisch als een waarde aan de **[!UICONTROL Channel]** classificatie `Summer Sale` toewijst als een waarde aan de **[!UICONTROL Type]** classificatie, en `2025` aan de **[!UICONTROL Year]** classificatie wanneer de waarde voor de belangrijkste dimensie Interne Campagne `em:FY2025:Summer` aanpast.
+U wilt een regel definiëren om `Email` als een waarde toe te wijzen aan de **[!UICONTROL Channel]** classificatie `Summer Sale` als een waarde aan de **[!UICONTROL Type]** classificatie en `2025` aan de **[!UICONTROL Year]** classificatie. Maar alleen wanneer de waarde voor de belangrijkste dimensie Interne campagne overeenkomt met `em:Summer:2025` .
 
 
 >[!BEGINTABS]
 
 >[!TAB  Regel ]
 
-![&#x200B; Regel - Gelijken &#x200B;](assets/rule-match.png)
+![ Regel - Gelijken ](assets/rule-matches.png)
 
 >[!TAB  de resultaten van de Test ]
 
-![&#x200B; Regel - Gelijken &#x200B;](assets/rule-match.png)
+![ Regel - Gelijken ](assets/rule-matches-test.png)
 
 >[!ENDTABS]
 
@@ -213,17 +219,42 @@ Voer een waarde in voor **[!UICONTROL Regular Expression]** . Bijvoorbeeld: `^(.
 
 #### Hoofdletters gebruiken
 
-U wilt een regel definiëren om automatisch waarden toe te wijzen aan de classificaties **[!UICONTROL Channel]** , **[!UICONTROL Type]** en **[!UICONTROL Year]** door de reguliere expressie `^(.+)\:(.+)\:FY(.+)$` toe te passen en match groups ( `$1` , `$2` en `$3` ) te gebruiken op de waarden voor de belangrijkste dimensie Interne campagne.
+U wilt een regel definiëren om waarden toe te wijzen aan de classificaties **[!UICONTROL Channel]** , **[!UICONTROL Type]** en **[!UICONTROL Year]** door de reguliere expressie `^(.+)\:(.+)\:FY(.+)$` toe te passen en match groups ( `$1` , `$2` en `$3` ) te gebruiken op de waarden voor de belangrijkste dimensie Interne campagne.
 
 >[!BEGINTABS]
 
 >[!TAB  Regel ]
 
-![&#x200B; Regel - Regelmatige uitdrukking &#x200B;](assets/rule-regex.png)
+![ Regel - Regelmatige uitdrukking ](assets/rule-regex.png)
 
 >[!TAB  de resultaten van de Test ]
 
-![&#x200B; Regel - de Regelmatige resultaten van de uitdrukkingstest &#x200B;](assets/rule-regex-test.png)
+![ Regel - de Regelmatige resultaten van de uitdrukkingstest ](assets/rule-regex-test.png)
+
+>[!ENDTABS]
+
+
+### Splitsen
+
+Splitst de waarde van de belangrijkste dimensie, die op een teken wordt gebaseerd, op één of meerdere classificaties.
+
+#### Vereiste invoer
+
+Voer een waarde in voor **[!UICONTROL Split]** . Bijvoorbeeld: `:` .
+
+#### Hoofdletters gebruiken
+
+U wilt een regel definiëren die de waarden voor de belangrijkste dimensie van de interne campagne splitst in de classificaties **[!UICONTROL Channel]** , **[!UICONTROL Type]** en **[!UICONTROL Year]** op basis van `:` **[!UICONTROL Token]** .
+
+>[!BEGINTABS]
+
+>[!TAB  Regel ]
+
+![ Regel - Gesplitst ](assets/rule-split.png)
+
+>[!TAB  de resultaten van de Test ]
+
+![ Regel - de resultaten van de Test van de Splitsing ](assets/rule-split-test.png)
 
 >[!ENDTABS]
 
@@ -232,14 +263,14 @@ U wilt een regel definiëren om automatisch waarden toe te wijzen aan de classif
 
 | Gewone uitdrukking | Beschrijving |
 |---|---|
-| `(?ms)` | Hiermee zorgt u dat de volledige reguliere expressie overeenkomt met een invoer van meerdere regels, zodat de eigenschap . jokerteken voor nieuwe-regeltekens |
-| `(?i)` | Maakt het gehele reguliere-expressiefase ongevoelig |
+| `(?ms)` | De volledige reguliere expressie afstemmen op een invoer met meerdere regels, zodat de joker `.` overeenkomt met alle nieuwe-regeltekens |
+| `(?i)` | De volledige reguliere expressie aanpassen zodat deze niet hoofdlettergevoelig is |
 | `[abc]` | Eén teken van: a, b of c |
 | `[^abc]` | Elk enkel teken behalve: a, b of c |
 | `[a-z]` | Eén teken in het bereik a-z |
 | `[a-zA-Z]` | Eén teken in het bereik a-z of A-Z |
 | `^` | Begin van regel (komt overeen met het begin van de regel) |
-| `$` | Komt overeen met het einde van de regel (of voor nieuwe regel aan het einde) |
+| `$` | Komt overeen met het einde van de regel (of vóór de nieuwe regel aan het einde) |
 | `\A` | Begin van tekenreeks |
 | `\z` | Einde van tekenreeks |
 | `.` | Willekeurig teken (behalve een nieuwe regel) |
@@ -264,16 +295,21 @@ U wilt een regel definiëren om automatisch waarden toe te wijzen aan de classif
 
 ## Prioriteit regel
 
-Als een waarde van de belangrijkste dimensie aan veelvoudige regels wordt aangepast, en de regelreeksen regels met de zelfde Vastgestelde verrichting van de Indeling bevat, bepaalt de laatste regel de waarde voor de classificatie. Dus, zou u de belangrijkste Vastgestelde verrichting van de Classificatie als deel van de laatste regel in uw regelreeks moeten rangschikken.
+De laatste regel bepaalt de waarde voor de classificatie als:
 
-Als u veelvoudige regels creeert die niet de zelfde Vastgestelde verrichting van de Indeling delen, is de verwerkingsorde niet van belang.
+* Een waarde van de belangrijkste dimensie wordt aangepast aan veelvoudige regels.
+* De regelset bevat regels met dezelfde **[!UICONTROL Set Classification]** -bewerking.
+
+U moet dus de belangrijkste bewerking **[!UICONTROL Set Classification]** plaatsen als onderdeel van de laatste regel in de regelset.
+
+Als u meerdere regels maakt die niet dezelfde **[!UICONTROL Set Classification]** -bewerking delen, is de verwerkingsvolgorde niet van belang.
 
 
 ### Voorbeeld
 
-U wilt met de classificatie **[!UICONTROL Type]** classificeren hoe gebruikers naar een atleet zoeken door de zoekreeks als sleuteldimensie te gebruiken. Als u bijvoorbeeld deze regelset gebruikt:
+U wilt met de classificatie **[!UICONTROL Type]** classificeren hoe de gebruikers naar een atleet zoeken gebruikend het onderzoekskoord als belangrijkste afmeting. Als u bijvoorbeeld deze regelset gebruikt:
 
-![&#x200B; Prioriteit van Regels &#x200B;](assets/rule-priority.png)
+![ Prioriteit van Regels ](assets/rule-priority.png)
 
 * Wanneer een gebruiker naar `Cowboys Fantasy Tony Romo` zoekt, wordt `Romo` geclassificeerd als **[!UICONTROL Type]** .
 * Wanneer een gebruiker naar `Cowboys Fantasy Tony Romeo` zoekt, wordt `Fantasy` geclassificeerd als **[!UICONTROL Type]**.
