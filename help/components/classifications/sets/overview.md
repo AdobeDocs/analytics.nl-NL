@@ -112,7 +112,7 @@ De backend architectuur die met classificatiesets wordt vrijgegeven bevat versch
 
 * Verminderde verwerkingstijd (van 72 uur tot 24 uur).
 * Een vernieuwde gebruikersinterface voor het beheer van classificaties.
-* De optie om classificatiegegevens in Adobe Experience Platform door de [&#x200B; bron van Adobe Analytics schakelaar voor classificatiegegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications) te gebruiken.
+* De optie om classificatiegegevens in Adobe Experience Platform door de [&#x200B; bron van Adobe Analytics schakelaar voor classificatiegegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/classifications) te gebruiken.
 
 De backend architectuur die met classificatiesets wordt vrijgegeven bevat ook verscheidene veranderingen:
 
