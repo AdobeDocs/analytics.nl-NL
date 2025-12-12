@@ -17,19 +17,19 @@ Adobe Analytics Activity Map is een functie in Adobe Analytics die een visuele w
 
 Activity Map bestaat uit verschillende belangrijke onderdelen:
 
-* **reeks die van het Rapport** plaatst: Een rapportreeks moet Activity Map hebben toegelaten alvorens u het kunt beginnen te gebruiken. Zie [ Activity Map die ](/help/admin/tools/manage-rs/edit-settings/activity-map.md) meldt in de reeksinstellingen van het Rapport.
+* **reeks die van het Rapport** plaatst: Een rapportreeks moet Activity Map hebben toegelaten alvorens u het kunt beginnen te gebruiken. Zie [&#x200B; Activity Map die &#x200B;](/help/admin/tools/manage-rs/edit-settings/activity-map.md) meldt in de reeksinstellingen van het Rapport.
 * **Implementatie**: De meeste rapportering van Activity Map is beschikbaar uit-van-de-doos. Sommige websites kunnen echter aanvullende implementatie nodig hebben om optimaal gebruik te kunnen maken van het bijhouden van koppelingen. De volgende implementatievariabelen zijn beschikbaar:
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): filter op gegevens klikken op naam van koppeling.
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): filter op gegevens klikken op gebiedsnaam.
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): wijzig het kenmerk dat de afmetingen van het Activity Map-gebied vult.
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): pas de logica aan die Activity Map gebruikt om de Activity Map Link-dimensie te vullen.
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): pas de logica aan die Activity Map gebruikt om de dimensie Activity Map Region te vullen.
-* **Bedekking**: Een browser uitbreiding die u toestaat om klikgegevens te zien over uw website. Zie [ de uitbreidingsinterface van Activity Map ](overlay/overview.md) voor meer informatie. Deze functie is niet beschikbaar voor SDK-implementaties op het web.
+* **Bedekking**: Een browser uitbreiding die u toestaat om klikgegevens te zien over uw website. Zie [&#x200B; de uitbreidingsinterface van Activity Map &#x200B;](overlay/overview.md) voor meer informatie. Deze functie is niet beschikbaar voor SDK-implementaties op het web.
 * **Dimensies**: Naast de bekledingsuitbreiding, verstrekt Activity Map verscheidene dimensies die u in Analysis Workspace kunt gebruiken.
-   * [ Verbinding van Activity Map ](/help/components/dimensions/activity-map-link.md): De verbindingsnaam die werd geklikt.
-   * [ Gebied van Activity Map ](/help/components/dimensions/activity-map-region.md): De gebiedsnaam die werd geklikt.
-   * [ de Pagina van Activity Map ](/help/components/dimensions/activity-map-page.md): De paginanaam in de tijd dat de verbinding werd geklikt.
-   * [ Verbinding van Activity Map door Gebied ](/help/components/dimensions/activity-map-link-by-region.md): Een samengevoegde waarde van de Verbinding van Activity Map en het Gebied van Activity Map.
+   * [&#x200B; Verbinding van Activity Map &#x200B;](/help/components/dimensions/activity-map-link.md): De verbindingsnaam die werd geklikt.
+   * [&#x200B; Gebied van Activity Map &#x200B;](/help/components/dimensions/activity-map-region.md): De gebiedsnaam die werd geklikt.
+   * [&#x200B; de Pagina van Activity Map &#x200B;](/help/components/dimensions/activity-map-page.md): De paginanaam in de tijd dat de verbinding werd geklikt.
+   * [&#x200B; Verbinding van Activity Map door Gebied &#x200B;](/help/components/dimensions/activity-map-link-by-region.md): Een samengevoegde waarde van de Verbinding van Activity Map en het Gebied van Activity Map.
 
 ## Functies en voordelen
 
