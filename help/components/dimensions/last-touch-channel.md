@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Laatste aanraakkanaal
 
-De &quot;Laatste afmeting van het aanrakingskanaal&quot;[ ](overview.md) meldt het meest recente marketing kanaal een bezoeker met tijdens de de betrokkenheidsperiode van die bezoeker (30 dagen door gebrek) aanpast. Deze dimensie is waardevol om te begrijpen welke marketing kanalen verkeer aan uw plaats drijven die in omzettingen resulteren, toestaand u om marketing inspanningen op gebieden te concentreren die het meest effectief zijn.
+De &quot;Laatste afmeting van het aanrakingskanaal&quot;[&#x200B; &#x200B;](overview.md) meldt het meest recente marketing kanaal een bezoeker met tijdens de de betrokkenheidsperiode van die bezoeker (30 dagen door gebrek) aanpast. Deze dimensie is waardevol om te begrijpen welke marketing kanalen verkeer aan uw plaats drijven die in omzettingen resulteren, toestaand u om marketing inspanningen op gebieden te concentreren die het meest effectief zijn.
 
 ## Deze dimensie vullen met gegevens
 
-Deze afmeting verwijst direct kanaalnamen die u in de [ manager van het Kanaal van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) hebt bepaald.
+Deze afmeting verwijst direct kanaalnamen die u in de [&#x200B; manager van het Kanaal van de Marketing &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) hebt bepaald.
 
 Elke hit die naar Adobe-servers voor gegevensverzameling wordt verzonden, wordt uitgevoerd via de verwerkingsregels voor marketingkanalen van uw rapportsuite. Het herhaalt door elke regel in numerieke orde tot het een gelijke vindt, waarin dat marketing kanaal aan de slag bindt. Het laatste aanraakkanaal blijft bij de bezoeker aanwezig totdat deze de site niet langer bezoekt dan de periode van de betrokkenheid van de bezoeker (standaard 30 dagen).
 
@@ -28,7 +28,7 @@ Als u deze dimensie op een specifieke waarde wilt plaatsen, zijn de volgende sta
 
 >[!TIP]
 >
->Het gebruiken van deze afmeting met metriek die [ deelnemingsattributie ](/help/analyze/analysis-workspace/attribution/models.md) gebruikt kan krediet aan `None` toeschrijven wanneer andere attributiemodellen niet. De metriek van de participatie vereist een marketing kanaal [ instantie ](../metrics/instances.md) binnen het rapporteringsvenster om krediet te ontvangen. Als het marketingkanaal oorspronkelijk buiten het rapportagevenster was ingesteld en alleen de geduurde waarde binnen het rapportagevenster aanwezig is, wordt het kenmerk &#39;participatiemetriek&#39; aan `None` toegekend. In andere attributiemodellen wordt credit toegewezen aan de persisted waarde. Als u in dit scenario geen toewijzing aan `None` wilt, kunt u overwegen een toewijzingsmodel zonder deelname te gebruiken.
+>Het gebruiken van deze afmeting met metriek die [&#x200B; deelnemingsattributie &#x200B;](/help/analyze/analysis-workspace/attribution/models.md) gebruikt kan krediet aan `None` toeschrijven wanneer andere attributiemodellen niet. De metriek van de participatie vereist een marketing kanaal [&#x200B; instantie &#x200B;](../metrics/instances.md) binnen het rapporteringsvenster om krediet te ontvangen. Als het marketingkanaal oorspronkelijk buiten het rapportagevenster was ingesteld en alleen de geduurde waarde binnen het rapportagevenster aanwezig is, wordt het kenmerk &#39;participatiemetriek&#39; aan `None` toegekend. In andere attributiemodellen wordt credit toegewezen aan de persisted waarde. Als u in dit scenario geen toewijzing aan `None` wilt, kunt u overwegen een toewijzingsmodel zonder deelname te gebruiken.
 
 ## Dimension-objecten
 
