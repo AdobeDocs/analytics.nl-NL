@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Edge Network-gebeurtenistypen in Adobe Analytics
 
-Adobe Analytics behandelt treffers verschillend afhankelijk van welke functies u in AppMeasurement roept. Bijvoorbeeld, [`s.t`](/help/implement/vars/functions/t-method.md) en [`s.tl`](/help/implement/vars/functions/tl-method.md) omvatten of weglaten bepaalde dimensies en verhogende [&#x200B; paginameningen &#x200B;](/help/components/metrics/page-views.md) verschillend. Adobe Experience Platform bevat alleen de opdracht [`sendEvent` &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/overview) . Specifieke eigenschappen binnen de [`xdm` &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/xdm) of [`data` &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/data) lading bepalen hoe die gegevens in Adobe Analytics worden geïnterpreteerd.
+Adobe Analytics behandelt treffers verschillend afhankelijk van welke functies u in AppMeasurement roept. Bijvoorbeeld, [`s.t`](/help/implement/vars/functions/t-method.md) en [`s.tl`](/help/implement/vars/functions/tl-method.md) omvatten of weglaten bepaalde dimensies en verhogende [&#x200B; paginameningen &#x200B;](/help/components/metrics/page-views.md) verschillend. Adobe Experience Platform bevat alleen de opdracht [`sendEvent` &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/js/commands/sendevent/overview) . Specifieke eigenschappen binnen de [`xdm` &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/js/commands/sendevent/xdm) of [`data` &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/js/commands/sendevent/data) lading bepalen hoe die gegevens in Adobe Analytics worden geïnterpreteerd.
 
 Edge Network gebruikt de volgende logica om Adobe Analytics [&#x200B; paginameningen &#x200B;](/help/components/metrics/page-views.md) en [&#x200B; verbindingsgebeurtenissen &#x200B;](/help/components/metrics/page-events.md) te bepalen:
 
@@ -29,7 +29,7 @@ Edge Network gebruikt de volgende logica om Adobe Analytics [&#x200B; paginameni
 
 >[!TIP]
 >
->XDM-veldnamen in de payload zijn hoofdlettergevoelig (bijvoorbeeld `webPageDetails.URL` ). Het veld `xdm.eventType` is een tekenreekswaarde met een eigen set geaccepteerde waarden en het omhulsel in deze waarden komt mogelijk niet overeen met XDM-veldnamen. Voor toegelaten waarden, zie het `eventType` gebied in de [&#x200B; klasse XDM ExperienceEvent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType).
+>XDM-veldnamen in de payload zijn hoofdlettergevoelig (bijvoorbeeld `webPageDetails.URL` ). Het veld `xdm.eventType` is een tekenreekswaarde met een eigen set geaccepteerde waarden en het omhulsel in deze waarden komt mogelijk niet overeen met XDM-veldnamen. Voor toegelaten waarden, zie het `eventType` gebied in de [&#x200B; klasse XDM ExperienceEvent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent#eventType).
 
 +++Minimale paginaweergave met `xdm` -velden
 
@@ -193,4 +193,4 @@ Naast het onderscheiden van paginaweergaven en koppelingsgebeurtenissen, bepaalt
 
 +++
 
-Zie de [&#x200B; Adobe Analytics ExperienceEvent Volledige groep van het het schemagebied van de Uitbreiding &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) voor meer informatie.
+Zie de [&#x200B; Adobe Analytics ExperienceEvent Volledige groep van het het schemagebied van de Uitbreiding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) voor meer informatie.
