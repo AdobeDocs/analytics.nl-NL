@@ -16,8 +16,8 @@ Classificatiesets ondersteunen meerdere bestandsindelingen voor het uploaden van
 
 Wanneer het bestand correct is opgemaakt volgens deze specificaties, kunt u de gegevens uploaden via de interface of API voor classificatiesets. Voor gedetailleerde uploadinstructies:
 
-* **Browser uploadt**: Zie [ uploaden ](manage/schema.md#upload) in de [ interface van het Schema ](manage/schema.md) voor een classificatiereeks.
-* **API uploadt**: Zie [ Classificaties API van Analytics ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
+* **Browser uploadt**: Zie [&#x200B; uploaden &#x200B;](manage/schema.md#upload) in de [&#x200B; interface van het Schema &#x200B;](manage/schema.md) voor een classificatiereeks.
+* **API uploadt**: Zie [&#x200B; Classificaties API van Analytics &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
 
 Classificatiesets ondersteunen de volgende bestandsindelingen:
 
