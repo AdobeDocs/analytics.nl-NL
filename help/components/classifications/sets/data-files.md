@@ -3,9 +3,9 @@ description: Begrijp de diverse dossierformaten die classificatiesets steunen
 title: Bestandsindelingen voor classificatieset
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ Classificatiesets ondersteunen meerdere bestandsindelingen voor het uploaden van
 
 Wanneer het bestand correct is opgemaakt volgens deze specificaties, kunt u de gegevens uploaden via de interface of API voor classificatiesets. Voor gedetailleerde uploadinstructies:
 
-* **Browser uploadt**: Zie [&#x200B; uploaden &#x200B;](manage/schema.md#upload) in de [&#x200B; interface van het Schema &#x200B;](manage/schema.md) voor een classificatiereeks.
-* **API uploadt**: Zie [&#x200B; Classificaties API van Analytics &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
+* **Browser uploadt**: Zie [ uploaden ](manage/schema.md#upload) in de [ interface van het Schema ](manage/schema.md) voor een classificatiereeks.
+* **API uploadt**: Zie [ Classificaties API van Analytics ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
 
 Classificatiesets ondersteunen de volgende bestandsindelingen:
 
 * **JSON**: De dossiers van de Nota van de Objecten van JavaScript met gestructureerde gegevens
 * **CSV**: komma-gescheiden waardedossiers
-* **TSV/TAB**: lusje-gescheiden waardedossiers
+* **TSV of TAB**: Lusje-gescheiden waardedossiers
 
 ## Algemene bestandsvereisten
 
@@ -39,7 +39,7 @@ De JSON-bestandsindeling volgt conventies voor JSON Lines (JSONL). Het bestand m
 
 >[!NOTE]
 >
->Gebruik, ondanks de volgende conventies voor JSON Lines, de bestandsextensie `.json` voor alle uploads. Het gebruik van de extensie `.jsonl` kan leiden tot fouten.
+>Gebruik, ondanks het volgen van de conventies voor JSON Lines, de bestandsextensie `.json` voor alle uploads. Het gebruik van de extensie `.jsonl` kan leiden tot fouten.
 
 ### JSON-structuur
 
@@ -48,7 +48,7 @@ Elk JSON-object moet het volgende bevatten:
 * `key` (vereist): De unieke id voor het classificatierecord
 * `data` (vereist voor updates): een object dat de namen en waarden van classificatiekolom bevat
 * `action` (optioneel): De handeling die moet worden uitgevoerd. Tot de ondersteunde waarden behoren:
-   * `update` (standaardwaarde)
+   * `update` (de standaardactie, wanneer geen actie is opgegeven)
    * `delete-field`
    * `delete-key`
 * `enc` (optioneel): specificatie voor gegevenscodering. Tot de ondersteunde waarden behoren:
@@ -57,32 +57,6 @@ Elk JSON-object moet het volgende bevatten:
 
 Alle JSON-veldnamen (`key`, `data`, `action`, `enc`) zijn hoofdlettergevoelig en moeten in kleine letters worden geschreven.
 
-### JSON-voorbeelden
-
-**Basis updaterecord:**
-
-```json
-{"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
-```
-
-**Update met gespecificeerde het coderen:**
-
-```json
-{"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
-```
-
-**Schrap specifieke gebieden:**
-
-```json
-{"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
-```
-
-**Schrap een volledige sleutel:**
-
-```json
-{"key": "product999", "action": "delete-key"}
-```
-
 ### JSON-validatieregels
 
 * Het veld `key` is vereist en mag niet null of leeg zijn.
@@ -90,6 +64,35 @@ Alle JSON-veldnamen (`key`, `data`, `action`, `enc`) zijn hoofdlettergevoelig en
 * Voor `delete-field` -handelingen moet het veld `data` de velden bevatten die moeten worden verwijderd.
 * Voor `delete-key` -handelingen mag het veld `data` niet aanwezig zijn.
 * Ondersteunde coderingswaarden zijn niet hoofdlettergevoelig en bevatten standaardnamen voor tekensets.
+
+### JSON-voorbeelden
+
+Enkele voorbeelden van JSON-records in een JSON-bestand.
+
+#### Basis update-record
+
+```json
+{"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
+```
+
+#### Bijwerken met opgegeven codering
+
+```json
+{"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
+```
+
+#### Specifieke velden verwijderen
+
+```json
+{"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
+```
+
+#### Een volledige toets verwijderen
+
+```json
+{"key": "product999", "action": "delete-key"}
+```
+
 
 +++
 
@@ -104,32 +107,6 @@ CSV-bestanden (met door komma&#39;s gescheiden waarden) gebruiken komma&#39;s om
 * **Scheidingstekens**: De gebieden worden gescheiden door komma&#39;s
 * **het Citeren**: De gebieden die komma&#39;s, citaten, of newlines bevatten zouden in dubbele citaten moeten worden ingesloten
 
-### CSV-voorbeelden
-
-**Basisclassificatiegegevens:**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product123,"Basketball Shoes",Brand A,Sports,89.99
-product456,"Running Shoes",Brand B,Sports,79.99
-product789,"Winter Jacket",Brand C,Clothing,149.99
-```
-
-**Schrap een volledige sleutel:**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product999,~deletekey~,,,
-```
-
-**Schrap specifieke gebieden (gemengd met updates):**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product123,"Updated Product Name",Brand A,Sports,89.99
-product456,,~empty~,~empty~,79.99
-```
-
 ### CSV-opmaakregels
 
 * Velden met komma&#39;s moeten tussen dubbele aanhalingstekens staan.
@@ -138,11 +115,39 @@ product456,,~empty~,~empty~,79.99
 * Voorloopspaties en volgspaties rond velden worden automatisch bijgesneden.
 * Speciale tekens (tabs, newlines) in velden met een citaat blijven behouden.
 
-**de verrichtingen van de Schrapping:**
+### CSV-verwijderbewerkingen
 
 * Gebruik `~deletekey~` in elk veld om de gehele sleutel en alle classificatiegegevens te verwijderen
 * Gebruik `~empty~` in specifieke velden om alleen die classificatiewaarden te verwijderen (laat andere velden intact)
 * Als u `~empty~` gebruikt, kunt u verwijderingen combineren met updates in hetzelfde bestand
+
+### CSV-voorbeelden
+
+Voorbeelden van CSV-records in een CSV-bestand.
+
+#### Basisclassificatiegegevens
+
+```csv
+Key,Product Name,Brand,Category,Price
+product123,"Basketball Shoes",Brand A,Sports,89.99
+product456,"Running Shoes",Brand B,Sports,79.99
+product789,"Winter Jacket",Brand C,Clothing,149.99
+```
+
+#### Een volledige toets verwijderen
+
+```csv
+Key,Product Name,Brand,Category,Price
+product999,~deletekey~,,,
+```
+
+#### Specifieke velden verwijderen (gemengd met updates)
+
+```csv
+Key,Product Name,Brand,Category,Price
+product123,"Updated Product Name",Brand A,Sports,89.99
+product456,,~empty~,~empty~,79.99
+```
 
 +++
 
@@ -157,9 +162,25 @@ TSV (Door tabs gescheiden waarden) en TAB-bestanden gebruiken tabtekens om class
 * **Scheidingstekens**: De gebieden worden gescheiden door lusjekarakters (`\t`).
 * **het Citeren**: Over het algemeen is geen het citeren nodig, maar sommige implementaties steunen geciteerde gebieden.
 
+### Opmaakregels voor TSV en TAB
+
+* Velden worden gescheiden door enkele tabtekens.
+* Lege velden (opeenvolgende tabbladen) vertegenwoordigen null-waarden.
+* Er is doorgaans geen speciale aanhalingstekens vereist.
+* De voorloopspaties en de navolgende spaties blijven behouden.
+* Nieuwe regeltekens binnen velden moeten worden vermeden.
+
+### TSV- en TAB-verwijderingsbewerkingen
+
+* Gebruik `~deletekey~` in elk veld om de gehele sleutel en alle classificatiegegevens te verwijderen.
+* Gebruik `~empty~` in specifieke velden om alleen die classificatiewaarden te verwijderen (en laat andere velden intact).
+* Als u `~empty~` gebruikt, kunt u verwijderingen combineren met updates in hetzelfde bestand.
+
 ### Voorbeelden van TSV en TAB
 
-**Basisclassificatiegegevens:**
+Voorbeelden van door TSV of TAB gescheiden records in een TSV- of TAB-bestand.
+
+#### Basisclassificatiegegevens
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -168,14 +189,14 @@ product456    Running Shoes    Brand B    Sports    79.99
 product789    Winter Jacket    Brand C    Clothing    149.99
 ```
 
-**Schrap een volledige sleutel:**
+#### Een volledige toets verwijderen
 
 ```tsv
 Key    Product Name    Brand    Category    Price
 product999    ~deletekey~            
 ```
 
-**Schrap specifieke gebieden (gemengd met updates):**
+#### Specifieke velden verwijderen (gemengd met updates)
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -183,39 +204,16 @@ product123    Updated Product Name    Brand A    Sports    89.99
 product456        ~empty~    ~empty~    79.99
 ```
 
-### Opmaakregels voor TSV/TAB
-
-* Velden worden gescheiden door enkele tabtekens.
-* Lege velden (opeenvolgende tabbladen) vertegenwoordigen null-waarden.
-* Er is doorgaans geen speciale aanhalingstekens vereist.
-* De voorloopspaties en de navolgende spaties blijven behouden.
-* Nieuwe regeltekens binnen velden moeten worden vermeden.
-
-**de verrichtingen van de Schrapping:**
-
-* Gebruik `~deletekey~` in elk veld om de gehele sleutel en alle classificatiegegevens te verwijderen.
-* Gebruik `~empty~` in specifieke velden om alleen die classificatiewaarden te verwijderen (en laat andere velden intact).
-* Als u `~empty~` gebruikt, kunt u verwijderingen combineren met updates in hetzelfde bestand.
-
 +++
 
 ## Foutafhandeling
 
-Veelvoorkomende uploadproblemen en oplossingen:
+Algemene problemen en oplossingen bij het uploaden van bestanden:
 
 ### Algemene fouten in bestandsindelingen
 
 * **Ongeldig dossierformaat**: Verifieer dat uw dossieruitbreiding het inhoudsformaat (`.json` aanpast, `.csv`, `.tsv`, of `.tab`).
 * **Onbekende kopbal**: De namen van de kolom moeten uw schema van de classificatieset (op alle formaten van toepassing is) aanpassen.
-
-### Specifieke fouten voor CSV en TSV
-
-* **Eerste kolom wordt vereist om sleutel** te zijn: Zorg ervoor uw CSV of TSV dossier een juiste koptekstrij met de belangrijkste kolom eerst heeft.
-* **een minimum van twee kopbalpunten wordt vereist**: CSV of TSV- dossiers moeten minstens a `Key` kolom en één classificatiekolom hebben.
-* **de eerste kopbalkolom moet &quot;Sleutel&quot;worden genoemd**: De eerste kolomkopbal moet precies `Key` zijn (kapitaal `K`, case-sensitive).
-* **Lege kopballen worden niet toegestaan**: Alle CSV/TSV kolomkopballen moeten namen hebben.
-* **het aantal kolommen paste niet de kopballen** aan: Elke CSV of TSV gegevensrij moet het zelfde aantal gebieden zoals de kopbalrij hebben.
-* **&quot;Onjuist geformuleerd document**: controleer CSV citerend, juiste lusjescheiding in TSV dossiers, en meer.
 
 ### JSON-specifieke fouten
 
@@ -225,6 +223,17 @@ Veelvoorkomende uploadproblemen en oplossingen:
 * **Gegevens moeten niet aanwezig zijn wanneer het gebruiken van action=delete-key**: JSON schrapt-zeer belangrijke acties kunnen a `"data"` gebied niet omvatten.
 * **niet gestaafde het coderen**: Gebruik slechts gesteunde het coderen waarden op het `"enc"` gebied (`utf8`, `UTF8`, `latin1`, `LATIN1`).
 * **Ongeldige JSON syntaxis**: Zorg ervoor dat het JSON dossier correct na overeenkomsten JSONL wordt geformatteerd. Controleer ook op algemene JSON-opmaak, ontbrekende aanhalingstekens, komma&#39;s, vierkante haken, enzovoort.
+
+
+### Specifieke fouten voor CSV en TSV
+
+* **de eerste kolom wordt vereist om sleutel** te zijn: Zorg ervoor uw CSV of TSV dossier een juiste kopbalrij met de belangrijkste kolom eerst heeft.
+* **een minimum van twee kopbalpunten wordt vereist**: CSV of TSV- dossiers moeten minstens a `Key` kolom en één classificatiekolom hebben.
+* **de eerste kopbalkolom moet &quot;Sleutel&quot;worden genoemd**: De eerste kolomkopbal moet precies `Key` zijn (kapitaal `K`, case-sensitive).
+* **Lege kopballen worden niet toegestaan**: Alle CSV/TSV kolomkopballen moeten namen hebben.
+* **het aantal kolommen paste niet de kopballen** aan: Elke CSV of TSV gegevensrij moet het zelfde aantal gebieden zoals de kopbalrij hebben.
+* **&quot;Onjuist geformuleerd document**: controleer CSV citerend, juiste lusjescheiding in TSV dossiers, en meer.
+
 
 ### Fouten in groottebeperking
 
@@ -237,4 +246,4 @@ Veelvoorkomende uploadproblemen en oplossingen:
 * **verwerking van de Partij**: Voor grote datasets, overweeg het verdelen in kleinere dossiers.
 * **bevestiging van Gegevens**: Test met een klein steekproefdossier alvorens grote datasets te uploaden.
 * **Steun**: Houd exemplaren van uw brongegevensdossiers.
-* **Incrementele updates**: Gebruik formaat JSON voor nauwkeurige controle over individuele verslagupdates en schrappingen.
+* **Incrementele updates**: Gebruik het formaat JSON voor nauwkeurige controle over individuele verslagupdates en schrappingen.
