@@ -22,7 +22,7 @@ Met Curatie kunt u de componenten (afmetingen, metriek, segmenten, datumbereiken
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ projecten van de Kromme ](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; projecten van de Kromme &#x200B;](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ U kunt als volgt de projectcuratie verwijderen en de volledige set componenten i
 
 ## Curve virtuele rapportsuite
 
-Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [ tot stand brengen ](/help/components/vrs/vrs-components.md).
+Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [&#x200B; tot stand brengen &#x200B;](/help/components/vrs/vrs-components.md).
 
 >[!NOTE]
 >

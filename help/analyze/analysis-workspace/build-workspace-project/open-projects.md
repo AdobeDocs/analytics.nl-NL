@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Projecten openen
 
-U kunt een project van de [ pagina van Projecten ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) direct openen. Zoek uw project in de lijst. Het onderzoek van het gebruik [ of het ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#search) segmentpaneel [ om onderaan de lijst te versmallen.](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)
+U kunt een project van de [&#x200B; pagina van Projecten &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) direct openen. Zoek uw project in de lijst. Het onderzoek van het gebruik [&#x200B; of het &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#search) segmentpaneel [&#x200B; om onderaan de lijst te versmallen.](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)
 
 * Selecteer de titel van uw project om het project in Analysis Workspace te openen.
 
 U kunt een project ook openen terwijl u in een ander project werkt.
 
-* Selecteer **[!UICONTROL Open]** in het menu **[!UICONTROL Project]** . U ziet een dialoog gelijkend op de [ ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) pagina van Projecten.  Het onderzoek van het gebruik [ of het ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#search) segmentpaneel [ om onderaan de lijst te versmallen.](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)
+* Selecteer **[!UICONTROL Open]** in het menu **[!UICONTROL Project]** . U ziet een dialoog gelijkend op de [&#x200B; &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) pagina van Projecten.  Het onderzoek van het gebruik [&#x200B; of het &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#search) segmentpaneel [&#x200B; om onderaan de lijst te versmallen.](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)
 * Selecteer de titel van uw project om het project in Analysis Workspace te openen.
 
 Selecteer **[!UICONTROL Create new]** als u het project niet kunt vinden en een nieuw project wilt starten.
@@ -30,7 +30,7 @@ Een eerder opgeslagen versie van een project openen:
 
 1. Selecteer **[!UICONTROL Open previous version]** in het menu **[!UICONTROL Project]** .
 
-   ![ de eerder opgeslagen lijst van projectversies en de opties om Alle versies of slechts versies met nota&#39;s te tonen.](assets/open-previously-saved.png)
+   ![&#x200B; de eerder opgeslagen lijst van projectversies en de opties om Alle versies of slechts versies met nota&#39;s te tonen.](assets/open-previously-saved.png)
 
 1. Controleer de lijst met vorige versies die beschikbaar zijn in het dialoogvenster **[!UICONTROL Previously saved versions]** . U kunt schakelen tussen **[!UICONTROL All versions]** en **[!UICONTROL Only versions with notes]** .
 

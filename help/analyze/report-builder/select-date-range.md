@@ -36,7 +36,7 @@ Met de optie **[!UICONTROL From cell]** kunt u verwijzen naar datums die zijn in
 
 U kunt vandaag uitsluiten voor elk geselecteerd datumbereik.
 
-![ Report Builder Snelle geeft ruit uit met geselecteerde kalender en sluit vandaag geselecteerd uit.](./assets/image17.png)
+![&#x200B; Report Builder Snelle geeft ruit uit met geselecteerde kalender en sluit vandaag geselecteerd uit.](./assets/image17.png)
 
 ## De kalender gebruiken
 
@@ -62,7 +62,7 @@ Datums selecteren met de kalender
 
 Als u een datumbereik in omgekeerde volgorde wilt instellen, klikt u eerst op de einddatum en vervolgens op de begindatum.
 
-![ de ruit van de datumwaaier van Report Builder die de kalender en de einddatum en de geselecteerde begindatum toont.](./assets/image18.png)
+![&#x200B; de ruit van de datumwaaier van Report Builder die de kalender en de einddatum en de geselecteerde begindatum toont.](./assets/image18.png)
 
 ### Vervolgkeuzelijst Voorinstelling
 
@@ -76,7 +76,7 @@ Met de optie voor roldatums kunt u een datumbereik selecteren met roldatums.
 
 1. Selecteer een roluitdrukking voor uw begin en of einddatum.
 
-   ![ de ruit van de datumwaaier van Report Builder die het Gebruik het rollen geselecteerde data en de het rollen uitdrukking tonen.](./assets/image19.png)
+   ![&#x200B; de ruit van de datumwaaier van Report Builder die het Gebruik het rollen geselecteerde data en de het rollen uitdrukking tonen.](./assets/image19.png)
 
    **Begin van** - staat u toe om het begin van een dag, een week, een maand, een kwartaal, of een jaar te selecteren.
 
@@ -86,11 +86,11 @@ Met de optie voor roldatums kunt u een datumbereik selecteren met roldatums.
 
 1. Kies dag, week, maand, kwartaal of jaar als de rolperiode.
 
-   ![ de ruit van de datumwaaier van Report Builder die de huidige geselecteerde dag toont.](./assets/image20.png)
+   ![&#x200B; de ruit van de datumwaaier van Report Builder die de huidige geselecteerde dag toont.](./assets/image20.png)
 
 1. Voeg dagen, weken, maanden, kwartalen of jaren toe of trek deze af vanaf de roldatum.
 
-   ![ de ruit van de datumwaaier van Report Builder die de huidige dag plus 14 geselecteerde dagen toont.](./assets/image21.png)
+   ![&#x200B; de ruit van de datumwaaier van Report Builder die de huidige dag plus 14 geselecteerde dagen toont.](./assets/image21.png)
 
 1. Klik op Volgende om het gegevensbereik te definiëren.
 
@@ -106,7 +106,7 @@ Met de optie voor aangepaste expressies kunt u het datumbereik wijzigen door een
 
    Wanneer u de **optie van de douaneuitdrukking van het Gebruik** selecteert, zijn de standaard het rollen controles van de datumwaaier gehandicapt.
 
-   ![ Uitgezochte douaneuitdrukking van het Gebruik die tm-1m aan td-1d tonen.](./assets/custom_expression.png)
+   ![&#x200B; Uitgezochte douaneuitdrukking van het Gebruik die tm-1m aan td-1d tonen.](./assets/custom_expression.png)
 
 1. Voer een aangepaste expressie in.
 
@@ -163,7 +163,7 @@ In de volgende tabel staan voorbeelden van datumexpressies.
 
 Het datumbereik kan worden opgegeven in werkbladcellen. Gebruik de **waaier van de Datum van cel** optie om het begin en einddatum van het gegevensblok van geselecteerde cellen te kiezen. Wanneer u **van cel** optie selecteert, toont het paneel **van** en **aan** gebieden waar u een celplaats kunt ingaan.
 
-![ Uitgezocht van cel Sheet1!H4 aan Sheet1!I4 ](./assets/image23.png)
+![&#x200B; Uitgezocht van cel Sheet1!H4 aan Sheet1!I4 &#x200B;](./assets/image23.png)
 
 ## Vandaag uitsluiten
 

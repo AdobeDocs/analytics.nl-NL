@@ -18,7 +18,7 @@ Met annotaties kunt u contextuele gegevensnuances en inzichten effectief doorgev
 
 U deelt bijvoorbeeld projecten met uw organisatie. Als u een merkbare daling in uw unieke bezoekers had, kon u a **Bezoekers creëren die** annotation en werkingsgebied het voor uw volledige rapportreeks verminderen. Wanneer uw gebruikers om het even welke rapportreeks bekijken die die datum omvatte, zien zij de aantekening binnen hun projecten, naast hun gegevens.
 
-![ grafiek van de Lijn met benadrukte annotatie.](assets/annotation-example.png)
+![&#x200B; grafiek van de Lijn met benadrukte annotatie.](assets/annotation-example.png)
 
 Annotaties kunnen worden toegepast op:
 
@@ -30,9 +30,9 @@ Annotaties kunnen worden toegepast op:
 
 * De rapportsuite waarin annotaties zijn gemaakt (standaard) of alle rapportsuites.
 
-Zie [ Annotaties ](create-annotations.md) voor de diverse beschikbare opties creëren om annotaties tot stand te brengen. U bouwt dan, wijzigt, en bewaart annotaties in de [ aantekenaar van de Annotatie ](create-annotations.md#annotation-builder).
+Zie [&#x200B; Annotaties &#x200B;](create-annotations.md) voor de diverse beschikbare opties creëren om annotaties tot stand te brengen. U bouwt dan, wijzigt, en bewaart annotaties in de [&#x200B; aantekenaar van de Annotatie &#x200B;](create-annotations.md#annotation-builder).
 
-U gebruikt de [ manager van Annotaties ](manage-annotations.md) om annotaties te beheren.
+U gebruikt de [&#x200B; manager van Annotaties &#x200B;](manage-annotations.md) om annotaties te beheren.
 
 ## Annotaties in- of uitschakelen
 
@@ -40,9 +40,9 @@ Annotaties kunnen op verschillende niveaus worden in- of uitgeschakeld:
 
 | Niveau | Procedure... |
 |---|---|
-| **Visualisatie** | Laat of maak ![ Vestiging ](/help/assets/icons/Setting.svg) > **[!UICONTROL Settings]** toe onbruikbaar > **[!UICONTROL Show annotations]**.<br/>![ laat onbruikbaar maken aantekeningen voor een visualisatie ](assets/annotations-visualization.png) toe |
-| **Project** | Selecteer in een Workspace-projectmenu **[!UICONTROL Project]** > **[!UICONTROL Project info & settings]** en schakel **[!UICONTROL Show annotations]** in of uit.<br/>![ laat onbruikbaar maken aantekeningen voor een project ](assets/annotations-project.png) toe |
-| **Gebruiker** | Selecteer op het tabblad **[!UICONTROL Components]** **[!UICONTROL Preferences]** of in een Workspace-projectmenu de optie **[!UICONTROL Project]** > **[!UICONTROL User preferences]** . <br/> In **[!UICONTROL Preferences]** selecteert u **[!UICONTROL Projects & Analysis]** . Selecteer **[!UICONTROL Data]** in de linkertabbalk. Schakel **[!UICONTROL Show annotations]** onder de kop **[!UICONTROL Freeform table]** in of uit.<br/>![ laat onbruikbaar maken aantekeningen voor een gebruiker ](assets/annotations-user.png) toe |
+| **Visualisatie** | Laat of maak ![&#x200B; Vestiging &#x200B;](/help/assets/icons/Setting.svg) > **[!UICONTROL Settings]** toe onbruikbaar > **[!UICONTROL Show annotations]**.<br/>![&#x200B; laat onbruikbaar maken aantekeningen voor een visualisatie &#x200B;](assets/annotations-visualization.png) toe |
+| **Project** | Selecteer in een Workspace-projectmenu **[!UICONTROL Project]** > **[!UICONTROL Project info & settings]** en schakel **[!UICONTROL Show annotations]** in of uit.<br/>![&#x200B; laat onbruikbaar maken aantekeningen voor een project &#x200B;](assets/annotations-project.png) toe |
+| **Gebruiker** | Selecteer op het tabblad **[!UICONTROL Components]** **[!UICONTROL Preferences]** of in een Workspace-projectmenu de optie **[!UICONTROL Project]** > **[!UICONTROL User preferences]** . <br/> In **[!UICONTROL Preferences]** selecteert u **[!UICONTROL Projects & Analysis]** . Selecteer **[!UICONTROL Data]** in de linkertabbalk. Schakel **[!UICONTROL Show annotations]** onder de kop **[!UICONTROL Freeform table]** in of uit.<br/>![&#x200B; laat onbruikbaar maken aantekeningen voor een gebruiker &#x200B;](assets/annotations-user.png) toe |
 
 <!--
 # Annotations overview
