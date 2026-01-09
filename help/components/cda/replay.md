@@ -4,9 +4,9 @@ description: Begrijp het concept "replay"in Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Analytics voor verschillende apparaten maakt twee gegevenscontroles in een virtu
 
 ## Voorbeeldtabel
 
-De volgende lijsten illustreren hoe ([&#x200B; Op gebied-gebaseerd het stitching &#x200B;](field-based-stitching.md) het aantal unieke mensen berekent:
+De volgende lijsten illustreren hoe ([ Op gebied-gebaseerd het stitching ](field-based-stitching.md) het aantal unieke mensen berekent:
 
 ### Levend stitching
 
@@ -34,9 +34,9 @@ Zodra een treffer is verzameld, probeert de CDA deze aan bekende apparaten te he
 | --- | --- | --- | --- | --- | 
 | `1` | `246` | - | Bob op zijn desktopcomputer, niet geverifieerd | `1` (246) |
 | `2` | `246` | `Bob` | Bob meldt zich aan op zijn bureaublad | `2` (246 en Bob) |
-| `3` | `3579` | - | Bob op zijn mobiele apparaat, niet geverifieerd | `2` (246 en 3579) | `3` (246, Bob en 3579) |
+| `3` | `3579` | - | Bob op zijn mobiele apparaat, niet geverifieerd | `3` (246, Bob en 3579) |
 | `4` | `3579` | `Bob` | Bob meldt zich aan op mobile | `3` (246, Bob en 3579) |
-| `5` | `246` | - | Bob benadert uw site opnieuw op het bureaublad, zonder verificatie | | `3` (246, Bob en 3579) |
+| `5` | `246` | - | Bob benadert uw site opnieuw op het bureaublad, zonder verificatie | `3` (246, Bob en 3579) |
 | `6` | `246` | `Bob` | Bob meldt zich opnieuw aan via desktop | `3` (246, Bob en 3579) |
 | `7` | `3579` | - | Bob benadert uw site opnieuw op mobile | `3` (246, Bob en 3579) |
 | `8` | `3579` | `Bob` | Bob meldt zich opnieuw aan via mobile | `3` (246, Bob en 3579) |
