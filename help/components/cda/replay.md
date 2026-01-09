@@ -22,7 +22,7 @@ Analytics voor verschillende apparaten maakt twee gegevenscontroles in een virtu
 
 ## Voorbeeldtabel
 
-De volgende lijsten illustreren hoe ([ Op gebied-gebaseerd het stitching ](field-based-stitching.md) het aantal unieke mensen berekent:
+De volgende lijsten illustreren hoe ([&#x200B; Op gebied-gebaseerd het stitching &#x200B;](field-based-stitching.md) het aantal unieke mensen berekent:
 
 ### Levend stitching
 
