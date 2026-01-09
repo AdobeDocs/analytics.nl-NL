@@ -4,7 +4,7 @@ title: Hoofdmetrische samenvatting
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -21,12 +21,12 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de Zeer belangrijke metrische summiere visualisatie in_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [&#x200B; Zeer belangrijke metrische samenvatting &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) voor_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de Zeer belangrijke metrische summiere visualisatie in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Zeer belangrijke metrische samenvatting ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
-![&#x200B; KeyMetrics &#x200B;](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]** visualisatie laat u zien hoe belangrijke metrisch binnen één enkel tijdkader trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
+![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]** visualisatie laat u zien hoe belangrijke metrisch binnen één enkel tijdkader trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
 
 * **[!UICONTROL Line]** visualisatie laat zien hoe de metrische waarde wordt afgenomen voor de primaire datumbereiken en de vergelijkingsdatumbereiken
 
@@ -46,16 +46,16 @@ Deze visualisatie is gericht op verschillende veelvoorkomende gebruiksgevallen, 
 
 ## Gebruiken
 
-1. Voeg a ![&#x200B; KeyMetrics &#x200B;](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]** visualisatie toe. Zie [&#x200B; een visualisatie aan een paneel &#x200B;](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen.
+1. Voeg a ![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]** visualisatie toe. Zie [ een visualisatie aan een paneel ](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen.
 
 1. Configureer de visualisatie door een **[!UICONTROL Metric]** , een **[!UICONTROL Primary date range]** , een **[!UICONTROL Comparison date range]** (optioneel) en een **[!UICONTROL Filter]** (optioneel) te selecteren:
 
-   ![&#x200B; Zeer belangrijke metrische configuratie die de opties voor metrisch, primaire datumwaaier, de waaier van de vergelijkingsdatum, en segment tonen.](assets/key-metrics-config.png)
+   ![ Zeer belangrijke metrische configuratie die de opties voor metrisch, primaire datumwaaier, de waaier van de vergelijkingsdatum, en segment tonen.](assets/key-metrics-config.png)
 
    | Optie | Beschrijving |
    | --- | --- |
    | **[!UICONTROL Metric]** | Selecteer metrisch u wilt onderzoeken. Alle metriek worden ondersteund. |
-   | **[!UICONTROL Primary date range]** | Het huidige datumbereik voor de vrije-vormtabel.<p>Maak een keuze uit de beschikbare datumbereiken in de gegevensweergave.</p> <p>Kies [!UICONTROL **de datumwaaier van het Comité**] als u de zelfde datumwaaier wilt gebruiken die op het paneel wordt gebruikt waar de visualisatie wordt gevestigd.</p> |
+   | **[!UICONTROL Primary date range]** | Het huidige datumbereik voor de vrije-vormtabel.<p>Maak een keuze uit de beschikbare datumbereiken in uw rapportsuite.</p> <p>Kies [!UICONTROL **de datumwaaier van het Comité**] als u de zelfde datumwaaier wilt gebruiken die op het paneel wordt gebruikt waar de visualisatie wordt gevestigd.</p> |
    | **[!UICONTROL Comparison date range]** | Het datumbereik dat u wilt vergelijken met het primaire datumbereik. |
    | **[!UICONTROL Segment (optional)]** | Elk segment waarin u geïnteresseerd bent voor deze samenvatting. |
 
@@ -68,11 +68,11 @@ Deze visualisatie is gericht op verschillende veelvoorkomende gebruiksgevallen, 
    >* **Relatief:** als het **[!UICONTROL Comparison date range]** gebied aan een optie wordt geplaatst die met betrekking tot de primaire datumwaaier (zulke [!UICONTROL **Vorige dag**], [!UICONTROL **Zelfde dag vorige week**], [!UICONTROL **Zelfde dag 4 weken voorafgaand**], etc.) is, dan om het even welke updates aan het [!UICONTROL **Primaire datumwaaier**] gebied veroorzaken **[!UICONTROL Comparison date range]** om onmiddellijk bij te werken aan de periode volgt het datumbereik van het deelvenster.
    >* **Vast:** als het [!UICONTROL **gebied van de Vergelijkingsdatum**] aan een vaste datumwaaier (zoals **wordt geplaatst 3 die Februari, 2023**), dan veranderingen in het [!UICONTROL **Primaire datareaal**] worden aangebracht gebied of de waaier van de paneeldatum hebben geen effect op de [!UICONTROL **waaier van de Vergelijkingsdatum**]. Nochtans, veroorzaken om het even welke updates aan de waaier van de paneeldatum de [!UICONTROL **Primaire datumwaaier**] om automatisch bij te werken.
 
-1. Selecteer **[!UICONTROL Build]** .
+1. Selecteer **[!UICONTROL Build]**.
 
 De output van de belangrijkste metrische samenvatting kijkt als:
 
-![&#x200B; Zeer belangrijke metrische output die de metische, summiere verandering, samenvattingsaantal, en lijngrafieken tonen.](assets/key-metrics.png)
+![ Zeer belangrijke metrische output die de metische, summiere verandering, samenvattingsaantal, en lijngrafieken tonen.](assets/key-metrics.png)
 
 Houd rekening met het volgende wanneer u de uitvoer weergeeft:
 
@@ -87,7 +87,7 @@ Houd rekening met het volgende wanneer u de uitvoer weergeeft:
 
 Na het bouwen van visualisatie, kunt u de originele configuratie uitgeven.
 
-1. Selecteer ![&#x200B; uitgeven &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Configure visualization]** bij de bovenkant van visualisatie.
+1. Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) **[!UICONTROL Configure visualization]** bij de bovenkant van visualisatie.
 
    U wordt teruggezet naar de originele configuratiedialoog.
 
@@ -116,16 +116,16 @@ Als onderdeel van de visualisatie-instellingen zijn specifieke metrische summier
 
 Nadat u de visualisatie hebt gemaakt, kunt u de oorspronkelijke configuratie bewerken.
 
-1. Selecteer ![&#x200B; uitgeven &#x200B;](/help/assets/icons/Edit.svg) in de hoogste juiste hoek van visualisatie.
+1. Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) in de hoogste juiste hoek van visualisatie.
 
 
-   U wordt nu teruggenomen naar de originele [&#x200B; configuratiemening &#x200B;](#configure).
+   U wordt nu teruggenomen naar de originele [ configuratiemening ](#configure).
 
 1. Verander metrisch, primaire datumwaaier, de waaier van de vergelijkingsdatum, of het segment zoals aangewezen.
 
 >[!MORELIKETHIS]
 >
->[&#x200B; voeg een visualisatie aan een paneel toe &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisatie-instellingen &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Contextmenu Visualisatie &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 

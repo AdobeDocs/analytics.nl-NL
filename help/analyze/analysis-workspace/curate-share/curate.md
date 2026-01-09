@@ -5,7 +5,7 @@ title: Cursieve projecten
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Met Curatie kunt u de componenten (afmetingen, metriek, segmenten, datumbereiken
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; projecten van de Kromme &#x200B;](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ projecten van de Kromme ](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 1. Selecteer **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]** .
 De componenten die in het project worden gebruikt worden automatisch toegevoegd.
 Als een project veelvoudige rapportreeksen heeft, ziet u een curate dalingsdoel voor elke rapportreeks in het project.
-1. (Optioneel) Als u meer componenten wilt toevoegen, sleept u componenten die u wilt delen van het linkerdeelvenster naar de neerzetzone **[!UICONTROL Curate components]** voor de gegevensweergave.
+1. (Optioneel) Als u meer componenten wilt toevoegen, sleept u componenten die u wilt delen van het linkerdeelvenster naar de neerzetzone **[!UICONTROL Curate components]** voor de rapportsuite.
 1. Selecteer **[!UICONTROL Done]**.
 
 
@@ -51,7 +51,7 @@ U kunt als volgt de projectcuratie verwijderen en de volledige set componenten i
 
 ## Curve virtuele rapportsuite
 
-Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [&#x200B; tot stand brengen &#x200B;](/help/components/vrs/vrs-components.md).
+Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport [ tot stand brengen ](/help/components/vrs/vrs-components.md).
 
 >[!NOTE]
 >
