@@ -156,5 +156,5 @@ Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen
 
 ## Aanvullende bronnen {#resources}
 
-- Adobe biedt honderden [&#x200B; de videoopleidingsleerprogramma&#39;s van Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview) aan.
-- Zie [&#x200B; de versienota&#39;s van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
+- Adobe biedt honderden [&#x200B; de videoopleidingsleerprogramma&#39;s van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/overview) aan.
+- Zie [&#x200B; de versienota&#39;s van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/nl/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
