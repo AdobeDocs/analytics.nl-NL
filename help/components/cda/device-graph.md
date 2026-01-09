@@ -16,5 +16,5 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->De Grafiek van het apparaat binnen Analytics van het Apparaat wordt [ stopgezet ](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) en niet meer beschikbaar vanaf **31 December, 2025**. Gelieve te schakelen om het even welke huidige apparatengrafiek toegelaten virtuele rapportreeks aan de [ op gebied-gebaseerde methode ](/help/components/cda/field-based-stitching.md).
+>De Grafiek van het apparaat binnen Analytics van het Apparaat wordt [&#x200B; stopgezet &#x200B;](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) en niet meer beschikbaar vanaf **31 December, 2025**. Gelieve te schakelen om het even welke huidige apparatengrafiek toegelaten virtuele rapportreeks aan de [&#x200B; op gebied-gebaseerde methode &#x200B;](/help/components/cda/field-based-stitching.md).
 >
