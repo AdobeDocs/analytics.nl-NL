@@ -19,7 +19,7 @@ Als aan alle voorwaarden is voldaan, voert u de volgende stappen uit om Apparaat
 
 >[!IMPORTANT]
 >
->Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie de [ overzichtspagina ](overview.md) en de gewenste het stitching methode ([ Op gebied-gebaseerde het stitching ](field-based-stitching.md)) voor eerste vereisten en beperkingen.
+>Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie de [&#x200B; overzichtspagina &#x200B;](overview.md) en de gewenste het stitching methode ([&#x200B; Op gebied-gebaseerde het stitching &#x200B;](field-based-stitching.md)) voor eerste vereisten en beperkingen.
 
 ## &#x200B;1. Open een ticket met de klantenservice om CDA te laten voorzien op uw rapportenpakket voor andere apparaten
 
@@ -38,7 +38,7 @@ Zodra u de klantenservice deze informatie verschaft, werken zij samen met Adobe 
 
 Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen als volgt virtuele CDA-rapportensuites maken:
 
-1. Navigeer aan [ Experience.adobe.com ](https://experiencecloud.adobe.com) en login gebruikend uw geloofsbrieven van AdobeID.
+1. Navigeer aan [&#x200B; Experience.adobe.com &#x200B;](https://experiencecloud.adobe.com) en login gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op het pictogram met het 9-raster bovenaan en klik vervolgens op Analytics.
 3. Houd de cursor boven **[!UICONTROL Components]** en klik vervolgens op **[!UICONTROL Virtual report suites]** .
 4. Klik toevoegen.
@@ -48,14 +48,14 @@ Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen a
 8. Klik op het selectievakje &#39;Gebruikersbezoeken op apparaten plaatsen&#39;.
 9. Klik op Doorgaan, voltooi de configuratie van de virtuele rapportsuite en klik op Opslaan.
 
-![ CDA checkbox ](assets/cda-checkbox.png)
+![&#x200B; CDA checkbox &#x200B;](assets/cda-checkbox.png)
 
 ## Toevoegingen en wijzigingen aan virtuele-rapportsuites voor meerdere apparaten
 
 Houd rekening met de volgende wijzigingen wanneer Apparaatanalyse is ingeschakeld voor een virtuele rapportsuite:
 
 * Er verschijnt een nieuw apparaatpictogram naast de naam van de virtuele rapportsuite. Dit pictogram is exclusief voor virtuele rapportsuites op meerdere apparaten.
-* Een nieuwe afmeting geëtiketteerd [ Geïdentificeerde staat ](../dimensions/identified-state.md) is beschikbaar.
-* De nieuwe metriek geëtiketteerde [ Mensen ](../metrics/people.md), [ Unieke Apparaten ](../metrics/unique-devices.md), [ Geïdentificeerde mensen ](../metrics/identified-people.md), [ Niet-geïdentificeerde mensen ](../metrics/unidentified-people.md), en [ Mensen met identiteitskaart van Experience Cloud ](../metrics/people-with-exp-cloud-id.md) zijn beschikbaar.
-* De metrische [ Unieke Bezoekers ](../metrics/unique-visitors.md) is niet beschikbaar, aangezien het met &quot;Mensen&quot;en &quot;Unieke Apparaten&quot;wordt vervangen.
+* Een nieuwe afmeting geëtiketteerd [&#x200B; Geïdentificeerde staat &#x200B;](../dimensions/identified-state.md) is beschikbaar.
+* De nieuwe metriek geëtiketteerde [&#x200B; Mensen &#x200B;](../metrics/people.md), [&#x200B; Unieke Apparaten &#x200B;](../metrics/unique-devices.md), [&#x200B; Geïdentificeerde mensen &#x200B;](../metrics/identified-people.md), [&#x200B; Niet-geïdentificeerde mensen &#x200B;](../metrics/unidentified-people.md), en [&#x200B; Mensen met identiteitskaart van Experience Cloud &#x200B;](../metrics/people-with-exp-cloud-id.md) zijn beschikbaar.
+* De metrische [&#x200B; Unieke Bezoekers &#x200B;](../metrics/unique-visitors.md) is niet beschikbaar, aangezien het met &quot;Mensen&quot;en &quot;Unieke Apparaten&quot;wordt vervangen.
 * Bij het maken van segmenten wordt de container van het segment &#39;Visitor&#39; vervangen door een container &#39;Person&#39;.
