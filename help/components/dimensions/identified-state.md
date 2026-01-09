@@ -1,26 +1,26 @@
 ---
 title: Status geïdentificeerd
-description: Een markering die de herkenning door de apparaatgrafiek bepaalt.
+description: Een markering die de erkenning voor stitching bepaalt.
 feature: Dimensions
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
 # Status geïdentificeerd
 
-De &#39;Geïdentificeerde staat&#39; [dimensie](overview.md) is specifiek voor [Apparaatanalyse](../cda/overview.md) virtuele rapportsuites. Er wordt gemeld of treffers worden geïdentificeerd (vastgezet) of niet door het systeem op het moment dat het rapport wordt uitgevoerd. Deze dimensie is handig om te begrijpen hoe goed CDA gegevens heft of comprimeert.
+De &quot;Geïdentificeerde staat&quot;[ dimensie ](overview.md) is specifiek voor [ dwars-Apparaat Analytics ](../cda/overview.md) virtuele rapportsuites. Er wordt gemeld of treffers worden geïdentificeerd (vastgezet) of niet door het systeem op het moment dat het rapport wordt uitgevoerd. Deze dimensie is handig om te begrijpen hoe goed CDA gegevens heft of comprimeert.
 
 ## Deze dimensie vullen met gegevens
 
-Zolang u [Apparaatanalyse](../cda/overview.md) Deze dimensie die voor een virtuele rapportreeks wordt gevormd, werkt uit de doos.
+Zolang u [ Analytics van 0} dwars-Apparaat {voor een virtuele rapportreeks gevormd hebt, werkt deze afmeting uit de doos.](../cda/overview.md)
 
-## Dimension-items
+## Dimension-objecten
 
-Tot Dimension-items behoren `"Identified"` en `"Unidentified"`.
+Dimension-items zijn `"Identified"` en `"Unidentified"` .
 
-* **`"Identified"`**: De treffer wordt toegewezen aan een persoon.
-* **`"Unidentified"`**: De treffer wordt niet toegewezen aan een persoon en kan niet worden toegewezen door een attributiemethode.
+* **`"Identified"`**: De hit wordt toegewezen aan een persoon.
+* **`"Unidentified"`**: De treffer wordt niet toegewezen aan een persoon en kan niet worden toegewezen door een toewijzingsmethode.
