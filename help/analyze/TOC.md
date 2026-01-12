@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
+source-git-commit: 340baffc3c870ffec136a0800f71a293099e4d9f
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 10%
 
 ---
@@ -14,9 +14,10 @@ ht-degree: 10%
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding voor analysegereedschappen](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
+   + [Onboarding](get-started/onboard.md)
    + [Aan de slag (op rol)](get-started/get-started-by-role.md)
    + [De interface Analytics begrijpen](get-started/analytics-interface.md)
    + [Gebruik hoofdletters](get-started/use-cases.md)
