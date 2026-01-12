@@ -182,26 +182,26 @@ Bekijk de volgende video&#39;s om de instapreis van Adobe Admin Console for User
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Bord aan [ de Liga van de Ervaring van Adobe ](https://experienceleague.adobe.com/) om tot [ documentatie ](https://experienceleague.adobe.com/en/docs/analytics), [ leerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview) toegang te hebben, en meer om u te helpen slagen.
+Bord aan [&#x200B; de Liga van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/) om tot [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics), [&#x200B; leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview) toegang te hebben, en meer om u te helpen slagen.
 
 
 ## Adobe Admin Console
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476921/?learn=on&enablevpops)
 
-Aan boord aan [ Adobe Admin Console ](https://adminconsole.adobe.com/) om de productbetiteling voor uw Organisatie te beheren. Gebruikerstoegang toevoegen, verwijderen of wijzigen
+Aan boord aan [&#x200B; Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/) om de productbetiteling voor uw Organisatie te beheren. Gebruikerstoegang toevoegen, verwijderen of wijzigen
 
 ## Adobe Admin Console-gebruikersbeheer
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476898/?learn=on&enablevpops)
 
-Aan boord aan het [ Beheer van de Gebruiker van Adobe Admin Console ](https://adminconsole.adobe.com/redirect@AdobeOrg/users) om gebruikers, groepen, en profielen te beheren. Leer hoe u een productrol toewijst aan een gebruiker of groep.
+Aan boord aan het [&#x200B; Beheer van de Gebruiker van Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/redirect@AdobeOrg/users) om gebruikers, groepen, en profielen te beheren. Leer hoe u een productrol toewijst aan een gebruiker of groep.
 
 ## Verhoog een ondersteuningskwestie
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Bord aan de Liga van de Ervaring van Adobe aan [ heft een steungeval, herzie actieve en vroegere gevallen ](https://experienceleague.adobe.com/home#support).
+Bord aan de Liga van de Ervaring van Adobe aan [&#x200B; heft een steungeval, herzie actieve en vroegere gevallen &#x200B;](https://experienceleague.adobe.com/home#support).
 
 
 ## Adobe Analytics
@@ -214,7 +214,7 @@ Uw Adobe Analytics-reis begint met het instappen van de juiste configuraties en 
 
 Nadat u uw instapsysteem voor Adobe Analytics en de ondersteunende platforms hebt voltooid, kunt u de volgende bronnen onderzoeken om uw kennis te verdiepen en uw vaardigheden te verbeteren:
 
-1. [ Inleiding aan Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [ Begrijp en creeer de Suites van het Rapport ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
-3. [ documentatie van Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics)
-4. [ zelfstudies en video&#39;s van Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)
+1. [&#x200B; Inleiding aan Adobe Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [&#x200B; Begrijp en creeer de Suites van het Rapport &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+3. [&#x200B; documentatie van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics)
+4. [&#x200B; zelfstudies en video&#39;s van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)
