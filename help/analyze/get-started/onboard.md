@@ -27,7 +27,7 @@ Bekijk de volgende video&#39;s om de instapreis van Adobe Admin Console for User
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476890/?captions=dut&format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -64,7 +64,7 @@ Bekijk de volgende video&#39;s om de instapreis van Adobe Admin Console for User
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476890/?captions=dut&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -180,7 +180,7 @@ Bekijk de volgende video&#39;s om de instapreis van Adobe Admin Console for User
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476890/?captions=dut&learn=on&enablevpops)
 
 Bord aan [&#x200B; de Liga van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/nl) om tot [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics), [&#x200B; leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/overview) toegang te hebben, en meer om u te helpen slagen.
 
