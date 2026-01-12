@@ -4,7 +4,7 @@ description: Help metrische gegevens op uw site te dupliceren.
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 7cd930ac63e0c02dbc7df2b6114d523f5ac91064
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -21,7 +21,7 @@ De rangschikking van gebeurtenissen is het proces om maatregelen uit te voeren o
 
 ## Gebeurtenisserienummering instellen
 
-U moet eerst de gebeurtenis [!UICONTROL Unique Event Recording] instellen op [!UICONTROL Use Event ID] in de instellingen van de rapportsuite. Zie [&#x200B; Gebeurtenissen van het Succes &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in de Admin gebruikersgids.
+U moet eerst de gebeurtenis [!UICONTROL Unique Event Recording] instellen op [!UICONTROL Use Event ID] in de instellingen van de rapportsuite. Zie [ Gebeurtenissen van het Succes ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in de Admin gebruikersgids.
 
 Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niveaus:
 
@@ -37,7 +37,7 @@ Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niv
 
 Als het gebruiken van het [**voorwerp XDM**](/help/implement/aep-edge/xdm-var-mapping.md), gebruikt de gebeurtenisrangschikking het gewenste gebied van XDM van de gebeurtenis `id`. Het volledige XDM-pad is afhankelijk van de gebeurtenis die u wilt serialiseren.
 
-Stel `xdm.commerce.productListAdds.id` in op de gewenste serienummeringswaarde als u bijvoorbeeld de metrische waarde van Kart-toevoegingen wilt serialiseren. Als u Custom-gebeurtenis 20 wilt serialiseren, stelt u `xdm._experience.analytics.event1to100.event20` in op de gewenste serienummeringswaarde.
+Stel `xdm.commerce.productListAdds.id` in op de gewenste serienummeringswaarde als u bijvoorbeeld de metrische waarde van Kart-toevoegingen wilt serialiseren. Als u Custom-gebeurtenis 20 wilt serialiseren, stelt u `xdm._experience.analytics.event1to100.event20.id` in op de gewenste serienummeringswaarde.
 
 Als het gebruiken van het [**gegevensvoorwerp**](/help/implement/aep-edge/data-var-mapping.md), gebruikt de gebeurtenisrangschikking `data.__adobe.analytics.events`, na het koordsyntaxis van AppMeasurement.
 
@@ -45,7 +45,7 @@ Als het gebruiken van het [**gegevensvoorwerp**](/help/implement/aep-edge/data-v
 
 U kunt het veld voor de gebeurtenis-id instellen tijdens het configureren van de extensie Analytics (globale variabelen) of als een handeling in een regel.
 
-1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande [!UICONTROL Adobe Analytics - Set Variables] -actie of klik op het plusteken (+).
