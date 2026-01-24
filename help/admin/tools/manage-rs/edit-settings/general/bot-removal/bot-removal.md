@@ -87,7 +87,7 @@ Stel ten minste een maandelijkse herinnering in om nieuwe vlekken te identificer
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Betere Bot die (Deel 1) blokkeert: De Grondbeginselen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
->* [&#x200B; Betere Bot die (Deel 2) blokkeert: Het identificeren van Bots en het Leveraging CIDR.](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
->* [&#x200B; Betere Bot die (Deel 3) blokkeert: De Hit Gouverneur &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+>* [&#x200B; Betere Bot die (Deel 1) blokkeert: De Grondbeginselen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=nl)
+>* [&#x200B; Betere Bot die (Deel 2) blokkeert: Het identificeren van Bots en het Leveraging CIDR.](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=nl)
+>* [&#x200B; Betere Bot die (Deel 3) blokkeert: De Hit Gouverneur &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=nl)
 

@@ -26,7 +26,7 @@ Vergeet niet dat code-updates na verloop van tijd onbedoelde gevolgen kunnen heb
 * Creeer dashboards om per uur trended meningen van deze kritieke metriek en variabelen (of opstelling [&#x200B; alarm &#x200B;](/help/components/alerts/alerts-overview.md) voor elke metrisch) te zien. Dan controleer hen voor een dag of twee om te verzekeren u de gegevens krijgt u verwacht, en de gegevens zijn correct. Zoek buigpunten. Wees bereid om kritieke problemen onmiddellijk op te lossen. Als u om het even welke discrepanties vindt, kijk in uw gegevenslaag, de regels van de markeringsmanager, en verwerkingsregels om te weten te komen waarom.
 * Herstel het [&#x200B; Dashboard van de Gezondheid van de Analyse &#x200B;](https://express.adobe.com/page/tnNQGNlfzta3b/) om brede tendensen van uw metriek en variabelen van KPI te controleren.
 
-*voor meer details over hoe te ervoor te zorgen dat uw metriek en variabelen behoorlijk functioneren, [&#x200B; leest deze uiteinden &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) van Adobe Analytics Champion Sarah Owen.*
+*voor meer details over hoe te ervoor te zorgen dat uw metriek en variabelen behoorlijk functioneren, [&#x200B; leest deze uiteinden &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=nl) van Adobe Analytics Champion Sarah Owen.*
 
 ## &#x200B;3. Beoordeel grondig de gegevens uit het bijgewerkte gedeelte van uw site
 

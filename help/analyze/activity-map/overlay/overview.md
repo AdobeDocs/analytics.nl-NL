@@ -50,7 +50,7 @@ De koptekst van dit deelvenster bevat de volgende instellingen:
 * **[!UICONTROL Show settings]**: opent een menu voor instellingen die u kunt wijzigen (tandwielpictogram):
    * **[!UICONTROL Settings]**: Opent de 1&rbrace; Montages van de uitbreiding [.](settings.md)
    * **[!UICONTROL Help]**: opent de documentatie naar Experience League (deze pagina).
-   * **[!UICONTROL Adobe community]**: Opent de [&#x200B; gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/).
+   * **[!UICONTROL Adobe community]**: Opent de [&#x200B; gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/?profile.language=nl).
    * **[!UICONTROL About]**: geeft de extensieversie weer.
    * **[!UICONTROL Logout]**: hiermee meldt u zich af van de extensie, waarbij u zich opnieuw moet aanmelden.
 * **[!UICONTROL Quit Activity Map]**: hiermee worden alle bedekkingen voor de extensie gesloten (X-pictogram).

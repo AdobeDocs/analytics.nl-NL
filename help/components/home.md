@@ -45,6 +45,6 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 ## Belangrijke bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/nl?support-solution=Analytics&lang=nl#support)
-* [&#x200B; Gemeenschap van Adobe Analytics op Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
+* [&#x200B; Gemeenschap van Adobe Analytics op Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=nl)
+* [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=nl)
 * [Experience League](https://landing.adobe.com/experience-league/)
