@@ -3,7 +3,7 @@ description: In plaats van elke keer dat uw volgcodes veranderen classificaties 
 title: Workflow van de opbouwfunctie voor classificatieregels
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: 1f97365ada0a182f743b6d920b0605232e030aec
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -18,7 +18,7 @@ In plaats van elke keer dat uw volgcodes veranderen classificaties te onderhoude
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de regelbouwer van de Classificatie &#x200B;](https://video.tv.adobe.com/v/3434383?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de regelbouwer van de Classificatie ](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -41,19 +41,20 @@ Hier volgen de stappen op hoog niveau die u onderneemt om classificatieregels to
 | Stap | Waar uitgevoerd | Beschrijving |
 |--- |--- |--- |
 | Stap 1 (Vereiste): Opstelling uw classificatieschema. | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > [!UICONTROL Traffic Classifications] of [!UICONTROL Conversion Classifications] | Kies een variabele en definieer de classificaties die u voor die variabele wilt gebruiken. <br> de Variabelen moeten minstens één gecreeerde classificatiekolom hebben alvorens zij voor gebruik in regels beschikbaar zijn.<br> Zodra classificaties worden toegelaten, kunt u de importer en de regelbouwer gebruiken om specifieke waarden te classificeren. |
-| Stap 2: [&#x200B; creeer een regelreeks &#x200B;](classification-rule-set.md). | [!UICONTROL Admin] > [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set] | Een regelset is een groep classificatieregels voor een specifieke variabele. |
+| Stap 2: [ creeer een regelreeks ](classification-rule-set.md). | [!UICONTROL Admin] > [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set] | Een regelset is een groep classificatieregels voor een specifieke variabele. |
 | Stap 3: Vorm rapportreeksen en variabelen. | [!UICONTROL Classification Rule Builder] > &lt;uw regelset> | Pas de regel toe die wordt ingesteld om reeksen en variabelen te rapporteren. |
-| Stap 4: [&#x200B; voeg classificatieregels aan de reeks &#x200B;](classification-quickstart-rules.md) toe. | [!UICONTROL Classification Rule Builder] > &lt;uw regelset> | Pas een voorwaarde aan een classificatie aan, en dan specificerend de actie voor de regel te nemen.  Ben vertrouwd met de informatie in [&#x200B; hoe de Regels &#x200B;](classification-quickstart-rules.md) worden verwerkt. |
-| Stap 5: [&#x200B; test een Reeks van de Regel van de Classificatie &#x200B;](classification-quickstart-rules.md) | [!DNL Testing Page] | U zult regels voor bevestiging willen testen door hen op de wijze van het Ontwerp uit te geven. In de conceptmodus kunnen regels niet worden uitgevoerd.<br> Deze stap is belangrijk wanneer het gebruiken van [&#x200B; regelmatige uitdrukkingen &#x200B;](classification-quickstart-rules.md). |
-| Stap 6: [&#x200B; activeer geldige regels &#x200B;](classification-rule-definitions.md). | [!DNL Rules Page] | Zodra de regels geldig zijn, activeer de regelreeks.  Indien nodig kunt u bestaande toetsen overschrijven. Zie [&#x200B; hoe de regels &#x200B;](classification-quickstart-rules.md) worden verwerkt. |
-| Stap 7 (Facultatief): [&#x200B; schrap ongewenste regels &#x200B;](classification-rule-definitions.md). | [!DNL Rules Page] | Verwijder ongewenste regels uit een set.<br> Nota: Het schrappen van regels schrapt geen geuploade gerubriceerde gegevens. Zie [&#x200B; classificatiegegevens van de Schrapping &#x200B;](/help/components/classifications/importer/t-delete-classification-data.md) als u gerubriceerde gegevens moet schrappen. |
+| Stap 4: [ voeg classificatieregels aan de reeks ](classification-quickstart-rules.md) toe. | [!UICONTROL Classification Rule Builder] > &lt;uw regelset> | Pas een voorwaarde aan een classificatie aan, en dan specificerend de actie voor de regel te nemen.  Ben vertrouwd met de informatie in [ hoe de Regels ](classification-quickstart-rules.md) worden verwerkt. |
+| Stap 5: [ test een Reeks van de Regel van de Classificatie ](classification-quickstart-rules.md) | [!DNL Testing Page] | U zult regels voor bevestiging willen testen door hen op de wijze van het Ontwerp uit te geven. In de conceptmodus kunnen regels niet worden uitgevoerd.<br> Deze stap is belangrijk wanneer het gebruiken van [ regelmatige uitdrukkingen ](classification-quickstart-rules.md). |
+| Stap 6: [ activeer geldige regels ](classification-rule-definitions.md). | [!DNL Rules Page] | Zodra de regels geldig zijn, activeer de regelreeks.  Indien nodig kunt u bestaande toetsen overschrijven. Zie [ hoe de regels ](classification-quickstart-rules.md) worden verwerkt. |
+| Stap 7 (Facultatief): [ schrap ongewenste regels ](classification-rule-definitions.md). | [!DNL Rules Page] | Verwijder ongewenste regels uit een set.<br> Nota: Het schrappen van regels schrapt geen geuploade gerubriceerde gegevens. Zie [ classificatiegegevens van de Schrapping ](/help/components/classifications/importer/t-delete-classification-data.md) als u gerubriceerde gegevens moet schrappen. |
 
 >[!NOTE]
 >
->Groepen met machtigingen om het indelingsimportgereedschap te gebruiken, kunnen classificatieregels gebruiken. Zie [&#x200B; hoe de Regels &#x200B;](classification-quickstart-rules.md) voor belangrijke verwerkingsinformatie worden verwerkt.
+>Groepen met machtigingen om het indelingsimportgereedschap te gebruiken, kunnen classificatieregels gebruiken. Zie [ hoe de Regels ](classification-quickstart-rules.md) voor belangrijke verwerkingsinformatie worden verwerkt.
 
 **Extra Middelen**
 
-**Blog**: Voor extra informatie over deze eigenschap, zie het Digitale Marketing Blog: [&#x200B; Op regel-gebaseerde Classificaties &#x200B;](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
+**Blog**: Voor extra informatie over deze eigenschap, zie het Digitale Marketing Blog: [ Op regel-gebaseerde Classificaties ](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Bekijk de [&#x200B; video van het Overzicht van Classificaties &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html?lang=nl-NL).
+**Video**: Bekijk de [ video van het Overzicht van Classificaties ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
+
