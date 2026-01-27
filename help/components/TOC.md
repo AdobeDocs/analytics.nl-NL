@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
+source-git-commit: 3ea8c07117641c2defa6ef126ab1d730f187c1d2
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Handleiding voor analytische componenten](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -264,9 +264,9 @@ ht-degree: 7%
    + Classificatiesets {#sets}
       + [Overzicht](classifications/sets/overview.md)
       + [Gegevensbestanden](classifications/sets/data-files.md)
-      + Classificatiesets {#manage}
-         + [Beheren](classifications/sets/manage/set-manager.md)
-         + [Maken en bewerken](classifications/sets/manage/create.md)
+      + [Maken en bewerken](classifications/sets/manage/create.md)
+      + [Beheren](classifications/sets/manage/set-manager.md)
+      + Classificatieset {#set}
          + [Instellingen](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
          + [Regels](classifications/sets/manage/rules.md)
@@ -274,25 +274,26 @@ ht-degree: 7%
       + Consolidatie van classificaties {#consolidations}
          + [Beheren](classifications/sets/consolidations/manage.md)
          + [Maken en bewerken](classifications/sets/consolidations/process.md)
-   + Indelingsregelbouwer (verouderd){#classifications-rulebuilder}
-      + [Overzicht](classifications/crb/classification-rule-builder.md)
-      + [Classificatiereeksen](classifications/crb/classification-rule-set.md)
-      + [Classificatieregels](classifications/crb/classification-quickstart-rules.md)
-      + [Definities van classificatieregel](classifications/crb/classification-rule-definitions.md)
-      + [Subclassificaties en de regelbouwer](classifications/crb/subclassification-rule-builder.md)
-   + Indelingsimporteur (verouderd){#classifications-importer}
-      + [Overzicht van de importfunctie voor classificaties](classifications/importer/c-working-with-saint.md)
-      + [Classificatiegegevensbestanden](classifications/importer/c-saint-data-files.md)
-      + [Classificatiegegevens verwijderen](classifications/importer/t-delete-classification-data.md)
-      + [Indelingssjabloon](classifications/importer/c-download-saint-data.md)
-      + [Browserimport](classifications/importer/browser-import.md)
-      + [Browser exporteren](classifications/importer/browser-export.md)
-      + [FTP importeren](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
-      + [FTP-export](classifications/importer/ftp-export.md)
-      + [Verwerkingstijd](classifications/importer/processing-time.md)
-      + [Subclassificaties](classifications/importer/subclassifications.md)
-      + [Problemen oplossen](classifications/importer/troubleshooting.md)
-      + [Veelgestelde vragen](classifications/importer/importer-faq.md)
+   + Oudere classificaties {#legacy-classifications}
+      + Bouwer van classificatieregel {#classifications-rulebuilder}
+         + [Overzicht](classifications/crb/classification-rule-builder.md)
+         + [Classificatiereeksen](classifications/crb/classification-rule-set.md)
+         + [Classificatieregels](classifications/crb/classification-quickstart-rules.md)
+         + [Definities van classificatieregel](classifications/crb/classification-rule-definitions.md)
+         + [Subclassificaties en de regelbouwer](classifications/crb/subclassification-rule-builder.md)
+      + Indelingsimporteur {#classifications-importer}
+         + [Overzicht van de importfunctie voor classificaties](classifications/importer/c-working-with-saint.md)
+         + [Classificatiegegevensbestanden](classifications/importer/c-saint-data-files.md)
+         + [Classificatiegegevens verwijderen](classifications/importer/t-delete-classification-data.md)
+         + [Indelingssjabloon](classifications/importer/c-download-saint-data.md)
+         + [Browserimport](classifications/importer/browser-import.md)
+         + [Browser exporteren](classifications/importer/browser-export.md)
+         + [FTP importeren](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+         + [FTP-export](classifications/importer/ftp-export.md)
+         + [Verwerkingstijd](classifications/importer/processing-time.md)
+         + [Subclassificaties](classifications/importer/subclassifications.md)
+         + [Problemen oplossen](classifications/importer/troubleshooting.md)
+         + [Veelgestelde vragen](classifications/importer/importer-faq.md)
 + Locaties {#locations}
    + [Locatiebeheer](/help/components/locations/locations-manager.md)
    + [Cloud-importaccounts](/help/components/locations/configure-import-accounts.md)
@@ -309,3 +310,4 @@ ht-degree: 7%
    + [Marketingkanalen analyseren](c-marketing-channels/analyze-mc.md)
    + [Machtigingen voor marketingkanalen](c-marketing-channels/c-channel-report-access.md)
    + [Veelgestelde vragen en voorbeelden over marketingkanalen](c-marketing-channels/c-faq.md)
+
