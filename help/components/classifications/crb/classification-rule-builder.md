@@ -18,7 +18,7 @@ In plaats van elke keer dat uw volgcodes veranderen classificaties te onderhoude
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de regelbouwer van de Classificatie &#x200B;](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de regelbouwer van de Classificatie &#x200B;](https://video.tv.adobe.com/v/3434383?captions=dut&quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
