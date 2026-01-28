@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: bc07745771f6e1b1228f4d77ff8e89130b90ebef
+source-git-commit: 5109dc297f1b930258e4cffa8ca4325cf369ca6e
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Handleiding voor analytische componenten](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -264,8 +264,8 @@ ht-degree: 7%
    + Classificatiesets {#sets}
       + [Overzicht](classifications/sets/overview.md)
       + [Gegevensbestanden](classifications/sets/data-files.md)
-      + [Maken en bewerken](classifications/sets/create.md)
-      + [Beheren](classifications/sets/set-manager.md)
+      + [Maken en bewerken](/help/components/classifications/sets/create.md)
+      + [Beheren](/help/components/classifications/sets/set-manager.md)
       + Classificatieset {#set}
          + [Instellingen](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
