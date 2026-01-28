@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: bc07745771f6e1b1228f4d77ff8e89130b90ebef
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '736'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Handleiding voor analytische componenten](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -284,7 +284,7 @@ ht-degree: 7%
       + Indelingsimporteur {#classifications-importer}
          + [Overzicht](classifications/importer/c-working-with-saint.md)
          + [Gegevensbestanden](classifications/importer/c-saint-data-files.md)
-         + [Classificatiegegevens verwijderen](classifications/importer/t-delete-classification-data.md)
+         + [Gegevens verwijderen](classifications/importer/t-delete-classification-data.md)
          + [Sjabloon](classifications/importer/c-download-saint-data.md)
          + [Browserimport](classifications/importer/browser-import.md)
          + [Browser exporteren](classifications/importer/browser-export.md)
