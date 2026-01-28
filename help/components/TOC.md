@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Handleiding voor analytische componenten](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -272,8 +272,8 @@ ht-degree: 7%
          + [Regels](classifications/sets/manage/rules.md)
       + [Classificatiebanen](classifications/sets/job-manager.md)
       + Consolidatie van classificaties {#consolidations}
-         + [Beheren](classifications/sets/consolidations/manage.md)
          + [Maken en bewerken](classifications/sets/consolidations/process.md)
+         + [Beheren](classifications/sets/consolidations/manage.md)
    + Oudere classificaties {#legacy-classifications}
       + Bouwer van classificatieregel {#classifications-rulebuilder}
          + [Overzicht](classifications/crb/classification-rule-builder.md)
