@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 50700a4ee1d836516a96be3816d4c777c4172ce5
+source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Handleiding voor analytische componenten](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -310,4 +310,3 @@ ht-degree: 7%
    + [Marketingkanalen analyseren](c-marketing-channels/analyze-mc.md)
    + [Machtigingen voor marketingkanalen](c-marketing-channels/c-channel-report-access.md)
    + [Veelgestelde vragen en voorbeelden over marketingkanalen](c-marketing-channels/c-faq.md)
-
