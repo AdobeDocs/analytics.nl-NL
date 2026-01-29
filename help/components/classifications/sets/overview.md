@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Overzicht van classificatiesets
 
-Classificatiesets bieden één interface voor het beheer van classificaties en regels. Dit werkschema combineert de verwezenlijking van classificaties in [ de reeksinstellingen van het Rapport ](/help/admin/tools/manage-rs/report-suites-admin.md) met [ de invoerder van de Classificatie ](/help/components/classifications/sets/manage-sets.md). Het resultaat is één intuïtieve interface voor het maken en beheren van classificatiegegevens.
+Classificatiesets bieden één interface voor het beheer van classificaties en regels. Dit werkschema combineert de verwezenlijking van classificaties in [&#x200B; de reeksinstellingen van het Rapport &#x200B;](/help/admin/tools/manage-rs/report-suites-admin.md) met [&#x200B; de invoerder van de Classificatie &#x200B;](/help/components/classifications/sets/manage-sets.md). Het resultaat is één intuïtieve interface voor het maken en beheren van classificatiegegevens.
 
 
 ## Classificatiesets versus oudere classificaties
@@ -21,25 +21,25 @@ Het belangrijkste verschil tussen classificatiesets en oudere classificaties is 
 
 ### Oudere classificaties
 
-![ Verouderde classificatie ](/help/components/classifications/sets/assets/classifications-legacy.svg)
+![&#x200B; Verouderde classificatie &#x200B;](/help/components/classifications/sets/assets/classifications-legacy.svg)
 
-In erfenisclassificaties, hebben classificaties ![ Schema ](/help/assets/icons2/Schema.svg) (als voor verkeer, omzettingen, marketing kanalen, en meer) elk hun eigen dimensie (sleutel ![ Sleutel ](/help/assets/icons2/Key.svg)). U bepaalt deze classificaties als deel van uw [ de reeksinstellingen van het Rapport ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).
+In erfenisclassificaties, hebben classificaties ![&#x200B; Schema &#x200B;](/help/assets/icons2/Schema.svg) (als voor verkeer, omzettingen, marketing kanalen, en meer) elk hun eigen dimensie (sleutel ![&#x200B; Sleutel &#x200B;](/help/assets/icons2/Key.svg)). U bepaalt deze classificaties als deel van uw [&#x200B; de reeksinstellingen van het Rapport &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).
 
-U bepaalt regels ![ BidRule ](/help/assets/icons/BidRule.svg) afzonderlijk in regelreeksen als deel van de [ bouwer van de classificatieregel ](/help/components/classifications/crb/classification-rule-builder.md) interface. In die interface, associeert u een regel die met één of meerdere rapportreeksen wordt geplaatst.
+U bepaalt regels ![&#x200B; BidRule &#x200B;](/help/assets/icons/BidRule.svg) afzonderlijk in regelreeksen als deel van de [&#x200B; bouwer van de classificatieregel &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) interface. In die interface, associeert u een regel die met één of meerdere rapportreeksen wordt geplaatst.
 
-U gebruikt de [ importeur van de Classificatie ](/help/components/classifications/importer/c-working-with-saint.md) om een malplaatje ![ DocumentFragment ](/help/assets/icons/DocumentFragment.svg) te downloaden, ![ UploadToCloud ](/help/assets/icons/UploadToCloud.svg) classificaties in te voeren aan, of ![ download ](/help/assets/icons/Download.svg) classificaties van een rapportreeks - zeer belangrijke (dataset) combinatie uit te voeren.
+U gebruikt de [&#x200B; importeur van de Classificatie &#x200B;](/help/components/classifications/importer/c-working-with-saint.md) om een malplaatje ![&#x200B; DocumentFragment &#x200B;](/help/assets/icons/DocumentFragment.svg) te downloaden, ![&#x200B; UploadToCloud &#x200B;](/help/assets/icons/UploadToCloud.svg) classificaties in te voeren aan, of ![&#x200B; download &#x200B;](/help/assets/icons/Download.svg) classificaties van een rapportreeks - zeer belangrijke (dataset) combinatie uit te voeren.
 
 
 
 ### Classificatiesets
 
-![ de reeksen van de Classificatie ](./assets/classifications-sets.svg)
+![&#x200B; de reeksen van de Classificatie &#x200B;](./assets/classifications-sets.svg)
 
 In classificatiesets worden alle bestaande classificatieservices in één geheel ondergebracht. Elk classificatieset definieert:
 
-* Één of meerdere abonnementen, die de combinatie van een rapportreeks ![ Gegevens ](/help/assets/icons2/Data.svg) en de dimensie ![ Sleutel ](/help/assets/icons2/Key.svg) (sleutel) is, die u wilt classificeren. Als u producten wilt classificeren die op productSKU worden gebaseerd, kunt u alle rapportsuites met een toepasselijke afmeting van productSKU bepalen. En je hoeft geen classificaties te repliceren over rapportesuites zoals in de oudere classificatieinterface.
-* Een lijst van classificaties ![ Schema ](/help/assets/icons2/Schema.svg) (schema) voor de sleutel. Voor productclassificaties kunt u bijvoorbeeld categorie, kleur, grootte, geslacht en meer opgeven. Zodra u uw classificaties hebt bepaald, kunt u een malplaatje ![ DocumentFragment ](/help/assets/icons/DocumentFragment.svg) downloaden, ![ UploadToCloud ](/help/assets/icons/UploadToCloud.svg) classificatiegegevens uploaden, ![ download ](/help/assets/icons/Download.svg) classificatiegegevens, en meer.
-* Één of meerdere regels ![ BidRule ](/help/assets/icons/BidRule.svg) om de classificaties te steunen.
+* Één of meerdere abonnementen, die de combinatie van een rapportreeks ![&#x200B; Gegevens &#x200B;](/help/assets/icons2/Data.svg) en de dimensie ![&#x200B; Sleutel &#x200B;](/help/assets/icons2/Key.svg) (sleutel) is, die u wilt classificeren. Als u producten wilt classificeren die op productSKU worden gebaseerd, kunt u alle rapportsuites met een toepasselijke afmeting van productSKU bepalen. En je hoeft geen classificaties te repliceren over rapportesuites zoals in de oudere classificatieinterface.
+* Een lijst van classificaties ![&#x200B; Schema &#x200B;](/help/assets/icons2/Schema.svg) (schema) voor de sleutel. Voor productclassificaties kunt u bijvoorbeeld categorie, kleur, grootte, geslacht en meer opgeven. Zodra u uw classificaties hebt bepaald, kunt u een malplaatje ![&#x200B; DocumentFragment &#x200B;](/help/assets/icons/DocumentFragment.svg) downloaden, ![&#x200B; UploadToCloud &#x200B;](/help/assets/icons/UploadToCloud.svg) classificatiegegevens uploaden, ![&#x200B; download &#x200B;](/help/assets/icons/Download.svg) classificatiegegevens, en meer.
+* Één of meerdere regels ![&#x200B; BidRule &#x200B;](/help/assets/icons/BidRule.svg) om de classificaties te steunen.
 
 
 Als u **[!UICONTROL Classification sets]** wilt openen vanuit het menu **[!UICONTROL Components]** in de Adobe Analytics-interface, moet u een productbeheerder zijn of behoren tot een productprofiel dat het machtigingsitem [!UICONTROL Report Suite Tools] > [!UICONTROL Classifications] bevat. Let op: oudere interfaces voor classificatiebeheer zijn beschikbaar in het menu **[!UICONTROL Admin]** .
@@ -56,23 +56,23 @@ Indelingssets bestaan uit drie functionele gebieden:
 De workflow voor classificatiesets bestaat meestal uit de volgende stappen:
 
 1. Overweeg voor welke rapportsuite en dimensiecombinaties u een classificatieset wilt maken. Een voorbeeld hiervan is het definiëren van een productclassificatieset dat u maakt voor elke rapportsuite waarvoor u producten met meer details wilt classificeren. Bijvoorbeeld details zoals categorie en kleur.
-1. [ creeer een classificatiereeks ](/help/components/classifications/sets/create-set.md) met abonnementen voor één of meerdere rapportreeks en zeer belangrijke afmetingscombinaties die producten identificeren. Bijvoorbeeld:
+1. [&#x200B; creeer een classificatiereeks &#x200B;](/help/components/classifications/sets/create-set.md) met abonnementen voor één of meerdere rapportreeks en zeer belangrijke afmetingscombinaties die producten identificeren. Bijvoorbeeld:
 
    | Rapportsuite | Belangrijke dimensie |
    |---|---|
    | Rapportsuite 1 | Product-id |
    | Rapportsuite 2 | Product-SKU |
 
-1. [ voeg de classificaties ](/help/components/classifications/sets/manage/schema.md#add) toe die u aan het schema van de classificatieset hebt geïdentificeerd. Bijvoorbeeld:
+1. [&#x200B; voeg de classificaties &#x200B;](/help/components/classifications/sets/manage/schema.md#add) toe die u aan het schema van de classificatieset hebt geïdentificeerd. Bijvoorbeeld:
 
    | Classificatienaam | Identiteitsnaam |
    |---|---|
    | Categorie | categorie |
    | Kleur | kleur |
 
-1. Maak handmatig een bestand met classificatiegegevens. [ Gebruik een malplaatje ](/help/components/classifications/sets/manage/schema.md#template) om u te verzekeren gebruikt het [ gesteunde dossierformaat ](data-files.md#classification-set-file-formats) en kolommen voor het dossier. Voeg vervolgens de gegevens toe aan het sjabloonbestand.
+1. Maak handmatig een bestand met classificatiegegevens. [&#x200B; Gebruik een malplaatje &#x200B;](/help/components/classifications/sets/manage/schema.md#template) om u te verzekeren gebruikt het [&#x200B; gesteunde dossierformaat &#x200B;](data-files.md#classification-set-file-formats) en kolommen voor het dossier. Voeg vervolgens de gegevens toe aan het sjabloonbestand.
 
-   Alternatief kunt u gegevens van uw productcatalogus in de [ gesteunde dossierformaten ](data-files.md#classification-set-file-formats) met kolommen direct uitvoeren die aan het malplaatje aanhangen. Bijvoorbeeld een CSV-bestand, zoals:
+   Alternatief kunt u gegevens van uw productcatalogus in de [&#x200B; gesteunde dossierformaten &#x200B;](data-files.md#classification-set-file-formats) met kolommen direct uitvoeren die aan het malplaatje aanhangen. Bijvoorbeeld een CSV-bestand, zoals:
 
    ```
    Key,Category,Color
@@ -93,16 +93,16 @@ De workflow voor classificatiesets bestaat meestal uit de volgende stappen:
 
    In het bestand met classificatiegegevens verwijst u naar de belangrijkste dimensie voor elke rapportsuite (bijvoorbeeld: **[!UICONTROL Product ID]** en **[!UICONTROL Product SKU]** ) met `Key` . En u verwijst naar elke classificatie met behulp van **[!UICONTROL Classification Name]** (bijvoorbeeld `Category` of `Color` ).
 
-1. [ uploadt ](/help/components/classifications/sets/manage/schema.md#upload) het dossier dat de classificatiegegevens in het schema van de classificatieset bevat.
+1. [&#x200B; uploadt &#x200B;](/help/components/classifications/sets/manage/schema.md#upload) het dossier dat de classificatiegegevens in het schema van de classificatieset bevat.
 
-1. Opstelling [ regels ](manage/rules.md) om inkomende gegevens en gegevens van het verleden automatisch te classificeren.
+1. Opstelling [&#x200B; regels &#x200B;](manage/rules.md) om inkomende gegevens en gegevens van het verleden automatisch te classificeren.
 
-1. [ Automate ](/help/components/classifications/sets/manage/schema.md#automate) het proces van updates aan uw productcatalogus die u weerspiegeld in classificatiegegevens door het gebruik van een wolkenplaats wilt zien.
+1. [&#x200B; Automate &#x200B;](/help/components/classifications/sets/manage/schema.md#automate) het proces van updates aan uw productcatalogus die u weerspiegeld in classificatiegegevens door het gebruik van een wolkenplaats wilt zien.
 
-1. [ Download ](/help/components/classifications/sets/manage/schema.md#download) uw classificatiegegevens om de inhoud te bevestigen.
+1. [&#x200B; Download &#x200B;](/help/components/classifications/sets/manage/schema.md#download) uw classificatiegegevens om de inhoud te bevestigen.
 
-1. [ inspecteer de baangeschiedenis ](/help/components/classifications/sets/job-manager.md) om de resultaten van uw acties (upload, download, malplaatje, en meer) op classificaties te zien.
-1. Als u veelvoudige gelijkaardige classificatiereeksen als resultaat van een migratie van de functionaliteit van de erfenisclassificatie hebt, [ consolideert ](consolidations/manage.md) deze classificatiereeksen.
+1. [&#x200B; inspecteer de baangeschiedenis &#x200B;](/help/components/classifications/sets/job-manager.md) om de resultaten van uw acties (upload, download, malplaatje, en meer) op classificaties te zien.
+1. Als u veelvoudige gelijkaardige classificatiereeksen als resultaat van een migratie van de functionaliteit van de erfenisclassificatie hebt, [&#x200B; consolideert &#x200B;](consolidations/manage.md) deze classificatiereeksen.
 
 
 
@@ -112,7 +112,7 @@ De backend architectuur die met classificatiesets wordt vrijgegeven bevat versch
 
 * Verminderde verwerkingstijd (van 72 uur tot 24 uur).
 * Een vernieuwde gebruikersinterface voor het beheer van classificaties.
-* De optie om classificatiegegevens in Adobe Experience Platform door de [ bron van Adobe Analytics schakelaar voor classificatiegegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications) te gebruiken.
+* De optie om classificatiegegevens in Adobe Experience Platform door de [&#x200B; bron van Adobe Analytics schakelaar voor classificatiegegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications) te gebruiken.
 
 De backend architectuur die met classificatiesets wordt vrijgegeven bevat ook verscheidene veranderingen:
 
@@ -126,5 +126,5 @@ De backend architectuur die met classificatiesets wordt vrijgegeven bevat ook ve
 
 ## Beperkingen
 
-* Classificatiesets ondersteunen nog geen regels. De functionaliteit van regels wordt toegevoegd aan de interface van classificatiesets alvorens de [ functionaliteit van de bouwer van de erfenisregel ](/help/components/classifications/crb/classification-rule-builder.md) niet beschikbaar wordt.
+* Classificatiesets ondersteunen nog geen regels. De functionaliteit van regels wordt toegevoegd aan de interface van classificatiesets alvorens de [&#x200B; functionaliteit van de bouwer van de erfenisregel &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) niet beschikbaar wordt.
 * Er is geen migratie van oude classificatieregels en configuraties naar classificatiesets. Een migratienut wordt toegevoegd aan de interface van classificatiesets alvorens de functionaliteit van de erfenisclassificatie niet beschikbaar wordt.
