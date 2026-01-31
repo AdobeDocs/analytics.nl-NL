@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 # Adobe Analytics-implementatiehandleiding {#implementation}
 
 + [Handleiding voor analytische implementatie](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + [Opmerkingen bij de release van AppMeasurement](appmeasurement-updates.md)
 + Variabelen, functies en methoden voor analyse {#vars}
    + [Overzicht](vars/overview.md)
@@ -148,8 +148,8 @@ ht-degree: 7%
    + [Een bestaande Adobe Analytics-implementatie op zich nemen](prepare/existing-implementation.md)
 + Analyses implementeren met Experience Platform Edge {#aep-edge}
    + [Overzicht van Experience Edge](aep-edge/overview.md)
-   + [Variabele voor gegevensobject toewijzen](aep-edge/data-var-mapping.md)
-   + [XML-objectvariabele toewijzen](aep-edge/xdm-var-mapping.md)
+   + [Gegevensobjectveldtoewijzing](aep-edge/data-var-mapping.md)
+   + [XML-objectveldtoewijzing](aep-edge/xdm-var-mapping.md)
    + [Edge Network-gebeurtenistypen](aep-edge/hit-types.md)
    + Web SDK {#web-sdk}
       + [Overzicht van Web SDK](aep-edge/web-sdk/overview.md)
