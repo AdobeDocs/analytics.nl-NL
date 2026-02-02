@@ -1,95 +1,176 @@
 ---
-title: Hoe te om gegevensblokken te beheren gebruikend Report Builder
-description: Beschrijft hoe te om de te beheren eigenschap in Report Builder te gebruiken
+title: Gegevensblokken beheren in Report Builder
+description: Leer hoe u gegevensblokken beheert in Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
-source-git-commit: 8c863329e385c7e3fe15d85c07e1a1d541296acb
+source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
-# Gegevensblokken beheren in Report Builder
+# Gegevensblokken beheren
 
-U kunt alle gegevensblokken in een werkboek bekijken en beheren gebruikend de Manager van het Blok van Gegevens. De Manager van het Blok van Gegevens verstrekt onderzoek, filter, en soortmogelijkheden die u toestaan om van specifieke gegevensblokken snel de plaats te bepalen. Nadat u een of meer gegevensblokken hebt geselecteerd, kunt u de geselecteerde gegevensblokken bewerken, verwijderen of vernieuwen.
-
-![&#x200B; het scherm van de het blokmanager van Gegevens.](./assets/image52.png)
+U kunt alle gegevensblokken in een werkboek bekijken en beheren gebruikend [!UICONTROL Data block manager]. De [!UICONTROL Data block manager] biedt mogelijkheden voor zoeken, filteren en sorteren waarmee u specifieke gegevensblokken kunt zoeken. Nadat u een of meer gegevensblokken hebt geselecteerd, kunt u de geselecteerde gegevensblokken bewerken, verwijderen of vernieuwen.
 
 ## Gegevensblokken weergeven
 
-Klik **leiden** om een lijst van alle gegevensblokken in een werkboek te bekijken.
+Om een lijst te bekijken die van alle gegevensblokken in een werkboek een lijst maakt, uitgezochte ![ TableManage ](/help/assets/icons/TableManage.svg) **[!UICONTROL Manage]**.
 
-![&#x200B; beheert optie om een lijst van alle gegevensblokken te bekijken.](./assets/image53.png)
+![ beheert optie om een lijst van alle gegevensblokken te bekijken.](./assets/image53.png){zoomable="yes"}
 
-De Manager van het Blok van Gegevens maakt een lijst van alle gegevensblokken aanwezig in een werkboek. 
+**[!UICONTROL Data block manager]** toont een lijst met alle gegevensblokken aanwezig in een werkboek.
 
-## De lijst Gegevensblokken sorteren
+![ de lijst van alle gegevensblokken aanwezig in een werkboek.](./assets/image52.png){zoomable="yes"}
 
-U kunt de lijst van gewezen personen van gegevens sorteren op een weergegeven kolom. Bijvoorbeeld, kunt u de lijst van gewezen personen van gegevens door rapportreeksen, segmenten, datumwaaier, en andere variabelen sorteren.
+U kunt ![ gebruiken ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te selecteren welke kolommen u wilt tonen.
 
-Klik op een kolomkop om de lijst van gewezen personen van de gegevens te sorteren.
+## Gegevensblokken sorteren
 
-![&#x200B; Sorterend de gegevensblokken.](./assets/image54.png)
+U kunt de gegevensbloklijst door een getoonde kolom sorteren. Bijvoorbeeld, kunt u gegevensblokken door rapportreeksen, segmenten, datumwaaier, en andere variabelen sorteren.
 
-## De Lijst van gewezen personen Gegevens doorzoeken
+Als u de gegevensbloktabel wilt sorteren, selecteert u een kolomkop. Selecteer dezelfde kolomkop om de sorteervolgorde om te keren.
 
-Gebruik het veld Zoeken om iets te zoeken in de tabel met gegevensblokken. U kunt bijvoorbeeld zoeken naar metriek in de gegevensblokken of de rapportsuite. U kunt ook zoeken naar datums die worden weergegeven in het datumbereik, de datumwijziging of de kolommen met de laatste uitvoerdatum.
 
-![&#x200B; Gebruikend het gebied van het Onderzoek om van om het even wat in de lijst van het gegevensblok de plaats te bepalen.](./assets/image55.png)
+## Gegevensblokken zoeken
+
+Gebruik het ![ ](/help/assets/icons/Search.svg) 3} gebied van het Onderzoek **[!UICONTROL _{van het Onderzoek {om van om het even wat in de lijst van het gegevensblok de plaats te bepalen._]** U kunt bijvoorbeeld zoeken naar metriek in de gegevensblokken of de rapportsuite. U kunt ook zoeken naar datums die worden weergegeven in het datumbereik, de datumwijziging of de kolommen met de laatste uitvoerdatum.
+
 
 ## Gegevensblokken bewerken
 
-U kunt de rapportreeks, datumwaaier, of de segmenten uitgeven die op één of meerdere gegevensblokken worden toegepast.
+U kunt rapportsuites en datumwaaiers fordata blokken uitgeven. Of de segmenten die worden toegepast op gegevensblokken.
 
 U kunt bijvoorbeeld een bestaand segment vervangen door een nieuw segment in een of meer gegevensblokken.
 
 1. Selecteer de gegevensblokken die u wilt bijwerken. U kunt het selectievakje op het hoogste niveau inschakelen om alle gegevensblokken te selecteren of u kunt afzonderlijke gegevensblokken selecteren.
 
-   ![&#x200B; het potlood geeft pictogram uit &#x200B;](./assets/image56.png)
+   ![ het potlood geeft pictogram uit ](./assets/image56.png){zoomable="yes"}
 
-1. Klik op het pictogram Bewerken om het venster Snel bewerken weer te geven.
+1. Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) om het **[!UICONTROL Quick edit]** venster te tonen.
 
-   ![&#x200B; Snel uitgeeft venster &#x200B;](./assets/image58.png)
+   ![ Snel uitgeeft venster ](./assets/image58.png){zoomable="yes"}
 
-1. Selecteer een segmentverbinding om rapportreeksen, datumwaaiers, of segmenten bij te werken.
+1. Selecteer een verbinding om rapportreeksen, datumwaaiers, of segmenten bij te werken. In **[!UICONTROL Quick Edit]** - **[!UICONTROL Segments]** kunt u de segmenten voor de geselecteerde gegevensblokken toevoegen, verwijderen of bijwerken.
 
-   ![&#x200B; het Add gebied van het Segment in Snel geeft venster uit &#x200B;](./assets/image59.png)
+   ![ het Add gebied van het Segment in Snel geeft venster uit ](./assets/image59.png){zoomable="yes"}
 
 ## Gegevensblokken vernieuwen
 
-Klik op het pictogram Vernieuwen om de gegevensblokken in de lijst te vernieuwen.
+Selecteer ![ verfrissen zich ](/help/assets/icons/Refresh.svg) om de lijst van gegevensblokken te verfrissen.
 
-<img src="./assets/refresh-icon.png" width="15%" alt="Pictogram Vernieuwen"/>
+Als u wilt controleren of een gegevensblok is vernieuwd, bekijkt u het pictogram Status vernieuwen:
 
-Als u wilt controleren of een gegevensblok is vernieuwd, bekijkt u het pictogram Status vernieuwen.
+- Met succes verfrist gegevensblok toont a ![ CheckmarkCircleGreen ](/help/assets/icons/CheckmarkCircleGreen.svg).
 
-Een met succes verfrist gegevensblok toont een controleteken in een groene cirkel: <img src="./assets/refresh-success.png" width="5%" alt="Groene cirkel met vinkje"/>.
-
-Een gegevensblok dat niet is vernieuwd, geeft een waarschuwingspictogram weer: <img src="./assets/refresh-failure.png" width="5%" alt="Rode driehoek met pictogram uitroepteken"/>.Hierdoor is het gemakkelijk om vast te stellen of gegevensblokken fouten bevatten.
+- Een gegevensblok dat er niet in is geslaagd om vertoningen te verfrissen a ![ AlertRed ](/help/assets/icons/AlertRed.svg).
 
 
-![&#x200B; manager die van het blok van Gegevens toont verfrist status voor elk vermeld gegevensblok.](./assets/image512.png)
+## Gegevensblokken verwijderen
 
-## Een gegevensblok verwijderen
+Een of meer gegevensblokken verwijderen:
 
-1. Selecteer een gegevensblok in de Manager van het Blok van Gegevens.
-1. Klik op het prullenbakpictogram om het geselecteerde gegevensblok te verwijderen.
+1. Selecteer een of meer gegevensblokken.
+1. Selecteer ![ Schrapping ](/help/assets/icons/Delete.svg).
+1. Selecteer **[!UICONTROL Delete]** in het dialoogvenster **[!UICONTROL Delete data block]** of **[!UICONTROL Cancel]** om het verwijderen te annuleren.
 
 ## Gegevensblokken groeperen
 
-U kunt gegevensblokken groeperen gebruikend de **Groep door** drop-down menu of u kunt een kolomtitel klikken. Als u gegevensblokken op kolom wilt sorteren, klikt u op de kolomtitel. Om gegevensblokken door groepen te groeperen, selecteer een groepsnaam van de **Groep door** drop-down menu. In de onderstaande schermafbeelding ziet u bijvoorbeeld gegevensblokken gegroepeerd op Werkblad. Het toont gegevensblokken die door Blad1 en Blad2 worden gegroepeerd.  Dit is bijvoorbeeld handig in het gebruikscase voor segmentvervanging. Als er meerdere segmenten zijn toegepast op elk gegevensblok, is het handig om een groep te maken die alle gegevensblokken bevat die u wilt vervangen. Vervolgens kunt u ze allemaal tegelijk selecteren en bewerken.
+U kunt gegevensblokken groeperen met het vervolgkeuzemenu **[!UICONTROL Group by]** of u kunt een kolomtitel selecteren.
 
-![&#x200B; het blokmanager van Gegevens die de Groep door de lijst van het Blad tonen.](./assets/group-data-blocks.png)
+Als u gegevensblokken op kolom wilt sorteren, selecteert u de kolomtitel. Als u gegevensblokken wilt groeperen op groepen, selecteert u een groepsnaam in de vervolgkeuzelijst **[!UICONTROL Group by]** . In de onderstaande schermafbeelding ziet u bijvoorbeeld gegevensblokken gegroepeerd op Rapportsuite.
 
-## De weergave Data Block Manager wijzigen
+U kunt groeperen gebruiken om snel gegevensblokken te selecteren waarvoor u een gemeenschappelijk element, zoals segment wilt wijzigen.
 
-U kunt wijzigen welke kolommen in het venster van de Manager van het Blok van Gegevens zichtbaar zijn.
+![ het blokmanager van Gegevens die de Groep door de lijst van het Blad tonen.](./assets/group-data-blocks.png){zoomable="yes"}
 
 
-Klik op de kolomlijst <img src="./assets/image515.png" width="3%" alt="Pictogram voor kolomlijst"/> om te selecteren welke kolommen worden vermeld in de Manager van het Blok van Gegevens. Selecteer een kolomnaam om de kolom weer te geven. Schakel de kolomnaam uit als u de kolom uit de weergave wilt verwijderen.
 
-![&#x200B; het blokmanager van Gegevens die de kolomlijst &#x200B;](./assets/image516.png) tonen
+<!--
+
+# Manage Data Blocks in Report Builder
+
+You can view and manage all data blocks in a workbook using the Data Block Manager. The Data Block Manager provides search, filter, and sort capabilities that allow you to quickly locate specific data blocks. After selecting one or more data blocks, you can edit, delete, or refresh the selected data blocks.
+
+![The Data block manager screen.](./assets/image52.png)
+
+## View Data Blocks
+
+Click **Manage** to view a list of all data blocks in a workbook.
+
+![The Manage option to view a list of all data blocks.](./assets/image53.png)
+
+The Data Block Manager lists all data blocks present in a workbook. 
+
+## Sort the Data Blocks list
+
+You can sort the data block list by a displayed column. For example, you can sort the data block list by report suites, segments, date range, and other variables.
+
+To sort the data block list, click a column heading.
+
+![Sorting the data blocks.](./assets/image54.png)
+
+## Search the Data Block list
+
+Use the Search field to locate anything in the data block table. For example, you could search for metrics contained in the data blocks or report suite. You can also search for dates appearing in the date range, date modified, or last run date columns.
+
+![Using the Search field to locate anything in the data block table.](./assets/image55.png)
+
+## Edit Data Blocks
+
+You can edit the report suite, date range, or the segments applied to one or more data blocks.
+
+For example, you can replace an existing segment with a new segment in one or more data blocks.
+
+1. Select the data blocks that you want to update. You can select the top-level check box to select all data blocks or you can select individual data blocks.
+
+   ![The pencil edit icon](./assets/image56.png)
+
+1. Click the edit icon to display the Quick edit window.
+
+   ![The Quick edit window](./assets/image58.png)
+
+1. Select a segment link to update report suites, date ranges, or segments.
+
+   ![The Add Segment field in the Quick edit window](./assets/image59.png)
+
+## Refresh Data Blocks
+
+Click the refresh icon to refresh the data blocks in the list.
+
+<img src="./assets/refresh-icon.png" width="15%" alt="Refresh icon"/>
+
+To verify if a data block is refreshed, view the refresh status icon. 
+
+A successfully refreshed data block displays a checkmark in a green circle: <img src="./assets/refresh-success.png" width="5%" alt="Green circle with check mark icon"/>. 
+
+A data block that has failed to refresh displays a warning icon: <img src="./assets/refresh-failure.png" width="5%" alt="Red triangle with exclamation mark icon"/>.This makes it easy to identify if any data blocks have errors.
+
+
+![Data block manager showing refresh status for each data block listed.](./assets/image512.png)
+
+## Delete a Data Block
+
+1. Select a data block in the Data Block manager. 
+1. Click the trash can icon to delete the selected data block.
+
+## Group Data Blocks
+
+You can group data blocks using the **Group by** drop-down menu or you can click a column title. To sort data blocks by column, click the column title. To group data blocks by groups, select a group name from the **Group by** drop-down menu. For example, the screenshot below shows data blocks grouped by Sheet. It shows data blocks grouped by Sheet1 and Sheet2.  This is useful, for example, in the segment-replacing use case. If you have multiple segments applied to each data block, it is helpful to create a group containing all the data blocks that you want to replace. Then you can easily select and edit them all at once.
+
+![Data block manager showing the Group by Sheet list.](./assets/group-data-blocks.png)
+
+## Modify the Data Block Manager view
+
+You can modify which columns are visible in the Data Block Manager window.
+
+
+Click the column list <img src="./assets/image515.png" width="3%" alt="Column list icon"/> icon to select which columns are listed in the Data Block Manager. Select a column name to display the column. Deselect the column name to remove the column from view.
+
+![Data block manager showing the column list](./assets/image516.png)
+
+-->

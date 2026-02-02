@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 993bef6137bbcda98cb6f09f9e8644db44e7d8cb
+source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Handleiding voor analytische componenten](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -296,8 +296,8 @@ ht-degree: 7%
          + [Veelgestelde vragen](classifications/importer/importer-faq.md)
 + Locaties {#locations}
    + [Locatiebeheer](/help/components/locations/locations-manager.md)
-   + [Cloud-importaccounts](/help/components/locations/configure-import-accounts.md)
-   + [Cloud-importlocaties](/help/components/locations/configure-import-locations.md)
+   + [Cloudaccounts configureren](/help/components/locations/configure-import-accounts.md)
+   + [Cloudinstellingen configureren](/help/components/locations/configure-import-locations.md)
 + [Geplande projecten](scheduled-projects-manager.md)
 + [Wachtrij voor geplande rapporten](scheduled-reports-admin.md)
 + Real-time rapportage {#real-time-reporting}

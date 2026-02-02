@@ -1,54 +1,57 @@
 ---
-title: Hoe te om een rapportreeks in Report Builder te selecteren
-description: Beschrijft hoe te om rapportreeksen in Adobe Report Builder te selecteren
+title: Selecteer een rapportsuite in Report Builder
+description: Leer hoe u een rapportsuite selecteert in Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
+source-git-commit: 6f7de360ac24261eabb46c6cfce99449261706de
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # Selecteer een rapportsuite
 
-U kunt een rapportsuite selecteren in de vervolgkeuzelijst of een rapportsuite selecteren in een cel en uw gegevensblok automatisch bijwerken met een nieuwe rapportsuite.
+U kunt een rapportsuite selecteren in het keuzemenu of een rapportsuite selecteren in een cel en uw gegevensblok automatisch bijwerken met een nieuwe rapportsuite.
 
-**Uitgezochte rapportreeks van cel**
+## Rapportsuite selecteren vanuit een cel
 
-Als u een rapportsuite in een cel selecteert, kunt u gegevensblokken eenvoudig vernieuwen met behulp van verschillende rapportsuites. Als uw organisatie veelvoudige rapportreeksen heeft die gelijkaardig of identiek aan elkaar in structuur zijn, in plaats van het creëren van volledig nieuwe rapporten met afzonderlijke gegevensblokken, kunt u gegevensblokken met een rapportreeks verfrissen die van een cel wordt geselecteerd. Dit is ook handig als u gecompliceerde gegevensblokindelingen hebt die aangepaste componenten en indelingen bevatten.
+Als u een rapportsuite in een cel selecteert, kunt u gegevensblokken eenvoudig vernieuwen met behulp van verschillende rapportsuites. In plaats van volledig nieuwe rapporten met afzonderlijke gegevensblokken te creëren, kunt u gegevensblokken met een rapportreeks verfrissen die van een cel wordt geselecteerd.
 
-Om een rapportreeks van een cel te selecteren, bouw eerst een gegevensblok en wijs veelvoudige rapportreeksen aan een cel buiten uw gegevensblok toe. Gebruik vervolgens de rapportsuite van het deelvenster Cel om uw gegevensblokken te vernieuwen van verschillende rapportsuites.
+Het selecteren van een rapportsuite in een cel is handig als u:
 
-1. Maak een gegevensblok.
-Voor informatie over het creëren van een gegevensblok, zie [&#x200B; een Blok van Gegevens &#x200B;](/help/analyze/report-builder/create-a-data-block.md) creëren.
+* Meerdere rapportsuites die op elkaar lijken of identiek zijn in structuur.
+* Gecompliceerde gegevensblokindelingen die aangepaste componenten en lay-outs bevatten.
 
-1. Klik het *celpictogram* in de **[!UICONTROL report suites]** sectie.
+Om een rapportreeks van een cel te selecteren, bouw eerst een gegevensblok en wijs veelvoudige rapportreeksen aan een cel buiten uw gegevensblok toe. Gebruik vervolgens het deelvenster **[!UICONTROL Report suite from cell]** om uw gegevensblokken te vernieuwen van verschillende rapportsuites.
 
-1. Selecteer een cellocatie om de rapportsuites aan de geselecteerde cel toe te voegen.
+1. Maak een gegevensblok. Voor informatie over het creëren van een gegevensblok, zie [ een gegevensblok ](/help/analyze/report-builder/create-a-data-block.md) creëren.
 
-   U wilt mogelijk een cel selecteren die ver genoeg van uw gegevensblokcellen is verwijderd, zodat deze elkaar niet overlappen.
+1. Selecteer ![ DataViewSelector ](/help/assets/icons/DataViewSelector.svg) in **[!UICONTROL Report suites]**.
 
-1. Bevestig de geselecteerde cellocatie.
+1. Selecteer een cel gebruikend ![ DataBlockSelector ](/help/assets/icons/DataBlockSelector.svg) buiten het gegevensblok.
 
-1. Selecteer de rapportsuites die u aan de cel wilt toewijzen.
+1. Voeg een of meer rapportsuites van **[!UICONTROL Select report suites to add to report suite from cell]** toe gebruikend belemmering en daling. U kunt ook een rapportsuite selecteren om de rapportsuite aan de lijst **[!UICONTROL Report suites included]** toe te voegen.
 
-1. Klik **toepassen**.
+   * U kunt ![ Onderzoek ](/help/assets/icons/Search.svg) gebruiken **[!UICONTROL _Uitgezochte rapportsuites_]** om naar rapportsuites te zoeken.
+   * Gebruik ![ MoreSmall ](/help/assets/icons/MoreSmall.svg) om een contextmenu te openen zodat kunt u rapportreeksen omhoog of omlaag in de **[!UICONTROL Report suites included]** lijst bewegen.
+   * Gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een rapportreeks van de **[!UICONTROL Report suites included]** lijst te schrappen.
 
-   Wanneer u uw gegevensblok voltooit, kunt u uw gegevensblok verfrissen gebruikend een verschillende rapportreeks van de geselecteerde cel.
+   ![ Uitgezochte rapportreeks van een cel ](assets/dataviews-from-a-cell.png){zoomable="yes"}
 
-   **verander de rapportreeks van de cel**
+1. Selecteer **[!UICONTROL Apply]** om de geselecteerde rapportsuites op de geselecteerde cel toe te passen.
 
-1. Klik de de celplaats van de rapportsuite die u in Stap 3 koos.
 
-   Er wordt een vervolgkeuzemenu weergegeven met de rapportsuites die u eerder in Stap 5 hebt geselecteerd.
+## De rapportsuite vanuit een cel wijzigen
 
-1. Selecteer een andere rapportsuite in de vervolgkeuzelijst.
+1. Selecteer de locatie van de cel van de rapportsuite in uw werkblad.
+1. Selecteer in de Report Builder-hub de koppeling **[!UICONTROL Report suites from cell]** in **[!UICONTROL Quick edit]** .
+1. Selecteer een rapportsuite in het keuzemenu **[!UICONTROL Report suite]** .
 
-1. (Facultatief) **Uitgezocht verfrist gegevensblok(ken)** op verandering.
+   ![ het rapportreeks van de Verandering van een cel ](assets/change-data-view-from-cell.png){zoomable="yes"}
+1. Selecteer **[!UICONTROL Refresh data block(s) upon change]** Optioneel.
 
-1. Klik **toepassen**.
-
-   De Report Builder verfrist het gegevensblok met de gekozen rapportreeks.
+1. Selecteer **[!UICONTROL Apply]** . Report Builder vernieuwt het gegevensblok op basis van de geselecteerde rapportsuite.

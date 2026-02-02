@@ -1,24 +1,25 @@
 ---
-title: Report Builder instellen in Adobe Analytics
-description: Beschrijft hoe te opstelling Report Builder in Adobe Analytics
+title: Report Builder instellen
+description: Beschrijft hoe te opstelling Report Builder in Adobe Analytics.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
+source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
 # Report Builder instellen
 
-U kunt tot Report Builder snel toegang hebben gebruikend het toe:voegen-binnen menu van Excel.
+In dit artikel worden de vereisten beschreven voor het gebruik van Report Builder for Adobe Analytics in Microsoft Excel. En hoe te om toe:voegen-binnen te installeren en te opstelling.
 
 ## Vereisten
 
-Report Builder voor Adobe Analytics wordt ondersteund door de volgende besturingssystemen en webbrowsers.
+Report Builder for Adobe Analytics wordt ondersteund door de volgende besturingssystemen en webbrowsers.
 
 ### macOS
 
@@ -41,13 +42,13 @@ Report Builder voor Adobe Analytics wordt ondersteund door de volgende besturing
 - Ondersteunt alle browsers en versies
 
 
-## Report Builder Excel-invoegtoepassing
+## Report Builder Excel Add-in
 
-U moet Report Builder Excel toe:voegen-binnen installeren om Report Builder voor Adobe Analytics te gebruiken. Zodra u toe:voegen-binnen Report Builder Excel installeert, kunt u tot Report Builder van binnen een open werkboek van Excel toegang hebben.
+U moet de Report Builder Excel Add-in installeren om Report Builder voor Adobe Analytics te gebruiken. Zodra u toe:voegen-binnen Report Builder Excel installeert, kunt u tot Report Builder van binnen een open werkboek van Excel toegang hebben.
 
-### De invoegtoepassing Report Builder downloaden en installeren
+### De Report Builder Add-in downloaden en installeren
 
-De invoegtoepassing voor Reporten Builder downloaden en installeren
+De Report Builder Add-in downloaden en installeren
 
 1. Start Excel en open een nieuw werkboek.
 
@@ -55,7 +56,7 @@ De invoegtoepassing voor Reporten Builder downloaden en installeren
 
 1. Selecteer het tabblad Opslag in het dialoogvenster Office Add-ins.
 
-1. Zoek naar &quot;Report Builder&quot;en klik **[!UICONTROL Add]**.
+1. Zoek naar &quot;Report Builder&quot; en klik op **[!UICONTROL Add]** .
 
 1. Klik in het dialoogvenster Licentievoorwaarden en privacybeleid op **[!UICONTROL Continue]** .
 
@@ -71,27 +72,27 @@ De invoegtoepassing voor Reporten Builder downloaden en installeren
 
 Vraag uw IT- of beveiligingsteam om goedkeuring voor de Report Builder Add-in. Nadat goedkeuring wordt verleend, in de dialoog van toe:voegen-ins van het Bureau, selecteer Beheerde Admin tabel.
 
-![&#x200B; Admin Beheerde lusje in de dialoog van toe:voegen-ins van het Bureau.](./assets/image1.png)
+![ Admin Beheerde lusje in de dialoog van toe:voegen-ins van het Bureau.](./assets/image1.png)
 
-Nadat u de invoegtoepassing Report Builder hebt geïnstalleerd, wordt het pictogram Report Builder weergegeven in het Excel-lint onder het tabblad Start.
+Nadat u de Report Builder Add-in hebt geïnstalleerd, wordt het Report Builder-pictogram weergegeven in het Excel-lint onder het tabblad Start.
 
-![&#x200B; het pictogram van de Report Builder in Excel &#x200B;](./assets/rb_app_icon.png)
+![ het pictogram van Report Builder in Excel ](./assets/rb_app_icon.png)
 
 ## Aanmelden bij Report Builder
 
-Nadat u Report Builder for Excel toe:voegen-binnen voor uw werkend platform of browser installeert, volg deze stappen aan login aan Report Builder.
+Nadat u de Report Builder for Excel Add-in voor uw werkend platform of browser installeert, volg deze stappen om aan te melden bij Report Builder.
 
 1. Open een werkboek van Excel.
 
-1. Klik op het pictogram Report Builder om de Report Builder te starten.
+1. Klik op het Report Builder-pictogram om Report Builder te starten.
 
 1. Klik op de werkbalk Adobe Report Builder op **[!UICONTROL Login]** .
 
-   ![&#x200B; klik de Report Builder login knoop.](./assets/rb_login.png)
+   ![ klik de login van Report Builder knoop.](./assets/rb_login.png)
 
-1. Voer de gegevens van uw Adobe Experience ID-account in. Je accountgegevens moeten overeenkomen met je Adobe Analytics-gegevens.
+1. Voer je Adobe Experience ID-accountgegevens in. Je accountgegevens moeten overeenkomen met je Adobe Analytics-gegevens.
 
-   ![&#x200B; Uw login pictogram en organisatie.](./assets/image4.png)
+   ![ Uw login pictogram en organisatie.](./assets/image4.png)
 
 Nadat u zich hebt aangemeld, worden het aanmeldingspictogram en de organisatie boven in het deelvenster weergegeven
 
@@ -103,16 +104,16 @@ Wanneer u zich voor het eerst aanmeldt, wordt u aangemeld bij de standaardorgani
 
 1. Selecteer een organisatie in de lijst met beschikbare organisaties. Alleen organisaties waartoe u toegang hebt, worden vermeld.
 
-   ![&#x200B; de lijst van organisaties die u kunt toegang hebben.](./assets/image5.png)
+   ![ de lijst van organisaties die u kunt toegang hebben.](./assets/image5.png)
 
 ## Afmelden
 
-U kunt zich afmelden bij Report Builder vanuit het gebruikersprofiel.
+U kunt zich vanuit Report Builder afmelden vanuit het gebruikersprofiel.
 
 1. Wijzigingen in geopende werkboeken opslaan.
 
 1. Klik op het pictogram van de avatar om het gebruikersprofiel weer te geven.
 
-   ![&#x200B; Uw avatar van het gebruikersprofiel en de knoop van het Teken uit.](./assets/image6.png)
+   ![ Uw avatar van het gebruikersprofiel en de knoop van het Teken uit.](./assets/image6.png)
 
 1. Klik **Teken uit**.

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: 340baffc3c870ffec136a0800f71a293099e4d9f
+source-git-commit: 288ca753157a6ed388a37a1ef01481cd83191b85
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 10%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 10%
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding voor analysegereedschappen](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Onboarding](get-started/onboard.md)
@@ -177,7 +177,6 @@ ht-degree: 10%
    + [Werkboeken plannen voor e-mail](report-builder/schedule-reportbuilder.md)
    + [Workbooks plannen voor het exporteren van cloud](/help/analyze/report-builder/report-builder-export.md)
    + [Geplande werkboeken beheren](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
-   + [Beperkte labels](report-builder/restricted-labels.md)
    + [Report Builder-instellingen](report-builder/report-builder-settings.md)
 + Legacy Report Builder {#legacy-report-builder}
    + [Legacy Adobe Report Builder Help](legacy-report-builder/home.md)
