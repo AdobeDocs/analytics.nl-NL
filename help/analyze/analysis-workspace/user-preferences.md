@@ -18,7 +18,7 @@ U kunt instellingen voor Analysis Workspace en de bijbehorende componenten voor 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; voorkeur &#x200B;](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} voor een demo video beheren.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; voorkeur &#x200B;](https://video.tv.adobe.com/v/3429990/?captions=dut&quality=12&learn=on){target="_blank"} voor een demo video beheren.
 
 >[!ENDSHADEBOX]
 
