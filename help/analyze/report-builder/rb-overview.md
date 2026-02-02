@@ -32,14 +32,14 @@ Report Builder for Adobe Analytics is een Microsoft Excel-invoegtoepassing. De a
 
 ## Legacy Report Builder
 
-Deze Report Builder vervangt [ erfenisReport Builder toe:voegen-binnen ](/help/analyze/legacy-report-builder/home.md) en heeft verscheidene voordelen:
+Deze Report Builder vervangt [&#x200B; erfenisReport Builder toe:voegen-binnen &#x200B;](/help/analyze/legacy-report-builder/home.md) en heeft verscheidene voordelen:
 
 - Vind sneller en gemakkelijker inzichten in Excel met betere werkschema&#39;s voor de creatie en het beheer van gegevensblok, met inbegrip van grotere flexibiliteit van gegevensblok
 - Interplatformen: meld u niet meer aan bij uw VM om Report Builder te gebruiken terwijl we nu PC, Mac en Excel Online ondersteunen
 - Minder tijd wachten op gegevensblokken om terug te keren, dankzij API 2.0-upgrade
 - Verbeterde snelheid
 
-De gebruikers van het Verouderde hulpmiddel van Report Builder kunnen [ erfeniswerkboeken ](/help/analyze/report-builder/convert-workbooks.md) in nieuwe Report Builder omzetten.
+De gebruikers van het Verouderde hulpmiddel van Report Builder kunnen [&#x200B; erfeniswerkboeken &#x200B;](/help/analyze/report-builder/convert-workbooks.md) in nieuwe Report Builder omzetten.
 
 
 ### Beide versies naast elkaar gebruiken
@@ -48,11 +48,11 @@ U kunt nog steeds beide versies van Report Builder gebruiken, met de volgende vo
 
 - Gebruik beide Report Builder-versies niet tegelijkertijd op hetzelfde bestand. Ze sluiten elkaar uit.
 - U kunt Legacy Report Builder nog steeds gebruiken voor oudere werkboeken en de nieuwe Report Builder voor nieuwe werkboeken.
-- Bovendien kunt u erfeniswerkboeken [ aan het nieuwe formaat van Report Builder automatisch ](/help/analyze/report-builder/convert-workbooks.md) omzetten. Voordat u dit doet, dupliceert u het bestand en wijzigt u de naam ervan.
+- Bovendien kunt u erfeniswerkboeken [&#x200B; aan het nieuwe formaat van Report Builder automatisch &#x200B;](/help/analyze/report-builder/convert-workbooks.md) omzetten. Voordat u dit doet, dupliceert u het bestand en wijzigt u de naam ervan.
 
 ### Verouderde Report Builder-functies worden niet ondersteund
 
-Sommige [ eigenschappen van erfenis Report Builder worden niet gesteund ](convert-workbooks.md#legacy-report-builder-features-not-supported) in dit Report Builder.
+Sommige [&#x200B; eigenschappen van erfenis Report Builder worden niet gesteund &#x200B;](convert-workbooks.md#legacy-report-builder-features-not-supported) in dit Report Builder.
 
 
 ## Vaak voorkomende gebruiksscenario&#39;s
@@ -76,8 +76,8 @@ Sommige [ eigenschappen van erfenis Report Builder worden niet gesteund ](conver
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ overzicht van Report Builder ](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; overzicht van Report Builder &#x200B;](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
-U kunt Report Builder van Adobe Analytics van de [ Winkel van Microsoft downloaden ](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview).
+U kunt Report Builder van Adobe Analytics van de [&#x200B; Winkel van Microsoft downloaden &#x200B;](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview).

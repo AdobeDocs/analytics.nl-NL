@@ -16,20 +16,20 @@ ht-degree: 1%
 # Report Builder hub
 
 
-De hub van Report Builder is de juiste ruit die binnen uw werkboek van Excel wordt getoond wanneer u ![ AdobeLogoRedonWhite ](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** van de bar van het lint van Excel selecteert.
+De hub van Report Builder is de juiste ruit die binnen uw werkboek van Excel wordt getoond wanneer u ![&#x200B; AdobeLogoRedonWhite &#x200B;](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** van de bar van het lint van Excel selecteert.
 
 Met de Report Builder-hub kunt u gegevensblokken maken, bijwerken, verwijderen en beheren.
 
-De hub van Report Builder bevat ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**, ![ TableManage ](/help/assets/icons/TableManage.svg) **[!UICONTROL Manage]** en ![ Kalender ](/help/assets/icons/Calendar.svg) **[!UICONTROL Schedule]** knopen, het **[!UICONTROL Commands]** paneel, en het **[!UICONTROL Quick edit]** paneel.
+De hub van Report Builder bevat ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**, ![&#x200B; TableManage &#x200B;](/help/assets/icons/TableManage.svg) **[!UICONTROL Manage]** en ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) **[!UICONTROL Schedule]** knopen, het **[!UICONTROL Commands]** paneel, en het **[!UICONTROL Quick edit]** paneel.
 
-![ hub van Report Builder ](assets/hub51.png){zoomable="yes"}
+![&#x200B; hub van Report Builder &#x200B;](assets/hub51.png){zoomable="yes"}
 
 
 Selecteren
 
-* ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]** [ creeert nieuwe gegevensblokken ](create-a-data-block.md).
-* ![ TableManage ](/help/assets/icons/TableManage.svg) **[!UICONTROL Manage]** aan [ beheer bestaande gegevensblokken ](manage-reportbuilder.md).
-* ![ Kalender ](/help/assets/icons/Calendar.svg) **[!UICONTROL Schedule]** aan [ beheert programma&#39;s om uw werkboek door e-mail ](schedule-reportbuilder.md) te verzenden.
+* ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]** [&#x200B; creeert nieuwe gegevensblokken &#x200B;](create-a-data-block.md).
+* ![&#x200B; TableManage &#x200B;](/help/assets/icons/TableManage.svg) **[!UICONTROL Manage]** aan [&#x200B; beheer bestaande gegevensblokken &#x200B;](manage-reportbuilder.md).
+* ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) **[!UICONTROL Schedule]** aan [&#x200B; beheert programma&#39;s om uw werkboek door e-mail &#x200B;](schedule-reportbuilder.md) te verzenden.
 
 ## Opdrachten, deelvenster
 
@@ -37,13 +37,13 @@ Gebruik het deelvenster **[!UICONTROL Commands]** voor toegang tot opdrachten di
 
 | Opdrachten | Beschikbaar als... | Doel |
 |------|------------------|--------|
-| ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data block]** uit | De geselecteerde cel of het geselecteerde celbereik maakt slechts deel uit van één gegevensblok. | Wordt gebruikt om een gegevensblok te bewerken. |
-| ![ verfrissen zich ](/help/assets/icons/Refresh.svg) **[!UICONTROL Refresh data block]** | De selectie bevat ten minste één gegevensblok. Met deze opdracht vernieuwt u alleen de gegevensblokken in de selectie. | Vernieuw een of meer gegevensblokken. |
-| ![ DocumentRefresh ](/help/assets/icons/DocumentRefresh.svg) **[!UICONTROL Refresh all data blocks]** | Het werkboek bevat één of meerdere gegevensblokken. | Gebruik om alle gegevensblokken in het werkboek te verfrissen |
-| ![ verzend ](/help/assets/icons/Send.svg) **[!UICONTROL Send workbook]** | Het werkboek bevat één of meerdere gegevensblokken. | Gebruik om [ het werkboek als dossier door e-mail ](schedule-reportbuilder.md) te verzenden. |
-| ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy data block]** | De geselecteerde cel of het geselecteerde celbereik maakt deel uit van een of meer gegevensblokken. | Wordt gebruikt om een gegevensblok te kopiëren. |
-| ![ Besnoeiing ](/help/assets/icons/Cut.svg) **[!UICONTROL Cut data block]** | De geselecteerde cel of het geselecteerde celbereik maakt deel uit van een of meer gegevensblokken. | Zie om een gegevensblok te knippen. |
-| ![ Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete data block]** | De geselecteerde cel of het geselecteerde celbereik maakt slechts deel uit van één gegevensblok. | Gebruiken om een gegevensblok te verwijderen |
+| ![&#x200B; geef &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data block]** uit | De geselecteerde cel of het geselecteerde celbereik maakt slechts deel uit van één gegevensblok. | Wordt gebruikt om een gegevensblok te bewerken. |
+| ![&#x200B; verfrissen zich &#x200B;](/help/assets/icons/Refresh.svg) **[!UICONTROL Refresh data block]** | De selectie bevat ten minste één gegevensblok. Met deze opdracht vernieuwt u alleen de gegevensblokken in de selectie. | Vernieuw een of meer gegevensblokken. |
+| ![&#x200B; DocumentRefresh &#x200B;](/help/assets/icons/DocumentRefresh.svg) **[!UICONTROL Refresh all data blocks]** | Het werkboek bevat één of meerdere gegevensblokken. | Gebruik om alle gegevensblokken in het werkboek te verfrissen |
+| ![&#x200B; verzend &#x200B;](/help/assets/icons/Send.svg) **[!UICONTROL Send workbook]** | Het werkboek bevat één of meerdere gegevensblokken. | Gebruik om [&#x200B; het werkboek als dossier door e-mail &#x200B;](schedule-reportbuilder.md) te verzenden. |
+| ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) **[!UICONTROL Copy data block]** | De geselecteerde cel of het geselecteerde celbereik maakt deel uit van een of meer gegevensblokken. | Wordt gebruikt om een gegevensblok te kopiëren. |
+| ![&#x200B; Besnoeiing &#x200B;](/help/assets/icons/Cut.svg) **[!UICONTROL Cut data block]** | De geselecteerde cel of het geselecteerde celbereik maakt deel uit van een of meer gegevensblokken. | Zie om een gegevensblok te knippen. |
+| ![&#x200B; Schrapping &#x200B;](/help/assets/icons/Delete.svg) **[!UICONTROL Delete data block]** | De geselecteerde cel of het geselecteerde celbereik maakt slechts deel uit van één gegevensblok. | Gebruiken om een gegevensblok te verwijderen |
 
 ## Deelvenster Snel bewerken
 
@@ -53,9 +53,9 @@ De wijzigingen die u aanbrengt wanneer u de secties **[!UICONTROL Quick Edit]** 
 
 ### Reeksen rapporteren
 
-Gegevensblokken trekken gegevens uit een geselecteerde rapportsuite. Als de veelvoudige gegevensblokken in een aantekenvel worden geselecteerd en zij trekken geen gegevens van de zelfde rapportreeks, de **verbindingsvertoningen van de de reeksen van het 0} Rapport** Veelvoud **[!UICONTROL _._]**
+Gegevensblokken trekken gegevens uit een geselecteerde rapportsuite. Als de veelvoudige gegevensblokken in een aantekenvel worden geselecteerd en zij trekken geen gegevens van de zelfde rapportreeks, de **verbindingsvertoningen van de de reeksen van het 0&rbrace; Rapport** Veelvoud **[!UICONTROL _._]**
 
-Wanneer u de rapportsuite wijzigt, nemen alle gegevensblokken in de selectie de nieuwe rapportsuite aan. De componenten in het gegevensblok worden aangepast aan de nieuwe rapportreeks die op identiteitskaart wordt gebaseerd. Als een component niet in een gegevensblok wordt gevonden, wordt de component verwijderd en met **[!UICONTROL Invalid value]** vervangen of ![ AlertRed ](/help/assets/icons/AlertRed.svg) wordt getoond voor de specifieke component.
+Wanneer u de rapportsuite wijzigt, nemen alle gegevensblokken in de selectie de nieuwe rapportsuite aan. De componenten in het gegevensblok worden aangepast aan de nieuwe rapportreeks die op identiteitskaart wordt gebaseerd. Als een component niet in een gegevensblok wordt gevonden, wordt de component verwijderd en met **[!UICONTROL Invalid value]** vervangen of ![&#x200B; AlertRed &#x200B;](/help/assets/icons/AlertRed.svg) wordt getoond voor de specifieke component.
 
 Als u de rapportsuite wilt wijzigen, selecteert u een nieuwe rapportsuite in de vervolgkeuzelijst **[!UICONTROL Report suite]** .
 
@@ -71,8 +71,8 @@ De **verbinding van Segmenten** toont een summiere lijst van de segmenten die do
 >[!MORELIKETHIS]
 >
 >[Een rapportsuite selecteren](select-report-suite.md)
->[Selecteer een datumbereik ](select-date-range.md)
->[Werken met filters ](work-with-segments.md)
+>[Selecteer een datumbereik &#x200B;](select-date-range.md)
+>[Werken met filters &#x200B;](work-with-segments.md)
 >
 
 <!--
