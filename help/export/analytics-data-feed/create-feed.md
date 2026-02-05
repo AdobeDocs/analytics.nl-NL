@@ -3,9 +3,9 @@ title: Een gegevensfeed maken
 description: Leer hoe u een gegevensfeed maakt en informatie over de bestandsgegevens die aan Adobe moeten worden verstrekt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: ee29f837d72cf3243e92230dbee5b379d1c6c415
+source-git-commit: d0e3a81a9b38468602b7c2b0f573425013ef78c7
 workflow-type: tm+mt
-source-wordcount: '4253'
+source-wordcount: '2032'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe het volgende:
 * De informatie over de bestemming waarnaar u Raw-gegevensbestanden wilt verzenden
 * De gegevens die u in elk bestand wilt opnemen
 
-Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van gegevensvoer te hebben en ervoor te zorgen dat u aan alle voorwaarden voldoet. Voor meer informatie, zie [&#x200B; Overzicht van de voer van Gegevens &#x200B;](data-feed-overview.md).
+Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van gegevensvoer te hebben en ervoor te zorgen dat u aan alle voorwaarden voldoet. Voor meer informatie, zie [ Overzicht van de voer van Gegevens ](data-feed-overview.md).
 
 ## Een gegevensfeed maken en configureren {#create-and-configure-data-feed}
 
@@ -35,7 +35,7 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_export_file"
 >title="Manifest"
->abstract="Kies of u een manifestbestand wilt opnemen bij elke gegevensdoorvoerlevering. Manifest-bestanden bevatten informatie voor elk ingesloten bestand in de gegevensfeed. Bij het verzenden van gegevens uit de gegevensfeed in één pakket kunt u er ook voor kiezen een eindbestand op te nemen, maar manifestbestanden worden aanbevolen. "
+>abstract="Kies of u een manifestbestand wilt opnemen bij elke gegevensdoorvoerlevering. Manifest-bestanden bevatten informatie voor elk bestand dat in de gegevensfeed is opgenomen. Bij het verzenden van gegevens uit de gegevensfeed in één pakket kunt u er ook voor kiezen een eindbestand op te nemen, maar manifestbestanden worden aanbevolen. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -48,426 +48,572 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- added help for Dynamic lookups to this page: help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md -->
+
 1. Meld u met uw Adobe ID aan bij [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+
 1. Selecteer het 9-vierkante pictogram in hoger-recht, dan uitgezochte [!UICONTROL **Analytics**].
+
 1. In de hoogste navigatiebar, ga [!UICONTROL **Admin**] > [!UICONTROL **het voer van Gegevens**].
-1. Selecteer [!UICONTROL **toevoegen**].
 
-   ![&#x200B; voeg gegevensvoer &#x200B;](assets/datafeed-add.png) toe
+1. Selecteer [!UICONTROL **leiden gegevensvoer**] tot.
 
-   Een paginavertoningen met drie belangrijkste categorieën: [!UICONTROL **de informatie van het voer**], [!UICONTROL **Bestemming**], en [!UICONTROL **de kolomdefinities van Gegevens**].
-1. In de [!UICONTROL **sectie van de Informatie van de Diervoeders**], voltooi de volgende gebieden:
+   Een paginavertoningen met de volgende categorieën: [!UICONTROL **Details**], [!UICONTROL **Gegevens die**] formatteren, [!UICONTROL **structuur van Gegevens**], [!UICONTROL **Programma**], en [!UICONTROL **Bestemming**] formatteren.
+
+   ![ Nieuwe pagina van de gegevensvoer ](assets/data-feed-new.png)
+
+1. In de [!UICONTROL **sectie van Details**], voltooi de volgende gebieden:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Naam**] | De naam van de gegevensinvoer. Moet uniek zijn binnen de geselecteerde rapportreeks, en kan tot 255 karakters in lengte zijn. [Meer informatie](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **Reeks van het Rapport**] | De rapportsuite waarop de gegevensinvoer is gebaseerd. Als de veelvoudige gegevensvoer voor de zelfde rapportreeks wordt gecreeerd, moeten zij verschillende kolomdefinities hebben. Alleen bronrapportsuites ondersteunen gegevensfeeds; virtuele rapportsuites worden niet ondersteund. |
-   | [!UICONTROL **E-mail wanneer volledig**] | Het e-mailadres dat moet worden gemeld wanneer een feed de verwerking heeft voltooid. Het e-mailadres moet correct zijn opgemaakt. |
-   | [!UICONTROL **het interval van het voer**] | Selecteer **Dagelijkse** voor backfill of historische gegevens. De dagelijkse voer bevat een volledige waarde van de dag van gegevens, van middernacht aan middernacht in de tijdzone van de rapportreeks. Selecteer **Uur** voor verdere gegevens (Daily is ook beschikbaar voor verdere voer als u verkiest). Uurfeeds bevatten gegevens van één uur. |
-   | [!UICONTROL **de verwerking van de Vertraging**] | Wacht een bepaalde hoeveelheid tijd alvorens een dossier van de gegevensvoer te verwerken. Een vertraging kan handig zijn om mobiele implementaties de mogelijkheid te geven om offlineapparaten online te komen en gegevens te verzenden. Het kan ook worden gebruikt om de server-zijprocessen van uw organisatie in het beheren van eerder verwerkte dossiers aan te passen. In de meeste gevallen is geen uitstel nodig. Een diervoeder kan maximaal 120 minuten worden uitgesteld. |
-   | [!UICONTROL **Begin &amp; einddata**] | De begindatum geeft de datum aan waarop de gegevensinvoer moet beginnen. Als u onmiddellijk wilt beginnen met het verwerken van gegevensfeeds voor historische gegevens, stelt u deze datum in op een datum in het verleden waarop gegevens worden verzameld. De begin en einddata zijn gebaseerd op de tijdzone van de rapportreeks. |
-   | [!UICONTROL **Ononderbroken voer**] | Met dit selectievakje wordt de einddatum verwijderd, zodat een feed voor onbepaalde tijd kan worden uitgevoerd. Als een feed de verwerking van historische gegevens heeft voltooid, wacht een feed tot de gegevens een bepaald uur of een bepaalde dag zijn verzameld. Zodra het huidige uur of de dag eindigt, begint de verwerking na de gespecificeerde vertraging. |
+   | [!UICONTROL **Naam**] | De naam van de gegevensinvoer. De namen moeten binnen de geselecteerde rapportreeks uniek zijn, en kunnen tot 255 karakters in lengte zijn. [Meer informatie](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
+   | [!UICONTROL **Markeringen**] | Pas om het even welke markeringen op de gegevensvoer voor gemakkelijkere categorisering toe. U kunt op markeringen filtreren zoals die in [ worden beschreven Filter en de lijst van gegevensvoer ](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [ zoeken beheert gegevensvoer ](/help/export/analytics-data-feed/df-manage-feeds.md). |
+   | [!UICONTROL **Beschrijving**] | Geef een beschrijving op voor de gegevensinvoer. De beschrijving die u toevoegt, wordt weergegeven wanneer u de gegevensfeed bewerkt. |
 
-1. In de [!UICONTROL **sectie van de Bestemming**], in het [!UICONTROL **Type**] drop-down menu, selecteer de bestemming waar u de gegevens wilt worden verzonden.
+1. In de [!UICONTROL **het formatteren van Gegevens**] sectie, specificeer de volgende informatie:
+
+   | Veld | Functie |
+   |---------|----------|
+   | [!UICONTROL **formaat van de Compressie**] | Het type compressie dat wordt gebruikt. **Gzip** outputs dossiers in `.tar.gz` formaat. **Zip** outputs dossiers in `.zip` formaat. |
+   | [!UICONTROL **Verpakkingstype**] | Selecteer [!UICONTROL **Veelvoudige dossiers**] voor de meeste gegevensvoer. Met deze optie worden uw gegevens gepagineerd in ongecomprimeerde 2GB-blokken. (Als de [!UICONTROL **Veelvoudige dossiers**] optie wordt geselecteerd en uncompressed gegevens voor het rapporteringsvenster minder dan 2GB is, wordt één dossier verzonden.) Het selecteren van **Enig dossier** output het `hit_data.tsv` dossier in één enkel, potentieel massief dossier. |
+   | [!UICONTROL **Manifest**] | Kies of u een manifestbestand wilt opnemen bij elke gegevensdoorvoerlevering. <p>U kunt uit de volgende opties kiezen:</p><ul><li>**[!UICONTROL Manifest file]**: bevat informatie voor elk bestand dat is opgenomen in de gegevensinvoer.</li><li>**[!UICONTROL Finish file (Legacy)]**: geeft aan dat de gegevensinvoer is voltooid. Er wordt geen andere informatie opgenomen. Deze optie is geschikt voor bestaande feeds die deze optie oorspronkelijk hebben gebruikt en die opnieuw moeten worden verwerkt. Deze functie is alleen beschikbaar wanneer gegevens uit de gegevensinvoer in één pakket worden verzonden. </li><li>**[!UICONTROL None]**: Er is geen bestand opgenomen</li></ul> |
+   | [!UICONTROL **verzendt manifest zelfs wanneer geen gegevens**] | Bepaalt of Adobe a [ duidelijk dossier ](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) aan de bestemming zou moeten leveren wanneer geen gegevens voor een voederinterval worden verzameld. Als u **Manifest dossier** selecteert, ontvangt u een duidelijk dossier gelijkend op het volgende wanneer geen gegevens worden verzameld:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **vervangt werkend systeemkoorden**] | Bij het verzamelen van gegevens kunnen sommige tekens (zoals nieuwe regels) problemen veroorzaken. Selecteer deze optie als u deze tekens uit de voederbestanden wilt verwijderen.<p>Deze optie ontdekt de volgende koordopeenvolgingen ingebed in klantengegevens en vervangt hen met een ruimte:</p> <ul><li>**Vensters:** CRLF, CR, of TAB</li><li>**Mac en Linux:** \ n, \ r, of \ t</li></ul> |
+   | [!UICONTROL **laat dynamische raadplegingen**] toe | Met dynamische zoekopdrachten kunt u extra opzoekbestanden in uw gegevensfeed ontvangen die anders niet beschikbaar zijn. Met deze instelling kunnen de volgende opzoektabellen worden verzonden met elk gegevensbestand met gegevensinvoer:<ul><li> **naam van de Drager**</li><li>**Mobiele attributen**</li><li>**Werkend systeemtype**</li></ul><p>Voor meer informatie, zie [ Dynamische raadplegingen ](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
+   | **laat-aankomende treffers** toestaan | Historische gegevens kunnen worden aangeleverd nadat een gegevenfeed-taak een bepaald uur of een bepaalde dag is verwerkt, bijvoorbeeld door middel van treffers met een tijdstempel of gegevensbronnen.<p>Selecteer deze optie om gegevens op te nemen die zijn ontvangen nadat de gegevensinvoertaak de gegevens heeft verwerkt binnen de ingestelde rapportagefrequentie (gewoonlijk dagelijks of per uur). Als deze optie is ingeschakeld, controleert elke keer dat een gegevensfeed gegevens verwerkt, de late resultaten die zijn binnengekomen en worden deze in batches opgeslagen met het volgende gegevensdoorvoerbestand dat wordt verzonden.</p><p>Voor meer informatie, zie [ laat-aankomende treffers ](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
+   | **venster van de Lookback** (voor laat-aankomende treffers) | Deze optie wordt weergegeven wanneer de optie **[!UICONTROL Allow late-arring hits]** is ingeschakeld. Selecteer het terugkijkvenster om het tijdkader van late klappen te beperken die inbegrepen zijn. Selecteer **[!UICONTROL Unlimited]** als u alle laat aankomende klappen wilt toestaan, ongeacht hoe laat. U kunt een vooraf ingesteld interval kiezen, zoals **[!UICONTROL 1 hour]** , **[!UICONTROL 2 hours]** , **[!UICONTROL 1 week]** , **[!UICONTROL 2 weeks]** enzovoort. Of selecteer **[!UICONTROL Custom lookback window]** en geef vervolgens in het veld **[!UICONTROL Custom Lookback]** een opzoekvenster op van maximaal 26.280 uur. |
+
+1. In de [!UICONTROL **sectie van de Gegevensstructuur**], op het **[!UICONTROL Report suite]** gebied, selecteer de bronrapportreeks die de gegevens bevat die u wilt uitvoeren. <p>Houd rekening met het volgende wanneer u een rapportsuite selecteert:</p> <ul><li>Als de veelvoudige gegevensvoer voor de zelfde rapportreeks wordt gecreeerd, moet elke gegevensvoer verschillende kolomdefinities hebben.</li><li>Alleen bronrapportsuites ondersteunen gegevensfeeds; virtuele rapportsuites worden niet ondersteund.</li><li>De lijst van beschikbare kolommen hangt van het login bedrijf af dat de geselecteerde rapportreeks tot behoort. Als u de rapportsuite wijzigt, kan de lijst met beschikbare kolommen worden gewijzigd. </li></ul>
+
+1. Gebruik een van de volgende methoden of beide methoden om te bepalen welke gegevenskolommen in de feed moeten worden opgenomen:
+
+   * **voeg individueel kolommen toe:** in de **[!UICONTROL Available]** sectie op de linkerzijde, selecteer om het even welke kolommen die u wilt omvatten, dan selecteren **[!UICONTROL Include]**. Alle gegevenskolommen in Adobe Analytics zijn beschikbaar. U kunt meerdere kolommen selecteren door **[!UICONTROL Shift]** ingedrukt te houden of door **[!UICONTROL Command]** (in macOS) of **[!UICONTROL Ctrl]** (in Windows) ingedrukt te houden. Klik op **[!UICONTROL Add all]** om alle kolommen in een gegevensfeed op te nemen.
+
+     Kolommen die u toevoegt, worden weergegeven in de sectie **[!UICONTROL Included]** aan de rechterkant.
+
+   * **voeg een kolommalplaatje toe:** op het **[!UICONTROL Column templates]** gebied, selecteer een kolommalplaatje toe te voegen. Een kolomsjabloon is een vooraf gedefinieerde groep kolommen en Adobe biedt standaard diverse sjablonen.
+
+     Alle kolommen in de sjabloon worden weergegeven in de sectie **[!UICONTROL Included]** aan de rechterkant.
+
+1. (Optioneel) Als u een kolomsjabloon wilt maken die is gebaseerd op de gegevensfeed die u momenteel maakt, selecteert u **[!UICONTROL Save as template]** , geeft u een naam voor de sjabloon op en selecteert u **[!UICONTROL Save]** . Deze optie is handig als u extra gegevensfeeds wilt maken die dezelfde kolommen bevatten.
+
+   ![ creeer kolommalplaatje terwijl het creëren van een gegevensvoer ](assets/data-feed-template-create2.png)
+
+1. (Optioneel) Selecteer **[!UICONTROL Download columns]** als u een lijst met opgenomen kolommen in de CSV-indeling wilt downloaden. Deze optie kan handig zijn voor gegevensfeeds met een groot aantal kolommen.
+
+1. In de [!UICONTROL **sectie van het Programma**], specificeer de volgende informatie:
+
+   | Veld | Functie |
+   |---------|----------|
+   | [!UICONTROL **Frequentie**] | Selecteer hoe vaak de gegevensinvoer moet worden verzonden. De beschikbare opties worden dynamisch ingevuld op basis van de configuratie van de rapportsuite. <p>De volgende opties zijn algemeen beschikbaar:</p><ul><li>**Dagelijkse**: De voer bevat de waarde van een volledige dag van gegevens, van middernacht aan middernacht in de tijdzone van de rapportreeks. Gebruik deze optie voor back-up of historische gegevens of voor doorlopende feeds.</li><li>**Uur**: De voer bevat de waarde van één uur van gegevens. Gebruik deze optie als u doorgaat met feeds.</li></ul><p>Een exportfrequentie van 15 minuten is mogelijk, maar is standaard niet beschikbaar. Om deze optie beschikbaar te maken in uw omgeving, dient u eerst contact op te nemen met de klantenservice van Adobe en te verzoeken dat uw rapportenpakket is geconfigureerd voor ondersteuning van 15-minuten export.</p> |
+   | [!UICONTROL **Verwerkingsvertraging**] | Geef op of u een bepaalde hoeveelheid tijd wilt wachten voordat u een bestand met gegevensinvoer verwerkt. Een vertraging kan handig zijn om mobiele implementaties de mogelijkheid te geven om offlineapparaten online te komen en gegevens te verzenden. Het kan ook worden gebruikt om de server-zijprocessen van uw organisatie in het beheren van eerder verwerkte dossiers aan te passen. In de meeste gevallen is geen uitstel nodig. U kunt een feed maximaal 8 uur (480 minuten) of zelfs langer uitstellen als u een aangepaste hoeveelheid tijd selecteert (9.999 minuten vertraging of ongeveer 1 week). |
+   | [!UICONTROL **Ononderbroken voer**] | Als u deze optie selecteert, wordt de einddatum verwijderd, zodat een feed voor onbepaalde tijd kan worden uitgevoerd. Als een feed de verwerking van historische gegevens heeft voltooid, wacht een feed tot de gegevens een bepaald uur of een bepaalde dag zijn verzameld. Wanneer het huidige uur of de huidige dag eindigt, begint de verwerking na de opgegeven vertraging. |
+   | [!UICONTROL **de datum van het Begin**] | Geef de datum op waarop de gegevensinvoer moet beginnen. Als u onmiddellijk wilt beginnen met het verwerken van gegevensfeeds voor historische gegevens, stelt u deze datum in op een datum in het verleden waarop gegevens worden verzameld. De begindatum is gebaseerd op de tijdzone van de rapportreeks. |
+   | [!UICONTROL **einddatum**] | Geef de datum op waarop de gegevensinvoer moet worden beëindigd. De einddatum is gebaseerd op de tijdzone van de rapportreeks. |
+
+1. In de [!UICONTROL **sectie van de Bestemming**], vorm de bestemming waar u de gegevens wilt worden verzonden.
 
    >[!NOTE]
    >
    >Overweeg het volgende wanneer het vormen van een rapportbestemming:
    >
-   >* We raden u aan een cloudaccount te gebruiken voor uw rapportbestemming. [&#x200B; Verouderde FTP en de rekeningen van SFTP &#x200B;](#legacy-destinations) zijn beschikbaar, maar niet geadviseerd.
+   >* Adobe raadt u aan een cloudaccount te gebruiken voor uw rapportbestemming. [ Verouderde FTP en de rekeningen van SFTP ](#legacy-destinations) zijn beschikbaar, maar niet geadviseerd.
    >* Alle cloudaccounts die u eerder hebt geconfigureerd, kunnen worden gebruikt voor gegevensfeeds. U kunt cloudaccounts op de volgende manieren configureren:
    >
-   >   * Wanneer het vormen van wolkenrekeningen voor [&#x200B; Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+   >   * Wanneer het vormen van wolkenrekeningen voor [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
    >   
-   >   * Wanneer [&#x200B; het invoeren van de classificatiegegevens van Adobe Analytics &#x200B;](/help/components/locations/locations-manager.md) (Om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd kunnen niet worden gebruikt.)
+   >   * Wanneer [ het invoeren van de classificatiegegevens van Adobe Analytics ](/help/components/locations/locations-manager.md) (Om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd kunnen niet worden gebruikt.)
    >   
-   >   * Van de manager van Plaatsen, in [&#x200B; Componenten > Plaatsen &#x200B;](/help/components/locations/configure-import-accounts.md)
+   >   * Van de manager van Plaatsen, in [ Componenten > Plaatsen ](/help/components/locations/configure-import-accounts.md)
    >
-   >* Cloud-accounts zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Andere gebruikers kunnen geen cloudaccounts gebruiken of weergeven die u configureert.
+   >* Cloud-accounts zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Andere gebruikers kunnen geen wolkenrekeningen gebruiken of bekijken die u vormt tenzij u hen ter beschikking stelt aan alle gebruikers in uw organisatie.
    >
-   >* U kunt om het even welke plaatsen uitgeven die u van de manager van Plaatsen in [&#x200B; Componenten > Plaatsen &#x200B;](/help/components/locations/configure-import-accounts.md) creeert
+   >* U kunt om het even welke plaatsen uitgeven die u van de manager van Plaatsen in [ Componenten > Plaatsen ](/help/components/locations/configure-import-accounts.md) creeert
 
-   ![&#x200B; de voederbestemming van Gegevens drop-down menu &#x200B;](assets/datafeed-destinations-dropdown.png)
+   Vul de volgende velden in:
 
-   Gebruik een van de volgende doeltypen wanneer u een gegevensfeed maakt. Vouw voor configuratieinstructies het doeltype uit. (De extra [&#x200B; erfenisbestemmingen &#x200B;](#legacy-destinations) zijn ook beschikbaar, maar niet geadviseerd.)
+   | Veld | Functie |
+   |---------|----------|
+   | [!UICONTROL **Rekening**] | Voer een van de volgende handelingen uit:<ul><li>**Gebruik een bestaande rekening:** selecteer het drop-down menu naast het **[!UICONTROL Account]** gebied. U kunt ook beginnen met het typen van de accountnaam en deze selecteren in het keuzemenu. <p>De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie worden gedeeld u een deel van bent.</p></li><li>**creeer een nieuwe rekening:** Uitgezocht **[!UICONTROL Add new]** onder het **[!UICONTROL Account]** gebied. Voor informatie over hoe te om de rekening te vormen, zie [ een plaatsrekening ](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [ vormen wolkeninvoer en uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md).</li></ul> |
+   | [!UICONTROL **Plaats**] | Voer een van de volgende handelingen uit:<ul><li>**Gebruik een bestaande plaats:** selecteer het drop-down menu naast het **[!UICONTROL Location]** gebied. Of typ de naam van de locatie en selecteer deze in het keuzemenu.</li><li>**creeer een nieuwe plaats:** Uitgezocht **[!UICONTROL Add new]** onder het **[!UICONTROL Location]** gebied. Voor informatie over hoe te om de plaats te vormen, zie [ een plaats ](/help/components/locations/configure-import-locations.md#configure-a-location) in [ vormen wolkeninvoer en uitvoerplaatsen ](/help/components/locations/configure-import-locations.md). |
+   | [!UICONTROL **Melden wanneer volledig**] | Geef een of meer e-mailadressen op waar een melding moet worden verzonden nadat de gegevensinvoer is verzonden of niet is verzonden. Meerdere e-mailadressen moeten met een komma worden gescheiden. |
+
+1. Selecteer **[!UICONTROL Save]**.
+
+## Kolomsjablonen beheren
+
+Met sjablonen kunt u dezelfde kolommen opnieuw gebruiken voor toekomstige gegevensfeeds die u maakt.
+
+Bij het beheren van sjablonen kunt u nieuwe sjablonen maken, reeds gemaakte sjablonen gebruiken, sjablonen kopiëren, sjablonen bewerken en sjablonen verwijderen.
+
+[!UICONTROL **Admin**] > [!UICONTROL **het voer van Gegevens**] > **[!UICONTROL Manage templates]**
+
+![ beheert kolommalplaatjes ](assets/data-feed-template-manage.png)
+
+### Een kolomsjabloon maken
+
+Als u meerdere gegevensfeeds maakt die dezelfde kolommen gebruiken, wordt u aangeraden kolomsjablonen te maken. Alle kolomsjablonen die u maakt, kunnen door iedereen in uw organisatie worden gebruikt.
+
+Een kolomsjabloon maken:
+
+1. In Adobe Analytics, ga [!UICONTROL **Admin**] > [!UICONTROL **de voer van Gegevens**] > **[!UICONTROL Manage templates]**.
+
+1. Selecteer **[!UICONTROL Create new template]** om een nieuwe kolomsjabloon te maken.
+
+   ![ creeer kolommalplaatje ](assets/data-feed-template-create.png)
+
+1. Geef in het veld **[!UICONTROL Template name]** een naam voor de sjabloon op.
+
+1. Selecteer in de sectie **[!UICONTROL Available]** aan de linkerkant de kolommen die u wilt opnemen en selecteer vervolgens **[!UICONTROL Include]** . Alle beschikbare gegevenskolommen in Adobe Analytics zijn beschikbaar. U kunt meerdere kolommen selecteren door **[!UICONTROL Shift]** ingedrukt te houden of door **[!UICONTROL Command]** (in macOS) of **[!UICONTROL Ctrl]** (in Windows) ingedrukt te houden. Klik op **[!UICONTROL Add all]** om alle kolommen in een gegevensfeed op te nemen.
+
+   Kolommen die u toevoegt, worden weergegeven in de sectie **[!UICONTROL Included]** aan de rechterkant.
+
+1. Selecteer **[!UICONTROL Save]**.
+
+### Een kolomsjabloon bewerken
+
+1. In Adobe Analytics, ga [!UICONTROL **Admin**] > [!UICONTROL **de voer van Gegevens**] > **[!UICONTROL Manage templates]**.
+
+1. Selecteer de sjabloon die u wilt bewerken en selecteer vervolgens **[!UICONTROL Edit]** .
+
+1. Breng desgewenst wijzigingen aan en selecteer vervolgens **[!UICONTROL Save]** .
+
+### Een kolomsjabloon kopiëren
+
+1. In Adobe Analytics, ga [!UICONTROL **Admin**] > [!UICONTROL **de voer van Gegevens**] > **[!UICONTROL Manage templates]**.
+
+1. Selecteer de sjabloon die u wilt kopiëren en selecteer vervolgens **[!UICONTROL Copy]** .
+
+1. Geef in het veld **[!UICONTROL Template name]** een naam voor de sjabloon op.
+
+1. Breng eventuele aanvullende wijzigingen aan en selecteer vervolgens **[!UICONTROL Save]** .
+
+### Kolomsjablonen verwijderen
+
+1. In Adobe Analytics, ga [!UICONTROL **Admin**] > [!UICONTROL **de voer van Gegevens**] > **[!UICONTROL Manage templates]**.
+
+1. Selecteer een of meer sjablonen die u wilt verwijderen en selecteer vervolgens **[!UICONTROL Delete]** .
+
+
+<!-- why would you want to do this? -->
+
+
+<!-- I don't think we need anything after this, but saving here just in case:
+
+1. In the [!UICONTROL **Feed Information**] section, complete the following fields:
+   
+   | Field | Function |
+   |---------|----------|
+   | [!UICONTROL **Name**] | The name of the data feed. Must be unique within the selected report suite, and can be up to 255 characters in length. [Learn more](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
+   | [!UICONTROL **Report suite**] | The report suite that the data feed is based on. If multiple data feeds are created for the same report suite, they must have different column definitions. Only source report suites support data feeds; virtual report suites are not supported. |
+   | [!UICONTROL **Email when complete**] | The email address to be notified when a feed finishes processing. The email address must be properly formatted. |
+   | [!UICONTROL **Feed interval**] | Select **Daily** for backfill or historical data. Daily feeds contain a full day's worth of data, from midnight to midnight in the report suite's time zone. Select **Hourly** for continuing data (Daily is also available for continuing feeds if you prefer). Hourly feeds contain a single hour's worth of data. |
+   | [!UICONTROL **Delay processing**] | Wait a given amount of time before processing a data feed file. A delay can be useful to give mobile implementations an opportunity for offline devices to come online and send data. It can also be used to accommodate your organization's server-side processes in managing previously processed files. In most cases, no delay is needed. A feed can be delayed by up to 120 minutes. |
+   | [!UICONTROL **Start & end dates**] | The start date indicates the date when you want the data feed to begin. To immediately begin processing data feeds for historical data, set this date to any date in the past when data is being collected. The start and end dates are based on the report suite's time zone. |
+   | [!UICONTROL **Continuous feed**] | This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay. |
+   
+1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select the destination where you want the data to be sent. 
+
+   >[!NOTE]
+   >
+   >Consider the following when configuring a report destination:
+   >
+   >* We recommend using a cloud account for your report destination. [Legacy FTP and SFTP accounts](#legacy-destinations) are available, but are not recommended.
+   >* Any cloud accounts that you previously configured are available to use for Data Feeds. You can configure cloud accounts in any of the following ways:
+   >
+   >   * When configuring cloud accounts for [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 
+   >   
+   >   * When [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) (Any locations that are configured for importing classification data cannot be used.)
+   >   
+   >   * From the Locations manager, in [Components > Locations](/help/components/locations/configure-import-accounts.md) 
+   >
+   >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
+   >
+   >* You can edit any locations that you create from the Locations manager in [Components > Locations](/help/components/locations/configure-import-accounts.md)
+
+   ![Data feed destination drop-down menu](assets/datafeed-destinations-dropdown.png)
+
+   Use any of the following destination types when creating a data feed. For configuration instructions, expand the destination type. (Additional [legacy destinations](#legacy-destinations) are also available, but are not recommended.)
 
    +++Amazon S3
 
-   U kunt feeds rechtstreeks naar Amazon S3-emmers verzenden. Voor dit doeltype is alleen uw Amazon S3-account en de locatie (bucket) vereist.
+   You can send feeds directly to Amazon S3 buckets. This destination type requires only your Amazon S3 account and the location (bucket). 
 
-   Adobe Analytics gebruikt verificatie via meerdere accounts om bestanden van Adobe Analytics te uploaden naar de opgegeven locatie in uw Amazon S3-exemplaar.
+   Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your Amazon S3 instance.
 
-   Wanneer u Amazon S3 gebruikt met gegevensfeeds, wordt alleen SSE-S3-codering ondersteund.
+   When using Amazon S3 with Data Feeds, only SSE-S3 encryption is supported.
 
-   Een Amazon S3 emmertje als bestemming voor een gegevensvoer vormen:
+   To configure an Amazon S3 bucket as the destination for a data feed:
 
-   1. Beginnen creërend een gegevensvoer zoals die in [&#x200B; wordt beschreven creeer en vorm een gegevensvoer &#x200B;](#create-and-configure-a-data-feed).
+   1. Begin creating a data feed as described in [Create and configure a data feed](#create-and-configure-a-data-feed).
+   
+   1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select [!UICONTROL **Amazon S3**].
 
-   1. In de [!UICONTROL **sectie van de Bestemming**], in het [!UICONTROL **Type**] drop-down menu, uitgezochte [!UICONTROL **Amazon S3**].
+      ![Amazon S3 destination](assets/datafeed-destination-amazons3.png)
 
-      ![&#x200B; de bestemming van Amazon S3 &#x200B;](assets/datafeed-destination-amazons3.png)
+   1. Select [!UICONTROL **Select location**].
 
-   1. Selecteer [!UICONTROL **Uitgezochte plaats**].
+      The Amazon S3 Export Locations page is displayed.
 
-      De pagina Amazon S3 Exportlocaties wordt weergegeven.
-
-   1. (Voorwaardelijk) Als er al een Amazon S3-account (en een locatie op die account) is geconfigureerd in Adobe Analytics, kunt u deze gebruiken als de bestemming van de gegevensfeed:
+   1. (Conditional) If an Amazon S3 account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
       >[!NOTE]
       >
-      >De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie werden gedeeld u een deel van bent.
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      1. Selecteer de rekening van [!UICONTROL **Uitgezochte rekening**] drop-down menu.
+         Any cloud accounts that were configured in any of the following areas of Adobe Analytics are available to use:
+      
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-         Alle cloudaccounts die zijn geconfigureerd in een van de volgende Adobe Analytics-domeinen kunnen worden gebruikt:
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+   
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
-         * Wanneer het invoeren van de classificatiegegevens van Adobe Analytics, zoals die in [&#x200B; Schema &#x200B;](/help/components/classifications/sets/manage/schema.md) worden beschreven.
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-           Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
+      The destination is now configured to send data to the Amazon S3 location that you specified.
+   
+   1. (Conditional) If you have not previously added an Amazon S3 account:
 
-         * Wanneer het vormen van rekeningen en plaatsen in het gebied van Plaatsen, zoals die in [&#x200B; worden beschreven vorm wolk invoer en de uitvoerrekeningen &#x200B;](/help/components/locations/configure-import-accounts.md) en [&#x200B; vorm wolk invoer en de uitvoerplaatsen &#x200B;](/help/components/locations/configure-import-locations.md).
-
-      1. Selecteer de plaats van [!UICONTROL **Uitgezochte plaats**] drop-down menu.
-
-      1. Selecteer [!UICONTROL **sparen**] > [!UICONTROL **sparen**].
-
-      De bestemming wordt nu gevormd om gegevens naar de Amazon S3 plaats te verzenden die u specificeerde.
-
-   1. (Voorwaardelijk) Als u nog geen Amazon S3-account hebt toegevoegd:
-
-      1. Selecteer [!UICONTROL **toevoegen rekening**], dan specificeer de volgende informatie:
-
-         | Veld | Functie |
+      1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **de naam van de Rekening**] | Een naam voor de account. Dit kan elke gewenste naam zijn. |
-         | [!UICONTROL **beschrijving van de Rekening**] | Een beschrijving voor de account. |
-         | [!UICONTROL **ARN van de Rol**] | U moet een Role ARN (de Naam van het Middel van Amazon) verstrekken die Adobe kan gebruiken om tot de rekening van Amazon S3 toegang te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Voor specifieke informatie, zie [&#x200B; deze documentatie van AWS &#x200B;](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-         | [!UICONTROL **ARN VAN DE Gebruiker**] | De User ARN (Amazon Resource Name) wordt opgegeven door Adobe. U moet deze gebruiker aan het beleid vastmaken u creeerde. |
+         | [!UICONTROL **Account name**] | A name for the account. This can be any name you choose. |
+         | [!UICONTROL **Account description**] | A description for the account. |
+         | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+         | [!UICONTROL **User ARN**] | The User ARN (Amazon Resource Name) is provided by Adobe. You must attach this user to the policy you created. |
 
          {style="table-layout:auto"}
 
-      1. Selecteer [!UICONTROL **plaats**] toevoegen, dan specificeer de volgende informatie:
-
-         | Veld | Functie |
+      1. Select [!UICONTROL **Add location**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Naam**] | Een naam voor de account. |
-         | [!UICONTROL **Beschrijving**] | Een beschrijving voor de account. |
-         | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. <p>Zorg ervoor dat de door Adobe verschafte Gebruiker-ARN over de `S3:PutObject` -machtiging beschikt om bestanden te uploaden naar dit emmertje. Met deze machtiging kan de ARN-gebruiker initiële bestanden uploaden en bestanden overschrijven voor volgende uploads.</p><p>Emmernamen moeten voldoen aan specifieke naamgevingsregels. Ze moeten bijvoorbeeld tussen 3 en 63 tekens lang zijn, ze mogen alleen bestaan uit kleine letters, cijfers, puntjes (.) en afbreekstreepjes (-) en ze moeten beginnen en eindigen met een letter of getal. [&#x200B; A volledige lijst van het noemen van regels is beschikbaar in de documentatie van AWS &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
-         | [!UICONTROL **Prefix**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
+         | [!UICONTROL **Name**] | A name for the account.  |
+         | [!UICONTROL **Description**] | A description for the account. |
+         | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. This permission allows the User ARN to upload initial files and overwrite files for subsequent uploads.</p><p>Bucket names must meet specific naming rules. For example, they must be between 3 to 63 characters long, can consist only of lowercase letters, numbers, dots (.), and hyphens (-), and must begin and end with a letter or number. [A complete list of naming rules are available in the AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+         | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
          {style="table-layout:auto"}
 
-      1. Selecteer [!UICONTROL **creeer**] > [!UICONTROL **sparen**].
+      1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         De bestemming wordt nu gevormd om gegevens naar de Amazon S3 plaats te verzenden die u specificeerde.
+         The destination is now configured to send data to the Amazon S3 location that you specified.
 
-      1. (Voorwaardelijk) als u de bestemming (rekening en plaats) moet beheren die u enkel creeerde, is het beschikbaar in de [&#x200B; manager van Plaatsen &#x200B;](/help/components/locations/locations-manager.md).
-
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
+   
    +++
 
    +++Azure RBAC
 
-   Met RBAC-verificatie kunt u feeds rechtstreeks naar een Azure-container verzenden. Dit bestemmingstype vereist een identiteitskaart van de Toepassing, identiteitskaart van de Aannemer, en Geheim.
+   You can send feeds directly to an Azure container by using RBAC authentication. This destination type requires an Application ID, Tenant ID, and Secret. 
 
-   Een Azure RBAC-account configureren als de bestemming voor een gegevensfeed:
+   To configure an Azure RBAC account as the destination for a data feed:
 
-   1. Als u nog geen Azure-toepassing hebt, maakt u een Azure-toepassing die Adobe Analytics voor verificatie kan gebruiken en verleent u vervolgens toegangsmachtigingen in toegangsbeheer (IAM).
+   1. If you haven't already, create an Azure application that Adobe Analytics can use for authentication, then grant access permissions in access control (IAM). 
+   
+      For information, refer to the [Microsoft Azure documentation about how to create an Azure Active Directory application](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal). 
+   
+   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select [!UICONTROL **Azure RBAC**].
 
-      Voor informatie, verwijs naar de [&#x200B; Microsoft Azure documentatie over hoe te om een Azure Actieve toepassing van de Folder &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal) tot stand te brengen.
+      ![Azure RBAC destination](assets/datafeed-destination-azurerbac.png)
 
-   1. In de Adobe Analytics admin console, in de [!UICONTROL **sectie van de Bestemming**], in het [!UICONTROL **Type**] drop-down menu, uitgezochte [!UICONTROL **Azure RBAC**].
+   1. Select [!UICONTROL **Select location**].
 
-      ![&#x200B; Azure RBAC bestemming &#x200B;](assets/datafeed-destination-azurerbac.png)
+      The Azure RBAC Export Locations page is displayed.
 
-   1. Selecteer [!UICONTROL **Uitgezochte plaats**].
-
-      De pagina Azure RBAC Export Locations wordt weergegeven.
-
-   1. (Voorwaardelijk) Als er al een Azure RBAC-account (en een locatie op die account) is geconfigureerd in Adobe Analytics, kunt u deze gebruiken als bestemming voor de gegevensinvoer:
+   1. (Conditional) If an Azure RBAC account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
       >[!NOTE]
       >
-      >De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie werden gedeeld u een deel van bent.
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      1. Selecteer de rekening van [!UICONTROL **Uitgezochte rekening**] drop-down menu.
+      Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
+      
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-      Alle cloudaccounts die u hebt geconfigureerd in een van de volgende Adobe Analytics-domeinen kunnen worden gebruikt:
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-      * Wanneer het invoeren van de classificatiegegevens van Adobe Analytics, zoals die in [&#x200B; Schema &#x200B;](/help/components/classifications/sets/manage/schema.md) worden beschreven.
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
-        Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-      * Wanneer het vormen van rekeningen en plaatsen in het gebied van Plaatsen, zoals die in [&#x200B; worden beschreven vorm wolk invoer en de uitvoerrekeningen &#x200B;](/help/components/locations/configure-import-accounts.md) en [&#x200B; vorm wolk invoer en de uitvoerplaatsen &#x200B;](/help/components/locations/configure-import-locations.md).
+         The destination is now configured to send data to the Azure RBAC location that you specified.
 
-      1. Selecteer de plaats van [!UICONTROL **Uitgezochte plaats**] drop-down menu.
+   1. (Conditional) If you have not previously added an Azure RBAC account:
 
-      1. Selecteer [!UICONTROL **sparen**] > [!UICONTROL **sparen**].
-
-         De bestemming wordt nu gevormd om gegevens naar de Azure plaats te verzenden RBAC die u specificeerde.
-
-   1. (Voorwaardelijk) Als u nog geen Azure RBAC-account hebt toegevoegd:
-
-      1. Selecteer [!UICONTROL **toevoegen rekening**], dan specificeer de volgende informatie:
-
-         | Veld | Functie |
+      1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **de naam van de Rekening**] | Een naam voor de Azure RBAC-account. Deze naam toont in [!UICONTROL **Uitgezochte rekening**] drop-down gebied en kan om het even welke naam zijn u kiest. |
-         | [!UICONTROL **beschrijving van de Rekening**] | Een beschrijving voor de Azure RBAC-account. Deze beschrijvingsvertoningen in [!UICONTROL **Uitgezochte rekening**] drop-down gebied en kunnen om het even welke naam zijn u kiest. |
-         | [!UICONTROL **identiteitskaart van de Toepassing**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [&#x200B; Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
-         | [!UICONTROL **identiteitskaart van de HTENT**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [&#x200B; Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
-         | [!UICONTROL **Geheim**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Certificaten &amp; geheimen** lusje binnen uw toepassing. Voor meer informatie, zie [&#x200B; Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
+         | [!UICONTROL **Account name**] | A name for the Azure RBAC account. This name displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Account description**] | A description for the Azure RBAC account. This description displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose.  |
+         | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
-      1. Selecteer [!UICONTROL **plaats**] toevoegen, dan specificeer de volgende informatie:
-
-         | Veld | Functie |
+      1. Select [!UICONTROL **Add location**], then specify the following information: 
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Naam**] | Een naam voor de locatie. Deze naam toont in [!UICONTROL **Uitgezochte plaats**] drop-down gebied en kan om het even welke naam zijn u kiest. |
-         | [!UICONTROL **Beschrijving**] | Een beschrijving voor de locatie. Deze beschrijving toont in [!UICONTROL **Uitgezochte plaats**] drop-down gebied en kan om het even welke naam zijn u kiest. |
-         | [!UICONTROL **Rekening**] | De Azure-opslagaccount. |
-         | [!UICONTROL **Container**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat u machtigingen verleent om bestanden te uploaden naar de Azure-toepassing die u eerder hebt gemaakt. |
-         | [!UICONTROL **Prefix**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/`<p>Controleer of de toepassings-id die u hebt opgegeven bij het configureren van de Azure RBAC-account, de rol `Storage Blob Data Contributor` heeft gekregen voor toegang tot de container (map).</p> <p>Voor meer informatie, zie [&#x200B; Azure ingebouwde rollen &#x200B;](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
+         | [!UICONTROL **Name**] | A name for the location. This name displays in the [!UICONTROL **Select location**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Description**] | A description for the location. This description displays in the [!UICONTROL **Select location**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Account**] | The Azure storage account. |
+         | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. Ensure that you grant permissions to upload files to the Azure application that you created earlier. |
+         | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/`<p>Make sure the Application ID that you specified when configuring the Azure RBAC account has been granted the `Storage Blob Data Contributor` role in order to access the container (folder).</p> <p>For more information, see [Azure built-in roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
 
          {style="table-layout:auto"}
 
-      1. Selecteer [!UICONTROL **creeer**] > [!UICONTROL **sparen**].
+      1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         De bestemming wordt nu gevormd om gegevens naar de Azure plaats te verzenden RBAC die u specificeerde.
+         The destination is now configured to send data to the Azure RBAC location that you specified.
 
-      1. (Voorwaardelijk) als u de bestemming (rekening en plaats) moet beheren die u enkel creeerde, is het beschikbaar in de [&#x200B; manager van Plaatsen &#x200B;](/help/components/locations/locations-manager.md).
-
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
+   
    +++
 
    +++Azure SAS
 
-   Met SAS-verificatie kunt u feeds rechtstreeks naar een Azure-container verzenden. Voor dit doeltype is een toepassings-id, een id voor de huurder, de sleutelvault-URI, de geheime naam van de sleutelkluis en een geheim vereist.
+   You can send feeds directly to an Azure container by using SAS authentication. This destination type requires an Application ID, Tenant ID, Key vault URI, Key vault secret name, and secret. 
 
-   Om Azure SAS als bestemming voor een gegevensvoer te vormen:
+   To configure Azure SAS as the destination for a data feed:
 
-   1. Als u dat nog niet hebt gedaan, maakt u een Azure-toepassing die Adobe Analytics voor verificatie kan gebruiken.
+   1. If you haven't already, create an Azure application that Adobe Analytics can use for authentication. 
+   
+      For information, refer to the [Microsoft Azure documentation about how to create an Azure Active Directory application](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal). 
+   
+   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Azure SAS**].
 
-      Voor informatie, verwijs naar de [&#x200B; Microsoft Azure documentatie over hoe te om een Azure Actieve toepassing van de Folder &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal) tot stand te brengen.
+      ![Azure SAS destination](assets/datafeed-destination-azuresas.png)
 
-   1. In de Adobe Analytics admin console, in de [!UICONTROL **sectie van de Bestemming**], uitgezochte [!UICONTROL **Azure SAS**].
+   1. Select [!UICONTROL **Select location**].
 
-      ![&#x200B; Azure SAS bestemming &#x200B;](assets/datafeed-destination-azuresas.png)
+      The Azure SAS Export Locations page is displayed.
 
-   1. Selecteer [!UICONTROL **Uitgezochte plaats**].
-
-      De Azure SAS Export Locations-pagina wordt weergegeven.
-
-   1. (Voorwaardelijk) Als er al een Azure SAS-account (en een locatie op die account) is geconfigureerd in Adobe Analytics, kunt u dit gebruiken als de bestemming van de gegevensfeed:
+   1. (Conditional) If an Azure SAS account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
       >[!NOTE]
       >
-      >De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie werden gedeeld u een deel van bent.
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      1. Selecteer de rekening van [!UICONTROL **Uitgezochte rekening**] drop-down menu.
+         Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
+      
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-         Alle cloudaccounts die u hebt geconfigureerd in een van de volgende Adobe Analytics-domeinen kunnen worden gebruikt:
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-         * Wanneer het invoeren van de classificatiegegevens van Adobe Analytics, zoals die in [&#x200B; Schema &#x200B;](/help/components/classifications/sets/manage/schema.md) worden beschreven.
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
-           Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         * Wanneer het vormen van rekeningen en plaatsen in het gebied van Plaatsen, zoals die in [&#x200B; worden beschreven vorm wolk invoer en de uitvoerrekeningen &#x200B;](/help/components/locations/configure-import-accounts.md) en [&#x200B; vorm wolk invoer en de uitvoerplaatsen &#x200B;](/help/components/locations/configure-import-locations.md).
+         The destination is now configured to send data to the Azure SAS location that you specified.
+   
+   1. (Conditional) If you have not previously added an Azure SAS account:
 
-      1. Selecteer de plaats van [!UICONTROL **Uitgezochte plaats**] drop-down menu.
-
-      1. Selecteer [!UICONTROL **sparen**] > [!UICONTROL **sparen**].
-
-         De bestemming is nu geconfigureerd voor het verzenden van gegevens naar de door u opgegeven Azure SAS-locatie.
-
-   1. (Voorwaardelijk) Als u nog geen Azure SAS-account hebt toegevoegd:
-
-      1. Selecteer [!UICONTROL **toevoegen rekening**], dan specificeer de volgende informatie:
-
-         | Veld | Functie |
+      1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **de naam van de Rekening**] | Een naam voor de Azure SAS-account. Deze naam toont in [!UICONTROL **Uitgezochte rekening**] drop-down gebied en kan om het even welke naam zijn u kiest. |
-         | [!UICONTROL **beschrijving van de Rekening**] | Een beschrijving voor de Azure SAS-account. Deze beschrijvingsvertoningen in [!UICONTROL **Uitgezochte rekening**] drop-down gebied en kunnen om het even welke naam zijn u kiest. |
-         | [!UICONTROL **identiteitskaart van de Toepassing**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [&#x200B; Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
-         | [!UICONTROL **identiteitskaart van de HTENT**] | Kopieer deze id uit de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Overzicht** lusje binnen uw toepassing. Voor meer informatie, zie [&#x200B; Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
-         | [!UICONTROL **Zeer belangrijke vault URI**] | <p>Het pad naar de SAS URI in Azure Key Vault. Om Azure SAS te configureren, moet u een SAS-URI opslaan als een geheim met Azure Key Vault. Voor informatie, zie de [&#x200B; Microsoft Azure documentatie over hoe te om een geheim van Azure Key Vault &#x200B;](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations) te plaatsen en terug te winnen.</p><p>Nadat de sleutelvault-URI is gemaakt:<ul><li>Voeg een toegangsbeleid op de Zeer belangrijke vault toe om toestemming aan de Azure toepassing te verlenen die u creeerde.<p>Voor informatie, zie [&#x200B; Microsoft Azure documentatie over hoe te om een Zeer belangrijk de toegangsbeleid van de Vault toe te wijzen &#x200B;](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>of</p><p>Als u een toegangsrol direct wilt verlenen zonder een toegangsbeleid te creëren, zie [&#x200B; Microsoft Azure documentatie over hoe te om Azure rollen toe te wijzen gebruikend Azure portaal &#x200B;](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal). Hiermee voegt u de roltoewijzing voor de toepassings-id toe aan toegang tot de sleutelvault-URI. </p></li><li>Zorg ervoor dat de toepassings-id de `Key Vault Certificate User` ingebouwde rol heeft gekregen om toegang te krijgen tot de sleutelvault URI.</br><p>Voor meer informatie, zie [&#x200B; Azure ingebouwde rollen &#x200B;](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul> |
-         | [!UICONTROL **Zeer belangrijke geheime naam van de kluis**] | De geheime naam die u hebt gemaakt toen u het geheim toevoegde aan Azure Key Vault. In Microsoft Azure, wordt deze informatie gevestigd in de Belangrijkste Vault u, op de **Zeer belangrijke de montagespagina&#39;s van de Uitvault** creeerde. Voor informatie, zie de [&#x200B; Microsoft Azure documentatie over hoe te om een geheim van Azure Key Vault &#x200B;](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations) te plaatsen en terug te winnen. |
-         | [!UICONTROL **Geheim**] | Kopieer het geheim van de Azure-toepassing die u hebt gemaakt. In Microsoft Azure, wordt deze informatie gevestigd op het **Certificaten &amp; geheimen** lusje binnen uw toepassing. Voor meer informatie, zie [&#x200B; Microsoft Azure documentatie over hoe te om een toepassing met het de identiteitsplatform van Microsoft &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) te registreren. |
+         | [!UICONTROL **Account name**] | A name for the Azure SAS account. This name displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Account description**] | A description for the Azure SAS account. This description displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Key vault URI**] | <p>The path to the SAS URI in Azure Key Vault. To configure Azure SAS, you need to store an SAS URI as a secret using Azure Key Vault. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>After the key vault URI is created:<ul><li>Add an access policy on the Key Vault in order to grant permission to the Azure application that you created.<p>For information, see the [Microsoft Azure documentation about how to assign a Key Vault access policy](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>Or</p><p>If you want to grant an access role directly without creating an access policy, see the [Microsoft Azure documentation about how to assign Azure roles using Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal). This adds the role assignment for the application ID to access the key vault URI. </p></li><li>Make sure the Application ID has been granted the `Key Vault Certificate User` built-in role in order to access the key vault URI.</br><p>For more information, see [Azure built-in roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul> |
+         | [!UICONTROL **Key vault secret name**] | The secret name you created when adding the secret to Azure Key Vault. In Microsoft Azure, this information is located in the Key Vault you created, on the **Key Vault** settings pages. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **Secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
-      1. Selecteer [!UICONTROL **plaats**] toevoegen, dan specificeer de volgende informatie:
-
-         | Veld | Functie |
+      1. Select [!UICONTROL **Add location**], then specify the following information: 
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Naam**] | Een naam voor de locatie. Deze naam toont in [!UICONTROL **Uitgezochte plaats**] drop-down gebied en kan om het even welke naam zijn u kiest. |
-         | [!UICONTROL **Beschrijving**] | Een beschrijving voor de locatie. Deze beschrijving toont in [!UICONTROL **Uitgezochte plaats**] drop-down gebied en kan om het even welke naam zijn u kiest. |
-         | [!UICONTROL **Container**] | De container in de account die u hebt opgegeven, waarnaar u Adobe Analytics-gegevens wilt verzenden. |
-         | [!UICONTROL **Prefix**] | De map in de container waarin u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/`<p>Zorg ervoor dat de opslag van SAS URI die u in het geheime naamveld Key Vault hebt opgegeven bij de configuratie van de Azure SAS-account, de `Write` -machtiging heeft. Hierdoor kan de SAS URI bestanden in uw Azure-container maken. <p>Als u wilt dat de SAS-URI ook bestanden overschrijft, controleert u of de SAS-URI-opslag de machtiging `Delete` heeft.</p><p>Voor meer informatie, zie [&#x200B; de opslagmiddelen van de Blob &#x200B;](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) in de Azure documentatie van de Opslag van Blob.</p> |
+         | [!UICONTROL **Name**] | A name for the location. This name displays in the [!UICONTROL **Select location**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Description**] | A description for the location. This description displays in the [!UICONTROL **Select location**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. |
+         | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/`<p>Make sure that the SAS URI store that you specified in the Key Vault secret name field when configuring the Azure SAS account has the `Write` permission. This allows the SAS URI to create files in your Azure container. <p>If you want the SAS URI to also overwrite files, make sure that the SAS URI store has the `Delete` permission.</p><p>For more information, see [Blob storage resources](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) in the Azure Blob Storage documentation.</p> |
 
          {style="table-layout:auto"}
 
-      1. Selecteer [!UICONTROL **creeer**] > [!UICONTROL **sparen**].
+      1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         De bestemming is nu geconfigureerd voor het verzenden van gegevens naar de door u opgegeven Azure SAS-locatie.
+         The destination is now configured to send data to the Azure SAS location that you specified.
 
-      1. (Voorwaardelijk) als u de bestemming (rekening en plaats) moet beheren die u enkel creeerde, is het beschikbaar in de [&#x200B; manager van Plaatsen &#x200B;](/help/components/locations/locations-manager.md).
-
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
+   
    +++
 
    +++Google Cloud Platform
 
-   U kunt feeds rechtstreeks naar de emmers van het Google Cloud Platform (GCP) verzenden. Voor dit doeltype zijn alleen de naam van uw GCP-account en de naam van de locatie (emmertje) vereist.
+   You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the location (bucket) name. 
+   
+   Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your GCP instance.
 
-   Adobe Analytics gebruikt verificatie voor meerdere accounts om bestanden van Adobe Analytics naar de opgegeven locatie in uw GCP-exemplaar te uploaden.
+   To configure a GCP bucket as the destination for a data feed:
 
-   Om een emmertje GCP als bestemming voor een gegevensvoer te vormen:
+   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Google Cloud Platform**].
 
-   1. In de Adobe Analytics admin console, in de [!UICONTROL **sectie van de Bestemming**], selecteer [!UICONTROL **het Platform van de Wolk van Google**].
+      ![Google Cloud Platform destination](assets/datafeed-destination-gcp.png)
 
-      ![&#x200B; bestemming van het Platform van de Wolk Google &#x200B;](assets/datafeed-destination-gcp.png)
+   1. Select [!UICONTROL **Select location**].
 
-   1. Selecteer [!UICONTROL **Uitgezochte plaats**].
+      The GCP Export Locations page is displayed.
 
-      De pagina GCP-exportlocaties wordt weergegeven.
-
-   1. (Voorwaardelijk) Als er al een Google Cloud Platform-account (en een locatie op dat account) is geconfigureerd in Adobe Analytics, kunt u dit gebruiken als de bestemming van de gegevensfeed:
+   1. (Conditional) If a Google Cloud Platform account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
       >[!NOTE]
       >
-      >De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie werden gedeeld u een deel van bent.
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      1. Selecteer de rekening van [!UICONTROL **Uitgezochte rekening**] drop-down menu.
+         Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
+      
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-         Alle cloudaccounts die u hebt geconfigureerd in een van de volgende Adobe Analytics-domeinen kunnen worden gebruikt:
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-         * Wanneer het invoeren van de classificatiegegevens van Adobe Analytics, zoals die in [&#x200B; Schema &#x200B;](/help/components/classifications/sets/manage/schema.md) worden beschreven.
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
-           Nochtans, kunnen om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd niet worden gebruikt. Voeg in plaats daarvan een nieuwe bestemming toe, zoals hieronder wordt beschreven.
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         * Wanneer het vormen van rekeningen en plaatsen in het gebied van Plaatsen, zoals die in [&#x200B; worden beschreven vorm wolk invoer en de uitvoerrekeningen &#x200B;](/help/components/locations/configure-import-accounts.md) en [&#x200B; vorm wolk invoer en de uitvoerplaatsen &#x200B;](/help/components/locations/configure-import-locations.md).
+         The destination is now configured to send data to the Google Cloud Platform location that you specified.
+   
+   1. (Conditional) If you have not previously added a GCP account:
 
-      1. Selecteer de plaats van [!UICONTROL **Uitgezochte plaats**] drop-down menu.
-
-      1. Selecteer [!UICONTROL **sparen**] > [!UICONTROL **sparen**].
-
-         De bestemming is nu geconfigureerd voor het verzenden van gegevens naar de locatie van het Google Cloud Platform die u hebt opgegeven.
-
-   1. (Voorwaardelijk) Als u nog geen GCP-account hebt toegevoegd:
-
-      1. Selecteer [!UICONTROL **toevoegen rekening**], dan specificeer de volgende informatie:
-
-         | Veld | Functie |
+      1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **de naam van de Rekening**] | Een naam voor de account. Dit kan elke gewenste naam zijn. |
-         | [!UICONTROL **beschrijving van de Rekening**] | Een beschrijving voor de account. |
-         | [!UICONTROL **identiteitskaart van het Project**] | Uw Google Cloud-project-id. Zie de [&#x200B; documentatie van de Wolk van Google over het krijgen van een project identiteitskaart &#x200B;](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
+         | [!UICONTROL **Account name**] | A name for the account. This can be any name you choose. |
+         | [!UICONTROL **Account description**] | A description for the account. |
+         | [!UICONTROL **Project ID**] | Your Google Cloud project ID. See the [Google Cloud documentation about getting a project ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
 
          {style="table-layout:auto"}
 
-      1. Selecteer [!UICONTROL **plaats**] toevoegen, dan specificeer de volgende informatie:
-
-         | Veld | Functie |
+      1. Select [!UICONTROL **Add location**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Belangrijk**] | De Opdrachtgever wordt geleverd door Adobe. U moet toestemming verlenen om voer naar dit hoofd te ontvangen. |
-         | [!UICONTROL **Naam**] | Een naam voor de account. |
-         | [!UICONTROL **Beschrijving**] | Een beschrijving voor de account. |
-         | [!UICONTROL **Emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. <p>Zorg ervoor dat u één van beiden van de volgende toestemmingen aan Principal hebt verleend die door Adobe wordt verstrekt: (Voor informatie over het verlenen van toestemmingen, zie [&#x200B; een hoofd aan een emmertje-vlakke beleid &#x200B;](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in de documentatie van de Wolk van Google toevoegen.)<ul><li>`roles/storage.objectCreator`: Gebruik deze machtiging als u Opdrachtgever wilt beperken tot het maken van alleen bestanden in uw GCP-account. </br>**Belangrijk:** als u deze toestemming met geplande rapportering gebruikt, moet u een uniek dossier - naam voor elke nieuwe geplande uitvoer gebruiken. Anders, zal de rapportgeneratie ontbreken omdat Principal geen toegang heeft om bestaande dossiers te overschrijven.</li><li>(Aanbevolen) `roles/storage.objectUser`: gebruik deze machtiging als u wilt dat de Opdrachtgever toegang heeft tot de bestanden in uw GCP-account, deze bestanden kan weergeven, bijwerken en verwijderen.</br> Deze toestemming staat Principal toe om bestaande dossiers voor verdere uploads, zonder de behoefte te beschrijven om unieke dossiernamen voor elke nieuwe geplande uitvoer automatisch te produceren.</li></ul><p>Als uw organisatie [&#x200B; het beleidsbeperkingen van de Organisatie &#x200B;](https://cloud.google.com/storage/docs/org-policy-constraints) gebruikt om slechts de rekening van het Platform van de Wolk van Google in uw lijst van gewenste personen toe te staan, hebt u de volgende Adobe bezeten de organisatieidentiteitskaart van het Platform van Google Cloud nodig: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
-         | [!UICONTROL **Prefix**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld: `folder_name/` |
+         | [!UICONTROL **Principal**] | The Principal is provided by Adobe. You must grant permission to receive feeds to this principal. |
+         | [!UICONTROL **Name**] | A name for the account.  |
+         | [!UICONTROL **Description**] | A description for the account. |
+         | [!UICONTROL **Bucket**] | The bucket within your GCP account where you want Adobe Analytics data to be sent. <p>Ensure that you have granted either of the following permissions to the Principal provided by Adobe: (For information about granting permissions, see [Add a principal to a bucket-level policy](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in the Google Cloud documentation.)<ul><li>`roles/storage.objectCreator`: Use this permission if you  want to limit the Principal to only create files in your GCP account. </br>**Important:** If you use this permission with scheduled reporting, you must use a unique file name for each new scheduled export. Otherwise, the report generation will fail because the Principal does not have access to overwrite existing files.</li><li>(Recommended) `roles/storage.objectUser`: Use this permission if you want the Principal to have access to view, list, update, and delete files in your GCP account.</br>This permission allows the Principal to overwrite existing files for subsequent uploads, without the need to auto-generate unique file names for each new scheduled export.</li></ul><p>If your organization is using [Organization policy constraints](https://cloud.google.com/storage/docs/org-policy-constraints) to allow only the Google Cloud Platform account in your allow list, you need the following Adobe-owned Google Cloud Platform organization ID: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+         | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
          {style="table-layout:auto"}
 
-      1. Selecteer [!UICONTROL **creeer**] > [!UICONTROL **sparen**].
+      1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         De bestemming wordt nu gevormd om gegevens naar de plaats te verzenden GCP die u specificeerde.
+         The destination is now configured to send data to the GCP location that you specified.
 
-      1. (Voorwaardelijk) als u de bestemming (rekening en plaats) moet beheren die u enkel creeerde, is het beschikbaar in de [&#x200B; manager van Plaatsen &#x200B;](/help/components/locations/locations-manager.md).
-
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
+   
    +++
 
-1. In de [!UICONTROL **sectie van de Definities van de Kolom van 0&rbrace; Gegevens &lbrace;, selecteer het recentste**] Alle Kolommen van Adobe [!UICONTROL **malplaatje in het drop-down menu, dan voltooi de volgende gebieden:**]
-
-   | Veld | Functie |
+1. In the  [!UICONTROL **Data Column Definitions**] section, select the latest [!UICONTROL **All Adobe Columns**] template in the drop-down menu, then complete the following fields:
+   
+   |Field | Function |
    |---------|----------|
-   | [!UICONTROL **verwijdert ontsnapte karakters**] | Bij het verzamelen van gegevens kunnen sommige tekens (zoals nieuwe regels) problemen veroorzaken. Schakel dit selectievakje in als u deze tekens uit feed-bestanden wilt verwijderen. |
-   | [!UICONTROL **formaat van de Compressie**] | Het type compressie dat wordt gebruikt. **Gzip** outputs dossiers in `.tar.gz` formaat. **Zip** outputs dossiers in `.zip` formaat. |
-   | [!UICONTROL **Verpakkingstype**] | Selecteer [!UICONTROL **Veelvoudige dossiers**] voor de meeste gegevensvoer. Met deze optie worden uw gegevens gepagineerd in ongecomprimeerde 2GB-blokken. (Als de [!UICONTROL **Veelvoudige dossiers**] optie wordt geselecteerd en uncompressed gegevens voor het rapporteringsvenster minder dan 2GB is, wordt één dossier verzonden.) Het selecteren van **Enig dossier** output het `hit_data.tsv` dossier in één enkel, potentieel massief dossier. |
-   | [!UICONTROL **Manifest**] | Bepaalt of Adobe a [&#x200B; duidelijk dossier &#x200B;](c-df-contents/datafeeds-contents.md#feed-manifest) aan de bestemming zou moeten leveren wanneer geen gegevens voor een voederinterval worden verzameld. Als u **Manifest Dossier** selecteert, ontvangt u een duidelijk dossier gelijkend op het volgende wanneer geen gegevens worden verzameld:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
-   | [!UICONTROL **malplaatjes van de Kolom**] | Als u veel gegevensfeeds maakt, wordt u aangeraden een kolomsjabloon te maken. Als u een kolomsjabloon selecteert, worden automatisch de opgegeven kolommen in de sjabloon opgenomen. Adobe biedt standaard ook diverse sjablonen. |
-   | [!UICONTROL **Beschikbare kolommen**] | Alle beschikbare gegevenskolommen in Adobe Analytics. Klik op [!UICONTROL Add all] om alle kolommen in een gegevensfeed op te nemen. |
-   | [!UICONTROL **Included kolommen**] | De kolommen die in een gegevensfeed moeten worden opgenomen. Klik op [!UICONTROL Remove all] om alle kolommen uit een gegevensfeed te verwijderen. |
-   | [!UICONTROL **download CSV**] | Hiermee wordt een CSV-bestand gedownload dat alle kolommen bevat. |
+   | [!UICONTROL **Remove escaped characters**] | When collecting data, some characters (such as newlines) can cause issues. Check this box if you would like these characters removed from feed files. |
+   | [!UICONTROL **Compression format**] | The type of compression used. **Gzip** outputs files in `.tar.gz` format. **Zip** outputs files in `.zip` format. |
+   | [!UICONTROL **Packaging type**] | Select [!UICONTROL **Multiple files**] for most data feeds. This option paginates your data into uncompressed 2GB chunks. (If the [!UICONTROL **Multiple files**] option is selected and uncompressed data for the reporting window is less than 2GB, one file is sent.) Selecting **Single file** outputs the `hit_data.tsv` file in a single, potentially massive file. |
+   | [!UICONTROL **Manifest**] | Determines whether Adobe should deliver a [manifest file](c-df-contents/datafeeds-contents.md#feed-manifest) to the destination when no data is collected for a feed interval. If you select **Manifest File**, you receive a manifest file similar to the following when no data is collected:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **Column templates**] | When creating many data feeds, Adobe recommends creating a column template. Selecting a column template automatically includes the specified columns in the template. Adobe also provides several templates by default. |
+   | [!UICONTROL **Available columns**] | All available data columns in Adobe Analytics. Click [!UICONTROL Add all] to include all columns in a data feed. |
+   | [!UICONTROL **Included columns**] | The columns to include in a data feed. Click [!UICONTROL Remove all] to remove all columns from a data feed. |
+   | [!UICONTROL **Download CSV**] | Downloads a CSV file containing all included columns. |
 
-1. Selecteer [!UICONTROL **sparen**] in het hoogste recht.
+1. Select [!UICONTROL **Save**] in the top-right.
 
-   Historische gegevensverwerking begint onmiddellijk. Wanneer de gegevens verwerking voor een dag beëindigen, wordt het dossier verzonden naar de bestemming die u vormde.
+    Historical data processing begins immediately. When data finishes processing for a day, the file is sent to the destination that you configured.
 
-   Voor informatie over hoe te om tot de gegevensvoer toegang te hebben en een beter inzicht in zijn inhoud te krijgen, zie [&#x200B; de voederinhoud van Gegevens - overzicht &#x200B;](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md).
+    For information about how to access the data feed and to get a better understanding of its contents, see [Data feed contents - overview](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md).
 
-## Oudere bestemmingen
+## Legacy destinations
 
 >[!IMPORTANT]
 >
->De doelen die in deze sectie worden beschreven, zijn verouderd en worden niet aanbevolen. Gebruik in plaats daarvan een van de volgende doelen bij het maken van een gegevensfeed: Amazon S3, Google Cloud Platform, Azure RBAC of Azure SAS. Zie [&#x200B; creeer en vorm een gegevensvoer &#x200B;](#create-and-configure-a-data-feed) voor gedetailleerde informatie over elk van deze geadviseerde bestemmingen.
+>The destinations described in this section are legacy, and are not recommended. Instead, use one of the following destinations when creating a data feed: Amazon S3, Google Cloud Platform, Azure RBAC, or Azure SAS. See [Create and configure a data feed](#create-and-configure-a-data-feed) for detailed information about each of these recommended destinations. 
 
 
-De volgende informatie verstrekt configuratieinformatie voor elk van de erfenisbestemmingen:
+The following information provides configuration information for each of the legacy destinations:
 
 ### FTP
 
-Gegevens over gegevenstoevoer kunnen worden geleverd aan een door de Adobe of de klant gehoste FTP-locatie. Vereist een FTP-host, gebruikersnaam en wachtwoord. Gebruik het padveld om feed-bestanden in een map te plaatsen. Mappen moeten al bestaan; feeds genereren een fout als het opgegeven pad niet bestaat.
+Data feed data can be delivered to an Adobe or customer-hosted FTP location. Requires an FTP host, username, and password. Use the path field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified path does not exist.
 
-Gebruik de volgende informatie wanneer u de beschikbare velden invult:
+Use the following information when completing the available fields:
 
-* [!UICONTROL **Gastheer**]: Ga de gewenste bestemming URL van FTP in. Bijvoorbeeld `ftp://ftp.omniture.com` .
-* [!UICONTROL **Weg**]: Kan leeg worden verlaten
-* [!UICONTROL **Gebruikersnaam**]: Ga de gebruikersbenaming in aan login aan de plaats van FTP.
-* [!UICONTROL **Wachtwoord en bevestig wachtwoord**]: Ga het wachtwoord in om aan login aan de plaats van FTP.
+* [!UICONTROL **Host**]: Enter the desired FTP destination URL. For example, `ftp://ftp.omniture.com`.
+* [!UICONTROL **Path**]: Can be left blank
+* [!UICONTROL **Username**]: Enter the username to log in to the FTP site.
+* [!UICONTROL **Password and confirm password**]: Enter the password to log in to the FTP site.
 
 ### SFTP
 
-SFTP-ondersteuning voor gegevensfeeds is beschikbaar. Vereist een gastheer SFTP, gebruikersbenaming, en de bestemmingsplaats om een geldige RSA of DSA openbare sleutel te bevatten. U kunt de juiste openbare sleutel downloaden wanneer u de feed maakt.
+SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
 
 ### S3
 
-U kunt feeds rechtstreeks naar Amazon S3-emmers verzenden. Dit bestemmingstype vereist een naam van het Emmertje, een Zeer belangrijke identiteitskaart van de Toegang, en een Geheime Sleutel. Zie [&#x200B; Amazon S3 emmer noemende vereisten &#x200B;](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) binnen Amazon S3 docs voor meer informatie.
+You can send feeds directly to Amazon S3 buckets. This destination type requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
 
-De gebruiker u voor het uploaden van gegevensvoer verstrekt moet de volgende [&#x200B; toestemmingen &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) hebben:
+The user you provide for uploading data feeds must have the following [permissions](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
 
-* s3 :GetObject
-* s3 :PutObject
-* s3 :PutObjectAcl
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
 
   >[!NOTE]
   >
-  >Voor elke upload aan een Amazon S3 emmertje, [!DNL Analytics] voegt de emmereigenaar aan BucketOwnerFullControl ACL toe, ongeacht of het emmertje een beleid heeft dat het vereist. Voor meer informatie, zie &quot;[&#x200B; wat EmketOwnerFullControl het plaatsen voor Amazon S3 gegevensvoer is?](df-faq.md#BucketOwnerFullControl)&quot;
+  >For each upload to an Amazon S3 bucket, [!DNL Analytics] adds the bucket owner to the BucketOwnerFullControl ACL, regardless of whether the bucket has a policy that requires it. For more information, see "[What is the BucketOwnerFullControl setting for Amazon S3 data feeds?](df-faq.md#BucketOwnerFullControl)"
 
-De volgende 16 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het juiste handtekeningalgoritme wordt gebruikt):
+The following 16 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
 
-* us-East-2
-* us-oost-1
+* us-east-2
+* us-east-1
 * us-west-1
 * us-west-2
-* ap-zuid-1
+* ap-south-1
 * ap-northeast-2
-* ap-zuidoost-1
-* ap-zuidoost-2
+* ap-southeast-1
+* ap-southeast-2
 * ap-northeast-1
-* ca-centraal-1
-* EU-centraal-1
-* EU-west-1
-* EU-west-2
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
 * eu-west-3
-* eu-noord-1
-* sa-Oost-1
+* eu-north-1
+* sa-east-1
 
 >[!NOTE]
 >
->De regio cn-North-1 wordt niet ondersteund.
+>The cn-north-1 region is not supported.
 
 ### Azure Blob
 
-Data feeds ondersteunen Azure Blob-bestemmingen. Hiervoor is een container, account en sleutel vereist. Amazon versleutelt de gegevens automatisch in rust. Wanneer u de gegevens downloadt, worden deze automatisch gedecodeerd. Zie [&#x200B; een opslagrekening &#x200B;](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) binnen Microsoft Azure documenten voor meer informatie creëren.
+Data feeds support Azure Blob destinations. Requires a container, account, and a key. Amazon automatically encrypts the data at rest. When you download the data, it gets decrypted automatically. See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) within the Microsoft Azure docs for more information.
 
 >[!NOTE]
 >
->U moet uw eigen proces uitvoeren om schijfruimte op de voederbestemming te beheren. Adobe verwijdert geen gegevens van de server.
+>You must implement your own process to manage disk space on the feed destination. Adobe does not delete any data from the server.
+
+-->

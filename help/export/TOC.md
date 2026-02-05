@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Handleiding exporteren
 user-guide-description: Lees meer over het gebruik van datafeeds en datawarehouses om de uitvoer van gegevens op te halen.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 11%
 # Adobe Analytics Export Guide {#export}
 
 + [Handleiding voor exporteren van analysemogelijkheden](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Analytics-datafeed {#analytics-data-feed}
    + [Overzicht van gegevensinvoer](analytics-data-feed/data-feed-overview.md)
    + [Een gegevensfeed maken](analytics-data-feed/create-feed.md)
@@ -29,7 +29,7 @@ ht-degree: 11%
       + [Dynamische zoekopdrachten](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [Merchandising eVar lookup](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Speciale tekens](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
-      + [Te laat arriveren](analytics-data-feed/c-df-contents/late-arriving-hits.md)
+      + [Te laat aankomende treffers](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Veelgestelde vragen over gegevensinvoer](analytics-data-feed/df-faq.md)
    + [Aanbevolen werkwijzen voor gegevensinvoer](analytics-data-feed/data-feeds-best-practices.md)
    + [Gegevensfeeds oplossen](analytics-data-feed/troubleshooting.md)
@@ -73,4 +73,4 @@ ht-degree: 11%
       + [Adobe-gegevens naar een externe FTP-account met SFTP verzenden](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Data Warehouse-aanvragen naar SFTP-servers verzenden](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Verbinding maken met Adobe via SFTP zonder wachtwoord](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [&#x200B; Adobe Analytics API &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/)
++ [ Adobe Analytics API ](https://developer.adobe.com/analytics-apis/docs/2.0/)
