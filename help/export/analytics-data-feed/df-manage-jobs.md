@@ -24,11 +24,11 @@ Taken voor het beheren van gegevenfeed:
 
    De voer van gegevens voor alle rapportreeksen die u hebt toegang tot wordt getoond. Of als er geen feeds zijn geconfigureerd, wordt op de pagina een knop [!UICONTROL Create New Data Feed] weergegeven.
 
-   ![ de voedermanager van Gegevens ](assets/data-feed-manager.png)
+   ![&#x200B; de voedermanager van Gegevens &#x200B;](assets/data-feed-manager.png)
 
 1. (Facultatief) selecteer checkbox naast de gegevensvoer die de banen bevat die u wilt bekijken, dan de uitgezochte [!UICONTROL **geschiedenis van de Baan**].
 
-   Voor meer informatie, zie [ de baangeschiedenis van de Mening voor een gegevensvoer ](#view-job-history-for-a-data-feed).
+   Voor meer informatie, zie [&#x200B; de baangeschiedenis van de Mening voor een gegevensvoer &#x200B;](#view-job-history-for-a-data-feed).
 
 ## Filteren en zoeken
 
@@ -36,11 +36,11 @@ U kunt filteren en zoeken om de exacte taak te zoeken die u zoekt.
 
 Klik helemaal links op het filterpictogram om filteropties weer te geven of te verbergen. Filters zijn ingedeeld in categorieën. Klik op het pictogram om filtercategorieën samen te vouwen of uit te vouwen. Klik op het selectievakje om een filter toe te passen.
 
-![ Filter ](assets/jobs-filter.png)
+![&#x200B; Filter &#x200B;](assets/jobs-filter.png)
 
 Gebruik Zoeken om een taak op naam te zoeken.
 
-![ Onderzoek ](assets/search.png)
+![&#x200B; Onderzoek &#x200B;](assets/search.png)
 
 ## Kolommen sorteren en aanpassen
 
@@ -54,7 +54,7 @@ Selecteer een kolomkop om deze in oplopende volgorde te sorteren. Selecteer nogm
 
 De zichtbare kolommen in de tabel aanpassen:
 
-1. Selecteer het kolompictogram ![ pictogram van de Kolom ](assets/customize-columns-icon.png) in het top-right.
+1. Selecteer het kolompictogram ![&#x200B; pictogram van de Kolom &#x200B;](assets/customize-columns-icon.png) in het top-right.
 
 1. Selecteer in het dialoogvenster Tabel aanpassen elke kolom die u wilt weergeven en hef de selectie van elke kolom op die u wilt verbergen.
 
@@ -72,7 +72,7 @@ De zichtbare kolommen in de tabel aanpassen:
    * Wachten op gegevens: de taak is operationeel en er worden gegevens voor het rapportagevenster verzameld.
    * Verwerking: de taak maakt de gegevensbestanden en bereidt zich voor op het verzenden ervan.
    * Voltooid: de taak is voltooid zonder problemen.
-   * Mislukt: de taak is niet voltooid. Zie [ problemen oplossen gegevensvoer ](troubleshooting.md) helpen de oorzaak van mislukking bepalen.
+   * Mislukt: de taak is niet voltooid. Zie [&#x200B; problemen oplossen gegevensvoer &#x200B;](troubleshooting.md) helpen de oorzaak van mislukking bepalen.
    * Wachten op exporteren: de gegevens voor het rapportagevenster zijn nog niet volledig verwerkt.
    * Geen gegevens: de rapportsuite bevat geen gegevens voor het aangevraagde rapportvenster.
 * **Laatste veranderde**: De tijd de voer werd het laatst gewijzigd.
@@ -87,7 +87,7 @@ De taakgeschiedenis voor een gegevensfeed weergeven:
 
 1. In Adobe Analytics, uitgezochte [!UICONTROL **Admin**] > [!UICONTROL **het voer van Gegevens**].
 
-   ![ de voedermanager van Gegevens ](assets/data-feed-manager.png)
+   ![&#x200B; de voedermanager van Gegevens &#x200B;](assets/data-feed-manager.png)
 
 1. Selecteer checkbox naast de gegevensvoer de waarvan baangeschiedenis u wilt bekijken, dan selecteren [!UICONTROL **de geschiedenis van de Baan**].
 
@@ -113,7 +113,7 @@ De taakgeschiedenis voor een gegevensfeed weergeven:
 
 ## Taak voor gegevensinvoer opnieuw verzenden
 
-U kunt een gegevenfeed-taak opnieuw verzenden als u het gegevensbestand opnieuw wilt verzenden met exact dezelfde gegevens en verwerking als toen het oorspronkelijk werd verzonden. Alternatief, kunt u [ een baan van de gegevensvoer ](#reprocess-data-feed-jobs) opnieuw verwerken.
+U kunt een gegevenfeed-taak opnieuw verzenden als u het gegevensbestand opnieuw wilt verzenden met exact dezelfde gegevens en verwerking als toen het oorspronkelijk werd verzonden. Alternatief, kunt u [&#x200B; een baan van de gegevensvoer &#x200B;](#reprocess-data-feed-jobs) opnieuw verwerken.
 
 Een of meer taken voor gegevensinvoer opnieuw verzenden:
 
@@ -123,11 +123,11 @@ Een of meer taken voor gegevensinvoer opnieuw verzenden:
 
 1. Schakel het selectievakje naast een of meer taken voor gegevensinvoer in en selecteer vervolgens **[!UICONTROL Resend]** . <!-- What does the status need to be? Error, ... -->
 
-   ![ het voer van gegevens opnieuw verwerken baan ](assets/data-feed-job-resend.png)
+   ![&#x200B; het voer van gegevens opnieuw verwerken baan &#x200B;](assets/data-feed-job-resend.png)
 
 ## Taak voor gegevensinvoer opnieuw verwerken
 
-U kunt de brongegevens van een gegevensinvoertaak opnieuw verwerken en deze opnieuw met de opnieuw verwerkte gegevens verzenden. Alternatief, kunt u [ opnieuw sturen een baan van de gegevensvoer ](#resend-data-feed-jobs).
+U kunt de brongegevens van een gegevensinvoertaak opnieuw verwerken en deze opnieuw met de opnieuw verwerkte gegevens verzenden. Alternatief, kunt u [&#x200B; opnieuw sturen een baan van de gegevensvoer &#x200B;](#resend-data-feed-jobs).
 
 Een of meer taken voor het doorvoeren van gegevens opnieuw verwerken:
 
@@ -137,4 +137,4 @@ Een of meer taken voor het doorvoeren van gegevens opnieuw verwerken:
 
 1. Schakel het selectievakje naast een of meer taken voor gegevensinvoer in en selecteer vervolgens **[!UICONTROL Reprocess]** . <!-- What does the status need to be? Error, ... -->
 
-   ![ het voer van gegevens opnieuw verwerken baan ](assets/data-feed-job-reprocess.png)
+   ![&#x200B; het voer van gegevens opnieuw verwerken baan &#x200B;](assets/data-feed-job-reprocess.png)
