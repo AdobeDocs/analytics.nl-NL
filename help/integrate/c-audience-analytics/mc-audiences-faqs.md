@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Veelgestelde vragen voor Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Antwoorden op vragen die u hebt bij de implementatie van Audience Analytics.
 
 +++ Hoe weet ik of ik persoonlijk Identificeerbare Informatie (PII) in mijn Analytische gegevens heb? Zo ja, wat doe ik eraan?
 
-Als u e-mails, adressen en dergelijke in een inleiding of eVar hebt, kunt u overwegen de gegevens tijdens de verzameling te hashen. Als uw land IP adres om PII beschouwt te zijn, [&#x200B; zet IP verwarring &#x200B;](/help/admin/tools/exclude-ip.md) aan. Bespreek met uw Analysebeheerder wat u verzamelt. Bespreek met uw Juridische Dienst wat zij als PII beschouwen.
+Als u e-mails, adressen en dergelijke in een inleiding of eVar hebt, kunt u overwegen de gegevens tijdens de verzameling te hashen. Als uw land IP adres om PII beschouwt te zijn, [ zet IP verwarring ](/help/admin/tools/exclude-ip.md) aan. Bespreek met uw Analysebeheerder wat u verzamelt. Bespreek met uw Juridische Dienst wat zij als PII beschouwen.
 
 +++
 
@@ -37,7 +37,7 @@ Dit geldt niet voor het verzenden van Adobe Analytics-gegevens naar Adobe Audien
 
 +++ Hoe maak ik een Analytics-bestemming in Audience Manager?
 
-Zie [&#x200B; een Bestemming van Analytics in Adobe Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=nl-NL)&quot;vormen.
+Zie [ een Bestemming van Analytics in Adobe Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)&quot;vormen.
 
 +++
 
@@ -53,7 +53,7 @@ Een doel Analytics verdwijnt uit de sectie Doeltoewijzingen van een segment wann
 
 +++
 
-Zal ik hier alle informatie van Adobe Audience Manager, in Analytics krijgen?
++++ Zal ik hier alle informatie van Adobe Audience Manager, in Analytics krijgen?
 
 Nee, alleen gegevens die betrekking hebben op personen die tijdens of na het inschakelen van het Audience Manager-publiek en tijdens/na de segmentkwalificatie naar uw site komen.
 
@@ -135,7 +135,7 @@ Ja. In de de bestemmingsopstelling van Adobe Audience Manager, zult u slechts ra
 
 Alleen suites die zijn toegewezen aan je Experience Cloud Org kunnen worden ingeschakeld.
 
-Voor meer FAQs op dit onderwerp, zie [&#x200B; Server-kant Door:sturen FAQ &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
+Voor meer FAQs op dit onderwerp, zie [ Server-kant Door:sturen FAQ ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
 +++
 
@@ -149,7 +149,7 @@ Zie {de Verschillen van de Telling van 0} Bezoeker [.](/help/integrate/c-audienc
 
 +++ Wat is het verschil tussen &quot;publiek&quot; in Adobe Audience Manager en &quot;segmenten&quot; in Analytics?
 
-Zie [&#x200B; Segmenten in Analytics en Audience Manager &#x200B;](/help/integrate/c-audience-analytics/aam-analytics-segments.md) begrijpen. Het Adobe Audience Manager-publiek wordt verzonden en gedeeld als &#39;dimensie&#39;-componenten die in Analytics moeten worden gebruikt. Zij verschijnen niet als segmenten in de Bouwer van het Segment, bijvoorbeeld, maar als afmetingen die u segmenten kunt bouwen met.
+Zie [ Segmenten in Analytics en Audience Manager ](/help/integrate/c-audience-analytics/aam-analytics-segments.md) begrijpen. Het Adobe Audience Manager-publiek wordt verzonden en gedeeld als &#39;dimensie&#39;-componenten die in Analytics moeten worden gebruikt. Zij verschijnen niet als segmenten in de Bouwer van het Segment, bijvoorbeeld, maar als afmetingen die u segmenten kunt bouwen met.
 
 +++
 
