@@ -4,7 +4,7 @@ description: Begrijp het concept "replay"in Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Analytics voor verschillende apparaten maakt twee gegevenscontroles in een virtu
 
 ## Voorbeeldtabel
 
-De volgende lijsten illustreren hoe ([&#x200B; Op gebied-gebaseerd het stitching &#x200B;](field-based-stitching.md) het aantal unieke mensen berekent:
+De volgende lijsten illustreren hoe ([ Op gebied-gebaseerd het stitching ](field-based-stitching.md) het aantal unieke mensen berekent:
 
 ### Levend stitching
 
@@ -31,7 +31,7 @@ Zodra een treffer is verzameld, probeert de CDA deze aan bekende apparaten te he
 *Gegevens aangezien het lijkt de dag het wordt verzameld:*
 
 | Tijdstempel | ECID | eVar1 of CustomerID | Toelichting bij treffer | Mensen (cumulatief) die op het veld gebaseerde stitching gebruiken |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob op zijn desktopcomputer, niet geverifieerd | `1` (246) |
 | `2` | `246` | `Bob` | Bob meldt zich aan op zijn bureaublad | `2` (246 en Bob) |
 | `3` | `3579` | - | Bob op zijn mobiele apparaat, niet geverifieerd | `3` (246, Bob en 3579) |
