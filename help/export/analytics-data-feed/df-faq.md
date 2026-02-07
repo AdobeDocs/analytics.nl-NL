@@ -53,7 +53,7 @@ Als u verschillende variaties ziet van dezelfde waarde tussen kolommen die niet 
 
 ## Worden bots gefilterd door de regels van de Admin console bot inbegrepen in gegevensvoer? {#bots}
 
-De voer van gegevens omvat geen bots die door [ worden gefiltreerd Admin consolebot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md).
+De voer van gegevens omvat geen bots die door [&#x200B; worden gefiltreerd Admin consolebot regels &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md).
 
 ## Waarom zie ik meerdere `000` waarden in de kolom `event_list` of `post_event_list` gegevensinvoer? {#values}
 
@@ -89,7 +89,7 @@ Als een FTP-overdracht mislukt (als gevolg van een afgewezen aanmelding, een ver
 
 Als een overdracht mislukt, kunt u een taak opnieuw uitvoeren totdat deze is gelukt.
 
-Als u kwesties hebt die een gegevensvoer krijgen om op uw plaats van FTP te verschijnen, zie [ problemen oplossen gegevensvoer ](troubleshooting.md).
+Als u kwesties hebt die een gegevensvoer krijgen om op uw plaats van FTP te verschijnen, zie [&#x200B; problemen oplossen gegevensvoer &#x200B;](troubleshooting.md).
 
 ## Hoe kan ik een baan opnieuw sturen? {#resend}
 
