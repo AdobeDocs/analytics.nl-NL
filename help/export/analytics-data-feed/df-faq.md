@@ -4,9 +4,9 @@ keywords: Gegevensfeed;taak;vóór kolom;na kolom;hoofdlettergevoeligheid
 title: Veelgestelde vragen over gegevensfeeds
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 470ab0dfa76681d73f847ba9c2aecaf64804540c
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Als u verschillende variaties ziet van dezelfde waarde tussen kolommen die niet 
 
 ## Worden bots gefilterd door de regels van de Admin console bot inbegrepen in gegevensvoer? {#bots}
 
-De voer van gegevens omvat geen bots die door [&#x200B; worden gefiltreerd Admin consolebot regels &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md).
+De voer van gegevens omvat geen bots die door [ worden gefiltreerd Admin consolebot regels ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md).
 
 ## Waarom zie ik meerdere `000` waarden in de kolom `event_list` of `post_event_list` gegevensinvoer? {#values}
 
@@ -69,19 +69,19 @@ In bijna alle gevallen identificeert de samenvoeging van `hitid_high` en `hitid_
 
 Sommige mobiele dragers (zoals T-Mobile en O1) verstrekken geen domeininfo voor omgekeerde DNS raadplegingen meer. Daarom zijn die gegevens niet beschikbaar voor domeinrapportering.
 
-## Waarom kan ik &quot;Uurly&quot;-bestanden niet extraheren uit gegevens die ouder zijn dan zeven dagen? {#hourly}
+## Waarom kan ik uurbestanden niet betrouwbaar extraheren voor oudere datums? {#hourly}
 
-Voor gegevens die ouder zijn dan 7 dagen, worden de &quot;Uur&quot;dossiers van een dag gecombineerd in één enkel &quot;Dagelijks&quot;dossier.
+Om opslag en verwerking te optimaliseren, consolideert Adobe regelmatig uurexport naar dagelijkse bestanden. Vanwege hoe en wanneer deze consolidatie wordt uitgevoerd, is de uurproductie voor datums ouder dan 10 dagen niet voorspelbaar. Voor een bepaalde datum is het mogelijk om een combinatie van uurbestanden voor sommige uren en een geconsolideerd dagbestand voor anderen te zien. Gegevens die in een dagelijks bestand worden geconsolideerd, worden doorgaans toegewezen aan uur `00` . Dit kan ertoe leiden dat andere uren leeg blijven wanneer die uren rechtstreeks worden aangevraagd.
 
-Voorbeeld: Op 9 maart 2021 wordt een nieuwe gegevensfeed gemaakt en de gegevens van 1 januari 2021 tot 9 maart worden als &quot;Uur&quot; geleverd. De &quot;Uurly&quot;-bestanden vóór 2 maart 2021 worden echter gecombineerd tot één &quot;Dagelijks&quot; bestand. U kunt alleen &#39;Uurly&#39;-bestanden extraheren uit gegevens die jonger zijn dan 7 dagen na de aanmaakdatum. In dit geval, van 2 maart tot en met 9 maart.
+Voor backfills ouder dan 10 dagen raadt Adobe ten zeerste aan dagelijkse granulariteit te gebruiken om volledige en voorspelbare resultaten te garanderen. Als u een verzoek om granulariteit per uur moet indienen voor oudere dagen, neemt u altijd het uur `00` op in uw verzoek om te voorkomen dat er geconsolideerde uurgegevens ontbreken.
 
 ## Wat is de impact van de zomertijd op de uurgegevens? {#dst}
 
-Voor bepaalde tijdzones verandert de tijd tweemaal per jaar als gevolg van definities van zomertijd (DST). Het voer van gegevens respecteert de tijdzone waarvoor de rapportreeks wordt gevormd. Als de tijdzone voor de rapportreeks één is die geen DST gebruikt, blijft de dossierlevering normaal als een andere dag verdergaan. Als de tijdzone van de rapportreeks één is die DST gebruikt, wordt de dossierlevering veranderd voor het uur waarin de tijdverandering voorkomt (gewoonlijk 2 :00 am).
+Voor bepaalde tijdzones verandert de tijd tweemaal per jaar als gevolg van definities van zomertijd (DST). Het voer van gegevens respecteert de tijdzone waarvoor de rapportreeks wordt gevormd. Als de tijdzone voor de rapportreeks één is die geen DST gebruikt, blijft de dossierlevering normaal als een andere dag verdergaan. Als de tijdzone van de rapportreeks één is die DST gebruikt, wordt de dossierlevering veranderd voor het uur waarin de tijdverandering voorkomt (gewoonlijk 2 :00 AM).
 
-Bij het maken van STD -> DST-tijdovergangen (&quot;Voorjaar vooruit&quot;) ontvangt de klant slechts 23 bestanden. Het uur dat in de overgang van DST wordt overgeslagen wordt weggelaten. Bijvoorbeeld, als de overgang bij 2 AM voorkomt, krijgen zij een dossier voor het 1 :00 uur en een dossier voor het 3 :00 uur. Er is geen 2 :00 dossier omdat, bij 2 :00 STD, het 3 :00 DST wordt.
+Bij het maken van STD -> DST-tijdovergangen (voorjaar) ontvangt u 23 bestanden. Het uur dat in de overgang van DST wordt overgeslagen wordt weggelaten. Bijvoorbeeld, als de overgang bij 2 AM voorkomt, krijgt u een dossier voor het 1 :00 uur en een dossier voor het 3 :00 uur. Er is geen 2 :00 dossier omdat, bij 2 :00 STD, het 3 :00 DST wordt.
 
-Bij het maken van DST -> STD-overgangen (&quot;Terugvallen&quot;) krijgt de klant 24 bestanden. Het uur van de overgang omvat echter eigenlijk twee uur aan gegevens. Bijvoorbeeld, als de overgang bij 2 :00 am voorkomt, wordt het dossier voor 1 :00 vertraagd met één uur, maar het bevat gegevens voor twee uren. Het bevat gegevens van 1 :00 DST aan 2 :00 STD (die 3 :00 DST) zou zijn geweest. Het volgende dossier begint bij 2 :00 STD.
+Bij het maken van DST -> STD-overgangen (fallback) ontvangt u 24 bestanden. Het uur van de overgang omvat echter eigenlijk twee uur aan gegevens. Bijvoorbeeld, als de overgang bij 2 :00 AM voorkomt, wordt het dossier voor 1 :00 vertraagd met één uur, maar het bevat gegevens voor twee uren. Het bevat gegevens van 1 :00 DST aan 2 :00 STD (die 3 :00 DST) zou zijn geweest. Het volgende dossier begint bij 2 :00 STD.
 
 ## Hoe behandelt Analytics de mislukte FTP-overdracht? {#ftp-failure}
 
@@ -89,7 +89,7 @@ Als een FTP-overdracht mislukt (als gevolg van een afgewezen aanmelding, een ver
 
 Als een overdracht mislukt, kunt u een taak opnieuw uitvoeren totdat deze is gelukt.
 
-Als u kwesties hebt die een gegevensvoer krijgen om op uw plaats van FTP te verschijnen, zie [&#x200B; problemen oplossen gegevensvoer &#x200B;](troubleshooting.md).
+Als u kwesties hebt die een gegevensvoer krijgen om op uw plaats van FTP te verschijnen, zie [ problemen oplossen gegevensvoer ](troubleshooting.md).
 
 ## Hoe kan ik een baan opnieuw sturen? {#resend}
 
