@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Type referentie
 
-Het &quot;Type van Referateur&quot;[ afmeting ](overview.md) meldt welke generische kanaalbezoekers door klikten om bij uw plaats aan te komen. Adobe handhaaft de regels voor elk afmetingspunt, in tegenstelling tot [ de kanalen van de Marketing ](marketing-channel.md), waar uw organisatie regels voor elk kanaal handhaaft.
+Het &quot;Type van Referateur&quot;[&#x200B; afmeting &#x200B;](overview.md) meldt welke generische kanaalbezoekers door klikten om bij uw plaats aan te komen. Adobe handhaaft de regels voor elk afmetingspunt, in tegenstelling tot [&#x200B; de kanalen van de Marketing &#x200B;](marketing-channel.md), waar uw organisatie regels voor elk kanaal handhaaft.
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar meerdere opzoektabellen die intern zijn voor Adobe. Elke waarde is gebaseerd op [ verwijzer ](referrer.md) van de klap, die van [ Interne filters URL ](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) afhangt. Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
+Deze dimensie verwijst naar meerdere opzoektabellen die intern zijn voor Adobe. Elke waarde is gebaseerd op [&#x200B; verwijzer &#x200B;](referrer.md) van de klap, die van [&#x200B; Interne filters URL &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) afhangt. Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
 
 ## Dimension-objecten
 
@@ -61,7 +61,7 @@ De volgende lijst verwijst naar de opzoektabel &#39;Sociale netwerken&#39; die A
 
 >[!NOTE]
 >
->Deze lijst is verschillend dan de standaardlijst van sociale netwerken in [ de verwerkingsregels van het Kanaal van de Marketing ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
+>Deze lijst is verschillend dan de standaardlijst van sociale netwerken in [&#x200B; de verwerkingsregels van het Kanaal van de Marketing &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`
