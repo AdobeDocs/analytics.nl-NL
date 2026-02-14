@@ -39,7 +39,7 @@ Met Adobe Experience Platform Web SDK kunt u ervoor kiezen om uw eigen apparaat-
 
 ## Meer informatie
 
-Voor praktische stappen kan uw zaken aan overgang weg van derdekoekjes nemen, [&#x200B; verwerven en klanten in een kokloze wereld met Adobe &#x200B;](https://business.adobe.com/nl/solutions/cookieless.html) en diepgaande [&#x200B; houden die voorbij het derdekoekje denken: Uw volledige gids aan een wereld zonder derdekoekjes &#x200B;](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf).&quot;
+Voor praktische stappen kan uw zaken aan overgang weg van derdekoekjes nemen, [&#x200B; verwerven en klanten in een kokloze wereld met Adobe &#x200B;](https://business.adobe.com/nl/solutions/cookieless.html) en diepgaande [&#x200B; houden die voorbij het derdekoekje denken: Uw volledige gids aan een wereld zonder derdekoekjes &#x200B;](https://business.adobe.com/nl/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf).&quot;
 
 >[!MORELIKETHIS]
 >
