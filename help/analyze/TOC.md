@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics-dashboards, Report Builder, oudere versie van Report Builder en Activity Map.
-source-git-commit: 288ca753157a6ed388a37a1ef01481cd83191b85
+source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 10%
@@ -14,7 +14,7 @@ ht-degree: 10%
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding voor analysegereedschappen](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Onboarding](get-started/onboard.md)
@@ -112,7 +112,7 @@ ht-degree: 10%
       + [Samenvatting van metrische sleutel](analysis-workspace/visualizations/key-metric.md)
       + [Lijn](analysis-workspace/visualizations/line.md)
       + [Kaart](analysis-workspace/visualizations/map-visualization.md)
-      + [Scatterplot](analysis-workspace/visualizations/scatterplot.md)
+      + [Spreiding](analysis-workspace/visualizations/scatterplot.md)
       + [Sectiekop](/help/analyze/analysis-workspace/visualizations/section-header.md)
       + [Samenvattingsnummer en wijziging](analysis-workspace/visualizations/summary-number-change.md)
       + [Tekst](analysis-workspace/visualizations/text.md)
