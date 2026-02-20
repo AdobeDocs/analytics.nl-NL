@@ -17,7 +17,7 @@ Adobe gebruikt verscheidene verschillende methodes om bezoekers [&#x200B; op uw 
 
 >[!IMPORTANT]
 >
->Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [&#x200B; Dienst van de Identiteit van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+>Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [&#x200B; Dienst van de Identiteit van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
 
 ## Hoe Analytics gebruikt `visitorID`
 
@@ -58,4 +58,4 @@ s.visitorID = "abc123";
 
 ## Bezoeker-id met de Web SDK
 
-Adobe Experience Platform Edge Network staat u toe om veelvoudige herkenningstekens te verstrekken gebruikend de Kaart van de Identiteit XDM [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap). Elke identiteit in een identiteitskaart heeft een verschillende namespace. U kunt specificeren welke namespace voor bezoekersidentiteitskaart als deel van [&#x200B; gegevensstroomconfiguratie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics) zou moeten worden gebruikt. Zodra dit gebied wordt gevormd, wanneer u een gebeurtenis met een waarde verzendt die voor dit namespace wordt gespecificeerd, wordt het automatisch gebruikt als bezoekersidentiteitskaart in Analytics.
+Adobe Experience Platform Edge Network staat u toe om veelvoudige herkenningstekens te verstrekken gebruikend de Kaart van de Identiteit XDM [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=nl-NL#using-identitymap). Elke identiteit in een identiteitskaart heeft een verschillende namespace. U kunt specificeren welke namespace voor bezoekersidentiteitskaart als deel van [&#x200B; gegevensstroomconfiguratie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL#analytics) zou moeten worden gebruikt. Zodra dit gebied wordt gevormd, wanneer u een gebeurtenis met een waarde verzendt die voor dit namespace wordt gespecificeerd, wordt het automatisch gebruikt als bezoekersidentiteitskaart in Analytics.
