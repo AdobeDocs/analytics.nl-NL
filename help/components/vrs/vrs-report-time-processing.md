@@ -18,24 +18,24 @@ ht-degree: 0%
 
 [!UICONTROL Report Time Processing] heeft alleen invloed op de gegevens in de virtuele-rapportsuite en heeft geen invloed op gegevens of gegevensverzameling in de set met basisrapporten. Het verschil tussen [!UICONTROL Report Time Processing] en de traditionele verwerking van Analytics wordt het best begrepen gebruikend het volgende diagram:
 
-![ Traditionele verwerkingspijpleiding ](assets/google1.jpg)
+![&#x200B; Traditionele verwerkingspijpleiding &#x200B;](assets/google1.jpg)
 
 Tijdens de gegevensverwerking van Analytics, stromen de gegevens door de pijpleiding van de gegevensinzameling en in een preprocessing stap, die gegevens voor rapportering voorbereidt. Bij deze voorbewerkingsstap worden de logica voor het verlopen van het bezoek en de persistentielogica van eVar (onder andere) toegepast op de gegevens terwijl deze worden verzameld. Het primaire nadeel van dit voorbewerkingsmodel is dat elke configuratie vooraf moet worden uitgevoerd voordat gegevens worden verzameld. Dit betekent dat wijzigingen in de instellingen voor voorbewerking alleen van toepassing zijn op nieuwe gegevens vanaf dat moment. Dit is problematisch als de gegevens uit orde aankomen of als de montages verkeerd werden gevormd.
 
 [!UICONTROL Report Time Processing] is een fundamenteel andere manier om analysegegevens voor rapportage te verwerken. In plaats van de verwerkingslogica vooraf te bepalen alvorens de gegevens worden verzameld, negeert de Analytics de gegevensreeks tijdens de preprocessing stap en past deze logica toe telkens als een rapport wordt in werking gesteld:
 
-![ de tijdverwerkingspijpleiding van het Rapport ](assets/google2.jpg)
+![&#x200B; de tijdverwerkingspijpleiding van het Rapport &#x200B;](assets/google2.jpg)
 
 Deze verwerkingsarchitectuur maakt veel flexibelere rapportageopties mogelijk. U kunt bijvoorbeeld de time-outperiode voor een bezoek wijzigen in elke gewenste tijdsduur op een niet-destructieve manier. Deze wijzigingen worden weerspiegeld in uw eVar-containers voor de volledige rapportageperiode. Bovendien, kunt u om het even welk aantal virtuele rapportreeksen tot stand brengen, elk met de verschillende opties van de Verwerking van de Tijd van het Rapport die op de zelfde reeks van het basisrapport worden gebaseerd, zonder om het even welke gegevens in de reeks van het basisrapport te veranderen.
 
-[!UICONTROL Report Time Processing] staat ook Analytics toe om achtergrondklappen van aanvang nieuwe bezoeken te verhinderen en staat [ Adobe Experience Platform Mobile SDK ](https://experienceleague.adobe.com/docs/mobile.html) toe om een nieuw bezoek te beginnen wanneer een gebeurtenis van de Lancering van de Toepassing wordt teweeggebracht.
+[!UICONTROL Report Time Processing] staat ook Analytics toe om achtergrondklappen van aanvang nieuwe bezoeken te verhinderen en staat [&#x200B; Adobe Experience Platform Mobile SDK &#x200B;](https://experienceleague.adobe.com/docs/mobile.html) toe om een nieuw bezoek te beginnen wanneer een gebeurtenis van de Lancering van de Toepassing wordt teweeggebracht.
 
 ## Configuratieopties
 
 De volgende configuratieopties zijn momenteel beschikbaar aan virtuele rapportreeksen met toegelaten de Verwerking van de Tijd van het Rapport:
 
 * **[!UICONTROL Visit Timeout]:** De time-outinstelling voor een bezoek bepaalt de hoeveelheid inactiviteit die een unieke bezoeker moet hebben voordat een nieuw bezoek automatisch wordt gestart. De standaardwaarde is 30 minuten. Als u de time-out van het bezoek bijvoorbeeld instelt op 15 minuten, wordt een nieuwe bezoekgroep gemaakt voor elke reeks verzamelde hits, gescheiden door 15 minuten inactiviteit. Deze instelling is niet alleen van invloed op uw aantal bezoeken, maar ook op de manier waarop de containers van het bezoekensegment worden geëvalueerd en op de logica voor het verlopen van bezoeken voor alle eVars die tijdens het bezoek verlopen. Als u de time-out van het bezoek verlaagt, neemt het totale aantal bezoeken in uw rapportage waarschijnlijk toe, terwijl een langere time-out van het bezoek het totale aantal bezoeken in uw rapportage waarschijnlijk zal verminderen.
-* **[!UICONTROL Mobile App Visit Settings]:** voor rapportreeksen die gegevens bevatten die door mobiele apps door [ Adobe Mobile SDKs ](https://experienceleague.adobe.com/docs/mobile.html) worden geproduceerd, zijn de extra bezoekmontages beschikbaar. Deze instellingen zijn niet-destructief en hebben alleen invloed op treffers die zijn verzameld via de mobiele SDK&#39;s. Deze instellingen zijn niet van invloed op gegevens die buiten de Mobile SDK worden verzameld.
+* **[!UICONTROL Mobile App Visit Settings]:** voor rapportreeksen die gegevens bevatten die door mobiele apps door [&#x200B; Adobe Mobile SDKs &#x200B;](https://experienceleague.adobe.com/docs/mobile.html) worden geproduceerd, zijn de extra bezoekmontages beschikbaar. Deze instellingen zijn niet-destructief en hebben alleen invloed op treffers die zijn verzameld via de mobiele SDK&#39;s. Deze instellingen zijn niet van invloed op gegevens die buiten de Mobile SDK worden verzameld.
 * **[!UICONTROL Prevent Background Hits from starting a new Visit]:** Achtergrondhits worden verzameld door de mobiele SDK&#39;s wanneer de toepassing zich in de achtergrondstatus bevindt.
 * **[!UICONTROL Start a New Visit upon each App Launch]:** Naast de time-out van het bezoek kunt u een bezoek afdwingen om te beginnen wanneer een gebeurtenis van de Lancering van de Toepassing van SDKs ongeacht het inactiviteitsvenster is geregistreerd. Dit het plaatsen beïnvloedt metrisch bezoek en de container van het bezoekensegment, evenals de logica van de bezoekafloop op eVars.
 * **[!UICONTROL Start New Visit with Event]:** een nieuwe zitting begint wanneer een gebeurtenis, ongeacht of een zitting uit heeft getimed. De nieuwe sessie bevat de gebeurtenis die deze heeft gestart. Bovendien kunt u meerdere gebeurtenissen gebruiken om een sessie te starten en een nieuwe sessie wordt geactiveerd als een van deze gebeurtenissen in de gegevens wordt waargenomen. Dit het plaatsen zal uw bezoektelling, de container van de de segmentatie van het bezoek, en de logica van de bezoekafloop op eVars beïnvloeden.
@@ -43,7 +43,7 @@ De volgende configuratieopties zijn momenteel beschikbaar aan virtuele rapportre
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Beginnend een nieuw bezoek met gebeurtenis ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Beginnend een nieuw bezoek met gebeurtenis &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -77,7 +77,7 @@ De volgende afmetingen en metriek worden niet gesteund met de Verwerking van de 
 
 Hieronder volgt een lijst van afmetingen en metriek die afhankelijk van de geselecteerde montages van de Verwerking van de Tijd van het Rapport worden beïnvloed:
 
-* Als &quot;Voorkomen dat de Hits van de Achtergrond van een Nieuw Bezoek&quot;wordt toegelaten, komen de volgende veranderingen voor. Zie [ context-bewuste zitting ](vrs-mobile-visit-processing.md) voor meer informatie.
+* Als &quot;Voorkomen dat de Hits van de Achtergrond van een Nieuw Bezoek&quot;wordt toegelaten, komen de volgende veranderingen voor. Zie [&#x200B; context-bewuste zitting &#x200B;](vrs-mobile-visit-processing.md) voor meer informatie.
    * [**Stuiters**](/help/components/metrics/bounces.md) / [**Stuitsnelheid:**](/help/components/metrics/bounce-rate.md) De Achtergrond klappen die niet door een voorgrondslag worden gevolgd worden niet beschouwd als stuiteren en dragen niet tot het stuitpercentage bij.
    * [**Tijd bestede Seconden per Bezoek:**](/help/components/metrics/time-spent-per-visit.md) slechts de bezoeken die voorgrondhits omvatten dragen aan dit metrisch bij.
    * **Tijd die per Bezoek wordt uitgegeven:** slechts de bezoeken die op voorgrond vallen omvatten dragen aan dit metrisch bij.

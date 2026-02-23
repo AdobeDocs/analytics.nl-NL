@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Summiere aantal en de Summiere veranderingsvisualisaties in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Summiere aantal en Summiere verandering ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert het Summiere aantal en de Summiere veranderingsvisualisaties in_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [&#x200B; Summiere aantal en Summiere verandering &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) voor_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Summiere aantal en Summiere veranderingsvisualisatie ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/summary-number-and-summary-change-visualizations-2021){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Summiere aantal en Summiere veranderingsvisualisatie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/summary-number-and-summary-change-visualizations-2021){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -37,14 +37,14 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Summiere aant
 
 <!-- markdownlint-enable MD034 -->
 
-Gebruik ![ vat ](/help/assets/icons/123.svg) samen **[!UICONTROL Summary number]** visualisatie om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie gedraagt zich op de volgende manieren, gebruikend de bijbehorende gegevensbron:
+Gebruik ![&#x200B; vat &#x200B;](/help/assets/icons/123.svg) samen **[!UICONTROL Summary number]** visualisatie om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie gedraagt zich op de volgende manieren, gebruikend de bijbehorende gegevensbron:
 
 * Hiermee selecteert u het totaal van de kolom als er geen cel is geselecteerd.
 * Als er één cel is geselecteerd, wordt het overzicht voor die cel weergegeven.
 * Als er meer dan één cel is geselecteerd, wordt de eerste geselecteerde cel weergegeven.
 * Als de kolom is geselecteerd, wordt de eerste celwaarde in de kolom gekozen.
 
-![ Summiere aantalvisualisatie ](asses/../assets/summary-number.png)
+![&#x200B; Summiere aantalvisualisatie &#x200B;](asses/../assets/summary-number.png)
 
 Als onderdeel van de visualisatie-instellingen zijn specifieke opties voor het overzichtsnummer beschikbaar.
 
@@ -65,7 +65,7 @@ Als onderdeel van de visualisatie-instellingen zijn specifieke opties voor het o
 <!-- markdownlint-enable MD034 -->
 
 
-Gebruik ![ MoveUpDown ](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL Summary Change]** visualisatie om de delta (verandering) tussen twee aantallen te tonen. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](/help/admin/tools/success-events/success-event.md) or a calculated metric's [Show Upward Trend As](/help/components/calculated-metrics/workflow/cm-build-metrics.md) option.-->
+Gebruik ![&#x200B; MoveUpDown &#x200B;](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL Summary Change]** visualisatie om de delta (verandering) tussen twee aantallen te tonen. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](/help/admin/tools/success-events/success-event.md) or a calculated metric's [Show Upward Trend As](/help/components/calculated-metrics/workflow/cm-build-metrics.md) option.-->
 
 <!--
 The green and red color of the Summary Change can be controlled through [custom event polarity](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md.md) or a calculated metric's [Show Upward Trend As](/help/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.md) option.
@@ -81,7 +81,7 @@ Deze visualisatie werkt op de volgende manieren:
 * Als de kolom wordt geselecteerd, vergelijkt het de eerste waarde met zich, die een verandering van 0 toont.
 
 
-![ Summiere verandering visualisatie die de delta tussen twee numbers.s toont ](assets/summary-change.png)
+![&#x200B; Summiere verandering visualisatie die de delta tussen twee numbers.s toont &#x200B;](assets/summary-change.png)
 
 
 Als onderdeel van de visualisatie-instellingen is specifieke **[!UICONTROL Summary change options]** beschikbaar.
@@ -94,7 +94,7 @@ Als onderdeel van de visualisatie-instellingen is specifieke **[!UICONTROL Summa
 
 >[!MORELIKETHIS]
 >
->[ voeg een visualisatie aan een paneel toe ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisatie-instellingen ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Contextmenu Visualisatie ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[&#x200B; voeg een visualisatie aan een paneel toe &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

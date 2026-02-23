@@ -17,7 +17,7 @@ De landingspagina voor Adobe Analytics brengt zowel [!DNL Analysis Workspace] al
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Adobe Analytics landende pagina ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Adobe Analytics landende pagina &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -33,9 +33,9 @@ Het tabblad **[!UICONTROL Learning]** bevat praktische videolessen, zelfstudies 
 
 ## Navigeren op de tab [!UICONTROL Projects] {#navigate-projects}
 
-Het tabblad [!UICONTROL Projects] fungeert als de [!UICONTROL Workspace] startpagina. Het toont de omslag van het Bedrijf, om het even welke persoonlijke omslagen u creeerde, uw projecten, en Mobiele scorecards. Met deze pagina kunt u mappen, projecten en mobiele scorecards weergeven, maken en wijzigen. Voor meer informatie, zie [ Ongeveer Omslagen in Analytics ](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+Het tabblad [!UICONTROL Projects] fungeert als de [!UICONTROL Workspace] startpagina. Het toont de omslag van het Bedrijf, om het even welke persoonlijke omslagen u creeerde, uw projecten, en Mobiele scorecards. Met deze pagina kunt u mappen, projecten en mobiele scorecards weergeven, maken en wijzigen. Voor meer informatie, zie [&#x200B; Ongeveer Omslagen in Analytics &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
-![ het Landing allen ](assets/landing-all2.png)
+![&#x200B; het Landing allen &#x200B;](assets/landing-all2.png)
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Het tabblad [!UICONTROL Projects] fungeert als de [!UICONTROL Workspace] startpa
 
 Als u kolombreedten wilt aanpassen, sleept u de verticale balk die elke kolom scheidt.
 
-Om kolommen toe te voegen of te verwijderen uit de lijst van projecten, klik het kolompictogram (![ landend allen ](/help/analyze/assets/select-column.png)) in het hoogste recht, dan selecteren of schrappen kolomtitels.
+Om kolommen toe te voegen of te verwijderen uit de lijst van projecten, klik het kolompictogram (![&#x200B; landend allen &#x200B;](/help/analyze/assets/select-column.png)) in het hoogste recht, dan selecteren of schrappen kolomtitels.
 
 De beschikbare kolommen zijn:
 
@@ -54,7 +54,7 @@ De beschikbare kolommen zijn:
 | [!UICONTROL **Naam**] | Identificeert de naam van het project. |
 | [!UICONTROL **Type**] | Geeft aan of dit type een Workspace-project, een Mobile-scorecard of een map is. |
 | [!UICONTROL **Markeringen**] | Hiermee worden projecten gecodeerd om ze in groepen te ordenen. |
-| [!UICONTROL **Gepland**] | Stel dit in op [!UICONTROL On] wanneer een project gepland is of op [!UICONTROL Off] wanneer dit niet het geval is. Als u op de koppeling [!UICONTROL On] klikt, wordt informatie over het geplande project weergegeven. U kunt [ het projectprogramma ](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) ook uitgeven als u de projecteigenaar bent. |
+| [!UICONTROL **Gepland**] | Stel dit in op [!UICONTROL On] wanneer een project gepland is of op [!UICONTROL Off] wanneer dit niet het geval is. Als u op de koppeling [!UICONTROL On] klikt, wordt informatie over het geplande project weergegeven. U kunt [&#x200B; het projectprogramma &#x200B;](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) ook uitgeven als u de projecteigenaar bent. |
 | [!UICONTROL **de rol van het Project**] | Identificeert de projectrollen: of u de projecteigenaar bent en of u toestemmingen hebt om het project uit te geven of te dupliceren. |
 | [!UICONTROL **Reeks van het Rapport**] | Identificeert de Reeksen van het Rapport die met het project worden geassocieerd.<br> de Lijsten en de visualisaties binnen een paneel leiden gegevens van de rapportreeks af die in het hoogste recht van het paneel wordt geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of vele rapportreeksen gebruiken afhankelijk van uw analysegereedschappen. De lijst van rapportsuites wordt gesorteerd op relevantie. Adobe definieert relevantie op basis van hoe recent en vaak de suite door de huidige gebruiker is gebruikt en hoe vaak de suite binnen de organisatie wordt gebruikt. |
 | [!UICONTROL **Eigenaar**] | Identificeert de persoon die het project creeerde. |
@@ -71,11 +71,11 @@ De beschikbare kolommen zijn:
 
 | UI-element | Definitie |
 | --- | --- |
-| Voorkeuren bewerken | Laat u [!UICONTROL View Tutorials], en [ uitgeven gebruikersvoorkeur ](/help/analyze/analysis-workspace/user-preferences.md). |
+| Voorkeuren bewerken | Laat u [!UICONTROL View Tutorials], en [&#x200B; uitgeven gebruikersvoorkeur &#x200B;](/help/analyze/analysis-workspace/user-preferences.md). |
 | [!UICONTROL Create new] | Opent het project modaal waar u een project van Workspace of een Mobiele scorecard kunt tot stand brengen of een bedrijfmalplaatje openen. |
-| [!UICONTROL Show less<br> Meer weergeven ] | De knevels tussen het tonen van en het tonen van niet de banner: ![ Top banner ](assets/top-banner.png) |
-| [!UICONTROL Workspace project] | Creeert een leeg [ project van Workspace ](/help/analyze/analysis-workspace/home.md) voor u om te ontwerpen en te bouwen. |
-| [!UICONTROL Mobile scorecard] | Creeert een lege [ mobiele scorecard ](/help/analyze/mobile-app/curator.md) voor u om te ontwerpen en te bouwen. |
+| [!UICONTROL Show less<br> Meer weergeven &#x200B;] | De knevels tussen het tonen van en het tonen van niet de banner: ![&#x200B; Top banner &#x200B;](assets/top-banner.png) |
+| [!UICONTROL Workspace project] | Creeert een leeg [&#x200B; project van Workspace &#x200B;](/help/analyze/analysis-workspace/home.md) voor u om te ontwerpen en te bouwen. |
+| [!UICONTROL Mobile scorecard] | Creeert een lege [&#x200B; mobiele scorecard &#x200B;](/help/analyze/mobile-app/curator.md) voor u om te ontwerpen en te bouwen. |
 | [!UICONTROL Open Training Tutorial] | Hiermee opent u de Workspace-trainingszelfstudie die u begeleidt bij het ontwikkelen van een nieuw startproject in een stapsgewijze zelfstudie. |
 | [!UICONTROL Open release notes] | Hiermee opent u het Adobe Analytics-gedeelte van de meest recente Adobe Experience Cloud-releaseopmerkingen. |
 | Filterpictogram | Filters op tags, rapportsuites, eigenaars, typen en andere filters (Mijne, Gedeeld met mij, Favorieten en Goedgekeurd) |
@@ -84,8 +84,8 @@ De beschikbare kolommen zijn:
 | [!UICONTROL Favorites] | Hiermee voegt u een ster toe naast een favoriet project dat of een favoriete map die als filter kan worden gebruikt. |
 | [!UICONTROL Name] | Identificeert de naam van het project. |
 | Pictogram Vastzetten | Hiermee worden items vastgezet, zodat ze altijd boven aan de lijst worden weergegeven, maar u kunt de volgorde wijzigen door ze omhoog of omlaag in de volgorde te verplaatsen. Gebruik het de optiemenu van de ellips en selecteer **Beweging omhoog** of **Beweging neer** in de lijst. |
-| Info (i), pictogram | Toont de volgende informatie over een project: Type, de Rol van het Project, Eigenaar, Beschrijving, en wie het met wordt gedeeld. Het wijst ook op wie [ ](/help/analyze/analysis-workspace/curate-share/share-projects.md) dit project uitgeven of kan dupliceren. |
-| Ovaal (...) | Toont de acties van het projectbeheer u kunt uitvoeren: **Schrapping**, **Aandeel**, **anders noemen**, **Exemplaar**, **Unpin**, **Beweging omhoog**, **Beweging neer**, **Markering** goedkeuren **},** de Uitvoer CSV **, en** Beweging aan **.** U hebt mogelijk geen machtigingen om alle vermelde handelingen uit te voeren. |
+| Info (i), pictogram | Toont de volgende informatie over een project: Type, de Rol van het Project, Eigenaar, Beschrijving, en wie het met wordt gedeeld. Het wijst ook op wie [&#x200B; &#x200B;](/help/analyze/analysis-workspace/curate-share/share-projects.md) dit project uitgeven of kan dupliceren. |
+| Ovaal (...) | Toont de acties van het projectbeheer u kunt uitvoeren: **Schrapping**, **Aandeel**, **anders noemen**, **Exemplaar**, **Unpin**, **Beweging omhoog**, **Beweging neer**, **Markering** goedkeuren **&rbrace;,** de Uitvoer CSV **, en** Beweging aan **.** U hebt mogelijk geen machtigingen om alle vermelde handelingen uit te voeren. |
 | TONEN: Mappen en projecten voor alle projecten | Verandert de mening die op de lijst plaatst om omslagen en projecten volgens uw omslagorganisatie **te tonen of** al uw projecten in een ongeorganiseerde lijst toont. |
 | &lt; (Terug) | Hiermee gaat u terug naar de meest recente configuratie van de bestemmingspagina in een Workspace-project of een rapport. De paginasonfiguratie die u had toen u de openingspagina verliet, blijft bestaan wanneer u terugkeert. |
 
@@ -123,7 +123,7 @@ Gebruikers kunnen hun voorkeurspagina voor landen instellen.
 1. Ga naar Analytics > [!UICONTROL Components] > [!UICONTROL Preferences] > [!UICONTROL General] .
 1. Controleren welke landingspagina u het liefst hebt:
 
-   ![ plaats het landen pagina ](assets/landing-pref.png)
+   ![&#x200B; plaats het landen pagina &#x200B;](assets/landing-pref.png)
 
 ## Veelgestelde vragen over bestemmingspagina {#landing-faq}
 

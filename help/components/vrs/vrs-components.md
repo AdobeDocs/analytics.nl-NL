@@ -17,14 +17,14 @@ Virtuele rapportsuites kunnen worden gebogen om components.in Analysis Workspace
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de kromming van de Component ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de kromming van de Component &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in beheerde Workspace-projecten en virtuele rapportensuites. Eerder kon iedereen niet-gekromde componenten zien door op **[!UICONTROL Show all Components]** te klikken. De [ bijgewerkte curvaring ](/help/analyze/analysis-workspace/curate-share/curate.md) staat voor meer fijnkorrelige controle toe waarover de componenten zichtbaar zijn.
+>Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in beheerde Workspace-projecten en virtuele rapportensuites. Eerder kon iedereen niet-gekromde componenten zien door op **[!UICONTROL Show all Components]** te klikken. De [&#x200B; bijgewerkte curvaring &#x200B;](/help/analyze/analysis-workspace/curate-share/curate.md) staat voor meer fijnkorrelige controle toe waarover de componenten zichtbaar zijn.
 
 U kunt als volgt componentcuratie inschakelen:
 
@@ -53,7 +53,7 @@ U kunt als volgt componentcuratie inschakelen:
 
    >[!NOTE]
    >
-   >Er is geen behoefte *gekromde componenten van 0} te delen (segmenten, berekende metriek, datumwaaiers).* Ze zijn altijd zichtbaar in Analysis Workspace als ze worden beheerd voor de virtuele rapportsuite, zelfs als ze niet worden gedeeld.
+   >Er is geen behoefte *gekromde componenten van 0&rbrace; te delen (segmenten, berekende metriek, datumwaaiers).* Ze zijn altijd zichtbaar in Analysis Workspace als ze worden beheerd voor de virtuele rapportsuite, zelfs als ze niet worden gedeeld.
 
 1. Bovendien kunt u de componenten filteren of doorzoeken en de volledige gefilterde selectie aan de inbegrepen kolom toevoegen door op **[!UICONTROL Add All]** te klikken.
 
@@ -77,4 +77,4 @@ Gebruik componentengroepen om bulkcomponenttoevoegingen aan uw virtuele rapportr
 
 ## Workspace-gedrag {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Voor meer informatie over curatie in Analysis Workspace, zie [ Kromme en deel een Project ](/help/analyze/analysis-workspace/curate-share/curate.md).
+Voor meer informatie over curatie in Analysis Workspace, zie [&#x200B; Kromme en deel een Project &#x200B;](/help/analyze/analysis-workspace/curate-share/curate.md).

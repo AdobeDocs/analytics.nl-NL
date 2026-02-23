@@ -19,18 +19,18 @@ Bovendien kunt u opeenvolgende segmenten beperken tot een specifieke tijdsduur, 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Opeenvolgende segmentatie ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Opeenvolgende segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
-Een opeenvolgend segment heeft sommige [ basisfunctionaliteit ](#basics) en extra opties die u kunt vormen om meer ingewikkeldheid aan het opeenvolgende segment toe te voegen:
+Een opeenvolgend segment heeft sommige [&#x200B; basisfunctionaliteit &#x200B;](#basics) en extra opties die u kunt vormen om meer ingewikkeldheid aan het opeenvolgende segment toe te voegen:
 
-![ Opeenvolgend segment ](assets/sequential-segment.gif)
+![&#x200B; Opeenvolgend segment &#x200B;](assets/sequential-segment.gif)
 
 
 ## Basisbeginselen
 
-De grondbeginselen van de bouw van een opeenvolgend segment zijn niet verschillend dan de bouw van een regelmatig segment gebruikend de [ bouwer van het Segment ](seg-build.md). Een regelmatig segment wordt automatisch een opeenvolgend segment zodra u de **[!UICONTROL Then]** exploitant in de belangrijkste definitie of in om het even welke containers selecteert u binnen de [ bouwer van de Segmentatie ](seg-build.md) gebruikt.
+De grondbeginselen van de bouw van een opeenvolgend segment zijn niet verschillend dan de bouw van een regelmatig segment gebruikend de [&#x200B; bouwer van het Segment &#x200B;](seg-build.md). Een regelmatig segment wordt automatisch een opeenvolgend segment zodra u de **[!UICONTROL Then]** exploitant in de belangrijkste definitie of in om het even welke containers selecteert u binnen de [&#x200B; bouwer van de Segmentatie &#x200B;](seg-build.md) gebruikt.
 
 ### Voorbeelden
 
@@ -40,47 +40,47 @@ In de onderstaande voorbeelden ziet u hoe u sequentiële segmenten gebruikt in v
 
 Geef bezoekers op die een pagina hebben weergegeven en bekijk vervolgens een andere pagina. De gegevens op raakniveau worden met deze reeks gesegmenteerd. Ongeacht eerdere, eerdere of tijdelijke bezoekersbezoeken, of de tijd of het aantal pagina-opgaven tussen de bezoeken.
 
-![ Opeenvolgend segment omvat iedereen ](assets/sequence-include-everyone.png)
+![&#x200B; Opeenvolgend segment omvat iedereen &#x200B;](assets/sequence-include-everyone.png)
 
 #### Volgorde voor bezoeken
 
-Geef bezoekers op die een pagina tijdens een bezoek hebben weergegeven en bekijk vervolgens een andere pagina tijdens een ander bezoek. Om tussen bezoeken te onderscheiden, gebruikcontainers om de opeenvolging te bouwen en ![ te bepalen Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** niveau voor elke container.
+Geef bezoekers op die een pagina tijdens een bezoek hebben weergegeven en bekijk vervolgens een andere pagina tijdens een ander bezoek. Om tussen bezoeken te onderscheiden, gebruikcontainers om de opeenvolging te bouwen en ![&#x200B; te bepalen Bezoek &#x200B;](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** niveau voor elke container.
 
-![ segment van de Opeenvolging over bezoeken ](assets/sequence-filter-session.png)
+![&#x200B; segment van de Opeenvolging over bezoeken &#x200B;](assets/sequence-filter-session.png)
 
 #### Volgorde op gemengde niveaus
 
-Identificeer bezoekers die twee pagina&#39;s voor een onbepaald aantal bezoeken bekijken, en bekijk dan een derde pagina in een afzonderlijk bezoek. Opnieuw, gebruiks containers om de opeenvolging te bouwen en ![ Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** niveau op de container te bepalen die het afzonderlijke bezoek bepaalt.
+Identificeer bezoekers die twee pagina&#39;s voor een onbepaald aantal bezoeken bekijken, en bekijk dan een derde pagina in een afzonderlijk bezoek. Opnieuw, gebruiks containers om de opeenvolging te bouwen en ![&#x200B; Bezoek &#x200B;](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** niveau op de container te bepalen die het afzonderlijke bezoek bepaalt.
 
-![ segment van de Opeenvolging met afzonderlijk definitief bezoek ](assets/sequence-filter-final-session.png)
+![&#x200B; segment van de Opeenvolging met afzonderlijk definitief bezoek &#x200B;](assets/sequence-filter-final-session.png)
 
 #### Samengevoegde reeks
 
-Identificeer bezoekers die tijdens hun eerste bezoek een specifieke pagina bezochten en later een aantal andere pagina&#39;s bezochten. Om tussen de opeenvolging van klappen te onderscheiden, gebruikcontainers om de logica op a ![ WebPage ](/help/assets/icons/WebPage.svg) te scheiden **[!UICONTROL Visit]** containerniveau.
+Identificeer bezoekers die tijdens hun eerste bezoek een specifieke pagina bezochten en later een aantal andere pagina&#39;s bezochten. Om tussen de opeenvolging van klappen te onderscheiden, gebruikcontainers om de logica op a ![&#x200B; WebPage &#x200B;](/help/assets/icons/WebPage.svg) te scheiden **[!UICONTROL Visit]** containerniveau.
 
-![ bezoek gezamenlijke containers ](assets/session-aggregate-containers.png)
+![&#x200B; bezoek gezamenlijke containers &#x200B;](assets/session-aggregate-containers.png)
 
 
 #### Een reeks nesten
 
 Identificeer alle bezoeken waar een bezoeker één pagina vóór een andere pagina bezoekt en dan vervolgbezoeken die twee andere pagina&#39;s omvatten. U kunt bijvoorbeeld alle bezoeken identificeren waar een bezoeker eerst de homepage bezoekt, vervolgens een pagina van categorie 1 en vervolgens andere bezoeken waar in elk bezoek de pagina&#39;s van categorie 2 en 3 wordt bezocht.
 
-![ Geneste opeenvolging ](assets/sequence-nested.png)
+![&#x200B; Geneste opeenvolging &#x200B;](assets/sequence-nested.png)
 
 ## [!UICONTROL After] en [!UICONTROL Within]
 
-U kunt ![ Klok ](/help/assets/icons/Clock.svg) en **[!UICONTROL After]** Klok ![ gebruiken ](/help/assets/icons/Clock.svg) de **[!UICONTROL Within]** exploitant om extra **[!UICONTROL Then]** tijdbeperkingen [ of ](#time-constraints) beperkingen voor Hits, Bezoek of Dimensies [ te bepalen.](#event-session-and-dimension-constraints)
+U kunt ![&#x200B; Klok &#x200B;](/help/assets/icons/Clock.svg) en **[!UICONTROL After]** Klok ![&#x200B; gebruiken &#x200B;](/help/assets/icons/Clock.svg) de **[!UICONTROL Within]** exploitant om extra **[!UICONTROL Then]** tijdbeperkingen [&#x200B; of &#x200B;](#time-constraints) beperkingen voor Hits, Bezoek of Dimensies [&#x200B; te bepalen.](#event-session-and-dimension-constraints)
 
 ### Tijdbeperkingen
 
 Tijdsbeperkingen toepassen op de operator **[!UICONTROL Then]** :
 
-1. Selecteer ![ Klok ](/help/assets/icons/Clock.svg).
+1. Selecteer ![&#x200B; Klok &#x200B;](/help/assets/icons/Clock.svg).
 1. Selecteer **[!UICONTROL Within]** of **[!UICONTROL After]** in het contextmenu.
 1. Geef een tijdsperiode op (**[!UICONTROL Minute]**, **[!UICONTROL Hour]** tot **[!UICONTROL Years]** ).
-1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**of **[!UICONTROL +]**.
+1. Selecteer ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**&#x200B;om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**&#x200B;of **[!UICONTROL +]**.
 
-Om een tijdbeperking te verwijderen, gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg).
+Om een tijdbeperking te verwijderen, gebruik ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg).
 
 In de onderstaande tabel worden de tijdbeperkingsoperatoren gedetailleerder uitgelegd.
 
@@ -99,7 +99,7 @@ Enkele voorbeelden van het gebruik van de tijdbeperkingen.
 
 Identificeer bezoekers die één pagina en dan een andere pagina slechts na twee weken bezochten. Bijvoorbeeld bezoekers die de startpagina hebben bezocht, maar de Vrouwen | Hiermee wordt de pagina pas na twee weken weergegeven.
 
-![ Opeenvolging na ](assets/sequence-after.png)
+![&#x200B; Opeenvolging na &#x200B;](assets/sequence-after.png)
 
 Als een paginamening voor Home op 1 Juni, 2024, bij 00 :01 gebeurt, dan een paginamening aan pagina Vrouwen | De tonen zullen aanpassen zolang die paginamening na 15 Juni, 2024 00 :01 voorkomt.
 
@@ -107,7 +107,7 @@ Als een paginamening voor Home op 1 Juni, 2024, bij 00 :01 gebeurt, dan een pagi
 
 Identificeer bezoekers die een pagina en dan een andere pagina binnen vijf minuten bezochten. Bijvoorbeeld bezoekers die de startpagina bezochten en daarna de Vrouwen | Hiermee wordt de pagina binnen 5 minuten weergegeven.
 
-![ Opeenvolging binnen ](assets/sequence-within.png)
+![&#x200B; Opeenvolging binnen &#x200B;](assets/sequence-within.png)
 
 Als een paginamening voor het Huis op 1 Juni, 2024, bij 12 :01 gebeurt, dan een paginamening aan pagina Vrouwen | De tonen zullen aanpassen zolang die paginamening vóór 15 Juni, 2024 12 :16 voorkomt.
 
@@ -115,27 +115,27 @@ Als een paginamening voor het Huis op 1 Juni, 2024, bij 12 :01 gebeurt, dan een 
 
 Identificeer bezoekers die één pagina bezochten dan een andere pagina na twee weken maar binnen één maand. Bijvoorbeeld bezoekers die de startpagina bezochten en vervolgens na twee weken en binnen een maand de Vrouwen | Shoes page.
 
-![ Opeenvolging na maar binnen ](assets/sequence-afterbutwithin.png)
+![&#x200B; Opeenvolging na maar binnen &#x200B;](assets/sequence-afterbutwithin.png)
 
 Bezoekers die op 1 juni 2024 op de startpagina aankomen en die terugkeren naar de Vrouwen | De pagina van vertoningen na 15 juni, 2019 00 :01, maar vóór 1 juli 2019 komt voor het segment in aanmerking.
 
 
 ### [!UICONTROL Hit] -, [!UICONTROL Visit] - en [!UICONTROL Dimension] -beperkingen
 
-De ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** beperkingen staan u niet alleen toe om een tijdbeperking maar ook een slag, bezoek of afmetingsbeperking te specificeren. Selecteer **[!UICONTROL Hit(s)]**, **[!UICONTROL Visit(s)]** of **[!UICONTROL Other dimensions]** ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *naam van Dimension *]**. U kunt het [!UICONTROL *gebied van het Onderzoek*] aan onderzoek naar een afmeting gebruiken.
+De ![&#x200B; Klok &#x200B;](/help/assets/icons/Clock.svg) **[!UICONTROL After]** en ![&#x200B; Klok &#x200B;](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** beperkingen staan u niet alleen toe om een tijdbeperking maar ook een slag, bezoek of afmetingsbeperking te specificeren. Selecteer **[!UICONTROL Hit(s)]**, **[!UICONTROL Visit(s)]** of **[!UICONTROL Other dimensions]** ![&#x200B; ChevronRight &#x200B;](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *naam van Dimension *]**. U kunt het [!UICONTROL *gebied van het Onderzoek*] aan onderzoek naar een afmeting gebruiken.
 
 #### Voorbeeld
 
 Hieronder ziet u een voorbeeld van een sequentieel segment dat bezoekers zoekt die een pagina met productcategorieën hebben bezocht (Vrouwen) | Shoes), gevolgd door een afrekenpagina (Afhandeling | Bedankt) op één pagina.
 
-![ segment van de Opeenvolging binnen ](assets/sequence-filter-within.png)
+![&#x200B; segment van de Opeenvolging binnen &#x200B;](assets/sequence-filter-within.png)
 
 De volgende voorbeeldreeksen komen overeen of komen niet overeen:
 
-| Reeks | ![ AppleReject ](/help/assets/icons/ApproveReject.svg) |
+| Reeks | ![&#x200B; AppleReject &#x200B;](/help/assets/icons/ApproveReject.svg) |
 |--- | :---: |
-| Pagina `Women \| Shoes` gevolgd door pagina `Checkout \| Thank You` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
-| Pagina `Women \| Shoes` gevolgd door pagina `Women \| Tops` gevolgd door pagina `Checkout \| Thank You` | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) |
+| Pagina `Women \| Shoes` gevolgd door pagina `Checkout \| Thank You` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) |
+| Pagina `Women \| Shoes` gevolgd door pagina `Women \| Tops` gevolgd door pagina `Checkout \| Thank You` | ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) |
 
 ## [!UICONTROL Include]
 
@@ -143,57 +143,57 @@ U kunt specificeren welke gegevens in uw opeenvolgend segment of in een opeenvol
 
 ### [!UICONTROL Everyone] {#include_everyone}
 
-Om een opeenvolgend segment tot stand te brengen dat iedereen omvat, selecteer de optie ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
+Om een opeenvolgend segment tot stand te brengen dat iedereen omvat, selecteer de optie ![&#x200B; UserGroup &#x200B;](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
-Het opeenvolgende segment identificeert gegevens die overeenkomen met het opgegeven patroon als geheel.  Hieronder ziet u een voorbeeld van een standaardsequentiesegment dat bezoekers zoekt die een pagina met productcategorieën hebben bezocht (Vrouwen) | Shoes), gevolgd door een afrekenpagina (Afhandeling | Dank u.). Het segment wordt geplaatst aan ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
+Het opeenvolgende segment identificeert gegevens die overeenkomen met het opgegeven patroon als geheel.  Hieronder ziet u een voorbeeld van een standaardsequentiesegment dat bezoekers zoekt die een pagina met productcategorieën hebben bezocht (Vrouwen) | Shoes), gevolgd door een afrekenpagina (Afhandeling | Dank u.). Het segment wordt geplaatst aan ![&#x200B; UserGroup &#x200B;](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
-![ Opeenvolgend segment omvat iedereen ](assets/sequence-include-everyone.png)
+![&#x200B; Opeenvolgend segment omvat iedereen &#x200B;](assets/sequence-include-everyone.png)
 
 De volgende voorbeeldreeksen komen overeen of komen niet overeen:
 
-| | Reeks | ![ AppleReject ](/help/assets/icons/ApproveReject.svg) |
+| | Reeks | ![&#x200B; AppleReject &#x200B;](/help/assets/icons/ApproveReject.svg) |
 |---:|--- | --- |
-| 1 | `Women \| Shoes` dan `Checkout \| Thank You` tijdens hetzelfde bezoek | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
-| 2 | `Women \| Shoes` then `Men \| Shoes` then `Checkout \| Thank You` (verschillende bezoeken) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
-| 3 | `Checkout \| Thank You` then `Women \| Shoes` | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) |
+| 1 | `Women \| Shoes` dan `Checkout \| Thank You` tijdens hetzelfde bezoek | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes` then `Men \| Shoes` then `Checkout \| Thank You` (verschillende bezoeken) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) |
+| 3 | `Checkout \| Thank You` then `Women \| Shoes` | ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) |
 
 ### [!UICONTROL Only Before Sequence] en [!UICONTROL Only After Sequence]
 
-De opties ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** en ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** segmenteren de gegevens aan een ondergroep vóór of na de gespecificeerde opeenvolging.
+De opties ![&#x200B; SequenceBefore &#x200B;](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** en ![&#x200B; SequenceAfter &#x200B;](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** segmenteren de gegevens aan een ondergroep vóór of na de gespecificeerde opeenvolging.
 
-* ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **slechts vóór Opeenvolging**: Omvat alle gegevens vóór een opeenvolging en de eerste gegevens van de opeenvolging zelf. Als een reeks meerdere keren als onderdeel van de gegevens wordt weergegeven, bevat [!UICONTROL Only Before Sequence] de eerste hit van de laatste instantie van de reeks en alle vorige treffers.
-* ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **slechts na Reeks**: Omvat alle klappen na een opeenvolging en de laatste gegevens van de opeenvolging zelf. Als een reeks meerdere keren als onderdeel van de gegevens wordt weergegeven, bevat [!UICONTROL Only After Sequence] de laatste hit van de eerste instantie van de reeks en alle volgende treffers.
+* ![&#x200B; SequenceBefore &#x200B;](/help/assets/icons/SequenceBefore.svg) **slechts vóór Opeenvolging**: Omvat alle gegevens vóór een opeenvolging en de eerste gegevens van de opeenvolging zelf. Als een reeks meerdere keren als onderdeel van de gegevens wordt weergegeven, bevat [!UICONTROL Only Before Sequence] de eerste hit van de laatste instantie van de reeks en alle vorige treffers.
+* ![&#x200B; SequenceAfter &#x200B;](/help/assets/icons/SequenceAfter.svg) **slechts na Reeks**: Omvat alle klappen na een opeenvolging en de laatste gegevens van de opeenvolging zelf. Als een reeks meerdere keren als onderdeel van de gegevens wordt weergegeven, bevat [!UICONTROL Only After Sequence] de laatste hit van de eerste instantie van de reeks en alle volgende treffers.
 
 Overweeg een definitie die een opeenvolging van een component met criteria specificeert die door B worden geïdentificeerd, (toen) door een component met criteria wordt gevolgd die door D worden geïdentificeerd. De drie opties zouden gegevens als volgt identificeren:
 
 
 | B Vervolgens D | A | B | C | D | E | F |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Inclusief iedereen | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
-| Alleen voor reeks | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
-| Alleen na reeks |  |  |  | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+| Inclusief iedereen | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) |
+| Alleen voor reeks | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| Alleen na reeks |  |  |  | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) |
 
 
 
 | B Dan D (komt meerdere keren voor) | A | B | C | D | B | C | D | E |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Inclusief iedereen | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
-| Alleen voor reeks | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
-| Alleen na reeks |  |  |  | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) |
+| Inclusief iedereen | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) |
+| Alleen voor reeks | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| Alleen na reeks |  |  |  | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) |
 
 #### Voorbeeld
 
-U hebt drie versies van een opeenvolgend segment gedefinieerd voor sitesecties. Één met de optie ![ UserGroup ](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**, met de optie ![ SequenceBefore ](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**, en met de optie ![ SequenceAfter ](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]**. U noemde de drie segmenten dienovereenkomstig.
+U hebt drie versies van een opeenvolgend segment gedefinieerd voor sitesecties. Één met de optie ![&#x200B; UserGroup &#x200B;](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**, met de optie ![&#x200B; SequenceBefore &#x200B;](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**, en met de optie ![&#x200B; SequenceAfter &#x200B;](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]**. U noemde de drie segmenten dienovereenkomstig.
 
-![ segment van de Opeenvolging ](assets/site-section-filters.png)
+![&#x200B; segment van de Opeenvolging &#x200B;](assets/site-section-filters.png)
 
 Wanneer het melden van plaatssecties die deze drie segmenten gebruiken, kijkt de voorbeeldoutput in een vrije vormlijst als:
 
-![ Opeenvolgend segmentrapport ](assets/sequential-filter-freeform-table.png)
+![&#x200B; Opeenvolgend segmentrapport &#x200B;](assets/sequential-filter-freeform-table.png)
 
 ## [!UICONTROL Exclude]
 
-De definities van het segment omvatten alle gegevens tenzij u specifiek ![ Gebruiker ](/help/assets/icons/User.svg) [!UICONTROL Person] uitsluiten, ![ Bezoek ](/help/assets/icons/Visit.svg) [!UICONTROL Visit], of ![ WebPage ](/help/assets/icons/WebPage.svg) [!UICONTROL Hit] gegevens gebruikend **[!UICONTROL Exclude]**.
+De definities van het segment omvatten alle gegevens tenzij u specifiek ![&#x200B; Gebruiker &#x200B;](/help/assets/icons/User.svg) [!UICONTROL Person] uitsluiten, ![&#x200B; Bezoek &#x200B;](/help/assets/icons/Visit.svg) [!UICONTROL Visit], of ![&#x200B; WebPage &#x200B;](/help/assets/icons/WebPage.svg) [!UICONTROL Hit] gegevens gebruikend **[!UICONTROL Exclude]**.
 
 Met [!UICONTROL Exclude] kunt u algemene gegevens negeren en segmenten met meer focus maken. Met Uitsluiten kunt u ook segmenten maken zonder specifieke groepen bezoekers. Bijvoorbeeld, om een segment te bepalen dat bezoekers specificeert die orden plaatste en dan die groep bezoekers uitsluiten om *niet-kopers* te identificeren. De beste manier is om regels te maken die een brede definitie gebruiken in plaats van [!UICONTROL Exclude] te gebruiken voor specifieke bezoekers die overeenkomen met specifieke include-waarden.
 
@@ -213,23 +213,23 @@ Zie hieronder voor voorbeelden van het gebruik van [!UICONTROL Exclude] .
 
 #### [!UICONTROL Exclude] within
 
-Geef bezoekers op die een pagina hebben bezocht, geen andere pagina hebben bezocht en vervolgens weer een andere pagina hebben bezocht. U sluit de container uit gebruikend ![ Plaatsende ](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Een dunne rode balk aan de linkerkant identificeert een uitgesloten container.
+Geef bezoekers op die een pagina hebben bezocht, geen andere pagina hebben bezocht en vervolgens weer een andere pagina hebben bezocht. U sluit de container uit gebruikend ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Een dunne rode balk aan de linkerkant identificeert een uitgesloten container.
 
-![ sluit opeenvolging ](assets/sequence-exclude.png) uit
+![&#x200B; sluit opeenvolging &#x200B;](assets/sequence-exclude.png) uit
 
 
 #### [!UICONTROL Exclude] bij begin
 
 Geef bezoekers op die een pagina hebben bezocht zonder ooit naar een andere pagina te gaan. Mensen die een aankoop hebben uitgecheckt zonder ooit de homepage te hebben bezocht, bijvoorbeeld.
 
-![ Reeks sluit begin ](assets/sequence-exclude-start.png) uit
+![&#x200B; Reeks sluit begin &#x200B;](assets/sequence-exclude-start.png) uit
 
 
 #### [!UICONTROL Exclude] aan einde
 
 Identificeer bezoekers die één pagina bezochten maar nooit andere pagina&#39;s bezochten. Bezoekers die bijvoorbeeld uw startpagina hebben bezocht, maar nooit een van uw afhandelingspagina&#39;s.
 
-![ Sequentie sluit eind ](assets/sequence-exclude-end.png) uit
+![&#x200B; Sequentie sluit eind &#x200B;](assets/sequence-exclude-end.png) uit
 
 
 ## [!UICONTROL Logic Group]
@@ -257,31 +257,31 @@ Hier volgen voorbeelden van het gebruik van de container van de Logische Groep.
 
 Identificeer bezoekers die één pagina bezochten, dan bekeken elke pagina van een andere reeks pagina&#39;s in om het even welke orde. Bezoekers die bijvoorbeeld de startpagina bezochten, bezochten dan elke pagina van Men, de pagina Vrouwen en de pagina Kinderen, ongeacht de volgorde.
 
-U kunt dit segment maken zonder een [!UICONTROL Logic Group] , maar de constructie zal complex en ingewikkeld zijn. Geef elke reeks pagina&#39;s op die de bezoeker kan bekijken. Voor duidelijkheid, slechts wordt de eerste container geopend ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) en de andere containers zijn gesloten ![ ChevronRight ](/help/assets/icons/ChevronRight.svg). U kunt de inhoud van de andere containers afleiden door de titels.
+U kunt dit segment maken zonder een [!UICONTROL Logic Group] , maar de constructie zal complex en ingewikkeld zijn. Geef elke reeks pagina&#39;s op die de bezoeker kan bekijken. Voor duidelijkheid, slechts wordt de eerste container geopend ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) en de andere containers zijn gesloten ![&#x200B; ChevronRight &#x200B;](/help/assets/icons/ChevronRight.svg). U kunt de inhoud van de andere containers afleiden door de titels.
 
-![ Voorbeeld dat geen logische groep ](assets/logicgroup-example-notusing.png) gebruikt
+![&#x200B; Voorbeeld dat geen logische groep &#x200B;](assets/logicgroup-example-notusing.png) gebruikt
 
-U kunt [!UICONTROL Logic Group] gebruiken om het samenstellen van dit segment te vereenvoudigen, zoals hieronder wordt getoond. Verzeker u ![ Groep ](/help/assets/icons/Group.svg) **[!UICONTROL Logic Group]** voor de container selecteert.
+U kunt [!UICONTROL Logic Group] gebruiken om het samenstellen van dit segment te vereenvoudigen, zoals hieronder wordt getoond. Verzeker u ![&#x200B; Groep &#x200B;](/help/assets/icons/Group.svg) **[!UICONTROL Logic Group]** voor de container selecteert.
 
-![ Voorbeeld dat geen logische groep ](assets/logicgroup-example-using.png) gebruikt
+![&#x200B; Voorbeeld dat geen logische groep &#x200B;](assets/logicgroup-example-using.png) gebruikt
 
 #### Eerste overeenkomst
 
 Identificeer bezoekers die een pagina of een andere pagina bezochten, dan opnieuw een andere pagina bezocht. Bijvoorbeeld bezoekers die de pagina Vrouwen of de pagina Mannen bezochten, bezochten dan de Afhandeling | Bedankt, pagina.
 
-![ Voorbeeld dat eerste gelijke met logische groep ](assets/logicgroup-example-firstmatch.png) gebruikt
+![&#x200B; Voorbeeld dat eerste gelijke met logische groep &#x200B;](assets/logicgroup-example-firstmatch.png) gebruikt
 
 #### [!UICONTROL Exclude] [!UICONTROL And]
 
 Geef bezoekers op die een pagina bezochten, maar die destijds expliciet geen andere pagina&#39;s bezochten, maar wel een andere pagina hebben bezocht. Bezoekers die bijvoorbeeld de startpagina hebben bezocht en de pagina Mannen of Vrouwen niet hebben bezocht, maar wel de pagina Kinderen hebben bezocht.
 
-![ Logische groep sluit uit en ](assets/logicgroup-exclude-and.png)
+![&#x200B; Logische groep sluit uit en &#x200B;](assets/logicgroup-exclude-and.png)
 
 #### [!UICONTROL Exclude] [!UICONTROL Or]
 
 Geef bezoekers aan die een pagina bezochten die toen expliciet geen enkele pagina van een set pagina&#39;s bezocht, maar toch nog een andere pagina bezocht. Bijvoorbeeld bezoekers die de startpagina bezochten en de pagina Mannen en Vrouwen niet bezochten, maar wel de pagina Kinderen bezochten.
 
-![ Logische groep sluit uit en ](assets/logicgroup-exclude-or.png)
+![&#x200B; Logische groep sluit uit en &#x200B;](assets/logicgroup-exclude-or.png)
 
 
 <!--
@@ -298,8 +298,8 @@ An example of a complex sequential segment if you want to find the visitors that
 Als laatste voorbeeld wilt u bezoekers identificeren die hebben geleerd over een specifieke productpagina, zonder dat deze bezoekers ooit zijn aangetast door uw campagne Empower Your Move. En tijdens hun eerste bezoek aan uw online winkel werd de startpagina bekeken, maar werd niet verder gekeken naar fitness (tandwielproducten) producten uit de categorie Men. Bij hun volgende bezoek direct daarna gingen ze echter naar een productpagina en plaatsten ze een online bestelling zonder eerst de startpagina te doorlopen.
 
 
-![ Complex opeenvolgend segmentvoorbeeld ](assets/sequential-complex.png)
+![&#x200B; Complex opeenvolgend segmentvoorbeeld &#x200B;](assets/sequential-complex.png)
 
 >[!MORELIKETHIS]
 >
-> * [ het Beheersen van Opeenvolgende Logica in AA &amp; CJA: Inleiding aan DEN ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [&#x200B; het Beheersen van Opeenvolgende Logica in AA &amp; CJA: Inleiding aan DEN &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

@@ -24,7 +24,7 @@ Deze mogelijkheid is handig als u wilt:
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Veelvoudige rapportsuites ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Veelvoudige rapportsuites &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ U kunt het actieve deelvenster herkennen aan de lichtblauwe rand eromheen. Selec
 
    >[!NOTE]
    >
-   >Soms wordt een banner weergegeven tijdens het laden van een project (of het overschakelen naar een rapportsuite), waarbij niet alle componenten die in het project zijn opgenomen, in de rapportsuite zijn opgenomen. De ontbrekende componenten worden weergegeven. Volg [ deze instructies ](/help/admin/admin-console/permissions/product-profile.md) om toestemmingen aan de vereiste metriek/afmetingen te plaatsen.
+   >Soms wordt een banner weergegeven tijdens het laden van een project (of het overschakelen naar een rapportsuite), waarbij niet alle componenten die in het project zijn opgenomen, in de rapportsuite zijn opgenomen. De ontbrekende componenten worden weergegeven. Volg [&#x200B; deze instructies &#x200B;](/help/admin/admin-console/permissions/product-profile.md) om toestemmingen aan de vereiste metriek/afmetingen te plaatsen.
    >
 
    ![](assets/incompat-rs.png)
@@ -71,6 +71,6 @@ U kunt het actieve deelvenster herkennen aan de lichtblauwe rand eromheen. Selec
 
 1. (Optioneel) U kunt ook naar andere componentbuilders van Analytics gaan en ervoor zorgen dat deze nu een label van een rapportsuite tonen die
 
-   * Waar een segment zal worden gecreeerd: [ de bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md).
-   * Waar berekende metrisch zal worden gecreeerd: [ Berekende metrische bouwer ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
-   * Waar een alarm zal worden gebouwd: [ Alert bouwer ](/help/components/alerts/alert-builder.md).
+   * Waar een segment zal worden gecreeerd: [&#x200B; de bouwer van het Segment &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md).
+   * Waar berekende metrisch zal worden gecreeerd: [&#x200B; Berekende metrische bouwer &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
+   * Waar een alarm zal worden gebouwd: [&#x200B; Alert bouwer &#x200B;](/help/components/alerts/alert-builder.md).

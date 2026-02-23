@@ -24,14 +24,14 @@ U kunt beschrijvingen toevoegen aan componenten in een rapportreeks.
 1. Selecteer **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]** .
 1. Selecteer de rapportsuite in Report Suite Manager waarvoor u componentbeschrijvingen wilt opgeven.
 1. Selecteer **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion variables]** .
-1. Selecteer ![ toevoegen ](/help/assets/icons/Add.svg) om details voor een omzettingsvariabele te tonen.
+1. Selecteer ![&#x200B; toevoegen &#x200B;](/help/assets/icons/Add.svg) om details voor een omzettingsvariabele te tonen.
 1. Schakel het selectievakje voor **[!UICONTROL Description]** in en voeg een beschrijving toe.
 1. Herhaal stap 4 en 5 voor alle andere variabelen die u wilt toevoegen.
 1. Selecteer **[!UICONTROL Save]**.
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ componentenbeschrijvingen ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} voor een demo video toevoegen.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; componentenbeschrijvingen &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} voor een demo video toevoegen.
 
 >[!ENDSHADEBOX]
 
@@ -40,12 +40,12 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ componentenbe
 
 Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun analyseomgeving volgen en beter begrijpen. Dit omvat de mogelijkheid voor analysebeheerders om componentbeschrijvingen rechtstreeks in Analysis Workspace toe te voegen.
 
-Voor informatie over het toevoegen van een componentenbeschrijving in het gegevenswoordenboek, zie [ componenteningangen in het Woordenboek van Gegevens ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) uitgeven.
+Voor informatie over het toevoegen van een componentenbeschrijving in het gegevenswoordenboek, zie [&#x200B; componenteningangen in het Woordenboek van Gegevens &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) uitgeven.
 
-Voor algemene informatie over het Woordenboek van Gegevens, zie [ Overzicht van het Woordenboek van Gegevens ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
+Voor algemene informatie over het Woordenboek van Gegevens, zie [&#x200B; Overzicht van het Woordenboek van Gegevens &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
 
 >[!MORELIKETHIS]
 >
->[ de componentenmontages van het Rapport ](/help/components/vrs/vrs-components.md)
->[Items van gegevenswoordenboekcomponenten ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>[&#x200B; de componentenmontages van het Rapport &#x200B;](/help/components/vrs/vrs-components.md)
+>[Items van gegevenswoordenboekcomponenten &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

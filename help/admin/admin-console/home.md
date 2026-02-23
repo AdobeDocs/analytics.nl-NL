@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Analyses in het Adobe Admin Console-overzicht
 
-Gebruik [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) om de producten en de gebruikers van Analytics te beheren. Adobe Admin Console wordt gevestigd bij [ adminconsole.adobe.com ](https://adminconsole.adobe.com/).
+Gebruik [&#x200B; Adobe Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) om de producten en de gebruikers van Analytics te beheren. Adobe Admin Console wordt gevestigd bij [&#x200B; adminconsole.adobe.com &#x200B;](https://adminconsole.adobe.com/).
 
 In dit hoofdstuk worden de concepten uitgelegd die u moet begrijpen voor productprofielen en -machtigingen die specifiek zijn voor Analytics in de Adobe Admin Console.
 
@@ -27,4 +27,4 @@ In dit hoofdstuk worden de concepten uitgelegd die u moet begrijpen voor product
 
 Bekijk de volgende videodemonstratie om te leren hoe u een beheerder in Adobe Analytics kunt toevoegen:
 
-[ voeg een beheerder in Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank} toe
+[&#x200B; voeg een beheerder in Adobe Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank} toe

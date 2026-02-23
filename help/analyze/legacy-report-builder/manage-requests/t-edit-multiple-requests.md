@@ -38,7 +38,7 @@ U kunt verscheidene verzoeken tezelfdertijd veranderen, die op de het rapportree
 
       * **kies Segment**: Toont als geen segmenten voor de verzoeken bestaan. Klik op **[!UICONTROL Edit Group]** en selecteer een segment in het deelvenster [!UICONTROL Edit Group] om segmenten toe te voegen.
 
-   * **door Metrisch:** zie [ metriek over Veelvoudige Verzoeken ](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md) uitgeven.
+   * **door Metrisch:** zie [&#x200B; metriek over Veelvoudige Verzoeken &#x200B;](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md) uitgeven.
 
    * **door de Waaier en Korreligheid van de Datum:** groepeert de vertoning van verzoeken door datumwaaier en tijdgranulariteit.
    * **door Groep:** groepeert de vertoning van verzoeken door reeks gegroepeerde verzoeken.

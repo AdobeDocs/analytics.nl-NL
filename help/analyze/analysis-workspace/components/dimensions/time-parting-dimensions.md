@@ -18,7 +18,7 @@ Het ontleden van de tijd neemt timestamp van verzamelde klappen en breekt het in
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ tijd-ontledende dimensies ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/time-parting-dimensions-in-analysis-workspace){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; tijd-ontledende dimensies &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/time-parting-dimensions-in-analysis-workspace){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks o
 
 >[!NOTE]
 >
->De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u het [ getTimeParting elektrisch toestel ](/help/implement/vars/plugins/gettimeparting.md) uitvoeren.
+>De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u het [&#x200B; getTimeParting elektrisch toestel &#x200B;](/help/implement/vars/plugins/gettimeparting.md) uitvoeren.
 
 Afmetingen van tijdpartering in Analysis Workspace zijn onder andere:
 

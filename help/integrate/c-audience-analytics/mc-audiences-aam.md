@@ -20,7 +20,7 @@ Met de Audience Analytics-integratie kunt u gegevens over het Adobe Audience Man
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Audience Analytics ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Audience Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ De Audience Analytics-integratie biedt de volgende belangrijke voordelen:
 ![](assets/mc-aud-dataflow.png)
 
 1. Telkens wanneer een bezoeker naar uw digitale eigenschappen komt, worden de klappen verzameld en naar Analytics verzonden.
-1. Met [ server-kant door:sturen ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), elke klap die Analytics ontvangt wordt automatisch verzonden naar Adobe Audience Manager in real time.
+1. Met [&#x200B; server-kant door:sturen &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), elke klap die Analytics ontvangt wordt automatisch verzonden naar Adobe Audience Manager in real time.
 1. Via de Audience Analytics-integratie wordt voor elke hit het lidmaatschap van een bezoeker opgezocht in Adobe Audience Manager en wordt een lijst met segment-id&#39;s geretourneerd aan Analytics voor verwerking in real-time.
 
 Omdat Adobe Audience Manager-segmenten op basis van zelfde hit worden ingevoegd, kunt u er zeker van zijn dat alle gegevens die in Adobe Audience Manager beschikbaar zijn over een bezoeker, niet worden overgeslagen en up-to-date zijn voor die hit. Dit is beter dan een AppMeasurement-plug-in, omdat deze segmenten met een plug-in alleen bij de volgende hit beschikbaar kunnen worden gemaakt (in plaats van de huidige hit).
@@ -55,6 +55,6 @@ Zorg ervoor dat aan de volgende voorwaarden is voldaan:
 * U bent een Audience Manager-beheerder.
 * U gebruikt identiteitsservice v1.5 of hoger.
 * Adobe Audience Manager en Adobe Analytics rapporteren suites worden toegewezen aan dezelfde Experience Cloud-organisatie.
-* U gebruikt [ server-kant het door:sturen ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) en hebt de [ module van het Beheer van de Publiek ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (geen code van DIL) - AppMeasurement 1.5 of later uitgevoerd.
+* U gebruikt [&#x200B; server-kant het door:sturen &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) en hebt de [&#x200B; module van het Beheer van de Publiek &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (geen code van DIL) - AppMeasurement 1.5 of later uitgevoerd.
 
-Deze eerste vereisten worden beschreven in het [ Werkschema van Audience Analytics ](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
+Deze eerste vereisten worden beschreven in het [&#x200B; Werkschema van Audience Analytics &#x200B;](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

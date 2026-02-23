@@ -23,7 +23,7 @@ Beide verkeersgegevens worden opgeslagen in een aparte gegevensopslagruimte die 
 
 >[!NOTE]
 >
->Adobe Experience Platform Edge Network verleent de dienst van de a [ botopsporing ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) die de etiketten raken die als zijn van bots worden geïdentificeerd. Het botdetectieproces dat in Adobe Analytics wordt gebruikt, is apart en verwijst niet naar de beide scores die zijn opgenomen bij gegevens die via de Edge Network aankomen. De twee systemen gebruiken echter dezelfde IAB-botlijst.
+>Adobe Experience Platform Edge Network verleent de dienst van de a [&#x200B; botopsporing &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) die de etiketten raken die als zijn van bots worden geïdentificeerd. Het botdetectieproces dat in Adobe Analytics wordt gebruikt, is apart en verwijst niet naar de beide scores die zijn opgenomen bij gegevens die via de Edge Network aankomen. De twee systemen gebruiken echter dezelfde IAB-botlijst.
 
 ## Beide regels bijwerken of uploaden
 
@@ -34,7 +34,7 @@ Beide verkeersgegevens worden opgeslagen in een aparte gegevensopslagruimte die 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ beide regels ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} voor een demo video vormen.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; beide regels &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} voor een demo video vormen.
 
 >[!ENDSHADEBOX]
 
@@ -51,15 +51,15 @@ Om beide regels bij te werken of te uploaden:
 
      We raden u aan deze optie minimaal te selecteren.
 
-     Voor meer informatie, zie de sectie hieronder, [ StandaardIAB bot regels ](#standard-iab-bot-rules).
+     Voor meer informatie, zie de sectie hieronder, [&#x200B; StandaardIAB bot regels &#x200B;](#standard-iab-bot-rules).
 
    * Selecteer [!UICONTROL **toevoegen Regel**] om de regels van de douanebot te bepalen en toe te voegen die op gebruikersagenten, IP adressen of IP waaiers worden gebaseerd.
 
-     Voor meer informatie, zie de sectie hieronder, [ de botregels van de Douane ](#custom-bot-rules).
+     Voor meer informatie, zie de sectie hieronder, [&#x200B; de botregels van de Douane &#x200B;](#custom-bot-rules).
 
    * Naast het [!UICONTROL **Uitgezochte CSV Bot- dossier om**] gebied in te voeren, uitgezocht [!UICONTROL **Dossier**] kiezen, dan het CSV- dossier dat de beide regels bepaalt.
 
-     Voor meer informatie, zie de sectie hieronder, [ uploadt beide regels ](#upload-bot-rules).
+     Voor meer informatie, zie de sectie hieronder, [&#x200B; uploadt beide regels &#x200B;](#upload-bot-rules).
 
 1. Selecteer [!UICONTROL **sparen**].
 
@@ -69,9 +69,9 @@ Standaard IAB-bot-regels kunnen worden ingeschakeld door het selectievakje [!UIC
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-iab-checkbox.png)
 
-Adobe kan de gedetailleerde IAB-bonenlijst niet aan klanten aanbieden, maar u kunt het Bots-rapport gebruiken om een lijst weer te geven met bots die uw site hebben geopend. Om zowel aan de IAB lijst voor te leggen, bezoek [ IAB ](https://www.iab.com).
+Adobe kan de gedetailleerde IAB-bonenlijst niet aan klanten aanbieden, maar u kunt het Bots-rapport gebruiken om een lijst weer te geven met bots die uw site hebben geopend. Om zowel aan de IAB lijst voor te leggen, bezoek [&#x200B; IAB &#x200B;](https://www.iab.com).
 
-Voor informatie over hoe te om standaardIAB bot regels in een rapportreeks toe te laten, zie [ Update of upload beide regels ](#update-or-upload-bot-rules).
+Voor informatie over hoe te om standaardIAB bot regels in een rapportreeks toe te laten, zie [&#x200B; Update of upload beide regels &#x200B;](#update-or-upload-bot-rules).
 
 ## Aangepaste botregels
 
@@ -79,7 +79,7 @@ Voor informatie over hoe te om standaardIAB bot regels in een rapportreeks toe t
 >
 >In de gebruikersinterface kunnen 500 regels handmatig worden gedefinieerd. Nadat deze limiet is bereikt, moeten de regels bulksgewijs worden beheerd via de opties voor het importeren van bestanden en het exporteren van regels.
 
-Met aangepaste botregels kunt u op verkeer gebaseerde voorwaarden die u definieert, filteren. Om met het proces te beginnen om de regels van de douanebot in een rapportreeks toe te laten, zie [ Update of upload beide regels ](#update-or-upload-bot-rules).
+Met aangepaste botregels kunt u op verkeer gebaseerde voorwaarden die u definieert, filteren. Om met het proces te beginnen om de regels van de douanebot in een rapportreeks toe te laten, zie [&#x200B; Update of upload beide regels &#x200B;](#update-or-upload-bot-rules).
 
 De regels voor aangepaste bones worden gedefinieerd met behulp van de volgende voorwaardetypen:
 
@@ -120,7 +120,7 @@ Verstrek de begin en eindwaaiers van de IP adressen om aan te passen. Vervang &#
 
 Als u beide regels voor bulkimport wilt opgeven, kunt u een CSV-bestand uploaden dat de regels definieert.
 
-1. Om met het proces te beginnen om beide regels aan een rapportreeks te uploaden, zie [ Update of upload beide regels ](#update-or-upload-bot-rules).
+1. Om met het proces te beginnen om beide regels aan een rapportreeks te uploaden, zie [&#x200B; Update of upload beide regels &#x200B;](#update-or-upload-bot-rules).
 
 1. Maak een CSV-bestand met de volgende kolommen in rij 1 van het werkblad en in de aangegeven volgorde:
 
@@ -171,13 +171,13 @@ Alle regels die in de gebruikersinterface zijn gedefinieerd, exporteren in een C
 
 Beide regels worden toegepast op alle analysegegevens. Gegevens die door Bot Rules zijn verwijderd, zijn alleen zichtbaar in de Boot and Bot Pages Reports.
 
-VISTA-regels worden toegepast na beide regels. Zie [ orde van de Verwerking ](/help/technotes/processing-order.md) in de de gebruikersgids van Technotes.
+VISTA-regels worden toegepast na beide regels. Zie [&#x200B; orde van de Verwerking &#x200B;](/help/technotes/processing-order.md) in de de gebruikersgids van Technotes.
 
 **de Verwerking van het Bezoek van het Hoog:** als meer dan 100 controles in een bezoek voorkomen, bepaalt het melden als de tijd van het bezoek in seconden minder dan of gelijk aan het aantal controles in het bezoek is. In deze situatie, die te wijten is aan de kosten van het verwerken van lange, intensieve bezoeken, begint de rapportage opnieuw met een nieuw bezoek. Hoog-raakbezoeken worden typisch veroorzaakt door beide aanvallen en worden niet beschouwd als normaal bezoekersbladeren.
 
 >[!NOTE]
 >
->Hits duidelijk als *`bots`* worden gefactureerd als [ servervraag.](/help/admin/tools/server-call-usage/overage-overview.md)
+>Hits duidelijk als *`bots`* worden gefactureerd als [&#x200B; servervraag.](/help/admin/tools/server-call-usage/overage-overview.md)
 
 ## Gevolgen van IP Obfuscatie op bot filtreren {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
