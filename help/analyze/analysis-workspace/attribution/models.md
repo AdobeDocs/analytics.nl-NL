@@ -4,7 +4,7 @@ description: Leer meer over de componenten die de attributie bepalen.
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Het attribuutconcept in Adobe Analytics bestaat uit drie componenten:
 
-* **model van de Attributie:** het [&#x200B; model &#x200B;](#attribution-model) beschrijft de distributie van omzettingen in de hits in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
-* **Container**: De [&#x200B; container &#x200B;](#container) bepaalt het werkingsgebied van de attributie, of hoe te om de hits voor elk model te groeperen.
-* **venster van de raadplegingsterugkijker van de Attributie:** het [&#x200B; raadplegingsvenster &#x200B;](#lookback-window) beschrijft het aantal dagen terug naar het gekozen model te zoeken.
+* **model van de Attributie:** het [ model ](#attribution-model) beschrijft de distributie van omzettingen in de hits in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
+* **Container**: De [ container ](#container) bepaalt het werkingsgebied van de attributie, of hoe te om de hits voor elk model te groeperen.
+* **venster van de raadplegingsterugkijker van de Attributie:** het [ raadplegingsvenster ](#lookback-window) beschrijft het aantal dagen terug naar het gekozen model te zoeken.
 
 
 ## Attributiemodel
@@ -69,7 +69,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/custom-lookback-windows-in-attribution-iq){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

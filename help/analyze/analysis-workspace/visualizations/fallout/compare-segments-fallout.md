@@ -5,9 +5,9 @@ title: Segmenten toepassen in Fallout-analyse
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -51,12 +51,6 @@ U kunt ook een AND-aanraakpunt maken door het segment App Hits voor mobiele appa
 
 U kunt een onbeperkt aantal segmenten vergelijken in de Fallout-visualisatie. (In de onderstaande video staat dat u maximaal drie segmenten kunt vergelijken. Dit is onjuist.)
 
-
->[!BEGINSHADEBOX]
-
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; segmenten in een fallout visualisatie &#x200B;](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} voor een demo video vergelijken.
-
->[!ENDSHADEBOX]
 
 
 1. Selecteer in het deelvenster [!UICONTROL Segment] aan de linkerkant de segmenten die u wilt vergelijken. In het voorbeeld In het voorbeeld worden twee segmenten geselecteerd: **[!UICONTROL iOS]** en **[!UICONTROL Android]** .

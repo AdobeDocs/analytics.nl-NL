@@ -5,7 +5,7 @@ uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -38,7 +38,7 @@ U kunt verscheidene verzoeken tezelfdertijd veranderen, die op de het rapportree
 
       * **kies Segment**: Toont als geen segmenten voor de verzoeken bestaan. Klik op **[!UICONTROL Edit Group]** en selecteer een segment in het deelvenster [!UICONTROL Edit Group] om segmenten toe te voegen.
 
-   * **door Metrisch:** zie [&#x200B; metriek over Veelvoudige Verzoeken &#x200B;](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md) uitgeven.
+   * **door Metrisch:** zie [ metriek over Veelvoudige Verzoeken ](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md) uitgeven.
 
    * **door de Waaier en Korreligheid van de Datum:** groepeert de vertoning van verzoeken door datumwaaier en tijdgranulariteit.
    * **door Groep:** groepeert de vertoning van verzoeken door reeks gegroepeerde verzoeken.
@@ -49,4 +49,4 @@ U kunt verscheidene verzoeken tezelfdertijd veranderen, die op de het rapportree
 
 Hier volgt een video waarin het proces wordt getoond:
 
-https://video.tv.adobe.com/v/25445/?quality=12
+https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

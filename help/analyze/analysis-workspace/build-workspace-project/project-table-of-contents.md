@@ -5,10 +5,10 @@ title: Inhoudsopgave
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '201'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ U kunt een inhoudstafel voor een project in Analysis Workspace bekijken, die u t
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; een inhoudstafel &#x200B;](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een inhoudstafel ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"} voor een demo video creëren.
 
 >[!ENDSHADEBOX]
 
@@ -33,7 +33,7 @@ De inhoudsopgave van een project weergeven:
 
 1. Ga in Analysis Workspace naar het project waar u de inhoudsopgave wilt weergeven.
 
-1. In het knooppaneel, uitgezochte ![&#x200B; ViewList &#x200B;](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]**. Zie [&#x200B; overzicht van Analysis Workspace &#x200B;](/help/analyze/analysis-workspace/home.md) voor meer informatie.<br/>
+1. In het knooppaneel, uitgezochte ![ ViewList ](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]**. Zie [ overzicht van Analysis Workspace ](/help/analyze/analysis-workspace/home.md) voor meer informatie.<br/>
 
    De **[!UICONTROL Table of contents]** voor het project wordt weergegeven en elk deelvenster wordt standaard uitgevouwen.
 
@@ -41,12 +41,12 @@ De inhoudsopgave van een project weergeven:
 
    De geselecteerde visualisatie wordt automatisch naar de geselecteerde afbeelding geschoven en kort gemarkeerd.
 
-   ![&#x200B; benadrukte TOC &#x200B;](assets/toc-highlighted.png)
+   ![ benadrukte TOC ](assets/toc-highlighted.png)
 
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; vereenvoudigt de Navigatie Dashboard met de Nieuwe Eigenschap van de Inhoudsopgave in Adobe Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=nl)
+>* [ vereenvoudigt de Navigatie Dashboard met de Nieuwe Eigenschap van de Inhoudsopgave in Adobe Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
 
 
 
@@ -57,7 +57,7 @@ You can view a table of contents within each project in Analysis Workspace, allo
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

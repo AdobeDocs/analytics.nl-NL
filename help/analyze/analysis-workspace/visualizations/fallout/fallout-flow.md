@@ -4,9 +4,9 @@ title: Overzicht van uitval
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 2%
 
 ---
@@ -25,16 +25,16 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Uitval in_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [&#x200B; Uitval &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) voor_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Uitval in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_zie [ Uitval ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) voor_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
-A ![&#x200B; ConversionFunnel &#x200B;](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** visualisatie toont waar de personen (uit) verlieten en door (vielen door) een vooraf bepaalde opeenvolging van pagina&#39;s vervielen.
+A ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** visualisatie toont waar de personen (uit) verlieten en door (vielen door) een vooraf bepaalde opeenvolging van pagina&#39;s vervielen.
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; visualisatie van de Uitval &#x200B;](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van de Uitval ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

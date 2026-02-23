@@ -3,9 +3,9 @@ title: Analyseintegratie
 description: Leer hoe u gegevens van andere locaties kunt integreren in Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ Deze handleiding is gericht op het integreren van meerdere Adobe Experience Clou
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Analytics voor Advertising Cloud &#x200B;](https://video.tv.adobe.com/v/3434837?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Analytics voor Advertising Cloud ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -33,7 +33,7 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; overzicht van Adobe Analytics &#x200B;](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ overzicht van Adobe Analytics ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -45,11 +45,11 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 ## Meer Analytics-gebruikershandleidingen
 
-[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html?lang=nl-NL)
+[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Belangrijke bronnen voor Analytics
 
-* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/nl?support-solution=Analytics&lang=nl#support)
-* [&#x200B; Gemeenschap van Adobe Analytics op Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=nl)
-* [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=nl)
+* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&lang=nl#support)
+* [ Gemeenschap van Adobe Analytics op Experience League ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

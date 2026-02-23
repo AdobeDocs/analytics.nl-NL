@@ -4,9 +4,9 @@ description: Leer over het concept van het toekennen van krediet van een succesg
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '493'
 ht-degree: 28%
 
 ---
@@ -43,42 +43,42 @@ Adobe Analytics verbetert de attributie doordat u de volgende punten naar eigen 
 
 Attributie bestaat uit de volgende kenmerken:
 
-* [&#x200B; het paneel van de Attributie &#x200B;](../c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
-* [&#x200B; pas attributie op metrisch &#x200B;](../visualizations/freeform-table/column-row-settings/column-settings.md) toe: Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
-* [&#x200B; pas attributie op een verdeling &#x200B;](../components/dimensions/t-breakdown-fa.md) toe: Gebruik een niet-standaardattributie op een verdeling.
-* [&#x200B; vergelijk attributiemodellen &#x200B;](../components/apply-create-metrics.md): Zie snel hoe de verschillende attributiemodellen voor om het even welk metrisch vergelijken.
+* [ het paneel van de Attributie ](../c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
+* [ pas attributie op metrisch ](../visualizations/freeform-table/column-row-settings/column-settings.md) toe: Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
+* [ pas attributie op een verdeling ](../components/dimensions/t-breakdown-fa.md) toe: Gebruik een niet-standaardattributie op een verdeling.
+* [ vergelijk attributiemodellen ](../components/apply-create-metrics.md): Zie snel hoe de verschillende attributiemodellen voor om het even welk metrisch vergelijken.
 
 ## Video&#39;s
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Attributie in Vrije vormlijsten &#x200B;](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Attributie in Vrije vormlijsten ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; &#x200B;](/help/assets/icons/VideoCheckedOut.svg) Attributie 0&rbrace; VideoCheckedOut in berekende metriek [&#x200B; voor een demo video.](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}
+Zie ![ ](/help/assets/icons/VideoCheckedOut.svg) Attributie 0} VideoCheckedOut in berekende metriek [ voor een demo video.](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/attribution-iq-in-calculated-metrics){target="_blank"}
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gebruikend het paneel van de Attributie &#x200B;](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruikend het paneel van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Toevoegend zij aan zij vergelijkingen van de modellen van de Attributie &#x200B;](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Toevoegend zij aan zij vergelijkingen van de modellen van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/adding-side-by-side-comparisons-of-attribution-iq-models){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 ## Adobe Analytics-gereedschappen die geen attributie ondersteunen
 
-Om het even welke hulpmiddelen die geen Analytics 2.0 API, zoals [&#x200B; Verouderde Report Builder &#x200B;](/help/analyze/legacy-report-builder/home.md) steunen, steunen geen Attributie.
+Om het even welke hulpmiddelen die geen Analytics 2.0 API, zoals [ Verouderde Report Builder ](/help/analyze/legacy-report-builder/home.md) steunen, steunen geen Attributie.

@@ -4,16 +4,16 @@ title: Snelle segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
 # Snelle segmenten
 
-De snelle segmenten staan u toe om gegevens binnen een bepaald project gemakkelijk te onderzoeken, zonder de behoefte om een meer complex component-lijst segment in de [&#x200B; segmentbouwer &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md) tot stand te brengen.
+De snelle segmenten staan u toe om gegevens binnen een bepaald project gemakkelijk te onderzoeken, zonder de behoefte om een meer complex component-lijst segment in de [ segmentbouwer ](/help/components/segmentation/segmentation-workflow/seg-build.md) tot stand te brengen.
 
 Houd rekening met het volgende wanneer u snelle segmenten maakt:
 
@@ -24,14 +24,14 @@ Houd rekening met het volgende wanneer u snelle segmenten maakt:
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Snelle segmenten &#x200B;](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Snelle segmenten ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[&#x200B; creeer een snel segment &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
+>[ creeer een snel segment ](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
 
 
 <!--

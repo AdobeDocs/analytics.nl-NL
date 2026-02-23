@@ -4,9 +4,9 @@ keywords: Virtuele rapportsuite
 title: Virtuele rapportsuites maken
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '661'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Definieer deze instellingen op het tabblad [!UICONTROL Visit Definition] en klik
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; een bezoekdefinitie &#x200B;](https://video.tv.adobe.com/v/3428477?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video aanpassen.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een bezoekdefinitie ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} voor een demo video aanpassen.
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 ![](assets/components.png)
 
 1. Schakel op het tabblad [!UICONTROL Components] het selectievakje in om de curatie toe te passen voor het opnemen, uitsluiten en hernoemen van componenten voor deze virtuele rapportsuite in Analysis Workspace.
-Voor meer informatie over de virtuele cursus van de rapportreeks, zie [&#x200B; Virtuele de componentencuratie van de rapportreeks &#x200B;](/help/components/vrs/vrs-components.md).
+Voor meer informatie over de virtuele cursus van de rapportreeks, zie [ Virtuele de componentencuratie van de rapportreeks ](/help/components/vrs/vrs-components.md).
 
 1. Sleep componenten (afmetingen, metriek, segmenten, of datumwaaiers) die u in de Virtuele rapportreeks in de [!UICONTROL Included Components] sectie wilt omvatten.
 

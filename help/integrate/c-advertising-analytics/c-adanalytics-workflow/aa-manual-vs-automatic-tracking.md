@@ -3,7 +3,7 @@ description: Het type bijhouden bepaalt hoe de Adobe Analytics-implementatie de 
 title: Type track
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Het type bijhouden bepaalt hoe de Adobe Analytics-implementatie de gegevens van 
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -37,7 +37,7 @@ Als u een zoekprogrammaaccount met **[!UICONTROL Auto]** type wilt configureren,
 
 >[!IMPORTANT]
 >
->Leer meer op of u de `s_kwcid` parameter aan uw [&#x200B; Beleid van de Veiligheid van de Inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/id-service/using/reference/csp) zou moeten toevoegen.
+>Leer meer op of u de `s_kwcid` parameter aan uw [ Beleid van de Veiligheid van de Inhoud ](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp) zou moeten toevoegen.
 
 ## Handmatig bijhouden {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -58,7 +58,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![&#x200B; Google &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![ Google ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
 
 Voorbeelden van volgcodes in verschillende sjabloonindelingen voor reeksspatiëring:
 
@@ -98,7 +98,7 @@ De tekenreeks die aan uw Microsoft Advertising-account moet worden toegevoegd, w
 
 >[!IMPORTANT]
 >
->De _`<Advertising Analytics ID>`_waarde (in **gewaagd**&#x200B;hieronder) is generiek en **moet met uw specifiek koord van identiteitskaart van de rekening**&#x200B;worden vervangen. U kunt de id-tekenreeks van uw specifieke account ophalen vanuit het accountscherm onder de sectie &#39;Bijhouden&#39;.
+>De _`<Advertising Analytics ID>`_waarde (in **gewaagd**hieronder) is generiek en **moet met uw specifiek koord van identiteitskaart van de rekening**worden vervangen. U kunt de id-tekenreeks van uw specifieke account ophalen vanuit het accountscherm onder de sectie &#39;Bijhouden&#39;.
 
 **het Volgen Koord voor Campagnes:**
 
@@ -106,7 +106,7 @@ De tekenreeks die aan uw Microsoft Advertising-account moet worden toegevoegd, w
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![&#x200B; voeg het volgen codeparameters &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png) toe
+![ voeg het volgen codeparameters ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png) toe
 
 Voorbeelden van volgcodes in verschillende uiteindelijke indelingen voor URL-achtervoegsels:
 

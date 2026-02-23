@@ -4,9 +4,9 @@ title: Metrics
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -19,29 +19,29 @@ Met cijfers kunt u gegevenspunten in Analysis Workspace kwantificeren. Deze word
 
 Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om te zien hoe metrisch met elk afmetingspunt vergelijkt. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt deze vervangen en als u een metrische waarde naast een koptekst sleept, ziet u beide meetgegevens naast elkaar.
 
-Voor informatie over hoe te om metriek en andere soorten componenten aan Analysis Workspace toe te voegen, zie [&#x200B; de componenten van het Gebruik in Analysis Workspace &#x200B;](use-components-in-workspace.md).
+Voor informatie over hoe te om metriek en andere soorten componenten aan Analysis Workspace toe te voegen, zie [ de componenten van het Gebruik in Analysis Workspace ](use-components-in-workspace.md).
 
 ## Soorten metingen
 
 Adobe biedt verschillende typen maateenheden voor gebruik in Analysis Workspace:
 
-* **Standaard metriek**: De meeste metriek die u in projecten gebruikt zijn standaardmetriek. De voorbeelden omvatten [&#x200B; meningen van de Pagina &#x200B;](/help/components/metrics/page-views.md), [&#x200B; Inkomsten &#x200B;](/help/components/metrics/revenue.md), of [&#x200B; de gebeurtenissen van de Douane &#x200B;](/help/components/metrics/custom-events.md). Zie [&#x200B; Overzicht van Metriek &#x200B;](/help/components/metrics/overview.md) in de de gebruikersgids van Componenten voor meer informatie.
+* **Standaard metriek**: De meeste metriek die u in projecten gebruikt zijn standaardmetriek. De voorbeelden omvatten [ meningen van de Pagina ](/help/components/metrics/page-views.md), [ Inkomsten ](/help/components/metrics/revenue.md), of [ de gebeurtenissen van de Douane ](/help/components/metrics/custom-events.md). Zie [ Overzicht van Metriek ](/help/components/metrics/overview.md) in de de gebruikersgids van Componenten voor meer informatie.
 
-* **Berekende metriek** ![&#x200B; calculator &#x200B;](/help/assets/icons/Calculator.svg): Gebruiker-bepaalde metriek die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn. Door de gebruiker gedefinieerde berekende meetwaarden geven een rekenprijspictogram weer in de lijst met beschikbare componenten. Zie [&#x200B; Berekend overzicht van Metriek &#x200B;](/help/components/calculated-metrics/cm-overview.md) in de de gebruikersgids van Componenten voor meer informatie.
+* **Berekende metriek** ![ calculator ](/help/assets/icons/Calculator.svg): Gebruiker-bepaalde metriek die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn. Door de gebruiker gedefinieerde berekende meetwaarden geven een rekenprijspictogram weer in de lijst met beschikbare componenten. Zie [ Berekend overzicht van Metriek ](/help/components/calculated-metrics/cm-overview.md) in de de gebruikersgids van Componenten voor meer informatie.
 
-* **Berekende metrische malplaatjes** ![&#x200B; AdobeLogoSmall &#x200B;](/help/assets/icons/AdobeLogoSmall.svg): Adobe-bepaalde metriek die zich zo ook aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica ervan aan te passen. Berekende metrische sjablonen tonen een Adobe-pictogram in de lijst met beschikbare componenten.
+* **Berekende metrische malplaatjes** ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg): Adobe-bepaalde metriek die zich zo ook aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica ervan aan te passen. Berekende metrische sjablonen tonen een Adobe-pictogram in de lijst met beschikbare componenten.
 
-U kunt zien of metrisch wordt goedgekeurd ![&#x200B; Goedgekeurd pictogram &#x200B;](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) of niet. Als u meer details op metrisch wilt, beweegt over metrisch, en selecteert ![&#x200B; pictogram van Info &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Zie [&#x200B; Info van de Component &#x200B;](use-components-in-workspace.md#component-info) voor meer informatie.
+U kunt zien of metrisch wordt goedgekeurd ![ Goedgekeurd pictogram ](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) of niet. Als u meer details op metrisch wilt, beweegt over metrisch, en selecteert ![ pictogram van Info ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Zie [ Info van de Component ](use-components-in-workspace.md#component-info) voor meer informatie.
 
 
 ## Metriek gebruiken in Analysis Workspace
 
-Metriek kan op verschillende manieren in Analysis Workspace worden gebruikt. Voor informatie over hoe te om metriek en andere soorten componenten aan Analysis Workspace toe te voegen, zie [&#x200B; de componenten van het Gebruik in Analysis Workspace &#x200B;](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+Metriek kan op verschillende manieren in Analysis Workspace worden gebruikt. Voor informatie over hoe te om metriek en andere soorten componenten aan Analysis Workspace toe te voegen, zie [ de componenten van het Gebruik in Analysis Workspace ](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; metriek van het Gebruik &#x200B;](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ metriek van het Gebruik ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Er zijn verschillende manieren om berekende metriek te maken. De methode u kiest
 
 ### Berekende waarden maken voor alle projecten
 
-U kunt de [&#x200B; berekende metrische bouwer &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) gebruiken [&#x200B; berekende metriek &#x200B;](/help/components/calculated-metrics/workflow/cm-workflow.md) creëren. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen in projecten door uw organisatie worden gebruikt.
+U kunt de [ berekende metrische bouwer ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) gebruiken [ berekende metriek ](/help/components/calculated-metrics/workflow/cm-workflow.md) creëren. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen in projecten door uw organisatie worden gebruikt.
 
 
 ### Berekende waarden maken voor één project
@@ -73,21 +73,21 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
 1. Selecteren **[!UICONTROL Create metric from selection]**
 
-   ![&#x200B; het paneel dat van Workspace creeert van selectie &#x200B;](assets/create-metric-from-selection.png) benadrukt
+   ![ het paneel dat van Workspace creeert van selectie ](assets/create-metric-from-selection.png) benadrukt
 
 1. Als u alleen voor dit project een berekende metrische waarde wilt maken, kiest u een van de beschikbare opties.
 
    Wanneer u één kolom selecteert, zijn de volgende opties beschikbaar:
 
-   * [!UICONTROL **Gemiddeld**]: Creeert een nieuwe kolom die de gemiddelde waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [&#x200B; Mean &#x200B;](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean) functie.
+   * [!UICONTROL **Gemiddeld**]: Creeert een nieuwe kolom die de gemiddelde waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Mean ](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean) functie.
 
-   * [!UICONTROL **Mediaan**]: Creeert een nieuwe kolom die de mediane waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [&#x200B; Mediaan &#x200B;](/help/components/calculated-metrics/cm-reference/cm-functions.md#median) functie.
+   * [!UICONTROL **Mediaan**]: Creeert een nieuwe kolom die de mediane waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Mediaan ](/help/components/calculated-metrics/cm-reference/cm-functions.md#median) functie.
 
-   * [!UICONTROL **Kolom max**]: Creeert een nieuwe kolom die de grootste waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [&#x200B; Maximale &#x200B;](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum) functie van de Kolom.
+   * [!UICONTROL **Kolom max**]: Creeert een nieuwe kolom die de grootste waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Maximale ](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum) functie van de Kolom.
 
-   * [!UICONTROL **Kolom min**]: Creeert een nieuwe kolom die de kleinste waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [&#x200B; Minimale functie van de Kolom &#x200B;](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum).
+   * [!UICONTROL **Kolom min**]: Creeert een nieuwe kolom die de kleinste waarde in de reeks afmetingselementen voor de kolom toont. De kolomwaarden gebruiken de [ Minimale functie van de Kolom ](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **som van de Kolom**]: Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. De kolomwaarden gebruiken de [&#x200B; Som van de Kolom &#x200B;](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum) functie.
+   * [!UICONTROL **som van de Kolom**]: Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. De kolomwaarden gebruiken de [ Som van de Kolom ](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum) functie.
 
    Wanneer u twee kolommen selecteert, zijn de volgende opties beschikbaar:
 
@@ -101,14 +101,14 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentageverandering tussen de twee geselecteerde kolommen toont.
 
-[&#x200B; Berekende Metriek: Implementatie-minder metriek &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3 :42)
+[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3 :42)
 
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen
 
 Als u het ene attributiemodel snel met een ander wilt vergelijken, klikt u met de rechtermuisknop op een metrisch model en selecteert u **[!UICONTROL Compare Attribution Models]** :
 
-![&#x200B; vergelijk attributie &#x200B;](assets/compare-attribution.png)
+![ vergelijk attributie ](assets/compare-attribution.png)
 
 Met deze sneltoets kunt u het ene attributiemodel vergelijken met het andere zonder dat u het twee keer hoeft te slepen en te configureren.
 
@@ -119,7 +119,7 @@ Hier volgt een video over het onderwerp:
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Cumulatief gemiddelde &#x200B;](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Cumulatief gemiddelde ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

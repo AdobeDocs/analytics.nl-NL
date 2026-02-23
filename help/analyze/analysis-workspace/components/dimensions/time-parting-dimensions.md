@@ -4,9 +4,9 @@ title: Afmetingen van tijd-scheiding
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Het ontleden van de tijd neemt timestamp van verzamelde klappen en breekt het in
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; tijd-ontledende dimensies &#x200B;](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ tijd-ontledende dimensies ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/time-parting-dimensions-in-analysis-workspace){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks o
 
 >[!NOTE]
 >
->De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u het [&#x200B; getTimeParting elektrisch toestel &#x200B;](/help/implement/vars/plugins/gettimeparting.md) uitvoeren.
+>De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u het [ getTimeParting elektrisch toestel ](/help/implement/vars/plugins/gettimeparting.md) uitvoeren.
 
 Afmetingen van tijdpartering in Analysis Workspace zijn onder andere:
 

@@ -3,7 +3,7 @@ description: Overzicht van de Advertising Analytics-workflow.
 title: Workflowoverzicht
 feature: Advertising Analytics
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -15,10 +15,10 @@ ht-degree: 0%
 De workflow voor het configureren van Advertising Analytics bestaat uit de volgende stappen:
 
 <!--
->[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
-1. [Advertising Analytics-rapportage per rapportsuite inschakelen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Inschakelen [!UICONTROL Advertising Analytics] rapportage voor Experience-Cloud-rapportensuites.
-2. [Een Advertising Analytics-account instellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Instellen in Analytics Admin Tools.
-3. [Verslag over de reclamegegevens in Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). De zoekgegevens worden verzameld van zoekprogramma&#39;s rond 6.00 uur (06.00 uur) in de tijdzone van uw Adobe Analytics-datacenter. De gegevens van de Adobe Advertising worden verzameld en in de rapportreeks opgenomen. En dan omgezet in de tijdzone van de rapportreeks als deel van het opnemen van de gegevens in Analytics. De rapportering is beschikbaar in Analysis Workspace (Paid malplaatje van Prestaties van het Onderzoek), Report Builder, en Analytics die API melden.
-4. [Reclameaccounts beheren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). U kunt de accountstatus controleren en accounts bewerken/pauzeren.
+1. [ laat Advertising Analytics rapportering per rapportreeks ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) toe. Hiermee schakelt u [!UICONTROL Advertising Analytics] -rapportering in voor Experience-Cloud-rapportensuites.
+2. [ opstelling een rekening van Advertising Analytics ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Instellen in Analytics Admin Tools.
+3. [ Rapport over de gegevens van Advertising in Analytics ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). De onderzoeksgegevens worden getrokken van onderzoeksmotoren rond 6AM (06 :00) in de tijdzone van uw Adobe Analytics gegevenscentrum. De Adobe Advertising-gegevens worden verzameld en in de rapportsuite ingevoegd. En dan omgezet in de tijdzone van de rapportreeks als deel van het opnemen van de gegevens in Analytics. Rapportage is beschikbaar in Analysis Workspace (Paid Search Performance Template), Report Builder en de Analytics Reporting API.
+4. [ beheert de rekeningen van Advertising ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). U kunt de accountstatus controleren en accounts bewerken/pauzeren.

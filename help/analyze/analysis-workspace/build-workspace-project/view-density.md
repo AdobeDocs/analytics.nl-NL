@@ -4,7 +4,7 @@ title: Dichtheid weergeven
 feature: Workspace Basics
 role: User, Admin
 exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -21,19 +21,19 @@ Als u de weergavedichtheid aanpast, kunt u meer gegevens op het scherm zien door
 
 Dit is de versie met de meest versmalde weergave.
 
-![&#x200B; de Compacte meningsdichtheden.](assets/view-density-compact.png)
+![ de Compacte meningsdichtheden.](assets/view-density-compact.png)
 
 >[!TAB  Comfortable ]
 
 Dit is de weergave die je gebruikt in Workspace.
 
-![&#x200B; de Uitgebreide meningsdichtheden.](assets/view-density-comfortable.png)
+![ de Uitgebreide meningsdichtheden.](assets/view-density-comfortable.png)
 
 >[!TAB  Uitgebreid ]
 
 Dit is de versie met de meest uitgebreide weergave.
 
-![&#x200B; de Uitgebreide meningsdichtheden.](assets/view-density-expanded.png)
+![ de Uitgebreide meningsdichtheden.](assets/view-density-expanded.png)
 
 >[!ENDTABS]
 
@@ -66,7 +66,7 @@ To set the view density:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [View density](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [View density](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/view-density-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

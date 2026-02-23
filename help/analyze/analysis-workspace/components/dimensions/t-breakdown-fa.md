@@ -5,9 +5,9 @@ title: Afmetingen onderbreken
 feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 U kunt uw gegevens in Analysis Workspace op onbeperkte manieren voor uw specifieke behoeften opsplitsen; bouwt vragen gebruikend relevante metriek, dimensies, segmenten, tijdlijnen, en andere waarden van de analyseonderbreking.
 
-1. In a [&#x200B; Vrije lijst &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md), van het contextmenu van één of meerdere geselecteerde rijen, uitgezochte **[!UICONTROL Breakdown]** ![&#x200B; ChevronRight &#x200B;](/help/assets/icons/ChevronRight.svg).
+1. In a [ Vrije lijst ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md), van het contextmenu van één of meerdere geselecteerde rijen, uitgezochte **[!UICONTROL Breakdown]** ![ ChevronRight ](/help/assets/icons/ChevronRight.svg).
 
-   ![&#x200B; Resultaat van de Stap die alarm van geselecteerde selectie toont.](assets/breakdown.png)
+   ![ Resultaat van de Stap die alarm van geselecteerde selectie toont.](assets/breakdown.png)
 
 1. Selecteer in het submenu **[!UICONTROL Dimensions]** , **[!UICONTROL Metrics]** , **[!UICONTROL Segments]** of **[!UICONTROL Date ranges]** en selecteer vervolgens een item. Of eenvoudig onderzoek naar een component op het **[!UICONTROL *gebied van het Onderzoek *]**.
 
@@ -32,7 +32,7 @@ U kunt metriek onderverdelen door afmetingspunten of publiekssegmenten over gese
 
 Standaard zijn uitsplitsingen vast op statische rijitems. Stel dat u de bovenste pagina&#39;s met dimensies (Homepage, Zoekresultaten, Afhandeling) opsplitst op Marketingkanaal. Dan verlaat u het project en keert twee weken later terug. Nadat u het project opnieuw hebt geopend, zijn de bovenste drie pagina&#39;s gewijzigd. In plaats daarvan zijn Homepage, Zoekresultaten en Afhandeling de bovenste 4-6 pagina&#39;s. Standaard worden uw uitsplitsingen naar marketingkanaal nog steeds weergegeven onder Homepage, Zoekresultaten en Afhandeling, ook al bevinden ze zich nu in de rijen 4-6.
 
-In tegenstelling, **Uitsplitsing door positie**, onderbreekt altijd top 3 punten, ongeacht wat deze punten zijn. Verwijzend naar het voorbeeld, wanneer u uw project opnieuw opent, zijn de onderbrekingen van het Kanaal van de Marketing gebonden aan de hoogste 3 pagina&#39;s in de lijst. En niet naar Homepage, zoekresultaten en afhandeling, die nu in de rijen 4 tot en met 6 staan. Zie [&#x200B; montages van de Rij &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) hoe te om dit het plaatsen te vormen.
+In tegenstelling, **Uitsplitsing door positie**, onderbreekt altijd top 3 punten, ongeacht wat deze punten zijn. Verwijzend naar het voorbeeld, wanneer u uw project opnieuw opent, zijn de onderbrekingen van het Kanaal van de Marketing gebonden aan de hoogste 3 pagina&#39;s in de lijst. En niet naar Homepage, zoekresultaten en afhandeling, die nu in de rijen 4 tot en met 6 staan. Zie [ montages van de Rij ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) hoe te om dit het plaatsen te vormen.
 
 
 
@@ -40,7 +40,7 @@ In tegenstelling, **Uitsplitsing door positie**, onderbreekt altijd top 3 punten
 
 Voor elke uitsplitsing binnen een tabel kan ook een toewijzingsmodel worden toegepast. Dit attributiemodel kan hetzelfde zijn of verschillen van de bovenliggende kolom. Bijvoorbeeld, kunt u lineaire Orden op uw afmeting van de Kanalen van de Marketing analyseren maar U-Vormde Orden op de specifieke het volgen codes binnen een Kanaal toepassen. Als u het toewijzingsmodel wilt bewerken dat is toegepast op een uitsplitsing, beweegt u de muisaanwijzer over het uitsplitsingsmodel en selecteert u **[!UICONTROL Edit]** .
 
-![&#x200B; Vergelijking van de Attributie van de Orde die de montages van de Onderbreking tonen &#x200B;](assets/breakdown-attribution.png)
+![ Vergelijking van de Attributie van de Orde die de montages van de Onderbreking tonen ](assets/breakdown-attribution.png)
 
 Dit is het verwachte gedrag wanneer het toepassen van attributiemodellen op onderverdelingen of het uitgeven van hen:
 
@@ -52,7 +52,7 @@ Dit is het verwachte gedrag wanneer het toepassen van attributiemodellen op onde
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Dimension in Analysis Workspace &#x200B;](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Dimension in Analysis Workspace ](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"} voor een demo video.
 
 
 >[!ENDSHADEBOX]
@@ -60,7 +60,7 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de onderbrekingen van Dimension &#x200B;](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de onderbrekingen van Dimension ](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"} voor een demo video.
 
 
 >[!ENDSHADEBOX]
@@ -68,7 +68,7 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Toevoegend dimensies en metriek &#x200B;](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Toevoegend dimensies en metriek ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} voor een demo video.
 
 
 >[!ENDSHADEBOX]
@@ -76,7 +76,7 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Werkend met afmetingen in een Vrije Lijst van de Vorm &#x200B;](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Werkend met afmetingen in een Vrije Lijst van de Vorm ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} voor een demo video.
 
 
 >[!ENDSHADEBOX]
@@ -84,7 +84,7 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Dimension onderbreking door positie &#x200B;](https://video.tv.adobe.com/v/24033){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Dimension onderbreking door positie ](https://video.tv.adobe.com/v/24033){target="_blank"} voor een demo video.
 
 
 >[!ENDSHADEBOX]
@@ -128,7 +128,7 @@ This is the expected behavior when applying attribution models to breakdowns or 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -136,7 +136,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimension
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

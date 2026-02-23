@@ -3,9 +3,9 @@ description: Begrijp hoe de segmenten u toestaan om ondergroepen van bezoekers t
 title: Informatie over segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '972'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ Met segmenten kunt u subsets bezoekers identificeren op basis van kenmerken of i
 
 Segmenten zijn gebaseerd op een [!UICONTROL Visitor] -, [!UICONTROL Visit] - en [!UICONTROL Hit] -hiërarchie met behulp van een genest containermodel. Met de geneste containers kunt u bezoekerskenmerken en handelingen definiëren op basis van regels tussen en binnen de containers. Analysesegmenten kunnen worden gemaakt, goedgekeurd, gedeeld, opgeslagen en uitgevoerd voor meerdere producten en mogelijkheden in de [!DNL Adobe Experience Cloud] . De segmenten kunnen van een rapport worden geproduceerd, in een dashboardrapport worden ingebouwd, of worden bookmarked voor snelle toegang.
 
-U kunt segmenten bouwen en bewaren in de bouwer van het Segment, of segmenten van een rapport van de Vallout produceren (in [!UICONTROL Analysis Workspace]). U kunt ook vooraf gebouwde segmenten op basis van specifieke regels tussen geneste containers gebruiken en uitbreiden, zodat u resultaten kunt filteren en op rapporten kunt toepassen. Bovendien kunnen de segmenten samen als [&#x200B; gestapelde segmenten &#x200B;](/help/components/segmentation/segmentation-workflow/seg-workflow.md) worden gebruikt.
+U kunt segmenten bouwen en bewaren in de bouwer van het Segment, of segmenten van een rapport van de Vallout produceren (in [!UICONTROL Analysis Workspace]). U kunt ook vooraf gebouwde segmenten op basis van specifieke regels tussen geneste containers gebruiken en uitbreiden, zodat u resultaten kunt filteren en op rapporten kunt toepassen. Bovendien kunnen de segmenten samen als [ gestapelde segmenten ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) worden gebruikt.
 
 Segmenten identificeren
 
@@ -108,25 +108,25 @@ Wanneer u publiekssegmenten maakt in de Segment Builder, definieert u voorwaarde
 
 Dit type segment filtert gegevenssets op basis van kenmerken die zijn gekoppeld met de operatoren [!UICONTROL AND] en [!UICONTROL OR] .
 
-- U kunt [&#x200B; veelvoudige segmenten op een rapport of een project &#x200B;](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) toepassen.
+- U kunt [ veelvoudige segmenten op een rapport of een project ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) toepassen.
 - De segmenten zijn universeel aan alle rapportseries.
-- De [&#x200B; bouwer van het Segment &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md) vereenvoudigt segmentverwezenlijking.
-- De [&#x200B; manager van het Segment &#x200B;](/help/components/segmentation/segmentation-workflow/seg-manage.md) laat u opstelling [&#x200B; werkschema&#39;s &#x200B;](/help/components/segmentation/segmentation-workflow/seg-workflow.md) met segment het delen, het etiketteren, de controle, en goedkeuringseigenschappen.
-- U kunt [&#x200B; markeringssegmenten &#x200B;](/help/components/segmentation/segmentation-workflow/seg-tag.md) aan organisatie en onderzoek later in plaats van het gebruiken van omslagen.
-- U kunt [&#x200B; opeenvolgende segmenten &#x200B;](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) tot stand brengen.
+- De [ bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md) vereenvoudigt segmentverwezenlijking.
+- De [ manager van het Segment ](/help/components/segmentation/segmentation-workflow/seg-manage.md) laat u opstelling [ werkschema&#39;s ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) met segment het delen, het etiketteren, de controle, en goedkeuringseigenschappen.
+- U kunt [ markeringssegmenten ](/help/components/segmentation/segmentation-workflow/seg-tag.md) aan organisatie en onderzoek later in plaats van het gebruiken van omslagen.
+- U kunt [ opeenvolgende segmenten ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) tot stand brengen.
 - De container [!UICONTROL Page View] is nu de container van [!UICONTROL Hit] om erop te wijzen dat deze container alle types van gegevens en niet alleen paginameningen segmenteert. Bijvoorbeeld, verbindings het volgen vraag, en de vraag van de spooractie van mobiele SDKs zijn allen inbegrepen of uitgesloten door de klapcontainer.
 
 ## Segmentering in Analysis Workspace
 
 Analysis Workspace bevat de volgende aanvullende functies:
 
-- U kunt [&#x200B; segmenten &#x200B;](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) vergelijken.
+- U kunt [ segmenten ](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) vergelijken.
 - Gebruik segmenten als afmetingen in vrije-vormtabelvisualisaties.
-- De segmenten van het gebruik in [&#x200B; reserveanalyse &#x200B;](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
+- De segmenten van het gebruik in [ reserveanalyse ](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
 ## Door Adobe verschafte segmenten
 
-De component links spoor toont segmenten die door u en uw bedrijf en de segmenten van Adobe worden gecreeerd die uit de doos worden verstrekt. Wanneer u **[!UICONTROL Show all]** klikt, verschijnen deze segmenten typisch bij de bodem van de lijst en door ![&#x200B; AdobeLogoSmall &#x200B;](/help/assets/icons/AdobeLogoSmall.svg) geïdentificeerd.
+De component links spoor toont segmenten die door u en uw bedrijf en de segmenten van Adobe worden gecreeerd die uit de doos worden verstrekt. Wanneer u **[!UICONTROL Show all]** klikt, verschijnen deze segmenten typisch bij de bodem van de lijst en door ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg) geïdentificeerd.
 
 ## Sequentiële segmenten {#sequential}
 
@@ -240,7 +240,7 @@ Deze video geeft een kort overzicht van welke segmentcontainers zijn en hoe te o
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de containers van het Segment &#x200B;](https://video.tv.adobe.com/v/3429104?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de containers van het Segment ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -249,9 +249,9 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 +++ **Welke rechten en voorrechten moet ik gebruiken, creëren, en segmenten beheren?**
 
-Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen Admins beslissen wie [&#x200B; toestemmingen zou moeten hebben om segmenten &#x200B;](/help/admin/admin-console/home.md) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
+Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen Admins beslissen wie [ toestemmingen zou moeten hebben om segmenten ](/help/admin/admin-console/home.md) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
 
-Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met iedereen in de organisatie. [&#x200B; de rechten van het segment door rol &#x200B;](/help/components/segmentation/seg-reference/seg-rights.md)
+Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met iedereen in de organisatie. [ de rechten van het segment door rol ](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 
@@ -275,6 +275,6 @@ Report Builder geeft alleen segmenten weer die door u zijn gemaakt of segmenten 
 
 +++ **waarom kan ik geen segment schrappen?**
 
-Als het segment [&#x200B; aan Experience Cloud &#x200B;](/help/components/segmentation/segmentation-workflow/seg-workflow.md) werd gepubliceerd, kunt u niet het segment schrappen of het segment uitgeven. U kunt het segment echter kopiëren en de gekopieerde versie bewerken.
+Als het segment [ aan Experience Cloud ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) werd gepubliceerd, kunt u niet het segment schrappen of het segment uitgeven. U kunt het segment echter kopiëren en de gekopieerde versie bewerken.
 
 +++
