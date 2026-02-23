@@ -31,7 +31,7 @@ U kunt beschrijvingen toevoegen aan componenten in een rapportreeks.
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; componentenbeschrijvingen &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} voor een demo video toevoegen.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; componentenbeschrijvingen &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} voor een demo video toevoegen.
 
 >[!ENDSHADEBOX]
 

@@ -18,7 +18,7 @@ U kunt gegevensanomalieën contextafhankelijk weergeven en analyseren in Analysi
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Anomaly opsporing &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Anomaly opsporing &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ voor geselecteerde metriek over convergerende publiekssegmenten.
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; analyse van de Bijdrage &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; analyse van de Bijdrage &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -119,17 +119,17 @@ Hieronder volgt een lijst van de gedetailleerde rechten voor de analyse van Anom
    <td colname="col3" colsep="1"> <p>Geen tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > Selecteren </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/nl/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > Selecteren </a> </p> </td> 
    <td colname="col2"> <p>Alleen dagelijkse granulariteit </p> </td> 
    <td colname="col3"> <p>Geen tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  > Prime </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/nl/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  > Prime </a> </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>10 tokens per maand </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/nl/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate </a> </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>20 tokens per maand </p> </td> 
   </tr> 
@@ -154,7 +154,7 @@ Hieronder volgt een lijst van de gedetailleerde rechten voor de analyse van Anom
    <td colname="col3"> <p>2 tokens per maand </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (volledige, <a href="https://business.adobe.com/products/analytics/predictive-analytics.html"  > voorspellende intelligentie </a> ) </p> </td> 
+   <td colname="col1"> <p>Premium (volledige, <a href="https://business.adobe.com/nl/products/analytics/predictive-analytics.html"  > voorspellende intelligentie </a> ) </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>Onbeperkte tokens </p> </td> 
   </tr> 

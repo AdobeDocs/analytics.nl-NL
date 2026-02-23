@@ -25,7 +25,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Treemap in_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [&#x200B; Treemap &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap) voor_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Treemap in_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_zie [&#x200B; Treemap &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/treemap) voor_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Met een treemap kunt u patronen zien die moeilijk op andere manieren te vinden z
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; visualisatie van de Treemap &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; visualisatie van de Treemap &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

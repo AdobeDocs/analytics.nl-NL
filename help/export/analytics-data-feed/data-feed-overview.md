@@ -36,7 +36,7 @@ Met de volgende bronnen krijgt u inzicht in de basisworkflow voor het verkrijgen
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de interface van de gegevensvoer &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} voor een demo video navigeren.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de interface van de gegevensvoer &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} voor een demo video navigeren.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; uw gegevens voer identiteitskaart &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} voor een demo video vinden.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; uw gegevens voer identiteitskaart &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} voor een demo video vinden.
 
 >[!ENDSHADEBOX]

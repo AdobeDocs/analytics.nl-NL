@@ -30,7 +30,7 @@ U kunt de segmenten Analytics binnen 8 uur publiceren naar Experience Cloud. Geb
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; segmenten &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} voor een demo video publiceren.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; segmenten &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} voor een demo video publiceren.
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 * Zorg ervoor dat de rapportreeks die u dit segment aan opslaat [&#x200B; voor Experience Cloud &#x200B;](/help/components/segmentation/segmentation-workflow/seg-publish.md) wordt toegelaten. Anders kunt u het bestand niet publiceren naar Experience Cloud.
 * Zorg ervoor dat uw organisatie Experience Cloud-id&#39;s gebruikt.
-* Alvorens u segmenten kunt publiceren, moet uw Admin de [!UICONTROL Segment Publishing] toestemming aan een productprofiel in [&#x200B; Admin Console &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-tool-experience-cloud) toewijzen, en u toevoegen aan het productprofiel.
+* Alvorens u segmenten kunt publiceren, moet uw Admin de [!UICONTROL Segment Publishing] toestemming aan een productprofiel in [&#x200B; Admin Console &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-tool-experience-cloud) toewijzen, en u toevoegen aan het productprofiel.
 
 ## Overwegingen
 
@@ -127,14 +127,14 @@ In de volgende schermafbeeldingen ziet u hoe u de Adobe Audience Manager UUID in
 
 1. Chrome Developer Tools starten voordat een pagina wordt geladen
 1. Laad de pagina en controleer Toepassingen > Cookies. De Adobe Audience Manager UUID moet in de derde worden ingesteld
-Het koekje van de index ([&#x200B; adobe.demdex.net &#x200B;](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) in het hieronder voorbeeld). De velddemdex is de Adobe Audience Manager UUID-set
+Het koekje van de index ([&#x200B; adobe.demdex.net &#x200B;](https://experienceleague.adobe.com/nl/docs/audience-manager/user-guide/reference/demdex-calls) in het hieronder voorbeeld). De velddemdex is de Adobe Audience Manager UUID-set
 in de browser (`35721780439475290181087231320657663953` in het onderstaande voorbeeld).
 
    ![&#x200B; de Hulpmiddelen van de Ontwikkelaar van Chrome &#x200B;](assets/devtools.png)
 
 ## Audience Manager gebruiken [!UICONTROL Visitor Profile Viewer]
 
-De Adobe Audience Manager-UUID in de browser wordt standaard gebruikt wanneer [!UICONTROL Visitor Profile Viewer] wordt geladen. Als u de karakteristieken voor andere gebruikers verifieert, voert u een UUID in het veld UUID in en klikt u op [!UICONTROL Refresh] . Verwijs naar [&#x200B; de Kijker van het Profiel van de Bezoeker &#x200B;](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) voor meer informatie.
+De Adobe Audience Manager-UUID in de browser wordt standaard gebruikt wanneer [!UICONTROL Visitor Profile Viewer] wordt geladen. Als u de karakteristieken voor andere gebruikers verifieert, voert u een UUID in het veld UUID in en klikt u op [!UICONTROL Refresh] . Verwijs naar [&#x200B; de Kijker van het Profiel van de Bezoeker &#x200B;](https://experienceleague.adobe.com/nl/docs/audience-manager/user-guide/features/visitor-profile-viewer) voor meer informatie.
 
 ## De segmentkenmerken weergeven in [!DNL Audience Manager]
 

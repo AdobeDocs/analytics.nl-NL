@@ -15,7 +15,7 @@ ht-degree: 0%
 De workflow voor het configureren van Advertising Analytics bestaat uit de volgende stappen:
 
 <!--
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
+>[!VIDEO](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
 1. [&#x200B; laat Advertising Analytics rapportering per rapportreeks &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) toe. Hiermee schakelt u [!UICONTROL Advertising Analytics] -rapportering in voor Experience-Cloud-rapportensuites.

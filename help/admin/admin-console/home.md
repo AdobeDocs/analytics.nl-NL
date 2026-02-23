@@ -27,4 +27,4 @@ In dit hoofdstuk worden de concepten uitgelegd die u moet begrijpen voor product
 
 Bekijk de volgende videodemonstratie om te leren hoe u een beheerder in Adobe Analytics kunt toevoegen:
 
-[&#x200B; voeg een beheerder in Adobe Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank} toe
+[&#x200B; voeg een beheerder in Adobe Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank} toe

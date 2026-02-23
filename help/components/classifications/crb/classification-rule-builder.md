@@ -18,7 +18,7 @@ In plaats van elke keer dat uw volgcodes veranderen classificaties te onderhoude
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de regelbouwer van de Classificatie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/classifications/using-the-classification-rule-builder){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de regelbouwer van de Classificatie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/classifications/using-the-classification-rule-builder){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -56,5 +56,5 @@ Hier volgen de stappen op hoog niveau die u onderneemt om classificatieregels to
 
 **Blog**: Voor extra informatie over deze eigenschap, zie het Digitale Marketing Blog: [&#x200B; Op regel-gebaseerde Classificaties &#x200B;](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Bekijk de [&#x200B; video van het Overzicht van Classificaties &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
+**Video**: Bekijk de [&#x200B; video van het Overzicht van Classificaties &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html?lang=nl-NL).
 

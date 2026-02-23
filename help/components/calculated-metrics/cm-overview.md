@@ -20,7 +20,7 @@ Berekende metrisch zijn aangepaste metriek die u op basis van bestaande metriek 
 De berekende metriek zijn beschikbaar in elk [!DNL Analytics] pakket, nochtans is het Pak van Adobe Analytics Foundation voor Experience Cloud beperkt tot basis berekende metriek met inbegrip van [&#x200B; formaattypes (decimaal, tijd, percenten, munt) &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [&#x200B; toewijzingsveranderingen (gebrek, lineair, participatie, enz.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [&#x200B; metrische types (standaard, totaal) &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), en [&#x200B; basisexploitanten &#x200B;](workflow/c-build-metrics/cm-build-metrics.md#operators) (voeg toe, trek af, vermenigvuldig, en verdeel).
 
 
-Zie de [&#x200B; Beschrijving van het Product van Adobe Analytics &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics.html) voor meer informatie.
+Zie de [&#x200B; Beschrijving van het Product van Adobe Analytics &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics.html) voor meer informatie.
 
 <!--
 Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
@@ -59,13 +59,13 @@ Sommige functies van [!DNL Analytics] staan het gebruik van berekende meetwaarde
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Berekende metriek &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Berekende metriek &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gesegmenteerde berekende metriek in segmenten &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gesegmenteerde berekende metriek in segmenten &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

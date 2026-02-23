@@ -19,7 +19,7 @@ Bovendien kunt u opeenvolgende segmenten beperken tot een specifieke tijdsduur, 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Opeenvolgende segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Opeenvolgende segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -302,4 +302,4 @@ Als laatste voorbeeld wilt u bezoekers identificeren die hebben geleerd over een
 
 >[!MORELIKETHIS]
 >
-> * [&#x200B; het Beheersen van Opeenvolgende Logica in AA &amp; CJA: Inleiding aan DEN &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [&#x200B; het Beheersen van Opeenvolgende Logica in AA &amp; CJA: Inleiding aan DEN &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=nl)

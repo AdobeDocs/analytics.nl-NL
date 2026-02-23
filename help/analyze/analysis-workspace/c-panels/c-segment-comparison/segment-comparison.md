@@ -42,7 +42,7 @@ In het vergelijkingspaneel Segment worden de statistisch meest significante vers
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; vergelijking van het Segment &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; vergelijking van het Segment &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

@@ -23,7 +23,7 @@ Beide verkeersgegevens worden opgeslagen in een aparte gegevensopslagruimte die 
 
 >[!NOTE]
 >
->Adobe Experience Platform Edge Network verleent de dienst van de a [&#x200B; botopsporing &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) die de etiketten raken die als zijn van bots worden geïdentificeerd. Het botdetectieproces dat in Adobe Analytics wordt gebruikt, is apart en verwijst niet naar de beide scores die zijn opgenomen bij gegevens die via de Edge Network aankomen. De twee systemen gebruiken echter dezelfde IAB-botlijst.
+>Adobe Experience Platform Edge Network verleent de dienst van de a [&#x200B; botopsporing &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=nl-NL) die de etiketten raken die als zijn van bots worden geïdentificeerd. Het botdetectieproces dat in Adobe Analytics wordt gebruikt, is apart en verwijst niet naar de beide scores die zijn opgenomen bij gegevens die via de Edge Network aankomen. De twee systemen gebruiken echter dezelfde IAB-botlijst.
 
 ## Beide regels bijwerken of uploaden
 
@@ -34,7 +34,7 @@ Beide verkeersgegevens worden opgeslagen in een aparte gegevensopslagruimte die 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; beide regels &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} voor een demo video vormen.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; beide regels &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} voor een demo video vormen.
 
 >[!ENDSHADEBOX]
 

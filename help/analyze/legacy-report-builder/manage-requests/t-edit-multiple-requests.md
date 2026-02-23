@@ -49,4 +49,4 @@ U kunt verscheidene verzoeken tezelfdertijd veranderen, die op de het rapportree
 
 Hier volgt een video waarin het proces wordt getoond:
 
-https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
+https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

@@ -46,7 +46,7 @@ Definieer deze instellingen op het tabblad [!UICONTROL Visit Definition] en klik
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; een bezoekdefinitie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} voor een demo video aanpassen.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; een bezoekdefinitie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} voor een demo video aanpassen.
 
 >[!ENDSHADEBOX]
 

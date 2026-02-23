@@ -81,6 +81,6 @@ U kunt op een duidelijke telling van punten binnen een afmeting segmenteren. Voo
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Afmetingen van de Afmeting &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Afmetingen van de Afmeting &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]

@@ -45,13 +45,13 @@ Zie [&#x200B; Optimizing Prestaties &#x200B;](/help/analyze/analysis-workspace/w
 
 +++Hoe worden gegevens opgenomen in uw Analysis Workspace-project?
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gegevens in Analysis Workspace &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gegevens in Analysis Workspace &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} voor een demo video.
 
 +++
 
 +++Hoe kan ik het gebruik van Workspace bijhouden?
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Logboek dat &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} voor een demo video volgt.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Logboek dat &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} voor een demo video volgt.
 
 +++
 
@@ -68,7 +68,7 @@ Als u een werkruimterapport hebt gemaakt maar er geen gegevens zijn, kunt u een 
 * Controleer de rapportreeks tweemaal en zorg ervoor het met gegevens wordt bevolkt.
 * Als u een segment in uw rapport toepaste, zouden de segmentcriteria geen gegevens kunnen aanpassen. Verwijder het segment of pas de segmentdefinitie aan.
 * Controleer de datumwaaier in de hogere juiste hoek en zorg ervoor het aan een waarde wordt geplaatst die u zou verwachten.
-* Navigeer aan uw website en gebruik [&#x200B; Debugger &#x200B;](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) om te bevestigen dat het gegeven wordt verzameld.
+* Navigeer aan uw website en gebruik [&#x200B; Debugger &#x200B;](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) om te bevestigen dat het gegeven wordt verzameld.
 
 
 +++

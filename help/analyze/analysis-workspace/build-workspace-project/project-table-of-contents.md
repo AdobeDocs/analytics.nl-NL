@@ -18,7 +18,7 @@ U kunt een inhoudstafel voor een project in Analysis Workspace bekijken, die u t
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; een inhoudstafel &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"} voor een demo video creëren.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; een inhoudstafel &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"} voor een demo video creëren.
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ De inhoudsopgave van een project weergeven:
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; vereenvoudigt de Navigatie Dashboard met de Nieuwe Eigenschap van de Inhoudsopgave in Adobe Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
+>* [&#x200B; vereenvoudigt de Navigatie Dashboard met de Nieuwe Eigenschap van de Inhoudsopgave in Adobe Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=nl)
 
 
 
@@ -57,7 +57,7 @@ You can view a table of contents within each project in Analysis Workspace, allo
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

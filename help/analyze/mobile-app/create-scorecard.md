@@ -25,7 +25,7 @@ De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Mobiele scorecard bouwer &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Mobiele scorecard bouwer &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -87,7 +87,7 @@ U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL Marketing Channel]** in 
 
 Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer.
 
-Als u het segment op alle tegels in scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [&#x200B; vormt en past filters voor uw scorecards &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe de zelfde manier u in Adobe Analytics Workspace zou.
+Als u het segment op alle tegels in scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [&#x200B; vormt en past filters voor uw scorecards &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) toe de zelfde manier u in Adobe Analytics Workspace zou.
 
 ![&#x200B; bouwt segmenten voor filter &#x200B;](assets/segment_ui.png)
 
@@ -130,7 +130,7 @@ Het plaatsen is *op* door gebrek. Schakel deze optie uit als u geen vergelijking
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Visualizations &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Visualizations &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u dee
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de detailmeningen van de Douane &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de detailmeningen van de Douane &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Bijvoorbeeld, als u zich op Webverkeer concentreert, kan uw belangrijkste metris
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; gegevensverhalen &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"} voor een demo video creëren.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; gegevensverhalen &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"} voor een demo video creëren.
 
 >[!ENDSHADEBOX]
 

@@ -20,7 +20,7 @@ Met de Audience Analytics-integratie kunt u gegevens over het Adobe Audience Man
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Audience Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Audience Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -55,6 +55,6 @@ Zorg ervoor dat aan de volgende voorwaarden is voldaan:
 * U bent een Audience Manager-beheerder.
 * U gebruikt identiteitsservice v1.5 of hoger.
 * Adobe Audience Manager en Adobe Analytics rapporteren suites worden toegewezen aan dezelfde Experience Cloud-organisatie.
-* U gebruikt [&#x200B; server-kant het door:sturen &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) en hebt de [&#x200B; module van het Beheer van de Publiek &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (geen code van DIL) - AppMeasurement 1.5 of later uitgevoerd.
+* U gebruikt [&#x200B; server-kant het door:sturen &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) en hebt de [&#x200B; module van het Beheer van de Publiek &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=nl-NL) (geen code van DIL) - AppMeasurement 1.5 of later uitgevoerd.
 
 Deze eerste vereisten worden beschreven in het [&#x200B; Werkschema van Audience Analytics &#x200B;](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

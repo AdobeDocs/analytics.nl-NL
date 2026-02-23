@@ -19,7 +19,7 @@ U kunt een bezoek op elke gewenste manier definiëren zonder de onderliggende ge
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; context-bewuste zittingen &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; context-bewuste zittingen &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

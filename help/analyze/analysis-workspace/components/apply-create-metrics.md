@@ -41,7 +41,7 @@ Metriek kan op verschillende manieren in Analysis Workspace worden gebruikt. Voo
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; metriek van het Gebruik &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; metriek van het Gebruik &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentageverandering tussen de twee geselecteerde kolommen toont.
 
-[&#x200B; Berekende Metriek: Implementatie-minder metriek &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3 :42)
+[&#x200B; Berekende Metriek: Implementatie-minder metriek &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3 :42)
 
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen
@@ -119,7 +119,7 @@ Hier volgt een video over het onderwerp:
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Cumulatief gemiddelde &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Cumulatief gemiddelde &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

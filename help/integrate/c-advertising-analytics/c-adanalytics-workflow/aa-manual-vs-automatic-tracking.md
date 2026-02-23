@@ -18,7 +18,7 @@ Het type bijhouden bepaalt hoe de Adobe Analytics-implementatie de gegevens van 
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -37,7 +37,7 @@ Als u een zoekprogrammaaccount met **[!UICONTROL Auto]** type wilt configureren,
 
 >[!IMPORTANT]
 >
->Leer meer op of u de `s_kwcid` parameter aan uw [&#x200B; Beleid van de Veiligheid van de Inhoud &#x200B;](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp) zou moeten toevoegen.
+>Leer meer op of u de `s_kwcid` parameter aan uw [&#x200B; Beleid van de Veiligheid van de Inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/id-service/using/reference/csp) zou moeten toevoegen.
 
 ## Handmatig bijhouden {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
