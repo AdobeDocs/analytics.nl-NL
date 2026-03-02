@@ -72,13 +72,13 @@ De Report Builder Add-in downloaden en installeren
 
 - Vraag uw IT- of beveiligingsteam om goedkeuring voor de Report Builder Add-in. Nadat goedkeuring is verleend, selecteert u in het dialoogvenster Office Add-ins de tab **[!UICONTROL Admin Managed]** .
 
-  ![ Admin Beheerde lusje in de dialoog van toe:voegen-ins van het Bureau.](./assets/image1.png)
+  ![&#x200B; Admin Beheerde lusje in de dialoog van toe:voegen-ins van het Bureau.](./assets/image1.png)
 
-- Alternatief, kunt u het [ duidelijke dossier ](https://reportbuilder.an.adobe.com/manifest.xml) manueel terugwinnen en het dossier op uw eigen infrastructuur van IT ontvangen. <br/> te volgen gelieve de 1} online documentatie van Microsoft Office [ voor instructies op hoe te om een Manifest dossier van Excel te installeren niet van de Opslag van Microsoft wordt gediend.](https://learn.microsoft.com/en-us/office/dev/add-ins/publish/publish)
+- Alternatief, kunt u het [&#x200B; duidelijke dossier &#x200B;](https://reportbuilder.an.adobe.com/manifest.xml) manueel terugwinnen en het dossier op uw eigen infrastructuur van IT ontvangen. <br/> te volgen gelieve de 1&rbrace; online documentatie van Microsoft Office [&#x200B; voor instructies op hoe te om een Manifest dossier van Excel te installeren niet van de Opslag van Microsoft wordt gediend.](https://learn.microsoft.com/en-us/office/dev/add-ins/publish/publish)
 
 Nadat u de Report Builder Add-in hebt geïnstalleerd, wordt het Report Builder-pictogram weergegeven in het [!DNL Excel] -lint onder het tabblad Start.
 
-![ het pictogram van Report Builder in Excel ](/help/analyze/report-builder/assets/rb_app_icon.png)
+![&#x200B; het pictogram van Report Builder in Excel &#x200B;](/help/analyze/report-builder/assets/rb_app_icon.png)
 
 ## Aanmelden bij Report Builder
 
@@ -90,11 +90,11 @@ Nadat u de Report Builder for Excel Add-in voor uw werkend platform of browser h
 
 1. Klik op de werkbalk Adobe Report Builder op **[!UICONTROL Login]** .
 
-   ![ klik de login van Report Builder knoop.](/help/analyze/report-builder/assets/rb_login.png)
+   ![&#x200B; klik de login van Report Builder knoop.](/help/analyze/report-builder/assets/rb_login.png)
 
 1. Voer je Adobe Experience ID-accountgegevens in. Je accountgegevens moeten overeenkomen met je Adobe Analytics-gegevens.
 
-   ![ Uw login pictogram en organisatie.](/help/analyze/report-builder/assets/image4.png)
+   ![&#x200B; Uw login pictogram en organisatie.](/help/analyze/report-builder/assets/image4.png)
 
 Nadat u zich hebt aangemeld, worden het aanmeldingspictogram en de organisatie boven in het deelvenster weergegeven
 
@@ -106,7 +106,7 @@ Wanneer u zich voor het eerst aanmeldt, wordt u aangemeld bij de standaardorgani
 
 1. Selecteer een organisatie in de lijst met beschikbare organisaties. Alleen organisaties waartoe u toegang hebt, worden vermeld.
 
-   ![ de lijst van organisaties die u kunt toegang hebben.](/help/analyze/report-builder/assets/image5.png)
+   ![&#x200B; de lijst van organisaties die u kunt toegang hebben.](/help/analyze/report-builder/assets/image5.png)
 
 ## Afmelden
 
@@ -116,6 +116,6 @@ U kunt zich vanuit Report Builder afmelden vanuit het gebruikersprofiel.
 
 1. Klik op het pictogram van de avatar om het gebruikersprofiel weer te geven.
 
-   ![ Uw avatar van het gebruikersprofiel en de knoop van het Teken uit.](/help/analyze/report-builder/assets/image6.png)
+   ![&#x200B; Uw avatar van het gebruikersprofiel en de knoop van het Teken uit.](/help/analyze/report-builder/assets/image6.png)
 
 1. Klik **Teken uit**.

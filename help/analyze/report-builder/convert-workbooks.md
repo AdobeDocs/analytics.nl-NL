@@ -24,48 +24,48 @@ De nalatenschap Report Builder is in juni 2026 aan het einde van de levensduur. 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ werkboeken ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/upgrade-and-reschedule-workbooks){target="_blank"} voor een demo video omzetten.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; werkboeken &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/upgrade-and-reschedule-workbooks){target="_blank"} voor een demo video omzetten.
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Om erfeniswerkboeken om te zetten, moet u eerste [ opstelling nieuwe Report Builder ](/help/analyze/report-builder/report-builder-setup.md) hebben.
+>Om erfeniswerkboeken om te zetten, moet u eerste [&#x200B; opstelling nieuwe Report Builder &#x200B;](/help/analyze/report-builder/report-builder-setup.md) hebben.
 
 
 ## Een verouderde werkmap openen
 
 Om een erfeniswerkboek te openen, kunt u:
 
-* Open een gepland erfeniswerkboek van het **[!UICONTROL Schedule]** lusje in de [ hub van Report Builder ](report-builder-hub.md). Deze actie is de aangewezen methode voor geplande erfeniswerkboeken. U krijgt de optie om het programma te gebruiken dat met het erfeniswerkboek wordt geassocieerd zodra u [ het omgezette erfeniswerkboek ](#schedule-a-converted-legacy-workbook) plant.
+* Open een gepland erfeniswerkboek van het **[!UICONTROL Schedule]** lusje in de [&#x200B; hub van Report Builder &#x200B;](report-builder-hub.md). Deze actie is de aangewezen methode voor geplande erfeniswerkboeken. U krijgt de optie om het programma te gebruiken dat met het erfeniswerkboek wordt geassocieerd zodra u [&#x200B; het omgezette erfeniswerkboek &#x200B;](#schedule-a-converted-legacy-workbook) plant.
 
-   1. Open [!DNL Excel] en selecteer ![ AdobeLogoRedonWhite ](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** van de [!DNL Excel] lintbar.
+   1. Open [!DNL Excel] en selecteer ![&#x200B; AdobeLogoRedonWhite &#x200B;](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** van de [!DNL Excel] lintbar.
 
    1. Selecteer **[!UICONTROL Login]** en meld u aan bij Report Builder.
 
-   1. Selecteer **[!UICONTROL Schedule]** in de [ hub van Report Builder ](report-builder-hub.md).
+   1. Selecteer **[!UICONTROL Schedule]** in de [&#x200B; hub van Report Builder &#x200B;](report-builder-hub.md).
    1. Selecteer de tab **[!UICONTROL Legacy]** . Het tabblad bevat de oudere, op Report Builder gebaseerde, geplande werkboeken die u hebt gemaakt.
 
-      ![ Verouderde werkbalken ](assets/upgrade-legacy-schedule.png)
+      ![&#x200B; Verouderde werkbalken &#x200B;](assets/upgrade-legacy-schedule.png)
 
-   1. Selecteer ![ SelectBox ](/help/assets/icons/SelectBox.svg) het geplande werkboek dat u van de lijst wilt omzetten, en ![ Download ](/help/assets/icons/Download.svg) selecteren. Het werkboek wordt gedownload en in een nieuw venster in [!DNL Excel] geopend. U kunt [ het werkboek van erfenisReport Builder ](#convert-a--workbook) nu omzetten.
+   1. Selecteer ![&#x200B; SelectBox &#x200B;](/help/assets/icons/SelectBox.svg) het geplande werkboek dat u van de lijst wilt omzetten, en ![&#x200B; Download &#x200B;](/help/assets/icons/Download.svg) selecteren. Het werkboek wordt gedownload en in een nieuw venster in [!DNL Excel] geopend. U kunt [&#x200B; het werkboek van erfenisReport Builder &#x200B;](#convert-a--workbook) nu omzetten.
 
 
 * Open direct een erfeniswerkboek van uw lokale computer of netwerk. Wanneer u deze methode gebruikt, wordt u niet aangeboden om het programma te gebruiken dat met het erfeniswerkboek zou kunnen worden geassocieerd. <br/> wanneer het erfeniswerkboek in [!DNL Excel] open is:
 
-   1. Selecteer ![ AdobeLogoRedOnWhite ](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** van de [!DNL Excel] lintbar.
+   1. Selecteer ![&#x200B; AdobeLogoRedOnWhite &#x200B;](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** van de [!DNL Excel] lintbar.
    1. Selecteer **[!UICONTROL Login]** en meld u aan bij Report Builder.
-   1. Dan [ zet het erfeniswerkboek ](#convert-a-workbook) om.
+   1. Dan [&#x200B; zet het erfeniswerkboek &#x200B;](#convert-a-workbook) om.
 
 
 ## Een verouderde werkmap omzetten
 
 Om uw erfeniswerkboek om te zetten:
 
-1. Zodra u een erfeniswerkboek opent, ontdekt nieuwe Report Builder als dit werkboek [ verzoeken van de erfenisReport Builder ](/help/analyze/legacy-report-builder/home.md) bevat.
+1. Zodra u een erfeniswerkboek opent, ontdekt nieuwe Report Builder als dit werkboek [&#x200B; verzoeken van de erfenisReport Builder &#x200B;](/help/analyze/legacy-report-builder/home.md) bevat.
 
-   ![ Schermafbeelding van het [!DNL Excel] Report Builder verbeteringsrapport dat migratieverbetering ](assets/upgrade-workbook.png){zoomable="yes"} toont
+   ![&#x200B; Schermafbeelding van het [!DNL Excel] Report Builder verbeteringsrapport dat migratieverbetering &#x200B;](assets/upgrade-workbook.png){zoomable="yes"} toont
 
 1. Als een of meer verouderde aanvragen zijn gevonden, klikt u op **[!UICONTROL Upgrade]** in het dialoogvenster **[!UICONTROL Upgrade workbook]** om het werkboek bij te werken.
 
@@ -76,21 +76,21 @@ Om uw erfeniswerkboek om te zetten:
 
 1. Er verschijnt een dialoogvenster **[!UICONTROL Warning]** dat u waarschuwt voor wijzigingen in het werkboek als u een upgrade uitvoert. Het dringt u ook aan om een steun van uw erfeniswerkboek tot stand te brengen alvorens te werk te gaan.
 
-   ![ Schermafbeelding van het [!DNL Excel] Report Builder verbeteringsrapport dat migratiewaarschuwing ](assets/upgrade-warning.png){zoomable="yes"} toont
+   ![&#x200B; Schermafbeelding van het [!DNL Excel] Report Builder verbeteringsrapport dat migratiewaarschuwing &#x200B;](assets/upgrade-warning.png){zoomable="yes"} toont
 
 1. Klik op **[!UICONTROL Proceed]** om door te gaan met de upgrade.
 
    Als de upgrade is gelukt, verschijnt er een **[!UICONTROL The workbook upgrade is now completed]** -melding.
 
-   ![ Schermafbeelding van het [!DNL Excel] Report Builder verbeteringsrapport dat voltooide migratie toont ](assets/upgrade-complete.png)
+   ![&#x200B; Schermafbeelding van het [!DNL Excel] Report Builder verbeteringsrapport dat voltooide migratie toont &#x200B;](assets/upgrade-complete.png)
 
    * Selecteer **[!UICONTROL Close]** om het bericht te sluiten en in het werkboek met bijgewerkte verzoeken voor nieuwe Report Builder te blijven werken.
 
    * Selecteer **[!UICONTROL Download upgrade report]** om een nieuw [!DNL Excel] werkboek te downloaden en te openen dat het resultaat van de verbetering toont. Zie hieronder voor een voorbeeld.
 
-     ![ Schermafbeelding van het [!DNL Excel] Report Builder verbeteringsrapport dat migratierapport toont ](assets/upgrade-report.png)
+     ![&#x200B; Schermafbeelding van het [!DNL Excel] Report Builder verbeteringsrapport dat migratierapport toont &#x200B;](assets/upgrade-report.png)
 
-U kunt nu [ de gegevensblokken ](/help/analyze/report-builder/manage-reportbuilder.md) in het werkboek beheren. Deze gegevensblokken zijn het resultaat van de upgrade en vervangen uw oudere Report Builder-aanvragen.
+U kunt nu [&#x200B; de gegevensblokken &#x200B;](/help/analyze/report-builder/manage-reportbuilder.md) in het werkboek beheren. Deze gegevensblokken zijn het resultaat van de upgrade en vervangen uw oudere Report Builder-aanvragen.
 
 
 ## Een omgezet werkboek plannen
@@ -104,9 +104,9 @@ U hebt de optie om de planningsdetails van het erfeniswerkboek te gebruiken dat 
 
 1. U wordt aangeboden om de planningsdetails van het erfeniswerkboek als standaardplanningsmontages te gebruiken.
 
-   ![ Schermafbeelding van de [!DNL Excel] opties van de de erfenisplanningsmontages van Report Builder ](assets/upgrade-legacy-schedule-convert.png)
+   ![&#x200B; Schermafbeelding van de [!DNL Excel] opties van de de erfenisplanningsmontages van Report Builder &#x200B;](assets/upgrade-legacy-schedule-convert.png)
 
-   * Selecteer **[!UICONTROL Use]** om de gegevens van het oudere programma te gebruiken. De planningsdetails zijn vooraf bevolkt in [ verzend werkboek ](schedule-reportbuilder.md#schedule-a-workbook) interface.
+   * Selecteer **[!UICONTROL Use]** om de gegevens van het oudere programma te gebruiken. De planningsdetails zijn vooraf bevolkt in [&#x200B; verzend werkboek &#x200B;](schedule-reportbuilder.md#schedule-a-workbook) interface.
    * Selecteer **[!UICONTROL Don't use]** om de gegevens van het verouderde schema niet te gebruiken.
    * Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
@@ -139,10 +139,10 @@ Sommige functies van de oudere Report Builder worden niet ondersteund, gedeeltel
       1. Selecteer **[!UICONTROL OK]**.
    1. Vanuit het bronwerkblad:
       1. Selecteer het celbereik dat alle gegevensblokken omvat.
-      1. Selecteer ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy data block]** van de [ hub van Report Builder ](/help/analyze/report-builder/report-builder-hub.md).
+      1. Selecteer ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) **[!UICONTROL Copy data block]** van de [&#x200B; hub van Report Builder &#x200B;](/help/analyze/report-builder/report-builder-hub.md).
    1. In het doelwerkblad:
       1. Selecteer de cel waarin u het gekopieerde celbereik wilt plakken.
-      1. Selecteer ![ Deeg ](/help/assets/icons/Paste.svg) **[!UICONTROL Paste data block]** van de [ hub van Report Builder ](/help/analyze/report-builder/report-builder-hub.md).
+      1. Selecteer ![&#x200B; Deeg &#x200B;](/help/assets/icons/Paste.svg) **[!UICONTROL Paste data block]** van de [&#x200B; hub van Report Builder &#x200B;](/help/analyze/report-builder/report-builder-hub.md).
 
 * **waaier van de Datum**. Report Builder migreert niet de opmaakopties voor het datumbereik **[!UICONTROL Show start and end period as]** die zijn toegepast op een rijlabel voor een datumbereik in de verouderde Report Builder.
 
