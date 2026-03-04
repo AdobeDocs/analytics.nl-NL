@@ -17,7 +17,7 @@ Met de gegevensvoedermanager kunt u gegevensfeeds voor uw organisatie maken, bew
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; het voederbeheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; het voederbeheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
