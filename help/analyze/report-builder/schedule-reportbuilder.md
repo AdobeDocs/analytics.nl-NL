@@ -28,7 +28,7 @@ De eigenschap van het Programma staat u ook aan de bescherming van het opstellin
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ werkboeken van het Plan ](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} voor een demovideo.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; werkboeken van het Plan &#x200B;](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} voor een demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -39,11 +39,11 @@ Een werkboek plannen:
 
 1. Select **[!UICONTROL Schedule]** in the Report Builder hub to create a schedule so that you can automatically distribute a workbook Excel file (.xlsx) to an individual or a group.
 
-   ![ selecteer de knoop van het Programma om een programma tot stand te brengen.](./assets/schedule.png){zoomable="yes"}
+   ![&#x200B; selecteer de knoop van het Programma om een programma tot stand te brengen.](./assets/schedule.png){zoomable="yes"}
 
-1. Selecteer **[!UICONTROL Schedule Workbook]** of ![ voeg ](/help/assets/icons/Add.svg) toe om een nieuw gepland werkboek tot stand te brengen.
+1. Selecteer **[!UICONTROL Schedule Workbook]** of ![&#x200B; voeg &#x200B;](/help/assets/icons/Add.svg) toe om een nieuw gepland werkboek tot stand te brengen.
 
-   ![ het venster van de werkboeken van het Programma.](./assets/schedule-workbook.png){zoomable="yes"}
+   ![&#x200B; het venster van de werkboeken van het Programma.](./assets/schedule-workbook.png){zoomable="yes"}
 
    De het plannen ruit toont sommige vooraf bepaalde informatie over het werkboek zoals de werkboeknaam en de laatste datum dat het werkboek werd gewijzigd.
 
@@ -51,9 +51,9 @@ Een werkboek plannen:
 
 In de sectie **[!UICONTROL File]** geeft u details over het bestandstype, de naam en een wachtwoord op om het bestand te beveiligen.
 
-![ het plannen ruit.](./assets/schedule-pane.png){zoomable="yes"}
+![&#x200B; het plannen ruit.](./assets/schedule-pane.png){zoomable="yes"}
 
-1. Gebruik ![ TableSelect ](/help/assets/icons/TableSelect.svg) om het huidige werkboek te selecteren, als niet reeds geselecteerd.
+1. Gebruik ![&#x200B; TableSelect &#x200B;](/help/assets/icons/TableSelect.svg) om het huidige werkboek te selecteren, als niet reeds geselecteerd.
 
 1. (Optioneel) Voer een **[!UICONTROL File name]** in.
 
@@ -83,14 +83,14 @@ Does no longer seem to be an option?
     ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){zoomable="yes"}{width="55%"}
 -->
 
-1. Voer een wachtwoord in in **[!UICONTROL Password protect the workbook]** . Een geldig wachtwoord moet ten minste 8 tekens hebben, een getal en een speciaal teken. Selecteer ![ VisibilityOff ](/help/assets/icons/VisibilityOff.svg) om het wachtwoord en ![ Zichtbaarheid ](/help/assets/icons/Visibility.svg) te tonen om het wachtwoord (gebrek) te verbergen.
+1. Voer een wachtwoord in in **[!UICONTROL Password protect the workbook]** . Een geldig wachtwoord moet ten minste 8 tekens hebben, een getal en een speciaal teken. Selecteer ![&#x200B; VisibilityOff &#x200B;](/help/assets/icons/VisibilityOff.svg) om het wachtwoord en ![&#x200B; Zichtbaarheid &#x200B;](/help/assets/icons/Visibility.svg) te tonen om het wachtwoord (gebrek) te verbergen.
 
 
 ### E-mail
 
 In de sectie **[!UICONTROL Email]** geeft u de ontvangers, het onderwerp en de beschrijving van de e-mail op.
 
-![ e-mailmontages van het Programma ](assets/schedule-email.png){zoomable="yes"}
+![&#x200B; e-mailmontages van het Programma &#x200B;](assets/schedule-email.png){zoomable="yes"}
 
 1. Ga **Ontvangers** in. U kunt de naam invoeren van een persoon die in uw organisatie wordt herkend. U kunt ook een e-mailadres invoeren van een persoon die buiten uw organisatie valt.
 
@@ -103,13 +103,13 @@ In de sectie **[!UICONTROL Email]** geeft u de ontvangers, het onderwerp en de b
 
 In de **[!UICONTROL Schedule]** sectie, kunt u het programma bepalen om de e-mails met het werkboek naar uw ontvangers te verzenden.
 
-![ definitie van het Programma ](assets/schedule-enable.png){zoomable="yes"}
+![&#x200B; definitie van het Programma &#x200B;](assets/schedule-enable.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Show scheduling options]** om een schema te definiëren.
 
-1. Voer een begindatum in in **[!UICONTROL Starting on]** . Alternatief, selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) om een begindatum van de kalender te kiezen.
+1. Voer een begindatum in in **[!UICONTROL Starting on]** . Alternatief, selecteer ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) om een begindatum van de kalender te kiezen.
 
-1. Voer een einddatum in in **[!UICONTROL Ending on]** . Alternatief, selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) om een einddatum van de kalender te kiezen.
+1. Voer een einddatum in in **[!UICONTROL Ending on]** . Alternatief, selecteer ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) om een einddatum van de kalender te kiezen.
 
 1. Selecteer een **[!UICONTROL Frequency]** . Afhankelijk van de geselecteerde frequentie, hebt u extra opties. Zie onderstaande tabel.
 
@@ -136,5 +136,5 @@ Als u het verzenden van het werkboek wilt annuleren, selecteert u **[!UICONTROL 
 
 ## Oude, geplande werkboeken beheren
 
-Voor informatie over het beheren van erfeniswerkboeken die reeds gepland zijn, zie [ Bekeerling geplande werkboeken ](/help/analyze/report-builder/convert-workbooks.md#schedule-a-converted-legacy-workbook).
+Voor informatie over het beheren van erfeniswerkboeken die reeds gepland zijn, zie [&#x200B; Bekeerling geplande werkboeken &#x200B;](/help/analyze/report-builder/convert-workbooks.md#schedule-a-converted-legacy-workbook).
 
