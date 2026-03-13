@@ -4,9 +4,9 @@ description: Antwoorden op veelgestelde vragen over attributie.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -24,20 +24,20 @@ Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt di
 
 +++## Waarom zie ik soms data buiten mijn rapporteringsvenster wanneer het gebruiken van attributiemodellen?
 
-Sommige op bezoek-gebaseerde metriek, zoals [&#x200B; Ingangen &#x200B;](/help/components/metrics/entries.md) of [&#x200B; Stuitpercentage &#x200B;](/help/components/metrics/bounce-rate.md), kan gegevens aan een periode vóór de het melden van het venster datariereeks kenmerken. Deze situatie is toe te schrijven aan attributiemodellen die een terugkijkvenster gebruiken, dat bepaalt hoe ver achtereigenschap zou moeten kijken om krediet voor metriek te geven. Het gemeenschappelijkste scenario is wanneer de bezoeken middernacht overspannen. Bijvoorbeeld:
+Sommige op bezoek-gebaseerde metriek, zoals [ Ingangen ](/help/components/metrics/entries.md) of [ Stuitpercentage ](/help/components/metrics/bounce-rate.md), kan gegevens aan een periode vóór de het melden van het venster datariereeks kenmerken. Deze situatie is toe te schrijven aan attributiemodellen die een terugkijkvenster gebruiken, dat bepaalt hoe ver achtereigenschap zou moeten kijken om krediet voor metriek te geven. Het gemeenschappelijkste scenario is wanneer de bezoeken middernacht overspannen. Bijvoorbeeld:
 
-1. Een gebruiker bezoekt op 7 september om 23:55 uur uw homepage.
-1. Zij bezoeken verschillende pagina&#39;s, waarvan de laatste om 12.05 uur op 8 september plaatsvond.
-1. Een week later voert u een dagelijks trendrapport uit met het datumbereik van 8 september tot 14 september.
+1. Een gebruiker bezoekt uw homepage om 11 :55 PM op 7 September.
+1. Zij bezoeken verscheidene pagina&#39;s, waarvan het laatste om 12 :05 AM 8 plaatsvond.
+1. Een week later voert u een dagelijks trendsrapport uit met de datumnotatie 8-14 september.
 
-De op hoogte-gebaseerde metriek, als [&#x200B; meningen van de Pagina &#x200B;](/help/components/metrics/page-views.md), zou verwachte output produceren; gegevens die elke dag van 8 september - 14 september worden gekweekt. Uit de op een bezoek gebaseerde cijfers zou echter ook blijken dat dit bezoek op 7 september heeft plaatsgevonden. De toegeschreven ingang van het bezoek vond op 7 september plaats, en het terugkijkvenster is standaard 1 september - 31 september.
+De op hoogte-gebaseerde metriek, zoals [ meningen van de Pagina ](/help/components/metrics/page-views.md), zou verwachte output produceren; de gegevens trended elke dag van 8 September - 14 September. Op bezoek-gebaseerde metrics zouden echter ook het bovenstaande bezoek op 7 september laten zien. De toegeschreven ingang van het bezoek vond plaats op 7 september en het terugkijkvenster is standaard 1 september - 31 september.
 
-In dit voorbeeld wordt altijd 0% weergegeven bij een stuitpercentage van 7 september. Deze metrische waarde wordt gedefinieerd als `Bounces divided by Entries` , een op hit gebaseerde metrische waarde die wordt gedeeld door een op bezoek gebaseerde metrische waarde. Stuiterwaarden bestaan uit één verzoek om een afbeelding, zodat ze niet meerdere dagen kunnen beslaan. Eventuele stuitingen op 7 september vonden plaats buiten het rapportagevenster, waardoor de gegarandeerde stuitsnelheid van 0% voor die dag werd veroorzaakt. Andere op hit-based metriek zou ook 0 voor 7 September in dit rapport tonen, aangezien die klappen niet binnen het rapporteringsvenster zijn.
+In dit voorbeeld wordt altijd 0% weergegeven op 7 september. Deze metrische waarde wordt gedefinieerd als `Bounces divided by Entries` , een op hit gebaseerde metrische waarde die wordt gedeeld door een op bezoek gebaseerde metrische waarde. Stuiterwaarden bestaan uit één verzoek om een afbeelding, zodat ze niet meerdere dagen kunnen beslaan. Eventuele stuitingen op 7 september vonden plaats buiten het rapportagevenster, waardoor de gegarandeerde stuitsnelheid van 0% voor die dag werd veroorzaakt. Andere op hit-based metriek zou ook 0 voor 7 September in dit rapport tonen, aangezien die klappen niet binnen het rapporteringsvenster zijn.
 
 Kijk eens naar een ander vergelijkbaar voorbeeld. Het enige verschil tussen het volgende voorbeeld en het bovenstaande voorbeeld zijn de datums:
 
-1. Een gebruiker bezoekt op 31 augustus om 23:55 uur uw homepage.
-1. Zij bezoeken verschillende pagina&#39;s, waarvan de laatste om 12.05 uur plaatsvond.
+1. Een gebruiker bezoekt uw homepage bij 11 :55 PM op 31 Augustus.
+1. Zij bezoeken verscheidene pagina&#39;s, waarvan het laatste om 12 :05 AM 1 september voorkwam.
 1. Een week later voert u een dagelijks vervolg rapport uit met de datumbereik 1 september - 7 september.
 
 In dit voorbeeld worden gegevens van 31 augustus niet weergegeven met de tarieven Bounce en Bounce. Het terugzoekvenster en het rapportagevenster beginnen beide op 1 september, zodat gegevens niet vanaf 31 augustus kunnen worden toegewezen.
@@ -45,7 +45,8 @@ In dit voorbeeld worden gegevens van 31 augustus niet weergegeven met de tarieve
 +++
 
 
-<!-- not relevant anymore due to introduction of separation of container and lookback window 
+<!--
+not relevant anymore due to introduction of separation of container and lookback window 
 +++## When should I use a visit, visitor, or custom attribution lookback?
 
 The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
@@ -60,9 +61,9 @@ Attribution wordt opnieuw berekend tijdens de runtime van het rapport, zodat er 
 +++
 
 
-+++## Zijn attributiemodellen beschikbaar in andere analysemogelijkheden, zoals de Eigenschap van Gegevens of Data Warehouse?
++++## Zijn er toewijzingsmodellen beschikbaar in andere analysemogelijkheden, zoals gegevensfeeds of Data Warehouse?
 
-Nee. Attributiemodellen gebruiken verwerking van rapporttijd, die alleen beschikbaar is in Analysis Workspace. Zie [&#x200B; de tijdverwerking van het Rapport &#x200B;](/help/components/vrs/vrs-report-time-processing.md) voor meer informatie.
+Nee. Attributiemodellen gebruiken verwerking van rapporttijd, die alleen beschikbaar is in Analysis Workspace. Zie [ de tijdverwerking van het Rapport ](/help/components/vrs/vrs-report-time-processing.md) voor meer informatie.
 
 +++
 
@@ -78,7 +79,7 @@ Attributiemodellen zijn beschikbaar buiten virtuele rapportsuites. Terwijl zij d
 
 Het deelvenster Kenmerken ondersteunt alle afmetingen. Niet-ondersteunde meetgegevens zijn:
 
-* Alle berekende metriek
+* Alle berekende metrics
 * Unieke bezoekers
 * Bezoeken
 * Voorvallen
@@ -97,20 +98,20 @@ Het deelvenster Kenmerken ondersteunt alle afmetingen. Niet-ondersteunde meetgeg
 +++
 
 
-+++# Werkt de attributie met classificaties?
++++## Werkt de attributie met classificaties?
 
 Ja, classificaties worden volledig ondersteund.
 
 +++
 
 
-+++# Werkt de attributie met gegevensbronnen?
++++## Werkt de toewijzing met gegevensbronnen?
 
-Ja, de meeste gegevensbronnen worden ondersteund. Attributie is niet mogelijk met gegevensbronnen op overzichtsniveau omdat deze gegevensbronnen niet aan een bezoeker-id van de Analyse binden.
+Ja, de meeste gegevensbronnen worden ondersteund. Attributie is niet mogelijk met databronnen op overzichtsniveau omdat deze databronnen niet zijn gekoppeld aan een bezoeker-id van Analytics.
 
 Transactie-id-gegevensbronnen worden op dezelfde manier behandeld als elke andere hit. De gegevensbronnen van identiteitskaart van de transactie gebruiken niet de speciale verwerking die normaal in traditionele rapportering wordt gebruikt. Met andere woorden, wanneer bij het gebruik van de verwerking van de rapporttijd, worden eVar-waarden doorgegeven van resultaten die optreden bij het tijdstempel van de hit Transactie-id. De waarden worden niet verspreid uit resultaten die vlak bij het tijdstip van de oorspronkelijke transactie zijn opgetreden.
 
-Waar mogelijk, baseert de attributie zich op de MID kolomwaarde die binnen een gebeurtenis in de gegevensbron, eerder dan een persisted waarde wordt verzonden. Het attributiemodel wordt toegepast op de kolomwaarden MID in de gegevensbron, ter plekke. Bijvoorbeeld, wanneer u [&#x200B; Laatste attributie van de Aanraak &#x200B;](models.md) gebruikt begint het model van elke instantie van metrisch. En loopt achterwaarts in de klappen tot het model de laatste die waarde bereikt in de kolom MID wordt waargenomen.
+Waar mogelijk, baseert de attributie zich op de MID kolomwaarde die binnen een gebeurtenis in de gegevensbron, eerder dan een persisted waarde wordt verzonden. Het attributiemodel wordt toegepast op de kolomwaarden MID in de gegevensbron, ter plekke. Bijvoorbeeld, wanneer u [ Laatste attributie van de Aanraak ](models.md) gebruikt begint het model van elke instantie van metrisch. En loopt achterwaarts in de klappen tot het model de laatste die waarde bereikt in de kolom MID wordt waargenomen.
 
 Wanneer niet mogelijk, gebruikt de attributie de MID waarde in het *vroegere verslag* in de gegevensbron voor evaluatie. Deze eerdere record wordt mogelijk niet opeenvolgend met een tijdstempel geordend, aangezien AA geen ondersteuning biedt voor gegevens buiten de bestelling.
 
@@ -119,14 +120,14 @@ Omdat de records niet opeenvolgend worden geordend, kunnen de verwachte waarden 
 +++
 
 
-+++# Werkt de attributie met de integratie van Advertising Analytics?
++++## Werkt attributie met de integratie van Advertising Analytics?
 
 Metagegevensafmetingen, zoals type en trefwoord, werken met kenmerk. Metrische gegevens (zoals afbeeldingen, kosten, klikken, gemiddelde positie en gemiddelde kwaliteitsscore) gebruiken echter gegevensbronnen op overzichtsniveau en zijn daarom niet compatibel.
 
 +++
 
 
-+++# hoe werkt de attributie met marketing kanalen?
++++## Hoe werkt attributie met marketingkanalen?
 
 Toen de marketingkanalen voor het eerst werden geïntroduceerd, hadden ze alleen de eerste en laatste aanraakafmetingen. Expliciete eerste/laatste aanraakafmetingen zijn niet meer nodig met de huidige versie van de toewijzing. Adobe biedt algemene [!UICONTROL Marketing Channel] - en [!UICONTROL Marketing Channel Detail] -afmetingen, zodat u deze kunt gebruiken met het gewenste attributiemodel. Deze algemene afmetingen gedragen zich hetzelfde als [!UICONTROL Last Touch Channel] -afmetingen, maar worden anders gelabeld om verwarring te voorkomen bij het gebruik van marketingkanalen met een ander attributiemodel.
 
@@ -135,7 +136,7 @@ Aangezien de afmetingen van de marketingkanalen afhankelijk zijn van een traditi
 +++
 
 
-+++## Hoe werkt de attributie met multi-waardevariabelen, zoals lijstvars?
++++## Hoe werkt de attributie met multi-value variabelen, zoals lijstvariabelen?
 
 Sommige afmetingen in Analytics kunnen veelvoudige waarden op één enkele slag bevatten. Veelvoorkomende voorbeelden zijn list vars en de productvariabele.
 
@@ -144,13 +145,13 @@ Wanneer de attributie wordt toegepast op multi-value klappen, krijgen alle waard
 +++
 
 
-+++## Hoe werkt de attributie met segmentatie?
++++## Hoe werkt attributie met segmentatie?
 
-Attributie wordt altijd uitgevoerd vóór segmentatie en segmentatie wordt uitgevoerd voordat rapportfilters worden toegepast. Dit concept is ook op virtuele rapportsuites van toepassing gebruikend segmenten.
+Attributie wordt altijd uitgevoerd vóór segmentatie en segmentatie wordt uitgevoerd voordat rapportfilters worden toegepast. Dit concept is ook van toepassing op virtuele rapportsuites die segmenten gebruiken.
 
-Als u bijvoorbeeld een virtuele rapportsuite maakt met een toegepast segment &quot;Weergaveits&quot;, kunt u andere kanalen in een tabel zien met behulp van bepaalde attributiemodellen.
+Als u bijvoorbeeld een virtuele rapportsuite maakt waarop het segment &#39;Weergavehits&#39; is toegepast, kunt u andere kanalen in een tabel zien met behulp van bepaalde attributiemodellen.
 
-![&#x200B; vertoning-slechts virtuele rapportreeks &#x200B;](assets/vrs-aiq-example.png)
+![ vertoning-slechts virtuele rapportreeks ](assets/vrs-aiq-example.png)
 
 >[!NOTE]
 >

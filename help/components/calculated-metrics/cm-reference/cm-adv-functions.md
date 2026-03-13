@@ -4,7 +4,7 @@ description: Meer informatie over geavanceerde berekende metriefuncties.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: fd4d0a9f7c3083720f9d69a0299bb02426dbe451
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '4529'
 ht-degree: 1%
@@ -13,15 +13,15 @@ ht-degree: 1%
 
 # Geavanceerde functies
 
-De [&#x200B; Berekende metrieke bouwer &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) laat u statistische en wiskundige functies toepassen. Dit artikel documenteert alfabetische lijst van de geavanceerde functies en hun definities.
+De [ Berekende metrieke bouwer ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) laat u statistische en wiskundige functies toepassen. Dit artikel documenteert alfabetische lijst van de geavanceerde functies en hun definities.
 
-Heb toegang tot deze functies door **[!UICONTROL Show all]** te selecteren onder ![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** lijst in het paneel van Componenten. Schuif omlaag om de lijst met **[!UICONTROL Advanced functions]** weer te geven.
+Heb toegang tot deze functies door **[!UICONTROL Show all]** te selecteren onder ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** lijst in het paneel van Componenten. Schuif omlaag om de lijst met **[!UICONTROL Advanced functions]** weer te geven.
 
 ## Tabelfuncties versus rijfuncties
 
 Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
 
-Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} of [!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
+Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE  Lijst ]{type="Neutral"} of [!BADGE  Rij ]{type="Neutral"}
 
 ## Wat betekent de parameter include-zeros?
 
@@ -43,7 +43,7 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
 
 Conjunctie. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true).
 
@@ -63,7 +63,7 @@ Conjunctie. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL APPROXIMATE COUNT DISTINCT(dimension)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL APPROXIMATE COUNT DISTINCT(dimension)]**
 
 
 Retourneert de geschatte, verschillende telling van dimensie-items voor de geselecteerde dimensie.
@@ -90,10 +90,10 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
 
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de arccosinus, of omgekeerd van de cosinus, van metrisch terug. De arccosinus is de hoek waarvan de cosinus getal is. De geretourneerde hoek wordt opgegeven in radialen tussen 0 (nul) en pi. Als u het resultaat wilt omzetten van radialen in graden, vermenigvuldigt u het met 180/PI().
+[!BADGE  Rij ]{type="Neutral"} keert de arccosinus, of omgekeerd van de cosinus, van metrisch terug. De arccosinus is de hoek waarvan de cosinus getal is. De geretourneerde hoek wordt opgegeven in radialen tussen 0 (nul) en pi. Als u het resultaat wilt omzetten van radialen in graden, vermenigvuldigt u het met 180/PI().
 
 
 | Argument | Beschrijving |
@@ -113,10 +113,10 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de arcsinus, of omgekeerde sinus, van een aantal terug. De arcsinus is de hoek waarvan de sinus een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Om de arcsinus in graden uit te drukken, vermenigvuldig het resultaat met 180/PI().
+[!BADGE  Rij ]{type="Neutral"} keert de arcsinus, of omgekeerde sinus, van een aantal terug. De arcsinus is de hoek waarvan de sinus een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Om de arcsinus in graden uit te drukken, vermenigvuldig het resultaat met 180/PI().
 
 
 | Argument | Beschrijving |
@@ -136,10 +136,10 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
 
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de arctangent, of omgekeerde raaklijn, van een aantal terug. De arctangens is de hoek waarvan de tangens een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arctangens in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI().
+[!BADGE  Rij ]{type="Neutral"} keert de arctangent, of omgekeerde raaklijn, van een aantal terug. De arctangens is de hoek waarvan de tangens een getal is. De geretourneerde hoek wordt opgegeven in radialen in het bereik -pi/2 tot pi/2. Als u de arctangens in graden wilt uitdrukken, vermenigvuldigt u het resultaat met 180/PI().
 
 
 | Argument | Beschrijving |
@@ -159,7 +159,7 @@ Een veel voorkomend geval voor deze functie is wanneer u een benaderend aantal k
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(metric, number)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(metric, number)]**
 
 Keert de waarschijnlijkheid terug dat een willekeurige variabele met student-t distributie met n graden van vrijheid een z-score minder dan kolom heeft.
 
@@ -190,7 +190,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-Z(metric, number)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-Z(metric, number)]**
 
 Retourneert de waarschijnlijkheid dat een willekeurige variabele met een normale distributie een z-score heeft minder dan col.
 
@@ -219,16 +219,17 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert het kleinste geheel niet minder dan een bepaalde waarde terug. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule CEILING(Revenue) om inkomsten naar de dichtstbijzijnde dollar te afronden, of $570.
+[!BADGE  Rij ]{type="Neutral"} keert het kleinste geheel niet minder dan een bepaalde waarde terug. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule CEILING(Revenue) om inkomsten naar de dichtstbijzijnde dollar te afronden, of $570.
 
 | Argument | Beschrijving |
 |---|---|
 | metrisch | De metrische waarde die u wilt afronden |
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Confidence {#confidence}
 
@@ -249,7 +250,6 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | success-metric | The metric or metrics that a user is comparing variants with. |
 | control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 | significance-threshold | The threshold in this function is set to a default of 95%. |
-
 -->
 
 
@@ -260,13 +260,13 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lower-individual-confidence-sequence"
 >title="Vertrouwen (onder)"
->abstract="Bereken het om het even welke tijd-geldige vertrouwen **lager** gebruikend de methode WASKR zoals die in [&#x200B; wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen &#x200B;](https://arxiv.org/pdf/2103.06476)."
+>abstract="Bereken het om het even welke tijd-geldige vertrouwen **lager** gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476)."
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-Bereken het om het even welke tijd-geldige vertrouwen **lager** gebruikend de methode WASKR zoals die in [&#x200B; wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen &#x200B;](https://arxiv.org/pdf/2103.06476).
+Bereken het om het even welke tijd-geldige vertrouwen **lager** gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476).
 
 Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bepaalde variant dezelfde is als de besturingsvariant. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren.
 
@@ -284,13 +284,13 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 >[!CONTEXTUALHELP]
 >id="functions-waskr-upper-individual-confidence-sequence"
 >title="Vertrouwen (boven)"
->abstract="Bereken het om het even welk-tijd-geldige vertrouwen **hoger** gebruikend de methode WASKR zoals die in [&#x200B; wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen &#x200B;](https://arxiv.org/pdf/2103.06476)."
+>abstract="Bereken het om het even welk-tijd-geldige vertrouwen **hoger** gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476)."
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-Bereken het om het even welk-tijd-geldige vertrouwen **hoger** gebruikend de methode WASKR zoals die in [&#x200B; wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen &#x200B;](https://arxiv.org/pdf/2103.06476).
+Bereken het om het even welk-tijd-geldige vertrouwen **hoger** gebruikend de methode WASKR zoals die in [ wordt beschreven tijd-eenvormige centrale beperkingstheorie en asymptotische vertrouwensopeenvolgingen ](https://arxiv.org/pdf/2103.06476).
 
 Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bepaalde variant dezelfde is als de besturingsvariant. Een hoger vertrouwen geeft minder bewijs voor de aanname dat de besturingsvariant en de niet-besturingsvariant dezelfde prestaties leveren.
 
@@ -313,9 +313,9 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de cosinus van de bepaalde hoek terug. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
+[!BADGE  Rij ]{type="Neutral"} keert de cosinus van de bepaalde hoek terug. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
 
 | Argument | Beschrijving |
 |---|---|
@@ -328,12 +328,12 @@ Vertrouwen is een waarschijnlijkheidsmeting van hoeveel bewijs er is dat een bep
 
 >[!CONTEXTUALHELP]
 >id="functions-cube-root"
->title="Kubus Root"
->abstract="Retourneert de positieve kubuswortel van een getal. De kubuswortel van een aantal is de waarde van dat aantal dat tot de macht van 1/3 wordt opgeheven."
+>title="Kubus root"
+>abstract="Retourneert de positieve kubuswortel van een getal. De kubuswortel van een getal is de waarde van dat getal dat tot de macht 1/3 wordt verheven."
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL CUBE ROOT(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CUBE ROOT(metric)]**
 
 
 Retourneert de positieve kubuswortel van een getal. De kubuswortel van een aantal is de waarde van dat aantal dat tot de macht van 1/3 wordt opgeheven.
@@ -356,7 +356,7 @@ Retourneert de positieve kubuswortel van een getal. De kubuswortel van een aanta
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(number, metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(number, metric)]**
 
 Retourneert de som van de laatste n-elementen van kolom x. Indien n > 0, som de laatste n elementen of x. Indien n &lt; 0, som de voorafgaande elementen.
 
@@ -385,7 +385,7 @@ Retourneert de som van de laatste n-elementen van kolom x. Indien n > 0, som de 
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(number, metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(number, metric)]**
 
 Retourneert het gemiddelde van de laatste n elementen van kolom x. Indien n > 0, som de laatste n elementen of x. Indien n &lt; 0, som de voorafgaande elementen.
 
@@ -396,8 +396,7 @@ Retourneert het gemiddelde van de laatste n elementen van kolom x. Indien n > 0,
 
 >[!NOTE]
 >
->Deze functie werkt niet met tariefmaatstaven zoals opbrengst per persoon. De functie gebruikt het gemiddelde van de tarieven in plaats van de inkomsten over de laatste N op te tellen en personen over de laatste N op te tellen en hen vervolgens te verdelen. <br/> in plaats daarvan, gebruik [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![&#x200B; verdeel &#x200B;](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
->
+>Deze functie werkt niet met tariefmaatstaven zoals opbrengst per persoon. De functie gebruikt het gemiddelde van de tarieven in plaats van de inkomsten over de laatste N op te tellen en personen over de laatste N op te tellen en hen vervolgens te verdelen. <br/> in plaats daarvan, gebruik [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![ verdeel ](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
 
 
 ## Gelijk {#equal}
@@ -411,7 +410,7 @@ Retourneert het gemiddelde van de laatste n elementen van kolom x. Indien n > 0,
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
 
 Gelijk. De uitvoer is 0 (false) of 1 (true).
 
@@ -437,10 +436,10 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Exponentiële regressie: Y = b * exp (aX). Retourneert de correlatiecoëfficiënt.
+[!BADGE  Lijst ]{type="Neutral"} Exponentiële regressie: Y = b * exp (aX). Retourneert de correlatiecoëfficiënt.
 
 
 | Argument | Beschrijving |
@@ -460,10 +459,10 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} Exponentiële regressie: Y = b * exp (aX). Retourneert Y.
+[!BADGE  Rij ]{type="Neutral"} Exponentiële regressie: Y = b * exp (aX). Retourneert Y.
 
 
 | Argument | Beschrijving |
@@ -484,16 +483,16 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Exponentiële regressie: Y = b * exp (aX). Retourneert b.
+[!BADGE  Lijst ]{type="Neutral"} Exponentiële regressie: Y = b * exp (aX). Retourneert b.
 
 | Argument | Beschrijving |
 |---|---|
 | metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
-| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
-| include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
+| metrisch_Y | Een metric die u als onafhankelijke gegevens wilt aanwijzen |
+| include_zeros | Bepaalt of nulwaarden al dan niet in de berekeningen worden opgenomen |
 
 
 ## Exponentiële regressie: helling {#exponential-regression-slope}
@@ -507,10 +506,10 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Exponentiële regressie: Y = b * exp (aX). Retourneert een.
+[!BADGE  Lijst ]{type="Neutral"} Exponentiële regressie: Y = b * exp (aX). Retourneert een.
 
 
 | Argument | Beschrijving |
@@ -531,9 +530,9 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert het grootste geheel niet groter dan een bepaalde waarde terug. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule FLOOR(Revenue) om inkomsten naar de dichtstbijzijnde dollar te retourneren, oftewel $569.
+[!BADGE  Rij ]{type="Neutral"} keert het grootste geheel niet groter dan een bepaalde waarde terug. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor omzet en een product $569,34 heeft, gebruikt u de formule FLOOR(Revenue) om omzet naar de dichtstbijzijnde dollar te retourneren, of $569.
 
 | Argument | Beschrijving |
 |---|---|
@@ -551,7 +550,7 @@ Gelijk. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN()]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN()]**
 
 De uitvoer is 0 (false) of 1 (true).
 
@@ -576,7 +575,7 @@ De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN OR EQUAL()]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN OR EQUAL()]**
 
 Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
@@ -602,10 +601,10 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
 
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de hyperbolische cosinus van een aantal terug.
+[!BADGE  Rij ]{type="Neutral"} keert de hyperbolische cosinus van een aantal terug.
 
 
 | Argument | Beschrijving |
@@ -625,9 +624,9 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de hyperbolische sinus van een aantal terug.
+[!BADGE  Rij ]{type="Neutral"} keert de hyperbolische sinus van een aantal terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -645,9 +644,9 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de hyperbolische tangens van een aantal terug.
+[!BADGE  Rij ]{type="Neutral"} keert de hyperbolische tangens van een aantal terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -665,10 +664,10 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} als de waarde van de voorwaardenparameter niet-nul (waar) is, is het resultaat de waarde van de parameter value_if_true. Anders is het de waarde van de parameter value_if_false.
+[!BADGE  Rij ]{type="Neutral"} als de waarde van de voorwaardenparameter niet-nul (waar) is, is het resultaat de waarde van de parameter value_if_true. Anders is het de waarde van de parameter value_if_false.
 
 
 | Argument | Beschrijving |
@@ -689,7 +688,7 @@ Groter dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN()]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN()]**
 
 De uitvoer is 0 (false) of 1 (true).
 
@@ -714,7 +713,7 @@ De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN OR EQUAL()]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN OR EQUAL()]**
 
 Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
@@ -728,7 +727,8 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 `Metric 1 <= Metric 2`
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Lift (#lift)
 
@@ -758,16 +758,16 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert de correlatiecoëfficiënt terug.
+[!BADGE  Lijst ]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert de correlatiecoëfficiënt terug.
 
 
 | Argument | Beschrijving |
 |---|---|
 | metrisch_X | Metrisch die u met metrisch_Y zou willen correleren |
-| metrisch_Y | Metrisch die u met metrisch_X zou willen correleren |
+| metrisch_Y | Een metric die u met metric_X wilt correleren |
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
@@ -783,10 +783,10 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert b terug.
+[!BADGE  Lijst ]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert b terug.
 
 
 | Argument | Beschrijving |
@@ -808,10 +808,10 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert Y terug.
+[!BADGE  Lineaire regressie van 0} Rij {: Y = een X + b. Keert Y terug.]{type="Neutral"}
 
 
 | Argument | Beschrijving |
@@ -833,9 +833,9 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert a terug.
+[!BADGE  Lijst ]{type="Neutral"} Lineaire regressie: Y = a X + b. Keert a terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -855,10 +855,10 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
 
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert logaritme basis-10 van een aantal terug.
+[!BADGE  Rij ]{type="Neutral"} keert logaritme basis-10 van een aantal terug.
 
 
 | Argument | Beschrijving |
@@ -877,14 +877,14 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert de correlatiecoëfficiënt terug.
+[!BADGE  Lijst ]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert de correlatiecoëfficiënt terug.
 
 | Argument | Beschrijving |
 |---|---|
-| metrisch_X | Metrisch die u met metrisch_Y zou willen correleren |
-| metrisch_Y | Metrisch die u met metrisch_X zou willen correleren |
+| metrisch_X | Een metric die u met metric_Y wilt correleren |
+| metrisch_Y | Een metric die u met metric_X wilt correleren |
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
@@ -899,9 +899,9 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert b terug.
+[!BADGE  Lijst ]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert b terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -922,9 +922,9 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert Y terug.
+[!BADGE  Rij ]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert Y terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -945,9 +945,9 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert a terug.
+[!BADGE  Lijst ]{type="Neutral"} de regressie van het Logboek: Y = a ln (X) + b. Keert a terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -968,13 +968,13 @@ Kleiner dan of gelijk aan. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL NATURAL LOG(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL NATURAL LOG(metric)]**
 
 Retourneert de natuurlijke logaritme van een getal. Natuurlijk logaritme is gebaseerd op de constante e (2.71828182845904). LN is het omgekeerde van de functie EXP.
 
 | Argument | Beschrijving |
 |---|---|
-| metrisch | Het positieve reële getal waarvoor u de natuurlijke logaritme wilt |
+| metrisch | Het positieve reële getal waarvoor je de natuurlijke logaritme wilt |
 
 
 
@@ -989,7 +989,7 @@ Retourneert de natuurlijke logaritme van een getal. Natuurlijk logaritme is geba
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(logical)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(logical)]**
 
 Negatie als een booleaanse waarde. De uitvoer is 0 (false) of 1 (true).
 
@@ -1010,7 +1010,7 @@ Negatie als een booleaanse waarde. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL NOT EQUAL()]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL NOT EQUAL()]**
 
 
 Niet gelijk. De uitvoer is 0 (false) of 1 (true).
@@ -1037,10 +1037,10 @@ Niet gelijk. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-[!BADGE &#x200B; Bevestiging van de Rij &#x200B;]{type="Neutral"}. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true).
+[!BADGE  Bevestiging van de Rij ]{type="Neutral"}. Niet gelijk aan nul wordt beschouwd als waar en gelijk aan nul wordt beschouwd als onwaar. De uitvoer is 0 (false) of 1 (true).
 
 
 | Argument | Beschrijving |
@@ -1064,7 +1064,7 @@ Niet gelijk. De uitvoer is 0 (false) of 1 (true).
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL PI()]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL PI()]**
 
 Retourneert Pi: 3,14159...
 
@@ -1080,9 +1080,9 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert de correlatiecoëfficiënt terug.
+[!BADGE  Lijst ]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert de correlatiecoëfficiënt terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1103,10 +1103,10 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert b terug.
+[!BADGE  Lijst ]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert b terug.
 
 
 | Argument | Beschrijving |
@@ -1127,9 +1127,9 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert Y terug.
+[!BADGE  Rij ]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert Y terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1150,9 +1150,9 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert a terug.
+[!BADGE  Lijst ]{type="Neutral"} de regressie van de Macht: Y = b X ^ a. Keert a terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1173,9 +1173,9 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert de correlatiecoëfficiënt terug.
+[!BADGE  Lijst ]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert de correlatiecoëfficiënt terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1194,9 +1194,9 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert a terug.
+[!BADGE  Lijst ]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert a terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1216,9 +1216,9 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert Y terug.
+[!BADGE  Rij ]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, keert Y terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1238,9 +1238,9 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, Keert b terug.
+[!BADGE  Lijst ]{type="Neutral"} kwadratische regressie: Y = (a + bX) ^ 2, Keert b terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1261,9 +1261,9 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert de correlatiecoëfficiënt.
+[!BADGE  Lijst ]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert de correlatiecoëfficiënt.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1283,9 +1283,9 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert een.
+[!BADGE  Lijst ]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert een.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1305,14 +1305,14 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert Y.
+[!BADGE  Rij ]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert Y.
 
 | Argument | Beschrijving |
 |---|---|
 | metrisch_X | Metrisch die u als afhankelijke gegevens zou willen aanwijzen |
-| metrisch_Y | Metrisch die u als onafhankelijke gegevens zou willen aanwijzen |
+| metrisch_Y | Een metric die u als onafhankelijke gegevens wilt aanwijzen |
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen |
 
 
@@ -1327,9 +1327,9 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert b.
+[!BADGE  Lijst ]{type="Neutral"} Wederkerige regressie: Y = a + b X ^ -1. Retourneert b.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1351,15 +1351,15 @@ Retourneert Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de sinus van de bepaalde hoek terug. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
+[!BADGE  Rij ]{type="Neutral"} keert de sinus van de bepaalde hoek terug. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
 
 
 | Argument | Beschrijving |
 |---|---|
-| metrisch | De hoek in radialen waarvoor u de sinus wilt gebruiken |
+| metrisch | De hoek in radialen waarvoor u de sinus wilt |
 
 
 
@@ -1371,13 +1371,13 @@ Retourneert Pi: 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-t-score"
 >title="T-score"
->abstract="De afwijking van [&#x200B; MEAN &#x200B;](cm-functions.md#mean), die door de standaardafwijking wordt verdeeld. Alias voor [&#x200B; z-Score &#x200B;](#z-score)."
+>abstract="De afwijking van [ MEAN ](cm-functions.md#mean), die door de standaardafwijking wordt verdeeld. Alias voor [ z-Score ](#z-score)."
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL T-SCORE(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL T-SCORE(metric, include_zeros)]**
 
-De afwijking van [&#x200B; MEAN &#x200B;](cm-functions.md#mean), die door de standaardafwijking wordt verdeeld. Alias voor [&#x200B; z-Score &#x200B;](#z-score).
+De afwijking van [ MEAN ](cm-functions.md#mean), die door de standaardafwijking wordt verdeeld. Alias voor [ z-Score ](#z-score).
 
 | Argument | Beschrijving |
 |---|---|
@@ -1396,7 +1396,7 @@ De afwijking van [&#x200B; MEAN &#x200B;](cm-functions.md#mean), die door de sta
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST(metric, degrees, tails)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST(metric, degrees, tails)]**
 
 Voert een t-test met mtailed t-score van x en n graden van vrijheid uit.
 
@@ -1408,7 +1408,7 @@ Voert een t-test met mtailed t-score van x en n graden van vrijheid uit.
 
 ### Details
 
-De handtekening is T-TEST (metrisch, graden, staarten). Onder, roept het eenvoudig ***m*** ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**. Deze functie is gelijkaardig aan **[z-TEST](#z-test)** functie, die ***m*** ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)** in werking stelt.
+De handtekening is T-TEST (metrisch, graden, staarten). Onder, roept het eenvoudig ***m*** ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**. Deze functie is gelijkaardig aan **[z-TEST](#z-test)** functie, die ***m*** ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)** in werking stelt.
 
 - ***m*** is het aantal staarten.
 - ***n*** is de graden van vrijheid, en zou een constant aantal voor het volledige rapport moeten zijn, namelijk niet veranderend op een rij door rijbasis.
@@ -1443,7 +1443,7 @@ De geretourneerde waarde is de waarschijnlijkheid dat de teststatistiek x gezien
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
 
 Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenigvuldig de hoek met PI()/180.
 
@@ -1464,9 +1464,9 @@ Retourneert de tangens van de opgegeven hoek. Als de hoek in graden is, vermenig
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} De afwijking van het gemiddelde dat door de standaardafwijking wordt verdeeld.
+[!BADGE  Rij ]{type="Neutral"} De afwijking van het gemiddelde dat door de standaardafwijking wordt verdeeld.
 
 | Argument | Beschrijving |
 |---|---|
@@ -1494,11 +1494,11 @@ Waar ***[!DNL x]*** de onbewerkte score is, is ***[!DNL μ]*** het gemiddelde va
 >[!CONTEXTUALHELP]
 >id="functions-z-test"
 >title="Z-test"
->abstract="Voert een n-tailed z-test met een z-score van x uit."
+>abstract="Voert een n-tailed z-test uit met een z-score van x."
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
 
 Voert een n-tailed z-test met een z-score van x uit.
 

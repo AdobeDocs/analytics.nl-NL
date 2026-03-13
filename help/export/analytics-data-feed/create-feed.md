@@ -1,9 +1,9 @@
 ---
 title: Een gegevensfeed maken
-description: Leer hoe u een gegevensfeed maakt en informatie over de bestandsgegevens die aan Adobe moeten worden verstrekt.
+description: Leer hoe u een gegevensfeed maakt en hoe u de bestandsinformatie voor de Adobe bekijkt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Een gegevensfeed maken
 
-Wanneer u een gegevensfeed maakt, biedt u Adobe het volgende:
+Wanneer u een gegevensfeed maakt, biedt u Adobe met:
 
 * De informatie over de bestemming waarnaar u Raw-gegevensbestanden wilt verzenden
 
@@ -20,7 +20,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe het volgende:
 
 * De frequentie van hoe vaak de gegevensvoer zou moeten worden verzonden (met inbegrip van het terugkijkvenster als u verkiest om laat aankomende hits te omvatten)
 
-Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van gegevensvoer te hebben en ervoor te zorgen dat u aan alle voorwaarden voldoet. Voor meer informatie, zie [&#x200B; Overzicht van de voer van Gegevens &#x200B;](data-feed-overview.md).
+Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van gegevensvoer te hebben en ervoor te zorgen dat u aan alle voorwaarden voldoet. Voor meer informatie, zie [ Overzicht van de voer van Gegevens ](data-feed-overview.md).
 
 ## Een gegevensfeed maken en configureren {#create-and-configure-data-feed}
 
@@ -46,8 +46,8 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_notify"
->title="Melding verzenden wanneer voltooid"
->abstract="Geef een of meer e-mailadressen op waar een melding moet worden verzonden nadat de gegevensinvoer is verzonden. Meerdere e-mailadressen moeten met een komma worden gescheiden."
+>title="Waarschuwen wanneer voltooid"
+>abstract="Geef een of meer e-mailadressen op waar een melding moet worden bezorgd nadat de gegevensfeed is verzonden. Meerdere e-mailadressen moeten met een komma worden gescheiden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -59,18 +59,18 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
 1. In de hoogste navigatiebar, ga [!UICONTROL **Admin**] > [!UICONTROL **het voer van Gegevens**].
 
-1. Selecteer [!UICONTROL **leiden gegevensvoer**] tot.
+1. Selecteer [!UICONTROL **creeer gegevensvoer**].
 
-   Een paginavertoningen met de volgende categorieën: [!UICONTROL **Details**], [!UICONTROL **Gegevens die**] formatteren, [!UICONTROL **structuur van Gegevens**], [!UICONTROL **Programma**], en [!UICONTROL **Bestemming**] formatteren.
+   Een paginavertoningen met de volgende categorieën: [!UICONTROL **Details**], [!UICONTROL **het formatteren van Gegevens**], [!UICONTROL **structuur van Gegevens**], [!UICONTROL **Programma**], en [!UICONTROL **Bestemming**].
 
-   ![&#x200B; Nieuwe pagina van de gegevensvoer &#x200B;](assets/data-feed-new.png)
+   ![ Nieuwe pagina van de gegevensvoer ](assets/data-feed-new.png)
 
 1. In de [!UICONTROL **sectie van Details**], voltooi de volgende gebieden:
 
    | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **Naam**] | De naam van de gegevensinvoer. De namen moeten binnen de geselecteerde rapportreeks uniek zijn, en kunnen tot 255 karakters in lengte zijn. [Meer informatie](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **Markeringen**] | Pas om het even welke markeringen op de gegevensvoer voor gemakkelijkere categorisering toe. U kunt op markeringen filtreren zoals die in [&#x200B; worden beschreven Filter en de lijst van gegevensvoer &#x200B;](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [&#x200B; zoeken beheert gegevensvoer &#x200B;](/help/export/analytics-data-feed/df-manage-feeds.md). |
+   | [!UICONTROL **Markeringen**] | Pas om het even welke markeringen op de gegevensvoer voor gemakkelijkere categorisering toe. U kunt op markeringen filtreren zoals die in [ worden beschreven Filter en de lijst van gegevensvoer ](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [ zoeken beheert gegevensvoer ](/help/export/analytics-data-feed/df-manage-feeds.md). |
    | [!UICONTROL **Beschrijving**] | Geef een beschrijving op voor de gegevensinvoer. De beschrijving die u toevoegt, wordt weergegeven wanneer u de gegevensfeed bewerkt. |
 
 1. In de [!UICONTROL **het formatteren van Gegevens**] sectie, specificeer de volgende informatie:
@@ -78,29 +78,29 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
    | Veld | Functie |
    |---------|----------|
    | [!UICONTROL **formaat van de Compressie**] | Het type compressie dat wordt gebruikt. **Gzip** outputs dossiers in `.tar.gz` formaat. **Zip** outputs dossiers in `.zip` formaat. |
-   | [!UICONTROL **Verpakkingstype**] | Selecteer [!UICONTROL **Veelvoudige dossiers**] voor de meeste gegevensvoer. Met deze optie worden uw gegevens gepagineerd in ongecomprimeerde 2GB-blokken. (Als de [!UICONTROL **Veelvoudige dossiers**] optie wordt geselecteerd en uncompressed gegevens voor het rapporteringsvenster minder dan 2GB is, wordt één dossier verzonden.) Het selecteren van **Enig dossier** output het `hit_data.tsv` dossier in één enkel, potentieel massief dossier. |
-   | [!UICONTROL **Manifest**] | Kies of u een manifestbestand wilt opnemen bij elke gegevensdoorvoerlevering. <p>U kunt uit de volgende opties kiezen:</p><ul><li>**[!UICONTROL Manifest file]**: bevat informatie voor elk bestand dat is opgenomen in de gegevensinvoer.</li><li>**[!UICONTROL Finish file (Legacy)]**: geeft aan dat de gegevensinvoer is voltooid. Er wordt geen andere informatie opgenomen. Deze optie is geschikt voor bestaande feeds die deze optie oorspronkelijk hebben gebruikt en die opnieuw moeten worden verwerkt. Deze functie is alleen beschikbaar wanneer gegevens uit de gegevensinvoer in één pakket worden verzonden. </li><li>**[!UICONTROL None]**: Er is geen bestand opgenomen</li></ul> |
-   | [!UICONTROL **verzendt manifest zelfs wanneer geen gegevens**] | Bepaalt of Adobe a [&#x200B; duidelijk dossier &#x200B;](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) aan de bestemming zou moeten leveren wanneer geen gegevens voor een voederinterval worden verzameld. Als u **Manifest dossier** selecteert, ontvangt u een duidelijk dossier gelijkend op het volgende wanneer geen gegevens worden verzameld:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
-   | [!UICONTROL **vervangt werkend systeemkoorden**] | Bij het verzamelen van gegevens kunnen sommige tekens (zoals nieuwe regels) problemen veroorzaken. Selecteer deze optie als u deze tekens uit de voederbestanden wilt verwijderen.<p>Deze optie ontdekt de volgende koordopeenvolgingen ingebed in klantengegevens en vervangt hen met een ruimte:</p> <ul><li>**Vensters:** CRLF, CR, of TAB</li><li>**Mac en Linux:** \ n, \ r, of \ t</li></ul> |
-   | [!UICONTROL **laat dynamische raadplegingen**] toe | Met dynamische zoekopdrachten kunt u extra opzoekbestanden in uw gegevensfeed ontvangen die anders niet beschikbaar zijn. Met deze instelling kunnen de volgende opzoektabellen worden verzonden met elk gegevensbestand met gegevensinvoer:<ul><li> **naam van de Drager**</li><li>**Mobiele attributen**</li><li>**Werkend systeemtype**</li></ul><p>Voor meer informatie, zie [&#x200B; Dynamische raadplegingen &#x200B;](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
-   | **laat-aankomende treffers** toestaan | Historische gegevens kunnen worden aangeleverd nadat een gegevenfeed-taak een bepaald uur of een bepaalde dag is verwerkt, bijvoorbeeld door middel van treffers met een tijdstempel of gegevensbronnen.<p>Selecteer deze optie om gegevens op te nemen die zijn ontvangen nadat de gegevensinvoertaak de gegevens heeft verwerkt binnen de ingestelde rapportagefrequentie (gewoonlijk dagelijks of per uur). Als deze optie is ingeschakeld, controleert elke keer dat een gegevensfeed gegevens verwerkt, de late resultaten die zijn binnengekomen en worden deze in batches opgeslagen met het volgende gegevensdoorvoerbestand dat wordt verzonden.</p><p>Voor meer informatie, zie [&#x200B; laat-aankomende treffers &#x200B;](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
+   | [!UICONTROL **Verpakkingstype**] | Selecteer [!UICONTROL **Meerdere dossiers**] voor de meeste gegevensvoer. Met deze optie worden uw gegevens gepagineerd in ongecomprimeerde 2 GB-blokken. (Als de [!UICONTROL **Veelvoudige dossiers**] optie wordt geselecteerd en uncompressed gegevens voor het rapporteringsvenster minder dan 2GB is, wordt één dossier verzonden.) Het selecteren van **Enig dossier** output het `hit_data.tsv` dossier in één enkel, potentieel massief dossier. |
+   | [!UICONTROL **Manifest**] | Kies of u een manifestbestand wilt opnemen bij elke gegevensdoorvoerlevering. <p>U kunt uit de volgende opties kiezen:</p><ul><li>**[!UICONTROL Manifest file]**: bevat informatie voor elk bestand dat is opgenomen in de gegevensinvoer.</li><li>**[!UICONTROL Finish file (Legacy)]**: geeft aan dat de gegevensinvoer is voltooid. Er wordt geen andere informatie opgenomen. Deze optie is geschikt voor bestaande feeds die deze optie oorspronkelijk gebruikten en die opnieuw moeten worden verwerkt. Deze functie is alleen beschikbaar wanneer gegevens uit de gegevensinvoer in één pakket worden verzonden. </li><li>**[!UICONTROL None]**: Er is geen bestand opgenomen</li></ul> |
+   | [!UICONTROL **verzendt manifest zelfs wanneer geen gegevens**] | Bepaalt of Adobe a [ duidelijk dossier ](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) aan de bestemming zou moeten leveren wanneer geen gegevens voor een voederinterval worden verzameld. Als u **Manifest dossier** selecteert, ontvangt u een duidelijk dossier gelijkend op het volgende wanneer geen gegevens worden verzameld:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **vervangt werkend systeemkoorden**] | Bij het verzamelen van gegevens kunnen sommige tekens (zoals nieuwe regels) problemen veroorzaken. Selecteer deze optie als u deze tekens uit de feedbestanden wilt verwijderen.<p>Met deze optie worden de volgende tekenreeksreeksen gedetecteerd die zijn ingesloten in klantgegevens en worden deze vervangen door een spatie:</p> <ul><li>**Vensters:** CRLF, Cr, of LUSJE</li><li>**Mac en Linux:** \ n, \ r, of \ t</li></ul> |
+   | [!UICONTROL **laat dynamische raadplegingen**] toe | Met dynamische zoekopdrachten kunt u extra zoekbestanden in uw gegevensfeed ontvangen die anders niet beschikbaar zijn. Met deze instelling kunnen de volgende opzoektabellen worden verzonden met elk gegevensbestand met gegevensinvoer:<ul><li> **naam van de Drager**</li><li>**Mobiele attributen**</li><li>**werkend systeemtype**</li></ul><p>Voor meer informatie, zie [ Dynamische raadplegingen ](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
+   | **laat-aankomende treffers** toestaan | Historische gegevens kunnen worden aangeleverd nadat een gegevenfeed-taak een bepaald uur of een bepaalde dag is verwerkt, bijvoorbeeld door middel van treffers met een tijdstempel of gegevensbronnen.<p>Selecteer deze optie om gegevens op te nemen die zijn ontvangen nadat de gegevensinvoertaak de gegevens heeft verwerkt binnen de ingestelde rapportagefrequentie (gewoonlijk dagelijks of per uur). Als deze optie is ingeschakeld, controleert elke keer dat een gegevensfeed gegevens verwerkt, de late resultaten die zijn binnengekomen en worden deze in batches opgeslagen met het volgende gegevensdoorvoerbestand dat wordt verzonden.</p><p>Voor meer informatie, zie [ laat-aankomende treffers ](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
    | **venster van de Lookback** (voor laat-aankomende treffers) | Deze optie wordt weergegeven wanneer de optie **[!UICONTROL Allow late-arriving hits]** is ingeschakeld. Selecteer het terugkijkvenster om het tijdkader van late klappen te beperken die inbegrepen zijn. Selecteer **[!UICONTROL Unlimited]** als u alle laat aankomende klappen wilt toestaan, ongeacht hoe laat. U kunt een vooraf ingesteld interval kiezen, zoals **[!UICONTROL 1 hour]** , **[!UICONTROL 2 hours]** , **[!UICONTROL 1 week]** , **[!UICONTROL 2 weeks]** enzovoort. Of selecteer **[!UICONTROL Custom lookback window]** en geef vervolgens in het veld **[!UICONTROL Custom Lookback]** een opzoekvenster op van maximaal 26.280 uur. |
 
-1. In de [!UICONTROL **sectie van de Gegevensstructuur**], op het **[!UICONTROL Report suite]** gebied, selecteer de bronrapportreeks die de gegevens bevat die u wilt uitvoeren. <p>Houd rekening met het volgende wanneer u een rapportsuite selecteert:</p> <ul><li>Als de veelvoudige gegevensvoer voor de zelfde rapportreeks wordt gecreeerd, moet elke gegevensvoer verschillende kolomdefinities hebben.</li><li>Alleen bronrapportsuites ondersteunen gegevensfeeds; virtuele rapportsuites worden niet ondersteund.</li><li>De lijst van beschikbare kolommen hangt van het login bedrijf af dat de geselecteerde rapportreeks tot behoort. Als u de rapportsuite wijzigt, kan de lijst met beschikbare kolommen worden gewijzigd. </li></ul>
+1. In de [!UICONTROL **sectie van de Gegevensstructuur**], op het **[!UICONTROL Report suite]** gebied, selecteer de bronrapportreeks die de gegevens bevat die u wilt uitvoeren. <p>Houd rekening met het volgende wanneer u een rapportsuite selecteert:</p> <ul><li>Als er meerdere datafeeds worden gemaakt voor dezelfde rapportsuite, moet elke gegevensfeed verschillende kolomdefinities hebben.</li><li>Alleen bronrapportsuites ondersteunen datafeeds; virtuele rapportsuites worden niet ondersteund.</li><li>De lijst met beschikbare kolommen is afhankelijk van het aanmeldingsbedrijf waartoe de geselecteerde rapportsuite behoort. Als u de rapportsuite wijzigt, kan de lijst met beschikbare kolommen worden gewijzigd. </li></ul>
 
 1. Gebruik een van de volgende methoden of beide methoden om te bepalen welke gegevenskolommen in de feed moeten worden opgenomen:
 
    * **voeg individueel kolommen toe:** in de **[!UICONTROL Available]** sectie op de linkerzijde, selecteer om het even welke kolommen die u wilt omvatten, dan selecteren **[!UICONTROL Include]**. Alle gegevenskolommen in Adobe Analytics zijn beschikbaar. U kunt meerdere kolommen selecteren door **[!UICONTROL Shift]** ingedrukt te houden of door **[!UICONTROL Command]** (in macOS) of **[!UICONTROL Ctrl]** (in Windows) ingedrukt te houden. Klik op **[!UICONTROL Add all]** om alle kolommen in een gegevensfeed op te nemen.
 
-     Kolommen die u toevoegt, worden weergegeven in de sectie **[!UICONTROL Included]** aan de rechterkant.
+     De kolommen die u toevoegt, worden weergegeven in de sectie **[!UICONTROL Included]** aan de rechterkant.
 
-   * **voeg een kolommalplaatje toe:** op het **[!UICONTROL Column templates]** gebied, selecteer een kolommalplaatje toe te voegen. Een kolomsjabloon is een vooraf gedefinieerde groep kolommen en Adobe biedt standaard diverse sjablonen.
+   * **voeg een kolommalplaatje toe:** in het **[!UICONTROL Column templates]** gebied, selecteer een kolommalplaatje om toe te voegen. Een kolomsjabloon is een vooraf gedefinieerde groep kolommen en Adobe biedt standaard meerdere kolommen.
 
-     Alle kolommen in de sjabloon worden weergegeven in de sectie **[!UICONTROL Included]** aan de rechterkant.
+     Alle kolommen in de sjabloon worden weergegeven in de **[!UICONTROL Included]** -sectie aan de rechterkant.
 
 1. (Optioneel) Als u een kolomsjabloon wilt maken die is gebaseerd op de gegevensfeed die u momenteel maakt, selecteert u **[!UICONTROL Save as template]** , geeft u een naam voor de sjabloon op en selecteert u **[!UICONTROL Save]** . Deze optie is handig als u extra gegevensfeeds wilt maken die dezelfde kolommen bevatten.
 
-   ![&#x200B; creeer kolommalplaatje terwijl het creëren van een gegevensvoer &#x200B;](assets/data-feed-template-create2.png)
+   ![ creeer kolommalplaatje terwijl het creëren van een gegevensvoer ](assets/data-feed-template-create2.png)
 
 1. (Optioneel) Selecteer **[!UICONTROL Download columns]** als u een lijst met opgenomen kolommen in de CSV-indeling wilt downloaden. Deze optie kan handig zijn voor gegevensfeeds met een groot aantal kolommen.
 
@@ -108,10 +108,10 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Frequentie**] | Selecteer hoe vaak de gegevensinvoer moet worden verzonden. De beschikbare opties worden dynamisch ingevuld op basis van de configuratie van de rapportsuite. <p>De volgende opties zijn algemeen beschikbaar:</p><ul><li>**Dagelijkse**: De voer bevat de waarde van een volledige dag van gegevens, van middernacht aan middernacht in de tijdzone van de rapportreeks. Gebruik deze optie voor back-up of historische gegevens of voor doorlopende feeds.</li><li>**Uur**: De voer bevat de waarde van één uur van gegevens. Gebruik deze optie als u doorgaat met feeds.</li></ul><p>Een exportfrequentie van 15 minuten is mogelijk, maar is standaard niet beschikbaar. Om deze optie beschikbaar te maken in uw omgeving, dient u eerst contact op te nemen met de klantenservice van Adobe en te verzoeken dat uw rapportenpakket is geconfigureerd voor ondersteuning van 15-minuten export.</p> |
+   | [!UICONTROL **Frequentie**] | Selecteer hoe vaak de gegevensinvoer moet worden verzonden. De beschikbare opties worden dynamisch ingevuld op basis van de configuratie van de rapportsuite. <p>De volgende opties zijn algemeen beschikbaar:</p><ul><li>**Dagelijkse**: De voer bevat de waarde van een volledige dag van gegevens, van middernacht aan middernacht in de tijdzone van de rapportreeks. Gebruik deze optie voor het maken van back-ups of historische gegevens of voor verdere feeds.</li><li>**Urly**: De voer bevat de waarde van één uur van gegevens. Gebruik deze optie als u wilt doorgaan met de feeds.</li></ul><p>Een exportfrequentie van 15 minuten is mogelijk, maar is standaard niet beschikbaar. Om deze optie beschikbaar te maken in uw omgeving, dient u eerst contact op te nemen met de klantenservice van Adobe en te verzoeken dat uw rapportenpakket is geconfigureerd voor ondersteuning van 15-minuten export.</p> |
    | [!UICONTROL **Verwerkingsvertraging**] | Geef op of u een bepaalde hoeveelheid tijd wilt wachten voordat u een bestand met gegevensinvoer verwerkt. Een vertraging kan handig zijn om mobiele implementaties de mogelijkheid te geven om offlineapparaten online te komen en gegevens te verzenden. Het kan ook worden gebruikt om de server-zijprocessen van uw organisatie in het beheren van eerder verwerkte dossiers aan te passen. In de meeste gevallen is geen uitstel nodig. U kunt een feed maximaal 8 uur (480 minuten) of zelfs langer uitstellen als u een aangepaste hoeveelheid tijd selecteert (9.999 minuten vertraging of ongeveer 1 week). |
    | [!UICONTROL **Ononderbroken voer**] | Als u deze optie selecteert, wordt de einddatum verwijderd, zodat een feed voor onbepaalde tijd kan worden uitgevoerd. Als een feed de verwerking van historische gegevens heeft voltooid, wacht een feed tot de gegevens een bepaald uur of een bepaalde dag zijn verzameld. Wanneer het huidige uur of de huidige dag eindigt, begint de verwerking na de opgegeven vertraging. |
-   | [!UICONTROL **de datum van het Begin**] | Geef de datum op waarop de gegevensinvoer moet beginnen. Als u onmiddellijk wilt beginnen met het verwerken van gegevensfeeds voor historische gegevens, stelt u deze datum in op een datum in het verleden waarop gegevens worden verzameld. De begindatum is gebaseerd op de tijdzone van de rapportreeks. |
+   | [!UICONTROL **datum van het Begin**] | Geef de datum op waarop de gegevensinvoer moet beginnen. Als u onmiddellijk wilt beginnen met het verwerken van datafeeds voor historische gegevens, stelt u deze datum in op een datum in het verleden waarop gegevens worden verzameld. De begindatum is gebaseerd op de tijdzone van de rapportreeks. |
    | [!UICONTROL **einddatum**] | Geef de datum op waarop de gegevensinvoer moet worden beëindigd. De einddatum is gebaseerd op de tijdzone van de rapportreeks. |
 
 1. In de [!UICONTROL **sectie van de Bestemming**], vorm de bestemming waar u de gegevens wilt worden verzonden.
@@ -120,25 +120,25 @@ Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van ge
    >
    >Overweeg het volgende wanneer het vormen van een rapportbestemming:
    >
-   >* Adobe raadt u aan een cloudaccount te gebruiken voor uw rapportbestemming. [&#x200B; Verouderde FTP en de rekeningen van SFTP &#x200B;](#legacy-destinations) zijn beschikbaar, maar niet geadviseerd.
-   >* Alle cloudaccounts die u eerder hebt geconfigureerd, kunnen worden gebruikt voor gegevensfeeds. U kunt cloudaccounts op de volgende manieren configureren:
+   >* Adobe raadt aan een cloudaccount te gebruiken voor uw rapportbestemming. [ Verouderde FTP en rekeningen SFTP ](#legacy-destinations) zijn beschikbaar, maar niet geadviseerd.
+   >* Alle cloudaccounts die u eerder hebt geconfigureerd, kunnen worden gebruikt voor datafeeds. U kunt cloudaccounts op een van de volgende manieren configureren:
    >
-   >   * Wanneer het vormen van wolkenrekeningen voor [&#x200B; Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+   >   * Wanneer het vormen van wolkenrekeningen voor [ Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
    >   
-   >   * Wanneer [&#x200B; het invoeren van de classificatiegegevens van Adobe Analytics &#x200B;](/help/components/locations/locations-manager.md) (Om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd kunnen niet worden gebruikt.)
+   >   * Wanneer [ het invoeren van de classificatiegegevens van Adobe Analytics ](/help/components/locations/locations-manager.md) (Om het even welke plaatsen die voor het invoeren van classificatiegegevens worden gevormd kunnen niet worden gebruikt.)
    >   
-   >   * Van de manager van Plaatsen, in [&#x200B; Componenten > Plaatsen &#x200B;](/help/components/locations/configure-import-accounts.md)
+   >   * Van de manager van Plaatsen, in [ Componenten > Plaatsen ](/help/components/locations/configure-import-accounts.md)
    >
-   >* Cloud-accounts zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Andere gebruikers kunnen geen wolkenrekeningen gebruiken of bekijken die u vormt tenzij u hen ter beschikking stelt aan alle gebruikers in uw organisatie.
+   >* Cloudaccounts zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Andere gebruikers kunnen cloudaccounts die u configureert, niet gebruiken of weergeven, tenzij u deze beschikbaar maakt voor alle gebruikers in uw organisatie.
    >
-   >* U kunt om het even welke plaatsen uitgeven die u van de manager van Plaatsen in [&#x200B; Componenten > Plaatsen &#x200B;](/help/components/locations/configure-import-accounts.md) creeert
+   >* U kunt om het even welke plaatsen uitgeven die u van de manager van Plaatsen in [ Componenten > Plaatsen ](/help/components/locations/configure-import-accounts.md) creeert
 
    Vul de volgende velden in:
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **Rekening**] | Voer een van de volgende handelingen uit:<ul><li>**Gebruik een bestaande rekening:** selecteer het drop-down menu naast het **[!UICONTROL Account]** gebied. U kunt ook beginnen met het typen van de accountnaam en deze selecteren in het keuzemenu. <p>De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie worden gedeeld u een deel van bent.</p></li><li>**creeer een nieuwe rekening:** Uitgezocht **[!UICONTROL Add new]** onder het **[!UICONTROL Account]** gebied. Voor informatie over hoe te om de rekening te vormen, zie [&#x200B; een plaatsrekening &#x200B;](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [&#x200B; vormen wolkeninvoer en uitvoerrekeningen &#x200B;](/help/components/locations/configure-import-accounts.md).</li></ul> |
-   | [!UICONTROL **Plaats**] | Voer een van de volgende handelingen uit:<ul><li>**Gebruik een bestaande plaats:** selecteer het drop-down menu naast het **[!UICONTROL Location]** gebied. Of typ de naam van de locatie en selecteer deze in het keuzemenu.</li><li>**creeer een nieuwe plaats:** Uitgezocht **[!UICONTROL Add new]** onder het **[!UICONTROL Location]** gebied. Voor informatie over hoe te om de plaats te vormen, zie [&#x200B; een plaats &#x200B;](/help/components/locations/configure-import-locations.md#configure-a-location) in [&#x200B; vormen wolkeninvoer en uitvoerplaatsen &#x200B;](/help/components/locations/configure-import-locations.md).</li></ul> |
+   | [!UICONTROL **Rekening**] | Voer een van de volgende handelingen uit:<ul><li>**Gebruik een bestaande rekening:** selecteer het drop-down menu naast het **[!UICONTROL Account]** gebied. U kunt ook beginnen met het typen van de accountnaam en deze selecteren in het keuzemenu. <p>De rekeningen zijn beschikbaar aan u slechts als u hen vormde of als zij met een organisatie worden gedeeld u een deel van bent.</p></li><li>**creeer een nieuwe rekening:** Uitgezocht **[!UICONTROL Add new]** onder het **[!UICONTROL Account]** gebied. Voor informatie over hoe te om de rekening te vormen, zie [ een plaatsrekening ](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [ vormen wolkeninvoer en uitvoerrekeningen ](/help/components/locations/configure-import-accounts.md).</li></ul> |
+   | [!UICONTROL **Plaats**] | Voer een van de volgende handelingen uit:<ul><li>**Gebruik een bestaande plaats:** selecteer het drop-down menu naast het **[!UICONTROL Location]** gebied. Of typ de locatienaam en selecteer deze in de vervolgkeuzelijst.</li><li>**creeer een nieuwe plaats:** selecteer **[!UICONTROL Add new]** onder het **[!UICONTROL Location]** gebied. Voor informatie over hoe te om de plaats te vormen, zie [ een plaats ](/help/components/locations/configure-import-locations.md#configure-a-location) in [ vormen de invoer van de wolk en de uitvoerplaatsen ](/help/components/locations/configure-import-locations.md).</li></ul> |
    | [!UICONTROL **Melden wanneer volledig**] | Geef een of meer e-mailadressen op waar een melding moet worden verzonden nadat de gegevensinvoer is verzonden of niet is verzonden. Meerdere e-mailadressen moeten met een komma worden gescheiden. |
 
 1. Selecteer **[!UICONTROL Save]**.
@@ -151,7 +151,7 @@ Bij het beheren van sjablonen kunt u nieuwe sjablonen maken, reeds gemaakte sjab
 
 **[!UICONTROL Admin]** > **[!UICONTROL Data feeds]** > **[!UICONTROL Manage templates]**
 
-![&#x200B; beheert kolommalplaatjes &#x200B;](assets/data-feed-template-manage.png)
+![ beheer kolommalplaatjes ](assets/data-feed-template-manage.png)
 
 ### Een kolomsjabloon maken
 
@@ -163,7 +163,7 @@ Een kolomsjabloon maken:
 
 1. Selecteer **[!UICONTROL Create new template]** om een nieuwe kolomsjabloon te maken.
 
-   ![&#x200B; creeer kolommalplaatje &#x200B;](assets/data-feed-template-create.png)
+   ![ creeer kolommalplaatje ](assets/data-feed-template-create.png)
 
 1. Geef in het veld **[!UICONTROL Template name]** een naam voor de sjabloon op.
 
@@ -175,7 +175,7 @@ Een kolomsjabloon maken:
 
 ### Een kolomsjabloon bewerken
 
-1. In Adobe Analytics, ga [!UICONTROL **Admin**] > [!UICONTROL **de voer van Gegevens**] > **[!UICONTROL Manage templates]**.
+1. In Adobe Analytics, ga naar [!UICONTROL **Admin**] > [!UICONTROL **voer van Gegevens**] > **[!UICONTROL Manage templates]**.
 
 1. Selecteer de sjabloon die u wilt bewerken en selecteer vervolgens **[!UICONTROL Edit]** .
 
@@ -193,7 +193,7 @@ Een kolomsjabloon maken:
 
 ### Kolomsjablonen verwijderen
 
-1. In Adobe Analytics, ga [!UICONTROL **Admin**] > [!UICONTROL **de voer van Gegevens**] > **[!UICONTROL Manage templates]**.
+1. In Adobe Analytics, ga naar [!UICONTROL **Admin**] > [!UICONTROL **voer van Gegevens**] > **[!UICONTROL Manage templates]**.
 
 1. Selecteer een of meer sjablonen die u wilt verwijderen en selecteer vervolgens **[!UICONTROL Delete]** .
 
@@ -201,7 +201,8 @@ Een kolomsjabloon maken:
 <!-- why would you want to do this? -->
 
 
-<!-- I don't think we need anything after this, but saving here just in case:
+<!--
+I don't think we need anything after this, but saving here just in case:
 
 1. In the [!UICONTROL **Feed Information**] section, complete the following fields:
    

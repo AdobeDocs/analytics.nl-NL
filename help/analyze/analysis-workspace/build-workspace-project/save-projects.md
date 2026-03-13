@@ -4,7 +4,7 @@ title: Projecten opslaan
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
   Wanneer u uw project voor het eerst opslaat, wordt een dialoogvenster **[!UICONTROL Save]** weergegeven.
 
-  ![&#x200B; sparen project &#x200B;](assets/save-project.png)
+  ![ sparen project ](assets/save-project.png)
 
    1. Geef het volgende op:
 
@@ -52,7 +52,7 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
   Als u een project opslaat dat u hebt gedeeld, verschijnt er een waarschuwingsvenster van **[!UICONTROL Save changes to shared project]** waarin u om bevestiging wordt gevraagd.
 
-  ![&#x200B; sparen gedeeld project &#x200B;](assets/save-project-shared.png)
+  ![ sparen gedeeld project ](assets/save-project-shared.png)
 
    * Selecteer **[!UICONTROL Save]** om het project op te slaan.
    * Selecteer **[!UICONTROL Save as]** om het project op te slaan als een dubbel project met een nieuwe naam.
@@ -60,18 +60,18 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
 * **[!UICONTROL Save with notes]**
 
-  ![&#x200B; sparen met nota&#39;s &#x200B;](assets/save-version-notes.png)
+  ![ sparen met nota&#39;s ](assets/save-version-notes.png)
 
   Wanneer u uw project opslaat, voegt u notities toe over wat er in het project is gewijzigd. In het dialoogvenster Versienotities opslaan:
 
    1. Voer de **[!UICONTROL Version notes]** in het tekstgebied **[!UICONTROL Add notes]** in.
    1. Selecteer **[!UICONTROL Save]**.
 
-  De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar wanneer u [&#x200B; een vorige versie &#x200B;](open-projects.md#open-previous-version) van het project opent. Een versie die met notities wordt opgeslagen, wordt automatisch één jaar lang opgeslagen.
+  De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar wanneer u [ een vorige versie ](open-projects.md#open-previous-version) van het project opent. Een versie die met notities wordt opgeslagen, wordt automatisch één jaar lang opgeslagen.
 
 * **[!UICONTROL Save As]**
 
-  ![&#x200B; sparen project als &#x200B;](assets/save-project-as.png)
+  ![ sparen project als ](assets/save-project-as.png)
 
   Maak een duplicaat van uw project met een nieuwe naam. Het dialoogvenster Opslaan als wordt weergegeven.
 
@@ -88,7 +88,8 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
   U kunt het project opslaan in een andere map. Dit heeft geen invloed op het oorspronkelijke project.
 
 
-<!-- Cannot find this option in CJA 
+<!--
+Cannot find this option in CJA 
 | **[!UICONTROL Save as template]** | Save your project as a [custom template](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
@@ -113,8 +114,8 @@ Een hersteld project herstellen:
 1. Ga naar de map **[!UICONTROL Recovered Projects (Last 7 Days)]** op de bestemmingspagina van Analysis Workspace.
 
 <!-- 
-     ![The list of folders highlighting the Recovered Project folder.](assets/recovered-folder.png)
-  -->
+   ![The list of folders highlighting the Recovered Project folder.](assets/recovered-folder.png)
+-->
 
 1. Open het project en sla het op de gewenste locatie op.
 
@@ -158,7 +159,8 @@ Als uw browser vastloopt of als uw sessietijden uit, dan wordt de volgende keer 
 Voor **nieuwe** projecten die nooit zijn bewaard, zijn niet bewaarde veranderingen niet terugwinbaar.
 
 
-<!-- Shouldn't this belong to another page?  Moved it to a new open projects page
+<!--
+Shouldn't this belong to another page?  Moved it to a new open projects page
 
 
 ## Open previously saved version
@@ -175,7 +177,6 @@ To open a previously saved version of a project:
    [!UICONTROL Timestamp] and [!UICONTROL Editor] are shown, in addition to [!UICONTROL Notes] if they were added when the [!UICONTROL Editor] saved. Versions without notes are stored for 90 days; versions with notes are stored for 1 year.
 1. Select a previous version and click **[!UICONTROL Load]**.
    The previous version then loads with a notification. The previous version does not become the current saved version of your project until you click **[!UICONTROL Save]**. If you navigate away from the loaded version, when you return, you will see the last saved version of the project.
-
 -->
 
 
@@ -271,5 +272,4 @@ To open a previous version of a project:
    [!UICONTROL Timestamp] and [!UICONTROL Editor] are shown, in addition to [!UICONTROL Notes] if they were added when the [!UICONTROL Editor] saved. Versions without notes are stored for 90 days; versions with notes are stored for 1 year.
 1. Select a previous version and click **[!UICONTROL Load]**.
    The previous version then loads with a notification. The previous version does not become the current saved version of your project until you click **[!UICONTROL Save]**. If you navigate away from the loaded version, when you return, you will see the last saved version of the project. 
-
 -->

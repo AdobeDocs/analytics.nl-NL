@@ -3,7 +3,8 @@ title: Adobe Analytics onboarding
 description: Welkom bij de Adobe Analytics digitale ervaring op instapkaartseries! Aan boord van belangrijke Adobe-platforms die Adobe Analytics ondersteunen om u en uw organisatie te helpen slagen.
 role: Admin
 feature: Analytics Basics
-source-git-commit: 2c614ec00f9e79a392e677fbcbccc25116d8e880
+exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 2%
@@ -20,14 +21,15 @@ Uw Adobe Analytics-reis begint met het instappen van de juiste configuraties en 
 
 Bekijk de volgende video&#39;s om de instapreis van Adobe Admin Console for User and Access Setup naar Adobe Experience League te voltooien voor documentatie en ondersteuning, en ten slotte Adobe Analytics zelf.
 
-<!-- CARDS
+<!--
+CARDS
 
 * ./onboard.md
   {title = Adobe Experience League}
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476890/?captions=dut&format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -57,6 +59,7 @@ Bekijk de volgende video&#39;s om de instapreis van Adobe Admin Console for User
   {url = #adobe-analytics}
   {image = https://video.tv.adobe.com/v/3476772/?format=jpeg&nocache=1763486440891}
 -->
+
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Experience League">
@@ -64,7 +67,7 @@ Bekijk de volgende video&#39;s om de instapreis van Adobe Admin Console for User
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476890/?captions=dut&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -180,28 +183,28 @@ Bekijk de volgende video&#39;s om de instapreis van Adobe Admin Console for User
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476890/?captions=dut&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Bord aan [&#x200B; de Liga van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/nl) om tot [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics), [&#x200B; leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/overview) toegang te hebben, en meer om u te helpen slagen.
+Bord aan [ de Liga van de Ervaring van Adobe ](https://experienceleague.adobe.com/) om tot [ documentatie ](https://experienceleague.adobe.com/en/docs/analytics), [ leerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview) toegang te hebben, en meer om u te helpen slagen.
 
 
 ## Adobe Admin Console
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476921/?learn=on&enablevpops)
 
-Aan boord aan [&#x200B; Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/) om de productbetiteling voor uw Organisatie te beheren. Gebruikerstoegang toevoegen, verwijderen of wijzigen
+Aan boord aan [ Adobe Admin Console ](https://adminconsole.adobe.com/) om de productbetiteling voor uw Organisatie te beheren. Gebruikerstoegang toevoegen, verwijderen of wijzigen
 
 ## Adobe Admin Console-gebruikersbeheer
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476898/?learn=on&enablevpops)
 
-Aan boord aan het [&#x200B; Beheer van de Gebruiker van Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/redirect@AdobeOrg/users) om gebruikers, groepen, en profielen te beheren. Leer hoe u een productrol toewijst aan een gebruiker of groep.
+Aan boord aan het [ Beheer van de Gebruiker van Adobe Admin Console ](https://adminconsole.adobe.com/redirect@AdobeOrg/users) om gebruikers, groepen, en profielen te beheren. Leer hoe u een productrol toewijst aan een gebruiker of groep.
 
 ## Verhoog een ondersteuningskwestie
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Bord aan de Liga van de Ervaring van Adobe aan [&#x200B; heft een steungeval, herzie actieve en vroegere gevallen &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL#support).
+Bord aan de Liga van de Ervaring van Adobe aan [ heft een steungeval, herzie actieve en vroegere gevallen ](https://experienceleague.adobe.com/home#support).
 
 
 ## Adobe Analytics
@@ -214,7 +217,7 @@ Uw Adobe Analytics-reis begint met het instappen van de juiste configuraties en 
 
 Nadat u uw instapsysteem voor Adobe Analytics en de ondersteunende platforms hebt voltooid, kunt u de volgende bronnen onderzoeken om uw kennis te verdiepen en uw vaardigheden te verbeteren:
 
-1. [&#x200B; Inleiding aan Adobe Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [&#x200B; Begrijp en creeer de Suites van het Rapport &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
-3. [&#x200B; documentatie van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics)
-4. [&#x200B; zelfstudies en video&#39;s van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/overview)
+1. [ Inleiding aan Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [ Begrijp en creeer de Suites van het Rapport ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+3. [ documentatie van Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics)
+4. [ zelfstudies en video&#39;s van Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)

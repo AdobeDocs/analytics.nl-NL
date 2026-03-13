@@ -3,7 +3,7 @@ description: Begrijp hoe te om kwesties met betrekking tot segmenten problemen o
 title: Problemen oplossen
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 1%
@@ -14,7 +14,8 @@ ht-degree: 1%
 
 Dit artikel maakt een lijst van sommige gemeenschappelijke kwesties met segmenten en hoe te om deze kwesties problemen op te lossen.
 
-<!-- Looks like this is not part anymore of the current UI.
+<!--
+Looks like this is not part anymore of the current UI.
 
 ## Error: "Incompatible elements in this segment" {#incompatible}
 
@@ -22,14 +23,13 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 * Save the segment in a different folder 
 * Remove or change the incompatible portions of the segment.
-
 -->
 
 ## Waarom retourneert mijn segment helemaal geen gegevens? {#no-data}
 
 Mogelijke redenen:
 
-* Omgekeerd het nesten - bijvoorbeeld, het nestelen van a ![&#x200B; Gebruiker &#x200B;](/help/assets/icons/User.svg) **[!UICONTROL Visitor]** container onder a ![&#x200B; Bezoek &#x200B;](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** container.
+* Omgekeerd het nesten - bijvoorbeeld, het nestelen van a ![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Visitor]** container onder a ![ Bezoek ](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** container.
 * Het rapport ondersteunt segmentatie niet.
 * Er zijn geen gegevens die overeenkomen met de segmenteringscriteria.
 
