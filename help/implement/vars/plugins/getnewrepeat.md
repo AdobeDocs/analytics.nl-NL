@@ -4,9 +4,9 @@ description: Traceeractiviteiten van nieuwe versus herhaalde bezoekers.
 feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 {{plug-in}}
 
-Met de insteekmodule `getNewRepeat` kunt u bepalen of een bezoeker van de site binnen een gewenst aantal dagen een nieuwe bezoeker of een herhaalde bezoeker is. Adobe raadt u aan deze insteekmodule te gebruiken als u bezoekers wilt identificeren als &#39;nieuw&#39; met behulp van een aangepast aantal dagen. Deze insteekmodule is niet nodig als de afmetingen van de nieuwe bezoeker/de nieuwe bezoeker in Analysis Workspace voldoen aan de behoeften van uw organisatie.
+Met de insteekmodule `getNewRepeat` kunt u bepalen of een bezoeker van de site binnen een gewenst aantal dagen een nieuwe bezoeker of een herhaalde bezoeker is. Adobe raadt u aan deze insteekmodule te gebruiken als u bezoekers wilt identificeren als &#39;nieuw&#39; met behulp van een aangepast aantal dagen. Deze insteekmodule is onnodig als de segmenten &#39;[!UICONTROL New Visitors]&#39; en &#39;[!UICONTROL Repeat Visitors]&#39; in Analysis Workspace aan de behoeften van uw organisatie voldoen.
 
 ## De insteekmodule installeren met de extensie Web SDK
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken voor de webversie van SDK.
 
-1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op **[!UICONTROL Tags]** aan de linkerkant en klik op de gewenste eigenschap Tag.
 1. Klik op **[!UICONTROL Extensions]** aan de linkerkant en klik vervolgens op de tab **[!UICONTROL Catalog]**
 1. Zoek en installeer de extensie **[!UICONTROL Common Web SDK Plugins]** .
@@ -40,7 +40,7 @@ Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige imp
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
 
-1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -56,7 +56,7 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adob
 
 Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
-1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
+1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/data-collection) gebruikend uw geloofsbrieven van AdobeID.
 1. Klik op de gewenste eigenschap.
 1. Ga naar de tab [!UICONTROL Extensions] en klik vervolgens op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
 1. Vouw de accordeon [!UICONTROL Configure tracking using custom code] uit, zodat de knop [!UICONTROL Open Editor] zichtbaar wordt.

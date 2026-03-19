@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Handleiding voor componenten
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 7%
+source-wordcount: '745'
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 # [!DNL Adobe Analytics] Handleiding voor componenten {#components}
 
 + [Handleiding voor analytische componenten](home.md)
-+ [&#x200B; de versienota&#39;s van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/release-notes/latest)
++ [ de versienota&#39;s van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -25,6 +25,9 @@ ht-degree: 7%
    + [Activity Map Region](dimensions/activity-map-region.md)
    + [Advertentieplatform](dimensions/ad-consent.md)
    + [Alle zoekpaginanummers](dimensions/all-search-page-rank.md)
+   + [AMO-id](dimensions/amo-id.md)
+   + [AMO EF-ID](dimensions/amo-ef-id.md)
+   + [AMO Meta Ads Click ID](dimensions/amo-meta-id.md)
    + [AM/PM](dimensions/am-pm.md)
    + [Bot-naam](dimensions/bot-name.md)
    + [Hoogte browser](dimensions/browser-height.md)
@@ -120,7 +123,7 @@ ht-degree: 7%
    + [Postcode](dimensions/zip-code.md)
 + Metrics {#metrics}
    + [Overzicht van cijfers](metrics/overview.md)
-   + [Herhalingsinstanties tellen](metrics/count-repeat-instances.md)
+   + [Advertising-meetgegevens](metrics/amo-metrics.md)
    + [Gemiddelde paginadiepte](metrics/average-page-depth.md)
    + [Gemiddelde paginaweergaven per bezoek](metrics/average-page-views-per-visit.md)
    + [Gemiddelde sessielengte](metrics/average-session-length.md)
@@ -258,7 +261,7 @@ ht-degree: 7%
    + [Overzicht](alerts/alerts-overview.md)
    + [Waarschuwingen maken](alerts/alert-builder.md)
    + [Waarschuwingen beheren](alerts/alert-manager.md)
-   + [Gebruik hoofdletters](alerts/alerts-use-cases.md)
+   + [Gebruiksscenario&#39;s](alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
    + [Overzicht van classificaties](classifications/classifications-overview.md)
    + Classificatiesets {#sets}

@@ -3,20 +3,20 @@ title: Basisdimensies voor streaming mediaservices
 description: Beschikbare afmetingen wanneer u [!UICONTROL Media Core] inschakelt voor een rapportsuite.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Basisdimensies voor streaming mediaservices
 
-*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat. Zie [&#x200B; Streaming media diensten kernmetriek &#x200B;](../metrics/sm-core.md) voor beschikbare metriek.*
+*Deze pagina beschrijft de beschikbare afmetingen wanneer u [!UICONTROL Media Core] voor een rapportreeks toelaat. Zie [ Streaming media diensten kernmetriek ](../metrics/sm-core.md) voor beschikbare metriek.*
 
 De belangrijkste dimensies van de streaming media diensten verstrekken basisrapporteringsfunctionaliteit aan gegevens die door het stromen de dienstenbibliotheken van media worden verzameld. Voor het gebruik van deze afmetingen is de instructie **[!UICONTROL Adobe Analytics for Streaming Media Add-on]** vereist. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
-Wanneer u **[!UICONTROL Media Core]** onder [&#x200B; Media die &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
+Wanneer u **[!UICONTROL Media Core]** onder [ Media die ](/help/admin/tools/manage-rs/edit-settings/media-management.md) melden toelaat, zijn de volgende afmetingen beschikbaar:
 
 | Dimension-naam | Beschrijving | Verzonden met | Variabele van contextgegevens | XDM-veld |
 | --- | --- | --- | --- | --- |
@@ -28,6 +28,7 @@ Wanneer u **[!UICONTROL Media Core]** onder [&#x200B; Media die &#x200B;](/help/
 | **[!UICONTROL Content segment]** | Het interval dat het gedeelte van de inhoud beschrijft dat is weergegeven, in minuten. Het segment wordt berekend als min en max van de waarden van de afspeelkop tijdens een afspeelsessie. | Media sluiten | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
 | **[!UICONTROL Content type]** | Het type inhoud. Geldige waarden zijn `song` , `podcast` , `audiobook` , `radio` , `VoD` , `Live` , `Linear` , `UGC` , `DVoD` of een aangepaste waarde. | Media starten, Media sluiten | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
 | **[!UICONTROL Media path]** | Het pad dat de bezoeker heeft gekozen om de inhoud te bereiken. | Start media | `a.media.path` | |
+| **[!UICONTROL Media session ID]** | Identificeert een instantie van een inhoudsstroom uniek aan een individuele playback. | Media starten, Media sluiten | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
 | **[!UICONTROL Stream type]** | Het streamtype. Geldige waarden zijn `audio` en `video` . | Media starten, Media sluiten | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
 
 Naast de bovenstaande afmetingen maakt Adobe automatisch de volgende classificatieafmetingen. U moet classificatiegegevens uploaden om rapporten te bekijken die deze afmetingen gebruiken.

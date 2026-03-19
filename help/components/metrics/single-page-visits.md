@@ -3,25 +3,29 @@ title: Bezoeken op één pagina (cijfers)
 description: Het aantal keren dat het item Pagina-afmeting niet is gewijzigd tijdens een bezoek.
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 5%
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
 # Eén pagina bezoeken
 
-*In deze Help-pagina wordt beschreven hoe &#39;Bezoekingen van één pagina&#39; werken als metrisch. Zie de [Eén pagina bezoeken](../dimensions/single-page-visits.md) dimensie voor meer informatie.*
+*Deze hulppagina beschrijft hoe de &quot;Enige paginabezoeken&quot;als metrisch werken. Zie [ Enige paginabezoeken ](../dimensions/single-page-visits.md) afmeting voor meer informatie.*
 
-De [!UICONTROL Single page visits] [metrisch](overview.md) het aantal bezoeken waarbij de [Pagina](../dimensions/page.md) dimensie-item bevatte slechts één unieke waarde voor het gehele bezoek. Deze maatstaf is handig in de context van dimensies waar u korte bezoeken wilt zien, maar die niet zo streng van een regel hebben als [[!UICONTROL Bounces]](bounces.md) wel.
+**[!UICONTROL Single page visits]** [ metrisch ](overview.md) toont het aantal bezoeken waar het [ pagina ](../dimensions/page.md) afmetingspunt slechts één enkele waarde voor het volledige bezoek bevatte. Deze maatstaf is handig in de context van afmetingen waarin u korte bezoeken wilt zien, maar die niet zo streng zijn als [[!UICONTROL Bounces]](bounces.md) .
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische waarde telt het aantal bezoeken waar [!UICONTROL Page] dimensie-item bevatte slechts één unieke waarde voor het gehele bezoek. Als een bezoeker de pagina opnieuw laadt of koppelingsvolgvraag in brand steekt, telt het nog steeds als één enkel paginabezoek. Zodra de pagina-dimensie verandert in een tweede unieke waarde, komt het bezoek niet meer in aanmerking als een enkele pagina-bezoek.
+De definitie van deze metrische waarde is afhankelijk van de projectinstelling [[!UICONTROL Count repeat instances]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings) :
 
-Zie [Enkelvoudige toegang](single-access.md) voor een vergelijking tussen de meetwaarden.
+* **[!UICONTROL Count repeat instances]enabled**: Telt het aantal bezoeken waar de [!UICONTROL Page] dimensie één enkele waarde voor het bezoek bevatte. Als een bezoeker de pagina opnieuw laadt, wordt deze als een enkele pagina van het bezoek uitgesloten.
+* **[!UICONTROL Count repeat instances]disabled**: Telt het aantal bezoeken waar de [!UICONTROL Page] -dimensie één unieke waarde voor het volledige bezoek bevatte.
 
-## Herhalingsinstanties tellen
+Ongeacht het &quot;[!UICONTROL Count repeat instances]&quot;project het plaatsen, volgt dit metrisch aan de volgende regels:
 
-Hiermee kunt u aangeven of herhalingsinstanties moeten worden geteld voor de rapportage. Zie voor meer informatie [Herhalingsinstanties tellen](/help/components/metrics/count-repeat-instances.md).
+* Een bezoek komt nog steeds in aanmerking als een bezoeker één pagina bezoekt wanneer een bezoeker aanroepen voor het bijhouden van koppelingen activeert (de [!UICONTROL Page] -dimensie wordt verwijderd van alle aanroepen voor het bijhouden van koppelingen).
+* Zodra de [!UICONTROL Page] -dimensie verandert in een tweede unieke waarde, komt het bezoek niet meer in aanmerking als een enkele pagina.
+
+Zie [ Enige toegang ](single-access.md) voor een vergelijking tussen metriek.
