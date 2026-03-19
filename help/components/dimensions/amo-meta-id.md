@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # AMO Meta Ads Click ID
 
-De **[!UICONTROL AMO Meta Ads Click ID]** is een id voor een advertentie-klik die wordt gebruikt in Adobe Advertising-integratie. De afmeting wordt automatisch gecreeerd wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview). Het is hoofdzakelijk nuttig als ruwe het volgen herkenningsteken eerder dan een leesbare rapporteringsdimensie.
+De **[!UICONTROL AMO Meta Ads Click ID]** is een id voor een advertentie-klik die wordt gebruikt in Adobe Advertising-integratie. De afmeting wordt automatisch gecreeerd wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/nl/docs/advertising/integrations/analytics/overview). Het is hoofdzakelijk nuttig als ruwe het volgen herkenningsteken eerder dan een leesbare rapporteringsdimensie.
 
 ## Deze dimensie vullen met gegevens
 

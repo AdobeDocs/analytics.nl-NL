@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # AMO EF-ID
 
-De **[!UICONTROL AMO EF ID]** is een id voor een advertentie-klik die wordt gebruikt in Adobe Advertising-integratie. Het is een unieke token die Adobe Advertising gebruikt om activiteiten te koppelen aan een online klik of belichting op bezoekersniveau. De afmeting wordt automatisch gecreeerd wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
+De **[!UICONTROL AMO EF ID]** is een id voor een advertentie-klik die wordt gebruikt in Adobe Advertising-integratie. Het is een unieke token die Adobe Advertising gebruikt om activiteiten te koppelen aan een online klik of belichting op bezoekersniveau. De afmeting wordt automatisch gecreeerd wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/nl/docs/advertising/integrations/analytics/overview).
 
 ## Deze dimensie vullen met gegevens
 

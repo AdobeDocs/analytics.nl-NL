@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Advertising-meetgegevens
 
-Deze metriek wordt automatisch gecreeerd wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview). Zie [&#x200B; Metriek van Adobe Advertising in Analysis Workspace &#x200B;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics) in de documentatie van Adobe Advertising voor meer informatie.
+Deze metriek wordt automatisch gecreeerd wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/nl/docs/advertising/integrations/analytics/overview). Zie [&#x200B; Metriek van Adobe Advertising in Analysis Workspace &#x200B;](https://experienceleague.adobe.com/nl/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics) in de documentatie van Adobe Advertising voor meer informatie.
 
 | Metrisch | Beschrijving |
 | --- | --- |

@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # AMO-id
 
-**[!UICONTROL AMO ID]** is een verzameling samengevoegde id&#39;s die worden gebruikt in Adobe Advertising-integratie. Waarden die in deze dimensie zijn opgeslagen, worden automatisch ingedeeld in afzonderlijke, meer leesbare classificatiedimensies voor gebruik in analytische rapportage. De afmeting wordt automatisch gecreeerd wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
+**[!UICONTROL AMO ID]** is een verzameling samengevoegde id&#39;s die worden gebruikt in Adobe Advertising-integratie. Waarden die in deze dimensie zijn opgeslagen, worden automatisch ingedeeld in afzonderlijke, meer leesbare classificatiedimensies voor gebruik in analytische rapportage. De afmeting wordt automatisch gecreeerd wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/nl/docs/advertising/integrations/analytics/overview).
 
 ## Deze dimensie vullen met gegevens
 
@@ -133,7 +133,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## Classificaties
 
-Wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview), worden de volgende classificaties automatisch gecreeerd. De classificatiewaarden worden automatisch door de integratie gehandhaafd.
+Wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/nl/docs/advertising/integrations/analytics/overview), worden de volgende classificaties automatisch gecreeerd. De classificatiewaarden worden automatisch door de integratie gehandhaafd.
 
 | Classificatie | Beschrijving | DSP | Onderzoek, <br> Sociale, &amp; <br> Commerce |
 | --- | --- | :---: | :---: |

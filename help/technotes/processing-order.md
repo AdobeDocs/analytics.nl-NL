@@ -52,7 +52,7 @@ Wanneer de voorbewerking is voltooid, gebruiken verschillende functies deze gede
 Op dit punt worden gegevens uit het midden van de waarde verzonden naar de desbetreffende functie:
 
 * [**Livestream API** &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/): Verbind een toepassing met de livestreamdienst van Adobe voor een stroom van gegevens aangezien het wordt verzameld.
-* [**&#x200B;** de Schakelaar van Source van 0&rbrace; Analytics: De gegevens van de het rapportreeks van Adobe Analytics in een dataset van Adobe Experience Platform samenvatten.](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)
+* [**&#x200B;** de Schakelaar van Source van 0&rbrace; Analytics: De gegevens van de het rapportreeks van Adobe Analytics in een dataset van Adobe Experience Platform samenvatten.](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/analytics)
 * [**Echt - tijd rapporterend**](/help/components/c-real-time-reporting/realtime.md): Verstrekt tot drie configureerbare rapporten in real time in Analysis Workspace.
 
 ## Bezoek en verwerking op bezoekersniveau
