@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Enkelvoudige toegang
 
-**[!UICONTROL Single access]** [ metrisch ](overview.md) toont het aantal bezoeken waar de toepasselijke het melden afmeting slechts één enkele waarde voor een volledig bezoek bevatte. Het is de bredere, dimensiespecifieke versie van [[!UICONTROL Single page visits]](single-page-visits.md). Deze metrische waarde is handig voor elke dimensie waarin u de waarde van een dimensie wilt zien wanneer deze slechts eenmaal is ingesteld tijdens een bezoek.
+**[!UICONTROL Single access]** [&#x200B; metrisch &#x200B;](overview.md) toont het aantal bezoeken waar de toepasselijke het melden afmeting slechts één enkele waarde voor een volledig bezoek bevatte. Het is de bredere, dimensiespecifieke versie van [[!UICONTROL Single page visits]](single-page-visits.md). Deze metrische waarde is handig voor elke dimensie waarin u de waarde van een dimensie wilt zien wanneer deze slechts eenmaal is ingesteld tijdens een bezoek.
 
 ## Hoe deze metrische waarde wordt berekend
 

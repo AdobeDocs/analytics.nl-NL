@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Eén pagina bezoeken
 
-*Deze hulppagina beschrijft hoe de &quot;Enige paginabezoeken&quot;als metrisch werken. Zie [ Enige paginabezoeken ](../dimensions/single-page-visits.md) afmeting voor meer informatie.*
+*Deze hulppagina beschrijft hoe de &quot;Enige paginabezoeken&quot;als metrisch werken. Zie [&#x200B; Enige paginabezoeken &#x200B;](../dimensions/single-page-visits.md) afmeting voor meer informatie.*
 
-**[!UICONTROL Single page visits]** [ metrisch ](overview.md) toont het aantal bezoeken waar het [ pagina ](../dimensions/page.md) afmetingspunt slechts één enkele waarde voor het volledige bezoek bevatte. Deze maatstaf is handig in de context van afmetingen waarin u korte bezoeken wilt zien, maar die niet zo streng zijn als [[!UICONTROL Bounces]](bounces.md) .
+**[!UICONTROL Single page visits]** [&#x200B; metrisch &#x200B;](overview.md) toont het aantal bezoeken waar het [&#x200B; pagina &#x200B;](../dimensions/page.md) afmetingspunt slechts één enkele waarde voor het volledige bezoek bevatte. Deze maatstaf is handig in de context van afmetingen waarin u korte bezoeken wilt zien, maar die niet zo streng zijn als [[!UICONTROL Bounces]](bounces.md) .
 
 ## Hoe deze metrische waarde wordt berekend
 
@@ -28,4 +28,4 @@ Ongeacht het &quot;[!UICONTROL Count repeat instances]&quot;project het plaatsen
 * Een bezoek komt nog steeds in aanmerking als een bezoeker één pagina bezoekt wanneer een bezoeker aanroepen voor het bijhouden van koppelingen activeert (de [!UICONTROL Page] -dimensie wordt verwijderd van alle aanroepen voor het bijhouden van koppelingen).
 * Zodra de [!UICONTROL Page] -dimensie verandert in een tweede unieke waarde, komt het bezoek niet meer in aanmerking als een enkele pagina.
 
-Zie [ Enige toegang ](single-access.md) voor een vergelijking tussen metriek.
+Zie [&#x200B; Enige toegang &#x200B;](single-access.md) voor een vergelijking tussen metriek.

@@ -11,13 +11,13 @@ ht-degree: 0%
 
 # AMO EF-ID
 
-De **[!UICONTROL AMO EF ID]** is een id voor een advertentie-klik die wordt gebruikt in Adobe Advertising-integratie. Het is een unieke token die Adobe Advertising gebruikt om activiteiten te koppelen aan een online klik of belichting op bezoekersniveau. De afmeting wordt automatisch gecreeerd wanneer het toelaten van [ Analytics voor de integratie van Advertising ](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
+De **[!UICONTROL AMO EF ID]** is een id voor een advertentie-klik die wordt gebruikt in Adobe Advertising-integratie. Het is een unieke token die Adobe Advertising gebruikt om activiteiten te koppelen aan een online klik of belichting op bezoekersniveau. De afmeting wordt automatisch gecreeerd wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
 
 ## Deze dimensie vullen met gegevens
 
 Deze dimensie verzamelt de waarden ervan op meerdere manieren:
 
-* Voor klik-door verkeer, wordt het gegeven verzameld van de `ef_id` parameter van het vraagkoord in de [ Pagina URL ](page-url.md), gewoonlijk op de pagina waardoor het ad-gedreven verkeer de plaats ingaat.
+* Voor klik-door verkeer, wordt het gegeven verzameld van de `ef_id` parameter van het vraagkoord in de [&#x200B; Pagina URL &#x200B;](page-url.md), gewoonlijk op de pagina waardoor het ad-gedreven verkeer de plaats ingaat.
 * Doorklikken kan ook worden vastgelegd wanneer de URL geen volgcodes bevat, maar de Adobe Advertising JavaScript detecteert een klik in de voorafgaande twee minuten.
 * Voor gesteund mening-door verkeer, vult Adobe Advertising waarden op het achterste eind gebruikend een supplementaire identiteitskaart (`SDID`).
 

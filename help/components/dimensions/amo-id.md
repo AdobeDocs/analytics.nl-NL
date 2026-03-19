@@ -11,13 +11,13 @@ ht-degree: 1%
 
 # AMO-id
 
-**[!UICONTROL AMO ID]** is een verzameling samengevoegde id&#39;s die worden gebruikt in Adobe Advertising-integratie. Waarden die in deze dimensie zijn opgeslagen, worden automatisch ingedeeld in afzonderlijke, meer leesbare classificatiedimensies voor gebruik in analytische rapportage. De afmeting wordt automatisch gecreeerd wanneer het toelaten van [ Analytics voor de integratie van Advertising ](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
+**[!UICONTROL AMO ID]** is een verzameling samengevoegde id&#39;s die worden gebruikt in Adobe Advertising-integratie. Waarden die in deze dimensie zijn opgeslagen, worden automatisch ingedeeld in afzonderlijke, meer leesbare classificatiedimensies voor gebruik in analytische rapportage. De afmeting wordt automatisch gecreeerd wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
 
 ## Deze dimensie vullen met gegevens
 
 Deze dimensie verzamelt de waarden ervan op meerdere manieren:
 
-* Voor klik-door verkeer, wordt het gegeven verzameld van de `s_kwcid` parameter van het vraagkoord in de [ Pagina URL ](page-url.md), gewoonlijk op de pagina waardoor het ad-gedreven verkeer de plaats ingaat.
+* Voor klik-door verkeer, wordt het gegeven verzameld van de `s_kwcid` parameter van het vraagkoord in de [&#x200B; Pagina URL &#x200B;](page-url.md), gewoonlijk op de pagina waardoor het ad-gedreven verkeer de plaats ingaat.
 * Doorklikken kan ook worden vastgelegd wanneer de URL geen volgcodes bevat, maar de Adobe Advertising JavaScript detecteert een klik in de voorafgaande twee minuten.
 * Voor gesteund mening-door verkeer, vult Adobe Advertising waarden op het achterste eind gebruikend een supplementaire identiteitskaart (`SDID`).
 
@@ -133,30 +133,30 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## Classificaties
 
-Wanneer het toelaten van [ Analytics voor de integratie van Advertising ](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview), worden de volgende classificaties automatisch gecreeerd. De classificatiewaarden worden automatisch door de integratie gehandhaafd.
+Wanneer het toelaten van [&#x200B; Analytics voor de integratie van Advertising &#x200B;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview), worden de volgende classificaties automatisch gecreeerd. De classificatiewaarden worden automatisch door de integratie gehandhaafd.
 
 | Classificatie | Beschrijving | DSP | Onderzoek, <br> Sociale, &amp; <br> Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL Account]** | De accountnaam. | &amp;check; | &amp;check; |
-| **[!UICONTROL Ad Display URL]** | De URL die wordt weergegeven in de advertentie. | | &amp;check; |
-| **[!UICONTROL Ad Description]** | De beschrijving van de advertentie (DSP) of advertentie (Zoeken, Sociaal en Commerce). | &amp;check; | &amp;check; |
-| **[!UICONTROL Ad Destination URL]** | De doel-URL voor de advertentie. | | &amp;check; |
-| **[!UICONTROL Ad Group]** | De naam van de advertentiegroep. | | &amp;check; |
-| **[!UICONTROL Ad Platform]** | De naam van de advertentie-DSP of zoekmachine. | &amp;check; | &amp;check; |
-| **[!UICONTROL Ad Title]** | Het advertentietype (DSP) of advertentietype (Zoeken, Sociaal en Commerce). | &amp;check; | &amp;check; |
-| **[!UICONTROL Ad Type]** | Het advertentietype, zoals `text` , `video` , `display` of `native` . | &amp;check; | &amp;check; |
+| **[!UICONTROL Account]** | De accountnaam. | &check; | &check; |
+| **[!UICONTROL Ad Display URL]** | De URL die wordt weergegeven in de advertentie. | | &check; |
+| **[!UICONTROL Ad Description]** | De beschrijving van de advertentie (DSP) of advertentie (Zoeken, Sociaal en Commerce). | &check; | &check; |
+| **[!UICONTROL Ad Destination URL]** | De doel-URL voor de advertentie. | | &check; |
+| **[!UICONTROL Ad Group]** | De naam van de advertentiegroep. | | &check; |
+| **[!UICONTROL Ad Platform]** | De naam van de advertentie-DSP of zoekmachine. | &check; | &check; |
+| **[!UICONTROL Ad Title]** | Het advertentietype (DSP) of advertentietype (Zoeken, Sociaal en Commerce). | &check; | &check; |
+| **[!UICONTROL Ad Type]** | Het advertentietype, zoals `text` , `video` , `display` of `native` . | &check; | &check; |
 | **[!UICONTROL AdCloud Attribute 1]** -<br>**[!UICONTROL AdCloud Attribute 5]** | Classificaties van plaatsaanduidingen zijn gereserveerd voor toekomstige aangepaste kenmerken. Momenteel niet in gebruik. | | |
-| **[!UICONTROL Campaign]** | De naam van de campagne. | &amp;check; | &amp;check; |
-| **[!UICONTROL Creative Experience Name]** | Naam van de creatieve ervaring verbonden aan de advertentie interactie, die een groep creatieve variaties vertegenwoordigt die in het testen of verpersoonlijken worden gebruikt. | &amp;check; | |
-| **[!UICONTROL Creative Branch Name]** | Naam van de vertakking binnen een creatieve ervaring die een specifieke variatie of weg in het creatieve experiment vertegenwoordigt. | &amp;check; | |
-| **[!UICONTROL Creative Branch ID]** | Unieke id die aan een creatieve vertakking wordt toegewezen binnen een creatieve ervaring. | &amp;check; | |
-| **[!UICONTROL Creative Name]** | Naam van het specifieke en creatieve middel dat aan de gebruiker werd betekend. | &amp;check; | |
-| **[!UICONTROL Creative Variant Name]** | Naam van de specifieke variant van een creatief object dat wordt gebruikt binnen een creatieve ervaring of vertakking. | &amp;check; | |
-| **[!UICONTROL Keyword]** | Het trefwoord. | | &amp;check; |
-| **[!UICONTROL Keyword Match Type]** | Het trefwoord en het overeenkomende type. | | &amp;check; |
-| **[!UICONTROL Landing Type]** | Hiermee wordt aangegeven of het item van de openingspagina een doorkijkeffect of een doorklikeffect heeft. | &amp;check; | &amp;check; |
-| **[!UICONTROL Match Type]** | Het type zoekovereenkomst. | | &amp;check; |
-| **[!UICONTROL Network]** | RTB (DSP) of de naam van het advertentienetwerk (Search, Social, &amp; Commerce). | &amp;check; | &amp;check; |
-| **[!UICONTROL Optimization]** | De pakketnaam (DSP) of de portfolionaam (Zoeken, Sociaal en Commerce). | &amp;check; | &amp;check; |
-| **[!UICONTROL Placement]** | De plaatsingsnaam. | &amp;check; | |
-| **[!UICONTROL Product Target]** | Het productdoel voor een advertentie voor een productaanbieding. | | &amp;check; |
+| **[!UICONTROL Campaign]** | De naam van de campagne. | &check; | &check; |
+| **[!UICONTROL Creative Experience Name]** | Naam van de creatieve ervaring verbonden aan de advertentie interactie, die een groep creatieve variaties vertegenwoordigt die in het testen of verpersoonlijken worden gebruikt. | &check; | |
+| **[!UICONTROL Creative Branch Name]** | Naam van de vertakking binnen een creatieve ervaring die een specifieke variatie of weg in het creatieve experiment vertegenwoordigt. | &check; | |
+| **[!UICONTROL Creative Branch ID]** | Unieke id die aan een creatieve vertakking wordt toegewezen binnen een creatieve ervaring. | &check; | |
+| **[!UICONTROL Creative Name]** | Naam van het specifieke en creatieve middel dat aan de gebruiker werd betekend. | &check; | |
+| **[!UICONTROL Creative Variant Name]** | Naam van de specifieke variant van een creatief object dat wordt gebruikt binnen een creatieve ervaring of vertakking. | &check; | |
+| **[!UICONTROL Keyword]** | Het trefwoord. | | &check; |
+| **[!UICONTROL Keyword Match Type]** | Het trefwoord en het overeenkomende type. | | &check; |
+| **[!UICONTROL Landing Type]** | Hiermee wordt aangegeven of het item van de openingspagina een doorkijkeffect of een doorklikeffect heeft. | &check; | &check; |
+| **[!UICONTROL Match Type]** | Het type zoekovereenkomst. | | &check; |
+| **[!UICONTROL Network]** | RTB (DSP) of de naam van het advertentienetwerk (Search, Social, &amp; Commerce). | &check; | &check; |
+| **[!UICONTROL Optimization]** | De pakketnaam (DSP) of de portfolionaam (Zoeken, Sociaal en Commerce). | &check; | &check; |
+| **[!UICONTROL Placement]** | De plaatsingsnaam. | &check; | |
+| **[!UICONTROL Product Target]** | Het productdoel voor een advertentie voor een productaanbieding. | | &check; |
