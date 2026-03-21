@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->De Grafiek van het apparaat binnen dwars-Apparaat Analytics is afgekeurd [&#x200B; en is niet meer beschikbaar op &#x200B;](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) 31 December, 2025 **.** Gelieve te schakelen om het even welke huidige apparatengrafiek toegelaten virtuele rapportreeks aan de [&#x200B; op gebied-gebaseerde methode &#x200B;](/help/components/cda/field-based-stitching.md).
+>De Grafiek van het apparaat binnen dwars-Apparaat Analytics is afgekeurd [&#x200B; en is niet meer beschikbaar op &#x200B;](https://experienceleague.adobe.com/nl/docs/discontinued/using/device-graph) 31 December, 2025 **.** Gelieve te schakelen om het even welke huidige apparatengrafiek toegelaten virtuele rapportreeks aan de [&#x200B; op gebied-gebaseerde methode &#x200B;](/help/components/cda/field-based-stitching.md).
 >
 
 
