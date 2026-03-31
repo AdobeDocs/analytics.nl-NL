@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Classificatiesets maken en bewerken
 
-U [ creeert ](#create-a-classification-set) en [ geeft ](#edit-a-classification-set) classificatiereeksen van de manager van de Reeksen van de Classificatie uit.
+U [&#x200B; creeert &#x200B;](#create-a-classification-set) en [&#x200B; geeft &#x200B;](#edit-a-classification-set) classificatiereeksen van de manager van de Reeksen van de Classificatie uit.
 
 ## Een classificatieset maken
 
@@ -20,10 +20,10 @@ Een classificatieset maken:
 
 1. Selecteer **[!UICONTROL Components]** in de bovenste menubalk van Adobe Analytics en selecteer vervolgens **[!UICONTROL Classification sets]** .
 1. Selecteer in **[!UICONTROL Classification sets]** de tab **[!UICONTROL Classification sets]** .
-1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**.
+1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**.
 1. In het dialoogvenster **[!UICONTROL Add New Classification Set]** :
 
-   ![ de Reeksen van de Classificatie - voeg Nieuwe Reeks van de Classificatie toe ](assets/classifications-sets-new.png)
+   ![&#x200B; de Reeksen van de Classificatie - voeg Nieuwe Reeks van de Classificatie toe &#x200B;](assets/classifications-sets-new.png)
 
    1. Voer een **[!UICONTROL Name]** in. Bijvoorbeeld: `Classification Set Example` .
    1. Voer een **[!UICONTROL Description (optional)]** in. Bijvoorbeeld `Example classification set` .
@@ -39,15 +39,15 @@ Een classificatieset maken:
       1. Geef een of meer door komma&#39;s gescheiden e-mailadressen op in **[!UICONTROL Success email recipients]** .
 1. Voer in de sectie **[!UICONTROL Subscriptions]** een of meer **[!UICONTROL Primary]** in voor het geval u **[!UICONTROL Subscriptions]** hebt geselecteerd.  U kunt meerdere combinaties **[!UICONTROL Report Suite]** en **[!UICONTROL Dimension]** definiëren voor een classificatieset.
 
-   * Selecteer ![ CrossSize400 ](/help/assets/icons/CrossSize400.svg) om een **[!UICONTROL Report Suite]** en **[!UICONTROL Key Dimension]** combinatie te schrappen.
+   * Selecteer ![&#x200B; CrossSize400 &#x200B;](/help/assets/icons/CrossSize400.svg) om een **[!UICONTROL Report Suite]** en **[!UICONTROL Key Dimension]** combinatie te schrappen.
 
    Als u een combinatie **[!UICONTROL Report Suite]** en **[!UICONTROL Key Dimension]** toevoegt die al in een andere classificatieset bestaat, wordt een rood gekleurd bericht weergegeven.
 U kunt:
-   * Selecteer **[!UICONTROL Add to existing]** om de andere classificatiereeks te openen en [ classificaties aan het schema ](manage/schema.md) voor die andere classificatiereeks toe te voegen.
+   * Selecteer **[!UICONTROL Add to existing]** om de andere classificatiereeks te openen en [&#x200B; classificaties aan het schema &#x200B;](manage/schema.md) voor die andere classificatiereeks toe te voegen.
    * Wijzig **[!UICONTROL Report Suite]** en **[!UICONTROL Key Dimension]** in een combinatie die niet is geabonneerd op een andere classificatieset.
 1. Selecteer **[!UICONTROL Save]** om de classificatieset op te slaan. Selecteer **[!UICONTROL Cancel]** om de definitie te annuleren.
 
-Om het schema voor de classificatiereeks te bepalen, selecteer uw onlangs gecreeerde classificatiereeks van de **[!UICONTROL Classification Sets]** manager om [ de classificatiereeks ](#edit-a-classification-set) uit te geven.
+Om het schema voor de classificatiereeks te bepalen, selecteer uw onlangs gecreeerde classificatiereeks van de **[!UICONTROL Classification Sets]** manager om [&#x200B; de classificatiereeks &#x200B;](#edit-a-classification-set) uit te geven.
 
 
 ## Een classificatieset bewerken
@@ -57,5 +57,5 @@ Een classificatieset bewerken:
 1. Selecteer **[!UICONTROL Components]** in de bovenste menubalk van Adobe Analytics en selecteer vervolgens **[!UICONTROL Classification sets]** .
 1. Selecteer in **[!UICONTROL Classification Sets]** de tab **[!UICONTROL Classification Sets]** .
 1. Selecteer de naam van de classificatieset.
-1. In de **[!UICONTROL Classification Set: _dialoog van de classificatiereeks naam_]**, kunt u de [ montages ](manage/settings.md) en het [ schema ](manage/schema.md) voor de classificatiereeks bepalen.
+1. In de **[!UICONTROL Classification Set: _dialoog van de classificatiereeks naam_]**, kunt u de [&#x200B; montages &#x200B;](manage/settings.md) en het [&#x200B; schema &#x200B;](manage/schema.md) voor de classificatiereeks bepalen.
 1. Als u klaar bent, selecteert u **[!UICONTROL Save]** om de wijzigingen op te slaan. Selecteer **[!UICONTROL Cancel]** om te annuleren.
