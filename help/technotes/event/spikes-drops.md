@@ -25,7 +25,7 @@ De dalingen van het verkeer zijn gecategoriseerd in twee secties: gedeeltelijke 
 * **Latentie van de Reeks van het Rapport**: Af en toe, kan een rapportreeks [&#x200B; latentie &#x200B;](../latency.md) toe te schrijven aan een aantal factoren ervaren. Veel latentieproblemen zijn binnen enkele uren opgelost. Als u een specifieke rapportsuite gebruikt, neemt u contact op met de klantenservice van Adobe met de desbetreffende rapportsuite-id.
 * **verwijdering van de Implementatie**: Soms wanneer een organisatie implementatieveranderingen aanbrengt of hun plaats herstructureert, wordt het opnieuw uitvoeren van Analytics over het hoofd gezien. Werk met ontwikkelaars in uw organisatie om de code op uw site opnieuw te implementeren.
 * **de interface van Analytics/caching kwestie**: In zeldzame gevallen, bevat het geheime voorgeheugen van browser ongeldige gegevens die alle rapporten maken nul terugkeren. Wis de cookies en cache van de browser om het probleem op te lossen. Als het wissen van uw cookies/cache niet werkt, neemt u contact op met de klantenservice met het ontbrekende rapport en het datumbereik. Ze kunnen de uitgave dupliceren en aanvullende informatie verstrekken.
-* **beschikbaarheid van Analytics**: Controle [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/products/1173/) voor om het even welke kwesties met gegevensinzameling of verwerking.
+* **beschikbaarheid van Analytics**: Controle [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/nl/products/1173/) voor om het even welke kwesties met gegevensinzameling of verwerking.
 
 ### Mogelijke oorzaken van gedeeltelijk ontbrekende gegevens of verminderd verkeer
 

@@ -20,7 +20,7 @@ Adobe Analytics gebruikt meerdere verificatiemethoden om u aan te melden:
 
 **Als u regelmatig toegang hebt tot Analytics en willekeurig begint aanmeldingsproblemen op te lossen, kunt u de meeste problemen verhelpen door de cookies en cache van uw browser te wissen.**
 
-Soms, kunnen de beschikbaarheidskwesties de capaciteit beïnvloeden om aan login. Controleren [status.adobe.com](https://status.adobe.com) voor openstaande incidenten. Anders, gebruik de aangewezen sectie afhankelijk van de authentificatiemethode van uw organisatie.
+Soms, kunnen de beschikbaarheidskwesties de capaciteit beïnvloeden om aan login. Controleren [status.adobe.com](https://status.adobe.com/nl-nl) voor openstaande incidenten. Anders, gebruik de aangewezen sectie afhankelijk van de authentificatiemethode van uw organisatie.
 
 ## Adobe ID
 

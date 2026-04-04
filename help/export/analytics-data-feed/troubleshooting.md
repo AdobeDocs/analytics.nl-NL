@@ -18,7 +18,7 @@ Bepaal potentiële redenen waarom een baan zou kunnen er niet in slagen om te ve
 
 Als u een gegevensfeed hebt die per uur of per dag werkt maar onlangs mislukt, controleert u elk van de volgende opties:
 
-* Gebruik het [&#x200B; hulpmiddel van de Status van de Adobe &#x200B;](https://status.adobe.com/en/experience_cloud) om te bepalen als er om het even welke geplande onderhoudsvensters of beschikbaarheidskwesties zijn. Als er een bekende kwestie op dat moment is, verwerkt de Adobe automatisch geplande gegevensvoer zodra de dienst wordt hersteld.
+* Gebruik het [&#x200B; hulpmiddel van de Status van de Adobe &#x200B;](https://status.adobe.com/nl-nl/experience_cloud) om te bepalen als er om het even welke geplande onderhoudsvensters of beschikbaarheidskwesties zijn. Als er een bekende kwestie op dat moment is, verwerkt de Adobe automatisch geplande gegevensvoer zodra de dienst wordt hersteld.
 * Controleer of er voldoende ruimte beschikbaar is op de FTP-site. Als er onvoldoende schijfruimte beschikbaar is voor de FTP-site, verwijdert u enkele bestanden van de server om ruimte vrij te maken voor nieuwe bestanden.
 * Als er geen bekende problemen zijn en de FTP-site over voldoende schijfruimte beschikt, kunt u de gegevensfeed opnieuw verzenden.
 
